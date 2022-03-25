@@ -1,0 +1,43 @@
+y-axis:
+  - 
+    name: Front-end
+    content: 
+      - javascript-basic:
+        priority: 10
+      - http-basic:
+        priority: 10
+      - dom-basic
+      - spa-concepts
+      - chrome-debug-basic:
+        priority: 2
+  -
+    name: React
+    content:
+      - npm
+      - react-state
+      - react-hooks
+      - react-routing
+      - create-react-app:
+        priority: 4
+      - typescript-basic:
+        priority: 3
+        optional: true
+      - react-classes
+  -
+    name: React in depth
+     content:
+      - nextjs-basic
+ x-axis:
+  -
+    name: Deploy
+    content:
+        - github-basics:
+          priority: 10
+  -
+    name: UX
+    content:
+        - figma-basics:
+          priority: 8
+        
+        
+ 
