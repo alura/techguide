@@ -1,7 +1,7 @@
 y-axis:
   - 
     name: Front-end
-    content: 
+    blocks: 
       - javascript-basic:
         priority: 10
       - http-basic:
@@ -12,10 +12,11 @@ y-axis:
         priority: 2
   -
     name: React
-    content:
+    blocks:
       - npm
       - react-state
       - react-hooks
+      - styled-components
       - react-routing
       - create-react-app:
         priority: 4
@@ -25,17 +26,21 @@ y-axis:
       - react-classes
   -
     name: React in depth
-     content:
+     blocks:
       - nextjs-basic
  x-axis:
   -
     name: Deploy
-    content:
+    blocks:
         - github-basics:
           priority: 10
+        - some-kind-of-bundler:
+          priority: 6
   -
     name: UX
-    content:
+    blocks:
+        - design-systems:
+          priority: 4
         - figma-basics:
           priority: 8
         
