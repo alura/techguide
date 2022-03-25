@@ -1,4 +1,4 @@
-y-axis:
+expertise:
   - 
     name: Front-end
     blocks: 
@@ -22,13 +22,12 @@ y-axis:
         priority: 4
       - typescript-basic:
         priority: 3
-        optional: true
       - react-classes
   -
     name: React in depth
      blocks:
       - nextjs-basic
- x-axis:
+collaboration:
   -
     name: Deploy
     blocks:
