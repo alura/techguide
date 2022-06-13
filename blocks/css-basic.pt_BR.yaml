@@ -1,0 +1,47 @@
+name: CSS básico
+logo: 
+short-description:
+key-objectives:
+  - Aprender a estrutura visual de uma página, com 'margin' e 'padding'
+  - Estabelecer o tamanho com 'width' e 'height'
+  - Aprender sobre a posição de um elemento ('static', 'relative' ou 'absolute)
+  - Aprender sobre o 'display' de exibição de um elemento ('block', 'inline', 'inline-block')
+  - Aprender a posicionar imagens em relação ao texto
+  - Aprender sobre alinhamento
+  - Aprender sobre estilo de fontes
+  - Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)
+  - Conectar com os elementos (IDs, classes) de um arquivo HTML
+  - Alterar características de um elemento quando o mouse passar por cima dele ('hover')
+  - Aprender box-sizinh
+  - Aprender Flexbox
+  - Aprender Grid
+aditional-objectives:
+  - Usar um arquivo CSS básico para resetar as atribuições dos navegadores
+  - Aprender atalhos como '+', '>', '~', etc
+  - Conhecer o conceito de 'Atomic Design' e 'B.E.M.'
+  - Tornar a página responsiva com 'media screen'
+  - Aprender o conceito de Mobile First
+  - Bootstrap e frameworks de CSS
+content:
+  - https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps
+  - https://www.devmedia.com.br/como-usar-as-propriedades-margin-e-padding-css/24409
+  - https://www.w3.org/Style/Examples/007/center.pt_BR.html
+  - https://developer.mozilla.org/pt-BR/docs/Web/CSS/display
+  - https://www.youtube.com/watch?v=LWU2OR19ZG4
+  - https://www.youtube.com/watch?v=KbjLtEgmZ_E
+  - https://www.youtube.com/watch?v=yKPXW9aSxQI
+  - https://www.youtube.com/watch?v=HBlBNAtFcdw
+  - https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+alura-content:
+  - https://www.alura.com.br/artigos/html-css-e-js-definicoes
+  - https://www.alura.com.br/artigos/guia-de-unidades-no-css
+  - https://www.youtube.com/watch?v=Cu-HP-gvggg
+  - https://www.alura.com.br/artigos/css-guia-do-flexbox
+  - https://www.youtube.com/watch?v=326-B1avuYo
+  - https://www.youtube.com/watch?v=qcNUxyOWXIw
+  - https://www.youtube.com/watch?v=Q33ojlocKc0
+  - https://www.youtube.com/watch?v=78AyiuxYceg
+  - https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web
+  - https://www.alura.com.br/apostila-html-css-javascript
+  - https://www.alura.com.br/formacao-html-e-css
+  - https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first

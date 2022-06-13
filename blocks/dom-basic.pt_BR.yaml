@@ -1,0 +1,23 @@
+name: DOM básico
+logo: 
+short-description:
+key-objectives:
+  - Entender como funciona a árvore do DOM
+  - Acessar e manipular elementos do HTML e CSS
+  - Acessar os pais e filhos de um elemento
+  - Inserir um novo elemento na árvore
+  - Remover um elemento da árvore
+  - Esperar por um evento em certo elemento da página usando 'addEventListener()'
+aditional-objectives:
+content:
+  - http://devfuria.com.br/javascript/dom/
+  - http://devfuria.com.br/javascript/dom-manipulando-o-dom/
+  - https://www.devmedia.com.br/trabalhando-com-dom-em-javascript/29039
+  - https://pt.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-access/a/summary-dom-access-methods
+  - https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelectorAll
+  - https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
+  - https://www.youtube.com/watch?v=UftSB4DaRU4
+alura-content:
+  - https://cursos.alura.com.br/course/javascript-manipulando-dom
+  - https://7daysofcode.io/matricula/javascript-e-dom
+  - https://7daysofcode.io/matricula/javascript-e-dom-api

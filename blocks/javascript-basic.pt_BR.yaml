@@ -1,0 +1,40 @@
+name: JavaScript básico
+logo: 
+short-description:
+key-objectives:
+  - Conhecer os tipos primitivos
+  - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
+  - Usar estruturas condicionais ('if', 'else')
+  - Conhecer os operadores de comparação ('=', '==', '===')
+  - Usar estruturas de repetição e laços ('while', 'for')
+  - Usar funções, passando parâmetros e argumentos
+  - Manipular arrays e listas
+  - Aprender o conceito de Orientação a Objetos
+  - Fazer um CRUD
+  - Obter dados de uma API
+  - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
+aditional-objectives:
+  - Usar 'template literals'
+  - Usar funções 'arrow'
+  - Fazer desestruturação ao ler arrays
+  - Usar 'forEach'
+  - Manipular arrays com 'map', 'filter' e 'reduce'
+content:
+  - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else
+  - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while
+  - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for
+  - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals
+  - https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/
+  - https://www.youtube.com/watch?v=yS7AcF-xRUg
+  - https://www.youtube.com/watch?v=q28lfkBd9F4
+  - https://www.youtube.com/watch?v=85vJXFpXLQw
+alura-content:
+  - https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular
+  - https://www.alura.com.br/artigos/operadores-matematicos-em-javascript
+  - https://www.alura.com.br/artigos/javascript-para-que-serve-array
+  - https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map
+  - https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce
+  - https://cursos.alura.com.br/formacao-javascript-front-end
+  - https://www.youtube.com/watch?v=NaVSbnnV75Q
+  - https://www.youtube.com/watch?v=f8a-qwKC5yk
+  - https://www.youtube.com/watch?v=iohhj-k9L6s
