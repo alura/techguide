@@ -20,21 +20,84 @@ aditional-objectives:
   - Usar 'forEach'
   - Manipular arrays com 'map', 'filter' e 'reduce'
 content:
-  - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else
-  - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while
-  - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for
-  - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals
-  - https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/
-  - https://www.youtube.com/watch?v=yS7AcF-xRUg
-  - https://www.youtube.com/watch?v=q28lfkBd9F4
-  - https://www.youtube.com/watch?v=85vJXFpXLQw
+  - 
+  type: site
+  title: MDN Web Docs: Um primeiro mergulho no JavaScript
+  link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/A_first_splash
+  - 
+  type: site
+  title: MDN Web Docs: Trabalhando com texto — strings em JavaScript
+  link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Strings
+  - 
+  type: site
+  title: MDN Web Docs: if...else
+  link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else
+  - 
+  type: site
+  title: MDN Web Docs: while
+  link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while
+  - 
+  type: site
+  title: MDN Web Docs: for
+  link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for
+  - 
+  type: site
+  title: MDN Web Docs: Arrays
+  link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Arrays
+  - 
+  type: site
+  title: MDN Web Docs: Template strings
+  link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals
+  - 
+  type: site
+  title: Definindo Funções em Javascript
+  link: https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/
+  - 
+  type: youtube
+  title: Mario Souto - Dev Soutinho: Como manipular arrays e objetos em JavaScript
+  link: https://www.youtube.com/watch?v=yS7AcF-xRUg
+  - 
+  type: youtube
+  title: Mario Souto - Dev Soutinho: Como usar Async/Await? Promises no JavaScript?
+  link: https://www.youtube.com/watch?v=q28lfkBd9F4
+  - 
+  type: youtube
+  title: Mario Souto - Dev Soutinho: Como pegar dados de uma API? Como fazer AJAX? | Pegando dados de serviços via JavaScript
+  link: https://www.youtube.com/watch?v=85vJXFpXLQw
 alura-content:
-  - https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular
-  - https://www.alura.com.br/artigos/operadores-matematicos-em-javascript
-  - https://www.alura.com.br/artigos/javascript-para-que-serve-array
-  - https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map
-  - https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce
-  - https://cursos.alura.com.br/formacao-javascript-front-end
-  - https://www.youtube.com/watch?v=NaVSbnnV75Q
-  - https://www.youtube.com/watch?v=f8a-qwKC5yk
-  - https://www.youtube.com/watch?v=iohhj-k9L6s
+  - 
+  type: site
+  title: Strings com JavaScript: o que são e como manipulá-las
+  link: https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular
+  - 
+  type: site
+  title: Como utilizar operadores de comparação em Javascript
+  link: https://www.alura.com.br/artigos/operadores-matematicos-em-javascript
+  - 
+  type: site
+  title: Para que serve um Array?
+  link: https://www.alura.com.br/artigos/javascript-para-que-serve-array
+  - 
+  type: site
+  title: Quando usar forEach e map?
+  link: https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map
+  - 
+  type: site
+  title: Manipulação de array com map, filter e reduce
+  link: https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce
+  - 
+  type: course
+  title: Formação JavaScript para Front-end
+  link: https://cursos.alura.com.br/formacao-javascript-front-end
+  - 
+  type: youtube
+  title: Alura: O que é JavaScript?
+  link: https://www.youtube.com/watch?v=NaVSbnnV75Q
+  - 
+  type: youtube
+  title: Alura: Destructuring em JavaScript
+  link: https://www.youtube.com/watch?v=f8a-qwKC5yk
+  - 
+  type: youtube
+  title: Alura: Classes x funções no Javascript
+  link: https://www.youtube.com/watch?v=iohhj-k9L6s

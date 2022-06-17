@@ -18,20 +18,64 @@ aditional-objectives:
   - Importar uma fonte da web
   - Aprender sobre HTML semântico
 content:
-  - https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics
-  - https://www.coursera.org/projects/crie-sua-primeira-pagina-web-em-html
-  - https://www.youtube.com/watch?v=3oSIqIqzN3M
-  - https://www.youtube.com/watch?v=SV7TL0hxmIQ
-  - https://www.youtube.com/watch?v=llF6vD-RljE
-  - https://www.youtube.com/watch?v=wwqOJ2o84S4
-  - https://www.devmedia.com.br/html-semantico-conheca-os-elementos-semanticos-da-html5/38065
+  - 
+  type: site
+  title: MDN Web Docs: HTML básico
+  link: https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics
+  - 
+  type: 
+  title:
+  link: https://www.coursera.org/projects/crie-sua-primeira-pagina-web-em-html
+  - 
+  type: youtube
+  title: Rafaella Ballerini: 5 MINUTOS DE HTML PARA INICIAR EM PROGRAMAÇÃO!
+  link: https://www.youtube.com/watch?v=3oSIqIqzN3M
+  - 
+  type: youtube
+  title: Matheus Battisti: Curso de HTML para iniciantes - Aprenda HTML em 1 hora
+  link: https://www.youtube.com/watch?v=SV7TL0hxmIQ
+  - 
+  type: youtube
+  title: Rafaella Ballerini: LANDING PAGE COM HTML e CSS!
+  link: https://www.youtube.com/watch?v=llF6vD-RljE
+  - 
+  type: youtube
+  title: Rafaella Ballerini: FORMULÁRIOS COM HTML e CSS!
+  link: https://www.youtube.com/watch?v=wwqOJ2o84S4
 alura-content:
-  - https://www.alura.com.br/artigos/html-css-e-js-definicoes
-  - https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica
-  - https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-2-elementos-inline
-  - https://www.alura.com.br/artigos/html-tags-elementos-block-level
-  - https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-4-elementos-formulario
-  - https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-5-atributos-elementos
-  - https://www.youtube.com/watch?v=78AyiuxYceg
-  - https://www.alura.com.br/formacao-html-e-css
-  - https://www.alura.com.br/apostila-html-css-javascript
+  - 
+  type: site
+  title: HTML, CSS e Javascript, quais as diferenças?
+  link: https://www.alura.com.br/artigos/html-css-e-js-definicoes
+  - 
+  type: site
+  title: O que é o HTML e suas tags? Parte 1: estrutura básica
+  link: https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica
+  - 
+  type: site
+  title: O que é o HTML e suas tags? Parte 2: elementos inline
+  link: https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-2-elementos-inline
+  - 
+  type: site
+  title: O que é o HTML e suas tags? Parte 3: elementos block-level
+  link: https://www.alura.com.br/artigos/html-tags-elementos-block-level
+  - 
+  type: site
+  title: O que é o HTML e suas tags? Parte 4: elementos de um formulário
+  link: https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-4-elementos-formulario
+  - 
+  type: site
+  title: O que é o HTML e suas tags? Parte 5: atributos dos elementos
+  link: https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-5-atributos-elementos
+  - 
+  type: youtube
+  title: Alura: Curso de HTML5 e CSS3
+  link: https://www.youtube.com/watch?v=78AyiuxYceg
+  - 
+  type: course
+  title: Formação HTML e CSS
+  link: https://www.alura.com.br/formacao-html-e-css
+  - 
+  type: course
+  title: Apostila: Desenvolvimento Web com HTML, CSS e JavaScript
+  link: https://www.alura.com.br/apostila-html-css-javascript

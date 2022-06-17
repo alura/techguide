@@ -23,25 +23,96 @@ aditional-objectives:
   - Aprender o conceito de Mobile First
   - Bootstrap e frameworks de CSS
 content:
-  - https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps
-  - https://www.devmedia.com.br/como-usar-as-propriedades-margin-e-padding-css/24409
-  - https://www.w3.org/Style/Examples/007/center.pt_BR.html
-  - https://developer.mozilla.org/pt-BR/docs/Web/CSS/display
-  - https://www.youtube.com/watch?v=LWU2OR19ZG4
-  - https://www.youtube.com/watch?v=KbjLtEgmZ_E
-  - https://www.youtube.com/watch?v=yKPXW9aSxQI
-  - https://www.youtube.com/watch?v=HBlBNAtFcdw
-  - https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+  - 
+  type: site
+  title: MDN Web Docs: Iniciando com CSS
+  link: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started
+  - 
+  type: site
+  title: MDN Web Docs: Seletores
+  link: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors
+  - 
+  type: site
+  title: MDN Web Docs: Cascata e herança
+  link: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+  - 
+  type: site
+  title: MDN Web Docs: Propriedade 'display'
+  link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/display
+  - 
+  type: site
+  title: MDN Web Docs: Conceitos básicos de Flexbox
+  link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+  - 
+  type: site
+  title: MDN Web Docs: Grid Layout
+  link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+  - 
+  type: 
+  title:
+  link: https://www.w3.org/Style/Examples/007/center.pt_BR.html
+  - 
+  type: youtube
+  title: Rafaella Ballerini: O QUE É CSS?
+  link: https://www.youtube.com/watch?v=LWU2OR19ZG4
+  - 
+  type: youtube
+  title: Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web
+  link: https://www.youtube.com/watch?v=KbjLtEgmZ_E
+  - 
+  type: youtube
+  title: Matheus Castiglioni: Arquitetura CSS - BEM
+  link: https://www.youtube.com/watch?v=yKPXW9aSxQI
+  - 
+  type: youtube
+  title: Matheus Castiglioni: CSS Grid Layout
+  link: https://www.youtube.com/watch?v=HBlBNAtFcdw
 alura-content:
-  - https://www.alura.com.br/artigos/html-css-e-js-definicoes
-  - https://www.alura.com.br/artigos/guia-de-unidades-no-css
-  - https://www.youtube.com/watch?v=Cu-HP-gvggg
-  - https://www.alura.com.br/artigos/css-guia-do-flexbox
-  - https://www.youtube.com/watch?v=326-B1avuYo
-  - https://www.youtube.com/watch?v=qcNUxyOWXIw
-  - https://www.youtube.com/watch?v=Q33ojlocKc0
-  - https://www.youtube.com/watch?v=78AyiuxYceg
-  - https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web
-  - https://www.alura.com.br/apostila-html-css-javascript
-  - https://www.alura.com.br/formacao-html-e-css
-  - https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first
+  - 
+  type: site
+  title: HTML, CSS e Javascript, quais as diferenças?
+  link: https://www.alura.com.br/artigos/html-css-e-js-definicoes
+  - 
+  type: site
+  title: Guia de unidades no CSS
+  link: https://www.alura.com.br/artigos/guia-de-unidades-no-css
+  - 
+  type: site
+  title: CSS: Guia do Flexbox
+  link: https://www.alura.com.br/artigos/css-guia-do-flexbox
+  - 
+  type: site
+  title: Como fazer Grids e a Responsividade na Web
+  link: https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web
+  - 
+  type: youtube
+  title:
+  link: https://www.youtube.com/watch?v=Cu-HP-gvggg
+  - 
+  type: youtube
+  title:
+  link: https://www.youtube.com/watch?v=326-B1avuYo
+  - 
+  type: youtube
+  title:
+  link: https://www.youtube.com/watch?v=qcNUxyOWXIw
+  - 
+  type: youtube
+  title:
+  link: https://www.youtube.com/watch?v=Q33ojlocKc0
+  - 
+  type: youtube
+  title:
+  link: https://www.youtube.com/watch?v=78AyiuxYceg
+  - 
+  type: course
+  title: Apostila: Desenvolvimento Web com HTML, CSS e JavaScript
+  link: https://www.alura.com.br/apostila-html-css-javascript
+  - 
+  type: course
+  title: Formação HTML e CSS
+  link: https://www.alura.com.br/formacao-html-e-css
+  - 
+  type: course
+  title: HTML e CSS: responsividade com mobile-first
+  link: https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first
