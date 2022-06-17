@@ -12,12 +12,8 @@ aditional-objectives:
 content:
   - 
   type: site
-  title: Introdução ao DOM
+  title: MDN Web Docs: Introdução ao DOM
   link: https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction
-  - 
-  type: 
-  title:
-  link: https://pt.khanacademy.org/computing/computer-programming/html-css-js/html-js-dom-access/a/summary-dom-access-methods
   - 
   type: site
   title: MDN Web Docs: querySelectorAll()
@@ -28,8 +24,8 @@ content:
   link: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
   - 
   type: youtube
-  title: RocketSeat: Manipulação de DOM com JavaScript, do zero, na prática
-  link: https://www.youtube.com/watch?v=UftSB4DaRU4
+  title: Felipe Aguiar - Laboratório de javascript: Javascript DOM 01 - DOM - A base da manipulação e criação de páginas dinâmicas
+  link: https://www.youtube.com/watch?v=G31EuXNMDPk
 alura-content:
   - 
   type: course

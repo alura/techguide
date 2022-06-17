@@ -66,6 +66,18 @@ content:
   link: https://www.youtube.com/watch?v=85vJXFpXLQw
 alura-content:
   - 
+  type: podcast
+  title: Hipster 38 - O Reino encantado do JavaScript
+  link: https://www.hipsters.tech/o-reino-encantado-do-javascript-hipsters-38/
+  - 
+  type: podcast
+  title: Hipster 169 - JavaScript: manual de sobrevivência 2020
+  link: https://www.hipsters.tech/javascript-manual-de-sobrevivencia-2020-hipsters-169/
+  - 
+  type: podcast
+  title: Hipster 236 - Evolução do JavaScript
+  link: https://www.hipsters.tech/evolucao-do-javascript-hipsters-ponto-tech-236/
+  - 
   type: site
   title: Strings com JavaScript: o que são e como manipulá-las
   link: https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular
@@ -101,3 +113,11 @@ alura-content:
   type: youtube
   title: Alura: Classes x funções no Javascript
   link: https://www.youtube.com/watch?v=iohhj-k9L6s
+  - 
+  type: challenge
+  title: 7 Days of Code: JavaScript e DOM
+  link: https://7daysofcode.io/matricula/javascript-e-dom
+  - 
+  type: challenge
+  title: 7 Days of Code: JavaScript e DOM com API
+  link: https://7daysofcode.io/matricula/javascript-e-dom-api

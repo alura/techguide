@@ -11,7 +11,7 @@ expertise:
       - html-basic:
         priority: 7
       - css-basic:
-        priority: 5
+        priority: 6
       - react-props:
         priority: 9
       - react-hooks-state:
@@ -23,13 +23,14 @@ expertise:
   -
     name: React
     blocks:
-       - react-hooks-memo:
+      - react-hooks-memo:
         priority: 7
       - react-hooks-callback:
         priority: 9
       - react-use-ref:
         priority: 10
-      - design-system-libraries
+      - design-system-libraries:
+        priority: 4
       - react-dev-tools:
         priority: 5
         optional: true
@@ -94,7 +95,7 @@ collaboration:
   -
     name: Infra e Back-end
     blocks:
-        - github-basics:
+        - github-basic:
           priority: 9
         - http-basic:
           priority: 10
