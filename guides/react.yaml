@@ -12,6 +12,8 @@ expertise:
         priority: 7
       - css-basic:
         priority: 6
+      - react-components:
+        priority: 9
       - react-props:
         priority: 9
       - react-hooks-state:
@@ -62,6 +64,9 @@ expertise:
         priority: 8
       - javascript-errorhandling:
         priority: 7
+      - babel-basics:
+        priority: 6
+        optional: true
       
   -
     name: React in depth
