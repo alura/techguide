@@ -2,15 +2,15 @@ expertise:
   - 
     name: Front-end React
     blocks: 
-      - javascript-basic:
+      - javascript-fundamentals:
         priority: 10
-      - dom-basic:
+      - dom-fundamentals:
         priority: 10
       - spa-concepts:
         priority: 9
-      - html-basic:
+      - html-fundamentals:
         priority: 7
-      - css-basic:
+      - css-fundamentals:
         priority: 6
       - react-components:
         priority: 9
@@ -45,7 +45,7 @@ expertise:
         priority: 4
       - webrouting:
         priority: 7
-      - typescript-basic:
+      - typescript-fundamentals:
         priority: 5
         optional: true
       - yarn:
@@ -64,7 +64,7 @@ expertise:
         priority: 8
       - javascript-errorhandling:
         priority: 7
-      - babel-basics:
+      - babel-fundamentals:
         priority: 6
         optional: true
       
@@ -93,22 +93,22 @@ expertise:
       - redux-saga:
         optional: true
         priority: 5
-      - nextjs-basic:
+      - nextjs-fundamentals:
         optional: true
         priority: 5
 collaboration:
   -
     name: Infra e Back-end
     blocks:
-        - github-basic:
+        - github-fundamentals:
           priority: 9
-        - http-basic:
+        - http-fundamentals:
           priority: 10
         - first-deploy:
           priority: 10
         - json:
           priority: 8
-        - command-line-basics: 
+        - command-line-fundamentals: 
           priority: 8
         - babel:
           optional: true
@@ -118,7 +118,7 @@ collaboration:
     blocks:
         - design-systems:
           priority: 4
-        - figma-basics:
+        - figma-fundamentals:
           priority: 8
         - design-components:
           priority: 6
