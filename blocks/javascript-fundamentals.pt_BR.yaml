@@ -14,6 +14,7 @@ key-objectives:
   - Obter dados de uma API
   - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
 aditional-objectives:
+  - Manipular objetos JSON
   - Usar 'template literals'
   - Usar funções 'arrow'
   - Fazer desestruturação ao ler arrays
@@ -55,6 +56,10 @@ content:
   - 
   type: youtube
   title: Mario Souto - Dev Soutinho: Como manipular arrays e objetos em JavaScript
+  link: https://www.youtube.com/watch?v=yS7AcF-xRUg
+  - 
+  type: youtube
+  title: Marco Bruno: O que é Json e como criar um objeto
   link: https://www.youtube.com/watch?v=yS7AcF-xRUg
   - 
   type: youtube
