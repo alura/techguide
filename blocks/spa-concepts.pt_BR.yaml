@@ -11,11 +11,15 @@ aditional-objectives:
 content:
   - 
   type: site
-  title: React Router: Documentação
-  link: https://reactrouter.com/docs/en/v6
+  title: Wikipédia: Aplicativo de página única (SPA)
+  link: https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica
+  - 
+  type: site
+  title: MDN Web Docs: SPA (Single-page application) (inglês)
+  link: https://developer.mozilla.org/en-US/docs/Glossary/SPA
   - 
   type: article
-  title: O que eu gostaria de ter sabido sobre SPAs (inglês)
+  title: What I wish I had known about SPAs (inglês)
   link: https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/
 alura-content:
   - 
@@ -23,9 +27,17 @@ alura-content:
   title: Primeiras aulas do curso React Router: navegação em uma SPA
   link: https://www.alura.com.br/conteudo/react-router-navegacao-spa
   - 
+  type: podcast
+  title: Hipsters.tech: Single Page Applications
+  link: https://www.hipsters.tech/single-page-applications-hipsters-16/
+  - 
   type: youtube
   title: Alura: Como configurar o React Router para sua SPA
   link: https://www.youtube.com/watch?v=4Tb8dp5GYqI
+  - 
+  type: course
+  title: Imersão React: AluraCord - Aula 02
+  link: https://cursos.alura.com.br/imersoes/aulas/aula-02-state-novas-paginas-e-navegacao-spa-vs-a-tradicional-c69
   - 
   type: course
   title: Curso React Router: navegação em uma SPA
