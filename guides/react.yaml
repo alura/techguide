@@ -71,7 +71,7 @@ expertise:
   -
     name: React in depth
      blocks:
-      - lotti:
+      - lottie:
         priority: 5
         optional: true
       - framer-motion:
@@ -87,7 +87,7 @@ expertise:
       - graphql:
         optional: true
         priority: 4
-      - apolo-client:
+      - apollo-client:
         optional: true
         priority: 5
       - redux-saga:
