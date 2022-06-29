@@ -43,7 +43,7 @@ expertise:
       - styled-components:
         optional: true
         priority: 4
-      - webrouting:
+      - webrouting-react:
         priority: 7
       - typescript-fundamentals:
         priority: 5
