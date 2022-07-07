@@ -57,9 +57,6 @@ expertise:
         priority: 8
       - cypress:
         priority: 8
-      - graphql:
-        optional: true
-        priority: 4
       - javascript-callbacks-promises:
         priority: 8
       - javascript-errorhandling:
