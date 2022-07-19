@@ -1,0 +1,90 @@
+expertise:
+  - 
+    name: Java Back-end
+    blocks: 
+      - java-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 10
+      - java-errorhandling:
+        priority: 10
+      - java-collections-framework:
+        priority: 9
+      - java-packages:
+        priority: 8
+      - java-memory-management:
+        priority: 7
+      - java-concurrency:
+        priority: 8
+      - java-persistence:
+        priority: 9
+  -
+    name: Java
+    blocks:
+      - jvm:
+        priority: 8
+      - spring-framework:
+        priority: 9
+      - java-build-tools:
+        priority: 8
+      - java-testing:
+        priority: 8
+      - java-serialization:
+        priority: 6
+      - java-networking-and-sockets:
+        priority: 6
+      - java-servlets:
+        priority: 7
+      
+  -
+    name: Java in depth
+    blocks:
+      - java-microservices:
+        priority: 7
+      - containers:
+        priority: 6
+      - jsf:
+        priority: 5
+      - jms:
+        priority: 5
+        optional: true
+      - jaas:
+        priority: 4
+        optional: true
+      - struts:
+        priority: 4
+        optional: true
+      - java-logging-framework:
+        priority: 5
+        optional: true
+      - swing:
+        priority: 4
+        optional: true
+collaboration:
+  -
+    name: Infra e Back-end
+    blocks:
+        - git-and-github-fundamentals:
+          priority: 9
+        - http-fundamentals:
+          priority: 10
+        - test-driven-development:
+          priority: 7
+        - design-patterns:
+          priority: 6
+        - json:
+          priority: 8
+        - command-line-fundamentals: 
+          priority: 8
+        - cloud-fundamentals: 
+          priority: 6
+          optional: true
+   -
+    name: Front-end
+    blocks:
+        - html-fundamentals:
+          priority: 6
+        - javascript-fundamentals:
+          priority: 5
+        - css-fundamentals:
+          priority: 4
