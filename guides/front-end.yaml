@@ -1,0 +1,81 @@
+expertise:
+  - 
+    name: Front-end JavaScript
+    blocks: 
+      - html-fundamentals:
+        priority: 10
+      - css-fundamentals:
+        priority: 10
+      - javascript-fundamentals:
+        priority: 10
+      - dom-fundamentals:
+        priority: 9
+      - accessibility-tool:
+        priority: 8
+      - seo-strategy:
+        priority: 7
+      - responsive-designer:
+        priority: 7
+  -
+    name: JavaScript
+    blocks:
+      - syntax:
+        priority: 10
+      - fetch-api:
+        priority: 9
+      - es6:
+        priority: 8
+      - array-methods:
+        priority: 7
+      - javaScript-modularization:
+        priority: 6
+      
+  -
+    name: JavaScript in depth
+    blocks:
+      - objects-statements:
+        priority: 10
+      - json:
+        priority: 10
+      - functions:
+        priority: 9
+      - data-structures:
+        priority: 9
+      - child-processes:
+        priority: 7
+        optional: true
+      - storage:
+        priority: 7
+      - threads:
+        priority: 7
+        optional: true
+      - web clients:
+        priority: 6
+collaboration:
+  -
+    name: JavaScript e Ops
+    blocks:
+        - git-and-github-fundamentals:
+          priority: 10
+        - http-fundamentals:
+          priority: 10
+        - design-patterns:
+          priority: 7
+        - command-line-fundamentals: 
+          priority: 7
+        - cloud-fundamentals: 
+          priority: 6
+          optional: true
+  -
+    name: UX e Design
+    blocks:
+        - design-systems:
+          priority: 4
+        - figma-fundamentals:
+          priority: 8
+        - design-components:
+          priority: 6
+        - color-systems:
+          priority: 5
+        - how-to-use-fonts:
+          priority: 5

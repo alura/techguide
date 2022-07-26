@@ -1,0 +1,79 @@
+expertise:
+  - 
+    name: Python Fundamentals
+    blocks: 
+      - python-fundamentals:
+        priority: 10
+      - oo-fundamentals:
+        priority: 10
+      - data structs:
+        priority: 10
+      - special-methods:
+        priority: 10
+      - first-class-functions:
+        priority: 9
+  - 
+    name: Python
+    blocks: 
+      - design patterns:
+        priority: 9
+      - composition:
+        priority: 9
+      - inheritance:
+        priority: 8
+      - mixins:
+        priority: 8
+      - interfaces:
+        priority: 8
+      - operator-overloading:
+        priority: 7
+      - static-typing and protocols:
+        priority: 7
+      - protocols:
+        priority: 7
+  -
+    name: Python in deepth
+    blocks:
+      - coroutines:
+        priority: 8
+      - generators:
+        priority: 8
+        optional: true
+      - async/await:
+        priority: 7    
+      - process pools:
+        priority: 7
+      - performance-tools:
+        priority: 6
+  -
+    name: Python in depth
+    blocks:
+      - metaprogramming:
+        priority: 8
+      - http-services:
+        priority: 8
+        optional: true
+      - flask:
+        priority: 7  
+      - mvc-mtv:
+        priority: 7
+        optional: true  
+      - django:
+        priority: 7
+      - django-rest-framework:
+        priority: 6
+collaboration:
+  -
+    name: Python and Ops
+    blocks:
+        - github-fundamentals:
+          priority: 10
+        - http-fundamentals:
+          priority: 10
+        - first-deploy:
+          priority: 10
+        - json:
+          priority: 8
+        - aws-services:
+          priority: 8
+        

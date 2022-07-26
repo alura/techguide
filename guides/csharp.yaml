@@ -1,0 +1,104 @@
+expertise: 
+  - 
+    name: C# Back-end 
+    blocks: 
+      - fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 10
+      - collections-framework:
+        priority: 9
+      - nugget:
+        priority: 8
+      - i/o:
+        priority: 8
+      - memory-management:
+        priority: 7 
+      - ado. net:
+        priority: 9
+      - entityframework-core:
+        priority: 9
+     - wpf:
+        priority: 8
+  -
+    name: C#
+    blocks:
+      - clr:
+        priority: 8
+      - linq:
+        priority: 9      
+      - testing:
+        priority: 8
+      - serialization:
+        priority: 6
+      - networking-and-sockets:
+        priority: 6
+      - asp-net-core:
+        priority: 7
+      - dapper:
+        priority: 7
+     - dependency-injection:
+        priority: 7
+     - solid:
+        priority: 7
+  -
+    name: C# in depth
+    blocks:
+      - delegates e events:
+        priority: 8     
+      - containers:
+        priority: 6
+      - anonymous methods and lambda expressions:
+        priority: 6
+      - reflection e Attributes:
+        priority: 5
+        optional: true     
+      - multithread:
+        priority: 4
+        optional: true
+      - network programming:
+        priority: 5
+        optional: true
+      - muai:
+        priority: 4
+        optional: true
+
+
+  -
+    name: Infra e Back-end
+    blocks:
+        - git-and-github-fundamentals:
+          priority: 9
+        - http-fundamentals:
+          priority: 10
+        - test-driven-development:
+          priority: 7
+        - design-patterns:
+          priority: 6
+        - json:
+          priority: 8
+        - command-line-fundamentals: 
+          priority: 8
+        - cloud-fundamentals: 
+          priority: 6
+          optional: true
+       - clean-code:
+          priority: 8
+       - sql-fundamentals:
+          priority: 9
+       - microservices:
+        priority: 8
+       -  ddd:
+        priority: 8 
+       - clean-architeture:
+        priority: 8
+   -
+    name: Front-end
+    blocks:
+        - html-fundamentals:
+          priority: 6
+        - javascript-fundamentals:
+          priority: 5
+        - css-fundamentals:
+          priority: 4
+

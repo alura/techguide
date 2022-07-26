@@ -1,0 +1,75 @@
+expertise:
+  - 
+    name: Front-end Angular
+    blocks: 
+      - javascript-fundamentals:
+        priority: 10
+      - typescript-fundamentals:
+        priority: 10
+      - rxjs-fundamentals:
+        priority: 10
+      - angular-fundamentals:
+        priority: 10
+      - observable-pattern:
+        priority: 9
+
+  -
+    name: Angular
+    blocks:
+      - templates-angular:
+        priority: 9
+      - rendering-tools:
+        priority: 9
+      - services-angular:
+        priority: 8
+      - route-tool:
+        priority: 8
+      - command-line-angular:
+        priority: 7
+  -
+    name: Angular in depth
+    blocks:
+      - state-management:
+        priority: 8
+      - forms:
+        priority: 8
+        optional: true
+      - modular-tools:
+        priority: 8    
+      - performance:
+        priority: 7
+      - dependency-injection:
+        priority: 7
+      - graphql:
+        optional: true
+        priority: 7
+      - apollo-client:
+        optional: true
+        priority: 7
+      - test-angular:
+        priority: 7
+collaboration:
+  -
+    name: Infra e Back-end
+    blocks:
+        - github-fundamentals:
+          priority: 10
+        - http-fundamentals:
+          priority: 10
+        - first-deploy:
+          priority: 10
+        - json:
+          priority: 8
+  -
+    name: UX e Design
+    blocks:
+        - design-systems:
+          priority: 4
+        - figma-fundamentals:
+          priority: 8
+        - design-components:
+          priority: 6
+        - color-systems:
+          priority: 5
+        - how-to-use-fonts:
+          priority: 5
