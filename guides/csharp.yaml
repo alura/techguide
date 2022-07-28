@@ -62,8 +62,7 @@ expertise:
       - muai:
         priority: 4
         optional: true
-
-
+collaboration:
   -
     name: Infra e Back-end
     blocks:
@@ -98,7 +97,7 @@ expertise:
         - html-fundamentals:
           priority: 6
         - javascript-fundamentals:
-          priority: 5
-        - css-fundamentals:
           priority: 4
-
+          optional: true
+        - css-fundamentals:
+          priority: 5

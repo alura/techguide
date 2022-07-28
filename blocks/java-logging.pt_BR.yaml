@@ -1,0 +1,28 @@
+name: Java - Logging
+logo: 
+short-description:
+key-objectives:
+  - Realizar logging de mensagens para indicar o comportamento de determinada aplicação
+aditional-objectives:
+content:
+  - 
+  type: article
+  title: Log em Java do jeito certo – parte 1: frameworks
+  link: https://aroliveira.com/2017/07/10/log-em-java-frameworks/
+  - 
+  type: article
+  title: InfoQ: Google Flogger - um novo framework Java para logs
+  link: https://www.infoq.com/br/news/2019/06/java-logging-framework-flogger/
+  - 
+  type: youtube
+  title: Alan Augusto Souza: Utilizando Logging Slf4j com Spring Boot no Java
+  link: https://www.youtube.com/watch?v=ChIy6-ySpPM
+  - 
+  type: youtube
+  title: Dev Eficiente: Realizando logging de maneira sistemática
+  link: https://www.youtube.com/watch?v=gRrDUKxcqLM
+alura-content:
+  - 
+  type: article
+  title: Log4j: entenda mais sobre a vulnerabilidade do bug
+  link: https://www.alura.com.br/artigos/log4j-entenda-sobre-vulnerabilidade

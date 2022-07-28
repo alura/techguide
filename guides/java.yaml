@@ -42,23 +42,20 @@ expertise:
       - java-microservices:
         priority: 7
       - containers:
-        priority: 6
+        priority: 7
+      - java-spring-boot:
+        priority: 7
       - jsf:
-        priority: 5
+        priority: 3
+        optional: true
       - jms:
+        priority: 4
+        optional: true
+      - java-logging:
+        priority: 3
+        optional: true
+      - java-swing:
         priority: 5
-        optional: true
-      - jaas:
-        priority: 4
-        optional: true
-      - struts:
-        priority: 4
-        optional: true
-      - java-logging-framework:
-        priority: 5
-        optional: true
-      - swing:
-        priority: 4
         optional: true
 collaboration:
   -
@@ -68,8 +65,6 @@ collaboration:
           priority: 9
         - http-fundamentals:
           priority: 10
-        - test-driven-development:
-          priority: 7
         - design-patterns:
           priority: 6
         - json:
@@ -79,12 +74,15 @@ collaboration:
         - cloud-fundamentals: 
           priority: 6
           optional: true
+       -  sql-fundamentals:
+          priority: 9
    -
     name: Front-end
     blocks:
         - html-fundamentals:
           priority: 6
         - javascript-fundamentals:
-          priority: 5
-        - css-fundamentals:
           priority: 4
+          optional: true
+        - css-fundamentals:
+          priority: 5
