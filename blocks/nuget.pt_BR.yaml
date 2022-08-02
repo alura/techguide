@@ -2,9 +2,8 @@ name: NuGet
 logo: 
 short-description:
 key-objectives:
-  - Aprender os usos e diferenças entre Dictionary, List, Queue, SortedList e Stack
-  - Saiba trabalhar com ArrayList e HashTable
-  - Iterators
+  - Gerenciar pacotes
+  - Compartilhar bibliotecas
 aditional-objectives:
 content:
   - 
@@ -13,34 +12,18 @@ content:
   link: https://docs.microsoft.com/pt-br/nuget/what-is-nuget
   - 
   type: article
-  title: Collections
-  link: https://wilsonsantosnet.medium.com/collections-76363e18ab41
-  - 
-  type: article
-  title: Um pouco sobre estruturas de dados em C#
-  link: https://guih2127.medium.com/um-pouco-sobre-estruturas-de-dados-em-c-e4371fe651d8
+  title: Criando pacotes NuGet
+  link: https://alexalvess.medium.com/criando-pacotes-nuget-ec04dc6425a3
   - 
   type: youtube
-  title: Andre Constantino: Coleções na linguagem C#
-  link: https://www.youtube.com/watch?v=9hJ_V61NKG8
-  - 
-  type: youtube
-  title: Cléber dos Santos: C# trabalhando com Coleções
-  link: https://www.youtube.com/watch?v=SR4-_gWRlLU
+  title: Milton Sampaio - Programação: Nuget e pacotes .Net
+  link: https://www.youtube.com/watch?v=6GYcRJbOJYk
 alura-content:
   - 
-  type: article
-  title: Listas em C#
-  link: https://www.alura.com.br/artigos/listas-em-csharp
-  - 
   type: site
-  title: Apostila: C# e Orientação a Objetos - Facilitando o trabalho com coleções através das listas
-  link: https://www.alura.com.br/apostila-csharp-orientacao-objetos/trabalhando-com-listas#facilitando-o-trabalho-com-colecoes-atraves-das-listas
+  title: Primeiras aulas do curso C# parte 5: bibliotecas DLLs, documentação e usando o NuGet
+  link: https://www.alura.com.br/conteudo/csharp-biblioteca-dll-documentacao-nuget
   - 
   type: course
-  title: Curso C# Collections parte 1: Listas, arrays, listas ligadas, dicionários e conjuntos
-  link: https://cursos.alura.com.br/course/csharp-collections
-  - 
-  type: course
-  title: Curso C# Collections parte 2: Coleções ordenadas, arrays multidimensionais e LINQ
-  link: https://cursos.alura.com.br/course/csharp-collections-parte-2
+  title: Curso C# parte 5: bibliotecas DLLs, documentação e usando o NuGet
+  link: https://www.alura.com.br/curso-online-csharp-biblioteca-dll-documentacao-nuget

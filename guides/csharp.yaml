@@ -10,15 +10,15 @@ expertise:
         priority: 9
       - nuget:
         priority: 8
-      - i/o:
+      - csharp-system-io:
         priority: 8
-      - memory-management:
+      - csharp-memory-management:
         priority: 7 
       - ado.net:
         priority: 9
       - entityframework-core:
         priority: 9
-     - wpf:
+     -  wpf:
         priority: 8
   -
     name: C#

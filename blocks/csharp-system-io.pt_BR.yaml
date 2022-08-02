@@ -1,0 +1,42 @@
+name: C# - System.IO
+logo: 
+short-description:
+key-objectives:
+  - Ler dados de arquivos
+  - Escrever dados em arquivos
+  - Gerenciar arquivos com Using
+aditional-objectives:
+content:
+  - 
+  type: article
+  title: Trabalhando com a biblioteca System.IO no C#
+  link: http://luisfelipetorres.com.br/2017/11/02/trabalhando-com-a-biblioteca-system-io-no-c/
+  - 
+  type: site
+  title: Microsoft Docs: System.IO Namespace
+  link: https://docs.microsoft.com/pt-br/dotnet/api/system.io?view=net-6.0
+  - 
+  type: site
+  title: Microsoft Docs: E/S de arquivo e de fluxo
+  link: https://docs.microsoft.com/pt-br/dotnet/standard/io/
+  - 
+  type: youtube
+  title: Código Logo: C# Tutorial de IO 1 - Introdução
+  link: https://www.youtube.com/watch?v=LYTZXQpy3RY
+  - 
+  type: youtube
+  title: Código Logo: C# Tutorial de IO 15 - Como Copiar Arquivo usando o FileStream
+  link: https://www.youtube.com/watch?v=f9OOnzV6vlE
+alura-content:
+  - 
+  type: site
+  title: Apostila: C# e Orientação a Objetos - System.IO
+  link: https://www.alura.com.br/apostila-csharp-orientacao-objetos/system-io
+  - 
+  type: site
+  title: Primeiras aulas do curso C# Parte 9: entrada e saída (I/O) com streams
+  link: https://www.alura.com.br/conteudo/csharp-io
+  - 
+  type: course
+  title: Curso C# Parte 9: entrada e saída (I/O) com streams
+  link: https://cursos.alura.com.br/course/csharp-io
