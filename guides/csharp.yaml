@@ -2,19 +2,19 @@ expertise:
   - 
     name: C# Back-end 
     blocks: 
-      - fundamentals:
+      - csharp-fundamentals:
         priority: 10
       - oop-concepts:
         priority: 10
-      - collections-framework:
+      - csharp-collections:
         priority: 9
-      - nugget:
+      - nuget:
         priority: 8
       - i/o:
         priority: 8
       - memory-management:
         priority: 7 
-      - ado. net:
+      - ado.net:
         priority: 9
       - entityframework-core:
         priority: 9
@@ -44,19 +44,19 @@ expertise:
   -
     name: C# in depth
     blocks:
-      - delegates e events:
+      - delegates-and-events:
         priority: 8     
       - containers:
         priority: 6
-      - anonymous methods and lambda expressions:
+      - anonymous-methods-and-lambda-expressions:
         priority: 6
-      - reflection e Attributes:
+      - reflection-and-attributes:
         priority: 5
         optional: true     
       - multithread:
         priority: 4
         optional: true
-      - network programming:
+      - network-programming:
         priority: 5
         optional: true
       - muai:
