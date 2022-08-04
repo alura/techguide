@@ -9,7 +9,7 @@
     "start": "next start",
     "dev": "next dev",
     "build": "next build",
-    "lint": "eslint './src/**/*.{ts,tsx}' './_api/**/*.{ts,tsx}' && yamllint ./_data/guides/react.yaml",
+    "lint": "eslint './src/**/*.{ts,tsx}' './_api/**/*.{ts,tsx}' && yamllint ./_data/**/*.yaml",
     "test": "jest",
     "generate:types": "yarn generate:types:back && yarn generate:types:front",
     "generate:types:back": "graphql-codegen --config codegen.yml",
