@@ -24,11 +24,10 @@ const typeDefs = gql`
 const resolvers: Resolvers = {
   Query: {
     guides: async () => {
-      const output = await readYamlFile(
-        path.resolve("_data", "guides", "react.yaml")
-      );
-      // eslint-disable-next-line no-console
-      console.log(output);
+      // const output = await readYamlFile(
+      //   path.resolve("_data", "guides", "react.yaml")
+      // );
+      // console.log(output);
       return [
         {
           id: "1",

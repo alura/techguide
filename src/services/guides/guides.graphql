@@ -1,0 +1,6 @@
+query Guides {
+  guides {
+    id
+    name
+  }
+}
