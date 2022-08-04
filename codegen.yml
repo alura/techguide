@@ -6,6 +6,9 @@ generates:
     plugins:
       - "typescript"
       - "typescript-resolvers"
+    config:
+      scalars:
+        UUID: string
   ./graphql.schema.json:
     plugins:
       - "introspection"

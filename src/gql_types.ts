@@ -11,6 +11,7 @@ export type Scalars = {
   Boolean: boolean;
   Int: number;
   Float: number;
+  UUID: any;
 };
 
 export type CreateSampleTextInput = {
@@ -25,7 +26,7 @@ export type FieldFilter = {
 
 export type Guide = {
   __typename?: 'Guide';
-  id?: Maybe<Scalars['String']>;
+  id?: Maybe<Scalars['UUID']>;
   name?: Maybe<Scalars['String']>;
 };
 
@@ -71,7 +72,7 @@ export type CreateSampleTextMutation = { __typename?: 'Mutation', createSampleTe
 export type GuidesQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type GuidesQuery = { __typename?: 'Query', guides: Array<{ __typename?: 'Guide', id?: string | null, name?: string | null } | null> };
+export type GuidesQuery = { __typename?: 'Query', guides: Array<{ __typename?: 'Guide', id?: any | null, name?: string | null } | null> };
 
 
 export const CreateSampleTextDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"CreateSampleText"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"input"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"CreateSampleTextInput"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"createSampleText"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"input"},"value":{"kind":"Variable","name":{"kind":"Name","value":"input"}}}]}]}}]} as unknown as DocumentNode<CreateSampleTextMutation, CreateSampleTextMutationVariables>;

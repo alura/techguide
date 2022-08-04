@@ -1,11 +1,12 @@
 import { gql } from "apollo-server-micro";
-import { Resolvers } from "_api/gql_types";
-import path from "path";
-import readYamlFile from "read-yaml-file/index";
+import { Resolvers } from "@api/gql_types";
+import { uuid } from "@src/infra/uuid/uuid";
+// import path from "path";
+// import readYamlFile from "read-yaml-file/index";
 
 const typeDefs = gql`
   type Guide {
-    id: String
+    id: UUID
     name: String
   }
 
@@ -30,14 +31,14 @@ const resolvers: Resolvers = {
       // console.log(output);
       return [
         {
-          id: "1",
+          id: uuid(),
           name: "Guide 1",
         },
       ];
     },
     guide: async () => {
       return {
-        id: "1",
+        id: uuid(),
         name: "Guide 1",
       };
     },

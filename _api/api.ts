@@ -1,7 +1,10 @@
 import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core";
 import { ApolloServer, gql } from "apollo-server-micro";
 import modulesGuides from "_api/modules/guides";
+import { UUIDDefinition } from "graphql-scalars";
 export { gql } from "apollo-server-micro";
+
+const customScalars = [UUIDDefinition];
 
 const defaultTypeDefs = gql`
   # Commons
@@ -24,7 +27,7 @@ const defaultTypeDefs = gql`
 `;
 
 const serverSchema = {
-  typeDefs: [defaultTypeDefs, modulesGuides.typeDefs],
+  typeDefs: [...customScalars, defaultTypeDefs, modulesGuides.typeDefs],
   resolvers: {
     Query: {
       greet: () => "Welcome to @alura/tshapeddev",

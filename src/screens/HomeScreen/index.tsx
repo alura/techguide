@@ -1,7 +1,9 @@
 import React from "react";
 import { Box } from "@src/components";
+import { CreateSampleTextMutation, GuidesQuery } from "@src/gql_types";
 
-export default function HomeScreen(props: any) {
+type HomeScreenProps = {} & CreateSampleTextMutation & GuidesQuery;
+export default function HomeScreen(props: HomeScreenProps) {
   return (
     <Box>
       {props?.guides?.map((guide) => (
