@@ -28,6 +28,7 @@ export type Guide = {
   __typename?: 'Guide';
   id?: Maybe<Scalars['UUID']>;
   name?: Maybe<Scalars['String']>;
+  slug?: Maybe<Scalars['String']>;
 };
 
 export type GuideInput = {
