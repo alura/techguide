@@ -1,28 +1,23 @@
 Expertise:
+	- name: Fundamentos de JavaScript 
+    blocks:
+    - tipos do JS, variáveis e funções: priority:10
+    - conceito e manipulação de arrays: priority:10
+    - conceito de objetos em JS e manipulação de objs: priority:10
+    - OO com Js: herança de protótipo, funções construtoras e sintaxe de classes: priority:10
+    - Programação assíncrona, promessas e callbacks: priority:9
+    - Testes unitários: priority:9
 
-	name: Fundamentos de JavaScript 
-	blocks:
-	- tipos do JS, variáveis e funções: priority:10
-	- conceito e manipulação de arrays: priority:10
-	- conceito de objetos em JS e manipulação de objs: priority:10
-	- OO com Js: herança de protótipo, funções construtoras e sintaxe de classes: priority:10
-	- Programação assíncrona, promessas e callbacks: priority:9
-	- Testes unitários: priority:9
-
--
-
-	name: Ecossistema Node.js
-	blocks:
-	- APIs do Node.js: fs, process, http, events, stream: priority:10
-	- Node.js: loop de eventos: priority:10
-	- Construção de APIs com Express: priority:9
-	- Bancos de dados relacionais e seus gerenciadores: MySQL, Postgres, Oracle (opcional), MS SQL (opcional), SQLite, MariaDB (opcional): priority:9
-	- Testes de integração: priority:9
-	- Bancos de dados não relacionais/NoSQL: MongoDB, DynamoDB (opcional), Firebase (opcional): priority:8
-	- Uso de ORMs: Sequelize (indicado): priority:8
-	- Autenticação: hashes, OAuth, cookies, tokens/JWT: priority:8
-
--
+  - name: Ecossistema Node.js
+    blocks:
+      - APIs do Node.js: fs, process, http, events, stream: priority:10
+      - Node.js: loop de eventos: priority:10
+      - Construção de APIs com Express: priority:9
+      - Bancos de dados relacionais e seus gerenciadores: MySQL, Postgres, Oracle (opcional), MS SQL (opcional), SQLite, MariaDB (opcional): priority:9
+      - Testes de integração: priority:9
+      - Bancos de dados não relacionais/NoSQL: MongoDB, DynamoDB (opcional), Firebase (opcional): priority:8
+      - Uso de ORMs: Sequelize (indicado): priority:8
+      - Autenticação: hashes, OAuth, cookies, tokens/JWT: priority:8
 
 	name: Princípios de arquitetura, boas práticas e mais ferramentas
 	blocks:

@@ -1,5 +1,4 @@
 import React from "react";
-import { apolloServer, gql } from "_api/api";
 import { Box } from "@src/components";
 
 export default function HomeScreen({ guides }: any) {
@@ -10,21 +9,4 @@ export default function HomeScreen({ guides }: any) {
       ))}
     </Box>
   );
-}
-
-export async function getStaticProps() {
-  const { data } = await apolloServer.executeOperation({
-    query: gql`
-      query Guides {
-        guides {
-          id
-          name
-        }
-      }
-    `,
-  });
-
-  return {
-    props: data,
-  };
 }
