@@ -1,5 +1,6 @@
 import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core";
 import { ApolloServer, gql } from "apollo-server-micro";
+import { InMemoryLRUCache } from '@apollo/utils.keyvaluecache';
 import modulesGuides from "_api/modules/guides";
 import { UUIDDefinition } from "graphql-scalars";
 export { gql } from "apollo-server-micro";
@@ -43,6 +44,12 @@ const serverSchema = {
       ApolloServerPluginLandingPageGraphQLPlayground(),
   ].filter(Boolean),
   introspection: true,
+  cache: new InMemoryLRUCache({
+    // ~100MiB
+    maxSize: Math.pow(2, 20) * 100,
+    // 5 minutes (in milliseconds)
+    ttl: 300_000,
+  }),
 };
 
 export const apolloServer = new ApolloServer(serverSchema);
