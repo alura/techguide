@@ -1,6 +1,6 @@
 import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core";
 import { ApolloServer, gql } from "apollo-server-micro";
-import { InMemoryLRUCache } from '@apollo/utils.keyvaluecache';
+import { InMemoryLRUCache } from "@apollo/utils.keyvaluecache";
 import modulesGuides from "_api/modules/guides";
 import { UUIDDefinition } from "graphql-scalars";
 export { gql } from "apollo-server-micro";
