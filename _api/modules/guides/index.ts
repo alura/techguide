@@ -1,11 +1,12 @@
 import fs from "fs/promises";
 import path from "path";
 import { gql } from "apollo-server-micro";
+import readYamlFile from "read-yaml-file/index";
 import { Resolvers } from "@api/gql_types";
 import { uuid } from "@src/infra/uuid/uuid";
-import readYamlFile from "read-yaml-file/index";
 import { slugify } from "@src/infra/slugify/slugify";
 import { capitalizeFirst } from "@src/infra/string/capitalizeFirst";
+import { getLocale } from "@src/infra/locale/getLocale";
 
 const typeDefs = gql`
   type Guide {
@@ -21,33 +22,33 @@ const typeDefs = gql`
 
   # Query
   extend type Query {
-    guide(input: GuideInput): Guide
-    guides(input: GuideInput): [Guide]!
+    guide(input: GuideInput, locale: SiteLocale): Guide
+    guides(input: GuideInput, locale: SiteLocale): [Guide]!
   }
 `;
 
 const resolvers: Resolvers = {
   Query: {
-    guides: async () => {
+    guides: async (_, { locale }) => {
+      const currentLocale = getLocale(locale);
       const pathToGuides = path.resolve(".", "_data", "guides");
       const guideFileNames = await fs.readdir(
         path.resolve(".", "_data", "guides")
       );
+
       const guides = await Promise.all(
         guideFileNames.map(async (fileName) => {
           const fileContent = await readYamlFile<any>(
             path.resolve(pathToGuides, fileName)
           );
           return {
-            id: uuid(),
+            id: uuid() + currentLocale,
             slug: slugify(fileName.replace(".yaml", "")),
             name: capitalizeFirst(fileName.replace(".yaml", "")),
             ...fileContent,
           };
         })
       );
-      // eslint-disable-next-line no-console
-      // console.log(guides);
 
       return guides;
     },

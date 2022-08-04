@@ -9,6 +9,11 @@ const customScalars = [UUIDDefinition];
 
 const defaultTypeDefs = gql`
   # Commons
+  enum SiteLocale {
+    PT_BR
+    EN_US
+  }
+
   input FieldFilter {
     gte: String
     lt: String

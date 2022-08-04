@@ -56,12 +56,19 @@ export type Query = {
 
 export type QueryGuideArgs = {
   input?: InputMaybe<GuideInput>;
+  locale?: InputMaybe<SiteLocale>;
 };
 
 
 export type QueryGuidesArgs = {
   input?: InputMaybe<GuideInput>;
+  locale?: InputMaybe<SiteLocale>;
 };
+
+export enum SiteLocale {
+  EnUs = 'EN_US',
+  PtBr = 'PT_BR'
+}
 
 
 
@@ -140,6 +147,7 @@ export type ResolversTypes = {
   Int: ResolverTypeWrapper<Scalars['Int']>;
   Mutation: ResolverTypeWrapper<{}>;
   Query: ResolverTypeWrapper<{}>;
+  SiteLocale: SiteLocale;
   String: ResolverTypeWrapper<Scalars['String']>;
   UUID: ResolverTypeWrapper<Scalars['UUID']>;
 };

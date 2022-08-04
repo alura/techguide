@@ -56,12 +56,19 @@ export type Query = {
 
 export type QueryGuideArgs = {
   input?: InputMaybe<GuideInput>;
+  locale?: InputMaybe<SiteLocale>;
 };
 
 
 export type QueryGuidesArgs = {
   input?: InputMaybe<GuideInput>;
+  locale?: InputMaybe<SiteLocale>;
 };
+
+export enum SiteLocale {
+  EnUs = 'EN_US',
+  PtBr = 'PT_BR'
+}
 
 export type CreateSampleTextMutationVariables = Exact<{
   input?: InputMaybe<CreateSampleTextInput>;
