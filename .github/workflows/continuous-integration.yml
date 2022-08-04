@@ -1,0 +1,40 @@
+name: CI - Continuous Integration
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    - name: "Start: Lint"
+      run: |
+        yarn install && yarn lint
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    - name: "Start: Unit Testing"
+      run: |
+        yarn install && yarn test
+  generate_types:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    - name: "Generate: Types"
+      run: |
+        yarn install && yarn generate:types
+        git add . && git commit -m "ci: generate:types"
+        git push origin HEAD
