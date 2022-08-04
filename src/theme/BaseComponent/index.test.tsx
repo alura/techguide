@@ -1,3 +1,4 @@
+import React from "react";
 import { render } from "@src/infra/tests/react-testing-library";
 import BaseComponent from "./index";
 

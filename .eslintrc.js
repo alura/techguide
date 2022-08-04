@@ -5,12 +5,17 @@ module.exports = {
     node: true,
   },
   parser: "@typescript-eslint/parser",
+  plugins: [],
   extends: [
     "eslint:recommended",
     "plugin:jest/recommended",
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:@next/next/recommended",
     "plugin:prettier/recommended",
   ],
   rules: {
     "no-console": "error",
+    "@next/next/no-html-link-for-pages": "off",
   },
 };

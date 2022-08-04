@@ -1,7 +1,8 @@
+import React from "react";
 import { apolloServer, gql } from "@api/api";
 import { Box } from "@src/components";
 
-export default function HomeScreen({ guides }) {
+export default function HomeScreen({ guides }: any) {
   return (
     <Box>
       {guides.map((guide) => (
