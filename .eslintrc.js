@@ -1,5 +1,5 @@
 module.exports = {
-  ignorePatterns: ["api/gql_types.ts"],
+  ignorePatterns: ["_api/gql_types.ts"],
   env: {
     "jest/globals": true,
     node: true,

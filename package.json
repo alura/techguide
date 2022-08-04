@@ -9,7 +9,7 @@
     "start": "next start",
     "dev": "next dev",
     "build": "next build",
-    "lint": "eslint './src/**/*.{ts,tsx}' && eslint './api/**/*.{ts,tsx}'",
+    "lint": "eslint './src/**/*.{ts,tsx}' './_api/**/*.{ts,tsx}'",
     "test": "jest",
     "generate:types": "graphql-codegen --config codegen.yml"
   },
