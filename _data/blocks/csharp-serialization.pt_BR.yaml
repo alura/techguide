@@ -1,0 +1,30 @@
+name: C# - Serialização
+logo: 
+short-description:
+key-objectives:
+  - Enviar um objeto para um aplicativo remoto usando um serviço Web
+  - Passar um objeto como uma cadeia de caracteres JSON ou XML
+  - Manter informações específicas do usuário ou de segurança entre aplicativos
+aditional-objectives:
+content:
+  - 
+  type: site
+  title: Microsoft Docs: Serialização (C#)
+  link: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/serialization/
+  - 
+  type: site
+  title: Microsoft Docs: Serialização básica
+  link: https://docs.microsoft.com/pt-br/dotnet/standard/serialization/basic-serialization
+  - 
+  type: article
+  title: O que é serialização/serialization?
+  link: https://medium.com/@thaisdalencar/o-que-%C3%A9-serializa%C3%A7%C3%A3o-serialization-fc0887bd0970
+  - 
+  type: youtube
+  title: Miguel Jordan: Aprenda a serializar e deserializar objetos em C#
+  link: https://www.youtube.com/watch?v=wWuagfG-1sY
+  - 
+  type: youtube
+  title: Derek Banas: C# Serialization (inglês)
+  link: https://www.youtube.com/watch?v=jbwjbbc5PjI
+alura-content:

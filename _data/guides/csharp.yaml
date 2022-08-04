@@ -27,11 +27,11 @@ expertise:
         priority: 8
       - linq:
         priority: 9      
-      - testing:
+      - csharp-testing:
         priority: 8
-      - serialization:
+      - csharp-serialization:
         priority: 6
-      - networking-and-sockets:
+      - csharp-networking-and-sockets:
         priority: 6
       - asp-net-core:
         priority: 7
@@ -44,60 +44,55 @@ expertise:
   -
     name: C# in depth
     blocks:
-      - delegates-and-events:
+      - csharp-delegates-and-events:
         priority: 8     
       - containers:
         priority: 6
-      - anonymous-methods-and-lambda-expressions:
+      - csharp-anonymous-methods-and-lambdas:
         priority: 6
-      - reflection-and-attributes:
+      - csharp-reflection-and-attributes:
         priority: 5
         optional: true     
-      - multithread:
+      - csharp-multithreading:
         priority: 4
         optional: true
-      - network-programming:
-        priority: 5
-        optional: true
-      - muai:
+      - maui:
         priority: 4
         optional: true
 collaboration:
   -
     name: Infra e Back-end
     blocks:
-        - git-and-github-fundamentals:
-          priority: 9
-        - http-fundamentals:
-          priority: 10
-        - test-driven-development:
-          priority: 7
-        - design-patterns:
-          priority: 6
-        - json:
-          priority: 8
-        - command-line-fundamentals: 
-          priority: 8
-        - cloud-fundamentals: 
-          priority: 6
-          optional: true
-       - clean-code:
-          priority: 8
-       - sql-fundamentals:
-          priority: 9
-       - microservices:
+      - git-and-github-fundamentals:
+        priority: 9
+      - http-fundamentals:
+        priority: 10
+      - design-patterns:
+        priority: 6
+      - json:
         priority: 8
-       -  ddd:
+      - command-line-fundamentals: 
+        priority: 8
+      - cloud-fundamentals: 
+        priority: 6
+        optional: true
+      - clean-code:
+        priority: 8
+      - sql-fundamentals:
+        priority: 9
+      - microservices:
+        priority: 8
+      - ddd-concepts:
         priority: 8 
-       - clean-architeture:
+      - clean-architeture:
         priority: 8
    -
     name: Front-end
     blocks:
-        - html-fundamentals:
-          priority: 6
-        - javascript-fundamentals:
-          priority: 4
-          optional: true
-        - css-fundamentals:
-          priority: 5
+      - html-fundamentals:
+        priority: 6
+      - javascript-fundamentals:
+        priority: 4
+        optional: true
+      - css-fundamentals:
+        priority: 5

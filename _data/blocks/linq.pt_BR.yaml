@@ -1,0 +1,55 @@
+name: LINQ
+logo: 
+short-description:
+key-objectives:
+  - Criar consultas
+  - Conhecer as cláusulas Select e Where
+  - Consultar coleções de objetos em memória
+  - Mapear o banco de dados com Linq to Sql
+aditional-objectives:
+content:
+  - 
+  type: site
+  title: Microsoft Docs: LINQ (Consulta Integrada à Linguagem) (C#)
+  link: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/
+  - 
+  type: site
+  title: Microsoft Docs: Introdução a consultas LINQ (C#)
+  link: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries
+  - 
+  type: article
+  title: LINQ: Menos esforço, mais dados
+  link: https://lucas-eschechola.medium.com/linq-menos-esfor%C3%A7o-mais-dados-7354640afba1
+  - 
+  type: youtube
+  title: Willian Menezes: C# - Introdução ao LINQ
+  link: https://www.youtube.com/watch?v=ja1nORsswSU
+  - 
+  type: youtube
+  title: Willian Menezes: C# - LINQ - Criando a primeira consulta
+  link: https://www.youtube.com/watch?v=gC4A54H-EdQ
+  - 
+  type: youtube
+  title: André Secco: Recursos do C# - LINQ
+  link: https://www.youtube.com/watch?v=z7SsqZEDKts
+alura-content:
+  - 
+  type: course
+  title: Curso C# parte 8: List, lambda, linq
+  link: https://www.alura.com.br/curso-online-csharp-list-lambda-linq
+  - 
+  type: site
+  title: Primeiras aulas do curso Entity LinQ parte 1: crie queries poderosas em C#
+  link: https://www.alura.com.br/conteudo/linq-c-sharp
+  - 
+  type: course
+  title: Curso Entity LinQ parte 1: crie queries poderosas em C#
+  link: https://www.alura.com.br/curso-online-linq-c-sharp
+  - 
+  type: site
+  title: Primeiras aulas do curso Entity LinQ parte 2: Store Procedures e consultas com o LinQPad
+  link: https://www.alura.com.br/conteudo/linq-c-sharp-parte-2
+  - 
+  type: course
+  title: Curso Entity LinQ parte 2: Store Procedures e consultas com o LinQPad
+  link: https://www.alura.com.br/curso-online-linq-c-sharp-parte-2

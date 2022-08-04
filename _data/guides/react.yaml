@@ -1,5 +1,6 @@
 expertise:
-  - name: Front-end React
+  - 
+    name: Front-end React
     blocks: 
       - javascript-fundamentals:
         priority: 10
@@ -21,7 +22,8 @@ expertise:
         priority: 7
       - react-hooks-effect:
         priority: 9
-  - name: React
+  -
+    name: React
     blocks:
       - react-hooks-memo:
         priority: 7
@@ -41,7 +43,7 @@ expertise:
       - styled-components:
         optional: true
         priority: 4
-      - webrouting-react:
+      - react-webrouting:
         priority: 7
       - typescript-fundamentals:
         priority: 5
@@ -63,7 +65,8 @@ expertise:
         priority: 6
         optional: true
       
-  - name: React in depth
+  -
+    name: React in depth
     blocks:
       - lottie:
         priority: 5
@@ -91,7 +94,8 @@ expertise:
         optional: true
         priority: 5
 collaboration:
-  - name: Infra e Back-end
+  -
+    name: Infra e Back-end
     blocks:
         - github-fundamentals:
           priority: 9
@@ -106,7 +110,8 @@ collaboration:
         - babel:
           optional: true
           priority: 3
-  - name: UX e Design
+   -
+    name: UX e Design
     blocks:
         - design-systems:
           priority: 4
