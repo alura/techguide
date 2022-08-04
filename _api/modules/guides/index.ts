@@ -47,7 +47,7 @@ const resolvers: Resolvers = {
         })
       );
       // eslint-disable-next-line no-console
-      console.log(guides);
+      // console.log(guides);
 
       return guides;
     },
