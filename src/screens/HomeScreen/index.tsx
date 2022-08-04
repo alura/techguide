@@ -8,7 +8,7 @@ type HomeScreenProps = {} & CreateSampleTextMutation & GuidesQuery;
 export default function HomeScreen(props: HomeScreenProps) {
   return (
     <Box>
-      Im only a page
+      Sample Screen
       <Box>
         <Link href="/">
           <a>Home</a>

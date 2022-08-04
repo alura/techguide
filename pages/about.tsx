@@ -1,4 +1,4 @@
-import { initializeApollo } from "@api/apolloClient";
+import { initializeApollo } from "@src/infra/apolloClient";
 import { GuidesDocument } from "@src/gql_types";
 
 export { default } from "@src/screens/HomeScreen";
