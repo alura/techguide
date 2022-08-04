@@ -1,5 +1,5 @@
 import { gql } from "apollo-server-micro";
-import { Resolvers } from "@api/gql_types";
+import { Resolvers } from "_api/gql_types";
 
 const typeDefs = gql`
   type Guide {

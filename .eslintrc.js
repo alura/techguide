@@ -18,4 +18,9 @@ module.exports = {
     "no-console": "error",
     "@next/next/no-html-link-for-pages": "off",
   },
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
 };

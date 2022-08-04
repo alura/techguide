@@ -1,4 +1,4 @@
-import { apolloServer } from "@api/api";
+import { apolloServer } from "_api/api";
 import { PageConfig } from "next";
 
 const startServer = apolloServer.start();

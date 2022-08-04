@@ -27,4 +27,6 @@ BaseComponent.defaultProps = {
   styleSheet: {},
 };
 
+BaseComponent.displayName = "StyledBaseComponent";
+
 export default BaseComponent;

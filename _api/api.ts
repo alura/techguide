@@ -1,6 +1,6 @@
 import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core";
 import { ApolloServer, gql } from "apollo-server-micro";
-import modulesGuides from "@api/modules/guides";
+import modulesGuides from "_api/modules/guides";
 export { gql } from "apollo-server-micro";
 
 const defaultTypeDefs = gql`

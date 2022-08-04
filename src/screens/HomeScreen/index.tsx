@@ -1,5 +1,5 @@
 import React from "react";
-import { apolloServer, gql } from "@api/api";
+import { apolloServer, gql } from "_api/api";
 import { Box } from "@src/components";
 
 export default function HomeScreen({ guides }: any) {
