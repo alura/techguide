@@ -10,6 +10,7 @@ import { onError } from "@apollo/client/link/error";
 import { concatPagination } from "@apollo/client/utilities";
 import merge from "deepmerge";
 import isEqual from "lodash/isEqual";
+import { apolloServer } from "@api/api";
 export { gql } from "@apollo/client";
 
 export const APOLLO_STATE_PROP_NAME = "__APOLLO_STATE__";
@@ -34,6 +35,21 @@ const httpLink = new HttpLink({
 });
 
 function createApolloClient() {
+  // const IS_PROD = process.env.NODE_ENV === "production";
+  const IS_SERVER = typeof window === "undefined";
+
+  // SSG ONLY
+  if (IS_SERVER) {
+    return {
+      query: ({ query, variables }) => {
+        return apolloServer.executeOperation({ query, variables });
+      },
+      mutate: ({ mutation, variables }) => {
+        return apolloServer.executeOperation({ query: mutation, variables });
+      },
+    };
+  }
+
   return new ApolloClient({
     ssrMode: typeof window === "undefined",
     link: from([errorLink, httpLink]),
@@ -53,7 +69,6 @@ export function initializeApollo(
   initialState = null
 ): ApolloClient<NormalizedCacheObject> {
   const _apolloClient = apolloClient ?? createApolloClient();
-
   // If your page has Next.js data fetching methods that use Apollo Client, the initial state
   // gets hydrated here
   if (initialState) {
@@ -74,6 +89,7 @@ export function initializeApollo(
     // Restore the cache with the merged data
     _apolloClient.cache.restore(data);
   }
+
   // For SSG and SSR always create a new Apollo Client
   if (typeof window === "undefined") return _apolloClient;
   // Create the Apollo Client once in the client
