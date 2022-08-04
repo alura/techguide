@@ -1,6 +1,5 @@
 expertise:
-  - 
-    name: Python Fundamentals
+  - name: Python Fundamentals
     blocks: 
       - python-fundamentals:
         priority: 10
@@ -12,8 +11,7 @@ expertise:
         priority: 10
       - first-class-functions:
         priority: 9
-  - 
-    name: Python
+  - name: Python
     blocks: 
       - design patterns:
         priority: 9
@@ -31,8 +29,7 @@ expertise:
         priority: 7
       - protocols:
         priority: 7
-  -
-    name: Python in depth
+  - name: Python in depth
     blocks:
       - coroutines:
         priority: 8
@@ -63,8 +60,7 @@ expertise:
       - django-rest-framework:
         priority: 6
 collaboration:
-  -
-    name: Python and Ops
+  - name: Python and Ops
     blocks:
         - github-fundamentals:
           priority: 10
