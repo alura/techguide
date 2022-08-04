@@ -56,8 +56,7 @@ expertise:
         priority: 5
         optional: true
 collaboration:
-  -
-    name: Infra e Back-end
+  - name: Infra e Back-end
     blocks:
       - git-and-github-fundamentals:
         priority: 9
@@ -76,8 +75,7 @@ collaboration:
         priority: 7
       - sql-fundamentals:
         priority: 9
-   -
-    name: Front-end
+  - name: Front-end
     blocks:
       - html-fundamentals:
         priority: 6

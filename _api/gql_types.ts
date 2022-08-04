@@ -28,6 +28,7 @@ export type Guide = {
   __typename?: 'Guide';
   id?: Maybe<Scalars['UUID']>;
   name?: Maybe<Scalars['String']>;
+  slug?: Maybe<Scalars['String']>;
 };
 
 export type GuideInput = {
@@ -160,6 +161,7 @@ export type ResolversParentTypes = {
 export type GuideResolvers<ContextType = any, ParentType extends ResolversParentTypes['Guide'] = ResolversParentTypes['Guide']> = {
   id?: Resolver<Maybe<ResolversTypes['UUID']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 

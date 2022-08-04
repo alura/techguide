@@ -1,6 +1,5 @@
 expertise: 
-  - 
-    name: C# Back-end 
+  - name: C# Back-end 
     blocks: 
       - csharp-fundamentals:
         priority: 10
@@ -18,10 +17,9 @@ expertise:
         priority: 9
       - entity-framework-core:
         priority: 9
-     -  wpf:
+      - wpf:
         priority: 8
-  -
-    name: C#
+  - name: C#
     blocks:
       - clr:
         priority: 8
@@ -37,9 +35,9 @@ expertise:
         priority: 7
       - dapper:
         priority: 7
-     - dependency-injection:
+      - dependency-injection: 
         priority: 7
-     - solid:
+      - solid:
         priority: 7
   -
     name: C# in depth
@@ -60,8 +58,7 @@ expertise:
         priority: 4
         optional: true
 collaboration:
-  -
-    name: Infra e Back-end
+  - name: Infra e Back-end
     blocks:
       - git-and-github-fundamentals:
         priority: 9
@@ -86,8 +83,7 @@ collaboration:
         priority: 8 
       - clean-architeture:
         priority: 8
-   -
-    name: Front-end
+  - name: Front-end
     blocks:
       - html-fundamentals:
         priority: 6
