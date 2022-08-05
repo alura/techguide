@@ -48,7 +48,7 @@ export function guidesRepository() {
     },
     async getBySlug({ input }: { input: GuideInput }): Promise<Guide> {
       const guides = await repository.getAll({
-        input: gqlInput({
+        input: gqlInput<GuidesInput>({
           filter: {
             slug: {
               eq: input.slug,

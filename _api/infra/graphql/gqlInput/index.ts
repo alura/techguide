@@ -1,8 +1,8 @@
 import { filterFieldNormalizer } from "../filterFieldNormalizer";
 
-export function gqlInput<Input>(input: any): Input {
+export function gqlInput<Input>(input: Input): Input {
   return {
     ...input,
-    filter: filterFieldNormalizer(input?.filter),
+    filter: filterFieldNormalizer((input as unknown as any)?.filter),
   };
 }
