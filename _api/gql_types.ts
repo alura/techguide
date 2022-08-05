@@ -14,6 +14,13 @@ export type Scalars = {
   UUID: string;
 };
 
+export type Blocks = {
+  __typename?: 'Blocks';
+  id?: Maybe<Scalars['String']>;
+  priority?: Maybe<Scalars['Int']>;
+  slug?: Maybe<Scalars['String']>;
+};
+
 export type CreateSampleTextInput = {
   text: Scalars['String'];
 };
@@ -26,12 +33,30 @@ export type FieldFilter = {
 
 export type Guide = {
   __typename?: 'Guide';
-  id?: Maybe<Scalars['UUID']>;
+  expertises?: Maybe<Array<Maybe<GuideExpertise>>>;
+  id?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
 };
 
+export type GuideExpertise = {
+  __typename?: 'GuideExpertise';
+  blocks?: Maybe<Array<Maybe<Blocks>>>;
+  name?: Maybe<Scalars['String']>;
+};
+
+export type GuideFilters = {
+  id?: InputMaybe<FieldFilter>;
+  name?: InputMaybe<FieldFilter>;
+  slug?: InputMaybe<FieldFilter>;
+};
+
 export type GuideInput = {
+  slug?: InputMaybe<Scalars['String']>;
+};
+
+export type GuidesInput = {
+  filter?: InputMaybe<GuideFilters>;
   limit?: InputMaybe<Scalars['Int']>;
   offset?: InputMaybe<Scalars['Int']>;
 };
@@ -61,7 +86,7 @@ export type QueryGuideArgs = {
 
 
 export type QueryGuidesArgs = {
-  input?: InputMaybe<GuideInput>;
+  input?: InputMaybe<GuidesInput>;
   locale?: InputMaybe<SiteLocale>;
 };
 
@@ -139,11 +164,15 @@ export type DirectiveResolverFn<TResult = {}, TParent = {}, TContext = {}, TArgs
 
 /** Mapping between all available schema types and the resolvers types */
 export type ResolversTypes = {
+  Blocks: ResolverTypeWrapper<Blocks>;
   Boolean: ResolverTypeWrapper<Scalars['Boolean']>;
   CreateSampleTextInput: CreateSampleTextInput;
   FieldFilter: FieldFilter;
   Guide: ResolverTypeWrapper<Guide>;
+  GuideExpertise: ResolverTypeWrapper<GuideExpertise>;
+  GuideFilters: GuideFilters;
   GuideInput: GuideInput;
+  GuidesInput: GuidesInput;
   Int: ResolverTypeWrapper<Scalars['Int']>;
   Mutation: ResolverTypeWrapper<{}>;
   Query: ResolverTypeWrapper<{}>;
@@ -154,11 +183,15 @@ export type ResolversTypes = {
 
 /** Mapping between all available schema types and the resolvers parents */
 export type ResolversParentTypes = {
+  Blocks: Blocks;
   Boolean: Scalars['Boolean'];
   CreateSampleTextInput: CreateSampleTextInput;
   FieldFilter: FieldFilter;
   Guide: Guide;
+  GuideExpertise: GuideExpertise;
+  GuideFilters: GuideFilters;
   GuideInput: GuideInput;
+  GuidesInput: GuidesInput;
   Int: Scalars['Int'];
   Mutation: {};
   Query: {};
@@ -166,10 +199,24 @@ export type ResolversParentTypes = {
   UUID: Scalars['UUID'];
 };
 
+export type BlocksResolvers<ContextType = any, ParentType extends ResolversParentTypes['Blocks'] = ResolversParentTypes['Blocks']> = {
+  id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  priority?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
+  slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
+};
+
 export type GuideResolvers<ContextType = any, ParentType extends ResolversParentTypes['Guide'] = ResolversParentTypes['Guide']> = {
-  id?: Resolver<Maybe<ResolversTypes['UUID']>, ParentType, ContextType>;
+  expertises?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideExpertise']>>>, ParentType, ContextType>;
+  id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
+};
+
+export type GuideExpertiseResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideExpertise'] = ResolversParentTypes['GuideExpertise']> = {
+  blocks?: Resolver<Maybe<Array<Maybe<ResolversTypes['Blocks']>>>, ParentType, ContextType>;
+  name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
@@ -188,7 +235,9 @@ export interface UuidScalarConfig extends GraphQLScalarTypeConfig<ResolversTypes
 }
 
 export type Resolvers<ContextType = any> = {
+  Blocks?: BlocksResolvers<ContextType>;
   Guide?: GuideResolvers<ContextType>;
+  GuideExpertise?: GuideExpertiseResolvers<ContextType>;
   Mutation?: MutationResolvers<ContextType>;
   Query?: QueryResolvers<ContextType>;
   UUID?: GraphQLScalarType;

@@ -1,87 +1,85 @@
-Expertise:
-
-- name: Fundamentos de JavaScript 
-  blocks:
-    - tipos do JS, variáveis e funções:
+name: NodeJS
+expertise:
+  - name: Fundamentos de JavaScript 
+    blocks:
+      - tipos do JS, variáveis e funções:
+        - priority: 10
+      - conceito e manipulação de arrays:
+        - priority: 10
+      - conceito de objetos em JS e manipulação de objs:
+        - priority: 10
+      - OO com Js herança de protótipo, funções construtoras e sintaxe de classes:
+        - priority: 10
+      - Programação assíncrona, promessas e callbacks:
+        - priority: 9
+      - Testes unitários:
+        - priority: 9
+  - name: Ecossistema Node.js
+    blocks:
+      - APIs do Node.js fs, process, http, events, stream:
+        - priority: 10
+      - Node.js loop de eventos:
+        - priority: 10
+      - Construção de APIs com Express:
+        - priority: 9
+      - Bancos de dados relacionais e seus gerenciadores MySQL, Postgres, Oracle (opcional), MS SQL (opcional), SQLite, MariaDB (opcional):
+        - priority: 9
+      - Testes de integração:
+        - priority: 9
+      - Bancos de dados não relacionais/NoSQL MongoDB, DynamoDB (opcional), Firebase (opcional): priority:8
+      - Uso de ORMs Sequelize (indicado): priority:8
+      - Autenticação hashes, OAuth, cookies, tokens/JWT: priority:8
+  # - name: Princípios de arquitetura, boas práticas e mais ferramentas
+  #   blocks:
+  #     TypeScript e suas feats tipagem, decorators, interfaces, etc:
+  #       - priority: 10
+  #     Arquitetura monolitos, microsserviços, serverless:
+  #       - priority: 10
+  #     APIs RPC/gRPC:
+  #       - priority: 10
+  #     Orientação a objetos SOLID:
+  #       - priority: 9
+  #     Patterns do Node.js:
+  #       - priority: 9
+  #     Construção de APIs com Nest.js:
+  #       - priority: 8
+  #     GraphQL Apollo Server, Prisma (opcional):
+  #       - priority: 8
+  #     Testes TDD:
+  #       - priority: 8
+  #     Websockets:
+  #       - priority: 7
+  - name:  Front-End
+    blocks:
+    - Fundamentos do HTML:
       - priority: 10
-    - conceito e manipulação de arrays:
+    - Fundamentos do CSS:
       - priority: 10
-    - conceito de objetos em JS e manipulação de objs:
-      - priority: 10
-    - OO com Js herança de protótipo, funções construtoras e sintaxe de classes:
-      - priority: 10
-    - Programação assíncrona, promessas e callbacks:
+    - DOM e funcionamento do navegador:
       - priority: 9
-    - Testes unitários:
+    - APIs do JS para navegador:
       - priority: 9
-
-- name: Ecossistema Node.js
-  blocks:
-    - APIs do Node.js fs, process, http, events, stream:
-      - priority: 10
-    - Node.js loop de eventos:
-      - priority: 10
-    - Construção de APIs com Express:
-      - priority: 9
-    - Bancos de dados relacionais e seus gerenciadores MySQL, Postgres, Oracle (opcional), MS SQL (opcional), SQLite, MariaDB (opcional):
-      - priority: 9
-    - Testes de integração:
-      - priority: 9
-    - Bancos de dados não relacionais/NoSQL MongoDB, DynamoDB (opcional), Firebase (opcional): priority:8
-    - Uso de ORMs Sequelize (indicado): priority:8
-    - Autenticação hashes, OAuth, cookies, tokens/JWT: priority:8
-
-- name: Princípios de arquitetura, boas práticas e mais ferramentas
-  blocks:
-    TypeScript e suas feats tipagem, decorators, interfaces, etc:
-      - priority: 10
-    Arquitetura monolitos, microsserviços, serverless:
-      - priority: 10
-    APIs RPC/gRPC:
-      - priority: 10
-    Orientação a objetos SOLID:
-      - priority: 9
-    Patterns do Node.js:
-      - priority: 9
-    Construção de APIs com Nest.js:
+    - Funcionamento e utilização básica de alguma lib de front como React, Angular ou Vue:
       - priority: 8
-    GraphQL Apollo Server, Prisma (opcional):
+    - Consumo de APIs pelo front-end:
       - priority: 8
-    Testes TDD:
+  - name: Infraestrutura, sistemas e DevOps
+    blocks:
+    - Comandos básicos do terminal:
+      priority: 10
+    - Introdução a sistemas operacionais:
+      - priority: 10
+    - Protocolos de comunicação e redes:
+      - priority: 9
+    - Versionamento de código com Git:
+      - priority: 9
+    - Containers e uso do Docker: 
       - priority: 8
-    Websockets:
+    - Ferramentas do GitHub - Projects e Actions: 
+      - priority: 8
+    - Rotinas de CI/CD:
       - priority: 7
-
-- name:  Front-End
-  blocks:
-  - Fundamentos do HTML:
-    - priority: 10
-  - Fundamentos do CSS:
-    - priority: 10
-  - DOM e funcionamento do navegador:
-    - priority: 9
-  - APIs do JS para navegador:
-    - priority: 9
-  - Funcionamento e utilização básica de alguma lib de front como React, Angular ou Vue: priority:8
-  - Consumo de APIs pelo front-end: priority:8
-
-- name: Infraestrutura, sistemas e DevOps
-  blocks:
-  - Comandos básicos do terminal:
-    priority: 10
-  - Introdução a sistemas operacionais:
-    - priority: 10
-  - Protocolos de comunicação e redes:
-    - priority: 9
-  - Versionamento de código com Git:
-    - priority: 9
-  - Containers e uso do Docker: 
-    - priority: 8
-  - Ferramentas do GitHub - Projects e Actions: 
-    - priority: 8
-  - Rotinas de CI/CD:
-    - priority: 7
-  - Cloud (AWS, Google ou MS Azure) - serviços e configurações básicas:
-    - priority: 7
+    - Cloud (AWS, Google ou MS Azure) - serviços e configurações básicas:
+      - priority: 7
 
 

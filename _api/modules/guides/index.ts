@@ -1,62 +1,63 @@
-import fs from "fs/promises";
-import path from "path";
 import { gql } from "apollo-server-micro";
-import readYamlFile from "read-yaml-file/index";
 import { Resolvers } from "@api/gql_types";
-import { uuid } from "@src/infra/uuid/uuid";
-import { slugify } from "@src/infra/slugify/slugify";
-import { capitalizeFirst } from "@src/infra/string/capitalizeFirst";
-import { getLocale } from "@src/infra/locale/getLocale";
+import { guidesRepository } from "@api/repositories/guides";
+import { gqlInput } from "@api/infra/graphql/gqlInput";
 
 const typeDefs = gql`
-  type Guide {
-    id: UUID
+  type Blocks {
+    id: String
     slug: String
-    name: String
+    priority: Int
   }
 
-  input GuideInput {
-    limit: Int
-    offset: Int
+  # ============================================================
+
+  type GuideExpertise {
+    name: String
+    blocks: [Blocks]
+  }
+
+  type Guide {
+    id: String
+    slug: String
+    name: String
+    expertises: [GuideExpertise]
+  }
+  input GuideFilters {
+    id: FieldFilter
+    slug: FieldFilter
+    name: FieldFilter
   }
 
   # Query
+  input GuidesInput {
+    limit: Int
+    offset: Int
+    filter: GuideFilters
+  }
+  input GuideInput {
+    slug: String!
+  }
   extend type Query {
     guide(input: GuideInput, locale: SiteLocale): Guide
-    guides(input: GuideInput, locale: SiteLocale): [Guide]!
+    guides(input: GuidesInput, locale: SiteLocale): [Guide]!
   }
 `;
 
 const resolvers: Resolvers = {
   Query: {
-    guides: async (_, { locale }) => {
-      const currentLocale = getLocale(locale);
-      const pathToGuides = path.resolve(".", "_data", "guides");
-      const guideFileNames = await fs.readdir(
-        path.resolve(".", "_data", "guides")
-      );
-
-      const guides = await Promise.all(
-        guideFileNames.map(async (fileName) => {
-          const fileContent = await readYamlFile<any>(
-            path.resolve(pathToGuides, fileName)
-          );
-          return {
-            id: uuid() + currentLocale,
-            slug: slugify(fileName.replace(".yaml", "")),
-            name: capitalizeFirst(fileName.replace(".yaml", "")),
-            ...fileContent,
-          };
-        })
-      );
+    async guides(_, { input }) {
+      const guides = await guidesRepository().getAll({
+        input: gqlInput(input),
+      });
 
       return guides;
     },
-    guide: async () => {
-      return {
-        id: uuid(),
-        name: "Guide 1",
-      };
+    async guide(_, { input }) {
+      const guide = await guidesRepository().getBySlug({
+        input: gqlInput(input),
+      });
+      return guide;
     },
   },
   Mutation: {},

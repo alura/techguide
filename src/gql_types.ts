@@ -14,6 +14,13 @@ export type Scalars = {
   UUID: any;
 };
 
+export type Blocks = {
+  __typename?: 'Blocks';
+  id?: Maybe<Scalars['String']>;
+  priority?: Maybe<Scalars['Int']>;
+  slug?: Maybe<Scalars['String']>;
+};
+
 export type CreateSampleTextInput = {
   text: Scalars['String'];
 };
@@ -26,12 +33,30 @@ export type FieldFilter = {
 
 export type Guide = {
   __typename?: 'Guide';
-  id?: Maybe<Scalars['UUID']>;
+  expertises?: Maybe<Array<Maybe<GuideExpertise>>>;
+  id?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
 };
 
+export type GuideExpertise = {
+  __typename?: 'GuideExpertise';
+  blocks?: Maybe<Array<Maybe<Blocks>>>;
+  name?: Maybe<Scalars['String']>;
+};
+
+export type GuideFilters = {
+  id?: InputMaybe<FieldFilter>;
+  name?: InputMaybe<FieldFilter>;
+  slug?: InputMaybe<FieldFilter>;
+};
+
 export type GuideInput = {
+  slug?: InputMaybe<Scalars['String']>;
+};
+
+export type GuidesInput = {
+  filter?: InputMaybe<GuideFilters>;
   limit?: InputMaybe<Scalars['Int']>;
   offset?: InputMaybe<Scalars['Int']>;
 };
@@ -61,7 +86,7 @@ export type QueryGuideArgs = {
 
 
 export type QueryGuidesArgs = {
-  input?: InputMaybe<GuideInput>;
+  input?: InputMaybe<GuidesInput>;
   locale?: InputMaybe<SiteLocale>;
 };
 
@@ -80,7 +105,7 @@ export type CreateSampleTextMutation = { __typename?: 'Mutation', createSampleTe
 export type GuidesQueryVariables = Exact<{ [key: string]: never; }>;
 
 
-export type GuidesQuery = { __typename?: 'Query', guides: Array<{ __typename?: 'Guide', id?: any | null, name?: string | null } | null> };
+export type GuidesQuery = { __typename?: 'Query', guides: Array<{ __typename?: 'Guide', id?: string | null, name?: string | null } | null> };
 
 
 export const CreateSampleTextDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"mutation","name":{"kind":"Name","value":"CreateSampleText"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"input"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"CreateSampleTextInput"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"createSampleText"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"input"},"value":{"kind":"Variable","name":{"kind":"Name","value":"input"}}}]}]}}]} as unknown as DocumentNode<CreateSampleTextMutation, CreateSampleTextMutationVariables>;
