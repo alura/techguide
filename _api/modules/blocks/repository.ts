@@ -17,7 +17,7 @@ export function blocksRepository() {
   const pathToBlocks = path.resolve(".", "_data", "blocks");
   const repository = {
     async getAll({ input }: { input: BlocksInput }): Promise<Block[]> {
-      const { filter, offset, limit } = input;
+      const { filter = {}, offset, limit } = input;
 
       const blockFileNames = await (
         await Promise.all(await fs.readdir(pathToBlocks))

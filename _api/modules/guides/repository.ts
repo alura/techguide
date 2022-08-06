@@ -13,7 +13,7 @@ export function guidesRepository() {
   const pathToGuides = path.resolve(".", "_data", "guides");
   const repository = {
     async getAll({ input }: { input: GuidesInput }): Promise<Guide[]> {
-      const { filter, offset, limit } = input;
+      const { filter = {}, offset, limit } = input;
 
       const guideFileNames = (await fs.readdir(pathToGuides)).filter(
         (fileName) => ALLOW_LIST.includes(fileName)
