@@ -19,6 +19,7 @@ export type Block = {
   aditionalObjectives?: Maybe<Array<Maybe<BlockAditionalObjective>>>;
   aluraContents?: Maybe<Array<Maybe<BlockContent>>>;
   contents?: Maybe<Array<Maybe<BlockContent>>>;
+  expertises?: Maybe<Array<Maybe<GuideExpertise>>>;
   id?: Maybe<Scalars['String']>;
   keyObjectives?: Maybe<Array<Maybe<BlockKeyObjective>>>;
   logo?: Maybe<Scalars['String']>;
@@ -95,6 +96,7 @@ export type Guide = {
 export type GuideExpertise = {
   __typename?: 'GuideExpertise';
   blocks?: Maybe<Array<Maybe<Block>>>;
+  guide?: Maybe<Guide>;
   name?: Maybe<Scalars['String']>;
 };
 
@@ -283,6 +285,7 @@ export type BlockResolvers<ContextType = any, ParentType extends ResolversParent
   aditionalObjectives?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockAditionalObjective']>>>, ParentType, ContextType>;
   aluraContents?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockContent']>>>, ParentType, ContextType>;
   contents?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockContent']>>>, ParentType, ContextType>;
+  expertises?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideExpertise']>>>, ParentType, ContextType>;
   id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   keyObjectives?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockKeyObjective']>>>, ParentType, ContextType>;
   logo?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
@@ -326,6 +329,7 @@ export type GuideResolvers<ContextType = any, ParentType extends ResolversParent
 
 export type GuideExpertiseResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideExpertise'] = ResolversParentTypes['GuideExpertise']> = {
   blocks?: Resolver<Maybe<Array<Maybe<ResolversTypes['Block']>>>, ParentType, ContextType>;
+  guide?: Resolver<Maybe<ResolversTypes['Guide']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };

@@ -2,6 +2,8 @@ import { gql } from "apollo-server-micro";
 import { Resolvers } from "@api/gql_types";
 import { blocksRepository } from "@api/modules/blocks/repository";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
+import { guidesRepository } from "../guides/repository";
+import _ from "lodash";
 
 const typeDefs = gql`
   # Types
@@ -38,6 +40,7 @@ const typeDefs = gql`
     aditionalObjectives: [BlockAditionalObjective]
     contents: [BlockContent]
     aluraContents: [BlockContent]
+    expertises: [GuideExpertise]
   }
 
   # Filters
@@ -63,6 +66,20 @@ const typeDefs = gql`
 `;
 
 const resolvers: Resolvers = {
+  Block: {
+    async expertises(parent) {
+      const guides = await guidesRepository().getAll({ input: {} });
+      const expertises = guides
+        .map((guide) => {
+          return guide.expertises;
+        })
+        .flatMap((expertise) => expertise);
+
+      return _.filter(expertises, (expertise) =>
+        _.some(expertise.blocks, { slug: parent.slug })
+      );
+    },
+  },
   Query: {
     async blocks(_, { input }) {
       const blocks = await blocksRepository().getAll({

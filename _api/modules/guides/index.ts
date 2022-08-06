@@ -3,6 +3,7 @@ import { Resolvers } from "@api/gql_types";
 import { guidesRepository } from "@api/modules/guides/repository";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
 import { blocksRepository } from "../blocks/repository";
+import _ from "lodash";
 
 const typeDefs = gql`
   # Types
@@ -13,6 +14,7 @@ const typeDefs = gql`
   type GuideExpertise {
     name: String
     blocks: [Block]
+    guide: Guide
   }
 
   type Guide {
@@ -59,6 +61,12 @@ const resolvers: Resolvers = {
     },
   },
   GuideExpertise: {
+    async guide(parent) {
+      const guides = await guidesRepository().getAll({ input: {} });
+      return _.find(guides, (guide) => {
+        return _.some(guide.expertises, { name: parent.name });
+      });
+    },
     async blocks(parent) {
       const blocks = await Promise.all(
         parent.blocks.map((block) => {

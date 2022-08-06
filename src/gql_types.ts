@@ -19,6 +19,7 @@ export type Block = {
   aditionalObjectives?: Maybe<Array<Maybe<BlockAditionalObjective>>>;
   aluraContents?: Maybe<Array<Maybe<BlockContent>>>;
   contents?: Maybe<Array<Maybe<BlockContent>>>;
+  expertises?: Maybe<Array<Maybe<GuideExpertise>>>;
   id?: Maybe<Scalars['String']>;
   keyObjectives?: Maybe<Array<Maybe<BlockKeyObjective>>>;
   logo?: Maybe<Scalars['String']>;
@@ -95,6 +96,7 @@ export type Guide = {
 export type GuideExpertise = {
   __typename?: 'GuideExpertise';
   blocks?: Maybe<Array<Maybe<Block>>>;
+  guide?: Maybe<Guide>;
   name?: Maybe<Scalars['String']>;
 };
 
