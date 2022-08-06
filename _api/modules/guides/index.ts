@@ -1,6 +1,6 @@
 import { gql } from "apollo-server-micro";
 import { Resolvers } from "@api/gql_types";
-import { guidesRepository } from "@api/repositories/guides";
+import { guidesRepository } from "@api/modules/guides/repository";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
 
 const typeDefs = gql`
