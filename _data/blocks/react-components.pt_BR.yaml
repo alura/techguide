@@ -6,64 +6,49 @@ key-objectives:
   - Conhecer a biblioteca Styled Components
 aditional-objectives:
 content:
-  - 
-  type: article
-  title: Criando Styled Components Com React
-  link: https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/
-  - 
-  type: site
-  title: React: Documentação - Componentes e Props
-  link: https://pt-br.reactjs.org/docs/components-and-props.html#gatsby-focus-wrapper
-  - 
-  type: site
-  title: MDN Web Docs: Começando com React - Explorando seu primeiro componente React
-  link: https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#explorando_seu_primeiro_componente_react_%E2%80%94_%3Capp%3E
-  - 
-  type: youtube
-  title: Mario Souto - Dev Soutinho: CSS-in-JS na prática! Criando componentes com React e CSS no NextJS
-  link: https://www.youtube.com/watch?v=aDKxJfJiM28
+  - type: article
+    title: "Criando Styled Components Com React"
+    link: https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/
+  - type: site
+    title: "React: Documentação - Componentes e Props"
+    link: https://pt-br.reactjs.org/docs/components-and-props.html#gatsby-focus-wrapper
+  - type: site
+    title: "MDN Web Docs: Começando com React - Explorando seu primeiro componente React"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#explorando_seu_primeiro_componente_react_%E2%80%94_%3Capp%3E
+  - type: youtube
+    title: "Mario Souto - Dev Soutinho: CSS-in-JS na prática! Criando componentes com React e CSS no NextJS"
+    link: https://www.youtube.com/watch?v=aDKxJfJiM28
 alura-content:
-  - 
-  type: article
-  title: React: componentes com Styled Components
-  link: https://www.alura.com.br/artigos/react-componentes-com-styled-components
-  - 
-  type: site
-  title: Ciclo de vida de um componente React
-  link: https://cursos.alura.com.br/extra/alura-mais/ciclo-de-vida-de-um-componente-react-c1333
-  - 
-  type: site
-  title: Primeiras aulas do curso React: abstraindo seu CSS com Styled Components
-  link: https://www.alura.com.br/conteudo/react-styled-components
-  - 
-  type: course
-  title: Imersão React: AluraFlix
-  link: https://cursos.alura.com.br/imersoes/aulas/aula-1-react-components-e-aluraflix-c18
-  - 
-  type: course
-  title: Imersão React: AluraQuiz
-  link: https://cursos.alura.com.br/imersoes/aulas/aula-1-react-styled-components-e-next-js-c33
-  - 
-  type: course
-  title: Imersão React: AluraKut
-  link: https://cursos.alura.com.br/imersoes/aulas/aula-1-components-com-react-styled-components-e-nextjs-c53
-  - 
-  type: course
-  title: Imersão React: AluraCord
-  link: https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68
-  - 
-  type: course
-  title: Curso React: abstraindo seu CSS com Styled Components
-  link: https://www.alura.com.br/curso-online-react-styled-components
-  - 
-  type: site
-  title: Primeiras aulas do curso React: testando os seus componentes
-  link: https://www.alura.com.br/conteudo/react-testando-componentes
-  - 
-  type: course
-  title: Curso React: testando os seus componentes
-  link: https://www.alura.com.br/curso-online-react-testando-componentes
-  - 
-  type: course
-  title: Curso React: escrevendo com Typescript
-  link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript
+  - type: article
+    title: "React: componentes com Styled Components"
+    link: https://www.alura.com.br/artigos/react-componentes-com-styled-components
+  - type: site
+    title: "Ciclo de vida de um componente React"
+    link: https://cursos.alura.com.br/extra/alura-mais/ciclo-de-vida-de-um-componente-react-c1333
+  - type: site
+    title: "Primeiras aulas do curso React: abstraindo seu CSS com Styled Components"
+    link: https://www.alura.com.br/conteudo/react-styled-components
+  - type: course
+    title: "Imersão React: AluraFlix"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-1-react-components-e-aluraflix-c18
+  - type: course
+    title: "Imersão React: AluraQuiz"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-1-react-styled-components-e-next-js-c33
+  - type: course
+    title: "Imersão React: AluraKut"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-1-components-com-react-styled-components-e-nextjs-c53
+  - type: course
+    title: "Imersão React: AluraCord"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68
+  - type: course
+    title: "Curso React: abstraindo seu CSS com Styled Components"
+    link: https://www.alura.com.br/curso-online-react-styled-components
+  - type: site
+    title: "Primeiras aulas do curso React: testando os seus componentes"
+    link: https://www.alura.com.br/conteudo/react-testando-componentes
+  - type: course
+    title: "Curso React: testando os seus componentes"
+    link: https://www.alura.com.br/curso-online-react-testando-componentes
+  - type: "course"
+    title: "Curso React: escrevendo com Typescript"
+    link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript

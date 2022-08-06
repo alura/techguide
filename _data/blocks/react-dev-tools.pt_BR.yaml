@@ -5,28 +5,22 @@ key-objectives:
   - Executar o 'debugging' de aplicações
 aditional-objectives:
 content:
-  - 
-  type: site
-  title: Extensão React Developer Tools para o Google Chrome
-  link: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
-  - 
-  type: site
-  title: Documentação: Analisando componentes com o DevTools Profiler
-  link: https://pt-br.reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-devtools-profiler
-  - 
-  type: article
-  title: O que é React Developer Tool?
-  link: https://acervolima.com/o-que-e-react-developer-tool/
-  - 
-  type: article
-  title: Debug React applications with React DevTools (inglês)
-  link: https://blog.logrocket.com/debug-react-applications-with-the-new-react-devtools/
-  - 
-  type: youtube
-  title: Rubens Guimarães: Depuração no React com o React Developer Tools
-  link: https://www.youtube.com/watch?v=GHoeoW88Jis
+  - type: site
+    title: "Extensão React Developer Tools para o Google Chrome"
+    link: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+  - type: site
+    title: "Documentação: Analisando componentes com o DevTools Profiler"
+    link: https://pt-br.reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-devtools-profiler
+  - type: article
+    title: "O que é React Developer Tool?"
+    link: https://acervolima.com/o-que-e-react-developer-tool/
+  - type: article
+    title: "Debug React applications with React DevTools (inglês)"
+    link: https://blog.logrocket.com/debug-react-applications-with-the-new-react-devtools/
+  - type: youtube
+    title: "Rubens Guimarães: Depuração no React com o React Developer Tools"
+    link: https://www.youtube.com/watch?v=GHoeoW88Jis
 alura-content:
-  - 
-  type: course
-  title: Curso React: otimizando a performance
-  link: https://www.alura.com.br/curso-online-react-otimizando-performance
+  - type: course
+    title: "Curso React: otimizando a performance"
+    link: https://www.alura.com.br/curso-online-react-otimizando-performance

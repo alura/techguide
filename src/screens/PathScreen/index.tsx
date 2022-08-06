@@ -12,6 +12,8 @@ export default function PathScreen({ guide }: PathScreenProps) {
       <div>
         <a href="/">Voltar para home</a>
       </div>
+
+      <pre>{JSON.stringify(guide, null, 2)}</pre>
     </Box>
   );
 }

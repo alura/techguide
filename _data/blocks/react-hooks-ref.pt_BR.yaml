@@ -5,24 +5,19 @@ key-objectives:
   - Criar objetos mutáveis
 aditional-objectives:
 content:
-  - 
-  type: site
-  title: React: Documentação - useRef
-  link: https://pt-br.reactjs.org/docs/hooks-reference.html#useref
-  - 
-  type: article
-  title: Conhecendo o useRef do React
-  link: https://medium.com/@guigaoliveira_/conhecendo-o-useref-do-react-9d67e66
-  - 
-  type: article
-  title: Primeiros passos com React Hooks — useMemo e useCallback
-  link: https://medium.com/@devjpnobrega/primeiros-passos-com-react-hooks-usememo-e-usecallback-13d54da4f9ba
-  - 
-  type: article
-  title: The Complete Guide to useRef() and Refs in React (inglês)
-  link: https://dmitripavlutin.com/react-useref-guide/
+  - type: site
+    title: "React: Documentação - useRef"
+    link: https://pt-br.reactjs.org/docs/hooks-reference.html#useref
+  - type: article
+    title: "Conhecendo o useRef do React"
+    link: https://medium.com/@guigaoliveira_/conhecendo-o-useref-do-react-9d67e66
+  - type: article
+    title: "Primeiros passos com React Hooks — useMemo e useCallback"
+    link: https://medium.com/@devjpnobrega/primeiros-passos-com-react-hooks-usememo-e-usecallback-13d54da4f9ba
+  - type: article
+    title: "The Complete Guide to useRef() and Refs in React (inglês)"
+    link: https://dmitripavlutin.com/react-useref-guide/
 alura-content:
-  - 
-  type: course
-  title: Curso React: testando os seus componentes
-  link: https://www.alura.com.br/curso-online-react-testando-componentes
+  - type: course
+    title: "Curso React: testando os seus componentes"
+    link: https://www.alura.com.br/curso-online-react-testando-componentes

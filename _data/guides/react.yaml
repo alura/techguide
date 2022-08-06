@@ -99,8 +99,8 @@ collaboration:
           priority: 9
         - http-fundamentals:
           priority: 10
-        - first-deploy:
-          priority: 10
+        # - first-deploy:
+        #   priority: 10
         - json:
           priority: 8
         - command-line-fundamentals: 

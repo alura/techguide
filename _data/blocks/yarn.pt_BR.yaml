@@ -9,20 +9,16 @@ key-objectives:
   - Arquivo yarn.lock
 aditional-objectives:
 content:
-  - 
-  type: site
-  title: YARN: Documentação (inglês)
-  link: https://classic.yarnpkg.com/en/docs
-  - 
-  type: article
-  title: Porque você deveria dar uma chance ao Yarn?
-  link: https://rafaell-lycan.com/2017/porque-voce-deveria-dar-uma-chance-yarn/
-  - 
-  type: youtube
-  title: Lucas Santos: Yarn VS NPM, qual é melhor?
-  link: https://www.youtube.com/watch?v=vxES6rbrd-U
+  - type: site
+    title: "YARN: Documentação (inglês)"
+    link: https://classic.yarnpkg.com/en/docs
+  - type: article
+    title: "Porque você deveria dar uma chance ao Yarn?"
+    link: https://rafaell-lycan.com/2017/porque-voce-deveria-dar-uma-chance-yarn/
+  - type: youtube
+    title: "Lucas Santos: Yarn VS NPM, qual é melhor?"
+    link: https://www.youtube.com/watch?v=vxES6rbrd-U
 alura-content:
-  - 
-  type: article
-  title: NPM vs Yarn
-  link: https://www.alura.com.br/artigos/npm-vs-yarn
+  - type: article
+    title: "NPM vs Yarn"
+    link: https://www.alura.com.br/artigos/npm-vs-yarn
