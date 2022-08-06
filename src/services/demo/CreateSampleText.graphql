@@ -1,3 +1,0 @@
-mutation CreateSampleText($input: CreateSampleTextInput) {
-  createSampleText(input: $input)
-}

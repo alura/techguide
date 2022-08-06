@@ -1,0 +1,26 @@
+query PathScreenGetGuideBySlug($input: GuideInput) {
+  guide(input: $input) {
+    slug
+    name
+    expertises {
+      name
+      blocks {
+        priority
+        item {
+          slug
+          name
+        }
+      }
+    }
+    collaborations {
+      name
+      blocks {
+        priority
+        item {
+          slug
+          name
+        }
+      }
+    }
+  }
+}

@@ -7,7 +7,7 @@ import { paginate } from "@src/infra/paginate";
 import { Guide, GuideInput, GuidesInput } from "@api/gql_types";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
 
-const ALLOW_LIST = ["react.yaml", "java.yaml"];
+const ALLOW_LIST = ["react.yaml", "java.yaml", "csharp.yaml"];
 
 export function guidesRepository() {
   const pathToGuides = path.resolve(".", "_data", "guides");
