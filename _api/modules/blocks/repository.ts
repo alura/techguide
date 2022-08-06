@@ -12,6 +12,7 @@ const ALLOW_LIST = [
   "ado.net.pt_BR.yaml",
   "javascript-errorhandling.pt_BR.yaml",
   "javascript-fundamentals.pt_BR.yaml",
+  "design-systems.pt_BR.yaml",
 ];
 
 export function blocksRepository() {

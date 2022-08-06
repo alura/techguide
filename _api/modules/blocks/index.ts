@@ -76,9 +76,9 @@ const resolvers: Resolvers = {
         })
         .flatMap((expertise) => expertise);
 
-      return _.filter(expertises, (expertise) =>
-        _.some(expertise.blocks, { slug: parent.slug })
-      );
+      return _.filter(expertises, (expertise) => {
+        return _.some(expertise.blocks, { item: { slug: parent.slug } });
+      });
     },
     async collaborations(parent) {
       const guides = await guidesRepository().getAll({ input: {} });
@@ -86,11 +86,11 @@ const resolvers: Resolvers = {
         .map((guide) => {
           return guide.collaborations;
         })
-        .flatMap((expertise) => expertise);
+        .flatMap((collaboration) => collaboration);
 
-      return _.filter(collaborations, (expertise) =>
-        _.some(expertise.blocks, { slug: parent.slug })
-      );
+      return _.filter(collaborations, (collaboration) => {
+        return _.some(collaboration.blocks, { item: { slug: parent.slug } });
+      });
     },
   },
   Query: {

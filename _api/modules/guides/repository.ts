@@ -37,13 +37,15 @@ export function guidesRepository() {
               if (expertise.blocks) {
                 blocks = expertise.blocks.map((block) => {
                   const [slug] = Object.keys(block);
-
                   // eslint-disable-next-line no-console
                   // console.log(slug);
 
                   return {
-                    id: slug,
-                    slug: slug,
+                    item: {
+                      ...block,
+                      id: slug,
+                      slug: slug,
+                    },
                     priority: block.priority,
                   };
                 });
@@ -65,8 +67,11 @@ export function guidesRepository() {
                   // console.log(slug);
 
                   return {
-                    id: slug,
-                    slug: slug,
+                    item: {
+                      ...block,
+                      id: slug,
+                      slug: slug,
+                    },
                     priority: block.priority,
                   };
                 });

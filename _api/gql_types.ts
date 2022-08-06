@@ -25,7 +25,6 @@ export type Block = {
   keyObjectives?: Maybe<Array<Maybe<BlockKeyObjective>>>;
   logo?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
-  priority?: Maybe<Scalars['Int']>;
   shortDescription?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
 };
@@ -95,16 +94,22 @@ export type Guide = {
   slug?: Maybe<Scalars['String']>;
 };
 
+export type GuideBlock = {
+  __typename?: 'GuideBlock';
+  item?: Maybe<Block>;
+  priority?: Maybe<Scalars['Int']>;
+};
+
 export type GuideCollaboration = {
   __typename?: 'GuideCollaboration';
-  blocks?: Maybe<Array<Maybe<Block>>>;
+  blocks?: Maybe<Array<Maybe<GuideBlock>>>;
   guide?: Maybe<Guide>;
   name?: Maybe<Scalars['String']>;
 };
 
 export type GuideExpertise = {
   __typename?: 'GuideExpertise';
-  blocks?: Maybe<Array<Maybe<Block>>>;
+  blocks?: Maybe<Array<Maybe<GuideBlock>>>;
   guide?: Maybe<Guide>;
   name?: Maybe<Scalars['String']>;
 };
@@ -254,6 +259,7 @@ export type ResolversTypes = {
   CreateSampleTextInput: CreateSampleTextInput;
   FieldFilter: FieldFilter;
   Guide: ResolverTypeWrapper<Guide>;
+  GuideBlock: ResolverTypeWrapper<GuideBlock>;
   GuideCollaboration: ResolverTypeWrapper<GuideCollaboration>;
   GuideExpertise: ResolverTypeWrapper<GuideExpertise>;
   GuideFilters: GuideFilters;
@@ -280,6 +286,7 @@ export type ResolversParentTypes = {
   CreateSampleTextInput: CreateSampleTextInput;
   FieldFilter: FieldFilter;
   Guide: Guide;
+  GuideBlock: GuideBlock;
   GuideCollaboration: GuideCollaboration;
   GuideExpertise: GuideExpertise;
   GuideFilters: GuideFilters;
@@ -302,7 +309,6 @@ export type BlockResolvers<ContextType = any, ParentType extends ResolversParent
   keyObjectives?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockKeyObjective']>>>, ParentType, ContextType>;
   logo?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
-  priority?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   shortDescription?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
@@ -340,15 +346,21 @@ export type GuideResolvers<ContextType = any, ParentType extends ResolversParent
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
+export type GuideBlockResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideBlock'] = ResolversParentTypes['GuideBlock']> = {
+  item?: Resolver<Maybe<ResolversTypes['Block']>, ParentType, ContextType>;
+  priority?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
+};
+
 export type GuideCollaborationResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideCollaboration'] = ResolversParentTypes['GuideCollaboration']> = {
-  blocks?: Resolver<Maybe<Array<Maybe<ResolversTypes['Block']>>>, ParentType, ContextType>;
+  blocks?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideBlock']>>>, ParentType, ContextType>;
   guide?: Resolver<Maybe<ResolversTypes['Guide']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
 export type GuideExpertiseResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideExpertise'] = ResolversParentTypes['GuideExpertise']> = {
-  blocks?: Resolver<Maybe<Array<Maybe<ResolversTypes['Block']>>>, ParentType, ContextType>;
+  blocks?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideBlock']>>>, ParentType, ContextType>;
   guide?: Resolver<Maybe<ResolversTypes['Guide']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
@@ -376,6 +388,7 @@ export type Resolvers<ContextType = any> = {
   BlockContent?: BlockContentResolvers<ContextType>;
   BlockKeyObjective?: BlockKeyObjectiveResolvers<ContextType>;
   Guide?: GuideResolvers<ContextType>;
+  GuideBlock?: GuideBlockResolvers<ContextType>;
   GuideCollaboration?: GuideCollaborationResolvers<ContextType>;
   GuideExpertise?: GuideExpertiseResolvers<ContextType>;
   Mutation?: MutationResolvers<ContextType>;

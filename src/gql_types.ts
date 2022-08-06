@@ -25,7 +25,6 @@ export type Block = {
   keyObjectives?: Maybe<Array<Maybe<BlockKeyObjective>>>;
   logo?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
-  priority?: Maybe<Scalars['Int']>;
   shortDescription?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
 };
@@ -95,16 +94,22 @@ export type Guide = {
   slug?: Maybe<Scalars['String']>;
 };
 
+export type GuideBlock = {
+  __typename?: 'GuideBlock';
+  item?: Maybe<Block>;
+  priority?: Maybe<Scalars['Int']>;
+};
+
 export type GuideCollaboration = {
   __typename?: 'GuideCollaboration';
-  blocks?: Maybe<Array<Maybe<Block>>>;
+  blocks?: Maybe<Array<Maybe<GuideBlock>>>;
   guide?: Maybe<Guide>;
   name?: Maybe<Scalars['String']>;
 };
 
 export type GuideExpertise = {
   __typename?: 'GuideExpertise';
-  blocks?: Maybe<Array<Maybe<Block>>>;
+  blocks?: Maybe<Array<Maybe<GuideBlock>>>;
   guide?: Maybe<Guide>;
   name?: Maybe<Scalars['String']>;
 };

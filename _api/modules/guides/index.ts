@@ -1,24 +1,24 @@
+import _ from "lodash";
 import { gql } from "apollo-server-micro";
 import { Resolvers } from "@api/gql_types";
 import { guidesRepository } from "@api/modules/guides/repository";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
 import { blocksRepository } from "../blocks/repository";
-import _ from "lodash";
 
 const typeDefs = gql`
-  # Types
-  extend type Block {
+  type GuideBlock {
     priority: Int
+    item: Block
   }
 
   type GuideExpertise {
     name: String
-    blocks: [Block]
+    blocks: [GuideBlock]
     guide: Guide
   }
   type GuideCollaboration {
     name: String
-    blocks: [Block]
+    blocks: [GuideBlock]
     guide: Guide
   }
 
@@ -73,18 +73,20 @@ const resolvers: Resolvers = {
         return _.some(guide.expertises, { name: parent.name });
       });
     },
-    async blocks(parent) {
-      const blocks = await Promise.all(
-        parent.blocks.map((block) => {
-          return blocksRepository().getBySlug({
-            input: gqlInput({
-              slug: block.slug,
-            }),
-          });
-        })
-      );
-
-      return blocks;
+  },
+  GuideCollaboration: {
+    async guide(parent) {
+      const guides = await guidesRepository().getAll({ input: {} });
+      return _.find(guides, (guide) => {
+        return _.some(guide.collaborations, { name: parent.name });
+      });
+    },
+  },
+  GuideBlock: {
+    async item(parent) {
+      return blocksRepository().getBySlug({
+        input: gqlInput({ slug: parent.item.slug }),
+      });
     },
   },
   Mutation: {},
