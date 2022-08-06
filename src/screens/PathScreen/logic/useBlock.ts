@@ -56,7 +56,7 @@ function drawBlocks(svg: any, data: any) {
     .append("text")
     .attr("x", (d) => d.x0 + 10) // +10 to adjust position (more right)
     .attr("y", (d) => d.y0 + 20) // +20 to adjust position (lower)
-    .text((d) => d.data.name.join(" ")) // Display only the first word
+    .text((d) => d.data.name?.join(" ")) // Display only the first word
     .attr("font-family", "sans-serif")
     .attr("font-size", "10px")
     .attr("fill", "white");

@@ -16,7 +16,7 @@ export default function PathScreen({ guide }: PathScreenProps) {
     { name: "Origin", parent: "", value: "0" },
     ...guide.expertises[0].blocks.map((block) => {
       return {
-        name: block.item.name.split(" "),
+        name: block?.item?.name.split(" "),
         parent: "Origin",
         value: String(block.priority),
       };
@@ -26,7 +26,7 @@ export default function PathScreen({ guide }: PathScreenProps) {
     { name: "Origin", parent: "", value: "0" },
     ...guide.expertises[1].blocks.map((block) => {
       return {
-        name: block.item.name.split(" "),
+        name: block?.item?.name.split(" "),
         parent: "Origin",
         value: String(block.priority),
       };
@@ -36,7 +36,7 @@ export default function PathScreen({ guide }: PathScreenProps) {
     { name: "Origin", parent: "", value: "0" },
     ...guide.expertises[2].blocks.map((block) => {
       return {
-        name: block.item.name.split(" "),
+        name: block?.item?.name.split(" "),
         parent: "Origin",
         value: String(block.priority),
       };
@@ -46,7 +46,7 @@ export default function PathScreen({ guide }: PathScreenProps) {
     { name: "Origin", parent: "", value: "0" },
     ...guide.collaborations[0].blocks.map((block) => {
       return {
-        name: block.item.name.split(" "),
+        name: block?.item?.name.split(" "),
         parent: "Origin",
         value: String(block.priority),
       };
@@ -56,7 +56,7 @@ export default function PathScreen({ guide }: PathScreenProps) {
     { name: "Origin", parent: "", value: "0" },
     ...guide.collaborations[1].blocks.map((block) => {
       return {
-        name: block.item.name.split(" "),
+        name: block?.item?.name.split(" "),
         parent: "Origin",
         value: String(block.priority),
       };
