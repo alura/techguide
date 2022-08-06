@@ -11,6 +11,7 @@ const ALLOW_LIST = [
   "java-persistence.pt_BR.yaml",
   "ado.net.pt_BR.yaml",
   "javascript-errorhandling.pt_BR.yaml",
+  "javascript-fundamentals.pt_BR.yaml",
 ];
 
 export function blocksRepository() {
