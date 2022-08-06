@@ -56,6 +56,9 @@ const ALLOW_LIST = [
   "design-components.pt_BR.yaml",
   "color-systems.pt_BR.yaml",
   "how-to-use-fonts.pt_BR.yaml",
+  "git-and-github-fundamentals.pt_BR.yaml",
+  "command-line-fundamentals.pt_BR.yaml",
+  "babel-fundamentals.pt_BR.yaml",
 ];
 
 export function blocksRepository() {

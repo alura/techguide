@@ -95,7 +95,7 @@ expertise:
 collaboration:
   - name: Infra e Back-end
     blocks:
-        - github-fundamentals:
+        - git-and-github-fundamentals:
           priority: 9
         - http-fundamentals:
           priority: 10
@@ -105,7 +105,7 @@ collaboration:
           priority: 8
         - command-line-fundamentals: 
           priority: 8
-        - babel:
+        - babel-fundamentals:
           optional: true
           priority: 3
   - name: UX e Design
