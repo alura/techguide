@@ -23,6 +23,7 @@ export type Block = {
   keyObjectives?: Maybe<Array<Maybe<BlockKeyObjective>>>;
   logo?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
+  priority?: Maybe<Scalars['Int']>;
   shortDescription?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
 };
@@ -67,13 +68,6 @@ export type BlockKeyObjective = {
   slug?: Maybe<Scalars['String']>;
 };
 
-export type Blocks = {
-  __typename?: 'Blocks';
-  id?: Maybe<Scalars['String']>;
-  priority?: Maybe<Scalars['Int']>;
-  slug?: Maybe<Scalars['String']>;
-};
-
 export type BlocksInput = {
   filter?: InputMaybe<BlockFilters>;
   limit?: InputMaybe<Scalars['Int']>;
@@ -100,7 +94,7 @@ export type Guide = {
 
 export type GuideExpertise = {
   __typename?: 'GuideExpertise';
-  blocks?: Maybe<Array<Maybe<Blocks>>>;
+  blocks?: Maybe<Array<Maybe<Block>>>;
   name?: Maybe<Scalars['String']>;
 };
 
@@ -244,7 +238,6 @@ export type ResolversTypes = {
   BlockFilters: BlockFilters;
   BlockInput: BlockInput;
   BlockKeyObjective: ResolverTypeWrapper<BlockKeyObjective>;
-  Blocks: ResolverTypeWrapper<Blocks>;
   BlocksInput: BlocksInput;
   Boolean: ResolverTypeWrapper<Scalars['Boolean']>;
   CreateSampleTextInput: CreateSampleTextInput;
@@ -270,7 +263,6 @@ export type ResolversParentTypes = {
   BlockFilters: BlockFilters;
   BlockInput: BlockInput;
   BlockKeyObjective: BlockKeyObjective;
-  Blocks: Blocks;
   BlocksInput: BlocksInput;
   Boolean: Scalars['Boolean'];
   CreateSampleTextInput: CreateSampleTextInput;
@@ -295,6 +287,7 @@ export type BlockResolvers<ContextType = any, ParentType extends ResolversParent
   keyObjectives?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockKeyObjective']>>>, ParentType, ContextType>;
   logo?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  priority?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   shortDescription?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
@@ -323,13 +316,6 @@ export type BlockKeyObjectiveResolvers<ContextType = any, ParentType extends Res
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
-export type BlocksResolvers<ContextType = any, ParentType extends ResolversParentTypes['Blocks'] = ResolversParentTypes['Blocks']> = {
-  id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
-  priority?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
-  slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
-  __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
-};
-
 export type GuideResolvers<ContextType = any, ParentType extends ResolversParentTypes['Guide'] = ResolversParentTypes['Guide']> = {
   expertises?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideExpertise']>>>, ParentType, ContextType>;
   id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
@@ -339,7 +325,7 @@ export type GuideResolvers<ContextType = any, ParentType extends ResolversParent
 };
 
 export type GuideExpertiseResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideExpertise'] = ResolversParentTypes['GuideExpertise']> = {
-  blocks?: Resolver<Maybe<Array<Maybe<ResolversTypes['Blocks']>>>, ParentType, ContextType>;
+  blocks?: Resolver<Maybe<Array<Maybe<ResolversTypes['Block']>>>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
@@ -365,7 +351,6 @@ export type Resolvers<ContextType = any> = {
   BlockAditionalObjective?: BlockAditionalObjectiveResolvers<ContextType>;
   BlockContent?: BlockContentResolvers<ContextType>;
   BlockKeyObjective?: BlockKeyObjectiveResolvers<ContextType>;
-  Blocks?: BlocksResolvers<ContextType>;
   Guide?: GuideResolvers<ContextType>;
   GuideExpertise?: GuideExpertiseResolvers<ContextType>;
   Mutation?: MutationResolvers<ContextType>;

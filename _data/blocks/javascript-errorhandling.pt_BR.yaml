@@ -7,28 +7,22 @@ key-objectives:
   - Criar exceções específicas
 aditional-objectives:
 content:
-  - 
-  type: site
-  title: MDN Web Docs: Controle de Fluxo e Manipulação de Erro
-  link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#declara%C3%A7%C3%B5es_de_manipula%C3%A7%C3%A3o_de_error
-  - 
-  type: site
-  title: Microsoft TechNet: JavaScript: Tratamento de erros
-  link: https://social.technet.microsoft.com/wiki/pt-br/contents/articles/32455.javascript-tratamento-de-erros.aspx
-  - 
-  type: article
-  title: Exceções e Erros em JavaScript
-  link: http://gabrielprates.com/2017/06/02/excecoes-e-erros-em-js.html
-  - 
-  type: youtube
-  title: Tratando erros no Javascript - Uso do Try Catch
-  link: https://www.youtube.com/watch?v=xPpK0X0zEbA
+  - type: site
+    title: "MDN Web Docs: Controle de Fluxo e Manipulação de Erro"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#declara%C3%A7%C3%B5es_de_manipula%C3%A7%C3%A3o_de_error
+  - type: site
+    title: "Microsoft TechNet: JavaScript: Tratamento de erros"
+    link: https://social.technet.microsoft.com/wiki/pt-br/contents/articles/32455.javascript-tratamento-de-erros.aspx
+  - type: article
+    title: "Exceções e Erros em JavaScript"
+    link: http://gabrielprates.com/2017/06/02/excecoes-e-erros-em-js.html
+  - type: youtube
+    title: "Tratando erros no Javascript - Uso do Try Catch"
+    link: https://www.youtube.com/watch?v=xPpK0X0zEbA
 alura-content:
-  - 
-  type: course
-  title: Curso JavaScript: programando na linguagem da web
-  link: https://www.alura.com.br/curso-online-javascript-programando-na-linguagem-web
-  - 
-  type: course
-  title: Formação JavaScript para Front-end
-  link: https://www.alura.com.br/formacao-javascript-front-end
+  - type: course
+    title: "Curso JavaScript: programando na linguagem da web"
+    link: https://www.alura.com.br/curso-online-javascript-programando-na-linguagem-web
+  - type: course
+    title: "Formação JavaScript para Front-end"
+    link: https://www.alura.com.br/formacao-javascript-front-end

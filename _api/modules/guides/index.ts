@@ -2,19 +2,17 @@ import { gql } from "apollo-server-micro";
 import { Resolvers } from "@api/gql_types";
 import { guidesRepository } from "@api/modules/guides/repository";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
+import { blocksRepository } from "../blocks/repository";
 
 const typeDefs = gql`
-  type Blocks {
-    id: String
-    slug: String
+  # Types
+  extend type Block {
     priority: Int
   }
 
-  # ============================================================
-
   type GuideExpertise {
     name: String
-    blocks: [Blocks]
+    blocks: [Block]
   }
 
   type Guide {
@@ -58,6 +56,21 @@ const resolvers: Resolvers = {
         input: gqlInput(input),
       });
       return guide;
+    },
+  },
+  GuideExpertise: {
+    async blocks(parent) {
+      const blocks = await Promise.all(
+        parent.blocks.map((block) => {
+          return blocksRepository().getBySlug({
+            input: gqlInput({
+              slug: block.slug,
+            }),
+          });
+        })
+      );
+
+      return blocks;
     },
   },
   Mutation: {},

@@ -42,6 +42,8 @@ const serverSchema = {
     modulesBlocks.typeDefs,
   ],
   resolvers: {
+    ...modulesGuides.resolvers,
+    ...modulesBlocks.resolvers,
     Query: {
       greet: () => "Welcome to @alura/tshapeddev",
       ...modulesGuides.resolvers.Query,
