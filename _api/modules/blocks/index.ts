@@ -41,6 +41,7 @@ const typeDefs = gql`
     contents: [BlockContent]
     aluraContents: [BlockContent]
     expertises: [GuideExpertise]
+    collaborations: [GuideCollaboration]
   }
 
   # Filters
@@ -76,6 +77,18 @@ const resolvers: Resolvers = {
         .flatMap((expertise) => expertise);
 
       return _.filter(expertises, (expertise) =>
+        _.some(expertise.blocks, { slug: parent.slug })
+      );
+    },
+    async collaborations(parent) {
+      const guides = await guidesRepository().getAll({ input: {} });
+      const collaborations = guides
+        .map((guide) => {
+          return guide.collaborations;
+        })
+        .flatMap((expertise) => expertise);
+
+      return _.filter(collaborations, (expertise) =>
         _.some(expertise.blocks, { slug: parent.slug })
       );
     },

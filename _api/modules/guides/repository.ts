@@ -7,7 +7,7 @@ import { paginate } from "@src/infra/paginate";
 import { Guide, GuideInput, GuidesInput } from "@api/gql_types";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
 
-const ALLOW_LIST = ["react.yaml"];
+const ALLOW_LIST = ["react.yaml", "java.yaml"];
 
 export function guidesRepository() {
   const pathToGuides = path.resolve(".", "_data", "guides");
@@ -51,6 +51,29 @@ export function guidesRepository() {
 
               return {
                 ...expertise,
+                blocks,
+              };
+            }),
+            collaborations: fileContent.collaboration.map((collaboration) => {
+              let blocks = [];
+
+              if (collaboration.blocks) {
+                blocks = collaboration.blocks.map((block) => {
+                  const [slug] = Object.keys(block);
+
+                  // eslint-disable-next-line no-console
+                  // console.log(slug);
+
+                  return {
+                    id: slug,
+                    slug: slug,
+                    priority: block.priority,
+                  };
+                });
+              }
+
+              return {
+                ...collaboration,
                 blocks,
               };
             }),

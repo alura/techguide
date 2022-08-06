@@ -18,6 +18,7 @@ export type Block = {
   __typename?: 'Block';
   aditionalObjectives?: Maybe<Array<Maybe<BlockAditionalObjective>>>;
   aluraContents?: Maybe<Array<Maybe<BlockContent>>>;
+  collaborations?: Maybe<Array<Maybe<GuideCollaboration>>>;
   contents?: Maybe<Array<Maybe<BlockContent>>>;
   expertises?: Maybe<Array<Maybe<GuideExpertise>>>;
   id?: Maybe<Scalars['String']>;
@@ -87,10 +88,18 @@ export type FieldFilter = {
 
 export type Guide = {
   __typename?: 'Guide';
+  collaborations?: Maybe<Array<Maybe<GuideCollaboration>>>;
   expertises?: Maybe<Array<Maybe<GuideExpertise>>>;
   id?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
+};
+
+export type GuideCollaboration = {
+  __typename?: 'GuideCollaboration';
+  blocks?: Maybe<Array<Maybe<Block>>>;
+  guide?: Maybe<Guide>;
+  name?: Maybe<Scalars['String']>;
 };
 
 export type GuideExpertise = {
@@ -245,6 +254,7 @@ export type ResolversTypes = {
   CreateSampleTextInput: CreateSampleTextInput;
   FieldFilter: FieldFilter;
   Guide: ResolverTypeWrapper<Guide>;
+  GuideCollaboration: ResolverTypeWrapper<GuideCollaboration>;
   GuideExpertise: ResolverTypeWrapper<GuideExpertise>;
   GuideFilters: GuideFilters;
   GuideInput: GuideInput;
@@ -270,6 +280,7 @@ export type ResolversParentTypes = {
   CreateSampleTextInput: CreateSampleTextInput;
   FieldFilter: FieldFilter;
   Guide: Guide;
+  GuideCollaboration: GuideCollaboration;
   GuideExpertise: GuideExpertise;
   GuideFilters: GuideFilters;
   GuideInput: GuideInput;
@@ -284,6 +295,7 @@ export type ResolversParentTypes = {
 export type BlockResolvers<ContextType = any, ParentType extends ResolversParentTypes['Block'] = ResolversParentTypes['Block']> = {
   aditionalObjectives?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockAditionalObjective']>>>, ParentType, ContextType>;
   aluraContents?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockContent']>>>, ParentType, ContextType>;
+  collaborations?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideCollaboration']>>>, ParentType, ContextType>;
   contents?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockContent']>>>, ParentType, ContextType>;
   expertises?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideExpertise']>>>, ParentType, ContextType>;
   id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
@@ -320,10 +332,18 @@ export type BlockKeyObjectiveResolvers<ContextType = any, ParentType extends Res
 };
 
 export type GuideResolvers<ContextType = any, ParentType extends ResolversParentTypes['Guide'] = ResolversParentTypes['Guide']> = {
+  collaborations?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideCollaboration']>>>, ParentType, ContextType>;
   expertises?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideExpertise']>>>, ParentType, ContextType>;
   id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
+};
+
+export type GuideCollaborationResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideCollaboration'] = ResolversParentTypes['GuideCollaboration']> = {
+  blocks?: Resolver<Maybe<Array<Maybe<ResolversTypes['Block']>>>, ParentType, ContextType>;
+  guide?: Resolver<Maybe<ResolversTypes['Guide']>, ParentType, ContextType>;
+  name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
@@ -356,6 +376,7 @@ export type Resolvers<ContextType = any> = {
   BlockContent?: BlockContentResolvers<ContextType>;
   BlockKeyObjective?: BlockKeyObjectiveResolvers<ContextType>;
   Guide?: GuideResolvers<ContextType>;
+  GuideCollaboration?: GuideCollaborationResolvers<ContextType>;
   GuideExpertise?: GuideExpertiseResolvers<ContextType>;
   Mutation?: MutationResolvers<ContextType>;
   Query?: QueryResolvers<ContextType>;

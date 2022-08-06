@@ -16,12 +16,18 @@ const typeDefs = gql`
     blocks: [Block]
     guide: Guide
   }
+  type GuideCollaboration {
+    name: String
+    blocks: [Block]
+    guide: Guide
+  }
 
   type Guide {
     id: String
     slug: String
     name: String
     expertises: [GuideExpertise]
+    collaborations: [GuideCollaboration]
   }
   input GuideFilters {
     id: FieldFilter

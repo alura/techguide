@@ -18,6 +18,7 @@ export type Block = {
   __typename?: 'Block';
   aditionalObjectives?: Maybe<Array<Maybe<BlockAditionalObjective>>>;
   aluraContents?: Maybe<Array<Maybe<BlockContent>>>;
+  collaborations?: Maybe<Array<Maybe<GuideCollaboration>>>;
   contents?: Maybe<Array<Maybe<BlockContent>>>;
   expertises?: Maybe<Array<Maybe<GuideExpertise>>>;
   id?: Maybe<Scalars['String']>;
@@ -87,10 +88,18 @@ export type FieldFilter = {
 
 export type Guide = {
   __typename?: 'Guide';
+  collaborations?: Maybe<Array<Maybe<GuideCollaboration>>>;
   expertises?: Maybe<Array<Maybe<GuideExpertise>>>;
   id?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
+};
+
+export type GuideCollaboration = {
+  __typename?: 'GuideCollaboration';
+  blocks?: Maybe<Array<Maybe<Block>>>;
+  guide?: Maybe<Guide>;
+  name?: Maybe<Scalars['String']>;
 };
 
 export type GuideExpertise = {
