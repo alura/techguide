@@ -1,32 +1,60 @@
+/* eslint-disable no-console */
 import React from "react";
 import { Box } from "@src/components";
 import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
+import { useBlock } from "./logic/useBlock";
+
+interface BlockData {
+  name: string[] | string;
+  parent: "Origin" | "" | string;
+  value: string;
+}
 
 type PathScreenProps = PathScreenGetGuideBySlugQuery;
 export default function PathScreen({ guide }: PathScreenProps) {
+  const baseData: BlockData[] = [
+    { name: "Origin", parent: "", value: "0" },
+    ...guide.expertises[0].blocks.map((block) => {
+      return {
+        name: block.item.name.split(" "),
+        parent: "Origin",
+        value: String(block.priority),
+      };
+    }),
+  ];
+
+  // const leftBlockSVG = useBlock(baseData);
+  // const rightBlockSVG = useBlock(baseData);
+  const expertiseFirst = useBlock(baseData);
+
   return (
     <Box>
       <h1>{guide.name}</h1>
       <h2>{guide.slug}</h2>
 
-      <section>
-        <h3>Esquerdo</h3>
-        {guide.collaborations[0].name}
-        {guide.collaborations[0].blocks.map((block) => (
-          <div key={block.item?.slug}>
-            {block.priority} - {block?.item?.name}
-          </div>
-        ))}
-      </section>
-      <section>
-        <h3>Direita</h3>
-        {guide.collaborations[1].name}
-        {guide.collaborations[1].blocks.map((block) => (
-          <div key={block.item?.slug}>
-            {block.priority} - {block?.item?.name}
-          </div>
-        ))}
-      </section>
+      <Box
+        styleSheet={{
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        {/* <svg
+          viewBox="0 0 445 445"
+          ref={leftBlockSVG}
+          style={{ width: "100%", height: "100%", aspectRatio: "1" }}
+        /> */}
+        <svg
+          viewBox="0 0 445 445"
+          ref={expertiseFirst}
+          style={{ width: "50%", height: "100%", aspectRatio: "1" }}
+        />
+        {/* <svg
+          viewBox="0 0 445 445"
+          ref={rightBlockSVG}
+          style={{ width: "100%", height: "100%", aspectRatio: "1" }}
+        /> */}
+      </Box>
 
       <div>
         <a href="/">Voltar para home</a>
@@ -36,7 +64,7 @@ export default function PathScreen({ guide }: PathScreenProps) {
         <hr />
       </div>
 
-      <pre>{JSON.stringify(guide, null, 2)}</pre>
+      {/* <pre>{JSON.stringify(guide, null, 2)}</pre> */}
     </Box>
   );
 }
