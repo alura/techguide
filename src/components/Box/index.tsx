@@ -6,12 +6,19 @@ interface BoxProps {
   tag?: "main" | "div" | "article" | "section" | "ul" | string;
   children?: React.ReactNode;
   styleSheet?: StyleSheet;
+  [key: string]: string | any;
 }
-export default function Box({ styleSheet, children, tag, ...props }: BoxProps) {
-  const Tag = tag || "div";
-  return (
-    <BaseComponent as={Tag} styleSheet={styleSheet} {...props}>
-      {children}
-    </BaseComponent>
-  );
-}
+const Box = React.forwardRef(
+  ({ styleSheet, children, tag, ...props }: BoxProps, ref) => {
+    const Tag = tag || "div";
+    return (
+      <BaseComponent ref={ref} as={Tag} styleSheet={styleSheet} {...props}>
+        {children}
+      </BaseComponent>
+    );
+  }
+);
+
+Box.displayName = "Box";
+
+export default Box;

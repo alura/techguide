@@ -12,7 +12,7 @@ interface BlockData {
 
 type PathScreenProps = PathScreenGetGuideBySlugQuery;
 export default function PathScreen({ guide }: PathScreenProps) {
-  const baseData: BlockData[] = [
+  const expertiseLevel01: BlockData[] = [
     { name: "Origin", parent: "", value: "0" },
     ...guide.expertises[0].blocks.map((block) => {
       return {
@@ -22,10 +22,52 @@ export default function PathScreen({ guide }: PathScreenProps) {
       };
     }),
   ];
+  const expertiseLevel02: BlockData[] = [
+    { name: "Origin", parent: "", value: "0" },
+    ...guide.expertises[1].blocks.map((block) => {
+      return {
+        name: block.item.name.split(" "),
+        parent: "Origin",
+        value: String(block.priority),
+      };
+    }),
+  ];
+  const expertiseLevel03: BlockData[] = [
+    { name: "Origin", parent: "", value: "0" },
+    ...guide.expertises[2].blocks.map((block) => {
+      return {
+        name: block.item.name.split(" "),
+        parent: "Origin",
+        value: String(block.priority),
+      };
+    }),
+  ];
+  const collaborationsLeft: BlockData[] = [
+    { name: "Origin", parent: "", value: "0" },
+    ...guide.collaborations[0].blocks.map((block) => {
+      return {
+        name: block.item.name.split(" "),
+        parent: "Origin",
+        value: String(block.priority),
+      };
+    }),
+  ];
+  const collaborationsRight: BlockData[] = [
+    { name: "Origin", parent: "", value: "0" },
+    ...guide.collaborations[1].blocks.map((block) => {
+      return {
+        name: block.item.name.split(" "),
+        parent: "Origin",
+        value: String(block.priority),
+      };
+    }),
+  ];
 
-  // const leftBlockSVG = useBlock(baseData);
-  // const rightBlockSVG = useBlock(baseData);
-  const expertiseFirst = useBlock(baseData);
+  const leftBlockSVG = useBlock(collaborationsLeft);
+  const rightBlockSVG = useBlock(collaborationsRight);
+  const expertiseFirst = useBlock(expertiseLevel01);
+  const expertiseSecond = useBlock(expertiseLevel02);
+  const expertiseThird = useBlock(expertiseLevel03);
 
   return (
     <Box>
@@ -39,21 +81,67 @@ export default function PathScreen({ guide }: PathScreenProps) {
           justifyContent: "center",
         }}
       >
-        {/* <svg
+        <Box
+          tag="svg"
           viewBox="0 0 445 445"
           ref={leftBlockSVG}
-          style={{ width: "100%", height: "100%", aspectRatio: "1" }}
-        /> */}
-        <svg
+          styleSheet={{
+            width: "33.3%",
+          }}
+        />
+        <Box
+          tag="svg"
           viewBox="0 0 445 445"
           ref={expertiseFirst}
-          style={{ width: "50%", height: "100%", aspectRatio: "1" }}
+          styleSheet={{
+            width: "33.3%",
+          }}
         />
-        {/* <svg
+
+        <Box
+          tag="svg"
           viewBox="0 0 445 445"
           ref={rightBlockSVG}
-          style={{ width: "100%", height: "100%", aspectRatio: "1" }}
-        /> */}
+          styleSheet={{
+            width: "33.3%",
+          }}
+        />
+      </Box>
+      <Box
+        styleSheet={{
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <Box styleSheet={{ width: "33.3%" }} />
+        <Box
+          tag="svg"
+          viewBox="0 0 445 445"
+          ref={expertiseSecond}
+          styleSheet={{
+            width: "33.3%",
+          }}
+        />
+        <Box styleSheet={{ width: "33.3%" }} />
+      </Box>
+      <Box
+        styleSheet={{
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <Box styleSheet={{ width: "33.3%" }} />
+        <Box
+          tag="svg"
+          viewBox="0 0 445 445"
+          ref={expertiseThird}
+          styleSheet={{
+            width: "33.3%",
+          }}
+        />
+        <Box styleSheet={{ width: "33.3%" }} />
       </Box>
 
       <div>
@@ -64,7 +152,9 @@ export default function PathScreen({ guide }: PathScreenProps) {
         <hr />
       </div>
 
-      {/* <pre>{JSON.stringify(guide, null, 2)}</pre> */}
+      <pre style={{ width: "100%", overflow: "scroll" }}>
+        {JSON.stringify(guide, null, 2)}
+      </pre>
     </Box>
   );
 }
