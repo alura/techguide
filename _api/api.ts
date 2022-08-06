@@ -1,9 +1,11 @@
 import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core";
 import { ApolloServer, gql } from "apollo-server-micro";
 import { InMemoryLRUCache } from "@apollo/utils.keyvaluecache";
-import modulesGuides from "_api/modules/guides";
 import { UUIDDefinition } from "graphql-scalars";
 export { gql } from "apollo-server-micro";
+// [Modules]
+import modulesGuides from "_api/modules/guides";
+import modulesBlocks from "_api/modules/blocks";
 
 const customScalars = [UUIDDefinition];
 
@@ -33,15 +35,22 @@ const defaultTypeDefs = gql`
 `;
 
 const serverSchema = {
-  typeDefs: [...customScalars, defaultTypeDefs, modulesGuides.typeDefs],
+  typeDefs: [
+    ...customScalars,
+    defaultTypeDefs,
+    modulesGuides.typeDefs,
+    modulesBlocks.typeDefs,
+  ],
   resolvers: {
     Query: {
       greet: () => "Welcome to @alura/tshapeddev",
       ...modulesGuides.resolvers.Query,
+      ...modulesBlocks.resolvers.Query,
     },
     Mutation: {
       createSampleText: (_: unknown, args) => args.input.text,
       ...modulesGuides.resolvers.Mutation,
+      ...modulesBlocks.resolvers.Mutation,
     },
   },
   plugins: [

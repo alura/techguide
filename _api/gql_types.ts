@@ -14,11 +14,70 @@ export type Scalars = {
   UUID: string;
 };
 
+export type Block = {
+  __typename?: 'Block';
+  aditionalObjectives?: Maybe<Array<Maybe<BlockAditionalObjective>>>;
+  aluraContents?: Maybe<Array<Maybe<BlockContent>>>;
+  contents?: Maybe<Array<Maybe<BlockContent>>>;
+  id?: Maybe<Scalars['String']>;
+  keyObjectives?: Maybe<Array<Maybe<BlockKeyObjective>>>;
+  logo?: Maybe<Scalars['String']>;
+  name?: Maybe<Scalars['String']>;
+  shortDescription?: Maybe<Scalars['String']>;
+  slug?: Maybe<Scalars['String']>;
+};
+
+export type BlockAditionalObjective = {
+  __typename?: 'BlockAditionalObjective';
+  id?: Maybe<Scalars['String']>;
+  name?: Maybe<Scalars['String']>;
+  slug?: Maybe<Scalars['String']>;
+};
+
+export type BlockContent = {
+  __typename?: 'BlockContent';
+  id?: Maybe<Scalars['String']>;
+  link?: Maybe<Scalars['String']>;
+  slug?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+  type?: Maybe<BlockContentType>;
+};
+
+export enum BlockContentType {
+  Article = 'ARTICLE',
+  Course = 'COURSE',
+  Site = 'SITE',
+  Youtube = 'YOUTUBE'
+}
+
+export type BlockFilters = {
+  id?: InputMaybe<FieldFilter>;
+  name?: InputMaybe<FieldFilter>;
+  slug?: InputMaybe<FieldFilter>;
+};
+
+export type BlockInput = {
+  slug: Scalars['String'];
+};
+
+export type BlockKeyObjective = {
+  __typename?: 'BlockKeyObjective';
+  id?: Maybe<Scalars['String']>;
+  name?: Maybe<Scalars['String']>;
+  slug?: Maybe<Scalars['String']>;
+};
+
 export type Blocks = {
   __typename?: 'Blocks';
   id?: Maybe<Scalars['String']>;
   priority?: Maybe<Scalars['Int']>;
   slug?: Maybe<Scalars['String']>;
+};
+
+export type BlocksInput = {
+  filter?: InputMaybe<BlockFilters>;
+  limit?: InputMaybe<Scalars['Int']>;
+  offset?: InputMaybe<Scalars['Int']>;
 };
 
 export type CreateSampleTextInput = {
@@ -52,7 +111,7 @@ export type GuideFilters = {
 };
 
 export type GuideInput = {
-  slug?: InputMaybe<Scalars['String']>;
+  slug: Scalars['String'];
 };
 
 export type GuidesInput = {
@@ -73,9 +132,23 @@ export type MutationCreateSampleTextArgs = {
 
 export type Query = {
   __typename?: 'Query';
+  block?: Maybe<Block>;
+  blocks: Array<Maybe<Block>>;
   greet?: Maybe<Scalars['String']>;
   guide?: Maybe<Guide>;
   guides: Array<Maybe<Guide>>;
+};
+
+
+export type QueryBlockArgs = {
+  input?: InputMaybe<BlockInput>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+export type QueryBlocksArgs = {
+  input?: InputMaybe<BlocksInput>;
+  locale?: InputMaybe<SiteLocale>;
 };
 
 
@@ -164,7 +237,15 @@ export type DirectiveResolverFn<TResult = {}, TParent = {}, TContext = {}, TArgs
 
 /** Mapping between all available schema types and the resolvers types */
 export type ResolversTypes = {
+  Block: ResolverTypeWrapper<Block>;
+  BlockAditionalObjective: ResolverTypeWrapper<BlockAditionalObjective>;
+  BlockContent: ResolverTypeWrapper<BlockContent>;
+  BlockContentType: BlockContentType;
+  BlockFilters: BlockFilters;
+  BlockInput: BlockInput;
+  BlockKeyObjective: ResolverTypeWrapper<BlockKeyObjective>;
   Blocks: ResolverTypeWrapper<Blocks>;
+  BlocksInput: BlocksInput;
   Boolean: ResolverTypeWrapper<Scalars['Boolean']>;
   CreateSampleTextInput: CreateSampleTextInput;
   FieldFilter: FieldFilter;
@@ -183,7 +264,14 @@ export type ResolversTypes = {
 
 /** Mapping between all available schema types and the resolvers parents */
 export type ResolversParentTypes = {
+  Block: Block;
+  BlockAditionalObjective: BlockAditionalObjective;
+  BlockContent: BlockContent;
+  BlockFilters: BlockFilters;
+  BlockInput: BlockInput;
+  BlockKeyObjective: BlockKeyObjective;
   Blocks: Blocks;
+  BlocksInput: BlocksInput;
   Boolean: Scalars['Boolean'];
   CreateSampleTextInput: CreateSampleTextInput;
   FieldFilter: FieldFilter;
@@ -197,6 +285,42 @@ export type ResolversParentTypes = {
   Query: {};
   String: Scalars['String'];
   UUID: Scalars['UUID'];
+};
+
+export type BlockResolvers<ContextType = any, ParentType extends ResolversParentTypes['Block'] = ResolversParentTypes['Block']> = {
+  aditionalObjectives?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockAditionalObjective']>>>, ParentType, ContextType>;
+  aluraContents?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockContent']>>>, ParentType, ContextType>;
+  contents?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockContent']>>>, ParentType, ContextType>;
+  id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  keyObjectives?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockKeyObjective']>>>, ParentType, ContextType>;
+  logo?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  shortDescription?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
+};
+
+export type BlockAditionalObjectiveResolvers<ContextType = any, ParentType extends ResolversParentTypes['BlockAditionalObjective'] = ResolversParentTypes['BlockAditionalObjective']> = {
+  id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
+};
+
+export type BlockContentResolvers<ContextType = any, ParentType extends ResolversParentTypes['BlockContent'] = ResolversParentTypes['BlockContent']> = {
+  id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  link?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  title?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  type?: Resolver<Maybe<ResolversTypes['BlockContentType']>, ParentType, ContextType>;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
+};
+
+export type BlockKeyObjectiveResolvers<ContextType = any, ParentType extends ResolversParentTypes['BlockKeyObjective'] = ResolversParentTypes['BlockKeyObjective']> = {
+  id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
 export type BlocksResolvers<ContextType = any, ParentType extends ResolversParentTypes['Blocks'] = ResolversParentTypes['Blocks']> = {
@@ -225,6 +349,8 @@ export type MutationResolvers<ContextType = any, ParentType extends ResolversPar
 };
 
 export type QueryResolvers<ContextType = any, ParentType extends ResolversParentTypes['Query'] = ResolversParentTypes['Query']> = {
+  block?: Resolver<Maybe<ResolversTypes['Block']>, ParentType, ContextType, Partial<QueryBlockArgs>>;
+  blocks?: Resolver<Array<Maybe<ResolversTypes['Block']>>, ParentType, ContextType, Partial<QueryBlocksArgs>>;
   greet?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   guide?: Resolver<Maybe<ResolversTypes['Guide']>, ParentType, ContextType, Partial<QueryGuideArgs>>;
   guides?: Resolver<Array<Maybe<ResolversTypes['Guide']>>, ParentType, ContextType, Partial<QueryGuidesArgs>>;
@@ -235,6 +361,10 @@ export interface UuidScalarConfig extends GraphQLScalarTypeConfig<ResolversTypes
 }
 
 export type Resolvers<ContextType = any> = {
+  Block?: BlockResolvers<ContextType>;
+  BlockAditionalObjective?: BlockAditionalObjectiveResolvers<ContextType>;
+  BlockContent?: BlockContentResolvers<ContextType>;
+  BlockKeyObjective?: BlockKeyObjectiveResolvers<ContextType>;
   Blocks?: BlocksResolvers<ContextType>;
   Guide?: GuideResolvers<ContextType>;
   GuideExpertise?: GuideExpertiseResolvers<ContextType>;

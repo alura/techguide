@@ -14,11 +14,70 @@ export type Scalars = {
   UUID: any;
 };
 
+export type Block = {
+  __typename?: 'Block';
+  aditionalObjectives?: Maybe<Array<Maybe<BlockAditionalObjective>>>;
+  aluraContents?: Maybe<Array<Maybe<BlockContent>>>;
+  contents?: Maybe<Array<Maybe<BlockContent>>>;
+  id?: Maybe<Scalars['String']>;
+  keyObjectives?: Maybe<Array<Maybe<BlockKeyObjective>>>;
+  logo?: Maybe<Scalars['String']>;
+  name?: Maybe<Scalars['String']>;
+  shortDescription?: Maybe<Scalars['String']>;
+  slug?: Maybe<Scalars['String']>;
+};
+
+export type BlockAditionalObjective = {
+  __typename?: 'BlockAditionalObjective';
+  id?: Maybe<Scalars['String']>;
+  name?: Maybe<Scalars['String']>;
+  slug?: Maybe<Scalars['String']>;
+};
+
+export type BlockContent = {
+  __typename?: 'BlockContent';
+  id?: Maybe<Scalars['String']>;
+  link?: Maybe<Scalars['String']>;
+  slug?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
+  type?: Maybe<BlockContentType>;
+};
+
+export enum BlockContentType {
+  Article = 'ARTICLE',
+  Course = 'COURSE',
+  Site = 'SITE',
+  Youtube = 'YOUTUBE'
+}
+
+export type BlockFilters = {
+  id?: InputMaybe<FieldFilter>;
+  name?: InputMaybe<FieldFilter>;
+  slug?: InputMaybe<FieldFilter>;
+};
+
+export type BlockInput = {
+  slug: Scalars['String'];
+};
+
+export type BlockKeyObjective = {
+  __typename?: 'BlockKeyObjective';
+  id?: Maybe<Scalars['String']>;
+  name?: Maybe<Scalars['String']>;
+  slug?: Maybe<Scalars['String']>;
+};
+
 export type Blocks = {
   __typename?: 'Blocks';
   id?: Maybe<Scalars['String']>;
   priority?: Maybe<Scalars['Int']>;
   slug?: Maybe<Scalars['String']>;
+};
+
+export type BlocksInput = {
+  filter?: InputMaybe<BlockFilters>;
+  limit?: InputMaybe<Scalars['Int']>;
+  offset?: InputMaybe<Scalars['Int']>;
 };
 
 export type CreateSampleTextInput = {
@@ -52,7 +111,7 @@ export type GuideFilters = {
 };
 
 export type GuideInput = {
-  slug?: InputMaybe<Scalars['String']>;
+  slug: Scalars['String'];
 };
 
 export type GuidesInput = {
@@ -73,9 +132,23 @@ export type MutationCreateSampleTextArgs = {
 
 export type Query = {
   __typename?: 'Query';
+  block?: Maybe<Block>;
+  blocks: Array<Maybe<Block>>;
   greet?: Maybe<Scalars['String']>;
   guide?: Maybe<Guide>;
   guides: Array<Maybe<Guide>>;
+};
+
+
+export type QueryBlockArgs = {
+  input?: InputMaybe<BlockInput>;
+  locale?: InputMaybe<SiteLocale>;
+};
+
+
+export type QueryBlocksArgs = {
+  input?: InputMaybe<BlocksInput>;
+  locale?: InputMaybe<SiteLocale>;
 };
 
 
