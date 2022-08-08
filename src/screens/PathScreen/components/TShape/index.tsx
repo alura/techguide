@@ -22,7 +22,7 @@ export default function TShape({
           alignItems: "center",
         }}
       >
-        <h2>{leftBlock.name}</h2>
+        <h4>{leftBlock.name}</h4>
         <Box
           tag="svg"
           styleSheet={{ flex: 1, width: "100%" }}
@@ -36,7 +36,7 @@ export default function TShape({
           alignItems: "center",
         }}
       >
-        <h2>{expertiseFirst.name}</h2>
+        <h4>{expertiseFirst.name}</h4>
         <Box
           tag="svg"
           styleSheet={{ flex: 1, width: "100%" }}
@@ -51,7 +51,7 @@ export default function TShape({
           alignItems: "center",
         }}
       >
-        <h2>{rightBlock.name}</h2>
+        <h4>{rightBlock.name}</h4>
 
         <Box
           tag="svg"
@@ -68,7 +68,7 @@ export default function TShape({
           alignItems: "center",
         }}
       >
-        <h2>{expertiseSecond.name}</h2>
+        <h4>{expertiseSecond.name}</h4>
         <Box
           tag="svg"
           styleSheet={{ flex: 1, width: "100%" }}
@@ -85,7 +85,7 @@ export default function TShape({
           alignItems: "center",
         }}
       >
-        <h2>{expertiseThird.name}</h2>
+        <h4>{expertiseThird.name}</h4>
         <Box
           tag="svg"
           styleSheet={{ flex: 1, width: "100%" }}

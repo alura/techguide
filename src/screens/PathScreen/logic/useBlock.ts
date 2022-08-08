@@ -1,6 +1,19 @@
 import { d3 } from "@src/infra/d3/useD3";
 import React from "react";
 
+const sizeMap = {
+  1: 50,
+  2: 100,
+  3: 150,
+  4: 250,
+  5: 350,
+  6: 500,
+  7: 600,
+  8: 700,
+  9: 900,
+  10: 1000,
+};
+
 export function useBlock(data: any, dependencies = []) {
   const ref = React.useRef();
 
@@ -25,7 +38,9 @@ function drawBlocks(svg: any, data: any) {
     // Name of the parent (column name is parent in csv)
     .parentId((d: any) => d.parent)(data);
 
-  root.sum((d: any) => +d.value); // Compute the numeric value for each entity
+  root.sum((d: any) => {
+    return +sizeMap[d.value];
+  }); // Compute the numeric value for each entity
 
   // Then d3.treemap computes the position of each element of the hierarchy
   // The coordinates are added to the root object above
