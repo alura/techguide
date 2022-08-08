@@ -1,8 +1,8 @@
-/* eslint-disable no-console */
 import React from "react";
 import { Box } from "@src/components";
 import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
 import { useBlock } from "./logic/useBlock";
+import TShape from "./components/TShape";
 
 interface BlockData {
   name: string[] | string;
@@ -74,75 +74,28 @@ export default function PathScreen({ guide }: PathScreenProps) {
       <h1>{guide.name}</h1>
       <h2>{guide.slug}</h2>
 
-      <Box
-        styleSheet={{
-          flexDirection: "row",
-          alignItems: "center",
-          justifyContent: "center",
+      <TShape
+        leftBlock={{
+          name: guide.collaborations[0].name,
+          svg: leftBlockSVG,
         }}
-      >
-        <Box
-          tag="svg"
-          viewBox="0 0 445 445"
-          ref={leftBlockSVG}
-          styleSheet={{
-            width: "33.3%",
-          }}
-        />
-        <Box
-          tag="svg"
-          viewBox="0 0 445 445"
-          ref={expertiseFirst}
-          styleSheet={{
-            width: "33.3%",
-          }}
-        />
-
-        <Box
-          tag="svg"
-          viewBox="0 0 445 445"
-          ref={rightBlockSVG}
-          styleSheet={{
-            width: "33.3%",
-          }}
-        />
-      </Box>
-      <Box
-        styleSheet={{
-          flexDirection: "row",
-          alignItems: "center",
-          justifyContent: "center",
+        expertiseFirst={{
+          name: guide.expertises[0].name,
+          svg: expertiseFirst,
         }}
-      >
-        <Box styleSheet={{ width: "33.3%" }} />
-        <Box
-          tag="svg"
-          viewBox="0 0 445 445"
-          ref={expertiseSecond}
-          styleSheet={{
-            width: "33.3%",
-          }}
-        />
-        <Box styleSheet={{ width: "33.3%" }} />
-      </Box>
-      <Box
-        styleSheet={{
-          flexDirection: "row",
-          alignItems: "center",
-          justifyContent: "center",
+        expertiseSecond={{
+          name: guide.expertises[1].name,
+          svg: expertiseSecond,
         }}
-      >
-        <Box styleSheet={{ width: "33.3%" }} />
-        <Box
-          tag="svg"
-          viewBox="0 0 445 445"
-          ref={expertiseThird}
-          styleSheet={{
-            width: "33.3%",
-          }}
-        />
-        <Box styleSheet={{ width: "33.3%" }} />
-      </Box>
+        expertiseThird={{
+          name: guide.expertises[2].name,
+          svg: expertiseThird,
+        }}
+        rightBlock={{
+          name: guide.collaborations[1].name,
+          svg: rightBlockSVG,
+        }}
+      />
 
       <div>
         <a href="/">Voltar para home</a>
