@@ -1,0 +1,74 @@
+expertise:
+  -
+    name: Junior
+    blocks: 
+        - feature-engineering:
+          priority: 10
+        - extração-e-tratamento-de-dados:
+          priority: 10
+        - lógica-de-programação:
+          priority: 10
+        - python-e/ou-r-para-ds:
+          priority: 10
+        - estatística-e-matemática-básica:
+          priority: 10
+        - machine-learning-básico:
+          priority: 9
+        - fundamentos-de-banco-de-dados:
+          priority: 8
+        - visualização-de-dados:
+          priority: 8
+  -
+    name: Pleno
+    blocks:
+        - modelagem-de-dados:
+          priority: 10
+        - machine-learning-intermediário:
+          priority: 10
+        - estatística-e-matemática-avançada:
+          priority: 9
+        - banco-de-dados-sql-e-nosql:
+          priority: 9
+        - git-e-github:
+          priority: 7
+        - web-scraping:
+          priority: 6
+  -
+    name: Sênior
+    blocks:
+        - machine-learning-avançado:
+          priority: 10
+        - aprendizado-por-reforço:
+          priority: 9
+        - deep-learning:
+          priority: 9
+        - visão-computacional:
+          priority: 7
+        - nlp:
+          priority: 7
+
+collaboration:
+  -
+    name: Business
+    blocks:
+        - habilidades-de-comunicação:
+          priority: 9
+        - conhecimento-do-negócio:
+          priority: 9
+        - business-intelligence:
+          priority: 8
+        - storytelling-com-dados:
+          priority: 8
+   -
+    name: Cloud e Big Data
+    blocks:
+        - ferramentas-de-big-data:
+          priority: 9
+        - engenharia-de-dados:
+          priority: 8
+        - cloud:
+          priority: 7
+        - linux:
+          priority: 7
+        - engenharia-de-machine-learning:
+          priority: 6
