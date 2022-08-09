@@ -30,6 +30,7 @@ export function useBlock(data: any, dependencies = []) {
 function drawBlocks(svg: any, data: any) {
   // https://d3-graph-gallery.com/graph/treemap_basic.html
   const size = 445;
+
   svg.attr("width", size).attr("height", size);
   // stratify the data: reformatting for d3.js
   var root = d3
@@ -67,12 +68,22 @@ function drawBlocks(svg: any, data: any) {
     .selectAll("text")
     .data(root.leaves())
     .enter()
-    // First Text
     .append("text")
-    .attr("x", (d) => d.x0 + 10) // +10 to adjust position (more right)
-    .attr("y", (d) => d.y0 + 20) // +20 to adjust position (lower)
-    .text((d) => d.data.name?.join(" ")) // Display only the first word
-    .attr("font-family", "sans-serif")
+    .attr("fill", "red")
     .attr("font-size", "10px")
-    .attr("fill", "white");
+    .attr("font-family", "sans-serif")
+    // First
+    .append("tspan")
+    .attr("x", (d) => d.x0 + (d.x1 - d.x0) / 2)
+    .attr("y", (d) => d.y0 + (d.y1 - d.y0) / 2)
+    .text((d) => {
+      return d.data.name[0];
+    })
+    .append("tspan")
+    .text(function (d) {
+      // https://stackoverflow.com/questions/21321840/how-to-do-an-append-loop-in-d3-js
+      d3.select(this).attr("x", (d) => d.x0 + (d.x1 - d.x0) / 2);
+      d3.select(this).attr("y", (d) => d.y0 + (d.y1 - d.y0) / 2 + 10);
+      return d.data.name[2];
+    });
 }
