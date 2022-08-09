@@ -72,18 +72,22 @@ function drawBlocks(svg: any, data: any) {
     .attr("fill", "red")
     .attr("font-size", "10px")
     .attr("font-family", "sans-serif")
-    // First
-    .append("tspan")
-    .attr("x", (d) => d.x0 + (d.x1 - d.x0) / 2)
-    .attr("y", (d) => d.y0 + (d.y1 - d.y0) / 2)
-    .text((d) => {
-      return d.data.name[0];
-    })
-    .append("tspan")
-    .text(function (d) {
+    .each(function (d) {
       // https://stackoverflow.com/questions/21321840/how-to-do-an-append-loop-in-d3-js
-      d3.select(this).attr("x", (d) => d.x0 + (d.x1 - d.x0) / 2);
-      d3.select(this).attr("y", (d) => d.y0 + (d.y1 - d.y0) / 2 + 10);
-      return d.data.name[2];
+      const words = d.data.name;
+
+      const text = d3
+        .select(this)
+        .attr("x", (d) => d.x0 + (d.x1 - d.x0) / 2)
+        .attr("y", (d) => d.y0 + (d.y1 - d.y0) / 2)
+        .text(words[0]);
+
+      words.forEach((word, index) => {
+        text
+          .append("tspan")
+          .attr("x", (d) => d.x0 + (d.x1 - d.x0) / 2)
+          .attr("y", (d) => d.y0 + (d.y1 - d.y0) / 2 + index * 10)
+          .text(word);
+      });
     });
 }
