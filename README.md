@@ -41,3 +41,6 @@ A gente se inspirou no também opensource http://roadmap.sh, porém usando a abo
 ## License/Licença do Projeto
 
 - TODO (Estamos decidindo)
+
+## Agradecimentos
+> Aos contribuidores Mário Souto, Fabrício Carraro, Carol Santos, Mateus Henrique, Guilherme Couto, Juliana Amoasei, Mônica Bock, Guilherme Lima, André Bessa, Rodrigo Dias, Vinícius Dias, Rodrigo Caneppele, Fernanda Erahardt, Milena Alves.
