@@ -1,18 +1,16 @@
-name: Machine Learning - Validação cruzada
+name: Machine Learning - Avaliação de Modelos
 logo: 
 short-description:
 key-objectives:
-  - Validação cruzada é uma técnica para avaliar como os resultados de uma análise estatística podem ser generalizados para um conjunto de dados independente. É um método de reamostragem que utiliza diferentes porções dos dados para testar e treinar um modelo em diferentes iterações.
-  - Utilizar a aleatoriedade
-  - Conhecer diferentes estratégias de validação cruzada
-  - Aprender a usar o KFold, StratifiedKFold, GroupKFold
-  - Trabalhar na previsão de novos grupos quando nem todos os dados são leituras independentes entre si
+  - O uso de métricas de avaliação nos ajuda a identificar se um modelo treinado terá um bom desempenho de previsão quando exposto a novos conjuntos de dados.
+  - Conhecer diferentes estratégias de avaliação e otimização de modelos
   - Utilizar um pipeline para treino e validação
+  - Métricas de avaliação de modelos de machine learning
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Amazon AWS: Validação cruzada"
-    link: https://docs.aws.amazon.com/pt_br/machine-learning/latest/dg/cross-validation.html
+    title: "Amazon AWS: Avaliar modelos de ML"
+    link: https://docs.aws.amazon.com/pt_br/machine-learning/latest/dg/evaluating_models.html
   - type: ARTICLE
     title: "Machine Learning: Métricas, Validação Cruzada, Bias e Variância"
     link: https://medium.com/@jvsavietto6/machine-learning-m%C3%A9tricas-valida%C3%A7%C3%A3o-cruzada-bias-e-vari%C3%A2ncia-380513d97c95
@@ -35,3 +33,9 @@ alura-contents:
   - type: COURSE
     title: "Curso Machine Learning: validação de modelos"
     link: https://cursos.alura.com.br/course/machine-learning-validando-modelos
+  - type: COURSE
+    title: "Curso Machine Learning parte 1: otimização de modelos através de hiperparâmetros"
+    link: https://cursos.alura.com.br/course/machine-learning-otimizacao-de-modelos-atraves-de-hiperparametros
+  - type: COURSE
+    title: "Curso Machine Learning parte 2: otimização com exploração aleatória"
+    link: https://cursos.alura.com.br/course/machine-learning-otimizacao-com-exploracao-aleatoria

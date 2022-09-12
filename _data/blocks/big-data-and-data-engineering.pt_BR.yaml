@@ -2,17 +2,13 @@ name: Big Data e Engenharia de Dados
 logo: 
 short-description:
 key-objectives:
-  - Big data é a área do conhecimento que estuda como tratar, analisar e obter informações a partir de conjuntos de dados grandes demais para serem analisados por sistemas tradicionais. Engenharia de Dados envolve o desenvolvimento de sistemas capazes de coletar, armazenar e transformar dados em grande escala.
+  - Big data é a área do conhecimento que estuda como tratar, analisar e obter informações a partir de conjuntos de dados grandes demais para serem analisados por sistemas tradicionais.
+  - Engenharia de Dados envolve o desenvolvimento e organização de processos para coleta, armazenamento e transformação de dados em grande escala.
   - Criar um pipeline de dados
   - Conhecer o Apache Airflow
   - Conhecer o Apache Spark
   - Conhecer o conceito de Data Lake
-  - Produzir uma análise estruturada com base nos dados lidos
-  - Realizar a paralelização de processos de transformações em dados brutos
-  - Unir bases diferentes para que tenham correlações
   - Interagir com servidores na nuvem
-  - Entender a diferença entre um banco gerenciado e não gerenciado
-  - Realizar conexões SSH com servidores
   - Criar aplicações Spark
 aditional-objectives:
 contents:
@@ -43,10 +39,10 @@ alura-contents:
     link: https://www.alura.com.br/artigos/data-lake-vs-data-warehouse
   - type: PODCAST
     title: "Hipsters.tech: Big Data e Data Science: pra quê afinal? - Hipsters 73"
-    link: https://www.youtube.com/watch?v=PnfqWdmCHSo
+    link: https://www.hipsters.tech/big-data-e-data-science-pra-que-afinal-hipsters-73/
   - type: PODCAST
     title: "Hipsters.tech: Small Data, Big Data, Open Data - Hipsters 42"
-    link: https://www.youtube.com/watch?v=PnfqWdmCHSo
+    link: https://www.hipsters.tech/small-data-big-data-open-data-hipsters-42/
   - type: PODCAST
     title: "Hipsters.tech: Engenharia de dados na Serasa Experian – Hipsters On The Road 37"
     link: https://www.hipsters.tech/engenharia-de-dados-na-serasa-experian-hipsters-on-the-road-37/

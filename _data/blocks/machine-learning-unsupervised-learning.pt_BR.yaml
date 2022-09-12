@@ -1,4 +1,4 @@
-name: Machine Learning - Clustering
+name: Machine Learning - Aprendizado Não Supervisionado
 logo: 
 short-description:
 key-objectives:
@@ -8,8 +8,12 @@ key-objectives:
   - Avaliar a qualidade de uma clusterização
   - Parametrizar métodos de clusterização através do máximo coeficiente de silhueta
   - Entender a matemática por trás das métricas de validação Silhouette, Davies Bouldin e Calinski Harabasz
+  - Conhecer técnicas de redução de dimensionalidade
 aditional-objectives:
 contents:
+  - type: ARTICLE
+    title: "Desmistificando aprendizado não supervisionado"
+    link: https://kozyrk.medium.com/portuguese-unsupervised-learning-c47d48c8e31
   - type: ARTICLE
     title: "Análises com algoritmos de Clustering"
     link: https://medium.com/@isnardgurgel/an%C3%A1lises-com-algoritmos-de-clustering-40d52f36f67c
@@ -50,3 +54,11 @@ alura-contents:
   - type: COURSE
     title: "Curso Clustering: extraindo padrões de dados"
     link: https://cursos.alura.com.br/course/cluster-analysis
+  - type: COURSE
+    title: "Curso Machine Learning: lidando com dados de muitas dimensões"
+    link: https://cursos.alura.com.br/course/reducao-dimensionalidade
+  - type: COURSE
+    title: "Curso Análise de componentes principais: elaboração de rankings com o PCA"
+    link: https://cursos.alura.com.br/course/analise-componentes-elaboracao-rankings-pca
+
+
