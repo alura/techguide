@@ -2,37 +2,35 @@ name: Node.js - Fundamentos
 logo: 
 short-description:
 key-objectives:
-  - Criar projetos web em JavaScript
-  - Conhecer as minúcias do framework Node.js
+  - Conhecer e aprender mais sobre o Node.js, ambiente de execução do JavaScript fora no navegador
+  - Descobrir as possibilidades de desenvolvimento do Node.js e por que é tão utilizado
+  - Entender as partes principais do ecossistema Node.js e como usamos cada uma delas
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "Introdução ao Node.js - documentação oficial"
+    link: https://nodejs.dev/en/learn/
+  - type: SITE
+    title: "Sobre Node.js"
+    link: https://nodejs.org/pt-br/about/
   - type: ARTICLE
-    title: "Node.js — O que é, por que usar e primeiros passos"
-    link: https://medium.com/thdesenvolvedores/node-js-o-que-%C3%A9-por-que-usar-e-primeiros-passos-1118f771b889
+    title: "O que é Node.js? Guia para iniciantes"
+    link: https://tecnoblog.net/responde/o-que-e-node-js-guia-para-iniciantes/
   - type: ARTICLE
-    title: "Conheça o Node.js"
-    link: https://medium.com/@desenvolvedormateusbarbosa/conhe%C3%A7a-o-node-js-252f5de4550f
-  - type: ARTICLE
-    title: "Começando a desenvolver com o Node.js"
-    link: https://medium.com/desenvolvimento-com-node-js/come%C3%A7ando-a-desenvolver-com-o-node-js-74b70af01a0d
-  - type: ARTICLE
-    title: "Criando serviços com Node.js"
-    link: https://medium.com/desenvolvimento-com-node-js/criando-servicos-com-nodejs-432c11b5d50d
-  - type: YOUTUBE
-    title: "Everton Braga: Curso Node.js - O que é Node?"
-    link: https://www.youtube.com/watch?v=r7VqPD-kqH4
+    title: "Node.js: O que é, quais as características e vantagens?"
+    link: https://www.totvs.com/blog/developers/node-js/
+  - type: SITE
+    title: "JavaScript.info: The modern JavaScript tutorial"
+    link: https://javascript.info/
 alura-contents:
   - type: ARTICLE
-    title: "Node.JS: definição, características, vantagens e usos possíveis"
+    title: "Node.js: definição, características, vantagens e usos possíveis"
     link: https://www.alura.com.br/artigos/node-js-definicao-caracteristicas-vantagens-usos
-  - type: ARTICLE
-    title: "Utilizando export.modules no Node.js"
-    link: https://www.alura.com.br/artigos/utilizando-export-modules-no-node-js
   - type: PODCAST
     title: "Hipsters.tech: Node.js - Hipsters 19"
     link: https://cursos.alura.com.br/extra/hipsterstech/node-js-hipsters-199-a356
   - type: YOUTUBE
-    title: "Alura: O que é Node JS?"
+    title: "Alura: O que é Node.js?"
     link: https://www.youtube.com/watch?v=GKR6uSvEj8w
   - type: YOUTUBE
     title: "Alura: O que é Node.js? | AluraMais"
@@ -41,5 +39,5 @@ alura-contents:
     title: "Alura: Ecossistema Node.js"
     link: https://www.youtube.com/watch?v=2hrIwQWx9w4
   - type: COURSE
-    title: "Curso NodeJS: criando sua biblioteca"
-    link: https://cursos.alura.com.br/course/nodejs-criando-biblioteca
+    title: "Formação JavaScript para back-end"
+    link: https://cursos.alura.com.br/formacao-js-backend

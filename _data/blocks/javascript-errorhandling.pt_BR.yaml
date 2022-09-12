@@ -2,9 +2,12 @@ name: JavaScript - Manipulação de Erros
 logo: 
 short-description:
 key-objectives:
-  - Tratar exceções pré-definidas
-  - Uso de 'try' e 'catch'
-  - Criar exceções específicas
+  - Conhecer e tratar as exceções mais comuns
+  - Saber quais os tipos de erros do Node.js e em quais situações eles podem ocorrer
+  - Entender como o Node.js faz o manejo de erros
+  - Usar 'try' e 'catch' para tratamento de erros
+  - Em que ocasiões e de que forma utilizar o `throw`
+  - Criar exceções específicas de acordo com a necessidade de sua aplicação
 aditional-objectives:
 contents:
   - type: site
@@ -16,13 +19,7 @@ contents:
   - type: article
     title: "Exceções e Erros em JavaScript"
     link: http://gabrielprates.com/2017/06/02/excecoes-e-erros-em-js.html
-  - type: youtube
-    title: "Tratando erros no Javascript - Uso do Try Catch"
-    link: https://www.youtube.com/watch?v=xPpK0X0zEbA
 alura-contents:
   - type: course
-    title: "Curso JavaScript: programando na linguagem da web"
-    link: https://www.alura.com.br/curso-online-javascript-programando-na-linguagem-web
-  - type: course
-    title: "Formação JavaScript para Front-end"
-    link: https://www.alura.com.br/formacao-javascript-front-end
+    title: "Curso Node.js: Criando sua biblioteca"
+    link: https://cursos.alura.com.br/course/nodejs-criando-biblioteca
