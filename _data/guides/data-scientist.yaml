@@ -21,9 +21,9 @@ expertise:
         priority: 8
   - name: Data Scientist Mid
     blocks:
-      - unsupervised-learning:
+      - machine-learning-unsupervised-learning:
         priority: 10
-      - evaluating-models:
+      - machine-learning-model-evaluation:
         priority: 10
       - sql-fundamentals:
         priority: 9
