@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Text } from "@src/components";
 import Arrows from "./Arrows";
 import faq from "../../../../../_data/random-content/faq.json";
+import { parseContent } from "@src/infra/i18n/parseContent";
 
 const questions = faq.questions;
 
@@ -192,7 +193,7 @@ function FAQQuestion({ title, description }: any) {
             color: "#8992A1",
           }}
         >
-          {description}
+          {parseContent(description)}
         </Text>
       </Box>
     </Box>
