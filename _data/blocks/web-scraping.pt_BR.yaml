@@ -2,11 +2,11 @@ name: Web Scraping
 logo: 
 short-description:
 key-objectives:
-  - Web scraping ou Raspagem web é a extração de dados de websites.
+  - Web scraping ou raspagem de dados na web é a extração de dados de websites.
   - Usar o BeautifulSoup e Python para coletar dados
   - Pesquisar e navegar no HTML
   - Acessar o conteúdo e atributos das tags HTML
-  - Construir um dataframe
+  - Construir datasets com os resultados das raspagens
 aditional-objectives:
 contents:
   - type: ARTICLE

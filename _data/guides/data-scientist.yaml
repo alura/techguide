@@ -21,17 +21,15 @@ expertise:
         priority: 8
   - name: Data Scientist Mid
     blocks:
-      - data-modeling:
+      - unsupervised-learning:
         priority: 10
-      - machine-learning-clustering:
-        priority: 10
-      - machine-learning-cross-validation:
+      - evaluating-models:
         priority: 10
       - sql-fundamentals:
         priority: 9
       - web-scraping:
         priority: 7
-      - data-science-testing:
+      - statistical-tests:
         priority: 7
   - name: Data Scientist in depth
     blocks:
@@ -64,5 +62,3 @@ collaboration:
         priority: 7
       - linux-fundamentals:
         priority: 7
-      - command-line-fundamentals:
-        priority: 6

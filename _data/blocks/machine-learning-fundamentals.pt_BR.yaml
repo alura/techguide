@@ -3,12 +3,10 @@ logo:
 short-description:
 key-objectives:
   - O Aprendizado de Máquina ou Machine Learning é um subcampo da Engenharia e da Ciência da Computação que evoluiu do estudo de reconhecimento de padrões e da teoria do aprendizado computacional em inteligência artificial.
+  - Aprendizado supervisionado
   - Utilizar algoritmos de classificação
-  - Comparar algoritmos lineares e não lineares
-  - Conhecer os modelos K-vizinhos mais próximos, Bernoulli Naïve Bayes e Árvore de Decisão
-  - Constrir matrizes de correlação
-  - Utilizar o Scikit-learn para criar modelos de seleção de feature automáticos
-  - Utilizar técnicas de redução de dimensionalidade
+  - Utilizar algoritmos de regressão
+  - Utilizar o Scikit-learn para criar modelos de machine learning
 aditional-objectives:
 contents:
   - type: SITE
