@@ -26,7 +26,8 @@ A gente se inspirou no também opensource http://roadmap.sh, porém usando a abo
 ## Contributing/Contribuir
 
 ### O que devo ter em mente antes de abrir um PullRequest?
-- ???
+- Esse é um projeto opensource feito pela Alura para a comunidade e contribuições são bem vindas.
+- Para aumentar a chance de a sua contribuição ser aprovada, escolha um título legal, simples e explicativo para os itens, e siga a formatação correta dos arquivos.
 - 🇧🇷: Quer contribuir com o projeto? [Confira o passo a passo](./CONTRIBUTING.md)
 
 ### Próximos Passos?
