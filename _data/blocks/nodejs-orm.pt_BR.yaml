@@ -1,0 +1,30 @@
+name: Node.js - ORM
+logo: 
+short-description:
+key-objectives:
+  - Entender como funciona um ORM
+  - Conhecer e aprender a usar sequelize
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "ORM no NodeJS com TypeORM"
+    link: https://medium.com/@matheusbessa_44838/orm-no-nodejs-com-typeorm-a3b3d8a22240
+  - type: ARTICLE
+    title: "Rest API com typeorm e express.js"
+    link: https://mfortunat0.medium.com/rest-api-com-typeorm-e-express-js-307e8a1e232e
+  - type: YOUTUBE
+    title: "Josias Pereira: Iniciando API com NodeJs e Sequelize ORM"
+    link: https://www.youtube.com/watch?v=mpKXSe08yqA
+  - type: YOUTUBE
+    title: "Nicolas Teófilo: O melhor ORM para Node.js: Prisma"
+    link: https://www.youtube.com/watch?v=tF-ly2sB3hU
+  - type: YOUTUBE
+    title: "LuizTools: Sequelize em 15 minutos"
+    link: https://www.youtube.com/watch?v=g5ij7NIPR2s
+alura-contents:
+  - type: COURSE
+    title: "Curso ORM com NodeJS: API com Sequelize e MySQL"
+    link: https://cursos.alura.com.br/course/orm-nodejs-api-sequelize-mysql
+  - type: COURSE
+    title: "Curso ORM com NodeJS: avançando nas funcionalidades do Sequelize"
+    link: https://cursos.alura.com.br/course/orm-nodejs-avancando-sequelize

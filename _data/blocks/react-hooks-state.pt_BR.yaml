@@ -1,0 +1,34 @@
+name: React Hooks - State
+logo: 
+short-description:
+key-objectives:
+  - Controlar o estado de componentes
+  - Manipular variáveis
+  - Atualizar o valor de elementos
+aditional-objectives:
+contents:
+  - type: site
+    title: "React: Documentação - Introdução aos Hooks"
+    link: https://pt-br.reactjs.org/docs/hooks-intro.html#gatsby-focus-wrapper
+  - type: site
+    title: "React: Documentação - Usando o State do Hook"
+    link: https://pt-br.reactjs.org/docs/hooks-state.html#gatsby-focus-wrapper
+  - type: site
+    title: "MDN Web Docs: React interactivity: Events and state (inglês)"
+    link: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_events_state
+  - type: article
+    title: "Primeiros passos com React Hooks — useState"
+    link: https://medium.com/@devjpnobrega/primeiros-passos-com-react-hooks-usestate-aa4eeeec5f4e
+alura-contents:
+  - type: article
+    title: "React Hooks: o que é e como eles funcionam"
+    link: https://www.alura.com.br/artigos/react-hooks
+  - type: course
+    title: "Imersão React: AluraCord - Aula 02"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-02-state-novas-paginas-e-navegacao-spa-vs-a-tradicional-c69
+  - type: course
+    title: "Curso React: gerenciamento de estados globais com ContextAPI"
+    link: https://cursos.alura.com.br/course/react-context-estados-globais-contextapi
+  - type: course
+    title: "Curso React: escrevendo com Typescript"
+    link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript

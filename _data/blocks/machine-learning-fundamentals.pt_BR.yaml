@@ -1,0 +1,62 @@
+name: Machine Learning - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - O Aprendizado de Máquina ou Machine Learning é um subcampo da Engenharia e da Ciência da Computação que evoluiu do estudo de reconhecimento de padrões e da teoria do aprendizado computacional em inteligência artificial.
+  - Utilizar algoritmos de classificação
+  - Comparar algoritmos lineares e não lineares
+  - Conhecer os modelos K-vizinhos mais próximos, Bernoulli Naïve Bayes e Árvore de Decisão
+  - Constrir matrizes de correlação
+  - Utilizar o Scikit-learn para criar modelos de seleção de feature automáticos
+  - Utilizar técnicas de redução de dimensionalidade
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Amazon AWS: O que é machine learning?"
+    link: https://aws.amazon.com/pt/what-is/machine-learning/
+  - type: ARTICLE
+    title: "A explicação mais simples sobre aprendizado de máquina que você lerá"
+    link: https://kozyrk.medium.com/a-explica%C3%A7%C3%A3o-mais-simples-sobre-aprendizado-de-m%C3%A1quina-que-voc%C3%AA-ler%C3%A1-6d4e61002401
+  - type: ARTICLE
+    title: "Introdução ao Aprendizado de Máquina"
+    link: https://medium.com/@avinicius.adorno/introdu%C3%A7%C3%A3o-a-aprendizado-de-m%C3%A1quina-e39ec5ef459b
+  - type: ARTICLE
+    title: "Árvores de Decisão"
+    link: https://medium.com/machine-learning-beyond-deep-learning/%C3%A1rvores-de-decis%C3%A3o-3f52f6420b69
+  - type: YOUTUBE
+    title: "Nerdologia: Machine Learning - como ensinar uma máquina a aprender"
+    link: https://www.youtube.com/watch?v=mhe5e2B9bL8
+  - type: YOUTUBE
+    title: "Filipe Deschamps: Qual a diferença entre Inteligência Artificial, Machine Learning, Data Science, Deep Learning, etc?"
+    link: https://www.youtube.com/watch?v=ccZ2pyr3YDw
+  - type: YOUTUBE
+    title: "Filipe Deschamps: Machine Learning - Tutorial prático usando apenas o navegador"
+    link: https://www.youtube.com/watch?v=JyGGMyR3x5I
+alura-contents:
+  - type: ARTICLE
+    title: "Desmistificando termos em Machine Learning"
+    link: https://www.alura.com.br/artigos/desmistificando-termos-machine-learning
+  - type: ARTICLE
+    title: "Desmistificando termos em Machine Learning - tipos de aprendizado"
+    link: https://www.alura.com.br/artigos/desmistificando-termos-machine-learning-tipos-aprendizado
+  - type: PODCAST
+    title: "Hipsters.tech: Machine Learning – Hipsters 89"
+    link: https://www.hipsters.tech/machine-learning-hipsters-88/
+  - type: PODCAST
+    title: "Hipsters.tech: Desafios em Machine Learning – Hipsters 137"
+    link: https://www.hipsters.tech/desafios-em-machine-learning-hipsters-137/
+  - type: PODCAST
+    title: "Hipsters.tech: Engenharia de machine learning – Hipsters Ponto Tech 248"
+    link: https://www.hipsters.tech/engenharia-de-machine-learning-hipsters-ponto-tech-248/
+  - type: YOUTUBE
+    title: "Alura: O que é Machine Learning?"
+    link: https://www.youtube.com/watch?v=Iuz_jc96bQk
+  - type: YOUTUBE
+    title: "Alura: O que faz uma pessoa engenheira de Machine Learning?"
+    link: https://www.youtube.com/watch?v=BRhz6v-jfMM
+  - type: YOUTUBE
+    title: "Alura: Como funciona o Machine Learning?"
+    link: https://www.youtube.com/watch?v=CAu97npy7zQ
+  - type: COURSE
+    title: "Formação Machine Learning"
+    link: https://cursos.alura.com.br/formacao-machine-learning

@@ -1,0 +1,35 @@
+name: Feature Engineering
+logo: 
+short-description:
+key-objectives:
+  - Gerar novas variáveis a partir dos dados disponíveis
+  - Transformar dados brutos em características
+  - Realçar os problemas dos modelos preditivos
+  - Melhorar a precisão do modelo para novos dados
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Engenharia de Atributos"
+    link: https://ricardomatsumura.medium.com/engenharia-de-atributos-87370c31d0eb
+  - type: ARTICLE
+    title: "Engenharia de características"
+    link: https://datascience.eu/pt/aprendizado-de-maquina/engenharia-de-caracteristicas/
+  - type: ARTICLE
+    title: "Automated feature engineering: como utilizar o featuretools"
+    link: https://medium.com/datarisk-io/automated-feature-engineering-como-utilizar-o-featuretools-25586438df3d
+  - type: ARTICLE
+    title: "Deep Feature Synthesis (DFS)"
+    link: https://medium.com/data-hackers/deep-feature-synthesis-dfs-835cbc7a3290
+  - type: YOUTUBE
+    title: "Gabriel Tozatto Zago: Técnicas de Engenharia de Características"
+    link: https://www.youtube.com/watch?v=DH4hzOLHF0Y
+  - type: YOUTUBE
+    title: "BeeData USP: Introdução à Feature Engineering para Datas"
+    link: https://www.youtube.com/watch?v=Tt9_a4u2ml4
+alura-contents:
+  - type: ARTICLE
+    title: "Desmistificando termos em Machine Learning"
+    link: https://www.alura.com.br/artigos/desmistificando-termos-machine-learning
+  - type: COURSE
+    title: "Curso Data Science: analise e visualização de dados"
+    link: https://cursos.alura.com.br/course/data-science-primeiros-passos

@@ -1,0 +1,78 @@
+name: NodeJS
+expertise:
+  - name: Front-end JavaScript 
+    blocks:
+      - javascript-fundamentals:
+        priority: 10
+      - javascript-callbacks-promises:
+        priority: 9
+      - javascript-testing:
+        priority: 8
+      - javascript-errorhandling:
+        priority: 7
+      - javascript-accessibility:
+        priority: 7
+  - name: Node.js Ecosystem
+    blocks:
+      - nodejs-fundamentals:
+        priority: 10
+      - nodejs-express:
+        priority: 9
+      - nodejs-orm:
+        priority: 8
+      - nodejs-authentication-tokens:
+        priority: 8
+      - nodejs-testing:
+        priority: 7
+      - jest:
+        priority: 6
+  - name: Node.js in depth
+    blocks:
+      - typescript-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 9
+      - microservices:
+        priority: 9
+      - solid:
+        priority: 7
+      - nestjs-fundamentals:
+        priority: 8
+      - websockets:
+        priority: 7
+      - graphql:
+        priority: 6
+        optional: true
+      - apollo-client:
+        priority: 6
+        optional: true
+collaboration:
+  - name: Front-end
+    blocks:
+      - html-fundamentals:
+        priority: 10
+      - css-fundamentals:
+        priority: 9
+      - dom-fundamentals:
+        priority: 8
+      - seo-strategies:
+        priority: 6
+        optional: true
+  - name: Infraestrutura e boas práticas
+    blocks:
+      - git-and-github-fundamentals:
+        priority: 10
+      - http-fundamentals:
+        priority: 9
+      - json:
+        priority: 8
+      - design-patterns:
+        priority: 7
+      - command-line-fundamentals: 
+        priority: 7
+      - cloud-fundamentals: 
+        priority: 6
+        optional: true
+      - containers:
+        priority: 6
+        optional: true

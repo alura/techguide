@@ -1,0 +1,23 @@
+name: Node.js - Testes
+logo: 
+short-description:
+key-objectives:
+  - Usar testes unitários
+  - Usar testes de integração
+  - Usar testes de comportamento (behavior)
+  - Usar mocks
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Testes Automatizados com o Jest — Node.js e Typescript"
+    link: https://gabriel-amorim.medium.com/testes-automatizados-com-o-jest-node-js-e-typescript-6d6c6fe8158f
+  - type: ARTICLE
+    title: "Testes Unitários em Node.js usando Chai e Mocha"
+    link: https://medium.com/@matheusalves_45120/testes-unit%C3%A1rios-em-node-js-usando-chai-e-mocha-c415c9f84764
+  - type: YOUTUBE
+    title: "CodarMe: Aprenda a testar rotas de api com Jest no NodeJS"
+    link: https://www.youtube.com/watch?v=HzjHDsoHwB4
+alura-contents:
+  - type: COURSE
+    title: "Curso Node.js: testes unitários e de integração"
+    link: https://cursos.alura.com.br/course/nodejs-testes-unitarios-integracao

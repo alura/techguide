@@ -1,0 +1,14 @@
+overwrite: true
+schema: "http://localhost:3000/api/graphql"
+documents: null
+generates:
+  _api/gql_types.ts:
+    plugins:
+      - "typescript"
+      - "typescript-resolvers"
+    config:
+      scalars:
+        UUID: string
+  ./graphql.schema.json:
+    plugins:
+      - "introspection"

@@ -1,0 +1,33 @@
+name: Node.js - Autenticação e Tokens
+logo: 
+short-description:
+key-objectives:
+  - Construir um sistema de autenticação usando tokens
+  - Entender o funcionamento do JSON Web Token
+  - Construir uma allowlist para guardar tokens opacos
+  - Implementar refresh tokens que atualizam JSON Web token
+  - Construir um sistema de verificação de e-mails usando tokens
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "NodeJS: Autenticação com JWT"
+    link: https://medium.com/@filipefilpe/nodejs-autentica%C3%A7%C3%A3o-com-jwt-6e274fb205dc
+  - type: ARTICLE
+    title: "JWT — Usando tokens para comunicação eficiente"
+    link: https://medium.com/trainingcenter/jwt-usando-tokens-para-comunica%C3%A7%C3%A3o-eficiente-cf0551c0dd99
+  - type: YOUTUBE
+    title: "LuizTools: Autenticação JSON Web Token (JWT) em Node.js"
+    link: https://www.youtube.com/watch?v=D0gpL8-DVrc
+  - type: YOUTUBE
+    title: "Overstack: Autenticação Através de Tokens com JWT"
+    link: https://www.youtube.com/watch?v=sYa4h44L-N0
+alura-contents:
+  - type: COURSE
+    title: "Curso Node.js e JWT: autenticação com tokens"
+    link: https://cursos.alura.com.br/course/node-jwt-autenticacao-tokens
+  - type: COURSE
+    title: "Curso Node.js: Refresh Tokens e confirmação de cadastro"
+    link: https://cursos.alura.com.br/course/nodejs-refresh-tokens-confirmacao-cadastro
+  - type: COURSE
+    title: "Curso NodeJS: controle de acesso e autorização com RBAC"
+    link: https://cursos.alura.com.br/course/nodejs-controle-acesso-autorizacao-rbac

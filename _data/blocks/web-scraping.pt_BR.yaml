@@ -1,0 +1,42 @@
+name: Web Scraping
+logo: 
+short-description:
+key-objectives:
+  - Web scraping ou Raspagem web é a extração de dados de websites.
+  - Usar o BeautifulSoup e Python para coletar dados
+  - Pesquisar e navegar no HTML
+  - Acessar o conteúdo e atributos das tags HTML
+  - Construir um dataframe
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Tutorial para iniciantes: Web Scraping em Python"
+    link: https://medium.com/data-hackers/tutorial-para-iniciantes-web-scraping-em-python-bb71778ed40c
+  - type: ARTICLE
+    title: "Como fazer Web Scraping em Python"
+    link: https://medium.com/data-hackers/como-fazer-web-scraping-em-python-23c9d465a37f
+  - type: ARTICLE
+    title: "Scraping em Gráficos Interativos com Python"
+    link: https://medium.com/data-hackers/scraping-em-gr%C3%A1ficos-interativos-com-python-92e7a70d1e64
+  - type: ARTICLE
+    title: "Como capturar comentários do Youtube usando Python"
+    link: https://medium.com/data-hackers/como-capturar-coment%C3%A1rios-do-youtube-usando-python-64ea39a483e6
+  - type: YOUTUBE
+    title: "Simpledata: Aprenda Web Scraping de maneira fácil"
+    link: https://www.youtube.com/watch?v=OpX5Y7dzNjI
+  - type: YOUTUBE
+    title: "Codifike: Como fazer web scraping com Python em sites dinâmicos"
+    link: https://www.youtube.com/watch?v=VGroXCEaBiA
+  - type: YOUTUBE
+    title: "Codifike: Web scraping com Python - Coletando dados em sites e salvando em arquivo"
+    link: https://www.youtube.com/watch?v=_Ri-QjToQ24
+  - type: YOUTUBE
+    title: "Codifike: Web scraping com Python Pandas"
+    link: https://www.youtube.com/watch?v=mF9qEcQQdRs
+  - type: YOUTUBE
+    title: "Codifike: Como fazer web scraping para monitorar preços usando Python"
+    link: https://www.youtube.com/watch?v=YKennHXZyJU
+alura-contents:
+  - type: COURSE
+    title: "Curso Scraping com Python: coleta de dados na web"
+    link: https://cursos.alura.com.br/course/web-scraping-data-science-python

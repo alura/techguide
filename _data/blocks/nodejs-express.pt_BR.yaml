@@ -1,0 +1,26 @@
+name: Node.js - Express
+logo: 
+short-description:
+key-objectives:
+  - Criar APIs REST em Node com Express
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Express, realizando upload com multer"
+    link: http://cangaceirojavascript.com.br/express-realizando-upload-multer/
+  - type: ARTICLE
+    title: "Tutorial Node.js — Como usar o Express.js"
+    link: https://pedrompinto.medium.com/tutorial-node-js-como-usar-o-express-js-7d3027f4f57b
+  - type: ARTICLE
+    title: "Criando uma API Node em 10 passos com Express.js"
+    link: https://medium.com/xp-inc/criando-uma-api-node-em-10-passos-com-express-js-52b2d612a8a9
+  - type: YOUTUBE
+    title: "Victor Lima - Guia do Programador: Node.js - Introdução ao Express"
+    link: https://www.youtube.com/watch?v=pohvlFd0byI
+  - type: YOUTUBE
+    title: "WebDevBr: Node.js - Express, noções básicas"
+    link: https://www.youtube.com/watch?v=wVo-UMit5Ig
+alura-contents:
+  - type: COURSE
+    title: "Formação Node.js com Express"
+    link: https://www.alura.com.br/formacao-node-js-express

@@ -1,0 +1,32 @@
+name: Angular - Testes
+logo: 
+short-description:
+key-objectives:
+  - Usar testes unitários
+  - Usar testes de integração
+  - Usar testes de comportamento (behavior)
+  - Usar mocks
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Testes de unidade usando Angular"
+    link: https://medium.com/totvsdevelopers/testes-de-unidade-usando-angular-b83ea6accf7c
+  - type: ARTICLE
+    title: "Escrevendo testes eficientes de verdade no Angular"
+    link: https://andrewrosario.medium.com/escrevendo-testes-eficientes-de-verdade-no-angular-263a9d03cecf
+  - type: YOUTUBE
+    title: "Hype IT Brasil: Testes Unitários no Angular"
+    link: https://www.youtube.com/watch?v=RCi2EEwNZ6M
+  - type: YOUTUBE
+    title: "Hype IT Brasil: Como testar um componente no Angular"
+    link: https://www.youtube.com/watch?v=RFHDWc-apLQ
+  - type: YOUTUBE
+    title: "Liara Programmer: Como criar teste unitários em Angular"
+    link: https://www.youtube.com/watch?v=S6M7xWQmirs
+alura-contents:
+  - type: COURSE
+    title: "Curso Angular: testes automatizados com Jasmine e Karma"
+    link: https://www.alura.com.br/curso-online-angular-testes-automatizados-jasmin-karma
+  - type: COURSE
+    title: "Curso Angular: avançando com testes automatizados"
+    link: https://www.alura.com.br/curso-online-angular-avancando-testes-automatizados

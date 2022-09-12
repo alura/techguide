@@ -1,0 +1,37 @@
+name: Aprendizado por Reforço
+logo: 
+short-description:
+key-objectives:
+  - O Aprendizado por Reforço é uma área de Machine Learning que se preocupa com a forma como agentes inteligentes devem tomar medidas num ambiente, a fim de maximizar a noção de recompensa cumulativa.
+  - Entender os conceitos de agente e recompensa
+  - Entender a diferença entre reforço positivo e negativo
+  - Conhecer o modelo Markov Decision Process
+  - Entender o conceito de Retorno
+  - Utilizar o algoritmo Q-learning
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Acervo Lima: Aprendizado por Reforço"
+    link: https://acervolima.com/aprendizagem-por-reforco/
+  - type: ARTICLE
+    title: "Aprendizado por Reforço — Introdução"
+    link: https://medium.com/turing-talks/aprendizado-por-refor%C3%A7o-1-introdu%C3%A7%C3%A3o-7382ebb641ab
+  - type: ARTICLE
+    title: "Aprendizado por Reforço — Gym"
+    link: https://medium.com/turing-talks/aprendizado-por-refor%C3%A7o-4-gym-d18ac1280628
+  - type: YOUTUBE
+    title: "Hemerson Pistori: Aprendizagem por reforço e Q-Learning"
+    link: https://www.youtube.com/watch?v=zQUFxZsZODY
+  - type: YOUTUBE
+    title: "PROF. FABIO SANTOS: Aprendizagem por Reforço"
+    link: https://www.youtube.com/watch?v=alX2JJoosIM
+  - type: YOUTUBE
+    title: "Instituto de Computação - UFF: Aprendizado por Reforço: conceitos, aplicações e desafios"
+    link: https://www.youtube.com/watch?v=HZ2CoPuMUB0
+  - type: YOUTUBE
+    title: "Talendar: Inteligência Artificial Aprende a Jogar Super Mario Bros (Aprendizado por Reforço)"
+    link: https://www.youtube.com/watch?v=9nqwVYCxQls
+  - type: YOUTUBE
+    title: "Galdir Reges: Introdução ao aprendizado por reforço profundo (Deep Reinforcement Learning)"
+    link: https://www.youtube.com/watch?v=vBiUSREcde8
+alura-contents:

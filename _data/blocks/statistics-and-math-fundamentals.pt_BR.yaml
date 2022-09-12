@@ -1,0 +1,52 @@
+name: Estatística e Matemática - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Equações, funções e limites
+  - Logaritmos
+  - Matrizes, determinantes, vetores e espaço vetorial
+  - Derivadas e integrais
+  - Diferença entre média, mediana e moda
+  - Distribuição de frequência
+  - Variância e desvio padrão
+  - Distribuição binomial, poisson e normal
+  - Nível e intervalo de confiança
+  - Técnicas de amostragem
+  - Regressão linear
+  - Séries
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Preciso saber matemática para aprender Ciência de Dados?"
+    link: https://beatrizyumi.medium.com/preciso-saber-matem%C3%A1tica-para-aprender-ci%C3%AAncia-de-dados-9a9b7c7846a9
+  - type: ARTICLE
+    title: "Estatística Descritiva para Ciência de Dados"
+    link: https://paulors82.medium.com/estat%C3%ADstica-descritiva-para-ci%C3%AAncia-de-dados-582b02d97e82
+  - type: YOUTUBE
+    title: "Mario Filho: As 3 Áreas da Matemática Usadas em Data Science"
+    link: https://www.youtube.com/watch?v=niF_T21vdZ4
+  - type: YOUTUBE
+    title: "PrograMaria: Estatística básica para Ciência de Dados"
+    link: https://www.youtube.com/watch?v=xiZwte8D1Xs
+  - type: YOUTUBE
+    title: "Data Viking: Estatística básica para ciência de dados"
+    link: https://www.youtube.com/watch?v=K_q6uCgV0Mk
+  - type: YOUTUBE
+    title: "FC Nuvem: Introdução a Estatística para Ciência de Dados"
+    link: https://www.youtube.com/watch?v=NdRKIIFa63c
+alura-contents:
+  - type: ARTICLE
+    title: "Média ou mediana? Entendendo cada uma"
+    link: https://www.alura.com.br/artigos/media-ou-mediana-entendendo-cada-uma
+  - type: ARTICLE
+    title: "Modelos matemáticos utilizados em séries temporais"
+    link: https://www.alura.com.br/artigos/modelos-matematicos-utilizados-em-series-temporais
+  - type: YOUTUBE
+    title: "Alura: Preciso saber matemática para programar?"
+    link: https://www.youtube.com/watch?v=WZo8s-zsfuY
+  - type: COURSE
+    title: "Formação Estatística com Python"
+    link: https://cursos.alura.com.br/formacao-estatistica-python
+  - type: COURSE
+    title: "Formação Estatística com R"
+    link: https://cursos.alura.com.br/formacao-estatistica-r

@@ -1,0 +1,17 @@
+name: CD - Continuous Delivery
+
+on:
+  push:
+    branches: [ main ]
+
+env:
+  DEPLOY_MAIN_WEBHOOK: ${{ secrets.DEPLOY_MAIN_WEBHOOK }}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: "Deploy"
+      run: |
+        curl $DEPLOY_MAIN_WEBHOOK

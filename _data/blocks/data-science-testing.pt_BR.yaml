@@ -1,0 +1,31 @@
+name: Ciência de Dados - Testes
+logo: 
+short-description:
+key-objectives:
+  - Criar intervalos de confiança para amostras
+  - Comparar grupos de amostras
+  - Executar testes estatísticos
+  - Planejar experimentos para a coleta de dados
+  - Propor modelos matemáticos para entender um dado problema
+  - Construir mapas de cores para auxiliar a interpretação dos dados
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "ICD-UFMG: Testes AB  - Como comparar dois grupos"
+    link: https://icd-ufmg.github.io/10-ab/
+  - type: ARTICLE
+    title: "Testes de normalidade"
+    link: https://medium.com/dados-e-saude/testes-de-normalidade-9dc9068bcf80
+  - type: YOUTUBE
+    title: "Prof. Dr. Petronio Silva: Ciência de Dados - Métricas e Testes"
+    link: https://www.youtube.com/watch?v=gRfS2ns-r0Q
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Data Science - Introdução a testes estatísticos com Python"
+    link: https://www.youtube.com/watch?v=PnfqWdmCHSo
+  - type: COURSE
+    title: "Curso Data Science: testes estatísticos com Python"
+    link: https://cursos.alura.com.br/course/data-science-introducao-a-testes-estatisticos-com-python
+  - type: COURSE
+    title: "Curso Análise de experimentos: testes, mapas de cores e análises dos dados"
+    link: https://cursos.alura.com.br/course/analise-de-experimentos

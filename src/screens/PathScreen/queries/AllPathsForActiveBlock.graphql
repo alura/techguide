@@ -1,0 +1,21 @@
+query AllPathsForActiveBlock {
+  guides {
+    slug
+    expertises {
+      name
+      blocks {
+        item {
+          slug
+        }
+      }
+    }
+    collaborations {
+      name
+      blocks {
+        item {
+          slug
+        }
+      }
+    }
+  }
+}

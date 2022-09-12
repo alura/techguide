@@ -1,0 +1,30 @@
+name: WPF
+logo: 
+short-description:
+key-objectives:
+  - Criar aplicativos para Windows
+  - Usar marcação e code-behind
+  - Criar um layout
+  - Criar modelos
+  - Desenvolver uma interface
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: WPF"
+    link: https://docs.microsoft.com/pt-br/dotnet/desktop/wpf/introduction-to-wpf?view=netframeworkdesktop-4.8
+  - type: SITE
+    title: "Microsoft Docs: Tutorial: Criar seu primeiro aplicativo WPF no Visual Studio 2019"
+    link: https://docs.microsoft.com/pt-br/dotnet/desktop/wpf/getting-started/walkthrough-my-first-wpf-desktop-application?view=netframeworkdesktop-4.8
+  - type: ARTICLE
+    title: "Windows Forms vs WPF — Parte 1"
+    link: https://bertuzzi.medium.com/windows-forms-vs-wpf-parte-1-910d2b2134c2
+  - type: YOUTUBE
+    title: "Cleiton Felipe - The Black Coder: Començando com WPF no .Net Core"
+    link: https://www.youtube.com/watch?v=R-nPvBVL11A
+alura-contents:
+  - type: PODCAST
+    title: "Dev Sem Fronteiras: Desenvolvedor .NET em Donegal, Irlanda – Dev Sem Fronteiras 24"
+    link: https://www.devsemfronteiras.tech/desenvolvedor-net-em-donegal-irlanda-dev-sem-fronteiras-24/
+  - type: COURSE
+    title: "Formação VB.NET"
+    link: https://www.alura.com.br/formacao-vb-net

@@ -1,0 +1,92 @@
+name: Java
+expertise:
+  - name: Java Back-end Jr
+    blocks: 
+      - java-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 10
+      - java-error-handling:
+        priority: 10
+      - java-collections:
+        priority: 9
+      - java-packages:
+        priority: 8
+      - java-memory-management:
+        priority: 7
+      - java-concurrency:
+        priority: 8
+      - java-persistence:
+        priority: 9
+  - name: Java Back-end Mid
+    blocks:
+      - jvm:
+        priority: 8
+      - java-spring-framework:
+        priority: 9
+      - java-build-tools:
+        priority: 8
+      - java-testing:
+        priority: 8
+      - java-serialization:
+        priority: 6
+      - java-networking-and-sockets:
+        priority: 6
+      - java-servlets:
+        priority: 7      
+  - name: Java Back-end in depth
+    blocks:
+      - containers:
+        priority: 7
+      - java-spring-boot:
+        priority: 7
+      - data-structures:
+        priority: 8
+      - design-patterns:
+        priority: 7
+      - solid:
+        priority: 7
+      - clean-architecture:
+        priority: 7
+      - reflection-and-attributes:
+        priority: 5
+        optional: true
+      - jsf:
+        priority: 3
+        optional: true
+      - jms:
+        priority: 4
+        optional: true
+      - java-logging:
+        priority: 3
+        optional: true
+      - java-swing:
+        priority: 5
+        optional: true
+collaboration:
+  - name: Infraestrutura e boas práticas
+    blocks:
+      - git-and-github-fundamentals:
+        priority: 9
+      - http-fundamentals:
+        priority: 10
+      - json:
+        priority: 8
+      - command-line-fundamentals: 
+        priority: 8
+      - cloud-fundamentals: 
+        priority: 6
+        optional: true
+      - microservices:
+        priority: 7
+      - sql-fundamentals:
+        priority: 9
+  - name: Front-end
+    blocks:
+      - html-fundamentals:
+        priority: 6
+      - javascript-fundamentals:
+        priority: 4
+        optional: true
+      - css-fundamentals:
+        priority: 5
