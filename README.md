@@ -1,5 +1,7 @@
 # TechGuide.sh
 
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](./LICENSE)
+
 O TechGuide.sh é uma iniciativa da Alura para mapear as  necessidades mais comuns em cada profissional de tecnologia, direcionando tanto alunos e alunas quanto a própria escola com novos cursos, conteúdos, podcasts e artigos. 
 
 A gente se inspirou no também opensource http://roadmap.sh, porém usando a abordagem do profissional em T, abrindo mais possibilidades de caminhos e ordenação. Também queremos ter mais descritivos explicando o porquê de aprender cada um daqueles itens (cards) e fechar mais o escopo de cada um.
@@ -40,7 +42,7 @@ A gente se inspirou no também opensource http://roadmap.sh, porém usando a abo
 
 ## License/Licença do Projeto
 
-- TODO (Estamos decidindo)
+- [MIT](./LICENSE)
 
 ## Agradecimentos
 > Aos contribuidores Mário Souto, Fabrício Carraro, Carol Santos, Mateus Henrique, Guilherme Couto, Juliana Amoasei, Mônica Bock, Guilherme Lima, André Bessa, Rodrigo Dias, Vinícius Dias, Rodrigo Caneppele, Fernanda Erahardt, Milena Alves.
