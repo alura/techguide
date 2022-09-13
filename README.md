@@ -41,7 +41,7 @@ A gente se inspirou no também opensource http://roadmap.sh, porém usando a abo
 - [ ] Suporte completo em Inglês
 
 ## History/Histórico
-- 🇧🇷: Da uma olhada na aba [Releases](./releases) pra acompanhar as alterações feitas no projeto.
+- 🇧🇷: Da uma olhada na aba [Releases](https://github.com/alura/techguide/releases) pra acompanhar as alterações feitas no projeto.
 
 ## License/Licença do Projeto
 
