@@ -131,7 +131,10 @@ export default function SecondContentSection() {
           <Link
             href="/"
             styleSheet={{
-              alignSelf: "flex-start",
+              alignSelf: {
+                xs: "center",
+                md: "flex-start",
+              },
               textDecoration: "none",
               color: "#FFFFFF",
               backgroundColor: "#0052FF",
