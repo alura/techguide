@@ -7,6 +7,30 @@ interface GuidesGridProps {
 }
 export default function GuidesGrid({ guides }: GuidesGridProps) {
   return (
+    <ListOfGuides>
+      {[...guides].map((guide) => (
+        <Guide key={guide.slug}>
+          <Link
+            href={`/path/${guide.slug}`}
+            styleSheet={{
+              display: "flex",
+              textDecoration: "none",
+              flex: "1",
+              width: "100%",
+              justifyContent: "center",
+              hover: { opacity: "1 !important" },
+            }}
+          >
+            {guide.name}
+          </Link>
+        </Guide>
+      ))}
+    </ListOfGuides>
+  );
+}
+
+function ListOfGuides({ children }: { children: React.ReactNode }) {
+  return (
     <Box
       tag="ul"
       styleSheet={{
@@ -48,51 +72,42 @@ export default function GuidesGrid({ guides }: GuidesGridProps) {
         border: "1px solid #6affff",
       }}
     >
-      {[...guides].map((guide) => (
-        <Box
-          key={guide.slug}
-          tag="li"
-          styleSheet={{
-            display: "flex",
-            flex: {
-              xs: "0 0 calc(100% - 16px)",
-              md: "0 0 calc(25% - 16px)",
-            },
-            alignItems: "center",
-            height: "7.9706rem",
-            fontWeight: "600",
-            borderRadius: "14px",
-            boxShadow: "inset 0 0 0 1px #FFFFFF",
-            transition: "0.2s",
-            textAlign: "center",
-            marginBottom: "0.5em",
-            fontSize: "0.875rem",
-            hover: {
-              background:
-                "linear-gradient(145.25deg, #6affff 4.09%, #00aec9 81.45%)",
-              boxShadow: "0px 11.9189px 51.2514px #127797",
-              borderRadius: "14.3027px",
-              cursor: "pointer",
-            },
-          }}
-        >
-          <Link
-            href={`/path/${guide.slug}`}
-            styleSheet={{
-              display: "flex",
-              textDecoration: "none",
-              flex: "1",
-              width: "100%",
-              justifyContent: "center",
-              hover: {
-                opacity: "1 !important",
-              },
-            }}
-          >
-            {guide.name}
-          </Link>
-        </Box>
-      ))}
+      {children}
+    </Box>
+  );
+}
+
+function Guide({ children }: { children: React.ReactNode }) {
+  return (
+    <Box
+      tag="li"
+      styleSheet={{
+        display: "flex",
+        flex: {
+          xs: "0 0 calc(100% - 16px)",
+          md: "0 0 calc(25% - 16px)",
+        },
+        alignItems: "center",
+        height: "7.9706rem",
+        fontWeight: "600",
+        borderRadius: "14px",
+        boxShadow: "inset 0 0 0 1px #FFFFFF",
+        transition: "0.2s",
+        textAlign: "center",
+        marginBottom: "0.5em",
+        fontSize: "0.875rem",
+        background:
+          "linear-gradient(145.25deg, transparent 4.09%, transparent 81.45%)",
+        hover: {
+          background:
+            "linear-gradient(145.25deg, #6affff 4.09%, #00aec9 81.45%)",
+          boxShadow: "0px 11px 51px #127797",
+          borderRadius: "14px",
+          cursor: "pointer",
+        },
+      }}
+    >
+      {children}
     </Box>
   );
 }
