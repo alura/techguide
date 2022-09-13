@@ -2,8 +2,9 @@ name: GraphQL
 logo: 
 short-description:
 key-objectives:
-  - Fazer consultas
-  - Consumir APIs
+  - Aprender o que é GraphQL e por que foi criado
+  - Entender como o GraphQL é utilizado no desenvolvimento de APIs
+  - Criar APIs utilizando as bibliotecas e frameworks para GraphQL
 aditional-objectives:
 contents:
   - type: site
@@ -18,9 +19,9 @@ contents:
   - type: youtube
     title: "Mateus Silva: GraphQL: Pra que serve, Conceitos e Hello World"
     link: https://www.youtube.com/watch?v=ZWF7QT3ogk0
-  - type: youtube
-    title: "Washington Developer: Curso COMPLETO de GraphQL 1: Introdução | O Que é ? | O Que veio resolver?"
-    link: https://www.youtube.com/watch?v=RyqLvFhPNy8
+  - type: site
+    title: "How to GraphQL: The Fullstack tutorial for GraphQL (em inglês)"
+    link: https://www.howtographql.com/
 alura-contents:
   - type: youtube
     title: "Alura: O que é GraphQL?"
@@ -28,24 +29,9 @@ alura-contents:
   - type: podcast
     title: "Hipsters.tech: Python, GraphQL e Serverless no Zé Delivery (Hipsters On The Road 53)"
     link: https://www.alura.com.br/podcast/python-graphql-e-serverless-no-ze-delivery-hipsters-on-the-road-53-a804
-  - type: site
-    title: "Primeiras aulas do curso GraphQL: construindo uma API com Apollo Server"
-    link: https://www.alura.com.br/conteudo/graphql-construindo-api-apollo-server
   - type: course
     title: "Curso GraphQL: construindo uma API com Apollo Server"
     link: https://www.alura.com.br/curso-online-graphql-construindo-api-apollo-server
   - type: course
-    title: "Curso GraphQL: criação de APIs com Prisma 2 e Nexus"
-    link: https://www.alura.com.br/curso-online-graphql-criacao-apis-prisma-2-nexus
-  - type: site
-    title: "Primeiras aulas do curso GraphQL: integração de dados e relacionamentos"
-    link: https://www.alura.com.br/conteudo/graphql-integracao-dados-relacionamentos
-  - type: course
     title: "Curso GraphQL: integração de dados e relacionamentos"
     link: https://www.alura.com.br/curso-online-graphql-integracao-dados-relacionamentos
-  - type: site
-    title: "Primeiras aulas do curso GraphQL parte 3: integrando com sua aplicação"
-    link: https://www.alura.com.br/conteudo/graphql-integrando-com-front-end
-  - type: course
-    title: "Curso GraphQL parte 3: integrando com sua aplicação"
-    link: https://www.alura.com.br/curso-online-graphql-integrando-com-front-end

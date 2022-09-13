@@ -2,11 +2,16 @@ name: Nest.js - Fundamentos
 logo: 
 short-description:
 key-objectives:
-  - Construir um backend em Node.js
+  - Aprender o que é o NestJS e por que é utilizado
+  - Desenvolver APIs usando o NestJS
+  - Utilizar recursos específicos do NestJS
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "NestJS - Documentação oficial (em inglês)"
+    link: https://docs.nestjs.com/
   - type: ARTICLE
-    title: "Nest.js —backend com cara de Angular sobre NodeJs"
+    title: "Nest.js —backend com cara de Angular sobre Node.js"
     link: https://medium.com/codigorefinado/nest-js-typescript-pra-node-js-e-expess-e5042b77cae0
   - type: ARTICLE
     title: "O que é NestJS"
@@ -18,7 +23,7 @@ contents:
     title: "Código Falado: Por que Nest.js?"
     link: https://www.youtube.com/watch?v=ledmemIH9jA
   - type: YOUTUBE
-    title: "Paulo Salvatore: NestJS, o melhor framework backend de NodeJS"
+    title: "Paulo Salvatore: NestJS, o melhor framework backend de Node.js"
     link: https://www.youtube.com/watch?v=bAH4nBb1NFc
 alura-contents:
   - type: YOUTUBE
@@ -27,3 +32,6 @@ alura-contents:
   - type: COURSE
     title: "Curso NestJS: criando uma API Rest com TypeScript"
     link: https://cursos.alura.com.br/course/nestjs-api-rest-typescript
+  - type: COURSE
+    title: "Curso de APIs REST com NestJS: buscas, validação, serialização e detalhes arquiteturais"
+    link: https://cursos.alura.com.br/course/api-rest-nestjs-busca-validacao-serializacao-arquitetura
