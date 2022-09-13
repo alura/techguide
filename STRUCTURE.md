@@ -3,12 +3,12 @@
 ## Requisitos para rodar o projeto
 
 ### Setup de ambiente:
-- Node LTS
-- Yarn 1.x
+- [Node LTS](https://nodejs.org/en/)
+- [Yarn 1.x](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 
 ### Como rodar na minha máquina?
 
-- Clone o projeto
+- Clone o projeto `git clone https://github.com/alura/techguide.git`
 - Rode `yarn install`
 - Rode `yarn dev`
 - Pronto 🎉
@@ -18,8 +18,9 @@
 ### Estrutura do projeto
 
 - `./pages`: É a página que o Next.js usa para montar o sistema de roteamento
-- `./src/components`: São todos os pedaços primordiais de interface como componentes de formulário, Text e o `<Box>`
-  - `<Box>`: É nossa abstração para criar estilos, sempre use um box e nunca crie um styled component diretamente no projeto.
+- `./src/components`: São todos os pedaços primordiais de interface como componentes de formulário, `<Text>` (para qualquer texto) e o `<Box>`
+  - `<Text>`: Uma das ideias por tras do text é tematizar melhor o projeto no futuro e ele servir como um adapter para qualquer padronização de design que possamos vir a ter.
+  - `<Box>`: É nossa abstração para criar estilos, sempre use um box e **nunca crie um styled component diretamente no projeto**.
     - Ele recebe uma prop chamada `styleSheet` e a mesma pode receber ou uma chave com nome de propriedade do CSS com seu valor, ou ao invés de o valor você pode passar um objeto com a resolução que a propriedade deve ser aplicada.
       - **Exemplo**:
         - `<Box styleSheet={{ color: 'red' }} />` ou `<Box styleSheet={{ color: { xs: 'red', md: 'blue' } }} />`;
