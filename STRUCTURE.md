@@ -1,5 +1,18 @@
 # Entendendo decisões arquiteturais e a estrutura do projeto
 
+## Requisitos para rodar o projeto
+
+### Setup de ambiente:
+- Node LTS
+- Yarn 1.x
+
+### Como rodar na minha máquina?
+
+- Clone o projeto
+- Rode `yarn install`
+- Rode `yarn dev`
+- Pronto 🎉
+
 ## techguide.sh Site
 
 ### Estrutura do projeto
@@ -40,4 +53,16 @@ export default function SecondContentSection() {
 
 ## techguide.sh GraphQL API
 
-- TDB
+> A API GraphQL não deve ser usada no ambiente de produção até segunda ordem.
+
+### Como usar?
+
+- Em dev, após rodar o projeto você pode alterar os arquivos da pasta `_api/*`
+
+### Estrutura do projeto
+
+- `./_api/modules/*`: Cada pasta aqui representa uma entidade do sistema, atualmente temos `guides` e `blocks`
+  - Após criar uma nova entidade a mesma deve ser importada no arquivo `./_api/api.ts`, tal como os anteriores.
+  - Importa no mesmo PR rodar o comando `yarn generate:types` (em uma segunda aba de terminal com o projeto rodando) para deixar a tipagem typescript sincronizada tanto para o backend quanto para o frontend.
+
+
