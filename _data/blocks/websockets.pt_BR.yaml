@@ -2,8 +2,9 @@ name: WebSockets
 logo: 
 short-description:
 key-objectives:
-  - Abrir uma sessão de comunicação entre o navegador e um servidor
-  - Enviar mensagens e receber respostas de um servidor sem consultar o mesmo
+  - Conhecer o protocolo WebSocket e seu uso na comunicação cliente-servidor
+  - Aprender sobre os diversos usos do WebSocket na web
+  - Criar aplicações que utilizam WebSockets com as APIs e bibliotecas do Node.js
 aditional-objectives:
 contents:
   - type: SITE
@@ -15,18 +16,9 @@ contents:
   - type: ARTICLE
     title: "Como o JavaScript funciona: Aprofundando em WebSockets e HTTP/2 com SSE"
     link: https://medium.com/reactbrasil/como-o-javascript-funciona-aprofundando-em-websockets-e-http-2-com-sse-como-escolher-o-caminho-d4639995ef85
-  - type: ARTICLE
-    title: "Node.js — Usando WebSockets"
-    link: https://oieduardorabelo.medium.com/node-js-usando-websockets-5d642456d1f3
-  - type: ARTICLE
-    title: "Como usar WebSockets com o Redux Saga"
-    link: https://medium.com/@otaviobn/como-usar-websockets-com-o-redux-saga-9db41ee033e6
   - type: YOUTUBE
     title: "Filipe Deschamps: WebSockets na prática é MUITO poderoso"
     link: https://www.youtube.com/watch?v=bQ7NNSyGV2U
-  - type: YOUTUBE
-    title: "Eduardo Palandrani: O que é WebSocket?"
-    link: https://www.youtube.com/watch?v=YJxKYv7GLIg
 alura-contents:
   - type: ARTICLE
     title: "Entendendo o socket no Python criando um bot de IRC"
