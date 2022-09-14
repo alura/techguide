@@ -1,12 +1,3 @@
----
-name: Feature request
-about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: ''
-
----
-
 ## What?/Qual o problema
 **Sua solicitação de recurso está relacionada a um problema? Por favor descreva.**
 Uma descrição clara e concisa do que é o problema. Ex. Eu sempre fico frustrado quando [...]
