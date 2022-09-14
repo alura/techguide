@@ -18,6 +18,7 @@ A gente se inspirou no também opensource http://roadmap.sh, porém usando a abo
 
 ## Posso gerar meu próprio guia usando esse repositório?
 > **R:** Sim! Só pedimos que você faça um link para https://techguide.sh 😁 e respeite a licença de uso. Futuramente o site suportará carregar YAMLs de pessoas, empresas e até de outras escolas (esboço da ideia nessa issue: https://github.com/alura/techguide/issues/13)
+> TDB: Agora você também pode só nos mandar um arquivo e ...
 
 
 ## Posso sugerir novas carreiras?
