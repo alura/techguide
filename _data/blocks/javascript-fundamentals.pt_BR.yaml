@@ -21,40 +21,40 @@ aditional-objectives:
   - Usar 'forEach'
   - Manipular arrays com 'map', 'filter' e 'reduce'
 contents:
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: Um primeiro mergulho no JavaScript"
     link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/A_first_splash
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: Trabalhando com texto — strings em JavaScript"
     link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Strings
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: if...else"
     link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: while"
     link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: for"
     link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: Arrays"
     link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Arrays
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: Template strings"
     link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals
-  - type: article
+  - type: ARTICLE
     title: "Definindo Funções em Javascript"
     link: https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/
-  - type: youtube
+  - type: YOUTUBE
     title: "Mario Souto - Dev Soutinho: Como manipular arrays e objetos em JavaScript"
     link: https://www.youtube.com/watch?v=yS7AcF-xRUg
-  - type: youtube
+  - type: YOUTUBE
     title: "Marco Bruno: O que é Json e como criar um objeto"
     link: https://www.youtube.com/watch?v=yS7AcF-xRUg
-  - type: youtube
+  - type: YOUTUBE
     title: "Mario Souto - Dev Soutinho: Como usar Async/Await? Promises no JavaScript?"
     link: https://www.youtube.com/watch?v=q28lfkBd9F4
-  - type: youtube
+  - type: YOUTUBE
     title: "Mario Souto - Dev Soutinho: Como pegar dados de uma API? Como fazer AJAX? | Pegando dados de serviços via JavaScript"
     link: https://www.youtube.com/watch?v=85vJXFpXLQw
 alura-contents:
@@ -67,31 +67,31 @@ alura-contents:
   - type: podcast
     title: "Hipster 236 - Evolução do JavaScript"
     link: https://www.hipsters.tech/evolucao-do-javascript-hipsters-ponto-tech-236/
-  - type: article
+  - type: ARTICLE
     title: "Strings com JavaScript: o que são e como manipulá-las"
     link: https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular
-  - type: article
+  - type: ARTICLE
     title: "Como utilizar operadores de comparação em Javascript"
     link: https://www.alura.com.br/artigos/operadores-matematicos-em-javascript
-  - type: article
+  - type: ARTICLE
     title: "Para que serve um Array?"
     link: https://www.alura.com.br/artigos/javascript-para-que-serve-array
-  - type: article
+  - type: ARTICLE
     title: "Quando usar forEach e map?"
     link: https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map
-  - type: article
+  - type: ARTICLE
     title: "Manipulação de array com map, filter e reduce"
     link: https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce
-  - type: course
+  - type: COURSE
     title: "Formação JavaScript para Front-end"
     link: https://cursos.alura.com.br/formacao-javascript-front-end
-  - type: youtube
+  - type: YOUTUBE
     title: "Alura: O que é JavaScript?"
     link: https://www.youtube.com/watch?v=NaVSbnnV75Q
-  - type: youtube
+  - type: YOUTUBE
     title: "Alura: Destructuring em JavaScript"
     link: https://www.youtube.com/watch?v=f8a-qwKC5yk
-  - type: youtube
+  - type: YOUTUBE
     title: "Alura: Classes x funções no Javascript"
     link: https://www.youtube.com/watch?v=iohhj-k9L6s
   - type: challenge
