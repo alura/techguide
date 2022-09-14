@@ -24,74 +24,74 @@ aditional-objectives:
   - Bootstrap e frameworks de CSS
   - Pré-processadores
 contents:
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: Iniciando com CSS"
     link: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: Seletores"
     link: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: Cascata e herança"
     link: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: Propriedade 'display'"
     link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/display
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: Conceitos básicos de Flexbox"
     link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: Grid Layout"
     link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
-  - type: youtube
+  - type: YOUTUBE
     title: "Rafaella Ballerini: O QUE É CSS?"
     link: https://www.youtube.com/watch?v=LWU2OR19ZG4
-  - type: youtube
+  - type: YOUTUBE
     title: "Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web - parte 1"
     link: https://www.youtube.com/watch?v=KbjLtEgmZ_E
-  - type: youtube
+  - type: YOUTUBE
     title: "Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web - parte 2"
     link: https://www.youtube.com/watch?v=hjz6ezV9_uc
-  - type: youtube
+  - type: YOUTUBE
     title: "Matheus Castiglioni: Arquitetura CSS - BEM"
     link: https://www.youtube.com/watch?v=yKPXW9aSxQI
-  - type: youtube
+  - type: YOUTUBE
     title: "Matheus Castiglioni: CSS Grid Layout"
     link: https://www.youtube.com/watch?v=HBlBNAtFcdw
-  - type: youtube
+  - type: YOUTUBE
     title: "Mario Souto - Dev Soutinho: Como centralizar no CSS"
     link: https://www.youtube.com/watch?v=Cu-HP-gvggg
 alura-contents:
   - type: podcast
     title: "Hipster 09 - CSS: Cansei de Ser Simples"
     link: https://www.hipsters.tech/css-cansei-de-ser-simples-hipsters-09/
-  - type: article
+  - type: ARTICLE
     title: "HTML, CSS e Javascript, quais as diferenças?"
     link: https://www.alura.com.br/artigos/html-css-e-js-definicoes
-  - type: article
+  - type: ARTICLE
     title: "Guia de unidades no CSS"
     link: https://www.alura.com.br/artigos/guia-de-unidades-no-css
-  - type: article
+  - type: ARTICLE
     title: "CSS: Guia do Flexbox"
     link: https://www.alura.com.br/artigos/css-guia-do-flexbox
-  - type: article
+  - type: ARTICLE
     title: "Como fazer Grids e a Responsividade na Web"
     link: https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web
-  - type: youtube
+  - type: YOUTUBE
     title: "Alura: CSS FlexBox: Dicas para começar"
     link: https://www.youtube.com/watch?v=326-B1avuYo
-  - type: youtube
+  - type: YOUTUBE
     title: "Alura: Box Model e Sizing no CSS"
     link: https://www.youtube.com/watch?v=qcNUxyOWXIw
-  - type: youtube
+  - type: YOUTUBE
     title: "Alura: Curso de HTML5 e CSS3"
     link: https://www.youtube.com/watch?v=78AyiuxYceg
-  - type: course
+  - type: COURSE
     title: "Apostila: Desenvolvimento Web com HTML, CSS e JavaScript"
     link: https://www.alura.com.br/apostila-html-css-javascript
-  - type: course
+  - type: COURSE
     title: "Formação HTML e CSS"
     link: https://www.alura.com.br/formacao-html-e-css
-  - type: course
+  - type: COURSE
     title: "HTML e CSS: responsividade com mobile-first"
     link: https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first
   - type: challenge

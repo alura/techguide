@@ -10,20 +10,20 @@ key-objectives:
   - Esperar por um evento em certo elemento da página usando 'addEventListener()'
 aditional-objectives:
 contents:
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: Introdução ao DOM"
     link: https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: querySelectorAll()"
     link: https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelectorAll
-  - type: site
+  - type: SITE
     title: "MDN Web Docs: addEventListener()"
     link: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
-  - type: youtube
+  - type: YOUTUBE
     title: "Felipe Aguiar - Laboratório de javascript: Javascript DOM 01 - DOM - A base da manipulação e criação de páginas dinâmicas"
     link: https://www.youtube.com/watch?v=G31EuXNMDPk
 alura-contents:
-  - type: course
+  - type: COURSE
     title: "Curso JavaScript: manipulando o DOM"
     link: https://cursos.alura.com.br/course/javascript-manipulando-dom
   - type: challenge
