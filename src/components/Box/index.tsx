@@ -3,6 +3,7 @@ import BaseComponent from "@src/theme/BaseComponent";
 import { StyleSheet } from "@skynexui/responsive_stylesheet";
 
 interface BoxProps {
+  id?: string;
   tag?: "main" | "div" | "article" | "section" | "ul" | string;
   children?: React.ReactNode;
   className?: string;
