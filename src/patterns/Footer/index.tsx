@@ -49,7 +49,7 @@ export default function Footer() {
         <Box
           styleSheet={{
             flex: 1,
-            paddingLeft: "1em",
+            padding: "0 1em",
             fontSize: "0.75rem",
             fontWeight: "600",
             lineHeight: "1.5",
