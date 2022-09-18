@@ -191,7 +191,7 @@ function FAQQuestion({ title, description }: any) {
           overflow: "auto",
         }}
         aria-hidden={isOpen ? "false" : "true"}
-        onFocus={() => setIsOpen(true)} // Open in case a link inside the accordion is focused by keyboard navigation
+        onFocus={() => setIsOpen(true)}
       >
         <Text
           styleSheet={{
