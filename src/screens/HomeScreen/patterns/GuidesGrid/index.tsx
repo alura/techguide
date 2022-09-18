@@ -4,6 +4,7 @@ import { HomeGetAllGuidesQuery } from "@src/gql_types";
 import styled from "styled-components";
 
 const StyledBox = styled.li<any>`
+  ///
   display: flex;
   flex: 0 0 calc(100% - 16px);
   align-items: center;

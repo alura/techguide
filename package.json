@@ -11,6 +11,7 @@
     "build": "next build",
     "build:static": "next build && next export",
     "lint": "eslint './src/**/*.{ts,tsx}' './_api/**/*.{ts,tsx}' && yamllint ./_data/**/*.yaml",
+    "lint:fix": "eslint \"./src/**/*.{ts,tsx}\" \"./_api/**/*.{ts,tsx}\" --fix && yamllint ./_data/**/*.yaml",
     "test": "jest",
     "generate:types": "yarn generate:types:back && yarn generate:types:front",
     "generate:types:back": "graphql-codegen --config codegen.yml",
