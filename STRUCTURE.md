@@ -52,6 +52,9 @@ export default function SecondContentSection() {
 ```
 > Caso deseje passar um link, você DEVE usar a tag do html `<a href="link"></a>`
 
+### Como gerar o favicon do site?
+- Atualmente estamos usando esse projeto https://www.favicon-generator.org/
+
 ## techguide.sh GraphQL API
 
 > A API GraphQL não deve ser usada no ambiente de produção até segunda ordem.
