@@ -1,0 +1,32 @@
+name: Service Workers
+logo: 
+short-description:
+key-objectives:
+  - Melhorar a performance e trabalhar offline
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Usando Service Worker"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API/Using_Service_Workers
+  - type: ARTICLE
+    title: "Os primeiros passos para tornar uma aplicação web offline"
+    link: https://medium.com/aurum-tech/os-primeiros-passos-para-tornar-uma-aplica%C3%A7%C3%A3o-web-offline-8dee5958818b
+  - type: ARTICLE
+    title: "Como o JavaScript funciona: Service Workers, seu ciclo de vida e casos de uso"
+    link: https://medium.com/reactbrasil/como-o-javascript-funciona-service-workers-seu-ciclo-de-vida-e-casos-de-uso-8404870ee728
+  - type: ARTICLE
+    title: "Service Workers in React (inglês)"
+    link: https://levelup.gitconnected.com/service-workers-in-react-8bcaccfd0356
+  - type: YOUTUBE
+    title: "Matheus da Guia de Campos: Configurando service-worker em sua aplicação Reactjs para cache de páginas estáticas"
+    link: https://www.youtube.com/watch?v=dBigOB4p1zY
+alura-contents:
+  - type: ARTICLE
+    title: "Offline Web"
+    link: https://www.alura.com.br/artigos/palestra-offline-web-com-service-workers
+  - type: podcast
+    title: "Hipsters.tech: Progressive Web Apps - Hipsters 03"
+    link: https://www.alura.com.br/podcast/progressive-web-apps-hipsters-03-a583
+  - type: YOUTUBE
+    title: "O que é uma Progressive Web App (PWA)?"
+    link: https://www.youtube.com/watch?v=UeMkXvmk68Q

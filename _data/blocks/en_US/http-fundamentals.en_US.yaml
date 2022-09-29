@@ -1,0 +1,46 @@
+name: HTTP - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Entender a diferença dos verbos HTTP
+  - Testar os requests e ver os status codes no navegador
+  - Saber fazer uma requisição HTTP na linha de comando com WGET
+  - Baixar uma imagem com WGET
+  - Fazer um post
+aditional-objectives:
+  - fazer um post com POSTMAN
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Uma visão geral do HTTP"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview
+  - type: SITE
+    title: "MDN Web Docs: Métodos de requisição HTTP"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
+  - type: YOUTUBE
+    title: "Fabiano Gabardo Lemos: Requisições HTTP - GET, POST, PUT, PATCH DELETE"
+    link: https://www.youtube.com/watch?v=kncOJZrnkTg
+  - type: YOUTUBE
+    title: "Programador a Bordo: Protocolo HTTP e TCP/IP - Introdução"
+    link: https://www.youtube.com/watch?v=V4XZ81vRGtM
+alura-contents:
+  - type: ARTICLE
+    title: "HTTP: Desmistificando o protocolo da Web"
+    link: https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1
+  - type: ARTICLE
+    title: "Métodos de requisição do HTTP"
+    link: https://www.alura.com.br/artigos/metodos-de-requisicao-do-http
+  - type: ARTICLE
+    title: "Qual é a diferença entre HTTP e HTTPS?"
+    link: https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https
+  - type: podcast
+    title: "Hipsters.tech: HTTP/2: magia com o novo protocolo - Hipsters 13"
+    link: https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573
+  - type: YOUTUBE
+    title: "Alura: HTTP - Entendendo a web"
+    link: https://www.youtube.com/watch?v=1IKkSJ8yMMA
+  - type: COURSE
+    title: "Primeiras aulas do Curso HTTP: Entendendo a web por baixo dos panos"
+    link: https://www.alura.com.br/conteudo/http-fundamentos
+  - type: COURSE
+    title: "Curso HTTP: Entendendo a web por baixo dos panos"
+    link: https://www.alura.com.br/curso-online-http-fundamentos

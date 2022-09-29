@@ -1,0 +1,26 @@
+name: React Hooks - Memo
+logo: 
+short-description:
+key-objectives:
+  - Controlar o estado de variáveis externas
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "React: Documentação - useMemo"
+    link: https://pt-br.reactjs.org/docs/hooks-reference.html#usememo
+  - type: ARTICLE
+    title: "React.useMemo na prática"
+    link: https://medium.com/reactbrasil/react-usememo-na-pr%C3%A1tica-692110771c01
+  - type: ARTICLE
+    title: "Diminuindo Processamento com useMemo em React"
+    link: https://blog.matheuscastiglioni.com.br/diminuindo-processamento-com-use-memo-em-react/
+  - type: SITE
+    title: "useHooks.com: useMemo (inglês)"
+    link: https://usehooks.com/useMemo/
+  - type: YOUTUBE
+    title: "React Floripa: Os mitos sobre useMemo e useCallback"
+    link: https://www.youtube.com/watch?v=ZntFz_DDakQ
+alura-contents:
+  - type: COURSE
+    title: "Curso React: gerenciamento de estados globais com ContextAPI"
+    link: https://cursos.alura.com.br/course/react-context-estados-globais-contextapi

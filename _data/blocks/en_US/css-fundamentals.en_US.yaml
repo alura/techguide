@@ -1,0 +1,102 @@
+name: CSS - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Aprender a estrutura visual de uma página, com 'margin' e 'padding'
+  - Estabelecer o tamanho com 'width' e 'height'
+  - Aprender sobre a posição de um elemento ('static', 'relative' ou 'absolute)
+  - Aprender sobre o 'display' de exibição de um elemento ('block', 'inline', 'inline-block')
+  - Aprender a posicionar imagens em relação ao texto
+  - Aprender sobre alinhamento
+  - Aprender sobre estilo de fontes
+  - Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)
+  - Conectar com os elementos (IDs, classes) de um arquivo HTML
+  - Alterar características de um elemento quando o mouse passar por cima dele ('hover')
+  - Aprender box-sizinh
+  - Aprender Flexbox
+  - Aprender Grid
+aditional-objectives:
+  - Usar um arquivo CSS básico para resetar as atribuições dos navegadores
+  - Aprender seletores como '+', '>', '~', etc
+  - Conhecer o conceito de 'Componentes' (Atomic design é uma referência) e 'B.E.M.'
+  - Tornar a página responsiva com 'media queries'
+  - Aprender o conceito de Mobile First
+  - Bootstrap e frameworks de CSS
+  - Pré-processadores
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Iniciando com CSS"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started
+  - type: SITE
+    title: "MDN Web Docs: Seletores"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors
+  - type: SITE
+    title: "MDN Web Docs: Cascata e herança"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+  - type: SITE
+    title: "MDN Web Docs: Propriedade 'display'"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/display
+  - type: SITE
+    title: "MDN Web Docs: Conceitos básicos de Flexbox"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+  - type: SITE
+    title: "MDN Web Docs: Grid Layout"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+  - type: YOUTUBE
+    title: "Rafaella Ballerini: O QUE É CSS?"
+    link: https://www.youtube.com/watch?v=LWU2OR19ZG4
+  - type: YOUTUBE
+    title: "Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web - parte 1"
+    link: https://www.youtube.com/watch?v=KbjLtEgmZ_E
+  - type: YOUTUBE
+    title: "Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web - parte 2"
+    link: https://www.youtube.com/watch?v=hjz6ezV9_uc
+  - type: YOUTUBE
+    title: "Matheus Castiglioni: Arquitetura CSS - BEM"
+    link: https://www.youtube.com/watch?v=yKPXW9aSxQI
+  - type: YOUTUBE
+    title: "Matheus Castiglioni: CSS Grid Layout"
+    link: https://www.youtube.com/watch?v=HBlBNAtFcdw
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Como centralizar no CSS"
+    link: https://www.youtube.com/watch?v=Cu-HP-gvggg
+alura-contents:
+  - type: podcast
+    title: "Hipster 09 - CSS: Cansei de Ser Simples"
+    link: https://www.hipsters.tech/css-cansei-de-ser-simples-hipsters-09/
+  - type: ARTICLE
+    title: "HTML, CSS e Javascript, quais as diferenças?"
+    link: https://www.alura.com.br/artigos/html-css-e-js-definicoes
+  - type: ARTICLE
+    title: "Guia de unidades no CSS"
+    link: https://www.alura.com.br/artigos/guia-de-unidades-no-css
+  - type: ARTICLE
+    title: "CSS: Guia do Flexbox"
+    link: https://www.alura.com.br/artigos/css-guia-do-flexbox
+  - type: ARTICLE
+    title: "Como fazer Grids e a Responsividade na Web"
+    link: https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web
+  - type: YOUTUBE
+    title: "Alura: CSS FlexBox: Dicas para começar"
+    link: https://www.youtube.com/watch?v=326-B1avuYo
+  - type: YOUTUBE
+    title: "Alura: Box Model e Sizing no CSS"
+    link: https://www.youtube.com/watch?v=qcNUxyOWXIw
+  - type: YOUTUBE
+    title: "Alura: Curso de HTML5 e CSS3"
+    link: https://www.youtube.com/watch?v=78AyiuxYceg
+  - type: COURSE
+    title: "Apostila: Desenvolvimento Web com HTML, CSS e JavaScript"
+    link: https://www.alura.com.br/apostila-html-css-javascript
+  - type: COURSE
+    title: "Formação HTML e CSS"
+    link: https://www.alura.com.br/formacao-html-e-css
+  - type: COURSE
+    title: "HTML e CSS: responsividade com mobile-first"
+    link: https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first
+  - type: challenge
+    title: "7 Days of Code: HTML e CSS"
+    link: https://7daysofcode.io/matricula/html-css
+  - type: challenge
+    title: "7 Days of Code: Responsividade"
+    link: https://7daysofcode.io/matricula/responsividade
