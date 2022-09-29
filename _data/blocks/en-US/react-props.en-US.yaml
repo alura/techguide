@@ -3,10 +3,14 @@ logo:
 short-description:
 key-objectives:
   - Props are an object that is injected in components and provides some data that can be shared between other components in an uni-directional flow of data, from a parent to children. Props are read-only.
-  - How to pass a props
-  - How to manipulate props
+  - Passing props
+  - Manipulating props
+  - 
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "W3Schools: React Props"
+    link: https://www.w3schools.com/react/react_props.asp
   - type: SITE
     title: "React: Documentation - Components and Props"
     link: https://reactjs.org/docs/components-and-props.html
