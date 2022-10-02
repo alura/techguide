@@ -1,31 +1,31 @@
 {
-  "HEAD.TITLE": "Tech Guide: guias do Profissional em T",
-  "HEAD.DESCRIPTION": "Encontre o guia perfeito para a sua carreira de tecnologia. Dicas, sugestões, prioridades e links para conteúdo. Tudo isso com a abordagem do profissional em T.",
+  "HEAD.TITLE": "Tech Guide: guides of T Shapped Professionals",
+  "HEAD.DESCRIPTION": "Find the perfect guide for your tech career. Tips, hints, priorities and links to content. All this with the professional approach in T.",
   "HEAD.SHARE_IMAGE": "https://techguide.sh/assets/image/share-image.jpg",
   "MENU.LOGO_ALT": "Logo Tech Guide Alura",
-  "MENU.CTA_TEXT": "<Emoji name='fire'/> Monte seu &lt;T&gt;",
+  "MENU.CTA_TEXT": "<Emoji name='fire'/> Build your &lt;T&gt;",
   "SCREEN_HERO_CONTAINER.PRE_TITLE": "<Emoji name='star'/> Guide your career!",
   "SCREEN_HERO_CONTAINER.TITLE": "Discover possible paths<br /> to become professional<strong>&lt;T&gt; shapped</strong>",
   "SCREEN_HERO_CONTAINER.SUB_TITLE": "Alura created TechGuide.sh to help you on your learning journey. A mapping of the main technologies demanded by the market, with our suggestions and opinions.",
 
-  "SCREEN_HERO_CONTAINER.FIRST_SECTION.TITLE": "Um guia em formato de &ltT&gt;",
-  "SCREEN_HERO_CONTAINER.FIRST_SECTION.SUB_TITLE": "Profissionais em &lt;T&gt; têm profundidade (especialistas) em uma determinada área, além de possuírem conhecimento generalista em assuntos auxiliares.",
-  "SCREEN_HERO_CONTAINER.FIRST_SECTION.BTN": "Selecionar minha carreira!",
-  "SCREEN_HERO_CONTAINER.SECOND_SECTION.TITLE": "Descubra o que dominar em diferentes momentos da sua carreira",
-  "SCREEN_HERO_CONTAINER.SECOND_SECTION.SUB_TITLE": "Dependendo da sua carreira e da sua senioridade, cada tecnologia tem um peso diferente. Saiba a nossa opinião, baseada no mercado, de o que estudar e o quanto estudar.",
-  "SCREEN_HERO_CONTAINER.SECOND_SECTION.BTN": "Selecionar minha carreira!",
+  "SCREEN_HERO_CONTAINER.FIRST_SECTION.TITLE": "A &ltT&gt; shapped guide",
+  "SCREEN_HERO_CONTAINER.FIRST_SECTION.SUB_TITLE": "&lt;T&gt; shapped professionals have deep knowledge um some area, in addition to having generalist knowledge in auxiliary matters.",
+  "SCREEN_HERO_CONTAINER.FIRST_SECTION.BTN": "Select mt career!",
+  "SCREEN_HERO_CONTAINER.SECOND_SECTION.TITLE": "Find out what to master at different points in your career",
+  "SCREEN_HERO_CONTAINER.SECOND_SECTION.SUB_TITLE": "Depending on your career and seniority, each technology has a different weight. Learn our market-based opinion of what to study and how much to study.",
+  "SCREEN_HERO_CONTAINER.SECOND_SECTION.BTN": "Select my career!",
 
   "FEATURE_FLAG.BUILD_YOUR_T": false,
   "PATH.T_BLOCK_SUGGESTED_CONTENT": "Conteúdo Recomendado",
-  "PATH.T_BLOCK_SUGGESTED_CONTENT.SITE.LABEL": "Site",
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.SITE.LABEL": "WebSite",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.SITE.BG": "#6DD5EC",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.SITE.COLOR": "#002A42",
   
-  "PATH.T_BLOCK_SUGGESTED_CONTENT.ARTICLE.LABEL": "Artigo",
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.ARTICLE.LABEL": "Article",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.ARTICLE.BG": "#FDB9C6",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.ARTICLE.COLOR": "#670032",
   
-  "PATH.T_BLOCK_SUGGESTED_CONTENT.COURSE.LABEL": "Curso",
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.COURSE.LABEL": "Course",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.COURSE.BG": "#BEEC6D",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.COURSE.COLOR": "#043300",
 
@@ -37,14 +37,18 @@
   "PATH.T_BLOCK_SUGGESTED_CONTENT.PODCAST.BG": "#AB7EE4",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.PODCAST.COLOR": "#300031",
 
-  "PATH.T_BLOCK_SUGGESTED_CONTENT.CONTENT.LABEL": "Conteúdo",
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.CONTENT.LABEL": "Content",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.CONTENT.BG": "#d4d4d4",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.CONTENT.COLOR": "#494848",
 
-  "TSHAPE.BUTTON.BACK_TO_HOME": "<Icon name='arrowLeft' /> Voltar para seleção de carreiras",
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.CHALLENGE.LABEL": "Challenge",
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.CHALLENGE.BG": "#162639",
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.CHALLENGE.COLOR": "#FFFFFF",
 
-  "FOOTER.DESCRIPTION": "Desenvolva sua Carreira em &lt;T&gt; · Versão: ",
-  "FOOTER.OPEN_SOURCE_CTA": "O techguide.sh é um projeto open source, <Link href='https://github.com/alura/techguide' text='confira nosso README' />",
-  "FOOTER.BRING_BY": "Trazido por",
+  "TSHAPE.BUTTON.BACK_TO_HOME": "<Icon name='arrowLeft' /> Back to carreer selection",
+
+  "FOOTER.DESCRIPTION": "Develop your career in &lt;T&gt; · Version: ",
+  "FOOTER.OPEN_SOURCE_CTA": "The techguide.sh is an open source project, <Link href='https://github.com/alura/techguide' text='check our README' />",
+  "FOOTER.BRING_BY": "Bring to you by",
   "DEMO":"DEMO"
 }
