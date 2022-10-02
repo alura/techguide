@@ -10,7 +10,8 @@ import { gqlInput } from "@api/infra/graphql/gqlInput";
 const ALLOW_LIST = [];
 
 export function guidesRepository() {
-  const pathToGuides = path.resolve(".", "_data", "guides");
+  // TODO: Receive locale to decide which one to get
+  const pathToGuides = path.resolve(".", "_data", "guides", "pt_BR");
   const repository = {
     async getAll({ input }: { input: GuidesInput }): Promise<Guide[]> {
       const { filter = {}, offset, limit } = input;

@@ -10,7 +10,9 @@ import { gqlInput } from "@api/infra/graphql/gqlInput";
 const ALLOW_LIST = [];
 
 export function blocksRepository() {
-  const pathToBlocks = path.resolve(".", "_data", "blocks");
+  // TODO: Receive locale to decide which one to get
+  const pathToBlocks = path.resolve(".", "_data", "blocks", "pt_BR");
+
   const repository = {
     async getAll({ input }: { input: BlocksInput }): Promise<Block[]> {
       const { filter = {}, offset, limit } = input;
