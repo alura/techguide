@@ -6,6 +6,7 @@ import { slugify } from "@src/infra/slugify";
 import { paginate } from "@src/infra/paginate";
 import { Block, BlockInput, BlocksInput, SiteLocale } from "@api/gql_types";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
+import { storage } from "@api/infra/storage";
 
 const ALLOW_LIST = [];
 
@@ -25,10 +26,14 @@ export function blocksRepository() {
       ).filter((fileName) => !ALLOW_LIST.includes(fileName));
 
       const blocksPromise = blockFileNames.map(async (fileName) => {
+        const slug = slugify(fileName.split(".")[0]);
+
+        const blockCache = await storage.get(`block-${locale}-${slug}`);
+        if (blockCache) return blockCache;
+
         const fileContent = await readYamlFile<any>(
           path.resolve(pathToBlocks, fileName)
         );
-        const slug = slugify(fileName.split(".")[0]);
 
         return {
           ...fileContent,
@@ -82,6 +87,10 @@ export function blocksRepository() {
       const blocks = blocksSettled
         .filter((block) => block.status === "fulfilled")
         .map((block) => (block as any).value);
+
+      blocks.forEach((block) =>
+        storage.set(`block-${locale}-${block.slug}`, block)
+      );
 
       const output = paginate<Block>(
         blocks.filter(sift(filter)),
