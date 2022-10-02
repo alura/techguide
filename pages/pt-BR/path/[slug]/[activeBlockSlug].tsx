@@ -1,6 +1,6 @@
 import { getStaticProps as getStaticPropsBase } from "./index";
 import { initializeApollo } from "@src/infra/apolloClient";
-import { AllPathsForActiveBlockDocument } from "@src/gql_types";
+import { AllPathsForActiveBlockDocument, SiteLocale } from "@src/gql_types";
 
 export { default } from "./index";
 
@@ -36,10 +36,15 @@ export const getStaticProps = async (ctx) => {
   };
 };
 
-export async function getStaticPaths() {
+export async function getStaticPaths(ctx) {
+  const locale = ((ctx as any).locale || SiteLocale.PtBr) as SiteLocale;
+
   const apolloClient = initializeApollo();
   const { data } = await apolloClient.query({
     query: AllPathsForActiveBlockDocument,
+    variables: {
+      locale,
+    },
   });
 
   const paths = data.guides.reduce((acc, guide) => {
