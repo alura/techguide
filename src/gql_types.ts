@@ -48,7 +48,6 @@ export type BlockContent = {
 export enum BlockContentType {
   Article = 'ARTICLE',
   Challenge = 'CHALLENGE',
-  Course = 'COURSE',
   Podcast = 'PODCAST',
   Site = 'SITE',
   Youtube = 'YOUTUBE'

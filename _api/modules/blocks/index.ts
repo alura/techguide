@@ -26,7 +26,7 @@ const typeDefs = gql`
   }
   enum BlockContentType {
     SITE
-    COURSE
+    # COURSE
     PODCAST
     ARTICLE
     YOUTUBE
