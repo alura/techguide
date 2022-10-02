@@ -116,7 +116,7 @@ export function pageHOC<ComponentType>(Component: ComponentType) {
   return function PageHOC({ i18nKeys, ...props }: any) {
     const OutputComponent = Component as unknown as any;
     return (
-      <I18nProvider keys={i18nKeys}>
+      <I18nProvider locale={props.locale} keys={i18nKeys}>
         <ModalProviderWithActiveBlock modalInitialData={props.modalInitialData}>
           <CommonHead pageTitle={props.pageTitle} />
           <OutputComponent {...props} />

@@ -4,18 +4,21 @@ import sift from "sift";
 import readYamlFile from "read-yaml-file/index";
 import { slugify } from "@src/infra/slugify";
 import { paginate } from "@src/infra/paginate";
-import { Block, BlockInput, BlocksInput } from "@api/gql_types";
+import { Block, BlockInput, BlocksInput, SiteLocale } from "@api/gql_types";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
 
 const ALLOW_LIST = [];
 
-export function blocksRepository() {
-  // TODO: Receive locale to decide which one to get
-  const pathToBlocks = path.resolve(".", "_data", "blocks", "pt_BR");
+const pathToBlocksByLocale = {
+  [SiteLocale.PtBr]: path.resolve(".", "_data", "blocks", "pt_BR"),
+  [SiteLocale.EnUs]: path.resolve(".", "_data", "blocks", "en_US"),
+};
 
+export function blocksRepository() {
   const repository = {
     async getAll({ input }: { input: BlocksInput }): Promise<Block[]> {
-      const { filter = {}, offset, limit } = input;
+      const { filter = {}, offset, limit, locale } = input;
+      const pathToBlocks = pathToBlocksByLocale[locale];
 
       const blockFileNames = await (
         await Promise.all(await fs.readdir(pathToBlocks))
@@ -25,7 +28,7 @@ export function blocksRepository() {
         const fileContent = await readYamlFile<any>(
           path.resolve(pathToBlocks, fileName)
         );
-        const slug = slugify(fileName.replace(".pt_BR.yaml", ""));
+        const slug = slugify(fileName.split(".")[0]);
 
         return {
           ...fileContent,
@@ -91,6 +94,7 @@ export function blocksRepository() {
     async getBySlug({ input }: { input: BlockInput }): Promise<Block> {
       const blocks = await repository.getAll({
         input: gqlInput<BlocksInput>({
+          ...input,
           filter: {
             slug: {
               eq: input.slug,

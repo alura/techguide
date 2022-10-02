@@ -47,7 +47,9 @@ export type BlockContent = {
 
 export enum BlockContentType {
   Article = 'ARTICLE',
+  Challenge = 'CHALLENGE',
   Course = 'COURSE',
+  Podcast = 'PODCAST',
   Site = 'SITE',
   Youtube = 'YOUTUBE'
 }
@@ -72,6 +74,7 @@ export type BlockKeyObjective = {
 export type BlocksInput = {
   filter?: InputMaybe<BlockFilters>;
   limit?: InputMaybe<Scalars['Int']>;
+  locale?: InputMaybe<SiteLocale>;
   offset?: InputMaybe<Scalars['Int']>;
 };
 
@@ -127,6 +130,7 @@ export type GuideInput = {
 export type GuidesInput = {
   filter?: InputMaybe<GuideFilters>;
   limit?: InputMaybe<Scalars['Int']>;
+  locale?: InputMaybe<SiteLocale>;
   offset?: InputMaybe<Scalars['Int']>;
 };
 

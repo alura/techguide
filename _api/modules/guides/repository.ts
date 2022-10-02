@@ -4,17 +4,21 @@ import sift from "sift";
 import readYamlFile from "read-yaml-file/index";
 import { slugify } from "@src/infra/slugify";
 import { paginate } from "@src/infra/paginate";
-import { Guide, GuideInput, GuidesInput } from "@api/gql_types";
+import { Guide, GuideInput, GuidesInput, SiteLocale } from "@api/gql_types";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
 
 const ALLOW_LIST = [];
 
+const pathToGuideByLocale = {
+  [SiteLocale.PtBr]: path.resolve(".", "_data", "guides", "pt_BR"),
+  [SiteLocale.EnUs]: path.resolve(".", "_data", "guides", "en_US"),
+};
+
 export function guidesRepository() {
-  // TODO: Receive locale to decide which one to get
-  const pathToGuides = path.resolve(".", "_data", "guides", "pt_BR");
   const repository = {
     async getAll({ input }: { input: GuidesInput }): Promise<Guide[]> {
-      const { filter = {}, offset, limit } = input;
+      const { filter = {}, offset, limit, locale } = input;
+      const pathToGuides = pathToGuideByLocale[locale];
 
       const guideFileNames = (await fs.readdir(pathToGuides)).filter(
         (fileName) => !ALLOW_LIST.includes(fileName)
@@ -92,6 +96,7 @@ export function guidesRepository() {
     async getBySlug({ input }: { input: GuideInput }): Promise<Guide> {
       const guides = await repository.getAll({
         input: gqlInput<GuidesInput>({
+          ...input,
           filter: {
             slug: {
               eq: input.slug,
