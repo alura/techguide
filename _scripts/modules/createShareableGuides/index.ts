@@ -1,6 +1,6 @@
 import path from "path";
 import fs from "fs";
-import { HomeGetAllGuidesDocument, SiteLocale } from "@src/gql_types";
+import { HomeGetAllGuidesDocument, PathScreenGetGuideBySlugDocument, SiteLocale } from "@src/gql_types";
 import { initializeApollo } from "@src/infra/apolloClient";
 import { log } from "../../infra/log";
 
@@ -18,7 +18,7 @@ export async function main() {
     },
   });
 
-  data.guides.forEach(({ slug, name }) => {
+  data.guides.forEach(async ({ slug, name }) => {
     const filePath = path.resolve(
       ".",
       "_data",
@@ -27,7 +27,18 @@ export async function main() {
       `${slug}`
     );
 
+    const { data } = await apolloClient.query({
+      query: PathScreenGetGuideBySlugDocument,
+      variables: {
+        input: {
+          slug,
+        },
+        locale,
+      },
+    });
+
     log(`Creating shareable guide: ${filePath}`);
+    // log(data);
 
     fs.writeFileSync(
       `${filePath}.md`,
