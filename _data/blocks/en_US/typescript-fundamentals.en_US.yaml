@@ -1,0 +1,39 @@
+name: TypeScript - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Entender a fundo o que são tipos e a importância da tipagem
+  - Aprender o que é o TypeScript, por que foi criado, como ele funciona e sua relação com o JavaScript
+  - Conhecer as ferramentas do TypeScript (integração com o editor de código, verificador estático e compilador)
+  - Escrever código em TypeScript com suas ferramentas (interfaces, enum, decorators, etc)
+  - Desenvolver aplicações em TypeScript
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Compreendendo o TypeScript"
+    link: https://docs.microsoft.com/pt-br/archive/msdn-magazine/2015/january/typescript-understanding-typescript
+  - type: ARTICLE
+    title: "TypeScript: O guia definitivo"
+    link: https://oieduardorabelo.medium.com/typescript-o-guia-definitivo-1a63b04259cc
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Linguagens Sem Tipos, dá pra ficar bom programando nelas? JavaScript vs TypeScript"
+    link: https://www.youtube.com/watch?v=t-9-pkh5FDQ
+  - type: SITE
+    title: "Documentação: TypeScript for the New Programmer (inglês)"
+    link: https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html
+alura-contents:
+  - type: ARTICLE
+    title: "Javascript ou Typescript?"
+    link: https://www.alura.com.br/artigos/javascript-ou-typescript
+  - type: podcast
+    title: "Hipster.tech: O Hype do TypeScript"
+    link: https://www.alura.com.br/podcast/o-hype-do-typescript-hipsters-207-a344
+  - type: YOUTUBE
+    title: "Alura: Quais são as principais vantagens do Typescript?"
+    link: https://www.youtube.com/watch?v=snwevp02sIw
+  - type: YOUTUBE
+    title: "Alura: Imersão React Live 02 - TypeScript no nosso projeto React"
+    link: https://www.youtube.com/watch?v=SpWFDTvgS9k
+  - type: COURSE
+    title: "Formação Typescript"
+    link: https://www.alura.com.br/formacao-typescript

@@ -5,9 +5,9 @@ import { withLocaleContent } from "@src/infra/i18n/withLocaleContent";
 
 export { default } from "@src/screens/HomeScreen";
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps: GetStaticProps = async (ctx) => {
   const apolloClient = initializeApollo();
-  const locale = SiteLocale.PtBr;
+  const locale = (ctx.locale || SiteLocale.PtBr) as SiteLocale;
 
   const { data } = await apolloClient.query({
     query: HomeGetAllGuidesDocument,
@@ -20,7 +20,7 @@ export const getStaticProps: GetStaticProps = async () => {
     {
       props: {
         ...data,
-        locale: "pt-BR",
+        locale,
       },
     },
     locale

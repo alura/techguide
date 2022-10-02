@@ -1,0 +1,34 @@
+name: DOM - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Entender como funciona a árvore do DOM
+  - Acessar e manipular elementos do HTML e CSS
+  - Acessar os pais e filhos de um elemento
+  - Inserir um novo elemento na árvore
+  - Remover um elemento da árvore
+  - Esperar por um evento em certo elemento da página usando 'addEventListener()'
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Introdução ao DOM"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction
+  - type: SITE
+    title: "MDN Web Docs: querySelectorAll()"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelectorAll
+  - type: SITE
+    title: "MDN Web Docs: addEventListener()"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
+  - type: YOUTUBE
+    title: "Felipe Aguiar - Laboratório de javascript: Javascript DOM 01 - DOM - A base da manipulação e criação de páginas dinâmicas"
+    link: https://www.youtube.com/watch?v=G31EuXNMDPk
+alura-contents:
+  - type: COURSE
+    title: "Curso JavaScript: manipulando o DOM"
+    link: https://cursos.alura.com.br/course/javascript-manipulando-dom
+  - type: challenge
+    title: "7 Days of Code: JavaScript e DOM"
+    link: https://7daysofcode.io/matricula/javascript-e-dom
+  - type: challenge
+    title: "7 Days of Code: JavaScript e DOM com API"
+    link: https://7daysofcode.io/matricula/javascript-e-dom-api

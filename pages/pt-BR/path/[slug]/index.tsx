@@ -9,9 +9,9 @@ import { GetStaticPaths } from "next";
 
 export { default } from "@src/screens/PathScreen";
 
-export const getStaticProps = async ({ params }: any) => {
+export const getStaticProps = async ({ params, ...ctx }: any) => {
   const apolloClient = initializeApollo();
-  const locale = SiteLocale.PtBr;
+  const locale = (ctx.locale || SiteLocale.PtBr) as SiteLocale;
 
   const { data } = await apolloClient.query({
     query: PathScreenGetGuideBySlugDocument,
@@ -19,6 +19,7 @@ export const getStaticProps = async ({ params }: any) => {
       input: {
         slug: params.slug as string,
       },
+      locale,
     },
   });
 
@@ -33,13 +34,14 @@ export const getStaticProps = async ({ params }: any) => {
   );
 };
 
-export const getStaticPaths: GetStaticPaths = async () => {
+export const getStaticPaths: GetStaticPaths = async (ctx) => {
+  const locale = ((ctx as any).locale || SiteLocale.PtBr) as SiteLocale;
   const apolloClient = initializeApollo();
 
   const { data } = await apolloClient.query({
     query: HomeGetAllGuidesDocument,
     variables: {
-      locale: SiteLocale.PtBr,
+      locale,
     },
   });
 

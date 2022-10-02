@@ -1,0 +1,55 @@
+name: Git & GitHub - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Criar um repositório
+  - Clonar um repositório
+  - Fazer commit, push e pull de e para o repositório
+  - Reverter um commit
+  - Lidar com merge e conflitos
+aditional-objectives:
+  - Fazer deploy do seu código com o GitHub Pages
+contents:
+  - type: SITE
+    title: "GitHub Documentação"
+    link: https://docs.github.com/pt
+  - type: SITE
+    title: "GitHub Pages Documentação"
+    link: https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages
+  - type: YOUTUBE
+    title: "Rafaella Ballerini: O QUE É GIT E GITHUB? - definição e conceitos importantes 1/2"
+    link: https://www.youtube.com/watch?v=DqTITcMq68k
+  - type: YOUTUBE
+    title: "Rafaella Ballerini: COMO USAR GIT E GITHUB NA PRÁTICA! - desde o primeiro commit até o pull request! 2/2"
+    link: https://www.youtube.com/watch?v=UBAX-13g8OM
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Como colocar seu projeto no ar DE GRAÇA via GitHub! | Hospedagem com GitHub Pages"
+    link: https://www.youtube.com/watch?v=BU-w2_Aae54
+alura-contents:
+  - type: ARTICLE
+    title: "Git e Github: O que são, Como Configurar e Primeiros Passos"
+    link: https://www.alura.com.br/artigos/o-que-e-git-github
+  - type: ARTICLE
+    title: "Mais git com o hub: a linha de comando do Github"
+    link: https://www.alura.com.br/artigos/github-na-linha-de-comando
+  - type: SITE
+    title: "Websérie: Git e Github para Sobrevivência"
+    link: https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia
+  - type: podcast
+    title: "Hipsters 109: Git e Github"
+    link: https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474
+  - type: YOUTUBE
+    title: "Alura: Git e Github para Sobrevivência 01: Como o Git funciona?"
+    link: https://www.youtube.com/watch?v=BAmvmaKQklQ
+  - type: COURSE
+    title: "Curso Git e Github: controle e compartilhe seu código"
+    link: https://www.alura.com.br/curso-online-git-github-controle-de-versao
+  - type: COURSE
+    title: "Curso Git e Github: estratégias de ramificação, Conflitos e Pull Requests"
+    link: https://www.alura.com.br/curso-online-git-github-branching-conflitos-pull-requests
+  - type: COURSE
+    title: "Curso Git e GitHub: repositório, commit e versões"
+    link: https://www.alura.com.br/curso-online-git-github-repositorio-commit-versoes
+  - type: challenge
+    title: "7 Days of Code: GitHub"
+    link: https://7daysofcode.io/matricula/github
