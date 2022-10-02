@@ -6,6 +6,7 @@ import { slugify } from "@src/infra/slugify";
 import { paginate } from "@src/infra/paginate";
 import { Guide, GuideInput, GuidesInput, SiteLocale } from "@api/gql_types";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
+import { storage } from "@api/infra/storage";
 
 const ALLOW_LIST = [];
 
@@ -26,10 +27,14 @@ export function guidesRepository() {
 
       const guides = await Promise.all<Guide>(
         guideFileNames.map(async (fileName) => {
+          const slug = slugify(fileName.replace(".yaml", ""));
+
+          const guideCache = await storage.get(`guide-${locale}-${slug}`);
+          if (guideCache) return guideCache;
+
           const fileContent = await readYamlFile<any>(
             path.resolve(pathToGuides, fileName)
           );
-          const slug = slugify(fileName.replace(".yaml", ""));
 
           return {
             ...fileContent,
@@ -83,6 +88,10 @@ export function guidesRepository() {
             }),
           };
         })
+      );
+
+      guides.forEach((guide) =>
+        storage.set(`guide-${locale}-${guide.slug}`, guide)
       );
 
       const output = paginate<Guide>(
