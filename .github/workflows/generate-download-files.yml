@@ -1,0 +1,29 @@
+name: Generate - Download Files
+on:
+  pull_request:
+    types: [opened, synchronize]
+  schedule:
+    - cron: "0 * * * *"
+
+env: 
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  external_info:
+    runs-on: ubuntu-latest
+    name: "[Sync] DevSoutinho Youtube Vídeos"
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '18'
+    - name: Call Script
+      run: |
+        echo "[START]"
+        yarn dev:scripts:createShareableGuides
+        git add .
+        git commit -m "docs: update downloadable files" || echo "Up to date with main"
+        git push origin HEAD
+        echo "[END]"
