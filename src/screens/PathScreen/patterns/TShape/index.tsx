@@ -167,13 +167,14 @@ export default function TShape({ guide }: TShapeProps) {
             textDecoration: "none",
             padding: "14px",
             fontSize: "14px",
+            backgroundColor: "#0052FF",
             hover: {
               opacity: 1,
-              backgroundColor: "#0052FF",
+              backgroundColor: "transparent",
             },
             focus: {
               opacity: 1,
-              backgroundColor: "#0052FF",
+              backgroundColor: "transparent",
             },
           }}
         >
