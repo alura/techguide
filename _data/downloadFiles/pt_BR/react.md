@@ -1,1 +1,177 @@
 # Front-end ReactJS
+
+## Nivel 1
+- [ ] **JavaScript - Fundamentos**:
+   - Conhecer os tipos primitivos
+   - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
+   - Usar estruturas condicionais ('if', 'else')
+   - Conhecer os operadores de comparação ('=', '==', '===')
+   - Usar estruturas de repetição e laços ('while', 'for')
+   - Usar funções, passando parâmetros e argumentos
+   - Manipular arrays e listas
+   - Aprender o conceito de Orientação a Objetos
+   - Fazer um CRUD
+   - Obter dados de uma API
+   - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
+- [ ] **DOM - Fundamentos**:
+   - Entender como funciona a árvore do DOM
+   - Acessar e manipular elementos do HTML e CSS
+   - Acessar os pais e filhos de um elemento
+   - Inserir um novo elemento na árvore
+   - Remover um elemento da árvore
+   - Esperar por um evento em certo elemento da página usando 'addEventListener()'
+- [ ] **Conceitos SPA**:
+   - Entender o que é uma SPA
+   - Estabelecer rotas para outras páginas
+   - Conhecer frameworks SPA
+   - Comunicação com APIs
+- [ ] **HTML - Fundamentos**:
+   - Aprender quais tags são necessárias para um HTML básico
+   - Criar um parágrafo de texto
+   - Exibir uma imagem
+   - Conhecer a diferença entre 'h1', 'h2', 'h3', etc
+   - Criar um texto com hyperlink
+   - Criar um formulário com campos relevantes
+   - Criar uma lista de itens ordenada ou não ordenada
+   - Criar uma lista de itens dentro de uma lista suspensa (dropdown list)
+   - Conectar com um arquivo de CSS
+   - Criar uma tabela
+   - Adicionar IDs e classes
+- [ ] **CSS - Fundamentos**:
+   - Aprender a estrutura visual de uma página, com 'margin' e 'padding'
+   - Estabelecer o tamanho com 'width' e 'height'
+   - Aprender sobre a posição de um elemento ('static', 'relative' ou 'absolute)
+   - Aprender sobre o 'display' de exibição de um elemento ('block', 'inline', 'inline-block')
+   - Aprender a posicionar imagens em relação ao texto
+   - Aprender sobre alinhamento
+   - Aprender sobre estilo de fontes
+   - Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)
+   - Conectar com os elementos (IDs, classes) de um arquivo HTML
+   - Alterar características de um elemento quando o mouse passar por cima dele ('hover')
+   - Aprender box-sizinh
+   - Aprender Flexbox
+   - Aprender Grid
+- [ ] **React - Componentes**:
+   - Para que servem e como funcionam componentes
+   - Conhecer a biblioteca Styled Components
+- [ ] **React - Props**:
+   - Como passar props
+   - Como manipular props
+- [ ] **React Hooks - State**:
+   - Controlar o estado de componentes
+   - Manipular variáveis
+   - Atualizar o valor de elementos
+- [ ] **Criar uma aplicação React**:
+   - Estruturar um novo projeto React
+   - Criar uma aplicação funcional do zero
+- [ ] **React Hooks - Effect**:
+   - Executar um componente somente após a renderização
+   - Acessar as props de um elemento
+   - Fazer chamadas a APIs
+
+## Nivel 2
+- [ ] **React Hooks - Memo**:
+   - Controlar o estado de variáveis externas
+- [ ] **React Hooks - Callback**:
+   - Retornar uma versão memoizada do callback caso as entradas tenham sido alteradas
+- [ ] **React Hooks - Ref**:
+   - Criar objetos mutáveis
+- [ ] **Bibliotecas de Design System**:
+   - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+- [ ] **React Developer Tools**:
+   - Executar o 'debugging' de aplicações
+- [ ] **Versionamento Semântico para Front-end**:
+   - Organizar as dependências de um projeto
+- [ ] **CSS-in-JS**:
+   - Lidar com código CSS usando JavaScript
+   - Utilizar styled-components
+   - Conhecer Styled-JSX
+- [ ] **Styled Components**:
+   - Lidar com código CSS em componentes
+- [ ] **Roteamento web para React**:
+   - Manipular a navegação entre interfaces e componentes
+- [ ] **TypeScript - Fundamentos**:
+   - Entender a fundo o que são tipos e a importância da tipagem
+   - Aprender o que é o TypeScript, por que foi criado, como ele funciona e sua relação com o JavaScript
+   - Conhecer as ferramentas do TypeScript (integração com o editor de código, verificador estático e compilador)
+   - Escrever código em TypeScript com suas ferramentas (interfaces, enum, decorators, etc)
+   - Desenvolver aplicações em TypeScript
+- [ ] **YARN**:
+   - Gerenciar pacotes
+   - Gerenciar dependências
+   - Instalação de pacotes offline
+   - Comandos
+   - Arquivo yarn.lock
+- [ ] **React Testing Library**:
+   - Testar componentes React
+- [ ] **Jest**:
+   - Testar componentes
+- [ ] **Cypress**:
+   - Criar e executar testes
+- [ ] **JavaScript - Callbacks e Promises**:
+   - Entender o conceito de assincronicidade em programação
+   - Escrever código assíncrono entendendo o conceito de promessas em JavaScript
+   - Utilizar os métodos, palavras-chaves e objetos do JavaScript para manipulação de promessas como 'Async/Await', '.then()', 'Promise', etc
+   - Aprender em quais situações é necessário o uso de programação assíncrona
+   - Fazer chamadas em APIs com `fetch()`
+- [ ] **JavaScript - Manipulação de Erros**:
+   - Conhecer e tratar as exceções mais comuns
+   - Saber quais os tipos de erros do Node.js e em quais situações eles podem ocorrer
+   - Entender como o Node.js faz o manejo de erros
+   - Usar 'try' e 'catch' para tratamento de erros
+   - Em que ocasiões e de que forma utilizar o `throw`
+   - Criar exceções específicas de acordo com a necessidade de sua aplicação
+- [ ] **Babel - Fundamentos**:
+   - Compreender como Babel converte a sintaxe para JavaScript
+
+## Nivel 3
+- [ ] **Lottie**:
+   - Criar animações
+- [ ] **Framer Motion**:
+   - Criar animações
+- [ ] **Service Workers**:
+   - Melhorar a performance e trabalhar offline
+- [ ] **React Hooks - Form**:
+   - Gerenciar formulários
+- [ ] **Lodash**:
+   - Melhorar o código e a performance
+- [ ] **GraphQL**:
+   - Aprender o que é GraphQL e por que foi criado
+   - Entender como o GraphQL é utilizado no desenvolvimento de APIs
+   - Criar APIs utilizando as bibliotecas e frameworks para GraphQL
+- [ ] **Apollo Client**:
+   - Utilizar o Apollo para criar um servidor GraphQL
+   - Conectar com uma API
+- [ ] **Redux Saga**:
+   - Criar e manter chamadas assíncronas e efeitos
+- [ ] **NextJS - Fundamentos**:
+   - Construir interfaces Web
+   - Diminuir o tempo de carregamento das páginas
+   - Renderizar páginas no lado do servidor
+   - Melhorar a performance em React
+   - Construir rotas de API com funções serveless
+   - CSS-in-JS
+
+## Habilidade Auxiliar: Infraestrutura e Back-end 
+- [ ] **Design Systems**:
+   - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+- [ ] **Figma - Fundamentos**:
+   - Criar layouts de páginas e componentes
+- [ ] **Componentes de design**:
+   - Conhecer os componentes descrevem um layout ou interface
+- [ ] **Sistemas de cores**:
+   - Definir uma paleta de cores que faça sentido para determinada interface
+- [ ] **Como usar fontes**:
+   - Escolher a fonte mais adequada para determinado projeto
+
+## Habilidade Auxiliar: UX e Design 
+- [ ] **Design Systems**:
+   - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+- [ ] **Figma - Fundamentos**:
+   - Criar layouts de páginas e componentes
+- [ ] **Componentes de design**:
+   - Conhecer os componentes descrevem um layout ou interface
+- [ ] **Sistemas de cores**:
+   - Definir uma paleta de cores que faça sentido para determinada interface
+- [ ] **Como usar fontes**:
+   - Escolher a fonte mais adequada para determinado projeto

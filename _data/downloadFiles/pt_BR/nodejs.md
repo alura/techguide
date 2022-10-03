@@ -1,1 +1,141 @@
 # Node.js
+
+## Nivel 1
+- [ ] **Node.js - Fundamentos**:
+   - Conhecer e aprender mais sobre o Node.js, ambiente de execução do JavaScript fora no navegador
+   - Descobrir as possibilidades de desenvolvimento do Node.js e por que é tão utilizado
+   - Entender as partes principais do ecossistema Node.js e como usamos cada uma delas
+- [ ] **JavaScript - Callbacks e Promises**:
+   - Entender o conceito de assincronicidade em programação
+   - Escrever código assíncrono entendendo o conceito de promessas em JavaScript
+   - Utilizar os métodos, palavras-chaves e objetos do JavaScript para manipulação de promessas como 'Async/Await', '.then()', 'Promise', etc
+   - Aprender em quais situações é necessário o uso de programação assíncrona
+   - Fazer chamadas em APIs com `fetch()`
+- [ ] **JavaScript - Manipulação de Erros**:
+   - Conhecer e tratar as exceções mais comuns
+   - Saber quais os tipos de erros do Node.js e em quais situações eles podem ocorrer
+   - Entender como o Node.js faz o manejo de erros
+   - Usar 'try' e 'catch' para tratamento de erros
+   - Em que ocasiões e de que forma utilizar o `throw`
+   - Criar exceções específicas de acordo com a necessidade de sua aplicação
+- [ ] **Conceitos de Orientação a Objetos**:
+   - A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
+   - Como funcionam objetos
+   - Criar e utilizar construtores
+   - O que são classes
+   - Criar e utilizar métodos
+   - Como funciona encapsulamento
+   - O que é herança
+   - O que é polimorfismo
+   - Como funcionam interfaces
+   - O que são abstrações
+- [ ] **Node.js - Testes**:
+   - Aprender o que são testes unitários
+   - Aprender o que são testes de integração
+   - Trabalhar com frameworks de testes e suas ferramentas
+   - Criar mocks para seus testes
+   - Aprender os conceitos de BDD (Behavior-Driven Development) e TDD (Test-Driven Development)
+
+## Nivel 2
+- [ ] **SOLID**:
+   - Conhecer boas práticas no desenvolvimento de software
+- [ ] **Node.js - Express**:
+   - Utilizar o framework Express para criação de APIs REST com Node.js
+   - Conhecer as diversas bibliotecas e frameworks do ecossistema Node.js para APIs
+- [ ] **Node.js - ORM**:
+   - Entender o que são ORMs e para que são utilizados
+   - Conhecer o SQL e seus gerenciadores de bancos de dados
+   - Trabalhar com o Sequelize, ORM para uso com Node.js
+   - Conhecer outros ORMs Node.js como Prisma
+- [ ] **Node.js - Autenticação e Tokens**:
+   - Construir um sistema de autenticação usando tokens
+   - Entender o funcionamento do JSON Web Token (JWT)
+   - Construir uma allowlist para guardar tokens opacos
+   - Implementar métodos de atualização de tokens
+- [ ] **TypeScript - Fundamentos**:
+   - Entender a fundo o que são tipos e a importância da tipagem
+   - Aprender o que é o TypeScript, por que foi criado, como ele funciona e sua relação com o JavaScript
+   - Conhecer as ferramentas do TypeScript (integração com o editor de código, verificador estático e compilador)
+   - Escrever código em TypeScript com suas ferramentas (interfaces, enum, decorators, etc)
+   - Desenvolver aplicações em TypeScript
+
+## Nivel 3
+- [ ] **Microsserviços**:
+   - Aprender o conceito de arquitetura planejada para microsserviços
+   - Realizar a comunicação usando APIs
+   - Melhorar a escalabilidade de um sistema
+- [ ] **Nest.js - Fundamentos**:
+   - Aprender o que é o NestJS e por que é utilizado
+   - Desenvolver APIs usando o NestJS
+   - Utilizar recursos específicos do NestJS
+- [ ] **WebSockets**:
+   - Conhecer o protocolo WebSocket e seu uso na comunicação cliente-servidor
+   - Aprender sobre os diversos usos do WebSocket na web
+   - Criar aplicações que utilizam WebSockets com as APIs e bibliotecas do Node.js
+- [ ] **GraphQL**:
+   - Aprender o que é GraphQL e por que foi criado
+   - Entender como o GraphQL é utilizado no desenvolvimento de APIs
+   - Criar APIs utilizando as bibliotecas e frameworks para GraphQL
+- [ ] **Apollo Client**:
+   - Utilizar o Apollo para criar um servidor GraphQL
+   - Conectar com uma API
+
+## Habilidade Auxiliar: Front-end 
+- [ ] **Git e GitHub - Fundamentos**:
+   - Criar um repositório
+   - Clonar um repositório
+   - Fazer commit, push e pull de e para o repositório
+   - Reverter um commit
+   - Lidar com merge e conflitos
+- [ ] **HTTP - Fundamentos**:
+   - Entender a diferença dos verbos HTTP
+   - Testar os requests e ver os status codes no navegador
+   - Saber fazer uma requisição HTTP na linha de comando com WGET
+   - Baixar uma imagem com WGET
+   - Fazer um post
+- [ ] **Design Patterns**:
+   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
+   - Conhecer e aplicar os principais Design Patterns
+- [ ] **Linha de comando - Fundamentos**:
+   - Conhecer os principais comandos
+- [ ] **Cloud - Fundamentos**:
+   - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
+   - Conhecer a diferença entre IaaS, PaaS e SaaS
+   - Conhecer os maiores provedores de cloud
+   - Especializar-se em algum provedor
+- [ ] **Contêineres**:
+   - Isolar seu software para funcionar independentemente
+   - Implantar software em clusters
+   - Modularizar seu sistema em pacotes menores
+   - Conhecer a plataforma Docker
+   - Conhecer Kubernetes
+
+## Habilidade Auxiliar: Infraestrutura e boas práticas 
+- [ ] **Git e GitHub - Fundamentos**:
+   - Criar um repositório
+   - Clonar um repositório
+   - Fazer commit, push e pull de e para o repositório
+   - Reverter um commit
+   - Lidar com merge e conflitos
+- [ ] **HTTP - Fundamentos**:
+   - Entender a diferença dos verbos HTTP
+   - Testar os requests e ver os status codes no navegador
+   - Saber fazer uma requisição HTTP na linha de comando com WGET
+   - Baixar uma imagem com WGET
+   - Fazer um post
+- [ ] **Design Patterns**:
+   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
+   - Conhecer e aplicar os principais Design Patterns
+- [ ] **Linha de comando - Fundamentos**:
+   - Conhecer os principais comandos
+- [ ] **Cloud - Fundamentos**:
+   - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
+   - Conhecer a diferença entre IaaS, PaaS e SaaS
+   - Conhecer os maiores provedores de cloud
+   - Especializar-se em algum provedor
+- [ ] **Contêineres**:
+   - Isolar seu software para funcionar independentemente
+   - Implantar software em clusters
+   - Modularizar seu sistema em pacotes menores
+   - Conhecer a plataforma Docker
+   - Conhecer Kubernetes

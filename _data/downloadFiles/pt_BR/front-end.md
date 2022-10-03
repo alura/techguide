@@ -1,1 +1,156 @@
 # Front-end
+
+## Nivel 1
+- [ ] **HTML - Fundamentos**:
+   - Aprender quais tags são necessárias para um HTML básico
+   - Criar um parágrafo de texto
+   - Exibir uma imagem
+   - Conhecer a diferença entre 'h1', 'h2', 'h3', etc
+   - Criar um texto com hyperlink
+   - Criar um formulário com campos relevantes
+   - Criar uma lista de itens ordenada ou não ordenada
+   - Criar uma lista de itens dentro de uma lista suspensa (dropdown list)
+   - Conectar com um arquivo de CSS
+   - Criar uma tabela
+   - Adicionar IDs e classes
+- [ ] **CSS - Fundamentos**:
+   - Aprender a estrutura visual de uma página, com 'margin' e 'padding'
+   - Estabelecer o tamanho com 'width' e 'height'
+   - Aprender sobre a posição de um elemento ('static', 'relative' ou 'absolute)
+   - Aprender sobre o 'display' de exibição de um elemento ('block', 'inline', 'inline-block')
+   - Aprender a posicionar imagens em relação ao texto
+   - Aprender sobre alinhamento
+   - Aprender sobre estilo de fontes
+   - Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)
+   - Conectar com os elementos (IDs, classes) de um arquivo HTML
+   - Alterar características de um elemento quando o mouse passar por cima dele ('hover')
+   - Aprender box-sizinh
+   - Aprender Flexbox
+   - Aprender Grid
+- [ ] **JavaScript - Fundamentos**:
+   - Conhecer os tipos primitivos
+   - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
+   - Usar estruturas condicionais ('if', 'else')
+   - Conhecer os operadores de comparação ('=', '==', '===')
+   - Usar estruturas de repetição e laços ('while', 'for')
+   - Usar funções, passando parâmetros e argumentos
+   - Manipular arrays e listas
+   - Aprender o conceito de Orientação a Objetos
+   - Fazer um CRUD
+   - Obter dados de uma API
+   - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
+- [ ] **DOM - Fundamentos**:
+   - Entender como funciona a árvore do DOM
+   - Acessar e manipular elementos do HTML e CSS
+   - Acessar os pais e filhos de um elemento
+   - Inserir um novo elemento na árvore
+   - Remover um elemento da árvore
+   - Esperar por um evento em certo elemento da página usando 'addEventListener()'
+- [ ] **Acessibilidade em Javascript**:
+   - Escrever código com acessibilidade em mente
+- [ ] **Estratégias de SEO**:
+   - Escolher palavras-chave
+   - Entender como o Google classifica páginas
+   - Conhecer os fatores de rankeamento
+   - Fazer Link Building
+- [ ] **Design Responsivo**:
+   - Ajustar suas páginas para o tamanho da tela do usuário
+   - Media queries
+   - Conhecer o conceito de Mobile first
+
+## Nivel 2
+- [ ] **JavaScript - Callbacks e Promises**:
+   - Entender o conceito de assincronicidade em programação
+   - Escrever código assíncrono entendendo o conceito de promessas em JavaScript
+   - Utilizar os métodos, palavras-chaves e objetos do JavaScript para manipulação de promessas como 'Async/Await', '.then()', 'Promise', etc
+   - Aprender em quais situações é necessário o uso de programação assíncrona
+   - Fazer chamadas em APIs com `fetch()`
+- [ ] **JavaScript - Testes**:
+   - Usar testes unitários
+   - Usar testes de integração
+   - Usar testes de comportamento (behavior)
+   - Usar mocks
+- [ ] **JavaScript - Manipulação de Erros**:
+   - Conhecer e tratar as exceções mais comuns
+   - Saber quais os tipos de erros do Node.js e em quais situações eles podem ocorrer
+   - Entender como o Node.js faz o manejo de erros
+   - Usar 'try' e 'catch' para tratamento de erros
+   - Em que ocasiões e de que forma utilizar o `throw`
+   - Criar exceções específicas de acordo com a necessidade de sua aplicação
+- [ ] **YARN**:
+   - Gerenciar pacotes
+   - Gerenciar dependências
+   - Instalação de pacotes offline
+   - Comandos
+   - Arquivo yarn.lock
+- [ ] **JavaScript - ES6**:
+   - Conhecer as diferenças dessa versão do JavaScript
+- [ ] **JavaScript - Modularização**:
+   - Isolar partes do código em módulos
+   - Usar import e export
+- [ ] **Versionamento Semântico para Front-end**:
+   - Organizar as dependências de um projeto
+- [ ] **Jest**:
+   - Testar componentes
+- [ ] **Cypress**:
+   - Criar e executar testes
+
+## Nivel 3
+- [ ] **Estruturas de Dados**:
+   - Conhecer as principais estruturas de dados
+   - Implementar as principais estruturas de dados
+- [ ] **Conceitos de Orientação a Objetos**:
+   - A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
+   - Como funcionam objetos
+   - Criar e utilizar construtores
+   - O que são classes
+   - Criar e utilizar métodos
+   - Como funciona encapsulamento
+   - O que é herança
+   - O que é polimorfismo
+   - Como funcionam interfaces
+   - O que são abstrações
+- [ ] **JavaScript - Armazenamento**:
+   - Armazenar dados no front-end com localStorage
+   - Manipular dados armazenados
+   - Persistir dados armazenados
+- [ ] **JavaScript - Concorrência**:
+   - Conhecer o conceito de programação concorrente em JavaScript
+   - Executar tarefas paralelamente
+- [ ] **TypeScript - Fundamentos**:
+   - Entender a fundo o que são tipos e a importância da tipagem
+   - Aprender o que é o TypeScript, por que foi criado, como ele funciona e sua relação com o JavaScript
+   - Conhecer as ferramentas do TypeScript (integração com o editor de código, verificador estático e compilador)
+   - Escrever código em TypeScript com suas ferramentas (interfaces, enum, decorators, etc)
+   - Desenvolver aplicações em TypeScript
+- [ ] **GraphQL**:
+   - Aprender o que é GraphQL e por que foi criado
+   - Entender como o GraphQL é utilizado no desenvolvimento de APIs
+   - Criar APIs utilizando as bibliotecas e frameworks para GraphQL
+- [ ] **Apollo Client**:
+   - Utilizar o Apollo para criar um servidor GraphQL
+   - Conectar com uma API
+
+## Habilidade Auxiliar: Infraestrutura e Back-end 
+- [ ] **Design Systems**:
+   - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+- [ ] **Figma - Fundamentos**:
+   - Criar layouts de páginas e componentes
+- [ ] **Componentes de design**:
+   - Conhecer os componentes descrevem um layout ou interface
+- [ ] **Sistemas de cores**:
+   - Definir uma paleta de cores que faça sentido para determinada interface
+- [ ] **Como usar fontes**:
+   - Escolher a fonte mais adequada para determinado projeto
+
+## Habilidade Auxiliar: UX e Design 
+- [ ] **Design Systems**:
+   - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+- [ ] **Figma - Fundamentos**:
+   - Criar layouts de páginas e componentes
+- [ ] **Componentes de design**:
+   - Conhecer os componentes descrevem um layout ou interface
+- [ ] **Sistemas de cores**:
+   - Definir uma paleta de cores que faça sentido para determinada interface
+- [ ] **Como usar fontes**:
+   - Escolher a fonte mais adequada para determinado projeto

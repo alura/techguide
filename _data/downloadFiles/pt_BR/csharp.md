@@ -1,1 +1,207 @@
 # C#
+
+## Nivel 1
+- [ ] **C# - Fundamentos**:
+   - Conhecer os tipos primitivos
+   - Declarar variáveis, considerando os diferentes tipos
+   - Usar estruturas condicionais ('if', 'else')
+   - Conhecer os operadores de comparação
+   - Usar estruturas de repetição e laços ('while', 'for')
+   - Usar funções, passando parâmetros e argumentos
+   - Manipular métodos
+   - Manipular arrays e listas
+   - Obter dados de uma API
+   - Fazer chamadas assíncronas, etc
+   - Criar construtores
+- [ ] **Conceitos de Orientação a Objetos**:
+   - A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
+   - Como funcionam objetos
+   - Criar e utilizar construtores
+   - O que são classes
+   - Criar e utilizar métodos
+   - Como funciona encapsulamento
+   - O que é herança
+   - O que é polimorfismo
+   - Como funcionam interfaces
+   - O que são abstrações
+- [ ] **C# - Coleções**:
+   - Aprender os usos e diferenças entre Dictionary, List, Queue, SortedList e Stack
+   - Saiba trabalhar com ArrayList e HashTable
+   - Iterators
+- [ ] **NuGet**:
+   - Gerenciar pacotes
+   - Compartilhar bibliotecas
+- [ ] **C# - System.IO**:
+   - Ler dados de arquivos
+   - Escrever dados em arquivos
+   - Gerenciar arquivos com Using
+- [ ] **C# - Gerenciamento de Memória**:
+   - Entender como a memória é administrada
+   - Conhecer o Garbage Collector
+   - Entender sobre o Stack e o Heap gerenciado
+- [ ] **ADO.NET**:
+   - Manipular bancos de dados
+   - Conhecer o DataSet e DataTable
+   - Realizar conexões
+   - Manipular documentos XML
+- [ ] **Entity Framework Core**:
+   - Manipular bancos de dados usando objetos .NET
+   - Criar modelos correspondentes a um banco de dados
+   - Realizar consultas
+- [ ] **WPF**:
+   - Criar aplicativos para Windows
+   - Usar marcação e code-behind
+   - Criar um layout
+   - Criar modelos
+   - Desenvolver uma interface
+
+## Nivel 2
+- [ ] **CLR**:
+   - Entender como o CLR funciona
+   - Entender o gerenciamento de memória
+   - Conhecer a CIL e o JIT
+- [ ] **LINQ**:
+   - Criar consultas
+   - Conhecer as cláusulas Select e Where
+   - Consultar coleções de objetos em memória
+   - Mapear o banco de dados com Linq to Sql
+- [ ] **C# - Testes**:
+   - Usar testes unitários
+   - Usar testes de integração
+   - Usar testes de comportamento (behavior)
+   - Usar mocks
+- [ ] **C# - Serialização**:
+   - Enviar um objeto para um aplicativo remoto usando um serviço Web
+   - Passar um objeto como uma cadeia de caracteres JSON ou XML
+   - Manter informações específicas do usuário ou de segurança entre aplicativos
+- [ ] **C# - Rede e Sockets**:
+   - Abrir uma sessão de comunicação interativa entre o navegador do usuário e um servidor
+   - Enviar mensagens para um servidor e receber respostas sem consultar o servidor
+- [ ] **ASP.NET Core**:
+   - Criar aplicativos e serviços Web
+   - Manter um aplicativo MVC
+   - Desenvolver de interface do usuário da Web do lado do cliente
+   - Criar uma API Web
+- [ ] **Dapper**:
+   - Realizar consultas a bancos de dados
+   - Manipular bancos de dados
+- [ ] **Injeção de Dependências**:
+   - Padrão de projeto no qual uma classe solicita dependências de fontes externas ao invés de criá-las
+   - Evitar o alto nível de acoplamento de código dentro de uma aplicação
+   - Implementar a inversão de controle
+- [ ] **SOLID**:
+   - Conhecer boas práticas no desenvolvimento de software
+
+## Nivel 3
+- [ ] **C# - Delegates e eventos**:
+   - Entender o conceito de delegate
+   - Criar uma referência para uma função com uma certa lista de parâmetros
+   - Entender o conceito de evento
+   - Manipular diferentes tipos de eventos
+- [ ] **Contêineres**:
+   - Isolar seu software para funcionar independentemente
+   - Implantar software em clusters
+   - Modularizar seu sistema em pacotes menores
+   - Conhecer a plataforma Docker
+   - Conhecer Kubernetes
+- [ ] **Design Patterns**:
+   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
+   - Conhecer e aplicar os principais Design Patterns
+- [ ] **Clean Architecture**:
+   - Conhecer a metodologia a ser usada na codificação, a fim de facilitar o desenvolvimento códigos, permitir uma melhor manutenção, atualização e menos dependência
+- [ ] **C# - Métodos anônimos e lambda expressions**:
+   - Criar funções anônimas que você pode usar para criar delegates
+   - Criar funções locais que podem ser passadas como argumentos
+- [ ] **Reflection e atributos**:
+   - Escrever código que lê as informações e metadados de objetos em tempo de execução
+   - Obter nomes de classes em tempo de execução e criar objetos de uma classe
+- [ ] **C# - Multithreading**:
+   - Executar múltiplas tarefas simultaneamente
+   - Entender como threads são executadas
+- [ ] **Estruturas de Dados**:
+   - Conhecer as principais estruturas de dados
+   - Implementar as principais estruturas de dados
+- [ ] **MAUI**:
+   - Criar aplicativos móveis e desktop nativos com C# e XAML
+   - Criar aplicativos multiplataforma
+   - Compartilhar o layout e o design da interface do usuário entre plataformas
+
+## Habilidade Auxiliar: Infraestrutura e boas práticas 
+- [ ] **HTML - Fundamentos**:
+   - Aprender quais tags são necessárias para um HTML básico
+   - Criar um parágrafo de texto
+   - Exibir uma imagem
+   - Conhecer a diferença entre 'h1', 'h2', 'h3', etc
+   - Criar um texto com hyperlink
+   - Criar um formulário com campos relevantes
+   - Criar uma lista de itens ordenada ou não ordenada
+   - Criar uma lista de itens dentro de uma lista suspensa (dropdown list)
+   - Conectar com um arquivo de CSS
+   - Criar uma tabela
+   - Adicionar IDs e classes
+- [ ] **JavaScript - Fundamentos**:
+   - Conhecer os tipos primitivos
+   - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
+   - Usar estruturas condicionais ('if', 'else')
+   - Conhecer os operadores de comparação ('=', '==', '===')
+   - Usar estruturas de repetição e laços ('while', 'for')
+   - Usar funções, passando parâmetros e argumentos
+   - Manipular arrays e listas
+   - Aprender o conceito de Orientação a Objetos
+   - Fazer um CRUD
+   - Obter dados de uma API
+   - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
+- [ ] **CSS - Fundamentos**:
+   - Aprender a estrutura visual de uma página, com 'margin' e 'padding'
+   - Estabelecer o tamanho com 'width' e 'height'
+   - Aprender sobre a posição de um elemento ('static', 'relative' ou 'absolute)
+   - Aprender sobre o 'display' de exibição de um elemento ('block', 'inline', 'inline-block')
+   - Aprender a posicionar imagens em relação ao texto
+   - Aprender sobre alinhamento
+   - Aprender sobre estilo de fontes
+   - Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)
+   - Conectar com os elementos (IDs, classes) de um arquivo HTML
+   - Alterar características de um elemento quando o mouse passar por cima dele ('hover')
+   - Aprender box-sizinh
+   - Aprender Flexbox
+   - Aprender Grid
+
+## Habilidade Auxiliar: Front-end 
+- [ ] **HTML - Fundamentos**:
+   - Aprender quais tags são necessárias para um HTML básico
+   - Criar um parágrafo de texto
+   - Exibir uma imagem
+   - Conhecer a diferença entre 'h1', 'h2', 'h3', etc
+   - Criar um texto com hyperlink
+   - Criar um formulário com campos relevantes
+   - Criar uma lista de itens ordenada ou não ordenada
+   - Criar uma lista de itens dentro de uma lista suspensa (dropdown list)
+   - Conectar com um arquivo de CSS
+   - Criar uma tabela
+   - Adicionar IDs e classes
+- [ ] **JavaScript - Fundamentos**:
+   - Conhecer os tipos primitivos
+   - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
+   - Usar estruturas condicionais ('if', 'else')
+   - Conhecer os operadores de comparação ('=', '==', '===')
+   - Usar estruturas de repetição e laços ('while', 'for')
+   - Usar funções, passando parâmetros e argumentos
+   - Manipular arrays e listas
+   - Aprender o conceito de Orientação a Objetos
+   - Fazer um CRUD
+   - Obter dados de uma API
+   - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
+- [ ] **CSS - Fundamentos**:
+   - Aprender a estrutura visual de uma página, com 'margin' e 'padding'
+   - Estabelecer o tamanho com 'width' e 'height'
+   - Aprender sobre a posição de um elemento ('static', 'relative' ou 'absolute)
+   - Aprender sobre o 'display' de exibição de um elemento ('block', 'inline', 'inline-block')
+   - Aprender a posicionar imagens em relação ao texto
+   - Aprender sobre alinhamento
+   - Aprender sobre estilo de fontes
+   - Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)
+   - Conectar com os elementos (IDs, classes) de um arquivo HTML
+   - Alterar características de um elemento quando o mouse passar por cima dele ('hover')
+   - Aprender box-sizinh
+   - Aprender Flexbox
+   - Aprender Grid

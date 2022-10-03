@@ -1,8 +1,14 @@
 import path from "path";
 import fs from "fs";
-import { HomeGetAllGuidesDocument, PathScreenGetGuideBySlugDocument, SiteLocale } from "@src/gql_types";
+import {
+  GuideExpertise,
+  HomeGetAllGuidesDocument,
+  PathScreenGetGuideBySlugDocument,
+  SiteLocale,
+} from "@src/gql_types";
 import { initializeApollo } from "@src/infra/apolloClient";
 import { log } from "../../infra/log";
+import { GuideBlock, GuideCollaboration } from "@api/gql_types";
 
 log("module/createShareableGuides");
 main();
@@ -44,6 +50,11 @@ export async function main() {
       `${filePath}.md`,
       templateMarkdown({
         name,
+        level1: data.guide.expertises[0],
+        level2: data.guide.expertises[1],
+        level3: data.guide.expertises[2],
+        collaboration1: data.guide.collaborations[0],
+        collaboration2: data.guide.collaborations[1],
       })
     );
   });
@@ -54,10 +65,46 @@ export async function main() {
 
 interface MarkdownTemplate {
   name: string;
+  level1: GuideExpertise;
+  level2: GuideExpertise;
+  level3: GuideExpertise;
+  collaboration1: GuideCollaboration;
+  collaboration2: GuideCollaboration;
 }
-function templateMarkdown({ name }: MarkdownTemplate) {
+function templateMarkdown({
+  name,
+  level1,
+  level2,
+  level3,
+  collaboration1,
+  collaboration2,
+}: MarkdownTemplate) {
   const template = `
 # ${name}
+
+## Nivel 1
+${level1.blocks.map(formatBlock).join("\n")}
+
+## Nivel 2
+${level2.blocks.map(formatBlock).join("\n")}
+
+## Nivel 3
+${level3.blocks.map(formatBlock).join("\n")}
+
+## Habilidade Auxiliar: ${collaboration1.name} 
+${collaboration2.blocks.map(formatBlock).join("\n")}
+
+## Habilidade Auxiliar: ${collaboration2.name} 
+${collaboration2.blocks.map(formatBlock).join("\n")}
 `;
   return template.split("\n").slice(1).join("\n");
+
+  function formatBlock(block: GuideBlock) {
+    return `
+- [ ] **${block.item.name}**:
+${block.item.keyObjectives.map((ko) => `   - ${ko.name}`).join("\n")}`
+      .split("\n")
+      .slice(1)
+      .join("\n");
+  }
 }
