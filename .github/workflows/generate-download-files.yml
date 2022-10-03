@@ -9,10 +9,8 @@ env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  external_info:
+  generate_downloadable_files:
     runs-on: ubuntu-latest
-    name: "[Sync] DevSoutinho Youtube Vídeos"
-
     steps:
     - name: Checkout
       uses: actions/checkout@v2
@@ -22,6 +20,7 @@ jobs:
     - name: Call Script
       run: |
         echo "[START]"
+        yarn install
         yarn dev:scripts:createShareableGuides
         git add .
         git commit -m "docs: update downloadable files" || echo "Up to date with main"
