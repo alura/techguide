@@ -16,7 +16,8 @@ interface BaseComponentProps {
 }
 const BaseComponent = React.forwardRef<any, BaseComponentProps>(
   (props, ref) => {
-    const id = React.useId().replaceAll(":", "");
+    // const id = React.useId().replaceAll(":", "");
+    const id = "asdasd";
 
     return (
       <StyledBaseComponent ref={ref} $uniqueId={id} className={id} {...props} />

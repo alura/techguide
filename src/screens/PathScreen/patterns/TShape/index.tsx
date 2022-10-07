@@ -3,10 +3,12 @@ import { Box, Link, Text } from "@src/components";
 import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
 import { TItemBlock } from "./patterns/TItemBlock";
 import { useI18n } from "@src/infra/i18n";
+import { exportGuide } from "@src/infra/export";
 
 interface TShapeProps {
   guide: PathScreenGetGuideBySlugQuery["guide"];
 }
+
 export default function TShape({ guide }: TShapeProps) {
   const i18n = useI18n();
   const leftSide = guide.collaborations[0];
@@ -146,6 +148,55 @@ export default function TShape({ guide }: TShapeProps) {
           );
         })}
       </Box>
+
+      <Box
+        styleSheet={{
+          alignItems: "center",
+        }}
+      >
+        <Box
+          id="title"
+          onClick={exportGuide(guide)}
+          styleSheet={{
+            marginTop: "23px",
+            width: "100%",
+            maxWidth: "400px",
+            display: "flex",
+            gap: "6px",
+            alignItems: "center",
+            justifyContent: "center",
+            flexDirection: "row",
+            borderRadius: "8px",
+            border: "1px solid #0052FF",
+            textDecoration: "none",
+            padding: "14px",
+            fontSize: "14px",
+            hover: {
+              opacity: 1,
+              backgroundColor: "#0052FF",
+            },
+            focus: {
+              opacity: 1,
+              backgroundColor: "#0052FF",
+            },
+          }}
+        >
+          <Text
+            styleSheet={{
+              fontWeight: 400,
+              fontSize: {
+                xs: "14px",
+                md: "18px",
+              },
+              lineHeight: "21px",
+              color: "#8992A1",
+            }}
+          >
+            {i18n.content("TSHAPE.BUTTON.EXPORTAR")}
+          </Text>
+        </Box>
+      </Box>
+
       <Box
         styleSheet={{
           alignItems: "center",
