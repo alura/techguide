@@ -33,4 +33,4 @@ jobs:
           cat .git/HEAD
           git config --global user.name "${{ env.COMMIT_USERNAME }}"
           git config --global user.email ${{ env.COMMIT_EMAIL }}
-          npx @displaykit/bump-release bump-release ${{ github.event.comment.body }}
+          npx @displaykit/bump-release ${{ github.event.comment.body }}
