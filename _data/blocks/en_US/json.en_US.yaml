@@ -2,28 +2,26 @@ name: JSON
 logo: 
 short-description:
 key-objectives:
-  - Criar um objeto
-  - Transformar em string
-  - Transformar uma string em objeto
-  - Manipular um objeto
+  - JSON stands for JavaScript Object Notation. It is a text format for storing and transporting data.
+  - Creating an object
+  - Transforming an object into a string
+  - Transforming a string into an object
+  - Manipulating an object
 aditional-objectives:
 contents:
   - type: SITE
-    title: "MDN Web Docs: JSON"
-    link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON
+    title: "W3Schools: JSON"
+    link: https://www.w3schools.com/js/js_json_intro.asp
   - type: SITE
-    title: "MDN Web Docs: Trabalhando com JSON"
-    link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON
-  - type: ARTICLE
-    title: "Introdução ao JSON"
-    link: https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff
+    title: "MDN Web Docs: JSON"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+  - type: SITE
+    title: "MDN Web Docs: Working with JSON"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
   - type: YOUTUBE
-    title: "Marco Bruno: O que é JSON e como criar um objeto"
-    link: https://www.youtube.com/watch?v=UeMkXvmk68Q
+    title: "Web Dev Simplified: Learn JSON in 10 Minutes"
+    link: https://www.youtube.com/watch?v=iiADhChRriM
+  - type: YOUTUBE
+    title: "Traversy Media: JSON Crash Course"
+    link: https://www.youtube.com/watch?v=wI1CWzNtE-M
 alura-contents:
-  - type: ARTICLE
-    title: "O que é JSON?"
-    link: https://www.alura.com.br/artigos/o-que-e-json
-  - type: COURSE
-    title: "Curso MySQL e JSON: persistindo JSON de maneira eficiente"
-    link: https://www.alura.com.br/curso-online-mysql-json-persistencia

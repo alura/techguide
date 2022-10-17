@@ -2,45 +2,37 @@ name: HTTP - Fundamentals
 logo: 
 short-description:
 key-objectives:
-  - Entender a diferença dos verbos HTTP
-  - Testar os requests e ver os status codes no navegador
-  - Saber fazer uma requisição HTTP na linha de comando com WGET
-  - Baixar uma imagem com WGET
-  - Fazer um post
+  - HTTP stands for Hyper Text Transfer Protocol. Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses.
+  - Understanding the difference between HTTP verbs
+  - Testing requests and checking the status codes in the browser
+  - Learning how to make a HTTP request on the command line with WGET
+  - Downloading an image with WGET
+  - Performing a POST
 aditional-objectives:
-  - fazer um post com POSTMAN
+  - Performing a POST using POSTMAN
 contents:
   - type: SITE
-    title: "MDN Web Docs: Uma visão geral do HTTP"
-    link: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview
+    title: "W3Schools: What is HTTP?"
+    link: https://www.w3schools.com/whatis/whatis_http.asp
   - type: SITE
-    title: "MDN Web Docs: Métodos de requisição HTTP"
-    link: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
+    title: "MDN Web Docs: An overview of HTTP"
+    link: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+  - type: SITE
+    title: "MDN Web Docs: HTTP request methods"
+    link: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+  - type: ARTICLE
+    title: "HTTP codes as Valentine's Day comics"
+    link: https://medium.com/@hanilim/http-codes-as-valentines-day-comics-8c03c805faa0
+  - type: ARTICLE
+    title: "Here Are the most popular ways to make an HTTP request in JavaScript"
+    link: https://medium.com/free-code-camp/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa
   - type: YOUTUBE
-    title: "Fabiano Gabardo Lemos: Requisições HTTP - GET, POST, PUT, PATCH DELETE"
-    link: https://www.youtube.com/watch?v=kncOJZrnkTg
+    title: "Traversy Media: HTTP Crash Course & Exploration"
+    link: https://www.youtube.com/watch?v=iYM2zFP3Zn0
   - type: YOUTUBE
-    title: "Programador a Bordo: Protocolo HTTP e TCP/IP - Introdução"
-    link: https://www.youtube.com/watch?v=V4XZ81vRGtM
+    title: "Curious Code: HTTP Request Methods - GET, POST, PUT, DELETE"
+    link: https://www.youtube.com/watch?v=tkfVQK6UxDI
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Postman Beginner's Course - API Testing"
+    link: https://www.youtube.com/watch?v=VywxIQ2ZXw4
 alura-contents:
-  - type: ARTICLE
-    title: "HTTP: Desmistificando o protocolo da Web"
-    link: https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1
-  - type: ARTICLE
-    title: "Métodos de requisição do HTTP"
-    link: https://www.alura.com.br/artigos/metodos-de-requisicao-do-http
-  - type: ARTICLE
-    title: "Qual é a diferença entre HTTP e HTTPS?"
-    link: https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https
-  - type: podcast
-    title: "Hipsters.tech: HTTP/2: magia com o novo protocolo - Hipsters 13"
-    link: https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573
-  - type: YOUTUBE
-    title: "Alura: HTTP - Entendendo a web"
-    link: https://www.youtube.com/watch?v=1IKkSJ8yMMA
-  - type: COURSE
-    title: "Primeiras aulas do Curso HTTP: Entendendo a web por baixo dos panos"
-    link: https://www.alura.com.br/conteudo/http-fundamentos
-  - type: COURSE
-    title: "Curso HTTP: Entendendo a web por baixo dos panos"
-    link: https://www.alura.com.br/curso-online-http-fundamentos
