@@ -2,31 +2,46 @@ name: Service Workers
 logo: 
 short-description:
 key-objectives:
-  - Melhorar a performance e trabalhar offline
+  - Service workers essentially act as proxy servers that sit between web applications, the browser, and the network (when available). They are intended, among other things, to enable the creation of effective offline experiences, intercept network requests and take appropriate action based on whether the network is available, and update assets residing on the server. They will also allow access to push notifications and background sync APIs.
 aditional-objectives:
 contents:
   - type: SITE
-    title: "MDN Web Docs: Usando Service Worker"
-    link: https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API/Using_Service_Workers
+    title: "MDN Web Docs: Service Worker API"
+    link: https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
+  - type: SITE
+    title: "MDN Web Docs: Using Service Workers"
+    link: https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
+  - type: SITE
+    title: "Chrome Developers: Service worker overview"
+    link: https://developer.chrome.com/docs/workbox/service-worker-overview/
   - type: ARTICLE
-    title: "Os primeiros passos para tornar uma aplicação web offline"
-    link: https://medium.com/aurum-tech/os-primeiros-passos-para-tornar-uma-aplica%C3%A7%C3%A3o-web-offline-8dee5958818b
+    title: "Service workers: the little heroes behind Progressive Web Apps"
+    link: https://medium.com/free-code-camp/service-workers-the-little-heroes-behind-progressive-web-apps-431cc22d0f16
   - type: ARTICLE
-    title: "Como o JavaScript funciona: Service Workers, seu ciclo de vida e casos de uso"
-    link: https://medium.com/reactbrasil/como-o-javascript-funciona-service-workers-seu-ciclo-de-vida-e-casos-de-uso-8404870ee728
+    title: "Understanding Service Workers and Caching Strategies"
+    link: https://blog.bitsrc.io/understanding-service-workers-and-caching-strategies-a6c1e1cbde03
   - type: ARTICLE
-    title: "Service Workers in React (inglês)"
+    title: "An Introduction to Service Workers in JavaScript"
+    link: https://codeburst.io/an-introduction-to-service-workers-in-javascript-27d6376460c2
+  - type: ARTICLE
+    title: "Service Workers in React"
     link: https://levelup.gitconnected.com/service-workers-in-react-8bcaccfd0356
-  - type: YOUTUBE
-    title: "Matheus da Guia de Campos: Configurando service-worker em sua aplicação Reactjs para cache de páginas estáticas"
-    link: https://www.youtube.com/watch?v=dBigOB4p1zY
-alura-contents:
   - type: ARTICLE
-    title: "Offline Web"
-    link: https://www.alura.com.br/artigos/palestra-offline-web-com-service-workers
-  - type: podcast
-    title: "Hipsters.tech: Progressive Web Apps - Hipsters 03"
-    link: https://www.alura.com.br/podcast/progressive-web-apps-hipsters-03-a583
+    title: "Beginners guide to Web Push Notifications using Service Workers"
+    link: https://medium.com/@a7ul/beginners-guide-to-web-push-notifications-using-service-workers-cb3474a17679
+  - type: ARTICLE
+    title: "PWA: Create a `New Update Available` Notification using Service Workers"
+    link: https://medium.com/progressive-web-apps/pwa-create-a-new-update-available-notification-using-service-workers-18be9168d717
   - type: YOUTUBE
-    title: "O que é uma Progressive Web App (PWA)?"
-    link: https://www.youtube.com/watch?v=UeMkXvmk68Q
+    title: "Google Chrome Developers: Introduction to Service Workers"
+    link: https://www.youtube.com/watch?v=jVfXiv03y5c
+  - type: YOUTUBE
+    title: "Google Chrome Developers: Introduction to Service Worker - Progressive Web App Training"
+    link: https://www.youtube.com/watch?v=wEPeaJgbIxQ
+  - type: YOUTUBE
+    title: "Traversy Media: Intro To Service Workers & Caching"
+    link: https://www.youtube.com/watch?v=ksXwaWHCW6k
+  - type: YOUTUBE
+    title: "The Net Ninja: PWA Tutorial for Beginners - Intro to Service Workers"
+    link: https://www.youtube.com/watch?v=hxiggHZOGlQ
+alura-contents:

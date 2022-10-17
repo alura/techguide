@@ -2,34 +2,23 @@ name: Styled Components
 logo: 
 short-description:
 key-objectives:
-  - Lidar com código CSS em componentes
+  - Styled-components allow you to write actual CSS code to style your components using tagged template literals and the power of CSS.
+  - Handling CSS code in components
 aditional-objectives:
 contents:
-  - type: ARTICLE
-    title: "Criando Styled Components Com React"
-    link: https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/
   - type: SITE
-    title: "Documentação - Styled Components (inglês)"
+    title: "Documentation - Styled Components"
     link: https://styled-components.com/docs
-  - type: YOUTUBE
-    title: "Mario Souto - Dev Soutinho: Styled Components, por onde começar? Os poderes do CSS in JS"
-    link: https://www.youtube.com/watch?v=QdfjWRc4ySA
-  - type: YOUTUBE
-    title: "Mario Souto - Dev Soutinho: Como começar a estruturar um projeto React? com NextJS, Styled Components"
-    link: https://www.youtube.com/watch?v=mJK5oGixSYo
-  - type: YOUTUBE
-    title: "Marco Bruno: Como usar styled-compoents - Introdução"
-    link: https://www.youtube.com/watch?v=B9z51O1ctzU
-  - type: YOUTUBE
-    title: "BrasilJS: Efeito Stagger com React e Styled Components"
-    link: https://www.youtube.com/watch?v=HGrXz6vHngI
-alura-contents:
-  - type: ARTICLE
-    title: "React: componentes com Styled Components"
-    link: https://www.alura.com.br/artigos/react-componentes-com-styled-components
   - type: SITE
-    title: "Primeiras aulas do curso React: abstraindo seu CSS com Styled Components"
-    link: https://www.alura.com.br/conteudo/react-styled-components
-  - type: COURSE
-    title: "Curso React: abstraindo seu CSS com Styled Components"
-    link: https://www.alura.com.br/curso-online-react-styled-components
+    title: "Complete Guide On How To Use Styled-components In React"
+    link: https://dev.to/elijahtrillionz/complete-guide-on-how-to-use-styled-components-in-react-360c
+  - type: ARTICLE
+    title: "How To Use Styled-Components In React"
+    link: https://www.smashingmagazine.com/2020/07/styled-components-react/
+  - type: YOUTUBE
+    title: "Traversy Media: Styled Components Crash Course & Project"
+    link: https://www.youtube.com/watch?v=02zO0hZmwnw
+  - type: YOUTUBE
+    title: "PedroTech: Styled Components Full Tutorial - Style Your Components in React"
+    link: https://www.youtube.com/watch?v=-FZzPHSLauc
+alura-contents:

@@ -2,25 +2,29 @@ name: React Developer Tools
 logo: 
 short-description:
 key-objectives:
-  - Executar o 'debugging' de aplicações
+  - Use React Developer Tools to inspect React components, edit props and state, and identify performance problems.
+  - Debugging applications
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Extensão React Developer Tools para o Google Chrome"
+    title: "Extension React Developer Tools for Google Chrome"
     link: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
   - type: SITE
-    title: "Documentação: Analisando componentes com o DevTools Profiler"
-    link: https://pt-br.reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-devtools-profiler
+    title: "React: Documentation - React Developer Tools"
+    link: https://beta.reactjs.org/learn/react-developer-tools
+  - type: SITE
+    title: "React: Documentation - Profiling Components with the DevTools Profiler"
+    link: https://reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-devtools-profiler
   - type: ARTICLE
-    title: "O que é React Developer Tool?"
-    link: https://acervolima.com/o-que-e-react-developer-tool/
+    title: "New React Developer Tools : What’s New Features?"
+    link: https://web-and-mobile-development.medium.com/new-react-developer-tools-whats-new-features-2ae6c1e8a7ea
   - type: ARTICLE
-    title: "Debug React applications with React DevTools (inglês)"
+    title: "Debug React applications with React DevTools"
     link: https://blog.logrocket.com/debug-react-applications-with-the-new-react-devtools/
   - type: YOUTUBE
-    title: "Rubens Guimarães: Depuração no React com o React Developer Tools"
-    link: https://www.youtube.com/watch?v=GHoeoW88Jis
+    title: "react.school: React Developer Tools - Installing and Basic Usage"
+    link: https://www.youtube.com/watch?v=-LfSE9ZxZDI
+  - type: YOUTUBE
+    title: "The Net Ninja: Intro to React Dev Tools"
+    link: https://www.youtube.com/watch?v=rb1GWqCJid4
 alura-contents:
-  - type: COURSE
-    title: "Curso React: otimizando a performance"
-    link: https://www.alura.com.br/curso-online-react-otimizando-performance
