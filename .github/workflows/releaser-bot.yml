@@ -13,7 +13,7 @@ env:
 
 jobs:
   comment_checker:
-    if: contains(github.event.comment.html_url, '/pull/')    # check if the comments come from pull request, exclude those from issue.
+    if: contains(github.event.comment.html_url, '/pull/') && github.event.comment.user.login == 'omariosouto'
     runs-on: ubuntu-latest
     steps:
       ## [Setup_CI]
