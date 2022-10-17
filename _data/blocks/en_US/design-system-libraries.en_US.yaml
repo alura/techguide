@@ -2,40 +2,25 @@ name: Design System Libraries
 logo: 
 short-description:
 key-objectives:
-  - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+  - A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications.
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "Awesome React Design Systems"
+    link: https://github.com/jbranchaud/awesome-react-design-systems#react-design-systems
   - type: ARTICLE
-    title: "Criando uma biblioteca de Design System utilizando React"
-    link: https://medium.com/iclubs/criando-uma-biblioteca-de-design-system-utilizando-react-214f31219a33
+    title: "Top 5 design systems for React"
+    link: https://bootcamp.uxdesign.cc/top-5-design-systems-for-react-in-2021-643b98f57b0e
   - type: ARTICLE
-    title: "Aplicando Design System com Styled Components em ReactJS"
-    link: https://medium.com/gbtech/aplicando-design-system-com-styled-components-em-reactjs-49e9f40e9bc
+    title: "The Top React Component Libraries that are Worth Trying"
+    link: https://technostacks.com/blog/react-component-libraries/
   - type: YOUTUBE
-    title: "Caio Gonzalez: O que é Design System? / Guia para começar o seu próprio design system"
-    link: https://www.youtube.com/watch?v=ajqbXpFVaAw
+    title: "TECH IN 5 MINUTES: Ant Design - The best React library?"
+    link: https://www.youtube.com/watch?v=IEqmSROj5Uc
+  - type: YOUTUBE
+    title: "JSWORLD Conference: Sid - What goes into building a design system"
+    link: https://www.youtube.com/watch?v=KtQO5MhnfEc
+  - type: YOUTUBE
+    title: "Anagh Technologies Inc.: Top 5 ReactJS UI Component Libraries"
+    link: https://www.youtube.com/watch?v=xFXNmA-7VfQ
 alura-contents:
-  - type: ARTICLE
-    title: "O que é Design System?"
-    link: https://www.alura.com.br/artigos/o-que-e-design-system
-  - type: ARTICLE
-    title: "Design Systems: exemplos práticos"
-    link: https://www.alura.com.br/artigos/design-systems-exemplos-praticos
-  - type: YOUTUBE
-    title: "Alura: Design System & Style Guide"
-    link: https://www.youtube.com/watch?v=rSLvpOqC5wQ
-  - type: YOUTUBE
-    title: "Alura: Design Systems (com Charles Assunção)"
-    link: https://www.youtube.com/watch?v=MLGFctEtmYQ
-  - type: YOUTUBE
-    title: "Alura: O que é Design System? | Hipsters.Talks"
-    link: https://www.youtube.com/watch?v=LNQ4fZbjqWM
-  - type: podcast
-    title: "Hipsters.tech: Design Systems - Hipsters 170"
-    link: https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399
-  - type: podcast
-    title: "Layers.tech: Design System – Layers ponto tech 36"
-    link: https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056
-  - type: COURSE
-    title: "Formação Design System"
-    link: https://www.alura.com.br/formacao-design-system

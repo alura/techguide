@@ -1,39 +1,36 @@
-name: TypeScript - Fundamentals
+name:    - Fundamentals
 logo: 
 short-description:
 key-objectives:
-  - Entender a fundo o que são tipos e a importância da tipagem
-  - Aprender o que é o TypeScript, por que foi criado, como ele funciona e sua relação com o JavaScript
-  - Conhecer as ferramentas do TypeScript (integração com o editor de código, verificador estático e compilador)
-  - Escrever código em TypeScript com suas ferramentas (interfaces, enum, decorators, etc)
-  - Desenvolver aplicações em TypeScript
+  - TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+  - Understanding in depth what types are and the importance of typed programming
+  - Learning what TypeScript is, why it was created, how it works and its relationship with JavaScript
+  - Knowing the TypeScript tools (integration with the code editor, static checker and compiler)
+  - Writing code in TypeScript using its tools (interfaces, enum, decorators, etc.)
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Microsoft Docs: Compreendendo o TypeScript"
-    link: https://docs.microsoft.com/pt-br/archive/msdn-magazine/2015/january/typescript-understanding-typescript
-  - type: ARTICLE
-    title: "TypeScript: O guia definitivo"
-    link: https://oieduardorabelo.medium.com/typescript-o-guia-definitivo-1a63b04259cc
-  - type: YOUTUBE
-    title: "Mario Souto - Dev Soutinho: Linguagens Sem Tipos, dá pra ficar bom programando nelas? JavaScript vs TypeScript"
-    link: https://www.youtube.com/watch?v=t-9-pkh5FDQ
+    title: "W3Schools: TypeScript Introduction"
+    link: https://www.w3schools.com/typescript/typescript_intro.php
   - type: SITE
-    title: "Documentação: TypeScript for the New Programmer (inglês)"
+    title: "TypeScript Documentation"
+    link: https://www.typescriptlang.org/docs/
+  - type: SITE
+    title: "Documentação: TypeScript for the New Programmer"
     link: https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html
-alura-contents:
+  - type: SITE
+    title: "TypeScript - Understanding TypeScript"
+    link: https://learn.microsoft.com/en-us/archive/msdn-magazine/2015/january/typescript-understanding-typescript
   - type: ARTICLE
-    title: "Javascript ou Typescript?"
-    link: https://www.alura.com.br/artigos/javascript-ou-typescript
-  - type: podcast
-    title: "Hipster.tech: O Hype do TypeScript"
-    link: https://www.alura.com.br/podcast/o-hype-do-typescript-hipsters-207-a344
+    title: "W3Schools: Differences Between JavaScript And TypeScript"
+    link: https://www.w3schools.blog/differences-between-javascript-and-typescript
+  - type: ARTICLE
+    title: "W3Schools: TypeScript Tutorial: A step-by-step guide to learn TypeScript"
+    link: https://learningdaily.dev/typescript-tutorial-a-step-by-step-guide-to-learn-typescript-70f96b7ae7c8
   - type: YOUTUBE
-    title: "Alura: Quais são as principais vantagens do Typescript?"
-    link: https://www.youtube.com/watch?v=snwevp02sIw
+    title: "Programming with Mosh: TypeScript Tutorial for Beginners"
+    link: https://www.youtube.com/watch?v=d56mG7DezGs
   - type: YOUTUBE
-    title: "Alura: Imersão React Live 02 - TypeScript no nosso projeto React"
-    link: https://www.youtube.com/watch?v=SpWFDTvgS9k
-  - type: COURSE
-    title: "Formação Typescript"
-    link: https://www.alura.com.br/formacao-typescript
+    title: "Academind: TypeScript Course for Beginners - Learn TypeScript from Scratch"
+    link: https://www.youtube.com/watch?v=BwuLxPH8IDs
+alura-contents:
