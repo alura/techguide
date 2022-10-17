@@ -2,25 +2,34 @@ name: Lottie
 logo: 
 short-description:
 key-objectives:
-  - Create animations
+  - Lottie is a library that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile and on the web.
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Documentação: Lottie (inglês)"
+    title: "Documentation: Lottie"
     link: https://airbnb.io/lottie/#/README
   - type: SITE
-    title: "Componentes Lottie (inglês)"
+    title: "Lottie Components"
     link: https://lottiereact.com/components/Lottie
   - type: ARTICLE
-    title: "Animações com Lottie no React Native"
-    link: https://medium.com/@victor96novais/anima%C3%A7%C3%B5es-com-lottie-no-react-native-d6f8ffa749a9
+    title: "A Guide to Lottie Framework: 5 Steps to Create an Animation"
+    link: https://medium.muz.li/a-guide-to-lottie-framework-5-steps-to-create-an-animation-6ccc446d7b13
+  - type: ARTICLE
+    title: "Native Animation For Mobile App Using Lottie"
+    link: https://blog.prototypr.io/native-animation-for-mobile-app-using-lottie-eafe0640ece4
+  - type: ARTICLE
+    title: "Lottie React Native Tutorial"
+    link: https://medium.com/react-native-training/lottie-react-native-tutorial-162d91840720
+  - type: ARTICLE
+    title: "Lottie Without After Effects"
+    link: https://medium.com/haiku-blog/lottie-without-after-effects-9c5a8e74c239
   - type: YOUTUBE
-    title: "Mario Souto - Dev Soutinho: Lottie: Animações com React"
-    link: https://www.youtube.com/watch?v=dZH9aDX8T-0
+    title: "LottieFiles: What is a Lottie animation?"
+    link: https://www.youtube.com/watch?v=fVl60ZyO_MA
   - type: YOUTUBE
-    title: "Wendel Dev: Como usar animações Lottie em apenas 3 minutos com ReactJS"
-    link: https://www.youtube.com/watch?v=bWo_wlqPfQY
+    title: "Design Pilot: Create Lottie Animations in After Effects - The Ultimate Guide"
+    link: https://www.youtube.com/watch?v=72qbebvwxnY
+  - type: YOUTUBE
+    title: "LottieFiles: How to animate SVG icon and convert to Lottie: SVG to Lottie converter"
+    link: https://www.youtube.com/watch?v=uT8p_0VLxTs
 alura-contents:
-  - type: podcast
-    title: "Layers.tech: WEB Animation LottieFiles"
-    link: https://www.alura.com.br/podcast/web-animation-lottiefiles-layers-ponto-tech-42-a1107
