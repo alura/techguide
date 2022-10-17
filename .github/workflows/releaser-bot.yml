@@ -31,7 +31,6 @@ jobs:
         if: contains(github.event.comment.body, '/release/') # support|major|minor|patch
         run: | 
           cat .git/HEAD
-          yarn install && yarn setup
           git config --global user.name "${{ env.COMMIT_USERNAME }}"
           git config --global user.email ${{ env.COMMIT_EMAIL }}
           npx @displaykit/bump-release bump-release ${{ github.event.comment.body }}
