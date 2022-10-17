@@ -1,4 +1,4 @@
-# TechGuide.sh
+# TechGuide.sh:
 
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](./LICENSE)
 
