@@ -188,7 +188,7 @@ function FAQQuestion({ title, description }: any) {
             isOpen ? "ease-in-out" : "cubic-bezier(0, 1, 0, 1)"
           }`,
           maxHeight: isOpen ? "1000px" : 0,
-          overflow: "auto",
+          overflow: "hidden",
         }}
         aria-hidden={isOpen ? "false" : "true"}
         onFocus={() => setIsOpen(true)}
