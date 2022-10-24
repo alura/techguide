@@ -2,31 +2,28 @@ name: Cypress
 logo: 
 short-description:
 key-objectives:
-  - Criar e executar testes
+  - Cypress is a front-end testing tool that allows for setting up, writing, running, and debugging tests.
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Cypress: Documentação (inglês)"
-    link: https://docs.cypress.io/guides/getting-started/installing-cypress
+    title: "Cypress: Documentação"
+    link: https://docs.cypress.io/guides/overview/why-cypress
   - type: ARTICLE
-    title: "Um Overview sobre Cypress.io — Framework de Automação de Testes end-to-end"
-    link: https://medium.com/@faelbercam/um-overview-sobre-cypress-io-framework-de-automa%C3%A7%C3%A3o-de-testes-end-to-end-dc438b9ee7a1
+    title: "Why Using Cypress Is Better Than Unit Testing"
+    link: https://betterprogramming.pub/why-using-cypress-is-better-than-unit-testing-e8234229be81
+  - type: ARTICLE
+    title: "How to Test Your Frontend with the Cypress.io Framework"
+    link: https://medium.com/free-code-camp/how-to-test-your-frontend-with-the-cypress-io-framework-f048070f4330
+  - type: ARTICLE
+    title: "End to End Testing React Apps With Cypress"
+    link: https://blog.bitsrc.io/testing-react-apps-with-cypress-658bc482678
   - type: YOUTUBE
-    title: "Embaixadora da Qualidade: Guia Rápido Sobre Cypress"
-    link: https://www.youtube.com/watch?v=ZWF7QT3ogk0
+    title: "LambdaTest: Learn Cypress in 3 Hours"
+    link: https://www.youtube.com/watch?v=jX3v3N6oN5M
   - type: YOUTUBE
-    title: "Otavio Lemos: Guia Rápido Sobre Cypress"
-    link: https://www.youtube.com/watch?v=e5SuUUFlDss
+    title: "Cypress.io: Cypress in a Nutshell"
+    link: https://www.youtube.com/watch?v=LcGHiFnBh3Y
+  - type: YOUTUBE
+    title: "Fireship: Cypress End-to-End Testing"
+    link: https://www.youtube.com/watch?v=7N63cMKosIE
 alura-contents:
-  - type: YOUTUBE
-    title: "Alura: Testes em Javascript - Alura Live 50"
-    link: https://www.youtube.com/watch?v=r1rndQwFLMY
-  - type: SITE
-    title: "Primeiras aulas do curso Cypress: automação de testes E2E"
-    link: https://www.alura.com.br/conteudo/cypress-automacao-testes-e2e
-  - type: COURSE
-    title: "Curso Cypress: automação de testes E2E"
-    link: https://www.alura.com.br/curso-online-cypress-automacao-testes-e2e
-  - type: COURSE
-    title: "Formação Carreira QA: processos e automação de testes"
-    link: https://www.alura.com.br/formacao-carreira-tester-qa

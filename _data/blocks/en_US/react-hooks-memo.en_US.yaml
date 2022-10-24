@@ -2,25 +2,33 @@ name: React Hooks - Memo
 logo: 
 short-description:
 key-objectives:
-  - Controlar o estado de variáveis externas
+  - The React useMemo Hook returns a memoized value. useMemo will only recompute the memoized value when one of the dependencies has changed.
+  - Controlling the state of external variables
+  - Avoiding expensive calculations on every render
 aditional-objectives:
 contents:
   - type: SITE
-    title: "React: Documentação - useMemo"
-    link: https://pt-br.reactjs.org/docs/hooks-reference.html#usememo
-  - type: ARTICLE
-    title: "React.useMemo na prática"
-    link: https://medium.com/reactbrasil/react-usememo-na-pr%C3%A1tica-692110771c01
-  - type: ARTICLE
-    title: "Diminuindo Processamento com useMemo em React"
-    link: https://blog.matheuscastiglioni.com.br/diminuindo-processamento-com-use-memo-em-react/
+    title: "W3Schools: React useMemo Hook"
+    link: https://www.w3schools.com/react/react_usememo.asp
   - type: SITE
-    title: "useHooks.com: useMemo (inglês)"
+    title: "React: Documentation - useMemo"
+    link: https://reactjs.org/docs/hooks-reference.html#usememo
+  - type: SITE
+    title: "useHooks.com - useMemo"
     link: https://usehooks.com/useMemo/
+  - type: ARTICLE
+    title: "How to useMemo and useCallback"
+    link: https://www.developerway.com/posts/how-to-use-memo-use-callback
+  - type: ARTICLE
+    title: "Use React.memo() wisely"
+    link: https://dmitripavlutin.com/use-react-memo-wisely/
   - type: YOUTUBE
-    title: "React Floripa: Os mitos sobre useMemo e useCallback"
-    link: https://www.youtube.com/watch?v=ZntFz_DDakQ
+    title: "Web Dev Simplified: Learn useMemo In 10 Minutes"
+    link: https://www.youtube.com/watch?v=THL1OPn72vo
+  - type: YOUTUBE
+    title: "Codevolution: React Hooks Tutorial - useMemo Hook"
+    link: https://www.youtube.com/watch?v=qySZIzZvZOY
+  - type: YOUTUBE
+    title: "Dave Gray: Learn useMemo In 10 Minutes"
+    link: https://www.youtube.com/watch?v=oR8gUi1LfWY
 alura-contents:
-  - type: COURSE
-    title: "Curso React: gerenciamento de estados globais com ContextAPI"
-    link: https://cursos.alura.com.br/course/react-context-estados-globais-contextapi

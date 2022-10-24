@@ -2,36 +2,42 @@ name: GraphQL
 logo: 
 short-description:
 key-objectives:
-  - Aprender o que é GraphQL e por que foi criado
-  - Entender como o GraphQL é utilizado no desenvolvimento de APIs
-  - Criar APIs utilizando as bibliotecas e frameworks para GraphQL
+  - GraphQL is a new API standard that provides a more efficient, powerful and flexible alternative to REST. It was developed and open-sourced by Facebook and is now maintained by a large community of companies and individuals from all over the world.
+  - Understanding how GraphQL is used in API development
+  - Creating APIs using GraphQL libraries and frameworks
 aditional-objectives:
 contents:
   - type: SITE
-    title: "RedHat: O que é GraphQL?"
-    link: https://www.redhat.com/pt-br/topics/api/what-is-graphql
-  - type: ARTICLE
-    title: "GraphQL: O que é e como usar"
-    link: https://medium.com/@emerson_pereira/introdu%C3%A7%C3%A3o-a-graphql-cbd1697784bf
-  - type: ARTICLE
-    title: "Dev.to: Entendendo um pouco sobre o que é GraphQL"
-    link: https://dev.to/amaurygoncalves/entendendo-um-pouco-sobre-o-que-e-graphql-9l7
-  - type: YOUTUBE
-    title: "Mateus Silva: GraphQL: Pra que serve, Conceitos e Hello World"
-    link: https://www.youtube.com/watch?v=ZWF7QT3ogk0
+    title: "GraphQL: Documentation"
+    link: https://graphql.org/
   - type: SITE
-    title: "How to GraphQL: The Fullstack tutorial for GraphQL (em inglês)"
+    title: "How to GraphQL: The Fullstack tutorial for GraphQL"
     link: https://www.howtographql.com/
-alura-contents:
+  - type: SITE
+    title: "RedHat: What is GraphQL?"
+    link: https://www.redhat.com/en/topics/api/what-is-graphql
+  - type: ARTICLE
+    title: "So what’s this GraphQL thing I keep hearing about?"
+    link: https://medium.com/free-code-camp/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf
+  - type: ARTICLE
+    title: "Why GraphQL is the future of APIs"
+    link: https://medium.com/free-code-camp/why-graphql-is-the-future-of-apis-6a900fb0bc81
+  - type: ARTICLE
+    title: "GraphQL: A Success Story for PayPal Checkout"
+    link: https://medium.com/paypal-tech/graphql-a-success-story-for-paypal-checkout-3482f724fb53
+  - type: ARTICLE
+    title: "GraphQL: Everything You Need to Know"
+    link: https://blog.weblab.technology/graphql-everything-you-need-to-know-58756ff253d8
+  - type: ARTICLE
+    title: "REST vs. GraphQL: A Critical Review"
+    link: https://medium.com/good-api/rest-vs-graphql-a-critical-review-5f77392658e7
   - type: YOUTUBE
-    title: "Alura: O que é GraphQL?"
-    link: https://www.youtube.com/watch?v=trf3ZR_K1nk
-  - type: podcast
-    title: "Hipsters.tech: Python, GraphQL e Serverless no Zé Delivery (Hipsters On The Road 53)"
-    link: https://www.alura.com.br/podcast/python-graphql-e-serverless-no-ze-delivery-hipsters-on-the-road-53-a804
-  - type: COURSE
-    title: "Curso GraphQL: construindo uma API com Apollo Server"
-    link: https://www.alura.com.br/curso-online-graphql-construindo-api-apollo-server
-  - type: COURSE
-    title: "Curso GraphQL: integração de dados e relacionamentos"
-    link: https://www.alura.com.br/curso-online-graphql-integracao-dados-relacionamentos
+    title: "Web Dev Simplified: Learn GraphQL In 40 Minutes"
+    link: https://www.youtube.com/watch?v=ZQL7tL2S0oQ
+  - type: YOUTUBE
+    title: "The Net Ninja: GraphQL Tutorial"
+    link: https://www.youtube.com/watch?v=Y0lDGjwRYKw&list=PL4cUxeGkcC9iK6Qhn-QLcXCXPQUov1U7f
+  - type: YOUTUBE
+    title: "Fireship: GraphQL Explained in 100 Seconds"
+    link: https://www.youtube.com/watch?v=eIQh02xuVw4
+alura-contents:
