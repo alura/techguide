@@ -1,0 +1,38 @@
+name: Object-oriented Programming Concepts
+logo: 
+short-description:
+key-objectives:
+  - "Object-oriented programming (OOP) is a programming paradigm based on the concept of 'objects', which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods). A common feature of objects is that procedures (or methods) are attached to them and can access and modify the object's data fields. Some of the main concepts are classes and instances, inheritance, and encapsulation."
+  - How objects work
+  - Creating and using constructors
+  - What classes are
+  - Creating and using Methods
+  - How encapsulation works
+  - What inheritance is
+  - What polymorphism is
+  - How interfaces work
+  - What abstractions are
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Object-oriented programming"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming
+  - type: SITE
+    title: "Geeks for Geeks: Object Oriented Programming (OOPs) Concept in Java"
+    link: https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/
+  - type: SITE
+    title: "W3Schools: Object-Oriented Programming Style"
+    link: https://www.w3schools.blog/object-oriented-programming-style
+  - type: ARTICLE
+    title: "What is object-oriented programming? OOP explained in depth"
+    link: https://www.educative.io/blog/object-oriented-programming
+  - type: YOUTUBE
+    title: "Programming with Mosh: Object-oriented Programming in 7 minutes"
+    link: https://www.youtube.com/watch?v=QJjY2TNyl-8
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Intro to Object Oriented Programming - Crash Course"
+    link: https://www.youtube.com/watch?v=SiBw7os-_zI
+  - type: YOUTUBE
+    title: "Traversy Media: JavaScript OOP Crash Course (ES5 & ES6)"
+    link: https://www.youtube.com/watch?v=vDJpGenyHaA
+alura-contents:
