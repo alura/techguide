@@ -1,0 +1,120 @@
+name: Front-end ReactJS
+expertise:
+  - name: Front-end React Jr
+    blocks: 
+      - javascript-fundamentals:
+        priority: 10
+      - dom-fundamentals:
+        priority: 10
+      - spa-concepts:
+        priority: 9
+      - html-fundamentals:
+        priority: 7
+      - css-fundamentals:
+        priority: 6
+      - react-components:
+        priority: 9
+      - react-props:
+        priority: 9
+      - react-hooks-state:
+        priority: 9
+      - create-react-app:
+        priority: 7
+      - react-hooks-effect:
+        priority: 9
+  - name: Front-end React Mid
+    blocks:
+      - react-hooks-memo:
+        priority: 7
+      - react-hooks-callback:
+        priority: 9
+      - react-hooks-ref:
+        priority: 10
+      - design-system-libraries:
+        priority: 4
+      - react-dev-tools:
+        priority: 5
+        optional: true
+      - frontend-semantic-versioning:
+        priority: 6
+      - css-in-js:
+        priority: 5
+      - styled-components:
+        optional: true
+        priority: 4
+      - react-webrouting:
+        priority: 7
+      - typescript-fundamentals:
+        priority: 5
+        optional: true
+      - yarn:
+        optional: true
+        priority: 6
+      - react-testing-library:
+        priority: 8
+      - jest:
+        priority: 8
+      - cypress:
+        priority: 8
+      - javascript-callbacks-promises:
+        priority: 8
+      - javascript-errorhandling:
+        priority: 7
+      - babel-fundamentals:
+        priority: 6
+        optional: true      
+  - name: Front-end React in depth
+    blocks:
+      - lottie:
+        priority: 5
+        optional: true
+      - framer-motion:
+        priority: 5
+        optional: true
+      - service-workers:
+        priority: 7    
+      - react-hooks-form:
+        priority: 7
+      - lodash:
+        priority: 4
+        optional: true
+      - graphql:
+        priority: 5
+        optional: true
+      - apollo-client:
+        priority: 5
+        optional: true
+      - redux-saga:
+        priority: 5
+        optional: true
+      - nextjs-fundamentals:
+        priority: 5
+        optional: true
+collaboration:
+  - name: Infrastructure and Back-end
+    blocks:
+        - git-and-github-fundamentals:
+          priority: 9
+        - http-fundamentals:
+          priority: 10
+        # - first-deploy:
+        #   priority: 10
+        - json:
+          priority: 8
+        - command-line-fundamentals: 
+          priority: 8
+        - cloud-fundamentals: 
+          priority: 6
+          optional: true
+  - name: UX and Design
+    blocks:
+        - design-systems:
+          priority: 4
+        - figma-fundamentals:
+          priority: 8
+        - design-components:
+          priority: 6
+        - color-systems:
+          priority: 5
+        - how-to-use-fonts:
+          priority: 5

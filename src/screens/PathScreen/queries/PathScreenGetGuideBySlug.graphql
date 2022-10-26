@@ -1,5 +1,5 @@
-query PathScreenGetGuideBySlug($input: GuideInput) {
-  guide(input: $input) {
+query PathScreenGetGuideBySlug($input: GuideInput, $locale: SiteLocale) {
+  guide(input: $input, locale: $locale) {
     slug
     name
     expertises {

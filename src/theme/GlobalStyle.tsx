@@ -6,6 +6,7 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     min-height: 100%;
     flex-direction: column;
+    scroll-behavior: smooth;
   }
   body {
     display: flex;

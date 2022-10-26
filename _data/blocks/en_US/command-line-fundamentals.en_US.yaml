@@ -1,0 +1,24 @@
+name: Command Line - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - CLI is a command line program that accepts text input to execute operating system functions.
+  - Knowing the most important commands
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: What is Command Line Interface (CLI)?"
+    link: https://www.w3schools.com/whatis/whatis_cli.asp
+  - type: SITE
+    title: "Microsoft Docs: Using command line arguments for Windows Terminal"
+    link: https://docs.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=windows
+  - type: ARTICLE
+    title: "Advanced CLI: Commands You Should Know as a Developer"
+    link: https://betterprogramming.pub/advanced-cli-commands-you-should-know-as-a-developer-7bc48c752a5e
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Command Line Crash Course"
+    link: https://www.youtube.com/watch?v=yz7nYlnXLfE
+  - type: YOUTUBE
+    title: "Traversy Media: Command Line Crash Course For Beginners - Terminal Commands"
+    link: https://www.youtube.com/watch?v=uwAqEzhyjtw
+alura-contents:

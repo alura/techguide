@@ -1,0 +1,27 @@
+name: JSON
+logo: 
+short-description:
+key-objectives:
+  - JSON stands for JavaScript Object Notation. It is a text format for storing and transporting data.
+  - Creating an object
+  - Transforming an object into a string
+  - Transforming a string into an object
+  - Manipulating an object
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: JSON"
+    link: https://www.w3schools.com/js/js_json_intro.asp
+  - type: SITE
+    title: "MDN Web Docs: JSON"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+  - type: SITE
+    title: "MDN Web Docs: Working with JSON"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+  - type: YOUTUBE
+    title: "Web Dev Simplified: Learn JSON in 10 Minutes"
+    link: https://www.youtube.com/watch?v=iiADhChRriM
+  - type: YOUTUBE
+    title: "Traversy Media: JSON Crash Course"
+    link: https://www.youtube.com/watch?v=wI1CWzNtE-M
+alura-contents:

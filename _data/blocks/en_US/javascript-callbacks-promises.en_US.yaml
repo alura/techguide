@@ -1,0 +1,57 @@
+name: JavaScript - Callbacks and Promises
+logo: 
+short-description:
+key-objectives:
+  - A Promise is a proxy for a value not necessarily known when the promise is created. This lets asynchronous methods return values like synchronous methods - instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
+  - A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
+  - An async function is a function declared with the async keyword, and the await keyword is permitted within it. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
+  - Understanding the concept of asynchronous programming
+  - Writing asynchronous code understanding the concept of promises in JavaScript
+  - Using JavaScript methods, keywords and objects for handling promises like 'Async/Await', '.then()', 'Promise', etc
+  - Learning in which situations you need to use asynchronous programming
+  - Calling APIs with `fetch()`
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: JavaScript Callbacks"
+    link: https://www.w3schools.com/js/js_callback.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Promises"
+    link: https://www.w3schools.com/js/js_promise.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Async"
+    link: https://www.w3schools.com/js/js_async.asp
+  - type: SITE
+    title: "W3Schools: Asynchronous JavaScript"
+    link: https://www.w3schools.com/js/js_asynchronous.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Fetch API"
+    link: https://www.w3schools.com/js/js_api_fetch.asp
+  - type: SITE
+    title: "MDN Web Docs: Promise"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+  - type: SITE
+    title: "MDN Web Docs: Callback function"
+    link: https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
+  - type: SITE
+    title: "MDN Web Docs: async function"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+  - type: SITE
+    title: "MDN Web Docs: Introducing asynchronous JavaScript"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing
+  - type: ARTICLE
+    title: "A practical ES6 guide on how to perform HTTP requests using the Fetch API"
+    link: https://medium.com/free-code-camp/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547
+  - type: YOUTUBE
+    title: "James Q Quick: JavaScript Callbacks Explained in 5 Minutes"
+    link: https://www.youtube.com/watch?v=kz_vwAF4NHI
+  - type: YOUTUBE
+    title: "Code with Ania Kubów: Callbacks in JavaScript Explained"
+    link: https://www.youtube.com/watch?v=cNjIUSDnb9k
+  - type: YOUTUBE
+    title: "Web Dev Simplified: JavaScript Promises In 10 Minutes"
+    link: https://www.youtube.com/watch?v=DHvZLI7Db8E
+  - type: YOUTUBE
+    title: "Traversy Media: Async JS Crash Course - Callbacks, Promises, Async Await"
+    link: https://www.youtube.com/watch?v=PoRJizFvM7s
+alura-contents:

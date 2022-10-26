@@ -1,5 +1,5 @@
 import { gql } from "apollo-server-micro";
-import { Resolvers } from "@api/gql_types";
+import { Resolvers, SiteLocale } from "@api/gql_types";
 import { blocksRepository } from "@api/modules/blocks/repository";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
 import { guidesRepository } from "../guides/repository";
@@ -26,10 +26,11 @@ const typeDefs = gql`
   }
   enum BlockContentType {
     SITE
-    COURSE
+    # COURSE
     PODCAST
     ARTICLE
     YOUTUBE
+    CHALLENGE
   }
   type Block {
     id: String
@@ -57,6 +58,7 @@ const typeDefs = gql`
     limit: Int
     offset: Int
     filter: BlockFilters
+    locale: SiteLocale
   }
   input BlockInput {
     slug: String!
@@ -95,16 +97,21 @@ const resolvers: Resolvers = {
     },
   },
   Query: {
-    async blocks(_, { input }) {
+    async blocks(_, { input, locale }) {
       const blocks = await blocksRepository().getAll({
-        input: gqlInput(input),
+        input: gqlInput({
+          ...input,
+          locale: locale || SiteLocale.PtBr,
+        }),
       });
-
       return blocks;
     },
-    async block(_, { input }) {
+    async block(_, { input, locale }) {
       const block = await blocksRepository().getBySlug({
-        input: gqlInput(input),
+        input: gqlInput({
+          ...input,
+          locale: locale || SiteLocale.PtBr,
+        }),
       });
       return block;
     },

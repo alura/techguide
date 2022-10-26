@@ -1,0 +1,98 @@
+name: JavaScript - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - JavaScript is the world's most popular programming language and is one of the core technologies of the World Wide Web, alongside HTML and CSS. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles.
+  - Knowing the primitive types
+  - Declaring variables, considering the difference between 'var', 'let' and 'const
+  - Using conditional structures ('if', 'else')
+  - Knowing the comparison operators ('=', '==', '===')
+  - Using repetition structures and loops ('while', 'for')
+  - Using functions, passing parameters and arguments
+  - Manipulating arrays and lists
+  - Getting data from an API
+  - Making asynchronous calls using 'Async/Await', 'Promise', etc
+aditional-objectives:
+  - Manipulating JSON objects
+  - Using template literals
+  - Using arrow functions
+  - Performing destructuring when reading arrays
+  - Using the 'forEach' structure
+  - Manipulating arrays with 'map', 'filter' and 'reduce
+contents:
+  - type: SITE
+    title: "W3Schools: JavaScript Syntax"
+    link: https://www.w3schools.com/js/js_syntax.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Variables"
+    link: https://www.w3schools.com/js/js_variables.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Operators"
+    link: https://www.w3schools.com/js/js_operators.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Comparison and Logical Operators"
+    link: https://www.w3schools.com/js/js_comparisons.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Data Types"
+    link: https://www.w3schools.com/js/js_datatypes.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Arrays"
+    link: https://www.w3schools.com/js/js_arrays.asp
+  - type: SITE
+    title: "W3Schools: JavaScript if, else, and else if"
+    link: https://www.w3schools.com/js/js_if_else.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Iterables (while, for)"
+    link: https://www.w3schools.com/js/js_iterables.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Functions"
+    link: https://www.w3schools.com/js/js_functions.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Objects"
+    link: https://www.w3schools.com/js/js_objects.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Classes"
+    link: https://www.w3schools.com/js/js_classes.asp
+  - type: SITE
+    title: "MDN Web Docs: A first splash into JavaScript"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash
+  - type: SITE
+    title: "MDN Web Docs: Handling text — strings in JavaScript"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings
+  - type: SITE
+    title: "MDN Web Docs: if...else"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+  - type: SITE
+    title: "MDN Web Docs: while"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
+  - type: SITE
+    title: "MDN Web Docs: for"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+  - type: SITE
+    title: "MDN Web Docs: Arrays"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays
+  - type: SITE
+    title: "MDN Web Docs: Template strings"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+  - type: ARTICLE
+    title: "An introduction to JavaScript’s async and await"
+    link: https://medium.com/@zellwk/an-introduction-to-javascripts-async-and-await-edb313356677
+  - type: ARTICLE
+    title: "Javascript: Map, Filter, and Reduce"
+    link: https://harsh-patel.medium.com/javascript-map-filter-and-reduce-51da071d6dc4
+  - type: YOUTUBE
+    title: "Aaron Jack: Learn JavaScript in just 5 minutes"
+    link: https://www.youtube.com/watch?v=c-I5S_zTwAc
+  - type: YOUTUBE
+    title: "Topknot Clare: JavaScript Basics in 10 Minutes"
+    link: https://www.youtube.com/watch?v=c-I5S_zTwAc
+  - type: YOUTUBE
+    title: "Programming with Mosh: JavaScript Tutorial for Beginners - Learn JavaScript in 1 Hour"
+    link: https://www.youtube.com/watch?v=W6NZfCO5SIk
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Introduction to JavaScript"
+    link: https://www.youtube.com/watch?v=_y9oxzTGERs
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Learn JavaScript - Full Course for Beginners"
+    link: https://www.youtube.com/watch?v=PkZNo7MFNFg
+alura-contents:

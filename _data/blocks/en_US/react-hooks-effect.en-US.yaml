@@ -1,0 +1,38 @@
+name: React Hooks - Effect
+logo: 
+short-description:
+key-objectives:
+  - UseEffect() is a React Hook which allows you to handle side effects in your functional React components.
+  - Executing a component only after rendering
+  - Acessing the props of an element
+  - Calling APIs
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: React Hooks"
+    link: https://www.w3schools.com/react/react_hooks.asp
+  - type: SITE
+    title: "W3Schools: React useEffect - Hooks"
+    link: https://www.w3schools.com/react/react_useeffect.asp
+  - type: SITE
+    title: "React: Documentation - Introducing Hooks"
+    link: https://reactjs.org/docs/hooks-intro.html
+  - type: SITE
+    title: "React: Documentation - Using the Effect Hook"
+    link: https://reactjs.org/docs/hooks-effect.html
+  - type: ARTICLE
+    title: "React Hook: A Guide to Learning useEffect()"
+    link: https://medium.com/swlh/react-hook-a-guide-to-learning-useeffect-11687e777aeb
+  - type: ARTICLE
+    title: "ReactJS — useEffect() & useCallback()"
+    link: https://infinitypaul.medium.com/reactjs-useeffect-usecallback-simplified-91e69fb0e7a3
+  - type: ARTICLE
+    title: "Easy to Learn React Hooks"
+    link: https://medium.datadriveninvestor.com/easy-to-learn-react-hooks-7db7763608f5
+  - type: YOUTUBE
+    title: "The Net Ninja: Full React Tutorial 14 - useEffect Hook (the basics)"
+    link: https://www.youtube.com/watch?v=gv9ugDJ1ynU
+  - type: YOUTUBE
+    title: "Web Dev Simplified: Learn useEffect In 13 Minutes"
+    link: https://www.youtube.com/watch?v=0ZJgIjIuY7U
+alura-contents:

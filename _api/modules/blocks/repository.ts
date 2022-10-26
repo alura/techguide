@@ -4,26 +4,36 @@ import sift from "sift";
 import readYamlFile from "read-yaml-file/index";
 import { slugify } from "@src/infra/slugify";
 import { paginate } from "@src/infra/paginate";
-import { Block, BlockInput, BlocksInput } from "@api/gql_types";
+import { Block, BlockInput, BlocksInput, SiteLocale } from "@api/gql_types";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
+import { storage } from "@api/infra/storage";
 
 const ALLOW_LIST = [];
 
+const pathToBlocksByLocale = {
+  [SiteLocale.PtBr]: path.resolve(".", "_data", "blocks", "pt_BR"),
+  [SiteLocale.EnUs]: path.resolve(".", "_data", "blocks", "en_US"),
+};
+
 export function blocksRepository() {
-  const pathToBlocks = path.resolve(".", "_data", "blocks");
   const repository = {
     async getAll({ input }: { input: BlocksInput }): Promise<Block[]> {
-      const { filter = {}, offset, limit } = input;
+      const { filter = {}, offset, limit, locale } = input;
+      const pathToBlocks = pathToBlocksByLocale[locale];
 
       const blockFileNames = await (
         await Promise.all(await fs.readdir(pathToBlocks))
       ).filter((fileName) => !ALLOW_LIST.includes(fileName));
 
       const blocksPromise = blockFileNames.map(async (fileName) => {
+        const slug = slugify(fileName.split(".")[0]);
+
+        const blockCache = await storage.get(`block-${locale}-${slug}`);
+        if (blockCache) return blockCache;
+
         const fileContent = await readYamlFile<any>(
           path.resolve(pathToBlocks, fileName)
         );
-        const slug = slugify(fileName.replace(".pt_BR.yaml", ""));
 
         return {
           ...fileContent,
@@ -78,6 +88,10 @@ export function blocksRepository() {
         .filter((block) => block.status === "fulfilled")
         .map((block) => (block as any).value);
 
+      blocks.forEach((block) =>
+        storage.set(`block-${locale}-${block.slug}`, block)
+      );
+
       const output = paginate<Block>(
         blocks.filter(sift(filter)),
         limit,
@@ -89,6 +103,7 @@ export function blocksRepository() {
     async getBySlug({ input }: { input: BlockInput }): Promise<Block> {
       const blocks = await repository.getAll({
         input: gqlInput<BlocksInput>({
+          ...input,
           filter: {
             slug: {
               eq: input.slug,

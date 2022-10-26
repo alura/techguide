@@ -1,0 +1,36 @@
+name: JavaScript - Testing
+logo: 
+short-description:
+key-objectives:
+  - Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.
+  - Using unit tests
+  - Using integration testing
+  - Using behavioral testing
+  - Using mocks
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "An Overview of JavaScript Testing"
+    link: https://medium.com/welldone-software/an-overview-of-javascript-testing-7ce7298b9870
+  - type: ARTICLE
+    title: "Unit Testing in JavaScript: A Tutorial"
+    link: https://www.browserstack.com/guide/unit-testing-in-javascript
+  - type: ARTICLE
+    title: "How to Start Unit Testing Your JavaScript Code"
+    link: https://www.freecodecamp.org/news/how-to-start-unit-testing-javascript/
+  - type: ARTICLE
+    title: "Test-Driven Development Tutorial – How to Test Your JavaScript and ReactJS Applications"
+    link: https://www.freecodecamp.org/news/test-driven-development-tutorial-how-to-test-javascript-and-reactjs-app/
+  - type: YOUTUBE
+    title: "Academind: JavaScript Testing Introduction Tutorial - Unit Tests, Integration Tests & e2e Tests"
+    link: https://www.youtube.com/watch?v=r9HdJ8P6GQI
+  - type: YOUTUBE
+    title: "Fireship: Test-Driven Development - Fun TDD Introduction with JavaScript"
+    link: https://www.youtube.com/watch?v=Jv2uxzhPFl4
+  - type: YOUTUBE
+    title: "Traversy Media: Intro To JavaScript Unit Testing & BDD"
+    link: https://www.youtube.com/watch?v=u5cLK1UrFyQ
+  - type: YOUTUBE
+    title: "Web Dev Simplified: Introduction To Testing In JavaScript With Jest"
+    link: https://www.youtube.com/watch?v=FgnxcUQ5vho
+alura-contents:

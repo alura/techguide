@@ -1,0 +1,37 @@
+name: SPA Concepts
+logo: 
+short-description:
+key-objectives:
+  - A single-page application (SPA) is a web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server, instead of the default method of a web browser loading entire new pages. The goal is faster transitions that make the website feel more like a native app.
+  - Understanding what an SPA is
+  - Establishing routes to other pages
+  - Knowing SPA frameworks
+  - Communicating with APIs
+aditional-objectives:
+  - Knowing the React Router library
+contents:
+  - type: SITE
+    title: "Wikipédia: Single-page application (SPA)"
+    link: https://en.wikipedia.org/wiki/Single-page_application
+  - type: SITE
+    title: "MDN Web Docs: SPA (Single-page application)"
+    link: https://developer.mozilla.org/en-US/docs/Glossary/SPA
+  - type: ARTICLE
+    title: "What I wish I had known about SPAs"
+    link: https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/
+  - type: ARTICLE
+    title: "Rise of the SPA"
+    link: https://writing.pupius.co.uk/rise-of-the-spa-fb44da86dc1f
+  - type: ARTICLE
+    title: "JavaScript: Vanilla Single Page Applications (SPA)"
+    link: https://betterprogramming.pub/js-vanilla-script-spa-1b29b43ea475
+  - type: ARTICLE
+    title: "Learn React JS — Build a Portfolio Single Page Application (SPA)"
+    link: https://codeburst.io/learn-react-js-build-a-portfolio-single-page-application-spa-ba001082a711
+  - type: YOUTUBE
+    title: "Academind: Dynamic Websites vs Static Pages vs Single Page Apps (SPAs)"
+    link: https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk
+  - type: YOUTUBE
+    title: "dcode: Build a Single Page Application with JavaScript (No Frameworks)"
+    link: https://www.youtube.com/watch?v=6BozpmSjk-Y
+alura-contents:
