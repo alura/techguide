@@ -11,6 +11,8 @@ interface BoxProps {
   xmlns?: string;
   // eslint-disable-next-line no-unused-vars
   onClick?: (event: any) => void;
+  id?: string;
+  role?: string;
 }
 const Box = React.forwardRef(
   ({ styleSheet, children, tag, ...props }: BoxProps, ref) => {

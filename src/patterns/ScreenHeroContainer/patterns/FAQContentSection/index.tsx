@@ -14,6 +14,8 @@ export default function FAQContentSection() {
         background: "#101926",
         justifyContent: "center",
       }}
+      tag="section"
+      aria-labelledby="doubt-section"
     >
       <Box
         styleSheet={{
@@ -40,6 +42,7 @@ export default function FAQContentSection() {
           },
           justifyContent: "space-between",
         }}
+        tag="article"
       >
         <Box
           styleSheet={{
@@ -76,6 +79,8 @@ export default function FAQContentSection() {
                 md: "30px",
               },
             }}
+            tag="h2"
+            id="doubt-section"
           >
             Dúvidas e respostas frequentes sobre o Tech Guide
           </Text>
@@ -119,6 +124,9 @@ function FAQQuestion({ title, description }: any) {
       styleSheet={{
         borderBottom: "1px solid #1B2431",
       }}
+      aria-expanded={isOpen}
+      aria-controls="accordion-content"
+      id="accordion-header"
     >
       <Box
         tag="button"
@@ -181,6 +189,9 @@ function FAQQuestion({ title, description }: any) {
           width: "100%",
           marginBottom: "24px",
         }}
+        id="accordion-content"
+        aria-labelledby="accordion-header"
+        role="region"
       >
         <Text
           styleSheet={{

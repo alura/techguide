@@ -53,6 +53,7 @@ export default function SecondContentSection() {
             md: "start",
           },
         }}
+        tag="article"
       >
         <Box
           className="container--flexbox"
