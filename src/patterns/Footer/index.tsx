@@ -133,25 +133,58 @@ export default function Footer() {
             fontSize: "22px",
             gap: "0.625em",
           }}
+          tag="nav"
         >
-          <Link href="https://youtube.com/aluracursosonline">
-            <Icon name="youtube" />
-          </Link>
-          <Link href="https://www.facebook.com/AluraCursosOnline/">
-            <Icon name="facebook" />
-          </Link>
-          <Link href="https://twitter.com/aluraonline">
-            <Icon name="twitter" />
-          </Link>
-          <Link href="https://www.instagram.com/aluraonline/">
-            <Icon name="instagram" />
-          </Link>
-          <Link href="https://play.google.com/store/apps/details?id=br.com.alura.mobi">
-            <Icon name="playstore" />
-          </Link>
-          <Link href="https://apps.apple.com/br/app/alura-cursos-online/id1225776635">
-            <Icon name="appstore" />
-          </Link>
+          <ul
+            style={{ listStyle: "none", display: "flex", gap: "1rem" }}
+            aria-label="Alura nas mídias sociais"
+          >
+            <li>
+              <Link
+                href="https://youtube.com/aluracursosonline"
+                aria-label="Youtube"
+              >
+                <Icon name="youtube" />
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://www.facebook.com/AluraCursosOnline/"
+                aria-label="Facebook"
+              >
+                <Icon name="facebook" />
+              </Link>
+            </li>
+            <li>
+              <Link href="https://twitter.com/aluraonline" aria-label="Twitter">
+                <Icon name="twitter" />
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://www.instagram.com/aluraonline/"
+                aria-label="Instagram"
+              >
+                <Icon name="instagram" />
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://play.google.com/store/apps/details?id=br.com.alura.mobi"
+                aria-label="Play store"
+              >
+                <Icon name="playstore" />
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="https://apps.apple.com/br/app/alura-cursos-online/id1225776635"
+                aria-label="Apple store"
+              >
+                <Icon name="appstore" />
+              </Link>
+            </li>
+          </ul>
         </Box>
       </Box>
     </Box>

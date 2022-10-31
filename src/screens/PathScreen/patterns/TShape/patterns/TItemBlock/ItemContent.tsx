@@ -12,6 +12,7 @@ export default function ItemContent({
 }: any) {
   const i18n = useI18n();
   const modal = useModal();
+
   return (
     <Box
       styleSheet={{
@@ -24,6 +25,7 @@ export default function ItemContent({
         flexDirection: "row",
         overflowY: "scroll",
       }}
+      role="dialog"
     >
       <Box
         styleSheet={{
@@ -100,13 +102,19 @@ export default function ItemContent({
               fontSize: "0",
               cursor: "pointer",
               borderLeft: "1px solid rgba(233, 233, 233, 0.1)",
+              borderTop: "none",
+              borderRight: "none",
+              borderBottom: "none",
+              background: "transparent",
               hover: {
                 opacity: ".5",
               },
             }}
+            aria-label="Fechar modal"
             onClick={() => {
               modal.close();
             }}
+            tag="button"
           >
             <svg
               width="31"
@@ -141,12 +149,15 @@ export default function ItemContent({
             },
             borderBottom: "1px solid rgba(233, 233, 233, 0.1)",
           }}
+          tag="header"
+          aria-labelledby="content"
         >
           <Text
             styleSheet={{
               fontWeight: "800",
               fontSize: "40px",
             }}
+            tag="h2"
           >
             {title}
           </Text>
@@ -178,6 +189,7 @@ export default function ItemContent({
             },
             paddingBottom: "60px",
           }}
+          id="content"
         >
           <Text
             styleSheet={{
@@ -187,6 +199,7 @@ export default function ItemContent({
               marginBottom: "27px",
               color: "#88B8DB",
             }}
+            tag="h3"
           >
             {i18n.content("PATH.T_BLOCK_SUGGESTED_CONTENT")}
           </Text>
