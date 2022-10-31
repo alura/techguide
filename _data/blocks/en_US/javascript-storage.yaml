@@ -1,0 +1,32 @@
+name: JavaScript - Storage
+logo: 
+short-description:
+key-objectives:
+  - Local storage allows developers to store and retrieve data in the browser. The data stored in local storage will not expire, this means the data will persist even if the tab or the browser window is closed.
+  - Storing data in the front-end with localStorage
+  - Manipulating stored data
+  - Persisting stored data
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Client-side storage"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
+  - type: SITE
+    title: "MDN Web Docs: Using the Web Storage API"
+    link: https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
+  - type: ARTICLE
+    title: "localStorage in JavaScript: A complete guide"
+    link: https://blog.logrocket.com/localstorage-javascript-complete-guide/
+  - type: ARTICLE
+    title: "How to Use Local Storage with JavaScript"
+    link: https://www.section.io/engineering-education/how-to-use-localstorage-with-javascript/
+  - type: YOUTUBE
+    title: "Web Dev Simplified: JavaScript Cookies vs Local Storage vs Session Storage"
+    link: https://www.youtube.com/watch?v=GihQAC1I39Q
+  - type: YOUTUBE
+    title: "ProMaker Dev: Local Storage Explained In 10 min | Javascript"
+    link: https://www.youtube.com/watch?v=fYTTUBa-lPc
+  - type: YOUTUBE
+    title: "dcode: How to use Local Storage in JavaScript"
+    link: https://www.youtube.com/watch?v=k8yJCeuP6I8
+alura-contents:

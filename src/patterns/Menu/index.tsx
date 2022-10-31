@@ -39,7 +39,7 @@ export default function Menu() {
           frameBorder="0"
           scrolling="0"
           width="100"
-          height="20"
+          height="30"
           title="GitHub"
         />
         {/* TODO: Removed until v2 */}
