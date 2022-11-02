@@ -1,6 +1,43 @@
 import React from "react";
 import { Box, Link } from "@src/components";
 import { HomeGetAllGuidesQuery } from "@src/gql_types";
+import styled from "styled-components";
+
+const StyledBox = styled.li<any>`
+  display: flex;
+  flex: 0 0 calc(100% - 16px);
+  align-items: center;
+  height: 7.9706rem;
+  font-weight: 600;
+  border-radius: 14px;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  text-align: center;
+  margin-bottom: 0.5em;
+  font-size: 0.875rem;
+  background: linear-gradient(145.25deg, transparent 4.09%, transparent 81.45%);
+  position: relative;
+  &::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(145.25deg, #6affff 4.09%, #00aec9 81.45%);
+    box-shadow: 0px 11px 51px #127797;
+    border-radius: 14px;
+    cursor: pointer;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  &:hover {
+    &::after {
+      opacity: 1;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    flex: 0 0 calc(25% - 16px);
+  }
+`;
 
 interface GuidesGridProps {
   guides: HomeGetAllGuidesQuery["guides"];
@@ -17,6 +54,7 @@ export default function GuidesGrid({ guides }: GuidesGridProps) {
               textDecoration: "none",
               flex: "1",
               width: "100%",
+              height: "100%",
               justifyContent: "center",
               hover: { opacity: "1 !important" },
             }}
@@ -78,36 +116,5 @@ function ListOfGuides({ children }: { children: React.ReactNode }) {
 }
 
 function Guide({ children }: { children: React.ReactNode }) {
-  return (
-    <Box
-      tag="li"
-      styleSheet={{
-        display: "flex",
-        flex: {
-          xs: "0 0 calc(100% - 16px)",
-          md: "0 0 calc(25% - 16px)",
-        },
-        alignItems: "center",
-        height: "7.9706rem",
-        fontWeight: "600",
-        borderRadius: "14px",
-        boxShadow: "inset 0 0 0 1px #FFFFFF",
-        transition: "0.2s",
-        textAlign: "center",
-        marginBottom: "0.5em",
-        fontSize: "0.875rem",
-        background:
-          "linear-gradient(145.25deg, transparent 4.09%, transparent 81.45%)",
-        hover: {
-          background:
-            "linear-gradient(145.25deg, #6affff 4.09%, #00aec9 81.45%)",
-          boxShadow: "0px 11px 51px #127797",
-          borderRadius: "14px",
-          cursor: "pointer",
-        },
-      }}
-    >
-      {children}
-    </Box>
-  );
+  return <StyledBox>{children}</StyledBox>;
 }

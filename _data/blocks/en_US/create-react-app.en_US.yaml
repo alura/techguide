@@ -1,0 +1,31 @@
+name: Creating a React app
+logo: 
+short-description:
+key-objectives:
+  - Create React App is an officially supported way to create single-page React applications. It offers a modern build setup with no configuration.
+  - Structuring a new React project
+  - Creating a functional application from scratch
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Create React App Documentation - Getting Started"
+    link: https://create-react-app.dev/docs/getting-started
+  - type: SITE
+    title: "MDN Web Docs: Getting started with React - Setting up your first React app"
+    link: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#setting_up_your_first_react_app
+  - type: ARTICLE
+    title: "What does Create React App actually do for you?"
+    link: https://medium.com/rewrite-tech/what-does-create-react-app-actually-do-for-you-c7a9354acdc4
+  - type: ARTICLE
+    title: "How to set up a new Create React App project"
+    link: https://medium.com/@dimterion/how-to-set-up-a-new-create-react-app-project-2bfc2992aa16
+  - type: ARTICLE
+    title: "How to Build a React Project with Create React App in 10 Steps"
+    link: https://www.freecodecamp.org/news/how-to-build-a-react-project-with-create-react-app-in-10-steps/
+  - type: YOUTUBE
+    title: "CodeWithArjun: First React app using create-react-app | VS code | npx | npm"
+    link: https://www.youtube.com/watch?v=-ERWlp828kY
+  - type: YOUTUBE
+    title: "Create React App + Express server"
+    link: https://www.youtube.com/watch?v=TTZOoWfGjCo
+alura-contents:

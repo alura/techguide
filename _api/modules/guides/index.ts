@@ -40,6 +40,7 @@ const typeDefs = gql`
     limit: Int
     offset: Int
     filter: GuideFilters
+    locale: SiteLocale
   }
   input GuideInput {
     slug: String!
@@ -52,16 +53,22 @@ const typeDefs = gql`
 
 const resolvers: Resolvers = {
   Query: {
-    async guides(_, { input }) {
+    async guides(_, { input, locale }) {
       const guides = await guidesRepository().getAll({
-        input: gqlInput(input),
+        input: gqlInput({
+          ...input,
+          locale,
+        }),
       });
 
       return guides;
     },
-    async guide(_, { input }) {
+    async guide(_, { input, locale }) {
       const guide = await guidesRepository().getBySlug({
-        input: gqlInput(input),
+        input: gqlInput({
+          ...input,
+          locale,
+        }),
       });
       return guide;
     },
@@ -83,9 +90,12 @@ const resolvers: Resolvers = {
     },
   },
   GuideBlock: {
-    async item(parent) {
+    async item(parent, _, __, args) {
       return blocksRepository().getBySlug({
-        input: gqlInput({ slug: parent.item.slug }),
+        input: gqlInput({
+          slug: parent.item.slug,
+          locale: args.variableValues.locale,
+        }),
       });
     },
   },

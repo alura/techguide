@@ -4,16 +4,22 @@ import sift from "sift";
 import readYamlFile from "read-yaml-file/index";
 import { slugify } from "@src/infra/slugify";
 import { paginate } from "@src/infra/paginate";
-import { Guide, GuideInput, GuidesInput } from "@api/gql_types";
+import { Guide, GuideInput, GuidesInput, SiteLocale } from "@api/gql_types";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
+import { storage } from "@api/infra/storage";
 
 const ALLOW_LIST = [];
 
+const pathToGuideByLocale = {
+  [SiteLocale.PtBr]: path.resolve(".", "_data", "guides", "pt_BR"),
+  [SiteLocale.EnUs]: path.resolve(".", "_data", "guides", "en_US"),
+};
+
 export function guidesRepository() {
-  const pathToGuides = path.resolve(".", "_data", "guides");
   const repository = {
     async getAll({ input }: { input: GuidesInput }): Promise<Guide[]> {
-      const { filter = {}, offset, limit } = input;
+      const { filter = {}, offset, limit, locale } = input;
+      const pathToGuides = pathToGuideByLocale[locale];
 
       const guideFileNames = (await fs.readdir(pathToGuides)).filter(
         (fileName) => !ALLOW_LIST.includes(fileName)
@@ -21,10 +27,14 @@ export function guidesRepository() {
 
       const guides = await Promise.all<Guide>(
         guideFileNames.map(async (fileName) => {
+          const slug = slugify(fileName.replace(".yaml", ""));
+
+          const guideCache = await storage.get(`guide-${locale}-${slug}`);
+          if (guideCache) return guideCache;
+
           const fileContent = await readYamlFile<any>(
             path.resolve(pathToGuides, fileName)
           );
-          const slug = slugify(fileName.replace(".yaml", ""));
 
           return {
             ...fileContent,
@@ -80,6 +90,10 @@ export function guidesRepository() {
         })
       );
 
+      guides.forEach((guide) =>
+        storage.set(`guide-${locale}-${guide.slug}`, guide)
+      );
+
       const output = paginate<Guide>(
         guides.filter(sift(filter)),
         limit,
@@ -91,6 +105,7 @@ export function guidesRepository() {
     async getBySlug({ input }: { input: GuideInput }): Promise<Guide> {
       const guides = await repository.getAll({
         input: gqlInput<GuidesInput>({
+          ...input,
           filter: {
             slug: {
               eq: input.slug,

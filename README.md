@@ -7,7 +7,7 @@ O TechGuide.sh é uma iniciativa da Alura para mapear as  necessidades mais comu
 A gente se inspirou no também opensource http://roadmap.sh, porém usando a abordagem do profissional em T, abrindo mais possibilidades de caminhos e ordenação. Também queremos ter mais descritivos explicando o porquê de aprender cada um daqueles itens (cards) e fechar mais o escopo de cada um.
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/13791385/188493189-25068bf3-e14a-484f-a155-057f89fe8d9a.png" />
+   <img src="https://user-images.githubusercontent.com/13791385/190915091-0ef3f4ad-18bf-4b96-a2ca-0decf5d535ea.png" />
 </p>
 
 # FAQ/Perguntas Frequentes

@@ -1,0 +1,35 @@
+name: Redux Saga
+logo: 
+short-description:
+key-objectives:
+  - Redux Saga is a library that aims to make application side effects (i.e. asynchronous things like data fetching and impure things like accessing the browser cache) easier to manage, more efficient to execute, easy to test, and better at handling failures.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation: Redux Saga"
+    link: https://redux-saga.js.org/docs/introduction/GettingStarted
+  - type: ARTICLE
+    title: "What is Redux-Saga?"
+    link: https://www.javatpoint.com/what-is-redux-saga
+  - type: ARTICLE
+    title: "Understanding Redux Saga: From action creators to sagas"
+    link: https://blog.logrocket.com/understanding-redux-saga-action-creators-sagas/
+  - type: ARTICLE
+    title: "A high level introduction to Redux Saga"
+    link: https://www.loginradius.com/blog/engineering/introduction-to-redux-saga/
+  - type: ARTICLE
+    title: "React Redux Saga example app"
+    link: https://medium.com/@lavitron/make-your-first-call-to-api-using-redux-saga-15aa995df5b6
+  - type: ARTICLE
+    title: "Redux-Saga tutorial for beginners and dog lovers"
+    link: https://medium.com/hackernoon/redux-saga-tutorial-for-beginners-and-dog-lovers-aa69a17db645
+  - type: YOUTUBE
+    title: "ReactJS Hub: Introduction to Redux Saga and getting data from APIs"
+    link: https://www.youtube.com/watch?v=1K26DIKt3w8
+  - type: YOUTUBE
+    title: "EdRoh: Understanding Redux Saga with a simple API call Tutorial"
+    link: https://www.youtube.com/watch?v=eA6rskkE9y8
+  - type: YOUTUBE
+    title: "Duomly: How to implement redux saga with ReactJS and Redux - tutorial"
+    link: https://www.youtube.com/watch?v=1EVwGxXU84w
+alura-contents:

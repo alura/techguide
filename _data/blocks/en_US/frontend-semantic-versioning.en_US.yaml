@@ -1,0 +1,28 @@
+name: Front-end Semantic Versioning
+logo: 
+short-description:
+key-objectives:
+  - SemVer (Semantic Versioning) is a simple set of rules and requirements that dictate how version numbers are assigned and incremented.
+  - Organizing the dependencies of a project
+  - Avoiding the "dependency hell"
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation: Semantic Versioning"
+    link: https://semver.org/
+  - type: ARTICLE
+    title: "Semantic versioning for end-user applications"
+    link: https://uglow.medium.com/making-sense-of-semantic-versioning-for-end-user-software-applications-a3049d97478b
+  - type: ARTICLE
+    title: "Semantic versioning in npm"
+    link: https://javascript.plainenglish.io/semantic-versioning-in-npm-54d5b02c3536
+  - type: ARTICLE
+    title: "Semantic Versioning"
+    link: https://jwwnz.medium.com/semantic-versioning-f0ac90d7a0fe
+  - type: YOUTUBE
+    title: "Swashbuckling with Code: Understanding Semantic Versioning with Real World Examples"
+    link: https://www.youtube.com/watch?v=1zBzkT7QCmA
+  - type: YOUTUBE
+    title: "Steve Griffith - Prof3ssorSt3v3: Semantic Versioning with NPM"
+    link: https://www.youtube.com/watch?v=mpkC6MmKgsQ
+alura-contents:

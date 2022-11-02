@@ -1,0 +1,35 @@
+name: Cloud - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Cloud, or cloud computing, is the distribution of computing services over the Internet using a pay-as-you-go pricing model. A cloud is composed of various computing resources, ranging from the computers themselves (or instances, in cloud terminology) to networks, storage, databases, and everything around them. In other words, everything that is normally needed to set up the equivalent of a server room, or even a complete data center, will be ready to use, configured, and run.
+  - Knowing the difference between IaaS, PaaS and SaaS
+  - Knowing the largest cloud providers
+  - Specializing in a specific provider of your choice
+aditional-objectives:
+contents:
+ - type: SITE
+   title: "Microsoft Azure: What is cloud computing?"
+   link: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+ - type: SITE
+   title: "Amazon AWS: What is cloud computing?"
+   link: https://aws.amazon.com/en/what-is-cloud-computing/
+ - type: ARTICLE
+   title: "A beginner's guide to the basics of what cloud computing is about"
+   link: https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/
+ - type: ARTICLE
+   title: "Cloud Computing for Beginners"
+   link: https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/
+ - type: ARTICLE
+   title: "What are Cloud Computing Services [IaaS, CaaS, PaaS, FaaS, SaaS]"
+   link: https://medium.com/@nnilesh7756/what-are-cloud-computing-services-iaas-caas-paas-faas-saas-ac0f6022d36e
+ - type: YOUTUBE
+   title: "Simplilearn: Cloud Computing Tutorial for Beginners"
+   link: https://www.youtube.com/watch?v=RWgW-CgdIk0
+ - type: YOUTUBE
+   title: "Amazon Web Services: What is Cloud Computing? - Amazon Web Services"
+   link: https://www.youtube.com/watch?v=mxT233EdY5c
+ - type: YOUTUBE
+   title: "Ecourse Review: Cloud Computing Services Models - IaaS PaaS SaaS Explained"
+   link: https://www.youtube.com/watch?v=36zducUX16w/
+alura-contents:
