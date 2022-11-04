@@ -2,25 +2,31 @@ name: Babel - Fundamentals
 logo: 
 short-description:
 key-objectives:
-  - Compreender como Babel converte a sintaxe para JavaScript
+  - Babel is a JavaScript compiler. It is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Documentação: What is Babel? (inglês)"
+    title: "Documentation: What is Babel?"
     link: https://babeljs.io/docs/en/
   - type: ARTICLE
-    title: "O que é babel?"
-    link: https://coodesh.com/blog/dicionario/o-que-e-babel/
+    title: "Tutorial - Babel"
+    link: https://medium.com/@dustinhuang21/tutorial-babel-aaf3162797de
   - type: ARTICLE
-    title: "React e Babel — Como melhorar o desempenho de suas aplicações com plugins, presets e benchmark!"
-    link: https://medium.com/nossa-coletividad/react-e-babel-como-melhorar-o-desempenho-de-suas-aplica%C3%A7%C3%B5es-com-plugins-presets-e-benchmark-fb35700a52e9
+    title: "What are NPM, Yarn, Babel, and Webpack; and how to properly use them?"
+    link: https://medium.com/front-end-weekly/what-are-npm-yarn-babel-and-webpack-and-how-to-properly-use-them-d835a758f987
+  - type: ARTICLE
+    title: "A brief introduction to Babel.js"
+    link: https://medium.com/jspoint/how-to-quickly-transpile-javascript-using-babel-alone-a-brief-introduction-to-babel-js-40e74e43fe32
   - type: YOUTUBE
-    title: "Matheus Castiglioni: React, Babel e Webpack, o que é tudo isso?"
-    link: https://www.youtube.com/watch?v=y5B0MXmt428
+    title: "codedamn: What is Babel and why you need it? Introduction to Babel 7"
+    link: https://www.youtube.com/watch?v=yLrNwo4wXOs
   - type: YOUTUBE
-    title: "web3escola: Introdução ao React - Babel"
-    link: https://www.youtube.com/watch?v=jSGg2j2UNr4
+    title: "Strezabyte: Babel.js - What It Is, and How You Can Use It"
+    link: https://www.youtube.com/watch?v=C2PDAGCrk_g
+  - type: YOUTUBE
+    title: "Monsterlessons Academy: Getting Started With Babel - Transpiling Javascript"
+    link: https://www.youtube.com/watch?v=o9hmjdmJLMU
+  - type: YOUTUBE
+    title: "Daily Tuition: What is Use of Babel in React - React For Beginners"
+    link: https://www.youtube.com/watch?v=PUoFXd3b5CY
 alura-contents:
-  - type: COURSE
-    title: "Curso JavaScript: salvando dados localmente com IndexedDB"
-    link: https://www.alura.com.br/curso-online-javascript-es6-orientacao-a-objetos-parte-3
