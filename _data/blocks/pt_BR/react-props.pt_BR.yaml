@@ -2,6 +2,7 @@ name: React - Props
 logo: 
 short-description:
 key-objectives:
+  - Props são um objeto que é injetado em componentes e fornece alguns dados que podem ser compartilhados entre outros componentes em um fluxo de dados unidirecional, de um elemento pai para um elemento filho. Props são de somente leitura.
   - Como passar props
   - Como manipular props
 aditional-objectives:

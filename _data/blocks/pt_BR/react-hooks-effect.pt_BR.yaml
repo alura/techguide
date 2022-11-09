@@ -2,6 +2,7 @@ name: React Hooks - Effect
 logo: 
 short-description:
 key-objectives:
+  - UseEffect() é um hook React que permite que você manipule efeitos colaterais em seus componentes funcionais do React.
   - Executar um componente somente após a renderização
   - Acessar as props de um elemento
   - Fazer chamadas a APIs

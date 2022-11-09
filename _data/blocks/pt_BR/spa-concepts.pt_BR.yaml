@@ -2,6 +2,7 @@ name: Conceitos SPA
 logo: 
 short-description:
 key-objectives:
+  - Um aplicativo de página única (SPA - single-page application) é uma aplicação web ou site que interage com o usuário reescrevendo dinamicamente a página web atual com novos dados do servidor web, em vez do método padrão de um navegador que carrega novas páginas inteiras. O objetivo são transições mais rápidas, que tornam o site mais parecido com uma aplicação nativa.
   - Entender o que é uma SPA
   - Estabelecer rotas para outras páginas
   - Conhecer frameworks SPA

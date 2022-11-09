@@ -2,6 +2,7 @@ name: Contêineres
 logo: 
 short-description:
 key-objectives:
+  - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
   - Isolar seu software para funcionar independentemente
   - Implantar software em clusters
   - Modularizar seu sistema em pacotes menores

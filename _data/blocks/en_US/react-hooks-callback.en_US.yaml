@@ -2,7 +2,7 @@ name: React Hooks - Callback
 logo: 
 short-description:
 key-objectives:
-  - The React useCallback Hook returns a memoized callback function.
+  - The React `useCallback` Hook returns a memoized callback function.
   - Isolating resource intensive functions so that they will not automatically run on every render
 aditional-objectives:
 contents:

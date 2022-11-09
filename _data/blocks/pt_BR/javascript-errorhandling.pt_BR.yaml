@@ -2,6 +2,7 @@ name: JavaScript - Manipulação de Erros
 logo: 
 short-description:
 key-objectives:
+  - O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.
   - Conhecer e tratar as exceções mais comuns
   - Saber quais os tipos de erros e em quais situações eles podem ocorrer
   - Entender como o Node.js faz o manejo de erros

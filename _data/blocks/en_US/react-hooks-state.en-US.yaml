@@ -2,7 +2,8 @@ name: React Hooks - State
 logo: 
 short-description:
 key-objectives:
-  - The React useState Hook allows us to track state in a function component. The useState Hook can be used to keep track of strings, numbers, booleans, arrays, objects, etc.
+  - The React `useState` Hook allows us to track state in a function component. The `useState` Hook can be used to keep track of strings, numbers, booleans, arrays, objects, etc.
+  - Control the state of components
   - Manipulating variables
   - Updating an element or component
 aditional-objectives:

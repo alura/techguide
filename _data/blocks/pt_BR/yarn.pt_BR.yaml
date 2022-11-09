@@ -2,6 +2,7 @@ name: YARN
 logo: 
 short-description:
 key-objectives:
+  - Yarn é um gerenciador de pacotes para seu código. Ele permite que você use e compartilhe código com outros desenvolvedores. O código é compartilhado por meio de algo chamado pacote (às vezes chamado de módulo). Um pacote contém todo o código que está sendo compartilhado, bem como um arquivo package.json que descreve o pacote.
   - Gerenciar pacotes
   - Gerenciar dependências
   - Instalação de pacotes offline

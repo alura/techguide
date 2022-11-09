@@ -2,6 +2,7 @@ name: React Hooks - Ref
 logo: 
 short-description:
 key-objectives:
+  - O hook `useRef` permite que você persista valores entre renderizações.
   - Criar objetos mutáveis
 aditional-objectives:
 contents:

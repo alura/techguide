@@ -2,6 +2,7 @@ name: Redux Saga
 logo: 
 short-description:
 key-objectives:
+  - - Redux Saga é uma biblioteca que visa tornar os efeitos colaterais da aplicação (ou seja, coisas assíncronas, como busca de dados e coisas impuras, como acessar o cache do navegador) mais fáceis de gerenciar, mais eficientes de executar, fáceis de testar e melhores no tratamento de falhas.
   - Criar e manter chamadas assíncronas e efeitos
 aditional-objectives:
 contents:
