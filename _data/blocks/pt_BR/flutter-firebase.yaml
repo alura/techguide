@@ -1,0 +1,43 @@
+name: Flutter - Firebase
+logo: 
+short-description:
+key-objectives:
+  - Entender o que é o Firebase
+  - Entender como Instalar o Firebase no Flutter
+  - Conhecer a documentação do Firebase para o Flutter
+  - Conhecer as ferramentas do Firebase disponíveis para o Flutter
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Produtos do Firebase | Firebase"
+    link: https://firebase.google.com/products-build?hl=pt-br
+  - type: SITE
+    title: "Casos de Uso do Firebase | Firebase"
+    link: https://firebase.google.com/use-cases?hl=pt-br
+  - type: SITE
+    title: "Adicionando o Firebase ao App Flutter | Firebase Docs"
+    link: https://firebase.google.com/docs/flutter/setup?platform=android
+  - type: YOUTUBE
+    title: "Firebase: Começando no Firebase com Flutter - Firecasts (inglês)"
+    link: https://www.youtube.com/watch?v=EXp0gq9kGxI&ab_channel=Firebase
+  - type: YOUTUBE
+    title: "Prof. Diego Antunes: Instalação do Firebase no Flutter em 2022 (FlutterFire e Realtime Database)"
+    link: https://www.youtube.com/watch?v=OjdGSoDntZQ&ab_channel=Prof.DiegoAntunes
+  - type: SITE
+    title: "Precificação do Firebase | Firebase"
+    link: https://firebase.google.com/pricing?hl=pt-br    
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Primeiros passos em Cloud Firestore no Flutter (Parte 1) | #AluraMais"
+    link: https://youtu.be/6jsR5CXhHOs
+  - type: YOUTUBE
+    title: "Alura: Primeiros passos em Cloud Firestore no Flutter (Parte 2) | #AluraMais"
+    link: https://youtu.be/KWWTTY6gSw4
+  - type: YOUTUBE
+    title: "Alura: Registro de exceções no Firebase Crashlytics | #AluraMais"
+    link: https://www.youtube.com/watch?v=L0LjsG_eNyY&ab_channel=AluraCursosOnline
+  - type: COURSE
+    title: "Flutter: Push Notifications com Firebase Cloud Messaging"
+    link: https://www.alura.com.br/curso-online-flutter-push-notifications-firebase-cloud-messaging
+  # Em breve teremos uma formação Firebase com Flutter
+  
