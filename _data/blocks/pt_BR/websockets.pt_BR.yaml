@@ -2,6 +2,7 @@ name: WebSockets
 logo: 
 short-description:
 key-objectives:
+  - WebSocket é uma tecnologia que permite a comunicação bidirecional por canais full-duplex sobre um único soquete Transmission Control Protocol (TCP). Ele é projetado para ser executado em browsers e servidores web que suportem o HTML5, mas pode ser usado por qualquer cliente ou servidor de aplicativos.
   - Conhecer o protocolo WebSocket e seu uso na comunicação cliente-servidor
   - Aprender sobre os diversos usos do WebSocket na web
   - Criar aplicações que utilizam WebSockets com as APIs e bibliotecas do Node.js

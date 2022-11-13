@@ -2,6 +2,7 @@ name: Node.js - Autenticação e Tokens
 logo: 
 short-description:
 key-objectives:
+  - "O JWT é um método criado pelo padrão RFC 7519 que representa a comunicação segura entre duas partes. Esse token é composto por três partes: cabeçalho, carga útil e assinatura."
   - Construir um sistema de autenticação usando tokens
   - Entender o funcionamento do JSON Web Token (JWT)
   - Construir uma allowlist para guardar tokens opacos

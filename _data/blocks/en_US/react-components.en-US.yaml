@@ -2,7 +2,7 @@ name: React - Components
 logo: 
 short-description:
 key-objectives:
-  - React lets you define components as classes or functions. Components defined as classes provide more features which are described in detail on this page. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
+  - React lets you define components as classes or functions. Components defined as classes provide more features. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
   - Understanding how components work
   - Knowing the Styled Components library
   - Understanding the difference between class and functional components

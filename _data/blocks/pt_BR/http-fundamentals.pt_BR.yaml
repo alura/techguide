@@ -2,6 +2,7 @@ name: HTTP - Fundamentos
 logo: 
 short-description:
 key-objectives:
+  - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
   - Entender a diferença dos verbos HTTP
   - Testar os requests e ver os status codes no navegador
   - Saber fazer uma requisição HTTP na linha de comando com WGET

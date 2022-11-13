@@ -2,6 +2,7 @@ name: React Hooks - Callback
 logo: 
 short-description:
 key-objectives:
+  - O hook React `useCallback` retorna uma função de callback memoizadaizada.
   - Retornar uma versão memoizada do callback caso as entradas tenham sido alteradas
 aditional-objectives:
 contents:
@@ -18,3 +19,6 @@ contents:
     title: "Your Guide to React.useCallback() (inglês)"
     link: https://dmitripavlutin.com/dont-overuse-react-usecallback/
 alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Hook useCallback x useMemo - performance no React"
+    link: https://www.youtube.com/watch?v=VVmGrEZoBvM

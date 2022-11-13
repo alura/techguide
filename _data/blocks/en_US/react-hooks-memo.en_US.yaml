@@ -2,7 +2,7 @@ name: React Hooks - Memo
 logo: 
 short-description:
 key-objectives:
-  - The React useMemo Hook returns a memoized value. useMemo will only recompute the memoized value when one of the dependencies has changed.
+  - The React Hook `useMemo` returns a memoized value. `useMemo` will only recompute the memoized value when one of the dependencies has changed.
   - Controlling the state of external variables
   - Avoiding expensive calculations on every render
 aditional-objectives:

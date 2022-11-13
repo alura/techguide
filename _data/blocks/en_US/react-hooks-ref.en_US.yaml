@@ -2,7 +2,7 @@ name: React Hooks - Ref
 logo: 
 short-description:
 key-objectives:
-  - The useRef Hook allows you to persist values between renders.
+  - The `useRef` Hook allows you to persist values between renders.
   - Storing a mutable value that does not cause a re-render when updated
   - Accessing a DOM element directly
 aditional-objectives:

@@ -2,6 +2,7 @@ name: React Hooks - State
 logo: 
 short-description:
 key-objectives:
+  - O hook React `useState` nos permite rastrear o estado em um componente de função. O hook `useState` pode ser usado para acompanhar strings, números, booleanos, arrays, objetos, etc.
   - Controlar o estado de componentes
   - Manipular variáveis
   - Atualizar o valor de elementos

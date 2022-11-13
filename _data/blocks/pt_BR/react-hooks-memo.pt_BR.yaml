@@ -2,7 +2,9 @@ name: React Hooks - Memo
 logo: 
 short-description:
 key-objectives:
+  - O hook React `useMemo` retorna um valor memoizado. `useMemo` apenas recalculará o valor memoizado quando uma das dependências for alterada.
   - Controlar o estado de variáveis externas
+  - Evitar cálculos caros em cada renderização
 aditional-objectives:
 contents:
   - type: SITE
@@ -21,6 +23,9 @@ contents:
     title: "React Floripa: Os mitos sobre useMemo e useCallback"
     link: https://www.youtube.com/watch?v=ZntFz_DDakQ
 alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Hook useCallback x useMemo - performance no React"
+    link: https://www.youtube.com/watch?v=VVmGrEZoBvM
   - type: COURSE
     title: "Curso React: gerenciamento de estados globais com ContextAPI"
     link: https://cursos.alura.com.br/course/react-context-estados-globais-contextapi

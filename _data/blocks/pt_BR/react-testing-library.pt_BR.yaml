@@ -2,6 +2,7 @@ name: React Testing Library
 logo: 
 short-description:
 key-objectives:
+  - A React Testing Library se baseia na DOM Testing Library adicionando APIs para trabalhar com componentes React. É um conjunto de auxiliares que permitem testar componentes React sem depender de seus detalhes de implementação.
   - Testar componentes React
 aditional-objectives:
 contents:
