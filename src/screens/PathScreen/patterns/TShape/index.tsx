@@ -151,6 +151,35 @@ export default function TShape({ guide }: TShapeProps) {
           alignItems: "center",
         }}
       >
+        {/* <Link
+          href={`https://raw.githubusercontent.com/alura/techguide/main/_data/downloadFiles/pt_BR/${guide.slug}.md`}
+          styleSheet={{
+            marginTop: "23px",
+            width: "100%",
+            maxWidth: "400px",
+            display: "flex",
+            gap: "6px",
+            alignItems: "center",
+            justifyContent: "center",
+            flexDirection: "row",
+            borderRadius: "8px",
+            border: "1px solid #0052FF",
+            textDecoration: "none",
+            padding: "14px",
+            fontSize: "14px",
+            backgroundColor: "#0052FF",
+            hover: {
+              opacity: 1,
+              backgroundColor: "transparent",
+            },
+            focus: {
+              opacity: 1,
+              backgroundColor: "transparent",
+            },
+          }}
+        >
+          {i18n.content("TSHAPE.BUTTON.DOWNLOAD_T_FILE")}
+        </Link> */}
         <Link
           href="/"
           styleSheet={{
