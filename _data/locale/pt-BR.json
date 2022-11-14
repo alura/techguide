@@ -58,5 +58,34 @@
   "FOOTER.DESCRIPTION": "Desenvolva sua Carreira em &lt;T&gt; · Versão: ",
   "FOOTER.OPEN_SOURCE_CTA": "O Techguide.sh é um projeto open source, <Link href='https://github.com/alura/techguide' text='confira nosso README' />",
   "FOOTER.BRING_BY": "Trazido por",
+
+  "FAQ.GLOBAL": [
+    {
+      "title": "01 - O que é o TechGuide.sh?",
+      "answer":
+        "O TechGuide.sh é uma iniciativa da Alura para mapear as necessidades mais comuns em cada profissional de tecnologia, direcionando tanto alunos e alunas quanto a própria escola com novos cursos, conteúdos, podcasts e artigos. A gente se inspirou no também opensource <a href='http://roadmap.sh'>http://roadmap.sh</a>, porém usando a abordagem do profissional em T, abrindo mais possibilidades de caminhos e ordenação. Também queremos ter mais descritivos explicando o por quê de aprender cada um daqueles itens (cards) e fechar mais o escopo de cada um."
+    },
+    {
+      "title": "02 - O que é o profissional em T?",
+      "answer":
+        "É um profissional que, além da sua especialidade (parte profunda do T), também tem um certo conhecimento em outras áreas (laterais do T) que podem facilitar seu próprio trabalho ou o trabalho em equipe. No site do Dev em T da Alura há bastante a respeito, além de artigos e podcasts: <a href='https://alura.com.br/dev-em-t'>https://alura.com.br/dev-em-t</a>"
+    },
+    {
+      "title": "03 - Devo começar a estudar pela parte profunda ou horizontal do T?",
+      "answer":
+        "A nossa recomendação é que você se foque mais na parte profunda do T, mas sem deixar de lado as laterais também. A ordem de quando estudar o que é você quem vai decidir, mas queremos ser um guia para te ajudar a orientar essas escolhas."
+    },
+    {
+      "title": "04 - Posso sugerir novas carreiras?",
+      "answer":
+        "Sim! Use o mecanismo de contribuição do nossos repositório no <a href='https://github.com/alura/techguide'>Github</a>. Neste momento, estamos focados em corrigir erros e melhorar as carreiras existentes."
+    },
+    {
+      "title": "05 - Posso sugerir alterações ou correções?",
+      "answer":
+        "Sim! Contribuições são bem vindas. Para isso, use o mecanismo de contribuição do nossos repositório no <a href='https://github.com/alura/techguide'>Github</a>."
+    }
+  ],
+  "IMAGES.DISCOVER_IMAGE": "/assets/image/discover-illustration.svg",
   "DEMO":"DEMO"
 }

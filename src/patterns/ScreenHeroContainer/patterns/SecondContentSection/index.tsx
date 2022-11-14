@@ -181,7 +181,7 @@ export default function SecondContentSection() {
           }}
         >
           <Image
-            src="/assets/image/discover-illustration.svg"
+            src={i18n.content("IMAGES.DISCOVER_IMAGE")}
             alt="Descubra!"
             styleSheet={{
               width: {

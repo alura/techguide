@@ -13,6 +13,9 @@ export function useI18n() {
   const i18nKeys = React.useContext(I18nContext);
 
   return {
+    contentRaw(intlKey: string) {
+      return i18nKeys[intlKey];
+    },
     content<Output>(intlKey: string, intlKeyReplace?: I18nKeyReplace): Output {
       const isValidKey = i18nKeys && i18nKeys[intlKey];
 
