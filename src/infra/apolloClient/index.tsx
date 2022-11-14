@@ -11,6 +11,7 @@ import { concatPagination } from "@apollo/client/utilities";
 import merge from "deepmerge";
 import isEqual from "lodash/isEqual";
 import { apolloServer } from "@api/api";
+import fetchModule from "cross-fetch";
 export { gql } from "@apollo/client";
 
 export const APOLLO_STATE_PROP_NAME = "__APOLLO_STATE__";
@@ -31,6 +32,7 @@ const errorLink = onError(({ graphQLErrors, networkError }) => {
 
 const httpLink = new HttpLink({
   uri: "http://localhost:3000/api/graphql", // Server URL (must be absolute)
+  fetch: globalThis.fetch || fetchModule,
   credentials: "same-origin", // Additional fetch() options like `credentials` or `headers`
 });
 
