@@ -1,0 +1,164 @@
+# Node.js
+## Nivel 1
+- [ ] **Node.js - Fundamentos**:
+   - Node.js é um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem de forma autônoma, sem depender de um navegador.
+   - Conhecer e aprender mais sobre o Node.js, ambiente de execução do JavaScript fora no navegador
+   - Descobrir as possibilidades de desenvolvimento do Node.js e por que é tão utilizado
+   - Entender as partes principais do ecossistema Node.js e como usamos cada uma delas
+- [ ] **JavaScript - Callbacks e Promises**:
+   - Uma promessa (Promise) é um proxy para um valor não necessariamente conhecido quando a promessa é criada. Isso permite que métodos assíncronos retornem valores como métodos síncronos - em vez de retornar imediatamente o valor final, o método assíncrono retorna uma promessa de fornecer o valor em algum momento no futuro.
+   - Uma função de Callback é uma função passada para outra função como um argumento, que é então invocado dentro da função externa para completar algum tipo de rotina ou ação.
+   - Uma função assíncrona (async) é uma função declarada com a palavra-chave `async`, e a palavra-chave `await` é permitida dentro dela. As palavras-chave `async` e `await` permitem que o comportamento assíncrono e baseado em promessas seja escrito em um estilo mais limpo, evitando a necessidade de configurar explicitamente as cadeias de promessas.
+   - Entender o conceito de assincronicidade em programação
+   - Escrever código assíncrono entendendo o conceito de promessas em JavaScript
+   - Utilizar os métodos, palavras-chaves e objetos do JavaScript para manipulação de promessas como 'Async/Await', '.then()', 'Promise', etc
+   - Aprender em quais situações é necessário o uso de programação assíncrona
+   - Fazer chamadas em APIs com `fetch()`
+- [ ] **JavaScript - Manipulação de Erros**:
+   - O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.
+   - Conhecer e tratar as exceções mais comuns
+   - Saber quais os tipos de erros e em quais situações eles podem ocorrer
+   - Entender como o Node.js faz o manejo de erros
+   - Usar 'try' e 'catch' para tratamento de erros
+   - Em que ocasiões e de que forma utilizar o `throw`
+   - Criar exceções específicas de acordo com a necessidade de sua aplicação
+- [ ] **Conceitos de Orientação a Objetos**:
+   - A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
+   - Como funcionam objetos
+   - Criar e utilizar construtores
+   - O que são classes
+   - Criar e utilizar métodos
+   - Como funciona encapsulamento
+   - O que é herança
+   - O que é polimorfismo
+   - Como funcionam interfaces
+   - O que são abstrações
+- [ ] **Node.js - Testes**:
+   - O teste do software é a investigação do software a fim de fornecer informações sobre sua qualidade em relação ao contexto em que ele deve operar, se relaciona com o conceito de verificação e validação. Isso inclui o processo de utilizar o produto para encontrar seus defeitos.
+   - Aprender o que são testes unitários
+   - Aprender o que são testes de integração
+   - Trabalhar com frameworks de testes e suas ferramentas
+   - Criar mocks para seus testes
+   - Aprender os conceitos de BDD (Behavior-Driven Development) e TDD (Test-Driven Development)
+## Nivel 2
+- [ ] **SOLID**:
+   - O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
+   - Conhecer boas práticas no desenvolvimento de software
+- [ ] **Node.js - Express**:
+   - O Express é um framework de aplicações web Node.js flexível que fornece um conjunto robusto de recursos para aplicativos da web e mobile.
+   - Utilizar o framework Express para criação de APIs REST com Node.js
+   - Conhecer as diversas bibliotecas e frameworks do ecossistema Node.js para APIs
+- [ ] **Node.js - ORM**:
+   - Object-Relational Mapping (ORM), em português, mapeamento objeto-relacional, é uma técnica utilizada para fazer o mapeamento entre sistemas orientados a objetos e bancos de dados relacionais, onde as tabelas do banco de dados são representadas em classes e os registros das tabelas seriam instâncias dessas classes.
+   - Entender o que são ORMs e para que são utilizados
+   - Conhecer o SQL e seus gerenciadores de bancos de dados
+   - Trabalhar com o Sequelize, ORM para uso com Node.js
+   - Conhecer outros ORMs Node.js como Prisma
+- [ ] **Node.js - Autenticação e Tokens**:
+   - O JWT é um método criado pelo padrão RFC 7519 que representa a comunicação segura entre duas partes. Esse token é composto por três partes: cabeçalho, carga útil e assinatura.
+   - Construir um sistema de autenticação usando tokens
+   - Entender o funcionamento do JSON Web Token (JWT)
+   - Construir uma allowlist para guardar tokens opacos
+   - Implementar métodos de atualização de tokens
+- [ ] **TypeScript - Fundamentos**:
+   - TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript.
+   - Entender a fundo o que são tipos e a importância da tipagem
+   - Aprender o que é o TypeScript, por que foi criado, como ele funciona e sua relação com o JavaScript
+   - Conhecer as ferramentas do TypeScript (integração com o editor de código, verificador estático e compilador)
+   - Escrever código em TypeScript com suas ferramentas (interfaces, enum, decorators, etc)
+   - Desenvolver aplicações em TypeScript
+## Nivel 3
+- [ ] **Microsserviços**:
+   - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
+   - Aprender o conceito de arquitetura planejada para microsserviços
+   - Realizar a comunicação usando APIs
+   - Melhorar a escalabilidade de um sistema
+- [ ] **Nest.js - Fundamentos**:
+   - NestJS é um framework Node com total suporte a TypeScript e que roda sobre frameworks HTTP como expressJS ou Fastify. Ele utiliza diversos elementos de programação orientada a objetos e uma série de funcionalidades do TypeScript.
+   - Aprender o que é o NestJS e por que é utilizado
+   - Desenvolver APIs usando o NestJS
+   - Utilizar recursos específicos do NestJS
+- [ ] **WebSockets**:
+   - WebSocket é uma tecnologia que permite a comunicação bidirecional por canais full-duplex sobre um único soquete Transmission Control Protocol (TCP). Ele é projetado para ser executado em browsers e servidores web que suportem o HTML5, mas pode ser usado por qualquer cliente ou servidor de aplicativos.
+   - Conhecer o protocolo WebSocket e seu uso na comunicação cliente-servidor
+   - Aprender sobre os diversos usos do WebSocket na web
+   - Criar aplicações que utilizam WebSockets com as APIs e bibliotecas do Node.js
+- [ ] **GraphQL**:
+   - GraphQL é uma linguagem de consulta e manipulação de dados de código aberto para APIs. É considerada uma alternativa para arquiteturas REST.
+   - Aprender o que é GraphQL e por que foi criado
+   - Entender como o GraphQL é utilizado no desenvolvimento de APIs
+   - Criar APIs utilizando as bibliotecas e frameworks para GraphQL
+- [ ] **Apollo Client**:
+   - Apollo Client é uma biblioteca abrangente de gerenciamento de estado para JavaScript que permite gerenciar dados locais e remotos com o GraphQL.
+   - Utilizar o Apollo para criar um servidor GraphQL
+   - Conectar com uma API
+## Habilidade Auxiliar: Front-end 
+- [ ] **Git e GitHub - Fundamentos**:
+   - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
+   - GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.
+   - Criar um repositório
+   - Clonar um repositório
+   - Fazer commit, push e pull de e para o repositório
+   - Reverter um commit
+   - Criar branches e pul requests
+   - Lidar com merge e conflitos
+- [ ] **HTTP - Fundamentos**:
+   - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
+   - Entender a diferença dos verbos HTTP
+   - Testar os requests e ver os status codes no navegador
+   - Saber fazer uma requisição HTTP na linha de comando com WGET
+   - Baixar uma imagem com WGET
+   - Fazer um post
+- [ ] **Design Patterns**:
+   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
+   - Conhecer e aplicar os principais Design Patterns
+- [ ] **Linha de comando - Fundamentos**:
+   - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
+   - Conhecer os principais comandos
+- [ ] **Cloud - Fundamentos**:
+   - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
+   - Conhecer a diferença entre IaaS, PaaS e SaaS
+   - Conhecer os maiores provedores de cloud
+   - Especializar-se em algum provedor
+- [ ] **Contêineres**:
+   - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
+   - Isolar seu software para funcionar independentemente
+   - Implantar software em clusters
+   - Modularizar seu sistema em pacotes menores
+   - Conhecer a plataforma Docker
+   - Conhecer Kubernetes
+## Habilidade Auxiliar: Infraestrutura e boas práticas 
+- [ ] **Git e GitHub - Fundamentos**:
+   - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
+   - GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.
+   - Criar um repositório
+   - Clonar um repositório
+   - Fazer commit, push e pull de e para o repositório
+   - Reverter um commit
+   - Criar branches e pul requests
+   - Lidar com merge e conflitos
+- [ ] **HTTP - Fundamentos**:
+   - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
+   - Entender a diferença dos verbos HTTP
+   - Testar os requests e ver os status codes no navegador
+   - Saber fazer uma requisição HTTP na linha de comando com WGET
+   - Baixar uma imagem com WGET
+   - Fazer um post
+- [ ] **Design Patterns**:
+   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
+   - Conhecer e aplicar os principais Design Patterns
+- [ ] **Linha de comando - Fundamentos**:
+   - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
+   - Conhecer os principais comandos
+- [ ] **Cloud - Fundamentos**:
+   - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
+   - Conhecer a diferença entre IaaS, PaaS e SaaS
+   - Conhecer os maiores provedores de cloud
+   - Especializar-se em algum provedor
+- [ ] **Contêineres**:
+   - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
+   - Isolar seu software para funcionar independentemente
+   - Implantar software em clusters
+   - Modularizar seu sistema em pacotes menores
+   - Conhecer a plataforma Docker
+   - Conhecer Kubernetes

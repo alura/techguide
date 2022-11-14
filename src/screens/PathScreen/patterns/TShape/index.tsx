@@ -151,7 +151,7 @@ export default function TShape({ guide }: TShapeProps) {
           alignItems: "center",
         }}
       >
-        {/* <Link
+        <Link
           href={`https://raw.githubusercontent.com/alura/techguide/main/_data/downloadFiles/pt_BR/${guide.slug}.md`}
           styleSheet={{
             marginTop: "23px",
@@ -179,7 +179,7 @@ export default function TShape({ guide }: TShapeProps) {
           }}
         >
           {i18n.content("TSHAPE.BUTTON.DOWNLOAD_T_FILE")}
-        </Link> */}
+        </Link>
         <Link
           href="/"
           styleSheet={{
