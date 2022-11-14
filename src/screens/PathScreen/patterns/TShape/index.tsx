@@ -155,7 +155,7 @@ export default function TShape({ guide }: TShapeProps) {
         }}
       >
         <Link
-          href={`https://raw.githubusercontent.com/alura/techguide/main/_data/downloadFiles/pt_BR/${guide.slug}.md`}
+          href={`https://github.com/alura/techguide/blob/main/_data/downloadFiles/pt_BR/${guide.slug}.md`}
           styleSheet={{
             marginTop: "23px",
             width: "100%",
