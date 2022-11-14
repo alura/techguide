@@ -36,8 +36,8 @@ A gente se inspirou no também opensource http://roadmap.sh, porém usando a abo
 
 ### Próximos Passos?
 
-- [ ] Exportar o T para você poder trilhar seu caminho e contar suas histórias
-- [ ] Exportar o T para Google Docs em formato de roteiro de estudos
+- [X] Exportar o T para você poder trilhar seu caminho e contar suas histórias
+- [ ] Exportar o T em formato de roteiro de estudos
 - [ ] Suporte completo em Inglês
 
 ## History/Histórico
