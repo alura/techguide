@@ -124,9 +124,12 @@ export default function TShape({ guide }: TShapeProps) {
                           whiteSpace: "break-spaces",
                         }}
                       >
-                        Nivel {`${index + 1} `}
+                        {i18n.content("TSHAPE.DEPTH.LEVEL_NAME")}{" "}
+                        {`${index + 1} `}
                       </Text>
-                      <Text tag="span">de Profundidade</Text>
+                      <Text tag="span">
+                        {i18n.content("TSHAPE.DEPTH.LEVEL_SUFIX")}
+                      </Text>
                     </Box>
                     <TItemBlock
                       main

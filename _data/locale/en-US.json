@@ -49,11 +49,43 @@
   "PATH.T_BLOCK_SUGGESTED_CONTENT.CHALLENGE.BG": "#162639",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.CHALLENGE.COLOR": "#FFFFFF",
 
+  "TSHAPE.DEPTH.LEVEL_NAME": "Level",
+  "TSHAPE.DEPTH.LEVEL_SUFIX": "of depth",
+
   "TSHAPE.BUTTON.BACK_TO_HOME": "<Icon name='arrowLeft' /> Back to career selection",
   "TSHAPE.BUTTON.DOWNLOAD_T_FILE": "Download guide",
 
   "FOOTER.DESCRIPTION": "Develop your career in &lt;T&gt; · Version: ",
   "FOOTER.OPEN_SOURCE_CTA": "Techguide.sh is an open source project, <Link href='https://github.com/alura/techguide' text='check our README' />",
   "FOOTER.BRING_BY": "Brought to you by",
+
+  "FAQ.GLOBAL": [
+    {
+      "title": "01 - What is TechGuide.sh?",
+      "answer":
+        "TechGuide.sh is Alura's initiative to map the most common needs for different tech professionals, with the goal of guiding both students and the school itself, with new courses, content, podcasts and articles. We were inspired by the equally opensource <a href='http://roadmap.sh'>, but using the T-professional approach, opening more possibilities for paths and study order. We also want to have more descriptions, explaining why one should learn each of those items (cards) and better understanding their scope."
+    },
+    {
+      "title": "02 - What is a T-shaped Professional?",
+      "answer":
+        "They are professionals who, in addition to their specialty (deep part of the T), also have generalist knowledge in other areas (horizontal part of the T) that can facilitate their own work or working in a team."
+    },
+    {
+      "title": "03 - Should I start with the deep or the horizontal part of the T?",
+      "answer":
+        "Our recommendation is that you focus more on the deep part of the T, but don't neglect the horizontal part. The order of when to study what is up to you, but we want to be a guide to help you in these choices."
+    },
+    {
+      "title": "04 - Can I suggest new careers?",
+      "answer":
+        "Yes! Use our repository contribution mechanism on <a href='https://github.com/alura/techguide'>Github</a>. Right now, we are focusing on fixing bugs and improving existing careers."
+    },
+    {
+      "title": "05 - Can I suggest changes or corrections?",
+      "answer":
+        "Yes, contributions are welcome. To do so, use our repository contribution mechanism on <a href='https://github.com/alura/techguide'>Github</a>."
+    }
+  ],
+  "IMAGES.DISCOVER_IMAGE": "/assets/image/discover-illustration-en.svg",
   "DEMO":"DEMO"
 }
