@@ -13,6 +13,7 @@ const ALLOW_LIST = [];
 const pathToBlocksByLocale = {
   [SiteLocale.PtBr]: path.resolve(".", "_data", "blocks", "pt_BR"),
   [SiteLocale.EnUs]: path.resolve(".", "_data", "blocks", "en_US"),
+  [SiteLocale.Es]: path.resolve(".", "_data", "blocks", "es"),
 };
 
 export function blocksRepository() {

@@ -13,6 +13,7 @@ const ALLOW_LIST = [];
 const pathToGuideByLocale = {
   [SiteLocale.PtBr]: path.resolve(".", "_data", "guides", "pt_BR"),
   [SiteLocale.EnUs]: path.resolve(".", "_data", "guides", "en_US"),
+  [SiteLocale.Es]: path.resolve(".", "_data", "guides", "es"),
 };
 
 export function guidesRepository() {
