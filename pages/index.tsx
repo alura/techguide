@@ -16,8 +16,6 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     },
   });
 
-  console.log(data);
-
   return withLocaleContent(
     {
       props: {
