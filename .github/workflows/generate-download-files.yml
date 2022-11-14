@@ -1,3 +1,4 @@
+name: Bot - Generate download files
 on:
   pull_request:
     types: [opened, synchronize]
