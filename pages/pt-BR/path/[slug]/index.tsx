@@ -28,6 +28,7 @@ export const getStaticProps = async ({ params, ...ctx }: any) => {
       props: {
         ...data,
         pageTitle: data?.guide?.name,
+        locale,
       },
     },
     locale
