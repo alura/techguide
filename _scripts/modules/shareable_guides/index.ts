@@ -25,12 +25,16 @@ export async function main() {
       const { slug, name } = guide;
 
       const filePath = path.resolve(
-        ".",
+        __dirname,
+        "..",
+        "..",
+        "..",
         "_data",
         "downloadFiles",
         locale,
         `${slug}`
       );
+      log(filePath);
 
       const { data } = await apolloClient.query({
         query: PathScreenGetGuideBySlugDocument,

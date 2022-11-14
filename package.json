@@ -15,8 +15,8 @@
     "generate:types": "yarn generate:types:back && yarn generate:types:front",
     "generate:types:back": "graphql-codegen --config codegen.yml",
     "generate:types:front": "graphql-codegen --config codegen-front.yml",
-    "scripts:create:shareable_guides:dev": "nodemon -e ts --exec \"yarn scripts:create:shareable_guides\"",
-    "scripts:create:shareable_guides": "ts-node -r tsconfig-paths/register ./_scripts/modules/shareable_guides/index.ts"
+    "scripts:create:shareable_guides:dev": "echo $PWD && nodemon -e ts --exec \"yarn scripts:create:shareable_guides\"",
+    "scripts:create:shareable_guides": "echo $PWD && ts-node -r tsconfig-paths/register ./_scripts/modules/shareable_guides/index.ts"
   },
   "dependencies": {
     "@apollo/client": "^3.6.9",
