@@ -12,13 +12,11 @@ expertise:
         priority: 10
       - python-collections:
         priority: 9
-  - name: Python Mid
-    blocks:
       - python-testing:
         priority: 9
+  - name: Python Mid
+    blocks:
       - flask:
-        priority: 8
-      - design-patterns:
         priority: 8
       - python-mixins:
         priority: 8
@@ -28,6 +26,8 @@ expertise:
         priority: 8
       - django-rest-framework:
         priority: 6
+      - design-patterns:
+        priority: 8
   - name: Python in depth
     blocks:
       - python-static-typing:
@@ -68,6 +68,3 @@ collaboration:
         priority: 7
       - javascript-fundamentals:
         priority: 5
-      - seo-strategies:
-        priority: 5
-        optional: true

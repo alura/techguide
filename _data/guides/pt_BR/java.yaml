@@ -10,12 +10,12 @@ expertise:
         priority: 10
       - java-collections:
         priority: 9
+      - java-testing:
+        priority: 9
       - java-packages:
         priority: 8
       - java-memory-management:
         priority: 7
-      - java-concurrency:
-        priority: 8
       - java-persistence:
         priority: 9
   - name: Java Back-end Mid
@@ -26,7 +26,7 @@ expertise:
         priority: 9
       - java-build-tools:
         priority: 8
-      - java-testing:
+      - java-concurrency:
         priority: 8
       - java-serialization:
         priority: 6
@@ -36,17 +36,13 @@ expertise:
         priority: 7      
   - name: Java Back-end in depth
     blocks:
-      - containers:
-        priority: 7
-      - java-spring-boot:
-        priority: 7
       - data-structures:
         priority: 8
-      - design-patterns:
+      - java-spring-boot:
         priority: 7
-      - solid:
+      - containers:
         priority: 7
-      - clean-architecture:
+      - microservices:
         priority: 7
       - reflection-and-attributes:
         priority: 5
@@ -77,10 +73,14 @@ collaboration:
       - cloud-fundamentals: 
         priority: 6
         optional: true
-      - microservices:
-        priority: 7
       - sql-fundamentals:
         priority: 9
+      - solid:
+        priority: 7
+      - clean-architecture:
+        priority: 7
+      - design-patterns:
+        priority: 7
   - name: Front-end
     blocks:
       - html-fundamentals:

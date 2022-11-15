@@ -39,21 +39,6 @@ expertise:
         priority: 6
         optional: true
 collaboration:
-  - name: Front-end
-    blocks:
-      - javascript-fundamentals:
-        priority: 10
-      - html-fundamentals:
-        priority: 10
-      - css-fundamentals:
-        priority: 9
-      - dom-fundamentals:
-        priority: 8
-      - javascript-accessibility:
-        priority: 7
-      - seo-strategies:
-        priority: 6
-        optional: true
   - name: Infraestrutura e boas práticas
     blocks:
       - git-and-github-fundamentals:
@@ -68,5 +53,20 @@ collaboration:
         priority: 6
         optional: true
       - containers:
+        priority: 6
+        optional: true
+  - name: Front-end
+    blocks:
+      - javascript-fundamentals:
+        priority: 10
+      - html-fundamentals:
+        priority: 10
+      - css-fundamentals:
+        priority: 9
+      - dom-fundamentals:
+        priority: 8
+      - javascript-accessibility:
+        priority: 7
+      - seo-strategies:
         priority: 6
         optional: true
