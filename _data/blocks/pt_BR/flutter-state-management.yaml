@@ -2,6 +2,7 @@ name: Flutter - Gerenciamento de Estados
 logo: 
 short-description:
 key-objectives:
+  - Em Flutter, 'estado' (state) são os dados que você precisa para reconstruir sua UI a qualquer momento. Quando estes dados mudarem, isso desencadeará um redesenho da interface do usuário.
   - Entender o que é Gerenciamento de Estados
   - Conhecer e saber usar o Provider
   - Conhecer as demais opções de Gerenciamentos de Estados no Flutter
@@ -19,7 +20,7 @@ contents:
   - type: ARTICLE
     title: "O que aprendi utilizando as gerências de estado do Flutter"
     link: https://medium.com/flutter-comunidade-br/o-que-aprendi-utilizando-as-ger%C3%AAncias-de-estado-do-flutter-8f8f2bc7911c  
-  - type: ARTICLE
+  - type: SITE
     title: "Opções de Ferramentas para Gerenciamento de Estados | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/data-and-backend/state-mgmt/options
   - type: YOUTUBE

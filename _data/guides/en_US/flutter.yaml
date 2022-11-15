@@ -55,7 +55,7 @@ expertise:
         priority: 5
         optional: true   
 collaboration:
-  - name: Infraestrutura e Back-end
+  - name: Infrastructure and Back-end
     blocks:
       - git-and-github-fundamentals:
         priority: 10
@@ -80,7 +80,7 @@ collaboration:
     #  - ci-cd:
     #    priority: 6
     #    optional: true
-  - name: UX e Design
+  - name: UX and Design
     blocks:
       - design-systems:
         priority: 4

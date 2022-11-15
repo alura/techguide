@@ -1,0 +1,36 @@
+name: Dart - Asynchronous
+logo: 
+short-description:
+key-objectives:
+  - Asynchronous operations let your program complete work while waiting for another operation to finish.
+  - Understanding what asynchronism is
+  - Learning how to use the `async`, `await` and `future` expressions in Dart
+  - Understanding Future's `then` and `catchError` methods in Dart
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Asynchrony support | Dart Language Tour"
+    link: https://dart.dev/guides/language/language-tour#asynchrony-support
+  - type: ARTICLE
+    title: "Asynchronous programming: futures, async, await"
+    link: https://dart.dev/codelabs/async-await
+  - type: ARTICLE
+    title: "Asynchronous programming: Streams"
+    link: https://dart.dev/tutorials/language/streams
+  - type: ARTICLE
+    title: "Concurrency in Dart"
+    link: https://dart.dev/guides/language/concurrency
+  - type: ARTICLE
+    title: "Flutter Future Tutorial — Asynchronous Dart Programming"
+    link: https://thinkdiff.net/flutter-future-tutorial-asynchronous-dart-programming-a0c989c0f612
+  - type: ARTICLE
+    title: "When to use async, await, then and Future in Dart?"
+    link: https://jelenaaa.medium.com/when-to-use-async-await-then-and-future-in-dart-5e00e64ab9b1
+  - type: ARTICLE
+    title: "Dart asynchronous programming: Futures"
+    link: https://medium.com/dartlang/dart-asynchronous-programming-futures-96937f831137
+  - type: YOUTUBE
+    title: "Flutter: Advanced Dart (Playlist)"
+    link: https://www.youtube.com/playlist?list=PLjxrf2q8roU0Net_g1NT5_vOO3s_FR02J
+alura-contents:
+    

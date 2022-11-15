@@ -2,31 +2,32 @@ name: Flutter - Comunicação com APIs
 logo: 
 short-description:
 key-objectives:
+  - Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.
   - Entender o que é uma API REST
   - Conhecer os comandos básicos de comunicação HTTP
   - Saber usar as ferramentas do pacote `http` do Dart
   - Saber fazer requisições autenticadas para Web APIs
 aditional-objectives:
 contents:
-  - type: ARTICLE
+  - type: SITE
     title: "O que é API REST?"
     link: https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api
-  - type: ARTICLE
+  - type: SITE
     title: "JSON e Serialização | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/data-and-backend/json
   - type: SITE
     title: "Página do Pacote http - pub.dev (inglês)"
     link: https://pub.dev/packages/http
-  - type: ARTICLE
+  - type: SITE
     title: "Obtendo dados da internet | Flutter Cookbook (inglês)"
     link: https://docs.flutter.dev/cookbook/networking/fetch-data
-  - type: ARTICLE
+  - type: SITE
     title: "Fazendo requisições autenticadas | Flutter Cookbook (inglês)"
     link: https://docs.flutter.dev/cookbook/networking/authenticated-requests
-  - type: ARTICLE
+  - type: SITE
     title: "Enviando dados para internet | Flutter Cookbook (inglês)"
     link: https://docs.flutter.dev/cookbook/networking/send-data
-  - type: ARTICLE
+  - type: SITE
     title: "Removendo dados na internet | Flutter Cookbook (inglês)"
     link: https://docs.flutter.dev/cookbook/networking/delete-data
   - type: YOUTUBE

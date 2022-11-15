@@ -1,0 +1,37 @@
+name: Flutter - Debugging
+logo: 
+short-description:
+key-objectives:
+  - Debugging is the process of finding and resolving bugs (defects or problems that prevent correct operation) within computer programs, software, or systems.
+  - Learning debugging techniques and tools in Flutter
+  - Learning how to debug Dart and Flutter code
+  - Learning about Dart DevTools
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Debugging Flutter apps"
+    link: https://docs.flutter.dev/testing/debugging
+  - type: YOUTUBE
+    title: "Bleyl Dev: Flutter Debugging 101"
+    link: https://www.youtube.com/watch?v=Z0_bCYlgZlw
+  - type: SITE
+    title: "Debugging Flutter apps programmatically"
+    link: https://docs.flutter.dev/testing/code-debugging
+  - type: SITE
+    title: "Using an OEM debugger"
+    link: https://docs.flutter.dev/testing/oem-debuggers  
+  - type: YOUTUBE
+    title: "Flutter: Debug properties | Decoding Flutter"
+    link: https://youtu.be/DnC7eT-vh1k
+  - type: YOUTUBE
+    title: "Flutter: Debug and profile your app with Flutter DevTools | Demo"
+    link: https://youtu.be/J7s5bu49k3U
+  - type: SITE
+    title: "Dart DevTools"
+    link: https://dart.dev/tools/dart-devtools 
+  - type: YOUTUBE
+    title: "Flutter: Dart DevTools"
+    link: https://youtu.be/nq43mP7hjAE
+alura-contents:
+
+  

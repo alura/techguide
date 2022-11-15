@@ -1,12 +1,10 @@
-name: Dart - Assincronismo e Exceções
+name: Dart Assíncrono
 logo: 
 short-description:
 key-objectives:
+  - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
   - Entender o que é assincronismo
   - Saber usar as expressões `async`, `await` e `future` no Dart
-  - Entender os métodos `then` e `catchError` do Future no Dart
-  - Entender o que são erros e exceções no Dart
-  - Conhecer e saber usar a estrutura `try-on-catch-finally`
 aditional-objectives:
 contents:
   - type: SITE
@@ -31,10 +29,7 @@ contents:
     title: "Flutter: Playlist Dart Avançado (inglês)"
     link: https://www.youtube.com/playlist?list=PLjxrf2q8roU0Net_g1NT5_vOO3s_FR02J
 alura-contents:
-  - type: SITE
-    title: "Primeiras aulas do curso Dart: lidando com Exceptions e Null Safety"
-    link: https://www.alura.com.br/conteudo/dart-lidando-exceptions-null-safety
   - type: COURSE
-    title: "Dart: lidando com Exceptions e Null Safety"
-    link: https://cursos.alura.com.br/course/dart-lidando-exceptions-null-safety 
+    title: "Curso Persistência com Flutter: crie um app com armazenamento interno"
+    link: https://cursos.alura.com.br/course/dart-lidando-exceptions-null-safety
     

@@ -1,0 +1,38 @@
+name: Dart - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Dart is a client-optimized language for developing fast apps on any platform. Its goal is to offer the most productive programming language for multi-platform development, paired with a flexible execution runtime platform for app frameworks.
+  - Installing and configuring Dart
+  - Learning the Dart keywords
+  - Building terminal applications using Dart
+  - Understanding how dynamism works in Dart
+  - Understanding and learning how to use Null Safety in Dart
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Beginning with Dart"
+    link: https://dart.dev/get-dart
+  - type: SITE
+    title: "A tour of the Dart language"
+    link: https://dart.dev/guides/language/language-tour
+  - type: SITE
+    title: "The Dart type system"
+    link: https://dart.dev/guides/language/type-system
+  - type: SITE
+    title: "Understanding null safety"
+    link: https://dart.dev/null-safety/understanding-null-safety
+  - type: ARTICLE
+    title: "Why Flutter Uses Dart"
+    link: https://medium.com/hackernoon/why-flutter-uses-dart-dd635a054ebf
+  - type: ARTICLE
+    title: "Dart for JavaScript Programmers"
+    link: https://medium.com/flutter-community/dart-for-javascript-programmers-24c905aadf6
+  - type: YOUTUBE
+    title: "Fireship: Dart in 100 Seconds"
+    link: https://www.youtube.com/watch?v=NrO0CJCbYLA
+  - type: YOUTUBE
+    title: "Mike Dane: Dart Programming in 4 hours | Full beginners tutorial"
+    link: https://www.youtube.com/watch?v=5xlVP04905w
+alura-contents:
+  

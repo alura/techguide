@@ -2,17 +2,18 @@ name: Flutter - Pacotes Essenciais
 logo: 
 short-description:
 key-objectives:
+  - O Flutter suporta o uso de pacotes compartilhados contribuídos por outros desenvolvedores para os ecossistemas Flutter e Dart. Isto permite construir rapidamente um aplicativo sem ter que desenvolver tudo do zero.
   - Conhecer e saber utilizar a plataforma pub.dev
   - Conhecer os principais pacotes do Flutter
 aditional-objectives:
 contents:
-  - type: ARTICLE
+  - type: SITE
     title: "Usando pacotes e plugins | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/packages-and-plugins/using-packages
   - type: SITE
     title: "Repositório de Pacotes Dart e Flutter | pub.dev (inglês)"
     link: https://pub.dev/
-  - type: ARTICLE
+  - type: SITE
     title: "Pontuação dos Pacotes | pub.dev (inglês)"
     link: https://pub.dev/help/scoring
   - type: SITE
