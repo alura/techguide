@@ -22,6 +22,8 @@ expertise:
         priority: 9
       - wpf:
         priority: 8
+      - data-structures:
+        priority: 8
   - name: C# Back-end Mid
     blocks:
       - clr:
@@ -43,8 +45,6 @@ expertise:
         optional: true
   - name: C# Back-end in depth
     blocks:
-      - data-structures:
-        priority: 8
       - csharp-delegates-and-events:
         priority: 8
       - csharp-anonymous-methods-and-lambda-expressions:
@@ -60,7 +60,7 @@ expertise:
         priority: 4
         optional: true
 collaboration:
-  - name: Infraestrutura e boas práticas
+  - name: Infraestrutura
     blocks:
       - git-and-github-fundamentals:
         priority: 9
@@ -73,6 +73,10 @@ collaboration:
       - cloud-fundamentals: 
         priority: 6
         optional: true
+      - sql-fundamentals:
+        priority: 9
+  - name: Boas práticas
+    blocks:
       - solid:
         priority: 7
       - clean-code:
@@ -81,16 +85,6 @@ collaboration:
         priority: 7
       - clean-architecture:
         priority: 7
-      - sql-fundamentals:
-        priority: 9
       - ddd-concepts:
         priority: 8
-  - name: Front-end
-    blocks:
-      - html-fundamentals:
-        priority: 6
-      - javascript-fundamentals:
-        priority: 4
-        optional: true
-      - css-fundamentals:
-        priority: 5
+        
