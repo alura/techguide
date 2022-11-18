@@ -47,9 +47,6 @@ expertise:
       - typescript-fundamentals:
         priority: 5
         optional: true
-      - yarn:
-        optional: true
-        priority: 6
       - react-testing-library:
         priority: 8
       - jest:
@@ -103,12 +100,12 @@ collaboration:
         priority: 8
       - command-line-fundamentals: 
         priority: 8
-      - babel-fundamentals:
-        optional: true
-        priority: 3
       - cloud-fundamentals: 
         priority: 6
         optional: true
+      - yarn:
+        optional: true
+        priority: 6
   - name: UX e Design
     blocks:
       - design-systems:
