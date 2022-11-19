@@ -20,7 +20,7 @@ jobs:
     - name: Call Script
       run: |
         echo "[START]"
-        ls -la ./_data/downloadFiles/EN_US
+        ls -la ./_data/
         yarn install
         yarn scripts:create:shareable_guides
         echo "[END]"
