@@ -20,9 +20,9 @@ jobs:
     - name: Call Script
       run: |
         echo "[START]"
+        ls -la ./
         yarn install
         yarn scripts:create:shareable_guides
-        ls -la ./
         echo "[END]"
         git add .
         git commit -m "docs: update downloadable files" || echo "Up to date with main"
