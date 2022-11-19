@@ -29,5 +29,5 @@ jobs:
         echo "[END]"
         git add .
         git commit -m "docs: update downloadable files" || echo "Up to date with main"
-        git push origin HEAD
+        git push origin main
         echo "[END]"
