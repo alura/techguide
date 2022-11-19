@@ -9,6 +9,8 @@ permissions: write-all
 
 env: 
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  COMMIT_USERNAME: "CI Bot - DevSoutinho"
+  COMMIT_EMAIL: "13791385+omariosouto@users.noreply.github.com"
 
 jobs:
   generate_downloadable_files:
@@ -20,7 +22,8 @@ jobs:
     - name: Call Script
       run: |
         echo "[START]"
-        ls -la ./_data/downloadFiles
+        git config --global user.name "${{ env.COMMIT_USERNAME }}"
+        git config --global user.email ${{ env.COMMIT_EMAIL }}
         yarn install
         yarn scripts:create:shareable_guides
         echo "[END]"
