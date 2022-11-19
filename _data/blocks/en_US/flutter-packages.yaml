@@ -1,0 +1,41 @@
+name: Flutter - Essential Packages
+logo: 
+short-description:
+key-objectives:
+  - Flutter supports using shared packages contributed by other developers to the Flutter and Dart ecosystems. This allows quickly building an app without having to develop everything from scratch.
+  - Learning how to use the pub.dev platform
+  - Learning about the main Flutter packages
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Using packages"
+    link: https://docs.flutter.dev/development/packages-and-plugins/using-packages
+  - type: SITE
+    title: "Dart and Flutter package repository | pub.dev"
+    link: https://pub.dev/
+  - type: SITE
+    title: "Package scores & pub points"
+    link: https://pub.dev/help/scoring
+  - type: SITE
+    title: "Flutter favorites"
+    link: https://pub.dev/packages?q=is%3Aflutter-favorite
+  - type: SITE
+    title: "Popular packages"
+    link: https://pub.dev/packages?sort=popularity
+  - type: ARTICLE
+    title: "The 7 Flutter Packages I Can’t Live Without"
+    link: https://levelup.gitconnected.com/the-7-flutter-packages-i-cant-live-without-9c18ac8540bd
+  - type: ARTICLE
+    title: "Flutter packages which I use in every project"
+    link: https://medium.com/@dawletataoglu/flutter-packages-which-i-use-in-every-project-d8bf14c43622
+  - type: ARTICLE
+    title: "5 Tools/Packages for Productive Flutter Development"
+    link: https://medium.com/flutter-community/5-flutter-packages-tools-for-faster-more-productive-project-development-f8adbac05616
+  - type: YOUTUBE
+    title: "Robert Brunhage: The Ultimate Flutter Starter Packages"
+    link: https://www.youtube.com/watch?v=zk-TkfPr3Z0
+  - type: YOUTUBE
+    title: "Flutter: Package of the Week (Playlist)"
+    link: https://www.youtube.com/playlist?list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK
+alura-contents:
+  

@@ -1,0 +1,36 @@
+name: Flutter - State Management
+logo: 
+short-description:
+key-objectives:
+  - In Flutter, 'state' is whatever data you need in order to rebuild your UI at any moment in time. When this data change, it will trigger a redraw of the user interface.
+  - Understanding State Management
+  - Learning how to use the Provider
+  - Learning about other State Management options in Flutter
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "State management"
+    link: https://docs.flutter.dev/development/data-and-backend/state-mgmt/intro
+  - type: ARTICLE
+    title: "A List of state management approaches in Flutter"
+    link: https://medium.com/flutter-community/a-list-of-state-management-approaches-in-flutter-1481ba522a51
+  - type: ARTICLE
+    title: "Google's Recommended Flutter State Management"
+    link: https://fredgrott.medium.com/googles-recommended-flutter-state-management-60d2803dbe81
+  - type: ARTICLE
+    title: "Flutter StateManagement with Provider"
+    link: https://medium.com/flutter-community/flutter-statemanagement-with-provider-ee251bbc5ac1 
+  - type: SITE
+    title: "List of state management approaches"
+    link: https://docs.flutter.dev/development/data-and-backend/state-mgmt/options
+  - type: YOUTUBE
+    title: "Fireship: Flutter State Management - The Grand Tour"
+    link: https://www.youtube.com/watch?v=3tm-R7ymwhc
+  - type: YOUTUBE
+    title: "Codrut Erdei: State Management! Flutter What's next?"
+    link: https://www.youtube.com/watch?v=Ct9cOiuR_dY
+  - type: YOUTUBE
+    title: "Flutter: Pragmatic State Management Using Provider"
+    link: https://www.youtube.com/watch?v=HrBiNHEqSYU&ab_channel=Flutter
+alura-contents:
+  

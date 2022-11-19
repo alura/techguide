@@ -7,50 +7,50 @@ key-objectives:
 aditional-objectives:
 contents:
   # Android
-  - type: ARTICLE
-    title: "Hospedando Views nativas do Android em seu aplicativo Flutter com visualizações de plataforma - Integração Android | Flutter Docs (inglês)"
+  - type: SITE
+    title: "Android: Hospedando Views nativas do Android em seu aplicativo Flutter com visualizações de plataforma - Integração Android | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/platform-integration/android/platform-views
-  - type: ARTICLE
-    title: "API de Migração - Integração Android | Flutter Docs (inglês)"
+  - type: SITE
+    title: "Android: API de Migração - Integração Android | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/platform-integration/android/plugin-api-migration
-  - type: ARTICLE
-    title: "Migração para Android X - Integração Android | Flutter Docs (inglês)"
+  - type: SITE
+    title: "Android: Migração para Android X - Integração Android | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/platform-integration/android/androidx-migration
-  - type: ARTICLE
-    title: "Migração da Splash Screen - Integração Android | Flutter Docs (inglês)"
+  - type: SITE
+    title: "Android: Migração da Splash Screen - Integração Android | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/platform-integration/android/splash-screen-migration
 
   # iOS
-  - type: ARTICLE
-    title: "Usando o Cupertino | Flutter Docs (inglês)"
+  - type: SITE
+    title: "iOS: Usando o Cupertino | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/ui/widgets/cupertino
-  - type: ARTICLE
-    title: "Veggie Seasons - iOS com Flutter (inglês)"
+  - type: SITE
+    title: "iOS: Veggie Seasons - iOS com Flutter (inglês)"
     link: https://github.com/flutter/samples/tree/main/veggieseasons
   - type: YOUTUBE
-    title: "Criando para iOS com Flutter (Google I/O'19) (inglês)"
+    title: "iOS: Criando para iOS com Flutter (Google I/O'19) (inglês)"
     link: https://www.youtube.com/watch?v=ZBJa-xjZl3w&ab_channel=Flutter
-  - type: ARTICLE
-    title: "iOS App Clip | Flutter Docs (inglês)"
+  - type: SITE
+    title: "iOS: iOS App Clip | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/platform-integration/ios/ios-app-clip
-  - type: ARTICLE
-    title: "Hospedando Views nativas do iOS em seu aplicativo Flutter com visualizações de plataforma | Flutter Docs (inglês)"
+  - type: SITE
+    title: "iOS: Hospedando Views nativas do iOS em seu aplicativo Flutter com visualizações de plataforma | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/platform-integration/ios/platform-views
   
   # Nativos e Plugins
-  - type: ARTICLE
+  - type: SITE
     title: "Escrevendo código para uma plataforma específica | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/platform-integration/platform-channels  
-  - type: ARTICLE
+  - type: SITE
     title: "Interoperabilidade do C | Dart Guides (inglês)"
     link: https://dart.dev/guides/libraries/c-interop  
-  - type: ARTICLE
+  - type: SITE
     title: "Interoperabilidade do JavaScript | Dart Guides (inglês)"
     link: https://dart.dev/web/js-interop
-  - type: ARTICLE
+  - type: SITE
     title: "Interoperabilidade do C para Android | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/platform-integration/android/c-interop  
-  - type: ARTICLE
+  - type: SITE
     title: "Interoperabilidade do C para iOS | Flutter Docs (inglês)"
     link: https://docs.flutter.dev/development/platform-integration/ios/c-interop
 alura-contents:

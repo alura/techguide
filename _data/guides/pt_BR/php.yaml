@@ -33,29 +33,14 @@ expertise:
         priority: 8
       - php-functional:
         priority: 7
-      - solid:
-        priority: 7
-      - design-patterns:
-        priority: 7
-      - clean-architecture:
-        priority: 7
       - object-calisthenics:
+        priority: 7
+      - containers:
         priority: 7
       - reflection-and-attributes:
         priority: 5
         optional: true
 collaboration:
-  - name: Front-end
-    blocks:
-      - html-fundamentals:
-        priority: 10
-      - css-fundamentals:
-        priority: 9
-      - javascript-fundamentals:
-        priority: 8
-      - seo-strategies:
-        priority: 6
-        optional: true
   - name: Infraestrutura e boas práticas
     blocks:
       - git-and-github-fundamentals:
@@ -69,7 +54,19 @@ collaboration:
       - cloud-fundamentals:
         priority: 6
         optional: true
-      - containers:
-        priority: 7
       - sql-fundamentals:
         priority: 9
+      - solid:
+        priority: 7
+      - design-patterns:
+        priority: 7
+      - clean-architecture:
+        priority: 7
+  - name: Front-end
+    blocks:
+      - html-fundamentals:
+        priority: 10
+      - css-fundamentals:
+        priority: 9
+      - javascript-fundamentals:
+        priority: 8

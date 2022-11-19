@@ -38,6 +38,12 @@
    - Entender como a memória é administrada
    - Conhecer o Garbage Collector
    - Entender sobre o Stack e o Heap gerenciado
+- [ ] **C# - Testes**:
+   - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+   - Usar testes unitários
+   - Usar testes de integração
+   - Usar testes de comportamento (behavior)
+   - Usar mocks
 - [ ] **ADO.NET**:
    - Manipular bancos de dados
    - Conhecer o DataSet e DataTable
@@ -47,12 +53,10 @@
    - Manipular bancos de dados usando objetos .NET
    - Criar modelos correspondentes a um banco de dados
    - Realizar consultas
-- [ ] **WPF**:
-   - Criar aplicativos para Windows
-   - Usar marcação e code-behind
-   - Criar um layout
-   - Criar modelos
-   - Desenvolver uma interface
+- [ ] **Estruturas de Dados**:
+   - No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.
+   - Conhecer as principais estruturas de dados
+   - Implementar as principais estruturas de dados
 ## Nivel 2
 - [ ] **CLR**:
    - Entender como o CLR funciona
@@ -63,11 +67,6 @@
    - Conhecer as cláusulas Select e Where
    - Consultar coleções de objetos em memória
    - Mapear o banco de dados com Linq to Sql
-- [ ] **C# - Testes**:
-   - Usar testes unitários
-   - Usar testes de integração
-   - Usar testes de comportamento (behavior)
-   - Usar mocks
 - [ ] **C# - Serialização**:
    - Enviar um objeto para um aplicativo remoto usando um serviço Web
    - Passar um objeto como uma cadeia de caracteres JSON ou XML
@@ -87,15 +86,18 @@
    - Padrão de projeto no qual uma classe solicita dependências de fontes externas ao invés de criá-las
    - Evitar o alto nível de acoplamento de código dentro de uma aplicação
    - Implementar a inversão de controle
-- [ ] **SOLID**:
-   - O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
-   - Conhecer boas práticas no desenvolvimento de software
+- [ ] **C# - Multithreading**:
+   - Executar múltiplas tarefas simultaneamente
+   - Entender como threads são executadas
 ## Nivel 3
 - [ ] **C# - Delegates e eventos**:
    - Entender o conceito de delegate
    - Criar uma referência para uma função com uma certa lista de parâmetros
    - Entender o conceito de evento
    - Manipular diferentes tipos de eventos
+- [ ] **C# - Métodos anônimos e lambda expressions**:
+   - Criar funções anônimas que você pode usar para criar delegates
+   - Criar funções locais que podem ser passadas como argumentos
 - [ ] **Contêineres**:
    - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
    - Isolar seu software para funcionar independentemente
@@ -103,109 +105,69 @@
    - Modularizar seu sistema em pacotes menores
    - Conhecer a plataforma Docker
    - Conhecer Kubernetes
-- [ ] **Design Patterns**:
-   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
-   - Conhecer e aplicar os principais Design Patterns
-- [ ] **Clean Architecture**:
-   - Conhecer a metodologia a ser usada na codificação, a fim de facilitar o desenvolvimento códigos, permitir uma melhor manutenção, atualização e menos dependência
-- [ ] **C# - Métodos anônimos e lambda expressions**:
-   - Criar funções anônimas que você pode usar para criar delegates
-   - Criar funções locais que podem ser passadas como argumentos
+- [ ] **Microsserviços**:
+   - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
+   - Aprender o conceito de arquitetura planejada para microsserviços
+   - Realizar a comunicação usando APIs
+   - Melhorar a escalabilidade de um sistema
 - [ ] **Reflection e atributos**:
    - Escrever código que lê as informações e metadados de objetos em tempo de execução
    - Obter nomes de classes em tempo de execução e criar objetos de uma classe
-- [ ] **C# - Multithreading**:
-   - Executar múltiplas tarefas simultaneamente
-   - Entender como threads são executadas
-- [ ] **Estruturas de Dados**:
-   - No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.
-   - Conhecer as principais estruturas de dados
-   - Implementar as principais estruturas de dados
 - [ ] **MAUI**:
    - Criar aplicativos móveis e desktop nativos com C# e XAML
    - Criar aplicativos multiplataforma
    - Compartilhar o layout e o design da interface do usuário entre plataformas
-## Habilidade Auxiliar: Infraestrutura e boas práticas 
-- [ ] **HTML - Fundamentos**:
-   - HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.
-   - Aprender quais tags são necessárias para um HTML básico
-   - Criar um parágrafo de texto
-   - Exibir uma imagem
-   - Conhecer a diferença entre 'h1', 'h2', 'h3', etc
-   - Criar um texto com hyperlink
-   - Criar um formulário com campos relevantes
-   - Criar uma lista de itens ordenada ou não ordenada
-   - Criar uma lista de itens dentro de uma lista suspensa (dropdown list)
-   - Conectar com um arquivo de CSS
-   - Criar uma tabela
-   - Adicionar IDs e classes
-- [ ] **JavaScript - Fundamentos**:
-   - JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.
-   - Conhecer os tipos primitivos
-   - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
-   - Usar estruturas condicionais ('if', 'else')
-   - Conhecer os operadores de comparação ('=', '==', '===')
-   - Usar estruturas de repetição e laços ('while', 'for')
-   - Usar funções, passando parâmetros e argumentos
-   - Manipular arrays e listas
-   - Aprender o conceito de Orientação a Objetos
-   - Fazer um CRUD
-   - Obter dados de uma API
-   - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
-- [ ] **CSS - Fundamentos**:
-   - Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.
-   - Aprender a estrutura visual de uma página, com 'margin' e 'padding'
-   - Estabelecer o tamanho com 'width' e 'height'
-   - Aprender sobre a posição de um elemento ('static', 'relative' ou 'absolute)
-   - Aprender sobre o 'display' de exibição de um elemento ('block', 'inline', 'inline-block')
-   - Aprender a posicionar imagens em relação ao texto
-   - Aprender sobre alinhamento
-   - Aprender sobre estilo de fontes
-   - Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)
-   - Conectar com os elementos (IDs, classes) de um arquivo HTML
-   - Alterar características de um elemento quando o mouse passar por cima dele ('hover')
-   - Aprender box-sizinh
-   - Aprender Flexbox
-   - Aprender Grid
-## Habilidade Auxiliar: Front-end 
-- [ ] **HTML - Fundamentos**:
-   - HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.
-   - Aprender quais tags são necessárias para um HTML básico
-   - Criar um parágrafo de texto
-   - Exibir uma imagem
-   - Conhecer a diferença entre 'h1', 'h2', 'h3', etc
-   - Criar um texto com hyperlink
-   - Criar um formulário com campos relevantes
-   - Criar uma lista de itens ordenada ou não ordenada
-   - Criar uma lista de itens dentro de uma lista suspensa (dropdown list)
-   - Conectar com um arquivo de CSS
-   - Criar uma tabela
-   - Adicionar IDs e classes
-- [ ] **JavaScript - Fundamentos**:
-   - JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.
-   - Conhecer os tipos primitivos
-   - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
-   - Usar estruturas condicionais ('if', 'else')
-   - Conhecer os operadores de comparação ('=', '==', '===')
-   - Usar estruturas de repetição e laços ('while', 'for')
-   - Usar funções, passando parâmetros e argumentos
-   - Manipular arrays e listas
-   - Aprender o conceito de Orientação a Objetos
-   - Fazer um CRUD
-   - Obter dados de uma API
-   - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
-- [ ] **CSS - Fundamentos**:
-   - Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.
-   - Aprender a estrutura visual de uma página, com 'margin' e 'padding'
-   - Estabelecer o tamanho com 'width' e 'height'
-   - Aprender sobre a posição de um elemento ('static', 'relative' ou 'absolute)
-   - Aprender sobre o 'display' de exibição de um elemento ('block', 'inline', 'inline-block')
-   - Aprender a posicionar imagens em relação ao texto
-   - Aprender sobre alinhamento
-   - Aprender sobre estilo de fontes
-   - Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)
-   - Conectar com os elementos (IDs, classes) de um arquivo HTML
-   - Alterar características de um elemento quando o mouse passar por cima dele ('hover')
-   - Aprender box-sizinh
-   - Aprender Flexbox
-   - Aprender Grid
+## Habilidade Auxiliar: Infraestrutura 
+- [ ] **Git e GitHub - Fundamentos**:
+   - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
+   - GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.
+   - Criar um repositório
+   - Clonar um repositório
+   - Fazer commit, push e pull de e para o repositório
+   - Reverter um commit
+   - Criar branches e pul requests
+   - Lidar com merge e conflitos
+- [ ] **HTTP - Fundamentos**:
+   - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
+   - Entender a diferença dos verbos HTTP
+   - Testar os requests e ver os status codes no navegador
+   - Saber fazer uma requisição HTTP na linha de comando com WGET
+   - Baixar uma imagem com WGET
+   - Fazer um post
+- [ ] **JSON**:
+   - JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.
+   - Criar um objeto
+   - Transformar um objeto em uma string
+   - Transformar uma string em objeto
+   - Manipular um objeto
+- [ ] **Linha de comando - Fundamentos**:
+   - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
+   - Conhecer os principais comandos
+- [ ] **Cloud - Fundamentos**:
+   - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
+   - Conhecer a diferença entre IaaS, PaaS e SaaS
+   - Conhecer os maiores provedores de cloud
+   - Especializar-se em algum provedor
+- [ ] **SQL - Fundamentos**:
+   - Conhecer os comandos mais comuns do SQL
+   - Usar SELECT para consultar uma tabela
+   - Usar INSERT para inserir dados em uma tabela
+   - Usar UPDATE para atualizar uma tabela
+   - Usar DELETE para remover dados de uma tabela
+   - Usar JOIN para conectar os dados de múltiplas tabelas
+   - Conhecer as cláusulas (FROM, ORDER BY, etc)
+## Habilidade Auxiliar: Boas práticas 
+- [ ] **SOLID**:
+   - O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
+- [ ] **Clean Code**:
+   - Aplicar técnicas simples que visam facilitar a escrita e leitura de um código
+   - Refatorar seu código para que fique mais claro
+- [ ] **Design Patterns**:
+   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
+   - Conhecer e aplicar os principais Design Patterns
+- [ ] **Clean Architecture**:
+   - A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.
+- [ ] **Conceitos de Desenvolvimento Orientado a Domínio (Domain-driven Design)**:
+   - Modelar domínios de forma efetiva
+   - Basear projetos complexos em modelos do domínio
+   - Conhecer os blocos de construção de DDD

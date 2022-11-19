@@ -85,13 +85,6 @@
    - Using 'try' and 'catch' for error handling
    - Learning on what occasions and how to use `throw`
    - Creating specific exceptions according to your application's needs
-- [ ] **YARN**:
-   - Yarn is a package manager for your code. It allows you to use and share code with other developers. Code is shared through something called a package (sometimes referred to as a module). A package contains all the code being shared as well as a package.json file which describes the package.
-   - Managing packages
-   - Managing dependencies
-   - Installing packages offline
-   - Commands
-   - The yarn.lock file
 - [ ] **JavaScript - ES6**:
    - ECMAScript 2015 was the second major revision to JavaScript. ECMAScript 2015 is also known as ES6 and ECMAScript 6.
    - Knowing the differences and most importante features of ES6
@@ -146,18 +139,46 @@
 - [ ] **Apollo Client**:
    - Apollo Client is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL.
 ## Habilidade Auxiliar: Infrastructure and Back-end 
-- [ ] **Design Systems**:
-   - A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build applications.
-   - Creating and maintaining libraries that will be consumed and used as a standard for building a project
-- [ ] **Figma - Fundamentals**:
-   - Figma is a collaborative web application for interface design. The feature set of Figma focuses on user interface and user experience design, with an emphasis on real-time collaboration, utilising a variety of vector graphics editor and prototyping tools.
-   - Creating page layouts and components
-- [ ] **Design components**:
-   - Knowing the components that describe a layout or interface
-- [ ] **Color systems**:
-   - Defining a color palette that makes sense for a given interface
-- [ ] **How to use Fonts**:
-   - Choosing the most appropriate font for a given project
+- [ ] **Git & GitHub - Fundamentals**:
+   - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+   - GitHub is a hosting service for software development and version control using Git.
+   - Creating a repository
+   - Cloning a repository
+   - Committing, pushing and pulling to and from the repository
+   - Reversing a commit
+   - Creating branches and pull requests
+   - Handling merge and conflicts
+- [ ] **HTTP - Fundamentals**:
+   - HTTP stands for Hyper Text Transfer Protocol. Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses.
+   - Understanding the difference between HTTP verbs
+   - Testing requests and checking the status codes in the browser
+   - Learning how to make a HTTP request on the command line with WGET
+   - Downloading an image with WGET
+   - Performing a POST
+- [ ] **JSON**:
+   - JSON stands for JavaScript Object Notation. It is a text format for storing and transporting data.
+   - Creating an object
+   - Transforming an object into a string
+   - Transforming a string into an object
+   - Manipulating an object
+- [ ] **Design Patterns**:
+   - In software engineering, a Design Pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is a description or template for how to solve a problem that can be used in many different situations. Design Patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.
+   - Getting familiarized with and applying the main Design Patterns
+- [ ] **Command Line - Fundamentals**:
+   - CLI is a command line program that accepts text input to execute operating system functions.
+   - Knowing the most important commands
+- [ ] **Cloud - Fundamentals**:
+   - Cloud, or cloud computing, is the distribution of computing services over the Internet using a pay-as-you-go pricing model. A cloud is composed of various computing resources, ranging from the computers themselves (or instances, in cloud terminology) to networks, storage, databases, and everything around them. In other words, everything that is normally needed to set up the equivalent of a server room, or even a complete data center, will be ready to use, configured, and run.
+   - Knowing the difference between IaaS, PaaS and SaaS
+   - Knowing the largest cloud providers
+   - Specializing in a specific provider of your choice
+- [ ] **YARN**:
+   - Yarn is a package manager for your code. It allows you to use and share code with other developers. Code is shared through something called a package (sometimes referred to as a module). A package contains all the code being shared as well as a package.json file which describes the package.
+   - Managing packages
+   - Managing dependencies
+   - Installing packages offline
+   - Commands
+   - The yarn.lock file
 ## Habilidade Auxiliar: UX and Design 
 - [ ] **Design Systems**:
    - A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build applications.

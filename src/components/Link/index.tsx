@@ -9,6 +9,7 @@ import { SiteLocale } from "@src/gql_types";
 const urlLocaleBySiteLocale = {
   [SiteLocale.PtBr]: "pt-BR",
   [SiteLocale.EnUs]: "en-US",
+  [SiteLocale.Es]: "es",
 };
 
 function withLocalePrefix(
@@ -16,16 +17,12 @@ function withLocalePrefix(
   locale: string,
   isExternalURL: boolean
 ) {
-  const urlLocale = urlLocaleBySiteLocale[locale];
   if (isExternalURL) return href;
 
-  if (urlLocale !== "en-US") {
-    if (href === "/") return href;
+  const urlLocale = urlLocaleBySiteLocale[locale];
+  const baseHref = `/${urlLocale}/${href}`.replace("//", "/");
 
-    return `${urlLocale}${href}`;
-  }
-  // TODO: Fix here when i18n fully enabled
-  return `${urlLocale}${href}`;
+  return baseHref;
 }
 
 interface LinkProps {

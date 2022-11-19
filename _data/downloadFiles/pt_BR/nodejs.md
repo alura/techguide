@@ -34,7 +34,7 @@
    - Como funcionam interfaces
    - O que são abstrações
 - [ ] **Node.js - Testes**:
-   - O teste do software é a investigação do software a fim de fornecer informações sobre sua qualidade em relação ao contexto em que ele deve operar, se relaciona com o conceito de verificação e validação. Isso inclui o processo de utilizar o produto para encontrar seus defeitos.
+   - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
    - Aprender o que são testes unitários
    - Aprender o que são testes de integração
    - Trabalhar com frameworks de testes e suas ferramentas
@@ -43,7 +43,6 @@
 ## Nivel 2
 - [ ] **SOLID**:
    - O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
-   - Conhecer boas práticas no desenvolvimento de software
 - [ ] **Node.js - Express**:
    - O Express é um framework de aplicações web Node.js flexível que fornece um conjunto robusto de recursos para aplicativos da web e mobile.
    - Utilizar o framework Express para criação de APIs REST com Node.js
@@ -92,41 +91,6 @@
    - Apollo Client é uma biblioteca abrangente de gerenciamento de estado para JavaScript que permite gerenciar dados locais e remotos com o GraphQL.
    - Utilizar o Apollo para criar um servidor GraphQL
    - Conectar com uma API
-## Habilidade Auxiliar: Front-end 
-- [ ] **Git e GitHub - Fundamentos**:
-   - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
-   - GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.
-   - Criar um repositório
-   - Clonar um repositório
-   - Fazer commit, push e pull de e para o repositório
-   - Reverter um commit
-   - Criar branches e pul requests
-   - Lidar com merge e conflitos
-- [ ] **HTTP - Fundamentos**:
-   - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
-   - Entender a diferença dos verbos HTTP
-   - Testar os requests e ver os status codes no navegador
-   - Saber fazer uma requisição HTTP na linha de comando com WGET
-   - Baixar uma imagem com WGET
-   - Fazer um post
-- [ ] **Design Patterns**:
-   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
-   - Conhecer e aplicar os principais Design Patterns
-- [ ] **Linha de comando - Fundamentos**:
-   - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
-   - Conhecer os principais comandos
-- [ ] **Cloud - Fundamentos**:
-   - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
-   - Conhecer a diferença entre IaaS, PaaS e SaaS
-   - Conhecer os maiores provedores de cloud
-   - Especializar-se em algum provedor
-- [ ] **Contêineres**:
-   - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
-   - Isolar seu software para funcionar independentemente
-   - Implantar software em clusters
-   - Modularizar seu sistema em pacotes menores
-   - Conhecer a plataforma Docker
-   - Conhecer Kubernetes
 ## Habilidade Auxiliar: Infraestrutura e boas práticas 
 - [ ] **Git e GitHub - Fundamentos**:
    - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
@@ -162,3 +126,62 @@
    - Modularizar seu sistema em pacotes menores
    - Conhecer a plataforma Docker
    - Conhecer Kubernetes
+## Habilidade Auxiliar: Front-end 
+- [ ] **JavaScript - Fundamentos**:
+   - JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.
+   - Conhecer os tipos primitivos
+   - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
+   - Usar estruturas condicionais ('if', 'else')
+   - Conhecer os operadores de comparação ('=', '==', '===')
+   - Usar estruturas de repetição e laços ('while', 'for')
+   - Usar funções, passando parâmetros e argumentos
+   - Manipular arrays e listas
+   - Aprender o conceito de Orientação a Objetos
+   - Fazer um CRUD
+   - Obter dados de uma API
+   - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
+- [ ] **HTML - Fundamentos**:
+   - HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.
+   - Aprender quais tags são necessárias para um HTML básico
+   - Criar um parágrafo de texto
+   - Exibir uma imagem
+   - Conhecer a diferença entre 'h1', 'h2', 'h3', etc
+   - Criar um texto com hyperlink
+   - Criar um formulário com campos relevantes
+   - Criar uma lista de itens ordenada ou não ordenada
+   - Criar uma lista de itens dentro de uma lista suspensa (dropdown list)
+   - Conectar com um arquivo de CSS
+   - Criar uma tabela
+   - Adicionar IDs e classes
+- [ ] **CSS - Fundamentos**:
+   - Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.
+   - Aprender a estrutura visual de uma página, com 'margin' e 'padding'
+   - Estabelecer o tamanho com 'width' e 'height'
+   - Aprender sobre a posição de um elemento ('static', 'relative' ou 'absolute)
+   - Aprender sobre o 'display' de exibição de um elemento ('block', 'inline', 'inline-block')
+   - Aprender a posicionar imagens em relação ao texto
+   - Aprender sobre alinhamento
+   - Aprender sobre estilo de fontes
+   - Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)
+   - Conectar com os elementos (IDs, classes) de um arquivo HTML
+   - Alterar características de um elemento quando o mouse passar por cima dele ('hover')
+   - Aprender box-sizinh
+   - Aprender Flexbox
+   - Aprender Grid
+- [ ] **DOM - Fundamentos**:
+   - O Document Object Model (DOM) é uma interface de programação para documentos web. Ele representa a página para que os programas possam alterar a estrutura, o estilo e o conteúdo do documento. O DOM representa o documento como nós e objetos; dessa forma, linguagens de programação podem interagir com a página.
+   - Entender como funciona a árvore do DOM
+   - Acessar e manipular elementos do HTML e CSS
+   - Acessar os pais e filhos de um elemento
+   - Inserir um novo elemento na árvore
+   - Remover um elemento da árvore
+   - Esperar por um evento em certo elemento da página usando 'addEventListener()'
+- [ ] **Acessibilidade em Javascript**:
+   - Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e portais sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas.
+   - Escrever código com acessibilidade em mente
+- [ ] **Estratégias de SEO**:
+   - SEO significa otimização para motores de busca e que diz respeito as estratégias usadas para ranquear um site dentro de mecanismos de busca como o Yahoo, o Bing e, claro, o mais famoso de todos, o Google.
+   - Escolher palavras-chave
+   - Entender como o Google classifica páginas
+   - Conhecer os fatores de rankeamento
+   - Fazer Link Building

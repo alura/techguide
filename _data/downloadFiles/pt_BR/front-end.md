@@ -73,6 +73,7 @@
    - Aprender em quais situações é necessário o uso de programação assíncrona
    - Fazer chamadas em APIs com `fetch()`
 - [ ] **JavaScript - Testes**:
+   - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
    - Usar testes unitários
    - Usar testes de integração
    - Usar testes de comportamento (behavior)
@@ -85,13 +86,6 @@
    - Usar 'try' e 'catch' para tratamento de erros
    - Em que ocasiões e de que forma utilizar o `throw`
    - Criar exceções específicas de acordo com a necessidade de sua aplicação
-- [ ] **YARN**:
-   - Yarn é um gerenciador de pacotes para seu código. Ele permite que você use e compartilhe código com outros desenvolvedores. O código é compartilhado por meio de algo chamado pacote (às vezes chamado de módulo). Um pacote contém todo o código que está sendo compartilhado, bem como um arquivo package.json que descreve o pacote.
-   - Gerenciar pacotes
-   - Gerenciar dependências
-   - Instalação de pacotes offline
-   - Comandos
-   - Arquivo yarn.lock
 - [ ] **JavaScript - ES6**:
    - Conhecer as diferenças dessa versão do JavaScript
 - [ ] **JavaScript - Modularização**:
@@ -144,18 +138,46 @@
    - Utilizar o Apollo para criar um servidor GraphQL
    - Conectar com uma API
 ## Habilidade Auxiliar: Infraestrutura e Back-end 
-- [ ] **Design Systems**:
-   - Um Design Systems (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
-   - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
-- [ ] **Figma - Fundamentos**:
-   - Figma é uma aplicação web colaborativa para design de interfaces. O conjunto de recursos do Figma se concentra na interface do usuário e no design da experiência do usuário, com ênfase na colaboração em tempo real, utilizando uma variedade de editores de gráficos vetoriais e ferramentas de prototipagem.
-   - Criar layouts de páginas e componentes
-- [ ] **Componentes de design**:
-   - Conhecer os componentes descrevem um layout ou interface
-- [ ] **Sistemas de cores**:
-   - Definir uma paleta de cores que faça sentido para determinada interface
-- [ ] **Como usar fontes**:
-   - Escolher a fonte mais adequada para determinado projeto
+- [ ] **Git e GitHub - Fundamentos**:
+   - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
+   - GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.
+   - Criar um repositório
+   - Clonar um repositório
+   - Fazer commit, push e pull de e para o repositório
+   - Reverter um commit
+   - Criar branches e pul requests
+   - Lidar com merge e conflitos
+- [ ] **HTTP - Fundamentos**:
+   - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
+   - Entender a diferença dos verbos HTTP
+   - Testar os requests e ver os status codes no navegador
+   - Saber fazer uma requisição HTTP na linha de comando com WGET
+   - Baixar uma imagem com WGET
+   - Fazer um post
+- [ ] **JSON**:
+   - JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.
+   - Criar um objeto
+   - Transformar um objeto em uma string
+   - Transformar uma string em objeto
+   - Manipular um objeto
+- [ ] **Design Patterns**:
+   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
+   - Conhecer e aplicar os principais Design Patterns
+- [ ] **Linha de comando - Fundamentos**:
+   - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
+   - Conhecer os principais comandos
+- [ ] **Cloud - Fundamentos**:
+   - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
+   - Conhecer a diferença entre IaaS, PaaS e SaaS
+   - Conhecer os maiores provedores de cloud
+   - Especializar-se em algum provedor
+- [ ] **YARN**:
+   - Yarn é um gerenciador de pacotes para seu código. Ele permite que você use e compartilhe código com outros desenvolvedores. O código é compartilhado por meio de algo chamado pacote (às vezes chamado de módulo). Um pacote contém todo o código que está sendo compartilhado, bem como um arquivo package.json que descreve o pacote.
+   - Gerenciar pacotes
+   - Gerenciar dependências
+   - Instalação de pacotes offline
+   - Comandos
+   - Arquivo yarn.lock
 ## Habilidade Auxiliar: UX e Design 
 - [ ] **Design Systems**:
    - Um Design Systems (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.

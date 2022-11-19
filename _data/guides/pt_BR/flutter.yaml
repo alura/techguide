@@ -4,14 +4,16 @@ expertise:
     blocks: 
       - dart-fundamentals:
         priority: 10
-      - flutter-basic-widgets:
+      - flutter-fundamentals:
         priority: 10
       - oop-concepts:
         priority: 10
       - flutter-persistence:
         priority: 10
-      - dart-async-exceptions:
-        priority: 10  
+      - dart-asynchronous:
+        priority: 10
+      - dart-errors-and-exceptions:
+        priority: 10
       - flutter-api:
         priority: 10          
   - name: Flutter Mid
@@ -39,18 +41,14 @@ expertise:
         optional: true
       - flutter-animations:
         priority: 8
-      - flutter-multiplat-desktop:
+      - flutter-multiplatform-desktop:
         priority: 8
-      - flutter-multiplat-web:
+      - flutter-multiplatform-web:
         priority: 8
         optional: true      
       - flutter-deployment:
         priority: 6
-        optional: true   
-      - clean-architecture:
-        priority: 6
-      - solid:
-        priority: 6
+        optional: true
       - flutter-architecture:
         priority: 6   
       - flutter-plugins:
@@ -72,6 +70,10 @@ collaboration:
       - cloud-fundamentals: 
         priority: 6
         optional: true
+      - solid:
+        priority: 6
+      - clean-architecture:
+        priority: 6
     #  - devops: 
     #    priority: 6
     #    optional: true

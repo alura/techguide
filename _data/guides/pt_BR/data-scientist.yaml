@@ -42,16 +42,6 @@ expertise:
       - natural-language-processing:
         priority: 7
 collaboration:
-  - name: Business e Soft skills
-    blocks:
-      - communication-skills:
-        priority: 9
-      - business-process-management:
-        priority: 9
-      - business-intelligence:
-        priority: 8
-      - storytelling-with-data:
-        priority: 8
   - name: Cloud, Big Data e Sistemas
     blocks:
       - big-data-and-data-engineering:
@@ -62,3 +52,13 @@ collaboration:
         priority: 7
       - linux-fundamentals:
         priority: 7
+  - name: Business e Soft skills
+    blocks:
+      - communication-skills:
+        priority: 9
+      - business-process-management:
+        priority: 9
+      - business-intelligence:
+        priority: 8
+      - storytelling-with-data:
+        priority: 8

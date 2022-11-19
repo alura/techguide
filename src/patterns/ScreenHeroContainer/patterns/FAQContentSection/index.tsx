@@ -1,12 +1,13 @@
 import React from "react";
 import { Box, Text } from "@src/components";
 import Arrows from "./Arrows";
-import faq from "../../../../../_data/random-content/faq.json";
 import { parseContent } from "@src/infra/i18n/parseContent";
-
-const questions = faq.questions;
+import { useI18n } from "@src/infra/i18n";
 
 export default function FAQContentSection() {
+  const i18n = useI18n();
+  const questions = i18n.contentRaw("FAQ.GLOBAL");
+
   return (
     <Box
       styleSheet={{
@@ -82,7 +83,7 @@ export default function FAQContentSection() {
             tag="h2"
             id="doubt-section"
           >
-            Dúvidas e respostas frequentes sobre o Tech Guide
+            {i18n.content("FAQ.GLOBAL.TITLE")}
           </Text>
           <Box styleSheet={{ display: { xs: "none", md: "flex" } }}>
             <Arrows />
