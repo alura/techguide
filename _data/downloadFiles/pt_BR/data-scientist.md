@@ -120,39 +120,6 @@
    - Utilizar Regex em PLN
    - Conhecer o Word2Vec
    - Combinar vetores de palavras para representar textos e classificá-los
-## Habilidade Auxiliar: Business e Soft skills 
-- [ ] **Big Data e Engenharia de Dados**:
-   - Big data é a área do conhecimento que estuda como tratar, analisar e obter informações a partir de conjuntos de dados grandes demais para serem analisados por sistemas tradicionais.
-   - Engenharia de Dados envolve o desenvolvimento e organização de processos para coleta, armazenamento e transformação de dados em grande escala.
-   - Criar um pipeline de dados
-   - Conhecer o Apache Airflow
-   - Conhecer o Apache Spark
-   - Conhecer o conceito de Data Lake
-   - Interagir com servidores na nuvem
-   - Criar aplicações Spark
-- [ ] **Cloud - Fundamentos**:
-   - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
-   - Conhecer a diferença entre IaaS, PaaS e SaaS
-   - Conhecer os maiores provedores de cloud
-   - Especializar-se em algum provedor
-- [ ] **Git e GitHub - Fundamentos**:
-   - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
-   - GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.
-   - Criar um repositório
-   - Clonar um repositório
-   - Fazer commit, push e pull de e para o repositório
-   - Reverter um commit
-   - Criar branches e pul requests
-   - Lidar com merge e conflitos
-- [ ] **Linux - Fundamentos**:
-   - Linux é um termo popularmente empregado para se referir a sistemas operacionais que utilizam o Kernel Linux. As distribuições incluem o Kernel Linux, além de softwares de sistema e bibliotecas.
-   - Conhecer o sistema de diretórios do Linux
-   - Compactar e descompactar arquivos
-   - Editar arquivos no console com o VI
-   - Gerenciar os processos rodando na máquina
-   - Conhecer as variáveis de ambiente e o PATH
-   - Gerenciar pacotes
-   - Realizar comunicação remota com o SSH e SCP
 ## Habilidade Auxiliar: Cloud, Big Data e Sistemas 
 - [ ] **Big Data e Engenharia de Dados**:
    - Big data é a área do conhecimento que estuda como tratar, analisar e obter informações a partir de conjuntos de dados grandes demais para serem analisados por sistemas tradicionais.
@@ -186,3 +153,16 @@
    - Conhecer as variáveis de ambiente e o PATH
    - Gerenciar pacotes
    - Realizar comunicação remota com o SSH e SCP
+## Habilidade Auxiliar: Business e Soft skills 
+- [ ] **Habilidades de comunicação**:
+   - Um bom nível de comunicação facilita o atingimento de objetivos, resolução de problemas, além de aumentar a produtividade, porque cada profissional saberá exatamente o que se espera dele e transmitir com clareza suas ideias.
+- [ ] **Gestão de Processos de Negócios**:
+   - A Gestão de Processos de Negócios (BPM) é a um disciplina que utiliza vários métodos para descobrir, modelar, analisar, medir, melhorar, otimizar e automatizar processos de negócios.
+- [ ] **Business Intelligence**:
+   - Business Intelligence é um conjunto de teorias, metodologias, processos e tecnologias que possibilitam a transformação dos dados “crus” em informações extremamente relevantes para tomada de decisão de uma empresa.
+   - Conhecer o processo de ETL
+   - Realizar a modelagem e estruturação de tabelas em um Data Warehouse
+   - Criar visualizações que façam sentido
+   - Conhecer o PowerBI
+- [ ] **Storytelling com dados**:
+   - Storytelling é uma forma de contar histórias que engajam e chamam a atenção da pessoa que está ouvindo. Dentro da análise de dados, é algo muito importante para passar as informações ao receptor de modo que o mesmo compreenda não apenas os dados, mas também todo o contexto.
