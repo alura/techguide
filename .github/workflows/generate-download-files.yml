@@ -1,7 +1,5 @@
 name: Bot - Generate download files
 on:
-  pull_request:
-    types: [opened, synchronize]
   schedule:
     - cron: "0 * * * *"
 
@@ -29,5 +27,5 @@ jobs:
         echo "[END]"
         git add .
         git commit -m "docs: update downloadable files" || echo "Up to date with main"
-        git push origin main
+        git push origin HEAD
         echo "[END]"
