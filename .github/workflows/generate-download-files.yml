@@ -22,6 +22,7 @@ jobs:
         echo "[START]"
         yarn install
         yarn scripts:create:shareable_guides
+        echo "[END]"
         git add .
         git commit -m "docs: update downloadable files" || echo "Up to date with main"
         git push origin HEAD
