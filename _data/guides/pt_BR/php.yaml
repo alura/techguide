@@ -8,16 +8,16 @@ expertise:
         priority: 9
       - php-errorhandling:
         priority: 9
-      - php-testing:
-        priority: 8
       - php-persistence:
         priority: 8
       - php-files-streams:
         priority: 8
+      - php-composer:
+        priority: 9
   - name: PHP Mid
     blocks:
-      - php-composer:
-        priority: 10
+      - php-testing:
+        priority: 9
       - php-mvc:
         priority: 9
       - laravel:
@@ -25,6 +25,8 @@ expertise:
       - php-symfony:
         priority: 8
         optional: true
+      - php-api:
+        priority: 7
       - php-xdebug:
         priority: 7
   - name: PHP in depth

@@ -8,8 +8,6 @@ expertise:
         priority: 10
       - data-structures:
         priority: 10
-      - python-special-methods:
-        priority: 10
       - python-collections:
         priority: 9
       - python-testing:
@@ -18,33 +16,37 @@ expertise:
     blocks:
       - flask:
         priority: 8
-      - python-mixins:
+      - python-advanced-oop:
         priority: 8
-      - python-operator-overloading:
-        priority: 7
       - django:
         priority: 8
       - django-rest-framework:
         priority: 6
-      - design-patterns:
-        priority: 8
+      - python-mvc-mtv:
+        priority: 7
+      - python-lambdas-and-closures:
+        priority: 7
   - name: Python in depth
     blocks:
+      - microservices:
+        priority: 8
+      - conteiners:
+        priority: 7
       - python-static-typing:
         priority: 7
-      - python-coroutines:
+      - python-asynchronous:
+        priority: 8
+      - python-special-methods:
         priority: 8
       - python-generators:
         priority: 8
         optional: true
       - python-metaprogramming:
         priority: 7
-      - python-mvc-mtv:
-        priority: 7
       - python-process-pools:
         priority: 7
 collaboration:
-  - name: Infraestrutura e boas práticas
+  - name: Infraestrutura
     blocks:
       - git-and-github-fundamentals:
         priority: 9
@@ -56,15 +58,13 @@ collaboration:
         priority: 8
       - cloud-fundamentals:
         priority: 7
-      - microservices:
-        priority: 7
       - sql-fundamentals:
         priority: 9
-  - name: Front-end
+  - name: Boas práticas
     blocks:
-      - html-fundamentals:
+      - solid:
         priority: 7
-      - css-fundamentals:
+      - clean-architecture:
         priority: 7
-      - javascript-fundamentals:
-        priority: 5
+      - design-patterns:
+        priority: 7
