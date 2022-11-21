@@ -24,12 +24,6 @@
    - Tratar exceções pré-definidas
    - Uso de 'try' e 'catch'
    - Criar exceções específicas
-- [ ] **PHP - Testes**:
-   - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
-   - Usar testes unitários
-   - Usar testes de integração
-   - Usar testes de comportamento (behavior)
-   - Usar mocks
 - [ ] **PHP - Persistência**:
    - Conhecer o PDO
    - Fazer inserções, alterações e remoções em um banco de dados
@@ -39,14 +33,21 @@
    - Aplicar wrappers e filtros nos streams
    - Usar streams
    - Conhecer encodings e character sets
-## Nivel 2
 - [ ] **PHP - Composer**:
    - Gerenciar dependências
    - Incluir bibliotecas de terceiros
+## Nivel 2
+- [ ] **PHP - Testes**:
+   - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+   - Usar testes unitários
+   - Usar testes de integração
+   - Usar testes de comportamento (behavior)
+   - Usar mocks
 - [ ] **PHP - MVC**:
    - Entender o conceito do padrão MVC (Model-View-Controller)
    - Separar as responsabilidades entre as camadas MVC
 - [ ] **Laravel**:
+   - Laravel é um framework PHP livre e open-source para o desenvolvimento de sistemas web que utilizam o padrão MVC (model, view, controller).
    - Conhecer as características do framework Laravel
    - Trabalhar com rotas
    - Usar arquivos Blade
@@ -55,6 +56,13 @@
    - Utilizar componentes
    - Definir recursos e rotas
    - Templates Twig
+- [ ] **PHP - Comunicação com APIs**:
+   - Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.
+   - Entender o que é uma API REST
+   - Conhecer os comandos básicos de comunicação HTTP
+   - Conhecer o cURL
+   - Construir APIs em Laravel
+   - Saber fazer requisições autenticadas para Web APIs
 - [ ] **PHP - XDebug**:
    - Usar e aprimorar o var_dump com XDebug
    - Analisar e entender a stack (pilha) de execução
@@ -62,7 +70,7 @@
    - Depurar remotamente com Docker
 ## Nivel 3
 - [ ] **PHP Assíncrono**:
-   - Entender sobre programação assíncrona
+   - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
    - Aprender a usar sockets
    - Conhecer bibliotecas de programação reativa
    - Aprender sobre corrotinas
