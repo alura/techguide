@@ -2,9 +2,9 @@
 ## Nivel 1
 - [ ] **Node.js - Fundamentos**:
    - Node.js é um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem de forma autônoma, sem depender de um navegador.
-   - Conhecer e aprender mais sobre o Node.js, ambiente de execução do JavaScript fora no navegador
-   - Descobrir as possibilidades de desenvolvimento do Node.js e por que é tão utilizado
-   - Entender as partes principais do ecossistema Node.js e como usamos cada uma delas
+   - Conhecer operações bloqueantes e não-bloqueantes
+   - Aprender o conceito de laço de eventos (event loop)
+   - Aprender a usar as bibliotecas do Node.js, como 'net', 'fs', 'http', 'path', entre outras
 - [ ] **JavaScript - Callbacks e Promises**:
    - Uma promessa (Promise) é um proxy para um valor não necessariamente conhecido quando a promessa é criada. Isso permite que métodos assíncronos retornem valores como métodos síncronos - em vez de retornar imediatamente o valor final, o método assíncrono retorna uma promessa de fornecer o valor em algum momento no futuro.
    - Uma função de Callback é uma função passada para outra função como um argumento, que é então invocado dentro da função externa para completar algum tipo de rotina ou ação.
@@ -46,7 +46,10 @@
 - [ ] **Node.js - Express**:
    - O Express é um framework de aplicações web Node.js flexível que fornece um conjunto robusto de recursos para aplicativos da web e mobile.
    - Utilizar o framework Express para criação de APIs REST com Node.js
-   - Conhecer as diversas bibliotecas e frameworks do ecossistema Node.js para APIs
+   - Gerenciar requisições de diferentes verbos HTTP em diferentes URLs
+   - Definir as configurações comuns da aplicação web, como a porta a ser usada para conexão e a localização dos modelos que são usados para renderizar a resposta
+   - Criar manipuladores de rotas usando o método 'router'
+   - Conhecer as diversas bibliotecas e frameworks do ecossistema Node.js para APIs, como ''
 - [ ] **Node.js - ORM**:
    - Object-Relational Mapping (ORM), em português, mapeamento objeto-relacional, é uma técnica utilizada para fazer o mapeamento entre sistemas orientados a objetos e bancos de dados relacionais, onde as tabelas do banco de dados são representadas em classes e os registros das tabelas seriam instâncias dessas classes.
    - Entender o que são ORMs e para que são utilizados

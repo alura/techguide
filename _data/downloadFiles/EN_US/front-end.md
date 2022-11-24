@@ -161,9 +161,6 @@
    - Transforming an object into a string
    - Transforming a string into an object
    - Manipulating an object
-- [ ] **Design Patterns**:
-   - In software engineering, a Design Pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is a description or template for how to solve a problem that can be used in many different situations. Design Patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.
-   - Getting familiarized with and applying the main Design Patterns
 - [ ] **Command Line - Fundamentals**:
    - CLI is a command line program that accepts text input to execute operating system functions.
    - Knowing the most important commands

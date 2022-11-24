@@ -160,9 +160,6 @@
    - Transformar um objeto em uma string
    - Transformar uma string em objeto
    - Manipular um objeto
-- [ ] **Design Patterns**:
-   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
-   - Conhecer e aplicar os principais Design Patterns
 - [ ] **Linha de comando - Fundamentos**:
    - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
    - Conhecer os principais comandos
