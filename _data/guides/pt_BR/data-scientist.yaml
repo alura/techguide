@@ -15,12 +15,12 @@ expertise:
         optional: true
       - statistics-and-math-fundamentals:
         priority: 10
-      - machine-learning-fundamentals:
-        priority: 9
       - data-visualization:
         priority: 8
   - name: Data Scientist Mid
     blocks:
+      - machine-learning-fundamentals:
+        priority: 9
       - machine-learning-unsupervised-learning:
         priority: 10
       - machine-learning-model-evaluation:
@@ -52,7 +52,7 @@ collaboration:
         priority: 7
       - linux-fundamentals:
         priority: 7
-  - name: Business e Soft skills
+  - name: Business
     blocks:
       - communication-skills:
         priority: 9
@@ -62,3 +62,6 @@ collaboration:
         priority: 8
       - storytelling-with-data:
         priority: 8
+      - excel:
+        priority: 6
+        optional: true
