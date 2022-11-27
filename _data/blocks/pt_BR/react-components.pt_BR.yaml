@@ -26,9 +26,6 @@ alura-contents:
   - type: SITE
     title: "Ciclo de vida de um componente React"
     link: https://cursos.alura.com.br/extra/alura-mais/ciclo-de-vida-de-um-componente-react-c1333
-  - type: SITE
-    title: "Primeiras aulas do curso React: abstraindo seu CSS com Styled Components"
-    link: https://www.alura.com.br/conteudo/react-styled-components
   - type: COURSE
     title: "Imersão React: AluraFlix"
     link: https://cursos.alura.com.br/imersoes/aulas/aula-1-react-components-e-aluraflix-c18
@@ -41,6 +38,9 @@ alura-contents:
   - type: COURSE
     title: "Imersão React: AluraCord"
     link: https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68
+  - type: SITE
+    title: "Primeiras aulas do curso React: abstraindo seu CSS com Styled Components"
+    link: https://www.alura.com.br/conteudo/react-styled-components
   - type: COURSE
     title: "Curso React: abstraindo seu CSS com Styled Components"
     link: https://www.alura.com.br/curso-online-react-styled-components
@@ -50,6 +50,9 @@ alura-contents:
   - type: COURSE
     title: "Curso React: testando os seus componentes"
     link: https://www.alura.com.br/curso-online-react-testando-componentes
-  - type: "course"
-    title: "Curso React: escrevendo com Typescript"
-    link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript
+  - type: SITE
+    title: "Primeiras aulas do curso React: desenvolvendo uma biblioteca de componentes"
+    link: https://www.alura.com.br/conteudo/react-desenvolvendo-biblioteca-componentes
+  - type: "COURSE"
+    title: "Curso React: desenvolvendo uma biblioteca de componentes"
+    link: https://www.alura.com.br/curso-online-react-desenvolvendo-biblioteca-componentes
