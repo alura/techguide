@@ -1,0 +1,26 @@
+name: Angular - Templates
+logo: 
+short-description:
+key-objectives:
+  - In Angular, a template is a blueprint for a fragment of a user interface (UI). Templates are written in HTML, and special syntax can be used within a template to build on many of Angular's features.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Angular Documentation - Understanding templates"
+    link: https://angular.io/guide/template-overview
+  - type: SITE
+    title: "Angular Documentation - Introduction to components and templates"
+    link: https://angular.io/guide/architecture-components
+  - type: ARTICLE
+    title: "An introduction to Angular Template Syntax"
+    link: https://javascript.plainenglish.io/brief-intro-to-angular-template-syntax-e05fe4f8c1b2
+  - type: ARTICLE
+    title: "Why You Should Never Use Methods Inside Templates in Angular"
+    link: https://dev.to/klementomeri/why-you-should-never-use-methods-inside-templates-in-angular-2p3m
+  - type: YOUTUBE
+    title: "edureka!: Angular Templates"
+    link: https://www.youtube.com/watch?v=jUml0EyBUrY
+  - type: YOUTUBE
+    title: "Angular University: Angular ng-template - Introduction to Angular Template Partials"
+    link: https://www.youtube.com/watch?v=Qp0ghO3LLYI
+alura-contents:

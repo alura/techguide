@@ -2,10 +2,12 @@ name: Angular - Módulos
 logo: 
 short-description:
 key-objectives:
-  - Registrar componentes
+  - Um módulo (Module), diferentemente de um componente, não controla nenhuma view. Um módulo é constituído de um ou mais componentes. Uma aplicação Angular tem que ter no mínimo um módulo que contenha mínimo um componente (Component).
+  - Como usar a classe ngModule
   - Declarar quais componentes podem ser usados por componentes de outros módulos
   - Declarar quais services serão injetados
   - Aprender a modularizar uma aplicação
+  - Carregar módulos como Lazy
 aditional-objectives:
 contents:
   - type: ARTICLE

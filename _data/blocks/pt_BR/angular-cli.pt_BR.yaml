@@ -2,7 +2,9 @@ name: Angular - CLI (Interface de Linha de Comando)
 logo: 
 short-description:
 key-objectives:
-  - Inicializar, desenvolver e manter aplicações Angular a partir da interface de linha de comando
+  - A Interface de Linha de Comando (CLI) do Angular é uma ferramenta de interface de linha de comando que você utiliza para inicializar, desenvolver, estruturar e manter aplicações Angular diretamente de um shell de comando.
+  - Aprender a sintaxe 'ng [argumento-opcional] [opções]'
+  - Conhecer os comandos mais importantes, como 'ng add', 'ng build', 'ng update', 'ng deploy', 'ng new', 'ng test', entre outros
 aditional-objectives:
 contents:
   - type: SITE
@@ -12,7 +14,7 @@ contents:
     title: "Desenvolva Aplicações Full-Stack com Angular CLI e Nx"
     link: https://ricardo-mello.medium.com/desenvolva-aplica%C3%A7%C3%B5es-full-stack-com-angular-cli-e-nx-2f8dce62975f
   - type: YOUTUBE
-    title: "Cristian William Dev: Angular CLI: Comandos que você deve saber"
+    title: "Cristian William Dev: Angular CLI - Comandos que você deve saber"
     link: https://www.youtube.com/watch?v=lIbBYa07u3Q
   - type: YOUTUBE
     title: "Loiane Groner: Angular CLI - Instalação e criação de projetos: ng new e ng serve"

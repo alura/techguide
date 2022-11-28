@@ -2,6 +2,7 @@ name: Angular - Services
 logo: 
 short-description:
 key-objectives:
+  - Um serviço é uma categoria ampla que engloba qualquer valor, função ou funcionalidade que uma aplicação necessite. Um serviço é tipicamente uma classe com um propósito conciso e bem definido. O Angular distingue componentes de serviços, para aumentar a modularidade e a reusabilidade.
   - Criar dados que estarão sempre disponíveis
   - Dividir a aplicação web em diversas partes
 aditional-objectives:

@@ -2,8 +2,10 @@ name: Angular - Gerenciamento de Estado
 logo: 
 short-description:
 key-objectives:
+  - Um 'estado' (state) é qualquer dado necessário para reconstruir UI (Interface de Usuário) qualquer momento. A alteração desses dados desencadeará um redesenho da interface do usuário. O gerenciamento do estado é o conceito de adicionar, atualizar, remover e ler esses dedos e seus 'estados' em uma aplicação.
   - Atualizar componentes em tempo real
   - Esperar por alterações em algum componente e executar alterações
+  - Usar Redux, NGXS e outros
 aditional-objectives:
 contents:
   - type: ARTICLE
