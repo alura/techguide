@@ -10,6 +10,8 @@ expertise:
         priority: 10
       - python-for-data-science:
         priority: 10
+      - jupyter-colaboratory:
+        priority: 10
       - r-for-data-science:
         priority: 10
         optional: true

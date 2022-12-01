@@ -6,6 +6,7 @@ key-objectives:
   - Transformar dados brutos em características
   - Realçar os problemas dos modelos preditivos
   - Melhorar a precisão do modelo para novos dados
+  - Selecionar e criar features utilizando as bibliotecas Pandas e Scikit-learn
 aditional-objectives:
 contents:
   - type: ARTICLE
@@ -30,6 +31,9 @@ alura-contents:
   - type: ARTICLE
     title: "Desmistificando termos em Machine Learning"
     link: https://www.alura.com.br/artigos/desmistificando-termos-machine-learning
+  - type: ARTICLE
+    title: "get_dummies vs OneHotEncoder: qual método escolher?"
+    link: https://www.alura.com.br/artigos/get-dummies-vs-onehotencoder-qual-metodo-escolher
   - type: COURSE
     title: "Curso Data Science: analise e visualização de dados"
     link: https://cursos.alura.com.br/course/data-science-primeiros-passos
