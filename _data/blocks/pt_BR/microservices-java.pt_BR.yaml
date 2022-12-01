@@ -6,6 +6,7 @@ key-objectives:
   - Aprender o conceito de arquitetura planejada para microsserviços
   - Realizar a comunicação usando APIs
   - Melhorar a escalabilidade de um sistema
+  - Conhecer o framework Spring
 aditional-objectives:
 contents:
   - type: ARTICLE
@@ -14,6 +15,15 @@ contents:
   - type: ARTICLE
     title: "Amazon: O que são microsserviços?"
     link: https://aws.amazon.com/pt/microservices/
+  - type: ARTICLE
+    title: "Dev.to: Microsserviços com Spring Cloud: Introdução"
+    link: https://dev.to/womakerscode/microsservicos-com-spring-cloud-introducao-3cn6
+  - type: SITE
+    title: "Vídeo aula sobre microsserviços em Java com Spring Boot"
+    link: https://gasparbarancelli.com/post/video-aula-sobre-microsservicos-em-java-com-spring-boot?lang=pt
+  - type: ARTICLE
+    title: "Oracle: Desenvolva um Aplicativo Java RESTful baseado em Microsserviços"
+    link: https://docs.oracle.com/pt-br/solutions/develop-microservice-java-app/index.html
   - type: YOUTUBE
     title: "Otavio Lemos: Microsserviços | O mínimo que você precisa saber"
     link: https://www.youtube.com/watch?v=eN8dFfTrEtQ
@@ -27,6 +37,9 @@ alura-contents:
   - type: YOUTUBE
     title: "Alura: Fundamentos de Microsserviços"
     link: https://www.youtube.com/watch?v=KMzE6y8ACnU
+  - type: YOUTUBE
+    title: "Alura: Spring Boot acelere o desenvolvimento de microsserviços"
+    link: https://www.youtube.com/watch?v=TX1NztPbvMw
   - type: PODCAST
     title: "Hipsters.tech: Microserviços - Hipsters 17"
     link: https://cursos.alura.com.br/extra/hipsterstech/microservicos-hipsters-17-a569
@@ -51,3 +64,18 @@ alura-contents:
   - type: COURSE
     title: "Curso Microsserviços na prática: entendendo a tomada de decisões"
     link: https://cursos.alura.com.br/course/Microsservicos-pratica-tomada-decisoes
+  - type: COURSE
+    title: "Curso Microsserviços na prática: implementando com Java e Spring"
+    link: https://cursos.alura.com.br/course/microsservicos-implementando-java-spring
+  - type: COURSE
+    title: "Curso Microservices com Spring Cloud: Registry, Config Server e Distributed Tracing"
+    link: https://cursos.alura.com.br/course/microservices-spring-cloud-service-registry-config-server
+  - type: COURSE
+    title: "Curso Microservices com Spring Cloud: Circuit Breaker, Hystrix e API Gateway"
+    link: https://cursos.alura.com.br/course/microservices-spring-cloud-circuit-breaker-api-gateway
+  - type: COURSE
+    title: "Formação Java e Microsserviços com Spring e RabbitMQ"
+    link: https://cursos.alura.com.br/formacao-java-microsservicos
+  - type: SITE
+    title: "Livro Casa do Código: Back-end Java - Microsserviços, Spring Boot e Kubernetes"
+    link: https://www.casadocodigo.com.br/products/livro-backend-java

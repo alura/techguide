@@ -4,6 +4,7 @@ short-description:
 key-objectives:
   - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
   - Aprender sobre corrotinas
+  - Coroutinas são generalizações de sub-rotinas. Elas são utilizadas para multitarefas cooperativas onde um processo cede controle voluntariamente, periodicamente ou quando ocioso, a fim de permitir que múltiplas aplicações sejam executadas simultaneamente.
   - Lidar com concorrência
   - Conhecer o conceito de objetos aguardáveis
   - Criar tarefas concorrentemente

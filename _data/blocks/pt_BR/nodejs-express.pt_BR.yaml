@@ -7,7 +7,8 @@ key-objectives:
   - Gerenciar requisições de diferentes verbos HTTP em diferentes URLs
   - Definir as configurações comuns da aplicação web, como a porta a ser usada para conexão e a localização dos modelos que são usados para renderizar a resposta
   - Criar manipuladores de rotas usando o método 'router'
-  - Conhecer as diversas bibliotecas e frameworks do ecossistema Node.js para APIs, como ''
+  - Conhecer a bibliotecas 'Router' e seus verbos HTTP, como 'get', 'post', 'put', etc.
+  - Definir endpoints com route paths
 aditional-objectives:
 contents:
   - type: SITE
