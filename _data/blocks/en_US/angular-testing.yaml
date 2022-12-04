@@ -1,0 +1,37 @@
+name: Angular - Testes
+logo: 
+short-description:
+key-objectives:
+  - Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.
+  - Using unit tests
+  - Using integration testing
+  - Using behavioral testing
+  - Using mocks
+  - Getting acquainted with Jasmine and/or Karma
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Angular Documentation - Angular Testing"
+    link: https://angular.io/guide/testing
+  - type: ARTICLE
+    title: "A Complete Guide To AngularJS Testing"
+    link: https://dev.to/lambdatest/a-complete-guide-to-angularjs-testing-lf3
+  - type: ARTICLE
+    title: "Intro to Testing in Angular"
+    link: https://dev.to/prestonjlamb/intro-to-testing-in-angular-4o3m
+  - type: ARTICLE
+    title: "An Angular Testing Cheatsheet"
+    link: https://dev.to/lysofdev/an-angular-testing-cheatsheet-5hj2
+  - type: YOUTUBE
+    title: "Fireship: Angular Testing Quick Start"
+    link: https://www.youtube.com/watch?v=BumgayeUC08
+  - type: YOUTUBE
+    title: "Genka: Angular Unit Test Tutorial - Crash Course for Angular & Jasmine"
+    link: https://www.youtube.com/watch?v=ibatZSCgXLY
+  - type: YOUTUBE
+    title: "Oasis Digital: Angular component testing"
+    link: https://www.youtube.com/watch?v=xJ45MGDAi6c
+  - type: YOUTUBE
+    title: "Angular University: Angular Testing - Step-by-Step Test Implementation (Playlist)"
+    link: https://www.youtube.com/watch?v=7Qd0d4ViiDk&list=PLOa5YIicjJ-XA6uwvBtOLltsVvBHP6g3v
+alura-contents:

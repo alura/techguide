@@ -4,6 +4,7 @@ short-description:
 key-objectives:
   - Obter os dados que serão analisados
   - Tratar os dados obtidos, transformando-os, alterando sua estrutura e valores a fim de deixar a base de dados mais coerente e garantir que os dados que serão trabalhados estejam nas melhores condições para serem analisados
+  - Utilizar as bibliotecas Pandas e Scikit-learn para tratar os dados
 aditional-objectives:
 contents:
   - type: ARTICLE

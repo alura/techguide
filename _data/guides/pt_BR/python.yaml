@@ -60,7 +60,7 @@ collaboration:
         priority: 7
       - sql-fundamentals:
         priority: 9
-  - name: Boas práticas
+  - name: Boas práticas e ferramentas
     blocks:
       - solid:
         priority: 7
@@ -68,3 +68,9 @@ collaboration:
         priority: 7
       - design-patterns:
         priority: 7
+      - jupyter-colaboratory:
+        priority: 5
+        optional: true
+      - data-extraction-and-processing:
+        priority: 5
+        optional: true

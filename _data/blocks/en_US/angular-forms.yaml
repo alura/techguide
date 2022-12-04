@@ -1,0 +1,34 @@
+name: Angular - Forms
+logo: 
+short-description:
+key-objectives:
+  - A web form is an online page that allows for user input. It is an interactive page that mimics a paper document or form, where users fill out particular fields.
+  - Creating forms with Template Forms
+  - Creating reactive forms with Reactive Forms
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Angular Documentation - Introduction to forms in Angular"
+    link: https://angular.io/guide/forms-overview
+  - type: SITE
+    title: "Angular Documentation - Building a template-driven form"
+    link: https://angular.io/guide/forms
+  - type: SITE
+    title: "Angular Documentation - Reactive forms"
+    link: https://angular.io/guide/reactive-forms
+  - type: ARTICLE
+    title: "Angular Forms: Useful Tips"
+    link: https://medium.com/angular-in-depth/angular-forms-useful-tips-9f3a9826292e
+  - type: ARTICLE
+    title: "Angular Forms in Depth"
+    link: https://blog.nrwl.io/angular-forms-in-depth-ecb7c58166b5
+  - type: YOUTUBE
+    title: "Programming with Mosh: Building Forms in Angular Apps"
+    link: https://www.youtube.com/watch?v=hAaoPOx_oIw
+  - type: YOUTUBE
+    title: "Simplilearn: Angular Forms Tutorial"
+    link: https://www.youtube.com/watch?v=-bGgjgx3fGs
+  - type: YOUTUBE
+    title: "Fireship: Reactive Forms - The Basics"
+    link: https://www.youtube.com/watch?v=JeeUY6WaXiA
+alura-contents:

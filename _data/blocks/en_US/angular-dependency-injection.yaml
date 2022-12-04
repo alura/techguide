@@ -1,0 +1,31 @@
+name: Angular - Dependency Injection
+logo: 
+short-description:
+key-objectives:
+  - Dependency Injection (DI) allows you to declare the dependencies of your TypeScript classes without taking care of their instantiation. Instead, Angular handles the instantiation for you. This design pattern allows you to write more testable and flexible code.
+  - Declaring your classes' dependencies
+  - Injecting dependencies into a Component
+  - Getting to know Injection Tokens
+  - Configuring providers
+  - Understanding Hierarchical Dependency Injection
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Angular Documentation - Understanding dependency injection"
+    link: https://angular.io/guide/dependency-injection
+  - type: SITE
+    title: "Angular Documentation - Dependency injection in action"
+    link: https://angular.io/guide/dependency-injection-in-action
+  - type: SITE
+    title: "Angular Dependency Injection: Complete Guide"
+    link: https://blog.angular-university.io/angular-dependency-injection/
+  - type: ARTICLE
+    title: "Angular Dependency Injection Explained with Examples"
+    link: https://www.freecodecamp.org/news/angular-dependency-injection/
+  - type: YOUTUBE
+    title: "Codevolution: Angular Tutorial - Dependency Injection"
+    link: https://www.youtube.com/watch?v=OFPIGlxunL0
+  - type: YOUTUBE
+    title: "Decoded Frontend: Angular Dependency Injection – Understanding hierarchical injectors"
+    link: https://www.youtube.com/watch?v=G8zXugcYd7o
+alura-contents:

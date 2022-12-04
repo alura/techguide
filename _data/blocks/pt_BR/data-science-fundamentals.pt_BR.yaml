@@ -7,7 +7,7 @@ key-objectives:
   - Conhecer as principais funções, como 'describe', 'info', etc
   - Entender o papel de visualizações como histogramas e boxplots
   - Saber o que são variáveis categóricas nominais e ordinais
-  - Explorar os dados em Python com as bibliotecas Pandas, Matplotlib, Seaborn, etc
+  - Explorar os dados em Python com as bibliotecas Pandas, Matplotlib, Seaborn e Numpy
 aditional-objectives:
 contents:
   - type: SITE
@@ -25,6 +25,9 @@ contents:
   - type: ARTICLE
     title: "Introdução a Biblioteca Pandas"
     link: https://medium.com/tech-grupozap/introdu%C3%A7%C3%A3o-a-biblioteca-pandas-89fa8ed4fa38
+  - type: ARTICLE
+    title: "Entendendo a biblioteca NumPy"
+    link: https://medium.com/ensina-ai/entendendo-a-biblioteca-numpy-4858fde63355
   - type: YOUTUBE
     title: "Mariane Neiva: Ciência de dados: o que é, o que estudar e como é o trabalho"
     link: https://www.youtube.com/watch?v=_zk5Sg-hQnE

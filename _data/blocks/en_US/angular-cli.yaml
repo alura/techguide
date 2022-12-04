@@ -1,0 +1,25 @@
+name: Angular - CLI (Command-Line Interface)
+logo: 
+short-description:
+key-objectives:
+  - The Angular CLI is a command-line interface tool that you use to initialize, develop, scaffold, and maintain Angular applications directly from a command shell.  
+  - Learning the syntax 'ng [optional-arg] [options]'
+  - Getting to know important commands, like 'ng add', 'ng build', 'ng update', 'ng deploy', 'ng new', 'ng test', among others
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Angular Documentation - CLI"
+    link: https://angular.io/cli
+  - type: ARTICLE
+    title: "Angular Console — The UI for the Angular CLI"
+    link: https://blog.nrwl.io/angular-console-the-ui-for-the-angular-cli-a5d0924240b7
+  - type: ARTICLE
+    title: "6 Best Practices & Pro Tips when using Angular CLI"
+    link: https://tomastrajan.medium.com/6-best-practices-pro-tips-for-angular-cli-better-developer-experience-7b328bc9db81
+  - type: YOUTUBE
+    title: "Angular: Meet the Angular CLI"
+    link: https://www.youtube.com/watch?v=cRQFZDC7Fs8
+  - type: YOUTUBE
+    title: "Fireship: Angular CLI - The Basics"
+    link: https://www.youtube.com/watch?v=IZEolKjcjks
+alura-contents:
