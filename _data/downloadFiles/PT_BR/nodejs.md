@@ -49,7 +49,8 @@
    - Gerenciar requisições de diferentes verbos HTTP em diferentes URLs
    - Definir as configurações comuns da aplicação web, como a porta a ser usada para conexão e a localização dos modelos que são usados para renderizar a resposta
    - Criar manipuladores de rotas usando o método 'router'
-   - Conhecer as diversas bibliotecas e frameworks do ecossistema Node.js para APIs, como ''
+   - Conhecer a bibliotecas 'Router' e seus verbos HTTP, como 'get', 'post', 'put', etc.
+   - Definir endpoints com route paths
 - [ ] **Node.js - ORM**:
    - Object-Relational Mapping (ORM), em português, mapeamento objeto-relacional, é uma técnica utilizada para fazer o mapeamento entre sistemas orientados a objetos e bancos de dados relacionais, onde as tabelas do banco de dados são representadas em classes e os registros das tabelas seriam instâncias dessas classes.
    - Entender o que são ORMs e para que são utilizados
@@ -70,7 +71,7 @@
    - Escrever código em TypeScript com suas ferramentas (interfaces, enum, decorators, etc)
    - Desenvolver aplicações em TypeScript
 ## Nivel 3
-- [ ] **Microsserviços**:
+- [ ] **Arquitetura de Microsserviços**:
    - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
    - Aprender o conceito de arquitetura planejada para microsserviços
    - Realizar a comunicação usando APIs

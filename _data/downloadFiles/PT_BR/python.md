@@ -65,7 +65,7 @@
    - Funções lambda nada mais são do que funções anônimas. Enquanto funções normais podem ser criada utilizando def como prefixo, as funções lambda são criadas utilizando lambda.
    - Uma closure em Python é um objeto de função interna, uma função que se comporta como um objeto, que se lembra e tem acesso a variáveis no escopo local em que foi criado, mesmo depois que a função externa tenha terminado de ser executada. Também pode ser definida como um meio de ligar dados a uma função sem passá-los como parâmetro.
 ## Nivel 3
-- [ ] **Microsserviços**:
+- [ ] **Arquitetura de Microsserviços**:
    - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
    - Aprender o conceito de arquitetura planejada para microsserviços
    - Realizar a comunicação usando APIs
@@ -76,6 +76,7 @@
 - [ ] **Python - Assíncrono**:
    - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
    - Aprender sobre corrotinas
+   - Coroutinas são generalizações de sub-rotinas. Elas são utilizadas para multitarefas cooperativas onde um processo cede controle voluntariamente, periodicamente ou quando ocioso, a fim de permitir que múltiplas aplicações sejam executadas simultaneamente.
    - Lidar com concorrência
    - Conhecer o conceito de objetos aguardáveis
    - Criar tarefas concorrentemente
@@ -132,7 +133,7 @@
    - Usar DELETE para remover dados de uma tabela
    - Usar JOIN para conectar os dados de múltiplas tabelas
    - Conhecer as cláusulas (FROM, ORDER BY, etc)
-## Habilidade Auxiliar: Boas práticas 
+## Habilidade Auxiliar: Boas práticas e ferramentas 
 - [ ] **SOLID**:
    - O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
 - [ ] **Clean Architecture**:
@@ -140,3 +141,12 @@
 - [ ] **Design Patterns**:
    - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
    - Conhecer e aplicar os principais Design Patterns
+- [ ] **Jupyter e Colab**:
+   - Jupyter Notebook e Google Colaboratory são Notebooks que permitem a criação de blocos de texto e blocos de código
+   - Os Notebooks facilitam a elaboração de projetos de Data Science por ser possível visualizar o resultado da execução logo após o trecho de código
+   - O Google Colaboratory permite escrever e executar códigos Python diretamente no navegador, sem nenhuma ou poucas configurações necessárias
+   - Eles facilitam o compartilhamento de projetos entre o time
+- [ ] **Extração e Tratamento de Dados**:
+   - Obter os dados que serão analisados
+   - Tratar os dados obtidos, transformando-os, alterando sua estrutura e valores a fim de deixar a base de dados mais coerente e garantir que os dados que serão trabalhados estejam nas melhores condições para serem analisados
+   - Utilizar as bibliotecas Pandas e Scikit-learn para tratar os dados

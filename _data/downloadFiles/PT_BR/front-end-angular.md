@@ -21,11 +21,13 @@
    - Escrever código em TypeScript com suas ferramentas (interfaces, enum, decorators, etc)
    - Desenvolver aplicações em TypeScript
 - [ ] **RxJS - Fundamentos**:
+   - A RxJS é uma biblioteca para a composição de programas assíncronos e baseados em eventos, utilizando sequências observáveis. Ela fornece o tipo núcleo, o Observable, tipos satélite (Observer, Schedulers, Subjects) e operadores inspirados nos métodos Array (map, filter, reduce, every, etc.) para permitir a manipulação de eventos assíncronos como coleções.
    - Criar programas assíncronos
    - Criar programas baseados em eventos
    - Entender o conceito de observables e sequências de observables
    - Entender como usar Observers, Subscription, Subject
 - [ ] **Angular - Fundamentos**:
+   - Angular é uma framework de construção de aplicações e plataforma de desenvolvimento construído em TypeScript para criar aplicações eficientes e sofisticadas de página única (SPA).
    - Construir interfaces utilizando HTML, CSS e TypeScript
    - Criar aplicações SPA
    - Construir aplicações web, mobile ou desktop
@@ -33,18 +35,21 @@
    - Utilizar a composição para criar componentes reutilizáveis
    - Utilizar serviços do tipo Resolver
    - Manipular requisições criando serviços do tipo Interceptor
-- [ ] **O Pattern Observer**:
+- [ ] **O pattern Observer**:
+   - Em engenharia de software, o padrão (pattern) chamado Observer é um padrão de projeto de software no qual um objeto, chamado de sujeito (subject), mantém uma lista de seus dependentes, chamados de observadores (observers), e os notifica automaticamente de qualquer mudança de estado, geralmente chamando um de seus métodos.
    - Entender o que são Design Patterns
-   - Atualizar diversos elementos simultaneamente
+   - Atualizar diversos elementos simultaneamente usando Observers
    - Declarar os Subjects
    - Criar programas baseados em eventos
 ## Nivel 2
 - [ ] **Angular - Templates**:
-   - Como usar os templates
+   - Em Angular, templates são um modelo para um fragmento de uma interface de usuário (IU). Templates são escritos em HTML, e uma sintaxe especial pode ser usada dentro de um template para construir com base em muitas das características do Angular.
 - [ ] **Angular - Renderização**:
+   - Uma aplicação Angular normal é executada no navegador, renderizando páginas no DOM em resposta às ações do usuário. A Angular Universal executa no servidor, gerando páginas de aplicação estática que mais tarde são inicializadas no cliente.
    - Exibir uma página Angular no navegador
    - Realizar renderização no lado do servidor
 - [ ] **Angular - Services**:
+   - Um serviço é uma categoria ampla que engloba qualquer valor, função ou funcionalidade que uma aplicação necessite. Um serviço é tipicamente uma classe com um propósito conciso e bem definido. O Angular distingue componentes de serviços, para aumentar a modularidade e a reusabilidade.
    - Criar dados que estarão sempre disponíveis
    - Dividir a aplicação web em diversas partes
 - [ ] **Angular - Roteamento**:
@@ -52,28 +57,40 @@
    - Incluir um parâmetro de rota
    - Controlar o fluxo de navegação do seu usuário com guarda de rotas
 - [ ] **Angular - CLI (Interface de Linha de Comando)**:
-   - Inicializar, desenvolver e manter aplicações Angular a partir da interface de linha de comando
+   - A Interface de Linha de Comando (CLI) do Angular é uma ferramenta de interface de linha de comando que você utiliza para inicializar, desenvolver, estruturar e manter aplicações Angular diretamente de um shell de comando.
+   - Aprender a sintaxe 'ng [argumento-opcional] [opções]'
+   - Conhecer os comandos mais importantes, como 'ng add', 'ng build', 'ng update', 'ng deploy', 'ng new', 'ng test', entre outros
 ## Nivel 3
 - [ ] **Angular - Gerenciamento de Estado**:
+   - Um 'estado' (state) é qualquer dado necessário para reconstruir UI (Interface de Usuário) qualquer momento. A alteração desses dados desencadeará um redesenho da interface do usuário. O gerenciamento do estado é o conceito de adicionar, atualizar, remover e ler esses dedos e seus 'estados' em uma aplicação.
    - Atualizar componentes em tempo real
    - Esperar por alterações em algum componente e executar alterações
+   - Usar Redux, NGXS e outros
 - [ ] **Angular - Formulários**:
+   - Um formulário web é uma página online que aceita inseção de dados (inputs) do usuário. É uma página interativa que imita um documento ou formulário em papel, onde os usuários preenchem determinados campos.
    - Criar formulários com Template Forms
-   - Criar formulários com reativos com Reactive Forms
+   - Criar formulários reativos com Reactive Forms
 - [ ] **Angular - Módulos**:
-   - Registrar componentes
+   - Um módulo (Module), diferentemente de um componente, não controla nenhuma view. Um módulo é constituído de um ou mais componentes. Uma aplicação Angular tem que ter no mínimo um módulo que contenha mínimo um componente (Component).
+   - Como usar a classe ngModule
    - Declarar quais componentes podem ser usados por componentes de outros módulos
    - Declarar quais services serão injetados
    - Aprender a modularizar uma aplicação
+   - Carregar módulos como Lazy
 - [ ] **Angular - Injeção de Dependências**:
+   - A injeção de dependência permite declarar as dependências de suas classes TypeScript sem cuidar de sua instanciação. Em vez disso, o Angular trata da instanciação para você. Este design pattern permite escrever um código mais testável e flexível.
    - Declarar as dependências de suas classes
    - Injetar dependências em um componente
+   - Conhecer os Injection Tokens
+   - Configurar providers
+   - Entender a Injeção de Dependência Hierárquica
 - [ ] **Angular - Testes**:
    - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
    - Usar testes unitários
    - Usar testes de integração
    - Usar testes de comportamento (behavior)
    - Usar mocks
+   - Familiarizar-se com Jasmine e/ou Karma
 - [ ] **GraphQL**:
    - GraphQL é uma linguagem de consulta e manipulação de dados de código aberto para APIs. É considerada uma alternativa para arquiteturas REST.
    - Aprender o que é GraphQL e por que foi criado
