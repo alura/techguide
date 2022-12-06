@@ -1,0 +1,31 @@
+name: Node.js - Testing
+logo: 
+short-description:
+key-objectives:
+  - Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.
+  - Using unit tests
+  - Using integration testing
+  - Using behavioral testing
+  - Using mocks
+  - Learn the concepts of BDD (Behavior-Driven Development) and TDD (Test-Driven Development)
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Unit Testing in Node.js: The Basics and a Quick Tutorial"
+    link: https://brightsec.com/blog/unit-testing-in-nodejs/
+  - type: ARTICLE
+    title: "A Node.js Guide to Actually Doing Integration Tests"
+    link: https://www.toptal.com/nodejs/nodejs-guide-integration-tests
+  - type: ARTICLE
+    title: "Revisiting Node.js Testing: Part 1"
+    link: https://codeburst.io/revisiting-node-js-testing-part-1-84c33bb4d711
+  - type: YOUTUBE
+    title: "Sam Meech-Ward: Testing Node Server with Jest and Supertest"
+    link: https://www.youtube.com/watch?v=FKnzS_icp20
+  - type: ARTICLE
+    title: "Marius Espejo: NodeJS Express Test-Driven API Development (TDD)"
+    link: https://www.youtube.com/watch?v=M44umyYPiuo
+  - type: ARTICLE
+    title: "MammothInteractive: Simple Node.js Unit Testing with Mocha"
+    link: https://www.youtube.com/watch?v=xDI2KK2gSgQ
+alura-contents:

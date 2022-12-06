@@ -1,0 +1,38 @@
+name: Node.js - Express
+logo: 
+short-description:
+key-objectives:
+  - Express is a flexible Node.js web application framework that provides a robust feature set for web and mobile applications.
+  - Using the Express framework to build REST APIs with Node.js
+  - Managing requests for different HTTP verbs on different URLs
+  - Defining ports that will be used for connection and the location of the templates that are used to render the response
+  - Creating route handlers using the 'router' method
+  - Getting to know the 'Router' libraries and their HTTP verbs, such as 'get', 'post', 'put', etc
+  - Defining endpoints with route paths
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Express.js - Documentation"
+    link: https://expressjs.com/
+  - type: SITE
+    title: "Express.js - Documentation - Routing"
+    link: https://expressjs.com/en/guide/routing.html
+  - type: ARTICLE
+    title: "MDN Web Docs: Introduction to Express/Node.js"
+    link: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction#introducing_express
+  - type: ARTICLE
+    title: "Going out to eat and understanding the basics of Express.js"
+    link: https://medium.com/free-code-camp/going-out-to-eat-and-understanding-the-basics-of-express-js-f034a029fb66
+  - type: ARTICLE
+    title: "Build A RESTful Api With Node.js And Express.Js"
+    link: https://medium.com/@haybams/build-a-restful-api-with-node-js-and-express-js-d7e59c7a3dfb
+  - type: ARTICLE
+    title: "Understanding Express.js: Creating Your Own Node HTTP Request Router"
+    link: https://medium.com/hackernoon/understanding-express-js-creating-your-own-node-http-request-router-4190a9b6aad6
+  - type: YOUTUBE
+    title: "Web Dev Simplified: Learn Express JS In 35 Minutes"
+    link: https://www.youtube.com/watch?v=SccSCuHhOw0
+  - type: YOUTUBE
+    title: "Traversy Media: Express JS Crash Course"
+    link: https://www.youtube.com/watch?v=L72fhGm1tfE
+alura-contents:

@@ -4,8 +4,9 @@ short-description:
 key-objectives:
   - NestJS é um framework Node com total suporte a TypeScript e que roda sobre frameworks HTTP como expressJS ou Fastify. Ele utiliza diversos elementos de programação orientada a objetos e uma série de funcionalidades do TypeScript.
   - Aprender o que é o NestJS e por que é utilizado
+  - Utilizar recursos específicos do NestJS, como providers, módulos e controllers
   - Desenvolver APIs usando o NestJS
-  - Utilizar recursos específicos do NestJS
+  - Usar a Interface de Linha de Comando (CLI) do Nest.js
 aditional-objectives:
 contents:
   - type: SITE

@@ -5,7 +5,7 @@ key-objectives:
   - O Express é um framework de aplicações web Node.js flexível que fornece um conjunto robusto de recursos para aplicativos da web e mobile.
   - Utilizar o framework Express para criação de APIs REST com Node.js
   - Gerenciar requisições de diferentes verbos HTTP em diferentes URLs
-  - Definir as configurações comuns da aplicação web, como a porta a ser usada para conexão e a localização dos modelos que são usados para renderizar a resposta
+  - Definir a porta a ser usada para conexão e a localização dos modelos que são usados para renderizar a resposta
   - Criar manipuladores de rotas usando o método 'router'
   - Conhecer a bibliotecas 'Router' e seus verbos HTTP, como 'get', 'post', 'put', etc.
   - Definir endpoints com route paths

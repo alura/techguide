@@ -1,0 +1,33 @@
+name: Node.js - ORM
+logo: 
+short-description:
+key-objectives:
+  - Object-Relational Mapping (ORM) is a technique used to map object-oriented systems to relational databases, where the database tables are represented in classes and the table records would be instances of these classes.
+  - Understanding what ORMs are and what they are used for
+  - Knowing SQL and its database managers
+  - Working with Sequelize, an ORM used with Node.js
+  - Knowing other Node.js ORMs, like Prisma
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Sequelize - Documentation"
+    link: https://sequelize.org/
+  - type: ARTICLE
+    title: "What is an ORM and Why You Should Use it"
+    link: https://blog.bitsrc.io/what-is-an-orm-and-why-you-should-use-it-b2b6f75f5e2a
+  - type: ARTICLE
+    title: "The Ultimate Guide To Get Started With Sequelize ORM"
+    link: https://levelup.gitconnected.com/the-ultimate-guide-to-get-started-with-sequelize-orm-238588d3516e
+  - type: ARTICLE
+    title: "Adding Sequelize To Your Node.js App"
+    link: https://medium.com/mtholla/integrating-sequelize-into-your-node-app-a446353fb5ee
+  - type: YOUTUBE
+    title: "PedroTech: How to Use Sequelize ORM in NodeJS - Tutorial"
+    link: https://www.youtube.com/watch?v=Crk_5Xy8GMA
+  - type: YOUTUBE
+    title: "Traversy Media: Build a Node.js App With Sequelize"
+    link: https://www.youtube.com/watch?v=tF-ly2sB3hU
+  - type: YOUTUBE
+    title: "Adnan Halilovic: Learn Prisma MySQL CRUD with NodeJS in simple and easy steps!"
+    link: https://www.youtube.com/watch?v=mmjQ280wnIw
+alura-contents:
