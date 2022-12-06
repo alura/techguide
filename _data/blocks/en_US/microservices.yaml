@@ -1,0 +1,35 @@
+name: Microservices Architecture
+logo: 
+short-description:
+key-objectives:
+  - Microservices are an architectural approach in which software consists of small independent services that communicate with each other and are organized according to their business domains.
+  - Learning the concept of planned architecture for microservices
+  - Performing communication using APIs
+  - Improving the scalability of a system
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Google Cloud: Microservice architecture style"
+    link: https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices
+  - type: SITE
+    title: "Amazon: What are microservices?"
+    link: https://aws.amazon.com/en/microservices/
+  - type: ARTICLE
+    title: "The What, Why, and How of a Microservices Architecture"
+    link: https://medium.com/hashmapinc/the-what-why-and-how-of-a-microservices-architecture-4179579423a9
+  - type: ARTICLE
+    title: "Understanding Microservices: From Idea To Starting Line"
+    link: https://medium.com/free-code-camp/microservices-from-idea-to-starting-line-ae5317a6ff02
+  - type: YOUTUBE
+    title: "TechWorld with Nana: Microservices explained - the What, Why and How?"
+    link: https://www.youtube.com/watch?v=rv4LlmLmVWk
+  - type: YOUTUBE
+    title: "ByteByteGo: What Are Microservices Really All About? (And When Not To Use It)"
+    link: https://www.youtube.com/watch?v=_Oyy5PFOIcU
+  - type: YOUTUBE
+    title: "InfoQ: Mastering Chaos - A Netflix Guide to Microservices"
+    link: https://www.youtube.com/watch?v=CZ3wIuvmHeM
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Microservice Architecture and System Design with Python & Kubernetes – Full Course"
+    link: https://www.youtube.com/watch?v=hmkF77F9TLw
+alura-contents:
