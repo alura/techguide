@@ -1,0 +1,162 @@
+name:  Fundamentos de JavaScript 
+logo: 
+short-description: JavaScript es el lenguaje de programación más popular del mundo y es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. Tiene escritura dinámica, orientación a objetos basada en prototipos y funciones de primera clase. Es un paradigma múltiple que admite estilos de programación imperativos, funcionales e impulsados ​​por eventos.
+
+key-objectives:
+  - Declarar variables, considerando la diferencia entre 'var', 'let' y 'const
+  - Uso de estructuras condicionales ('if', 'else')
+  - Conocer los operadores de comparación ('=', '==', '===')
+  - Uso de estructuras de repetición y bucles ('while', 'for')
+  - Usar funciones, pasar parámetros y argumentos
+  - Manipulación de arreglos y listas
+  - Obtener datos de una API
+  - Hacer llamadas asincrónicas usando 'Async/Await', 'Promise', etc.
+
+aditional-objectives:
+  - Manipulating JSON objects
+  - Using template literals
+  - Using arrow functions
+  - Performing destructuring when reading arrays
+  - Using the 'forEach' structure
+  - Manipulating arrays with 'map', 'filter' and 'reduce
+contents:
+  - type: SITE
+    title: "W3Schools: JavaScript Syntax"
+    link: https://www.w3schools.com/js/js_syntax.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Variables"
+    link: https://www.w3schools.com/js/js_variables.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Operators"
+    link: https://www.w3schools.com/js/js_operators.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Comparison and Logical Operators"
+    link: https://www.w3schools.com/js/js_comparisons.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Data Types"
+    link: https://www.w3schools.com/js/js_datatypes.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Arrays"
+    link: https://www.w3schools.com/js/js_arrays.asp
+  - type: SITE
+    title: "W3Schools: JavaScript if, else, and else if"
+    link: https://www.w3schools.com/js/js_if_else.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Iterables (while, for)"
+    link: https://www.w3schools.com/js/js_iterables.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Functions"
+    link: https://www.w3schools.com/js/js_functions.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Objects"
+    link: https://www.w3schools.com/js/js_objects.asp
+  - type: SITE
+    title: "W3Schools: JavaScript Classes"
+    link: https://www.w3schools.com/js/js_classes.asp
+  - type: SITE
+    title: "MDN Web Docs: A first splash into JavaScript"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash
+  - type: SITE
+    title: "MDN Web Docs: Handling text — strings in JavaScript"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Strings
+  - type: SITE
+    title: "MDN Web Docs: if...else"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+  - type: SITE
+    title: "MDN Web Docs: while"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
+  - type: SITE
+    title: "MDN Web Docs: for"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for
+  - type: SITE
+    title: "MDN Web Docs: Arrays"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays
+  - type: SITE
+    title: "MDN Web Docs: Template strings"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
+  - type: ARTICLE
+    title: "An introduction to JavaScript’s async and await"
+    link: https://medium.com/@zellwk/an-introduction-to-javascripts-async-and-await-edb313356677
+  - type: ARTICLE
+    title: "Javascript: Map, Filter, and Reduce"
+    link: https://harsh-patel.medium.com/javascript-map-filter-and-reduce-51da071d6dc4
+    - type: ARTICLE
+    title: "Roadmap para principiantes en JavaScript:"
+    link: https://www.aluracursos.com/blog/roadmap-js
+     - type: ARTICLE
+    title: "Funciones en JavaScript "
+    link: https://www.aluracursos.com/blog/articulo-funciones-en-javascript-
+     - type: ARTICLE
+    title: "This, Getters y Setters en clases de Javascript"
+    link: https://www.aluracursos.com/blog/this-getters-y-setters-clases-de-javascript
+    - type: ARTICLE
+    title: "Async/await en JavaScript: ¿qué es y cuándo usar programación asíncrona?"
+    link: https://www.aluracursos.com/blog/asyncawait-en-javascript-que-es-y-cuando-usar-programacion-asincrona
+      - type: ARTICLE
+    title: "Escopo en JavaScript"
+    link: https://www.aluracursos.com/blog/escopo-en-javascript
+      - type: ARTICLE
+    title: "Herencia en JavaScript"
+    link: https://www.aluracursos.com/blog/herencia-en-javascript
+      - type: ARTICLE
+    title: "Conociendo Arrow Functions"
+    link: https://www.aluracursos.com/blog/conociendo-arrow-functions
+       - type: ARTICLE
+    title: "Trabajando con fechas en JavaScript"
+    link: https://www.aluracursos.com/blog/trabajando-con-fechas-en-javascript
+     - type: ARTICLE
+    title: "Trabajando con fechas en JavaScript"
+    link: https://www.aluracursos.com/blog/trabajando-con-fechas-en-javascript
+       - type: ARTICLE
+    title: "Creando y publicando una biblioteca Javascript en el NPM"
+    link: https://www.aluracursos.com/blog/creando-y-publicando-una-biblioteca-javascript-en-el-npm
+    - type: ARTICLE
+    title: "Empezando con fetch en Javascript"
+    link: https://www.aluracursos.com/blog/empezando-con-fetch-en-javascript
+     - type: ARTICLE
+    title: "JavaScript replace: manipulando Strings y regex"
+    link: https://www.aluracursos.com/blog/javascript-replace-manipulando-strings-regex
+     - type: ARTICLE
+    title: "Creando y publicando una biblioteca Javascript en el NPM"
+    link: https://www.aluracursos.com/blog/creando-y-publicando-una-biblioteca-javascript-en-el-npm
+    - type: ARTICLE
+    title: "Empezando con fetch en Javascript"
+    link: https://www.aluracursos.com/blog/empezando-con-fetch-en-javascript
+     - type: ARTICLE
+    title: "JavaScript replace: manipulando Strings y regex"
+    link: https://www.aluracursos.com/blog/javascript-replace-manipulando-strings-regex
+        - type: ARTICLE
+    title: "JavaScript: ¿Cuándo debo usar forEach y map?"
+    link: https://www.aluracursos.com/blog/javascript-cuando-debo-usar-foreach-y-map
+     - type: ARTICLE
+    title: "Empezar a programar es con JavaScript"
+    link: https://www.aluracursos.com/blog/empezar-a-programar-es-con-javascript
+    - type: ARTICLE
+    title: "Comenzando con Front-end"
+    link: https://www.aluracursos.com/blog/comenzando-con-front-end
+      - type: ARTICLE
+    title: "Organiza tu código Javascript de una manera fácil"
+    link: https://www.aluracursos.com/blog/organiza-tu-codigo-javascript-de-una-manera-facil
+- type: ARTICLE
+    title: "¿Cómo funciona el import y export de JavaScript?"
+    link: https://www.aluracursos.com/blog/como-funciona-el-import-y-export-de-javascript
+    - type: ARTICLE
+    title: "Comprenda la diferencia entre var, let y const en JavaScript"
+    link: https://www.aluracursos.com/blog/comprenda-diferencia-entre-var-let-y-const-en-javascript
+     - type: ARTICLE
+    title: "Creando un autocomplete con JavaScript"
+    link: https://www.aluracursos.com/blog/creando-un-autocomplete-com-javascript
+- type: ARTICLE
+    title: "Formatear números en JavaScript"
+    link: https://www.aluracursos.com/blog/alterando-el-formato-de-numeros-en-javascript
+  - type: YOUTUBE
+    title: "Ventajas de trabajar con TypeScript"
+    link: https://www.youtube.com/watch?v=bFrhU0hbo00&ab_channel=AluraLatam
+  - type: YOUTUBE
+    title: "Frameworks de Front End"
+    link: https://www.youtube.com/watch?v=UNeKzI2WHgQ&ab_channel=AluraLatam
+  - type: YOUTUBE
+    title: "¿Qué es JavaScript?"
+    link: https://www.youtube.com/watch?v=GJfOSoaXk4s&ab_channel=AluraLatam
+  
+alura-contents:

@@ -2,9 +2,9 @@ name: React Hooks - State
 logo: 
 short-description:
 key-objectives:
-  - Controlar o estado de componentes
-  - Manipular variáveis
-  - Atualizar o valor de elementos
+  - Controlar el estado de los componentes.
+  - Manipular variables
+  - Actualizar el valor de los elementos.
 aditional-objectives:
 contents:
   - type: SITE
@@ -32,3 +32,34 @@ alura-contents:
   - type: COURSE
     title: "Curso React: escrevendo com Typescript"
     link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript
+  - type: COURSE
+    title: "JavaScript: Introducción a la Orientación a Objetos"
+    link: https://app.aluracursos.com/course/javascript-introduccion-orientacion-objetos
+  - type: COURSE
+    title: "JavaScript: Herencia e Interfaces en Orientación a Objetos"
+    link: https://app.aluracursos.com/course/javascript-herencia-interfaces-orientacion-objetos  
+  - type: COURSE
+    title: "React: Entienda cómo funciona la biblioteca"
+    link: https://app.aluracursos.com/course/react-biblioteca
+  - type: COURSE
+    title: "React: Ciclo de vida de los componentes"
+    link: https://app.aluracursos.com/course/react-ciclo-vida-componentes
+ - type: COURSE
+    title: "React: Ciclo de vida de los componentes"
+    link: https://app.aluracursos.com/course/react-ciclo-vida-componentes
+ - type: COURSE
+    title: "React: Function Components"
+    link: https://app.aluracursos.com/course/react-components
+ - type: COURSE
+    title: "React: Hooks, contextos y buenas prácticas"
+    link: https://app.aluracursos.com/course/react-hooks-contextos-buenas-practicas
+ - type: COURSE
+    title: "React Router: Navegación en una SPA"
+    link: https://app.aluracursos.com/course/react-router-navegacion-spa
+ - type: COURSE
+    title: "React: Utilizando Styled Components"
+    link: https://app.aluracursos.com/course/react-styled-components
+ - type: COURSE
+    title: "React: Automatizando pruebas en aplicaciones front-end"
+    link: https://app.aluracursos.com/course/react-automatizando-tests-aplicaciones-front-end
+ 

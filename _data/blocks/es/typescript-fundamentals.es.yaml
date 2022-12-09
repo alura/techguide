@@ -1,0 +1,47 @@
+name: TypeScript - Fundamentos
+logo: 
+short-description:
+key-objectives:
+- TypeScript es un lenguaje de programación fuertemente tipado que se basa en JavaScript.
+- Comprender en profundidad qué son los tipos y la importancia de la programación tipificada
+- Aprender qué es TypeScript, por qué se creó, cómo funciona y su relación con JavaScript
+- Conocer las herramientas de TypeScript (integración con el editor de código, verificador estático y compilador)
+- Escribir código en TypeScript usando sus herramientas (interfaces, enumeración, decoradores, etc.)
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: Introducción a TypeScript"
+    link: https://www.w3schools.com/typescript/typescript_intro.php
+  - type: SITE
+    title: "Documentación de mecanografiado"
+    link: https://www.typescriptlang.org/docs/
+  - type: SITE
+    title: "Documentación: TypeScript para el nuevo programador"
+    link: https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html
+  - type: SITE
+    title: "TypeScript - Entendiendo TypeScript"
+    link: https://learn.microsoft.com/en-us/archive/msdn-magazine/2015/january/typescript-understanding-typescript
+  - type: ARTICLE
+    title: "W3Schools: diferencias entre JavaScript y TypeScript"
+    link: https://www.w3schools.blog/differences-between-javascript-and-typescript
+  - type: ARTICLE
+    title: "Tutorial de TypeScript: una guía paso a paso para aprender TypeScript"
+    link: https://learningdaily.dev/typescript-tutorial-a-step-by-step-guide-to-learn-typescript-70f96b7ae7c8
+  - type: YOUTUBE
+    title: "Programming with Mosh: TypeScript Tutorial for Beginners"
+    link: https://www.youtube.com/watch?v=d56mG7DezGs
+  - type: YOUTUBE
+    title: "Academind: TypeScript Course for Beginners - Learn TypeScript from Scratch"
+    link: https://www.youtube.com/watch?v=BwuLxPH8IDs
+  - type: COURSE
+    title: "TypeScript parte 1: evolucionando tu JavaScript"
+    link: https://app.aluracursos.com/course/typescript-evolucionando-javascript
+  - type: COURSE
+    title: "TypeScript parte 2: avanzando en el lenguaje"
+    link: https://app.aluracursos.com/course/typescript-parte-2-avanzando-lenguaje
+  - type: COURSE
+    title: "Typescript parte 3: técnicas y buenas prácticas"
+    link: https://app.aluracursos.com/course/typescript-parte-3-tecnicas-buenas-practicas
+
+
+alura-contents:
