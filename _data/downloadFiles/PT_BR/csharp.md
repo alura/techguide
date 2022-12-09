@@ -100,6 +100,7 @@
    - Criar funções locais que podem ser passadas como argumentos
 - [ ] **Contêineres**:
    - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
+   - O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.
    - Isolar seu software para funcionar independentemente
    - Implantar software em clusters
    - Modularizar seu sistema em pacotes menores
