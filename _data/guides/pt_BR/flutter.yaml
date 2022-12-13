@@ -24,8 +24,6 @@ expertise:
         priority: 8
       - flutter-testing:
         priority: 8
-      - flutter-firebase:
-        priority: 7
       - flutter-debugging:
         priority: 6
         optional: true
@@ -80,18 +78,20 @@ collaboration:
     #  - ci-cd:
     #    priority: 6
     #    optional: true
+      - firebase:
+        priority: 7
   - name: UX e Design
     blocks:
       - design-systems:
-        priority: 4
+        priority: 6
       - figma-fundamentals:
         priority: 7
       - design-components:
         priority: 6
       - color-systems:
-        priority: 5
+        priority: 7
       - how-to-use-fonts:
-        priority: 5
+        priority: 7
     #  - figma-accessibility:
     #    priority: 5
       - responsive-design:

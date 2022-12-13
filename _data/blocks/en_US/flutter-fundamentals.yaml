@@ -5,8 +5,8 @@ key-objectives:
   - Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase.
   - Flutter widgets are built using a modern framework that takes inspiration from React. The central idea is that you build your UI out of widgets. Widgets describe what their view should look like given their current configuration and state.
   - Installing and configuring Flutter
-  - Learning how to use basic Flutter widgets 
-  - Understanding the differences between Stateless and Stateful
+  - Learning how to use basic Flutter widgets, such as Column, Row, Scaffold, Text, Image, Container, AppBar, ElevatedButton, among other
+  - Understanding the differences between Stateless and Stateful widgets
   - Developing your first Flutter application
 aditional-objectives:
 contents:
