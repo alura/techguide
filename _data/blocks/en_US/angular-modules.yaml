@@ -1,0 +1,37 @@
+name: Angular - Modules
+logo: 
+short-description:
+key-objectives:
+  - A Module, unlike a Component, does not control any view. A Module consists of one or more Components. An Angular application must have at least one Module that contains at least one Component.
+  - Using the ngModule class
+  - Declaring which components can be used by components from other modules
+  - Declaring which services will be injected
+  - Learning how to modularize an application
+  - Lazy-loading modules
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Angular Documentation - Introduction to modules"
+    link: https://angular.io/guide/architecture-modules
+  - type: SITE
+    title: "Angular Documentation - NgModules"
+    link: https://angular.io/guide/ngmodules
+  - type: ARTICLE
+    title: "A Complete Guide to Angular Modules"
+    link: https://levelup.gitconnected.com/a-complete-guide-to-angular-modules-faf5a85e3e60
+  - type: ARTICLE
+    title: "Understanding Angular Modules"
+    link: https://itnext.io/understanding-angular-modules-5f1215130bc8
+  - type: ARTICLE
+    title: "Lazy loading modules in Angular"
+    link: https://dev.to/achimoraites/lazy-loading-modules-in-angular-3ln9
+  - type: YOUTUBE
+    title: "The Net Ninja: AngularJS Tutorial - Modules"
+    link: https://www.youtube.com/watch?v=ybnw5JwBk8g
+  - type: YOUTUBE
+    title: "Fireship: Learn NgModule in Angular with Examples"
+    link: https://www.youtube.com/watch?v=oqZ4-ULwfbc
+  - type: YOUTUBE
+    title: "Code Step By Step: Angular tutorial - Lazy Loading"
+    link: https://www.youtube.com/watch?v=JjIQq9lh-Bw
+alura-contents:

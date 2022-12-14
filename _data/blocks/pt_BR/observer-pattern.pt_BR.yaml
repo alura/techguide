@@ -1,9 +1,10 @@
-name: O Pattern Observer
+name: O pattern Observer
 logo: 
 short-description:
 key-objectives:
+  - Em engenharia de software, o padrão (pattern) chamado Observer é um padrão de projeto de software no qual um objeto, chamado de sujeito (subject), mantém uma lista de seus dependentes, chamados de observadores (observers), e os notifica automaticamente de qualquer mudança de estado, geralmente chamando um de seus métodos.
   - Entender o que são Design Patterns
-  - Atualizar diversos elementos simultaneamente
+  - Atualizar diversos elementos simultaneamente usando Observers
   - Declarar os Subjects
   - Criar programas baseados em eventos
 aditional-objectives:

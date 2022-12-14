@@ -2,13 +2,14 @@ import React from "react";
 import { Box, Link, Text } from "@src/components";
 import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
 import { TItemBlock } from "./patterns/TItemBlock";
-import { useI18n } from "@src/infra/i18n";
+import { useI18n, useI18nLocale } from "@src/infra/i18n";
 
 interface TShapeProps {
   guide: PathScreenGetGuideBySlugQuery["guide"];
 }
 export default function TShape({ guide }: TShapeProps) {
   const i18n = useI18n();
+  const locale = useI18nLocale();
   const leftSide = guide.collaborations[0];
   const rightSide = guide.collaborations[1];
   const expertiseStart = guide.expertises[0];
@@ -155,7 +156,7 @@ export default function TShape({ guide }: TShapeProps) {
         }}
       >
         <Link
-          href={`https://raw.githubusercontent.com/alura/techguide/main/_data/downloadFiles/pt_BR/${guide.slug}.md`}
+          href={`https://github.com/alura/techguide/blob/main/_data/downloadFiles/${locale}/${guide.slug}.md`}
           styleSheet={{
             marginTop: "23px",
             width: "100%",

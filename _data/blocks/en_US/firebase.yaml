@@ -1,0 +1,39 @@
+name: Flutter - Firebase
+logo: 
+short-description:
+key-objectives:
+  - Firebase is a Backend-as-a-Service (BaaS) app development platform that provides hosted backend services such as a realtime database, cloud storage, authentication, crash reporting, machine learning, remote configuration, and hosting for your static files.
+  - Understanding how to install Firebase
+  - Getting acquainted with Firebase documentation
+  - Learning about the Firebase tools available
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Flutter: Firebase"
+    link: https://docs.flutter.dev/development/data-and-backend/firebase
+  - type: ARTICLE
+    title: "Firebase — Flutter"
+    link: https://medium.com/google-developer-experts/firebase-70fd12309fd1
+  - type: SITE
+    title: "Firebase - Case studies"
+    link: https://firebase.google.com/use-cases
+  - type: SITE
+    title: "Add Firebase to your Flutter app"
+    link: https://firebase.google.com/docs/flutter/setup?platform=android
+  - type: SITE
+    title: "Add Firebase to your Android project"
+    link: https://firebase.google.com/docs/android/setup
+  - type: YOUTUBE
+    title: "Firebase: Getting started with Firebase on Flutter - Firecasts"
+    link: https://www.youtube.com/watch?v=EXp0gq9kGxI&ab_channel=Firebase
+  - type: YOUTUBE
+    title: "Firebase: Getting started with Firebase on Android - Firecasts"
+    link: https://www.youtube.com/watch?v=dRYnm_k3w1w
+  - type: YOUTUBE
+    title: "Johannes Milke: Flutter Firebase CRUD"
+    link: https://www.youtube.com/watch?v=ErP_xomHKTw
+  - type: SITE
+    title: "Firebase - Pricing plans"
+    link: https://firebase.google.com/pricing    
+alura-contents:
+  

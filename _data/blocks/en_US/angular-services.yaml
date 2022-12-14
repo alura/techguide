@@ -1,0 +1,31 @@
+name: Angular - Services
+logo: 
+short-description:
+key-objectives:
+  - Service is a broad category encompassing any value, function, or feature that an application needs. A service is typically a class with a narrow, well-defined purpose. Angular distinguishes components from services to increase modularity and reusability.
+  - Criar dados que estarão sempre disponíveis
+  - Dividir a aplicação web em diversas partes
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Angular Documentation - Introduction to services and dependency injection"
+    link: https://angular.io/guide/architecture-services
+  - type: SITE
+    title: "W3Schools: AngularJS Services"
+    link: https://www.w3schools.com/angular/angular_services.asp
+  - type: ARTICLE
+    title: "Angular Fundamentals: Creating Reusable Angular Services"
+    link: https://medium.com/@ZombieCodeKill/angular-fundamentals-creating-reusable-angular-services-405e64a7635b
+  - type: ARTICLE
+    title: "Angular Service's Best Practices"
+    link: https://levelup.gitconnected.com/angular-services-best-practices-f3d26ddaeedb
+  - type: YOUTUBE
+    title: "Codevolution: Angular Tutorial - Services"
+    link: https://www.youtube.com/watch?v=pwuGBvOPFYI
+  - type: YOUTUBE
+    title: "procademy: Creating a Service in Angular | Services & Dependency Injection"
+    link: https://www.youtube.com/watch?v=cZV3_9oE8to
+  - type: YOUTUBE
+    title: "Simplilearn: Angular Services Tutorial | Angular Services Explained | Angular Tutorial For Beginners"
+    link: https://www.youtube.com/watch?v=0v1mQB4BCIo
+alura-contents:

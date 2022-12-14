@@ -1,0 +1,47 @@
+name: Kafka
+logo: 
+short-description:
+key-objectives:
+  - O Apache Kafka é uma plataforma distribuída de transmissão de dados que é capaz de publicar, subscrever, armazenar e processar fluxos de registro em tempo real. Essa plataforma foi desenvolvida para processar fluxos de dados provenientes de diversas fontes e entregá-los a vários clientes.
+  - Utilizar o Kafka para comunicação assíncrona
+  - Criar microsserviços com Kafka
+  - Criar produtores e consumidores
+  - Entender como usar o Kafka para paralelismo e execução serializada
+  - Obter garantias relativas ao envio ou entrega das mensagens
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Red Hat: O que é Apache Kafka?"
+    link: https://www.redhat.com/pt-br/topics/integration/what-is-apache-kafka
+  - type: ARTICLE
+    title: "Kafka — Produzindo mensagens com Java"
+    link: https://medium.com/experiencecode/kafka-produzindo-mensagens-com-java-13d326223507
+  - type: ARTICLE
+    title: "Criando consumers e producers em Kafka com Java"
+    link: https://ivanqueiroz.dev/2020/09/2020-09-26-consumer-producer-kafka.html
+  - type: ARTICLE
+    title: "Apache Kafka — Aprendendo na prática"
+    link: https://medium.com/trainingcenter/apache-kafka-codifica%C3%A7%C3%A3o-na-pratica-9c6a4142a08f
+  - type: YOUTUBE
+    title: "Rodrigo Freitas: Java - Kafka para Iniciantes"
+    link: https://www.youtube.com/watch?v=3xxb_QyrFnw
+  - type: YOUTUBE
+    title: "Expertos Tech: Como conectar o JAVA com o APACHE KAFKA"
+    link: https://www.youtube.com/watch?v=Vc6kvqaU1Jg
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: O que é Kafka?"
+    link: https://www.youtube.com/watch?v=G6Tcy7hNdA8
+  - type: YOUTUBE
+    title: "Alura: Começando com Kafka - Hipsters Ponto Talks 12"
+    link: https://www.youtube.com/watch?v=aaCqcX30pzc
+  - type: PODCAST
+    title: "Hipsters.Tech: Tudo sobre Kafka - Hipsters On The Road 14"
+    link: https://www.alura.com.br/podcast/hipsterstech-tudo-sobre-kafka-hipsters-on-the-road-14-a411
+  - type: COURSE
+    title: "Formação Apache Kafka"
+    link: https://www.alura.com.br/formacao-kafka
+  - type: SITE
+    title: "Livro Apache Kafka e Spring Boot da Casa do Código"
+    link: https://www.casadocodigo.com.br/products/livro-apache-kafka
+    

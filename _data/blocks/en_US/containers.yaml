@@ -1,0 +1,44 @@
+name: Containers
+logo: 
+short-description:
+key-objectives:
+  - Containers are software packages that contain all the elements needed to run in any environment.
+  - Kubernetes (also known as k8s or “kube”) is an open source container orchestration platform that automates many of the manual processes involved in deploying, managing, and scaling containerized applications.
+  - Isolating your software to run independently
+  - Deploying software in clusters
+  - Modularizing your system into smaller packages
+  - Getting to know the Docker platform
+  - Getting to know Kubernetes
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "IBM: Containers"
+    link: https://www.ibm.com/en-us/cloud/learn/containers
+  - type: SITE
+    title: "HPE: What are containers?"
+    link: https://www.hpe.com/us/en/what-is/containers.html
+  - type: SITE
+    title: "Google Cloud: What are Containers?"
+    link: https://cloud.google.com/learn/what-are-containers
+  - type: SITE
+    title: "Azure: What is a container?"
+    link: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/
+  - type: SITE
+    title: "Kubernetes - Documentation"
+    link: https://kubernetes.io/docs/tutorials/kubernetes-basics/
+  - type: ARTICLE
+    title: "Red Hat: What is Kubernetes?"
+    link: https://www.redhat.com/en/topics/containers/what-is-kubernetes
+  - type: ARTICLE
+    title: "Azure: What is Kubernetes?"
+    link: https://azure.microsoft.com/en-us/topic/what-is-kubernetes/
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Docker Tutorial for Beginners"
+    link: https://www.youtube.com/watch?v=eLiHH9Bu04E
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Docker Containers and Kubernetes Fundamentals – Full Hands-On Course"
+    link: https://www.youtube.com/watch?v=kTp5xUtcalw
+  - type: YOUTUBE
+    title: "TechWorld with Nana: Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]"
+    link: https://www.youtube.com/watch?v=X48VuDVv0do
+alura-contents:

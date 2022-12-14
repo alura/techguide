@@ -1,0 +1,41 @@
+name: Flutter - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Flutter é um kit de desenvolvimento de software de IU de código aberto criado pelo Google. Ele é usado para desenvolver aplicativos multiplataforma para Android, iOS, Linux, macOS, Windows, Google Fuchsia e para a web a partir de um único código.
+  - Os widgets Flutter são construídos utilizando uma estrutura moderna que se inspira na React. A idéia central é que você construa sua interface de usuário a partir de widgets. Os widgets descrevem como deve ser sua visualização, dada sua configuração e estado atuais.
+  - Instalar e configurar o Flutter
+  - Conhecer e saber usar os Widgets básicos do Flutter, como Column, Row, Scaffold, Text, Image, Container, AppBar, ElevatedButton, entre outros
+  - Entender as diferenças entre widgets Stateless e Stateful
+  - Desenvolver a primeira aplicação em Flutter
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Instalando o Flutter (inglês)"
+    link: https://docs.flutter.dev/get-started/install
+  - type: SITE
+    title: "Introdução aos Widgets (inglês)"
+    link: https://docs.flutter.dev/development/ui/widgets-intro
+  - type: SITE
+    title: "Catálogo de Widgets (inglês)"
+    link: https://docs.flutter.dev/development/ui/widgets
+  - type: YOUTUBE
+    title: "Filipe Deschamps: A Primeira Aula de Flutter Que Todo Mundo Deveria Ter"
+    link: https://youtu.be/J4BVaXkwmM8
+  - type: YOUTUBE
+    title: "Flutter: Widget of the Week (Playlist em Inglês)"
+    link: https://www.youtube.com/watch?v=XawP1i314WM&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: O que é Flutter? #HipstersPontoTube"
+    link: https://youtu.be/So5C-XSfGW0
+  - type: YOUTUBE
+    title: "Alura: Live Coding | Desenvolva um aplicativo em Flutter!"
+    link: https://youtu.be/j8Swzym_EEc
+  - type: COURSE
+    title: "Flutter: Widgets, Stateless, Stateful, Imagens e Animações"
+    link: https://cursos.alura.com.br/course/flutter-widgets-stateless-stateful-imagens-animacoes
+  - type: COURSE
+    title: "Flutter: Controller, navegação e estados"
+    link: https://cursos.alura.com.br/course/flutter-controller-navegacao-estados
+  

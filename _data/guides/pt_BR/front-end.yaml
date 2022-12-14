@@ -24,9 +24,6 @@ expertise:
         priority: 8
       - javascript-errorhandling:
         priority: 7
-      - yarn:
-        optional: true
-        priority: 6
       - javascript-es6:
         priority: 8
       - javascript-modularization:
@@ -66,13 +63,14 @@ collaboration:
         priority: 10
       - json:
         priority: 8
-      - design-patterns:
-        priority: 7
       - command-line-fundamentals: 
         priority: 7
       - cloud-fundamentals: 
         priority: 6
         optional: true
+      - yarn:
+        optional: true
+        priority: 6
   - name: UX e Design
     blocks:
       - design-systems:

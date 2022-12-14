@@ -1,0 +1,33 @@
+name: Dart - Erros e Exceções
+logo: 
+short-description:
+key-objectives:
+  - O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.
+  - Entender os métodos `then` e `catchError` do Future no Dart
+  - Entender o que são erros e exceções no Dart
+  - Conhecer e saber usar a estrutura `try-on-catch-finally`
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Acervo Lima: Exceções no Dart"
+    link: https://acervolima.com/tratamento-de-excecoes-no-dart/
+  - type: SITE
+    title: "Null safety (inglês)"
+    link: https://dart.dev/null-safety
+  - type: SITE
+    title: "Entendendo null safety (inglês)"
+    link: https://dart.dev/null-safety/understanding-null-safety
+  - type: YOUTUBE
+    title: "Washington Developer: Dart - Tratamento de Erros try-catch, stack-trace, on, finally, rethrow"
+    link: https://www.youtube.com/watch?v=O4A3hHvBQ5E
+  - type: YOUTUBE
+    title: "Deivid Willyan | Flutter: Dart - Tratamento de Erros - Exceptions"
+    link: https://www.youtube.com/watch?v=MMxJacOOxoI
+alura-contents:
+  - type: SITE
+    title: "Primeiras aulas do curso Dart: lidando com Exceptions e Null Safety"
+    link: https://www.alura.com.br/conteudo/dart-lidando-exceptions-null-safety
+  - type: COURSE
+    title: "Dart: lidando com Exceptions e Null Safety"
+    link: https://cursos.alura.com.br/course/dart-lidando-exceptions-null-safety
+    

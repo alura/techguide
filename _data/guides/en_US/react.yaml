@@ -47,9 +47,6 @@ expertise:
       - typescript-fundamentals:
         priority: 5
         optional: true
-      - yarn:
-        optional: true
-        priority: 6
       - react-testing-library:
         priority: 8
       - jest:
@@ -93,28 +90,31 @@ expertise:
 collaboration:
   - name: Infrastructure and Back-end
     blocks:
-        - git-and-github-fundamentals:
-          priority: 9
-        - http-fundamentals:
-          priority: 10
-        # - first-deploy:
-        #   priority: 10
-        - json:
-          priority: 8
-        - command-line-fundamentals: 
-          priority: 8
-        - cloud-fundamentals: 
-          priority: 6
-          optional: true
+      - git-and-github-fundamentals:
+        priority: 9
+      - http-fundamentals:
+        priority: 10
+      # # - first-deploy:
+      # #   priority: 10
+      - json:
+        priority: 8
+      - command-line-fundamentals: 
+        priority: 8
+      - cloud-fundamentals: 
+        priority: 6
+        optional: true
+      - yarn:
+        optional: true
+        priority: 6
   - name: UX and Design
     blocks:
-        - design-systems:
-          priority: 4
-        - figma-fundamentals:
-          priority: 8
-        - design-components:
-          priority: 6
-        - color-systems:
-          priority: 5
-        - how-to-use-fonts:
-          priority: 5
+      - design-systems:
+        priority: 4
+      - figma-fundamentals:
+        priority: 8
+      - design-components:
+        priority: 6
+      - color-systems:
+        priority: 5
+      - how-to-use-fonts:
+        priority: 5

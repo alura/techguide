@@ -1,0 +1,38 @@
+name: WebSockets
+logo: 
+short-description:
+key-objectives:
+  - The WebSocket API is an advanced technology that makes it possible to open a two-way interactive communication session between the user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.
+  - Getting to know the WebSocket protocol and its use in client-server communication
+  - Learning about the various uses of WebSockets on the web
+  - Creating applications that use WebSockets with Node.js APIs and libraries
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: The WebSocket API (WebSockets)"
+    link: https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API
+  - type: ARTICLE
+    title: "An Introduction To WebSocket"
+    link: https://gaierken.medium.com/an-introduction-to-websocket-f4a30024b7f2
+  - type: ARTICLE
+    title: "A Brief Introduction to WebSocket"
+    link: https://javascript.plainenglish.io/a-brief-introduction-to-websocket-eada28567057
+  - type: ARTICLE
+    title: "Introduction to WebSockets with Socket.io in Node.js"
+    link: https://towardsdev.com/introduction-to-websockets-with-socket-io-in-node-js-f5bc4a693b24
+  - type: ARTICLE
+    title: "How To Create a WebSocket in Python"
+    link: https://betterprogramming.pub/how-to-create-a-websocket-in-python-b68d65dbd549
+  - type: ARTICLE
+    title: "Node.js & WebSocket — Simple chat tutorial"
+    link: https://medium.com/@martin.sikora/node-js-websocket-simple-chat-tutorial-2def3a841b61
+  - type: YOUTUBE
+    title: "Fireship: WebSockets in 100 Seconds & Beyond with Socket.io"
+    link: https://www.youtube.com/watch?v=1BfCnjr_Vjg
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: A Beginner's Guide to WebSockets"
+    link: https://www.youtube.com/watch?v=8ARodQ4Wlf4
+  - type: YOUTUBE
+    title: "Be A Better Dev: REST API (HTTP) vs Websockets - Concept Overview With Example"
+    link: https://www.youtube.com/watch?v=fG4dkrlaZAA
+alura-contents:

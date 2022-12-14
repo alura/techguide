@@ -2,6 +2,7 @@ name: Python - Métodos Especiais
 logo: 
 short-description:
 key-objectives:
+  - Métodos especiais, ou métodos mágicos, em Python são métodos predefinidos em todos os objetos, com invocação automática sob circunstâncias especiais. Eles normalmente não são chamados diretamente pelo usuário mas podem ser overloaded (sobrescritos e alterados). Seus nomes começam e terminam com sublinhados duplos chamados de dunder (uma expressão derivada de double underscore).
   - Entender o conceito de métodos especiais (ou mágicos)
   - Conhecer os principais métodos mágicos e como usá-los
 aditional-objectives:

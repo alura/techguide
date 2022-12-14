@@ -2,6 +2,7 @@ name: Angular - Renderização
 logo: 
 short-description:
 key-objectives:
+  - Uma aplicação Angular normal é executada no navegador, renderizando páginas no DOM em resposta às ações do usuário. A Angular Universal executa no servidor, gerando páginas de aplicação estática que mais tarde são inicializadas no cliente.
   - Exibir uma página Angular no navegador
   - Realizar renderização no lado do servidor
 aditional-objectives:

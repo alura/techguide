@@ -78,7 +78,7 @@ export default function FAQContentSection() {
               },
             }}
           >
-            Dúvidas e respostas frequentes sobre o Tech Guide
+            {i18n.content("FAQ.GLOBAL.TITLE")}
           </Text>
           <Box styleSheet={{ display: { xs: "none", md: "flex" } }}>
             <Arrows />

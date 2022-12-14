@@ -45,7 +45,7 @@ interface GuidesGridProps {
 export default function GuidesGrid({ guides }: GuidesGridProps) {
   return (
     <ListOfGuides>
-      {[...guides].map((guide) => (
+      {guides.map((guide) => (
         <Guide key={guide.slug}>
           <Link
             href={`/path/${guide.slug}`}

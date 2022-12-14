@@ -1,0 +1,32 @@
+name: Angular - Routing
+logo: 
+short-description:
+key-objectives:
+  - In a Single Page Application (SPA), all of your application's functions exist in a single HTML page. As users access your application's features, the browser needs to render only the parts that matter to the user, instead of loading a new page. This pattern can significantly improve your application's user experience. To define how users navigate through your application, you use routes. Add routes to define how users navigate from one part of your application to another. You can also configure routes to guard against unexpected or unauthorized behavior.
+  - Navigating to a component
+  - Including a route parameter
+  - Controllung your user's navigation flow with route guarding
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Angular Documentation - Angular Routing"
+    link: https://angular.io/guide/routing-overview
+  - type: SITE
+    title: "Angular Documentation - Using Angular routes in a single-page application"
+    link: https://angular.io/guide/router-tutorial
+  - type: SITE
+    title: "W3Schools: AngularJS Routing"
+    link: https://www.w3schools.com/angular/angular_routing.asp
+  - type: ARTICLE
+    title: "Angular Routing Made Easy — Part 1"
+    link: https://medium.com/coding-blocks/angular-6-routing-made-easy-part-1-f347c8a85947
+  - type: ARTICLE
+    title: "The Three Pillars of Angular Routing"
+    link: https://medium.com/angular-in-depth/the-three-pillars-of-angular-routing-angular-router-series-introduction-fb34e4e8758e
+  - type: YOUTUBE
+    title: "Codevolution: Angular Tutorial - Routing and Navigation"
+    link: https://www.youtube.com/watch?v=Nehk4tBxD4o
+  - type: YOUTUBE
+    title: "Fireship: Angular Router - The Basics and Beyond"
+    link: https://www.youtube.com/watch?v=Np3ULAMqwNo
+alura-contents:

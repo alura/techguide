@@ -2,8 +2,12 @@ name: Ciência de Dados - Fundamentos
 logo: 
 short-description:
 key-objectives:
-  - Utilizar algoritmos e sistemas para extrair, organizar e analisar dados a partir de diversas fontes, a fim de detectar padrões e tomar decisões de negócios
-  - As áreas de aplicação são infindáveis, como em negócios, biologia, medicina, engenharia, etc.
+  - A Ciência de Dados é o ato de utilizar algoritmos e sistemas para extrair, organizar e analisar dados a partir de diversas fontes, a fim de detectar padrões e tomar decisões de negócios. As áreas de aplicação são infindáveis, como em negócios, biologia, medicina, engenharia, etc.
+  - Conhecer o conceito de Exploração de Dados
+  - Conhecer as principais funções, como 'describe', 'info', etc
+  - Entender o papel de visualizações como histogramas e boxplots
+  - Saber o que são variáveis categóricas nominais e ordinais
+  - Explorar os dados em Python com as bibliotecas Pandas, Matplotlib, Seaborn e Numpy
 aditional-objectives:
 contents:
   - type: SITE
@@ -16,8 +20,14 @@ contents:
     title: "O que é ciência de dados? Conceitos pra quem está começando"
     link: https://medium.com/pizzadedados/ci%C3%AAncia-de-dados-para-iniciantes-3c0a855d16c7
   - type: ARTICLE
-    title: "Ciência de dados e a importância de sua humanização"
-    link: https://medium.temporalitylab.com/ci%C3%AAncia-de-dados-e-a-import%C3%A2ncia-de-sua-humaniza%C3%A7%C3%A3o-6b3bd3ab30ba
+    title: "4 Boas Maneiras de Iniciar a Exploração de Dados"
+    link: https://medium.com/data-hackers/4-boas-maneiras-de-iniciar-a-explora%C3%A7%C3%A3o-de-dados-7801dcc61c4
+  - type: ARTICLE
+    title: "Introdução a Biblioteca Pandas"
+    link: https://medium.com/tech-grupozap/introdu%C3%A7%C3%A3o-a-biblioteca-pandas-89fa8ed4fa38
+  - type: ARTICLE
+    title: "Entendendo a biblioteca NumPy"
+    link: https://medium.com/ensina-ai/entendendo-a-biblioteca-numpy-4858fde63355
   - type: YOUTUBE
     title: "Mariane Neiva: Ciência de dados: o que é, o que estudar e como é o trabalho"
     link: https://www.youtube.com/watch?v=_zk5Sg-hQnE

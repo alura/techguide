@@ -1,0 +1,39 @@
+name: Flutter - Testing
+logo: 
+short-description:
+key-objectives:
+  - Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.
+  - Understanding unit tests in Flutter
+  - Understanding widget tests in Flutter
+  - Understanding integration tests in Flutter
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Testing Flutter apps"
+    link: https://docs.flutter.dev/testing
+  - type: SITE
+    title: "An introduction to unit testing"
+    link: https://docs.flutter.dev/cookbook/testing/unit/introduction
+  - type: SITE
+    title: "An introduction to widget testing"
+    link: https://docs.flutter.dev/cookbook/testing/widget/introduction
+  - type: SITE
+    title: "Integration testing"
+    link: https://docs.flutter.dev/testing/integration-tests
+  - type: YOUTUBE
+    title: "Reso Coder: Flutter Testing Guide for Beginners - Part 1 - Unit Tests & Setup"
+    link: https://www.youtube.com/watch?v=hUAUAkIZmX0
+  - type: YOUTUBE
+    title: "Flutter Explained: Automate your Testing on Devices with Flutter Integration Testing"
+    link: https://www.youtube.com/watch?v=WPEsnJgW99M
+  - type: YOUTUBE
+    title: "Flutter: Testing Flutter Apps - Making Sure Your Code Works"
+    link: "https://youtu.be/bj-oMYyLZEY"
+  - type: YOUTUBE
+    title: "Flutter: Flutter performance tips"
+    link: https://youtu.be/PKGguGUwSYE
+  - type: SITE
+    title: "How to test a Flutter app"
+    link: https://codelabs.developers.google.com/codelabs/flutter-app-testing?hl=pt-br#0
+alura-contents:
+  

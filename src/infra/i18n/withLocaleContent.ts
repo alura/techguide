@@ -5,6 +5,7 @@ import { SiteLocale } from "@src/gql_types";
 const fileNameByLocale = {
   [SiteLocale.EnUs]: "en-US.json",
   [SiteLocale.PtBr]: "pt-BR.json",
+  [SiteLocale.Es]: "es.json",
 };
 
 export function withLocaleContent<NextContext>(

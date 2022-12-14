@@ -2,8 +2,12 @@ name: Angular - Injeção de Dependências
 logo: 
 short-description:
 key-objectives:
+  - A injeção de dependência permite declarar as dependências de suas classes TypeScript sem cuidar de sua instanciação. Em vez disso, o Angular trata da instanciação para você. Este design pattern permite escrever um código mais testável e flexível.
   - Declarar as dependências de suas classes
   - Injetar dependências em um componente
+  - Conhecer os Injection Tokens
+  - Configurar providers
+  - Entender a Injeção de Dependência Hierárquica
 aditional-objectives:
 contents:
   - type: SITE

@@ -1,0 +1,30 @@
+name: Nest.js - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - NestJS is a Node framework with full TypeScript support that runs on top of HTTP frameworks like ExpressJS or Fastify. It uses many elements of object-oriented programming and a lot of TypeScript functionality.
+  - Learning what NestJS is and why it is used
+  - Using specific NestJS features, such as providers, modules and controllers
+  - Developing APIs using NestJS
+  - Using the Nest.js CLI
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "NestJS - Documentation"
+    link: https://docs.nestjs.com/
+  - type: ARTICLE
+    title: "Nest.js - Introduction"
+    link: https://dev.to/angelmtztrc/nest-js-introduction-part-1-1k21
+  - type: ARTICLE
+    title: "Controllers the NEST.js way"
+    link: https://dev.to/xamhans/part-1-controllers-the-nest-js-way-3aab
+  - type: ARTICLE
+    title: "Dependency Injection in Nest.js"
+    link: https://dev.to/krishnakurtakoti/dependency-injection-in-nest-js-2a7j
+  - type: YOUTUBE
+    title: "Fireship: NestJS in 100 Seconds"
+    link: https://www.youtube.com/watch?v=0M8AYU_hPas
+  - type: YOUTUBE
+    title: "Academind: Learn Nest.js from Scratch by building an API"
+    link: https://www.youtube.com/watch?v=F_oOtaxb0L8
+alura-contents:

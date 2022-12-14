@@ -1,0 +1,50 @@
+name: Flutter - Deployment
+logo: 
+short-description:
+key-objectives:
+  - Software deployment includes all of the steps, processes, and activities that are required to make a software system or update available to its intended users.
+  - Learning about Dart code obfuscation techniques
+  - Learning know how to deploy Flutter applications on various platforms
+  - Understanding Flavors in Flutter
+  - Learning about Continuous Delivery in Flutter
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Obfuscating Dart code"
+    link: https://docs.flutter.dev/deployment/obfuscate
+  - type: SITE
+    title: "Build and release an Android app"
+    link: https://docs.flutter.dev/deployment/android
+  - type: SITE
+    title: "Build and release an iOS app"
+    link: https://docs.flutter.dev/deployment/ios
+  - type: SITE
+    title: "Build and release a macOS app"
+    link: https://docs.flutter.dev/deployment/macos
+  - type: SITE
+    title: "Build and release a Linux app to the Snap Store"
+    link: https://docs.flutter.dev/deployment/linux
+  - type: SITE
+    title: "Build and release a Windows desktop app"
+    link: https://docs.flutter.dev/deployment/windows
+  - type: SITE
+    title: "Build and release a web app"
+    link: https://docs.flutter.dev/deployment/web
+  - type: SITE
+    title: "Creating flavors for Flutter"
+    link: https://docs.flutter.dev/deployment/flavors
+  - type: SITE
+    title: "Continuous delivery with Flutter"
+    link: https://docs.flutter.dev/deployment/cd
+  - type: YOUTUBE
+    title: "MJSD Coding: Build and Release Flutter App to App Store"
+    link: https://youtu.be/akFF1uJWZck
+  - type: ARTICLE
+    title: "Publishing Flutter App To PlayStore"
+    link: https://medium.flutterdevs.com/publishing-flutter-app-to-playstore-fa7543b61a7b
+  - type: YOUTUBE
+    title: "Johannes Milke: How To Publish Flutter App On Play Store"
+    link: https://youtu.be/PM-wILFbPbg
+alura-contents:
+
+  

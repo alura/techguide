@@ -14,6 +14,7 @@ const defaultTypeDefs = gql`
   enum SiteLocale {
     PT_BR
     EN_US
+    ES
   }
 
   input FieldFilter {

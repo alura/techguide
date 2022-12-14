@@ -4,14 +4,16 @@ expertise:
     blocks: 
       - dart-fundamentals:
         priority: 10
-      - flutter-basic-widgets:
+      - flutter-fundamentals:
         priority: 10
       - oop-concepts:
         priority: 10
       - flutter-persistence:
         priority: 10
-      - dart-async-exceptions:
-        priority: 10  
+      - dart-asynchronous:
+        priority: 10
+      - dart-errors-and-exceptions:
+        priority: 10
       - flutter-api:
         priority: 10          
   - name: Flutter Mid
@@ -22,8 +24,6 @@ expertise:
         priority: 8
       - flutter-testing:
         priority: 8
-      - flutter-firebase:
-        priority: 7
       - flutter-debugging:
         priority: 6
         optional: true
@@ -39,18 +39,14 @@ expertise:
         optional: true
       - flutter-animations:
         priority: 8
-      - flutter-multiplat-desktop:
+      - flutter-multiplatform-desktop:
         priority: 8
-      - flutter-multiplat-web:
+      - flutter-multiplatform-web:
         priority: 8
         optional: true      
       - flutter-deployment:
         priority: 6
-        optional: true   
-      - clean-architecture:
-        priority: 6
-      - solid:
-        priority: 6
+        optional: true
       - flutter-architecture:
         priority: 6   
       - flutter-plugins:
@@ -72,22 +68,30 @@ collaboration:
       - cloud-fundamentals: 
         priority: 6
         optional: true
+      - solid:
+        priority: 6
+      - clean-architecture:
+        priority: 6
     #  - devops: 
     #    priority: 6
     #    optional: true
     #  - ci-cd:
     #    priority: 6
     #    optional: true
+      - firebase:
+        priority: 7
   - name: UX e Design
     blocks:
       - design-systems:
-        priority: 4
+        priority: 6
+      - figma-fundamentals:
+        priority: 7
       - design-components:
         priority: 6
       - color-systems:
-        priority: 5
+        priority: 7
       - how-to-use-fonts:
-        priority: 5
+        priority: 7
     #  - figma-accessibility:
     #    priority: 5
       - responsive-design:

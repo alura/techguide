@@ -1,0 +1,36 @@
+name: Node.js - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Node.js is a JavaScript execution environment that allows you to run applications developed with the language autonomously, without depending on a browser.
+  - Getting to know blocking and non-blocking operations
+  - Learning the concept of event loops
+  - Learning how to use Node.js libraries, such as 'net', 'fs', 'http', 'path', among others
+  - Understanding how Timers work
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Node.js - Documentation"
+    link: https://nodejs.dev/en/learn/
+  - type: SITE
+    title: "Node.js - Documentation - Overview of Blocking vs Non-Blocking"
+    link: https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/
+  - type: SITE
+    title: "Node.js - Documentation - Event Loop"
+    link: https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
+  - type: SITE
+    title: "Node.js - Documentation - Timers"
+    link: https://nodejs.org/en/docs/guides/timers-in-node/
+  - type: ARTICLE
+    title: "Introduction to Node.js — Create Your First Web App"
+    link: https://betterprogramming.pub/introduction-to-node-js-create-your-first-web-app-96b705c28023
+  - type: ARTICLE
+    title: "Introduction to Node.js / A beginners guide to Node.js and NPM"
+    link: https://medium.com/jspoint/introduction-to-node-js-a-beginners-guide-to-node-js-and-npm-eca9c408f9fe
+  - type: YOUTUBE
+    title: "Fireship: Node.js Ultimate Beginner’s Guide in 7 Easy Steps"
+    link: https://www.youtube.com/watch?v=ENrzD9HAZK4
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Node.js and Express.js - Full Course"
+    link: https://www.youtube.com/watch?v=Oe421EPjeBE
+alura-contents:

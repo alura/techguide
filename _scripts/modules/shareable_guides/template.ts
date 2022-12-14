@@ -25,7 +25,7 @@ ${level2.blocks.map(formatBlock).join("\n")}
 ## Nivel 3
 ${level3.blocks.map(formatBlock).join("\n")}
 ## Habilidade Auxiliar: ${collaboration1.name} 
-${collaboration2.blocks.map(formatBlock).join("\n")}
+${collaboration1.blocks.map(formatBlock).join("\n")}
 ## Habilidade Auxiliar: ${collaboration2.name} 
 ${collaboration2.blocks.map(formatBlock).join("\n")}
 `;
@@ -35,11 +35,14 @@ ${collaboration2.blocks.map(formatBlock).join("\n")}
 // Utils
 
 function formatBlock(block: GuideBlock) {
-  const itemName = block.item.name;
+  const itemName = block.item?.name;
+  const keyObjectives = block?.item?.keyObjectives;
+
+  if (!keyObjectives) return "";
 
   return `
 - [ ] **${itemName}**:
-${block.item.keyObjectives.map((ko) => `   - ${ko.name}`).join("\n")}`
+${keyObjectives.map((ko) => `   - ${ko.name}`).join("\n")}`
     .split("\n")
     .slice(1)
     .join("\n");

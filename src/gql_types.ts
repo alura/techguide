@@ -46,8 +46,10 @@ export type BlockContent = {
 };
 
 export enum BlockContentType {
+  Aluraplus = 'ALURAPLUS',
   Article = 'ARTICLE',
   Challenge = 'CHALLENGE',
+  Course = 'COURSE',
   Podcast = 'PODCAST',
   Site = 'SITE',
   Youtube = 'YOUTUBE'
@@ -178,6 +180,7 @@ export type QueryGuidesArgs = {
 
 export enum SiteLocale {
   EnUs = 'EN_US',
+  Es = 'ES',
   PtBr = 'PT_BR'
 }
 

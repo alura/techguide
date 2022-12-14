@@ -1,0 +1,36 @@
+name: RxJS - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - RxJS is a library for composing asynchronous and event-based programs by using observable sequences. It provides one core type, the Observable, satellite types (Observer, Schedulers, Subjects) and operators inspired by Array methods (map, filter, reduce, every, etc) to allow handling asynchronous events as collections.
+  - Creating asynchronous programs
+  - Creating event-based programs
+  - Understanding the concept of observables and sequences of observables
+  - Understanding how to use Observers, Subscription, Subject and others
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "RxJS - Documentation"
+    link: https://rxjs.dev/guide/overview
+  - type: SITE
+    title: "Learn RxJS - Documentation"
+    link: https://www.learnrxjs.io/
+  - type: SITE
+    title: "Angular: The RxJS library"
+    link: https://angular.io/guide/rx-library
+  - type: ARTICLE
+    title: "Creating Observables in RxJS"
+    link: https://dev.to/thisdotmedia_staff/creating-observables-in-rxjs-2b3i
+  - type: ARTICLE
+    title: "RxJS in Practice"
+    link: https://dev.to/thekiba/rxjs-in-practice-writing-our-own-ngrx-290i
+  - type: YOUTUBE
+    title: "Fireship: RxJS Quick Start with Practical Examples"
+    link: https://www.youtube.com/watch?v=3n-WCiSxu2k
+  - type: YOUTUBE
+    title: "Traversy Media: RxJS Observables Crash Course"
+    link: https://www.youtube.com/watch?v=ei7FsoXKPl0
+  - type: YOUTUBE
+    title: "DesignCourse: Learn RxJS in 60 Minutes for Beginners"
+    link: https://www.youtube.com/watch?v=PhggNGsSQyg
+alura-contents:

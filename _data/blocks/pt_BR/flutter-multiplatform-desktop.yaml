@@ -1,0 +1,32 @@
+name: Flutter - Multiplataforma Desktop
+logo: 
+short-description:
+key-objectives:
+  - Conhecer e saber usar as opções de criação em multiplataforma do Flutter
+aditional-objectives:
+contents:
+  # Desktop
+  - type: SITE
+    title: "Flutter no Desktop (inglês)"
+    link: https://flutter.dev/multi-platform/desktop  
+  - type: SITE
+    title: "Suporte para Desktop do Flutter (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/desktop
+
+  # Linux
+  - type: SITE
+    title: "Criando aplicativos para Linux com Flutter (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/linux/building
+
+  # Windows  
+  - type: SITE
+    title: "Criando aplicativos para Windows com Flutter (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/windows/building
+
+  # macOS
+  - type: SITE
+    title: "Criando aplicativos para macOS com Flutter (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/macos/building
+alura-contents:
+
+  

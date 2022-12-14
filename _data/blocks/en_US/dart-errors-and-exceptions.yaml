@@ -1,0 +1,32 @@
+name: Dart - Errors and Exceptions
+logo: 
+short-description:
+key-objectives:
+  - Error handling refers to the procedures for responding to and recovering from error conditions present in a software application. In other words, it is the process of anticipating, detecting, and resolving application, programming, or communication errors.
+  - Understanding what errors and exceptions are in Dart
+  - Learning how to use the `try-on-catch-finally` structure
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Dart – Types of Exceptions"
+    link: https://www.geeksforgeeks.org/dart-types-of-exceptions/
+  - type: SITE
+    title: "Null safety"
+    link: https://dart.dev/null-safety
+  - type: SITE
+    title: "Understanding null safety"
+    link: https://dart.dev/null-safety/understanding-null-safety
+  - type: ARTICLE
+    title: "Exceptions, Errors and asserts in Dart"
+    link: https://medium.com/flutter-community/exceptions-errors-and-asserts-in-dart-bf021794cb21
+  - type: ARTICLE
+    title: "Handling Exceptions in Dart & Flutter: Everything you need to know"
+    link: https://quickbirdstudios.com/blog/handling-exceptions-flutter-dart/
+  - type: YOUTUBE
+    title: "Johan Jurrius: Dart Errors and Exceptions - Exceptions (try-catch-finally blocks) and create own Exception class"
+    link: https://www.youtube.com/watch?v=N5HgO7dLgc8
+  - type: YOUTUBE
+    title: "Reso Coder: Proper Error Handling in Flutter & Dart"
+    link: https://www.youtube.com/watch?v=NoZde-wYGA4
+alura-contents:
+    

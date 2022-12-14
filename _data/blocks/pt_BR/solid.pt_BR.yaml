@@ -3,15 +3,14 @@ logo:
 short-description:
 key-objectives:
   - O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
-  - Conhecer boas práticas no desenvolvimento de software
 aditional-objectives:
 contents:
   - type: ARTICLE
     title: "Princípios de S.O.L.I.D em C# — Guia prático"
     link: https://medium.com/beelabacademy/princ%C3%ADpios-de-s-o-l-i-d-em-c-guia-pr%C3%A1tico-cbb1e6584284
   - type: ARTICLE
-    title: "Um pouco sobre estruturas de dados em C#"
-    link: https://guih2127.medium.com/um-pouco-sobre-estruturas-de-dados-em-c-e4371fe651d8
+    title: "Princípios SOLID que todos desenvolvedores deveriam saber"
+    link: https://rafaelcruz.azurewebsites.net/2019/05/11/principios-solid-que-todos-desenvolvedores-deveriam-saber/
   - type: YOUTUBE
     title: "Filipe Deschamps: SOLID fica fácil com Essas Ilustrações"
     link: https://www.youtube.com/watch?v=6SfrO3D4dHM
@@ -52,3 +51,6 @@ alura-contents:
   - type: COURSE
     title: "Boas práticas em PHP"
     link: https://cursos.alura.com.br/formacao-boas-praticas-php
+  - type: SITE
+    title: "Livro Casa do Código: Desbravando SOLID - Práticas avançadas para códigos de qualidade em Java moderno"
+    link: https://www.casadocodigo.com.br/products/livro-desbravando-solid

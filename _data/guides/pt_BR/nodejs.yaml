@@ -26,10 +26,12 @@ expertise:
         priority: 10
   - name: Node.js in depth
     blocks:
-      - microservices:
-        priority: 9
       - nestjs-fundamentals:
         priority: 8
+      - microservices:
+        priority: 8
+      - containers:
+        priority: 7
       - websockets:
         priority: 7
       - graphql:
@@ -39,21 +41,6 @@ expertise:
         priority: 6
         optional: true
 collaboration:
-  - name: Front-end
-    blocks:
-      - javascript-fundamentals:
-        priority: 10
-      - html-fundamentals:
-        priority: 10
-      - css-fundamentals:
-        priority: 9
-      - dom-fundamentals:
-        priority: 8
-      - javascript-accessibility:
-        priority: 7
-      - seo-strategies:
-        priority: 6
-        optional: true
   - name: Infraestrutura e boas práticas
     blocks:
       - git-and-github-fundamentals:
@@ -67,6 +54,18 @@ collaboration:
       - cloud-fundamentals: 
         priority: 6
         optional: true
-      - containers:
+  - name: Front-end
+    blocks:
+      - javascript-fundamentals:
+        priority: 10
+      - html-fundamentals:
+        priority: 10
+      - css-fundamentals:
+        priority: 9
+      - dom-fundamentals:
+        priority: 8
+      - javascript-accessibility:
+        priority: 7
+      - seo-strategies:
         priority: 6
         optional: true

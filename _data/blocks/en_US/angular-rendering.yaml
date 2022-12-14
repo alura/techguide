@@ -1,0 +1,22 @@
+name: Angular - Rendering
+logo: 
+short-description:
+key-objectives:
+  - A normal Angular application executes in the browser, rendering pages in the DOM in response to user actions. Angular Universal executes on the server, generating static application pages that later get bootstrapped on the client.
+  - Showing an Angular page on the browser
+  - Performing Server-side rendering
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Server-side rendering (SSR) with Angular Universal"
+    link: https://angular.io/guide/universal
+  - type: ARTICLE
+    title: "Angular Server-Side Rendering With Firebase — Step-By-Step Guide"
+    link: https://hamedbaatour.medium.com/angular-5-server-side-rendering-with-firebase-step-by-step-guide-ec5f4d8ef38b
+  - type: YOUTUBE
+    title: "Codeible: Server Side Rendering with Angular, Angular Universal, & Firebase"
+    link: https://www.youtube.com/watch?v=k7pLxaKkHYs
+  - type: YOUTUBE
+    title: "Angular: Hybrid Rendering In Angular"
+    link: https://www.youtube.com/watch?v=RFwjJAZOzOA
+alura-contents:

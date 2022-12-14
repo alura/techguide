@@ -2,7 +2,7 @@ name: PHP Assíncrono
 logo: 
 short-description:
 key-objectives:
-  - Entender sobre programação assíncrona
+  - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
   - Aprender a usar sockets
   - Conhecer bibliotecas de programação reativa
   - Aprender sobre corrotinas

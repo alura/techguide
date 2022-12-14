@@ -1,0 +1,37 @@
+name: Flutter - Persistence
+logo: 
+short-description:
+key-objectives:
+  - Persistence in computer science refers to saving data for future access. It also involves the actions of reading, updating and deleting data.
+  - Understanding what data persistence is
+  - Learning how to store data using SharedPreferences
+  - Learning how to use SQLite in Flutter
+  - Learning how to persist data reading and writing files
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Persist data with SQLite"
+    link: https://docs.flutter.dev/cookbook/persistence/sqlite
+  - type: SITE
+    title: "Store key-value data on disk"
+    link: https://docs.flutter.dev/cookbook/persistence/key-value
+  - type: SITE
+    title: "PRead and write files"
+    link: https://docs.flutter.dev/cookbook/persistence/reading-writing-files
+  - type: SITE
+    title: "W3Schools: SQL Syntax"
+    link: https://www.w3schools.com/sql/sql_syntax.asp
+  - type: ARTICLE
+    title: "Basic SQL Commands - The List of Database Queries and Statements You Should Know"
+    link: https://www.freecodecamp.org/news/basic-sql-commands/
+  - type: ARTICLE
+    title: "Using SQLite in Flutter"
+    link: https://medium.com/flutter-community/using-sqlite-in-flutter-187c1a82e8b
+  - type: YOUTUBE
+    title: "Learn Flutter with Me: Sqflite Tutorial | Flutter plugin for SQLite"
+    link: https://www.youtube.com/watch?v=noi6aYsP7Go
+  - type: YOUTUBE
+    title: "Johannes Milke: Flutter Tutorial - SQL Database Storage Using Sqlite & Sqflite CRUD | Android & iOS"
+    link: https://www.youtube.com/watch?v=noi6aYsP7Go
+alura-contents:
+    

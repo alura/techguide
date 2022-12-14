@@ -1,0 +1,35 @@
+name: PHP - Comunicação com APIs
+logo: 
+short-description:
+key-objectives:
+  - Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.
+  - Entender o que é uma API REST
+  - Conhecer os comandos básicos de comunicação HTTP
+  - Conhecer o cURL
+  - Construir APIs em Laravel
+  - Saber fazer requisições autenticadas para Web APIs
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Criar e consumir uma API RESTful no PHP Laravel"
+    link: https://www.twilio.com/blog/criar-e-consumir-uma-api-restful-no-php-laravel
+  - type: ARTICLE
+    title: "cURL com PHP para APIs RESTful"
+    link: https://imasters.com.br/back-end/curl-com-php-para-apis-restfull
+  - type: YOUTUBE
+    title: "Fred Tavares: Fazendo e Consumindo API com PHP"
+    link: https://www.youtube.com/watch?v=81Fy_TC6Msc
+  - type: YOUTUBE
+    title: "WDEV: Consulta de CNPJs em PHP - Consumindo a API gratuita do Speedio"
+    link: https://www.youtube.com/watch?v=BE6LhjGIfrE
+  - type: YOUTUBE
+    title: "WDEV: cURL - Enviando requisições HTTP com a libcurl do PHP"
+    link: https://www.youtube.com/watch?v=b1wBRZI6dQ8
+alura-contents:
+  - type: ARTICLE
+    title: "Curl: como usar e principais opções"
+    link: https://www.alura.com.br/artigos/curl-como-usar
+  - type: COURSE
+    title: "Curso Laravel: construindo APIs"
+    link: https://www.alura.com.br/curso-online-laravel-construindo-apis
+    
