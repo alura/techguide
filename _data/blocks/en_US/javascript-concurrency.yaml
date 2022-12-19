@@ -2,8 +2,7 @@ name: JavaScript - Concurrency
 logo: 
 short-description:
 key-objectives:
-  - In computer science, concurrency is the ability of different parts or units of a program, algorithm, or problem to be executed out-of-order or in partial order, without affecting the final outcome.
-  - Knowing the concept of concurrent programming in JavaScript
+  - Concurrency is a programming paradigm for building programs that make use of the simultaneous execution of several interactive computational tasks, which can be implemented as separate programs or as a set of threads created by a single program.
   - Executing tasks in parallel
 aditional-objectives:
 contents:

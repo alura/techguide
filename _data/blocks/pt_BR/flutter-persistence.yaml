@@ -2,7 +2,7 @@ name: Flutter - Persistência de Dados
 logo: 
 short-description:
 key-objectives:
-  - Entender o que é persistência de dados
+  - O conceito de "persistência de dados" refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.
   - Saber a armazenar dados usando o SharedPreferences
   - Aprender a usar o SQLite no Flutter
   - Aprender como persistir dados com Leitura e Escrita de arquivos

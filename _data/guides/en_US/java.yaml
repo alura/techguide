@@ -45,7 +45,7 @@ expertise:
       - kafka:
         priority: 6
 collaboration:
-  - name: Infraestrutura
+  - name: Infrastructure
     blocks:
       - git-and-github-fundamentals:
         priority: 9
@@ -60,7 +60,7 @@ collaboration:
         optional: true
       - sql-fundamentals:
         priority: 9
-  - name: Boas práticas
+  - name: Good practices
     blocks:
       - solid:
         priority: 7

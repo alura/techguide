@@ -1,9 +1,10 @@
-id: 65e19085-338a-44ad-a0d4-359f1638e48d
 name: Java - Persistência
 logo: 
 short-description:
 key-objectives:
+  - O conceito de "persistência de dados" refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.
   - Entender sobre JDBC e JPA
+  - Usar frameworks como Spring Data e Hibernate
   - Comunicar-se com um banco de dados relacional
   - Entender a diferença entre relacionamentos EAGER e LAZY
   - Planejar queries com join fetch 
@@ -32,7 +33,7 @@ contents:
     link: https://www.youtube.com/watch?v=TQQki9yQaLg
 alura-contents:
   - type: SITE
-    title: "Apostila Java Ppra Desenvolvimento Web: Bancos de Dados e JDBC"
+    title: "Apostila Java para Desenvolvimento Web: Bancos de Dados e JDBC"
     link: https://www.alura.com.br/apostila-java-web/bancos-de-dados-e-jdbc
   - type: YOUTUBE
     title: "Alura: Curso de Java e JDBC - Aula 1"

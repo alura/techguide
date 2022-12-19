@@ -1,9 +1,9 @@
-name: Java Build Tools
+name: Build tools Java
 logo: 
 short-description:
 key-objectives:
-  - Conheça as principais ferramentas de build do Java
-  - Aprenda a usar uma delas
+  - Uma build tool é um sistema que permite automatizar todas as tarefas rotineiras de um projeto de uma forma organizada e que evite que o desenvolvedor tenha que perder tempo. Em outras palavras, adicionar uma nova biblioteca, realização de testes, empacotamento e deploy, ou até mesmo, a compatibilidade entre as diversas IDEs são tarefas facilmente resolvidas com uma build tool.
+  - Conheça as principais ferramentas de build do Java, como Maven, Jenkins, Apache Ant, Gradle, etc., e como usá-las
 aditional-objectives:
 contents:
   - type: SITE

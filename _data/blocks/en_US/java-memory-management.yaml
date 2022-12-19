@@ -1,0 +1,34 @@
+name: Java - Memory management
+logo: 
+short-description:
+key-objectives:
+  - In Java, memory management is the process of allocation and de-allocation of objects, called Memory management. Java does memory management automatically. Java uses an automatic memory management system called a garbage collector. Thus, we are not required to implement memory management logic in our application.
+  - Understanding how memory and its management work in Java
+  - Understanding how the Garbage Collector works
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Java - Documentation - Introduction to Garbage Collection"
+    link: https://dev.java/learn/introduction-to-garbage-collection/
+  - type: SITE
+    title: "Java - Documentation - Garbage Collection in Java"
+    link: https://dev.java/learn/garbage-collection-in-java/
+  - type: SITE
+    title: "JavaTPoint: Memory Management in Java"
+    link: https://www.javatpoint.com/memory-management-in-java
+  - type: ARTICLE
+    title: "Java (JVM) Memory Model - Memory Management in Java"
+    link: https://www.digitalocean.com/community/tutorials/java-jvm-memory-model-memory-management-in-java
+  - type: ARTICLE
+    title: "Java Memory Management"
+    link: https://dzone.com/articles/java-memory-management
+  - type: ARTICLE
+    title: "Memory leak in Android"
+    link: https://zhangqichuan.medium.com/memory-leak-in-android-4a6a7e8d7780
+  - type: YOUTUBE
+    title: "edureka!: Memory Management Tutorial in Java | Java Stack vs Heap"
+    link: https://www.youtube.com/watch?v=fM8yj93X80s
+  - type: YOUTUBE
+    title: "Tech Primers: Understanding JVM Memory, Heap, Garbage Collection and Monitoring the JVM"
+    link: https://www.youtube.com/watch?v=bspS-uTK0IM
+alura-contents:

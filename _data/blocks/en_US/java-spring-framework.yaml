@@ -1,0 +1,35 @@
+name: Spring Framework
+logo: 
+short-description:
+key-objectives:
+  - Spring is an open source framework for the Java platform. It is a non-intrusive framework, based on the Inversion of Control (IoC) and Dependency Injection design patterns. In Spring, the container is responsible for "instantiating" classes from a Java application and defining the dependencies between them through a configuration file in XML format, inferences from the framework, what is called auto-wiring, or even annotations on classes, methods and properties. This way, Spring enables low coupling between classes in an object-oriented application.
+  - Understanding the concept of Dependency Injection
+  - Understanding the MVC pattern
+  - Using Spring Data to manipulate data
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Spring Framework - Documentation"
+    link: https://spring.io/projects/spring-framework
+  - type: SITE
+    title: "GeeksForGeeks: Introduction to Spring Framework"
+    link: https://www.geeksforgeeks.org/introduction-to-spring-framework/
+  - type: SITE
+    title: "W3Schools: Spring Tutorial"
+    link: https://www.w3schools.blog/spring-tutorial
+  - type: ARTICLE
+    title: "Spring"
+    link: https://medium.com/@vspooj/spring-a9304da78d6
+  - type: ARTICLE
+    title: "Spring Framework Fundamentals in Examples"
+    link: https://medium.com/litslink/spring-framework-fundamentals-in-examples-b37101aa9250
+  - type: ARTICLE
+    title: "Building an MVC Application With Spring Framework: A Beginner’s Tutorial"
+    link: https://www.toptal.com/spring/beginners-guide-to-mvc-with-spring-framework
+  - type: YOUTUBE
+    title: "edureka!: Spring Full Course - Learn Spring Framework in 4 Hours"
+    link: https://www.youtube.com/watch?v=VvGjZgqojMc
+  - type: YOUTUBE
+    title: "Telusko: Spring Framework Tutorial"
+    link: https://www.youtube.com/watch?v=If1Lw4pLLEo
+alura-contents:

@@ -2,9 +2,10 @@ name: Spring Framework
 logo: 
 short-description:
 key-objectives:
-  - Entender os usos do Spring Framework
+  - O Spring é um framework open source para a plataforma Java. Trata-se de um framework não intrusivo, baseado nos padrões de projeto (design patterns) de inversão de controle (IoC) e injeção de dependência. No Spring o contêiner se encarrega de "instanciar" classes de uma aplicação Java e definir as dependências entre elas através de um arquivo de configuração em formato XML, inferências do framework, o que é chamado de auto-wiring ou ainda anotações nas classes, métodos e propriedades. Dessa forma, o Spring permite o baixo acoplamento entre classes de uma aplicação orientada a objetos.
   - Entender o conceito de Injeção de Dependências
   - Entender o padrão MVC
+  - Usar o Spring Data para manipular dados
 aditional-objectives:
 contents:
   - type: SITE

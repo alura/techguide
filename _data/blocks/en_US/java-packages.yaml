@@ -1,0 +1,31 @@
+name: Java - Packages
+logo: 
+short-description:
+key-objectives:
+  - A package in Java is used to group related classes, similarly to a folder in a file directory. Packages are used to avoid name conflicts and to write a better maintainable code.
+  - Using imports and organizing your code through packages
+  - Getting to know java.lang
+  - Understanding immutability and the String class
+  - Understanding the java.lang.Object class
+  - Getting to know java.io
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Java - Documentation - Packages"
+    link: https://dev.java/learn/packages/
+  - type: SITE
+    title: "W3Schools: Java Packages"
+    link: https://www.w3schools.com/java/java_packages.asp
+  - type: ARTICLE
+    title: "Packages in Java - How to Create and Use Packages in Java?"
+    link: https://medium.com/edureka/packages-in-java-edureka-7afdd58f9f33
+  - type: YOUTUBE
+    title: "Neso Academy: Java Packages, Classes, and Methods"
+    link: https://www.youtube.com/watch?v=mgixJYEZ1Fk
+  - type: YOUTUBE
+    title: "Mike Dane: Imports & Packages"
+    link: https://www.youtube.com/watch?v=ipMdsje9J6s
+  - type: YOUTUBE
+    title: "Bro Code: Java packages"
+    link: https://www.youtube.com/watch?v=NZ7NfZD8T2Y
+alura-contents:
