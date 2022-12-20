@@ -1,0 +1,46 @@
+name: Service Workers
+logo: 
+short-description:
+key-objectives:
+  - Los trabajadores del servicio actúan esencialmente como servidores proxy que se ubican entre las aplicaciones web, el navegador y la red (cuando está disponible). Están destinados, entre otras cosas, a permitir la creación de experiencias fuera de línea efectivas, interceptar solicitudes de red y tomar las medidas adecuadas en función de si la red está disponible y actualizar los activos que residen en el servidor. También permitirán el acceso a notificaciones push y API de sincronización en segundo plano.
+contents:
+  - type: SITE
+    title: "Documentos web de MDN: API de Service Worker"
+    link: https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API
+  - type: SITE
+    title: "Documentos web de MDN: Uso de Service Workers"
+    link: https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
+  - type: SITE
+    title: "Descripción general del trabajador de servicio"
+    link: https://developer.chrome.com/docs/workbox/service-worker-overview/
+  - type: ARTICLE
+    title: "Trabajadores de servicios: los pequeños héroes detrás de Progressive Web Apps"
+    link: https://medium.com/free-code-camp/service-workers-the-little-heroes-behind-progressive-web-apps-431cc22d0f16
+  - type: ARTICLE
+    title: "Descripción de Service Workers y estrategias de almacenamiento en caché"
+    link: https://blog.bitsrc.io/understanding-service-workers-and-caching-strategies-a6c1e1cbde03
+  - type: ARTICLE
+    title: "Una introducción a los trabajadores de servicios en JavaScript"
+    link: https://codeburst.io/an-introduction-to-service-workers-in-javascript-27d6376460c2
+  - type: ARTICLE
+    title: "Trabajadores de servicio en React"
+    link: https://levelup.gitconnected.com/service-workers-in-react-8bcaccfd0356
+  - type: ARTICLE
+    title: "Guía para principiantes sobre notificaciones web push con Service Workers"
+    link: https://medium.com/@a7ul/beginners-guide-to-web-push-notifications-using-service-workers-cb3474a17679
+  - type: ARTICLE
+    title: "PWA: Cree una notificación de "Nueva actualización disponible" usando Service Workers"
+    link: https://medium.com/progressive-web-apps/pwa-create-a-new-update-available-notification-using-service-workers-18be9168d717
+  - type: YOUTUBE
+    title: "Google Chrome Developers: Introduction to Service Workers"
+    link: https://www.youtube.com/watch?v=jVfXiv03y5c
+  - type: YOUTUBE
+    title: "Google Chrome Developers: Introduction to Service Worker - Progressive Web App Training"
+    link: https://www.youtube.com/watch?v=wEPeaJgbIxQ
+  - type: YOUTUBE
+    title: "Traversy Media: Intro To Service Workers & Caching"
+    link: https://www.youtube.com/watch?v=ksXwaWHCW6k
+  - type: YOUTUBE
+    title: "The Net Ninja: PWA Tutorial for Beginners - Intro to Service Workers"
+    link: https://www.youtube.com/watch?v=hxiggHZOGlQ
+alura-contents:

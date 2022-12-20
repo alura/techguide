@@ -1,0 +1,44 @@
+name: HTTP - Fundamentos
+logo: 
+short-description:
+key-objectives:
+- HTTP significa Protocolo de transferencia de hipertexto. La comunicación entre las computadoras cliente y los servidores web se realiza mediante el envío de solicitudes HTTP y la recepción de respuestas HTTP.
+- Comprender la diferencia entre los verbos HTTP
+- Probar solicitudes y verificar los códigos de estado en el navegador
+- Aprendiendo a hacer una solicitud HTTP en la línea de comando con WGET
+- Descargar una imagen con WGET
+- Realización de una POST
+aditional-objectives:
+  - Performing a POST using POSTMAN
+contents:
+  - type: SITE
+    title: "W3Schools: What is HTTP?"
+    link: https://www.w3schools.com/whatis/whatis_http.asp
+  - type: SITE
+    title: "MDN Web Docs: An overview of HTTP"
+    link: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+  - type: SITE
+    title: "MDN Web Docs: HTTP request methods"
+    link: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+  - type: ARTICLE
+    title: "HTTP: Desmitificando el protocolo Web"
+    link: https://www.aluracursos.com/blog/http-desmitificando-el-protocolo
+  - type: ARTICLE
+    title: "¿Cual es la diferencia entre HTTP y HTTPS?"
+    link: https://www.aluracursos.com/blog/cual-es-la-diferencia-entre-http-y-https
+  - type: ARTICLE
+    title: "HTTP: Diferencias entre GET y POST"
+    link: https://www.aluracursos.com/blog/diferencias-entre-get-y-post  
+  - type: COURSE
+    title: "HTTP: La base de internet"
+    link: https://app.aluracursos.com/course/http-base-internet
+  - type: YOUTUBE
+    title: "Traversy Media: HTTP Crash Course & Exploration"
+    link: https://www.youtube.com/watch?v=iYM2zFP3Zn0
+  - type: YOUTUBE
+    title: "Curious Code: HTTP Request Methods - GET, POST, PUT, DELETE"
+    link: https://www.youtube.com/watch?v=tkfVQK6UxDI
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Postman Beginner's Course - API Testing"
+    link: https://www.youtube.com/watch?v=VywxIQ2ZXw4
+alura-contents:

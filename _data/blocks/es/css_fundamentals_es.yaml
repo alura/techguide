@@ -1,0 +1,133 @@
+name: CSS - Fundamentals
+logo: 
+short-description:
+key-objectives:
+ Las hojas de estilo en cascada (CSS) son un lenguaje de hoja de estilo usado para descubrir una presentación de un documento escrito en un lenguaje de marca, como HTML o XML. O CSS puede ser usado para estilizar textos de documentos muy básicos — por ejemplo, para alterar a cor e o tamanho de cabeçalhos e links. Ele pode ser usado para criar um layout — por ejemplo, transformando uma única columna de texto en um layout com uma área de conteúdo principal e uma barra lateral para información relacionada. Pode até ser usado para efectos como animação.
+
+-Aprendendo a estructura visual de uma página, con 'margem' e 'preenchimento'
+-Estabelecendo o tamanho com 'larga' e 'altura'
+-Aprender sobre la posición de un elemento ('estático', 'relativo' o 'absoluto')
+-Aprendiendo sobre la exposición de un elemento ('block', 'inline', 'inline-block')
+-Aprender a posicionar imágenes en relación con el texto
+-Aprendiendo sobre alinhamento
+-Aprendiendo sobre estilo de fuente
+-Aprender las diferencias y ventajas de usar las diferentes unidades de medida en CSS (%, relativo, etc.)
+-Conectando-se aos elementos (IDs, clases) de um arquivo HTML
+-Alterar as caracteristicas de um elemento quando o mouse passa sobre ele
+-Aprendendo a dimensionar caixas
+-Aprender Flexbox
+-Grado de aprendizaje
+
+
+aditional-objectives:
+  - Using a basic CSS file to reset browser assignments
+  - Learning selectors like '+', '>', '~', etc
+  - Knowing the concept of 'Components' (Atomic design is a reference) and BE<
+  - Making the page responsive with media queries
+  - Learning the concept of Mobile First
+  - Bootstrap and CSS frameworks
+  - Preprocessors                                                                  
+contents:
+  - type: SITE
+    title: "W3Schools: CSS Tutorial"
+    link: https://www.w3schools.com/css/
+  - type: SITE
+    title: "W3Schools: CSS Introduction"
+    link: https://www.w3schools.com/css/css_intro.asp
+  - type: SITE
+    title: "W3Schools: CSS Syntax"
+    link: https://www.w3schools.com/css/css_syntax.asp
+  - type: SITE
+    title: "W3Schools: CSS Selectors"
+    link: https://www.w3schools.com/css/css_selectors.asp
+  - type: SITE
+    title: "W3Schools: CSS Box Model"
+    link: https://www.w3schools.com/css/css_boxmodel.asp
+  - type: SITE
+    title: "W3Schools: CSS Units"
+    link: https://www.w3schools.com/css/css_units.asp
+  - type: SITE
+    title: "MDN Web Docs: Getting started with CSS"
+    link: https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started
+  - type: SITE
+    title: "MDN Web Docs: CSS selectors"
+    link: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
+  - type: SITE
+    title: "MDN Web Docs: Cascade and inheritance"
+    link: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+  - type: SITE
+    title: "MDN Web Docs: display property"
+    link: https://developer.mozilla.org/en-US/docs/Web/CSS/display
+  - type: SITE
+    title: "MDN Web Docs: Basic concepts of Flexbox"
+    link: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+  - type: SITE
+    title: "MDN Web Docs: Basic concepts of Grid Layout"
+    link: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+  - type: ARTICLE
+    title: "CSS Tutorial: Learn the basics of CSS in 5 minutes"
+    link: https://medium.com/free-code-camp/get-started-with-css-in-5-minutes-e0804813fc3e
+  - type: ARTICLE
+    title: "The Complete CSS Flex Tutorial"
+    link: https://jst.hashnode.dev/complete-css-flex-tutorial
+  - type: ARTICLE
+    title: "The Complete CSS Grid Tutorial"
+    link: https://jst.hashnode.dev/css-grid-tutorial
+  - type: ARTICLE
+    title: "Bootstrap ¿Qué es, cómo y cuándo utilizar?"
+    link: https://www.aluracursos.com/blog/bootstrap-que-es-como-y-cuando-utilizar
+  - type: ARTICLE
+    title: "Comprenda la propiedad Position CSS"
+    link: https://www.aluracursos.com/blog/comprenda-la-propiedad-position-css
+  - type: ARTICLE
+    title: "CSS: Grids y tablas con responsividad en la Web"
+    link: https://www.aluracursos.com/blog/CSS-Grids-y-tablas-con-responsividad-en-la-Web
+  - type: ARTICLE
+    title: "Puntos de ruptura en el diseño responsivo"
+    link: https://www.aluracursos.com/blog/puntos-de-ruptura-en-el-diseno-responsivo
+  - type: ARTICLE
+    title: "Flexbox CSS: Guia Completo, Elementos y Ejemplos"
+    link: https://www.aluracursos.com/blog/flexbox-css-guia-completo-elementos-y-ejemplos
+  - type: ARTICLE
+    title: "¿Por qué usar 'em' en su CSS hoy?"
+    link: https://www.aluracursos.com/blog/por-que-usar-em-en-tu-css-hoy
+  - type: ARTICLE
+    title: "Tu código CSS puede ser más limpio, flexible y reutilizable."
+    link: https://www.aluracursos.com/blog/tu-codigo-css-puede-ser-mas-limpio-flexible-y-reutilizable
+  - type: ARTICLE
+    title: "Creando Layouts con Css Grid Layout"
+    link: https://www.aluracursos.com/blog/creando-layouts-con-css-grid-layout
+  - type: ARTICLE
+    title: "Creación de componentes CSS con el estándar BEM"
+    link: https://www.aluracursos.com/blog/creacion-de-componentes-css-con-el-estandar-bem
+  - type: ARTICLE
+    title: "Empezando a organizar tu CSS"
+    link: https://www.aluracursos.com/blog/empezando-a-organizar-tu-css
+  - type: ARTICLE
+    title: "Reset CSS: Qué es, Ejemplos, Cómo Crear y Utilizar"
+    link: https://www.aluracursos.com/blog/reset-css-que-es-ejemplos-como-crear-y-utilizar
+  - type: ARTICLE
+    title: "¿Cómo lidiar con los límites de resolución en sitios responsivos?"
+    link: https://www.aluracursos.com/blog/como-lidiar-con-los-limites-de-resolucion-en-sitios-responsivos
+  - type: ARTICLE
+    title: "Cómo organizar el CSS en tu proyecto"
+    link: https://www.aluracursos.com/blog/como-organizar-el-css-en-tu-proyecto
+  - type: ARTICLE
+    title: "CSS: animaciones en Transition y Animation"
+    link: https://www.aluracursos.com/blog/css-animaciones-de-transition-y-animation
+  - type: ARTICLE
+    title: "Guía de Unidades en el CSS"
+    link: https://www.aluracursos.com/blog/guia-de-unidades-en-css
+  - type: ARTICLE
+    title: "Cambiando CSS con JavaScript"
+    link: https://www.aluracursos.com/blog/cambiando-css-con-javascript
+  - type: YOUTUBE
+    title: "Que rayos son las variables en CSS y como se utilizan."
+    link: https://www.youtube.com/watch?v=nJO1jjKUroI&ab_channel=FalconMasters
+  - type: YOUTUBE
+    title: "Tutorial css3: Efeito de transição"
+    link: https://www.youtube.com/watch?v=1gIjaMkLiiY&list=PLiAF6SP6K8skda8zPIJf44a6KrLb8Govh&index=2&ab_channel=DiegoCosta
+  - type: YOUTUBE
+    title: "Grid Layout: Crie layouts rapidamente com CSS3"
+    link: https://www.youtube.com/watch?v=RNvQzo4DoOA&list=PLiAF6SP6K8skda8zPIJf44a6KrLb8Govh&index=9&ab_channel=FerreiraStudios
+alura-contents:

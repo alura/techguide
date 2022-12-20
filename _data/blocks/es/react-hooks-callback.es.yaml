@@ -1,0 +1,27 @@
+name: Ganchos de reacción- devolución de llamada
+logo: 
+short-description:
+key-objectives:
+- El Hook `useCallback` de React devuelve una función de devolución de llamada memorizada.
+- Aislamiento de funciones intensivas en recursos para que no se ejecuten automáticamente en cada renderizado
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: React UseMemo Hook"
+    link: https://www.w3schools.com/react/react_usecallback.asp
+  - type: SITE
+    title: "Reaccionar: Documentación - useCallback"
+    link: https://reactjs.org/docs/hooks-reference.html#usecallback
+  - type: ARTICLE
+    title: "Tu guía para React.useCallback()"
+    link: https://dmitripavlutin.com/dont-overuse-react-usecallback/
+  - type: ARTICLE
+    title: "Cómo usar Memo y usar Callback"
+    link: https://www.developerway.com/posts/how-to-use-memo-use-callback
+  - type: YOUTUBE
+    title: "Web Dev Simplified: Learn useCallback In 8 Minutes"
+    link: https://www.youtube.com/watch?v=_AyFP5s69N4
+  - type: YOUTUBE
+    title: "Codevolution: React Hooks Tutorial - useCallback Hook"
+    link: https://www.youtube.com/watch?v=IL82CzlaCys
+alura-contents:
