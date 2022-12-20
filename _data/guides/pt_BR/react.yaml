@@ -1,6 +1,6 @@
-name: Front-end ReactJS
+name: React
 expertise:
-  - name: Front-end React Jr
+  - name: React Jr
     blocks: 
       - javascript-fundamentals:
         priority: 10
@@ -22,7 +22,7 @@ expertise:
         priority: 7
       - react-hooks-effect:
         priority: 9
-  - name: Front-end React Mid
+  - name: React Mid
     blocks:
       - react-hooks-memo:
         priority: 7
@@ -60,7 +60,7 @@ expertise:
       - babel-fundamentals:
         priority: 6
         optional: true      
-  - name: Front-end React in depth
+  - name: React in depth
     blocks:
       - lottie:
         priority: 5
