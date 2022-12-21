@@ -7,9 +7,11 @@
    - Entender como funciona o dinamismo no Dart
    - Compreender e aprender a usar o Null Safety no Dart
 - [ ] **Flutter - Fundamentos**:
+   - Flutter é um kit de desenvolvimento de software de IU de código aberto criado pelo Google. Ele é usado para desenvolver aplicativos multiplataforma para Android, iOS, Linux, macOS, Windows, Google Fuchsia e para a web a partir de um único código.
+   - Os widgets Flutter são construídos utilizando uma estrutura moderna que se inspira na React. A idéia central é que você construa sua interface de usuário a partir de widgets. Os widgets descrevem como deve ser sua visualização, dada sua configuração e estado atuais.
    - Instalar e configurar o Flutter
-   - Conhecer e saber usar os Widgets básicos do Flutter
-   - Entender as diferenças entre Stateless e Stateful
+   - Conhecer e saber usar os Widgets básicos do Flutter, como Column, Row, Scaffold, Text, Image, Container, AppBar, ElevatedButton, entre outros
+   - Entender as diferenças entre widgets Stateless e Stateful
    - Desenvolver a primeira aplicação em Flutter
 - [ ] **Conceitos de Orientação a Objetos**:
    - A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
@@ -23,7 +25,7 @@
    - Como funcionam interfaces
    - O que são abstrações
 - [ ] **Flutter - Persistência de Dados**:
-   - Entender o que é persistência de dados
+   - O conceito de "persistência de dados" refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.
    - Saber a armazenar dados usando o SharedPreferences
    - Aprender a usar o SQLite no Flutter
    - Aprender como persistir dados com Leitura e Escrita de arquivos
@@ -57,11 +59,6 @@
    - Conhecer Testes Unitários no Flutter
    - Conhecer Testes de Widgets no Flutter
    - Conhecer Testes de Integração no Flutter
-- [ ] **Flutter - Firebase**:
-   - O Firebase é uma plataforma de desenvolvimento de aplicativos Backend-as-a-Service (BaaS) que fornece serviços de backend hospedados, tais como banco de dados em tempo real, armazenamento em nuvem, autenticação, relatórios de falhas, aprendizado de máquina, configuração remota e hospedagem para seus arquivos estáticos.
-   - Entender como Instalar o Firebase no Flutter
-   - Conhecer a documentação do Firebase para o Flutter
-   - Conhecer as ferramentas do Firebase disponíveis para o Flutter
 - [ ] **Flutter - Depuração**:
    - Depuração (em inglês "debugging" ou "debug") é o processo de encontrar e reduzir defeitos num aplicativo de software ou mesmo em hardware. Erros de software incluem aqueles que previnem o programa de ser executado e aqueles que produzem um resultado inesperado.
    - Conhecer as técnicas e ferramentas de depuração no Flutter
@@ -137,6 +134,11 @@
    - O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
 - [ ] **Clean Architecture**:
    - A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.
+- [ ] **Firebase**:
+   - O Firebase é uma plataforma de desenvolvimento de aplicativos Backend-as-a-Service (BaaS) que fornece serviços de backend hospedados, tais como banco de dados em tempo real, armazenamento em nuvem, autenticação, relatórios de falhas, aprendizado de máquina, configuração remota e hospedagem para seus arquivos estáticos.
+   - Entender como Instalar o Firebase
+   - Conhecer a documentação do Firebase
+   - Conhecer as ferramentas do Firebase disponíveis
 ## Habilidade Auxiliar: UX e Design 
 - [ ] **Design Systems**:
    - Um Design Systems (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
@@ -150,6 +152,9 @@
    - Definir uma paleta de cores que faça sentido para determinada interface
 - [ ] **Como usar fontes**:
    - Escolher a fonte mais adequada para determinado projeto
+- [ ] **Acessibilidade em Flutter**:
+   - Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e aplicativos sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas.
+   - Escrever código com acessibilidade em mente
 - [ ] **Design Responsivo**:
    - Ajustar suas páginas para o tamanho da tela do usuário
    - Media queries

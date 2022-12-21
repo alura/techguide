@@ -1,6 +1,7 @@
 # Java
 ## Nivel 1
 - [ ] **Java - Fundamentos**:
+   - Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.
    - Conhecer os tipos primitivos
    - Declarar variáveis, considerando os diferentes tipos
    - Usar estruturas condicionais ('if', 'else')
@@ -24,11 +25,13 @@
    - Como funcionam interfaces
    - O que são abstrações
 - [ ] **Java - Manipulação de Erros**:
+   - O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.
    - Tratar exceções pré-definidas
    - Uso de 'try' e 'catch'
    - Criar exceções específicas
    - Fazer o processo de Debug
 - [ ] **Java - Coleções**:
+   - Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
    - Aprender os usos e diferenças entre List, Set e Map
    - Aprender os usos e diferenças entre Equals e HashCode
    - Saiba trabalhar com ArrayList, LinkedList ou Vector
@@ -40,6 +43,7 @@
    - Usar testes de comportamento (behavior)
    - Usar mocks
 - [ ] **Java - Pacotes**:
+   - Um pacote (package) em Java é usado para agrupar classes relacionadas, de forma semelhante a uma pasta em um diretório de arquivos. Os pacotes são usados para evitar conflitos de nomes e para escrever um código de melhor manutenção.
    - Use imports e organize o seu código através de packages
    - Conhecer a java.lang
    - Entender a imutabilidade e a classe String
@@ -51,22 +55,28 @@
    - Implementar as principais estruturas de dados
 ## Nivel 2
 - [ ] **JVM**:
+   - Máquina virtual Java (em inglês, Java Virtual Machine, JVM) é um programa que carrega e executa os aplicativos Java, convertendo os bytecodes em código executável de máquina. A JVM é responsável pelo gerenciamento dos aplicativos, à medida que são executados. Graças à máquina virtual Java, os programas escritos em Java podem funcionar em qualquer plataforma de hardware e software que possua uma versão da JVM, tornando assim essas aplicações independentes da plataforma onde funcionam.
    - Entender como funciona a máquina virtual do Java
 - [ ] **Java - Gerenciamento da Memória**:
+   - Em Java, o gerenciamento de memória é o processo de alocação e desalocação de objetos, chamado de gerenciamento de memória. Java faz o gerenciamento de memória automaticamente. Java usa um sistema de gerenciamento automático de memória chamado de Garbage Collector (coletor de lixo). Assim, não somos obrigados a implementar a lógica de gerenciamento de memória em nossa aplicação.
    - Entender como funciona a memória e seu gerenciamento em Java
    - Entender como funciona a memória o Garbage Collector
 - [ ] **Spring Framework**:
-   - Entender os usos do Spring Framework
+   - O Spring é um framework open source para a plataforma Java. Trata-se de um framework não intrusivo, baseado nos padrões de projeto (design patterns) de inversão de controle (IoC) e injeção de dependência. No Spring o contêiner se encarrega de "instanciar" classes de uma aplicação Java e definir as dependências entre elas através de um arquivo de configuração em formato XML, inferências do framework, o que é chamado de auto-wiring ou ainda anotações nas classes, métodos e propriedades. Dessa forma, o Spring permite o baixo acoplamento entre classes de uma aplicação orientada a objetos.
    - Entender o conceito de Injeção de Dependências
    - Entender o padrão MVC
+   - Usar o Spring Data para manipular dados
 - [ ] **Spring Boot**:
+   - O Spring Boot é um framework de código aberto baseado em Java usado para criar microserviços com o Spring Framework. Ele é usado para construir aplicações Spring independentes e prontas para produção.
    - Criar aplicações Spring standalone
    - Usar os servidores HTTP embutidos
-- [ ] **Java Build Tools**:
-   - Conheça as principais ferramentas de build do Java
-   - Aprenda a usar uma delas
+- [ ] **Build tools Java**:
+   - Uma build tool é um sistema que permite automatizar todas as tarefas rotineiras de um projeto de uma forma organizada e que evite que o desenvolvedor tenha que perder tempo. Em outras palavras, adicionar uma nova biblioteca, realização de testes, empacotamento e deploy, ou até mesmo, a compatibilidade entre as diversas IDEs são tarefas facilmente resolvidas com uma build tool.
+   - Conheça as principais ferramentas de build do Java, como Maven, Jenkins, Apache Ant, Gradle, etc., e como usá-las
 - [ ] **Java - Persistência**:
+   - O conceito de "persistência de dados" refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.
    - Entender sobre JDBC e JPA
+   - Usar frameworks como Spring Data e Hibernate
    - Comunicar-se com um banco de dados relacional
    - Entender a diferença entre relacionamentos EAGER e LAZY
    - Planejar queries com join fetch
@@ -79,6 +89,7 @@
    - Realizar a comunicação usando APIs
    - Melhorar a escalabilidade de um sistema
 - [ ] **Java - Concorrência**:
+   - Programação concorrente é um paradigma de programação para a construção de programas que fazem uso da execução simultânea de várias tarefas computacionais interativas, que podem ser implementadas como programas separados ou como um conjunto de threads criadas por um único programa.
    - Executar tarefas simultaneamente
    - Colocar tarefas para aguardar até que um determinado evento ocorra
    - Entender como a memória funciona nessa situação
@@ -91,9 +102,11 @@
    - Conhecer a plataforma Docker
    - Conhecer Kubernetes
 - [ ] **Java - Rede e Sockets**:
+   - O termo programação com sockets refere-se à escrita de programas que são executados em vários computadores nos quais os dispositivos estão todos conectados uns aos outros usando uma rede.
    - Abrir uma sessão de comunicação interativa entre o navegador do usuário e um servidor
    - Enviar mensagens para um servidor e receber respostas sem consultar o servidor
 - [ ] **Java - Servlets**:
+   - Um servlet é uma classe Java utilizada para estender as capacidades dos servidores que hospedam aplicações acessadas através de um modelo de programação do tipo requisição-resposta. Embora os servlets possam responder a qualquer tipo de requisição, eles são comumente usados para estender as aplicações hospedadas por servidores web. Para tais aplicações, a tecnologia Java Servlet define classes servlet específicas para HTTP.
    - Criar páginas web dinâmicas em Java
    - Lidar com requisições para um servidor
    - Conhecer o ciclo de vida de um servlet
@@ -136,6 +149,7 @@
    - Conhecer os maiores provedores de cloud
    - Especializar-se em algum provedor
 - [ ] **SQL - Fundamentos**:
+   - SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.
    - Conhecer os comandos mais comuns do SQL
    - Usar SELECT para consultar uma tabela
    - Usar INSERT para inserir dados em uma tabela
@@ -151,3 +165,11 @@
 - [ ] **Design Patterns**:
    - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
    - Conhecer e aplicar os principais Design Patterns
+- [ ] **Clean Code**:
+   - Aplicar técnicas simples que visam facilitar a escrita e leitura de um código
+   - Refatorar seu código para que fique mais claro
+- [ ] **Conceitos de Design Orientado a Domínio (Domain-Driven Design - DDD)**:
+   - O Design Orientado a Domínio (DDD) é uma abordagem ao projeto e desenvolvimento de software que é primeiramente informado pelos requisitos de negócios. Os componentes do programa (objetos, classes, matrizes, etc.) indicam a indústria, setor ou domínio empresarial em que o negócio opera.
+   - Modelar domínios de forma efetiva
+   - Basear projetos complexos em modelos do domínio
+   - Conhecer os blocos de construção de DDD

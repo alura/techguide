@@ -119,7 +119,7 @@
    - Manipular dados armazenados
    - Persistir dados armazenados
 - [ ] **JavaScript - Concorrência**:
-   - Conhecer o conceito de programação concorrente em JavaScript
+   - Programação concorrente é um paradigma de programação para a construção de programas que fazem uso da execução simultânea de várias tarefas computacionais interativas, que podem ser implementadas como programas separados ou como um conjunto de threads criadas por um único programa.
    - Executar tarefas paralelamente
 - [ ] **TypeScript - Fundamentos**:
    - TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript.

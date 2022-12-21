@@ -25,6 +25,7 @@
    - Uso de 'try' e 'catch'
    - Criar exceções específicas
 - [ ] **PHP - Persistência**:
+   - O conceito de "persistência de dados" refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.
    - Conhecer o PDO
    - Fazer inserções, alterações e remoções em um banco de dados
    - Fazer consultas em um banco de dados usando filtros
@@ -125,6 +126,7 @@
    - Conhecer os maiores provedores de cloud
    - Especializar-se em algum provedor
 - [ ] **SQL - Fundamentos**:
+   - SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.
    - Conhecer os comandos mais comuns do SQL
    - Usar SELECT para consultar uma tabela
    - Usar INSERT para inserir dados em uma tabela

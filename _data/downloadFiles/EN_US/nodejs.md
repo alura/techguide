@@ -19,7 +19,6 @@
    - Error handling refers to the response and recovery procedures from error conditions present in a software application. In other words, it is the process comprised of anticipation, detection and resolution of application, programming or communication errors.
    - Knowing and handling the most common exceptions
    - Knowing the types of errors and in which situations they can occur
-   - Understanding how Node.js handles errors
    - Using 'try' and 'catch' for error handling
    - Learning on what occasions and how to use `throw`
    - Creating specific exceptions according to your application's needs
