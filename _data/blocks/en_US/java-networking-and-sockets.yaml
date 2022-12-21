@@ -1,0 +1,37 @@
+name: Java - Networking and Sockets
+logo: 
+short-description:
+key-objectives:
+  - Networking is a concept of connecting two or more computing devices together so that we can share resources. Socket programming provides facility to share data between different computing devices through a network.
+  - Opening an interactive communication session between the user's browser and a server
+  - Sending messages to a server and receive replies without querying the server
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Java - Documentation - All About Sockets"
+    link: https://docs.oracle.com/javase/tutorial/networking/sockets/index.html
+  - type: SITE
+    title: "Baeldung: A Guide to Java Sockets"
+    link: https://www.baeldung.com/a-guide-to-java-sockets
+  - type: SITE
+    title: "JavaTPoint: Java Networking"
+    link: https://www.javatpoint.com/java-networking
+  - type: SITE
+    title: "JavaTPoint: Java Socket Programming"
+    link: https://www.javatpoint.com/socket-programming
+  - type: ARTICLE
+    title: "Know All About Socket Programming In Java"
+    link: https://medium.com/edureka/socket-programming-in-java-f09b82facd0
+  - type: ARTICLE
+    title: "Socket Programming in Java"
+    link: https://medium.com/analytics-vidhya/socket-programming-in-java-75918f7e99bf
+  - type: YOUTUBE
+    title: "edureka!: Socket Programming in Java | Client Server Architecture | Java Networking"
+    link: https://www.youtube.com/watch?v=BqBKEXLqdvI
+  - type: YOUTUBE
+    title: "ThenisH: Java socket programming - Simple client server program"
+    link: https://www.youtube.com/watch?v=-xKgxqG411c
+  - type: YOUTUBE
+    title: "WittCode: Java Socket Programming - Multiple Clients Chat"
+    link: https://www.youtube.com/watch?v=gLfuZrrfKes
+alura-contents:

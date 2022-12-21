@@ -1,11 +1,11 @@
-name: Flutter - Firebase
+name: Firebase
 logo: 
 short-description:
 key-objectives:
   - O Firebase é uma plataforma de desenvolvimento de aplicativos Backend-as-a-Service (BaaS) que fornece serviços de backend hospedados, tais como banco de dados em tempo real, armazenamento em nuvem, autenticação, relatórios de falhas, aprendizado de máquina, configuração remota e hospedagem para seus arquivos estáticos.
-  - Entender como Instalar o Firebase no Flutter
-  - Conhecer a documentação do Firebase para o Flutter
-  - Conhecer as ferramentas do Firebase disponíveis para o Flutter
+  - Entender como Instalar o Firebase
+  - Conhecer a documentação do Firebase
+  - Conhecer as ferramentas do Firebase disponíveis
 aditional-objectives:
 contents:
   - type: SITE
@@ -17,6 +17,9 @@ contents:
   - type: SITE
     title: "Adicionando o Firebase ao App Flutter | Firebase Docs"
     link: https://firebase.google.com/docs/flutter/setup?platform=android
+  - type: SITE
+    title: "Adicionando o Firebase ao seu projeto Android | Firebase Docs"
+    link: https://firebase.google.com/docs/android/setup
   - type: YOUTUBE
     title: "Firebase: Começando no Firebase com Flutter - Firecasts (inglês)"
     link: https://www.youtube.com/watch?v=EXp0gq9kGxI&ab_channel=Firebase
@@ -27,6 +30,18 @@ contents:
     title: "Precificação do Firebase | Firebase"
     link: https://firebase.google.com/pricing?hl=pt-br    
 alura-contents:
+  - type: ARTICLE
+    title: "Integrando App Android com o Firebase Cloud Messaging"
+    link: https://www.alura.com.br/artigos/integrando-app-android-com-o-firebase-cloud-messaging
+  - type: ARTICLE
+    title: "Tratando notificações recebidas do Firebase no Android"
+    link: https://www.alura.com.br/artigos/tratando-notificacoes-recebidas-do-firebase-no-android
+  - type: ARTICLE
+    title: "Autenticando com a conta Google no Android utilizando o Firebase Authentication"
+    link: https://www.alura.com.br/artigos/autenticando-no-google-com-firebase-authentication
+  - type: ARTICLE
+    title: "Flutter: Tratamento de exceções com Firebase Crashlytics"
+    link: https://www.alura.com.br/artigos/tratamento-de-execucoes-com-firebase-crashlytics
   - type: YOUTUBE
     title: "Alura: Primeiros passos em Cloud Firestore no Flutter (Parte 1) | #AluraMais"
     link: https://youtu.be/6jsR5CXhHOs
@@ -37,7 +52,10 @@ alura-contents:
     title: "Alura: Registro de exceções no Firebase Crashlytics | #AluraMais"
     link: https://www.youtube.com/watch?v=L0LjsG_eNyY&ab_channel=AluraCursosOnline
   - type: COURSE
-    title: "Flutter: Push Notifications com Firebase Cloud Messaging"
+    title: "Curso Flutter: Push Notifications com Firebase Cloud Messaging"
     link: https://www.alura.com.br/curso-online-flutter-push-notifications-firebase-cloud-messaging
+  - type: COURSE
+    title: "Formação Firebase com Android"
+    link: https://www.alura.com.br/formacao-firebase-android
   # Em breve teremos uma formação Firebase com Flutter
   

@@ -1,0 +1,24 @@
+name: JVM
+logo: 
+short-description:
+key-objectives:
+  - The Java Virtual Machine (JVM) is a program that loads and runs Java applications, converting the bytecodes into machine-executable code. The JVM is responsible for managing the applications as they run. Thanks to the Java Virtual Machine, programs written in Java can run on any hardware and software platform that has a version of the JVM, thus making these applications independent of the platform they run on.
+  - Entender como funciona a máquina virtual do Java
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: Java Virtual Machine (JVM)"
+    link: https://www.w3schools.in/java/java-virtual-machine
+  - type: ARTICLE
+    title: "JVM Tutorial - Java Virtual Machine Architecture Explained for Beginners"
+    link: https://www.freecodecamp.org/news/jvm-tutorial-java-virtual-machine-architecture-explained-for-beginners/
+  - type: ARTICLE
+    title: "Understanding JVM Architecture"
+    link: https://medium.com/platform-engineer/understanding-jvm-architecture-22c0ddf09722
+  - type: YOUTUBE
+    title: "Siben Nayak: JVM Tutorial - Java Virtual Machine Architecture Explained for Beginners"
+    link: https://www.youtube.com/watch?v=jnpuRvRdTgI
+  - type: YOUTUBE
+    title: "Devoxx: A Visual Introduction to Inner-Workings of the JVM"
+    link: https://www.youtube.com/watch?v=JLFjY6Ixct8
+alura-contents:

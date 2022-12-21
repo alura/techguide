@@ -1,0 +1,27 @@
+name: Java - Collections
+logo: 
+short-description:
+key-objectives:
+  - A collection represents a group of objects, known as its elements. They are like containers that group multiple items in a single unit. Some collections allow duplicate elements and others do not. Some are ordered and others unordered.
+  - Learn the uses and differences between List, Set and Map
+  - Learn the uses and differences between Equals and HashCode
+  - Learn to work with ArrayList, LinkedList or Vector
+  - Wrapper classes
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Collections in Java - Everything You MUST Know"
+    link: https://www.digitalocean.com/community/tutorials/collections-in-java-tutorial
+  - type: ARTICLE
+    title: "Collections in Java"
+    link: https://www.javatpoint.com/collections-in-java
+  - type: ARTICLE
+    title: "Java Collections Framework - Collections in Java With Examples"
+    link: https://medium.com/edureka/java-collections-6d50b013aef8
+  - type: YOUTUBE
+    title: "Programming with Mosh: Java Collections Tutorial"
+    link: https://www.youtube.com/watch?v=eLiHH9Bu04E
+  - type: YOUTUBE
+    title: "edureka!: Java Collections"
+    link: https://www.youtube.com/watch?v=Ma7u6KEKzPE
+alura-contents:
