@@ -1,0 +1,35 @@
+name: Excel
+logo: 
+short-description:
+key-objectives:
+- Microsoft Excel es un editor de hojas de cálculo producido por Microsoft con herramientas de cálculo y de construcción de tablas.
+- Realizar las operaciones matemáticas básicas con sus operadores (suma, resta, multiplicación y división).
+- Conocer las principales fórmulas, como 'MEDIA' (AVERAGE), 'ARRED' (ROUND), 'MÁXIMO' (MAX), 'MÍNIMO' (MIN), etc.
+- Realizar búsquedas en columnas con la función 'PROCV'.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Aprendizajes en vídeo de Excel"
+    link: https://support.microsoft.com/es-es/office/aprendizajes-en-vídeo-de-excel-9bc05390-e94c-46af-a5b3-d7c22f6990bb
+  - type: SITE
+    title: "PROMEDIO (función PROMEDIO)"
+    link: https://support.microsoft.com/es-es/office/promedio-función-promedio-047bac88-d466-426c-a32b-8f33eb960cf6
+  - type: SITE
+    title: "Redondear un número"
+    link: https://support.microsoft.com/es-es/office/redondear-un-número-f82b440b-689d-4221-b21e-38da99d33435
+  - type: SITE
+    title: "Función BUSCARV"
+    link: https://support.microsoft.com/es-es/office/función-buscarv-0bbc8083-26fe-4963-8ab8-93a18ad188a1
+alura-contents:
+  - type: YOUTUBE
+    title: "¿Sabes utilizar Excel?"
+    link: https://www.youtube.com/watch?v=dJveqIf709U&ab_channel=AluraLatam
+  - type: YOUTUBE
+    title: "¿Conoces la versión online de Excel? #AluraMás"
+    link: https://www.youtube.com/watch?v=ul2mhdOWGLE&ab_channel=AluraLatam
+  - type: COURSE
+    title: "Formación Excel"
+    link: https://app.aluracursos.com/formacion-excel
+  - type: COURSE
+    title: "Formación Excel VBA"
+    link: https://app.aluracursos.com/formacion-vba

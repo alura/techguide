@@ -1,0 +1,29 @@
+name: Feature Engineering
+logo: 
+short-description:
+key-objectives:
+- Generar nuevas variables a partir de los datos disponibles
+- Transformar datos brutos en características
+- Resaltar los problemas de los modelos predictivos
+- Mejorar la precisión del modelo para nuevos datos
+- Seleccionar y crear Features utilizando las bibliotecas Pandas y Scikit-Learn
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Feature Engineering y FeatureTools | Data concepts"
+    link: https://www.youtube.com/watch?v=KWioUD5UlSU&ab_channel=HablandoEnData
+  - type: YOUTUBE
+    title: "Feature Engineering"
+    link: https://www.youtube.com/watch?v=k_v1JOAPiIg&ab_channel=CursoDATAMININGUBA
+  - type: SITE
+    title: "¿Qué es el Feature Engineering en Machine Learning?"
+    link: https://www.inesdi.com/blog/que-es-el-feature-engineering-en-machine-learning/
+  - type: COURSE
+    title: "Feature Engineering en Español"
+    link: https://es.coursera.org/learn/feature-engineering-es
+  - type: SITE
+    title: "¿Qué son y para qué se usan los modelos predictivos?"
+    link: https://predikdata.com/es/que-son-y-para-que-se-usan-los-modelos-predictivos/
+  - type: ARTICLE
+    title: "Machine Learning: Cómo Desarrollar un Modelo desde Cero"
+    link: https://medium.com/datos-y-ciencia/machine-learning-cómo-desarrollar-un-modelo-desde-cero-cc17654f0d48

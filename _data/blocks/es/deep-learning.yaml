@@ -1,0 +1,37 @@
+name: Aprendizaje Profundo
+logo: 
+short-description:
+key-objectives:
+- Deep Learning (o Aprendizaje Profundo) es una rama de Machine Learning basada en un conjunto de algoritmos que intentan modelar abstracciones de alto nivel de datos usando un grafo profundo con múltiples capas de procesamiento, compuestas de varias transformaciones lineales y no lineales.
+- Construir y entrenar modelos con Keras
+- Seleccionar las capas de una plantilla
+- Clasificar imágenes
+- Entender los conceptos de pesos y sesgos
+- Redes neuronales para regresión
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Conceptos básicos del DEEP LEARNING"
+    link: https://www.youtube.com/watch?v=Hz5LfWah6VE&ab_channel=CodificandoBits
+  - type: SITE
+    title: "Aprendizaje Profundo: una Guía rápida"
+    link: https://www.aprendemachinelearning.com/aprendizaje-profundo-una-guia-rapida/
+  - type: PODCAST
+    title: "El cuento del Deep Learning"
+    link: https://open.spotify.com/episode/1hEN9u72xQL8IadcoizOcY?si=ee556c425f614e84
+  - type: PODCAST
+    title: "El aprendizaje profundo se encuentra con los sistemas distribuidos"
+    link: https://open.spotify.com/episode/0WCnQqDuzfrjuqO265Smqz?si=15d035748b2740e8
+alura-contents:
+  - type: COURSE
+    title: "Deep Learning parte 1: introducción con Keras"
+    link: https://app.aluracursos.com/course/deep-learning-introduccion-keras
+  - type: COURSE
+    title: "Deep Learning parte 2: cómo aprende la red"
+    link: https://app.aluracursos.com/course/deep-learning-parte-2-aprende-red
+  - type: COURSE
+    title: "Deep learning: regresión y series temporales con keras"
+    link: https://app.aluracursos.com/course/deep-learning-regresion-series-temporales-keras
+  - type: COURSE
+    title: "Regresión: Implementa una red neuronal con numpy"
+    link: https://app.aluracursos.com/course/regresion-implementa-red-neuronal-numpy

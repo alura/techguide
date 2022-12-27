@@ -1,0 +1,23 @@
+name: Machine Learning - Evaluación de Modelos
+logo: 
+short-description:
+key-objectives:
+- El uso de métricas de evaluación nos ayuda a identificar si un modelo entrenado tendrá un buen desempeño de predicción cuando se expone a nuevos conjuntos de datos.
+- Conocer diferentes estrategias de evaluación y optimización de modelos
+- Utilizar una canalización para entrenamiento y validación
+- Métricas de evaluación de modelos de machine Learning
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Evaluación de modelos de ML"
+    link: https://docs.aws.amazon.com/es_es/machine-learning/latest/dg/evaluating_models.html
+  - type: SITE
+    title: "Métricas De Evaluación De Modelos En El Aprendizaje Automático"
+    link: https://www.datasource.ai/es/data-science-articles/metricas-de-evaluacion-de-modelos-en-el-aprendizaje-automatico
+alura-contents:
+  - type: COURSE
+    title: "Machine Learning: Validación de modelos"
+    link: https://app.aluracursos.com/course/machine-learning-validacion-modelos
+  - type: COURSE
+    title: "Machine Learning: Optimización de modelos a través de hiperparámetros"
+    link: https://app.aluracursos.com/course/machine-learning-optimizacion-modelos-hiperparametros
