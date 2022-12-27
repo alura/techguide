@@ -2,11 +2,11 @@ name: JSON
 logo: 
 short-description:
 key-objectives:
-- JSON significa Notación de objetos de JavaScript. Es un formato de texto para almacenar y transportar datos.
-- Creando un objeto
-- Transformar un objeto en una cadena
-- Transformar una cadena en un objeto
-- Manipular un objet
+  - JSON significa Notación de objetos de JavaScript. Es un formato de texto para almacenar y transportar datos.
+  - Crear un objeto
+  - Transformar un objeto en una cadena
+  - Transformar una cadena en un objeto
+  - Manipular un objet
 aditional-objectives:
 contents:
   - type: SITE
@@ -31,6 +31,6 @@ contents:
     title: "¿Que és JSON y cómo funciona?"
     link: https://www.youtube.com/watch?v=z8qk7T_2sWg&ab_channel=SoyDalto
 alura-contents:
-   - type: COURSE
+  - type: COURSE
     title: "JS en la Web: CRUD con JavaScript asíncrono"
     link: https://www.aluracursos.com/curso-online-js-web-crud-javascript-asincrono
