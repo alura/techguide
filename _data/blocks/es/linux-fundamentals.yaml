@@ -2,13 +2,13 @@ name: Linux - Fundamentos
 logo: 
 short-description:
 key-objectives:
-- Linux es un término popularmente empleado para referirse a sistemas operativos que utilizan el Kernel - Linux. - Las distribuciones incluyen el kernel de Linux, además de software de sistema y bibliotecas.
-- Conocer el sistema de directorios de Linux
-- Comprimir y descomprimir archivos
-- Administrar los procesos que se ejecutan en la máquina
-- Conocer las variables de entorno y el PATH
-- Administrar paquetes
-- Realizar comunicación remota con SSH y SCP
+  - Linux es un término popularmente empleado para referirse a sistemas operativos que utilizan el Kernel - Linux. - Las distribuciones incluyen el kernel de Linux, además de software de sistema y bibliotecas.
+  - Conocer el sistema de directorios de Linux
+  - Comprimir y descomprimir archivos
+  - Administrar los procesos que se ejecutan en la máquina
+  - Conocer las variables de entorno y el PATH
+  - Administrar paquetes
+  - Realizar comunicación remota con SSH y SCP
 aditional-objectives:
 contents:
   - type: ARTICLE
