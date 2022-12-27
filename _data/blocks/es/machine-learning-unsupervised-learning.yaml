@@ -2,14 +2,13 @@ name: Machine Learning - Aprendizaje no supervisado
 logo: 
 short-description:
 key-objectives:
-- El clustering o análisis de agrupación de datos es el conjunto de técnicas de prospección de datos (data Mining) que tiene como objetivo hacer agrupaciones automáticas de datos según su grado de similitud.
-- Conocer el análisis exploratorio
-- Utilizar los métodos K-Means, DBSCAN y Mean shift para agrupar datos sin clasificación
-- Evaluar la calidad de una Clusterización
-- Parametrizar métodos de Clusterización a través del máximo coeficiente de silueta
-- Entender las matemáticas detrás de las métricas de validación Silhouette, Davies
-Bouldin y Calinski Harabasz
-- Conocer técnicas de reducción de dimensionalidad
+  - El clustering o análisis de agrupación de datos es el conjunto de técnicas de prospección de datos (data Mining) que tiene como objetivo hacer agrupaciones automáticas de datos según su grado de similitud.
+  - Conocer el análisis exploratorio
+  - Utilizar los métodos K-Means, DBSCAN y Mean shift para agrupar datos sin clasificación
+  - Evaluar la calidad de una Clusterización
+  - Parametrizar métodos de Clusterización a través del máximo coeficiente de silueta
+  - Entender las matemáticas detrás de las métricas de validación Silhouette, Davies Bouldin y Calinski Harabasz
+  - Conocer técnicas de reducción de dimensionalidad
 aditional-objectives:
 contents:
   - type: YOUTUBE
