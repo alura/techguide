@@ -2,14 +2,14 @@ name: Big Data y Ingeniería de Datos - Fundamentos
 logo: 
 short-description:
 key-objectives:
-- Big data es el área del conocimiento que estudia cómo tratar, analizar y obtener información a partir de conjuntos de datos demasiado grandes para ser analizados por sistemas tradicionales.
-- La ingeniería de datos implica el desarrollo y organización de procesos para la recopilación, almacenamiento y transformación de datos a gran escala.
-- Crear una canalización de datos
-- Conozca a Apache Airflow
-- Conoce a Apache Spark
-- Conocer el concepto de Data Lake
-- Interactuar con servidores en la nube
-- Crear aplicaciones de Spark
+  - Big data es el área del conocimiento que estudia cómo tratar, analizar y obtener información a partir de conjuntos de datos demasiado grandes para ser analizados por sistemas tradicionales.
+  - La ingeniería de datos implica el desarrollo y organización de procesos para la recopilación, almacenamiento y transformación de datos a gran escala.
+  - Crear una canalización de datos
+  - Conocer el Apache Airflow
+  - Conocer el Apache Spark
+  - Conocer el concepto de Data Lake
+  - Interactuar con servidores en la nube
+  - Crear aplicaciones de Spark
 aditional-objectives:
 contents:
   - type: ARTICLE 
@@ -44,5 +44,5 @@ contents:
     link: https://medium.com/@crscardellino/procesando-datos-con-spark-48539d38e437
 alura-contents:
   - type: COURSE
-      title: "Machine Learning: Lidiando con datos de muchas dimensiones"
-      link: https://app.aluracursos.com/course/machine-learning-datos-muchas-dimensiones
+    title: "Machine Learning: Lidiando con datos de muchas dimensiones"
+    link: https://app.aluracursos.com/course/machine-learning-datos-muchas-dimensiones
