@@ -2,11 +2,10 @@ name: React - Componentes
 logo: 
 short-description:
 key-objectives:
- React te permite definir componentes como clases o funciones. Los componentes definidos como clases proporcionan más capacidades. Aceptan entradas arbitrarias (llamadas "accesorios") y devuelven elementos React que describen lo que debería aparecer en la pantalla.
-- Comprender cómo funcionan los componentes
-- Conociendo la biblioteca de componentes con estilo
-- Comprender la diferencia entre clase y componentes funcionales
-
+  - React te permite definir componentes como clases o funciones. Los componentes definidos como clases proporcionan más capacidades. Aceptan entradas arbitrarias (llamadas "accesorios") y devuelven elementos React que describen lo que debería aparecer en la pantalla.
+  - Comprender cómo funcionan los componentes
+  - Conociendo la biblioteca de componentes con estilo
+  - Comprender la diferencia entre clase y componentes funcionales
 aditional-objectives:
 contents:
   - type: SITE
@@ -37,4 +36,3 @@ alura-contents:
   - type: Course
     title: "React: ¡Crea aplicaciones web modernas con React!"
     link: https://aluracursos.com/formacion-react
-
