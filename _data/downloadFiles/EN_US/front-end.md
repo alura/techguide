@@ -81,7 +81,6 @@
    - Error handling refers to the response and recovery procedures from error conditions present in a software application. In other words, it is the process comprised of anticipation, detection and resolution of application, programming or communication errors.
    - Knowing and handling the most common exceptions
    - Knowing the types of errors and in which situations they can occur
-   - Understanding how Node.js handles errors
    - Using 'try' and 'catch' for error handling
    - Learning on what occasions and how to use `throw`
    - Creating specific exceptions according to your application's needs
@@ -123,8 +122,7 @@
    - Manipulating stored data
    - Persisting stored data
 - [ ] **JavaScript - Concurrency**:
-   - In computer science, concurrency is the ability of different parts or units of a program, algorithm, or problem to be executed out-of-order or in partial order, without affecting the final outcome.
-   - Knowing the concept of concurrent programming in JavaScript
+   - Concurrency is a programming paradigm for building programs that make use of the simultaneous execution of several interactive computational tasks, which can be implemented as separate programs or as a set of threads created by a single program.
    - Executing tasks in parallel
 - [ ] **TypeScript - Fundamentals**:
    - TypeScript is a strongly typed programming language that builds on JavaScript.
@@ -161,9 +159,6 @@
    - Transforming an object into a string
    - Transforming a string into an object
    - Manipulating an object
-- [ ] **Design Patterns**:
-   - In software engineering, a Design Pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is a description or template for how to solve a problem that can be used in many different situations. Design Patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.
-   - Getting familiarized with and applying the main Design Patterns
 - [ ] **Command Line - Fundamentals**:
    - CLI is a command line program that accepts text input to execute operating system functions.
    - Knowing the most important commands

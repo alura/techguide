@@ -11,8 +11,8 @@
    - Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase.
    - Flutter widgets are built using a modern framework that takes inspiration from React. The central idea is that you build your UI out of widgets. Widgets describe what their view should look like given their current configuration and state.
    - Installing and configuring Flutter
-   - Learning how to use basic Flutter widgets
-   - Understanding the differences between Stateless and Stateful
+   - Learning how to use basic Flutter widgets, such as Column, Row, Scaffold, Text, Image, Container, AppBar, ElevatedButton, among other
+   - Understanding the differences between Stateless and Stateful widgets
    - Developing your first Flutter application
 - [ ] **Object-oriented Programming Concepts**:
    - Object-oriented programming (OOP) is a programming paradigm based on the concept of 'objects', which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods). A common feature of objects is that procedures (or methods) are attached to them and can access and modify the object's data fields. Some of the main concepts are classes and instances, inheritance, and encapsulation.
@@ -61,11 +61,7 @@
    - Understanding unit tests in Flutter
    - Understanding widget tests in Flutter
    - Understanding integration tests in Flutter
-- [ ] **Flutter - Firebase**:
-   - Firebase is a Backend-as-a-Service (BaaS) app development platform that provides hosted backend services such as a realtime database, cloud storage, authentication, crash reporting, machine learning, remote configuration, and hosting for your static files.
-   - Understanding how to install Firebase in Flutter
-   - Getting acquainted with Firebase documentation for Flutter
-   - Learning about the Firebase tools available for Flutter
+
 - [ ] **Flutter - Debugging**:
    - Debugging is the process of finding and resolving bugs (defects or problems that prevent correct operation) within computer programs, software, or systems.
    - Learning debugging techniques and tools in Flutter
@@ -100,7 +96,8 @@
    - Understanding Flavors in Flutter
    - Learning about Continuous Delivery in Flutter
 - [ ] **Flutter - Architecture**:
-   - Getting to know the main architecture patterns used by the Flutter community
+   - In programming, there are several architectural patterns for project files and folders, that provide developers with ease in finding, researching, and understanding the written code.
+   - Getting to know the main architecture patterns used by the Flutter community, such as MVC, MVVM, MVP etc
 - [ ] **Flutter - Packages and Plugins**:
    - Learning how to develop plugins for Flutter
 ## Habilidade Auxiliar: Infrastructure and Back-end 
@@ -141,16 +138,27 @@
    - SOLID has five principles that are considered best practices in software development that help programmers write cleaner code by separating responsibilities, reducing docking, easing refactoring, and encouraging code reuse.
 - [ ] **Clean Architecture**:
    - Clean architecture is a way of developing software, such that just by looking at the source code of a program, you should be able to tell what the program does.
+- [ ] **Flutter - Firebase**:
+   - Firebase is a Backend-as-a-Service (BaaS) app development platform that provides hosted backend services such as a realtime database, cloud storage, authentication, crash reporting, machine learning, remote configuration, and hosting for your static files.
+   - Understanding how to install Firebase
+   - Getting acquainted with Firebase documentation
+   - Learning about the Firebase tools available
 ## Habilidade Auxiliar: UX and Design 
 - [ ] **Design Systems**:
    - A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build applications.
    - Creating and maintaining libraries that will be consumed and used as a standard for building a project
+- [ ] **Figma - Fundamentals**:
+   - Figma is a collaborative web application for interface design. The feature set of Figma focuses on user interface and user experience design, with an emphasis on real-time collaboration, utilising a variety of vector graphics editor and prototyping tools.
+   - Creating page layouts and components
 - [ ] **Design components**:
    - Knowing the components that describe a layout or interface
 - [ ] **Color systems**:
    - Defining a color palette that makes sense for a given interface
 - [ ] **How to use Fonts**:
    - Choosing the most appropriate font for a given project
+- [ ] **Flutter - Accessibility**:
+   - Web accessibility is the inclusive practice of ensuring there are no barriers that prevent interaction with, or access to, websites by people with physical disabilities, situational disabilities, and socio-economic restrictions on bandwidth and speed.
+   - Writing code with accessibility in mind
 - [ ] **Responsive Design**:
    - Responsive web design (RWD) or responsive design is an approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction.
    - Adjusting your pages to the user's screen size

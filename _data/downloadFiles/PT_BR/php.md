@@ -24,13 +24,8 @@
    - Tratar exceções pré-definidas
    - Uso de 'try' e 'catch'
    - Criar exceções específicas
-- [ ] **PHP - Testes**:
-   - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
-   - Usar testes unitários
-   - Usar testes de integração
-   - Usar testes de comportamento (behavior)
-   - Usar mocks
 - [ ] **PHP - Persistência**:
+   - O conceito de "persistência de dados" refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.
    - Conhecer o PDO
    - Fazer inserções, alterações e remoções em um banco de dados
    - Fazer consultas em um banco de dados usando filtros
@@ -39,14 +34,21 @@
    - Aplicar wrappers e filtros nos streams
    - Usar streams
    - Conhecer encodings e character sets
-## Nivel 2
 - [ ] **PHP - Composer**:
    - Gerenciar dependências
    - Incluir bibliotecas de terceiros
+## Nivel 2
+- [ ] **PHP - Testes**:
+   - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+   - Usar testes unitários
+   - Usar testes de integração
+   - Usar testes de comportamento (behavior)
+   - Usar mocks
 - [ ] **PHP - MVC**:
    - Entender o conceito do padrão MVC (Model-View-Controller)
    - Separar as responsabilidades entre as camadas MVC
 - [ ] **Laravel**:
+   - Laravel é um framework PHP livre e open-source para o desenvolvimento de sistemas web que utilizam o padrão MVC (model, view, controller).
    - Conhecer as características do framework Laravel
    - Trabalhar com rotas
    - Usar arquivos Blade
@@ -55,6 +57,13 @@
    - Utilizar componentes
    - Definir recursos e rotas
    - Templates Twig
+- [ ] **PHP - Comunicação com APIs**:
+   - Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.
+   - Entender o que é uma API REST
+   - Conhecer os comandos básicos de comunicação HTTP
+   - Conhecer o cURL
+   - Construir APIs em Laravel
+   - Saber fazer requisições autenticadas para Web APIs
 - [ ] **PHP - XDebug**:
    - Usar e aprimorar o var_dump com XDebug
    - Analisar e entender a stack (pilha) de execução
@@ -62,7 +71,7 @@
    - Depurar remotamente com Docker
 ## Nivel 3
 - [ ] **PHP Assíncrono**:
-   - Entender sobre programação assíncrona
+   - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
    - Aprender a usar sockets
    - Conhecer bibliotecas de programação reativa
    - Aprender sobre corrotinas
@@ -76,6 +85,7 @@
    - Manter o código mais curto e coeso
 - [ ] **Contêineres**:
    - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
+   - O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.
    - Isolar seu software para funcionar independentemente
    - Implantar software em clusters
    - Modularizar seu sistema em pacotes menores
@@ -116,6 +126,7 @@
    - Conhecer os maiores provedores de cloud
    - Especializar-se em algum provedor
 - [ ] **SQL - Fundamentos**:
+   - SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.
    - Conhecer os comandos mais comuns do SQL
    - Usar SELECT para consultar uma tabela
    - Usar INSERT para inserir dados em uma tabela
