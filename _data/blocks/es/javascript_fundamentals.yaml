@@ -1,8 +1,8 @@
-name:  Fundamentos de JavaScript 
+name:  JavaScript - Fundamentos
 logo: 
-short-description: JavaScript es el lenguaje de programación más popular del mundo y es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. Tiene escritura dinámica, orientación a objetos basada en prototipos y funciones de primera clase. Es un paradigma múltiple que admite estilos de programación imperativos, funcionales e impulsados ​​por eventos.
-
+short-description:
 key-objectives:
+  - JavaScript es el lenguaje de programación más popular del mundo y es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. Tiene escritura dinámica, orientación a objetos basada en prototipos y funciones de primera clase. Es un paradigma múltiple que admite estilos de programación imperativos, funcionales e impulsados por eventos.
   - Declarar variables, considerando la diferencia entre 'var', 'let' y 'const
   - Uso de estructuras condicionales ('if', 'else')
   - Conocer los operadores de comparación ('=', '==', '===')
@@ -11,7 +11,6 @@ key-objectives:
   - Manipulación de arreglos y listas
   - Obtener datos de una API
   - Hacer llamadas asincrónicas usando 'Async/Await', 'Promise', etc.
-
 aditional-objectives:
   - Manipulating JSON objects
   - Using template literals
