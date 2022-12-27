@@ -1,0 +1,56 @@
+name: Git y GitHub - Fundamentos
+logo: 
+short-description:
+key-objectives:
+- Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.
+- GitHub es un servicio de alojamiento para el desarrollo de software y el control de versiones mediante Git.
+- Creando un repositorio
+- Clonar un repositorio
+- Comprometerse, empujar y tirar hacia y desde el repositorio
+- Revertir un compromiso
+- Creación de ramas y solicitudes de extracción
+- Manejo de fusiones y conflictos
+aditional-objectives:
+  - Deploying your code using GitHub Pages
+contents:
+  - type: SITE
+    title: "Git Reference Book"
+    link: https://git-scm.com/book/en/v2
+  - type: SITE
+    title: "GitHub Documentation"
+    link: https://docs.github.com/en
+  - type: SITE
+    title: "GitHub Pages Documentation"
+    link: https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
+  - type: SITE
+    title: "W3Schools: Git Tutorial"
+    link: https://www.w3schools.com/git/default.asp?remote=github
+  - type: ARTICLE
+    title: "Git and Github Quickstart Tutorial"
+    link: https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca
+  - type: ARTICLE
+    title: "Comenzando con Git: aprendiendo a versionar"
+    link: https://www.aluracursos.com/blog/comenzando-con-git
+    - type: ARTICLE
+    title: "Git y Github: que son y primeros pasos"
+    link: https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos
+    - type: ARTICLE
+    title: "Iniciando un repositorio con Git"
+    link: https://www.aluracursos.com/blog/iniciando-repositorio-con-git
+    - type: ARTICLE
+    title: "Clonando un repositorio con Git y GitHub"
+    link: https://www.aluracursos.com/blog/clonando-un-repositorio-remoto
+    - type: ARTICLE
+    title: "Paso a Paso para activar tu proyecto en GitHub Pages."
+    link: https://www.aluracursos.com/blog/github-pages
+  - type: YOUTUBE
+    title: "¿Qué es Git y cómo funciona?"
+    link: https://www.youtube.com/watch?v=jGehuhFhtnE
+  - type: YOUTUBE
+    title: "Git y Github | Guia Práctico de Git y Github Desde Cero"
+    link: https://www.youtube.com/watch?v=HiXLkL42tMU
+
+alura-contents:
+  - type: COURSE
+    title: "Git y Github: estrategias de ramificación, conflictos y Pull Requests"
+    link: https://www.aluracursos.com/curso-online-git-github-estrategias-ramificacion-conflictos-pull-requests

@@ -1,0 +1,26 @@
+name: Redux Saga
+logo: 
+short-description:
+key-objectives:
+  - Redux Saga es una biblioteca que tiene como objetivo hacer que los efectos secundarios de la aplicación (es decir, cosas asincrónicas como la obtención de datos y cosas impuras como acceder al caché del navegador) sean más fáciles de administrar, más eficientes de ejecutar, fáciles de probar y mejores en el manejo de fallas.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentación: Saga Redux"
+    link: https://redux-saga.js.org/docs/introduction/GettingStarted
+  - type: ARTICLE
+    title: "Qué es React, Redux y cómo se relacionan"
+    link: https://dev.to/arielmirra/que-es-react-y-react-hooks-y-como-se-relacionan-4e1e
+  - type: ARTICLE
+    title: "Redux Sagas vs Thunk."
+    link: https://www.paradigmadigital.com/dev/sagas-vs-thunk/
+  - type: YOUTUBE
+    title: "Redux-Saga Explicado | Introduccion | Conceptos"
+    link: https://www.youtube.com/watch?v=FVP8fpFDarI
+  - type: YOUTUBE
+    title: "React + Redux y Redux Saga desde Cero"
+    link: https://www.youtube.com/watch?v=MsQ6VSwcvPI
+  - type: YOUTUBE
+    title: "Cómo configurar Redux Saga en tu proyecto de React.Js"
+    link: https://www.youtube.com/watch?v=Fzg_gEx4q0Y
+alura-contents:
