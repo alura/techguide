@@ -1,0 +1,33 @@
+name: Jupyter y Colab
+logo: 
+short-description:
+key-objectives:
+- Jupyter Notebook y Google Colaboratory son portátiles que permiten la creación de bloques de texto y bloques de código
+- Los Notebooks facilitan la elaboración de proyectos de Data Science por ser posible visualizar el resultado de la ejecución luego del trecho de código
+- Google Colaboratory le permite escribir y ejecutar códigos Python directamente en el navegador, sin ninguna o pocas configuraciones necesarias
+- Facilitan el intercambio de proyectos entre el equipo
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Project Jupyter"
+    link: https://jupyter.org/
+  - type: SITE
+    title: "Anaconda"
+    link: https://www.anaconda.com/
+  - type: SITE
+    title: "Te damos la bienvenida a Colaboratory"
+    link: https://colab.research.google.com/
+  - type: YOUTUBE
+    title: "Google Colab TUTORIAL para Principiantes"
+    link: https://www.youtube.com/watch?v=U_g5KRiJ5DA
+  - type: YOUTUBE
+    title: "Cómo usar JUPYTER NOTEBOOK 📝 qué es JUPYTERLAB [Curso Python Data Science Español]"
+    link: https://www.youtube.com/watch?v=CwbMaSkKDZg
+  - type: YOUTUBE
+    title: "Cómo HACER un Análisis de Datos en Python con Jupyter Notebook 🐍"
+    link: https://www.youtube.com/watch?v=VkU-9Us6Rpw
+alura-contents:
+  - type: ARTICLE
+    title: "Google Colab: ¿qué es y cómo usarlo?"
+    link: https://www.aluracursos.com/blog/google-colab-que-es-y-como-usarlo
+  

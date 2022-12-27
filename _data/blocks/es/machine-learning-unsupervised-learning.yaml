@@ -1,0 +1,50 @@
+name: Machine Learning - Aprendizaje no supervisado
+logo: 
+short-description:
+key-objectives:
+  - El clustering o análisis de agrupación de datos es el conjunto de técnicas de prospección de datos (data Mining) que tiene como objetivo hacer agrupaciones automáticas de datos según su grado de similitud.
+  - Conocer el análisis exploratorio
+  - Utilizar los métodos K-Means, DBSCAN y Mean shift para agrupar datos sin clasificación
+  - Evaluar la calidad de una Clusterización
+  - Parametrizar métodos de Clusterización a través del máximo coeficiente de silueta
+  - Entender las matemáticas detrás de las métricas de validación Silhouette, Davies Bouldin y Calinski Harabasz
+  - Conocer técnicas de reducción de dimensionalidad
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Técnica de clustering - Conceptos básicos"
+    link: https://www.youtube.com/watch?v=9Fsipz9tSuI&ab_channel=AnabelMontero
+  - type: YOUTUBE
+    title: "APRENDIZAJE NO SUPERVISADO: K. MEANS CLUSTERING | #15 Curso de Introducción a Machine Learning"
+    link: https://www.youtube.com/watch?v=EZOab1vkFmI&ab_channel=AprendeIAconLigdiGonzalez
+  - type: PODCAST
+    title: "Aprendizaje no supervisado"
+    link: https://open.spotify.com/episode/0260UmI0o2hYAmccWo0yM4?si=81f05288146641bd
+  - type: YOUTUBE
+    title: "Minería de Datos, ¿Qué es y para qué Sirve?"
+    link: https://www.youtube.com/watch?v=uPTxaGAjA34&ab_channel=Mikelillo-BI
+  - type: ARTICLE
+    title: "13 técnicas de reducción de dimensionalidad"
+    link: https://medium.com/@nicolasarrioja/13-técnicas-de-reducción-de-dimensionalidad-b33b2340a060
+  - type: ARTICLE
+    title: "La maldición de la dimensionalidad"
+    link: https://medium.com/@nicolasarrioja/la-maldición-de-la-dimensionalidad-f7a6248cf9a
+  - type: SITE
+    title: "La Reducción de Dimensionalidad en el Machine Learning"
+    link: https://softtek.eu/tech-magazine/artificial-intelligence/la-reduccion-de-dimensionalidad-en-el-machine-learning/
+  - type: ARTICLE
+    title: "Cómo seleccionar el mejor valor de K en K-means"
+    link: https://medium.com/@nicolasarrioja/cómo-seleccionar-el-mejor-valor-de-k-en-k-means-21121b604365
+alura-contents:
+  - type: COURSE
+    title: "Clustering: Extrayendo patrones de datos"
+    link: https://app.aluracursos.com/course/clustering-extrayendo-patrones-datos
+  - type: COURSE
+    title: "Clustering: K-Means, DBSCAN y Mean Shift"
+    link: https://app.aluracursos.com/course/clustering-k-means-dbscan-mean-shift
+  - type: COURSE
+    title: "Clusterización de datos: segmentación de clientes"
+    link: https://app.aluracursos.com/course/clusterizacion-datos-segmentacion-clientes
+  - type: COURSE
+    title: "Machine Learning: Lidiando con datos de muchas dimensiones"
+    link: https://www.aluracursos.com/curso-online-machine-learning-datos-muchas-dimensiones

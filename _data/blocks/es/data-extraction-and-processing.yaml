@@ -1,0 +1,30 @@
+name: Extracción y tratamiento de datos
+logo: 
+short-description:
+key-objectives:
+- Obtener los datos que se analizarán
+- Tratar los datos obtenidos, transformándolos, alterando su estructura y valores a fin de dejar la base de datos más coherente y garantizar que los datos que serán trabajados estén en las mejores condiciones para ser analizados
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "¿Qué es extracción de datos y cómo funciona?"
+    link: https://www.klippa.com/es/blog/informativo/extraccion-datos/
+  - type: ARTICLE
+    title: "Extracción de datos con Destructuring en Javascript"
+    link: https://medium.com/@artjulius/extracción-de-datos-con-destructuring-en-javascript-8dc46d05af4f
+  - type: ARTICLE
+    title: "Automatizar mis descargas de datos makes me happy😊"
+    link: https://medium.com/tacosdedatos/automatizar-mis-descargas-de-datos-makes-me-happy-62df02b6bcc0
+  - type: ARTICLE
+    title: "Herramientas para extracción de datos estructurados"
+    link: https://medium.com/@marianmoldovan/herramientas-para-extracción-de-datos-estructurados-715168f060a4
+alura-contents:
+  - type: COURSE
+    title: "Python Pandas: Tratamiento y análisis de datos"
+    link: https://app.aluracursos.com/course/python-pandas-tratamiento-analisis-datos
+  - type: COURSE
+    title: "Pandas: Formatos diferentes de entrada y salida (IO)"
+    link: https://app.aluracursos.com/course/pandas-formatos-entrada-salida-io
+  - type: COURSE
+    title: "Manipulando datos gigantes con Pandas"
+    link: https://www.aluracursos.com/blog/manipulando-datos-gigantes-con-pandas

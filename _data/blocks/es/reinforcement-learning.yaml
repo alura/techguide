@@ -1,0 +1,30 @@
+name: Aprendizaje por Refuerzo
+logo: 
+short-description:
+key-objectives:
+- El Aprendizaje por Refuerzo es un área de Machine Learning que se preocupa con la forma como agentes inteligentes deben tomar medidas en un ambiente, a fin de maximizar la noción de recompensa acumulativa.
+- Entender los conceptos de agente y recompensa
+- Entender la diferencia entre refuerzo positivo y negativo
+- Conocer el modelo Markov Decision Process
+- Entender el concepto de Retorno
+- Utilizar el algoritmo Q-Learning
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "¿Qué es el APRENDIZAJE POR REFUERZO? | Lección 1 curso Aprendizaje Por Refuerzo Nivel Básico"
+    link: https://www.youtube.com/watch?v=AMBIhRwc_XU&ab_channel=CodificandoBits
+  - type: ARTICLE
+    title: "Introducción al aprendizaje por refuerzo"
+    link: https://medium.com/aprendizaje-por-refuerzo/1-introducción-al-aprendizaje-por-refuerzo-92c9239aed90
+  - type: SITE
+    title: "Introducción al aprendizaje por refuerzo. Parte 1: el problema del bandido multibrazo."
+    link: https://markelsanz14.medium.com/introducción-al-aprendizaje-por-refuerzo-parte-1-el-problema-del-bandido-multibrazo-afe05c0c372e
+  - type: SITE
+    title: "Aprendizaje por Refuerzo"
+    link: https://www.aprendemachinelearning.com/aprendizaje-por-refuerzo/
+  - type: SITE
+    title: "Ejemplos reales de aplicación del aprendizaje por refuerzo"
+    link: https://www.codificandobits.com/curso/aprendizaje-por-refuerzo-nivel-basico/2-ejemplos-reales-aplicacion-aprendizaje-por-refuerzo/
+  - type: PODCAST
+    title: "Aprendizaje por refuerzo ¿servirá para mejorar las economías?"
+    link: https://open.spotify.com/episode/6qXG0UbEHoozrRdcRadWvw?si=8aeafe736dfa443a
