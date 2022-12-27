@@ -1,12 +1,11 @@
-name: CSS-en-JS
+name: CSS-in-JS
 logo: 
 short-description:
 key-objectives:
-- CSS-in-JS se refiere a un patrón en el que CSS se compone utilizando JavaScript en lugar de definirse en archivos externos.
-- Manejo de código CSS usando JavaScript
-- Uso de componentes con estilo
-- Conociendo Styled-JSX
-
+  - CSS-in-JS se refiere a un patrón en el que CSS se compone utilizando JavaScript en lugar de definirse en archivos externos.
+  - Manejar de código CSS usando JavaScript
+  - Usar componentes con estilo
+  - Conocer Styled-JSX
 aditional-objectives:
 contents:
   - type: SITE
@@ -30,9 +29,7 @@ contents:
   - type: YOUTUBE
     title: "Styled Components en React"
     link: https://www.youtube.com/watch?v=f-E1zyTfA3Q
-
-  alura-contents:
-  
+  alura-contents:  
   - type: COURSE
     title: "React: Utilizando Styled Components"
     link: https://aluracursos.com/course/react-styled-components
