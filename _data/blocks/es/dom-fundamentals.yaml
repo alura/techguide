@@ -2,14 +2,13 @@ name: DOM - Fundamentals
 logo: 
 short-description:
 key-objectives:
-O Document Object Model (DOM) es una interfaz de programación para documentos de la web. Ele representa a página para que os programas possam alteren a estrutura, o estilo e o conteúdo do documento. O DOM representa el documento como nós e objetos; dessa forma, as linguagens de programação podem interagir com a página.
--Entendiendo como a árvore DOM funciona
--Accesando y manipulando elementos HTML y CSS
--Acessando os pais e filhos de um elemento
--Insertando un nuevo elemento na árvore
--Quitar un elemento del árbol
--Esperando un evento en un elemento determinado de la página usando 
-
+  - El Document Object Model (DOM) es una interfaz de programación para documentos de la web. Ele representa a página para que os programas possam alteren a estrutura, o estilo e o conteúdo do documento. O DOM representa el documento como nós e objetos; dessa forma, as linguagens de programação podem interagir com a página.
+  - Entendiendo como a árvore DOM funciona
+  - Accesando y manipulando elementos HTML y CSS
+  - Acessando os pais e filhos de um elemento
+  - Insertando un nuevo elemento na árvore
+  - Quitar un elemento del árbol
+  - Esperando un evento en un elemento determinado de la página usando 
 aditional-objectives:
 contents:
   - type: SITE
@@ -58,7 +57,6 @@ contents:
     title: "Javascript manipulacion del DOM "
     link: https://www.youtube.com/watch?v=iaLiOXXR8eI&list=PLg9145ptuAijiWx4ixGBCZB0kh6YEeNqf&ab_channel=yacklyon
 alura-contents:
-
   - type: COURSE
     title: "JS en la Web: Manipulación del DOM con JavaScript"
     link: https://app.aluracursos.com/course/js-web-manipulacion-dom-javascript
