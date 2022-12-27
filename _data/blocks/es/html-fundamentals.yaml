@@ -2,21 +2,19 @@ name: HTML - Fundamentos
 logo: 
 short-description:
 key-objectives:
-  HTML es un lenguaje de marcado que define la estructura de su contenido. HTML consta de una serie de elementos que se utilizan para que se vea o actúe de cierta manera. Las etiquetas de archivos adjuntos pueden vincular una palabra o imagen a otro lugar, pueden poner palabras en cursiva, pueden hacer que la fuente sea más grande o más pequeña, etc.
-- Aprenda qué etiquetas son necesarias para HTML básico
-- Creación de un párrafo de texto
-- Mostrando una imagen
-- Conoce la diferencia entre 'h1', 'h2', 'h3', etc.
-- Creación de un texto con hipervínculo
-- Crear un formulario con campos relevantes
-- Creación de una lista ordenada o desordenada de elementos
-- Creación de una lista de elementos en una lista desplegable
-- Vincular a un archivo CSS
-- Creando una tabla
-- Adición de ID y clases
-
+  - HTML es un lenguaje de marcado que define la estructura de su contenido. HTML consta de una serie de elementos que se utilizan para que se vea o actúe de cierta manera. Las etiquetas de archivos adjuntos pueden vincular una palabra o imagen a otro lugar, pueden poner palabras en cursiva, pueden hacer que la fuente sea más grande o más pequeña, etc.
+  - Aprender qué etiquetas son necesarias para HTML básico
+  - Crear de un párrafo de texto
+  - Mostranr una imagen
+  - Conocer la diferencia entre 'h1', 'h2', 'h3', etc.
+  - Crear de un texto con hipervínculo
+  - Crear un formulario con campos relevantes
+  - Crear de una lista ordenada o desordenada de elementos
+  - Crear de una lista de elementos en una lista desplegable
+  - Vincular a un archivo CSS
+  - Crear una tabla
+  - Adicionar ID y clases
 aditional-objectives:
-  
 contents:
   - type: SITE
     title: "W3Schools: Elementos HTML"
@@ -82,4 +80,3 @@ alura-contents:
  - type: COURSE
     title: "HTML & CSS: Crea páginas increíbles con tecnologías web"
     link: https://app.aluracursos.com/formacion-html-css
-
