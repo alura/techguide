@@ -91,7 +91,7 @@ expertise:
         priority: 5
         optional: true
 collaboration:
-  - name: Infraestrutura e Back-end
+  - name: Infraestructura y Back-end
     blocks:
         - git-and-github-fundamentals:
           priority: 9
@@ -109,7 +109,7 @@ collaboration:
         - cloud-fundamentals: 
           priority: 6
           optional: true
-  - name: UX e Design
+  - name: UX y Design
     blocks:
         - design-systems:
           priority: 4
