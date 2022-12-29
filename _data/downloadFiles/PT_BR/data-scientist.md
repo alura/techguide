@@ -1,16 +1,22 @@
 # Data Scientist
 ## Nivel 1
 - [ ] **Ciência de Dados - Fundamentos**:
-   - Utilizar algoritmos e sistemas para extrair, organizar e analisar dados a partir de diversas fontes, a fim de detectar padrões e tomar decisões de negócios
-   - As áreas de aplicação são infindáveis, como em negócios, biologia, medicina, engenharia, etc.
+   - A Ciência de Dados é o ato de utilizar algoritmos e sistemas para extrair, organizar e analisar dados a partir de diversas fontes, a fim de detectar padrões e tomar decisões de negócios. As áreas de aplicação são infindáveis, como em negócios, biologia, medicina, engenharia, etc.
+   - Conhecer o conceito de Exploração de Dados
+   - Conhecer as principais funções, como 'describe', 'info', etc
+   - Entender o papel de visualizações como histogramas e boxplots
+   - Saber o que são variáveis categóricas nominais e ordinais
+   - Explorar os dados em Python com as bibliotecas Pandas, Matplotlib, Seaborn e Numpy
 - [ ] **Feature Engineering**:
    - Gerar novas variáveis a partir dos dados disponíveis
    - Transformar dados brutos em características
    - Realçar os problemas dos modelos preditivos
    - Melhorar a precisão do modelo para novos dados
+   - Selecionar e criar features utilizando as bibliotecas Pandas e Scikit-learn
 - [ ] **Extração e Tratamento de Dados**:
    - Obter os dados que serão analisados
    - Tratar os dados obtidos, transformando-os, alterando sua estrutura e valores a fim de deixar a base de dados mais coerente e garantir que os dados que serão trabalhados estejam nas melhores condições para serem analisados
+   - Utilizar as bibliotecas Pandas e Scikit-learn para tratar os dados
 - [ ] **Python para Ciência de Dados**:
    - Python é uma linguagem de programação interpretada de alto nível e que suporta múltiplos paradigmas de programação, como imperativo, orientado a objetos e funcional. É uma linguagem com tipagem dinâmica e gerenciamento automático de memória.
    - Aprender lógica de programação em Python
@@ -20,6 +26,11 @@
    - Usar e manipular listas para agrupar dados
    - Conhecer a biblioteca NumPy
    - Conhecer a biblioteca Pandas
+- [ ] **Jupyter e Colab**:
+   - Jupyter Notebook e Google Colaboratory são Notebooks que permitem a criação de blocos de texto e blocos de código
+   - Os Notebooks facilitam a elaboração de projetos de Data Science por ser possível visualizar o resultado da execução logo após o trecho de código
+   - O Google Colaboratory permite escrever e executar códigos Python diretamente no navegador, sem nenhuma ou poucas configurações necessárias
+   - Eles facilitam o compartilhamento de projetos entre o time
 - [ ] **R para Ciência de Dados**:
    - R é uma linguagem de programação comumente usada em estatística computacional e análise de dados.
    - Aprender a analisar, limpar e visualizar dados
@@ -40,17 +51,17 @@
    - Técnicas de amostragem
    - Regressão linear
    - Séries temporais
+- [ ] **Visualização de Dados**:
+   - A visualização de dados é uma expressão contemporânea da comunicação visual que consiste na representação visual de dados.
+   - Mapear dados abstratos em representações visuais
+   - Representar visualmente os dados que estão presentes no nosso mundo real
+## Nivel 2
 - [ ] **Machine Learning - Fundamentos**:
    - O Aprendizado de Máquina ou Machine Learning é um subcampo da Engenharia e da Ciência da Computação que evoluiu do estudo de reconhecimento de padrões e da teoria do aprendizado computacional em inteligência artificial.
    - Aprendizado supervisionado
    - Utilizar algoritmos de classificação
    - Utilizar algoritmos de regressão
    - Utilizar o Scikit-learn para criar modelos de machine learning
-- [ ] **Visualização de Dados**:
-   - A visualização de dados é uma expressão contemporânea da comunicação visual que consiste na representação visual de dados.
-   - Mapear dados abstratos em representações visuais
-   - Representar visualmente os dados que estão presentes no nosso mundo real
-## Nivel 2
 - [ ] **Machine Learning - Aprendizado Não Supervisionado**:
    - O clustering ou análise de agrupamento de dados é o conjunto de técnicas de prospecção de dados (data mining) que visa fazer agrupamentos automáticos de dados segundo o seu grau de semelhança.
    - Conhecer a análise exploratória
@@ -65,6 +76,7 @@
    - Utilizar um pipeline para treino e validação
    - Métricas de avaliação de modelos de machine learning
 - [ ] **SQL - Fundamentos**:
+   - SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.
    - Conhecer os comandos mais comuns do SQL
    - Usar SELECT para consultar uma tabela
    - Usar INSERT para inserir dados em uma tabela
@@ -153,7 +165,7 @@
    - Conhecer as variáveis de ambiente e o PATH
    - Gerenciar pacotes
    - Realizar comunicação remota com o SSH e SCP
-## Habilidade Auxiliar: Business e Soft skills 
+## Habilidade Auxiliar: Business 
 - [ ] **Habilidades de comunicação**:
    - Um bom nível de comunicação facilita o atingimento de objetivos, resolução de problemas, além de aumentar a produtividade, porque cada profissional saberá exatamente o que se espera dele e transmitir com clareza suas ideias.
 - [ ] **Gestão de Processos de Negócios**:
@@ -166,3 +178,9 @@
    - Conhecer o PowerBI
 - [ ] **Storytelling com dados**:
    - Storytelling é uma forma de contar histórias que engajam e chamam a atenção da pessoa que está ouvindo. Dentro da análise de dados, é algo muito importante para passar as informações ao receptor de modo que o mesmo compreenda não apenas os dados, mas também todo o contexto.
+- [ ] **Excel**:
+   - O Microsoft Excel é um editor de planilhas produzido pela Microsoft com ferramentas de cálculo e de construção de tabelas.
+   - Realizar as operações matemáticas básicas com seus operadores (soma, subtração, multiplicação e divisão)
+   - Conhecer as principais fórmulas, como 'MÉDIA' (AVERAGE), 'ARRED' (ROUND), 'MÁXIMO' (MAX), 'MÍNIMO' (MIN), etc
+   - Realizar buscas em colunas com a função 'PROCV'
+   - Realizar

@@ -2,7 +2,8 @@ name: Flutter - Architecture
 logo: 
 short-description:
 key-objectives:
-  - Getting to know the main architecture patterns used by the Flutter community
+  - In programming, there are several architectural patterns for project files and folders, that provide developers with ease in finding, researching, and understanding the written code.
+  - Getting to know the main architecture patterns used by the Flutter community, such as MVC, MVVM, MVP etc
 aditional-objectives:
 contents:  
   - type: ARTICLE
@@ -17,6 +18,12 @@ contents:
   - type: ARTICLE
     title: "Flutter Project Structure: Feature-first or Layer-first?"
     link: https://codewithandrea.com/articles/flutter-project-structure/
+  - type: YOUTUBE
+    title: "CodeCave: MVC Pattern in Flutter"
+    link: https://www.youtube.com/watch?v=RQf5VVuGJh8
+  - type: YOUTUBE
+    title: "Mobile Programmer: MVVM in Flutter using Providers"
+    link: https://www.youtube.com/watch?v=W1e7d3cvnRo
 alura-contents:
 
   

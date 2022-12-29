@@ -2,6 +2,7 @@ name: Java - Coleções
 logo: 
 short-description:
 key-objectives:
+  - Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
   - Aprender os usos e diferenças entre List, Set e Map
   - Aprender os usos e diferenças entre Equals e HashCode
   - Saiba trabalhar com ArrayList, LinkedList ou Vector
@@ -16,7 +17,7 @@ contents:
     link: https://dev.to/gabrielsantosba/basico-efetivo-sobre-colecoes-e-mapas-com-java-4bnc
   - type: ARTICLE
     title: "Equals e HashCode: O que é, porque usar e como implementar"
-    link: https://dev.to/gabrielsantosba/basico-efetivo-sobre-colecoes-e-mapas-com-java-4bnc
+    link: https://angeliski.com.br/equals-e-hashcode?x-host=angeliski.com.br
   - type: YOUTUBE
     title: "Caio Rodrigues: O Poder das Collections do Java"
     link: https://www.youtube.com/watch?v=eLiHH9Bu04E

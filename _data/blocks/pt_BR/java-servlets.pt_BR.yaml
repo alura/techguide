@@ -2,6 +2,7 @@ name: Java - Servlets
 logo: 
 short-description:
 key-objectives:
+  - Um servlet é uma classe Java utilizada para estender as capacidades dos servidores que hospedam aplicações acessadas através de um modelo de programação do tipo requisição-resposta. Embora os servlets possam responder a qualquer tipo de requisição, eles são comumente usados para estender as aplicações hospedadas por servidores web. Para tais aplicações, a tecnologia Java Servlet define classes servlet específicas para HTTP.
   - Criar páginas web dinâmicas em Java
   - Lidar com requisições para um servidor
   - Conhecer o ciclo de vida de um servlet

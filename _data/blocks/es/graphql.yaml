@@ -1,0 +1,34 @@
+name: GraphQL
+logo: 
+short-description:
+key-objectives:
+- GraphQL es un nuevo estándar API que proporciona una alternativa más eficiente, potente y flexible a REST. Fue desarrollado y de código abierto por Facebook y ahora lo mantiene una gran comunidad de empresas e individuos de todo el mundo.
+- Comprender cómo se utiliza GraphQL en el desarrollo de API
+- Creación de API utilizando bibliotecas y marcos GraphQL
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "GraphQL: Documentación"
+    link: https://graphql.org/
+  - type: SITE
+    title: "Cómo GraphQL: el tutorial Fullstack para GraphQL"
+    link: https://www.howtographql.com/
+  - type: SITE
+    title: "RedHat: ¿Qué es GraphQL?"
+    link: https://www.redhat.com/en/topics/api/what-is-graphql
+  - type: ARTICLE
+    title: "Entonces, ¿qué es esto de GraphQL del que sigo escuchando?"
+    link: https://medium.com/free-code-camp/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf
+  - type: ARTICLE
+    title: "Por qué GraphQL es el futuro de las API"
+    link: https://medium.com/free-code-camp/why-graphql-is-the-future-of-apis-6a900fb0bc81
+  - type: ARTICLE
+    title: "REST vs. GraphQL: una revisión crítica"
+    link: https://medium.com/good-api/rest-vs-graphql-a-critical-review-5f77392658e7
+  - type: YOUTUBE
+    title: "¿Qué es GraphQL?"
+    link: https://www.youtube.com/watch?v=RreRD41qlpw
+  - type: YOUTUBE
+    title: "miduver: GraphQL desde de cero"
+    link: https://www.youtube.com/watch?v=QG-qbmW-wes
+alura-contents:

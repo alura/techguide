@@ -1,0 +1,124 @@
+name: CSS - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Las hojas de estilo en cascada (CSS) son un lenguaje de hoja de estilo usado para descubrir una presentación de un documento escrito en un lenguaje de marca, como HTML o XML. O CSS puede ser usado para estilizar textos de documentos muy básicos — por ejemplo, para alterar a cor e o tamanho de cabeçalhos e links. Ele pode ser usado para criar um layout — por ejemplo, transformando uma única columna de texto en um layout com uma área de conteúdo principal e uma barra lateral para información relacionada. Pode até ser usado para efectos como animação.
+  - Aprender a estructura visual de uma página, con 'margem' e 'preenchimento'
+  - Estabelecer o tamanho com 'larga' e 'altura'
+  - Aprender sobre la posición de un elemento ('estático', 'relativo' o 'absoluto')
+  - Aprender sobre la exposición de un elemento ('block', 'inline', 'inline-block')
+  - Aprender a posicionar imágenes en relación con el texto
+  - Aprender sobre alinhamento
+  - Aprender sobre estilo de fuente
+  - Aprender las diferencias y ventajas de usar las diferentes unidades de medida en CSS (%, relativo, etc.)
+  - Conectar-se a los elementos (IDs, clases) de un archivo HTML
+  - Cambiar las características de un elemento cuando se pasa el ratón sobre él
+  - Aprender a dimensionar cajas
+  - Aprender Flexbox
+  - Grado de aprendizaje
+aditional-objectives:
+  - Uso de un archivo CSS básico para resetear las asignaciones del navegador
+  - Aprender selectores como '+', '>', '~', etc
+  - Conocer el concepto de 'Componentes' (Atomic design es una referencia) y BE<
+  - Hacer la página responsive con media queries
+  - Aprender el concepto de Mobile First
+  - Bootstrap y frameworks CSS
+  - Preprocesadores
+contents:
+  - type: SITE
+    title: "CSS"
+    link: https://developer.mozilla.org/es/docs/Web/CSS
+  - type: SITE
+    title: "W3Schools: Introducción a CSS"
+    link: https://www.w3schools.com/css/css_intro.asp
+  - type: SITE
+    title: "W3Schools: Sintaxis CSS"
+    link: https://www.w3schools.com/css/css_syntax.asp
+  - type: SITE
+    title: "W3Schools: CSS Selectores"
+    link: https://www.w3schools.com/css/css_selectors.asp
+  - type: SITE
+    title: "W3Schools: CSS Box Model"
+    link: https://www.w3schools.com/css/css_boxmodel.asp
+  - type: SITE
+    title: "W3Schools: Unidades CSS"
+    link: https://www.w3schools.com/css/css_units.asp
+  - type: SITE
+    title: "MDN Web Docs: Comenzando con CSS"
+    link: https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started
+  - type: SITE
+    title: "MDN Web Docs: Cascada, especificidad y herencia."
+    link: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+  - type: SITE
+    title: "MDN Web Docs: Propiedades de visualización"
+    link: https://developer.mozilla.org/en-US/docs/Web/CSS/display
+  - type: SITE
+    title: "MDN Web Docs: Conceptos básicos de flexbox"
+    link: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+  - type: SITE
+    title: "MDN Web Docs: Conceptos básicos de Grid Layout"
+    link: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+  - type: ARTICLE
+    title: "Bootstrap ¿Qué es, cómo y cuándo utilizar?"
+    link: https://www.aluracursos.com/blog/bootstrap-que-es-como-y-cuando-utilizar
+  - type: ARTICLE
+    title: "Comprenda la propiedad Position CSS"
+    link: https://www.aluracursos.com/blog/comprenda-la-propiedad-position-css
+  - type: ARTICLE
+    title: "CSS: Grids y tablas con responsividad en la Web"
+    link: https://www.aluracursos.com/blog/CSS-Grids-y-tablas-con-responsividad-en-la-Web
+  - type: ARTICLE
+    title: "Puntos de ruptura en el diseño responsivo"
+    link: https://www.aluracursos.com/blog/puntos-de-ruptura-en-el-diseno-responsivo
+  - type: ARTICLE
+    title: "Flexbox CSS: Guia Completo, Elementos y Ejemplos"
+    link: https://www.aluracursos.com/blog/flexbox-css-guia-completo-elementos-y-ejemplos
+  - type: ARTICLE
+    title: "¿Por qué usar 'em' en su CSS hoy?"
+    link: https://www.aluracursos.com/blog/por-que-usar-em-en-tu-css-hoy
+  - type: ARTICLE
+    title: "Tu código CSS puede ser más limpio, flexible y reutilizable."
+    link: https://www.aluracursos.com/blog/tu-codigo-css-puede-ser-mas-limpio-flexible-y-reutilizable
+  - type: ARTICLE
+    title: "Creando Layouts con Css Grid Layout"
+    link: https://www.aluracursos.com/blog/creando-layouts-con-css-grid-layout
+  - type: ARTICLE
+    title: "Creación de componentes CSS con el estándar BEM"
+    link: https://www.aluracursos.com/blog/creacion-de-componentes-css-con-el-estandar-bem
+  - type: ARTICLE
+    title: "Empezando a organizar tu CSS"
+    link: https://www.aluracursos.com/blog/empezando-a-organizar-tu-css
+  - type: ARTICLE
+    title: "Reset CSS: Qué es, Ejemplos, Cómo Crear y Utilizar"
+    link: https://www.aluracursos.com/blog/reset-css-que-es-ejemplos-como-crear-y-utilizar
+  - type: ARTICLE
+    title: "¿Cómo lidiar con los límites de resolución en sitios responsivos?"
+    link: https://www.aluracursos.com/blog/como-lidiar-con-los-limites-de-resolucion-en-sitios-responsivos
+  - type: ARTICLE
+    title: "Cómo organizar el CSS en tu proyecto"
+    link: https://www.aluracursos.com/blog/como-organizar-el-css-en-tu-proyecto
+  - type: ARTICLE
+    title: "CSS: animaciones en Transition y Animation"
+    link: https://www.aluracursos.com/blog/css-animaciones-de-transition-y-animation
+  - type: ARTICLE
+    title: "Guía de Unidades en el CSS"
+    link: https://www.aluracursos.com/blog/guia-de-unidades-en-css
+  - type: ARTICLE
+    title: "Cambiando CSS con JavaScript"
+    link: https://www.aluracursos.com/blog/cambiando-css-con-javascript
+  - type: YOUTUBE
+    title: "Que rayos son las variables en CSS y como se utilizan."
+    link: https://www.youtube.com/watch?v=nJO1jjKUroI&ab_channel=FalconMasters
+  - type: YOUTUBE
+    title: "Animando un texto en HTML y CSS"
+    link: https://www.youtube.com/watch?v=j71g5TiMA-M&ab_channel=AluraLatam
+alura-contents:
+  - type: COURSE
+    title: "Flexbox: Posicione elementos en la pantalla"
+    link: https://www.aluracursos.com/curso-online-flexbox-posicione-elementos-pantalla
+  - type: COURSE
+    title: "CSS Grid: Simplificando layouts"
+    link: https://www.aluracursos.com/curso-online-css-grid-simplificando-layouts
+  - type: COURSE
+    title: "Arquitectura CSS: descomplicando los problemas"
+    link: https://www.aluracursos.com/curso-online-arquitectura-css-descomplicando-los-problemas

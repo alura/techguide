@@ -1,0 +1,27 @@
+name: Línea de Comando - Fundamentos
+logo: 
+short-description:
+key-objectives:
+- CLI es un programa de línea de comandos que acepta la entrada de texto para ejecutar funciones del sistema operativo.
+- Conocer los comandos más importantes
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: What is Command Line Interface (CLI)?"
+    link: https://www.w3schools.com/whatis/whatis_cli.asp
+  - type: SITE
+    title: "Uso de argumentos de línea de comando para Windows Terminal"
+    link: https://docs.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=windows
+  - type: ARTICLE
+    title: "Como usar el terminal integrado de Visual Studio Code"
+    link: https://www.aluracursos.com/blog/como-usar-el-terminal-integrado-de-visual-studio-code
+  - type: COURSE
+    title: "Linux 1: conociendo y utilizando la terminal"
+    link: https://app.aluracursos.com/course/linux-1-conociendo-utilizando-terminal
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Command Line Crash Course"
+    link: https://www.youtube.com/watch?v=yz7nYlnXLfE
+  - type: YOUTUBE
+    title: "Traversy Media: Command Line Crash Course For Beginners - Terminal Commands"
+    link: https://www.youtube.com/watch?v=uwAqEzhyjtw
+alura-contents:

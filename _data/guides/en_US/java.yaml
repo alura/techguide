@@ -1,0 +1,75 @@
+name: Java
+expertise:
+  - name: Java Back-end Jr
+    blocks: 
+      - java-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 10
+      - java-errorhandling:
+        priority: 10
+      - java-collections:
+        priority: 9
+      - java-testing:
+        priority: 9
+      - java-packages:
+        priority: 8
+      - data-structures:
+        priority: 7
+  - name: Java Back-end Mid
+    blocks:
+      - jvm:
+        priority: 8
+      - java-memory-management:
+        priority: 7
+      - java-spring-framework:
+        priority: 9
+      - java-spring-boot:
+        priority: 7
+      - java-build-tools:
+        priority: 8
+      - java-persistence:
+        priority: 8
+  - name: Java Back-end in depth
+    blocks:
+      - microservices:
+        priority: 8
+      - java-concurrency:
+        priority: 8
+      - containers:
+        priority: 7
+      - java-networking-and-sockets:
+        priority: 6
+      - java-servlets:
+        priority: 7
+      - kafka:
+        priority: 6
+collaboration:
+  - name: Infrastructure
+    blocks:
+      - git-and-github-fundamentals:
+        priority: 9
+      - http-fundamentals:
+        priority: 10
+      - json:
+        priority: 8
+      - command-line-fundamentals: 
+        priority: 8
+      - cloud-fundamentals: 
+        priority: 6
+        optional: true
+      - sql-fundamentals:
+        priority: 9
+  - name: Good practices
+    blocks:
+      - solid:
+        priority: 7
+      - clean-architecture:
+        priority: 7
+      - design-patterns:
+        priority: 7
+      - clean-code:
+        priority: 6
+      - ddd-concepts:
+        priority: 5
+        optional: true

@@ -28,9 +28,6 @@
    - No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.
    - Conhecer as principais estruturas de dados
    - Implementar as principais estruturas de dados
-- [ ] **Python - Métodos Especiais**:
-   - Entender o conceito de métodos especiais (ou mágicos)
-   - Conhecer os principais métodos mágicos e como usá-los
 - [ ] **Python - Coleções**:
    - Utilizar listas e tuplas
    - Utilizar polimorfismo nas coleções
@@ -46,12 +43,9 @@
    - Criar aplicações web
    - Definir rotas, redirecionamentos e templates
    - Validar formulários
-- [ ] **Python - Mixins**:
-   - Usar orientação a objetos
-   - Entender o uso de herança múltipla
-- [ ] **Python - Sobrecarga de operadores**:
-   - Definir métodos para um operador
-   - Realizar operações com objetos
+- [ ] **Python - Orientação a Objetos Avançada**:
+   - Mixin é uma classe que fornece implementações de métodos para reutilização por múltiplas classes filhas relacionadas.
+   - Sobrecarga do operador significa dar significado estendido além de seu significado operacional predefinido.
 - [ ] **Django**:
    - Criar aplicações web
    - Entender a arquitetura de uma aplicação feita com Django
@@ -63,17 +57,33 @@
    - Trabalhar com modelos, serializers e views
    - Incluir filtros, buscas e ordenação
    - Limitar o número de requisições
-- [ ] **Design Patterns**:
-   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
-   - Conhecer e aplicar os principais Design Patterns
+- [ ] **Python - MVC e MTV**:
+   - Entender o padrão MVC
+   - Entender o padrão MTV
+   - Compreender a diferença entre os padrões MVC e MTV
+- [ ] **Python - Lambdas e Closures**:
+   - Funções lambda nada mais são do que funções anônimas. Enquanto funções normais podem ser criada utilizando def como prefixo, as funções lambda são criadas utilizando lambda.
+   - Uma closure em Python é um objeto de função interna, uma função que se comporta como um objeto, que se lembra e tem acesso a variáveis no escopo local em que foi criado, mesmo depois que a função externa tenha terminado de ser executada. Também pode ser definida como um meio de ligar dados a uma função sem passá-los como parâmetro.
 ## Nivel 3
+- [ ] **Arquitetura de Microsserviços**:
+   - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
+   - Aprender o conceito de arquitetura planejada para microsserviços
+   - Realizar a comunicação usando APIs
+   - Melhorar a escalabilidade de um sistema
+
 - [ ] **Python - Tipagem estática**:
    - Utilizar tipagem estática em Python
-- [ ] **Python - Corrotinas**:
-   - Escrever aplicações assíncronas
+- [ ] **Python - Assíncrono**:
+   - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
+   - Aprender sobre corrotinas
+   - Coroutinas são generalizações de sub-rotinas. Elas são utilizadas para multitarefas cooperativas onde um processo cede controle voluntariamente, periodicamente ou quando ocioso, a fim de permitir que múltiplas aplicações sejam executadas simultaneamente.
    - Lidar com concorrência
    - Conhecer o conceito de objetos aguardáveis
    - Criar tarefas concorrentemente
+- [ ] **Python - Métodos Especiais**:
+   - Métodos especiais, ou métodos mágicos, em Python são métodos predefinidos em todos os objetos, com invocação automática sob circunstâncias especiais. Eles normalmente não são chamados diretamente pelo usuário mas podem ser overloaded (sobrescritos e alterados). Seus nomes começam e terminam com sublinhados duplos chamados de dunder (uma expressão derivada de double underscore).
+   - Entender o conceito de métodos especiais (ou mágicos)
+   - Conhecer os principais métodos mágicos e como usá-los
 - [ ] **Python - Geradores**:
    - Criar objetos iteradores
    - Usar avaliação preguiçosa
@@ -81,14 +91,10 @@
    - Uso da palavra reservada yield
 - [ ] **Python - Metaprogramação**:
    - Escrever um programa que manipula outros programas
-- [ ] **Python - MVC e MTV**:
-   - Entender o padrão MVC
-   - Entender o padrão MTV
-   - Compreender a diferença entre os padrões MVC e MTV
 - [ ] **Python - Pooling de processos**:
    - Executar processos em paralelo
    - Conhecer a classe Pool
-## Habilidade Auxiliar: Infraestrutura e boas práticas 
+## Habilidade Auxiliar: Infraestrutura 
 - [ ] **Git e GitHub - Fundamentos**:
    - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
    - GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.
@@ -119,12 +125,8 @@
    - Conhecer a diferença entre IaaS, PaaS e SaaS
    - Conhecer os maiores provedores de cloud
    - Especializar-se em algum provedor
-- [ ] **Microsserviços**:
-   - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
-   - Aprender o conceito de arquitetura planejada para microsserviços
-   - Realizar a comunicação usando APIs
-   - Melhorar a escalabilidade de um sistema
 - [ ] **SQL - Fundamentos**:
+   - SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.
    - Conhecer os comandos mais comuns do SQL
    - Usar SELECT para consultar uma tabela
    - Usar INSERT para inserir dados em uma tabela
@@ -132,45 +134,20 @@
    - Usar DELETE para remover dados de uma tabela
    - Usar JOIN para conectar os dados de múltiplas tabelas
    - Conhecer as cláusulas (FROM, ORDER BY, etc)
-## Habilidade Auxiliar: Front-end 
-- [ ] **HTML - Fundamentos**:
-   - HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.
-   - Aprender quais tags são necessárias para um HTML básico
-   - Criar um parágrafo de texto
-   - Exibir uma imagem
-   - Conhecer a diferença entre 'h1', 'h2', 'h3', etc
-   - Criar um texto com hyperlink
-   - Criar um formulário com campos relevantes
-   - Criar uma lista de itens ordenada ou não ordenada
-   - Criar uma lista de itens dentro de uma lista suspensa (dropdown list)
-   - Conectar com um arquivo de CSS
-   - Criar uma tabela
-   - Adicionar IDs e classes
-- [ ] **CSS - Fundamentos**:
-   - Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.
-   - Aprender a estrutura visual de uma página, com 'margin' e 'padding'
-   - Estabelecer o tamanho com 'width' e 'height'
-   - Aprender sobre a posição de um elemento ('static', 'relative' ou 'absolute)
-   - Aprender sobre o 'display' de exibição de um elemento ('block', 'inline', 'inline-block')
-   - Aprender a posicionar imagens em relação ao texto
-   - Aprender sobre alinhamento
-   - Aprender sobre estilo de fontes
-   - Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)
-   - Conectar com os elementos (IDs, classes) de um arquivo HTML
-   - Alterar características de um elemento quando o mouse passar por cima dele ('hover')
-   - Aprender box-sizinh
-   - Aprender Flexbox
-   - Aprender Grid
-- [ ] **JavaScript - Fundamentos**:
-   - JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.
-   - Conhecer os tipos primitivos
-   - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
-   - Usar estruturas condicionais ('if', 'else')
-   - Conhecer os operadores de comparação ('=', '==', '===')
-   - Usar estruturas de repetição e laços ('while', 'for')
-   - Usar funções, passando parâmetros e argumentos
-   - Manipular arrays e listas
-   - Aprender o conceito de Orientação a Objetos
-   - Fazer um CRUD
-   - Obter dados de uma API
-   - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
+## Habilidade Auxiliar: Boas práticas e ferramentas 
+- [ ] **SOLID**:
+   - O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
+- [ ] **Clean Architecture**:
+   - A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.
+- [ ] **Design Patterns**:
+   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
+   - Conhecer e aplicar os principais Design Patterns
+- [ ] **Jupyter e Colab**:
+   - Jupyter Notebook e Google Colaboratory são Notebooks que permitem a criação de blocos de texto e blocos de código
+   - Os Notebooks facilitam a elaboração de projetos de Data Science por ser possível visualizar o resultado da execução logo após o trecho de código
+   - O Google Colaboratory permite escrever e executar códigos Python diretamente no navegador, sem nenhuma ou poucas configurações necessárias
+   - Eles facilitam o compartilhamento de projetos entre o time
+- [ ] **Extração e Tratamento de Dados**:
+   - Obter os dados que serão analisados
+   - Tratar os dados obtidos, transformando-os, alterando sua estrutura e valores a fim de deixar a base de dados mais coerente e garantir que os dados que serão trabalhados estejam nas melhores condições para serem analisados
+   - Utilizar as bibliotecas Pandas e Scikit-learn para tratar os dados

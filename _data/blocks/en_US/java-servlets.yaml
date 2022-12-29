@@ -1,0 +1,29 @@
+name: Java - Servlets
+logo: 
+short-description:
+key-objectives:
+  - A servlet is a Java class that is used to extend the capabilities of servers that host applications accessed by means of a request-response programming model. Although servlets can respond to any type of request, they are commonly used to extend the applications hosted by web servers. For such applications, Java Servlet technology defines HTTP-specific servlet classes.  
+  - Creating dynamic web pages in Java
+  - Handling requests to a server
+  - Knowing the servlet life cycle
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "GeeksForGeeks: Introduction to Java Servlets"
+    link: https://www.geeksforgeeks.org/introduction-java-servlets/
+  - type: SITE
+    title: "JavaTPoint: Java Servlets"
+    link: https://www.javatpoint.com/servlet-tutorial
+  - type: ARTICLE
+    title: "Complete Introduction to Java Servlets"
+    link: https://medium.com/app-dev-community/complete-introduction-to-java-servlets-d445cec67ce2
+  - type: ARTICLE
+    title: "Understanding Servlet Life Cycle in Java"
+    link: https://medium.com/@niitwork0921/understanding-servlet-life-cycle-in-java-eba0e73ca379
+  - type: YOUTUBE
+    title: "Simplilearn: Java Servlets Tutorial"
+    link: https://www.youtube.com/watch?v=7AIjcZMo-V4
+  - type: YOUTUBE
+    title: "edureka!: Java Servlets Tutorial"
+    link: https://www.youtube.com/watch?v=ewiOaDitBBw
+alura-contents:

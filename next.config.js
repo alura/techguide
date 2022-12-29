@@ -1,10 +1,18 @@
 /** @type {import('next').NextConfig} */
-
 const nextConfig = {
   trailingSlash: true,
   reactStrictMode: true,
   compiler: {
     styledComponents: true,
+  },
+  async redirects() {
+    return [
+      {
+        source: "/pt-BR/",
+        destination: "/",
+        permanent: true,
+      },
+    ];
   },
   async headers() {
     return [

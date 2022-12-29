@@ -22,6 +22,9 @@ function withLocalePrefix(
   const urlLocale = urlLocaleBySiteLocale[locale];
   const baseHref = `/${urlLocale}/${href}`.replace("//", "/");
 
+  // TODO: Fix this in future
+  if (baseHref === "/pt-BR/") return "/";
+
   return baseHref;
 }
 

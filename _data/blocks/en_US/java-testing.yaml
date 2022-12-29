@@ -1,0 +1,30 @@
+name: Java - Testing
+logo: 
+short-description:
+key-objectives:
+  - Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.
+  - Using unit tests
+  - Using integration testing
+  - Using behavioral testing
+  - Using mocks
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Testing in Java - Fundamentals"
+    link: https://medium.com/dolap-tech/testing-in-java-fundamentals-61a6dab9fb8e
+  - type: ARTICLE
+    title: "Understanding the Basics of Unit Testing in Java"
+    link: https://medium.com/javarevisited/understanding-the-basics-of-unit-testing-in-java-1bec70b6b10f
+  - type: ARTICLE
+    title: "Step by Step Introduction to Unit Testing in Java"
+    link: https://dev.to/gervg/step-by-step-introduction-to-unit-testing-in-java-3ae7
+  - type: YOUTUBE
+    title: "Amigoscode: Software Testing Tutorial - Learn Unit Testing and Integration Testing"
+    link: https://www.youtube.com/watch?v=Geq60OVyBPg
+  - type: YOUTUBE
+    title: "Coding with John: Java Unit Testing with JUnit"
+    link: https://www.youtube.com/watch?v=vZm0lHciFsQ
+  - type: YOUTUBE
+    title: "TU Delft Online Learning: Software Testing in Java - Mockito"
+    link: https://www.youtube.com/watch?v=_0uqsgmy6CI
+alura-contents:

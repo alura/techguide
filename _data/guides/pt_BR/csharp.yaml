@@ -77,12 +77,13 @@ collaboration:
     blocks:
       - solid:
         priority: 7
-      - clean-code:
-        priority: 7
       - design-patterns:
         priority: 7
       - clean-architecture:
         priority: 7
+      - clean-code:
+        priority: 6
       - ddd-concepts:
-        priority: 8
+        priority: 5
+        optional: true
         
