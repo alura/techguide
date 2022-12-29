@@ -80,17 +80,21 @@ collaboration:
     #  - ci-cd:
     #    priority: 6
     #    optional: true
+      - firebase:
+        priority: 7
   - name: UX and Design
     blocks:
       - design-systems:
-        priority: 4
+        priority: 6
+      - figma-fundamentals:
+        priority: 7
       - design-components:
         priority: 6
       - color-systems:
-        priority: 5
+        priority: 7
       - how-to-use-fonts:
+        priority: 7
+      - flutter-accessibility:
         priority: 5
-    #  - figma-accessibility:
-    #    priority: 5
       - responsive-design:
         priority: 5

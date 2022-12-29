@@ -1,0 +1,29 @@
+name: React - Props
+logo: 
+short-description:
+key-objectives:
+  - Props son objetos que se inyecta en los componentes y proporciona algunos datos que se pueden compartir entre otros componentes en un flujo de datos unidireccional desde un elemento principal a un elemento secundario. 
+  - Las Props son de solo lectura.
+  - accesorios de paso
+  - manipulación de accesorios
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: React Props"
+    link: https://www.w3schools.com/react/react_props.asp
+  - type: SITE
+    title: "React: Documentación - Componentes y Props"
+    link: https://reactjs.org/docs/components-and-props.html    
+  - type: SITE
+    title: "MDN Web Docs: Primeros pasos con React - Variables and props"
+    link: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#variables_and_props
+  - type: ARTICLE
+    title: "Props in React"
+    link: https://medium.com/@wlodarczyk_j/props-in-react-2ec0d0d0df9c
+  - type: YOUTUBE
+    title: "Props de un componente"
+    link: https://www.youtube.com/watch?v=l93Usdo9Z4w
+  - type: YOUTUBE
+    title: "Props en React - Primeros passos"
+    link: https://www.youtube.com/watch?v=lDFoN0Whlhc
+alura-contents:

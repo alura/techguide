@@ -100,12 +100,13 @@
    - Criar funções locais que podem ser passadas como argumentos
 - [ ] **Contêineres**:
    - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
+   - O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.
    - Isolar seu software para funcionar independentemente
    - Implantar software em clusters
    - Modularizar seu sistema em pacotes menores
    - Conhecer a plataforma Docker
    - Conhecer Kubernetes
-- [ ] **Microsserviços**:
+- [ ] **Arquitetura de Microsserviços**:
    - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
    - Aprender o conceito de arquitetura planejada para microsserviços
    - Realizar a comunicação usando APIs
@@ -149,6 +150,7 @@
    - Conhecer os maiores provedores de cloud
    - Especializar-se em algum provedor
 - [ ] **SQL - Fundamentos**:
+   - SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.
    - Conhecer os comandos mais comuns do SQL
    - Usar SELECT para consultar uma tabela
    - Usar INSERT para inserir dados em uma tabela
@@ -159,15 +161,16 @@
 ## Habilidade Auxiliar: Boas práticas 
 - [ ] **SOLID**:
    - O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
-- [ ] **Clean Code**:
-   - Aplicar técnicas simples que visam facilitar a escrita e leitura de um código
-   - Refatorar seu código para que fique mais claro
 - [ ] **Design Patterns**:
    - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
    - Conhecer e aplicar os principais Design Patterns
 - [ ] **Clean Architecture**:
    - A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.
-- [ ] **Conceitos de Desenvolvimento Orientado a Domínio (Domain-driven Design)**:
+- [ ] **Clean Code**:
+   - Aplicar técnicas simples que visam facilitar a escrita e leitura de um código
+   - Refatorar seu código para que fique mais claro
+- [ ] **Conceitos de Design Orientado a Domínio (Domain-Driven Design - DDD)**:
+   - O Design Orientado a Domínio (DDD) é uma abordagem ao projeto e desenvolvimento de software que é primeiramente informado pelos requisitos de negócios. Os componentes do programa (objetos, classes, matrizes, etc.) indicam a indústria, setor ou domínio empresarial em que o negócio opera.
    - Modelar domínios de forma efetiva
    - Basear projetos complexos em modelos do domínio
    - Conhecer os blocos de construção de DDD

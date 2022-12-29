@@ -1,0 +1,28 @@
+name: Create React App
+logo: 
+short-description:
+key-objectives:
+- Create React App es una forma oficialmente admitida de crear aplicaciones React de una sola página. Ofrece una configuración de construcción moderna sin configuración.
+- Estructuración de un nuevo proyecto React
+- Crear una aplicación funcional desde cero
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Empezando con Create React App"
+    link: https://create-react-app.dev/docs/getting-started
+  - type: SITE
+    title: "MDN Web Docs: Primeros pasos con Reaccionar"
+    link: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#setting_up_your_first_react_app
+  - type: ARTICLE
+    title: "¿Qué hace realmente Create React App por ti?"
+    link: https://medium.com/rewrite-tech/what-does-create-react-app-actually-do-for-you-c7a9354acdc4
+  - type: ARTICLE
+    title: "Cómo configurar un nuevo proyecto Create React App"
+    link: https://medium.com/@dimterion/how-to-set-up-a-new-create-react-app-project-2bfc2992aa16
+  - type: ARTICLE
+    title: "React: componentes con Styled Components"
+    link: https://www.aluracursos.com/blog/react-componentes-con-styled-components
+  - type: YOUTUBE
+    title: "Crea una app con React usando create-react-app"
+    link: https://www.youtube.com/watch?v=TTZOoWfGjCo
+alura-contents:

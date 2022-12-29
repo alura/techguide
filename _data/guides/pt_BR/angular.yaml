@@ -1,6 +1,6 @@
-name: Front-end Angular
+name: Angular
 expertise:
-  - name: Front-end Angular Jr
+  - name: Angular Jr
     blocks: 
       - javascript-fundamentals:
         priority: 10
@@ -12,7 +12,7 @@ expertise:
         priority: 10
       - observer-pattern:
         priority: 9
-  - name: Front-end Angular Mid
+  - name: Angular Mid
     blocks:
       - angular-templates:
         priority: 9
@@ -24,7 +24,7 @@ expertise:
         priority: 8
       - angular-cli:
         priority: 7
-  - name: Front-end Angular in depth
+  - name: Angular in depth
     blocks:
       - angular-state-management:
         priority: 8
@@ -44,7 +44,7 @@ expertise:
         priority: 5
         optional: true
 collaboration:
-  - name: Infrastructure and Back-end
+  - name: Infraestrutura e Back-end
     blocks:
       - git-and-github-fundamentals:
         priority: 10
@@ -57,7 +57,7 @@ collaboration:
       - cloud-fundamentals: 
         priority: 6
         optional: true
-  - name: UX and Design
+  - name: UX e Design
     blocks:
       - design-systems:
         priority: 4

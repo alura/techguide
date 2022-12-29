@@ -1,0 +1,35 @@
+name: React Hooks - UseEffect
+logo: 
+short-description:
+key-objectives:
+- UseEffect() es un React Hook que le permite manejar los efectos secundarios en sus componentes funcionales de React.
+- Ejecutar un componente solo después de renderizar
+- Acceso a los accesorios de un elemento
+- API de llamadas
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: React Hooks"
+    link: https://www.w3schools.com/react/react_hooks.asp
+  - type: SITE
+    title: "W3Schools: React useEffect - Hooks"
+    link: https://www.w3schools.com/react/react_useeffect.asp
+  - type: SITE
+    title: "React: Documentación - Introduciendo el Hooks"
+    link: https://reactjs.org/docs/hooks-intro.html
+  - type: SITE
+    title: "React: Documentación - Uso del Hook UseEffect"
+    link: https://reactjs.org/docs/hooks-effect.html
+  - type: ARTICLE
+    title: "React Hooks, useEffect. Añadiendo funcionalidad en el ciclo de vida de nuestro componente"
+    link: https://desarrollofront.medium.com/entendiendo-los-hooks-de-react-c%C3%B3mo-usar-usestate-y-useeffect-en-nuestros-componentes-611b9e826dfa
+  - type: YOUTUBE
+    title: "Para qué sirve UseEffect en React JS"
+    link: https://www.youtube.com/watch?v=MIIZtKHTYNU
+  - type: YOUTUBE
+    title: "UseEffect explicado a fondo"
+    link: https://www.youtube.com/watch?v=0_D8ruGVp20
+alura-contents:
+  - type: COURSE
+    title: "React: Hooks, contextos y buenas prácticas"
+    link: https://aluracursos.com/course/react-hooks-contextos-buenas-practicas

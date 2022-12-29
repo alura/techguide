@@ -1,0 +1,46 @@
+name: Kafka
+logo: 
+short-description:
+key-objectives:
+  - Apache Kafka is a distributed data transmission platform that is capable of publishing, subscribing, storing, and processing real-time log streams. This platform is designed to process data streams from multiple sources and deliver them to multiple clients.
+  - Using Kafka for asynchronous communication
+  - Creating microservices with Kafka
+  - Creating producers and consumers
+  - Understanding how to use Kafka for parallelism and serialized execution
+  - Obtaining guarantees regarding the sending or delivery of messages
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Apache Kafka - Documentation - Introduction"
+    link: https://kafka.apache.org/intro
+  - type: SITE
+    title: "Red Hat: What is Apache Kafka?"
+    link: https://www.redhat.com/en/topics/integration/what-is-apache-kafka
+  - type: SITE
+    title: "JavaTPoint: Apache Kafka Tutorial"
+    link: https://www.javatpoint.com/apache-kafka
+  - type: ARTICLE
+    title: "A Thorough Introduction to Apache Kafka"
+    link: https://betterprogramming.pub/thorough-introduction-to-apache-kafka-6fbf2989bbc1
+  - type: ARTICLE
+    title: "Understand Kafka as if you had designed it — Part 1"
+    link: https://towardsdatascience.com/understanding-kafka-as-if-you-had-designed-it-part-1-3f9316cb8fd8
+  - type: ARTICLE
+    title: "How to use Apache Kafka to transform a batch pipeline into a real-time one"
+    link: https://medium.com/@stephane.maarek/how-to-use-apache-kafka-to-transform-a-batch-pipeline-into-a-real-time-one-831b48a6ad85
+  - type: ARTICLE
+    title: "Kafka: All you need to know"
+    link: https://medium.com/hacking-talent/kafka-all-you-need-to-know-8c7251b49ad0
+  - type: YOUTUBE
+    title: "Confluent: What is Apache Kafka®?"
+    link: https://www.youtube.com/watch?v=FKgi3n-FyNU
+  - type: YOUTUBE
+    title: "Stephane Maarek: Apache Kafka in 5 minutes"
+    link: https://www.youtube.com/watch?v=PzPXRmVHMxI
+  - type: YOUTUBE
+    title: "Intellipaat: Kafka Tutorial"
+    link: https://www.youtube.com/watch?v=daRykH67_qs
+  - type: YOUTUBE
+    title: "Amigoscode: Kafka Tutorial - Spring Boot Microservices"
+    link: https://www.youtube.com/watch?v=SqVfCyfCJqw
+alura-contents:

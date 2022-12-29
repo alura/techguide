@@ -8,24 +8,27 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "React: Documentação - Introdução aos Hooks"
-    link: https://pt-br.reactjs.org/docs/hooks-intro.html#gatsby-focus-wrapper
+    title: "React: Documentación - Introdução aos Hooks"
+    link: https://reactjs.org/docs/hooks-intro.html#gatsby-focus-wrapper
   - type: SITE
-    title: "React: Documentação - Usando o State do Hook"
-    link: https://pt-br.reactjs.org/docs/hooks-state.html#gatsby-focus-wrapper
-  - type: SITE
-    title: "MDN Web Docs: React interactivity: Events and state (inglês)"
-    link: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_events_state
+    title: "useState: ¿Cómo utilizar el Hook useState en React?"
+    link: https://ewebik.com/react-js/usestate
   - type: ARTICLE
-    title: "Primeiros passos com React Hooks — useState"
-    link: https://medium.com/@devjpnobrega/primeiros-passos-com-react-hooks-usestate-aa4eeeec5f4e
+    title: "React Hooks Tutorial"
+    link: https://developero.io/blog/react-hooks-tutorial-en-espa%C3%B1ol
+  - type: YOUTUBE
+    title: "Uso de useState en React"
+    link: https://www.youtube.com/watch?v=5AM5Ah0o5eU
+  - type: YOUTUBE
+    title: "¿Qué es un Hook? y ejemplo de useState"
+    link: https://www.youtube.com/watch?v=9bv1lruO8MM
+  - type: YOUTUBE
+    title: "4 maneras de manejar Areglos de Objetos con useState CRUD"
+    link: https://www.youtube.com/watch?v=U3IJ7dsDVaE
 alura-contents:
   - type: ARTICLE
     title: "React Hooks: o que é e como eles funcionam"
     link: https://www.alura.com.br/artigos/react-hooks
-  - type: COURSE
-    title: "Imersão React: AluraCord - Aula 02"
-    link: https://cursos.alura.com.br/imersoes/aulas/aula-02-state-novas-paginas-e-navegacao-spa-vs-a-tradicional-c69
   - type: COURSE
     title: "Curso React: gerenciamento de estados globais com ContextAPI"
     link: https://cursos.alura.com.br/course/react-context-estados-globais-contextapi
@@ -42,9 +45,6 @@ alura-contents:
     title: "React: Entienda cómo funciona la biblioteca"
     link: https://app.aluracursos.com/course/react-biblioteca
   - type: COURSE
-    title: "React: Ciclo de vida de los componentes"
-    link: https://app.aluracursos.com/course/react-ciclo-vida-componentes
- - type: COURSE
     title: "React: Ciclo de vida de los componentes"
     link: https://app.aluracursos.com/course/react-ciclo-vida-componentes
  - type: COURSE

@@ -68,3 +68,8 @@ collaboration:
         priority: 7
       - design-patterns:
         priority: 7
+      - clean-code:
+        priority: 6
+      - ddd-concepts:
+        priority: 5
+        optional: true

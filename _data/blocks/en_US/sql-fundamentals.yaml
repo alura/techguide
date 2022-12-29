@@ -1,0 +1,36 @@
+name: SQL - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Structured Query Language (SQL) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.  
+  - Knowing the most common SQL commands
+  - Using SELECT to query a table
+  - Using INSERT to insert data into a table
+  - Using UPDATE to update a table
+  - Using DELETE to remove data from a table
+  - Using JOIN to connect data from multiple tables
+  - Knowing the clauses (FROM, ORDER BY, etc.)
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: Introduction to SQL"
+    link: https://www.w3schools.com/sql/sql_intro.asp
+  - type: SITE
+    title: "Amazon AWS: What is SQL?"
+    link: https://aws.amazon.com/what-is/sql/?nc1=h_ls
+  - type: ARTICLE
+    title: "From Basic to Intermediate SQL in 10 Minutes"
+    link: https://medium.com/analytics-vidhya/from-basic-to-intermediate-sql-in-10-minutes-42b960ed6f9e
+  - type: ARTICLE
+    title: "SQL for Beginners 2022 — A Practical SQL Guide"
+    link: https://medium.com/@besimum/sql-for-beginners-2022-a-practical-sql-guide-1de6adb43d52
+  - type: YOUTUBE
+    title: "Kevin Stratvert: SQL for Beginners Tutorial"
+    link: https://www.youtube.com/watch?v=h0nxCDiD-zg
+  - type: YOUTUBE
+    title: "Fireship: Learn SQL in 23 Easy Steps"
+    link: https://www.youtube.com/watch?v=Cz3WcZLRaWc
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: SQL Tutorial - Full Database Course for Beginners"
+    link: https://www.youtube.com/watch?v=HXV3zeQKqGY  
+alura-contents:

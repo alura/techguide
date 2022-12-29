@@ -1,0 +1,29 @@
+name: Cloud - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - La computación en nube, o cloud computing, es la distribución de servicios informáticos a través de Internet mediante un modelo de tarificación de pago por uso. Una nube se compone de varios recursos informatizados, desde los propios ordenadores (o instancias, en terminología de nube) hasta las redes, el almacenamiento, las bases de datos y todo lo que les rodea. En otras palabras, todo lo que normalmente se necesita para montar el equivalente a una sala de servidores, o incluso un centro de datos completo, estará listo para usar, configurar y ejecutar.
+  - Conocer la diferencia entre IaaS, PaaS y SaaS
+  - Conocer los mayores proveedores de nube
+  - Especializarse en un proveedor específico de su preferencia
+aditional-objectives:
+contents:
+ - type: SITE
+   title: "Microsoft Azure: ¿Qué es la computación en nube?"
+   link: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+ - type: SITE
+   title: "Amazon AWS: ¿Qué es la computación en nube?"
+   link: https://aws.amazon.com/en/what-is-cloud-computing/
+ - type: ARTICLE
+   title: "Guía para principiantes sobre los fundamentos de la computación en nube"
+   link: https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/
+ - type: ARTICLE
+   title: "Cloud Computing para principiantes"
+   link: https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/
+ - type: ARTICLE
+   title: "¿Qué es Cloud y sus principales servicios?"
+   link: https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios
+ - type: COURSE
+   title: "Amazon CloudWatch: visibilidad completa de aplicaciones y servicios en la nube"
+   link: https://www.aluracursos.com/curso-online-amazon-cloudwatch-visibilidad-aplicaciones-servicios-nube
+alura-contents:

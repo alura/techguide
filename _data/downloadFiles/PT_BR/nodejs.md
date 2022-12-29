@@ -2,9 +2,10 @@
 ## Nivel 1
 - [ ] **Node.js - Fundamentos**:
    - Node.js é um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem de forma autônoma, sem depender de um navegador.
-   - Conhecer e aprender mais sobre o Node.js, ambiente de execução do JavaScript fora no navegador
-   - Descobrir as possibilidades de desenvolvimento do Node.js e por que é tão utilizado
-   - Entender as partes principais do ecossistema Node.js e como usamos cada uma delas
+   - Conhecer operações bloqueantes e não-bloqueantes
+   - Aprender o conceito de laço de eventos (event loop)
+   - Aprender a usar as bibliotecas do Node.js, como 'net', 'fs', 'http', 'path', entre outras
+   - Entender como Timers funcionam
 - [ ] **JavaScript - Callbacks e Promises**:
    - Uma promessa (Promise) é um proxy para um valor não necessariamente conhecido quando a promessa é criada. Isso permite que métodos assíncronos retornem valores como métodos síncronos - em vez de retornar imediatamente o valor final, o método assíncrono retorna uma promessa de fornecer o valor em algum momento no futuro.
    - Uma função de Callback é uma função passada para outra função como um argumento, que é então invocado dentro da função externa para completar algum tipo de rotina ou ação.
@@ -46,13 +47,17 @@
 - [ ] **Node.js - Express**:
    - O Express é um framework de aplicações web Node.js flexível que fornece um conjunto robusto de recursos para aplicativos da web e mobile.
    - Utilizar o framework Express para criação de APIs REST com Node.js
-   - Conhecer as diversas bibliotecas e frameworks do ecossistema Node.js para APIs
+   - Gerenciar requisições de diferentes verbos HTTP em diferentes URLs
+   - Definir a porta a ser usada para conexão e a localização dos modelos que são usados para renderizar a resposta
+   - Criar manipuladores de rotas usando o método 'router'
+   - Conhecer a bibliotecas 'Router' e seus verbos HTTP, como 'get', 'post', 'put', etc.
+   - Definir endpoints com route paths
 - [ ] **Node.js - ORM**:
    - Object-Relational Mapping (ORM), em português, mapeamento objeto-relacional, é uma técnica utilizada para fazer o mapeamento entre sistemas orientados a objetos e bancos de dados relacionais, onde as tabelas do banco de dados são representadas em classes e os registros das tabelas seriam instâncias dessas classes.
    - Entender o que são ORMs e para que são utilizados
    - Conhecer o SQL e seus gerenciadores de bancos de dados
-   - Trabalhar com o Sequelize, ORM para uso com Node.js
-   - Conhecer outros ORMs Node.js como Prisma
+   - Trabalhar com o Sequelize, um ORM para uso com Node.js
+   - Conhecer outros ORMs Node.js, como o Prisma
 - [ ] **Node.js - Autenticação e Tokens**:
    - O JWT é um método criado pelo padrão RFC 7519 que representa a comunicação segura entre duas partes. Esse token é composto por três partes: cabeçalho, carga útil e assinatura.
    - Construir um sistema de autenticação usando tokens
@@ -67,16 +72,25 @@
    - Escrever código em TypeScript com suas ferramentas (interfaces, enum, decorators, etc)
    - Desenvolver aplicações em TypeScript
 ## Nivel 3
-- [ ] **Microsserviços**:
+- [ ] **Nest.js - Fundamentos**:
+   - NestJS é um framework Node com total suporte a TypeScript e que roda sobre frameworks HTTP como expressJS ou Fastify. Ele utiliza diversos elementos de programação orientada a objetos e uma série de funcionalidades do TypeScript.
+   - Aprender o que é o NestJS e por que é utilizado
+   - Utilizar recursos específicos do NestJS, como providers, módulos e controllers
+   - Desenvolver APIs usando o NestJS
+   - Usar a Interface de Linha de Comando (CLI) do Nest.js
+- [ ] **Arquitetura de Microsserviços**:
    - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
    - Aprender o conceito de arquitetura planejada para microsserviços
    - Realizar a comunicação usando APIs
    - Melhorar a escalabilidade de um sistema
-- [ ] **Nest.js - Fundamentos**:
-   - NestJS é um framework Node com total suporte a TypeScript e que roda sobre frameworks HTTP como expressJS ou Fastify. Ele utiliza diversos elementos de programação orientada a objetos e uma série de funcionalidades do TypeScript.
-   - Aprender o que é o NestJS e por que é utilizado
-   - Desenvolver APIs usando o NestJS
-   - Utilizar recursos específicos do NestJS
+- [ ] **Contêineres**:
+   - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
+   - O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.
+   - Isolar seu software para funcionar independentemente
+   - Implantar software em clusters
+   - Modularizar seu sistema em pacotes menores
+   - Conhecer a plataforma Docker
+   - Conhecer Kubernetes
 - [ ] **WebSockets**:
    - WebSocket é uma tecnologia que permite a comunicação bidirecional por canais full-duplex sobre um único soquete Transmission Control Protocol (TCP). Ele é projetado para ser executado em browsers e servidores web que suportem o HTML5, mas pode ser usado por qualquer cliente ou servidor de aplicativos.
    - Conhecer o protocolo WebSocket e seu uso na comunicação cliente-servidor
@@ -119,13 +133,6 @@
    - Conhecer a diferença entre IaaS, PaaS e SaaS
    - Conhecer os maiores provedores de cloud
    - Especializar-se em algum provedor
-- [ ] **Contêineres**:
-   - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
-   - Isolar seu software para funcionar independentemente
-   - Implantar software em clusters
-   - Modularizar seu sistema em pacotes menores
-   - Conhecer a plataforma Docker
-   - Conhecer Kubernetes
 ## Habilidade Auxiliar: Front-end 
 - [ ] **JavaScript - Fundamentos**:
    - JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.

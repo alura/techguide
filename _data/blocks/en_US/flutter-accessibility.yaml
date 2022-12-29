@@ -1,0 +1,30 @@
+name: Flutter - Accessibility
+logo: 
+short-description:
+key-objectives:
+  - Web accessibility is the inclusive practice of ensuring there are no barriers that prevent interaction with, or access to, websites by people with physical disabilities, situational disabilities, and socio-economic restrictions on bandwidth and speed.
+  - Writing code with accessibility in mind
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3: Accessibility"
+    link: https://www.w3.org/standards/webdesign/accessibility
+  - type: SITE
+    title: "Flutter - Documentation - Accessibility"
+    link: https://docs.flutter.dev/development/accessibility-and-localization/accessibility
+  - type: ARTICLE
+    title: "A deep dive into Flutter’s accessibility widgets"
+    link: https://medium.com/flutter-community/a-deep-dive-into-flutters-accessibility-widgets-eb0ef9455bc
+  - type: ARTICLE
+    title: "The Single Most Useful Flutter Accessibility Trick"
+    link: https://levelup.gitconnected.com/the-single-most-useful-flutter-accessibility-trick-ecf547cd71ad
+  - type: ARTICLE
+    title: "Accessibility in Flutter?"
+    link: https://tonyowen.medium.com/accessibility-in-flutter-592f2e760149
+  - type: YOUTUBE
+    title: "Flutter: Building in Accessibility with Flutter"
+    link: https://www.youtube.com/watch?v=bWbBgbmAdQs
+  - type: YOUTUBE
+    title: "monterail: Accessibility features and how to implement them in Flutter"
+    link: https://www.youtube.com/watch?v=sO97YsPxwsw
+alura-contents:

@@ -1,0 +1,27 @@
+name: Jest
+logo: 
+short-description:
+key-objectives:
+- Jest es un corredor de pruebas de JavaScript que le permite acceder al DOM a través de jsdom. Proporciona una gran velocidad de iteración combinada con funciones potentes como módulos de simulación y temporizadores para que pueda tener más control sobre cómo se ejecuta el código.
+- Componentes de prueba
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Descripción general de las pruebas"
+    link: https://reactjs.org/docs/testing.html#gatsby-focus-wrapper
+  - type: SITE
+    title: "Jest: Documentación"
+    link: https://jestjs.io/docs/getting-started
+  - type: ARTICLE
+    title: "Probando Componentes en React Usando Jest: Lo Básico"
+    link: https://code.tutsplus.com/es/articles/testing-components-in-react-using-jest-the-basics--cms-28934
+  - type: ARTICLE
+    title: "Cómo testear los componentes de React"
+    link: https://www.freecodecamp.org/espanol/news/como-probar-los-componentes-de-react-la-guia-completa/
+  - type: YOUTUBE
+    title: "Introducción a Unit Testing en React con Jest"
+    link: https://www.youtube.com/watch?v=n5qbzhZUMsY
+  - type: YOUTUBE
+    title: "Testing Components en React con Jest paso a paso"
+    link: https://www.youtube.com/watch?v=FjJu3hcPSCY
+alura-contents:

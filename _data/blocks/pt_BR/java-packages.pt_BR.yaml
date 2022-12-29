@@ -2,6 +2,7 @@ name: Java - Pacotes
 logo: 
 short-description:
 key-objectives:
+  - Um pacote (package) em Java é usado para agrupar classes relacionadas, de forma semelhante a uma pasta em um diretório de arquivos. Os pacotes são usados para evitar conflitos de nomes e para escrever um código de melhor manutenção.
   - Use imports e organize o seu código através de packages
   - Conhecer a java.lang
   - Entender a imutabilidade e a classe String
@@ -19,7 +20,7 @@ contents:
     title: "Padronizando pacotes em uma arquitetura REST"
     link: https://medium.com/@thaleslima19/padronizando-pacotes-em-uma-arquitetura-rest-280e7a6c38bb
   - type: YOUTUBE
-    title: "Loiane Groner: Orientação a Objetos: Pacotes e import"
+    title: "Loiane Groner: Orientação a Objetos - Pacotes e import"
     link: https://www.youtube.com/watch?v=aRQHjfYBpM8
   - type: YOUTUBE
     title: "Pedro Cavalero: Criando Pacotes no Eclipse"

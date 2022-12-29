@@ -1,0 +1,32 @@
+name: Java - Concurrency
+logo: 
+short-description:
+key-objectives:
+  - Concurrency is a programming paradigm for building programs that make use of the simultaneous execution of several interactive computational tasks, which can be implemented as separate programs or as a set of threads created by a single program.
+  - Running tasks simultaneously
+  - Making tasks wait until a certain event occurs
+  - Understanding how memory works in this situation
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Java - Documentation - Concurrency"
+    link: https://docs.oracle.com/javase/tutorial/essential/concurrency/
+  - type: ARTICLE
+    title: "Java Concurrency: The Basics"
+    link: https://medium.com/swlh/java-concurrency-the-basics-5e6a03189297
+  - type: ARTICLE
+    title: "Understanding Java threads once and for all"
+    link: https://medium.com/swlh/understanding-java-threads-once-and-for-all-711f71e0ec1e
+  - type: YOUTUBE
+    title: "SimpliCode: Java Concurrency Tutorial With Examples"
+    link: https://www.youtube.com/watch?v=RS1a_UHgBuA
+  - type: YOUTUBE
+    title: "edureka!: Multithreading In Java Tutorial"
+    link: https://www.youtube.com/watch?v=RS1a_UHgBuA
+  - type: YOUTUBE
+    title: "Coding with John: Multithreading in Java Explained in 10 Minutes"
+    link: https://www.youtube.com/watch?v=r_MbozD32eo
+  - type: YOUTUBE
+    title: "Jakob Jenkov: Java Concurrency and Multithreading (Playlist)"
+    link: https://www.youtube.com/playlist?list=PLL8woMHwr36EDxjUoCzboZjedsnhLP1j4
+alura-contents:

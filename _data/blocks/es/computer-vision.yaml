@@ -1,0 +1,31 @@
+name: Visión Computacional
+logo: 
+short-description:
+key-objectives:
+- Visión Computacional es un campo científico interdisciplinario que se ocupa de cómo las computadoras pueden obtener conocimientos de alto nivel a partir de imágenes o videos digitales. Desde la perspectiva de la ingeniería, busca comprender y automatizar tareas que el sistema visual humano puede hacer.
+- Extraer regiones de interés de una imagen
+- Normalizar y procesar los datos de las imágenes
+- Construir clasificadores de reconocimiento facial
+- Extraer regiones del rostro humano basado en hitos faciales
+- Analizar diferentes condiciones de cada componente del rostro humano
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "¿Qué es la Visión por Computador?"
+    link: https://aprendeia.com/vision-computacional/
+  - type: YOUTUBE
+    title: "Aplicaciones de la Visión Computacional - Oswaldo Vázquez"
+    link: https://www.youtube.com/watch?v=HCKOrj1ex3g&list=TLPQMDUxMjIwMjLaaHrMk8WJTw&index=2&ab_channel=OswaldoVázquez
+  - type: YOUTUBE
+    title: "Recursos que he usado para aprender VISIÓN POR COMPUTADOR"
+    link: https://www.youtube.com/watch?v=vpNOP8bZFEQ&list=TLPQMDUxMjIwMjLaaHrMk8WJTw&index=3&ab_channel=OMES
+  - type: ARTICLE
+    title: "Aplicación de reconocimiento facial en tiempo real para identificar a alumnos de la licenciatura en ciencias de la computación de la Universidad de Sonora usando Pytorch y redes neuronales convolucionales en cascada y en multitarea (MTCNN)"
+    link: https://medium.com/lcc-unison/aplicación-de-reconocimiento-facial-en-tiempo-real-para-identificar-a-alumnos-de-la-licenciatura-en-2e2b53870995
+alura-contents:
+  - type: COURSE
+    title: "Reconocimiento de imágenes: API de Twitter y Computer Vision"
+    link: https://app.aluracursos.com/course/reconocimiento-imagenes-api-twitter-computer-vision
+  - type: COURSE
+    title: "Análisis y clasificación de rostros: visión por computador con OpenCV"
+    link: https://app.aluracursos.com/course/analisis-clasificacion-rostros-vision-computador-opencv

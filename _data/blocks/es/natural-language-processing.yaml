@@ -1,0 +1,59 @@
+name: Procesamiento de Lenguaje Natural
+logo: 
+short-description:
+key-objectives:
+- Procesamiento de la lengua natural (PLN) es un subárea de la inteligencia artificial y la lingüística que estudia los problemas de la generación y la comprensión automática de las lenguas humanas naturales.
+- Análisis de Sentimiento
+- Crear vistas para facilitar el análisis de datos textuales
+- Conocer las bibliotecas NLTK y Scikit-Learn
+- Normalizar textos
+- Usar TF-IDF y Ngrams para mejorar la clasificación
+- Uso de SKlearn
+- Utilizar Regex en PLN
+- Conocer Word2Vec
+- Combinar vectores de palabras para representar textos y clasificarlos
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Procesamiento de Lenguaje Natural"
+    link: https://www.youtube.com/playlist?list=PLkgbkukKg_NqSS3tjA_POb0lmxCmbGqvN
+  - type: ARTICLE
+    title: "Análisis de Sentimiento de tweets con Python, TextBlob y tweepy"
+    link: https://seraph13.medium.com/análisis-de-sentimiento-de-tweets-con-python-y-tweepy-6754bf99a5bd
+  - type: PODCAST
+    title: "Procesamiento de Lenguaje Natural - En Pantufflas"
+    link: https://open.spotify.com/episode/7dGnwnagWIvWThpoG37gPa?si=6cbc7e6764b84a23
+  - type: SITE
+    title: "Preprocesamiento de datos con sklearn"
+    link: http://datascience.recursos.uoc.edu/es/preprocesamiento-de-datos-con-sklearn/
+alura-contents:
+  - type: YOUTUBE
+    title: "¿Qué es Bag of Words? #AluraMás"
+    link: https://www.youtube.com/watch?v=NKy59utXjcg&ab_channel=AluraLatam
+  - type: ARTICLE
+    title: "PLN: ¿Qué es el procesamiento del lenguaje natural?"
+    link: https://www.aluracursos.com/blog/que-es-el-procesamiento-del-lenguaje-natural
+  - type: COURSE
+    title: "NLP: introducción a los modelos de lenguaje y expresiones regulares"
+    link: https://app.aluracursos.com/course/nlp-modelos-lenguaje-expresiones-regulares
+  - type: ARTICLE
+    title: "Clasificando texto con Python"
+    link: https://www.aluracursos.com/blog/clasificando-texto-con-python
+  - type: YOUTUBE
+    title: "Cómo usar IA para hacer un traductor de idiomas #AluraMás"
+    link: https://www.youtube.com/watch?v=8iS8VZK1zSI&t=10s&ab_channel=AluraLatam
+  - type: YOUTUBE
+    title: "Crea Audiolibro con IA #AluraMás"
+    link: https://www.youtube.com/watch?v=_NNNnsFXAnc&ab_channel=AluraLatam
+  - type: COURSE
+    title: "Corrector ortográfico en Python: Aplicación de técnicas de PLN"
+    link: https://app.aluracursos.com/course/corrector-ortografico-python-aplicacion-tecnicas-pln
+  - type: COURSE
+    title: "Lenguaje Natural parte 1: Introducción a NLP con análisis de sentimiento"
+    link: https://app.aluracursos.com/course/lenguaje-natural-parte1-nlp-analisis-sentimiento
+  - type: COURSE
+    title: "Word2Vec: entrenamiento de Word Embedding"
+    link: https://app.aluracursos.com/course/word2vec-entrenamiento-word-embedding  
+  - type: COURSE
+    title: "Word2Vec: interpretación del lenguaje humano con Word embedding"
+    link: https://app.aluracursos.com/course/word2vec-lenguaje-humano-word-embedding

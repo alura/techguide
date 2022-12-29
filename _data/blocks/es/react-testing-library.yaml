@@ -1,0 +1,33 @@
+name: Biblioteca de pruebas de reacción
+logo: 
+short-description:
+key-objectives:
+- React Testing Library se basa en DOM Testing Library al agregar API para trabajar con componentes React. Es un conjunto de ayudantes que le permiten probar los componentes de React sin depender de los detalles de su implementación.
+- Probando los componentes de React
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Pruebas en React"
+    link: https://reactjs.org/docs/testing.html#gatsby-focus-wrapper
+  - type: SITE
+    title: "React Testing Library: Documentación"
+    link: https://testing-library.com/docs/react-testing-library/intro/
+  - type: ARTICLE
+    title: "Por qué usar Libreria de pruebas"
+    link: https://lucasbernalte.com/blog/por-que-usar-testing-library-en-lugar-de-enzyme
+  - type: ARTICLE
+    title: "Probar componentes con Jest y React Testing Library"
+    link: https://itnext.io/testing-components-with-jest-and-react-testing-library-d36f5262cde2
+  - type: YOUTUBE
+    title: "Aprende React Testing Library Tutorial (RTL) y Jest Paso a Paso"
+    link: https://www.youtube.com/watch?v=7dTTFW7yACQ&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ
+  - type: YOUTUBE
+    title: "Tesing en React ¡Aprende dese cero!"
+    link: https://www.youtube.com/watch?v=KYjjtRgg_H0
+  - type: YOUTUBE
+    title: "Cómo hacer tests asíncronos en React Testing Library con waitFor"
+    link: https://www.youtube.com/watch?v=gz4X7vYzGjA
+alura-contents:
+  - type: CURSE
+    title: "React: Automatizando pruebas en aplicaciones front-end"
+    link: https://aluracursos.com/course/react-automatizando-tests-aplicaciones-front-end

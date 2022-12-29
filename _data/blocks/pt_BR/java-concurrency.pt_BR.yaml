@@ -2,6 +2,7 @@ name: Java - Concorrência
 logo: 
 short-description:
 key-objectives:
+  - Programação concorrente é um paradigma de programação para a construção de programas que fazem uso da execução simultânea de várias tarefas computacionais interativas, que podem ser implementadas como programas separados ou como um conjunto de threads criadas por um único programa.
   - Executar tarefas simultaneamente
   - Colocar tarefas para aguardar até que um determinado evento ocorra
   - Entender como a memória funciona nessa situação

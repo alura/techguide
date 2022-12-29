@@ -1,0 +1,45 @@
+name: Machine Learning - Fundamentos
+logo: 
+short-description:
+key-objectives:
+- El Aprendizaje automático o Machine Learning es un subcampo de la Ingeniería y de la Ciencia de la Computación que evolucionó del estudio de reconocimiento de patrones y de la teoría del aprendizaje computacional en inteligencia artificial.
+- Aprendizaje supervisado
+- Utilizar algoritmos de clasificación
+- Usar algoritmos de regresión
+- Utilizar Scikit-Learn para crear modelos de machine Learning
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Todos podemos aprender Machine learning"
+    link: https://www.youtube.com/watch?v=7ClLKBUvmRk&ab_channel=Platzi
+  - type: ARTICLE
+    title: "¿Qué es exactamente Machine Learning?"
+    link: https://medium.com/latinxinai/qué-es-exactamente-machine-learning-77441201a65b
+  - type: ARTICLE
+    title: "Modelo de interpretación del aprendizaje automático"
+    link: https://medium.com/@marcos.silva0/modelo-interpretacion-aprendizaje-automatico-92372b299373
+alura-contents:
+  - type: ARTICLE
+    title: "Conociendo los tipos de aprendizaje de máquina"
+    link: https://www.aluracursos.com/blog/conociendo-los-tipos-de-aprendizaje-de-maquina
+  - type: COURSE
+    title: "Formación Machine Learning"
+    link: https://app.aluracursos.com/formacion-machine-learning
+  - type: COURSE
+    title: "Machine Learning: Sistemas de recomendación en Python"
+    link: https://app.aluracursos.com/course/machine-learning-introduccion-sistemas-recomendacion-python
+  - type: COURSE
+    title: "Modelos predictivos en datos: Detección de fraude"
+    link: https://app.aluracursos.com/course/modelos-preditivos-datos-deteccion-fraude
+  - type: COURSE
+    title: "MLOps: Machine Learning y APIs"
+    link: https://app.aluracursos.com/course/mlops-machine-learning-apis
+  - type: COURSE
+    title: "MLOps: deploy de modelos"
+    link: https://app.aluracursos.com/course/mlops-deploy-de-modelos
+  - type: COURSE
+    title: "Machine Learning: clasificación entre bastidores"
+    link: https://www.aluracursos.com/curso-online-machine-learning-clasificacion-entre-bastidores
+  - type: COURSE
+    title: "Machine Learning: clasificación con SKLearn"
+    link: https://www.aluracursos.com/curso-online-machine-learning-clasificacion-sklearn
