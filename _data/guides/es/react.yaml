@@ -30,8 +30,6 @@ expertise:
         priority: 9
       - react-hooks-ref:
         priority: 10
-      - design-system-libraries:
-        priority: 4
       - react-dev-tools:
         priority: 5
         optional: true
@@ -58,7 +56,7 @@ expertise:
         priority: 8
       - javascript-callbacks-promises:
         priority: 8
-      - javascript-errorhandling:
+      - javascript-error-handling:
         priority: 7
       - babel-fundamentals:
         priority: 6
@@ -91,7 +89,7 @@ expertise:
         priority: 5
         optional: true
 collaboration:
-  - name: Infraestrutura e Back-end
+  - name: Infraestructura y Back-end
     blocks:
         - git-and-github-fundamentals:
           priority: 9
@@ -109,9 +107,9 @@ collaboration:
         - cloud-fundamentals: 
           priority: 6
           optional: true
-  - name: UX e Design
+  - name: UX y Design
     blocks:
-        - design-systems:
+        - design-system-libraries:
           priority: 4
         - figma-fundamentals:
           priority: 8
