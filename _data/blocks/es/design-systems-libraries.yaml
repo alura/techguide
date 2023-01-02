@@ -1,24 +1,25 @@
-name: Sistemas de Diseño
+name: Design System Libraries
 logo: 
 short-description:
 key-objectives:
-- Un sistema de diseño es una colección de componentes reutilizables, guiados por estándares claros, que se pueden ensamblar para crear aplicaciones.
-- Crear y mantener bibliotecas que se consumirán y usarán como estándar para construir un proyecto
+  - Un sistema de diseño es una colección de componentes reutilizables, guiados por estándares claros, que se pueden montar juntos para construir cualquier número de aplicaciones.
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "Awesome React Design Systems"
+    link: https://github.com/jbranchaud/awesome-react-design-systems#react-design-systems
   - type: ARTICLE
-    title: "Cómo crear un Design System paso a paso"
-    link: https://okbinteractive.studio/insights/como-crear-un-design-system-paso-a-paso
+    title: "Top 5 design systems for React"
+    link: https://bootcamp.uxdesign.cc/top-5-design-systems-for-react-in-2021-643b98f57b0e
   - type: ARTICLE
-    title: "¿Cómo diseñar un Design System?"
-    link: https://medium.com/uxenespanol/c%C3%B3mo-dise%C3%B1ar-un-design-system-as%C3%AD-creamos-nosotros-junipero-f0430548b394
+    title: "The Top React Component Libraries that are Worth Trying"
+    link: https://technostacks.com/blog/react-component-libraries/
   - type: YOUTUBE
-    title: "Como modelar um sistema de design a partir do zero"
-    link: https://www.youtube.com/watch?v=9V7yboXxKFs
+    title: "TECH IN 5 MINUTES: Ant Design - The best React library?"
+    link: https://www.youtube.com/watch?v=IEqmSROj5Uc
   - type: YOUTUBE
-    title: "De la Idea al Sistema de Diseño"
-    link: https://www.youtube.com/watch?v=jRl6l-s7Mzs
+    title: "JSWORLD Conference: Sid - What goes into building a design system"
+    link: https://www.youtube.com/watch?v=KtQO5MhnfEc
   - type: YOUTUBE
-    title: "¿Qué es un Design System?"
-    link: https://www.youtube.com/watch?v=0kv16tyCcWM
-alura-contents:
+    title: "Anagh Technologies Inc.: Top 5 ReactJS UI Component Libraries"
+    link: https://www.youtube.com/watch?v=xFXNmA-7VfQ
