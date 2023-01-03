@@ -87,7 +87,7 @@
 - [ ] **React Hooks - Ref**:
    - O hook `useRef` permite que você persista valores entre renderizações.
    - Criar objetos mutáveis
-- [ ] **Bibliotecas de Design System**:
+- [ ] **React - Bibliotecas de Design System**:
    - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
 - [ ] **React Developer Tools**:
    - React Developer Tools é usado para inspecionar componentes do React, editar props e estado, e também para identificar problemas de desempenho.

@@ -1,4 +1,4 @@
-# Front-end ReactJS
+# React
 ## Nivel 1
 - [ ] **Javascript - Fundamentos**:
    - Javascript es el lenguaje de programación más popular del mundo y es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. Tiene escritura dinámica, orientación a objetos basada en prototipos y funciones de primera clase. Es un paradigma múltiple que admite estilos de programación imperativos, funcionales e impulsados por eventos.
@@ -87,6 +87,7 @@
    - El Hook `useRef` te permite persistir valores entre renderizaciones.
    - Almacenar un valor mutable que no provoca una nueva representación cuando se actualiza
    - Acceder a un elemento DOM directamente
+
 - [ ] **Herramientas de desarrollo de React**:
    - React Developer Tools se utiliza para inspeccionar los componentes de React, editar accesorios y estados e identificar problemas de rendimiento.
    - Depuración de aplicaciones
@@ -205,7 +206,9 @@
    - Conocer los mayores proveedores de nube
    - Especializarse en un proveedor específico de su preferencia
 ## Habilidade Auxiliar: UX y Design 
-
+- [ ] **Sistemas de Diseño**:
+   - Un sistema de diseño es una colección de componentes reutilizables, guiados por estándares claros, que se pueden ensamblar para crear aplicaciones.
+   - Crear y mantener bibliotecas que se consumirán y usarán como estándar para construir un proyecto.
 - [ ] **Figma - Fundamentos**:
    - Figma es una aplicación web colaborativa para el diseño de interfaces. El conjunto de funciones de Figma se centra en la interfaz de usuario y el diseño de la experiencia del usuario, con énfasis en la colaboración en tiempo real, utilizando una variedad de herramientas de creación de prototipos y editor de gráficos vectoriales.
    - Crear diseños de página y componentes
