@@ -1,0 +1,37 @@
+name: Pruebas Estadísticas
+logo: 
+short-description:
+key-objectives:
+- Crear intervalos de confianza para muestras
+- Comparar grupos de muestras
+- Realizar pruebas estadísticas
+- Planificar experimentos para la recopilación de datos
+- Proponer modelos matemáticos para entender un problema dado
+- Construir mapas de colores para ayudar a la interpretación de los datos
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Intervalos de confianza y margen de error | Khan Academy en Español"
+    link: https://www.youtube.com/watch?v=dZcVCSch2nA&ab_channel=KhanAcademyEspañol
+  - type: YOUTUBE
+    title: "Condiciones para intervalos de confianza válidos | Khan Academy en Español"
+    link: https://www.youtube.com/watch?v=8ilr8-aBfm8&ab_channel=KhanAcademyEspañol
+  - type: SITE
+    title: "Intervalos de confianza - Introducción"
+    link: https://openstax.org/books/introducción-estadística-empresarial/pages/8-introduccion
+  - type: YOUTUBE
+    title: "Pruebas Estadísticas - 1 - La tesis y mucho más"
+    link: https://www.youtube.com/watch?v=tTzjrLBfLZU&ab_channel=LaTesisyMuchoMás
+  - type: YOUTUBE
+    title: "Pruebas estadísticas para comparar grupos"
+    link: https://www.youtube.com/watch?v=N2fODa734js&ab_channel=LaTesisyMuchoMás
+  - type: SITE
+    title: "Mapa de calor en Matplotlib"
+    link: https://python-charts.com/es/correlacion/mapa-calor-matplotlib/
+alura-contents:
+  - type: COURSE
+    title: "Data Science: Introducción a Tests Estadísticos con Python"
+    link: https://app.aluracursos.com/course/data-science-tests-estadisticos-python
+  - type: COURSE
+    title: "Estadística con Python: Test de hipótesis"
+    link: https://app.aluracursos.com/course/estadistica-python-test-hipotesis

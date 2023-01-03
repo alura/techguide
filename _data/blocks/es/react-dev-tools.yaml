@@ -1,0 +1,26 @@
+name: Herramientas de desarrollo de React
+logo: 
+short-description:
+key-objectives:
+- React Developer Tools se utiliza para inspeccionar los componentes de React, editar accesorios y estados e identificar problemas de rendimiento.
+- Depuración de aplicaciones
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Extensión React Developer Tools para Google Chrome"
+    link: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+  - type: SITE
+    title: "Herramientas de desarrollo de reacción"
+    link: https://beta.reactjs.org/learn/react-developer-tools
+  - type: SITE
+    title: "Generación de perfiles de componentes con DevTools Profiler"
+    link: https://reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-devtools-profiler
+  - type: ARTICLE
+    title: "Depurar aplicaciones React con React DevTools"
+    link: https://blog.logrocket.com/debug-react-applications-with-the-new-react-devtools/
+  - type: YOUTUBE
+    title: "react.school: React Developer Tools - Installing and Basic Usage"
+    link: https://www.youtube.com/watch?v=-LfSE9ZxZDI
+  - type: YOUTUBE
+    title: "React Redux Devtools - Cómo configurarlas e introducción"
+    link: https://www.youtube.com/watch?v=1Bg-D76b24o

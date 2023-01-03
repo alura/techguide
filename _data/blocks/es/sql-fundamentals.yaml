@@ -1,0 +1,31 @@
+name: SQL - Fundamentos
+logo: 
+short-description:
+key-objectives:
+- Conocer los comandos más comunes de SQL
+- Usar SELECT para consultar una tabla
+- Usar INSERT para insertar datos en una tabla
+- Usar UPDATE para actualizar una tabla
+- Usar DELETE para eliminar datos de una tabla
+- Usar JOIN para conectar los datos de múltiples tablas
+- Conocer las cláusulas (FROM, ORDER BY, etc.)
+aditional-objectives:
+alura-contents:
+  - type: ARTICLE
+    title: "MySQL: desde la descarga e instalación hasta su primera tabla"
+    link: https://www.aluracursos.com/blog/mysql-desde-la-descarga-e-instalacion-hasta-su-primera-tabla
+  - type: COURSE
+    title: "SQL con MySQL"
+    link: https://app.aluracursos.com/formacion-sql-con-mysql
+  - type: COURSE
+    title: "SQL Server: consultas avanzadas con Microsoft SQL Server 2019"
+    link: https://app.aluracursos.com/course/sql-server-consultas-microsoft-sql-server-2019
+  - type: ARTICLE
+    title: "Funciones de agregación con GROUP BY en SQL, ¿cómo utilizarlas?"
+    link: https://www.aluracursos.com/blog/funciones-de-agregacion-con-group-by-en-sql-como-utilizarlas
+  - type: ARTICLE
+    title: "SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS"
+    link: https://www.aluracursos.com/blog/sql-join-aprenda-inner-left-right-full-e-cross
+  - type: ARTICLE
+    title: "select count(*), count(1) y count(nombre): batalla de los counts de SQL"
+    link: https://www.aluracursos.com/blog/select-count-count1-e-countnome-la-batalla-de-los-counts-de-sql

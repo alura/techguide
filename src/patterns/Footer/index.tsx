@@ -134,22 +134,22 @@ export default function Footer() {
             gap: "0.625em",
           }}
         >
-          <Link href="https://youtube.com/aluracursosonline">
+          <Link href={i18n.content("FOOTER.YOUTUBE")}>
             <Icon name="youtube" />
           </Link>
-          <Link href="https://www.facebook.com/AluraCursosOnline/">
+          <Link href={i18n.content("FOOTER.FACEBOOK")}>
             <Icon name="facebook" />
           </Link>
-          <Link href="https://twitter.com/aluraonline">
+          <Link href={i18n.content("FOOTER.TWITTER")}>
             <Icon name="twitter" />
           </Link>
-          <Link href="https://www.instagram.com/aluraonline/">
+          <Link href={i18n.content("FOOTER.INSTAGRAM")}>
             <Icon name="instagram" />
           </Link>
-          <Link href="https://play.google.com/store/apps/details?id=br.com.alura.mobi">
+          <Link href={i18n.content("FOOTER.PLAYSTORE")}>
             <Icon name="playstore" />
           </Link>
-          <Link href="https://apps.apple.com/br/app/alura-cursos-online/id1225776635">
+          <Link href={i18n.content("FOOTER.APPSTORE")}>
             <Icon name="appstore" />
           </Link>
         </Box>

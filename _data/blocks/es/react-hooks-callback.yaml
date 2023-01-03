@@ -1,0 +1,24 @@
+name: React Hooks - UseCallback
+logo: 
+short-description:
+key-objectives:
+- El Hook `useCallback` de React devuelve una función Callback memorizada.
+- Aislamiento de funciones intensivas en recursos para que no se ejecuten automáticamente en cada elemento renderizado
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "React: Documentación - useCallback"
+    link: https://reactjs.org/docs/hooks-reference.html#usecallback
+  - type: ARTICLE
+    title: "Tu guía para React.useCallback()"
+    link: https://dmitripavlutin.com/dont-overuse-react-usecallback/
+  - type: ARTICLE
+    title: "Cómo usar Memo y usar Callback"
+    link: https://www.developerway.com/posts/how-to-use-memo-use-callback
+  - type: YOUTUBE
+    title: "Tutorial useCallback desde cero - React Hooks"
+    link: https://www.youtube.com/watch?v=6ruYpcCSMOg
+  - type: YOUTUBE
+    title: "useCallback y useMemo en React. ¿Los tendrías que usar siempre?"
+    link: https://www.youtube.com/watch?v=duh3uKn0qnU
+alura-contents:

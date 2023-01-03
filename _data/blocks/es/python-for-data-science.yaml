@@ -1,0 +1,51 @@
+name: Python para Ciencia de Datos - Fundamentos
+logo: 
+short-description:
+key-objectives:
+- Python es un lenguaje de programación interpretado de alto nivel y que soporta múltiples paradigmas de programación, como imperativo, orientado a objetos y funcional. Es un lenguaje con tipificación dinámica y administración automática de memoria.
+- Aprender lógica de programación en Python
+- Aprenda los fundamentos del lenguaje como variables, funciones, listas, condicionales e Imports
+- Crear análisis de datos
+- Usar Matplotlib para generar gráficos
+- Usar y manipular listas para agrupar datos
+- Conocer la biblioteca NumPy
+- Conocer la biblioteca Pandas
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Herramientas Científicas para Python"
+    link: https://medium.com/inside-intelligence/herramientas-científicas-para-python-7255cfa6ec8f
+  - type: ARTICLE
+    title: "Mi Guía Rápida de Pandas"
+    link: https://medium.com/linked-ciencia-de-datos/mi-guía-rápida-de-pandas-f8c06703637
+alura-contents:
+  - type: YOUTUBE
+    title: "¿Cómo es el día a día de una Científica de Datos?"
+    link: https://www.youtube.com/watch?v=cOvpf3Q-ii4&t=11s&ab_channel=AluraLatam
+  - type: ARTICLE
+    title: "¿Cómo comparar objetos en Python?"
+    link: https://www.aluracursos.com/blog/como-comparar-objetos-en-python
+  - type: ARTICLE
+    title: "Cómo eliminar filas y columnas con Pandas en Python"
+    link: https://www.aluracursos.com/blog/como-eliminar-filas-y-columnas-en-pandas
+  - type: ARTICLE
+    title: "Trabajando con archivos y directorios en Python"
+    link: https://www.aluracursos.com/blog/trabajando-con-archivos-y-directorios-en-python
+  - type: ARTICLE
+    title: "Clasificando texto con Python"
+    link: https://www.aluracursos.com/blog/clasificando-texto-con-python
+  - type: ARTICLE
+    title: "Buscando tweets con Python"
+    link: https://www.aluracursos.com/blog/buscando-tweets-con-python
+  - type: COURSE  
+    title: "Python para Data Science: Introducción al Lenguaje"
+    link: https://app.aluracursos.com/course/python-data-science-introduccion
+  - type: COURSE
+    title: "Python para Data Science: Trabajando con Numpy"
+    link: https://app.aluracursos.com/course/python-data-science-introduccion-lenguaje-numpy
+  - type: COURSE
+    title: "Python para Data Science: Funciones, Librerías y Pandas básico"
+    link: https://app.aluracursos.com/course/python-data-science-funciones-librerias-pandas-basico
+  - type: COURSE
+    title: "Formación: Python para Data Science"
+    link: https://app.aluracursos.com/formacion-python-para-data-science

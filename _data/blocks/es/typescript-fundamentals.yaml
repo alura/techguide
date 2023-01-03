@@ -1,0 +1,42 @@
+name: TypeScript - Fundamentos
+logo: 
+short-description:
+key-objectives:
+- TypeScript es un lenguaje de programación fuertemente tipado que se basa en JavaScript.
+- Comprender en profundidad qué son los tipos y la importancia de la programación tipificada
+- Aprender qué es TypeScript, por qué se creó, cómo funciona y su relación con JavaScript
+- Conocer las herramientas de TypeScript (integración con el editor de código, verificador estático y compilador)
+- Escribir código en TypeScript usando sus herramientas (interfaces, enumeración, decoradores, etc.)
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: Introducción a TypeScript"
+    link: https://www.w3schools.com/typescript/typescript_intro.php
+  - type: ARTICLE
+    title: "TypeScript, ¿qué es y cómo se diferencia de JavaScript?"
+    link: https://immune.institute/blog/typescript-que-es-como-se-diferencia-javascript/#:~:text=TypeScript%20es%20un%20lenguaje%20orientado,%2C%20por%20consiguiente%2C%20ser%20port%C3%A1til.
+  - type: ARTICLE
+    title: "Qué es TypeScript?"
+    link: https://codigofacilito.com/articulos/typescript
+  - type: ARTICLE
+    title: "¿Qué es TypeScript y por qué debes aprenderlo?"
+    link: https://ed.team/blog/que-es-typescript-y-por-que-debes-aprenderlo
+  - type: YOUTUBE
+    title: "TypeScript - Tutorial"
+    link: https://www.youtube.com/watch?v=xtp_DuPxo9Q
+  - type: YOUTUBE
+    title: "¿Qué es TypeScript y por qué debes aprenderlo?"
+    link: https://www.youtube.com/watch?v=P8ky7241Ndg
+
+
+alura-contents:
+
+  - type: COURSE
+    title: "TypeScript parte 1: evolucionando tu JavaScript"
+    link: https://app.aluracursos.com/course/typescript-evolucionando-javascript
+  - type: COURSE
+    title: "TypeScript parte 2: avanzando en el lenguaje"
+    link: https://app.aluracursos.com/course/typescript-parte-2-avanzando-lenguaje
+  - type: COURSE
+    title: "Typescript parte 3: técnicas y buenas prácticas"
+    link: https://app.aluracursos.com/course/typescript-parte-3-tecnicas-buenas-practicas

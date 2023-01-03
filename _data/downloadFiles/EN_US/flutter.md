@@ -96,7 +96,8 @@
    - Understanding Flavors in Flutter
    - Learning about Continuous Delivery in Flutter
 - [ ] **Flutter - Architecture**:
-   - Getting to know the main architecture patterns used by the Flutter community
+   - In programming, there are several architectural patterns for project files and folders, that provide developers with ease in finding, researching, and understanding the written code.
+   - Getting to know the main architecture patterns used by the Flutter community, such as MVC, MVVM, MVP etc
 - [ ] **Flutter - Packages and Plugins**:
    - Learning how to develop plugins for Flutter
 ## Habilidade Auxiliar: Infrastructure and Back-end 

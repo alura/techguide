@@ -1,0 +1,32 @@
+name: Linux - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Linux es un término popularmente empleado para referirse a sistemas operativos que utilizan el Kernel - Linux. - Las distribuciones incluyen el kernel de Linux, además de software de sistema y bibliotecas.
+  - Conocer el sistema de directorios de Linux
+  - Comprimir y descomprimir archivos
+  - Administrar los procesos que se ejecutan en la máquina
+  - Conocer las variables de entorno y el PATH
+  - Administrar paquetes
+  - Realizar comunicación remota con SSH y SCP
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Sistema operativo Linux"
+    link: https://www.computerweekly.com/es/definicion/Sistema-operativo-Linux
+alura-contents:
+  - type: COURSE
+    title: "Linux 1: conociendo y utilizando la terminal"
+    link: https://app.aluracursos.com/course/linux-1-conociendo-utilizando-terminal
+  - type: COURSE
+    title: "Linux 2: programas, procesos y paquetes"
+    link: https://app.aluracursos.com/course/linux-programas-procesos-paquetes
+  - type: ARTICLE
+    title: "Entendiendo los permisos en el Linux"
+    link: https://www.aluracursos.com/blog/entendiendo-las-permisiones-en-el-linux
+  - type: ARTICLE
+    title: "Trabajando con caminos y carpetas en el terminal"
+    link: https://www.aluracursos.com/blog/trabajando-con-caminos-y-carpetas-en-el-terminal
+  - type: ARTICLE
+    title: "Linux: comprimiendo y descomprimiendo archivos con el tar"
+    link: https://www.aluracursos.com/blog/Linux-comprimiendo-y-descomprimiendo-archivos-con-el-tar

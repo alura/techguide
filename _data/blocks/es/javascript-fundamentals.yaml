@@ -1,0 +1,115 @@
+name:  Javascript - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Javascript es el lenguaje de programación más popular del mundo y es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. Tiene escritura dinámica, orientación a objetos basada en prototipos y funciones de primera clase. Es un paradigma múltiple que admite estilos de programación imperativos, funcionales e impulsados por eventos.
+  - Declarar variables, considerando la diferencia entre 'var', 'let' y 'const
+  - Uso de estructuras condicionales ('if', 'else')
+  - Conocer los operadores de comparación ('=', '==', '===')
+  - Uso de estructuras de repetición y bucles ('while', 'for')
+  - Usar funciones, pasar parámetros y argumentos
+  - Manipulación de arreglos y listas
+  - Obtener datos de una API
+  - Hacer llamadas asincrónicas usando 'Async/Await', 'Promise', etc.
+aditional-objectives:
+  - Manipulación de objetos JSON
+  - Utilización de plantillas literales
+  - Utilización de funciones de flecha
+  - Realización de operaciones de desestructuración al leer matrices
+  - Utilización de la estructura forEach
+  - Manipulación de matrices con 'map', 'filter' y 'reduce'
+contents:
+  - type: SITE
+    title: "MDN Web Docs: JavaScript"
+    link: https://developer.mozilla.org/es/docs/Web/JavaScript
+  - type: SITE
+    title: "MDN Web Docs: Guía de JS"
+    link: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide
+  - type: SITE
+    title: "MDN Web Docs: Gramática y tipos"
+    link: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_types
+  - type: SITE
+    title: "W3Schools: Comparación de JavaScript y operadores lógicos"
+    link: https://www.w3schools.com/js/js_comparisons.asp
+  - type: SITE
+    title: "MDN Web Docs: Expresiones y operadores"
+    link: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_operators
+  - type: SITE
+    title: "MDN Web Docs: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array"
+    link: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array
+  - type: SITE
+    title: "MDN Web Docs: IF y Else"
+    link: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else
+  - type: SITE
+    title: "MDN Web Docs: While y For"
+    link: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/while
+  - type: SITE
+    title: "MDN Web Docs: Primeros pasos en JavaScript"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash
+  - type: ARTICLE
+    title: "Roadmap para principiantes en JavaScript:"
+    link: https://www.aluracursos.com/blog/roadmap-js
+  - type: ARTICLE
+    title: "Funciones en JavaScript "
+    link: https://www.aluracursos.com/blog/articulo-funciones-en-javascript-
+  - type: ARTICLE
+    title: "Empezar a programar es con JavaScript"
+    link: https://www.aluracursos.com/blog/empezar-a-programar-es-con-javascript
+  - type: ARTICLE
+    title: "Comenzando con Front-end"
+    link: https://www.aluracursos.com/blog/comenzando-con-front-end
+  - type: ARTICLE
+    title: "Organiza tu código Javascript de una manera fácil"
+    link: https://www.aluracursos.com/blog/organiza-tu-codigo-javascript-de-una-manera-facil
+  - type: ARTICLE
+    title: "Escopo en JavaScript"
+    link: https://www.aluracursos.com/blog/escopo-en-javascript
+  - type: ARTICLE
+    title: "Herencia en JavaScript"
+    link: https://www.aluracursos.com/blog/herencia-en-javascript
+  - type: ARTICLE
+    title: "Conociendo Arrow Functions"
+    link: https://www.aluracursos.com/blog/conociendo-arrow-functions
+  - type: ARTICLE
+    title: "Trabajando con fechas en JavaScript"
+    link: https://www.aluracursos.com/blog/trabajando-con-fechas-en-javascript
+  - type: ARTICLE
+    title: "Trabajando con fechas en JavaScript"
+    link: https://www.aluracursos.com/blog/trabajando-con-fechas-en-javascript
+  - type: ARTICLE
+    title: "Empezando con fetch en Javascript"
+    link: https://www.aluracursos.com/blog/empezando-con-fetch-en-javascript
+  - type: ARTICLE
+    title: "JavaScript replace: manipulando Strings y regex"
+    link: https://www.aluracursos.com/blog/javascript-replace-manipulando-strings-regex
+  - type: ARTICLE
+    title: "This, Getters y Setters en clases de Javascript"
+    link: https://www.aluracursos.com/blog/this-getters-y-setters-clases-de-javascript
+  - type: ARTICLE
+    title: "Empezando con fetch en Javascript"
+    link: https://www.aluracursos.com/blog/empezando-con-fetch-en-javascript
+  - type: ARTICLE
+    title: "JavaScript: ¿Cuándo debo usar forEach y map?"
+    link: https://www.aluracursos.com/blog/javascript-cuando-debo-usar-foreach-y-map
+  - type: ARTICLE
+    title: "¿Cómo funciona el import y export de JavaScript?"
+    link: https://www.aluracursos.com/blog/como-funciona-el-import-y-export-de-javascript
+  - type: ARTICLE
+    title: "Comprenda la diferencia entre var, let y const en JavaScript"
+    link: https://www.aluracursos.com/blog/comprenda-diferencia-entre-var-let-y-const-en-javascript
+  - type: YOUTUBE
+    title: "¿Qué es JavaScript?"
+    link: https://www.youtube.com/watch?v=GJfOSoaXk4s&ab_channel=AluraLatam
+  - type: YOUTUBE
+    title: "El mejor lenguaje para empezar"
+    link: https://www.youtube.com/watch?v=Nrp3c6kNyAw
+  - type: YOUTUBE
+    title: "Frameworks de Front End"
+    link: https://www.youtube.com/watch?v=UNeKzI2WHgQ&ab_channel=AluraLatam
+alura-contents:
+  - type: COURSE
+    title: "JavaScript: primeros pasos con el lenguaje"
+    link: https://app.aluracursos.com/course/javascript-primeros-pasos-lenguaje
+  - type: COURSE
+    title: "JavaScript para Front-end"
+    link: https://aluracursos.com/formacion-javascript-para-front-end

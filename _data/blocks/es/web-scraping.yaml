@@ -1,0 +1,33 @@
+name: Web Scraping
+logo: 
+short-description:
+key-objectives:
+- Web scraping o raspado de datos en la web es la extracción de datos de sitios web.
+- Usar BeautifulSoup y Python para recopilar datos
+- Buscar y navegar por HTML
+- Acceder al contenido y atributos de las etiquetas HTML
+- Construir conjuntos de datos con los resultados de los raspados
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Qué es y por qué usar el Web Scraping ⚡ Tutorial en Español"
+    link: https://www.youtube.com/watch?v=2XiLA_dEteQ&ab_channel=OpenWebinars
+  - type: YOUTUBE
+    title: "Diferencias entre Scraping, Crawling y Parsing"
+    link: https://www.youtube.com/watch?v=RgeoTTNWMNw&ab_channel=OpenWebinars
+  - type: ARTICLE
+    title: "Conseguir datos de la web"
+    link: https://medium.com/voces-en-español/conseguir-datos-de-la-web-8bf75e97cda5
+  - type: YOUTUBE
+    title: "Cómo hacer Web Scraping con Python ⚡ Tutorial Definitivo"
+    link: https://www.youtube.com/watch?v=NCfmEcyqgao&ab_channel=OpenWebinars
+  - type: YOUTUBE
+    title: "Cómo hacer WEB SCRAPING con SELENIUM 👨‍💻 Tutorial en Español"
+    link: https://www.youtube.com/watch?v=GfVUnwTE7Y4&ab_channel=OpenWebinars
+  - type: YOUTUBE
+    title: "Como hacer Web Scraping con Python y Beautiful Soup"
+    link: https://www.youtube.com/watch?v=RjfqdJEwWyU&ab_channel=NicolasMarinTorres
+alura-contents:
+  - type: COURSE
+    title: "WebScraping con Python: Extraer datos de la web"
+    link: https://www.aluracursos.com/curso-online-webscraping-python-extraer-datos-web

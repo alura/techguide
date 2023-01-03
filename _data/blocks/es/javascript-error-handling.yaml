@@ -1,0 +1,33 @@
+name: JavaScript - Manejo de errores
+logo: 
+short-description:
+key-objectives:
+- El manejo de errores se refiere a los procedimientos de respuesta y recuperación de las condiciones de error presentes en una aplicación de software. En otras palabras, es el proceso compuesto por la anticipación, detección y resolución de errores de aplicación, programación o comunicación.
+- Conocer y manejar las excepciones más comunes
+- Conocer los tipos de errores y en qué situaciones se pueden producir
+- Comprender cómo Node.js maneja los errores
+- Usar 'try' y 'catch' para el manejo de errores
+- Aprender en qué ocasiones y cómo usar `throw`
+- Creación de excepciones específicas según las necesidades de su aplicación
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Flujo de control y manejo de errores"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#declara%C3%A7%C3%B5es_de_manipula%C3%A7%C3%A3o_de_error
+  - type: ARTICLE
+    title: "Manejo de errores en JavaScript: una guía rápida"
+    link: https://medium.com/swlh/error-handling-in-javascript-a-quick-guide-54b954427e47
+  - type: ARTICLE
+    title: "Mejor manejo de errores en JavaScript"
+    link: https://iaincollins.medium.com/error-handling-in-javascript-a6172ccdf9af
+  - type: ARTICLE
+    title: "Depurando aplicaciones en el navegador"
+    link: https://www.aluracursos.com/blog/articulo-depurando-errores-en-el-navefador-formatado
+  - type: YOUTUBE
+    title: "Depurar JavaScript con el Navegador y con Visual Studio Code."
+    link: https://www.youtube.com/watch?v=CRXMli2ZkS8
+  - type: YOUTUBE
+    title: "Manejar errores en JavaScript con Try/Catch"
+    link: https://www.youtube.com/watch?v=h9YunSGIBQ8
+
+alura-contents:

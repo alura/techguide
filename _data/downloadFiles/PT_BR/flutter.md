@@ -93,7 +93,8 @@
    - Entendendo Flavors em Flutter
    - Conhecer Entrega Contínua em Flutter
 - [ ] **Flutter - Arquitetura**:
-   - Conhecer as principais Arquiteturas usadas pela comunidade Flutter
+   - Em programação, existem vários padrões de arquitetura para arquivos e pastas de projetos, que fornecem aos desenvolvedores facilidade para encontrar, pesquisar e entender o código escrito.
+   - Conhecer as principais Arquiteturas usadas pela comunidade Flutter, como MVC, MVVM, MVP, etc
 - [ ] **Flutter - Pacotes e Plugins**:
    - Conhecer o desenvolvimento de plugins para Flutter
 ## Habilidade Auxiliar: Infraestrutura e Back-end 
