@@ -27,64 +27,20 @@ function slugify(text: string) {
 export const getStaticProps: GetStaticProps = async (ctx) => {
   const locale = (ctx.locale || SiteLocale.PtBr) as SiteLocale;
   const data = {};
-  // const [username, repo, branch, path] = ctx.params.external as string[];
-  // const URL = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/${path.replace(
-  //   "__",
-  //   "."
-  // )}`;
+  const [username, repo, branch, path] = ctx.params.external as string[];
+  const URL = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/${path.replace(
+    "__",
+    "."
+  )}`;
   // eslint-disable-next-line no-console
-  // console.log(URL);
-  // if (URL.includes("undefined")) {
-  //   return {
-  //     notFound: true,
-  //   };
-  // }
+  console.log(URL);
+  if (URL.includes("undefined")) {
+    return {
+      notFound: true,
+    };
+  }
 
-  // const response = await fetch(URL).then((res) => res.json());
-  const response = {
-    name: "Nome do Guia",
-    expertises: [
-      {
-        name: "Nivel 1 - Básico",
-        cards: [
-          {
-            name: "Nome do Cartão Customizado",
-            description: "Descrição do Cartão",
-            link: "Link do Cartão",
-            "key-objectives": ["Objetivo 1", "Objetivo 2", "Objetivo 3"],
-            contents: [
-              {
-                type: "SITE",
-                title: "Node.js - Documentation",
-                link: "https://nodejs.dev/en/learn/",
-              },
-            ],
-          },
-          {
-            id: "nodejs-fundamentals",
-          },
-        ],
-      },
-      {
-        name: "Nivel 2 - Intermediário",
-        cards: [],
-      },
-      {
-        name: "Nivel 3 - Avançado",
-        cards: [],
-      },
-    ],
-    collaborations: [
-      {
-        name: "Lado Esquerdo do T",
-        cards: [],
-      },
-      {
-        name: "Lado Direito do T",
-        cards: [],
-      },
-    ],
-  };
+  const response = await fetch(URL).then((res) => res.json());
 
   // eslint-disable-next-line no-console
   console.log(response);
