@@ -19,14 +19,24 @@ export function withLocaleContent<NextContext>(
     "locale",
     fileNameByLocale[locale]
   );
-  const i18nKeys = JSON.parse(
-    fs.readFileSync(localeFilePath, "utf8")
-  ) as Record<string, string>;
-  return {
-    ...ctx,
-    props: {
-      ...props,
-      i18nKeys,
-    },
-  };
+  try {
+    const i18nKeys = JSON.parse(
+      fs.readFileSync(localeFilePath, "utf8")
+    ) as Record<string, string>;
+    return {
+      ...ctx,
+      props: {
+        ...props,
+        i18nKeys,
+      },
+    };
+  } catch (e) {
+    return {
+      ...ctx,
+      props: {
+        ...props,
+        i18nKeys: {},
+      },
+    };
+  }
 }
