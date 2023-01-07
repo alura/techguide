@@ -12,11 +12,26 @@ export async function getStaticPaths(ctx) {
   };
 }
 
+function slugify(text: string) {
+  return text
+    .toString()
+    .normalize("NFD") // split an accented letter in the base letter and the accent
+    .replace(/[\u0300-\u036f]/g, "") // remove all previously split accents
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9 -]/g, "") // remove all chars not letters, numbers and spaces (to be replaced)
+    .replace(/\s+/g, "-") // separator
+    .replace(/-+/g, "-"); // remove repeated separator
+}
+
 export const getStaticProps: GetStaticProps = async (ctx) => {
   const locale = (ctx.locale || SiteLocale.PtBr) as SiteLocale;
   const data = {};
   const [username, repo, branch, path] = ctx.params.external as string[];
-  const URL = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/${path}?aaa`;
+  const URL = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/${path.replace(
+    "__",
+    "."
+  )}?aaa`;
 
   if (URL.includes("undefined")) {
     return {
@@ -27,11 +42,41 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   try {
     const response = await fetch(URL).then((res) => res.json());
 
+    const guide = Object.entries(response).reduce((acc, [key, value]) => {
+      if (Array.isArray(value)) {
+        return {
+          ...acc,
+          [key]: value.map((item) => {
+            return {
+              ...item,
+              blocks: item.cards
+                .map((card) => {
+                  if (card.id) return null;
+                  return {
+                    item: {
+                      slug: slugify(card.name),
+                      id: card.name,
+                      ...card,
+                    },
+                  };
+                })
+                .filter(Boolean),
+            };
+          }),
+        };
+      }
+
+      return {
+        ...acc,
+        [key]: value,
+      };
+    }, {});
+
     return withLocaleContent(
       {
         props: {
           ...data,
-          guide: response,
+          guide,
           locale,
         },
       },

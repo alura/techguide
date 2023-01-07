@@ -4,7 +4,7 @@ import { SiteLocale } from "@src/gql_types";
 
 export default function ToScreen({ locale }: { locale: SiteLocale }) {
   const router = useRouter();
-  // /pt-BR/my/?url=https://github.com/omariosouto/omariosouto/blob/main/techguide-v1.json
+  // http://localhost:3000/pt-BR/my?url=https://github.com/omariosouto/omariosouto/blob/main/techguide-v1.json
   React.useEffect(() => {
     if (router.isReady) {
       const [localePrefix, localeSufix] = locale.split("_");
@@ -15,7 +15,10 @@ export default function ToScreen({ locale }: { locale: SiteLocale }) {
       const url = router.query.url as string;
       const [, , , username, repo, , branch, path] = url.split("/");
 
-      const nextUrl = `/${urlLocale}/external/${username}/${repo}/${branch}/${path}`;
+      const nextUrl = `/${urlLocale}/external/${username}/${repo}/${branch}/${path.replaceAll(
+        ".",
+        "__"
+      )}/`;
       router.push(nextUrl);
     }
   }, [router]);
