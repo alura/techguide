@@ -40,7 +40,51 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   }
 
   try {
-    const response = await fetch(URL).then((res) => res.json());
+    // const response = await fetch(URL).then((res) => res.json());
+    const response = {
+      name: "Nome do Guia",
+      expertises: [
+        {
+          name: "Nivel 1 - Básico",
+          cards: [
+            {
+              name: "Nome do Cartão Customizado",
+              description: "Descrição do Cartão",
+              link: "Link do Cartão",
+              "key-objectives": ["Objetivo 1", "Objetivo 2", "Objetivo 3"],
+              contents: [
+                {
+                  type: "SITE",
+                  title: "Node.js - Documentation",
+                  link: "https://nodejs.dev/en/learn/",
+                },
+              ],
+            },
+            {
+              id: "nodejs-fundamentals",
+            },
+          ],
+        },
+        {
+          name: "Nivel 2 - Intermediário",
+          cards: [],
+        },
+        {
+          name: "Nivel 3 - Avançado",
+          cards: [],
+        },
+      ],
+      collaborations: [
+        {
+          name: "Lado Esquerdo do T",
+          cards: [],
+        },
+        {
+          name: "Lado Direito do T",
+          cards: [],
+        },
+      ],
+    };
 
     const guide = Object.entries(response).reduce((acc, [key, value]) => {
       if (Array.isArray(value)) {
