@@ -31,7 +31,10 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   const URL = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/${path.replace(
     "__",
     "."
-  )}?aaa`;
+  )}`;
+
+  // eslint-disable-next-line no-console
+  console.log(URL);
 
   if (URL.includes("undefined")) {
     return {
@@ -85,6 +88,9 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
         },
       ],
     };
+
+    // eslint-disable-next-line no-console
+    console.log(response);
 
     const guide = Object.entries(response).reduce((acc, [key, value]) => {
       if (Array.isArray(value)) {
