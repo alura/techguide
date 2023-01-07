@@ -134,16 +134,16 @@ export default function TShape({ guide }: TShapeProps) {
                     </Box>
                     <TItemBlock
                       main
-                      blocks={block.blocks}
-                      categoryName={item.name}
+                      blocks={block.blocks || []}
+                      categoryName={item.name || "Missing Category Name"}
                     />
                   </Box>
                 ))
               ) : (
                 <TItemBlock
                   key={index}
-                  blocks={item.blocks}
-                  categoryName={item.name}
+                  blocks={item.blocks || []}
+                  categoryName={item.name || "Missing Category Name"}
                 />
               )}
             </Box>
