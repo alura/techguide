@@ -2,11 +2,11 @@ name: Android - Carregamento de Imagem
 logo: 
 short-description:
 key-objectives:
-	- As imagens vem em tamanhos e formas diferentes. Na maioria dos casos, elas são maiores do que o necessário para a Interface de usuário (UI) de um app. Dado que estamos trabalhando com memória limitada, no Android é usada uma técnica de decodificação de bitmaps, para evitar todo o trabalho de utilizar isso, temos diversas bibliotecas que facilitam esse processo.
-	- O que é Bitmap
-	- Conhecer as bibliotecas de carregamento de imagens (Glide, Picasso, Coil, entre oturas)
-	- Usar essas bibliotecas
-	- Vantagens e desvantagens de cada uma
+  - As imagens vem em tamanhos e formas diferentes. Na maioria dos casos, elas são maiores do que o necessário para a Interface de usuário (UI) de um app. Dado que estamos trabalhando com memória limitada, no Android é usada uma técnica de decodificação de bitmaps, para evitar todo o trabalho de utilizar isso, temos diversas bibliotecas que facilitam esse processo.
+  - O que é Bitmap
+  - Conhecer as bibliotecas de carregamento de imagens (Glide, Picasso, Coil, entre oturas)
+  - Usar essas bibliotecas
+  - Vantagens e desvantagens de cada uma
 aditional-objectives:
 contents:
   - type: ARTICLE

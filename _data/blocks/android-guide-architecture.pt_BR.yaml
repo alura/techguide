@@ -1,0 +1,48 @@
+name: Android - Guia de Arquitetura
+logo: 
+short-description:
+key-objectives:
+  - O guia de arquitetura android aborda práticas e a arquitetura recomendada para a criação de apps robustos com alta qualidade de produção. Organizar sua base de código em partes contidas e acopladas com flexibilidade (Modularização). 
+  - O que é e para que serve o MVVM (Model-View-ViewModel)?
+  - Camadas de IU, dados e domínios.
+  - Fluxo de dados dentro do app.
+  - Como utilizar o ViewModel.
+  - Recomendações da arquitetura, caso de uso, padrão repositório, Priorização no Offline.
+  - Gerenciamento de estado.
+  - Injeção de dependência.
+  - Melhorar a experiência dos usuários do app com o ViewModel.
+  - O que é modularização?
+  - Benefícios da modularização.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: “Guia para a arquitetura do app”
+    link: https://developer.android.com/topic/architecture
+  - type: SITE
+    title: “Visão geral do ViewModel”
+    link: https://developer.android.com/topic/libraries/architecture/viewmodel
+  - type: SITE
+    title: “Camada de IU”
+    link: https://developer.android.com/topic/architecture/ui-layer
+  - type: SITE
+    title: “Camada de Domínio”
+    link: https://developer.android.com/topic/architecture/domain-layer
+  - type: SITE
+    title: “Camada de dados - offline first”
+    link: https://developer.android.com/topic/architecture/data-layer/offline-first
+  - type: YOUTUBE
+    title: “Android pra valer: Como usar o ViewModel + LiveData no Android”
+    link: https://www.youtube.com/watch?v=pIlcZqdrYUM&ab_channel=Androidpravaler
+  - type: SITE
+    title: “Guia para a modularização de apps Android”
+    link: https://developer.android.com/topic/modularization?hl=pt-br
+  - type: SITE
+    title: “Recomendações para arquiteturas do android”
+    link: https://developer.android.com/topic/architecture/recommendations
+alura-contents:
+  - type: COURSE
+    title: “Jetpack Compose: mantendo estados com ViewModel”
+    link: https://cursos.alura.com.br/course/jetpack-compose-estados-viewmodel
+  - type: COURSE
+    title: “Architecture Components: ViewModel, LiveData e Room”
+    link: https://cursos.alura.com.br/course/android-archtecture-components

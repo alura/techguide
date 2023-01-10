@@ -1,0 +1,22 @@
+name: Android - Acessibilidade
+logo: 
+short-description:
+key-objectives:
+  - Procure fazer com que seu app Android possa ser usado por todos, incluindo pessoas com necessidades de acessibilidades. Pessoas com problemas de visão, daltonismo, dificuldades auditivas, comprometimento motor, deficiência cognitivas e muitos outros tipos de deficiência usam dispositivos Android. Ao desenvolver apps com a acessibilidade em mente, você melhora a experiência do usuário para pessoas com necessidades de acessibilidade.
+  - Aumentar a visibilidade do texto.
+  - Usar controles grandes e simples.
+  - Descrever cada elemento de IU.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: “Tornar os apps mais acessíveis”
+    link: https://developer.android.com/guide/topics/ui/accessibility/apps?hl=pt-br#text-visibility
+  - type: SITE
+    title: “Princípios para melhorar a acessibilidade do app”
+    link: https://developer.android.com/guide/topics/ui/accessibility/principles?hl=pt-br
+  - type: SITE
+    title: “Testar a acessibilidade do seu app”
+    link: https://developer.android.com/guide/topics/ui/accessibility/testing?hl=pt-br
+  - type: YOUTUBE
+    title: “Chico Rasia: View customizada no Android com Kotlin, parte 3: Acessibilidade com Talkback”
+    link: https://www.youtube.com/watch?v=4nJH3djiVuk&ab_channel=ChicoRasia

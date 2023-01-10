@@ -3,13 +3,13 @@ logo:
 short-description:
 key-objectives:
   - Durante o desenvolvimento de um App, é bastante comum a presença de bugs inesperados, como também, a falta de compreensão do motivo do bug. Para agilizar a analise e investigação de problemas ou comportamentos inesperados no App, precisamos aprender a depurar ou debuggar um App Android.
-	- Saber como executar um App em depuração no Android Studio
-	- Aprender a ativar a depuração em dispositivos físicos
-	- Utilizar Logs para identificar eventos
-	- Analisar stack track
-	- Inspecionar o Layout, recursos do sistema como processador, memória e rede
-	- Depurar o banco de dados do App e arquivos APKs pré-compilados
-	- Analisar o build com o analizador de APK
+  - Saber como executar um App em depuração no Android Studio
+  - Aprender a ativar a depuração em dispositivos físicos
+  - Utilizar Logs para identificar eventos
+  - Analisar stack track
+  - Inspecionar o Layout, recursos do sistema como processador, memória e rede
+  - Depurar o banco de dados do App e arquivos APKs pré-compilados
+  - Analisar o build com o analizador de APK
 aditional-objectives:
 contents:
   - type: SITE

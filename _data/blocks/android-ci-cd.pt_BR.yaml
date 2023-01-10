@@ -1,0 +1,18 @@
+name: Android - Entrega e integração contínua
+logo: 
+short-description:
+key-objectives:
+  - Ao implementar novas funcionalidades do App, precisamos garantir que todas as entregas irão funcionar corretamente. Para isso, podemos utilizar técnicas de integração e entrega contínua, dessa forma, agilizamos a evolução do App e tentamos garantir os compormentos esperados ao mesmo tempo.
+  - Conhecer uma das ferramentas para fazer a entrega contínua, Firebase Test Lab, Jenkins, GitHub Actions etc
+aditional-objectives:
+contents:
+  - type: SITE
+    title: “Comece a testar com sistemas de integração contínua (CI)”
+    link: https://firebase.google.com/docs/test-lab/android/continuous
+  - type: ARTICLE
+    title: “Continuous Deployment no Android: como usar a Publishing API para automatizar seu release”
+    link: https://medium.com/android-dev-br/continuous-deployment-no-android-f42b96ece80d
+  - type: ARTICLE
+    title: “Entrega Contínua Na Visão De Um Desenvolvedor Android”
+    link: https://www.thiengo.com.br/entrega-continua-na-visao-de-um-desenvolvedor-android
+alura-contents:
