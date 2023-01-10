@@ -1,0 +1,39 @@
+name: Android - Persistência de dados
+logo: 
+short-description:
+key-objectives:
+  - Armazenar dados do usuário é fundamental para garantir que o progresso seja mantido. Seja salvar informações simples texto, números, ou então, arquivos ou dados estruturados (informações organizadas em tabelas).
+  - No Android podemos armazenar de maneira persistente arquivos específicos ou para o App ou compartilhado, informações de tipo primitivo com preferências e dados estruturados com banco de dados.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Visão geral do armazenamento de dados e arquivos"
+    link: https://developer.android.com/training/data-storage?hl=pt-br
+  - type: SITE
+    title: "Acessar arquivos específicos do app"
+    link: https://developer.android.com/training/data-storage/app-specific?hl=pt-br
+  - type: SITE
+    title: "Visão geral do armazenamento compartilhado"
+    link: https://developer.android.com/training/data-storage/shared?hl=pt-br
+  - type: SITE
+    title: "Salvar dados de chave-valor"
+    link: https://developer.android.com/training/data-storage/shared-preferences?hl=pt-br
+  - type: SITE
+    title: "Salvar dados em um banco de dados local usando o Room"
+    link: https://developer.android.com/training/data-storage/room?hl=pt-br
+  - type: YOUTUBE
+    title: "LIVE #010 - Room Database: Introdução a Persistência de Dados com Kotlin localmente - PARTE 1"
+    link: https://www.youtube.com/watch?v=JQ_isBkRWzc
+alura-contents:
+  - type: COURSE
+    title: "Android com Kotlin: persistência de dados com o Room"
+    link: https://www.alura.com.br/curso-online-android-kotlin-persistencia-dados-room
+  - type: COURSE
+    title: "Android com Kotlin: Migrations e relacionamento com o Room"
+    link: https://www.alura.com.br/curso-online-android-kotlin-migrations-relacionamento-room
+  - type: COURSE
+    title: "Jetpack Compose: armazenamento de dados internos"
+    link: https://www.alura.com.br/curso-online-jetpack-compose-armazenamento-dados-internos
+  - type: ARTICLE
+    title: "Salvando informações com o Shared Preferences"
+    link: https://www.alura.com.br/artigos/salvando-informacoes-com-o-shared-preferences
