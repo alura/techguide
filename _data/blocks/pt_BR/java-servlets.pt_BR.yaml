@@ -1,0 +1,53 @@
+name: Java - Servlets
+logo: 
+short-description:
+key-objectives:
+  - Um servlet é uma classe Java utilizada para estender as capacidades dos servidores que hospedam aplicações acessadas através de um modelo de programação do tipo requisição-resposta. Embora os servlets possam responder a qualquer tipo de requisição, eles são comumente usados para estender as aplicações hospedadas por servidores web. Para tais aplicações, a tecnologia Java Servlet define classes servlet específicas para HTTP.
+  - Criar páginas web dinâmicas em Java
+  - Lidar com requisições para um servidor
+  - Conhecer o ciclo de vida de um servlet
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Acervo Lima: Introdução aos Servlets Java"
+    link: https://acervolima.com/introducao-aos-servlets-java/
+  - type: ARTICLE
+    title: "Complete Introduction to Java Servlets (inglês)"
+    link: https://medium.com/app-dev-community/complete-introduction-to-java-servlets-d445cec67ce2
+  - type: ARTICLE
+    title: "Persistindo dados com JPA+Servlets"
+    link: https://felipece7.medium.com/utilizando-servlet-puro-82e55ab32fbe
+  - type: YOUTUBE
+    title: "Luiz Curado: Introdução a Servlets e JSP"
+    link: https://www.youtube.com/watch?v=ATcbPEOH7fk
+  - type: YOUTUBE
+    title: "Prof. Razer: Java Web 03 - Servlets Parte I"
+    link: https://www.youtube.com/watch?v=zr7iWZDArdQ
+alura-contents:
+  - type: SITE
+    title: "Apostila Java para Desenvolvimento Web: Servlets"
+    link: https://www.alura.com.br/apostila-java-web/servlets
+  - type: ARTICLE
+    title: "Criando uma aplicação Java Web com Servlet"
+    link: https://www.alura.com.br/artigos/criando-uma-aplicacao-java-web-com-servlet
+  - type: ARTICLE
+    title: "JavaServer Pages: Utilizando os servlets"
+    link: https://www.alura.com.br/artigos/javaserver-pages
+  - type: ARTICLE
+    title: "Recebendo dados de um formulário HTML com Servlets"
+    link: https://www.alura.com.br/artigos/recebendo-dados-de-um-formulario-html-com-servlets
+  - type: YOUTUBE
+    title: "Alura: Servlets Parte 1: Fundamentos da programação web Java"
+    link: https://www.youtube.com/watch?v=O6U4e-I4v7g
+  - type: YOUTUBE
+    title: "Alura: Curso de Servlets - Aula 1"
+    link: https://www.youtube.com/watch?v=57AOamMl4PY
+  - type: SITE
+    title: "Primeiras aulas do curso Java Servlet: programação web Java"
+    link: https://www.alura.com.br/conteudo/servlets-fundamentos-programacao-web-java
+  - type: COURSE
+    title: "Curso Java Servlet: programação web Java"
+    link: https://cursos.alura.com.br/course/servlets-fundamentos-programacao-web-java
+  - type: COURSE
+    title: "Curso Java Servlet: autenticação, autorização e o padrão MVC"
+    link: https://cursos.alura.com.br/course/servlet-autenticacao-autorizacao-mvc

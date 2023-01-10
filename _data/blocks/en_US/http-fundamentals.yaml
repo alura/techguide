@@ -1,0 +1,38 @@
+name: HTTP - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - HTTP stands for Hyper Text Transfer Protocol. Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses.
+  - Understanding the difference between HTTP verbs
+  - Testing requests and checking the status codes in the browser
+  - Learning how to make a HTTP request on the command line with WGET
+  - Downloading an image with WGET
+  - Performing a POST
+aditional-objectives:
+  - Performing a POST using POSTMAN
+contents:
+  - type: SITE
+    title: "W3Schools: What is HTTP?"
+    link: https://www.w3schools.com/whatis/whatis_http.asp
+  - type: SITE
+    title: "MDN Web Docs: An overview of HTTP"
+    link: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+  - type: SITE
+    title: "MDN Web Docs: HTTP request methods"
+    link: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+  - type: ARTICLE
+    title: "HTTP codes as Valentine's Day comics"
+    link: https://medium.com/@hanilim/http-codes-as-valentines-day-comics-8c03c805faa0
+  - type: ARTICLE
+    title: "Here Are the most popular ways to make an HTTP request in JavaScript"
+    link: https://medium.com/free-code-camp/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa
+  - type: YOUTUBE
+    title: "Traversy Media: HTTP Crash Course & Exploration"
+    link: https://www.youtube.com/watch?v=iYM2zFP3Zn0
+  - type: YOUTUBE
+    title: "Curious Code: HTTP Request Methods - GET, POST, PUT, DELETE"
+    link: https://www.youtube.com/watch?v=tkfVQK6UxDI
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Postman Beginner's Course - API Testing"
+    link: https://www.youtube.com/watch?v=VywxIQ2ZXw4
+alura-contents:

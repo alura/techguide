@@ -1,0 +1,40 @@
+name: Node.js - Testes
+logo: 
+short-description:
+key-objectives:
+  - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+  - Aprender o que são testes unitários
+  - Aprender o que são testes de integração
+  - Trabalhar com frameworks de testes e suas ferramentas
+  - Criar mocks para seus testes
+  - Aprender os conceitos de BDD (Behavior-Driven Development) e TDD (Test-Driven Development)
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Testes Unitários: Fundamentos e Qualidade de Software!"
+    link: https://dev.to/wnqueiroz/testes-unitarios-fundamentos-e-qualidade-de-software-5af0
+  - type: ARTICLE
+    title: "Anatomia de um teste em JavaScript"
+    link: https://gabrieluizramos.com.br/anatomia-de-um-teste-em-javascript
+  - type: ARTICLE
+    title: "Fundamentando mocks em JavaScript"
+    link: https://gabrieluizramos.com.br/fundamentando-mocks-em-javascript
+  - type: ARTICLE
+    title: "Testes assíncronos em JavaScript"
+    link: https://gabrieluizramos.com.br/testes-assincronos-em-javascript
+  - type: ARTICLE
+    title: "Testes Unitários em Node.js usando Chai e Mocha"
+    link: https://medium.com/@matheusalves_45120/testes-unit%C3%A1rios-em-node-js-usando-chai-e-mocha-c415c9f84764
+  - type: SITE
+    title: "Jest - documentação oficial"
+    link: https://jestjs.io/pt-BR/
+alura-contents:
+  - type: SITE
+    title: "Livro: JavaScript Assertivo"
+    link: https://www.casadocodigo.com.br/products/livro-javascript-assertivo
+  - type: ARTICLE
+    title: "Testes em JavaScript"
+    link: https://www.alura.com.br/artigos/testes-em-javascript
+  - type: COURSE
+    title: "Curso Node.js: testes unitários e de integração"
+    link: https://cursos.alura.com.br/course/nodejs-testes-unitarios-integracao

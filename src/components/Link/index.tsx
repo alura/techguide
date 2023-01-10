@@ -3,6 +3,14 @@ import React from "react";
 import NextLink from "next/link";
 import Text from "../Text";
 import { StyleSheet } from "@skynexui/responsive_stylesheet";
+import { useI18nLocale } from "@src/infra/i18n";
+import { SiteLocale } from "@src/gql_types";
+
+const urlLocaleBySiteLocale = {
+  [SiteLocale.PtBr]: "pt-BR",
+  [SiteLocale.EnUs]: "en-US",
+  [SiteLocale.Es]: "es",
+};
 
 function withLocalePrefix(
   href: string,
@@ -11,13 +19,13 @@ function withLocalePrefix(
 ) {
   if (isExternalURL) return href;
 
-  if (locale !== "en-US") {
-    // TODO: Remove this when enable en-US version
-    if (href === "/") return href;
+  const urlLocale = urlLocaleBySiteLocale[locale];
+  const baseHref = `/${urlLocale}/${href}`.replace("//", "/");
 
-    return `${locale}${href}`;
-  }
-  return href;
+  // TODO: Fix this in future
+  if (baseHref === "/pt-BR/") return "/";
+
+  return baseHref;
 }
 
 interface LinkProps {
@@ -27,7 +35,7 @@ interface LinkProps {
   styleSheet?: StyleSheet;
 }
 function Link({ href, children, styleSheet, ...props }: LinkProps) {
-  const locale = "pt-BR";
+  const locale = useI18nLocale();
   const isExternalURL = href.startsWith("http");
   const hrefNormalized = withLocalePrefix(href, locale, isExternalURL);
 

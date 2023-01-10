@@ -1,0 +1,35 @@
+name: Flutter - Pacotes Essenciais
+logo: 
+short-description:
+key-objectives:
+  - O Flutter suporta o uso de pacotes compartilhados contribuídos por outros desenvolvedores para os ecossistemas Flutter e Dart. Isto permite construir rapidamente um aplicativo sem ter que desenvolver tudo do zero.
+  - Conhecer e saber utilizar a plataforma pub.dev
+  - Conhecer os principais pacotes do Flutter
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Usando pacotes e plugins | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/packages-and-plugins/using-packages
+  - type: SITE
+    title: "Repositório de Pacotes Dart e Flutter | pub.dev (inglês)"
+    link: https://pub.dev/
+  - type: SITE
+    title: "Pontuação dos Pacotes | pub.dev (inglês)"
+    link: https://pub.dev/help/scoring
+  - type: SITE
+    title: "Favoritos do Flutter | pub.dev (inglês)"
+    link: https://pub.dev/packages?q=is%3Aflutter-favorite
+  - type: SITE
+    title: "Pacotes Populares | pub.dev (inglês)"
+    link: https://pub.dev/packages?sort=popularity
+  - type: YOUTUBE
+    title: "Dotcode: TOP 5 PACOTES FLUTTER QUE VOCÊ PRECISA CONHECER"
+    link: https://youtu.be/Fc8D_6TtiKw
+  - type: YOUTUBE
+    title: "Flutter: (Playlist) Package of the Week | Flutter"
+    link: https://www.youtube.com/playlist?list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK
+  - type: ARTICLE
+    title: "12 Bibliotecas úteis para auxiliar no desenvolvimento utilizando Flutter"
+    link: https://medium.com/flutter-comunidade-br/12-bibliotecas-%C3%BAteis-para-auxiliar-no-desenvolvimento-utilizando-flutter-5982fdf01c80
+alura-contents:
+  

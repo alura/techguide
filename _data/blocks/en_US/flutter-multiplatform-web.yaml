@@ -1,0 +1,25 @@
+name: Flutter - Multiplatform - Web
+logo: 
+short-description:
+key-objectives:
+  - Getting to know the specifics of creating Flutter apps for the Web
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Flutter Web FAQ"
+    link: https://docs.flutter.dev/development/platform-integration/web/faq
+  - type: SITE
+    title: "Web renderers"
+    link: https://docs.flutter.dev/development/platform-integration/web/renderers
+  - type: SITE
+    title: "Customizing web app initialization"
+    link: https://docs.flutter.dev/development/platform-integration/web/initialization
+  - type: SITE
+    title: "Displaying images on the web"
+    link: https://docs.flutter.dev/development/platform-integration/web/web-images
+  - type: ARTICLE
+    title: "Creating a Progressive Web App (PWA) with Flutter"
+    link: https://blog.codemagic.io/pwa-in-flutter/
+alura-contents:
+
+  

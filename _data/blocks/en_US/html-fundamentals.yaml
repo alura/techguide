@@ -1,0 +1,64 @@
+name: HTML - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
+  - Learning which tags are required for basic HTML
+  - Creating a text paragraph
+  - Displaying an image
+  - Knowing the difference between 'h1', 'h2', 'h3', etc.
+  - Creating a hyperlinked text
+  - Creating a form with relevant fields
+  - Creating an ordered or unordered list of items
+  - Creating a list of items within a dropdown list
+  - Linking to a CSS file
+  - Creating a table
+  - Adding IDs and classes
+aditional-objectives:
+  - Setting the page charset
+  - Importing a web source
+  - Learning about semantic HTML
+contents:
+  - type: SITE
+    title: "W3Schools: HTML Introduction"
+    link: https://www.w3schools.com/html/html_intro.asp
+  - type: SITE
+    title: "W3Schools: HTML Elements"
+    link: https://www.w3schools.com/html/html_elements.asp
+  - type: SITE
+    title: "W3Schools: HTML Formatting Elements"
+    link: https://www.w3schools.com/html/html_formatting.asp
+  - type: SITE
+    title: "W3Schools: HTML Block and Inline Elements"
+    link: https://www.w3schools.com/html/html_blocks.asp
+  - type: SITE
+    title: "W3Schools: HTML Layout Elements"
+    link: https://www.w3schools.com/html/html_layout.asp
+  - type: SITE
+    title: "W3Schools: HTML Lists"
+    link: https://www.w3schools.com/html/html_lists.asp
+  - type: SITE
+    title: "W3Schools: HTML Tables"
+    link: https://www.w3schools.com/html/html_tables.asp
+  - type: SITE
+    title: "W3Schools: HTML Forms"
+    link: https://www.w3schools.com/html/html_forms.asp
+  - type: SITE
+    title: "MDN Web Docs: HTML basics"
+    link: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+  - type: ARTICLE
+    title: "HTML vs CSS: What’s the Difference?"
+    link: https://learn.onemonth.com/html-vs-css/
+  - type: ARTICLE
+    title: "Getting Started with HTML"
+    link: https://towardsdatascience.com/getting-started-with-html-98866c3e5c9e
+  - type: YOUTUBE
+    title: "Programming with Mosh: HTML Tutorial for Beginners - HTML Crash Course"
+    link: https://www.youtube.com/watch?v=qz0aGYrrlhU
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Learn HTML – Full Tutorial for Beginners"
+    link: https://www.youtube.com/watch?v=kUMe1FH4CHE
+  - type: YOUTUBE
+    title: "SuperSimpleDev: HTML & CSS Full Course - Beginner to Pro"
+    link: https://www.youtube.com/watch?v=G3e-cpL7ofc
+alura-contents:

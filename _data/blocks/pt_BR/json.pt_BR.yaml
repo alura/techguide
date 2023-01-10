@@ -1,0 +1,30 @@
+name: JSON
+logo: 
+short-description:
+key-objectives:
+  - JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.
+  - Criar um objeto
+  - Transformar um objeto em uma string
+  - Transformar uma string em objeto
+  - Manipular um objeto
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: JSON"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON
+  - type: SITE
+    title: "MDN Web Docs: Trabalhando com JSON"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON
+  - type: ARTICLE
+    title: "Introdução ao JSON"
+    link: https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff
+  - type: YOUTUBE
+    title: "Marco Bruno: O que é JSON e como criar um objeto"
+    link: https://www.youtube.com/watch?v=oCY5YEEjlwE
+alura-contents:
+  - type: ARTICLE
+    title: "O que é JSON?"
+    link: https://www.alura.com.br/artigos/o-que-e-json
+  - type: COURSE
+    title: "Curso MySQL e JSON: persistindo JSON de maneira eficiente"
+    link: https://www.alura.com.br/curso-online-mysql-json-persistencia

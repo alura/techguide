@@ -1,0 +1,36 @@
+name: JavaScript - Concurrency
+logo: 
+short-description:
+key-objectives:
+  - Concurrency is a programming paradigm for building programs that make use of the simultaneous execution of several interactive computational tasks, which can be implemented as separate programs or as a set of threads created by a single program.
+  - Executing tasks in parallel
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Thread"
+    link: https://developer.mozilla.org/en-US/docs/Glossary/Thread
+  - type: ARTICLE
+    title: "Concurrency In JavaScript 1"
+    link: https://dev.to/kalashin1/concurrency-in-javascript-4oho
+  - type: ARTICLE
+    title: "Concurrency in JavaScript 2"
+    link: https://medium.com/@onejohi/concurrency-in-javascript-f5bb387708d8
+  - type: ARTICLE
+    title: "Multithreading using Javascript"
+    link: https://medium.com/@sarthakvit/multithreading-using-javascript-cf9ad7cf9cfe
+  - type: ARTICLE
+    title: "Multithreading Javascript"
+    link: https://medium.com/techtrument/multithreading-javascript-46156179cf9a
+  - type: ARTICLE
+    title: "How JavaScript works: parallelism vs concurrency in JavaScript, what’s the difference?"
+    link: https://blog.sessionstack.com/how-javascript-works-parallelism-vs-concurrency-in-javascript-whats-the-difference-99fc3602b9f5
+  - type: YOUTUBE
+    title: "Coding Tech: Async/Await - Modern Concurrency In JavaScript"
+    link: https://www.youtube.com/watch?v=NsQ2QIrQShU
+  - type: YOUTUBE
+    title: "Hack Reactor: Advanced Async and Concurrency Patterns in JavaScript"
+    link: https://www.youtube.com/watch?v=Qg1SvpIau6U
+  - type: YOUTUBE
+    title: "JSConf: JavaScript Concurrency and the DOM"
+    link: https://www.youtube.com/watch?v=Qg1SvpIau6U
+alura-contents:

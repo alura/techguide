@@ -1,0 +1,41 @@
+name: Conceitos de Design Orientado a Domínio (Domain-Driven Design - DDD)
+logo: 
+short-description:
+key-objectives:
+  - O Design Orientado a Domínio (DDD) é uma abordagem ao projeto e desenvolvimento de software que é primeiramente informado pelos requisitos de negócios. Os componentes do programa (objetos, classes, matrizes, etc.) indicam a indústria, setor ou domínio empresarial em que o negócio opera.
+  - Modelar domínios de forma efetiva
+  - Basear projetos complexos em modelos do domínio
+  - Conhecer os blocos de construção de DDD
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Domain-Driven Design, do início ao código"
+    link: https://medium.com/cwi-software/domain-driven-design-do-in%C3%ADcio-ao-c%C3%B3digo-569b23cb3d47
+  - type: ARTICLE
+    title: "Introdução ao DDD"
+    link: https://medium.com/xp-inc/introdu%C3%A7%C3%A3o-ao-ddd-2cad38e4234a
+  - type: YOUTUBE
+    title: "Dias de Dev: O que é Domain-Driven Design"
+    link: https://www.youtube.com/watch?v=SNdGV0c40yo
+  - type: YOUTUBE
+    title: "Otavio Lemos: DDD + Clean Architecture"
+    link: https://www.youtube.com/watch?v=cZuyPPrRGAw
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Domain Driven Design"
+    link: https://www.youtube.com/watch?v=n40Z1c9Ryog
+  - type: SITE
+    title: "Domain-Driven Design (DDD) - O que é?"
+    link: https://cursos.alura.com.br/extra/alura-mais/domain-driven-design-ddd-o-que-e--c283
+  - type: SITE
+    title: "Primeiras aulas do curso Java e Domain Driven Design: apresentando os conceitos"
+    link: https://www.alura.com.br/conteudo/java-domain-driven-design-conceitos
+  - type: COURSE
+    title: "Curso Java e Domain Driven Design: apresentando os conceitos"
+    link: https://www.alura.com.br/curso-online-java-domain-driven-design-conceitos
+  - type: SITE
+    title: "Primeiras aulas do curso PHP e Domain Driven Design: apresentando os conceitos"
+    link: https://www.alura.com.br/conteudo/domain-driven-design-php
+  - type: COURSE
+    title: "Curso PHP e Domain Driven Design: apresentando os conceitos"
+    link: https://www.alura.com.br/curso-online-domain-driven-design-php

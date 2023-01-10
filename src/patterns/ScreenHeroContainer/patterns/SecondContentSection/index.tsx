@@ -13,6 +13,7 @@ export default function SecondContentSection() {
         color: "#fff",
         paddingTop: {
           md: "3.5em",
+          lg: "4.5em",
         },
         alignItems: "center",
       }}
@@ -28,7 +29,10 @@ export default function SecondContentSection() {
             xs: "initial",
             md: "580px",
           },
-          paddingTop: "3.5em",
+          paddingTop: {
+            xs: "3.5em",
+            md: "0",
+          },
           paddingHorizontal: {
             xs: "1.875rem",
           },
@@ -54,6 +58,8 @@ export default function SecondContentSection() {
           className="container--flexbox"
           styleSheet={{
             alignItems: "center",
+            margin: { xs: "0", md: "0 0 4.5em", lg: "0" },
+            padding: { lg: "0" },
           }}
         >
           <Text
@@ -175,7 +181,7 @@ export default function SecondContentSection() {
           }}
         >
           <Image
-            src="/assets/image/discover-illustration.svg"
+            src={i18n.content("IMAGES.DISCOVER_IMAGE")}
             alt="Descubra!"
             styleSheet={{
               width: {

@@ -1,0 +1,31 @@
+name: Conceptos de SPA
+logo: 
+short-description:
+key-objectives:
+  - A single-page application o SPA es una aplicación web de una sola página o sitio, que interactúa con el usuario reescribiendo dinámicamente la página web actual con nuevos datos del servidor web, en lugar del método por defecto de un navegador web que carga páginas nuevas enteras. El objetivo es conseguir transiciones más rápidas que hagan que el sitio web parezca más una aplicación nativa.
+  - Entender qué es una SPA
+  - Establecer rutas a otras páginas
+  - Conocer los frameworks SPA
+  - Comunicarse con APIs
+aditional-objectives:
+  - Conocer la librería React Router
+contents:
+  - type: SITE
+    title: "Wikipédia: Single-page application (SPA)"
+    link: https://es.wikipedia.org/wiki/Single-page_application
+  - type: SITE
+    title: "MDN Web Docs: SPA (Single-page application)"
+    link: https://developer.mozilla.org/en-US/docs/Glossary/SPA
+  - type: ARTICLE
+    title: "Single page application: definición, funcionamiento y utilidad"
+    link: https://www.ionos.es/digitalguide/paginas-web/creacion-de-paginas-web/single-page-application/
+  - type: ARTICLE
+    title: "Qué es una web SPA o single page applications"
+    link: https://www.incentro.com/es-ES/blog/que-es-web-simple-page-applications
+  - type: ARTICLE
+    title: "JavaScript: Vanilla Single Page Applications (SPA)"
+    link: https://betterprogramming.pub/js-vanilla-script-spa-1b29b43ea475
+  - type: YOUTUBE
+    title: "¿QUÉ es una web SPA? "
+    link: https://www.youtube.com/watch?v=Fr5QGdJZBVo
+alura-contents:

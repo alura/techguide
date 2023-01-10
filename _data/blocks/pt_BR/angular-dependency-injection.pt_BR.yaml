@@ -1,0 +1,37 @@
+name: Angular - Injeção de Dependências
+logo: 
+short-description:
+key-objectives:
+  - A injeção de dependência permite declarar as dependências de suas classes TypeScript sem cuidar de sua instanciação. Em vez disso, o Angular trata da instanciação para você. Este design pattern permite escrever um código mais testável e flexível.
+  - Declarar as dependências de suas classes
+  - Injetar dependências em um componente
+  - Conhecer os Injection Tokens
+  - Configurar providers
+  - Entender a Injeção de Dependência Hierárquica
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação - Dependency injection (inglês)"
+    link: https://angular.io/guide/what-is-angular#dependency-injection
+  - type: SITE
+    title: "Injeção de dependência"
+    link: https://ajuda.gitlab.io/guia-rapido/angular/injecao-de-dependencia/
+  - type: ARTICLE
+    title: "Fabricando Injeções de Dependência no Angular"
+    link: https://andrewrosario.medium.com/fabricando-inje%C3%A7%C3%B5es-de-depend%C3%AAncia-no-angular-7b2e2bc98f61
+  - type: YOUTUBE
+    title: "Loiane Groner: Injeção de Dependência (DI) + como usar um serviço em um componente"
+    link: https://www.youtube.com/watch?v=KqsFxBMlM9s
+  - type: YOUTUBE
+    title: "Loiane Groner: Injetando um serviço em outro serviço"
+    link: https://www.youtube.com/watch?v=hMhCDO75Aus
+alura-contents:
+  - type: ARTICLE
+    title: "Services e injeção de dependência no Angular: o que são e como funcionam?"
+    link: https://www.alura.com.br/artigos/services-injecao-dependencia-angular-o-que-sao-como-funcionam
+  - type: SITE
+    title: "Primeiras aulas do curso Angular parte 1: produtividade e organização com framework SPA"
+    link: https://www.alura.com.br/conteudo/angular-fundamentos
+  - type: COURSE
+    title: "Curso Angular parte 1: produtividade e organização com framework SPA"
+    link: https://www.alura.com.br/curso-online-angular-fundamentos

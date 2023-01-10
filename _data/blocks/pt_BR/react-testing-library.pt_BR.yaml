@@ -1,0 +1,21 @@
+name: React Testing Library
+logo: 
+short-description:
+key-objectives:
+  - A React Testing Library se baseia na DOM Testing Library adicionando APIs para trabalhar com componentes React. É um conjunto de auxiliares que permitem testar componentes React sem depender de seus detalhes de implementação.
+  - Testar componentes React
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "React: Documentação - Visão Geral sobre Testes"
+    link: https://pt-br.reactjs.org/docs/testing.html#gatsby-focus-wrapper
+  - type: YOUTUBE
+    title: "Washington Developer: React: Teste seus componentes | Jest | Testing Library"
+    link: https://www.youtube.com/watch?v=pbwXsjVEMqg
+  - type: SITE
+    title: "React Testing Library: Documentação (inglês)"
+    link: https://testing-library.com/docs/react-testing-library/intro/
+alura-contents:
+  - type: COURSE
+    title: "Curso React: automatizando os testes em aplicações front-end"
+    link: https://www.alura.com.br/curso-online-react-automatizando-testes

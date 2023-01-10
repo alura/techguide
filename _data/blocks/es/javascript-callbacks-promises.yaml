@@ -1,0 +1,55 @@
+name: JavaScript- Callbacks y Promises
+logo: 
+short-description:
+key-objectives:
+- Una Promesa (Promises) es un proxy de un valor que no necesariamente se conoce cuando se crea la promesa. Esto permite que los métodos asíncronos devuelvan valores como los métodos síncronos- en lugar de devolver inmediatamente el valor final, el método asíncrono devuelve la promesa de proporcionar el valor en algún momento en el futuro.
+- Una función de devolución de llamada (Callback) es una función que se pasa a otra función como argumento, que luego se invoca dentro de la función externa para completar algún tipo de rutina o acción.
+- Una función asíncrona es una función declarada con la palabra clave asíncrona y la palabra clave espera está permitida dentro de ella. Las palabras clave async y await permiten que el comportamiento asincrónico basado en promesas se escriba en un estilo más claro, lo que evita la necesidad de configurar explícitamente cadenas de promesas.
+- Comprender el concepto de programación asíncrona
+- Escribir código asíncrono entendiendo el concepto de promesas en JavaScript
+- Usar métodos, palabras clave y objetos de JavaScript para manejar promesas como 'Async/Await', '.then()', 'Promise', etc.
+- Aprender en qué situaciones necesitas usar la programación asíncrona
+- Llamar a las API con `fetch()`
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: Callbacks en JavaScript"
+    link: https://www.w3schools.com/js/js_callback.asp
+  - type: SITE
+    title: "W3Schools: Promises en JavaScript"
+    link: https://www.w3schools.com/js/js_promise.asp
+  - type: SITE
+    title: "W3Schools: JavaScript asíncrono sintaxis"
+    link: https://www.w3schools.com/js/js_async.asp
+  - type: SITE
+    title: "W3Schools: JavaScript asíncrono"
+    link: https://www.w3schools.com/js/js_asynchronous.asp
+  - type: SITE
+    title: "W3Schools:  Fetch API en JavaScript"
+    link: https://www.w3schools.com/js/js_api_fetch.asp
+  - type: SITE
+    title: "MDN Web Docs: Promises"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+  - type: SITE
+    title: "MDN Web Docs: Función Callback"
+    link: https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
+  - type: SITE
+    title: "MDN Web Docs: Introducción a JavaScript asíncrono"
+    link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Asynchronous/Introducing
+  - type: ARTICLE
+    title: "Una guía práctica de ES6 sobre cómo realizar solicitudes HTTP usando la API Fetch"
+    link: https://medium.com/free-code-camp/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547
+  - type: YOUTUBE
+    title: "Callbacks vs Promises en JavaScript. ¡Entiende las diferencias y la importancia de cada una"
+    link: https://www.youtube.com/watch?v=frm0CHyeSbE
+  - type: YOUTUBE
+    title: "Carlos Azaustre: ¿Cómo funcionan las Promises y Async/Await en JavaScript?"
+    link: https://www.youtube.com/watch?v=rKK1q7nFt7M
+  - type: YOUTUBE
+    title: "Cómo CONSUMIR una API REST con JAVASCRIPT y Fetch + Promises"
+    link: https://www.youtube.com/watch?v=FJ-w0tf3d_w
+alura-contents:
+
+- type: COURSE
+  title: "JS en la Web: CRUD con JavaScript asíncrono"
+  link: https://aluracursos.com/course/js-web-crud-javascript-asincrono

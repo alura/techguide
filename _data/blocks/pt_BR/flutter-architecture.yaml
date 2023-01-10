@@ -1,0 +1,29 @@
+name: Flutter - Arquitetura
+logo: 
+short-description:
+key-objectives:
+  - Em programação, existem vários padrões de arquitetura para arquivos e pastas de projetos, que fornecem aos desenvolvedores facilidade para encontrar, pesquisar e entender o código escrito.
+  - Conhecer as principais Arquiteturas usadas pela comunidade Flutter, como MVC, MVVM, MVP, etc
+aditional-objectives:
+contents:  
+  - type: ARTICLE
+    title: "Uma introdução à Arquitetura Clean com Flutter (inglês)"
+    link: https://medium.com/ruangguru/an-introduction-to-flutter-clean-architecture-ae00154001b0
+  - type: ARTICLE
+    title: "Flutter: Arquitetura MVVM"
+    link: https://medium.com/flutterworld/flutter-mvvm-architecture-f8bed2521958
+  - type: ARTICLE
+    title: "Padrões de Projeto com Flutter: MVC"
+    link: https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2
+  - type: ARTICLE
+    title: "Estrutura de Projeto em Flutter: Feature-first ou Layer-first? (inglês)"
+    link: https://codewithandrea.com/articles/flutter-project-structure/
+  - type: YOUTUBE
+    title: "Deivid Willyan | Flutter: Flutter NV1 - MVC Pattern"
+    link: https://www.youtube.com/watch?v=KDDU4ZT_fXU
+  - type: YOUTUBE
+    title: "Flutterando: MVVM no Flutter - Estrutura para iniciantes"
+    link: https://www.youtube.com/watch?v=WgadnZcujuc
+alura-contents:
+
+  

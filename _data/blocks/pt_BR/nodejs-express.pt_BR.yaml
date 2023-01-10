@@ -1,0 +1,35 @@
+name: Node.js - Express
+logo: 
+short-description:
+key-objectives:
+  - O Express é um framework de aplicações web Node.js flexível que fornece um conjunto robusto de recursos para aplicativos da web e mobile.
+  - Utilizar o framework Express para criação de APIs REST com Node.js
+  - Gerenciar requisições de diferentes verbos HTTP em diferentes URLs
+  - Definir a porta a ser usada para conexão e a localização dos modelos que são usados para renderizar a resposta
+  - Criar manipuladores de rotas usando o método 'router'
+  - Conhecer a bibliotecas 'Router' e seus verbos HTTP, como 'get', 'post', 'put', etc.
+  - Definir endpoints com route paths
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Express.js - documentação oficial"
+    link: https://expressjs.com/pt-br/
+  - type: SITE
+    title: "Express.js - documentação oficial - Roteamento"
+    link: https://expressjs.com/pt-br/guide/routing.html
+  - type: ARTICLE
+    title: "MDN Web Docs: Introdução Express/Node.js"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introduction
+  - type: ARTICLE
+    title: "Tutorial Node.js — Como usar o Express.js"
+    link: https://pedrompinto.medium.com/tutorial-node-js-como-usar-o-express-js-7d3027f4f57b
+  - type: ARTICLE
+    title: "Criando uma API Node em 10 passos com Express.js"
+    link: https://medium.com/xp-inc/criando-uma-api-node-em-10-passos-com-express-js-52b2d612a8a9
+  - type: ARTICLE
+    title: "Entendendo o express.Router e usando módulos de forma simples"
+    link: https://medium.com/owinteractive/entendendo-o-express-router-e-usando-m%C3%B3dulos-de-forma-simples-24ca6723fe91
+alura-contents:
+  - type: COURSE
+    title: "Formação Node.js com Express"
+    link: https://www.alura.com.br/formacao-node-js-express

@@ -1,0 +1,49 @@
+name: Git & GitHub - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+  - GitHub is a hosting service for software development and version control using Git.
+  - Creating a repository
+  - Cloning a repository
+  - Committing, pushing and pulling to and from the repository
+  - Reversing a commit
+  - Creating branches and pull requests
+  - Handling merge and conflicts
+aditional-objectives:
+  - Deploying your code using GitHub Pages
+contents:
+  - type: SITE
+    title: "Git Reference Book"
+    link: https://git-scm.com/book/en/v2
+  - type: SITE
+    title: "GitHub Documentation"
+    link: https://docs.github.com/en
+  - type: SITE
+    title: "GitHub Pages Documentation"
+    link: https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
+  - type: SITE
+    title: "W3Schools: Git Tutorial"
+    link: https://www.w3schools.com/git/default.asp?remote=github
+  - type: ARTICLE
+    title: "Git Tutorial - Explore The Commands And Operations In Git"
+    link: https://medium.com/edureka/git-tutorial-da652b566ece
+  - type: ARTICLE
+    title: "Git and Github Quickstart Tutorial"
+    link: https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca
+  - type: ARTICLE
+    title: "Getting Started with Git and GitHub: A Complete Tutorial for Beginner"
+    link: https://towardsdatascience.com/learn-basic-git-commands-for-your-data-science-works-2a75396d530d
+  - type: YOUTUBE
+    title: "Programming with Mosh: Git Tutorial for Beginners - Learn Git in 1 Hour"
+    link: https://www.youtube.com/watch?v=8JJ101D3knE
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Git and GitHub for Beginners - Crash Course"
+    link: https://www.youtube.com/watch?v=RGOj5yH7evk
+  - type: YOUTUBE
+    title: "Kevin Stratvert: Git and GitHub for Beginners Tutorial"
+    link: https://www.youtube.com/watch?v=tRZGeaHPoaw
+  - type: YOUTUBE
+    title: "Tech With Tim: Git Tutorial for Beginners - Git & GitHub Fundamentals In Depth"
+    link: https://www.youtube.com/watch?v=DVRQoVRzMIY
+alura-contents:

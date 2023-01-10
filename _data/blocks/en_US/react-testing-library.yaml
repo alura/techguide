@@ -1,0 +1,33 @@
+name: React Testing Library
+logo: 
+short-description:
+key-objectives:
+  - React Testing Library builds on top of DOM Testing Library by adding APIs for working with React components. It is a set of helpers that let you test React components without relying on their implementation details.
+  - Testing React components
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "React: Documentation - Testing Overview"
+    link: https://reactjs.org/docs/testing.html#gatsby-focus-wrapper
+  - type: SITE
+    title: "React Testing Library: Documentação"
+    link: https://testing-library.com/docs/react-testing-library/intro/
+  - type: ARTICLE
+    title: "How to build sturdy React apps with TDD and the React Testing Library"
+    link: https://medium.com/free-code-camp/how-to-build-sturdy-react-apps-with-tdd-and-the-react-testing-library-47ad3c5c8e47
+  - type: ARTICLE
+    title: "Testing components with Jest and React Testing Library"
+    link: https://itnext.io/testing-components-with-jest-and-react-testing-library-d36f5262cde2
+  - type: ARTICLE
+    title: "My experience moving from Enzyme to react-testing-library"
+    link: https://boyney123.medium.com/my-experience-moving-from-enzyme-to-react-testing-library-5ac65d992ce
+  - type: YOUTUBE
+    title: "The Net Ninja: React Testing Library Tutorial"
+    link: https://www.youtube.com/watch?v=7dTTFW7yACQ&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ
+  - type: YOUTUBE
+    title: "Lama Dev: React Testing Tutorial with React Testing Library and Jest"
+    link: https://www.youtube.com/watch?v=Flo268xRpV0
+  - type: YOUTUBE
+    title: "PedroTech: Testing In React Tutorial - Jest and React Testing Library"
+    link: https://www.youtube.com/watch?v=JBSUgDxICg8
+alura-contents:

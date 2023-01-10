@@ -1,0 +1,34 @@
+name: Service Workers
+logo: 
+short-description:
+key-objectives:
+  - Los Service Workers actúan esencialmente como servidores proxy que se ubican entre las aplicaciones web, el navegador y la red (cuando está disponible). Están destinados, entre otras cosas, a permitir la creación de experiencias fuera de línea efectivas, interceptar solicitudes de red y tomar las medidas adecuadas en función de si la red está disponible y actualizar los activos que residen en el servidor. También permitirán el acceso a notificaciones push y API de sincronización en segundo plano.
+contents:
+  - type: SITE
+    title: "MDN Web doc: Service Workers"
+    link: https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
+  - type: SITE
+    title: "Descripción general del Service Workers"
+    link: https://developer.chrome.com/docs/workbox/service-worker-overview/
+  - type: ARTICLE
+    title: "PWA Series: Service Workers, los básicos de la experiencia offline"
+    link: https://medium.com/samsung-internet-dev/pwa-series-service-workers-los-b%C3%A1sicos-de-la-experiencia-offline-14592542c738
+  - type: ARTICLE
+    title: "Almacenamiento en caché del service worker y almacenamiento en caché HTTP"
+    link: https://web.dev/i18n/es/service-worker-caching-and-http-caching/
+  - type: ARTICLE
+    title: "Una introducción a los trabajadores de servicios en JavaScript"
+    link: https://codeburst.io/an-introduction-to-service-workers-in-javascript-27d6376460c2
+  - type: ARTICLE
+    title: "Trabajadores de servicio en React"
+    link: https://levelup.gitconnected.com/service-workers-in-react-8bcaccfd0356
+  - type: ARTICLE
+    title: "Service workers, servicios web más allá del navegador"
+    link: https://www.arsys.es/blog/service-worker
+  - type: YOUTUBE
+    title: "Que és un Service Worker?"
+    link: https://www.youtube.com/watch?v=c-I8OWrg3A8
+  - type: YOUTUBE
+    title: "Introducción al Service Worker"
+    link: https://www.youtube.com/watch?v=aUtWHiV3RJg
+alura-contents:

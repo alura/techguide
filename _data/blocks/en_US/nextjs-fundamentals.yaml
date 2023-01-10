@@ -1,0 +1,38 @@
+name: NextJS - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites.
+  - Building web interfaces
+  - Decreasing page load times
+  - Rendering server-side pages
+  - Improving performance in React
+  - Building API routes with serveless functions
+  - CSS-in-JS
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation: NextJS"
+    link: https://nextjs.org/docs
+  - type: ARTICLE
+    title: "Build Better React apps with Next.js - Next.js tutorial with examples"
+    link: https://javascript.plainenglish.io/build-better-react-apps-with-next-js-d7bc7b495006
+  - type: ARTICLE
+    title: "Build A Chat App With Sentiment Analysis Using Next.js"
+    link: https://codeburst.io/build-a-chat-app-with-sentiment-analysis-using-next-js-c43ebf3ea643
+  - type: ARTICLE
+    title: "Create Next.js Application and Deploy to Vercel"
+    link: https://okandavut.medium.com/create-next-js-application-and-deploy-to-vercel-4210c51b071f
+  - type: ARTICLE
+    title: "Next.js Authentication Tutorial"
+    link: https://medium.com/@auth0/next-js-authentication-tutorial-99111927a55
+  - type: YOUTUBE
+    title: "Academind: Next.js Crash Course for Beginners"
+    link: https://www.youtube.com/watch?v=MFuwkrseXVE
+  - type: YOUTUBE
+    title: "Traversy Media: Next.js Crash Course"
+    link: https://www.youtube.com/watch?v=mTz0GXj8NN0
+  - type: YOUTUBE
+    title: "Fireship: Next.js in 100 Seconds - Plus Full Beginner's Tutorial"
+    link: https://www.youtube.com/watch?v=Sklc_fQBmcs
+alura-contents:

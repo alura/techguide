@@ -1,12 +1,13 @@
 import React from "react";
 import { Box, Text } from "@src/components";
 import Arrows from "./Arrows";
-import faq from "../../../../../_data/random-content/faq.json";
 import { parseContent } from "@src/infra/i18n/parseContent";
-
-const questions = faq.questions;
+import { useI18n } from "@src/infra/i18n";
 
 export default function FAQContentSection() {
+  const i18n = useI18n();
+  const questions = i18n.contentRaw("FAQ.GLOBAL");
+
   return (
     <Box
       styleSheet={{
@@ -77,7 +78,7 @@ export default function FAQContentSection() {
               },
             }}
           >
-            Dúvidas e respostas frequentes sobre o Tech Guide
+            {i18n.content("FAQ.GLOBAL.TITLE")}
           </Text>
           <Box styleSheet={{ display: { xs: "none", md: "flex" } }}>
             <Arrows />
@@ -148,6 +149,8 @@ function FAQQuestion({ title, description }: any) {
           },
         }}
         onClick={() => setIsOpen(!isOpen)}
+        aria-controls={title}
+        aria-expanded={isOpen ? "true" : "false"}
       >
         <Text>
           {title}
@@ -163,6 +166,7 @@ function FAQQuestion({ title, description }: any) {
               width: "18px",
               height: "11px",
               transform: `rotate(${isOpen ? "0deg" : "180deg"})`,
+              transition: "transform .4s ease-out",
             }}
           >
             <path
@@ -175,12 +179,20 @@ function FAQQuestion({ title, description }: any) {
         </Text>
       </Box>
       <Box
+        id={title}
         styleSheet={{
-          display: isOpen ? "flex" : "none",
+          display: "flex",
           flex: 1,
           width: "100%",
           marginBottom: "24px",
+          transition: `max-height 0.5s ${
+            isOpen ? "ease-in-out" : "cubic-bezier(0, 1, 0, 1)"
+          }`,
+          maxHeight: isOpen ? "1000px" : 0,
+          overflow: "hidden",
         }}
+        aria-hidden={isOpen ? "false" : "true"}
+        onFocus={() => setIsOpen(true)}
       >
         <Text
           styleSheet={{

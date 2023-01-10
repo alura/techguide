@@ -1,0 +1,72 @@
+name: Java - Testes
+logo: 
+short-description:
+key-objectives:
+  - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+  - Usar testes unitários
+  - Usar testes de integração
+  - Usar testes de comportamento (behavior)
+  - Usar mocks
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Testes Unitários: Fundamentos e Qualidade de Software!"
+    link: https://dev.to/wnqueiroz/testes-unitarios-fundamentos-e-qualidade-de-software-5af0
+  - type: ARTICLE
+    title: "Testes 101 — Testando aplicações Java"
+    link: https://vepo.medium.com/testes-101-testando-aplica%C3%A7%C3%B5es-java-a12465319e61
+  - type: ARTICLE
+    title: "Iniciando em testes automatizados com Java - Parte 1"
+    link: https://medium.com/@pauloloboneto/iniciando-seus-estudos-em-testes-automatizados-configure-sua-m%C3%A1quina-windows-87e72e6fe1d1
+  - type: ARTICLE
+    title: "Iniciando em testes automatizados com Java - Parte 2"
+    link: https://medium.com/@pauloloboneto/iniciando-em-testes-automatizados-com-java-parte-2-ddf43a63b422
+  - type: ARTICLE
+    title: "Qualidade e JUnit: introduzindo automatização de testes unitários do seu software Java no dia-a-dia"
+    link: https://mari-azevedo.medium.com/qualidade-e-junit-introduzindo-automatiza%C3%A7%C3%A3o-de-testes-unit%C3%A1rios-do-seu-software-java-no-dia-a-dia-849611de5574
+  - type: ARTICLE
+    title: "Criando mocks e escrevendo testes unitários com Junit 5"
+    link: https://mmarcosab.medium.com/criando-mocks-e-escrevendo-testes-unit%C3%A1rios-com-junit-5-f54e6407bd7c
+  - type: ARTICLE
+    title: "Turbinando sua aplicação Java com Testes Parametrizados"
+    link: https://medium.com/@vandernobrel/turbinando-sua-aplica%C3%A7%C3%A3o-java-com-testes-parametrizados-70517f885f81
+  - type: ARTICLE
+    title: "Aplicando automação de testes em Java com BDD utilizando Cucumber"
+    link: https://medium.com/vhsys-engineering/aplicando-automa%C3%A7%C3%A3o-de-testes-em-java-com-bdd-utilizando-cucumber-b0907cdd273b
+  - type: YOUTUBE
+    title: "Leonardo Barauna: Teste Unitário em Java - Conceito"
+    link: https://www.youtube.com/watch?v=PPaqtVUrQr8
+  - type: YOUTUBE
+    title: "Michelli Brito: TDD na prática com Java usando MockBean"
+    link: https://www.youtube.com/watch?v=4VmbETu-dcA
+  - type: YOUTUBE
+    title: "Michelli Brito: TDD na prática com Java usando MockMvc"
+    link: https://www.youtube.com/watch?v=AGDcPgXj8BU
+  - type: YOUTUBE
+    title: "Jean: Testes unitários em @Service com Mockito"
+    link: https://www.youtube.com/watch?v=c8PFBxiVO8o
+alura-contents:
+  - type: ARTICLE
+    title: "Tipos de testes: quais os principais e por que utilizá-los?"
+    link: https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los
+  - type: PODCAST
+    title: "Hipsters.tech: Testes Automatizados"
+    link: https://www.alura.com.br/podcast/testes-automatizados-hipsters-51-a535
+  - type: YOUTUBE
+    title: "Alura: Curso de Testes: TDD com Java"
+    link: https://www.youtube.com/watch?v=Dyls2ljtAZQ
+  - type: COURSE
+    title: "Curso TDD e Java: testes automatizados com JUnit"
+    link: https://cursos.alura.com.br/course/tdd-java-testes-automatizados-junit
+  - type: COURSE
+    title: "Curso Testes de Integração: testes de SQL e DAOs automatizados em Java"
+    link: https://cursos.alura.com.br/course/teste-integracao-sql-daos-automatizados-java
+  - type: COURSE
+    title: "Curso Mocks em Java: conhecendo o Mockito"
+    link: https://cursos.alura.com.br/course/mocks-java-mockito
+  - type: COURSE
+    title: "Curso Selenium: testes automatizados de aceitação em Java"
+    link: https://cursos.alura.com.br/course/selenium-testes-automatizados-aceitacao-java
+  - type: COURSE
+    title: "Curso BDD e Java: Behavior Driven Development com Cucumber"
+    link: https://cursos.alura.com.br/course/bdd-cucumber-java

@@ -1,0 +1,38 @@
+name: React - Components
+logo: 
+short-description:
+key-objectives:
+  - React lets you define components as classes or functions. Components defined as classes provide more features. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
+  - Understanding how components work
+  - Knowing the Styled Components library
+  - Understanding the difference between class and functional components
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: React Components"
+    link: https://www.w3schools.com/react/react_components.asp
+  - type: SITE
+    title: "React: Documentation - Components and Props"
+    link: https://reactjs.org/docs/components-and-props.html
+  - type: SITE
+    title: "React: Documentation - React.Component"
+    link: https://reactjs.org/docs/react-component.html
+  - type: SITE
+    title: "MDN Web Docs: Getting started with React - Exploring our first React component"
+    link: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#exploring_our_first_react_component_%E2%80%94_app
+  - type: ARTICLE
+    title: "Understanding React Components"
+    link: https://medium.com/the-andela-way/understanding-react-components-37f841c1f3bb
+  - type: ARTICLE
+    title: "React component guide: Class vs functional"
+    link: https://learningdaily.dev/react-component-guide-class-vs-functional-929108fc5afc
+  - type: YOUTUBE
+    title: "LearnCode.academy: Reactjs Components & Rendering"
+    link: https://www.youtube.com/watch?v=fd2Cayhez58
+  - type: YOUTUBE
+    title: "Cand Dev: Create Clean and Reusable React Components"
+    link: https://www.youtube.com/watch?v=Ib-80HIjuZ4
+  - type: YOUTUBE
+    title: "Sonny Sangha: Class Components vs Functional Components in React"
+    link: https://www.youtube.com/watch?v=yc6elaGOoGQ
+alura-contents:

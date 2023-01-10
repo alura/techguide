@@ -1,0 +1,35 @@
+name: Dart Assíncrono
+logo: 
+short-description:
+key-objectives:
+  - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
+  - Entender o que é assincronismo
+  - Saber usar as expressões `async`, `await` e `future` no Dart
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Suporte a Assincronismo | Dart Language Tour (inglês)"
+    link: https://dart.dev/guides/language/language-tour#asynchrony-support
+  - type: ARTICLE
+    title: "Programação Assíncrona: Async, Await e Future | Dart Codelabs (inglês)"
+    link: https://dart.dev/codelabs/async-await
+  - type: ARTICLE
+    title: "Programação Assíncrona: Streams | Dart Codelabs (inglês)"
+    link: https://dart.dev/tutorials/language/streams
+  - type: ARTICLE
+    title: "Simultaneidade no Dart | Dart Codelabs (inglês)"
+    link: https://dart.dev/guides/language/concurrency
+  - type: ARTICLE
+    title: "Como funciona o async-await e Future no Flutter"
+    link: https://www.treinaweb.com.br/blog/como-funciona-o-async-await-e-future-no-flutter
+  - type: ARTICLE
+    title: "Funções Assíncronas no Dart"
+    link: https://medium.com/@matheusrmribeiro/flutter-descomplica-funcoes-assincronas-ab5380d276dc
+  - type: YOUTUBE
+    title: "Flutter: Playlist Dart Avançado (inglês)"
+    link: https://www.youtube.com/playlist?list=PLjxrf2q8roU0Net_g1NT5_vOO3s_FR02J
+alura-contents:
+  - type: COURSE
+    title: "Curso Persistência com Flutter: crie um app com armazenamento interno"
+    link: https://cursos.alura.com.br/course/dart-lidando-exceptions-null-safety
+    

@@ -1,0 +1,37 @@
+name: R para Ciência de Dados
+logo: 
+short-description:
+key-objectives:
+  - R é uma linguagem de programação comumente usada em estatística computacional e análise de dados.
+  - Aprender a analisar, limpar e visualizar dados
+  - Elaborar gráficos
+  - Juntar bancos de dados
+  - Tirar sumários estatísticos
+  - Aprender modelos preditivos no R
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Introdução à programação em R"
+    link: https://medium.com/rladiesbh/introdu%C3%A7%C3%A3o-%C3%A0-programa%C3%A7%C3%A3o-em-r-d0193eb4e458
+  - type: ARTICLE
+    title: "Introdução a linguagem R"
+    link: https://medium.com/rapaduratech/introdu%C3%A7%C3%A3o-a-linguagem-r-77306b5f703
+  - type: YOUTUBE
+    title: "EstaTiDados: Introdução ao R para ciências de dados"
+    link: https://www.youtube.com/watch?v=hnTHBzmmkTI
+  - type: SITE
+    title: "R para Ciência de Dados: Visualize, Model, Transform, Tidy and Import Data (inglês)"
+    link: https://r4ds.had.co.nz/
+alura-contents:
+  - type: ARTICLE
+    title: "Aplicando a regressão linear com R"
+    link: https://www.alura.com.br/artigos/aplicando-a-regressao-linear-com-r
+  - type: COURSE
+    title: "Curso R: análise de dados"
+    link: https://cursos.alura.com.br/course/business-analytics-com-r
+  - type: COURSE
+    title: "Curso (I/O) com R: formatos diferentes de entrada e saída"
+    link: https://cursos.alura.com.br/course/io-em-r
+  - type: COURSE
+    title: "Curso Programação em R: desenvolva dashboards online com Shiny"
+    link: https://cursos.alura.com.br/course/programacao-r-dashboard-online-shiny

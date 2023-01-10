@@ -1,0 +1,37 @@
+name: Java - Pacotes
+logo: 
+short-description:
+key-objectives:
+  - Um pacote (package) em Java é usado para agrupar classes relacionadas, de forma semelhante a uma pasta em um diretório de arquivos. Os pacotes são usados para evitar conflitos de nomes e para escrever um código de melhor manutenção.
+  - Use imports e organize o seu código através de packages
+  - Conhecer a java.lang
+  - Entender a imutabilidade e a classe String
+  - Entender a classe java.lang.Object
+  - Conhecer a java.io
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Acervo Lima: Como criar um pacote em Java"
+    link: https://acervolima.com/como-criar-um-pacote-em-java/
+  - type: SITE
+    title: "Acervo Lima: Pacotes em Java"
+    link: https://acervolima.com/pacotes-em-java/
+  - type: ARTICLE
+    title: "Padronizando pacotes em uma arquitetura REST"
+    link: https://medium.com/@thaleslima19/padronizando-pacotes-em-uma-arquitetura-rest-280e7a6c38bb
+  - type: YOUTUBE
+    title: "Loiane Groner: Orientação a Objetos - Pacotes e import"
+    link: https://www.youtube.com/watch?v=aRQHjfYBpM8
+  - type: YOUTUBE
+    title: "Pedro Cavalero: Criando Pacotes no Eclipse"
+    link: https://www.youtube.com/watch?v=wFPXkNCOuf4
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Aprofundando no Java: domine as Collections"
+    link: https://www.youtube.com/watch?v=PeFDQtLBlto
+  - type: SITE
+    title: "Pacotes - Organizando suas classes e bibliotecas"
+    link: https://www.alura.com.br/apostila-java-orientacao-objetos/pacotes-organizando-suas-classes-e-bibliotecas
+  - type: COURSE
+    title: "Curso Java e java.lang: programe com a classe Object e String"
+    link: https://cursos.alura.com.br/course/java-pacotes-e-java-lang

@@ -1,0 +1,37 @@
+name: Flutter - Depuração
+logo: 
+short-description:
+key-objectives:
+  - Depuração (em inglês "debugging" ou "debug") é o processo de encontrar e reduzir defeitos num aplicativo de software ou mesmo em hardware. Erros de software incluem aqueles que previnem o programa de ser executado e aqueles que produzem um resultado inesperado.
+  - Conhecer as técnicas e ferramentas de depuração no Flutter
+  - Saber depurar códigos Dart e Flutter
+  - Conhecer o Dart DevTools
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Flutterando: Depuração (Breakpoint)"
+    link: https://youtu.be/cUMsu0Kxo7k  
+  - type: SITE
+    title: "Depurando Aplicativos Flutter | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/testing/debugging
+  - type: SITE
+    title: "Depurando Códigos de forma Programática | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/testing/code-debugging
+  - type: SITE
+    title: "Usando um depurador OEM | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/testing/oem-debuggers  
+  - type: YOUTUBE
+    title: "Flutter: Propriedades de Depuração | Decoding Flutter (inglês)"
+    link: https://youtu.be/DnC7eT-vh1k
+  - type: YOUTUBE
+    title: "Flutter: Depure e crie o perfil do seu aplicativo com o Flutter DevTools | Demo (inglês)"
+    link: https://youtu.be/J7s5bu49k3U
+  - type: SITE
+    title: "Conhecendo o Dart DevTools | Dart Docs (inglês)"
+    link: https://dart.dev/tools/dart-devtools 
+  - type: YOUTUBE
+    title: "Flutter: Dart DevTools | Decoding Flutter (inglês)"
+    link: https://youtu.be/nq43mP7hjAE
+alura-contents:
+
+  

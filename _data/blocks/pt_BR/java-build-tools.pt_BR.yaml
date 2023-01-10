@@ -1,0 +1,33 @@
+name: Build tools Java
+logo: 
+short-description:
+key-objectives:
+  - Uma build tool é um sistema que permite automatizar todas as tarefas rotineiras de um projeto de uma forma organizada e que evite que o desenvolvedor tenha que perder tempo. Em outras palavras, adicionar uma nova biblioteca, realização de testes, empacotamento e deploy, ou até mesmo, a compatibilidade entre as diversas IDEs são tarefas facilmente resolvidas com uma build tool.
+  - Conheça as principais ferramentas de build do Java, como Maven, Jenkins, Apache Ant, Gradle, etc., e como usá-las
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Maven e outras ferramentas de build para java (com legenda em português)"
+    link: https://docs.microsoft.com/pt-br/shows/java-for-beginners/maven-and-other-build-tools-for-java
+  - type: ARTICLE
+    title: "Entenda o que são build tools do mundo Java"
+    link: https://medium.com/@alex.felipe/entenda-o-que-s%C3%A3o-build-tools-do-mundo-java-682a26e38ff2
+  - type: ARTICLE
+    title: "Ant e o deploy e build de Projetos Java"
+    link: http://www.linhadecodigo.com.br/artigo/657/ant-e-o-deploy-e-build-de-projetos-java.aspx
+  - type: YOUTUBE
+    title: "by { iorio }: Introdução ao Maven e Instalando a ferramenta"
+    link: https://www.youtube.com/watch?v=T-1Lgkqs6SM
+  - type: YOUTUBE
+    title: "Pedro Cavalero: Entendendo Maven no Spring Boot"
+    link: https://www.youtube.com/watch?v=-KGAckgJKQA
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Conhecendo as build tools no mundo Java"
+    link: https://www.youtube.com/watch?v=6llRWbdnmuk
+  - type: YOUTUBE
+    title: "Alura: Começando com o Gradle: Tasks e comandos básicos"
+    link: https://www.youtube.com/watch?v=uX6Ezf73OEY
+  - type: COURSE
+    title: "Curso Maven: gerenciamento de dependências e build de aplicações Java"
+    link: https://cursos.alura.com.br/course/maven-gerenciamento-dependencias-build-aplicacoes-java

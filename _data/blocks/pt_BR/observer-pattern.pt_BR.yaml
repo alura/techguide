@@ -1,0 +1,48 @@
+name: O pattern Observer
+logo: 
+short-description:
+key-objectives:
+  - Em engenharia de software, o padrão (pattern) chamado Observer é um padrão de projeto de software no qual um objeto, chamado de sujeito (subject), mantém uma lista de seus dependentes, chamados de observadores (observers), e os notifica automaticamente de qualquer mudança de estado, geralmente chamando um de seus métodos.
+  - Entender o que são Design Patterns
+  - Atualizar diversos elementos simultaneamente usando Observers
+  - Declarar os Subjects
+  - Criar programas baseados em eventos
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Padrões em JS: Observer Pattern"
+    link: https://oieduardorabelo.medium.com/padr%C3%B5es-em-js-observer-pattern-bff0ecc55d01
+  - type: ARTICLE
+    title: "Observer Pattern - Design Patterns com Typescript"
+    link: https://meneguite.com/2019/06/23/design-patterns-com-typescript-observer/
+  - type: ARTICLE
+    title: "Entendendo RxJS Observable com Angular"
+    link: https://medium.com/tableless/entendendo-rxjs-observable-com-angular-6f607a9a6a00
+  - type: YOUTUBE
+    title: "Filipe Deschamps: Observer Pattern"
+    link: https://www.youtube.com/watch?v=4OLCrClb_So
+  - type: YOUTUBE
+    title: "Paulo Eduardo Melo: Observable"
+    link: https://www.youtube.com/watch?v=3n-WCiSxu2k
+  - type: YOUTUBE
+    title: "Paulo Eduardo Melo: Observable a fundo"
+    link: https://www.youtube.com/watch?v=dm_9xWPxLUg
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Programação Reativa - Alura Live 54"
+    link: https://www.youtube.com/watch?v=N0ie4xe48Ng
+  - type: PODCAST
+    title: "Design Patterns - Hipsters 206"
+    link: https://www.alura.com.br/podcast/design-patterns-hipsters-206-a345
+  - type: SITE
+    title: "Primeiras aulas do curso Angular e RxJS: programação reativa"
+    link: https://www.alura.com.br/conteudo/angular-rxjs-introducao-programacao-reativa
+  - type: COURSE
+    title: "Curso Design Patterns em Java I: boas práticas de programação"
+    link: https://www.alura.com.br/curso-online-introducao-design-patterns-java
+  - type: COURSE
+    title: "Curso Design Patterns em PHP: padrões comportamentais"
+    link: https://www.alura.com.br/curso-online-php-design-pattern-comportamental
+  - type: COURSE
+    title: "Curso Design Patterns C# I: boas práticas de programação"
+    link: https://www.alura.com.br/curso-online-design-patterns-dotnet

@@ -1,0 +1,34 @@
+name: React Hooks - Ref
+logo: 
+short-description:
+key-objectives:
+  - The `useRef` Hook allows you to persist values between renders.
+  - Storing a mutable value that does not cause a re-render when updated
+  - Accessing a DOM element directly
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: React useRef Hook"
+    link: https://www.w3schools.com/react/react_useref.asp
+  - type: SITE
+    title: "React: Documentation - useRef"
+    link: https://reactjs.org/docs/hooks-reference.html#useref
+  - type: ARTICLE
+    title: "The Complete Guide to useRef() and Refs in React"
+    link: https://dmitripavlutin.com/react-useref-guide/
+  - type: ARTICLE
+    title: "React useRef Hook"
+    link: https://medium.com/trabe/react-useref-hook-b6c9d39e2022
+  - type: ARTICLE
+    title: "A Thoughtful Way To Use React's useRef() Hook"
+    link: https://www.smashingmagazine.com/2020/11/react-useref-hook/
+  - type: YOUTUBE
+    title: "Web Dev Simplified: Learn useRef in 11 Minutes"
+    link: https://www.youtube.com/watch?v=t2ypzz6gJm0
+  - type: YOUTUBE
+    title: "Codevolution: React Hooks Tutorial - useRef Hook (Part 1)"
+    link: https://www.youtube.com/watch?v=yCS2m01bQ6w
+  - type: YOUTUBE
+    title: "Codevolution: React Hooks Tutorial - useRef Hook (Part 2)"
+    link: https://www.youtube.com/watch?v=LWg0OyZQffc
+alura-contents:

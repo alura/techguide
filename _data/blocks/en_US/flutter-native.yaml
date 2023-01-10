@@ -1,0 +1,56 @@
+name: Flutter - Native
+logo: 
+short-description:
+key-objectives:
+  - Getting to know the specifics of native development for Android
+  - Getting to know the specifics of native development for iOS
+aditional-objectives:
+contents:
+  # Android
+  - type: SITE
+    title: "Android: Hosting native Android views in your Flutter app with Platform Views"
+    link: https://docs.flutter.dev/development/platform-integration/android/platform-views
+  - type: SITE
+    title: "Android: Supporting the new Android plugins APIs"
+    link: https://docs.flutter.dev/development/platform-integration/android/plugin-api-migration
+  - type: SITE
+    title: "Android: AndroidX migration"
+    link: https://docs.flutter.dev/development/platform-integration/android/androidx-migration
+  - type: SITE
+    title: "Android: Deprecated Splash Screen API Migration"
+    link: https://docs.flutter.dev/development/platform-integration/android/splash-screen-migration
+
+  # iOS
+  - type: SITE
+    title: "iOS: Cupertino (iOS-style) widgets"
+    link: https://docs.flutter.dev/development/ui/widgets/cupertino
+  - type: SITE
+    title: "iOS: Veggie Seasons - iOS with Flutter"
+    link: https://github.com/flutter/samples/tree/main/veggieseasons
+  - type: YOUTUBE
+    title: "iOS: Flutter: Building for iOS with Flutter"
+    link: https://www.youtube.com/watch?v=ZBJa-xjZl3w&ab_channel=Flutter
+  - type: SITE
+    title: "iOS: Adding an iOS App Clip target"
+    link: https://docs.flutter.dev/development/platform-integration/ios/ios-app-clip
+  - type: SITE
+    title: "iOS: Hosting native iOS views in your Flutter app with Platform Views"
+    link: https://docs.flutter.dev/development/platform-integration/ios/platform-views
+  
+  # Native & Plugins
+  - type: SITE
+    title: "Writing custom platform-specific code"
+    link: https://docs.flutter.dev/development/platform-integration/platform-channels  
+  - type: SITE
+    title: "C interop using dart:ffi"
+    link: https://dart.dev/guides/libraries/c-interop  
+  - type: SITE
+    title: "JavaScript interoperability"
+    link: https://dart.dev/web/js-interop
+  - type: SITE
+    title: "Binding to native Android code using dart:ffi"
+    link: https://docs.flutter.dev/development/platform-integration/android/c-interop  
+  - type: SITE
+    title: "Binding to native iOS code using dart:ffi"
+    link: https://docs.flutter.dev/development/platform-integration/ios/c-interop
+alura-contents:

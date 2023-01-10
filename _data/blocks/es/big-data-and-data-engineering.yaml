@@ -1,0 +1,48 @@
+name: Big Data e Ingeniería de Datos - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Big data es el área del conocimiento que estudia cómo tratar, analizar y obtener información a partir de conjuntos de datos demasiado grandes para ser analizados por sistemas tradicionales.
+  - La ingeniería de datos implica el desarrollo y organización de procesos para la recopilación, almacenamiento y transformación de datos a gran escala.
+  - Crear una canalización de datos
+  - Conocer el Apache Airflow
+  - Conocer el Apache Spark
+  - Conocer el concepto de Data Lake
+  - Interactuar con servidores en la nube
+  - Crear aplicaciones de Spark
+aditional-objectives:
+contents:
+  - type: ARTICLE 
+    title: "¿Qué es big data?"
+    link: https://www.oracle.com/es/big-data/what-is-big-data/
+  - type: YOUTUBE
+    title: "¿Qué es Big Data?"
+    link: https://www.youtube.com/watch?v=UQ_9JocGbgw&ab_channel=Datademia
+  - type: YOUTUBE
+    title: "¿Qué es BIG DATA y su diferencia con Data Science?"
+    link: https://www.youtube.com/watch?v=NKWjXoO3a7k&ab_channel=RafaGonzalezGouveia
+  - type: PODCAST
+    title: "Perfiles profesionales Big Data"
+    link: https://open.spotify.com/episode/2BZLbMIpRjpcbljXwYNMFZ?si=7d2ef53eb1314db5
+  - type: ARTICLE
+    title: "¿Data Lake o Data Swamp?"
+    link: https://www.kaitsconsulting.com/data-lake-o-data-swamp/
+  - type: ARTICLE
+    title: "Data Warehouse: ¿qué es y cómo utilizarlo?"
+    link: https://datascientest.com/es/data-warehouse-que-es-y-como-utilizarlo
+  - type: ARTICLE
+    title: "Apache Airflow"
+    link: https://datascientest.com/es/todo-sobre-apache-airflow#:~:text=La
+  - type: ARTICLE
+    title: "Empezando con Apache Airflow: Orquestando flujos de trabajo"
+    link: https://davidcasr.medium.com/empezando-con-apache-airflow-orquestando-flujos-de-trabajo-272e1a012152
+  - type: SITE
+    title: "¿Qué es Apache Spark?"
+    link: https://cloud.google.com/learn/what-is-apache-spark?hl=es#:~:text=Apache
+  - type: ARTICLE
+    title: "Procesando Datos con Spark"
+    link: https://medium.com/@crscardellino/procesando-datos-con-spark-48539d38e437
+alura-contents:
+  - type: COURSE
+    title: "Machine Learning: Lidiando con datos de muchas dimensiones"
+    link: https://app.aluracursos.com/course/machine-learning-datos-muchas-dimensiones

@@ -21,6 +21,7 @@
     "baseUrl": ".",
     "paths": {
       "@src/*": ["./src/*"],
+      "@scripts/*": ["_scripts/*"],
       "@api/*": ["_api/*"]
     }
   },
@@ -31,5 +32,18 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "ts-node": {
+    "esm": true,
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "CommonJS",
+      "baseUrl": ".",
+      "paths": {
+        "@src/*": ["./src/*"],
+        "@scripts/*": ["_scripts/*"],
+        "@api/*": ["_api/*"]
+      }
+    }
+  }
 }

@@ -1,0 +1,62 @@
+name: DOM - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - El Document Object Model (DOM) es una interfaz de programación para documentos de la web. Representa la página para que los programas puedan cambiar la estructura, el estilo y el contenido del documento. El DOM representa el documento como nosotros y objetos; de esa forma, los lenguajes de programación pueden interactuar con la página.
+  - Entender cómo funciona el árbol DOM
+  - Accesando y manipulando elementos HTML y CSS
+  - Acceder a los padres e hijos de un elemento
+  - Insertar un nuevo elemento en el árbol
+  - Quitar un elemento del árbol
+  - Esperando un evento en un elemento determinado de la página usando 
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: JavaScript HTML DOM Methods"
+    link: https://www.w3schools.com/js/js_htmldom_methods.asp
+  - type: SITE
+    title: "W3Schools: JavaScript HTML DOM Elements"
+    link: https://www.w3schools.com/js/js_htmldom_elements.asp
+  - type: SITE
+    title: "W3Schools: JavaScript HTML DOM - Changing HTML"
+    link: https://www.w3schools.com/js/js_htmldom_html.asp
+  - type: SITE
+    title: "W3Schools: JavaScript HTML DOM - Changing CSS"
+    link: https://www.w3schools.com/js/js_htmldom_css.asp
+  - type: SITE
+    title: "W3Schools: JavaScript HTML DOM Events"
+    link: https://www.w3schools.com/js/js_htmldom_events.asp
+  - type: SITE
+    title: "W3Schools: JavaScript HTML DOM EventListener"
+    link: https://www.w3schools.com/js/js_htmldom_eventlistener.asp
+  - type: SITE
+    title: "W3Schools: JavaScript HTML DOM Elements (Nodes)"
+    link: https://www.w3schools.com/js/js_htmldom_nodes.asp
+  - type: SITE
+    title: "MDN Web Docs: Introdução ao DOM"
+    link: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction
+  - type: SITE
+    title: "MDN Web Docs: querySelectorAll()"
+    link: https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll
+  - type: SITE
+    title: "MDN Web Docs: addEventListener()"
+    link: https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+  - type: ARTICLE
+    title: "An introduction to the JavaScript DOM"
+    link: https://medium.com/free-code-camp/an-introduction-to-the-javascript-dom-512463dd62ec
+  - type: ARTICLE
+    title: "The DOM of Javascript"
+    link: https://javascript.plainenglish.io/the-dom-of-javascript-848506ebf386
+  - type: ARTICLE
+    title: "Qué es DOM?"
+    link: https://www.aluracursos.com/blog/que-es-dom
+  - type: YOUTUBE
+    title: "DOM JavaScript "
+    link: https://www.youtube.com/watch?v=8u4Xef5YtFE&ab_channel=Bluuweb
+  - type: YOUTUBE
+    title: "Javascript manipulacion del DOM "
+    link: https://www.youtube.com/watch?v=iaLiOXXR8eI&list=PLg9145ptuAijiWx4ixGBCZB0kh6YEeNqf&ab_channel=yacklyon
+alura-contents:
+  - type: COURSE
+    title: "JS en la Web: Manipulación del DOM con JavaScript"
+    link: https://app.aluracursos.com/course/js-web-manipulacion-dom-javascript

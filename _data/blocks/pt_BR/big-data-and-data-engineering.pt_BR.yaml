@@ -1,0 +1,72 @@
+name: Big Data e Engenharia de Dados
+logo: 
+short-description:
+key-objectives:
+  - Big data é a área do conhecimento que estuda como tratar, analisar e obter informações a partir de conjuntos de dados grandes demais para serem analisados por sistemas tradicionais.
+  - Engenharia de Dados envolve o desenvolvimento e organização de processos para coleta, armazenamento e transformação de dados em grande escala.
+  - Criar um pipeline de dados
+  - Conhecer o Apache Airflow
+  - Conhecer o Apache Spark
+  - Conhecer o conceito de Data Lake
+  - Interagir com servidores na nuvem
+  - Criar aplicações Spark
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Oracle: O que é Big Data?"
+    link: https://www.oracle.com/br/big-data/what-is-big-data/
+  - type: SITE
+    title: "Glassdoor: O que faz um Engenheiro De Dados?"
+    link: https://www.glassdoor.com.br/Carreira/engenheiro-de-dados-carreira_KO0,19.htm
+  - type: ARTICLE
+    title: "A Era do Big Data"
+    link: https://medium.com/gabriel-luz/a-era-do-big-data-64ebad5859f2
+  - type: YOUTUBE
+    title: "Nerdologia: Big Data"
+    link: https://www.youtube.com/watch?v=hEFFCKxYbKM
+  - type: YOUTUBE
+    title: "Daniel Ramos Nogueira: O que é Big Data? O que é Data Analytics?"
+    link: https://www.youtube.com/watch?v=4CNqiAgmqSc
+  - type: YOUTUBE
+    title: "Millena Gená: O que faz um Engenheiro de Dados?"
+    link: https://www.youtube.com/watch?v=Zsos7iTylqo
+  - type: YOUTUBE
+    title: "Jayne Sou: O que faz um Engenheiro de Dados"
+    link: https://www.youtube.com/watch?v=qvIrIqLqWfw
+alura-contents:
+  - type: ARTICLE
+    title: "Big Data: Entenda mais sobre esse conceito"
+    link: https://www.alura.com.br/artigos/big-data
+  - type: ARTICLE
+    title: "Data Lake vs Data Warehouse"
+    link: https://www.alura.com.br/artigos/data-lake-vs-data-warehouse
+  - type: PODCAST
+    title: "Hipsters.tech: Big Data e Data Science: pra quê afinal? - Hipsters 73"
+    link: https://www.hipsters.tech/big-data-e-data-science-pra-que-afinal-hipsters-73/
+  - type: PODCAST
+    title: "Hipsters.tech: Small Data, Big Data, Open Data - Hipsters 42"
+    link: https://www.hipsters.tech/small-data-big-data-open-data-hipsters-42/
+  - type: PODCAST
+    title: "Hipsters.tech: Engenharia de dados na Serasa Experian – Hipsters On The Road 37"
+    link: https://www.hipsters.tech/engenharia-de-dados-na-serasa-experian-hipsters-on-the-road-37/
+  - type: PODCAST
+    title: "Hipsters.tech: Data Engineering no Quinto Andar – Hipsters On The Road 60"
+    link: https://www.hipsters.tech/data-engineering-no-quinto-andar-hipsters-on-the-road-60/
+  - type: YOUTUBE
+    title: "Alura: O que é engenharia de dados?"
+    link: https://www.youtube.com/watch?v=_rMb6S6kimM
+  - type: COURSE
+    title: "Curso Engenharia de dados: conhecendo Apache Airflow"
+    link: https://cursos.alura.com.br/course/engenharia-dados-apache-airflow
+  - type: COURSE
+    title: "Curso Apache Beam: Data Pipeline com Python"
+    link: https://cursos.alura.com.br/course/apache-beam-data-pipeline-python
+  - type: COURSE
+    title: "Curso Engenharia de Dados: organizando dados na AWS"
+    link: https://cursos.alura.com.br/course/engenharia-dados-organizando-dados-aws
+  - type: COURSE
+    title: "Curso Spark: apresentando a ferramenta"
+    link: https://cursos.alura.com.br/course/spark-apresentando-ferramenta
+  - type: COURSE
+    title: "Curso Spark: streaming de dados"
+    link: https://cursos.alura.com.br/course/spark-streaming-dados

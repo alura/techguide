@@ -1,0 +1,30 @@
+name: React Router
+logo: 
+short-description:
+key-objectives:
+  - Manipulación de la navegación entre interfaces y componentes
+aditional-objectives:
+  - React Router enables "client side routing".
+contents:
+  - type: SITE
+    title: "W3Schools: React Router"
+    link: https://www.w3schools.com/react/react_router.asp  
+  - type: SITE
+    title: "División de código basada en rutas"
+    link: https://reactjs.org/docs/code-splitting.html#route-based-code-splitting
+  - type: SITE
+    title: "React Router: Documentación"
+    link: https://reactrouter.com/en/main/start/overview
+  - type: ARTICLE
+    title: "Enrutando Nuesas vistas con React Router"
+    link: https://4geeks.com/es/lesson/routing-our-views-with-react-router-es
+  - type: YOUTUBE
+    title: "Cómo usar React Router"
+    link: https://www.youtube.com/watch?v=afDXVnDnBf4
+  - type: YOUTUBE
+    title: "Rutas con Parámetros consumiendo una API"
+    link: https://www.youtube.com/watch?v=Q9YClZMj9-M
+alura-contents:
+  - type: COURSE 
+    title: "React Router: Navegación en una SPA"
+    link: https://aluracursos.com/course/react-router-navegacion-spa

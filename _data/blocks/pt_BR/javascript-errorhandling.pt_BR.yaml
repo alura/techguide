@@ -1,0 +1,26 @@
+name: JavaScript - Manipulação de Erros
+logo: 
+short-description:
+key-objectives:
+  - O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.
+  - Conhecer e tratar as exceções mais comuns
+  - Saber quais os tipos de erros e em quais situações eles podem ocorrer
+  - Entender como o Node.js faz o manejo de erros
+  - Usar 'try' e 'catch' para tratamento de erros
+  - Em que ocasiões e de que forma utilizar o `throw`
+  - Criar exceções específicas de acordo com a necessidade de sua aplicação
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Controle de Fluxo e Manipulação de Erro"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#declara%C3%A7%C3%B5es_de_manipula%C3%A7%C3%A3o_de_error
+  - type: SITE
+    title: "Microsoft TechNet: JavaScript: Tratamento de erros"
+    link: https://social.technet.microsoft.com/wiki/pt-br/contents/articles/32455.javascript-tratamento-de-erros.aspx
+  - type: ARTICLE
+    title: "Exceções e Erros em JavaScript"
+    link: http://gabrielprates.com/2017/06/02/excecoes-e-erros-em-js.html
+alura-contents:
+  - type: COURSE
+    title: "Curso Node.js: Criando sua biblioteca"
+    link: https://cursos.alura.com.br/course/nodejs-criando-biblioteca

@@ -1,0 +1,52 @@
+name: Java - Persistência
+logo: 
+short-description:
+key-objectives:
+  - O conceito de "persistência de dados" refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.
+  - Entender sobre JDBC e JPA
+  - Usar frameworks como Spring Data e Hibernate
+  - Comunicar-se com um banco de dados relacional
+  - Entender a diferença entre relacionamentos EAGER e LAZY
+  - Planejar queries com join fetch 
+  - Encapsular o acesso em um DAO
+  - Entender como a memória funciona nessa situação
+aditional-objectives:
+  - Realizar consultas via JPQL
+contents:
+  - type: SITE
+    title: "IBM Docs: API de Persistência Java (JPA)"
+    link: https://www.ibm.com/docs/pt-br/was-liberty/zos?topic=overview-java-persistence-api-jpa
+  - type: ARTICLE
+    title: "Do JDBC ao Spring Data (ou: é possível reduzir código?)"
+    link: https://dev.to/rodrigovp/do-jdbc-ao-spring-data-ou-e-possivel-reduzir-codigo-361f
+  - type: YOUTUBE
+    title: "Rafael Mesquita: Persistência de Dados - Java JDBC"
+    link: https://www.youtube.com/watch?v=D-By3tUHcys
+  - type: YOUTUBE
+    title: "Rafael Mesquita: Persistência de Dados - Java JDBC Códigos"
+    link: https://www.youtube.com/watch?v=cjFSgYv4RjI
+  - type: YOUTUBE
+    title: "Michelli Brito: JPA - Java Persistence API"
+    link: https://www.youtube.com/watch?v=yvXCxWkLpfA
+  - type: YOUTUBE
+    title: "Michelli Brito: JPA e Hibernate - configurando a transação manualmente"
+    link: https://www.youtube.com/watch?v=TQQki9yQaLg
+alura-contents:
+  - type: SITE
+    title: "Apostila Java para Desenvolvimento Web: Bancos de Dados e JDBC"
+    link: https://www.alura.com.br/apostila-java-web/bancos-de-dados-e-jdbc
+  - type: YOUTUBE
+    title: "Alura: Curso de Java e JDBC - Aula 1"
+    link: https://www.youtube.com/watch?v=P-psR8L9zUI
+  - type: SITE
+    title: "Primeiras aulas do curso Java e JDBC: trabalhando com um banco de dados"
+    link: https://www.alura.com.br/conteudo/jdbc-dao-persistencia
+  - type: COURSE
+    title: "Curso Java e JDBC: trabalhando com um banco de dados"
+    link: https://cursos.alura.com.br/course/jdbc-dao-persistencia
+  - type: COURSE
+    title: "Curso Java e JPA: consultas avançadas, performance e modelos complexos"
+    link: https://cursos.alura.com.br/course/java-jpa-consultas-avancadas-performance-modelos-complexos
+  - type: COURSE
+    title: "Curso Persistência com JPA: Hibernate"
+    link: https://cursos.alura.com.br/course/persistencia-jpa-introducao-hibernate

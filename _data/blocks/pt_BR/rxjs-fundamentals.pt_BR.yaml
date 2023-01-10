@@ -1,0 +1,36 @@
+name: RxJS - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - A RxJS é uma biblioteca para a composição de programas assíncronos e baseados em eventos, utilizando sequências observáveis. Ela fornece o tipo núcleo, o Observable, tipos satélite (Observer, Schedulers, Subjects) e operadores inspirados nos métodos Array (map, filter, reduce, every, etc.) para permitir a manipulação de eventos assíncronos como coleções.
+  - Criar programas assíncronos
+  - Criar programas baseados em eventos
+  - Entender o conceito de observables e sequências de observables
+  - Entender como usar Observers, Subscription, Subject
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação RxJS (inglês)"
+    link: https://rxjs.dev/guide/overview
+  - type: ARTICLE
+    title: "O que é RxJS?"
+    link: https://blog.flavioflima.com/2018/08/o-que-e-rxjs.html
+  - type: ARTICLE
+    title: "RxJS – Entendendo o conceito na prática"
+    link: https://bognarjunior.wordpress.com/2018/10/07/rxjs-entendendo-o-conceito-na-pratica/
+  - type: YOUTUBE
+    title: "Paulo Eduardo Melo: Observable"
+    link: https://www.youtube.com/watch?v=3n-WCiSxu2k
+  - type: YOUTUBE
+    title: "Paulo Eduardo Melo: Observable a fundo"
+    link: https://www.youtube.com/watch?v=dm_9xWPxLUg
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Programação Reativa - Alura Live 54"
+    link: https://www.youtube.com/watch?v=N0ie4xe48Ng
+  - type: SITE
+    title: "Primeiras aulas do curso Angular e RxJS: programação reativa"
+    link: https://www.alura.com.br/conteudo/angular-rxjs-introducao-programacao-reativa
+  - type: COURSE
+    title: "Curso Angular e RxJS: programação reativa"
+    link: https://www.alura.com.br/curso-online-angular-rxjs-introducao-programacao-reativa

@@ -1,0 +1,36 @@
+name: TypeScript - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - TypeScript is a strongly typed programming language that builds on JavaScript.
+  - Understanding in depth what types are and the importance of typed programming
+  - Learning what TypeScript is, why it was created, how it works and its relationship with JavaScript
+  - Knowing the TypeScript tools (integration with the code editor, static checker and compiler)
+  - Writing code in TypeScript using its tools (interfaces, enum, decorators, etc.)
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: TypeScript Introduction"
+    link: https://www.w3schools.com/typescript/typescript_intro.php
+  - type: SITE
+    title: "TypeScript Documentation"
+    link: https://www.typescriptlang.org/docs/
+  - type: SITE
+    title: "Documentação: TypeScript for the New Programmer"
+    link: https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html
+  - type: SITE
+    title: "TypeScript - Understanding TypeScript"
+    link: https://learn.microsoft.com/en-us/archive/msdn-magazine/2015/january/typescript-understanding-typescript
+  - type: ARTICLE
+    title: "W3Schools: Differences Between JavaScript And TypeScript"
+    link: https://www.w3schools.blog/differences-between-javascript-and-typescript
+  - type: ARTICLE
+    title: "W3Schools: TypeScript Tutorial: A step-by-step guide to learn TypeScript"
+    link: https://learningdaily.dev/typescript-tutorial-a-step-by-step-guide-to-learn-typescript-70f96b7ae7c8
+  - type: YOUTUBE
+    title: "Programming with Mosh: TypeScript Tutorial for Beginners"
+    link: https://www.youtube.com/watch?v=d56mG7DezGs
+  - type: YOUTUBE
+    title: "Academind: TypeScript Course for Beginners - Learn TypeScript from Scratch"
+    link: https://www.youtube.com/watch?v=BwuLxPH8IDs
+alura-contents:

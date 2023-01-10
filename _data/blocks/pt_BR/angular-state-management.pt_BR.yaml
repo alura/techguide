@@ -1,0 +1,32 @@
+name: Angular - Gerenciamento de Estado
+logo: 
+short-description:
+key-objectives:
+  - Um 'estado' (state) é qualquer dado necessário para reconstruir UI (Interface de Usuário) qualquer momento. A alteração desses dados desencadeará um redesenho da interface do usuário. O gerenciamento do estado é o conceito de adicionar, atualizar, remover e ler esses dedos e seus 'estados' em uma aplicação.
+  - Atualizar componentes em tempo real
+  - Esperar por alterações em algum componente e executar alterações
+  - Usar Redux, NGXS e outros
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Pensando Reativamente - Teoria e Prática com Angular e RxJS"
+    link: https://medium.com/@richardleecba/pensando-reativamente-91361cfdccc5
+  - type: ARTICLE
+    title: "Gerenciamento de estado com Redux"
+    link: https://medium.com/@marcossantosdev/gerenciamento-de-estado-com-redux-d048c0c9d0ad
+  - type: ARTICLE
+    title: "Como Estruturar o seu Front-End com Angular"
+    link: https://ricardo-mello.medium.com/como-estruturar-o-seu-front-end-com-angular-7fd0e7ef31a2
+  - type: ARTICLE
+    title: "Padrões e Boas Práticas em Angular"
+    link: https://andrewrosario.medium.com/padr%C3%B5es-e-boas-pr%C3%A1ticas-em-angular-que-te-ajudar%C3%A3o-a-escalar-5001e544e7de
+  - type: YOUTUBE
+    title: "GDG Maringá: Gerenciamento de estado no Angular com NgRx e programação reativa"
+    link: https://www.youtube.com/watch?v=9taz2c-l2Yk
+  - type: YOUTUBE
+    title: "Matheus Castiglioni: Angular - Gerenciando estado com NGRX"
+    link: https://www.youtube.com/watch?v=BobNwRgz6Uw
+alura-contents:
+  - type: COURSE
+    title: "Curso Angular: design de componentes com acessibilidade"
+    link: https://www.alura.com.br/curso-online-angular-introducao-componentes-acessibilidade

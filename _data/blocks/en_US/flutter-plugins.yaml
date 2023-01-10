@@ -1,0 +1,28 @@
+name: Flutter - Packages and Plugins
+logo: 
+short-description:
+key-objectives:
+  - Learning how to develop plugins for Flutter
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Flutter: Packages versus Plugins?"
+    link: https://youtu.be/Y9WifT8aN6o
+  - type: YOUTUBE
+    title: "Lara Martín: Flutter Plugin Development"
+    link: https://youtu.be/PLPhmsDovwQ
+  - type: SITE
+    title: "Developing packages & plugins"
+    link: https://docs.flutter.dev/development/packages-and-plugins/developing-packages
+  - type: SITE
+    title: "Federated plugins"
+    link: https://docs.flutter.dev/development/packages-and-plugins/developing-packages#federated-plugins
+  - type: ARTICLE
+    title: "Writing a good Flutter plugin"
+    link: https://medium.com/flutter/writing-a-good-flutter-plugin-1a561b986c9c
+  - type: SITE
+    title: "Contributing to Flutter"
+    link: https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md
+alura-contents:
+
+  

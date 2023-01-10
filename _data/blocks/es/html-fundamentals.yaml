@@ -1,0 +1,82 @@
+name: HTML - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - HTML es un lenguaje de marcado que define la estructura de su contenido. HTML consta de una serie de elementos que se utilizan para que se vea o actúe de cierta manera. Las etiquetas de archivos adjuntos pueden vincular una palabra o imagen a otro lugar, pueden poner palabras en cursiva, pueden hacer que la fuente sea más grande o más pequeña, etc.
+  - Aprender qué etiquetas son necesarias para HTML básico
+  - Crear de un párrafo de texto
+  - Mostrar una imagen
+  - Conocer la diferencia entre 'h1', 'h2', 'h3', etc.
+  - Crear de un texto con hipervínculo
+  - Crear un formulario con campos relevantes
+  - Crear de una lista ordenada o desordenada de elementos
+  - Crear de una lista de elementos en una lista desplegable
+  - Vincular a un archivo CSS
+  - Crear una tabla
+  - Adicionar ID y clases
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "HTML: Linguagem de etiquetas de hipertexto"
+    link: https://developer.mozilla.org/es/docs/Web/HTML
+  - type: SITE
+    title: "W3Schools: Formato de texto HTML"
+    link: https://www.w3schools.com/html/html_formatting.asp
+  - type: SITE
+    title: "W3Schools: Bloque HTML y elementos en línea"
+    link: https://www.w3schools.com/html/html_blocks.asp
+  - type: SITE
+    title: "W3Schools: Elementos y técnicas de diseño HTML"
+    link: https://www.w3schools.com/html/html_layout.asp
+  - type: SITE
+    title: "W3Schools: Listas HTML"
+    link: https://www.w3schools.com/html/html_lists.asp
+  - type: SITE
+    title: "W3Schools: Tablas HTML"
+    link: https://www.w3schools.com/html/html_tables.asp
+  - type: SITE
+    title: "W3Schools: Formularios HTML"
+    link: https://www.w3schools.com/html/html_forms.asp
+  - type: SITE
+    title: "MDN Web Docs: Conceptos básicos de HTML"
+    link: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+  - type: ARTICLE
+    title: "La semántica en HTML5"
+    link: https://www.aluracursos.com/blog/la-semantica-en-html5
+  - type: ARTICLE
+    title: "HTML, CSS y Javascript, ¿cuáles son las diferencias?"
+    link: https://www.aluracursos.com/blog/html-css-javascript-cuales-son-las-diferencias
+  - type: ARTICLE
+    title: "Formulario con form validation de HTML5"
+    link: https://www.aluracursos.com/blog/formulario-con-form-validation-de-html5
+  - type: ARTICLE
+    title: "Empezando con el desarrollo web Front-end"
+    link: https://www.aluracursos.com/blog/empezando-con-el-desarrollo-front-end
+  - type: ARTICLE
+    title: "Desde cero hasta programador front-end"
+    link: https://www.aluracursos.com/blog/desde-cero-hasta-programador-front-end
+  - type: ARTICLE
+    title: "VisualStudio Code: instalación, teclas de acceso directo, plugins e integraciones"
+    link: https://www.aluracursos.com/blog/visualstudio-code-instalacion-teclas-de-acceso-directo-plugins-e-integraciones
+  - type: ARTICLE
+    title: "Llenando un formulario HTML automáticamente con AJAX"
+    link: https://www.aluracursos.com/blog/llenando-un-formulario-html-automaticamente-con-ajax
+  - type: ARTICLE
+    title: "Vinculando elementos con HTML5"
+    link: https://www.aluracursos.com/blog/vinculando-elementos-con-html5
+  - type: ARTICLE
+    title: "Por una web más rápida: 26 técnicas de optimización de Sitios Web"
+    link: https://www.aluracursos.com/blog/por-una-web-mas-rapida-26-tecnias-de-optimizacion-de-paginas-web
+  - type: YOUTUBE
+    title: "¿Qué es HTML? - 10 cosas que debes saber"
+    link: https://www.youtube.com/watch?v=tPzq8IufGxE
+  - type: YOUTUBE
+    title: "Aprende HTML en 15 Minutos"
+    link: https://www.youtube.com/watch?v=mNbnV3aN3KA
+  - type: YOUTUBE
+    title: "HTML - Ejemplos Prácticos básicos"
+    link: https://www.youtube.com/watch?v=NMh94GBeCCQ
+alura-contents:
+  - type: COURSE
+    title: "HTML & CSS: Crea páginas increíbles con tecnologías web"
+    link: https://app.aluracursos.com/formacion-html-css

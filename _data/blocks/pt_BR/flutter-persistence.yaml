@@ -1,0 +1,36 @@
+name: Flutter - Persistência de Dados
+logo: 
+short-description:
+key-objectives:
+  - O conceito de "persistência de dados" refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.
+  - Saber a armazenar dados usando o SharedPreferences
+  - Aprender a usar o SQLite no Flutter
+  - Aprender como persistir dados com Leitura e Escrita de arquivos
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Persistência com SQLite - Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/persistence/sqlite
+  - type: SITE
+    title: "Persistência com SharedPreferences - Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/persistence/key-value
+  - type: SITE
+    title: "Persistência com Arquivos - Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/persistence/reading-writing-files
+  - type: SITE
+    title: "SQL: O que é e como usar os principais comandos básicos SQL"
+    link: https://blog.betrybe.com/sql/
+  - type: ARTICLE
+    title: "SQLite: Principais comandos, dicas, como instalar… (Parte 1)"
+    link: https://medium.com/@mattvianna/sqlite-principais-comandos-dicas-como-instalar-parte-1-bb94e0134935
+  - type: YOUTUBE
+    title: "Código Fonte TV: SQLite (O Banco de Dados de Bolso) // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=xOODmm-NdUc&ab_channel=C%C3%B3digoFonteTV
+alura-contents:
+  - type: ARTICLE
+    title: "SQLite: da instalação até sua primeira tabela"
+    link: https://www.alura.com.br/artigos/sqlite-da-instalacao-ate-primeira-tabela
+  - type: COURSE
+    title: "Flutter: aplicando persistência de dados"
+    link: https://cursos.alura.com.br/course/flutter-aplicando-persistencia-dados
+    

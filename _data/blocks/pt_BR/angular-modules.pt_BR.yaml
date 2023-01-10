@@ -1,0 +1,40 @@
+name: Angular - Módulos
+logo: 
+short-description:
+key-objectives:
+  - Um módulo (Module), diferentemente de um componente, não controla nenhuma view. Um módulo é constituído de um ou mais componentes. Uma aplicação Angular tem que ter no mínimo um módulo que contenha mínimo um componente (Component).
+  - Como usar a classe ngModule
+  - Declarar quais componentes podem ser usados por componentes de outros módulos
+  - Declarar quais services serão injetados
+  - Aprender a modularizar uma aplicação
+  - Carregar módulos como Lazy
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Qual a diferença entre Module e Component no Angular?"
+    link: https://fabiodemiranda.com.br/diferenca-module-component-angular-curtinha-angular/
+  - type: ARTICLE
+    title: "Angular: Core vs Shared Modules"
+    link: https://medium.com/lfdev-blog/angular-core-vs-shared-modules-c6efb13fa1f1
+  - type: ARTICLE
+    title: "Angular - Módulos Lazy Loading"
+    link: https://medium.com/@iagomachado/angular-cap-ii-angular-lazy-loading-modules-88c175b81503
+  - type: YOUTUBE
+    title: "Loiane Groner: Módulos (ngModule)"
+    link: https://www.youtube.com/watch?v=36kd3uR-hG8
+  - type: YOUTUBE
+    title: "Loiane Groner: Criando um módulo de funcionalidade"
+    link: https://www.youtube.com/watch?v=P4GYpzNNEw4
+  - type: YOUTUBE
+    title: "Loiane Groner: Forms (template driven) Módulos e FormsModule"
+    link: https://www.youtube.com/watch?v=9z47wkaaqmc
+  - type: YOUTUBE
+    title: "Loiane Groner: Formulários reativos: Configuração (Módulo e Componente)"
+    link: https://www.youtube.com/watch?v=2DoQX5CVvAk
+alura-contents:
+  - type: SITE
+    title: "Primeiras aulas do curso Angular: boas práticas em arquiteturas e formulários"
+    link: https://www.alura.com.br/conteudo/angular-boas-praticas-arquiteturas-formularios
+  - type: COURSE
+    title: "Curso Angular: boas práticas em arquiteturas e formulários"
+    link: https://www.alura.com.br/curso-online-angular-boas-praticas-arquiteturas-formularios

@@ -1,0 +1,63 @@
+name: Deep Learning
+logo: 
+short-description:
+key-objectives:
+  - Deep Learning é um ramo de Machine Learning baseado em um conjunto de algoritmos que tentam modelar abstrações de alto nível de dados usando um grafo profundo com várias camadas de processamento, compostas de várias transformações lineares e não lineares.
+  - Construir e treinar modelos com Keras
+  - Construir e treinar modelos com Tensorflow
+  - Selecionar as camadas de um modelo
+  - Classificar imagens
+  - Entender os conceitos de pesos e vieses
+  - Redes neurais para regressão
+  - Entender o conceito de Redes recorrentes
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "IBM: Deep learning"
+    link: https://www.ibm.com/br-pt/cloud/deep-learning
+  - type: SITE
+    title: "Oracle: O que é aprendizado profundo?"
+    link: https://www.oracle.com/br/artificial-intelligence/machine-learning/what-is-deep-learning/
+  - type: ARTICLE
+    title: "Diferença entre Aprendizado de Máquina (Machine Learning) & Aprendizagem Profunda (Deep Learning)"
+    link: https://medium.com/@gabi.viana11/diferen%C3%A7a-entre-aprendizado-de-m%C3%A1quina-machine-learning-aprendizagem-profunda-deep-learning-3035e95ba1d1
+  - type: ARTICLE
+    title: "Qual a diferença entre Inteligência Artificial, Machine Learning e Deep Learning?"
+    link: https://medium.com/@sergio_henr_/qual-a-diferen%C3%A7a-entre-intelig%C3%AAncia-artificial-machine-learning-e-deep-learning-c33d8910bf31
+  - type: YOUTUBE
+    title: "Guiminam: Aplicações de Deep Learning a Genética"
+    link: https://www.youtube.com/watch?v=GiL6RnXLjvI
+  - type: YOUTUBE
+    title: "Ciência Todo Dia: Deep Learning explicado"
+    link: https://www.youtube.com/watch?v=ggmDI9_fm54
+  - type: YOUTUBE
+    title: "Argonalyst: O que é Deep Learning?"
+    link: https://www.youtube.com/watch?v=R-63YMTnuZw
+alura-contents:
+  - type: ARTICLE
+    title: "Deep Learning e Deep Fake"
+    link: https://www.alura.com.br/artigos/deep-learning-deep-fake
+  - type: ARTICLE
+    title: "Principais frameworks de deep learning em 2021"
+    link: https://www.alura.com.br/artigos/principais-frameworks-de-deep-learning-em-2021
+  - type: PODCAST
+    title: "Hipsters.tech: Tensorflow - Hipsters 201"
+    link: https://www.alura.com.br/podcast/hipsterstech-tensorflow-hipsters-201-a353
+  - type: YOUTUBE
+    title: "Alura: O que é Deep Learning?"
+    link: https://www.youtube.com/watch?v=kryIBKPVZ7A
+  - type: YOUTUBE
+    title: "Alura: Deep Learning com Pytorch"
+    link: https://www.youtube.com/watch?v=UGJ-wdrOyzg
+  - type: COURSE
+    title: "Curso de Keras: primeiros passos em redes neurais"
+    link: https://cursos.alura.com.br/course/keras-primeiros-passos-redes-neurais
+  - type: COURSE
+    title: "Curso Deep Learning parte 1: Keras"
+    link: https://cursos.alura.com.br/course/deep-learning-introducao-com-keras
+  - type: COURSE
+    title: "Curso Deep Learning parte 2: como a rede aprende"
+    link: https://cursos.alura.com.br/course/deep-learning-como-a-rede-aprende
+  - type: COURSE
+    title: "Curso Deep Learning: previsão com Keras"
+    link: https://cursos.alura.com.br/course/deep-learning-previsao-keras

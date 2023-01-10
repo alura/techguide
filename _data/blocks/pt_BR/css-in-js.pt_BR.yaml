@@ -1,0 +1,44 @@
+name: CSS-in-JS
+logo: 
+short-description:
+key-objectives:
+  - CSS-in-JS refere-se a um padrão onde o CSS é composto usando JavaScript em vez de ser definido em arquivos externos.
+  - Lidar com código CSS usando JavaScript
+  - Utilizar styled-components
+  - Conhecer Styled-JSX
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "React: Documentação - Estilização e CSS"
+    link: https://pt-br.reactjs.org/docs/faq-styling.html
+  - type: SITE
+    title: "Microsoft Docs: Edição de estilo das estruturas CSS-in-JS"
+    link: https://docs.microsoft.com/pt-br/microsoft-edge/devtools-guide-chromium/css/css-in-js
+  - type: SITE
+    title: "Chrome Developers: CSS-in-JS support in DevTools (inglês)"
+    link: https://developer.chrome.com/blog/css-in-js/
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Os poderes do CSS in JS"
+    link: https://www.youtube.com/watch?v=QdfjWRc4ySA
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: CSS-in-JS na prática! Criando componentes com React e CSS no NextJS"
+    link: https://www.youtube.com/watch?v=aDKxJfJiM28
+  - type: ARTICLE
+    title: "A Thorough Analysis of CSS-in-JS (inglês)"
+    link: https://css-tricks.com/a-thorough-analysis-of-css-in-js/
+alura-contents:
+  - type: ARTICLE
+    title: "CSS com NextJS"
+    link: https://www.alura.com.br/artigos/css-com-next-js
+  - type: COURSE
+    title: "Imersão React: AluraCord - Aula 01"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68
+  - type: SITE
+    title: "Primeiras aulas do curso React: abstraindo seu CSS com Styled Components"
+    link: https://www.alura.com.br/conteudo/react-styled-components
+  - type: COURSE
+    title: "Curso React: abstraindo seu CSS com Styled Components"
+    link: https://www.alura.com.br/curso-online-react-styled-components
+  - type: COURSE
+    title: "Curso React: escrevendo com Typescript"
+    link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript

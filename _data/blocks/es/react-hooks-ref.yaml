@@ -1,0 +1,25 @@
+name: React Hooks - Ref.
+logo: 
+short-description:
+key-objectives:
+- El Hook `useRef` te permite persistir valores entre renderizaciones.
+- Almacenar un valor mutable que no provoca una nueva representación cuando se actualiza
+- Acceder a un elemento DOM directamente
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: React useRef Hook"
+    link: https://www.w3schools.com/react/react_useref.asp
+  - type: SITE
+    title: "React: Documentation - useRef"
+    link: https://reactjs.org/docs/hooks-reference.html#useref
+  - type: ARTICLE
+    title: "La guía completa de useRef() y Refs en React"
+    link: https://dmitripavlutin.coum/react-useref-guide/
+  - type: ARTICLE
+    title: "¿Cómo funciona el hook useRef en React?"
+    link: https://dev.to/duxtech/como-rayos-funciona-el-hook-useref-en-react-2lah
+  - type: YOUTUBE
+    title: "React UseRef, cómo emplear este hook en React?"
+    link: https://www.youtube.com/watch?v=4K4yaFGcoFE
+alura-contents:

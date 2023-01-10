@@ -3,6 +3,7 @@ import BaseComponent from "@src/theme/BaseComponent";
 import { StyleSheet } from "@skynexui/responsive_stylesheet";
 
 interface BoxProps {
+  id?: string;
   tag?: "main" | "div" | "article" | "section" | "ul" | string;
   children?: React.ReactNode;
   className?: string;
@@ -11,6 +12,8 @@ interface BoxProps {
   xmlns?: string;
   // eslint-disable-next-line no-unused-vars
   onClick?: (event: any) => void;
+  // eslint-disable-next-line no-unused-vars
+  onFocus?: (event: any) => void;
 }
 const Box = React.forwardRef(
   ({ styleSheet, children, tag, ...props }: BoxProps, ref) => {

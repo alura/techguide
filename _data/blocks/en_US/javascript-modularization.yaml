@@ -1,0 +1,31 @@
+name: JavaScript - Modularization
+logo: 
+short-description:
+key-objectives:
+  - JavaScript modules allow you to break up your code into separate files, which makes it easier to maintain the code-base.
+  - Isolating parts of code in modules
+  - Using import and export
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: JavaScript Modules"
+    link: https://www.w3schools.com/js/js_modules.asp
+  - type: SITE
+    title: "MDN Web Docs: JavaScript modules"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+  - type: ARTICLE
+    title: "Basics of Modular JavaScript"
+    link: https://medium.com/@crohacz_86666/basics-of-modular-javascript-2395c82dd93a
+  - type: ARTICLE
+    title: "How to Modularize Javascript Code"
+    link: https://codesource.io/how-to-modularize-javascript-code/
+  - type: ARTICLE
+    title: "Everything I know about writing modular JavaScript applications"
+    link: https://medium.com/dev-bits/everything-i-know-about-writing-modular-javascript-applications-37c125d8eddf
+  - type: YOUTUBE
+    title: "LearnCode.academy: Modular Javascript - Javascript Tutorial on the Object Literal Pattern"
+    link: https://www.youtube.com/watch?v=HkFlM73G-hk&list=PLoYCgNOIyGABs-wDaaxChu82q_xQgUb4f
+  - type: YOUTUBE
+    title: "Web Dev Simplified: JavaScript ES6 Modules"
+    link: https://www.youtube.com/watch?v=cRHQNNcYf6s
+alura-contents:

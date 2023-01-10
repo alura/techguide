@@ -1,0 +1,53 @@
+name: Arquitetura de Microsserviços
+logo: 
+short-description:
+key-objectives:
+  - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
+  - Aprender o conceito de arquitetura planejada para microsserviços
+  - Realizar a comunicação usando APIs
+  - Melhorar a escalabilidade de um sistema
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Google Cloud: O que é a arquitetura de microsserviços?"
+    link: https://cloud.google.com/learn/what-is-microservices-architecture?hl=pt-br
+  - type: ARTICLE
+    title: "Amazon: O que são microsserviços?"
+    link: https://aws.amazon.com/pt/microservices/
+  - type: YOUTUBE
+    title: "Otavio Lemos: Microsserviços | O mínimo que você precisa saber"
+    link: https://www.youtube.com/watch?v=eN8dFfTrEtQ
+  - type: YOUTUBE
+    title: "Douglas Mugnos: O que é arquitetura de microsserviços? Como ela funciona?"
+    link: https://www.youtube.com/watch?v=_Oyy5PFOIcU
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: O que são Microsserviços?"
+    link: https://www.youtube.com/watch?v=jSnLOoGjQ80
+  - type: YOUTUBE
+    title: "Alura: Fundamentos de Microsserviços"
+    link: https://www.youtube.com/watch?v=KMzE6y8ACnU
+  - type: PODCAST
+    title: "Hipsters.tech: Microserviços - Hipsters 17"
+    link: https://www.alura.com.br/podcast/microservicos-hipsters-17-a569
+  - type: PODCAST
+    title: "Hipsters.tech: Microsserviços na Caelum - Hipsters On The Road 6"
+    link: https://www.alura.com.br/podcast/microsservicos-na-caelum-hipsters-on-the-road-6-a436
+  - type: PODCAST
+    title: "Hipsters.tech: Microsserviços autônomos na Usabilla - Hipsters On The Road 10"
+    link: https://www.alura.com.br/podcast/microsservicos-autonomos-na-usabilla-hipsters-on-the-road-10-a424
+  - type: SITE
+    title: "Alura+: O que são Microsserviços?"
+    link: https://cursos.alura.com.br/extra/alura-mais/o-que-sao-microsservicos--c699
+  - type: SITE
+    title: "Alura+: Tipos de Microservices"
+    link: https://cursos.alura.com.br/extra/alura-mais/tipos-de-microservices-c698
+  - type: COURSE
+    title: "Curso Microsserviços: padrões de projeto"
+    link: https://cursos.alura.com.br/course/microsservicos-padroes-projeto
+  - type: COURSE
+    title: "Curso Microsserviços: explorando os conceitos"
+    link: https://cursos.alura.com.br/course/fundamentos-microsservicos-aprofundando-conceitos
+  - type: COURSE
+    title: "Curso Microsserviços na prática: entendendo a tomada de decisões"
+    link: https://cursos.alura.com.br/course/Microsservicos-pratica-tomada-decisoes

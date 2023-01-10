@@ -1,0 +1,31 @@
+name: YARN
+logo: 
+short-description:
+key-objectives:
+  - Yarn is a package manager for your code. It allows you to use and share code with other developers. Code is shared through something called a package (sometimes referred to as a module). A package contains all the code being shared as well as a package.json file which describes the package.
+  - Managing packages
+  - Managing dependencies
+  - Installing packages offline
+  - Commands
+  - The yarn.lock file
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "YARN: Documentation"
+    link: https://classic.yarnpkg.com/en/docs
+  - type: ARTICLE
+    title: "NPM vs Yarn Cheat Sheet"
+    link: https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc
+  - type: ARTICLE
+    title: "What are NPM, Yarn, Babel, and Webpack; and how to properly use them?"
+    link: https://medium.com/front-end-weekly/what-are-npm-yarn-babel-and-webpack-and-how-to-properly-use-them-d835a758f987
+  - type: ARTICLE
+    title: "npm vs Yarn — Choosing the right package manager"
+    link: https://javascript.plainenglish.io/npm-vs-yarn-choosing-the-right-package-manager-a5f04256a93f
+  - type: YOUTUBE
+    title: "Traversy Media: Yarn Package Manager Crash Course"
+    link: https://www.youtube.com/watch?v=g9_6KmiBISk
+  - type: YOUTUBE
+    title: "Clever Programmer: NPM vs Yarn - Which is the best Package Manager?"
+    link: https://www.youtube.com/watch?v=0DGClZD5LEM
+alura-contents:

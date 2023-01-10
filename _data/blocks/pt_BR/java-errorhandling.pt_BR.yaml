@@ -1,0 +1,39 @@
+name: Java - Manipulação de Erros
+logo: 
+short-description:
+key-objectives:
+  - O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.
+  - Tratar exceções pré-definidas
+  - Uso de 'try' e 'catch'
+  - Criar exceções específicas
+  - Fazer o processo de Debug
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Wikibooks: Java - Exceções"
+    link: https://pt.wikibooks.org/wiki/Java/Exce%C3%A7%C3%B5es
+  - type: ARTICLE
+    title: "Exceções em Java: Uma Primeira Conversa"
+    link: https://www.linkedin.com/pulse/exce%C3%A7%C3%B5es-em-java-uma-primeira-conversa-vanessa/?originalSubdomain=pt
+  - type: YOUTUBE
+    title: "Loiane Groner: Exceptions: try, catch"
+    link: https://www.youtube.com/watch?v=ld2C4GcAtsg
+alura-contents:
+  - type: ARTICLE
+    title: "Evite o NullPointerException no Java"
+    link: https://www.alura.com.br/artigos/evite-o-nullpointerexception-no-java
+  - type: ARTICLE
+    title: "Be the exception! Dicas para dominar exceções em seus códigos Java"
+    link: https://dev.to/dearrudam/be-the-exception-dicas-para-dominar-excecoes-em-seus-codigos-java-4nlo
+  - type: SITE
+    title: "Java Exceções e Controle de Erros"
+    link: https://www.alura.com.br/apostila-java-orientacao-objetos/excecoes-e-controle-de-erros
+  - type: SITE
+    title: "Primeiras aulas do curso Java Exceções: aprenda a criar, lançar e controlar exceções"
+    link: https://www.alura.com.br/conteudo/java-excecoes
+  - type: COURSE
+    title: "Curso Java Exceções: aprenda a criar, lançar e controlar exceções"
+    link: https://cursos.alura.com.br/course/java-excecoes
+  - type: COURSE
+    title: "Curso Java Debug: técnicas para entender e melhorar o seu código"
+    link: https://www.alura.com.br/curso-online-java-debug

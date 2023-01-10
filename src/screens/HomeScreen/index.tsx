@@ -1,7 +1,7 @@
 import React from "react";
 import { HomeGetAllGuidesQuery } from "@src/gql_types";
 import { pageHOC } from "@src/wrappers/pageHOC";
-import GuidesGrid from "../../patterns/ScreenHeroContainer/patterns/GuidesGrid";
+import GuidesGrid from "./patterns/GuidesGrid";
 import ScreenHeroContainer from "@src/patterns/ScreenHeroContainer";
 
 interface HomeScreenProps {

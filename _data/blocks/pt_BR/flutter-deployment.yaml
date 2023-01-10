@@ -1,0 +1,50 @@
+name: Flutter - Implantação (Deployment)
+logo: 
+short-description:
+key-objectives:
+  - Implantação é a fase do ciclo de vida de um software (programa computacional, documentação e dados), no contexto de um Sistema de Informação, que corresponde textualmente à passagem do software para a produção.
+  - Conhecer as técnicas de ofuscação de código Dart
+  - Conhecer e saber implantar aplicativos Flutter em várias plataformas
+  - Entendendo Flavors em Flutter
+  - Conhecer Entrega Contínua em Flutter
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Ofuscando Código Dart | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/deployment/obfuscate
+  - type: SITE
+    title: "Implantando para Android e lançando na PlayStore | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/deployment/android
+  - type: SITE
+    title: "Implantando para iOS e lançando na AppStore | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/deployment/ios
+  - type: SITE
+    title: "Implantando para macOS e lançando na AppStore | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/deployment/macos
+  - type: SITE
+    title: "Implantando para Linux e lançando na SnapStore | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/deployment/linux
+  - type: SITE
+    title: "Implantando para Windows | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/deployment/windows
+  - type: SITE
+    title: "Implantando para Web | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/deployment/web
+  - type: SITE
+    title: "Criando Flavors para Flutter | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/deployment/flavors
+  - type: SITE
+    title: "Entrega Contínua com Flutter | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/deployment/cd
+  - type: YOUTUBE
+    title: "MJSD Coding: Build and Release Flutter App to App Store 2022 (inglês)"
+    link: https://youtu.be/akFF1uJWZck
+  - type: YOUTUBE
+    title: "penseapp: Como fazer o deploy do seu aplicativo flutter na Playstore!"
+    link: https://youtu.be/PM-wILFbPbg
+  - type: ARTICLE
+    title: "Publicando App Flutter na PlayStore (inglês)"
+    link: https://medium.flutterdevs.com/publishing-flutter-app-to-playstore-fa7543b61a7b
+alura-contents:
+
+  

@@ -41,10 +41,58 @@
   "PATH.T_BLOCK_SUGGESTED_CONTENT.CONTENT.BG": "#d4d4d4",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.CONTENT.COLOR": "#494848",
 
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.ALURAPLUS.LABEL": "Alura+",
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.ALURAPLUS.BG": "#d4d4d4",
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.ALURAPLUS.COLOR": "#494848",
+
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.CHALLENGE.LABEL": "Desafio",
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.CHALLENGE.BG": "#162639",
+  "PATH.T_BLOCK_SUGGESTED_CONTENT.CHALLENGE.COLOR": "#FFFFFF",
+
+  "TSHAPE.DEPTH.LEVEL_NAME": "Nível",
+  "TSHAPE.DEPTH.LEVEL_SUFIX": "de profundidade",
+
   "TSHAPE.BUTTON.BACK_TO_HOME": "<Icon name='arrowLeft' /> Voltar para seleção de carreiras",
+  "TSHAPE.BUTTON.DOWNLOAD_T_FILE": "Baixar esse guia",
 
   "FOOTER.DESCRIPTION": "Desenvolva sua Carreira em &lt;T&gt; · Versão: ",
-  "FOOTER.OPEN_SOURCE_CTA": "O techguide.sh é um projeto open source, <Link href='https://github.com/alura/techguide' text='confira nosso README' />",
+  "FOOTER.OPEN_SOURCE_CTA": "O Techguide.sh é um projeto open source, <Link href='https://github.com/alura/techguide' text='confira nosso README' />",
   "FOOTER.BRING_BY": "Trazido por",
+
+  "FAQ.GLOBAL.TITLE": "Dúvidas e respostas frequentes sobre o TechGuide.sh",
+  "FAQ.GLOBAL": [
+    {
+      "title": "01 - O que é o TechGuide.sh?",
+      "answer":
+        "O TechGuide.sh é uma iniciativa da Alura para mapear as necessidades mais comuns em cada profissional de tecnologia, direcionando tanto alunos e alunas quanto a própria escola com novos cursos, conteúdos, podcasts e artigos. Nós seguimos a abordagem do profissional em T, abrindo mais possibilidades de caminhos e ordenação. Também queremos ter mais descritivos explicando o por quê de aprender cada um daqueles itens (cards) e fechar mais o escopo de cada um."
+    },
+    {
+      "title": "02 - O que é o profissional em T?",
+      "answer":
+        "É um profissional que, além da sua especialidade (parte profunda do T), também tem um certo conhecimento em outras áreas (laterais do T) que podem facilitar seu próprio trabalho ou o trabalho em equipe. No site do Dev em T da Alura há bastante a respeito, além de artigos e podcasts: <a href='https://alura.com.br/dev-em-t'>https://alura.com.br/dev-em-t</a>"
+    },
+    {
+      "title": "03 - Devo começar a estudar pela parte profunda ou horizontal do T?",
+      "answer":
+        "A nossa recomendação é que você se foque mais na parte profunda do T, mas sem deixar de lado as laterais também. A ordem de quando estudar o que é você quem vai decidir, mas queremos ser um guia para te ajudar a orientar essas escolhas."
+    },
+    {
+      "title": "04 - Posso sugerir novas carreiras?",
+      "answer":
+        "Sim! Use o mecanismo de contribuição do nossos repositório no <a href='https://github.com/alura/techguide'>Github</a>. Neste momento, estamos focados em corrigir erros e melhorar as carreiras existentes."
+    },
+    {
+      "title": "05 - Posso sugerir alterações ou correções?",
+      "answer":
+        "Sim! Contribuições são bem vindas. Para isso, use o mecanismo de contribuição do nossos repositório no <a href='https://github.com/alura/techguide'>Github</a>."
+    }
+  ],
+  "IMAGES.DISCOVER_IMAGE": "/assets/image/discover-illustration.svg",
+  "FOOTER.YOUTUBE": "https://youtube.com/aluracursosonline",
+  "FOOTER.FACEBOOK": "https://www.facebook.com/AluraCursosOnline/",
+  "FOOTER.INSTAGRAM": "https://www.instagram.com/aluraonline/",
+  "FOOTER.TWITTER": "https://twitter.com/aluraonline",
+  "FOOTER.PLAYSTORE": "https://play.google.com/store/apps/details?id=br.com.alura.mobi",
+  "FOOTER.APPSTORE": "https://apps.apple.com/br/app/alura-cursos-online/id1225776635",
   "DEMO":"DEMO"
 }

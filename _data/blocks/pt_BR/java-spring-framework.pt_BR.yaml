@@ -1,0 +1,53 @@
+name: Spring Framework
+logo: 
+short-description:
+key-objectives:
+  - O Spring é um framework open source para a plataforma Java. Trata-se de um framework não intrusivo, baseado nos padrões de projeto (design patterns) de inversão de controle (IoC) e injeção de dependência. No Spring o contêiner se encarrega de "instanciar" classes de uma aplicação Java e definir as dependências entre elas através de um arquivo de configuração em formato XML, inferências do framework, o que é chamado de auto-wiring ou ainda anotações nas classes, métodos e propriedades. Dessa forma, o Spring permite o baixo acoplamento entre classes de uma aplicação orientada a objetos.
+  - Entender o conceito de Injeção de Dependências
+  - Entender o padrão MVC
+  - Usar o Spring Data para manipular dados
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Spring Framework (inglês)"
+    link: https://spring.io/projects/spring-framework
+  - type: ARTICLE
+    title: "Spring Framework: existem muitos, mas para que cada um serve?"
+    link: https://arthur-almeida.medium.com/spring-framework-existem-muitos-mas-para-que-cada-um-serve-b1773bcb69f0
+  - type: ARTICLE
+    title: "MVC não é Arquitetura!"
+    link: https://arthur-almeida.medium.com/mvc-n%C3%A3o-%C3%A9-arquitetura-1f5cca077f18
+  - type: YOUTUBE
+    title: "Michelli Brito: Spring MVC"
+    link: https://www.youtube.com/watch?v=2RSrcKDqWyo
+  - type: YOUTUBE
+    title: "Michelli Brito: O que é um bean em Spring Framework"
+    link: https://www.youtube.com/watch?v=-PT-pXe-7UM
+  - type: YOUTUBE
+    title: "Dev Eficiente: O que é e como funciona o Spring MVC?"
+    link: https://youtu.be/9Jf88iqKPPU
+alura-contents:
+  - type: ARTICLE
+    title: "Spring: Conheça esse framework Java"
+    link: https://www.alura.com.br/artigos/spring-conheca-esse-framework-java
+  - type: ARTICLE
+    title: "Primeiros passos com o Spring Framework"
+    link: https://www.alura.com.br/artigos/primeiros-passos-spring
+  - type: PODCAST
+    title: "Hipsters.tech: Spring Framework – Hipsters 87"
+    link: https://www.hipsters.tech/spring-framework-hipsters-87/
+  - type: YOUTUBE
+    title: "Alura: O que é Spring Framework?"
+    link: https://www.youtube.com/watch?v=5XPojnx9bb8
+  - type: YOUTUBE
+    title: "Alura: Melhores práticas com Spring Framework"
+    link: https://www.youtube.com/watch?v=xDuPI3pA_R8
+  - type: COURSE
+    title: "Formação Spring Framework"
+    link: https://cursos.alura.com.br/formacao-spring-framework
+  - type: COURSE
+    title: "Formação Java e Microsserviços com Spring e RabbitMQ"
+    link: https://cursos.alura.com.br/formacao-java-microsservicos
+  - type: SITE
+    title: "Livro da Casa do Código: Vire o jogo com Spring Framework"
+    link: https://www.casadocodigo.com.br/products/livro-spring-framework

@@ -1,0 +1,31 @@
+name: YARN
+logo: 
+short-description:
+key-objectives:
+- Yarn es un administrador de paquetes para su código. Le permite usar y compartir código con otros desarrolladores. El código se comparte a través de algo llamado paquete (a veces denominado módulo). Un paquete contiene todo el código que se comparte, así como un archivo package.json que O describe.
+- Administrar paquetes
+- Administrar dependencias
+- Instalar paquetes sin conexión
+- Comandos
+- El archivo yarn.lock
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "YARN: Documentación"
+    link: https://classic.yarnpkg.com/en/docs
+  - type: ARTICLE
+    title: "NPM vs Yarn Cheat Sheet"
+    link: https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc
+  - type: ARTICLE
+    title: "What are NPM, Yarn, Babel, and Webpack; and how to properly use them?"
+    link: https://medium.com/front-end-weekly/what-are-npm-yarn-babel-and-webpack-and-how-to-properly-use-them-d835a758f987
+  - type: ARTICLE
+    title: "Creando y publicando una biblioteca Javascript en el NPM"
+    link: https://www.aluracursos.com/blog/creando-y-publicando-una-biblioteca-javascript-en-el-npm
+  - type: YOUTUBE
+    title: "ReactJS: de cero a experto. Instalando yarn"
+    link: https://www.youtube.com/watch?v=qOBaAcSPYFs
+  - type: YOUTUBE
+    title: "Cómo crear un proyecto en Yarn en 5 MINUTOS"
+    link: https://www.youtube.com/watch?v=jCeQmuTrsmQ
+alura-contents:

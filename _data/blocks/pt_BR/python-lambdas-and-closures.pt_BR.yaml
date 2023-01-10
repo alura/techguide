@@ -1,0 +1,33 @@
+name: Python - Lambdas e Closures
+logo: 
+short-description:
+key-objectives:
+  - Funções lambda nada mais são do que funções anônimas. Enquanto funções normais podem ser criada utilizando def como prefixo, as funções lambda são criadas utilizando lambda.
+  - Uma closure em Python é um objeto de função interna, uma função que se comporta como um objeto, que se lembra e tem acesso a variáveis no escopo local em que foi criado, mesmo depois que a função externa tenha terminado de ser executada. Também pode ser definida como um meio de ligar dados a uma função sem passá-los como parâmetro.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Entendendo as funções lambda no Python"
+    link: https://medium.com/@otaviobn/entendendo-as-fun%C3%A7%C3%B5es-lambda-no-python-cbe3c5abb179
+  - type: ARTICLE
+    title: "Como utilizar a função lambda em Python"
+    link: https://www.covildodev.com.br/artigo/funcao-lambda-python
+  - type: ARTICLE
+    title: "Expressões lambda em Python com map, reduce e filter"
+    link: https://medium.com/horadecodar/express%C3%B5es-lambda-em-python-com-map-reduce-e-filter-a391368ae886
+  - type: ARTICLE
+    title: "Afinal, o que são Closures?"
+    link: https://klauslaube.com.br/2011/05/29/afinal-o-que-sao-closures.html
+  - type: ARTICLE
+    title: "Closures e Decorators em Python"
+    link: https://imasters.com.br/back-end/closures-e-decorators-em-python-parte-01
+  - type: YOUTUBE
+    title: "Otávio Miranda: Expressões lambda (funções anônimas) em Python"
+    link: https://www.youtube.com/watch?v=EQRsJ2bKvUU
+  - type: YOUTUBE
+    title: "Walisson Silva: Funções Lambda no Python"
+    link: https://www.youtube.com/watch?v=Zpl1w_Hn0CE
+  - type: YOUTUBE
+    title: "Eduardo Mendes: Funções, closures e decoradores em Python"
+    link: https://www.youtube.com/watch?v=Zpl1w_Hn0CE
+alura-contents:

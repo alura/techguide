@@ -1,0 +1,56 @@
+name: SOLID
+logo: 
+short-description:
+key-objectives:
+  - O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Princípios de S.O.L.I.D em C# — Guia prático"
+    link: https://medium.com/beelabacademy/princ%C3%ADpios-de-s-o-l-i-d-em-c-guia-pr%C3%A1tico-cbb1e6584284
+  - type: ARTICLE
+    title: "Princípios SOLID que todos desenvolvedores deveriam saber"
+    link: https://rafaelcruz.azurewebsites.net/2019/05/11/principios-solid-que-todos-desenvolvedores-deveriam-saber/
+  - type: YOUTUBE
+    title: "Filipe Deschamps: SOLID fica fácil com Essas Ilustrações"
+    link: https://www.youtube.com/watch?v=6SfrO3D4dHM
+  - type: YOUTUBE
+    title: "Central dotNET: Princípios de SOLID com C#"
+    link: https://www.youtube.com/watch?v=iU4BMUcjg8g
+  - type: YOUTUBE
+    title: "Felipe Pinheiro - Tech: Princípios SOLID, o que é DIP?"
+    link: https://www.youtube.com/watch?v=q0BGgQJcp7w
+  - type: YOUTUBE
+    title: "Dev Eficiente: SOLID - Uma reflexão sobre o Princípio da responsabilidade única"
+    link: https://www.youtube.com/watch?v=GGe0o_v5vjM
+alura-contents:
+  - type: ARTICLE
+    title: "Design patterns: Breve introdução aos padrões de projeto"
+    link: https://www.alura.com.br/artigos/design-patterns-introducao-padroes-projeto
+  - type: PODCAST
+    title: "SOLID: Código bom e bonito - Hipsters Ponto Tech 219"
+    link: https://www.alura.com.br/podcast/hipsterstech-solid-codigo-bom-e-bonito-hipsters-ponto-tech-219-a649
+  - type: YOUTUBE
+    title: "Alura: Clean Code e Solid"
+    link: https://www.youtube.com/watch?v=XV9B4LX_re8
+  - type: YOUTUBE
+    title: "Alura: Curso de SOLID com Java"
+    link: https://www.youtube.com/watch?v=2SbKmijNi70
+  - type: COURSE
+    title: "Curso SOLID com C#: princípios da programação orientada a objetos"
+    link: https://cursos.alura.com.br/course/solid-csharp-principios-orientacao-a-objetos
+  - type: COURSE
+    title: "Curso SOLID com Java: princípios da programação orientada a objetos"
+    link: https://cursos.alura.com.br/course/solid-orientacao-objetos-java
+  - type: COURSE
+    title: "Curso SOLID com PHP: princípios da programação orientada a objetos"
+    link: https://cursos.alura.com.br/course/solid-php-principios-orientacao-a-objetos
+  - type: COURSE
+    title: "Boas práticas em C#"
+    link: https://cursos.alura.com.br/formacao-boas-praticas-c-sharp
+  - type: COURSE
+    title: "Boas práticas em PHP"
+    link: https://cursos.alura.com.br/formacao-boas-praticas-php
+  - type: SITE
+    title: "Livro Casa do Código: Desbravando SOLID - Práticas avançadas para códigos de qualidade em Java moderno"
+    link: https://www.casadocodigo.com.br/products/livro-desbravando-solid

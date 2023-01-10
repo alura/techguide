@@ -1,0 +1,82 @@
+name: CSS - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS can be used for very basic document text styling — for example, for changing the color and size of headings and links. It can be used to create a layout — for example, turning a single column of text into a layout with a main content area and a sidebar for related information. It can even be used for effects such as animation.
+  - Learning the visual structure of a page, with 'margin' and 'padding'
+  - Establishing the size with 'width' and 'height'
+  - Learning about the position of an element ('static', 'relative' or 'absolute')
+  - Learning about the display of an element ('block', 'inline', 'inline-block')
+  - Learning how to position images in relation to text
+  - Learning about alignment
+  - Learning about font style
+  - Learning the differences and advantages of using the different units of measurement in CSS (%, relative, etc)
+  - Connecting to the elements (IDs, classes) of an HTML file
+  - Changing the characteristics of an element when the mouse hovers over it
+  - Learning box-sizing
+  - Learning Flexbox
+  - Learning Grid
+aditional-objectives:
+  - Using a basic CSS file to reset browser assignments
+  - Learning selectors like '+', '>', '~', etc
+  - Knowing the concept of 'Components' (Atomic design is a reference) and BE<
+  - Making the page responsive with media queries
+  - Learning the concept of Mobile First
+  - Bootstrap and CSS frameworks
+  - Preprocessors
+contents:
+  - type: SITE
+    title: "W3Schools: CSS Tutorial"
+    link: https://www.w3schools.com/css/
+  - type: SITE
+    title: "W3Schools: CSS Introduction"
+    link: https://www.w3schools.com/css/css_intro.asp
+  - type: SITE
+    title: "W3Schools: CSS Syntax"
+    link: https://www.w3schools.com/css/css_syntax.asp
+  - type: SITE
+    title: "W3Schools: CSS Selectors"
+    link: https://www.w3schools.com/css/css_selectors.asp
+  - type: SITE
+    title: "W3Schools: CSS Box Model"
+    link: https://www.w3schools.com/css/css_boxmodel.asp
+  - type: SITE
+    title: "W3Schools: CSS Units"
+    link: https://www.w3schools.com/css/css_units.asp
+  - type: SITE
+    title: "MDN Web Docs: Getting started with CSS"
+    link: https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started
+  - type: SITE
+    title: "MDN Web Docs: CSS selectors"
+    link: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
+  - type: SITE
+    title: "MDN Web Docs: Cascade and inheritance"
+    link: https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance
+  - type: SITE
+    title: "MDN Web Docs: display property"
+    link: https://developer.mozilla.org/en-US/docs/Web/CSS/display
+  - type: SITE
+    title: "MDN Web Docs: Basic concepts of Flexbox"
+    link: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+  - type: SITE
+    title: "MDN Web Docs: Basic concepts of Grid Layout"
+    link: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+  - type: ARTICLE
+    title: "CSS Tutorial: Learn the basics of CSS in 5 minutes"
+    link: https://medium.com/free-code-camp/get-started-with-css-in-5-minutes-e0804813fc3e
+  - type: ARTICLE
+    title: "The Complete CSS Flex Tutorial"
+    link: https://jst.hashnode.dev/complete-css-flex-tutorial
+  - type: ARTICLE
+    title: "The Complete CSS Grid Tutorial"
+    link: https://jst.hashnode.dev/css-grid-tutorial
+  - type: YOUTUBE
+    title: "Web Dev Simplified: Learn CSS in 20 Minutes"
+    link: https://www.youtube.com/watch?v=1PnVor36_40
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: CSS Tutorial - Zero to Hero (Complete Course)"
+    link: https://www.youtube.com/watch?v=1Rs2ND1ryYc
+  - type: YOUTUBE
+    title: "SuperSimpleDev: HTML & CSS Full Course - Beginner to Pro"
+    link: https://www.youtube.com/watch?v=G3e-cpL7ofc
+alura-contents:

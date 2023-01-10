@@ -1,0 +1,34 @@
+name: Spring Boot
+logo: 
+short-description:
+key-objectives:
+  - Spring Boot is an open source Java-based framework used to create microservices with Spring Framework. It is used to build stand-alone and production ready Spring applications.
+  - Creating standalone Spring applications
+  - Using the built-in HTTP servers
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Spring Boot - Documentation"
+    link: https://spring.io/projects/spring-boot
+  - type: SITE
+    title: "IBM: Java Spring Boot"
+    link: https://www.ibm.com/cloud/learn/java-spring-boot
+  - type: SITE
+    title: "Microsoft Azure: What is Spring Boot and Spring framework vs. Spring Boot"
+    link: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-java-spring-boot/
+  - type: ARTICLE
+    title: "Spring Boot Introduction with HelloWorld Example"
+    link: https://medium.com/@anil7017/spring-boot-introduction-with-helloworld-example-f388425104ed
+  - type: ARTICLE
+    title: "Introduction to Spring (Starting a Spring Boot Application)"
+    link: https://kasunprageethdissanayake.medium.com/introduction-to-spring-starting-a-spring-boot-application-af0637e88b1
+  - type: ARTICLE
+    title: "Let’s Deploy Spring Boot App to the Cloud"
+    link: https://medium.com/webtutsplus/how-to-publish-your-spring-boot-app-to-the-cloud-97590666bf7b
+  - type: YOUTUBE
+    title: "Amigoscode: Spring Boot - Learn Spring Boot 3"
+    link: https://www.youtube.com/watch?v=-mwpoE0x0JQ
+  - type: YOUTUBE
+    title: "in28minutes - Cloud Made Easy: Spring Boot Made Easy - Tutorial For Beginners"
+    link: https://www.youtube.com/watch?v=zTAHY0SLQAg
+alura-contents:

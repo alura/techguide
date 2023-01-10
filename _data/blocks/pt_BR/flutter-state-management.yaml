@@ -1,0 +1,41 @@
+name: Flutter - Gerenciamento de Estados
+logo: 
+short-description:
+key-objectives:
+  - Em Flutter, 'estado' (state) são os dados que você precisa para reconstruir sua UI a qualquer momento. Quando estes dados mudarem, isso desencadeará um redesenho da interface do usuário.
+  - Entender o que é Gerenciamento de Estados
+  - Conhecer e saber usar o Provider
+  - Conhecer as demais opções de Gerenciamentos de Estados no Flutter
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Gerenciamento de Estados | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/data-and-backend/state-mgmt/intro
+  - type: ARTICLE
+    title: "Gerenciamento de Estado em Flutter e algumas soluções"
+    link: https://ateliware.com/blog/gerenciamento-de-estado-em-flutter
+  - type: ARTICLE
+    title: "Flutter: Provider, BLoC e State Management"
+    link: https://balta.io/blog/flutter-bloc-provider-state-management
+  - type: ARTICLE
+    title: "O que aprendi utilizando as gerências de estado do Flutter"
+    link: https://medium.com/flutter-comunidade-br/o-que-aprendi-utilizando-as-ger%C3%AAncias-de-estado-do-flutter-8f8f2bc7911c  
+  - type: SITE
+    title: "Opções de Ferramentas para Gerenciamento de Estados | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/data-and-backend/state-mgmt/options
+  - type: YOUTUBE
+    title: "Flutterando: Aulão sobre Provider e estrutura de projetos"
+    link: https://www.youtube.com/watch?v=VhsqMahAmOk&ab_channel=Flutterando
+  - type: YOUTUBE
+    title: "Flutter: Pragmatic State Management Using Provider"
+    link: https://www.youtube.com/watch?v=HrBiNHEqSYU&ab_channel=Flutter
+alura-contents:
+  - type: ARTICLE
+    title: "Como gerenciar estados com Flutter Provider"
+    link: https://www.alura.com.br/artigos/como-gerenciar-estados-com-flutter-provider    
+  # Esse curso será substituído em breve!
+  - type: COURSE
+    title: "Flutter: gerenciamento de estados com Provider"
+    link: https://cursos.alura.com.br/course/flutter-gerenciamento-estados-provider
+  
+  

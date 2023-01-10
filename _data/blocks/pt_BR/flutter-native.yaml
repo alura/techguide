@@ -1,0 +1,58 @@
+name: Flutter - Nativo
+logo: 
+short-description:
+key-objectives:
+  - Conhecer as especificidades do desenvolvimento nativo para Android
+  - Conhecer as especificidades do desenvolvimento nativo para iOS
+aditional-objectives:
+contents:
+  # Android
+  - type: SITE
+    title: "Android: Hospedando Views nativas do Android em seu aplicativo Flutter com visualizações de plataforma - Integração Android | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/android/platform-views
+  - type: SITE
+    title: "Android: API de Migração - Integração Android | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/android/plugin-api-migration
+  - type: SITE
+    title: "Android: Migração para Android X - Integração Android | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/android/androidx-migration
+  - type: SITE
+    title: "Android: Migração da Splash Screen - Integração Android | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/android/splash-screen-migration
+
+  # iOS
+  - type: SITE
+    title: "iOS: Usando o Cupertino | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/ui/widgets/cupertino
+  - type: SITE
+    title: "iOS: Veggie Seasons - iOS com Flutter (inglês)"
+    link: https://github.com/flutter/samples/tree/main/veggieseasons
+  - type: YOUTUBE
+    title: "iOS: Criando para iOS com Flutter (Google I/O'19) (inglês)"
+    link: https://www.youtube.com/watch?v=ZBJa-xjZl3w&ab_channel=Flutter
+  - type: SITE
+    title: "iOS: iOS App Clip | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/ios/ios-app-clip
+  - type: SITE
+    title: "iOS: Hospedando Views nativas do iOS em seu aplicativo Flutter com visualizações de plataforma | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/ios/platform-views
+  
+  # Nativos e Plugins
+  - type: SITE
+    title: "Escrevendo código para uma plataforma específica | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/platform-channels  
+  - type: SITE
+    title: "Interoperabilidade do C | Dart Guides (inglês)"
+    link: https://dart.dev/guides/libraries/c-interop  
+  - type: SITE
+    title: "Interoperabilidade do JavaScript | Dart Guides (inglês)"
+    link: https://dart.dev/web/js-interop
+  - type: SITE
+    title: "Interoperabilidade do C para Android | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/android/c-interop  
+  - type: SITE
+    title: "Interoperabilidade do C para iOS | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/platform-integration/ios/c-interop
+alura-contents:
+
+  

@@ -1,0 +1,27 @@
+name: Versionamento Semântico para Front-end
+logo: 
+short-description:
+key-objectives:
+  - SemVer (Versionamento Semântico) é um conjunto simples de regras e requisitos que ditam como os números de versão são atribuídos e incrementados.
+  - Organizar as dependências de um projeto
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação: Versionamento Semântico"
+    link: https://semver.org/lang/pt-BR/
+  - type: ARTICLE
+    title: "Versionamento semântico - O que é e como usar"
+    link: https://imasters.com.br/codigo/versionamento-semantico-o-que-e-e-como-usar
+  - type: ARTICLE
+    title: "Criando e automatizando o versionamento semântico de projetos NodeJS"
+    link: https://dev.to/wnqueiroz/criando-e-automatizando-o-versionamento-semantico-de-projetos-nodejs-3ogj
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Como padronizar commits? Conventional Commits + Semantic Release"
+    link: https://www.youtube.com/watch?v=1eTofdmfq1g
+  - type: YOUTUBE
+    title: "Filho da nuvem: O que é SEMVER e como entender versões de bibliotecas?"
+    link: https://www.youtube.com/watch?v=sgheXCK-Rfw
+alura-contents:
+  - type: ARTICLE
+    title: "Git Flow: entenda o que é, como e quando utilizar"
+    link: https://www.alura.com.br/artigos/git-flow-o-que-e-como-quando-utilizar

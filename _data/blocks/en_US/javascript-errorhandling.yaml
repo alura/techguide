@@ -1,0 +1,43 @@
+name: JavaScript - Error handling
+logo: 
+short-description:
+key-objectives:
+  - Error handling refers to the response and recovery procedures from error conditions present in a software application. In other words, it is the process comprised of anticipation, detection and resolution of application, programming or communication errors.
+  - Knowing and handling the most common exceptions
+  - Knowing the types of errors and in which situations they can occur
+  - Using 'try' and 'catch' for error handling
+  - Learning on what occasions and how to use `throw`
+  - Creating specific exceptions according to your application's needs
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Control flow and error handling"
+    link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#declara%C3%A7%C3%B5es_de_manipula%C3%A7%C3%A3o_de_error
+  - type: ARTICLE
+    title: "Error Handling in JavaScript: a Quick Guide"
+    link: https://medium.com/swlh/error-handling-in-javascript-a-quick-guide-54b954427e47
+  - type: ARTICLE
+    title: "Better error handling in JavaScript"
+    link: https://iaincollins.medium.com/error-handling-in-javascript-a6172ccdf9af
+  - type: ARTICLE
+    title: "JavaScript Best Practices — Error Handling Techniques"
+    link: https://medium.com/swlh/javascript-best-practices-error-handling-techniques-20a8752d92f6
+  - type: ARTICLE
+    title: "JavaScript Clean Code: Error Handling"
+    link: https://betterprogramming.pub/javascript-clean-code-error-handling-9cd7e87fdbe3
+  - type: ARTICLE
+    title: "JavaScript error handling best practices"
+    link: https://medium.com/@raygunio/javascript-error-handling-best-practices-ac5d4e667e09
+  - type: ARTICLE
+    title: "JavaScript Error Handling from Express.js to React"
+    link: https://itnext.io/javascript-error-handling-from-express-js-to-react-810deb5e5e28
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: try, catch, finally, throw - error handling in JavaScript"
+    link: https://www.youtube.com/watch?v=cFTFtuEQ-10
+  - type: YOUTUBE
+    title: "dcode: Basics of Error Handling in JavaScript"
+    link: https://www.youtube.com/watch?v=G8Jux_bsIXU
+  - type: YOUTUBE
+    title: "Dave Gray: Javascript Error Handling"
+    link: https://www.youtube.com/watch?v=blBoIyNhGvY
+alura-contents:

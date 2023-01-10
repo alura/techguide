@@ -1,0 +1,45 @@
+name: Flutter - Testes
+logo: 
+short-description:
+key-objectives:
+  - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+  - Conhecer Testes Unitários no Flutter
+  - Conhecer Testes de Widgets no Flutter
+  - Conhecer Testes de Integração no Flutter
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Testando Apps Flutter | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/testing
+  - type: SITE
+    title: "Uma introdução aos Testes Unitários no Flutter | Flutter Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/testing/unit/introduction
+  - type: SITE
+    title: "Uma introdução aos Testes de Widget no Flutter | Flutter Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/testing/widget/introduction
+  - type: SITE
+    title: "Testes de Integração no Flutter | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/testing/integration-tests
+  - type: YOUTUBE
+    title: "Flutterando: Semana do Flutter - Testes de Unidade #1 | O que é unidade?"
+    link: https://youtu.be/zlYQe-9QMug
+  - type: YOUTUBE
+    title: "Prof. Diego Antunes: Flutter - Teste de Integração (Integration Test ou E2E Flutter)"
+    link: https://youtu.be/GEvNj7uogYE
+  - type: YOUTUBE
+    title: "Flutter: Testando Aplicativos Flutter - Garantindo que o código vai funcionar (inglês)"
+    link: "https://youtu.be/bj-oMYyLZEY"
+  - type: YOUTUBE
+    title: "Flutter: Dicas de Perfomance com Testes no Flutter (inglês)"
+    link: https://youtu.be/PKGguGUwSYE
+  - type: SITE
+    title: "Como testar um app Flutter | Google Codelabs (inglês)"
+    link: https://codelabs.developers.google.com/codelabs/flutter-app-testing?hl=pt-br#0
+alura-contents:
+  - type: SITE
+    title: "Primeiras aulas do curso Flutter: aplicando testes de unidade, de Widget e Mocks"
+    link: https://www.alura.com.br/conteudo/flutter-testes-unidade-widget-mocks
+  - type: COURSE
+    title: "Flutter: aplicando testes de unidade, de Widget e Mocks"
+    link: https://www.alura.com.br/curso-online-flutter-testes-unidade-widget-mocks
+  

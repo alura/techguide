@@ -1,0 +1,33 @@
+name: Redux Saga
+logo: 
+short-description:
+key-objectives:
+  - Redux Saga é uma biblioteca que visa tornar os efeitos colaterais da aplicação (ou seja, coisas assíncronas, como busca de dados e coisas impuras, como acessar o cache do navegador) mais fáceis de gerenciar, mais eficientes de executar, fáceis de testar e melhores no tratamento de falhas.
+  - Criar e manter chamadas assíncronas e efeitos
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação: Redux Saga (inglês)"
+    link: https://redux-saga.js.org/docs/introduction/GettingStarted
+  - type: ARTICLE
+    title: "Redux-Saga: Gerenciando efeitos e ações"
+    link: https://oieduardorabelo.medium.com/redux-saga-gerenciando-efeitos-f518a31c744e
+  - type: ARTICLE
+    title: "Redux Saga: Você no controle das operações assíncronas"
+    link: https://medium.com/nossa-coletividad/redux-saga-voc%C3%AA-no-controle-das-opera%C3%A7%C3%B5es-ass%C3%ADncronas-71c9e6b3aabc
+  - type: YOUTUBE
+    title: "Kuze: Entendendo o fluxo do Redux Saga - Criando um app"
+    link: https://www.youtube.com/watch?v=5NFIRaXwrOQ
+  - type: YOUTUBE
+    title: "Programador de Sucesso: O guia definitivo para aprender REDUX e REDUX SAGA"
+    link: https://www.youtube.com/watch?v=7YoMyQ-jsBk
+alura-contents:
+  - type: ARTICLE
+    title: "Redux: desvendando a arquitetura com Flux"
+    link: https://www.alura.com.br/artigos/redux-desvendando-arquitetura-flux
+  - type: YOUTUBE
+    title: "Alura: Como funciona o Redux?"
+    link: https://www.youtube.com/watch?v=DbEpBeZ6yic
+  - type: podcast
+    title: "Hipsters.tech: Guia do iniciante em React 209"
+    link: https://www.alura.com.br/podcast/guia-do-iniciante-em-react-hipsters-209-a341

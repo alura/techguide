@@ -1,0 +1,22 @@
+name: Java - Gerenciamento da Memória
+logo: 
+short-description:
+key-objectives:
+  - Em Java, o gerenciamento de memória é o processo de alocação e desalocação de objetos, chamado de gerenciamento de memória. Java faz o gerenciamento de memória automaticamente. Java usa um sistema de gerenciamento automático de memória chamado de Garbage Collector (coletor de lixo). Assim, não somos obrigados a implementar a lógica de gerenciamento de memória em nossa aplicação.
+  - Entender como funciona a memória e seu gerenciamento em Java
+  - Entender como funciona a memória o Garbage Collector
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Gerenciamento de Memória Java"
+    link: https://medium.com/@danilomoraiis/gerenciamento-de-mem%C3%B3ria-java-3969e7b8423c
+  - type: ARTICLE
+    title: "Java Garbage Collector — Por que precisamos conhecê-lo?"
+    link: https://medium.com/luizalabs/java-garbage-collector-porque-precisamos-conhec%C3%AA-lo-9d26ebb0a6d8
+  - type: YOUTUBE
+    title: "Loiane Groner: Garbage Collector (Coletor de Lixo)"
+    link: https://www.youtube.com/watch?v=_11TPkgZARk
+  - type: YOUTUBE
+    title: "Dias de Dev: Estratégias de gestão de memória - O que é Garbage Collector"
+    link: https://www.youtube.com/watch?v=SZqp3_Mw9zk
+alura-contents:

@@ -1,0 +1,176 @@
+# C#
+## Nivel 1
+- [ ] **C# - Fundamentos**:
+   - Conhecer os tipos primitivos
+   - Declarar variáveis, considerando os diferentes tipos
+   - Usar estruturas condicionais ('if', 'else')
+   - Conhecer os operadores de comparação
+   - Usar estruturas de repetição e laços ('while', 'for')
+   - Usar funções, passando parâmetros e argumentos
+   - Manipular métodos
+   - Manipular arrays e listas
+   - Obter dados de uma API
+   - Fazer chamadas assíncronas, etc
+   - Criar construtores
+- [ ] **Conceitos de Orientação a Objetos**:
+   - A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
+   - Como funcionam objetos
+   - Criar e utilizar construtores
+   - O que são classes
+   - Criar e utilizar métodos
+   - Como funciona encapsulamento
+   - O que é herança
+   - O que é polimorfismo
+   - Como funcionam interfaces
+   - O que são abstrações
+- [ ] **C# - Coleções**:
+   - Aprender os usos e diferenças entre Dictionary, List, Queue, SortedList e Stack
+   - Saiba trabalhar com ArrayList e HashTable
+   - Iterators
+- [ ] **NuGet**:
+   - Gerenciar pacotes
+   - Compartilhar bibliotecas
+- [ ] **C# - System.IO**:
+   - Ler dados de arquivos
+   - Escrever dados em arquivos
+   - Gerenciar arquivos com Using
+- [ ] **C# - Gerenciamento de Memória**:
+   - Entender como a memória é administrada
+   - Conhecer o Garbage Collector
+   - Entender sobre o Stack e o Heap gerenciado
+- [ ] **C# - Testes**:
+   - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+   - Usar testes unitários
+   - Usar testes de integração
+   - Usar testes de comportamento (behavior)
+   - Usar mocks
+- [ ] **ADO.NET**:
+   - Manipular bancos de dados
+   - Conhecer o DataSet e DataTable
+   - Realizar conexões
+   - Manipular documentos XML
+- [ ] **Entity Framework Core**:
+   - Manipular bancos de dados usando objetos .NET
+   - Criar modelos correspondentes a um banco de dados
+   - Realizar consultas
+- [ ] **Estruturas de Dados**:
+   - No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.
+   - Conhecer as principais estruturas de dados
+   - Implementar as principais estruturas de dados
+## Nivel 2
+- [ ] **CLR**:
+   - Entender como o CLR funciona
+   - Entender o gerenciamento de memória
+   - Conhecer a CIL e o JIT
+- [ ] **LINQ**:
+   - Criar consultas
+   - Conhecer as cláusulas Select e Where
+   - Consultar coleções de objetos em memória
+   - Mapear o banco de dados com Linq to Sql
+- [ ] **C# - Serialização**:
+   - Enviar um objeto para um aplicativo remoto usando um serviço Web
+   - Passar um objeto como uma cadeia de caracteres JSON ou XML
+   - Manter informações específicas do usuário ou de segurança entre aplicativos
+- [ ] **C# - Rede e Sockets**:
+   - Abrir uma sessão de comunicação interativa entre o navegador do usuário e um servidor
+   - Enviar mensagens para um servidor e receber respostas sem consultar o servidor
+- [ ] **ASP.NET Core**:
+   - Criar aplicativos e serviços Web
+   - Manter um aplicativo MVC
+   - Desenvolver de interface do usuário da Web do lado do cliente
+   - Criar uma API Web
+- [ ] **Dapper**:
+   - Realizar consultas a bancos de dados
+   - Manipular bancos de dados
+- [ ] **Injeção de Dependências**:
+   - Padrão de projeto no qual uma classe solicita dependências de fontes externas ao invés de criá-las
+   - Evitar o alto nível de acoplamento de código dentro de uma aplicação
+   - Implementar a inversão de controle
+- [ ] **C# - Multithreading**:
+   - Executar múltiplas tarefas simultaneamente
+   - Entender como threads são executadas
+## Nivel 3
+- [ ] **C# - Delegates e eventos**:
+   - Entender o conceito de delegate
+   - Criar uma referência para uma função com uma certa lista de parâmetros
+   - Entender o conceito de evento
+   - Manipular diferentes tipos de eventos
+- [ ] **C# - Métodos anônimos e lambda expressions**:
+   - Criar funções anônimas que você pode usar para criar delegates
+   - Criar funções locais que podem ser passadas como argumentos
+- [ ] **Contêineres**:
+   - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
+   - O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.
+   - Isolar seu software para funcionar independentemente
+   - Implantar software em clusters
+   - Modularizar seu sistema em pacotes menores
+   - Conhecer a plataforma Docker
+   - Conhecer Kubernetes
+- [ ] **Arquitetura de Microsserviços**:
+   - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
+   - Aprender o conceito de arquitetura planejada para microsserviços
+   - Realizar a comunicação usando APIs
+   - Melhorar a escalabilidade de um sistema
+- [ ] **Reflection e atributos**:
+   - Escrever código que lê as informações e metadados de objetos em tempo de execução
+   - Obter nomes de classes em tempo de execução e criar objetos de uma classe
+- [ ] **MAUI**:
+   - Criar aplicativos móveis e desktop nativos com C# e XAML
+   - Criar aplicativos multiplataforma
+   - Compartilhar o layout e o design da interface do usuário entre plataformas
+## Habilidade Auxiliar: Infraestrutura 
+- [ ] **Git e GitHub - Fundamentos**:
+   - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
+   - GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.
+   - Criar um repositório
+   - Clonar um repositório
+   - Fazer commit, push e pull de e para o repositório
+   - Reverter um commit
+   - Criar branches e pul requests
+   - Lidar com merge e conflitos
+- [ ] **HTTP - Fundamentos**:
+   - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
+   - Entender a diferença dos verbos HTTP
+   - Testar os requests e ver os status codes no navegador
+   - Saber fazer uma requisição HTTP na linha de comando com WGET
+   - Baixar uma imagem com WGET
+   - Fazer um post
+- [ ] **JSON**:
+   - JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.
+   - Criar um objeto
+   - Transformar um objeto em uma string
+   - Transformar uma string em objeto
+   - Manipular um objeto
+- [ ] **Linha de comando - Fundamentos**:
+   - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
+   - Conhecer os principais comandos
+- [ ] **Cloud - Fundamentos**:
+   - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
+   - Conhecer a diferença entre IaaS, PaaS e SaaS
+   - Conhecer os maiores provedores de cloud
+   - Especializar-se em algum provedor
+- [ ] **SQL - Fundamentos**:
+   - SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.
+   - Conhecer os comandos mais comuns do SQL
+   - Usar SELECT para consultar uma tabela
+   - Usar INSERT para inserir dados em uma tabela
+   - Usar UPDATE para atualizar uma tabela
+   - Usar DELETE para remover dados de uma tabela
+   - Usar JOIN para conectar os dados de múltiplas tabelas
+   - Conhecer as cláusulas (FROM, ORDER BY, etc)
+## Habilidade Auxiliar: Boas práticas 
+- [ ] **SOLID**:
+   - O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
+- [ ] **Design Patterns**:
+   - Na engenharia de software, um "padrão de projeto" (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.
+   - Conhecer e aplicar os principais Design Patterns
+- [ ] **Clean Architecture**:
+   - A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.
+- [ ] **Clean Code**:
+   - Aplicar técnicas simples que visam facilitar a escrita e leitura de um código
+   - Refatorar seu código para que fique mais claro
+- [ ] **Conceitos de Design Orientado a Domínio (Domain-Driven Design - DDD)**:
+   - O Design Orientado a Domínio (DDD) é uma abordagem ao projeto e desenvolvimento de software que é primeiramente informado pelos requisitos de negócios. Os componentes do programa (objetos, classes, matrizes, etc.) indicam a indústria, setor ou domínio empresarial em que o negócio opera.
+   - Modelar domínios de forma efetiva
+   - Basear projetos complexos em modelos do domínio
+   - Conhecer os blocos de construção de DDD

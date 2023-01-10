@@ -1,0 +1,36 @@
+name: Jest
+logo: 
+short-description:
+key-objectives:
+  - Jest is a JavaScript test runner that lets you access the DOM via jsdom. It provides a great iteration speed combined with powerful features like mocking modules and timers so you can have more control over how the code executes.
+  - Testing components
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "React: Documentation - Testing Overview"
+    link: https://reactjs.org/docs/testing.html#gatsby-focus-wrapper
+  - type: SITE
+    title: "Jest: Documentation"
+    link: https://jestjs.io/docs/getting-started
+  - type: ARTICLE
+    title: "Testing React Components with Jest and Enzyme - In Depth"
+    link: https://blog.bitsrc.io/how-to-test-react-components-with-jest-and-enzyme-in-depth-145fcd06b90
+  - type: ARTICLE
+    title: "Testing in React with Jest and Enzyme - An Introduction"
+    link: https://rossbulat.medium.com/testing-in-react-with-jest-and-enzyme-an-introduction-99ce047dfcf8
+  - type: ARTICLE
+    title: "Testing components with Jest and React Testing Library"
+    link: https://itnext.io/testing-components-with-jest-and-react-testing-library-d36f5262cde2
+  - type: YOUTUBE
+    title: "Lama Dev: React Testing Tutorial with React Testing Library and Jest"
+    link: https://www.youtube.com/watch?v=Flo268xRpV0
+  - type: YOUTUBE
+    title: "PedroTech: Testing In React Tutorial - Jest and React Testing Library"
+    link: https://www.youtube.com/watch?v=JBSUgDxICg8
+  - type: YOUTUBE
+    title: "Traversy Media: Jest Crash Course - Unit Testing in JavaScript"
+    link: https://www.youtube.com/watch?v=7r4xVDI2vho
+  - type: YOUTUBE
+    title: "Web Dev Simplified: Introduction To Testing In JavaScript With Jest"
+    link: https://www.youtube.com/watch?v=FgnxcUQ5vho
+alura-contents:

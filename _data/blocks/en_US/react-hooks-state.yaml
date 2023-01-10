@@ -1,0 +1,38 @@
+name: React Hooks - State
+logo: 
+short-description:
+key-objectives:
+  - The React `useState` Hook allows us to track state in a function component. The `useState` Hook can be used to keep track of strings, numbers, booleans, arrays, objects, etc.
+  - Control the state of components
+  - Manipulating variables
+  - Updating an element or component
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: React Hooks"
+    link: https://www.w3schools.com/react/react_hooks.asp
+  - type: SITE
+    title: "W3Schools: React useState - Hooks"
+    link: https://www.w3schools.com/react/react_usestate.asp
+  - type: SITE
+    title: "React: Documentation - Introducing Hooks"
+    link: https://reactjs.org/docs/hooks-intro.html
+  - type: SITE
+    title: "React: Documentation - Using the State Hook"
+    link: https://reactjs.org/docs/hooks-state.html
+  - type: SITE
+    title: "MDN Web Docs: State and the useState hook"
+    link: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_events_state#state_and_the_usestate_hook
+  - type: ARTICLE
+    title: "Learn the useState React Hook"
+    link: https://adhithiravi.medium.com/learn-the-usestate-react-hook-56511abe4f17
+  - type: ARTICLE
+    title: "How to Manage State in React with the useState Hook"
+    link: https://javascript.plainenglish.io/creating-your-second-react-application-d6d50e3e1e91
+  - type: YOUTUBE
+    title: "The Net Ninja: Full React Tutorial #8 - Using State (useState hook)"
+    link: https://www.youtube.com/watch?v=4pO-HcG2igk
+  - type: YOUTUBE
+    title: "Sonny Sangha: Learn to use State in React in 19 minutes (for beginners)"
+    link: https://www.youtube.com/watch?v=kkuq0gTGRFQ
+alura-contents:

@@ -1,0 +1,35 @@
+name: CSS-in-JS
+logo: 
+short-description:
+key-objectives:
+  - CSS-in-JS refers to a pattern where CSS is composed using JavaScript instead of defined in external files.
+  - Handling CSS code using JavaScript
+  - Using styled-components
+  - Knowing Styled-JSX
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "React: Documentation - Styling and CSS"
+    link: https://reactjs.org/docs/faq-styling.html
+  - type: SITE
+    title: "Microsoft Docs: Style editing for CSS-in-JS frameworks"
+    link: https://learn.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/css/css-in-js
+  - type: SITE
+    title: "Chrome Developers: CSS-in-JS support in DevTools"
+    link: https://developer.chrome.com/blog/css-in-js/
+  - type: ARTICLE
+    title: "A Thorough Analysis of CSS-in-JS"
+    link: https://css-tricks.com/a-thorough-analysis-of-css-in-js/
+  - type: YOUTUBE
+    title: "Jack Herrington: Introduction to React - CSS in JS"
+    link: https://www.youtube.com/watch?v=BdzFpyGVfVI
+  - type: YOUTUBE
+    title: "Harry Wolff: CSS in JS - My favorite"
+    link: https://www.youtube.com/watch?v=rKz6cLXhpwA
+  - type: YOUTUBE
+    title: "LevelUpTuts: What Is CSS In JS? What Is Styled Components?"
+    link: https://www.youtube.com/watch?v=EsSi4cER48E
+  - type: YOUTUBE
+    title: "Coding Tech: The Past, Present, and Future of CSS-in-JS"
+    link: https://www.youtube.com/watch?v=a31BUlx-EXc
+alura-contents:

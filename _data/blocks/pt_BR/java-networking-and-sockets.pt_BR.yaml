@@ -1,0 +1,34 @@
+name: Java - Rede e Sockets
+logo: 
+short-description:
+key-objectives:
+  - O termo programação com sockets refere-se à escrita de programas que são executados em vários computadores nos quais os dispositivos estão todos conectados uns aos outros usando uma rede.
+  - Abrir uma sessão de comunicação interativa entre o navegador do usuário e um servidor
+  - Enviar mensagens para um servidor e receber respostas sem consultar o servidor
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: WebSockets"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API
+  - type: SITE
+    title: "MDN Web Docs: Escrevendo aplicações cliente WebSocket"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications
+  - type: ARTICLE
+    title: "Usando a API do WebSocket em uma Aplicação Web"
+    link: https://netbeans.apache.org/kb/docs/javaee/maven-websocketapi_pt_BR.html
+  - type: ARTICLE
+    title: "InfoQ: WebSocket no Java e Java EE: da especificação a exemplos"
+    link: https://www.infoq.com/br/articles/websocket-java-javaee/
+  - type: ARTICLE
+    title: "Usando o Spring Boot para implementação do WebSocket com STOMP"
+    link: https://medium.com/@paulouskipsk/usando-o-spring-boot-para-implementa%C3%A7%C3%A3o-do-websocket-com-stomp-cf02155f8c4d
+  - type: YOUTUBE
+    title: "Filipe Deschamps: WebSockets na prática é MUITO poderoso"
+    link: https://www.youtube.com/watch?v=bQ7NNSyGV2U
+  - type: YOUTUBE
+    title: "Eduardo Palandrani: O que é WebSocket?"
+    link: https://www.youtube.com/watch?v=YJxKYv7GLIg
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Entendendo WebSockets"
+    link: https://www.youtube.com/watch?v=RwUbUnPdWqs

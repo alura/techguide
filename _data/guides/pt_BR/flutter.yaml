@@ -1,0 +1,98 @@
+name: Flutter
+expertise:
+  - name: Flutter Jr
+    blocks: 
+      - dart-fundamentals:
+        priority: 10
+      - flutter-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 10
+      - flutter-persistence:
+        priority: 10
+      - dart-asynchronous:
+        priority: 10
+      - dart-errors-and-exceptions:
+        priority: 10
+      - flutter-api:
+        priority: 10          
+  - name: Flutter Mid
+    blocks:
+      - flutter-packages:
+        priority: 9
+      - flutter-state-management:
+        priority: 8
+      - flutter-testing:
+        priority: 8
+      - flutter-debugging:
+        priority: 6
+        optional: true
+      - flutter-games:
+        priority: 6
+        optional: true
+  - name: Flutter in depth
+    blocks:   
+      - flutter-native:
+        priority: 9      
+      - data-structures:
+        priority: 8
+        optional: true
+      - flutter-animations:
+        priority: 8
+      - flutter-multiplatform-desktop:
+        priority: 8
+      - flutter-multiplatform-web:
+        priority: 8
+        optional: true      
+      - flutter-deployment:
+        priority: 6
+        optional: true
+      - flutter-architecture:
+        priority: 6   
+      - flutter-plugins:
+        priority: 5
+        optional: true   
+collaboration:
+  - name: Infraestrutura e Back-end
+    blocks:
+      - git-and-github-fundamentals:
+        priority: 10
+      - http-fundamentals:
+        priority: 10
+      - json:
+        priority: 8
+      - design-patterns:
+        priority: 7
+      - command-line-fundamentals: 
+        priority: 7
+      - cloud-fundamentals: 
+        priority: 6
+        optional: true
+      - solid:
+        priority: 6
+      - clean-architecture:
+        priority: 6
+    #  - devops: 
+    #    priority: 6
+    #    optional: true
+    #  - ci-cd:
+    #    priority: 6
+    #    optional: true
+      - firebase:
+        priority: 7
+  - name: UX e Design
+    blocks:
+      - design-systems:
+        priority: 6
+      - figma-fundamentals:
+        priority: 7
+      - design-components:
+        priority: 6
+      - color-systems:
+        priority: 7
+      - how-to-use-fonts:
+        priority: 7
+      - flutter-accessibility:
+        priority: 5
+      - responsive-design:
+        priority: 5

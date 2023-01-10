@@ -1,0 +1,54 @@
+name: C# - Testes
+logo: 
+short-description:
+key-objectives:
+  - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+  - Usar testes unitários
+  - Usar testes de integração
+  - Usar testes de comportamento (behavior)
+  - Usar mocks
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Passo a passo: Criar e executar testes de unidade para código gerenciado"
+    link: https://docs.microsoft.com/pt-br/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2022
+  - type: SITE
+    title: "Microsoft Docs: Passo a passo: desenvolvimento controlado por teste usando o Gerenciador de Testes"
+    link: https://docs.microsoft.com/pt-br/visualstudio/test/quick-start-test-driven-development-with-test-explorer?view=vs-2022
+  - type: ARTICLE
+    title: "Testes Unitários: Fundamentos e Qualidade de Software!"
+    link: https://dev.to/wnqueiroz/testes-unitarios-fundamentos-e-qualidade-de-software-5af0
+  - type: ARTICLE
+    title: "Testes unitários em .NET com xUnit"
+    link: https://medium.com/unicoidtech/testes-unit%C3%A1rios-em-net-com-xunit-d7c78c593832
+  - type: ARTICLE
+    title: ".NET 6, C# 10 e implementação de testes: novos recursos para simplificar a codificação"
+    link: https://renatogroffe.medium.com/net-6-c-10-e-implementa%C3%A7%C3%A3o-de-testes-novos-recursos-para-simplificar-a-codifica%C3%A7%C3%A3o-5faec474ccc2
+  - type: ARTICLE
+    title: "Testes Unitários com C#"
+    link: https://aldocostasantos.wordpress.com/2012/12/21/testes-unitarios-parte01/
+  - type: YOUTUBE
+    title: "Canal TI: Testes Unitários com C# (XUnit)"
+    link: https://www.youtube.com/watch?v=40TujcOnLdQ
+  - type: YOUTUBE
+    title: "Matheus Rizzi: Mock de objetos para teste unitário com c#"
+    link: https://www.youtube.com/watch?v=ezxBMZQ8d84
+alura-contents:
+  - type: ARTICLE
+    title: "Tipos de testes: quais os principais e por que utilizá-los?"
+    link: https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los
+  - type: PODCAST
+    title: "Hipsters.tech: Testes Automatizados"
+    link: https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535
+  - type: YOUTUBE
+    title: "Alura: Curso de Testes: TDD com C#"
+    link: https://www.youtube.com/watch?v=DZSgaWE5XFk
+  - type: COURSE
+    title: "Curso Mocks em C#: testes de Integração com xUnit e Moq"
+    link: https://cursos.alura.com.br/course/csharp-testes-de-integracao-com-xunit-e-moq
+  - type: COURSE
+    title: "Curso Selenium WebDriver e C# parte 1: testes da sua web app"
+    link: https://cursos.alura.com.br/course/selenium-csharp-webdriver
+  - type: COURSE
+    title: "Formação Testes em .NET"
+    link: https://www.alura.com.br/formacao-testes-em-dotnet

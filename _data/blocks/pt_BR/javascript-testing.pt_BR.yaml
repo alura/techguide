@@ -1,0 +1,42 @@
+name: JavaScript - Testes
+logo: 
+short-description:
+key-objectives:
+  - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+  - Usar testes unitários
+  - Usar testes de integração
+  - Usar testes de comportamento (behavior)
+  - Usar mocks
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Testes Unitários: Fundamentos e Qualidade de Software!"
+    link: https://dev.to/wnqueiroz/testes-unitarios-fundamentos-e-qualidade-de-software-5af0
+  - type: ARTICLE
+    title: "Uma visão geral de testes em Javascript"
+    link: https://medium.com/devzera/uma-vis%C3%A3o-geral-de-testes-em-javascript-em-2018-8484154caf63
+  - type: ARTICLE
+    title: "Criando testes unitários em javascript"
+    link: https://ryuogawa.medium.com/criando-testes-unit%C3%A1rios-em-javascript-ce34c3079ab9
+  - type: ARTICLE
+    title: "O que é teste de software? Iniciando TDD com JavaScript"
+    link: https://medium.com/@murilo001os/o-que-%C3%A9-teste-de-software-iniciando-tdd-com-javascript-985e9dc7fc09
+  - type: YOUTUBE
+    title: "Roger Melo: JavaScript puro: Introdução ao TDD"
+    link: https://www.youtube.com/watch?v=hwgy0l7_XRE
+  - type: YOUTUBE
+    title: "Erick Wendel: Como fazer testes automatizados em JavaScript"
+    link: https://www.youtube.com/watch?v=8hxhZkBzWhk
+  - type: YOUTUBE
+    title: "DevPleno: Como criar teste unitários em Angular"
+    link: https://www.youtube.com/watch?v=MQs8_KIj_PU
+  - type: YOUTUBE
+    title: "Hype IT Brasil: Testes Unitários com JASMINE"
+    link: https://www.youtube.com/watch?v=tYe_5ufcka4
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Curso de Jasmine: Testes automatizados em JavaScript"
+    link: https://www.youtube.com/watch?v=u9dD93mj9U4
+  - type: YOUTUBE
+    title: "Alura: Testes em Javascript - Alura Live 50"
+    link: https://www.youtube.com/watch?v=HgKRC14Ab5c

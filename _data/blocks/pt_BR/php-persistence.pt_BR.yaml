@@ -1,0 +1,32 @@
+name: PHP - Persistência
+logo: 
+short-description:
+key-objectives:
+  - O conceito de "persistência de dados" refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.
+  - Conhecer o PDO
+  - Fazer inserções, alterações e remoções em um banco de dados
+  - Fazer consultas em um banco de dados usando filtros
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "PHP Data Object (PDO) de maneira Produtiva: boas práticas e produtividade na interação com a camada de dados"
+    link: https://sergiodanilojr.medium.com/php-data-object-pdo-de-maneira-produtiva-boas-pr%C3%A1ticas-e-produtividade-na-intera%C3%A7%C3%A3o-com-a-b86ec61e66f2
+  - type: ARTICLE
+    title: "Entendendo a classe PDO"
+    link: https://medium.com/trainingcenter/entendendo-e-utilizando-a-classe-pdo-836b3fcaf75
+  - type: ARTICLE
+    title: "Primeiros passos com PHP e PDO"
+    link: https://medium.com/@valdiney/primeiros-passos-com-php-e-pdo-191a9dccf210
+  - type: YOUTUBE
+    title: "Professor Edson Maia: Persistência com PHP OO e PDO"
+    link: https://www.youtube.com/watch?v=5FPTKe5PXLo
+  - type: YOUTUBE
+    title: "Daniel Alves: PHP - Classe de Persistência"
+    link: https://www.youtube.com/watch?v=ayo2Qa37Mrg
+alura-contents:
+  - type: ARTICLE
+    title: "Como acessar o banco de dados com PHP7: mysqli ou PDO?"
+    link: https://www.alura.com.br/artigos/como-acessar-o-banco-de-dados-com-php-7
+  - type: COURSE
+    title: "Curso PHP e PDO: trabalhando com bancos de dados"
+    link: https://cursos.alura.com.br/course/php-pdo-banco-de-dados

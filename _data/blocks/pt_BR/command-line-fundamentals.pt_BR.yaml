@@ -1,0 +1,27 @@
+name: Linha de comando - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
+  - Conhecer os principais comandos
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Como usar argumentos de linha de comando para terminal do Windows"
+    link: https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows
+  - type: YOUTUBE
+    title: "Estevan Maito: Linha de comando básica - 8 comandos mais frequentes - WINDOWS e LINUX"
+    link: https://www.youtube.com/watch?v=rKBqXJZocYk
+  - type: YOUTUBE
+    title: "Ninja do Linux: Comandos básicos da linha de comando do Linux"
+    link: https://www.youtube.com/watch?v=rs_yshFGu8E
+alura-contents:
+  - type: ARTICLE
+    title: "CMD: dicas para trabalhar no prompt do Windows"
+    link: https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows
+  - type: SITE
+    title: "Primeiras aulas do Curso Windows Prompt: Trabalhando na linha de comando"
+    link: https://www.alura.com.br/conteudo/prompt
+  - type: COURSE
+    title: "Curso Windows Prompt: Trabalhando na linha de comando"
+    link: https://www.alura.com.br/curso-online-prompt

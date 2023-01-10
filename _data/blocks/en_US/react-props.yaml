@@ -1,0 +1,37 @@
+name: React - Props
+logo: 
+short-description:
+key-objectives:
+  - Props are an object that is injected in components and provides some data that can be shared between other components in an uni-directional flow of data, from a parent to a child element. Props are read-only.
+  - Passing props
+  - Manipulating props
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: React Props"
+    link: https://www.w3schools.com/react/react_props.asp
+  - type: SITE
+    title: "React: Documentation - Components and Props"
+    link: https://reactjs.org/docs/components-and-props.html
+  - type: SITE
+    title: "React: Documentation - Components and Props"
+    link: https://reactjs.org/docs/render-props.html#gatsby-focus-wrapper
+  - type: SITE
+    title: "MDN Web Docs: Getting started with React - Variables and props"
+    link: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#variables_and_props
+  - type: ARTICLE
+    title: "Props in React"
+    link: https://medium.com/@wlodarczyk_j/props-in-react-2ec0d0d0df9c
+  - type: ARTICLE
+    title: "ReactJS Fundamental — Props & State Simplified"
+    link: https://infinitypaul.medium.com/reactjs-fundamental-props-state-simplified-bb2cd73803d5
+  - type: YOUTUBE
+    title: "Sonny Sangha: Learn how to use Props in React in 19 minutes"
+    link: https://www.youtube.com/watch?v=kHJSNFU7H4U
+  - type: YOUTUBE
+    title: "Codevolution: ReactJS Tutorial - 9 - Props"
+    link: https://www.youtube.com/watch?v=m7OWXtbiXX8
+  - type: YOUTUBE
+    title: "The Net Ninja: Full React Tutorial 11 - Props"
+    link: https://www.youtube.com/watch?v=PHaECbrKgs0
+alura-contents:

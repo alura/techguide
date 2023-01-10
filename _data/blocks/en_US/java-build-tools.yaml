@@ -1,0 +1,45 @@
+name: Java build tools
+logo: 
+short-description:
+key-objectives:
+  - A build tool is a system that allows you to automate all the routine tasks of a project in an organized way that avoids the developer from having to waste time. In other words, adding a new library, performing tests, packaging and deploying, or even compatibility between different IDEs are tasks easily solved with a build tool.
+  - Getting to know the most popular Java build tools, such as Maven, Jenkins, Apache Ant, Gradle, etc., and how to use them
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "JavaTPoint: Maven Tutorial"
+    link: https://www.javatpoint.com/maven-tutorial
+  - type: ARTICLE
+    title: "List of Open Source Java Build Tools"
+    link: https://devopscube.com/list-of-popular-open-source-java-build-tools/
+  - type: ARTICLE
+    title: "Java build tools: Maven vs Gradle"
+    link: https://www.educative.io/blog/java-build-tools-maven-vs-gradle
+  - type: SITE
+    title: "Apache Ant - Documentation - Tutorial: Hello World with Apache Ant"
+    link: https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html
+  - type: ARTICLE
+    title: "Apache ANT Tutorial: What is Ant Build Tool?"
+    link: https://www.guru99.com/apache-ant-tutorial.html
+  - type: SITE
+    title: "Jenkins - Documentation - Build a Java app with Maven"
+    link: https://www.jenkins.io/doc/tutorials/build-a-java-app-with-maven/
+  - type: SITE
+    title: "JavaTPoint: Jenkins Tutorial"
+    link: https://www.javatpoint.com/jenkins
+  - type: SITE
+    title: "JavaTPoint: Gradle Tutorial"
+    link: https://www.javatpoint.com/gradle
+  - type: YOUTUBE
+    title: "Daniel Persson: Comparing 3 java build tools (Ant vs Maven vs Gradle)"
+    link: https://www.youtube.com/watch?v=s6W2R1Z3wd4
+  - type: YOUTUBE
+    title: "Microsoft Developer: Building your Java project with Maven"
+    link: https://www.youtube.com/watch?v=l6sC5sK1zfg
+  - type: YOUTUBE
+    title: "Tom Gregory: Gradle Build Tool in 100 Seconds"
+    link: https://www.youtube.com/watch?v=kNswjy2hPHI
+  - type: YOUTUBE
+    title: "karpado[dot]com: Apache Ant - What is it? Explained in easy way"
+    link: https://www.youtube.com/watch?v=OzFvOu2UMcc
+alura-contents:

@@ -1,0 +1,51 @@
+name: JavaScript - Callbacks e Promises
+logo: 
+short-description:
+key-objectives:
+  - Uma promessa (Promise) é um proxy para um valor não necessariamente conhecido quando a promessa é criada. Isso permite que métodos assíncronos retornem valores como métodos síncronos - em vez de retornar imediatamente o valor final, o método assíncrono retorna uma promessa de fornecer o valor em algum momento no futuro.
+  - Uma função de Callback é uma função passada para outra função como um argumento, que é então invocado dentro da função externa para completar algum tipo de rotina ou ação.
+  - Uma função assíncrona (async) é uma função declarada com a palavra-chave `async`, e a palavra-chave `await` é permitida dentro dela. As palavras-chave `async` e `await` permitem que o comportamento assíncrono e baseado em promessas seja escrito em um estilo mais limpo, evitando a necessidade de configurar explicitamente as cadeias de promessas.
+  - Entender o conceito de assincronicidade em programação
+  - Escrever código assíncrono entendendo o conceito de promessas em JavaScript
+  - Utilizar os métodos, palavras-chaves e objetos do JavaScript para manipulação de promessas como 'Async/Await', '.then()', 'Promise', etc 
+  - Aprender em quais situações é necessário o uso de programação assíncrona
+  - Fazer chamadas em APIs com `fetch()`
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Funções assíncronas"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function
+  - type: SITE
+    title: "MDN Web Docs: Promise"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise
+  - type: SITE
+    title: "MDN Web Docs: Função Callback"
+    link: https://developer.mozilla.org/pt-BR/docs/Glossary/Callback_function
+  - type: SITE
+    title: "MDN Web Docs: Introdução ao JavaScript Async"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Asynchronous/Introducing
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Como usar Async/Await? Promises no JavaScript?"
+    link: https://www.youtube.com/watch?v=q28lfkBd9F4
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Callbacks, Síncrono, Assíncrono e Event Loop no JavaScript"
+    link: https://www.youtube.com/watch?v=6lbBaM18X3g
+  - type: ARTICLE
+    title: "Entendendo como fazer AJAX com a FetchAPI"
+    link: https://medium.com/@omariosouto/entendendo-como-fazer-ajax-com-a-fetchapi-977ff20da3c6
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Como pegar dados de uma API? Como fazer AJAX? | Pegando dados de serviços via JavaScript"
+    link: https://www.youtube.com/watch?v=85vJXFpXLQw
+  - type: ARTICLE
+    title: "Revolução no Node.js: adeus ao Axios e fetch API na versão 17.5.0"
+    link: https://www.alura.com.br/artigos/revolucao-node-js-adeus-axios-fetch-api-versao-17-5-0
+alura-contents:
+  - type: ARTICLE
+    title: "Async/await no JavaScript: o que é e quando usar a programação assíncrona?"
+    link: https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar
+  - type: SITE
+    title: "Alura+: JavaScript assíncrono e Fetch"
+    link: https://cursos.alura.com.br/extra/alura-mais/javascript-assincrono-e-fetch-c93
+  - type: COURSE
+    title: "Curso Node.js: criando sua biblioteca"
+    link: https://cursos.alura.com.br/course/nodejs-criando-biblioteca

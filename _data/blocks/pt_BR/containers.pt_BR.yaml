@@ -1,0 +1,92 @@
+name: Contêineres
+logo: 
+short-description:
+key-objectives:
+  - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
+  - O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.
+  - Isolar seu software para funcionar independentemente
+  - Implantar software em clusters
+  - Modularizar seu sistema em pacotes menores
+  - Conhecer a plataforma Docker
+  - Conhecer Kubernetes
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "IBM: Contêineres"
+    link: https://www.ibm.com/br-pt/cloud/learn/containers
+  - type: SITE
+    title: "HPE: O que são contêineres?"
+    link: https://www.hpe.com/br/pt/what-is/containers.html
+  - type: SITE
+    title: "Google Cloud: O que são contêineres?"
+    link: https://cloud.google.com/learn/what-are-containers?hl=pt-br
+  - type: SITE
+    title: "Azure: O que é um contêiner?"
+    link: https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-a-container/
+  - type: SITE
+    title: "Documentação Kubernetes"
+    link: https://kubernetes.io/pt-br/docs/concepts/overview/what-is-kubernetes/
+  - type: ARTICLE
+    title: "Red Hat: Kubernetes (K8s)"
+    link: https://www.redhat.com/pt-br/topics/containers/what-is-kubernetes
+  - type: ARTICLE
+    title: "Azure: O que é Kubernetes?"
+    link: https://azure.microsoft.com/pt-br/topic/what-is-kubernetes/
+  - type: YOUTUBE
+    title: "Fabrício Veronez DevOps Pro: O que é Kubernetes?"
+    link: https://www.youtube.com/watch?v=9vkNByu2ozU
+  - type: YOUTUBE
+    title: "Insight Lab: Revisão Docker - Curso de Introdução ao Kubernetes"
+    link: https://www.youtube.com/watch?v=bcRArpK00OU
+  - type: YOUTUBE
+    title: "Insight Lab: Arquitetura do K8s - Curso de Introdução ao Kubernetes"
+    link: https://www.youtube.com/watch?v=bPFxwwSfSmk
+  - type: YOUTUBE
+    title: "Pisani da ArcH: Kubernetes - entenda e comece a arquitetar agora mesmo"
+    link: https://www.youtube.com/watch?v=XjaqTqm7g58
+alura-contents:
+  - type: ARTICLE
+    title: "O que é Kubernetes"
+    link: https://www.alura.com.br/artigos/o-que-e-kubernetes  
+  - type: ARTICLE
+    title: "Criando volumes com Docker"
+    link: https://www.alura.com.br/artigos/criando-volumes-com-docker
+  - type: ARTICLE
+    title: "Docker Compose para compor uma aplicação"
+    link: https://www.alura.com.br/artigos/compondo-uma-aplicacao-com-o-docker-compose
+  - type: YOUTUBE
+    title: "Alura: O que são Containers?"
+    link: https://www.youtube.com/watch?v=jv4_sLlGOS0
+  - type: YOUTUBE
+    title: "Alura: Containers, Docker e Kubernetes (com Giovanni Bassi)"
+    link: https://www.youtube.com/watch?v=wxLvvMxzc1Q
+  - type: PODCAST
+    title: "Hipsters.tech: Kubernetes - Hipsters 177"
+    link: https://www.alura.com.br/podcast/kubernetes-hipsters-177-a389
+  - type: PODCAST
+    title: "Hipsters.tech: Microsserviços e Kubernetes na Americanas.com - Hipsters On The Road 56"
+    link: https://www.alura.com.br/podcast/microsservicos-e-kubernetes-na-americanas-com-hipsters-on-the-road-56-a857
+  - type: COURSE
+    title: "Formação Orquestração de containers com Kubernetes"
+    link: https://cursos.alura.com.br/formacao-kubernetes
+  - type: COURSE
+    title: "Curso Docker: criando e gerenciando containers"
+    link: https://cursos.alura.com.br/course/docker-criando-gerenciando-containers?preRequirementFrom=docker-na-amazon-ecs
+  - type: COURSE
+    title: "Curso Kubernetes: Pods, Services e ConfigMaps"
+    link: https://cursos.alura.com.br/course/kubernetes-pods-services-configmap
+  - type: COURSE
+    title: "Curso Kubernetes: Deployments, Volumes e Escalabilidade"
+    link: https://cursos.alura.com.br/course/kubernetes-deployments-volumes-escalabilidade
+  - type: COURSE
+    title: "Curso Google Kubernetes Engine"
+    link: https://cursos.alura.com.br/course/google-kubernetes-engine-primeiros-passos
+  - type: COURSE
+    title: "Curso Kubernetes na Digital Ocean: gerenciando aplicações conteinerizadas"
+    link: https://cursos.alura.com.br/course/kubernetes-digital-ocean
+  - type: COURSE
+    title: "Curso Amazon EKS: gerenciando aplicações conteinerizadas com Kubernetes"
+    link: https://cursos.alura.com.br/course/amazon-eks-kubernetes
+  - type: COURSE
+    title: "Curso Azure: gerencie Kubernetes com AKS e ACR"
+    link: https://cursos.alura.com.br/course/azure-gerencie-kubernetes-com-aks-acr

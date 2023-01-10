@@ -1,0 +1,32 @@
+name: Babel - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Babel is a JavaScript compiler. It is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation: What is Babel?"
+    link: https://babeljs.io/docs/en/
+  - type: ARTICLE
+    title: "Tutorial - Babel"
+    link: https://medium.com/@dustinhuang21/tutorial-babel-aaf3162797de
+  - type: ARTICLE
+    title: "What are NPM, Yarn, Babel, and Webpack; and how to properly use them?"
+    link: https://medium.com/front-end-weekly/what-are-npm-yarn-babel-and-webpack-and-how-to-properly-use-them-d835a758f987
+  - type: ARTICLE
+    title: "A brief introduction to Babel.js"
+    link: https://medium.com/jspoint/how-to-quickly-transpile-javascript-using-babel-alone-a-brief-introduction-to-babel-js-40e74e43fe32
+  - type: YOUTUBE
+    title: "codedamn: What is Babel and why you need it? Introduction to Babel 7"
+    link: https://www.youtube.com/watch?v=yLrNwo4wXOs
+  - type: YOUTUBE
+    title: "Strezabyte: Babel.js - What It Is, and How You Can Use It"
+    link: https://www.youtube.com/watch?v=C2PDAGCrk_g
+  - type: YOUTUBE
+    title: "Monsterlessons Academy: Getting Started With Babel - Transpiling Javascript"
+    link: https://www.youtube.com/watch?v=o9hmjdmJLMU
+  - type: YOUTUBE
+    title: "Daily Tuition: What is Use of Babel in React - React For Beginners"
+    link: https://www.youtube.com/watch?v=PUoFXd3b5CY
+alura-contents:

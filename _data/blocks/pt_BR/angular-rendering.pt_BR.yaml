@@ -1,0 +1,25 @@
+name: Angular - Renderização
+logo: 
+short-description:
+key-objectives:
+  - Uma aplicação Angular normal é executada no navegador, renderizando páginas no DOM em resposta às ações do usuário. A Angular Universal executa no servidor, gerando páginas de aplicação estática que mais tarde são inicializadas no cliente.
+  - Exibir uma página Angular no navegador
+  - Realizar renderização no lado do servidor
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Angular Universal — Renderizando sua aplicação no Servidor"
+    link: https://medium.com/@arturquirino/angular-universal-renderizando-sua-aplica%C3%A7%C3%A3o-no-servidor-f9ac617237d2
+  - type: ARTICLE
+    title: "Performance em Angular — Dicas e truques"
+    link: https://medium.com/codigorefinado/performance-em-angular-dicas-e-truques-deeb6cb3860c
+  - type: ARTICLE
+    title: "Introdução a Renderização Dinâmica"
+    link: https://reulison.com.br/renderizacao-dinamica/
+alura-contents:
+  - type: SITE
+    title: "Primeiras aulas do curso Angular: explorando o framework"
+    link: https://www.alura.com.br/conteudo/angular-comecando-framework
+  - type: COURSE
+    title: "Curso Angular: explorando o framework"
+    link: https://www.alura.com.br/curso-online-angular-comecando-framework

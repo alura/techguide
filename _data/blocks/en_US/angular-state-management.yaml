@@ -1,0 +1,29 @@
+name: Angular - State Management
+logo: 
+short-description:
+key-objectives:
+  - A 'state' is whatever data necessary in order to rebuild the UI at any moment in time. When this data change, it will trigger a redraw of the user interface. State management is the concept of adding, updating, removing and reading these data and their state in an application.
+  - Updating components in real time
+  - Waiting for changes in a component and performing changes
+  - Using Redux, NGXS and others
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "State Management: don’t shoot yourself in the foot before you start an Angular application"
+    link: https://medium.com/@2muchcoffee/angular-state-management-a-must-have-for-large-scale-angular-apps-8b98e5a761c7
+  - type: ARTICLE
+    title: "Angular State Managment — Don’t fear the boilerplate"
+    link: https://codeburst.io/state-management-in-angular-ee2ccb81c283
+  - type: ARTICLE
+    title: "State Management in Angular Using NGXS"
+    link: https://auth0.com/blog/state-management-in-angular-with-ngxs-part-1/
+  - type: ARTICLE
+    title: "Angular State Management Without RxJS — An Experiment"
+    link: https://medium.com/swlh/angular-state-management-without-rxjs-an-experiment-243de024d396
+  - type: YOUTUBE
+    title: "Fireship: NGXS - Angular State Management"
+    link: https://www.youtube.com/watch?v=SGj11j4hxmg
+  - type: YOUTUBE
+    title: "Decoded Frontend: State Management in Angular - Do I need Redux & NgRx?"
+    link: https://www.youtube.com/watch?v=2LwuV6s-Cy4
+alura-contents:

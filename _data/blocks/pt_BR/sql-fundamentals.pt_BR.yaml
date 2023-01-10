@@ -1,0 +1,57 @@
+name: SQL - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.
+  - Conhecer os comandos mais comuns do SQL
+  - Usar SELECT para consultar uma tabela
+  - Usar INSERT para inserir dados em uma tabela
+  - Usar UPDATE para atualizar uma tabela
+  - Usar DELETE para remover dados de uma tabela
+  - Usar JOIN para conectar os dados de múltiplas tabelas
+  - Conhecer as cláusulas (FROM, ORDER BY, etc)
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "SQL — O que é e como funciona na prática?"
+    link: https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a
+  - type: ARTICLE
+    title: "SQL: comandos básicos"
+    link: https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909
+  - type: YOUTUBE
+    title: "CreateSe: Comandos básicos do SQL"
+    link: https://www.youtube.com/watch?v=_rZxrqn0X-4
+  - type: YOUTUBE
+    title: "10 conceitos essenciais de SQL que todo desenvolvedor deve saber"
+    link: https://youtu.be/cIUTAyomVPQ    
+alura-contents:
+  - type: ARTICLE
+    title: "O que é SQL?"
+    link: https://www.alura.com.br/artigos/o-que-e-sql
+  - type: ARTICLE
+    title: "SQL: Comandos básicos"
+    link: https://www.alura.com.br/artigos/sql-comandos-basicos
+  - type: ARTICLE
+    title: "SQL: consultas com SELECT"
+    link: https://www.alura.com.br/artigos/sql-consultas-com-select
+  - type: ARTICLE
+    title: "SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS"
+    link: https://www.alura.com.br/artigos/join-em-sql
+  - type: ARTICLE
+    title: "SQL Injection"
+    link: https://www.alura.com.br/artigos/sql-injection-proteja-sua-aplicacao
+  - type: YOUTUBE  
+    title: "Alura: Iniciando consultas em uma das maiores linguagens de banco de dados"
+    link: https://www.youtube.com/watch?v=gka6ZMnKTGs
+  - type: YOUTUBE
+    title: "Alura: O que é SQL e NoSQL?"
+    link: https://www.youtube.com/watch?v=aure5d3B88g
+  - type: COURSE
+    title: "Curso SQL com MySQL: manipule e consulte dados"
+    link: https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql
+  - type: COURSE
+    title: "Curso Consultas SQL: avançando no SQL com MySQL"
+    link: https://cursos.alura.com.br/course/mysql-consultas-sql
+  - type: COURSE
+    title: "Formação SQL com MySQL Server da Oracle"
+    link: https://cursos.alura.com.br/formacao-oracle-mysql

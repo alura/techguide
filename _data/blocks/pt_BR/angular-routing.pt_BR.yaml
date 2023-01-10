@@ -1,0 +1,31 @@
+name: Angular - Roteamento
+logo: 
+short-description:
+key-objectives:
+  - Navegar até um componente
+  - Incluir um parâmetro de rota
+  - Controlar o fluxo de navegação do seu usuário com guarda de rotas
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Router tutorial (inglês)"
+    link: https://angular.io/guide/router-tutorial
+  - type: ARTICLE
+    title: "Angular 5: Trabalhando com Rotas"
+    link: https://medium.com/angularbr/angular-5-trabalhando-com-rotas-8335617fcdbc
+  - type: ARTICLE
+    title: "Layout, rotas e parâmetros"
+    link: https://kosmicke.medium.com/aula-01-layout-rotas-e-par%C3%A2metros-80f44dafb43a
+  - type: YOUTUBE
+    title: "Loiane Groner: Rotas - Introdução"
+    link: https://www.youtube.com/watch?v=wzdKc0AFY6k&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=51
+  - type: YOUTUBE
+    title: "Loiane Groner: Rotas - Configurando rotas simples"
+    link: https://www.youtube.com/watch?v=8OHoAZ6j0Rg&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=52
+alura-contents:
+  - type: SITE
+    title: "Primeiras aulas do curso Angular: controle o fluxo de navegação"
+    link: https://www.alura.com.br/conteudo/angular-comecando-framework
+  - type: COURSE
+    title: "Curso Angular: controle o fluxo de navegação"
+    link: https://www.alura.com.br/curso-online-angular-controle-fluxo-navegacao

@@ -1,0 +1,28 @@
+name: Angular - Services
+logo: 
+short-description:
+key-objectives:
+  - Um serviço é uma categoria ampla que engloba qualquer valor, função ou funcionalidade que uma aplicação necessite. Um serviço é tipicamente uma classe com um propósito conciso e bem definido. O Angular distingue componentes de serviços, para aumentar a modularidade e a reusabilidade.
+  - Criar dados que estarão sempre disponíveis
+  - Dividir a aplicação web em diversas partes
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "O que é um serviço no Angular e porquê usá-lo?"
+    link: https://dumildematos.medium.com/o-que-%C3%A9-um-servi%C3%A7o-no-angular-e-por-que-us%C3%A1-lo-2c8b441618cf
+  - type: ARTICLE
+    title: "Herança de services em Angular"
+    link: https://vanderloureiro.medium.com/heran%C3%A7a-de-services-em-angular-fca7a97b5f0c
+  - type: YOUTUBE
+    title: "Michelli Brito: Criando um Service"
+    link: https://www.youtube.com/watch?v=IA8q9REW1LI
+  - type: YOUTUBE
+    title: "Loiane Groner: Criando um serviço (Service)"
+    link: https://www.youtube.com/watch?v=8fE1e9j6fJo
+alura-contents:
+  - type: SITE
+    title: "Primeiras aulas do curso Angular: explorando o framework"
+    link: https://www.alura.com.br/conteudo/angular-comecando-framework
+  - type: COURSE
+    title: "Curso Angular: explorando o framework"
+    link: https://www.alura.com.br/curso-online-angular-comecando-framework

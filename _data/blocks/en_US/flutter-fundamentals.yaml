@@ -1,0 +1,39 @@
+name: Flutter - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase.
+  - Flutter widgets are built using a modern framework that takes inspiration from React. The central idea is that you build your UI out of widgets. Widgets describe what their view should look like given their current configuration and state.
+  - Installing and configuring Flutter
+  - Learning how to use basic Flutter widgets, such as Column, Row, Scaffold, Text, Image, Container, AppBar, ElevatedButton, among other
+  - Understanding the differences between Stateless and Stateful widgets
+  - Developing your first Flutter application
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Installing Flutter"
+    link: https://docs.flutter.dev/get-started/install
+  - type: SITE
+    title: "Introduction to widgets"
+    link: https://docs.flutter.dev/development/ui/widgets-intro
+  - type: SITE
+    title: "Widget catalog"
+    link: https://docs.flutter.dev/development/ui/widgets
+  - type: ARTICLE
+    title: "What even are Flutter widgets?"
+    link: https://medium.com/super-declarative/what-even-are-flutter-widgets-ce537a048a7d
+  - type: ARTICLE
+    title: "Flutter widgets and layouts in minutes"
+    link: https://medium.com/hackernoon/flutter-widgets-and-layouts-in-minutes-ffd4d2f0d443
+  - type: ARTICLE
+    title: "Learn About Flutter Widgets by Making a Simple Weather App"
+    link: https://betterprogramming.pub/learn-about-flutter-widgets-by-making-a-simple-weather-app-46c8b9e9b24e
+  - type: YOUTUBE
+    title: "Flutter: Widget of the Week (Playlist)"
+    link: https://www.youtube.com/watch?v=XawP1i314WM&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
+  - type: YOUTUBE
+    title: "Flutter Mapp: Flutter Tutorial For Beginners in 3 Hours"
+    link: https://www.youtube.com/watch?v=CD1Y2DmL5JM
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Flutter Course for Beginners – 37-hour Cross Platform App Development Tutorial"
+    link: https://www.youtube.com/watch?v=VPvVD8t02U8

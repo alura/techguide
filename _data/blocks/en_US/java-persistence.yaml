@@ -1,0 +1,43 @@
+name: Java - Persistence
+logo: 
+short-description:
+key-objectives:
+  - The concept of "data persistence" refers to ensuring that the information inputted into an application will be stored in a medium where it can be retrieved consistently. In other words, they are permanent records that are not lost when the session is closed.
+  - Understanding JDBC and JPA
+  - Using frameworks such as Spring Data and Hibernate
+  - Communicating with a relational database
+  - Understanding the difference between EAGER and LAZY relationships
+  - Planning queries with join fetch 
+  - Encapsulating access in a DAO
+  - Understanding how memory works in this situation
+aditional-objectives:
+  - Performing JPQL queries
+contents:
+  - type: SITE
+    title: "Spring - Documentation - Spring Data JDBC"
+    link: https://spring.io/projects/spring-data-jdbc
+  - type: SITE
+    title: "IBM Docs: Java Persistence API (JPA)"
+    link: https://www.ibm.com/docs/en/was-liberty/zos?topic=overview-java-persistence-api-jpa
+  - type: ARTICLE
+    title: "Spring JDBC"
+    link: https://medium.com/@bushra.saifi/spring-jdbc-989914389bfc
+  - type: ARTICLE
+    title: "Introduction to Spring Boot and JDBCTemplate - JDBC Template"
+    link: https://medium.com/xgeeks/introduction-to-spring-boot-and-jdbctemplate-jdbc-template-13c84add2bea
+  - type: ARTICLE
+    title: "A Quick Start with Spring Boot and Spring Data JPA"
+    link: https://medium.com/@saultobias13/a-quick-start-with-spring-boot-and-spring-data-jpa-32718a8f4706
+  - type: YOUTUBE
+    title: "Amigoscode: Spring Data JPA"
+    link: https://www.youtube.com/watch?v=8SGI_XS5OPw
+  - type: YOUTUBE
+    title: "Thorben Janssen: Spring Data JPA - What is it? And Why Should You Use It?"
+    link: https://www.youtube.com/watch?v=x67yiTHxn00
+  - type: YOUTUBE
+    title: "Simplilearn: Java JDBC tutorial"
+    link: https://www.youtube.com/watch?v=3OrEsC-QjUA
+  - type: YOUTUBE
+    title: "Simplilearn: Java Hibernate in 100 minutes"
+    link: https://www.youtube.com/watch?v=TQQki9yQaLg
+alura-contents:

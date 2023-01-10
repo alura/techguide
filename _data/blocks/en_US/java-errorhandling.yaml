@@ -1,0 +1,34 @@
+name: Java - Error handling
+logo: 
+short-description:
+key-objectives:
+  - Error handling refers to the response and recovery procedures from error conditions present in a software application. In other words, it is the process comprised of anticipation, detection and resolution of application, programming or communication errors.
+  - Knowing and handling the most common exceptions
+  - Knowing the types of errors and in which situations they can occur
+  - Using 'try' and 'catch' for error handling
+  - Learning on what occasions and how to use `throw`
+  - Creating specific exceptions according to your application's needs
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Java - Documentation - What Is an Exception?"
+    link: https://dev.java/learn/what-is-an-exception/
+  - type: SITE
+    title: "Java - Documentation - Catching and Handling Exceptions"
+    link: https://dev.java/learn/catching-and-handling-exceptions/
+  - type: SITE
+    title: "Java - Documentation - Throwing Exceptions"
+    link: https://dev.java/learn/throwing-exceptions/
+  - type: SITE
+    title: "W3Schools: Java Exceptions - Try...Catch"
+    link: https://www.w3schools.com/java/java_try_catch.asp
+  - type: ARTICLE
+    title: "Exception Handling in Java — A Beginners Guide to Java Exceptions"
+    link: https://medium.com/edureka/java-exception-handling-7bd07435508c
+  - type: YOUTUBE
+    title: "Coding with John: Exception Handling in Java Tutorial"
+    link: https://www.youtube.com/watch?v=1XAfapkBQjk
+  - type: YOUTUBE
+    title: "Alex Lee: Java Exceptions"
+    link: https://www.youtube.com/watch?v=xNVlq9IEBEg
+alura-contents:

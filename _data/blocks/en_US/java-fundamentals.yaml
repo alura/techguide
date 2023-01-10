@@ -1,0 +1,63 @@
+name: Java - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Java is a widely-used programming language for coding web applications. Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself. It is a fast, secure, reliable programming language for coding everything from mobile apps and enterprise software to big data applications and server-side technologies.
+  - Knowing the primitive types
+  - Declaring variables, considering the different types
+  - Using conditional structures ('if', 'else')
+  - Knowing the comparison operators
+  - Using repetition structures and loops ('while', 'for')
+  - Using functions, passing parameters and arguments
+  - Manipulating methods
+  - Manipulating arrays and lists
+  - Getting data from an API
+  - Making asynchronous 'Future' calls, etc
+  - Creating constructors
+aditional-objectives:
+  - Manipulating JSON objects
+  - Handling dates
+contents:
+  - type: SITE
+    title: "Java - Documentation"
+    link: https://dev.java/learn/
+  - type: SITE
+    title: "O que é Java?"
+    link: https://aws.amazon.com/what-is/java/
+  - type: SITE
+    title: "Java - Documentation - Primitive types"
+    link: https://dev.java/learn/creating-primitive-type-variables-in-your-programs/
+  - type: SITE
+    title: "Java - Documentation - Creating Arrays"
+    link: https://dev.java/learn/creating-arrays-in-your-programs/
+  - type: SITE
+    title: "Java - Documentation - Creating Classes"
+    link: https://dev.java/learn/creating-classes/
+  - type: SITE
+    title: "Java - Documentation - Defining Methods"
+    link: https://dev.java/learn/defining-methods/
+  - type: SITE
+    title: "Java - Documentation - Creating and Using Objects"
+    link: https://dev.java/learn/creating-and-using-objects/
+  - type: SITE
+    title: "W3Schools: Java If ... Else"
+    link: https://www.w3schools.com/java/java_conditions.asp
+  - type: SITE
+    title: "W3Schools: Java While Loop"
+    link: https://www.w3schools.com/java/java_while_loop.asp
+  - type: SITE
+    title: "W3Schools: Java For Loop"
+    link: https://www.w3schools.com/java/java_for_loop.asp
+  - type: ARTICLE
+    title: "Async in Java"
+    link: https://medium.com/cognizantsoftvision-guildhall/async-in-java-80a7240fefa8
+  - type: YOUTUBE
+    title: "Alex Lee: Learn Java in 14 Minutes"
+    link: https://www.youtube.com/watch?v=RRubcjpTkks
+  - type: YOUTUBE
+    title: "Programming with Mosh: Java Tutorial for Beginners"
+    link: https://www.youtube.com/watch?v=eIrMbAQSU34
+  - type: YOUTUBE
+    title: "Bro Code: Java Full Course (FREE)"
+    link: https://www.youtube.com/watch?v=xk4_1vDrzzo
+alura-contents:

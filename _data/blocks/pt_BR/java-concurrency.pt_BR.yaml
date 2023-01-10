@@ -1,0 +1,41 @@
+name: Java - Concorrência
+logo: 
+short-description:
+key-objectives:
+  - Programação concorrente é um paradigma de programação para a construção de programas que fazem uso da execução simultânea de várias tarefas computacionais interativas, que podem ser implementadas como programas separados ou como um conjunto de threads criadas por um único programa.
+  - Executar tarefas simultaneamente
+  - Colocar tarefas para aguardar até que um determinado evento ocorra
+  - Entender como a memória funciona nessa situação
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Concorrência e Paralelismo — Threads, múltiplos processos e AsyncIO — Parte 1"
+    link: https://medium.com/diogommartins/concorr%C3%AAncia-e-paralelismo-threads-m%C3%BAltiplos-processos-e-asyncio-parte-1-fbbdd2309d74
+  - type: ARTICLE
+    title: "Concorrência e Paralelismo — Threads, múltiplos processos e AsyncIO — Parte 2"
+    link: https://medium.com/diogommartins/concorr%C3%AAncia-e-paralelismo-threads-m%C3%BAltiplos-processos-e-asyncio-parte-2-8e539c59a16a
+  - type: ARTICLE
+    title: "Understanding Java threads once and for all (inglês)"
+    link: https://medium.com/swlh/understanding-java-threads-once-and-for-all-711f71e0ec1e
+  - type: YOUTUBE
+    title: "Loiane Groner: Criando Threads + métodos start, run e sleep"
+    link: https://www.youtube.com/watch?v=v5l30QMKv6c
+  - type: YOUTUBE
+    title: "Michelli Brito: Threads em java"
+    link: https://www.youtube.com/watch?v=rVsyXGwbmag
+alura-contents:
+  - type: SITE
+    title: "Programação Concorrente E Threads"
+    link: https://www.alura.com.br/apostila-java-orientacao-objetos/apendice-programacao-concorrente-e-threads
+  - type: YOUTUBE
+    title: "Alura: Threads 1: Programação paralela em Java - Aula 1"
+    link: https://www.youtube.com/watch?v=NAOkIbpsbzs
+  - type: COURSE
+    title: "Curso Threads em Java 1: programação paralela"
+    link: https://cursos.alura.com.br/course/threads-java-1
+  - type: SITE
+    title: "Primeiras aulas do curso Threads em Java 2: programação concorrente avançada"
+    link: https://www.alura.com.br/conteudo/threads-java-2
+  - type: COURSE
+    title: "Curso Threads em Java 2: programação concorrente avançada"
+    link: https://cursos.alura.com.br/course/threads-java-2

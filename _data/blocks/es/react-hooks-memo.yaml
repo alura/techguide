@@ -1,0 +1,25 @@
+name: React Hooks - UseMemo
+logo: 
+short-description:
+key-objectives:
+- El React Hook `useMemo` devuelve un valor memorizado. `useMemo` solo volverá a calcular el valor memorizado cuando una de las dependencias haya cambiado.
+- Controlar el estado de las variables externas
+- Evitar cálculos costosos en cada render
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: React useMemo Hook"
+    link: https://www.w3schools.com/react/react_usememo.asp
+  - type: SITE
+    title: "Referencia de la API de los Hooks"
+    link: https://es.reactjs.org/docs/hooks-reference.html#usememo
+  - type: ARTICLE
+    title: "React Hook para optimizar cálculos useMemo"
+    link: https://developero.io/blog/react-hook-usememo
+  - type: YOUTUBE
+    title: "useCallback y useMemo"
+    link: https://www.youtube.com/watch?v=THL1OPn72vo
+  - type: YOUTUBE
+    title: "Codevolution: React Hooks Tutorial - useMemo Hook"
+    link: https://www.youtube.com/watch?v=qySZIzZvZOY
+alura-contents:

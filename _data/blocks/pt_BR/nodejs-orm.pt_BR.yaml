@@ -1,0 +1,36 @@
+name: Node.js - ORM
+logo: 
+short-description:
+key-objectives:
+  - Object-Relational Mapping (ORM), em português, mapeamento objeto-relacional, é uma técnica utilizada para fazer o mapeamento entre sistemas orientados a objetos e bancos de dados relacionais, onde as tabelas do banco de dados são representadas em classes e os registros das tabelas seriam instâncias dessas classes.
+  - Entender o que são ORMs e para que são utilizados
+  - Conhecer o SQL e seus gerenciadores de bancos de dados
+  - Trabalhar com o Sequelize, um ORM para uso com Node.js
+  - Conhecer outros ORMs Node.js, como o Prisma
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Sequelize - documentação oficial"
+    link: https://sequelize.org/
+  - type: ARTICLE
+    title: "ORM: entenda o que é e saiba como usar no desenvolvimento"
+    link: https://blog.revelo.com.br/orm/
+  - type: ARTICLE
+    title: "O que é ORM - Mapeamento objeto-relacional"
+    link: https://dev.to/biosbug/o-que-e-orm-mapeamento-objeto-relacional-2m8n
+  - type: YOUTUBE
+    title: "Josias Pereira: Iniciando API com NodeJs e Sequelize ORM"
+    link: https://www.youtube.com/watch?v=mpKXSe08yqA
+  - type: YOUTUBE
+    title: "Nicolas Teófilo: O melhor ORM para Node.js: Prisma"
+    link: https://www.youtube.com/watch?v=tF-ly2sB3hU
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura+: O que é ORM"
+    link: https://www.youtube.com/watch?v=x39vqeBTUmE&t=118s
+  - type: COURSE
+    title: "Curso ORM com Node.js: API com Sequelize e MySQL"
+    link: https://cursos.alura.com.br/course/orm-nodejs-api-sequelize-mysql
+  - type: COURSE
+    title: "Curso ORM com Node.js: avançando nas funcionalidades do Sequelize"
+    link: https://cursos.alura.com.br/course/orm-nodejs-avancando-sequelize

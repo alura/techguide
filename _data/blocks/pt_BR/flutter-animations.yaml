@@ -1,0 +1,58 @@
+name: Flutter - Animações
+logo: 
+short-description:
+key-objectives:
+  - Conhecer a diferença entre Animações Implícitas e Explícitas no Flutter
+  - Conhecer e saber usar os Widgets para Animações Implícitas
+  - Entender os conceitos de Duração (Duration) e Curvas (Curves)
+  - Conhecer a técnica de Animações Explicitas no Flutter
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Introdução à Animações no Flutter | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/ui/animations
+  - type: SITE
+    title: "Animações Implícitas | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/codelabs/implicit-animations
+  - type: YOUTUBE
+    title: "Flutter: Animação Básica com Animações Implícitas | Flutter on Focus (inglês)"
+    link: https://youtu.be/IVTjpW3W33s
+  - type: SITE
+    title: "Lista de Widgets de Animação do Flutter | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/ui/widgets/animation  
+  - type: YOUTUBE
+    title: "Dotcode: Destrinchando o AnimatedContainer"
+    link: https://youtu.be/8lNWgsJOZUw
+  - type: YOUTUBE
+    title: "Prof. Diego Antunes: 5 animações em 5 minutos"
+    link: https://www.youtube.com/watch?v=7t_xZZh_K4Y&ab_channel=Prof.DiegoAntunes
+  - type: ARTICLE
+    title: "Animações com Flutter"
+    link: https://ateliware.com/blog/o-mundo-das-animacoes-em-flutter
+  - type: SITE
+    title: "Simples animação de Opacidade | Flutter Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/animation/opacity-animation
+  - type: SITE
+    title: "Animando propriedades de um Container | Flutter Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/animation/animated-container
+  - type: SITE
+    title: "Animando transições de tela | Flutter Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/animation/page-route-animation
+  - type: SITE
+    title: "Animando um Widget com Simulação de Física | Flutter Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/animation/physics-simulation
+  - type: SITE
+    title: "Animações Explicitas no Flutter | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/codelabs/explicit-animations
+  - type: SITE
+    title: "Animações com Hero | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/ui/animations/hero-animations
+  - type: SITE
+    title: "Animações Escalonadas | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/ui/animations/staggered-animations
+  - type: YOUTUBE
+    title: "Flutter: Fazendo animações do jeito certo | Flutter Europe (inglês)"
+    link: https://youtu.be/wnARLByOtKA
+alura-contents:
+
+  

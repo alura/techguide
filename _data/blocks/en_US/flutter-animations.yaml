@@ -1,0 +1,56 @@
+name: Flutter - Animations
+logo: 
+short-description:
+key-objectives:
+  - Learning the difference between Implicit and Explicit Animations in Flutter
+  - Learning about and using Widgets for Implicit Animations
+  - Understanding the concepts of Duration and Curves
+  - Learning about the technique of Explicit Animations in Flutter
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Introduction to animations"
+    link: https://docs.flutter.dev/development/ui/animations
+  - type: SITE
+    title: "Implicit animations"
+    link: https://docs.flutter.dev/codelabs/implicit-animations
+  - type: YOUTUBE
+    title: "Flutter: Animation Basics with Implicit Animations"
+    link: https://youtu.be/IVTjpW3W33s
+  - type: SITE
+    title: "Animation and motion widgets"
+    link: https://docs.flutter.dev/development/ui/widgets/animation  
+  - type: YOUTUBE
+    title: "Johannes Milke: AnimatedContainer - Deep Dive"
+    link: https://www.youtube.com/watch?v=Mj-NGe7svAg
+  - type: ARTICLE
+    title: "Flutter Animations Cheat Sheet"
+    link: https://medium.com/flutter-community/flutter-animations-cheat-sheet-7f8cebfb850c
+  - type: ARTICLE
+    title: "Take Your Flutter Animations to The Next Level — Flutter Vikings Talk"
+    link: https://medium.com/@roaakdm/take-your-flutter-animations-to-the-next-level-flutter-vikings-talk-c7130939a4c1
+  - type: SITE
+    title: "Fade a widget in and out"
+    link: https://docs.flutter.dev/cookbook/animation/opacity-animation
+  - type: SITE
+    title: "Animate the properties of a container"
+    link: https://docs.flutter.dev/cookbook/animation/animated-container
+  - type: SITE
+    title: "Animate a page route transition"
+    link: https://docs.flutter.dev/cookbook/animation/page-route-animation
+  - type: SITE
+    title: "Animate a widget using a physics simulation"
+    link: https://docs.flutter.dev/cookbook/animation/physics-simulation
+  - type: SITE
+    title: "Explicit animations"
+    link: https://docs.flutter.dev/codelabs/explicit-animations
+  - type: SITE
+    title: "Hero animations"
+    link: https://docs.flutter.dev/development/ui/animations/hero-animations
+  - type: SITE
+    title: "Staggered animations"
+    link: https://docs.flutter.dev/development/ui/animations/staggered-animations
+  - type: YOUTUBE
+    title: "Flutter: Animations in Flutter done right"
+    link: https://youtu.be/wnARLByOtKA
+alura-contents:

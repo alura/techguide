@@ -1,0 +1,32 @@
+name: WebSockets
+logo: 
+short-description:
+key-objectives:
+  - WebSocket é uma tecnologia que permite a comunicação bidirecional por canais full-duplex sobre um único soquete Transmission Control Protocol (TCP). Ele é projetado para ser executado em browsers e servidores web que suportem o HTML5, mas pode ser usado por qualquer cliente ou servidor de aplicativos.
+  - Conhecer o protocolo WebSocket e seu uso na comunicação cliente-servidor
+  - Aprender sobre os diversos usos do WebSocket na web
+  - Criar aplicações que utilizam WebSockets com as APIs e bibliotecas do Node.js
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação: Escrevendo aplicações cliente WebSocket"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications
+  - type: ARTICLE
+    title: "A necessidade de criar um servidor WebSocket"
+    link: https://medium.com/tableless/a-necessidade-de-criar-um-servidor-web-socket-63a7c56a1698
+  - type: ARTICLE
+    title: "Como o JavaScript funciona: Aprofundando em WebSockets e HTTP/2 com SSE"
+    link: https://medium.com/reactbrasil/como-o-javascript-funciona-aprofundando-em-websockets-e-http-2-com-sse-como-escolher-o-caminho-d4639995ef85
+  - type: YOUTUBE
+    title: "Filipe Deschamps: WebSockets na prática é MUITO poderoso"
+    link: https://www.youtube.com/watch?v=bQ7NNSyGV2U
+alura-contents:
+  - type: ARTICLE
+    title: "Entendendo o socket no Python criando um bot de IRC"
+    link: https://www.alura.com.br/artigos/entendendo-socket-no-python-criando-um-bot-de-irc
+  - type: YOUTUBE
+    title: "Alura: Entendendo WebSockets"
+    link: https://www.youtube.com/watch?v=RwUbUnPdWqs
+  - type: COURSE
+    title: "Curso PHP Reativo: programação assíncrona em tempo real"
+    link: https://cursos.alura.com.br/course/php-reativo-programacao-assincrona-tempo-real

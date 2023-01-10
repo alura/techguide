@@ -1,0 +1,27 @@
+name: Babel - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Babel é um compilador JavaScript. É uma ferramentas usada principalmente para converter código ECMAScript 2015+ em uma versão compatível com versões anteriores do JavaScript em navegadores ou ambientes atuais e mais antigos.
+  - Compreender como Babel converte a sintaxe para JavaScript
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação: What is Babel? (inglês)"
+    link: https://babeljs.io/docs/en/
+  - type: ARTICLE
+    title: "O que é babel?"
+    link: https://coodesh.com/blog/dicionario/o-que-e-babel/
+  - type: ARTICLE
+    title: "React e Babel — Como melhorar o desempenho de suas aplicações com plugins, presets e benchmark!"
+    link: https://medium.com/nossa-coletividad/react-e-babel-como-melhorar-o-desempenho-de-suas-aplica%C3%A7%C3%B5es-com-plugins-presets-e-benchmark-fb35700a52e9
+  - type: YOUTUBE
+    title: "Matheus Castiglioni: React, Babel e Webpack, o que é tudo isso?"
+    link: https://www.youtube.com/watch?v=y5B0MXmt428
+  - type: YOUTUBE
+    title: "web3escola: Introdução ao React - Babel"
+    link: https://www.youtube.com/watch?v=jSGg2j2UNr4
+alura-contents:
+  - type: COURSE
+    title: "Curso JavaScript: salvando dados localmente com IndexedDB"
+    link: https://www.alura.com.br/curso-online-javascript-es6-orientacao-a-objetos-parte-3

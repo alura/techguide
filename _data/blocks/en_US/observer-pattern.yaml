@@ -1,0 +1,39 @@
+name: Observer pattern
+logo: 
+short-description:
+key-objectives:
+  - In software design, the Observer pattern is a software design pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
+  - Understanding what Design Patterns are
+  - Updating several elements simultaneously using Observers
+  - Declaring subjects
+  - Creating event-based programs
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Refactoring Guru: Observer"
+    link: https://refactoring.guru/design-patterns/observer
+  - type: ARTICLE
+    title: "Design Patterns — A quick guide to Observer pattern."
+    link: https://medium.datadriveninvestor.com/design-patterns-a-quick-guide-to-observer-pattern-d0622145d6c2
+  - type: ARTICLE
+    title: "[Design Pattern] Observer Pattern"
+    link: https://dev.to/edindevto/design-pattern-observer-pattern-4ipb
+  - type: ARTICLE
+    title: "Observer Design Pattern in Java"
+    link: https://www.digitalocean.com/community/tutorials/observer-design-pattern-in-java
+  - type: ARTICLE
+    title: "The Observer Pattern in JavaScript — the Key to a Reactive Behavior"
+    link: https://blog.bitsrc.io/the-observer-pattern-in-javascript-the-key-to-a-reactive-behavior-f28236e50e10
+  - type: ARTICLE
+    title: "The Observer Pattern with Vanilla JavaScript"
+    link: https://medium.com/@patrickackerman/the-observer-pattern-with-vanilla-javascript-8f85ea05eaa8
+  - type: YOUTUBE
+    title: "Angular University: Reactive Angular - The Single Data Observable Pattern"
+    link: https://www.youtube.com/watch?v=jkp0k3MdW_U
+  - type: YOUTUBE
+    title: "MattStopaDev: How The Observer Pattern Works"
+    link: https://www.youtube.com/watch?v=WRkw0l72BL4
+  - type: YOUTUBE
+    title: "DevSage: Javascript Design Patterns - Observer Pattern"
+    link: https://www.youtube.com/watch?v=45TeJEmcqk8
+alura-contents:

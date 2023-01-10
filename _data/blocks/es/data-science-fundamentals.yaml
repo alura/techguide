@@ -1,0 +1,40 @@
+name: Ciencia de Datos - Fundamentos
+logo: 
+short-description:
+key-objectives:
+- La Ciencia de Datos es el acto de utilizar algoritmos y sistemas para extraer, organizar y analizar datos a partir de diversas fuentes, a fin de detectar patrones y tomar decisiones de negocios. Las áreas de aplicación son infinitas, como en negocios, biología, medicina, ingeniería, etc.
+- Conocer el concepto de Explotación de Datos
+- Conocer las principales funciones, como 'describe', 'info', etc
+- Entender el papel de las visualizaciones como histogramas y boxplots
+- Saber qué son las variables categóricas nominales y ordinales
+- Explorar los datos en Python con las bibliotecas Pandas, Matplotlib, Seaborn, etc
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Desmitificando creencias alrededor de la Ciencia de Datos"
+    link: https://medium.com/datos-y-ciencia/desmitificando-creencias-alrededor-de-la-ciencia-de-datos-1d0c16128b05
+  - type: ARTICLE
+    title: "¡Data Science Para Todos!"
+    link: https://medium.com/datos-y-ciencia/data-science-para-todos-4cb84264bb5f
+  - type: ARTICLE
+    title: "¿Data engineer o scientist? ¿cuál es la diferencia?"
+    link: https://medium.com/tacosdedatos/data-engineer-o-scientist-cuál-es-la-diferencia-4bb8e616e2bc
+  - type: PODCAST
+    title: "Cómo aportara a la comunid desde la Ciencia de Dados?"
+    link: https://open.spotify.com/episode/1OU5HlOWo7YBDDTClQiq3s?si=30c6466906044507
+alura-contents:
+  - type: YOUTUBE
+    title: "¿Por qué estudiar Data Science?"
+    link: https://www.youtube.com/watch?v=7_UXo-aqAeM&t=360s
+  - type: ARTICLE
+    title: "¿Que hace un cientista de datos?"
+    link: https://www.aluracursos.com/blog/que-hace-un-cientista-de-datos
+  - type: COURSE
+    title: "Data Science: Primeros pasos"
+    link: https://app.aluracursos.com/course/data-science-primeros-pasos
+  - type: ARTICLE
+    title: "Google Colab: ¿qué es y cómo usarlo?"
+    link: https://www.aluracursos.com/blog/google-colab-que-es-y-como-usarlo
+  - type: YOUTUBE
+    title: "Live Café Punto Tech - ¿Cómo dar tus primeros pasos en el mundo de Data Science?"
+    link: https://www.youtube.com/watch?v=lEfMXSX4mz4&t=1603s

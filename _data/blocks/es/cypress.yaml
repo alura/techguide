@@ -1,0 +1,29 @@
+name: Cypress
+logo: 
+short-description:
+key-objectives:
+  - Cypress es una herramienta de prueba Front-end que permite configurar, escribir, ejecutar y depurar pruebas.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Cypress: Documentación"
+    link: https://docs.cypress.io/guides/overview/why-cypress
+  - type: ARTICLE
+    title: "Por qué usar Cypress es mejor que las pruebas unitarias"
+    link: https://betterprogramming.pub/why-using-cypress-is-better-than-unit-testing-e8234229be81
+  - type: ARTICLE
+    title: "Cómo probar su interfaz con el marco Cypress.io"
+    link: https://medium.com/free-code-camp/how-to-test-your-frontend-with-the-cypress-io-framework-f048070f4330
+  - type: ARTICLE
+    title: "Pruebas completas de aplicaciones React con Cypress"
+    link: https://blog.bitsrc.io/testing-react-apps-with-cypress-658bc482678
+  - type: YOUTUBE
+    title: "LambdaTest: Learn Cypress in 3 Hours"
+    link: https://www.youtube.com/watch?v=jX3v3N6oN5M
+  - type: YOUTUBE
+    title: "Cypress.io: Cypress in a Nutshell"
+    link: https://www.youtube.com/watch?v=LcGHiFnBh3Y
+  - type: YOUTUBE
+    title: "Fireship: Cypress End-to-End Testing"
+    link: https://www.youtube.com/watch?v=7N63cMKosIE
+alura-contents:
