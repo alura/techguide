@@ -17,19 +17,22 @@ aditional-objectives:
 contents:
   - type: SITE
     title: "Guia para a arquitetura do app"
-    link: https://developer.android.com/topic/architecture
+    link: https://developer.android.com/topic/architecture?hl=pt-br
   - type: SITE
     title: "Visão geral do ViewModel"
-    link: https://developer.android.com/topic/libraries/architecture/viewmodel
+    link: https://developer.android.com/topic/libraries/architecture/viewmodel?hl=pt-br
   - type: SITE
     title: "Camada de IU"
-    link: https://developer.android.com/topic/architecture/ui-layer
+    link: https://developer.android.com/topic/architecture/ui-layer?hl=pt-br
   - type: SITE
     title: "Camada de Domínio"
-    link: https://developer.android.com/topic/architecture/domain-layer
+    link: https://developer.android.com/topic/architecture/domain-layer?hl=pt-br
+  - type: SITE
+    title: "Camada de dados"
+    link: https://developer.android.com/topic/architecture/data-layer?hl=pt-br
   - type: SITE
     title: "Camada de dados - offline first"
-    link: https://developer.android.com/topic/architecture/data-layer/offline-first
+    link: https://developer.android.com/topic/architecture/data-layer/offline-first?hl=pt-br
   - type: YOUTUBE
     title: "Android pra valer: Como usar o ViewModel + LiveData no Android"
     link: https://www.youtube.com/watch?v=pIlcZqdrYUM&ab_channel=Androidpravaler
@@ -38,7 +41,7 @@ contents:
     link: https://developer.android.com/topic/modularization?hl=pt-br
   - type: SITE
     title: "Recomendações para arquiteturas do android"
-    link: https://developer.android.com/topic/architecture/recommendations
+    link: https://developer.android.com/topic/architecture/recommendations?hl=pt-br
 alura-contents:
   - type: COURSE
     title: "Jetpack Compose: mantendo estados com ViewModel"
