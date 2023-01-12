@@ -14,6 +14,7 @@ interface BoxProps {
   onClick?: (event: any) => void;
   // eslint-disable-next-line no-unused-vars
   onFocus?: (event: any) => void;
+  role?: string;
 }
 const Box = React.forwardRef(
   ({ styleSheet, children, tag, ...props }: BoxProps, ref) => {

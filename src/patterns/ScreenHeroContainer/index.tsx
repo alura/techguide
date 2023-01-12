@@ -34,6 +34,7 @@ export default function ScreenHeroContainer({
               md: "2.5rem",
             },
           }}
+          tag="section"
         >
           <Box
             styleSheet={{
@@ -47,6 +48,7 @@ export default function ScreenHeroContainer({
                 md: "5em 0",
               },
             }}
+            tag="article"
           >
             <Box
               styleSheet={{

@@ -15,6 +15,7 @@ export default function FAQContentSection() {
         background: "#101926",
         justifyContent: "center",
       }}
+      tag="section"
     >
       <Box
         styleSheet={{
@@ -77,6 +78,8 @@ export default function FAQContentSection() {
                 md: "30px",
               },
             }}
+            tag="h2"
+            id="faq"
           >
             {i18n.content("FAQ.GLOBAL.TITLE")}
           </Text>
@@ -103,6 +106,8 @@ export default function FAQContentSection() {
             flex: "1",
             width: "100%",
           }}
+          aria-labelledby="faq"
+          tag="article"
         >
           {questions.map(({ title, answer }) => (
             <FAQQuestion key={title} title={title} description={answer} />
@@ -151,8 +156,9 @@ function FAQQuestion({ title, description }: any) {
         onClick={() => setIsOpen(!isOpen)}
         aria-controls={title}
         aria-expanded={isOpen ? "true" : "false"}
+        id="accordion-button"
       >
-        <Text>
+        <Text tag="h3">
           {title}
           <Box
             tag="svg"
@@ -193,6 +199,8 @@ function FAQQuestion({ title, description }: any) {
         }}
         aria-hidden={isOpen ? "false" : "true"}
         onFocus={() => setIsOpen(true)}
+        aria-labelledby="accordion-button"
+        role="region"
       >
         <Text
           styleSheet={{

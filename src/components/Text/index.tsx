@@ -10,6 +10,7 @@ interface TextProps {
   // eslint-disable-next-line no-unused-vars
   i18nKeyReplace?: I18nKeyReplace;
   styleSheet?: StyleSheet;
+  id?: string;
 }
 const Text = React.forwardRef(
   (

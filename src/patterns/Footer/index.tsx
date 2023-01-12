@@ -133,25 +133,43 @@ export default function Footer() {
             fontSize: "22px",
             gap: "0.625em",
           }}
+          tag="nav"
         >
-          <Link href={i18n.content("FOOTER.YOUTUBE")}>
-            <Icon name="youtube" />
-          </Link>
-          <Link href={i18n.content("FOOTER.FACEBOOK")}>
-            <Icon name="facebook" />
-          </Link>
-          <Link href={i18n.content("FOOTER.TWITTER")}>
-            <Icon name="twitter" />
-          </Link>
-          <Link href={i18n.content("FOOTER.INSTAGRAM")}>
-            <Icon name="instagram" />
-          </Link>
-          <Link href={i18n.content("FOOTER.PLAYSTORE")}>
-            <Icon name="playstore" />
-          </Link>
-          <Link href={i18n.content("FOOTER.APPSTORE")}>
-            <Icon name="appstore" />
-          </Link>
+          <ul
+            style={{ listStyle: "none", display: "flex", gap: "1rem" }}
+            aria-label={i18n.content("FOOTER.SOCIAL_MEDIA")}
+          >
+            <li>
+              <Link href={i18n.content("FOOTER.YOUTUBE")}>
+                <Icon name="youtube" />
+              </Link>
+            </li>
+            <li>
+              <Link href={i18n.content("FOOTER.FACEBOOK")}>
+                <Icon name="facebook" />
+              </Link>
+            </li>
+            <li>
+              <Link href={i18n.content("FOOTER.TWITTER")}>
+                <Icon name="twitter" />
+              </Link>
+            </li>
+            <li>
+              <Link href={i18n.content("FOOTER.INSTAGRAM")}>
+                <Icon name="instagram" />
+              </Link>
+            </li>
+            <li>
+              <Link href={i18n.content("FOOTER.PLAYSTORE")}>
+                <Icon name="playstore" />
+              </Link>
+            </li>
+            <li>
+              <Link href={i18n.content("FOOTER.APPSTORE")}>
+                <Icon name="appstore" />
+              </Link>
+            </li>
+          </ul>
         </Box>
       </Box>
     </Box>

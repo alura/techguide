@@ -19,6 +19,7 @@ export default function FirstContentSection() {
         },
         alignItems: "center",
       }}
+      tag="section"
     >
       <Box
         className="container"
