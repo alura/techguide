@@ -1,0 +1,37 @@
+name: Android - Gradle
+logo: 
+short-description: 
+key-objectives:
+  - O Gradle e o plug-in do Android para Gradle(AGP) oferecem uma maneira flexível de compilar, criar, gerenciar e empacotar seu app ou biblioteca Android.
+  - O que é uma build tool
+  - Estrutura de um projeto Android como um projeto multi módulo do Gradle
+  - Para que serve o gradle
+  - Como usar o gradle
+  - O que são dependências e como utilizá-las
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Configure seu Build"
+    link: https://developer.android.com/studio/build?hl=pt-br
+  - type: SITE
+    title: "Dicas e receitas para o Gradle"
+    link: https://developer.android.com/studio/build/gradle-tips?hl=pt-br
+  - type: ARTICLE
+    title: "Gradle Android para Iniciantes"
+    link: https://www.linkedin.com/pulse/gradle-android-para-iniciantes-roger-silva/?originalSubdomain=pt
+  - type: ARTICLE
+    title: "Gradle para Android - Entendendo o processo de build | AndroidPro"
+    link: https://www.androidpro.com.br/blog/android-studio/gradle/
+  - type: SITE
+    title: "Adicionando dependências do build - Gradle"
+    link: https://developer.android.com/studio/build/dependencies?hl=pt-br#:~:text=Para%20adicionar%20uma%20depend%C3%AAncia%20ao,gradle%20do%20m%C3%B3dulo.&text=Isso%20declara%20uma%20depend%C3%AAncia%20em,do%20Android%20chamado%20%22mylibrary%22.
+  - type: SITE
+    title: "Guia para Modularização de app"
+    link: https://developer.android.com/topic/modularization
+alura-contents:
+  - type: YOUTUBE
+    title: "Conhecendo as build tools no mundo Java"
+    link: https://www.youtube.com/watch?v=6llRWbdnmuk
+  - type: YOUTUBE
+    title: "Começando com o Gradle: Tasks e comandos básicos"
+    link: https://www.youtube.com/watch?v=uX6Ezf73OEY
