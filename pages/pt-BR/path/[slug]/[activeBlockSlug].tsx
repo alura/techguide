@@ -44,6 +44,9 @@ export async function getStaticPaths(ctx) {
     query: AllPathsForActiveBlockDocument,
     variables: {
       locale,
+      input: {
+        limit: 100,
+      },
     },
   });
 

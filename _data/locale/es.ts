@@ -1,4 +1,5 @@
-{
+/* eslint-disable prettier/prettier */
+export default {
   "HEAD.TITLE": "Tech Guide: guías del Profesional en T",
   "HEAD.DESCRIPTION": "Encuentre la guía perfecta para tu carrera tecnológica. Consejos, sugerencias, prioridades y enlaces a contenidos. Todo con el enfoque del profesional en T.",
   "HEAD.SHARE_IMAGE": "https://techguide.sh/assets/image/share-image.jpg",
