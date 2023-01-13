@@ -1,5 +1,5 @@
-query HomeGetAllGuides($locale: SiteLocale) {
-  guides(locale: $locale) {
+query HomeGetAllGuides($locale: SiteLocale, $input: GuidesInput) {
+  guides(locale: $locale, input: $input) {
     name
     slug
   }

@@ -1,4 +1,5 @@
-{
+/* eslint-disable prettier/prettier */
+export default {
   "HEAD.TITLE": "Tech Guide: guides for T-shaped Professionals",
   "HEAD.DESCRIPTION": "Find the perfect guide for your tech career. Tips, hints, priorities and links to content. All of it following the T-professional approach.",
   "HEAD.SHARE_IMAGE": "https://techguide.sh/assets/image/share-image.jpg",
@@ -59,7 +60,7 @@
   "FOOTER.OPEN_SOURCE_CTA": "Techguide.sh is an open source project, <Link href='https://github.com/alura/techguide' text='check our README' />",
   "FOOTER.BRING_BY": "Brought to you by",
 
-  "FAQ.GLOBAL.TITLE": "FAQ about the Tech Guide",
+  "FAQ.GLOBAL.TITLE": "FAQ about the TechGuide.sh",
   "FAQ.GLOBAL": [
     {
       "title": "01 - What is TechGuide.sh?",
@@ -88,5 +89,12 @@
     }
   ],
   "IMAGES.DISCOVER_IMAGE": "/assets/image/discover-illustration-en.svg",
+
+  "FOOTER.YOUTUBE": "https://youtube.com/aluracursosonline",
+  "FOOTER.FACEBOOK": "https://www.facebook.com/AluraCursosOnline/",
+  "FOOTER.INSTAGRAM": "https://www.instagram.com/aluraonline/",
+  "FOOTER.TWITTER": "https://twitter.com/aluraonline",
+  "FOOTER.PLAYSTORE": "https://play.google.com/store/apps/details?id=br.com.alura.mobi",
+  "FOOTER.APPSTORE": "https://apps.apple.com/br/app/alura-cursos-online/id1225776635",
   "DEMO":"DEMO"
 }

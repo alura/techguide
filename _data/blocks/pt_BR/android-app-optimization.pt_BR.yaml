@@ -1,0 +1,21 @@
+name: Android - Otimização do App
+logo: 
+short-description:
+key-objectives:
+  - Ao gerar um App, existem alguns detalhes de otimização para torná-lo rápido, menor e otimizado, como por exemplo, a remoção de código desnecessário, a ofuscação que reduz o nome dos códigos e a otimização que aplica estratégias mais agressivas para reduzir mais ainda o App
+  - Aprender a ativar cada otimização no plugin do Android para o Gradle.
+  - Utilizar o proguard para realizar a otimização mais agressiva.
+  - Ativar o multidex para que o App seja capaz de obter mais de 64000 métodos e conseguir utilizar as técnicas de otimização
+  - Conhecer e utilizar ferramentas auxiliarem para aumentar o desempenho do App
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Reduzir, ofuscar e otimizar o app"
+    link: https://developer.android.com/studio/build/shrink-code?hl=pt-br
+  - type: SITE
+    title: "Ativar multidex para apps com mais de 64.000 métodos"
+    link: https://developer.android.com/studio/build/multidex?hl=pt-br
+  - type: SITE
+    title: "Guia de desempenho do app"
+    link: https://developer.android.com/topic/performance?hl=pt-br
+alura-contents:

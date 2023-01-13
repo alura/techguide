@@ -1,4 +1,5 @@
-{
+/* eslint-disable prettier/prettier */
+export default {
   "HEAD.TITLE": "Tech Guide: guias do Profissional em T",
   "HEAD.DESCRIPTION": "Encontre o guia perfeito para a sua carreira de tecnologia. Dicas, sugestões, prioridades e links para conteúdo. Tudo isso com a abordagem do profissional em T.",
   "HEAD.SHARE_IMAGE": "https://techguide.sh/assets/image/share-image.jpg",
@@ -59,7 +60,7 @@
   "FOOTER.OPEN_SOURCE_CTA": "O Techguide.sh é um projeto open source, <Link href='https://github.com/alura/techguide' text='confira nosso README' />",
   "FOOTER.BRING_BY": "Trazido por",
 
-  "FAQ.GLOBAL.TITLE": "Dúvidas e respostas frequentes sobre o Tech Guide",
+  "FAQ.GLOBAL.TITLE": "Dúvidas e respostas frequentes sobre o TechGuide.sh",
   "FAQ.GLOBAL": [
     {
       "title": "01 - O que é o TechGuide.sh?",
@@ -88,5 +89,11 @@
     }
   ],
   "IMAGES.DISCOVER_IMAGE": "/assets/image/discover-illustration.svg",
+  "FOOTER.YOUTUBE": "https://youtube.com/aluracursosonline",
+  "FOOTER.FACEBOOK": "https://www.facebook.com/AluraCursosOnline/",
+  "FOOTER.INSTAGRAM": "https://www.instagram.com/aluraonline/",
+  "FOOTER.TWITTER": "https://twitter.com/aluraonline",
+  "FOOTER.PLAYSTORE": "https://play.google.com/store/apps/details?id=br.com.alura.mobi",
+  "FOOTER.APPSTORE": "https://apps.apple.com/br/app/alura-cursos-online/id1225776635",
   "DEMO":"DEMO"
 }

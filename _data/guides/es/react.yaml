@@ -1,6 +1,6 @@
-name: Front-end ReactJS
+name: React
 expertise:
-  - name: Front-end React Jr
+  - name: React Jr
     blocks: 
       - javascript-fundamentals:
         priority: 10
@@ -22,7 +22,7 @@ expertise:
         priority: 7
       - react-hooks-effect:
         priority: 9
-  - name: Front-end React Mid
+  - name: React Mid
     blocks:
       - react-hooks-memo:
         priority: 7
@@ -30,7 +30,7 @@ expertise:
         priority: 9
       - react-hooks-ref:
         priority: 10
-      - design-system-libraries:
+      - react-design-system-libraries:
         priority: 4
       - react-dev-tools:
         priority: 5
@@ -58,12 +58,12 @@ expertise:
         priority: 8
       - javascript-callbacks-promises:
         priority: 8
-      - javascript-errorhandling:
+      - javascript-error-handling:
         priority: 7
       - babel-fundamentals:
         priority: 6
         optional: true      
-  - name: Front-end React in depth
+  - name: React in depth
     blocks:
       - lottie:
         priority: 5
@@ -91,7 +91,7 @@ expertise:
         priority: 5
         optional: true
 collaboration:
-  - name: Infraestrutura e Back-end
+  - name: Infraestructura y Back-end
     blocks:
         - git-and-github-fundamentals:
           priority: 9
@@ -109,7 +109,7 @@ collaboration:
         - cloud-fundamentals: 
           priority: 6
           optional: true
-  - name: UX e Design
+  - name: UX y Design
     blocks:
         - design-systems:
           priority: 4

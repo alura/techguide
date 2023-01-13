@@ -43,6 +43,9 @@ export const getStaticPaths: GetStaticPaths = async (ctx) => {
     query: HomeGetAllGuidesDocument,
     variables: {
       locale,
+      input: {
+        limit: 100,
+      },
     },
   });
 

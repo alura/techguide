@@ -18,6 +18,9 @@ export async function main() {
       query: HomeGetAllGuidesDocument,
       variables: {
         locale: locale as SiteLocale,
+        input: {
+          limit: 100,
+        },
       },
     });
 

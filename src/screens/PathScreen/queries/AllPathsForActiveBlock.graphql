@@ -1,5 +1,5 @@
-query AllPathsForActiveBlock($locale: SiteLocale) {
-  guides(locale: $locale) {
+query AllPathsForActiveBlock($locale: SiteLocale, $input: GuidesInput) {
+  guides(locale: $locale, input: $input) {
     slug
     expertises {
       name

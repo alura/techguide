@@ -1,42 +1,31 @@
-import path from "path";
-import fs from "fs";
-import { SiteLocale } from "@src/gql_types";
+import { initializeApollo } from "@src/infra/apolloClient";
+import { HomeGetAllGuidesDocument, SiteLocale } from "@src/gql_types";
+import { GetStaticProps } from "next";
+import { withLocaleContent } from "@src/infra/i18n/withLocaleContent";
 
-const fileNameByLocale = {
-  [SiteLocale.EnUs]: "en-US.json",
-  [SiteLocale.PtBr]: "pt-BR.json",
-  [SiteLocale.Es]: "es.json",
-};
+export { default } from "@src/screens/HomeScreen";
 
-export function withLocaleContent<NextContext>(
-  ctx: NextContext,
-  locale: SiteLocale
-): NextContext {
-  const props = (ctx as unknown as any).props;
-  const localeFilePath = path.join(
-    ".",
-    "_data",
-    "locale",
-    fileNameByLocale[locale]
+export const getStaticProps: GetStaticProps = async (ctx) => {
+  const apolloClient = initializeApollo();
+  const locale = (ctx.locale || SiteLocale.PtBr) as SiteLocale;
+
+  const { data } = await apolloClient.query({
+    query: HomeGetAllGuidesDocument,
+    variables: {
+      locale,
+      input: {
+        limit: 100,
+      },
+    },
+  });
+
+  return withLocaleContent(
+    {
+      props: {
+        ...data,
+        locale,
+      },
+    },
+    locale
   );
-  try {
-    const i18nKeys = JSON.parse(
-      fs.readFileSync(localeFilePath, "utf8")
-    ) as Record<string, string>;
-    return {
-      ...ctx,
-      props: {
-        ...props,
-        i18nKeys,
-      },
-    };
-  } catch (e) {
-    return {
-      ...ctx,
-      props: {
-        ...props,
-        i18nKeys: {},
-      },
-    };
-  }
-}
+};

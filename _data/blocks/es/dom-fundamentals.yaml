@@ -2,11 +2,11 @@ name: DOM - Fundamentals
 logo: 
 short-description:
 key-objectives:
-  - El Document Object Model (DOM) es una interfaz de programación para documentos de la web. Ele representa a página para que os programas possam alteren a estrutura, o estilo e o conteúdo do documento. O DOM representa el documento como nós e objetos; dessa forma, as linguagens de programação podem interagir com a página.
-  - Entendiendo como a árvore DOM funciona
+  - El Document Object Model (DOM) es una interfaz de programación para documentos de la web. Representa la página para que los programas puedan cambiar la estructura, el estilo y el contenido del documento. El DOM representa el documento como nosotros y objetos; de esa forma, los lenguajes de programación pueden interactuar con la página.
+  - Entender cómo funciona el árbol DOM
   - Accesando y manipulando elementos HTML y CSS
-  - Acessando os pais e filhos de um elemento
-  - Insertando un nuevo elemento na árvore
+  - Acceder a los padres e hijos de un elemento
+  - Insertar un nuevo elemento en el árbol
   - Quitar un elemento del árbol
   - Esperando un evento en un elemento determinado de la página usando 
 aditional-objectives:
