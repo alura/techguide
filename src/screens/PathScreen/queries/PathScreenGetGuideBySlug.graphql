@@ -4,7 +4,7 @@ query PathScreenGetGuideBySlug($input: GuideInput, $locale: SiteLocale) {
     name
     expertises {
       name
-      blocks {
+      cards {
         priority
         item {
           slug
@@ -30,7 +30,7 @@ query PathScreenGetGuideBySlug($input: GuideInput, $locale: SiteLocale) {
     }
     collaborations {
       name
-      blocks {
+      cards {
         priority
         item {
           slug

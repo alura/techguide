@@ -1,7 +1,7 @@
 name: Node.js
 expertise:
   - name: Node.js jr
-    blocks:
+    cards:
       - nodejs-fundamentals:
         priority: 10  
       - javascript-callbacks-promises:
@@ -13,7 +13,7 @@ expertise:
       - nodejs-testing:
         priority: 7  
   - name: Node.js mid
-    blocks:
+    cards:
       - solid:
         priority: 7 
       - nodejs-express:
@@ -25,7 +25,7 @@ expertise:
       - typescript-fundamentals:
         priority: 10
   - name: Node.js in depth
-    blocks:
+    cards:
       - nestjs-fundamentals:
         priority: 8
       - microservices:
@@ -42,7 +42,7 @@ expertise:
         optional: true
 collaboration:
   - name: Infraestrutura e boas práticas
-    blocks:
+    cards:
       - git-and-github-fundamentals:
         priority: 10
       - http-fundamentals:
@@ -55,7 +55,7 @@ collaboration:
         priority: 6
         optional: true
   - name: Front-end
-    blocks:
+    cards:
       - javascript-fundamentals:
         priority: 10
       - html-fundamentals:

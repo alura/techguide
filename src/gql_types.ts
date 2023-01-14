@@ -14,38 +14,38 @@ export type Scalars = {
   UUID: any;
 };
 
-export type Block = {
-  __typename?: 'Block';
-  aditionalObjectives?: Maybe<Array<Maybe<BlockAditionalObjective>>>;
-  aluraContents?: Maybe<Array<Maybe<BlockContent>>>;
+export type Card = {
+  __typename?: 'Card';
+  aditionalObjectives?: Maybe<Array<Maybe<CardAditionalObjective>>>;
+  aluraContents?: Maybe<Array<Maybe<CardContent>>>;
   collaborations?: Maybe<Array<Maybe<GuideCollaboration>>>;
-  contents?: Maybe<Array<Maybe<BlockContent>>>;
+  contents?: Maybe<Array<Maybe<CardContent>>>;
   expertises?: Maybe<Array<Maybe<GuideExpertise>>>;
   id?: Maybe<Scalars['String']>;
-  keyObjectives?: Maybe<Array<Maybe<BlockKeyObjective>>>;
+  keyObjectives?: Maybe<Array<Maybe<CardKeyObjective>>>;
   logo?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
   shortDescription?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
 };
 
-export type BlockAditionalObjective = {
-  __typename?: 'BlockAditionalObjective';
+export type CardAditionalObjective = {
+  __typename?: 'CardAditionalObjective';
   id?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
 };
 
-export type BlockContent = {
-  __typename?: 'BlockContent';
+export type CardContent = {
+  __typename?: 'CardContent';
   id?: Maybe<Scalars['String']>;
   link?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
   title?: Maybe<Scalars['String']>;
-  type?: Maybe<BlockContentType>;
+  type?: Maybe<CardContentType>;
 };
 
-export enum BlockContentType {
+export enum CardContentType {
   Aluraplus = 'ALURAPLUS',
   Article = 'ARTICLE',
   Challenge = 'CHALLENGE',
@@ -55,25 +55,25 @@ export enum BlockContentType {
   Youtube = 'YOUTUBE'
 }
 
-export type BlockFilters = {
+export type CardFilters = {
   id?: InputMaybe<FieldFilter>;
   name?: InputMaybe<FieldFilter>;
   slug?: InputMaybe<FieldFilter>;
 };
 
-export type BlockInput = {
+export type CardInput = {
   slug: Scalars['String'];
 };
 
-export type BlockKeyObjective = {
-  __typename?: 'BlockKeyObjective';
+export type CardKeyObjective = {
+  __typename?: 'CardKeyObjective';
   id?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
 };
 
-export type BlocksInput = {
-  filter?: InputMaybe<BlockFilters>;
+export type CardsInput = {
+  filter?: InputMaybe<CardFilters>;
   limit?: InputMaybe<Scalars['Int']>;
   locale?: InputMaybe<SiteLocale>;
   offset?: InputMaybe<Scalars['Int']>;
@@ -98,22 +98,22 @@ export type Guide = {
   slug?: Maybe<Scalars['String']>;
 };
 
-export type GuideBlock = {
-  __typename?: 'GuideBlock';
-  item?: Maybe<Block>;
+export type GuideCard = {
+  __typename?: 'GuideCard';
+  item?: Maybe<Card>;
   priority?: Maybe<Scalars['Int']>;
 };
 
 export type GuideCollaboration = {
   __typename?: 'GuideCollaboration';
-  blocks?: Maybe<Array<Maybe<GuideBlock>>>;
+  cards?: Maybe<Array<Maybe<GuideCard>>>;
   guide?: Maybe<Guide>;
   name?: Maybe<Scalars['String']>;
 };
 
 export type GuideExpertise = {
   __typename?: 'GuideExpertise';
-  blocks?: Maybe<Array<Maybe<GuideBlock>>>;
+  cards?: Maybe<Array<Maybe<GuideCard>>>;
   guide?: Maybe<Guide>;
   name?: Maybe<Scalars['String']>;
 };
@@ -147,22 +147,22 @@ export type MutationCreateSampleTextArgs = {
 
 export type Query = {
   __typename?: 'Query';
-  block?: Maybe<Block>;
-  blocks: Array<Maybe<Block>>;
+  card?: Maybe<Card>;
+  cards: Array<Maybe<Card>>;
   greet?: Maybe<Scalars['String']>;
   guide?: Maybe<Guide>;
   guides: Array<Maybe<Guide>>;
 };
 
 
-export type QueryBlockArgs = {
-  input?: InputMaybe<BlockInput>;
+export type QueryCardArgs = {
+  input?: InputMaybe<CardInput>;
   locale?: InputMaybe<SiteLocale>;
 };
 
 
-export type QueryBlocksArgs = {
-  input?: InputMaybe<BlocksInput>;
+export type QueryCardsArgs = {
+  input?: InputMaybe<CardsInput>;
   locale?: InputMaybe<SiteLocale>;
 };
 
@@ -192,13 +192,13 @@ export type HomeGetAllGuidesQueryVariables = Exact<{
 
 export type HomeGetAllGuidesQuery = { __typename?: 'Query', guides: Array<{ __typename?: 'Guide', name?: string | null, slug?: string | null } | null> };
 
-export type AllPathsForActiveBlockQueryVariables = Exact<{
+export type AllPathsForActiveCardQueryVariables = Exact<{
   locale?: InputMaybe<SiteLocale>;
   input?: InputMaybe<GuidesInput>;
 }>;
 
 
-export type AllPathsForActiveBlockQuery = { __typename?: 'Query', guides: Array<{ __typename?: 'Guide', slug?: string | null, expertises?: Array<{ __typename?: 'GuideExpertise', name?: string | null, blocks?: Array<{ __typename?: 'GuideBlock', item?: { __typename?: 'Block', slug?: string | null } | null } | null> | null } | null> | null, collaborations?: Array<{ __typename?: 'GuideCollaboration', name?: string | null, blocks?: Array<{ __typename?: 'GuideBlock', item?: { __typename?: 'Block', slug?: string | null } | null } | null> | null } | null> | null } | null> };
+export type AllPathsForActiveCardQuery = { __typename?: 'Query', guides: Array<{ __typename?: 'Guide', slug?: string | null, expertises?: Array<{ __typename?: 'GuideExpertise', name?: string | null, cards?: Array<{ __typename?: 'GuideCard', item?: { __typename?: 'Card', slug?: string | null } | null } | null> | null } | null> | null, collaborations?: Array<{ __typename?: 'GuideCollaboration', name?: string | null, cards?: Array<{ __typename?: 'GuideCard', item?: { __typename?: 'Card', slug?: string | null } | null } | null> | null } | null> | null } | null> };
 
 export type PathScreenGetGuideBySlugQueryVariables = Exact<{
   input?: InputMaybe<GuideInput>;
@@ -206,9 +206,9 @@ export type PathScreenGetGuideBySlugQueryVariables = Exact<{
 }>;
 
 
-export type PathScreenGetGuideBySlugQuery = { __typename?: 'Query', guide?: { __typename?: 'Guide', slug?: string | null, name?: string | null, expertises?: Array<{ __typename?: 'GuideExpertise', name?: string | null, blocks?: Array<{ __typename?: 'GuideBlock', priority?: number | null, item?: { __typename?: 'Block', slug?: string | null, name?: string | null, keyObjectives?: Array<{ __typename?: 'BlockKeyObjective', id?: string | null, name?: string | null } | null> | null, aluraContents?: Array<{ __typename?: 'BlockContent', id?: string | null, title?: string | null, link?: string | null, type?: BlockContentType | null } | null> | null, contents?: Array<{ __typename?: 'BlockContent', id?: string | null, title?: string | null, link?: string | null, type?: BlockContentType | null } | null> | null } | null } | null> | null } | null> | null, collaborations?: Array<{ __typename?: 'GuideCollaboration', name?: string | null, blocks?: Array<{ __typename?: 'GuideBlock', priority?: number | null, item?: { __typename?: 'Block', slug?: string | null, name?: string | null, keyObjectives?: Array<{ __typename?: 'BlockKeyObjective', id?: string | null, name?: string | null } | null> | null, aluraContents?: Array<{ __typename?: 'BlockContent', id?: string | null, title?: string | null, link?: string | null, type?: BlockContentType | null } | null> | null, contents?: Array<{ __typename?: 'BlockContent', id?: string | null, title?: string | null, link?: string | null, type?: BlockContentType | null } | null> | null } | null } | null> | null } | null> | null } | null };
+export type PathScreenGetGuideBySlugQuery = { __typename?: 'Query', guide?: { __typename?: 'Guide', slug?: string | null, name?: string | null, expertises?: Array<{ __typename?: 'GuideExpertise', name?: string | null, cards?: Array<{ __typename?: 'GuideCard', priority?: number | null, item?: { __typename?: 'Card', slug?: string | null, name?: string | null, keyObjectives?: Array<{ __typename?: 'CardKeyObjective', id?: string | null, name?: string | null } | null> | null, aluraContents?: Array<{ __typename?: 'CardContent', id?: string | null, title?: string | null, link?: string | null, type?: CardContentType | null } | null> | null, contents?: Array<{ __typename?: 'CardContent', id?: string | null, title?: string | null, link?: string | null, type?: CardContentType | null } | null> | null } | null } | null> | null } | null> | null, collaborations?: Array<{ __typename?: 'GuideCollaboration', name?: string | null, cards?: Array<{ __typename?: 'GuideCard', priority?: number | null, item?: { __typename?: 'Card', slug?: string | null, name?: string | null, keyObjectives?: Array<{ __typename?: 'CardKeyObjective', id?: string | null, name?: string | null } | null> | null, aluraContents?: Array<{ __typename?: 'CardContent', id?: string | null, title?: string | null, link?: string | null, type?: CardContentType | null } | null> | null, contents?: Array<{ __typename?: 'CardContent', id?: string | null, title?: string | null, link?: string | null, type?: CardContentType | null } | null> | null } | null } | null> | null } | null> | null } | null };
 
 
 export const HomeGetAllGuidesDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"HomeGetAllGuides"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"locale"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"SiteLocale"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"input"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"GuidesInput"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"guides"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"locale"},"value":{"kind":"Variable","name":{"kind":"Name","value":"locale"}}},{"kind":"Argument","name":{"kind":"Name","value":"input"},"value":{"kind":"Variable","name":{"kind":"Name","value":"input"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"slug"}}]}}]}}]} as unknown as DocumentNode<HomeGetAllGuidesQuery, HomeGetAllGuidesQueryVariables>;
-export const AllPathsForActiveBlockDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"AllPathsForActiveBlock"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"locale"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"SiteLocale"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"input"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"GuidesInput"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"guides"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"locale"},"value":{"kind":"Variable","name":{"kind":"Name","value":"locale"}}},{"kind":"Argument","name":{"kind":"Name","value":"input"},"value":{"kind":"Variable","name":{"kind":"Name","value":"input"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"expertises"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"blocks"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"item"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}}]}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"collaborations"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"blocks"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"item"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}}]}}]}}]}}]}}]}}]} as unknown as DocumentNode<AllPathsForActiveBlockQuery, AllPathsForActiveBlockQueryVariables>;
-export const PathScreenGetGuideBySlugDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"PathScreenGetGuideBySlug"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"input"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"GuideInput"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"locale"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"SiteLocale"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"guide"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"input"},"value":{"kind":"Variable","name":{"kind":"Name","value":"input"}}},{"kind":"Argument","name":{"kind":"Name","value":"locale"},"value":{"kind":"Variable","name":{"kind":"Name","value":"locale"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"expertises"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"blocks"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"priority"}},{"kind":"Field","name":{"kind":"Name","value":"item"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"keyObjectives"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"name"}}]}},{"kind":"Field","name":{"kind":"Name","value":"aluraContents"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"link"}},{"kind":"Field","name":{"kind":"Name","value":"type"}}]}},{"kind":"Field","name":{"kind":"Name","value":"contents"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"link"}},{"kind":"Field","name":{"kind":"Name","value":"type"}}]}}]}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"collaborations"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"blocks"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"priority"}},{"kind":"Field","name":{"kind":"Name","value":"item"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"keyObjectives"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"name"}}]}},{"kind":"Field","name":{"kind":"Name","value":"aluraContents"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"link"}},{"kind":"Field","name":{"kind":"Name","value":"type"}}]}},{"kind":"Field","name":{"kind":"Name","value":"contents"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"link"}},{"kind":"Field","name":{"kind":"Name","value":"type"}}]}}]}}]}}]}}]}}]}}]} as unknown as DocumentNode<PathScreenGetGuideBySlugQuery, PathScreenGetGuideBySlugQueryVariables>;
+export const AllPathsForActiveCardDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"AllPathsForActiveCard"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"locale"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"SiteLocale"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"input"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"GuidesInput"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"guides"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"locale"},"value":{"kind":"Variable","name":{"kind":"Name","value":"locale"}}},{"kind":"Argument","name":{"kind":"Name","value":"input"},"value":{"kind":"Variable","name":{"kind":"Name","value":"input"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"expertises"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"cards"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"item"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}}]}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"collaborations"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"cards"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"item"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}}]}}]}}]}}]}}]}}]} as unknown as DocumentNode<AllPathsForActiveCardQuery, AllPathsForActiveCardQueryVariables>;
+export const PathScreenGetGuideBySlugDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"PathScreenGetGuideBySlug"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"input"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"GuideInput"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"locale"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"SiteLocale"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"guide"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"input"},"value":{"kind":"Variable","name":{"kind":"Name","value":"input"}}},{"kind":"Argument","name":{"kind":"Name","value":"locale"},"value":{"kind":"Variable","name":{"kind":"Name","value":"locale"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"expertises"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"cards"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"priority"}},{"kind":"Field","name":{"kind":"Name","value":"item"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"keyObjectives"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"name"}}]}},{"kind":"Field","name":{"kind":"Name","value":"aluraContents"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"link"}},{"kind":"Field","name":{"kind":"Name","value":"type"}}]}},{"kind":"Field","name":{"kind":"Name","value":"contents"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"link"}},{"kind":"Field","name":{"kind":"Name","value":"type"}}]}}]}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"collaborations"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"cards"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"priority"}},{"kind":"Field","name":{"kind":"Name","value":"item"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"keyObjectives"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"name"}}]}},{"kind":"Field","name":{"kind":"Name","value":"aluraContents"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"link"}},{"kind":"Field","name":{"kind":"Name","value":"type"}}]}},{"kind":"Field","name":{"kind":"Name","value":"contents"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"link"}},{"kind":"Field","name":{"kind":"Name","value":"type"}}]}}]}}]}}]}}]}}]}}]} as unknown as DocumentNode<PathScreenGetGuideBySlugQuery, PathScreenGetGuideBySlugQueryVariables>;

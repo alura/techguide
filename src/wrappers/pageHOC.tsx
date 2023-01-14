@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { I18nProvider, useI18n } from "@src/infra/i18n";
-import { ModalProviderWithActiveBlock } from "@src/components/Modal/ModalProviderWithInitialBlock";
+import { ModalProviderWithActiveCard } from "@src/components/Modal/ModalProviderWithInitialCard";
 
 export function CommonHead({ pageTitle }: { pageTitle?: string }) {
   const i18n = useI18n();
@@ -117,10 +117,10 @@ export function pageHOC<ComponentType>(Component: ComponentType) {
     const OutputComponent = Component as unknown as any;
     return (
       <I18nProvider locale={props.locale} keys={i18nKeys}>
-        <ModalProviderWithActiveBlock modalInitialData={props.modalInitialData}>
+        <ModalProviderWithActiveCard modalInitialData={props.modalInitialData}>
           <CommonHead pageTitle={props.pageTitle} />
           <OutputComponent {...props} />
-        </ModalProviderWithActiveBlock>
+        </ModalProviderWithActiveCard>
       </I18nProvider>
     );
   };

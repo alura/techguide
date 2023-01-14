@@ -1,7 +1,7 @@
 name: Python
 expertise:
   - name: Python Jr
-    blocks: 
+    cards: 
       - python-fundamentals:
         priority: 10
       - oop-concepts:
@@ -13,7 +13,7 @@ expertise:
       - python-testing:
         priority: 9
   - name: Python Mid
-    blocks:
+    cards:
       - flask:
         priority: 8
       - python-advanced-oop:
@@ -27,7 +27,7 @@ expertise:
       - python-lambdas-and-closures:
         priority: 7
   - name: Python in depth
-    blocks:
+    cards:
       - microservices:
         priority: 8
       - containers:
@@ -47,7 +47,7 @@ expertise:
         priority: 7
 collaboration:
   - name: Infraestrutura
-    blocks:
+    cards:
       - git-and-github-fundamentals:
         priority: 9
       - http-fundamentals:
@@ -61,7 +61,7 @@ collaboration:
       - sql-fundamentals:
         priority: 9
   - name: Boas práticas e ferramentas
-    blocks:
+    cards:
       - solid:
         priority: 7
       - clean-architecture:

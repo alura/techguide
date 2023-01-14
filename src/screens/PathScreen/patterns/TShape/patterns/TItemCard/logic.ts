@@ -1,4 +1,4 @@
-export const TItemBlockGrids = {
+export const TItemCardGrids = {
   1: {
     gridTemplateAreas: {
       md: ['"area-0"'].join("\n"),

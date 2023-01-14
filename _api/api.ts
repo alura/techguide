@@ -5,7 +5,7 @@ import { UUIDDefinition } from "graphql-scalars";
 export { gql } from "apollo-server-micro";
 // [Modules]
 import modulesGuides from "_api/modules/guides";
-import modulesBlocks from "_api/modules/blocks";
+import modulesCards from "@api/modules/cards";
 
 const customScalars = [UUIDDefinition];
 
@@ -40,20 +40,20 @@ const serverSchema = {
     ...customScalars,
     defaultTypeDefs,
     modulesGuides.typeDefs,
-    modulesBlocks.typeDefs,
+    modulesCards.typeDefs,
   ],
   resolvers: {
     ...modulesGuides.resolvers,
-    ...modulesBlocks.resolvers,
+    ...modulesCards.resolvers,
     Query: {
       greet: () => "Welcome to @alura/tshapeddev",
       ...modulesGuides.resolvers.Query,
-      ...modulesBlocks.resolvers.Query,
+      ...modulesCards.resolvers.Query,
     },
     Mutation: {
       createSampleText: (_: unknown, args) => args.input.text,
       ...modulesGuides.resolvers.Mutation,
-      ...modulesBlocks.resolvers.Mutation,
+      ...modulesCards.resolvers.Mutation,
     },
   },
   plugins: [

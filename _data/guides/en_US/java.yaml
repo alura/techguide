@@ -1,7 +1,7 @@
 name: Java
 expertise:
   - name: Java Back-end Jr
-    blocks: 
+    cards: 
       - java-fundamentals:
         priority: 10
       - oop-concepts:
@@ -17,7 +17,7 @@ expertise:
       - data-structures:
         priority: 7
   - name: Java Back-end Mid
-    blocks:
+    cards:
       - jvm:
         priority: 8
       - java-memory-management:
@@ -31,7 +31,7 @@ expertise:
       - java-persistence:
         priority: 8
   - name: Java Back-end in depth
-    blocks:
+    cards:
       - microservices:
         priority: 8
       - java-concurrency:
@@ -46,7 +46,7 @@ expertise:
         priority: 6
 collaboration:
   - name: Infrastructure
-    blocks:
+    cards:
       - git-and-github-fundamentals:
         priority: 9
       - http-fundamentals:
@@ -61,7 +61,7 @@ collaboration:
       - sql-fundamentals:
         priority: 9
   - name: Good practices
-    blocks:
+    cards:
       - solid:
         priority: 7
       - clean-architecture:

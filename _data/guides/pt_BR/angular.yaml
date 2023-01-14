@@ -1,7 +1,7 @@
 name: Angular
 expertise:
   - name: Angular Jr
-    blocks: 
+    cards: 
       - javascript-fundamentals:
         priority: 10
       - typescript-fundamentals:
@@ -13,7 +13,7 @@ expertise:
       - observer-pattern:
         priority: 9
   - name: Angular Mid
-    blocks:
+    cards:
       - angular-templates:
         priority: 9
       - angular-rendering:
@@ -25,7 +25,7 @@ expertise:
       - angular-cli:
         priority: 7
   - name: Angular in depth
-    blocks:
+    cards:
       - angular-state-management:
         priority: 8
       - angular-forms:
@@ -45,7 +45,7 @@ expertise:
         optional: true
 collaboration:
   - name: Infraestrutura e Back-end
-    blocks:
+    cards:
       - git-and-github-fundamentals:
         priority: 10
       - http-fundamentals:
@@ -58,7 +58,7 @@ collaboration:
         priority: 6
         optional: true
   - name: UX e Design
-    blocks:
+    cards:
       - design-systems:
         priority: 4
       - figma-fundamentals:

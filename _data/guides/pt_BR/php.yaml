@@ -1,7 +1,7 @@
 name: PHP
 expertise:
   - name: PHP Jr
-    blocks:
+    cards:
       - php-fundamentals:
         priority: 10
       - oop-concepts:
@@ -15,7 +15,7 @@ expertise:
       - php-composer:
         priority: 9
   - name: PHP Mid
-    blocks:
+    cards:
       - php-testing:
         priority: 9
       - php-mvc:
@@ -30,7 +30,7 @@ expertise:
       - php-xdebug:
         priority: 7
   - name: PHP in depth
-    blocks:
+    cards:
       - php-asynchronous:
         priority: 8
       - php-functional:
@@ -44,7 +44,7 @@ expertise:
         optional: true
 collaboration:
   - name: Infraestrutura e boas práticas
-    blocks:
+    cards:
       - git-and-github-fundamentals:
         priority: 10
       - http-fundamentals:
@@ -65,7 +65,7 @@ collaboration:
       - clean-architecture:
         priority: 7
   - name: Front-end
-    blocks:
+    cards:
       - html-fundamentals:
         priority: 10
       - css-fundamentals:

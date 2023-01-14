@@ -1,7 +1,7 @@
 name: C#
 expertise: 
   - name: C# Back-end Jr
-    blocks: 
+    cards: 
       - csharp-fundamentals:
         priority: 10
       - oop-concepts:
@@ -23,7 +23,7 @@ expertise:
       - data-structures:
         priority: 8
   - name: C# Back-end Mid
-    blocks:
+    cards:
       - clr:
         priority: 8
       - linq:
@@ -42,7 +42,7 @@ expertise:
         priority: 4
         optional: true
   - name: C# Back-end in depth
-    blocks:
+    cards:
       - csharp-delegates-and-events:
         priority: 8
       - csharp-anonymous-methods-and-lambda-expressions:
@@ -59,7 +59,7 @@ expertise:
         optional: true
 collaboration:
   - name: Infraestrutura
-    blocks:
+    cards:
       - git-and-github-fundamentals:
         priority: 9
       - http-fundamentals:
@@ -74,7 +74,7 @@ collaboration:
       - sql-fundamentals:
         priority: 9
   - name: Boas práticas
-    blocks:
+    cards:
       - solid:
         priority: 7
       - design-patterns:

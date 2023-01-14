@@ -43,48 +43,48 @@ export function guidesRepository() {
             slug: slug,
             name: fileContent.name,
             expertises: fileContent.expertise.map((expertise) => {
-              let blocks = [];
+              let cards = [];
 
-              if (expertise.blocks) {
-                blocks = expertise.blocks.map((block) => {
-                  const [slug] = Object.keys(block);
+              if (expertise.cards) {
+                cards = expertise.cards.map((card) => {
+                  const [slug] = Object.keys(card);
                   return {
                     item: {
-                      ...block,
+                      ...card,
                       id: slug,
                       slug: slug,
                     },
-                    priority: block.priority,
+                    priority: card.priority,
                   };
                 });
               }
 
               return {
                 ...expertise,
-                blocks,
+                cards,
               };
             }),
             collaborations: fileContent.collaboration.map((collaboration) => {
-              let blocks = [];
+              let cards = [];
 
-              if (collaboration.blocks) {
-                blocks = collaboration.blocks.map((block) => {
-                  const [slug] = Object.keys(block);
+              if (collaboration.cards) {
+                cards = collaboration.cards.map((card) => {
+                  const [slug] = Object.keys(card);
 
                   return {
                     item: {
-                      ...block,
+                      ...card,
                       id: slug,
                       slug: slug,
                     },
-                    priority: block.priority,
+                    priority: card.priority,
                   };
                 });
               }
 
               return {
                 ...collaboration,
-                blocks,
+                cards,
               };
             }),
           };
