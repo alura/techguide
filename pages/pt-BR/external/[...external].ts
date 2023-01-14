@@ -70,11 +70,18 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
                   };
                 }
 
+                const keyObjectives =
+                  card.keyObjectives || card["key-objectives"] || [];
+
                 return {
                   item: {
                     slug: slugify(card.name),
                     id: card.name,
                     ...card,
+                    keyObjectives: keyObjectives.map((keyObjective) => ({
+                      id: slugify(keyObjective),
+                      name: keyObjective,
+                    })),
                   },
                 };
               })
