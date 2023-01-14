@@ -57,6 +57,10 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
                 if (card.id) {
                   const cardInfo = cardsById[card.id];
 
+                  if (!cardInfo) {
+                    return null;
+                  }
+
                   return {
                     item: {
                       slug: slugify(card.id),
