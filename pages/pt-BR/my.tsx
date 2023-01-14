@@ -4,8 +4,7 @@ import { SiteLocale } from "@src/gql_types";
 
 export default function ToScreen({ locale }: { locale: SiteLocale }) {
   const router = useRouter();
-  // http://localhost:3000/pt-BR/my?url=https://github.com/omariosouto/omariosouto/blob/main/techguide-v1.json
-  // ...
+
   React.useEffect(() => {
     if (router.isReady) {
       const [localePrefix, localeSufix] = locale.split("_");
