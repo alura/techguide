@@ -23,7 +23,7 @@ export default function ToScreen({ locale }: { locale: SiteLocale }) {
     }
   }, [router]);
 
-  return <div>Redirect...</div>;
+  return <div>Generating your guide ...</div>;
 }
 
 export const getStaticProps = async () => {
