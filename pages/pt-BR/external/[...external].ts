@@ -26,88 +26,93 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
     };
   }
 
-  const response = await fetch(URL).then((res) => res.json());
-
-  const { data } = await apolloClient.query({
-    query: GetAllCardsDocument,
-    variables: {
-      locale,
-      input: {
-        limit: 10 * 1000,
+  try {
+    const response = await fetch(URL).then((res) => res.json());
+    const { data } = await apolloClient.query({
+      query: GetAllCardsDocument,
+      variables: {
+        locale,
+        input: {
+          limit: 10 * 1000,
+        },
       },
-    },
-  });
+    });
 
-  const cardsById = data.cards.reduce((acc, card) => {
-    return {
-      ...acc,
-      [card.id]: card,
-    };
-  }, {});
-
-  const guide = Object.entries(response).reduce((acc, [key, value]) => {
-    if (Array.isArray(value)) {
+    const cardsById = data.cards.reduce((acc, card) => {
       return {
         ...acc,
-        [key]: value.map((item) => {
-          return {
-            ...item,
-            cards: item.cards
-              .map((card) => {
-                if (card.id) {
-                  const cardInfo = cardsById[card.id];
+        [card.id]: card,
+      };
+    }, {});
 
-                  if (!cardInfo) {
-                    return null;
+    const guide = Object.entries(response).reduce((acc, [key, value]) => {
+      if (Array.isArray(value)) {
+        return {
+          ...acc,
+          [key]: value.map((item) => {
+            return {
+              ...item,
+              cards: item.cards
+                .map((card) => {
+                  if (card.id) {
+                    const cardInfo = cardsById[card.id];
+
+                    if (!cardInfo) {
+                      return null;
+                    }
+
+                    return {
+                      item: {
+                        slug: slugify(card.id),
+                        id: card.id,
+                        ...cardInfo,
+                      },
+                    };
                   }
+
+                  const keyObjectives =
+                    card.keyObjectives || card["key-objectives"] || [];
 
                   return {
                     item: {
-                      slug: slugify(card.id),
-                      id: card.id,
-                      ...cardInfo,
+                      slug: slugify(card.name),
+                      id: card.name,
+                      ...card,
+                      keyObjectives: keyObjectives.map((keyObjective) => ({
+                        id: slugify(keyObjective),
+                        name: keyObjective,
+                      })),
                     },
                   };
-                }
+                })
+                .filter(Boolean),
+            };
+          }),
+        };
+      }
 
-                const keyObjectives =
-                  card.keyObjectives || card["key-objectives"] || [];
-
-                return {
-                  item: {
-                    slug: slugify(card.name),
-                    id: card.name,
-                    ...card,
-                    keyObjectives: keyObjectives.map((keyObjective) => ({
-                      id: slugify(keyObjective),
-                      name: keyObjective,
-                    })),
-                  },
-                };
-              })
-              .filter(Boolean),
-          };
-        }),
+      return {
+        ...acc,
+        [key]: value,
       };
-    }
+    }, {});
 
-    return {
-      ...acc,
-      [key]: value,
-    };
-  }, {});
-
-  return withLocaleContent(
-    {
-      props: {
-        ...data,
-        guide,
-        locale,
+    return withLocaleContent(
+      {
+        props: {
+          ...data,
+          guide,
+          locale,
+        },
+        revalidate: 60,
       },
-      revalidate: 60,
-    },
-    locale
-  );
+      locale
+    );
+  } catch (error) {
+    return {
+      notFound: true,
+    };
+  }
 };
 
 export { default } from "@src/screens/PathScreen";
