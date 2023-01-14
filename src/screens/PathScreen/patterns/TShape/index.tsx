@@ -1,7 +1,7 @@
 import React from "react";
 import { Box, Link, Text } from "@src/components";
 import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
-import { TItemBlock } from "./patterns/TItemBlock";
+import { TItemCard } from "./patterns/TItemCard";
 import { useI18n, useI18nLocale } from "@src/infra/i18n";
 
 interface TShapeProps {
@@ -19,15 +19,15 @@ export default function TShape({ guide }: TShapeProps) {
   const TItems = [
     {
       name: leftSide.name,
-      blocks: leftSide.blocks,
+      cards: leftSide.cards,
     },
     {
       name: guide.name,
-      blocks: [expertiseStart, expertiseMid, expertiseEnd],
+      cards: [expertiseStart, expertiseMid, expertiseEnd],
     },
     {
       name: rightSide.name,
-      blocks: rightSide.blocks,
+      cards: rightSide.cards,
     },
   ];
 
@@ -91,7 +91,7 @@ export default function TShape({ guide }: TShapeProps) {
                 {item.name}
               </Text>
               {isMain ? (
-                item.blocks.map((block, index) => (
+                item.cards.map((card, index) => (
                   <Box key={index}>
                     <Box
                       styleSheet={{
@@ -120,7 +120,7 @@ export default function TShape({ guide }: TShapeProps) {
                       <Text
                         tag="span"
                         styleSheet={{
-                          display: "inline-block",
+                          display: "inline-card",
                           color: "#03C2E0",
                           whiteSpace: "break-spaces",
                         }}
@@ -132,17 +132,17 @@ export default function TShape({ guide }: TShapeProps) {
                         {i18n.content("TSHAPE.DEPTH.LEVEL_SUFIX")}
                       </Text>
                     </Box>
-                    <TItemBlock
+                    <TItemCard
                       main
-                      blocks={block.blocks}
+                      cards={card.cards}
                       categoryName={item.name}
                     />
                   </Box>
                 ))
               ) : (
-                <TItemBlock
+                <TItemCard
                   key={index}
-                  blocks={item.blocks}
+                  cards={item.cards}
                   categoryName={item.name}
                 />
               )}

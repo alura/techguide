@@ -1,25 +1,21 @@
 /* eslint-disable no-undef */
 import React from "react";
 import { Box, Icon, Text } from "@src/components";
-import { TItemBlockGrids } from "./logic";
+import { TItemCardGrids } from "./logic";
 import { useModal } from "@src/components/Modal";
 import ItemContent from "./ItemContent";
 
-export function TItemBlock({
-  blocks: receivedBlocks,
-  main,
-  categoryName,
-}: any) {
+export function TItemCard({ cards: receivedCards, main, categoryName }: any) {
   const [extraVisible, setExtraVisible] = React.useState(false);
-  const totalBlocks = receivedBlocks.length;
+  const totalCards = receivedCards.length;
   const MAX_VISIBLE = 8;
 
-  const hasExtraBlocks = totalBlocks >= MAX_VISIBLE;
-  const blocks = hasExtraBlocks
-    ? receivedBlocks.slice(0, MAX_VISIBLE)
-    : receivedBlocks;
-  const extraBlocks = hasExtraBlocks
-    ? receivedBlocks.slice(MAX_VISIBLE, totalBlocks)
+  const hasExtraCards = totalCards >= MAX_VISIBLE;
+  const cards = hasExtraCards
+    ? receivedCards.slice(0, MAX_VISIBLE)
+    : receivedCards;
+  const extraCards = hasExtraCards
+    ? receivedCards.slice(MAX_VISIBLE, totalCards)
     : [];
 
   const gridStyles = {
@@ -44,33 +40,33 @@ export function TItemBlock({
       <Box
         styleSheet={{
           ...gridStyles,
-          ...TItemBlockGrids[blocks.length],
+          ...TItemCardGrids[cards.length],
         }}
       >
-        {blocks.map((block, index) => {
-          const isLastItem = blocks.length - 1 === index;
-          if (hasExtraBlocks && isLastItem && !extraVisible) return null;
+        {cards.map((card, index) => {
+          const isLastItem = cards.length - 1 === index;
+          if (hasExtraCards && isLastItem && !extraVisible) return null;
           return (
             <Item
               key={index}
               index={index}
               categoryName={categoryName}
               main={main}
-              block={block}
+              card={card}
             />
           );
         })}
-        {hasExtraBlocks && !extraVisible && (
+        {hasExtraCards && !extraVisible && (
           <Item
-            index={blocks.length - 1}
+            index={cards.length - 1}
             categoryName={categoryName}
             onClick={() => setExtraVisible(!extraVisible)}
             main={main}
-            block={{ item: { name: "..." } }}
+            card={{ item: { name: "..." } }}
           />
         )}
       </Box>
-      {extraVisible && Boolean(extraBlocks.length) && (
+      {extraVisible && Boolean(extraCards.length) && (
         <Box
           styleSheet={{
             marginBottom: "8px",
@@ -78,23 +74,23 @@ export function TItemBlock({
             aspectRatio: "none",
           }}
         >
-          {extraBlocks.map((block, index) => (
+          {extraCards.map((card, index) => (
             <Item
               key={index}
               categoryName={categoryName}
               index={index}
               main={main}
-              block={block}
+              card={card}
               extra
             />
           ))}
           <Item
             extra
             categoryName={categoryName}
-            index={blocks.length - 1}
+            index={cards.length - 1}
             onClick={() => setExtraVisible(!extraVisible)}
             main={main}
-            block={{
+            card={{
               item: {
                 name: (
                   <Box
@@ -117,14 +113,14 @@ export function TItemBlock({
   );
 }
 
-function Item({ onClick, categoryName, index, main, block, extra }: any) {
+function Item({ onClick, categoryName, index, main, card, extra }: any) {
   const modal = useModal();
 
   const content = {
-    title: block?.item?.name || "Error",
-    keyObjectives: block?.item?.keyObjectives,
-    aluraContents: block?.item?.aluraContents,
-    contents: block?.item?.contents,
+    title: card?.item?.name || "Error",
+    keyObjectives: card?.item?.keyObjectives,
+    aluraContents: card?.item?.aluraContents,
+    contents: card?.item?.contents,
   };
 
   return (
@@ -137,7 +133,7 @@ function Item({ onClick, categoryName, index, main, block, extra }: any) {
               globalThis.history.pushState(
                 globalThis.history.state,
                 undefined,
-                `${window.location.pathname}${block?.item?.slug}/`
+                `${window.location.pathname}${card?.item?.slug}/`
               );
 
               modal.open(() => {

@@ -1,7 +1,7 @@
 name: Front-end
 expertise:
   - name: Front-end JavaScript Jr
-    blocks: 
+    cards: 
       - html-fundamentals:
         priority: 10
       - css-fundamentals:
@@ -17,7 +17,7 @@ expertise:
       - responsive-design:
         priority: 7
   - name: Front-end JavaScript Mid
-    blocks:
+    cards:
       - javascript-callbacks-promises:
         priority: 8
       - javascript-testing:
@@ -35,7 +35,7 @@ expertise:
       - cypress:
         priority: 6
   - name: Front-end JavaScript in depth
-    blocks:
+    cards:
       - data-structures:
         priority: 8
       - oop-concepts:
@@ -56,7 +56,7 @@ expertise:
         optional: true
 collaboration:
   - name: Infrastructure and Back-end
-    blocks:
+    cards:
       - git-and-github-fundamentals:
         priority: 10
       - http-fundamentals:
@@ -72,7 +72,7 @@ collaboration:
         optional: true
         priority: 6
   - name: UX and Design
-    blocks:
+    cards:
       - design-systems:
         priority: 4
       - figma-fundamentals:

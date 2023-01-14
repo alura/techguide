@@ -1,9 +1,9 @@
-query AllPathsForActiveBlock($locale: SiteLocale, $input: GuidesInput) {
+query AllPathsForActiveCard($locale: SiteLocale, $input: GuidesInput) {
   guides(locale: $locale, input: $input) {
     slug
     expertises {
       name
-      blocks {
+      cards {
         item {
           slug
         }
@@ -11,7 +11,7 @@ query AllPathsForActiveBlock($locale: SiteLocale, $input: GuidesInput) {
     }
     collaborations {
       name
-      blocks {
+      cards {
         item {
           slug
         }

@@ -1,7 +1,7 @@
 name: React
 expertise:
   - name: React Jr
-    blocks: 
+    cards: 
       - javascript-fundamentals:
         priority: 10
       - dom-fundamentals:
@@ -23,7 +23,7 @@ expertise:
       - react-hooks-effect:
         priority: 9
   - name: React Mid
-    blocks:
+    cards:
       - react-hooks-memo:
         priority: 7
       - react-hooks-callback:
@@ -64,7 +64,7 @@ expertise:
         priority: 6
         optional: true      
   - name: React in depth
-    blocks:
+    cards:
       - lottie:
         priority: 5
         optional: true
@@ -92,7 +92,7 @@ expertise:
         optional: true
 collaboration:
   - name: Infraestructura y Back-end
-    blocks:
+    cards:
         - git-and-github-fundamentals:
           priority: 9
         - http-fundamentals:
@@ -110,7 +110,7 @@ collaboration:
           priority: 6
           optional: true
   - name: UX y Design
-    blocks:
+    cards:
         - design-systems:
           priority: 4
         - figma-fundamentals:

@@ -1,24 +1,24 @@
 import { getStaticProps as getStaticPropsBase } from "./index";
 import { initializeApollo } from "@src/infra/apolloClient";
-import { AllPathsForActiveBlockDocument, SiteLocale } from "@src/gql_types";
+import { AllPathsForActiveCardDocument, SiteLocale } from "@src/gql_types";
 
 export { default } from "./index";
 
 export const getStaticProps = async (ctx) => {
   const staticProps = await getStaticPropsBase(ctx);
-  const blocks = [
-    ...staticProps.props.guide.collaborations[0].blocks,
-    ...staticProps.props.guide.collaborations[1].blocks,
-    ...staticProps.props.guide.expertises[0].blocks,
-    ...staticProps.props.guide.expertises[1].blocks,
-    ...staticProps.props.guide.expertises[2].blocks,
+  const cards = [
+    ...staticProps.props.guide.collaborations[0].cards,
+    ...staticProps.props.guide.collaborations[1].cards,
+    ...staticProps.props.guide.expertises[0].cards,
+    ...staticProps.props.guide.expertises[1].cards,
+    ...staticProps.props.guide.expertises[2].cards,
   ];
-  const block = blocks.find((block) => {
-    if (block?.item?.slug === ctx.params.activeBlockSlug) return true;
+  const card = cards.find((card) => {
+    if (card?.item?.slug === ctx.params.activeCardSlug) return true;
     return false;
   });
 
-  const title = block?.item?.name || "Error";
+  const title = card?.item?.name || "Error";
   const categoryTitle = staticProps.props.guide.name;
   return {
     ...staticProps,
@@ -28,9 +28,9 @@ export const getStaticProps = async (ctx) => {
       modalInitialData: {
         categoryTitle,
         title,
-        keyObjectives: block?.item?.keyObjectives || [],
-        aluraContents: block?.item?.aluraContents || [],
-        contents: block?.item?.contents || [],
+        keyObjectives: card?.item?.keyObjectives || [],
+        aluraContents: card?.item?.aluraContents || [],
+        contents: card?.item?.contents || [],
       },
     },
   };
@@ -41,7 +41,7 @@ export async function getStaticPaths(ctx) {
 
   const apolloClient = initializeApollo();
   const { data } = await apolloClient.query({
-    query: AllPathsForActiveBlockDocument,
+    query: AllPathsForActiveCardDocument,
     variables: {
       locale,
       input: {
@@ -51,21 +51,21 @@ export async function getStaticPaths(ctx) {
   });
 
   const paths = data.guides.reduce((acc, guide) => {
-    const blocks = [
-      ...guide.collaborations[0].blocks,
-      ...guide.collaborations[1].blocks,
-      ...guide.expertises[0].blocks,
-      ...guide.expertises[1].blocks,
-      ...guide.expertises[2].blocks,
+    const cards = [
+      ...guide.collaborations[0].cards,
+      ...guide.collaborations[1].cards,
+      ...guide.expertises[0].cards,
+      ...guide.expertises[1].cards,
+      ...guide.expertises[2].cards,
     ]
-      .map((block) => block?.item?.slug)
+      .map((card) => card?.item?.slug)
       .filter(Boolean);
 
-    const allPaths = blocks.map((blockSlug) => {
+    const allPaths = cards.map((cardSlug) => {
       return {
         params: {
           slug: guide.slug,
-          activeBlockSlug: blockSlug,
+          activeCardSlug: cardSlug,
         },
       };
     });
