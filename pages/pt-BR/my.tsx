@@ -10,7 +10,7 @@ export default function ToScreen({ locale }: { locale: SiteLocale }) {
       const [localePrefix, localeSufix] = locale.split("_");
       const urlLocale = `${localePrefix.toLowerCase()}${
         localeSufix ? `-${localeSufix}` : localeSufix
-      }`;
+      }`.replace("undefined", "");
 
       const url = router.query.url as string;
       const [, , , username, repo, , branch, path] = url.split("/");

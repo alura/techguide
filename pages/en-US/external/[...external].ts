@@ -7,6 +7,6 @@ export const getStaticProps = async (ctx) => {
   return staticProps({ ...ctx, locale: SiteLocale.EnUs });
 };
 
-export const getStaticPaths = async (ctx) => {
-  return staticPaths({ ...ctx, locale: SiteLocale.EnUs });
+export const getStaticPaths = async () => {
+  return staticPaths();
 };
