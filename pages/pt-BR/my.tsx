@@ -12,7 +12,16 @@ export default function ToScreen({ locale }: { locale: SiteLocale }) {
         localeSufix ? `-${localeSufix}` : localeSufix
       }`.replace("undefined", "");
 
-      const url = router.query.url as string;
+      const url = (router.query.url as string) || "";
+
+      if (!url.includes("https://github.com/")) {
+        globalThis.alert(
+          `You must provide a github URL like /my?url=https://github.com/omariosouto/omariosouto/blob/main/techguide-v1.json`
+        );
+        router.push("/");
+        return;
+      }
+
       const [, , , username, repo, , branch, path] = url.split("/");
 
       const nextUrl = `/${urlLocale}/external/${username}/${repo}/${branch}/${path.replaceAll(
