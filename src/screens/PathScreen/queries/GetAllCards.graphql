@@ -1,0 +1,24 @@
+query GetAllCards($locale: SiteLocale, $input: CardsInput) {
+  cards(locale: $locale, input: $input) {
+    id
+    name
+    slug
+    name
+    keyObjectives {
+      id
+      name
+    }
+    aluraContents {
+      id
+      title
+      link
+      type
+    }
+    contents {
+      id
+      title
+      link
+      type
+    }
+  }
+}

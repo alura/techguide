@@ -157,8 +157,11 @@ export default function ItemContent({
             }}
           >
             <ul style={{ paddingLeft: "1.5ch" }}>
-              {keyObjectives?.map(({ name, id }) => (
-                <li key={id} style={{ fontSize: "14px", lineHeight: "1.5" }}>
+              {keyObjectives?.map(({ name, id }, index) => (
+                <li
+                  key={`${id}-${index}`}
+                  style={{ fontSize: "14px", lineHeight: "1.5" }}
+                >
                   {name}
                 </li>
               ))}
@@ -193,9 +196,9 @@ export default function ItemContent({
 
           <Box>
             <ul style={{ listStyle: "none" }}>
-              {contents?.map(({ type, title, link, id }) => (
+              {contents?.map(({ type, title, link, id }, index) => (
                 <li
-                  key={id}
+                  key={`${id}-${index}`}
                   style={{
                     fontSize: "14px",
                     lineHeight: "1.5",
