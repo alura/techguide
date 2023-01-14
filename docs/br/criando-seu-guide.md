@@ -8,6 +8,7 @@
 ```sh
 https://techguide.sh/pt-BR/my?url=https://github.com/omariosouto/omariosouto/blob/main/techguide-v1.json
 ```
+> Que você pode [acessar clicando aqui](https://techguide.sh/pt-BR/my?url=https://github.com/omariosouto/omariosouto/blob/main/techguide-v1.json)
 
 - No seu caso vai ficar: 
 
