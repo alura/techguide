@@ -23,6 +23,8 @@ A gente se inspirou no também opensource http://roadmap.sh, porém usando a abo
 ## Posso sugerir novas carreiras?
 > **R:** Sim! Use o mecanismo de contribuição do Github. Nesse momento estamos focados em corrigir erros e melhorar as carreiras existentes.
 
+> [Por enquanto você pode criar o seu próprio! basta seguir esse tutorial](./docs/br/criando-seu-guide.md)
+
 # About the Project/Sobre o Projeto
 
 ## Contributing/Contribuir

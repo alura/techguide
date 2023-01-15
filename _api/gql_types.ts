@@ -14,38 +14,38 @@ export type Scalars = {
   UUID: string;
 };
 
-export type Block = {
-  __typename?: 'Block';
-  aditionalObjectives?: Maybe<Array<Maybe<BlockAditionalObjective>>>;
-  aluraContents?: Maybe<Array<Maybe<BlockContent>>>;
+export type Card = {
+  __typename?: 'Card';
+  aditionalObjectives?: Maybe<Array<Maybe<CardAditionalObjective>>>;
+  aluraContents?: Maybe<Array<Maybe<CardContent>>>;
   collaborations?: Maybe<Array<Maybe<GuideCollaboration>>>;
-  contents?: Maybe<Array<Maybe<BlockContent>>>;
+  contents?: Maybe<Array<Maybe<CardContent>>>;
   expertises?: Maybe<Array<Maybe<GuideExpertise>>>;
   id?: Maybe<Scalars['String']>;
-  keyObjectives?: Maybe<Array<Maybe<BlockKeyObjective>>>;
+  keyObjectives?: Maybe<Array<Maybe<CardKeyObjective>>>;
   logo?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
   shortDescription?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
 };
 
-export type BlockAditionalObjective = {
-  __typename?: 'BlockAditionalObjective';
+export type CardAditionalObjective = {
+  __typename?: 'CardAditionalObjective';
   id?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
 };
 
-export type BlockContent = {
-  __typename?: 'BlockContent';
+export type CardContent = {
+  __typename?: 'CardContent';
   id?: Maybe<Scalars['String']>;
   link?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
   title?: Maybe<Scalars['String']>;
-  type?: Maybe<BlockContentType>;
+  type?: Maybe<CardContentType>;
 };
 
-export enum BlockContentType {
+export enum CardContentType {
   Aluraplus = 'ALURAPLUS',
   Article = 'ARTICLE',
   Challenge = 'CHALLENGE',
@@ -55,25 +55,25 @@ export enum BlockContentType {
   Youtube = 'YOUTUBE'
 }
 
-export type BlockFilters = {
+export type CardFilters = {
   id?: InputMaybe<FieldFilter>;
   name?: InputMaybe<FieldFilter>;
   slug?: InputMaybe<FieldFilter>;
 };
 
-export type BlockInput = {
+export type CardInput = {
   slug: Scalars['String'];
 };
 
-export type BlockKeyObjective = {
-  __typename?: 'BlockKeyObjective';
+export type CardKeyObjective = {
+  __typename?: 'CardKeyObjective';
   id?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
 };
 
-export type BlocksInput = {
-  filter?: InputMaybe<BlockFilters>;
+export type CardsInput = {
+  filter?: InputMaybe<CardFilters>;
   limit?: InputMaybe<Scalars['Int']>;
   locale?: InputMaybe<SiteLocale>;
   offset?: InputMaybe<Scalars['Int']>;
@@ -98,22 +98,22 @@ export type Guide = {
   slug?: Maybe<Scalars['String']>;
 };
 
-export type GuideBlock = {
-  __typename?: 'GuideBlock';
-  item?: Maybe<Block>;
+export type GuideCard = {
+  __typename?: 'GuideCard';
+  item?: Maybe<Card>;
   priority?: Maybe<Scalars['Int']>;
 };
 
 export type GuideCollaboration = {
   __typename?: 'GuideCollaboration';
-  blocks?: Maybe<Array<Maybe<GuideBlock>>>;
+  cards?: Maybe<Array<Maybe<GuideCard>>>;
   guide?: Maybe<Guide>;
   name?: Maybe<Scalars['String']>;
 };
 
 export type GuideExpertise = {
   __typename?: 'GuideExpertise';
-  blocks?: Maybe<Array<Maybe<GuideBlock>>>;
+  cards?: Maybe<Array<Maybe<GuideCard>>>;
   guide?: Maybe<Guide>;
   name?: Maybe<Scalars['String']>;
 };
@@ -147,22 +147,22 @@ export type MutationCreateSampleTextArgs = {
 
 export type Query = {
   __typename?: 'Query';
-  block?: Maybe<Block>;
-  blocks: Array<Maybe<Block>>;
+  card?: Maybe<Card>;
+  cards: Array<Maybe<Card>>;
   greet?: Maybe<Scalars['String']>;
   guide?: Maybe<Guide>;
   guides: Array<Maybe<Guide>>;
 };
 
 
-export type QueryBlockArgs = {
-  input?: InputMaybe<BlockInput>;
+export type QueryCardArgs = {
+  input?: InputMaybe<CardInput>;
   locale?: InputMaybe<SiteLocale>;
 };
 
 
-export type QueryBlocksArgs = {
-  input?: InputMaybe<BlocksInput>;
+export type QueryCardsArgs = {
+  input?: InputMaybe<CardsInput>;
   locale?: InputMaybe<SiteLocale>;
 };
 
@@ -253,19 +253,19 @@ export type DirectiveResolverFn<TResult = {}, TParent = {}, TContext = {}, TArgs
 
 /** Mapping between all available schema types and the resolvers types */
 export type ResolversTypes = {
-  Block: ResolverTypeWrapper<Block>;
-  BlockAditionalObjective: ResolverTypeWrapper<BlockAditionalObjective>;
-  BlockContent: ResolverTypeWrapper<BlockContent>;
-  BlockContentType: BlockContentType;
-  BlockFilters: BlockFilters;
-  BlockInput: BlockInput;
-  BlockKeyObjective: ResolverTypeWrapper<BlockKeyObjective>;
-  BlocksInput: BlocksInput;
   Boolean: ResolverTypeWrapper<Scalars['Boolean']>;
+  Card: ResolverTypeWrapper<Card>;
+  CardAditionalObjective: ResolverTypeWrapper<CardAditionalObjective>;
+  CardContent: ResolverTypeWrapper<CardContent>;
+  CardContentType: CardContentType;
+  CardFilters: CardFilters;
+  CardInput: CardInput;
+  CardKeyObjective: ResolverTypeWrapper<CardKeyObjective>;
+  CardsInput: CardsInput;
   CreateSampleTextInput: CreateSampleTextInput;
   FieldFilter: FieldFilter;
   Guide: ResolverTypeWrapper<Guide>;
-  GuideBlock: ResolverTypeWrapper<GuideBlock>;
+  GuideCard: ResolverTypeWrapper<GuideCard>;
   GuideCollaboration: ResolverTypeWrapper<GuideCollaboration>;
   GuideExpertise: ResolverTypeWrapper<GuideExpertise>;
   GuideFilters: GuideFilters;
@@ -281,18 +281,18 @@ export type ResolversTypes = {
 
 /** Mapping between all available schema types and the resolvers parents */
 export type ResolversParentTypes = {
-  Block: Block;
-  BlockAditionalObjective: BlockAditionalObjective;
-  BlockContent: BlockContent;
-  BlockFilters: BlockFilters;
-  BlockInput: BlockInput;
-  BlockKeyObjective: BlockKeyObjective;
-  BlocksInput: BlocksInput;
   Boolean: Scalars['Boolean'];
+  Card: Card;
+  CardAditionalObjective: CardAditionalObjective;
+  CardContent: CardContent;
+  CardFilters: CardFilters;
+  CardInput: CardInput;
+  CardKeyObjective: CardKeyObjective;
+  CardsInput: CardsInput;
   CreateSampleTextInput: CreateSampleTextInput;
   FieldFilter: FieldFilter;
   Guide: Guide;
-  GuideBlock: GuideBlock;
+  GuideCard: GuideCard;
   GuideCollaboration: GuideCollaboration;
   GuideExpertise: GuideExpertise;
   GuideFilters: GuideFilters;
@@ -305,14 +305,14 @@ export type ResolversParentTypes = {
   UUID: Scalars['UUID'];
 };
 
-export type BlockResolvers<ContextType = any, ParentType extends ResolversParentTypes['Block'] = ResolversParentTypes['Block']> = {
-  aditionalObjectives?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockAditionalObjective']>>>, ParentType, ContextType>;
-  aluraContents?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockContent']>>>, ParentType, ContextType>;
+export type CardResolvers<ContextType = any, ParentType extends ResolversParentTypes['Card'] = ResolversParentTypes['Card']> = {
+  aditionalObjectives?: Resolver<Maybe<Array<Maybe<ResolversTypes['CardAditionalObjective']>>>, ParentType, ContextType>;
+  aluraContents?: Resolver<Maybe<Array<Maybe<ResolversTypes['CardContent']>>>, ParentType, ContextType>;
   collaborations?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideCollaboration']>>>, ParentType, ContextType>;
-  contents?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockContent']>>>, ParentType, ContextType>;
+  contents?: Resolver<Maybe<Array<Maybe<ResolversTypes['CardContent']>>>, ParentType, ContextType>;
   expertises?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideExpertise']>>>, ParentType, ContextType>;
   id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
-  keyObjectives?: Resolver<Maybe<Array<Maybe<ResolversTypes['BlockKeyObjective']>>>, ParentType, ContextType>;
+  keyObjectives?: Resolver<Maybe<Array<Maybe<ResolversTypes['CardKeyObjective']>>>, ParentType, ContextType>;
   logo?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   shortDescription?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
@@ -320,23 +320,23 @@ export type BlockResolvers<ContextType = any, ParentType extends ResolversParent
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
-export type BlockAditionalObjectiveResolvers<ContextType = any, ParentType extends ResolversParentTypes['BlockAditionalObjective'] = ResolversParentTypes['BlockAditionalObjective']> = {
+export type CardAditionalObjectiveResolvers<ContextType = any, ParentType extends ResolversParentTypes['CardAditionalObjective'] = ResolversParentTypes['CardAditionalObjective']> = {
   id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
-export type BlockContentResolvers<ContextType = any, ParentType extends ResolversParentTypes['BlockContent'] = ResolversParentTypes['BlockContent']> = {
+export type CardContentResolvers<ContextType = any, ParentType extends ResolversParentTypes['CardContent'] = ResolversParentTypes['CardContent']> = {
   id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   link?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   title?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
-  type?: Resolver<Maybe<ResolversTypes['BlockContentType']>, ParentType, ContextType>;
+  type?: Resolver<Maybe<ResolversTypes['CardContentType']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
-export type BlockKeyObjectiveResolvers<ContextType = any, ParentType extends ResolversParentTypes['BlockKeyObjective'] = ResolversParentTypes['BlockKeyObjective']> = {
+export type CardKeyObjectiveResolvers<ContextType = any, ParentType extends ResolversParentTypes['CardKeyObjective'] = ResolversParentTypes['CardKeyObjective']> = {
   id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
@@ -352,21 +352,21 @@ export type GuideResolvers<ContextType = any, ParentType extends ResolversParent
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
-export type GuideBlockResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideBlock'] = ResolversParentTypes['GuideBlock']> = {
-  item?: Resolver<Maybe<ResolversTypes['Block']>, ParentType, ContextType>;
+export type GuideCardResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideCard'] = ResolversParentTypes['GuideCard']> = {
+  item?: Resolver<Maybe<ResolversTypes['Card']>, ParentType, ContextType>;
   priority?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
 export type GuideCollaborationResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideCollaboration'] = ResolversParentTypes['GuideCollaboration']> = {
-  blocks?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideBlock']>>>, ParentType, ContextType>;
+  cards?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideCard']>>>, ParentType, ContextType>;
   guide?: Resolver<Maybe<ResolversTypes['Guide']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
 export type GuideExpertiseResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideExpertise'] = ResolversParentTypes['GuideExpertise']> = {
-  blocks?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideBlock']>>>, ParentType, ContextType>;
+  cards?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideCard']>>>, ParentType, ContextType>;
   guide?: Resolver<Maybe<ResolversTypes['Guide']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
@@ -377,8 +377,8 @@ export type MutationResolvers<ContextType = any, ParentType extends ResolversPar
 };
 
 export type QueryResolvers<ContextType = any, ParentType extends ResolversParentTypes['Query'] = ResolversParentTypes['Query']> = {
-  block?: Resolver<Maybe<ResolversTypes['Block']>, ParentType, ContextType, Partial<QueryBlockArgs>>;
-  blocks?: Resolver<Array<Maybe<ResolversTypes['Block']>>, ParentType, ContextType, Partial<QueryBlocksArgs>>;
+  card?: Resolver<Maybe<ResolversTypes['Card']>, ParentType, ContextType, Partial<QueryCardArgs>>;
+  cards?: Resolver<Array<Maybe<ResolversTypes['Card']>>, ParentType, ContextType, Partial<QueryCardsArgs>>;
   greet?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   guide?: Resolver<Maybe<ResolversTypes['Guide']>, ParentType, ContextType, Partial<QueryGuideArgs>>;
   guides?: Resolver<Array<Maybe<ResolversTypes['Guide']>>, ParentType, ContextType, Partial<QueryGuidesArgs>>;
@@ -389,12 +389,12 @@ export interface UuidScalarConfig extends GraphQLScalarTypeConfig<ResolversTypes
 }
 
 export type Resolvers<ContextType = any> = {
-  Block?: BlockResolvers<ContextType>;
-  BlockAditionalObjective?: BlockAditionalObjectiveResolvers<ContextType>;
-  BlockContent?: BlockContentResolvers<ContextType>;
-  BlockKeyObjective?: BlockKeyObjectiveResolvers<ContextType>;
+  Card?: CardResolvers<ContextType>;
+  CardAditionalObjective?: CardAditionalObjectiveResolvers<ContextType>;
+  CardContent?: CardContentResolvers<ContextType>;
+  CardKeyObjective?: CardKeyObjectiveResolvers<ContextType>;
   Guide?: GuideResolvers<ContextType>;
-  GuideBlock?: GuideBlockResolvers<ContextType>;
+  GuideCard?: GuideCardResolvers<ContextType>;
   GuideCollaboration?: GuideCollaborationResolvers<ContextType>;
   GuideExpertise?: GuideExpertiseResolvers<ContextType>;
   Mutation?: MutationResolvers<ContextType>;

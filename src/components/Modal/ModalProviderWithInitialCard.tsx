@@ -1,14 +1,14 @@
-import ItemContent from "@src/screens/PathScreen/patterns/TShape/patterns/TItemBlock/ItemContent";
+import ItemContent from "@src/screens/PathScreen/patterns/TShape/patterns/TItemCard/ItemContent";
 import { useRouter } from "next/router";
 import React from "react";
 import { ModalProvider } from "./index";
 
-export function ModalProviderWithActiveBlock({
+export function ModalProviderWithActiveCard({
   children,
   modalInitialData,
 }: any) {
   const router = useRouter();
-  const isOpenInitialState = Boolean(router.query.activeBlockSlug);
+  const isOpenInitialState = Boolean(router.query.activeCardSlug);
   const InitialChildrenComponent = () => <ItemContent {...modalInitialData} />;
 
   React.useEffect(() => {
@@ -16,7 +16,7 @@ export function ModalProviderWithActiveBlock({
   }, []);
 
   function onClose() {
-    if (router.query.activeBlockSlug) {
+    if (router.query.activeCardSlug) {
       const newPath = window.location.pathname
         .split("/")
         .filter(Boolean)
