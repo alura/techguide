@@ -1,4 +1,4 @@
-import { GuideBlock, GuideCollaboration, GuideExpertise } from "@src/gql_types";
+import { GuideCard, GuideCollaboration, GuideExpertise } from "@src/gql_types";
 
 interface MarkdownTemplate {
   name: string;
@@ -19,22 +19,22 @@ export function templateMarkdown({
   const template = `
 # ${name}
 ## Nivel 1
-${level1.blocks.map(formatBlock).join("\n")}
+${level1.cards.map(formatBlock).join("\n")}
 ## Nivel 2
-${level2.blocks.map(formatBlock).join("\n")}
+${level2.cards.map(formatBlock).join("\n")}
 ## Nivel 3
-${level3.blocks.map(formatBlock).join("\n")}
+${level3.cards.map(formatBlock).join("\n")}
 ## Habilidade Auxiliar: ${collaboration1.name} 
-${collaboration1.blocks.map(formatBlock).join("\n")}
+${collaboration1.cards.map(formatBlock).join("\n")}
 ## Habilidade Auxiliar: ${collaboration2.name} 
-${collaboration2.blocks.map(formatBlock).join("\n")}
+${collaboration2.cards.map(formatBlock).join("\n")}
 `;
   return template.split("\n").slice(1).join("\n");
 }
 
 // Utils
 
-function formatBlock(block: GuideBlock) {
+function formatBlock(block: GuideCard) {
   const itemName = block.item?.name;
   const keyObjectives = block?.item?.keyObjectives;
 

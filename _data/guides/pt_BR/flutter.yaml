@@ -1,7 +1,7 @@
 name: Flutter
 expertise:
   - name: Flutter Jr
-    blocks: 
+    cards: 
       - dart-fundamentals:
         priority: 10
       - flutter-fundamentals:
@@ -17,7 +17,7 @@ expertise:
       - flutter-api:
         priority: 10          
   - name: Flutter Mid
-    blocks:
+    cards:
       - flutter-packages:
         priority: 9
       - flutter-state-management:
@@ -31,7 +31,7 @@ expertise:
         priority: 6
         optional: true
   - name: Flutter in depth
-    blocks:   
+    cards:   
       - flutter-native:
         priority: 9      
       - data-structures:
@@ -54,7 +54,7 @@ expertise:
         optional: true   
 collaboration:
   - name: Infraestrutura e Back-end
-    blocks:
+    cards:
       - git-and-github-fundamentals:
         priority: 10
       - http-fundamentals:
@@ -81,7 +81,7 @@ collaboration:
       - firebase:
         priority: 7
   - name: UX e Design
-    blocks:
+    cards:
       - design-systems:
         priority: 6
       - figma-fundamentals:

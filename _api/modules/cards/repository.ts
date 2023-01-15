@@ -4,36 +4,36 @@ import sift from "sift";
 import readYamlFile from "read-yaml-file/index";
 import { slugify } from "@src/infra/slugify";
 import { paginate } from "@src/infra/paginate";
-import { Block, BlockInput, BlocksInput, SiteLocale } from "@api/gql_types";
+import { Card, CardInput, CardsInput, SiteLocale } from "@api/gql_types";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
 import { storage } from "@api/infra/storage";
 
 const ALLOW_LIST = [];
 
-const pathToBlocksByLocale = {
-  [SiteLocale.PtBr]: path.resolve(".", "_data", "blocks", "pt_BR"),
-  [SiteLocale.EnUs]: path.resolve(".", "_data", "blocks", "en_US"),
-  [SiteLocale.Es]: path.resolve(".", "_data", "blocks", "es"),
+const pathToCardsByLocale = {
+  [SiteLocale.PtBr]: path.resolve(".", "_data", "cards", "pt_BR"),
+  [SiteLocale.EnUs]: path.resolve(".", "_data", "cards", "en_US"),
+  [SiteLocale.Es]: path.resolve(".", "_data", "cards", "es"),
 };
 
-export function blocksRepository() {
+export function cardsRepository() {
   const repository = {
-    async getAll({ input }: { input: BlocksInput }): Promise<Block[]> {
+    async getAll({ input }: { input: CardsInput }): Promise<Card[]> {
       const { filter = {}, offset, limit, locale } = input;
-      const pathToBlocks = pathToBlocksByLocale[locale];
+      const pathToCards = pathToCardsByLocale[locale];
 
-      const blockFileNames = await (
-        await Promise.all(await fs.readdir(pathToBlocks))
+      const cardFileNames = await (
+        await Promise.all(await fs.readdir(pathToCards))
       ).filter((fileName) => !ALLOW_LIST.includes(fileName));
 
-      const blocksPromise = blockFileNames.map(async (fileName) => {
+      const cardsPromise = cardFileNames.map(async (fileName) => {
         const slug = slugify(fileName.split(".")[0]);
 
-        const blockCache = await storage.get(`block-${locale}-${slug}`);
-        if (blockCache) return blockCache;
+        const cardCache = await storage.get(`card-${locale}-${slug}`);
+        if (cardCache) return cardCache;
 
         const fileContent = await readYamlFile<any>(
-          path.resolve(pathToBlocks, fileName)
+          path.resolve(pathToCards, fileName)
         );
 
         return {
@@ -84,26 +84,20 @@ export function blocksRepository() {
         };
       });
 
-      const blocksSettled = await Promise.allSettled<Block>(blocksPromise);
-      const blocks = blocksSettled
-        .filter((block) => block.status === "fulfilled")
-        .map((block) => (block as any).value);
+      const cardsSettled = await Promise.allSettled<Card>(cardsPromise);
+      const cards = cardsSettled
+        .filter((card) => card.status === "fulfilled")
+        .map((card) => (card as any).value);
 
-      blocks.forEach((block) =>
-        storage.set(`block-${locale}-${block.slug}`, block)
-      );
+      cards.forEach((card) => storage.set(`card-${locale}-${card.slug}`, card));
 
-      const output = paginate<Block>(
-        blocks.filter(sift(filter)),
-        limit,
-        offset
-      );
+      const output = paginate<Card>(cards.filter(sift(filter)), limit, offset);
 
       return output;
     },
-    async getBySlug({ input }: { input: BlockInput }): Promise<Block> {
-      const blocks = await repository.getAll({
-        input: gqlInput<BlocksInput>({
+    async getBySlug({ input }: { input: CardInput }): Promise<Card> {
+      const cards = await repository.getAll({
+        input: gqlInput<CardsInput>({
           ...input,
           filter: {
             slug: {
@@ -113,7 +107,7 @@ export function blocksRepository() {
         }),
       });
 
-      return blocks[0];
+      return cards[0];
     },
   };
 

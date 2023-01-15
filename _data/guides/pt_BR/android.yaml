@@ -1,7 +1,7 @@
 name: Android
 expertise:
   - name: Android Jr
-    blocks:
+    cards:
       - kotlin-fundamentals:
         priority: 10
       - android-fundamentals:
@@ -23,7 +23,7 @@ expertise:
       - android-image-loading:
         priority: 5
   - name: Android Mid
-    blocks:
+    cards:
       - android-permissions:
         priority: 6
       - android-asynchronous:
@@ -37,7 +37,7 @@ expertise:
       - android-testing:
         priority: 6
   - name: Android in depth
-    blocks:
+    cards:
       - android-architecture:
         priority: 10
       - android-core-app-quality:
@@ -53,7 +53,7 @@ expertise:
         priority: 7
 collaboration:
   - name: Infraestrutura e boas práticas
-    blocks:
+    cards:
       - git-and-github-fundamentals:
         priority: 10
       - http-fundamentals:
@@ -74,7 +74,7 @@ collaboration:
       - firebase:
         priority: 8
   - name: UX & Design
-    blocks:
+    cards:
       - android-material-design-guidelines:
         priority: 9
       - design-systems:

@@ -11,7 +11,7 @@ export default function FAQContentSection() {
   return (
     <Box
       styleSheet={{
-        display: questions.length <= 1 ? "none" : "block",
+        display: questions?.length <= 1 ? "none" : "block",
         background: "#101926",
         justifyContent: "center",
       }}
@@ -109,7 +109,7 @@ export default function FAQContentSection() {
           aria-labelledby="faq"
           tag="article"
         >
-          {questions.map(({ title, answer }) => (
+          {questions?.map(({ title, answer }) => (
             <FAQQuestion key={title} title={title} description={answer} />
           ))}
         </Box>

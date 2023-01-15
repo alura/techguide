@@ -1,27 +1,24 @@
-import path from "path";
-import fs from "fs";
 import { SiteLocale } from "@src/gql_types";
 
 const fileNameByLocale = {
-  [SiteLocale.EnUs]: "en-US.json",
-  [SiteLocale.PtBr]: "pt-BR.json",
-  [SiteLocale.Es]: "es.json",
+  [SiteLocale.EnUs]: "en-US.ts",
+  [SiteLocale.PtBr]: "pt-BR.ts",
+  [SiteLocale.Es]: "es.ts",
 };
 
-export function withLocaleContent<NextContext>(
+export async function withLocaleContent<NextContext>(
   ctx: NextContext,
   locale: SiteLocale
-): NextContext {
+): Promise<NextContext> {
   const props = (ctx as unknown as any).props;
-  const localeFilePath = path.join(
-    ".",
-    "_data",
-    "locale",
-    fileNameByLocale[locale]
+  const localeFile = await import(
+    `../../../_data/locale/${fileNameByLocale[locale]}`
   );
-  const i18nKeys = JSON.parse(
-    fs.readFileSync(localeFilePath, "utf8")
-  ) as Record<string, string>;
+
+  const i18nKeys = {
+    questions: [],
+    ...localeFile.default,
+  };
   return {
     ...ctx,
     props: {
