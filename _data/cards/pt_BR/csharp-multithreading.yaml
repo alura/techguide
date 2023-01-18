@@ -2,8 +2,10 @@ name: C# - Multithreading
 logo: 
 short-description:
 key-objectives:
+  - Multithreading é a capacidade de realizar múltiplas operações ao mesmo tempo. Operações com o potencial de atrasar outras operações podem ser executadas em threads separadas.
   - Executar múltiplas tarefas simultaneamente
   - Entender como threads são executadas
+  - Aprender como fazer uma thread esperar em um ponto específico
 aditional-objectives:
 contents:
   - type: SITE

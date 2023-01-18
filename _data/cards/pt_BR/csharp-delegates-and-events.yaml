@@ -1,7 +1,9 @@
-name: C# - Delegates e eventos
+name: C# - Delegates e Eventos
 logo: 
 short-description:
 key-objectives:
+  - Delegates são objetos que são usados como ponteiros de função para se referirem a um método atribuído a eles.
+  - Eventos são a ação realizada que altera o estado de um objeto. Eventos são declarados usando delegates - eles fornecem um encapsulamento aos delegates.
   - Entender o conceito de delegate
   - Criar uma referência para uma função com uma certa lista de parâmetros
   - Entender o conceito de evento

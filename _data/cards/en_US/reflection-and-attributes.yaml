@@ -1,0 +1,28 @@
+name: Reflection and attributes
+logo: 
+short-description:
+key-objectives:
+  - Reflection objects are used for obtaining type information at runtime. The classes that give access to the metadata of a running program are in the System.Reflection namespace.
+  - Writing code that reads object information and metadata at runtime
+  - Getting class names at runtime and creating objects of a class
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Reflection (C#)"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection
+  - type: ARTICLE
+    title: "Reflection in C#"
+    link: https://medium.com/@ghadeer.kenawi/reflection-in-c-fa27d8f827f8
+  - type: ARTICLE
+    title: "C# - Reflection"
+    link: https://www.tutorialspoint.com/csharp/csharp_reflection.htm
+  - type: YOUTUBE
+    title: "Raw Coding: C# Reflection Explained"
+    link: https://www.youtube.com/watch?v=cdG2JxuZvNI
+  - type: YOUTUBE
+    title: "Tutorials Point: C# - Reflection"
+    link: https://www.youtube.com/watch?v=wfDFI9A56Gs
+  - type: YOUTUBE
+    title: "Derek Banas: Java Reflection Tutorial"
+    link: https://www.youtube.com/watch?v=agnblS47F18
+alura-contents:

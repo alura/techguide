@@ -1,0 +1,28 @@
+name: Dapper
+logo: 
+short-description:
+key-objectives:
+  - Dapper is an object–relational mapping (ORM) product for the Microsoft .NET platform. It provides a framework for mapping an object-oriented domain model to relational databases.
+  - Performing database queries such as 'select', 'insert', 'update', 'delete'
+  - Manipulating databases
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Basics of Dapper"
+    link: https://www.jetbrains.com/dotnet/guide/tutorials/basics/dapper/
+  - type: ARTICLE
+    title: "Welcome To Learn Dapper"
+    link: https://www.learndapper.com/
+  - type: ARTICLE
+    title: "C# | Dapper"
+    link: https://www.geeksforgeeks.org/c-dapper/
+  - type: YOUTUBE
+    title: "Milan Jovanović: Write Faster SQL Queries With Dapper In .NET"
+    link: https://www.youtube.com/watch?v=neH0_7bti_I
+  - type: YOUTUBE
+    title: "Patrick God: CRUD with Dapper in a .NET 6 Web API using SQL Server"
+    link: https://www.youtube.com/watch?v=n0zkkoL8eNs
+  - type: YOUTUBE
+    title: "IAmTimCorey: Simple C# Data Access with Dapper and SQL - Minimal API Project"
+    link: https://www.youtube.com/watch?v=dwMFg6uxQ0I
+alura-contents:

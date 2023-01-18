@@ -2,6 +2,7 @@ name: Entity Framework Core
 logo: 
 short-description:
 key-objectives:
+  - O Entity Framework Core é um mapeador objeto-relacional (ORM). O mapeamento objeto-relacional é uma técnica que permite aos desenvolvedores trabalhar com dados de forma orientada ao objeto, realizando o trabalho necessário para mapear entre objetos definidos em uma linguagem de programação da aplicação e dados armazenados em fontes de dados relacionais.
   - Manipular bancos de dados usando objetos .NET
   - Criar modelos correspondentes a um banco de dados
   - Realizar consultas

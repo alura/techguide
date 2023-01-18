@@ -1,0 +1,31 @@
+name: C# - Networking and Sockets
+logo: 
+short-description:
+key-objectives:
+  - Networking is a concept of connecting two or more computing devices together so that we can share resources. Socket programming provides facility to share data between different computing devices through a network.
+  - Opening an interactive communication session between the user's browser and a server
+  - Sending messages to a server and receive replies without querying the server
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Sockets in .NET"
+    link: https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/sockets-overview
+  - type: SITE
+    title: "Microsoft Docs: Use Sockets to send and receive data over TCP"
+    link: https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/socket-services
+  - type: ARTICLE
+    title: "Socket Programming in C#"
+    link: https://www.geeksforgeeks.org/socket-programming-in-c-sharp/
+  - type: ARTICLE
+    title: "Socket Programming in C#"
+    link: https://www.c-sharpcorner.com/article/socket-programming-in-C-Sharp/
+  - type: YOUTUBE
+    title: "Sloan Kelly: Socket Programming in C# (Overview)"
+    link: https://www.youtube.com/watch?v=vwMLH4Qpupw
+  - type: YOUTUBE
+    title: "Brian: C# Socket Programming - Multiple Clients"
+    link: https://www.youtube.com/watch?v=xgLRe7QV6QI
+  - type: YOUTUBE
+    title: "wolfs cry games: TCP Socket Tutorial"
+    link: https://www.youtube.com/watch?v=g5yEWLJxNmI
+alura-contents:

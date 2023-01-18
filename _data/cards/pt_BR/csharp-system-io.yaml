@@ -2,6 +2,7 @@ name: C# - System.IO
 logo: 
 short-description:
 key-objectives:
+  - O namespace System.IO consiste em classes, estruturas, delegates e enumerações relacionadas com entrada e saída de dados (IO). Estas classes podem ser utilizadas para ler e escrever dados em arquivos ou streams de dados. Também contém classes para suporte a arquivos e diretórios.
   - Ler dados de arquivos
   - Escrever dados em arquivos
   - Gerenciar arquivos com Using

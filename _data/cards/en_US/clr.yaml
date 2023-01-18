@@ -1,0 +1,23 @@
+name: CLR
+logo: 
+short-description:
+key-objectives:
+  - The Common Language Runtime (CLR) is the virtual machine component of Microsoft .NET Framework that manages the execution of .NET programs.
+  - Understanding how the CLR works
+  - Understanding memory management
+  - Getting to know CIL and JIT
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Common Language Runtime (CLR) overview"
+    link: https://learn.microsoft.com/en-us/dotnet/standard/clr
+  - type: ARTICLE
+    title: "Common Language Runtime(CLR) DotNet"
+    link: https://medium.com/@mirzafarrukh13/common-language-runtime-dotnet-83e0218edcae
+  - type: ARTICLE
+    title: "CLR Internals Part I : Memory Management"
+    link: https://medium.com/@immortals.300/clr-internals-part-i-memory-management-671cf428bf84
+  - type: YOUTUBE
+    title: "Easy Technology: Overview of the Common Language Runtime CLR"
+    link: https://www.youtube.com/watch?v=ttgqRyMPU9c
+alura-contents:

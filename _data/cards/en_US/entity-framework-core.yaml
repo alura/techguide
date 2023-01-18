@@ -1,0 +1,26 @@
+name: Entity Framework Core
+logo: 
+short-description:
+key-objectives:
+  - Entity Framework Core is an object-relational mapper (ORM). Object-relational mapping is a technique that enables developers to work with data in object-oriented way by performing the work required to map between objects defined in an application's programming language and data stored in relational datasources.
+  - Manipulating databases using .NET objects
+  - Creating models corresponding to a database
+  - Performing queries
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Entity Framework Core"
+    link: https://learn.microsoft.com/en-us/ef/core/
+  - type: ARTICLE
+    title: "10 Best Practices for Entity Framework Core"
+    link: https://medium.com/@walid.mougharbel.1983/10-best-practices-for-entity-framework-core-d44d340b2046
+  - type: YOUTUBE
+    title: "Amichai Mantinband: Entity Framework Core - Ultimate guide for beginners"
+    link: https://www.youtube.com/watch?v=v19arLqQkP8
+  - type: YOUTUBE
+    title: "Patrick God: CRUD with a .NET 6 Web API & Entity Framework Core"
+    link: https://www.youtube.com/watch?v=Fbf_ua2t6v4
+  - type: YOUTUBE
+    title: "IAmTimCorey: Entity Framework Best Practices - Should EFCore Be Your Data Access of Choice?"
+    link: https://www.youtube.com/watch?v=qkJ9keBmQWo
+alura-contents:

@@ -1,0 +1,25 @@
+name: Dependency Injection
+logo: 
+short-description:
+key-objectives:
+  - Dependency Injection is a design pattern in which a class requests dependencies from external sources instead of creating them.
+  - Avoiding high level of code coupling within an application
+  - Implementing inversion of control
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Dependency Injection"
+    link: https://www.tutorialsteacher.com/ioc/dependency-injection
+  - type: ARTICLE
+    title: "A quick intro to Dependency Injection: what it is, and when to use it"
+    link: https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/
+  - type: YOUTUBE
+    title: "Anthony Ferrara: Dependency Injection"
+    link: https://www.youtube.com/watch?v=IKD2-MAkXyQ
+  - type: YOUTUBE
+    title: "Amigoscode: Learn Dependency Injection and Write Better Code"
+    link: https://www.youtube.com/watch?v=eQ90v7HQT-Q
+  - type: YOUTUBE
+    title: "Ryan Schachte: Dependency Injection & Inversion of Control"
+    link: https://www.youtube.com/watch?v=EPv9-cHEmQw
+alura-contents:

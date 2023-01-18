@@ -2,25 +2,22 @@ name: Domain-Driven Design (DDD) concepts
 logo: 
 short-description:
 key-objectives:
-  - Domain-driven design is an approach to software design and development that is first informed by business requirements. The program’s components (objects, classes, arrays, etc.) indicate the industry, sector, or domain in which the business operates.
-  - Designing domains effectively
+  - Domain-Driven Design (DDD) is an approach to software design and development that is first informed by business requirements. The program components (objects, classes, arrays, etc.) indicate the industry, sector, or business domain in which the business operates.
+  - Modeling domains effectively
   - Basing complex projects on domain models
-  - Knowing the building blocks of DDD
+  - Getting to know the building blocks of DDD
 aditional-objectives:
 contents:
-  - type: SITE
-    title: "GeeksForGeeks: Domain-Driven Design (DDD)"
-    link: https://www.geeksforgeeks.org/domain-driven-design-ddd/
-  - type: ARTICLE
-    title: "What Is Domain-Driven Design?"
-    link: https://www.spiceworks.com/tech/devops/articles/what-is-domain-driven-design/
   - type: ARTICLE
     title: "Domain-Driven Design: Everything You Always Wanted to Know About it, But Were Afraid to Ask"
     link: https://medium.com/ssense-tech/domain-driven-design-everything-you-always-wanted-to-know-about-it-but-were-afraid-to-ask-a85e7b74497a
+  - type: ARTICLE
+    title: "Domain-Driven Design in the era of Microservices"
+    link: https://medium.com/it-dead-inside/domain-driven-design-in-the-era-of-icroservices-de2be01821ed
   - type: YOUTUBE
     title: "Amichai Mantinband: Domain-Driven Design in 150 Seconds"
     link: https://www.youtube.com/watch?v=8Z5IAkWcnIw
   - type: YOUTUBE
-    title: "Geekific: Domain-Driven Design Made Simple"
-    link: https://www.youtube.com/watch?v=H5--9pMmuK4
+    title: "Domain-Driven Design Europe: What is DDD? (Eric Evans - DDD Europe 2019)"
+    link: https://www.youtube.com/watch?v=pMuiVlnGqjk
 alura-contents:

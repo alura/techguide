@@ -2,6 +2,7 @@ name: CLR
 logo: 
 short-description:
 key-objectives:
+  - O Common Language Runtime (CLR) é o componente de máquina virtual da plataforma .NET da Microsoft que gerencia a execução de programas .NET.
   - Entender como o CLR funciona
   - Entender o gerenciamento de memória
   - Conhecer a CIL e o JIT
@@ -17,6 +18,6 @@ contents:
     title: "Common Language Runtime(CLR) DotNet (inglês)"
     link: https://medium.com/@mirzafarrukh13/common-language-runtime-dotnet-83e0218edcae
   - type: YOUTUBE
-    title: "Learn C# - What is the CLR (inglês)"
-    link: https://www.youtube.com/watch?v=Iv-3dVGg5XA
+    title: "Easy Technology: Overview of the Common Language Runtime CLR (inglês)"
+    link: https://www.youtube.com/watch?v=ttgqRyMPU9c
 alura-contents:

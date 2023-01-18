@@ -2,7 +2,8 @@ name: Dapper
 logo: 
 short-description:
 key-objectives:
-  - Realizar consultas a bancos de dados
+  - O Dapper é um produto de mapeamento objeto-relacional (ORM) para a plataforma Microsoft .NET. Ele fornece um framework para mapear um modelo de domínio orientado a objetos para bancos de dados relacionais.
+  - Realizar consultas a bancos de dados como 'select', 'insert', 'update', 'delete'
   - Manipular bancos de dados
 aditional-objectives:
 contents:

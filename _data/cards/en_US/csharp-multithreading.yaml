@@ -1,0 +1,29 @@
+name: C# - Multithreading
+logo: 
+short-description:
+key-objectives:
+  - Multithreading is the ability to perform multiple operations at the same time. Operations with the potential of holding up other operations can execute on separate threads.
+  - Running multiple tasks simultaneously
+  - Understanding how threads are executed
+  - Learning how to make a thread wait at a specific point
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Using threads and threading"
+    link: https://learn.microsoft.com/en-us/dotnet/standard/threading/using-threads-and-threading
+  - type: ARTICLE
+    title: "C# - Multithreading"
+    link: https://www.tutorialspoint.com/csharp/csharp_multithreading.htm
+  - type: ARTICLE
+    title: "C# Multithreading"
+    link: https://www.geeksforgeeks.org/c-sharp-multithreading/
+  - type: YOUTUBE
+    title: "Bro Code: C# multithreading"
+    link: https://www.youtube.com/watch?v=rUbmW4qAh8w
+  - type: YOUTUBE
+    title: "kudvenkat: Multithreading in C#"
+    link: https://www.youtube.com/watch?v=8mjqXiggWNc
+  - type: YOUTUBE
+    title: "AngelSix: C# Threads, Tasks, Multi-threading & UI Cross-threading"
+    link: https://www.youtube.com/watch?v=XXg9g56FS0k
+alura-contents:

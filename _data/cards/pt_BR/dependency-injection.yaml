@@ -2,7 +2,7 @@ name: Injeção de Dependências
 logo: 
 short-description:
 key-objectives:
-  - Padrão de projeto no qual uma classe solicita dependências de fontes externas ao invés de criá-las
+  - Injeção de Dependências é um padrão de projeto no qual uma classe solicita dependências de fontes externas ao invés de criá-las.
   - Evitar o alto nível de acoplamento de código dentro de uma aplicação
   - Implementar a inversão de controle
 aditional-objectives:

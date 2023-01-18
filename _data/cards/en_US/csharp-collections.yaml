@@ -1,0 +1,29 @@
+name: C# - Collections
+logo: 
+short-description:
+key-objectives:
+  - A collection represents a group of objects, known as its elements. They are like containers that group multiple items in a single unit. Some collections allow duplicate elements and others do not. Some are ordered and others unordered.
+  - Learn the difference between Dictionary, List, Queue, SortedList and Stack
+  - Get to know how to work with ArrayList e HashTable
+  - Iterators
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Collections (C#)"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections
+  - type: ARTICLE
+    title: "C# Collections (Generic Collections and Non-Generic Collections)"
+    link: https://aemkannika.medium.com/c-collections-c755806d3be6
+  - type: ARTICLE
+    title: "List in C#: implementation and features"
+    link: https://medium.com/pvs-studio/list-in-c-implementation-and-features-8ae73271b747
+  - type: YOUTUBE
+    title: "Bro Code: C# Lists"
+    link: https://www.youtube.com/watch?v=vQzREQUhGSA
+  - type: YOUTUBE
+    title: "Simplilearn: Collections In C# Explained"
+    link: https://www.youtube.com/watch?v=SR4-_gWRlLU
+  - type: YOUTUBE
+    title: "Derek Banas: C# Tutorial 11 Collections"
+    link: https://www.youtube.com/watch?v=SR4-_gWRlLU
+alura-contents:

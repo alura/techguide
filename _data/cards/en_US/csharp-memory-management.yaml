@@ -1,0 +1,26 @@
+name: C# - Memory Management
+logo: 
+short-description:
+key-objectives:
+  - Automatic memory management is one of the services that the Common Language Runtime provides during Managed Execution. The Common Language Runtime's garbage collector manages the allocation and release of memory for an application.
+  - Understand how the memory is managed
+  - Getting to know the Garbage Collector
+  - Understanding about the managed Stack and Heap
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Automatic Memory Management"
+    link: https://learn.microsoft.com/en-us/dotnet/standard/automatic-memory-management
+  - type: ARTICLE
+    title: "C# Memory Management - Part 1"
+    link: https://medium.com/c-programming/c-memory-management-part-1-c03741c24e4b
+  - type: ARTICLE
+    title: ".NET Memory Management"
+    link: https://www.c-sharpcorner.com/UploadFile/26b237/net-memory-management/
+  - type: YOUTUBE
+    title: "Programming With Chris: Memory Management in .NET / C# Explained"
+    link: https://www.youtube.com/watch?v=2kUzyncszeA
+  - type: YOUTUBE
+    title: "Ankpro Training: Stack and Heap - What is stack memory? | What is heap memory?"
+    link: https://www.youtube.com/watch?v=sC1tgnPfa_s
+alura-contents:
