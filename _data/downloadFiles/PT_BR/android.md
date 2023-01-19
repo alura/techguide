@@ -1,5 +1,5 @@
 # Android
-## Nivel 1
+## Nível 1
 - [ ] **Kotlin - Fundamentos**:
    - A linguagem Kotlin cada vez mais cresce no mercado, seja pela adoção no ambiente Android, como também, na presença em outras plataformas. Muitas pessoas e empresas cada vez mais estão interessadas em desenvolver produtos em Kotlin, ou seja, é muito importante conhecer os fundamentos e técnicas específicas que a linguagem provê
    - Entender a sua sintaxe
@@ -64,7 +64,7 @@
 - [ ] **Android - Jetpack Compose Fundamentos**:
    - O Jetpack Compose é uma ferramenta que trás a proposta de criar interfaces nativas Android com menos código, mais rápido e deixa seus apps mais bonitos, ele faz isso através da abordagem declarativa.
    - Criar um app Android do zero utilizando o Jetpack Compose.
-   - Construção de Layouts apartir de composables.
+   - Construção de Layouts a partir de Composables.
    - Pré-visualizações de Composables.
    - Gerenciamento de estados, eventos, composição e recomposição.
    - Configurar o compose em um projeto já existente e aplicar a interoperabilidade.
@@ -84,10 +84,10 @@
 - [ ] **Android - Carregamento de Imagem**:
    - As imagens vem em tamanhos e formas diferentes. Na maioria dos casos, elas são maiores do que o necessário para a Interface de usuário (UI) de um app. Dado que estamos trabalhando com memória limitada, no Android é usada uma técnica de decodificação de bitmaps, para evitar todo o trabalho de utilizar isso, temos diversas bibliotecas que facilitam esse processo.
    - O que é Bitmap
-   - Conhecer as bibliotecas de carregamento de imagens (Glide, Picasso, Coil, entre oturas)
+   - Conhecer as bibliotecas de carregamento de imagens (Glide, Picasso, Coil, entre outras)
    - Usar essas bibliotecas
    - Vantagens e desvantagens de cada uma
-## Nivel 2
+## Nível 2
 - [ ] **Android - Permissões**:
    - As permissões do app ajudam a apoiar a privacidade do usuário protegendo dados restritos, como estados do sistema e os dados de contatos dos usuários, há também as ações restritas, como a conexão a um dispositivo pareado e a gravação de áudio ou uso de câmera.
    - O que são permissões
@@ -103,13 +103,13 @@
 - [ ] **Kotlin - APIs**:
    - Realizar requisições HTTP para se comunicar com serviços online, como REST API é fundamental na maioria dos Apps Android. Sendo assim, é importante conhecer as principais ferramentas e técnicas necessárias para esse tipo de funcionalidade.
    - Conhecer bibliotecas famosas no mundo Android para realizar requisições - Retrofit, Ktor ou Volley.
-   - Configurar as requisições para executararem de maneira assíncrona.
+   - Configurar as requisições para executarem de maneira assíncrona.
    - Converter objetos para JSON e vice-versa.
 - [ ] **Android - Recursos do sistema**:
-   - Os smartphones que estão sob a plataforma Android, na sua grande maioria possuem diversos recursos específicos do sistema, tais como câmeras, sensores, gps, entre outros.
+   - Os smartphones que estão sob a plataforma Android, na sua grande maioria possuem diversos recursos específicos do Sistema, tais como Câmeras, Sensores, GPS, entre outros.
    - Aprenda quais são e como utilizar esses recursos.
 - [ ] **Android - Injeção de dependências**:
-   - Ao escrever códigos em projetos Android é muito que uma funcionalidade utilize códigos de bibliotecas, como o Room para salvar dados ou o Retrofit para fazer requisições para REST API. Essas bibliteocas são conhecidas como dependências dos nossos códigos, justamente pela necessidade para realizar a ação esperada. Usar essas bibliteocas com facilidade em qualquer parte do App pode ter os seus desafios, como oferecer instâncias únicas e realizar toda a configuração necessária para o funcionamento correto. Para isso, utilizamos ferramentas de injeção de dependência que facilitam o nosso trabalho.
+   - Ao escrever códigos em projetos Android é muito que uma funcionalidade utilize códigos de bibliotecas, como o Room para salvar dados ou o Retrofit para fazer requisições para REST API. Essas bibliotecas são conhecidas como dependências dos nossos códigos, justamente pela necessidade para realizar a ação esperada. Usar essas bibliotecas com facilidade em qualquer parte do App pode ter os seus desafios, como oferecer instâncias únicas e realizar toda a configuração necessária para o funcionamento correto. Para isso, utilizamos ferramentas de injeção de dependência que facilitam o nosso trabalho.
    - Saber usar a técnica de injeção de dependência e uma das ferramentas comuns no Android - Hilt, Dagger ou Koin
 - [ ] **Android - Testes automatizados**:
    - Ao escrever um App Android, precisamos garantir ao máximo que o App funciona como esperado. Para evitar os bugs, utilizamos testes automatizados que se responsabilizam em realizar as ações esperadas e conferir se o App apresenta os comportamentos esperados.
@@ -117,7 +117,7 @@
    - Implementar cada tipo de teste para garantir o comportamento esperado - unidade, integração e instrumental.
    - Utilizar Mocks para facilitar a implementação de testes com dependências
    - Implementação de testes com ferramentas de Injeção de dependência - Hilt
-## Nivel 3
+## Nível 3
 - [ ] **Android - Arquitetura**:
    - O guia de arquitetura android aborda práticas e a arquitetura recomendada para a criação de apps robustos com alta qualidade de produção. Organizar sua base de código em partes contidas e acopladas com flexibilidade (Modularização). 
    - O que é e para que serve o MVVM (Model-View-ViewModel)?
@@ -135,7 +135,7 @@
    - Os requisitos são classificados como - Experiência visual, Funcionalidade, Desempenho e estabilidade, Privacidade e segurança, Google Play e Procedimento de teste
    - Cumprir todos os requisitos, ou quase todos, significa que o App possui uma maior qualidade para os usuários.
 - [ ] **Android - Entrega e integração contínua**:
-   - Ao implementar novas funcionalidades do App, precisamos garantir que todas as entregas irão funcionar corretamente. Para isso, podemos utilizar técnicas de integração e entrega contínua, dessa forma, agilizamos a evolução do App e tentamos garantir os compormentos esperados ao mesmo tempo.
+   - Ao implementar novas funcionalidades do App, precisamos garantir que todas as entregas irão funcionar corretamente. Para isso, podemos utilizar técnicas de integração e entrega contínua, dessa forma, agilizamos a evolução do App e tentamos garantir os comportamentos esperados ao mesmo tempo.
    - Conhecer uma das ferramentas para fazer a entrega contínua, Firebase Test Lab, Jenkins, GitHub Actions etc
 - [ ] **Android - Otimização do App**:
    - Ao gerar um App, existem alguns detalhes de otimização para torná-lo rápido, menor e otimizado, como por exemplo, a remoção de código desnecessário, a ofuscação que reduz o nome dos códigos e a otimização que aplica estratégias mais agressivas para reduzir mais ainda o App
@@ -164,7 +164,7 @@
    - Analisar stack track
    - Inspecionar o Layout, recursos do sistema como processador, memória e rede
    - Depurar o banco de dados do App e arquivos APKs pré-compilados
-   - Analisar o build com o analizador de APK
+   - Analisar o Build com o analisador de APK
 ## Habilidade Auxiliar: Infraestrutura e boas práticas
 - [ ] **Git e GitHub - Fundamentos**:
    - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
@@ -173,7 +173,7 @@
    - Clonar um repositório
    - Fazer commit, push e pull de e para o repositório
    - Reverter um commit
-   - Criar branches e pul requests
+   - Criar branches e pull requests
    - Lidar com merge e conflitos
 - [ ] **HTTP - Fundamentos**:
    - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
@@ -181,7 +181,7 @@
    - Testar os requests e ver os status codes no navegador
    - Saber fazer uma requisição HTTP na linha de comando com WGET
    - Baixar uma imagem com WGET
-   - Fazer um post
+   - Fazer um Post
 - [ ] **JSON**:
    - JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.
    - Criar um objeto
