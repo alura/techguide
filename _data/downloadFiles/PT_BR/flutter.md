@@ -1,5 +1,5 @@
 # Flutter
-## Nivel 1
+## Nível 1
 - [ ] **Dart - Fundamentos**:
    - Instalar e configurar o Dart
    - Conhecer as palavras chaves do Dart
@@ -44,7 +44,7 @@
    - Conhecer os comandos básicos de comunicação HTTP
    - Saber usar as ferramentas do pacote `http` do Dart
    - Saber fazer requisições autenticadas para Web APIs
-## Nivel 2
+## Nível 2
 - [ ] **Flutter - Pacotes Essenciais**:
    - O Flutter suporta o uso de pacotes compartilhados contribuídos por outros desenvolvedores para os ecossistemas Flutter e Dart. Isto permite construir rapidamente um aplicativo sem ter que desenvolver tudo do zero.
    - Conhecer e saber utilizar a plataforma pub.dev
@@ -69,7 +69,7 @@
    - Conhecer o Kit de Desenvolvimento de Jogos Casuais do Flutter
    - Conhecer o pacote Flame como Engine de Jogos Flutter
    - Conhecer o pacote Bonfire como Engine de Jogos para Flutter
-## Nivel 3
+## Nível 3
 - [ ] **Flutter - Nativo**:
    - Conhecer as especificidades do desenvolvimento nativo para Android
    - Conhecer as especificidades do desenvolvimento nativo para iOS
@@ -105,7 +105,7 @@
    - Clonar um repositório
    - Fazer commit, push e pull de e para o repositório
    - Reverter um commit
-   - Criar branches e pul requests
+   - Criar branches e pull requests
    - Lidar com merge e conflitos
 - [ ] **HTTP - Fundamentos**:
    - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
