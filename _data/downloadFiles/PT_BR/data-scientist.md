@@ -27,9 +27,9 @@
    - Conhecer a biblioteca NumPy
    - Conhecer a biblioteca Pandas
 - [ ] **Jupyter e Colab**:
-   - Jupyter Notebook e Google Colaboratory são Notebooks que permitem a criação de blocos de texto e blocos de código
+   - Jupyter Notebook e Google Collaboratory são Notebooks que permitem a criação de blocos de texto e blocos de código
    - Os Notebooks facilitam a elaboração de projetos de Data Science por ser possível visualizar o resultado da execução logo após o trecho de código
-   - O Google Colaboratory permite escrever e executar códigos Python diretamente no navegador, sem nenhuma ou poucas configurações necessárias
+   - O Google Collaboratory permite escrever e executar códigos Python diretamente no navegador, sem nenhuma ou poucas configurações necessárias
    - Eles facilitam o compartilhamento de projetos entre o time
 - [ ] **R para Ciência de Dados**:
    - R é uma linguagem de programação comumente usada em estatística computacional e análise de dados.
@@ -63,7 +63,7 @@
    - Utilizar algoritmos de regressão
    - Utilizar o Scikit-learn para criar modelos de machine learning
 - [ ] **Machine Learning - Aprendizado Não Supervisionado**:
-   - O clustering ou análise de agrupamento de dados é o conjunto de técnicas de prospecção de dados (data mining) que visa fazer agrupamentos automáticos de dados segundo o seu grau de semelhança.
+   - O clustering ou análise de agrupamento de dados é o conjunto de técnicas de prospeção de dados (data mining) que visa fazer agrupamentos automáticos de dados segundo o seu grau de semelhança.
    - Conhecer a análise exploratória
    - Utilizar os métodos K-means, DBSCAN e Mean shift para agrupar dados sem classificação
    - Avaliar a qualidade de uma clusterização
@@ -115,7 +115,7 @@
    - Entender o conceito de Retorno
    - Utilizar o algoritmo Q-learning
 - [ ] **Visão Computacional**:
-   - Visão Computacional é um campo científico interdisciplinar que lida com a forma como os computadores podem ganhar conhecimentos de alto nível a partir de imagens ou vídeos digitais. Da perspectiva da engenharia, procura compreender e automatizar tarefas que o sistema visual humano pode fazer.
+   - Visão Computacional é um campo científico interdisciplinar que lida com a forma como os computadores podem ganhar conhecimentos de alto nível a partir de imagens ou vídeos digitais. Da perspetiva da engenharia, procura compreender e automatizar tarefas que o sistema visual humano pode fazer.
    - Extrair regiões de interesse de uma imagem
    - Normalizar e pré-processar dados de imagens
    - Construir classificadores para reconhecimento de faces
@@ -154,7 +154,7 @@
    - Clonar um repositório
    - Fazer commit, push e pull de e para o repositório
    - Reverter um commit
-   - Criar branches e pul requests
+   - Criar branches e pull requests
    - Lidar com merge e conflitos
 - [ ] **Linux - Fundamentos**:
    - Linux é um termo popularmente empregado para se referir a sistemas operacionais que utilizam o Kernel Linux. As distribuições incluem o Kernel Linux, além de softwares de sistema e bibliotecas.
