@@ -1,5 +1,5 @@
 # C#
-## Nivel 1
+## Nível 1
 - [ ] **C# - Fundamentos**:
    - Conhecer os tipos primitivos
    - Declarar variáveis, considerando os diferentes tipos
@@ -57,7 +57,7 @@
    - No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.
    - Conhecer as principais estruturas de dados
    - Implementar as principais estruturas de dados
-## Nivel 2
+## Nível 2
 - [ ] **CLR**:
    - Entender como o CLR funciona
    - Entender o gerenciamento de memória
@@ -89,7 +89,7 @@
 - [ ] **C# - Multithreading**:
    - Executar múltiplas tarefas simultaneamente
    - Entender como threads são executadas
-## Nivel 3
+## Nível 3
 - [ ] **C# - Delegates e eventos**:
    - Entender o conceito de delegate
    - Criar uma referência para uma função com uma certa lista de parâmetros
@@ -126,7 +126,7 @@
    - Clonar um repositório
    - Fazer commit, push e pull de e para o repositório
    - Reverter um commit
-   - Criar branches e pul requests
+   - Criar branches e pull requests
    - Lidar com merge e conflitos
 - [ ] **HTTP - Fundamentos**:
    - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
