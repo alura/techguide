@@ -1,9 +1,14 @@
 import React from "react";
 import { useRouter } from "next/router";
 import { SiteLocale } from "@src/gql_types";
+import { Box } from "@src/components";
+import { useI18n } from "@src/infra/i18n";
+import { withLocaleContent } from "@src/infra/i18n/withLocaleContent";
+import { pageHOC } from "@src/wrappers/pageHOC";
 
-export default function ToScreen({ locale }: { locale: SiteLocale }) {
+function ToScreen({ locale }: { locale: SiteLocale }) {
   const router = useRouter();
+  const i18n = useI18n();
 
   React.useEffect(() => {
     if (router.isReady) {
@@ -32,13 +37,34 @@ export default function ToScreen({ locale }: { locale: SiteLocale }) {
     }
   }, [router]);
 
-  return <div>Generating your guide ...</div>;
+  return (
+    <Box
+      styleSheet={{
+        flex: 1,
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "#0f1724",
+        color: "white",
+        fontSize: "30px",
+        fontWeight: "bold",
+      }}
+    >
+      {i18n.content("MY.GENERATE_GUIDE")}
+    </Box>
+  );
 }
 
-export const getStaticProps = async () => {
-  return {
-    props: {
-      locale: SiteLocale.PtBr,
+export default pageHOC(ToScreen);
+
+export const getStaticProps = async (ctx) => {
+  const locale = (ctx.locale || SiteLocale.PtBr) as SiteLocale;
+
+  return withLocaleContent(
+    {
+      props: {
+        locale,
+      },
     },
-  };
+    locale
+  );
 };
