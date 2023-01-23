@@ -1,5 +1,5 @@
 # Angular
-## Nivel 1
+## Nível 1
 - [ ] **JavaScript - Fundamentos**:
    - JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.
    - Conhecer os tipos primitivos
@@ -41,7 +41,7 @@
    - Atualizar diversos elementos simultaneamente usando Observers
    - Declarar os Subjects
    - Criar programas baseados em eventos
-## Nivel 2
+## Nível 2
 - [ ] **Angular - Templates**:
    - Em Angular, templates são um modelo para um fragmento de uma interface de usuário (IU). Templates são escritos em HTML, e uma sintaxe especial pode ser usada dentro de um template para construir com base em muitas das características do Angular.
 - [ ] **Angular - Renderização**:
@@ -60,14 +60,14 @@
    - A Interface de Linha de Comando (CLI) do Angular é uma ferramenta de interface de linha de comando que você utiliza para inicializar, desenvolver, estruturar e manter aplicações Angular diretamente de um shell de comando.
    - Aprender a sintaxe 'ng [argumento-opcional] [opções]'
    - Conhecer os comandos mais importantes, como 'ng add', 'ng build', 'ng update', 'ng deploy', 'ng new', 'ng test', entre outros
-## Nivel 3
+## Nível 3
 - [ ] **Angular - Gerenciamento de Estado**:
    - Um 'estado' (state) é qualquer dado necessário para reconstruir UI (Interface de Usuário) qualquer momento. A alteração desses dados desencadeará um redesenho da interface do usuário. O gerenciamento do estado é o conceito de adicionar, atualizar, remover e ler esses dedos e seus 'estados' em uma aplicação.
    - Atualizar componentes em tempo real
    - Esperar por alterações em algum componente e executar alterações
    - Usar Redux, NGXS e outros
 - [ ] **Angular - Formulários**:
-   - Um formulário web é uma página online que aceita inseção de dados (inputs) do usuário. É uma página interativa que imita um documento ou formulário em papel, onde os usuários preenchem determinados campos.
+   - Um formulário web é uma página online que aceita inserção de dados (inputs) do usuário. É uma página interativa que imita um documento ou formulário em papel, onde os usuários preenchem determinados campos.
    - Criar formulários com Template Forms
    - Criar formulários reativos com Reactive Forms
 - [ ] **Angular - Módulos**:
@@ -108,7 +108,7 @@
    - Clonar um repositório
    - Fazer commit, push e pull de e para o repositório
    - Reverter um commit
-   - Criar branches e pul requests
+   - Criar branches e pull requests
    - Lidar com merge e conflitos
 - [ ] **HTTP - Fundamentos**:
    - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
