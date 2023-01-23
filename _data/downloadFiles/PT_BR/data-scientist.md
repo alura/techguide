@@ -115,7 +115,7 @@
    - Entender o conceito de Retorno
    - Utilizar o algoritmo Q-learning
 - [ ] **Visão Computacional**:
-   - Visão Computacional é um campo científico interdisciplinar que lida com a forma como os computadores podem ganhar conhecimentos de alto nível a partir de imagens ou vídeos digitais. Da perspetiva da engenharia, procura compreender e automatizar tarefas que o sistema visual humano pode fazer.
+   - Visão Computacional é um campo científico interdisciplinar que lida com a forma como os computadores podem ganhar conhecimentos de alto nível a partir de imagens ou vídeos digitais. Da perspectiva da engenharia, procura compreender e automatizar tarefas que o sistema visual humano pode fazer.
    - Extrair regiões de interesse de uma imagem
    - Normalizar e pré-processar dados de imagens
    - Construir classificadores para reconhecimento de faces
