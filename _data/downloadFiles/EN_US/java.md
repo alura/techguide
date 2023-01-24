@@ -169,8 +169,8 @@
 - [ ] **Clean Code**:
    - Applying simple techniques that aim to make a code easier to write and read
    - Refactoring your code to make it clearer
-- [ ] **Domain-Driven Design (DDD) concepts**:
-   - Domain-driven design is an approach to software design and development that is first informed by business requirements. The program’s components (objects, classes, arrays, etc.) indicate the industry, sector, or domain in which the business operates.
-   - Designing domains effectively
+- [ ] **Domain-Driven Design (DDD) Concepts**:
+   - Domain-Driven Design (DDD) is an approach to software design and development that is first informed by business requirements. The program components (objects, classes, arrays, etc.) indicate the industry, sector, or business domain in which the business operates.
+   - Modeling domains effectively
    - Basing complex projects on domain models
-   - Knowing the building blocks of DDD
+   - Getting to know the building blocks of DDD

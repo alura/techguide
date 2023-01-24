@@ -92,6 +92,7 @@
    - Conhecer a plataforma Docker
    - Conhecer Kubernetes
 - [ ] **Reflection e atributos**:
+   - Os objetos de Reflection (reflexão) são usados para obter informações do tipo em tempo de execução. As classes que dão acesso aos metadados de um programa em execução estão no namespace System.Reflection.
    - Escrever código que lê as informações e metadados de objetos em tempo de execução
    - Obter nomes de classes em tempo de execução e criar objetos de uma classe
 ## Habilidade Auxiliar: Infraestrutura e boas práticas 

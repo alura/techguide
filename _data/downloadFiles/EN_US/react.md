@@ -88,7 +88,7 @@
    - The `useRef` Hook allows you to persist values between renders.
    - Storing a mutable value that does not cause a re-render when updated
    - Accessing a DOM element directly
-- [ ] **Design System Libraries**:
+- [ ] **React - Design System Libraries**:
    - A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications.
 - [ ] **React Developer Tools**:
    - React Developer Tools is used to inspect React components, edit props and state, and identify performance problems.
