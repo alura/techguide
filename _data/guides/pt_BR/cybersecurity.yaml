@@ -77,10 +77,12 @@ collaboration:
         priority: 10
       - computer-network-fundamentals:
         priority: 9
+      - http-fundamentals:
+        priority: 9
       - iot-fundamentals:
         priority: 9
-      - web-communication-fundamentals:
-        priority: 8
+     # - web-communication-fundamentals:
+     #   priority: 8
       - cloud-fundamentals:
         priority: 8
       - windows-fundamentals:
