@@ -1,7 +1,7 @@
 name: Cibersegurança
 expertise:
   - name: Cybersecurity Jr
-    blocks:
+    cards:
       - cryptography-fundamentals:
         priority: 10
       - cybersecurity-framework:
@@ -23,7 +23,7 @@ expertise:
       - penetration-testing-fundamentals:
         priority: 7
   - name: Cybersecurity Mid
-    blocks:
+    cards:
       - endpoint-security:
         priority: 10
       - metasploit-attack-analysis:
@@ -51,7 +51,7 @@ expertise:
       - powershell-scrypting-security:
         priority: 7
   - name: Cybersecurity in depth
-    blocks:
+    cards:
       - network-security-architecture:
         priority: 10
       - threat-hunting:
