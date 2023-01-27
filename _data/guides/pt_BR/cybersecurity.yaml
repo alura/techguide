@@ -1,4 +1,4 @@
-name: Cybersecurity
+name: Cibersegurança
 expertise:
   - name: Cybersecurity Jr
     blocks:
@@ -71,7 +71,7 @@ expertise:
       - automation-continuous-security-monitoring:
         priority: 7
 collaboration:
-  - name: Fundamentals Skills
+  - name: Sistemas e tecnologias úteis
     blocks:
       - python-fundamentals:
         priority: 10
@@ -87,7 +87,7 @@ collaboration:
         priority: 7
       - linux-fundamentals:
         priority: 7
-  - name: Information Security
+  - name: Segurança da Informação
     blocks:
       - risk-threat-vulnerability:
         priority: 10
