@@ -1,0 +1,36 @@
+name: Segurança de Contêineres
+logo: 
+short-description:
+key-objectives:
+  - A segurança do contêiner é o processo de combinar políticas de segurança para assegurar que a integridade do contêiner esteja protegida. A segurança do contêiner é importante porque a imagem do contêiner contém todos os componentes que, eventualmente, executarão seu aplicativo. Se houver vulnerabilidades à espreita na imagem do contêiner, o risco e a gravidade potencial dos problemas de segurança durante a produção aumentam.
+contents:
+  - type: ARTICLE
+    title: "Container Security Solutions"
+    link: https://medium.com/xenonstack-security/container-security-solutions-framework-mechanism-and-strategy-24de3891a12b
+  - type: ARTICLE
+    title: "Container Security Threats"
+    link: https://medium.com/oreillymedia/container-security-threats-38649261fb4f
+  - type: ARTICLE
+    title: "Top 20 Docker Security Tips"
+    link: https://towardsdatascience.com/top-20-docker-security-tips-81c41dd06f57
+  - type: ARTICLE
+    title: "Container Security"
+    link: https://blog.pentesteracademy.com/learning-path-container-security-9a9c47760250
+  - type: YOUTUBE
+    title: "Container Security Explained"
+    link: https://www.youtube.com/watch?v=b_euX_M82uI
+  - type: YOUTUBE
+    title: "Container Security 101"
+    link: https://www.youtube.com/watch?v=PDDiOl7ckzQ
+  - type: YOUTUBE
+    title: "Docker Security Essentials"
+    link: https://www.youtube.com/watch?v=KINjI1tlo2w
+  - type: YOUTUBE
+    title: "Auditing Docker Security"
+    link: https://www.youtube.com/watch?v=mQkVB6KMHCg
+  - type: YOUTUBE
+    title: "Segurança em Docker: Mais que containers"
+    link: https://www.youtube.com/watch?v=5ya_t0YWfyE
+  - type: COURSE
+    title: "DEVSECOPS"
+    link: https://www.fiap.com.br/shift/imersao/tecnologia/devsecops-securing-cicd-devops/

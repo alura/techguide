@@ -1,0 +1,36 @@
+name: Windows - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Windows é um sistema operacional de multitarefas para computadores e dispositivos móveis, desenvolvido pela Microsoft. Inicialmente, o Windows oferecia apenas uma interface gráfica, funcionando unicamente em programas em modo gráfico. Desde então, este sistema operacional tem evoluído, tanto em termos de funcionalidades, design e eficiência. Até o momento, o Microsoft já conta com dezenas de atualizações, sendo as mais conhecidas o Windows 95, Windows 98, Windows 2000, Windows XP, Windows Vista e, mais recentemente, o Windows 11.
+contents:
+  - type: SITE
+    title: "Microsoft Windows"
+    link: https://www.microsoft.com/pt-br/windows/
+  - type: SITE
+    title: "PowerShell parte 1: a linguagem de scripting moderna"
+    link: https://www.alura.com.br/conteudo/powershell-parte1
+  - type: YOUTUBE
+    title: "Linha de comando básica"
+    link: https://www.youtube.com/watch?v=rKBqXJZocYk
+  - type: ARTICLE
+    title: "CMD: dicas para trabalhar no prompt do Windows"
+    link: https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows
+  - type: ARTICLE
+    title: "Windows Prompt: Trabalhando na linha de comando"
+    link: https://www.alura.com.br/conteudo/prompt
+  - type: ARTICLE
+    title: "Windows Server 2019 – Guia para iniciantes na instalação do Active Directory"
+    link: https://tiparaleigo.wordpress.com/2021/01/28/windows-server-2019-guia-para-iniciantes-na-instalacao-do-active-directory/
+  - type: ARTICLE
+    title: "Visão geral dos serviços de domínio Active Directory"
+    link: https://learn.microsoft.com/pt-br/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview
+  - type: ARTICLE
+    title: "Documentação do Active Directory"
+    link: https://learn.microsoft.com/pt-br/troubleshoot/windows-server/identity/active-directory-overview
+  - type: COURSE
+    title: "Windows, DevOps"
+    link: https://www.alura.com.br/cursos-online-devops/windows
+  - type: COURSE
+    title: "Windows Prompt: Trabalhando na linha de comando"
+    link: https://www.alura.com.br/curso-online-prompt

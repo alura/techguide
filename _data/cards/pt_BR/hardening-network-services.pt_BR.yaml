@@ -1,0 +1,36 @@
+name: Hardening Network Services
+logo: 
+short-description:
+key-objectives:
+  - A proteção do servidor é um conjunto de disciplinas e técnicas que melhoram a segurança de um servidor 'em produção'. Hardening é um requisito de estruturas de segurança em diversos frameworks.
+contents:
+  - type: ARTICLE
+    title: "Introdução a Hardening de Servidores"
+    link: https://medium.com/@gabu_b/introdu%C3%A7%C3%A3o-a-hardening-de-servidores-27570fc8597a
+  - type: ARTICLE
+    title: "Linux Server Hardening"
+    link: https://medium.com/@thefoursec/linux-server-hardening-e659db8ec689
+  - type: ARTICLE
+    title: "5 Steps to (Secure)Hardening"
+    link: https://saeedrz.medium.com/5-steps-to-hardening-your-server-centos-7-25e1851c8204
+  - type: ARTICLE
+    title: "Como fazer o Hardening do seu servidor Linux"
+    link: https://phbols.medium.com/como-fazer-o-hardening-do-seu-servidor-linux-14b6f1b3499b
+  - type: ARTICLE
+    title: "SERVER ARCHITECTURE SECURITY"
+    link: https://medium.com/@jbrendan86/server-architecture-security-windows-2da580d58e62
+  - type: YOUTUBE
+    title: "Hardening Access to Your Server"
+    link: https://www.youtube.com/watch?v=eeaFoZlSq6I
+  - type: YOUTUBE
+    title: "How to protect Linux from Hackers"
+    link: https://www.youtube.com/watch?v=Bx_HkLVBz9M
+  - type: YOUTUBE
+    title: "Linux PAM"
+    link: https://www.youtube.com/watch?v=N4DP68TK0AQ
+  - type: COURSE
+    title: "Cyber Security Fundamentals & Skills"
+    link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/
+  - type: COURSE
+    title: "CSO infosec + Cyber Defense"
+    link: https://www.fiap.com.br/shift/imersao/tecnologia/cso-infosec-cyber-defense/

@@ -2,6 +2,8 @@ name: Node.js
 expertise:
   - name: Node.js Jr
     cards:
+      - javascript-fundamentals:
+        priority: 10
       - nodejs-fundamentals:
         priority: 10  
       - javascript-callbacks-promises:
@@ -56,8 +58,6 @@ collaboration:
         optional: true
   - name: Front-end
     cards:
-      - javascript-fundamentals:
-        priority: 10
       - html-fundamentals:
         priority: 10
       - css-fundamentals:

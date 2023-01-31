@@ -1,0 +1,36 @@
+name: SIEM e SOAR
+logo: 
+short-description:
+key-objectives:
+  - Combinando gerenciamento de informações de segurança (SIM) e gerenciamento de eventos de segurança (SEM), informações de segurança e gerenciamento de eventos (SIEM) oferece monitoramento e análise de eventos em tempo real, bem como rastreamento e registro de dados de segurança para fins de conformidade ou auditoria.
+contents:
+  - type: ARTICLE
+    title: "SIEM"
+    link: https://medium.com/sysadminas/elastic-siem-introdu%C3%A7%C3%A3o-e3486a0c995e
+  - type: ARTICLE
+    title: "Security Information & Event Management"
+    link: https://blog.gofix.com.br/security-information-event-management-siem-b7a9a2c70837
+  - type: ARTICLE
+    title: "SIEM e SOC para iniciantes"
+    link: https://medium.com/@mariliasroch/siem-e-soc-para-iniciantes-a36c9ad40b46
+  - type: ARTICLE
+    title: "Introdução ao OSSIM"
+    link: https://lucxs.medium.com/siem-introdu%C3%A7%C3%A3o-ao-ossim-98a45fffeb19
+  - type: ARTICLE
+    title: "Top Free Security Information and Event Management(SIEM) Software's"
+    link: https://kalhara-sampath.medium.com/top-free-security-information-and-event-management-siem-softwares-20c6d8f32a6f
+  - type: SITE
+    title: "ELK"
+    link: https://www.elastic.co/pt/what-is/elk-stack
+  - type: YOUTUBE
+    title: "SOC Open Source"
+    link: https://www.youtube.com/watch?v=t6PqjLIVgdA
+  - type: YOUTUBE
+    title: "Wazuh"
+    link: https://www.youtube.com/watch?v=wT_z5fRnoXc
+  - type: COURSE
+    title: "Cyber Security Fundamentals & Skills"
+    link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/
+  - type: COURSE
+    title: "CSO infosec + Cyber Defense"
+    link: https://www.fiap.com.br/shift/imersao/tecnologia/cso-infosec-cyber-defense/
