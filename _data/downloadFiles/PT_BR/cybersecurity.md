@@ -9,8 +9,8 @@
 - [ ] **Análise de Vulnerabilidades**:
    - Técnicas e táticas de framework de vários serviços e ferramentas que oferece uma solução de varredura e gerenciamento de vulnerabilidade.
 - [ ] **Firewalls, IDS and IPS**:
-   - Definições e diferenças entre dispositivos de segurança de rede, firewalls, sistemas de prevenção de intrusão (IPS) e sistemas de detecção de intrusão (IDS). 
-   - Um firewall permite o tráfego dependendo de um conjunto de regras que foram configuradas. Ele é baseado nos endereços de origem, destino e porta. Um firewall 
+   - Definições e diferenças entre dispositivos de segurança de rede, firewalls, sistemas de prevenção de intrusão (IPS) e sistemas de detecção de intrusão (IDS).
+   - Um firewall permite o tráfego dependendo de um conjunto de regras que foram configuradas. Ele é baseado nos endereços de origem, destino e porta. Um firewall pode negar qualquer tráfego que não satisfaça os critérios especificados. IDS são dispositivos de sistema de monitoramento passivo que monitoram o tráfego de rede à medida que viajam pela rede, comparam padrões de assinatura, e acionar um alarme se for detectada atividade suspeita ou ameaça de segurança conhecida. Por outro lado, o IPS é um dispositivo ativo que impede ataques bloqueando-os.
 - [ ] **Investigações Digitais - Fundamentos**:
    - Digital Investigations é o uso da ciência para investigar crimes digfitais e determinar fatos. Com o uso e disseminação de sistemas digitais, como computadores e smartphones.
 - [ ] **Password Attacks**:
@@ -60,14 +60,14 @@
 - [ ] **Análise de Malware**:
    - A análise de malware é o processo de compreensão do comportamento e da finalidade de um arquivo ou URL suspeito. A saída da análise ajuda na detecção e mitigação da ameaça potencial.
 - [ ] **Segurança de Aplicativos**:
-   - A segurança do aplicativo descreve as medidas de segurança no nível do aplicativo que visam impedir que dados ou códigos dentro do aplicativo sejam roubados ou invadidos. Ele abrange as considerações de segurança que ocorrem durante o desenvolvimento e o design de aplicativos, mas também envolve sistemas e abordagens para proteger os aplicativos depois que eles são implantados. 
+   - A segurança do aplicativo descreve as medidas de segurança no nível do aplicativo que visam impedir que dados ou códigos dentro do aplicativo sejam roubados ou invadidos. Ele abrange as considerações de segurança que ocorrem durante o desenvolvimento e o design de aplicativos, mas também envolve sistemas e abordagens para proteger os aplicativos depois que eles são implantados.
 - [ ] **Arquitetura Zero Trust**:
    - Zero Trust é um modelo de segurança de rede baseado na filosofia de que nenhuma pessoa ou dispositivo dentro ou fora da rede de uma organização deve ter acesso para se conectar a sistemas ou serviços de TI até que seja autenticado e verificado continuamente.
 - [ ] **Segurança em Cloud**:
    - A segurança na nuvem, também conhecida como segurança da computação em nuvem, é um conjunto de medidas de segurança projetadas para proteger a infraestrutura, os aplicativos e os dados baseados em nuvem. Essas medidas garantem a autenticação de usuários e dispositivos, controle de acesso a dados e recursos e proteção de privacidade de dados . Eles também suportam a conformidade de dados regulatórios .
 - [ ] **Automação e Monitoramento Contínuo**:
    - O monitoramento contínuo de segurança é uma abordagem de segurança que envolve a automatização de uma parte significativa do gerenciamento de segurança. Isso inclui detecção de vulnerabilidades, monitoramento de configurações de nuvem, identidades e seus direitos e segurança de dados.
-## Habilidade Auxiliar: Sistemas e tecnologias úteis
+## Habilidade Auxiliar: Sistemas e tecnologias úteis 
 - [ ] **Python - Fundamentos**:
    - Conhecer os tipos primitivos
    - Declarar variáveis, considerando os diferentes tipos
@@ -83,14 +83,15 @@
    - Funções anônimas
 - [ ] **Redes de Computadores - Fundamentos**:
    - Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.
-- [ ] **Internet das Coisas (IoT) - Fundamentos**:
-   - Quase todos os objetos agora podem ser conectados à Internet, de máquinas de lavar a componentes sofisticados de motor de avião, a itens orgânicos, como plantações e vacas. A capacidade de conectar coisas e capturar dados úteis está transformando as empresas de todos os setores e abrindo portas para novas especializações de carreira. Descubra a base desse novo campo com atividades práticas para conectar os sensores com segurança aos serviços em nuvem nas redes IP e coletar dados em um sistema de IoT (Internet das Coisas) de ponta a ponta.
 - [ ] **HTTP - Fundamentos**:
+   - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
    - Entender a diferença dos verbos HTTP
    - Testar os requests e ver os status codes no navegador
    - Saber fazer uma requisição HTTP na linha de comando com WGET
    - Baixar uma imagem com WGET
    - Fazer um post
+- [ ] **Internet das Coisas (IoT) - Fundamentos**:
+   - Quase todos os objetos agora podem ser conectados à Internet, de máquinas de lavar a componentes sofisticados de motor de avião, a itens orgânicos, como plantações e vacas. A capacidade de conectar coisas e capturar dados úteis está transformando as empresas de todos os setores e abrindo portas para novas especializações de carreira. Descubra a base desse novo campo com atividades práticas para conectar os sensores com segurança aos serviços em nuvem nas redes IP e coletar dados em um sistema de IoT (Internet das Coisas) de ponta a ponta.
 - [ ] **Cloud - Fundamentos**:
    - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
    - Conhecer a diferença entre IaaS, PaaS e SaaS
@@ -107,15 +108,15 @@
    - Conhecer as variáveis de ambiente e o PATH
    - Gerenciar pacotes
    - Realizar comunicação remota com o SSH e SCP
-## Habilidade Auxiliar: Segurança da Informação
+## Habilidade Auxiliar: Segurança da Informação 
 - [ ] **Risco, Ameaça e Vulnerabilidade**:
    - Gerenciar riscos é o processo de planejar, organizar e controlar recursos e pessoas para minimizar danos ou fazer com que os riscos virem oportunidades. Prever os riscos é uma prática importante, afinal, dessa forma é possível reverter o que pode dar errado e alcançar resultados positivos ao longo do processo.
 - [ ] **Confidencialidade, Integridade e Disponibilidade**:
    - Os 3 princípios fundamentais da segurança da informação. Qualquer bom programa de gerenciamento de segurança da informação deve ser projetado para alcançar os três princípios de segurança da informação são comumente conhecidos como CIA (em inglês, a sigla CIA significa "Confidentiality", "Integrity" e "Availability", o que corresponde à sigla CID em português — Confidencialidade, Integridade e Disponibilidade).
 - [ ] **Gerenciamento de Identidade e Acesso**:
    - Gestão de identidades, também conhecida como gestão de identidades e acessos (GIA) ou pelo seu termo em inglês, identity and access management (IAM) está entre as disciplinas de segurança da informação que "habilita os indivíduos corretos à acessar os recursos corretos no momento correto e pelos motivos corretos".
-- [ ] **Forense Digital  - Fundamentos**:
-   - A forense digital, é uma ciência ou técnica relativamente recente no campo da segurança digital , pois poucas décadas no separam do surgimento do computador de demais dispositivos tecnológicos que poderiam ser utilizados em crimes digitais.
+- [ ] **Forense Digital - Fundamentos**:
+   - A forense digital é uma ciência ou técnica relativamente recente no campo da segurança digital, pois poucas décadas no separam do surgimento do computador de demais dispositivos tecnológicos que poderiam ser utilizados em crimes digitais.
 - [ ] **Incident Handling - Fundamentos**:
    - A resposta a incidentes (IR) é um conjunto de procedimentos para preparar, detectar, conter, responder e aprender no caso de um incidente de segurança.
 - [ ] **Conscientização de Segurança**:

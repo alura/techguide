@@ -1,5 +1,16 @@
 # Node.js
 ## Nivel 1
+- [ ] **JavaScript - Fundamentals**:
+   - JavaScript is the world's most popular programming language and is one of the core technologies of the World Wide Web, alongside HTML and CSS. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles.
+   - Knowing the primitive types
+   - Declaring variables, considering the difference between 'var', 'let' and 'const
+   - Using conditional structures ('if', 'else')
+   - Knowing the comparison operators ('=', '==', '===')
+   - Using repetition structures and loops ('while', 'for')
+   - Using functions, passing parameters and arguments
+   - Manipulating arrays and lists
+   - Getting data from an API
+   - Making asynchronous calls using 'Async/Await', 'Promise', etc
 - [ ] **Node.js - Fundamentals**:
    - Node.js is a JavaScript execution environment that allows you to run applications developed with the language autonomously, without depending on a browser.
    - Getting to know blocking and non-blocking operations
@@ -129,17 +140,6 @@
    - Knowing the largest cloud providers
    - Specializing in a specific provider of your choice
 ## Habilidade Auxiliar: Front-end 
-- [ ] **JavaScript - Fundamentals**:
-   - JavaScript is the world's most popular programming language and is one of the core technologies of the World Wide Web, alongside HTML and CSS. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles.
-   - Knowing the primitive types
-   - Declaring variables, considering the difference between 'var', 'let' and 'const
-   - Using conditional structures ('if', 'else')
-   - Knowing the comparison operators ('=', '==', '===')
-   - Using repetition structures and loops ('while', 'for')
-   - Using functions, passing parameters and arguments
-   - Manipulating arrays and lists
-   - Getting data from an API
-   - Making asynchronous calls using 'Async/Await', 'Promise', etc
 - [ ] **HTML - Fundamentals**:
    - HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
    - Learning which tags are required for basic HTML
