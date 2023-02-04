@@ -1,0 +1,25 @@
+name: NuGet
+logo: 
+short-description:
+key-objectives:
+  - NuGet is a package manager for the .NET platform. It defines how packages for this platform are created, published and consumed, and provides tools for each of these functions.
+  - Gerenciar pacotes
+  - Compartilhar bibliotecas
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: An introduction to NuGet"
+    link: https://learn.microsoft.com/en-us/nuget/what-is-nuget
+  - type: ARTICLE
+    title: "Creating and using a local NuGet package repository"
+    link: https://medium.com/@churi.vibhav/creating-and-using-a-local-nuget-package-repository-9f19475d6af8
+  - type: ARTICLE
+    title: "Using NuGet to publish .NET packages"
+    link: https://medium.com/@loginradius/using-nuget-to-publish-net-packages-d42eb746aa62
+  - type: YOUTUBE
+    title: "dotnet: What is NuGet?"
+    link: https://www.youtube.com/watch?v=WW3bO1lNDmo
+  - type: YOUTUBE
+    title: "IAmTimCorey: Creating NuGet Packages the easy way with .NET Standard in C#"
+    link: https://www.youtube.com/watch?v=AF1y9gLcxjQ
+alura-contents:

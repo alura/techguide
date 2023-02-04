@@ -1,0 +1,30 @@
+name: LINQ
+logo: 
+short-description:
+key-objectives:
+  - Language-Integrated Query (LINQ) is the name for a set of technologies based on the integration of query capabilities directly into the C# language.
+  - Criar consultas
+  - Conhecer as cláusulas Select e Where
+  - Consultar coleções de objetos em memória
+  - Mapear o banco de dados com Linq to Sql
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Language Integrated Query (LINQ) (C#)"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/
+  - type: SITE
+    title: "Microsoft Docs: Introduction to LINQ Queries (C#)"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries
+  - type: ARTICLE
+    title: "LINQ in C# Explained In Five Minutes"
+    link: https://medium.com/swlh/linq-in-c-explained-in-five-minutes-d596309a57e6
+  - type: YOUTUBE
+    title: "dotnet: Introduction to Language Integrated Query (LINQ)"
+    link: https://www.youtube.com/watch?v=p5myHVOtmiU
+  - type: YOUTUBE
+    title: "IAmTimCorey: C# Essentials - Linq for Lists"
+    link: https://www.youtube.com/watch?v=yClSNQdVD7g
+  - type: YOUTUBE
+    title: "IAmTimCorey: Simplified LINQ Ordering In 10 Minutes or Less"
+    link: https://www.youtube.com/watch?v=lZNdxWp7R0Y
+alura-contents:

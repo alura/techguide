@@ -1,0 +1,26 @@
+name: C# - System.IO
+logo: 
+short-description:
+key-objectives:
+  - The System.IO namespace consists of IO related classes, structures, delegates and enumerations. These classes can be used to reads and write data to files or data streams. It also contains classes for file and directory support.
+  - Ler dados de arquivos
+  - Escrever dados em arquivos
+  - Gerenciar arquivos com Using
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: System.IO Namespace"
+    link: https://learn.microsoft.com/en-us/dotnet/api/system.io?view=net-6.0
+  - type: SITE
+    title: "Microsoft Docs: File and Stream I/O"
+    link: https://learn.microsoft.com/en-us/dotnet/standard/io/
+  - type: SITE
+    title: "JavaTPoint: C# System.IO Namespace"
+    link: https://www.javatpoint.com/c-sharp-system-io
+  - type: YOUTUBE
+    title: "IAmTimCorey: Working With The File System in C# - Managing Folders and Files"
+    link: https://www.youtube.com/watch?v=9mUuJIKq40M
+  - type: YOUTUBE
+    title: "Derek Banas: C# Tutorial - File I/O"
+    link: https://www.youtube.com/watch?v=HKqMqFJr4SY
+alura-contents:

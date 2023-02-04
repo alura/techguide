@@ -1,0 +1,69 @@
+name: C# - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. O código fonte é compilado para Common Intermediate Language (CIL) que é interpretado pela máquina virtual Common Language Runtime (CLR). É projetada para funcionar na Common Language Infrastructure da plataforma .NET Framework.
+  - Conhecer os tipos primitivos
+  - Declarar variáveis, considerando os diferentes tipos
+  - Usar estruturas condicionais ('if', 'else')
+  - Conhecer os operadores de comparação
+  - Usar estruturas de repetição e laços ('while', 'for')
+  - Usar funções, passando parâmetros e argumentos
+  - Manipular métodos
+  - Manipular arrays e listas
+  - Obter dados de uma API
+  - Fazer chamadas assíncronas, etc
+  - Criar construtores
+aditional-objectives:
+  - Manipular objetos JSON
+  - Lidar com datas
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Um tour pela linguagem C#"
+    link: https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/
+  - type: ARTICLE
+    title: "Iniciando com C# - O C# e o Ambiente de Desenvolvimento"
+    link: https://medium.com/blogmikaeriohana/iniciando-com-c-parte-1-o-c-e-o-ambiente-de-desenvolvimento-d0e9c3cb2692
+  - type: YOUTUBE
+    title: "Diogo Costa Dev: O que é C#"
+    link: https://www.youtube.com/watch?v=KiJOC1mXuTc
+  - type: YOUTUBE
+    title: "Márcio Fessini: C# - O que é .NET?"
+    link: https://www.youtube.com/watch?v=C-7YXpLsFmI
+alura-contents:
+  - type: PODCAST
+    title: "Hipster.tech: Presente e Futuro do .NET – Hipsters 26"
+    link: https://www.hipsters.tech/passado-e-futuro-do-net-hipsters-26/
+  - type: ARTICLE
+    title: "Como separar palavras em String com C#"
+    link: https://www.alura.com.br/artigos/como-separar-palavras-em-string-com-c
+  - type: ARTICLE
+    title: "Lidando com data e hora C#"
+    link: https://www.alura.com.br/artigos/lidando-com-data-e-hora-c
+  - type: ARTICLE
+    title: "C#: entendendo classes e structs"
+    link: https://www.alura.com.br/artigos/c-sharp-entendendo-classes-e-structs
+  - type: SITE
+    title: "Apostila: C# e Orientação a Objetos"
+    link: https://www.alura.com.br/apostila-csharp-orientacao-objetos
+  - type: YOUTUBE
+    title: "Alura: O que é o C#?"
+    link: https://www.youtube.com/watch?v=0JWMVc1CqpA
+  - type: YOUTUBE
+    title: "Alura: Saiba tudo sobre uma das linguagens de programação mais populares do mundo"
+    link: https://www.youtube.com/watch?v=eUl0mWTnL_A
+  - type: COURSE
+    title: "Formação C# e Orientação a Objetos"
+    link: https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos
+  - type: COURSE
+    title: "Formação Windows Forms com C#"
+    link: https://cursos.alura.com.br/formacao-windows-forms-csharp
+  - type: COURSE
+    title: "Formação Boas práticas em C#"
+    link: https://cursos.alura.com.br/formacao-boas-praticas-c-sharp
+  - type: CHALLENGE
+    title: "7 Days of Code: C#"
+    link: https://7daysofcode.io/matricula/csharp
+  - type: CHALLENGE
+    title: "7 Days of Code: Windows Forms C#"
+    link: https://7daysofcode.io/matricula/windows-forms

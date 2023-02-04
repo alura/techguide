@@ -1,0 +1,37 @@
+name: Firewalls, IDS and IPS
+logo: 
+short-description:
+key-objectives:
+  - Definições e diferenças entre dispositivos de segurança de rede, firewalls, sistemas de prevenção de intrusão (IPS) e sistemas de detecção de intrusão (IDS). 
+  - Um firewall permite o tráfego dependendo de um conjunto de regras que foram configuradas. Ele é baseado nos endereços de origem, destino e porta. Um firewall pode negar qualquer tráfego que não satisfaça os critérios especificados. IDS são dispositivos de sistema de monitoramento passivo que monitoram o tráfego de rede à medida que viajam pela rede, comparam padrões de assinatura, e acionar um alarme se for detectada atividade suspeita ou ameaça de segurança conhecida. Por outro lado, o IPS é um dispositivo ativo que impede ataques bloqueando-os.
+contents:
+  - type: SITE
+    title: "pfSense"
+    link: https://www.pfsense.org
+  - type: ARTICLE
+    title: "UFW: Descomplicando o Firewall"
+    link: https://medium.com/permalink-univesp/ufw-descomplicando-o-firewall-83159d85b57a
+  - type: ARTICLE
+    title: "O que é e por que usar um firewall Pfsense pra sua rede?"
+    link: https://phbols.medium.com/o-que-é-e-por-que-usar-um-firewall-pfsense-pra-sua-rede-35813c7ef2e
+  - type: ARTICLE
+    title: "IPTABLES VS NFTABLES"
+    link: https://medium.com/@nayara.watanuki/iptables-vs-nftables-883e3afc8e83
+  - type: ARTICLE
+    title: "Sistemas de detecção de intrusos e sistemas de prevenção de intrusos"
+    link: https://medium.com/mobicareofficial/sistemas-de-detecção-e-de-prevenção-de-intrusos-princípios-e-aplicação-de-entropia-9a33680f3948
+  - type: ARTICLE
+    title: "Learning More about IPS and IDS"
+    link: https://gupta-bless.medium.com/learning-more-about-ips-and-ids-ef6d859c2ab3
+  - type: YOUTUBE
+    title: "Firewall com Iptables: Teoria e Prática"
+    link: https://www.youtube.com/watch?v=_xIuY_3EQ2o
+  - type: YOUTUBE
+    title: "iptables Complete Guide"
+    link: https://www.youtube.com/watch?v=6Ra17Qpj68c
+  - type: COURSE
+    title: "Cyber Security Fundamentals & Skills"
+    link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/
+  - type: COURSE
+    title: "CSO infosec + Cyber Defense"
+    link: https://www.fiap.com.br/shift/imersao/tecnologia/cso-infosec-cyber-defense/

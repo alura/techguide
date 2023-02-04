@@ -1,0 +1,34 @@
+name: C# - Delegates and Events
+logo: 
+short-description:
+key-objectives:
+  - Delegates are objetcs that are used as function pointers to refer to a method assigned to them.
+  - Events are the action performed which changes the state of an object. Events are declared using delegates - they provide encapsulation to the delegates.
+  - Understanding the concept of delegate
+  - Creating a reference to a function with a certain list of parameters
+  - Understanding the concept of event
+  - Handling different types of events
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Distinguishing Delegates and Events"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/distinguish-delegates-events
+  - type: SITE
+    title: "Microsoft Docs: Handle and raise events"
+    link: https://learn.microsoft.com/en-us/dotnet/standard/events/
+  - type: ARTICLE
+    title: "Delegate Vs Events"
+    link: https://www.linkedin.com/pulse/delegate-vs-events-pawan-verma/
+  - type: ARTICLE
+    title: "Difference between delegates and events in C#"
+    link: https://www.tutorialsteacher.com/articles/difference-between-delegate-and-event-csharp
+  - type: YOUTUBE
+    title: "Programming with Mosh: C# Events and Delegates Made Simple"
+    link: https://www.youtube.com/watch?v=jQgwEsJISy0
+  - type: YOUTUBE
+    title: "Simplilearn: C# Delegates Explained"
+    link: https://www.youtube.com/watch?v=vOlLd2SsKM4
+  - type: YOUTUBE
+    title: "Ricardo Maroquio: Delegate and Event in C#"
+    link: https://www.youtube.com/watch?v=xr2C4f5bRZM
+alura-contents:

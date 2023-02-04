@@ -1,0 +1,24 @@
+name: ASP.NET Core
+logo: 
+short-description:
+key-objectives:
+  - ASP.NET Core is an open-source and cross-platform framework for building modern cloud-based applications, such as web apps, IoT apps and mobile backends.
+  - Creating applications and web services
+  - Maintaining an MVC application	
+  - Developing a client-side web user interface
+  - Creating a Web API
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Overview of ASP.NET Core"
+    link: https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0
+  - type: ARTICLE
+    title: "ASP.NET Core - Overview"
+    link: https://www.tutorialspoint.com/asp.net_core/asp.net_core_overview.htm
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Learn ASP.NET Core MVC (.NET 6)"
+    link: https://www.youtube.com/watch?v=hZ1DASYd9rk
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: ASP.NET Core Crash Course - C# App in One Hour"
+    link: https://www.youtube.com/watch?v=lwVvrRIS7aI
+alura-contents:

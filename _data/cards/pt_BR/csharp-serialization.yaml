@@ -1,0 +1,26 @@
+name: C# - Serialização
+logo: 
+short-description:
+key-objectives:
+  - Serialização é o processo de converter um objeto em um stream de bytes para armazenar o objeto ou transmiti-lo à memória, a um banco de dados ou a um arquivo. Seu principal objetivo é salvar o estado de um objeto a fim de poder recriá-lo quando necessário.
+  - Enviar um objeto para um aplicativo remoto usando um serviço Web
+  - Passar um objeto como uma cadeia de caracteres JSON ou XML
+  - Passar informações específicas do usuário ou de segurança entre aplicativos
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Serialização (C#)"
+    link: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/serialization/
+  - type: SITE
+    title: "Microsoft Docs: Serialização básica"
+    link: https://docs.microsoft.com/pt-br/dotnet/standard/serialization/basic-serialization
+  - type: ARTICLE
+    title: "O que é serialização/serialization?"
+    link: https://medium.com/@thaisdalencar/o-que-%C3%A9-serializa%C3%A7%C3%A3o-serialization-fc0887bd0970
+  - type: YOUTUBE
+    title: "Miguel Jordan: Aprenda a serializar e deserializar objetos em C#"
+    link: https://www.youtube.com/watch?v=wWuagfG-1sY
+  - type: YOUTUBE
+    title: "Derek Banas: C# Serialization (inglês)"
+    link: https://www.youtube.com/watch?v=jbwjbbc5PjI
+alura-contents:

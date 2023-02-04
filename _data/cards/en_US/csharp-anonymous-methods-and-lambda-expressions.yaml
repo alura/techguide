@@ -1,0 +1,38 @@
+name: C# - Anonymous methods and lambda expressions
+logo: 
+short-description:
+key-objectives:
+  - Anonymous methods are unnamed methods that can be defined using the delegate keyword.
+  - Lambda expressions are used like anonymous functions, but you don't need to specify the type of the value that you input, making them more flexible to use.
+  - Creating anonymous functions that you can use to create delegates
+  - Creating local functions that can be passed as arguments
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Lambda expressions and anonymous functions"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions
+  - type: SITE
+    title: "Microsoft Docs: Delegates e lambdas"
+    link: https://learn.microsoft.com/en-us/dotnet/standard/delegates-lambdas
+  - type: SITE
+    title: "Microsoft Docs: Delegates with Named vs. Anonymous Methods"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/delegates-with-named-vs-anonymous-methods
+  - type: ARTICLE
+    title: "Anonymous Method in C#"
+    link: https://www.geeksforgeeks.org/anonymous-method-in-c-sharp/
+  - type: ARTICLE
+    title: "C# - Anonymous Method"
+    link: https://www.geeksforgeeks.org/anonymous-method-in-c-sharp/
+  - type: ARTICLE
+    title: "Lambda Expressions in C#"
+    link: https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/
+  - type: YOUTUBE
+    title: "tutorialsEU: C# Lambda Expressions and Anonymous Functions Tutorial"
+    link: https://www.youtube.com/watch?v=4gNeU539a4M
+  - type: YOUTUBE
+    title: "Tutorials Point: C# - Anonymous Method"
+    link: https://www.youtube.com/watch?v=vAnXrQTq8F4
+  - type: YOUTUBE
+    title: "Tutorials Point: C# - Lambda Expression"
+    link: https://www.youtube.com/watch?v=kYeKFMf2mO8
+alura-contents:

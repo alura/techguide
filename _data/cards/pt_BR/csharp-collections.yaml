@@ -1,0 +1,38 @@
+name: C# - Coleções
+logo: 
+short-description:
+key-objectives:
+  - Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
+  - Aprender os usos e diferenças entre Dictionary, List, Queue, SortedList e Stack
+  - Saiba trabalhar com ArrayList e HashTable
+  - Iterators
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Coleções (C#)"
+    link: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/collections
+  - type: ARTICLE
+    title: "Collections"
+    link: https://wilsonsantosnet.medium.com/collections-76363e18ab41
+  - type: ARTICLE
+    title: "Um pouco sobre estruturas de dados em C#"
+    link: https://guih2127.medium.com/um-pouco-sobre-estruturas-de-dados-em-c-e4371fe651d8
+  - type: YOUTUBE
+    title: "Andre Constantino: Coleções na linguagem C#"
+    link: https://www.youtube.com/watch?v=9hJ_V61NKG8
+  - type: YOUTUBE
+    title: "Cléber dos Santos: C# trabalhando com Coleções"
+    link: https://www.youtube.com/watch?v=SR4-_gWRlLU
+alura-contents:
+  - type: ARTICLE
+    title: "Listas em C#"
+    link: https://www.alura.com.br/artigos/listas-em-csharp
+  - type: SITE
+    title: "Apostila: C# e Orientação a Objetos - Facilitando o trabalho com coleções através das listas"
+    link: https://www.alura.com.br/apostila-csharp-orientacao-objetos/trabalhando-com-listas#facilitando-o-trabalho-com-colecoes-atraves-das-listas
+  - type: COURSE
+    title: "Curso C# Collections parte 1: Listas, arrays, listas ligadas, dicionários e conjuntos"
+    link: https://cursos.alura.com.br/course/csharp-collections
+  - type: COURSE
+    title: "Curso C# Collections parte 2: Coleções ordenadas, arrays multidimensionais e LINQ"
+    link: https://cursos.alura.com.br/course/csharp-collections-parte-2

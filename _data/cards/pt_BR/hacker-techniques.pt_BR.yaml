@@ -1,0 +1,36 @@
+name: Hacker Mindset
+logo: 
+short-description:
+key-objectives:
+  - Entender as metodologias e as técnicas que os invasores usam para realizar o reconhecimento como uma etapa de pré-ataque, incluindo como eles usam inteligência de código aberto, varredura de rede e ataques de enumeração de alvos para encontrar as lacunas na segurança de sua rede. Usar técnicas de invasores para avaliar a segurança de uma rede de destino, avaliando protocolos e endpoints populares para Windows, Linux e destinos de nuvem.
+contents:
+  - type: SITE
+    title: "PTES"
+    link: http://www.pentest-standard.org/index.php/Main_Page
+  - type: SITE
+    title: "OWASP"
+    link: https://owasp.org
+  - type: SITE
+    title: "OSSTMM"
+    link: https://www.isecom.org/OSSTMM.3.pdf
+  - type: ARTICLE
+    title: "As Etapas de um Pentest"
+    link: https://reddyyz.medium.com/as-etapas-de-um-pentest-31b72ed326ac
+  - type: ARTICLE
+    title: "Password Cracking"
+    link: https://medium.com/rangeforce/password-cracking-6d9612915f03
+  - type: ARTICLE
+    title: "My pentesting methodology (Enumeration)"
+    link: https://medium.com/@nclvnp/enumeration-1976c5d55b1b
+  - type: YOUTUBE
+    title: "How To Become A Hacker In 2022"
+    link: https://www.youtube.com/watch?v=W6vcd2gJw3Q
+  - type: SITE
+    title: "Hack The Box: A Massive Hacking Playground"
+    link: https://www.hackthebox.com
+  - type: COURSE
+    title: "Cyber Security Fundamentals & Skills"
+    link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/
+  - type: COURSE
+    title: "CSO infosec + Cyber Defense"
+    link: https://www.fiap.com.br/shift/imersao/tecnologia/cso-infosec-cyber-defense/

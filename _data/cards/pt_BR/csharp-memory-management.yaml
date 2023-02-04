@@ -1,0 +1,20 @@
+name: C# - Gerenciamento de Memória
+logo: 
+short-description:
+key-objectives:
+  - O gerenciamento automático de memória é um dos serviços que o Common Language Runtime oferece durante a Execução Gerenciada (Managed Execution). O coletor de lixo do Common Language Runtime gerencia a alocação e liberação de memória para uma aplicação.
+  - Entender como a memória é administrada
+  - Conhecer o Garbage Collector
+  - Entender sobre o Stack e o Heap gerenciado
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Gerenciamento automático de memória"
+    link: https://docs.microsoft.com/pt-br/dotnet/standard/automatic-memory-management
+  - type: ARTICLE
+    title: "Gerenciamento de memória — C#"
+    link: https://medium.com/@mateusgoncalvesgeracino/gerenciamento-de-mem%C3%B3ria-c-bcb5f2c89464
+  - type: YOUTUBE
+    title: "Dias de Dev: Gerenciamento de memória - Stack vs Heap"
+    link: https://www.youtube.com/watch?v=7kJwVQGJCbw
+alura-contents: 

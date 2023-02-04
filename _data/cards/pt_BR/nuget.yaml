@@ -1,0 +1,25 @@
+name: NuGet
+logo: 
+short-description:
+key-objectives:
+  - NuGet é um gerenciador de pacotes para a plataforma .NET. Ele define como os pacotes desta plataforma são criados, publicados e consumidos, e fornece ferramentas para cada uma dessas funções.
+  - Gerenciar pacotes
+  - Compartilhar bibliotecas
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Uma introdução ao NuGet"
+    link: https://docs.microsoft.com/pt-br/nuget/what-is-nuget
+  - type: ARTICLE
+    title: "Criando pacotes NuGet"
+    link: https://alexalvess.medium.com/criando-pacotes-nuget-ec04dc6425a3
+  - type: YOUTUBE
+    title: "Milton Sampaio - Programação: Nuget e pacotes .Net"
+    link: https://www.youtube.com/watch?v=6GYcRJbOJYk
+alura-contents:
+  - type: SITE
+    title: "Primeiras aulas do curso C# parte 5: bibliotecas DLLs, documentação e usando o NuGet"
+    link: https://www.alura.com.br/conteudo/csharp-biblioteca-dll-documentacao-nuget
+  - type: COURSE
+    title: "Curso C# parte 5: bibliotecas DLLs, documentação e usando o NuGet"
+    link: https://www.alura.com.br/curso-online-csharp-biblioteca-dll-documentacao-nuget

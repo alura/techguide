@@ -1,0 +1,42 @@
+name: C# - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - C# is a multi-paradigm, strongly typed programming language developed by Microsoft as part of the .NET platform. The source code is compiled into Common Intermediate Language (CIL) which is interpreted by the Common Language Runtime (CLR) virtual machine. It is designed to run on the Common Language Infrastructure of the .NET Framework platform.
+  - Knowing the primitive types
+  - Declaring variables, considering the different types
+  - Using conditional structures ('if', 'else')
+  - Knowing the comparison operators
+  - Using repetition structures and loops ('while', 'for')
+  - Using functions, passing parameters and arguments
+  - Manipulating methods
+  - Manipulating arrays and lists
+  - Getting data from an API
+  - Making asynchronous calls
+  - Creating constructors
+aditional-objectives:
+  - Manipulating JSON objects
+  - Handling dates
+contents:
+  - type: SITE
+    title: "Microsoft Docs: C# documentation"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/
+  - type: SITE
+    title: "Microsoft Docs: A tour of the C# language"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/
+  - type: SITE
+    title: "Microsoft Docs: C# types and members"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types
+  - type: SITE
+    title: "Microsoft Docs: Hello World - Introduction to C# interactive C# tutorial"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world
+  - type: SITE
+    title: "Microsoft Docs: Hello World - Arrays"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: C# Tutorial - Full Course for Beginners"
+    link: https://www.youtube.com/watch?v=GhQdlIFylQ8
+  - type: YOUTUBE
+    title: "tutorialsEU: Learn C# 10 and .NET 6 in 7 hours"
+    link: https://www.youtube.com/watch?v=q_F4PyW8GTg
+alura-contents:

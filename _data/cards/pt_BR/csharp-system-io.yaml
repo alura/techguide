@@ -1,0 +1,35 @@
+name: C# - System.IO
+logo: 
+short-description:
+key-objectives:
+  - O namespace System.IO consiste em classes, estruturas, delegates e enumerações relacionadas com entrada e saída de dados (IO). Estas classes podem ser utilizadas para ler e escrever dados em arquivos ou streams de dados. Também contém classes para suporte a arquivos e diretórios.
+  - Ler dados de arquivos
+  - Escrever dados em arquivos
+  - Gerenciar arquivos com Using
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Trabalhando com a biblioteca System.IO no C#"
+    link: http://luisfelipetorres.com.br/2017/11/02/trabalhando-com-a-biblioteca-system-io-no-c/
+  - type: SITE
+    title: "Microsoft Docs: System.IO Namespace"
+    link: https://docs.microsoft.com/pt-br/dotnet/api/system.io?view=net-6.0
+  - type: SITE
+    title: "Microsoft Docs: E/S de arquivo e de fluxo"
+    link: https://docs.microsoft.com/pt-br/dotnet/standard/io/
+  - type: YOUTUBE
+    title: "Código Logo: C# Tutorial de IO 1 - Introdução"
+    link: https://www.youtube.com/watch?v=LYTZXQpy3RY
+  - type: YOUTUBE
+    title: "Código Logo: C# Tutorial de IO 15 - Como Copiar Arquivo usando o FileStream"
+    link: https://www.youtube.com/watch?v=f9OOnzV6vlE
+alura-contents:
+  - type: SITE
+    title: "Apostila: C# e Orientação a Objetos - System.IO"
+    link: https://www.alura.com.br/apostila-csharp-orientacao-objetos/system-io
+  - type: SITE
+    title: "Primeiras aulas do curso C# Parte 9: entrada e saída (I/O) com streams"
+    link: https://www.alura.com.br/conteudo/csharp-io
+  - type: COURSE
+    title: "Curso C# Parte 9: entrada e saída (I/O) com streams"
+    link: https://cursos.alura.com.br/course/csharp-io

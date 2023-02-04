@@ -1,0 +1,126 @@
+# Cibersegurança
+## Nivel 1
+- [ ] **Criptografia - Fundamentos**:
+   - Criptografia em segurança virtual é a conversão de dados de um formato legível em um formato codificado. Os dados criptografados só podem ser lidos ou processados ​​depois de serem descriptografados.
+- [ ] **Frameworks de Cibersegurança**:
+   - Cybersecurity Framework são guias de orientação para as organizações - em qualquer setor ou comunidade - que buscam melhorar o gerenciamento de riscos de segurança cibernética por meio da utilização de Framework. Embora a estrutura de segurança cibernética não seja uma abordagem única para gerenciar riscos de segurança cibernética para organizações, em última análise, visa reduzir e gerenciar melhor esses riscos. Como tal, este guia destina-se a toda e qualquer organização, independentemente do setor ou tamanho.
+- [ ] **Hacker Mindset**:
+   - Entender as metodologias e as técnicas que os invasores usam para realizar o reconhecimento como uma etapa de pré-ataque, incluindo como eles usam inteligência de código aberto, varredura de rede e ataques de enumeração de alvos para encontrar as lacunas na segurança de sua rede. Usar técnicas de invasores para avaliar a segurança de uma rede de destino, avaliando protocolos e endpoints populares para Windows, Linux e destinos de nuvem.
+- [ ] **Análise de Vulnerabilidades**:
+   - Técnicas e táticas de framework de vários serviços e ferramentas que oferece uma solução de varredura e gerenciamento de vulnerabilidade.
+- [ ] **Firewalls, IDS and IPS**:
+   - Definições e diferenças entre dispositivos de segurança de rede, firewalls, sistemas de prevenção de intrusão (IPS) e sistemas de detecção de intrusão (IDS). 
+   - Um firewall permite o tráfego dependendo de um conjunto de regras que foram configuradas. Ele é baseado nos endereços de origem, destino e porta. Um firewall 
+- [ ] **Investigações Digitais - Fundamentos**:
+   - Digital Investigations é o uso da ciência para investigar crimes digfitais e determinar fatos. Com o uso e disseminação de sistemas digitais, como computadores e smartphones.
+- [ ] **Password Attacks**:
+   - Em criptoanálise e segurança, a quebra de senhas é o processo de recuperação de senhas de dados que foram armazenados ou transmitidos por um sistema de computador de forma codificada. Uma abordagem comum (ataque de força bruta) é tentar repetidamente suposições para a senha e compará-las com um hash criptográfico disponível da senha.
+- [ ] **Open-Source Intelligence**:
+   - OSINT (do inglês Open Source Intelligence), trata-se de um recurso que pode ser traduzido de uma forma simplificada como "Inteligência de Fontes Abertas" ou conjunto de atividades para coletar, armazenar e analisar as informações de fontes públicas, basicamente, qualquer dado sobre uma empresa ou pessoa que possa ser encontrado por meio de ferramentas da Internet ou OSINT framework, como os buscadores.
+- [ ] **Processos do Centro de Operações de Segurança**:
+   - SOC (Security Operations Center) é o departamento que vem para planejar e respaldar toda a estratégia de segurança da T.I, monitorando, prevenindo e remediando brechas, falhas e possíveis ataques, tudo de maneira proativa.
+- [ ] **Penetration Testing - Fundamentos**:
+   - Pentest é a prática de testar um sistema de computador, rede ou aplicativo da Web para encontrar vulnerabilidades que um invasor possa explorar, simulando um ataque contra os ativos de TI de uma organização.
+## Nivel 2
+- [ ] **Segurança de Endpoint**:
+   - A segurança de endpoint, ou proteção de endpoint, é a abordagem de segurança cibernética para defender endpoints como desktops, laptops e dispositivos móveis contra atividades maliciosas.
+- [ ] **Metasploit - Ataques e Análises**:
+   - Metasploit é uma estrutura de teste de penetração mais usada do mundo.
+- [ ] **Web Application - Segurança**:
+   - A segurança de aplicativos da Web (também conhecida como Web AppSec) é a ideia de criar sites para funcionar conforme o esperado, mesmo quando estão sob ataque. O conceito envolve uma coleção de controles de segurança projetados em um aplicativo da Web para proteger seus ativos de agentes potencialmente maliciosos.
+- [ ] **Web Application - Vulnerabilidades**:
+   - As vulnerabilidades de aplicativos da Web envolvem uma falha ou fraqueza do sistema em um aplicativo baseado na Web. Eles existem há anos, em grande parte devido à não validação ou limpeza de entradas de formulário, servidores web mal configurados e falhas de design de aplicativos, e podem ser explorados para comprometer a segurança do aplicativo. Essas vulnerabilidades não são iguais a outros tipos comuns de vulnerabilidades, como rede ou ativo. Eles surgem porque os aplicativos da Web precisam interagir com vários usuários em várias redes, e esse nível de acessibilidade é facilmente aproveitado pelos hackers.
+- [ ] **Gerenciamento de Dispositivos Móveis**:
+   - O gerenciamento de dispositivos móveis refere-se a qualquer ferramenta ou software projetado para ajudar os administradores para controlar e proteger dispositivos móveis como smartphones e tablets em uma organização. O gerenciamento de dispositivos móveis é uma parte importante do gerenciamento de  mobilidade empresarial  e do gerenciamento de endpoints, especialmente à medida que mais empresas adotam políticas de BYOD (traga seu próprio dispositivo) que permitem que os funcionários acessem dados, arquivos e aplicativos da empresa em seus dispositivos pessoais.
+- [ ] **SIEM e SOAR**:
+   - Combinando gerenciamento de informações de segurança (SIM) e gerenciamento de eventos de segurança (SEM), informações de segurança e gerenciamento de eventos (SIEM) oferece monitoramento e análise de eventos em tempo real, bem como rastreamento e registro de dados de segurança para fins de conformidade ou auditoria.
+- [ ] **Hardening Network Services**:
+   - A proteção do servidor é um conjunto de disciplinas e técnicas que melhoram a segurança de um servidor 'em produção'. Hardening é um requisito de estruturas de segurança em diversos frameworks.
+- [ ] **Cloud Investigations**:
+   - A investigação de dados armazenados na nuvem pode ser uma variedade de abordagens, desde investigações de inteligência de código aberto (OSINT) até investigações de contas na nuvem de indivíduos participantes que divulgam suas credenciais de login (mais frequentemente de vítimas e testemunhas do que de suspeitos), para obter e análise de devoluções de garantias de provedores de serviços em nuvem para obter acesso às contas de suspeitos.
+- [ ] **Recuperação de Dados**:
+   - A recuperação de dados é um processo orientado por software que permite recuperar e restaurar arquivos perdidos, excluídos, inacessíveis, corrompidos ou danificados para que você possa voltar ao trabalho rapidamente.  À medida que o cenário de negócios e nossas vidas em geral se tornam mais dependentes de dados, cresce a necessidade de proteger os sistemas de dados.
+- [ ] **Segurança de Contêineres**:
+   - A segurança do contêiner é o processo de combinar políticas de segurança para assegurar que a integridade do contêiner esteja protegida. A segurança do contêiner é importante porque a imagem do contêiner contém todos os componentes que, eventualmente, executarão seu aplicativo. Se houver vulnerabilidades à espreita na imagem do contêiner, o risco e a gravidade potencial dos problemas de segurança durante a produção aumentam.
+- [ ] **Análise Forense de Memória**:
+   - A análise forense de memória (às vezes chamada de análise de memória) refere-se à análise de dados voláteis no despejo de memória de um computador. Os profissionais de segurança da informação realizam análises forenses de memória para investigar e identificar ataques ou comportamentos maliciosos que não deixam rastros facilmente detectáveis ​​nos dados do disco rígido.
+- [ ] **Análise Forense de Rede**:
+   - A análise forense de rede diz respeito à coleta, monitoramento e análise de atividades de rede para descobrir a origem de ataques, vírus, intrusões ou violações de segurança que ocorrem em uma rede ou no tráfego de rede. Como tal, a análise forense de rede é considerada juntamente com a análise forense móvel ou a análise forense de imagem digital, como residindo sob o guarda-chuva da análise forense digital.
+- [ ] **Powershell Script para Segurança**:
+   - Um script ofuscado pode ser malicioso e difícil de detectar com inspeção visual durante o processo de aprovação do script. Revise visualmente os scripts do PowerShell e use ferramentas de inspeção para ajudar a detectar problemas de script suspeitos. Essas ferramentas nem sempre podem determinar a intenção do autor do PowerShell, portanto, podem chamar a atenção para um script suspeito.
+## Nivel 3
+- [ ] **Arquitetura de Segurança de Rede**:
+   - Profissional de segurança com a missão de proteger os dados da empresa contra roubo, danos ou interrupções. Os possíveis danos podem ter várias origens. E o risco pode ser dimensionado rapidamente em um evento de consequências graves onde você deverá reagir usando o conhecimento adequado. A segurança de rede prepara você para tarefas como essas, desenvolvendo as habilidades necessárias para projetar e implementar dispositivos de rede, bem como oferecer suporte de segurança e garantir a integridade deles.
+- [ ] **Threat Hunting**:
+   - Threat Hunting é a prática de procurar proativamente por ameaças cibernéticas que estão à espreita sem serem detectadas em uma rede. A caça a ameaças cibernéticas se aprofunda para encontrar agentes mal-intencionados em seu ambiente que passaram pelas defesas de segurança de endpoint iniciais.
+- [ ] **Segurança Física**:
+   - A segurança física é a proteção de pessoas, propriedades e ativos físicos de ações e eventos que podem causar danos ou perdas. Embora muitas vezes negligenciada em favor da segurança cibernética, a segurança física é igualmente importante.
+- [ ] **Gerenciamento de Resposta a Incidentes**:
+   - A resposta a incidentes é um processo estruturado que as organizações usam para identificar e lidar com incidentes de segurança cibernética. A resposta inclui vários estágios, incluindo preparação para incidentes, detecção e análise de um incidente de segurança, contenção, erradicação e recuperação total e análise e aprendizado pós-incidente.
+- [ ] **Análise de Malware**:
+   - A análise de malware é o processo de compreensão do comportamento e da finalidade de um arquivo ou URL suspeito. A saída da análise ajuda na detecção e mitigação da ameaça potencial.
+- [ ] **Segurança de Aplicativos**:
+   - A segurança do aplicativo descreve as medidas de segurança no nível do aplicativo que visam impedir que dados ou códigos dentro do aplicativo sejam roubados ou invadidos. Ele abrange as considerações de segurança que ocorrem durante o desenvolvimento e o design de aplicativos, mas também envolve sistemas e abordagens para proteger os aplicativos depois que eles são implantados. 
+- [ ] **Arquitetura Zero Trust**:
+   - Zero Trust é um modelo de segurança de rede baseado na filosofia de que nenhuma pessoa ou dispositivo dentro ou fora da rede de uma organização deve ter acesso para se conectar a sistemas ou serviços de TI até que seja autenticado e verificado continuamente.
+- [ ] **Segurança em Cloud**:
+   - A segurança na nuvem, também conhecida como segurança da computação em nuvem, é um conjunto de medidas de segurança projetadas para proteger a infraestrutura, os aplicativos e os dados baseados em nuvem. Essas medidas garantem a autenticação de usuários e dispositivos, controle de acesso a dados e recursos e proteção de privacidade de dados . Eles também suportam a conformidade de dados regulatórios .
+- [ ] **Automação e Monitoramento Contínuo**:
+   - O monitoramento contínuo de segurança é uma abordagem de segurança que envolve a automatização de uma parte significativa do gerenciamento de segurança. Isso inclui detecção de vulnerabilidades, monitoramento de configurações de nuvem, identidades e seus direitos e segurança de dados.
+## Habilidade Auxiliar: Sistemas e tecnologias úteis
+- [ ] **Python - Fundamentos**:
+   - Conhecer os tipos primitivos
+   - Declarar variáveis, considerando os diferentes tipos
+   - Usar estruturas condicionais ('if', 'else')
+   - Conhecer os operadores de comparação
+   - Usar estruturas de repetição e laços ('while', 'for')
+   - Usar funções, passando parâmetros e argumentos
+   - Manipular métodos
+   - Manipular arrays e listas
+   - Obter dados de uma API
+   - Fazer chamadas assíncronas
+   - Criar construtores
+   - Funções anônimas
+- [ ] **Redes de Computadores - Fundamentos**:
+   - Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.
+- [ ] **Internet das Coisas (IoT) - Fundamentos**:
+   - Quase todos os objetos agora podem ser conectados à Internet, de máquinas de lavar a componentes sofisticados de motor de avião, a itens orgânicos, como plantações e vacas. A capacidade de conectar coisas e capturar dados úteis está transformando as empresas de todos os setores e abrindo portas para novas especializações de carreira. Descubra a base desse novo campo com atividades práticas para conectar os sensores com segurança aos serviços em nuvem nas redes IP e coletar dados em um sistema de IoT (Internet das Coisas) de ponta a ponta.
+- [ ] **HTTP - Fundamentos**:
+   - Entender a diferença dos verbos HTTP
+   - Testar os requests e ver os status codes no navegador
+   - Saber fazer uma requisição HTTP na linha de comando com WGET
+   - Baixar uma imagem com WGET
+   - Fazer um post
+- [ ] **Cloud - Fundamentos**:
+   - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
+   - Conhecer a diferença entre IaaS, PaaS e SaaS
+   - Conhecer os maiores provedores de cloud
+   - Especializar-se em algum provedor
+- [ ] **Windows - Fundamentos**:
+   - Windows é um sistema operacional de multitarefas para computadores e dispositivos móveis, desenvolvido pela Microsoft. Inicialmente, o Windows oferecia apenas uma interface gráfica, funcionando unicamente em programas em modo gráfico. Desde então, este sistema operacional tem evoluído, tanto em termos de funcionalidades, design e eficiência. Até o momento, o Microsoft já conta com dezenas de atualizações, sendo as mais conhecidas o Windows 95, Windows 98, Windows 2000, Windows XP, Windows Vista e, mais recentemente, o Windows 11.
+- [ ] **Linux - Fundamentos**:
+   - Linux é um termo popularmente empregado para se referir a sistemas operacionais que utilizam o Kernel Linux. As distribuições incluem o Kernel Linux, além de softwares de sistema e bibliotecas.
+   - Conhecer o sistema de diretórios do Linux
+   - Compactar e descompactar arquivos
+   - Editar arquivos no console com o VI
+   - Gerenciar os processos rodando na máquina
+   - Conhecer as variáveis de ambiente e o PATH
+   - Gerenciar pacotes
+   - Realizar comunicação remota com o SSH e SCP
+## Habilidade Auxiliar: Segurança da Informação
+- [ ] **Risco, Ameaça e Vulnerabilidade**:
+   - Gerenciar riscos é o processo de planejar, organizar e controlar recursos e pessoas para minimizar danos ou fazer com que os riscos virem oportunidades. Prever os riscos é uma prática importante, afinal, dessa forma é possível reverter o que pode dar errado e alcançar resultados positivos ao longo do processo.
+- [ ] **Confidencialidade, Integridade e Disponibilidade**:
+   - Os 3 princípios fundamentais da segurança da informação. Qualquer bom programa de gerenciamento de segurança da informação deve ser projetado para alcançar os três princípios de segurança da informação são comumente conhecidos como CIA (em inglês, a sigla CIA significa "Confidentiality", "Integrity" e "Availability", o que corresponde à sigla CID em português — Confidencialidade, Integridade e Disponibilidade).
+- [ ] **Gerenciamento de Identidade e Acesso**:
+   - Gestão de identidades, também conhecida como gestão de identidades e acessos (GIA) ou pelo seu termo em inglês, identity and access management (IAM) está entre as disciplinas de segurança da informação que "habilita os indivíduos corretos à acessar os recursos corretos no momento correto e pelos motivos corretos".
+- [ ] **Forense Digital  - Fundamentos**:
+   - A forense digital, é uma ciência ou técnica relativamente recente no campo da segurança digital , pois poucas décadas no separam do surgimento do computador de demais dispositivos tecnológicos que poderiam ser utilizados em crimes digitais.
+- [ ] **Incident Handling - Fundamentos**:
+   - A resposta a incidentes (IR) é um conjunto de procedimentos para preparar, detectar, conter, responder e aprender no caso de um incidente de segurança.
+- [ ] **Conscientização de Segurança**:
+   - À medida que os ataques cibernéticos se tornam mais prevalentes e sofisticados, as empresas devem confiar mais em seus funcionários para garantir que eles não coloquem os dados em risco ou sejam vítimas de ransomware. Mas os funcionários estão mais ocupados do que nunca. E, criar uma cultura de cibersegurança no trabalho torna-se mais importante e mais desafiador quando os funcionários trabalham em casa.
+- [ ] **Proteção de Dados**:
+   - A proteção de dados é o processo de proteger informações importantes de forma que garanta a confidencialidade, integridade e a disponibilidade destes dados.
+- [ ] **Segurança em Autenticação e Senhas**:
+   - Uma senha forte faz toda diferença quando o assunto é proteção de dados. Afinal, ela é construída de maneira a dificultar e muito que seja “quebrada” por um hacker ou ataque de massa. A senha, você sabe, é um mecanismo que permite o acesso de uma pessoa a um determinado serviço.

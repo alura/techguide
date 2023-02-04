@@ -1,0 +1,21 @@
+name: ADO.NET
+logo: 
+short-description:
+key-objectives:
+  - ADO.NET is a set of classes that expose data access services for .NET Framework programmers. ADO.NET provides a rich set of components for creating distributed, data-sharing applications. It is an integral part of the .NET Framework, providing access to relational, XML, and application data.
+  - Handling databases
+  - Getting to know DataSet and DataTable
+  - Performing connections
+  - Handling XML documents
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: ADO.NET Overview"
+    link: https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-overview
+  - type: YOUTUBE
+    title: "André Lima: Salvando arquivos no banco de dados com C# e ADO.NET"
+    link: https://www.youtube.com/watch?v=5E9aUXQCsGA
+  - type: YOUTUBE
+    title: "NetSecProf: Using C# ADO.NET for SQL INSERT, DELETE, UPDATE, and SELECT"
+    link: https://www.youtube.com/watch?v=H0ZcSyl0xws
+alura-contents:

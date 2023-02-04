@@ -1,0 +1,29 @@
+name: C# - Serialization
+logo: 
+short-description:
+key-objectives:
+  - Serialization is the process of converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file. Its main purpose is to save the state of an object in order to be able to recreate it when needed.
+  - Sending an object to a remote application using a web service
+  - Passing an object as a JSON or XML string
+  - Passing user-specific or security information between applications
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Serialization (C#)"
+    link: https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/
+  - type: SITE
+    title: "Microsoft Docs: Basic serialization"
+    link: https://learn.microsoft.com/en-us/dotnet/standard/serialization/basic-serialization
+  - type: ARTICLE
+    title: "C# language: Data serialization"
+    link: https://medium.com/@sawomirkowalski/c-language-data-serialization-2b3783473932
+  - type: ARTICLE
+    title: "Conditional serialization using Csharp"
+    link: https://medium.com/@samueleresca/conditional-serialization-using-csharp-3ba383a5ac36
+  - type: YOUTUBE
+    title: "Derek Banas: C# Serialization"
+    link: https://www.youtube.com/watch?v=jbwjbbc5PjI
+  - type: YOUTUBE
+    title: "Nick Proud: C# Tutorial - Serializing and Deserializing JSON with NewtonSoft"
+    link: https://www.youtube.com/watch?v=pJtuuolUhCc
+alura-contents:

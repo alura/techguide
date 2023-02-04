@@ -1,0 +1,33 @@
+name: C# - Testing
+logo: 
+short-description:
+key-objectives:
+  - Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.
+  - Using unit tests
+  - Using integration testing
+  - Using behavioral testing
+  - Using mocks
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Testing in .NET"
+    link: https://learn.microsoft.com/en-us/dotnet/core/testing/
+  - type: SITE
+    title: "Microsoft Docs: Walkthrough - Create and run unit tests for managed code"
+    link: https://learn.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2022
+  - type: SITE
+    title: "Microsoft Docs: Walkthrough - Test-driven development using Test Explorer"
+    link: https://learn.microsoft.com/en-us/visualstudio/test/quick-start-test-driven-development-with-test-explorer?view=vs-2022
+  - type: ARTICLE
+    title: "A Basic Introduction To C# Unit Test For Beginners"
+    link: https://www.c-sharpcorner.com/article/a-basic-introduction-of-unit-test-for-beginners/
+  - type: ARTICLE
+    title: "Implementing Unit And Integration Tests On .NET With xUnit"
+    link: https://www.c-sharpcorner.com/article/implementing-unit-and-integration-tests-on-net-with-xunit/
+  - type: YOUTUBE
+    title: "Programming with Mosh: Unit Testing C# Code - Tutorial for Beginners"
+    link: https://www.youtube.com/watch?v=HYrXogLj7vg
+  - type: YOUTUBE
+    title: "tutorialsEU: C# Unit Testing"
+    link: https://www.youtube.com/watch?v=GSTVFx0KOzI
+alura-contents:

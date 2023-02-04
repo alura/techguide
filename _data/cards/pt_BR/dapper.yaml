@@ -1,0 +1,25 @@
+name: Dapper
+logo: 
+short-description:
+key-objectives:
+  - O Dapper é um produto de mapeamento objeto-relacional (ORM) para a plataforma Microsoft .NET. Ele fornece um framework para mapear um modelo de domínio orientado a objetos para bancos de dados relacionais.
+  - Realizar consultas a bancos de dados como 'select', 'insert', 'update', 'delete'
+  - Manipular bancos de dados
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Descomplicando o Dapper com .Net Core"
+    link: https://medium.com/jundevelopers/descomplicando-o-dapper-com-net-core-11118941e255
+  - type: ARTICLE
+    title: ".NET 5 + Dapper: exemplos de implementação"
+    link: https://renatogroffe.medium.com/net-5-dapper-exemplos-de-implementa%C3%A7%C3%A3o-c3a9ce2be802
+  - type: ARTICLE
+    title: "Introdução ao Dapper"
+    link: http://www.andrealveslima.com.br/blog/index.php/2017/10/04/introducao-ao-dapper/
+  - type: YOUTUBE
+    title: "Leonardo Buta: Dapper - Introdução, conceitos e prática com .NET Core"
+    link: https://www.youtube.com/watch?v=MnfxKnY3bDI
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: O que é o Dapper?"
+    link: https://www.youtube.com/watch?v=-USSV3LfdYw
