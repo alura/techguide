@@ -12,10 +12,10 @@ expertise:
         priority: 8
       - php-files-streams:
         priority: 8
-      - php-composer:
-        priority: 9
   - name: PHP Mid
     cards:
+      - php-composer:
+        priority: 9
       - php-testing:
         priority: 9
       - php-mvc:
