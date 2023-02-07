@@ -2,6 +2,7 @@ name: Python - Coleções
 logo: 
 short-description:
 key-objectives:
+  - Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
   - Utilizar listas e tuplas
   - Utilizar polimorfismo nas coleções
   - Utilizar conjuntos e dicionários

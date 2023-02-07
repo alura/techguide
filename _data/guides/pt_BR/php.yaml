@@ -4,6 +4,8 @@ expertise:
     cards:
       - php-fundamentals:
         priority: 10
+      - php-collections:
+        priority: 10
       - oop-concepts:
         priority: 9
       - php-errorhandling:
@@ -64,6 +66,9 @@ collaboration:
         priority: 7
       - clean-architecture:
         priority: 7
+      - ddd-concepts:
+        priority: 5
+        optional: true
   - name: Front-end
     cards:
       - html-fundamentals:

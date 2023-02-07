@@ -1,0 +1,38 @@
+name: PHP - Coleções
+logo: 
+short-description:
+key-objectives:
+  - Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
+  - Aprender os usos e diferenças entre arrays, listas, pilhas, hash maps, heaps
+  - Trabalhar com Iterators e Collections
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Documentação: Arrays"
+    link: https://www.php.net/manual/pt_BR/language.types.array.php
+  - type: ARTICLE
+    title: "Collections no PHP – Array com super poderes"
+    link: https://blog.erikfigueiredo.com.br/collections-no-php-array-com-super-poderes/
+  - type: ARTICLE
+    title: "Como trabalhar com Iterators e Collections em PHP"
+    link: https://www.devmedia.com.br/como-trabalhar-com-iterators-e-collections-em-php/29016
+  - type: ARTICLE
+    title: "Collections em PHP"
+    link: https://imasters.com.br/back-end/collections-em-php
+  - type: YOUTUBE
+    title: "Rodrigo Oliveira: Curso de PHP 7 - Arrays #1"
+    link: https://www.youtube.com/watch?v=HJSad_aSZ6A&ab_channel=RodrigoOliveira
+  - type: YOUTUBE
+    title: "WDEV: Arrays em PHP - criação, ordenação e manipulação de dados"
+    link: https://www.youtube.com/watch?v=0ODab_KrjCg&ab_channel=WDEV
+  - type: YOUTUBE
+    title: "iMasters: Explorando Collections e Estruturas de Dados em PHP"
+    link: https://www.youtube.com/watch?v=VMfQTP4p55A&ab_channel=iMasters
+alura-contents:
+  - type: ARTICLE
+    title: "Curso PHP: manipulando coleções com Arrays"
+    link: https://www.alura.com.br/curso-online-php-manipulando-colecoes-arrays
+  - type: COURSE
+    title: "Curso PHP: dominando as Collections"
+    link: https://www.alura.com.br/curso-online-php-dominando-collections
+    
