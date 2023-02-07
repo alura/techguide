@@ -104,7 +104,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
           guide,
           locale,
         },
-        revalidate: 60,
+        revalidate: 60 * 60 * 24,
       },
       locale
     );
