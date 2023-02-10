@@ -1,7 +1,11 @@
 name: Angular
 expertise:
   - name: Angular Jr
-    cards: 
+    cards:
+      - html-fundamentals:
+        priority: 8
+      - css-fundamentals:
+        priority: 8
       - javascript-fundamentals:
         priority: 10
       - typescript-fundamentals:
