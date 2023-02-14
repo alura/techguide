@@ -1,7 +1,8 @@
 import React from "react";
-import { Box, Link } from "@src/components";
+import { Box, Link, Text } from "@src/components";
 import { HomeGetAllGuidesQuery } from "@src/gql_types";
 import styled from "styled-components";
+import { useI18n } from "@src/infra/i18n";
 
 const StyledBox = styled.li<any>`
   display: flex;
@@ -40,12 +41,24 @@ const StyledBox = styled.li<any>`
 `;
 
 interface GuidesGridProps {
+  tagToFilter: string;
   guides: HomeGetAllGuidesQuery["guides"];
 }
-export default function GuidesGrid({ guides }: GuidesGridProps) {
+export default function GuidesGrid({ guides, tagToFilter }: GuidesGridProps) {
+  const i18n = useI18n();
+  const guidesToDisplay = guides.filter(() => {
+    if (tagToFilter === "all") return true;
+    // if (tagToFilter === "others") return true;
+    return false;
+  });
   return (
     <ListOfGuides>
-      {guides.map((guide) => (
+      {guidesToDisplay.length === 0 && (
+        <Box>
+          <Text>{i18n.content("GUIDES.NOT.FOUND")}</Text>
+        </Box>
+      )}
+      {guidesToDisplay.map((guide) => (
         <Guide key={guide.slug}>
           <Link
             href={`/path/${guide.slug}`}
