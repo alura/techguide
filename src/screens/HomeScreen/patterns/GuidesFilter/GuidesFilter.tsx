@@ -74,7 +74,7 @@ export function GuidesFilter({ filter, setFilter }: GuidesFilterProps) {
           styleSheet={{
             cursor: "pointer",
             fontSize: {
-              xs: "14px",
+              xs: "13px",
               md: "16px",
             },
             borderRadius: "10px",

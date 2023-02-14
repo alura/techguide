@@ -87,6 +87,7 @@ export default {
         "¡Sí! Las contribuciones son bienvenidas. Para hacerlo, utiliza nuestro mecanismo de contribución de repositorio en <a href='https://github.com/alura/techguide'>Github</a>."
     }
   ],
+  "GUIDES.SHOW_ALL": "Ver todos",
   "GUIDES.NOT.FOUND": "No se encontraron guías",
   "GUIDE.FILTERS": [
     {

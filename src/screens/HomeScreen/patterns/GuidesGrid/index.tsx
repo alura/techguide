@@ -6,6 +6,11 @@ import { useI18n } from "@src/infra/i18n";
 
 const StyledBox = styled.li<any>`
   display: flex;
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 100%;
   flex: 0 0 calc(100% - 16px);
   align-items: center;
   height: 7.9706rem;
@@ -45,12 +50,27 @@ interface GuidesGridProps {
   guides: HomeGetAllGuidesQuery["guides"];
 }
 export default function GuidesGrid({ guides, tagToFilter }: GuidesGridProps) {
+  const [displayAll, setDisplayAll] = React.useState(false);
   const i18n = useI18n();
-  const guidesToDisplay = guides.filter(() => {
+  const guideFilterTags = (i18n.contentRaw("GUIDE.FILTERS") as any).map(
+    ({ value }) => value
+  );
+  const limit = 8;
+
+  const guidesToDisplay = guides.filter((guide) => {
     if (tagToFilter === "all") return true;
-    // if (tagToFilter === "others") return true;
+    if (guide.tags.includes(tagToFilter)) return true;
+    if (
+      tagToFilter === "others" &&
+      !guide.tags.some((tag) => guideFilterTags.includes(tag))
+    ) {
+      return true;
+    }
+
     return false;
   });
+  const showAllIsVisible = guidesToDisplay.length > limit;
+
   return (
     <ListOfGuides>
       {guidesToDisplay.length === 0 && (
@@ -58,24 +78,58 @@ export default function GuidesGrid({ guides, tagToFilter }: GuidesGridProps) {
           <Text>{i18n.content("GUIDES.NOT.FOUND")}</Text>
         </Box>
       )}
-      {guidesToDisplay.map((guide) => (
-        <Guide key={guide.slug}>
-          <Link
-            href={`/path/${guide.slug}`}
-            styleSheet={{
-              display: "flex",
-              textDecoration: "none",
-              flex: "1",
-              width: "100%",
-              height: "100%",
-              justifyContent: "center",
-              hover: { opacity: "1 !important" },
-            }}
-          >
-            {guide.name}
-          </Link>
-        </Guide>
-      ))}
+      {(displayAll ? guidesToDisplay : guidesToDisplay.slice(0, limit)).map(
+        (guide) => (
+          <Guide key={guide.slug}>
+            <Link
+              href={`/path/${guide.slug}`}
+              styleSheet={{
+                display: "flex",
+                textDecoration: "none",
+                flex: "1",
+                width: "100%",
+                height: "100%",
+                justifyContent: "center",
+                hover: { opacity: "1 !important" },
+              }}
+            >
+              {guide.name}
+            </Link>
+          </Guide>
+        )
+      )}
+      {showAllIsVisible && !displayAll && (
+        <Box
+          styleSheet={{
+            width: {
+              xs: "calc(100% - 12px)",
+            },
+            fontSize: "23px",
+          }}
+        >
+          <Guide>
+            <Box
+              tag="button"
+              onClick={() => {
+                setDisplayAll(!displayAll);
+              }}
+              styleSheet={{
+                width: "100%",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                minHeight: "92px",
+                backgroundColor: "transparent",
+                color: "inherit",
+                border: "none",
+                cursor: "pointer",
+              }}
+            >
+              {i18n.content("GUIDES.SHOW_ALL")}
+            </Box>
+          </Guide>
+        </Box>
+      )}
     </ListOfGuides>
   );
 }

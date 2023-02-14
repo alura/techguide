@@ -26,6 +26,7 @@ const typeDefs = gql`
     id: String
     slug: String
     name: String
+    tags: [String]
     expertises: [GuideExpertise]
     collaborations: [GuideCollaboration]
   }
