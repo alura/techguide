@@ -2,10 +2,11 @@ name: Python - Geradores
 logo: 
 short-description:
 key-objectives:
+  - Geradores permitem declarar uma função que se comporta como um iterador, por exemplo, ela pode ser usada em um loop 'for'.
   - Criar objetos iteradores
   - Usar avaliação preguiçosa
   - Executar tarefas simultâneas
-  - Uso da palavra reservada yield
+  - Uso da palavra reservada 'yield'
 aditional-objectives:
 contents:
   - type: SITE

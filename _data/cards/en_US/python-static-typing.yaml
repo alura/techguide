@@ -1,0 +1,24 @@
+name: Python - Static typing
+logo: 
+short-description:
+key-objectives:
+  - Python is a dynamically typed language, that is, there is no need to think about data types. Statically typed languages (such as C or Java) perform type checks upon compilation. It may feel safer, as you can immediately tell the type of parameter going into each function.
+  - Getting to know type hinting
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "How to Make Python Statically Typed — The Essential Guide"
+    link: https://betterdatascience.com/python-statically-typed/
+  - type: ARTICLE
+    title: "Data Science: Write Robust Python With Static Typing"
+    link: https://towardsdatascience.com/data-science-write-robust-python-with-static-typing-c71b9c9c8044
+  - type: YOUTUBE
+    title: "Tech With Tim: Python Typing - Type Hints & Annotations"
+    link: https://www.youtube.com/watch?v=QORvB-_mbZ0
+  - type: YOUTUBE
+    title: "NeuralNine: Type Hinting - Advanced Python Tutorial"
+    link: https://www.youtube.com/watch?v=6KidYEtspNc
+  - type: YOUTUBE
+    title: "PyGotham 2019: Static Typing in Python"
+    link: https://www.youtube.com/watch?v=2gBP1qN5T7I
+alura-contents:

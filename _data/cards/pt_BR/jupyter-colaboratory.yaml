@@ -1,19 +1,19 @@
-name: Jupyter e Colab
+name: Jupyter & Colab notebooks
 logo: 
 short-description:
 key-objectives:
   - Jupyter Notebook e Google Colaboratory são Notebooks que permitem a criação de blocos de texto e blocos de código
   - Os Notebooks facilitam a elaboração de projetos de Data Science por ser possível visualizar o resultado da execução logo após o trecho de código 
   - O Google Colaboratory permite escrever e executar códigos Python diretamente no navegador, sem nenhuma ou poucas configurações necessárias
-  - Eles facilitam o compartilhamento de projetos entre o time
+  - Essas ferramentas facilitam o compartilhamento de projetos entre o time
 aditional-objectives:
 contents:
   - type: SITE
+    title: "Jupyter Notebook"
+    link: https://jupyter.org/
+  - type: SITE
     title: "Google Colaboratory"
     link: https://colab.research.google.com/
-  - type: SITE
-    title: "Anaconda"
-    link: https://www.anaconda.com/
 alura-contents:
   - type: ARTICLE
     title: "Jupyter Notebook: Exemplos de Códigos e Como Usar"

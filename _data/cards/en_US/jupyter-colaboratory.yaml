@@ -1,0 +1,23 @@
+name: Jupyter & Colab notebooks
+logo: 
+short-description:
+key-objectives:
+  - Jupyter Notebook and Google Colaboratory are Notebooks that allow the creation of text blocks and code blocks
+  - Notebooks make it easy to write Data Science projects, because you can see the result of the execution right after the code snippet 
+  - Google Colaboratory allows you to write and execute Python code directly in the browser, with little to no configuration required
+  - These tools make it easy to share projects among the team
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Jupyter Notebook"
+    link: https://jupyter.org/
+  - type: SITE
+    title: "Google Colaboratory"
+    link: https://colab.research.google.com/
+  - type: YOUTUBE
+    title: "Corey Schafer: Jupyter Notebook Tutorial - Introduction, Setup, and Walkthrough"
+    link: https://www.youtube.com/watch?v=HW29067qVWk
+  - type: YOUTUBE
+    title: "TensorFlow: Get started with Google Colaboratory"
+    link: https://www.youtube.com/watch?v=inN8seMm7UI
+alura-contents:

@@ -2,6 +2,7 @@ name: Flask
 logo: 
 short-description:
 key-objectives:
+  - Flask é um pequeno framework web escrito em Python. É classificado como um microframework porque não requer ferramentas ou bibliotecas particulares, mantendo um núcleo simples, porém, extensível. Não possui camada de abstração de banco de dados, validação de formulário ou quaisquer outros componentes onde bibliotecas de terceiros pré-existentes fornecem funções comuns. No entanto, o Flask oferece suporte a extensões que podem adicionar recursos do aplicativo como se fossem implementados no próprio Flask.
   - Criar aplicações web
   - Definir rotas, redirecionamentos e templates
   - Validar formulários

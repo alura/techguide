@@ -1,0 +1,30 @@
+name: Python - Testing
+logo: 
+short-description:
+key-objectives:
+  - Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.
+  - Using unit tests
+  - Using integration testing
+  - Using behavioral testing
+  - Using mocks
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation Python - Unit testing framework"
+    link: https://docs.python.org/dev/library/unittest.html
+  - type: ARTICLE
+    title: "Python Testing with pytest"
+    link: https://medium.com/pragmatic-programmers/table-of-contents-86377afafc57
+  - type: ARTICLE
+    title: "Unit Testing in Python — Patching, Mocks and Dependency Injection"
+    link: https://levelup.gitconnected.com/unit-testing-in-python-mocking-patching-and-dependency-injection-301280db2fed
+  - type: YOUTUBE
+    title: "Corey Schafer: Unit Testing Your Code with the unittest Module"
+    link: https://www.youtube.com/watch?v=6tNS--WetLI
+  - type: YOUTUBE
+    title: "ArjanCodes: Test-Driven Development In Python"
+    link: https://www.youtube.com/watch?v=B1j6k2j2eJg
+  - type: YOUTUBE
+    title: "Python Simplified: Python TDD Workflow - Unit Testing Code Example for Beginners"
+    link: https://www.youtube.com/watch?v=ibVSPVz2LAA
+alura-contents:

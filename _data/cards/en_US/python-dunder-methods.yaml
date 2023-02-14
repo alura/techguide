@@ -1,0 +1,28 @@
+name: Python - Dunder methods
+logo: 
+short-description:
+key-objectives:
+  - Special methods or magic methods in Python are methods that are predefined in all objects, with automatic invocation under special circumstances. They are usually not called directly by the user but can be overloaded (overwritten and changed). Their names begin and end with double underscores called 'dunder' (an expression derived from double underscore).
+  - Understanding the concept of special (or magic) methods
+  - Knowing the main magic methods and how to use them
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "GeeksForGeeks: Dunder or magic methods in Python"
+    link: https://www.geeksforgeeks.org/dunder-magic-methods-python/
+  - type: ARTICLE
+    title: "Dunder/Magic Methods in Python"
+    link: https://www.section.io/engineering-education/dunder-methods-python/
+  - type: ARTICLE
+    title: "A Guide To Python's Dunder Methods"
+    link: https://towardsdatascience.com/a-guide-to-pythons-dunder-methods-3b8104fce335
+  - type: YOUTUBE
+    title: "Corey Schafer: Special (Magic/Dunder) Methods"
+    link: https://www.youtube.com/watch?v=3ohzBxoFHAY
+  - type: YOUTUBE
+    title: "Tech With Tim: Dunder/Magic Methods & The Python Data Model"
+    link: https://www.youtube.com/watch?v=yxUm_QnP4Qo
+  - type: YOUTUBE
+    title: "NeuralNine: Magic Methods & Dunder"
+    link: https://www.youtube.com/watch?v=KSiRzuSx120
+alura-contents:

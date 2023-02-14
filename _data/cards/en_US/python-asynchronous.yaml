@@ -1,0 +1,35 @@
+name: Python - Asynchronous
+logo: 
+short-description:
+key-objectives:
+  - In asynchronous programming, the functions are not executed in order. We can interrupt the code to get some other information needed to continue execution. This means that the code waits for another part of the code, and while it waits, it can execute the other parts.
+  - Learning about coroutines
+  - Coroutines are a generalization of subroutines. They are used for cooperative multitasking where a process yields control voluntarily, periodically or when idle, in order to allow multiple applications to run simultaneously.
+  - Dealing with concurrency
+  - Knowing the concept of waitable objects
+  - Creating concurrent tasks
+  - Knowing the 'asyncio' library
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation: Coroutines"
+    link: https://docs.python.org/3.8/library/asyncio-task.html
+  - type: SITE
+    title: "Real Python: Async IO in Python - A Complete Walkthrough"
+    link: https://realpython.com/async-io-python/
+  - type: SITE
+    title: "Super Fast Python: Asynchronous Programming in Python"
+    link: https://superfastpython.com/python-asynchronous-programming/
+  - type: ARTICLE
+    title: "An Introduction to Asynchronous Programming in Python"
+    link: https://medium.com/velotio-perspectives/an-introduction-to-asynchronous-programming-in-python-af0189a88bbb
+  - type: YOUTUBE
+    title: "Tech With Tim: Python Asynchronous Programming - AsyncIO & Async/Await"
+    link: https://www.youtube.com/watch?v=t5Bo1Je9EmE
+  - type: YOUTUBE
+    title: "NeuralNine: AsyncIO & Asynchronous Programming in Python"
+    link: https://www.youtube.com/watch?v=6RbJYN7SoRs
+  - type: YOUTUBE
+    title: "mCoding: Intro to async Python | Writing a Web Crawler"
+    link: https://www.youtube.com/watch?v=ftmdDlwMwwQ
+alura-contents:

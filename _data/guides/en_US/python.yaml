@@ -55,7 +55,7 @@ expertise:
         priority: 5
         optional: true
 collaboration:
-  - name: Infraestrutura
+  - name: Infrastructure
     cards:
       - git-and-github-fundamentals:
         priority: 9
@@ -69,7 +69,7 @@ collaboration:
         priority: 7
       - sql-fundamentals:
         priority: 9
-  - name: Boas práticas e ferramentas
+  - name: Good practices and tools
     cards:
       - solid:
         priority: 7

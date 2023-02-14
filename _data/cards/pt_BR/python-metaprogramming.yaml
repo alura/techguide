@@ -2,7 +2,9 @@ name: Python - Metaprogramação
 logo: 
 short-description:
 key-objectives:
+  - Metaprogramação é uma técnica de programação com a qual programas têm a capacidade de tratar outros programas como seus dados. Isso significa que um programa pode ser projetado para ler, gerar, analisar ou transformar outros programas, e até mesmo modificar-se mesmo durante a execução.
   - Escrever um programa que manipula outros programas
+  - Usar metaclasses
 aditional-objectives:
 contents:
   - type: SITE

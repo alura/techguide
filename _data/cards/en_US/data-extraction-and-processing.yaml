@@ -1,0 +1,25 @@
+name: Data Extraction and Processing
+logo: 
+short-description:
+key-objectives:
+  - Obtaining the data to be analyzed
+  - Treating the obtained data, transforming it, changing its structure and values in order to make the database more coherent and ensure that the data to be worked on is in the best conditions to be analyzed
+  - Using the Pandas and Scikit-learn libraries to treat the data
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Data Mining in Brief"
+    link: https://towardsdatascience.com/data-mining-in-brief-26483437f178
+  - type: ARTICLE
+    title: "Handy-Dandy Python Modules For Data Processing"
+    link: https://towardsdatascience.com/handy-dandy-python-modules-for-data-processing-3a85d6806d39
+  - type: YOUTUBE
+    title: "IBM Technology: What is Data Mining?"
+    link: https://www.youtube.com/watch?v=7rs0i-9nOjo
+  - type: YOUTUBE
+    title: "edureka!: Data Extraction Using Python"
+    link: https://www.youtube.com/watch?v=kEItYHtqQUg
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Data Analysis with Python - Full Course for Beginners (Numpy, Pandas, Matplotlib, Seaborn)"
+    link: https://www.youtube.com/watch?v=r-uOLxNrNk8
+alura-contents:

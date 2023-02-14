@@ -1,7 +1,8 @@
-name: Python - Pooling de processos
+name: Python - Multiprocessamento
 logo: 
 short-description:
 key-objectives:
+  - Em Python, o módulo de multiprocessamento inclui uma API muito simples e intuitiva para dividir o trabalho entre vários processos.
   - Executar processos em paralelo
   - Conhecer a classe Pool
 aditional-objectives:
@@ -9,6 +10,9 @@ contents:
   - type: SITE
     title: "Documentação Python - Process Pools (inglês)"
     link: https://docs.python.org/pt-br/3/library/multiprocessing.html#module-multiprocessing.pool
+  - type: SITE
+    title: "Acervo Lima: Multiprocessamento em Python"
+    link: https://acervolima.com/multiprocessamento-em-python-conjunto-1-introducao/
   - type: SITE
     title: "Acervo Lima: Sincronização e pooling de processos em Python"
     link: https://acervolima.com/sincronizacao-e-pooling-de-processos-em-python/

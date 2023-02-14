@@ -1,0 +1,27 @@
+name: Django Rest Framework
+logo: 
+short-description:
+key-objectives:
+  - Django REST framework is a powerful and flexible toolkit for building Web APIs.
+  - Developing APIs
+  - Working with models, serializers and views
+  - Including filters, searches and sorting
+  - Limiting the number of requests
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Django Rest Framework"
+    link: https://www.django-rest-framework.org/
+  - type: SITE
+    title: "JavaTPoint: Create REST API using Django REST Framework"
+    link: https://www.javatpoint.com/create-rest-api-using-django-rest-framework
+  - type: ARTICLE
+    title: "How to Develop APIs with Django REST Framework"
+    link: https://djangostars.com/blog/rest-apis-django-development/
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Django REST Framework Course – Build Web APIs with Python"
+    link: https://www.youtube.com/watch?v=tujhGdn1EMI
+  - type: YOUTUBE
+    title: "CodingEntrepreneurs: Build a Django REST API with the Django Rest Framework - Complete Tutorial"
+    link: https://www.youtube.com/watch?v=c708Nf0cHrs
+alura-contents:

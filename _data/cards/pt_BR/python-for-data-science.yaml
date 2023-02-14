@@ -1,0 +1,39 @@
+name: Python para Ciência de Dados
+logo: 
+short-description:
+key-objectives:
+  - Python é uma linguagem de programação interpretada de alto nível e que suporta múltiplos paradigmas de programação, como imperativo, orientado a objetos e funcional. É uma linguagem com tipagem dinâmica e gerenciamento automático de memória.
+  - Aprender lógica de programação em Python
+  - Aprenda os fundamentos da linguagem como variáveis, funções, listas, condicionais e imports
+  - Criar análises de dados
+  - Utilizar o Matplotlib para gerar gráficos
+  - Usar e manipular listas para agrupar dados
+  - Conhecer a biblioteca NumPy
+  - Conhecer a biblioteca Pandas
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Primeiros passos em Data Science utilizando Python para análise de dados"
+    link: https://medium.com/data-hackers/primeiros-passos-em-data-science-utilizando-python-para-an%C3%A1lise-de-dados-823436432b28
+  - type: ARTICLE
+    title: "Python para Análise de Dados"
+    link: https://medium.com/@aasouzaconsult/python-para-an%C3%A1lise-de-dados-24028d7013b3
+  - type: YOUTUBE
+    title: "Filipe Deschamps: Introdução a Ciência de Dados (Primeira aula prática programando em Python)"
+    link: https://www.youtube.com/watch?v=F608hzn_ygo
+  - type: YOUTUBE
+    title: "Jerry Strazzeri: Como estudar Python para Ciência de Dados"
+    link: https://www.youtube.com/watch?v=kIKdbBc6npU
+  - type: YOUTUBE
+    title: "Prof. Cíntia Pinho: Introdução a Python para Ciências de Dados"
+    link: https://www.youtube.com/watch?v=M13p7EHA6Ro
+alura-contents:
+  - type: ARTICLE
+    title: "Vingadores - Visualizando diversos futuros simultaneamente usando Python e Data Science"
+    link: https://www.alura.com.br/artigos/vingadores-visualizando-diversos-futuros-simultaneamente
+  - type: PODCAST
+    title: "Hipsters.tech: Primeiros Passos em Data Science: Do Excel e BI ao Python – Hipsters 134"
+    link: https://www.hipsters.tech/primeiros-passos-em-data-science-do-excel-e-bi-ao-python-hipsters-134/
+  - type: COURSE
+    title: "Formação Python para Data Science"
+    link: https://cursos.alura.com.br/formacao-python-data-science

@@ -1,0 +1,27 @@
+name: Python - Advanced OOP
+logo: 
+short-description:
+key-objectives:
+  - Mixin is a class that provides implementations of methods for reuse by multiple related child classes.
+  - Operator overloading means giving extended meaning beyond its predefined operational meaning.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Python Multiple Inheritance — Python MRO (Method Resolution Order) in 1 minute"
+    link: https://blog.koladev.xyz/python-multiple-inheritance-python-mro-method-resolution-order-in-1-minute-2793e3e1cd20
+  - type: ARTICLE
+    title: "Mixins for Fun and Profit"
+    link: https://easyaspython.com/mixins-for-fun-and-profit-cb9962760556
+  - type: ARTICLE
+    title: "Multiple inheritance and mixin classes in Python"
+    link: https://www.thedigitalcatonline.com/blog/2020/03/27/mixin-classes-in-python/
+  - type: SITE
+    title: "GeeksForGeeks: Operator Overloading in Python"
+    link: https://www.geeksforgeeks.org/operator-overloading-in-python/
+  - type: YOUTUBE
+    title: "Python for Everyone: Mixins in Python"
+    link: https://www.youtube.com/watch?v=zNPaqZUTzs0
+  - type: YOUTUBE
+    title: "Python for Everyone: Operator Overloading in Python"
+    link: https://www.youtube.com/watch?v=7fNj4Tqbymg
+alura-contents:

@@ -1,0 +1,32 @@
+name: Python - Communicating with APIs
+logo: 
+short-description:
+key-objectives:
+  - An API is an interface that software developers use to program interaction with software components or features outside their own code. An even simpler definition is that an API is the part of a software component that is accessible to other components.
+  - Understanding what a REST API is
+  - Knowing the basic HTTP communication commands
+  - Understanding what a REST API is
+  - Knowing how to make authenticated requests
+  - Converting objects to JSON and vice-versa
+  - Knowing how to use the tools of the Requests package
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation - Requests: HTTP for Humans"
+    link: https://requests.readthedocs.io/en/latest/
+  - type: ARTICLE
+    title: "How To Get Started With the Requests Library in Python"
+    link: https://www.digitalocean.com/community/tutorials/how-to-get-started-with-the-requests-library-in-python
+  - type: ARTICLE
+    title: "Python Requests Tutorial — GET and POST Requests in Python"
+    link: https://medium.com/edureka/python-requests-tutorial-30edabfa6a1c
+  - type: ARTICLE
+    title: "How to Pull Data from an API using Python Requests"
+    link: https://towardsdatascience.com/how-to-pull-data-from-an-api-using-python-requests-edcc8d6441b1
+  - type: YOUTUBE
+    title: "Corey Schafer: Python Requests Tutorial - Request Web Pages, Download Images, POST Data, Read JSON, and More"
+    link: https://www.youtube.com/watch?v=tb8gHvYlCFs
+  - type: YOUTUBE
+    title: "NeuralNine: Requests Library in Python - Beginner Crash Course"
+    link: https://www.youtube.com/watch?v=Xi1F2ZMAZ7Q
+alura-contents:
