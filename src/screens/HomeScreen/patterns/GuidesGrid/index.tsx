@@ -55,7 +55,7 @@ export default function GuidesGrid({ guides, tagToFilter }: GuidesGridProps) {
   const guideFilterTags = (i18n.contentRaw("GUIDE.FILTERS") as any).map(
     ({ value }) => value
   );
-  const limit = 8;
+  const limit = 12;
 
   const guidesToDisplay = guides.filter((guide) => {
     if (tagToFilter === "all") return true;
