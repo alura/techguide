@@ -10,10 +10,23 @@ interface TextProps {
   // eslint-disable-next-line no-unused-vars
   i18nKeyReplace?: I18nKeyReplace;
   styleSheet?: StyleSheet;
+  name?: string;
+  tabIndex?: number;
+  htmlFor?: string;
+  // eslint-disable-next-line no-unused-vars
+  onKeyPress?: (event: any) => void;
 }
 const Text = React.forwardRef(
   (
-    { styleSheet, children, tag, i18nKey, i18nKeyReplace, ...props }: TextProps,
+    {
+      styleSheet,
+      children,
+      tag,
+      i18nKey,
+      i18nKeyReplace,
+      name,
+      ...props
+    }: TextProps,
     ref
   ) => {
     const i18n = useI18n();
@@ -27,6 +40,7 @@ const Text = React.forwardRef(
           display: "inline-block",
           ...styleSheet,
         }}
+        name={name}
         {...props}
       >
         {children || i18nChildren}
