@@ -88,6 +88,34 @@ export default {
         "Sim! Contribuições são bem vindas. Para isso, use o mecanismo de contribuição do nossos repositório no <a href='https://github.com/alura/techguide'>Github</a>."
     }
   ],
+  "GUIDES.SHOW_ALL": "Ver todos",
+  "GUIDES.NOT.FOUND": "Nenhum guia encontrado", 
+  "GUIDE.FILTERS": [
+    {
+      "label": "Todos",
+      "value": "all"
+    },
+    {
+      "label": "Front-end",
+      "value": "front-end"
+    },
+    {
+      "label": "Back-end",
+      "value": "back-end"
+    },
+    {
+      "label": "Mobile",
+      "value": "mobile"
+    },
+    {
+      "label": "Dados",
+      "value": "data"
+    },
+    {
+      "label": "Outros",
+      "value": "others"
+    },
+  ],
   "IMAGES.DISCOVER_IMAGE": "/assets/image/discover-illustration.svg",
   "FOOTER.YOUTUBE": "https://youtube.com/aluracursosonline",
   "FOOTER.FACEBOOK": "https://www.facebook.com/AluraCursosOnline/",
