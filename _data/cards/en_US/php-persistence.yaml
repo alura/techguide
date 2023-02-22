@@ -1,0 +1,29 @@
+name: PHP - Persistence
+logo: 
+short-description:
+key-objectives:
+  - The concept of "data persistence" refers to ensuring that the information inputted into an application will be stored in a medium where it can be retrieved consistently. In other words, they are permanent records that are not lost when the session is closed.
+  - Knowing how to use PDO
+  - Making insertions, changes and removals in a database
+  - Creating queries on a database using filters
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "(The only proper) PDO tutorial"
+    link: https://phpdelusions.net/pdo
+  - type: ARTICLE
+    title: "A Simple PHP (PDO) + MySQL CRUD Application Part #1"
+    link: https://towardsdev.com/a-simple-php-pdo-mysql-crud-application-part-1-378d2396838
+  - type: ARTICLE
+    title: "PHP PDO basic Database CRUD"
+    link: https://medium.com/@pyk_ouo/php-pdo-basic-database-crud-93dced2bc3d
+  - type: ARTICLE
+    title: "Connecting to MySQL with PDO"
+    link: https://medium.com/@jpmorris/connecting-to-mysql-with-pdo-493d9549c1dc
+  - type: YOUTUBE
+    title: "Traversy Media: PDO Crash Course"
+    link: https://www.youtube.com/watch?v=kEW6f7Pilc4
+  - type: YOUTUBE
+    title: "Dani Krossing: Connect To Database Using PDO In OOP PHP"
+    link: https://www.youtube.com/watch?v=yWJFbPT3TC0
+alura-contents:

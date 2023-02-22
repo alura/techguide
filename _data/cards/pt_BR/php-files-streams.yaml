@@ -2,6 +2,7 @@ name: PHP - Arquivos e Streams
 logo: 
 short-description:
 key-objectives:
+  - Os 'streams' (fluxos) são a forma de generalizar operações com arquivos, rede, compressão de dados e outras que compartilhem um conjunto comum de funções e usos. Em sua definição mais simples, um stream é um objeto que exibe um comportamento 'streamable'. Ou seja, ele pode ser lido ou escrito de uma forma linear, e pode ser capaz de buscar uma localização arbitrária dentro do fluxo.
   - Abrir, ler e manipular arquivos
   - Aplicar wrappers e filtros nos streams
   - Usar streams

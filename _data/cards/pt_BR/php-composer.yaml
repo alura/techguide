@@ -2,6 +2,7 @@ name: PHP - Composer
 logo: 
 short-description:
 key-objectives:
+  - O Composer é uma ferramenta para o gerenciamento de dependências em PHP. Ele permite que você declare as bibliotecas das quais seu projeto depende e as gerenciará (instalar/atualizar) para você.
   - Gerenciar dependências
   - Incluir bibliotecas de terceiros
 aditional-objectives:

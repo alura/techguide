@@ -4,10 +4,10 @@ short-description:
 key-objectives:
   - Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
   - Aprender os usos e diferenças entre arrays, listas, pilhas, hash maps, heaps
-  - Trabalhar com Iterators e Collections
+  - Trabalhar com Iterators, Geradores e Collections
 aditional-objectives:
 contents:
-  - type: ARTICLE
+  - type: SITE
     title: "Documentação: Arrays"
     link: https://www.php.net/manual/pt_BR/language.types.array.php
   - type: ARTICLE

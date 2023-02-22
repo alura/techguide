@@ -1,0 +1,39 @@
+name: PHP - Testing
+logo: 
+short-description:
+key-objectives:
+  - Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.
+  - Using unit tests
+  - Using integration testing
+  - Using behavioral testing
+  - Using mocks
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "How to Test PHP Code With PHPUnit"
+    link: https://www.freecodecamp.org/news/test-php-code-with-phpunit/
+  - type: ARTICLE
+    title: "Top 10 Popular PHP Testing Frameworks And Tools"
+    link: https://www.softwaretestinghelp.com/php-testing-framework-tools/
+  - type: ARTICLE
+    title: "How to test a PHP app? PHP unit testing and more"
+    link: https://tsh.io/blog/php-unit-testing/
+  - type: ARTICLE
+    title: "Manager's Guide to PHP Testing"
+    link: https://www.zend.com/blog/php-testing
+  - type: ARTICLE
+    title: "Testing PHP Applications"
+    link: https://www.honeybadger.io/blog/php-testing/
+  - type: YOUTUBE
+    title: "Full Stack Jack: Test Driven Development Tutorial in PHP for Beginners"
+    link: https://www.youtube.com/watch?v=iHLlixZChnk
+  - type: YOUTUBE
+    title: "Program With Gio: PHPUnit Tutorial"
+    link: https://www.youtube.com/watch?v=9-X_b_fxmRM
+  - type: YOUTUBE
+    title: "Program With Gio: PHPUnit Tutorial Part 2 - Mocking"
+    link: https://www.youtube.com/watch?v=EhkeoV8nfCQ
+  - type: YOUTUBE
+    title: "Søren Spangsberg Jørgensen: Unit Testing with PHP Unit"
+    link: https://www.youtube.com/watch?v=a5ZKCFINUkU
+alura-contents:

@@ -2,6 +2,7 @@ name: PHP - XDebug
 logo: 
 short-description:
 key-objectives:
+  - Xdebug é uma extensão PHP que fornece recursos de depuração e criação de perfil.
   - Usar e aprimorar o var_dump com XDebug
   - Analisar e entender a stack (pilha) de execução
   - Depurar o código

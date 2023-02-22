@@ -1,0 +1,31 @@
+name: PHP - Communication with APIs
+logo: 
+short-description:
+key-objectives:
+  - An API is an interface that software developers use to program interaction with software components or features outside their own code. An even simpler definition is that an API is the part of a software component that is accessible to other components.
+  - Understanding what a REST API is
+  - Knowing the basic HTTP communication commands
+  - Getting to know cURL
+  - Building APIs in Laravel
+  - Knowing how to make authenticated requests for Web APIs
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Laravel API Tutorial: How to Build and Test a RESTful API"
+    link: https://www.toptal.com/laravel/restful-laravel-api-tutorial
+  - type: ARTICLE
+    title: "How to make API in Laravel 9"
+    link: https://dev.to/shanisingh03/how-to-make-api-in-laravel-9-310g
+  - type: ARTICLE
+    title: "How to use cURL to test a REST API"
+    link: https://terminalcheatsheet.com/guides/curl-rest-api
+  - type: YOUTUBE
+    title: "Traversy Media: PHP REST API From Scratch"
+    link: https://www.youtube.com/watch?v=OEWXbpUMODk
+  - type: YOUTUBE
+    title: "Envato Tuts+: How to Build a REST API With Laravel - PHP Full Course"
+    link: https://www.youtube.com/watch?v=YGqCZjdgJJk
+  - type: YOUTUBE
+    title: "Coding Reflections: How to use PHP cURL to Handle JSON API Requests"
+    link: https://www.youtube.com/watch?v=ZIsdbVOQJNc
+alura-contents:

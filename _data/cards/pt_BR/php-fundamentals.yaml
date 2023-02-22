@@ -2,6 +2,7 @@ name: PHP - Fundamentos
 logo: 
 short-description:
 key-objectives:
+  - PHP é uma linguagem de programação que permite aos desenvolvedores web criar conteúdo dinâmico que interage com bancos de dados. O PHP é basicamente usado para desenvolver aplicações de software baseadas na web.
   - Conhecer os tipos primitivos
   - Declarar variáveis
   - Usar estruturas condicionais ('if', 'else')
@@ -9,7 +10,6 @@ key-objectives:
   - Usar estruturas de repetição e laços ('while', 'for')
   - Usar funções, passando parâmetros e argumentos
   - Manipular arrays e listas
-  - Aprender o conceito de Orientação a Objetos
 aditional-objectives:
 contents:
   - type: SITE
