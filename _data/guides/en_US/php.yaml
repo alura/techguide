@@ -39,12 +39,13 @@ expertise:
         priority: 8
       - php-functional:
         priority: 7
-      - object-calisthenics:
-        priority: 7
       - microservices:
         priority: 7
       - containers:
         priority: 7
+      - object-calisthenics:
+        priority: 6
+        optional: true
       - reflection-and-attributes:
         priority: 5
         optional: true
