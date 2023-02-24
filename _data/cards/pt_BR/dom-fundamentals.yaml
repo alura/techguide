@@ -27,9 +27,12 @@ alura-contents:
   - type: COURSE
     title: "Curso JavaScript: manipulando o DOM"
     link: https://cursos.alura.com.br/course/javascript-manipulando-dom
-  - type: challenge
+  - type: CHALLENGE
     title: "7 Days of Code: JavaScript e DOM"
     link: https://7daysofcode.io/matricula/javascript-e-dom
-  - type: challenge
+  - type: CHALLENGE
     title: "7 Days of Code: JavaScript e DOM com API"
     link: https://7daysofcode.io/matricula/javascript-e-dom-api
+  - type: CHALLENGE
+    title: "7 Days of Code: JavaScript e DOM - Wordle"
+    link: https://7daysofcode.io/matricula/javascript-e-dom-wordle
