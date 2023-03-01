@@ -12,7 +12,7 @@ interface FAQQuestionProps {
 }
 export default function FAQContentSection(props: FAQQuestionProps) {
   const i18n = useI18n();
-  const questions = props.questions.length
+  const questions = props?.questions?.length
     ? props.questions
     : i18n.contentRaw("FAQ.GLOBAL");
 
