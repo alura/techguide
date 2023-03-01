@@ -9,7 +9,7 @@ import HeroTitle from "./patterns/HeroTitle";
 import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
 
 interface ScreenHeroContainerProps {
-  guide: PathScreenGetGuideBySlugQuery["guide"];
+  guide?: PathScreenGetGuideBySlugQuery["guide"];
   children: React.ReactNode;
 }
 export default function ScreenHeroContainer({
