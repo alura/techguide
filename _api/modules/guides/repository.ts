@@ -88,6 +88,8 @@ export function guidesRepository() {
                 cards,
               };
             }),
+            video: fileContent.video || "",
+            faq: fileContent.faq || [],
           };
         })
       );

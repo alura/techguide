@@ -93,10 +93,12 @@ export type Guide = {
   __typename?: 'Guide';
   collaborations?: Maybe<Array<Maybe<GuideCollaboration>>>;
   expertises?: Maybe<Array<Maybe<GuideExpertise>>>;
+  faq?: Maybe<Array<Maybe<GuideFaq>>>;
   id?: Maybe<Scalars['String']>;
   name?: Maybe<Scalars['String']>;
   slug?: Maybe<Scalars['String']>;
   tags?: Maybe<Array<Maybe<Scalars['String']>>>;
+  video?: Maybe<Scalars['String']>;
 };
 
 export type GuideCard = {
@@ -117,6 +119,12 @@ export type GuideExpertise = {
   cards?: Maybe<Array<Maybe<GuideCard>>>;
   guide?: Maybe<Guide>;
   name?: Maybe<Scalars['String']>;
+};
+
+export type GuideFaq = {
+  __typename?: 'GuideFAQ';
+  answer?: Maybe<Scalars['String']>;
+  title?: Maybe<Scalars['String']>;
 };
 
 export type GuideFilters = {
@@ -269,6 +277,7 @@ export type ResolversTypes = {
   GuideCard: ResolverTypeWrapper<GuideCard>;
   GuideCollaboration: ResolverTypeWrapper<GuideCollaboration>;
   GuideExpertise: ResolverTypeWrapper<GuideExpertise>;
+  GuideFAQ: ResolverTypeWrapper<GuideFaq>;
   GuideFilters: GuideFilters;
   GuideInput: GuideInput;
   GuidesInput: GuidesInput;
@@ -296,6 +305,7 @@ export type ResolversParentTypes = {
   GuideCard: GuideCard;
   GuideCollaboration: GuideCollaboration;
   GuideExpertise: GuideExpertise;
+  GuideFAQ: GuideFaq;
   GuideFilters: GuideFilters;
   GuideInput: GuideInput;
   GuidesInput: GuidesInput;
@@ -347,10 +357,12 @@ export type CardKeyObjectiveResolvers<ContextType = any, ParentType extends Reso
 export type GuideResolvers<ContextType = any, ParentType extends ResolversParentTypes['Guide'] = ResolversParentTypes['Guide']> = {
   collaborations?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideCollaboration']>>>, ParentType, ContextType>;
   expertises?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideExpertise']>>>, ParentType, ContextType>;
+  faq?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideFAQ']>>>, ParentType, ContextType>;
   id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   slug?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   tags?: Resolver<Maybe<Array<Maybe<ResolversTypes['String']>>>, ParentType, ContextType>;
+  video?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
@@ -371,6 +383,12 @@ export type GuideExpertiseResolvers<ContextType = any, ParentType extends Resolv
   cards?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideCard']>>>, ParentType, ContextType>;
   guide?: Resolver<Maybe<ResolversTypes['Guide']>, ParentType, ContextType>;
   name?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
+};
+
+export type GuideFaqResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideFAQ'] = ResolversParentTypes['GuideFAQ']> = {
+  answer?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
+  title?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };
 
@@ -399,6 +417,7 @@ export type Resolvers<ContextType = any> = {
   GuideCard?: GuideCardResolvers<ContextType>;
   GuideCollaboration?: GuideCollaborationResolvers<ContextType>;
   GuideExpertise?: GuideExpertiseResolvers<ContextType>;
+  GuideFAQ?: GuideFaqResolvers<ContextType>;
   Mutation?: MutationResolvers<ContextType>;
   Query?: QueryResolvers<ContextType>;
   UUID?: GraphQLScalarType;

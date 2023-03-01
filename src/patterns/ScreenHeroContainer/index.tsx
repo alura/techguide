@@ -6,11 +6,14 @@ import FirstContentSection from "./patterns/FirstContentSection";
 import SecondContentSection from "./patterns/SecondContentSection";
 import FAQContentSection from "./patterns/FAQContentSection";
 import HeroTitle from "./patterns/HeroTitle";
+import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
 
 interface ScreenHeroContainerProps {
+  guide: PathScreenGetGuideBySlugQuery["guide"];
   children: React.ReactNode;
 }
 export default function ScreenHeroContainer({
+  guide,
   children,
 }: ScreenHeroContainerProps) {
   return (
@@ -100,7 +103,7 @@ export default function ScreenHeroContainer({
       </Box>
       <FirstContentSection />
       <SecondContentSection />
-      <FAQContentSection />
+      <FAQContentSection questions={guide?.faq} />
       <Footer />
     </>
   );

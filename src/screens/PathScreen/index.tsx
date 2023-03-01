@@ -9,7 +9,7 @@ interface PathScreenProps {
 }
 function PathScreen({ guide }: PathScreenProps) {
   return (
-    <ScreenHeroContainer>
+    <ScreenHeroContainer guide={guide}>
       <TShape guide={guide} />
     </ScreenHeroContainer>
   );
