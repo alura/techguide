@@ -2,10 +2,10 @@ name: Machine Learning - Avaliação de Modelos
 logo: 
 short-description:
 key-objectives:
-  - O uso de métricas de avaliação nos ajuda a identificar se um modelo treinado terá um bom desempenho de previsão quando exposto a novos conjuntos de dados.
+  - A Avaliação de Modelos é o processo que utiliza métricas para nos ajudar a analisar se um modelo treinado terá um bom desempenho de previsão quando exposto a novos conjuntos de dados.
   - Conhecer diferentes estratégias de avaliação e otimização de modelos
   - Utilizar um pipeline para treino e validação
-  - Métricas de avaliação de modelos de machine learning
+  - Conhecer as principais métricas de avaliação de modelos de machine learning
 aditional-objectives:
 contents:
   - type: SITE
@@ -21,7 +21,7 @@ contents:
     title: "Canal USP: Sobreajuste, validação cruzada e medição de performance"
     link: https://www.youtube.com/watch?v=pohax_OCUbs
   - type: YOUTUBE
-    title: "Fernando dos Santos: Avaliação de Modelos Preditivos: Validação cruzada K-fold"
+    title: "Fernando dos Santos: Avaliação de Modelos Preditivos - Validação cruzada K-fold"
     link: https://www.youtube.com/watch?v=E1VAYcKnLxg
   - type: YOUTUBE
     title: "Iury Rosal: Validação Cruzada (Cross Validation)"
