@@ -1,8 +1,8 @@
-name: Data Scientist
+name: Data Science
 tags: 
   - data
 expertise:
-  - name: Data Scientist Jr
+  - name: Data Science Jr
     cards:
       - data-science-fundamentals:
         priority: 10
@@ -21,7 +21,7 @@ expertise:
         priority: 9
       - data-visualization:
         priority: 8
-  - name: Data Scientist Mid
+  - name: Data Science Mid
     cards:
       - machine-learning-fundamentals:
         priority: 10
@@ -35,7 +35,7 @@ expertise:
         priority: 8
       - statistical-tests:
         priority: 9
-  - name: Data Scientist in depth
+  - name: Data Science in depth
     cards:
       - deep-learning:
         priority: 9
