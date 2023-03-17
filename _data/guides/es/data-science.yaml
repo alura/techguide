@@ -7,18 +7,18 @@ expertise:
       - data-science-fundamentals:
         priority: 10
       - feature-engineering:
-        priority: 7
+        priority: 10
       - data-extraction-and-processing:
         priority: 10
       - python-for-data-science:
         priority: 10
-      - jupyter-and-colab:
-        priority: 8
+      - jupyter-and-colaboratory:
+        priority: 9
       - r-for-data-science:
         priority: 9
-        optional: false
+        optional: true
       - statistics-and-math-fundamentals:
-        priority: 9
+        priority: 10
       - data-visualization:
         priority: 8
   - name: Data Science Mid
@@ -32,9 +32,9 @@ expertise:
       - sql-fundamentals:
         priority: 8
       - web-scraping:
-        priority: 8
+        priority: 7
       - statistical-tests:
-        priority: 9
+        priority: 7
   - name: Data Science in depth
     cards:
       - deep-learning:
@@ -42,9 +42,9 @@ expertise:
       - reinforcement-learning:
         priority: 9
       - computer-vision:
-        priority: 8
+        priority: 7
       - natural-language-processing:
-        priority: 9
+        priority: 7
 collaboration:
   - name: Cloud, Big Data y Sistemas
     cards:
@@ -53,19 +53,19 @@ collaboration:
       - cloud-fundamentals-data-science:
         priority: 7
       - git-and-github-fundamentals-data-science:
-        priority: 9
+        priority: 7
       - linux-fundamentals:
         priority: 7
   - name: Business
     cards:
-      - communication-skills:
-        priority: 8
       - business-process-management:
         priority: 9
-      - business-intelligence:
-        priority: 9
+      - business-intelligence-fundamentals:
+        priority: 8
       - storytelling-with-data:
-        priority: 7
+        priority: 8
       - excel:
         priority: 6
-        optional: false
+        optional: true
+      - communication-skills:
+        priority: 7
