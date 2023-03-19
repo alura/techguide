@@ -19,10 +19,12 @@ export default function TShape({ guide, externalGuideCreator }: TShapeProps) {
   const expertiseEnd = guide.expertises[2];
 
   const isExternalGuide = externalGuideCreator;
-  const externalGuideMetadata = i18n.contentRaw("COMPANIES").find((company) => {
-    if (company.githubUser === externalGuideCreator) return true;
-    return false;
-  });
+  const externalGuideMetadata = i18n
+    .contentRaw("COMPANIES")
+    ?.find((company) => {
+      if (company.githubUser === externalGuideCreator) return true;
+      return false;
+    });
 
   const TItems = [
     {
