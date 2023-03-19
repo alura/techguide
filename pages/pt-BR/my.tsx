@@ -27,12 +27,12 @@ function ToScreen({ locale }: { locale: SiteLocale }) {
         return;
       }
 
-      const [, , , username, repo, , branch, path] = url.split("/");
+      const [, , , username, repo, , branch, ...path] = url.split("/");
 
-      const nextUrl = `/${urlLocale}/external/${username}/${repo}/${branch}/${path.replaceAll(
-        ".",
-        "__"
-      )}/`;
+      const nextUrl = `/${urlLocale}/external/${username}/${repo}/${branch}/${path
+        .join("___")
+        .replaceAll(".", "__")}/`;
+
       router.push(nextUrl);
     }
   }, [router]);

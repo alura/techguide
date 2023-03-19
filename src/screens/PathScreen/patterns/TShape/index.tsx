@@ -6,8 +6,10 @@ import { useI18n, useI18nLocale } from "@src/infra/i18n";
 
 interface TShapeProps {
   guide: PathScreenGetGuideBySlugQuery["guide"];
+  externalGuideCreator?: string;
 }
-export default function TShape({ guide }: TShapeProps) {
+export default function TShape({ guide, externalGuideCreator }: TShapeProps) {
+  const isExternalGuide = externalGuideCreator;
   const i18n = useI18n();
   const locale = useI18nLocale();
   const leftSide = guide.collaborations[0];
@@ -155,35 +157,37 @@ export default function TShape({ guide }: TShapeProps) {
           alignItems: "center",
         }}
       >
-        <Link
-          href={`https://github.com/alura/techguide/blob/main/_data/downloadFiles/${locale}/${guide.slug}.md`}
-          styleSheet={{
-            marginTop: "23px",
-            width: "100%",
-            maxWidth: "400px",
-            display: "flex",
-            gap: "6px",
-            alignItems: "center",
-            justifyContent: "center",
-            flexDirection: "row",
-            borderRadius: "8px",
-            border: "1px solid #0052FF",
-            textDecoration: "none",
-            padding: "14px",
-            fontSize: "14px",
-            backgroundColor: "#0052FF",
-            hover: {
-              opacity: 1,
-              backgroundColor: "transparent",
-            },
-            focus: {
-              opacity: 1,
-              backgroundColor: "transparent",
-            },
-          }}
-        >
-          {i18n.content("TSHAPE.BUTTON.DOWNLOAD_T_FILE")}
-        </Link>
+        {!isExternalGuide && (
+          <Link
+            href={`https://github.com/alura/techguide/blob/main/_data/downloadFiles/${locale}/${guide.slug}.md`}
+            styleSheet={{
+              marginTop: "23px",
+              width: "100%",
+              maxWidth: "400px",
+              display: "flex",
+              gap: "6px",
+              alignItems: "center",
+              justifyContent: "center",
+              flexDirection: "row",
+              borderRadius: "8px",
+              border: "1px solid #0052FF",
+              textDecoration: "none",
+              padding: "14px",
+              fontSize: "14px",
+              backgroundColor: "#0052FF",
+              hover: {
+                opacity: 1,
+                backgroundColor: "transparent",
+              },
+              focus: {
+                opacity: 1,
+                backgroundColor: "transparent",
+              },
+            }}
+          >
+            {i18n.content("TSHAPE.BUTTON.DOWNLOAD_T_FILE")}
+          </Link>
+        )}
         <Link
           href="/"
           styleSheet={{
