@@ -21,6 +21,7 @@ jobs:
     - name: Call Script
       run: |
         echo "[START]"
+        git pull
         git config --global user.name "${{ env.COMMIT_USERNAME }}"
         git config --global user.email ${{ env.COMMIT_EMAIL }}
         yarn install
@@ -28,5 +29,5 @@ jobs:
         echo "[END]"
         git add .
         git commit -m "docs: update downloadable files" || echo "Up to date with main"
-        git push origin main --force
+        git push origin HEAD
         echo "[END]"
