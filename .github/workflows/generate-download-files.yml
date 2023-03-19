@@ -1,7 +1,8 @@
 name: Bot - Generate download files
+
 on:
-  schedule:
-    - cron: "0 * * * *"
+  pull_request:
+    types: [opened, synchronize]
 
 permissions: write-all
 
