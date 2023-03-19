@@ -15,10 +15,9 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
   const apolloClient = initializeApollo();
   const locale = (ctx.locale || SiteLocale.PtBr) as SiteLocale;
   const [username, repo, branch, path] = ctx.params.external as string[];
-  const URL = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/${path.replace(
-    "__",
-    "."
-  )}`;
+  const URL = `https://raw.githubusercontent.com/${username}/${repo}/${branch}/${path
+    .replaceAll("___", "/")
+    .replace("__", ".")}`;
 
   if (URL.includes("undefined")) {
     return {
@@ -103,6 +102,7 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
           ...data,
           guide,
           locale,
+          external: username,
         },
         revalidate: 60 * 60 * 24,
       },
