@@ -18,12 +18,12 @@ function CompaniesScreen() {
           <Container
             key={company.name}
             styleSheet={{
+              marginTop: "111px",
               background:
                 "linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%)",
               border: "1px solid #242A2E",
               backdropFilter: "blur(22.8691px)",
               borderRadius: "14px",
-              marginTop: "111px",
               padding: "0 30px 40px 30px",
             }}
           >
@@ -34,9 +34,9 @@ function CompaniesScreen() {
                 padding: "12px",
                 borderRadius: "14px",
                 backgroundColor: "#FFFFFF",
+                boxShadow: "0px 11.9189px 51.2514px #8AA2AA",
                 transform: "translate(0, -50%)",
                 margin: "0 auto",
-                boxShadow: "0px 11.9189px 51.2514px #8AA2AA",
               }}
             >
               <Image

@@ -126,10 +126,12 @@ export default {
   "MY.GENERATE_GUIDE": "Gerando seu guia...",
   "COMPANIES": [
     {
+      "githubUser": "bancodobrasil",
       "name": "Banco do Brasil",
       "logo": "/assets/image/company/bb.png",
       "description":
         "Estes guias foram criados pelo <strong>Banco do Brasil</strong> para te ajudar a descobrir caminhos e se tornar profissional <strong>&lt;em T&gt;</strong>.",
+      "guideDescription": "Este guia foi criado pelo <strong>Banco do Brasil</strong> para te ajudar a descobrir caminhos e se tornar profissional <strong>&lt;em T&gt;</strong>.",
       "guides": [
         {
           "title": "Mobile iOS",

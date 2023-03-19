@@ -36,6 +36,8 @@ export default function Menu() {
         </Link>
         <iframe
           src="https://ghbtns.com/github-btn.html?user=alura&repo=techguide&type=star&count=true"
+          frameBorder="0"
+          scrolling="0"
           width="110"
           height="30"
           title="GitHub"
