@@ -1,6 +1,7 @@
 # PHP
 ## Nivel 1
 - [ ] **PHP - Fundamentos**:
+   - PHP é uma linguagem de programação que permite aos desenvolvedores web criar conteúdo dinâmico que interage com bancos de dados. O PHP é basicamente usado para desenvolver aplicações de software baseadas na web.
    - Conhecer os tipos primitivos
    - Declarar variáveis
    - Usar estruturas condicionais ('if', 'else')
@@ -8,7 +9,10 @@
    - Usar estruturas de repetição e laços ('while', 'for')
    - Usar funções, passando parâmetros e argumentos
    - Manipular arrays e listas
-   - Aprender o conceito de Orientação a Objetos
+- [ ] **PHP - Coleções**:
+   - Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
+   - Aprender os usos e diferenças entre arrays, listas, pilhas, hash maps, heaps
+   - Trabalhar com Iterators, Geradores e Collections
 - [ ] **Conceitos de Orientação a Objetos**:
    - A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
    - Como funcionam objetos
@@ -21,23 +25,28 @@
    - Como funcionam interfaces
    - O que são abstrações
 - [ ] **PHP - Manipulação de Erros**:
+   - O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.
    - Tratar exceções pré-definidas
    - Uso de 'try' e 'catch'
    - Criar exceções específicas
+   - Aprender sobre error handlers
+   - Fazer o processo de Debug
 - [ ] **PHP - Persistência**:
    - O conceito de "persistência de dados" refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.
    - Conhecer o PDO
    - Fazer inserções, alterações e remoções em um banco de dados
    - Fazer consultas em um banco de dados usando filtros
 - [ ] **PHP - Arquivos e Streams**:
+   - Os 'streams' (fluxos) são a forma de generalizar operações com arquivos, rede, compressão de dados e outras que compartilhem um conjunto comum de funções e usos. Em sua definição mais simples, um stream é um objeto que exibe um comportamento 'streamable'. Ou seja, ele pode ser lido ou escrito de uma forma linear, e pode ser capaz de buscar uma localização arbitrária dentro do fluxo.
    - Abrir, ler e manipular arquivos
    - Aplicar wrappers e filtros nos streams
    - Usar streams
    - Conhecer encodings e character sets
+## Nivel 2
 - [ ] **PHP - Composer**:
+   - O Composer é uma ferramenta para o gerenciamento de dependências em PHP. Ele permite que você declare as bibliotecas das quais seu projeto depende e as gerenciará (instalar/atualizar) para você.
    - Gerenciar dependências
    - Incluir bibliotecas de terceiros
-## Nivel 2
 - [ ] **PHP - Testes**:
    - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
    - Usar testes unitários
@@ -45,6 +54,7 @@
    - Usar testes de comportamento (behavior)
    - Usar mocks
 - [ ] **PHP - MVC**:
+   - Model-view-controller (MVC) é um padrão de arquitetura de software comumente usado para desenvolver interfaces de usuário que dividem a lógica do programa relacionado em três elementos interligados. Isto é feito para separar as representações internas de informação das formas como a informação é apresentada para o usuário.
    - Entender o conceito do padrão MVC (Model-View-Controller)
    - Separar as responsabilidades entre as camadas MVC
 - [ ] **Laravel**:
@@ -52,7 +62,10 @@
    - Conhecer as características do framework Laravel
    - Trabalhar com rotas
    - Usar arquivos Blade
+   - Usar as suas funcionalidades ORM
+   - Lidar com injeção de dependências
 - [ ] **PHP - Symfony**:
+   - Symfony é um framework PHP de código aberto e de estrutura MVC que incorpora muitas funcionalidades e boas práticas de desenvolvimento do domínio PHP.
    - Conhecer as principais características do framework
    - Utilizar componentes
    - Definir recursos e rotas
@@ -65,6 +78,7 @@
    - Construir APIs em Laravel
    - Saber fazer requisições autenticadas para Web APIs
 - [ ] **PHP - XDebug**:
+   - Xdebug é uma extensão PHP que fornece recursos de depuração e criação de perfil.
    - Usar e aprimorar o var_dump com XDebug
    - Analisar e entender a stack (pilha) de execução
    - Depurar o código
@@ -76,13 +90,20 @@
    - Conhecer bibliotecas de programação reativa
    - Aprender sobre corrotinas
 - [ ] **PHP Funcional**:
+   - A programação funcional é um paradigma de programação baseado no uso de funções. As funções estão, de acordo com este paradigma, no epicentro de uma base de código.
    - Entender a fundo sobre funções em PHP
    - Conhecer funções de manipulação de arrays
    - Realizar composição de funções usando pipelines
 - [ ] **Object Calisthenics**:
+   - Object Calisthenics são basicamente exercícios de programação, como um conjunto de 9 regras para ajudar a escrever melhor o código orientado a objetos.
    - Conhecer as regras de Object Calisthenics
    - Simplificar classes e métodos
    - Manter o código mais curto e coeso
+- [ ] **Arquitetura de Microsserviços**:
+   - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
+   - Aprender o conceito de arquitetura planejada para microsserviços
+   - Realizar a comunicação usando APIs
+   - Melhorar a escalabilidade de um sistema
 - [ ] **Contêineres**:
    - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
    - O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.
@@ -92,6 +113,7 @@
    - Conhecer a plataforma Docker
    - Conhecer Kubernetes
 - [ ] **Reflection e atributos**:
+   - Os objetos de Reflection (reflexão) são usados para obter informações do tipo em tempo de execução. As classes que dão acesso aos metadados de um programa em execução estão no namespace System.Reflection.
    - Escrever código que lê as informações e metadados de objetos em tempo de execução
    - Obter nomes de classes em tempo de execução e criar objetos de uma classe
 ## Habilidade Auxiliar: Infraestrutura e boas práticas 
@@ -141,6 +163,11 @@
    - Conhecer e aplicar os principais Design Patterns
 - [ ] **Clean Architecture**:
    - A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.
+- [ ] **Conceitos de Design Orientado a Domínio (Domain-Driven Design - DDD)**:
+   - O Design Orientado a Domínio (DDD) é uma abordagem ao projeto e desenvolvimento de software que é primeiramente informado pelos requisitos de negócios. Os componentes do programa (objetos, classes, matrizes, etc.) indicam a indústria, setor ou domínio empresarial em que o negócio opera.
+   - Modelar domínios de forma efetiva
+   - Basear projetos complexos em modelos do domínio
+   - Conhecer os blocos de construção de DDD
 ## Habilidade Auxiliar: Front-end 
 - [ ] **HTML - Fundamentos**:
    - HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.

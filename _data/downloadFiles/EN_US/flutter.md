@@ -40,7 +40,7 @@
    - Error handling refers to the procedures for responding to and recovering from error conditions present in a software application. In other words, it is the process of anticipating, detecting, and resolving application, programming, or communication errors.
    - Understanding what errors and exceptions are in Dart
    - Learning how to use the `try-on-catch-finally` structure
-- [ ] **Flutter - APIs**:
+- [ ] **Flutter - Communication with APIs**:
    - An API is an interface that software developers use to programmatically interact with software components or resources outside of their own code. An even simpler definition is that an API is the part of a software component that is accessible to other components.
    - Understanding REST APIs
    - Learning the basic HTTP communication commands
