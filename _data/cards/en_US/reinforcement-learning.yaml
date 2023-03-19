@@ -1,0 +1,34 @@
+name: Reinforcement Learning
+logo: 
+short-description:
+key-objectives:
+  - Reinforcement Learning is an area of Machine Learning that is concerned with how intelligent agents should take action in an environment in order to maximize the notion of cumulative reward.
+  - Understanding the concepts of agent and reward
+  - Understanding the difference between positive and negative reinforcement
+  - Knowing the Markov Decision Process model
+  - Understanding the concept of Feedback
+  - Using the Q-learning algorithm
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "GeeksForGeeks: Reinforcement Learning"
+    link: https://www.geeksforgeeks.org/what-is-reinforcement-learning/
+  - type: ARTICLE
+    title: "Reinforcement Learning 101"
+    link: https://towardsdatascience.com/reinforcement-learning-101-e24b50e1d292
+  - type: ARTICLE
+    title: "Pathmind: A Beginner's Guide to Deep Reinforcement Learning"
+    link: https://wiki.pathmind.com/deep-reinforcement-learning
+  - type: YOUTUBE
+    title: "Arxiv Insights: An introduction to Reinforcement Learning"
+    link: https://www.youtube.com/watch?v=JgvyzIkgxF0
+  - type: YOUTUBE
+    title: "Nicholas Renotte: Reinforcement Learning in 3 Hours | Full Course using Python"
+    link: https://www.youtube.com/watch?v=alX2JJoosIM
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Reinforcement Learning Course - Full Machine Learning Tutorial"
+    link: https://www.youtube.com/watch?v=ELE2_Mftqoc
+  - type: YOUTUBE
+    title: "Stanford Online: Stanford CS234 - Reinforcement Learning"
+    link: https://www.youtube.com/playlist?list=PLoROMvodv4rOSOPzutgyCTapiGlY2Nd8u
+alura-contents:

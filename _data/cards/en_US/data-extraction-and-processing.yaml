@@ -2,6 +2,7 @@ name: Data Extraction and Processing
 logo: 
 short-description:
 key-objectives:
+  - Data extraction is the process of collecting or retrieving disparate types of data from a variety of sources, many of which may be poorly organized or completely unstructured.
   - Obtaining the data to be analyzed
   - Treating the obtained data, transforming it, changing its structure and values in order to make the database more coherent and ensure that the data to be worked on is in the best conditions to be analyzed
   - Using the Pandas and Scikit-learn libraries to treat the data

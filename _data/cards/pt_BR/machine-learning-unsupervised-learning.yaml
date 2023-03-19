@@ -2,6 +2,7 @@ name: Machine Learning - Aprendizado Não Supervisionado
 logo: 
 short-description:
 key-objectives:
+  - O Aprendizado Não Supervisionado utiliza algoritmos de Aprendizado de Máquina para analisar e agrupar conjuntos de dados não rotulados. Estes algoritmos descobrem padrões ocultos ou agrupamentos de dados sem a necessidade de intervenção humana.
   - O clustering ou análise de agrupamento de dados é o conjunto de técnicas de prospecção de dados (data mining) que visa fazer agrupamentos automáticos de dados segundo o seu grau de semelhança.
   - Conhecer a análise exploratória
   - Utilizar os métodos K-means, DBSCAN e Mean shift para agrupar dados sem classificação

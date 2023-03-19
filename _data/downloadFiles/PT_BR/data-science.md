@@ -1,4 +1,4 @@
-# Data Scientist
+# Data Science
 ## Nivel 1
 - [ ] **Ciência de Dados - Fundamentos**:
    - A Ciência de Dados é o ato de utilizar algoritmos e sistemas para extrair, organizar e analisar dados a partir de diversas fontes, a fim de detectar padrões e tomar decisões de negócios. As áreas de aplicação são infindáveis, como em negócios, biologia, medicina, engenharia, etc.

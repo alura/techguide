@@ -1,0 +1,48 @@
+name: Machine Learning - Unsupervised Learning
+logo: 
+short-description:
+key-objectives:
+  - Unsupervised learning, also known as unsupervised machine learning, uses machine learning algorithms to analyze and cluster unlabeled datasets. These algorithms discover hidden patterns or data groupings without the need for human intervention.
+  - Clustering is the set of data mining techniques that aim to automatically group data according to their degree of similarity.
+  - Knowing exploratory analysis
+  - Using K-means, DBSCAN and Mean shift methods to cluster unclassified data
+  - Evaluating the quality of a clustering
+  - Parameterizing clustering methods using the maximum silhouette coefficient
+  - Understanding the mathematics behind the Silhouette, Davies Bouldin and Calinski Harabasz validation metrics
+  - Knowing dimensionality reduction techniques
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "IBM: What is unsupervised learning?"
+    link: https://www.ibm.com/topics/unsupervised-learning
+  - type: ARTICLE
+    title: "Unsupervised learning demystified"
+    link: https://medium.com/hackernoon/unsupervised-learning-demystified-4060eecedeaf
+  - type: ARTICLE
+    title: "Unsupervised Learning and Data Clustering"
+    link: https://towardsdatascience.com/unsupervised-learning-and-data-clustering-eeecb78b422a
+  - type: ARTICLE
+    title: "Understanding K-means Clustering in Machine Learning"
+    link: https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1
+  - type: ARTICLE
+    title: "Unsupervised Learning with k-means Clustering With Large Datasets"
+    link: https://odsc.medium.com/unsupervised-learning-with-k-means-clustering-with-large-datasets-85c7e96ad715
+  - type: ARTICLE
+    title: "How DBSCAN works and why should we use it?"
+    link: https://towardsdatascience.com/how-dbscan-works-and-why-should-i-use-it-443b4a191c80
+  - type: YOUTUBE
+    title: "CrashCourse: Unsupervised Learning - Crash Course AI"
+    link: https://www.youtube.com/watch?v=JnnaDNNb380
+  - type: YOUTUBE
+    title: "Simplilearn: Unsupervised Learning Algorithms"
+    link: https://www.youtube.com/watch?v=D6gtZrsYi6c
+  - type: YOUTUBE
+    title: "Simplilearn: K-Means Clustering Algorithm"
+    link: https://www.youtube.com/watch?v=Xvwt7y2jf5E
+  - type: YOUTUBE
+    title: "codebasics: Machine Learning Tutorial Python | K-Means Clustering Algorithm"
+    link: https://www.youtube.com/watch?v=EItlUEPCIzM
+  - type: YOUTUBE
+    title: "Greg Hogg: DBSCAN Clustering Coding Tutorial in Python & Scikit-Learn"
+    link: https://www.youtube.com/watch?v=VO_uzCU_nKw
+alura-contents:

@@ -36,7 +36,7 @@ interface LinkProps {
 }
 function Link({ href, children, styleSheet, ...props }: LinkProps) {
   const locale = useI18nLocale();
-  const isExternalURL = href.startsWith("http");
+  const isExternalURL = href?.startsWith("http");
   const hrefNormalized = withLocalePrefix(href, locale, isExternalURL);
 
   return (

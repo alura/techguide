@@ -1,0 +1,36 @@
+name: Web Scraping
+logo: 
+short-description:
+key-objectives:
+  - Web scraping or web data scraping is the extraction of data from websites.
+  - Using BeautifulSoup and Python to collect data
+  - Searching and browsing the HTML
+  - Accessing the content and attributes of HTML tags
+  - Building datasets with scraping results
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Real Python: A Practical Introduction to Web Scraping in Python"
+    link: https://realpython.com/python-web-scraping-practical-introduction/
+  - type: ARTICLE
+    title: "Python Web Scraping Tutorial: Step-By-Step"
+    link: https://oxylabs.io/blog/python-web-scraping
+  - type: ARTICLE
+    title: "Web Scraping With Python: Everything You Need To Know"
+    link: https://www.scrapingbee.com/blog/web-scraping-101-with-python/
+  - type: ARTICLE
+    title: "Data Science Skills: Web scraping using Python"
+    link: https://towardsdatascience.com/data-science-skills-web-scraping-using-python-d1a85ef607ed
+  - type: ARTICLE
+    title: "Web Scraping with Python and BeautifulSoup"
+    link: https://medium.com/incedge/web-scraping-bf2d814cc572
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Web Scraping with Python - Beautiful Soup Crash Course"
+    link: https://www.youtube.com/watch?v=XVv6mJpFOb0
+  - type: YOUTUBE
+    title: "Tinkernut: Beginners Guide To Web Scraping with Python - All You Need To Know"
+    link: https://www.youtube.com/watch?v=QhD015WUMxE
+  - type: YOUTUBE
+    title: "Python Simplified: Web Scraping with Pandas - Automatically Extract All Table Elements From a Web Page"
+    link: https://www.youtube.com/watch?v=oF-EMiPZQGA
+alura-contents:

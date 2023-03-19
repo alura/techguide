@@ -1,8 +1,8 @@
-name: Data Scientist
+name: Data Science
 tags: 
   - data
 expertise:
-  - name: Data Scientist Jr
+  - name: Data Science Jr
     cards:
       - data-science-fundamentals:
         priority: 10
@@ -12,30 +12,30 @@ expertise:
         priority: 10
       - python-for-data-science:
         priority: 10
-      - jupyter-colaboratory:
-        priority: 10
+      - jupyter-and-colaboratory:
+        priority: 9
       - r-for-data-science:
-        priority: 10
+        priority: 9
         optional: true
       - statistics-and-math-fundamentals:
         priority: 10
       - data-visualization:
         priority: 8
-  - name: Data Scientist Mid
+  - name: Data Science Mid
     cards:
       - machine-learning-fundamentals:
-        priority: 9
+        priority: 10
       - machine-learning-unsupervised-learning:
         priority: 10
       - machine-learning-model-evaluation:
-        priority: 10
+        priority: 9
       - sql-fundamentals:
         priority: 9
       - web-scraping:
         priority: 7
       - statistical-tests:
         priority: 7
-  - name: Data Scientist in depth
+  - name: Data Science in depth
     cards:
       - deep-learning:
         priority: 9
@@ -58,14 +58,14 @@ collaboration:
         priority: 7
   - name: Business
     cards:
-      - communication-skills:
-        priority: 9
       - business-process-management:
         priority: 9
-      - business-intelligence:
+      - business-intelligence-fundamentals:
         priority: 8
       - storytelling-with-data:
         priority: 8
       - excel:
         priority: 6
         optional: true
+      - communication-skills:
+        priority: 7
