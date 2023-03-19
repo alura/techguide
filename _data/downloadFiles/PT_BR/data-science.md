@@ -8,12 +8,14 @@
    - Saber o que são variáveis categóricas nominais e ordinais
    - Explorar os dados em Python com as bibliotecas Pandas, Matplotlib, Seaborn e Numpy
 - [ ] **Feature Engineering**:
+   - Feature Engineering (Engenharia de atributos/características) refere-se ao processo de usar o conhecimento de domínio para selecionar e transformar as variáveis mais relevantes dos dados brutos ao criar um modelo preditivo usando aprendizado de máquina ou modelagem estatística, a fim de melhorar o desempenho dos algoritmos de aprendizado de máquina.
    - Gerar novas variáveis a partir dos dados disponíveis
    - Transformar dados brutos em características
    - Realçar os problemas dos modelos preditivos
    - Melhorar a precisão do modelo para novos dados
    - Selecionar e criar features utilizando as bibliotecas Pandas e Scikit-learn
 - [ ] **Extração e Tratamento de Dados**:
+   - A extração de dados é o processo de coleta ou recuperação de tipos diferentes de dados de uma variedade de fontes, muitos dos quais podem estar mal organizados ou completamente desestruturados.
    - Obter os dados que serão analisados
    - Tratar os dados obtidos, transformando-os, alterando sua estrutura e valores a fim de deixar a base de dados mais coerente e garantir que os dados que serão trabalhados estejam nas melhores condições para serem analisados
    - Utilizar as bibliotecas Pandas e Scikit-learn para tratar os dados
@@ -26,11 +28,11 @@
    - Usar e manipular listas para agrupar dados
    - Conhecer a biblioteca NumPy
    - Conhecer a biblioteca Pandas
-- [ ] **Jupyter e Colab**:
+- [ ] **Jupyter & Colab notebooks**:
    - Jupyter Notebook e Google Colaboratory são Notebooks que permitem a criação de blocos de texto e blocos de código
    - Os Notebooks facilitam a elaboração de projetos de Data Science por ser possível visualizar o resultado da execução logo após o trecho de código
    - O Google Colaboratory permite escrever e executar códigos Python diretamente no navegador, sem nenhuma ou poucas configurações necessárias
-   - Eles facilitam o compartilhamento de projetos entre o time
+   - Essas ferramentas facilitam o compartilhamento de projetos entre o time
 - [ ] **R para Ciência de Dados**:
    - R é uma linguagem de programação comumente usada em estatística computacional e análise de dados.
    - Aprender a analisar, limpar e visualizar dados
@@ -55,6 +57,7 @@
    - A visualização de dados é uma expressão contemporânea da comunicação visual que consiste na representação visual de dados.
    - Mapear dados abstratos em representações visuais
    - Representar visualmente os dados que estão presentes no nosso mundo real
+   - Usar Python, Matplotlib and Seaborn para gerar visualizações de dados
 ## Nivel 2
 - [ ] **Machine Learning - Fundamentos**:
    - O Aprendizado de Máquina ou Machine Learning é um subcampo da Engenharia e da Ciência da Computação que evoluiu do estudo de reconhecimento de padrões e da teoria do aprendizado computacional em inteligência artificial.
@@ -63,6 +66,7 @@
    - Utilizar algoritmos de regressão
    - Utilizar o Scikit-learn para criar modelos de machine learning
 - [ ] **Machine Learning - Aprendizado Não Supervisionado**:
+   - O Aprendizado Não Supervisionado utiliza algoritmos de Aprendizado de Máquina para analisar e agrupar conjuntos de dados não rotulados. Estes algoritmos descobrem padrões ocultos ou agrupamentos de dados sem a necessidade de intervenção humana.
    - O clustering ou análise de agrupamento de dados é o conjunto de técnicas de prospecção de dados (data mining) que visa fazer agrupamentos automáticos de dados segundo o seu grau de semelhança.
    - Conhecer a análise exploratória
    - Utilizar os métodos K-means, DBSCAN e Mean shift para agrupar dados sem classificação
@@ -71,10 +75,10 @@
    - Entender a matemática por trás das métricas de validação Silhouette, Davies Bouldin e Calinski Harabasz
    - Conhecer técnicas de redução de dimensionalidade
 - [ ] **Machine Learning - Avaliação de Modelos**:
-   - O uso de métricas de avaliação nos ajuda a identificar se um modelo treinado terá um bom desempenho de previsão quando exposto a novos conjuntos de dados.
+   - A Avaliação de Modelos é o processo que utiliza métricas para nos ajudar a analisar se um modelo treinado terá um bom desempenho de previsão quando exposto a novos conjuntos de dados.
    - Conhecer diferentes estratégias de avaliação e otimização de modelos
    - Utilizar um pipeline para treino e validação
-   - Métricas de avaliação de modelos de machine learning
+   - Conhecer as principais métricas de avaliação de modelos de machine learning
 - [ ] **SQL - Fundamentos**:
    - SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.
    - Conhecer os comandos mais comuns do SQL
@@ -91,6 +95,7 @@
    - Acessar o conteúdo e atributos das tags HTML
    - Construir datasets com os resultados das raspagens
 - [ ] **Testes Estatísticos**:
+   - Testes estatísticos são usados para examinar as relações entre as variáveis e as hipóteses de teste.
    - Criar intervalos de confiança para amostras
    - Comparar grupos de amostras
    - Executar testes estatísticos
@@ -121,6 +126,7 @@
    - Construir classificadores para reconhecimento de faces
    - Extrair regiões do rosto humano baseado em marcos faciais
    - Analisar diferentes condições de cada componente do rosto humano
+   - Usar OpenCV
 - [ ] **Processamento de Linguagem Natural**:
    - Processamento de língua natural (PLN) é uma subárea da inteligência artificial e da linguística que estuda os problemas da geração e compreensão automática de línguas humanas naturais.
    - Análise de Sentimento
@@ -154,7 +160,7 @@
    - Clonar um repositório
    - Fazer commit, push e pull de e para o repositório
    - Reverter um commit
-   - Criar branches e pull requests
+   - Criar branches e pul requests
    - Lidar com merge e conflitos
 - [ ] **Linux - Fundamentos**:
    - Linux é um termo popularmente empregado para se referir a sistemas operacionais que utilizam o Kernel Linux. As distribuições incluem o Kernel Linux, além de softwares de sistema e bibliotecas.
@@ -166,11 +172,9 @@
    - Gerenciar pacotes
    - Realizar comunicação remota com o SSH e SCP
 ## Habilidade Auxiliar: Business 
-- [ ] **Habilidades de comunicação**:
-   - Um bom nível de comunicação facilita o atingimento de objetivos, resolução de problemas, além de aumentar a produtividade, porque cada profissional saberá exatamente o que se espera dele e transmitir com clareza suas ideias.
 - [ ] **Gestão de Processos de Negócios**:
    - A Gestão de Processos de Negócios (BPM) é a um disciplina que utiliza vários métodos para descobrir, modelar, analisar, medir, melhorar, otimizar e automatizar processos de negócios.
-- [ ] **Business Intelligence**:
+- [ ] **Business Intelligence (BI) - Fundamentos**:
    - Business Intelligence é um conjunto de teorias, metodologias, processos e tecnologias que possibilitam a transformação dos dados “crus” em informações extremamente relevantes para tomada de decisão de uma empresa.
    - Conhecer o processo de ETL
    - Realizar a modelagem e estruturação de tabelas em um Data Warehouse
@@ -183,4 +187,6 @@
    - Realizar as operações matemáticas básicas com seus operadores (soma, subtração, multiplicação e divisão)
    - Conhecer as principais fórmulas, como 'MÉDIA' (AVERAGE), 'ARRED' (ROUND), 'MÁXIMO' (MAX), 'MÍNIMO' (MIN), etc
    - Realizar buscas em colunas com a função 'PROCV'
-   - Realizar
+   - Criar gráficos
+- [ ] **Habilidades de comunicação**:
+   - Um bom nível de comunicação facilita o atingimento de objetivos, resolução de problemas, além de aumentar a produtividade, porque cada profissional saberá exatamente o que se espera dele e transmitir com clareza suas ideias.
