@@ -6,7 +6,7 @@ on:
 permissions: write-all
 
 env: 
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_TOKEN: ${{ secrets.GH_GLOBAL_TOKEN }}
   COMMIT_USERNAME: "CI Bot - DevSoutinho"
   COMMIT_EMAIL: "13791385+omariosouto@users.noreply.github.com"
 
