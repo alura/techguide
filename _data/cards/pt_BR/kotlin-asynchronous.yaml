@@ -1,25 +1,25 @@
-name: Android - Execução assíncrona
+name: Kotlin - Assíncrono
 logo: 
 short-description:
 key-objectives:
-  - Existem códigos em Apps que podem demorar, em situações como essa, corremos o risco do App travar por não conseguir rodar as demais instruções até que a instrução que demora ainda não foi finalizada. Para lidar com situações como essa, utilizamos técnicas para rodar o nosso código de maneira assíncrona.
+  - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
   - Aprender as possibilidades para rodar o código de maneira assíncrona no Android
   - Conhecer o pacote java.concurrent e as suas soluções
   - Utilizar Coroutines como uma solução de código assíncrono no Kotlin
-  - Entender e usar estruturas reativas como LiveData, Flow, StateFlow, RX etc
+  - Entender e usar estruturas reativas como LiveData, Flow, StateFlow, RX, etc
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Corrotinas do Kotlin no Android"
+    title: "Documentação Android: Corrotinas do Kotlin no Android"
     link: https://developer.android.com/kotlin/coroutines?hl=pt-br
   - type: SITE
-    title: "Fluxos em Kotlin no Android"
+    title: "Documentação Android: Fluxos em Kotlin no Android"
     link: https://developer.android.com/kotlin/flow?hl=pt-br
   - type: SITE
-    title: "StateFlow e SharedFlow"
+    title: "Documentação Android: StateFlow e SharedFlow"
     link: https://developer.android.com/kotlin/flow/stateflow-and-sharedflow?hl=pt-br
   - type: SITE
-    title: "Visão geral do LiveData"
+    title: "Documentação Android: Visão geral do LiveData"
     link: https://developer.android.com/topic/libraries/architecture/livedata?hl=pt-br
   - type: ARTICLE
     title: "Introdução ao RX Java com Kotlin"

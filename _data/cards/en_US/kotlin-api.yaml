@@ -1,0 +1,30 @@
+name: Kotlin - Communication with APIs
+logo: 
+short-description:
+key-objectives:
+  - An API is an interface that software developers use to programmatically interact with software components or resources outside of their own code. An even simpler definition is that an API is the part of a software component that is accessible to other components.
+  - Performing HTTP requests to communicate with online services such as REST API is fundamental to most Android apps. As such, it is important to know the main tools and techniques needed for this type of functionality.
+  - Knowing the most famous libraries in the Android world for making requests - Retrofit, Ktor or Volley
+  - Setting up requests to execute asynchronously
+  - Converting objects to JSON and vice-versa
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Connect to the network"
+    link: https://developer.android.com/training/basics/network-ops/connecting
+  - type: ARTICLE
+    title: "Android Volley in 5 mins"
+    link: https://medium.com/@myofficework000/android-volley-in-5-mins-c6c8a62f6796
+  - type: ARTICLE
+    title: "Connect android app to the network using HttpUrlConnection with Kotlin"
+    link: https://medium.com/@ajay.dewari/connect-android-app-to-the-network-using-httpurlconnection-79a55c8c624e
+  - type: ARTICLE
+    title: "Kotlin and Retrofit 2: Tutorial with working codes"
+    link: https://medium.com/mobile-app-development-publication/kotlin-and-retrofit-2-tutorial-with-working-codes-333a4422a890
+  - type: YOUTUBE
+    title: "Coder: How to make API calls using Android Volley Library | Kotlin"
+    link: https://www.youtube.com/watch?v=pfqc7ajaLNE
+  - type: YOUTUBE
+    title: "Philipp Lackner: The Ultimate Retrofit Crash Course"
+    link: https://www.youtube.com/watch?v=t6Sql3WMAnk
+alura-contents:

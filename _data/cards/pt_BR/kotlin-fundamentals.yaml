@@ -2,7 +2,7 @@ name: Kotlin - Fundamentos
 logo: 
 short-description:
 key-objectives:
-  - A linguagem Kotlin cada vez mais cresce no mercado, seja pela adoção no ambiente Android, como também, na presença em outras plataformas. Muitas pessoas e empresas cada vez mais estão interessadas em desenvolver produtos em Kotlin, ou seja, é muito importante conhecer os fundamentos e técnicas específicas que a linguagem provê
+  - Kotlin é uma linguagem de programação multiplataforma, orientada a objetos, funcional e estaticamente tipada. Ela compila para a máquina virtual Java e também pode ser traduzida para a linguagem JavaScript e compilada para código nativo (via LLVM). É a linguagem oficial do sistema Android da Google.
   - Entender a sua sintaxe
   - Conhecer os tipos primitivos
   - Declarar e usar variáveis e constantes
@@ -19,16 +19,16 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Começando com Kotlin (inglês)"
+    title: "Documentação Kotlin: Começando com Kotlin (inglês)"
     link: https://kotlinlang.org/docs/getting-started.html
   - type: SITE
-    title: "Tipos Básicos e Kotlin (inglês)"
+    title: "Documentação Kotlin: Tipos Básicos e Kotlin (inglês)"
     link: https://kotlinlang.org/docs/basic-types.html
   - type: SITE
-    title: "Sintaxe básica do Kotlin(inglês)"
+    title: "Documentação Kotlin: Sintaxe básica do Kotlin(inglês)"
     link: https://kotlinlang.org/docs/basic-syntax.html
   - type: SITE
-    title: "Convenções de código do Kotlin(inglês)"
+    title: "Documentação Kotlin: Convenções de código do Kotlin (inglês)"
     link: https://kotlinlang.org/docs/coding-conventions.html
   - type: ARTICLE
     title: "Kotlin - Variáveis e Nullable"
@@ -36,9 +36,6 @@ contents:
   - type: YOUTUBE
     title: "Kotlin // Dicionário do Programador"
     link: https://youtu.be/BfjRYBN7Ur8
-  - type: YOUTUBE
-    title: "Curso de Kotlin (inglês)"
-    link: https://youtu.be/F9UC9DY-vIU
 alura-contents:
   - type: YOUTUBE
     title: "Desenvolvimento de apps mobile com Kotlin | Hipsters.Talks"

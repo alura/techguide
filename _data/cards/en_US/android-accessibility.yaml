@@ -1,0 +1,22 @@
+name: Android - Acessibility
+logo: 
+short-description:
+key-objectives:
+  - Web accessibility is the elimination of barriers on the web. The concept assumes that websites and applications are designed so that all people can effectively perceive, understand, navigate, and interact with pages, including people with accessibility needs, such as those with vision impairments, color blindness, hearing impairments, motor impairments, cognitive disabilities, and many other types of disabilities.
+  - Increasing the visibility of text
+  - Using large, simple controls
+  - Describing each UI element
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Make apps more accessible"
+    link: https://developer.android.com/guide/topics/ui/accessibility/apps
+  - type: SITE
+    title: "Android Documentation: Principles for improving app accessibility"
+    link: https://developer.android.com/guide/topics/ui/accessibility/principles
+  - type: SITE
+    title: "Android Documentation: Test your app's accessibility"
+    link: https://developer.android.com/guide/topics/ui/accessibility/testing
+  - type: YOUTUBE
+    title: "Android Developers: Accessibility on Android"
+    link: https://www.youtube.com/playlist?list=PLWz5rJ2EKKc8OENfLdh3zM5T6IRdlVYKj

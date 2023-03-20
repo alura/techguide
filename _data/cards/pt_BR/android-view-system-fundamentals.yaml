@@ -2,10 +2,11 @@ name: Android - Sistema de View
 logo: 
 short-description:
 key-objectives:
+  - A classe View representa o bloco básico de construção dos componentes de interface do usuário em Android.
   - Conhecer a referência View e ViewGroup para definir um Layout
-  - Saber as principais ViewGroups para construir layouts - LinearLayout, RelativeLayout, FrameLayout e ConstraintLayout.
-  - Usar o editor visual de Layout para personalizar a tela, ou então, utilizar o arquivo XML para a edição.
-  - Conhecer o Preview do editor visual e usá-lo para preparar as telas e componentes do App.
+  - Saber as principais ViewGroups para construir layouts - LinearLayout, RelativeLayout, FrameLayout e ConstraintLayout
+  - Usar o editor visual de Layout para personalizar a tela, ou então, utilizar o arquivo XML para a edição
+  - Conhecer o Preview do editor visual e usá-lo para preparar as telas e componentes do App
   - Utilizar as Views do SDK do Android - TextView, Button, EditText, CheckBox, DatePicker etc
   - Criar Views personalizadas para atender demandas específicas
   - Personalizar as Views com propriedades do Android ou da própria View - Ajustes de altura, largura, visibilidade, espaçamento
@@ -15,19 +16,16 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Layouts"
+    title: "Documentação Android: Layouts"
     link: https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br
   - type: SITE
-    title: "Layouts (ViewGroups) comuns"
+    title: "Documentação Android: Layouts (ViewGroups) comuns"
     link: https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br#CommonLayouts
   - type: SITE
-    title: "Layouts (ViewGroups) comuns"
-    link: https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br#CommonLayouts
-  - type: SITE
-    title: "Criar uma IU com o Layout Editor"
+    title: "Documentação Android: Criar uma IU com o Layout Editor"
     link: https://developer.android.com/studio/write/layout-editor?hl=pt-br
   - type: SITE
-    title: "Criar uma IU responsiva com o ConstraintLayout"
+    title: "Documentação Android: Criar uma IU responsiva com o ConstraintLayout"
     link: https://developer.android.com/training/constraint-layout?hl=pt-br
   - type: ARTICLE
     title: "Android View: Prólogo"
@@ -36,9 +34,11 @@ contents:
     title: "Listas com RecyclerView"
     link: https://medium.com/android-dev-br/listas-com-recyclerview-d3f41e0d653c
   - type: SITE
-    title: "Visão geral dos eventos de entrada"
+    title: "Documentação Android: Visão geral dos eventos de entrada"
     link: https://developer.android.com/guide/topics/ui/ui-events?hl=pt-br
-
+  - type: YOUTUBE
+    title: "Vinícius Thiengo: View - Entendendo os Componentes Visuais no Android"
+    link: https://www.youtube.com/watch?v=2b18zJmkKKU
 alura-contents:
   - type: ARTICLE
     title: "View Binding Android"

@@ -3,7 +3,7 @@ logo:
 short-description:
 key-objectives:
   - Conhecer Kotlin, Java ou C++ que são as linguagens para desenvolver Apps Android.
-  - Entender o SDK do Android empacota o código e recursos do App em um APK (Android Package - Pacote Android) para rodar no SO do Android
+  - Entender como o SDK do Android empacota o código e recursos do App em um APK (Android Package - Pacote Android) para rodar no SO do Android
   - Saber os componentes de entrada de um App - Activity, Service, Broadcast Receiver e Content Provider
   - Compreender os ciclos de vida de componentes do Android e como funcionam - O ciclo de vida de uma Activity
   - Ativar componentes de entrada do App com Intents
@@ -14,33 +14,33 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Fundamentos de aplicativos"
+    title: "Documentação Android: Fundamentos de aplicativos"
     link: https://developer.android.com/guide/components/fundamentals?hl=pt-br
   - type: SITE
-    title: "Componentes de aplicativo"
+    title: "Documentação Android: Componentes de aplicativo"
     link: https://developer.android.com/guide/components/fundamentals?hl=pt-br#Components
   - type: SITE
-    title: "Ativação de componentes"
+    title: "Documentação Android: Ativação de componentes"
     link: https://developer.android.com/guide/components/fundamentals?hl=pt-br#ActivatingComponents#Components
   - type: SITE
-    title: "Visão geral do manifesto do aplicativo"
+    title: "Documentação Android: Visão geral do manifesto do aplicativo"
     link: https://developer.android.com/guide/topics/manifest/manifest-intro?hl=pt-br
   - type: SITE
-    title: "Visão geral dos recursos do aplicativo"
+    title: "Documentação Android: Visão geral dos recursos do aplicativo"
     link: https://developer.android.com/guide/topics/resources/providing-resources?hl=pt-br
   - type: SITE
-    title: "Criar seu primeiro App Android"
+    title: "Documentação Android: Criar seu primeiro App Android"
     link: https://developer.android.com/training/basics/firstapp?hl=pt-br
   - type: SITE
-    title: "Acessar as bibliotecas do Jetpack por tipo"
+    title: "Documentação Android: Acessar as bibliotecas do Jetpack por tipo"
     link: https://developer.android.com/jetpack/androidx/explorer
 alura-contents:
   - type: ARTICLE
     title: "Criando o primeiro app Android"
     link: https://www.alura.com.br/artigos/criando-o-primeiro-app-android
-  - type: COURSE
-    title: "Android com Kotlin criando um app"
-    link: https://cursos.alura.com.br/course/fundamentos-android-kotlin
   - type: ARTICLE
     title: "Activity Lifecycle: por que você deve conhecer sobre o ciclo de vida da Activity"
     link: https://www.alura.com.br/artigos/activity-lifecycle-por-que-conhecer-ciclo-de-vida-activity
+  - type: COURSE
+    title: "Android com Kotlin criando um app"
+    link: https://cursos.alura.com.br/course/fundamentos-android-kotlin

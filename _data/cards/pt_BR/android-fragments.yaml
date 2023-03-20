@@ -3,22 +3,22 @@ logo:
 short-description:
 key-objectives:
   - Um Fragment representa o comportamento ou uma parte da interface do usuário em uma Activity hospedeira. É possível combinar vários fragmentos em uma única Activity para criar uma IU de vários painéis e reutilizar um fragmento em diversas atividades. Você pode imaginar um fragment como uma seção modular de uma Activity, que tem o próprio ciclo de vida, recebe os próprios eventos de entrada e que pode ser adicionada ou removida durante a execução da Activity.
-  - O que é um Fragment.
-  - Como usar e reutilizar Fragments na mesma Activity.
-  - Entender os motivos para utilizar Fragments em projetos Android.
-  - Implementar layouts com múltiplos painéis.
-  - Migrar projetos Android que utilizam apenas Activities para utilizar fragments.
-  - Lidar com transações do gerenciador de fragments.
+  - Entender o que é um Fragment
+  - Como usar e reutilizar Fragments na mesma Activity
+  - Entender os motivos para utilizar Fragments em projetos Android
+  - Implementar layouts com múltiplos painéis
+  - Migrar projetos Android que utilizam apenas Activities para utilizar fragments
+  - Lidar com transações do gerenciador de fragments
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Fragmentos | Desenvolvedores Android"
+    title: "Documentação Android: Fragmentos"
     link: https://developer.android.com/guide/components/fragments?hl=pt-br  
   - type: SITE
-    title: "Ciclo de Vida dos Fragments (inglês)"
+    title: "Documentação Android: Ciclo de Vida dos Fragments (inglês)"
     link: https://developer.android.com/guide/fragments/lifecycle?hl=pt-br
   - type: SITE
-    title: "Filosofia de projeto com Fragments"
+    title: "Documentação Android: Filosofia de projeto com Fragments"
     link: https://developer.android.com/guide/components/fragments?hl=pt-br#Design
   - type: ARTICLE
     title: "Aprenda a Usar os Fragments em 4 Passos"

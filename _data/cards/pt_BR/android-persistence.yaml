@@ -1,30 +1,33 @@
-name: Android - Persistência de dados
+name: Android - Persistência
 logo: 
 short-description:
 key-objectives:
-  - Armazenar dados do usuário é fundamental para garantir que o progresso seja mantido. Seja salvar informações simples texto, números, ou então, arquivos ou dados estruturados (informações organizadas em tabelas).
+  - O conceito de "persistência de dados" refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.
   - No Android podemos armazenar de maneira persistente arquivos específicos ou para o App ou compartilhado, informações de tipo primitivo com preferências e dados estruturados com banco de dados.
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Visão geral do armazenamento de dados e arquivos"
+    title: "Documentação Android: Visão geral do armazenamento de dados e arquivos"
     link: https://developer.android.com/training/data-storage?hl=pt-br
   - type: SITE
-    title: "Acessar arquivos específicos do app"
+    title: "Documentação Android: Acessar arquivos específicos do app"
     link: https://developer.android.com/training/data-storage/app-specific?hl=pt-br
   - type: SITE
-    title: "Visão geral do armazenamento compartilhado"
+    title: "Documentação Android: Visão geral do armazenamento compartilhado"
     link: https://developer.android.com/training/data-storage/shared?hl=pt-br
   - type: SITE
-    title: "Salvar dados de chave-valor"
+    title: "Documentação Android: Salvar dados de chave-valor"
     link: https://developer.android.com/training/data-storage/shared-preferences?hl=pt-br
   - type: SITE
-    title: "Salvar dados em um banco de dados local usando o Room"
+    title: "Documentação Android: Salvar dados em um banco de dados local usando o Room"
     link: https://developer.android.com/training/data-storage/room?hl=pt-br
   - type: YOUTUBE
-    title: "LIVE #010 - Room Database: Introdução a Persistência de Dados com Kotlin localmente - PARTE 1"
+    title: "Kaique Ocanha - Aulas de Android: LIVE #010 - Room Database - Introdução a Persistência de Dados com Kotlin localmente"
     link: https://www.youtube.com/watch?v=JQ_isBkRWzc
 alura-contents:
+  - type: ARTICLE
+    title: "Salvando informações com o Shared Preferences"
+    link: https://www.alura.com.br/artigos/salvando-informacoes-com-o-shared-preferences
   - type: COURSE
     title: "Android com Kotlin: persistência de dados com o Room"
     link: https://www.alura.com.br/curso-online-android-kotlin-persistencia-dados-room
@@ -34,6 +37,3 @@ alura-contents:
   - type: COURSE
     title: "Jetpack Compose: armazenamento de dados internos"
     link: https://www.alura.com.br/curso-online-jetpack-compose-armazenamento-dados-internos
-  - type: ARTICLE
-    title: "Salvando informações com o Shared Preferences"
-    link: https://www.alura.com.br/artigos/salvando-informacoes-com-o-shared-preferences

@@ -1,0 +1,54 @@
+name: Android - Architecture
+logo: 
+short-description:
+key-objectives:
+  - The Android architecture guide covers practices and recommended architecture for building robust apps with high production quality. Organizing your code base into contained and flexibly coupled parts (Modularization). 
+  - Learning what the MVVM (Model-View-ViewModel) architecture is
+  - UI, data and domain layers
+  - Data flow within the app
+  - How to use the ViewModel
+  - Architecture recommendations, repository pattern, offline-first
+  - State management
+  - Dependency injection
+  - Improving app user experience with ViewModel
+  - Learning what modularization is
+  - Benefits of modularization
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Guide to app architecture"
+    link: https://developer.android.com/topic/architecture
+  - type: SITE
+    title: "Android Documentation: ViewModel overview"
+    link: https://developer.android.com/topic/libraries/architecture/viewmodel
+  - type: SITE
+    title: "Android Documentation: UI layer"
+    link: https://developer.android.com/topic/architecture/ui-layer
+  - type: SITE
+    title: "Android Documentation: Domain layer"
+    link: https://developer.android.com/topic/architecture/domain-layer
+  - type: SITE
+    title: "Android Documentation: Data layer"
+    link: https://developer.android.com/topic/architecture/data-layer
+  - type: SITE
+    title: "Android Documentation: Build an offline-first app"
+    link: https://developer.android.com/topic/architecture/data-layer/offline-first
+  - type: SITE
+    title: "Android Documentation: Guide to Android app modularization"
+    link: https://developer.android.com/topic/modularization
+  - type: SITE
+    title: "Android Documentation: Recommendations for Android architecture"
+    link: https://developer.android.com/topic/architecture/recommendations
+  - type: YOUTUBE
+    title: "Philipp Lackner: MVVM in 100 Seconds"
+    link: https://www.youtube.com/watch?v=-xTqfilaYow
+  - type: YOUTUBE
+    title: "Indently: The ViewModel & LiveData Tutorial in Android Studio (Kotlin)"
+    link: https://www.youtube.com/watch?v=N7J27pBTtuI
+  - type: YOUTUBE
+    title: "Stevdza-San: LiveData Explained - Android Architecture Component"
+    link: https://www.youtube.com/watch?v=suC0OM5gGAA
+  - type: YOUTUBE
+    title: "Stevdza-San: ViewModel Explained - Android Architecture Component"
+    link: https://www.youtube.com/watch?v=orH4K6qBzvE
+alura-contents:

@@ -1,0 +1,25 @@
+name: Kotlin - Injeção de Dependências
+logo: 
+short-description:
+key-objectives:
+  - Injeção de Dependências é um padrão de projeto no qual uma classe solicita dependências de fontes externas ao invés de criá-las.
+  - Ao escrever códigos em projetos Android, é muito que uma funcionalidade utilize códigos de bibliotecas, como o Room para salvar dados ou o Retrofit para fazer requisições para REST API. Essas bibliteocas são conhecidas como dependências dos nossos códigos, justamente pela necessidade para realizar a ação esperada. Usar essas bibliotecas com facilidade em qualquer parte do app pode ter os seus desafios, como oferecer instâncias únicas e realizar toda a configuração necessária para o funcionamento correto. Para isso, utilizamos ferramentas de injeção de dependência que facilitam o nosso trabalho.
+  - Aprender a usar a técnica de injeção de dependências e alguma das ferramentas comuns no Android para tal - Hilt, Dagger ou Koin
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Injeção de dependência no Android"
+    link: https://developer.android.com/training/dependency-injection?hl=pt-br
+  - type: ARTICLE
+    title: "Injeção de dependência no Kotlin com Koin"
+    link: https://medium.com/collabcode/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-no-kotlin-com-koin-4d093f80cb63
+  - type: YOUTUBE
+    title: "Chico Rasia: Viewmodel com injeção de dependência via Factory no Android com Kotlin"
+    link: https://youtu.be/biFrt-Bjx-g
+  - type: YOUTUBE
+    title: "Douglas Motta: Injeção de Dependência com Koin no Android"
+    link: https://www.youtube.com/watch?v=Mh_NK5G0WjY
+alura-contents:
+  - type: ARTICLE
+    title: "Injeção de dependência no Android com o Hilt"
+    link: https://www.alura.com.br/artigos/injecao-de-dependencia-do-android-com-o-hilt

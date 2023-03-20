@@ -1,0 +1,52 @@
+name: Kotlin - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Orientação a Objetos com Kotlin (Properties, Data class, Companion Objects, Delegation)
+  - Kotlin is a cross-platform, object-oriented, functional, statically typed programming language. It compiles to the Java Virtual Machine and can also be translated to the JavaScript language and compiled to native code (via LLVM). It is the official language of Google's Android system.
+  - Understanding its syntax
+  - Knowing the primitive types
+  - Declaring and using variables and constants
+  - Using conditional structures (if, else)
+  - Using repetition structures and loops (while, for)
+  - Using functions, passing parameters and arguments
+  - Implementing methods and reusing them
+  - Null Safety (Eliminate the danger of null references)
+  - Exceptions and Throwables
+  - Coding conventions
+  - Manipulating Collections, arrays and lists
+  - Functional Paradigm Features
+  - OOP with Kotlin (Properties, Data class, Companion Objects, Delegation)
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Kotlin Documentation: Get started with Kotlin"
+    link: https://kotlinlang.org/docs/getting-started.html
+  - type: SITE
+    title: "Kotlin Documentation: Basic types in Kotlin"
+    link: https://kotlinlang.org/docs/basic-types.html
+  - type: SITE
+    title: "Kotlin Documentation: Basic syntax in Kotlin"
+    link: https://kotlinlang.org/docs/basic-syntax.html
+  - type: SITE
+    title: "Kotlin Documentation: Functions in Kotlin"
+    link: https://kotlinlang.org/docs/functions.html
+  - type: SITE
+    title: "Kotlin Documentation: Coding conventions in Kotlin"
+    link: https://kotlinlang.org/docs/coding-conventions.html
+  - type: SITE
+    title: "GeeksForGeeks: Kotlin Collections"
+    link: https://www.geeksforgeeks.org/kotlin-collections/
+  - type: SITE
+    title: "GeeksForGeeks: Kotlin Null Safety"
+    link: https://www.geeksforgeeks.org/kotlin-null-safety/
+  - type: ARTICLE
+    title: "The Power of Kotlin’s Null safety"
+    link: https://medium.com/@android-blaze/the-power-of-kotlins-null-safety-fe9cba2a5d5d
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Kotlin Course - Tutorial for Beginners"
+    link: https://youtu.be/F9UC9DY-vIU
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Learn Kotlin Programming – Full Course for Beginners"
+    link: https://www.youtube.com/watch?v=EExSSotojVI
+alura-contents:

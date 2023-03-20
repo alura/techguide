@@ -1,25 +1,26 @@
-name: Android - Testes automatizados
+name: Android - Testes
 logo: 
 short-description:
 key-objectives:
-  - Ao escrever um App Android, precisamos garantir ao máximo que o App funciona como esperado. Para evitar os bugs, utilizamos testes automatizados que se responsabilizam em realizar as ações esperadas e conferir se o App apresenta os comportamentos esperados.
-  - Conhecer os fundamentos de testes para Android é essencial para garantir o funcionamento do App
-  - Implementar cada tipo de teste para garantir o comportamento esperado - unidade, integração e instrumental.
-  - Utilizar Mocks para facilitar a implementação de testes com dependências
-  - Implementação de testes com ferramentas de Injeção de dependência - Hilt
+  - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+  - Usar testes unitários
+  - Usar testes de integração
+  - Usar testes instrumentados
+  - Usar mocks para facilitar a implementação de testes com dependências
+  - Implementar testes com ferramentas de Injeção de Dependências como o Hilt
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Conceitos básicos de testes"
+    title: "Documentação Android: Conceitos básicos de testes"
     link: https://developer.android.com/training/testing/fundamentals?hl=pt-br
   - type: SITE
-    title: "O que testar no Android (Inglês)"
+    title: "Documentação Android: O que testar no Android (Inglês)"
     link: https://developer.android.com/training/testing/fundamentals/what-to-test
   - type: SITE
-    title: "Como testar o layout do Compose"
+    title: "Documentação Android: Como testar o layout do Compose"
     link: https://developer.android.com/jetpack/compose/testing?hl=pt-br
   - type: SITE
-    title: "Criar testes de unidade locais"
+    title: "Documentação Android: Criar testes de unidade locais"
     link: https://developer.android.com/training/testing/unit-testing/local-unit-tests?hl=pt-br
   - type: ARTICLE
     title: "Testes Instrumentados: tipos de teste e como são executados."
