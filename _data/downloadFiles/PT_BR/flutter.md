@@ -38,7 +38,7 @@
    - Entender os métodos `then` e `catchError` do Future no Dart
    - Entender o que são erros e exceções no Dart
    - Conhecer e saber usar a estrutura `try-on-catch-finally`
-- [ ] **Flutter - Comunicação com APIs**:
+- [ ] **Dart - Comunicação com APIs**:
    - Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.
    - Entender o que é uma API REST
    - Conhecer os comandos básicos de comunicação HTTP
@@ -154,8 +154,11 @@
 - [ ] **Como usar fontes**:
    - Escolher a fonte mais adequada para determinado projeto
 - [ ] **Acessibilidade em Flutter**:
-   - Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e aplicativos sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas.
+   - Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e aplicativos sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas, incluindo pessoas com necessidades de acessibilidades, como pessoas com problemas de visão, daltonismo, dificuldades auditivas, comprometimento motor, deficiência cognitivas e muitos outros tipos de deficiência.
    - Escrever código com acessibilidade em mente
+   - Aumentar a visibilidade do texto
+   - Usar controles grandes e simples
+   - Descrever cada elemento de IU
 - [ ] **Design Responsivo**:
    - Ajustar suas páginas para o tamanho da tela do usuário
    - Media queries
