@@ -1,0 +1,60 @@
+name: Android - Sistema de View
+logo: 
+short-description:
+key-objectives:
+  - A classe View representa o bloco básico de construção dos componentes de interface do usuário em Android.
+  - Conhecer a referência View e ViewGroup para definir um Layout
+  - Saber as principais ViewGroups para construir layouts - LinearLayout, RelativeLayout, FrameLayout e ConstraintLayout
+  - Usar o editor visual de Layout para personalizar a tela, ou então, utilizar o arquivo XML para a edição
+  - Conhecer o Preview do editor visual e usá-lo para preparar as telas e componentes do App
+  - Utilizar as Views do SDK do Android - TextView, Button, EditText, CheckBox, DatePicker etc
+  - Criar Views personalizadas para atender demandas específicas
+  - Personalizar as Views com propriedades do Android ou da própria View - Ajustes de altura, largura, visibilidade, espaçamento
+  - Implementar Layouts de conteúdos dinâmico com adaptadores - AdapterView e RecyclerView
+  - Integrar código de negócio com o layout da tela - Chamar e manipular as Views com o View Binding
+  - Reagir a eventos das Views a partir de listeners como cliques, cliques longos, rolagem, arrastar e soltar
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Layouts"
+    link: https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Layouts (ViewGroups) comuns"
+    link: https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br#CommonLayouts
+  - type: SITE
+    title: "Documentação Android: Criar uma IU com o Layout Editor"
+    link: https://developer.android.com/studio/write/layout-editor?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Criar uma IU responsiva com o ConstraintLayout"
+    link: https://developer.android.com/training/constraint-layout?hl=pt-br
+  - type: ARTICLE
+    title: "Android View: Prólogo"
+    link: https://medium.com/android-dev-br/android-view-pr%C3%B3logo-d44a89c14fd1
+  - type: ARTICLE
+    title: "Listas com RecyclerView"
+    link: https://medium.com/android-dev-br/listas-com-recyclerview-d3f41e0d653c
+  - type: SITE
+    title: "Documentação Android: Visão geral dos eventos de entrada"
+    link: https://developer.android.com/guide/topics/ui/ui-events?hl=pt-br
+  - type: YOUTUBE
+    title: "Vinícius Thiengo: View - Entendendo os Componentes Visuais no Android"
+    link: https://www.youtube.com/watch?v=2b18zJmkKKU
+alura-contents:
+  - type: ARTICLE
+    title: "View Binding Android"
+    link: https://www.alura.com.br/artigos/view-binding-android
+  - type: COURSE
+    title: "Android com Kotlin: criando um app"
+    link: https://cursos.alura.com.br/course/fundamentos-android-kotlin
+  - type: COURSE
+    title: "Android com Kotlin: personalize o seu App"
+    link: https://cursos.alura.com.br/course/android-kotlin-personalize-app
+  - type: COURSE
+    title: "RecyclerView: listas flexíveis e performáticas"
+    link: https://www.alura.com.br/curso-online-recyclerview-listas-flexiveis-e-performaticas
+  - type: COURSE
+    title: "RecyclerView: Listeners, animações e boas práticas"
+    link: https://www.alura.com.br/curso-online-recyclerview-listeners-animacoes
+  - type: COURSE
+    title: "RecyclerView: criando telas com Constraint Layouts"
+    link: https://www.alura.com.br/curso-online-layout-android-1

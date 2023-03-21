@@ -1,0 +1,48 @@
+name: Android - View system
+logo: 
+short-description:
+key-objectives:
+  - The View class represents the basic building block of user interface components in Android.
+  - Knowing the View and ViewGroup reference for defining a Layout
+  - Knowing the main ViewGroups to build layouts - LinearLayout, RelativeLayout, FrameLayout and ConstraintLayout
+  - Using the visual Layout editor to customize the layout, or use the XML file for editing
+  - Knowing the Preview of the visual editor and use it to prepare the screens and components of the App
+  - Using the Views from the Android SDK - TextView, Button, EditText, CheckBox, DatePicker, etc
+  - Creating custom Views to meet specific demands
+  - Customizing Views with Android or View properties - height, width, visibility, spacing adjustments
+  - Implementing dynamic content layouts with adapters - AdapterView and RecyclerView
+  - Integrating business code with screen layout - Calling and manipulating Views with View Binding
+  - Reacting to View events from listeners such as clicks, long clicks, scrolling, drag and drop
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Layouts"
+    link: https://developer.android.com/develop/ui/views/layout/declaring-layout
+  - type: SITE
+    title: "Android Documentation: Common Layouts (ViewGroups)"
+    link: https://developer.android.com/develop/ui/views/layout/declaring-layout#CommonLayouts
+  - type: SITE
+    title: "Android Documentation: Build a UI with Views - Introduction to the Layout Editor"
+    link: https://developer.android.com/studio/write/layout-editor
+  - type: SITE
+    title: "Android Documentation: Build a Responsive UI with ConstraintLayout"
+    link: https://developer.android.com/develop/ui/views/layout/constraint-layout
+  - type: SITE
+    title: "GeeksForGeeks: Android View Hierarchy"
+    link: https://www.geeksforgeeks.org/android-view-hierarchy
+  - type: ARTICLE
+    title: "Introduction to Android Views and ViewGroups"
+    link: https://www.studytonight.com/android/introduction-to-views
+  - type: ARTICLE
+    title: "Designing complex UI using Android ConstraintLayout"
+    link: https://proandroiddev.com/designing-complex-ui-using-android-constraintlayout-cb0606823da0
+  - type: ARTICLE
+    title: "Listas com RecyclerView"
+    link: https://medium.com/android-dev-br/listas-com-recyclerview-d3f41e0d653c
+  - type: SITE
+    title: "Android Documentation: Input events overview"
+    link: https://developer.android.com/develop/ui/views/touch-and-input/input-events
+  - type: YOUTUBE
+    title: "Coding Pursuit: View, View Groups and Layouts in Android"
+    link: https://www.youtube.com/watch?v=TPdXdXr1ghU
+alura-contents:

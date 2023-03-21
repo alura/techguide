@@ -1,5 +1,5 @@
 name: CSS - Fundamentos
-logo: 
+logo:
 short-description:
 key-objectives:
   - Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.
@@ -43,6 +43,15 @@ contents:
   - type: SITE
     title: "MDN Web Docs: Grid Layout"
     link: https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+  - type: ARTICLE
+    title: "Entendendo CSS: Display Inline, Block e Inline-Block"
+    link: https://dev.to/sucodelarangela/entendendo-css-display-inline-block-e-inline-block-lic
+  - type: ARTICLE
+    title: "Entendendo CSS: Pseudo-Classes e Pseudo-Elementos"
+    link: https://dev.to/sucodelarangela/entendendo-css-pseudo-classes-e-pseudo-elementos-b83
+  - type: ARTICLE
+    title: "Como aplicar opacidade em background-image sem afetar textos"
+    link: https://dev.to/sucodelarangela/como-aplicar-opacidade-em-background-image-sem-afetar-textos-31fj
   - type: YOUTUBE
     title: "Rafaella Ballerini: O QUE É CSS?"
     link: https://www.youtube.com/watch?v=LWU2OR19ZG4

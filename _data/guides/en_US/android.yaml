@@ -1,0 +1,93 @@
+name: Android
+tags: 
+  - mobile
+expertise:
+  - name: Android Jr
+    cards:
+      - kotlin-fundamentals:
+        priority: 10
+      - android-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 10
+      - android-view-system-fundamentals:
+        priority: 9
+      - android-fragments:
+        priority: 8
+      - android-app-navigation:
+        priority: 9
+      - android-jetpack-compose-fundamentals:
+        priority: 9
+      - android-persistence:
+        priority: 9
+      - android-gradle:
+        priority: 8
+      - android-image-loading:
+        priority: 5
+  - name: Android Mid
+    cards:
+      - android-permissions:
+        priority: 6
+      - kotlin-asynchronous:
+        priority: 8
+      - kotlin-api:
+        priority: 8
+      - android-system-resources:
+        priority: 7
+      - kotlin-dependency-injection:
+        priority: 7
+      - android-testing:
+        priority: 6
+  - name: Android in depth
+    cards:
+      - android-architecture:
+        priority: 10
+      - android-core-app-quality:
+        priority: 6
+      - android-ci-cd:
+        priority: 5
+      - android-app-optimization:
+        priority: 5
+      - java-fundamentals:
+        priority: 7
+        optional: true
+      - android-debugging:
+        priority: 7
+collaboration:
+  - name: Infrastructure and good practices
+    cards:
+      - git-and-github-fundamentals:
+        priority: 10
+      - http-fundamentals:
+        priority: 10
+      - json:
+        priority: 8
+      - design-patterns:
+        priority: 7
+      - command-line-fundamentals:
+        priority: 7
+      - cloud-fundamentals:
+        priority: 6
+        optional: true
+      - solid:
+        priority: 6
+      - clean-architecture:
+        priority: 6
+      - firebase:
+        priority: 8
+  - name: UX & Design
+    cards:
+      - material-design:
+        priority: 9
+      - design-systems:
+        priority: 6
+      - color-systems:
+        priority: 7
+      - how-to-use-fonts:
+        priority: 7
+      - responsive-design:
+        priority: 7
+      - android-accessibility:
+        priority: 7
+      - figma-fundamentals:
+        priority: 7

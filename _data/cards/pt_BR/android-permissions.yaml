@@ -1,0 +1,27 @@
+name: Android - Permissões
+logo: 
+short-description:
+key-objectives:
+  - As permissões do app ajudam a apoiar a privacidade do usuário protegendo dados restritos, como estados do sistema e os dados de contatos dos usuários, há também as ações restritas, como a conexão a um dispositivo pareado e a gravação de áudio ou uso de câmera.
+  - Entender o que são permissões
+  - Aprender sobre os diferentes tipos de permissões
+  - Permissões especiais
+  - Práticas recomendadas
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Permissões no Android"
+    link: https://developer.android.com/guide/topics/permissions/overview?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Uso de permissões - Android Manifest"
+    link: https://developer.android.com/guide/topics/manifest/uses-permission-element?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Solicitando permissões do app"
+    link: https://developer.android.com/training/permissions/requesting?hl=pt-br
+  - type: ARTICLE
+    title: "Entendendo as permissões do app (inglês)"
+    link: https://guides.codepath.com/android/Understanding-App-Permissions
+  - type: YOUTUBE
+    title: "Tiago Aguiar: Permissões Android - Tutorial Como Usar"
+    link: https://www.youtube.com/watch?v=Grr5N44Ha64
+alura-contents:

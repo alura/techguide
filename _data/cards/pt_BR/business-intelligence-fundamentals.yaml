@@ -1,0 +1,30 @@
+name: Business Intelligence (BI) - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Business Intelligence é um conjunto de teorias, metodologias, processos e tecnologias que possibilitam a transformação dos dados “crus” em informações extremamente relevantes para tomada de decisão de uma empresa.
+  - Conhecer o processo de ETL
+  - Realizar a modelagem e estruturação de tabelas em um Data Warehouse
+  - Criar visualizações que façam sentido
+  - Conhecer o PowerBI
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Business Intelligence em Bibliotecas com Power BI"
+    link: https://franciscofoz.medium.com/business-intelligence-em-bibliotecas-com-power-bi-4065df7b232c
+  - type: YOUTUBE
+    title: "Rafael Piton: O que é BI - Business Intelligence (Guia Definitivo)"
+    link: https://www.youtube.com/watch?v=PoCLfN6sF_8
+  - type: YOUTUBE
+    title: "Karine Lago: Introdução ao Power BI"
+    link: https://www.youtube.com/watch?v=lMfh2c7GaWI
+alura-contents:
+  - type: ARTICLE
+    title: "Business Intelligence: O que é?"
+    link: https://www.alura.com.br/artigos/business-intelligence-o-que-e
+  - type: COURSE
+    title: "Formação Power BI"
+    link: https://cursos.alura.com.br/formacao-power-bi
+  - type: COURSE
+    title: "Formação BI e Data Warehouse com SQL Server e Power BI"
+    link: https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse

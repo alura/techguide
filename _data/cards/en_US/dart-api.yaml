@@ -1,0 +1,42 @@
+name: Dart - Communication with APIs
+logo: 
+short-description:
+key-objectives:
+  - An API is an interface that software developers use to programmatically interact with software components or resources outside of their own code. An even simpler definition is that an API is the part of a software component that is accessible to other components.
+  - Understanding REST APIs
+  - Learning the basic HTTP communication commands
+  - Learning how to use the Dart `http` package tools
+  - Learning how to make authenticated requests to Web APIs
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "What is a REST API?"
+    link: https://www.redhat.com/en/topics/api/what-is-a-rest-api
+  - type: ARTICLE
+    title: "Making Your API Calls In Flutter The Right Way"
+    link: https://medium.com/solidmvp-africa/making-your-api-calls-in-flutter-the-right-way-f0a03e35b4b1
+  - type: SITE
+    title: "JSON and serialization"
+    link: https://docs.flutter.dev/development/data-and-backend/json
+  - type: SITE
+    title: "Package http - pub.dev"
+    link: https://pub.dev/packages/http
+  - type: SITE
+    title: "Fetch data from the internet"
+    link: https://docs.flutter.dev/cookbook/networking/fetch-data
+  - type: SITE
+    title: "Make authenticated requests"
+    link: https://docs.flutter.dev/cookbook/networking/authenticated-requests
+  - type: SITE
+    title: "Send data to the internet"
+    link: https://docs.flutter.dev/cookbook/networking/send-data
+  - type: SITE
+    title: "Delete data on the internet"
+    link: https://docs.flutter.dev/cookbook/networking/delete-data
+  - type: YOUTUBE
+    title: "CodeX: REST API with Flutter | Step by step tutorial"
+    link: https://www.youtube.com/watch?v=c09XiwOZKsI
+  - type: YOUTUBE
+    title: "Coding Orbit: Flutter Consume Rest API With Best Practices"
+    link: https://youtu.be/5S9mMBEtJK4
+alura-contents:

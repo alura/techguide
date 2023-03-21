@@ -1,0 +1,34 @@
+name: Feature Engineering
+logo: 
+short-description:
+key-objectives:
+  - Feature engineering refers to the process of using domain knowledge to select and transform the most relevant variables from raw data when creating a predictive model using machine learning or statistical modeling, in order to improve the performance of Machine Learning algorithms.
+  - Generating new variables from the available data
+  - Transforming raw data into characteristics
+  - Highlighting problems with predictive models
+  - Improving model accuracy for new data
+  - Selecting and creating features using Pandas and Scikit-learn libraries
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Amazon AWS: What Is Feature Engineering?"
+    link: https://aws.amazon.com/what-is/feature-engineering/?nc1=h_ls
+  - type: ARTICLE
+    title: "Feature Engineering"
+    link: https://corporatefinanceinstitute.com/resources/data-science/feature-engineering/
+  - type: ARTICLE
+    title: "What is Feature Engineering — Importance, Tools and Techniques for Machine Learning"
+    link: https://towardsdatascience.com/what-is-feature-engineering-importance-tools-and-techniques-for-machine-learning-2080b0269f10
+  - type: ARTICLE
+    title: "Introduction to Automated Feature Engineering Using Deep Feature Synthesis (DFS)"
+    link: https://heartbeat.comet.ml/introduction-to-automated-feature-engineering-using-deep-feature-synthesis-dfs-3feb69a7c00b
+  - type: YOUTUBE
+    title: "Google Developers: Intro to Feature Engineering with TensorFlow"
+    link: https://www.youtube.com/watch?v=d12ra3b_M-0
+  - type: YOUTUBE
+    title: "Greg Hogg: Feature Engineering Techniques For Machine Learning in Python"
+    link: https://www.youtube.com/watch?v=GduT2ZCc26E
+  - type: YOUTUBE
+    title: "Krish Naik: Step By Step Process In EDA And Feature Engineering In Data Science Projects"
+    link: https://www.youtube.com/watch?v=xhB-dmKmzRk
+alura-contents:

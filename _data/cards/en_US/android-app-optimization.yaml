@@ -1,0 +1,27 @@
+name: Android - App optimization
+logo: 
+short-description:
+key-objectives:
+  - When generating an App, there are some optimization details to make it fast, smaller and optimized, such as removing unnecessary code, obfuscation that reduces code names, and optimization that applies more aggressive strategies to further reduce the app.
+  - Learning how to enable each optimization in the Android plugin for Gradle
+  - Using proguard to perform a more aggressive optimization
+  - Activating multidex so that the app will be able to get more than 64000 methods and be able to use the optimization techniques
+  - Knowing and using helper tools to increase the performance of the App
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Shrink, obfuscate, and optimize your app"
+    link: https://developer.android.com/studio/build/shrink-code
+  - type: SITE
+    title: "Android Documentation: Enable multidex for apps with over 64K methods"
+    link: https://developer.android.com/studio/build/multidex
+  - type: SITE
+    title: "Android Documentation: Guide to app performance"
+    link: https://developer.android.com/topic/performance
+  - type: YOUTUBE
+    title: "Philipp Lackner: Shrink, Optimize and Secure Your App With R8 & ProGuard - Full Guide"
+    link: https://www.youtube.com/watch?v=bgpyuuzMlo0
+  - type: YOUTUBE
+    title: "Philipp Lackner: 5 Ways to Boost Your Android App's Performance"
+    link: https://www.youtube.com/watch?v=epkAPnF5qrk
+alura-contents:

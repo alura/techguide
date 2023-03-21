@@ -1,0 +1,71 @@
+name: Data Science
+tags: 
+  - data
+expertise:
+  - name: Data Science Jr
+    cards:
+      - data-science-fundamentals:
+        priority: 10
+      - feature-engineering:
+        priority: 10
+      - data-extraction-and-processing:
+        priority: 10
+      - python-for-data-science:
+        priority: 10
+      - jupyter-and-colaboratory:
+        priority: 9
+      - r-for-data-science:
+        priority: 9
+        optional: true
+      - statistics-and-math-fundamentals:
+        priority: 10
+      - data-visualization:
+        priority: 8
+  - name: Data Science Mid
+    cards:
+      - machine-learning-fundamentals:
+        priority: 10
+      - machine-learning-unsupervised-learning:
+        priority: 10
+      - machine-learning-model-evaluation:
+        priority: 9
+      - sql-fundamentals:
+        priority: 9
+      - web-scraping:
+        priority: 7
+      - statistical-tests:
+        priority: 7
+  - name: Data Science in depth
+    cards:
+      - deep-learning:
+        priority: 9
+      - reinforcement-learning:
+        priority: 9
+      - computer-vision:
+        priority: 7
+      - natural-language-processing:
+        priority: 7
+collaboration:
+  - name: Cloud, Big Data and Systems
+    cards:
+      - big-data-and-data-engineering:
+        priority: 9
+      - cloud-fundamentals:
+        priority: 7
+      - git-and-github-fundamentals:
+        priority: 7
+      - linux-fundamentals:
+        priority: 7
+  - name: Business
+    cards:
+      - business-process-management:
+        priority: 9
+      - business-intelligence-fundamentals:
+        priority: 8
+      - storytelling-with-data:
+        priority: 8
+      - excel:
+        priority: 6
+        optional: true
+      - communication-skills:
+        priority: 7

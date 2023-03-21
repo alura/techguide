@@ -1,5 +1,33 @@
 # Angular
-## Nível 1
+## Nivel 1
+- [ ] **HTML - Fundamentos**:
+   - HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.
+   - Aprender quais tags são necessárias para um HTML básico
+   - Criar um parágrafo de texto
+   - Exibir uma imagem
+   - Conhecer a diferença entre 'h1', 'h2', 'h3', etc
+   - Criar um texto com hyperlink
+   - Criar um formulário com campos relevantes
+   - Criar uma lista de itens ordenada ou não ordenada
+   - Criar uma lista de itens dentro de uma lista suspensa (dropdown list)
+   - Conectar com um arquivo de CSS
+   - Criar uma tabela
+   - Adicionar IDs e classes
+- [ ] **CSS - Fundamentos**:
+   - Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.
+   - Aprender a estrutura visual de uma página, com 'margin' e 'padding'
+   - Estabelecer o tamanho com 'width' e 'height'
+   - Aprender sobre a posição de um elemento ('static', 'relative' ou 'absolute)
+   - Aprender sobre o 'display' de exibição de um elemento ('block', 'inline', 'inline-block')
+   - Aprender a posicionar imagens em relação ao texto
+   - Aprender sobre alinhamento
+   - Aprender sobre estilo de fontes
+   - Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)
+   - Conectar com os elementos (IDs, classes) de um arquivo HTML
+   - Alterar características de um elemento quando o mouse passar por cima dele ('hover')
+   - Aprender box-sizinh
+   - Aprender Flexbox
+   - Aprender Grid
 - [ ] **JavaScript - Fundamentos**:
    - JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.
    - Conhecer os tipos primitivos
@@ -20,12 +48,6 @@
    - Conhecer as ferramentas do TypeScript (integração com o editor de código, verificador estático e compilador)
    - Escrever código em TypeScript com suas ferramentas (interfaces, enum, decorators, etc)
    - Desenvolver aplicações em TypeScript
-- [ ] **RxJS - Fundamentos**:
-   - A RxJS é uma biblioteca para a composição de programas assíncronos e baseados em eventos, utilizando sequências observáveis. Ela fornece o tipo núcleo, o Observable, tipos satélite (Observer, Schedulers, Subjects) e operadores inspirados nos métodos Array (map, filter, reduce, every, etc.) para permitir a manipulação de eventos assíncronos como coleções.
-   - Criar programas assíncronos
-   - Criar programas baseados em eventos
-   - Entender o conceito de observables e sequências de observables
-   - Entender como usar Observers, Subscription, Subject
 - [ ] **Angular - Fundamentos**:
    - Angular é uma framework de construção de aplicações e plataforma de desenvolvimento construído em TypeScript para criar aplicações eficientes e sofisticadas de página única (SPA).
    - Construir interfaces utilizando HTML, CSS e TypeScript
@@ -35,13 +57,30 @@
    - Utilizar a composição para criar componentes reutilizáveis
    - Utilizar serviços do tipo Resolver
    - Manipular requisições criando serviços do tipo Interceptor
+- [ ] **Conceitos de Orientação a Objetos**:
+   - A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
+   - Como funcionam objetos
+   - Criar e utilizar construtores
+   - O que são classes
+   - Criar e utilizar métodos
+   - Como funciona encapsulamento
+   - O que é herança
+   - O que é polimorfismo
+   - Como funcionam interfaces
+   - O que são abstrações
+- [ ] **RxJS - Fundamentos**:
+   - A RxJS é uma biblioteca para a composição de programas assíncronos e baseados em eventos, utilizando sequências observáveis. Ela fornece o tipo núcleo, o Observable, tipos satélite (Observer, Schedulers, Subjects) e operadores inspirados nos métodos Array (map, filter, reduce, every, etc.) para permitir a manipulação de eventos assíncronos como coleções.
+   - Criar programas assíncronos
+   - Criar programas baseados em eventos
+   - Entender o conceito de observables e sequências de observables
+   - Entender como usar Observers, Subscription, Subject
 - [ ] **O pattern Observer**:
    - Em engenharia de software, o padrão (pattern) chamado Observer é um padrão de projeto de software no qual um objeto, chamado de sujeito (subject), mantém uma lista de seus dependentes, chamados de observadores (observers), e os notifica automaticamente de qualquer mudança de estado, geralmente chamando um de seus métodos.
    - Entender o que são Design Patterns
    - Atualizar diversos elementos simultaneamente usando Observers
    - Declarar os Subjects
    - Criar programas baseados em eventos
-## Nível 2
+## Nivel 2
 - [ ] **Angular - Templates**:
    - Em Angular, templates são um modelo para um fragmento de uma interface de usuário (IU). Templates são escritos em HTML, e uma sintaxe especial pode ser usada dentro de um template para construir com base em muitas das características do Angular.
 - [ ] **Angular - Renderização**:
@@ -60,14 +99,14 @@
    - A Interface de Linha de Comando (CLI) do Angular é uma ferramenta de interface de linha de comando que você utiliza para inicializar, desenvolver, estruturar e manter aplicações Angular diretamente de um shell de comando.
    - Aprender a sintaxe 'ng [argumento-opcional] [opções]'
    - Conhecer os comandos mais importantes, como 'ng add', 'ng build', 'ng update', 'ng deploy', 'ng new', 'ng test', entre outros
-## Nível 3
+## Nivel 3
 - [ ] **Angular - Gerenciamento de Estado**:
    - Um 'estado' (state) é qualquer dado necessário para reconstruir UI (Interface de Usuário) qualquer momento. A alteração desses dados desencadeará um redesenho da interface do usuário. O gerenciamento do estado é o conceito de adicionar, atualizar, remover e ler esses dedos e seus 'estados' em uma aplicação.
    - Atualizar componentes em tempo real
    - Esperar por alterações em algum componente e executar alterações
    - Usar Redux, NGXS e outros
 - [ ] **Angular - Formulários**:
-   - Um formulário web é uma página online que aceita inserção de dados (inputs) do usuário. É uma página interativa que imita um documento ou formulário em papel, onde os usuários preenchem determinados campos.
+   - Um formulário web é uma página online que aceita inseção de dados (inputs) do usuário. É uma página interativa que imita um documento ou formulário em papel, onde os usuários preenchem determinados campos.
    - Criar formulários com Template Forms
    - Criar formulários reativos com Reactive Forms
 - [ ] **Angular - Módulos**:
@@ -108,7 +147,7 @@
    - Clonar um repositório
    - Fazer commit, push e pull de e para o repositório
    - Reverter um commit
-   - Criar branches e pull requests
+   - Criar branches e pul requests
    - Lidar com merge e conflitos
 - [ ] **HTTP - Fundamentos**:
    - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
@@ -123,9 +162,6 @@
    - Transformar um objeto em uma string
    - Transformar uma string em objeto
    - Manipular um objeto
-- [ ] **Linha de comando - Fundamentos**:
-   - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
-   - Conhecer os principais comandos
 - [ ] **Cloud - Fundamentos**:
    - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
    - Conhecer a diferença entre IaaS, PaaS e SaaS

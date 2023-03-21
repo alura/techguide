@@ -1,0 +1,30 @@
+name: Android - Permissions
+logo: 
+short-description:
+key-objectives:
+  - The app's permissions help support user privacy by protecting restricted data such as system statuses and the user's contact data, there are also restricted actions such as connecting to a paired device and recording audio or using a camera.
+  - Understanding what permissions are
+  - Learning about the different types of permissions
+  - Special permissions
+  - Best practices
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Permissions on Android"
+    link: https://developer.android.com/guide/topics/permissions/overview
+  - type: SITE
+    title: "Android Documentation: <uses-permission> - Android Manifest"
+    link: https://developer.android.com/guide/topics/manifest/uses-permission-element
+  - type: SITE
+    title: "Android Documentation: Request runtime permissions"
+    link: https://developer.android.com/training/permissions/requesting
+  - type: ARTICLE
+    title: "Understanding App Permissions"
+    link: https://guides.codepath.com/android/Understanding-App-Permissions
+  - type: YOUTUBE
+    title: "Android Developers: Request a permission in Android"
+    link: https://www.youtube.com/watch?v=x38dYUm7tCY
+  - type: YOUTUBE
+    title: "Philipp Lackner: PERMISSIONS - Android Fundamentals"
+    link: https://www.youtube.com/watch?v=S4jkcRhembY
+alura-contents:

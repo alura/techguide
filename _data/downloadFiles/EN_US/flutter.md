@@ -32,7 +32,7 @@
    - Learning how to use SQLite in Flutter
    - Learning how to persist data reading and writing files
 - [ ] **Dart - Asynchronous**:
-   - Asynchronous operations let your program complete work while waiting for another operation to finish.
+   - In asynchronous programming, the functions are not executed in order. We can interrupt the code to get some other information needed to continue execution. This means that the code waits for another part of the code, and while it waits, it can execute the other parts.
    - Understanding what asynchronism is
    - Learning how to use the `async`, `await` and `future` expressions in Dart
    - Understanding Future's `then` and `catchError` methods in Dart
@@ -40,7 +40,7 @@
    - Error handling refers to the procedures for responding to and recovering from error conditions present in a software application. In other words, it is the process of anticipating, detecting, and resolving application, programming, or communication errors.
    - Understanding what errors and exceptions are in Dart
    - Learning how to use the `try-on-catch-finally` structure
-- [ ] **Flutter - APIs**:
+- [ ] **Dart - Communication with APIs**:
    - An API is an interface that software developers use to programmatically interact with software components or resources outside of their own code. An even simpler definition is that an API is the part of a software component that is accessible to other components.
    - Understanding REST APIs
    - Learning the basic HTTP communication commands
@@ -138,7 +138,7 @@
    - SOLID has five principles that are considered best practices in software development that help programmers write cleaner code by separating responsibilities, reducing docking, easing refactoring, and encouraging code reuse.
 - [ ] **Clean Architecture**:
    - Clean architecture is a way of developing software, such that just by looking at the source code of a program, you should be able to tell what the program does.
-- [ ] **Flutter - Firebase**:
+- [ ] **Firebase**:
    - Firebase is a Backend-as-a-Service (BaaS) app development platform that provides hosted backend services such as a realtime database, cloud storage, authentication, crash reporting, machine learning, remote configuration, and hosting for your static files.
    - Understanding how to install Firebase
    - Getting acquainted with Firebase documentation

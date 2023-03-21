@@ -1,0 +1,22 @@
+name: Android - Entrega e integração contínuas
+logo: 
+short-description:
+key-objectives:
+  - CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português "entrega e integração contínuas". Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.
+  - Ao implementar novas funcionalidades do App, precisamos garantir que todas as entregas irão funcionar corretamente. Para isso, podemos utilizar técnicas de integração e entrega contínua, dessa forma, agilizamos a evolução do App e tentamos garantir os comportamentos esperados ao mesmo tempo.
+  - Conhecer alguma das ferramentas para fazer a entrega contínua, como Firebase Test Lab, Jenkins, GitHub Actions, etc
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Comece a testar com sistemas de integração contínua (CI)"
+    link: https://firebase.google.com/docs/test-lab/android/continuous?hl=pt-br
+  - type: ARTICLE
+    title: "Continuous Deployment no Android: como usar a Publishing API para automatizar seu release"
+    link: https://medium.com/android-dev-br/continuous-deployment-no-android-f42b96ece80d
+  - type: ARTICLE
+    title: "Entrega Contínua Na Visão De Um Desenvolvedor Android"
+    link: https://www.thiengo.com.br/entrega-continua-na-visao-de-um-desenvolvedor-android
+  - type: YOUTUBE
+    title: "Philipp Lackner: Aprenda a automatizar tarefas para Android com CI/CD (inglês)"
+    link: https://www.youtube.com/watch?v=QLsgkxH-O2I
+alura-contents:

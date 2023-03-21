@@ -28,13 +28,13 @@ expertise:
     cards:
       - android-permissions:
         priority: 6
-      - android-asynchronous:
+      - kotlin-asynchronous:
         priority: 8
-      - kotlin-apis:
+      - kotlin-api:
         priority: 8
       - android-system-resources:
         priority: 7
-      - android-dependency-injection:
+      - kotlin-dependency-injection:
         priority: 7
       - android-testing:
         priority: 6
@@ -77,7 +77,7 @@ collaboration:
         priority: 8
   - name: UX & Design
     cards:
-      - android-material-design-guidelines:
+      - material-design:
         priority: 9
       - design-systems:
         priority: 6

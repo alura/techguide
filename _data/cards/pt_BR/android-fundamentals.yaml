@@ -1,0 +1,46 @@
+name: Android - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Conhecer Kotlin, Java ou C++ que são as linguagens para desenvolver Apps Android.
+  - Entender como o SDK do Android empacota o código e recursos do App em um APK (Android Package - Pacote Android) para rodar no SO do Android
+  - Saber os componentes de entrada de um App - Activity, Service, Broadcast Receiver e Content Provider
+  - Compreender os ciclos de vida de componentes do Android e como funcionam - O ciclo de vida de uma Activity
+  - Ativar componentes de entrada do App com Intents
+  - Conhecer o arquivo de manifesto e os principais itens de configuração
+  - Entender quais são os recursos de um projeto Android - código fonte, recursos estáticos, drawables, layout, mipmap, values etc
+  - Criar um projeto Android com o Android Studio e rodar em um dispositivo físico ou virtual
+  - Conhecer bibliotecas do jetpack para garantir a compatibilidade entre as versões do Android
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Fundamentos de aplicativos"
+    link: https://developer.android.com/guide/components/fundamentals?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Componentes de aplicativo"
+    link: https://developer.android.com/guide/components/fundamentals?hl=pt-br#Components
+  - type: SITE
+    title: "Documentação Android: Ativação de componentes"
+    link: https://developer.android.com/guide/components/fundamentals?hl=pt-br#ActivatingComponents#Components
+  - type: SITE
+    title: "Documentação Android: Visão geral do manifesto do aplicativo"
+    link: https://developer.android.com/guide/topics/manifest/manifest-intro?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Visão geral dos recursos do aplicativo"
+    link: https://developer.android.com/guide/topics/resources/providing-resources?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Criar seu primeiro App Android"
+    link: https://developer.android.com/training/basics/firstapp?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Acessar as bibliotecas do Jetpack por tipo"
+    link: https://developer.android.com/jetpack/androidx/explorer
+alura-contents:
+  - type: ARTICLE
+    title: "Criando o primeiro app Android"
+    link: https://www.alura.com.br/artigos/criando-o-primeiro-app-android
+  - type: ARTICLE
+    title: "Activity Lifecycle: por que você deve conhecer sobre o ciclo de vida da Activity"
+    link: https://www.alura.com.br/artigos/activity-lifecycle-por-que-conhecer-ciclo-de-vida-activity
+  - type: COURSE
+    title: "Android com Kotlin criando um app"
+    link: https://cursos.alura.com.br/course/fundamentos-android-kotlin

@@ -1,0 +1,27 @@
+name: Android - System resources
+logo: 
+short-description:
+key-objectives:
+  - The smartphones that are under the Android platform, for the most part, have several system-specific resources, such as cameras, sensors, gps, and others.
+  - Learning what these features are and how to use them
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: CameraX overview - Library for using the camera on Android"
+    link: https://developer.android.com/training/camerax
+  - type: SITE
+    title: "Android Documentation: Sensors - Motion, Positing and Environment sensors"
+    link: https://developer.android.com/guide/topics/sensors
+  - type: SITE
+    title: "Android Documentation: Connectivity (Bluetooth, Wi-Fi, Network operations)"
+    link: https://developer.android.com/guide/topics/connectivity
+  - type: YOUTUBE
+    title: "Codeible: Implementing Google Maps on Android"
+    link: https://www.youtube.com/watch?v=WouAQmqJI_I
+  - type: YOUTUBE
+    title: "tutorialsEU: Camera Android Studio - How to Take Pictures And Use Them in Your Project"
+    link: https://www.youtube.com/watch?v=xZZQ5q5pOp0
+  - type: YOUTUBE
+    title: "Coder: How to open Camera in Android App"
+    link: https://www.youtube.com/watch?v=xZZQ5q5pOp0
+alura-contents:

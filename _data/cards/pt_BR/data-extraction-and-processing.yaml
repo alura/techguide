@@ -2,6 +2,7 @@ name: Extração e Tratamento de Dados
 logo: 
 short-description:
 key-objectives:
+  - A extração de dados é o processo de coleta ou recuperação de tipos diferentes de dados de uma variedade de fontes, muitos dos quais podem estar mal organizados ou completamente desestruturados.
   - Obter os dados que serão analisados
   - Tratar os dados obtidos, transformando-os, alterando sua estrutura e valores a fim de deixar a base de dados mais coerente e garantir que os dados que serão trabalhados estejam nas melhores condições para serem analisados
   - Utilizar as bibliotecas Pandas e Scikit-learn para tratar os dados

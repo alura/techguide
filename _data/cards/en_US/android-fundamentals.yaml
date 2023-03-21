@@ -1,0 +1,40 @@
+name: Android - Fundamentals
+logo: 
+short-description:
+key-objectives:  
+  - Getting to know Kotlin, Java or C++, which are the languages to develop Android apps.
+  - Understanding how the Android SDK packages the App code and resources into an APK (Android Package) to run on the Android OS
+  - Knowing the input components of an App - Activity, Service, Broadcast Receiver and Content Provider
+  - Understanding the Android component life cycle and how it works - The Activity life cycle
+  - Activating App input components with Intents
+  - Knowing the manifest file and the main configuration items
+  - Understanding what the resources of an Android project are - source code, static resources, drawables, layout, mipmap, values etc
+  - Creating an Android project with Android Studio and running it on a physical or virtual device
+  - Knowing the jetpack libraries to ensure compatibility between Android versions
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Application Fundamentals"
+    link: https://developer.android.com/guide/components/fundamentals
+  - type: SITE
+    title: "Android Documentation: App components"
+    link: https://developer.android.com/guide/components/fundamentals#Components
+  - type: SITE
+    title: "Android Documentation: Activating components"
+    link: https://developer.android.com/guide/components/fundamentals#ActivatingComponents
+  - type: SITE
+    title: "Android Documentation: App Manifest Overview"
+    link: https://developer.android.com/guide/topics/manifest/manifest-intro
+  - type: SITE
+    title: "Android Documentation: App resources overview"
+    link: https://developer.android.com/guide/topics/resources/providing-resources
+  - type: SITE
+    title: "Android Documentation: Build your first Android app"
+    link: https://developer.android.com/training/basics/firstapp
+  - type: SITE
+    title: "Android Documentation: Explore the Jetpack libraries by type"
+    link: https://developer.android.com/jetpack/androidx/explorer
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Android Development for Beginners - Full Course"
+    link: https://www.youtube.com/watch?v=fis26HvvDII
+alura-contents:

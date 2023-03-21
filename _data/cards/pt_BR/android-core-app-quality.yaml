@@ -1,0 +1,22 @@
+name: Android - Critérios de qualidade do App
+logo: 
+short-description:
+key-objectives:
+  - Ao escrever um App Android, existe uma série de requisitos para garantir uma qualidade esperada, como por exemplo, a compatibilidade do App com a navegação esperada pelo sistema Android, ou então, pelos gestos, etc.
+  - Os requisitos são classificados como - Experiência visual, Funcionalidade, Desempenho e estabilidade, Privacidade e segurança, Google Play e Procedimento de teste
+  - Cumprir todos os requisitos, ou quase todos, significa que o App possui uma maior qualidade para os usuários.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Principais critérios de qualidade do app"
+    link: https://developer.android.com/docs/quality-guidelines/core-app-quality?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Deliver high performing user experiences (inglês)"
+    link: https://developer.android.com/quality
+  - type: SITE
+    title: "Documentação Android: Primeiros passos com telas grandes"
+    link: https://developer.android.com/guide/topics/ui/responsive-layout-overview?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Criar para bilhões"
+    link: https://developer.android.com/docs/quality-guidelines/build-for-billions?hl=pt-br
+alura-contents:
