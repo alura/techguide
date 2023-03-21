@@ -1,5 +1,33 @@
 # React
 ## Nivel 1
+- [ ] **HTML - Fundamentals**:
+   - HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
+   - Learning which tags are required for basic HTML
+   - Creating a text paragraph
+   - Displaying an image
+   - Knowing the difference between 'h1', 'h2', 'h3', etc.
+   - Creating a hyperlinked text
+   - Creating a form with relevant fields
+   - Creating an ordered or unordered list of items
+   - Creating a list of items within a dropdown list
+   - Linking to a CSS file
+   - Creating a table
+   - Adding IDs and classes
+- [ ] **CSS - Fundamentals**:
+   - Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS can be used for very basic document text styling — for example, for changing the color and size of headings and links. It can be used to create a layout — for example, turning a single column of text into a layout with a main content area and a sidebar for related information. It can even be used for effects such as animation.
+   - Learning the visual structure of a page, with 'margin' and 'padding'
+   - Establishing the size with 'width' and 'height'
+   - Learning about the position of an element ('static', 'relative' or 'absolute')
+   - Learning about the display of an element ('block', 'inline', 'inline-block')
+   - Learning how to position images in relation to text
+   - Learning about alignment
+   - Learning about font style
+   - Learning the differences and advantages of using the different units of measurement in CSS (%, relative, etc)
+   - Connecting to the elements (IDs, classes) of an HTML file
+   - Changing the characteristics of an element when the mouse hovers over it
+   - Learning box-sizing
+   - Learning Flexbox
+   - Learning Grid
 - [ ] **JavaScript - Fundamentals**:
    - JavaScript is the world's most popular programming language and is one of the core technologies of the World Wide Web, alongside HTML and CSS. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles.
    - Knowing the primitive types
@@ -38,21 +66,6 @@
    - Linking to a CSS file
    - Creating a table
    - Adding IDs and classes
-- [ ] **CSS - Fundamentals**:
-   - Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS can be used for very basic document text styling — for example, for changing the color and size of headings and links. It can be used to create a layout — for example, turning a single column of text into a layout with a main content area and a sidebar for related information. It can even be used for effects such as animation.
-   - Learning the visual structure of a page, with 'margin' and 'padding'
-   - Establishing the size with 'width' and 'height'
-   - Learning about the position of an element ('static', 'relative' or 'absolute')
-   - Learning about the display of an element ('block', 'inline', 'inline-block')
-   - Learning how to position images in relation to text
-   - Learning about alignment
-   - Learning about font style
-   - Learning the differences and advantages of using the different units of measurement in CSS (%, relative, etc)
-   - Connecting to the elements (IDs, classes) of an HTML file
-   - Changing the characteristics of an element when the mouse hovers over it
-   - Learning box-sizing
-   - Learning Flexbox
-   - Learning Grid
 - [ ] **React - Components**:
    - React lets you define components as classes or functions. Components defined as classes provide more features. They accept arbitrary inputs (called "props") and return React elements describing what should appear on the screen.
    - Understanding how components work
@@ -88,7 +101,7 @@
    - The `useRef` Hook allows you to persist values between renders.
    - Storing a mutable value that does not cause a re-render when updated
    - Accessing a DOM element directly
-- [ ] **Design System Libraries**:
+- [ ] **React - Design System Libraries**:
    - A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build any number of applications.
 - [ ] **React Developer Tools**:
    - React Developer Tools is used to inspect React components, edit props and state, and identify performance problems.
@@ -105,7 +118,7 @@
 - [ ] **Styled Components**:
    - Styled-components allow you to write actual CSS code to style your components using tagged template literals and the power of CSS.
    - Handling CSS code in components
-- [ ] **React Webrouting**:
+- [ ] **React - Webrouting**:
    - Manipulating navigation between interfaces and components
 - [ ] **TypeScript - Fundamentals**:
    - TypeScript is a strongly typed programming language that builds on JavaScript.

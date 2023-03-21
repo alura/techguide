@@ -1,0 +1,22 @@
+name: Android - Acessibilidade
+logo: 
+short-description:
+key-objectives:
+  - Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e aplicativos sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas, incluindo pessoas com necessidades de acessibilidades, como pessoas com problemas de visão, daltonismo, dificuldades auditivas, comprometimento motor, deficiência cognitivas e muitos outros tipos de deficiência.
+  - Aumentar a visibilidade do texto
+  - Usar controles grandes e simples
+  - Descrever cada elemento de IU
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Tornar os apps mais acessíveis"
+    link: https://developer.android.com/guide/topics/ui/accessibility/apps?hl=pt-br#text-visibility
+  - type: SITE
+    title: "Documentação Android: Princípios para melhorar a acessibilidade do app"
+    link: https://developer.android.com/guide/topics/ui/accessibility/principles?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Testar a acessibilidade do seu app"
+    link: https://developer.android.com/guide/topics/ui/accessibility/testing?hl=pt-br
+  - type: YOUTUBE
+    title: "Chico Rasia: View customizada no Android com Kotlin, parte 3: Acessibilidade com Talkback"
+    link: https://www.youtube.com/watch?v=4nJH3djiVuk&ab_channel=ChicoRasia

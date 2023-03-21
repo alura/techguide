@@ -2,8 +2,11 @@ name: Acessibilidade em Flutter
 logo: 
 short-description:
 key-objectives:
-  - Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e aplicativos sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas.
-  - Escrever código com acessibilidade em mente
+  - Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e aplicativos sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas, incluindo pessoas com necessidades de acessibilidades, como pessoas com problemas de visão, daltonismo, dificuldades auditivas, comprometimento motor, deficiência cognitivas e muitos outros tipos de deficiência.
+  - Escrever código com acessibilidade em mente  
+  - Aumentar a visibilidade do texto
+  - Usar controles grandes e simples
+  - Descrever cada elemento de IU
 aditional-objectives:
 contents:
   - type: SITE

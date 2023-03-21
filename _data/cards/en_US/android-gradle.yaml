@@ -1,0 +1,36 @@
+name: Android - Gradle
+logo: 
+short-description: 
+key-objectives:
+  - Gradle and the Android plug-in for Gradle(AGP) provide a flexible way to build, build, manage, and package your Android app or library.
+  - What is a build tool
+  - Learning the structure of an Android project as a multi-module Gradle project
+  - What is Gradle for and how to use it
+  - What are dependencies and how to use them
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Configure your build"
+    link: https://developer.android.com/studio/build
+  - type: SITE
+    title: "Gradle tips and recipes"
+    link: https://developer.android.com/studio/build/gradle-tips
+  - type: SITE
+    title: "Add build dependencies"
+    link: https://developer.android.com/studio/build/dependencies
+  - type: SITE
+    title: "Documentação Android: Guide to Android app modularization"
+    link: https://developer.android.com/topic/modularization
+  - type: SITE
+    title: "GeeksForGeeks: Android | build.gradle"
+    link: https://www.geeksforgeeks.org/android-build-gradle/
+  - type: ARTICLE
+    title: "Intro to App Modularization"
+    link: https://proandroiddev.com/intro-to-app-modularization-42411e4c421e
+  - type: YOUTUBE
+    title: "Gradle: First Steps with Android Studio and Gradle"
+    link: https://www.youtube.com/watch?v=ieeD3Dc5OjM
+  - type: YOUTUBE
+    title: "Philipp Lackner: Gradle for Beginners (Build Types, Product Flavors, Build Variants, Source Sets)"
+    link: https://www.youtube.com/watch?v=o0M4f5djJTQ
+alura-contents:

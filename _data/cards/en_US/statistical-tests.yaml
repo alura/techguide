@@ -1,0 +1,29 @@
+name: Statistical Tests
+logo: 
+short-description:
+key-objectives:
+  - Statistical tests are used to examine relationships between variables and test hypotheses.
+  - Creating confidence intervals for samples
+  - Comparing groups of samples
+  - Performing statistical tests
+  - Designing experiments to collect data
+  - Proposing mathematical models to understand a given problem
+  - Building color maps to aid data interpretation
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "StrataScratch: Basic Types of Statistical Tests in Data Science"
+    link: https://www.stratascratch.com/blog/basic-types-of-statistical-tests-in-data-science/
+  - type: ARTICLE
+    title: "5 Useful Statistical Tests in Data Science"
+    link: https://medium.com/mlearning-ai/5-useful-statistical-tests-in-data-science-3bd622028bae
+  - type: ARTICLE
+    title: "How to Compare Two or More Distributions"
+    link: https://towardsdatascience.com/how-to-compare-two-or-more-distributions-9b06ee4d30bf
+  - type: YOUTUBE
+    title: "Amour Learning: How To Know Which Statistical Test To Use For Hypothesis Testing"
+    link: https://www.youtube.com/watch?v=ChLO7wwt7h0
+  - type: YOUTUBE
+    title: "Dr Nic's Maths and Stats: Statistical Tests - Choosing which statistical test to use"
+    link: https://www.youtube.com/watch?v=rulIUAN0U3w
+alura-contents:

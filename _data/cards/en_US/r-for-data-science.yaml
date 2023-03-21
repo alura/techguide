@@ -1,0 +1,28 @@
+name: R for Data Science
+logo: 
+short-description:
+key-objectives:
+  - R is a programming language commonly used in computational statistics and data analysis.
+  - Learning to analyze, clean and visualize data
+  - Creating graphs
+  - Joining databases
+  - Drawinging statistical summaries
+  - Learning predictive models in R
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "The R Programming Language: An Introduction"
+    link: https://towardsdatascience.com/how-to-learn-r-for-data-science-3a7c8326f969
+  - type: ARTICLE
+    title: "Python vs (and) R for Data Science"
+    link: https://brianray-7981.medium.com/python-vs-and-r-for-data-science-833b48ccc91d
+  - type: SITE
+    title: "R for Data Science: Visualize, Model, Transform, Tidy and Import Data"
+    link: https://r4ds.had.co.nz/
+  - type: YOUTUBE
+    title: "Simplilearn: R For Data Science Full Course"
+    link: https://www.youtube.com/watch?v=iROHLA_TXQM
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: R Programming Tutorial - Learn the Basics of Statistical Computing"
+    link: https://www.youtube.com/watch?v=_V8eKsto3Ug
+alura-contents:

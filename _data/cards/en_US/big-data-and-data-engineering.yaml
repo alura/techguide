@@ -1,0 +1,45 @@
+name: Big Data and Data Engineering
+logo: 
+short-description:
+key-objectives:
+  - Big data is the area of knowledge that studies how to process, analyze, and derive information from data sets that are too large to be analyzed by traditional systems.
+  - Data engineering involves the development and organization of processes for collecting, storing, and transforming large-scale data.
+  - Creating a data pipeline
+  - Knowing Apache Airflow
+  - Knowing Apache Spark
+  - Knowing the Data Lake concept
+  - Interacting with servers in the cloud
+  - Creating Spark applications
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Oracle: What is Big Data?"
+    link: https://www.oracle.com/big-data/what-is-big-data/
+  - type: SITE
+    title: "GeeksForGeeks: What is Big Data?"
+    link: https://www.geeksforgeeks.org/what-is-big-data/
+  - type: SITE
+    title: "TechTarget: What is a data engineer?"
+    link: https://www.techtarget.com/searchdatamanagement/definition/data-engineer
+  - type: ARTICLE
+    title: "An Introduction to Big Data Concepts and Terminology"
+    link: https://www.digitalocean.com/community/tutorials/an-introduction-to-big-data-concepts-and-terminology
+  - type: ARTICLE
+    title: "Data Engineering 101: Introduction to Data Engineering."
+    link: https://dev.to/kinyungu_denis/data-engineering-101-introduction-to-data-engineering-4md3
+  - type: YOUTUBE
+    title: "Simplilearn: Big Data Tutorial For Beginners"
+    link: https://www.youtube.com/watch?v=KCEPoPJ8sWw
+  - type: YOUTUBE
+    title: "AmpCode: Big Data Hadoop Full Course"
+    link: https://www.youtube.com/playlist?list=PL6UwySlcwEYJ2hFuGIvr4VEHUAfl-GCNT
+  - type: YOUTUBE
+    title: "coder2j: Airflow Tutorial for Beginners - Full Course in 2 Hours"
+    link: https://www.youtube.com/watch?v=K9AnJ9_ZAXE
+  - type: YOUTUBE
+    title: "Simplilearn: Spark Full Course"
+    link: https://www.youtube.com/watch?v=S2MUhGA3lEw
+  - type: YOUTUBE
+    title: "Intellipaat: Data Engineering Course | Become A Data Engineer"
+    link: https://www.youtube.com/watch?v=OoHPhLV43gg
+alura-contents:

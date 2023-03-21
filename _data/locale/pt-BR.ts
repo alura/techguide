@@ -21,11 +21,11 @@ export default {
   "PATH.T_BLOCK_SUGGESTED_CONTENT.SITE.LABEL": "Site",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.SITE.BG": "#6DD5EC",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.SITE.COLOR": "#002A42",
-  
+
   "PATH.T_BLOCK_SUGGESTED_CONTENT.ARTICLE.LABEL": "Artigo",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.ARTICLE.BG": "#FDB9C6",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.ARTICLE.COLOR": "#670032",
-  
+
   "PATH.T_BLOCK_SUGGESTED_CONTENT.COURSE.LABEL": "Curso",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.COURSE.BG": "#BEEC6D",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.COURSE.COLOR": "#043300",
@@ -33,7 +33,7 @@ export default {
   "PATH.T_BLOCK_SUGGESTED_CONTENT.YOUTUBE.LABEL": "YouTube",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.YOUTUBE.BG": "#FF0000",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.YOUTUBE.COLOR": "#FFFFFF",
-  
+
   "PATH.T_BLOCK_SUGGESTED_CONTENT.PODCAST.LABEL": "Podcast",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.PODCAST.BG": "#AB7EE4",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.PODCAST.COLOR": "#300031",
@@ -89,7 +89,7 @@ export default {
     }
   ],
   "GUIDES.SHOW_ALL": "Ver todos",
-  "GUIDES.NOT.FOUND": "Nenhum guia encontrado", 
+  "GUIDES.NOT.FOUND": "Nenhum guia encontrado",
   "GUIDE.FILTERS": [
     {
       "label": "Todos",
@@ -124,5 +124,25 @@ export default {
   "FOOTER.PLAYSTORE": "https://play.google.com/store/apps/details?id=br.com.alura.mobi",
   "FOOTER.APPSTORE": "https://apps.apple.com/br/app/alura-cursos-online/id1225776635",
   "MY.GENERATE_GUIDE": "Gerando seu guia...",
-  "DEMO":"DEMO"
+  "COMPANIES": [
+    {
+      "githubUser": "bancodobrasil",
+      "name": "Banco do Brasil",
+      "logo": "/assets/image/company/bb.png",
+      "description":
+        "Estes guias foram criados pelo <strong>Banco do Brasil</strong> para te ajudar a descobrir caminhos e se tornar profissional <strong>&lt;em T&gt;</strong>.",
+      "guideDescription": "Este guia foi criado pelo <strong>Banco do Brasil</strong> para te ajudar a descobrir caminhos e se tornar profissional <strong>&lt;em T&gt;</strong>.",
+      "guides": [
+        {
+          "title": "Mobile iOS",
+          "link": "/my?url=https://github.com/bancodobrasil/techguide/blob/bb/externals/bb/mobile-ios.json",
+        },
+        {
+          "title": "Front End Web",
+          "link": "/my?url=https://github.com/bancodobrasil/techguide/blob/bb/externals/bb/frontend-web.json",
+        },
+      ],
+    }
+  ],
+  "DEMO": "DEMO"
 }

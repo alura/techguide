@@ -5,12 +5,13 @@ import TShape from "./patterns/TShape";
 import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
 
 interface PathScreenProps {
+  external?: string;
   guide: PathScreenGetGuideBySlugQuery["guide"];
 }
-function PathScreen({ guide }: PathScreenProps) {
+function PathScreen({ external, guide }: PathScreenProps) {
   return (
     <ScreenHeroContainer guide={guide}>
-      <TShape guide={guide} />
+      <TShape guide={guide} externalGuideCreator={external} />
     </ScreenHeroContainer>
   );
 }

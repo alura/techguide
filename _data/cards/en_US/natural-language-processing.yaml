@@ -1,0 +1,47 @@
+name: Natural Language Processing
+logo: 
+short-description:
+key-objectives:
+  - Natural Language Processing (NLP) is a subfield of artificial intelligence and linguistics that studies the problems of automatic generation and understanding of natural human languages.
+  - Sentiment Analysis
+  - Creating visualizations to facilitate the analysis of textual data
+  - Knowing the NLTK and Scikit-Learn libraries
+  - Normalizing texts
+  - Using TF-IDF and Ngrams to improve classification
+  - Using SKlearn
+  - Using Regex in PLN
+  - Knowing Word2Vec
+  - Combining word vectors to represent texts and classify them
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "IBM: What is natural language processing (NLP)?"
+    link: https://www.ibm.com/topics/natural-language-processing
+  - type: SITE
+    title: "GeeksForGeeks: Introduction to Natural Language Processing"
+    link: https://www.geeksforgeeks.org/introduction-to-natural-language-processing/
+  - type: ARTICLE
+    title: "A Practitioner's Guide to Natural Language Processing (Part I) — Processing & Understanding Text"
+    link: https://towardsdatascience.com/a-practitioners-guide-to-natural-language-processing-part-i-processing-understanding-text-9f4abfd13e72
+  - type: ARTICLE
+    title: "Gentle Start to Natural Language Processing using Python"
+    link: https://towardsdatascience.com/gentle-start-to-natural-language-processing-using-python-6e46c07addf3
+  - type: ARTICLE
+    title: "Introduction to Natural Language Processing for Text"
+    link: https://towardsdatascience.com/introduction-to-natural-language-processing-for-text-df845750fb63
+  - type: ARTICLE
+    title: "How I used Natural Language Processing to extract context from news headlines"
+    link: https://towardsdatascience.com/how-i-used-natural-language-processing-to-extract-context-from-news-headlines-df2cf5181ca6
+  - type: YOUTUBE
+    title: "Simplilearn: Natural Language Processing In 5 Minutes | What Is NLP And How Does It Work?"
+    link: https://www.youtube.com/watch?v=CMrHM8a3hqw
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Natural Language Processing (NLP) Tutorial with Python & NLTK"
+    link: https://www.youtube.com/watch?v=X2vAabgKiuM
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Natural Language Processing with spaCy & Python - Course for Beginners"
+    link: https://www.youtube.com/watch?v=dIUTsFT2MeQ
+  - type: YOUTUBE
+    title: "Stanford Online: Stanford CS224N - NLP with Deep Learning"
+    link: https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ
+alura-contents:

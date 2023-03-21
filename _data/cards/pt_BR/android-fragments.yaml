@@ -1,0 +1,32 @@
+name: Android - Fragments
+logo: 
+short-description:
+key-objectives:
+  - Um Fragment representa o comportamento ou uma parte da interface do usuário em uma Activity hospedeira. É possível combinar vários fragmentos em uma única Activity para criar uma IU de vários painéis e reutilizar um fragmento em diversas atividades. Você pode imaginar um fragment como uma seção modular de uma Activity, que tem o próprio ciclo de vida, recebe os próprios eventos de entrada e que pode ser adicionada ou removida durante a execução da Activity.
+  - Entender o que é um Fragment
+  - Como usar e reutilizar Fragments na mesma Activity
+  - Entender os motivos para utilizar Fragments em projetos Android
+  - Implementar layouts com múltiplos painéis
+  - Migrar projetos Android que utilizam apenas Activities para utilizar fragments
+  - Lidar com transações do gerenciador de fragments
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Fragmentos"
+    link: https://developer.android.com/guide/components/fragments?hl=pt-br  
+  - type: SITE
+    title: "Documentação Android: Ciclo de Vida dos Fragments (inglês)"
+    link: https://developer.android.com/guide/fragments/lifecycle?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Filosofia de projeto com Fragments"
+    link: https://developer.android.com/guide/components/fragments?hl=pt-br#Design
+  - type: ARTICLE
+    title: "Aprenda a Usar os Fragments em 4 Passos"
+    link: https://www.androidpro.com.br/blog/desenvolvimento-android/fragments/
+  - type: YOUTUBE
+    title: "Pedro Henrique de Oliveira e Silva: Android - Utilizando Fragments"
+    link: https://www.youtube.com/watch?v=Lo2qofVfA-I&ab_channel=PedroHenriquedeOliveiraeSilva
+alura-contents:
+  - type: COURSE
+    title: "Android Fragments: Reutilizando componentes visuais"
+    link: https://cursos.alura.com.br/course/android-fragments

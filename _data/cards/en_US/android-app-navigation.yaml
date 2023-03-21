@@ -1,0 +1,33 @@
+name: Android - App navigation
+logo: 
+short-description:
+key-objectives:
+  - Screen navigation in apps is fundamental to the user experience of Android Apps. For this it is essential to know the principles of Android navigation.
+  - Learning what the Navigation library is and how you can implement it, either for the Views system or for Jetpack Compose
+  - Integrating navigation with app components, either in tabbed navigation, or in visual component views depending on the screen
+  - Knowing what an Android back stack task is
+  - Knowing the app links - Deep Link, Web Links, and Android App Links
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Principles of navigation"
+    link: https://developer.android.com/guide/navigation/navigation-principles
+  - type: SITE
+    title: "Android Documentation: Navigation"
+    link: https://developer.android.com/guide/navigation?hl=pt-br
+  - type: SITE
+    title: "Android Documentation: Navigating with Compose"
+    link: https://developer.android.com/jetpack/compose/navigation
+  - type: SITE
+    title: "Android Documentation: Tasks and the back stack"
+    link: https://developer.android.com/guide/components/activities/tasks-and-back-stack
+  - type: ARTICLE
+    title: "Understand Jetpack Compose Navigation in 3 Minutes"
+    link: https://medium.com/@cybercoder.naj/compose-navigation-in-3-minutes-5cff3c57c34e
+  - type: YOUTUBE
+    title: "Android Developers: Android Jetpack - Introducing Navigation component"
+    link: https://www.youtube.com/watch?v=Y0Cs2MQxyIs
+  - type: YOUTUBE
+    title: "Coding in Flow: Getting Started With Navigation Component"
+    link: https://www.youtube.com/playlist?list=PLrnPJCHvNZuCamMFswP597mUF-whXoAA6
+alura-contents:

@@ -1,13 +1,15 @@
 import React from "react";
-import { Box, Link, Text } from "@src/components";
+import { Box, Image, Link, Text } from "@src/components";
 import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
 import { TItemCard } from "./patterns/TItemCard";
 import { useI18n, useI18nLocale } from "@src/infra/i18n";
+import { parseContent } from "@src/infra/i18n/parseContent";
 
 interface TShapeProps {
   guide: PathScreenGetGuideBySlugQuery["guide"];
+  externalGuideCreator?: string;
 }
-export default function TShape({ guide }: TShapeProps) {
+export default function TShape({ guide, externalGuideCreator }: TShapeProps) {
   const i18n = useI18n();
   const locale = useI18nLocale();
   const leftSide = guide.collaborations[0];
@@ -15,6 +17,14 @@ export default function TShape({ guide }: TShapeProps) {
   const expertiseStart = guide.expertises[0];
   const expertiseMid = guide.expertises[1];
   const expertiseEnd = guide.expertises[2];
+
+  const isExternalGuide = externalGuideCreator;
+  const externalGuideMetadata = i18n
+    .contentRaw("COMPANIES")
+    ?.find((company) => {
+      if (company.githubUser === externalGuideCreator) return true;
+      return false;
+    });
 
   const TItems = [
     {
@@ -43,6 +53,77 @@ export default function TShape({ guide }: TShapeProps) {
         },
       }}
     >
+      {isExternalGuide && (
+        <Box
+          styleSheet={{
+            display: "flex",
+            flexDirection: {
+              xs: "column",
+              md: "row",
+            },
+            maxWidth: "605px",
+            margin: "0 auto 48px auto",
+            gap: {
+              xs: "20px",
+              md: "8px",
+            },
+          }}
+        >
+          <Box
+            styleSheet={{
+              backgroundColor: "#FFFFFF",
+              maxWidth: "173px",
+              padding: "12px",
+              borderRadius: "11px",
+              boxShadow: "0px 11.9189px 51.2514px #8AA2AA",
+              margin: "auto",
+            }}
+          >
+            <Image
+              src={externalGuideMetadata.logo}
+              alt={`Logo ${externalGuideMetadata.name}`}
+              styleSheet={{
+                width: "100%",
+                height: "100%",
+                objectFit: "contain",
+              }}
+            />
+          </Box>
+          <Box
+            styleSheet={{
+              background:
+                "linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%)",
+              border: "1px solid #242A2E",
+              backdropFilter: "blur(22.8691px)",
+              borderRadius: "14px",
+              padding: "18px",
+              flex: 1,
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <Text
+              tag="p"
+              styleSheet={{
+                fontWeight: "400",
+                fontSize: "14px",
+                color: "#8992A1",
+                maxWidth: "520px",
+              }}
+            >
+              <Box
+                tag="span"
+                styleSheet={{
+                  display: "block",
+                }}
+              >
+                {parseContent(externalGuideMetadata.guideDescription)}
+              </Box>
+            </Text>
+          </Box>
+        </Box>
+      )}
       <Box
         styleSheet={{
           display: "grid",
@@ -155,35 +236,37 @@ export default function TShape({ guide }: TShapeProps) {
           alignItems: "center",
         }}
       >
-        <Link
-          href={`https://github.com/alura/techguide/blob/main/_data/downloadFiles/${locale}/${guide.slug}.md`}
-          styleSheet={{
-            marginTop: "23px",
-            width: "100%",
-            maxWidth: "400px",
-            display: "flex",
-            gap: "6px",
-            alignItems: "center",
-            justifyContent: "center",
-            flexDirection: "row",
-            borderRadius: "8px",
-            border: "1px solid #0052FF",
-            textDecoration: "none",
-            padding: "14px",
-            fontSize: "14px",
-            backgroundColor: "#0052FF",
-            hover: {
-              opacity: 1,
-              backgroundColor: "transparent",
-            },
-            focus: {
-              opacity: 1,
-              backgroundColor: "transparent",
-            },
-          }}
-        >
-          {i18n.content("TSHAPE.BUTTON.DOWNLOAD_T_FILE")}
-        </Link>
+        {!isExternalGuide && (
+          <Link
+            href={`https://github.com/alura/techguide/blob/main/_data/downloadFiles/${locale}/${guide.slug}.md`}
+            styleSheet={{
+              marginTop: "23px",
+              width: "100%",
+              maxWidth: "400px",
+              display: "flex",
+              gap: "6px",
+              alignItems: "center",
+              justifyContent: "center",
+              flexDirection: "row",
+              borderRadius: "8px",
+              border: "1px solid #0052FF",
+              textDecoration: "none",
+              padding: "14px",
+              fontSize: "14px",
+              backgroundColor: "#0052FF",
+              hover: {
+                opacity: 1,
+                backgroundColor: "transparent",
+              },
+              focus: {
+                opacity: 1,
+                backgroundColor: "transparent",
+              },
+            }}
+          >
+            {i18n.content("TSHAPE.BUTTON.DOWNLOAD_T_FILE")}
+          </Link>
+        )}
         <Link
           href="/"
           styleSheet={{

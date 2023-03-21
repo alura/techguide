@@ -1,0 +1,36 @@
+name: Kotlin - Assíncrono
+logo: 
+short-description:
+key-objectives:
+  - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
+  - Aprender as possibilidades para rodar o código de maneira assíncrona no Android
+  - Conhecer o pacote java.concurrent e as suas soluções
+  - Utilizar Coroutines como uma solução de código assíncrono no Kotlin
+  - Entender e usar estruturas reativas como LiveData, Flow, StateFlow, RX, etc
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Corrotinas do Kotlin no Android"
+    link: https://developer.android.com/kotlin/coroutines?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Fluxos em Kotlin no Android"
+    link: https://developer.android.com/kotlin/flow?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: StateFlow e SharedFlow"
+    link: https://developer.android.com/kotlin/flow/stateflow-and-sharedflow?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Visão geral do LiveData"
+    link: https://developer.android.com/topic/libraries/architecture/livedata?hl=pt-br
+  - type: ARTICLE
+    title: "Introdução ao RX Java com Kotlin"
+    link: https://nglauber.medium.com/introdu%C3%A7%C3%A3o-ao-rx-java-com-kotlin-90c58d184c6b
+  - type: YOUTUBE
+    title: "Kotlin Coroutines: Criando um Projeto Android do Zero Com a Arquitetura MVVM e LiveData"
+    link: https://www.youtube.com/watch?v=M9nmW9BSKUA
+alura-contents:
+  - type: SITE
+    title: "Operações Assíncronas com Coroutines no Kotlin"
+    link: https://www.alura.com.br/videos/operacoes-assincronas-com-coroutines-do-kotlin-no-android-c58
+  - type: ARTICLE
+    title: "Retrofit com Coroutines e LiveData no Android"
+    link: https://www.alura.com.br/artigos/retrofit-com-coroutines-e-livedata-no-android
