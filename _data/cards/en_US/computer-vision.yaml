@@ -1,0 +1,53 @@
+name: Computer Vision
+logo: 
+short-description:
+key-objectives:
+  - Computer Vision is an interdisciplinary scientific field that deals with how computers can gain high-level knowledge from digital images or videos. From an engineering perspective, it seeks to understand and automate tasks that the human visual system can do.
+  - Extracting regions of interest from an image
+  - Normalizing and pre-processing image data
+  - Building classifiers for face recognition
+  - Extracting regions of the human face based on facial landmarks
+  - Analyzing different conditions of each component of the human face
+  - Using OpenCV
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "NVIDIA: Computer Vision"
+    link: https://www.nvidia.com/en-us/glossary/data-science/computer-vision/
+  - type: SITE
+    title: "GeeksForGeeks: Computer Vision – Introduction"
+    link: https://www.geeksforgeeks.org/computer-vision-introduction/
+  - type: ARTICLE
+    title: "Introduction to Computer Vision"
+    link: https://towardsdatascience.com/introduction-to-computer-vision-b2b74f62c889
+  - type: ARTICLE
+    title: "Introduction to Computer Vision & Camera Calibration for Self Driving Cars"
+    link: https://sawhney-prateek97.medium.com/introduction-to-computer-vision-camera-calibration-for-self-driving-cars-a69d7912229
+  - type: ARTICLE
+    title: "Introduction To Feature Detection And Matching"
+    link: https://medium.com/data-breach/introduction-to-feature-detection-and-matching-65e27179885d
+  - type: ARTICLE
+    title: "Image Classification with TensorFlow"
+    link: https://medium.com/mlearning-ai/image-classification-with-tensorflow-2-54fc601dfb6a
+  - type: ARTICLE
+    title: "Computer Vision: Convolution Basics"
+    link: https://towardsdatascience.com/computer-vision-convolution-basics-2d0ae3b79346
+  - type: ARTICLE
+    title: "Image Processing with Fourier Transform"
+    link: https://pub.towardsai.net/image-processing-with-fourier-transform-4ebc66651f2d
+  - type: YOUTUBE
+    title: "CrashCourse: Computer Vision - Crash Course"
+    link: https://www.youtube.com/watch?v=-4E2-0sxVUM
+  - type: YOUTUBE
+    title: "Computer vision engineer: Computer vision roadmap | How to become a computer vision engineer"
+    link: https://www.youtube.com/watch?v=DfPAvepK5Ws
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: OpenCV Python Course - Learn Computer Vision and AI"
+    link: https://www.youtube.com/watch?v=P4Z8_qe2Cu0
+  - type: YOUTUBE
+    title: "Stanford University: Computer Vision"
+    link: https://www.youtube.com/playlist?list=PLf7L7Kg8_FNxHATtLwDceyh72QQL9pvpQ
+  - type: YOUTUBE
+    title: "Murtaza's Workshop - Robotics and AI: Computer Vision Game Development in 3 Hours"
+    link: https://www.youtube.com/watch?v=lDfplevUWRw
+alura-contents:

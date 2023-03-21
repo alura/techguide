@@ -1,4 +1,6 @@
 name: Python
+tags: 
+  - back-end
 expertise:
   - name: Python Jr
     cards: 
@@ -11,6 +13,8 @@ expertise:
       - python-collections:
         priority: 9
       - python-testing:
+        priority: 9
+      - python-api:
         priority: 9
   - name: Python Mid
     cards:
@@ -34,17 +38,22 @@ expertise:
         priority: 7
       - python-static-typing:
         priority: 7
-      - python-asynchronous:
-        priority: 8
-      - python-special-methods:
-        priority: 8
       - python-generators:
         priority: 8
+      - python-asynchronous:
+        priority: 8
+      - python-args-kwargs:
+        priority: 7
+      - python-dunder-methods:
+        priority: 6
         optional: true
       - python-metaprogramming:
-        priority: 7
-      - python-process-pools:
-        priority: 7
+        priority: 6
+      - python-multiprocessing:
+        priority: 6
+      - reflection-and-attributes:
+        priority: 5
+        optional: true
 collaboration:
   - name: Infraestrutura
     cards:

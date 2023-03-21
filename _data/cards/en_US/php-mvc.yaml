@@ -1,0 +1,28 @@
+name: PHP - MVC
+logo: 
+short-description:
+key-objectives:
+  - Model–view–controller (MVC) is a software architectural pattern commonly used for developing user interfaces that divide the related program logic into three interconnected elements. This is done to separate internal representations of information from the ways information is presented to the user.
+  - Understanding the concept of the MVC (Model-View-Controller) pattern
+  - Splitting the responsibilities between the MVC layers
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "JavaTPoint: PHP MVC Architecture"
+    link: https://www.javatpoint.com/php-mvc-architecture
+  - type: ARTICLE
+    title: "How to build a simple PHP MVC framework"
+    link: https://www.giuseppemaccario.com/how-to-build-a-simple-php-mvc-framework/
+  - type: ARTICLE
+    title: "Create your own MVC framework in PHP"
+    link: https://medium.com/@nggggg/create-your-own-mvc-framework-in-php-af7bd1f0ca19
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Use PHP to Create an MVC Framework - Full Course"
+    link: https://www.youtube.com/watch?v=6ERdu4k62wI
+  - type: YOUTUBE
+    title: "Quick Programming: PHP MVC Framework from scratch"
+    link: https://www.youtube.com/watch?v=q0JhJBYi4sw
+  - type: YOUTUBE
+    title: "The Codeholic: Building PHP MVC Framework from Scratch"
+    link: https://www.youtube.com/playlist?list=PLLQuc_7jk__Uk_QnJMPndbdKECcTEwTA1
+alura-contents:

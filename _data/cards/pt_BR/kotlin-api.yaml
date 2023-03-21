@@ -1,0 +1,33 @@
+name: Kotlin - Comunicação com APIs
+logo: 
+short-description:
+key-objectives:
+  - Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.
+  - Realizar requisições HTTP para se comunicar com serviços online, como REST API é fundamental na maioria dos Apps Android. Sendo assim, é importante conhecer as principais ferramentas e técnicas necessárias para esse tipo de funcionalidade.
+  - Conhecer bibliotecas famosas no mundo Android para realizar requisições - Retrofit, Ktor ou Volley
+  - Configurar as requisições para executararem de maneira assíncrona
+  - Converter objetos para JSON e vice-versa
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Conectar-se à rede"
+    link: https://developer.android.com/training/basics/network-ops/connecting?hl=pt-br
+  - type: ARTICLE
+    title: "Comunicação HTTP eficiente no Android com Volley"
+    link: https://nglauber.medium.com/comunica%C3%A7%C3%A3o-http-eficiente-no-android-com-volley-9772b4057a5c
+  - type: ARTICLE
+    title: "Consumindo API REST no Android com Retrofit em Kotlin"
+    link: https://medium.com/collabcode/consumindo-api-rest-no-android-com-retrofit-em-kotlin-parte-1-5e752ab8a877
+  - type: YOUTUBE
+    title: "Coder: Como fazer chamadas API usando a biblioteca Android Volley | Kotlin"
+    link: https://www.youtube.com/watch?v=pfqc7ajaLNE
+  - type: YOUTUBE
+    title: "Tiago Aguiar: Retrofit - O Guia Definitivo para Cliente HTTP no Android"
+    link: https://www.youtube.com/watch?v=NPmzpvEQn6I
+alura-contents:
+  - type: ARTICLE
+    title: "Retrofit com Coroutines e LiveData no Android"
+    link: https://www.alura.com.br/artigos/retrofit-com-coroutines-e-livedata-no-android
+  - type: COURSE
+    title: "Android com Kotlin: comunicação com Web API"
+    link: https://www.alura.com.br/curso-online-android-kotlin-comunicacao-web-api

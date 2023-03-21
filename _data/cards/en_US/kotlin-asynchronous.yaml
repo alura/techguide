@@ -1,0 +1,33 @@
+name: Kotlin - Asynchronous
+logo: 
+short-description:
+key-objectives:
+  - In asynchronous programming, the functions are not executed in order. We can interrupt the code to get some other information needed to continue execution. This means that the code waits for another part of the code, and while it waits, it can execute the other parts.
+  - Learning the possibilities to run code asynchronously on Android
+  - Getting to know the java.concurrent package and its solutions
+  - Using Coroutines as a solution for asynchronous code in Kotlin
+  - Understanding and use reactive frameworks like LiveData, Flow, StateFlow, RX, etc
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Kotlin coroutines on Android"
+    link: https://developer.android.com/kotlin/coroutines
+  - type: SITE
+    title: "Android Documentation: Kotlin flows on Android"
+    link: https://developer.android.com/kotlin/flow
+  - type: SITE
+    title: "Android Documentation: StateFlow and SharedFlow"
+    link: https://developer.android.com/kotlin/flow/stateflow-and-sharedflow
+  - type: SITE
+    title: "Android Documentation: LiveData overview"
+    link: https://developer.android.com/topic/libraries/architecture/livedata
+  - type: ARTICLE
+    title: "Fundamentals of RxJava with Kotlin for absolute beginners"
+    link: https://medium.com/@gabrieldemattosleon/fundamentals-of-rxjava-with-kotlin-for-absolute-beginners-3d811350b701
+  - type: YOUTUBE
+    title: "Philipp Lackner: Kotlin Coroutines"
+    link: https://www.youtube.com/playlist?list=PLQkwcJG4YTCQcFEPuYGuv54nYai_lwil_
+  - type: YOUTUBE
+    title: "Stevdza-San: Kotlin Coroutines"
+    link: https://www.youtube.com/playlist?list=PLSrm9z4zp4mE-o3sPq-PqzGHoFAIsQFI6
+alura-contents:

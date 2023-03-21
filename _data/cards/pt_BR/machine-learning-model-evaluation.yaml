@@ -1,0 +1,41 @@
+name: Machine Learning - Avaliação de Modelos
+logo: 
+short-description:
+key-objectives:
+  - A Avaliação de Modelos é o processo que utiliza métricas para nos ajudar a analisar se um modelo treinado terá um bom desempenho de previsão quando exposto a novos conjuntos de dados.
+  - Conhecer diferentes estratégias de avaliação e otimização de modelos
+  - Utilizar um pipeline para treino e validação
+  - Conhecer as principais métricas de avaliação de modelos de machine learning
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Amazon AWS: Avaliar modelos de ML"
+    link: https://docs.aws.amazon.com/pt_br/machine-learning/latest/dg/evaluating_models.html
+  - type: ARTICLE
+    title: "Machine Learning: Métricas, Validação Cruzada, Bias e Variância"
+    link: https://medium.com/@jvsavietto6/machine-learning-m%C3%A9tricas-valida%C3%A7%C3%A3o-cruzada-bias-e-vari%C3%A2ncia-380513d97c95
+  - type: ARTICLE
+    title: "Introdução a Validação-Cruzada: K-Fold"
+    link: https://drigols.medium.com/introdu%C3%A7%C3%A3o-a-valida%C3%A7%C3%A3o-cruzada-k-fold-2a6bced32a90
+  - type: YOUTUBE
+    title: "Canal USP: Sobreajuste, validação cruzada e medição de performance"
+    link: https://www.youtube.com/watch?v=pohax_OCUbs
+  - type: YOUTUBE
+    title: "Fernando dos Santos: Avaliação de Modelos Preditivos - Validação cruzada K-fold"
+    link: https://www.youtube.com/watch?v=E1VAYcKnLxg
+  - type: YOUTUBE
+    title: "Iury Rosal: Validação Cruzada (Cross Validation)"
+    link: https://www.youtube.com/watch?v=CWxaXyXZ-1A
+alura-contents:
+  - type: ARTICLE
+    title: "Conhecendo a validação cruzada"
+    link: https://www.alura.com.br/artigos/conhecendo-a-validacao-cruzada
+  - type: COURSE
+    title: "Curso Machine Learning: validação de modelos"
+    link: https://cursos.alura.com.br/course/machine-learning-validando-modelos
+  - type: COURSE
+    title: "Curso Machine Learning parte 1: otimização de modelos através de hiperparâmetros"
+    link: https://cursos.alura.com.br/course/machine-learning-otimizacao-de-modelos-atraves-de-hiperparametros
+  - type: COURSE
+    title: "Curso Machine Learning parte 2: otimização com exploração aleatória"
+    link: https://cursos.alura.com.br/course/machine-learning-otimizacao-com-exploracao-aleatoria

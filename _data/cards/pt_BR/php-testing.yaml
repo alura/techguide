@@ -1,0 +1,57 @@
+name: PHP - Testes
+logo: 
+short-description:
+key-objectives:
+  - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+  - Usar testes unitários
+  - Usar testes de integração
+  - Usar testes de comportamento (behavior)
+  - Usar mocks
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Testes Unitários: Fundamentos e Qualidade de Software!"
+    link: https://dev.to/wnqueiroz/testes-unitarios-fundamentos-e-qualidade-de-software-5af0
+  - type: ARTICLE
+    title: "Testes unitários com PHP 7"
+    link: https://medium.com/@bernardoamaral/testes-unit%C3%A1rios-com-php-7-b018164cd284
+  - type: ARTICLE
+    title: "Os Diferentes Tipos de Testes"
+    link: https://medium.com/elefante-yogue/m1-aula-1-os-diferentes-tipos-de-testes-8943dfe1c476
+  - type: ARTICLE
+    title: "Uma Breve introdução a testes em PHP"
+    link: https://medium.com/trainingcenter/phpunit-e-cobertura-de-c%C3%B3digo-uma-breve-introdu%C3%A7%C3%A3o-a-testes-em-php-47c7ffb7b5ba
+  - type: ARTICLE
+    title: "Testes de Aceitação com PHP"
+    link: https://medium.com/trainingcenter/testes-de-aceita%C3%A7%C3%A3o-com-php-da06054c64dd
+  - type: YOUTUBE
+    title: "Dias de Dev: PHPUnit - Crie testes de maneira profissional em PHP"
+    link: https://www.youtube.com/watch?v=1oTRpTPEyX0
+  - type: YOUTUBE
+    title: "Dias de Dev: O que são Testes Automatizados"
+    link: https://www.youtube.com/watch?v=O81uVNg4nEk
+  - type: YOUTUBE
+    title: "Dias de Dev: Pest - Uma nova forma de escrever testes em PHP"
+    link: https://www.youtube.com/watch?v=c7s4MW1OGoY
+alura-contents:
+  - type: ARTICLE
+    title: "Tipos de testes: quais os principais e por que utilizá-los?"
+    link: https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los
+  - type: PODCAST
+    title: "Hipsters.tech: Testes Automatizados - Hipsters 51"
+    link: https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535
+  - type: YOUTUBE
+    title: "Alura: Pirâmide de Testes"
+    link: https://www.youtube.com/watch?v=gVJ1Lap-JYA
+  - type: COURSE
+    title: "Curso PHP e TDD: testes com PHPUnit"
+    link: https://cursos.alura.com.br/course/phpunit-tdd
+  - type: COURSE
+    title: "Curso Testes de integração com PHP: testando o acesso à API e ao banco de dados"
+    link: https://cursos.alura.com.br/course/php-testes-integracao
+  - type: COURSE
+    title: "Curso PHP e Selenium: testes de ponta a ponta"
+    link: https://cursos.alura.com.br/course/php-testes-end-to-end
+  - type: COURSE
+    title: "Curso PHP e Behavior Driven Development: BDD com Behat"
+    link: https://cursos.alura.com.br/course/php-introducao-bdd

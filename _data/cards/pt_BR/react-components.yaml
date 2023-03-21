@@ -1,0 +1,61 @@
+name: React - Componentes
+logo: 
+short-description:
+key-objectives:
+  - O React permite definir componentes como classes ou funções. Componentes definidos como classes fornecem mais recursos. Eles aceitam entradas arbitrárias (chamadas "props") e retornam elementos React descrevendo o que deve aparecer na tela.
+  - Para que servem e como funcionam componentes
+  - Conhecer a biblioteca Styled Components
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Criando Styled Components Com React"
+    link: https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/
+  - type: SITE
+    title: "React: Documentação - Componentes e Props"
+    link: https://pt-br.reactjs.org/docs/components-and-props.html#gatsby-focus-wrapper
+  - type: SITE
+    title: "MDN Web Docs: Começando com React - Explorando seu primeiro componente React"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#explorando_seu_primeiro_componente_react_%E2%80%94_%3Capp%3E
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: CSS-in-JS na prática! Criando componentes com React e CSS no NextJS"
+    link: https://www.youtube.com/watch?v=aDKxJfJiM28
+alura-contents:
+  - type: ARTICLE
+    title: "React: o que é, como funciona e um Guia dessa popular ferramenta JS"
+    link: https://www.alura.com.br/artigos/react-js
+  - type: ARTICLE
+    title: "React: componentes com Styled Components"
+    link: https://www.alura.com.br/artigos/react-componentes-com-styled-components
+  - type: SITE
+    title: "Ciclo de vida de um componente React"
+    link: https://cursos.alura.com.br/extra/alura-mais/ciclo-de-vida-de-um-componente-react-c1333
+  - type: COURSE
+    title: "Imersão React: AluraFlix"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-1-react-components-e-aluraflix-c18
+  - type: COURSE
+    title: "Imersão React: AluraQuiz"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-1-react-styled-components-e-next-js-c33
+  - type: COURSE
+    title: "Imersão React: AluraKut"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-1-components-com-react-styled-components-e-nextjs-c53
+  - type: COURSE
+    title: "Imersão React: AluraCord"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68
+  - type: SITE
+    title: "Primeiras aulas do curso React: abstraindo seu CSS com Styled Components"
+    link: https://www.alura.com.br/conteudo/react-styled-components
+  - type: COURSE
+    title: "Curso React: abstraindo seu CSS com Styled Components"
+    link: https://www.alura.com.br/curso-online-react-styled-components
+  - type: SITE
+    title: "Primeiras aulas do curso React: testando os seus componentes"
+    link: https://www.alura.com.br/conteudo/react-testando-componentes
+  - type: COURSE
+    title: "Curso React: testando os seus componentes"
+    link: https://www.alura.com.br/curso-online-react-testando-componentes
+  - type: SITE
+    title: "Primeiras aulas do curso React: desenvolvendo uma biblioteca de componentes"
+    link: https://www.alura.com.br/conteudo/react-desenvolvendo-biblioteca-componentes
+  - type: "COURSE"
+    title: "Curso React: desenvolvendo uma biblioteca de componentes"
+    link: https://www.alura.com.br/curso-online-react-desenvolvendo-biblioteca-componentes

@@ -1,0 +1,35 @@
+name: PHP Assíncrono
+logo: 
+short-description:
+key-objectives:
+  - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
+  - Aprender a usar sockets
+  - Conhecer bibliotecas de programação reativa
+  - Aprender sobre corrotinas
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "PHP assíncrono de forma nativa"
+    link: https://dias.dev/2020-09-16-php-assincrono-de-forma-nativa/
+  - type: ARTICLE
+    title: "Aplicações assíncronas com PHP, Swoole e Lumen"
+    link: https://medium.com/@erycson.nobrega/aplica%C3%A7%C3%B5es-ass%C3%ADncronas-com-php-swoole-e-lumen-bdce5eb200f0
+  - type: ARTICLE
+    title: "I/O assíncrono em PHP"
+    link: https://medium.com/@jefersondaniel/i-o-ass%C3%ADncrono-em-php-b38e7aa91ff9
+  - type: YOUTUBE
+    title: "Dias de Dev: Programação assíncrona vs Programação paralela - Entenda a diferença"
+    link: https://www.youtube.com/watch?v=zLfXPSeCkB8
+  - type: YOUTUBE
+    title: "PHPSP: PHPapo #19 - PHP assíncrono funciona?"
+    link: https://www.youtube.com/watch?v=02B1yEBGC2o&ab_channel=PHPSP
+  - type: YOUTUBE
+    title: "Dias de Dev: Coroutines - O que são corrotinas?"
+    link: https://www.youtube.com/watch?v=Nbt0eQHChoI
+alura-contents:
+  - type: COURSE
+    title: "Curso PHP Reativo: programação assíncrona em tempo real"
+    link: https://cursos.alura.com.br/course/php-reativo-programacao-assincrona-tempo-real
+  - type: COURSE
+    title: "Curso Swoole PHP: servidor assíncrono e corrotinas com PHP"
+    link: https://cursos.alura.com.br/course/swoole-php-servidor-assincrono-corrotinas-php

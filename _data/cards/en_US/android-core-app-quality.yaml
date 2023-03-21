@@ -1,0 +1,28 @@
+name: Android - Core App quality
+logo: 
+short-description:
+key-objectives:
+  - When writing an Android App, there are a number of requirements to ensure an expected quality, such as compatibility of the App with the navigation expected by the Android system, or the gestures, etc.
+  - The requirements are classified as - Visual experience, Functionality, Performance and stability, Privacy and security, Google Play, and Testing procedure
+  - Fulfilling all or almost all requirements means that the App has a higher quality for the users
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Core app quality"
+    link: https://developer.android.com/docs/quality-guidelines/core-app-quality
+  - type: SITE
+    title: "Android Documentation: Deliver high performing user experiences"
+    link: https://developer.android.com/quality
+  - type: SITE
+    title: "Android Documentation: Get started with large screens"
+    link: https://developer.android.com/guide/topics/large-screens/get-started-with-large-screens
+  - type: SITE
+    title: "Android Documentation: Build for billions"
+    link: https://developer.android.com/docs/quality-guidelines/build-for-billions
+  - type: YOUTUBE
+    title: "Android Developers: Introduction to Android app quality"
+    link: https://www.youtube.com/watch?v=QxyvS1oZOUs
+  - type: YOUTUBE
+    title: "Android Developers: Android app quality - Visual experience"
+    link: https://www.youtube.com/watch?v=uUWqUp_HeNs
+alura-contents:

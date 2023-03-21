@@ -1,0 +1,38 @@
+name: Android - Carregamento de imagens
+logo: 
+short-description:
+key-objectives:
+  - As imagens vem em tamanhos e formas diferentes. Na maioria dos casos, elas são maiores do que o necessário para a Interface de usuário (UI) de um app. Dado que estamos trabalhando com memória limitada, no Android é usada uma técnica de decodificação de bitmaps, para evitar todo o trabalho de utilizar isso, temos diversas bibliotecas que facilitam esse processo.
+  - O que é Bitmap
+  - Conhecer as bibliotecas de carregamento de imagens (Glide, Picasso, Coil, entre oturas) e usá-las
+  - Vantagens e desvantagens das bibliotecas de carregamento de imagens
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Bitmap: o que é, para que serve e como funciona"
+    link: https://www.tecnoveste.com.br/bitmap-o-que-e-para-que-serve-e-como-funciona/
+  - type: YOUTUBE
+    title: "Paulo Salvatore: Carregando imagens no Android com Kotlin | Glide"
+    link: https://www.youtube.com/watch?v=5FJLyFbTsZQ&ab_channel=PauloSalvatore
+  - type: YOUTUBE
+    title: "Stevdza-San: Coil - Biblioteca moderna de carregamento de imagem | Android Studio Tutorial (inglês)"
+    link: https://www.youtube.com/watch?v=IBaUjzn2Rgo
+  - type: YOUTUBE
+    title: "cedr!c: Como carregar uma imagem remota em Android - PICASSO & GLIDE"
+    link: https://www.youtube.com/watch?v=BM6SnH3CDE0
+  - type: SITE
+    title: "Coil - Site oficial (inglês)"
+    link: https://coil-kt.github.io/coil/
+  - type: SITE
+    title: "Glide v4 - Site oficial (inglês)"
+    link: https://bumptech.github.io/glide/
+  - type: SITE
+    title: "Picasso - Site oficial (inglês)"
+    link: https://square.github.io/picasso/
+alura-contents:
+  - type: COURSE
+    title: "Android com Kotlin: Personalize o seu app"
+    link: https://cursos.alura.com.br/course/android-kotlin-personalize-app
+  - type: COURSE
+    title: "Jetpack Compose: Criando um app android"
+    link: https://cursos.alura.com.br/course/jetpack-compose-app-android

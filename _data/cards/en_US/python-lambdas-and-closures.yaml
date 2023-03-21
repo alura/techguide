@@ -1,0 +1,30 @@
+name: Python - Lambdas and Closures
+logo: 
+short-description:
+key-objectives:
+  - Lambda functions are nothing more than anonymous functions. While normal functions can be created using def as a prefix, lambda functions are created using lambda.
+  - A closure in Python is an inner function object, a function that behaves like an object, that remembers and has access to variables in the local scope where it was created, even after the outer function has finished executing. It can also be defined as a means of binding data to a function without passing it as a parameter.  
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: Python Lambda"
+    link: https://www.w3schools.com/python/python_lambda.asp
+  - type: SITE
+    title: "GeeksForGeeks: Python Lambda Functions"
+    link: https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/
+  - type: SITE
+    title: "GeeksForGeeks: Python Closures"
+    link: https://www.geeksforgeeks.org/python-closures/
+  - type: SITE
+    title: "learnpython.org: Closures"
+    link: https://www.learnpython.org/en/Closures
+  - type: YOUTUBE
+    title: "Socratica: Lambda Expressions & Anonymous Functions || Python Tutorial"
+    link: https://www.youtube.com/watch?v=25ovCm9jKfA
+  - type: YOUTUBE
+    title: "Sreekanth: Closures in Python | Explained with animations"
+    link: https://www.youtube.com/watch?v=tNSOaA1z6Uo
+  - type: YOUTUBE
+    title: "Corey Schafer: Closures - How to Use Them and Why They Are Useful"
+    link: https://www.youtube.com/watch?v=swU3c34d2NQ
+alura-contents:

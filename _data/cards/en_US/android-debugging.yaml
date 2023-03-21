@@ -1,0 +1,48 @@
+name: Android - Debugging
+logo:
+short-description:
+key-objectives:
+  - During the development of an app, it is quite common to have unexpected bugs, as well as a lack of understanding of the reason for the bug. To speed up the analysis and investigation of problems or unexpected behavior in the app, we need to learn how to debug an Android app.
+  - Learning how to debug an app in Android Studio
+  - Learning how to enable debugging on physical devices
+  - Using logs to identify events
+  - Analyzing stack tracks
+  - Inspecting layout, system resources like processor, memory, and network
+  - Debugging the app database and pre-compiled APK files
+  - Analyzing the build with APK parser
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Debug your app"
+    link: https://developer.android.com/studio/debug
+  - type: SITE
+    title: "Android Documentation: Configure on-device developer options"
+    link: https://developer.android.com/studio/debug/dev-options
+  - type: SITE
+    title: "Android Documentation: View logs with Logcat"
+    link: https://developer.android.com/studio/debug/logcat
+  - type: SITE
+    title: "Android Documentation: Analyze a stack trace"
+    link: https://developer.android.com/studio/debug/stacktraces
+  - type: SITE
+    title: "Android Documentation: Debug your layout with Layout Inspector and Layout Validation"
+    link: https://developer.android.com/studio/debug/layout-inspector
+  - type: SITE
+    title: "Android Documentation: Inspecionar o tráfego de rede com o Network Inspector"
+    link: https://developer.android.com/studio/debug/network-profiler?hl=pt-br
+  - type: SITE
+    title: "Android Documentation: Inspect network traffic with the Network Inspector"
+    link: https://developer.android.com/studio/debug/network-profiler
+  - type: SITE
+    title: "Android Documentation: Debug pre-built APKs"
+    link: https://developer.android.com/studio/debug/apk-debugger
+  - type: SITE
+    title: "Android Documentation: Capture and read bug reports"
+    link: https://developer.android.com/studio/debug/bug-report
+  - type: SITE
+    title: "Android Documentation: Analyze your build with the APK Analyzer"
+    link: https://developer.android.com/studio/debug/apk-analyzer
+  - type: YOUTUBE
+    title: "Philipp Lackner: The Full Guide to Debugging Your Android Apps"
+    link: https://www.youtube.com/watch?v=ln5hc-zprEM
+alura-contents:

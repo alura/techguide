@@ -1,0 +1,32 @@
+name: PHP - Asynchronous
+logo: 
+short-description:
+key-objectives:
+  - In asynchronous programming the functions are not executed in order. With asynchrony, we can interrupt the code to get some other information needed to continue execution. This means that the code waits for another part of the code and while it waits it executes the other parts.
+  - Learning how to use sockets
+  - Getting to know reactive programming libraries
+  - Learning about coroutines
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "GeeksForGeeks: How to make async functions in PHP?"
+    link: https://www.geeksforgeeks.org/how-to-make-async-functions-in-php/
+  - type: ARTICLE
+    title: "PHP async"
+    link: https://www.educba.com/php-async/
+  - type: ARTICLE
+    title: "Using Asynchronous Processes in PHP"
+    link: https://dev.to/webong/using-asynchronous-processes-in-php-7io
+  - type: ARTICLE
+    title: "PHP asynchronous programming brief"
+    link: https://medium.com/@mena.meseha/php-asynchronous-programming-brief-8d44790abb6c
+  - type: YOUTUBE
+    title: "Sergey Zhuk: Introduction to ReactPHP and asynchronous PHP"
+    link: https://www.youtube.com/watch?v=7ISfntKmhdk
+  - type: YOUTUBE
+    title: "Neos CMS: Introduction to Asynchronous PHP and ReactPHP"
+    link: https://www.youtube.com/watch?v=zm1mU8Vk31Y
+  - type: YOUTUBE
+    title: "International PHP Conference: Asynchronous PHP In Examples"
+    link: https://www.youtube.com/watch?v=RU7bCWJXEfg
+alura-contents:

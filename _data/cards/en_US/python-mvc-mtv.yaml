@@ -1,0 +1,26 @@
+name: Python - MVC and MTV
+logo: 
+short-description:
+key-objectives:
+  - MVC and MTV are two design patterns used for implementing web interfaces and applications.
+  - Understanding the MVC pattern
+  - Understanding the MTV pattern
+  - Understanding the difference between the MVC and MTV patterns
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "GeeksForGeeks: Difference between MVC and MVT design patterns"
+    link: https://www.geeksforgeeks.org/difference-between-mvc-and-mvt-design-patterns/
+  - type: SITE
+    title: "freeCodeCamp.org: The Model View Controller Pattern – MVC Architecture and Frameworks Explained"
+    link: https://www.freecodecamp.org/news/the-model-view-controller-pattern-mvc-architecture-and-frameworks-explained/
+  - type: ARTICLE
+    title: "Working Structure of Django MTV Architecture"
+    link: https://towardsdatascience.com/working-structure-of-django-mtv-architecture-a741c8c64082
+  - type: YOUTUBE
+    title: "Web Dev Simplified: MVC Explained in 4 Minutes"
+    link: https://www.youtube.com/watch?v=DUg2SWWK18I
+  - type: YOUTUBE
+    title: "Code Stack: How Django Works (MVT Pattern)"
+    link: https://www.youtube.com/watch?v=cyP4Uw2b2XM
+alura-contents:

@@ -1,0 +1,51 @@
+name: Kotlin - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Kotlin é uma linguagem de programação multiplataforma, orientada a objetos, funcional e estaticamente tipada. Ela compila para a máquina virtual Java e também pode ser traduzida para a linguagem JavaScript e compilada para código nativo (via LLVM). É a linguagem oficial do sistema Android da Google.
+  - Entender a sua sintaxe
+  - Conhecer os tipos primitivos
+  - Declarar e usar variáveis e constantes
+  - Usar estruturas condicionais (if, else)
+  - Usar estruturas de repetição e laços (while, for)
+  - Usar funções, passando parâmetros e argumentos
+  - Implementando métodos e reutilizando eles
+  - Null Safety (Elimine o perigo de referências nulas)
+  - Exceptions e Throwables
+  - Convenções de código
+  - Manipular Coleções, arrays e listas
+  - Recursos do Paradigma funcional
+  - Orientação a Objetos com Kotlin (Properties, Data class, Companion Objects, Delegation)
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Kotlin: Começando com Kotlin (inglês)"
+    link: https://kotlinlang.org/docs/getting-started.html
+  - type: SITE
+    title: "Documentação Kotlin: Tipos Básicos e Kotlin (inglês)"
+    link: https://kotlinlang.org/docs/basic-types.html
+  - type: SITE
+    title: "Documentação Kotlin: Sintaxe básica do Kotlin(inglês)"
+    link: https://kotlinlang.org/docs/basic-syntax.html
+  - type: SITE
+    title: "Documentação Kotlin: Convenções de código do Kotlin (inglês)"
+    link: https://kotlinlang.org/docs/coding-conventions.html
+  - type: ARTICLE
+    title: "Kotlin - Variáveis e Nullable"
+    link: https://medium.com/luizalabs/kotlin-vari%C3%A1veis-e-nullable-8dd977bc376d
+  - type: YOUTUBE
+    title: "Kotlin // Dicionário do Programador"
+    link: https://youtu.be/BfjRYBN7Ur8
+alura-contents:
+  - type: YOUTUBE
+    title: "Desenvolvimento de apps mobile com Kotlin | Hipsters.Talks"
+    link: https://www.youtube.com/watch?v=TKYDpbO5KcI&ab_channel=AluraCursosOnline
+  - type: PODCAST
+    title: "Case Contabilizei: Kotlin - Hipsters Ponto Tech #310"
+    link: https://www.hipsters.tech/case-contabilizei-kotlin-hipsters-ponto-tech-310/
+  - type: COURSE
+    title: "Formação Kotlin"
+    link: https://cursos.alura.com.br/formacao-kotlin
+  - type: CHALLENGE
+    title: "7 Days of Code: Kotlin"
+    link: https://7daysofcode.io/matricula/kotlin

@@ -1,5 +1,33 @@
 # Angular
 ## Nivel 1
+- [ ] **HTML - Fundamentals**:
+   - HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
+   - Learning which tags are required for basic HTML
+   - Creating a text paragraph
+   - Displaying an image
+   - Knowing the difference between 'h1', 'h2', 'h3', etc.
+   - Creating a hyperlinked text
+   - Creating a form with relevant fields
+   - Creating an ordered or unordered list of items
+   - Creating a list of items within a dropdown list
+   - Linking to a CSS file
+   - Creating a table
+   - Adding IDs and classes
+- [ ] **CSS - Fundamentals**:
+   - Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS can be used for very basic document text styling — for example, for changing the color and size of headings and links. It can be used to create a layout — for example, turning a single column of text into a layout with a main content area and a sidebar for related information. It can even be used for effects such as animation.
+   - Learning the visual structure of a page, with 'margin' and 'padding'
+   - Establishing the size with 'width' and 'height'
+   - Learning about the position of an element ('static', 'relative' or 'absolute')
+   - Learning about the display of an element ('block', 'inline', 'inline-block')
+   - Learning how to position images in relation to text
+   - Learning about alignment
+   - Learning about font style
+   - Learning the differences and advantages of using the different units of measurement in CSS (%, relative, etc)
+   - Connecting to the elements (IDs, classes) of an HTML file
+   - Changing the characteristics of an element when the mouse hovers over it
+   - Learning box-sizing
+   - Learning Flexbox
+   - Learning Grid
 - [ ] **JavaScript - Fundamentals**:
    - JavaScript is the world's most popular programming language and is one of the core technologies of the World Wide Web, alongside HTML and CSS. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles.
    - Knowing the primitive types
@@ -17,12 +45,6 @@
    - Learning what TypeScript is, why it was created, how it works and its relationship with JavaScript
    - Knowing the TypeScript tools (integration with the code editor, static checker and compiler)
    - Writing code in TypeScript using its tools (interfaces, enum, decorators, etc.)
-- [ ] **RxJS - Fundamentals**:
-   - RxJS is a library for composing asynchronous and event-based programs by using observable sequences. It provides one core type, the Observable, satellite types (Observer, Schedulers, Subjects) and operators inspired by Array methods (map, filter, reduce, every, etc) to allow handling asynchronous events as collections.
-   - Creating asynchronous programs
-   - Creating event-based programs
-   - Understanding the concept of observables and sequences of observables
-   - Understanding how to use Observers, Subscription, Subject and others
 - [ ] **Angular - Fundamentos**:
    - Angular is an application-design framework and development platform built on TypeScript for creating efficient and sophisticated single-page apps.
    - Building interfaces using HTML, CSS and TypeScript
@@ -32,6 +54,23 @@
    - Using composition to create reusable components
    - Using Resolver services
    - Manipulating requests by creating Interceptor services
+- [ ] **Object-oriented Programming Concepts**:
+   - Object-oriented programming (OOP) is a programming paradigm based on the concept of 'objects', which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods). A common feature of objects is that procedures (or methods) are attached to them and can access and modify the object's data fields. Some of the main concepts are classes and instances, inheritance, and encapsulation.
+   - How objects work
+   - Creating and using constructors
+   - What classes are
+   - Creating and using Methods
+   - How encapsulation works
+   - What inheritance is
+   - What polymorphism is
+   - How interfaces work
+   - What abstractions are
+- [ ] **RxJS - Fundamentals**:
+   - RxJS is a library for composing asynchronous and event-based programs by using observable sequences. It provides one core type, the Observable, satellite types (Observer, Schedulers, Subjects) and operators inspired by Array methods (map, filter, reduce, every, etc) to allow handling asynchronous events as collections.
+   - Creating asynchronous programs
+   - Creating event-based programs
+   - Understanding the concept of observables and sequences of observables
+   - Understanding how to use Observers, Subscription, Subject and others
 - [ ] **Observer pattern**:
    - In software design, the Observer pattern is a software design pattern in which an object, named the subject, maintains a list of its dependents, called observers, and notifies them automatically of any state changes, usually by calling one of their methods.
    - Understanding what Design Patterns are
@@ -118,9 +157,6 @@
    - Transforming an object into a string
    - Transforming a string into an object
    - Manipulating an object
-- [ ] **Command Line - Fundamentals**:
-   - CLI is a command line program that accepts text input to execute operating system functions.
-   - Knowing the most important commands
 - [ ] **Cloud - Fundamentals**:
    - Cloud, or cloud computing, is the distribution of computing services over the Internet using a pay-as-you-go pricing model. A cloud is composed of various computing resources, ranging from the computers themselves (or instances, in cloud terminology) to networks, storage, databases, and everything around them. In other words, everything that is normally needed to set up the equivalent of a server room, or even a complete data center, will be ready to use, configured, and run.
    - Knowing the difference between IaaS, PaaS and SaaS

@@ -1,0 +1,59 @@
+name: Conceitos de Orientação a Objetos
+logo: 
+short-description:
+key-objectives:
+  - "A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo."
+  - Como funcionam objetos
+  - Criar e utilizar construtores
+  - O que são classes
+  - Criar e utilizar métodos
+  - Como funciona encapsulamento
+  - O que é herança
+  - O que é polimorfismo
+  - Como funcionam interfaces
+  - O que são abstrações
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Unicamp: Conceitos de Orientação a Objetos"
+    link: http://ftp.unicamp.br/pub/apoio/treinamentos/linguagens/POO.pdf
+  - type: ARTICLE
+    title: "Princípios básicos da Programação Orientação a Objetos (POO)"
+    link: https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce
+  - type: YOUTUBE
+    title: "FernandaDev: O que é Programação Orientada a Objetos?(POO)"
+    link: https://www.youtube.com/watch?v=QJjY2TNyl-8
+  - type: YOUTUBE
+    title: "Giuliana Bezerra: Desmistificando os tipos de referência - Ep. 8"
+    link: https://youtu.be/D9hANYbPYCc
+alura-contents:
+  - type: ARTICLE
+    title: "POO: o que é programação orientada a objetos?"
+    link: https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos
+  - type: SITE
+    title: "Apostila: Java e Orientação a Objetos"
+    link: https://www.alura.com.br/apostila-java-orientacao-objetos
+  - type: SITE
+    title: "Livro: Orientação a Objetos"
+    link: https://www.casadocodigo.com.br/products/livro-oo-conceitos
+  - type: YOUTUBE
+    title: "Alura: Orientação a objetos (com Roberta Arcoverde)"
+    link: https://www.youtube.com/watch?v=jpuJ1qrluoU
+  - type: YOUTUBE
+    title: "Alura: Imersão Java: Orientação a Objetos, APIs e além (e live coding!)"
+    link: https://www.youtube.com/watch?v=WdT90ffB-0Q
+  - type: COURSE
+    title: "Formação Java e Orientação a Objetos"
+    link: https://cursos.alura.com.br/formacao-java
+  - type: COURSE
+    title: "Formação C# e Orientação a Objetos"
+    link: https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos
+  - type: COURSE
+    title: "Formação Python e orientação a objetos"
+    link: https://cursos.alura.com.br/formacao-Python-linguagem
+  - type: COURSE
+    title: "Curso Orientação a Objetos com PHP: Classes, métodos e atributos"
+    link: https://www.alura.com.br/curso-online-php-oo-classes-metodos-atributos
+  - type: COURSE
+    title: "Curso JavaScript: programação orientada a objetos"
+    link: https://www.alura.com.br/curso-online-javascript-passos-programacao-orientada-objetos

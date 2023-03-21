@@ -1,0 +1,41 @@
+name: React Hooks - Effect
+logo: 
+short-description:
+key-objectives:
+  - UseEffect() é um hook React que permite que você manipule efeitos colaterais em seus componentes funcionais do React.
+  - Executar um componente somente após a renderização
+  - Acessar as props de um elemento
+  - Fazer chamadas a APIs
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "React: Documentação - Introdução aos Hooks"
+    link: https://pt-br.reactjs.org/docs/hooks-intro.html#gatsby-focus-wrapper
+  - type: SITE
+    title: "React: Documentação - Usando Effect Hook (Hook de Efeito)"
+    link: https://pt-br.reactjs.org/docs/hooks-effect.html
+  - type: ARTICLE
+    title: "Entenda como funciona o useEffect"
+    link: https://medium.com/reactbrasil/entenda-como-funciona-o-useeffect-e743b86f104
+  - type: ARTICLE
+    title: "Um guia completo para useEffect"
+    link: https://overreacted.io/pt-br/a-complete-guide-to-useeffect/
+alura-contents:
+  - type: ARTICLE
+    title: "React Hooks: o que é e como eles funcionam"
+    link: https://www.alura.com.br/artigos/react-hooks
+  - type: ARTICLE
+    title: "React: o que é, como funciona e um Guia dessa popular ferramenta JS"
+    link: https://www.alura.com.br/artigos/react-js
+  - type: COURSE
+    title: "Imersão React: AluraQuiz - Aula 03"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-3-inputs-e-pagina-de-quiz-c35
+  - type: COURSE
+    title: "Imersão React: AluraKut - Aula 02"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-2-react-state-e-o-primeiro-formulario-c54
+  - type: COURSE
+    title: "Curso React: gerenciamento de estados globais com ContextAPI"
+    link: https://cursos.alura.com.br/course/react-context-estados-globais-contextapi
+  - type: COURSE
+    title: "Curso React: escrevendo com Typescript"
+    link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript

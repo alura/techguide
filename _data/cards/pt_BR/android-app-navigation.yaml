@@ -1,0 +1,42 @@
+name: Android - Navegação no App 
+logo: 
+short-description:
+key-objectives:
+  - A navegação de telas em Apps é fundamental para a experiência de uso de Apps Android. Para isso é essencial conhecer os princípios de navegação do Android.
+  - Aprender o que é a biblioteca Navigation e como é possível implementá-la, seja para o sistema de Views ou para o Jetpack Compose
+  - Integrar a navegação com componentes do App, seja em navegação de abas, ou na visualização de componentes visuais dependendo da tela
+  - Saber o que é uma task de back stack do Android
+  - Conhecer os App links - Deep Link, Web Links e Android App Links
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Princípios de navegação"
+    link: https://developer.android.com/guide/navigation/navigation-principles?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Navegação"
+    link: https://developer.android.com/guide/navigation?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Como navegar com o Compose"
+    link: https://developer.android.com/jetpack/compose/navigation?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Entenda as tarefas e a pilha de retorno"
+    link: https://developer.android.com/guide/components/activities/tasks-and-back-stack?hl=pt-br
+  - type: ARTICLE
+    title: "Usando Navigation Component — Android Jetpack"
+    link: https://medium.com/android-dev-br/usando-navigation-component-android-jetpack-e1356921b31d
+  - type: ARTICLE
+    title: "Introdução ao Compose Navigation"
+    link: https://nglauber.medium.com/introdu%C3%A7%C3%A3o-ao-compose-navigation-574d1d9572a0
+  - type: YOUTUBE
+    title: "Stack Mobile: Android Para Iniciantes - Navegação Entre Telas"
+    link: https://www.youtube.com/watch?v=629qVxiWonM
+alura-contents:
+  - type: COURSE
+    title: "Navigation: transição de telas no Android"
+    link: https://www.alura.com.br/curso-online-android-navigation
+  - type: COURSE
+    title: "Navigation: novas features e reutilização de código"
+    link: https://www.alura.com.br/curso-online-android-navigation-features
+  - type: COURSE
+    title: "Jetpack Compose: navegando entre telas com o Navigation"
+    link: https://www.alura.com.br/curso-online-jetpack-compose-navegando-telas-navigation

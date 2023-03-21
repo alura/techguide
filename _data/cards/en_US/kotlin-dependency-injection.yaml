@@ -1,0 +1,22 @@
+name: Kotlin - Dependency Injection
+logo: 
+short-description:
+key-objectives:
+  - Dependency Injection is a design pattern in which a class requests dependencies from external sources instead of creating them.
+  - When writing code in Android projects, it is often the case that a feature uses library code, such as Room to save data or Retrofit to make requests to the REST API. These libraries are known as dependencies in our codes, precisely because of their necessity to perform the expected action. Using these libraries easily anywhere in the app can have its challenges, such as providing unique instances and performing all the necessary configuration for correct operation. For this, we use dependency injection tools that make our job easier.
+  - Learning how to use the dependency injection technique and one of the most common Android tools for this - Hilt, Dagger or Koin
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Dependency injection in Android"
+    link: https://developer.android.com/training/dependency-injection?hl=pt-br
+  - type: ARTICLE
+    title: "Dependency Injection with Koin"
+    link: https://medium.com/swlh/dependency-injection-with-koin-6b6364dc8dba
+  - type: YOUTUBE
+    title: "CodingWithMitch: Hilt Dependency Injection (Kotlin Beginner Example)"
+    link: https://www.youtube.com/watch?v=ldeIEXu2-2w
+  - type: YOUTUBE
+    title: "Philipp Lackner: The Ultimate Guide to Koin (Dependency Injection with Kotlin)"
+    link: https://www.youtube.com/watch?v=EathumJlWh8
+alura-contents:

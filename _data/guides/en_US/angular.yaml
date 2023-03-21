@@ -1,14 +1,22 @@
 name: Angular
+tags: 
+  - front-end
 expertise:
   - name: Angular Jr
-    cards: 
+    cards:
+      - html-fundamentals:
+        priority: 8
+      - css-fundamentals:
+        priority: 8
       - javascript-fundamentals:
         priority: 10
       - typescript-fundamentals:
         priority: 10
-      - rxjs-fundamentals:
-        priority: 10
       - angular-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 9
+      - rxjs-fundamentals:
         priority: 10
       - observer-pattern:
         priority: 9
@@ -52,8 +60,6 @@ collaboration:
         priority: 10
       - json:
         priority: 8
-      - command-line-fundamentals: 
-        priority: 7
       - cloud-fundamentals: 
         priority: 6
         optional: true

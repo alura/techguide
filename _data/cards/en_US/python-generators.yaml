@@ -1,0 +1,27 @@
+name: Python - Generators
+logo: 
+short-description:
+key-objectives:
+  - Generator functions allow you to declare a function that behaves like an iterator, for example, it can be used in a 'for' loop.
+  - Creating iterative objects
+  - Using lazy evaluation
+  - Running concurrent tasks
+  - Using the reserved word 'yield'
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Wiki Python: Generators"
+    link: https://wiki.python.org/moin/Generators
+  - type: SITE
+    title: "Real Python: How to Use Generators and yield in Python"
+    link: https://realpython.com/introduction-to-python-generators/
+  - type: ARTICLE
+    title: "Python Generators"
+    link: https://towardsdatascience.com/python-generators-393455aa48a3
+  - type: YOUTUBE
+    title: "Corey Schafer: Generators - How to use them and the benefits you receive"
+    link: https://www.youtube.com/watch?v=bD05uGo_sVI
+  - type: YOUTUBE
+    title: "Tech With Tim: Python Generators Explained"
+    link: https://www.youtube.com/watch?v=u3T7hmLthUU
+alura-contents:

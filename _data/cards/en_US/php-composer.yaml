@@ -1,0 +1,25 @@
+name: PHP - Composer
+logo: 
+short-description:
+key-objectives:
+  - Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
+  - Managing dependencies
+  - Including third-party libraries
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation: Composer"
+    link: https://getcomposer.org/doc/
+  - type: SITE
+    title: "W3Schools: PHP Composer"
+    link: https://www.w3schools.in/php/php-composer
+  - type: ARTICLE
+    title: "What is Composer?"
+    link: https://www.digitalocean.com/community/tutorials/what-is-composer
+  - type: YOUTUBE
+    title: "Gary Clarke: PHP in 60 SECONDS - Composer Dependency Manager"
+    link: https://www.youtube.com/watch?v=ZZ3vFgs810o
+  - type: YOUTUBE
+    title: "Adam Thomas: Using Composer to Manage PHP Packages and Dependencies"
+    link: https://www.youtube.com/watch?v=SgQl0z7PxKk
+alura-contents:

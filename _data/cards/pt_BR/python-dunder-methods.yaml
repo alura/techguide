@@ -1,0 +1,31 @@
+name: Python - Métodos especiais (dunder)
+logo: 
+short-description:
+key-objectives:
+  - Métodos especiais, ou métodos mágicos, em Python são métodos predefinidos em todos os objetos, com invocação automática sob circunstâncias especiais. Eles normalmente não são chamados diretamente pelo usuário mas podem ser overloaded (sobrescritos e alterados). Seus nomes começam e terminam com sublinhados duplos chamados de dunder (uma expressão derivada de double underscore).
+  - Entender o conceito de métodos especiais (ou mágicos)
+  - Conhecer os principais métodos mágicos e como usá-los
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Acervo Lima: Métodos mágicos ou Dunder"
+    link: https://acervolima.com/personalize-sua-classe-python-com-metodos-magic-ou-dunder/
+  - type: SITE
+    title: "Python - Métodos especiais"
+    link: http://www.estruturas.ufpr.br/material/computacaoCientifica/classes/metodosespeciais/
+  - type: YOUTUBE
+    title: "Eduardo Mendes: Objetos e métodos especiais (dunders)"
+    link: https://www.youtube.com/watch?v=syctPjStwQU
+  - type: YOUTUBE
+    title: "pythonando: Faça __mágica__ com Python"
+    link: https://www.youtube.com/watch?v=yxUm_QnP4Qo
+  - type: YOUTUBE
+    title: "pythonando: Orientação a Objetos - Métodos especiais"
+    link: https://www.youtube.com/watch?v=H1ZNau44xAI
+alura-contents:
+  - type: COURSE
+    title: "Curso String em Python: extraindo informações de uma URL"
+    link: https://cursos.alura.com.br/course/string-python-extraindo-informacoes-url
+  - type: COURSE
+    title: "Curso Python: avançando na orientação a objetos"
+    link: https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos

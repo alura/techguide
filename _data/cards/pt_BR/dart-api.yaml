@@ -1,0 +1,52 @@
+name: Dart - Comunicação com APIs
+logo: 
+short-description:
+key-objectives:
+  - Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.
+  - Entender o que é uma API REST
+  - Conhecer os comandos básicos de comunicação HTTP
+  - Saber usar as ferramentas do pacote `http` do Dart
+  - Saber fazer requisições autenticadas para Web APIs
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "O que é API REST?"
+    link: https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api
+  - type: SITE
+    title: "JSON e Serialização | Flutter Docs (inglês)"
+    link: https://docs.flutter.dev/development/data-and-backend/json
+  - type: SITE
+    title: "Página do Pacote http - pub.dev (inglês)"
+    link: https://pub.dev/packages/http
+  - type: SITE
+    title: "Obtendo dados da internet | Flutter Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/networking/fetch-data
+  - type: SITE
+    title: "Fazendo requisições autenticadas | Flutter Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/networking/authenticated-requests
+  - type: SITE
+    title: "Enviando dados para internet | Flutter Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/networking/send-data
+  - type: SITE
+    title: "Removendo dados na internet | Flutter Cookbook (inglês)"
+    link: https://docs.flutter.dev/cookbook/networking/delete-data
+  - type: YOUTUBE
+    title: "Flutterando: Consumindo API externa (http)"
+    link: https://youtu.be/vjeK_oc5cXQ
+  - type: YOUTUBE
+    title: "Julio de Lima: Como usar o Postman para Testar APIs Rest (Aula 10)"
+    link: https://youtu.be/5S9mMBEtJK4
+alura-contents:
+  - type: ARTICLE
+    title: "REST: Conceito e fundamentos"
+    link: https://www.alura.com.br/artigos/rest-conceito-e-fundamentos
+  - type: SITE
+    title: "Primeiras aulas do curso Flutter: entendendo comunicação HTTP e utilizando Web API"
+    link: https://www.alura.com.br/conteudo/flutter-comunicacao-http
+  - type: COURSE
+    title: "Flutter: entendendo comunicação HTTP e utilizando Web API"
+    link: https://cursos.alura.com.br/course/flutter-web-api-integrando-aplicacao
+  - type: COURSE
+    title: "Flutter com Web API: evoluindo na integração da aplicação"
+    link: https://cursos.alura.com.br/course/flutter-web-api-integracao-aplicacao
+  

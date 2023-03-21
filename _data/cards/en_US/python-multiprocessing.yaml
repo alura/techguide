@@ -1,0 +1,31 @@
+name: Python - Multiprocessing
+logo: 
+short-description:
+key-objectives:
+  - In Python, the multiprocessing module includes a very simple and intuitive API for dividing up work among multiple processes.
+  - Running processes in parallel
+  - Getting to know the Pool class
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation: multiprocessing"
+    link: https://docs.python.org/3/library/multiprocessing.html
+  - type: SITE
+    title: "Documentation: Process Pools"
+    link: https://docs.python.org/3/library/multiprocessing.html#module-multiprocessing.pool
+  - type: SITE
+    title: "Super Fast Python: Python Multiprocessing Pool - The Complete Guide"
+    link: https://superfastpython.com/multiprocessing-pool-python/
+  - type: SITE
+    title: "Digital Ocean: Python Multiprocessing Example"
+    link: https://www.digitalocean.com/community/tutorials/python-multiprocessing-example
+  - type: ARTICLE
+    title: "Demystifying Python Multiprocessing and Multithreading"
+    link: https://towardsdatascience.com/demystifying-python-multiprocessing-and-multithreading-9b62f9875a27
+  - type: YOUTUBE
+    title: "Corey Schafer: Python Multiprocessing Tutorial - Run Code in Parallel Using the Multiprocessing Module"
+    link: https://www.youtube.com/watch?v=fKl2JW_qrso
+  - type: YOUTUBE
+    title: "NeuralNine: Multiprocessing in Python"
+    link: https://www.youtube.com/watch?v=GT10PnUFLlE
+alura-contents:

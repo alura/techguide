@@ -1,0 +1,29 @@
+name: Material Design
+logo:
+short-description:
+key-objectives:
+  - Material Design is Google's open source design system, where it gives you components with certain usage patterns and some customization for your apps.
+  - User Experience Foundations
+  - Customizing your components
+  - Adaptive layouts
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Material 3 - Get Started"
+    link: https://m3.material.io/get-started
+  - type: SITE
+    title: "Material 3 - Foundations"
+    link: https://m3.material.io/foundations
+  - type: SITE
+    title: "Material 3 - Styles"
+    link: https://m3.material.io/styles
+  - type: SITE
+    title: "Material 3 - Components"
+    link: https://m3.material.io/components
+  - type: ARTICLE
+    title: "Introduction to Material Design in Android"
+    link: https://www.geeksforgeeks.org/introduction-to-material-design-in-android/
+  - type: YOUTUBLE
+    title: "Philipp Lackner: Introduction to Material 3 (Color Theming, Typography, Shapes)"
+    link: https://www.youtube.com/watch?v=I3eT32LXAKc
+alura-contents:

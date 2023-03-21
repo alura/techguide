@@ -1,0 +1,44 @@
+name: Python - Coleções
+logo: 
+short-description:
+key-objectives:
+  - Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
+  - Utilizar listas e tuplas
+  - Utilizar polimorfismo nas coleções
+  - Utilizar conjuntos e dicionários
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Coleções em Python — Tuplas"
+    link: https://medium.com/@desk467/cole%C3%A7%C3%B5es-em-python-tuplas-4444d683963a
+  - type: ARTICLE
+    title: "Entenda o que é, e quais as diferenças entre Listas, Sets, Tuplas e Dicionários no Python"
+    link: https://medium.com/ensina-ai/entenda-o-que-e-e-quais-as-diferencas-entre-listas-sets-tuplas-e-dicionarios-no-python-aa927ed64796
+  - type: YOUTUBE
+    title: "Refatorando: Collections, Lists e Tuples"
+    link: https://www.youtube.com/watch?v=5gqpc-nCq7w
+  - type: YOUTUBE
+    title: "Refatorando: Coleções - set e dictionary"
+    link: https://www.youtube.com/watch?v=7uVwpmuw4Yg
+  - type: YOUTUBE
+    title: "Python 42: Coleções no Python | Listas, tuplas, conjuntos e dicionários"
+    link: https://www.youtube.com/watch?v=7uVwpmuw4Yg
+alura-contents:
+  - type: ARTICLE
+    title: "Compreensão de listas no Python"
+    link: https://www.alura.com.br/artigos/simplicando-o-processamento-com-compreensao-de-lista-do-python
+  - type: ARTICLE
+    title: "Ordenando listas no Python"
+    link: https://www.alura.com.br/artigos/ordenando-listas-no-python
+  - type: ARTICLE
+    title: "Conhecendo as tuplas no Python"
+    link: https://www.alura.com.br/artigos/conhecendo-as-tuplas-no-python
+  - type: ARTICLE
+    title: "Python: Trabalhando com dicionários"
+    link: https://www.alura.com.br/artigos/trabalhando-com-o-dicionario-no-python
+  - type: COURSE
+    title: "Curso Python Collections parte 1: listas e tuplas"
+    link: https://cursos.alura.com.br/course/python-collections-listas-e-tuplas
+  - type: COURSE
+    title: "Curso Python Collections parte 2: conjuntos e dicionários"
+    link: https://cursos.alura.com.br/course/python-collections-conjuntos-e-dicionarios

@@ -1,0 +1,84 @@
+name: PHP
+tags: 
+  - back-end
+expertise:
+  - name: PHP Jr
+    cards:
+      - php-fundamentals:
+        priority: 10
+      - php-collections:
+        priority: 10
+      - oop-concepts:
+        priority: 9
+      - php-errorhandling:
+        priority: 9
+      - php-persistence:
+        priority: 8
+      - php-files-streams:
+        priority: 8
+  - name: PHP Mid
+    cards:
+      - php-composer:
+        priority: 9
+      - php-testing:
+        priority: 9
+      - php-mvc:
+        priority: 9
+      - laravel:
+        priority: 9
+      - php-symfony:
+        priority: 7
+        optional: true
+      - php-api:
+        priority: 7
+      - php-xdebug:
+        priority: 7
+  - name: PHP in depth
+    cards:
+      - php-asynchronous:
+        priority: 8
+      - php-functional:
+        priority: 7
+      - microservices:
+        priority: 7
+      - containers:
+        priority: 7
+      - object-calisthenics:
+        priority: 6
+        optional: true
+      - reflection-and-attributes:
+        priority: 5
+        optional: true
+collaboration:
+  - name: Infrastructure and good practices
+    cards:
+      - git-and-github-fundamentals:
+        priority: 10
+      - http-fundamentals:
+        priority: 9
+      - json:
+        priority: 8
+      - command-line-fundamentals: 
+        priority: 7
+      - cloud-fundamentals:
+        priority: 6
+        optional: true
+      - sql-fundamentals:
+        priority: 9
+      - solid:
+        priority: 7
+      - design-patterns:
+        priority: 7
+      - clean-architecture:
+        priority: 7
+      - ddd-concepts:
+        priority: 5
+        optional: true
+  - name: Front-end
+    cards:
+      - html-fundamentals:
+        priority: 10
+      - css-fundamentals:
+        priority: 9
+      - javascript-fundamentals:
+        priority: 8

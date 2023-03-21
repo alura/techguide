@@ -1,0 +1,36 @@
+name: Python for Data Science
+logo: 
+short-description:
+key-objectives:
+  - Python is a high-level interpreted programming language that supports multiple programming paradigms, such as imperative, object-oriented, and functional. It is a language with dynamic typing and automatic memory management.
+  - Learning Python programming logic
+  - Learning the language fundamentals such as variables, functions, lists, conditionals and imports
+  - Creating data analyses
+  - Using Matplotlib to generate graphs
+  - Using and manipulating lists to group data
+  - Knowing the NumPy library
+  - Knowing the Pandas library
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "How I would Learn Python for Data Science if I Had to Start Over"
+    link: https://towardsdatascience.com/how-i-would-learn-python-for-data-science-if-i-had-to-start-over-83fc40ab93ba
+  - type: ARTICLE
+    title: "Python for Data Science: From Scratch (Part I)"
+    link: https://towardsdatascience.com/python-for-data-science-from-scratch-part-i-390f01d91748
+  - type: ARTICLE
+    title: "Python For Data Science — A Guide to Data Visualization with Plotly"
+    link: https://towardsdatascience.com/python-for-data-science-a-guide-to-data-visualization-with-plotly-969a59997d0c
+  - type: SITE
+    title: "Python Data Science Handbook"
+    link: https://jakevdp.github.io/PythonDataScienceHandbook/
+  - type: YOUTUBE
+    title: "Nicholas Renotte: Python for Data Science | Beginner Friendly Full Course in 5 Hours"
+    link: https://www.youtube.com/watch?v=yGN28LY5VuA
+  - type: YOUTUBE
+    title: "Simplilearn: Python Data Science Tutorial"
+    link: https://www.youtube.com/watch?v=mkv5mxYu0Wk
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Python for Data Science - Course for Beginners (Learn Python, Pandas, NumPy, Matplotlib)"
+    link: https://www.youtube.com/watch?v=LHBE6Q9XlzI
+alura-contents:

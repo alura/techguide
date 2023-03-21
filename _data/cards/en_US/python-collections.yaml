@@ -1,0 +1,35 @@
+name: Python - Collections
+logo: 
+short-description:
+key-objectives:
+  - A collection represents a group of objects, known as its elements. They are like containers that group multiple items into a single unit. Some collections allow duplication of elements and some do not. Some are ordered and some are unordered.
+  - Using lists and tuples
+  - Using polymorphism in collections
+  - Using sets and dictionaries
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: Python Lists"
+    link: https://www.w3schools.com/python/python_lists.asp
+  - type: SITE
+    title: "W3Schools: Python Tuples"
+    link: https://www.w3schools.com/python/python_tuples.asp
+  - type: SITE
+    title: "W3Schools: Python Sets"
+    link: https://www.w3schools.com/python/python_sets.asp
+  - type: SITE
+    title: "W3Schools: Python Dictionaries"
+    link: https://www.w3schools.com/python/python_dictionaries.asp
+  - type: ARTICLE
+    title: "Everything You Need To Know About Python Collections"
+    link: https://medium.com/edureka/collections-in-python-d0bc0ed8d938
+  - type: ARTICLE
+    title: "Python Dictionaries"
+    link: https://medium.com/python-pandemonium/python-dictionaries-45cacc2b76aa
+  - type: YOUTUBE
+    title: "edureka!: Python Collections - Lists, Tuples, Sets & Dictionaries"
+    link: https://www.youtube.com/watch?v=QswQA1lRIQY
+  - type: YOUTUBE
+    title: "Bro Code: Python dictionaries are easy"
+    link: https://www.youtube.com/watch?v=MZZSMaEAC2g
+alura-contents:

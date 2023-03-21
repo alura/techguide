@@ -1,7 +1,13 @@
 name: React
+tags: 
+  - front-end
 expertise:
   - name: React Jr
-    cards: 
+    cards:
+      - html-fundamentals:
+        priority: 8
+      - css-fundamentals:
+        priority: 8
       - javascript-fundamentals:
         priority: 10
       - dom-fundamentals:
@@ -10,8 +16,6 @@ expertise:
         priority: 9
       - html-fundamentals:
         priority: 7
-      - css-fundamentals:
-        priority: 6
       - react-components:
         priority: 9
       - react-props:
@@ -118,3 +122,13 @@ collaboration:
         priority: 5
       - how-to-use-fonts:
         priority: 5
+faq:
+  - title: "O que é o TechGuide.sh?"
+    answer: "O TechGuide.sh é uma iniciativa da Alura para mapear as necessidades mais comuns em cada profissional de tecnologia, direcionando tanto alunos e alunas quanto a própria escola com novos cursos, conteúdos, podcasts e artigos. Nós seguimos a abordagem do profissional em T, abrindo mais possibilidades de caminhos e ordenação. Também queremos ter mais descritivos explicando o por quê de aprender cada um daqueles itens (cards) e fechar mais o escopo de cada um."
+  - title: "Preciso saber HTML, CSS e JavaScript antes de começar a estudar React?"
+    answer: "Ter um conhecimento básico dessas tecnologias será muito útil para entender e utilizar o React de forma eficaz. O React é uma biblioteca JavaScript que é frequentemente usada para criar interfaces de usuário de aplicativos da web. Embora o React permita criar interfaces complexas sem precisar lidar diretamente com HTML e CSS, é importante entender os conceitos básicos dessas tecnologias para entender como o React funciona e como usá-lo adequadamente."
+  - title: "Preciso conhecer todos os hooks?"
+    answer: "Hooks foram introduzidos no React a partir da versão 16.8 da biblioteca, sendo recursos que permitem que você gerencie o estado, ciclos de vida do componente e outros recursos do React sem precisar escrever componentes em forma de classes. O uso deles é recomendado, mas claro, você não precisa conhecer todos logo de cara. Os mais relevantes costumam ser o 'useState' e 'useEffect', por isso foque nesses primeiro, e aprenda os outros quanto precisar."
+  - title: "Preciso aprender TypeScript?"
+    answer: "Não é essencial, mas é uma tecnologia que vem sendo cada vez mais adotada pelo mercado React, por isso é interessante estudá-la a partir do Nível 2 de profundidade, pois é possível que você tenha que usá-la em projetos."
+video: https://www.youtube.com/watch?v=00_rIYoeJtQ

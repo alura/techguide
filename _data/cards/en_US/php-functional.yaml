@@ -1,0 +1,26 @@
+name: PHP - Functional programming
+logo: 
+short-description:
+key-objectives:
+  - Functional programming is a programming paradigm premised on using functions. Functions are, according to this paradigm, at the epicenter of a code base.
+  - Understanding in-depth about functions in PHP
+  - Getting to know arrays manipulation functions
+  - Performing function composition using pipelines
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Functional Programming in PHP: Part I"
+    link: https://agiroloki.medium.com/functional-programming-in-php-part-i-9015b3d6b03
+  - type: ARTICLE
+    title: "Functional Programming with PHP Generators"
+    link: https://medium.com/ifixit-engineering/functional-programming-with-php-generators-837a6c91b0e3
+  - type: ARTICLE
+    title: "Functional PHP: a first approach"
+    link: https://medium.com/@Apiumhub/functional-php-a-first-approach-d771bebbe02a
+  - type: YOUTUBE
+    title: "miss google: Functional Programming with PHP | PHP Advanced Concepts"
+    link: https://www.youtube.com/watch?v=GrX9NLBtzcw
+  - type: YOUTUBE
+    title: "Dr.Arnold Fuentes: Basic Functional Programming in PHP"
+    link: https://www.youtube.com/watch?v=o76bfjPRiyE
+alura-contents:

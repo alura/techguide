@@ -1,0 +1,42 @@
+name: PHP - Symfony
+logo: 
+short-description:
+key-objectives:
+  - Symfony é um framework PHP de código aberto e de estrutura MVC que incorpora muitas funcionalidades e boas práticas de desenvolvimento do domínio PHP.
+  - Conhecer as principais características do framework
+  - Utilizar componentes
+  - Definir recursos e rotas
+  - Templates Twig
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Symfony (inglês)"
+    link: https://symfony.com/doc/current/index.html
+  - type: ARTICLE
+    title: "Como criar uma página com Symfony"
+    link: https://medium.com/code-maestro/como-criar-uma-p%C3%A1gina-com-symfony-91193e80b3d0
+  - type: ARTICLE
+    title: "Crud no Symfony com Doctrine"
+    link: https://medium.com/php-word/crud-no-symfony-com-doctrine-b7ddb820c332
+  - type: YOUTUBE
+    title: "PoliCast: Symfony 5 - Criando seu primeiro projeto"
+    link: https://www.youtube.com/watch?v=glWw77txato&t=10s
+  - type: YOUTUBE
+    title: "Code Experts: API REST com Symfony 6 | Primeiros Passos e Setup Projeto"
+    link: https://www.youtube.com/watch?v=zhuYBGQGDBc
+alura-contents:
+  - type: PODCAST
+    title: "Hipsters.tech: PHP não é coisa de sobrinho - Hipsters Ponto Tech 36"
+    link: https://cursos.alura.com.br/extra/hipsterstech/php-nao-e-coisa-de-sobrinho-hipsters-36-a550
+  - type: COURSE
+    title: "Curso Symfony Parte 1: criação de uma API Restful"
+    link: https://cursos.alura.com.br/course/php-symfony-api-restful
+  - type: COURSE
+    title: "Curso Symfony Parte 2: autenticação e HATEOAS"
+    link: https://cursos.alura.com.br/course/php-symfony-api-restful-autenticacao
+  - type: COURSE
+    title: "Curso Symfony Parte 3: tratamento de erros, cache, logs e testes"
+    link: https://cursos.alura.com.br/course/symfony-tratamento-erros-cache-log-testes
+  - type: COURSE
+    title: "Formação Symfony e Doctrine"
+    link: https://cursos.alura.com.br/formacao-symfony-e-doctrine

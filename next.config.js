@@ -1,3 +1,5 @@
+const redirects = require("./redirects.json");
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: true,
@@ -6,13 +8,7 @@ const nextConfig = {
     styledComponents: true,
   },
   async redirects() {
-    return [
-      {
-        source: "/pt-BR/",
-        destination: "/",
-        permanent: true,
-      },
-    ];
+    return redirects;
   },
   async headers() {
     return [

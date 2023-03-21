@@ -1,0 +1,28 @@
+name: PHP - Error handling
+logo: 
+short-description:
+key-objectives:
+  - Error handling refers to the response and recovery procedures from error conditions present in a software application. In other words, it is the process comprised of anticipation, detection and resolution of application, programming or communication errors.
+  - Knowing and handling the most common exceptions
+  - Knowing the types of errors and in which situations they can occur
+  - Using 'try' and 'catch' for error handling
+  - Learning about error handlers
+  - Creating specific exceptions according to your application's needs
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation - PHP Exceptions"
+    link: https://www.php.net/manual/en/language.exceptions.php
+  - type: SITE
+    title: "W3Schools: PHP Exception Handling"
+    link: https://www.w3schools.com/php/php_exception.asp
+  - type: ARTICLE
+    title: "Handle exceptions gracefully"
+    link: https://medium.com/eleven-labs/handle-exceptions-gracefully-552dcd407a10
+  - type: YOUTUBE
+    title: "Dani Krossing: What Are Error Handlers in PHP"
+    link: https://www.youtube.com/watch?v=ZW9HavbryB4
+  - type: YOUTUBE
+    title: "Program With Gio: OOP Error Handling In PHP"
+    link: https://www.youtube.com/watch?v=XQ5Pd-6Hnjk
+alura-contents:

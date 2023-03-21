@@ -1,0 +1,37 @@
+name: Android - Testing
+logo: 
+short-description:
+key-objectives:
+  - Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.
+  - Using unit tests
+  - Using integration testing
+  - Using instrumented testing
+  - Using mocks to facilitate test implementation with dependencies
+  - Implementing tests with Dependency Injection tools such as Hilt
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Fundamentals of testing Android apps"
+    link: https://developer.android.com/training/testing/fundamentals
+  - type: SITE
+    title: "Android Documentation: What to test in Android"
+    link: https://developer.android.com/training/testing/fundamentals/what-to-test
+  - type: SITE
+    title: "Android Documentation: Testing your Compose layout"
+    link: https://developer.android.com/jetpack/compose/testing
+  - type: SITE
+    title: "Android Documentation: Build local unit tests"
+    link: https://developer.android.com/training/testing/local-tests
+  - type: SITE
+    title: "Android Documentation: Build instrumented tests"
+    link: https://developer.android.com/training/testing/instrumented-tests
+  - type: ARTICLE
+    title: "The basics of Unit and Instrumentation Testing on Android"
+    link: https://medium.com/@ali.muzaffar/the-basics-of-unit-and-instrumentation-testing-on-android-7f3790e77bd
+  - type: YOUTUBE
+    title: "Philipp Lackner: Testing on Android"
+    link: https://www.youtube.com/playlist?list=PLQkwcJG4YTCSYJ13G4kVIJ10X5zisB2Lq
+  - type: YOUTUBE
+    title: "Cheezy Code: Android Unit Testing Playlist - JUnit, Espresso, Mockito with Kotlin"
+    link: https://www.youtube.com/playlist?list=PLQkwcJG4YTCSYJ13G4kVIJ10X5zisB2Lq
+alura-contents:

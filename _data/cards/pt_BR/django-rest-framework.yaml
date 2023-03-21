@@ -2,6 +2,7 @@ name: Django Rest Framework
 logo: 
 short-description:
 key-objectives:
+  - O Django REST Framework é um conjunto de ferramentas poderosas e flexíveis para a construção de APIs.
   - Desenvolver APIs
   - Trabalhar com modelos, serializers e views
   - Incluir filtros, buscas e ordenação
@@ -9,7 +10,7 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Documentação Rest Framework (inglês)"
+    title: "Documentação Django Rest Framework (inglês)"
     link: https://www.django-rest-framework.org/
   - type: ARTICLE
     title: "Introduçao ao Django Rest Framework"

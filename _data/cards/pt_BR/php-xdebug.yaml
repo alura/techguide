@@ -1,0 +1,36 @@
+name: PHP - XDebug
+logo: 
+short-description:
+key-objectives:
+  - Xdebug é uma extensão PHP que fornece recursos de depuração e criação de perfil.
+  - Usar e aprimorar o var_dump com XDebug
+  - Analisar e entender a stack (pilha) de execução
+  - Depurar o código
+  - Depurar remotamente com Docker
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação XDebug (inglês)"
+    link: https://xdebug.org/docs/
+  - type: ARTICLE
+    title: "Laravel e Xdebug"
+    link: https://andrelugomes.medium.com/laravel-e-xdebug-795ac66457dc
+  - type: ARTICLE
+    title: "Ambiente de Desenvolvimento PHP com Docker + XDebug + VSCode"
+    link: https://medium.com/@alexcvcoelho/ambiente-de-desenvolvimento-php-com-docker-xdebug-vscode-94bda2b49be9
+  - type: YOUTUBE
+    title: "Pensando em Software: PHP - Instalando e utilizando o XDebug"
+    link: https://www.youtube.com/watch?v=kQNZz7smW3k
+  - type: YOUTUBE
+    title: "Code Easy: Configurar o XDebug para PHP com o VSCode"
+    link: https://www.youtube.com/watch?v=MDUAxMPYQPA
+  - type: YOUTUBE
+    title: "Dias de Dev: XDebug e Docker - Configurar PHPStorm e VSCode para funcionar com XDebug usando Docker"
+    link: https://www.youtube.com/watch?v=kbq3FJOYmQ0
+alura-contents:
+  - type: ARTICLE
+    title: "Configurando o Xdebug em editores da Jetbrains"
+    link: https://www.alura.com.br/artigos/configurando-xdebug-em-editores-jetbrains
+  - type: COURSE
+    title: "Curso XDebug: ferramenta de debug e profiling"
+    link: https://cursos.alura.com.br/course/xdebug-ferramenta-debug-profiling

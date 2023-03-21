@@ -1,0 +1,41 @@
+name: GraphQL
+logo: 
+short-description:
+key-objectives:
+  - GraphQL é uma linguagem de consulta e manipulação de dados de código aberto para APIs. É considerada uma alternativa para arquiteturas REST.
+  - Aprender o que é GraphQL e por que foi criado
+  - Entender como o GraphQL é utilizado no desenvolvimento de APIs
+  - Criar APIs utilizando as bibliotecas e frameworks para GraphQL
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "RedHat: O que é GraphQL?"
+    link: https://www.redhat.com/pt-br/topics/api/what-is-graphql
+  - type: ARTICLE
+    title: "GraphQL: O que é e como usar"
+    link: https://medium.com/@emerson_pereira/introdu%C3%A7%C3%A3o-a-graphql-cbd1697784bf
+  - type: ARTICLE
+    title: "Dev.to: Entendendo um pouco sobre o que é GraphQL"
+    link: https://dev.to/amaurygoncalves/entendendo-um-pouco-sobre-o-que-e-graphql-9l7
+  - type: YOUTUBE
+    title: "Mateus Silva: GraphQL: Pra que serve, Conceitos e Hello World"
+    link: https://www.youtube.com/watch?v=ZWF7QT3ogk0
+  - type: SITE
+    title: "How to GraphQL: The Fullstack tutorial for GraphQL (em inglês)"
+    link: https://www.howtographql.com/
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: O que é GraphQL?"
+    link: https://www.youtube.com/watch?v=trf3ZR_K1nk
+  - type: podcast
+    title: "Hipsters.tech: Python, GraphQL e Serverless no Zé Delivery (Hipsters On The Road 53)"
+    link: https://www.alura.com.br/podcast/python-graphql-e-serverless-no-ze-delivery-hipsters-on-the-road-53-a804
+  - type: COURSE
+    title: "Curso GraphQL: construindo uma API com Apollo Server"
+    link: https://www.alura.com.br/curso-online-graphql-construindo-api-apollo-server
+  - type: COURSE
+    title: "Curso GraphQL: integração de dados e relacionamentos"
+    link: https://www.alura.com.br/curso-online-graphql-integracao-dados-relacionamentos
+  - type: COURSE
+    title: "Curso React: consumindo GraphQL com Apollo Client"
+    link: https://www.alura.com.br/curso-online-react-consumindo-graphql-apollo-client

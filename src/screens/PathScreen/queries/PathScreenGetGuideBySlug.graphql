@@ -2,6 +2,11 @@ query PathScreenGetGuideBySlug($input: GuideInput, $locale: SiteLocale) {
   guide(input: $input, locale: $locale) {
     slug
     name
+    video
+    faq {
+      title
+      answer
+    }
     expertises {
       name
       cards {

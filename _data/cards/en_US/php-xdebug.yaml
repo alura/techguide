@@ -1,0 +1,30 @@
+name: PHP - XDebug
+logo: 
+short-description:
+key-objectives:
+  - Xdebug is a PHP extension which provides debugging and profiling capabilities.
+  - Using and enhancing var_dump with XDebug
+  - Analyzing and understanding the execution stack
+  - Debugging the code
+  - Debugging remotely with Docker
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation: XDebug"
+    link: https://xdebug.org/docs/
+  - type: ARTICLE
+    title: "How to Use Xdebug for Advanced PHP Debugging"
+    link: https://deliciousbrains.com/xdebug-advanced-php-debugging/
+  - type: ARTICLE
+    title: "xDebug with Docker and PHPStorm"
+    link: https://pablofmorales.medium.com/xdebug-with-docker-and-phpstorm-786da0d0fad2
+  - type: ARTICLE
+    title: "Learn How to Debug PHP with Xdebug and VsCode"
+    link: https://www.cloudways.com/blog/php-debug/
+  - type: YOUTUBE
+    title: "The Codeholic: Debugging PHP7.4 with XDebug 2 and VsCode"
+    link: https://www.youtube.com/watch?v=LNIvugvmCyQ
+  - type: YOUTUBE
+    title: "Program With Gio: How To Install Xdebug 3 with Docker & PhpStorm - Full PHP 8 Tutorial"
+    link: https://www.youtube.com/watch?v=7YuYxbYd3P0
+alura-contents:

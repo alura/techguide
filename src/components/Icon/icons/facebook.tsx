@@ -2,13 +2,11 @@ import React from "react";
 
 export default function IconFacebook() {
   return (
-    <g fill="none" fillRule="evenodd">
-      <circle cx="16" cy="16" r="16" fill="currentColor" />
+    <svg width="32" height="32" viewBox="0 0 24 24">
       <path
-        d="M13.032 27 13 17H9v-4h4v-2.5C13 6.789 15.298 5 18.61 5c1.585 0 2.948.118 3.345.17v3.88H19.66c-1.8 0-2.15.856-2.15 2.112V13h5.241l-2 4H17.51v10h-4.478z"
-        fill="#080f1b"
-        fillRule="nonzero"
+        d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm3 8h-1.35c-.538 0-.65.221-.65.778v1.222h2l-.209 2h-1.791v7h-3v-7h-2v-2h2v-2.308c0-1.769.931-2.692 3.029-2.692h1.971v3z"
+        fill="currentColor"
       />
-    </g>
+    </svg>
   );
 }

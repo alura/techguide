@@ -1,0 +1,42 @@
+name: Deep Learning
+logo: 
+short-description:
+key-objectives:
+  - Deep Learning is a branch of Machine Learning based on a set of algorithms that attempt to model high-level abstractions of data using a deep graph with multiple processing layers, composed of various linear and nonlinear transformations.
+  - Building and training models with Keras
+  - Building and training models with Tensorflow
+  - Selecting the layers of a model
+  - Classifying images
+  - Understanding the concepts of weights and biases
+  - Neural networks for regression
+  - Understanding the concept of recurrent networks
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "IBM: Deep learning"
+    link: https://www.ibm.com/topics/deep-learning
+  - type: SITE
+    title: "Oracle: What is Deep Learning?"
+    link: https://www.oracle.com/artificial-intelligence/machine-learning/what-is-deep-learning/
+  - type: SITE
+    title: "GeeksForGeeks: Introduction to Deep Learning"
+    link: https://www.geeksforgeeks.org/introduction-deep-learning/
+  - type: ARTICLE
+    title: "Deep Learning: Introduction to PyTorch"
+    link: https://medium.com/deeplearningbrasilia/deep-learning-introduction-to-pytorch-5bd39421c84
+  - type: ARTICLE
+    title: "Understanding PyTorch with an example: a step-by-step tutorial"
+    link: https://towardsdatascience.com/understanding-pytorch-with-an-example-a-step-by-step-tutorial-81fc5f8c4e8e
+  - type: ARTICLE
+    title: "A Simple Tutorial to Classify Images Using TensorFlow — Step by Step Guide"
+    link: https://medium.com/@RaghavPrabhu/a-simple-tutorial-to-classify-images-using-tensorflow-step-by-step-guide-7e0fad26c22
+  - type: YOUTUBE
+    title: "Simplilearn: Deep Learning In 5 Minutes | What Is Deep Learning?"
+    link: https://www.youtube.com/watch?v=6M5VXKLf4D4
+  - type: YOUTUBE
+    title: "Patrick Loeber: Deep Learning With PyTorch - Full Course"
+    link: https://www.youtube.com/watch?v=c36lUUr864M
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: TensorFlow 2.0 Complete Course - Python Neural Networks for Beginners Tutorial"
+    link: https://www.youtube.com/watch?v=R-63YMTnuZw
+alura-contents:

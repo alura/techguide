@@ -1,12 +1,12 @@
 # Android
-## Nível 1
+## Nivel 1
 - [ ] **Kotlin - Fundamentos**:
-   - A linguagem Kotlin cada vez mais cresce no mercado, seja pela adoção no ambiente Android, como também, na presença em outras plataformas. Muitas pessoas e empresas cada vez mais estão interessadas em desenvolver produtos em Kotlin, ou seja, é muito importante conhecer os fundamentos e técnicas específicas que a linguagem provê
+   - Kotlin é uma linguagem de programação multiplataforma, orientada a objetos, funcional e estaticamente tipada. Ela compila para a máquina virtual Java e também pode ser traduzida para a linguagem JavaScript e compilada para código nativo (via LLVM). É a linguagem oficial do sistema Android da Google.
    - Entender a sua sintaxe
    - Conhecer os tipos primitivos
    - Declarar e usar variáveis e constantes
    - Usar estruturas condicionais (if, else)
-   - Usar estruturas de repetição e laços ('while', 'for')
+   - Usar estruturas de repetição e laços (while, for)
    - Usar funções, passando parâmetros e argumentos
    - Implementando métodos e reutilizando eles
    - Null Safety (Elimine o perigo de referências nulas)
@@ -17,7 +17,7 @@
    - Orientação a Objetos com Kotlin (Properties, Data class, Companion Objects, Delegation)
 - [ ] **Android - Fundamentos**:
    - Conhecer Kotlin, Java ou C++ que são as linguagens para desenvolver Apps Android.
-   - Entender o SDK do Android empacota o código e recursos do App em um APK (Android Package - Pacote Android) para rodar no SO do Android
+   - Entender como o SDK do Android empacota o código e recursos do App em um APK (Android Package - Pacote Android) para rodar no SO do Android
    - Saber os componentes de entrada de um App - Activity, Service, Broadcast Receiver e Content Provider
    - Compreender os ciclos de vida de componentes do Android e como funcionam - O ciclo de vida de uma Activity
    - Ativar componentes de entrada do App com Intents
@@ -37,10 +37,11 @@
    - Como funcionam interfaces
    - O que são abstrações
 - [ ] **Android - Sistema de View**:
+   - A classe View representa o bloco básico de construção dos componentes de interface do usuário em Android.
    - Conhecer a referência View e ViewGroup para definir um Layout
-   - Saber as principais ViewGroups para construir layouts - LinearLayout, RelativeLayout, FrameLayout e ConstraintLayout.
-   - Usar o editor visual de Layout para personalizar a tela, ou então, utilizar o arquivo XML para a edição.
-   - Conhecer o Preview do editor visual e usá-lo para preparar as telas e componentes do App.
+   - Saber as principais ViewGroups para construir layouts - LinearLayout, RelativeLayout, FrameLayout e ConstraintLayout
+   - Usar o editor visual de Layout para personalizar a tela, ou então, utilizar o arquivo XML para a edição
+   - Conhecer o Preview do editor visual e usá-lo para preparar as telas e componentes do App
    - Utilizar as Views do SDK do Android - TextView, Button, EditText, CheckBox, DatePicker etc
    - Criar Views personalizadas para atender demandas específicas
    - Personalizar as Views com propriedades do Android ou da própria View - Ajustes de altura, largura, visibilidade, espaçamento
@@ -49,99 +50,101 @@
    - Reagir a eventos das Views a partir de listeners como cliques, cliques longos, rolagem, arrastar e soltar
 - [ ] **Android - Fragments**:
    - Um Fragment representa o comportamento ou uma parte da interface do usuário em uma Activity hospedeira. É possível combinar vários fragmentos em uma única Activity para criar uma IU de vários painéis e reutilizar um fragmento em diversas atividades. Você pode imaginar um fragment como uma seção modular de uma Activity, que tem o próprio ciclo de vida, recebe os próprios eventos de entrada e que pode ser adicionada ou removida durante a execução da Activity.
-   - O que é um Fragment.
-   - Como usar e reutilizar Fragments na mesma Activity.
-   - Entender os motivos para utilizar Fragments em projetos Android.
-   - Implementar layouts com múltiplos painéis.
-   - Migrar projetos Android que utilizam apenas Activities para utilizar fragments.
-   - Lidar com transações do gerenciador de fragments.
+   - Entender o que é um Fragment
+   - Como usar e reutilizar Fragments na mesma Activity
+   - Entender os motivos para utilizar Fragments em projetos Android
+   - Implementar layouts com múltiplos painéis
+   - Migrar projetos Android que utilizam apenas Activities para utilizar fragments
+   - Lidar com transações do gerenciador de fragments
 - [ ] **Android - Navegação no App**:
-   - A navegação de telas em Apps é fundamental para a experiência de uso de Apps Android. Para isso é essencial conhecer os princípios de navegação do Android
-   - Aprender o que é a biblioteca Navigation e como é possível implementá-la, seja para o sistema de Views ou para o Jetpack Compose.
-   - Integrar a navegação com componentes do App, seja em navegação de abas, ou na visualização de componentes visuais dependendo da tela.
-   - Saber o que é uma task de a back stack do Android
+   - A navegação de telas em Apps é fundamental para a experiência de uso de Apps Android. Para isso é essencial conhecer os princípios de navegação do Android.
+   - Aprender o que é a biblioteca Navigation e como é possível implementá-la, seja para o sistema de Views ou para o Jetpack Compose
+   - Integrar a navegação com componentes do App, seja em navegação de abas, ou na visualização de componentes visuais dependendo da tela
+   - Saber o que é uma task de back stack do Android
    - Conhecer os App links - Deep Link, Web Links e Android App Links
-- [ ] **Android - Jetpack Compose Fundamentos**:
+- [ ] **Jetpack Compose - Fundamentos**:
    - O Jetpack Compose é uma ferramenta que trás a proposta de criar interfaces nativas Android com menos código, mais rápido e deixa seus apps mais bonitos, ele faz isso através da abordagem declarativa.
-   - Criar um app Android do zero utilizando o Jetpack Compose.
-   - Construção de Layouts a partir de Composables.
-   - Pré-visualizações de Composables.
-   - Gerenciamento de estados, eventos, composição e recomposição.
-   - Configurar o compose em um projeto já existente e aplicar a interoperabilidade.
-   - Trabalhar com formulários.
+   - Criar um app Android do zero utilizando o Jetpack Compose
+   - Construção de Layouts apartir de composables
+   - Pré-visualizações de Composables
+   - Gerenciamento de estados, eventos, composição e recomposição
+   - Configurar o Compose em um projeto já existente e aplicar a interoperabilidade
+   - Trabalhar com formulários
    - Entender a diferença do XML para o Compose
-   - Manter estados utilizando o padrão MVVM com ViewModel e StateFlow, entendendo o ciclo de vida.
-- [ ] **Android - Persistência de dados**:
-   - Armazenar dados do usuário é fundamental para garantir que o progresso seja mantido. Seja salvar informações simples texto, números, ou então, arquivos ou dados estruturados (informações organizadas em tabelas).
+   - Manter estados utilizando o padrão MVVM com ViewModel e StateFlow, entendendo o ciclo de vida
+- [ ] **Android - Persistência**:
+   - O conceito de "persistência de dados" refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.
    - No Android podemos armazenar de maneira persistente arquivos específicos ou para o App ou compartilhado, informações de tipo primitivo com preferências e dados estruturados com banco de dados.
 - [ ] **Android - Gradle**:
    - O Gradle e o plug-in do Android para Gradle(AGP) oferecem uma maneira flexível de compilar, criar, gerenciar e empacotar seu app ou biblioteca Android.
    - O que é uma build tool
-   - Estrutura de um projeto Android como um projeto multi módulo do Gradle
-   - Para que serve o gradle
-   - Como usar o gradle
+   - Aprender a estrutura de um projeto Android como um projeto multi módulo do Gradle
+   - Para que serve o Gradle e como usá-lo
    - O que são dependências e como utilizá-las
-- [ ] **Android - Carregamento de Imagem**:
+- [ ] **Android - Carregamento de imagens**:
    - As imagens vem em tamanhos e formas diferentes. Na maioria dos casos, elas são maiores do que o necessário para a Interface de usuário (UI) de um app. Dado que estamos trabalhando com memória limitada, no Android é usada uma técnica de decodificação de bitmaps, para evitar todo o trabalho de utilizar isso, temos diversas bibliotecas que facilitam esse processo.
    - O que é Bitmap
-   - Conhecer as bibliotecas de carregamento de imagens (Glide, Picasso, Coil, entre outras)
-   - Usar essas bibliotecas
-   - Vantagens e desvantagens de cada uma
-## Nível 2
+   - Conhecer as bibliotecas de carregamento de imagens (Glide, Picasso, Coil, entre oturas) e usá-las
+   - Vantagens e desvantagens das bibliotecas de carregamento de imagens
+## Nivel 2
 - [ ] **Android - Permissões**:
    - As permissões do app ajudam a apoiar a privacidade do usuário protegendo dados restritos, como estados do sistema e os dados de contatos dos usuários, há também as ações restritas, como a conexão a um dispositivo pareado e a gravação de áudio ou uso de câmera.
-   - O que são permissões
-   - Quais tipos de permissões existem
+   - Entender o que são permissões
+   - Aprender sobre os diferentes tipos de permissões
    - Permissões especiais
    - Práticas recomendadas
-- [ ] **Android - Execução assíncrona**:
-   - Existem códigos em Apps que podem demorar, em situações como essa, corremos o risco do App travar por não conseguir rodar as demais instruções até que a instrução que demora ainda não foi finalizada. Para lidar com situações como essa, utilizamos técnicas para rodar o nosso código de maneira assíncrona.
+- [ ] **Kotlin - Assíncrono**:
+   - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
    - Aprender as possibilidades para rodar o código de maneira assíncrona no Android
    - Conhecer o pacote java.concurrent e as suas soluções
    - Utilizar Coroutines como uma solução de código assíncrono no Kotlin
-   - Entender e usar estruturas reativas como LiveData, Flow, StateFlow, RX etc
-- [ ] **Kotlin - APIs**:
+   - Entender e usar estruturas reativas como LiveData, Flow, StateFlow, RX, etc
+- [ ] **Kotlin - Comunicação com APIs**:
+   - Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.
    - Realizar requisições HTTP para se comunicar com serviços online, como REST API é fundamental na maioria dos Apps Android. Sendo assim, é importante conhecer as principais ferramentas e técnicas necessárias para esse tipo de funcionalidade.
-   - Conhecer bibliotecas famosas no mundo Android para realizar requisições - Retrofit, Ktor ou Volley.
-   - Configurar as requisições para executarem de maneira assíncrona.
-   - Converter objetos para JSON e vice-versa.
+   - Conhecer bibliotecas famosas no mundo Android para realizar requisições - Retrofit, Ktor ou Volley
+   - Configurar as requisições para executararem de maneira assíncrona
+   - Converter objetos para JSON e vice-versa
 - [ ] **Android - Recursos do sistema**:
-   - Os smartphones que estão sob a plataforma Android, na sua grande maioria possuem diversos recursos específicos do Sistema, tais como Câmeras, Sensores, GPS, entre outros.
-   - Aprenda quais são e como utilizar esses recursos.
-- [ ] **Android - Injeção de dependências**:
-   - Ao escrever códigos em projetos Android é muito que uma funcionalidade utilize códigos de bibliotecas, como o Room para salvar dados ou o Retrofit para fazer requisições para REST API. Essas bibliotecas são conhecidas como dependências dos nossos códigos, justamente pela necessidade para realizar a ação esperada. Usar essas bibliotecas com facilidade em qualquer parte do App pode ter os seus desafios, como oferecer instâncias únicas e realizar toda a configuração necessária para o funcionamento correto. Para isso, utilizamos ferramentas de injeção de dependência que facilitam o nosso trabalho.
-   - Saber usar a técnica de injeção de dependência e uma das ferramentas comuns no Android - Hilt, Dagger ou Koin
-- [ ] **Android - Testes automatizados**:
-   - Ao escrever um App Android, precisamos garantir ao máximo que o App funciona como esperado. Para evitar os bugs, utilizamos testes automatizados que se responsabilizam em realizar as ações esperadas e conferir se o App apresenta os comportamentos esperados.
-   - Conhecer os fundamentos de testes para Android é essencial para garantir o funcionamento do App
-   - Implementar cada tipo de teste para garantir o comportamento esperado - unidade, integração e instrumental.
-   - Utilizar Mocks para facilitar a implementação de testes com dependências
-   - Implementação de testes com ferramentas de Injeção de dependência - Hilt
-## Nível 3
+   - Os smartphones que estão sob a plataforma Android, na sua grande maioria possuem diversos recursos específicos do sistema, tais como câmeras, sensores, gps, entre outros.
+   - Aprenda quais são e como utilizar esses recursos
+- [ ] **Kotlin - Injeção de Dependências**:
+   - Injeção de Dependências é um padrão de projeto no qual uma classe solicita dependências de fontes externas ao invés de criá-las.
+   - Ao escrever códigos em projetos Android, é muito que uma funcionalidade utilize códigos de bibliotecas, como o Room para salvar dados ou o Retrofit para fazer requisições para REST API. Essas bibliteocas são conhecidas como dependências dos nossos códigos, justamente pela necessidade para realizar a ação esperada. Usar essas bibliotecas com facilidade em qualquer parte do app pode ter os seus desafios, como oferecer instâncias únicas e realizar toda a configuração necessária para o funcionamento correto. Para isso, utilizamos ferramentas de injeção de dependência que facilitam o nosso trabalho.
+   - Aprender a usar a técnica de injeção de dependências e alguma das ferramentas comuns no Android para tal - Hilt, Dagger ou Koin
+- [ ] **Android - Testes**:
+   - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+   - Usar testes unitários
+   - Usar testes de integração
+   - Usar testes instrumentados
+   - Usar mocks para facilitar a implementação de testes com dependências
+   - Implementar testes com ferramentas de Injeção de Dependências como o Hilt
+## Nivel 3
 - [ ] **Android - Arquitetura**:
-   - O guia de arquitetura android aborda práticas e a arquitetura recomendada para a criação de apps robustos com alta qualidade de produção. Organizar sua base de código em partes contidas e acopladas com flexibilidade (Modularização). 
-   - O que é e para que serve o MVVM (Model-View-ViewModel)?
-   - Camadas de IU, dados e domínios.
-   - Fluxo de dados dentro do app.
-   - Como utilizar o ViewModel.
-   - Recomendações da arquitetura, caso de uso, padrão repositório, Priorização no Offline.
-   - Gerenciamento de estado.
-   - Injeção de dependências.
-   - Melhorar a experiência dos usuários do app com o ViewModel.
-   - O que é modularização?
-   - Benefícios da modularização.
+   - O guia de arquitetura Android aborda práticas e a arquitetura recomendada para a criação de apps robustos com alta qualidade de produção. Organizar sua base de código em partes contidas e acopladas com flexibilidade (Modularização).
+   - Aprender o que é e para que serve a arquitetura MVVM (Model-View-ViewModel)
+   - Camadas de IU, dados e domínios
+   - Fluxo de dados dentro do app
+   - Como utilizar o ViewModel
+   - Recomendações da arquitetura, padrão repositório, offline-first
+   - Gerenciamento de estado
+   - Injeção de dependências
+   - Melhorar a experiência dos usuários do app com o ViewModel
+   - Aprender o que é modularização
+   - Benefícios da modularização
 - [ ] **Android - Critérios de qualidade do App**:
-   - Ao escrever um App Android, existe uma série de requisitos para garantir uma qualidade esperada, como por exemplo, a compatibilidade do App com a navegação esperada pelo sistema Android, ou então, pelos gestos etc.
+   - Ao escrever um App Android, existe uma série de requisitos para garantir uma qualidade esperada, como por exemplo, a compatibilidade do App com a navegação esperada pelo sistema Android, ou então, pelos gestos, etc.
    - Os requisitos são classificados como - Experiência visual, Funcionalidade, Desempenho e estabilidade, Privacidade e segurança, Google Play e Procedimento de teste
    - Cumprir todos os requisitos, ou quase todos, significa que o App possui uma maior qualidade para os usuários.
-- [ ] **Android - Entrega e integração contínua**:
+- [ ] **Android - Entrega e integração contínuas**:
+   - CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português "entrega e integração contínuas". Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.
    - Ao implementar novas funcionalidades do App, precisamos garantir que todas as entregas irão funcionar corretamente. Para isso, podemos utilizar técnicas de integração e entrega contínua, dessa forma, agilizamos a evolução do App e tentamos garantir os comportamentos esperados ao mesmo tempo.
-   - Conhecer uma das ferramentas para fazer a entrega contínua, Firebase Test Lab, Jenkins, GitHub Actions etc
-- [ ] **Android - Otimização do App**:
-   - Ao gerar um App, existem alguns detalhes de otimização para torná-lo rápido, menor e otimizado, como por exemplo, a remoção de código desnecessário, a ofuscação que reduz o nome dos códigos e a otimização que aplica estratégias mais agressivas para reduzir mais ainda o App
-   - Aprender a ativar cada otimização no plugin do Android para o Gradle.
-   - Utilizar o proguard para realizar a otimização mais agressiva.
-   - Ativar o multidex para que o App seja capaz de obter mais de 64000 métodos e conseguir utilizar as técnicas de otimização
+   - Conhecer alguma das ferramentas para fazer a entrega contínua, como Firebase Test Lab, Jenkins, GitHub Actions, etc
+- [ ] **Android - Otimização do app**:
+   - Ao gerar um App, existem alguns detalhes de otimização para torná-lo rápido, menor e otimizado, como por exemplo, a remoção de código desnecessário, a ofuscação que reduz o nome dos códigos e a otimização que aplica estratégias mais agressivas para reduzir mais ainda o app.
+   - Aprender a ativar cada otimização no plugin do Android para o Gradle
+   - Utilizar o proguard para realizar uma otimização mais agressiva
+   - Ativar o multidex para que o app seja capaz de obter mais de 64000 métodos e conseguir utilizar as técnicas de otimização
    - Conhecer e utilizar ferramentas auxiliarem para aumentar o desempenho do App
 - [ ] **Java - Fundamentos**:
    - Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.
@@ -156,16 +159,16 @@
    - Obter dados de uma API
    - Fazer chamadas assíncronas 'Future', etc
    - Criar construtores
--  [ ] **Android - Depuração**:
-   - Durante o desenvolvimento de um App, é bastante comum a presença de bugs inesperados, como também, a falta de compreensão do motivo do bug. Para agilizar a analise e investigação de problemas ou comportamentos inesperados no App, precisamos aprender a depurar ou debuggar um App Android.
-   - Saber como executar um App em depuração no Android Studio
+- [ ] **Android - Depuração**:
+   - Durante o desenvolvimento de um app, é bastante comum a presença de bugs inesperados, como também, a falta de compreensão do motivo do bug. Para agilizar a análise e investigação de problemas ou comportamentos inesperados no app, precisamos aprender a depurar ou debuggar um app Android.
+   - Saber como executar um app em depuração no Android Studio
    - Aprender a ativar a depuração em dispositivos físicos
    - Utilizar Logs para identificar eventos
    - Analisar stack track
    - Inspecionar o Layout, recursos do sistema como processador, memória e rede
-   - Depurar o banco de dados do App e arquivos APKs pré-compilados
-   - Analisar o Build com o analisador de APK
-## Habilidade Auxiliar: Infraestrutura e boas práticas
+   - Depurar o banco de dados do app e arquivos APKs pré-compilados
+   - Analisar o build com o analizador de APK
+## Habilidade Auxiliar: Infraestrutura e boas práticas 
 - [ ] **Git e GitHub - Fundamentos**:
    - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
    - GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.
@@ -173,7 +176,7 @@
    - Clonar um repositório
    - Fazer commit, push e pull de e para o repositório
    - Reverter um commit
-   - Criar branches e pull requests
+   - Criar branches e pul requests
    - Lidar com merge e conflitos
 - [ ] **HTTP - Fundamentos**:
    - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
@@ -181,7 +184,7 @@
    - Testar os requests e ver os status codes no navegador
    - Saber fazer uma requisição HTTP na linha de comando com WGET
    - Baixar uma imagem com WGET
-   - Fazer um Post
+   - Fazer um post
 - [ ] **JSON**:
    - JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.
    - Criar um objeto
@@ -211,9 +214,9 @@
 ## Habilidade Auxiliar: UX & Design 
 - [ ] **Material Design**:
    - Material Design é um sistema de design de código aberto do Google, onde ele te passa componentes com determinados padrões de uso e certa personalização para seus apps.
-   - Fundações de experiência de usuário.
-   - Personalizar seus componentes.
-   - Layouts adaptativos.
+   - Fundações de experiência de usuário
+   - Personalizar seus componentes
+   - Layouts adaptativos
 - [ ] **Design Systems**:
    - Um Design Systems (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
    - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
@@ -226,10 +229,10 @@
    - Media queries
    - Conhecer o conceito de Mobile first
 - [ ] **Android - Acessibilidade**:
-   - Procure fazer com que seu app Android possa ser usado por todos, incluindo pessoas com necessidades de acessibilidades. Pessoas com problemas de visão, daltonismo, dificuldades auditivas, comprometimento motor, deficiência cognitivas e muitos outros tipos de deficiência usam dispositivos Android. Ao desenvolver apps com a acessibilidade em mente, você melhora a experiência do usuário para pessoas com necessidades de acessibilidade.
-   - Aumentar a visibilidade do texto.
-   - Usar controles grandes e simples.
-   - Descrever cada elemento de IU.
-- [ ] **Figma - Fundamentos**
+   - Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e aplicativos sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas, incluindo pessoas com necessidades de acessibilidades, como pessoas com problemas de visão, daltonismo, dificuldades auditivas, comprometimento motor, deficiência cognitivas e muitos outros tipos de deficiência.
+   - Aumentar a visibilidade do texto
+   - Usar controles grandes e simples
+   - Descrever cada elemento de IU
+- [ ] **Figma - Fundamentos**:
    - Figma é uma aplicação web colaborativa para design de interfaces. O conjunto de recursos do Figma se concentra na interface do usuário e no design da experiência do usuário, com ênfase na colaboração em tempo real, utilizando uma variedade de editores de gráficos vetoriais e ferramentas de prototipagem.
    - Criar layouts de páginas e componentes

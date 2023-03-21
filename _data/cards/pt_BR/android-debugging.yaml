@@ -1,0 +1,51 @@
+name: Android - Depuração
+logo:
+short-description:
+key-objectives:
+  - Durante o desenvolvimento de um app, é bastante comum a presença de bugs inesperados, como também, a falta de compreensão do motivo do bug. Para agilizar a análise e investigação de problemas ou comportamentos inesperados no app, precisamos aprender a depurar ou debuggar um app Android.
+  - Saber como executar um app em depuração no Android Studio
+  - Aprender a ativar a depuração em dispositivos físicos
+  - Utilizar Logs para identificar eventos
+  - Analisar stack track
+  - Inspecionar o Layout, recursos do sistema como processador, memória e rede
+  - Depurar o banco de dados do app e arquivos APKs pré-compilados
+  - Analisar o build com o analizador de APK
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Depurar seu app"
+    link: https://developer.android.com/studio/debug?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Configurar opções do desenvolvedor no dispositivo"
+    link: https://developer.android.com/studio/debug/dev-options?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Escrever e visualizar registros com o Logcat"
+    link: https://developer.android.com/studio/debug/am-logcat?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Analisar um stack trace"
+    link: https://developer.android.com/studio/debug/stacktraces?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Depurar o layout com o Layout Inspector e a Validação de layout"
+    link: https://developer.android.com/studio/debug/layout-inspector?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Inspecionar o tráfego de rede com o Network Inspector"
+    link: https://developer.android.com/studio/debug/network-profiler?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Depurar seu banco de dados com o Database Inspector"
+    link: https://developer.android.com/studio/inspect/database?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Depurar APKs pré-compilados"
+    link: https://developer.android.com/studio/debug/apk-debugger?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Capturar e ler relatórios de bugs"
+    link: https://developer.android.com/studio/debug/bug-report?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Analisar seu build com o APK Analyzer"
+    link: https://developer.android.com/studio/debug/apk-analyzer?hl=pt-br
+  - type: YOUTUBE
+    title: "Pedro Carvalho: Iniciando com Debug no Android Studio"
+    link: https://www.youtube.com/watch?v=NoHI04IifOE?hl=pt-br
+alura-contents:
+  - type: ARTICLE
+    title: "O que é logcat e como visualizar logs no Android"
+    link: https://www.alura.com.br/artigos/o-que-e-logcat-como-visualizar-logs-android

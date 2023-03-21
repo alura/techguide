@@ -1,0 +1,29 @@
+name: Flask
+logo: 
+short-description:
+key-objectives:
+  - Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself.
+  - Creating web applications
+  - Defining routes, redirects and templates
+  - Validating forms
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation Flask"
+    link: https://flask.palletsprojects.com/en/2.2.x/
+  - type: SITE
+    title: "GeeksForGeeks: Python | Introduction to Web development using Flask"
+    link: https://www.geeksforgeeks.org/python-introduction-to-web-development-using-flask/
+  - type: ARTICLE
+    title: "Deploying a Python Flask app on Heroku"
+    link: https://medium.com/the-andela-way/deploying-a-python-flask-app-to-heroku-41250bda27d0
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Learn Flask for Python - Full Tutorial"
+    link: https://www.youtube.com/watch?v=Z1RJmh_OqeA
+  - type: YOUTUBE
+    title: "NetworkChuck: build a meme Python website (Flask Tutorial for Beginners)"
+    link: https://www.youtube.com/watch?v=5aYpkLfkgRE
+  - type: YOUTUBE
+    title: "DigitalOcean: Getting Started With Flask | 1-Hour Tech Talk"
+    link: https://www.youtube.com/watch?v=bB6Yyh7nUl4
+alura-contents:

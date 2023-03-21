@@ -1,0 +1,37 @@
+name: Laravel
+logo: 
+short-description:
+key-objectives:
+  - Laravel is a free and open-source PHP framework for developing web systems that use the MVC (model, view, controller) pattern.
+  - Getting to know the features of the Laravel framework
+  - Working with routes
+  - Using Blade files
+  - Using its ORM features
+  - Dealing with dependency injection
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation: Laravel"
+    link: https://laravel.com/docs/8.x/readme
+  - type: SITE
+    title: "W3Schools: Laravel - Introduction"
+    link: https://www.w3schools.in/laravel/intro
+  - type: ARTICLE
+    title: "An Introduction to Laravel Development: Features, Benefits, and Getting Started"
+    link: https://dev.to/thedevdrawer/an-introduction-to-laravel-development-features-benefits-and-getting-started-5gdg
+  - type: ARTICLE
+    title: "Laravel — An Introduction"
+    link: https://medium.com/@dygorodrigues/laravel-an-introduction-106def508752
+  - type: ARTICLE
+    title: "Introduction to Laravel… for an Eight-Year-Old"
+    link: https://medium.com/@lonewookie/introduction-to-laravel-for-an-eight-year-old-72889cdce9c2
+  - type: YOUTUBE
+    title: "Matt Socha: Understand Laravel basics in 25 minutes"
+    link: https://www.youtube.com/watch?v=MYyJ4PuL4pY
+  - type: YOUTUBE
+    title: "Traversy Media: Laravel From Scratch 2022 | 4+ Hour Course"
+    link: https://www.youtube.com/watch?v=MYyJ4PuL4pY
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Laravel PHP Framework Tutorial - Full Course for Beginners"
+    link: https://www.youtube.com/watch?v=ImtZ5yENzgE
+alura-contents:

@@ -1,0 +1,59 @@
+name: Python - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Python is a high-level, general-purpose programming language that is widely used in web applications, software development, data science, and machine learning. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected.
+  - Knowing the primitive types
+  - Declaring variables, considering the different types
+  - Using conditional structures ('if', 'else')
+  - Knowing the comparison operators
+  - Using repetition structures and loops ('while', 'for')
+  - Using functions, passing parameters and arguments
+  - Manipulating methods
+  - Manipulating arrays and lists
+  - Getting data from an API
+  - Creating constructors
+aditional-objectives:
+  - Manipulating JSON objects
+  - Handling dates
+contents:
+  - type: SITE
+    title: "Documentation Python"
+    link: https://docs.python.org/3/tutorial/
+  - type: SITE
+    title: "W3Schools: Python Tutorial"
+    link: https://www.w3schools.com/python/
+  - type: SITE
+    title: "W3Schools: Python Variables"
+    link: https://www.w3schools.com/python/python_variables.asp
+  - type: SITE
+    title: "W3Schools: Python Data Types"
+    link: https://www.w3schools.com/python/python_datatypes.asp
+  - type: SITE
+    title: "W3Schools: Python Strings"
+    link: https://www.w3schools.com/python/python_strings.asp
+  - type: SITE
+    title: "W3Schools: Python Operators"
+    link: https://www.w3schools.com/python/python_operators.asp
+  - type: SITE
+    title: "W3Schools: Python If ... Else"
+    link: https://www.w3schools.com/python/python_conditions.asp
+  - type: SITE
+    title: "W3Schools: Python While Loops"
+    link: https://www.w3schools.com/python/python_while_loops.asp
+  - type: SITE
+    title: "W3Schools: Python For Loops"
+    link: https://www.w3schools.com/python/python_for_loops.asp
+  - type: ARTICLE
+    title: "What is Python?"
+    link: https://aws.amazon.com/what-is/python/?nc1=h_ls
+  - type: ARTICLE
+    title: "Introduction to Python Classes"
+    link: https://towardsdatascience.com/introduction-to-python-classes-da526ff745df
+  - type: YOUTUBE
+    title: "Programming with Mosh: Python for Beginners - Learn Python in 1 Hour"
+    link: https://www.youtube.com/watch?v=kqtD5dpn9C8
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Learn Python - Full Course for Beginners"
+    link: https://www.youtube.com/watch?v=rfscVS0vtbw
+alura-contents:

@@ -1,0 +1,59 @@
+name: Cloud - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
+  - Conhecer a diferença entre IaaS, PaaS e SaaS
+  - Conhecer os maiores provedores de cloud
+  - Especializar-se em algum provedor
+aditional-objectives:
+contents:
+ - type: ARTICLE
+   title: "Computação em nuvem"
+   link: https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9
+ - type: ARTICLE
+   title: "O que é cloud?"
+   link: https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6
+alura-contents:
+ - type: ARTICLE
+   title: "Cloud: o que é, História e Guia da computação em nuvem"
+   link: https://www.alura.com.br/artigos/aws
+ - type: PODCAST
+   title: "Hipsters.tech: Uma jornada Para o Cloud - Hipsters Deep Dive 005"
+   link: https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100
+ - type: PODCAST
+   title: "Hipsters.tech: Histórias do Cloud - Hipsters 04"
+   link: https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582
+ - type: ARTICLE
+   title: "O que é Cloud e seus principais serviços"
+   link: https://www.alura.com.br/artigos/o-que-e-cloud-e-seus-principais-servicos
+ - type: ARTICLE
+   title: "Cloud: falando um pouco sobre Infraestrutura"
+   link: https://www.alura.com.br/artigos/cloud-falando-sobre-infraestrutura
+ - type: ARTICLE
+   title: "Heroku, Vercel e outras opções de cloud como plataforma"
+   link: https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma
+ - type: ARTICLE
+   title: "AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações"
+   link: https://www.alura.com.br/artigos/aws
+ - type: ARTICLE
+   title: "Terraform: criando máquinas na Azure"
+   link: https://www.alura.com.br/artigos/terraform-maquinas-na-azure
+ - type: YOUTUBE
+   title: "Alura: O que é cloud?"
+   link: https://www.YOUTUBE.com/watch?v=wev9fMrg-TU
+ - type: YOUTUBE
+   title: "Alura: AWS, Google Cloud e Azure: Por onde começar? | Hipsters.Talks"
+   link: https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&t=300s
+ - type: YOUTUBE
+   title: "Alura: Certificação em Cloud: Azure, AWS, Google | Hipsters.Talks"
+   link: https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&t=290s
+ - type: COURSE
+   title: "Formação Começando em Cloud Computing"
+   link: https://cursos.alura.com.br/formacao-cloud-computing
+ - type: COURSE
+   title: "Formação Amazon Web Services"
+   link: https://cursos.alura.com.br/formacao-amazon-web-services
+ - type: COURSE
+   title: "Formação Google Certified Associate Cloud Engineer"
+   link: https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer

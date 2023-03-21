@@ -1,0 +1,25 @@
+name: Python - Metaprogramming
+logo: 
+short-description:
+key-objectives:
+  - Metaprogramming is a programming technique in which computer programs have the ability to treat other programs as their data. It means that a program can be designed to read, generate, analyze or transform other programs, and even modify itself while running.
+  - Writing a program that manipulates other programs
+  - Using metaclasses
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "GeeksForGeeks: Metaprogramming with Metaclasses in Python"
+    link: https://acervolima.com/metaprogramacao-com-metaclasses-em-python/
+  - type: SITE
+    title: "Real Python: Python Metaclasses"
+    link: https://realpython.com/python-metaclasses/
+  - type: ARTICLE
+    title: "Advanced Python: Metaprogramming"
+    link: https://medium.com/fintechexplained/advanced-python-metaprogramming-980da1be0c7d
+  - type: YOUTUBE
+    title: "Tech With Tim: Metaclasses & How Classes Really Work"
+    link: https://www.youtube.com/watch?v=NAQEj-c2CI8
+  - type: YOUTUBE
+    title: "edutechional: A Practical Guide to Metaprogramming"
+    link: https://www.youtube.com/watch?v=lZfv4H-9ato
+alura-contents:

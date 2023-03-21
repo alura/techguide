@@ -18,7 +18,8 @@ jobs:
     steps:
       ## [Setup_CI]
       # ======================
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
       - name: "[Checkout to Pull Request]"
         run: hub pr checkout ${{ github.event.issue.number }}
         env:

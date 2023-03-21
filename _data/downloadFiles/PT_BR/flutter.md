@@ -1,5 +1,5 @@
 # Flutter
-## Nível 1
+## Nivel 1
 - [ ] **Dart - Fundamentos**:
    - Instalar e configurar o Dart
    - Conhecer as palavras chaves do Dart
@@ -8,7 +8,7 @@
    - Compreender e aprender a usar o Null Safety no Dart
 - [ ] **Flutter - Fundamentos**:
    - Flutter é um kit de desenvolvimento de software de IU de código aberto criado pelo Google. Ele é usado para desenvolver aplicativos multiplataforma para Android, iOS, Linux, macOS, Windows, Google Fuchsia e para a web a partir de um único código.
-   - Os widgets Flutter são construídos utilizando uma estrutura moderna que se inspira na React. A ideia central é que você construa sua interface de usuário a partir de widgets. Os widgets descrevem como deve ser sua visualização, dada sua configuração e estado atuais.
+   - Os widgets Flutter são construídos utilizando uma estrutura moderna que se inspira na React. A idéia central é que você construa sua interface de usuário a partir de widgets. Os widgets descrevem como deve ser sua visualização, dada sua configuração e estado atuais.
    - Instalar e configurar o Flutter
    - Conhecer e saber usar os Widgets básicos do Flutter, como Column, Row, Scaffold, Text, Image, Container, AppBar, ElevatedButton, entre outros
    - Entender as diferenças entre widgets Stateless e Stateful
@@ -38,13 +38,13 @@
    - Entender os métodos `then` e `catchError` do Future no Dart
    - Entender o que são erros e exceções no Dart
    - Conhecer e saber usar a estrutura `try-on-catch-finally`
-- [ ] **Flutter - Comunicação com APIs**:
+- [ ] **Dart - Comunicação com APIs**:
    - Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.
    - Entender o que é uma API REST
    - Conhecer os comandos básicos de comunicação HTTP
    - Saber usar as ferramentas do pacote `http` do Dart
    - Saber fazer requisições autenticadas para Web APIs
-## Nível 2
+## Nivel 2
 - [ ] **Flutter - Pacotes Essenciais**:
    - O Flutter suporta o uso de pacotes compartilhados contribuídos por outros desenvolvedores para os ecossistemas Flutter e Dart. Isto permite construir rapidamente um aplicativo sem ter que desenvolver tudo do zero.
    - Conhecer e saber utilizar a plataforma pub.dev
@@ -69,7 +69,7 @@
    - Conhecer o Kit de Desenvolvimento de Jogos Casuais do Flutter
    - Conhecer o pacote Flame como Engine de Jogos Flutter
    - Conhecer o pacote Bonfire como Engine de Jogos para Flutter
-## Nível 3
+## Nivel 3
 - [ ] **Flutter - Nativo**:
    - Conhecer as especificidades do desenvolvimento nativo para Android
    - Conhecer as especificidades do desenvolvimento nativo para iOS
@@ -105,7 +105,7 @@
    - Clonar um repositório
    - Fazer commit, push e pull de e para o repositório
    - Reverter um commit
-   - Criar branches e pull requests
+   - Criar branches e pul requests
    - Lidar com merge e conflitos
 - [ ] **HTTP - Fundamentos**:
    - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
@@ -154,8 +154,11 @@
 - [ ] **Como usar fontes**:
    - Escolher a fonte mais adequada para determinado projeto
 - [ ] **Acessibilidade em Flutter**:
-   - Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e aplicativos sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas.
+   - Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e aplicativos sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas, incluindo pessoas com necessidades de acessibilidades, como pessoas com problemas de visão, daltonismo, dificuldades auditivas, comprometimento motor, deficiência cognitivas e muitos outros tipos de deficiência.
    - Escrever código com acessibilidade em mente
+   - Aumentar a visibilidade do texto
+   - Usar controles grandes e simples
+   - Descrever cada elemento de IU
 - [ ] **Design Responsivo**:
    - Ajustar suas páginas para o tamanho da tela do usuário
    - Media queries

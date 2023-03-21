@@ -1,0 +1,35 @@
+name: Android - Image loading
+logo: 
+short-description:
+key-objectives:  
+  - Images come in different sizes and shapes. In most cases, they are larger than needed for the UI of an app. Since we are working with limited memory, Android uses a bitmap decoding technique, to avoid all the work of using this we have several libraries that facilitate this process.
+  - What is Bitmap
+  - Knowing the image loading libraries (Glide, Picasso, Coil, and others) and using them
+  - Advantages and disadvantages of the image loading libraries
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "TutorialsPoint: What is Bitmap?"
+    link: https://www.tutorialspoint.com/What-is-Bitmap
+  - type: SITE
+    title: "GeeksForGeeks: How to Create Bitmap From View in Android?"
+    link: https://www.geeksforgeeks.org/how-to-create-bitmap-from-view-in-android/
+  - type: YOUTUBE
+    title: "tutorialsEU: Glide Tutorial - Working with images in your Android App - Loading and Caching Images"
+    link: https://www.youtube.com/watch?v=_huNIBQ_jLQ
+  - type: YOUTUBE
+    title: "Stevdza-San: Coil - Modern Image Loading Library | Android Studio Tutorial"
+    link: https://www.youtube.com/watch?v=IBaUjzn2Rgo
+  - type: YOUTUBE
+    title: "Coding in Flow: How to Load an Image from a Url with Picasso - Android Studio Tutorial"
+    link: https://www.youtube.com/watch?v=Tdb_WSEEZbQ
+  - type: SITE
+    title: "Coil - Official page"
+    link: https://coil-kt.github.io/coil/
+  - type: SITE
+    title: "Glide v4 - Official page"
+    link: https://bumptech.github.io/glide/
+  - type: SITE
+    title: "Picasso - Official page"
+    link: https://square.github.io/picasso/
+alura-contents:

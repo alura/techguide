@@ -1,0 +1,30 @@
+name: PHP - Files and Streams
+logo: 
+short-description:
+key-objectives:
+  - Streams are the way of generalizing file, network, data compression, and other operations which share a common set of functions and uses. In its simplest definition, a stream is a resource object which exhibits streamable behavior. That is, it can be read from or written to in a linear fashion, and may be able to seek an arbitrary location within the stream.
+  - Opening, reading and manipulating files
+  - Applying wrappers and filters on streams
+  - Using streams
+  - Knowing encodings and character sets
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "W3Schools: PHP Stream Functions"
+    link: https://www.w3schools.com/php/php_ref_stream.asp
+  - type: ARTICLE
+    title: "Good Practices: use stream in PHP"
+    link: https://dev.to/anastasionico/good-practices-use-stream-in-php-1bdj
+  - type: ARTICLE
+    title: "A Guide to Streams in PHP: In-Depth Tutorial With Examples"
+    link: https://stackify.com/a-guide-to-streams-in-php-in-depth-tutorial-with-examples/
+  - type: ARTICLE
+    title: "Getting Started with Input and Output Streams in PHP 8"
+    link: https://www.section.io/engineering-education/php-io-streams/
+  - type: YOUTUBE
+    title: "WebDevHero: How to read and write files with PHP"
+    link: https://www.youtube.com/watch?v=_9aY_Y28pmo
+  - type: YOUTUBE
+    title: "Joe Casabona: How to Process a File with PHP"
+    link: https://www.youtube.com/watch?v=WaJuIvGPvz8
+alura-contents:

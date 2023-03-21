@@ -1,0 +1,85 @@
+name: Python
+tags: 
+  - back-end
+expertise:
+  - name: Python Jr
+    cards: 
+      - python-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 10
+      - data-structures:
+        priority: 10
+      - python-collections:
+        priority: 9
+      - python-testing:
+        priority: 9
+      - python-api:
+        priority: 9
+  - name: Python Mid
+    cards:
+      - flask:
+        priority: 8
+      - python-advanced-oop:
+        priority: 8
+      - django:
+        priority: 8
+      - django-rest-framework:
+        priority: 6
+      - python-mvc-mtv:
+        priority: 7
+      - python-lambdas-and-closures:
+        priority: 7
+  - name: Python in depth
+    cards:
+      - microservices:
+        priority: 8
+      - containers:
+        priority: 7
+      - python-static-typing:
+        priority: 7
+      - python-generators:
+        priority: 8
+      - python-asynchronous:
+        priority: 8
+      - python-args-kwargs:
+        priority: 7
+      - python-dunder-methods:
+        priority: 6
+        optional: true
+      - python-metaprogramming:
+        priority: 6
+      - python-multiprocessing:
+        priority: 6
+      - reflection-and-attributes:
+        priority: 5
+        optional: true
+collaboration:
+  - name: Infrastructure
+    cards:
+      - git-and-github-fundamentals:
+        priority: 9
+      - http-fundamentals:
+        priority: 10
+      - json:
+        priority: 8
+      - command-line-fundamentals: 
+        priority: 8
+      - cloud-fundamentals:
+        priority: 7
+      - sql-fundamentals:
+        priority: 9
+  - name: Good practices and tools
+    cards:
+      - solid:
+        priority: 7
+      - clean-architecture:
+        priority: 7
+      - design-patterns:
+        priority: 7
+      - jupyter-colaboratory:
+        priority: 5
+        optional: true
+      - data-extraction-and-processing:
+        priority: 5
+        optional: true

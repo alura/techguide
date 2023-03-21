@@ -1,0 +1,36 @@
+name: Análise Forense de Memória
+logo: 
+short-description:
+key-objectives:
+  - A análise forense de memória (às vezes chamada de análise de memória) refere-se à análise de dados voláteis no despejo de memória de um computador. Os profissionais de segurança da informação realizam análises forenses de memória para investigar e identificar ataques ou comportamentos maliciosos que não deixam rastros facilmente detectáveis ​​nos dados do disco rígido.
+contents:
+  - type: ARTICLE
+    title: "Memory Analysis For Beginners "
+    link: https://infosecwriteups.com/memory-analysis-for-beginners-with-volatility-coreflood-trojan-part-1-89981433eeb6
+  - type: ARTICLE
+    title: "First steps to volatile memory analysis"
+    link: https://medium.com/@zemelusa/first-steps-to-volatile-memory-analysis-dcbd4d2d56a1
+  - type: ARTICLE
+    title: "Analyzing Memory Dump with Volatility"
+    link: https://blog.pentesteracademy.com/analyzing-memory-dump-with-volatility-302f30917713
+  - type: ARTICLE
+    title: "Memory Analysis For Beginners With Volatility"
+    link: https://infosecwriteups.com/memory-analysis-for-beginners-with-volatility-coreflood-trojan-part-2-42bdb46683f2
+  - type: YOUTUBE
+    title: "Introduction to Memory Forensics"
+    link: https://www.youtube.com/watch?v=1PAGcPJFwbE
+  - type: YOUTUBE
+    title: "Introduction to Memory Forensics with Volatility 3"
+    link: https://www.youtube.com/results?search_query=Memory+Forensics+
+  - type: YOUTUBE
+    title: "Using Memory Analysis for Faster Response to User Investigations"
+    link: https://www.youtube.com/watch?v=QzPk1oyzMzc
+  - type: YOUTUBE
+    title: "Introduction to Windows Forensics"
+    link: https://www.youtube.com/watch?v=VYROU-ZwZX8
+  - type: COURSE
+    title: "Cyber Security Fundamentals & Skills"
+    link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/
+  - type: COURSE
+    title: "CSO infosec + Cyber Defense"
+    link: https://www.fiap.com.br/shift/imersao/tecnologia/cso-infosec-cyber-defense/
