@@ -134,12 +134,16 @@ export default {
       "guideDescription": "Este guia foi criado pelo <strong>Banco do Brasil</strong> para te ajudar a descobrir caminhos e se tornar profissional <strong>&lt;em T&gt;</strong>.",
       "guides": [
         {
+          "title": "Front-end Web",
+          "link": "/my?url=https://github.com/bancodobrasil/techguide/blob/bb/externals/bb/frontend-web.json",
+        },
+        {
           "title": "Mobile iOS",
           "link": "/my?url=https://github.com/bancodobrasil/techguide/blob/bb/externals/bb/mobile-ios.json",
         },
         {
-          "title": "Front End Web",
-          "link": "/my?url=https://github.com/bancodobrasil/techguide/blob/bb/externals/bb/frontend-web.json",
+          "title": "Mobile DevOps",
+          "link": "/my?url=https://github.com/bancodobrasil/techguide/blob/bb/externals/bb/mobile-devops.json",
         },
       ],
     }
