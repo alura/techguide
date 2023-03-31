@@ -14,6 +14,7 @@ export default function HeroTitle() {
           md: "auto",
         },
       }}
+      tag="header"
     >
       <Text
         styleSheet={{

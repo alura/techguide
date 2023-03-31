@@ -23,6 +23,7 @@ export default function FAQContentSection(props: FAQQuestionProps) {
         background: "#101926",
         justifyContent: "center",
       }}
+      tag="section"
     >
       <Box
         styleSheet={{
@@ -49,6 +50,7 @@ export default function FAQContentSection(props: FAQQuestionProps) {
           },
           justifyContent: "space-between",
         }}
+        tag="article"
       >
         <Box
           styleSheet={{
@@ -70,6 +72,7 @@ export default function FAQContentSection(props: FAQQuestionProps) {
               md: "flex-start",
             },
           }}
+          tag="header"
         >
           <Text
             styleSheet={{
@@ -159,6 +162,7 @@ function FAQQuestion({ title, answer }: any) {
         onClick={() => setIsOpen(!isOpen)}
         aria-controls={title}
         aria-expanded={isOpen ? "true" : "false"}
+        id="labelledby"
       >
         <Text>
           {title}
@@ -201,6 +205,7 @@ function FAQQuestion({ title, answer }: any) {
         }}
         aria-hidden={isOpen ? "false" : "true"}
         onFocus={() => setIsOpen(true)}
+        aria-labelledby="labelledby"
       >
         <Text
           styleSheet={{

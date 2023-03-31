@@ -14,6 +14,7 @@ interface BoxProps {
   value?: string;
   name?: string;
   checked?: boolean;
+  role?: string;
   // eslint-disable-next-line no-unused-vars
   onKeyPress?: (event: any) => void;
   // eslint-disable-next-line no-unused-vars

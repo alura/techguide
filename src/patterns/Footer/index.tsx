@@ -43,7 +43,7 @@ export default function Footer() {
               },
             }}
             src="/assets/image/logo.svg"
-            alt="Logo"
+            alt="Logo da plataforma Tech Guide"
           />
         </Box>
         <Box
@@ -126,32 +126,47 @@ export default function Footer() {
             })}
           </Text>
         </Box>
-        <Box
-          styleSheet={{
-            color: "white",
-            flexDirection: "row",
-            fontSize: "22px",
-            gap: "0.625em",
-          }}
-        >
-          <Link href={i18n.content("FOOTER.YOUTUBE")}>
-            <Icon name="youtube" />
-          </Link>
-          <Link href={i18n.content("FOOTER.FACEBOOK")}>
-            <Icon name="facebook" />
-          </Link>
-          <Link href={i18n.content("FOOTER.TWITTER")}>
-            <Icon name="twitter" />
-          </Link>
-          <Link href={i18n.content("FOOTER.INSTAGRAM")}>
-            <Icon name="instagram" />
-          </Link>
-          <Link href={i18n.content("FOOTER.PLAYSTORE")}>
-            <Icon name="playstore" />
-          </Link>
-          <Link href={i18n.content("FOOTER.APPSTORE")}>
-            <Icon name="appstore" />
-          </Link>
+        <Box tag="nav">
+          <Box
+            styleSheet={{
+              color: "white",
+              flexDirection: "row",
+              fontSize: "22px",
+              gap: "0.625em",
+            }}
+            tag="ul"
+          >
+            <Box tag="li">
+              <Link href={i18n.content("FOOTER.YOUTUBE")}>
+                <Icon name="youtube" />
+              </Link>
+            </Box>
+            <Box tag="li">
+              <Link href={i18n.content("FOOTER.FACEBOOK")}>
+                <Icon name="facebook" />
+              </Link>
+            </Box>
+            <Box tag="li">
+              <Link href={i18n.content("FOOTER.TWITTER")}>
+                <Icon name="twitter" />
+              </Link>
+            </Box>
+            <Box tag="li">
+              <Link href={i18n.content("FOOTER.INSTAGRAM")}>
+                <Icon name="instagram" />
+              </Link>
+            </Box>
+            <Box tag="li">
+              <Link href={i18n.content("FOOTER.PLAYSTORE")}>
+                <Icon name="playstore" />
+              </Link>
+            </Box>
+            <Box tag="li">
+              <Link href={i18n.content("FOOTER.APPSTORE")}>
+                <Icon name="appstore" />
+              </Link>
+            </Box>
+          </Box>
         </Box>
       </Box>
     </Box>
