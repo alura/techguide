@@ -296,6 +296,144 @@ export default function TShape({ guide, externalGuideCreator }: TShapeProps) {
           {i18n.content("TSHAPE.BUTTON.BACK_TO_HOME")}
         </Link>
       </Box>
+      {guide.video && <VideoBlock video={guide.video} />}
     </Box>
   );
+}
+
+interface VideoBlockProps {
+  video: string;
+}
+function VideoBlock({ video }: VideoBlockProps) {
+  const i18n = useI18n();
+
+  return (
+    <Box
+      styleSheet={{
+        marginTop: "56px",
+        display: "flex",
+        gap: {
+          xs: "20px",
+          lg: "120px",
+        },
+        flexDirection: {
+          xs: "column",
+          lg: "row",
+        },
+      }}
+    >
+      <Box
+        styleSheet={{
+          flex: 1,
+        }}
+      >
+        <Text
+          styleSheet={{
+            alignSelf: {
+              xs: "center",
+              md: "flex-start",
+            },
+            gap: "0.5em",
+            display: "flex",
+            flexDirection: "row",
+            alignItems: {
+              xs: "center",
+              md: "flex-start",
+            },
+            justifyContent: {
+              xs: "center",
+              md: "flex-start",
+            },
+            textTransform: "uppercase",
+            color: "#8992a1",
+            fontWeight: "600",
+            fontSize: "0.875rem",
+            lineHeight: "180%",
+            backgroundColor: {
+              xs: "rgba(0, 0, 0, 0.5)",
+              md: "transparent",
+            },
+            borderRadius: "1000px",
+            paddingVertical: "9px",
+          }}
+          i18nKey="SCREEN_HERO_CONTAINER.PRE_TITLE"
+        />
+        <Text
+          tag="h2"
+          styleSheet={{
+            color: "white",
+            fontSize: {
+              xs: "1.5rem",
+              md: "2.875rem",
+            },
+            lineHeight: { xs: "1.6875rem", md: "3.625rem" },
+            margin: { xs: "2em 0 1.5em 0", md: "0.34em 0 0.7em 0" },
+          }}
+        >
+          {i18n.content("TSHAPE.GUIDE.VIDEO.TITLE")}
+        </Text>
+        <Text
+          tag="p"
+          styleSheet={{
+            textAlign: {
+              xs: "center",
+              md: "start",
+            },
+            boxSizing: "inherit",
+            margin: "0",
+            padding: "0",
+            fontFamily: "'Inter', sans-serif",
+            fontSize: "1rem",
+            color: "#8992a1",
+            marginBottom: "2.5em",
+          }}
+        >
+          {i18n.content("TSHAPE.GUIDE.VIDEO.DESCRIPTION")}
+        </Text>
+        <Text
+          tag="p"
+          styleSheet={{
+            textAlign: {
+              xs: "center",
+              md: "start",
+            },
+            boxSizing: "inherit",
+            margin: "0",
+            padding: "0",
+            fontFamily: "'Inter', sans-serif",
+            fontSize: "1rem",
+            color: "#FFFFFFF",
+            fontWeight: "600",
+            marginBottom: "2.5em",
+          }}
+        >
+          {i18n.content("TSHAPE.GUIDE.VIDEO.CTA")}
+        </Text>
+      </Box>
+      <Box
+        styleSheet={{
+          flex: 1,
+          justifyContent: "center",
+        }}
+      >
+        <iframe
+          style={{
+            aspectRatio: "16/9",
+          }}
+          src={`https://www.youtube.com/embed/${getYouTubeID(video)}`}
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        />
+      </Box>
+    </Box>
+  );
+
+  function getYouTubeID(url: string) {
+    const regExp =
+      /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+    const match = url.match(regExp);
+    return match && match[2].length === 11 ? match[2] : null;
+  }
 }
