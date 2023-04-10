@@ -1,0 +1,27 @@
+name: Metasploit - Attack and Analysis
+logo: 
+short-description:
+key-objectives:
+  - Metasploit is the world's most widely used penetration testing framework.
+contents:
+  - type: SITE
+    title: "Metasploit"
+    link: https://www.metasploit.com/
+  - type: ARTICLE
+    title: "Kali Linux & Metasploit: Getting Started with Pen Testing"
+    link: https://medium.com/cyberdefendersprogram/kali-linux-metasploit-getting-started-with-pen-testing-89d28944097b
+  - type: ARTICLE
+    title: "How to Create a Nearly Undetectable Backdoor using MSFvenom in Kali Linux"
+    link: https://www.wikihow.com/Create-a-Nearly-Undetectable-Backdoor-using-MSFvenom-in-Kali-Linux
+  - type: ARTICLE
+    title: "Hack Windows 10 with Metasploit"
+    link: https://medium.com/@leandro.almeida/hack-windows-10-with-metasploit-329c283db99a
+  - type: YOUTUBE
+    title: "HackerSploit: Metasploit For Beginners 1"
+    link: https://www.youtube.com/watch?v=8lR27r8Y_ik
+  - type: YOUTUBE
+    title: "HackerSploit: Metasploit For Beginners 2"
+    link: https://www.youtube.com/watch?v=6SNHuWaLuhU
+  - type: YOUTUBE
+    title: "HackerSploit: Metasploit For Beginners 3"
+    link: https://www.youtube.com/watch?v=CYB6Uta9VTI

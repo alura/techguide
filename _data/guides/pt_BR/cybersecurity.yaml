@@ -14,13 +14,13 @@ expertise:
         priority: 9
       - firewalls-ids-ips:
         priority: 8
-      - digital-investigations-fundamentals:
+      - digital-investigation-fundamentals:
         priority: 8
-      - passwords-attacks:
+      - password-attack:
         priority: 8
       - open-source-intelligence:
         priority: 7
-      - security-operations-center-process:
+      - security-operations-center:
         priority: 7
       - penetration-testing-fundamentals:
         priority: 7
@@ -38,19 +38,19 @@ expertise:
         priority: 9
       - siem-soar:
         priority: 9
-      - hardening-network-services:
+      - server-hardening:
         priority: 8
-      - cloud-investigations:
+      - cloud-forensics:
         priority: 8
       - data-recovery:
         priority: 8
       - container-security:
         priority: 7
-      - memory-investigation:
+      - memory-forensics:
         priority: 7
-      - network-investigation:
+      - network-forensics:
         priority: 7
-      - powershell-scrypting-security:
+      - powershell-scripting-for-security:
         priority: 7
   - name: Cybersecurity in depth
     cards:
@@ -64,48 +64,50 @@ expertise:
         priority: 9
       - malware-analysis:
         priority: 8
-      - application-software-security:
+      - software-application-security:
         priority: 8
       - zero-trust-architecture:
         priority: 7
       - cloud-security:
         priority: 7
-      - automation-continuous-security-monitoring:
+      - continuous-security-automation-and-monitoring:
         priority: 7
 collaboration:
-  - name: Sistemas e tecnologias úteis
+  - name: Sistemas e tecnologias
     cards:
       - python-fundamentals:
         priority: 10
-      - computer-network-fundamentals:
+      - computer-networks-fundamentals:
         priority: 9
       - http-fundamentals:
         priority: 9
-      - iot-fundamentals:
-        priority: 9
+     # - iot-fundamentals:
+     #   priority: 9
      # - web-communication-fundamentals:
      #   priority: 8
       - cloud-fundamentals:
         priority: 8
-      - windows-fundamentals:
+     # - windows-fundamentals:
+     #   priority: 7
+      - command-line-fundamentals:
         priority: 7
       - linux-fundamentals:
         priority: 7
   - name: Segurança da Informação
     cards:
-      - risk-threat-vulnerability:
+      - risk-threats-and-vulnerability-management:
         priority: 10
       - confidentiality-integrity-availability:
         priority: 10
-      - identity-access-management:
+      - identity-and-access-management:
         priority: 9
-      - introduction-digital-forensics:
-        priority: 9
-      - incident-handling-fundamentals:
-        priority: 8
+     # - introduction-digital-forensics:
+     #   priority: 9
+     # - incident-handling-fundamentals:
+     #   priority: 8
       - security-awareness: 
         priority: 8
       - data-protection: 
         priority: 7
-      - authentication-password-security:
+      - authentication-and-password-security:
         priority: 7

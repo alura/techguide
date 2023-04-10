@@ -1,4 +1,4 @@
-name: Cloud Investigations
+name: Análise Forense na Nuvem
 logo: 
 short-description:
 key-objectives:
@@ -13,18 +13,19 @@ contents:
   - type: ARTICLE
     title: "Digital Forensic Challenges In Cloud Computing"
     link: https://medium.com/@frosky/digital-forensic-challenges-in-cloud-computing-part-1-c06301cbe174
-  - type: SITE
+  - type: ARTICLE
     title: "Overview of Cloud Forensics"
     link: https://medium.com/sigma-xi-vit/overview-of-cloud-forensics-b928537791e6
-  - type: YOUTUBE
+  - type: ARTICLE
     title: "How to Think about Threat Detection"
     link: https://medium.com/anton-on-security/how-to-think-about-threat-detection-in-the-cloud-1baff902afe5
   - type: YOUTUBE
-    title: "Forensics In The Cloud"
+    title: "Forensic Focus: Forensics In The Cloud - How To Conduct An Office 365 Investigation"
     link: https://www.youtube.com/watch?v=wFjFjemaxmI
   - type: YOUTUBE
-    title: "Cloud Forensics & Incident Response "
+    title: "SANS Digital Forensics and Incident Response: Cloud Forensics & Incident Response Course"
     link: https://www.youtube.com/watch?v=XoeuAVJwkQ8
+alura-contents:
   - type: COURSE
     title: "Cyber Security Fundamentals & Skills"
     link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/

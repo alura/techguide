@@ -1,9 +1,11 @@
-name: Firewalls, IDS and IPS
+name: Firewalls, IDS e IPS
 logo: 
 short-description:
 key-objectives:
   - Definições e diferenças entre dispositivos de segurança de rede, firewalls, sistemas de prevenção de intrusão (IPS) e sistemas de detecção de intrusão (IDS). 
-  - Um firewall permite o tráfego dependendo de um conjunto de regras que foram configuradas. Ele é baseado nos endereços de origem, destino e porta. Um firewall pode negar qualquer tráfego que não satisfaça os critérios especificados. IDS são dispositivos de sistema de monitoramento passivo que monitoram o tráfego de rede à medida que viajam pela rede, comparam padrões de assinatura, e acionar um alarme se for detectada atividade suspeita ou ameaça de segurança conhecida. Por outro lado, o IPS é um dispositivo ativo que impede ataques bloqueando-os.
+  - Um firewall permite o tráfego dependendo de um conjunto de regras que foram configuradas. Ele é baseado nos endereços de origem, destino e porta. Um firewall pode negar qualquer tráfego que não satisfaça os critérios especificados.
+  - IDS são dispositivos de sistema de monitoramento passivo que monitoram o tráfego de rede à medida que viajam pela rede, comparam padrões de assinatura, e acionar um alarme se for detectada atividade suspeita ou ameaça de segurança conhecida. 
+  - O IPS é um dispositivo ativo que impede ataques, bloqueando-os.
 contents:
   - type: SITE
     title: "pfSense"
@@ -19,7 +21,7 @@ contents:
     link: https://medium.com/@nayara.watanuki/iptables-vs-nftables-883e3afc8e83
   - type: ARTICLE
     title: "Sistemas de detecção de intrusos e sistemas de prevenção de intrusos"
-    link: https://medium.com/mobicareofficial/sistemas-de-detecção-e-de-prevenção-de-intrusos-princípios-e-aplicação-de-entropia-9a33680f3948
+    link: https://medium.com/mobicareofficial/sistemas-de-detec%C3%A7%C3%A3o-e-de-preven%C3%A7%C3%A3o-de-intrusos-princ%C3%ADpios-e-aplica%C3%A7%C3%A3o-de-entropia-9a33680f3948
   - type: ARTICLE
     title: "Learning More about IPS and IDS"
     link: https://gupta-bless.medium.com/learning-more-about-ips-and-ids-ef6d859c2ab3
@@ -29,6 +31,7 @@ contents:
   - type: YOUTUBE
     title: "iptables Complete Guide"
     link: https://www.youtube.com/watch?v=6Ra17Qpj68c
+alura-contents:
   - type: COURSE
     title: "Cyber Security Fundamentals & Skills"
     link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/

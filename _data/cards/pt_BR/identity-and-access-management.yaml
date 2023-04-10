@@ -1,8 +1,8 @@
-name: Gerenciamento de Identidade e Acesso
+name: Gerenciamento de identidade e acesso (IAM)
 logo: 
 short-description:
 key-objectives:
-  - Gestão de identidades, também conhecida como gestão de identidades e acessos (GIA) ou pelo seu termo em inglês, identity and access management (IAM) está entre as disciplinas de segurança da informação que "habilita os indivíduos corretos à acessar os recursos corretos no momento correto e pelos motivos corretos".
+  - Gestão de identidades, também conhecida como gestão de identidades e acessos (GIA) ou pelo seu termo em inglês, identity and access management (IAM) está entre as disciplinas de segurança da informação que habilita os indivíduos corretos à acessar os recursos corretos no momento correto e pelos motivos corretos.
 contents:
   - type: ARTICLE
     title: "What is Identity and Access Management"
@@ -20,14 +20,12 @@ contents:
     title: "Open-source Identity and Access Management System"
     link: https://medium.com/@devops.ent/top-identity-and-access-management-systems-iam-open-source-enterprise-92cf66560a55
   - type: YOUTUBE
-    title: "Identity and Access Management Systems"
-    link: https://www.youtube.com/watch?v=ZbzxdWDOdeA
+    title: "IBM Technology: Identity & Access Management (IAM)"
+    link: https://www.youtube.com/watch?v=aNj36g7fSsU&ab_channel=IBMTechnology
   - type: YOUTUBE
-    title: "What is Identity and Access Management (IAM)?"
-    link: https://www.youtube.com/watch?v=IKxigcbhsGk
-  - type: YOUTUBE
-    title: "What is Identity and access management"
-    link: https://www.youtube.com/watch?v=vFB2CR7xCOM
+    title: "VMware End-User Computing: Identity and Access Management - Technical Overview"
+    link: https://www.youtube.com/watch?v=Tcvsefz5DmA&ab_channel=VMwareEnd-UserComputing
+alura-contents:
   - type: COURSE
     title: "Cyber Security Fundamentals & Skills"
     link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/

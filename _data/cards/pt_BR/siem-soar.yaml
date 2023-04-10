@@ -1,8 +1,9 @@
 name: SIEM e SOAR
 logo: 
 short-description:
-key-objectives:
-  - Combinando gerenciamento de informações de segurança (SIM) e gerenciamento de eventos de segurança (SEM), informações de segurança e gerenciamento de eventos (SIEM) oferece monitoramento e análise de eventos em tempo real, bem como rastreamento e registro de dados de segurança para fins de conformidade ou auditoria.
+key-objectives: 
+  - Security Information and Event Management (SIEM) são softwares que agregam e analisam informações de várias fontes diferentes em toda a infra-estrutura.
+  - Security Orchestration, Automation, and Response (SOAR) irá ajudar com o gerenciamento de ameaças e vulnerabilidades, resposta a incidentes de segurança e automação da operação de segurança.
 contents:
   - type: ARTICLE
     title: "SIEM"
@@ -20,14 +21,15 @@ contents:
     title: "Top Free Security Information and Event Management(SIEM) Software's"
     link: https://kalhara-sampath.medium.com/top-free-security-information-and-event-management-siem-softwares-20c6d8f32a6f
   - type: SITE
-    title: "ELK"
+    title: "O que é o ELK Stack?"
     link: https://www.elastic.co/pt/what-is/elk-stack
   - type: YOUTUBE
-    title: "SOC Open Source"
+    title: "BlackPerl: SOC Open Source"
     link: https://www.youtube.com/watch?v=t6PqjLIVgdA
   - type: YOUTUBE
-    title: "Wazuh"
+    title: "Ebenezer Solution: Como configurar o SIEM Wazuh"
     link: https://www.youtube.com/watch?v=wT_z5fRnoXc
+alura-contents:
   - type: COURSE
     title: "Cyber Security Fundamentals & Skills"
     link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/

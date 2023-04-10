@@ -2,7 +2,7 @@ name: Segurança de Contêineres
 logo: 
 short-description:
 key-objectives:
-  - A segurança do contêiner é o processo de combinar políticas de segurança para assegurar que a integridade do contêiner esteja protegida. A segurança do contêiner é importante porque a imagem do contêiner contém todos os componentes que, eventualmente, executarão seu aplicativo. Se houver vulnerabilidades à espreita na imagem do contêiner, o risco e a gravidade potencial dos problemas de segurança durante a produção aumentam.
+  - A segurança de contêineres é o processo de combinar políticas de segurança para assegurar que a integridade do contêiner esteja protegida. A segurança do contêiner é importante porque a imagem do contêiner contém todos os componentes que, eventualmente, executarão seu aplicativo. Se houver vulnerabilidades à espreita na imagem do contêiner, o risco e a gravidade potencial dos problemas de segurança durante a produção aumentam.
 contents:
   - type: ARTICLE
     title: "Container Security Solutions"
@@ -17,20 +17,21 @@ contents:
     title: "Container Security"
     link: https://blog.pentesteracademy.com/learning-path-container-security-9a9c47760250
   - type: YOUTUBE
-    title: "Container Security Explained"
+    title: "IBM Technology: Container Security Explained"
     link: https://www.youtube.com/watch?v=b_euX_M82uI
   - type: YOUTUBE
-    title: "Container Security 101"
+    title: "The Linux Foundation: Container Security 101"
     link: https://www.youtube.com/watch?v=PDDiOl7ckzQ
   - type: YOUTUBE
-    title: "Docker Security Essentials"
+    title: "HackerSploit: Docker Security Essentials"
     link: https://www.youtube.com/watch?v=KINjI1tlo2w
   - type: YOUTUBE
-    title: "Auditing Docker Security"
+    title: "HackerSploit: Auditing Docker Security"
     link: https://www.youtube.com/watch?v=mQkVB6KMHCg
   - type: YOUTUBE
-    title: "Segurança em Docker: Mais que containers"
+    title: "Roadsec: Segurança em Docker - Mais que containers"
     link: https://www.youtube.com/watch?v=5ya_t0YWfyE
+alura-contents:
   - type: COURSE
     title: "DEVSECOPS"
     link: https://www.fiap.com.br/shift/imersao/tecnologia/devsecops-securing-cicd-devops/

@@ -1,8 +1,8 @@
-name: Powershell Script para Segurança
+name: PowerShell scripting for security
 logo: 
 short-description:
 key-objectives:
-  - Um script ofuscado pode ser malicioso e difícil de detectar com inspeção visual durante o processo de aprovação do script. Revise visualmente os scripts do PowerShell e use ferramentas de inspeção para ajudar a detectar problemas de script suspeitos. Essas ferramentas nem sempre podem determinar a intenção do autor do PowerShell, portanto, podem chamar a atenção para um script suspeito.
+  - A hidden script can be malicious and difficult to detect with visual inspection during the script approval process. Visually review PowerShell scripts and use inspection tools to help detect suspicious script issues. These tools cannot always determine the intent of the PowerShell author, so they may draw attention to a suspicious script.
 contents:
   - type: ARTICLE
     title: "Using PowerShell for Password Security Checks"
@@ -20,17 +20,11 @@ contents:
     title: "Run PowerShell without Powershell.exe"
     link: https://bank-security.medium.com/how-to-running-powershell-commands-without-powershell-exe-a6a19595f628
   - type: YOUTUBE
-    title: "Using PowerShell for Cyber Security"
+    title: "QuickStart: Using PowerShell for Cyber Security"
     link: https://www.youtube.com/watch?v=K9zVwijJ4nk
   - type: YOUTUBE
-    title: "Scripting for Security 1 - Introduction to PowerShell"
+    title: "Michael Ferrie: Scripting for Security 1 - Introduction to PowerShell"
     link: https://www.youtube.com/watch?v=XQlVi_OJ2ZA
   - type: YOUTUBE
-    title: "Beginner's Guide to Building AD Security Tools with PowerShell"
+    title: "SecurityFWD: Beginner's Guide to Building AD Security Tools with PowerShell"
     link: https://www.youtube.com/watch?v=Kk7nJe1T-ik
-  - type: COURSE
-    title: "Cyber Security Fundamentals & Skills"
-    link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/
-  - type: COURSE
-    title: "CSO infosec + Cyber Defense"
-    link: https://www.fiap.com.br/shift/imersao/tecnologia/cso-infosec-cyber-defense/

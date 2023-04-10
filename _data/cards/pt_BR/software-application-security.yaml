@@ -1,8 +1,8 @@
-name: Segurança de Aplicativos
+name: Segurança de Aplicações de Software
 logo: 
 short-description:
 key-objectives:
-  - A segurança do aplicativo descreve as medidas de segurança no nível do aplicativo que visam impedir que dados ou códigos dentro do aplicativo sejam roubados ou invadidos. Ele abrange as considerações de segurança que ocorrem durante o desenvolvimento e o design de aplicativos, mas também envolve sistemas e abordagens para proteger os aplicativos depois que eles são implantados. 
+  - A segurança de aplicações descreve as medidas de segurança no nível do aplicativo que visam impedir que dados ou códigos dentro da aplicação sejam roubados ou invadidos. Ele abrange as considerações de segurança que ocorrem durante o desenvolvimento e o design de aplicativos, mas também envolve sistemas e abordagens para proteger os aplicativos depois que eles são implantados. 
 contents:
   - type: ARTICLE
     title: "Application security vs. software security"
@@ -17,17 +17,18 @@ contents:
     title: "Importance of Software Security"
     link: https://medium.com/nerd-for-tech/importance-of-software-security-application-security-non-technical-hacking-encryption-and-365c93def04e
   - type: YOUTUBE
-    title: "Application Security "
+    title: "Application Security 101 - What you need to know in 8 minutes"
+    link: https://www.youtube.com/watch?v=Dp019cWu1cg&t=1s&ab_channel=Snyk
+  - type: YOUTUBE
+    title: "edureka!: Application Security"
     link: https://www.youtube.com/watch?v=gfFKuiZ9Y7s
   - type: YOUTUBE
-    title: "Secure by Design"
+    title: "GOTO Conferences: Secure by Design – the Architect's Guide to Security Design Principles"
     link: https://www.youtube.com/watch?v=4qN3JBGd1g8
   - type: YOUTUBE
-    title: "Application Security 101"
-    link: https://www.youtube.com/watch?v=wcpWSSorxuk
-  - type: YOUTUBE
-    title: "What you need to know in 8 minutes"
-    link: https://www.youtube.com/watch?v=Dp019cWu1cg
+    title: "Cybr: Introduction to Application Security - Course"
+    link: https://www.youtube.com/watch?v=3QOlo2pEpvc&ab_channel=Cybr
+alura-contents:
   - type: COURSE
     title: "CSO infosec + Cyber Defense"
     link: https://www.fiap.com.br/shift/imersao/tecnologia/cso-infosec-cyber-defense/

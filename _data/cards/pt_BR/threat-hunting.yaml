@@ -2,7 +2,7 @@ name: Threat Hunting
 logo: 
 short-description:
 key-objectives:
-  - Threat Hunting é a prática de procurar proativamente por ameaças cibernéticas que estão à espreita sem serem detectadas em uma rede. A caça a ameaças cibernéticas se aprofunda para encontrar agentes mal-intencionados em seu ambiente que passaram pelas defesas de segurança de endpoint iniciais.
+  - A busca de ameaças (Threat Hunting) é a prática de procurar proativamente por ameaças cibernéticas que estão à espreita sem serem detectadas em uma rede. A caça a ameaças cibernéticas se aprofunda para encontrar agentes mal-intencionados em seu ambiente que passaram pelas defesas de segurança de endpoint iniciais.
 contents:
   - type: ARTICLE
     title: "Threat Hunting: The Basics"
@@ -26,8 +26,15 @@ contents:
     title: "Threat Hunting com esteróides"
     link: https://www.youtube.com/watch?v=THntxi5PYDg
   - type: YOUTUBE
-    title: "Hunting for Post-Exploitation Stage"
+    title: "The PC Security Channel: Threat Hunting Tutorial - Introduction"
+    link: https://www.youtube.com/watch?v=qrZsc5IkchI&ab_channel=ThePCSecurityChannel
+  - type: YOUTUBE
+    title: "SANS EMEA: Effective (Threat) Hunting Techniques"
+    link: https://www.youtube.com/watch?v=JmKSnRMW_6w&ab_channel=SANSEMEA
+  - type: YOUTUBE
+    title: "SANS Institute: Hunting for Post-Exploitation Stage Attacks with Elastic Stack"
     link: https://www.youtube.com/watch?v=PdCQChYrxXg
+alura-contents:
   - type: COURSE
     title: "Cyber Security Fundamentals & Skills"
     link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/

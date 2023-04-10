@@ -1,0 +1,30 @@
+name: Zero Trust architecture
+logo: 
+short-description:
+key-objectives:
+  - Zero Trust is a network security model based on the philosophy that no person or device inside or outside an organization's network should be given access to connect to IT systems or services until they are authenticated and continuously verified.
+contents:
+  - type: ARTICLE
+    title: "NIST - Zero Trust Architecture"
+    link: https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf
+  - type: ARTICLE
+    title: "What does Zero Trust Architecture stand for?"
+    link: https://medium.com/databulls/what-does-zero-trust-architecture-stand-for-3facb50226b4
+  - type: ARTICLE
+    title: "Zero Trust Architecture"
+    link: https://medium.com/geekculture/to-the-letter-zero-trust-architecture-zta-according-to-nist-800-207-1-3cf2b23d383b
+  - type: ARTICLE
+    title: "What Is Zero Trust Architecture"
+    link: https://medium.com/magalix/what-is-zero-trust-architecture-and-how-does-it-work-23067912335c
+  - type: YOUTUBE
+    title: "IBM Technology: Zero Trust Explained in 4 mins"
+    link: https://www.youtube.com/watch?v=yn6CPQ9RioA&ab_channel=IBMTechnology
+  - type: YOUTUBE
+    title: "The CISO Perspective: What is Zero Trust Network Access"
+    link: https://www.youtube.com/watch?v=DLQAbJm4gFM
+  - type: YOUTUBE
+    title: "John Savill's Technical Training: Understanding and Getting Started with Zero Trust"
+    link: https://www.youtube.com/watch?v=hhS8VdGnfOU&ab_channel=JohnSavill%27sTechnicalTraining
+  - type: YOUTUBE
+    title: "IBM Technology: Cybersecurity and Zero Trust"
+    link: https://www.youtube.com/watch?v=FMMWSLIcaME&ab_channel=IBMTechnology
