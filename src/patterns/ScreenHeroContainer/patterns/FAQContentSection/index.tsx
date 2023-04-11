@@ -3,6 +3,7 @@ import { Box, Text } from "@src/components";
 import Arrows from "./Arrows";
 import { parseContent } from "@src/infra/i18n/parseContent";
 import { useI18n } from "@src/infra/i18n";
+import { slugify } from "@src/infra/slugify";
 
 interface FAQQuestionProps {
   questions?: {
@@ -123,6 +124,7 @@ export default function FAQContentSection(props: FAQQuestionProps) {
 
 function FAQQuestion({ title, answer }: any) {
   const [isOpen, setIsOpen] = React.useState(false);
+  const faqId = `faq-${slugify(title)}`;
   return (
     <Box
       styleSheet={{
@@ -159,6 +161,7 @@ function FAQQuestion({ title, answer }: any) {
         onClick={() => setIsOpen(!isOpen)}
         aria-controls={title}
         aria-expanded={isOpen ? "true" : "false"}
+        id={faqId}
       >
         <Text>
           {title}
@@ -199,6 +202,7 @@ function FAQQuestion({ title, answer }: any) {
           maxHeight: isOpen ? "1000px" : 0,
           overflow: "hidden",
         }}
+        aria-labelledby={faqId}
         aria-hidden={isOpen ? "false" : "true"}
         onFocus={() => setIsOpen(true)}
       >
