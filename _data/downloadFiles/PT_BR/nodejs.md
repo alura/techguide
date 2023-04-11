@@ -1,5 +1,18 @@
 # Node.js
 ## Nivel 1
+- [ ] **JavaScript - Fundamentos**:
+   - JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.
+   - Conhecer os tipos primitivos
+   - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
+   - Usar estruturas condicionais ('if', 'else')
+   - Conhecer os operadores de comparação ('=', '==', '===')
+   - Usar estruturas de repetição e laços ('while', 'for')
+   - Usar funções, passando parâmetros e argumentos
+   - Manipular arrays e listas
+   - Aprender o conceito de Orientação a Objetos
+   - Fazer um CRUD
+   - Obter dados de uma API
+   - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
 - [ ] **Node.js - Fundamentos**:
    - Node.js é um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem de forma autônoma, sem depender de um navegador.
    - Conhecer operações bloqueantes e não-bloqueantes
@@ -134,19 +147,6 @@
    - Conhecer os maiores provedores de cloud
    - Especializar-se em algum provedor
 ## Habilidade Auxiliar: Front-end 
-- [ ] **JavaScript - Fundamentos**:
-   - JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.
-   - Conhecer os tipos primitivos
-   - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
-   - Usar estruturas condicionais ('if', 'else')
-   - Conhecer os operadores de comparação ('=', '==', '===')
-   - Usar estruturas de repetição e laços ('while', 'for')
-   - Usar funções, passando parâmetros e argumentos
-   - Manipular arrays e listas
-   - Aprender o conceito de Orientação a Objetos
-   - Fazer um CRUD
-   - Obter dados de uma API
-   - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
 - [ ] **HTML - Fundamentos**:
    - HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.
    - Aprender quais tags são necessárias para um HTML básico

@@ -1,0 +1,28 @@
+name: Android - CI/CD
+logo: 
+short-description:
+key-objectives:
+  - CI/CD is short for Continuous Integration/Continuous Delivery. It is a software development practice that aims to make code integration more efficient through automated builds and testing.
+  - When implementing new App functionality, we need to ensure that all deliveries will work correctly. To do this, we can use continuous integration and continuous delivery techniques, this way we speed up the evolution of the App and try to ensure the expected behaviors at the same time.
+  - Knowing one of the tools to do continuous delivery, such as Firebase Test Lab, Jenkins, GitHub Actions, etc
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Firebase: Start testing with continuous integration (CI) systems"
+    link: https://firebase.google.com/docs/test-lab/android/continuous
+  - type: ARTICLE
+    title: "The Anatomy of Android Continuous Delivery"
+    link: https://medium.com/the-telegraph-engineering/android-continuous-delivery-fb41da63176
+  - type: SITE
+    title: "CodePath: Automating Publishing to the Play Store"
+    link: https://guides.codepath.com/android/automating-publishing-to-the-play-store
+  - type: YOUTUBE
+    title: "Philipp Lackner: Learn to Automate Tasks for Android with CI/CD"
+    link: https://www.youtube.com/watch?v=QLsgkxH-O2I
+  - type: YOUTUBE
+    title: "Android Developer Tips: What is the CI/CD Pipeline from an Android app perspective? — Part 1: CI"
+    link: https://www.youtube.com/watch?v=4nVRJ9ulKJQ
+  - type: YOUTUBE
+    title: "Android Developer Tips: What is the CI/CD Pipeline from an Android app perspective? — Part 2: CD"
+    link: https://www.youtube.com/watch?v=bYi-nI1lfc0
+alura-contents:

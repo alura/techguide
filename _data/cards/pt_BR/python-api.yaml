@@ -1,0 +1,38 @@
+name: Python - Comunicação com APIs
+logo: 
+short-description:
+key-objectives:
+  - Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.
+  - Entender o que é uma API REST
+  - Conhecer os comandos básicos de comunicação HTTP
+  - Entender o que é uma API REST
+  - Saber fazer requisições autenticadas
+  - Converter objetos para JSON e vice-versa
+  - Saber usar as ferramentas do pacote Requests
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Requests - HTTP para Humanos"
+    link: https://requests.readthedocs.io/projects/pt/pt_BR/latest/
+  - type: ARTICLE
+    title: "Como começar a usar a biblioteca Requests em Python"
+    link: https://www.digitalocean.com/community/tutorials/how-to-get-started-with-the-requests-library-in-python-pt
+  - type: ARTICLE
+    title: "Python Requests & Spotify Web API"
+    link: https://medium.com/@pedron.ketlin/python-requests-spotify-web-api-63cce3641c66
+  - type: YOUTUBE
+    title: "Otávio Miranda: Requests em Python - Consumindo uma API Rest usando o módulo Requests"
+    link: https://www.youtube.com/watch?v=Qd8JT0bnJGs&ab_channel=Ot%C3%A1vioMiranda
+  - type: YOUTUBE
+    title: "Walisson Silva: Requisições HTTP com o módulo requests | Web Scraping com Python"
+    link: https://www.youtube.com/watch?v=XRUdG2msE0Q&ab_channel=WalissonSilva
+alura-contents:
+  - type: ARTICLE
+    title: "Consumindo a API do Github em Python"
+    link: https://www.alura.com.br/artigos/consumindo-a-api-do-github-em-python
+  - type: ARTICLE
+    title: "Como criar APIs em Python usando FastAPI"
+    link: https://www.alura.com.br/artigos/como-criar-apis-python-usando-fastapi
+  - type: COURSE
+    title: "Curso API com Django 3"
+    link: https://www.alura.com.br/curso-online-api-django-3-testes-documentacao

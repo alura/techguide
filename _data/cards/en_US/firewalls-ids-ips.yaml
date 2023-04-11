@@ -1,0 +1,36 @@
+name: Firewalls, IDS and IPS
+logo: 
+short-description:
+key-objectives:
+  - Definitions and differences between network security devices, firewalls, intrusion prevention systems (IPS) and intrusion detection systems (IDS). 
+  - A firewall allows traffic depending on a set of rules that have been configured. It is based on source, destination and port addresses. A firewall can deny any traffic that does not meet the specified criteria.
+  - IDS are passive monitoring system devices that monitor network traffic as it travels over the network, compare signature patterns, and trigger an alarm if suspicious activity or a known security threat is detected.
+  - IPS is an active device that prevents attacks by blocking them.
+contents:
+  - type: SITE
+    title: "pfSense"
+    link: https://www.pfsense.org
+  - type: ARTICLE
+    title: "A Guide to the Uncomplicated Firewall (UFW) for Linux"
+    link: https://medium.com/@jasonrigden/a-guide-to-the-uncomplicated-firewall-ufw-for-linux-570c3774d7f4
+  - type: ARTICLE
+    title: "Pf-sense Firewall explained"
+    link: https://the-dark-lord.medium.com/pf-sense-firewall-part-1-1d9d17c5a7a6
+  - type: ARTICLE
+    title: "Compare: Firewalld / Iptables / Nftables / Netfilter"
+    link: https://iceburn.medium.com/compare-firewalld-iptables-nftables-netfilter-de08a8d21b5b
+  - type: SITE
+    title: "GeeksForGeeks: Intrusion Detection System (IDS)"
+    link: https://www.geeksforgeeks.org/intrusion-detection-system-ids/
+  - type: SITE
+    title: "GeeksForGeeks: Intrusion Prevention System (IPS)"
+    link: https://www.geeksforgeeks.org/intrusion-prevention-system-ips/?ref=lbp
+  - type: ARTICLE
+    title: "Learning More about IPS and IDS"
+    link: https://gupta-bless.medium.com/learning-more-about-ips-and-ids-ef6d859c2ab3
+  - type: YOUTUBE
+    title: "Linode: iptables Complete Guide"
+    link: https://www.youtube.com/watch?v=6Ra17Qpj68c&ab_channel=Linode
+  - type: YOUTUBE
+    title: "CBT Nuggets: IDS vs. IPS"
+    link: https://www.youtube.com/watch?v=rvKQtRklwQ4&ab_channel=CBTNuggets

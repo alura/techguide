@@ -22,12 +22,20 @@ const typeDefs = gql`
     guide: Guide
   }
 
+  type GuideFAQ {
+    title: String
+    answer: String
+  }
+
   type Guide {
     id: String
     slug: String
     name: String
+    tags: [String]
     expertises: [GuideExpertise]
     collaborations: [GuideCollaboration]
+    video: String
+    faq: [GuideFAQ]
   }
   input GuideFilters {
     id: FieldFilter

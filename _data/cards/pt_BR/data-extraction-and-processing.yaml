@@ -1,0 +1,32 @@
+name: Extração e Tratamento de Dados
+logo: 
+short-description:
+key-objectives:
+  - A extração de dados é o processo de coleta ou recuperação de tipos diferentes de dados de uma variedade de fontes, muitos dos quais podem estar mal organizados ou completamente desestruturados.
+  - Obter os dados que serão analisados
+  - Tratar os dados obtidos, transformando-os, alterando sua estrutura e valores a fim de deixar a base de dados mais coerente e garantir que os dados que serão trabalhados estejam nas melhores condições para serem analisados
+  - Utilizar as bibliotecas Pandas e Scikit-learn para tratar os dados
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Tratamento e Transformação de Dados NaN: Uma visão geral e prática"
+    link: https://medium.com/data-hackers/tratamento-e-transforma%C3%A7%C3%A3o-de-dados-nan-uma-vis%C3%A3o-geral-e-pr%C3%A1tica-54efa9fc7a98
+  - type: YOUTUBE
+    title: "Awari: Importação e Tratamento de Dados em Data Science"
+    link: https://www.youtube.com/watch?v=i1TK8pWRQas
+  - type: YOUTUBE
+    title: "Celso Cestaro: Iniciando em coleta e tratamento de dados com Python"
+    link: https://www.youtube.com/watch?v=3DF54MnH9KM
+  - type: YOUTUBE
+    title: "Celso Cestaro: Python para data science - limpando dados"
+    link: https://www.youtube.com/watch?v=t18Ogc8rNyo
+alura-contents:
+  - type: COURSE
+    title: "Curso Data Science: analise e visualização de dados"
+    link: https://cursos.alura.com.br/course/data-science-primeiros-passos
+  - type: COURSE
+    title: "Curso Python Pandas: tratando e analisando dados"
+    link: https://cursos.alura.com.br/course/introducao-python-pandas
+  - type: CHALLENGE
+    title: "7 Days of Code: Python Pandas"
+    link: https://7daysofcode.io/matricula/pandas

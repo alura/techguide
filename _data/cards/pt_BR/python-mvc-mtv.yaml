@@ -1,0 +1,26 @@
+name: Python - MVC e MTV
+logo: 
+short-description:
+key-objectives:
+  - MVC e MTV são dois padrões de projeto (design patterns) utilizados para implementar interfaces e aplicações web.
+  - Entender o padrão MVC
+  - Entender o padrão MTV
+  - Compreender a diferença entre os padrões MVC e MTV
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Acervo Lima: Diferença entre os padrões de design MVC e MVT"
+    link: https://acervolima.com/diferenca-entre-os-padroes-de-design-mvc-e-mvt/
+  - type: ARTICLE
+    title: "Como funciona a arquitetura MTV (Django)"
+    link: https://diandrasilva.medium.com/como-funciona-a-arquitetura-mtv-django-86af916f1f63
+  - type: YOUTUBE
+    title: "Thiago Kaiser: Como funciona o Django - Modelo MTV"
+    link: https://www.youtube.com/watch?v=2XaZXJ5P81k
+  - type: YOUTUBE
+    title: "Rafael Zottesso: Python e Django - Arquitetura Model View Template (MVT)"
+    link: https://www.youtube.com/watch?v=Zpl1w_Hn0CE
+alura-contents:
+  - type: COURSE
+    title: "Formação Django"
+    link: https://cursos.alura.com.br/formacao-django

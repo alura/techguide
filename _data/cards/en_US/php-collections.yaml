@@ -1,0 +1,38 @@
+name: PHP - Collections
+logo: 
+short-description:
+key-objectives:
+  - A collection represents a group of objects, known as its elements. They are like containers that group multiple items into a single unit. Some collections allow duplication of elements and some do not. Some are ordered and some are unordered.
+  - Learning the uses and differences between arrays, lists, stacks, hash maps, heaps
+  - Working with Iterators, Generators and Collections
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation: PHP Arrays"
+    link: https://www.php.net/manual/en/language.types.array.php
+  - type: ARTICLE
+    title: "PHP Collection"
+    link: https://jmsyst.com/libs/php-collection
+  - type: ARTICLE
+    title: "Collection objects in PHP"
+    link: https://dev.to/fahrenholz/collection-objects-in-php-1cbk
+  - type: ARTICLE
+    title: "Collections — How to improve your PHP code"
+    link: https://medium.com/@pogulailo/collections-how-to-improve-your-php-code-fd319ee52e13
+  - type: ARTICLE
+    title: "PHP Iterators and Generators"
+    link: https://medium.com/@mena.meseha/php-iterators-and-generators-2516a5f99b7f
+  - type: YOUTUBE
+    title: "Program With Gio: How To Work With Arrays In PHP"
+    link: https://www.youtube.com/watch?v=E4FUeWa3WQk
+  - type: YOUTUBE
+    title: "Daily Tuition: List() Function In PHP - In 5 Minutes"
+    link: https://www.youtube.com/watch?v=Z--VCmcFenU
+  - type: YOUTUBE
+    title: "Gary Clarke: PHP Collections Objects Tutorial"
+    link: https://www.youtube.com/watch?v=4j1NEmc0yqo
+  - type: YOUTUBE
+    title: "Echo PHP: PHP Generators and Iterators - Quick Guide"
+    link: https://www.youtube.com/watch?v=dTnis2_jIPs
+alura-contents:
+    

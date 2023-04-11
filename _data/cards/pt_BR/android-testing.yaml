@@ -1,0 +1,37 @@
+name: Android - Testes
+logo: 
+short-description:
+key-objectives:
+  - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+  - Usar testes unitários
+  - Usar testes de integração
+  - Usar testes instrumentados
+  - Usar mocks para facilitar a implementação de testes com dependências
+  - Implementar testes com ferramentas de Injeção de Dependências como o Hilt
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Conceitos básicos de testes"
+    link: https://developer.android.com/training/testing/fundamentals?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: O que testar no Android (Inglês)"
+    link: https://developer.android.com/training/testing/fundamentals/what-to-test
+  - type: SITE
+    title: "Documentação Android: Como testar o layout do Compose"
+    link: https://developer.android.com/jetpack/compose/testing?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Criar testes de unidade locais"
+    link: https://developer.android.com/training/testing/unit-testing/local-unit-tests?hl=pt-br
+  - type: ARTICLE
+    title: "Testes Instrumentados: tipos de teste e como são executados."
+    link: https://medium.com/android-dev-br/testes-instrumentados-tipos-de-teste-e-como-s%C3%A3o-executados-1f13a8cfe4c4
+  - type: YOUTUBE
+    title: "Dev Vai Longe: 02 Testes unitários no Android com mockito, jUnit e kotlin."
+    link: https://youtu.be/iKaPscjFa-4
+alura-contents:
+  - type: COURSE
+    title: "Android com Kotlin: testes de unidade e Mocks"
+    link: https://www.alura.com.br/curso-online-android-kotlin-testes-unidade-mocks
+  - type: COURSE
+    title: "Android com Kotlin: testes instrumentados"
+    link: https://www.alura.com.br/curso-online-android-kotlin-testes-instrumentados

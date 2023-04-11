@@ -1,0 +1,40 @@
+name: Spring Boot
+logo: 
+short-description:
+key-objectives:
+  - O Spring Boot é um framework de código aberto baseado em Java usado para criar microserviços com o Spring Framework. Ele é usado para construir aplicações Spring independentes e prontas para produção.
+  - Criar aplicações Spring standalone
+  - Usar os servidores HTTP embutidos
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Spring Boot (inglês)"
+    link: https://spring.io/projects/spring-boot
+  - type: ARTICLE
+    title: "EngDB: Como o Spring Boot está ajudando os desenvolvedores?"
+    link: https://blog.engdb.com.br/spring-boot/
+  - type: ARTICLE
+    title: "Porque você deve usar Spring Boot"
+    link: https://medium.com/@duduxss3/porque-voc%C3%AA-deve-usar-spring-boot-a22f75da0955
+  - type: ARTICLE
+    title: "Resumo Curso Spring Boot API REST: Construa uma API - Alura"
+    link: https://www.linkedin.com/pulse/resumo-curso-spring-boot-api-rest-construa-uma-alura-maikel-souza-1f/?trk=articles_directory&originalSubdomain=pt
+  - type: YOUTUBE
+    title: "Michelli Brito: Iniciando uma aplicação Spring Boot"
+    link: https://www.youtube.com/watch?v=OHn1jLHGptw
+  - type: YOUTUBE
+    title: "Michelli Brito: API REST com Spring Boot"
+    link: https://www.youtube.com/watch?v=bpBRFNKg8k4&list=PL8iIphQOyG-D2FP9wkg12AavzmVRWEcnJ
+  - type: YOUTUBE
+    title: "Dev Multitask: 5 coisas para saber de Spring ANTES de cair no Spring Boot!"
+    link: https://youtu.be/4pj1EPgacg8 
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Criando um projeto com Spring Boot em 5 minutos"
+    link: https://www.youtube.com/watch?v=-U9QpXcCh10
+  - type: SITE
+    title: "Primeiras aulas do curso Spring Boot API REST: construa uma API"
+    link: https://www.alura.com.br/conteudo/spring-boot-api-rest
+  - type: COURSE
+    title: "Formação Java e Spring Boot"
+    link: https://www.alura.com.br/formacao-spring-boot-3

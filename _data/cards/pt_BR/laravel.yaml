@@ -1,0 +1,52 @@
+name: Laravel
+logo: 
+short-description:
+key-objectives:
+  - Laravel é um framework PHP livre e open-source para o desenvolvimento de sistemas web que utilizam o padrão MVC (model, view, controller).
+  - Conhecer as características do framework Laravel
+  - Trabalhar com rotas
+  - Usar arquivos Blade
+  - Usar as suas funcionalidades ORM
+  - Lidar com injeção de dependências
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Laravel (inglês)"
+    link: https://laravel.com/docs/8.x/readme
+  - type: ARTICLE
+    title: "O que é Laravel? Porque usá-lo?"
+    link: https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-laravel-porque-us%C3%A1-lo-955c95d2453d
+  - type: ARTICLE
+    title: "Como o Laravel funciona"
+    link: https://medium.com/jundevelopers/como-o-laravel-funciona-71136a262cee
+  - type: ARTICLE
+    title: "Começando com Laravel"
+    link: https://medium.com/@marcelgsantos/come%C3%A7ando-com-laravel-parte-01-e76567408b1f
+  - type: YOUTUBE
+    title: "Gustavo Neitzke: Laravel - 02 | Criando o primeiro projeto"
+    link: https://www.youtube.com/watch?v=1ZCM6F3DRWc&list=PLSHNk_yA5fNhzjjOGcIdSB1nyhv6NR0W1&index=2
+  - type: YOUTUBE
+    title: "Cristian Bernardes: Criando uma API Rest com Laravel em 10 minutos"
+    link: https://www.youtube.com/watch?v=daq5S5-55Lw
+alura-contents:
+  - type: ARTICLE
+    title: "Seja um artesão da web com Laravel, o framework MVC do PHP"
+    link: https://www.alura.com.br/artigos/seja-um-artesao-da-web-com-laravel-o-framework-mvc-do-php
+  - type: PODCAST
+    title: "Hipsters.tech: PHP não é coisa de sobrinho - Hipsters Ponto Tech 36"
+    link: https://cursos.alura.com.br/extra/hipsterstech/php-nao-e-coisa-de-sobrinho-hipsters-36-a550
+  - type: COURSE
+    title: "Curso Laravel: criando uma aplicação com MVC"
+    link: https://cursos.alura.com.br/course/laravel-criando-aplicacao-mvc
+  - type: COURSE
+    title: "Curso Laravel: validando formulários, usando sessões e definindo relacionamentos"
+    link: https://cursos.alura.com.br/course/laravel-formularios-sessoes-relacionamentos
+  - type: COURSE
+    title: "Curso Laravel: transações, service container e autenticação"
+    link: https://cursos.alura.com.br/course/laravel-transacoes-service-container-autenticacao
+  - type: COURSE
+    title: "Curso Laravel: e-mails, eventos assíncronos, uploads e testes"
+    link: https://cursos.alura.com.br/course/laravel-e-mails-eventos-uploads-testes
+  - type: COURSE
+    title: "Curso Laravel: construindo APIs"
+    link: https://cursos.alura.com.br/course/laravel-construindo-apis

@@ -41,6 +41,7 @@ export function guidesRepository() {
             ...fileContent,
             id: slug,
             slug: slug,
+            tags: fileContent.tags || [],
             name: fileContent.name,
             expertises: fileContent.expertise.map((expertise) => {
               let cards = [];
@@ -87,6 +88,8 @@ export function guidesRepository() {
                 cards,
               };
             }),
+            video: fileContent.video || "",
+            faq: fileContent.faq || [],
           };
         })
       );

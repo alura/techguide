@@ -1,0 +1,31 @@
+name: PHP - Composer
+logo: 
+short-description:
+key-objectives:
+  - O Composer é uma ferramenta para o gerenciamento de dependências em PHP. Ele permite que você declare as bibliotecas das quais seu projeto depende e as gerenciará (instalar/atualizar) para você.
+  - Gerenciar dependências
+  - Incluir bibliotecas de terceiros
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Composer (inglês)"
+    link: https://getcomposer.org/doc/
+  - type: ARTICLE
+    title: "O que é PHP Composer?"
+    link: https://medium.com/@morkhusz/o-que-%C3%A9-php-composer-974960bccf0e
+  - type: ARTICLE
+    title: "O que é o Composer do PHP"
+    link: https://felipeelia.com.br/o-que-e-o-composer-do-php/
+  - type: YOUTUBE
+    title: "Felipe Elia WP: COMPOSER (PHP) - O que é, como instalar e como usar"
+    link: https://www.youtube.com/watch?v=kQNZz7smW3k
+alura-contents:
+  - type: ARTICLE
+    title: "Primeiros passos com Composer"
+    link: https://www.alura.com.br/artigos/primeiros-passos-com-composer
+  - type: ARTICLE
+    title: "PHP Composer: autoloading, executáveis e scripts"
+    link: https://www.alura.com.br/artigos/avancando-com-o-composer
+  - type: COURSE
+    title: "Curso PHP Composer: Dependências, Autoload e Publicação"
+    link: https://cursos.alura.com.br/course/php-composer

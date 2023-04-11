@@ -1,0 +1,43 @@
+name: Data Science - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Data Science is the act of using algorithms and systems to extract, organize, and analyze data from various sources in order to detect patterns and make business decisions. The application areas are endless, such as in business, biology, medicine, engineering, etc.
+  - Knowing the concept of Data Mining
+  - Learning the main functions, such as 'describe', 'info', etc
+  - Understanding the role of visualizations such as histograms and boxplots
+  - Knowing what nominal and ordinal categorical variables are
+  - Exploring data in Python with Pandas, Matplotlib, Seaborn and Numpy libraries
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Amazon AWS: What Is Data Science?"
+    link: https://aws.amazon.com/what-is/data-science/
+  - type: SITE
+    title: "IBM: What is data science?"
+    link: https://www.ibm.com/topics/data-science
+  - type: ARTICLE
+    title: "How do I start a career in Data Science? The challenging journey & what every beginner need to get started"
+    link: https://medium.com/@Kelvin_Oyanna/how-do-i-start-a-career-in-data-science-9aa216fad86b
+  - type: ARTICLE
+    title: "A Python Pandas Introduction to Excel Users"
+    link: https://towardsdatascience.com/a-python-pandas-introduction-to-excel-users-1696d65604f6
+  - type: ARTICLE
+    title: "Introduction to Numpy: An absolute beginners guide to Machine Learning and Data science"
+    link: https://medium.com/hackernoon/introduction-to-numpy-1-an-absolute-beginners-guide-to-machine-learning-and-data-science-5d87f13f0d51
+  - type: YOUTUBE
+    title: "Simplilearn: Data Science In 5 Minutes | What Is Data Science?"
+    link: https://www.youtube.com/watch?v=X3paOmcrTjQ
+  - type: YOUTUBE
+    title: "Joma Tech: What REALLY is Data Science? Told by a Data Scientist"
+    link: https://www.youtube.com/watch?v=xC-c7E5PK0Y
+  - type: YOUTUBE
+    title: "Ken Jee: How I Would Learn Data Science if I had to start over"
+    link: https://www.youtube.com/watch?v=xpIFS6jZbe8
+  - type: YOUTUBE
+    title: "Stefanovic: Fastest Way to Become a Data Analyst"
+    link: https://www.youtube.com/watch?v=AYWLZ1lES6g
+  - type: YOUTUBE
+    title: "Simplilearn: NumPy and Pandas Tutorial"
+    link: https://www.youtube.com/watch?v=FniLzpaSFGk
+alura-contents:

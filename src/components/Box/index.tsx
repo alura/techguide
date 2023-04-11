@@ -10,6 +10,14 @@ interface BoxProps {
   styleSheet?: StyleSheet;
   viewBox?: string;
   xmlns?: string;
+  type?: string;
+  value?: string;
+  name?: string;
+  checked?: boolean;
+  // eslint-disable-next-line no-unused-vars
+  onKeyPress?: (event: any) => void;
+  // eslint-disable-next-line no-unused-vars
+  onChange?: (event: any) => void;
   // eslint-disable-next-line no-unused-vars
   onClick?: (event: any) => void;
   // eslint-disable-next-line no-unused-vars

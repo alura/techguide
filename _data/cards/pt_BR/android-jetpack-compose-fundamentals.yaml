@@ -1,0 +1,43 @@
+name: Jetpack Compose - Fundamentos
+logo: 
+short-description: 
+key-objectives:
+  - O Jetpack Compose é uma ferramenta que trás a proposta de criar interfaces nativas Android com menos código, mais rápido e deixa seus apps mais bonitos, ele faz isso através da abordagem declarativa.
+  - Criar um app Android do zero utilizando o Jetpack Compose
+  - Construção de Layouts apartir de composables
+  - Pré-visualizações de Composables
+  - Gerenciamento de estados, eventos, composição e recomposição
+  - Configurar o Compose em um projeto já existente e aplicar a interoperabilidade
+  - Trabalhar com formulários
+  - Entender a diferença do XML para o Compose
+  - Manter estados utilizando o padrão MVVM com ViewModel e StateFlow, entendendo o ciclo de vida
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Tutorial do Android Compose"
+    link: https://developer.android.com/jetpack/compose/tutorial?hl=pt-br
+  - type: ARTICLE
+    title: "Novas pessoas desenvolvedoras android deveriam aprender Compose ou XML? (inglês)"
+    link: https://dev.to/aldok/should-new-android-developer-learn-compose-or-xml-3oah
+  - type: YOUTUBE
+    title: "Utilizando o JETPACK COMPOSE para criar UIs modernas para Apps Android"
+    link: https://www.youtube.com/watch?v=6qIjSVVzlt0&ab_channel=InstitutodeInform%C3%A1ticaUFG
+  - type: SITE
+    title: "Documentação Android: Estado e Jetpack Compose"
+    link: https://developer.android.com/jetpack/compose/state?hl=pt-br
+  - type: SITE
+    title: "Documentação Android: Ciclo de vida dos composables"
+    link: https://developer.android.com/jetpack/compose/lifecycle?hl=pt-br#:~:text=Quando%20o%20Jetpack%20Compose%20executa,Jetpack%20Compose%20programar%C3%A1%20uma%20recomposi%C3%A7%C3%A3o.
+alura-contents:
+  - type: YOUTUBE
+    title: "O que é Jetpack Compose? com Alex Felipe | #HipstersPontoTube"
+    link: https://youtu.be/LR5LUhTZPCE
+  - type: YOUTUBE
+    title: "Jetpack Compose: Começando com Compose | #AluraMais"
+    link: https://youtu.be/L4nWoZTKjKw
+  - type: ARTICLE
+    title: "Vale a pena aprender Jetpack Compose agora?"
+    link: https://www.alura.com.br/artigos/vale-a-pena-aprender-jetpack-compose
+  - type: COURSE
+    title: "Formação: Jetpack Compose - Criando telas e gerenciando estados"
+    link: https://cursos.alura.com.br/formacao-jetpack-compose-criando-telas-gerenciando-estados

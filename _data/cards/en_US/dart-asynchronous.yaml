@@ -2,7 +2,7 @@ name: Dart - Asynchronous
 logo: 
 short-description:
 key-objectives:
-  - Asynchronous operations let your program complete work while waiting for another operation to finish.
+  - In asynchronous programming, the functions are not executed in order. We can interrupt the code to get some other information needed to continue execution. This means that the code waits for another part of the code, and while it waits, it can execute the other parts.
   - Understanding what asynchronism is
   - Learning how to use the `async`, `await` and `future` expressions in Dart
   - Understanding Future's `then` and `catchError` methods in Dart

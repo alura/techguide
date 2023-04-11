@@ -1,0 +1,32 @@
+name: Django
+logo: 
+short-description:
+key-objectives:
+  - Django is a high-level Python web framework that enables rapid development of secure and maintainable websites.
+  - Creating web applications
+  - Understanding the architecture of an application made with Django
+  - Creating a page admin
+  - Using templates and routes
+  - Creating forms
+  - Writing views
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation: Django"
+    link: https://docs.djangoproject.com/en/4.1/
+  - type: SITE
+    title: "MDN Web Docs: Django introduction"
+    link: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction
+  - type: SITE
+    title: "GeeksForGeeks: Django Tutorial"
+    link: https://www.geeksforgeeks.org/django-tutorial/
+  - type: ARTICLE
+    title: "Django Tutorial: Building and Securing Web Applications"
+    link: https://medium.com/@auth0/django-tutorial-building-and-securing-web-applications-29fffe389843
+  - type: YOUTUBE
+    title: "Programming with Mosh: Python Django Tutorial for Beginners"
+    link: https://www.youtube.com/watch?v=rHux0gMZ3Eg
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Python Django Web Framework - Full Course for Beginners"
+    link: https://www.youtube.com/watch?v=F5mRW0jo-U4
+alura-contents:

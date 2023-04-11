@@ -1,0 +1,40 @@
+name: Segurança de Endpoint
+logo: 
+short-description:
+key-objectives:
+  - A segurança de endpoint, ou proteção de endpoint, é a abordagem de segurança cibernética para defender endpoints como desktops, laptops e dispositivos móveis contra atividades maliciosas.
+contents:
+  - type: ARTICLE
+    title: "Endpoint Security: I"
+    link: https://medium.com/starting-up-security/endpoint-security-intuition-around-the-mudge-disclosures-dfbe014790f2
+  - type: ARTICLE
+    title: "Introduction to FireEye Endpoint Security"
+    link: https://medium.com/@knoldus/introduction-to-fireeye-endpoint-security-3534c9bf60fe
+  - type: ARTICLE
+    title: "EPP vs EDR vs XDR: Endpoint Security Comparison"
+    link: https://altexsoft.medium.com/epp-vs-edr-vs-xdr-endpoint-security-comparison-57409987f65e
+  - type: ARTICLE
+    title: "Endpoint Security -Antivirus, EPP & EDR"
+    link: https://anandadip.medium.com/endpoint-security-antivirus-epp-edr-99496597b892
+  - type: ARTICLE
+    title: "What is Endpoint Detection and Response (EDR)"
+    link: https://www.crowdstrike.com/cybersecurity-101/endpoint-security/endpoint-detection-and-response-edr/
+  - type: ARTICLE
+    title: "EDR vs. NGAV"
+    link: https://www.crowdstrike.com/cybersecurity-101/endpoint-security/edr-vs-ngav/
+  - type: ARTICLE
+    title: "Introduction to Advanced Endpoint Protection (AEP)"
+    link: https://www.crowdstrike.com/cybersecurity-101/endpoint-security/advanced-endpoint-protection-aep/
+  - type: ARTICLE
+    title: "Endpoint Security"
+    link: https://www.crowdstrike.com/cybersecurity-101/endpoint-security/
+  - type: YOUTUBE
+    title: "Heimdal: Endpoint Security - Definition, Benefits, and Key Components"
+    link: https://www.youtube.com/watch?v=2CVP9-Qslcw&ab_channel=Heimdal%C2%AE
+alura-contents:
+  - type: COURSE
+    title: "Cyber Security Fundamentals & Skills"
+    link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/
+  - type: COURSE
+    title: "CSO infosec + Cyber Defense"
+    link: https://www.fiap.com.br/shift/imersao/tecnologia/cso-infosec-cyber-defense/

@@ -1,0 +1,68 @@
+name: Visão Computacional
+logo: 
+short-description:
+key-objectives:
+  - Visão Computacional é um campo científico interdisciplinar que lida com a forma como os computadores podem ganhar conhecimentos de alto nível a partir de imagens ou vídeos digitais. Da perspectiva da engenharia, procura compreender e automatizar tarefas que o sistema visual humano pode fazer.
+  - Extrair regiões de interesse de uma imagem
+  - Normalizar e pré-processar dados de imagens
+  - Construir classificadores para reconhecimento de faces
+  - Extrair regiões do rosto humano baseado em marcos faciais
+  - Analisar diferentes condições de cada componente do rosto humano
+  - Usar OpenCV
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "NVIDIA: Visão Computacional"
+    link: https://www.nvidia.com/pt-br/glossary/data-science/computer-vision/
+  - type: ARTICLE
+    title: "Introdução à Visão Computacional"
+    link: https://medium.com/turing-talks/introdu%C3%A7%C3%A3o-%C3%A0-vis%C3%A3o-computacional-b13698774adc
+  - type: ARTICLE
+    title: "Deep Learning: visão computacional"
+    link: https://medium.com/joguei-os-dados/deep-learning-vis%C3%A3o-computacional-81febcabd850
+  - type: ARTICLE
+    title: "Detecção e Classificação de Semáforos com OpenCV e Machine Learning"
+    link: https://medium.com/ensina-ai/detec%C3%A7%C3%A3o-e-classifica%C3%A7%C3%A3o-de-sem%C3%A1foros-com-opencv-e-machine-learning-d5d97bc60fd
+  - type: ARTICLE
+    title: "Como identificar cores no mundo real utilizando Visão Computacional?"
+    link: https://suzana-svm.medium.com/vis%C3%A3o-computacional-detec%C3%A7%C3%A3o-de-cores-em-tempo-real-utilizando-python-e-opencv-a466444d40e
+  - type: ARTICLE
+    title: "Visão Computacional — O que é convolução?"
+    link: https://medium.com/turing-talks/vis%C3%A3o-computacional-o-que-%C3%A9-convolu%C3%A7%C3%A3o-ad709f7bd6b0
+  - type: ARTICLE
+    title: "Transformada de Fourier em Visão Computacional"
+    link: https://medium.com/turing-talks/transformada-de-fourier-b1775e891cc5
+  - type: YOUTUBE
+    title: "Jhonatan Souza: O que é Visão Computacional?"
+    link: https://www.youtube.com/watch?v=p90YOqrPYxE
+  - type: YOUTUBE
+    title: "Hemerson Pistori: Tipos de Problemas ou Tarefas em Visão Computacional"
+    link: https://www.youtube.com/watch?v=9HDUt7W6PXM
+  - type: YOUTUBE
+    title: "italo js: OpenCV - Introduçao a processamento de imagens e visão computacional"
+    link: https://www.youtube.com/watch?v=X64SCjaVNrk
+  - type: YOUTUBE
+    title: "Guiminam: Perguntas para uma doutora em visão computacional"
+    link: https://www.youtube.com/watch?v=HO3HOW_72Vk
+alura-contents:
+  - type: PODCAST
+    title: "Hipsters.tech: Arte generativa – Hipsters Ponto Tech 261"
+    link: https://www.hipsters.tech/arte-generativa-hipsters-ponto-tech-261/
+  - type: ALURAPLUS
+    title: "Visão Computacional com Teachable Machine"
+    link: https://cursos.alura.com.br/extra/alura-mais/visao-computacional-com-teachable-machine-c1466
+  - type: COURSE
+    title: "Curso Reconhecimento de imagens: Twitter e Computer Vision API"
+    link: https://cursos.alura.com.br/course/reconhecimento-imagens
+  - type: COURSE
+    title: "Curso Análise e Classificação de Faces: visão Computacional com OpenCV"
+    link: https://cursos.alura.com.br/course/analise-classificacao-faces-visao-computacional-opencv
+  - type: COURSE
+    title: "Curso de Visão computacional: detecção de texto em placas de carro"
+    link: https://cursos.alura.com.br/course/visao-computacional-deteccao-texto-placas-carro
+  - type: COURSE
+    title: "Curso de Visão Computacional: reconhecimento de texto com OCR e OpenCV"
+    link: https://cursos.alura.com.br/course/visao-computacional-reconhecimento-texto-ocr-opencv
+  - type: COURSE
+    title: "Curso de Visão computacional: Hand Tracking com OpenCV"
+    link: https://cursos.alura.com.br/course/visao-computacional-hand-tracking-opencv

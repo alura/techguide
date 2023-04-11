@@ -1,0 +1,42 @@
+name: JVM
+logo: 
+short-description:
+key-objectives:
+  - Máquina virtual Java (em inglês, Java Virtual Machine, JVM) é um programa que carrega e executa os aplicativos Java, convertendo os bytecodes em código executável de máquina. A JVM é responsável pelo gerenciamento dos aplicativos, à medida que são executados. Graças à máquina virtual Java, os programas escritos em Java podem funcionar em qualquer plataforma de hardware e software que possua uma versão da JVM, tornando assim essas aplicações independentes da plataforma onde funcionam.
+  - Entender como funciona a máquina virtual do Java
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Java Virtual Machine (JVM)"
+    link: https://sites.google.com/site/jvmtotal/home/conceitos/java-virtual-machine
+  - type: SITE
+    title: "Wikipédia: Máquina virtual Java"
+    link: https://pt.wikipedia.org/wiki/M%C3%A1quina_virtual_Java
+  - type: ARTICLE
+    title: "JVM por dentro"
+    link: https://vepo.medium.com/jvm-por-dentro-553bab89a027
+  - type: YOUTUBE
+    title: "Descompila: Entendendo a JVM na prática"
+    link: https://www.youtube.com/watch?v=4Qd16jfJDaY
+  - type: YOUTUBE
+    title: "Lucas Silva: O que é JVM, JRE e JDK?"
+    link: https://www.youtube.com/watch?v=BNrf3yT8IcU
+  - type: YOUTUBE
+    title: "Giuliana Bezerra: Entenda o que é WORA, JVM, JDK e JRE - Ep. 1"
+    link: https://youtu.be/U6Gh6HYyl6c
+alura-contents:
+  - type: PODCAST
+    title: "Hipsters.tech: E o futuro do Java! – Hipsters 27"
+    link: https://www.hipsters.tech/e-o-futuro-do-java-hipsters-27/
+  - type: YOUTUBE
+    title: "Alura: JVM do Java 8"
+    link: https://www.youtube.com/watch?v=IujuK83NXCI
+  - type: YOUTUBE
+    title: "Alura: Java é lento? JIT e Otimizações na Java Virtual Machine"
+    link: https://www.youtube.com/watch?v=rrhO_P0IM3s
+  - type: SITE
+    title: "Primeiras aulas do curso Java JRE e JDK: compile e execute o seu programa"
+    link: https://www.alura.com.br/conteudo/java-primeiros-passos
+  - type: COURSE
+    title: "Curso Java JRE e JDK: compile e execute o seu programa"
+    link: https://www.alura.com.br/curso-online-java-primeiros-passos

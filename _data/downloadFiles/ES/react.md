@@ -87,7 +87,8 @@
    - El Hook `useRef` te permite persistir valores entre renderizaciones.
    - Almacenar un valor mutable que no provoca una nueva representación cuando se actualiza
    - Acceder a un elemento DOM directamente
-
+- [ ] **React - Bibliotecas del sistema de diseño**:
+   - Un sistema de diseño es una colección de componentes reutilizables, guiados por estándares claros, que se pueden ensamblar para construir cualquier cantidad de aplicaciones.
 - [ ] **Herramientas de desarrollo de React**:
    - React Developer Tools se utiliza para inspeccionar los componentes de React, editar accesorios y estados e identificar problemas de rendimiento.
    - Depuración de aplicaciones
@@ -209,6 +210,7 @@
 - [ ] **Sistemas de Diseño**:
    - Un sistema de diseño es una colección de componentes reutilizables, guiados por estándares claros, que se pueden ensamblar para crear aplicaciones.
    - Crear y mantener bibliotecas que se consumirán y usarán como estándar para construir un proyecto.
+   - Creación y mantenimiento de bibliotecas que se consumirán y utilizarán como estándar para construir un proyecto.
 - [ ] **Figma - Fundamentos**:
    - Figma es una aplicación web colaborativa para el diseño de interfaces. El conjunto de funciones de Figma se centra en la interfaz de usuario y el diseño de la experiencia del usuario, con énfasis en la colaboración en tiempo real, utilizando una variedad de herramientas de creación de prototipos y editor de gráficos vectoriales.
    - Crear diseños de página y componentes

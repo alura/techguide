@@ -1,0 +1,33 @@
+name: Android - Persistence
+logo: 
+short-description:
+key-objectives:
+  - The concept of "data persistence" refers to ensuring that the information inputted into an application will be stored in a medium where it can be retrieved consistently. In other words, they are permanent records that are not lost when the session is closed.
+  - In Android we can persistently store App-specific or shared files, primitive type information with preferences, and structured database data.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Data and file storage overview"
+    link: https://developer.android.com/training/data-storage
+  - type: SITE
+    title: "Android Documentation: Access app-specific files"
+    link: https://developer.android.com/training/data-storage/app-specific
+  - type: SITE
+    title: "Android Documentation: Overview of shared storage"
+    link: https://developer.android.com/training/data-storage/shared
+  - type: SITE
+    title: "Android Documentation: Save key-value data"
+    link: https://developer.android.com/training/data-storage/shared-preferences
+  - type: SITE
+    title: "Android Documentation: Save data in a local database using Room"
+    link: https://developer.android.com/training/data-storage/room
+  - type: SITE
+    title: "GeeksForGeeks: Introduction to Room Persistent Library in Android"
+    link: https://www.geeksforgeeks.org/introduction-to-room-persistent-library-in-android/
+  - type: ARTICLE
+    title: "A Beginner’s Guide to the Room Persistence Library"
+    link: https://medium.com/free-code-camp/room-sqlite-beginner-tutorial-2e725e47bfab
+  - type: YOUTUBE
+    title: "Coding in Flow: Data Persistence - Android Programming"
+    link: https://www.youtube.com/playlist?list=PLrnPJCHvNZuDJsRLWnl-AV4WQVgkJ1HU4
+alura-contents:

@@ -1,0 +1,30 @@
+name: PHP - Symfony
+logo: 
+short-description:
+key-objectives:
+  - Symfony is an open source PHP, full-stack MVC framework, and incorporates many features and good development practices of the PHP domain.
+  - Getting to know the main features of the framework
+  - Using components
+  - Defining resources and routes
+  - Twig templates
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation: Symfony"
+    link: https://symfony.com/doc/current/index.html
+  - type: ARTICLE
+    title: "Symfony, a small introduction"
+    link: https://medium.com/@disjfa/symfony-a-small-introduction-cf6b92904771
+  - type: ARTICLE
+    title: "Symfony Tutorial for Beginners on How to get Started — Web Hints"
+    link: https://medium.com/@web_hints/symfony-tutorial-for-beginners-on-how-to-get-started-web-hints-74246732f63
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Symfony PHP Framework Tutorial - Full Course"
+    link: https://www.youtube.com/watch?v=Bo0guUbL5uo
+  - type: YOUTUBE
+    title: "Code With Dary: Symfony 6 for Beginners | Symfony Full Course"
+    link: https://www.youtube.com/watch?v=QPky3r2prEI
+  - type: YOUTUBE
+    title: "Cap Coding: How to build simple CRUD API service with Symfony 5 for beginners"
+    link: https://www.youtube.com/watch?v=QPky3r2prEI
+alura-contents:

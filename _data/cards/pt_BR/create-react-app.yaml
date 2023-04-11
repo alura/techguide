@@ -1,0 +1,51 @@
+name: Criar uma aplicação React
+logo: 
+short-description:
+key-objectives:
+  - Estruturar um novo projeto React
+  - Criar uma aplicação funcional do zero
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "React: Documentação - Crie um novo React App"
+    link: https://pt-br.reactjs.org/docs/create-a-new-react-app.html#gatsby-focus-wrapper
+  - type: SITE
+    title: "React: Documentação - Usando TypeScript com Create React App"
+    link: https://pt-br.reactjs.org/docs/static-type-checking.html#using-typescript-with-create-react-app
+  - type: SITE
+    title: "MDN Web Docs: Começando com React - Configurando seu primeiro app React"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#configurando_seu_primeiro_app_react
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Como começar a estruturar um projeto React? com NextJS, Styled Components"
+    link: https://www.youtube.com/watch?v=mJK5oGixSYo
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Do Zero ao React | Como fazer o React e aprender a ideia do Virtual DOM na prática"
+    link: https://www.youtube.com/watch?v=5MzOCxSWrrc
+alura-contents:
+  - type: ARTICLE
+    title: "React: o que é, como funciona e um Guia dessa popular ferramenta JS"
+    link: https://www.alura.com.br/artigos/react-js
+  - type: podcast
+    title: "Hipsters.tech: Guia do iniciante em React"
+    link: https://www.hipsters.tech/guia-do-iniciante-em-react-hipsters-209/
+  - type: podcast
+    title: "Hipsters.tech: Do Front End ao React"
+    link: https://www.hipsters.tech/do-front-end-ao-react-hipsters-ponto-tech-258/
+  - type: COURSE
+    title: "Imersão React: AluraFlix"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-1-react-components-e-aluraflix-c18
+  - type: COURSE
+    title: "Imersão React: AluraQuiz"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-1-react-styled-components-e-next-js-c33
+  - type: COURSE
+    title: "Imersão React: AluraKut"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-1-components-com-react-styled-components-e-nextjs-c53
+  - type: COURSE
+    title: "Imersão React: AluraCord"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68
+  - type: COURSE
+    title: "Curso React: escrevendo com Typescript"
+    link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript
+  - type: challenge
+    title: "7 Days of Code: React"
+    link: https://7daysofcode.io/matricula/react

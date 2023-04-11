@@ -1,0 +1,28 @@
+name: SIEM e SOAR
+logo: 
+short-description:
+key-objectives:
+  - Security Information and Event management (SIEM) is software that aggregates and analyzes information from several different sources across the entire infrastructure.
+  - Security Orchestration, Automation, and Response (SOAR) will help you with threat and vulnerability management, security incident response, and security operation automation.
+contents:
+  - type: ARTICLE
+    title: "Introduction to SIEM and SOAR"
+    link: https://medium.com/@roddytech/introduction-to-siem-and-soar-f7c855df9f3d
+  - type: SITE
+    title: "IBM: What is SIEM?"
+    link: https://www.ibm.com/topics/siem
+  - type: ARTICLE
+    title: "How to implement OSSIM (SIEM Solution)"
+    link: https://hamzamhirsi.medium.com/how-to-implement-ossim-siem-solution-e94e9f937f8
+  - type: ARTICLE
+    title: "Top Free Security Information and Event Management(SIEM) Software's"
+    link: https://kalhara-sampath.medium.com/top-free-security-information-and-event-management-siem-softwares-20c6d8f32a6f
+  - type: SITE
+    title: "What is the ELK Stack?"
+    link: https://www.elastic.co/what-is/elk-stack
+  - type: YOUTUBE
+    title: "BlackPerl: SOC Open Source"
+    link: https://www.youtube.com/watch?v=t6PqjLIVgdA
+  - type: YOUTUBE
+    title: "Introduction To Wazuh SIEM: Wazuh"
+    link: https://www.youtube.com/watch?v=Hq58_yGJwHk&ab_channel=HackerSploit

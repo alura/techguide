@@ -1,0 +1,54 @@
+name: Linux - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Linux é um termo popularmente empregado para se referir a sistemas operacionais que utilizam o Kernel Linux. As distribuições incluem o Kernel Linux, além de softwares de sistema e bibliotecas.
+  - Conhecer o sistema de diretórios do Linux
+  - Compactar e descompactar arquivos
+  - Editar arquivos no console com o VI
+  - Gerenciar os processos rodando na máquina
+  - Conhecer as variáveis de ambiente e o PATH
+  - Gerenciar pacotes
+  - Realizar comunicação remota com o SSH e SCP
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Comandos linux"
+    link: https://pllara.medium.com/comandos-linux-4db7307c17b7
+  - type: ARTICLE
+    title: "Comandos básicos no Linux"
+    link: https://medium.com/linkapi-solutions/comandos-b%C3%A1sicos-no-linux-95079363ab0e
+  - type: YOUTUBE
+    title: "Ninja do Linux: Comandos básicos da linha de comando do Linux"
+    link: https://www.youtube.com/watch?v=rs_yshFGu8E
+  - type: COURSE
+    title: "MIT - The Missing Semester of Your CS Education (inglês)"
+    link: https://missing.csail.mit.edu/
+alura-contents:
+  - type: ARTICLE
+    title: "Linux: download, instalação, distribuições e principais comandos"
+    link: https://www.alura.com.br/artigos/linux-download-instalacao-distribuicoes-e-principais-comandos
+  - type: ARTICLE
+    title: "Procurando arquivos no Linux"
+    link: https://www.alura.com.br/artigos/procurando-arquivos-no-linux
+  - type: ARTICLE
+    title: "Criando comandos no Linux com Bash"
+    link: https://www.alura.com.br/artigos/criando-comandos-no-linux-com-bash
+  - type: ARTICLE
+    title: "Linux - Visualizando tamanhos de Diretórios"
+    link: https://www.alura.com.br/artigos/como-visualizar-o-tamanho-de-diretorios-no-linux
+  - type: ARTICLE
+    title: "Entendendo as permissões no Linux"
+    link: https://www.alura.com.br/artigos/entendendo-as-permissoes-no-linux
+  - type: ARTICLE
+    title: "Linux: compactando e descompactando arquivos com o tar"
+    link: https://www.alura.com.br/artigos/linux-compactando-e-descompactando-arquivos-com-o-tar
+  - type: ARTICLE
+    title: "SSH: o acesso remoto aos servidores"
+    link: https://www.alura.com.br/artigos/como-acessar-servidores-remotamente-com-ssh
+  - type: COURSE
+    title: "Curso Linux I: conhecendo e utilizando o terminal"
+    link: https://cursos.alura.com.br/course/linux-ubuntu
+  - type: COURSE
+    title: "Curso Linux II: programas, processos e pacotes"
+    link: https://www.alura.com.br/curso-online-linux-ubuntu-processos

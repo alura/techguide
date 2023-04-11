@@ -1,0 +1,36 @@
+name: Cryptography - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Cryptography in cybersecurity is the conversion of data from a readable format into an encrypted format. Encrypted data can only be read or processed after it has been decrypted.
+contents:
+  - type: SITE
+    title: "GeeksForGeeks: Cryptography Introduction"
+    link: https://www.geeksforgeeks.org/cryptography-introduction/
+  - type: ARTICLE
+    title: "Introduction to Cryptography: One time pads and stream ciphers"
+    link: https://medium.com/coinmonks/introduction-to-cryptography-one-time-pads-and-stream-ciphers-3b62c7003da8
+  - type: ARTICLE
+    title: "A Whirlwind Tour of Modern Cryptography"
+    link: https://user3141592.medium.com/notes-on-computational-cryptography-98db5f2908f1
+  - type: ARTICLE
+    title: "Understanding the 3 Main Types of Encryption"
+    link: https://spin.atomicobject.com/2014/11/20/encryption-symmetric-asymmetric-hashing/
+  - type: ARTICLE
+    title: "Why Is Symmetric Key Encryption So Much Faster Than Asymmetric (Public) Key?"
+    link: https://medium.com/asecuritysite-when-bob-met-alice/why-is-symmetric-key-encryption-so-much-faster-than-asymmetric-public-key-e9e40d6475bc
+  - type: ARTICLE
+    title: "Programming Encryption Algorithms"
+    link: https://randerson112358.medium.com/programming-encryption-algorithms-520cb98c039d
+  - type: YOUTUBE
+    title: "Next Day Video: Crypto 101"
+    link: https://www.youtube.com/watch?v=3rmCGsCYJF8&ab_channel=NextDayVideo
+  - type: YOUTUBE
+    title: "Simply Explained: Asymmetric Encryption"
+    link: https://www.youtube.com/watch?v=AQDCe585Lnc&ab_channel=SimplyExplained
+  - type: ARTICLE
+    title: "itfreetraining: Symmetric Key and Public Key Encryption"
+    link: https://www.youtube.com/watch?v=ERp8420ucGs&ab_channel=itfreetraining
+  - type: ARTICLE
+    title: "Eddie Woo: The RSA Encryption Algorithm"
+    link: https://www.youtube.com/watch?v=4zahvcJ9glg&ab_channel=EddieWoo

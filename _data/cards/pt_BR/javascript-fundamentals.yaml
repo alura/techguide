@@ -1,0 +1,109 @@
+name: JavaScript - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.
+  - Conhecer os tipos primitivos
+  - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
+  - Usar estruturas condicionais ('if', 'else')
+  - Conhecer os operadores de comparação ('=', '==', '===')
+  - Usar estruturas de repetição e laços ('while', 'for')
+  - Usar funções, passando parâmetros e argumentos
+  - Manipular arrays e listas
+  - Aprender o conceito de Orientação a Objetos
+  - Fazer um CRUD
+  - Obter dados de uma API
+  - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
+aditional-objectives:
+  - Manipular objetos JSON
+  - Usar 'template literals'
+  - Usar funções 'arrow'
+  - Fazer desestruturação ao ler arrays
+  - Usar 'forEach'
+  - Manipular arrays com 'map', 'filter' e 'reduce'
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Um primeiro mergulho no JavaScript"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/A_first_splash
+  - type: SITE
+    title: "MDN Web Docs: Trabalhando com texto — strings em JavaScript"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Strings
+  - type: SITE
+    title: "MDN Web Docs: if...else"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else
+  - type: SITE
+    title: "MDN Web Docs: while"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while
+  - type: SITE
+    title: "MDN Web Docs: for"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for
+  - type: SITE
+    title: "MDN Web Docs: Arrays"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Arrays
+  - type: SITE
+    title: "MDN Web Docs: Template strings"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals
+  - type: ARTICLE
+    title: "Definindo Funções em Javascript"
+    link: https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Como manipular arrays e objetos em JavaScript"
+    link: https://www.youtube.com/watch?v=yS7AcF-xRUg
+  - type: YOUTUBE
+    title: "Marco Bruno: O que é Json e como criar um objeto"
+    link: https://www.youtube.com/watch?v=oCY5YEEjlwE
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Como usar Async/Await? Promises no JavaScript?"
+    link: https://www.youtube.com/watch?v=q28lfkBd9F4
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Como pegar dados de uma API? Como fazer AJAX? | Pegando dados de serviços via JavaScript"
+    link: https://www.youtube.com/watch?v=85vJXFpXLQw
+alura-contents:
+  - type: ARTICLE
+    title: "JavaScript: o que é, como aprender e um Guia da linguagem mais popular do mundo"
+    link: https://www.alura.com.br/artigos/javascript/
+  - type: podcast
+    title: Hipster 38 - O Reino encantado do JavaScript
+    link: https://www.hipsters.tech/o-reino-encantado-do-javascript-hipsters-38/
+  - type: podcast
+    title: "Hipster 169 - JavaScript: manual de sobrevivência 2020"
+    link: https://www.hipsters.tech/javascript-manual-de-sobrevivencia-2020-hipsters-169/
+  - type: podcast
+    title: "Hipster 236 - Evolução do JavaScript"
+    link: https://www.hipsters.tech/evolucao-do-javascript-hipsters-ponto-tech-236/
+  - type: ARTICLE
+    title: "Strings com JavaScript: o que são e como manipulá-las"
+    link: https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular
+  - type: ARTICLE
+    title: "Como utilizar operadores de comparação em Javascript"
+    link: https://www.alura.com.br/artigos/operadores-matematicos-em-javascript
+  - type: ARTICLE
+    title: "Para que serve um Array?"
+    link: https://www.alura.com.br/artigos/javascript-para-que-serve-array
+  - type: ARTICLE
+    title: "Quando usar forEach e map?"
+    link: https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map
+  - type: ARTICLE
+    title: "Manipulação de array com map, filter e reduce"
+    link: https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce
+  - type: COURSE
+    title: "Formação JavaScript para Front-end"
+    link: https://cursos.alura.com.br/formacao-javascript-front-end
+  - type: YOUTUBE
+    title: "Alura: O que é JavaScript?"
+    link: https://www.youtube.com/watch?v=NaVSbnnV75Q
+  - type: YOUTUBE
+    title: "Alura: Destructuring em JavaScript"
+    link: https://www.youtube.com/watch?v=f8a-qwKC5yk
+  - type: YOUTUBE
+    title: "Alura: Classes x funções no Javascript"
+    link: https://www.youtube.com/watch?v=iohhj-k9L6s
+  - type: CHALLENGE
+    title: "7 Days of Code: JavaScript e DOM"
+    link: https://7daysofcode.io/matricula/javascript-e-dom
+  - type: CHALLENGE
+    title: "7 Days of Code: JavaScript e DOM com API"
+    link: https://7daysofcode.io/matricula/javascript-e-dom-api
+  - type: CHALLENGE
+    title: "7 Days of Code: JavaScript e DOM - Wordle"
+    link: https://7daysofcode.io/matricula/javascript-e-dom-wordle

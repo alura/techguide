@@ -4,9 +4,17 @@ import Arrows from "./Arrows";
 import { parseContent } from "@src/infra/i18n/parseContent";
 import { useI18n } from "@src/infra/i18n";
 
-export default function FAQContentSection() {
+interface FAQQuestionProps {
+  questions?: {
+    title?: string;
+    answer?: string;
+  }[];
+}
+export default function FAQContentSection(props: FAQQuestionProps) {
   const i18n = useI18n();
-  const questions = i18n.contentRaw("FAQ.GLOBAL");
+  const questions = props?.questions?.length
+    ? props.questions
+    : i18n.contentRaw("FAQ.GLOBAL");
 
   return (
     <Box
@@ -34,7 +42,7 @@ export default function FAQContentSection() {
           alignItems: "flex-start",
           flexDirection: {
             xs: "column",
-            md: "row",
+            lg: "row",
           },
           gap: {
             xs: "50px",
@@ -110,7 +118,7 @@ export default function FAQContentSection() {
           tag="article"
         >
           {questions?.map(({ title, answer }) => (
-            <FAQQuestion key={title} title={title} description={answer} />
+            <FAQQuestion key={title} title={title} answer={answer} />
           ))}
         </Box>
       </Box>
@@ -118,7 +126,7 @@ export default function FAQContentSection() {
   );
 }
 
-function FAQQuestion({ title, description }: any) {
+function FAQQuestion({ title, answer }: any) {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <Box
@@ -213,7 +221,7 @@ function FAQQuestion({ title, description }: any) {
             color: "#8992A1",
           }}
         >
-          {parseContent(description)}
+          {parseContent(answer)}
         </Text>
       </Box>
     </Box>

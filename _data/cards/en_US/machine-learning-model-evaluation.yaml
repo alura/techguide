@@ -1,0 +1,29 @@
+name: Machine Learning - Model Evaluation
+logo: 
+short-description:
+key-objectives:
+  - Model Evaluation is the process that uses metrics to help us analyze whether a trained model will perform well in predicting when exposed to new data sets.
+  - Knowing different strategies for model evaluation and optimization
+  - Using a pipeline for training and validation
+  - Knowing the main metrics for evaluating machine learning models
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "GeeksForGeeks: Machine Learning Model Evaluation"
+    link: https://www.geeksforgeeks.org/machine-learning-model-evaluation/
+  - type: SITE
+    title: "Amazon AWS: Evaluating ML Models"
+    link: https://docs.aws.amazon.com/machine-learning/latest/dg/evaluating_models.html
+  - type: ARTICLE
+    title: "Evaluating a Machine Learning Model"
+    link: https://medium.com/@skyl/evaluating-a-machine-learning-model-7cab1f597046
+  - type: ARTICLE
+    title: "Introduction to Machine Learning Model Evaluation"
+    link: https://heartbeat.comet.ml/introduction-to-machine-learning-model-evaluation-fa859e1b2d7f
+  - type: YOUTUBE
+    title: "AssemblyAI: How to evaluate ML models | Evaluation metrics for machine learning"
+    link: https://www.youtube.com/watch?v=LbX4X71-TFI
+  - type: YOUTUBE
+    title: "Anaconda, Inc.: Machine Learning Model Evaluation Metrics"
+    link: https://www.youtube.com/watch?v=wpQiEHYkBys
+alura-contents:

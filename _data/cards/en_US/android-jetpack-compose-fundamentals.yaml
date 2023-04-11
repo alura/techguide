@@ -1,0 +1,34 @@
+name: Jetpack Compose - Fundamentals
+logo: 
+short-description: 
+key-objectives:
+  - Jetpack Compose is a tool that brings the proposal to create native Android interfaces with less code, faster and more beautiful your apps, it does this through the declarative approach.
+  - Creating an Android app from scratch using Jetpack Compose
+  - Buildinging Layouts from Composables
+  - Previewing Composables
+  - Managinging states, events, composing and recomposing
+  - Configuring Compose in an existing project and applying interoperability
+  - Working with forms
+  - Understanding the difference between XML and Compose
+  - Maintaining states using the MVVM pattern with ViewModel and StateFlow, understanding the life cycle
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Android Documentation: Jetpack Compose Tutorial"
+    link: https://developer.android.com/jetpack/compose/tutorial
+  - type: ARTICLE
+    title: "Should new Android developers learn Compose or XML?"
+    link: https://dev.to/aldok/should-new-android-developer-learn-compose-or-xml-3oah
+  - type: SITE
+    title: "Android Documentation: State and Jetpack Compose"
+    link: https://developer.android.com/jetpack/compose/state
+  - type: SITE
+    title: "Android Documentation: Lifecycle of composables"
+    link: https://developer.android.com/jetpack/compose/lifecycle
+  - type: YOUTUBE
+    title: "Philipp Lackner: The Jetpack Compose Beginner Crash Course"
+    link: https://www.youtube.com/watch?v=6_wK_Ud8--0
+  - type: YOUTUBE
+    title: "tutorialsEU: Free Android Jetpack Course"
+    link: https://www.youtube.com/watch?v=-TWz30owX_I
+alura-contents:

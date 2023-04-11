@@ -1,0 +1,36 @@
+name: PHP - Arquivos e Streams
+logo: 
+short-description:
+key-objectives:
+  - Os 'streams' (fluxos) são a forma de generalizar operações com arquivos, rede, compressão de dados e outras que compartilhem um conjunto comum de funções e usos. Em sua definição mais simples, um stream é um objeto que exibe um comportamento 'streamable'. Ou seja, ele pode ser lido ou escrito de uma forma linear, e pode ser capaz de buscar uma localização arbitrária dentro do fluxo.
+  - Abrir, ler e manipular arquivos
+  - Aplicar wrappers e filtros nos streams
+  - Usar streams
+  - Conhecer encodings e character sets
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Wrapper de Streams PHP"
+    link: https://dias.dev/2020-11-03-wraper-de-streams-php/
+  - type: ARTICLE
+    title: "Leitura de arquivos CSV com PHP"
+    link: https://medium.com/mestredev/leitura-de-arquivos-csv-com-php-33819d78d03b
+  - type: ARTICLE
+    title: "Classe de upload de arquivos com PHP — Como criar"
+    link: https://marciioluucas.medium.com/criando-classe-de-upload-de-arquivos-com-php-40892cc63b78
+  - type: ARTICLE
+    title: "Como ler arquivos JSON muito grandes com PHP"
+    link: https://herisonassuncao.medium.com/como-ler-arquivos-json-muito-grandes-com-php-1a269f78a8c6
+  - type: YOUTUBE
+    title: "Marcelo Josué Telles: Como ler arquivos em PHP?"
+    link: https://www.youtube.com/watch?v=2SWBxr8BNtM
+  - type: YOUTUBE
+    title: "WDEV: Upload de arquivos com PHP orientado a objetos"
+    link: https://www.youtube.com/watch?v=bIAyp12FuQY
+alura-contents:
+  - type: SITE
+    title: "Upload de arquivos com PHP"
+    link: https://cursos.alura.com.br/extra/alura-mais/upload-de-arquivos-com-php-c205
+  - type: COURSE
+    title: "Curso PHP I/O: trabalhando com arquivos e streams"
+    link: https://cursos.alura.com.br/course/php-io-arquivos-streams

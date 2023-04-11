@@ -1,0 +1,31 @@
+name: Apollo Client
+logo: 
+short-description:
+key-objectives:
+  - Apollo Client é uma biblioteca abrangente de gerenciamento de estado para JavaScript que permite gerenciar dados locais e remotos com o GraphQL.
+  - Utilizar o Apollo para criar um servidor GraphQL
+  - Conectar com uma API
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação: Apollo Client (inglês)"
+    link: https://www.apollographql.com/docs/react/
+  - type: ARTICLE
+    title: "GraphQL hoje usando Apollo em aplicações que utilizam APIs REST"
+    link: https://imasters.com.br/apis-microsservicos/graphql-hoje-usando-apollo-em-aplicacoes-que-utilizam-apis-rest
+  - type: ARTICLE
+    title: "Consumindo API GraphQL usando React e Apollo Client"
+    link: https://dev.to/mensonones/consumindo-api-graphql-usando-react-e-apollo-client-4blo
+  - type: ARTICLE
+    title: "Apollo Client + Angular 7 : Configurando Apollo Client com o poderoso ng add"
+    link: https://medium.com/@gustavo93.lima/apollo-client-angular-7-configurando-apollo-client-com-o-poderoso-ng-add-a7788b63d4b3
+alura-contents:
+  - type: COURSE
+    title: "Curso GraphQL: construindo uma API com Apollo Server"
+    link: https://www.alura.com.br/curso-online-graphql-construindo-api-apollo-server
+  - type: COURSE
+    title: "Curso GraphQL: integração de dados e relacionamentos"
+    link: https://www.alura.com.br/curso-online-graphql-integracao-dados-relacionamentos
+  - type: COURSE
+    title: "Curso React: consumindo GraphQL com Apollo Client"
+    link: https://www.alura.com.br/curso-online-react-consumindo-graphql-apollo-client

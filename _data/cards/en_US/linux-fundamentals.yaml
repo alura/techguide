@@ -1,0 +1,36 @@
+name: Linux - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - Linux is a term popularly used to refer to operating systems that use the Linux Kernel. Distributions include the Linux Kernel as well as system software and libraries.
+  - Knowing the Linux directory system
+  - Compacting and uncompressing files
+  - Editing files in the console with VI
+  - Managing the processes running on the machine
+  - Knowing the environment variables and PATH
+  - Managing packages
+  - Performing remote communication with SSH and SCP
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Digital Ocean: An Introduction to Linux Basics"
+    link: https://www.digitalocean.com/community/tutorials/an-introduction-to-linux-basics
+  - type: SITE
+    title: "Ubuntu: The Linux command line for beginners"
+    link: https://ubuntu.com/tutorials/command-line-for-beginners#1-overview
+  - type: ARTICLE
+    title: "10 Linux Commands Every Developer and DevOps Should Learn"
+    link: https://medium.com/javarevisited/10-essential-linux-commands-every-developer-and-devops-should-know-9df39391aac7
+  - type: ARTICLE
+    title: "Useful Linux Commands — Files and Packages"
+    link: https://blog.devgenius.io/useful-linux-commands-files-and-packages-ccd80da6da2b
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: Introduction to Linux – Full Course for Beginners"
+    link: https://www.youtube.com/watch?v=sWbUDq4S6Y8
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: The 50 Most Popular Linux & Terminal Commands"
+    link: https://www.youtube.com/watch?v=ZtqBQ68cfJc
+  - type: COURSE
+    title: "MIT - The Missing Semester of Your CS Education (inglês)"
+    link: https://missing.csail.mit.edu/
+alura-contents:

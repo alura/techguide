@@ -1,0 +1,25 @@
+name: PHP - MVC
+logo: 
+short-description:
+key-objectives:
+  - Model-view-controller (MVC) é um padrão de arquitetura de software comumente usado para desenvolver interfaces de usuário que dividem a lógica do programa relacionado em três elementos interligados. Isto é feito para separar as representações internas de informação das formas como a informação é apresentada para o usuário.
+  - Entender o conceito do padrão MVC (Model-View-Controller)
+  - Separar as responsabilidades entre as camadas MVC
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Construindo um simples framework MVC com PHP"
+    link: https://medium.com/@jardelgoncalves/construindo-um-simples-framework-mvc-com-php-349e9cacbeb1
+  - type: ARTICLE
+    title: "MVC ¬ framework: usando a arquitetura sem código de terceiros"
+    link: https://medium.com/trainingcenter/mvc-framework-usando-a-arquitetura-sem-c%C3%B3digo-de-terceiros-bf95a744c66d
+  - type: YOUTUBE
+    title: "WDEV: MVC em PHP - Conceito e início do projeto"
+    link: https://www.youtube.com/watch?v=TmeyoTNu748&list=PL_zkXQGHYosGQwNkMMdhRZgm4GjspTnXs&index=1
+  - type: YOUTUBE
+    title: "Miriam TechCod: Aprenda MVC com PHP"
+    link: https://www.youtube.com/watch?v=dctNvYVwDtI&list=PLYGFJHWj9BYqyAxiT02orCWbta5lWsCCL&index=1
+alura-contents:
+  - type: COURSE
+    title: "Curso MVC com PHP: entenda o padrão Model-View-Controller"
+    link: https://cursos.alura.com.br/course/php-model-view-controller

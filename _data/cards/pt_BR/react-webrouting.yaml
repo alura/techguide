@@ -1,0 +1,30 @@
+name: React - Roteamento web
+logo: 
+short-description:
+key-objectives:
+  - Manipular a navegação entre interfaces e componentes
+aditional-objectives:
+  - React Router permite "roteamento do lado do cliente".
+contents:
+  - type: SITE
+    title: "Documentação: Divisão de Código Baseada em Rotas"
+    link: https://pt-br.reactjs.org/docs/code-splitting.html#route-based-code-splitting
+  - type: ARTICLE
+    title: "Roteamento no React com os poderes do React Router v4"
+    link: https://medium.com/collabcode/roteamento-no-react-com-os-poderes-do-react-router-v4-fbc191b9937d
+  - type: ARTICLE
+    title: "ReactJs: Manipulando rotas com react-router"
+    link: https://ateliware.com/blog/react-router
+  - type: ARTICLE
+    title: "Tutorial de React Router"
+    link: https://www.freecodecamp.org/portuguese/news/tutorial-de-react-router-como-usar-render-redirect-switch-link-e-mais-com-exemplos-de-codigo/
+  - type: YOUTUBE
+    title: "Kevin Beltrão: Rotas com React Router Dom"
+    link: https://www.youtube.com/watch?v=9pB_lwmLc74
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Como configurar o React Router para sua SPA"
+    link: https://www.youtube.com/watch?v=4Tb8dp5GYqI
+  - type: COURSE
+    title: "Curso React: conhecendo a biblioteca React Router"
+    link: https://www.alura.com.br/curso-online-react-biblioteca-react-router

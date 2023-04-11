@@ -1,0 +1,21 @@
+name: Python - args & kwargs
+logo: 
+short-description:
+key-objectives:
+  - The magic variables *args and **kwargs are commonly used in function definitions, and are used to pass an unknown number of arguments to a function.
+  - Understanding the difference between *args and **kwargs
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Real Python: Python args and kwargs demystified"
+    link: https://realpython.com/python-kwargs-and-args/
+  - type: SITE
+    title: "GeeksForGeeks: *args and **kwargs in Python"
+    link: https://www.geeksforgeeks.org/args-kwargs-python/
+  - type: YOUTUBE
+    title: "CodingEntrepreneurs: But what are Python *ARGS and **KWARGS?"
+    link: https://www.youtube.com/watch?v=GdSJAZDsCZA
+  - type: YOUTUBE
+    title: "John Watson Rooney: Why *ARGS and **KWARGS are Useful in Python"
+    link: https://www.youtube.com/watch?v=G7gZKANSmqk
+alura-contents:

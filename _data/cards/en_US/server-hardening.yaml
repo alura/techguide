@@ -1,0 +1,37 @@
+name: Server Hardening
+logo: 
+short-description:
+key-objectives:
+  - A proteção do servidor é um conjunto de disciplinas e técnicas que melhoram a segurança de um servidor 'em produção'. Hardening é um requisito de estruturas de segurança em diversos frameworks.
+contents:
+  - type: ARTICLE
+    title: "Introduction to Server Hardening"
+    link: https://medium.com/@gabu_b/introduction-to-server-hardening-cf6435d0accd
+  - type: SITE
+    title: "GeeksForGeeks: What is System Hardening?"
+    link: https://www.geeksforgeeks.org/what-is-system-hardening/
+  - type: ARTICLE
+    title: "Linux Server Hardening"
+    link: https://medium.com/@thefoursec/linux-server-hardening-e659db8ec689
+  - type: ARTICLE
+    title: "5 Steps to (Secure)Hardening"
+    link: https://saeedrz.medium.com/5-steps-to-hardening-your-server-centos-7-25e1851c8204
+  - type: ARTICLE
+    title: "Linux Hardening Guide"
+    link: https://madaidans-insecurities.github.io/guides/linux-hardening.html
+  - type: ARTICLE
+    title: "Server Architecture Security (Windows)"
+    link: https://medium.com/@jbrendan86/server-architecture-security-windows-2da580d58e62
+  - type: YOUTUBE
+    title: "Linode: Hardening Access to Your Server"
+    link: https://www.youtube.com/watch?v=eeaFoZlSq6I
+  - type: YOUTUBE
+    title: "Christian Lempa: How to protect Linux from Hackers"
+    link: https://www.youtube.com/watch?v=Bx_HkLVBz9M
+  - type: YOUTUBE
+    title: "INEtraining: Linux Security & Server Hardening - Linux PAM"
+    link: https://www.youtube.com/watch?v=N4DP68TK0AQ
+  - type: YOUTUBE
+    title: "IT Ops Talk: How to Harden Windows Server"
+    link: https://www.youtube.com/watch?v=HG_z_Q7LMlM&ab_channel=ITOpsTalk
+    

@@ -1,0 +1,28 @@
+name: PHP - Manipulação de Erros
+logo: 
+short-description:
+key-objectives:
+  - O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.
+  - Tratar exceções pré-definidas
+  - Uso de 'try' e 'catch'
+  - Criar exceções específicas
+  - Aprender sobre error handlers
+  - Fazer o processo de Debug
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação PHP - Exceções"
+    link: https://www.php.net/manual/pt_BR/language.exceptions.php
+  - type: ARTICLE
+    title: "Não vá dizer que Exception é o mesmo que Erro"
+    link: https://cristianounix.medium.com/n%C3%A3o-v%C3%A1-dizer-que-exception-%C3%A9-o-mesmo-que-erro-850ea83e72a
+  - type: YOUTUBE
+    title: "WDEV: Try, catch e finally - tratando exceptions com PHP"
+    link: https://www.youtube.com/watch?v=S-3-9UkVKi4
+  - type: YOUTUBE
+    title: "daves tecnologia: Tratamento de Erros em PHP"
+    link: https://www.youtube.com/watch?v=rSvtPN5F3sk
+alura-contents:
+  - type: COURSE
+    title: "Curso PHP Exceptions: tratamento de erros"
+    link: https://cursos.alura.com.br/course/php-exceptions-tratamento-erros

@@ -1,0 +1,46 @@
+name: PHP - Fundamentals
+logo: 
+short-description:
+key-objectives:
+  - PHP is a programming language that allows web developers to create dynamic content that interacts with databases. PHP is basically used for developing web based software applications.
+  - Knowing the primitive types
+  - Declaring variables, considering the different types
+  - Using conditional structures ('if', 'else')
+  - Knowing the comparison operators
+  - Using repetition structures and loops ('while', 'for')
+  - Using functions, passing parameters and arguments
+  - Manipulating methods
+  - Manipulating arrays and lists
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentation PHP"
+    link: https://www.php.net/manual/en/index.php
+  - type: SITE
+    title: "GeeksForGeeks: PHP | Introduction"
+    link: https://www.geeksforgeeks.org/php-introduction/
+  - type: SITE
+    title: "W3Schools: PHP Variables"
+    link: https://www.w3schools.com/php/php_variables.asp
+  - type: SITE
+    title: "W3Schools: PHP Strings"
+    link: https://www.w3schools.com/php/php_string.asp
+  - type: SITE
+    title: "W3Schools: PHP Operators"
+    link: https://www.w3schools.com/php/php_operators.asp
+  - type: SITE
+    title: "W3Schools: PHP if...else - Conditionals"
+    link: https://www.w3schools.com/php/php_if_else.asp
+  - type: SITE
+    title: "W3Schools: PHP Loops"
+    link: https://www.w3schools.com/php/php_looping.asp
+  - type: SITE
+    title: "W3Schools: PHP Functions"
+    link: https://www.w3schools.com/php/php_functions.asp
+  - type: YOUTUBE
+    title: "freeCodeCamp.org: PHP Programming Language Tutorial - Full Course"
+    link: https://www.youtube.com/watch?v=OK_JCtrrv-c
+  - type: YOUTUBE
+    title: "Traversy Media: PHP For Beginners | Crash Course"
+    link: https://www.youtube.com/watch?v=BUCiSSyIGGU
+alura-contents:

@@ -1,0 +1,66 @@
+name: PHP - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - PHP é uma linguagem de programação que permite aos desenvolvedores web criar conteúdo dinâmico que interage com bancos de dados. O PHP é basicamente usado para desenvolver aplicações de software baseadas na web.
+  - Conhecer os tipos primitivos
+  - Declarar variáveis
+  - Usar estruturas condicionais ('if', 'else')
+  - Conhecer os operadores de comparação ('=', '==', '===')
+  - Usar estruturas de repetição e laços ('while', 'for')
+  - Usar funções, passando parâmetros e argumentos
+  - Manipular arrays e listas
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação PHP"
+    link: https://www.php.net/manual/pt_BR/index.php
+  - type: ARTICLE
+    title: "Introdução ao PHP"
+    link: https://medium.com/caf%C3%A9-com-java/introdu%C3%A7%C3%A3o-ao-php-91472783da7c
+  - type: ARTICLE
+    title: "Guia prático do Modern PHP: desenvolvimento e ecossistema"
+    link: https://medium.com/@FernandoDebrand/guia-pr%C3%A1tico-do-modern-php-desenvolvimento-e-ecossistema-c9715184e463
+  - type: ARTICLE
+    title: "Curso de PHP Básico"
+    link: https://medium.com/walternascimentobarroso-pt/curso-de-php-b%C3%A1sico-fa984be7c9b9
+  - type: YOUTUBE
+    title: "Mjailton: O que é PHP ? Saiba tudo sobre esta Linguagem"
+    link: https://www.youtube.com/watch?v=va4WIzo211Y
+  - type: YOUTUBE
+    title: "Mjailton: Aprenda Como Rodar o PHP"
+    link: https://www.youtube.com/watch?v=xKkipZ133_s
+alura-contents:
+  - type: PODCAST
+    title: "Hipsters.tech: PHP não é coisa de sobrinho - Hipsters Ponto Tech 36"
+    link: https://cursos.alura.com.br/extra/hipsterstech/php-nao-e-coisa-de-sobrinho-hipsters-36-a550
+  - type: PODCAST
+    title: "Hipsters.tech: PHP8, Mudanças e Ecossistema - Hipsters Ponto Tech 241"
+    link: https://cursos.alura.com.br/extra/hipsterstech/php8-mudancas-e-ecossistema-hipsters-ponto-tech-241-a789
+  - type: YOUTUBE
+    title: "Alura: Ecossistema PHP | HipstersPontoTube"
+    link: https://www.youtube.com/watch?v=yD3BqXWHua4
+  - type: ARTICLE
+    title: "PHP - Uma Introdução à Linguagem"
+    link: https://www.alura.com.br/artigos/php-uma-introducao-linguagem
+  - type: ARTICLE
+    title: "Quando usar == ou === em php?"
+    link: https://www.alura.com.br/artigos/quando-usar-ou-em-php
+  - type: ARTICLE
+    title: "PHP: operação com números decimais"
+    link: https://www.alura.com.br/artigos/php-operacoes-com-numeros-decimais
+  - type: ARTICLE
+    title: "Trabalhando com arrays em PHP"
+    link: https://www.alura.com.br/artigos/trabalhando-com-arrays-em-php
+  - type: COURSE
+    title: "Formação PHP"
+    link: https://cursos.alura.com.br/formacao-linguagem-php
+  - type: COURSE
+    title: "Curso PHP: conceitos, lidando com dados, loops e mais"
+    link: https://cursos.alura.com.br/course/php-primeiros-passos
+  - type: COURSE
+    title: "Curso PHP: manipulando coleções com Arrays"
+    link: https://cursos.alura.com.br/course/php-manipulando-colecoes-arrays
+  - type: COURSE
+    title: "Curso PHP Strings: manipulando textos com PHP"
+    link: https://cursos.alura.com.br/course/php-strings-manipulando-textos-php

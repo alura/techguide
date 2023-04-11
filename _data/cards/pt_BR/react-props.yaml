@@ -1,0 +1,34 @@
+name: React - Props
+logo: 
+short-description:
+key-objectives:
+  - Props são um objeto que é injetado em componentes e fornece alguns dados que podem ser compartilhados entre outros componentes em um fluxo de dados unidirecional, de um elemento pai para um elemento filho. Props são de somente leitura.
+  - Como passar props
+  - Como manipular props
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "React: Documentação - Componentes e Props"
+    link: https://pt-br.reactjs.org/docs/components-and-props.html#gatsby-focus-wrapper
+  - type: SITE
+    title: "React: Documentação - Render Props"
+    link: https://pt-br.reactjs.org/docs/render-props.html#gatsby-focus-wrapper
+  - type: SITE
+    title: "MDN Web Docs: Começando com React - Variáveis e props"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#vari%C3%A1veis_e_props
+alura-contents:
+  - type: ARTICLE
+    title: "React: o que é, como funciona e um Guia dessa popular ferramenta JS"
+    link: https://www.alura.com.br/artigos/react-js
+  - type: SITE
+    title: "Primeiras aulas do curso React: abstraindo seu CSS com Styled Components"
+    link: https://www.alura.com.br/conteudo/react-styled-components
+  - type: COURSE
+    title: "Imersão React: AluraQuiz - Aula 02"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-2-linter-rotas-e-state-c34
+  - type: COURSE
+    title: "Curso React: abstraindo seu CSS com Styled Components"
+    link: https://www.alura.com.br/curso-online-react-styled-components
+  - type: COURSE
+    title: "Curso React: escrevendo com Typescript"
+    link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript
