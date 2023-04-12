@@ -165,7 +165,6 @@ function FAQQuestion({ title, answer }: any) {
         aria-controls={title}
         aria-expanded={isOpen ? "true" : "false"}
 
-        id="labelledby"
 
         id={faqId}
 
