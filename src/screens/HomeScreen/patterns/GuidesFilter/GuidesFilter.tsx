@@ -59,14 +59,16 @@ export function GuidesFilter({ filter, setFilter }: GuidesFilterProps) {
           md: "16px",
         },
       }}
+      role="tablist"
+      aria-orientation="horizontal"
     >
       {i18n.contentRaw("GUIDE.FILTERS").map(({ label, value }) => (
         <StyledText
           tag="label"
           className={filter === value ? "active" : ""}
-          key={value}
           tabIndex={0}
           htmlFor={`filterradio_${value}`}
+          key={value}
           onKeyPress={(event) => {
             if (event.key === "Enter" || event.key === " ")
               event.target.click();
@@ -89,6 +91,8 @@ export function GuidesFilter({ filter, setFilter }: GuidesFilterProps) {
               backgroundColor: "#34D5E3",
             },
           }}
+          role="tab"
+          aria-selected={filter === value ? true : false}
         >
           <Box
             id={`filterradio_${value}`}

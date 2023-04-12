@@ -50,6 +50,7 @@ export default function ScreenHeroContainer({
                 md: "5em 0",
               },
             }}
+            tag="section"
           >
             <Box
               styleSheet={{
@@ -75,6 +76,7 @@ export default function ScreenHeroContainer({
                 zIndex: "2",
                 width: "100%",
               }}
+              tag="article"
             >
               <HeroTitle />
               {children}

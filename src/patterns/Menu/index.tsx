@@ -14,6 +14,7 @@ export default function Menu() {
         color: "#FFFFFF",
         backgroundColor: "#080f1b",
       }}
+      tag="header"
     >
       <Box
         styleSheet={{

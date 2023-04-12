@@ -24,6 +24,7 @@ export default function FAQContentSection(props: FAQQuestionProps) {
         background: "#101926",
         justifyContent: "center",
       }}
+      tag="section"
     >
       <Box
         styleSheet={{
@@ -50,6 +51,7 @@ export default function FAQContentSection(props: FAQQuestionProps) {
           },
           justifyContent: "space-between",
         }}
+        tag="article"
       >
         <Box
           styleSheet={{
@@ -71,6 +73,7 @@ export default function FAQContentSection(props: FAQQuestionProps) {
               md: "flex-start",
             },
           }}
+          tag="header"
         >
           <Text
             styleSheet={{
