@@ -211,7 +211,6 @@ function FAQQuestion({ title, answer }: any) {
         aria-labelledby={faqId}
         aria-hidden={isOpen ? "false" : "true"}
         onFocus={() => setIsOpen(true)}
-        aria-labelledby="labelledby"
       >
         <Text
           styleSheet={{
