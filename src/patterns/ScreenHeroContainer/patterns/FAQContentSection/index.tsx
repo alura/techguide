@@ -164,10 +164,7 @@ function FAQQuestion({ title, answer }: any) {
         onClick={() => setIsOpen(!isOpen)}
         aria-controls={title}
         aria-expanded={isOpen ? "true" : "false"}
-
-
         id={faqId}
-
       >
         <Text>
           {title}
