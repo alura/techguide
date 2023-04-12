@@ -1,12 +1,15 @@
-name: Hardening Network Services
+name: Server Hardening
 logo: 
 short-description:
 key-objectives:
   - A proteção do servidor é um conjunto de disciplinas e técnicas que melhoram a segurança de um servidor 'em produção'. Hardening é um requisito de estruturas de segurança em diversos frameworks.
 contents:
   - type: ARTICLE
-    title: "Introdução a Hardening de Servidores"
-    link: https://medium.com/@gabu_b/introdu%C3%A7%C3%A3o-a-hardening-de-servidores-27570fc8597a
+    title: "Introduction to Server Hardening"
+    link: https://medium.com/@gabu_b/introduction-to-server-hardening-cf6435d0accd
+  - type: SITE
+    title: "GeeksForGeeks: What is System Hardening?"
+    link: https://www.geeksforgeeks.org/what-is-system-hardening/
   - type: ARTICLE
     title: "Linux Server Hardening"
     link: https://medium.com/@thefoursec/linux-server-hardening-e659db8ec689
@@ -14,23 +17,21 @@ contents:
     title: "5 Steps to (Secure)Hardening"
     link: https://saeedrz.medium.com/5-steps-to-hardening-your-server-centos-7-25e1851c8204
   - type: ARTICLE
-    title: "Como fazer o Hardening do seu servidor Linux"
-    link: https://phbols.medium.com/como-fazer-o-hardening-do-seu-servidor-linux-14b6f1b3499b
+    title: "Linux Hardening Guide"
+    link: https://madaidans-insecurities.github.io/guides/linux-hardening.html
   - type: ARTICLE
-    title: "SERVER ARCHITECTURE SECURITY"
+    title: "Server Architecture Security (Windows)"
     link: https://medium.com/@jbrendan86/server-architecture-security-windows-2da580d58e62
   - type: YOUTUBE
-    title: "Hardening Access to Your Server"
+    title: "Linode: Hardening Access to Your Server"
     link: https://www.youtube.com/watch?v=eeaFoZlSq6I
   - type: YOUTUBE
-    title: "How to protect Linux from Hackers"
+    title: "Christian Lempa: How to protect Linux from Hackers"
     link: https://www.youtube.com/watch?v=Bx_HkLVBz9M
   - type: YOUTUBE
-    title: "Linux PAM"
+    title: "INEtraining: Linux Security & Server Hardening - Linux PAM"
     link: https://www.youtube.com/watch?v=N4DP68TK0AQ
-  - type: COURSE
-    title: "Cyber Security Fundamentals & Skills"
-    link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/
-  - type: COURSE
-    title: "CSO infosec + Cyber Defense"
-    link: https://www.fiap.com.br/shift/imersao/tecnologia/cso-infosec-cyber-defense/
+  - type: YOUTUBE
+    title: "IT Ops Talk: How to Harden Windows Server"
+    link: https://www.youtube.com/watch?v=HG_z_Q7LMlM&ab_channel=ITOpsTalk
+    

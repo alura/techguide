@@ -1,0 +1,31 @@
+name: Hacker Techniques
+logo: 
+short-description:
+key-objectives:
+  - Understanding the methodologies and techniques attackers use to perform reconnaissance as a pre-attack step, including how they use open source intelligence, network scanning, and target enumeration attacks to find the gaps in their network security.
+  - Using attacker techniques to assess the security of a target network, evaluating popular protocols and endpoints for Windows, Linux, and cloud destinations.
+contents:
+  - type: SITE
+    title: "PTES"
+    link: http://www.pentest-standard.org/index.php/Main_Page
+  - type: SITE
+    title: "OWASP"
+    link: https://owasp.org
+  - type: SITE
+    title: "OSSTMM"
+    link: https://www.isecom.org/OSSTMM.3.pdf
+  - type: ARTICLE
+    title: "Penetration Testing Steps: Anatomy of a Successful Pentest"
+    link: https://www.securecoding.com/blog/penetration-testing-steps/
+  - type: ARTICLE
+    title: "My pentesting methodology (Enumeration)"
+    link: https://medium.com/@nclvnp/enumeration-1976c5d55b1b
+  - type: ARTICLE
+    title: "Password Cracking"
+    link: https://medium.com/rangeforce/password-cracking-6d9612915f03
+  - type: YOUTUBE
+    title: "Tech Xpress: How To Become A Hacker In 2023 | Step By Step Guide For Beginners"
+    link: https://www.youtube.com/watch?v=W6vcd2gJw3Q
+  - type: SITE
+    title: "Hack The Box: A Massive Hacking Playground"
+    link: https://www.hackthebox.com

@@ -1,8 +1,9 @@
-name: Hacker Mindset
+name: Técnicas Hacker
 logo: 
 short-description:
 key-objectives:
-  - Entender as metodologias e as técnicas que os invasores usam para realizar o reconhecimento como uma etapa de pré-ataque, incluindo como eles usam inteligência de código aberto, varredura de rede e ataques de enumeração de alvos para encontrar as lacunas na segurança de sua rede. Usar técnicas de invasores para avaliar a segurança de uma rede de destino, avaliando protocolos e endpoints populares para Windows, Linux e destinos de nuvem.
+  - Entender as metodologias e as técnicas que os invasores usam para realizar o reconhecimento como uma etapa de pré-ataque, incluindo como eles usam inteligência de código aberto, varredura de rede e ataques de enumeração de alvos para encontrar as lacunas na segurança de sua rede.
+  - Usar técnicas de invasores para avaliar a segurança de uma rede de destino, avaliando protocolos e endpoints populares para Windows, Linux e destinos de nuvem.
 contents:
   - type: SITE
     title: "PTES"
@@ -28,6 +29,7 @@ contents:
   - type: SITE
     title: "Hack The Box: A Massive Hacking Playground"
     link: https://www.hackthebox.com
+alura-contents:
   - type: COURSE
     title: "Cyber Security Fundamentals & Skills"
     link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/

@@ -1,0 +1,27 @@
+name: Cloud forensics
+logo: 
+short-description:
+key-objectives:
+  - Investigating data stored in the cloud can be a variety of approaches, from open source intelligence investigations (OSINT) to investigations of cloud accounts of participating individuals who disclose their login credentials (more often from victims and witnesses than suspects), to obtaining and analyzing collateral returns from cloud service providers to gain access to suspects' accounts.
+contents:
+  - type: ARTICLE
+    title: "Cloud Forensics Tools"
+    link: https://medium.com/@cloud_tips/cloud-forensics-788f0c8fe69c
+  - type: ARTICLE
+    title: "Cloud forensics"
+    link: https://kumarshivam-66534.medium.com/cloud-forensics-be18e14230de
+  - type: ARTICLE
+    title: "Digital Forensic Challenges In Cloud Computing"
+    link: https://medium.com/@frosky/digital-forensic-challenges-in-cloud-computing-part-1-c06301cbe174
+  - type: ARTICLE
+    title: "Overview of Cloud Forensics"
+    link: https://medium.com/sigma-xi-vit/overview-of-cloud-forensics-b928537791e6
+  - type: ARTICLE
+    title: "How to Think about Threat Detection"
+    link: https://medium.com/anton-on-security/how-to-think-about-threat-detection-in-the-cloud-1baff902afe5
+  - type: YOUTUBE
+    title: "Forensic Focus: Forensics In The Cloud - How To Conduct An Office 365 Investigation"
+    link: https://www.youtube.com/watch?v=wFjFjemaxmI
+  - type: YOUTUBE
+    title: "SANS Digital Forensics and Incident Response: Cloud Forensics & Incident Response Course"
+    link: https://www.youtube.com/watch?v=XoeuAVJwkQ8

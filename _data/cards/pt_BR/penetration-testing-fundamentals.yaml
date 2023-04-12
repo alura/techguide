@@ -2,14 +2,11 @@ name: Penetration Testing - Fundamentos
 logo: 
 short-description:
 key-objectives:
-  - Pentest é a prática de testar um sistema de computador, rede ou aplicativo da Web para encontrar vulnerabilidades que um invasor possa explorar, simulando um ataque contra os ativos de TI de uma organização.
+  - Pentest (Penetration Testing) é a prática de testar um sistema de computador, rede ou aplicativo da Web para encontrar vulnerabilidades que um invasor possa explorar, simulando um ataque contra os ativos de TI de uma organização.
 contents:
   - type: ARTICLE
     title: "What is Penetration Testing?"
     link: https://medium.com/edureka/what-is-penetration-testing-f91668e2291a
-  - type: SITE
-    title: "Penetration Testing"
-    link: https://infosecwriteups.com/tagged/penetration-testing
   - type: ARTICLE
     title: "From Zero to your first Penetration Test"
     link: https://medium.com/hootsuite-engineering/penetration-testing-d887d081c5c5
@@ -28,6 +25,7 @@ contents:
   - type: YOUTUBE
     title: "Qual a diferença entre Pentest e Bug Bounty?"
     link: https://www.youtube.com/watch?v=ee4Yw8SNvis
+alura-contents:
   - type: COURSE
     title: "Cyber Security Fundamentals & Skills"
     link: https://www.fiap.com.br/shift/curso/tecnologia/cyber-security-fundamentals-e-skills-online/

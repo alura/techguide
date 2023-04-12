@@ -1,0 +1,113 @@
+name: Cybersecurity
+tags: 
+  - infosec
+expertise:
+  - name: Cybersecurity Jr
+    cards:
+      - cryptography-fundamentals:
+        priority: 10
+      - cybersecurity-framework:
+        priority: 10
+      - hacker-techniques:
+        priority: 9
+      - vulnerability-assessments:
+        priority: 9
+      - firewalls-ids-ips:
+        priority: 8
+      - digital-investigation-fundamentals:
+        priority: 8
+      - password-attack:
+        priority: 8
+      - open-source-intelligence:
+        priority: 7
+      - security-operations-center:
+        priority: 7
+      - penetration-testing-fundamentals:
+        priority: 7
+  - name: Cybersecurity Mid
+    cards:
+      - endpoint-security:
+        priority: 10
+      - metasploit-attack-analysis:
+        priority: 10
+      - web-application-security:
+        priority: 9
+      - web-application-vulnerability:
+        priority: 10
+      - mobile-device-management:
+        priority: 9
+      - siem-soar:
+        priority: 9
+      - server-hardening:
+        priority: 8
+      - cloud-forensics:
+        priority: 8
+      - data-recovery:
+        priority: 8
+      - container-security:
+        priority: 7
+      - memory-forensics:
+        priority: 7
+      - network-forensics:
+        priority: 7
+      - powershell-scripting-for-security:
+        priority: 7
+  - name: Cybersecurity in depth
+    cards:
+      - network-security-architecture:
+        priority: 10
+      - threat-hunting:
+        priority: 10
+      - physical-security:
+        priority: 9
+      - incident-response-management:
+        priority: 9
+      - malware-analysis:
+        priority: 8
+      - software-application-security:
+        priority: 8
+      - zero-trust-architecture:
+        priority: 7
+      - cloud-security:
+        priority: 7
+      - continuous-security-automation-and-monitoring:
+        priority: 7
+collaboration:
+  - name: Systems and technologies
+    cards:
+      - python-fundamentals:
+        priority: 10
+      - computer-networks-fundamentals:
+        priority: 9
+      - http-fundamentals:
+        priority: 9
+     # - iot-fundamentals:
+     #   priority: 9
+     # - web-communication-fundamentals:
+     #   priority: 8
+      - cloud-fundamentals:
+        priority: 8
+     # - windows-fundamentals:
+     #   priority: 7
+      - command-line-fundamentals:
+        priority: 7
+      - linux-fundamentals:
+        priority: 7
+  - name: Information Security
+    cards:
+      - risk-threats-and-vulnerability-management:
+        priority: 10
+      - confidentiality-integrity-and-availability:
+        priority: 10
+      - identity-and-access-management:
+        priority: 9
+     # - introduction-digital-forensics:
+     #   priority: 9
+     # - incident-handling-fundamentals:
+     #   priority: 8
+      - security-awareness: 
+        priority: 8
+      - data-protection: 
+        priority: 7
+      - authentication-and-password-security:
+        priority: 7
