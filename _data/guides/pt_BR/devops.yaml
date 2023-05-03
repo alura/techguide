@@ -1,0 +1,79 @@
+name: DevOps
+tags: 
+  - devops
+expertise:
+  - name: DevOps jr
+    cards:
+      - linux-onbording:
+        priority: 10
+      - git-and-github-fundamentals:
+        priority: 10  
+      - http-fundamentals:
+        priority: 9
+      - command-line-fundamentals:
+        priority: 7
+      - cloud-fundamentals:
+        priority: 9
+      - scripting:
+        priority: 9  
+  - name: DevOps mid
+    cards:
+      - containers:
+        priority: 9 
+      - infra-as-code:
+        priority: 8
+      - ci-cd:
+        priority: 8
+      - network-fundamentals:
+        priority: 8
+      - sql-fundamentals:
+        priority: 7
+  - name: DevOps in depth
+    cards:
+      - sre:
+        priority: 8
+      - microservices:
+        priority: 8
+      - firewalls-ids-ips:
+        priority: 7
+      - iot-fundamentals:
+        priority: 6
+        optional: true
+collaboration:
+  - name: Back-end
+    cards:
+      - oop-concepts:
+        priority: 9
+      - json:
+        priority: 7
+      - design-patterns: 
+        priority: 6
+        optional:
+      - python-fundamentals:
+        priority: 7
+        optional: true
+      - java-fundamentals:
+        priority: 7
+        optional: true
+      - javascript-fundamentals: 
+        priority: 7
+        optional: true
+      - php-fundamentals: 
+        priority: 7
+        optional: true
+      - csharp-fundamentals:
+        priority: 7
+        optional: true
+  - name: Front-end
+    cards:
+      - html-fundamentals:
+        priority: 10
+      - css-fundamentals:
+        priority: 9
+      - dom-fundamentals:
+        priority: 8
+      - javascript-accessibility:
+        priority: 7
+      - seo-strategies:
+        priority: 6
+        optional: true
