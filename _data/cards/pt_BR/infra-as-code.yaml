@@ -12,49 +12,49 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: ARTICLE
-    title: O que é infraestrutura como código (IaC)?
+    title: "O que é infraestrutura como código (IaC)?"
     link: https://www.redhat.com/pt-br/topics/automation/what-is-infrastructure-as-code-iac
   - type: YOUTUBE
-    title: Infrastructure as code (IAC) - Você sabe o que é ?
+    title: "Infrastructure as code (IAC) - Você sabe o que é ?"
     link: https://www.youtube.com/watch?v=qd9hrsN0w2A
   - type: YOUTUBE
-    title: What is Infrastructure as Code?
+    title: "What is Infrastructure as Code?"
     link: https://www.youtube.com/watch?v=zWw2wuiKd5o
   - type: YOUTUBE
-    title: Infra-as-code com AWS CloudFormation e CDK
+    title: "Infra-as-code com AWS CloudFormation e CDK"
     link: https://www.youtube.com/watch?v=GdQ0E-wyNO0
   - type: YOUTUBE
-    title: Terraform em 10 Minutos // Dicionário do Programador
+    title: "Terraform em 10 Minutos // Dicionário do Programador"
     link: https://www.youtube.com/watch?v=0EAjJe8aPkc
 alura-contents:
   - type: ARTICLE
-    title: Conhecendo o Terraform
+    title: "Conhecendo o Terraform"
     link: https://www.alura.com.br/artigos/conheca-o-terraform
   - type: ARTICLE
-    title: GitOps: o que é?
+    title: "GitOps: o que é?"
     link: https://www.alura.com.br/artigos/o-que-e-git-ops
   - type: ARTICLE
-    title: Criando o primeiro ambiente com o Terraform
+    title: "Criando o primeiro ambiente com o Terraform"
     link: https://www.alura.com.br/artigos/criando-o-primeiro-ambiente-com-terraform
   - type: ARTICLE
-    title: Terraform: criando máquinas na Azure
+    title: "Terraform: criando máquinas na Azure"
     link: https://www.alura.com.br/artigos/terraform-maquinas-na-azure
   - type: COURSE
-    title: Infraestrutura como código: preparando máquinas na AWS com Ansible e Terraform
+    title: "Infraestrutura como código: preparando máquinas na AWS com Ansible e Terraform"
     link: https://cursos.alura.com.br/course/infraestrutura-codigo-maquinas-aws-ansible-terraform
   - type: COURSE
-    title: Infraestrutura como código: separando ambientes na AWS com Ansible e Terraform
+    title: "Infraestrutura como código: separando ambientes na AWS com Ansible e Terraform"
     link: https://cursos.alura.com.br/course/infraestrutura-codigo-aws-ansible-terraform
   - type: COURSE
-    title: Infraestrutura como código: montando uma infraestrutura elástica na AWS
+    title: "Infraestrutura como código: montando uma infraestrutura elástica na AWS"
     link: https://cursos.alura.com.br/course/infraestrutura-codigo-infraestrutura-elastica-aws
   - type: COURSE
-    title: Infraestrutura como código: Docker e Elastic Beanstalk na AWS
+    title: "Infraestrutura como código: Docker e Elastic Beanstalk na AWS"
     link: https://cursos.alura.com.br/course/infraestrutura-codigo-docker-elastic-beanstalk-aws
   - type: COURSE
-    title: Infraestrutura como código: Terraform, Docker e Elastic Container Service
+    title: "Infraestrutura como código: Terraform, Docker e Elastic Container Service"
     link: https://cursos.alura.com.br/course/infraestrutura-codigo-terraform-docker-elastic-container-service-aws
   - type: COURSE
-    title: Infraestrutura como código: Terraform e Kubernetes
+    title: "Infraestrutura como código: Terraform e Kubernetes"
     link: https://cursos.alura.com.br/course/infraestrutura-codigo-terraform-kubernetes
 
