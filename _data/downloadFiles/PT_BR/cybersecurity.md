@@ -87,6 +87,11 @@
    - Funções anônimas
 - [ ] **Redes de Computadores - Fundamentos**:
    - Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.
+   - Configurações de redes são essenciais para que seja possível acessar uma aplicação, principalmente se ela estiver na nuvem.
+   - Entenda melhor os componentes de rede e a suas atribuições
+   - Diferenciar os serviços disponibilizados a nível de rede
+   - Saber as diferenças entre as camadas de rede
+   - Saber o que é servidor web, proxy reverso e load balancer
 - [ ] **HTTP - Fundamentos**:
    - HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.
    - Entender a diferença dos verbos HTTP

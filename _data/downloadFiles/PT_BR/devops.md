@@ -35,8 +35,9 @@
    - Especializar-se em algum provedor
 - [ ] **Montando Scripts**:
    - Automatizar tarefas repetitivas utilizando as linguagens disponibilizadas pelo terminal.
-   - Criação de tarefas com execução automatica.
-   - Automatizar a configuração e intalação de aplicações em novos sistemas.
+   - Criação de tarefas com execução automática
+   - Automatizar a configuração e instalação de aplicações em novos sistemas
+   - Usar o PowerShell
 ## Nivel 2
 - [ ] **Contêineres**:
    - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente.
@@ -46,25 +47,27 @@
    - Modularizar seu sistema em pacotes menores
    - Conhecer a plataforma Docker
    - Conhecer Kubernetes
-- [ ] **Infraestrutura como código**:
-   - A infraestrutura como código permite com que seja criada e configurada toda a infraestrutura de uma aplicação de maneira automatica.
-   - existem muitas ferramentas atualmente que tem a função de preparar uma infraestrutura atravez de código, porem algumas estão se destacando cada vez mais, principalmente o Terraform e o Ansible.
-   - Descrever a infraestrutura atual e criar a sua documentação.
-   - Atualizar a infraestrutura de maneira automatica.
-   - Configurar maquinas e serviços sem utilização de paineis proprietarios dos sistemas de cloud.
-   - Conhecer o Ansible.
-   - Conhecer o Terraform.
-- [ ] **Integração e Entrega Continua**:
+- [ ] **Infraestrutura como código (IaC)**:
+   - A infraestrutura como código permite com que seja criada e configurada toda a infraestrutura de uma aplicação de maneira automática.
+   - Existem muitas ferramentas que têm a função de preparar uma infraestrutura atravez de código, porém algumas se destacam cada vez mais, principalmente o Terraform e o Ansible
+   - Descrever a infraestrutura atual e criar a sua documentação
+   - Atualizar a infraestrutura de maneira automatica
+   - Configurar maquinas e serviços sem utilização de paineis proprietarios dos sistemas de cloud
+   - Conhecer o Ansible
+   - Conhecer o Terraform
+- [ ] **Entrega e integração contínuas (CI/CD)**:
+   - CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português "entrega e integração contínuas". Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.
    - Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, ja que assim é possivel acelerar o desenvolvimento e diminiur o tempo de entrega de software.
    - Executar testes automatizados da aplicação para verificar seu funcionamento.
    - Realizar a entrega de atualizações de forma automatica e com segurança.
    - Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.
-- [ ] **Redes**:
-   - Configurações de redes são exenciais para que seja possivel acessar uma aplicação, principalmente se ela estiver no cloud.
-   - Entenda melhor os componentes de rede e a suas atribuições.
-   - Diferenciar os servisos disponibilizados a nivel de rede.
-   - Saber as diferenças entre as camadas de rede.
-   - Saber o que é servidor web, proxy reverso e load balancer.
+- [ ] **Redes de Computadores - Fundamentos**:
+   - Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.
+   - Configurações de redes são essenciais para que seja possível acessar uma aplicação, principalmente se ela estiver na nuvem.
+   - Entenda melhor os componentes de rede e a suas atribuições
+   - Diferenciar os serviços disponibilizados a nível de rede
+   - Saber as diferenças entre as camadas de rede
+   - Saber o que é servidor web, proxy reverso e load balancer
 - [ ] **SQL - Fundamentos**:
    - SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.
    - Conhecer os comandos mais comuns do SQL
@@ -75,10 +78,10 @@
    - Usar JOIN para conectar os dados de múltiplas tabelas
    - Conhecer as cláusulas (FROM, ORDER BY, etc)
 ## Nivel 3
-- [ ] **Observabilidade**:
-   - Nos dias atuais saber o que o seu software esta fazendo, e mais importante, se os clientes estão conseguindo acessa-lo e utiliza-lo, é de vital importancia, e para isso que temos a observabilidade e o SRE.
-   - Colete metricas sobre a saude da aplicação e da maquina em que ela se encontra.
-   - Monte dashboards para analizar todas as infromações coletadas.
+- [ ] **Engenharia de Confiabilidade de Sites (SRE)**:
+   - A Engenharia de Confiabilidade de Sites (SRE) é a prática de usar ferramentas de software para automatizar tarefas de infraestrutura de TI, como gerenciamento de sistemas e monitoramento de aplicativos.
+   - Coletar métricas sobre a sáude da aplicação e da máquina em que ela se encontra
+   - Montar dashboards para analisar todas as informações coletadas
 - [ ] **Arquitetura de Microsserviços**:
    - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
    - Aprender o conceito de arquitetura planejada para microsserviços
@@ -210,9 +213,6 @@
    - Inserir um novo elemento na árvore
    - Remover um elemento da árvore
    - Esperar por um evento em certo elemento da página usando 'addEventListener()'
-- [ ] **Acessibilidade em Javascript**:
-   - Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e portais sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas.
-   - Escrever código com acessibilidade em mente
 - [ ] **Estratégias de SEO**:
    - SEO significa otimização para motores de busca e que diz respeito as estratégias usadas para ranquear um site dentro de mecanismos de busca como o Yahoo, o Bing e, claro, o mais famoso de todos, o Google.
    - Escolher palavras-chave
