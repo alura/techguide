@@ -3,15 +3,19 @@ logo:
 short-description:
 key-objectives:
   - Automatizar tarefas repetitivas utilizando as linguagens disponibilizadas pelo terminal.
-  - Criação de tarefas com execução automatica.
-  - Automatizar a configuração e intalação de aplicações em novos sistemas.
+  - Criação de tarefas com execução automática
+  - Automatizar a configuração e instalação de aplicações em novos sistemas
+  - Usar o PowerShell
 aditional-objectives:
 contents:
   - type: ARTICLE
     title: "O que é shell script"
     link: https://diolinux.com.br/tecnologia/o-que-e-shell-script.html
   - type: YOUTUBE
-    title: "you need to learn BASH Scripting RIGHT NOW!! // EP 1"
+    title: "Lucas Caton: Como criar scripts no Linux e no macOS"
+    link: https://www.youtube.com/watch?v=SPwyp2NG-bE
+  - type: YOUTUBE
+    title: "NetworkChuck: BASH Scripting"
     link: https://www.youtube.com/watch?v=SPwyp2NG-bE
 alura-contents:
   - type: ARTICLE

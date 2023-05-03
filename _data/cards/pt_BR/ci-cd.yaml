@@ -1,7 +1,8 @@
-name: Integração e Entrega Continua
+name: Entrega e integração contínuas (CI/CD)
 logo: 
 short-description:
 key-objectives:
+  - CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português "entrega e integração contínuas". Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.
   - Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, ja que assim é possivel acelerar o desenvolvimento e diminiur o tempo de entrega de software.
   - Executar testes automatizados da aplicação para verificar seu funcionamento.
   - Realizar a entrega de atualizações de forma automatica e com segurança.
@@ -15,7 +16,7 @@ contents:
     title: "Sobre integração contínua"
     link: https://docs.github.com/pt/actions/automating-builds-and-tests/about-continuous-integration
   - type: YOUTUBE
-    title: "Pipeline (CD/CI) // Dicionário do Programador"
+    title: "Código Fonte TV: Pipeline (CD/CI) | Dicionário do Programador"
     link: https://www.youtube.com/watch?v=AZtTd3pFVTY
 alura-contents:
   - type: ARTICLE
@@ -34,10 +35,10 @@ alura-contents:
     title: "Testes Automatizados"
     link: https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535
   - type: COURSE
-    title: "https://cursos.alura.com.br/course/desenvolvimento-software-integracao-continua"
+    title: "Curso Integração Contínua: mais qualidade e menos risco no desenvolvimento"
     link: https://cursos.alura.com.br/course/desenvolvimento-software-integracao-continua
   - type: COURSE
-    title: "Entrega Contínua: confiabilidade e qualidade na implantação de software"
+    title: "Curso Entrega Contínua: confiabilidade e qualidade na implantação de software"
     link: https://cursos.alura.com.br/course/entrega-continua-confiabilidade-qualidade
   - type: COURSE
     title: "Formação: Integração Contínua e Entrega Contínua"

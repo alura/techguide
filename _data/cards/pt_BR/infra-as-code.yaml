@@ -1,30 +1,30 @@
-name: Infraestrutura como código
+name: Infraestrutura como código (IaC)
 logo: 
 short-description:
 key-objectives:
-  - A infraestrutura como código permite com que seja criada e configurada toda a infraestrutura de uma aplicação de maneira automatica.
-  - existem muitas ferramentas atualmente que tem a função de preparar uma infraestrutura atravez de código, porem algumas estão se destacando cada vez mais, principalmente o Terraform e o Ansible.
-  - Descrever a infraestrutura atual e criar a sua documentação.
-  - Atualizar a infraestrutura de maneira automatica.
-  - Configurar maquinas e serviços sem utilização de paineis proprietarios dos sistemas de cloud.
-  - Conhecer o Ansible.
-  - Conhecer o Terraform.
+  - A infraestrutura como código permite com que seja criada e configurada toda a infraestrutura de uma aplicação de maneira automática.
+  - Existem muitas ferramentas que têm a função de preparar uma infraestrutura atravez de código, porém algumas se destacam cada vez mais, principalmente o Terraform e o Ansible
+  - Descrever a infraestrutura atual e criar a sua documentação
+  - Atualizar a infraestrutura de maneira automatica
+  - Configurar maquinas e serviços sem utilização de paineis proprietarios dos sistemas de cloud
+  - Conhecer o Ansible
+  - Conhecer o Terraform
 aditional-objectives:
 contents:
   - type: ARTICLE
     title: "O que é infraestrutura como código (IaC)?"
     link: https://www.redhat.com/pt-br/topics/automation/what-is-infrastructure-as-code-iac
   - type: YOUTUBE
-    title: "Infrastructure as code (IAC) - Você sabe o que é ?"
+    title: "Sobrinho de TI: Infrastructure as code (IAC) - Você sabe o que é?"
     link: https://www.youtube.com/watch?v=qd9hrsN0w2A
   - type: YOUTUBE
-    title: "What is Infrastructure as Code?"
+    title: "IBM Technology: What is Infrastructure as Code? (inglês)"
     link: https://www.youtube.com/watch?v=zWw2wuiKd5o
   - type: YOUTUBE
-    title: "Infra-as-code com AWS CloudFormation e CDK"
+    title: "Um Inventor Qualquer: Infra-as-code com AWS CloudFormation e CDK"
     link: https://www.youtube.com/watch?v=GdQ0E-wyNO0
   - type: YOUTUBE
-    title: "Terraform em 10 Minutos // Dicionário do Programador"
+    title: "Código Fonte TV: Terraform em 10 Minutos | Dicionário do Programador"
     link: https://www.youtube.com/watch?v=0EAjJe8aPkc
 alura-contents:
   - type: ARTICLE
@@ -40,21 +40,20 @@ alura-contents:
     title: "Terraform: criando máquinas na Azure"
     link: https://www.alura.com.br/artigos/terraform-maquinas-na-azure
   - type: COURSE
-    title: "Infraestrutura como código: preparando máquinas na AWS com Ansible e Terraform"
+    title: "Curso Infraestrutura como código: preparando máquinas na AWS com Ansible e Terraform"
     link: https://cursos.alura.com.br/course/infraestrutura-codigo-maquinas-aws-ansible-terraform
   - type: COURSE
-    title: "Infraestrutura como código: separando ambientes na AWS com Ansible e Terraform"
+    title: "Curso Infraestrutura como código: separando ambientes na AWS com Ansible e Terraform"
     link: https://cursos.alura.com.br/course/infraestrutura-codigo-aws-ansible-terraform
   - type: COURSE
-    title: "Infraestrutura como código: montando uma infraestrutura elástica na AWS"
+    title: "Curso Infraestrutura como código: montando uma infraestrutura elástica na AWS"
     link: https://cursos.alura.com.br/course/infraestrutura-codigo-infraestrutura-elastica-aws
   - type: COURSE
-    title: "Infraestrutura como código: Docker e Elastic Beanstalk na AWS"
+    title: "Curso Infraestrutura como código: Docker e Elastic Beanstalk na AWS"
     link: https://cursos.alura.com.br/course/infraestrutura-codigo-docker-elastic-beanstalk-aws
   - type: COURSE
-    title: "Infraestrutura como código: Terraform, Docker e Elastic Container Service"
+    title: "Curso Infraestrutura como código: Terraform, Docker e Elastic Container Service"
     link: https://cursos.alura.com.br/course/infraestrutura-codigo-terraform-docker-elastic-container-service-aws
   - type: COURSE
-    title: "Infraestrutura como código: Terraform e Kubernetes"
+    title: "Curso Infraestrutura como código: Terraform e Kubernetes"
     link: https://cursos.alura.com.br/course/infraestrutura-codigo-terraform-kubernetes
-

@@ -2,9 +2,9 @@ name: DevOps
 tags: 
   - devops
 expertise:
-  - name: DevOps jr
+  - name: DevOps Jr
     cards:
-      - linux-onbording:
+      - linux-fundamentals:
         priority: 10
       - git-and-github-fundamentals:
         priority: 10  
@@ -16,7 +16,7 @@ expertise:
         priority: 9
       - scripting:
         priority: 9  
-  - name: DevOps mid
+  - name: DevOps Mid
     cards:
       - containers:
         priority: 9 
@@ -24,7 +24,7 @@ expertise:
         priority: 8
       - ci-cd:
         priority: 8
-      - network-fundamentals:
+      - computer-networks-fundamentals:
         priority: 8
       - sql-fundamentals:
         priority: 7
@@ -72,8 +72,15 @@ collaboration:
         priority: 9
       - dom-fundamentals:
         priority: 8
-      - javascript-accessibility:
-        priority: 7
       - seo-strategies:
         priority: 6
         optional: true
+faq:
+  - title: "O que é o TechGuide.sh?"
+    answer: "O TechGuide.sh é uma iniciativa da Alura para mapear as necessidades mais comuns em cada profissional de tecnologia, direcionando tanto alunos e alunas quanto a própria escola com novos cursos, conteúdos, podcasts e artigos. Nós seguimos a abordagem do profissional em T, sendo um guia norteador e abrindo mais possibilidades de caminhos, ordem de aprendizado e os motivos de aprender cada um dos itens (cards) em um guia."
+  - title: "O que é DevOps?"
+    answer: "DevOps é um conjunto de práticas, ferramentas e uma filosofia que visa automatizar e integrar os processos entre as equipes de desenvolvimento de software e de TI. Ele enfatiza a capacitação da equipe, a colaboração entre equipes e a automação tecnológica."
+  - title: "Preciso conhecer todas essas linguagens da seção Back-end?"
+    answer: "Não. Elas estão marcados como opcionais, mas você precisará conhecer pelo menos alguma delas."
+  - title: "Preciso aprender Front-end?"
+    answer: "Front-end é útil em DevOps para algumas aplicações, como configuração de ferramentas de empacotamento de módulos, instalação e configurações de CI/CD, empacotamento de aplicações para teste ou produção, versionamento e lançamento do aplicações, configuração e gerenciamento da infraestrutura, monitoramento do desempenho da aplicação, etc."

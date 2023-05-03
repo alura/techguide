@@ -65,7 +65,7 @@ export default {
     {
       "title": "01 - O que é o TechGuide.sh?",
       "answer":
-        "O TechGuide.sh é uma iniciativa da Alura para mapear as necessidades mais comuns em cada profissional de tecnologia, direcionando tanto alunos e alunas quanto a própria escola com novos cursos, conteúdos, podcasts e artigos. Nós seguimos a abordagem do profissional em T, abrindo mais possibilidades de caminhos e ordenação. Também queremos ter mais descritivos explicando o por quê de aprender cada um daqueles itens (cards) e fechar mais o escopo de cada um."
+        "O TechGuide.sh é uma iniciativa da Alura para mapear as necessidades mais comuns em cada profissional de tecnologia, direcionando tanto alunos e alunas quanto a própria escola com novos cursos, conteúdos, podcasts e artigos. Nós seguimos a abordagem do profissional em T, sendo um guia norteador e abrindo mais possibilidades de caminhos, ordem de aprendizado e os motivos de aprender cada um dos itens (cards) em um guia."
     },
     {
       "title": "02 - O que é o profissional em T?",

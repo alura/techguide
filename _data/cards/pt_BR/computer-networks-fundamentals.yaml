@@ -3,28 +3,34 @@ logo:
 short-description:
 key-objectives:
   - Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.
+  - Configurações de redes são essenciais para que seja possível acessar uma aplicação, principalmente se ela estiver na nuvem.
+  - Entenda melhor os componentes de rede e a suas atribuições
+  - Diferenciar os serviços disponibilizados a nível de rede
+  - Saber as diferenças entre as camadas de rede
+  - Saber o que é servidor web, proxy reverso e load balancer
+aditional-objectives:
 contents:
-  - type: ARTICLE
-    title: "Redes: Modelo de referência OSI"
-    link: https://pedrompinto.medium.com/redes-modelo-de-refer%C3%AAncia-osi-827cbd67e882
+  - type: SITE
+    title: "IBM: Conceitos de rede e comunicação"
+    link: https://www.ibm.com/docs/pt-br/aix/7.3?topic=management-network-communication-concepts
+  - type: SITE
+    title: "AWS: O que são redes de computadores?"
+    link: https://aws.amazon.com/pt/what-is/computer-networking/
+  - type: SITE
+    title: "Red Hat: O que é gerenciamento de rede?"
+    link: https://www.redhat.com/pt-br/topics/management/what-is-network-management
   - type: ARTICLE
     title: "Redes de Computadores — Sabendo o básico — Intro"
     link: https://medium.com/code-breaker/redes-de-computadores-sabendo-o-b%C3%A1sico-intro-1a7d5653e118
   - type: ARTICLE
-    title: "Entendendo IP, CIDR Blocks e Subnets"
-    link: https://medium.com/rpedroni/entendendo-ip-cidr-blocks-e-subnets-818706742779
-  - type: ARTICLE
     title: "O protocolo TCP/IP"
     link: https://joaomarcuraa.medium.com/o-protocolo-tcp-ip-1dc2cdb88b07
   - type: YOUTUBE
+    title: "Código Fonte TV: IP (Entenda finalmente como funciona o IPv4 e o IPv6) | Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=O8DmpmBMUSw
+  - type: YOUTUBE
     title: "Rede de Computadores - Animação em 3D"
     link: https://www.youtube.com/watch?v=Iqcp3k8DgGw
-  - type: YOUTUBE
-    title: "Cisco Packet Tracer - Parte 1"
-    link: https://www.youtube.com/watch?v=AEvZ9A-dJP8
-  - type: YOUTUBE
-    title: "O que é um analisador de pacotes (Wireshark)?"
-    link: https://www.youtube.com/watch?v=6yxtKx6Bhl8
   - type: COURSE
     title: "Enterprise Networking, Security, and Automation"
     link: https://www.netacad.com/pt-br/courses/networking/ccna-enterprise-networking-security-automation
@@ -34,3 +40,43 @@ contents:
   - type: COURSE
     title: "Introduction to Networks"
     link: https://www.netacad.com/pt-br/courses/networking/ccna-introduction-networks
+alura-contents:
+  - type: ARTICLE
+    title: "Conhecendo algumas topologias de rede"
+    link: https://www.alura.com.br/artigos/conhecendo-algumas-topologias-de-rede
+  - type: ARTICLE
+    title: "Como calcular máscaras de sub-rede de forma simples"
+    link: https://www.alura.com.br/artigos/como-calcular-mascaras-de-sub-rede
+  - type: ARTICLE
+    title: "Entendendo os padrões de Wi-Fi"
+    link: https://www.alura.com.br/artigos/entendendo-os-padroes-de-wi-fi
+  - type: ARTICLE
+    title: "Diferenças entre Hubs e Switches"
+    link: https://www.alura.com.br/artigos/diferencas-entre-hubs-e-switches
+  - type: ARTICLE
+    title: "Entendendo os cabos de rede"
+    link: https://www.alura.com.br/artigos/entendendo-os-cabos-de-rede
+  - type: ARTICLE
+    title: "SSH, Telnet e as diferenças para conectar em um servidor"
+    link: https://www.alura.com.br/artigos/entendendo-as-diferencas-entre-telnet-e-ssh
+  - type: COURSE
+    title: "Redes onboarding: uma perspectiva prática"
+    link: https://cursos.alura.com.br/course/redes-onboarding-rede-forma-pratica
+  - type: COURSE
+    title: "Redes parte 1: conceitos e prática"
+    link: https://cursos.alura.com.br/course/redes-introducao
+  - type: COURSE
+    title: "Redes parte 2: montando um projeto do cliente até o provedor de serviços"
+    link: https://cursos.alura.com.br/course/redes-montando-um-projeto-cliente-ate-o-provedor
+  - type: COURSE
+    title: "Redes parte 3: defina as listas de controle e políticas de acesso de usuários"
+    link: https://cursos.alura.com.br/course/redes-parte-3-aplicando-acl-e-configuracao-nat
+  - type: COURSE
+    title: "Redes parte 4: configuração de protocolos de roteamento e IPv6"
+    link: https://cursos.alura.com.br/course/redes-parte-4-configuracao-de-protocolos-de-roteamento-ipv6
+  - type: COURSE
+    title: "Redes parte 5: Wi-FI"
+    link: https://cursos.alura.com.br/course/redes-wifi
+  - type: COURSE
+    title: "NGINX: servidor Web, Proxy Reverso e API Gateway"
+    link: https://cursos.alura.com.br/course/nginx-servidor-web-proxy-reverso-api-gateway
