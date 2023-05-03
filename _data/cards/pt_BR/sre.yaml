@@ -1,0 +1,56 @@
+name: Observabilidade
+logo: 
+short-description:
+key-objectives:
+  - Nos dias atuais saber o que o seu software esta fazendo, e mais importante, se os clientes estão conseguindo acessa-lo e utiliza-lo, é de vital importancia, e para isso que temos a observabilidade e o SRE.
+  - Colete metricas sobre a saude da aplicação e da maquina em que ela se encontra.
+  - Monte dashboards para analizar todas as infromações coletadas.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "O que é Jaeger?"
+    link: https://www.redhat.com/pt-br/topics/microservices/what-is-jaeger
+  - type: SITE
+    title: "O que é engenharia de confiabilidade dos sites?"
+    link: https://aws.amazon.com/pt/what-is/sre/
+  - type: SITE
+    title: "Medição de DevOps: monitoramento e observabilidade"
+    link: https://cloud.google.com/architecture/devops/devops-measurement-monitoring-and-observability?hl=pt-br
+  - type: YOUTUBE
+    title: "O QUE É DEVOPS? | O QUE É SRE? | ESTUDANDO DEVOPS"
+    link: https://www.youtube.com/watch?v=E__bROyybgc
+  - type: YOUTUBE
+    title: "Observability vs. APM vs. Monitoring"
+    link: https://www.youtube.com/watch?v=CAQ_a2-9UOI
+alura-contents:
+  - type: PODCAST
+    title: "SRE: Site Reliability Engineering"
+    link: https://cursos.alura.com.br/extra/hipsterstech/sre-site-reliability-engineering-hipsters-187-a374
+  - type: PODCAST
+    title: "SRE, Segurança e DevOps no Pipefy"
+    link: https://cursos.alura.com.br/extra/hipsterstech/sre-seguranca-e-devops-no-pipefy-hipsters-on-the-road-25-a376
+  - type: PODCAST
+    title: "Observabilidade no Itaú"
+    link: https://cursos.alura.com.br/extra/hipsterstech/observabilidade-no-itau-hipsters-ponto-tech-334-a1927
+  - type: PODCAST
+    title: "Ferramentas de Monitoramento e Observabilidade"
+    link: https://cursos.alura.com.br/extra/hipsterstech/ferramentas-de-monitoramento-e-observabilidade-hipsters-ponto-tech-281-a1317
+  - type: COURSE
+    title: "SRE - Engenharia de Confiabilidade de Sites"
+    link: https://cursos.alura.com.br/extra/alura-mais/sre-engenharia-de-confiabilidade-de-sites-c1112
+  - type: COURSE
+    title: "Observabilidade: coletando métricas de uma aplicação com Prometheus"
+    link: https://cursos.alura.com.br/course/observabilidade-prometheus
+  - type: COURSE
+    title: "Monitoramento: Prometheus, Grafana e Alertmanager"
+    link: https://cursos.alura.com.br/course/monitoramento-prometheus-grafana-alertmanager
+  - type: COURSE
+    title: "Confiabilidade: garantindo o estado de integridade de sistemas através de logs"
+    link: https://cursos.alura.com.br/course/confiabilidade-garantindo-estado-integridade
+  - type: COURSE
+    title: "Confiabilidade: centralizando logs com Grafana Loki"
+    link: https://cursos.alura.com.br/course/confiabilidade-centralizando-logs-grafana-loki
+  - type: COURSE
+    title: "Rastreamento: fazendo tracing com Jaeger e OpenTelemetry"
+    link: https://cursos.alura.com.br/course/rastreamento-tracing-jaeger-opentelemetry
+

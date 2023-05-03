@@ -1,0 +1,63 @@
+name: Redes
+logo: 
+short-description:
+key-objectives:
+  - Configurações de redes são exenciais para que seja possivel acessar uma aplicação, principalmente se ela estiver no cloud.
+  - Entenda melhor os componentes de rede e a suas atribuições.
+  - Diferenciar os servisos disponibilizados a nivel de rede.
+  - Saber as diferenças entre as camadas de rede.
+  - Saber o que é servidor web, proxy reverso e load balancer.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Conceitos de rede e comunicação"
+    link: https://www.ibm.com/docs/pt-br/aix/7.3?topic=management-network-communication-concepts
+  - type: ARTICLE
+    title: "O que são redes de computadores?"
+    link: https://aws.amazon.com/pt/what-is/computer-networking/
+  - type: ARTICLE
+    title: "O que é gerenciamento de rede?"
+    link: https://www.redhat.com/pt-br/topics/management/what-is-network-management
+  - type: YOUTUBE
+    title: "IP (Entenda finalmente como funciona o IPv4 e o IPv6) // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=O8DmpmBMUSw
+alura-contents:
+  - type: ARTICLE
+    title: "Conhecendo algumas topologias de rede"
+    link: https://www.alura.com.br/artigos/conhecendo-algumas-topologias-de-rede
+  - type: ARTICLE
+    title: "Como calcular máscaras de sub-rede de forma simples"
+    link: https://www.alura.com.br/artigos/como-calcular-mascaras-de-sub-rede
+  - type: ARTICLE
+    title: "Entendendo os padrões de Wi-Fi"
+    link: https://www.alura.com.br/artigos/entendendo-os-padroes-de-wi-fi
+  - type: ARTICLE
+    title: "Diferenças entre Hubs e Switches"
+    link: https://www.alura.com.br/artigos/diferencas-entre-hubs-e-switches
+  - type: ARTICLE
+    title: "Entendendo os cabos de rede"
+    link: https://www.alura.com.br/artigos/entendendo-os-cabos-de-rede
+  - type: ARTICLE
+    title: "SSH, Telnet e as diferenças para conectar em um servidor"
+    link: https://www.alura.com.br/artigos/entendendo-as-diferencas-entre-telnet-e-ssh
+  - type: COURSE
+    title: "Redes onboarding: uma perspectiva prática"
+    link: https://cursos.alura.com.br/course/redes-onboarding-rede-forma-pratica
+  - type: COURSE
+    title: "Redes parte 1: conceitos e prática"
+    link: https://cursos.alura.com.br/course/redes-introducao
+  - type: COURSE
+    title: "Redes parte 2: montando um projeto do cliente até o provedor de serviços"
+    link: https://cursos.alura.com.br/course/redes-montando-um-projeto-cliente-ate-o-provedor
+  - type: COURSE
+    title: "Redes parte 3: defina as listas de controle e políticas de acesso de usuários"
+    link: https://cursos.alura.com.br/course/redes-parte-3-aplicando-acl-e-configuracao-nat
+  - type: COURSE
+    title: "Redes parte 4: configuração de protocolos de roteamento e IPv6"
+    link: https://cursos.alura.com.br/course/redes-parte-4-configuracao-de-protocolos-de-roteamento-ipv6
+  - type: COURSE
+    title: "Redes parte 5: Wi-FI"
+    link: https://cursos.alura.com.br/course/redes-wifi
+  - type: COURSE
+    title: "NGINX: servidor Web, Proxy Reverso e API Gateway"
+    link: https://cursos.alura.com.br/course/nginx-servidor-web-proxy-reverso-api-gateway
