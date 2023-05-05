@@ -1,5 +1,5 @@
 # Android
-## Nivel 1
+## Level 1
 - [ ] **Kotlin - Fundamentals**:
    - Orientação a Objetos com Kotlin (Properties, Data class, Companion Objects, Delegation)
    - Kotlin is a cross-platform, object-oriented, functional, statically typed programming language. It compiles to the Java Virtual Machine and can also be translated to the JavaScript language and compiled to native code (via LLVM). It is the official language of Google's Android system.
@@ -87,7 +87,7 @@
    - What is Bitmap
    - Knowing the image loading libraries (Glide, Picasso, Coil, and others) and using them
    - Advantages and disadvantages of the image loading libraries
-## Nivel 2
+## Level 2
 - [ ] **Android - Permissions**:
    - The app's permissions help support user privacy by protecting restricted data such as system statuses and the user's contact data, there are also restricted actions such as connecting to a paired device and recording audio or using a camera.
    - Understanding what permissions are
@@ -120,7 +120,7 @@
    - Using instrumented testing
    - Using mocks to facilitate test implementation with dependencies
    - Implementing tests with Dependency Injection tools such as Hilt
-## Nivel 3
+## Level 3
 - [ ] **Android - Architecture**:
    - The Android architecture guide covers practices and recommended architecture for building robust apps with high production quality. Organizing your code base into contained and flexibly coupled parts (Modularization).
    - Learning what the MVVM (Model-View-ViewModel) architecture is
@@ -169,7 +169,9 @@
    - Inspecting layout, system resources like processor, memory, and network
    - Debugging the app database and pre-compiled APK files
    - Analyzing the build with APK parser
-## Habilidade Auxiliar: Infrastructure and good practices 
+
+## Additional Skill: Infrastructureand good practices
+
 - [ ] **Git & GitHub - Fundamentals**:
    - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
    - GitHub is a hosting service for software development and version control using Git.
@@ -212,7 +214,7 @@
    - Understanding how to install Firebase
    - Getting acquainted with Firebase documentation
    - Learning about the Firebase tools available
-## Habilidade Auxiliar: UX & Design 
+## Additional Skill: UX & Design
 - [ ] **Material Design**:
    - Material Design is Google's open source design system, where it gives you components with certain usage patterns and some customization for your apps.
    - User Experience Foundations

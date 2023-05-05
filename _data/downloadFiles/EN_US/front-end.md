@@ -1,5 +1,5 @@
 # Front-end
-## Nivel 1
+## Level 1
 - [ ] **HTML - Fundamentals**:
    - HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
    - Learning which tags are required for basic HTML
@@ -61,7 +61,7 @@
    - Adjusting your pages to the user's screen size
    - Learning about Media queries
    - Knowing the concept of Mobile first
-## Nivel 2
+## Level 2
 - [ ] **JavaScript - Callbacks and Promises**:
    - A Promise is a proxy for a value not necessarily known when the promise is created. This lets asynchronous methods return values like synchronous methods - instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
    - A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
@@ -100,7 +100,7 @@
    - Testing components
 - [ ] **Cypress**:
    - Cypress is a front-end testing tool that allows for setting up, writing, running, and debugging tests.
-## Nivel 3
+## Level 3
 - [ ] **Data Structures**:
    - In the context of computers, the data structure is a specific way of storing and organizing data in the computer's memory so that these data can be easily retrieved and efficiently used when needed later.
    - Knowing the main data structures (linked list, stack, queue, tree, etc)
@@ -136,7 +136,7 @@
    - Creating APIs using GraphQL libraries and frameworks
 - [ ] **Apollo Client**:
    - Apollo Client is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL.
-## Habilidade Auxiliar: Infrastructure and Back-end 
+## Additional Skill: Infrastructureand Back-end
 - [ ] **Git & GitHub - Fundamentals**:
    - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
    - GitHub is a hosting service for software development and version control using Git.
@@ -174,7 +174,7 @@
    - Installing packages offline
    - Commands
    - The yarn.lock file
-## Habilidade Auxiliar: UX and Design 
+## Additional Skill: UX and Design
 - [ ] **Design Systems**:
    - A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build applications.
    - Creating and maintaining libraries that will be consumed and used as a standard for building a project

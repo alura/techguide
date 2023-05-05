@@ -1,5 +1,5 @@
 # Java
-## Nivel 1
+## Level 1
 - [ ] **Java - Fundamentals**:
    - Java is a widely-used programming language for coding web applications. Java is a multi-platform, object-oriented, and network-centric language that can be used as a platform in itself. It is a fast, secure, reliable programming language for coding everything from mobile apps and enterprise software to big data applications and server-side technologies.
    - Knowing the primitive types
@@ -54,7 +54,7 @@
    - In the context of computers, the data structure is a specific way of storing and organizing data in the computer's memory so that these data can be easily retrieved and efficiently used when needed later.
    - Knowing the main data structures (linked list, stack, queue, tree, etc)
    - Implementing the main data structures
-## Nivel 2
+## Level 2
 - [ ] **JVM**:
    - The Java Virtual Machine (JVM) is a program that loads and runs Java applications, converting the bytecodes into machine-executable code. The JVM is responsible for managing the applications as they run. Thanks to the Java Virtual Machine, programs written in Java can run on any hardware and software platform that has a version of the JVM, thus making these applications independent of the platform they run on.
    - Entender como funciona a máquina virtual do Java
@@ -83,7 +83,7 @@
    - Planning queries with join fetch
    - Encapsulating access in a DAO
    - Understanding how memory works in this situation
-## Nivel 3
+## Level 3
 - [ ] **Microservices architecture**:
    - Microservices are an architectural approach in which software consists of small independent services that communicate with each other and are organized according to their business domains.
    - Learning the concept of planned architecture for microservices
@@ -118,7 +118,7 @@
    - Creating producers and consumers
    - Understanding how to use Kafka for parallelism and serialized execution
    - Obtaining guarantees regarding the sending or delivery of messages
-## Habilidade Auxiliar: Infrastructure 
+## Additional Skill: Infrastructure
 - [ ] **Git & GitHub - Fundamentals**:
    - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
    - GitHub is a hosting service for software development and version control using Git.
@@ -158,7 +158,7 @@
    - Using DELETE to remove data from a table
    - Using JOIN to connect data from multiple tables
    - Knowing the clauses (FROM, ORDER BY, etc.)
-## Habilidade Auxiliar: Good practices 
+## Additional Skill: Good practices
 - [ ] **SOLID**:
    - SOLID has five principles that are considered best practices in software development that help programmers write cleaner code by separating responsibilities, reducing docking, easing refactoring, and encouraging code reuse.
 - [ ] **Clean Architecture**:

@@ -1,5 +1,5 @@
 # Cybersecurity
-## Nivel 1
+## Level 1
 - [ ] **Cryptography - Fundamentals**:
    - Cryptography in cybersecurity is the conversion of data from a readable format into an encrypted format. Encrypted data can only be read or processed after it has been decrypted.
 - [ ] **Cybersecurity Framework**:
@@ -24,7 +24,7 @@
    - SOC (Security Operations Center) is the department that comes to plan and support the entire I.T. security strategy, monitoring, preventing, and remedying breaches, failures, and possible attacks, all in a proactive way.
 - [ ] **Penetration Testing - Fundamentals**:
    - Pentest (Penetration Testing) is the practice of testing a computer system, network, or Web application to find vulnerabilities that an attacker might exploit, simulating an attack against an organization's IT assets.
-## Nivel 2
+## Level 2
 - [ ] **Endpoint security**:
    - Endpoint security, or endpoint protection, is the cybersecurity approach to defending endpoints such as desktops, laptops, and mobile devices against malicious activity.
 - [ ] **Metasploit - Attack and Analysis**:
@@ -52,7 +52,7 @@
    - Network forensics refers to the collection, monitoring, and analysis of network activities to discover the source of attacks, viruses, intrusions, or security breaches that occur on a network or in network traffic. As such, network forensics is considered along with mobile forensics or digital image forensics as residing under the umbrella of digital forensics.
 - [ ] **PowerShell scripting for security**:
    - A hidden script can be malicious and difficult to detect with visual inspection during the script approval process. Visually review PowerShell scripts and use inspection tools to help detect suspicious script issues. These tools cannot always determine the intent of the PowerShell author, so they may draw attention to a suspicious script.
-## Nivel 3
+## Level 3
 - [ ] **Network Security Architecture**:
    - Network security prepares you for tasks such as protecting company data from theft, damage, disruption, and more. A network security professional will design and implement a secure architecture for network devices, as well as provide security support and ensure their integrity.
 - [ ] **Threat Hunting**:
@@ -71,7 +71,7 @@
    - Cloud security, also known as cloud computing security, is a set of security measures designed to protect cloud-based infrastructure, applications, and data. These measures ensure user and device authentication, control access to data and resources, and protect data privacy. They also support regulatory data compliance.
 - [ ] **Continuous Security - Automation and Monitoring**:
    - Continuous security monitoring is an approach to security that involves automating a significant part of security management. This includes vulnerability detection, monitoring of cloud configurations, identities and their rights, and data security.
-## Habilidade Auxiliar: Systems and technologies 
+## Additional Skill: Systems and technologies
 - [ ] **Python - Fundamentals**:
    - Python is a high-level, general-purpose programming language that is widely used in web applications, software development, data science, and machine learning. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected.
    - Knowing the primitive types
@@ -110,7 +110,7 @@
    - Knowing the environment variables and PATH
    - Managing packages
    - Performing remote communication with SSH and SCP
-## Habilidade Auxiliar: Information Security 
+## Additional Skill: Information Security
 - [ ] **Risk, threats and vulnerability management**:
    - Risk management is the process of planning, organizing, and controlling resources and people to minimize damage or turn risks into opportunities. Predicting risks is an important practice, after all, this way it is possible to reverse what can go wrong and achieve positive results along the way.
 - [ ] **Confidentiality, Integrity and Availability**:

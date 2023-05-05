@@ -1,5 +1,5 @@
 # C#
-## Nivel 1
+## Level 1
 - [ ] **C# - Fundamentals**:
    - C# is a multi-paradigm, strongly typed programming language developed by Microsoft as part of the .NET platform. The source code is compiled into Common Intermediate Language (CIL) which is interpreted by the Common Language Runtime (CLR) virtual machine. It is designed to run on the Common Language Infrastructure of the .NET Framework platform.
    - Knowing the primitive types
@@ -64,7 +64,7 @@
    - In the context of computers, the data structure is a specific way of storing and organizing data in the computer's memory so that these data can be easily retrieved and efficiently used when needed later.
    - Knowing the main data structures (linked list, stack, queue, tree, etc)
    - Implementing the main data structures
-## Nivel 2
+## Level 2
 - [ ] **CLR**:
    - The Common Language Runtime (CLR) is the virtual machine component of Microsoft .NET Framework that manages the execution of .NET programs.
    - Understanding how the CLR works
@@ -104,7 +104,7 @@
    - Running multiple tasks simultaneously
    - Understanding how threads are executed
    - Learning how to make a thread wait at a specific point
-## Nivel 3
+## Level 3
 - [ ] **C# - Delegates and Events**:
    - Delegates are objetcs that are used as function pointers to refer to a method assigned to them.
    - Events are the action performed which changes the state of an object. Events are declared using delegates - they provide encapsulation to the delegates.
@@ -139,7 +139,7 @@
    - Creating native desktop and mobile applications with C# and XAML
    - Creating cross-platform applications
    - Sharing user interface layout and design across platforms
-## Habilidade Auxiliar: Infrastructure 
+## Additional Skill: Infrastructure
 - [ ] **Git & GitHub - Fundamentals**:
    - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
    - GitHub is a hosting service for software development and version control using Git.
@@ -179,7 +179,7 @@
    - Using DELETE to remove data from a table
    - Using JOIN to connect data from multiple tables
    - Knowing the clauses (FROM, ORDER BY, etc.)
-## Habilidade Auxiliar: Good practices 
+## Additional Skill: Good practices
 - [ ] **SOLID**:
    - SOLID has five principles that are considered best practices in software development that help programmers write cleaner code by separating responsibilities, reducing docking, easing refactoring, and encouraging code reuse.
 - [ ] **Design Patterns**:

@@ -1,5 +1,5 @@
 # Data Science
-## Nivel 1
+## Level 1
 - [ ] **Data Science - Fundamentals**:
    - Data Science is the act of using algorithms and systems to extract, organize, and analyze data from various sources in order to detect patterns and make business decisions. The application areas are endless, such as in business, biology, medicine, engineering, etc.
    - Knowing the concept of Data Mining
@@ -58,7 +58,7 @@
    - Mapping abstract data into visual representations
    - Visually representing data that is present in our real world
    - Using Python, Matplotlib and Seaborn to generate data visualizations
-## Nivel 2
+## Level 2
 - [ ] **Machine Learning - Fundamentals**:
    - Machine Learning is a subfield of Engineering and Computer Science that evolved from the study of pattern recognition and the theory of computational learning in artificial intelligence.
    - Supervised Learning
@@ -102,7 +102,7 @@
    - Designing experiments to collect data
    - Proposing mathematical models to understand a given problem
    - Building color maps to aid data interpretation
-## Nivel 3
+## Level 3
 - [ ] **Deep Learning**:
    - Deep Learning is a branch of Machine Learning based on a set of algorithms that attempt to model high-level abstractions of data using a deep graph with multiple processing layers, composed of various linear and nonlinear transformations.
    - Building and training models with Keras
@@ -138,7 +138,7 @@
    - Using Regex in PLN
    - Knowing Word2Vec
    - Combining word vectors to represent texts and classify them
-## Habilidade Auxiliar: Cloud, Big Data and Systems 
+## Additional Skill: Cloud, Big Data and Systems
 - [ ] **Big Data and Data Engineering**:
    - Big data is the area of knowledge that studies how to process, analyze, and derive information from data sets that are too large to be analyzed by traditional systems.
    - Data engineering involves the development and organization of processes for collecting, storing, and transforming large-scale data.
@@ -171,7 +171,7 @@
    - Knowing the environment variables and PATH
    - Managing packages
    - Performing remote communication with SSH and SCP
-## Habilidade Auxiliar: Business 
+## Additional Skill: Business
 - [ ] **Business Process Management**:
    - Business Process Management (BPM) is a discipline that uses various methods to discover, model, analyze, measure, improve, optimize, and automate business processes.
 - [ ] **Business Intelligence (BI) - Fundamentals**:
