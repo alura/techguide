@@ -1,5 +1,5 @@
 # Node.js
-## Nivel 1
+## Level 1
 - [ ] **JavaScript - Fundamentals**:
    - JavaScript is the world's most popular programming language and is one of the core technologies of the World Wide Web, alongside HTML and CSS. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles.
    - Knowing the primitive types
@@ -51,7 +51,7 @@
    - Using behavioral testing
    - Using mocks
    - Learn the concepts of BDD (Behavior-Driven Development) and TDD (Test-Driven Development)
-## Nivel 2
+## Level 2
 - [ ] **SOLID**:
    - SOLID has five principles that are considered best practices in software development that help programmers write cleaner code by separating responsibilities, reducing docking, easing refactoring, and encouraging code reuse.
 - [ ] **Node.js - Express**:
@@ -80,7 +80,7 @@
    - Learning what TypeScript is, why it was created, how it works and its relationship with JavaScript
    - Knowing the TypeScript tools (integration with the code editor, static checker and compiler)
    - Writing code in TypeScript using its tools (interfaces, enum, decorators, etc.)
-## Nivel 3
+## Level 3
 - [ ] **Nest.js - Fundamentals**:
    - NestJS is a Node framework with full TypeScript support that runs on top of HTTP frameworks like ExpressJS or Fastify. It uses many elements of object-oriented programming and a lot of TypeScript functionality.
    - Learning what NestJS is and why it is used
@@ -111,7 +111,7 @@
    - Creating APIs using GraphQL libraries and frameworks
 - [ ] **Apollo Client**:
    - Apollo Client is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL.
-## Habilidade Auxiliar: Infrastructure and good practices 
+## Additional Skill: Infrastructureand good practices
 - [ ] **Git & GitHub - Fundamentals**:
    - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
    - GitHub is a hosting service for software development and version control using Git.
@@ -139,7 +139,7 @@
    - Knowing the difference between IaaS, PaaS and SaaS
    - Knowing the largest cloud providers
    - Specializing in a specific provider of your choice
-## Habilidade Auxiliar: Front-end 
+## Additional Skill: Front-end
 - [ ] **HTML - Fundamentals**:
    - HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
    - Learning which tags are required for basic HTML

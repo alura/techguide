@@ -1,5 +1,5 @@
 # Angular
-## Nivel 1
+## Level 1
 - [ ] **HTML - Fundamentals**:
    - HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
    - Learning which tags are required for basic HTML
@@ -77,7 +77,7 @@
    - Updating several elements simultaneously using Observers
    - Declaring subjects
    - Creating event-based programs
-## Nivel 2
+## Level 2
 - [ ] **Angular - Templates**:
    - In Angular, a template is a blueprint for a fragment of a user interface (UI). Templates are written in HTML, and special syntax can be used within a template to build on many of Angular's features.
 - [ ] **Angular - Rendering**:
@@ -97,7 +97,7 @@
    - The Angular CLI is a command-line interface tool that you use to initialize, develop, scaffold, and maintain Angular applications directly from a command shell.
    - Learning the syntax 'ng [optional-arg] [options]'
    - Getting to know important commands, like 'ng add', 'ng build', 'ng update', 'ng deploy', 'ng new', 'ng test', among others
-## Nivel 3
+## Level 3
 - [ ] **Angular - State Management**:
    - A 'state' is whatever data necessary in order to rebuild the UI at any moment in time. When this data change, it will trigger a redraw of the user interface. State management is the concept of adding, updating, removing and reading these data and their state in an application.
    - Updating components in real time
@@ -134,7 +134,7 @@
    - Creating APIs using GraphQL libraries and frameworks
 - [ ] **Apollo Client**:
    - Apollo Client is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL.
-## Habilidade Auxiliar: Infrastructure and Back-end 
+## Additional Skill: Infrastructureand Back-end
 - [ ] **Git & GitHub - Fundamentals**:
    - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
    - GitHub is a hosting service for software development and version control using Git.
@@ -162,7 +162,7 @@
    - Knowing the difference between IaaS, PaaS and SaaS
    - Knowing the largest cloud providers
    - Specializing in a specific provider of your choice
-## Habilidade Auxiliar: UX and Design 
+## Additional Skill: UX and Design
 - [ ] **Design Systems**:
    - A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build applications.
    - Creating and maintaining libraries that will be consumed and used as a standard for building a project
