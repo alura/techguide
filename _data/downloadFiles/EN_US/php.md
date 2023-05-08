@@ -1,5 +1,5 @@
 # PHP
-## Level 1
+## Nivel 1
 - [ ] **PHP - Fundamentals**:
    - PHP is a programming language that allows web developers to create dynamic content that interacts with databases. PHP is basically used for developing web based software applications.
    - Knowing the primitive types
@@ -43,7 +43,7 @@
    - Applying wrappers and filters on streams
    - Using streams
    - Knowing encodings and character sets
-## Level 2
+## Nivel 2
 - [ ] **PHP - Composer**:
    - Composer is a tool for dependency management in PHP. It allows you to declare the libraries your project depends on and it will manage (install/update) them for you.
    - Managing dependencies
@@ -84,7 +84,7 @@
    - Analyzing and understanding the execution stack
    - Debugging the code
    - Debugging remotely with Docker
-## Level 3
+## Nivel 3
 - [ ] **PHP - Asynchronous**:
    - In asynchronous programming the functions are not executed in order. With asynchrony, we can interrupt the code to get some other information needed to continue execution. This means that the code waits for another part of the code and while it waits it executes the other parts.
    - Learning how to use sockets
@@ -117,7 +117,7 @@
    - Reflection objects are used for obtaining type information at runtime. The classes that give access to the metadata of a running program are in the System.Reflection namespace.
    - Writing code that reads object information and metadata at runtime
    - Getting class names at runtime and creating objects of a class
-## Additional Skill: Infrastructureand good practices
+## Habilidade Auxiliar: Infrastructure and good practices 
 - [ ] **Git & GitHub - Fundamentals**:
    - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
    - GitHub is a hosting service for software development and version control using Git.
@@ -169,7 +169,7 @@
    - Modeling domains effectively
    - Basing complex projects on domain models
    - Getting to know the building blocks of DDD
-## Additional Skill: Front-end
+## Habilidade Auxiliar: Front-end 
 - [ ] **HTML - Fundamentals**:
    - HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
    - Learning which tags are required for basic HTML

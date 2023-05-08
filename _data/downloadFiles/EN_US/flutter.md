@@ -1,5 +1,5 @@
 # Flutter
-## Level 1
+## Nivel 1
 - [ ] **Dart - Fundamentals**:
    - Dart is a client-optimized language for developing fast apps on any platform. Its goal is to offer the most productive programming language for multi-platform development, paired with a flexible execution runtime platform for app frameworks.
    - Installing and configuring Dart
@@ -46,7 +46,7 @@
    - Learning the basic HTTP communication commands
    - Learning how to use the Dart `http` package tools
    - Learning how to make authenticated requests to Web APIs
-## Level 2
+## Nivel 2
 - [ ] **Flutter - Essential Packages**:
    - Flutter supports using shared packages contributed by other developers to the Flutter and Dart ecosystems. This allows quickly building an app without having to develop everything from scratch.
    - Learning how to use the pub.dev platform
@@ -72,7 +72,7 @@
    - Getting to know Flutter's Casual Game Development Kit
    - Learning about the Flame package as a Flutter Game Engine
    - Learning about the Bonfire package as a Flutter Game Engine
-## Level 3
+## Nivel 3
 - [ ] **Flutter - Native**:
    - Getting to know the specifics of native development for Android
    - Getting to know the specifics of native development for iOS
@@ -100,7 +100,7 @@
    - Getting to know the main architecture patterns used by the Flutter community, such as MVC, MVVM, MVP etc
 - [ ] **Flutter - Packages and Plugins**:
    - Learning how to develop plugins for Flutter
-## Additional Skill: Infrastructureand Back-end
+## Habilidade Auxiliar: Infrastructure and Back-end 
 - [ ] **Git & GitHub - Fundamentals**:
    - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
    - GitHub is a hosting service for software development and version control using Git.
@@ -143,7 +143,7 @@
    - Understanding how to install Firebase
    - Getting acquainted with Firebase documentation
    - Learning about the Firebase tools available
-## Additional Skill: UX and Design
+## Habilidade Auxiliar: UX and Design 
 - [ ] **Design Systems**:
    - A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build applications.
    - Creating and maintaining libraries that will be consumed and used as a standard for building a project

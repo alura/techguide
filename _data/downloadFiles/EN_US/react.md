@@ -1,7 +1,5 @@
 # React
-
-## Level 1
-
+## Nivel 1
 - [ ] **HTML - Fundamentals**:
    - HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
    - Learning which tags are required for basic HTML
@@ -91,9 +89,7 @@
    - Executing a component only after rendering
    - Acessing the props of an element
    - Calling APIs
-
-## Level 2
-
+## Nivel 2
 - [ ] **React Hooks - Memo**:
    - The React Hook `useMemo` returns a memoized value. `useMemo` will only recompute the memoized value when one of the dependencies has changed.
    - Controlling the state of external variables
@@ -156,9 +152,7 @@
    - Creating specific exceptions according to your application's needs
 - [ ] **Babel - Fundamentals**:
    - Babel is a JavaScript compiler. It is a toolchain that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in current and older browsers or environments.
-
-## Level 3
-
+## Nivel 3
 - [ ] **Lottie**:
    - Lottie is a library that parses Adobe After Effects animations exported as json with Bodymovin and renders them natively on mobile and on the web.
 - [ ] **Framer Motion**:
@@ -186,9 +180,7 @@
    - Improving performance in React
    - Building API routes with serveless functions
    - CSS-in-JS
-
-## Additional Skill: Infrastructureand Back-end
-
+## Habilidade Auxiliar: Infrastructure and Back-end 
 - [ ] **Git & GitHub - Fundamentals**:
    - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
    - GitHub is a hosting service for software development and version control using Git.
@@ -226,9 +218,7 @@
    - Installing packages offline
    - Commands
    - The yarn.lock file
-
-## Additional Skill: UX and Design
-
+## Habilidade Auxiliar: UX and Design 
 - [ ] **Design Systems**:
    - A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build applications.
    - Creating and maintaining libraries that will be consumed and used as a standard for building a project

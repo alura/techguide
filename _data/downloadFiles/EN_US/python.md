@@ -1,7 +1,5 @@
 # Python
-
-## Level 1
-
+## Nivel 1
 - [ ] **Python - Fundamentals**:
    - Python is a high-level, general-purpose programming language that is widely used in web applications, software development, data science, and machine learning. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected.
    - Knowing the primitive types
@@ -48,9 +46,7 @@
    - Knowing how to make authenticated requests
    - Converting objects to JSON and vice-versa
    - Knowing how to use the tools of the Requests package
-
-## Level 2
-
+## Nivel 2
 - [ ] **Flask**:
    - Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself.
    - Creating web applications
@@ -81,9 +77,7 @@
 - [ ] **Python - Lambdas and Closures**:
    - Lambda functions are nothing more than anonymous functions. While normal functions can be created using def as a prefix, lambda functions are created using lambda.
    - A closure in Python is an inner function object, a function that behaves like an object, that remembers and has access to variables in the local scope where it was created, even after the outer function has finished executing. It can also be defined as a means of binding data to a function without passing it as a parameter.
-
-## Level 3
-
+## Nivel 3
 - [ ] **Microservices architecture**:
    - Microservices are an architectural approach in which software consists of small independent services that communicate with each other and are organized according to their business domains.
    - Learning the concept of planned architecture for microservices
@@ -133,7 +127,7 @@
    - Reflection objects are used for obtaining type information at runtime. The classes that give access to the metadata of a running program are in the System.Reflection namespace.
    - Writing code that reads object information and metadata at runtime
    - Getting class names at runtime and creating objects of a class
-## Additional Skill: Infrastructure
+## Habilidade Auxiliar: Infrastructure 
 - [ ] **Git & GitHub - Fundamentals**:
    - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
    - GitHub is a hosting service for software development and version control using Git.
@@ -173,7 +167,7 @@
    - Using DELETE to remove data from a table
    - Using JOIN to connect data from multiple tables
    - Knowing the clauses (FROM, ORDER BY, etc.)
-## Additional Skill: Good practicesand tools
+## Habilidade Auxiliar: Good practices and tools 
 - [ ] **SOLID**:
    - SOLID has five principles that are considered best practices in software development that help programmers write cleaner code by separating responsibilities, reducing docking, easing refactoring, and encouraging code reuse.
 - [ ] **Clean Architecture**:
