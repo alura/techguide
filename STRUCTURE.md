@@ -3,13 +3,17 @@
 ## Requisitos para rodar o projeto
 
 ### Setup de ambiente:
-- [Node LTS](https://nodejs.org/en/)
+
+- [Node LTS](https://nodejs.org/en)
+  - Usando [`nvm`](https://github.com/nvm-sh/nvm)
+    - `nvm install`
+    - `nvm use`
 - [Yarn 1.x](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable)
 
 ### Como rodar na minha máquina?
 
 - Clone o projeto `git clone https://github.com/alura/techguide.git`
-- Rode `yarn install`
+- Rode `yarn`
 - Rode `yarn dev`
 - Pronto 🎉
 
@@ -28,6 +32,7 @@
 - `./src/screens`: Toda screen representa uma tela do projeto, uma tela caso tenha componentes específicos inicialmente deve ter os mesmos guardados na sua própria pasta, repetindo a estrutura anterior do projeto e evitando o reuso antes do uso de fato.
 
 ### Como me localizar no projeto?
+
 - Todas as páginas do projeto estão listadas em `./pages`
   - Todos os `componentes` que representam as páginas estão em `./src/screens`
     - Uma vez dentro de uma página você pode ir navegando pelos componentes para ir se encontrando e fazer a alteração que deseja
@@ -36,6 +41,7 @@
 
 - Todo conteúdo multi-língua é alterado por meio da pasta `_data/locale/COUNTRY.json`
   - Para acessar um conteúdo dentro do código siga o exemplo abaixo:
+
 ```js
 import { Box, Text, Image, Link } from "@src/components";
 import { useI18n } from "@src/infra/i18n";
@@ -50,9 +56,11 @@ export default function SecondContentSection() {
   )
 }
 ```
+
 > Caso deseje passar um link, você DEVE usar a tag do html `<a href="link"></a>`
 
 ### Como gerar o favicon do site?
+
 - Atualmente estamos usando esse projeto https://www.favicon-generator.org/
 
 ## techguide.sh GraphQL API
@@ -68,5 +76,3 @@ export default function SecondContentSection() {
 - `./_api/modules/*`: Cada pasta aqui representa uma entidade do sistema, atualmente temos `guides` e `cards`
   - Após criar uma nova entidade a mesma deve ser importada no arquivo `./_api/api.ts`, tal como os anteriores.
   - Importa no mesmo PR rodar o comando `yarn generate:types` (em uma segunda aba de terminal com o projeto rodando) para deixar a tipagem typescript sincronizada tanto para o backend quanto para o frontend.
-
-
