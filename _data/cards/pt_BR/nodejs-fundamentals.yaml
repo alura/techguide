@@ -11,7 +11,7 @@ aditional-objectives:
 contents:
   - type: SITE
     title: "Introdução ao Node.js - documentação oficial"
-    link: https://nodejs.dev/en/learn/
+    link: https://nodejs.dev/pt/learn/
   - type: SITE
     title: "Sobre Node.js"
     link: https://nodejs.org/pt-br/about/
@@ -34,6 +34,9 @@ contents:
     title: "O módulo de path do Node.js"
     link: https://nodejs.reativa.dev/0047-node-module-path/index
 alura-contents:
+  - type: ARTICLE
+    title: "Node.JS: o que é, como funciona esse ambiente de execução JavaScript e um Guia para iniciar"
+    link: https://www.alura.com.br/artigos/node-js
   - type: ARTICLE
     title: "Node.js: definição, características, vantagens e usos possíveis"
     link: https://www.alura.com.br/artigos/node-js-definicao-caracteristicas-vantagens-usos
