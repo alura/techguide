@@ -4,16 +4,16 @@ tags:
 expertise:
   - name: React Jr
     cards: 
+      - html-fundamentals:
+        priority: 8
+      - css-fundamentals:
+        priority: 8
       - javascript-fundamentals:
         priority: 10
       - dom-fundamentals:
         priority: 10
       - spa-concepts:
         priority: 9
-      - html-fundamentals:
-        priority: 7
-      - css-fundamentals:
-        priority: 6
       - react-components:
         priority: 9
       - react-props:
