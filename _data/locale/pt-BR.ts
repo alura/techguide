@@ -146,6 +146,24 @@ export default {
           "link": "/my?url=https://github.com/bancodobrasil/techguide/blob/bb/externals/bb/mobile-devops.json",
         },
       ],
+    },
+    {
+      "githubUser": "Jarinha99",
+      "name": "Dasa",
+      "logo": "/assets/image/company/dasa.png",
+      "description":
+        "Estes guias foram criados pela <strong>Dasa</strong> para te ajudar a descobrir caminhos e se tornar profissional <strong>&lt;em T&gt;</strong>.",
+      "guideDescription": "Este guia foi criado pela <strong>Dasa</strong> para te ajudar a descobrir caminhos e se tornar profissional <strong>&lt;em T&gt;</strong>.",
+      "guides": [
+        {
+          "title": "Back-end - NodeJS",
+          "link": "/my?url=https://github.com/Jarinha99/techguide/blob/dasa/externals/dasa/backend.json",
+        },
+        {
+          "title": "Qualidade de Software",
+          "link": "/my?url=https://github.com/Jarinha99/techguide/blob/dasa/externals/dasa/quality-assurance.json",
+        },
+      ],
     }
   ],
   "TSHAPE.GUIDE.VIDEO.TITLE": "Quer se aprofundar ainda mais no assunto?",
