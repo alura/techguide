@@ -1,0 +1,211 @@
+{
+  "name": "Qualidade de Software",
+  "expertises": [
+    {
+      "name": "Qualidade de Software",
+      "cards": [
+        {
+          "name": "QA - Overview",
+          "short-description": "Conceitos Básicos",
+          "key-objectives": [
+            "Conceitos de Qualidade de Software",
+            "O que é Behavior-Driven Development (BDD)?",
+            "Níveis e Técnicas de Teste"
+          ],
+          "additional-objectives": [],
+          "contents": [
+            {
+              "type": "YOUTUBE",
+              "title": "Conceitos de Qualidade de Software",
+              "link": "https://www.youtube.com/playlist?list=PLxI8Can9yAHcmjsfjFdo_xJ3xhLiczzLC"
+            },
+            {
+              "type": "ARTICLE",
+              "title": "O que é Behavior-Driven Development (BDD)?",
+              "link": "https://cursos.alura.com.br/extra/alura-mais/o-que-e-behavior-driven-development-bdd--c284"
+            },
+            {
+              "type": "YOUTUBE",
+              "title": "Níveis e Técnicas de Teste, Entenda! unidade, integração, sistema, regressão, funcional, estrutural",
+              "link": "https://www.youtube.com/watch?v=5V012tGZot4"
+            }
+          ]
+        },
+        {
+          "name": "Testes de Backend",
+          "short-description": "Conceitos e ferramentas",
+          "key-objectives": [
+            "Postman",
+            "Insomnia",
+            "GraphQL",
+            "Testes Automatizados"
+          ],
+          "additional-objectives": [],
+          "contents": [
+            {
+              "type": "YOUTUBE",
+              "title": "Introdução ao Postman",
+              "link": "https://www.youtube.com/watch?v=op81bMbgZXs"
+            },
+            {
+              "type": "ARTICLE",
+              "title": "Testes Automatizados de API com postman",
+              "link": "https://medium.com/riachuelo/testes-automatizados-de-api-com-postman-o-que-testar-e-como-testar-parte-1-d388c8f41fa8"
+            },
+            {
+              "type": "YOUTUBE",
+              "title": "Como usar o Insomnia para Testar APIs Rest",
+              "link": "https://www.youtube.com/watch?v=2O8FHmHKMfM"
+            },
+            {
+              "type": "COURSE",
+              "title": "GraphQL",
+              "link": "https://degreed.com/videos/tech-talk-graphql?d=28220165&view=true&contentSource=Pathway&inputType=Video&contentSourceId=2357982"
+            }
+          ]
+        },
+        {
+          "name": "Testes Mobile - Detox",
+          "short-description": "Testes mobile com detox",
+          "key-objectives": [
+            "React Nativo e Detox",
+            "Configuração de Ambiente"
+          ],
+          "additional-objectives": [],
+          "contents": [
+            {
+              "type": "ARTICLE",
+              "title": "Criando testes E2E para simular seu usário!",
+              "link": "https://oieduardorabelo.medium.com/react-native-e-detox-f3e500337ca9"
+            },
+            {
+              "type": "ARTICLE",
+              "title": "Configurando o Ambiente",
+              "link": "https://wix.github.io/Detox/docs/introduction/getting-started/"
+            }
+          ]
+        },
+        {
+          "name": "Automação de Testes",
+          "short-description": "Cypress",
+          "key-objectives": [
+            "Instalação e Configuração",
+            "Escrita de Testes",
+            "Execução de Testes",
+            "Reporte"
+          ],
+          "additional-objectives": [],
+          "contents": [
+            {
+              "type": "COURSE",
+              "title": "Cypress - Automação do Zero",
+              "link": "https://degreed.com/videos/cypress-automa-o-do-zero?d=29566169&view=true&contentSource=Pathway&inputType=Video&contentSourceId=2357982"
+            },
+            {
+              "type": "ARTICLE",
+              "title": "Cypress do zero ao reporte",
+              "link": "https://github.com/samlucax/youtube-cypress"
+            },
+            {
+              "type": "COURSE",
+              "title": "Cypress: automação de testes E2E",
+              "link": "https://cursos.alura.com.br/course/cypress-automacao-testes-e2e"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "collaborations": [
+    {
+      "name": "Fundamentos de Desenvolvimento",
+      "cards": [
+        {
+          "name": "Programação Web",
+          "short-description": "Lógica e Coding",
+          "key-objectives": [
+            "JavaScript",
+            "HTML",
+            "CSS"
+          ],
+          "additional-objectives": [],
+          "contents": [
+            {
+              "type": "COURSE",
+              "title": "JavaScript e HTML: desenvolva um jogo e pratique lógica de programação",
+              "link": "https://cursos.alura.com.br/course/logica-programacao-javascript-html"
+            },
+            {
+              "type": "COURSE",
+              "title": "JavaScript e HTML: pratique lógica com desenhos, animações e um jogo",
+              "link": "https://cursos.alura.com.br/course/logica-programacao-pratica-com-desenho-animacoes-em-jogo"
+            },
+            {
+              "type": "COURSE",
+              "title": "HTML5 e CSS3 parte 1: crie uma página da Web",
+              "link": "https://cursos.alura.com.br/course/html5-css3-primeiros-passos"
+            },
+            {
+              "type": "COURSE",
+              "title": "JavaScript: explorando a linguagem",
+              "link": "https://cursos.alura.com.br/course/javascript-introducao"
+            },
+            {
+              "type": "COURSE",
+              "title": "JavaScript: programando a Orientação a Objetos",
+              "link": "https://cursos.alura.com.br/course/javascritpt-orientacao-objetos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Integração Continua",
+      "cards": [
+        {
+          "name": "Integração Continua",
+          "short-description": "Jenkins e Docker",
+          "key-objectives": [
+            "Jenkins",
+            "Docker",
+            "Pipeline"
+          ],
+          "additional-objectives": [],
+          "contents": [
+            {
+              "type": "COURSE",
+              "title": "Jenkins: integração contínua",
+              "link": "https://cursos.alura.com.br/course/jenkins-integracao-continua"
+            },
+            {
+              "type": "COURSE",
+              "title": "Jenkins e Docker: Pipeline de entrega continua",
+              "link": "https://cursos.alura.com.br/course/pipeline-ci-jenkins-docker"
+            }
+          ]
+        },
+        {
+          "name": "Git",
+          "short-description": "Conceitos Básicos",
+          "key-objectives": [
+            "Introdução ao Git",
+            "Controle de versão com o Git"
+          ],
+          "additional-objectives": [],
+          "contents": [
+            {
+              "type": "COURSE",
+              "title": "Introdução ao Git",
+              "link": "https://learn.microsoft.com/pt-br/training/modules/intro-to-git/?WT.mc_id=api_CatalogApi"
+            },
+            {
+              "type": "COURSE",
+              "title": "Introdução ao controle de versão com o Git",
+              "link": "https://learn.microsoft.com/pt-br/training/paths/intro-to-vc-git/?WT.mc_id=api_CatalogApi"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
