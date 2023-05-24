@@ -33,7 +33,7 @@ export default function TShape({ guide, externalGuideCreator }: TShapeProps) {
     },
     {
       name: guide.name,
-      cards: [expertiseStart, expertiseMid, expertiseEnd],
+      cards: [expertiseStart, expertiseMid, expertiseEnd].filter(Boolean),
     },
     {
       name: rightSide.name,
@@ -215,7 +215,7 @@ export default function TShape({ guide, externalGuideCreator }: TShapeProps) {
                     </Box>
                     <TItemCard
                       main
-                      cards={card.cards}
+                      cards={card?.cards}
                       categoryName={item.name}
                     />
                   </Box>

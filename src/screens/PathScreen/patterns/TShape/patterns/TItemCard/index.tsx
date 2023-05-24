@@ -7,7 +7,7 @@ import ItemContent from "./ItemContent";
 
 export function TItemCard({ cards: receivedCards, main, categoryName }: any) {
   const [extraVisible, setExtraVisible] = React.useState(false);
-  const totalCards = receivedCards.length;
+  const totalCards = receivedCards?.length;
   const MAX_VISIBLE = 8;
 
   const hasExtraCards = totalCards >= MAX_VISIBLE;
@@ -40,11 +40,11 @@ export function TItemCard({ cards: receivedCards, main, categoryName }: any) {
       <Box
         styleSheet={{
           ...gridStyles,
-          ...TItemCardGrids[cards.length],
+          ...TItemCardGrids[cards?.length],
         }}
       >
-        {cards.map((card, index) => {
-          const isLastItem = cards.length - 1 === index;
+        {cards?.map((card, index) => {
+          const isLastItem = cards?.length - 1 === index;
           if (hasExtraCards && isLastItem && !extraVisible) return null;
           return (
             <Item
