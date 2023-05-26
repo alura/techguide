@@ -148,7 +148,7 @@ export default {
       ],
     },
     {
-      "githubUser": "Jarinha99",
+      "githubUser": "holding-digital",
       "name": "Dasa",
       "logo": "/assets/image/company/dasa.png",
       "description":
@@ -157,11 +157,19 @@ export default {
       "guides": [
         {
           "title": "Back-end - NodeJS",
-          "link": "/my?url=https://github.com/Jarinha99/techguide/blob/dasa/externals/dasa/backend.json",
+          "link": "/my?url=https://github.com/holding-digital/techguide/blob/dasa/externals/dasa/backend.json",
         },
         {
           "title": "Qualidade de Software",
-          "link": "/my?url=https://github.com/Jarinha99/techguide/blob/dasa/externals/dasa/quality-assurance.json",
+          "link": "/my?url=https://github.com/holding-digital/techguide/blob/dasa/externals/dasa/quality-assurance.json",
+        },
+        {
+          "title": "Front-end Web",
+          "link": "/my?url=https://github.com/holding-digital/techguide/blob/dasa/externals/dasa/frontend-web.json",
+        },
+        {
+          "title": "Front-end Mobile",
+          "link": "/my?url=https://github.com/holding-digital/techguide/blob/dasa/externals/dasa/frontend-mobile.json",
         },
       ],
     }
