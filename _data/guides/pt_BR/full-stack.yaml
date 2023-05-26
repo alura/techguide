@@ -2,7 +2,7 @@ name: Full-stack
 tags: 
   - full-stack
 expertise:
-  - name: Full-stack jr
+  - name: Full-stack Jr
     cards:
       - html-fundamentals:
         priority: 10
@@ -33,7 +33,7 @@ expertise:
       - angular-fundamentals:
         priority: 6
         optional: true
-  - name: Full-stack mid
+  - name: Full-stack Mid
     cards:
       - nodejs-express:
         priority: 10
@@ -95,7 +95,6 @@ expertise:
         priority: 6
         optional: true
 collaboration:
-  - name: 
   - name: Infraestrutura e boas práticas
     cards:
       - git-and-github-fundamentals:
