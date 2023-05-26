@@ -1,0 +1,31 @@
+name: Governança de Dados
+logo: 
+short-description:
+key-objectives:
+  - Governança de dados é um conjunto de políticas, processos e práticas que estabelecem a responsabilidade, a integridade, a qualidade e o uso adequado dos dados em uma organização. Ela envolve a definição de regras e padrões para a coleta, armazenamento, gerenciamento, compartilhamento e uso dos dados, garantindo que sejam confiáveis, consistentes e seguros ao longo de sua vida útil.
+  - A governança de dados desempenha um papel fundamental na engenharia de dados, pois garante que os dados sejam gerenciados de forma eficiente, confiável e em conformidade com as regulamentações e políticas internas. Ela estabelece diretrizes para a gestão dos dados, incluindo a definição de metadados, a identificação de proprietários de dados, a documentação de políticas de acesso e privacidade, a implementação de medidas de segurança e a garantia da qualidade dos dados. 
+  - A governança de dados também promove a colaboração entre as equipes, estabelecendo processos de tomada de decisão baseados em dados confiáveis e padronizados. Isso resulta em uma melhor qualidade das análises, uma base sólida para tomada de decisões estratégicas e uma maior confiança nos dados utilizados para impulsionar as iniciativas de engenharia de dados.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Azure: O que é governança de dados?"
+    link: https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-a-data-governance/
+  - type: YOUTUBE
+    title: "Cultura de qualidade e governança de dados no Grupo Boticário"
+    link: https://www.youtube.com/watch?v=LTxHPUykq6k
+  - type: YOUTUBE
+    title: "A política de governança de dados no Brasil"
+    link: https://www.youtube.com/watch?v=Ac9J19C5x30
+  - type: ARTICLE
+    title: "Cartilha orienta sobre governança de dados"
+    link: https://www.gov.br/economia/pt-br/assuntos/noticias/2022/dezembro/cartilha-orienta-sobre-governanca-de-dados
+alura-contents:
+  - type: ARTICLE
+    title: "O que é Governança de Dados?"
+    link: https://www.alura.com.br/artigos/o-que-e-governanca-de-dados
+  - type: COURSE
+    title: “LGPD, conhecendo e entendendo seus impactos”
+    link: https://cursos.alura.com.br/course/lgpd-visao-impactos
+  - type: COURSE
+    title: “Governança de TI, gestão de demandas de serviços”
+    link: https://cursos.alura.com.br/course/governanca-ti-demandas-servicos

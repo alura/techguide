@@ -1,0 +1,27 @@
+name: Gerenciamento de logs
+logo: 
+short-description:
+key-objectives:
+  - O gerenciamento de logs é o processo de coleta, armazenamento, monitoramento e análise de registros de eventos gerados por sistemas, aplicativos e dispositivos. Esses registros de eventos, conhecidos como logs, contém informações importantes sobre o funcionamento e o desempenho do sistema, bem como eventos relevantes para fins de segurança e auditoria.
+  - O gerenciamento de logs desempenha um papel crucial na engenharia de dados, pois fornece insights valiosos para a monitorização, resolução de problemas, otimização de desempenho e análise de sistemas e aplicativos. Os logs podem ser usados para identificar e solucionar problemas, detectar atividades suspeitas ou não autorizadas, rastrear eventos relevantes e analisar o comportamento do sistema ao longo do tempo. Além disso, o gerenciamento de logs é essencial para fins de conformidade, auditoria e conformidade regulatória, permitindo o acompanhamento e a documentação adequados das atividades relacionadas aos dados. Para isso, são utilizadas ferramentas e técnicas para coletar, centralizar, analisar e visualizar os logs, tornando-os mais eficientes e eficazes para a engenharia de dados.
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Linhagem de dados e o poder da Alvin"
+    link: https://www.youtube.com/watch?v=yKf1lR1DZzY
+  - type: YOUTUBE
+    title: "Afinal o que é Observabilidade? Será que é igual a monitoração?"
+    link: https://youtu.be/feZskFGTeRA
+  - type: ARTICLE
+    title: "Afinal o que é Observabilidade? Será que é igual a monitoração?"
+    link: https://youtu.be/feZskFGTeRA
+  - type: ARTICLE
+    title: "What Is Data Monitoring?"
+    link: https://www.egnyte.com/guides/governance/data-monitoring
+alura-contents:
+  - type: COURSE
+    title: "Observabilidade: coletando métricas de uma aplicação com Prometheus"
+    link: https://cursos.alura.com.br/course/observabilidade-prometheus
+  - type: COURSE
+    title: "Monitoramento: Prometheus, Grafana e Alertmanager"
+    link: https://cursos.alura.com.br/course/monitoramento-prometheus-grafana-alertmanager

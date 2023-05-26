@@ -1,0 +1,35 @@
+name: Processamento distribuído de dados
+logo: 
+short-description:
+key-objectives:
+  - Em processamento distribuído de dados usamos técnicas e ferramentas para realizar tarefas computacionais em um conjunto de máquinas conectadas, conhecido como cluster. Essas máquinas trabalham em conjunto para analisar e processar grandes volumes de dados de maneira mais eficiente do que seria possível em uma única máquina. O profissional pode usar várias ferramentas e frameworks para realizar esse trabalho, incluindo Apache Hadoop, Apache Spark e Databricks.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "O que é computação distribuída?"
+    link: https://aws.amazon.com/pt/what-is/distributed-computing/
+  - type: ARTICLE
+    title: "Apache Hadoop: O poder do processamento paralelo e distribuído"
+    link: https://medium.com/data-hackers/apache-hadoop-o-poder-do-processamento-paralelo-e-distribu%C3%ADdo-6364bbc2ee8b 
+  - type: ARTICLE
+    title: "Computação Distribuída: Processando Grandes Volumes de Dados em Larga Escala"
+    link: https://www.linkedin.com/pulse/computa%C3%A7%C3%A3o-distribu%C3%ADda-processando-grandes-volumes-de-gilmar-pupo/?originalSubdomain=pt 
+  - type: YOUTUBE
+    title: "Código Fonte TV: Apache Spark (Data Analytics poderoso) // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=4TE6AGQ0IzI 
+  - type: YOUTUBE
+    title: "Código Fonte TV: Cluster // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=1cVUpoAR2Qc 
+  - type: ARTICLE
+    title: "Arquitetura de um cluster Spark"
+    link: https://lorenadesouza.medium.com/bootcamp-de-dados-na-tw-spark-6633275480e4  
+alura-contents:
+  - type: COURSE
+    title: "Formação Apache Spark com Python"
+    link: https://cursos.alura.com.br/formacao-apache-spark-python 
+  - type: ARTICLE
+    title: "Databricks: o que é e para que serve?"
+    link: https://www.alura.com.br/artigos/databricks-o-que-e-para-que-serve  
+  - type: COURSE
+    title: "Formação Engenharia de dados com Databricks"
+    link: https://cursos.alura.com.br/formacao-databricks 

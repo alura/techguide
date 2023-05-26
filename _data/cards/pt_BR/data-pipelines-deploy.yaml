@@ -1,0 +1,32 @@
+name: Deploy de Data Pipelines
+logo: 
+short-description:
+key-objectives:
+  - O deploy de data pipelines envolve a implantação e execução de fluxos automatizados para coletar, transformar e carregar dados de diferentes fontes para um destino específico. Ele garante a disponibilidade contínua dos dados para análise e outras aplicações, incluindo agendamento, monitoramento de desempenho e resolução de problemas durante o processo. O objetivo do deploy de data pipelines é assegurar a ingestão confiável de dados para suportar análises, relatórios e tomada de decisões informadas.
+  - Na engenharia de dados, o deploy de data pipelines desempenha um papel crucial ao garantir a disponibilidade, fluxo contínuo, escalabilidade, desempenho e monitoramento dos dados, proporcionando dados confiáveis e atualizados para impulsionar insights e ações.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "How to bring your modern data pipeline to production"
+    link: https://towardsdatascience.com/how-to-bring-your-modern-data-pipeline-to-production-2f14e42ac200
+  - type: SITE
+    title: "AWS Data Pipeline"
+    link: https://aws.amazon.com/pt/datapipeline/
+  - type: SITE
+    title: "Amazon MWAA"
+    link: https://aws.amazon.com/pt/managed-workflows-for-apache-airflow/
+  - type: YOUTUBE
+    title: "O que é e quando usar o Azure Data Factory"
+    link: https://www.youtube.com/watch?v=YEz5jRGDtbk
+  - type: YOUTUBE
+    title: "Transforme e catalogue dados com o AWS Glue"
+    link: https://www.youtube.com/watch?v=HFFiAy2J2OQ
+  - type: YOUTUBE
+    title: "Best Practices for Building and Deploying Data Pipelines in Apache Spark - Vicky Avison"
+    link: https://youtu.be/1WUIua-xjJA
+  - type: YOUTUBE
+    title: "Escritório de Dados: Aula 04 - Fazendo deploy de pipelines (visão geral)"
+    link: https://www.youtube.com/watch?v=g-Jl8tqQojY
+  - type: YOUTUBE
+    title: "Escritório de Dados: Aula 05 - Fazendo deploy de pipelines (mais exemplos)"
+    link: https://www.youtube.com/watch?v=jNivNlva2sU

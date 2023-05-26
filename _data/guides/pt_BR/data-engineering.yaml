@@ -1,0 +1,85 @@
+name: Data Engineering
+expertise:
+  - name: Data Engineer Jr
+    blocks:
+      - data-engineering-fundamentals:
+        priority: 10
+      - python-fundamentals:
+        priority: 10
+      - java-fundamentals:
+        priority: 8
+      - databases-fundamentals:
+        priority: 10
+      - linux-fundamentals:
+        priority: 10
+      - big-data-principles:
+        priority: 10
+      - pipelines-and-etl:
+        priority: 10
+      - devops-and-cloud-concepts:
+        priority: 10
+      - git-and-github-fundamentals:
+        priority: 9
+  - name: Data Engineer Mid
+    blocks:
+      - distributed-data-processing:
+        priority: 10
+      - relational-databases:
+        priority: 10
+      - nosql-databases:
+        priority: 10
+      - data-pipeline-orchestration:
+        priority: 9
+      - container-management:
+        priority: 9
+      - data-warehouses:
+        priority: 10
+      - data-lakes:
+        priority: 10
+      - cloud-fundamentals:
+        priority: 10
+      - computer-networks-fundamentals:
+        priority: 8
+  - name: Data Engineer in depth
+    blocks:
+      - data-pipelines-deploy:
+        priority: 9
+      - log-management:
+        priority: 8
+      - data-mesh:
+        priority: 7
+      - streaming:
+        priority: 8
+      - data-protection:
+        priority: 9
+      - infrastructure_as_code:
+        priority: 8
+      - data-governance:
+        priority: 7
+      - ci-cd:
+        priority: 8
+collaboration:
+  - name: Arquitetura de software
+    blocks:
+      - api_building:
+        priority: 9
+      - http-fundamentals:
+        priority: 9
+      - software_testing:
+        priority: 8
+      - design-patterns:
+        priority: 6
+      - data-structures:
+        priority: 8
+  - name: Dados e Machine Learning
+    blocks:
+      - business-intelligence-fundamentals:
+        priority: 8
+      - data-extraction-and-processing:
+        priority: 9
+      - machine-learning-fundamentals:
+        priority: 7
+      - mlops:
+        priority: 6
+      - statistics-and-math-fundamentals:
+        priority: 7

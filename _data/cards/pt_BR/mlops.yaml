@@ -1,0 +1,50 @@
+name: MLOps
+logo: 
+short-description:
+key-objectives:
+  - O MLOps permite que os modelos de Machine Learning sejam implantados de maneira rápida e confiável, o que é especialmente importante em empresas que lidam com grandes volumes de dados.
+  - Ajuda a garantir a qualidade e confiabilidade dos modelos de Machine Learning em produção, além de facilitar a manutenção e atualização desses modelos.
+  - Permite que as pessoas engenheiras de dados trabalhem em conjunto com cientistas de dados e desenvolvedores de software para implementar soluções de Machine Learning em larga escala.
+  - Ajuda a garantir a governança e a conformidade dos modelos de Machine Learning com as políticas e regulamentações da empresa.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "ML Ops: Machine Learning como Disciplina de Engenharia"
+    link: https://medium.com/@cbreuel/ml-ops-machine-learning-como-disciplina-de-engenharia-a058770b93dc
+  - type: ARTICLE
+    title: "MLOps: por onde começar"
+    link: https://medium.com/datalab-log/mlops-por-onde-começar-a7679db9b10e
+  - type: YOUTUBE
+    title: "O que é MLOps?"
+    link: https://youtu.be/Z42UL_4AQvI
+  - type: YOUTUBE
+    title: "MLOps com Airflow: Pipeline automatizado de aprendizado de máquina"
+    link: https://www.youtube.com/live/oO3ToUIo3cg?feature=share
+alura-contents:
+  - type: ARTICLE
+    title: "ML Engineer, o Dev em <T>"
+    link: https://www.alura.com.br/artigos/ml-engineer-o-dev-em-t
+  - type: COURSE
+    title: "MLOps: deploy de modelos"
+    link: https://cursos.alura.com.br/course/mlops-deploy-modelos
+  - type: COURSE
+    title: "MLOps: Machine Learning e APIs"
+    link: https://cursos.alura.com.br/course/mlops-machine-learning-e-apis
+  - type: COURSE
+    title: "MLflow: gestão do ciclo de vidas de modelos de ML"
+    link: https://cursos.alura.com.br/course/mlflow-gestao-ciclo-vidas-modelos-ml
+  - type: YOUTUBE
+    title: "O que faz uma pessoa engenheira de Machine Learning?"
+    link:  https://www.youtube.com/watch?v=BRhz6v-jfMM&t=1s&ab_channel=Alura
+  - type: YOUTUBE
+    title: "O que faz uma pessoa engenheira de Machine Learning?"
+    link:  https://www.youtube.com/watch?v=BRhz6v-jfMM&t=1s&ab_channel=Alura
+  - type: PODCAST
+    title: "Engenharia de machine learning"
+    link:  https://www.alura.com.br/podcast/hipsterstech-engenharia-de-machine-learning-hipsters-ponto-tech-248-a853
+  - type: PODCAST
+    title: "Machine Learning e o MLOps"
+    link:  https://www.alura.com.br/podcast/hipsterstech-machine-learning-e-o-mlops-hipsters-171-a398
+  - type: PODCAST
+    title: "Ops em Machine Learning Revisitado"
+    link:  https://www.alura.com.br/podcast/hipsterstech-ops-em-machine-learning-revisitado-hipsters-ponto-tech-333-a1902

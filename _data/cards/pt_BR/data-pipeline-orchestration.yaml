@@ -1,0 +1,38 @@
+name: Orquestração de Data Pipelines
+logo: 
+short-description:
+key-objectives:
+  - A orquestração de data pipelines é um processo crucial na engenharia de dados que envolve o gerenciamento e a automação de fluxos de trabalho de dados. É através da orquestração que os pipelines de dados são configurados, programados e monitorados, garantindo a eficiência e a confiabilidade dos processos de extração, transformação e carga (ETL). Uma das ferramentas mais populares para orquestração de data pipelines é o Apache Airflow. Neste segmento, você aprenderá os fundamentos da orquestração de data pipelines, incluindo conceitos importantes, técnicas e melhores práticas.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Data Pipeline Orchestration"
+    link: https://towardsdatascience.com/data-pipeline-orchestration-9887e1b5eb7a 
+  - type: ARTICLE 
+    title: "Escolhendo uma tecnologia para orquestração de Dataworkflow"
+    link: https://johnosd.medium.com/escolhendo-uma-tecnologia-para-orquestra%C3%A7%C3%A3o-de-dataworkflow-b2ba99f6a497 
+  - type: SITE
+    title: "Apache Airflow"
+    link: https://airflow.apache.org/ 
+  - type: ARTICLE
+    title: "Apache Airflow: conceitos iniciais"
+    link: https://medium.com/datarisk-io/apache-airflow-conceitos-iniciais-e09c0dd18141 
+  - type: ARTICLE
+    title: "Primeiros passos com o Apache Airflow: ETL fácil, robusto e de baixo custo"
+    link: https://medium.com/data-hackers/primeiros-passos-com-o-apache-airflow-etl-f%C3%A1cil-robusto-e-de-baixo-custo-f80db989edae 
+  - type: ARTICLE
+    title: "Criando a primeira DAG no Airflow em 10 minutos"
+    link: https://estevestoni.medium.com/criando-a-primeira-dag-no-airflow-em-10-minutos-5b135618fe18  
+  - type: YOUTUBE
+    title: "Eduardo Mendes: Live de Python #123 - Apache Airflow com Juan Funez"
+    link: https://www.youtube.com/watch?v=LMk78Dmk0qU  
+alura-contents:
+  - type: ARTICLE
+    title: "Airflow - Entendendo os DAGs"
+    link: https://www.alura.com.br/artigos/airflow-entendendo-dags 
+  - type: COURSE
+    title: "Apache Airflow: orquestrando seu primeiro pipeline de dados"
+    link: https://cursos.alura.com.br/course/apache-airflow-primeiro-pipeline-dados 
+  - type: COURSE
+    title: "Formação Apache Airflow "
+    link: https://cursos.alura.com.br/formacao-apache-airflow 

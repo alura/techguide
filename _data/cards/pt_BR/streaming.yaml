@@ -1,0 +1,30 @@
+name: Streaming
+logo:
+short-description:
+key-objectives: 
+  - Streaming é o processamento e transmissão contínua de dados em tempo real, à medida que são gerados. Diferentemente do armazenamento tradicional, onde os dados são coletados e processados posteriormente, o streaming permite a análise e o uso imediato dos dados à medida que são recebidos. Essa abordagem é ideal para lidar com grandes volumes de dados em alta velocidade, permitindo a detecção de padrões em tempo real, tomada de decisões instantâneas e resposta rápida a eventos em andamento.
+  - O streaming desempenha um papel essencial na engenharia de dados, capacitando as organizações a processar, analisar e tomar decisões com base em dados em tempo real. Isso resulta em maior agilidade, escalabilidade e reatividade, possibilitando uma tomada de decisões mais informada e orientada por insights atualizados.
+aditional-objectives:
+contents: 
+  - type: SITE
+    title: "O que é streaming de dados?"
+    link: https://www.tibco.com/pt-br/reference-center/what-is-data-streaming
+  - type: YOUTUBE
+    title: "Kafka (Plataforma de Mensageria e Streaming)"
+    link: https://www.youtube.com/watch?v=qOqXz5Qv_-8
+  - type: YOUTUBE
+    title: "Processando 1bi de mensagens com open source"
+    link: https://www.youtube.com/watch?v=SEBv4N595eY
+  - type: YOUTUBE
+    title: "Streaming de Dados"
+    link: https://www.youtube.com/watch?v=PaUeW5a-PTs
+alura-contents: 
+  - type: ARTICLE
+    title: "Spark Streaming "
+    link: https://www.alura.com.br/artigos/spark-streaming
+  - type: COURSE
+    title: "Kafka: Produtores, Consumidores e streams"
+    link: https://cursos.alura.com.br/course/kafka-introducao-a-streams-em-microservicos
+  - type: COURSE
+    title: "Formação Mensageria com Apache Kafka"
+    link: https://cursos.alura.com.br/formacao-kafka

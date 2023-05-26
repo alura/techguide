@@ -1,0 +1,39 @@
+name: Criação e manipulação de APIs
+logo:
+short-description:
+key-objectives:
+  - "Criação e manipulação de APIs" envolvem o desenvolvimento e interação com Interfaces de Programação de Aplicativos. APIs são conjuntos de regras que permitem que diferentes sistemas se comuniquem e compartilhem dados. A criação de APIs implica em projetar endpoints que permitem o acesso e interação com recursos específicos, enquanto a manipulação envolve utilizar APIs existentes para realizar tarefas específicas, como autenticação, envio de solicitações e processamento de dados retornados. Essas práticas são cruciais para a integração eficiente de sistemas e aplicativos em diferentes áreas de desenvolvimento.
+  - A criação e manipulação de APIs são fundamentais na engenharia de dados, permitindo a troca eficiente de dados entre sistemas, a integração com serviços externos e a colaboração entre equipes. As APIs simplificam a coleta, processamento e distribuição de informações, ajudando a construir pipelines de dados robustos e escaláveis.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Red Hat: O que é API?"
+    link: https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces 
+  - type: YOUTUBE
+    title: "Código Fonte TV: API // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=vGuqKIRWosk 
+  - type: ARTICLE
+    title: "Como CRIAR a sua PRIMEIRA API em python com o FastAPI"
+    link:  https://medium.com/data-hackers/como-criar-a-sua-primeira-api-em-python-com-o-fastapi-50b1d7f5bb6d 
+  - type: ARTICLE
+    title: "Criação de uma API Rest com Python"
+    link: https://nataniel-paiva.medium.com/cria%C3%A7%C3%A3o-de-uma-api-rest-com-python-76696d17bfb9 
+  - type: YOUTUBE
+    title: "Eduardo Mendes: API REST - Live de Python"
+    link: https://www.youtube.com/watch?v=1_nQ5A2HcgU 
+alura-contents:
+  - type: COURSE
+    title: "Formação Django REST APIs: crie aplicações REST em Python"
+    link:  https://cursos.alura.com.br/formacao-django-rest 
+  - type: COURSE
+    title: "Formação Começando com Flask: framework web de Python"
+    link:  https://cursos.alura.com.br/formacao-flask 
+  - type: ARTICLE
+    title: "Django ou Flask: características, semelhanças e diferenças"
+    link:  https://www.alura.com.br/artigos/django-ou-flask 
+  - type: COURSE
+    title: "Curso Java: consumindo API, gravando arquivos e lidando com erros"
+    link: https://cursos.alura.com.br/course/java-consumindo-api-gravando-arquivos-lidando-erros 
+  - type: COURSE
+    title: "Curso Swagger: documentando suas APIs"
+    link:  https://cursos.alura.com.br/course/swagger-documentando-apis  

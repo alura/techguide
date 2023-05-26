@@ -1,0 +1,35 @@
+name: Testes de software
+logo:
+short-description:
+key-objectives:
+- Testes de software referem-se ao processo de avaliar e validar um software para garantir que ele esteja funcionando corretamente e atenda aos requisitos estabelecidos. Esses testes envolvem a execução de diferentes cenários e casos de uso, identificando bugs, erros e garantindo a qualidade do software.
+- Na engenharia de dados, os testes de software são essenciais para garantir a precisão e confiabilidade dos pipelines de dados e dos sistemas de armazenamento, processamento e distribuição de dados. Ao realizar testes rigorosos, os engenheiros de dados podem identificar e corrigir erros ou inconsistências nos dados, garantindo a integridade e a consistência dos fluxos de dados. Além disso, os testes de software ajudam a validar as transformações e os processos de manipulação de dados, certificando-se de que os dados sejam processados corretamente e estejam em conformidade com as regras de negócio. Isso resulta em um ambiente de engenharia de dados mais confiável, seguro e de alta qualidade, garantindo que os dados sejam consistentes e precisos para análise, tomada de decisões e outras atividades relacionadas aos dados.
+
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Você sabe o que é teste de software e por que ele é necessário?"
+    link: https://medium.com/cwi-software/voc%C3%AA-sabe-o-que-%C3%A9-teste-de-software-e-por-que-ele-%C3%A9-necess%C3%A1rio-23158c439267 
+  - type: ARTICLE
+    title: "O que são testes unitários e como executá-los em Python"
+    link: https://medium.com/itautech/o-que-s%C3%A3o-testes-unit%C3%A1rios-e-como-execut%C3%A1-los-em-python-4d4a1b780fd6 
+  - type: ARTICLE
+    title: "Como testar seus ETLs e tornar seu sistema de Dados mais confiável"
+    link: https://medium.com/@bernardo.costa/como-testar-seus-etls-e-tornar-seu-sistema-de-dados-mais-confi%C3%A1vel-20811d4d4a6 
+  - type: YOUTUBE
+    title: "Mauro de Boni: Curso de Teste de Software para iniciantes"
+    link: https://www.youtube.com/watch?v=dc3DBWgt8gw&list=PLx6gdu4s3nkf4OcLZ--TgMCHr22H7TDCs 
+  - type: ARTICLE
+    title: "Tutorial: Testes Unitários e Python — Parte I"
+    link: https://medium.com/mercos-engineering/tutorial-testes-unit%C3%A1rios-e-python-parte-i-bb77182db93f
+  - type: ARTICLE
+    title: "Testes Unitários e Python — Parte II: Mocks, APIs & Star Wars"
+    link: https://medium.com/mercos-engineering/testes-unit%C3%A1rios-e-python-parte-ii-mocks-apis-star-wars-ou-como-consumir-uma-api-rest-3a24d153db59 
+
+alura-contents:
+  - type: COURSE
+    title: "Curso Python e TDD: explorando testes unitários"
+    link: https://cursos.alura.com.br/course/python-tdd-explorando-testes-unitarios 
+  - type: COURSE
+    title: "Curso TDD e Java: testes automatizados com JUnit"
+    link: https://cursos.alura.com.br/course/tdd-java-testes-automatizados-junit 
