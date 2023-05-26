@@ -1,7 +1,9 @@
 name: Data Engineering
+tags: 
+  - data
 expertise:
   - name: Data Engineer Jr
-    blocks:
+    cards:
       - data-engineering-fundamentals:
         priority: 10
       - python-fundamentals:
@@ -21,7 +23,7 @@ expertise:
       - git-and-github-fundamentals:
         priority: 9
   - name: Data Engineer Mid
-    blocks:
+    cards:
       - distributed-data-processing:
         priority: 10
       - relational-databases:
@@ -41,7 +43,7 @@ expertise:
       - computer-networks-fundamentals:
         priority: 8
   - name: Data Engineer in depth
-    blocks:
+    cards:
       - data-pipelines-deploy:
         priority: 9
       - log-management:
@@ -60,7 +62,7 @@ expertise:
         priority: 8
 collaboration:
   - name: Arquitetura de software
-    blocks:
+    cards:
       - api_building:
         priority: 9
       - http-fundamentals:
@@ -72,7 +74,7 @@ collaboration:
       - data-structures:
         priority: 8
   - name: Dados e Machine Learning
-    blocks:
+    cards:
       - business-intelligence-fundamentals:
         priority: 8
       - data-extraction-and-processing:
