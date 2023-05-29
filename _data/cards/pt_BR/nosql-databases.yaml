@@ -1,0 +1,29 @@
+name: Bancos de dados não relacionais
+logo: 
+short-description:
+key-objectives:
+  - Os bancos de dados não relacionais, também conhecidos como bancos de dados NoSQL, são uma alternativa aos bancos de dados relacionais tradicionais. Eles são particularmente adequados para lidar com grandes volumes de dados estruturados e não estruturados e são capazes de escalar horizontalmente em vários servidores para suportar cargas de trabalho pesadas. Entre os bancos de dados NoSQL mais populares estão o MongoDB e o Datomic. Neste segmento, você aprenderá os fundamentos dos bancos de dados NoSQL, suas características e usos típicos.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "AWS: O que é NoSQL?"
+    link: https://aws.amazon.com/pt/nosql/ 
+  - type: ARTICLE
+    title: "NoSQL — O que são? Onde habitam? Do que se alimentam?"
+    link: https://medium.com/permalink-univesp/nosql-o-que-s%C3%A3o-onde-habitam-do-que-se-alimentam-2ccd4cc39571 
+  - type: YOUTUBE
+    title: "Código Fonte TV: MongoDB (O Banco de Dados NoSQL mais Legal)"
+    link: https://www.youtube.com/watch?v=4dTI1mVLX3I 
+  - type: ARTICLE
+    title: "Principais diferenças de um banco de dados tradicional e o MongoDB"
+    link: https://papito.medium.com/principais-diferen%C3%A7as-de-um-banco-de-dados-tradicional-e-o-mongodb-4fc1117453f8 
+  - type: YOUTUBE
+    title: "Ricardo Leme: Introdução ao NoSQL-MongoDB"
+    link: https://www.youtube.com/watch?v=kedLyo95fGU&list=PLyqlZW5s3wkoMhARQKp3s4YtaeKucb0Xj  
+alura-contents:
+  - type: COURSE
+    title: "MongoDB"
+    link: https://cursos.alura.com.br/formacao-mongodb
+  - type: COURSE
+    title: "Datomic"
+    link: https://cursos.alura.com.br/formacao-datomic

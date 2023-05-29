@@ -1,0 +1,45 @@
+name: Data Warehouses
+logo: 
+short-description:
+key-objectives:
+  - Um Data Warehouse é um sistema de armazenamento de dados projetado para análise de negócios, suportando processamento de transações e consultas complexas. Ele permite a consolidação de dados de várias fontes, fornecendo um ambiente unificado para análise de dados. Com recursos de normalização e limpeza de dados, garante a qualidade e a consistência dos dados armazenados. Soluções de Data Warehouse populares incluem Google BigQuery, Amazon Redshift e Snowflake, cada uma com suas próprias características e benefícios únicos.
+  - Data Warehouses desempenham um papel crucial na engenharia de dados. Eles fornecem uma infraestrutura que facilita a gestão, o processamento e a análise de grandes volumes de dados. Sua capacidade de armazenar e processar grandes quantidades de dados de várias fontes permite análises avançadas e suporte à tomada de decisões, o que é fundamental no atual cenário empresarial orientado por dados. Os engenheiros de dados projetam, constroem e mantêm data warehouses para garantir que os dados estejam acessíveis, seguros e prontos para análise. Além disso, soluções modernas de data warehouse, como o BigQuery, o Amazon Redshift e o Snowflake, oferecem capacidades de escalabilidade e flexibilidade para lidar com o crescente volume, velocidade e variedade de dados, tornando-se ainda mais valiosos para a engenharia de dados.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "AWS: O que é um data warehouse?"
+    link: https://aws.amazon.com/pt/data-warehouse/ 
+  - type: SITE
+    title: "Oracle: O que é um data warehouse?"
+    link: https://www.oracle.com/br/database/what-is-a-data-warehouse/ 
+  - type: ARTICLE
+    title: "Aprofundando em Data Warehouse…"
+    link: https://medium.com/@aasouzaconsult/aprofundando-em-data-warehouse-65ed2bca9a33 
+  - type: SITE
+    title: "O que é o BigQuery?"
+    link: https://cloud.google.com/bigquery/docs/introduction?hl=pt-br 
+  - type: SITE
+    title: "GCP: O que é o BigQuery?"
+    link: https://cloud.google.com/bigquery/docs/introduction?hl=pt-br 
+  - type: SITE
+    title: "AWS: O que é o Amazon Redshift?"
+    link: https://docs.aws.amazon.com/pt_br/redshift/latest/mgmt/welcome.html 
+  - type: SITE
+    title: "Snowflake: Conceitos-chave e arquitetura?"
+    link: https://docs.snowflake.com/pt/user-guide/intro-key-concepts 
+  - type: YOUTUBE
+    title: "Tutorial: Construindo seu primeiro Data Warehouse na Nuvem"
+    link: https://www.youtube.com/watch?v=Aeg8o5xJoN8
+alura-contents:
+  - type: YOUTUBE
+    title: "Trabalhando com Google Data Studio e Big Query"
+    link: https://www.youtube.com/watch?v=4ik8yUZ2YtY
+  - type: COURSE
+    title: "Formação Google BigQuery e DataStudio"
+    link: https://cursos.alura.com.br/formacao-google-bigquery-datastudio 
+  - type: COURSE
+    title: "Formação BI e Data Warehouse com SQL Server e Power BI"
+    link: https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse 
+  - type: COURSE
+    title: "Formação BI e Data Warehouse com Pentaho"
+    link: https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-pentaho 

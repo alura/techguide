@@ -1,0 +1,45 @@
+name: Data Lakes
+logo: 
+short-description:
+key-objectives:
+  - Um Data Lake é uma arquitetura de armazenamento de dados que permite o armazenamento de grandes volumes de dados brutos em seu formato original, provenientes de diversas fontes e em vários formatos, como estruturado, semiestruturado e não estruturado. Diferentemente do Data Warehouse, que exige que os dados sejam limpos e estruturados antes de serem armazenados, o Data Lake permite o armazenamento de dados "como estão", proporcionando flexibilidade para transformar e processar os dados conforme necessário para fins de análise.
+  - Data Lakes são fundamentais para a engenharia de dados devido à sua capacidade de lidar com a crescente variedade, volume e velocidade de dados gerados no mundo digital atual. Eles fornecem um meio econômico e escalável para armazenar e analisar grandes volumes de dados de diversas fontes, o que é fundamental para análises avançadas, como aprendizado de máquina e análise preditiva. Os engenheiros de dados são responsáveis pela construção e manutenção de Data Lakes, garantindo a ingestão de dados de maneira eficiente, o gerenciamento seguro dos dados e a implementação de processos de governança de dados. Além disso, os Data Lakes suportam a democratização dos dados, permitindo que diferentes partes interessadas, desde cientistas de dados até analistas de negócios, acessem os dados necessários para gerar insights valiosos.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "AWS: O que é um data lake?"
+    link: https://aws.amazon.com/pt/big-data/datalakes-and-analytics/what-is-a-data-lake/
+  - type: YOUTUBE
+    title: "Código Fonte TV: Data Warehouse / Data Lake / Data Lakehouse"
+    link: https://www.youtube.com/watch?v=V07Pk4de-5M
+  - type: ARTICLE
+    title: "Data Lake: O componente essencial em uma Estratégia de Dados"
+    link: https://www.linkedin.com/pulse/data-lake-o-componente-essencial-em-uma-estrat%C3%A9gia-de-brito-ruiz/?originalSubdomain=pt
+  - type: ARTICLE
+    title: "Conceito de Datalake e armazenamentos possíveis"
+    link: https://medium.com/rescuepoint/conceito-de-datalake-e-armazenamentos-poss%C3%ADveis-65f337924fc8
+  - type: ARTICLE
+    title: "Data Lake x Data Warehouse: Onde armazenar seus dados?"
+    link: https://medium.com/datalakers-blog/data-lake-x-data-warehouse-onde-armazenar-seus-dados-67534c9dcfad
+  - type: YOUTUBE
+    title: "Seu primeiro passo no mundo analítico - Criando o primeiro datalake na AWS"
+    link: https://www.youtube.com/watch?v=sVFT-XK6rk4
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: O que são Data Lakes?"
+    link: https://www.youtube.com/watch?v=GkhuRcHsVMk
+  - type: ARTICLE
+    title: "Data Lake vs Data Warehouse"
+    link: https://www.alura.com.br/artigos/data-lake-vs-data-warehouse
+  - type: PODCAST
+    title: "Hipsters.tech: Data Lakes"
+    link: https://www.hipsters.tech/data-lakes-hipsters-ponto-tech-269/
+  - type: COURSE
+    title: "Formação Engenharia de dados com Databricks"
+    link: https://cursos.alura.com.br/formacao-databricks
+  - type: SITE
+    title: "Hotmart e a Democratização de dados em um cenário de microsserviços"
+    link: https://cursos.alura.com.br/extra/cases/hotmart-e-a-democratizacao-de-dados-em-um-cenario-de-microsservicos-z1066
+  - type: SITE
+    title: "Banco Pan e a Jornada de construção de um Data Lake"
+    link: https://cursos.alura.com.br/extra/cases/banco-pan-e-a-jornada-de-construcao-de-um-data-lake-z1284

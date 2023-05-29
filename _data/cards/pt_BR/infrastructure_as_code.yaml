@@ -1,0 +1,33 @@
+name: Infraestrutura como código (IaC)
+logo:
+short-description:
+key-objectives:
+- Infraestrutura como código (IaC) é uma abordagem em que a infraestrutura de TI, incluindo servidores, redes e recursos relacionados, é gerenciada e provisionada por meio de código. Em vez de configurar manualmente a infraestrutura, o IaC utiliza arquivos de configuração ou scripts que descrevem a infraestrutura desejada de forma automatizada e reproduzível.
+- A infraestrutura como código é de extrema importância na engenharia de dados, pois permite uma gestão eficiente e escalável dos recursos de infraestrutura necessários para processamento e armazenamento de dados. Com o IaC, é possível definir, provisionar e configurar ambientes de maneira consistente, rápida e controlada. Isso facilita a implantação e manutenção de pipelines de dados, ambientes de desenvolvimento e testes, clusters de processamento distribuído e outros componentes necessários para a engenharia de dados. Além disso, o IaC permite a automação e o versionamento da infraestrutura, proporcionando maior agilidade, rastreabilidade e garantia de qualidade no gerenciamento dos recursos de TI.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Red Hat: O que é infraestrutura como código (IaC)?"
+    link: https://youtu.be/_iho2OK_LDg
+  - type: YOUTUBE
+    title: "O que é Infrastructure as code? (IaC) Infraestrutura como código"
+    link: https://youtu.be/_iho2OK_LDg
+  - type: ARTICLE
+    title: "IaC — Infraestrutura como código"
+    link: https://medium.com/sysvale/iac-infraestrutura-como-c%C3%B3digo-c514a869b88d 
+  - type: YOUTUBE
+    title: "Código Fonte TV: Terraform em 10 Minutos // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=0EAjJe8aPkc 
+  - type: YOUTUBE
+    title: "Terraform: infraestrutura como código"
+    link: https://www.youtube.com/watch?v=tE1WZg9ib8k 
+alura-contents:
+  - type: COURSE
+    title: "Curso Infraestrutura como código: preparando máquinas na AWS com Ansible e Terraform"
+    link: https://cursos.alura.com.br/course/infraestrutura-codigo-maquinas-aws-ansible-terraform  
+  - type: COURSE
+    title: "Formação DevOps"
+    link: https://cursos.alura.com.br/formacao-devops 
+  - type: COURSE
+    title: "Formação Infraestrutura como código"
+    link: https://cursos.alura.com.br/formacao-infraestrutura-codigo 

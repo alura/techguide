@@ -20,13 +20,31 @@ contents:
   - type: YOUTUBE
     title: "Celso Cestaro: Python para data science - limpando dados"
     link: https://www.youtube.com/watch?v=t18Ogc8rNyo
+  - type: ARTICLE
+    title: "Como fazer uma limpeza de dados completa em Python"
+    link: https://medium.com/turing-talks/como-fazer-uma-limpeza-de-dados-completa-em-python-7abc9dfc19b8 
+  - type: YOUTUBE
+    title: "xavecoding: Manipulação de Dados em Python/Pandas"
+    link: https://www.youtube.com/watch?v=qKeM93NTKQM 
+  - type: YOUTUBE
+    title: "Bix Tecnologia: Tratamento de Dados com Python (Webinar)"
+    link: https://www.youtube.com/watch?v=slv1f2YpMJE 
 alura-contents:
+  - type: ARTICLE
+    title: "Pandas: o que é, para que serve e como instalar"
+    link: https://www.alura.com.br/artigos/pandas-o-que-e-para-que-serve-como-instalar 
   - type: COURSE
-    title: "Curso Data Science: analise e visualização de dados"
-    link: https://cursos.alura.com.br/course/data-science-primeiros-passos
+    title: "Curso Pandas: conhecendo a biblioteca"
+    link: https://cursos.alura.com.br/course/pandas-conhecendo-biblioteca 
   - type: COURSE
-    title: "Curso Python Pandas: tratando e analisando dados"
-    link: https://cursos.alura.com.br/course/introducao-python-pandas
+    title: "Curso Pandas I/O: trabalhando com diferentes formatos de arquivos"
+    link: https://cursos.alura.com.br/course/pandas-io-trabalhando-diferentes-formatos-arquivos 
+  - type: COURSE
+    title: "Curso Pandas: seleção e agrupamento de dados"
+    link: https://cursos.alura.com.br/course/pandas-selecao-agrupamento-dados 
+  - type: COURSE
+    title: "Curso Pandas: transformação e manipulação de dados"
+    link: https://cursos.alura.com.br/course/pandas-transformacao-manipulacao-dados 
   - type: CHALLENGE
     title: "7 Days of Code: Python Pandas"
     link: https://7daysofcode.io/matricula/pandas

@@ -1,0 +1,63 @@
+name: Gerenciamento de Contêineres
+logo: 
+short-description: 
+key-objectives:
+  - Gerenciamento de contêineres é uma área crucial na computação em nuvem e DevOps, que envolve o uso de tecnologias para automatizar o processo de criação, implantação, escalonamento e monitoramento de contêineres. Contêineres são unidades de software padronizadas que permitem aos desenvolvedores empacotar todas as dependências de um aplicativo (código, bibliotecas, configurações, etc.) em um único pacote. Isso permite que o aplicativo seja executado de forma consistente em qualquer ambiente de infraestrutura.
+  - A tecnologia de contêineres, como exemplificada pelo Docker, fornece um ambiente consistente e portátil para desenvolvimento, teste e implantação de aplicativos, o que é vital para o trabalho eficiente de engenharia de dados. Além disso, o Kubernetes, um sistema de orquestração de contêineres, permite o gerenciamento, a automação e a escalabilidade de aplicações baseadas em contêineres em ambientes de produção. Dominar esses conceitos e tecnologias possibilita a engenheiros de dados construir e manter pipelines de dados eficientes e confiáveis, o que é cada vez mais importante em um mundo onde a quantidade de dados está crescendo exponencialmente.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Google Cloud: O que são contêineres?"
+    link: https://cloud.google.com/learn/what-are-containers?hl=pt-br 
+  - type: YOUTUBE
+    title: "Código Fonte TV: Containers // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=-pUZBovqRcU 
+  - type: ARTICLE
+    title: "Docker: Do Zero a Marinheiro"
+    link: https://medium.com/data-hackers/docker-do-zero-a-marinheiro-adf4d9087f76 
+  - type: ARTICLE
+    title: "Primeiros Passos com Docker: Conceitos Básicos à Criação de sua Primeira Imagem"
+    link: https://medium.com/cwi-software/primeiros-passos-com-docker-conceitos-b%C3%A1sicos-%C3%A0-cria%C3%A7%C3%A3o-de-sua-primeira-imagem-f6ac2a3c9d25  
+  - type: YOUTUBE
+    title: "Código Fonte TV: Kubernetes // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=mVL0nOM3AGo 
+  - type: ARTICLE
+    title: "Kubernetes"
+    link: https://medium.com/tecnologia-e-afins/kubernetes-f456e59332d3    
+  - type: ARTICLE
+    title: "Red Hat: Kubernetes (K8s)"
+    link: https://www.redhat.com/pt-br/topics/containers/what-is-kubernetes 
+  - type: ARTICLE
+    title: "Kubernetes - Guia de Referência Gratuito"
+    link: https://renatogroffe.medium.com/kubernetes-guia-de-refer%C3%AAncia-gratuito-a2c1be8e7593 
+  - type: YOUTUBE
+    title: " Insight Lab: Curso de Introdução ao Kubernetes"
+    link: https://www.youtube.com/watch?v=bcRArpK00OU&ab_channel=InsightLab 
+alura-contents:
+  - type: YOUTUBE
+    title: "Hipsters.tube: Containers, Docker e Kubernetes com Giovanni Bassi"
+    link: https://www.youtube.com/watch?v=wxLvvMxzc1Q 
+  - type: YOUTUBE
+    title: "O que são Containers?"
+    link: https://youtu.be/jv4_sLlGOS0 
+  - type: ARTICLE
+    title: "Começando com Docker"
+    link: https://www.alura.com.br/artigos/comecando-com-docker 
+  - type: ARTICLE
+    title: "O que é Kubernetes"
+    link: https://www.alura.com.br/artigos/o-que-e-kubernetes 
+  - type: PODCAST
+    title: "Hipsters.tech: Containers e Docker"
+    link: https://cursos.alura.com.br/extra/hipsterstech/containers-e-docker-hipsters-75-a511 
+  - type: PODCAST
+    title: "Hipsters.tech: Kubernetes"
+    link: https://www.alura.com.br/podcast/kubernetes-hipsters-177-a389  
+  - type: COURSE
+    title: "Curso Docker: criando e gerenciando containers"
+    link: https://cursos.alura.com.br/course/docker-criando-gerenciando-containers?preRequirementFrom=docker-na-amazon-ecs 
+  - type: COURSE
+    title: "Curso Kubernetes: Pods, Services e ConfigMaps"
+    link: https://cursos.alura.com.br/course/kubernetes-pods-services-configmap  
+  - type: COURSE
+    title: "Formação Orquestração de containers com Kubernetes"
+    link: https://cursos.alura.com.br/formacao-kubernetes  
