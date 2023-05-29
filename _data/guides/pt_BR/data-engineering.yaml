@@ -10,11 +10,12 @@ expertise:
         priority: 10
       - java-fundamentals:
         priority: 8
+        optional: true
       - databases-fundamentals:
         priority: 10
       - linux-fundamentals:
         priority: 10
-      - big-data-principles:
+      - big-data-fundamentals:
         priority: 10
       - pipelines-and-etl:
         priority: 10
@@ -32,7 +33,7 @@ expertise:
         priority: 10
       - data-pipeline-orchestration:
         priority: 9
-      - container-management:
+      - containers:
         priority: 9
       - data-warehouses:
         priority: 10
