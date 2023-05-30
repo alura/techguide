@@ -121,7 +121,7 @@
    - Conhecer os tipos primitivos
    - Declarar variáveis, considerando os diferentes tipos
    - Usar estruturas condicionais ('if', 'else')
-   - Conhecer os operadores de comparação
+   - Conhecer os operadores de atribuição e comparação
    - Usar estruturas de repetição e laços ('while', 'for')
    - Usar funções, passando parâmetros e argumentos
    - Manipular métodos
@@ -134,7 +134,7 @@
    - Conhecer os tipos primitivos
    - Declarar variáveis, considerando os diferentes tipos
    - Usar estruturas condicionais ('if', 'else')
-   - Conhecer os operadores de comparação
+   - Conhecer os operadores de atribuição e comparação
    - Usar estruturas de repetição e laços ('while', 'for')
    - Usar funções, passando parâmetros e argumentos
    - Manipular métodos
@@ -147,7 +147,7 @@
    - Conhecer os tipos primitivos
    - Declarar variáveis, considerando a diferença entre 'var', 'let' e 'const'
    - Usar estruturas condicionais ('if', 'else')
-   - Conhecer os operadores de comparação ('=', '==', '===')
+   - Conhecer os operadores de atribuição e comparação ('=', '==', '===')
    - Usar estruturas de repetição e laços ('while', 'for')
    - Usar funções, passando parâmetros e argumentos
    - Manipular arrays e listas
@@ -160,7 +160,7 @@
    - Conhecer os tipos primitivos
    - Declarar variáveis
    - Usar estruturas condicionais ('if', 'else')
-   - Conhecer os operadores de comparação ('=', '==', '===')
+   - Conhecer os operadores de atribuição e comparação ('=', '==', '===')
    - Usar estruturas de repetição e laços ('while', 'for')
    - Usar funções, passando parâmetros e argumentos
    - Manipular arrays e listas
@@ -169,7 +169,7 @@
    - Conhecer os tipos primitivos
    - Declarar variáveis, considerando os diferentes tipos
    - Usar estruturas condicionais ('if', 'else')
-   - Conhecer os operadores de comparação
+   - Conhecer os operadores de atribuição e comparação
    - Usar estruturas de repetição e laços ('while', 'for')
    - Usar funções, passando parâmetros e argumentos
    - Manipular métodos
