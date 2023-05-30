@@ -5,7 +5,7 @@
    - Knowing the primitive types
    - Declaring variables, considering the different types
    - Using conditional structures ('if', 'else')
-   - Know the assignment and comparison operators
+   - Knowing the assignment and comparison operators
    - Using repetition structures and loops ('while', 'for')
    - Using functions, passing parameters and arguments
    - Manipulating methods

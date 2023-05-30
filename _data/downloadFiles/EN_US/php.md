@@ -203,7 +203,7 @@
    - Knowing the primitive types
    - Declaring variables, considering the difference between 'var', 'let' and 'const
    - Using conditional structures ('if', 'else')
-   - Knowing the assignment and comparison operators ('==', '===')
+   - Know the assignment and comparison operators ('=', '==', '===')
    - Using repetition structures and loops ('while', 'for')
    - Using functions, passing parameters and arguments
    - Manipulating arrays and lists
