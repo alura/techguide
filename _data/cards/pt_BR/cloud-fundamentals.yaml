@@ -8,55 +8,94 @@ key-objectives:
   - Especializar-se em algum provedor
 aditional-objectives:
 contents:
- - type: ARTICLE
-   title: "Computação em nuvem"
-   link: https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9
- - type: ARTICLE
-   title: "O que é cloud?"
-   link: https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6
+  - type: ARTICLE
+    title: "Computação em nuvem"
+    link: https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9
+  - type: ARTICLE
+    title: "O que é cloud?"
+    link: https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6
+  - type: YOUTUBE
+    title: "Gabs Ferreira: Por que investir e estudar cloud?"
+    link: https://www.youtube.com/watch?v=Z45BTNeZ1l0
+  - type: YOUTUBE
+    title: "Andre Iacono: O que é MICROSOFT AZURE? Qual Certificação começar em 2022?"
+    link: https://www.youtube.com/watch?v=f-oVzkvMwnE
+  - type: YOUTUBE
+    title: "AWS: O que é a AWS?"
+    link: https://www.youtube.com/watch?v=8JI9wQ8sUdQ 
+  - type: YOUTUBE
+    title: "O que é Google Cloud e por que aprender?"
+    link: https://www.youtube.com/shorts/Lzq3f1DHWcI
+  - type: ARTICLE
+    title: "AWS vs Google Cloud vs Azure: o que cada um tem de melhor?"
+    link: https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7 
+  - type: YOUTUBE
+    title: "Código Fonte TV: Azure (A plataforma Cloud da Microsoft)"
+    link: https://www.youtube.com/watch?v=YgE-sZaCuJ0 
+  - type: YOUTUBE
+    title: "Mundo da Cloud: AWS do Zero ao Expert"
+    link: https://www.youtube.com/watch?v=HiBCv9DolxI&list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz 
 alura-contents:
- - type: PODCAST
-   title: "Hipsters.tech: TechGuide - Fundamentos Cloud – Hipsters Ponto Tech #348"
-   link: https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/
- - type: ARTICLE
-   title: "Cloud: o que é, História e Guia da computação em nuvem"
-   link: https://www.alura.com.br/artigos/aws
- - type: PODCAST
-   title: "Hipsters.tech: Uma jornada Para o Cloud - Hipsters Deep Dive 005"
-   link: https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100
- - type: PODCAST
-   title: "Hipsters.tech: Histórias do Cloud - Hipsters 04"
-   link: https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582
- - type: ARTICLE
-   title: "O que é Cloud e seus principais serviços"
-   link: https://www.alura.com.br/artigos/o-que-e-cloud-e-seus-principais-servicos
- - type: ARTICLE
-   title: "Cloud: falando um pouco sobre Infraestrutura"
-   link: https://www.alura.com.br/artigos/cloud-falando-sobre-infraestrutura
- - type: ARTICLE
-   title: "Heroku, Vercel e outras opções de cloud como plataforma"
-   link: https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma
- - type: ARTICLE
-   title: "AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações"
-   link: https://www.alura.com.br/artigos/aws
- - type: ARTICLE
-   title: "Terraform: criando máquinas na Azure"
-   link: https://www.alura.com.br/artigos/terraform-maquinas-na-azure
- - type: YOUTUBE
-   title: "Alura: O que é cloud?"
-   link: https://www.YOUTUBE.com/watch?v=wev9fMrg-TU
- - type: YOUTUBE
-   title: "Alura: AWS, Google Cloud e Azure: Por onde começar? | Hipsters.Talks"
-   link: https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&t=300s
- - type: YOUTUBE
-   title: "Alura: Certificação em Cloud: Azure, AWS, Google | Hipsters.Talks"
-   link: https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&t=290s
- - type: COURSE
-   title: "Formação Começando em Cloud Computing"
-   link: https://cursos.alura.com.br/formacao-cloud-computing
- - type: COURSE
-   title: "Formação Amazon Web Services"
-   link: https://cursos.alura.com.br/formacao-amazon-web-services
- - type: COURSE
-   title: "Formação Google Certified Associate Cloud Engineer"
-   link: https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer
+  - type: PODCAST
+    title: "Hipsters.tech: TechGuide - Fundamentos Cloud – Hipsters Ponto Tech #348"
+    link: https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/
+  - type: ARTICLE
+    title: "Cloud: o que é, História e Guia da computação em nuvem"
+    link: https://www.alura.com.br/artigos/aws
+  - type: PODCAST
+    title: "Hipsters.tech: Uma jornada Para o Cloud - Hipsters Deep Dive 005"
+    link: https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100
+  - type: PODCAST
+    title: "Hipsters.tech: Histórias do Cloud - Hipsters 04"
+    link: https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582
+  - type: ARTICLE
+    title: "O que é Cloud e seus principais serviços"
+    link: https://www.alura.com.br/artigos/o-que-e-cloud-e-seus-principais-servicos
+  - type: ARTICLE
+    title: "Cloud: falando um pouco sobre Infraestrutura"
+    link: https://www.alura.com.br/artigos/cloud-falando-sobre-infraestrutura
+  - type: ARTICLE
+    title: "Heroku, Vercel e outras opções de cloud como plataforma"
+    link: https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma
+  - type: ARTICLE
+    title: "AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações"
+    link: https://www.alura.com.br/artigos/aws
+  - type: ARTICLE
+    title: "Terraform: criando máquinas na Azure"
+    link: https://www.alura.com.br/artigos/terraform-maquinas-na-azure
+  - type: YOUTUBE
+    title: "Alura: O que é cloud?"
+    link: https://www.YOUTUBE.com/watch?v=wev9fMrg-TU
+  - type: YOUTUBE
+    title: "Alura: AWS, Google Cloud e Azure: Por onde começar? | Hipsters.Talks"
+    link: https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&t=300s
+  - type: YOUTUBE
+    title: "Alura: Certificação em Cloud: Azure, AWS, Google | Hipsters.Talks"
+    link: https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&t=290s
+  - type: COURSE
+    title: "Formação Começando em Cloud Computing"
+    link: https://cursos.alura.com.br/formacao-cloud-computing
+  - type: COURSE
+    title: "Formação Amazon Web Services"
+    link: https://cursos.alura.com.br/formacao-amazon-web-services
+  - type: COURSE
+    title: "Formação Google Certified Associate Cloud Engineer"
+    link: https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer
+  - type: COURSE
+    title: "Formação Certificação AWS Certified Cloud Practitioner"
+    link: https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner 
+  - type: COURSE
+    title: "Formação Containers com AWS ECS e EKS"
+    link: https://cursos.alura.com.br/formacao-containers-aws 
+  - type: COURSE
+    title: "Formação Google Cloud Platform"
+    link: https://cursos.alura.com.br/formacao-google-cloud  
+  - type: COURSE
+    title: "Formação Certificação Google Certified Associate Cloud Engineer"
+    link: https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer 
+  - type: COURSE
+    title: "Formação Azure"
+    link: https://cursos.alura.com.br/formacao-conhecendo-azure  
+  - type: COURSE
+    title: "Formação Certificação AZ-900: Microsoft Azure Fundamentals"
+    link: https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals 

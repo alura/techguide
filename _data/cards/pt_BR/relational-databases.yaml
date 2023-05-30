@@ -1,0 +1,53 @@
+name: Bancos de dados relacionais
+logo: 
+short-description:
+key-objectives:
+  - Quando trabalhamos com bancos de dados relacionais somos responsáveis por projetar, implementar e gerenciar sistemas de bancos de dados que organizam dados em tabelas inter-relacionadas. Elas utilizam a linguagem SQL para manipular e consultar dados, além de técnicas de modelagem de dados para criar estruturas de banco de dados eficientes e eficazes. Os bancos de dados relacionais são usados em uma variedade de aplicações, incluindo sistemas de gestão de clientes, aplicações de e-commerce e sistemas de gerenciamento de recursos empresariais.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Oracle: O que é um banco de dados relacional (RDBMS)?"
+    link: https://www.oracle.com/br/database/what-is-a-relational-database/ 
+  - type: SITE
+    title: "AWS: O que é banco de dados relacional?"
+    link: https://aws.amazon.com/pt/relational-database/ 
+  - type: YOUTUBE
+    title: "10 conceitos essenciais de SQL que todo dev deve saber"
+    link: https://www.youtube.com/watch?v=cIUTAyomVPQ 
+  - type: YOUTUBE
+    title: "Boson Treinamentos: Curso de Modelagem de Dados"
+    link: https://www.youtube.com/watch?v=Q_KTYFgvu1s&list=PLucm8g_ezqNoNHU8tjVeHmRGBFnjDIlxD 
+  - type: YOUTUBE
+    title: "Otávio Miranda: Curso de SQL com MySQL (Completo)"
+    link: https://www.youtube.com/watch?v=lHYV_H1526Q&list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk 
+alura-contents:
+  - type: COURSE
+    title: "Formação Modelagem de dados"
+    link: https://cursos.alura.com.br/formacao-modelagem-dados 
+  - type: ARTICLE
+    title: "SGBDs Relacionais"
+    link: https://www.alura.com.br/artigos/sgbds-relacionais 
+  - type: ARTICLE
+    title: "SGBDs e suas linguagens internas"
+    link: https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas
+  - type: ARTICLE
+    title: "SQL: Comandos básicos"
+    link: https://www.alura.com.br/artigos/sql-comandos-basicos
+  - type: ARTICLE
+    title: "SQL: consultas com SELECT"
+    link: https://www.alura.com.br/artigos/sql-consultas-com-select
+  - type: ARTICLE
+    title: "SQL: cláusulas UPDATE e DELETE"
+    link: https://www.alura.com.br/artigos/sql-clausulas-update-e-delete
+  - type: ARTICLE
+    title: "Trabalhando com funções de agregação"
+    link: https://www.alura.com.br/artigos/trabalhando-funcoes-de-agregacao
+  - type: ARTICLE
+    title: "JOIN e seus tipos"
+    link: https://www.alura.com.br/artigos/join-e-seus-tipos
+  - type: COURSE
+    title: "Formação SQL com PostgreSQL"
+    link: https://cursos.alura.com.br/formacao-postgresql
+  - type: COURSE
+    title: "Formação Microsoft SQL Server 2022"
+    link: https://cursos.alura.com.br/formacao-microsoft-sql-server-2022

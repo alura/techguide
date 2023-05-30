@@ -48,7 +48,6 @@ collaboration:
         priority: 7
       - design-patterns: 
         priority: 6
-        optional:
       - python-fundamentals:
         priority: 7
         optional: true
@@ -70,6 +69,7 @@ collaboration:
         priority: 10
       - css-fundamentals:
         priority: 9
+        optional: true
       - dom-fundamentals:
         priority: 8
       - seo-strategies:

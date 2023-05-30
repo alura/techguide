@@ -1,0 +1,45 @@
+name: Bancos de Dados - Fundamentos
+logo:
+short-description:
+key-objectives:
+  - Os bancos de dados são sistemas de armazenamento de dados que permitem a organização, a manipulação e o acesso eficiente às informações. Existem dois principais tipos de bancos de dados, sendo eles SQL (Structured Query Language) e NoSQL (Not Only SQL).
+  - O conhecimento dos fundamentos de bancos de dados, tanto SQL quanto NoSQL, é essencial na engenharia de dados. Os bancos de dados são a base para armazenar e manipular os dados utilizados nas análises e nos processos de tomada de decisão. Compreender os diferentes tipos de bancos de dados permite aos engenheiros de dados escolher a solução mais adequada para cada caso, levando em consideração os requisitos de escalabilidade, desempenho, consistência e flexibilidade. Além disso, a habilidade de escrever consultas SQL e de utilizar as características específicas dos bancos de dados NoSQL é essencial para extrair, transformar e carregar dados de forma eficiente e eficaz.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "DB-Engines Ranking"
+    link: https://db-engines.com/en/ranking 
+  - type: YOUTUBE
+    title: "Código Fonte TV: SQL // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=kMznyI7r2Tc 
+  - type: YOUTUBE
+    title: "Código Fonte TV: NoSQL // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=1B64oqE8PLs 
+  - type: ARTICLE
+    title: "SQL — O que é e como funciona na prática?"
+    link: https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a 
+  - type: ARTICLE
+    title: "SQL: comandos básicos"
+    link: https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909 
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: O que é SQL e NoSQL?"
+    link: https://www.youtube.com/watch?v=aure5d3B88g 
+  - type: ARTICLE
+    title: "SQL: Comandos básicos"
+    link: https://www.alura.com.br/artigos/sql-comandos-basicos 
+  - type: ARTICLE
+    title: "SQL: consultas com SELECT"
+    link: https://www.alura.com.br/artigos/sql-consultas-com-select 
+  - type: ARTICLE
+    title: "JOIN e seus tipos"
+    link: https://www.alura.com.br/artigos/join-e-seus-tipos 
+  - type: COURSE
+    title: "Curso SQL com MySQL: manipule e consulte dados"
+    link: https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql 
+  - type: PODCAST
+    title: "NoSQL: por quê?"
+    link: https://cursos.alura.com.br/extra/hipsterstech/nosql-por-que-hipsters-22-a564 
+  - type: COURSE
+    title: "Curso MongoDB: conhecendo um banco de dados NoSQL"
+    link: https://cursos.alura.com.br/course/mongodb-banco-dados-nosql 

@@ -19,12 +19,11 @@ export default function TShape({ guide, externalGuideCreator }: TShapeProps) {
   const expertiseEnd = guide.expertises[2];
 
   const isExternalGuide = externalGuideCreator;
-  const externalGuideMetadata = i18n
-    .contentRaw("COMPANIES")
-    ?.find((company) => {
+  const externalGuideMetadata =
+    i18n.contentRaw("COMPANIES")?.find((company) => {
       if (company.githubUser === externalGuideCreator) return true;
       return false;
-    });
+    }) || {};
 
   const TItems = [
     {
@@ -33,7 +32,7 @@ export default function TShape({ guide, externalGuideCreator }: TShapeProps) {
     },
     {
       name: guide.name,
-      cards: [expertiseStart, expertiseMid, expertiseEnd],
+      cards: [expertiseStart, expertiseMid, expertiseEnd].filter(Boolean),
     },
     {
       name: rightSide.name,
@@ -69,59 +68,63 @@ export default function TShape({ guide, externalGuideCreator }: TShapeProps) {
             },
           }}
         >
-          <Box
-            styleSheet={{
-              backgroundColor: "#FFFFFF",
-              maxWidth: "173px",
-              padding: "12px",
-              borderRadius: "11px",
-              boxShadow: "0px 11.9189px 51.2514px #8AA2AA",
-              margin: "auto",
-            }}
-          >
-            <Image
-              src={externalGuideMetadata.logo}
-              alt={`Logo ${externalGuideMetadata.name}`}
+          {externalGuideMetadata?.logo && (
+            <Box
               styleSheet={{
-                width: "100%",
-                height: "100%",
-                objectFit: "contain",
-              }}
-            />
-          </Box>
-          <Box
-            styleSheet={{
-              background:
-                "linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%)",
-              border: "1px solid #242A2E",
-              backdropFilter: "blur(22.8691px)",
-              borderRadius: "14px",
-              padding: "18px",
-              flex: 1,
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <Text
-              tag="p"
-              styleSheet={{
-                fontWeight: "400",
-                fontSize: "14px",
-                color: "#8992A1",
-                maxWidth: "520px",
+                backgroundColor: "#FFFFFF",
+                maxWidth: "173px",
+                padding: "12px",
+                borderRadius: "11px",
+                boxShadow: "0px 11.9189px 51.2514px #8AA2AA",
+                margin: "auto",
               }}
             >
-              <Box
-                tag="span"
+              <Image
+                src={externalGuideMetadata.logo}
+                alt={`Logo ${externalGuideMetadata.name}`}
                 styleSheet={{
-                  display: "block",
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "contain",
+                }}
+              />
+            </Box>
+          )}
+          {externalGuideMetadata?.guideDescription && (
+            <Box
+              styleSheet={{
+                background:
+                  "linear-gradient(180deg, rgba(255, 255, 255, 0.03) -30.29%, rgba(255, 255, 255, 0) 144.92%)",
+                border: "1px solid #242A2E",
+                backdropFilter: "blur(22.8691px)",
+                borderRadius: "14px",
+                padding: "18px",
+                flex: 1,
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <Text
+                tag="p"
+                styleSheet={{
+                  fontWeight: "400",
+                  fontSize: "14px",
+                  color: "#8992A1",
+                  maxWidth: "520px",
                 }}
               >
-                {parseContent(externalGuideMetadata.guideDescription)}
-              </Box>
-            </Text>
-          </Box>
+                <Box
+                  tag="span"
+                  styleSheet={{
+                    display: "block",
+                  }}
+                >
+                  {parseContent(externalGuideMetadata?.guideDescription)}
+                </Box>
+              </Text>
+            </Box>
+          )}
         </Box>
       )}
       <Box
@@ -215,7 +218,7 @@ export default function TShape({ guide, externalGuideCreator }: TShapeProps) {
                     </Box>
                     <TItemCard
                       main
-                      cards={card.cards}
+                      cards={card?.cards}
                       categoryName={item.name}
                     />
                   </Box>

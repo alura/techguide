@@ -1,29 +1,5 @@
 # React
 ## Nivel 1
-- [ ] **Javascript - Fundamentos**:
-   - Javascript es el lenguaje de programación más popular del mundo y es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. Tiene escritura dinámica, orientación a objetos basada en prototipos y funciones de primera clase. Es un paradigma múltiple que admite estilos de programación imperativos, funcionales e impulsados por eventos.
-   - Declarar variables, considerando la diferencia entre 'var', 'let' y 'const
-   - Uso de estructuras condicionales ('if', 'else')
-   - Conocer los operadores de asignación y comparación ('=', '==', '===')
-   - Uso de estructuras de repetición y bucles ('while', 'for')
-   - Usar funciones, pasar parámetros y argumentos
-   - Manipulación de arreglos y listas
-   - Obtener datos de una API
-   - Hacer llamadas asincrónicas usando 'Async/Await', 'Promise', etc.
-- [ ] **DOM - Fundamentals**:
-   - El Document Object Model (DOM) es una interfaz de programación para documentos de la web. Representa la página para que los programas puedan cambiar la estructura, el estilo y el contenido del documento. El DOM representa el documento como nosotros y objetos; de esa forma, los lenguajes de programación pueden interactuar con la página.
-   - Entender cómo funciona el árbol DOM
-   - Accesando y manipulando elementos HTML y CSS
-   - Acceder a los padres e hijos de un elemento
-   - Insertar un nuevo elemento en el árbol
-   - Quitar un elemento del árbol
-   - Esperando un evento en un elemento determinado de la página usando
-- [ ] **Conceptos de SPA**:
-   - A single-page application o SPA es una aplicación web de una sola página o sitio, que interactúa con el usuario reescribiendo dinámicamente la página web actual con nuevos datos del servidor web, en lugar del método por defecto de un navegador web que carga páginas nuevas enteras. El objetivo es conseguir transiciones más rápidas que hagan que el sitio web parezca más una aplicación nativa.
-   - Entender qué es una SPA
-   - Establecer rutas a otras páginas
-   - Conocer los frameworks SPA
-   - Comunicarse con APIs
 - [ ] **HTML - Fundamentos**:
    - HTML es un lenguaje de marcado que define la estructura de su contenido. HTML consta de una serie de elementos que se utilizan para que se vea o actúe de cierta manera. Las etiquetas de archivos adjuntos pueden vincular una palabra o imagen a otro lugar, pueden poner palabras en cursiva, pueden hacer que la fuente sea más grande o más pequeña, etc.
    - Aprender qué etiquetas son necesarias para HTML básico
@@ -52,6 +28,30 @@
    - Aprender a dimensionar cajas
    - Aprender Flexbox
    - Grado de aprendizaje
+- [ ] **Javascript - Fundamentos**:
+   - Javascript es el lenguaje de programación más popular del mundo y es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. Tiene escritura dinámica, orientación a objetos basada en prototipos y funciones de primera clase. Es un paradigma múltiple que admite estilos de programación imperativos, funcionales e impulsados por eventos.
+   - Declarar variables, considerando la diferencia entre 'var', 'let' y 'const
+   - Uso de estructuras condicionales ('if', 'else')
+   - Conocer los operadores de asignación y comparación ('=', '==', '===')
+   - Uso de estructuras de repetición y bucles ('while', 'for')
+   - Usar funciones, pasar parámetros y argumentos
+   - Manipulación de arreglos y listas
+   - Obtener datos de una API
+   - Hacer llamadas asincrónicas usando 'Async/Await', 'Promise', etc.
+- [ ] **DOM - Fundamentals**:
+   - El Document Object Model (DOM) es una interfaz de programación para documentos de la web. Representa la página para que los programas puedan cambiar la estructura, el estilo y el contenido del documento. El DOM representa el documento como nosotros y objetos; de esa forma, los lenguajes de programación pueden interactuar con la página.
+   - Entender cómo funciona el árbol DOM
+   - Accesando y manipulando elementos HTML y CSS
+   - Acceder a los padres e hijos de un elemento
+   - Insertar un nuevo elemento en el árbol
+   - Quitar un elemento del árbol
+   - Esperando un evento en un elemento determinado de la página usando
+- [ ] **Conceptos de SPA**:
+   - A single-page application o SPA es una aplicación web de una sola página o sitio, que interactúa con el usuario reescribiendo dinámicamente la página web actual con nuevos datos del servidor web, en lugar del método por defecto de un navegador web que carga páginas nuevas enteras. El objetivo es conseguir transiciones más rápidas que hagan que el sitio web parezca más una aplicación nativa.
+   - Entender qué es una SPA
+   - Establecer rutas a otras páginas
+   - Conocer los frameworks SPA
+   - Comunicarse con APIs
 - [ ] **React - Componentes**:
    - React te permite definir componentes como clases o funciones. Los componentes definidos como clases proporcionan más capacidades. Aceptan entradas arbitrarias (llamadas "accesorios") y devuelven elementos React que describen lo que debería aparecer en la pantalla.
    - Comprender cómo funcionan los componentes

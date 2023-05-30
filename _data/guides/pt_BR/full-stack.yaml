@@ -1,0 +1,135 @@
+name: Full-stack
+tags: 
+  - full-stack
+expertise:
+  - name: Full-stack Jr
+    cards:
+      - html-fundamentals:
+        priority: 10
+      - javascript-fundamentals:
+        priority: 10
+      - nodejs-fundamentals:
+        priority: 10
+      - css-fundamentals:
+        priority: 9
+      - dom-fundamentals:
+        priority: 9
+      - create-react-app:
+        priority: 8
+      - oop-concepts:
+        priority: 8
+      - java-fundamentals:
+        priority: 8
+        optional: true
+      - python-fundamentals:
+        priority: 8
+        optional: true
+      - javascript-accessibility:
+        priority: 7
+        optional: true
+      - command-line-fundamentals:
+        priority: 7
+        optional: true
+      - angular-fundamentals:
+        priority: 6
+        optional: true
+  - name: Full-stack Mid
+    cards:
+      - nodejs-express:
+        priority: 10
+      - react-components:
+        priority: 10
+      - nodejs-orm:
+        priority: 9
+      - javascript-testing:
+        priority: 9
+      - data-structures:
+        priority: 9
+      - javascript-callbacks-promises:
+        priority: 9
+      - javascript-errorhandling:
+        priority: 8
+      - javascript-modularization:
+        priority: 8
+      - jest:
+        priority: 8
+      - javascript-storage:
+        priority: 8
+      - next-fundamentals:
+        priority: 7
+        optional: true
+      - python-api:
+        priority: 7
+        optional: true
+      - java-spring-framework:
+        priority: 7
+        optional: true
+      - cypress:
+        priority: 6
+        optional: true
+  - name: Full-stack in depth
+    cards:
+      - microservices:
+        priority: 10
+      - nodejs-authentication-tokens:
+        priority: 10
+      - containers:
+        priority: 9
+      - typescript-fundamentals:
+        priority: 8
+      - websockets:
+        priority: 7
+      - javascript-concurrency:
+        priority: 6
+        optional: true
+      - graphql:
+        priority: 6
+        optional: true
+      - apollo-client:
+        priority: 6
+        optional: true
+      - nest-fundamentals:
+        priority: 7
+        optional: true
+      - kafka:
+        priority: 6
+        optional: true
+collaboration:
+  - name: Infraestrutura e boas práticas
+    cards:
+      - git-and-github-fundamentals:
+        priority: 10
+      - http-fundamentals:
+        priority: 10
+      - json:
+        priority: 9
+      - ci-cd:
+        priority: 9
+      - sql-fundamentals:
+        priority: 9
+      - solid:
+        priority: 7
+      - design-patterns:
+        priority: 7
+      - clean-architecture:
+        priority: 7
+      - cloud-fundamentals:
+        priority: 6
+        optional: true
+      - ddd-concepts:
+        priority: 5
+        optional: true
+  - name: UX e Design
+    cards:
+      - figma-fundamentals:
+        priority: 8
+      - responsive-design:
+        priority: 7
+      - design-components:
+        priority: 6
+      - design-systems:
+        priority: 6
+      - color-systems:
+        priority: 5
+      - how-to-use-fonts:
+        priority: 4
