@@ -72,17 +72,21 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
                   const keyObjectives =
                     card.keyObjectives || card["key-objectives"] || [];
 
-                  return {
+                  const output = {
                     item: {
                       slug: slugify(card.name),
                       id: card.name,
                       ...card,
+                      aluraContents:
+                        card?.aluraContents || card["alura-contents"] || [],
                       keyObjectives: keyObjectives.map((keyObjective) => ({
                         id: slugify(keyObjective),
                         name: keyObjective,
                       })),
                     },
                   };
+
+                  return output;
                 })
                 .filter(Boolean),
             };
