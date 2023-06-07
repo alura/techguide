@@ -1,0 +1,42 @@
+name: Java - Pruebas
+logo: 
+short-description:
+key-objectives:
+  - La prueba de software es el proceso de evaluación y verificación de que un software realmente hace lo que debe hacer. Los beneficios de las pruebas incluyen la prevención de errores, la reducción de los costos de desarrollo y la mejora del rendimiento.
+  - Usar pruebas por unidad
+  - Usar pruebas de integración
+  - Usar pruebas de comportamiento (behavior)
+  - Usar mocks
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Tutorial de JUnit: Configuración, escritura y ejecución de pruebas unitarias de Java"
+    link: https://es.parasoft.com/blog/junit-tutorial-setting-up-writing-and-running-java-unit-tests/
+  - type: ARTICLE
+    title: "Burlarse en Java: cómo automatizar una prueba unitaria de Java, incluidas las burlas y las afirmaciones"
+    link: https://es.parasoft.com/blog/mocking-in-java-how-to-automate-a-java-unit-test-including-mocking-and-assertions/
+  - type: ARTICLE
+    title: "Testeando aplicaciones en Java"
+    link: https://medium.com/@yonem9/testeando-aplicaciones-en-java-c46364191562
+  - type: YOUTUBE
+    title: "PRUEBAS UNITARIAS en JAVA (JUNIT 5)"
+    link: https://www.youtube.com/watch?v=74sClDEYSQ4&ab_channel=ProgramandoenJAVA
+  - type: YOUTUBE
+    title: "Pruebas de Integración | MOCKS vs STUBS | Dobles de Prueba 🧩"
+    link: https://www.youtube.com/watch?v=pxOwxsBFYYo&ab_channel=ManuelZapata
+  - type: ARTICLE
+    title: "JUnit: Cómo ejecutar un test N iteraciones"
+    link: https://dev.to/gekyzo/como-repetir-un-test-n-iteraciones-36pd
+  - type: ARTICLE
+    title: "JUnit Cómo parametrizar un test"
+    link: https://dev.to/gekyzo/junit-como-ejecutar-un-test-con-parametros-4cp3
+  - type: ARTICLE
+    title: "JUnit Cómo repetir un test con parámetros"
+    link: https://dev.to/gekyzo/junit-como-repetir-un-test-con-parametros-1l15
+alura-contents:
+  - type: YOUTUBE
+    title: "¿Qué es Test-Driven Development (TDD)? #AluraMás"
+    link: https://www.youtube.com/watch?v=qA3KIo0xZbE&t=1s&ab_channel=AluraLatam
+  - type: COURSE
+    title: "Curso Java y Tests: Test Driven Development con Junit"
+    link: https://app.aluracursos.com/course/java-tests-test-driven-development-junit

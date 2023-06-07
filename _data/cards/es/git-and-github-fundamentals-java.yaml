@@ -1,0 +1,55 @@
+name: Git y GitHub - Fundamentos
+logo: 
+short-description:
+key-objectives:
+- Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños a proyectos muy grandes con velocidad y eficiencia.
+- GitHub es un servicio de hosting para el desarrollo de software y control de versiones utilizando Git.
+- Crear un repositorio
+- Clonar un repositorio
+- Commit, push y pull desde y hacia el repositorio
+- Revertir una confirmación de cambios
+- Crear ramas y Pull requests 
+- Lidiar con la fusión y los conflictos
+aditional-objectives:
+  - Publicar tu código usando GitHub Pages
+contents:
+  - type: SITE
+    title: "Git: Libro de Consulta"
+    link: https://git-scm.com/book/es/v2
+  - type: SITE
+    title: "GitHub Documentación"
+    link: https://docs.github.com/es
+  - type: SITE
+    title: "Github Pages Documentación"
+    link: https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages
+  - type: SITE
+    title: "Dangit, Git!?!"
+    link: https://dangitgit.com/es
+alura-contents:
+  - type: ARTICLE
+    title: "Git y Github: que son y primeros pasos"
+    link: https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos
+  - type: YOUTUBE
+    title: "¿Puedo subir mi proyecto a Github sin líneas de comando? - Git y Github para principiantes"
+    link: https://www.youtube.com/watch?v=Yfm16Tlpcwk
+  - type: ARTICLE
+    title: "Iniciando un repositorio con Git"
+    link: https://www.aluracursos.com/blog/iniciando-repositorio-con-git
+  - type: ARTICLE
+    title: "Creando un repositorio remoto en GitHub"
+    link: https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github
+  - type: ARTICLE
+    title: "Clonando un repositorio con Git y GitHub"
+    link: https://www.aluracursos.com/blog/clonando-un-repositorio-remoto
+  - type: ARTICLE
+    title: "Paso a Paso para activar tu proyecto en GitHub Pages"
+    link: https://www.aluracursos.com/blog/github-pages
+  - type: ARTICLE
+    title: "Cómo escribir un README increíble en tu Github"
+    link: https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github
+  - type: COURSE
+    title: "Git y GitHub: controle y comparta su código"
+    link: https://app.aluracursos.com/course/git-github-control-version
+  - type: COURSE
+    title: "Git y Github: estrategias de ramificación, conflictos y Pull Requests"
+    link: https://app.aluracursos.com/course/git-github-estrategias-ramificacion-conflictos-pull-requests

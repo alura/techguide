@@ -1,0 +1,42 @@
+name: Java
+tags: 
+  - back-end
+expertise:
+  - name: Java Back-end Jr
+    cards:
+      - java-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 10
+      - java-errorhandling:
+        priority: 10
+      - java-collections:
+        priority: 9
+      - java-testing:
+        priority: 9
+      - java-packages:
+        priority: 8
+      - data-structures:
+        priority: 7
+  - name: Java Back-end Mid
+    cards:
+  - name: Java Back-end in depth
+    cards:
+collaboration:
+  - name: Infraestructura
+    cards:
+      - git-and-github-fundamentals-java:
+        priority: 9
+      - http-fundamentals-java:
+        priority: 10
+      - json-java:
+        priority-java: 8
+      - command-line-fundamentals-java: 
+        priority: 8
+      - cloud-fundamentals-java: 
+        priority: 6
+        optional: true
+      - sql-fundamentals-java:
+        priority: 9
+  - name: Buenas prácticas
+    cards:
