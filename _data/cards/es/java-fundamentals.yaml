@@ -1,0 +1,53 @@
+name: Fundamentos - JAVA
+logo: 
+short-description:
+key-objectives:
+- Java es un lenguaje de programación ampliamente utilizado para codificar aplicaciones web. Java es un lenguaje multiplataforma, orientado a objetos y centrado en red que se puede utilizar como una plataforma en sí. Es un lenguaje de programación rápido, seguro y confiable para codificar todo, desde aplicaciones móviles y software empresarial hasta aplicaciones de big data y tecnologías de servidor.
+Conocer los tipos primitivos.
+Declarar variables, considerando los diferentes tipos.
+Usar estructuras condicionales ('if', 'Else').
+Conocer a los operadores de comparación.
+Utilizar estructuras de repetición y bucles ('while', 'for').
+Usar funciones, pasar parámetros y argumentos.
+Manipular métodos.
+Manipular arrays y listas.
+Obtener datos de una API.
+Hacer llamadas asíncronas 'Future', etc.
+Crear constructores.
+aditional-objectives:
+contents:
+  - type: PODCAST
+    title: "Qué se necesita para ser programador junior en java"
+    link: https://open.spotify.com/episode/0sBiBS6TpdHjRUzm1oQm2O?si=b2a759c65ca44dd5
+alura-contents:
+  - type: ARTICLE
+    title: "¿Qué es la tecnología Java y por qué la necesito?"
+    link: https://www.java.com/es/download/help/whatis_java.html
+  - type: ARTICLE
+    title: "Java: una guía para iniciar en esta tecnología"
+    link: https://www.aluracursos.com/blog/java-una-guia-para-iniciar-tecnologia
+  - type: YOUTUBE
+    title: "¿Por qué utilizar Java actualmente?"
+    link: https://www.youtube.com/watch?v=3kNuK-XAHEY&t=1s
+  - type: YOUTUBE
+    title: "La magia detrás de Java"
+    link: https://www.youtube.com/watch?v=GrEO8nZzyZM&t=34s
+  - type: ARTICLE
+    title: "¿Cómo empezar a desarrollar en java?"
+    link: https://www.aluracursos.com/blog/como-empezar-a-desarrollar-en-java
+  - type: ARTICLE
+    title: "Las características más destacables de Java 8 en adelante"
+    link: https://www.aluracursos.com/blog/caracteristica-destacables-java8-delante
+  - type: ARTICLE
+    title: "Java: Conozca el método main"
+    link: https://www.aluracursos.com/blog/java-conozca-el-metodo-main
+  - type: ARTICLE
+    title: "Importando clases en Java"
+    link: https://www.aluracursos.com/blog/Importando-clases-en-java
+  - type: ARTICLE
+    title: "Como hacer un import static en java"
+    link: https://www.aluracursos.com/blog/como-hacer-un-import-static-en-java
+  - type: ARTICLE
+    title: "Recibiendo datos en Java"
+    link: https://www.aluracursos.com/blog/recibiendo-datos-en-java
+

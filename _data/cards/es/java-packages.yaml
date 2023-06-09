@@ -1,0 +1,28 @@
+name: Packages - JAVA
+logo: 
+short-description:
+key-objectives:
+- Un paquete (package) en Java se utiliza para agrupar clases relacionadas, de forma similar a una carpeta en un directorio de archivos. Los paquetes se utilizan para evitar conflictos de nombres y para escribir un código de mejor mantenimiento.
+Utilice Imports y organice su código a través de paquetes (packages)
+Conocer la java.lang
+Comprender la inmutabilidad y la clase String
+Entender la clase java.lang.Object
+Conocer la [java.io](http://java.io/)
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "PAQUETES"
+    link: https://www.arkaitzgarro.com/java/capitulo-19.html
+  - type: ARTICLE
+    title: "PAQUETES"
+    link: http://dis.um.es/~bmoros/Tutorial/parte5/cap5-14.html
+  - type: YOUTUBE
+    title: "Uso de Paquetes en java"
+    link: https://www.youtube.com/watch?v=-cj9H8qLAcU
+  - type: YOUTUBE
+    title: "Crear y utilizar nuestros propios paquetes de Java"
+    link: https://www.youtube.com/watch?v=y2OZYSSoysY
+  - type: ARTICLE
+    title: "Package java.lang - paquete con las clases fundamentales para el diseño de Java"
+    link: https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/package-summary.html
+  
