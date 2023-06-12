@@ -1,0 +1,29 @@
+name: Spring Framework 
+logo: 
+short-description:
+key-objectives:
+  - Spring es un framework de código abierto para la plataforma Java. Se trata de un marco no intrusivo, basado en los estándares de diseño (design patterns) de inversión de control (ioc) e inyección de dependencia. En Spring el contenedor se encarga de "instanciar" clases de una aplicación Java y definir las dependencias entre ellas a través de un archivo de configuración en formato XML, inferencias del framework, lo que es llamado de auto-wiring o incluso anotaciones en las clases, métodos y propiedades. De esta forma, Spring permite el bajo acoplamiento entre clases de una aplicación orientada a objetos.
+  - Entender el concepto de inyección de dependencias
+  - Entender el patrón MVC
+  - Usar Spring Data para manipular datos
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "¿Qué son Spring framework y Spring Boot? Tu primer programa Java con este framework"
+    link: https://dev.to/campusmvp_es/que-son-spring-framework-y-spring-boot-tu-primer-programa-java-con-este-framework-4ao6
+alura-contents:
+  - type: YOUTUBE
+    title: "Spring Framework. ¿Qué es? #AluraMás"
+    link: https://www.youtube.com/watch?v=t-iqt1b2qqk&t=60s
+  - type: ARTICLE
+    title: "Spring: Conozca este framework de Java"
+    link: https://www.aluracursos.com/blog/spring-conozca-framework-java
+  - type: ARTICLE
+    title: "Empezando con Spring Framework"
+    link: https://www.aluracursos.com/blog/empezando-con-spring-framework
+  - type: COURSE
+    title: "Curso de Spring MVC: crea un web app con Thymeleaf y Bootstrap"
+    link: https://app.aluracursos.com/course/spring-mvc-crea-web-app-thymeleaf-bootstrap
+  - type: ARTICLE
+    title: "Programando tareas con Scheduled de Spring"
+    link: https://www.aluracursos.com/blog/programando-tareas-con-scheduled-de-spring

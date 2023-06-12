@@ -20,8 +20,32 @@ expertise:
         priority: 7
   - name: Java Back-end Mid
     cards:
+      - jvm:
+        priority: 8
+      - java-memory-management:
+        priority: 7
+      - java-spring-framework:
+        priority: 9
+      - java-spring-boot:
+        priority: 7
+      - java-build-tools:
+        priority: 8
+      - java-persistence:
+        priority: 8
   - name: Java Back-end in depth
     cards:
+      - microservices:
+        priority: 8
+      - java-concurrency:
+        priority: 8
+      - containers:
+        priority: 7
+      - java-networking-and-sockets:
+        priority: 6
+      - java-servlets:
+        priority: 7
+      - kafka:
+        priority: 6
 collaboration:
   - name: Infraestructura
     cards:

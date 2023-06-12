@@ -1,0 +1,36 @@
+name: Builds Tools Java
+logo: 
+short-description:
+key-objectives:
+  - Un build tool es un sistema que permite automatizar todas las tareas rutinarias de un proyecto de una manera organizada y que evite que el desarrollador tenga que perder tiempo. En otras palabras, agregar una nueva biblioteca, realizar pruebas, empaquetar y desplegar, o incluso, la compatibilidad entre varios IDEs son tareas fácilmente resueltas con una herramienta de construcción.
+  - Descubre las principales herramientas de construcción de Java, como Maven, Jenkins, Apache Ant, Gradle, etc., y cómo usarlas.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "¿Qué es un Build?"
+    link: https://www.itdo.com/blog/que-es-un-build/
+  - type: SITE
+    title: "Apache Maven Project (en inglés pero puede traducir por navegador)"
+    link: https://maven.apache.org/
+  - type: SITE
+    title: "Gradle Build Tool (en inglés pero puede traducir por navegador)"
+    link: https://gradle.org/
+  - type: YOUTUBE
+    title: "⭐¿Qué es MAVEN? ¿Cómo usar MAVEN? MAVEN vs Gradle 🖥️ | DESARROLLO JAVA 🌎"
+    link: https://www.youtube.com/watch?v=rE7zLuQv2IU
+  - type: YOUTUBE
+    title: "💪 Crear proyecto java web con 👉 MAVEN 👈"
+    link: https://www.youtube.com/watch?v=UOwC2hmv2Us
+  - type: YOUTUBE
+    title: "Aprende Gradle desde cero"
+    link: https://www.youtube.com/watch?v=53dmgTdWLnk
+  - type: SITE
+    title: "Construir y probar Java con Gradle"
+    link: https://docs.github.com/es/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-java-with-gradle
+  - type: SITE
+    title: "Construir y probar Java con Ant"
+    link: https://docs.github.com/es/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-java-with-ant
+alura-contents:
+  - type: ARTICLE
+    title: "¿Qué es Maven?"
+    link: https://www.aluracursos.com/blog/que-es-maven

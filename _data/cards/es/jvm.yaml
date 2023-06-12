@@ -1,0 +1,22 @@
+name: JVM
+logo: 
+short-description:
+key-objectives:
+  - Máquina virtual Java (en inglés, Java Virtual Machine, JVM) es un programa que carga y ejecuta las aplicaciones Java, convirtiendo los bytecodes en código ejecutable de máquina. JVM es responsable de administrar las aplicaciones a medida que se ejecutan. Gracias a la máquina virtual Java, los programas escritos en Java pueden funcionar en cualquier plataforma de hardware y software que tenga una versión de JVM, haciendo así que estas aplicaciones sean independientes de la plataforma donde funcionan.
+  - Entender cómo funciona la máquina virtual de Java.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Tutorial JVM - La arquitectura de la máquina virtual de Java explicada para principiantes"
+    link: https://www.freecodecamp.org/espanol/news/tutorial-jvm-la-arquitectura-de-la-maquina-virtual-de-java-explicada-para-principiantes/
+  - type: YOUTUBE
+    title: "¿Cómo Funciona la Java Virtual Machine?"
+    link: https://www.youtube.com/watch?v=lEzqeKBOHIY
+alura-contents:
+  - type: YOUTUBE
+    title: "La magia detrás de Java #aluramás"
+    link: https://www.youtube.com/watch?v=GrEO8nZzyZM&t=1s
+  - type: ARTICLE
+    title: "Paso a paso con la Máquina Virtual de Java (JVM)"
+    link: https://www.aluracursos.com/blog/paso-a-paso-jvm
+  
