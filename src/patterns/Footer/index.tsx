@@ -33,18 +33,20 @@ export default function Footer() {
         }}
       >
         <Box>
-          <Image
-            styleSheet={{
-              width: { xs: "69px", md: "45px" },
-              height: { xs: "69px", md: "45px" },
-              marginBottom: {
-                xs: "2.5em",
-                md: "0",
-              },
-            }}
-            src="/assets/image/logo.svg"
-            alt="Logo da plataforma Tech Guide"
-          />
+          <Link href="/">
+            <Image
+              styleSheet={{
+                width: { xs: "69px", md: "45px" },
+                height: { xs: "69px", md: "45px" },
+                marginBottom: {
+                  xs: "2.5em",
+                  md: "0",
+                },
+              }}
+              src="/assets/image/logo.svg"
+              alt="Logo da plataforma Tech Guide"
+            />
+          </Link>
         </Box>
         <Box
           styleSheet={{
