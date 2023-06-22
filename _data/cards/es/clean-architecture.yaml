@@ -1,0 +1,20 @@
+name: Clean Architecture
+logo: 
+short-description:
+key-objectives:
+- Clean Architecture (Arquitectura Limpia) es una forma de desarrollar software, de tal forma que solo mirando el código fuente de un programa, tu debe ser capaz de decir lo que el programa hace.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "¿Qué es Clean Architecture?"
+    link: https://clean-architecture-python.readthedocs.io/en/latest/introduccion/index.html
+  - type: YOUTUBE
+    title: "Clean Architecture: La mejor forma de escalar y mantener tu código - CodelyTV - Redescubre la programación"
+    link: https://www.youtube.com/watch?v=y3MWfPDmVqo
+  - type: YOUTUBE
+    title: "Mejora tu código aplicando Clean Architecture - CodelyTV - Redescubre la programación"
+    link: https://www.youtube.com/watch?v=bdnpXzgj1oY
+  - type: SITE
+    title: "¿Por qué utilizo Clean Architecture?"
+    link: https://xurxodev.com/por-que-utilizo-clean-architecture-en-mis-proyectos/
+alura-contents:

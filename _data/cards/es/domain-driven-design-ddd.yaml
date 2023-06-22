@@ -1,0 +1,29 @@
+name: Domain Driven Design - DDD
+logo: 
+short-description:
+key-objectives:
+- El Diseño Orientado a Dominio (DDD) es un enfoque de diseño y desarrollo de software que se informa principalmente por los requisitos de negocio. Los componentes del programa (objetos, clases, matrices, etc.) indican la industria, sector o dominio empresarial en que opera el negocio.
+- Modelar dominios de manera efectiva.
+- Basar proyectos complejos en modelos de dominio.
+- Conocer los bloques de construcción de DDD.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Domain Driven Design: principios, beneficios y elementos — Primera Parte"
+    link: https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-primera-parte-aad90f30aa35
+  - type: SITE
+    title: "Domain Driven Design: principios, beneficios y elementos — Segunda Parte"
+    link: https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-segunda-parte-337d77dc8566
+  - type: SITE
+    title: "Introducción a Domain Drive Design – DDD"
+    link: https://refactorizando.com/introduccion-domain-drive-design/
+  - type: PODCAST
+    title: "TDD y DDD, fortalezas y cuando usarlo"
+    link: https://open.spotify.com/episode/7iioBOv7ySQZttPyw2GshP?si=a114f642ecc94682
+  - type: YOUTUBE
+    title: "DDD en Java con #Spring Framework: Estructura de Carpetas - CodelyTV - Redescubre la programación"
+    link: https://www.youtube.com/watch?v=X2CPc8DLwEQ
+  - type: YOUTUBE
+    title: "Domain Driven Design - Píldoras de conocimiento - Autentia"
+    link: https://www.youtube.com/watch?v=vccTIFGSiHA
+alura-contents:

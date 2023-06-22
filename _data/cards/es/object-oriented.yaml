@@ -1,0 +1,47 @@
+name: Conceptos de Orientación a Objetos
+logo: 
+short-description:
+key-objectives:
+- La Programación Orientada a Objetos es un paradigma de programación de software basado en la composición e interacción entre diversas unidades llamadas 'objetos' y las clases, que contienen una identidad, propiedades y métodos. Se basa en cuatro componentes de la programación - abstracción digital, encapsulación, herencia y polimorfismo.
+- Cómo funcionan los objetos
+- Crear y utilizar constructores
+- Qué son las clases
+- Crear y utilizar métodos
+- Cómo funciona la encapsulación
+- Qué es la herencia
+- Qué es el polimorfismo
+- Cómo funcionan las interfaces
+- Qué son las abstracciones
+aditional-objectives:
+contents:
+alura-contents:
+  - type: ARTICLE
+    title: "POO: ¿Qué es la programación orientada a objetos?"
+    link: https://www.aluracursos.com/blog/poo-que-es-la-programacion-orientada-a-objetos
+  - type: YOUTUBE
+    title: "¿Qué es la Programación Orientada a Objetos?"
+    link: https://www.youtube.com/watch?v=Oigen2sjagk&t=13s
+  - type: ARTÍCLE
+    title: "¿Qué es la Programación Orientada a Objetos?"
+    link: https://profile.es/blog/que-es-la-programacion-orientada-a-objetos/#:~:text=La%20Programaci%C3%B3n%20Orientada%20a%20objetos%20permite%20que%20el%20c%C3%B3digo%20sea,de%20esta%20manera%20programas%20eficientes
+  - type: ARTICLE
+    title: "Revisando la Orientación a Objetos: encapsulación de Java"
+    link: https://www.aluracursos.com/blog/revisando-la-orientacion-a-objetos-encapsulacion-de-java
+  - type: YOUTUBE
+    title: "4 Principios de la Programación Orientada a Objetos"
+    link: https://www.youtube.com/watch?v=Uk1C1NARZjU
+  - type: ARTICLE
+    title: "¿Qué es encapsulamiento?"
+    link: https://www.aluracursos.com/blog/Que-es-encapsulamiento
+  - type: ARTICLE
+    title: "Interfaces Gráficas con Eclipse WindowBuilder"
+    link: https://www.aluracursos.com/blog/interfaces-graficas-con-eclipse-windowbuilder
+  - type: CURSE
+    title: "Java Polimorfismo: Entendiendo herencia e interfaces"
+    link: https://app.aluracursos.com/course/java-parte-3-entendiendo-herencia-interfaces
+  - type: ARTICLE
+    title: "Cómo no aprender Java y Orientación a Objetos: getters y setters"
+    link: https://www.aluracursos.com/blog/como-no-aprender-java-y-orientacion-a-objetos-getters-y-setters
+  - type: FORMATION
+    title: "Cómo no aprender Java y Orientación a Objetos: getters y setters"
+    link: https://app.aluracursos.com/formacion-javaoo
