@@ -1,0 +1,36 @@
+name: Java - Persistencia
+logo: 
+short-description:
+key-objectives:
+- El concepto de "persistencia de datos" se refiere a garantizar que la información introducida en la aplicación se almacena en un medio en el que se puede recuperar de forma consistente. Es decir, son registros permanentes y que no se pierden cuando se cierra la sesión.
+- Entender sobre JDBC y JPA
+- Usar frameworks como Spring Data e Hibernate
+- Comunicarse con una base de datos relacional
+- Entender la diferencia entre las relaciones EAGER y LAZY
+- Planificar consultas con Join fetch
+- Encapsular el acceso en un DAO (Objeto de Acceso a Datos, en inglés Data Access Objeto)
+- Entender cómo funciona la memoria en esta situación
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Persistencia Básica en Java"
+    link: https://learn.microsoft.com/es-es/azure/spring-apps/concepts-for-java-memory-management
+alura-contents:
+  - type: ARTICLE
+    title: "Conociendo JDBC"
+    link: https://www.aluracursos.com/blog/conociendo-el-jdbc
+  - type: COURSE
+    title: "Persistencia con JPA: Hibernate"
+    link: https://app.aluracursos.com/course/persistencia-jpa-hibernate
+  - type: COURSE
+    title: "Java y JDBC: Trabajando con una Base de Datos"
+    link: https://app.aluracursos.com/course/java-jdbc-trabajando-base-datos
+  - type: ARTICLE
+    title: "Bases de datos relacionales"
+    link: https://www.aluracursos.com/blog/base-de-datos-relacional
+  - type: YOUTUBE
+    title: "Descomplicando Base de Datos"
+    link: https://www.youtube.com/watch?v=G1cDRqKuxpg
+  - type: ARTICLE
+    title: "Normalización en base de datos - Estructura"
+    link: https://www.aluracursos.com/blog/normalizacion-en-base-de-datos
