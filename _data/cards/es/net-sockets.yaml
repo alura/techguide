@@ -1,0 +1,31 @@
+name: Java Net and Sockets - Java
+logo: 
+short-description:
+key-objectives:
+- El término programación con sockets se refiere a la escritura de programas que se ejecutan en varios ordenadores en los que los dispositivos están todos conectados entre sí utilizando una red.
+Abrir una sesión de comunicación interactiva entre el navegador del usuario y un servidor.
+Enviar mensajes a un servidor y recibir respuestas sin consultar al servidor.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "LOS SOCKETS EN JAVA"
+    link: https://cruzado.info/tutojava/V_2.htm
+  - type: ARTICLE
+    title: "Modelo de red en Java"
+    link: http://profesores.fi-b.unam.mx/carlos/java/java_basico9_2.html
+  - type: ARTICLE
+    title: "Laboratorio de Redes de Comunicaciones: programación con Sockets en Java"
+    link: http://quegrande.org/apuntes/EI/3/RC/practicas/08-09/seminario_java.pdf
+  - type: ARTICLE
+    title: "Lección: Todo sobre los Sockets"
+    link: https://docs.oracle.com/javase/tutorial/networking/sockets/index.html
+  - type: YOUTUBE
+    title: "Que son los SOCKETS y como FUNCIONAN"
+    link: https://www.youtube.com/watch?v=iMEJXtjh2Ho
+  - type: YOUTUBE
+    title: "Programación por sockets UDP JAVA"
+    link: https://www.youtube.com/watch?v=c64AeUIY580
+  - type: YOUTUBE
+    title: "¿Qué son los sockets y para que nos pueden servir?"
+    link: https://www.youtube.com/watch?v=ZEitds5Nnx4&t=45s
+alura-contents:

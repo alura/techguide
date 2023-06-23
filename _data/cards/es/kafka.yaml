@@ -1,0 +1,19 @@
+name: Kafka - Java
+logo: 
+short-description:
+key-objectives:
+- Apache Kafka es una plataforma de transmisión de datos distribuida que es capaz de publicar, suscribir, almacenar y procesar flujos de registro en tiempo real. Esta plataforma está diseñada para procesar flujos de datos provenientes de diversas fuentes y entregarlos a varios clientes.
+Utilizar Kafka para la comunicación asíncrona
+Crear microservicios con Kafka
+Crear productores y consumidores
+Entender cómo usar Kafka para paralelismo y ejecución serializada
+Obtener garantías relativas al envío o entrega de los mensajes
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Qué es Apache Kafka y cómo dar los primeros pasos"
+    link: https://profile.es/blog/que-es-apache-kafka-primeros-pasos/
+  - type: PODCAST
+    title: "¿Qué es y cómo funciona Apache Kafka? Podcast Apasionados por la tecnología."
+    link: https://open.spotify.com/episode/52RjBgXycIVSd2FHkkENQV?si=130fac7df95b4ec6
+alura-contents:
