@@ -1,0 +1,29 @@
+name: HTTP - Fundamentos
+logo: 
+short-description:
+key-objectives:
+- HTTP significa Protocolo de transferencia de hipertexto. La comunicación entre las computadoras cliente y los servidores web se realiza mediante el envío de solicitudes HTTP y la recepción de respuestas HTTP.
+- Comprender la diferencia entre los verbos HTTP
+- Probar solicitudes y verificar los códigos de estado en el navegador
+- Realización de una POST
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: HTTP"
+    link: https://developer.mozilla.org/es/docs/Web/HTTP
+  - type: SITE
+    title: "MDN Web Docs: Métodos de petición HTTP"
+    link: https://developer.mozilla.org/es/docs/Web/HTTP/Methods
+  - type: SITE
+    title: "MDN Web Docs: Mensajes HTTP" 
+    link: https://developer.mozilla.org/es/docs/Web/HTTP/Messages
+  - type: YOUTUBE
+    title: "SSL, TLS, HTTPS, HTTP - Explicado Fácilmente"
+    link: https://www.youtube.com/watch?v=6HJAWFenYx8&ab_channel=ProfeSang
+alura-contents:
+  - type: ARTICLE
+    title: "HTTP: Diferencias entre GET y POST"
+    link: https://www.aluracursos.com/blog/diferencias-entre-get-y-post
+  - type: COURSE
+    title: "Curso HTTP: La base de internet"
+    link: https://app.aluracursos.com/course/http-base-internet

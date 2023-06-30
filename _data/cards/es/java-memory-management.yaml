@@ -1,0 +1,19 @@
+name: Java - Administración de Memoria
+logo: 
+short-description:
+key-objectives:
+- En Java, la administración de memoria es el proceso de asignación y desalojo de objetos, llamado administración de memoria. Java administra la memoria automáticamente. Java utiliza un sistema de gestión automática de memoria llamado Garbage Collector (colector de basura). Por lo tanto, no estamos obligados a implementar la lógica de gestión de memoria en nuestra aplicación.
+- Entender cómo funciona la memoria y su gestión en Java.
+- Entender cómo funciona la memoria de Garbage Collector.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Administración de memoria Java"
+    link: https://learn.microsoft.com/es-es/azure/spring-apps/concepts-for-java-memory-management
+  - type: YOUTUBE
+    title: "¿Como funciona la memoria en Java? El uso de Stack y Heap"
+    link: https://www.youtube.com/watch?v=zSRO_b4y2cA
+  - type: YOUTUBE
+    title: "¿Como funciona la memoria en Java? El uso de Stack y Heap"
+    link: https://www.youtube.com/watch?v=hq8AJUmPcWQ
+alura-contents:

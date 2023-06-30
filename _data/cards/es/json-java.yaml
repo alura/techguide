@@ -1,0 +1,33 @@
+name: JSON
+logo: 
+short-description:
+key-objectives:
+  - JSON significa Notación de objetos de JavaScript. Es un formato de texto para almacenar y transportar datos.
+  - Crear un objeto
+  - Transformar un objeto en una cadena
+  - Transformar una cadena en un objeto
+  - Manipular un objeto
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: JSON"
+    link: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON
+  - type: SITE
+    title: "MDN Web Docs: Trabajando con JSON"
+    link: https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON
+  - type: YOUTUBE
+    title: "¿Que és JSON y cómo funciona?"
+    link: https://www.youtube.com/watch?v=z8qk7T_2sWg&ab_channel=SoyDalto
+  - type: YOUTUBE
+    title: "⭐¿Qué es JSON? ¿Cuál es su SINTAXIS? 🖥️¿Cómo crear un archivo JSON? | DESARROLLO WEB 🌎"
+    link: https://www.youtube.com/watch?v=RhxOTqFbI5Q&ab_channel=TodoCode
+alura-contents:
+  - type: ARTICLE
+    title: "¿Que es Json?"
+    link: https://www.aluracursos.com/blog/que-es-json
+  - type: ARTICLE
+    title: "¿JSON y Objeto JavaScript son lo mismo?"
+    link: https://www.aluracursos.com/blog/json-y-objeto-javascript-son-lo-mismo
+  - type: ARTICLE
+    title: "Simulando una API REST con json-server"
+    link: https://www.aluracursos.com/blog/simulando-una-api-rest-con-json-server

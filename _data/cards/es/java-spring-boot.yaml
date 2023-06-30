@@ -1,0 +1,28 @@
+name: Spring Boot 
+logo: 
+short-description:
+key-objectives:
+  - Spring Boot es un framework de código abierto basado en Java que se utiliza para crear Microservicios con Spring Framework. Se utiliza para construir aplicaciones de Spring independientes y listas para la producción.
+  - Crear aplicaciones independientes de Spring
+  - Usar los servidores HTTP integrados
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Spring Boot - Documentación (en inglés pero puede traducir por navegador)"
+    link: https://spring.io/projects/spring-boot
+  - type: YOUTUBE
+    title: "Aprender Java Spring desde cero ¿O mejor Spring Boot?"
+    link: https://www.youtube.com/watch?v=SAk683SH3ag
+  - type: YOUTUBE
+    title: "Tutorial Spring boot sencillo y en español"
+    link: https://www.youtube.com/watch?v=WVHnk04skPc
+  - type: YOUTUBE
+    title: "SPRING BOOT + JAVA: JUNIOR DEVELOPER lo que DEBERIAS SABER para el primer TRABAJO"
+    link: https://www.youtube.com/watch?v=q7WA7y-9Fjg
+alura-contents:
+  - type: COURSE
+    title: "Curso de Spring Boot 3: desarrollar una API Rest en Java"
+    link: https://app.aluracursos.com/course/spring-boot-3-desarrollar-api-rest-java
+  - type: COURSE
+    title: "Curso de Spring Boot: Seguridad de la API, caché y monitoreo"
+    link: https://app.aluracursos.com/course/spring-boot-seguridad-api-cache-monitoreo

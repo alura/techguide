@@ -1,0 +1,32 @@
+name: Arquitectura de Microservicios
+logo: 
+short-description:
+key-objectives:
+  - Los microservicios son un enfoque de arquitectura en el que el software consiste en pequeños servicios independientes que se comunican entre sí y se organizan de acuerdo con sus dominios de negocio.
+  - Aprender el concepto de arquitectura diseñada para microservicios
+  - Realizar la comunicación mediante API
+  - Mejorar la escalabilidad de un sistema
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Microservicios y arquitectura de microservicios"
+    link: https://www.intel.la/content/www/xl/es/cloud-computing/microservices.html
+  - type: YOUTUBE
+    title: "Patrón de arquitectura de microservicios"
+    link: https://www.youtube.com/watch?v=QxqkmOC-eQY
+  - type: YOUTUBE
+    title: "Un ejemplo de microservicios #CafeConRivas"
+    link: https://www.youtube.com/watch?v=qAcUGw7HhxM
+  - type: ARTICLE
+    title: "Microservicios vs API: Entendiendo la diferencia"
+    link: https://kinsta.com/es/blog/microservicios-vs-api/
+  - type: SITE
+    title: "Diseño de una aplicación orientada a microservicios"
+    link: https://learn.microsoft.com/es-es/dotnet/architecture/microservices/multi-container-microservice-net-applications/microservice-application-design
+  - type: ARTICLE
+    title: "Microservicios Ejemplo de Flujo" 
+    link: https://medium.com/mycodebad/microservicios-ejemplo-de-flujo-f45720a9b278
+  - type: ARTICLE
+    title: "Microservicios Conceptos"
+    link: https://medium.com/mycodebad/microservicios-conceptos-55d19636873e
+alura-contents:

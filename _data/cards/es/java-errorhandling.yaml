@@ -1,0 +1,30 @@
+name: Java - Manejo de Errores 
+logo: 
+short-description:
+key-objectives:
+  - El tratamiento de errores se refiere a los procedimientos de respuesta y recuperación de condiciones de error presentes en una aplicación de software. En otras palabras, es el proceso compuesto de anticipación, detección y resolución de errores de aplicación, de programación o de comunicación.
+  - Tratamiento de excepciones predefinidas
+  - Uso de 'Try' y 'catch'
+  - Crear excepciones específicas
+  - Hacer el proceso de depuración
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Breve introducción a las excepciones en Java"
+    link: https://www.it.uc3m.es/java/prog/resources/excepciones/index_es.html
+  - type: SITE
+    title: "Excepciones"
+    link: https://catedu.github.io/poo-java/excepciones.html
+  - type: SITE
+    title: "Excepción - Java Documentation (en inglés)"
+    link: https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html
+  - type: SITE
+    title: Excepciones - Oracle (en inglés) 
+    link: https://dev.java/learn/exceptions/
+  - type: YOUTUBE
+    title: "🚀 EXCEPCIONES en JAVA POO 🖥️ | TRY y CATCH | Explicación FÁCIL 💥#17"
+    link: https://www.youtube.com/watch?v=VHy6xFXJ1Rw&list=TLPQMDcwMzIwMjNzINQlG4Bhnw&index=4&ab_channel=TodoCode
+alura-contents:
+  - type: COURSE
+    title: "Java Excepciones: Aprenda a crear, lanzar y controlar excepciones"
+    link: https://app.aluracursos.com/course/java-excepciones
