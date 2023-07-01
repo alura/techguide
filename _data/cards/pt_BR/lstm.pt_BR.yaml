@@ -1,0 +1,21 @@
+name: LSTM
+logo: 
+short-description:
+key-objectives:
+  - LSTM (Long Short-Term Memory) é uma arquitetura de rede neural recorrente (RNN) projetada para superar as limitações das RNNs tradicionais na modelagem de dependências de longo prazo em sequências de dados.
+contents:
+  - type: SITE
+    title: "Arquitetura de Redes Neurais Long Short Term Memory (LSTM)"
+    link: https://www.deeplearningbook.com.br/arquitetura-de-redes-neurais-long-short-term-memory/#:~:text=A%20LSTM%20%C3%A9%20uma%20arquitetura,de%20tempo%20de%20dura%C3%A7%C3%A3o%20desconhecida.  
+  - type: ARTICLE
+    title: "Redes Neurais Recorrentes — LSTM"
+    link: https://medium.com/@web2ajax/redes-neurais-recorrentes-lstm-b90b720dc3f6 
+  - type: YOUTUBE
+    title: "LSTM - Rodrigo Guerra"
+    link: https://www.youtube.com/watch?v=TnAYWl0XPfM&ab_channel=RodrigoGuerra
+  - type: YOUTUBE
+    title: "Implemente soluções com arquiteturas avançadas como a LSTM e a GRU."
+    link: https://www.alura.com.br/curso-online-rnn-redes-neurais-recorrentes-deep-learning-pytorch
+  - type: PODCAST
+    title: "Explicando LSTM"
+    link: https://open.spotify.com/episode/0GLeUHZfStUAUXlXNJTgtG?si=3yiJw1ISTTawhs-FYIJW_A 

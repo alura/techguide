@@ -1,0 +1,99 @@
+name: Artificial-Intelligence
+expertise:
+  - name: Artificial Intelligence Jr
+    cards:
+      - regressao-linear-e-logistica:
+        priority: 9
+      - estruturas-de-dados-python:
+        priority: 9
+      - python-metodos-especiais:
+        priority: 9
+      - chatbots:
+        priority: 8
+      - python-fundamentos:
+        priority: 10 
+      - estatistica-e-matematica-fundamentos:
+        priority: 9
+      - visao-computacional:
+        priority: 8
+      - machine-learning-fundamentos:
+        priority: 9
+      - machine-learning-aprendizado-nao-supervisionado:
+        priority: 9
+      - deep-learning:
+        priority: 9
+      - naive-bayes:
+        priority: 8 
+  - name: Artificial Intelligence Mid
+    cards:
+      - ai-frameworks-fundamentals:
+        priority: 10
+      - aplicacoes-em-opencv:
+        priority: 8 
+      - support-vector-machines:
+        priority: 8
+      - segmentacao-semantica-e-instanciada-de-imagens:
+        priority: 9
+      - transfer-learning:
+        priority: 9 
+      - convolutional-neural-networks:
+        priority: 8
+      - reducao-de-dimensionalidade:
+        priority: 8
+      - processamento-de-linguagem-natural:
+        priority: 8
+      - regularizacao:
+        priority: 8 
+      - feature-extraction:
+        priority: 8  
+  - name: Artificial Intelligence Advanced
+    cards:
+      - nlp-qea-e-geracao-de-textos:
+        priority: 10
+      - time-series-forecasting:
+        priority: 8
+      - recurrent-neural-networks:
+        priority: 8
+      - ai-frameworks-advanced:
+        priority: 9
+      - lstm: 
+        priority: 7
+      - generative-adversarial-networks:
+        priority: 9
+      - fuzzy-logic:
+        priority: 7
+      - automated-ai:
+        priority: 8
+      - xg-boost:
+        priority: 8
+      - bias-cognitivo-e-ia-responsavel:
+        priority: 8     
+collaboration:
+  - name: Business & Services
+    cards:
+      - habilidades-de-comunicacao:
+        priority: 8 
+      - big-data-e-engenharia-de-dados:
+        priority: 10
+      - git-e-github-fundamentos:
+        priority: 9
+      - governanca-em-ia-business-analytics:
+        priority: 9 
+      - plataformas-e-servicos-cognitivos:
+        priority: 9
+      - sql-fundamentos:
+        priority: 8
+      - cloud-fundamentos:
+        priority: 8
+  - name: Hardware & Electronics
+    cards:
+      - introducao-a-robotica-para-ia:
+        priority: 10
+      - hardware-specs-for-ai:
+        priority: 9
+      - wearables-e-aquisicao-de-dados:
+        priority: 8
+      - computacao-paralela-e-clusters:
+        priority: 9
+      - physical-computing-fundamentals-e-embedded-ai:
+        priority: 9   
