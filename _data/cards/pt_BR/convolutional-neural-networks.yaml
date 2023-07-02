@@ -1,0 +1,37 @@
+name: Redes Neurais Convolucionais
+logo: 
+short-description:
+key-objectives:
+  - As CNNs (Convolutional Neural Networks, ou Redes Neurais Convolucionais) são um subtipo de redes neurais artificiais profundas (Deep Learning). AS CNNs são majoritariamente empregadas para o processamento de imagens e vídeos, no contexto de classificação do seu conteúdo. Ao contrário de outros algoritmos tradicionais de classificação de imagens, uma CNN tende a demandar menos esforços de pré-processamento nos dados de entrada.  
+contents:
+  - type: ARTICLE
+    title: "Reconhecimento de imagens com Redes Neurais"
+    link: https://www.quanta.org.br/blog/reconhecimento-de-imagens-com-redes-neurais/?gclid=EAIaIQobChMIyPalv5W4-gIVSeZcCh1SFQPeEAAYAyAAEgLZxPD_BwE
+  - type: ARTICLE
+    title: "Entendendo Redes Convolucionais (CNNs)"
+    link: https://medium.com/neuronio-br/entendendo-redes-convolucionais-cnns-d10359f21184 
+  - type: ARTICLE
+    title: "O que é uma convolução?"
+    link: https://medium.com/turing-talks/vis%C3%A3o-computacional-o-que-%C3%A9-convolu%C3%A7%C3%A3o-ad709f7bd6b0
+  - type: ARTICLE
+    title: "Deep Learning Book - Introdução às Redes Neurais Convolucionais"
+    link: https://www.deeplearningbook.com.br/introducao-as-redes-neurais-convolucionais/
+  - type: ARTICLE
+    title: "Aprenda a Criar e Treinar Uma Rede Neural Convolucional (CNN)"
+    link: https://insightlab.ufc.br/aprenda-a-criar-e-treinar-uma-rede-neural-convolucional-cnn
+  - type: SITE
+    title: "Rede Neural Convolucional (CNN) - TensorFlow"
+    link: https://www.tensorflow.org/tutorials/images/cnn
+  - type: YOUTUBE
+    title: "Aprendiz do Futuro: O que são Redes Neurais Convolucionais?"
+    link: https://www.youtube.com/watch?v=sgt_67zNDrI
+  - type: YOUTUBE
+    title: "TensorFlow: Introdução às redes neurais convolucionais (ML de Zero a 100, parte 3)"
+    link: https://www.youtube.com/watch?v=zAfBy74c2AI
+  - type: YOUTUBE
+    title: "Programação Dinâmica: Redes Neurais Convolucionais com PyTorch | Visão Computacional"
+    link: b_channel=ProgramaçãoDinâmica
+alura-contents:
+  - type: COURSE
+    title: "Curso Redes Neurais Convolucionais: Deep Learning com PyTorch"
+    link: https://www.alura.com.br/curso-online-cnn-redes-neurais-convolucionais-deep-learning-pytorch?gclid=EAIaIQobChMIyPalv5W4-gIVSeZcCh1SFQPeEAAYASAAEgIR0fD_BwE

@@ -19,6 +19,8 @@ expertise:
         optional: true
       - statistics-and-math-fundamentals:
         priority: 10
+      - linear-and-logistic-regression:
+        priority: 9
       - data-visualization:
         priority: 8
   - name: Data Science Mid

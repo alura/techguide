@@ -1,0 +1,34 @@
+name: Naive Bayes
+logo: 
+short-description:
+key-objectives:
+  - Naive Bayes é um algoritmo de aprendizado de máquina comumente utilizado para classificação de texto e análise de sentimentos. Ele é baseado no teorema de Bayes, que descreve a probabilidade condicional de um evento ocorrer, dado que outro evento já ocorreu.  
+contents:
+  - type: SITE
+    title: "Definição de Naive Bayes"
+    link: https://www.organicadigital.com/blog/algoritmo-de-classificacao-naive-bayes/
+  - type: ARTICLE
+    title: "6 passos fáceis para aprender o algoritmo Naive Bayes (com o código em Python)"
+    link: https://www.vooo.pro/insights/6-passos-faceis-para-aprender-o-algoritmo-naive-bayes-com-o-codigo-em-python/
+  - type: ARTICLE
+    title: "Análise de sentimento de status do Facebook usando o classificador Naive Bayes para aprendizado de idiomas (inglês)"
+    link: https://www.researchgate.net/publication/261497806_Sentiment_analysis_of_Facebook_statuses_using_Naive_Bayes_Classifier_for_language_learning
+  - type: ARTICLE
+    title: "Aplicação prática de Naive Bayes em estacionamentos privados"
+    link: https://www.anpet.org.br/anais/documentos/2019v1.1%20simpo/Planejamento%20Territorial%20do%20Transporte/Transporte%20e%20Uso%20do%20Solo/7_226_AC.pdf        
+  - type: YOUTUBE
+    title: "Didática Tech: Entenda o Teorema de Bayes com foco na matemática"
+    link: https://www.youtube.com/watch?v=I643PqSrETM
+  - type: YOUTUBE
+    title: "Responde Aí: Teorema de Bayes | Cálculo de Probabilidade"
+    link: https://www.youtube.com/watch?v=goaRH7a5hR4
+  - type: YOUTUBE
+    title: "IA Expert Academy: Como implementar Naive Bayes com Python"
+    link: https://www.youtube.com/watch?v=nBrd8BldSdo
+  - type: YOUTUBE
+    title: "AlgoritmoZ: Introdução à IA: Naive Bayes em Python no Colab"
+    link: https://www.youtube.com/watch?v=BjzX5LZCBmg
+alura-contents:
+  - type: COURSE
+    title: "Curso Machine Learning: classificação por trás dos panos"
+    link: https://www.alura.com.br/curso-online-machine-learning-classificacao-tras-panos

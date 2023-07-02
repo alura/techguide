@@ -1,51 +1,50 @@
-name: Artificial-Intelligence
+name: Artificial Intelligence
 expertise:
   - name: Artificial Intelligence Jr
     cards:
-      - regressao-linear-e-logistica:
+      - python-for-data-science:
+        priority: 10
+      - python-collections:
         priority: 9
-      - estruturas-de-dados-python:
+      - jupyter-and-colaboratory:
         priority: 9
-      - python-metodos-especiais:
+      - linear-and-logistic-regression:
         priority: 9
-      - chatbots:
-        priority: 8
-      - python-fundamentos:
-        priority: 10 
-      - estatistica-e-matematica-fundamentos:
+      - statistics-and-math-fundamentals:
+        priority: 10
+      - machine-learning-fundamentals:
         priority: 9
-      - visao-computacional:
-        priority: 8
-      - machine-learning-fundamentos:
-        priority: 9
-      - machine-learning-aprendizado-nao-supervisionado:
-        priority: 9
-      - deep-learning:
+      - machine-learning-unsupervised-learning:
         priority: 9
       - naive-bayes:
-        priority: 8 
+        priority: 8
   - name: Artificial Intelligence Mid
     cards:
-      - ai-frameworks-fundamentals:
+      - deep-learning:
         priority: 10
-      - aplicacoes-em-opencv:
-        priority: 8 
-      - support-vector-machines:
+      - natural-language-processing:
         priority: 8
-      - segmentacao-semantica-e-instanciada-de-imagens:
-        priority: 9
-      - transfer-learning:
-        priority: 9 
+      - computer-vision:
+        priority: 8
       - convolutional-neural-networks:
         priority: 8
-      - reducao-de-dimensionalidade:
+      - dimensionality-reduction:
         priority: 8
-      - processamento-de-linguagem-natural:
-        priority: 8
-      - regularizacao:
+      - machine-learning-transfer-learning:
+        priority: 9
+      - machine-learning-regularization:
         priority: 8 
-      - feature-extraction:
-        priority: 8  
+      - chatbots:
+        priority: 8
+      - machine-learning-support-vector-machines:
+        priority: 8
+        optional: true
+      - semantic-and-instanced-image-segmentation:
+        priority: 8
+        optional: true
+      - computer-vision-feature-extraction:
+        priority: 8
+        optional: true
   - name: Artificial Intelligence Advanced
     cards:
       - nlp-qea-e-geracao-de-textos:
@@ -69,23 +68,23 @@ expertise:
       - bias-cognitivo-e-ia-responsavel:
         priority: 8     
 collaboration:
-  - name: Business & Services
+  - name: Business e Serviços
     cards:
-      - habilidades-de-comunicacao:
-        priority: 8 
-      - big-data-e-engenharia-de-dados:
+      - big-data-and-data-engineering:
         priority: 10
-      - git-e-github-fundamentos:
+      - communication-skills:
+        priority: 8
+      - git-and-github-fundamentals:
         priority: 9
-      - governanca-em-ia-business-analytics:
+      - ai-governance-and-business-analytics:
         priority: 9 
-      - plataformas-e-servicos-cognitivos:
+      - cognitive-platforms-and-services:
         priority: 9
-      - sql-fundamentos:
+      - sql-fundamentals:
         priority: 8
-      - cloud-fundamentos:
+      - cloud-fundamentals:
         priority: 8
-  - name: Hardware & Electronics
+  - name: Hardware e Eletrônica
     cards:
       - introducao-a-robotica-para-ia:
         priority: 10
