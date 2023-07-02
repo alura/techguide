@@ -1,0 +1,27 @@
+name: XG Boost
+logo: 
+short-description:
+key-objectives:
+  - XGBoost é uma biblioteca de aprendizado de máquina baseada em gradient boosting que se destaca na resolução de problemas de classificação e regressão. "XG" em XGBoost refere-se a "Extreme Gradient", indicando o uso de gradient boosting para melhorar a precisão do modelo. 
+contents:
+  - type: SITE
+    title: "O que é XGBoost?"
+    link: https://www.datageeks.com.br/xgboost/
+  - type: SITE
+    title: "XGBoost - O que é isso?"
+    link: https://datascience.eu/pt/programacao/xgboost-2/ 
+  - type: COURSE
+    title: "XGBoost na Prática | Aula 1"
+    link: https://www.youtube.com/watch?v=fG8H-0rb0mY   
+  - type: COURSE
+    title: "Parte 4 - Árvore de Decisão, Random Forest e Gradient Boosting - Agora ou nunca! - Prof. Dri (faça as aulas 1 a 3)"
+    link: https://youtu.be/noy13V1nTz4
+  - type: ARTICLE
+    title: "Definição da Microsoft sobre xgboost: eXtreme Gradient Boosting"
+    link: https://cran.microsoft.com/snapshot/2017-12-11/web/packages/xgboost/vignettes/xgboost.pdf       
+  - type: ARTICLE
+    title: "Dissertação de mestrado: Detecção de domínios maliciosos por meio de DNS passivo utilizando XGBoost"
+    link: https://repositorio.unesp.br/bitstream/handle/11449/202882/silveira_mr_me_sjrp.pdf?sequence=5
+  - type: ARTICLE
+    title: "Análise automática de feedback em ambientes de aprendizagem online"
+    link: https://sol.sbc.org.br/index.php/sbie/article/view/12845

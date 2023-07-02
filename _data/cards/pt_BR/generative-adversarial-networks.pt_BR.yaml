@@ -1,0 +1,21 @@
+name: Generative Adversarial Networks
+logo: 
+short-description:
+key-objectives:
+  - GANs (Generative Adversarial Networks) são um tipo de arquitetura de rede neural usada para gerar dados sintéticos, como imagens, música, texto ou outros tipos de dados, que se assemelham aos dados de treinamento.
+contents:
+  - type: SITE
+    title: "A Gentle Introduction to Generative Adversarial Networks (GANs)"
+    link: https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/
+  - type: SITE
+    title: "GauGAN NVIDIA"
+    link: http://gaugan.org/gaugan2  
+  - type: SITE
+    title: "O que são GANs?"
+    link: https://www.venturus.org.br/o-que-sao-gans/ 
+  - type: SITE
+    title: "As Redes Adversárias Generativas"
+    link: https://atozofai.withgoogle.com/intl/pt-BR/gans/ 
+  - type: YOUTUBE
+    title: "GAN para extensão de imagens"
+    link: https://www.youtube.com/watch?v=hrq8S1JUgWQ&ab_channel=IAExpertAcademy

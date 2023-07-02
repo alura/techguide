@@ -1,0 +1,27 @@
+name: NLP Q&A e Geração de Textos
+logo: 
+short-description:
+key-objectives:
+  - NLP (Natural Language Processing), Q&A (Question and Answering) e geração de textos são termos relacionados à área de processamento de linguagem natural. 
+contents:
+  - type: SITE
+    title: "Exemplos e aplicações de NLP utilizando Keras"
+    link: https://keras.io/examples/nlp/
+  - type: ARTICLE
+    title: "Geração de texto usando Fnet com Fourier"
+    link: https://arxiv.org/abs/2105.03824v3
+  - type: YOUTUBE
+    title: "Video explicando o paper"
+    link: https://www.youtube.com/watch?v=j7pWPdGEfMA
+  - type: COURSE
+    title: "Aprofundamento sobre o BERT, algoritmo base para realização de diversas aplicações"
+    link: https://www.udemy.com/course/bert-nlp-algorithm/ 
+  - type: PODCAST
+    title: "Bom podcast falando de NLP de maneira geral, com algumas aplicações"
+    link: https://podcasts.apple.com/br/podcast/o-que-%C3%A9-natural-language-processing-o-tal-do-nlp-data/id1436619995?i=1000487407860  
+  - type: SITE
+    title: "Acessando o ChatGPT"
+    link: https://chat.openai.com/auth/login   
+  - type: YOUTUBE
+    title: "O que são Transformers? - Processamento de Linguagem Natural (NLP)"
+    link: https://www.youtube.com/watch?v=8NOitdReamM
