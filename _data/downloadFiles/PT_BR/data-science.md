@@ -139,6 +139,7 @@
    - Conhecer as bibliotecas NLTK e Scikit-Learn
    - Normalizar textos
    - Usar TF-IDF e Ngrams para melhorar a classificação
+   - Conhecer o conceito de Transformers e como são aplicados para LLMs
    - Utilizar o SKlearn
    - Utilizar Regex em PLN
    - Conhecer o Word2Vec

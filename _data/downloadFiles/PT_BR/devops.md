@@ -95,6 +95,7 @@
    - O IPS é um dispositivo ativo que impede ataques, bloqueando-os.
 - [ ] **Internet das Coisas (IoT) - Fundamentos**:
    - Quase todos os objetos agora podem ser conectados à Internet, de máquinas de lavar a componentes sofisticados de motor de avião, a itens orgânicos, como plantações e vacas. A capacidade de conectar coisas e capturar dados úteis está transformando as empresas de todos os setores e abrindo portas para novas especializações de carreira. Descubra a base desse novo campo com atividades práticas para conectar os sensores com segurança aos serviços em nuvem nas redes IP e coletar dados em um sistema de IoT (Internet das Coisas) de ponta a ponta.
+   - Como rodar seu primeiro sistema em um Arduino
 ## Habilidade Auxiliar: Back-end 
 - [ ] **Conceitos de Orientação a Objetos**:
    - A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
