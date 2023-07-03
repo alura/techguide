@@ -1,0 +1,50 @@
+name: Redes Neurais Recorrentes
+logo: 
+short-description:
+key-objectives:
+  - Redes Neurais Recorrentes (em inglês, Recurrent Neural Networks ou RNNs) são uma classe de redes neurais artificiais projetadas para lidar com dados sequenciais, como séries temporais, texto e fala. Ao contrário das redes neurais tradicionais, as RNNs têm conexões recorrentes que permitem que as informações sejam propagadas ao longo do tempo, permitindo que elas capturem dependências temporais em sequências de dados.
+  - LSTM (Long Short-Term Memory) é uma arquitetura de rede neural recorrente (RNN) projetada para superar as limitações das RNNs tradicionais na modelagem de dependências de longo prazo em sequências de dados.
+  - Conhecer a arquitetura de Redes Feedforward
+  - Funções de ativação mais comuns
+  - Familiarizar-se com as principais arquiteturas de RNNs, como bidirecionais (BRNN), Memória de curto prazo longa (LSTM), Unidades recorrentes fechadas (GRU)
+contents:
+  - type: SITE
+    title: "IBM: O que são redes neurais recorrentes?"
+    link: https://www.ibm.com/br-pt/topics/recurrent-neural-networks
+  - type: SITE
+    title: "Didática Tech: O que são Redes Neurais Recorrentes?"
+    link: https://didatica.tech/como-funcionam-redes-neurais-recorrentes-rnn/  
+  - type: SITE
+    title: "Deep Learning Book - Redes Neurais Recorrentes"
+    link: https://www.deeplearningbook.com.br/redes-neurais-recorrentes/  
+  - type: SITE
+    title: "Stanford University: Recurrent Neural Networks cheatsheet (inglês)"
+    link: https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks
+  - type: SITE
+    title: "Deep Learning Book - Arquitetura de Redes Neurais Long Short Term Memory (LSTM)"
+    link: https://www.deeplearningbook.com.br/arquitetura-de-redes-neurais-long-short-term-memory/
+  - type: ARTICLE
+    title: "Redes Neurais Recorrentes — LSTM"
+    link: https://medium.com/@web2ajax/redes-neurais-recorrentes-lstm-b90b720dc3f6 
+  - type: YOUTUBE
+    title: "IA Expert Academy: Introdução a Redes Neurais Recorrentes"
+    link: https://www.youtube.com/watch?v=AsNTP8Kwu80&ab_channel=StatQuestwithJoshStarmer
+  - type: YOUTUBE
+    title: "Aprendiz do Futuro: Modelando Sequências com Redes Neurais Recorrentes (RNNs)"
+    link: https://www.youtube.com/watch?v=AsNTP8Kwu80&ab_channel=StatQuestwithJoshStarmer
+  - type: YOUTUBE
+    title: "StatQuest with Josh Starmer: Redes neurais recorrentes claramente explicadas (inglês)"
+    link: https://www.youtube.com/watch?v=AsNTP8Kwu80&ab_channel=StatQuestwithJoshStarmer
+  - type: YOUTUBE
+    title: "Rodrigo Guerra: LSTM"
+    link: https://www.youtube.com/watch?v=TnAYWl0XPfM&ab_channel=RodrigoGuerra
+  - type: YOUTUBE
+    title: "Centro de Excelência em IA & Deep Learning Brasil: LSTM, GRU, Seq2seq e Mecanismos de atenção"
+    link: https://www.youtube.com/watch?v=94hG00EJFNo&ab_channel=CentrodeExcel%C3%AAnciaemIA%26DeepLearningBrasil
+  - type: PODCAST
+    title: "Vida com IA: Algoritmos para NLP e time series - Explicando RNN, GRU e LSTM"
+    link: https://open.spotify.com/episode/0GLeUHZfStUAUXlXNJTgtG?si=3yiJw1ISTTawhs-FYIJW_A 
+alura-contents:
+  - type: SITE
+    title: "Curso Redes Neurais Recorrentes: Deep Learning com Pytorch"
+    link: https://www.alura.com.br/curso-online-rnn-redes-neurais-recorrentes-deep-learning-pytorch

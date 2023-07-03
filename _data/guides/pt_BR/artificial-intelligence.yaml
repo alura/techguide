@@ -1,4 +1,4 @@
-name: Artificial Intelligence
+name: Inteligência Artificial
 expertise:
   - name: Artificial Intelligence Jr
     cards:
@@ -22,8 +22,6 @@ expertise:
     cards:
       - deep-learning:
         priority: 10
-      - natural-language-processing:
-        priority: 8
       - computer-vision:
         priority: 8
       - convolutional-neural-networks:
@@ -47,52 +45,54 @@ expertise:
         optional: true
   - name: Artificial Intelligence Advanced
     cards:
-      - nlp-qea-e-geracao-de-textos:
+      - natural-language-processing:
         priority: 10
       - time-series-forecasting:
         priority: 8
       - recurrent-neural-networks:
         priority: 8
-      - ai-frameworks-advanced:
-        priority: 9
-      - lstm: 
-        priority: 7
       - generative-adversarial-networks:
         priority: 9
+      - cognitive-bias-and-responsible-ai:
+        priority: 8
       - fuzzy-logic:
         priority: 7
       - automated-ai:
         priority: 8
-      - xg-boost:
-        priority: 8
-      - bias-cognitivo-e-ia-responsavel:
-        priority: 8     
+      - xgboost:
+        priority: 7
+        optional: true
 collaboration:
   - name: Business e Serviços
     cards:
       - big-data-and-data-engineering:
         priority: 10
-      - communication-skills:
-        priority: 8
       - git-and-github-fundamentals:
         priority: 9
       - ai-governance-and-business-analytics:
-        priority: 9 
+        priority: 9
       - cognitive-platforms-and-services:
         priority: 9
       - sql-fundamentals:
         priority: 8
       - cloud-fundamentals:
         priority: 8
+      - communication-skills:
+        priority: 7
   - name: Hardware e Eletrônica
     cards:
-      - introducao-a-robotica-para-ia:
+      - ai-robotics-fundamentals:
         priority: 10
-      - hardware-specs-for-ai:
+        optional: true
+      - hardware-for-ai:
         priority: 9
-      - wearables-e-aquisicao-de-dados:
+        optional: true
+      - wearables-and-data-acquisition:
         priority: 8
-      - computacao-paralela-e-clusters:
+        optional: true
+      - parallel-computing-and-clusters:
         priority: 9
-      - physical-computing-fundamentals-e-embedded-ai:
-        priority: 9   
+        optional: true
+      - iot-fundamentals:
+        priority: 9
+        optional: true
