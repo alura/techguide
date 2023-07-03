@@ -1,4 +1,6 @@
 name: Inteligência Artificial
+tags: 
+  - ai
 expertise:
   - name: Artificial Intelligence Jr
     cards:
@@ -83,16 +85,13 @@ collaboration:
     cards:
       - ai-robotics-fundamentals:
         priority: 10
-        optional: true
       - hardware-for-ai:
+        priority: 9
+      - parallel-computing-and-clusters:
+        priority: 9
+      - iot-fundamentals:
         priority: 9
         optional: true
       - wearables-and-data-acquisition:
         priority: 8
-        optional: true
-      - parallel-computing-and-clusters:
-        priority: 9
-        optional: true
-      - iot-fundamentals:
-        priority: 9
         optional: true
