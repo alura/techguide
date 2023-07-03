@@ -53,6 +53,10 @@
    - Técnicas de amostragem
    - Regressão linear
    - Séries temporais
+- [ ] **Regressão Linear e Logística**:
+   - As regressões são os métodos mais simples de aprendizado supervisionado, porém encontram diversas aplicações.
+   - A regressão linear é usada para relacionar uma variável dependente contínua a uma ou mais variáveis independentes contínuas. O objetivo é encontrar uma relação linear que melhor se ajuste aos dados.
+   - A regressão logística, por outro lado, é usada para problemas de classificação binária, onde a variável de saída é categórica e possui apenas duas categorias. Ela estima a probabilidade de um evento ocorrer com base nas variáveis independentes.
 - [ ] **Visualização de Dados**:
    - A visualização de dados é uma expressão contemporânea da comunicação visual que consiste na representação visual de dados.
    - Mapear dados abstratos em representações visuais
@@ -126,6 +130,7 @@
    - Construir classificadores para reconhecimento de faces
    - Extrair regiões do rosto humano baseado em marcos faciais
    - Analisar diferentes condições de cada componente do rosto humano
+   - Conhecer Redes Neurais Convolucionais
    - Usar OpenCV
 - [ ] **Processamento de Linguagem Natural**:
    - Processamento de língua natural (PLN) é uma subárea da inteligência artificial e da linguística que estuda os problemas da geração e compreensão automática de línguas humanas naturais.
