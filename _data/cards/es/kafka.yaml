@@ -10,10 +10,25 @@ key-objectives:
 - Obtener garantías relativas al envío o entrega de los mensajes
 aditional-objectives:
 contents:
+  - type: YOUTUBE
+    title: "Apache KAFKA: Qué es en 1 minuto"
+    link: https://www.youtube.com/watch?v=bxIsNY8Au9I
   - type: ARTICLE
     title: "Qué es Apache Kafka y cómo dar los primeros pasos"
     link: https://profile.es/blog/que-es-apache-kafka-primeros-pasos/
   - type: PODCAST
     title: "¿Qué es y cómo funciona Apache Kafka? Podcast Apasionados por la tecnología."
     link: https://open.spotify.com/episode/52RjBgXycIVSd2FHkkENQV?si=130fac7df95b4ec6
+  - type: SITE
+    title: "Introducción a Apache Kafka"
+    link: https://oscarfmdc.medium.com/introducci%C3%B3n-a-apache-kafka-aprende-big-data-en-espa%C3%B1ol-ce7281fdf0cc
+  - type: YOUTUBE
+    title: "Apache Kafka - Ejemplo de configuración de intermediario de Apache Kafka"
+    link: https://www.ibm.com/docs/es/oala/1.3.7?topic=collection-apache-kafka-broker-configuration-example
+  - type: YOUTUBE
+    title: "Como comunicar microservicios y ejemplo con Apache Kafka y Javascript"
+    link: https://www.youtube.com/watch?v=rHRSOWa0cqI&ab_channel=NullSafeArchitect
+  - type: YOUTUBE
+    title: "Instalación de un cluster de Apache Kafka paso a paso"
+    link: https://www.youtube.com/watch?v=MA-nxL14fr4&ab_channel=NullSafeArchitect
 alura-contents:
