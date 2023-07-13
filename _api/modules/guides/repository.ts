@@ -20,7 +20,11 @@ export function guidesRepository() {
   const repository = {
     async getAll({ input }: { input: GuidesInput }): Promise<Guide[]> {
       const { filter = {}, offset, limit, locale } = input;
-      const pathToGuides = pathToGuideByLocale[locale];
+      const pathToGuides = pathToGuideByLocale[locale || SiteLocale.PtBr];
+
+      if (!pathToGuides) {
+        throw new Error(`Locale ${locale} not found`);
+      }
 
       const guideFileNames = (await fs.readdir(pathToGuides)).filter(
         (fileName) => !ALLOW_LIST.includes(fileName)
@@ -56,6 +60,7 @@ export function guidesRepository() {
                       slug: slug,
                     },
                     priority: card.priority,
+                    optional: Boolean(card.optional),
                   };
                 });
               }
@@ -78,6 +83,7 @@ export function guidesRepository() {
                       id: slug,
                       slug: slug,
                     },
+                    optional: Boolean(card.optional),
                     priority: card.priority,
                   };
                 });

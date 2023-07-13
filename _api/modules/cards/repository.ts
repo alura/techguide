@@ -20,7 +20,7 @@ export function cardsRepository() {
   const repository = {
     async getAll({ input }: { input: CardsInput }): Promise<Card[]> {
       const { filter = {}, offset, limit, locale } = input;
-      const pathToCards = pathToCardsByLocale[locale];
+      const pathToCards = pathToCardsByLocale[locale || SiteLocale.PtBr];
 
       const cardFileNames = await (
         await Promise.all(await fs.readdir(pathToCards))

@@ -177,5 +177,6 @@ export default {
   "TSHAPE.GUIDE.VIDEO.TITLE": "Quer se aprofundar ainda mais no assunto?",
   "TSHAPE.GUIDE.VIDEO.DESCRIPTION": "Para complementar esse Guia e te ajudar no seu caminho, nós conversamos sobre os detalhes e desafios dessa jornada e o resultado você pode acompanhar em vídeo.",
   "TSHAPE.GUIDE.VIDEO.CTA": "Legal né? Dá o play pra conferir!",
+  "TSHAPE.OPTIONAL.DESCRIPTION": "= Conteúdo opcional",
   "DEMO": "DEMO"
 }
