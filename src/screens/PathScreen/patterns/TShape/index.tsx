@@ -4,6 +4,7 @@ import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
 import { TItemCard } from "./patterns/TItemCard";
 import { useI18n, useI18nLocale } from "@src/infra/i18n";
 import { parseContent } from "@src/infra/i18n/parseContent";
+import { OptionalIcon } from "@src/theme/icons/OptionalIcon";
 
 interface TShapeProps {
   guide: PathScreenGetGuideBySlugQuery["guide"];
@@ -239,6 +240,20 @@ export default function TShape({ guide, externalGuideCreator }: TShapeProps) {
           alignItems: "center",
         }}
       >
+        <Text
+          styleSheet={{
+            marginTop: "24px",
+            fontSize: "14px",
+            fontWeight: "500",
+            alignItems: "center",
+            display: "flex",
+            flexDirection: "row",
+            gap: "6px",
+          }}
+        >
+          <OptionalIcon size="19px" />{" "}
+          {i18n.content("TSHAPE.OPTIONAL.DESCRIPTION")}
+        </Text>
         {!isExternalGuide && (
           <Link
             href={`https://github.com/alura/techguide/blob/main/_data/downloadFiles/${locale}/${guide.slug}.md`}

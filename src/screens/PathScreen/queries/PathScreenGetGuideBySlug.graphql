@@ -11,6 +11,7 @@ query PathScreenGetGuideBySlug($input: GuideInput, $locale: SiteLocale) {
       name
       cards {
         priority
+        optional
         item {
           slug
           name
@@ -37,6 +38,7 @@ query PathScreenGetGuideBySlug($input: GuideInput, $locale: SiteLocale) {
       name
       cards {
         priority
+        optional
         item {
           slug
           name

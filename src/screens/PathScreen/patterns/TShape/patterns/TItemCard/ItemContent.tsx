@@ -2,6 +2,7 @@ import React from "react";
 import { Box, Link, Text } from "@src/components";
 import { useModal } from "@src/components/Modal";
 import { useI18n } from "@src/infra/i18n";
+import { OptionalIcon } from "@src/theme/icons/OptionalIcon";
 
 export default function ItemContent({
   categoryTitle,
@@ -12,6 +13,7 @@ export default function ItemContent({
 }: any) {
   const i18n = useI18n();
   const modal = useModal();
+
   return (
     <Box
       styleSheet={{
@@ -142,6 +144,25 @@ export default function ItemContent({
             borderBottom: "1px solid rgba(233, 233, 233, 0.1)",
           }}
         >
+          <Text
+            styleSheet={{
+              marginBottom: "17px",
+              fontSize: "14px",
+              fontWeight: "600",
+              color: "#88B8DB",
+              alignItems: "center",
+              display: "flex",
+              flexDirection: "row",
+              gap: "6px",
+              textTransform: "uppercase",
+            }}
+          >
+            <OptionalIcon color="#AFAEBA" size="19px" />{" "}
+            {(i18n.content("TSHAPE.OPTIONAL.DESCRIPTION") as string).replace(
+              "= ",
+              ""
+            )}
+          </Text>
           <Text
             styleSheet={{
               fontWeight: "800",
