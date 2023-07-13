@@ -1,0 +1,74 @@
+name: SQL - Avançado
+logo: 
+short-description:
+key-objectives:
+  - Conhecer uma variedade abrangente de conteúdos relacionados a bancos de dados e linguagem SQL.
+  - Uso de triggers em SQL, linguagens internas de SGBDs, modelagem de dados e manipulação de consultas avançadas.
+  - Utilize os principais bancos de dados relacionais (Oracle, Microsoft SQL Server, PostgreSQL e MySQL...)
+  - Aprenda sobre procedimentos, funções, pacotes, otimização do banco, segurança e administração dos bancos de dados.
+aditional-objectives:
+contents:
+alura-contents:
+  - type: ARTICLE
+    title: "O que é e como usar trigger em SQL"
+    link: https://www.alura.com.br/artigos/trigger-em-sql 
+  - type: ARTICLE
+    title: "SGBDs e suas linguagens internas"
+    link: https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas 
+  - type: COURSE
+    title: "Formação Modelagem de dados"
+    link: https://cursos.alura.com.br/formacao-modelagem-dados
+  - type: COURSE
+    title: "Oracle Database: projeções, seleções, joins e views"
+    link: https://cursos.alura.com.br/course/sql-oracle-projecoes-selecoes-joins-views
+  - type: COURSE
+    title: "Oracle Database: manipulando dados com comandos DML"
+    link: https://cursos.alura.com.br/course/manipulacao-dados-oracle-dml
+  - type: COURSE
+    title: "Oracle PL/SQL: procedures, funções e exceções"
+    link: https://cursos.alura.com.br/course/oracle-pl-sql-procedures-funcoes-excecoes
+  - type: COURSE
+    title: "Oracle PL/SQL: cursor e exceções"
+    link: https://cursos.alura.com.br/course/oracle-pl-sql-cursor-excecoes
+  - type: COURSE
+    title: "Oracle PL/SQL: dominando packages"
+    link: https://cursos.alura.com.br/course/oracle-pl-sql-dominando-packages
+  - type: COURSE
+    title: "Microsoft SQL Server 2022: consultas avançadas"
+    link: https://cursos.alura.com.br/course/microsoft-sql-server-2022-consultas-avancadas
+  - type: COURSE
+    title: "Microsoft SQL Server 2022: manipulando dados"
+    link: https://cursos.alura.com.br/course/microsoft-sql-server-2022-manipulando-dados
+  - type: COURSE
+    title: "Microsoft SQL Server 2022: conhecendo o T-SQL"
+    link: https://cursos.alura.com.br/course/microsoft-sql-server-2022-conhecendo-t-sql
+  - type: COURSE
+    title: "Microsoft SQL Server 2022: aprofundando em procedures e funções"
+    link: https://cursos.alura.com.br/course/microsoft-sql-server-2022-procedures-funcoes
+  - type: COURSE
+    title: "PostgreSQL: Views, Sub-Consultas e Funções"
+    link: https://cursos.alura.com.br/course/postgresql-views-sub-consultas-funcoes
+  - type: COURSE
+    title: "PostgreSQL: comandos DML e DDL"
+    link: https://cursos.alura.com.br/course/pgsql-comandos-dml-ddl
+  - type: COURSE
+    title: "PostgreSQL: desenvolva com PL/pgSQL"
+    link: https://cursos.alura.com.br/course/postgresql-procedures
+  - type: COURSE
+    title: "PostgreSQL: Triggers, transações, erros e cursores"
+    link: https://cursos.alura.com.br/course/postgresql-triggers-transacoes-erros-cursores
+  - type: COURSE
+    title: "PostgreSQL: administração e otimização do banco"
+    link: https://cursos.alura.com.br/course/postgresql-administracao-otimizacao
+  - type: COURSE
+    title: "Consultas SQL: avançando no SQL com MySQL"
+    link: https://cursos.alura.com.br/course/consultas-sql-avancando-no-sql-com-mysql
+  - type: COURSE
+    title: "Comandos DML: manipulação de dados com MySQL"
+    link: https://cursos.alura.com.br/course/comandos-dml-manipulacao-de-dados-com-mysql
+  - type: COURSE
+    title: "Procedures SQL: executando código no MySQL"
+    link: https://cursos.alura.com.br/course/procedures-sql-executando-codigo-no-mysql
+  - type: COURSE
+    title: "Administração do MySQL: segurança e otimização do banco"
+    link: https://cursos.alura.com.br/course/administracao-do-mysql-seguranca-e-otimizacao-do-banco
