@@ -146,6 +146,7 @@ function Item({ onClick, categoryName, index, main, card, extra }: any) {
                     keyObjectives={content.keyObjectives}
                     aluraContents={content.aluraContents}
                     contents={content.contents}
+                    optional={content.optional}
                   />
                 );
               });
