@@ -1,0 +1,38 @@
+name: Vue - Performance
+logo: 
+short-description:
+key-objectives:
+  - Aprenda a usar ferramentas de profiling, como a Vue Devtools e o Performance tab no Chrome Devtools, para entender onde seu aplicativo pode estar sofrendo em termos de desempenho.
+  - Estude técnicas de otimização de carga de página, como lazy-loading, prefetching e preloading.
+  - Compreenda a importância de escolher a arquitetura certa para a sua aplicação Vue. Aprenda sobre padrões de projeto e como eles podem afetar a performance.
+  - Familiarize-se com as técnicas de redução do tamanho do bundle e tree-shaking para remover código desnecessário da sua aplicação.
+  - Aprenda a implementar a divisão de código para carregar apenas o código necessário para o usuário em um determinado momento.
+  - Aprofunde-se em técnicas de otimização de atualizações, como imutabilidade, estabilidade de props e uso de chaves em listas para minimizar re-renderizações desnecessárias.
+  - Entenda como garantir a estabilidade de props para evitar atualizações desnecessárias dos componentes.
+  - Familiarize-se com as diretivas v-once e v-memo e quando utilizá-las para otimizar a renderização de componentes.
+  - Aprenda sobre otimizações gerais como a virtualização de listas grandes, reduzindo a sobrecarga de reatividade para grandes estruturas imutáveis, e evitando abstrações de componentes desnecessárias.
+  - Entenda como a virtualização pode ser usada para exibir eficientemente grandes listas de dados, reduzindo a sobrecarga de renderização.
+
+aditional-objectives:
+contents:
+  - type: SITE
+    title: Otimizando a eficiência do conteúdo
+    link: https://web.dev/performance-optimizing-content-efficiency/
+  - type: SITE
+    title: "Vue: Documentação - v-once"
+    link: https://vuejs.org/api/built-in-directives.html#v-once
+  - type: SITE
+    title: "Vue: Documentação - v-memo"
+    link: https://vuejs.org/api/built-in-directives.html#v-memo
+  - type: SITE
+    title: "Vue: Documentação - profiling"
+    link: https://vuejs.org/guide/best-practices/performance.html#profiling-options
+  - type: SITE
+    title: "Vue: Documentação - SSR"
+    link: https://vuejs.org/guide/scaling-up/ssr.html
+  - type: SITE
+    title: "Vue: Documentação - Code Splitting"
+    link: https://vuejs.org/guide/best-practices/performance.html#code-splitting
+  - type: SITE
+    title: "Listas virtualizadas com vue-virtual-scroller"
+    link: https://github.com/Akryum/vue-virtual-scroller

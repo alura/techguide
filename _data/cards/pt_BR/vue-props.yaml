@@ -1,0 +1,22 @@
+name: Vue - Props
+logo: 
+short-description:
+key-objectives:
+  - Props são um objeto que é injetado em componentes e fornece alguns dados que podem ser compartilhados entre outros componentes em um fluxo de dados unidirecional, de um elemento pai para um elemento filho. Props são de somente leitura.
+  - Como passar props
+  - Como manipular props
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Props"
+    link: https://vuejs.org/guide/components/props.html
+  - type: SITE
+    title: "Introdução à CLI do Vue e a componentes de arquivo único no Vue.js"
+    link: https://learn.microsoft.com/pt-br/training/modules/vue-cli-components/
+  - type: ARTICLE
+    title: "Domine as Props no Vue.js: Da Declaração à Validação"
+    link: https://marcosviniciosneves.medium.com/domine-as-props-no-vue-js-da-declara%C3%A7%C3%A3o-%C3%A0-valida%C3%A7%C3%A3o-cd44952cde23
+alura-contents:
+  - type: PODCAST
+    title: "Vue.js na Wirecard"
+    link: https://www.alura.com.br/podcast/vue-js-na-wirecard-hipsters-on-the-road-09-a427

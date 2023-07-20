@@ -1,0 +1,16 @@
+name: Vue - Options API
+logo: 
+short-description:
+key-objectives:
+  - "Aprenda a estruturar um componente Vue usando a Options API, abrangendo opções como 'data', 'methods', 'computed', e 'watch'."
+  - "Domine os hooks do ciclo de vida do componente ('created', 'mounted', 'updated', e 'destroyed') para controlar comportamentos em diferentes etapas da vida do componente."
+  - "Pratique o gerenciamento de estado reativo dentro dos componentes, utilizando opções como 'data' e 'computed', e aprenda como sincronizar estados entre componentes usando 'props' e 'emit'."
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - O básico de um componente"
+    link: https://vuejs.org/guide/essentials/component-basics.html
+  - type: SITE
+    title: "Mozilla: Usando propriedades computadas do Vue"
+    link: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_computed_properties
+

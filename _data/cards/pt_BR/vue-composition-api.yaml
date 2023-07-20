@@ -1,0 +1,25 @@
+name: Vue - Composition API
+logo: 
+short-description:
+key-objectives:
+  - Inicie componentes com a função setup(). Ela é o coração da Composition API.
+  - Aprenda a usar ref e reactive para criar e gerenciar estados reativos.
+  - Domine os hooks do ciclo de vida. Eles são vitais para controlar comportamentos em diferentes estágios do componente.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - O básico de um componente"
+    link: https://vuejs.org/guide/essentials/component-basics.html
+  - type: SITE
+    title: "Vue: Documentação - Ref e reatividade"
+    link: https://vuejs.org/guide/essentials/reactivity-fundamentals.html#ref
+  - type: SITE
+    title: "Vue: Documentação - Ciclo de vida usando hooks"
+    link: https://vuejs.org/guide/essentials/lifecycle.html
+  - type: SITE
+    title: "Vue: Documentação - Propriedades computadas"
+    link: https://vuejs.org/guide/essentials/computed.html
+alura-contents:
+  - type: COURSE
+    title: "Vue3: composition API e Vuex"
+    link: https://www.alura.com.br/curso-online-vue3-composition-api-vuex

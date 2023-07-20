@@ -1,0 +1,23 @@
+name: Vue - testes fim-a-fim  
+logo: 
+short-description:
+key-objectives:
+  - Testes E2E simulam a experiência do usuário ao interagir com a aplicação, garantindo que todos os componentes funcionem juntos como esperado.
+  - Cypress é uma ferramenta comum para realizar testes E2E em aplicações web, incluindo Vue. Instale e configure o Cypress para o seu projeto.
+  - Comece a escrever testes que simulam ações do usuário, como clicar em botões, preencher formulários e navegar entre as páginas.
+  - Os comandos personalizados ajudam a simplificar os testes, evitando a repetição de códigos de teste.
+  - Aprenda a manipular e testar diferentes estados da sua aplicação, como usuários logados e deslogados.
+  - Integre seus testes E2E ao seu processo de integração contínua/deploy contínuo (CI/CD) para garantir que sua aplicação esteja sempre funcionando como esperado.
+  
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Testes fim-a-fim"
+    link: https://vuejs.org/guide/scaling-up/testing.html#e2e-testing
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Testes em Javascript - Alura Live 50"
+    link: https://www.youtube.com/watch?v=r1rndQwFLMY
+  - type: SITE
+    title: "Primeiras aulas do curso Cypress: automação de testes E2E"
+    link: https://www.alura.com.br/conteudo/cypress-automacao-testes-e2e

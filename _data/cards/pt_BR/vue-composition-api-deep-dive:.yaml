@@ -1,0 +1,28 @@
+name: Vue - Composition API a fundo
+logo: 
+short-description:
+key-objectives:
+  - Comece entendendo a função setup() e o conceito de reatividade no Vue 3.
+  - Domine ref e reactive, os principais elementos para gerenciar estados reativos.
+  - Aprenda a usar computed para trabalhar com propriedades calculadas.
+  - Explore o uso de watch e watchEffect para reagir às mudanças de estado.
+  - Entenda os hooks do ciclo de vida para controlar o comportamento do componente em diferentes fases.
+  - Crie e exponha funções a partir da função setup.
+  - Aprenda a usar props dentro da setup e como lidar com as diretivas no template.
+  - Implemente a lógica reutilizável através de Composables.
+  - Aprenda as melhores práticas e padrões comuns ao usar a Composition API.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Options VS Composition API"
+    link: https://vuejs.org/guide/introduction.html#which-to-choose
+  - type: SITE
+    title: "Vue: Documentação - Tutoriais práticos para se aprofundar na Composition API"
+    link: https://vuejs.org/tutorial/#step-1
+  - type: SITE
+    title: "Vue Composition API"
+    link: https://www.w3schools.com/vue/vue_composition-api.php
+alura-contents:
+  - type: COURSE
+    title: "Vue3: composition API e Vuex"
+    link: https://www.alura.com.br/curso-online-vue3-composition-api-vuex

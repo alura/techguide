@@ -1,0 +1,20 @@
+name: Pinia
+logo: 
+short-description:
+key-objectives:
+  - Aprenda os conceitos básicos do Vuex, o problema que ele resolve e quando usá-lo.
+  - Compreenda como o estado é armazenado no Vuex e como acessar o estado global em seus componentes Vue.
+  - Aprenda a usar getters para acessar valores derivados do estado.
+  - Descubra como realizar ações assíncronas através de actions.
+  - Aprenda como usar a store fora de componentes com o hook useStore
+  - Explore os guias de migração para mudar do vuex para o Pinia
+  - Mergulhe no universo do SSR combinando o poder do Pina com o Nuxt  
+  
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Pinia: livro de receitas"
+    link: https://pinia.vuejs.org/cookbook/
+  - type: SITE
+    title: "Pinia: principais conceitos"
+    link: https://pinia.vuejs.org/core-concepts/

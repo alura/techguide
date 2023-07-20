@@ -1,0 +1,124 @@
+name: Vue
+tags: 
+  - front-end
+expertise:
+  - name: Vue Jr
+    cards:
+      - html-fundamentals:
+        priority: 8
+      - css-fundamentals:
+        priority: 8
+      - javascript-fundamentals:
+        priority: 10
+      - dom-fundamentals:
+        priority: 10
+      - spa-concepts:
+        priority: 9
+      - vue-components:
+        priority: 9
+      - vue-props:
+        priority: 9
+      - vue-directives:
+        priority: 8
+      - vue-options-api:
+        priority: 9
+      - vue-composition-api:
+        priority: 9
+      - vue-templates:
+        priority: 9
+      - create-vue-app:
+        priority: 7
+  - name: Vue Mid
+    cards:
+      - vue-composition-api-deep-dive:
+        priority: 7
+      - vue-async-components:
+        priority: 9
+      - vue-teleport:
+        priority: 10
+      - vue-design-system-libraries:
+        priority: 4
+      - vue-dev-tools:
+        priority: 5
+        optional: true
+      - vue-forms:
+        priority: 5
+      - vue-events:
+        priority: 5
+      - vue-router:
+        priority: 5
+      - vue-styling:
+        priority: 5
+      - vue-api-calls:
+        priority: 5
+      - javascript-callbacks-promises:
+        priority: 8
+      - javascript-errorhandling:
+        priority: 7
+      - babel-fundamentals:
+        priority: 6
+        optional: true      
+  - name: Vue in depth
+    cards:
+      - vue-performance:
+        priority: 10
+      - vue-slots:
+        priority: 5
+      - vue-quasar:
+        priority: 5
+      - vue-nuxt:
+        priority: 5
+      - pinea:
+        priority: 5
+      - vue-provide-inject:
+        priority: 5
+      - vue-capacitor:
+        priority: 5
+      - vue-unit-testing:
+        priority: 10
+      - vue-e2e-testing:
+        priority: 10
+      - cypress:
+        priority: 6
+collaboration:
+  - name: Infraestrutura e Back-end
+    cards:
+      - git-and-github-fundamentals:
+        priority: 9
+      - http-fundamentals:
+        priority: 10
+      - json:
+        priority: 8
+      - command-line-fundamentals: 
+        priority: 8
+      - cloud-fundamentals: 
+        priority: 6
+        optional: true
+      - yarn:
+        optional: true
+        priority: 6
+      - vite:
+        optional: true
+        priority: 6
+  - name: UX e Design
+    cards:
+      - design-systems:
+        priority: 4
+      - figma-fundamentals:
+        priority: 8
+      - design-components:
+        priority: 6
+      - color-systems:
+        priority: 5
+      - how-to-use-fonts:
+        priority: 5
+faq:
+  - title: "O que é o TechGuide.sh?"
+    answer: "O TechGuide.sh é uma iniciativa da Alura para mapear as necessidades mais comuns em cada profissional de tecnologia, direcionando tanto alunos e alunas quanto a própria escola com novos cursos, conteúdos, podcasts e artigos. Nós seguimos a abordagem do profissional em T, sendo um guia norteador e abrindo mais possibilidades de caminhos, ordem de aprendizado e os motivos de aprender cada um dos itens (cards) em um guia."
+  - title: "Preciso saber HTML, CSS e JavaScript antes de começar a estudar Vue?"
+    answer: "Ter um conhecimento básico dessas tecnologias será muito útil para entender e utilizar o Vue de forma eficaz. O Vue é uma biblioteca JavaScript que é frequentemente usada para criar interfaces de usuário de aplicativos da web. Embora o Vue permita criar interfaces complexas sem precisar lidar diretamente com HTML e CSS, é importante entender os conceitos básicos dessas tecnologias para entender como o Vue funciona e como usá-lo adequadamente."
+  - title: "Preciso conhecer todos os hooks?"
+    answer: "Hooks foram introduzidos no Vue a partir da versão 16.8 da biblioteca, sendo recursos que permitem que você gerencie o estado, ciclos de vida do componente e outros recursos do Vue sem precisar escrever componentes em forma de classes. O uso deles é recomendado, mas claro, você não precisa conhecer todos logo de cara. Os mais relevantes costumam ser o 'useState' e 'useEffect', por isso foque nesses primeiro, e aprenda os outros quanto precisar."
+  - title: "Preciso aprender TypeScript?"
+    answer: "Não é essencial, mas é uma tecnologia que vem sendo cada vez mais adotada pelo mercado Vue, por isso é interessante estudá-la a partir do Nível 2 de profundidade, pois é possível que você tenha que usá-la em projetos."
+video: https://www.youtube.com/watch?v=0tS4lUq_7iA&list=PLh2Y_pKOa4UeBQNf1JQzc4SfegYR0gO-N&index=9&ab_channel=Alura
