@@ -1,0 +1,23 @@
+name: iOS - Persistência de dados
+logo: 
+short-description:
+key-objectives:
+  - "A persistência de dados em iOS é o processo de armazenar e recuperar dados em um dispositivo iOS. Isso pode ser feito usando uma variedade de métodos, incluindo arquivos, Core Data e Realm. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer os diferentes tipos de persistência de dados no iOS, como arquivos, Core Data e Realm;
+  - Armazenar e recuperar dados em um aplicativo iOS usando arquivos, Core Data e Realm;
+  - Personalizar a persistência de dados em um aplicativo iOS para diferentes necessidades.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação oficial Realm Database (inglês)"
+    link: https://www.mongodb.com/docs/realm/introduction/
+  - type: SITE
+    title: "Documentação oficial Apple - Core Data (inglês)"
+    link: https://developer.apple.com/documentation/coredata
+  - type: SITE
+    title: "Documentação oficial Apple - Gerenciador de Arquivos (inglês)"
+    link: https://developer.apple.com/design/human-interface-guidelines/file-management
+alura-contents:
+  - type: COURSE
+    title: "iOS: usando recursos nativos (Core Data e Biblioteca de fotos)"
+    link: https://cursos.alura.com.br/course/ios-usando-recursos-nativos

@@ -1,0 +1,18 @@
+name: iOS - Injeção de dependências
+logo:
+short-description:
+key-objectives:
+  - "A injeção de dependências (DI) é um padrão de projeto que permite que os componentes de um aplicativo recebam as dependências de que precisam em tempo de execução. Isso torna os componentes mais testáveis e flexíveis. Existem várias maneiras de implementar a DI em iOS. Uma maneira comum é usar um contêiner de injeção de dependências. Um contêiner de injeção de dependências é um objeto que armazena as dependências de um aplicativo e as fornece aos componentes conforme necessário. A DI é uma ferramenta poderosa que pode ajudar os desenvolvedores a criar aplicativos mais testáveis e flexíveis. Ao aprender como usar a DI, você pode criar aplicativos que são mais fáceis de manter e estender. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer e utilizar o padrão de projeto de injeção de dependências.
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Injeção de dependências com Swift - O que é e quais os benefícios (Inglês) | Sean Allen"
+    link: https://youtu.be/l0QehVWz2i0
+  - type: YOUTUBE
+    title: "Injeção de Dependências (O Guia Mais Prático do Youtube) // Dicionário do Programador | Código Fonte TV"
+    link: https://youtu.be/evhskJG1kvY
+  - type: YOUTUBE
+    title: "[Devpass Talks] Injeção de Dependência com Swift (Eduardo Bocato) | Devpass"
+    link: https://youtu.be/0DDeOw5JfIc
+alura-contents:
