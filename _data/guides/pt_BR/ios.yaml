@@ -9,50 +9,50 @@ expertise:
       - oop-concepts:
         priority: 10
       - ios-storyboards:
-	      priority: 8
+        priority: 8
       - ios-viewcode:
-	      priority: 9
-      - ios-app-resources: #images, icons...
+        priority: 9
+      - ios-app-resources:
         priority: 9
       - ios-persistence:
-	      priority: 7
-      - ios-external-requests: #comunicação com API externa
-	      priority: 10
+        priority: 8
+      - ios-external-requests:
+        priority: 10
       - ios-third-libraries:
-	      priority: 10
+        priority: 10
       - ios-swiftui:
-	      priority: 6
+        priority: 6
       - ios-debugging:
-	      priority: 8
+        priority: 8
 
   - name: iOS Mid
     blocks:
       - ios-asynchronous:
         priority: 9
       - ios-state-manager:
-	      priority: 10
-      - ios-system-resources: #(localização, camera, sensores etc)
+        priority: 10
+      - ios-system-resources:
         priority: 7
       - ios-dependency-injection:
         priority: 9
       - ios-testing:
         priority: 9
       - ios-acessibility:
-	      priority: 8
+        priority: 8
       - ios-games:
         priority: 6
         optional: true
       - ios-memory-leaks:
-	      priority: 9
+        priority: 9
 
   - name: iOS in depth
     blocks:
-      - ios-architectures: #(mvc, mvvm, mvp, viper)
+      - ios-architectures:
         priority: 10
       - data-structures:
-	      priority: 8
+        priority: 8
       - ios-animations:
-	      priority: 9
+        priority: 9
       - ios-deployment:
         priority: 7
       - ios-app-modularization:
