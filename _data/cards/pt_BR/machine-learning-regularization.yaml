@@ -1,0 +1,27 @@
+name: Machine Learning - Regularização
+logo: 
+short-description:
+key-objectives:
+  - Regularização se refere a um conjunto de técnicas para tornar os dados mais regulares e estáveis, facilitando o aprendizado e a descoberta de padrões em Machine Learning. A regularização é uma técnica que reduz o erro de um modelo, evitando o sobreajustamento (Overfitting) e treinando o modelo para funcionar corretamente.
+contents:
+  - type: SITE
+    title: "Regularização - Conceitos"
+    link: https://datascience.eu/pt/aprendizado-de-maquina/regularizacao-na-aprendizagem-automatica/
+  - type: SITE
+    title: "O que é Overfitting e Underfitting em Machine Learning?"
+    link: https://pt.stackoverflow.com/questions/377643/o-que-%C3%A9-overfitting-e-underfitting-em-machine-learning
+  - type: ARTICLE
+    title: "Principais tipos de regularização"
+    link: https://acervolima.com/regularizacao-em-aprendizado-de-maquina/    
+  - type: ARTICLE
+    title: "Regularização L1 (Lasso) & L2 (Ridge)"
+    link: https://medium.com/data-hackers/o-que-%C3%A9-regulariza%C3%A7%C3%A3o-l1-l2-6697ada36a51      
+  - type: SITE
+    title: "Regularização L1 vs L2: quando usar cada uma delas?"
+    link: https://pt.quish.tv/l1-vs-l2-regularization    
+  - type: YOUTUBE
+    title: "Zurubabel: Regularização L1 e L2 (Uma pequena explicação)"
+    link: https://www.youtube.com/watch?v=0poNl10NIYU   
+  - type: YOUTUBE
+    title: "ProfDanilo_DS: Definição das normalizações L1 e L2"
+    link: https://www.youtube.com/watch?v=u8tpv_ffkoo

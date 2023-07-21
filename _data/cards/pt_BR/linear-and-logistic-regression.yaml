@@ -1,0 +1,30 @@
+name: Regressão Linear e Logística
+logo: 
+short-description:
+key-objectives:
+  - As regressões são os métodos mais simples de aprendizado supervisionado, porém encontram diversas aplicações.
+  - A regressão linear é usada para relacionar uma variável dependente contínua a uma ou mais variáveis independentes contínuas. O objetivo é encontrar uma relação linear que melhor se ajuste aos dados.
+  - A regressão logística, por outro lado, é usada para problemas de classificação binária, onde a variável de saída é categórica e possui apenas duas categorias. Ela estima a probabilidade de um evento ocorrer com base nas variáveis independentes.
+contents:
+  - type: ARTICLE
+    title: "Como funciona uma Regressão Linear?"
+    link: https://medium.com/data-hackers/como-funciona-uma-regress%C3%A3o-linear-f7208fa6c662 
+  - type: ARTICLE
+    title: "O que é regressão logística?"
+    link: https://www.tibco.com/pt-br/reference-center/what-is-logistic-regression 
+  - type: YOUTUBE
+    title: "R, Estatística e Aprendizado de Máquina: Regressão Linear Simples - Teoria"
+    link: https://www.youtube.com/watch?v=PDXGgCE8pLQ
+  - type: YOUTUBE
+    title: "R, Estatística e Aprendizado de Máquina: Regressão Logística - Teoria"
+    link: https://www.youtube.com/watch?v=PDXGgCE8pLQ
+alura-contents:
+  - type: ARTICLE
+    title: "Desvendando a Regressão Linear"
+    link: https://www.alura.com.br/artigos/desvendando-a-regressao-linear
+  - type: COURSE
+    title: "Curso Regressão Linear: técnicas avançadas de modelagem"
+    link: https://www.alura.com.br/curso-online-data-science-modelo-regressao-linear-assimetria-statsmodel
+  - type: COURSE
+    title: "Machine Learning: Credit Scoring"
+    link: https://www.alura.com.br/curso-online-machine-learning-credit-scoring

@@ -1,0 +1,37 @@
+name: Cloud - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - La computación en nube, o cloud computing, es la distribución de servicios informáticos a través de Internet mediante un modelo de tarificación de pago por uso. Una nube se compone de varios recursos informatizados, desde los propios ordenadores (o instancias, en terminología de nube) hasta las redes, el almacenamiento, las bases de datos y todo lo que les rodea. En otras palabras, todo lo que normalmente se necesita para montar el equivalente a una sala de servidores, o incluso un centro de datos completo, estará listo para usar, configurar y ejecutar.
+  - Conocer los mayores proveedores de nube
+  - Especializarse en un proveedor específico de su preferencia
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Azure: ¿Qué es la computación en nube?"
+    link: https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/
+alura-contents:
+  - type: ARTICLE
+    title: "¿Qué es Cloud y sus principales servicios?"
+    link: https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios
+  - type: ARTICLE
+    title: "Conociendo Terraform"
+    link: https://www.aluracursos.com/blog/conociendo-terraform
+  - type: ARTICLE
+    title: "Empezando con Docker"
+    link: https://www.aluracursos.com/blog/empezando-con-docker
+  - type: COURSE
+    title: "Curso Oracle Cloud Infrastructure: implementación de una aplicación en la nube"
+    link: https://app.aluracursos.com/course/oracle-cloud-infrastructure-implementacion-aplicacion-nube
+  - type: COURSE
+    title: "Curso Oracle Cloud Infrastructure: base de datos e infraestructura como código"
+    link: https://app.aluracursos.com/course/oracle-cloud-infrastructure-base-datos-infraestructura-codigo
+  - type: COURSE
+    title: "Curso Deploy en Amazon EC2: Alta disponibilidad y escalabilidad de una aplicación"
+    link: https://app.aluracursos.com/course/deploy-amazon-ec2-alta-disponibilidad-escalabilidad
+  - type: COURSE
+    title: "Curso Amazon Lightsail: Simplificando la nube"
+    link: https://app.aluracursos.com/course/amazon-lightsail-simplificando-nube
+  - type: COURSE
+    title: "Curso Amazon CloudWatch: visibilidad completa de aplicaciones y servicios en la nube"
+    link: https://www.aluracursos.com/curso-online-amazon-cloudwatch-visibilidad-aplicaciones-servicios-nube

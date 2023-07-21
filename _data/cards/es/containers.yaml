@@ -1,0 +1,48 @@
+name: Contenedores
+logo: 
+short-description:
+key-objectives:
+  - Los contenedores son paquetes de software que contienen todos los elementos necesarios para ejecutarse en cualquier entorno. La gestión de contenedores es un área crucial en la computación en nube y DevOps, que implica el uso de tecnologías para automatizar el proceso de creación, implementación, escalado y monitoreo de contenedores. Los contenedores son unidades de software estandarizadas que permiten a los desarrolladores empaquetar todas las dependencias de una aplicación (código, bibliotecas, configuraciones, etc.) en un solo paquete. Esto permite que la aplicación se ejecute de forma consistente en cualquier entorno de infraestructura.
+  - La tecnología de contenedores, como ejemplifica Docker, proporciona un entorno coherente y portátil para el desarrollo, las pruebas y la implementación de aplicaciones, lo que es vital para el trabajo eficiente de la ingeniería de datos. Además, Kubernetes, un sistema de organización de contenedores, permite la gestión, automatización y escalabilidad de aplicaciones basadas en contenedores en entornos de producción. Dominar estos conceptos y tecnologías permite a los ingenieros de datos construir y mantener canalizaciones de datos eficientes y confiables.
+  - Kubernetes (también conocido como k8s o Kube) es una plataforma de orquestación de contenedores de código abierto que automatiza gran parte de los procesos manuales necesarios para implementar, gestionar y escalar aplicaciones en contenedores.
+  - Aislar el software para que funcione independientemente
+  - Implementación de software en clústeres
+  - Modularizar su sistema en paquetes más pequeños
+  - Conocer la plataforma Docker
+  - Conocer Kubernetes
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "IBM - ¿Qué son los contenedores?"
+    link: https://www.ibm.com/mx-es/topics/containers
+  - type: ARTICLE
+    title: "Microsoft - ¿Qué es un contenedor?"
+    link: https://azure.microsoft.com/es-mx/resources/cloud-computing-dictionary/what-is-a-container
+  - type: YOUTUBE
+    title: "¿Qué es Docker y los contenedores?"
+    link: https://www.youtube.com/watch?v=kkfZs0vJFyU
+  - type: YOUTUBE
+    title: "¿Que es un contenedor?"
+    link: https://www.youtube.com/watch?v=x5zGoICZLnU
+  - type: YOUTUBE
+    title: "Volúmenes y redes en Docker"
+    link: https://www.youtube.com/watch?v=DIDel70dFlI&ab_channel=Programaci%C3%B3nenespa%C3%B1ol
+  - type: YOUTUBE
+    title: "¿Qué es KUBERNETES? ✅ Relación con DOCKER y CONTENEDORES ▶️"
+    link: https://www.youtube.com/watch?v=V86eTbswdQo
+  - type: ARTICLE
+    title: "Contenedores y la nube"
+    link: https://dev.to/roremdev/contenedores-y-la-nube-3je9
+  - type: ARTICLE
+    title: "Contenedores: cómo es el ciclo de vida de una aplicación en Kubernetes"
+    link: https://dev.to/campusmvp/contenedores-como-es-el-ciclo-de-vida-de-una-aplicacion-en-kubernetes-1ief
+  - type: ARTICLE
+    title: "¿Qué diferencia hay entre Docker (Contenedores) y Máquinas virtuales (VMWare, VirtualBox...)?" 
+    link: https://dev.to/campusmvp/qu-diferencia-hay-entre-docker-contenedores-y-mquinas-virtuales-vmware-virtualbox-4ji3
+  - type: ARTICLE
+    title: "El potencial de Kubernetes para las empresas"
+    link: https://jlcasal.medium.com/el-potencial-de-kubernetes-para-las-empresas-d36f9eece999
+  - type: ARTICLE
+    title: "¿Qué es Docker y para que sirve? Explicación"
+    link: https://dev.to/prox_sea/que-es-docker-y-para-que-sirve-explicacion-5h2n
+alura-contents:

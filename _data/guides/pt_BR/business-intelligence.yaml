@@ -1,0 +1,65 @@
+name: Business Intelligence
+tags:
+  - data
+expertise:
+  - name: BI Analyst Jr
+    cards:
+      - business-intelligence-fundamentals:
+        priority: 10
+      - data-visualization-bi:
+        priority: 10
+      - excel:
+        priority: 10
+      - storytelling-with-data:
+        priority: 9
+      - sql-fundamentals:
+        priority: 9
+
+  - name: BI Analyst Mid
+    cards:
+      - power-bi:
+        priority: 10
+      - pipelines-and-etl:
+        priority: 9
+      - data-modeling:
+        priority: 8
+      - presentation-design:
+        priority: 8
+      - python-for-data-science:
+        priority: 7
+
+  - name: BI Analyst in depth
+    cards:
+      - data-warehouses:
+        priority: 10
+      - big-data-fundamentals:
+        priority: 10
+      - distributed-data-processing:
+        priority: 10
+      - sql-advanced:
+        priority: 8
+      - cloud-fundamentals:
+        priority: 7
+
+collaboration:
+  - name: Comunicação, Negócios e Colaboração
+    cards:
+      - business-analysis:
+        priority: 10
+      - communication-skills:
+        priority: 10
+      - git-and-github-fundamentals:
+        priority: 9
+      - technical-english:
+        priority: 8
+
+  - name: Estatística e Engenharia de Dados
+    cards:
+      - data-engineering-fundamentals:
+        priority: 9
+      - nosql-databases:
+        priority: 7
+      - statistics-and-math-fundamentals:
+        priority: 7
+      - r-for-data-science:
+        priority: 6

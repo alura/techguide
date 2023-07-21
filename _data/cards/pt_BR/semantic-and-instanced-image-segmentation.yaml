@@ -1,0 +1,26 @@
+name: Segmentação Semântica e Instanciada de Imagens
+logo: 
+short-description:
+key-objectives:
+  - A segmentação semântica e instanciada de imagens é uma tarefa na área de visão computacional que envolve a atribuição de rótulos a pixels individuais em uma imagem. Ela tem como objetivo segmentar e identificar os objetos presentes na imagem, distinguindo diferentes classes de pixels e separando instâncias individuais dessas classes. 
+contents:
+  - type: ARTICLE
+    title: "Mask R-CNN e Segmentação De Instâncias"
+    link: http://www2.decom.ufop.br/imobilis/segmentacao-instancias/
+  - type: ARTICLE
+    title: "Segmentação Semântica e o Dataset"
+    link: https://pt.d2l.ai/chapter_computer-vision/semantic-segmentation-and-dataset.html
+  - type: ARTICLE
+    title: "Segmentação semântica e o Dataset"
+    link: http://www.lps.usp.br/hae/apostila/segment-ead.pdf
+  - type: YOUTUBE
+    title: "O que é segmentação de imagens"
+    link: https://www.youtube.com/watch?v=cpXrXDVRkYE&ab_channel=IAExpertAcademy
+  - type: COURSE
+    title: "IA Expert Academy: Tipos e técnicas de segmentação de imagens"
+    link: https://www.youtube.com/watch?v=1gX9khsR3Xg&ab_channel=IAExpertAcademy
+  - type: YOUTUBE
+    title: "I2AI - Conexões Inteligentes: O que é Segmentação Visual Semântica?"
+    link: https://www.youtube.com/watch?v=4Xzbaqk0evM&ab_channel=I2AI-Conex%C3%B5esInteligentes
+  
+  

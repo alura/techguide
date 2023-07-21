@@ -1,0 +1,27 @@
+name: Hardwares para IA
+logo: 
+short-description:
+key-objectives:
+  - Hardwares para IA são componentes físicos, como processadores, placas de vídeo e sistemas especializados, que são projetados e otimizados para realizar tarefas relacionadas à inteligência artificial de maneira eficiente e rápida. Eles são especialmente projetados para lidar com as demandas computacionais intensivas e algoritmos complexos usados em modelos de aprendizado de máquina e deep learning.
+contents:
+  - type: SITE
+    title: "NVIDIA: Sistemas Incorporados E Avançados De IA com Jetson"
+    link: https://www.nvidia.com/pt-br/autonomous-machines/embedded-systems/
+  - type: SITE
+    title: "Intel: Hardwares de IA flexível para obter valor e resultados rápidos"
+    link: https://www.intel.com/content/www/us/en/artificial-intelligence/industries.html
+  - type: SITE
+    title: "Intel: Casos de uso de IA - Resolvendo desafios reais de negócios com os hardwares da Intel"
+    link: https://www.intel.com/content/www/us/en/artificial-intelligence/industries.html
+  - type: SITE
+    title: "Microsoft: Aceleração de hardware para IA de pesquisa visual do Azure IoT Edge"
+    link: https://learn.microsoft.com/pt-br/azure/architecture/guide/iot-edge-vision/hardware
+  - type: YOUTUBE
+    title: "Inteligência Mil Grau: Inteligência Artificial no Arduino e Raspberry Pi"
+    link: https://www.youtube.com/watch?v=h4-1y_dXtKE&ab_channel=Intelig%C3%AAnciaMilGrau
+  - type: YOUTUBE
+    title: "High Yield: Mergulhando no hardware de IA do ChatGPT (inglês)"
+    link: https://www.youtube.com/watch?v=4q9-yf1eU8c&ab_channel=HighYield
+  - type: COURSE
+    title: "Berkeley University: Hardware para Machine Learning (inglês)"
+    link: https://inst.eecs.berkeley.edu/~ee290-2/sp21/

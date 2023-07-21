@@ -4,6 +4,7 @@ import { Box, Icon, Text } from "@src/components";
 import { TItemCardGrids } from "./logic";
 import { useModal } from "@src/components/Modal";
 import ItemContent from "./ItemContent";
+import { OptionalIcon } from "@src/theme/icons/OptionalIcon";
 
 export function TItemCard({ cards: receivedCards, main, categoryName }: any) {
   const [extraVisible, setExtraVisible] = React.useState(false);
@@ -121,6 +122,7 @@ function Item({ onClick, categoryName, index, main, card, extra }: any) {
     keyObjectives: card?.item?.keyObjectives,
     aluraContents: card?.item?.aluraContents,
     contents: card?.item?.contents,
+    optional: card?.optional,
   };
 
   return (
@@ -144,6 +146,7 @@ function Item({ onClick, categoryName, index, main, card, extra }: any) {
                     keyObjectives={content.keyObjectives}
                     aluraContents={content.aluraContents}
                     contents={content.contents}
+                    optional={content.optional}
                   />
                 );
               });
@@ -151,6 +154,7 @@ function Item({ onClick, categoryName, index, main, card, extra }: any) {
       }}
       styleSheet={{
         color: "inherit",
+        position: "relative",
         backgroundColor: "transparent",
         minHeight: {
           xs: "80px",
@@ -197,6 +201,7 @@ function Item({ onClick, categoryName, index, main, card, extra }: any) {
           ...(!main && {
             border: "1px solid transparent",
           }),
+          color: "#03c2e0",
           background: "rgba(3, 194, 224, 0.2)",
           backdropFilter: "blur(0.9159rem)",
           cursor: "pointer",
@@ -208,6 +213,7 @@ function Item({ onClick, categoryName, index, main, card, extra }: any) {
         styleSheet={{
           fontWeight: "600",
           maxWidth: "80%",
+          color: "#FFFFFF",
           margin: {
             xs: "4px",
             sm: "4px",
@@ -223,6 +229,22 @@ function Item({ onClick, categoryName, index, main, card, extra }: any) {
       >
         {content.title}
       </Text>
+
+      {content.optional && (
+        <Box
+          styleSheet={{
+            position: "absolute",
+            zIndex: 1,
+            bottom: "8px",
+            right: "8px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <OptionalIcon />
+        </Box>
+      )}
     </Box>
   );
 }

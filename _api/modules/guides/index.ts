@@ -9,6 +9,7 @@ const typeDefs = gql`
   type GuideCard {
     priority: Int
     item: Card
+    optional: Boolean
   }
 
   type GuideExpertise {

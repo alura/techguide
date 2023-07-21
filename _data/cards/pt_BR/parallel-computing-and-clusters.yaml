@@ -1,0 +1,27 @@
+name: Computação Paralela & Clusters
+logo: 
+short-description:
+key-objectives:
+  - Computação paralela refere-se ao uso de múltiplos processadores ou unidades de processamento para executar tarefas computacionais simultaneamente, em paralelo. Em vez de um único processador executar uma tarefa de cada vez, a computação paralela divide a carga de trabalho em várias partes menores que podem ser processadas em paralelo, resultando em maior eficiência e velocidade de processamento. 
+contents:
+  - type: SITE
+    title: "IBM: O que é computação de alto desempenho (HPC)?"
+    link: https://www.ibm.com/br-pt/topics/hpc
+  - type: SITE
+    title: "AMD: Explicação da computação de alto desempenho"
+    link: https://www.amd.com/pt/technologies/hpc-explained
+  - type: SITE
+    title: "Microsoft: Design de arquitetura de IA (inteligência artificial)"
+    link: https://learn.microsoft.com/pt-br/azure/architecture/data-guide/big-data/ai-overview
+  - type: ARTICLE
+    title: "UNICAMP: Computação de Alto Desempenho usando Clusters"
+    link: https://www.ic.unicamp.br/~ducatte/mo401/1s2009/T2/089028-t2.pdf
+  - type: ARTICLE
+    title: "UFPE: Aspectos e desempenho da computação paralela em clusters e grids para processamento de imagens"
+    link: https://www.ufpe.br/documents/39830/745800/17_GiorgiaMattos/c2c5feb6-6e54-461b-b761-7e22900857d8
+  - type: ARTICLE
+    title: "Avaliação de performance na renderização de imagens em um cluster de computadores"
+    link: https://www.monografias.com/pt/trabalhos3/avaliacao-performance-renderizacao-imagens-cluster/avaliacao-performance-renderizacao-imagens-cluster2.shtml
+  - type: YOUTUBE
+    title: "Laboratório HiPES: Curso de Programação Paralela (playlist)"
+    link: https://www.youtube.com/playlist?list=PL_9px37PNj6pyE7GbTyGyR598_T7T_cwG

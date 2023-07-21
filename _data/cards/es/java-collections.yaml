@@ -1,0 +1,26 @@
+name: Java - Colecciones
+logo: 
+short-description:
+key-objectives:
+  - Una colección representa un grupo de objetos, conocidos como sus elementos. Son como contenedores que agrupan varios elementos en una sola unidad. Algunas colecciones permiten la duplicación de elementos y otras no. Algunas son ordenadas y otras no ordenadas.
+  - Aprender los usos y diferencias entre List, Set y Map
+  - Aprender los usos y diferencias entre Equals y hashcode
+  - Aprende a trabajar con ArrayList, LinkedList o Vector
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Introducción a Colecciones en Java"
+    link: https://www.adictosaltrabajo.com/2015/09/25/introduccion-a-colecciones-en-java/
+  - type: SITE
+    title: "Colección - Java Documentation (en inglés)"
+    link: https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html
+  - type: YOUTUBE
+    title: "🚀 ¿Qué son las COLLECTIONS en JAVA? POO 🖥️ | LIST, SET, QUEUE, MAP | Explicación FÁCIL 💥#12"
+    link: https://www.youtube.com/watch?v=mE1vnyn_QgU&ab_channel=TodoCode
+  - type: ARTICLE
+    title: "Map en Java, con ejemplos"
+    link: https://jarroba.com/map-en-java-con-ejemplos/
+alura-contents:
+  - type: COURSE
+    title: "Curso Java y java.util: Colecciones, Wrappers y Lambda expressions"
+    link: https://app.aluracursos.com/course/java-util-coleciones-wrappers-lambda-expressions

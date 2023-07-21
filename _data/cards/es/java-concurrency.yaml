@@ -1,0 +1,20 @@
+name: Java - Concurrencia
+logo: 
+short-description:
+key-objectives:
+- Programación concurrente es un paradigma de programación para la construcción de programas que hacen uso de la ejecución simultánea de varias tareas computacionales interactivas, que pueden ser implementadas como programas separados o como un conjunto de hilos creados por un único programa.
+- Realizar tareas simultáneamente.
+- Poner tareas a esperar hasta que ocurra un evento determinado.
+- Entender cómo funciona la memoria en esta situación.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Programación concurrente"
+    link: https://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html
+  - type: ARTICLE
+    title: "Java - Threads"
+    link: https://informatica.uv.es/iiguia/LP/teoria/apuntes/cuatr1/tema3_2_concurrencia2.pdf
+  - type: YOUTUBE
+    title: "Programando en JAVA: HILOS (THREAD) en JAVA"
+    link: https://www.youtube.com/watch?v=tpnasHx9WLg
+alura-contents:

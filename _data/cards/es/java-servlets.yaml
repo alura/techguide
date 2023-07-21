@@ -1,0 +1,32 @@
+name: Java - Servlets
+logo: 
+short-description:
+key-objectives:
+- Un Servlet es una clase Java utilizada para extender las capacidades de los servidores que hospedan aplicaciones accedidas a través de un modelo de programación del tipo petición-respuesta. Aunque los Servlets pueden responder a cualquier tipo de petición, se utilizan comúnmente para extender las aplicaciones hospedadas por servidores web. Para estas aplicaciones, la tecnología Java Servlet define clases Servlet específicas para HTTP.
+- Crear páginas web dinámicas en Java.
+- Gestionar las solicitudes de un servidor.
+- Conocer el ciclo de vida de un Servlet.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Programación de servlets"
+    link: https://jesusfernandeztoledo.com/que-es-un-servlet/
+  - type: ARTICLE
+    title: "Programación de servlets"
+    link: http://www.jtech.ua.es/historico/ias/restringido/apuntes/sesion03-apuntes.htm
+  - type: YOUTUBE
+    title: "¿Qué es un SERVLET en JAVA?"
+    link: https://www.youtube.com/watch?v=tI9K93tjHRE
+alura-contents:
+  - type: ARTICLE
+    title: "Creando una aplicación Java Web con Servlet"
+    link: https://www.aluracursos.com/blog/creando-una-aplicacion-java-web-con-servlet-completo
+  - type: COURSE
+    title: "Java Servlet: Fundamentos de programación web con Java"
+    link: https://www.aluracursos.com/curso-online-java-servlet-fundamentos-programacion-web-java
+  - type: COURSE
+    title: "Java Servlet: autenticación, autorización y MVC"
+    link: https://www.aluracursos.com/curso-online-java-servlet-autenticacion-autorizacion-mvc
+  - type: ARTICLE
+    title: "Reciba notificaciones de la api de Servlet a través de Listeners"
+    link: https://www.aluracursos.com/blog/reciba-notificaciones-de-la-api-de-servlet-a-traves-de-listeners

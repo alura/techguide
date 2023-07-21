@@ -1,0 +1,34 @@
+name: Plataformas e Serviços Cognitivos
+logo: 
+short-description:
+key-objectives:
+  - Plataformas e serviços são projetados para fornecer recursos avançados de processamento de linguagem natural, reconhecimento de fala, visão computacional, análise de sentimentos e outras capacidades cognitivas.
+  - Como lidar com pipelines
+  - Conhecer o Databricks
+  - Conhecer o PySpark
+  - Conhecer o SageMaker
+contents:
+  - type: SITE
+    title: "IBM: IaaS vs. PaaS vs. SaaS"
+    link: https://www.ibm.com/br-pt/topics/iaas-paas-saas
+  - type: ARTICLE
+    title: "7 serviços em nuvem para facilitar o Machine Learning"
+    link: https://itforum.com.br/noticias/7-servicos-em-nuvem-para-facilitar-o-machine-learning/
+  - type: ARTICLE
+    title: "IBM: A jornada cognitiva requer a sincronia das plataformas de negócios e dos sistemas já existentes"
+    link: https://www.ibm.com/blogs/services/br-pt/2019/07/29/a-jornada-cognitiva-requer-a-sincronia-das-plataformas-de-negocios-e-dos-sistemas-ja-existentes/
+  - type: ARTICLE
+    title: "Databricks: O canivete suiço da sua plataforma Big Data"
+    link: https://medium.com/@julianamarialopes/databricks-o-canivete-sui%C3%A7o-da-sua-plataforma-big-data-c4e84de10d7d
+  - type: ARTICLE
+    title: "Um guia abrangente sobre Databricks para iniciantes (inglês)"
+    link: https://www.analyticsvidhya.com/blog/2021/09/a-comprehensive-guide-on-databricks-beginners/
+  - type: ARTICLE
+    title: "Automatizando a criação de modelos de ML com SageMaker Pipelines"
+    link: https://medium.com/data-hackers/automatizando-a-cria%C3%A7%C3%A3o-de-modelos-de-ml-com-sagemaker-pipelines-5c22aa3dab19
+  - type: YOUTUBE
+    title: "IA Expert Academy: Machine Learning com Amazon AWS e SageMaker"
+    link: https://www.youtube.com/watch?v=3e2KNKyD1Wc&list=PLZ3V9XyVA528uZFVrf2jgFiGf8DHOZ0Fu&index=1&ab_channel=IAExpertAcademy
+  - type: YOUTUBE
+    title: "Mateus S. Silveira: DataBricks e PySpark (playlist)"
+    link: https://www.youtube.com/playlist?list=PLW0Bbnox7aDtGJpjevHcU7xJNm7PtLI5f

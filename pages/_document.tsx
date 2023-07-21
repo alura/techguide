@@ -11,7 +11,7 @@ import { ServerStyleSheet } from "styled-components";
 
 function getCanonicalUrl(ctx: DocumentContext) {
   const isProd = process.env.NODE_ENV === "production";
-  const base = isProd ? "https://techguide.sh" : "http://localhost:3000";
+  const base = isProd ? "https://techguide.sh" : "http://localhost:3001";
   const path = ctx.asPath.split("?").at(0);
   return base + path;
 }
