@@ -15,7 +15,7 @@ expertise:
       - ios-app-resources:
         priority: 9
       - ios-persistence:
-        priority: 8
+        priority: 7
       - ios-external-requests:
         priority: 10
       - ios-third-libraries:
@@ -70,7 +70,7 @@ collaboration:
       - json:
         priority: 8
       - ci-cd:
-	      priority: 6
+        priority: 6
       - command-line-fundamentals: 
         priority: 7
       - cloud-fundamentals:
