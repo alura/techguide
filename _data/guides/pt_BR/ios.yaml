@@ -59,7 +59,7 @@ expertise:
         priority: 7
       - ios-app-modularization:
         priority: 9
-      - objc-fundamentals:
+      - objective-c-fundamentals:
         priority: 5
         optional: true
 collaboration:
@@ -80,8 +80,10 @@ collaboration:
         optional: true
       - solid:
         priority: 10
-      - clean-code-architecture:
-        priority: 10
+      - clean-code:
+        priority: 7
+      - clean-architecture:
+        priority: 7
       - firebase:
         priority: 6
   - name: UX & Design 
