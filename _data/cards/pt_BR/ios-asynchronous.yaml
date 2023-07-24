@@ -1,0 +1,19 @@
+name: iOS - Assíncrono
+logo:
+short-description:
+key-objectives:
+  - "Assincronicidade é uma técnica de programação que permite que as tarefas sejam executadas em segundo plano, enquanto a interface do usuário continua a ser executada normalmente. Isso pode melhorar o desempenho dos aplicativos, pois evita que eles travem ou fiquem lentos enquanto aguardam a conclusão de tarefas demoradas. Uma das maneiras mais comuns de usar assincronicidade em iOS é usar os métodos async e await. Os métodos async e await permitem que você execute código em segundo plano e retorne para o código principal antes que a tarefa seja concluída. Isso pode ser útil para tarefas que demoram muito para serem concluídas, como baixar um arquivo grande ou processar uma imagem grande. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer os fundamentos da assincronicidade em iOS;
+  - Usar as classes OperationQueue e async e await para executar tarefas em segundo plano.
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Programação assíncrona vs Programação paralela - Entenda a diferença | Programando com Vinicius Dias"
+    link: https://youtu.be/zLfXPSeCkB8
+  - type: SITE
+    title: "Documentação oficial Apple - Classe OperationQueue"
+    link: https://developer.apple.com/documentation/foundation/operationqueue
+  - type: YOUTUBE
+    title: "Async/Await Concorrência com Swift (inglês) | Swift Heroes"
+    link: https://youtu.be/uWqy5KZXSlA
+alura-contents:

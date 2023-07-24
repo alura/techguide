@@ -1,0 +1,19 @@
+name: Swift - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - "Swift é uma linguagem de programação de código aberto desenvolvida pela Apple Inc. e pela comunidade de desenvolvedores. É projetada para ser segura, rápida e intuitiva. Swift é a linguagem preferida para o desenvolvimento de aplicativos iOS, macOS, watchOS e tvOS. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer as palavras chaves do Swift;
+  - Entender como funciona o controle de fluxo e as condicionais;
+  - Construir aplicações de terminal usando Swift;
+  - Conhecer os protocolos de Encodable e Decodable;
+  - Compreender e aprender a usar coleções no Swift.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Começando no Swift (inglês)"
+    link: https://www.swift.org/getting-started/
+alura-contents:
+  - type: ARTICLE
+    title: "Alura: iOS e Swift - Conversão de dados com Codable (Encodable e Decodable)"
+    link: https://www.alura.com.br/artigos/ios-swift-conversao-dados-codable-encodable-decodable

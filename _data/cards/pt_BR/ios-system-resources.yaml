@@ -1,0 +1,23 @@
+name: iOS - Recursos do sistema
+logo:
+short-description:
+key-objectives:
+  - "O iOS fornece acesso a uma variedade de recursos do sistema, incluindo localização, câmera e sensores. Esses recursos podem ser usados para criar aplicativos que são mais envolventes e informativos. Por exemplo, um aplicativo de jogos pode usar o recurso de localização para rastrear a localização do usuário e adaptar o jogo de acordo. Um aplicativo de fotografia pode usar o recurso da câmera para tirar fotos e vídeos. E um aplicativo de saúde pode usar o recurso de sensores para rastrear a atividade física do usuário. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer os recursos do sistema em iOS;
+  - Acessar a localização, a câmera e os sensores;
+  - Criar aplicativos que usam recursos do sistema.
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Tutorial de Swift: Como conseguir acessar a localização no iOS (Inglês) | Brian Advent"
+    link: https://youtu.be/Cu2QvjRt4zM
+  - type: SITE
+    title: "Documentação oficial Apple - Core Location (inglês)"
+    link: https://developer.apple.com/documentation/corelocation
+alura-contents:
+  - type: COURSE
+    title: "iOS: autenticação, GPS e mais recursos nativos"
+    link: https://cursos.alura.com.br/course/ios-autenticacao-gps-recursos-nativos
+  - type: COURSE
+    title: "iOS: usando recursos nativos"
+    link: https://cursos.alura.com.br/course/ios-usando-recursos-nativos?preRequirementFrom=ios-autenticacao-gps-recursos-nativos

@@ -1,0 +1,100 @@
+name: iOS
+expertise:
+  - name: iOS Jr
+    blocks:
+      - swift-fundamentals:
+        priority: 10
+      - ios-uikit-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 10
+      - ios-storyboards:
+        priority: 8
+      - ios-viewcode:
+        priority: 9
+      - ios-app-resources:
+        priority: 9
+      - ios-persistence:
+        priority: 7
+      - ios-external-requests:
+        priority: 10
+      - ios-third-libraries:
+        priority: 10
+      - ios-swiftui:
+        priority: 6
+      - ios-debugging:
+        priority: 8
+
+  - name: iOS Mid
+    blocks:
+      - ios-asynchronous:
+        priority: 9
+      - ios-state-manager:
+        priority: 10
+      - ios-system-resources:
+        priority: 7
+      - ios-dependency-injection:
+        priority: 9
+      - ios-testing:
+        priority: 9
+      - ios-acessibility:
+        priority: 8
+      - ios-games:
+        priority: 6
+        optional: true
+      - ios-memory-leaks:
+        priority: 9
+
+  - name: iOS in depth
+    blocks:
+      - ios-architectures:
+        priority: 10
+      - data-structures:
+        priority: 8
+      - ios-animations:
+        priority: 9
+      - ios-deployment:
+        priority: 7
+      - ios-app-modularization:
+        priority: 9
+      - objc-fundamentals:
+        priority: 5
+        optional: true
+collaboration:
+  - name: Infraestrutura e boas práticas
+    blocks:
+      - git-and-github-fundamentals:
+        priority: 10
+      - http-fundamentals:
+        priority: 10
+      - json:
+        priority: 8
+      - ci-cd:
+        priority: 6
+      - command-line-fundamentals: 
+        priority: 7
+      - cloud-fundamentals:
+        priority: 6
+        optional: true
+      - solid:
+        priority: 10
+      - clean-code-architecture:
+        priority: 10
+      - firebase:
+        priority: 6
+  - name: UX & Design 
+    blocks:
+      - human-interface-guidelines:
+        priority: 9
+      - design-systems:
+        priority: 6
+      - color-systems:
+        priority: 7
+      - how-to-use-fonts:
+        priority: 7
+      - responsive-design:
+        priority: 9
+      - ios-accessibility:
+        priority: 8
+      - figma-fundamentals:
+        priority: 7

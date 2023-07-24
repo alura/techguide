@@ -1,0 +1,19 @@
+name: iOS - Animações
+logo:
+short-description:
+key-objectives:
+  - "As animações são uma parte importante do desenvolvimento de aplicativos iOS. Elas podem ser usadas para melhorar a experiência do usuário, tornando os aplicativos mais atraentes e envolventes. Existem várias maneiras de adicionar animações aos aplicativos iOS. Uma maneira é usar o framework UIKit, que fornece uma variedade de métodos para animar componentes da interface do usuário. Outra maneira é usar um framework de animação de terceiros, como o Lottie ou o Anima. Veja as principais habilidades que você precisa desenvolver:"
+  - Entender como usar o framework UIKit para animar componentes da interface do usuário;
+  - Criar animações com o SwiftUI, como mostrar transições entre telas, atualizar a interface do usuário em resposta a eventos e criar efeitos visuais interessantes.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Primeiros passos com animações UIKit | Medium"
+    link: https://medium.com/my-ios-studies/primeiros-passos-com-anima%C3%A7%C3%B5es-uikit-d1172c04e3cd
+  - type: SITE
+    title: "Documentação Oficial Apple (SwiftUI) - Animando Views e aplicando transições (inglês)"
+    link: https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions
+alura-contents:
+  - type: COURSE
+    title: "iOS com SwiftUI: trabalhando com animações e DragGesture"
+    link: https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions

@@ -1,0 +1,27 @@
+name: iOS - Comunicação com APIs
+logo: 
+short-description:
+key-objectives:
+  - "As comunicações API em iOS são o processo de comunicação entre um aplicativo iOS e um serviço externo. Isso pode ser feito usando uma variedade de métodos, incluindo HTTP, HTTPS e Sockets. As comunicações API são importantes porque elas permitem que os aplicativos iOS acessem dados e recursos que não estão disponíveis no dispositivo local. Elas também podem ser usadas para compartilhar dados e recursos entre aplicativos iOS e serviços externos. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer os diferentes tipos de APIs que podem ser usadas em aplicativos iOS;
+  - Conhecer e utilizar bibliotecas/ferramentas para facilitar a comunicação a APIs, como o Alamofire, URLSession e Codable;
+  - Escolher e usar APIs que sejam adequadas para as necessidades do seu aplicativo;
+  - Testar comunicações API em diferentes condições para garantir que elas funcionem corretamente.
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "iOS Alamofire Tutorial (inglês) | Code Pro"
+    link: https://youtu.be/_U6_l58Cv4E
+  - type: SITE
+    title: "Documentação oficial Alamofire (inglês)"
+    link: https://alamofire.github.io/Alamofire/
+  - type: YOUTUBE
+    title: "Enviando e recebendo dados com URLSession e protocolo Codable (inglês) | Paul Hudson"
+    link: https://youtu.be/MBCX1atOvdA
+  - type: ARTICLE
+    title: "Alamofire - Network facilitado (inglês)"
+    link: https://medium.com/codex/alamofire-networking-made-easy-108e8f55b279
+alura-contents:
+  - type: COURSE
+    title: "iOS e HTTP: Web Services e sincronização offline"
+    link: https://cursos.alura.com.br/course/ios-web-services-sincronizacao-offline

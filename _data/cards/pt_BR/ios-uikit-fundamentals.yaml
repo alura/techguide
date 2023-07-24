@@ -1,0 +1,42 @@
+name: iOS - UIKit - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - "O UIKit é a biblioteca de código padrão para aplicativos iOS. Ele fornece uma ampla gama de recursos para criar interfaces de usuário, incluindo views, controles e animações. O UIKit é uma ótima maneira de criar aplicativos iOS que sejam visualmente atraentes e fáceis de usar. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer Swift ou Objective-C que são as linguagens para desenvolver apps iOS;
+  - Entender como o SDK do iOS funciona (Core Foundation e Cocoa Touch);
+  - Conhecer os componentes de interface do UIKit para criação de layots;
+  - Dominar a criação de interfaces utilizando o UIKit, tanto através de código (ViewCode) quanto pelo uso de Storyboards;
+  - Explorar os princípios de Auto Layout e como criar layouts flexíveis e responsivos para diferentes tamanhos de tela;
+  - Implementar a navegação entre telas e a passagem de dados utilizando o sistema de view controllers do UIKit.
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Introdução à interface programatica - UIKIT | Xcode 14 (inglês)"
+    link: https://youtu.be/_U6_l58Cv4E
+  - type: YOUTUBE
+    title: "Desenvolvimento iOS UIKit | freeCodeCamp.org (inglês)"
+    link: https://youtu.be/KCgYDCKqato
+  - type: SITE
+    title: "Documentação oficial Apple - UIKit (inglês)"
+    link: https://developer.apple.com/documentation/uikit
+  - type: SITE
+    title: "Documentação oficial Apple - Cocoa Touch (inglês)"
+    link: https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CocoaFundamentals/Introduction/Introduction.html
+  - type: SITE
+    title: "Documentação oficial Apple - Core Foundation (inglês)"
+    link: https://developer.apple.com/documentation/corefoundation
+alura-contents:
+  - type: ARTICLE
+    title: "iOS e Swift: Diferenças na construção de layouts com Storyboard, XIB e View Code"
+    link: https://www.alura.com.br/artigos/ios-swift-diferencas-construcao-layouts-storyboard-xib-view-code
+  - type: YOUTUBE
+    title: "Desenvolvimento iOS pra iniciantes com Giovanna Moeller | #HipstersPontoTube"
+    link: https://youtu.be/MGIs7DSQ-0A
+  - type: YOUTUBE
+    title: "Desenvolvimento iOS com Giovanna Moeller | #HipstersPontoTube"
+    link: https://youtu.be/4AH9H_dx_7g
+  - type: COURSE
+    title: "iOS: construindo seu primeiro aplicativo"
+    link: https://cursos.alura.com.br/course/ios-construindo-primeiro-aplicativo
+

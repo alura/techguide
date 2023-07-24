@@ -1,0 +1,23 @@
+name: iOS - ViewCode
+logo: 
+short-description:
+key-objectives:
+  - "O método de viewcode no UIKit é uma abordagem para a criação de interfaces de usuário que envolve a codificação da interface de usuário diretamente em Swift, em vez de usar um storyboard ou nib. O método de viewcode pode ser uma ótima maneira de criar interfaces de usuário mais personalizadas e eficientes, mas é importante notar que ele pode ser mais complexo do que usar um storyboard ou nib. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer o conceito de ViewCode e como ele é usado para criar aplicativos iOS;
+  - Criar e usar ViewCode para criar layouts de interface do usuário;
+  - Explorar os princípios de Auto Layout com ViewCode.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "View Code em Swift"
+    link: https://medium.com/mackmobile/view-code-em-swift-6026f42bf780
+  - type: YOUTUBE
+    title: "COMO criar uma TELA usando ViewCode/iOS/SWIFT, Criando ViewControllers | Swift para todos"
+    link: https://youtu.be/iFzTBlRVH6s
+  - type: YOUTUBE
+    title: "Como utilizar STACK/UISTACKVIEW, tutorial em SWIFT utilizando VIEWCODE - Desenvolvimento Mobile iOS | Swift para todos"
+    link: https://youtu.be/KyZZ5QthY4A
+  - type: YOUTUBE
+    title: "COMO criar COMPONENTES em SWIFT utilizando VIEWCODE, Criando seu aplicativo do zero com SWIFT | Swift para todos"
+    link: https://youtu.be/zSzxFlIumts
+alura-contents:
