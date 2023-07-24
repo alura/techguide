@@ -39,11 +39,6 @@ expertise:
         priority: 9
       - ios-testing:
         priority: 9
-      - ios-acessibility:
-        priority: 8
-      - ios-games:
-        priority: 6
-        optional: true
       - ios-memory-leaks:
         priority: 9
 
@@ -61,6 +56,9 @@ expertise:
         priority: 9
       - objective-c-fundamentals:
         priority: 5
+        optional: true
+      - ios-games:
+        priority: 6
         optional: true
 collaboration:
   - name: Infraestrutura e boas práticas
