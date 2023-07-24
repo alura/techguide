@@ -1,0 +1,41 @@
+name: JavaScript - ES6
+logo: 
+short-description:
+key-objectives:
+  - Conhecer as diferenças dessa versão do JavaScript
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Módulos, introducción"
+    link: https://es.javascript.info/modules-intro
+  - type: SITE
+    title: "Módulos JavaScript"
+    link: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules
+  - type: ARTICLE
+    title: "Introducción a ES6"
+    link: https://www.kodetop.com/introduccion-a-es6/
+  - type: ARTICLE
+    title: "ES6, la nueva versión de ECMAScript"
+    link: https://www.syntonize.com/nueva-version-de-ecmascript-es6/
+  - type: ARTICLE
+    title: "Introducción a la POO en Javascript moderno: las nuevas clases en ES6"
+    link: https://www.etnassoft.com/2016/12/02/introduccion-a-la-poo-en-javascript-moderno-las-nuevas-clases-en-es6/
+  - type: YOUTUBE
+    title: "Javascript Moderno en 13 Minutos | Fundamentos ES6"
+    link: https://youtu.be/E8L_2qkvHts
+  - type: YOUTUBE
+    title: "Import y Export en Javascript (ES Modules) - Explicación"
+    link: https://youtu.be/0t-Le4kdaMg
+alura-contents:
+ - type: ARTICLE
+    title: "ES6 - Desestructuración de objetos"
+    link: https://www.aluracursos.com/blog/desestructuracion-de-objetos
+  - type: YOUTUBE
+    title: "Alura: JavaScript avançado I: ES6, orientação a objetos e padrões de projetos"
+    link: https://www.youtube.com/watch?v=T-JVRDnykYg
+  - type: COURSE
+    title: "JavaScript: Profundizando en MVC, Proxy y Factory"
+    link: https://app.aluracursos.com/course/javascript-profundizando-mvc-proxy-factory
+  - type: COURSE
+    title: "JavaScript: Conozca el navegador y los patrones de diseño"
+    link: https://app.aluracursos.com/course/javascript-navegador-patrones-diseno

@@ -1,0 +1,37 @@
+name: JavaScript - Armazenamento
+logo: 
+short-description:
+key-objectives:
+  - Armazenar dados no front-end com localStorage
+  - Manipular dados armazenados
+  - Persistir dados armazenados
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Armazenamento do lado do cliente"
+    link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
+  - type: SITE
+    title: "MDN Web Docs: Usando a API Web Storage"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
+  - type: ARTICLE
+    title: "Armazenando e manipulando dados no localstorage"
+    link: https://medium.com/@lameckanao/armazenando-e-manipulando-dados-no-localstorage-7bcc901ba12b
+  - type: ARTICLE
+    title: "Funcionalidades do Local Storage"
+    link: https://medium.com/jaguaribetech/dlskaddaldkslkdlskdlk-333dae8ef9b8
+  - type: YOUTUBE
+    title: "Fabiano Gabardo Lemos: Armazenando dados do formulário em LocalStorage"
+    link: https://www.youtube.com/watch?v=i04nMOowrII
+  - type: YOUTUBE
+    title: "Roger Melo: Como armazenar e persistir dados no front-end com o localStorage"
+    link: https://www.youtube.com/watch?v=hNTozXl-qJA
+  - type: YOUTUBE
+    title: "Luis Tavares: Como armazenar vários dados (array) no localStorage"
+    link: https://www.youtube.com/watch?v=YlAs11EiIJc
+alura-contents:
+  - type: SITE
+    title: "Primeiras aulas do curso JavaScript na Web: armazenando dados no navegador"
+    link: https://www.alura.com.br/conteudo/javascript-web-armazenando-dados-navegador--amp
+  - type: COURSE
+    title: "Curso JavaScript na Web: armazenando dados no navegador"
+    link: https://www.alura.com.br/curso-online-javascript-web-armazenando-dados-navegador

@@ -1,0 +1,27 @@
+name: JavaScript - Concorrência
+logo: 
+short-description:
+key-objectives:
+  - Programação concorrente é um paradigma de programação para a construção de programas que fazem uso da execução simultânea de várias tarefas computacionais interativas, que podem ser implementadas como programas separados ou como um conjunto de threads criadas por um único programa.
+  - Executar tarefas paralelamente
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "MDN Web Docs: Thread (inglês)"
+    link: https://developer.mozilla.org/en-US/docs/Glossary/Thread
+  - type: ARTICLE
+    title: "Multithreading using Javascript (inglês)"
+    link: https://medium.com/@sarthakvit/multithreading-using-javascript-cf9ad7cf9cfe
+  - type: ARTICLE
+    title: "Multithreading Javascript (inglês)"
+    link: https://medium.com/techtrument/multithreading-javascript-46156179cf9a
+  - type: YOUTUBE
+    title: "DevPleno: Mono ou multi thread? POO para JS"
+    link: https://www.youtube.com/watch?v=iGV8gjzx3to
+  - type: YOUTUBE
+    title: "Canal dotNET: Desenvolvimento Multithread em Aplicações JavaScript"
+    link: https://www.youtube.com/watch?v=jroozZAWeTg
+alura-contents:
+  - type: ARTICLE
+    title: "Concorrência ou paralelismo: Threads, Processes, Fibers e Actors"
+    link: https://www.alura.com.br/artigos/concorrencia-ou-paralelismo-threads-processes-fibers-e-actors

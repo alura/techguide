@@ -1,0 +1,88 @@
+name: Front-end
+tags: 
+  - front-end
+expertise:
+  - name: Front-end JavaScript Jr
+    cards: 
+      - html-fundamentals:
+        priority: 10
+      - css-fundamentals:
+        priority: 10
+      - javascript-fundamentals:
+        priority: 10
+      - dom-fundamentals:
+        priority: 9
+      - javascript-accessibility:
+        priority: 8
+      - seo-strategies:
+        priority: 7
+      - responsive-design:
+        priority: 7
+  - name: Front-end JavaScript Mid
+    cards:
+      - javascript-callbacks-promises:
+        priority: 8
+      - javascript-testing:
+        priority: 8
+      - javascript-errorhandling:
+        priority: 7
+      - javascript-es6:
+        priority: 8
+      - javascript-modularization:
+        priority: 6
+      - frontend-semantic-versioning:
+        priority: 6
+      - jest:
+        priority: 6
+      - cypress:
+        priority: 6
+  - name: Front-end JavaScript in depth
+    cards:
+      - data-structures:
+        priority: 8
+      - oop-concepts:
+        priority: 8
+      - javascript-storage:
+        priority: 7
+      - javascript-concurrency:
+        priority: 6
+        optional: true
+      - typescript-fundamentals:
+        priority: 5
+        optional: true
+      - graphql:
+        priority: 5
+        optional: true
+      - apollo-client:
+        priority: 5
+        optional: true
+collaboration:
+  - name: Infraestructura y Back-end
+    cards:
+      - git-and-github-fundamentals:
+        priority: 10
+      - http-fundamentals:
+        priority: 10
+      - json:
+        priority: 8
+      - command-line-fundamentals: 
+        priority: 7
+      - cloud-fundamentals: 
+        priority: 6
+        optional: true
+      - yarn:
+        optional: true
+        priority: 6
+  - name: UX y Design
+    cards:
+      - design-systems:
+        priority: 4
+      - figma-fundamentals:
+        priority: 8
+      - design-components:
+        priority: 6
+      - color-systems:
+        priority: 5
+      - how-to-use-fonts:
+        priority: 5
+video: https://www.youtube.com/watch?v=fpth65ts3cw&list=PLh2Y_pKOa4UeBQNf1JQzc4SfegYR0gO-N&index=10&ab_channel=Alura
