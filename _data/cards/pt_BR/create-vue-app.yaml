@@ -1,0 +1,18 @@
+name: Vue - Create App
+logo: 
+short-description:
+key-objectives:
+  - Inicie criando um novo projeto Vue com Vue CLI ou Vite.
+  - Crie   componentes Vue e entenda como estruturá-los usando Options API ou Composition API.
+  - Veja como a navegação com Vue Router e gerenciamento de estado com Pinea podem ser úteis em SPAs escritas em Vue.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Playground - Experimente Vue"
+    link: https://play.vuejs.org/#eNp9kVFLwzAQx7/KeS9TmBuyt1EHKgP1QUUFX/JS2lvXmSYhucxC6Xf32tLqwxiEJPf/X5Lf5Rq8c25xjIRrTELmS8cbZah21jPktEujZmiUAchTTi+vhj2AJ47ejBFAFYo1zB5Jawtf1uv8YjZYbbfIJCNZTg9IwFQ5nTJJBJDsbzZN090CbZssJerV0rjIcLyubE76VqH4CsVKltNpnCOHzJpdWSwOwRqpo4dSmNnKlZr8q+PSmqBwPeIqTIXz57nX2Eeaj3q2p+z7hH4IdacpfPMUyB9J4eRx6gviwd5+vFAt+8kU8qgl+4z5TsHq2DEOaffR5IL9L6+nfaq6npSm+AzbmsmEsagOtP/kPl+hNPPhTOl/uKvFamwOtr/4aany
+  - type: SITE
+    title: "Vue: Documentação - Criando uma aplicação"
+    link: https://vuejs.org/guide/quick-start.html#creating-a-vue-application
+  - type: SITE
+    title: "Vue: Documentação - Ciclo de vida da aplicação"
+    link: https://vuejs.org/guide/essentials/application.html

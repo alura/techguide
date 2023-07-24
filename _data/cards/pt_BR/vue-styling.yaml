@@ -1,0 +1,38 @@
+name: Vue - Estilizando componentes
+logo: 
+short-description:
+key-objectives:
+  - Comece pelo básico, aplicando folhas de estilo CSS externas ao seu projeto Vue.
+  - Vá um pouco mais fundo e aprenda sobre o atributo "scoped" no Vue, que permite que você direcione estilos especificamente para um único componente.
+  - Explore bibliotecas que permitem que você escreva estilos em JavaScript, oferecendo recursos dinâmicos e reutilizáveis.
+  - Veja como os pré-processadores CSS, como SASS ou LESS, podem ser integrados ao seu projeto Vue para estilização avançada.
+  - Experimente bibliotecas populares de componentes Vue, como Vuetify ou BootstrapVue, que vêm com seus próprios conjuntos de estilos e temas.
+  - Conheça a biblioteca vue-styled-components, uma implementação do Styled Components para Vue, que permite escrever CSS real em JavaScript.
+  - Dê uma olhada no Tailwind CSS, um framework de CSS de utilidade, e aprenda como pode ser integrado com Vue para um desenvolvimento de interface de usuário eficiente.
+  - Com o Vue 3, explore a vinculação de estilos e como eles podem ser usados para aplicar estilos dinâmicos com base nos dados do componente.
+  
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Classes e estilos"
+    link: https://vuejs.org/guide/essentials/class-and-style.html
+  - type: SITE
+    title: "Vue: Documentação - Escopo do CSS"
+    link: https://vuejs.org/api/sfc-css-features.html#scoped-css
+  - type: SITE
+    title: "Vue: Documentação - Módulos CSS"
+    link: https://vuejs.org/api/sfc-css-features.html#css-modules
+  - type: SITE
+    title: "Vue: Documentação - Pré Processadores"
+    link: https://vuejs.org/api/sfc-spec.html#pre-processors
+  - type: SITE
+    title: Bootstrap Vue
+    link: https://bootstrap-vue.org/
+  - type: SITE
+    title: Tailwind CSS
+    link: https://tailwindcss.com/docs/guides/vite#vue
+alura-contents:
+  - type: SITE
+    title: "Tailwind CSS: estilizando a sua página com classes utilitárias"
+    link: https://www.alura.com.br/conteudo/tailwind-css-estilizando-pagina-classes-utilitarias
+    

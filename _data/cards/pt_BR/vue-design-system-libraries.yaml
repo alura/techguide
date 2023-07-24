@@ -1,0 +1,28 @@
+name: Vue - Design System
+logo: 
+short-description:
+key-objectives:
+  - Compreenda o conceito de um design system e sua importância para manter a consistência e escalabilidade em projetos grandes.
+  - Conheça algumas das bibliotecas de UI mais populares no Vue, como Vuetify, Quasar, Buefy, e Vue Material.
+  - Avalie as bibliotecas disponíveis baseado em suas necessidades - considere o tamanho da biblioteca, a comunidade por trás dela, a frequência de atualizações e se ela atende aos requisitos do seu projeto.
+  - Escolha uma biblioteca e aprenda como instalar e configurar no seu projeto Vue.
+  - Comece a usar os componentes disponíveis na biblioteca. Isso geralmente inclui botões, formulários, cards, entre outros.
+  - Aprenda como personalizar componentes para adequá-los ao seu design system.
+  - Se necessário, aprenda a criar seus próprios componentes que estejam em conformidade com o design system.
+  - Documente seus componentes e use ferramentas como Storybook para facilitar a comunicação entre designers e desenvolvedores. 
+  - Entenda como manter a biblioteca do seu design system atualizada e consistente ao longo do tempo.
+  - Aprenda como integrar seu design system com outras partes do seu projeto, como Vuex para gerenciamento de estado, Vue Router para roteamento, entre outros.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vuetify - Material Design Framework"
+    link: https://vuetifyjs.com/en/
+  - type: SITE
+    title: "The enterprise-ready cross-platform VueJs framework"
+    link: https://quasar.dev/
+  - type: SITE
+    title: "Buefy - Lightweight UI components for Vue.js based on Bulma"
+    link: https://buefy.org/
+  - type: SITE
+    title: "Vue Material - Build beautiful apps with Material Design and Vue.js"
+    link: https://www.creative-tim.com/vuematerial/

@@ -1,0 +1,17 @@
+name: Vue Slots
+logo: 
+short-description:
+key-objectives:
+  - Comece compreendendo o conceito de slots e como eles são usados para criar layouts personalizáveis e reutilizáveis em componentes Vue.
+  - Aprenda a usar slots anônimos, que são os slots padrão que você usa quando deseja inserir conteúdo personalizado no componente.
+  - Mergulhe em slots nomeados, que permitem que você personalize diferentes partes do layout do componente.
+  - Domine os scoped slots, que permitem o acesso aos dados do componente filho dentro do slot.
+  - Familiarize-se com a diretiva v-slot e como usá-la para criar slots nomeados e scoped slots.
+  - Descubra como usar slots dinâmicos para criar layouts ainda mais flexíveis.
+  - Entenda a diferença entre a nova sintaxe de slots no Vue 3 e a antiga no Vue 2 para garantir a compatibilidade com versões anteriores.
+  
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - slots"
+    link: https://vuejs.org/guide/components/slots.html

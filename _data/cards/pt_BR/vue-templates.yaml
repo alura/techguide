@@ -1,0 +1,16 @@
+name: Vue - Template
+logo: 
+short-description:
+key-objectives:
+  - Comece aprendendo a sintaxe básica de um template Vue e como renderizar dados dinâmicos.
+  - Aprofunde-se no uso de diretivas de template como v-if, v-for e v-bind para criar interfaces dinâmicas.
+  - Aprenda a definir e usar componentes dentro dos seus templates para reutilizar e organizar o código.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Template"
+    link: https://vuejs.org/guide/essentials/template-syntax.html
+alura-contents:
+  - type: COURSE
+    title: "Vue3: avançando no framework"
+    link: https://www.alura.com.br/curso-online-vue3-avancando-framework

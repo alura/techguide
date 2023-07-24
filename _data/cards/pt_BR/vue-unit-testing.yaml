@@ -1,0 +1,23 @@
+name: Vue - testes de unidade  
+logo: 
+short-description:
+key-objectives:
+  - Testes unitários são testes que validam a funcionalidade de partes individuais do seu código.
+  - Vue Test Utils é a biblioteca oficial para testes de componentes Vue.
+  - Aprenda a escrever testes básicos para seus componentes Vue, verificando se eles são renderizados corretamente.
+  - Os métodos dos componentes são partes cruciais do código que muitas vezes contêm lógica complexa. Aprenda a testá-los efetivamente.
+  - A injeção de dependência pode facilitar o teste de partes do seu código que dependem de serviços ou outros componentes.
+  - Se você estiver usando Vuex, Pinia ou Vue Router em seu aplicativo, aprender a lidar com eles nos testes é crucial.
+  
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Testes de unidade"
+    link: https://vuejs.org/guide/scaling-up/testing.html#unit-testing
+alura-contents:
+  - type: ARTICLE
+    title: "Desmistificando testes de unidade no Vue"
+    link: https://www.alura.com.br/artigos/desmistificando-testes-de-unidade-no-vue
+  - type: ARTICLE
+    title: "Entrega e integração contínua de aplicações Vue"
+    link: https://www.alura.com.br/artigos/entrega-e-integracao-continua-de-aplicacoes-vue

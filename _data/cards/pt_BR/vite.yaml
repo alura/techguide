@@ -1,0 +1,18 @@
+name: Vite
+logo: 
+short-description:
+key-objectives:
+  - "Instalação: Instale o Vite globalmente e crie seu projeto Vue com um simples comando create-vite"
+  - Explore a estrutura de diretórios do Vite e entenda como organizar seus componentes e rotas.
+  - Aprenda a usar os comandos de desenvolvimento e build do Vite para executar e otimizar sua aplicação.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vite: Documentação - Interface da Linha de Comando"
+    link: https://pt.vitejs.dev/guide/why.html
+  - type: SITE
+    title: "Vite: Documentação - Interface da Linha de Comando"
+    link: https://pt.vitejs.dev/guide/cli.html
+  - type: SITE
+    title: "Vite: Documentação - Comparações"
+    link: https://pt.vitejs.dev/guide/comparisons.html

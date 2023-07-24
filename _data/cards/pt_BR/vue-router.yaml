@@ -1,0 +1,22 @@
+name: Vue Router
+logo: 
+short-description:
+key-objectives:
+  - Comece instalando e configurando o Vue Router em seu projeto. Aprenda a criar um arquivo de rotas e a configurar o Vue para usar o Vue Router.
+  - Domine a criação de rotas básicas, entenda a correspondência de rotas com os componentes Vue e como usar a diretiva <router-link> para criar links.
+  - Avance para o roteamento dinâmico, aprendendo a usar parâmetros de rota para criar rotas flexíveis.
+  - Entenda o roteamento aninhado e como usar o componente <router-view> para renderizar componentes de rota aninhados.
+  - Mergulhe no roteamento nomeado e aprenda como ele pode tornar o seu código mais fácil de entender e manter.
+  - Explore os guardas de rota e como eles podem ser usados para controlar o acesso a certas rotas.
+  - Aprenda a criar transições suaves entre as rotas com o elemento <transition> do Vue.
+  
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue Router: Documentação"
+    link: https://router.vuejs.org/
+alura-contents:
+  - type: COURSE
+    title: "Vue3: explorando o framework"
+    link: https://cursos.alura.com.br/course/vue3-comecando-framework
+    

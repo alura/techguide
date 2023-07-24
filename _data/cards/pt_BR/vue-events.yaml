@@ -1,0 +1,19 @@
+name: Vue - Eventos
+logo: 
+short-description:
+key-objectives:
+  - Inicie seu aprendizado sobre eventos no Vue, entendendo a diferença entre eventos do DOM e eventos personalizados do Vue.
+  - Aprenda a usar a diretiva v-on para adicionar manipuladores de eventos a elementos do DOM e como passar argumentos para os manipuladores de eventos.
+  - Mergulhe nos eventos de teclado e mouse, entendendo como capturá-los e como usar modificadores de eventos para simplificar o código.
+  - Descubra como emitir e ouvir eventos personalizados usando o método $emit e a diretiva v-on.
+  - Aprofunde-se na compreensão do bubbling e capturing de eventos no Vue, e quando usar o .native modifier.
+  - Conheça o conceito de "Event Bus" para comunicação entre componentes não relacionados.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Manipulando eventos"
+    link: https://vuejs.org/guide/essentials/event-handling.html
+  - type: SITE
+    title: "Eventos em apps Vue"
+    link: https://www.w3schools.com/vue/vue_events.php
+

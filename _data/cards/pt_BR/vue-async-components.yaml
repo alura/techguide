@@ -1,0 +1,15 @@
+name: Vue - Componentes assíncronos
+logo: 
+short-description:
+key-objectives:
+  - Compreenda o que são e por que usar componentes assíncronos no Vue.
+  - Aprenda a criar um componente assíncrono básico usando a função defineAsyncComponent.
+  - Domine a renderização de um estado de loading enquanto o componente assíncrono é carregado.
+  - Implemente o tratamento de erros ao carregar o componente assíncrono.
+  - Aplique lazy loading nos seus componentes para melhorar a performance da aplicação.
+  - Use componentes assíncronos com Vue Router para carregar rotas sob demanda.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Componentes assíncronos"
+    link: https://vuejs.org/guide/components/async.html#basic-usage

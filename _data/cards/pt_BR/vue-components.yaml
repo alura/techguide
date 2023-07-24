@@ -1,0 +1,34 @@
+name: Vue - Componentes
+logo: 
+short-description:
+key-objectives:
+  - O Vue permite definir componentes usando a Option API ou a Composition API. 
+  - Para que servem e como funcionam componentes
+  - Conheça a especificação da Sintaxe SFC (Single File Component)
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Vue.js (O competidor de peso do Angular e React) // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=bEl6yN3vd-U&t=161s&pp=ygUOYXByZW5kYSB2dWVqcyA%3D
+  - type: SITE
+    title: "Vue: Documentação - Registrando Componentes"
+    link: https://vuejs.org/guide/components/registration.html
+  - type: SITE
+    title: "Vue: Documentação - Single-File Components"
+    link: https://vuejs.org/guide/scaling-up/sfc.html
+alura-contents:
+  - type: ARTICLE
+    title: "Angular vs React vs Vue.js"
+    link: https://www.alura.com.br/artigos/angular-vs-react-vs-vue-js
+  - type: ARTICLE
+    title: "Vue 3: Conhecendo mais de perto"
+    link: https://www.alura.com.br/artigos/vue-3-conhecendo-mais-de-perto
+  - type: PODCAST
+    title: "Vue.js - Hipsters Ponto Tech #288"
+    link: https://www.alura.com.br/podcast/vue-js-hipsters-ponto-tech-288-a1387
+  - type: SITE
+    title: Preparando o ambiente com Vue!"
+    link: https://cursos.alura.com.br/extra/alura-mais/preparando-o-ambiente-com-vue--c1359
+  - type: COURSE
+    title: "Vue3: explorando o framework"
+    link: https://cursos.alura.com.br/course/vue3-comecando-framework

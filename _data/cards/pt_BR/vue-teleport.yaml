@@ -1,0 +1,17 @@
+name: Vue - Teleporte
+logo: 
+short-description:
+key-objectives:
+  - Entenda o que é o Teleport e qual problema ele resolve no Vue.
+  - Aprenda a usar o componente <teleport> para renderizar conteúdo em um local diferente do DOM.
+  - Domine a propriedade 'to' do Teleport, usada para especificar o local de destino no DOM.
+  - Explore como usar diretivas como v-if para controlar a renderização do conteúdo teleportado.
+  - Experimente casos de uso avançados, como teleportar modais, tooltips, notificações e muito mais.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Teleporte"
+    link: https://vuejs.org/guide/built-ins/teleport.html
+  - type: ARTICLE
+    title: "Vue Teleport"
+    link: https://medium.com/@marcosviniciosneves/vue-teleport-8f9788ca9ca1
