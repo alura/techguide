@@ -1,0 +1,35 @@
+name: Entity Framework Core
+logo: 
+short-description:
+key-objectives:
+  - Entity Framework Core es un mapeador objeto-relacional (ORM). El mapeo objeto-relacional es una técnica que permite a los desarrolladores trabajar con datos de manera orientada a objetos, realizando el trabajo necesario para mapear entre objetos definidos en una lenguaje de programación de la aplicación y los datos almacenados en fuentes de datos relacionales.
+  - Manipular bases de datos usando objetos .NET
+  - Crear modelos correspondientes a una base de datos
+  - Realizar consultas
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Entity Framework Core"
+    link: https://docs.microsoft.com/pt-br/ef/core/
+  - type: ARTICLE
+    title: "Série: Entity Framework. Introdução"
+    link: https://medium.com/@alexandre.malavasi/s%C3%A9rie-entity-framework-introdu%C3%A7%C3%A3o-parte-1-13ab52b0bdaf
+  - type: YOUTUBE
+    title: "ProgrAmada Mente: Introdução ao Entity Framework Core"
+    link: https://www.youtube.com/watch?v=OIsM0LklYH0
+  - type: YOUTUBE
+    title: "A Escola de Software: O que é Entity Framework Core?"
+    link: https://www.youtube.com/watch?v=ZaVyLFTDuIQ
+alura-contents:
+  - type: SITE
+    title: "Primeiras aulas do curso Entity Framework Core: banco de dados de forma eficiente"
+    link: https://www.alura.com.br/conteudo/entity-framework-core
+  - type: COURSE
+    title: "Curso Entity Framework Core: banco de dados de forma eficiente"
+    link: https://www.alura.com.br/curso-online-entity-framework-core
+  - type: COURSE
+    title: "Curso Entity Framework Core parte 1: mapeando um banco pré-existente"
+    link: https://www.alura.com.br/curso-online-entity-framework-core-banco-pre-existente-parte1
+  - type: COURSE
+    title: "Curso Entity Framework Core parte 2: mapeando um banco pré-existente"
+    link: https://www.alura.com.br/curso-online-entity-framework-core-banco-pre-existente-parte2

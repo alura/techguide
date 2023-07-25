@@ -1,0 +1,91 @@
+name: C# - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - C# es un lenguaje de programación, multiparadigma, con tipado fuerte, desarrollado por Microsoft como parte de la plataforma .NET. El código fuente se compila a Common Intermediate Language (CIL), que es interpretado por la máquina virtual Common Language Runtime (CLR). Está diseñado para funcionar en la Common Language Infrastructure de la plataforma .NET Framework.
+  - Conocer los tipos primitivos
+  - Declarar variables, considerando los diferentes tipos
+  - Utilizar estructuras condicionales ('if', 'else')
+  - Conocer los operadores de asignación y comparación
+  - Utilizar estructuras de repetición y bucles ('while', 'for')
+  - Utilizar funciones, pasando parámetros y argumentos
+  - Manejar métodos
+  - Manejar arrays y listas
+  - Obtener datos de una API
+  - Realizar llamadas asíncronas, etc.
+  - Crear constructores
+aditional-objectives:
+  - Manipular objetos JSON
+  - Lidar com datas
+contents:
+  - type: SITE
+    title: "Paseo por el lenguaje C# | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/
+  - type: SITE
+    title: "Excepciones y control de excepciones | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/exceptions/
+  - type: SITE
+    title: "Operadores y expresiones de C# (referencia de C#) | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/
+  - type: SITE
+    title: "Constructores: Guía de programación de C# | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/constructors
+  - type: SITE
+    title: ""
+    link: 
+  - type: ARTICLE
+    title: "Variables y Tipos en C#"
+    link: https://desarrolloweb.com/articulos/variables-tipos-csharp
+  - type: YOUTUBE
+    title: "¿QUÉ ES .NET?💥[Lo más BÁSICO y lo más SENCILLO]"
+    link: https://www.youtube.com/watch?v=AU2WmblU2J0
+  - type: YOUTUBE
+    title: "List y ArrayList C#"
+    link: https://www.youtube.com/watch?v=k431eUiMRXA
+  - type: YOUTUBE
+    title: "Tipos de datos primitivos y Variables"
+    link: https://www.youtube.com/watch?v=Hhe6EtOsG5o&t=655s
+  - type: YOUTUBE
+    title: "Consumir un API con C# 9.0 y Pegar JSON Como Clases Visual Studio 2019"
+    link: https://www.youtube.com/watch?v=yPgfLYaqMn8
+alura-contents:
+  - type: PODCAST
+    title: "Hipster.tech: Presente e Futuro do .NET – Hipsters 26"
+    link: https://www.hipsters.tech/passado-e-futuro-do-net-hipsters-26/
+  - type: ARTICLE
+    title: "Como separar palavras em String com C#"
+    link: https://www.alura.com.br/artigos/como-separar-palavras-em-string-com-c
+  - type: ARTICLE
+    title: "Lidando com data e hora C#"
+    link: https://www.alura.com.br/artigos/lidando-com-data-e-hora-c
+  - type: ARTICLE
+    title: "C#: entendendo classes e structs"
+    link: https://www.alura.com.br/artigos/c-sharp-entendendo-classes-e-structs
+  - type: SITE
+    title: "Apostila: C# e Orientação a Objetos"
+    link: https://www.alura.com.br/apostila-csharp-orientacao-objetos
+  - type: YOUTUBE
+    title: "Alura: O que é o C#?"
+    link: https://www.youtube.com/watch?v=0JWMVc1CqpA
+  - type: YOUTUBE
+    title: "Alura: Saiba tudo sobre uma das linguagens de programação mais populares do mundo"
+    link: https://www.youtube.com/watch?v=eUl0mWTnL_A
+  - type: COURSE
+    title: "Formação C# e Orientação a Objetos"
+    link: https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos
+  - type: COURSE
+    title: "Curso C#: conociendo el lenguaje"
+    link: https://app.aluracursos.com/course/csharp-conociendo-el-lenguaje
+  - type: COURSE
+    title: "Curso C#: array y tipos genéricos"
+    link: https://app.aluracursos.com/course/csharp-array-tipos-genericos
+  - type: CHALLENGE
+  - type: COURSE
+    title: "Curso C#: strings, expresiones regulares y clase Object"
+    link: https://app.aluracursos.com/course/csharp-strings-expresiones-regulares-clase-object
+  - type: CHALLENGE
+    title: "7 Days of Code: C#"
+    link: https://7daysofcode.io/matricula/csharp
+  - type: CHALLENGE
+    title: "7 Days of Code: Windows Forms C#"
+    link: https://7daysofcode.io/matricula/windows-forms

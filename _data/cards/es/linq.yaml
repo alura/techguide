@@ -1,0 +1,45 @@
+name: LINQ
+logo: 
+short-description:
+key-objectives:
+  - O LINQ (Language-Integrated Query) é o nome de um conjunto de tecnologias com base na integração de recursos de consulta diretamente na linguagem C#.
+  - Criar consultas
+  - Conhecer as cláusulas Select e Where
+  - Consultar coleções de objetos em memória
+  - Mapear o banco de dados com Linq to Sql
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: LINQ (Consulta Integrada à Linguagem) (C#)"
+    link: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/
+  - type: SITE
+    title: "Microsoft Docs: Introdução a consultas LINQ (C#)"
+    link: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries
+  - type: ARTICLE
+    title: "LINQ: Menos esforço, mais dados"
+    link: https://lucas-eschechola.medium.com/linq-menos-esfor%C3%A7o-mais-dados-7354640afba1
+  - type: YOUTUBE
+    title: "Willian Menezes: C# - Introdução ao LINQ"
+    link: https://www.youtube.com/watch?v=ja1nORsswSU
+  - type: YOUTUBE
+    title: "Willian Menezes: C# - LINQ - Criando a primeira consulta"
+    link: https://www.youtube.com/watch?v=gC4A54H-EdQ
+  - type: YOUTUBE
+    title: "André Secco: Recursos do C# - LINQ"
+    link: https://www.youtube.com/watch?v=z7SsqZEDKts
+alura-contents:
+  - type: COURSE
+    title: "Curso C# parte 8: List, lambda, linq"
+    link: https://www.alura.com.br/curso-online-csharp-list-lambda-linq
+  - type: SITE
+    title: "Primeiras aulas do curso Entity LinQ parte 1: crie queries poderosas em C#"
+    link: https://www.alura.com.br/conteudo/linq-c-sharp
+  - type: COURSE
+    title: "Curso Entity LinQ parte 1: crie queries poderosas em C#"
+    link: https://www.alura.com.br/curso-online-linq-c-sharp
+  - type: SITE
+    title: "Primeiras aulas do curso Entity LinQ parte 2: Store Procedures e consultas com o LinQPad"
+    link: https://www.alura.com.br/conteudo/linq-c-sharp-parte-2
+  - type: COURSE
+    title: "Curso Entity LinQ parte 2: Store Procedures e consultas com o LinQPad"
+    link: https://www.alura.com.br/curso-online-linq-c-sharp-parte-2

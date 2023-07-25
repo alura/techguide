@@ -1,0 +1,41 @@
+name: C# - Métodos anônimos e lambda expressions
+logo: 
+short-description:
+key-objectives:
+  - Métodos anônimos são métodos sem um nome que podem ser definidos usando a palavra-chave delegate.
+  - Lambda expressions são usadas como funções anônimas, mas você não precisa especificar o tipo do valor que você digita, tornando-as mais flexíveis de usar.
+  - Criar funções anônimas que você pode usar para criar delegates
+  - Criar funções locais que podem ser passadas como argumentos
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Lambda expressions and anonymous functions"
+    link: https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/lambda-expressions
+  - type: SITE
+    title: "Microsoft Docs: Delegates e lambdas"
+    link: https://docs.microsoft.com/pt-br/dotnet/standard/delegates-lambdas
+  - type: SITE
+    title: "Microsoft Docs: Delegates com métodos nomeados versus anônimos"
+    link: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/delegates/delegates-with-named-vs-anonymous-methods
+  - type: SITE
+    title: "Acervo Lima: Método anônimo em C#"
+    link: https://acervolima.com/metodo-anonimo-em-c/
+  - type: ARTICLE
+    title: "Apreendendo a usar Lambda Expression em C# — Guia Rápido"
+    link: https://medium.com/beelabacademy/apreendendo-a-usar-lambda-expression-em-c-guia-r%C3%A1pido-7316b2cbcec1
+  - type: ARTICLE
+    title: "Usando DELEGATE e LAMBDA no C#"
+    link: https://medium.com/@pedropini/usando-delegate-e-lambda-no-c-c87251a22d37
+  - type: YOUTUBE
+    title: "Marco Diniz: C# em 5 minutos - Lambda Expressions"
+    link: https://www.youtube.com/watch?v=Ftbrn82BPcc
+  - type: YOUTUBE
+    title: "Coding Night: Introdução a consultas LINQ e expressões Lambda no C#"
+    link: https://www.youtube.com/watch?v=-yxrPTlvpz4
+alura-contents:
+  - type: COURSE
+    title: "Curso C#: Eventos, Delegates e Lambda"
+    link: https://cursos.alura.com.br/course/csharp-eventos-delegates-lambda
+  - type: COURSE
+    title: "Curso C# parte 8: List, lambda, linq"
+    link: https://cursos.alura.com.br/course/csharp-list-lambda-linq

@@ -1,0 +1,92 @@
+name: C#
+tags: 
+  - back-end
+expertise: 
+  - name: C# Back-end Jr
+    cards: 
+      - csharp-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 10
+      - csharp-collections:
+        priority: 9
+      - nuget:
+        priority: 8
+      - csharp-system-io:
+        priority: 8
+      - csharp-memory-management:
+        priority: 7
+      - csharp-testing:
+        priority: 8
+      - ado-dot-net:
+        priority: 9
+      - entity-framework-core:
+        priority: 9      
+      - data-structures:
+        priority: 8
+  - name: C# Back-end Mid
+    cards:
+      - clr:
+        priority: 8
+      - linq:
+        priority: 9
+      - csharp-serialization:
+        priority: 6
+      - csharp-networking-and-sockets:
+        priority: 6
+      - asp-net-core:
+        priority: 7
+      - dapper:
+        priority: 7
+      - dependency-injection: 
+        priority: 7
+      - csharp-multithreading:
+        priority: 4
+        optional: true
+  - name: C# Back-end in depth
+    cards:
+      - csharp-delegates-and-events:
+        priority: 8
+      - csharp-anonymous-methods-and-lambda-expressions:
+        priority: 6
+      - containers:
+        priority: 7
+      - microservices:
+        priority: 7
+      - reflection-and-attributes:
+        priority: 5
+        optional: true
+      - maui:
+        priority: 4
+        optional: true
+collaboration:
+  - name: Infraestructura
+    cards:
+      - git-and-github-fundamentals:
+        priority: 9
+      - http-fundamentals:
+        priority: 10
+      - json:
+        priority: 8
+      - command-line-fundamentals: 
+        priority: 8
+      - cloud-fundamentals: 
+        priority: 6
+        optional: true
+      - sql-fundamentals:
+        priority: 9
+  - name: Buenas prácticas
+    cards:
+      - solid:
+        priority: 7
+      - design-patterns:
+        priority: 7
+      - clean-architecture:
+        priority: 7
+      - clean-code:
+        priority: 6
+      - ddd-concepts:
+        priority: 5
+        optional: true
+video: https://www.youtube.com/watch?v=RtwvUNvabPA&list=PLh2Y_pKOa4UeBQNf1JQzc4SfegYR0gO-N&index=4&ab_channel=Alura
+        

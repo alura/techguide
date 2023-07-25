@@ -1,0 +1,20 @@
+name: C# - Administración de Memoria
+logo: 
+short-description:
+key-objectives:
+  - El manejo automático de memoria es uno de los servicios que el Common Language Runtime ofrece durante la Ejecución Administrada (Managed Execution). El recolector de basura (Garbage Collector) del Common Language Runtime gestiona la asignación y liberación de memoria para una aplicación.
+  - Comprender cómo se administra la memoria
+  - Conocer el Recolector de Basura (Garbage Collector)
+  - Entender el Stack y el Heap administrado
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Gerenciamento automático de memória"
+    link: https://docs.microsoft.com/pt-br/dotnet/standard/automatic-memory-management
+  - type: ARTICLE
+    title: "Gerenciamento de memória — C#"
+    link: https://medium.com/@mateusgoncalvesgeracino/gerenciamento-de-mem%C3%B3ria-c-bcb5f2c89464
+  - type: YOUTUBE
+    title: "Dias de Dev: Gerenciamento de memória - Stack vs Heap"
+    link: https://www.youtube.com/watch?v=7kJwVQGJCbw
+alura-contents: 

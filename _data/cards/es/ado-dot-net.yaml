@@ -1,0 +1,24 @@
+name: ADO.NET
+logo: 
+short-description:
+key-objectives:
+  - ADO.NET es un conjunto de clases que exponen servicios de acceso a datos para desarrolladores del .NET Framework. ADO.NET provee un conjunto rico de componentes para crear aplicaciones distribuidas y compartir datos. Forma parte del .NET Framework, proporcionando acceso a datos de aplicaciones relacionales y XML.
+  - Manipular bases de datos
+  - Conocer el DataSet y DataTable
+  - Realizar conexiones
+  - Manipular documentos XML
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: ADO.NET"
+    link: https://docs.microsoft.com/pt-br/dotnet/framework/data/adonet/ado-net-overview  
+  - type: YOUTUBE
+    title: "Parmezani.NET: ADO.NET - Acesso ao banco de dados com classe genérica"
+    link: https://www.youtube.com/watch?v=GE5Q9sDS7rQ
+  - type: YOUTUBE
+    title: "André Lima: Salvando arquivos no banco de dados com C# e ADO.NET"
+    link: https://www.youtube.com/watch?v=2H3Hc0ZFGjY
+alura-contents:
+  - type: SITE
+    title: "Apostila: Orientação a Objetos em C# - Capítulo 8 - Acesso a banco de dados"
+    link: https://biblioteca.alura.tech/bitstream/123456789/77/1/Araujo_Everton_Orienta%C3%A7%C3%A3o%20a%20objetos%20em%20C%23.pdf

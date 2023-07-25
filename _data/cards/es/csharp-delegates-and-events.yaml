@@ -1,0 +1,31 @@
+name: C# - Delegates e Eventos
+logo: 
+short-description:
+key-objectives:
+  - Delegates são objetos que são usados como ponteiros de função para se referirem a um método atribuído a eles.
+  - Eventos são a ação realizada que altera o estado de um objeto. Eventos são declarados usando delegates - eles fornecem um encapsulamento aos delegates.
+  - Entender o conceito de delegate
+  - Criar uma referência para uma função com uma certa lista de parâmetros
+  - Entender o conceito de evento
+  - Manipular diferentes tipos de eventos
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Distinção entre Delegates e Eventos"
+    link: https://docs.microsoft.com/pt-br/dotnet/csharp/distinguish-delegates-events
+  - type: SITE
+    title: "Microsoft Docs: Manipular e gerar eventos"
+    link: https://docs.microsoft.com/pt-br/dotnet/standard/events/
+  - type: ARTICLE
+    title: "Delegates em C#: o que são, o que comem, onde vivem e pra que servem?"
+    link: https://medium.com/@alexandre.malavasi/delegates-em-c-o-que-s%C3%A3o-o-que-comem-onde-vivem-e-pra-que-serv-12b5336f3d9a
+  - type: YOUTUBE
+    title: "Matrix Code: C# Delegates e Eventos"
+    link: https://www.youtube.com/watch?v=Sice1GmFiuo
+  - type: YOUTUBE
+    title: "Ricardo Maroquio: Eventos e Delegates"
+    link: https://www.youtube.com/watch?v=0xxbsSIYDE8
+alura-contents:
+  - type: COURSE
+    title: "Curso C#: Eventos, Delegates e Lambda"
+    link: https://cursos.alura.com.br/course/csharp-eventos-delegates-lambda

@@ -1,0 +1,54 @@
+name: ASP.NET Core
+logo: 
+short-description:
+key-objectives:
+  - ASP.NET Core é um framework de código aberto e multi-plataforma para a construção de aplicações baseadas na nuvem, tais como aplicações web, aplicações IoT e backends mobile.
+  - Criar aplicações e serviços Web
+  - Manter uma aplicações MVC	
+  - Desenvolver de interface do usuário da Web do lado do cliente
+  - Criar uma API Web
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Visão geral do ASP.NET Core"
+    link: https://docs.microsoft.com/pt-br/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0
+  - type: ARTICLE
+    title: "ASP.NET Core: dicas úteis para o dia a dia de um Desenvolvedor - Parte 1"
+    link: https://renatogroffe.medium.com/asp-net-core-dicas-%C3%BAteis-para-o-dia-a-dia-de-um-desenvolvedor-parte-1-fd2e4b797472
+  - type: YOUTUBE
+    title: "Glaucia Lemos: Workshop - ASP.NET Core para Iniciantes"
+    link: https://www.youtube.com/watch?v=njlmcXxSHE4
+  - type: YOUTUBE
+    title: "Teacher Mauro Duarte: C# Introdução ao Asp.Net Core MVC"
+    link: https://www.youtube.com/watch?v=lwVvrRIS7aI
+  - type: YOUTUBE
+    title: "Thiago Pelissari: .Net Framework VS .Net Core - Qual é a diferença ?"
+    link: https://www.youtube.com/watch?v=PM1JKY41wnw
+alura-contents:
+  - type: PODCAST
+    title: "Hipsters.tech: ASP.NET Core – Hipsters 108"
+    link: https://www.hipsters.tech/asp-net-core-hipsters-108/
+  - type: PODCAST
+    title: "Hipsters.tech: .NET Core no Stack Overflow – Hipsters On The Road 20"
+    link: https://www.hipsters.tech/net-core-no-stack-overflow-hipsters-on-the-road-20/
+  - type: ARTICLE
+    title: "Como criar uma calculadora de IMC com ASP.NET Core Blazor"
+    link: https://www.alura.com.br/artigos/como-criar-calculadora-imc-com-asp-net-core-blazor
+  - type: ARTICLE
+    title: "Configurando e rodando ASP.NET MVC no Mac OS"
+    link: https://www.alura.com.br/artigos/configurando-e-rodando-asp-net-mvc-no-mac-os
+  - type: YOUTUBE
+    title: "Alura: Criando sua primeira aplicação .NET Core no Linux"
+    link: https://www.youtube.com/watch?v=UZQqXPuKr1s
+  - type: YOUTUBE
+    title: "Alura: ASP NET.Core - Alura Live 32"
+    link: https://www.youtube.com/watch?v=qVddNI13AUo
+  - type: COURSE
+    title: "Curso Asp.NET Core: uma webapp usando o padrão MVC"
+    link: https://cursos.alura.com.br/course/introducao-ao-mvc-com-asp-net-core
+  - type: COURSE
+    title: "Curso ASP.NET Core parte 1: um e-Commerce com MVC e EF Core"
+    link: https://cursos.alura.com.br/course/webapp-com-aspnet-core-2
+  - type: COURSE
+    title: "Curso ASP.NET Core parte 2: um e-Commerce com MVC e EF Core"
+    link: https://cursos.alura.com.br/course/aspnet-core-2-validacoes-seguranca

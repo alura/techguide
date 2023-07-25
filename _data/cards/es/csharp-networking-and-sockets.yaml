@@ -1,0 +1,25 @@
+name: C# - Rede e Sockets
+logo: 
+short-description:
+key-objectives:
+  - O termo programação com sockets refere-se à escrita de programas que são executados em vários computadores nos quais os dispositivos estão todos conectados uns aos outros usando uma rede.
+  - Abrir uma sessão de comunicação interativa entre o navegador do usuário e um servidor
+  - Enviar mensagens para um servidor e receber respostas sem consultar o servidor
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Microsoft Docs: Sockets"
+    link: https://docs.microsoft.com/pt-br/dotnet/framework/network-programming/sockets
+  - type: SITE
+    title: "Microsoft Docs: Usar soquetes para enviar e receber dados por TCP"
+    link: https://docs.microsoft.com/pt-br/dotnet/framework/network-programming/how-to-create-a-socket
+  - type: YOUTUBE
+    title: "Filipe Deschamps: WebSockets na prática é MUITO poderoso"
+    link: https://www.youtube.com/watch?v=bQ7NNSyGV2U
+  - type: YOUTUBE
+    title: "Eduardo Palandrani: O que é WebSocket?"
+    link: https://www.youtube.com/watch?v=YJxKYv7GLIg
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Entendendo WebSockets"
+    link: https://www.youtube.com/watch?v=RwUbUnPdWqs
