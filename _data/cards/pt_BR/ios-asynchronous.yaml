@@ -7,13 +7,16 @@ key-objectives:
   - Usar as classes OperationQueue e async e await para executar tarefas em segundo plano.
 aditional-objectives:
 contents:
-  - type: YOUTUBE
-    title: "Programação assíncrona vs Programação paralela - Entenda a diferença | Programando com Vinicius Dias"
-    link: https://youtu.be/zLfXPSeCkB8
   - type: SITE
     title: "Documentação oficial Apple - Classe OperationQueue"
     link: https://developer.apple.com/documentation/foundation/operationqueue
   - type: YOUTUBE
+    title: "Programação assíncrona vs Programação paralela - Entenda a diferença | Programando com Vinicius Dias"
+    link: https://youtu.be/zLfXPSeCkB8
+  - type: YOUTUBE
     title: "Async/Await Concorrência com Swift (inglês) | Swift Heroes"
     link: https://youtu.be/uWqy5KZXSlA
+  - type: YOUTUBE
+    title: "Playlist Concorrência em Swift (inglês) | iCode"
+    link: https://www.youtube.com/watch?v=X9H2M7xMi9E&list=PLSbpzz0GJp5RTrjum9gWTqPhM4L3Kop0S&pp=iAQB
 alura-contents:
