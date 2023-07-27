@@ -44,8 +44,8 @@
    - Personalizar recursos de aplicativos iOS para diferentes dispositivos e resoluções de tela.
 - [ ] **iOS - Persistência de dados**:
    - A persistência de dados em iOS é o processo de armazenar e recuperar dados em um dispositivo iOS. Isso pode ser feito usando uma variedade de métodos, incluindo arquivos, Core Data e Realm. Veja as principais habilidades que você precisa desenvolver:
-   - Conhecer os diferentes tipos de persistência de dados no iOS, como arquivos, Core Data e Realm;
-   - Armazenar e recuperar dados em um aplicativo iOS usando arquivos, Core Data e Realm;
+   - Conhecer os diferentes tipos de persistência de dados no iOS, como arquivos, Core Data, SwiftData e Realm;
+   - Armazenar e recuperar dados em um aplicativo iOS usando arquivos, Core Data, SwiftData e Realm;
    - Personalizar a persistência de dados em um aplicativo iOS para diferentes necessidades.
 - [ ] **iOS - Comunicação com APIs**:
    - As comunicações API em iOS são o processo de comunicação entre um aplicativo iOS e um serviço externo. Isso pode ser feito usando uma variedade de métodos, incluindo HTTP, HTTPS e Sockets. As comunicações API são importantes porque elas permitem que os aplicativos iOS acessem dados e recursos que não estão disponíveis no dispositivo local. Elas também podem ser usadas para compartilhar dados e recursos entre aplicativos iOS e serviços externos. Veja as principais habilidades que você precisa desenvolver:
@@ -178,6 +178,10 @@
    - Conhecer a documentação do Firebase
    - Conhecer as ferramentas do Firebase disponíveis
 ## Habilidade Auxiliar: UX & Design 
+- [ ] **iOS - Diretrizes de Interface Humana (HIG)**:
+   - As Diretrizes de Interface Humana contêm orientações e práticas recomendadas que podem ajudá-lo a criar uma ótima experiência para qualquer plataforma Apple. Veja as principais habilidades que você precisa desenvolver:
+   - Aprender os fundamentos das Diretrizes de Interface Humana (HIG) para iOS;
+   - Usar cores, fontes, layouts, ícones e animação de acordo com as diretrizes HIG.
 - [ ] **Design Systems**:
    - Um Design Systems (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
    - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
