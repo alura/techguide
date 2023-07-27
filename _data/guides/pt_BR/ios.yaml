@@ -86,8 +86,8 @@ collaboration:
         priority: 6
   - name: UX & Design 
     cards:
-    #  - human-interface-guidelines:
-    #    priority: 9
+      - human-interface-guidelines:
+        priority: 9
       - design-systems:
         priority: 6
       - color-systems:

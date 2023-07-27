@@ -13,7 +13,22 @@ contents:
   - type: SITE
     title: "Começando no Swift (inglês)"
     link: https://www.swift.org/getting-started/
-alura-contents:
+  - type: YOUTUBE
+    title: "Playlist do Youtube: Fundamentos do Swift | Michel Lopes"
+    link: https://www.youtube.com/watch?v=e6eIPukdnRk&list=PLs5gUvDGMKI8DF0rOLFMZk9SYqX4AN2fl
+  - type: YOUTUBE
+    title: "Swift (a linguagem do iOS) // Dicionário do Programador | Código Fonte TV"
+    link: https://youtu.be/ELa-PgWlYDI
+  - type: YOUTUBE
+    title: "Diferenças e Curiosidades de Class e Struct no Swift 🇧🇷 | Michel Lopes"
+    link: https://youtu.be/NsMJb43X7jE
+  - type: YOUTUBE
+    title: "[SWIFT] STRUCT OU CLASS, PRA QUE SERVE? | DevPoli"
+    link: https://youtu.be/tKSNjg9Cb_g
   - type: ARTICLE
-    title: "Alura: iOS e Swift - Conversão de dados com Codable (Encodable e Decodable)"
-    link: https://www.alura.com.br/artigos/ios-swift-conversao-dados-codable-encodable-decodable
+    title: "Coleções Sets, explorando seu poder e peculiaridades. | Medium"
+    link: https://medium.com/@msmatheusmatos/cole%C3%A7%C3%B5es-sets-explorando-seu-poder-e-peculiaridades-526ee361384a
+alura-contents:
+  - type: COURSE
+    title: "Domine a linguagem Swift"
+    link: https://cursos.alura.com.br/formacao-domine-linguagem-swift
