@@ -19,20 +19,35 @@ aditional-objectives:
   - Lidar com datas
 contents:
   - type: SITE
-    title: "Paseo por el lenguaje C# | Microsoft Learn"
+    title: "Paseo por el lenguaje C#"
     link: https://learn.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/
   - type: SITE
-    title: "Excepciones y control de excepciones | Microsoft Learn"
+    title: "Excepciones y control de excepciones"
     link: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/exceptions/
   - type: SITE
-    title: "Operadores y expresiones de C# (referencia de C#) | Microsoft Learn"
+    title: "Operadores y expresiones de C# (referencia de C#)"
     link: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/
   - type: SITE
-    title: "Constructores: Guía de programación de C# | Microsoft Learn"
+    title: "Constructores: Guía de programación de C#"
     link: https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/constructors
   - type: SITE
-    title: ""
-    link: 
+    title: "Programación asincrónica"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/asynchronous-programming/async-scenarios
+  - type: SITE
+    title: "Cadenas con formato de fecha y hora estándar"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/base-types/standard-date-and-time-format-strings
+  - type: SITE
+    title: "Procedimiento para separar cadenas mediante String.Split en C#"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/how-to/parse-strings-using-split
+  - type: SITE
+    title: "Structs - Especificación del lenguaje C#"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/language-specification/structs
+  - type: SITE
+    title: "C# | El lenguaje de programación moderno, innovador y de código abierto para crear todas sus aplicaciones"
+    link: https://dotnet.microsoft.com/es-es/languages/csharp
+  - type: SITE
+    title: "Creación de una aplicación de Windows Forms en Visual Studio con C#"
+    link: https://learn.microsoft.com/es-es/visualstudio/ide/create-csharp-winform-visual-studio?view=vs-2022
   - type: ARTICLE
     title: "Variables y Tipos en C#"
     link: https://desarrolloweb.com/articulos/variables-tipos-csharp
@@ -48,44 +63,23 @@ contents:
   - type: YOUTUBE
     title: "Consumir un API con C# 9.0 y Pegar JSON Como Clases Visual Studio 2019"
     link: https://www.youtube.com/watch?v=yPgfLYaqMn8
+  - type: YOUTUBE
+    title: "APRENDE Windows Forms DESDE 0 Utilizando C# y Visual Studio 2022"
+    link: https://www.youtube.com/watch?v=FFlvrBpY73w    
+  - type: YOUTUBE
+    title: "Lenguaje "C Sharp" en 3 Minutos o más!"
+    link: https://www.youtube.com/watch?v=rr5nZq61WIE     
 alura-contents:
-  - type: PODCAST
-    title: "Hipster.tech: Presente e Futuro do .NET – Hipsters 26"
-    link: https://www.hipsters.tech/passado-e-futuro-do-net-hipsters-26/
-  - type: ARTICLE
-    title: "Como separar palavras em String com C#"
-    link: https://www.alura.com.br/artigos/como-separar-palavras-em-string-com-c
-  - type: ARTICLE
-    title: "Lidando com data e hora C#"
-    link: https://www.alura.com.br/artigos/lidando-com-data-e-hora-c
-  - type: ARTICLE
-    title: "C#: entendendo classes e structs"
-    link: https://www.alura.com.br/artigos/c-sharp-entendendo-classes-e-structs
-  - type: SITE
-    title: "Apostila: C# e Orientação a Objetos"
-    link: https://www.alura.com.br/apostila-csharp-orientacao-objetos
-  - type: YOUTUBE
-    title: "Alura: O que é o C#?"
-    link: https://www.youtube.com/watch?v=0JWMVc1CqpA
-  - type: YOUTUBE
-    title: "Alura: Saiba tudo sobre uma das linguagens de programação mais populares do mundo"
-    link: https://www.youtube.com/watch?v=eUl0mWTnL_A
   - type: COURSE
-    title: "Formação C# e Orientação a Objetos"
-    link: https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos
+    title: "Formación C# y Orientación a Objetos"
+    link: https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos
   - type: COURSE
     title: "Curso C#: conociendo el lenguaje"
     link: https://app.aluracursos.com/course/csharp-conociendo-el-lenguaje
   - type: COURSE
     title: "Curso C#: array y tipos genéricos"
     link: https://app.aluracursos.com/course/csharp-array-tipos-genericos
-  - type: CHALLENGE
   - type: COURSE
     title: "Curso C#: strings, expresiones regulares y clase Object"
     link: https://app.aluracursos.com/course/csharp-strings-expresiones-regulares-clase-object
-  - type: CHALLENGE
-    title: "7 Days of Code: C#"
-    link: https://7daysofcode.io/matricula/csharp
-  - type: CHALLENGE
-    title: "7 Days of Code: Windows Forms C#"
-    link: https://7daysofcode.io/matricula/windows-forms
+

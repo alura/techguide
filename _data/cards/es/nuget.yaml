@@ -8,18 +8,18 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Microsoft Docs: Uma introdução ao NuGet"
-    link: https://docs.microsoft.com/pt-br/nuget/what-is-nuget
-  - type: ARTICLE
-    title: "Criando pacotes NuGet"
-    link: https://alexalvess.medium.com/criando-pacotes-nuget-ec04dc6425a3
-  - type: YOUTUBE
-    title: "Milton Sampaio - Programação: Nuget e pacotes .Net"
-    link: https://www.youtube.com/watch?v=6GYcRJbOJYk
-alura-contents:
+    title: "Una introducción a NuGet"
+    link: https://learn.microsoft.com/es-es/nuget/what-is-nuget
   - type: SITE
-    title: "Primeiras aulas do curso C# parte 5: bibliotecas DLLs, documentação e usando o NuGet"
-    link: https://www.alura.com.br/conteudo/csharp-biblioteca-dll-documentacao-nuget
+    title: "Inicio rápido: Creación y publicación de un paquete NuGet con Visual Studio (solo Windows)"
+    link: https://learn.microsoft.com/es-es/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli
+  - type: SITE
+    title: "Administre bibliotecas de proyectos con NuGet"
+    link: https://learn.microsoft.com/es-es/archive/msdn-magazine/2011/november/nuget-manage-project-libraries-with-nuget
+  - type: YOUTUBE
+    title: "¿Cómo publicar un paquete en NuGet?"
+    link: https://www.youtube.com/watch?v=NrgZUkloois
+alura-contents:
   - type: COURSE
-    title: "Curso C# parte 5: bibliotecas DLLs, documentação e usando o NuGet"
-    link: https://www.alura.com.br/curso-online-csharp-biblioteca-dll-documentacao-nuget
+    title: "Curso C#: bibliotecas DLL, documentación y uso de NuGet"
+    link: https://www.aluracursos.com/curso-online-csharp-bibliotecas-dll-documentacion-nuget
