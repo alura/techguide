@@ -8,28 +8,32 @@ key-objectives:
   - Gestionar archivos con el uso de Using
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "System.IO Espacio de nombres"
+    link: https://learn.microsoft.com/es-es/dotnet/api/system.io?view=net-6.0
+  - type: SITE
+    title: "E/S de archivos y secuencias"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/io/
   - type: ARTICLE
-    title: "Trabalhando com a biblioteca System.IO no C#"
-    link: http://luisfelipetorres.com.br/2017/11/02/trabalhando-com-a-biblioteca-system-io-no-c/
-  - type: SITE
-    title: "Microsoft Docs: System.IO Namespace"
-    link: https://docs.microsoft.com/pt-br/dotnet/api/system.io?view=net-6.0
-  - type: SITE
-    title: "Microsoft Docs: E/S de arquivo e de fluxo"
-    link: https://docs.microsoft.com/pt-br/dotnet/standard/io/
+    title: "Manejo de archivos en C#."
+    link: https://www.clasesdeinformaticaweb.com/csharp/manejo-de-archivos-en-c/
+  - type: ARTICLE
+    title: "Escribir un fichero de texto con C#"
+    link: https://www.discoduroderoer.es/escribir-un-fichero-de-texto-con-c-sharp/
   - type: YOUTUBE
-    title: "Código Logo: C# Tutorial de IO 1 - Introdução"
-    link: https://www.youtube.com/watch?v=LYTZXQpy3RY
+    title: "Crear, leer y escribir un archivo de texto"
+    link: https://www.youtube.com/watch?v=iSoixuj5wB8&ab_channel=CodingconC
   - type: YOUTUBE
-    title: "Código Logo: C# Tutorial de IO 15 - Como Copiar Arquivo usando o FileStream"
-    link: https://www.youtube.com/watch?v=f9OOnzV6vlE
+    title: "Cuatro formas de usar la palabra clave USING en C#"
+    link: https://www.youtube.com/watch?v=69WSdXnvZCA&ab_channel=ConsejosC%23
+  - type: YOUTUBE
+    title: "Cómo leer archivos en .NET con C# - Cómo crear directorios y trabajar con archivos en .NET"
+    link: https://www.youtube.com/watch?v=kTOoS5jQZdk&ab_channel=TheCoderCaveesp
+  - type: YOUTUBE
+    title: "Cómo eliminar archivos desde C#"
+    link: https://www.youtube.com/watch?v=8P-4BBgZI3I&ab_channel=CodingconC
 alura-contents:
-  - type: SITE
-    title: "Apostila: C# e Orientação a Objetos - System.IO"
-    link: https://www.alura.com.br/apostila-csharp-orientacao-objetos/system-io
-  - type: SITE
-    title: "Primeiras aulas do curso C# Parte 9: entrada e saída (I/O) com streams"
-    link: https://www.alura.com.br/conteudo/csharp-io
   - type: COURSE
-    title: "Curso C# Parte 9: entrada e saída (I/O) com streams"
-    link: https://cursos.alura.com.br/course/csharp-io
+    title: ""
+    link: 
+

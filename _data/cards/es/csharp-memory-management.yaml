@@ -9,12 +9,15 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Microsoft Docs: Gerenciamento automático de memória"
-    link: https://docs.microsoft.com/pt-br/dotnet/standard/automatic-memory-management
+    title: "Gestión de Memoria Automática"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/automatic-memory-management
+  - type: SITE
+    title: "Administración de memoria y recolección de elementos no utilizados (GC) en ASP.NET Core "
+    link: https://learn.microsoft.com/es-es/aspnet/core/performance/memory?view=aspnetcore-7.0
   - type: ARTICLE
-    title: "Gerenciamento de memória — C#"
-    link: https://medium.com/@mateusgoncalvesgeracino/gerenciamento-de-mem%C3%B3ria-c-bcb5f2c89464
+    title: "La Pila (The Stack) y el Montículo (The Heap) en C# .NET"
+    link: https://joffremoncayo.com/blog/la-pila-the-stack-y-el-monticulo-the-heap-en-csharp-dot-net/
   - type: YOUTUBE
-    title: "Dias de Dev: Gerenciamento de memória - Stack vs Heap"
-    link: https://www.youtube.com/watch?v=7kJwVQGJCbw
+    title: "El recolector de basura o garbage collector (GC)"
+    link: https://www.youtube.com/watch?v=URap94jL0wo&ab_channel=GerardoPortillo%28GJParts%29
 alura-contents: 

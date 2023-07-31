@@ -9,27 +9,28 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Microsoft Docs: Entity Framework Core"
-    link: https://docs.microsoft.com/pt-br/ef/core/
-  - type: ARTICLE
-    title: "Série: Entity Framework. Introdução"
-    link: https://medium.com/@alexandre.malavasi/s%C3%A9rie-entity-framework-introdu%C3%A7%C3%A3o-parte-1-13ab52b0bdaf
-  - type: YOUTUBE
-    title: "ProgrAmada Mente: Introdução ao Entity Framework Core"
-    link: https://www.youtube.com/watch?v=OIsM0LklYH0
-  - type: YOUTUBE
-    title: "A Escola de Software: O que é Entity Framework Core?"
-    link: https://www.youtube.com/watch?v=ZaVyLFTDuIQ
-alura-contents:
+    title: "Entity Framework Core"
+    link: https://learn.microsoft.com/es-es/ef/core/
   - type: SITE
-    title: "Primeiras aulas do curso Entity Framework Core: banco de dados de forma eficiente"
-    link: https://www.alura.com.br/conteudo/entity-framework-core
-  - type: COURSE
-    title: "Curso Entity Framework Core: banco de dados de forma eficiente"
-    link: https://www.alura.com.br/curso-online-entity-framework-core
-  - type: COURSE
-    title: "Curso Entity Framework Core parte 1: mapeando um banco pré-existente"
-    link: https://www.alura.com.br/curso-online-entity-framework-core-banco-pre-existente-parte1
-  - type: COURSE
-    title: "Curso Entity Framework Core parte 2: mapeando um banco pré-existente"
-    link: https://www.alura.com.br/curso-online-entity-framework-core-banco-pre-existente-parte2
+    title: "Administración de esquemas de base de datos"
+    link: https://learn.microsoft.com/es-es/ef/core/managing-schemas/
+  - type: SITE
+    title: "Consulta de datos"
+    link: https://learn.microsoft.com/es-es/ef/core/querying/
+  - type: ARTICLE
+    title: "Introducción completa a Entity Framework Core"
+    link: https://estradawebgroup.com/Post/Introduccion-completa-a-Entity-Framework-Core-Simplifica-la-interaccion-con-bases-de-datos-en-tus-proyectos-ASP-NET-Core/20702#top
+  - type: YOUTUBE
+    title: "Como hacer un modelo de datos con Base de Datos SQL Server en ASP.NET Core 3.1 Visual Studio 2019"
+    link: https://www.youtube.com/watch?v=FSKgwTpYf-I&ab_channel=AguilarSystemsMX
+  - type: YOUTUBE
+    title: "¿Cómo utilizar Entity Framework con 2 o más bases de datos distintas?"
+    link: https://www.youtube.com/watch?v=rWgMMTP9GZ0&ab_channel=hdeleon.net
+  - type: YOUTUBE
+    title: "Entity Framework: Consultas Tipo SQL"
+    link: https://www.youtube.com/watch?v=ry_pCvkkIiI&ab_channel=CodeStack
+  - type: YOUTUBE
+    title: "Entity Framework: Consultas con ADO.Net"
+    link: https://www.youtube.com/watch?v=erEe2NoAH1U&ab_channel=CodeStack
+
+alura-contents:

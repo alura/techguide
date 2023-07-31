@@ -15,9 +15,9 @@ contents:
   - type: SITE
     title: "Tutorial: Desarrollo controlado por pruebas con el Explorador de pruebas"
     link: https://learn.microsoft.com/es-es/visualstudio/test/quick-start-test-driven-development-with-test-explorer?view=vs-2022
-  - type: SITE
-    title: ""
-    link: 
+  - type: ARTICLE
+    title: "¿Qué es la prueba de software?"
+    link: https://www.ibm.com/es-es/topics/software-testing
   - type: ARTICLE
     title: "Pruebas unitarias con C#"
     link: https://aspnetcoremaster.com/dotnet/2019/06/13/pruebas-unitarias-csharp.html
@@ -28,8 +28,12 @@ contents:
     title: "BDD Testing. ¿Cómo funciona el Behavior Driven Development?"
     link: https://www.hiberus.com/crecemos-contigo/bdd-behavior-driven-developement/
   - type: ARTICLE
-    title: ""
-    link: 
+    title: "3 Ejemplos de TDD en .NET C#"
+    link: https://arbems.com/3-ejemplos-practicos-de-tdd-en-csharp-net/
+  - type: ARTICLE
+    title: "BDD Testing. ¿Cómo funciona el Behavior Driven Development?"
+    link: https://www.hiberus.com/crecemos-contigo/bdd-behavior-driven-developement/
+
   - type: YOUTUBE
     title: "Introducción a pruebas unitarias en C# .Net | Unit Testing"
     link: https://www.youtube.com/watch?v=IcPqONZEKAo
@@ -46,17 +50,6 @@ contents:
     title: "Tests de integración con C# y Docker - Con ejemplo práctico"
     link: https://www.youtube.com/watch?v=sFRjgnPEEzg
   - type: YOUTUBE
-    title: ""
-    link: 
-
+    title: "Cómo hacer pruebas automatizadas con Selenium y Visual Studio C# "
+    link: https://www.youtube.com/watch?v=ZkHAhtUQOws&ab_channel=PACOMARROQUIN
 alura-contents:
-  - type: ARTICLE
-    title: ""
-    link: 
-  - type: ARTICLE
-    title: ""
-    link: 
-  - type: ARTICLE
-    title: ""
-    link: 
-

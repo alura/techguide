@@ -9,30 +9,43 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Microsoft Docs: Coleções (C#)"
-    link: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/collections
-  - type: ARTICLE
-    title: "Collections"
-    link: https://wilsonsantosnet.medium.com/collections-76363e18ab41
-  - type: ARTICLE
-    title: "Um pouco sobre estruturas de dados em C#"
-    link: https://guih2127.medium.com/um-pouco-sobre-estruturas-de-dados-em-c-e4371fe651d8
-  - type: YOUTUBE
-    title: "Andre Constantino: Coleções na linguagem C#"
-    link: https://www.youtube.com/watch?v=9hJ_V61NKG8
-  - type: YOUTUBE
-    title: "Cléber dos Santos: C# trabalhando com Coleções"
-    link: https://www.youtube.com/watch?v=SR4-_gWRlLU
-alura-contents:
-  - type: ARTICLE
-    title: "Listas em C#"
-    link: https://www.alura.com.br/artigos/listas-em-csharp
+    title: "Colecciones (C#)"
+    link:https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections
   - type: SITE
-    title: "Apostila: C# e Orientação a Objetos - Facilitando o trabalho com coleções através das listas"
-    link: https://www.alura.com.br/apostila-csharp-orientacao-objetos/trabalhando-com-listas#facilitando-o-trabalho-com-colecoes-atraves-das-listas
+    title: "Tipos de colección utilizados normalmente"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/collections/commonly-used-collection-types
+  - type: SITE
+    title: "Iterators"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/iterators
+  - type: ARTICLE
+    title: "3 maneras diferentes de recorrer una lista en C#"
+    link: https://www.arungudelli.com/es/csharp-tips/loop-through-c-sharp-list/
+  - type: ARTICLE
+    title: "Estructuras de datos en .NET con C#"
+    link: https://www.genesisrrios.com/es/blog/estructuras-de-datos-en-csharp/
+  - type: ARTICLE
+    title: "Colecciones en C#, ¿cuál elegir?"
+    link: https://thatcsharpguy.com/post/colecciones-en-c-cual-elegir
+  - type: ARTICLE
+    title: "Lists / Listas"
+    link: https://csharp.net-tutorials.com/es/389/collections-colecciones/lists-listas/
+  - type: YOUTUBE
+    title: "Colecciones en C# en detalle"
+    link: https://www.youtube.com/watch?v=ViZSfqq6Cyo
+  - type: YOUTUBE
+    title: "Tutorial C# nivel Avanzado 5 - HashTable I"
+    link: https://www.youtube.com/watch?v=fFXHDib-x_0
+  - type: YOUTUBE
+    title: "List y ArrayList C#"
+    link: https://www.youtube.com/watch?v=k431eUiMRXA&t=374s
+  - type: YOUTUBE
+    title: "Tutorial C# nivel Avanzado 8 - SortedList"
+    link: https://www.youtube.com/watch?v=3VsCtkfQMPI
+  - type: YOUTUBE
+    title: "Tabla de Hash: Qué es y cómo funcionan"
+    link: https://www.youtube.com/watch?v=9tZsDJ3JBUA
+alura-contents:
   - type: COURSE
-    title: "Curso C# Collections parte 1: Listas, arrays, listas ligadas, dicionários e conjuntos"
-    link: https://cursos.alura.com.br/course/csharp-collections
-  - type: COURSE
-    title: "Curso C# Collections parte 2: Coleções ordenadas, arrays multidimensionais e LINQ"
-    link: https://cursos.alura.com.br/course/csharp-collections-parte-2
+    title: ""
+    link:
+
