@@ -17,13 +17,28 @@ contents:
   - type: YOUTUBE
     title: "4 Principios de la Programación Orientada a Objetos"
     link: https://www.youtube.com/watch?v=Uk1C1NARZjU
-alura-contents:
+  - type: YOUTUBE
+    title: ""
+    link:     
   - type: ARTICLE
-    title: "POO: ¿Qué es la programación orientada a objetos?"
-    link: https://www.aluracursos.com/blog/poo-que-es-la-programacion-orientada-a-objetos
+    title: "Introducción a POO con JavaScript ES6"
+    link: https://medium.com/academia-hack/introducci%C3%B3n-a-poo-con-javascript-es6-80074fde0cdf
+  - type: ARTICLE
+    title: ""
+    link: 
+  - type: SITE
+    title: "Introducción a los objetos JavaScript"
+    link: https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects
+  - type: SITE
+    title: ""
+    link: 
+alura-contents:
   - type: YOUTUBE
     title: "Alura Latam: ¿Qué es la Programación Orientada a Objetos?"
     link: https://www.youtube.com/watch?v=Oigen2sjagk
+  - type: ARTICLE
+    title: "POO: ¿Qué es la programación orientada a objetos?"
+    link: https://www.aluracursos.com/blog/poo-que-es-la-programacion-orientada-a-objetos
   - type: ARTICLE
     title: "Revisando la Orientación a Objetos: encapsulación de Java"
     link: https://www.aluracursos.com/blog/revisando-la-orientacion-a-objetos-encapsulacion-de-java  
@@ -33,12 +48,30 @@ alura-contents:
   - type: ARTICLE
     title: "Interfaces Gráficas con Eclipse WindowBuilder"
     link: https://www.aluracursos.com/blog/interfaces-graficas-con-eclipse-windowbuilder
-  - type: COURSE
-    title: "Java Polimorfismo: Entendiendo herencia e interfaces"
-    link: https://app.aluracursos.com/course/java-parte-3-entendiendo-herencia-interfaces
   - type: ARTICLE
     title: "Cómo no aprender Java y Orientación a Objetos: getters y setters"
     link: https://www.aluracursos.com/blog/como-no-aprender-java-y-orientacion-a-objetos-getters-y-setters
   - type: COURSE
     title: "Formación Java Orientado a Objetos"
     link: https://app.aluracursos.com/formacion-javaoo
+  - type: COURSE
+    title: "JavaScript: Introducción a la Orientación a Objetos"
+    link: https://app.aluracursos.com/course/javascript-introduccion-orientacion-objetos    
+  - type: COURSE
+    title: "JavaScript: Herencia e Interfaces en Orientación a Objetos"
+    link: https://app.aluracursos.com/course/javascript-herencia-interfaces-orientacion-objetos
+  - type: COURSE
+    title: "C# y Orientación a Objetos"
+    link: https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos     
+  - type: COURSE
+    title: "Python: comprensión de la Orientación a Objetos"
+    link: https://app.aluracursos.com/course/python-comprension-orientacion-objetos    
+  - type: COURSE
+    title: "Python: avanzando en la orientación a objetos"
+    link: https://app.aluracursos.com/course/python-avanzando-orientacion-objetos    
+  - type: COURSE
+    title: "Java Polimorfismo: Entendiendo herencia e interfaces"
+    link: https://app.aluracursos.com/course/java-parte-3-entendiendo-herencia-interfaces
+  - type: COURSE
+    title: ""
+    link:     

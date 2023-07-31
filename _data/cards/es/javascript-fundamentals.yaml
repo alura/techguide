@@ -35,7 +35,7 @@ contents:
     title: "MDN Web Docs: Expresiones y operadores"
     link: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_operators
   - type: SITE
-    title: "MDN Web Docs: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array"
+    title: "MDN Web Docs: Array"
     link: https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array
   - type: SITE
     title: "MDN Web Docs: IF y Else"
@@ -46,6 +46,7 @@ contents:
   - type: SITE
     title: "MDN Web Docs: Primeros pasos en JavaScript"
     link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash
+alura-contents:
   - type: ARTICLE
     title: "Roadmap para principiantes en JavaScript:"
     link: https://www.aluracursos.com/blog/roadmap-js
@@ -106,7 +107,9 @@ contents:
   - type: YOUTUBE
     title: "Frameworks de Front End"
     link: https://www.youtube.com/watch?v=UNeKzI2WHgQ&ab_channel=AluraLatam
-alura-contents:
+  - type: YOUTUBE
+    title: "Bucles y Bucles Anidados en Javascript"
+    link: https://youtu.be/FEdqGdtZuwc
   - type: COURSE
     title: "JavaScript: primeros pasos con el lenguaje"
     link: https://app.aluracursos.com/course/javascript-primeros-pasos-lenguaje
