@@ -1,27 +1,30 @@
-name: JavaScript - Concorrência
+name: JavaScript - Concurrencia
 logo: 
 short-description:
 key-objectives:
-  - Programação concorrente é um paradigma de programação para a construção de programas que fazem uso da execução simultânea de várias tarefas computacionais interativas, que podem ser implementadas como programas separados ou como um conjunto de threads criadas por um único programa.
-  - Executar tarefas paralelamente
+  - La programación concurrente es un paradigma de programación para construir programas que utilizan la ejecución simultánea de varias tareas computacionales interactivas, que pueden ser implementadas como programas separados o como un conjunto de hilos creados por un único programa
+  - Ejecutar tareas en paralelo
 aditional-objectives:
 contents:
   - type: SITE
-    title: "MDN Web Docs: Thread (inglês)"
-    link: https://developer.mozilla.org/en-US/docs/Glossary/Thread
+    title: "Hilo principal"
+    link: https://developer.mozilla.org/es/docs/Glossary/Main_thread
   - type: ARTICLE
-    title: "Multithreading using Javascript (inglês)"
-    link: https://medium.com/@sarthakvit/multithreading-using-javascript-cf9ad7cf9cfe
+    title: "Programación multihilos (threads) en Javascript"
+    link: https://purojavascript.com/programacion-multihilos-threads-en-javascript/
   - type: ARTICLE
-    title: "Multithreading Javascript (inglês)"
-    link: https://medium.com/techtrument/multithreading-javascript-46156179cf9a
+    title: "Multithreading con Javascript: Web Workers."
+    link: https://blog.apside.cl/multithreading-con-javascript-web-workers/
+  - type: ARTICLE
+    title: "Introducción de Paralelo y Concurrente a la Programación en Python"
+    link: https://code.tutsplus.com/es/introduction-to-parallel-and-concurrent-programming-in-python--cms-28612a
   - type: YOUTUBE
-    title: "DevPleno: Mono ou multi thread? POO para JS"
-    link: https://www.youtube.com/watch?v=iGV8gjzx3to
+    title: "Hilos (Threads) en Java"
+    link: https://youtu.be/fiLrTdSKVcE
   - type: YOUTUBE
-    title: "Canal dotNET: Desenvolvimento Multithread em Aplicações JavaScript"
-    link: https://www.youtube.com/watch?v=jroozZAWeTg
+    title: "Paralelismo con JavaScript | WebWorkers, multi-hilo. "
+    link: https://youtu.be/lVd8K_ntKKk
+  - type: YOUTUBE
+    title: "Concurrencia vs. Paralelismo"
+    link: https://youtu.be/kMr3mF71Kp4
 alura-contents:
-  - type: ARTICLE
-    title: "Concorrência ou paralelismo: Threads, Processes, Fibers e Actors"
-    link: https://www.alura.com.br/artigos/concorrencia-ou-paralelismo-threads-processes-fibers-e-actors

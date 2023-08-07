@@ -14,24 +14,18 @@ key-objectives:
 - Qué son las abstracciones
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "Introducción a los objetos JavaScript"
+    link: https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects
+  - type: ARTICLE
+    title: "Introducción a POO con JavaScript ES6"
+    link: https://medium.com/academia-hack/introducci%C3%B3n-a-poo-con-javascript-es6-80074fde0cdf
   - type: YOUTUBE
     title: "4 Principios de la Programación Orientada a Objetos"
     link: https://www.youtube.com/watch?v=Uk1C1NARZjU
   - type: YOUTUBE
-    title: ""
-    link:     
-  - type: ARTICLE
-    title: "Introducción a POO con JavaScript ES6"
-    link: https://medium.com/academia-hack/introducci%C3%B3n-a-poo-con-javascript-es6-80074fde0cdf
-  - type: ARTICLE
-    title: ""
-    link: 
-  - type: SITE
-    title: "Introducción a los objetos JavaScript"
-    link: https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects
-  - type: SITE
-    title: ""
-    link: 
+    title: "Mini Curso: POO con PHP (básico)"
+    link: https://youtu.be/Ben_VC2rm10   
 alura-contents:
   - type: YOUTUBE
     title: "Alura Latam: ¿Qué es la Programación Orientada a Objetos?"
@@ -72,6 +66,4 @@ alura-contents:
   - type: COURSE
     title: "Java Polimorfismo: Entendiendo herencia e interfaces"
     link: https://app.aluracursos.com/course/java-parte-3-entendiendo-herencia-interfaces
-  - type: COURSE
-    title: ""
-    link:     
+   

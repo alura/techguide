@@ -3,12 +3,15 @@ logo:
 short-description:
 key-objectives:
   - Javascript es el lenguaje de programación más popular del mundo y es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. Tiene escritura dinámica, orientación a objetos basada en prototipos y funciones de primera clase. Es un paradigma múltiple que admite estilos de programación imperativos, funcionales e impulsados por eventos.
+  - Conocer los tipos primitivos
   - Declarar variables, considerando la diferencia entre 'var', 'let' y 'const
   - Uso de estructuras condicionales ('if', 'else')
   - Conocer los operadores de asignación y comparación ('=', '==', '===')
   - Uso de estructuras de repetición y bucles ('while', 'for')
   - Usar funciones, pasar parámetros y argumentos
   - Manipulación de arreglos y listas
+  - Aprender el concepto de Orientación a Objetos
+  - Realizar un CRUD
   - Obtener datos de una API
   - Hacer llamadas asincrónicas usando 'Async/Await', 'Promise', etc.
 aditional-objectives:
@@ -110,6 +113,9 @@ alura-contents:
   - type: YOUTUBE
     title: "Bucles y Bucles Anidados en Javascript"
     link: https://youtu.be/FEdqGdtZuwc
+  - type: YOUTUBE
+    title: "De la Creación al Borrado: Descubre el Poder del CRUD en el Desarrollo de Aplicaciones"
+    link: https://youtu.be/jr_98HCSTZc
   - type: COURSE
     title: "JavaScript: primeros pasos con el lenguaje"
     link: https://app.aluracursos.com/course/javascript-primeros-pasos-lenguaje

@@ -1,37 +1,40 @@
-name: JavaScript - Armazenamento
+name: JavaScript - Almacenamiento
 logo: 
 short-description:
 key-objectives:
-  - Armazenar dados no front-end com localStorage
-  - Manipular dados armazenados
-  - Persistir dados armazenados
+  - Almacenar datos en el front-end con localStorage
+  - Manipular datos almacenados
+  - Persistir datos almacenados
 aditional-objectives:
 contents:
   - type: SITE
-    title: "MDN Web Docs: Armazenamento do lado do cliente"
-    link: https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
+    title: "Almacenamiento del lado cliente"
+    link: https://developer.mozilla.org/es/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
   - type: SITE
-    title: "MDN Web Docs: Usando a API Web Storage"
-    link: https://developer.mozilla.org/pt-BR/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
+    title: "Usando la API de almacenamiento web"
+    link: https://developer.mozilla.org/es/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API
   - type: ARTICLE
-    title: "Armazenando e manipulando dados no localstorage"
-    link: https://medium.com/@lameckanao/armazenando-e-manipulando-dados-no-localstorage-7bcc901ba12b
+    title: "Almacenamiento en el navegador con JavaScript y localStorage"
+    link: https://parzibyte.me/blog/2019/03/16/almacenamiento-en-navegador-javascript-localstorage/
   - type: ARTICLE
-    title: "Funcionalidades do Local Storage"
-    link: https://medium.com/jaguaribetech/dlskaddaldkslkdlskdlk-333dae8ef9b8
+    title: "Almacenamiento local en JavaScript"
+    link: https://manuais.iessanclemente.net/index.php/Almacenamiento_local_en_JavaScript
+  - type: ARTICLE
+    title: "Almacenamiento local"
+    link: https://ng-girls.gitbook.io/todo-list-tutorial-spanish/local_storage
+  - type: ARTICLE
+    title: "LocalStorage, sessionStorage"
+    link: https://es.javascript.info/localstorage
+  - type: ARTICLE
+    title: "Persistencia de Datos en Javascript (LocalStorage)"
+    link: https://dev.to/maxwellnewage/persistencia-de-datos-en-javascript-localstorage-419m
   - type: YOUTUBE
-    title: "Fabiano Gabardo Lemos: Armazenando dados do formulário em LocalStorage"
-    link: https://www.youtube.com/watch?v=i04nMOowrII
+    title: "Qué es LocalStorage y cómo utilizarlo en ejemplo práctico"
+    link: https://youtu.be/xzNqwjvHsYg
   - type: YOUTUBE
-    title: "Roger Melo: Como armazenar e persistir dados no front-end com o localStorage"
-    link: https://www.youtube.com/watch?v=hNTozXl-qJA
-  - type: YOUTUBE
-    title: "Luis Tavares: Como armazenar vários dados (array) no localStorage"
-    link: https://www.youtube.com/watch?v=YlAs11EiIJc
+    title: "Guardar y obtener la lista del local storage"
+    link: https://youtu.be/XUHYQEJhVzs
 alura-contents:
-  - type: SITE
-    title: "Primeiras aulas do curso JavaScript na Web: armazenando dados no navegador"
-    link: https://www.alura.com.br/conteudo/javascript-web-armazenando-dados-navegador--amp
   - type: COURSE
-    title: "Curso JavaScript na Web: armazenando dados no navegador"
-    link: https://www.alura.com.br/curso-online-javascript-web-armazenando-dados-navegador
+    title: "JS en la Web: Almacenando datos en el navegador"
+    link: https://app.aluracursos.com/course/js-web-almacenando-datos-navegador

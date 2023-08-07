@@ -9,6 +9,9 @@ key-objectives:
   - Usar mocks
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "Testing (Pruebas) en Javascript"
+    link: https://john-florez.gitbook.io/reactjs-book/testing-pruebas-en-javascript
   - type: ARTICLE
     title: "¿Qué es la prueba unitaria?"
     link: https://www.nimblework.com/es/agile/pruebas-unitarias/
@@ -21,12 +24,9 @@ contents:
   - type: ARTICLE
     title: "Angular Unit Testing"
     link: https://medium.com/@vito1986/angular-unit-testing-8a1479079f84
- - type: ARTICLE
+  - type: ARTICLE
     title: "Cómo usar Testing en Angular con Jasmine y Karma"
     link: https://digital55.com/blog/como-usar-testing-angular-jasmine-karma/
-  - type: SITE
-    title: "Testing (Pruebas) en Javascript"
-    link: https://john-florez.gitbook.io/reactjs-book/testing-pruebas-en-javascript
   - type: YOUTUBE
     title: "Introducción a TDD"
     link: https://youtu.be/eFED4VIjwwk
@@ -36,10 +36,14 @@ contents:
   - type: YOUTUBE
     title: "Pruebas unitarias con Angular 12"
     link: https://youtu.be/tiIqfNVvsHc
+  - type: YOUTUBE
+    title: "Introducción a la Automatización de Pruebas de Software"
+    link: https://youtu.be/R_hh3jAqn8M
+  - type: YOUTUBE
+    title: "Tipos y Niveles de Pruebas de Software."
+    link: https://youtu.be/hSxXuRxA9mo
+  - type: YOUTUBE
+    title: "Objetivos de la Automatización de pruebas | ISTQB TAE"
+    link: https://youtu.be/_nwkhYhbN6Y
 alura-contents:
-  - type: YOUTUBE
-    title: "Alura: Curso de Jasmine: Testes automatizados em JavaScript"
-    link: https://www.youtube.com/watch?v=u9dD93mj9U4
-  - type: YOUTUBE
-    title: "Alura: Testes em Javascript - Alura Live 50"
-    link: https://www.youtube.com/watch?v=HgKRC14Ab5c
+

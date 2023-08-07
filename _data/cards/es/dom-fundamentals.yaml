@@ -1,4 +1,4 @@
-name: DOM - Fundamentals
+name: DOM - Fundamentos
 logo: 
 short-description:
 key-objectives:
@@ -47,9 +47,6 @@ contents:
   - type: ARTICLE
     title: "The DOM of Javascript"
     link: https://javascript.plainenglish.io/the-dom-of-javascript-848506ebf386
-  - type: ARTICLE
-    title: "Qué es DOM?"
-    link: https://www.aluracursos.com/blog/que-es-dom
   - type: YOUTUBE
     title: "DOM JavaScript "
     link: https://www.youtube.com/watch?v=8u4Xef5YtFE&ab_channel=Bluuweb
@@ -57,6 +54,9 @@ contents:
     title: "Javascript manipulacion del DOM "
     link: https://www.youtube.com/watch?v=iaLiOXXR8eI&list=PLg9145ptuAijiWx4ixGBCZB0kh6YEeNqf&ab_channel=yacklyon
 alura-contents:
+  - type: ARTICLE
+    title: "Qué es DOM?"
+    link: https://www.aluracursos.com/blog/que-es-dom
   - type: COURSE
     title: "JS en la Web: Manipulación del DOM con JavaScript"
     link: https://app.aluracursos.com/course/js-web-manipulacion-dom-javascript
