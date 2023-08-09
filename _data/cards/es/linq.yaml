@@ -2,44 +2,38 @@ name: LINQ
 logo: 
 short-description:
 key-objectives:
-  - O LINQ (Language-Integrated Query) é o nome de um conjunto de tecnologias com base na integração de recursos de consulta diretamente na linguagem C#.
-  - Criar consultas
-  - Conhecer as cláusulas Select e Where
-  - Consultar coleções de objetos em memória
-  - Mapear o banco de dados com Linq to Sql
+  - LINQ (Language-Integrated Query) es el nombre de un conjunto de tecnologías basado en la integración de recursos de consulta directamente en el lenguaje C#.
+  - Crear consultas
+  - Conocer las cláusulas Select y Where
+  - Consultar colecciones de objetos en memoria
+  - Mapear la base de datos con LINQ to Sql
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Microsoft Docs: LINQ (Consulta Integrada à Linguagem) (C#)"
-    link: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/
+    title: "Introducción a las consultas LINQ (C#)"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries
   - type: SITE
-    title: "Microsoft Docs: Introdução a consultas LINQ (C#)"
-    link: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries
+    title: "Qué puede hacer con LINQ to SQL"
+    link: https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/sql/linq/what-you-can-do-with-linq-to-sql
+  - type: SITE
+    title: "Procedimiento para rellenar colecciones de objetos de varios orígenes (LINQ) (C#)"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/linq/how-to-populate-object-collections-from-multiple-sources-linq
+  - type: SITE
+    title: "Tutorial: Usar solo procedimientos almacenados (C#)"
+    link: https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/sql/linq/walkthrough-using-only-stored-procedures-csharp
   - type: ARTICLE
-    title: "LINQ: Menos esforço, mais dados"
-    link: https://lucas-eschechola.medium.com/linq-menos-esfor%C3%A7o-mais-dados-7354640afba1
+    title: "LINQ TO SQL, CONEXIÓN A BASES DE DATOS"
+    link: https://www.attomogroup.com/linq-to-sql-conexion-a-bases-de-datos/
   - type: YOUTUBE
-    title: "Willian Menezes: C# - Introdução ao LINQ"
-    link: https://www.youtube.com/watch?v=ja1nORsswSU
+    title: "Consultas Linq en Query Syntax y Method Syntax en .net con c#"
+    link: https://www.youtube.com/watch?app=desktop&v=bGborT4e1Fc
   - type: YOUTUBE
-    title: "Willian Menezes: C# - LINQ - Criando a primeira consulta"
-    link: https://www.youtube.com/watch?v=gC4A54H-EdQ
+    title: "5 Métodos poco conocidos de LINQ en C# .Net"
+    link: https://www.youtube.com/watch?v=jhEXqwG0xM8
   - type: YOUTUBE
-    title: "André Secco: Recursos do C# - LINQ"
-    link: https://www.youtube.com/watch?v=z7SsqZEDKts
+    title: "Uso de LINQPad para Ejecución de Expresiones C#"
+    link: https://www.youtube.com/watch?v=g5NZhspKfy8
 alura-contents:
   - type: COURSE
-    title: "Curso C# parte 8: List, lambda, linq"
-    link: https://www.alura.com.br/curso-online-csharp-list-lambda-linq
-  - type: SITE
-    title: "Primeiras aulas do curso Entity LinQ parte 1: crie queries poderosas em C#"
-    link: https://www.alura.com.br/conteudo/linq-c-sharp
-  - type: COURSE
-    title: "Curso Entity LinQ parte 1: crie queries poderosas em C#"
-    link: https://www.alura.com.br/curso-online-linq-c-sharp
-  - type: SITE
-    title: "Primeiras aulas do curso Entity LinQ parte 2: Store Procedures e consultas com o LinQPad"
-    link: https://www.alura.com.br/conteudo/linq-c-sharp-parte-2
-  - type: COURSE
-    title: "Curso Entity LinQ parte 2: Store Procedures e consultas com o LinQPad"
-    link: https://www.alura.com.br/curso-online-linq-c-sharp-parte-2
+    title: "Curso C#: List, Lambda, Linq"
+    link: https://app.aluracursos.com/course/c-sharp-list-lambda-linq

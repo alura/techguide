@@ -2,53 +2,39 @@ name: ASP.NET Core
 logo: 
 short-description:
 key-objectives:
-  - ASP.NET Core é um framework de código aberto e multi-plataforma para a construção de aplicações baseadas na nuvem, tais como aplicações web, aplicações IoT e backends mobile.
-  - Criar aplicações e serviços Web
-  - Manter uma aplicações MVC	
-  - Desenvolver de interface do usuário da Web do lado do cliente
-  - Criar uma API Web
+  - ASP.NET Core es un framework de código abierto y multiplataforma para la construcción de aplicaciones basadas en la nube, tales como aplicaciones web, aplicaciones IoT y backends móviles.
+  - Crear aplicaciones y servicios web
+  - Mantener una aplicación MVC
+  - Desarrollar interfaz de usuario web del lado del cliente
+  - Crear una API web
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Microsoft Docs: Visão geral do ASP.NET Core"
-    link: https://docs.microsoft.com/pt-br/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0
+    title: "Información general de ASP.NET Core | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0
+  - type: SITE
+    title: "Documentación de ASP.NET | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/aspnet/core/?view=aspnetcore-7.0
+  - type: SITE
+    title: "Desarrollo de aplicaciones ASP.NET Core MVC | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/architecture/modern-web-apps-azure/develop-asp-net-core-mvc-apps
   - type: ARTICLE
-    title: "ASP.NET Core: dicas úteis para o dia a dia de um Desenvolvedor - Parte 1"
-    link: https://renatogroffe.medium.com/asp-net-core-dicas-%C3%BAteis-para-o-dia-a-dia-de-um-desenvolvedor-parte-1-fd2e4b797472
-  - type: YOUTUBE
-    title: "Glaucia Lemos: Workshop - ASP.NET Core para Iniciantes"
-    link: https://www.youtube.com/watch?v=njlmcXxSHE4
-  - type: YOUTUBE
-    title: "Teacher Mauro Duarte: C# Introdução ao Asp.Net Core MVC"
-    link: https://www.youtube.com/watch?v=lwVvrRIS7aI
-  - type: YOUTUBE
-    title: "Thiago Pelissari: .Net Framework VS .Net Core - Qual é a diferença ?"
-    link: https://www.youtube.com/watch?v=PM1JKY41wnw
-alura-contents:
-  - type: PODCAST
-    title: "Hipsters.tech: ASP.NET Core – Hipsters 108"
-    link: https://www.hipsters.tech/asp-net-core-hipsters-108/
-  - type: PODCAST
-    title: "Hipsters.tech: .NET Core no Stack Overflow – Hipsters On The Road 20"
-    link: https://www.hipsters.tech/net-core-no-stack-overflow-hipsters-on-the-road-20/
+    title: "Ventajas y desventajas de ASP.NET Core"
+    link: https://redwerk.es/blog/ventajas-y-desventajas-de-asp-net-core/
   - type: ARTICLE
-    title: "Como criar uma calculadora de IMC com ASP.NET Core Blazor"
-    link: https://www.alura.com.br/artigos/como-criar-calculadora-imc-com-asp-net-core-blazor
+    title: "Trabajando con servicios web a través de ASP.NET Core y DotVVM"
+    link: https://dev.to/dotvvm/trabajando-con-servicios-web-a-traves-de-asp-net-core-y-dotvvm-4c76
   - type: ARTICLE
-    title: "Configurando e rodando ASP.NET MVC no Mac OS"
-    link: https://www.alura.com.br/artigos/configurando-e-rodando-asp-net-mvc-no-mac-os
+    title: "Migrar desde ASP.NET .Net Core 2.x web API a .Net Core 3.1"
+    link: https://pablotolentino.medium.com/migrar-desde-asp-net-net-core-2-x-web-api-a-net-core-3-1-25ef8485f6bb
+  - type: ARTICLE
+    title: "ASP.NET Core 6: Creando una app Multi-tenant (Parte 1)"
+    link: https://dev.to/isaacojeda/asp-net-core-6-creando-una-app-multi-tenant-parte-1-3df5
   - type: YOUTUBE
-    title: "Alura: Criando sua primeira aplicação .NET Core no Linux"
-    link: https://www.youtube.com/watch?v=UZQqXPuKr1s
+    title: "Controladores en ASP NET Core MVC"
+    link: https://www.youtube.com/watch?v=HSAp0zrgpHU
   - type: YOUTUBE
-    title: "Alura: ASP NET.Core - Alura Live 32"
-    link: https://www.youtube.com/watch?v=qVddNI13AUo
-  - type: COURSE
-    title: "Curso Asp.NET Core: uma webapp usando o padrão MVC"
-    link: https://cursos.alura.com.br/course/introducao-ao-mvc-com-asp-net-core
-  - type: COURSE
-    title: "Curso ASP.NET Core parte 1: um e-Commerce com MVC e EF Core"
-    link: https://cursos.alura.com.br/course/webapp-com-aspnet-core-2
-  - type: COURSE
-    title: "Curso ASP.NET Core parte 2: um e-Commerce com MVC e EF Core"
-    link: https://cursos.alura.com.br/course/aspnet-core-2-validacoes-seguranca
+    title: "Creando proyecto de ASP.NET Core MVC en Mac OS"
+    link: https://www.youtube.com/watch?v=448jXb4TQlg
+ alura-contents:
+ 

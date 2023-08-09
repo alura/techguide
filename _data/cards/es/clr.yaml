@@ -2,22 +2,26 @@ name: CLR
 logo: 
 short-description:
 key-objectives:
-  - O Common Language Runtime (CLR) é o componente de máquina virtual da plataforma .NET da Microsoft que gerencia a execução de programas .NET.
-  - Entender como o CLR funciona
-  - Entender o gerenciamento de memória
-  - Conhecer a CIL e o JIT
+  - Common Language Runtime (CLR) es el componente de máquina virtual de la plataforma .NET de Microsoft que administra la ejecución de programas .NET.
+  - Entender cómo funciona CLR
+  - Entender la gestión de memoria
+  - Conocer la CIL y el JIT
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Microsoft Docs: Visão geral do CLR (Common Language Runtime)"
-    link: https://docs.microsoft.com/pt-br/dotnet/standard/clr
+    title: "Introducción a Common Language Runtime"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/clr
+  - type: SITE
+    title: "Ejemplos de funciones CLR de C# .NET"
+    link: https://www.ibm.com/docs/es/db2/11.5?topic=routines-example-c-net-clr-functions
+  - type: SITE
+    title: "Optimización y depuración JIT"
+    link: https://learn.microsoft.com/es-es/visualstudio/debugger/jit-optimization-and-debugging?view=vs-2022
   - type: ARTICLE
-    title: "Acervo Lima: Common Language Runtime (CLR) em C#"
-    link: https://acervolima.com/common-language-runtime-clr-em-c/
-  - type: ARTICLE
-    title: "Common Language Runtime(CLR) DotNet (inglês)"
-    link: https://medium.com/@mirzafarrukh13/common-language-runtime-dotnet-83e0218edcae
+    title: "¿Qué es el compilador Just-In-Time (JIT) en .NET?"
+    link: https://barcelonageeks.com/que-es-el-compilador-just-in-time-jit-en-net/
   - type: YOUTUBE
-    title: "Easy Technology: Overview of the Common Language Runtime CLR (inglês)"
-    link: https://www.youtube.com/watch?v=ttgqRyMPU9c
+    title: "Curso de C# 001 - ¿Qué es C#, .NET y CLR?"
+    link: https://www.youtube.com/watch?v=VWQRFyYPtgc
+
 alura-contents:

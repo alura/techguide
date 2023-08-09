@@ -1,25 +1,29 @@
-name: C# - Rede e Sockets
+name: C# - Red y Sockets
 logo: 
 short-description:
 key-objectives:
-  - O termo programação com sockets refere-se à escrita de programas que são executados em vários computadores nos quais os dispositivos estão todos conectados uns aos outros usando uma rede.
-  - Abrir uma sessão de comunicação interativa entre o navegador do usuário e um servidor
-  - Enviar mensagens para um servidor e receber respostas sem consultar o servidor
+  - El término programación con sockets se refiere a la escritura de programas que se ejecutan en varios ordenadores en los que los dispositivos están todos conectados entre sí utilizando una red.
+  - Abrir una sesión de comunicación interactiva entre el navegador del usuario y un servidor
+  - Enviar mensajes a un servidor y recibir respuestas sin consultar al servidor
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Microsoft Docs: Sockets"
-    link: https://docs.microsoft.com/pt-br/dotnet/framework/network-programming/sockets
+    title: "Sockets en .NET"
+    link: https://learn.microsoft.com/es-es/dotnet/fundamentals/networking/sockets/sockets-overview
   - type: SITE
-    title: "Microsoft Docs: Usar soquetes para enviar e receber dados por TCP"
-    link: https://docs.microsoft.com/pt-br/dotnet/framework/network-programming/how-to-create-a-socket
+    title: "Uso de sockets para enviar y recibir datos a través de TCP"
+    link: https://learn.microsoft.com/es-es/dotnet/fundamentals/networking/sockets/socket-services
+  - type: SITE
+    title: "Uso de Visual C# para crear un servidor remoto"
+    link: https://learn.microsoft.com/es-es/troubleshoot/developer/visualstudio/csharp/language-compilers/create-remote-server
+  - type: ARTICLE
+    title: "Escribiendo un servidor WebSocket en C#"
+    link: https://developer.mozilla.org/es/docs/Web/API/WebSockets_API/Writing_WebSocket_server
   - type: YOUTUBE
-    title: "Filipe Deschamps: WebSockets na prática é MUITO poderoso"
-    link: https://www.youtube.com/watch?v=bQ7NNSyGV2U
+    title: "Crear nuestra Conexión al Servidor de datos | C# Nivel Intermedio"
+    link: https://www.youtube.com/watch?v=VKe3SzeQLuc
   - type: YOUTUBE
-    title: "Eduardo Palandrani: O que é WebSocket?"
-    link: https://www.youtube.com/watch?v=YJxKYv7GLIg
+    title: "Curso de Sockets en C# - Cliente/Servidor Sincrónico [2/?]"
+    link: https://www.youtube.com/watch?v=F_cX662Dp1M
 alura-contents:
-  - type: YOUTUBE
-    title: "Alura: Entendendo WebSockets"
-    link: https://www.youtube.com/watch?v=RwUbUnPdWqs
+
