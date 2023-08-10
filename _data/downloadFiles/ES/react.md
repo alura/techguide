@@ -139,14 +139,7 @@
    - Usar métodos, palabras clave y objetos de JavaScript para manejar promesas como 'Async/Await', '.then()', 'Promise', etc.
    - Aprender en qué situaciones necesitas usar la programación asíncrona
    - Llamar a las API con 'fetch()'
-- [ ] **JavaScript - Manejo de errores**:
-   - El manejo de errores se refiere a los procedimientos de respuesta y recuperación de las condiciones de error presentes en una aplicación de software. En otras palabras, es el proceso compuesto por la anticipación, detección y resolución de errores de aplicación, programación o comunicación.
-   - Conocer y manejar las excepciones más comunes
-   - Conocer los tipos de errores y en qué situaciones se pueden producir
-   - Comprender cómo Node.js maneja los errores
-   - Usar 'try' y 'catch' para el manejo de errores
-   - Aprender en qué ocasiones y cómo usar `throw`
-   - Creación de excepciones específicas según las necesidades de su aplicación
+
 - [ ] **Babel - Fundamentos**:
    - Babel es un compilador de JavaScript. Es una cadena de herramientas que se utiliza principalmente para convertir el código ECMAScript 2015+ en una versión de JavaScript compatible con versiones anteriores en navegadores o entornos actuales y anteriores.
 ## Nivel 3

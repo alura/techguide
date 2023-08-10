@@ -78,7 +78,14 @@
    - Usar pruebas de integración
    - Usar pruebas de comportamiento (behavior)
    - Usar mocks
-
+- [ ] **JavaScript - Manejo de errores**:
+   - El manejo de errores se refiere a los procedimientos de respuesta y recuperación de las condiciones de error presentes en una aplicación de software. En otras palabras, es el proceso compuesto por la anticipación, detección y resolución de errores de aplicación, programación o comunicación.
+   - Conocer y manejar las excepciones más comunes
+   - Conocer los tipos de errores y en qué situaciones se pueden producir
+   - Comprender cómo Node.js maneja los errores
+   - Usar 'try' y 'catch' para el manejo de errores
+   - Aprender en qué ocasiones y cómo usar `throw`
+   - Creación de excepciones específicas según las necesidades de su aplicación
 - [ ] **JavaScript - ES6**:
    - Conocer las diferencias de esta versión de JavaScript
 - [ ] **JavaScript - Modularización**:
@@ -94,7 +101,10 @@
 - [ ] **Cypress**:
    - Cypress es una herramienta de prueba Front-end que permite configurar, escribir, ejecutar y depurar pruebas.
 ## Nivel 3
-
+- [ ] **Estructura de Datos**:
+   - En el contexto de los ordenadores, una estructura de datos es una forma específica de almacenar y organizar los datos en la memoria del ordenador para que esos datos puedan ser fácilmente recuperados y utilizados de forma eficiente cuando sea necesario posteriormente.
+   - Conocer las principales estructuras de datos.
+   - Implementar las principales estructuras de datos.
 - [ ] **Conceptos de Orientación a Objetos**:
    - La Programación Orientada a Objetos es un paradigma de programación de software basado en la composición e interacción entre diversas unidades llamadas 'objetos' y las clases, que contienen una identidad, propiedades y métodos. Se basa en cuatro componentes de la programación - abstracción digital, encapsulación, herencia y polimorfismo.
    - Cómo funcionan los objetos
