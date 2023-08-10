@@ -30,15 +30,18 @@
    - Grado de aprendizaje
 - [ ] **Javascript - Fundamentos**:
    - Javascript es el lenguaje de programación más popular del mundo y es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. Tiene escritura dinámica, orientación a objetos basada en prototipos y funciones de primera clase. Es un paradigma múltiple que admite estilos de programación imperativos, funcionales e impulsados por eventos.
+   - Conocer los tipos primitivos
    - Declarar variables, considerando la diferencia entre 'var', 'let' y 'const
    - Uso de estructuras condicionales ('if', 'else')
    - Conocer los operadores de asignación y comparación ('=', '==', '===')
    - Uso de estructuras de repetición y bucles ('while', 'for')
    - Usar funciones, pasar parámetros y argumentos
    - Manipulación de arreglos y listas
+   - Aprender el concepto de Orientación a Objetos
+   - Realizar un CRUD
    - Obtener datos de una API
    - Hacer llamadas asincrónicas usando 'Async/Await', 'Promise', etc.
-- [ ] **DOM - Fundamentals**:
+- [ ] **DOM - Fundamentos**:
    - El Document Object Model (DOM) es una interfaz de programación para documentos de la web. Representa la página para que los programas puedan cambiar la estructura, el estilo y el contenido del documento. El DOM representa el documento como nosotros y objetos; de esa forma, los lenguajes de programación pueden interactuar con la página.
    - Entender cómo funciona el árbol DOM
    - Accesando y manipulando elementos HTML y CSS
@@ -135,7 +138,7 @@
    - Escribir código asíncrono entendiendo el concepto de promesas en JavaScript
    - Usar métodos, palabras clave y objetos de JavaScript para manejar promesas como 'Async/Await', '.then()', 'Promise', etc.
    - Aprender en qué situaciones necesitas usar la programación asíncrona
-   - Llamar a las API con `fetch()`
+   - Llamar a las API con 'fetch()'
 - [ ] **JavaScript - Manejo de errores**:
    - El manejo de errores se refiere a los procedimientos de respuesta y recuperación de las condiciones de error presentes en una aplicación de software. En otras palabras, es el proceso compuesto por la anticipación, detección y resolución de errores de aplicación, programación o comunicación.
    - Conocer y manejar las excepciones más comunes
