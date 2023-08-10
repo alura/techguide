@@ -1,0 +1,49 @@
+name: JavaScript - Pruebas
+logo: 
+short-description:
+key-objectives:
+  - La prueba de software es el proceso de evaluación y verificación de que un software realmente hace lo que debería hacer. Los beneficios de las pruebas incluyen la prevención de errores, la reducción de los costos de desarrollo y la mejora del rendimiento.
+  - Usar pruebas unitarias
+  - Usar pruebas de integración
+  - Usar pruebas de comportamiento (behavior)
+  - Usar mocks
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Testing (Pruebas) en Javascript"
+    link: https://john-florez.gitbook.io/reactjs-book/testing-pruebas-en-javascript
+  - type: ARTICLE
+    title: "¿Qué es la prueba unitaria?"
+    link: https://www.nimblework.com/es/agile/pruebas-unitarias/
+  - type: ARTICLE
+    title: "¿Qué son las pruebas unitarias y cómo llevar una a cabo?"
+    link: https://www.yeeply.com/blog/que-son-pruebas-unitarias/
+  - type: ARTICLE
+    title: "Los 4 pilares de una buena prueba unitaria"
+    link: http://codelapps.com/code/4-pilares-de-una-buena-prueba-unitaria/
+  - type: ARTICLE
+    title: "Angular Unit Testing"
+    link: https://medium.com/@vito1986/angular-unit-testing-8a1479079f84
+  - type: ARTICLE
+    title: "Cómo usar Testing en Angular con Jasmine y Karma"
+    link: https://digital55.com/blog/como-usar-testing-angular-jasmine-karma/
+  - type: YOUTUBE
+    title: "Introducción a TDD"
+    link: https://youtu.be/eFED4VIjwwk
+  - type: YOUTUBE
+    title: "Cómo hacer Unit Testing en Angular de forma sencilla"
+    link: https://youtu.be/0ucTEskLvso
+  - type: YOUTUBE
+    title: "Pruebas unitarias con Angular 12"
+    link: https://youtu.be/tiIqfNVvsHc
+  - type: YOUTUBE
+    title: "Introducción a la Automatización de Pruebas de Software"
+    link: https://youtu.be/R_hh3jAqn8M
+  - type: YOUTUBE
+    title: "Tipos y Niveles de Pruebas de Software."
+    link: https://youtu.be/hSxXuRxA9mo
+  - type: YOUTUBE
+    title: "Objetivos de la Automatización de pruebas | ISTQB TAE"
+    link: https://youtu.be/_nwkhYhbN6Y
+alura-contents:
+

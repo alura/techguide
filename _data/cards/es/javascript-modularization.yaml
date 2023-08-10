@@ -1,0 +1,33 @@
+name: JavaScript - Modularización
+logo: 
+short-description:
+key-objectives:
+  - Dividir partes del código en módulos
+  - Usar import y export
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Módulos JavaScript"
+    link: https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules
+  - type: ARTICLE
+    title: "Modularización en Javascript"
+    link: https://medium.com/@sebastianpaduano/modularizaci%C3%B3n-en-javascript-538bd6c75fa
+  - type: ARTICLE
+    title: "Programación Orientada a Objetos: Patrón Módulo y Clases de JS"
+    link: https://anamartinezaguilar.medium.com/programaci%C3%B3n-orientada-a-objetos-patr%C3%B3n-m%C3%B3dulo-y-clases-de-js-8fc2dab1a085
+  - type: ARTICLE
+    title: "Programación Orientada a Objetos en JavaScript - Explicado con ejemplos"
+    link: https://www.freecodecamp.org/espanol/news/programacion-orientada-a-objectos-en-javascript-explicado-con-ejemplos/
+  - type: YOUTUBE
+    title: "Organiza el código JavaScript con módulos {ES6}"
+    link: https://youtu.be/_Fmsf6U4Gtg
+  - type: YOUTUBE
+    title: "Javascript: Entendiendo los módulos"
+    link: https://youtu.be/bHziHEUrA_w
+  - type: YOUTUBE
+    title: "Curso Javascript - #07 Módulos, import & export, export default"
+    link: https://youtu.be/_X7mQyat63Y
+alura-contents:
+  - type: ARTICLE
+    title: "¿Cómo funciona el import y export de JavaScript?"
+    link: https://www.aluracursos.com/blog/como-funciona-el-import-y-export-de-javascript
