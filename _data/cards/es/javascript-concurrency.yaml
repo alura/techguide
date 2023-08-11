@@ -1,0 +1,30 @@
+name: JavaScript - Concurrencia
+logo: 
+short-description:
+key-objectives:
+  - La programación concurrente es un paradigma de programación para construir programas que utilizan la ejecución simultánea de varias tareas computacionales interactivas, que pueden ser implementadas como programas separados o como un conjunto de hilos creados por un único programa
+  - Ejecutar tareas en paralelo
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Hilo principal"
+    link: https://developer.mozilla.org/es/docs/Glossary/Main_thread
+  - type: ARTICLE
+    title: "Programación multihilos (threads) en Javascript"
+    link: https://purojavascript.com/programacion-multihilos-threads-en-javascript/
+  - type: ARTICLE
+    title: "Multithreading con Javascript: Web Workers."
+    link: https://blog.apside.cl/multithreading-con-javascript-web-workers/
+  - type: ARTICLE
+    title: "Introducción de Paralelo y Concurrente a la Programación en Python"
+    link: https://code.tutsplus.com/es/introduction-to-parallel-and-concurrent-programming-in-python--cms-28612a
+  - type: YOUTUBE
+    title: "Hilos (Threads) en Java"
+    link: https://youtu.be/fiLrTdSKVcE
+  - type: YOUTUBE
+    title: "Paralelismo con JavaScript | WebWorkers, multi-hilo. "
+    link: https://youtu.be/lVd8K_ntKKk
+  - type: YOUTUBE
+    title: "Concurrencia vs. Paralelismo"
+    link: https://youtu.be/kMr3mF71Kp4
+alura-contents:

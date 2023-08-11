@@ -1,0 +1,16 @@
+name: iOS - Acessibilidade
+logo:
+short-description:
+key-objectives:
+  - "Uma memory leak é um problema que ocorre quando um aplicativo não libera a memória que não está mais usando. Isso pode levar a uma série de problemas, como o aplicativo ficar lento, travar ou até mesmo ser fechado pelo sistema operacional. Para evitar memory leaks, é importante entender como o gerenciamento de memória funciona no iOS e usar as ferramentas e técnicas adequadas para gerenciar a memória do seu aplicativo. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer as causas de memory leaks em iOS;
+  - Identificar os sintomas de memory leaks e resolvê-los.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "3 Different Techniques to Find Memory Leaks in iOS | Medium"
+    link: https://medium.com/bitso-engineering/finding-memory-leaks-in-ios-like-a-pro-83a0212309b6#:~:text=Memory%20leaks%20are%20very%20related,Automatic%20Reference%20Counting%20(ARC).
+  - type: YOUTUBE
+    title: "Memory Leaks no iOS: Encontrar, diagnosticas e resolver (inglês) | iOS Academy"
+    link: https://youtu.be/b2AgibUg47k
+alura-contents:

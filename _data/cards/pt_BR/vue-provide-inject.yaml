@@ -1,0 +1,17 @@
+name: Vue - Provide / Inject
+logo: 
+short-description:
+key-objectives:
+  - Compreenda o que são e por que você pode precisar deles. Eles são usados para injetar dependências em componentes descendentes sem passar props em todos os níveis.
+  - Aprenda a usar a opção provide em um componente para fornecer dados que podem ser injetados em componentes descendentes.
+  - Veja como a opção inject é usada em um componente descendente para acessar dados fornecidos por um componente ancestral.
+  - Descubra como o Provide / Inject funciona com a Composition API, usando provide e inject funções no método setup.
+  - Saiba como reagir às mudanças nos valores fornecidos usando um objeto reativo ou ref. 
+  - Aprenda a lidar com situações em que vários ancestrais fornecem a mesma chave.
+  -  Embora seja uma ferramenta poderosa, o Provide / Inject deve ser usado com moderação. Entenda quando é apropriado usá-lo e quando é melhor evitar.
+  
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Provide / Inject"
+    link: https://vuejs.org/guide/components/provide-inject.html

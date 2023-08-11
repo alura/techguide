@@ -1,0 +1,15 @@
+name: Vue Devtools
+logo: 
+short-description:
+key-objectives:
+  - Comece instalando a extensão Vue DevTools no seu navegador.
+  - Familiarize-se com a interface, aprendendo sobre as abas de Componentes, Vuex, Roteamento e Performance.
+  - Aprenda a inspecionar componentes, observando seus props, dados, e slots.
+  - Entenda como monitorar a store do Vuex | Pinia e o histórico de roteamento.
+  - Pratique a edição no local do estado da aplicação e o "time-travel debugging".
+  - Ajuste as configurações ao seu gosto e integre as DevTools com seu ambiente de desenvolvimento.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue.js devtools"
+    link: https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd

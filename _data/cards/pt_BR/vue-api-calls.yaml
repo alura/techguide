@@ -1,0 +1,33 @@
+name: Vue - Comunicando-se com APIs
+logo: 
+short-description:
+key-objectives:
+  - Entenda o que são APIs, como funcionam e como se comunicam com os clientes web.
+  - Aprenda os conceitos básicos de AJAX e como o Vue se integra com AJAX para recuperar dados de uma API.
+  - Mergulhe no Axios, uma popular biblioteca JavaScript para realizar solicitações HTTP. Aprenda a instalar e a usar o Axios em um projeto Vue para fazer chamadas GET, POST e outras.
+  - Conheça o unfetch, uma alternativa leve e moderna para fazer chamadas de API. Veja como ele pode ser usado em um projeto Vue.
+  - Adentre no mundo do GraphQL, um poderoso paradigma de API. Aprenda a usar o Apollo Client, uma solução completa para o gerenciamento de estado de dados GraphQL em aplicações Vue.
+  - Explore o Vue Relay, uma estrutura para trabalhar com GraphQL no Vue. Entenda as vantagens que ele oferece e como ele difere do Apollo Client.
+  - Aprenda a lidar com as respostas das APIs, incluindo a manipulação de dados recebidos e a tratamento de erros.
+  
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Axios"
+    link: https://axios-http.com/docs/intro
+  - type: SITE
+    title: "Unfetch"
+    link: https://github.com/developit/unfetch
+  - type: SITE
+    title: "Vue Apollo"
+    link: https://apollo.vuejs.org/guide/
+  - type: SITE
+    title: "Vue Relay"
+    link: https://github.com/vue-relay/vue-relay
+alura-contents:
+  - type: ARTICLE
+    title: "REST: Conceito e fundamentos"
+    link: https://www.alura.com.br/artigos/rest-conceito-e-fundamentos
+  - type: ARTICLE
+    title: Guia essencial do GraphQL para pessoas que desenvolvem frontend
+    link: https://www.alura.com.br/artigos/guia-graphql-pessoas-que-desenvolvem-frontend

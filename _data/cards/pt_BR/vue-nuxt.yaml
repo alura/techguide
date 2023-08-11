@@ -1,0 +1,19 @@
+name: Nuxt
+logo: 
+short-description:
+key-objectives:
+  - Entenda o que é Nuxt.js, como ele funciona e quando usá-lo.
+  - Aprenda como instalar e configurar um projeto Nuxt.js a partir do zero.
+  - Familiarize-se com a estrutura de pastas de um projeto Nuxt.js e o que cada pasta faz.
+  - Compreenda a geração automática de rotas em Nuxt.js e como trabalhar com rotas dinâmicas.
+  - Aprenda a integrar soluções de gerenciamento do estado global em uma aplicação Nuxt.js.
+  - Entenda as diferenças entre SSR e SSG e como usá-los em Nuxt.js.
+  - Aprenda a usar plugins Nuxt.js para adicionar funcionalidades globais à sua aplicação.
+  - Explore como o middleware pode ajudá-lo a executar código antes de renderizar a página.
+  - Conheça as diferentes opções de deploy de uma aplicação Nuxt.js.
+  
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Nuxt: The Intuitive Vue Framework"
+    link: https://v2.nuxt.com/docs/get-started/installation

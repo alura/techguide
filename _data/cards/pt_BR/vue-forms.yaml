@@ -1,0 +1,30 @@
+name: Vue Forms
+logo: 
+short-description:
+key-objectives:
+  - Comece aprendendo as bases dos formulários no Vue, incluindo v-model e como vincular diferentes tipos de campos de entrada (input binds).
+  - Depois de dominar as bases, aprenda como o Vue 3 lida com as entradas do usuário e as diferenças em relação às versões anteriores.
+  - Mergulhe no mundo da Vue Formulate, uma das bibliotecas mais completas para trabalhar com formulários no Vue. Compreenda como usar seus recursos para construir formulários complexos com facilidade.
+  - Continue sua jornada com a VeeValidate, uma biblioteca para validação de formulários que oferece muitas opções de validação e permite que você crie suas próprias regras.
+  - Explore a Vuelidate, outra biblioteca de validação poderosa que oferece uma abordagem um pouco diferente da VeeValidate.
+  - Além de usar bibliotecas, aprenda a criar suas próprias regras de validação personalizadas no Vue.
+  - Aprofunde-se na criação de formulários dinâmicos, onde os campos podem mudar com base nas ações do usuário.
+  - Descubra como integrar a gestão dos formulários com Vuex/Pinia  para um gerenciamento de estado mais sólido e escalável.
+
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Inputs"
+    link: https://vuejs.org/guide/essentials/forms.html
+  - type: SITE
+    title: Vue Formulate
+    link: https://vueformulate.com/
+  - type: SITE
+    title: Vee Validate
+    link: https://vee-validate.logaretm.com/v4/
+  - type: SITE
+    title: Vuex
+    link: https://vuex.vuejs.org/
+  - type: SITE
+    title: Pinia
+    link: https://pinia.vuejs.org/

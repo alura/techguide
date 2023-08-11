@@ -1,0 +1,23 @@
+name: iOS - Gerenciamento de Estado
+logo:
+short-description:
+key-objectives:
+  - "Gerenciamento de estado é o processo de rastrear e gerenciar a condição de um aplicativo. Isso é importante para aplicativos que são complexos ou que têm muitos estados diferentes. No UIKit, o gerenciamento de estado é feito manualmente pelo desenvolvedor. Isso significa que o desenvolvedor é responsável por rastrear o estado do aplicativo e atualizar a interface do usuário conforme o estado muda. Existem várias maneiras diferentes de gerenciar o estado no UIKit. Uma maneira comum é usar uma estrutura de dados para armazenar o estado. No SwiftUI, o gerenciamento de estado é feito automaticamente pelo framework. Isso significa que o desenvolvedor não precisa se preocupar em rastrear o estado do aplicativo ou atualizar a interface do usuário conforme o estado muda. O SwiftUI usa um sistema de gerenciamento de estado baseado em propriedade para gerenciar o estado dos aplicativos. Isso significa que o desenvolvedor pode definir propriedades que armazenam o estado do aplicativo e o framework atualizará automaticamente a interface do usuário conforme o estado muda. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer os fundamentos do gerenciamento de estado em iOS;
+  - Conhecer programaçao reativa para frameworks que usam o padrão declarativo (UIKit);
+  - Usar estruturas de dados e bibliotecas de gerenciamento de estado para armazenar e gerenciar o estado de um aplicativo.
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "iOS Swift Tutorial: RxSwift - Uma introdução prática (Inglês) | Brian Advent"
+    link: https://youtu.be/2m92mRI8l7U
+  - type: YOUTUBE
+    title: "Gerenciando Estados Visuais no SwiftUI - @State & Binding [Ponta-a-Ponta] | Michel Lopes | Irmandade Swift"
+    link: https://youtu.be/vL_UUCtRAQo
+  - type: YOUTUBE
+    title: "Dividindo o fluxo de dados e estados no SwiftUI (inglês) | tundsdev"
+    link: https://youtu.be/0Emh_7Vn3gM
+alura-contents:
+  - type: COURSE
+    title: "iOS com SwiftUI: implementando navegação e gerenciamento de estados"
+    link: https://cursos.alura.com.br/course/ios-swiftui-navegacao-gerenciamento-estados

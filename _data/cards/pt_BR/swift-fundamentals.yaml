@@ -1,0 +1,34 @@
+name: Swift - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - "Swift é uma linguagem de programação de código aberto desenvolvida pela Apple Inc. e pela comunidade de desenvolvedores. É projetada para ser segura, rápida e intuitiva. Swift é a linguagem preferida para o desenvolvimento de aplicativos iOS, macOS, watchOS e tvOS. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer as palavras chaves do Swift;
+  - Entender como funciona o controle de fluxo e as condicionais;
+  - Construir aplicações de terminal usando Swift;
+  - Conhecer os protocolos de Encodable e Decodable;
+  - Compreender e aprender a usar coleções no Swift.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Começando no Swift (inglês)"
+    link: https://www.swift.org/getting-started/
+  - type: YOUTUBE
+    title: "Playlist do Youtube: Fundamentos do Swift | Michel Lopes"
+    link: https://www.youtube.com/watch?v=e6eIPukdnRk&list=PLs5gUvDGMKI8DF0rOLFMZk9SYqX4AN2fl
+  - type: YOUTUBE
+    title: "Swift (a linguagem do iOS) // Dicionário do Programador | Código Fonte TV"
+    link: https://youtu.be/ELa-PgWlYDI
+  - type: YOUTUBE
+    title: "Diferenças e Curiosidades de Class e Struct no Swift 🇧🇷 | Michel Lopes"
+    link: https://youtu.be/NsMJb43X7jE
+  - type: YOUTUBE
+    title: "[SWIFT] STRUCT OU CLASS, PRA QUE SERVE? | DevPoli"
+    link: https://youtu.be/tKSNjg9Cb_g
+  - type: ARTICLE
+    title: "Coleções Sets, explorando seu poder e peculiaridades. | Medium"
+    link: https://medium.com/@msmatheusmatos/cole%C3%A7%C3%B5es-sets-explorando-seu-poder-e-peculiaridades-526ee361384a
+alura-contents:
+  - type: COURSE
+    title: "Domine a linguagem Swift"
+    link: https://cursos.alura.com.br/formacao-domine-linguagem-swift

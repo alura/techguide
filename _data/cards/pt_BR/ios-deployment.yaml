@@ -1,0 +1,19 @@
+name: iOS - Deploy
+logo:
+short-description:
+key-objectives:
+  - "O deployment é o processo de disponibilizar um aplicativo iOS para os usuários. Existem várias maneiras de fazer isso, um deles é o uso da App Store. A App Store é a maneira mais comum de distribuir aplicativos iOS. Ela permite que os desenvolvedores distribuam seus aplicativos para um público global. O TestFlight é uma ferramenta beta privada que permite que os desenvolvedores compartilhem seus aplicativos com um grupo limitado de usuários para feedback. O Distribute é uma ferramenta que permite que os desenvolvedores distribuam seus aplicativos para seus próprios servidores. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer os conceitos básicos de deployment de aplicativos iOS;
+  - Usar a App Store para distribuir aplicativos iOS para um público global.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Publicando um aplicativo na AppStore (inglês) | Medium"
+    link: https://medium.com/swlh/publishing-an-ios-app-to-app-store-d4f88c3686de
+  - type: YOUTUBE
+    title: "App Store: Guia para lançar um app iOS (inglês) | App Radar"
+    link: https://youtu.be/1D-ZhTSpx1E
+  - type: YOUTUBE
+    title: "Como publicar um app - XCode para AppStore | AC Soluções"
+    link: https://youtu.be/EAFr2qp6sso
+alura-contents:

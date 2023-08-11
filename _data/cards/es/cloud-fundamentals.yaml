@@ -14,6 +14,24 @@ contents:
  - type: SITE
    title: "Amazon AWS: ¿Qué es la computación en nube?"
    link: https://aws.amazon.com/en/what-is-cloud-computing/
+ - type: SITE
+   title: "Tipos de computación en la nube"
+   link: https://aws.amazon.com/es/types-of-cloud-computing/
+ - type: SITE
+   title: "¿Cómo funciona Azure?"
+   link: https://learn.microsoft.com/es-es/azure/cloud-adoption-framework/get-started/what-is-azure
+ - type: SITE
+   title: "¿Qué es el almacenamiento en la nube?"
+   link: https://aws.amazon.com/es/what-is/cloud-storage/
+ - type: SITE
+   title: "¿Qué es la seguridad en la nube?"
+   link: https://cloud.google.com/learn/what-is-cloud-security?hl=es-419
+ - type: SITE
+   title: "Arquitectura sin servidor"
+   link: https://learn.microsoft.com/es-es/dotnet/architecture/serverless/serverless-architecture
+ - type: SITE
+   title: "¿Qué es Docker?"
+   link: https://aws.amazon.com/es/docker/
  - type: ARTICLE
    title: "Guía para principiantes sobre los fundamentos de la computación en nube"
    link: https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/
@@ -21,9 +39,37 @@ contents:
    title: "Cloud Computing para principiantes"
    link: https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/
  - type: ARTICLE
+   title: "¿Qué es Google Cloud y para qué sirve?"
+   link: https://www.incentro.com/es-ES/blog/que-es-google-cloud-platform
+ - type: YOUTUBE
+   title: "¿Qué es computación en la nube? | ¿Qué es cloud computing? | Explicado en 4 minutos"
+   link: https://youtu.be/MCKdahh2lSo
+ - type: YOUTUBE
+   title: "📌CLOUD COMPUTING ¿Qué es IaaS, PaaS y Saas? | Modelos de Servicio Cloud"
+   link: https://youtu.be/VR8aXePkQ5M
+
+alura-contents:
+ - type: ARTICLE
    title: "¿Qué es Cloud y sus principales servicios?"
    link: https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios
+ - type: ARTICLE
+   title: "Conociendo Terraform"
+   link: https://www.aluracursos.com/blog/conociendo-terraform
+ - type: ARTICLE
+   title: "Empezando con Docker"
+   link: https://www.aluracursos.com/blog/empezando-con-docker
+ - type: YOUTUBE
+   title: "Fundamentos del OCI | Contenidos ONE"
+   link: https://youtu.be/rEgSc0UqX-g
  - type: COURSE
-   title: "Amazon CloudWatch: visibilidad completa de aplicaciones y servicios en la nube"
-   link: https://www.aluracursos.com/curso-online-amazon-cloudwatch-visibilidad-aplicaciones-servicios-nube
-alura-contents:
+   title: "Curso Oracle Cloud Infrastructure: implementación de una aplicación en la nube"
+   link: https://app.aluracursos.com/course/oracle-cloud-infrastructure-implementacion-aplicacion-nube
+ - type: COURSE
+   title: "Curso Oracle Cloud Infrastructure: base de datos e infraestructura como código"
+   link: https://app.aluracursos.com/course/oracle-cloud-infrastructure-base-datos-infraestructura-codigo
+ - type: COURSE
+   title: "Curso Deploy en Amazon EC2: Alta disponibilidad y escalabilidad de una aplicación"
+   link: https://app.aluracursos.com/course/deploy-amazon-ec2-alta-disponibilidad-escalabilidad
+ - type: COURSE
+   title: "Curso Amazon Lightsail: Simplificando la nube"
+   link: https://app.aluracursos.com/course/amazon-lightsail-simplificando-nube

@@ -1,0 +1,27 @@
+name: iOS - Storyboard
+logo: 
+short-description:
+key-objectives:
+  - "Um storyboard no iOS é um arquivo de XML que contém um diagrama visual de uma interface do usuário. Os storyboards são usados para criar aplicativos iOS que são visualmente atraentes e fáceis de navegar. Os storyboards contêm uma hierarquia de views, que são os elementos visuais que compõem a interface do usuário. As views podem ser adicionadas aos storyboards arrastando-as da paleta de views para o diagrama. As views podem ser personalizadas alterando suas propriedades, como tamanho, cor e fonte. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer o conceito de Storyboards e como eles são usados para criar aplicativos iOS;
+  - Criar e usar Storyboards para criar layouts de interface do usuário;
+  - Implementar a navegação entre telas em aplicativos iOS;
+  - Aprofundar os princípios de Auto Layout e como criar layouts flexíveis e responsivos para diferentes tamanhos de tela.
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "Introdução à interface programatica - UIKIT | Xcode 14 (inglês)"
+    link: https://youtu.be/_U6_l58Cv4E
+  - type: SITE
+    title: "Documentação oficial Apple - Storyboard (inglês)"
+    link: https://developer.apple.com/library/archive/documentation/General/Conceptual/Devpedia-CocoaApp/Storyboard.html
+alura-contents:
+  - type: ARTICLE
+    title: "iOS e Swift: Diferenças na construção de layouts com Storyboard, XIB e View Code"
+    link: https://www.alura.com.br/artigos/ios-swift-diferencas-construcao-layouts-storyboard-xib-view-code
+  - type: COURSE
+    title: "iOS: auto layout com Constraints"
+    link: https://cursos.alura.com.br/course/ios-auto-layout-constraints
+  - type: COURSE
+    title: "iOS layout: mais recursos para criar telas responsivas"
+    link: https://cursos.alura.com.br/course/ios-layout-parte-2-recursos-telas-responsivas

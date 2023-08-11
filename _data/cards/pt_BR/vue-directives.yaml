@@ -1,0 +1,21 @@
+name: Vue - Diretivas
+logo: 
+short-description:
+key-objectives:
+  - "Explore as diretivas básicas oferecidas pelo Vue, como v-if, v-else, v-show, v-bind, v-model e v-for. "
+  - "Depois de se familiarizar com as diretivas integradas, suba de nível criando suas próprias diretivas personalizadas."
+  - "Para finalizar sua jornada, domine os argumentos e modificadores das diretivas."
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Renderização condicional"
+    link: https://vuejs.org/guide/essentials/conditional.html
+  - type: SITE
+    title: "Vue: Documentação - Renderização de listas"
+    link: https://vuejs.org/guide/essentials/list.html
+  - type: SITE
+    title: "Vue: Documentação - Diretivas customizadas  "
+    link: https://vuejs.org/guide/reusability/custom-directives.html#custom-directives
+  - type: SITE
+    title: "Exibições de página dinâmicas com o Vue.js"
+    link: https://learn.microsoft.com/pt-br/training/modules/vue-dynamic-rendering/

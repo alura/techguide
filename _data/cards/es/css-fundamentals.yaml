@@ -58,6 +58,11 @@ contents:
   - type: SITE
     title: "MDN Web Docs: Conceptos básicos de Grid Layout"
     link: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+  - type: YOUTUBE
+    title: "Que rayos son las variables en CSS y como se utilizan."
+    link: https://www.youtube.com/watch?v=nJO1jjKUroI&ab_channel=FalconMasters
+
+alura-contents:
   - type: ARTICLE
     title: "Bootstrap ¿Qué es, cómo y cuándo utilizar?"
     link: https://www.aluracursos.com/blog/bootstrap-que-es-como-y-cuando-utilizar
@@ -107,12 +112,20 @@ contents:
     title: "Cambiando CSS con JavaScript"
     link: https://www.aluracursos.com/blog/cambiando-css-con-javascript
   - type: YOUTUBE
-    title: "Que rayos son las variables en CSS y como se utilizan."
-    link: https://www.youtube.com/watch?v=nJO1jjKUroI&ab_channel=FalconMasters
-  - type: YOUTUBE
     title: "Animando un texto en HTML y CSS"
     link: https://www.youtube.com/watch?v=j71g5TiMA-M&ab_channel=AluraLatam
-alura-contents:
+  - type: YOUTUBE
+    title: "Box Model y Box sizing #AluraMás"
+    link: https://youtu.be/ts9qfCKamKg
+  - type: YOUTUBE
+    title: "Consejos de CSS FlexBox para comenzar #aluramás"
+    link: https://youtu.be/EB4vWLzfVcI
+  - type: YOUTUBE
+    title: "Como utilizar el Display block, inline, inline-block #aluramás"
+    link: https://youtu.be/AG2QssLpQzI
+  - type: YOUTUBE
+    title: "¡Domina CSS Flexbox con FlexboxFroggy! Aprende jugando en este desafío divertido"
+    link: https://youtu.be/MXPhyN5t0uQ
   - type: COURSE
     title: "Flexbox: Posicione elementos en la pantalla"
     link: https://www.aluracursos.com/curso-online-flexbox-posicione-elementos-pantalla

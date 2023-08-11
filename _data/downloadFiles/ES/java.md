@@ -37,7 +37,7 @@
    - Aprende a trabajar con ArrayList, LinkedList o Vector
 - [ ] **Java - Pruebas**:
    - La prueba de software es el proceso de evaluación y verificación de que un software realmente hace lo que debe hacer. Los beneficios de las pruebas incluyen la prevención de errores, la reducción de los costos de desarrollo y la mejora del rendimiento.
-   - Usar pruebas por unidad
+   - Usar pruebas unitarias
    - Usar pruebas de integración
    - Usar pruebas de comportamiento (behavior)
    - Usar mocks

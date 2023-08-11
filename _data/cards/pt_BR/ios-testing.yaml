@@ -1,0 +1,19 @@
+name: iOS - Testes
+logo:
+short-description:
+key-objectives:
+  - "Os testes são uma parte importante do desenvolvimento de software. Eles ajudam a garantir que o software esteja funcionando corretamente e que atenda aos requisitos do usuário. Existem vários tipos de testes que podem ser usados em iOS, incluindo testes de unidade, testes de integração e testes de sistema. Os testes de unidade são usados para testar unidades individuais de código, os testes de integração são usados para testar como diferentes unidades de código interagem umas com as outras e os testes de sistema são usados para testar todo o aplicativo como um todo. O teste é uma parte importante do processo de desenvolvimento de software e pode ajudar a garantir que os aplicativos iOS sejam de alta qualidade e confiáveis. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer as ferramentas e técnicas mais comuns para debugging de aplicativos iOS;
+  - Usar as ferramentas e técnicas mais comuns para debugging de aplicativos iOS para encontrar e corrigir erros.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "iOS Teste Unitário e Teste de UI — Tutorial | Medium"
+    link: https://hoffsilva.medium.com/ios-teste-unit%C3%A1rio-e-teste-de-ui-tutorial-1360bb66ff73
+  - type: YOUTUBE
+    title: "Fundamentos de Teste com iOS e Swift | Mobilizando"
+    link: https://youtu.be/iQUo4_8AOX0
+alura-contents:
+  - type: COURSE
+    title: "iOS: testes de unidade e TDD"
+    link: https://cursos.alura.com.br/course/ios-testes-unidade-tdd
