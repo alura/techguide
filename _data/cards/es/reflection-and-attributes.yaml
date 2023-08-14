@@ -2,45 +2,22 @@ name: Reflection e atributos
 logo: 
 short-description:
 key-objectives:
-  - Os objetos de Reflection (reflexão) são usados para obter informações do tipo em tempo de execução. As classes que dão acesso aos metadados de um programa em execução estão no namespace System.Reflection.
-  - Escrever código que lê as informações e metadados de objetos em tempo de execução
-  - Obter nomes de classes em tempo de execução e criar objetos de uma classe
+  - Los objetos de Reflection (reflexión) se utilizan para obtener información del tipo en tiempo de ejecución. Las clases que dan acceso a los metadatos de un programa en ejecución se encuentran en el espacio de nombres System.Reflection.
+  - Escribir código que lee la información y metadatos de objetos en tiempo de ejecución
+  - Obtener nombres de clases en tiempo de ejecución y crear objetos de una clase
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Microsoft Docs: Reflection (C#)"
-    link: https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/concepts/reflection
+    title: "Acceso a atributos mediante reflexión | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/advanced-topics/reflection-and-attributes/accessing-attributes-by-using-reflection
   - type: SITE
-    title: "Acervo Lima: Reflexão em Python"
-    link: https://acervolima.com/reflexao-em-python/
-  - type: ARTICLE
-    title: "Reflection in C# (inglês)"
-    link: https://medium.com/@ghadeer.kenawi/reflection-in-c-fa27d8f827f8
-  - type: ARTICLE
-    title: "Reflection em Javascript"
-    link: https://medium.com/trainingcenter/reflection-em-javascript-73fc0e702e2
+    title: "System.Reflection Espacio de nombres | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/api/system.reflection?view=net-7.0
+  - type: SITE
+    title: "Reflexión en .NET"
+    link: https://learn.microsoft.com/es-es/dotnet/framework/reflection-and-codedom/reflection
   - type: YOUTUBE
-    title: "Marco Diniz: C# em 5 minutos - Reflection"
-    link: https://www.youtube.com/watch?v=EX_0lf5zyrU
-  - type: YOUTUBE
-    title: "Kerplunk: C# Orientação a Objeto - Reflection "
-    link: https://www.youtube.com/watch?v=fl1ChSv2yqI
-  - type: YOUTUBE
-    title: "Dev Coffee BR: C# Orientação a Objeto - Reflection "
-    link: https://www.youtube.com/watch?v=XkgeNMvZyzo
+    title: "Tutorial C# nivel Avanzado 46 - Reflection/Reflexión"
+    link: https://www.youtube.com/watch?v=9kAd4Wl0hgQ
+
 alura-contents:
-  - type: COURSE
-    title: "Curso C# Reflection parte 1: metadados do seu código .NET"
-    link: https://cursos.alura.com.br/course/reflection-parte-1
-  - type: COURSE
-    title: "Curso C# Reflection parte 2: implementando injeção de dependência do zero"
-    link: https://cursos.alura.com.br/course/reflection-parte-2
-  - type: COURSE
-    title: "Curso Java Reflection parte 1: entendendo a metaprogramação"
-    link: https://cursos.alura.com.br/course/java-reflection-meta-programacao
-  - type: COURSE
-    title: "Curso Java Reflection parte 2: Anotações e Injeção de Dependências"
-    link: https://cursos.alura.com.br/course/java-reflection-anotacoes-injecao-dependencia
-  - type: COURSE
-    title: "Curso Metaprogramação com PHP: API de Reflection"
-    link: https://cursos.alura.com.br/course/metaprogramacao-php-api-reflection

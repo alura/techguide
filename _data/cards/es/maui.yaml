@@ -2,25 +2,32 @@ name: MAUI
 logo: 
 short-description:
 key-objectives:
-  - .NET Multi-platform App UI (.NET MAUI) é um framework multi-plataforma para criar aplicativos nativos móveis e desktop com C# e XAML.
-  - Criar aplicativos móveis e desktop nativos com C# e XAML
-  - Criar aplicativos multiplataforma
-  - Compartilhar o layout e o design da interface do usuário entre plataformas
+  - .NET Multi-platform App UI (.NET MAUI) es un framework multiplataforma para crear aplicaciones nativas móviles y de escritorio con C# y XAML.
+  - Crear aplicaciones móviles y de escritorio nativas con C# y XAML.
+  - Desarrollar aplicaciones multiplataforma.
+  - Compartir el diseño y la interfaz de usuario entre plataformas.
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Microsoft Docs: O que é o MAUI do .NET?"
-    link: https://docs.microsoft.com/pt-br/dotnet/maui/what-is-maui
+    title: "¿Qué es .NET MAUI?"
+    link: https://learn.microsoft.com/es-es/dotnet/maui/what-is-maui
+  - type: SITE
+    title: "Introducción a XAML"
+    link: https://learn.microsoft.com/es-es/dotnet/maui/xaml/fundamentals/get-started
   - type: ARTICLE
-    title: "All About .NET MAUI (inglês)"
-    link: https://medium.com/volosoft/all-about-net-maui-5a1e774803ac
+    title: "Qué es .NET MAUI y cuáles son sus ventajas"
+    link: https://www.linkedin.com/pulse/qu%C3%A9-es-net-maui-y-cu%C3%A1les-son-sus-ventajas-jordi-parareda/?originalSubdomain=es
+  - type: ARTICLE
+    title: ".NET MAUI: La apuesta de Microsoft para el desarrollo de Apps multiplataforma"
+    link: https://www.zimaltec.es/blog/net-maui-la-apuesta-de-microsoft-para-el-desarrollo-de-apps-multiplataforma
+  - type: ARTICLE
+    title: "Desarrollo de aplicaciones multiplataforma con Microsoft .NET MAUI"
+    link: https://www.integratecnologia.es/la-innovacion-necesaria/desarrollo-de-aplicaciones-multiplataforma-con-microsoft-net-maui/
   - type: YOUTUBE
-    title: "Jose Async: .NET MAUI - Por onde começar"
-    link: https://www.youtube.com/watch?v=vV_KVf_OQaI
+    title: "Creando un proyecto de .NET MAUI con Visual Studio - .NET MAUI"
+    link: https://www.youtube.com/watch?v=Id6WBvhg5vo
   - type: YOUTUBE
-    title: "balta.io: O futuro do Cross Platform com MAUI"
-    link: https://www.youtube.com/watch?v=wjPx7BPEpQk
-  - type: YOUTUBE
-    title: "James Montemagno: Learn .NET MAUI - Full Course for Beginners | Build cross-platform apps in C# (inglês)"
-    link: https://www.youtube.com/watch?v=DuNLR_NJv8U
+    title: "Ejercicio creando tu primera página con XAML - .NET MAUI"
+    link: https://www.youtube.com/watch?v=FLDFJbqgVF4
+
 alura-contents:
