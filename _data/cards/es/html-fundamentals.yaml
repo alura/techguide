@@ -17,7 +17,7 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "HTML: Linguagem de etiquetas de hipertexto"
+    title: "HTML: Lenguaje de etiquetas de hipertexto"
     link: https://developer.mozilla.org/es/docs/Web/HTML
   - type: SITE
     title: "W3Schools: Formato de texto HTML"
@@ -40,6 +40,19 @@ contents:
   - type: SITE
     title: "MDN Web Docs: Conceptos básicos de HTML"
     link: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
+  - type: YOUTUBE
+    title: "¿Qué es HTML? - 10 cosas que debes saber"
+    link: https://www.youtube.com/watch?v=tPzq8IufGxE
+  - type: YOUTUBE
+    title: "Aprende HTML en 15 Minutos"
+    link: https://www.youtube.com/watch?v=mNbnV3aN3KA
+  - type: YOUTUBE
+    title: "HTML - Ejemplos Prácticos básicos"
+    link: https://www.youtube.com/watch?v=NMh94GBeCCQ
+alura-contents:
+  - type: ARTICLE
+    title: "Por una web más rápida: 26 técnicas de optimización de Sitios Web"
+    link: https://www.aluracursos.com/blog/por-una-web-mas-rapida-26-tecnias-de-optimizacion-de-paginas-web
   - type: ARTICLE
     title: "La semántica en HTML5"
     link: https://www.aluracursos.com/blog/la-semantica-en-html5
@@ -64,19 +77,6 @@ contents:
   - type: ARTICLE
     title: "Vinculando elementos con HTML5"
     link: https://www.aluracursos.com/blog/vinculando-elementos-con-html5
-  - type: ARTICLE
-    title: "Por una web más rápida: 26 técnicas de optimización de Sitios Web"
-    link: https://www.aluracursos.com/blog/por-una-web-mas-rapida-26-tecnias-de-optimizacion-de-paginas-web
-  - type: YOUTUBE
-    title: "¿Qué es HTML? - 10 cosas que debes saber"
-    link: https://www.youtube.com/watch?v=tPzq8IufGxE
-  - type: YOUTUBE
-    title: "Aprende HTML en 15 Minutos"
-    link: https://www.youtube.com/watch?v=mNbnV3aN3KA
-  - type: YOUTUBE
-    title: "HTML - Ejemplos Prácticos básicos"
-    link: https://www.youtube.com/watch?v=NMh94GBeCCQ
-alura-contents:
   - type: COURSE
     title: "HTML & CSS: Crea páginas increíbles con tecnologías web"
     link: https://app.aluracursos.com/formacion-html-css

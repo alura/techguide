@@ -19,9 +19,6 @@ contents:
   - type: ARTICLE
     title: "What are NPM, Yarn, Babel, and Webpack; and how to properly use them?"
     link: https://medium.com/front-end-weekly/what-are-npm-yarn-babel-and-webpack-and-how-to-properly-use-them-d835a758f987
-  - type: ARTICLE
-    title: "Creando y publicando una biblioteca Javascript en el NPM"
-    link: https://www.aluracursos.com/blog/creando-y-publicando-una-biblioteca-javascript-en-el-npm
   - type: YOUTUBE
     title: "ReactJS: de cero a experto. Instalando yarn"
     link: https://www.youtube.com/watch?v=qOBaAcSPYFs
@@ -29,3 +26,6 @@ contents:
     title: "Cómo crear un proyecto en Yarn en 5 MINUTOS"
     link: https://www.youtube.com/watch?v=jCeQmuTrsmQ
 alura-contents:
+  - type: ARTICLE
+    title: "Creando y publicando una biblioteca Javascript en el NPM"
+    link: https://www.aluracursos.com/blog/creando-y-publicando-una-biblioteca-javascript-en-el-npm

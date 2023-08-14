@@ -9,7 +9,7 @@ key-objectives:
 - Escribir código asíncrono entendiendo el concepto de promesas en JavaScript
 - Usar métodos, palabras clave y objetos de JavaScript para manejar promesas como 'Async/Await', '.then()', 'Promise', etc.
 - Aprender en qué situaciones necesitas usar la programación asíncrona
-- Llamar a las API con `fetch()`
+- Llamar a las API con 'fetch()'
 aditional-objectives:
 contents:
   - type: SITE
@@ -49,7 +49,6 @@ contents:
     title: "Cómo CONSUMIR una API REST con JAVASCRIPT y Fetch + Promises"
     link: https://www.youtube.com/watch?v=FJ-w0tf3d_w
 alura-contents:
-
 - type: COURSE
   title: "JS en la Web: CRUD con JavaScript asíncrono"
   link: https://aluracursos.com/course/js-web-crud-javascript-asincrono
