@@ -165,7 +165,13 @@
    - Armazenar dados no front-end com localStorage
    - Manipular dados armazenados
    - Persistir dados armazenados
-
+- [ ] **NextJS - Fundamentos**:
+   - Construir interfaces Web
+   - Diminuir o tempo de carregamento das páginas
+   - Renderizar páginas no lado do servidor
+   - Melhorar a performance em React
+   - Construir rotas de API com funções serveless
+   - CSS-in-JS
 - [ ] **Python - Comunicação com APIs**:
    - Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.
    - Entender o que é uma API REST
@@ -226,7 +232,12 @@
    - Apollo Client é uma biblioteca abrangente de gerenciamento de estado para JavaScript que permite gerenciar dados locais e remotos com o GraphQL.
    - Utilizar o Apollo para criar um servidor GraphQL
    - Conectar com uma API
-
+- [ ] **Nest.js - Fundamentos**:
+   - NestJS é um framework Node com total suporte a TypeScript e que roda sobre frameworks HTTP como expressJS ou Fastify. Ele utiliza diversos elementos de programação orientada a objetos e uma série de funcionalidades do TypeScript.
+   - Aprender o que é o NestJS e por que é utilizado
+   - Utilizar recursos específicos do NestJS, como providers, módulos e controllers
+   - Desenvolver APIs usando o NestJS
+   - Usar a Interface de Linha de Comando (CLI) do Nest.js
 - [ ] **Kafka**:
    - O Apache Kafka é uma plataforma distribuída de transmissão de dados que é capaz de publicar, subscrever, armazenar e processar fluxos de registro em tempo real. Essa plataforma foi desenvolvida para processar fluxos de dados provenientes de diversas fontes e entregá-los a vários clientes.
    - Utilizar o Kafka para comunicação assíncrona
