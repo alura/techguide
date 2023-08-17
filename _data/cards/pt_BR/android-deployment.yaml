@@ -1,0 +1,26 @@
+name: Android - Implantação (Deployment)
+logo: 
+short-description:
+key-objectives:
+  - O deployment ou implantação é o processo de disponibilizar um aplicativo Android para os usuários. Existem várias maneiras de fazer isso, um deles é o uso da Play Store. Ela permite que os desenvolvedores distribuam seus aplicativos para um público global.
+  - Conhecer os conceitos básicos de deployment de aplicativos Android;
+  - Criar uma conta de Google Developer;
+  - Usar a Play Store para distribuir aplicativos Android para um público global.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Android: Publicar o app"
+    link: https://developer.android.com/studio/publish?hl=pt-br
+  - type: ARTICLE
+    title: "O que é necessário para publicar seu aplicativo no Google Play e na App Store"
+    link: https://dev.to/altencirsilvajr/o-que-e-necessario-para-publicar-seu-aplicativo-no-google-play-e-na-app-store-em-2023-le6
+  - type: ARTICLE
+    title: "Crie e publique um aplicativo Android na Google Play Store"
+    link: https://cynoteck.com/pt/blog-post/build-and-publish-an-android-app-on-the-google-play-store/
+  - type: YOUTUBE
+    title: "Deivid Rothen: Como Publicar um Aplicativo Android na Play Store"
+    link: https://www.youtube.com/watch?v=Xk28gXHQ9Bc&ab_channel=DeividRothen
+  - type: YOUTUBE
+    title: "Stack Mobile: Como Publicar um Aplicativo Android na Loja da Google Play - Guia Absolutamente Completo"
+    link: https://www.youtube.com/watch?v=Xk28gXHQ9Bc&ab_channel=DeividRothen
+alura-contents:
