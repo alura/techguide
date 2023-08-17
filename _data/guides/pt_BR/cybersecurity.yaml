@@ -4,6 +4,10 @@ tags:
 expertise:
   - name: Cybersecurity Jr
     cards:
+      - command-line-fundamentals:
+        priority: 10
+      - python-fundamentals:
+        priority: 8
       - cryptography-fundamentals:
         priority: 10
       - cybersecurity-framework:
@@ -75,8 +79,6 @@ expertise:
 collaboration:
   - name: Sistemas e tecnologias
     cards:
-      - python-fundamentals:
-        priority: 10
       - computer-networks-fundamentals:
         priority: 9
       - http-fundamentals:
@@ -89,8 +91,6 @@ collaboration:
         priority: 8
      # - windows-fundamentals:
      #   priority: 7
-      - command-line-fundamentals:
-        priority: 7
       - linux-fundamentals:
         priority: 7
   - name: Segurança da Informação
