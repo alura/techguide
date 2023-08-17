@@ -13,18 +13,21 @@ contents:
   - type: SITE
     title: "YARN: Documentación"
     link: https://classic.yarnpkg.com/en/docs
+  - type: SITE
+    title: "Documentación YARN en español"
+    link: https://runebook.dev/es/docs/yarn/
   - type: ARTICLE
     title: "NPM vs Yarn Cheat Sheet"
     link: https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc
   - type: ARTICLE
-    title: "What are NPM, Yarn, Babel, and Webpack; and how to properly use them?"
-    link: https://medium.com/front-end-weekly/what-are-npm-yarn-babel-and-webpack-and-how-to-properly-use-them-d835a758f987
+    title: "Node.js, NPM, Yarn, NVM, Webpack, Babel…"
+    link: https://mauriciogc.medium.com/1-node-js-npm-yarn-nvm-webpack-babel-dffbdab392bf
   - type: YOUTUBE
     title: "ReactJS: de cero a experto. Instalando yarn"
     link: https://www.youtube.com/watch?v=qOBaAcSPYFs
   - type: YOUTUBE
-    title: "Cómo crear un proyecto en Yarn en 5 MINUTOS"
-    link: https://www.youtube.com/watch?v=jCeQmuTrsmQ
+    title: "Como Instalar Yarn y Crear un Proyecto 2023"
+    link: https://www.youtube.com/watch?v=7jbDE22Fcz8
 alura-contents:
   - type: ARTICLE
     title: "Creando y publicando una biblioteca Javascript en el NPM"

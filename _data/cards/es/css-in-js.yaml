@@ -3,23 +3,26 @@ logo:
 short-description:
 key-objectives:
   - CSS-in-JS se refiere a un patrón en el que CSS se compone utilizando JavaScript en lugar de definirse en archivos externos.
-  - Manejar de código CSS usando JavaScript
-  - Usar componentes con estilo
+  - Manejar código CSS usando JavaScript
+  - Usar styled-components
   - Conocer Styled-JSX
 aditional-objectives:
 contents:
   - type: SITE
-    title: "React: Documentación - Estilo y CSS"
-    link: https://reactjs.org/docs/faq-styling.html
+    title: "React: Nueva documentación - Aplicar estilos CSS"
+    link: https://react.dev/reference/react-dom/components/common#applying-css-styles
   - type: SITE
     title: "Microsoft Docs: edición de estilo para marcos CSS-in-JS"
     link: https://learn.microsoft.com/es-es/microsoft-edge/devtools-guide-chromium/css/css-in-js
   - type: SITE
     title: "Compatibilidad con CSS-in-JS en DevTools"
     link: https://developer.chrome.com/blog/css-in-js/
+  - type: SITE
+    title: "Compatibilidad con CSS en DevTools"
+    link: https://learn.microsoft.com/es-mx/microsoft-edge/devtools-guide-chromium/css/css-in-js#css-support-in-devtools
   - type: ARTICLE
-    title: "Un análisis exhaustivo de CSS-in-JS"
-    link: https://css-tricks.com/a-thorough-analysis-of-css-in-js/
+    title: "El caso de CSS-in-JS"
+    link: https://octuweb.com/css-in-js/
   - type: ARTICLE
     title: "Conceptos básicos de Styled Components"
     link: https://dev.to/alfredocu/styled-components-basics-spanish-jdn
