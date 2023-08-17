@@ -102,18 +102,18 @@ export default {
       "label": "Back-end",
       "value": "back-end"
     },
-    {
+/*    {
       "label": "Mobile",
       "value": "mobile"
-    },
+    },*/
     {
-      "label": "Dados",
+      "label": "Datos",
       "value": "data"
     },
-    {
+/*    {
       "label": "Outros",
       "value": "others"
-    },
+    },*/
   ],
   "IMAGES.DISCOVER_IMAGE": "/assets/image/discover-illustration-es.svg",
   

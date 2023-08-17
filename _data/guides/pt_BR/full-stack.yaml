@@ -55,7 +55,7 @@ expertise:
         priority: 8
       - javascript-storage:
         priority: 8
-      - next-fundamentals:
+      - nextjs-fundamentals:
         priority: 7
         optional: true
       - python-api:
@@ -88,7 +88,7 @@ expertise:
       - apollo-client:
         priority: 6
         optional: true
-      - nest-fundamentals:
+      - nestjs-fundamentals:
         priority: 7
         optional: true
       - kafka:
