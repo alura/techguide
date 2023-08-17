@@ -1,5 +1,21 @@
 # Cibersegurança
 ## Nivel 1
+- [ ] **Linha de comando - Fundamentos**:
+   - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
+   - Conhecer os principais comandos
+- [ ] **Python - Fundamentos**:
+   - Python é uma linguagem de programação de alto nível, de uso geral, amplamente utilizada em aplicações web, desenvolvimento de software, ciência de dados e Machine Learning. Sua filosofia de projeto enfatiza a legibilidade do código com o uso de indentação significativa. Python é dinamicamente tipada e tem um garbage collector.
+   - Conhecer os tipos primitivos
+   - Declarar variáveis, considerando os diferentes tipos
+   - Usar estruturas condicionais ('if', 'else')
+   - Conhecer os operadores de atribuição e comparação
+   - Usar estruturas de repetição e laços ('while', 'for')
+   - Usar funções, passando parâmetros e argumentos
+   - Manipular métodos
+   - Manipular arrays e listas
+   - Obter dados de uma API
+   - Criar construtores
+   - Funções anônimas
 - [ ] **Criptografia - Fundamentos**:
    - Criptografia em segurança virtual é a conversão de dados de um formato legível em um formato codificado. Os dados criptografados só podem ser lidos ou processados ​​depois de serem descriptografados.
 - [ ] **Framework de Cibersegurança**:
@@ -72,19 +88,6 @@
 - [ ] **Segurança Contínua - Automação e Monitoramento**:
    - O monitoramento contínuo de segurança é uma abordagem de segurança que envolve a automatização de uma parte significativa do gerenciamento de segurança. Isso inclui detecção de vulnerabilidades, monitoramento de configurações de nuvem, identidades e seus direitos e segurança de dados.
 ## Habilidade Auxiliar: Sistemas e tecnologias 
-- [ ] **Python - Fundamentos**:
-   - Python é uma linguagem de programação de alto nível, de uso geral, amplamente utilizada em aplicações web, desenvolvimento de software, ciência de dados e Machine Learning. Sua filosofia de projeto enfatiza a legibilidade do código com o uso de indentação significativa. Python é dinamicamente tipada e tem um garbage collector.
-   - Conhecer os tipos primitivos
-   - Declarar variáveis, considerando os diferentes tipos
-   - Usar estruturas condicionais ('if', 'else')
-   - Conhecer os operadores de atribuição e comparação
-   - Usar estruturas de repetição e laços ('while', 'for')
-   - Usar funções, passando parâmetros e argumentos
-   - Manipular métodos
-   - Manipular arrays e listas
-   - Obter dados de uma API
-   - Criar construtores
-   - Funções anônimas
 - [ ] **Redes de Computadores - Fundamentos**:
    - Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.
    - Configurações de redes são essenciais para que seja possível acessar uma aplicação, principalmente se ela estiver na nuvem.
@@ -104,9 +107,6 @@
    - Conhecer a diferença entre IaaS, PaaS e SaaS
    - Conhecer os maiores provedores de cloud
    - Especializar-se em algum provedor
-- [ ] **Linha de comando - Fundamentos**:
-   - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
-   - Conhecer os principais comandos
 - [ ] **Linux - Fundamentos**:
    - Linux é um termo popularmente empregado para se referir a sistemas operacionais que utilizam o Kernel Linux. As distribuições incluem o Kernel Linux, além de softwares de sistema e bibliotecas.
    - Conhecer o sistema de diretórios do Linux

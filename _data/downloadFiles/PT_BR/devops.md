@@ -33,11 +33,14 @@
    - Conhecer a diferença entre IaaS, PaaS e SaaS
    - Conhecer os maiores provedores de cloud
    - Especializar-se em algum provedor
-- [ ] **Montando Scripts**:
-   - Automatizar tarefas repetitivas utilizando as linguagens disponibilizadas pelo terminal.
-   - Criação de tarefas com execução automática
-   - Automatizar a configuração e instalação de aplicações em novos sistemas
-   - Usar o PowerShell
+
+- [ ] **Redes de Computadores - Fundamentos**:
+   - Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.
+   - Configurações de redes são essenciais para que seja possível acessar uma aplicação, principalmente se ela estiver na nuvem.
+   - Entenda melhor os componentes de rede e a suas atribuições
+   - Diferenciar os serviços disponibilizados a nível de rede
+   - Saber as diferenças entre as camadas de rede
+   - Saber o que é servidor web, proxy reverso e load balancer
 ## Nivel 2
 - [ ] **Contêineres**:
    - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente. Gerenciamento de contêineres é uma área crucial na computação em nuvem e DevOps, que envolve o uso de tecnologias para automatizar o processo de criação, implantação, escalonamento e monitoramento de contêineres. Contêineres são unidades de software padronizadas que permitem aos desenvolvedores empacotar todas as dependências de um aplicativo (código, bibliotecas, configurações, etc.) em um único pacote. Isso permite que o aplicativo seja executado de forma consistente em qualquer ambiente de infraestrutura.
@@ -62,13 +65,6 @@
    - Executar testes automatizados da aplicação para verificar seu funcionamento.
    - Realizar a entrega de atualizações de forma automatica e com segurança.
    - Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.
-- [ ] **Redes de Computadores - Fundamentos**:
-   - Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.
-   - Configurações de redes são essenciais para que seja possível acessar uma aplicação, principalmente se ela estiver na nuvem.
-   - Entenda melhor os componentes de rede e a suas atribuições
-   - Diferenciar os serviços disponibilizados a nível de rede
-   - Saber as diferenças entre as camadas de rede
-   - Saber o que é servidor web, proxy reverso e load balancer
 - [ ] **SQL - Fundamentos**:
    - SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.
    - Conhecer os comandos mais comuns do SQL

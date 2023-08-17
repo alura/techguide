@@ -83,48 +83,6 @@
    - Inicie criando um novo projeto Vue com Vue CLI ou Vite.
    - Crie   componentes Vue e entenda como estruturá-los usando Options API ou Composition API.
    - Veja como a navegação com Vue Router e gerenciamento de estado com Pinea podem ser úteis em SPAs escritas em Vue.
-## Nivel 2
-- [ ] **Vue - Composition API a fundo**:
-   - Comece entendendo a função setup() e o conceito de reatividade no Vue 3.
-   - Domine ref e reactive, os principais elementos para gerenciar estados reativos.
-   - Aprenda a usar computed para trabalhar com propriedades calculadas.
-   - Explore o uso de watch e watchEffect para reagir às mudanças de estado.
-   - Entenda os hooks do ciclo de vida para controlar o comportamento do componente em diferentes fases.
-   - Crie e exponha funções a partir da função setup.
-   - Aprenda a usar props dentro da setup e como lidar com as diretivas no template.
-   - Implemente a lógica reutilizável através de Composables.
-   - Aprenda as melhores práticas e padrões comuns ao usar a Composition API.
-- [ ] **Vue - Componentes assíncronos**:
-   - Compreenda o que são e por que usar componentes assíncronos no Vue.
-   - Aprenda a criar um componente assíncrono básico usando a função defineAsyncComponent.
-   - Domine a renderização de um estado de loading enquanto o componente assíncrono é carregado.
-   - Implemente o tratamento de erros ao carregar o componente assíncrono.
-   - Aplique lazy loading nos seus componentes para melhorar a performance da aplicação.
-   - Use componentes assíncronos com Vue Router para carregar rotas sob demanda.
-- [ ] **Vue - Teleporte**:
-   - Entenda o que é o Teleport e qual problema ele resolve no Vue.
-   - Aprenda a usar o componente <teleport> para renderizar conteúdo em um local diferente do DOM.
-   - Domine a propriedade 'to' do Teleport, usada para especificar o local de destino no DOM.
-   - Explore como usar diretivas como v-if para controlar a renderização do conteúdo teleportado.
-   - Experimente casos de uso avançados, como teleportar modais, tooltips, notificações e muito mais.
-- [ ] **Vue - Design System**:
-   - Compreenda o conceito de um design system e sua importância para manter a consistência e escalabilidade em projetos grandes.
-   - Conheça algumas das bibliotecas de UI mais populares no Vue, como Vuetify, Quasar, Buefy, e Vue Material.
-   - Avalie as bibliotecas disponíveis baseado em suas necessidades - considere o tamanho da biblioteca, a comunidade por trás dela, a frequência de atualizações e se ela atende aos requisitos do seu projeto.
-   - Escolha uma biblioteca e aprenda como instalar e configurar no seu projeto Vue.
-   - Comece a usar os componentes disponíveis na biblioteca. Isso geralmente inclui botões, formulários, cards, entre outros.
-   - Aprenda como personalizar componentes para adequá-los ao seu design system.
-   - Se necessário, aprenda a criar seus próprios componentes que estejam em conformidade com o design system.
-   - Documente seus componentes e use ferramentas como Storybook para facilitar a comunicação entre designers e desenvolvedores.
-   - Entenda como manter a biblioteca do seu design system atualizada e consistente ao longo do tempo.
-   - Aprenda como integrar seu design system com outras partes do seu projeto, como Vuex para gerenciamento de estado, Vue Router para roteamento, entre outros.
-- [ ] **Vue Devtools**:
-   - Comece instalando a extensão Vue DevTools no seu navegador.
-   - Familiarize-se com a interface, aprendendo sobre as abas de Componentes, Vuex, Roteamento e Performance.
-   - Aprenda a inspecionar componentes, observando seus props, dados, e slots.
-   - Entenda como monitorar a store do Vuex | Pinia e o histórico de roteamento.
-   - Pratique a edição no local do estado da aplicação e o "time-travel debugging".
-   - Ajuste as configurações ao seu gosto e integre as DevTools com seu ambiente de desenvolvimento.
 - [ ] **Vue Forms**:
    - Comece aprendendo as bases dos formulários no Vue, incluindo v-model e como vincular diferentes tipos de campos de entrada (input binds).
    - Depois de dominar as bases, aprenda como o Vue 3 lida com as entradas do usuário e as diferenças em relação às versões anteriores.
@@ -149,6 +107,24 @@
    - Mergulhe no roteamento nomeado e aprenda como ele pode tornar o seu código mais fácil de entender e manter.
    - Explore os guardas de rota e como eles podem ser usados para controlar o acesso a certas rotas.
    - Aprenda a criar transições suaves entre as rotas com o elemento <transition> do Vue.
+## Nivel 2
+- [ ] **Vue - Composition API a fundo**:
+   - Comece entendendo a função setup() e o conceito de reatividade no Vue 3.
+   - Domine ref e reactive, os principais elementos para gerenciar estados reativos.
+   - Aprenda a usar computed para trabalhar com propriedades calculadas.
+   - Explore o uso de watch e watchEffect para reagir às mudanças de estado.
+   - Entenda os hooks do ciclo de vida para controlar o comportamento do componente em diferentes fases.
+   - Crie e exponha funções a partir da função setup.
+   - Aprenda a usar props dentro da setup e como lidar com as diretivas no template.
+   - Implemente a lógica reutilizável através de Composables.
+   - Aprenda as melhores práticas e padrões comuns ao usar a Composition API.
+- [ ] **Vue Devtools**:
+   - Comece instalando a extensão Vue DevTools no seu navegador.
+   - Familiarize-se com a interface, aprendendo sobre as abas de Componentes, Vuex, Roteamento e Performance.
+   - Aprenda a inspecionar componentes, observando seus props, dados, e slots.
+   - Entenda como monitorar a store do Vuex | Pinia e o histórico de roteamento.
+   - Pratique a edição no local do estado da aplicação e o "time-travel debugging".
+   - Ajuste as configurações ao seu gosto e integre as DevTools com seu ambiente de desenvolvimento.
 - [ ] **Vue - Estilizando componentes**:
    - Comece pelo básico, aplicando folhas de estilo CSS externas ao seu projeto Vue.
    - Vá um pouco mais fundo e aprenda sobre o atributo "scoped" no Vue, que permite que você direcione estilos especificamente para um único componente.
@@ -183,6 +159,21 @@
    - Usar 'try' e 'catch' para tratamento de erros
    - Em que ocasiões e de que forma utilizar o `throw`
    - Criar exceções específicas de acordo com a necessidade de sua aplicação
+- [ ] **Vue - Testes**:
+   - Testes unitários são testes que validam a funcionalidade de partes individuais do seu código.
+   - Testes E2E simulam a experiência do usuário ao interagir com a aplicação, garantindo que todos os componentes funcionem juntos como esperado.
+   - Vue Test Utils é a biblioteca oficial para testes de componentes Vue.
+   - Aprenda a escrever testes básicos para seus componentes Vue, verificando se eles são renderizados corretamente.
+   - Os métodos dos componentes são partes cruciais do código que muitas vezes contêm lógica complexa. Aprenda a testá-los efetivamente.
+   - A injeção de dependência pode facilitar o teste de partes do seu código que dependem de serviços ou outros componentes.
+   - Se você estiver usando Vuex, Pinia ou Vue Router em seu aplicativo, aprender a lidar com eles nos testes é crucial.
+   - Cypress é uma ferramenta comum para realizar testes E2E em aplicações web, incluindo Vue. Instale e configure o Cypress para o seu projeto.
+   - Comece a escrever testes que simulam ações do usuário, como clicar em botões, preencher formulários e navegar entre as páginas.
+   - Os comandos personalizados ajudam a simplificar os testes, evitando a repetição de códigos de teste.
+   - Aprenda a manipular e testar diferentes estados da sua aplicação, como usuários logados e deslogados.
+   - Integre seus testes E2E ao seu processo de integração contínua/deploy contínuo (CI/CD) para garantir que sua aplicação esteja sempre funcionando como esperado.
+- [ ] **Cypress**:
+   - Criar e executar testes
 - [ ] **Babel - Fundamentos**:
    - Babel é um compilador JavaScript. É uma ferramentas usada principalmente para converter código ECMAScript 2015+ em uma versão compatível com versões anteriores do JavaScript em navegadores ou ambientes atuais e mais antigos.
    - Compreender como Babel converte a sintaxe para JavaScript
@@ -198,6 +189,19 @@
    - Familiarize-se com as diretivas v-once e v-memo e quando utilizá-las para otimizar a renderização de componentes.
    - Aprenda sobre otimizações gerais como a virtualização de listas grandes, reduzindo a sobrecarga de reatividade para grandes estruturas imutáveis, e evitando abstrações de componentes desnecessárias.
    - Entenda como a virtualização pode ser usada para exibir eficientemente grandes listas de dados, reduzindo a sobrecarga de renderização.
+- [ ] **Vue - Componentes assíncronos**:
+   - Compreenda o que são e por que usar componentes assíncronos no Vue.
+   - Aprenda a criar um componente assíncrono básico usando a função defineAsyncComponent.
+   - Domine a renderização de um estado de loading enquanto o componente assíncrono é carregado.
+   - Implemente o tratamento de erros ao carregar o componente assíncrono.
+   - Aplique lazy loading nos seus componentes para melhorar a performance da aplicação.
+   - Use componentes assíncronos com Vue Router para carregar rotas sob demanda.
+- [ ] **Vue - Teleporte**:
+   - Entenda o que é o Teleport e qual problema ele resolve no Vue.
+   - Aprenda a usar o componente <teleport> para renderizar conteúdo em um local diferente do DOM.
+   - Domine a propriedade 'to' do Teleport, usada para especificar o local de destino no DOM.
+   - Explore como usar diretivas como v-if para controlar a renderização do conteúdo teleportado.
+   - Experimente casos de uso avançados, como teleportar modais, tooltips, notificações e muito mais.
 - [ ] **Vue Slots**:
    - Comece compreendendo o conceito de slots e como eles são usados para criar layouts personalizáveis e reutilizáveis em componentes Vue.
    - Aprenda a usar slots anônimos, que são os slots padrão que você usa quando deseja inserir conteúdo personalizado no componente.
@@ -240,29 +244,6 @@
    - Saiba como reagir às mudanças nos valores fornecidos usando um objeto reativo ou ref.
    - Aprenda a lidar com situações em que vários ancestrais fornecem a mesma chave.
    - Embora seja uma ferramenta poderosa, o Provide / Inject deve ser usado com moderação. Entenda quando é apropriado usá-lo e quando é melhor evitar.
-- [ ] **Vue - Capacitor**:
-   - O Capacitor é uma plataforma de execução de aplicativos da Web moderna que permite que você crie aplicativos da Web progressivos (PWA) ou híbridos, mas com acesso a APIs nativas. Integrá-lo ao Vue pode tornar seus aplicativos mais poderosos.
-   - Aprenda o que é o Capacitor e como ele se encaixa no ecossistema de aplicativos da Web modernos.
-   - Aprenda a integrar o Capacitor em um novo ou existente projeto Vue. Esse processo pode envolver a configuração de um novo projeto Vue ou a adição do Capacitor a um projeto Vue existente.
-   - O Capacitor fornece uma série de APIs nativas que você pode usar para adicionar funcionalidades nativas ao seu aplicativo Vue. Aprenda a usar essas APIs nativas.
-   - Uma vez que seu aplicativo está pronto, você pode compilá-lo para iOS, Android ou PWA. Aprenda a compilar e depurar seu aplicativo em diferentes plataformas.
-   - A capacidade do Capacitor de se estender através de plugins é uma de suas principais características. Entenda a arquitetura de plug-in e como criar seu próprio plug-in.
-- [ ] **Vue - Testes de unidade**:
-   - Testes unitários são testes que validam a funcionalidade de partes individuais do seu código.
-   - Vue Test Utils é a biblioteca oficial para testes de componentes Vue.
-   - Aprenda a escrever testes básicos para seus componentes Vue, verificando se eles são renderizados corretamente.
-   - Os métodos dos componentes são partes cruciais do código que muitas vezes contêm lógica complexa. Aprenda a testá-los efetivamente.
-   - A injeção de dependência pode facilitar o teste de partes do seu código que dependem de serviços ou outros componentes.
-   - Se você estiver usando Vuex, Pinia ou Vue Router em seu aplicativo, aprender a lidar com eles nos testes é crucial.
-- [ ] **Vue - Testes fim-a-fim**:
-   - Testes E2E simulam a experiência do usuário ao interagir com a aplicação, garantindo que todos os componentes funcionem juntos como esperado.
-   - Cypress é uma ferramenta comum para realizar testes E2E em aplicações web, incluindo Vue. Instale e configure o Cypress para o seu projeto.
-   - Comece a escrever testes que simulam ações do usuário, como clicar em botões, preencher formulários e navegar entre as páginas.
-   - Os comandos personalizados ajudam a simplificar os testes, evitando a repetição de códigos de teste.
-   - Aprenda a manipular e testar diferentes estados da sua aplicação, como usuários logados e deslogados.
-   - Integre seus testes E2E ao seu processo de integração contínua/deploy contínuo (CI/CD) para garantir que sua aplicação esteja sempre funcionando como esperado.
-- [ ] **Cypress**:
-   - Criar e executar testes
 ## Habilidade Auxiliar: Infraestrutura e Back-end 
 - [ ] **Git e GitHub - Fundamentos**:
    - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.

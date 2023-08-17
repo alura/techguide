@@ -168,6 +168,11 @@
    - Inspecionar o Layout, recursos do sistema como processador, memória e rede
    - Depurar o banco de dados do app e arquivos APKs pré-compilados
    - Analisar o build com o analizador de APK
+- [ ] **Android - Implantação (Deployment)**:
+   - O deployment ou implantação é o processo de disponibilizar um aplicativo Android para os usuários. Existem várias maneiras de fazer isso, um deles é o uso da Play Store. Ela permite que os desenvolvedores distribuam seus aplicativos para um público global.
+   - Conhecer os conceitos básicos de deployment de aplicativos Android;
+   - Criar uma conta de Google Developer;
+   - Usar a Play Store para distribuir aplicativos Android para um público global.
 ## Habilidade Auxiliar: Infraestrutura e boas práticas 
 - [ ] **Git e GitHub - Fundamentos**:
    - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.

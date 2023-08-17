@@ -55,7 +55,7 @@
    - Inserir um novo elemento na árvore
    - Remover um elemento da árvore
    - Esperar por um evento em certo elemento da página usando 'addEventListener()'
-- [ ] **Criar uma aplicação React**:
+- [ ] **Criando uma aplicação React**:
    - Estruturar um novo projeto React
    - Criar uma aplicação funcional do zero
 - [ ] **Conceitos de Orientação a Objetos**:
@@ -69,6 +69,10 @@
    - O que é polimorfismo
    - Como funcionam interfaces
    - O que são abstrações
+- [ ] **Estruturas de Dados**:
+   - No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.
+   - Conhecer as principais estruturas de dados
+   - Implementar as principais estruturas de dados
 - [ ] **Java - Fundamentos**:
    - Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.
    - Conhecer os tipos primitivos
@@ -98,9 +102,6 @@
 - [ ] **Acessibilidade em Javascript**:
    - Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e portais sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas.
    - Escrever código com acessibilidade em mente
-- [ ] **Linha de comando - Fundamentos**:
-   - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
-   - Conhecer os principais comandos
 - [ ] **Angular - Fundamentos**:
    - Angular é uma framework de construção de aplicações e plataforma de desenvolvimento construído em TypeScript para criar aplicações eficientes e sofisticadas de página única (SPA).
    - Construir interfaces utilizando HTML, CSS e TypeScript
@@ -135,10 +136,6 @@
    - Usar testes de integração
    - Usar testes de comportamento (behavior)
    - Usar mocks
-- [ ] **Estruturas de Dados**:
-   - No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.
-   - Conhecer as principais estruturas de dados
-   - Implementar as principais estruturas de dados
 - [ ] **JavaScript - Callbacks e Promises**:
    - Uma promessa (Promise) é um proxy para um valor não necessariamente conhecido quando a promessa é criada. Isso permite que métodos assíncronos retornem valores como métodos síncronos - em vez de retornar imediatamente o valor final, o método assíncrono retorna uma promessa de fornecer o valor em algum momento no futuro.
    - Uma função de Callback é uma função passada para outra função como um argumento, que é então invocado dentro da função externa para completar algum tipo de rotina ou ação.
@@ -290,6 +287,9 @@
    - Conhecer e aplicar os principais Design Patterns
 - [ ] **Clean Architecture**:
    - A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.
+- [ ] **Linha de comando - Fundamentos**:
+   - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
+   - Conhecer os principais comandos
 - [ ] **Cloud - Fundamentos**:
    - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
    - Conhecer a diferença entre IaaS, PaaS e SaaS
