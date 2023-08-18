@@ -10,6 +10,9 @@ key-objectives:
 - Conocer la java.io
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "Java.Lang Espacio de nombres"
+    link: https://learn.microsoft.com/es-es/dotnet/api/java.lang?view=xamarin-android-sdk-13
   - type: ARTICLE
     title: "Java - Paquetes"
     link: https://www.arkaitzgarro.com/java/capitulo-19.html
@@ -19,7 +22,7 @@ contents:
   - type: YOUTUBE
     title: "Crear y utilizar nuestros propios paquetes de Java"
     link: https://www.youtube.com/watch?v=y2OZYSSoysY
-  - type: ARTICLE
-    title: "Package java.lang - paquete con las clases fundamentales para el diseño de Java"
-    link: https://docs.oracle.com/en/java/javase/19/docs/api/java.base/java/lang/package-summary.html
 alura-contents:
+  - type: COURSE
+    title: "Java y java.lang: Programe con la clase Object y String"
+    link: https://app.aluracursos.com/course/java-lang-clase-object-string
