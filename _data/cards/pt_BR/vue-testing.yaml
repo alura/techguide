@@ -1,20 +1,34 @@
-name: Vue - Testes fim-a-fim  
+name: Vue - Testes
 logo: 
 short-description:
 key-objectives:
+  - Testes unitários são testes que validam a funcionalidade de partes individuais do seu código.
   - Testes E2E simulam a experiência do usuário ao interagir com a aplicação, garantindo que todos os componentes funcionem juntos como esperado.
+  - Vue Test Utils é a biblioteca oficial para testes de componentes Vue.
+  - Aprenda a escrever testes básicos para seus componentes Vue, verificando se eles são renderizados corretamente.
+  - Os métodos dos componentes são partes cruciais do código que muitas vezes contêm lógica complexa. Aprenda a testá-los efetivamente.
+  - A injeção de dependência pode facilitar o teste de partes do seu código que dependem de serviços ou outros componentes.
+  - Se você estiver usando Vuex, Pinia ou Vue Router em seu aplicativo, aprender a lidar com eles nos testes é crucial.
   - Cypress é uma ferramenta comum para realizar testes E2E em aplicações web, incluindo Vue. Instale e configure o Cypress para o seu projeto.
   - Comece a escrever testes que simulam ações do usuário, como clicar em botões, preencher formulários e navegar entre as páginas.
   - Os comandos personalizados ajudam a simplificar os testes, evitando a repetição de códigos de teste.
   - Aprenda a manipular e testar diferentes estados da sua aplicação, como usuários logados e deslogados.
   - Integre seus testes E2E ao seu processo de integração contínua/deploy contínuo (CI/CD) para garantir que sua aplicação esteja sempre funcionando como esperado.
-  
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "Vue: Documentação - Testes de unidade"
+    link: https://vuejs.org/guide/scaling-up/testing.html#unit-testing
   - type: SITE
     title: "Vue: Documentação - Testes fim-a-fim"
     link: https://vuejs.org/guide/scaling-up/testing.html#e2e-testing
 alura-contents:
+  - type: ARTICLE
+    title: "Desmistificando testes de unidade no Vue"
+    link: https://www.alura.com.br/artigos/desmistificando-testes-de-unidade-no-vue
+  - type: ARTICLE
+    title: "Entrega e integração contínua de aplicações Vue"
+    link: https://www.alura.com.br/artigos/entrega-e-integracao-continua-de-aplicacoes-vue
   - type: YOUTUBE
     title: "Alura: Testes em Javascript - Alura Live 50"
     link: https://www.youtube.com/watch?v=r1rndQwFLMY

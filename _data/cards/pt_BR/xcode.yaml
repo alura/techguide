@@ -1,0 +1,36 @@
+name: Xcode
+logo:
+short-description:
+key-objectives:
+  - O Xcode é a ferramenta que os desenvolvedores usam para criar apps para o ecossistema da Apple – MacOS, iOS e todos os produtos da Apple.
+  - Conhecer a ferramenta Xcode;
+  - Criar um novo projeto;
+  - Usar o emulador;
+  - Debugar seu código;
+  - "Debugar é o processo de encontrar e corrigir erros em um aplicativo. É uma parte essencial do desenvolvimento de software e é importante saber como fazer debugging de forma eficaz. O Xcode é o IDE oficial da Apple para desenvolvedores iOS. Ele inclui uma série de ferramentas integradas que podem ser usadas para debugging de aplicativos, incluindo um depurador, um analisador de memória e um analisador de desempenho. Veja as principais habilidades que você precisa desenvolver:"
+  - Conhecer as ferramentas e técnicas mais comuns para debugging de aplicativos iOS;
+  - Usar as ferramentas e técnicas mais comuns para debugging de aplicativos iOS para encontrar e corrigir erros.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Apple: Kit do Xcode"
+    link: https://www.apple.com/br/education/docs/xcode-guide.pdf
+  - type: ARTICLE
+    title: "Como baixar e instalar o Xcode no seu Mac e como atualizá-lo para o desenvolvimento em iOS"
+    link: https://www.freecodecamp.org/portuguese/news/como-baixar-e-instalar-o-xcode-no-seu-mac-e-como-atualiza-lo-para-o-desenvolvimento-em-ios/
+  - type: ARTICLE
+    title: "Não te ensinaram a usar o debugger | Medium"
+    link: https://medium.com/@dinhani/debugando-com-o-debugger-aba48a1de694
+  - type: YOUTUBE
+    title: "Tiago Aguiar: Xcode - Como criar um aplicativo iOS do zero"
+    link: https://www.youtube.com/watch?v=t8JI3Ur51zY&ab_channel=TiagoAguiar
+  - type: YOUTUBE
+    title: "Dicas para debug no Xcode 13 (inglês) | iOS Academy"
+    link: https://youtu.be/ZAqnJQn7xp4
+  - type: YOUTUBE
+    title: "XCode Breakpoints - Debug básico (inglês) | Sean Allen"
+    link: https://youtu.be/qPWfOkHcKdU
+  - type: YOUTUBE
+    title: "Improve Debugging Skills | iOS | Swift/Obj C | Xcode (inglês) | iCode"
+    link: https://youtu.be/ipuxycB1ewY
+alura-contents:

@@ -15,7 +15,9 @@ expertise:
       - cloud-fundamentals:
         priority: 9
       - scripting:
-        priority: 9  
+        priority: 9
+      - computer-networks-fundamentals:
+        priority: 8
   - name: DevOps Mid
     cards:
       - containers:
@@ -23,8 +25,6 @@ expertise:
       - infra-as-code:
         priority: 8
       - ci-cd:
-        priority: 8
-      - computer-networks-fundamentals:
         priority: 8
       - sql-fundamentals:
         priority: 7

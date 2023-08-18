@@ -22,6 +22,8 @@ expertise:
         priority: 8
   - name: Artificial Intelligence Mid
     cards:
+      - time-series-forecasting:
+        priority: 10
       - deep-learning:
         priority: 10
       - computer-vision:
@@ -49,8 +51,6 @@ expertise:
     cards:
       - natural-language-processing:
         priority: 10
-      - time-series-forecasting:
-        priority: 8
       - recurrent-neural-networks:
         priority: 8
       - generative-adversarial-networks:

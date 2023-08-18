@@ -68,7 +68,7 @@
    - Controlar o estado de componentes
    - Manipular variáveis
    - Atualizar o valor de elementos
-- [ ] **Criar uma aplicação React**:
+- [ ] **Criando uma aplicação React**:
    - Estruturar um novo projeto React
    - Criar uma aplicação funcional do zero
 - [ ] **React Hooks - Effect**:
