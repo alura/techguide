@@ -12,7 +12,6 @@ key-objectives:
   - Manipular métodos
   - Manipular arrays e listas
   - Obter dados de uma API
-  - Fazer chamadas assíncronas 'Future', etc
   - Criar construtores
 aditional-objectives:
   - Manipular objetos JSON
@@ -70,15 +69,9 @@ alura-contents:
   - type: YOUTUBE
     title: "Alura: O que é o Java?"
     link: https://www.youtube.com/watch?v=90NcVNsKGik
-  - type: YOUTUBE
-    title: "Alura: Curso de 'O básico de Java' - Aula 1"
-    link: https://www.youtube.com/watch?v=38BwTaGmnFg
   - type: COURSE
     title: "Formação Java e Orientação a Objetos"
     link: https://cursos.alura.com.br/formacao-java
-  - type: COURSE
-    title: "Formação Java JRE e JDK: compile e execute o seu programa"
-    link: https://cursos.alura.com.br/course/java-primeiros-passos
   - type: CHALLENGE
     title: "7 Days of Code: Java"
     link: https://7daysofcode.io/matricula/java
