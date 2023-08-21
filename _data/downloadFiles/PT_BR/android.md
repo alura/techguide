@@ -157,7 +157,6 @@
    - Manipular métodos
    - Manipular arrays e listas
    - Obter dados de uma API
-   - Fazer chamadas assíncronas 'Future', etc
    - Criar construtores
 - [ ] **Android - Depuração**:
    - Durante o desenvolvimento de um app, é bastante comum a presença de bugs inesperados, como também, a falta de compreensão do motivo do bug. Para agilizar a análise e investigação de problemas ou comportamentos inesperados no app, precisamos aprender a depurar ou debuggar um app Android.
