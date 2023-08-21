@@ -54,6 +54,8 @@
 - [ ] **Naive Bayes**:
    - Naive Bayes é um algoritmo de aprendizado de máquina comumente utilizado para classificação de texto e análise de sentimentos. Ele é baseado no teorema de Bayes, que descreve a probabilidade condicional de um evento ocorrer, dado que outro evento já ocorreu.
 ## Nivel 2
+- [ ] **Previsão de Séries temporais**:
+   - A previsão de séries temporais (Time series Forecasting), também conhecida como previsão temporal, é uma técnica de análise estatística que envolve a previsão de valores futuros ou padrões com base em dados históricos ordenados no tempo. Em uma série temporal, os dados são coletados sequencialmente em intervalos regulares, como horários, diários, mensais ou anuais, e exibem dependências temporais.
 - [ ] **Deep Learning**:
    - Deep Learning é um ramo de Machine Learning baseado em um conjunto de algoritmos que tentam modelar abstrações de alto nível de dados usando um grafo profundo com várias camadas de processamento, compostas de várias transformações lineares e não lineares.
    - Construir e treinar modelos com Keras
@@ -101,8 +103,6 @@
    - Utilizar Regex em PLN
    - Conhecer o Word2Vec
    - Combinar vetores de palavras para representar textos e classificá-los
-- [ ] **Previsão de Séries temporais**:
-   - A previsão de séries temporais (Time series Forecasting), também conhecida como previsão temporal, é uma técnica de análise estatística que envolve a previsão de valores futuros ou padrões com base em dados históricos ordenados no tempo. Em uma série temporal, os dados são coletados sequencialmente em intervalos regulares, como horários, diários, mensais ou anuais, e exibem dependências temporais.
 - [ ] **Redes Neurais Recorrentes**:
    - Redes Neurais Recorrentes (em inglês, Recurrent Neural Networks ou RNNs) são uma classe de redes neurais artificiais projetadas para lidar com dados sequenciais, como séries temporais, texto e fala. Ao contrário das redes neurais tradicionais, as RNNs têm conexões recorrentes que permitem que as informações sejam propagadas ao longo do tempo, permitindo que elas capturem dependências temporais em sequências de dados.
    - LSTM (Long Short-Term Memory) é uma arquitetura de rede neural recorrente (RNN) projetada para superar as limitações das RNNs tradicionais na modelagem de dependências de longo prazo em sequências de dados.

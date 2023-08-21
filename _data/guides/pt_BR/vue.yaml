@@ -28,25 +28,19 @@ expertise:
         priority: 9
       - create-vue-app:
         priority: 7
+      - vue-forms:
+        priority: 6
+      - vue-events:
+        priority: 6
+      - vue-router:
+        priority: 6
   - name: Vue Mid
     cards:
       - vue-composition-api-deep-dive:
         priority: 7
-      - vue-async-components:
-        priority: 9
-      - vue-teleport:
-        priority: 10
-      - vue-design-system-libraries:
-        priority: 4
       - vue-dev-tools:
         priority: 5
         optional: true
-      - vue-forms:
-        priority: 5
-      - vue-events:
-        priority: 5
-      - vue-router:
-        priority: 5
       - vue-styling:
         priority: 5
       - vue-api-calls:
@@ -55,13 +49,21 @@ expertise:
         priority: 8
       - javascript-errorhandling:
         priority: 7
+      - vue-testing:
+        priority: 9
+      - cypress:
+        priority: 7
       - babel-fundamentals:
         priority: 6
-        optional: true      
+        optional: true
   - name: Vue in depth
     cards:
       - vue-performance:
         priority: 10
+      - vue-async-components:
+        priority: 8
+      - vue-teleport:
+        priority: 8
       - vue-slots:
         priority: 5
       - vue-quasar:
@@ -72,14 +74,8 @@ expertise:
         priority: 5
       - vue-provide-inject:
         priority: 5
-      - vue-capacitor:
-        priority: 5
-      - vue-unit-testing:
-        priority: 10
-      - vue-e2e-testing:
-        priority: 10
-      - cypress:
-        priority: 6
+#      - vue-capacitor:
+#        priority: 5
 collaboration:
   - name: Infraestrutura e Back-end
     cards:

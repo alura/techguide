@@ -37,8 +37,8 @@
    - Conhecer o conceito de ViewCode e como ele é usado para criar aplicativos iOS;
    - Criar e usar ViewCode para criar layouts de interface do usuário;
    - Explorar os princípios de Auto Layout com ViewCode.
-- [ ] **iOS - Recursos do App**:
-   - Os recursos do app em iOS são os ativos visuais que são usados para representar o seu app. Estes recursos incluem ícones, imagens, fontes e outros tipos de arquivos. Os recursos do app são importantes porque eles ajudam os usuários a identificar e se conectar com o seu app. Eles também podem ser usados para melhorar a estética do seu app e torná-lo mais atraente para os usuários. Veja as principais habilidades que você precisa desenvolver:
+- [ ] **iOS - Imagens e Ícones**:
+   - Os recursos do app em iOS são os ativos visuais que são usados para representar o seu app. Estes recursos incluem ícones, imagens, fontes e outros tipos de arquivos. Os recursos do app são importantes porque eles ajudam os usuários a identificar e se conectar com o seu app. Eles também podem ser usados para melhorar a estética do seu app e torná-lo mais atraente para os usuários. Veja as principais habilidades que você precisa desenvolver.
    - Conhecer os diferentes tipos de recursos de aplicativos iOS, como imagens, ícones e outros recursos;
    - Adicionar e usar imagens, ícones e outros recursos em aplicativos iOS;
    - Personalizar recursos de aplicativos iOS para diferentes dispositivos e resoluções de tela.
@@ -47,30 +47,35 @@
    - Conhecer os diferentes tipos de persistência de dados no iOS, como arquivos, Core Data, SwiftData e Realm;
    - Armazenar e recuperar dados em um aplicativo iOS usando arquivos, Core Data, SwiftData e Realm;
    - Personalizar a persistência de dados em um aplicativo iOS para diferentes necessidades.
+- [ ] **iOS - SwiftUI**:
+   - SwiftUI é uma biblioteca de interface de usuário declarativa para criar aplicativos iOS, iPadOS, macOS, watchOS e tvOS. Ele é construído sobre o UIKit e o AppKit, mas fornece uma maneira mais declarativa de criar interfaces de usuário. Isso torna mais fácil criar interfaces de usuário bonitas e envolventes. Veja as principais habilidades que você precisa desenvolver:
+   - Conhecer SwiftUI e como usá-lo para criar interfaces de usuário para aplicativos iOS;
+   - Usar combinações de componentes para criar layouts;
+   - Usar os métodos de navegação para adicionar mais versatilidade para seu app.
+- [ ] **Xcode**:
+   - O Xcode é a ferramenta que os desenvolvedores usam para criar apps para o ecossistema da Apple – MacOS, iOS e todos os produtos da Apple.
+   - Conhecer a ferramenta Xcode;
+   - Criar um novo projeto;
+   - Usar o emulador;
+   - Debugar seu código;
+   - Debugar é o processo de encontrar e corrigir erros em um aplicativo. É uma parte essencial do desenvolvimento de software e é importante saber como fazer debugging de forma eficaz. O Xcode é o IDE oficial da Apple para desenvolvedores iOS. Ele inclui uma série de ferramentas integradas que podem ser usadas para debugging de aplicativos, incluindo um depurador, um analisador de memória e um analisador de desempenho. Veja as principais habilidades que você precisa desenvolver:
+   - Conhecer as ferramentas e técnicas mais comuns para debugging de aplicativos iOS;
+   - Usar as ferramentas e técnicas mais comuns para debugging de aplicativos iOS para encontrar e corrigir erros.
+- [ ] **Estruturas de Dados**:
+   - No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.
+   - Conhecer as principais estruturas de dados
+   - Implementar as principais estruturas de dados
+## Nivel 2
+- [ ] **iOS - Assíncrono**:
+   - Assincronicidade é uma técnica de programação que permite que as tarefas sejam executadas em segundo plano, enquanto a interface do usuário continua a ser executada normalmente. Isso pode melhorar o desempenho dos aplicativos, pois evita que eles travem ou fiquem lentos enquanto aguardam a conclusão de tarefas demoradas. Uma das maneiras mais comuns de usar assincronicidade em iOS é usar os métodos async e await. Os métodos async e await permitem que você execute código em segundo plano e retorne para o código principal antes que a tarefa seja concluída. Isso pode ser útil para tarefas que demoram muito para serem concluídas, como baixar um arquivo grande ou processar uma imagem grande. Veja as principais habilidades que você precisa desenvolver:
+   - Conhecer os fundamentos da assincronicidade em iOS;
+   - Usar as classes OperationQueue e async e await para executar tarefas em segundo plano.
 - [ ] **iOS - Comunicação com APIs**:
    - As comunicações API em iOS são o processo de comunicação entre um aplicativo iOS e um serviço externo. Isso pode ser feito usando uma variedade de métodos, incluindo HTTP, HTTPS e Sockets. As comunicações API são importantes porque elas permitem que os aplicativos iOS acessem dados e recursos que não estão disponíveis no dispositivo local. Elas também podem ser usadas para compartilhar dados e recursos entre aplicativos iOS e serviços externos. Veja as principais habilidades que você precisa desenvolver:
    - Conhecer os diferentes tipos de APIs que podem ser usadas em aplicativos iOS;
    - Conhecer e utilizar bibliotecas/ferramentas para facilitar a comunicação a APIs, como o Alamofire, URLSession e Codable;
    - Escolher e usar APIs que sejam adequadas para as necessidades do seu aplicativo;
    - Testar comunicações API em diferentes condições para garantir que elas funcionem corretamente.
-- [ ] **iOS - Bibliotecas de terceiros**:
-   - As bibliotecas de terceiros mais utilizadas em iOS são aquelas que fornecem funcionalidades adicionais ao SDK da Apple. Essas bibliotecas podem ser usadas para acessar dados da web, trabalhar com imagens e vídeos, desenvolver jogos, criar animações e muito mais. Veja as principais habilidades que você precisa desenvolver:
-   - Conhecer os diferentes tipos de bibliotecas que podem ser usadas em aplicativos iOS;
-   - Escolher e usar bibliotecas que sejam adequadas para as necessidades do seu aplicativo.
-- [ ] **iOS - SwiftUI**:
-   - SwiftUI é uma biblioteca de interface de usuário declarativa para criar aplicativos iOS, iPadOS, macOS, watchOS e tvOS. Ele é construído sobre o UIKit e o AppKit, mas fornece uma maneira mais declarativa de criar interfaces de usuário. Isso torna mais fácil criar interfaces de usuário bonitas e envolventes. Veja as principais habilidades que você precisa desenvolver:
-   - Conhecer SwiftUI e como usá-lo para criar interfaces de usuário para aplicativos iOS;
-   - Usar combinações de componentes para criar layouts;
-   - Usar os métodos de navegação para adicionar mais versatilidade para seu app.
-- [ ] **iOS - Debugging**:
-   - Debugging é o processo de encontrar e corrigir erros em um aplicativo. É uma parte essencial do desenvolvimento de software e é importante saber como fazer debugging de forma eficaz. O Xcode é o IDE oficial da Apple para desenvolvedores iOS. Ele inclui uma série de ferramentas integradas que podem ser usadas para debugging de aplicativos, incluindo um depurador, um analisador de memória e um analisador de desempenho. Veja as principais habilidades que você precisa desenvolver:
-   - Conhecer as ferramentas e técnicas mais comuns para debugging de aplicativos iOS;
-   - Usar as ferramentas e técnicas mais comuns para debugging de aplicativos iOS para encontrar e corrigir erros.
-## Nivel 2
-- [ ] **iOS - Assíncrono**:
-   - Assincronicidade é uma técnica de programação que permite que as tarefas sejam executadas em segundo plano, enquanto a interface do usuário continua a ser executada normalmente. Isso pode melhorar o desempenho dos aplicativos, pois evita que eles travem ou fiquem lentos enquanto aguardam a conclusão de tarefas demoradas. Uma das maneiras mais comuns de usar assincronicidade em iOS é usar os métodos async e await. Os métodos async e await permitem que você execute código em segundo plano e retorne para o código principal antes que a tarefa seja concluída. Isso pode ser útil para tarefas que demoram muito para serem concluídas, como baixar um arquivo grande ou processar uma imagem grande. Veja as principais habilidades que você precisa desenvolver:
-   - Conhecer os fundamentos da assincronicidade em iOS;
-   - Usar as classes OperationQueue e async e await para executar tarefas em segundo plano.
 - [ ] **iOS - Gerenciamento de Estado**:
    - Gerenciamento de estado é o processo de rastrear e gerenciar a condição de um aplicativo. Isso é importante para aplicativos que são complexos ou que têm muitos estados diferentes. No UIKit, o gerenciamento de estado é feito manualmente pelo desenvolvedor. Isso significa que o desenvolvedor é responsável por rastrear o estado do aplicativo e atualizar a interface do usuário conforme o estado muda. Existem várias maneiras diferentes de gerenciar o estado no UIKit. Uma maneira comum é usar uma estrutura de dados para armazenar o estado. No SwiftUI, o gerenciamento de estado é feito automaticamente pelo framework. Isso significa que o desenvolvedor não precisa se preocupar em rastrear o estado do aplicativo ou atualizar a interface do usuário conforme o estado muda. O SwiftUI usa um sistema de gerenciamento de estado baseado em propriedade para gerenciar o estado dos aplicativos. Isso significa que o desenvolvedor pode definir propriedades que armazenam o estado do aplicativo e o framework atualizará automaticamente a interface do usuário conforme o estado muda. Veja as principais habilidades que você precisa desenvolver:
    - Conhecer os fundamentos do gerenciamento de estado em iOS;
@@ -81,35 +86,42 @@
    - Conhecer os recursos do sistema em iOS;
    - Acessar a localização, a câmera e os sensores;
    - Criar aplicativos que usam recursos do sistema.
-- [ ] **iOS - Injeção de dependências**:
-   - A injeção de dependências (DI) é um padrão de projeto que permite que os componentes de um aplicativo recebam as dependências de que precisam em tempo de execução. Isso torna os componentes mais testáveis e flexíveis. Existem várias maneiras de implementar a DI em iOS. Uma maneira comum é usar um contêiner de injeção de dependências. Um contêiner de injeção de dependências é um objeto que armazena as dependências de um aplicativo e as fornece aos componentes conforme necessário. A DI é uma ferramenta poderosa que pode ajudar os desenvolvedores a criar aplicativos mais testáveis e flexíveis. Ao aprender como usar a DI, você pode criar aplicativos que são mais fáceis de manter e estender. Veja as principais habilidades que você precisa desenvolver:
-   - Conhecer e utilizar o padrão de projeto de injeção de dependências.
 - [ ] **iOS - Testes**:
    - Os testes são uma parte importante do desenvolvimento de software. Eles ajudam a garantir que o software esteja funcionando corretamente e que atenda aos requisitos do usuário. Existem vários tipos de testes que podem ser usados em iOS, incluindo testes de unidade, testes de integração e testes de sistema. Os testes de unidade são usados para testar unidades individuais de código, os testes de integração são usados para testar como diferentes unidades de código interagem umas com as outras e os testes de sistema são usados para testar todo o aplicativo como um todo. O teste é uma parte importante do processo de desenvolvimento de software e pode ajudar a garantir que os aplicativos iOS sejam de alta qualidade e confiáveis. Veja as principais habilidades que você precisa desenvolver:
    - Conhecer as ferramentas e técnicas mais comuns para debugging de aplicativos iOS;
    - Usar as ferramentas e técnicas mais comuns para debugging de aplicativos iOS para encontrar e corrigir erros.
-- [ ] **iOS - Acessibilidade**:
+- [ ] **iOS - Vazamento de Memória**:
    - Uma memory leak é um problema que ocorre quando um aplicativo não libera a memória que não está mais usando. Isso pode levar a uma série de problemas, como o aplicativo ficar lento, travar ou até mesmo ser fechado pelo sistema operacional. Para evitar memory leaks, é importante entender como o gerenciamento de memória funciona no iOS e usar as ferramentas e técnicas adequadas para gerenciar a memória do seu aplicativo. Veja as principais habilidades que você precisa desenvolver:
    - Conhecer as causas de memory leaks em iOS;
    - Identificar os sintomas de memory leaks e resolvê-los.
+- [ ] **iOS - Bibliotecas de terceiros**:
+   - As bibliotecas de terceiros mais utilizadas em iOS são aquelas que fornecem funcionalidades adicionais ao SDK da Apple. Essas bibliotecas podem ser usadas para acessar dados da web, trabalhar com imagens e vídeos, desenvolver jogos, criar animações e muito mais. Veja as principais habilidades que você precisa desenvolver:
+   - Conhecer os diferentes tipos de bibliotecas que podem ser usadas em aplicativos iOS;
+   - Escolher e usar bibliotecas que sejam adequadas para as necessidades do seu aplicativo.
 ## Nivel 3
-- [ ] **iOS - Arquiteturas**:
-   - As arquiteturas MVVM, MVC e VIPER são duas maneiras populares de estruturar aplicativos iOS. Ambas as arquiteturas se baseiam no conceito de separar a lógica de negócios da interface do usuário. Isso torna os aplicativos mais fáceis de manter e estender. Veja as principais habilidades que você precisa desenvolver:
+- [ ] **iOS - Arquitetura**:
+   - As arquiteturas MVVM, MVC e VIPER são maneiras populares de estruturar aplicativos iOS. Ambas as arquiteturas se baseiam no conceito de separar a lógica de negócios da interface do usuário. Isso torna os aplicativos mais fáceis de manter e estender. Veja as principais habilidades que você precisa desenvolver:
    - Conhecer os conceitos básicos de arquiteturas;
    - Entender as diferenças entre as arquiteturas e suas vantagens;
    - Implementar alguma delas em um aplicativo iOS.
-- [ ] **Estruturas de Dados**:
-   - No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.
-   - Conhecer as principais estruturas de dados
-   - Implementar as principais estruturas de dados
+- [ ] **iOS - Injeção de dependências**:
+   - A injeção de dependências (DI) é um padrão de projeto que permite que os componentes de um aplicativo recebam as dependências de que precisam em tempo de execução. Isso torna os componentes mais testáveis e flexíveis. Existem várias maneiras de implementar a DI em iOS. Uma maneira comum é usar um contêiner de injeção de dependências. Um contêiner de injeção de dependências é um objeto que armazena as dependências de um aplicativo e as fornece aos componentes conforme necessário. A DI é uma ferramenta poderosa que pode ajudar os desenvolvedores a criar aplicativos mais testáveis e flexíveis. Ao aprender como usar a DI, você pode criar aplicativos que são mais fáceis de manter e estender. Veja as principais habilidades que você precisa desenvolver:
+   - Conhecer e utilizar o padrão de projeto de injeção de dependências.
 - [ ] **iOS - Animações**:
    - As animações são uma parte importante do desenvolvimento de aplicativos iOS. Elas podem ser usadas para melhorar a experiência do usuário, tornando os aplicativos mais atraentes e envolventes. Existem várias maneiras de adicionar animações aos aplicativos iOS. Uma maneira é usar o framework UIKit, que fornece uma variedade de métodos para animar componentes da interface do usuário. Outra maneira é usar um framework de animação de terceiros, como o Lottie ou o Anima. Veja as principais habilidades que você precisa desenvolver:
    - Entender como usar o framework UIKit para animar componentes da interface do usuário;
    - Criar animações com o SwiftUI, como mostrar transições entre telas, atualizar a interface do usuário em resposta a eventos e criar efeitos visuais interessantes.
-- [ ] **iOS - Deploy**:
-   - O deployment é o processo de disponibilizar um aplicativo iOS para os usuários. Existem várias maneiras de fazer isso, um deles é o uso da App Store. A App Store é a maneira mais comum de distribuir aplicativos iOS. Ela permite que os desenvolvedores distribuam seus aplicativos para um público global. O TestFlight é uma ferramenta beta privada que permite que os desenvolvedores compartilhem seus aplicativos com um grupo limitado de usuários para feedback. O Distribute é uma ferramenta que permite que os desenvolvedores distribuam seus aplicativos para seus próprios servidores. Veja as principais habilidades que você precisa desenvolver:
+- [ ] **iOS - Implantação (Deployment)**:
+   - O deployment ou implantação é o processo de disponibilizar um aplicativo iOS para os usuários. Existem várias maneiras de fazer isso, um deles é o uso da App Store. A App Store é a maneira mais comum de distribuir aplicativos iOS. Ela permite que os desenvolvedores distribuam seus aplicativos para um público global. O TestFlight é uma ferramenta beta privada que permite que os desenvolvedores compartilhem seus aplicativos com um grupo limitado de usuários para feedback. O Distribute é uma ferramenta que permite que os desenvolvedores distribuam seus aplicativos para seus próprios servidores. Veja as principais habilidades que você precisa desenvolver:
    - Conhecer os conceitos básicos de deployment de aplicativos iOS;
+   - Criar uma conta de Apple Developer;
    - Usar a App Store para distribuir aplicativos iOS para um público global.
+- [ ] **Entrega e integração contínuas (CI/CD)**:
+   - CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português "entrega e integração contínuas". Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.
+   - Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, ja que assim é possivel acelerar o desenvolvimento e diminiur o tempo de entrega de software.
+   - Executar testes automatizados da aplicação para verificar seu funcionamento.
+   - Realizar a entrega de atualizações de forma automatica e com segurança.
+   - Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.
 - [ ] **iOS - Modularização**:
    - A modularização é o processo de dividir um grande aplicativo em módulos menores, mais gerenciáveis. Isso pode tornar o código mais fácil de entender e manter, e também pode facilitar a reutilização de código. Existem várias maneiras de modularizar um aplicativo iOS. Uma maneira é usar frameworks. Os frameworks são bibliotecas de código que podem ser usadas para adicionar funcionalidade a um aplicativo. Outra maneira de modularizar um aplicativo é usar módulos de projeto. Os módulos de projeto são coleções de arquivos de código que podem ser usados para agrupar o código relacionado. Veja as principais habilidades que você precisa desenvolver:
    - Conhecer os conceitos básicos de modularização de código.
@@ -151,12 +163,6 @@
    - Transformar um objeto em uma string
    - Transformar uma string em objeto
    - Manipular um objeto
-- [ ] **Entrega e integração contínuas (CI/CD)**:
-   - CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português "entrega e integração contínuas". Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.
-   - Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, ja que assim é possivel acelerar o desenvolvimento e diminiur o tempo de entrega de software.
-   - Executar testes automatizados da aplicação para verificar seu funcionamento.
-   - Realizar a entrega de atualizações de forma automatica e com segurança.
-   - Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.
 - [ ] **Linha de comando - Fundamentos**:
    - CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.
    - Conhecer os principais comandos

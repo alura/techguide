@@ -16,7 +16,10 @@ expertise:
         priority: 9
       - create-react-app:
         priority: 8
+        optional: true
       - oop-concepts:
+        priority: 8
+      - data-structures:
         priority: 8
       - java-fundamentals:
         priority: 8
@@ -25,9 +28,6 @@ expertise:
         priority: 8
         optional: true
       - javascript-accessibility:
-        priority: 7
-        optional: true
-      - command-line-fundamentals:
         priority: 7
         optional: true
       - angular-fundamentals:
@@ -43,8 +43,6 @@ expertise:
         priority: 9
       - javascript-testing:
         priority: 9
-      - data-structures:
-        priority: 9
       - javascript-callbacks-promises:
         priority: 9
       - javascript-errorhandling:
@@ -55,7 +53,7 @@ expertise:
         priority: 8
       - javascript-storage:
         priority: 8
-      - next-fundamentals:
+      - nextjs-fundamentals:
         priority: 7
         optional: true
       - python-api:
@@ -88,7 +86,7 @@ expertise:
       - apollo-client:
         priority: 6
         optional: true
-      - nest-fundamentals:
+      - nestjs-fundamentals:
         priority: 7
         optional: true
       - kafka:
@@ -113,6 +111,9 @@ collaboration:
         priority: 7
       - clean-architecture:
         priority: 7
+      - command-line-fundamentals:
+        priority: 7
+        optional: true
       - cloud-fundamentals:
         priority: 6
         optional: true
