@@ -40,10 +40,10 @@ expertise:
         priority: 8
       - containers:
         priority: 7
-      - java-networking-and-sockets:
-        priority: 6
-      - java-servlets:
-        priority: 7
+#      - java-networking-and-sockets:
+#        priority: 6
+#      - java-servlets:
+#        priority: 7
       - kafka:
         priority: 6
 collaboration:

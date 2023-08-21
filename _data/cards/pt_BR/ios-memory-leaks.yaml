@@ -1,4 +1,4 @@
-name: iOS - Acessibilidade
+name: iOS - Vazamento de Memória
 logo:
 short-description:
 key-objectives:
@@ -9,7 +9,7 @@ aditional-objectives:
 contents:
   - type: ARTICLE
     title: "3 Different Techniques to Find Memory Leaks in iOS | Medium"
-    link: https://medium.com/bitso-engineering/finding-memory-leaks-in-ios-like-a-pro-83a0212309b6#:~:text=Memory%20leaks%20are%20very%20related,Automatic%20Reference%20Counting%20(ARC).
+    link: https://medium.com/bitso-engineering/finding-memory-leaks-in-ios-like-a-pro-83a0212309b6
   - type: YOUTUBE
     title: "Memory Leaks no iOS: Encontrar, diagnosticas e resolver (inglês) | iOS Academy"
     link: https://youtu.be/b2AgibUg47k
