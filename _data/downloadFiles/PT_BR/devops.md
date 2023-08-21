@@ -137,7 +137,6 @@
    - Manipular métodos
    - Manipular arrays e listas
    - Obter dados de uma API
-   - Fazer chamadas assíncronas 'Future', etc
    - Criar construtores
 - [ ] **JavaScript - Fundamentos**:
    - JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.

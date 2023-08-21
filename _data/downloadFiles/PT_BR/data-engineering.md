@@ -26,7 +26,6 @@
    - Manipular métodos
    - Manipular arrays e listas
    - Obter dados de uma API
-   - Fazer chamadas assíncronas 'Future', etc
    - Criar construtores
 - [ ] **Bancos de Dados - Fundamentos**:
    - Os bancos de dados são sistemas de armazenamento de dados que permitem a organização, a manipulação e o acesso eficiente às informações. Existem dois principais tipos de bancos de dados, sendo eles SQL (Structured Query Language) e NoSQL (Not Only SQL).
