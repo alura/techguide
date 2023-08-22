@@ -138,12 +138,12 @@
 ## Habilidade Auxiliar: Infraestructura y Back-end 
 - [ ] **Git y GitHub - Fundamentos**:
    - Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.
-   - GitHub es un servicio de alojamiento para el desarrollo de software y el control de versiones mediante Git.
+   - GitHub es un servicio de hosting para el desarrollo de software y el control de versiones mediante Git.
    - Crear un repositorio
    - Clonar un repositorio
    - Comprometerse, empujar y tirar hacia y desde el repositorio
-   - Revertir un compromiso
-   - Crear de ramas y solicitudes de extracción
+   - Revertir un commit
+   - Crear de ramas y Pull requests
    - Manejar fusiones y conflictos
 - [ ] **HTTP - Fundamentos**:
    - HTTP significa Protocolo de transferencia de hipertexto. La comunicación entre las computadoras cliente y los servidores web se realiza mediante el envío de solicitudes HTTP y la recepción de respuestas HTTP.
