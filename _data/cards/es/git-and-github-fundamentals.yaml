@@ -3,25 +3,25 @@ logo:
 short-description:
 key-objectives:
   - Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.
-  - GitHub es un servicio de alojamiento para el desarrollo de software y el control de versiones mediante Git.
+  - GitHub es un servicio de hosting para el desarrollo de software y el control de versiones mediante Git.
   - Crear un repositorio
   - Clonar un repositorio
   - Comprometerse, empujar y tirar hacia y desde el repositorio
-  - Revertir un compromiso
-  - Crear de ramas y solicitudes de extracción
+  - Revertir un commit
+  - Crear de ramas y Pull requests 
   - Manejar fusiones y conflictos
 aditional-objectives:
   - Publicar tu código usando GitHub Pages
 contents:
   - type: SITE
-    title: "Git Reference Book"
-    link: https://git-scm.com/book/en/v2
+    title: "Git: Libro de Consulta"
+    link: https://git-scm.com/book/es/v2
   - type: SITE
-    title: "GitHub Documentation"
-    link: https://docs.github.com/en
+    title: "GitHub Documentación"
+    link: https://docs.github.com/es
   - type: SITE
-    title: "GitHub Pages Documentation"
-    link: https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages
+    title: "Github Pages Documentación"
+    link: https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages
   - type: SITE
     title: "W3Schools: Git Tutorial"
     link: https://www.w3schools.com/git/default.asp?remote=github
@@ -30,7 +30,7 @@ contents:
     link: https://git-school.github.io/visualizing-git/
   - type: SITE
     title: "Dangit, Git!?!"
-    link: https://dangitgit.com/
+    link: https://dangitgit.com/es
   - type: ARTICLE
     title: "Git and Github Quickstart Tutorial"
     link: https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca
@@ -42,14 +42,14 @@ contents:
     link: https://www.youtube.com/watch?v=HiXLkL42tMU
 alura-contents:
   - type: ARTICLE
-    title: "Comenzando con Git: aprendiendo a versionar"
-    link: https://www.aluracursos.com/blog/comenzando-con-git
-  - type: ARTICLE
     title: "Git y Github: que son y primeros pasos"
     link: https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos
   - type: ARTICLE
     title: "Iniciando un repositorio con Git"
     link: https://www.aluracursos.com/blog/iniciando-repositorio-con-git
+  - type: ARTICLE
+    title: "Comenzando con Git: aprendiendo a versionar"
+    link: https://www.aluracursos.com/blog/comenzando-con-git
   - type: ARTICLE
     title: "Clonando un repositorio con Git y GitHub"
     link: https://www.aluracursos.com/blog/clonando-un-repositorio-remoto
@@ -71,9 +71,9 @@ alura-contents:
   - type: YOUTUBE
     title: "¿Puedo subir mi proyecto a Github sin líneas de comando? - Git y Github para principiantes"
     link: https://www.youtube.com/watch?v=Yfm16Tlpcwk&ab_channel=AluraLatam
-  - type: COURSE
-    title: "Git y GitHub: controle y comparta su código"
-    link: https://app.aluracursos.com/course/git-github-control-version
+  - type: YOUTUBE
+    title: "Git y GitHub: Herramientas Esenciales para el Control de Versiones y Colaboración en Desarrollo"
+    link: https://www.youtube.com/watch?v=dw04N616Abw
   - type: COURSE
     title: "Git y GitHub: repositorio, commit y versiones"
     link: https://app.aluracursos.com/course/git-github-repositorio-commit-versiones
