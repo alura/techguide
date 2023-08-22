@@ -9,6 +9,9 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: ARTICLE
+    title: "Introducción a la Concurrencia en Java (I)"
+    link: https://blog.softtek.com/es/java-concurrency
+  - type: ARTICLE
     title: "Programación concurrente"
     link: https://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html
   - type: ARTICLE
@@ -17,4 +20,7 @@ contents:
   - type: YOUTUBE
     title: "Programando en JAVA: HILOS (THREAD) en JAVA"
     link: https://www.youtube.com/watch?v=tpnasHx9WLg
+  - type: YOUTUBE
+    title: "Concurrencia estructurada en Java, todo lo que necesitas saber"
+    link: https://www.youtube.com/watch?v=l1lIZUGhHEY
 alura-contents:

@@ -8,18 +8,21 @@ key-objectives:
   - Aprende a trabajar con ArrayList, LinkedList o Vector
 aditional-objectives:
 contents:
-  - type: ARTICLE
-    title: "Introducción a Colecciones en Java"
-    link: https://www.adictosaltrabajo.com/2015/09/25/introduccion-a-colecciones-en-java/
   - type: SITE
     title: "Colección - Java Documentation (en inglés)"
     link: https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html
-  - type: YOUTUBE
-    title: "🚀 ¿Qué son las COLLECTIONS en JAVA? POO 🖥️ | LIST, SET, QUEUE, MAP | Explicación FÁCIL 💥#12"
-    link: https://www.youtube.com/watch?v=mE1vnyn_QgU&ab_channel=TodoCode
+  - type: ARTICLE
+    title: "Introducción a Colecciones en Java"
+    link: https://www.adictosaltrabajo.com/2015/09/25/introduccion-a-colecciones-en-java/
   - type: ARTICLE
     title: "Map en Java, con ejemplos"
     link: https://jarroba.com/map-en-java-con-ejemplos/
+  - type: YOUTUBE
+    title: "🚀 ¿Qué son las COLLECTIONS en JAVA? POO 🖥️ | LIST, SET, QUEUE, MAP | Explicación FÁCIL 💥#12"
+    link: https://www.youtube.com/watch?v=mE1vnyn_QgU&ab_channel=TodoCode
+  - type: YOUTUBE
+    title: "HASHCODE y EQUALS en JAVA - Tutorial Completo Fácil - YouTube"
+    link: https://www.youtube.com/watch?v=4qjcWlnm6dg    
 alura-contents:
   - type: COURSE
     title: "Curso Java y java.util: Colecciones, Wrappers y Lambda expressions"

@@ -8,7 +8,7 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: ARTICLE
-    title: "LOS SOCKETS EN JAVA"
+    title: "Los Sockets en Java"
     link: https://cruzado.info/tutojava/V_2.htm
   - type: ARTICLE
     title: "Modelo de red en Java"
@@ -28,4 +28,22 @@ contents:
   - type: YOUTUBE
     title: "¿Qué son los sockets y para que nos pueden servir?"
     link: https://www.youtube.com/watch?v=ZEitds5Nnx4&t=45s
+  - type: YOUTUBE
+    title: "Como enviar y recibir información aplicando sockets en Java"
+    link: https://www.youtube.com/watch?v=rbqP9l-Y3vQ
+  - type: YOUTUBE
+    title: "Cliente Servidor en Java"
+    link: https://www.youtube.com/watch?v=Ym8iL39TVIA
 alura-contents:
+  - type: ARTICLE
+    title: "El modelo OSI y sus capas"
+    link: https://www.aluracursos.com/blog/el-modelo-osi-y-sus-capas
+  - type: ARTICLE
+    title: "SSH, Telnet y las diferencias para conectar en un servidor"
+    link: https://www.aluracursos.com/blog/ssh-telnet-y-las-diferencias-para-conectar-en-un-servidor
+  - type: COURSE
+    title: "Curso Redes: Introducción, Conceptos y Práctica"
+    link: https://www.aluracursos.com/curso-online-redes-introduccion-conceptos-practica
+  - type: COURSE
+    title: "Redes parte 2: Creando un proyecto del cliente hasta el proveedor de servicios"
+    link: https://www.aluracursos.com/curso-online-redes-parte-2-proyecto-cliente-proveedor-servicios
