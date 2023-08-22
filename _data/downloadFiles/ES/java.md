@@ -110,14 +110,14 @@
    - Obtener garantías relativas al envío o entrega de los mensajes
 ## Habilidade Auxiliar: Infraestructura 
 - [ ] **Git y GitHub - Fundamentos**:
-   - Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños a proyectos muy grandes con velocidad y eficiencia.
-   - GitHub es un servicio de hosting para el desarrollo de software y control de versiones utilizando Git.
+   - Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.
+   - GitHub es un servicio de hosting para el desarrollo de software y el control de versiones mediante Git.
    - Crear un repositorio
    - Clonar un repositorio
-   - Commit, push y pull desde y hacia el repositorio
-   - Revertir una confirmación de cambios
-   - Crear ramas y Pull requests
-   - Lidiar con la fusión y los conflictos
+   - Comprometerse, empujar y tirar hacia y desde el repositorio
+   - Revertir un commit
+   - Crear de ramas y Pull requests
+   - Manejar fusiones y conflictos
 - [ ] **HTTP - Fundamentos**:
    - HTTP significa Protocolo de transferencia de hipertexto. La comunicación entre las computadoras cliente y los servidores web se realiza mediante el envío de solicitudes HTTP y la recepción de respuestas HTTP.
    - Comprender la diferencia entre los verbos HTTP
