@@ -122,6 +122,8 @@
    - HTTP significa Protocolo de transferencia de hipertexto. La comunicación entre las computadoras cliente y los servidores web se realiza mediante el envío de solicitudes HTTP y la recepción de respuestas HTTP.
    - Comprender la diferencia entre los verbos HTTP
    - Probar solicitudes y verificar los códigos de estado en el navegador
+   - Aprendiendo a hacer una solicitud HTTP en la línea de comando con WGET
+   - Descargar una imagen con WGET
    - Realización de una POST
 - [ ] **JSON**:
    - JSON significa Notación de objetos de JavaScript. Es un formato de texto para almacenar y transportar datos.
@@ -134,6 +136,7 @@
    - Conocer los comandos más importantes
 - [ ] **Cloud - Fundamentos**:
    - La computación en nube, o cloud computing, es la distribución de servicios informáticos a través de Internet mediante un modelo de tarificación de pago por uso. Una nube se compone de varios recursos informatizados, desde los propios ordenadores (o instancias, en terminología de nube) hasta las redes, el almacenamiento, las bases de datos y todo lo que les rodea. En otras palabras, todo lo que normalmente se necesita para montar el equivalente a una sala de servidores, o incluso un centro de datos completo, estará listo para usar, configurar y ejecutar.
+   - Conocer la diferencia entre IaaS, PaaS y SaaS
    - Conocer los mayores proveedores de nube
    - Especializarse en un proveedor específico de su preferencia
 - [ ] **SQL - Fundamentos**:
