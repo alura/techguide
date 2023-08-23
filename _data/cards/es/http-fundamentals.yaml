@@ -21,6 +21,15 @@ contents:
     title: "MDN Web Docs: Métodos de solicitud HTTP"
     link: https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
   - type: SITE
+    title: "MDN Web Docs: HTTP"
+    link: https://developer.mozilla.org/es/docs/Web/HTTP
+  - type: SITE
+    title: "MDN Web Docs: Métodos de petición HTTP"
+    link: https://developer.mozilla.org/es/docs/Web/HTTP/Methods
+  - type: SITE
+    title: "MDN Web Docs: Mensajes HTTP" 
+    link: https://developer.mozilla.org/es/docs/Web/HTTP/Messages
+  - type: SITE
     title: "HTTP Cats"
     link: https://http.cat/
   - type: SITE
@@ -30,7 +39,10 @@ contents:
     title: "Peticiones, Métodos Http y Códigos de estado."
     link: https://www.youtube.com/watch?v=gBK-Mfa0lw8
   - type: YOUTUBE
-    title: "PROTOCOLO HTTP: Requests y Responses con: GET, POST, PUT, PATCH y DELETE"
+    title: "SSL, TLS, HTTPS, HTTP - Explicado Fácilmente"
+    link: https://www.youtube.com/watch?v=6HJAWFenYx8&ab_channel=ProfeSang
+  - type: YOUTUBE
+    title: "⭐Protocolo HTTP 🖥️ Requests y Responses con: GET, POST, PUT, PATCH y DELETE | Desarrollo web 🌎"
     link: https://www.youtube.com/watch?v=l2MihYAj0Iw
   - type: YOUTUBE
     title: "REST y los Verbos de HTTP"

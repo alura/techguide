@@ -51,16 +51,16 @@ collaboration:
     cards:
       - git-and-github-fundamentals:
         priority: 9
-      - http-fundamentals-java:
+      - http-fundamentals:
         priority: 10
       - json:
         priority-java: 8
-      - command-line-fundamentals-java: 
+      - command-line-fundamentals: 
         priority: 8
-      - cloud-fundamentals-java: 
+      - cloud-fundamentals: 
         priority: 6
         optional: true
-      - sql-fundamentals-java:
+      - sql-fundamentals:
         priority: 9
   - name: Buenas prácticas
     cards:
