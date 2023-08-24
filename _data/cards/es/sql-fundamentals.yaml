@@ -10,16 +10,23 @@ key-objectives:
 - Usar JOIN para conectar los datos de múltiples tablas
 - Conocer las cláusulas (FROM, ORDER BY, etc.)
 aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Amazon: ¿Qué es SQL?"
+    link: https://aws.amazon.com/es/what-is/sql/?nc1=h_ls
 alura-contents:
   - type: ARTICLE
     title: "MySQL: desde la descarga e instalación hasta su primera tabla"
     link: https://www.aluracursos.com/blog/mysql-desde-la-descarga-e-instalacion-hasta-su-primera-tabla
-  - type: COURSE
-    title: "SQL con MySQL"
-    link: https://app.aluracursos.com/formacion-sql-con-mysql
-  - type: COURSE
-    title: "SQL Server: consultas avanzadas con Microsoft SQL Server 2019"
-    link: https://app.aluracursos.com/course/sql-server-consultas-microsoft-sql-server-2019
+  - type: ARTICLE
+    title: "Bases de datos relacionales"
+    link: https://www.aluracursos.com/blog/base-de-datos-relacional
+  - type: ARTICLE
+    title: "Normalización en base de datos - Estructura"
+    link: https://www.aluracursos.com/blog/normalizacion-en-base-de-datos
+  - type: ARTICLE
+    title: "SELECT, INSERT, UPDATE y DELETE en SQL: aprende a utilizar cada uno" 
+    link: https://www.aluracursos.com/blog/select-insert-update-delete-sql
   - type: ARTICLE
     title: "Funciones de agregación con GROUP BY en SQL, ¿cómo utilizarlas?"
     link: https://www.aluracursos.com/blog/funciones-de-agregacion-con-group-by-en-sql-como-utilizarlas
@@ -29,3 +36,16 @@ alura-contents:
   - type: ARTICLE
     title: "select count(*), count(1) y count(nombre): batalla de los counts de SQL"
     link: https://www.aluracursos.com/blog/select-count-count1-e-countnome-la-batalla-de-los-counts-de-sql
+  - type: YOUTUBE
+    title: "Descomplicando Base de Datos | #Aluramás"
+    link: https://www.youtube.com/watch?v=G1cDRqKuxpg&t=6s&ab_channel=AluraLatam
+  - type: COURSE
+    title: "SQL con MySQL"
+    link: https://app.aluracursos.com/formacion-sql-con-mysql
+  - type: COURSE
+    title: "Curso Introducción a SQL con MySQL: Manipule y consulte datos"
+    link: https://app.aluracursos.com/course/introduccion-sql-mysql-manipule-consulte-datos
+  - type: COURSE
+    title: "SQL Server: consultas avanzadas con Microsoft SQL Server 2019"
+    link: https://app.aluracursos.com/course/sql-server-consultas-microsoft-sql-server-2019
+
