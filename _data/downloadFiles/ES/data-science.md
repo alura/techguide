@@ -130,18 +130,19 @@
    - Interactuar con servidores en la nube
    - Crear aplicaciones de Spark
 - [ ] **Cloud - Fundamentos**:
-   - Cloud, o computación en la nube es la distribución de servicios informáticos a través de Internet utilizando un modelo de precio pagado según el uso. Una nube se compone de varios recursos de computación, que abarcan desde los propios ordenadores (o instancias, en la terminología de nube) hasta redes, almacenamiento, bases de datos y lo que está alrededor de ellos. Es decir, todo lo que normalmente se necesita para montar el equivalente a una sala de servidores, o incluso un centro de datos completo, estará listo para ser utilizado, configurado y ejecutado.
-   - Conocer a los mayores proveedores de cloud
-   - Especializarse en algún proveedor
+   - La computación en nube, o cloud computing, es la distribución de servicios informáticos a través de Internet mediante un modelo de tarificación de pago por uso. Una nube se compone de varios recursos informatizados, desde los propios ordenadores (o instancias, en terminología de nube) hasta las redes, el almacenamiento, las bases de datos y todo lo que les rodea. En otras palabras, todo lo que normalmente se necesita para montar el equivalente a una sala de servidores, o incluso un centro de datos completo, estará listo para usar, configurar y ejecutar.
+   - Conocer la diferencia entre IaaS, PaaS y SaaS
+   - Conocer los mayores proveedores de nube
+   - Especializarse en un proveedor específico de su preferencia
 - [ ] **Git y GitHub - Fundamentos**:
-   - Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños a proyectos muy grandes con velocidad y eficiencia.
-   - GitHub es un servicio de hosting para el desarrollo de software y control de versiones utilizando Git.
+   - Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.
+   - GitHub es un servicio de hosting para el desarrollo de software y el control de versiones mediante Git.
    - Crear un repositorio
    - Clonar un repositorio
-   - Commit, push y pull desde y hacia el repositorio
-   - Revertir una confirmación de cambios
-   - Crear ramas y requests Pul
-   - Lidiar con la fusión y los conflictos
+   - Comprometerse, empujar y tirar hacia y desde el repositorio
+   - Revertir un commit
+   - Crear de ramas y Pull requests
+   - Manejar fusiones y conflictos
 - [ ] **Linux - Fundamentos**:
    - Linux es un término popularmente empleado para referirse a sistemas operativos que utilizan el Kernel - Linux. - Las distribuciones incluyen el kernel de Linux, además de software de sistema y bibliotecas.
    - Conocer el sistema de directorios de Linux
