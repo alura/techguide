@@ -12,24 +12,12 @@ key-objectives:
   - Conocer Kubernetes
 aditional-objectives:
 contents:
-  - type: ARTICLE
+  - type: SITE
     title: "IBM - ¿Qué son los contenedores?"
     link: https://www.ibm.com/mx-es/topics/containers
-  - type: ARTICLE
+  - type: SITE
     title: "Microsoft - ¿Qué es un contenedor?"
     link: https://azure.microsoft.com/es-mx/resources/cloud-computing-dictionary/what-is-a-container
-  - type: YOUTUBE
-    title: "¿Qué es Docker y los contenedores?"
-    link: https://www.youtube.com/watch?v=kkfZs0vJFyU
-  - type: YOUTUBE
-    title: "¿Que es un contenedor?"
-    link: https://www.youtube.com/watch?v=x5zGoICZLnU
-  - type: YOUTUBE
-    title: "Volúmenes y redes en Docker"
-    link: https://www.youtube.com/watch?v=DIDel70dFlI&ab_channel=Programaci%C3%B3nenespa%C3%B1ol
-  - type: YOUTUBE
-    title: "¿Qué es KUBERNETES? ✅ Relación con DOCKER y CONTENEDORES ▶️"
-    link: https://www.youtube.com/watch?v=V86eTbswdQo
   - type: ARTICLE
     title: "Contenedores y la nube"
     link: https://dev.to/roremdev/contenedores-y-la-nube-3je9
@@ -45,6 +33,18 @@ contents:
   - type: ARTICLE
     title: "¿Qué es Docker y para que sirve? Explicación"
     link: https://dev.to/prox_sea/que-es-docker-y-para-que-sirve-explicacion-5h2n
+  - type: YOUTUBE
+    title: "¿Que es un contenedor?"
+    link: https://www.youtube.com/watch?v=x5zGoICZLnU
+  - type: YOUTUBE
+    title: "¿Qué es Docker y los contenedores?"
+    link: https://www.youtube.com/watch?v=kkfZs0vJFyU
+  - type: YOUTUBE
+    title: "Volúmenes y redes en Docker"
+    link: https://www.youtube.com/watch?v=DIDel70dFlI&ab_channel=Programaci%C3%B3nenespa%C3%B1ol
+  - type: YOUTUBE
+    title: "¿Qué es KUBERNETES? ✅ Relación con DOCKER y CONTENEDORES ▶️"
+    link: https://www.youtube.com/watch?v=V86eTbswdQo
 alura-contents:
   - type: ARTICLE
     title: "Empezando con Docker"
