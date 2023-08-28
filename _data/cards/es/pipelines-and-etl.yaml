@@ -1,0 +1,32 @@
+name: Pipelines e ETL 
+logo: 
+short-description:
+key-objectives:
+  - Pipelines e ETL (Extract, Transform, Load) são conceitos essenciais no campo da Engenharia de Dados, desempenhando um papel fundamental na coleta, transformação e integração de dados. Compreender os fundamentos dessas áreas é essencial para aqueles que desejam trabalhar com a gestão e o processamento eficiente de grandes volumes de informações. 
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "AWS: O que é um pipeline de dados?"
+    link: https://aws.amazon.com/pt/what-is/data-pipeline/ 
+  - type: ARTICLE
+    title: "Glossário de dados: O que é Data Pipeline?"
+    link: https://medium.com/datalakers-blog/gloss%C3%A1rio-de-dados-o-que-%C3%A9-data-pipeline-628e509e9cb5 
+  - type: ARTICLE
+    title: "Pipeline de Dados"
+    link: https://www.linkedin.com/pulse/pipeline-de-dados-jose-r-f-junior/?originalSubdomain=pt 
+  - type: YOUTUBE
+    title: "ETL vs ELT - Pipeline De Dados"
+    link: https://www.youtube.com/watch?v=q6SBawoBU2A 
+  - type: ARTICLE
+    title: "Sete princípios para pipelines de dados confiáveis"
+    link: https://medium.com/data-hackers/sete-princ%C3%ADpios-para-pipelines-de-dados-confi%C3%A1veis-de59d3c72cfc 
+  - type: YOUTUBE
+    title: "Supletivo DH - Apache NiFi"
+    link: https://www.youtube.com/watch?v=IVRG4ks83s0 
+alura-contents:
+  - type: COURSE
+    title: "Curso Apache Beam: Data Pipeline com Python"
+    link: https://cursos.alura.com.br/course/apache-beam-data-pipeline-python 
+  - type: COURSE
+    title: "Curso Engenharia de Dados: organizando dados na AWS"
+    link: https://cursos.alura.com.br/course/engenharia-dados-organizando-dados-aws 
