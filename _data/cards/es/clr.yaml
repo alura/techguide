@@ -1,0 +1,26 @@
+name: CLR
+logo: 
+short-description:
+key-objectives:
+  - Common Language Runtime (CLR) es el componente de máquina virtual de la plataforma .NET de Microsoft que administra la ejecución de programas .NET.
+  - Entender cómo funciona CLR
+  - Entender la gestión de memoria
+  - Conocer la CIL y el JIT
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Introducción a Common Language Runtime"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/clr
+  - type: SITE
+    title: "Ejemplos de funciones CLR de C# .NET"
+    link: https://www.ibm.com/docs/es/db2/11.5?topic=routines-example-c-net-clr-functions
+  - type: SITE
+    title: "Optimización y depuración JIT"
+    link: https://learn.microsoft.com/es-es/visualstudio/debugger/jit-optimization-and-debugging?view=vs-2022
+  - type: ARTICLE
+    title: "¿Qué es el compilador Just-In-Time (JIT) en .NET?"
+    link: https://barcelonageeks.com/que-es-el-compilador-just-in-time-jit-en-net/
+  - type: YOUTUBE
+    title: "Curso de C# 001 - ¿Qué es C#, .NET y CLR?"
+    link: https://www.youtube.com/watch?v=VWQRFyYPtgc
+alura-contents:

@@ -1,0 +1,88 @@
+name: C# - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - C# es un lenguaje de programación, multiparadigma, con tipado fuerte, desarrollado por Microsoft como parte de la plataforma .NET. El código fuente se compila a Common Intermediate Language (CIL), que es interpretado por la máquina virtual Common Language Runtime (CLR). Está diseñado para funcionar en la Common Language Infrastructure de la plataforma .NET Framework.
+  - Conocer los tipos primitivos
+  - Declarar variables, considerando los diferentes tipos
+  - Utilizar estructuras condicionales ('if', 'else')
+  - Conocer los operadores de asignación y comparación
+  - Utilizar estructuras de repetición y bucles ('while', 'for')
+  - Utilizar funciones, pasando parámetros y argumentos
+  - Manejar métodos
+  - Manejar arrays y listas
+  - Obtener datos de una API
+  - Realizar llamadas asíncronas, etc.
+  - Crear constructores
+aditional-objectives:
+  - Manipular objetos JSON
+  - Lidar com datas
+contents:
+  - type: SITE
+    title: "Paseo por el lenguaje C#"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/
+  - type: SITE
+    title: "Excepciones y control de excepciones"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/exceptions/
+  - type: SITE
+    title: "Operadores y expresiones de C# (referencia de C#)"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/
+  - type: SITE
+    title: "Constructores: Guía de programación de C#"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/constructors
+  - type: SITE
+    title: "Programación asincrónica"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/asynchronous-programming/async-scenarios
+  - type: SITE
+    title: "Cadenas con formato de fecha y hora estándar"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/base-types/standard-date-and-time-format-strings
+  - type: SITE
+    title: "Procedimiento para separar cadenas mediante String.Split en C#"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/how-to/parse-strings-using-split
+  - type: SITE
+    title: "Structs - Especificación del lenguaje C#"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/language-specification/structs
+  - type: SITE
+    title: "C# | El lenguaje de programación moderno, innovador y de código abierto para crear todas sus aplicaciones"
+    link: https://dotnet.microsoft.com/es-es/languages/csharp
+  - type: SITE
+    title: "Creación de una aplicación de Windows Forms en Visual Studio con C#"
+    link: https://learn.microsoft.com/es-es/visualstudio/ide/create-csharp-winform-visual-studio?view=vs-2022
+  - type: ARTICLE
+    title: "Variables y Tipos en C#"
+    link: https://desarrolloweb.com/articulos/variables-tipos-csharp
+  - type: YOUTUBE
+    title: "¿QUÉ ES .NET?💥[Lo más BÁSICO y lo más SENCILLO]"
+    link: https://www.youtube.com/watch?v=AU2WmblU2J0
+  - type: YOUTUBE
+    title: "List y ArrayList C#"
+    link: https://www.youtube.com/watch?v=k431eUiMRXA
+  - type: YOUTUBE
+    title: "Tipos de datos primitivos y Variables"
+    link: https://www.youtube.com/watch?v=Hhe6EtOsG5o&t=655s
+  - type: YOUTUBE
+    title: "Consumir un API con C# 9.0 y Pegar JSON Como Clases Visual Studio 2019"
+    link: https://www.youtube.com/watch?v=yPgfLYaqMn8
+  - type: YOUTUBE
+    title: "APRENDE Windows Forms DESDE 0 Utilizando C# y Visual Studio 2022"
+    link: https://www.youtube.com/watch?v=FFlvrBpY73w    
+  - type: YOUTUBE
+    title: "Lenguaje C Sharp en 3 Minutos o más!"
+    link: https://www.youtube.com/watch?v=rr5nZq61WIE     
+alura-contents:
+  - type: ARTICLE
+    title: "¿Que es .Net framework?"
+    link: https://www.aluracursos.com/blog/que-es-net-framework
+  - type: COURSE
+    title: "Formación C# y Orientación a Objetos"
+    link: https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos
+  - type: COURSE
+    title: "Curso C#: conociendo el lenguaje"
+    link: https://app.aluracursos.com/course/csharp-conociendo-el-lenguaje
+  - type: COURSE
+    title: "Curso C#: array y tipos genéricos"
+    link: https://app.aluracursos.com/course/csharp-array-tipos-genericos
+  - type: COURSE
+    title: "Curso C#: strings, expresiones regulares y clase Object"
+    link: https://app.aluracursos.com/course/csharp-strings-expresiones-regulares-clase-object
+

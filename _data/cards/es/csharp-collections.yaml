@@ -1,0 +1,51 @@
+name: C# - Colecciones
+logo: 
+short-description:
+key-objectives:
+  - Una colección representa un grupo de objetos, conocidos como sus elementos. Son como contenedores que agrupan varios elementos en una sola unidad. Algunas colecciones permiten la duplicación de elementos y otras no. Algunas son ordenadas y otras no ordenadas.
+  - Aprender los usos y diferencias entre Dictionary, List, Queue, SortedList y Stack
+  - Aprende a trabajar con ArrayList y HashTable
+  - Iterators
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Colecciones (C#)"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections
+  - type: SITE
+    title: "Tipos de colección utilizados normalmente"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/collections/commonly-used-collection-types
+  - type: SITE
+    title: "Iterators"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/iterators
+  - type: ARTICLE
+    title: "3 maneras diferentes de recorrer una lista en C#"
+    link: https://www.arungudelli.com/es/csharp-tips/loop-through-c-sharp-list/
+  - type: ARTICLE
+    title: "Estructuras de datos en .NET con C#"
+    link: https://www.genesisrrios.com/es/blog/estructuras-de-datos-en-csharp/
+  - type: ARTICLE
+    title: "Colecciones en C#, ¿cuál elegir?"
+    link: https://thatcsharpguy.com/post/colecciones-en-c-cual-elegir
+  - type: ARTICLE
+    title: "Lists / Listas"
+    link: https://csharp.net-tutorials.com/es/389/collections-colecciones/lists-listas/
+  - type: YOUTUBE
+    title: "Colecciones en C# en detalle"
+    link: https://www.youtube.com/watch?v=ViZSfqq6Cyo
+  - type: YOUTUBE
+    title: "Tutorial C# nivel Avanzado 5 - HashTable I"
+    link: https://www.youtube.com/watch?v=fFXHDib-x_0
+  - type: YOUTUBE
+    title: "List y ArrayList C#"
+    link: https://www.youtube.com/watch?v=k431eUiMRXA&t=374s
+  - type: YOUTUBE
+    title: "Tutorial C# nivel Avanzado 8 - SortedList"
+    link: https://www.youtube.com/watch?v=3VsCtkfQMPI
+  - type: YOUTUBE
+    title: "Tabla de Hash: Qué es y cómo funcionan"
+    link: https://www.youtube.com/watch?v=9tZsDJ3JBUA
+alura-contents:
+  - type: COURSE
+    title: "Curso C#: array y tipos genéricos"
+    link: https://www.aluracursos.com/curso-online-csharp-array-tipos-genericos
+

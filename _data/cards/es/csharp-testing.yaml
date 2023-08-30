@@ -1,0 +1,54 @@
+name: C# - PRUEBAS
+logo: 
+short-description:
+key-objectives:
+  - La prueba de software es el proceso de evaluación y verificación de que un software realmente hace lo que debe hacer. Los beneficios de las pruebas incluyen la prevención de errores, la reducción de los costos de desarrollo y la mejora del rendimiento.
+  - Usar pruebas unitárias
+  - Usar pruebas de integración
+  - Usar pruebas de comportamiento (behavior)
+  - Usar mocks
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Tutorial: Crear y ejecutar pruebas unitarias en código administrado"
+    link: https://learn.microsoft.com/es-es/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2022
+  - type: SITE
+    title: "Tutorial: Desarrollo controlado por pruebas con el Explorador de pruebas"
+    link: https://learn.microsoft.com/es-es/visualstudio/test/quick-start-test-driven-development-with-test-explorer?view=vs-2022
+  - type: ARTICLE
+    title: "¿Qué es la prueba de software?"
+    link: https://www.ibm.com/es-es/topics/software-testing
+  - type: ARTICLE
+    title: "Pruebas unitarias con C#"
+    link: https://aspnetcoremaster.com/dotnet/2019/06/13/pruebas-unitarias-csharp.html
+  - type: ARTICLE
+    title: "PRUEBAS UNITARIAS: ¿MOCK O STUB?"
+    link: https://itblogsogeti.com/2015/03/26/desarrollo-pruebas-unitarias-trinitario-gomez-sogeti/
+  - type: ARTICLE
+    title: "BDD Testing. ¿Cómo funciona el Behavior Driven Development?"
+    link: https://www.hiberus.com/crecemos-contigo/bdd-behavior-driven-developement/
+  - type: ARTICLE
+    title: "3 Ejemplos de TDD en .NET C#"
+    link: https://arbems.com/3-ejemplos-practicos-de-tdd-en-csharp-net/
+  - type: ARTICLE
+    title: "BDD Testing. ¿Cómo funciona el Behavior Driven Development?"
+    link: https://www.hiberus.com/crecemos-contigo/bdd-behavior-driven-developement/
+  - type: YOUTUBE
+    title: "Introducción a pruebas unitarias en C# .Net | Unit Testing"
+    link: https://www.youtube.com/watch?v=IcPqONZEKAo
+  - type: YOUTUBE
+    title: "UNIT TESTING en BACKEND | C# .NET"
+    link: https://www.youtube.com/watch?v=i7h92cR_8dA
+  - type: YOUTUBE
+    title: "MOCK en UNIT TEST para tratar con DEPENDENCIAS EN C#"
+    link: https://www.youtube.com/watch?v=pgCMTsVlHrg
+  - type: YOUTUBE
+    title: "Introducción a Pruebas Unitarias en C# con XUNIT en .NET Core | Unit Testing desde Cero"
+    link: https://www.youtube.com/watch?v=hq8__XRgK6k
+  - type: YOUTUBE
+    title: "Tests de integración con C# y Docker - Con ejemplo práctico"
+    link: https://www.youtube.com/watch?v=sFRjgnPEEzg
+  - type: YOUTUBE
+    title: "Cómo hacer pruebas automatizadas con Selenium y Visual Studio C# "
+    link: https://www.youtube.com/watch?v=ZkHAhtUQOws&ab_channel=PACOMARROQUIN
+alura-contents:
