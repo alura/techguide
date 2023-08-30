@@ -1,0 +1,39 @@
+name: ADO.NET
+logo: 
+short-description:
+key-objectives:
+  - ADO.NET es un conjunto de clases que exponen servicios de acceso a datos para desarrolladores del .NET Framework. ADO.NET provee un conjunto rico de componentes para crear aplicaciones distribuidas y compartir datos. Forma parte del .NET Framework, proporcionando acceso a datos de aplicaciones relacionales y XML.
+  - Manipular bases de datos
+  - Conocer el DataSet y DataTable
+  - Realizar conexiones
+  - Manipular documentos XML
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "ADO.NET"
+    link: https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/
+  - type: SITE
+    title: "Información General - ADO.NET"
+    link: https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/ado-net-overview
+  - type: SITE
+    title: "Desarrollo de aplicaciones ADO.NET"
+    link: https://www.ibm.com/docs/es/db2/11.5?topic=da-adonet
+  - type: SITE
+    title: "Objetos DataSet, DataTable y DataView"
+    link: https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/dataset-datatable-dataview/
+  - type: ARTICLE
+    title: "¿Qué es ADO.NET? Bases de datos con ADO.NET"
+    link: https://my-entertainment-place.blogspot.com/2020/03/que-es-adonet-bases-de-datos-con-adonet.html#google_vignette
+  - type: ARTICLE
+    title: "Diferencia entre DataSet y DataTable"
+    link: https://www.kyocode.com/2019/04/diferencia-entre-dataset-y-datatable/
+  - type: ARTICLE
+    title: "XML en la plataforma .NET"
+    link: http://elvex.ugr.es/decsai/csharp/xml/xml-plat-net.xml
+  - type: ARTICLE
+    title: "Como Escribir Un Fichero En XML En C#"
+    link: https://www.discoduroderoer.es/como-escribir-un-fichero-en-xml-en-c-sharp/
+  - type: YOUTUBE
+    title: "Introducción a .NET con MySQL - Crea una API Rest con MySQL - "
+    link: https://www.youtube.com/watch?v=E75IOkduaFg&ab_channel=TheCoderCaveesp
+alura-contents:

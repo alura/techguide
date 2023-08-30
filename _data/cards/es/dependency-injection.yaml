@@ -1,0 +1,37 @@
+name: Inyección de Dependencias
+logo: 
+short-description:
+key-objectives:
+  - La inyección de dependencias es un patrón de diseño en el que una clase solicita dependencias de fuentes externas en lugar de crearlas.
+  - Evitar el alto nivel de acoplamiento de código dentro de una aplicación
+  - Implementar la inversión de control
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Inserción de dependencias .NET | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/core/extensions/dependency-injection
+  - type: SITE
+    title: "Ioc (inversión de control) | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/communitytoolkit/mvvm/ioc
+  - type: ARTICLE
+    title: "Inyección de dependencias ¿Qué es y para qué sirve?"
+    link: https://bravedeveloper.com/2021/04/21/inyeccion-de-dependencias-que-es-y-para-que-sirve/
+  - type: ARTICLE
+    title: "Inyección de Dependencias(DI) en ASP.NET Core, mejores prácticas para escribir código reutilizable, escalable y desacoplado"
+    link: https://dev.to/ebarrioscode/inyeccion-de-dependencias-di-en-asp-net-core-mejores-practicas-para-escribir-codigo-reutilizable-escalable-y-desacoplado-kho
+  - type: ARTICLE
+    title: "Inyección de Dependencias en ASP.NET Core - III"
+    link: https://geeks.ms/jorge/2019/02/09/inyeccion-de-dependencias-en-asp-net-core-iii/
+  - type: ARTICLE
+    title: "Entity Core 2.0— Inyección de dependencias y Control de inversión"
+    link: https://devsebastianvz.medium.com/entity-core-2-0-inyecci%C3%B3n-de-dependencias-y-control-de-inversi%C3%B3nc-61b59cc390e9
+  - type: YOUTUBE
+    title: "INYECCIÓN DE DEPENDENCIAS 💉 - scoped vs transient vs singleton"
+    link: https://www.youtube.com/watch?v=1FojQ_ZjqOI
+  - type: YOUTUBE
+    title: "Tipos de Inyección de dependencias en ASP .Net | Transient vs Scoped vs Singleton"
+    link: https://www.youtube.com/watch?v=srPGwwMwAoA
+  - type: YOUTUBE
+    title: "Inyección de dependencias en ASP.NET Core"
+    link: https://www.youtube.com/watch?v=U2TvawZ0Ym4
+alura-contents:

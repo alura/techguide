@@ -1,0 +1,39 @@
+name: LINQ
+logo: 
+short-description:
+key-objectives:
+  - LINQ (Language-Integrated Query) es el nombre de un conjunto de tecnologías basado en la integración de recursos de consulta directamente en el lenguaje C#.
+  - Crear consultas
+  - Conocer las cláusulas Select y Where
+  - Consultar colecciones de objetos en memoria
+  - Mapear la base de datos con LINQ to Sql
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Introducción a las consultas LINQ (C#)"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries
+  - type: SITE
+    title: "Qué puede hacer con LINQ to SQL"
+    link: https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/sql/linq/what-you-can-do-with-linq-to-sql
+  - type: SITE
+    title: "Procedimiento para rellenar colecciones de objetos de varios orígenes (LINQ) (C#)"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/linq/how-to-populate-object-collections-from-multiple-sources-linq
+  - type: SITE
+    title: "Tutorial: Usar solo procedimientos almacenados (C#)"
+    link: https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/sql/linq/walkthrough-using-only-stored-procedures-csharp
+  - type: ARTICLE
+    title: "LINQ TO SQL, CONEXIÓN A BASES DE DATOS"
+    link: https://www.attomogroup.com/linq-to-sql-conexion-a-bases-de-datos/
+  - type: YOUTUBE
+    title: "Consultas Linq en Query Syntax y Method Syntax en .net con c#"
+    link: https://www.youtube.com/watch?app=desktop&v=bGborT4e1Fc
+  - type: YOUTUBE
+    title: "5 Métodos poco conocidos de LINQ en C# .Net"
+    link: https://www.youtube.com/watch?v=jhEXqwG0xM8
+  - type: YOUTUBE
+    title: "Uso de LINQPad para Ejecución de Expresiones C#"
+    link: https://www.youtube.com/watch?v=g5NZhspKfy8
+alura-contents:
+  - type: COURSE
+    title: "Curso C#: List, Lambda, Linq"
+    link: https://app.aluracursos.com/course/c-sharp-list-lambda-linq

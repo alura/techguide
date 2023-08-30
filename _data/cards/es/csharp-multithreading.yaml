@@ -1,0 +1,29 @@
+name: C# - Multithreading
+logo: 
+short-description:
+key-objectives:
+  - Multithreading es la capacidad de realizar múltiples operaciones al mismo tiempo. Las operaciones con el potencial de retrasar otras operaciones se pueden realizar en subprocesos separados.
+  - Realizar múltiples tareas simultáneamente
+  - Entender cómo se ejecutan los hilos
+  - Aprender cómo hacer que un hilo espere en un punto específico
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Uso de subprocesos y subprocesamiento | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/threading/using-threads-and-threading
+  - type: SITE
+    title: "Programación asincrónica basada en tareas | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/parallel-programming/task-based-asynchronous-programming
+  - type: ARTICLE
+    title: "Multithreading: más potencia para los procesadores"
+    link: https://www.ionos.es/digitalguide/servidores/know-how/explicacion-del-multithreading/
+  - type: ARTICLE
+    title: "CONCURRENCIA EN C# - PARTE 1"
+    link: https://fmoralesdev.com/es/2019/01/26/concurrency-in-c-part-1/
+  - type: ARTICLE
+    title: "Píldoras de C#: Task Parallel Library (TPL) Procesamiento Multihilo y asíncrono"
+    link: https://dev.to/ebarrioscode/pildoras-de-c-task-parallel-library-tpl-procesamiento-multihilo-y-asincrono-18mp
+  - type: YOUTUBE
+    title: "Múltiples hilos - 2 - Programación Multihilos C#"
+    link: https://www.youtube.com/watch?v=iJ6NdlpkLFk&list=PLM-p96nOrGca0DgG_aRjkBv5awLUoca_d&index=2
+alura-contents:
