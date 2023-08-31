@@ -81,7 +81,7 @@ export default function Footer() {
             }}
           >
             <Link
-              href="https://www.alura.com.br/sobre"
+              href={i18n.content("FOOTER.ALURA.LINK")}
               styleSheet={{
                 textDecoration: "none",
                 color: "#FFFFFF",
@@ -166,6 +166,11 @@ export default function Footer() {
             <Box tag="li">
               <Link href={i18n.content("FOOTER.APPSTORE")}>
                 <Icon name="appstore" />
+              </Link>
+            </Box>
+            <Box tag="li">
+              <Link href={i18n.content("FOOTER.TIKTOK")}>
+                <Icon name="tiktok" />
               </Link>
             </Box>
           </Box>

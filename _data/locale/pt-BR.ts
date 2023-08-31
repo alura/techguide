@@ -123,6 +123,8 @@ export default {
   "FOOTER.TWITTER": "https://twitter.com/aluraonline",
   "FOOTER.PLAYSTORE": "https://play.google.com/store/apps/details?id=br.com.alura.mobi",
   "FOOTER.APPSTORE": "https://apps.apple.com/br/app/alura-cursos-online/id1225776635",
+  "FOOTER.TIKTOK": "https://www.tiktok.com/@aluralatam",
+  "FOOTER.ALURA.LINK": "https://www.alura.com.br/",
   "MY.GENERATE_GUIDE": "Gerando seu guia...",
   "COMPANIES": [
     {
