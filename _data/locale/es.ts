@@ -120,9 +120,10 @@ export default {
   "FOOTER.YOUTUBE": "https://www.youtube.com/@AluraLatam",
   "FOOTER.FACEBOOK": "https://www.facebook.com/aluracursoslatam/",
   "FOOTER.INSTAGRAM": "https://www.instagram.com/aluralatam/",
-  "FOOTER.TIKTOK": "https://www.tiktok.com/@aluralatam",
   "FOOTER.PLAYSTORE": "https://play.google.com/store/apps/details?id=br.com.alura.mobi&hl=es_GT",
   "FOOTER.APPSTORE": "https://apps.apple.com/br/app/alura-cursos-online/id1225776635",
+  "FOOTER.TIKTOK": "https://www.tiktok.com/@aluralatam",
+  "FOOTER.ALURA.LINK": "https://www.aluracursos.com/",
   "MY.GENERATE_GUIDE": "Generando tu guía...",
   "TSHAPE.OPTIONAL.DESCRIPTION": "= Contenido opcional",
   "DEMO":"DEMO"

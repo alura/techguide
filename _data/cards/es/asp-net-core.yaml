@@ -1,0 +1,39 @@
+name: ASP.NET Core
+logo: 
+short-description:
+key-objectives:
+  - ASP.NET Core es un framework de código abierto y multiplataforma para la construcción de aplicaciones basadas en la nube, tales como aplicaciones web, aplicaciones IoT y backends móviles.
+  - Crear aplicaciones y servicios web
+  - Mantener una aplicación MVC
+  - Desarrollar interfaz de usuario web del lado del cliente
+  - Crear una API web
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Información general de ASP.NET Core | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0
+  - type: SITE
+    title: "Documentación de ASP.NET | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/aspnet/core/?view=aspnetcore-7.0
+  - type: SITE
+    title: "Desarrollo de aplicaciones ASP.NET Core MVC | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/architecture/modern-web-apps-azure/develop-asp-net-core-mvc-apps
+  - type: ARTICLE
+    title: "Ventajas y desventajas de ASP.NET Core"
+    link: https://redwerk.es/blog/ventajas-y-desventajas-de-asp-net-core/
+  - type: ARTICLE
+    title: "Trabajando con servicios web a través de ASP.NET Core y DotVVM"
+    link: https://dev.to/dotvvm/trabajando-con-servicios-web-a-traves-de-asp-net-core-y-dotvvm-4c76
+  - type: ARTICLE
+    title: "Migrar desde ASP.NET .Net Core 2.x web API a .Net Core 3.1"
+    link: https://pablotolentino.medium.com/migrar-desde-asp-net-net-core-2-x-web-api-a-net-core-3-1-25ef8485f6bb
+  - type: ARTICLE
+    title: "ASP.NET Core 6: Creando una app Multi-tenant (Parte 1)"
+    link: https://dev.to/isaacojeda/asp-net-core-6-creando-una-app-multi-tenant-parte-1-3df5
+  - type: YOUTUBE
+    title: "Controladores en ASP NET Core MVC"
+    link: https://www.youtube.com/watch?v=HSAp0zrgpHU
+  - type: YOUTUBE
+    title: "Creando proyecto de ASP.NET Core MVC en Mac OS"
+    link: https://www.youtube.com/watch?v=448jXb4TQlg
+alura-contents:

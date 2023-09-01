@@ -1,0 +1,35 @@
+name: C# - Serialización
+logo: 
+short-description:
+key-objectives:
+  - Serialización es el proceso de convertir un objeto en un flujo de bytes para almacenar el objeto o transmitirlo a la memoria, a una base de datos o a un archivo. Su objetivo principal es guardar el estado de un objeto para poder recrearlo cuando sea necesario.
+  - Enviar un objeto a una aplicación remota mediante un servicio web
+  - Pasar un objeto como una cadena JSON o XML
+  - Pasar información específica del usuario o de seguridad entre aplicaciones
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Serialización en .NET | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/serialization/
+  - type: SITE
+    title: "Serialización XML con servicios Web XML"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/serialization/xml-serialization-with-xml-web-services
+  - type: ARTICLE
+    title: "Serializar/deserializar con Json.Serialization (ejemplo para C#)"
+    link: https://www.elguillemola.com/serializar-deserializar-con-json-serialization-ejemplo-para-c/
+  - type: ARTICLE
+    title: "#HowTo Serializar un objeto en {} con C# y Newtonsoft."
+    link: https://happydevops.com/2022/03/10/howto-serializar-un-objeto-en-con-c-y-newtonsoft/
+  - type: YOUTUBE
+    title: "🔶APRENDE🔶 que es la 💎SERIALIZACIÓN💎 y CÓMO aplicarla en C#"
+    link: https://www.youtube.com/watch?v=hGPUc49TrC8
+  - type: YOUTUBE
+    title: "Tutorial C# nivel intermedio 17 --- Serialización binaria"
+    link: https://www.youtube.com/watch?v=xq70GMoC_1c
+  - type: YOUTUBE
+    title: "Tutorial C# nivel intermedio 19 --- Serialización con composición"
+    link: https://www.youtube.com/watch?v=7XMj9d2m-F8
+  - type: YOUTUBE
+    title: "Derek Banas: C# Serialization (inglés)"
+    link: https://www.youtube.com/watch?v=jbwjbbc5PjI
+alura-contents:

@@ -1,0 +1,29 @@
+name: C# - Red y Sockets
+logo: 
+short-description:
+key-objectives:
+  - El término programación con sockets se refiere a la escritura de programas que se ejecutan en varios ordenadores en los que los dispositivos están todos conectados entre sí utilizando una red.
+  - Abrir una sesión de comunicación interactiva entre el navegador del usuario y un servidor
+  - Enviar mensajes a un servidor y recibir respuestas sin consultar al servidor
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Sockets en .NET"
+    link: https://learn.microsoft.com/es-es/dotnet/fundamentals/networking/sockets/sockets-overview
+  - type: SITE
+    title: "Uso de sockets para enviar y recibir datos a través de TCP"
+    link: https://learn.microsoft.com/es-es/dotnet/fundamentals/networking/sockets/socket-services
+  - type: SITE
+    title: "Uso de Visual C# para crear un servidor remoto"
+    link: https://learn.microsoft.com/es-es/troubleshoot/developer/visualstudio/csharp/language-compilers/create-remote-server
+  - type: ARTICLE
+    title: "Escribiendo un servidor WebSocket en C#"
+    link: https://developer.mozilla.org/es/docs/Web/API/WebSockets_API/Writing_WebSocket_server
+  - type: YOUTUBE
+    title: "Crear nuestra Conexión al Servidor de datos | C# Nivel Intermedio"
+    link: https://www.youtube.com/watch?v=VKe3SzeQLuc
+  - type: YOUTUBE
+    title: "Curso de Sockets en C# - Cliente/Servidor Sincrónico [2/?]"
+    link: https://www.youtube.com/watch?v=F_cX662Dp1M
+alura-contents:
+

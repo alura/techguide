@@ -1,0 +1,35 @@
+name: NuGet
+logo: 
+short-description:
+key-objectives:
+  - NuGet es un gestor de paquetes para la plataforma .NET. Define cómo se crean, publican y consumen los paquetes en esta plataforma, y proporciona herramientas para cada una de estas funciones.
+  - Gestión de paquetes
+  - Compartir bibliotecas
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Una introducción a NuGet"
+    link: https://learn.microsoft.com/es-es/nuget/what-is-nuget
+  - type: SITE
+    title: "Inicio rápido: Creación y publicación de un paquete NuGet con Visual Studio (solo Windows)"
+    link: https://learn.microsoft.com/es-es/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli
+  - type: SITE
+    title: "Administre bibliotecas de proyectos con NuGet"
+    link: https://learn.microsoft.com/es-es/archive/msdn-magazine/2011/november/nuget-manage-project-libraries-with-nuget
+  - type: YOUTUBE
+    title: "Instalar paquete de NuGet"
+    link: https://www.youtube.com/watch?v=J3_io5mBEnU&ab_channel=alks091
+  - type: YOUTUBE
+    title: "¿Cómo publicar un paquete en NuGet?"
+    link: https://www.youtube.com/watch?v=NrgZUkloois
+  - type: YOUTUBE
+    title: "Crear librería (DLL) y añadirla a proyecto con C# y .NET"
+    link: https://www.youtube.com/watch?v=JAU8Cc7jX_Y&ab_channel=Inform%C3%A1ticayProgramaci%C3%B3n
+alura-contents:
+  - type: COURSE
+    title: "Curso C#: bibliotecas DLL, documentación y uso de NuGet"
+    link: https://www.aluracursos.com/curso-online-csharp-bibliotecas-dll-documentacion-nuget
+  - type: COURSE
+    title: "Curso de C#: creación y distribución de bibliotecas .NET"
+    link: https://app.aluracursos.com/course/c-sharp-creacion-distribucion-bibliotecas-dotnet
+

@@ -1,0 +1,32 @@
+name: Dapper
+logo: 
+short-description:
+key-objectives:
+  - Dapper es un producto de mapeo objeto-relacional (ORM) para la plataforma Microsoft .NET. Proporciona un framework para asignar un modelo de dominio orientado a objetos a bases de datos relacionales.
+  - Realizar consultas a bases de datos como 'select', 'Insert', 'update', 'delete'
+  - Manipular bases de datos
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Uso de la biblioteca cliente de bases de datos elásticas con Dapper"
+    link: https://learn.microsoft.com/es-es/azure/azure-sql/database/elastic-scale-working-with-dapper?view=azuresql-db
+  - type: ARTICLE
+    title: "Dapper - SQL"
+    link: https://compuarticulos.comotico.com/?p=20
+  - type: ARTICLE
+    title: "Dapper vs EntityFramework, debo usar un MicroOrm o un Orm?"
+    link: http://www.eltavo.net/2016/04/dapper-vs-entityframework-debo-usar-un.html
+  - type: ARTICLE
+    title: "[C#][SQL] [EF] [Dapper] Uso de Sequence de Sql Server desde .NET"
+    link: https://medium.com/jtorrecilla-net/c-sql-ef-dapper-uso-de-sequence-de-sql-server-desde-net-adb2eaa1cdeb
+  - type: ARTICLE
+    title: "Dapper y Entity Framework Core en .NET 6"
+    link: https://arbems.com/dapper-ef-core-net-6/
+  - type: YOUTUBE
+    title: "Qué es y cómo usar Dapper en .Net para hacer llamadas a bases de datos"
+    link: https://www.youtube.com/watch?v=7bfALdBdRTA
+  - type: YOUTUBE
+    title: "Agregando metodo update en c# | Visual Studio 2017 | Angularjs"
+    link: https://www.youtube.com/watch?v=M_rFCTxrRtY
+alura-contents:
+

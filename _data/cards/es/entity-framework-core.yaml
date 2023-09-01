@@ -1,0 +1,35 @@
+name: Entity Framework Core
+logo: 
+short-description:
+key-objectives:
+  - Entity Framework Core es un mapeador objeto-relacional (ORM). El mapeo objeto-relacional es una técnica que permite a los desarrolladores trabajar con datos de manera orientada a objetos, realizando el trabajo necesario para mapear entre objetos definidos en una lenguaje de programación de la aplicación y los datos almacenados en fuentes de datos relacionales.
+  - Manipular bases de datos usando objetos .NET
+  - Crear modelos correspondientes a una base de datos
+  - Realizar consultas
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Entity Framework Core"
+    link: https://learn.microsoft.com/es-es/ef/core/
+  - type: SITE
+    title: "Administración de esquemas de base de datos"
+    link: https://learn.microsoft.com/es-es/ef/core/managing-schemas/
+  - type: SITE
+    title: "Consulta de datos"
+    link: https://learn.microsoft.com/es-es/ef/core/querying/
+  - type: ARTICLE
+    title: "Introducción completa a Entity Framework Core"
+    link: https://estradawebgroup.com/Post/Introduccion-completa-a-Entity-Framework-Core-Simplifica-la-interaccion-con-bases-de-datos-en-tus-proyectos-ASP-NET-Core/20702#top
+  - type: YOUTUBE
+    title: "Como hacer un modelo de datos con Base de Datos SQL Server en ASP.NET Core 3.1 Visual Studio 2019"
+    link: https://www.youtube.com/watch?v=FSKgwTpYf-I&ab_channel=AguilarSystemsMX
+  - type: YOUTUBE
+    title: "¿Cómo utilizar Entity Framework con 2 o más bases de datos distintas?"
+    link: https://www.youtube.com/watch?v=rWgMMTP9GZ0&ab_channel=hdeleon.net
+  - type: YOUTUBE
+    title: "Entity Framework: Consultas Tipo SQL"
+    link: https://www.youtube.com/watch?v=ry_pCvkkIiI&ab_channel=CodeStack
+  - type: YOUTUBE
+    title: "Entity Framework: Consultas con ADO.Net"
+    link: https://www.youtube.com/watch?v=erEe2NoAH1U&ab_channel=CodeStack
+alura-contents:

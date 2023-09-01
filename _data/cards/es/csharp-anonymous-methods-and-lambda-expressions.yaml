@@ -1,0 +1,32 @@
+name: C# - Métodos anónimos y lambda expressions
+logo: 
+short-description:
+key-objectives:
+  - Los métodos anónimos son métodos sin nombre que se pueden definir usando la palabra clave delegate.
+  - Lambda Expressions se utilizan como funciones anónimas, pero no es necesario especificar el tipo de valor que se escribe, lo que las hace más flexibles de usar.
+  - Crear funciones anónimas que puedes utilizar para crear delegates
+  - Crear roles locales que se pueden pasar como argumentos
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Expresiones lambda y funciones anónimas | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/lambda-expressions
+  - type: SITE
+    title: "Delegados y expresiones lambda | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/standard/delegates-lambdas
+  - type: SITE
+    title: "Delegados con métodos con nombre y Métodos anónimos (Guía de programación de C#) | Microsoft Learn"
+    link: https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/delegates/delegates-with-named-vs-anonymous-methods
+  - type: ARTICLE
+    title: "Métodos anónimos y expresiones lambda en C#"
+    link: https://geeks.ms/jorge/2017/09/21/metodos-anonimos-y-expresiones-lambda-en-c/
+  - type: ARTICLE
+    title: "LINQ Y LAMBDA EXPRESSIONS"
+    link: https://gamecodetips.com/2017/09/17/linq-y-lambda-expressions/
+  - type: YOUTUBE
+    title: "Expresiones Lambda en C#"
+    link: https://www.youtube.com/watch?v=Y5q3wse1tDw
+alura-contents:
+  - type: COURSE
+    title: "Curso C#: List, Lambda, Linq"
+    link: https://app.aluracursos.com/course/c-sharp-list-lambda-linq
