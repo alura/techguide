@@ -1,5 +1,5 @@
 name: Vue - Options API
-logo: 
+logo:
 short-description:
 key-objectives:
   - "Aprenda a estruturar um componente Vue usando a Options API, abrangendo opções como 'data', 'methods', 'computed', e 'watch'."
@@ -13,4 +13,6 @@ contents:
   - type: SITE
     title: "Mozilla: Usando propriedades computadas do Vue"
     link: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_computed_properties
-
+  - type: ARTICLE
+    title: "Vue3: Options API vs Composition API"
+    link: https://dev.to/sucodelarangela/vue3-options-api-vs-composition-api-1j09
