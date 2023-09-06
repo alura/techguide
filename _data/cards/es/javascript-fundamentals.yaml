@@ -51,8 +51,11 @@ contents:
     link: https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash
 alura-contents:
   - type: ARTICLE
-    title: "Roadmap para principiantes en JavaScript:"
+    title: "Roadmap para principiantes en JavaScript"
     link: https://www.aluracursos.com/blog/roadmap-js
+  - type: ARTICLE
+    title: "Guía de JavaScript: qué es y cómo aprender el lenguaje más popular del mundo"
+    link: https://www.aluracursos.com/blog/guia-de-javascript
   - type: ARTICLE
     title: "Funciones en JavaScript "
     link: https://www.aluracursos.com/blog/articulo-funciones-en-javascript-
@@ -69,14 +72,8 @@ alura-contents:
     title: "Escopo en JavaScript"
     link: https://www.aluracursos.com/blog/escopo-en-javascript
   - type: ARTICLE
-    title: "Herencia en JavaScript"
-    link: https://www.aluracursos.com/blog/herencia-en-javascript
-  - type: ARTICLE
     title: "Conociendo Arrow Functions"
     link: https://www.aluracursos.com/blog/conociendo-arrow-functions
-  - type: ARTICLE
-    title: "Trabajando con fechas en JavaScript"
-    link: https://www.aluracursos.com/blog/trabajando-con-fechas-en-javascript
   - type: ARTICLE
     title: "Trabajando con fechas en JavaScript"
     link: https://www.aluracursos.com/blog/trabajando-con-fechas-en-javascript
@@ -101,6 +98,15 @@ alura-contents:
   - type: ARTICLE
     title: "Comprenda la diferencia entre var, let y const en JavaScript"
     link: https://www.aluracursos.com/blog/comprenda-diferencia-entre-var-let-y-const-en-javascript
+  - type: ARTICLE
+    title: "Cómo usar operadores de comparación en Javascript"
+    link: https://www.aluracursos.com/blog/como-utilizar-operadores-de-comparacion-en-javascript
+  - type: ARTICLE
+    title: "Namespaces: cómo evitar conflictos en código JavaScript"
+    link: https://www.aluracursos.com/blog/namespaces-como-evitar-conflictos
+  - type: ARTICLE
+    title: "Una guía para importar y exportar módulos con JavaScript"
+    link: https://www.aluracursos.com/blog/una-guia-para-importar-exportar-modulos-con-java-script
   - type: YOUTUBE
     title: "¿Qué es JavaScript?"
     link: https://www.youtube.com/watch?v=GJfOSoaXk4s&ab_channel=AluraLatam

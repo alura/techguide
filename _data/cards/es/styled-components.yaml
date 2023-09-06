@@ -7,14 +7,14 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Documentación - Componentes con estilo"
+    title: "Documentación - Styled Components"
     link: https://styled-components.com/docs
-  - type: SITE
-    title: "Guía completa sobre cómo usar componentes con estilo en React"
-    link: https://dev.to/elijahtrillionz/complete-guide-on-how-to-use-styled-components-in-react-360c
   - type: ARTICLE
-    title: "Cómo usar componentes con estilo en React"
-    link: https://www.smashingmagazine.com/2020/07/styled-components-react/
+    title: "Styled Components Basics (Spanish)"
+    link: https://dev.to/alfredocu/styled-components-basics-spanish-jdn
+  - type: ARTICLE
+    title: "Cómo Utilizar Styled Components en React"
+    link: https://www.escuelafrontend.com/styled-components-en-react
   - type: YOUTUBE
     title: "Uso de la librería Styled Components"
     link: https://www.youtube.com/watch?v=-mS5YEQO2AQ
@@ -22,3 +22,6 @@ contents:
     title: "Introducción a Styled-Components con React"
     link: https://www.youtube.com/watch?v=Nheqmg2z_dg
 alura-contents:
+  - type: ARTICLE
+    title: "React: componentes con Styled Components"
+    link: https://www.aluracursos.com/blog/react-componentes-con-styled-components

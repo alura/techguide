@@ -1,4 +1,4 @@
-name: Create React App
+name: Crear una aplicación React
 logo: 
 short-description:
 key-objectives:
@@ -19,10 +19,13 @@ contents:
   - type: ARTICLE
     title: "Cómo configurar un nuevo proyecto Create React App"
     link: https://medium.com/@dimterion/how-to-set-up-a-new-create-react-app-project-2bfc2992aa16
+alura-contents:
+  - type: SITE
+    title: "Actualización de React y uso de Vite"
+    link: https://app.aluracursos.com/extra/alura-mais/actualizacion-de-react-y-uso-de-vite-c235
   - type: ARTICLE
     title: "React: componentes con Styled Components"
     link: https://www.aluracursos.com/blog/react-componentes-con-styled-components
-  - type: YOUTUBE
-    title: "Crea una app con React usando create-react-app"
-    link: https://www.youtube.com/watch?v=TTZOoWfGjCo
-alura-contents:
+  - type: ARTICLE
+    title: "React: ¿Biblioteca o Framework?"
+    link: https://www.aluracursos.com/blog/react-framework-biblioteca

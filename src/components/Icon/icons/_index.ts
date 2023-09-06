@@ -6,5 +6,6 @@ export { default as download } from "./download";
 export { default as instagram } from "./instagram";
 export { default as playstore } from "./playstore";
 export { default as twitter } from "./twitter";
+export { default as tiktok } from "./tiktok";
 export { default as arrowUp } from "./arrowUp";
 export { default as arrowLeft } from "./arrowLeft";

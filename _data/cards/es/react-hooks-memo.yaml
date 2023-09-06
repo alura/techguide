@@ -1,4 +1,4 @@
-name: React Hooks - UseMemo
+name: React Hooks - Memo
 logo: 
 short-description:
 key-objectives:
@@ -7,6 +7,9 @@ key-objectives:
 - Evitar cálculos costosos en cada render
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "Documentación memo"
+    link: https://es.react.dev/reference/react/memo
   - type: SITE
     title: "W3Schools: React useMemo Hook"
     link: https://www.w3schools.com/react/react_usememo.asp

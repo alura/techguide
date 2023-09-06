@@ -15,12 +15,24 @@ contents:
   - type: SITE
     title: "React Router: Documentación"
     link: https://reactrouter.com/en/main/start/overview
+  - type: SITE
+    title: "Overview React Router"
+    link: https://beta.reactrouter.com/en/main/start/overview
   - type: ARTICLE
-    title: "Enrutando Nuesas vistas con React Router"
+    title: "Enrutando Nuestras vistas con React Router"
     link: https://4geeks.com/es/lesson/routing-our-views-with-react-router-es
+  - type: ARTICLE
+    title: "Tutorial de React Router versión 6 - Cómo navegar a otros componentes y configurar un enrutador"
+    link: https://www.freecodecamp.org/espanol/news/tutorial-de-react-router-version-6-como-navegar-a-otros-componentes-y-configurar-un-enrutador/
+  - type: ARTICLE
+    title: "Ejemplo de Implementación de React Router v6"
+    link: https://www.frames75.com/2021/ejemplo-react-router.html
   - type: YOUTUBE
     title: "Cómo usar React Router"
     link: https://www.youtube.com/watch?v=afDXVnDnBf4
+  - type: YOUTUBE
+    title: "React Router | Nested Routes | Rutas anidadas"
+    link: https://www.youtube.com/watch?v=Nolg5BJtpVE
   - type: YOUTUBE
     title: "Rutas con Parámetros consumiendo una API"
     link: https://www.youtube.com/watch?v=Q9YClZMj9-M

@@ -50,7 +50,7 @@
    - Quitar un elemento del árbol
    - Esperando un evento en un elemento determinado de la página usando
 - [ ] **Conceptos de SPA**:
-   - A single-page application o SPA es una aplicación web de una sola página o sitio, que interactúa con el usuario reescribiendo dinámicamente la página web actual con nuevos datos del servidor web, en lugar del método por defecto de un navegador web que carga páginas nuevas enteras. El objetivo es conseguir transiciones más rápidas que hagan que el sitio web parezca más una aplicación nativa.
+   - Single-page application o SPA es una aplicación web de una sola página o sitio, que interactúa con el usuario reescribiendo dinámicamente la página web actual con nuevos datos del servidor web, en lugar del método por defecto de un navegador web que carga páginas nuevas enteras. El objetivo es conseguir transiciones más rápidas que hagan que el sitio web parezca más una aplicación nativa.
    - Entender qué es una SPA
    - Establecer rutas a otras páginas
    - Conocer los frameworks SPA
@@ -69,30 +69,30 @@
    - Controlar el estado de los componentes.
    - Manipular variables
    - Actualizar el valor de los elementos.
-- [ ] **Create React App**:
+- [ ] **Crear una aplicación React**:
    - Create React App es una forma oficialmente admitida de crear aplicaciones React de una sola página. Ofrece una configuración de construcción moderna sin configuración.
    - Estructuración de un nuevo proyecto React
    - Crear una aplicación funcional desde cero
-- [ ] **React Hooks - UseEffect**:
+- [ ] **React Hooks - Effect**:
    - UseEffect() es un React Hook que le permite manejar los efectos secundarios en sus componentes funcionales de React.
    - Ejecutar un componente solo después de renderizar
    - Acceso a los accesorios de un elemento
    - API de llamadas
 ## Nivel 2
-- [ ] **React Hooks - UseMemo**:
+- [ ] **React Hooks - Memo**:
    - El React Hook `useMemo` devuelve un valor memorizado. `useMemo` solo volverá a calcular el valor memorizado cuando una de las dependencias haya cambiado.
    - Controlar el estado de las variables externas
    - Evitar cálculos costosos en cada render
-- [ ] **React Hooks - UseCallback**:
+- [ ] **React Hooks - Callback**:
    - El Hook `useCallback` de React devuelve una función Callback memorizada.
    - Aislamiento de funciones intensivas en recursos para que no se ejecuten automáticamente en cada elemento renderizado
-- [ ] **React Hooks - Ref.**:
+- [ ] **React Hooks - Ref**:
    - El Hook `useRef` te permite persistir valores entre renderizaciones.
    - Almacenar un valor mutable que no provoca una nueva representación cuando se actualiza
    - Acceder a un elemento DOM directamente
-- [ ] **React - Bibliotecas del sistema de diseño**:
+- [ ] **React - Bibliotecas de Design System**:
    - Un sistema de diseño es una colección de componentes reutilizables, guiados por estándares claros, que se pueden ensamblar para construir cualquier cantidad de aplicaciones.
-- [ ] **Herramientas de desarrollo de React**:
+- [ ] **React Developer Tools**:
    - React Developer Tools se utiliza para inspeccionar los componentes de React, editar accesorios y estados e identificar problemas de rendimiento.
    - Depuración de aplicaciones
 - [ ] **Versiones semánticas de front-end**:
@@ -101,8 +101,8 @@
    - Evitar el "infierno de la dependencia"
 - [ ] **CSS-in-JS**:
    - CSS-in-JS se refiere a un patrón en el que CSS se compone utilizando JavaScript en lugar de definirse en archivos externos.
-   - Manejar de código CSS usando JavaScript
-   - Usar componentes con estilo
+   - Manejar código CSS usando JavaScript
+   - Usar styled-components
    - Conocer Styled-JSX
 - [ ] **Styled Components**:
    - Styled Components le permiten escribir código CSS real para diseñar sus componentes usando literales de plantilla etiquetados y el poder de CSS.
@@ -115,14 +115,7 @@
    - Aprender qué es TypeScript, por qué se creó, cómo funciona y su relación con JavaScript
    - Conocer las herramientas de TypeScript (integración con el editor de código, verificador estático y compilador)
    - Escribir código en TypeScript usando sus herramientas (interfaces, enumeración, decoradores, etc.)
-- [ ] **YARN**:
-   - Yarn es un administrador de paquetes para su código. Le permite usar y compartir código con otros desarrolladores. El código se comparte a través de algo llamado paquete (a veces denominado módulo). Un paquete contiene todo el código que se comparte, así como un archivo package.json que O describe.
-   - Administrar paquetes
-   - Administrar dependencias
-   - Instalar paquetes sin conexión
-   - Comandos
-   - El archivo yarn.lock
-- [ ] **Biblioteca de pruebas de reacción**:
+- [ ] **React Testing Library**:
    - React Testing Library se basa en DOM Testing Library al agregar API para trabajar con componentes React. Es un conjunto de ayudantes que le permiten probar los componentes de React sin depender de los detalles de su implementación.
    - Probando los componentes de React
 - [ ] **Jest**:
@@ -150,14 +143,14 @@
 - [ ] **Babel - Fundamentos**:
    - Babel es un compilador de JavaScript. Es una cadena de herramientas que se utiliza principalmente para convertir el código ECMAScript 2015+ en una versión de JavaScript compatible con versiones anteriores en navegadores o entornos actuales y anteriores.
 ## Nivel 3
-- [ ] **Lotería**:
+- [ ] **Lottie**:
    - Lottie es una biblioteca que analiza las animaciones de Adobe After Effects exportadas como json con Bodymovin y las renderiza de forma nativa en dispositivos móviles y en la web.
-- [ ] **Movimiento del enmarcador**:
+- [ ] **Framer Motion**:
    - Framer Motion es una biblioteca de movimiento lista para producción para React de Framer.
    - Creando animaciones
 - [ ] **Service Workers**:
    - Los Service Workers actúan esencialmente como servidores proxy que se ubican entre las aplicaciones web, el navegador y la red (cuando está disponible). Están destinados, entre otras cosas, a permitir la creación de experiencias fuera de línea efectivas, interceptar solicitudes de red y tomar las medidas adecuadas en función de si la red está disponible y actualizar los activos que residen en el servidor. También permitirán el acceso a notificaciones push y API de sincronización en segundo plano.
-- [ ] **React Hook Form**:
+- [ ] **React Hooks - Form**:
    - React Hooks Form es una biblioteca que proporciona validación de formularios.
 - [ ] **Lodash**:
    - Lodash es una moderna biblioteca de utilidades de JavaScript que ofrece modularidad, rendimiento y extras. Los métodos modulares de Lodash son excelentes para iterar arreglos, objetos y cadenas; manipular y probar valores; y la creación de funciones compuestas.
@@ -169,7 +162,7 @@
    - Apollo Client es una biblioteca integral de administración de estado para JavaScript que le permite administrar datos locales y remotos con GraphQL.
 - [ ] **Redux Saga**:
    - Redux Saga es una biblioteca que tiene como objetivo hacer que los efectos secundarios de la aplicación (es decir, cosas asincrónicas como la obtención de datos y cosas impuras como acceder al caché del navegador) sean más fáciles de administrar, más eficientes de ejecutar, fáciles de probar y mejores en el manejo de fallas.
-- [ ] **SiguienteJS - Fundamentos**:
+- [ ] **NextJS - Fundamentos**:
    - Next.js es un marco de desarrollo web de código abierto creado por Vercel que permite aplicaciones web basadas en React con representación del lado del servidor y generación de sitios web estáticos.
    - Creación de interfaces web
    - Disminución de los tiempos de carga de la página
@@ -202,13 +195,18 @@
 - [ ] **Línea de Comando - Fundamentos**:
    - CLI es un programa de línea de comandos que acepta la entrada de texto para ejecutar funciones del sistema operativo.
    - Conocer los comandos más importantes
-- [ ] **Babel - Fundamentos**:
-   - Babel es un compilador de JavaScript. Es una cadena de herramientas que se utiliza principalmente para convertir el código ECMAScript 2015+ en una versión de JavaScript compatible con versiones anteriores en navegadores o entornos actuales y anteriores.
 - [ ] **Cloud - Fundamentos**:
    - La computación en nube, o cloud computing, es la distribución de servicios informáticos a través de Internet mediante un modelo de tarificación de pago por uso. Una nube se compone de varios recursos informatizados, desde los propios ordenadores (o instancias, en terminología de nube) hasta las redes, el almacenamiento, las bases de datos y todo lo que les rodea. En otras palabras, todo lo que normalmente se necesita para montar el equivalente a una sala de servidores, o incluso un centro de datos completo, estará listo para usar, configurar y ejecutar.
    - Conocer la diferencia entre IaaS, PaaS y SaaS
    - Conocer los mayores proveedores de nube
    - Especializarse en un proveedor específico de su preferencia
+- [ ] **YARN**:
+   - Yarn es un administrador de paquetes para su código. Le permite usar y compartir código con otros desarrolladores. El código se comparte a través de algo llamado paquete (a veces denominado módulo). Un paquete contiene todo el código que se comparte, así como un archivo package.json que O describe.
+   - Administrar paquetes
+   - Administrar dependencias
+   - Instalar paquetes sin conexión
+   - Comandos
+   - El archivo yarn.lock
 ## Habilidade Auxiliar: UX y Design 
 - [ ] **Sistemas de Diseño**:
    - Un sistema de diseño es una colección de componentes reutilizables, guiados por estándares claros, que se pueden ensamblar para crear aplicaciones.
