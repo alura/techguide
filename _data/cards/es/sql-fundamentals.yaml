@@ -22,8 +22,14 @@ alura-contents:
     title: "Bases de datos relacionales"
     link: https://www.aluracursos.com/blog/base-de-datos-relacional
   - type: ARTICLE
+    title: "¿Qué es SQL?"
+    link: https://www.aluracursos.com/blog/que-es-sql
+  - type: ARTICLE
     title: "Normalización en base de datos - Estructura"
     link: https://www.aluracursos.com/blog/normalizacion-en-base-de-datos
+  - type: ARTICLE
+    title: "En SQL, null es null, vacío está vacío"
+    link: https://www.aluracursos.com/blog/en-sql-null-es-null-vacio-es-vacio
   - type: ARTICLE
     title: "SELECT, INSERT, UPDATE y DELETE en SQL: aprende a utilizar cada uno" 
     link: https://www.aluracursos.com/blog/select-insert-update-delete-sql
@@ -39,6 +45,12 @@ alura-contents:
   - type: YOUTUBE
     title: "Descomplicando Base de Datos | #Aluramás"
     link: https://www.youtube.com/watch?v=G1cDRqKuxpg&t=6s&ab_channel=AluraLatam
+  - type: YOUTUBE
+    title: "¿Qué es SQL y NoSQL?"
+    link: https://www.youtube.com/watch?v=cLLKVd5CNLc
+  - type: YOUTUBE
+    title: "Banco de Datos MySQL"
+    link: https://www.youtube.com/watch?v=8J0AoPZMVxA
   - type: COURSE
     title: "SQL con MySQL"
     link: https://app.aluracursos.com/formacion-sql-con-mysql
@@ -48,4 +60,12 @@ alura-contents:
   - type: COURSE
     title: "SQL Server: consultas avanzadas con Microsoft SQL Server 2019"
     link: https://app.aluracursos.com/course/sql-server-consultas-microsoft-sql-server-2019
+  - type: COURSE
+    title: "Formación Modelado de datos"
+    link: https://www.aluracursos.com/formacion-modelado-de-datos
+  - type: COURSE
+    title: "Formación SQL con Microsoft SQL Server"
+    link: https://www.aluracursos.com/formacion-SQL-con-Microsoft-SQL-Server-2019
+
+
 

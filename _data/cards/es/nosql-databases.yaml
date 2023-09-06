@@ -6,24 +6,22 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "AWS: O que é NoSQL?"
-    link: https://aws.amazon.com/pt/nosql/ 
+    title: "¿Qué es NoSQL?"
+    link: https://aws.amazon.com/es/nosql/
+  - type: SITE
+    title: "¿Qué son las bases de datos NoSQL?"
+    link: https://www.ibm.com/es-es/topics/nosql-databases
+  - type: SITE
+    title: "MongoDB: Fundamentos de las bases de datos NoSQL"
+    link: https://www.mongodb.com/es/nosql-explained
   - type: ARTICLE
-    title: "NoSQL — O que são? Onde habitam? Do que se alimentam?"
-    link: https://medium.com/permalink-univesp/nosql-o-que-s%C3%A3o-onde-habitam-do-que-se-alimentam-2ccd4cc39571 
+    title: "NoSQL vs SQL: principales diferencias y cuándo elegir cada una de ellas"
+    link: https://pandorafms.com/blog/es/nosql-vs-sql-diferencias-y-cuando-elegir-cada-una/
   - type: YOUTUBE
-    title: "Código Fonte TV: MongoDB (O Banco de Dados NoSQL mais Legal)"
-    link: https://www.youtube.com/watch?v=4dTI1mVLX3I 
-  - type: ARTICLE
-    title: "Principais diferenças de um banco de dados tradicional e o MongoDB"
-    link: https://papito.medium.com/principais-diferen%C3%A7as-de-um-banco-de-dados-tradicional-e-o-mongodb-4fc1117453f8 
-  - type: YOUTUBE
-    title: "Ricardo Leme: Introdução ao NoSQL-MongoDB"
-    link: https://www.youtube.com/watch?v=kedLyo95fGU&list=PLyqlZW5s3wkoMhARQKp3s4YtaeKucb0Xj  
+    title: "MongoDB Curso, Introducción Practica a NoSQL"
+    link: https://www.youtube.com/watch?v=lWMemPN9t6Q
+
 alura-contents:
-  - type: COURSE
-    title: "MongoDB"
-    link: https://cursos.alura.com.br/formacao-mongodb
-  - type: COURSE
-    title: "Datomic"
-    link: https://cursos.alura.com.br/formacao-datomic
+  - type: YOUTUBE
+    title: "¿Qué es SQL y NoSQL?"
+    link: https://www.youtube.com/watch?v=cLLKVd5CNLc

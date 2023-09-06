@@ -1,38 +1,32 @@
-name: Engenharia de Dados - Fundamentos
+name: Ingeniería de Datos - Fundamentos
 logo: 
 short-description:
 key-objectives:
-  - Uma pessoa Engenheira de Dados desempenha um papel crucial ao projetar, implementar e manter as infraestruturas de dados que permitem que uma organização trabalhe de maneira eficiente com suas informações. A pessoa engenheira de dados cria pipelines de dados para integrar, limpar e transformar dados provenientes de várias fontes e formatos. Isso possibilita a geração de insights valiosos para o negócio e melhora a tomada de decisões estratégicas.
+  - Una persona Ingeniera de Datos desempeña un papel crucial al diseñar, implementar y mantener la infraestructura de datos que permite que una organización trabaje de manera eficiente con su información. La persona ingeniera de datos crea pipelines de datos para integrar, limpiar y transformar datos provenientes de varias fuentes y formatos. Esto posibilita la generación de insights valiosos para el negocio y mejora la toma de decisiones estratégicas.
 aditional-objectives:
 contents:
   - type: ARTICLE
-    title: "O que faz um Engenheiro de Dados?"
-    link: https://medium.com/data-hackers/o-que-faz-um-engenheiro-de-dados-fdcb0bca966b 
-  - type: YOUTUBE
-    title: "O que é Big Data? O que é Data Analytics?"
-    link: https://www.youtube.com/watch?v=4CNqiAgmqSc 
-  - type: YOUTUBE
-    title: "Millena Gená: O que faz um Engenheiro de Dados?"
-    link: https://www.youtube.com/watch?v=Zsos7iTylqo 
+    title: "¿Qué es un ingeniero de datos y qué hace?"
+    link: https://weremote.net/que-hace-es-un-ingeniero-de-datos/
   - type: ARTICLE
-    title: "Os Tipos e Perfis de Engenheiros de Dados"
-    link: https://medium.com/data-hackers/os-tipos-de-engenheiros-de-dados-c3674b4d74d1 
+    title: "¿Cuál es la diferencia entre un Ingeniero de Datos, un Analista de Datos y un Científico de Datos?"
+    link: https://ecab-estadistica.medium.com/cuál-es-la-diferencia-entre-un-ingeniero-de-datos-un-analista-de-datos-y-un-científico-de-datos-76638b0139
   - type: ARTICLE
-    title: "O passado, presente e o futuro da Engenharia de Dados — Data Hackers Podcast"
-    link: https://medium.com/data-hackers/o-passado-presente-e-o-futuro-da-engenharia-de-dados-data-hackers-podcast-49-34be714b20f6
+    title: "La creciente importancia del Ingeniero de Datos en la empresa"
+    link: https://www.linkedin.com/pulse/la-creciente-importancia-del-ingeniero-de-datos-en-empresa-benayas/?originalSubdomain=es
+  - type: YOUTUBE
+    title: "¿Qué es el Big Data Analytics?"
+    link: https://www.youtube.com/watch?v=uQmcgvxx_g0
+  - type: YOUTUBE
+    title: "¿Qué hacen los Ingenieros de Datos?"
+    link: https://www.youtube.com/watch?v=Q6eihDj1Jy0
+  - type: PODCAST
+    title: "¿Qué hacen los Ingenieros de Datos?"
+    link: https://open.spotify.com/episode/0tdya0fRkUD1LlxDglzpzR?si=FLh0F1voQWCPV46pXJ8qcA&utm_source=copy-link&utm_medium=copy-link&nd=1&_branch_match_id=1218705794835443153&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXLy7IL8lMq9TLyczL1rc0c3S2rEhM9XBOAgAUfIC5IAAAAA%3D%3D
+  - type: PODCAST
+    title: "Datos, datos, DATOS"
+    link: https://open.spotify.com/episode/4h7zQE5WK3VHDwwbvTmPHI?si=J9W8MlgQQfiX0OIV2ZduTg&utm_source=copy-link&utm_medium=copy-link&nd=1&_branch_match_id=1218705794835443153&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXLy7IL8lMq9TLyczL1jd3y%2FWMzM9O9XBOAgCS2W83IAAAAA%3D%3D
 alura-contents:
   - type: ARTICLE
-    title: "Engenharia de Dados: o que é, o que faz e um Guia completo"
-    link: https://www.alura.com.br/artigos/engenharia-dados 
-  - type: YOUTUBE
-    title: "Alura: O que é Engenharia de Dados?"
-    link: https://www.youtube.com/watch?v=_rMb6S6kimM 
-  - type: ARTICLE
-    title: "O que faz uma pessoa Engenheira de Dados?"
-    link: https://www.alura.com.br/artigos/o-que-pessoa-engenheira-dados 
-  - type: PODCAST
-    title: "Hipsters.Tech: Data Engineering no Quinto Andar"
-    link: https://www.hipsters.tech/data-engineering-no-quinto-andar-hipsters-on-the-road-60/ 
-  - type: COURSE
-    title: "Formação Iniciando com Engenharia de Dados"
-    link: https://cursos.alura.com.br/formacao-iniciando-engenharia-dados
+    title: "¿Que hace un cientista de datos?"
+    link: https://www.aluracursos.com/blog/que-hace-un-cientista-de-datos
