@@ -1,0 +1,66 @@
+name: Go (GoLang) - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Go é uma linguagem de programação de alto nível compilada e estaticamente tipada, desenvolvida no Google. Ela é sintaticamente semelhante ao C, mas também tem memory safety, coletor de lixo, tipagem estrutural e concorrência.
+  - Entender a sua sintaxe
+  - Conhecer os tipos primitivos
+  - Declarar e usar variáveis e constantes
+  - Usar estruturas condicionais (if, else)
+  - Usar estruturas de repetição e laços (while, for)
+  - Usar funções, passando parâmetros e argumentos
+  - Implementando métodos e reutilizando eles
+  - Tratamento de erros
+  - Convenções de código
+  - Manipular Coleções, arrays e listas
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Go: Começando com Go (inglês)"
+    link: https://go.dev/doc/tutorial/getting-started
+  - type: SITE
+    title: "Documentação Go: Criando um módulo Go (inglês)"
+    link: https://go.dev/doc/tutorial/create-module
+  - type: ARTICLE
+    title: "GoLang — Simplificando a complexidade"
+    link: https://medium.com/trainingcenter/golang-d94e16d4b383
+  - type: ARTICLE
+    title: "Trabalhando com concorrência em Go — com benchmark"
+    link: https://vinnynordi.com/trabalhando-com-concorr%C3%AAncia-em-go-com-benchmark-aecefdc7ab7c
+  - type: YOUTUBE
+    title: "Código Fonte TV: Golang (A Linguagem do Futuro?) // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=Q0sKAMal4WQ&ab_channel=edureka%21
+  - type: YOUTUBE
+    title: "Léo Miranda Dev: Primeiros passos em Go (Golang)"
+    link: https://www.youtube.com/watch?v=Q0sKAMal4WQ&ab_channel=edureka%21
+  - type: YOUTUBE
+    title: "edureka!: Golang Tutorial For Beginners"
+    link: https://www.youtube.com/watch?v=Q0sKAMal4WQ&ab_channel=edureka%21
+alura-contents:
+  - type: ARTICLE
+    title: "Variáveis em Go: como elas funcionam?"
+    link: https://www.alura.com.br/artigos/variaves-com-go-lang
+  - type: ARTICLE
+    title: "Estruturas básicas de controle com GO"
+    link: https://www.alura.com.br/artigos/estruturas-basicas-de-controle-com-go
+  - type: ARTICLE
+    title: "Conversão de tipos com Go"
+    link: https://www.alura.com.br/artigos/conversao-de-tipos-com-go
+  - type: ARTICLE
+    title: "Criando uma simples aplicação web com GO"
+    link: https://www.alura.com.br/artigos/criando-uma-simples-aplicacao-web-com-go
+  - type: ARTICLE
+    title: "Golang: trabalhando com datas"
+    link: https://www.alura.com.br/artigos/golang-trabalhando-com-datas
+  - type: PODCAST
+    title: "A linguagem Go – Hipsters #67"
+    link: https://www.hipsters.tech/linguagem-go-hipsters-67/
+  - type: PODCAST
+    title: "Ecossistemas Golang- Hipsters Ponto Tech #296"
+    link: https://www.hipsters.tech/ecossistemas-golang-hipsters-ponto-tech-296/
+  - type: YOUTUBE
+    title: "Conhecendo a linguagem Go | Hipsters.Talks"
+    link: https://www.youtube.com/watch?v=y8FeZMv37WU&ab_channel=Alura
+  - type: COURSE
+    title: "Formação Linguagem Go"
+    link: https://www.alura.com.br/formacao-go

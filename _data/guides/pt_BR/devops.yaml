@@ -51,6 +51,9 @@ collaboration:
       - python-fundamentals:
         priority: 7
         optional: true
+      - go-fundamentals:
+        priority: 7
+        optional: true
       - java-fundamentals:
         priority: 7
         optional: true
