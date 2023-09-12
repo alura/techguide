@@ -126,6 +126,18 @@
    - Obter dados de uma API
    - Criar construtores
    - Funções anônimas
+- [ ] **Go (GoLang) - Fundamentos**:
+   - Go é uma linguagem de programação de alto nível compilada e estaticamente tipada, desenvolvida no Google. Ela é sintaticamente semelhante ao C, mas também tem memory safety, coletor de lixo, tipagem estrutural e concorrência.
+   - Entender a sua sintaxe
+   - Conhecer os tipos primitivos
+   - Declarar e usar variáveis e constantes
+   - Usar estruturas condicionais (if, else)
+   - Usar estruturas de repetição e laços (while, for)
+   - Usar funções, passando parâmetros e argumentos
+   - Implementando métodos e reutilizando eles
+   - Tratamento de erros
+   - Convenções de código
+   - Manipular Coleções, arrays e listas
 - [ ] **Java - Fundamentos**:
    - Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.
    - Conhecer os tipos primitivos
