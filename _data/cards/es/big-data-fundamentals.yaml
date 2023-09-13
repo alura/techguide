@@ -2,41 +2,33 @@ name: Big Data - Fundamentos
 logo: 
 short-description:
 key-objectives:
-  - Big Data refere-se a conjuntos de dados extremamente grandes e complexos, que não podem ser facilmente processados ou gerenciados por métodos tradicionais. Esses conjuntos de dados são caracterizados por seu volume massivo, velocidade de geração e variedade de tipos e formatos. Com a explosão da quantidade de dados gerados diariamente, provenientes de diversas fontes como redes sociais, dispositivos IoT e transações comerciais, o Big Data apresenta desafios e oportunidades para extrair insights valiosos e tomar decisões informadas.
-  - A análise de Big Data envolve o uso de técnicas e tecnologias avançadas, como armazenamento distribuído, processamento em paralelo e aprendizado de máquina, para explorar e transformar esses dados em informações significativas para empresas, organizações e pesquisadores.
+- Big Data se refiere a conjuntos de datos extremadamente grandes y complejos, que no pueden ser fácilmente procesados o gestionados mediante métodos tradicionales. Estos conjuntos de datos se caracterizan por su volumen masivo, velocidad de generación y variedad de tipos y formatos. Con la explosión de cantidades de datos generados diariamente, provenientes de diversas fuentes como redes sociales, dispositivos IoT y transacciones comerciales, el Big Data presenta desafíos y oportunidades para extraer insights valiosos y tomar decisiones informadas.
+- El análisis de Big Data involucra el uso de técnicas y tecnologías avanzadas, como el almacenamiento distribuido, el procesamiento en paralelo y el aprendizaje automático, para explorar y transformar estos datos en información significativa para empresas, organizaciones y investigadores.
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Oracle: O que é Big Data?"
-    link: https://www.oracle.com/br/big-data/what-is-big-data/
-  - type: YOUTUBE
-    title: "Código Fonte TV: Big Data"
-    link: https://www.youtube.com/watch?v=IpfE8B9H9cI 
-  - type: YOUTUBE
-    title: "Nerdologia: BIG DATA"
-    link: https://www.youtube.com/watch?v=hEFFCKxYbKM&pp=ygUIQklHIERBVEE%3D&ab_channel=Nerdologia
+    title: "¿Qué es big data?"
+    link: https://www.oracle.com/es/big-data/what-is-big-data/
   - type: ARTICLE
-    title: "A Era do Big Data"
-    link: https://medium.com/gabriel-luz/a-era-do-big-data-64ebad5859f2 
+    title: "Big Data: ¿En qué consiste? Su importancia, desafíos y gobernabilidad"
+    link: https://www.powerdata.es/big-data
+  - type: ARTICLE
+    title: "Transformando el mundo del Big Data con Spark"
+    link: https://www.crehana.com/blog/transformacion-digital/apache-spark-big-data/
   - type: YOUTUBE
-    title: "Curso de Big Data"
-    link: https://www.youtube.com/playlist?list=PLzKHEB8QCel8UIA2JfUTYQaUgvJa6mUog 
+    title: "Big Data, Web Scraping y Data Mining (Clase 1/2)"
+    link: https://www.youtube.com/watch?v=Ezx8ykH0ij0
+  - type: YOUTUBE
+    title: "Big Data, Web Scraping y Data Mining (Clase 2/2)"
+    link: https://www.youtube.com/watch?v=hSuIvEDHJGI
+  - type: YOUTUBE
+    title: "Analítica de datos Big Data con Apache Spark"
+    link: https://www.youtube.com/watch?v=rIuHmjn1IEs
+  - type: PODCAST
+    title: "Territorio Big Data con Leyre Sánchez y Begoña Vega"
+    link: https://open.spotify.com/episode/1KeetBQUDUcYqrZMn6xuBU?si=f4bb2245dac74b98
+  - type: PODCAST
+    title: "Ciencia de datos, Big Data y Análisis de dato"
+    link: https://open.spotify.com/episode/5TxZGP5gwFlHduYSXgDsi1?si=827c6365b4124313
 alura-contents:
-  - type: ARTICLE
-    title: "Big Data: Entenda mais sobre esse conceito"
-    link: https://www.alura.com.br/artigos/big-data 
-  - type: PODCAST
-    title: "Big Data e Apache Spark"
-    link: https://www.hipsters.tech/big-data-e-apache-spark-hipsters-ponto-tech-341/ 
-  - type: PODCAST
-    title: "Hipsters.tech: Big Data e Data Science: pra quê afinal?"
-    link: https://www.hipsters.tech/big-data-e-data-science-pra-que-afinal-hipsters-73/ 
-  - type: PODCAST
-    title: "Small Data, Big Data, Open Data"
-    link: https://www.hipsters.tech/small-data-big-data-open-data-hipsters-42/ 
-  - type: YOUTUBE
-    title: "Alura: Big Data com Apache Spark"
-    link: https://www.youtube.com/watch?v=3aSfKsBhU5E&ab_channel=Alura 
-  - type: ARTICLE
-    title: "Iniciando um projeto Spark no Google Colab"
-    link: https://www.alura.com.br/artigos/iniciando-projeto-spark-no
+ 

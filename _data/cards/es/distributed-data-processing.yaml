@@ -1,35 +1,33 @@
-name: Processamento distribuído de dados
+name: Procesamiento Distribuido de Datos
 logo: 
 short-description:
 key-objectives:
-  - Em processamento distribuído de dados usamos técnicas e ferramentas para realizar tarefas computacionais em um conjunto de máquinas conectadas, conhecido como cluster. Essas máquinas trabalham em conjunto para analisar e processar grandes volumes de dados de maneira mais eficiente do que seria possível em uma única máquina. O profissional pode usar várias ferramentas e frameworks para realizar esse trabalho, incluindo Apache Hadoop, Apache Spark e Databricks.
+  - En el procesamiento distribuido de datos, utilizamos técnicas y herramientas para realizar tareas computacionales en un conjunto de máquinas conectadas, conocido como clúster. Estas máquinas trabajan en conjunto para analizar y procesar grandes volúmenes de datos de manera más eficiente de lo que sería posible en una única máquina. El profesional puede utilizar varias herramientas y frameworks para realizar este trabajo, incluyendo Apache Hadoop, Apache Spark y Databricks.
 aditional-objectives:
 contents:
   - type: SITE
-    title: "O que é computação distribuída?"
-    link: https://aws.amazon.com/pt/what-is/distributed-computing/
+    title: "¿Qué es la computación distribuida?"
+    link: https://aws.amazon.com/es/what-is/distributed-computing/
+  - type: SITE
+    title: "Clústeres"
+    link: https://www.ibm.com/docs/es/was-zos/9.0.5?topic=servers-introduction-clusters
+  - type: SITE
+    title: "Uso de Python para Apache Spark"
+    link: https://learn.microsoft.com/es-es/fabric/data-science/python-guide/python-overview
   - type: ARTICLE
-    title: "Apache Hadoop: O poder do processamento paralelo e distribuído"
-    link: https://medium.com/data-hackers/apache-hadoop-o-poder-do-processamento-paralelo-e-distribu%C3%ADdo-6364bbc2ee8b 
-  - type: ARTICLE
-    title: "Computação Distribuída: Processando Grandes Volumes de Dados em Larga Escala"
-    link: https://www.linkedin.com/pulse/computa%C3%A7%C3%A3o-distribu%C3%ADda-processando-grandes-volumes-de-gilmar-pupo/?originalSubdomain=pt 
+    title: "¿Qué es un sistema distribuido?"
+    link: https://www.atlassian.com/es/microservices/microservices-architecture/distributed-architecture
   - type: YOUTUBE
-    title: "Código Fonte TV: Apache Spark (Data Analytics poderoso) // Dicionário do Programador"
-    link: https://www.youtube.com/watch?v=4TE6AGQ0IzI 
+    title: "Apache Spark"
+    link: https://www.youtube.com/watch?v=B038xGcnaG4
   - type: YOUTUBE
-    title: "Código Fonte TV: Cluster // Dicionário do Programador"
-    link: https://www.youtube.com/watch?v=1cVUpoAR2Qc 
-  - type: ARTICLE
-    title: "Arquitetura de um cluster Spark"
-    link: https://lorenadesouza.medium.com/bootcamp-de-dados-na-tw-spark-6633275480e4  
+    title: "#Explicamos Cluster"
+    link: https://www.youtube.com/watch?v=edgonH_lrAY
+  - type: YOUTUBE
+    title: "Como montar un cluster de Apache Spark"
+    link: https://www.youtube.com/watch?v=zm_bNxATuH0
+  - type: COURSE
+    title: "Ingeniería de datos con Azure Databricks"
+    link: https://learn.microsoft.com/es-es/training/paths/data-engineer-azure-databricks/
 alura-contents:
-  - type: ARTICLE
-    title: "Databricks: o que é e para que serve?"
-    link: https://www.alura.com.br/artigos/databricks-o-que-e-para-que-serve
-  - type: COURSE
-    title: "Formação Apache Spark com Python"
-    link: https://www.alura.com.br/formacao-apache-spark-python
-  - type: COURSE
-    title: "Formação Engenharia de dados com Databricks"
-    link: https://www.alura.com.br/formacao-databricks
+

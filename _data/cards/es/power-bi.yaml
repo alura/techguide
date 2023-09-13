@@ -2,36 +2,38 @@ name: Power BI
 logo: 
 short-description:
 key-objectives:
-  - O Microsoft Power BI é um serviço de análise de negócios e analise de dados da Microsoft. O objetivo do Power BI é fornecer visualizações interativas e recursos de business intelligence (BI) em uma interface para que os usuários finais criem relatórios e dashboards personalizados.
-  - Os cursos abrangem desde uma introdução ao Power BI até tópicos avançados, como mergulho na linguagem M, modelagem de dados e aplicação de DAX ao negócio.
-  - Os artigos fornecem insights e exemplos práticos sobre o desenvolvimento de dimensão calendário com a linguagem M.
-  - Os podcasts abordam temas como inteligência aplicada no Power BI.
-  - Os recursos são adequados para iniciantes que desejam aprender sobre o Power BI e também para usuários avançados em busca de aprimoramento.
-  - O Guia oferece uma oportunidade de aprofundamento no mundo do Power BI, fornecendo conhecimentos abrangentes sobre visualização e análise de dados.
+  - Microsoft Power BI es un servicio de análisis de negocios y análisis de datos de Microsoft. El objetivo de Power BI es proporcionar visualizaciones interactivas y recursos de inteligencia empresarial (BI) en una interfaz para que los usuarios finales creen informes y paneles personalizados.
+  - Los cursos abarcan desde una introducción a Power BI hasta temas avanzados, como sumergirse en el lenguaje M, modelado de datos y aplicaciones de DAX en los negocios.
+  - Los artículos proporcionan insights y ejemplos prácticos sobre el desarrollo de dimensiones calendario con el lenguaje M.
+  - Los recursos son adecuados tanto para principiantes que desean aprender sobre Power BI como para usuarios avanzados en busca de perfeccionamiento.
+  - Esta guía ofrece una oportunidad para profundizar en el mundo de Power BI, proporcionando conocimientos completos sobre visualización y análisis de datos.
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "¿Qué es Power BI?"
+    link: https://learn.microsoft.com/es-es/power-bi/fundamentals/power-bi-overview
+  - type: SITE
+    title: "¿Qué es el modelado de datos?"
+    link: https://powerbi.microsoft.com/es-es/what-is-data-modeling/
+  - type: SITE
+    title: "Lenguaje de fórmulas de Power Query M"
+    link: https://learn.microsoft.com/es-es/powerquery-m/
+  - type: SITE
+    title: "Aprenda sobre aspectos básicos de DAX en Power BI Desktop"
+    link: https://learn.microsoft.com/es-es/power-bi/transform-model/desktop-quickstart-learn-dax-basics
   - type: ARTICLE
-    title: "Microsoft Power BI: primeiros passos"
-    link: https://www.devmedia.com.br/microsoft-power-bi-primeiros-passos/38128
+    title: "¿Cuál es el lenguaje m?"
+    link: https://www.ismos.es/cual-es-el-lenguaje-m/?expand_article=1
   - type: YOUTUBE
-    title: "Karine Lago: Introdução ao Power BI"
-    link: https://www.youtube.com/watch?v=VjEJB5TTHiQ
-  - type: YOUTUBE
-    title: "Karine Lago: Overview da Interface do Power BI"
-    link: https://www.youtube.com/watch?v=7x46OnuiqtM&ab_channel=KarineLago
-alura-contents:
-  - type: ARTICLE
-    title: "Power BI: desenvolva dimensão calendário com a linguagem M de forma prática"
-    link: https://www.alura.com.br/artigos/power-bi-dimensao-calendario-linguagem-m-forma-pratica
+    title: "¿Qué es Power BI?"
+    link: https://www.youtube.com/watch?v=vrbKOvxWeDY
   - type: PODCAST
-    title: "Power BI e inteligência aplicada -- Hipsters Ponto Tech #339"
-    link: https://cursos.alura.com.br/extra/hipsterstech/power-bi-e-inteligencia-aplicada-hipsters-ponto-tech-339-a1959
+    title: "Aprender Power BI con Ruth Pozuelo Martinez"
+    link: https://open.spotify.com/episode/6ey6YQLuGrQYxh7uKxK9jl?si=HUxfS125SImxn5Da6v0gTA&nd=1
   - type: COURSE
-    title: "Power BI: mergulhando na linguagem M"
-    link: https://www.alura.com.br/curso-online-power-bi-mergulhando-linguagem-m
+    title: "Modelado de datos en Power BI"
+    link: https://learn.microsoft.com/es-es/training/modules/model-data-power-bi/
   - type: COURSE
-    title: "Power BI: modelagem de dados"
-    link: https://www.alura.com.br/curso-online-power-bi-modelagem-dados
-  - type: COURSE
-    title: "Power BI: aplicando DAX ao negócio"
-    link: https://www.alura.com.br/curso-online-power-bi-aplicando-dax-negocio
+    title: "Uso de DAX en Power BI Desktop"
+    link: https://learn.microsoft.com/es-es/training/paths/dax-power-bi/
+alura-contents:

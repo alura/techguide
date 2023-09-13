@@ -1,32 +1,33 @@
-name: Pipelines e ETL 
+name: Pipelines y ETL 
 logo: 
 short-description:
 key-objectives:
-  - Pipelines e ETL (Extract, Transform, Load) são conceitos essenciais no campo da Engenharia de Dados, desempenhando um papel fundamental na coleta, transformação e integração de dados. Compreender os fundamentos dessas áreas é essencial para aqueles que desejam trabalhar com a gestão e o processamento eficiente de grandes volumes de informações. 
+  - Pipelines y ETL (Extract, Transform, Load) son conceptos esenciales en el campo de la ingeniería de datos. Desempeñan un papel fundamental en la recolección, transformación e integración de datos. Comprender los fundamentos de estas áreas es esencial para aquellos que desean trabajar en la gestión y el procesamiento eficiente de grandes volúmenes de información.
 aditional-objectives:
 contents:
   - type: SITE
-    title: "AWS: O que é um pipeline de dados?"
-    link: https://aws.amazon.com/pt/what-is/data-pipeline/ 
+    title: "¿Qué es una canalización de datos?"
+    link: https://aws.amazon.com/es/what-is/data-pipeline/?nc1=h_ls
+  - type: SITE
+    title: "¿Cuál es la diferencia entre ETL y ELT?"
+    link: https://aws.amazon.com/es/compare/the-difference-between-etl-and-elt/
   - type: ARTICLE
-    title: "Glossário de dados: O que é Data Pipeline?"
-    link: https://medium.com/datalakers-blog/gloss%C3%A1rio-de-dados-o-que-%C3%A9-data-pipeline-628e509e9cb5 
+    title: "¿Qué son los pipelines de datos?"
+    link: https://www.hpe.com/mx/es/what-is/data-pipelines.html
   - type: ARTICLE
-    title: "Pipeline de Dados"
-    link: https://www.linkedin.com/pulse/pipeline-de-dados-jose-r-f-junior/?originalSubdomain=pt 
-  - type: YOUTUBE
-    title: "ETL vs ELT - Pipeline De Dados"
-    link: https://www.youtube.com/watch?v=q6SBawoBU2A 
+    title: "Aprende qué es una Pipeline de Datos"
+    link: https://oscarfmdc.medium.com/aprende-qué-es-una-pipeline-de-datos-aprenderbigdata-com-b22dc5c096ab
   - type: ARTICLE
-    title: "Sete princípios para pipelines de dados confiáveis"
-    link: https://medium.com/data-hackers/sete-princ%C3%ADpios-para-pipelines-de-dados-confi%C3%A1veis-de59d3c72cfc 
-  - type: YOUTUBE
-    title: "Supletivo DH - Apache NiFi"
-    link: https://www.youtube.com/watch?v=IVRG4ks83s0 
+    title: "ETL vs ELT ¿Cuáles son sus diferencias?"
+    link: https://aprenderbigdata.com/etl-vs-elt/
+  - type: ARTICLE
+    title: "Ingesta de Datos"
+    link: https://aitor-medrano.github.io/bigdata2122/apuntes/ingesta01.html
+  - type: ARTICLE
+    title: "Welcome to Apache NiFi"
+    link: https://medium.com/@joaquin.alejandro.pizarro/welcome-to-apache-nifi-3e7946237668
+  - type: ARTICLE
+    title: "Tutorial para conocer Apache Nifi"
+    link: https://todobi.com/tutorial-para-conocer-apache-nifi/
 alura-contents:
-  - type: COURSE
-    title: "Curso Apache Beam: Data Pipeline com Python"
-    link: https://cursos.alura.com.br/course/apache-beam-data-pipeline-python 
-  - type: COURSE
-    title: "Curso Engenharia de Dados: organizando dados na AWS"
-    link: https://cursos.alura.com.br/course/engenharia-dados-organizando-dados-aws 
+ 
