@@ -1,0 +1,30 @@
+name: Python - Orientação a Objetos Avançada
+logo: 
+short-description:
+key-objectives:
+  - Mixin é uma classe que fornece implementações de métodos para reutilização por múltiplas classes filhas relacionadas.
+  - Sobrecarga do operador significa dar significado estendido além de seu significado operacional predefinido.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Python e Herança Múltipla: Como funciona?"
+    link: https://medium.com/rafaeltardivo/python-e-heran%C3%A7a-m%C3%BAltipla-como-funciona-876db0449efe
+  - type: ARTICLE
+    title: "Orientação a objetos de outra forma: Herança múltiplas e mixins"
+    link: https://dev.to/acaverna/orientacao-a-objetos-de-outra-forma-heranca-multiplas-e-mixins-31eb
+  - type: SITE
+    title: "Acervo Lima: Sobrecarga de operadores em Python"
+    link: https://acervolima.com/sobrecarga-de-operador-em-python/
+  - type: ARTICLE
+    title: "Sobrecarga de operadores e funções no Python 3"
+    link: https://medium.com/@pauloeddias/sobrecarga-de-operadores-e-fun%C3%A7%C3%B5es-no-python-3-2e66b80361b6
+  - type: YOUTUBE
+    title: "Eduardo Mendes: Programação orientada a objetos - Sobrecarga de operadores"
+    link: https://www.youtube.com/watch?v=XSVvXso_Ukc
+  - type: YOUTUBE
+    title: "PETEE UFMG: Orientação a Objetos - Sobrecarga de Operadores"
+    link: https://www.youtube.com/watch?v=2FitezEqOH8
+alura-contents:
+  - type: COURSE
+    title: "Curso Python: avançando na orientação a objetos"
+    link: https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos

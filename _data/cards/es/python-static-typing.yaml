@@ -1,0 +1,24 @@
+name: Python - Tipagem estática
+logo: 
+short-description:
+key-objectives:
+  - Python é uma linguagem dinamicamente tipada, ou seja, não há necessidade de pensar em tipos de dados. Linguagens estaticamente tipadas (tais como C ou Java) realizam verificações de tipo durante a compilação. Pode parecer mais seguro, pois você pode dizer imediatamente o tipo de parâmetro de cada função.
+  - Conhecer type hinting
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Python 3 e Type Hints"
+    link: https://diogommartins.medium.com/python-3-e-type-hints-40e80a9e8214
+  - type: YOUTUBE
+    title: "pythonando: Tipagem estática com Python?"
+    link: https://www.youtube.com/watch?v=jvLjANgC-wk
+  - type: YOUTUBE
+    title: "pythonbrasil: Python e Tipagem Estática"
+    link: https://www.youtube.com/watch?v=oeacyCi3u_o
+  - type: YOUTUBE
+    title: "Vinta Software: Medalhões, Patos e Protocolos: tipos em Python 3.8"
+    link: https://www.youtube.com/watch?v=UVhGUINj1e0
+alura-contents:
+  - type: ARTICLE
+    title: "O que são as tipagens estática e dinâmica em programação"
+    link: https://www.alura.com.br/artigos/o-que-sao-as-tipagens-estatica-e-dinamica-em-programacao

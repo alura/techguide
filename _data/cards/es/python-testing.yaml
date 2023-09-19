@@ -1,0 +1,48 @@
+name: Python - Testes
+logo: 
+short-description:
+key-objectives:
+  - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
+  - Usar testes unitários
+  - Usar testes de integração
+  - Usar testes de comportamento (behavior)
+  - Usar mocks
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Python - Framework de Testes Unitários"
+    link: https://docs.python.org/pt-br/dev/library/unittest.html
+  - type: ARTICLE
+    title: "Testes Unitários: Fundamentos e Qualidade de Software!"
+    link: https://dev.to/wnqueiroz/testes-unitarios-fundamentos-e-qualidade-de-software-5af0
+  - type: ARTICLE
+    title: "Tutorial: Testes Unitários e Python — Parte I"
+    link: https://medium.com/mercos-engineering/tutorial-testes-unit%C3%A1rios-e-python-parte-i-bb77182db93f
+  - type: ARTICLE
+    title: "Testes Unitários e Python — Parte II: Mocks, APIs & Star Wars"
+    link: https://medium.com/mercos-engineering/testes-unit%C3%A1rios-e-python-parte-ii-mocks-apis-star-wars-ou-como-consumir-uma-api-rest-3a24d153db59
+  - type: ARTICLE
+    title: "Testes em Python - Parte 1: Introdução"
+    link: https://dev.to/womakerscode/testes-em-python-parte-1-introducao-43ei
+  - type: YOUTUBE
+    title: "pythonando: Introdução a testes unitários com Python e Django"
+    link: https://www.youtube.com/watch?v=cEXt8hDyKQw
+  - type: YOUTUBE
+    title: "Programando Com Roger: Criando testes automatizados com Python usando unittest"
+    link: https://www.youtube.com/watch?v=F3qKoXicgIo
+  - type: YOUTUBE
+    title: "Programador Lhama: Python Conceitos Rápidos - Testes Unitários"
+    link: https://www.youtube.com/watch?v=CwaHM-KLKC8
+alura-contents:
+  - type: ARTICLE
+    title: "Tipos de testes: quais os principais e por que utilizá-los?"
+    link: https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los
+  - type: PODCAST
+    title: "Hipsters.tech: Testes Automatizados - Hipsters 51"
+    link: https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535
+  - type: YOUTUBE
+    title: "Alura: Pirâmide de Testes"
+    link: https://www.youtube.com/watch?v=gVJ1Lap-JYA
+  - type: COURSE
+    title: "Curso Python e TDD: explorando testes unitários"
+    link: https://cursos.alura.com.br/course/python-tdd-explorando-testes-unitarios

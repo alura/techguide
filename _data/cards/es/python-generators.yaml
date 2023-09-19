@@ -1,0 +1,33 @@
+name: Python - Geradores
+logo: 
+short-description:
+key-objectives:
+  - Geradores permitem declarar uma função que se comporta como um iterador, por exemplo, ela pode ser usada em um loop 'for'.
+  - Criar objetos iteradores
+  - Usar avaliação preguiçosa
+  - Executar tarefas simultâneas
+  - Uso da palavra reservada 'yield'
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Wiki Python Brasil: Utilizando geradores (generators)"
+    link: https://wiki.python.org.br/UsandoGenerators
+  - type: ARTICLE
+    title: "Python Generators"
+    link: http://pythonclub.com.br/python-generators.html
+  - type: ARTICLE
+    title: "Introdução ao Python Generators"
+    link: http://blog.dunderlabs.com/introducao-ao-python-generators.html
+  - type: YOUTUBE
+    title: "Otávio Miranda: Geradores, Iteradores e Iteráveis em Python"
+    link: https://www.youtube.com/watch?v=gHrc6FLBh20
+  - type: YOUTUBE
+    title: "Eduardo Mendes: Iteradores e Geradores"
+    link: https://www.youtube.com/watch?v=Xj5LlCeW0m0
+  - type: YOUTUBE
+    title: "Eduardo Mendes: Desvendando o yield e as funções geradoras"
+    link: https://www.youtube.com/watch?v=ZjwZ9nfhsk4
+alura-contents:
+  - type: ARTICLE
+    title: "Conhecendo os geradores no Python"
+    link: https://www.alura.com.br/artigos/conhecendo-os-geradores-no-python

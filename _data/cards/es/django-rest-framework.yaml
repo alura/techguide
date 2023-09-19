@@ -1,0 +1,39 @@
+name: Django Rest Framework
+logo: 
+short-description:
+key-objectives:
+  - O Django REST Framework é um conjunto de ferramentas poderosas e flexíveis para a construção de APIs.
+  - Desenvolver APIs
+  - Trabalhar com modelos, serializers e views
+  - Incluir filtros, buscas e ordenação
+  - Limitar o número de requisições
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Django Rest Framework (inglês)"
+    link: https://www.django-rest-framework.org/
+  - type: ARTICLE
+    title: "Introduçao ao Django Rest Framework"
+    link: https://nelziositoe.medium.com/introducao-ao-django-rest-framework-47ecb9ae0e6b
+  - type: ARTICLE
+    title: "API com Python e Django Rest Framework"
+    link: https://medium.com/@guilhermegoesgarcia/api-com-python-e-django-rest-framework-f01fcb37aea5
+  - type: YOUTUBE
+    title: "Fernando Rodrigues: Django Rest Framework 01 - Introdução"
+    link: https://www.youtube.com/watch?v=uly58gcUGv8&list=PLsTx8TSx2fHY01FnuxBdwiBiOdZdPGik7
+  - type: YOUTUBE
+    title: "Gregory Pacheco: Django Rest Framework em 30 minutos"
+    link: https://www.youtube.com/watch?v=gFsIGJR5R8I
+alura-contents:
+  - type: ARTICLE
+    title: "Django e Django Rest: Diferenças e aplicações"
+    link: https://www.alura.com.br/artigos/django-django-rest-diferencas
+  - type: ARTICLE
+    title: "Django Rest Framework: Versionamento"
+    link: https://www.alura.com.br/artigos/django-rest-framework-versionamento
+  - type: ARTICLE
+    title: "Django: Upload de imagens em uma API Rest"
+    link: https://www.alura.com.br/artigos/django-upload-de-imagens-em-uma-api-rest
+  - type: COURSE
+    title: "Formação Django REST APIs"
+    link: https://cursos.alura.com.br/formacao-django-rest

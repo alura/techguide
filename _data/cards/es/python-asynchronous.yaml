@@ -1,0 +1,44 @@
+name: Python - Assíncrono
+logo: 
+short-description:
+key-objectives:
+  - Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.
+  - Aprender sobre corrotinas
+  - Coroutinas são generalizações de sub-rotinas. Elas são utilizadas para multitarefas cooperativas onde um processo cede controle voluntariamente, periodicamente ou quando ocioso, a fim de permitir que múltiplas aplicações sejam executadas simultaneamente.
+  - Lidar com concorrência
+  - Conhecer o conceito de objetos aguardáveis
+  - Criar tarefas concorrentemente
+  - Conhecer a biblioteca 'asyncio'
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Async/await: Introdução à programação assíncrona em Python"
+    link: https://medium.com/@edytarcio/async-await-introdu%C3%A7%C3%A3o-%C3%A0-programa%C3%A7%C3%A3o-ass%C3%ADncrona-em-python-fa30d077018e
+  - type: ARTICLE
+    title: "Desvendando programação assíncrona com Python"
+    link: https://medium.com/@wisner.oliveira/desvendando-programa%C3%A7%C3%A3o-ass%C3%ADncrona-com-python-87f68fb2e482
+  - type: SITE
+    title: "Documentação - Corrotinas"
+    link: https://docs.python.org/pt-br/3.8/library/asyncio-task.html
+  - type: SITE
+    title: "Acervo Lima: Corrotina em Python"
+    link: https://acervolima.com/corrotina-em-python/
+  - type: YOUTUBE
+    title: "JLCP: Programação assíncrona com Python"
+    link: https://www.youtube.com/watch?v=ihkihhYPl60
+  - type: YOUTUBE
+    title: "OpenLearningB: Função Async com Python"
+    link: https://www.youtube.com/watch?v=9rWaaiJaWQs
+  - type: YOUTUBE
+    title: "Eduardo Mendes: Uma introdução histórica à corrotinas"
+    link: https://www.youtube.com/watch?v=b6LT6O1s3_8
+  - type: YOUTUBE
+    title: "Thiago Silva: AsyncIO - Corrotinas, Tarefas e Loop de Eventos"
+    link: https://www.youtube.com/watch?v=LKSp0SGWRTk
+  - type: YOUTUBE
+    title: "pythonbrasil: Python Assíncrono - tudo ao mesmo tempo agora"
+    link: https://www.youtube.com/watch?v=djj20SpxO4s
+  - type: YOUTUBE
+    title: "pythonbrasil: Corrotinas e Concorrência"
+    link: https://www.youtube.com/watch?v=djj20SpxO4s
+alura-contents:

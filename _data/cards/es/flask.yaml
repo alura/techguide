@@ -1,0 +1,38 @@
+name: Flask
+logo: 
+short-description:
+key-objectives:
+  - Flask é um pequeno framework web escrito em Python. É classificado como um microframework porque não requer ferramentas ou bibliotecas particulares, mantendo um núcleo simples, porém, extensível. Não possui camada de abstração de banco de dados, validação de formulário ou quaisquer outros componentes onde bibliotecas de terceiros pré-existentes fornecem funções comuns. No entanto, o Flask oferece suporte a extensões que podem adicionar recursos do aplicativo como se fossem implementados no próprio Flask.
+  - Criar aplicações web
+  - Definir rotas, redirecionamentos e templates
+  - Validar formulários
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Flask"
+    link: https://flask-ptbr.readthedocs.io/en/latest/
+  - type: ARTICLE
+    title: "PythOn Flask — Iniciando ao Framework"
+    link: https://medium.com/@cfmedeiros/python-flask-iniciando-ao-framework-efd66250addd
+  - type: ARTICLE
+    title: "Introdução ao desenvolvimento web com Python e Flask"
+    link: https://medium.com/@urapython.community/introdu%C3%A7%C3%A3o-ao-desenvolvimento-web-com-python-e-flask-636e81b0b884
+  - type: YOUTUBE
+    title: "Eduardo Mendes: Introdução ao Flask"
+    link: https://www.youtube.com/watch?v=yxUm_QnP4Qo
+  - type: YOUTUBE
+    title: "Eduardo Mendes: Início da construção da API em Python #1 [venv + Flask + Dev Container]"
+    link: https://www.youtube.com/watch?v=veYF2g9M6lA
+alura-contents:
+  - type: ARTICLE
+    title: "Flask: Instalação"
+    link: https://www.alura.com.br/artigos/flask-instalacao
+  - type: ARTICLE
+    title: "Django ou Flask: Características, semelhanças e diferenças"
+    link: https://www.alura.com.br/artigos/django-ou-flask
+  - type: YOUTUBE
+    title: "Alura: O que é Flask?"
+    link: https://www.youtube.com/watch?v=l2SdqHcKmnU
+  - type: COURSE
+    title: "Formação Começando com Flask"
+    link: https://cursos.alura.com.br/formacao-flask
