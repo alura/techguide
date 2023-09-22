@@ -11,6 +11,9 @@ contents:
   - type: SITE
     title: "¿Cuál es la diferencia entre ETL y ELT?"
     link: https://aws.amazon.com/es/compare/the-difference-between-etl-and-elt/
+  - type: SITE
+    title: "Extracción, transformación y carga de datos (ETL)"
+    link: https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/etl
   - type: ARTICLE
     title: "¿Qué son los pipelines de datos?"
     link: https://www.hpe.com/mx/es/what-is/data-pipelines.html
@@ -29,5 +32,8 @@ contents:
   - type: ARTICLE
     title: "Tutorial para conocer Apache Nifi"
     link: https://todobi.com/tutorial-para-conocer-apache-nifi/
+  - type: YOUTUBE
+    title: "ETL vs ELT: ¿Cuál es la mejor opción para su equipo de datos? - Explicado de manera sencilla"
+    link: https://www.youtube.com/watch?v=Hp3cJH3U7HU
 alura-contents:
  

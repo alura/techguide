@@ -14,9 +14,21 @@ contents:
   - type: SITE
     title: "Uso de Python para Apache Spark"
     link: https://learn.microsoft.com/es-es/fabric/data-science/python-guide/python-overview
+  - type: SITE
+    title: "¿Qué es Apache Hadoop?"
+    link: https://cloud.google.com/learn/what-is-hadoop?hl=es
   - type: ARTICLE
     title: "¿Qué es un sistema distribuido?"
     link: https://www.atlassian.com/es/microservices/microservices-architecture/distributed-architecture
+  - type: ARTICLE
+    title: "¿Qué es el Apache Hadoop?"
+    link: https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/bid/397377/qu-es-el-apache-hadoop
+  - type: ARTICLE
+    title: "Arquitectura Apache Spark"
+    link: https://medium.com/@alonso.md/arquitectura-apache-spark-c6fbf30ee5b3
+  - type: ARTICLE
+    title: "Cómo desarrollar un pipeline de datos en tiempo real usando Spark Streaming y Kafka en Databricks"
+    link: https://medium.com/datalytics/cómo-desarrollar-un-pipeline-de-datos-en-tiempo-real-usando-spark-streaming-en-databricks-7d49408b6f07
   - type: YOUTUBE
     title: "Apache Spark"
     link: https://www.youtube.com/watch?v=B038xGcnaG4
