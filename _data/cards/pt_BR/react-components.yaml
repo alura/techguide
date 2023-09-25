@@ -1,5 +1,5 @@
 name: React - Componentes
-logo: 
+logo:
 short-description:
 key-objectives:
   - O React permite definir componentes como classes ou funções. Componentes definidos como classes fornecem mais recursos. Eles aceitam entradas arbitrárias (chamadas "props") e retornam elementos React descrevendo o que deve aparecer na tela.
@@ -24,11 +24,23 @@ alura-contents:
     title: "React: o que é, como funciona e um Guia dessa popular ferramenta JS"
     link: https://www.alura.com.br/artigos/react-js
   - type: ARTICLE
-    title: "React: componentes com Styled Components"
-    link: https://www.alura.com.br/artigos/react-componentes-com-styled-components
+    title: "Utilizando o Vite para criar uma aplicação React com TypeScript"
+    link: https://www.alura.com.br/artigos/vite-criar-aplicacao-react-typescript
+  - type: ARTICLE
+    title: "Componentes React com TypeScript"
+    link: https://www.alura.com.br/artigos/componentes-react-typescript
   - type: SITE
     title: "Ciclo de vida de um componente React"
     link: https://cursos.alura.com.br/extra/alura-mais/ciclo-de-vida-de-um-componente-react-c1333
+  - type: COURSE
+    title: "Curso React: desenvolvendo com JavaScript"
+    link: https://cursos.alura.com.br/course/react-desenvolvendo-javascript
+  - type: COURSE
+    title: "Curso React: como os componentes funcionam"
+    link: https://www.alura.com.br/curso-online-react-componentes-funcionam
+  - type: COURSE
+    title: "Curso React: React: estilize componentes com Styled Components e manipule arquivos estáticos"
+    link: https://www.alura.com.br/curso-online-react-estilize-componentes-styled-components-manipule-arquivos-estaticos
   - type: COURSE
     title: "Imersão React: AluraFlix"
     link: https://cursos.alura.com.br/imersoes/aulas/aula-1-react-components-e-aluraflix-c18
@@ -41,21 +53,3 @@ alura-contents:
   - type: COURSE
     title: "Imersão React: AluraCord"
     link: https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68
-  - type: SITE
-    title: "Primeiras aulas do curso React: abstraindo seu CSS com Styled Components"
-    link: https://www.alura.com.br/conteudo/react-styled-components
-  - type: COURSE
-    title: "Curso React: abstraindo seu CSS com Styled Components"
-    link: https://www.alura.com.br/curso-online-react-styled-components
-  - type: SITE
-    title: "Primeiras aulas do curso React: testando os seus componentes"
-    link: https://www.alura.com.br/conteudo/react-testando-componentes
-  - type: COURSE
-    title: "Curso React: testando os seus componentes"
-    link: https://www.alura.com.br/curso-online-react-testando-componentes
-  - type: SITE
-    title: "Primeiras aulas do curso React: desenvolvendo uma biblioteca de componentes"
-    link: https://www.alura.com.br/conteudo/react-desenvolvendo-biblioteca-componentes
-  - type: "COURSE"
-    title: "Curso React: desenvolvendo uma biblioteca de componentes"
-    link: https://www.alura.com.br/curso-online-react-desenvolvendo-biblioteca-componentes
