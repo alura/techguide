@@ -33,7 +33,11 @@
    - Conhecer a diferença entre IaaS, PaaS e SaaS
    - Conhecer os maiores provedores de cloud
    - Especializar-se em algum provedor
-
+- [ ] **Shell Scripting**:
+   - Automatizar tarefas repetitivas utilizando as linguagens disponibilizadas pelo terminal.
+   - Criação de tarefas com execução automática
+   - Automatizar a configuração e instalação de aplicações em novos sistemas
+   - Usar o PowerShell
 - [ ] **Redes de Computadores - Fundamentos**:
    - Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.
    - Configurações de redes são essenciais para que seja possível acessar uma aplicação, principalmente se ela estiver na nuvem.
