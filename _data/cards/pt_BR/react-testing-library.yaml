@@ -1,5 +1,5 @@
 name: React Testing Library
-logo: 
+logo:
 short-description:
 key-objectives:
   - A React Testing Library se baseia na DOM Testing Library adicionando APIs para trabalhar com componentes React. É um conjunto de auxiliares que permitem testar componentes React sem depender de seus detalhes de implementação.
@@ -17,5 +17,11 @@ contents:
     link: https://testing-library.com/docs/react-testing-library/intro/
 alura-contents:
   - type: COURSE
-    title: "Curso React: automatizando os testes em aplicações front-end"
-    link: https://www.alura.com.br/curso-online-react-automatizando-testes
+    title: "Curso React JS: crie testes com Jest e Testing Library e garanta o funcionamento do Front-end"
+    link: https://cursos.alura.com.br/course/react-js-testes-automatizados-front-end
+  - type: COURSE
+    title: "Formação Melhore sua aplicação React com testes automatizados"
+    link: https://cursos.alura.com.br/formacao-react-testes-automatizados
+  - type: COURSE
+    title: "Curso React: testando os seus componentes"
+    link: https://cursos.alura.com.br/course/react-testando-componentes
