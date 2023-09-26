@@ -1,5 +1,5 @@
 name: HTML - Fundamentos
-logo: 
+logo:
 short-description:
 key-objectives:
   - HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.
@@ -33,26 +33,11 @@ contents:
     link: https://www.youtube.com/watch?v=wwqOJ2o84S4
 alura-contents:
   - type: ARTICLE
+    title: "HTML: o que é, a importância para a Web, como aprender e um Guia para iniciantes"
+    link: https://www.alura.com.br/artigos/html
+  - type: ARTICLE
     title: "HTML, CSS e Javascript, quais as diferenças?"
     link: https://www.alura.com.br/artigos/html-css-e-js-definicoes
-  - type: ARTICLE
-    title: "O que é o HTML e suas tags? Parte 1: estrutura básica"
-    link: https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica
-  - type: ARTICLE
-    title: "O que é o HTML e suas tags? Parte 2: elementos inline"
-    link: https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-2-elementos-inline
-  - type: ARTICLE
-    title: "O que é o HTML e suas tags? Parte 3: elementos block-level"
-    link: https://www.alura.com.br/artigos/html-tags-elementos-block-level
-  - type: ARTICLE
-    title: "O que é o HTML e suas tags? Parte 4: elementos de um formulário"
-    link: https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-4-elementos-formulario
-  - type: ARTICLE
-    title: "O que é o HTML e suas tags? Parte 5: atributos dos elementos"
-    link: https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-5-atributos-elementos
-  - type: YOUTUBE
-    title: "Alura: Curso de HTML5 e CSS3"
-    link: https://www.youtube.com/watch?v=78AyiuxYceg
   - type: COURSE
     title: "Formação HTML e CSS"
     link: https://www.alura.com.br/formacao-html-e-css

@@ -1,5 +1,5 @@
 name: React Hooks - State
-logo: 
+logo:
 short-description:
 key-objectives:
   - O hook React `useState` nos permite rastrear o estado em um componente de função. O hook `useState` pode ser usado para acompanhar strings, números, booleanos, arrays, objetos, etc.
@@ -10,13 +10,13 @@ aditional-objectives:
 contents:
   - type: SITE
     title: "React: Documentação - Introdução aos Hooks"
-    link: https://pt-br.reactjs.org/docs/hooks-intro.html#gatsby-focus-wrapper
+    link: https://pt-br.react.dev/reference/react
   - type: SITE
     title: "React: Documentação - Usando o State do Hook"
-    link: https://pt-br.reactjs.org/docs/hooks-state.html#gatsby-focus-wrapper
+    link: https://react.dev/learn/state-a-components-memory
   - type: SITE
     title: "MDN Web Docs: React interactivity: Events and state (inglês)"
-    link: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_events_state
+    link: https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_events_state#state_and_the_usestate_hook
   - type: ARTICLE
     title: "Primeiros passos com React Hooks — useState"
     link: https://medium.com/@devjpnobrega/primeiros-passos-com-react-hooks-usestate-aa4eeeec5f4e
@@ -34,8 +34,11 @@ alura-contents:
     title: "Imersão React: AluraCord - Aula 02"
     link: https://cursos.alura.com.br/imersoes/aulas/aula-02-state-novas-paginas-e-navegacao-spa-vs-a-tradicional-c69
   - type: COURSE
-    title: "Curso React: gerenciamento de estados globais com ContextAPI"
-    link: https://cursos.alura.com.br/course/react-context-estados-globais-contextapi
+    title: "Curso React: desenvolvendo com JavaScript"
+    link: https://cursos.alura.com.br/course/react-desenvolvendo-javascript
+  - type: COURSE
+    title: "Formação Explore React com JavaScript"
+    link: https://cursos.alura.com.br/formacao-react-javascript
   - type: COURSE
     title: "Curso React: escrevendo com Typescript"
     link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript
