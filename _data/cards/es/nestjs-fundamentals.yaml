@@ -1,0 +1,39 @@
+name: Nest.js - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - NestJS é um framework Node com total suporte a TypeScript e que roda sobre frameworks HTTP como expressJS ou Fastify. Ele utiliza diversos elementos de programação orientada a objetos e uma série de funcionalidades do TypeScript.
+  - Aprender o que é o NestJS e por que é utilizado
+  - Utilizar recursos específicos do NestJS, como providers, módulos e controllers
+  - Desenvolver APIs usando o NestJS
+  - Usar a Interface de Linha de Comando (CLI) do Nest.js
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "NestJS - Documentação oficial (em inglês)"
+    link: https://docs.nestjs.com/
+  - type: ARTICLE
+    title: "Nest.js —backend com cara de Angular sobre Node.js"
+    link: https://medium.com/codigorefinado/nest-js-typescript-pra-node-js-e-expess-e5042b77cae0
+  - type: ARTICLE
+    title: "O que é NestJS"
+    link: https://eduardo-diogo.medium.com/o-que-%C3%A9-nestjs-9287d9a8dcd3
+  - type: ARTICLE
+    title: "Construindo uma API com NestJS, PostgreSQL e Docker — Parte 1"
+    link: https://medium.com/@iago.maiasilva/construindo-uma-api-com-nestjs-postgresql-e-docker-parte-1-criando-nosso-primeiro-endpoint-248d4b8ecc9c
+  - type: YOUTUBE
+    title: "Código Falado: Por que Nest.js?"
+    link: https://www.youtube.com/watch?v=ledmemIH9jA
+  - type: YOUTUBE
+    title: "Paulo Salvatore: NestJS, o melhor framework backend de Node.js"
+    link: https://www.youtube.com/watch?v=bAH4nBb1NFc
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: Conhecendo NestJS | AluraMais"
+    link: https://www.youtube.com/watch?v=YHpG6t91oW8
+  - type: COURSE
+    title: "Curso NestJS: criando uma API Rest com TypeScript"
+    link: https://cursos.alura.com.br/course/nestjs-api-rest-typescript
+  - type: COURSE
+    title: "Curso de APIs REST com NestJS: buscas, validação, serialização e detalhes arquiteturais"
+    link: https://cursos.alura.com.br/course/api-rest-nestjs-busca-validacao-serializacao-arquitetura

@@ -1,0 +1,45 @@
+name: Entrega e integração contínuas (CI/CD)
+logo: 
+short-description:
+key-objectives:
+  - CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português "entrega e integração contínuas". Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.
+  - Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, ja que assim é possivel acelerar o desenvolvimento e diminiur o tempo de entrega de software.
+  - Executar testes automatizados da aplicação para verificar seu funcionamento.
+  - Realizar a entrega de atualizações de forma automatica e com segurança.
+  - Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "O que é CI/CD?"
+    link: https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd
+  - type: ARTICLE
+    title: "Sobre integração contínua"
+    link: https://docs.github.com/pt/actions/automating-builds-and-tests/about-continuous-integration
+  - type: YOUTUBE
+    title: "Código Fonte TV: Pipeline (CD/CI) | Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=AZtTd3pFVTY
+alura-contents:
+  - type: ARTICLE
+    title: "Entrega e integração contínua de aplicações Vue"
+    link: https://www.alura.com.br/artigos/entrega-e-integracao-continua-de-aplicacoes-vue
+  - type: ARTICLE
+    title: "GitOps: o que é?"
+    link: https://www.alura.com.br/artigos/o-que-e-git-ops
+  - type: ARTICLE
+    title: "Tipos de testes: quais os principais e por que utilizá-los?"
+    link: https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los
+  - type: PODCAST
+    title: "Integração Contínua, Deploy Contínuo e Github Actions"
+    link: https://cursos.alura.com.br/extra/hipsterstech/integracao-continua-deploy-continuo-e-github-actions-hipsters-213-a335
+  - type: PODCAST
+    title: "Testes Automatizados"
+    link: https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535
+  - type: COURSE
+    title: "Curso Integração Contínua: mais qualidade e menos risco no desenvolvimento"
+    link: https://cursos.alura.com.br/course/desenvolvimento-software-integracao-continua
+  - type: COURSE
+    title: "Curso Entrega Contínua: confiabilidade e qualidade na implantação de software"
+    link: https://cursos.alura.com.br/course/entrega-continua-confiabilidade-qualidade
+  - type: COURSE
+    title: "Formação: Integração Contínua e Entrega Contínua"
+    link: https://cursos.alura.com.br/formacao-integracao-continua-entrega-continua

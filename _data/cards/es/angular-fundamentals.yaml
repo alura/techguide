@@ -1,0 +1,39 @@
+name: Angular - Fundamentos
+logo: 
+short-description:
+key-objectives:
+  - Angular é uma framework de construção de aplicações e plataforma de desenvolvimento construído em TypeScript para criar aplicações eficientes e sofisticadas de página única (SPA).
+  - Construir interfaces utilizando HTML, CSS e TypeScript
+  - Criar aplicações SPA
+  - Construir aplicações web, mobile ou desktop
+  - Integrar dados com API’s REST
+  - Utilizar a composição para criar componentes reutilizáveis
+  - Utilizar serviços do tipo Resolver
+  - Manipular requisições criando serviços do tipo Interceptor
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Angular (inglês)"
+    link: https://angular.io/docs
+  - type: ARTICLE
+    title: "Bê-á-bá do Angular"
+    link: https://belmirofss.medium.com/b%C3%AA-%C3%A1-b%C3%A1-do-angular-8f23a109b4fc
+  - type: ARTICLE
+    title: "Angular I — Iniciando um projeto do zero"
+    link: https://medium.com/@iagomachado/angular-i-iniciando-um-projeto-do-zero-5290da9fa90e
+  - type: YOUTUBE
+    title: "Mario Souto - Dev Soutinho: Como APRENDER um FRAMEWORK Front End? Como eu aprendi Angular?"
+    link: https://www.youtube.com/watch?v=mMMqMk2buzs
+  - type: YOUTUBE
+    title: "Loiane Groner: Curso Angular 2"
+    link: https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G
+alura-contents:
+  - type: YOUTUBE
+    title: "Alura: O que é Angular e AngularJS?"
+    link: https://www.youtube.com/watch?v=LFlNU30u7d8
+  - type: YOUTUBE
+    title: "Alura: Programação Reativa - Alura Live 54"
+    link: https://www.youtube.com/watch?v=N0ie4xe48Ng
+  - type: COURSE
+    title: "Formação Angular"
+    link: https://www.alura.com.br/formacao-angular
