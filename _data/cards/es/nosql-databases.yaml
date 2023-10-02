@@ -17,6 +17,9 @@ contents:
   - type: SITE
     title: "MongoDB: Fundamentos de las bases de datos NoSQL"
     link: https://www.mongodb.com/es/nosql-explained
+  - type: SITE
+    title: "¿Qué es Datomic Cloud?"
+    link: https://docs.datomic.com/cloud/index.html
   - type: ARTICLE
     title: "Introducción a las bases de datos NoSQL"
     link: https://medium.com/@diego.coder/introducción-a-mongo-db-42ff2b022cde
@@ -56,6 +59,12 @@ contents:
   - type: ARTICLE
     title: "Lecciones de un año con MongoDB"
     link: https://medium.com/condorlabs-engineering/lecciones-de-un-año-con-mongodb-1c93779e2b08
+  - type: ARTICLE
+    title: "Datomic, una base de datos diferente"
+    link: https://blog.koalite.com/2014/03/datomic-una-base-de-datos-diferente/
+  - type: ARTICLE
+    title: "Datomic: esquema y datos"
+    link: https://blog.koalite.com/2014/03/datomic-esquema-y-datos/
   - type: YOUTUBE
     title: "NO SQL: como se modelan las bases de datos no relacionales?"
     link: https://www.youtube.com/watch?v=Zdlude8l8w4
