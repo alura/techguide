@@ -16,7 +16,7 @@ key-objectives:
   - Crear constructores
 aditional-objectives:
   - Manipular objetos JSON
-  - Lidar com datas
+  - Lidiar con fechas
 contents:
   - type: SITE
     title: "Paseo por el lenguaje C#"
@@ -73,6 +73,12 @@ alura-contents:
   - type: ARTICLE
     title: "¿Que es .Net framework?"
     link: https://www.aluracursos.com/blog/que-es-net-framework
+  - type: ARTICLE
+    title: "Manejando fechas y horas en C#"
+    link: https://www.aluracursos.com/blog/manejando-fechas-y-horas-en-csharp
+  - type: ARTICLE
+    title: "C#: entender clases y structs"
+    link: https://www.aluracursos.com/blog/entender-clases-structs
   - type: COURSE
     title: "Formación C# y Orientación a Objetos"
     link: https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos

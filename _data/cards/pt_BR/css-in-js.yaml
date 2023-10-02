@@ -1,5 +1,5 @@
 name: CSS-in-JS
-logo: 
+logo:
 short-description:
 key-objectives:
   - CSS-in-JS refere-se a um padrão onde o CSS é composto usando JavaScript em vez de ser definido em arquivos externos.
@@ -12,8 +12,14 @@ contents:
     title: "React: Documentação - Estilização e CSS"
     link: https://pt-br.reactjs.org/docs/faq-styling.html
   - type: SITE
+    title: "Styled Components Documentation (inglês)"
+    link: https://styled-components.com/docs/basics#motivation
+  - type: SITE
     title: "Microsoft Docs: Edição de estilo das estruturas CSS-in-JS"
     link: https://docs.microsoft.com/pt-br/microsoft-edge/devtools-guide-chromium/css/css-in-js
+  - type: SITE
+    title: "Criando Styled Components Com React - Blog do Matheus Castiglioni"
+    link: https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/
   - type: SITE
     title: "Chrome Developers: CSS-in-JS support in DevTools (inglês)"
     link: https://developer.chrome.com/blog/css-in-js/
@@ -33,12 +39,9 @@ alura-contents:
   - type: COURSE
     title: "Imersão React: AluraCord - Aula 01"
     link: https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68
-  - type: SITE
-    title: "Primeiras aulas do curso React: abstraindo seu CSS com Styled Components"
-    link: https://www.alura.com.br/conteudo/react-styled-components
   - type: COURSE
-    title: "Curso React: abstraindo seu CSS com Styled Components"
-    link: https://www.alura.com.br/curso-online-react-styled-components
+    title: "Curso React: estilize componentes com Styled Components e manipule arquivos estáticos"
+    link: https://www.alura.com.br/curso-online-react-estilize-componentes-styled-components-manipule-arquivos-estaticos
   - type: COURSE
-    title: "Curso React: escrevendo com Typescript"
-    link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript
+    title: "Curso React: desenvolvendo componentes customizados e acessíveis com Emotion"
+    link: https://cursos.alura.com.br/course/react-componentes-customizados-acessiveis-emotion
