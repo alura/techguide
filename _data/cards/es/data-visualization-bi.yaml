@@ -1,0 +1,54 @@
+name: Análisis y Visualización de Datos (BI)
+logo: 
+short-description:
+key-objectives:
+ - Este contenido abarca el campo de análises de datos y visualización de informaciones, centrándose en Power BI, Tableau, Qlik Sense y Google Sheets.
+ - Los contenidos ofrecen introducción a Power BI, análisis de datos de Microsoft, preparación de datos, modelado de datos, visualización de datos, análisis de datos y gestión de workspaces y conjuntos de datos en Power BI.
+ - Los cursos de Alura Latam oferecen formaciones en Power BI y Data Analysis con Google Sheets, ofrecendo conocimientos integrados en estas heramientas.
+ - Los articulos oferecen informaciones sobre Qlik, Tableau, Power BI y Looker Studio, bien como sus productos y funcionalidades.
+ - Estes contenidos son utiles para profisionales que desean aprimorar sus habilidades en análises de datos, visualización de informaciones y utilización de herramientas como Power BI, Tableau, Qlik Sense y Google Sheets.
+aditional-objectives:
+contents:
+  - type: COURSE
+    title: "Introducción al análisis de datos de Microsoft"
+    link: https://learn.microsoft.com/es-es/training/paths/data-analytics-microsoft/
+  - type: COURSE
+    title: "Preparación de datos para su análisis con Power BI"
+    link: https://learn.microsoft.com/es-es/training/paths/prepare-data-power-bi/
+  - type: COURSE
+    title: "Modelado de datos con Power BI"
+    link: https://learn.microsoft.com/es-es/training/paths/model-data-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm
+  - type: COURSE
+    title: "Compilación de objetos visuales e informes de Power BI"
+    link: https://learn.microsoft.com/es-es/training/paths/build-power-bi-visuals-reports/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm
+  - type: COURSE
+    title: "Administración de áreas de trabajo y conjuntos de datos en Power BI"
+    link: https://learn.microsoft.com/es-es/training/paths/manage-workspaces-datasets-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm
+  - type: ARTICLE
+    title: "Qué es Tableau"
+    link: https://www.arimetrics.com/glosario-digital/tableau
+  - type: ARTICLE
+    title: "Tutorial: Cómo crear un Joyplot con Tableau"
+    link: https://www.intotheminds.com/blog/es/tutorial-joyplot-tableau/
+  - type: ARTICLE
+    title: "Crea Reportes de Analytics en Looker Studio"
+    link: https://www.dreamhost.com/blog/es/crear-reportes-analytics-looker-studio/
+  - type: ARTICLE
+    title: "¿Qué es QLIK? Analítica potente y visual de manera rápida y sencilla"
+    link: https://www.semantic-systems.com/semantic-noticias/articulos-tecnologicos/que-es-qlik-analitica-potente-y-visual-de-manera-rapida-y-sencilla/
+  - type: YOUTUBE
+    title: "¿Qué es Tableau?"
+    link: https://www.youtube.com/watch?v=Lf-mSDs4imQ
+  - type: SITE
+    title: "Tutorial: crear un informe en Looker Studio"
+    link: https://support.google.com/looker-studio/answer/6292570?hl=es-419#zippy=%2Csecciones-de-este-artículo
+  - type: YOUTUBE
+    title: "Curso Completo de Google Looker Studio"
+    link: https://www.youtube.com/watch?v=5HeGrmNJ0rY&ab_channel=PorterMetricsES
+alura-contents:
+  - type: COURSE
+    title: "Formación Power BI"
+    link: https://www.aluracursos.com/formacion-power-bi
+  - type: COURSE
+    title: "Formación Data Analysis con Google Sheets"
+    link: https://www.aluracursos.com/formacion-data-analysis-google-sheets

@@ -1,0 +1,40 @@
+name: Big Data - Fundamentos
+logo: 
+short-description:
+key-objectives:
+- Big Data se refiere a conjuntos de datos extremadamente grandes y complejos, que no pueden ser fácilmente procesados o gestionados mediante métodos tradicionales. Estos conjuntos de datos se caracterizan por su volumen masivo, velocidad de generación y variedad de tipos y formatos. Con la explosión de cantidades de datos generados diariamente, provenientes de diversas fuentes como redes sociales, dispositivos IoT y transacciones comerciales, el Big Data presenta desafíos y oportunidades para extraer insights valiosos y tomar decisiones informadas.
+- El análisis de Big Data involucra el uso de técnicas y tecnologías avanzadas, como el almacenamiento distribuido, el procesamiento en paralelo y el aprendizaje automático, para explorar y transformar estos datos en información significativa para empresas, organizaciones y investigadores.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "¿Qué es big data?"
+    link: https://www.oracle.com/es/big-data/what-is-big-data/
+  - type: ARTICLE
+    title: "Big Data: ¿En qué consiste? Su importancia, desafíos y gobernabilidad"
+    link: https://www.powerdata.es/big-data
+  - type: ARTICLE
+    title: "Big Data ¿por qué es un gran asunto?"
+    link: https://agustingallof.medium.com/big-data-por-qué-es-un-gran-asunto-cb876203a098
+  - type: ARTICLE
+    title: "Transformando el mundo del Big Data con Spark"
+    link: https://www.crehana.com/blog/transformacion-digital/apache-spark-big-data/
+  - type: YOUTUBE
+    title: "¿Qué es BIG DATA y para qué sirve?"
+    link: https://www.youtube.com/watch?v=M26iIqmqWkI
+  - type: YOUTUBE
+    title: "Big Data, Web Scraping y Data Mining (Clase 1/2)"
+    link: https://www.youtube.com/watch?v=Ezx8ykH0ij0
+  - type: YOUTUBE
+    title: "Big Data, Web Scraping y Data Mining (Clase 2/2)"
+    link: https://www.youtube.com/watch?v=hSuIvEDHJGI
+  - type: YOUTUBE
+    title: "Analítica de datos Big Data con Apache Spark"
+    link: https://www.youtube.com/watch?v=rIuHmjn1IEs
+  - type: PODCAST
+    title: "Territorio Big Data con Leyre Sánchez y Begoña Vega"
+    link: https://open.spotify.com/episode/1KeetBQUDUcYqrZMn6xuBU?si=f4bb2245dac74b98
+  - type: PODCAST
+    title: "Ciencia de datos, Big Data y Análisis de dato"
+    link: https://open.spotify.com/episode/5TxZGP5gwFlHduYSXgDsi1?si=827c6365b4124313
+alura-contents:
+ 

@@ -1,0 +1,68 @@
+name: Power BI
+logo: 
+short-description:
+key-objectives:
+ - Microsoft Power BI es un servicio de análisis de negocios y análisis de datos de Microsoft. El objetivo de Power BI es proporcionar visualizaciones interactivas y recursos de inteligencia empresarial (BI) en una interfaz para que los usuarios finales creen informes y paneles personalizados.
+ - Los contenidos abarcan desde una introducción a Power BI hasta temas avanzados, como sumergirse en el lenguaje M, modelado de datos y aplicaciones de DAX en los negocios.
+ - Los recursos son adecuados tanto para principiantes que desean aprender sobre Power BI como para usuarios avanzados en busca de perfeccionamiento.
+ - Esta guía ofrece una oportunidad para profundizar en el mundo de Power BI, proporcionando conocimientos completos sobre visualización y análisis de datos.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "¿Qué es Power BI?"
+    link: https://learn.microsoft.com/es-es/power-bi/fundamentals/power-bi-overview
+  - type: SITE
+    title: "¿Qué es el modelado de datos?"
+    link: https://powerbi.microsoft.com/es-es/what-is-data-modeling/
+  - type: SITE
+    title: "Lenguaje de fórmulas de Power Query M"
+    link: https://learn.microsoft.com/es-es/powerquery-m/
+  - type: SITE
+    title: "Aprenda sobre aspectos básicos de DAX en Power BI Desktop"
+    link: https://learn.microsoft.com/es-es/power-bi/transform-model/desktop-quickstart-learn-dax-basics
+  - type: SITE
+    title: "Tutorial: Introducción a la creación en el servicio Power BI"
+    link: https://learn.microsoft.com/es-es/power-bi/fundamentals/service-get-started
+  - type: ARTICLE
+    title: "¿Cuál es el lenguaje m?"
+    link: https://www.ismos.es/cual-es-el-lenguaje-m/?expand_article=1
+  - type: YOUTUBE
+    title: "¿Qué es Power BI?"
+    link: https://www.youtube.com/watch?v=vrbKOvxWeDY
+  - type: YOUTUBE
+    title: "Como crear un modelato de datos con Excel y Power BI"
+    link: https://www.youtube.com/watch?v=jCLc0Te8QBE
+  - type: YOUTUBE
+    title: "Cómo modelar datos en Power BI"
+    link: https://www.youtube.com/watch?v=dt-OPwBY-AA
+  - type: PODCAST
+    title: "Aprender Power BI con Ruth Pozuelo Martinez"
+    link: https://open.spotify.com/episode/6ey6YQLuGrQYxh7uKxK9jl?si=HUxfS125SImxn5Da6v0gTA&nd=1
+  - type: COURSE
+    title: "Modelado de datos en Power BI"
+    link: https://learn.microsoft.com/es-es/training/modules/model-data-power-bi/
+  - type: COURSE
+    title: "Uso de DAX en Power BI Desktop"
+    link: https://learn.microsoft.com/es-es/training/paths/dax-power-bi/
+alura-contents:
+  - type: ARTICLE
+    title: "Power BI: ¿qué es?"
+    link: https://www.aluracursos.com/blog/power-bi-que-es
+  - type: ARTICLE
+    title: "Analista de BI en T"
+    link: https://www.aluracursos.com/blog/analista-de-bi-en-t
+  - type: ARTICLE
+    title: "Power BI: Fusionando consultas en Power Query"
+    link: https://www.aluracursos.com/blog/power-bi-fusionando-consultas-en-power-query
+  - type: ARTICLE
+    title: "Power BI: tipos de licencia"
+    link: https://www.aluracursos.com/blog/power-bi-tipos-de-licencia
+  - type: ARTICLE
+    title: "Power BI; Cálculando el promedio mensual"
+    link: https://www.aluracursos.com/blog/power-bi-calculo-de-la-media-mensual
+  - type: YOUTUBE
+    title: "Fundamentos DAX"
+    link: https://www.youtube.com/watch?v=EWFd8dyGaP0
+  - type: COURSE
+    title: "Formación Power BI"
+    link: https://app.aluracursos.com/formacion-power-bi

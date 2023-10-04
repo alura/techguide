@@ -6,7 +6,7 @@ key-objectives:
 - Conocer el proceso de ETL
 - Realizar el modelado y estructuración de tablas en un almacén de datos
 - Crear vistas que tengan sentido
-- Cómo conocer PowerBI
+- Conocer PowerBI
 aditional-objectives:
 contents:
   - type: SITE
@@ -23,23 +23,26 @@ alura-contents:
     title: "Power BI: ¿qué es?"
     link: https://www.aluracursos.com/blog/power-bi-que-es
   - type: ARTICLE
+    title: "¿Power BI o Excel para Business Intelligence?"
+    link: https://www.aluracursos.com/blog/power-bi-o-excel-para-business-intelligence
+  - type: ARTICLE
     title: "Power BI; Cálculando el promedio mensual"
     link: https://www.aluracursos.com/blog/power-bi-calculo-de-la-media-mensual
   - type: ARTICLE
     title: "Power BI: Fusionando consultas en Power Query"
     link: https://www.aluracursos.com/blog/power-bi-fusionando-consultas-en-power-query
-  - type: COURSE
-    title: "Power BI Desktop: construyendo mi primer tablero"
-    link: https://www.aluracursos.com/curso-online-power-bi-desktop-primer-tablero
-  - type: COURSE
-    title: "Dashboard con Power BI: visualización de datos"
-    link: https://www.aluracursos.com/curso-online-dashboard-power-bi-visualizacion-datos
-  - type: COURSE
-    title: "Power BI Desktop: tratamiento de datos en Power Query"
-    link: https://www.aluracursos.com/curso-online-power-bi-desktop-tratamiento-datos-power-query
+  - type: ARTICLE
+    title: "Analista de BI en T"
+    link: https://www.aluracursos.com/blog/analista-de-bi-en-t
   - type: YOUTUBE
     title: "Fundamentos DAX #AluraMás"
     link: https://www.youtube.com/watch?v=EWFd8dyGaP0&ab_channel=AluraLatam
+  - type: COURSE
+    title: "Formación Power BI"
+    link: https://app.aluracursos.com/formacion-power-bi
+  - type: COURSE
+    title: "Formación Business Intelligence con Excel"
+    link: https://app.aluracursos.com/formacion-business-intelligence-excel
   - type: COURSE
     title: "Oracle Analytics: visualizando datos"
     link: https://www.aluracursos.com/curso-online-oracle-analytics-visualizando-datos
