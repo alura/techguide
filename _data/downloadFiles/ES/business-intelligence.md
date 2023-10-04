@@ -1,0 +1,121 @@
+# Business Intelligence
+## Nivel 1
+- [ ] **Business Intelligence (BI) - Fundamentos**:
+   - Business Intelligence es un conjunto de teorías, metodologías, procesos y tecnologías que posibilitan la transformación de los datos "crudos" en informaciones extremadamente relevantes para la toma de decisiones de una empresa.
+   - Conocer el proceso de ETL
+   - Realizar el modelado y estructuración de tablas en un almacén de datos
+   - Crear vistas que tengan sentido
+   - Conocer PowerBI
+- [ ] **Análisis y Visualización de Datos (BI)**:
+   - Este contenido abarca el campo de análises de datos y visualización de informaciones, centrándose en Power BI, Tableau, Qlik Sense y Google Sheets.
+   - Los contenidos ofrecen introducción a Power BI, análisis de datos de Microsoft, preparación de datos, modelado de datos, visualización de datos, análisis de datos y gestión de workspaces y conjuntos de datos en Power BI.
+   - Los cursos de Alura Latam oferecen formaciones en Power BI y Data Analysis con Google Sheets, ofrecendo conocimientos integrados en estas heramientas.
+   - Los articulos oferecen informaciones sobre Qlik, Tableau, Power BI y Looker Studio, bien como sus productos y funcionalidades.
+   - Estes contenidos son utiles para profisionales que desean aprimorar sus habilidades en análises de datos, visualización de informaciones y utilización de herramientas como Power BI, Tableau, Qlik Sense y Google Sheets.
+- [ ] **Excel**:
+   - Microsoft Excel es un editor de hojas de cálculo producido por Microsoft con herramientas de cálculo y de construcción de tablas.
+   - Realizar las operaciones matemáticas básicas con sus operadores (suma, resta, multiplicación y división).
+   - Conocer las principales fórmulas, como 'MEDIA' (AVERAGE), 'ARRED' (ROUND), 'MÁXIMO' (MAX), 'MÍNIMO' (MIN), etc.
+   - Realizar búsquedas en columnas con la función 'PROCV'.
+- [ ] **Storytelling con datos**:
+   - Utilizar algoritmos y sistemas para extraer, organizar y analizar datos de diversas fuentes con el fin de detectar patrones y tomar decisiones comerciales
+   - Las áreas de aplicación son infinitas, como en negocios, biología, medicina, ingeniería, etc.
+- [ ] **SQL - Fundamentos**:
+   - Conocer los comandos más comunes de SQL
+   - Usar SELECT para consultar una tabla
+   - Usar INSERT para insertar datos en una tabla
+   - Usar UPDATE para actualizar una tabla
+   - Usar DELETE para eliminar datos de una tabla
+   - Usar JOIN para conectar los datos de múltiples tablas
+   - Conocer las cláusulas (FROM, ORDER BY, etc.)
+## Nivel 2
+- [ ] **Power BI**:
+   - Microsoft Power BI es un servicio de análisis de negocios y análisis de datos de Microsoft. El objetivo de Power BI es proporcionar visualizaciones interactivas y recursos de inteligencia empresarial (BI) en una interfaz para que los usuarios finales creen informes y paneles personalizados.
+   - Los contenidos abarcan desde una introducción a Power BI hasta temas avanzados, como sumergirse en el lenguaje M, modelado de datos y aplicaciones de DAX en los negocios.
+   - Los recursos son adecuados tanto para principiantes que desean aprender sobre Power BI como para usuarios avanzados en busca de perfeccionamiento.
+   - Esta guía ofrece una oportunidad para profundizar en el mundo de Power BI, proporcionando conocimientos completos sobre visualización y análisis de datos.
+- [ ] **Pipelines y ETL**:
+   - Pipelines y ETL (Extract, Transform, Load) son conceptos esenciales en el campo de la ingeniería de datos. Desempeñan un papel fundamental en la recolección, transformación e integración de datos. Comprender los fundamentos de estas áreas es esencial para aquellos que desean trabajar en la gestión y el procesamiento eficiente de grandes volúmenes de información.
+- [ ] **Modelado de datos**:
+   - El modelado de datos es una area esencial para la compreensión y organización de las informaciones en un sistema o base de datos.
+   - En este conjunto de contenidos, aprederás las tecnicas y conceptos fundamentales para modelar datos de forma eficiente y estructurada, visando obtener informaciones relevantes para la toma de decisiones.
+- [ ] **Diseño de Presentaciones**:
+   - Aprende sobre diseño de interfaces y creación de layouts en herramientas como Figma, PowerPoint y Canva.
+   - Los artículos proporcionan información y orientación sobre la creación de interfaces, paletas de colores y tipografía.
+   - Los conteidos ofrecen instrucciones prácticas sobre el uso de herramientas como Figma, Canva y PowerPoint para crear layouts, proyectar sitios web responsivos, editar imágenes, crear presentaciones y utilizar componentes de interfaces.
+   - Explora técnicas de Design Thinking.
+- [ ] **Python para Ciencia de Datos - Fundamentos**:
+   - Python es un lenguaje de programación interpretado de alto nivel y que soporta múltiples paradigmas de programación, como imperativo, orientado a objetos y funcional. Es un lenguaje con tipificación dinámica y administración automática de memoria.
+   - Aprender lógica de programación en Python
+   - Aprenda los fundamentos del lenguaje como variables, funciones, listas, condicionales e Imports
+   - Crear análisis de datos
+   - Usar Matplotlib para generar gráficos
+   - Usar y manipular listas para agrupar datos
+   - Conocer la biblioteca NumPy
+   - Conocer la biblioteca Pandas
+## Nivel 3
+- [ ] **Data Warehouses**:
+   - Un Data Warehouse es un sistema de almacenamiento de datos diseñado para análisis de negocios que admite procesamiento de transacciones y consultas complejas. Él permite la consolidación de datos de varias fuentes, proporcionando un entorno unificado para el análisis de datos. Con recursos de normalización y limpieza de datos, garantiza la calidad y la consistencia de los datos almacenados. Soluciones populares de Data Warehouse incluyen Google BigQuery, Amazon Redshift y Snowflake, cada una con sus propias características y beneficios únicos.
+   - Los Data Warehouses desempeñan un papel crucial en la ingeniería de datos. Proporcionan una infraestructura que facilita la gestión, el procesamiento y el análisis de grandes volúmenes de datos. Su capacidad para almacenar y procesar grandes cantidades de datos de varias fuentes permite análisis avanzados y apoyo a la toma de decisiones, lo que es fundamental en el actual escenario empresarial orientado por datos. Los ingenieros de datos diseñan, construyen y mantienen Data Warehouses para garantizar que los datos estén accesibles, seguros y listos para su análisis. Además, soluciones modernas de Data Warehouse, como BigQuery, Amazon Redshift y Snowflake, ofrecen capacidades de escalabilidad y flexibilidad para manejar el creciente volumen, velocidad y variedad de datos, lo que los hace aún más valiosos para la ingeniería de datos.
+- [ ] **Big Data - Fundamentos**:
+   - Big Data se refiere a conjuntos de datos extremadamente grandes y complejos, que no pueden ser fácilmente procesados o gestionados mediante métodos tradicionales. Estos conjuntos de datos se caracterizan por su volumen masivo, velocidad de generación y variedad de tipos y formatos. Con la explosión de cantidades de datos generados diariamente, provenientes de diversas fuentes como redes sociales, dispositivos IoT y transacciones comerciales, el Big Data presenta desafíos y oportunidades para extraer insights valiosos y tomar decisiones informadas.
+   - El análisis de Big Data involucra el uso de técnicas y tecnologías avanzadas, como el almacenamiento distribuido, el procesamiento en paralelo y el aprendizaje automático, para explorar y transformar estos datos en información significativa para empresas, organizaciones y investigadores.
+- [ ] **Procesamiento Distribuido de Datos**:
+   - En el procesamiento distribuido de datos, utilizamos técnicas y herramientas para realizar tareas computacionales en un conjunto de máquinas conectadas, conocido como clúster. Estas máquinas trabajan en conjunto para analizar y procesar grandes volúmenes de datos de manera más eficiente de lo que sería posible en una única máquina. El profesional puede utilizar varias herramientas y frameworks para realizar este trabajo, incluyendo Apache Hadoop, Apache Spark y Databricks.
+- [ ] **SQL - Avanzado**:
+   - Conocer una variedad amplia de contenidos relacionados con bases de datos y el lenguaje SQL.
+   - Uso de triggers en SQL, lenguajes internos de sistemas de gestión de bases de datos (SGBD), modelado de datos y manipulación de consultas avanzadas.
+   - Utiliza los principales sistemas de gestión de bases de datos relacionales (Oracle, Microsoft SQL Server, PostgreSQL y MySQL, entre otros).
+   - Aprende sobre procedimientos, funciones, paquetes, optimización de bases de datos, seguridad y administración de las bases de datos.
+- [ ] **Cloud - Fundamentos**:
+   - La computación en nube, o cloud computing, es la distribución de servicios informáticos a través de Internet mediante un modelo de tarificación de pago por uso. Una nube se compone de varios recursos informatizados, desde los propios ordenadores (o instancias, en terminología de nube) hasta las redes, el almacenamiento, las bases de datos y todo lo que les rodea. En otras palabras, todo lo que normalmente se necesita para montar el equivalente a una sala de servidores, o incluso un centro de datos completo, estará listo para usar, configurar y ejecutar.
+   - Conocer la diferencia entre IaaS, PaaS y SaaS
+   - Conocer los mayores proveedores de nube
+   - Especializarse en un proveedor específico de su preferencia
+## Habilidade Auxiliar: Comunicación, Negocios y Colaboración 
+- [ ] **Análisis de negocios**:
+   - El análisis de negocios auxilia a los analistas de BI para recopilar y analizar las necesidades empresariales, alineando las soluciones de BI con los objetivos.
+   - Permite una comunicación eficaz y la traducción de requisitos entre los usuarios de negocios y los equipos técnicos.
+   - Mejora el modelado de datos y el design de informes para obtener resultados de BI precisos y reveladores.
+   - Facilita la colaboración con los stakeholders, asegurando que los proyectos de BI cumplan las expectativas.
+   - Contribuye a una mejora en la toma de decisiones, analizando procesos y proponiendo soluciones basadas en datos.
+- [ ] **Habilidades de Comunicación**:
+   - Un buen nivel de comunicación facilita el logro de objetivos, resolución de problemas, además de aumentar la productividad, porque cada profesional sabrá exactamente lo que se espera de él y transmitir con claridad sus ideas.
+- [ ] **Git y GitHub - Fundamentos**:
+   - Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.
+   - GitHub es un servicio de hosting para el desarrollo de software y el control de versiones mediante Git.
+   - Crear un repositorio
+   - Clonar un repositorio
+   - Comprometerse, empujar y tirar hacia y desde el repositorio
+   - Revertir un commit
+   - Crear de ramas y Pull requests
+   - Manejar fusiones y conflictos
+- [ ] **Inglés técnico**:
+   - Un buen nivel de inglés técnico facilita el logro de objetivos, la resolución de problemas, además de aumentar la productividad, y también permite el acceso al consumo de materiales de diferentes fuentes, principalmente documentación oficial.
+## Habilidade Auxiliar: Estadística e Ingeniería de Datos 
+- [ ] **Ingeniería de Datos - Fundamentos**:
+   - Una persona Ingeniera de Datos desempeña un papel crucial al diseñar, implementar y mantener la infraestructura de datos que permite que una organización trabaje de manera eficiente con su información. La persona ingeniera de datos crea pipelines de datos para integrar, limpiar y transformar datos provenientes de varias fuentes y formatos. Esto posibilita la generación de insights valiosos para el negocio y mejora la toma de decisiones estratégicas.
+- [ ] **Bases de datos no relacionales**:
+   - Las bases de datos no relacionales , también conocidas como bases de datos NoSQL, son una alternativa a las bases de datos relacionales tradicionales. Son particulamente adecuadas para manejar grandes volúmenes de datos estructurados y no estructurados, y tienen la capacidad de escalar horizontalmente en varios servidores para soportar cargas de trabajo pesadas. Entre las bases de datos NoSQL más populares se encuentran el MongoDB y el Datomic. En este segmento, aprenderás los fundamentos de las bases de datos NoSQL, sus características y usos típicos.
+- [ ] **Estadísticas y Matemáticas - Fundamentos**:
+   - Para aprender técnicas de análisis de datos, estadísticas, modelado en la práctica, escalar el crecimiento y brindar nuevas oportunidades, ya sea en la empresa para la que trabaja o en su propio negocio.
+   - En esta formacion aprenderás utilizando el lenguaje Python y varias bibliotecas y herramientas específicas para estadísticas.
+   - Comprenderás cómo crear hipótesis y validarlas. De esta forma, podrá justificar los análisis realizados y mostrar a la empresa la importancia del papel del conocimiento en la estadística.
+   - Ecuaciones, funciones y límites
+   - Logaritmos
+   - Matrices, determinantes, vectores y espacio vectorial
+   - Derivadas e integrales
+   - Diferencia entre promedio, mediana y moda
+   - Distribución de frecuencia
+   - Varianza y desviación estándar
+   - Distribución binomial, de Poisson y normal
+   - Nivel e intervalo de confianza
+   - Técnicas de muestreo
+   - Regresión lineal
+- [ ] **R para Ciencia de Datos**:
+   - R es un lenguaje de programación comúnmente usado en estadística computacional y análisis de datos.
+   - Aprender a analizar, limpiar y ver datos
+   - Elaborar gráficos
+   - Unir bases de datos
+   - Extraer resúmenes estadísticos
+   - Aprender modelos predictivos en R
