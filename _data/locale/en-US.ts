@@ -89,6 +89,7 @@ export default {
     }
   ],
   "GUIDES.SHOW_ALL": "See all",
+  "GUIDES.SHOW_MORE": "Display less options",
   "GUIDES.NOT.FOUND": "No guides found ",
   "GUIDE.FILTERS": [
     {
