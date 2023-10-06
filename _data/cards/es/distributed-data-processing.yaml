@@ -1,0 +1,48 @@
+name: Procesamiento Distribuido de Datos
+logo: 
+short-description:
+key-objectives:
+  - En el procesamiento distribuido de datos, utilizamos técnicas y herramientas para realizar tareas computacionales en un conjunto de máquinas conectadas, conocido como clúster. Estas máquinas trabajan en conjunto para analizar y procesar grandes volúmenes de datos de manera más eficiente de lo que sería posible en una única máquina. El profesional puede utilizar varias herramientas y frameworks para realizar este trabajo, incluyendo Apache Hadoop, Apache Spark y Databricks.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "¿Qué es la computación distribuida?"
+    link: https://aws.amazon.com/es/what-is/distributed-computing/
+  - type: SITE
+    title: "Clústeres"
+    link: https://www.ibm.com/docs/es/was-zos/9.0.5?topic=servers-introduction-clusters
+  - type: SITE
+    title: "Uso de Python para Apache Spark"
+    link: https://learn.microsoft.com/es-es/fabric/data-science/python-guide/python-overview
+  - type: SITE
+    title: "¿Qué es Apache Hadoop?"
+    link: https://cloud.google.com/learn/what-is-hadoop?hl=es
+  - type: ARTICLE
+    title: "¿Qué es un sistema distribuido?"
+    link: https://www.atlassian.com/es/microservices/microservices-architecture/distributed-architecture
+  - type: ARTICLE
+    title: "¿Qué es el Apache Hadoop?"
+    link: https://blog.powerdata.es/el-valor-de-la-gestion-de-datos/bid/397377/qu-es-el-apache-hadoop
+  - type: ARTICLE
+    title: "Arquitectura Apache Spark"
+    link: https://medium.com/@alonso.md/arquitectura-apache-spark-c6fbf30ee5b3
+  - type: ARTICLE
+    title: "Cómo desarrollar un pipeline de datos en tiempo real usando Spark Streaming y Kafka en Databricks"
+    link: https://medium.com/datalytics/cómo-desarrollar-un-pipeline-de-datos-en-tiempo-real-usando-spark-streaming-en-databricks-7d49408b6f07
+  - type: YOUTUBE
+    title: "Apache Spark"
+    link: https://www.youtube.com/watch?v=B038xGcnaG4
+  - type: YOUTUBE
+    title: "#Explicamos Cluster"
+    link: https://www.youtube.com/watch?v=edgonH_lrAY
+  - type: YOUTUBE
+    title: "Como montar un cluster de Apache Spark"
+    link: https://www.youtube.com/watch?v=zm_bNxATuH0
+  - type: PODCAST
+    title: "Azure Databricks"
+    link: https://open.spotify.com/episode/4LAdSx4VMnSSZYxTqGFQgb?si=8cedea67c2d743c1
+  - type: COURSE
+    title: "Ingeniería de datos con Azure Databricks"
+    link: https://learn.microsoft.com/es-es/training/paths/data-engineer-azure-databricks/
+alura-contents:
+

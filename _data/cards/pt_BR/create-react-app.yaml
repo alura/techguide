@@ -1,5 +1,5 @@
 name: Criando uma aplicação React
-logo: 
+logo:
 short-description:
 key-objectives:
   - Estruturar um novo projeto React
@@ -8,7 +8,7 @@ aditional-objectives:
 contents:
   - type: SITE
     title: "React: Documentação - Crie um novo React App"
-    link: https://pt-br.reactjs.org/docs/create-a-new-react-app.html#gatsby-focus-wrapper
+    link: https://pt-br.react.dev/learn/start-a-new-react-project
   - type: SITE
     title: "React: Documentação - Usando TypeScript com Create React App"
     link: https://pt-br.reactjs.org/docs/static-type-checking.html#using-typescript-with-create-react-app
@@ -25,12 +25,27 @@ alura-contents:
   - type: ARTICLE
     title: "React: o que é, como funciona e um Guia dessa popular ferramenta JS"
     link: https://www.alura.com.br/artigos/react-js
+  - type: ARTICLE
+    title: "Utilizando o Vite para criar uma aplicação React com TypeScript"
+    link: https://www.alura.com.br/artigos/vite-criar-aplicacao-react-typescript
   - type: podcast
     title: "Hipsters.tech: Guia do iniciante em React"
     link: https://www.hipsters.tech/guia-do-iniciante-em-react-hipsters-209/
   - type: podcast
     title: "Hipsters.tech: Do Front End ao React"
     link: https://www.hipsters.tech/do-front-end-ao-react-hipsters-ponto-tech-258/
+  - type: COURSE
+    title: "Curso React: desenvolvendo com JavaScript"
+    link: https://cursos.alura.com.br/course/react-desenvolvendo-javascript
+  - type: COURSE
+    title: "Formação Explore React com JavaScript"
+    link: https://cursos.alura.com.br/formacao-react-javascript
+  - type: COURSE
+    title: "Curso React: escrevendo com Typescript"
+    link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript
+  - type: COURSE
+    title: "Formação Gerencie aplicações React com Typescript"
+    link: https://www.alura.com.br/formacao-react-ts
   - type: COURSE
     title: "Imersão React: AluraFlix"
     link: https://cursos.alura.com.br/imersoes/aulas/aula-1-react-components-e-aluraflix-c18
@@ -44,8 +59,8 @@ alura-contents:
     title: "Imersão React: AluraCord"
     link: https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68
   - type: COURSE
-    title: "Curso React: escrevendo com Typescript"
-    link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript
+    title: "Imersão React: AluraTube"
+    link: https://cursos.alura.com.br/imersoes/aulas/aula-01-a-web-os-componentes-e-o-deploy-c93
   - type: challenge
     title: "7 Days of Code: React"
     link: https://7daysofcode.io/matricula/react

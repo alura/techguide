@@ -3,9 +3,20 @@ logo:
 short-description:
 key-objectives:
 - Para aprender técnicas de análisis de datos, estadísticas, modelado en la práctica, escalar el crecimiento y brindar nuevas oportunidades, ya sea en la empresa para la que trabaja o en su propio negocio.
-- En esta formacion aprendera utilizando el lenguaje Python y varias bibliotecas y herramientas específicas para estadísticas.
+- En esta formacion aprenderás utilizando el lenguaje Python y varias bibliotecas y herramientas específicas para estadísticas.
 - Comprenderás cómo crear hipótesis y validarlas. De esta forma, podrá justificar los análisis realizados y mostrar a la empresa la importancia del papel del conocimiento en la estadística.
-aditional-objectives:
+- Ecuaciones, funciones y límites
+- Logaritmos
+- Matrices, determinantes, vectores y espacio vectorial
+- Derivadas e integrales
+- Diferencia entre promedio, mediana y moda
+- Distribución de frecuencia
+- Varianza y desviación estándar
+- Distribución binomial, de Poisson y normal
+- Nivel e intervalo de confianza
+- Técnicas de muestreo
+- Regresión lineal
+Series temporalesaditional-objectives:
 contents:
   - type: ARTICLE
     title: "Estadísticas para personas con prisa"
@@ -26,6 +37,18 @@ alura-contents:
   - type: ARTICLE
     title: "Frecuencia absoluta y relativa"
     link: https://www.aluracursos.com/blog/frecuencia-absoluta-y-relativa
+  - type: ARTICLE
+    title: "Análisis de datos: ¿promedio o visualizar la distribución?"
+    link: https://www.aluracursos.com/blog/analisis-de-datos-promedio-o-visualizar-la-distribucion
+  - type: ARTICLE
+    title: "Análisis de datos: analizando mi distribución con tres alternativas de visualización"
+    link: https://www.aluracursos.com/blog/analisis-de-datos-analizando-mi-distribucion-con-tres-alternativas-de-visualizacion
+  - type: ARTICLE
+    title: "Matplotlib una biblioteca Python para generar gráficos interesantes"
+    link: https://www.aluracursos.com/blog/matplotlib-una-biblioteca-python-para-crear-graficos-interesantes
+  - type: ARTICLE
+    title: "Histograma: qué es, ejemplos, gráficos y tipos"
+    link: https://www.aluracursos.com/blog/histograma-que-es-ejemplos-graficos-y-tipos
   - type: ARTICLE
     title: "Series temporales: Tipos de estacionalidad"
     link: https://www.aluracursos.com/blog/tipos-de-estacionalidad

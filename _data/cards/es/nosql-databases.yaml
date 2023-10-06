@@ -1,0 +1,81 @@
+name: Bases de datos no relacionales 
+logo: 
+short-description:
+key-objectives:
+  - Las bases de datos no relacionales , también conocidas como bases de datos NoSQL, son una alternativa a las bases de datos relacionales tradicionales. Son particulamente adecuadas para manejar grandes volúmenes de datos estructurados y no estructurados, y tienen la capacidad de escalar horizontalmente en varios servidores para soportar cargas de trabajo pesadas. Entre las bases de datos NoSQL más populares se encuentran el MongoDB y el Datomic. En este segmento, aprenderás los fundamentos de las bases de datos NoSQL, sus características y usos típicos.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "¿Qué es NoSQL?"
+    link: https://aws.amazon.com/es/nosql/
+  - type: SITE
+    title: "¿Qué son las bases de datos NoSQL?"
+    link: https://www.ibm.com/es-es/topics/nosql-databases
+  - type: SITE
+    title: "Datos no relacionales y NoSQL"
+    link: https://learn.microsoft.com/es-es/azure/architecture/data-guide/big-data/non-relational-data
+  - type: SITE
+    title: "MongoDB: Fundamentos de las bases de datos NoSQL"
+    link: https://www.mongodb.com/es/nosql-explained
+  - type: SITE
+    title: "¿Qué es Datomic Cloud?"
+    link: https://docs.datomic.com/cloud/index.html
+  - type: ARTICLE
+    title: "Introducción a las bases de datos NoSQL"
+    link: https://medium.com/@diego.coder/introducción-a-mongo-db-42ff2b022cde
+  - type: ARTICLE
+    title: "Base de datos no relacional. ¿Qué es? Características y ejemplos"
+    link: https://ayudaleyprotecciondatos.es/bases-de-datos/no-relacional/
+  - type: ARTICLE
+    title: "NoSQL vs SQL: principales diferencias y cuándo elegir cada una de ellas"
+    link: https://pandorafms.com/blog/es/nosql-vs-sql-diferencias-y-cuando-elegir-cada-una/
+  - type: ARTICLE
+    title: "Base de datos : NoSQL VS SQL"
+    link: https://medium.com/@sakerisakeit/base-de-datos-nosql-vs-sql-6679f0fd02ab
+  - type: ARTICLE
+    title: "¿Cómo saber si necesitas una Base de Datos NoSQL?"
+    link: https://medium.com/@eugeniomendoza/cómo-saber-si-necesitas-una-base-de-datos-nosql-b6cfd5bb7d9b
+  - type: ARTICLE
+    title: "Base de datos NoSQL (MongoDB)"
+    link: https://medium.com/@Emmitta/base-de-datos-nosql-mongodb-3eaa8a1b1866
+  - type: ARTICLE
+    title: "Introducción a MongoDB"
+    link: https://medium.com/@diego.coder/introducción-a-mongo-db-42ff2b022cde
+  - type: ARTICLE
+    title: "Bases de datos noSQL aplicado a motores de búsqueda"
+    link: https://medium.com/@anayaotto/bases-de-datos-nosql-aplicado-a-motores-de-búsqueda-a39048f9963a
+  - type: ARTICLE
+    title: "Como saber si existe un campo en MongoDB"
+    link: https://nelsoncode.medium.com/como-saber-si-existe-un-campo-en-mongodb-9130072667bb
+  - type: ARTICLE
+    title: "Copias de seguridad en MongoDB"
+    link: https://medium.com/@diego.coder/herramientas-y-utilidades-en-mongo-db-dump-import-export-bb66d0acd098
+  - type: ARTICLE
+    title: "Consultas y operaciones básicas en MongoDB (CRUD)"
+    link: https://medium.com/@diego.coder/consultas-y-operaciones-básicas-en-mongo-db-crud-operadors-77fe912776a7
+  - type: ARTICLE
+    title: "Agregaciones y tuberías en MongoDB (Aggregation Operations)"
+    link: https://medium.com/@diego.coder/agregaciones-y-tuberías-en-mongo-db-aggregation-operations-67adb83080d0
+  - type: ARTICLE
+    title: "Lecciones de un año con MongoDB"
+    link: https://medium.com/condorlabs-engineering/lecciones-de-un-año-con-mongodb-1c93779e2b08
+  - type: ARTICLE
+    title: "Datomic, una base de datos diferente"
+    link: https://blog.koalite.com/2014/03/datomic-una-base-de-datos-diferente/
+  - type: ARTICLE
+    title: "Datomic: esquema y datos"
+    link: https://blog.koalite.com/2014/03/datomic-esquema-y-datos/
+  - type: YOUTUBE
+    title: "NO SQL: como se modelan las bases de datos no relacionales?"
+    link: https://www.youtube.com/watch?v=Zdlude8l8w4
+  - type: YOUTUBE
+    title: "MongoDB Curso, Introducción Practica a NoSQL"
+    link: https://www.youtube.com/watch?v=lWMemPN9t6Q
+  - type: PODCAST
+    title: "Bases de datos No relacionales en Google Cloud "
+    link: https://open.spotify.com/episode/5uJfhBZUoIZBPmwZVX0Yfo?si=b_PFAiVdTDWF4ZkMp-9TEA
+
+alura-contents:
+  - type: YOUTUBE
+    title: "¿Qué es SQL y NoSQL?"
+    link: https://www.youtube.com/watch?v=cLLKVd5CNLc

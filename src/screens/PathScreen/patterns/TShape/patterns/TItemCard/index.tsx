@@ -5,8 +5,10 @@ import { TItemCardGrids } from "./logic";
 import { useModal } from "@src/components/Modal";
 import ItemContent from "./ItemContent";
 import { OptionalIcon } from "@src/theme/icons/OptionalIcon";
+import { useI18n } from "@src/infra/i18n";
 
 export function TItemCard({ cards: receivedCards, main, categoryName }: any) {
+  const i18n = useI18n();
   const [extraVisible, setExtraVisible] = React.useState(false);
   const totalCards = receivedCards?.length;
   const MAX_VISIBLE = 8;
@@ -101,7 +103,7 @@ export function TItemCard({ cards: receivedCards, main, categoryName }: any) {
                       flexDirection: "row",
                     }}
                   >
-                    Mostrar menos opções{" "}
+                    {i18n.content("GUIDES.SHOW_MORE")}{" "}
                     <Icon name="arrowUp" styleSheet={{ marginLeft: "4px" }} />
                   </Box>
                 ),

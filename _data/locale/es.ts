@@ -2,7 +2,7 @@
 export default {
   "HEAD.TITLE": "Tech Guide: guías del Profesional en T",
   "HEAD.DESCRIPTION": "Encuentre la guía perfecta para tu carrera tecnológica. Consejos, sugerencias, prioridades y enlaces a contenidos. Todo con el enfoque del profesional en T.",
-  "HEAD.SHARE_IMAGE": "https://techguide.sh/assets/image/share-image.jpg",
+  "HEAD.SHARE_IMAGE": "https://techguide.sh/assets/image/share-image-es.png",
   "MENU.LOGO_ALT": "Logo Tech Guide Alura",
   "MENU.CTA_TEXT": "<Emoji name='fire'/> Construye tu &lt;T&gt;",
   "SCREEN_HERO_CONTAINER.PRE_TITLE": "<Emoji name='star'/> ¡Guía tu carrera!",
@@ -88,6 +88,7 @@ export default {
     }
   ],
   "GUIDES.SHOW_ALL": "Ver todos",
+  "GUIDES.SHOW_MORE": "Mostrar menos opciones",
   "GUIDES.NOT.FOUND": "No se encontraron guías",
   "GUIDE.FILTERS": [
     {

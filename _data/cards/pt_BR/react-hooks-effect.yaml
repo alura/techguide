@@ -1,5 +1,5 @@
 name: React Hooks - Effect
-logo: 
+logo:
 short-description:
 key-objectives:
   - UseEffect() é um hook React que permite que você manipule efeitos colaterais em seus componentes funcionais do React.
@@ -10,10 +10,10 @@ aditional-objectives:
 contents:
   - type: SITE
     title: "React: Documentação - Introdução aos Hooks"
-    link: https://pt-br.reactjs.org/docs/hooks-intro.html#gatsby-focus-wrapper
+    link: https://pt-br.react.dev/reference/react
   - type: SITE
     title: "React: Documentação - Usando Effect Hook (Hook de Efeito)"
-    link: https://pt-br.reactjs.org/docs/hooks-effect.html
+    link: https://react.dev/reference/react/useEffect
   - type: ARTICLE
     title: "Entenda como funciona o useEffect"
     link: https://medium.com/reactbrasil/entenda-como-funciona-o-useeffect-e743b86f104
@@ -34,8 +34,11 @@ alura-contents:
     title: "Imersão React: AluraKut - Aula 02"
     link: https://cursos.alura.com.br/imersoes/aulas/aula-2-react-state-e-o-primeiro-formulario-c54
   - type: COURSE
-    title: "Curso React: gerenciamento de estados globais com ContextAPI"
-    link: https://cursos.alura.com.br/course/react-context-estados-globais-contextapi
+    title: "Curso React: desenvolvendo com JavaScript"
+    link: https://cursos.alura.com.br/course/react-desenvolvendo-javascript
+  - type: COURSE
+    title: "Formação Explore React com JavaScript"
+    link: https://cursos.alura.com.br/formacao-react-javascript
   - type: COURSE
     title: "Curso React: escrevendo com Typescript"
     link: https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript

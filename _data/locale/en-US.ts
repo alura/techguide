@@ -2,7 +2,7 @@
 export default {
   "HEAD.TITLE": "Tech Guide: guides for T-shaped Professionals",
   "HEAD.DESCRIPTION": "Find the perfect guide for your tech career. Tips, hints, priorities and links to content. All of it following the T-professional approach.",
-  "HEAD.SHARE_IMAGE": "https://techguide.sh/assets/image/share-image.jpg",
+  "HEAD.SHARE_IMAGE": "https://techguide.sh/assets/image/share-image-en.png",
   "MENU.LOGO_ALT": "Logo Tech Guide Alura",
   "MENU.CTA_TEXT": "<Emoji name='fire'/> Build your &lt;T&gt;",
   "SCREEN_HERO_CONTAINER.PRE_TITLE": "<Emoji name='star'/> Guide your career!",
@@ -89,6 +89,7 @@ export default {
     }
   ],
   "GUIDES.SHOW_ALL": "See all",
+  "GUIDES.SHOW_MORE": "Display less options",
   "GUIDES.NOT.FOUND": "No guides found ",
   "GUIDE.FILTERS": [
     {
