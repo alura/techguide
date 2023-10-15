@@ -1,5 +1,5 @@
 name: React
-tags: 
+tags:
   - front-end
 expertise:
   - name: React Jr
@@ -46,6 +46,8 @@ expertise:
         priority: 4
       - react-webrouting:
         priority: 7
+      - react-state-management:
+        priority: 7
       - typescript-fundamentals:
         priority: 5
         optional: true
@@ -61,7 +63,7 @@ expertise:
         priority: 7
       - babel-fundamentals:
         priority: 6
-        optional: true      
+        optional: true
   - name: React in depth
     cards:
       - lottie:
@@ -71,7 +73,7 @@ expertise:
         priority: 5
         optional: true
       - service-workers:
-        priority: 7    
+        priority: 7
       - react-hooks-form:
         priority: 7
       - lodash:
@@ -100,9 +102,9 @@ collaboration:
       # #   priority: 10
       - json:
         priority: 8
-      - command-line-fundamentals: 
+      - command-line-fundamentals:
         priority: 8
-      - cloud-fundamentals: 
+      - cloud-fundamentals:
         priority: 6
         optional: true
       - yarn:
