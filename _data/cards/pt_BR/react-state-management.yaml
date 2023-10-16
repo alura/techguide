@@ -1,0 +1,63 @@
+name: React - Gerenciamento de Estados
+logo:
+short-description:
+key-objectives:
+  - O gerenciamento de estado em React é a prática de controlar e atualizar os dados de uma aplicação React para garantir que os componentes tenham acesso às informações necessárias. Isso é essencial para criar aplicativos interativos e dinâmicos.
+  - Garante que os dados exibidos nos componentes estejam sempre atualizados e em sincronia.
+  - Permite que componentes compartilhem dados e comuniquem-se uns com os outros.
+  - Otimiza a renderização, garantindo que apenas as partes relevantes da interface do usuário sejam atualizadas.
+  - Torna o código mais organizado e fácil de entender, especialmente em aplicativos complexos.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Passando dados profundamente com contexto (inglês)"
+    link: https://react.dev/learn/passing-data-deeply-with-context
+  - type: ARTICLE
+    title: "Redux-Saga: Gerenciando efeitos e ações"
+    link: https://oieduardorabelo.medium.com/redux-saga-gerenciando-efeitos-f518a31c744e
+  - type: ARTICLE
+    title: "Recoil.js — Gerenciamento de Estado de Alto Desempenho para React Simplificado (inglês)"
+    link: https://medium.com/weekly-webtips/recoil-js-high-performance-state-management-for-react-simplified-cb520464a667
+  - type: YOUTUBE
+    title: "A Context API é um state management?! A forma CORRETA de utilizar a CONTEXT API do React.js"
+    link: https://youtu.be/06_575UN55A?si=eMQQ1lz62BYYa5Y-
+  - type: YOUTUBE
+    title: "Redux // Dicionário do Programador - Código Fonte TV"
+    link: https://youtu.be/kAOzxQp6AKE?si=bpYO9rIG6QbPnwO7
+alura-contents:
+  - type: SITE
+    title: "Primeiras aulas do curso de React: gerenciamento de estados globais com ContextAPI"
+    link: https://www.alura.com.br/conteudo/react-context-estados-globais-contextapi
+  - type: ARTICLE
+    title: "Estados globais: diferenças entre Redux e Context API"
+    link: https://www.alura.com.br/artigos/estados-globais-diferencas-redux-context-api
+  - type: ARTICLE
+    title: "React e Context API: testes de unidade"
+    link: https://www.alura.com.br/artigos/react-context-api-testes-de-unidade
+  - type: ARTICLE
+    title: "Redux: desvendando a arquitetura com Flux"
+    link: https://www.alura.com.br/artigos/redux-desvendando-arquitetura-flux
+  - type: COURSE
+    title: "Curso de React: gerenciamento de estados globais com ContextAPI"
+    link: https://www.alura.com.br/curso-online-react-context-estados-globais-contextapi
+  - type: COURSE
+    title: "Curso de React: arquitetando soluções de roteamento e gestão de estado com React Router e Context API"
+    link: https://www.alura.com.br/curso-online-solucoes-roteamento-gestao-estado-react-router-context-api
+  - type: COURSE
+    title: "Curso de React: combinando Context API e Apollo Client"
+    link: https://www.alura.com.br/curso-online-react-combinando-context-api-apollo-client
+  - type: COURSE
+    title: "Curso de React: gerenciamento de estados globais com ContextAPI"
+    link: https://www.alura.com.br/curso-online-react-context-estados-globais-contextapi
+  - type: COURSE
+    title: "Curso de React: gerenciando estado com Recoil"
+    link: https://www.alura.com.br/curso-online-react-gerenciando-estado-recoil
+  - type: COURSE
+    title: "Curso de React: gerenciamento de estados globais com Redux"
+    link: https://www.alura.com.br/curso-online-react-gerenciamento-estados-globais-redux
+  - type: COURSE
+    title: "Formação Gerencie estados em React com Redux"
+    link: https://www.alura.com.br/formacao-react-gestao-estados
+  - type: podcast
+    title: "Hipsters.tech: Guia do iniciante em React 209"
+    link: https://www.alura.com.br/podcast/guia-do-iniciante-em-react-hipsters-209-a341

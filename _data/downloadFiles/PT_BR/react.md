@@ -104,6 +104,12 @@
    - Lidar com código CSS em componentes
 - [ ] **React - Roteamento web**:
    - Manipular a navegação entre interfaces e componentes
+- [ ] **React - Gerenciamento de Estados**:
+   - O gerenciamento de estado em React é a prática de controlar e atualizar os dados de uma aplicação React para garantir que os componentes tenham acesso às informações necessárias. Isso é essencial para criar aplicativos interativos e dinâmicos.
+   - Garante que os dados exibidos nos componentes estejam sempre atualizados e em sincronia.
+   - Permite que componentes compartilhem dados e comuniquem-se uns com os outros.
+   - Otimiza a renderização, garantindo que apenas as partes relevantes da interface do usuário sejam atualizadas.
+   - Torna o código mais organizado e fácil de entender, especialmente em aplicativos complexos.
 - [ ] **TypeScript - Fundamentos**:
    - TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript.
    - Entender a fundo o que são tipos e a importância da tipagem
