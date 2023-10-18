@@ -35,6 +35,7 @@
    - Aprender os usos e diferenças entre Equals e HashCode
    - Saiba trabalhar com ArrayList, LinkedList ou Vector
    - Classes Wrappers
+   - Domine a Manipulação de Coleções e Mapas com Java Stream
 - [ ] **Java - Testes**:
    - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
    - Usar testes unitários
