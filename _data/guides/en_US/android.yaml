@@ -57,6 +57,8 @@ expertise:
         priority: 6
       - android-sec:
         priority: 6
+      - android-monitor:
+        priority: 8
 collaboration:
   - name: Infrastructure and good practices
     cards:
