@@ -55,6 +55,10 @@ expertise:
         priority: 7
       - android-deployment:
         priority: 6
+      - android-sec:
+        priority: 6
+      - android-monitor:
+        priority: 8
 collaboration:
   - name: Infraestrutura e boas práticas
     cards:
