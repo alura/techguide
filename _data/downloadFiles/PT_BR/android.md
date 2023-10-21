@@ -172,6 +172,13 @@
    - Conhecer os conceitos básicos de deployment de aplicativos Android;
    - Criar uma conta de Google Developer;
    - Usar a Play Store para distribuir aplicativos Android para um público global.
+- [ ] **Android - Segurança**:
+   - À medida que seu projeto cresce, ele se torna mais visível, atraindo tanto um público maior quanto potenciais invasores. A segurança do aplicativo, desde as fases iniciais de desenvolvimento, é crucial para proteger a integridade do projeto e a privacidade dos usuários. Adotar práticas de segurança robustas e se manter atualizado é essencial para evitar ameaças e garantir uma experiência segura para sua empresa e seu usuário
+   - Atente-se a entender as necessidades do seu projeto
+- [ ] **Android - Monitoramento e Análise**:
+   - Monitoramento é fundamental para compreender como seu aplicativo opera em produção.
+   - Compreender o fluxo do usuário e identificar possíveis funis ajuda a aprimorar a estratégia do seu projeto e pode ser um fator determinante para o sucesso do aplicativo.
+   - A capacidade de antecipar e prever cenários de problemas antes que afetem o usuário final é um diferencial crucial.
 ## Habilidade Auxiliar: Infraestrutura e boas práticas 
 - [ ] **Git e GitHub - Fundamentos**:
    - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
