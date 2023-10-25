@@ -244,6 +244,12 @@
    - Saiba como reagir às mudanças nos valores fornecidos usando um objeto reativo ou ref.
    - Aprenda a lidar com situações em que vários ancestrais fornecem a mesma chave.
    - Embora seja uma ferramenta poderosa, o Provide / Inject deve ser usado com moderação. Entenda quando é apropriado usá-lo e quando é melhor evitar.
+- [ ] **Vue - Suspense**:
+   - O Suspense é um componente embutido para orquestração de dependências assíncronas em uma árvore de componente. Ele pode interpretar um estado de carregamento enquanto espera por várias dependências assíncronas encaixadas em baixo da árvore de componente ser resolvida.
+   - Conhecer dependências assíncronas
+- [ ] **NativeScript-Vue**:
+   - O NativeScript-Vue é um plugin NativeScript que permite usar Vue.js para criar seu aplicativo móvel.
+   - Criar apps com interface nativa
 ## Habilidade Auxiliar: Infraestrutura e Back-end 
 - [ ] **Git e GitHub - Fundamentos**:
    - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
