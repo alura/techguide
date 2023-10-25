@@ -1,0 +1,14 @@
+name: Vue - Suspense
+logo: 
+short-description:
+key-objectives:
+  - O Suspense é um componente embutido para orquestração de dependências assíncronas em uma árvore de componente. Ele pode interpretar um estado de carregamento enquanto espera por várias dependências assíncronas encaixadas em baixo da árvore de componente ser resolvida. 
+  - Conhecer dependências assíncronas
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Vue: Documentação - Suspense"
+    link: https://pt.vuejs.org/guide/built-ins/suspense.html
+  - type: YOUTUBE
+    title: "Clube Full-Stack: Como usar o Suspense no vue 3 | Como colocar um loading em um componente assíncrono"
+    link: https://www.youtube.com/watch?v=imR45gszsHw&ab_channel=ClubeFull-Stack
