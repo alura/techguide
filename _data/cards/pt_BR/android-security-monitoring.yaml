@@ -1,0 +1,36 @@
+name: Android - Segurança e Monitoramento
+logo: 
+short-description:
+key-objectives:
+  - À medida que seu projeto cresce, ele se torna mais visível, atraindo tanto um público maior quanto potenciais invasores. A segurança do aplicativo, desde as fases iniciais de desenvolvimento, é crucial para proteger a integridade do projeto e a privacidade dos usuários. Adotar práticas de segurança robustas e se manter atualizado é essencial para evitar ameaças e garantir uma experiência segura para sua empresa e seu usuário
+  - Atente-se a entender as necessidades do seu projeto
+  - Monitoramento é fundamental para compreender como seu aplicativo opera em produção.
+  - Compreender o fluxo do usuário e identificar possíveis funis ajuda a aprimorar a estratégia do seu projeto e pode ser um fator determinante para o sucesso do aplicativo.
+  - A capacidade de antecipar e prever cenários de problemas antes que afetem o usuário final é um diferencial crucial.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação: Práticas recomendadas para segurança de apps"
+    link: https://developer.android.com/topic/security/best-practices?hl=pt-br
+  - type: SITE
+    title: "Documentação: Executar o app de monitoramento"
+    link: https://developer.android.com/games/sdk/performance-tuner/unity/run-monitor-app?hl=pt-br
+  - type: SITE
+    title: "Github(Rods) - Mobile developer security roadmap"
+    link: https://github.com/rviannaoliveira/mobile-developer-security-roadmap
+  - type: YOUTUBE
+    title: "CodandoTV(Rods) - Ofuscação do seu app - Segurança #02"
+    link: https://youtu.be/yClh_VTadfY?si=dol_zASzwBCAkflv
+  - type: YOUTUBE
+    title: "CodandoTV(Rods) - Malware do seu app - Segurança #03"
+    link: https://youtu.be/Qln4S8lYNXc?si=xUYIyrHSvjrHr0pl
+  - type: YOUTUBE
+    title: "CodandoTV(Rods) - Autenticação do seu app - Segurança #04"
+    link: https://youtu.be/gBAI6okcRVQ?si=NzzCiY2saO52Wiur
+  - type: YOUTUBE
+    title: "CodandoTV(Rods) - Análise de código do seu app - Segurança #05"
+    link: https://youtu.be/ESkhqn45FoM?si=R8LmgAVbINpMj8v1
+  - type: YOUTUBE
+    title: "CodandoTV(Rods) - Comunicação de Tráfego do seu app - Segurança #06"
+    link: https://youtu.be/lrCpk7Vckb0?si=4dB78NFRB6lnguGG
+alura-contents:
