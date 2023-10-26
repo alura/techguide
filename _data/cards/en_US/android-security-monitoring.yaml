@@ -1,0 +1,27 @@
+name: Android - Security and Monitoring
+logo: 
+short-description:
+key-objectives:
+  - As your project grows, it becomes more visible, attracting both a larger audience and potential attackers. Application security, from the earliest stages of development, is crucial to protecting the integrity of the project and the privacy of users. Adopting robust security practices and keeping up to date is essential to avoid threats and guarantee a safe experience for your company and its users
+  - Making sure you understand your project's needs
+  - Monitoring is fundamental to understanding how your application operates in production.
+  - Understanding the user flow and identifying possible funnels helps to improve your project strategy and can be a determining factor in the application's success.
+  - The ability to anticipate and predict problem scenarios before they affect the end user is a crucial factor.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação: Security guidelines"
+    link: https://developer.android.com/privacy-and-security/security-tips
+  - type: SITE
+    title: "Documentação: Run the monitor app"
+    link: https://developer.android.com/games/sdk/performance-tuner/unity/run-monitor-app
+  - type: SITE
+    title: "Github(Rods) - Mobile developer security roadmap"
+    link: https://www.youtube.com/watch?v=bgpyuuzMlo0&ab_channel=PhilippLackner
+  - type: YOUTUBE
+    title: "Philipp Lackner: Shrink, Optimize and Secure Your App With R8 & ProGuard - Full Guide"
+    link: https://www.youtube.com/watch?v=bgpyuuzMlo0&ab_channel=PhilippLackner
+  - type: YOUTUBE
+    title: "Philipp Lackner: THIS Is How You Measure the Performance of Your Android App"
+    link: https://www.youtube.com/watch?v=XHz_cFwdfoM&ab_channel=PhilippLackner
+alura-contents:

@@ -53,6 +53,8 @@ expertise:
         optional: true
       - android-debugging:
         priority: 7
+      - android-security-monitoring:
+        priority: 7
       - android-deployment:
         priority: 6
 collaboration:
