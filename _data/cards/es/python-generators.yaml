@@ -1,0 +1,31 @@
+name: Python - Generadores
+logo: 
+short-description:
+key-objectives:
+ - Los generadores permiten declarar una función que se comporta como un iterador, por ejemplo, se puede usar en un ciclo 'for'.
+ - Crear objetos iteradores
+ - Utilizar evaluación perezosa
+ - Realizar tareas simultáneas
+ - Uso de la palabra clave 'yield'
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Python Intermedio: Generadores"
+    link: https://python-intermedio.readthedocs.io/es/latest/generators.html
+  - type: SITE
+    title: "Python Panama: Generadores"
+    link: https://pythonpanama.github.io/pythonpractico/6/
+  - type: ARTICLE
+    title: "Generadores en Python – La base del Streaming"
+    link: https://jarroba.com/generadores-en-python-la-base-del-streaming/
+  - type: ARTICLE
+    title: "Python: generadores y yield"
+    link: https://medium.com/flux-it-thoughts/python-generadores-y-yield-c7ef66d44a94
+  - type: YOUTUBE
+    title: "Generators - 20 - Python Intermedio tutorial en español"
+    link: https://www.youtube.com/watch?v=-_iTmR2gSyA
+  - type: YOUTUBE
+    title: "Yield Python - 3 ejemplos Generadores Produce sin Control"
+    link: https://www.youtube.com/watch?v=0ULwZf1Mc5E
+
+alura-contents:
