@@ -1,30 +1,48 @@
-name: Python - Orientação a Objetos Avançada
+name: Python - Programación Orientada a Objetos Avanzada
 logo: 
 short-description:
 key-objectives:
-  - Mixin é uma classe que fornece implementações de métodos para reutilização por múltiplas classes filhas relacionadas.
-  - Sobrecarga do operador significa dar significado estendido além de seu significado operacional predefinido.
+ - Mixin es una clase que ofrece implementación de métodos para ser reutilizados por múltiples clases hijas relacionadas.
+ - Sobrecarga de operador significa dar un significado extendido además de su significado operacional predefinido
 aditional-objectives:
 contents:
-  - type: ARTICLE
-    title: "Python e Herança Múltipla: Como funciona?"
-    link: https://medium.com/rafaeltardivo/python-e-heran%C3%A7a-m%C3%BAltipla-como-funciona-876db0449efe
-  - type: ARTICLE
-    title: "Orientação a objetos de outra forma: Herança múltiplas e mixins"
-    link: https://dev.to/acaverna/orientacao-a-objetos-de-outra-forma-heranca-multiplas-e-mixins-31eb
   - type: SITE
-    title: "Acervo Lima: Sobrecarga de operadores em Python"
-    link: https://acervolima.com/sobrecarga-de-operador-em-python/
+    title: "Clases Base Abstractas para Contenedores"
+    link: https://docs.python.org/es/3.11/library/collections.abc.html
+  - type: SITE
+    title: "Model Clase"
+    link: https://learn.microsoft.com/es-es/python/api/msrest/msrest.serialization.model?view=azure-python-preview
   - type: ARTICLE
-    title: "Sobrecarga de operadores e funções no Python 3"
-    link: https://medium.com/@pauloeddias/sobrecarga-de-operadores-e-fun%C3%A7%C3%B5es-no-python-3-2e66b80361b6
+    title: "Herencia múltiple en Python"
+    link: https://www.delftstack.com/es/howto/python/multiple-inheritance-in-python/
+  - type: ARTICLE
+    title: "Herencia múltiple y «mixins»"
+    link: https://fernandoruizrico.com/programacion-con-python-clases-y-objetos/#Herencia_multiple_y_«mixins»
+  - type: ARTICLE
+    title: "Cómo usar la inyección de dependencias en Python"
+    link: https://medium.com/@xescuder/cómo-usar-la-inyección-de-dependencias-en-python-3de19ce7759c
+  - type: ARTICLE
+    title: "¿Clases abstractas o duck typing?"
+    link: https://medium.com/@xescuder/implementamos-en-python-con-clases-abstractas-o-con-duck-typing-1e0af2bf1a9b
+  - type: ARTICLE
+    title: "¿Qué son los “mixin” en Python y como debería usarlos?"
+    link: https://sergio1998.medium.com/qué-son-los-mixin-en-python-y-como-debería-usarlos-8b6e3a4a5755
+  - type: ARTICLE
+    title: "(Overloading) — Sobrecargar Operadores en Python"
+    link: https://medium.com/@LuisMBaezCo/overloading-sobrecargar-operadores-en-python-5d7a75e2bfdf
+  - type: ARTICLE
+    title: "Sobrecarga de funciones o despacho múltiple en Python"
+    link: https://recursospython.com/guias-y-manuales/sobrecarga-de-funciones-o-despacho-multiple/
+  - type: ARTICLE
+    title: "Sobrecarga de funciones en Python"
+    link: https://www.delftstack.com/es/howto/python/python-function-overloading/
   - type: YOUTUBE
-    title: "Eduardo Mendes: Programação orientada a objetos - Sobrecarga de operadores"
-    link: https://www.youtube.com/watch?v=XSVvXso_Ukc
+    title: "Sobrecarga de Métodos"
+    link: https://www.youtube.com/watch?v=Hj7fvkHr71s
   - type: YOUTUBE
-    title: "PETEE UFMG: Orientação a Objetos - Sobrecarga de Operadores"
-    link: https://www.youtube.com/watch?v=2FitezEqOH8
+    title: "Sobrecarga de Operadores"
+    link: https://www.youtube.com/watch?v=emBcPZUtx3o
 alura-contents:
   - type: COURSE
-    title: "Curso Python: avançando na orientação a objetos"
-    link: https://cursos.alura.com.br/course/python-3-avancando-orientacao-objetos
+    title: "Curso de Python: avanzando en la orientación a objetos"
+    link: https://www.aluracursos.com/curso-online-python-avanzando-orientacion-objetos

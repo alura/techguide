@@ -1,26 +1,31 @@
-name: Python - MVC e MTV
+name: Python - MVC y MTV (o MVT)
 logo: 
 short-description:
 key-objectives:
-  - MVC e MTV são dois padrões de projeto (design patterns) utilizados para implementar interfaces e aplicações web.
-  - Entender o padrão MVC
-  - Entender o padrão MTV
-  - Compreender a diferença entre os padrões MVC e MTV
+ - MVC y MTV son dos padrones de proyecto (desing patterns) utilizados para implementar interfaces y aplicaciones web.
+ - Comprender el patrón MVC
+ - Comprender el patrón MTV
+ - Comprender la diferencia entre los patrones MVC y MTV
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Acervo Lima: Diferença entre os padrões de design MVC e MVT"
-    link: https://acervolima.com/diferenca-entre-os-padroes-de-design-mvc-e-mvt/
+    title: "Glosario"
+    link: https://docs.djangoproject.com/es/4.2/glossary/
   - type: ARTICLE
-    title: "Como funciona a arquitetura MTV (Django)"
-    link: https://diandrasilva.medium.com/como-funciona-a-arquitetura-mtv-django-86af916f1f63
+    title: "Diferencia entre los patrones de diseño MVC y MVT"
+    link: https://barcelonageeks.com/diferencia-entre-los-patrones-de-diseno-mvc-y-mvt/
+  - type: ARTICLE
+    title: "Que es el patrón MTV (Model Template View)"
+    link: https://espifreelancer.com/mtv-django.html
+  - type: ARTICLE
+    title: "Django vs Laravel: ¿Cuál es el mejor framework en 2023?"
+    link: https://kinsta.com/es/blog/django-vs-laravel/
   - type: YOUTUBE
-    title: "Thiago Kaiser: Como funciona o Django - Modelo MTV"
-    link: https://www.youtube.com/watch?v=2XaZXJ5P81k
+    title: "Los modelos MVC y MVT o MVTU"
+    link: https://www.youtube.com/watch?v=_RLCgEIYMH0
   - type: YOUTUBE
-    title: "Rafael Zottesso: Python e Django - Arquitetura Model View Template (MVT)"
-    link: https://www.youtube.com/watch?v=Zpl1w_Hn0CE
+    title: "Proyecto Django Para Administrar Universidad | Aplicación Web con Base de Datos y Envío de Correos"
+    link: https://www.youtube.com/watch?v=10_PpcLRaHk
+
 alura-contents:
-  - type: COURSE
-    title: "Formação Django"
-    link: https://cursos.alura.com.br/formacao-django
+

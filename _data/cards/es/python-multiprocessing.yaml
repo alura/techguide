@@ -1,28 +1,31 @@
-name: Python - Multiprocessamento
+name: Python - Multiprocesamiento
 logo: 
 short-description:
 key-objectives:
-  - Em Python, o módulo de multiprocessamento inclui uma API muito simples e intuitiva para dividir o trabalho entre vários processos.
-  - Executar processos em paralelo
-  - Conhecer a classe Pool
+ - En Python, el módulo de multiprocesamiento incluye una API muy simple e intuitiva para dividir el trabajo entre varios procesos.
+ - Ejecutar procesos en paralelo
+ - Conocer la clase Pool
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Documentação Python - Process Pools (inglês)"
-    link: https://docs.python.org/pt-br/3/library/multiprocessing.html#module-multiprocessing.pool
-  - type: SITE
-    title: "Acervo Lima: Multiprocessamento em Python"
-    link: https://acervolima.com/multiprocessamento-em-python-conjunto-1-introducao/
-  - type: SITE
-    title: "Acervo Lima: Sincronização e pooling de processos em Python"
-    link: https://acervolima.com/sincronizacao-e-pooling-de-processos-em-python/
+    title: "Piscinas de procesos (Process Pools) - Documentación Python"
+    link: https://docs.python.org/es/3/library/multiprocessing.html#module-multiprocessing.pool
   - type: ARTICLE
-    title: "Uma pequena introdução a programação paralela e multiprocessamento com Python"
-    link: https://medium.com/@adson.develop/uma-pequena-introdu%C3%A7%C3%A3o-a-programa%C3%A7%C3%A3o-paralela-e-multiprocessamento-com-python-232bbf72a8f7
+    title: "Comprender el multiprocesamiento y los subprocesos múltiples en Python"
+    link: https://hackernoon.com/es/entender-multiprocesamiento-y-multihilo-en-python
+  - type: ARTICLE
+    title: "Paralelismo y concurrencia en Python"
+    link: https://forum.huawei.com/enterprise/es/paralelismo-y-concurrencia-en-python/thread/667239418785841152-667212895836057600
+  - type: ARTICLE
+    title: "Azure Cognitive Services utilizando multiprocesamiento (python)"
+    link: https://medium.com/@alvarado22daniela/azure-cognitive-services-utilizando-multiprocesamiento-python-d4d9df92ca9c
   - type: YOUTUBE
-    title: "Eduardo Mendes: Usando Processos - Multiprocessamento"
-    link: https://www.youtube.com/watch?v=ANGM6Tjf9zM
+    title: "Multiprocessos - 11 - Python Avanzado tutorial en español"
+    link: https://www.youtube.com/watch?v=ptiAjwyqm_s
   - type: YOUTUBE
-    title: "Ignorância Zero: Execução Paralela V - Multiprocessing"
-    link: https://www.youtube.com/watch?v=EGJipyZBjbU
+    title: "Python Multiprocessing"
+    link: https://www.youtube.com/watch?v=v9a3HkKp7jQ
+  - type: YOUTUBE
+    title: "Multiprocessing Python en Español - Función Pool"
+    link: https://www.youtube.com/watch?v=LiTcHW0StzY
 alura-contents:

@@ -1,24 +1,30 @@
-name: Python - Tipagem estática
+name: Python - Tipado Estático
 logo: 
 short-description:
 key-objectives:
-  - Python é uma linguagem dinamicamente tipada, ou seja, não há necessidade de pensar em tipos de dados. Linguagens estaticamente tipadas (tais como C ou Java) realizam verificações de tipo durante a compilação. Pode parecer mais seguro, pois você pode dizer imediatamente o tipo de parâmetro de cada função.
-  - Conhecer type hinting
+ - Python es un lenguaje de tipado dinámico, lo que significa que no es necesario pensar en tipos de datos. Los lenguajes de tipado estático (como C o Java) realizan verificaciones de tipos durante la compilación. Puede parecer más seguro, ya que puede especificar inmediatamente el tipo de parámetro de cada función.
+ - Conocer el "type hinting"
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "Soporte para type hints"
+    link: https://docs.python.org/es/3.10/library/typing.html
   - type: ARTICLE
-    title: "Python 3 e Type Hints"
-    link: https://diogommartins.medium.com/python-3-e-type-hints-40e80a9e8214
+    title: "¿Qué son los Type hints en Python? Mejorar la calidad de tu código y hazlo más legible"
+    link: https://dev.to/rohaquinlop/que-son-los-type-hints-en-python-mejorar-la-calidad-de-tu-codigo-y-hazlo-mas-legible-5e99
+  - type: ARTICLE
+    title: "Sugerencias de tipo o type hints"
+    link: https://www.pythonparatodo.com/?p=330
   - type: YOUTUBE
-    title: "pythonando: Tipagem estática com Python?"
-    link: https://www.youtube.com/watch?v=jvLjANgC-wk
+    title: "Qué es un lenguaje complicado e interpretado y qué es el tipado estático dinámico fuerte y débil"
+    link: https://www.youtube.com/watch?v=M32Az-IRUQI
   - type: YOUTUBE
-    title: "pythonbrasil: Python e Tipagem Estática"
-    link: https://www.youtube.com/watch?v=oeacyCi3u_o
+    title: "Tipificación estática en Python 3.9 - PyConES 2020"
+    link: https://www.youtube.com/watch?v=2vYOxbd2ioc
   - type: YOUTUBE
-    title: "Vinta Software: Medalhões, Patos e Protocolos: tipos em Python 3.8"
-    link: https://www.youtube.com/watch?v=UVhGUINj1e0
+    title: "Usos e integraciones del tipado estático opcional en Python"
+    link: https://www.youtube.com/watch?v=YOBl14X7zL4
+  - type: YOUTUBE
+    title: "PyConAr 2020 - Introducción a Type Hints"
+    link: https://www.youtube.com/watch?v=EUyp0EpVmEI
 alura-contents:
-  - type: ARTICLE
-    title: "O que são as tipagens estática e dinâmica em programação"
-    link: https://www.alura.com.br/artigos/o-que-sao-as-tipagens-estatica-e-dinamica-em-programacao

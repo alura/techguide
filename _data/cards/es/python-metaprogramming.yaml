@@ -1,25 +1,25 @@
-name: Python - Metaprogramação
+name: Python - Metaprogramación
 logo: 
 short-description:
 key-objectives:
-  - Metaprogramação é uma técnica de programação com a qual programas têm a capacidade de tratar outros programas como seus dados. Isso significa que um programa pode ser projetado para ler, gerar, analisar ou transformar outros programas, e até mesmo modificar-se mesmo durante a execução.
-  - Escrever um programa que manipula outros programas
-  - Usar metaclasses
+ - Metaprogramación es una técnica de programación en la que los programas tienen la capacidad de tratar a otros programas como sus datos. Esto significa que un programa puede estar diseñado para leer, generar, analizar o transformar otros programas, e incluso modificarse a sí mismo durante la ejecución.
+ - Escribir un programa que manipula otros programas
+ - Usar metaclasses
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Acervo Lima: Metaprogramação com Metaclasses em Python"
-    link: https://acervolima.com/metaprogramacao-com-metaclasses-em-python/
+    title: "Metaprogramación con Python 3"
+    link: https://2013.es.pycon.org/media/metaprogramming-python3.pdf
   - type: ARTICLE
-    title: "Introdução à Metaprogramação em Python 3"
-    link: https://alcarsil.medium.com/introdu%C3%A7%C3%A3o-%C3%A0-metaprograma%C3%A7%C3%A3o-em-python-3-fa6688b08d67
+    title: "¿Qué es la Metaprogramación en JavaScript? En español, por favor."
+    link: https://www.freecodecamp.org/espanol/news/que-es-la-metaprogramacion-en-javascript-en-espanol-por-favor/
   - type: ARTICLE
-    title: "Metaprogramação 101"
-    link: https://guimorg.github.io/metaprogramming-101-pt/
+    title: "Metaclases en Python"
+    link: https://pythondiario.com/2018/06/metaclases-en-python.html
   - type: YOUTUBE
-    title: "Victor Vernalha: Introdução à Metaprogramação em Python"
-    link: https://www.youtube.com/watch?v=S0xdG5Ctluo
+    title: "Metaprogramación en Python - Raúl Cumplido - Track Avanzado"
+    link: https://www.youtube.com/watch?v=LxUaNOq6Fbw
   - type: YOUTUBE
-    title: "pythonbrasil: Atributos, propriedades e descritores - encapsulamento e metaprogramação"
-    link: https://www.youtube.com/watch?v=tF4Dlra3uNI
+    title: "Metaclase propia - 4 - Python Avanzado tutorial en español"
+    link: https://www.youtube.com/watch?v=4rarIb1Mhz4
 alura-contents:

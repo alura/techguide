@@ -1,33 +1,31 @@
-name: Python - Geradores
+name: Python - Generadores
 logo: 
 short-description:
 key-objectives:
-  - Geradores permitem declarar uma função que se comporta como um iterador, por exemplo, ela pode ser usada em um loop 'for'.
-  - Criar objetos iteradores
-  - Usar avaliação preguiçosa
-  - Executar tarefas simultâneas
-  - Uso da palavra reservada 'yield'
+ - Los generadores permiten declarar una función que se comporta como un iterador, por ejemplo, se puede usar en un ciclo 'for'.
+ - Crear objetos iteradores
+ - Utilizar evaluación perezosa
+ - Realizar tareas simultáneas
+ - Uso de la palabra clave 'yield'
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Wiki Python Brasil: Utilizando geradores (generators)"
-    link: https://wiki.python.org.br/UsandoGenerators
+    title: "Python Intermedio: Generadores"
+    link: https://python-intermedio.readthedocs.io/es/latest/generators.html
+  - type: SITE
+    title: "Python Panama: Generadores"
+    link: https://pythonpanama.github.io/pythonpractico/6/
   - type: ARTICLE
-    title: "Python Generators"
-    link: http://pythonclub.com.br/python-generators.html
+    title: "Generadores en Python – La base del Streaming"
+    link: https://jarroba.com/generadores-en-python-la-base-del-streaming/
   - type: ARTICLE
-    title: "Introdução ao Python Generators"
-    link: http://blog.dunderlabs.com/introducao-ao-python-generators.html
+    title: "Python: generadores y yield"
+    link: https://medium.com/flux-it-thoughts/python-generadores-y-yield-c7ef66d44a94
   - type: YOUTUBE
-    title: "Otávio Miranda: Geradores, Iteradores e Iteráveis em Python"
-    link: https://www.youtube.com/watch?v=gHrc6FLBh20
+    title: "Generators - 20 - Python Intermedio tutorial en español"
+    link: https://www.youtube.com/watch?v=-_iTmR2gSyA
   - type: YOUTUBE
-    title: "Eduardo Mendes: Iteradores e Geradores"
-    link: https://www.youtube.com/watch?v=Xj5LlCeW0m0
-  - type: YOUTUBE
-    title: "Eduardo Mendes: Desvendando o yield e as funções geradoras"
-    link: https://www.youtube.com/watch?v=ZjwZ9nfhsk4
+    title: "Yield Python - 3 ejemplos Generadores Produce sin Control"
+    link: https://www.youtube.com/watch?v=0ULwZf1Mc5E
+
 alura-contents:
-  - type: ARTICLE
-    title: "Conhecendo os geradores no Python"
-    link: https://www.alura.com.br/artigos/conhecendo-os-geradores-no-python

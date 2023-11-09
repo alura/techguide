@@ -1,38 +1,42 @@
-name: Python - Comunicação com APIs
+name: Python - Comunicación con APIs
 logo: 
 short-description:
 key-objectives:
-  - Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.
-  - Entender o que é uma API REST
-  - Conhecer os comandos básicos de comunicação HTTP
-  - Entender o que é uma API REST
-  - Saber fazer requisições autenticadas
-  - Converter objetos para JSON e vice-versa
-  - Saber usar as ferramentas do pacote Requests
+ - Una API es una interfaz que los desarrolladores de software utilizan para programar la interacción con componentes o recursos de software fuera de su propio código. Una definición aún más simple es que una API es la parte de un componente de software que es accesible para otros componentes.
+ - Comprender qué es una API REST
+ - Conocer los comandos básicos de comunicación HTTP
+ - Entender qué es una API REST
+ - Saber cómo hacer solicitudes autenticadas
+ - Convertir objetos a JSON y viceversa
+ - Saber cómo utilizar las herramientas del paquete Requests.
 aditional-objectives:
 contents:
-  - type: SITE
-    title: "Documentação Requests - HTTP para Humanos"
-    link: https://requests.readthedocs.io/projects/pt/pt_BR/latest/
-  - type: ARTICLE
-    title: "Como começar a usar a biblioteca Requests em Python"
-    link: https://www.digitalocean.com/community/tutorials/how-to-get-started-with-the-requests-library-in-python-pt
-  - type: ARTICLE
-    title: "Python Requests & Spotify Web API"
-    link: https://medium.com/@pedron.ketlin/python-requests-spotify-web-api-63cce3641c66
+   - type: SITE
+    title: "¿Qué es una API? - AWS"
+    link: https://aws.amazon.com/es/what-is/api/
+   - type: SITE
+    title: "¿Cuál es la diferencia entre SDK y API? - AWS"
+    link: https://aws.amazon.com/es/compare/the-difference-between-sdk-and-api/
+   - type: SITE
+    title: "API de correo electrónico para Python 3"
+    link: https://cloud.google.com/appengine/docs/standard/python3/services/mail?hl=es-419
+   - type: SITE
+    title: "¿Qué es una API REST?"
+    link: https://www.ibm.com/es-es/topics/rest-apis
   - type: YOUTUBE
-    title: "Otávio Miranda: Requests em Python - Consumindo uma API Rest usando o módulo Requests"
-    link: https://www.youtube.com/watch?v=Qd8JT0bnJGs&ab_channel=Ot%C3%A1vioMiranda
+    title: "qué son los APIs? (SOAP, REST, GraphQL)"
+    link: https://www.youtube.com/watch?v=rAylamS1Hco
   - type: YOUTUBE
-    title: "Walisson Silva: Requisições HTTP com o módulo requests | Web Scraping com Python"
-    link: https://www.youtube.com/watch?v=XRUdG2msE0Q&ab_channel=WalissonSilva
-alura-contents:
+    title: "APRENDE A CONSUMIR LA API DE SPOTIFY EN 15 MINUTOS!!"
+    link: https://www.youtube.com/watch?app=desktop&v=9cz8Gvh0J7g
+  - type: YOUTUBE
+    title: "Implementación de una API en Python para enviar email con Angular"
+    link: https://www.youtube.com/watch?v=RSGQuH_gWNw
+  - type: YOUTUBE
+    title: "Automatizando API con Python Capítulo 1: Introducción"
+    link: https://www.youtube.com/watch?v=6r2M1FEMauw
+ alura-contents:
   - type: ARTICLE
-    title: "Consumindo a API do Github em Python"
-    link: https://www.alura.com.br/artigos/consumindo-a-api-do-github-em-python
-  - type: ARTICLE
-    title: "Como criar APIs em Python usando FastAPI"
-    link: https://www.alura.com.br/artigos/como-criar-apis-python-usando-fastapi
-  - type: COURSE
-    title: "Curso API com Django 3"
-    link: https://www.alura.com.br/curso-online-api-django-3-testes-documentacao
+    title: "Buscando tweets con Python"
+    link: https://www.aluracursos.com/blog/buscando-tweets-con-python
+

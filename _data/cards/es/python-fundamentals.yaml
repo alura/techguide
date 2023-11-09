@@ -2,71 +2,78 @@ name: Python - Fundamentos
 logo: 
 short-description:
 key-objectives:
-  - Python é uma linguagem de programação de alto nível, de uso geral, amplamente utilizada em aplicações web, desenvolvimento de software, ciência de dados e Machine Learning. Sua filosofia de projeto enfatiza a legibilidade do código com o uso de indentação significativa. Python é dinamicamente tipada e tem um garbage collector.
-  - Conhecer os tipos primitivos
-  - Declarar variáveis, considerando os diferentes tipos
-  - Usar estruturas condicionais ('if', 'else')
-  - Conhecer os operadores de atribuição e comparação
-  - Usar estruturas de repetição e laços ('while', 'for')
-  - Usar funções, passando parâmetros e argumentos
-  - Manipular métodos
-  - Manipular arrays e listas
-  - Obter dados de uma API
-  - Criar construtores
-  - Funções anônimas
+- Python es un lenguaje de programación de alto nivel de uso general, ampliamente utilizado en aplicaciones web, desarrollo de software, ciencia de datos y aprendizaje automático. Su filosofía de diseño se centra en la legibilidad del código mediante el uso de sangría significativa. Python es de tipado dinámico y cuenta con un recolector de basura.
+- Los tipos de datos primitivos.
+- Declarar variables, teniendo en cuenta los diferentes tipos.
+- Utilizar estructuras condicionales ('if', 'else').
+- Conocer los operadores de asignación y comparación.
+- Usar estructuras de repetición y bucles ('while', 'for').
+- Utilizar funciones, pasando parámetros y argumentos.
+- Manipular métodos.
+- Manipular arrays y listas.
+- Obtener datos de una API.
+- Crear constructores.
+- Utilizar funciones anónimas.
 aditional-objectives:
   - Manipular objetos JSON
-  - Lidar com datas
+  - Lidiar con fechas
 contents:
   - type: SITE
-    title: "Documentação Python"
-    link: https://docs.python.org/pt-br/3/tutorial/
+    title: "Documentación Python"
+    link: https://docs.python.org/es/3/tutorial/
+  - type: SITE
+    title: "¿Qué es Python? - AWS"
+    link: https://aws.amazon.com/es/what-is/python/
   - type: ARTICLE
-    title: "Programação | Python — Parte 1"
-    link: https://medium.com/turing-talks/turing-talks-4-python-parte-1-29b8d9efd0a5
+    title: "El Manual de Python"
+    link: https://www.freecodecamp.org/espanol/news/el-manual-de-python/
   - type: ARTICLE
-    title: "Introdução ao Python"
-    link: https://medium.com/@goularteduarda.a/introdu%C3%A7%C3%A3o-ao-python-d30c29eba0d6
+    title: "Variables y tipos de datos básicos en Python"
+    link: https://soka.gitlab.io/blog/post/2022-07-19-python-vars-intro-numbers/
+  - type: ARTICLE
+    title: "Sentencia If Else de Python: Explicación de las sentencias condicionales"
+    link: https://www.freecodecamp.org/espanol/news/sentencia-if-else-de-python-explicacion-de-las-sentencias-condiciones/
+  - type: ARTICLE
+    title: "Pasos iniciales para utilizar la biblioteca Requests de Python"
+    link: https://www.digitalocean.com/community/tutorials/how-to-get-started-with-the-requests-library-in-python-es
   - type: YOUTUBE
-    title: "Dabieu: Introdução à programação com Python - Conceitos Básicos"
-    link: https://www.youtube.com/watch?v=uKq3Scxz0cU
+    title: "Manejo de entrada y salida de datos | Curso de Python desde cero 🐍"
+    link: https://www.youtube.com/watch?v=Sei1sItfocw
   - type: YOUTUBE
-    title: "Eduardo Mendes: Curso introdutório de Python"
-    link: https://www.youtube.com/watch?v=yTQDbqmv8Ho
+    title: "CURSO de PYTHON 2020 🐍 CONSTRUCTORES"
+    link: https://www.youtube.com/watch?v=ElObT5rOx2M
+  - type: YOUTUBE
+    title: "Curso Python 🐍| Tipos de datos en Python, Enteros, Float, String, Booleanos 🔢🔡"
+    link: https://www.youtube.com/watch?v=R3eQs-AsB_w
 alura-contents:
   - type: ARTICLE
-    title: "O que é Python? História, Sintaxe e um Guia para iniciar na Linguagem"
-    link: https://www.alura.com.br/artigos/python
-  - type: PODCAST
-    title: "Hipsters.tech: Python – Hipsters 122"
-    link: https://www.hipsters.tech/python-hipsters-122/
-  - type: PODCAST
-    title: "Hipsters.tech: Python Fluente – Hipsters Ponto Tech 179"
-    link: https://www.hipsters.tech/python-fluente-hipsters-ponto-tech-179/
+    title: "Python - Una introducción al Lenguaje"
+    link: https://www.aluracursos.com/blog/python-una-introduccion-al-lenguaje
+  - type: ARTICLE
+    title: "¿Qué es Python? Historia, sintaxis y una guía para iniciarse en el lenguaje"
+    link: https://www.aluracursos.com/blog/que-es-python-historia-guia-para-iniciar
+  - type: ARTICLE
+    title: "Trabajando con precisión en números decimales en Python"
+    link: https://www.aluracursos.com/blog/precision-numeros-decimales-python
+  - type: ARTICLE
+    title: "Python datetime: trabajando con fechas"
+    link: https://www.aluracursos.com/blog/python-datetime-trabajando-con-fechas
+  - type: ARTICLE
+    title: "Listas en Python: operaciones básicas"
+    link: https://www.aluracursos.com/blog/listas-de-python-operaciones-basicas
+  - type: ARTICLE
+    title: "¿Cómo comparar objetos en Python?"
+    link: https://www.aluracursos.com/blog/como-comparar-objetos-en-python
   - type: YOUTUBE
-    title: "Alura: A linguagem Python - Alura Live 94"
-    link: https://www.youtube.com/watch?v=Nbt0eQHChoI
-  - type: YOUTUBE
-    title: "Alura: O que é Python?"
-    link: https://www.youtube.com/watch?v=-LATVnPcvHI
-  - type: ARTICLE
-    title: "Python - Uma Introdução à Linguagem"
-    link: https://www.alura.com.br/artigos/python-uma-introducao-a-linguagem
-  - type: ARTICLE
-    title: "Python: Trabalhando com precisão em números decimais"
-    link: https://www.alura.com.br/artigos/precisao-numeros-decimais-python
-  - type: ARTICLE
-    title: "Listas em Python: operações básicas"
-    link: https://www.alura.com.br/artigos/listas-no-python
-  - type: ARTICLE
-    title: "Como comparar objetos no Python?"
-    link: https://www.alura.com.br/artigos/como-comparar-objetos-no-python
-  - type: ARTICLE
-    title: "Python datetime: Lidando com datas e horários"
-    link: https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-python
+    title: "Descubre el poder de Python: El lenguaje de programación que revoluciona la industria"
+    link: https://www.youtube.com/watch?v=BxcMMgmLKTU
   - type: COURSE
-    title: "Curso Python: começando com a linguagem"
-    link: https://cursos.alura.com.br/course/python-introducao-a-linguagem
+    title: "Curso de Python: comenzando con el lenguaje"
+    link: https://www.aluracursos.com/curso-online-python-comenzando-con-lenguaje
   - type: COURSE
-    title: "Formação Python e orientação a objetos"
-    link: https://cursos.alura.com.br/formacao-Python-linguagem
+    title: "Curso de Python: funciones incorporadas"
+    link: https://app.aluracursos.com/course/python-funciones-incorporadas
+  - type: COURSE
+    title: "Formación Aprenda a programar en Python con orientación a objetos"
+    link: https://www.aluracursos.com/formacion-lenguaje-python
+

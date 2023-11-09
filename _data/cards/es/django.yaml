@@ -2,57 +2,63 @@ name: Django
 logo: 
 short-description:
 key-objectives:
-  - Django é um framework web Python de alto nível que permite o rápido desenvolvimento de sites seguros e de fácil manutenção.
-  - Criar aplicações web
-  - Entender a arquitetura de uma aplicação feita com Django
-  - Criar o admin de uma página
-  - Utilizar templates e rotas
-  - Criar formulários
+ - Django es un framework web de alto nivel en Python que permite el rápido desarrollo de sitios web seguros y de fácil mantenimiento.
+ - Crear una aplicación web
+ - Comprender la arquitectura de una aplicación desarrollada con Django
+ - Crear el panel de administración de una página
+ - Utilizar plantillas y rutas
+ - Crear formularios
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Documentação Django"
-    link: https://docs.djangoproject.com/pt-br/4.1/
+    title: "Documentación de Django"
+    link: https://docs.djangoproject.com/es/4.1/
   - type: SITE
-    title: "MDN Web Docs: Introdução ao Django"
-    link: https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Django/Introduction
+    title: "Introducción a Django"
+    link: https://developer.mozilla.org/es/docs/Learn/Server-side/Django/Introduction
+  - type: SITE
+    title: "Framework Web Django"
+    link: https://developer.mozilla.org/es/docs/Learn/Server-side/Django
+  - type: SITE
+    title: "¿Qué es Django?"
+    link: https://aws.amazon.com/es/what-is/django/
+  - type: SITE
+    title: "Tutorial Django: El Sitio Web de La Biblioteca Local"
+    link: https://developer.mozilla.org/es/docs/Learn/Server-side/Django/Tutorial_local_library_website
   - type: ARTICLE
-    title: "Introdução ao Django — Começando um projeto do zero"
-    link: https://medium.com/@thais.ribeiro/introdu%C3%A7%C3%A3o-ao-django-come%C3%A7ando-um-projeto-do-zero-57a953e0614b
+    title: "Tutorial básico de Django"
+    link: https://medium.com/@crisnieromero/tutorial-básico-de-django-parte-1-introducción-y-preparación-del-entorno-c3f0031a6ca2
+  - type: ARTICLE
+    title: "¿Para qué se utiliza Django de Python? 5 Razones claves por las que uso el Framework Django para Proyectos de Clientes"
+    link: https://www.freecodecamp.org/espanol/news/para-que-se-utiliza-django-de-python-5-razones-claves-por-las-que-uso-el-framework-django-para-proyectos/
+  - type: ARTICLE
+    title: "Flask vs Django en 2022: ¿Qué marco de Python elegir?"
+    link: https://cynoteck.com/es/blog-post/flask-vs-django/
+  - type: ARTICLE
+    title: "Comenzando con Django"
+    link: https://medium.com/@devsar/comenzando-con-django-e10b26ce306f
+  - type: ARTICLE
+    title: "Modelos en Django"
+    link: https://medium.com/@devsar/modelos-en-django-381530c5fc3c
+  - type: ARTICLE
+    title: "Forms en Django"
+    link: https://medium.com/@devsar/clase-03-forms-2d827e3ca677
+  - type: ARTICLE
+    title: "Templates y recursos estáticos"
+    link: https://medium.com/@devsar/clase-04-templates-y-recursos-estaticos-bcee8d7d1c8
+  - type: ARTICLE
+    title: "Diferencias entre default, null y blank en Django"
+    link: https://frankgalandev.com/diferencias-entre-default-null-y-blank-en-django/
+  - type: ARTICLE
+    title: "ORM de Django y QuerySets"
+    link: https://tutorial.djangogirls.org/es/django_orm/
   - type: YOUTUBE
-    title: "Samuel Gonçalves: O que é o Django Framework - Para iniciantes"
-    link: https://www.youtube.com/watch?v=NnxhXfkuJlY
+    title: "¿Qué es Django y porque importa? - Django y Django REST Framework"
+    link: https://www.youtube.com/watch?v=B8OlRdYwNlA
   - type: YOUTUBE
-    title: "Thiago Kaiser: Como funciona o Django - Modelo MTV"
-    link: https://www.youtube.com/watch?v=2XaZXJ5P81k
+    title: "Django Python Primeros Pasos"
+    link: https://www.youtube.com/watch?v=VzlqWa4I7yU
+  - type: YOUTUBE
+    title: "Cómo crear un API REST con Django"
+    link: https://www.youtube.com/watch?v=XqRBb_4CLS4
 alura-contents:
-  - type: ARTICLE
-    title: "Django: instalação, configuração e escrevendo seu primeiro app"
-    link: https://www.alura.com.br/artigos/django-instalacao-configuracao-e-escrevendo-seu-primeiro-app
-  - type: ARTICLE
-    title: "Django ou Flask: Características, semelhanças e diferenças"
-    link: https://www.alura.com.br/artigos/django-ou-flask
-  - type: ARTICLE
-    title: "Fazendo o deploy de uma aplicação Django"
-    link: https://www.alura.com.br/artigos/fazendo-o-deploy-de-uma-aplicacao-django
-  - type: ARTICLE
-    title: "Django: QuerySets e ORM"
-    link: https://www.alura.com.br/artigos/django-query-sets-e-orm
-  - type: ARTICLE
-    title: "Django: Diferença entre null e blank"
-    link: https://www.alura.com.br/artigos/django-diferenca-entre-null-e-blank
-  - type: ARTICLE
-    title: "Django e Django Rest: Diferenças e aplicações"
-    link: https://www.alura.com.br/artigos/django-django-rest-diferencas
-  - type: YOUTUBE
-    title: "Alura: Python na web com Django"
-    link: https://www.youtube.com/watch?v=URfpp5s_CkI
-  - type: YOUTUBE
-    title: "Alura: Criando uma API com Django - Hipsters Ponto Talks 11"
-    link: https://www.youtube.com/watch?v=BKChTO8GADk
-  - type: YOUTUBE
-    title: "Alura: Para o que serve o Django?"
-    link: https://www.youtube.com/watch?v=vhv82UCIt3k
-  - type: COURSE
-    title: "Formação Django"
-    link: https://cursos.alura.com.br/formacao-django

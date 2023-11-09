@@ -1,48 +1,51 @@
-name: Python - Testes
+name: Python - Pruebas
 logo: 
 short-description:
 key-objectives:
-  - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
-  - Usar testes unitários
-  - Usar testes de integração
-  - Usar testes de comportamento (behavior)
-  - Usar mocks
+ - Las pruebas de software son el proceso de evaluación y verificación de que un software realmente hace lo que debería hacer. Los beneficios de las pruebas incluyen la prevención de errores, la reducción de los costos de desarrollo y la mejora del rendimiento
+ - Pruebas unitarias
+ - Pruebas de integración
+ - Pruebas de comportamiento (behavior)
+ - Mocks
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Documentação Python - Framework de Testes Unitários"
-    link: https://docs.python.org/pt-br/dev/library/unittest.html
+    title: "Configuración de pruebas unitarias para código de Python"
+    link: https://learn.microsoft.com/es-es/visualstudio/python/unit-testing-python-in-visual-studio?view=vs-2022
+  - type: SITE
+    title: "unittest — Framework de pruebas unitarias"
+    link: https://docs.python.org/es/dev/library/unittest.html
   - type: ARTICLE
-    title: "Testes Unitários: Fundamentos e Qualidade de Software!"
-    link: https://dev.to/wnqueiroz/testes-unitarios-fundamentos-e-qualidade-de-software-5af0
+    title: "Proyectos de prueba en Python"
+    link: https://www.linkedin.com/pulse/proyectos-de-prueba-en-python-calltek/?trk=article-ssr-frontend-pulse_more-articles_related-content-card&originalSubdomain=es
   - type: ARTICLE
-    title: "Tutorial: Testes Unitários e Python — Parte I"
-    link: https://medium.com/mercos-engineering/tutorial-testes-unit%C3%A1rios-e-python-parte-i-bb77182db93f
+    title: "Probando una aplicación web en Python - Parte 0: Introducción"
+    link: https://medium.com/contraslashsas/probando-una-aplicación-web-en-python-parte-0-9273f5a25938
   - type: ARTICLE
-    title: "Testes Unitários e Python — Parte II: Mocks, APIs & Star Wars"
-    link: https://medium.com/mercos-engineering/testes-unit%C3%A1rios-e-python-parte-ii-mocks-apis-star-wars-ou-como-consumir-uma-api-rest-3a24d153db59
+    title: "Pruebas unitarias con el módulo unittest de Python"
+    link: https://geekflare.com/es/unit-testing-with-python-unittest/
   - type: ARTICLE
-    title: "Testes em Python - Parte 1: Introdução"
-    link: https://dev.to/womakerscode/testes-em-python-parte-1-introducao-43ei
+    title: "Testing en lenguaje natural con Gherkin y Behave"
+    link: https://blog.adrianistan.eu/testing-lenguaje-natural-behave-python
+  - type: ARTICLE
+    title: "Automatización de Pruebas con Selenium y Python"
+    link: https://www.enmilocalfunciona.io/automatizacion-de-pruebas-con-selenium-y-python/
+  - type: ARTICLE
+    title: "Cómo acelerar los ciclos de prueba lentos con Selenium"
+    link: https://hackernoon.com/es/como-acelerar-ciclos-de-prueba-lentos-con-selenium
   - type: YOUTUBE
-    title: "pythonando: Introdução a testes unitários com Python e Django"
-    link: https://www.youtube.com/watch?v=cEXt8hDyKQw
+    title: "Creación de datos mock con Python"
+    link: https://www.youtube.com/watch?v=iIZX8sxv3SU
   - type: YOUTUBE
-    title: "Programando Com Roger: Criando testes automatizados com Python usando unittest"
-    link: https://www.youtube.com/watch?v=F3qKoXicgIo
+    title: "Probando Python con mocks (simulaciones). Monkey patching, herencia en mocks y librería Doublex"
+    link: https://www.youtube.com/watch?v=t3C6kfHwrOE
   - type: YOUTUBE
-    title: "Programador Lhama: Python Conceitos Rápidos - Testes Unitários"
-    link: https://www.youtube.com/watch?v=CwaHM-KLKC8
+    title: "Python Avanzado: Pruebas de Integración y Funcionales | Unittest y Pytest"
+    link: https://www.youtube.com/watch?v=0t_aFxGCcEs
+  - type: YOUTUBE
+    title: "TDD - Test Driving Development (Pruebas Unitarias) en Python"
+    link: https://www.youtube.com/watch?v=cjN-XYHtmfI
 alura-contents:
   - type: ARTICLE
-    title: "Tipos de testes: quais os principais e por que utilizá-los?"
-    link: https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los
-  - type: PODCAST
-    title: "Hipsters.tech: Testes Automatizados - Hipsters 51"
-    link: https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535
-  - type: YOUTUBE
-    title: "Alura: Pirâmide de Testes"
-    link: https://www.youtube.com/watch?v=gVJ1Lap-JYA
-  - type: COURSE
-    title: "Curso Python e TDD: explorando testes unitários"
-    link: https://cursos.alura.com.br/course/python-tdd-explorando-testes-unitarios
+    title: "Tipos de pruebas: ¿cuáles son las principales y por qué utilizarlas?"
+    link: https://www.aluracursos.com/blog/tipos-de-pruebas-cual-utilizar
