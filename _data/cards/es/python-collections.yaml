@@ -1,0 +1,57 @@
+name: Python - Colecciones
+logo: 
+short-description:
+key-objectives:
+ - Una colección representa un grupo de objetos, conocidos como sus elementos. Son como contenedores que agrupan varios elementos en una única unidad. Algunas colecciones permiten la duplicación de elementos y otras no. Algunas están ordenadas y otras no lo están.
+ - Aprender a usar listas y tuplas
+ - Aprovechar el polimorfismo en las colecciones
+ - Utilizar conjuntos y diccionarios.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Listas en Python, uso y creación"
+    link: https://www.linkedin.com/pulse/listas-en-python-uso-y-creación-alejandro-alomia/?originalSubdomain=es
+  - type: ARTICLE
+    title: "Conjuntos, sets en Python"
+    link: https://atareao.es/pyldora/conjuntos-sets-en-python/
+  - type: ARTICLE
+    title: "Diccionarios, Tuplas y Sets"
+    link: https://makeitrealcamp.gitbook.io/guias-de-make-it-real/python/diccionarios-tuplas-y-sets
+  - type: YOUTUBE
+    title: "Cómo hacer LISTAS 📒 en Python 🐍💻 #05 [Curso Python Data Science Español]"
+    link: https://www.youtube.com/watch?v=z0xmmJ3BEPE
+  - type: YOUTUBE
+    title: "Sets - 19 - Python tutorial en español"
+    link: https://www.youtube.com/watch?v=s3xbRvBaZcs
+  - type: YOUTUBE
+    title: "Diccionario de funciones - 28 - Python Intermedio tutorial en español"
+    link: https://www.youtube.com/watch?v=fkqeQUiVN-Q
+  - type: YOUTUBE
+    title: "Listas, Tuples, Sets, Strings y Diccionarios en PYTHON"
+    link: https://www.youtube.com/watch?v=CCUNuqqn7PQ
+
+alura-contents:
+  - type: ARTICLE
+    title: "Conociendo tuplas en Python"
+    link: https://www.aluracursos.com/blog/conociendo-las-tuplas-en-python
+  - type: ARTICLE
+    title: "Python: trabajando con diccionarios"
+    link: https://www.aluracursos.com/blog/python-trabajando-con-diccionarios
+  - type: ARTICLE
+    title: "Cómo hacer una copia de una lista en Python"
+    link: https://www.aluracursos.com/blog/como-hacer-una-copia-de-una-lista-en-python
+  - type: ARTICLE
+    title: "Comprensión de listas en Python"
+    link: https://www.aluracursos.com/blog/comprension-de-listas-en-python
+  - type: ARTICLE
+    title: "Ordenar listas en Python"
+    link: https://www.aluracursos.com/blog/ordenando-listas-en-python
+  - type: ARTICLE
+    title: "¿Append o Extend? Agregar elementos a la lista con Python"
+    link: https://www.aluracursos.com/blog/append-o-extend-agregar-elementos-a-la-lista-con-python
+  - type: COURSE
+    title: "Curso de Python Collections: colecciones y diccionarios"
+    link: https://www.aluracursos.com/curso-online-python-collections-colecciones-diccionarios
+  - type: COURSE
+    title: "Curso de Python Collections: listas y tuplas"
+    link: https://www.aluracursos.com/curso-online-python-collections-listas-tuplas
