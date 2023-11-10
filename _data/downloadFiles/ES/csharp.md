@@ -62,8 +62,8 @@
    - Realizar consultas
 - [ ] **Estructura de Datos**:
    - En el contexto de los ordenadores, una estructura de datos es una forma específica de almacenar y organizar los datos en la memoria del ordenador para que esos datos puedan ser fácilmente recuperados y utilizados de forma eficiente cuando sea necesario posteriormente.
-   - Conocer las principales estructuras de datos.
-   - Implementar las principales estructuras de datos.
+   - Conocer las principales estructuras de datos
+   - Implementar las principales estructuras de datos
 ## Nivel 2
 - [ ] **CLR**:
    - Common Language Runtime (CLR) es el componente de máquina virtual de la plataforma .NET de Microsoft que administra la ejecución de programas .NET.

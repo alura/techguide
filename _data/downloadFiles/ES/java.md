@@ -50,8 +50,8 @@
    - Conocer la java.io
 - [ ] **Estructura de Datos**:
    - En el contexto de los ordenadores, una estructura de datos es una forma específica de almacenar y organizar los datos en la memoria del ordenador para que esos datos puedan ser fácilmente recuperados y utilizados de forma eficiente cuando sea necesario posteriormente.
-   - Conocer las principales estructuras de datos.
-   - Implementar las principales estructuras de datos.
+   - Conocer las principales estructuras de datos
+   - Implementar las principales estructuras de datos
 ## Nivel 2
 - [ ] **JVM**:
    - Máquina virtual Java (en inglés, Java Virtual Machine, JVM) es un programa que carga y ejecuta las aplicaciones Java, convirtiendo los bytecodes en código ejecutable de máquina. JVM es responsable de administrar las aplicaciones a medida que se ejecutan. Gracias a la máquina virtual Java, los programas escritos en Java pueden funcionar en cualquier plataforma de hardware y software que tenga una versión de JVM, haciendo así que estas aplicaciones sean independientes de la plataforma donde funcionan.

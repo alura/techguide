@@ -103,8 +103,8 @@
 ## Nivel 3
 - [ ] **Estructura de Datos**:
    - En el contexto de los ordenadores, una estructura de datos es una forma específica de almacenar y organizar los datos en la memoria del ordenador para que esos datos puedan ser fácilmente recuperados y utilizados de forma eficiente cuando sea necesario posteriormente.
-   - Conocer las principales estructuras de datos.
-   - Implementar las principales estructuras de datos.
+   - Conocer las principales estructuras de datos
+   - Implementar las principales estructuras de datos
 - [ ] **Conceptos de Orientación a Objetos**:
    - La Programación Orientada a Objetos es un paradigma de programación de software basado en la composición e interacción entre diversas unidades llamadas 'objetos' y las clases, que contienen una identidad, propiedades y métodos. Se basa en cuatro componentes de la programación - abstracción digital, encapsulación, herencia y polimorfismo.
    - Cómo funcionan los objetos
