@@ -1,0 +1,31 @@
+name: Python - Multiprocesamiento
+logo: 
+short-description:
+key-objectives:
+ - En Python, el módulo de multiprocesamiento incluye una API muy simple e intuitiva para dividir el trabajo entre varios procesos.
+ - Ejecutar procesos en paralelo
+ - Conocer la clase Pool
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Piscinas de procesos (Process Pools) - Documentación Python"
+    link: https://docs.python.org/es/3/library/multiprocessing.html#module-multiprocessing.pool
+  - type: ARTICLE
+    title: "Comprender el multiprocesamiento y los subprocesos múltiples en Python"
+    link: https://hackernoon.com/es/entender-multiprocesamiento-y-multihilo-en-python
+  - type: ARTICLE
+    title: "Paralelismo y concurrencia en Python"
+    link: https://forum.huawei.com/enterprise/es/paralelismo-y-concurrencia-en-python/thread/667239418785841152-667212895836057600
+  - type: ARTICLE
+    title: "Azure Cognitive Services utilizando multiprocesamiento (python)"
+    link: https://medium.com/@alvarado22daniela/azure-cognitive-services-utilizando-multiprocesamiento-python-d4d9df92ca9c
+  - type: YOUTUBE
+    title: "Multiprocessos - 11 - Python Avanzado tutorial en español"
+    link: https://www.youtube.com/watch?v=ptiAjwyqm_s
+  - type: YOUTUBE
+    title: "Python Multiprocessing"
+    link: https://www.youtube.com/watch?v=v9a3HkKp7jQ
+  - type: YOUTUBE
+    title: "Multiprocessing Python en Español - Función Pool"
+    link: https://www.youtube.com/watch?v=LiTcHW0StzY
+alura-contents:

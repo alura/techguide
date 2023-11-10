@@ -1,0 +1,51 @@
+name: Django Rest Framework
+logo: 
+short-description:
+key-objectives:
+ - Django REST Framework es un conjunto de herramientas poderosas y flexibles para la construcción de APIs.
+ - Desarrollar APIs
+ - Trabajar con modelos, serializadores y vistas
+ - Incluir filtros, búsquedas y ordenación
+ - Limitar el número de solicitudes
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Django REST framework"
+    link: https://www.django-rest-framework.org
+  - type: ARTICLE
+    title: "Introducción a Django REST framework"
+    link: https://www.paradigmadigital.com/dev/introduccion-django-rest-framework/
+  - type: ARTICLE
+    title: "Entendiendo Django Rest Framework"
+    link: https://4geeks.com/es/lesson/django-rest-framework-es
+  - type: ARTICLE
+    title: "Construir un API REST con Django REST Framework y APIView"
+    link: https://davidcasr.medium.com/construir-un-api-rest-con-django-rest-framework-y-apiview-5ea4b2823307
+  - type: ARTICLE
+    title: "Proyecto API con Django Rest Framework"
+    link: https://docs.hektorprofe.net/academia/django/api-rest-framework/
+  - type: ARTICLE
+    title: "Testeando endpoints con Django Rest Framework"
+    link: https://dev.to/nahuelsegovia/testeando-endpoints-con-django-rest-framework-1nbm
+  - type: ARTICLE
+    title: "Registro y autenticación con Django Rest Framework"
+    link: https://cosasdedevs.com/posts/registro-y-autenticacion-con-django-rest-framework/
+  - type: ARTICLE
+    title: "Algunos tips de Django Rest Framework que quizás no conocías"
+    link: https://jairoandres.com/algunos-tips-de-drf-que-quizas-no-conocias/
+  - type: YOUTUBE
+    title: "Introducción a Django Rest Framework"
+    link: https://www.youtube.com/watch?v=MMFBD2Eoeuk
+  - type: YOUTUBE
+    title: "Blog con Django Rest Framework + VueJS"
+    link: https://www.youtube.com/watch?v=A12qkUvrzK4
+  - type: YOUTUBE
+    title: "Tu Propio Admin de Django"
+    link: https://www.youtube.com/watch?v=RuDkWKmO9rM&list=PLMbRqrU_kvbRzgD2s7JHvJxGs6FdvFjg9&index=14
+  - type: YOUTUBE
+    title: "Django Rest Framework | Autenticacion via Token - Login y Logout"
+    link: https://www.youtube.com/watch?v=kh4YFQrvVyE&list=PLMbRqrU_kvbRzgD2s7JHvJxGs6FdvFjg9&index=7
+  - type: YOUTUBE
+    title: "Creando una aplicación con Django REST Framework y VUE js"
+    link: https://www.youtube.com/playlist?list=PLxooeC3-xaNfS7jgZvVUM-kUcrUbgHTWJ
+alura-contents:
