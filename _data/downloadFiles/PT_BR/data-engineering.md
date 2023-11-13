@@ -141,6 +141,8 @@
    - No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.
    - Conhecer as principais estruturas de dados
    - Implementar as principais estruturas de dados
+- [ ] **Analytics by Design**:
+   - Analytics By Design é uma metodologia para melhorar a prontidão analítica dos projetos. Um projeto pronto para análise permitirá que cientistas de dados, analistas e até mesmo equipes de negócios comecem a analisar e obtenham insights com mais rapidez.
 ## Habilidade Auxiliar: Dados e Machine Learning 
 - [ ] **Business Intelligence (BI) - Fundamentos**:
    - Business Intelligence é um conjunto de teorias, metodologias, processos e tecnologias que possibilitam a transformação dos dados “crus” em informações extremamente relevantes para tomada de decisão de uma empresa.
