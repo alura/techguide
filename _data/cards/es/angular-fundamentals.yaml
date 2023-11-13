@@ -2,38 +2,44 @@ name: Angular - Fundamentos
 logo: 
 short-description:
 key-objectives:
-  - Angular é uma framework de construção de aplicações e plataforma de desenvolvimento construído em TypeScript para criar aplicações eficientes e sofisticadas de página única (SPA).
-  - Construir interfaces utilizando HTML, CSS e TypeScript
-  - Criar aplicações SPA
-  - Construir aplicações web, mobile ou desktop
-  - Integrar dados com API’s REST
-  - Utilizar a composição para criar componentes reutilizáveis
-  - Utilizar serviços do tipo Resolver
-  - Manipular requisições criando serviços do tipo Interceptor
+ - Angular es un framework para construir aplicaciones y una plataforma de desarrollo construida en TypeScript para crear aplicaciones eficientes y sofisticadas de página única (SPA).
+ - Construir interfaces utilizando HTML, CSS y TypeScript
+ - Crear aplicaciones SPA
+ - Construir aplicaciones web, mobile o desktop
+ - Integrar datos con API REST
+ - Utilizar la composición para crear componentes reutilizables
+ - Utilizar servicios de tipo Resolver
+ - Manipular solicitudes creando servicios de tipo Interceptor
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Documentação Angular (inglês)"
+    title: "Introduction to the Angular docs"
     link: https://angular.io/docs
+  - type: SITE
+    title: "Introducción a la Documentación de Angular"
+    link: https://docs.angular.lat/docs
   - type: ARTICLE
-    title: "Bê-á-bá do Angular"
-    link: https://belmirofss.medium.com/b%C3%AA-%C3%A1-b%C3%A1-do-angular-8f23a109b4fc
+    title: "Todo sobre Angular, la clave para acelerar tu desarrollo web"
+    link: https://www.thepowermba.com/es/blog/todo-sobre-angular
   - type: ARTICLE
-    title: "Angular I — Iniciando um projeto do zero"
-    link: https://medium.com/@iagomachado/angular-i-iniciando-um-projeto-do-zero-5290da9fa90e
+    title: "Componentes en Angular"
+    link: https://medium.com/notasdeangular/componentes-en-angular-f25138b00c83
   - type: YOUTUBE
-    title: "Mario Souto - Dev Soutinho: Como APRENDER um FRAMEWORK Front End? Como eu aprendi Angular?"
-    link: https://www.youtube.com/watch?v=mMMqMk2buzs
+    title: "Curso Angular en Español - Tutorial de Angular desde cero ▶️🤯"
+    link: https://www.youtube.com/watch?v=i-oYrcNtc2s
   - type: YOUTUBE
-    title: "Loiane Groner: Curso Angular 2"
-    link: https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G
+    title: "Diferencias entre Angular y AngularJs 2020 | Son lo mismo?"
+    link: https://www.youtube.com/watch?v=fMDiF6cXD28
+  - type: YOUTUBE
+    title: "Programación Reactiva 👀 4 conceptos para empezar"
+    link: https://www.youtube.com/watch?v=kkqn2Z2tl1k
 alura-contents:
+  - type: ARTICLE
+    title: "Creando aplicaciones Angular con Angular CLI"
+    link: https://www.aluracursos.com/blog/creando-aplicaciones-con-angular-cli
   - type: YOUTUBE
-    title: "Alura: O que é Angular e AngularJS?"
-    link: https://www.youtube.com/watch?v=LFlNU30u7d8
-  - type: YOUTUBE
-    title: "Alura: Programação Reativa - Alura Live 54"
-    link: https://www.youtube.com/watch?v=N0ie4xe48Ng
+    title: "Frameworks de Front End - Edición especial"
+    link: https://www.youtube.com/watch?v=UNeKzI2WHgQ&ab_channel=AluraLatam
   - type: COURSE
-    title: "Formação Angular"
-    link: https://www.alura.com.br/formacao-angular
+    title: "Formación Angular"
+    link: https://app.aluracursos.com/formacion-angular

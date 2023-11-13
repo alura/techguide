@@ -2,56 +2,50 @@ name: Node.js - Fundamentos
 logo: 
 short-description:
 key-objectives:
-  - Node.js é um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem de forma autônoma, sem depender de um navegador.
-  - Conhecer operações bloqueantes e não-bloqueantes
-  - Aprender o conceito de laço de eventos (event loop)
-  - Aprender a usar as bibliotecas do Node.js, como 'net', 'fs', 'http', 'path', entre outras
-  - Entender como Timers funcionam
+ - Node.js es un entorno de ejecución de JavaScript que permite ejecutar aplicaciones desarrolladas en este lenguaje de manera autónoma, sin depender de un navegador.
+ - Aprender sobre operaciones bloqueantes y no bloqueantes
+ - Comprender el concepto de bucle de eventos (event loop)
+ - Aprender a utilizar las bibliotecas de Node.js, como 'net', 'fs', 'http', 'path', entre otras
+ - Entender cómo funcionan los temporizadores (Timers)
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Introdução ao Node.js - documentação oficial"
-    link: https://nodejs.dev/pt/learn/
-  - type: SITE
-    title: "Sobre Node.js"
-    link: https://nodejs.org/pt-br/about/
+    title: "Introduction to Node.js"
+    link: https://nodejs.dev/en/learn/
   - type: ARTICLE
-    title: "O que é Node.js? Guia para iniciantes"
-    link: https://tecnoblog.net/responde/o-que-e-node-js-guia-para-iniciantes/
+    title: "Qué es Node.js: Casos de uso comunes y cómo instalarlo"
+    link: https://www.hostinger.es/tutoriales/que-es-node-js
   - type: ARTICLE
-    title: "Introdução ao Node.js (Single-Thread, Event-Loop e mercado)"
-    link: https://fabiojanio.medium.com/introdu%C3%A7%C3%A3o-ao-node-js-single-thread-event-loop-e-mercado-46edd82c1faf
+    title: "Qué es Node.js y por qué debería usarlo"
+    link: https://kinsta.com/es/base-de-conocimiento/que-es-node-js/
   - type: ARTICLE
-    title: "net.js - Um pacote Node.JS para trabalhar com TCP"
-    link: https://blog.zerokol.com/2012/09/netjs-um-pacote-nodejs-para-trabalhar.html
+    title: "Cómo escribir código asíncrono en Node.js"
+    link: https://www.digitalocean.com/community/tutorials/how-to-write-asynchronous-code-in-node-js-es
   - type: ARTICLE
-    title: "Node — Como manipular arquivos usando FS"
-    link: https://thihenos.medium.com/node-crud-arquivos-142e3fb1892d
+    title: "Lectura de archivos con NodeJS y FS"
+    link: https://desarrolloweb.com/articulos/lectura-archivos-nodejs.html
   - type: ARTICLE
-    title: "Como criar um servidor Web em Node.js com o módulo HTTP"
-    link: https://www.digitalocean.com/community/tutorials/how-to-create-a-web-server-in-node-js-with-the-http-module-pt
+    title: "Crear servidor web HTTP en Node.js: Tutorial completo"
+    link: https://guru99.es/node-js-create-server-get-data/
   - type: ARTICLE
-    title: "O módulo de path do Node.js"
-    link: https://nodejs.reativa.dev/0047-node-module-path/index
-alura-contents:
+    title: "Módulo path en NodeJS"
+    link: https://desarrolloweb.com/articulos/modulo-path-nodejs
   - type: ARTICLE
-    title: "Node.JS: o que é, como funciona esse ambiente de execução JavaScript e um Guia para iniciar"
-    link: https://www.alura.com.br/artigos/node-js
-  - type: ARTICLE
-    title: "Node.js: definição, características, vantagens e usos possíveis"
-    link: https://www.alura.com.br/artigos/node-js-definicao-caracteristicas-vantagens-usos
+    title: "Objetos en Node.js y Javascript. Lo realmente importante"
+    link: https://www.pensemosweb.com/objetos-node-js-javascript-lo-realmente-importante/
+  - type: YOUTUBE
+    title: "¿Qué es Node.js? Breve explicación animada"
+    link: https://www.youtube.com/watch?v=xJzzu7MVZXw
+  - type: YOUTUBE
+    title: "¿Qué se puede hacer con Node.JS? - Analizando Tecnologías"
+    link: https://www.youtube.com/watch?v=_xL4oil0gQo
+  - type: YOUTUBE
+    title: "Curso de Node.JS Completo desde cero"
+    link: https://www.youtube.com/watch?v=yB4n_K7dZV8&list=PLUofhDIg_38qm2oPOV-IRTTEKyrVBBaU7&index=1
   - type: PODCAST
-    title: "Hipsters.tech: Node.js - Hipsters 19"
-    link: https://cursos.alura.com.br/extra/hipsterstech/node-js-hipsters-199-a356
-  - type: YOUTUBE
-    title: "Alura: O que é Node.js? | AluraMais"
-    link: https://www.youtube.com/watch?v=8VSTrZY8vwI
-  - type: YOUTUBE
-    title: "Alura: Ecossistema Node.js"
-    link: https://www.youtube.com/watch?v=2hrIwQWx9w4
+    title: "Pedro: Un mes con Node.JS"
+    link: https://www.ivoox.com/173-pedro-un-mes-node-js-audios-mp3_rf_66938337_1.html
+alura-contents:
   - type: COURSE
-    title: "Formação JavaScript para back-end"
-    link: https://cursos.alura.com.br/formacao-js-backend
-  - type: COURSE
-    title: "Curso Node.js: criando sua primeira biblioteca"
-    link: https://www.alura.com.br/curso-online-nodejs-criando-primeira-biblioteca
+    title: "Formación Aprenda a programar en JavaScript con enfoque en el Back-end"
+    link: https://www.aluracursos.com/formacion-js-backend
