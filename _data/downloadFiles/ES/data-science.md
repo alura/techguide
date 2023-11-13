@@ -39,8 +39,19 @@
    - Aprender modelos predictivos en R
 - [ ] **Estadísticas y Matemáticas - Fundamentos**:
    - Para aprender técnicas de análisis de datos, estadísticas, modelado en la práctica, escalar el crecimiento y brindar nuevas oportunidades, ya sea en la empresa para la que trabaja o en su propio negocio.
-   - En esta formacion aprendera utilizando el lenguaje Python y varias bibliotecas y herramientas específicas para estadísticas.
+   - En esta formacion aprenderás utilizando el lenguaje Python y varias bibliotecas y herramientas específicas para estadísticas.
    - Comprenderás cómo crear hipótesis y validarlas. De esta forma, podrá justificar los análisis realizados y mostrar a la empresa la importancia del papel del conocimiento en la estadística.
+   - Ecuaciones, funciones y límites
+   - Logaritmos
+   - Matrices, determinantes, vectores y espacio vectorial
+   - Derivadas e integrales
+   - Diferencia entre promedio, mediana y moda
+   - Distribución de frecuencia
+   - Varianza y desviación estándar
+   - Distribución binomial, de Poisson y normal
+   - Nivel e intervalo de confianza
+   - Técnicas de muestreo
+   - Regresión lineal
 - [ ] **Visualización de Datos**:
    - La visualización de datos es una expresión contemporánea de la comunicación visual que consiste en la representación visual de datos.
    - Mapear datos abstractos en representaciones visuales
@@ -159,7 +170,7 @@
    - Conocer el proceso de ETL
    - Realizar el modelado y estructuración de tablas en un almacén de datos
    - Crear vistas que tengan sentido
-   - Cómo conocer PowerBI
+   - Conocer PowerBI
 - [ ] **Storytelling con datos**:
    - Utilizar algoritmos y sistemas para extraer, organizar y analizar datos de diversas fuentes con el fin de detectar patrones y tomar decisiones comerciales
    - Las áreas de aplicación son infinitas, como en negocios, biología, medicina, ingeniería, etc.

@@ -169,6 +169,13 @@
    - Inspecting layout, system resources like processor, memory, and network
    - Debugging the app database and pre-compiled APK files
    - Analyzing the build with APK parser
+- [ ] **Android - Security and Monitoring**:
+   - As your project grows, it becomes more visible, attracting both a larger audience and potential attackers. Application security, from the earliest stages of development, is crucial to protecting the integrity of the project and the privacy of users. Adopting robust security practices and keeping up to date is essential to avoid threats and guarantee a safe experience for your company and its users
+   - Making sure you understand your project's needs
+   - Monitoring is fundamental to understanding how your application operates in production.
+   - Understanding the user flow and identifying possible funnels helps to improve your project strategy and can be a determining factor in the application's success.
+   - The ability to anticipate and predict problem scenarios before they affect the end user is a crucial factor.
+
 ## Habilidade Auxiliar: Infrastructure and good practices 
 - [ ] **Git & GitHub - Fundamentals**:
    - Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.

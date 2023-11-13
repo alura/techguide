@@ -1,0 +1,39 @@
+name: Pipelines y ETL 
+logo: 
+short-description:
+key-objectives:
+  - Pipelines y ETL (Extract, Transform, Load) son conceptos esenciales en el campo de la ingeniería de datos. Desempeñan un papel fundamental en la recolección, transformación e integración de datos. Comprender los fundamentos de estas áreas es esencial para aquellos que desean trabajar en la gestión y el procesamiento eficiente de grandes volúmenes de información.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "¿Qué es una canalización de datos?"
+    link: https://aws.amazon.com/es/what-is/data-pipeline/?nc1=h_ls
+  - type: SITE
+    title: "¿Cuál es la diferencia entre ETL y ELT?"
+    link: https://aws.amazon.com/es/compare/the-difference-between-etl-and-elt/
+  - type: SITE
+    title: "Extracción, transformación y carga de datos (ETL)"
+    link: https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/etl
+  - type: ARTICLE
+    title: "¿Qué son los pipelines de datos?"
+    link: https://www.hpe.com/mx/es/what-is/data-pipelines.html
+  - type: ARTICLE
+    title: "Aprende qué es una Pipeline de Datos"
+    link: https://oscarfmdc.medium.com/aprende-qué-es-una-pipeline-de-datos-aprenderbigdata-com-b22dc5c096ab
+  - type: ARTICLE
+    title: "ETL vs ELT ¿Cuáles son sus diferencias?"
+    link: https://aprenderbigdata.com/etl-vs-elt/
+  - type: ARTICLE
+    title: "Ingesta de Datos"
+    link: https://aitor-medrano.github.io/bigdata2122/apuntes/ingesta01.html
+  - type: ARTICLE
+    title: "Welcome to Apache NiFi"
+    link: https://medium.com/@joaquin.alejandro.pizarro/welcome-to-apache-nifi-3e7946237668
+  - type: ARTICLE
+    title: "Tutorial para conocer Apache Nifi"
+    link: https://todobi.com/tutorial-para-conocer-apache-nifi/
+  - type: YOUTUBE
+    title: "ETL vs ELT: ¿Cuál es la mejor opción para su equipo de datos? - Explicado de manera sencilla"
+    link: https://www.youtube.com/watch?v=Hp3cJH3U7HU
+alura-contents:
+ 

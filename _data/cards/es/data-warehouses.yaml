@@ -1,0 +1,54 @@
+name: Data Warehouses
+logo: 
+short-description:
+key-objectives:
+- Un Data Warehouse es un sistema de almacenamiento de datos diseñado para análisis de negocios que admite procesamiento de transacciones y consultas complejas. Él permite la consolidación de datos de varias fuentes, proporcionando un entorno unificado para el análisis de datos. Con recursos de normalización y limpieza de datos, garantiza la calidad y la consistencia de los datos almacenados. Soluciones populares de Data Warehouse incluyen Google BigQuery, Amazon Redshift y Snowflake, cada una con sus propias características y beneficios únicos.
+- Los Data Warehouses desempeñan un papel crucial en la ingeniería de datos. Proporcionan una infraestructura que facilita la gestión, el procesamiento y el análisis de grandes volúmenes de datos. Su capacidad para almacenar y procesar grandes cantidades de datos de varias fuentes permite análisis avanzados y apoyo a la toma de decisiones, lo que es fundamental en el actual escenario empresarial orientado por datos. Los ingenieros de datos diseñan, construyen y mantienen Data Warehouses para garantizar que los datos estén accesibles, seguros y listos para su análisis. Además, soluciones modernas de Data Warehouse, como BigQuery, Amazon Redshift y Snowflake, ofrecen capacidades de escalabilidad y flexibilidad para manejar el creciente volumen, velocidad y variedad de datos, lo que los hace aún más valiosos para la ingeniería de datos.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Conceptos relacionados con el almacenamiento de datos"
+    link: https://aws.amazon.com/es/data-warehouse/?nc1=h_ls
+  - type: SITE
+    title: "¿Qué es un almacén de datos?"
+    link: https://www.oracle.com/es/database/what-is-a-data-warehouse/
+  - type: SITE
+    title: "¿Qué es BigQuery?"
+    link: https://cloud.google.com/bigquery/docs/introduction?hl=es-419
+  - type: SITE
+    title: "¿Qué es Amazon Redshift?"
+    link: https://docs.aws.amazon.com/es_es/redshift/latest/mgmt/welcome.html
+  - type: SITE
+    title: "BigQuery - Ayuda de Google Cloud Platform Console"
+    link: https://support.google.com/cloud/answer/9113366?hl=es
+  - type: ARTICLE
+    title: "Data Warehouse: todo lo que necesitas saber sobre almacenamiento de datos"
+    link: https://www.powerdata.es/data-warehouse
+  - type: ARTICLE
+    title: "Cuándo elegir un data warehouse en lugar de una base de datos"
+    link: https://blog.bismart.com/cuando-elegir-data-warehouse-para-empresa
+  - type: ARTICLE
+    title: "Cómo crear un Datawarehouse desde cero"
+    link: https://www.victorgomezdejuan.com/2021/07/11/como-crear-un-datawarehouse-desde-cero/
+  - type: ARTICLE
+    title: "BigQuery: Introducción al Data Warehouse de Google Cloud"
+    link: https://aprenderbigdata.com/bigquery/
+  - type: YOUTUBE
+    title: "Introducción Básica a Google BigQuery | Almacena y consulta millones de registros"
+    link: https://www.youtube.com/watch?v=t2ajLvICKyg
+  - type: YOUTUBE
+    title: "Mejora tu Analítica con Amazon Redshift"
+    link: https://www.youtube.com/watch?v=6Ek4mIutGtA
+  - type: YOUTUBE
+    title: "Snowflake - La plataforma de datos en la nube"
+    link: https://www.youtube.com/watch?v=aC1mYcOhdFw
+  - type: YOUTUBE
+    title: "Workshop Data Studio & Bigquery para el Análisis de Datos"
+    link: https://www.youtube.com/watch?v=vTmNC927zlE
+  - type: PODCAST
+    title: "BigQuery : analizar datos nunca fue tan fácil"
+    link: https://open.spotify.com/episode/06PUxzXp48R82GFMy41rNm?si=1a967846a5344a7a
+  - type: PODCAST
+    title: "Analítica en AWS- Amazon Redshift"
+    link: https://open.spotify.com/episode/01fp5uXaiKF3eFq7YmrrDV?si=d65eedf2d2a44f00
+alura-contents:

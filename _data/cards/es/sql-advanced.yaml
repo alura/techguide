@@ -1,0 +1,39 @@
+name: SQL - Avanzado
+logo: 
+short-description:
+key-objectives:
+  - Conocer una variedad amplia de contenidos relacionados con bases de datos y el lenguaje SQL.
+  - Uso de triggers en SQL, lenguajes internos de sistemas de gestión de bases de datos (SGBD), modelado de datos y manipulación de consultas avanzadas.
+  - Utiliza los principales sistemas de gestión de bases de datos relacionales (Oracle, Microsoft SQL Server, PostgreSQL y MySQL, entre otros).
+  - Aprende sobre procedimientos, funciones, paquetes, optimización de bases de datos, seguridad y administración de las bases de datos.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Introducción a PL/SQL. Transacciones"
+    link: https://elbauldelprogramador.com/introduccion-plsql-transacciones/
+  - type: ARTICLE
+    title: "PL/SQL. Declaración de variables"
+    link: https://elbauldelprogramador.com/plsql-declaracion-de-variables/
+  - type: ARTICLE
+    title: "PL/SQL. Cursores"
+    link: https://elbauldelprogramador.com/plsql-cursores/
+  - type: ARTICLE
+    title: "PL/SQL. Disparadores o Triggers"
+    link: https://elbauldelprogramador.com/plsql-disparadores-o-triggers/
+  - type: YOUTUBE
+    title: "Curso de Base de Datos Oracle Database"
+    link: https://www.youtube.com/playlist?list=PL2Z95CSZ1N4H1cH3NZHfEUyKuxu7npxxz
+  - type: COURSE
+    title: "Curso de PostgreSQL"
+    link: https://edutin.com/curso-de-postgresql-4307
+alura-contents:
+  - type: COURSE
+    title: "Formación Modelado de datos"
+    link: https://app.aluracursos.com/formacion-modelado-de-datos
+  - type: COURSE
+    title: "Formación SQL con Microsoft SQL Server"
+    link: https://www.aluracursos.com/formacion-SQL-con-Microsoft-SQL-Server-2019
+  - type: COURSE
+    title: "Formación SQL con MySQL"
+    link: https://www.aluracursos.com/formacion-sql-con-mysql
+

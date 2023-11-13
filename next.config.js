@@ -7,6 +7,7 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  staticPageGenerationTimeout: 60 * 5,
   async redirects() {
     return redirects;
   },

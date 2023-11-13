@@ -74,8 +74,10 @@ expertise:
         priority: 5
       - vue-provide-inject:
         priority: 5
-#      - vue-capacitor:
-#        priority: 5
+      - vue-suspense:
+        priority: 5
+      - nativescript-vue:
+        priority: 5
 collaboration:
   - name: Infraestrutura e Back-end
     cards:

@@ -43,7 +43,7 @@ expertise:
       - android-architecture:
         priority: 10
       - android-core-app-quality:
-        priority: 6
+        priority: 6 
       - android-ci-cd:
         priority: 5
       - android-app-optimization:
@@ -53,6 +53,10 @@ expertise:
         optional: true
       - android-debugging:
         priority: 7
+      - android-security-monitoring:
+        priority: 7
+      - android-deployment:
+        priority: 6
 collaboration:
   - name: Infrastructure and good practices
     cards:

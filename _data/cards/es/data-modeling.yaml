@@ -1,0 +1,30 @@
+name: Modelado de datos
+logo:
+short-description:
+key-objectives:
+- El modelado de datos es una area esencial para la compreensión y organización de las informaciones en un sistema o base de datos.
+- En este conjunto de contenidos, aprederás las tecnicas y conceptos fundamentales para modelar datos de forma eficiente y estructurada, visando obtener informaciones relevantes para la toma de decisiones.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "¿Qué es el modelado de datos?"
+    link: https://aws.amazon.com/es/what-is/data-modeling/
+  - type: ARTICLE
+    title: "Modelamiento de Datos"
+    link: https://bookdown.org/paranedagarcia/database/modelamiento-de-datos.html
+  - type: ARTICLE
+    title: "MongoDB Arquitectura y modelo de datos"
+    link: https://sitiobigdata.com/2017/12/27/mongodb-arquitectura-y-modelo-de-datos/#
+  - type: ARTICLE
+    title: "Modelado de datos NoSQL"
+    link: https://aitor-medrano.github.io/iabd2223/sa/03modelado.html
+  - type: YOUTUBE
+    title: "Modelamiento de datos en 10 Minutos"
+    link: https://www.youtube.com/watch?v=brXdwK_w5So
+  - type: COURSE
+    title: "Modelado de datos con Power BI"
+    link: https://learn.microsoft.com/es-es/training/paths/model-data-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm
+alura-contents:
+  - type: COURSE
+    title: "Formación Modelado de datos"
+    link: https://app.aluracursos.com/formacion-modelado-de-datos

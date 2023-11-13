@@ -167,6 +167,12 @@
    - Inspecionar o Layout, recursos do sistema como processador, memória e rede
    - Depurar o banco de dados do app e arquivos APKs pré-compilados
    - Analisar o build com o analizador de APK
+- [ ] **Android - Segurança e Monitoramento**:
+   - À medida que seu projeto cresce, ele se torna mais visível, atraindo tanto um público maior quanto potenciais invasores. A segurança do aplicativo, desde as fases iniciais de desenvolvimento, é crucial para proteger a integridade do projeto e a privacidade dos usuários. Adotar práticas de segurança robustas e se manter atualizado é essencial para evitar ameaças e garantir uma experiência segura para sua empresa e seu usuário
+   - Atente-se a entender as necessidades do seu projeto
+   - Monitoramento é fundamental para compreender como seu aplicativo opera em produção.
+   - Compreender o fluxo do usuário e identificar possíveis funis ajuda a aprimorar a estratégia do seu projeto e pode ser um fator determinante para o sucesso do aplicativo.
+   - A capacidade de antecipar e prever cenários de problemas antes que afetem o usuário final é um diferencial crucial.
 - [ ] **Android - Implantação (Deployment)**:
    - O deployment ou implantação é o processo de disponibilizar um aplicativo Android para os usuários. Existem várias maneiras de fazer isso, um deles é o uso da Play Store. Ela permite que os desenvolvedores distribuam seus aplicativos para um público global.
    - Conhecer os conceitos básicos de deployment de aplicativos Android;

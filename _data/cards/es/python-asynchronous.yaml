@@ -1,0 +1,42 @@
+name: Python - Asíncrono
+logo: 
+short-description:
+key-objectives:
+ - En la programación asincrónica, las funciones no se ejecutan en orden. Con la asincronía, podemos interrumpir el código para obtener alguna otra información necesaria para continuar la ejecución. Esto significa que el código espera a otra parte del código y, mientras espera, ejecuta las demás partes.
+ - Aprender acerca de las corutinas
+ - Las corutinas son generalizaciones de subrutinas. Se utilizan para la multitarea cooperativa, donde un proceso cede el control de manera voluntaria, periódica o cuando está inactivo, para permitir que múltiples aplicaciones se ejecuten simultáneamente.
+ - Manejar la concurrencia
+ - Conocer el concepto de objetos esperables
+ - Crear tareas concurrentes
+ - Conocer la biblioteca 'asyncio'
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "asyncio — E/S Asíncrona"
+    link: https://docs.python.org/es/3.8/library/asyncio.html
+  - type: SITE
+    title: "Corrutinas y Tareas"
+    link: https://docs.python.org/es/3.8/library/asyncio-task.html
+  - type: SITE
+    title: "Multitasking cooperativo con co-rutinas"
+    link: https://rico-schmidt.name/pymotw-3/asyncio/coroutines.html
+  - type: ARTICLE
+    title: "Una introducción a la asincronia en Python"
+    link: https://medium.com/@jmillandev/asyncronia-en-python-9d3542a728f5
+  - type: ARTICLE
+    title: "Generadores y Corrutinas en Python: Una Exploración Detallada"
+    link: https://www.linkedin.com/pulse/generadores-y-corrutinas-en-python-una-exploración-palacio-gaviria/?originalSubdomain=es
+  - type: ARTICLE
+    title: "Asincronia En Python"
+    link: https://leanmind.es/es/blog/asincronia-en-python/
+  - type: YOUTUBE
+    title: "Funciones asincronas con Python | asyncio"
+    link: https://www.youtube.com/watch?v=GVicp9m3s44
+  - type: YOUTUBE
+    title: "Entendiendo asyncio sin usar asyncio, por Juan Pedro Fisanotti"
+    link: https://www.youtube.com/watch?v=u_NDCBdHhzc
+  - type: YOUTUBE
+    title: "PyConAr 2021 - Concurrencia y paralelismo en Python: Multithreading vs Multiprocessing vs Async"
+    link: https://www.youtube.com/watch?v=u77Az26bFPA
+
+alura-contents:

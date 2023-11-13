@@ -1,0 +1,25 @@
+name: Python - Metaprogramación
+logo: 
+short-description:
+key-objectives:
+ - Metaprogramación es una técnica de programación en la que los programas tienen la capacidad de tratar a otros programas como sus datos. Esto significa que un programa puede estar diseñado para leer, generar, analizar o transformar otros programas, e incluso modificarse a sí mismo durante la ejecución.
+ - Escribir un programa que manipula otros programas
+ - Usar metaclasses
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Metaprogramación con Python 3"
+    link: https://2013.es.pycon.org/media/metaprogramming-python3.pdf
+  - type: ARTICLE
+    title: "¿Qué es la Metaprogramación en JavaScript? En español, por favor."
+    link: https://www.freecodecamp.org/espanol/news/que-es-la-metaprogramacion-en-javascript-en-espanol-por-favor/
+  - type: ARTICLE
+    title: "Metaclases en Python"
+    link: https://pythondiario.com/2018/06/metaclases-en-python.html
+  - type: YOUTUBE
+    title: "Metaprogramación en Python - Raúl Cumplido - Track Avanzado"
+    link: https://www.youtube.com/watch?v=LxUaNOq6Fbw
+  - type: YOUTUBE
+    title: "Metaclase propia - 4 - Python Avanzado tutorial en español"
+    link: https://www.youtube.com/watch?v=4rarIb1Mhz4
+alura-contents:
