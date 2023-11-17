@@ -39,6 +39,8 @@ expertise:
       - iot-fundamentals:
         priority: 6
         optional: true
+      - devsecops:
+        priority: 6
 collaboration:
   - name: Back-end
     cards:
