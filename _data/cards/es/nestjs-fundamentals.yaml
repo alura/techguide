@@ -2,38 +2,44 @@ name: Nest.js - Fundamentos
 logo: 
 short-description:
 key-objectives:
-  - NestJS é um framework Node com total suporte a TypeScript e que roda sobre frameworks HTTP como expressJS ou Fastify. Ele utiliza diversos elementos de programação orientada a objetos e uma série de funcionalidades do TypeScript.
-  - Aprender o que é o NestJS e por que é utilizado
-  - Utilizar recursos específicos do NestJS, como providers, módulos e controllers
-  - Desenvolver APIs usando o NestJS
-  - Usar a Interface de Linha de Comando (CLI) do Nest.js
+ - NestJS es un framework de Node con soporte total para TypeScript que se ejecuta sobre frameworks HTTP como expressJS o Fastify. Utiliza varios elementos de programación orientada a objetos y una serie de funcionalidades de TypeScript.
+ - Aprender qué es NestJS y por qué se utiliza
+ - Utilizar características específicas de NestJS, como proveedores (providers), módulos y controladores (controllers)
+ - Desarrollar APIs utilizando NestJS
+ - Utilizar la Interfaz de Línea de Comandos (CLI) de Nest.js
 aditional-objectives:
 contents:
   - type: SITE
-    title: "NestJS - Documentação oficial (em inglês)"
-    link: https://docs.nestjs.com/
+    title: "NestJS - Documentación Oficial (en inglés)"
+    link: https://docs.nestjs.com
   - type: ARTICLE
-    title: "Nest.js —backend com cara de Angular sobre Node.js"
-    link: https://medium.com/codigorefinado/nest-js-typescript-pra-node-js-e-expess-e5042b77cae0
+    title: "Introducción a Nestjs"
+    link: https://medium.com/@diego.coder/introducción-a-nestjs-88f1ca90df35
   - type: ARTICLE
-    title: "O que é NestJS"
-    link: https://eduardo-diogo.medium.com/o-que-%C3%A9-nestjs-9287d9a8dcd3
+    title: "NestJS: qué es y por qué empezar a usarlo"
+    link: https://gfourmis.co/nestjs-que-es-y-por-que-empezar-a-usarlo/
   - type: ARTICLE
-    title: "Construindo uma API com NestJS, PostgreSQL e Docker — Parte 1"
-    link: https://medium.com/@iago.maiasilva/construindo-uma-api-com-nestjs-postgresql-e-docker-parte-1-criando-nosso-primeiro-endpoint-248d4b8ecc9c
+    title: "Ventajas de NestJS que están revolucionando el desarrollo web"
+    link: https://www.moveapps.cl/blog/ventajas-de-nestjs-2023/
+  - type: ARTICLE
+    title: "NestJS Tips"
+    link: https://dev.to/fjbatresv/nestjs-tips-35lf
+  - type: ARTICLE
+    title: "NestJS — Aplicando SOLID"
+    link: https://mugan86.medium.com/nestjs-aplicando-solid-357b80d4245c
+  - type: ARTICLE
+    title: "Creación de una API REST para MongoDB con NestJS"
+    link: https://ualmtorres.github.io/nestjs-mongodb-tutorial/
+  - type: ARTICLE
+    title: "NestJS y React: Tutorial de aplicación video stream"
+    link: https://todoxampp.com/nestjs-y-react-tutorial-de-aplicacion-video-stream/
   - type: YOUTUBE
-    title: "Código Falado: Por que Nest.js?"
-    link: https://www.youtube.com/watch?v=ledmemIH9jA
+    title: "Introducción al framework de NodeJS"
+    link: https://www.youtube.com/watch?v=KQBibtZFqF8
   - type: YOUTUBE
-    title: "Paulo Salvatore: NestJS, o melhor framework backend de Node.js"
-    link: https://www.youtube.com/watch?v=bAH4nBb1NFc
+    title: "Nest.js de 0 a 100"
+    link: https://www.youtube.com/playlist?list=PLzHaXzj_WAym4WR3gBYuy1iew5T3NgL0v
+  - type: YOUTUBE
+    title: "Curso de Login y Registro Completo con React"
+    link: https://www.youtube.com/watch?v=q4ywr3eZmk0
 alura-contents:
-  - type: YOUTUBE
-    title: "Alura: Conhecendo NestJS | AluraMais"
-    link: https://www.youtube.com/watch?v=YHpG6t91oW8
-  - type: COURSE
-    title: "Curso NestJS: criando uma API Rest com TypeScript"
-    link: https://cursos.alura.com.br/course/nestjs-api-rest-typescript
-  - type: COURSE
-    title: "Curso de APIs REST com NestJS: buscas, validação, serialização e detalhes arquiteturais"
-    link: https://cursos.alura.com.br/course/api-rest-nestjs-busca-validacao-serializacao-arquitetura

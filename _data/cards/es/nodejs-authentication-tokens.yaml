@@ -1,24 +1,57 @@
-name: Node.js - Autenticação e Tokens
+name: Node.js - Autenticación y Tokens
 logo: 
 short-description:
 key-objectives:
-  - "O JWT é um método criado pelo padrão RFC 7519 que representa a comunicação segura entre duas partes. Esse token é composto por três partes: cabeçalho, carga útil e assinatura."
-  - Construir um sistema de autenticação usando tokens
-  - Entender o funcionamento do JSON Web Token (JWT)
-  - Construir uma allowlist para guardar tokens opacos
-  - Implementar métodos de atualização de tokens
+ - "JWT (JSON Web Token) es un método creado según el estándar RFC 7519 que representa una comunicación segura entre dos partes. Este token consta de tres partes: encabezado, carga útil y firma." 
+ - Construir un sistema de autenticación utilizando tokens
+ - Comprender el funcionamiento del JSON Web Token (JWT)
+ - Crear una lista de permisos para almacenar tokens opacos
+ - Implementar métodos de actualización de tokens
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "JWT - Documentación oficial"
+    link: https://jwt.io
+  - type: SITE
+    title: "Usa tokens de OAuth de JWT"
+    link: https://cloud.google.com/apigee/docs/api-platform/security/oauth/using-jwt-oauth?hl=es-419
+  - type: SITE
+    title: "JSON Web Token (JWT) for OAuth Client Authorization Grants"
+    link: https://www.ibm.com/docs/es/was-liberty/base?topic=uocpao2as-json-web-token-jwt-oauth-client-authorization-grants
   - type: ARTICLE
-    title: "Autenticação, autorização e gerenciamento de identidade e acesso"
-    link: https://gabrieluizramos.com.br/autenticacao-autorizacao-e-gerenciamento-de-identidade-e-acesso
+    title: "JSON Web Token (JWT)"
+    link: https://medium.com/@mendezj374/json-web-token-jwt-dc2cecbec7df
   - type: ARTICLE
-    title: "NodeJS: Autenticação com JWT"
-    link: https://medium.com/@filipefilpe/nodejs-autentica%C3%A7%C3%A3o-com-jwt-6e274fb205dc
+    title: "Json Web Tokens (JWT), Consejos para usarlos"
+    link: https://medium.com/@chrramirez/json-web-tokens-jwt-consejos-para-usarlo-92eabb3d4320
   - type: ARTICLE
-    title: "JWT — Usando tokens para comunicação eficiente"
-    link: https://medium.com/trainingcenter/jwt-usando-tokens-para-comunica%C3%A7%C3%A3o-eficiente-cf0551c0dd99
+    title: "JSON Web tokens (JWT): claves para usarlos de manera segura"
+    link: https://www.bbva.com/es/innovacion/json-web-tokens-jwt-claves-para-usarlos-de-manera-segura/
+  - type: ARTICLE
+    title: "Protegiendo tu aplicación web con Spring Security y autenticación basada en Tokens JWT"
+    link: https://medium.com/@espinozajge/protegiendo-tu-aplicación-web-con-spring-security-y-autenticación-basada-en-tokens-jwt-1321cbe4c4c3
+  - type: ARTICLE
+    title: "Atacando JSON Web Token (JWT)"
+    link: https://ironhackers.es/tutoriales/atacando-json-web-token-jwt/
+  - type: ARTICLE
+    title: "Compartir datos entre sistemas de forma segura con JWT y encriptación simétrica"
+    link: https://medium.com/@albclvjmn/compartir-datos-entre-sistemas-de-forma-segura-con-jwt-y-encriptación-simétrica-c05e34db5b69
+  - type: ARTICLE
+    title: "Login + JWT"
+    link: https://bluuweb.github.io/node/07-jwt/#jwt
+  - type: YOUTUBE
+    title: "¿Qué es JWT? ¿Para que sirve? ¿Cuando usarlo? ¿Cómo se usa?"
+    link: https://www.youtube.com/watch?v=tWQobKFQLG0
+  - type: YOUTUBE
+    title: "¿Qué es JWT? - Diferencias entre sesiones y tokens"
+    link: https://www.youtube.com/watch?v=k3pbXdwlodw
+  - type: YOUTUBE
+    title: "JWT para Programar Backend Seguro"
+    link: https://www.youtube.com/watch?v=JKa22Z44ap8
+  - type: YOUTUBE
+    title: "Autenticación con JWT y Cookies"
+    link: https://www.youtube.com/watch?v=DxYAcXiy-ak
 alura-contents:
-  - type: COURSE
-    title: "Curso Node.js: Criptografia e tokens JWT"
-    link: https://www.alura.com.br/curso-online-nodejs-criptografia-tokens-jwt
+  - type: ARTICLE
+    title: "¿Qué es JSON Web Token?"
+    link: https://www.aluracursos.com/blog/que-es-json-web-token

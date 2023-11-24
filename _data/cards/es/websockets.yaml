@@ -2,31 +2,47 @@ name: WebSockets
 logo: 
 short-description:
 key-objectives:
-  - WebSocket é uma tecnologia que permite a comunicação bidirecional por canais full-duplex sobre um único soquete Transmission Control Protocol (TCP). Ele é projetado para ser executado em browsers e servidores web que suportem o HTML5, mas pode ser usado por qualquer cliente ou servidor de aplicativos.
-  - Conhecer o protocolo WebSocket e seu uso na comunicação cliente-servidor
-  - Aprender sobre os diversos usos do WebSocket na web
-  - Criar aplicações que utilizam WebSockets com as APIs e bibliotecas do Node.js
+ - WebSocket es una tecnología que permite la comunicación bidireccional a través de canales full-duplex sobre un único socket del Protocolo de Control de Transmisión (TCP). Está diseñado para ser ejecutado en navegadores y servidores web que admitan HTML5, pero puede ser utilizado por cualquier cliente o servidor de aplicaciones.
+ - Conocer el protocolo WebSocket y su uso en la comunicación cliente-servidor
+ - Aprender sobre los diversos usos de WebSocket en la web
+ - Crear aplicaciones que utilicen WebSockets con las APIs y bibliotecas de Node.js
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Documentação: Escrevendo aplicações cliente WebSocket"
-    link: https://developer.mozilla.org/pt-BR/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications
+    title: "Documentación: WebSocket"
+    link: https://developer.mozilla.org/es/docs/Web/API/WebSocket
+  - type: SITE
+    title: "Documentación: Escribir servidores WebSocket"
+    link: https://developer.mozilla.org/es/docs/Web/API/WebSockets_API/Writing_WebSocket_servers
+  - type: SITE
+    title: "Documentación: Escribiendo aplicaciones con WebSockets"
+    link: https://developer.mozilla.org/es/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications
+  - type: SITE
+    title: "Documentación: Crea conexiones persistentes con WebSockets"
+    link: https://cloud.google.com/appengine/docs/flexible/python/using-websockets-and-session-affinity?hl=es-419
   - type: ARTICLE
-    title: "A necessidade de criar um servidor WebSocket"
-    link: https://medium.com/tableless/a-necessidade-de-criar-um-servidor-web-socket-63a7c56a1698
+    title: "¿Qué es WebSocket?"
+    link: https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-es-websocket/
   - type: ARTICLE
-    title: "Como o JavaScript funciona: Aprofundando em WebSockets e HTTP/2 com SSE"
-    link: https://medium.com/reactbrasil/como-o-javascript-funciona-aprofundando-em-websockets-e-http-2-com-sse-como-escolher-o-caminho-d4639995ef85
+    title: "¿Qué son los WebSockets y cómo crearlos?"
+    link: https://appmaster.io/es/blog/que-son-los-websockets-y-como-crearlos
+  - type: ARTICLE
+    title: "¿Cuándo debemos usar WebSockets?"
+    link: https://styde.net/cuando-debemos-usar-websockets/
+  - type: ARTICLE
+    title: "HTTP vs Websockets"
+    link: https://iagolast.github.io/blog/2017/06/18/http-vs-websockets.html
   - type: YOUTUBE
-    title: "Filipe Deschamps: WebSockets na prática é MUITO poderoso"
-    link: https://www.youtube.com/watch?v=bQ7NNSyGV2U
+    title: "Servidor websocket dual con node js"
+    link: https://www.youtube.com/watch?v=rS1XnZ_CP2s
+  - type: YOUTUBE
+    title: "Diferencias entre AJAX, WebSockets y Server-sent Events"
+    link: https://www.youtube.com/watch?v=czp6WcCat8Q
+  - type: YOUTUBE
+    title: "Long polling vs Websockets vs Server-Sent Events | Enviar datos desde un servidor web"
+    link: https://www.youtube.com/watch?v=QqMLSspb0ls
+  - type: YOUTUBE
+    title: "Websockets con Node.js"
+    link: https://www.youtube.com/watch?v=nK418x0ymaw
+
 alura-contents:
-  - type: ARTICLE
-    title: "Entendendo o socket no Python criando um bot de IRC"
-    link: https://www.alura.com.br/artigos/entendendo-socket-no-python-criando-um-bot-de-irc
-  - type: YOUTUBE
-    title: "Alura: Entendendo WebSockets"
-    link: https://www.youtube.com/watch?v=RwUbUnPdWqs
-  - type: COURSE
-    title: "Curso PHP Reativo: programação assíncrona em tempo real"
-    link: https://cursos.alura.com.br/course/php-reativo-programacao-assincrona-tempo-real

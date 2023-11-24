@@ -1,45 +1,64 @@
-name: Entrega e integração contínuas (CI/CD)
+name: Entrega e Integración Continuas (CI/CD)
 logo: 
 short-description:
 key-objectives:
-  - CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português "entrega e integração contínuas". Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.
-  - Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, ja que assim é possivel acelerar o desenvolvimento e diminiur o tempo de entrega de software.
-  - Executar testes automatizados da aplicação para verificar seu funcionamento.
-  - Realizar a entrega de atualizações de forma automatica e com segurança.
-  - Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.
+ - CI/CD es la abreviación de Continuous Integration/Continuous Delivery, traducido al español como "entrega e integración continuas". Se trata de una práctica de desarrollo de software que tiene como objetivo hacer más eficiente la integración de código a través de compilaciones (builds) y pruebas automatizadas.
+ - Automatizar la integración de código entre diversas partes del equipo se ha vuelto cada vez más importante, ya que de esta manera es posible acelerar el desarrollo y reducir el tiempo de entrega del software
+ - Ejecutar pruebas automatizadas de la aplicación para verificar su funcionamiento
+ - Realizar la entrega de actualizaciones de manera automática y segura
+ - Realizar pruebas de conexión y pruebas de carga para evitar que la aplicación presente problemas al ser actualizada
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "¿Qué es la entrega continua?"
+    link: https://learn.microsoft.com/es-es/devops/deliver/what-is-continuous-delivery
+  - type: SITE
+    title: "¿Qué es la integración continua?"
+    link: https://aws.amazon.com/es/devops/continuous-integration/
+  - type: SITE
+    title: "Acerca de la integración continua"
+    link: https://docs.github.com/es/actions/automating-builds-and-tests/about-continuous-integration
   - type: ARTICLE
-    title: "O que é CI/CD?"
-    link: https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd
+    title: "¿En qué consiste la integración continua?"
+    link: https://www.atlassian.com/es/continuous-delivery/continuous-integration
   - type: ARTICLE
-    title: "Sobre integração contínua"
-    link: https://docs.github.com/pt/actions/automating-builds-and-tests/about-continuous-integration
+    title: "La integración y la distribución continuas (CI/CD)"
+    link: https://www.redhat.com/es/topics/devops/what-is-ci-cd
+  - type: ARTICLE
+    title: "Integración continua y entrega continua (CI/CD)"
+    link: https://www.aplyca.com/blog/integracion-continua-y-entrega-continua-cicd
+  - type: ARTICLE
+    title: "¿Qué es la entrega continua?"
+    link: https://www.servicenow.com/es/products/it-operations-management/what-is-continous-delivery.html
+  - type: ARTICLE
+    title: "Continuous Delivery – Pipelines en el desarrollo de software"
+    link: https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/continuous-delivery/
+  - type: ARTICLE
+    title: "Integración, Entrega y Despliegue contínuo con Github Actions"
+    link: https://medium.com/contraslashsas/integración-entrega-y-despliegue-contínuo-con-github-actions-f49001e49541
+  - type: ARTICLE
+    title: "Drone.io como motor de CI/CD"
+    link: https://medium.com/ingeniería-en-tranqui-finanzas/drone-io-como-motor-de-ci-cd-32a8d714320d
   - type: YOUTUBE
-    title: "Código Fonte TV: Pipeline (CD/CI) | Dicionário do Programador"
-    link: https://www.youtube.com/watch?v=AZtTd3pFVTY
+    title: "¿Qué es CI/CD? Integración y despliegue continuos"
+    link: https://www.youtube.com/watch?v=88bnb9eTRNo&ab_channel=AminEspinoza
+  - type: YOUTUBE
+    title: "Taller de Integración Continua (CI) y Despliegue Continuo (CD)"
+    link: https://www.youtube.com/watch?v=MeW__rSQb9k
+  - type: YOUTUBE
+    title: "Proceso de integración/despliegue continuo con Gitlab"
+    link: https://www.youtube.com/watch?v=QDUKU-5UgNM
+  - type: YOUTUBE
+    title: "Despliegues de aplicacion CI/CD para principiantes 'procesadores'"
+    link: https://www.youtube.com/watch?v=ThIpD-Rys00
+  - type: YOUTUBE
+    title: "Entrega Continua CI/CD - AWS + EKS + Github Actions"
+    link: https://www.youtube.com/watch?v=XZyBb5BE-_4
+
 alura-contents:
   - type: ARTICLE
-    title: "Entrega e integração contínua de aplicações Vue"
-    link: https://www.alura.com.br/artigos/entrega-e-integracao-continua-de-aplicacoes-vue
+    title: "¿Que es GitOps?"
+    link: https://www.aluracursos.com/blog/que-es-gitops
   - type: ARTICLE
-    title: "GitOps: o que é?"
-    link: https://www.alura.com.br/artigos/o-que-e-git-ops
-  - type: ARTICLE
-    title: "Tipos de testes: quais os principais e por que utilizá-los?"
-    link: https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los
-  - type: PODCAST
-    title: "Integração Contínua, Deploy Contínuo e Github Actions"
-    link: https://cursos.alura.com.br/extra/hipsterstech/integracao-continua-deploy-continuo-e-github-actions-hipsters-213-a335
-  - type: PODCAST
-    title: "Testes Automatizados"
-    link: https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535
-  - type: COURSE
-    title: "Curso Integração Contínua: mais qualidade e menos risco no desenvolvimento"
-    link: https://cursos.alura.com.br/course/desenvolvimento-software-integracao-continua
-  - type: COURSE
-    title: "Curso Entrega Contínua: confiabilidade e qualidade na implantação de software"
-    link: https://cursos.alura.com.br/course/entrega-continua-confiabilidade-qualidade
-  - type: COURSE
-    title: "Formação: Integração Contínua e Entrega Contínua"
-    link: https://cursos.alura.com.br/formacao-integracao-continua-entrega-continua
+    title: "Tipos de pruebas: ¿cuáles son las principales y por qué utilizarlas?"
+    link: https://www.aluracursos.com/blog/tipos-de-pruebas-cual-utilizar
