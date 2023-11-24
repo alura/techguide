@@ -1,0 +1,45 @@
+name: Nest.js - Fundamentos
+logo: 
+short-description:
+key-objectives:
+ - NestJS es un framework de Node con soporte total para TypeScript que se ejecuta sobre frameworks HTTP como expressJS o Fastify. Utiliza varios elementos de programación orientada a objetos y una serie de funcionalidades de TypeScript.
+ - Aprender qué es NestJS y por qué se utiliza
+ - Utilizar características específicas de NestJS, como proveedores (providers), módulos y controladores (controllers)
+ - Desarrollar APIs utilizando NestJS
+ - Utilizar la Interfaz de Línea de Comandos (CLI) de Nest.js
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "NestJS - Documentación Oficial (en inglés)"
+    link: https://docs.nestjs.com
+  - type: ARTICLE
+    title: "Introducción a Nestjs"
+    link: https://medium.com/@diego.coder/introducción-a-nestjs-88f1ca90df35
+  - type: ARTICLE
+    title: "NestJS: qué es y por qué empezar a usarlo"
+    link: https://gfourmis.co/nestjs-que-es-y-por-que-empezar-a-usarlo/
+  - type: ARTICLE
+    title: "Ventajas de NestJS que están revolucionando el desarrollo web"
+    link: https://www.moveapps.cl/blog/ventajas-de-nestjs-2023/
+  - type: ARTICLE
+    title: "NestJS Tips"
+    link: https://dev.to/fjbatresv/nestjs-tips-35lf
+  - type: ARTICLE
+    title: "NestJS — Aplicando SOLID"
+    link: https://mugan86.medium.com/nestjs-aplicando-solid-357b80d4245c
+  - type: ARTICLE
+    title: "Creación de una API REST para MongoDB con NestJS"
+    link: https://ualmtorres.github.io/nestjs-mongodb-tutorial/
+  - type: ARTICLE
+    title: "NestJS y React: Tutorial de aplicación video stream"
+    link: https://todoxampp.com/nestjs-y-react-tutorial-de-aplicacion-video-stream/
+  - type: YOUTUBE
+    title: "Introducción al framework de NodeJS"
+    link: https://www.youtube.com/watch?v=KQBibtZFqF8
+  - type: YOUTUBE
+    title: "Nest.js de 0 a 100"
+    link: https://www.youtube.com/playlist?list=PLzHaXzj_WAym4WR3gBYuy1iew5T3NgL0v
+  - type: YOUTUBE
+    title: "Curso de Login y Registro Completo con React"
+    link: https://www.youtube.com/watch?v=q4ywr3eZmk0
+alura-contents:

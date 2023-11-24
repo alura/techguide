@@ -1,0 +1,69 @@
+name: Node.js - Express
+logo: 
+short-description:
+key-objectives:
+ - Express es un framework flexible de aplicaciones web para Node.js que proporciona un conjunto robusto de recursos para aplicaciones web y móviles.
+ - Utiliza el framework Express para la creación de APIs REST con Node.js
+ - Administra peticiones de diferentes verbos HTTP en distintas URLs
+ - Define el puerto a utilizar para la conexión y la ubicación de los modelos que se utilizan para renderizar la respuesta
+ - Crea manejadores de rutas utilizando el método 'router'
+ - Conoce la biblioteca 'Router' y sus verbos HTTP, como 'get', 'post', 'put', etc.
+ - Define endpoints con route paths
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Express.js - Documentación Oficial"
+    link: https://expressjs.com/es/
+  - type: SITE
+    title: "Express.js- Direccionamiento"
+    link: https://expressjs.com/es/guide/routing.html
+  - type: SITE
+    title: "P+F de ExpressRoute"
+    link: https://learn.microsoft.com/es-es/azure/expressroute/expressroute-faqs
+  - type: ARTICLE
+    title: "Introducción a Express/Node"
+    link: https://developer.mozilla.org/es/docs/Learn/Server-side/Express_Nodejs/Introduction
+  - type: ARTICLE
+    title: "Introducción a Node Js y Express Js"
+    link: https://diegooo.com/express-js-y-node-js-breve-introduccion/
+  - type: ARTICLE
+    title: "Qué es Express.JS y primeros pasos"
+    link: https://ifgeekthen.nttdata.com/es/que-es-expressjs-y-primeros-pasos
+  - type: ARTICLE
+    title: "Rutas en ExpressJS"
+    link: https://ull-esit-dsi-1617.github.io/estudiar-las-rutas-en-expressjs-alejandro-raul-35l2/rutasexpressjs.html
+  - type: ARTICLE
+    title: "Construyendo aplicaciones seguras con Node.js y Express"
+    link: https://medium.com/@diego.coder/construyendo-aplicaciones-seguras-con-node-js-y-express-61a941085ead
+  - type: ARTICLE
+    title: "Integra otros frameworks en Express.js"
+    link: https://firebase.google.com/docs/hosting/frameworks/express?hl=es-419
+  - type: ARTICLE
+    title: "Renderizando React.js en el server con Express.js y react-engine"
+    link: https://medium.com/@sergiodxa/renderizando-react-js-en-el-server-con-express-js-y-react-engine-903de08c3df6
+  - type: ARTICLE
+    title: "Middleware en Express JS"
+    link: https://medium.com/@aarnlpezsosa/middleware-en-express-js-5ef947d668b
+  - type: ARTICLE
+    title: "API REST de datos geográficos con Node.js y Express"
+    link: https://medium.com/@pasoriano/api-rest-de-datos-geográficos-con-node-js-y-express-5242cfd400ee
+  - type: ARTICLE
+    title: "Desarollando una REST API usando NodeJS, Express y Typescript"
+    link: https://medium.com/@ismaelbautista/desarollando-una-rest-api-usando-nodejs-express-y-typescript-37391345b90e
+  - type: ARTICLE
+    title: "Estructura de una API Rest con NodeJS, Express y MongoDB"
+    link: https://medium.com/williambastidasblog/estructura-de-una-api-rest-con-nodejs-express-y-mongodb-cdd97637b18b
+  - type: YOUTUBE
+    title: "Introducción a Express.js"
+    link: https://www.youtube.com/watch?v=VmH4tPbbDsM
+  - type: YOUTUBE
+    title: "Por Qué Usar Express en Node.JS 🤔 Express vs HTTP Module"
+    link: https://www.youtube.com/watch?v=ccsm8vGFMIA
+  - type: YOUTUBE
+    title: "Desarrollando una API con Express desde cero"
+    link: https://www.youtube.com/watch?v=YmZE1HXjpd4
+  - type: YOUTUBE
+    title: "Qué es una Ruta en Express 😎 Router y Middleware"
+    link: https://www.youtube.com/watch?v=j5UBvJhLA-k
+alura-contents:
+

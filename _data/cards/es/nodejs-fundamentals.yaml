@@ -1,0 +1,51 @@
+name: Node.js - Fundamentos
+logo: 
+short-description:
+key-objectives:
+ - Node.js es un entorno de ejecución de JavaScript que permite ejecutar aplicaciones desarrolladas en este lenguaje de manera autónoma, sin depender de un navegador.
+ - Aprender sobre operaciones bloqueantes y no bloqueantes
+ - Comprender el concepto de bucle de eventos (event loop)
+ - Aprender a utilizar las bibliotecas de Node.js, como 'net', 'fs', 'http', 'path', entre otras
+ - Entender cómo funcionan los temporizadores (Timers)
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Introduction to Node.js"
+    link: https://nodejs.dev/en/learn/
+  - type: ARTICLE
+    title: "Qué es Node.js: Casos de uso comunes y cómo instalarlo"
+    link: https://www.hostinger.es/tutoriales/que-es-node-js
+  - type: ARTICLE
+    title: "Qué es Node.js y por qué debería usarlo"
+    link: https://kinsta.com/es/base-de-conocimiento/que-es-node-js/
+  - type: ARTICLE
+    title: "Cómo escribir código asíncrono en Node.js"
+    link: https://www.digitalocean.com/community/tutorials/how-to-write-asynchronous-code-in-node-js-es
+  - type: ARTICLE
+    title: "Lectura de archivos con NodeJS y FS"
+    link: https://desarrolloweb.com/articulos/lectura-archivos-nodejs.html
+  - type: ARTICLE
+    title: "Crear servidor web HTTP en Node.js: Tutorial completo"
+    link: https://guru99.es/node-js-create-server-get-data/
+  - type: ARTICLE
+    title: "Módulo path en NodeJS"
+    link: https://desarrolloweb.com/articulos/modulo-path-nodejs
+  - type: ARTICLE
+    title: "Objetos en Node.js y Javascript. Lo realmente importante"
+    link: https://www.pensemosweb.com/objetos-node-js-javascript-lo-realmente-importante/
+  - type: YOUTUBE
+    title: "¿Qué es Node.js? Breve explicación animada"
+    link: https://www.youtube.com/watch?v=xJzzu7MVZXw
+  - type: YOUTUBE
+    title: "¿Qué se puede hacer con Node.JS? - Analizando Tecnologías"
+    link: https://www.youtube.com/watch?v=_xL4oil0gQo
+  - type: YOUTUBE
+    title: "Curso de Node.JS Completo desde cero"
+    link: https://www.youtube.com/watch?v=yB4n_K7dZV8&list=PLUofhDIg_38qm2oPOV-IRTTEKyrVBBaU7&index=1
+  - type: PODCAST
+    title: "Pedro: Un mes con Node.JS"
+    link: https://www.ivoox.com/173-pedro-un-mes-node-js-audios-mp3_rf_66938337_1.html
+alura-contents:
+  - type: COURSE
+    title: "Formación Aprenda a programar en JavaScript con enfoque en el Back-end"
+    link: https://www.aluracursos.com/formacion-js-backend

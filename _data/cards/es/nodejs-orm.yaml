@@ -1,0 +1,48 @@
+name: Node.js - ORM
+logo: 
+short-description:
+key-objectives:
+ - Object-Relational Mapping (ORM), en español, mapeo objeto-relacional, es una técnica utilizada para mapear sistemas orientados a objetos y bases de datos relacionales, donde las tablas de la base de datos se representan como clases y los registros de las tablas serían instancias de esas clases.
+ - Entender qué son los ORMs y para qué se utilizan
+ - Conocer el SQL y sus sistemas de gestión de bases de datos
+ - Trabajar con Sequelize, un ORM para usar con Node.js
+ - Conocer otros ORMs de Node.js, como Prisma
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Sequelize - documentación oficial "
+    link: https://sequelize.org
+  - type: SITE
+    title: "Prisma - documentación oficial"
+    link: https://www.prisma.io
+  - type: ARTICLE
+    title: "¿Qué es un ORM?"
+    link: https://www2.deloitte.com/es/es/pages/technology/articles/que-es-orm.html
+  - type: ARTICLE
+    title: "Academia Hack: ORM"
+    link: https://medium.com/academia-hack/orm-3c26f4c34dba
+  - type: ARTICLE
+    title: "¿Cuándo usar un ORM?"
+    link: https://www2.deloitte.com/es/es/pages/technology/articles/cuando-usar-orm.html
+  - type: ARTICLE
+    title: "Sequelize 101"
+    link: https://medium.com/@khriztianmoreno/sequelize-101-5810bfa1332f
+  - type: ARTICLE
+    title: "Conexión a una base de datos PostgreSQL con Node.js y Sequelize"
+    link: https://medium.com/@diego.coder/conexión-a-una-base-de-datos-postgreql-con-node-js-y-sequelize-d93b0546e4cc
+  - type: ARTICLE
+    title: "Deploy, Node.js y base de datos con Sequelize"
+    link: https://community.listopro.com/deploy-node-js-y-base-de-datos-con-sequelize/
+  - type: ARTICLE
+    title: "Prisma, un toolkit para bases de datos (¿ORM?) para TypeScript y Node.js"
+    link: https://dev.to/denispixi/prisma-un-toolkit-para-bases-de-datos-orm-para-typescript-y-node-js-3g9
+  - type: YOUTUBE
+    title: "ORM vs SQL ¿Cuándo usar cada uno?"
+    link: https://www.youtube.com/watch?v=xUWxLUDf29k
+  - type: YOUTUBE
+    title: "Usando ORM SEQUELIZE para crear un API con MYSQL en NODE.JS"
+    link: https://www.youtube.com/watch?v=3wzMVj7nxtI
+  - type: YOUTUBE
+    title: "Cómo usar el mejor ORM para JavaScript / TypeScript - Prisma"
+    link: https://www.youtube.com/watch?v=5iqM9V-1a4c
+alura-contents:
