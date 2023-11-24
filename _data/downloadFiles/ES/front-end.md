@@ -135,6 +135,8 @@
    - Creación de API utilizando bibliotecas y marcos GraphQL
 - [ ] **Apollo Client**:
    - Apollo Client es una biblioteca integral de administración de estado para JavaScript que le permite administrar datos locales y remotos con GraphQL.
+   - Utilizar Apollo para crear un servidor GraphQL
+   - Conectar a una API
 ## Habilidade Auxiliar: Infraestructura y Back-end 
 - [ ] **Git y GitHub - Fundamentos**:
    - Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.

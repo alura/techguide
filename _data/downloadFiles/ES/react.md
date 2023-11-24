@@ -160,6 +160,8 @@
    - Creación de API utilizando bibliotecas y marcos GraphQL
 - [ ] **Apollo Client**:
    - Apollo Client es una biblioteca integral de administración de estado para JavaScript que le permite administrar datos locales y remotos con GraphQL.
+   - Utilizar Apollo para crear un servidor GraphQL
+   - Conectar a una API
 - [ ] **Redux Saga**:
    - Redux Saga es una biblioteca que tiene como objetivo hacer que los efectos secundarios de la aplicación (es decir, cosas asincrónicas como la obtención de datos y cosas impuras como acceder al caché del navegador) sean más fáciles de administrar, más eficientes de ejecutar, fáciles de probar y mejores en el manejo de fallas.
 - [ ] **NextJS - Fundamentos**:
