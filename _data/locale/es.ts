@@ -6,7 +6,7 @@ export default {
   "MENU.LOGO_ALT": "Logo Tech Guide Alura",
   "MENU.CTA_TEXT": "<Emoji name='fire'/> Construye tu &lt;T&gt;",
   "SCREEN_HERO_CONTAINER.PRE_TITLE": "<Emoji name='star'/> ¡Guía tu carrera!",
-  "SCREEN_HERO_CONTAINER.TITLE": "Descubre posibles caminos<br /> para convertirte en un profesional <strong>&lt;en T&gt;</strong>",
+  "SCREEN_HERO_CONTAINER.TITLE": "Descubre posibles caminos para convertirte en un profesional <strong>&lt;en T&gt;</strong>",
   "SCREEN_HERO_CONTAINER.SUB_TITLE": "Alura ha creado el TechGuide.sh para ayudarte en tu camino de aprendizaje. Un mapeo de las principales tecnologías que demanda el mercado, con nuestras sugerencias y opiniones.",
 
   "SCREEN_HERO_CONTAINER.FIRST_SECTION.TITLE": "Una guía en forma de &ltT&gt;",
@@ -21,11 +21,11 @@ export default {
   "PATH.T_BLOCK_SUGGESTED_CONTENT.SITE.LABEL": "Web",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.SITE.BG": "#6DD5EC",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.SITE.COLOR": "#002A42",
-  
+
   "PATH.T_BLOCK_SUGGESTED_CONTENT.ARTICLE.LABEL": "Artículo",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.ARTICLE.BG": "#FDB9C6",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.ARTICLE.COLOR": "#670032",
-  
+
   "PATH.T_BLOCK_SUGGESTED_CONTENT.COURSE.LABEL": "Curso",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.COURSE.BG": "#BEEC6D",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.COURSE.COLOR": "#043300",
@@ -33,7 +33,7 @@ export default {
   "PATH.T_BLOCK_SUGGESTED_CONTENT.YOUTUBE.LABEL": "YouTube",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.YOUTUBE.BG": "#FF0000",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.YOUTUBE.COLOR": "#FFFFFF",
-  
+
   "PATH.T_BLOCK_SUGGESTED_CONTENT.PODCAST.LABEL": "Podcast",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.PODCAST.BG": "#AB7EE4",
   "PATH.T_BLOCK_SUGGESTED_CONTENT.PODCAST.COLOR": "#300031",
@@ -103,21 +103,21 @@ export default {
       "label": "Back-end",
       "value": "back-end"
     },
-/*    {
-      "label": "Mobile",
-      "value": "mobile"
-    },*/
+    /*    {
+          "label": "Mobile",
+          "value": "mobile"
+        },*/
     {
       "label": "Datos",
       "value": "data"
     },
-/*    {
-      "label": "Outros",
-      "value": "others"
-    },*/
+    /*    {
+          "label": "Outros",
+          "value": "others"
+        },*/
   ],
   "IMAGES.DISCOVER_IMAGE": "/assets/image/discover-illustration-es.svg",
-  
+
   "FOOTER.YOUTUBE": "https://www.youtube.com/@AluraLatam",
   "FOOTER.FACEBOOK": "https://www.facebook.com/aluracursoslatam/",
   "FOOTER.INSTAGRAM": "https://www.instagram.com/aluralatam/",
@@ -127,5 +127,5 @@ export default {
   "FOOTER.ALURA.LINK": "https://www.aluracursos.com/",
   "MY.GENERATE_GUIDE": "Generando tu guía...",
   "TSHAPE.OPTIONAL.DESCRIPTION": "= Contenido opcional",
-  "DEMO":"DEMO"
+  "DEMO": "DEMO"
 }

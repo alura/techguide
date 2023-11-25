@@ -6,7 +6,7 @@ export default {
   "MENU.LOGO_ALT": "Logo Tech Guide Alura",
   "MENU.CTA_TEXT": "<Emoji name='fire'/> Monte seu &lt;T&gt;",
   "SCREEN_HERO_CONTAINER.PRE_TITLE": "<Emoji name='star'/> Guie sua carreira!",
-  "SCREEN_HERO_CONTAINER.TITLE": "Descubra possíveis caminhos<br /> para se tornar profissional <strong>&lt;em T&gt;</strong>",
+  "SCREEN_HERO_CONTAINER.TITLE": "Descubra possíveis caminhos para se tornar profissional <strong>&lt;em T&gt;</strong>",
   "SCREEN_HERO_CONTAINER.SUB_TITLE": "A Alura criou o TechGuide.sh para ajudar na sua jornada de aprendizado. Um mapeamento das principais tecnologias demandadas pelo mercado, com nossas sugestões e opiniões.",
 
   "SCREEN_HERO_CONTAINER.FIRST_SECTION.TITLE": "Um guia em formato de &ltT&gt;",
