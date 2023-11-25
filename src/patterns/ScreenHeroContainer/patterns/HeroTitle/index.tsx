@@ -9,10 +9,13 @@ export default function HeroTitle() {
         justifyContent: "center",
         alignItems: "center",
         alignSelf: "center",
+        textAlign: "center",
+        textWrap: "balance",
         width: {
           xs: "240px",
           md: "auto",
         },
+        maxWidth: "800px",
       }}
       tag="header"
     >
@@ -39,9 +42,7 @@ export default function HeroTitle() {
         tag="h1"
         styleSheet={{
           marginTop: "0.4em",
-          maxWidth: "800px",
           fontWeight: "600",
-          textAlign: "center",
           letterSpacing: "-0.01em",
           fontSize: {
             xs: "2.063rem",
@@ -72,9 +73,7 @@ export default function HeroTitle() {
       <Text
         i18nKey="SCREEN_HERO_CONTAINER.SUB_TITLE"
         styleSheet={{
-          maxWidth: "700px",
           marginTop: "1em",
-          textAlign: "center",
           fontSize: {
             xs: "1rem",
             md: "1.25rem",
