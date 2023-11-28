@@ -243,7 +243,7 @@
    - Crear productores y consumidores
    - Entender cómo usar Kafka para paralelismo y ejecución serializada
    - Obtener garantías relativas al envío o entrega de los mensajes
-## Habilidade Auxiliar: Infraestrutura e boas práticas 
+## Habilidade Auxiliar: Infraestructura y buenas prácticas 
 - [ ] **Git y GitHub - Fundamentos**:
    - Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.
    - GitHub es un servicio de hosting para el desarrollo de software y el control de versiones mediante Git.
@@ -300,7 +300,7 @@
    - Modelar dominios de manera efectiva.
    - Basar proyectos complejos en modelos de dominio.
    - Conocer los bloques de construcción de DDD.
-## Habilidade Auxiliar: UX e Design 
+## Habilidade Auxiliar: UX y Design 
 - [ ] **Figma - Fundamentos**:
    - Figma es una aplicación web colaborativa para el diseño de interfaces. El conjunto de funciones de Figma se centra en la interfaz de usuario y el diseño de la experiencia del usuario, con énfasis en la colaboración en tiempo real, utilizando una variedad de herramientas de creación de prototipos y editor de gráficos vectoriales.
    - Crear diseños de página y componentes
