@@ -1,0 +1,45 @@
+name: Angular - Fundamentos
+logo: 
+short-description:
+key-objectives:
+ - Angular es un framework para construir aplicaciones y una plataforma de desarrollo construida en TypeScript para crear aplicaciones eficientes y sofisticadas de página única (SPA).
+ - Construir interfaces utilizando HTML, CSS y TypeScript
+ - Crear aplicaciones SPA
+ - Construir aplicaciones web, mobile o desktop
+ - Integrar datos con API REST
+ - Utilizar la composición para crear componentes reutilizables
+ - Utilizar servicios de tipo Resolver
+ - Manipular solicitudes creando servicios de tipo Interceptor
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Introduction to the Angular docs"
+    link: https://angular.io/docs
+  - type: SITE
+    title: "Introducción a la Documentación de Angular"
+    link: https://docs.angular.lat/docs
+  - type: ARTICLE
+    title: "Todo sobre Angular, la clave para acelerar tu desarrollo web"
+    link: https://www.thepowermba.com/es/blog/todo-sobre-angular
+  - type: ARTICLE
+    title: "Componentes en Angular"
+    link: https://medium.com/notasdeangular/componentes-en-angular-f25138b00c83
+  - type: YOUTUBE
+    title: "Curso Angular en Español - Tutorial de Angular desde cero ▶️🤯"
+    link: https://www.youtube.com/watch?v=i-oYrcNtc2s
+  - type: YOUTUBE
+    title: "Diferencias entre Angular y AngularJs 2020 | Son lo mismo?"
+    link: https://www.youtube.com/watch?v=fMDiF6cXD28
+  - type: YOUTUBE
+    title: "Programación Reactiva 👀 4 conceptos para empezar"
+    link: https://www.youtube.com/watch?v=kkqn2Z2tl1k
+alura-contents:
+  - type: ARTICLE
+    title: "Creando aplicaciones Angular con Angular CLI"
+    link: https://www.aluracursos.com/blog/creando-aplicaciones-con-angular-cli
+  - type: YOUTUBE
+    title: "Frameworks de Front End - Edición especial"
+    link: https://www.youtube.com/watch?v=UNeKzI2WHgQ&ab_channel=AluraLatam
+  - type: COURSE
+    title: "Formación Angular"
+    link: https://app.aluracursos.com/formacion-angular
