@@ -32,7 +32,9 @@ export default function HeroTitle() {
           fontSize: "0.875rem",
           lineHeight: "180%",
           backgroundColor: "rgba(0, 0, 0, 0.5)",
-          width: "275px",
+          maxWidth: "275px",
+          width: "100%",
+          md: "240px",
           borderRadius: "1000px",
           paddingVertical: "9px",
         }}
