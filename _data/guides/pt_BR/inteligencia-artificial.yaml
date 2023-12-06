@@ -1,5 +1,5 @@
 name: Inteligência Artificial
-tags: 
+tags:
   - data
 expertise:
   - name: Artificial Intelligence Jr
@@ -35,7 +35,7 @@ expertise:
       - machine-learning-transfer-learning:
         priority: 9
       - machine-learning-regularization:
-        priority: 8 
+        priority: 8
       - chatbots:
         priority: 8
       - machine-learning-support-vector-machines:
@@ -81,6 +81,12 @@ collaboration:
         priority: 8
       - communication-skills:
         priority: 7
+      - mlops:
+        priority: 5
+        optional: true
+      - containers:
+        priority: 4
+        optional: true
   - name: Hardware e Eletrônica
     cards:
       - ai-robotics-fundamentals:
