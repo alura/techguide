@@ -32,6 +32,7 @@ const typeDefs = gql`
     ARTICLE
     YOUTUBE
     CHALLENGE
+    BOOK
   }
   type Card {
     id: String
