@@ -15,15 +15,15 @@
    - Criar construtores
 - [ ] **Conceitos de Orientação a Objetos**:
    - A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de 'objetos' e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.
+   - O que são classes
+   - O que são abstrações
+   - Como funcionam interfaces
    - Como funcionam objetos
    - Criar e utilizar construtores
-   - O que são classes
    - Criar e utilizar métodos
    - Como funciona encapsulamento
    - O que é herança
    - O que é polimorfismo
-   - Como funcionam interfaces
-   - O que são abstrações
 - [ ] **C# - Coleções**:
    - Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
    - Aprender os usos e diferenças entre Dictionary, List, Queue, SortedList e Stack
