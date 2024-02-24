@@ -25,6 +25,12 @@ query PathScreenGetGuideBySlug($input: GuideInput, $locale: SiteLocale) {
             link
             type
           }
+          fiapContents {
+            id
+            title
+            link
+            type
+          }
           contents {
             id
             title
@@ -47,6 +53,12 @@ query PathScreenGetGuideBySlug($input: GuideInput, $locale: SiteLocale) {
             name
           }
           aluraContents {
+            id
+            title
+            link
+            type
+          }
+          fiapContents {
             id
             title
             link

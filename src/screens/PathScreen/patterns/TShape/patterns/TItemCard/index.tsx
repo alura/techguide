@@ -123,6 +123,7 @@ function Item({ onClick, categoryName, index, main, card, extra }: any) {
     title: card?.item?.name || "Error",
     keyObjectives: card?.item?.keyObjectives,
     aluraContents: card?.item?.aluraContents,
+    fiapContents: card?.item?.fiapContents,
     contents: card?.item?.contents,
     optional: card?.optional,
   };
@@ -147,6 +148,7 @@ function Item({ onClick, categoryName, index, main, card, extra }: any) {
                     title={content.title}
                     keyObjectives={content.keyObjectives}
                     aluraContents={content.aluraContents}
+                    fiapContents={content.fiapContents}
                     contents={content.contents}
                     optional={content.optional}
                   />

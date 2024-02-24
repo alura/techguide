@@ -14,6 +14,12 @@ query GetAllCards($locale: SiteLocale, $input: CardsInput) {
       link
       type
     }
+    fiapContents {
+      id
+      title
+      link
+      type
+    }
     contents {
       id
       title

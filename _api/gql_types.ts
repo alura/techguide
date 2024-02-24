@@ -21,6 +21,7 @@ export type Card = {
   collaborations?: Maybe<Array<Maybe<GuideCollaboration>>>;
   contents?: Maybe<Array<Maybe<CardContent>>>;
   expertises?: Maybe<Array<Maybe<GuideExpertise>>>;
+  fiapContents?: Maybe<Array<Maybe<CardContent>>>;
   id?: Maybe<Scalars['String']>;
   keyObjectives?: Maybe<Array<Maybe<CardKeyObjective>>>;
   logo?: Maybe<Scalars['String']>;
@@ -48,6 +49,7 @@ export type CardContent = {
 export enum CardContentType {
   Aluraplus = 'ALURAPLUS',
   Article = 'ARTICLE',
+  Book = 'BOOK',
   Challenge = 'CHALLENGE',
   Course = 'COURSE',
   Podcast = 'PODCAST',
@@ -104,6 +106,7 @@ export type Guide = {
 export type GuideCard = {
   __typename?: 'GuideCard';
   item?: Maybe<Card>;
+  optional?: Maybe<Scalars['Boolean']>;
   priority?: Maybe<Scalars['Int']>;
 };
 
@@ -322,6 +325,7 @@ export type CardResolvers<ContextType = any, ParentType extends ResolversParentT
   collaborations?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideCollaboration']>>>, ParentType, ContextType>;
   contents?: Resolver<Maybe<Array<Maybe<ResolversTypes['CardContent']>>>, ParentType, ContextType>;
   expertises?: Resolver<Maybe<Array<Maybe<ResolversTypes['GuideExpertise']>>>, ParentType, ContextType>;
+  fiapContents?: Resolver<Maybe<Array<Maybe<ResolversTypes['CardContent']>>>, ParentType, ContextType>;
   id?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
   keyObjectives?: Resolver<Maybe<Array<Maybe<ResolversTypes['CardKeyObjective']>>>, ParentType, ContextType>;
   logo?: Resolver<Maybe<ResolversTypes['String']>, ParentType, ContextType>;
@@ -368,6 +372,7 @@ export type GuideResolvers<ContextType = any, ParentType extends ResolversParent
 
 export type GuideCardResolvers<ContextType = any, ParentType extends ResolversParentTypes['GuideCard'] = ResolversParentTypes['GuideCard']> = {
   item?: Resolver<Maybe<ResolversTypes['Card']>, ParentType, ContextType>;
+  optional?: Resolver<Maybe<ResolversTypes['Boolean']>, ParentType, ContextType>;
   priority?: Resolver<Maybe<ResolversTypes['Int']>, ParentType, ContextType>;
   __isTypeOf?: IsTypeOfResolverFn<ParentType, ContextType>;
 };

@@ -81,6 +81,16 @@ export function cardsRepository() {
               title: content.title,
             };
           }),
+          fiapContents: fileContent["fiap-contents"]?.map((content) => {
+            const slug = slugify(content.title);
+            return {
+              ...content,
+              type: content.type.toUpperCase(),
+              id: slug,
+              slug: slug,
+              title: content.title,
+            };
+          }),
         };
       });
 
