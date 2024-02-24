@@ -17,6 +17,8 @@ function withLocalePrefix(
   locale: string,
   isExternalURL: boolean
 ) {
+  const isAnchor = href?.startsWith("#");
+  if (isAnchor) return href;
   if (isExternalURL) return href;
 
   const urlLocale = urlLocaleBySiteLocale[locale];

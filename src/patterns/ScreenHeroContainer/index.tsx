@@ -7,6 +7,7 @@ import SecondContentSection from "./patterns/SecondContentSection";
 import FAQContentSection from "./patterns/FAQContentSection";
 import HeroTitle from "./patterns/HeroTitle";
 import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
+import { LanguageSwitch } from "./patterns/LanguageSwitch/LanguageSwitch";
 
 interface ScreenHeroContainerProps {
   guide?: PathScreenGetGuideBySlugQuery["guide"];
@@ -28,6 +29,7 @@ export default function ScreenHeroContainer({
           overflow: "hidden",
         }}
       >
+        <LanguageSwitch />
         <Box
           styleSheet={{
             width: "100%",
@@ -45,10 +47,6 @@ export default function ScreenHeroContainer({
               alignItems: "center",
               backgroundSize: "cover",
               color: "#FFFFFF",
-              padding: {
-                xs: "2.8125em 0",
-                md: "5em 0",
-              },
             }}
             tag="section"
           >
