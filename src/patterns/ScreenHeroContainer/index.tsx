@@ -39,6 +39,10 @@ export default function ScreenHeroContainer({
               xs: "1rem",
               md: "2.5rem",
             },
+            paddingBottom: {
+              xs: "4rem",
+              md: "6rem",
+            },
           }}
         >
           <Box

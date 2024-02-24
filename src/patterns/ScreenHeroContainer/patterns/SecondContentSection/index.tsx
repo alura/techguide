@@ -34,7 +34,8 @@ export default function SecondContentSection() {
             md: "0",
           },
           paddingHorizontal: {
-            xs: "1.875rem",
+            xs: "0",
+            md: "1.875rem",
           },
           alignItems: {
             xs: "center",
@@ -86,11 +87,11 @@ export default function SecondContentSection() {
               lineHeight: "180%",
               backgroundColor: {
                 xs: "rgba(0, 0, 0, 0.5)",
-                md: "transparent",
+                md: "#080F1B",
               },
-              width: "275px",
               borderRadius: "1000px",
               paddingVertical: "9px",
+              paddingHorizontal: "20px",
             }}
             i18nKey="SCREEN_HERO_CONTAINER.PRE_TITLE"
           />
@@ -126,6 +127,7 @@ export default function SecondContentSection() {
               fontSize: "1rem",
               color: "#8992a1",
               marginBottom: "2.5em",
+              lineHeight: "1.8",
               width: {
                 xs: "240px",
                 md: "auto",

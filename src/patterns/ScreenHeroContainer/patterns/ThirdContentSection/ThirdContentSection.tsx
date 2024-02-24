@@ -27,6 +27,7 @@ export function ThirdContentSection() {
         styleSheet={{
           alignItems: "center",
           justifyContent: "center",
+          paddingHorizontal: "20px",
           maxWidth: "80rem",
           width: "100%",
           margin: "0 auto",
@@ -138,6 +139,10 @@ export function ThirdContentSection() {
                 fontSize: "16px",
                 lineHeight: "180%",
                 color: "#8992A1",
+                textAlign: {
+                  xs: "center",
+                  md: "left",
+                },
               }}
               i18nKey="7DAYSOFCODE.DESCRIPTION"
             />
