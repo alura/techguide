@@ -44,6 +44,7 @@ const typeDefs = gql`
     aditionalObjectives: [CardAditionalObjective]
     contents: [CardContent]
     aluraContents: [CardContent]
+    fiapContents: [CardContent]
     expertises: [GuideExpertise]
     collaborations: [GuideCollaboration]
   }
