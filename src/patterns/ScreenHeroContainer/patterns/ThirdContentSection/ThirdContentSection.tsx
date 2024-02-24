@@ -32,7 +32,7 @@ export function ThirdContentSection() {
           width: "100%",
           margin: "0 auto",
           flexDirection: {
-            xs: "column-reverse",
+            xs: "column-reverse" as any,
             md: "row",
             lg: "row",
           },
