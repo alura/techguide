@@ -1,11 +1,13 @@
 import React from "react";
 import { Box, Link } from "@src/components";
-import { useI18n } from "@src/infra/i18n";
+import { useI18n, useI18nLocale } from "@src/infra/i18n";
+import { SiteLocale } from "@src/gql_types";
 
 const languages = [
   {
     label: "PT",
-    link: "https://techguide.sh/",
+    link: "/",
+    locale: "PT_BR",
     flag: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 9">
         <g opacity=".8">
@@ -40,7 +42,8 @@ const languages = [
   },
   {
     label: "EN",
-    link: "https://techguide.sh/en-US",
+    link: "/",
+    locale: "EN_US",
     flag: (
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 9">
         <path
@@ -64,7 +67,8 @@ const languages = [
   },
   {
     label: "ES",
-    link: "https://techguide.sh/es",
+    link: "/",
+    locale: "ES",
     flag: (
       <svg
         width="12"
@@ -116,6 +120,7 @@ const languages = [
 
 export function LanguageSwitch() {
   const i18n = useI18n();
+  const siteLocale = useI18nLocale();
   return (
     <Box
       styleSheet={{
@@ -154,11 +159,12 @@ export function LanguageSwitch() {
             },
           }}
         >
-          {languages.map(({ label, flag, link }) => {
+          {languages.map(({ label, flag, link, locale }) => {
             return (
               <Link
-                key={link}
+                key={locale}
                 href={link}
+                locale={locale as SiteLocale}
                 styleSheet={{
                   border: "1px solid #D1DAF8",
                   borderRadius: "10000px",
@@ -177,10 +183,13 @@ export function LanguageSwitch() {
                   fontSize: "12px",
                   fontWeight: "500",
                   hover: {
-                    opacity: 1,
                     backgroundColor: "#233346",
                     border: "1px solid #43E1EB",
                   },
+                  ...(locale === siteLocale && {
+                    backgroundColor: "#233346",
+                    border: "1px solid #43E1EB",
+                  }),
                 }}
               >
                 <Box
