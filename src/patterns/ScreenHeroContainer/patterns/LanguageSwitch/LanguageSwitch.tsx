@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Link } from "@src/components";
+import { useI18n } from "@src/infra/i18n";
 
 const languages = [
   {
@@ -114,6 +115,7 @@ const languages = [
 ];
 
 export function LanguageSwitch() {
+  const i18n = useI18n();
   return (
     <Box
       styleSheet={{
@@ -139,7 +141,7 @@ export function LanguageSwitch() {
             alignItems: "flex-start",
           }}
         >
-          <Link href="#7days-of-code">Pratique Agora!</Link>
+          <Link href="#7days-of-code">{i18n.content("7DAYSOFCODE.CTA")}</Link>
         </Box>
         <Box
           tag="nav"

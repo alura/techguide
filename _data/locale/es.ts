@@ -117,6 +117,12 @@ export default {
     },*/
   ],
   "IMAGES.DISCOVER_IMAGE": "/assets/image/discover-illustration-es.svg",
+  "7DAYSOFCODE.PRE_TITLE": "<Emoji name='star'/> ¡Retarte a ti mismo!",
+  "7DAYSOFCODE.TITLE": "Pon en práctica tus conocimientos en <strong>desafíos diarios</strong>",
+  "7DAYSOFCODE.DESCRIPTION": "Siete desafíos. En la tecnología estás aprendiendo. Practica, estudia y muestra tu portafolio.",
+  "7DAYSOFCODE.CTA": "¡Practica ahora!",
+  "7DAYSOFCODE.CTA_LINK": "https://7daysofcode.io/",
+  "7DAYSOFCODE.IMAGE": "/assets/image/home-illustration-three.svg",
   
   "FOOTER.YOUTUBE": "https://www.youtube.com/@AluraLatam",
   "FOOTER.FACEBOOK": "https://www.facebook.com/aluracursoslatam/",
