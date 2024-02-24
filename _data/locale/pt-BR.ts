@@ -122,6 +122,7 @@ export default {
     },
   ],
   "IMAGES.DISCOVER_IMAGE": "/assets/image/discover-illustration.svg",
+  "IMAGES.7DAYSOFCODE": "/assets/image/home-illustration-three.svg",
   "FOOTER.YOUTUBE": "https://youtube.com/aluracursosonline",
   "FOOTER.FACEBOOK": "https://www.facebook.com/AluraCursosOnline/",
   "FOOTER.INSTAGRAM": "https://www.instagram.com/aluraonline/",

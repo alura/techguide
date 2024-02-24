@@ -8,6 +8,7 @@ import FAQContentSection from "./patterns/FAQContentSection";
 import HeroTitle from "./patterns/HeroTitle";
 import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
 import { LanguageSwitch } from "./patterns/LanguageSwitch/LanguageSwitch";
+import { ThirdContentSection } from "./patterns/ThirdContentSection/ThirdContentSection";
 
 interface ScreenHeroContainerProps {
   guide?: PathScreenGetGuideBySlugQuery["guide"];
@@ -103,6 +104,7 @@ export default function ScreenHeroContainer({
       </Box>
       <FirstContentSection />
       <SecondContentSection />
+      <ThirdContentSection />
       <FAQContentSection questions={guide?.faq} />
       <Footer />
     </>
