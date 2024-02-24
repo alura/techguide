@@ -124,7 +124,7 @@ export default {
   "IMAGES.DISCOVER_IMAGE": "/assets/image/discover-illustration.svg",
   "7DAYSOFCODE.PRE_TITLE": "<Emoji name='star'/> Desafie-se!",
   "7DAYSOFCODE.TITLE": "Coloque em prática os seus conhecimentos em <strong>desafios diários</strong>",
-  "7DAYSOFCODE.DESCRIPTION": "Sete desafios. Na tecnologia que você está aprendendo. Pratique, estude e mostre seu portfolio.",
+  "7DAYSOFCODE.DESCRIPTION": "Desafios em 7 dias. Na tecnologia que você está aprendendo. Pratique, estude e mostre seu portfolio.",
   "7DAYSOFCODE.CTA": "Pratique agora!",
   "7DAYSOFCODE.CTA_LINK": "https://7daysofcode.io/",
   "7DAYSOFCODE.IMAGE": "/assets/image/home-illustration-three.svg",
