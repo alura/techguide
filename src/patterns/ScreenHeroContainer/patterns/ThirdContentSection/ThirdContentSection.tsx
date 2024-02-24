@@ -27,7 +27,7 @@ export function ThirdContentSection() {
     >
       <Box>
         <Image
-          src={i18n.content("IMAGES.7DAYSOFCODE")}
+          src={i18n.content("7DAYSOFCODE.IMAGE")}
           alt="Descubra!"
           styleSheet={{
             width: {
@@ -71,19 +71,29 @@ export function ThirdContentSection() {
             borderRadius: "1000px",
             paddingVertical: "9px",
           }}
-        >
-          Desafie-se
-        </Text>
-        <Text>
-          Coloque em prática os seus conhecimentos em{" "}
-          <strong color="#F9FF00">desafios diários</strong>
-        </Text>
-        <Text>
-          Sete desafios. Na tecnologia que você está aprendendo. Pratique,
-          estude e mostre seu portfolio.
-        </Text>
+          i18nKey="7DAYSOFCODE.PRE_TITLE"
+        />
+        <Text
+          i18nKey="7DAYSOFCODE.TITLE"
+          i18nKeyReplace={{
+            strong: ({ children }) => (
+              <Text
+                tag="strong"
+                styleSheet={{
+                  color: "#F9FF00",
+                  fontWeight: "600",
+                  fontSize: "0.875rem",
+                  lineHeight: "180%",
+                }}
+              >
+                {children}
+              </Text>
+            ),
+          }}
+        />
+        <Text i18nKey="7DAYSOFCODE.DESCRIPTION" />
         <Link
-          href="https://7daysofcode.io/"
+          href={i18n.content("7DAYSOFCODE.CTA_LINK")}
           styleSheet={{
             alignSelf: {
               xs: "center",
@@ -109,7 +119,7 @@ export function ThirdContentSection() {
             },
           }}
         >
-          Pratique agora
+          {i18n.content("7DAYSOFCODE.CTA")}
         </Link>
       </Box>
     </Box>
