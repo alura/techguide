@@ -30,6 +30,7 @@ export const getStaticProps = async (ctx) => {
         title,
         keyObjectives: card?.item?.keyObjectives || [],
         aluraContents: card?.item?.aluraContents || [],
+        fiapContents: card?.item?.fiapContents || [],
         contents: card?.item?.contents || [],
       },
     },
