@@ -17,6 +17,8 @@ function withLocalePrefix(
   locale: string,
   isExternalURL: boolean
 ) {
+  const isAnchor = href?.startsWith("#");
+  if (isAnchor) return href;
   if (isExternalURL) return href;
 
   const urlLocale = urlLocaleBySiteLocale[locale];
@@ -31,13 +33,24 @@ function withLocalePrefix(
 interface LinkProps {
   href: string;
   target?: string;
+  locale?: SiteLocale;
   children: React.ReactNode;
   styleSheet?: StyleSheet;
 }
-function Link({ href, children, styleSheet, ...props }: LinkProps) {
+function Link({
+  href,
+  children,
+  locale: receivedLocale,
+  styleSheet,
+  ...props
+}: LinkProps) {
   const locale = useI18nLocale();
   const isExternalURL = href?.startsWith("http");
-  const hrefNormalized = withLocalePrefix(href, locale, isExternalURL);
+  const hrefNormalized = withLocalePrefix(
+    href,
+    receivedLocale || locale,
+    isExternalURL
+  );
 
   return (
     <NextLink href={hrefNormalized} passHref>

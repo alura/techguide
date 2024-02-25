@@ -117,11 +117,15 @@ export default function FirstContentSection() {
               lineHeight: "180%",
               backgroundColor: {
                 xs: "rgba(0, 0, 0, 0.5)",
-                md: "transparent",
+                md: "#080F1B",
               },
-              width: "275px",
+              width: {
+                xs: "275px",
+                md: "auto",
+              },
               borderRadius: "1000px",
               paddingVertical: "9px",
+              paddingHorizontal: "20px",
             }}
             i18nKey="SCREEN_HERO_CONTAINER.PRE_TITLE"
           />
@@ -155,6 +159,7 @@ export default function FirstContentSection() {
               fontFamily: "'Inter', sans-serif",
               fontSize: "1rem",
               color: "#8992a1",
+              lineHeight: "1.8",
               marginBottom: "2.5em",
               width: {
                 xs: "240px",
