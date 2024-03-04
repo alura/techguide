@@ -1,0 +1,79 @@
+expertise:
+  - 
+    name: Kotlin Back-end
+    blocks: 
+      - kotlin-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 10
+      - data-structures:
+      - priority: 9
+      - kotlin-errorhandling:
+        priority: 9
+      - kotlin-collections:
+        priority: 8
+      - kotlin-extensions:
+        priority: 8
+      - java-functional-programming:
+        priority: 7
+      
+  -
+    name: Kotlin
+    blocks:
+      - jvm:
+        priority: 9
+      - kotlin-memory-management:
+        priority: 9        
+      - spring-framework:
+        priority: 9
+     - kotlin-spring-boot:
+        priority: 8
+     - kotlin-coroutines:
+        priority: 8
+     - kotlin-multiplatform:
+        priority: 8
+      
+  -
+    name: Kotlin in depth
+    blocks:
+      - java-microservices:
+        priority: 7
+      - containers:
+        priority: 6
+      - kotlin-type-safe-builders:
+        priority: 5
+      - kotlin-scope-functions:
+        priority: 5
+      - kotlin-date-serialization:
+        priority: 5
+      - kotlin-kdoc:
+        priority: 4
+        
+collaboration:
+  -
+    name: Infra e Back-end
+    blocks:
+        - git-and-github-fundamentals:
+          priority: 9
+        - http-fundamentals:
+          priority: 10
+        - test-driven-development:
+          priority: 7
+        - design-patterns:
+          priority: 6
+        - json:
+          priority: 8
+        - command-line-fundamentals: 
+          priority: 8
+        - cloud-fundamentals: 
+          priority: 6
+          optional: true
+   -
+    name: Front-end
+    blocks:
+        - html-fundamentals:
+          priority: 6
+        - javascript-fundamentals:
+          priority: 5
+        - css-fundamentals:
+          priority: 4
