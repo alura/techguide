@@ -1,0 +1,26 @@
+name: Kotlin - Coroutines
+logo: 
+short-description:
+key-objectives:
+  - A programação assíncrona ou sem bloqueio é uma parte importante do cenário de desenvolvimento. Ao criar aplicativos do lado do servidor, desktop ou dispositivos móveis, é importante fornecer uma experiência que não seja apenas fluida do ponto de vista do usuário, mas também escalável quando necessário.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Kotlin: Coroutines (inglês)"
+    link: https://kotlinlang.org/docs/coroutines-overview.html
+  - type: SITE
+    title: "Documentação Kotlin: Coroutines guide"
+    link: https://kotlinlang.org/docs/coroutines-guide.html 
+  - type: SITE
+    title: "Introdução a coroutines em Kotlin (inglês)"
+    link: https://www.baeldung.com/kotlin/coroutines    
+alura-contents:
+  - type: SITE
+    title: "Tratamento de erros e cancelamento de Coroutines do Kotlin"
+    link: https://cursos.alura.com.br/extra/alura-mais/tratamento-de-erros-e-cancelamento-de-coroutines-do-kotlin-c86 
+  - type: SITE
+    title: "Websérie - Operações Assíncronas com Coroutines no Kotlin"
+    link: https://cursos.alura.com.br/extra/webseries-coroutines-kotlin/operacoes-assincronas-no-kotlin-1-apresentacao-w1225 
+  - type: COURSE
+    title: "Kotlin: aplicações resilientes e assíncronas"
+    link: https://cursos.alura.com.br/course/kotlin-aplicacoes-resilientes-assincronas
