@@ -1,0 +1,22 @@
+name: Kotlin - Collections
+logo: 
+short-description:
+key-objectives:
+  - Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
+  - Aprender os usos e diferenças entre List, Set e Map
+  - Aprender os usos e diferenças entre read only e mutable
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Kotlin: Visão geral das coleções (inglês)"
+    link: https://kotlinlang.org/docs/collections-overview.html
+  - type: SITE
+    title: "Documentação Kotlin: Coleções (inglês)"
+    link: https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-collection/
+  - type: SITE
+    title: "Coleções em Kotlin"
+    link: https://www.codingame.com/playgrounds/70522/fundamentos-de-kotlin/colecoes    
+  - type: ARTICLE
+    title: "Guia de coleções Kotlin (inglês)"
+    link: https://www.baeldung.com/kotlin/kotlin-collection-guide
+alura-contents:

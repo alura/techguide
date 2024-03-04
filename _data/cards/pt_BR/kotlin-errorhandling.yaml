@@ -1,0 +1,31 @@
+name: Kotlin - Manipulação de erros
+logo: 
+short-description:
+key-objectives:
+  - O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.
+  - Tratar exceções pré-definidas
+  - Uso de 'try' e 'catch'
+  - Criar exceções específicas
+  - Fazer o processo de Debug
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Kotlin: Exceções (inglês)"
+    link: https://kotlinlang.org/docs/exceptions.html
+  - type: ARTICLE
+    title: "Documentação Kotlin: Kotlin try catch (inglês)"
+    link: https://www.javatpoint.com/kotlin-try-catch
+  - type: ARTICLE
+    title: "Tratamento de exceções em Kotlin (inglês)"
+    link: https://www.baeldung.com/kotlin/exception-handling
+  - type: ARTICLE
+    title: "Diferença entre runCatching e try/finally em Kotlin (inglês)"
+    link: https://www.baeldung.com/kotlin/runcatching-vs-try-finally
+  - type: ARTICLE
+    title: "Tratamento de exceções em Kotlin com exemplos"
+    link: https://acervolima.com/tratamento-de-excecoes-em-kotlin-com-exemplos/
+
+
+
+
+
