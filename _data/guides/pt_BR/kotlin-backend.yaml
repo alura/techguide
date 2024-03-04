@@ -48,7 +48,7 @@ expertise:
         priority: 4       
 collaboration:
   - name: Infraestrutura
-    blocks:
+    cards:
         - git-and-github-fundamentals:
           priority: 9
         - http-fundamentals:
@@ -64,11 +64,11 @@ collaboration:
         - cloud-fundamentals: 
           priority: 6
           optional: true
-   - name: Front-end
-     cards:
-        - html-fundamentals:
-          priority: 6
-        - javascript-fundamentals:
-          priority: 5
-        - css-fundamentals:
-          priority: 4
+  - name: Front-end
+    cards:
+      - html-fundamentals:
+        priority: 6
+      - javascript-fundamentals:
+        priority: 5
+      - css-fundamentals:
+        priority: 4
