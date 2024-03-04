@@ -1,13 +1,15 @@
+name: Kotlin
+tags:
+  - back-end
 expertise:
-  - 
-    name: Kotlin Back-end
-    blocks: 
+  - name: Kotlin Back-end Jr
+    cards: 
       - kotlin-fundamentals:
         priority: 10
       - oop-concepts:
         priority: 10
       - data-structures:
-      - priority: 9
+        priority: 9
       - kotlin-errorhandling:
         priority: 9
       - kotlin-collections:
@@ -16,26 +18,22 @@ expertise:
         priority: 8
       - java-functional-programming:
         priority: 7
-      
-  -
-    name: Kotlin
-    blocks:
+  - name: Kotlin Back-end Mid
+    cards:
       - jvm:
         priority: 9
       - kotlin-memory-management:
         priority: 9        
       - spring-framework:
         priority: 9
-     - kotlin-spring-boot:
+      - kotlin-spring-boot:
         priority: 8
-     - kotlin-coroutines:
+      - kotlin-coroutines:
         priority: 8
-     - kotlin-multiplatform:
+      - kotlin-multiplatform:
         priority: 8
-      
-  -
-    name: Kotlin in depth
-    blocks:
+  - name: Kotlin in depth
+    cards:
       - java-microservices:
         priority: 7
       - containers:
@@ -47,11 +45,9 @@ expertise:
       - kotlin-date-serialization:
         priority: 5
       - kotlin-kdoc:
-        priority: 4
-        
+        priority: 4       
 collaboration:
-  -
-    name: Infra e Back-end
+  - name: Infraestrutura
     blocks:
         - git-and-github-fundamentals:
           priority: 9
@@ -68,9 +64,8 @@ collaboration:
         - cloud-fundamentals: 
           priority: 6
           optional: true
-   -
-    name: Front-end
-    blocks:
+   - name: Front-end
+     cards:
         - html-fundamentals:
           priority: 6
         - javascript-fundamentals:
