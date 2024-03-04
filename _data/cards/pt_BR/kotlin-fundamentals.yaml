@@ -14,38 +14,42 @@ key-objectives:
   - Exceptions e Throwables
   - Convenções de código
   - Manipular Coleções, arrays e listas
-  - Recursos do Paradigma funcional
   - Orientação a Objetos com Kotlin (Properties, Data class, Companion Objects, Delegation)
+  - Receber dados de uma API
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Documentação Kotlin: Começando com Kotlin (inglês)"
+    title: "Documentação Kotlin: começando com Kotlin (inglês)"
     link: https://kotlinlang.org/docs/getting-started.html
   - type: SITE
     title: "Documentação Kotlin: Tipos Básicos e Kotlin (inglês)"
-    link: https://kotlinlang.org/docs/basic-types.html
+    link: https://kotlinlang.org/docs/basic-types.html 
   - type: SITE
     title: "Documentação Kotlin: Sintaxe básica do Kotlin(inglês)"
-    link: https://kotlinlang.org/docs/basic-syntax.html
+    link: https://kotlinlang.org/docs/basic-syntax.html 
   - type: SITE
     title: "Documentação Kotlin: Convenções de código do Kotlin (inglês)"
-    link: https://kotlinlang.org/docs/coding-conventions.html
+    link: https://kotlinlang.org/docs/coding-conventions.html 
+  - type: SITE
+    title: "Explorando a documentação: Números em Kotlin"
+    link: https://dev.to/kotlinautas/explorando-a-documentacao-numeros-em-kotlin-15go 
   - type: ARTICLE
     title: "Kotlin - Variáveis e Nullable"
-    link: https://medium.com/luizalabs/kotlin-vari%C3%A1veis-e-nullable-8dd977bc376d
+    link: https://medium.com/luizalabs/kotlin-vari%C3%A1veis-e-nullable-8dd977bc376
   - type: YOUTUBE
     title: "Kotlin // Dicionário do Programador"
     link: https://youtu.be/BfjRYBN7Ur8
 alura-contents:
-  - type: YOUTUBE
-    title: "Desenvolvimento de apps mobile com Kotlin | Hipsters.Talks"
-    link: https://www.youtube.com/watch?v=TKYDpbO5KcI&ab_channel=AluraCursosOnline
+  - type: ARTICLE
+    title: "Linguagem Kotlin: o que é, para que serve e um Guia para aprender"
+    link: https://www.alura.com.br/artigos/kotlin
   - type: PODCAST
-    title: "Case Contabilizei: Kotlin - Hipsters Ponto Tech #310"
+    title: "Case Contabilizei: Kotlin - Hipsters Ponto Tech"
     link: https://www.hipsters.tech/case-contabilizei-kotlin-hipsters-ponto-tech-310/
   - type: COURSE
-    title: "Formação Linguagem Kotlin"
+    title: "Formação Kotlin"
     link: https://cursos.alura.com.br/formacao-kotlin
   - type: CHALLENGE
     title: "7 Days of Code: Kotlin"
     link: https://7daysofcode.io/matricula/kotlin
+  

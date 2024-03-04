@@ -1,0 +1,20 @@
+name: Kotlin - Gerenciamento de memória
+logo: 
+short-description:
+key-objectives:
+  - O gerenciamento de memória é o processo de alocação e desalocação de objetos, chamado de gerenciamento de memória. Kotlin faz o gerenciamento de memória automaticamente. Kotlin usa um sistema de gerenciamento automático de memória chamado de Garbage Collector (coletor de lixo). Assim, não somos obrigados a implementar a lógica de gerenciamento de memória em nossa aplicação.
+  - Entender como funciona a memória e seu gerenciamento em Kotlin
+  - Entender como funciona a memória o Garbage Collector
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Kotlin: Gerenciamento de memória nativa no Kotln (inglês)"
+    link: https://kotlinlang.org/docs/native-memory-manager.html
+  - type: ARTICLE
+    title: "Gerenciamento de Memória em Kotlin: Compreendendo o Garbage Collection"
+    link: https://www.linkedin.com/pulse/gerenciamento-de-mem%C3%B3ria-em-kotlin-compreendendo-o-de-oliveira/?originalSubdomain=pt
+  - type: YOUTUBE
+    title: "Dias de Dev: Estratégias de gestão de memória - O que é Garbage Collector"
+    link: https://www.youtube.com/watch?v=SZqp3_Mw9zk
+alura-contents:
+  
