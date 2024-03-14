@@ -1,0 +1,36 @@
+name: Micro Frontends
+logo:
+short-description:
+key-objectives:
+  - Micro Frontends são uma abordagem arquitetural na qual uma aplicação web é dividida em partes independentes, cada uma representando uma parte específica da interface do usuário.
+  - Divide uma aplicação web em partes independentes, facilitando o desenvolvimento e a manutenção.
+  - Possibilita a implantação e atualização contínua de partes específicas da aplicação sem afetar o aplicativo como um todo.
+  - Permite que equipes trabalhem de forma independente em diferentes partes da aplicação.
+  - Integra diferentes tecnologias e frameworks para desenvolver microfrontends, como React, Angular, Vue.js, entre outros.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Micro Frontends"
+    link: https://medium.com/@lorenamelor/micro-frontends-ac0e5d87582a
+  - type: ARTICLE
+    title: "O poder dos Micro-Frontends: Uma abordagem moderna para a Arquitetura Frontend"
+    link: https://aws.amazon.com/pt/blogs/aws-brasil/o-poder-dos-micro-frontends-uma-abordagem-moderna-para-a-arquitetura-frontend/
+  - type: YOUTUBE
+    title: "Implementando micro front-end com Single SPA e React"
+    link: https://youtu.be/68LaXOWwxZI?si=PM2te6z9l1QymshI
+alura-contents:
+  - type: PODCAST
+    title: "Microfrontends – Hipsters #164"
+    link: https://www.hipsters.tech/microfrontends-hipsters-164/
+  - type: PODCAST
+    title: "Micro Frontends na Conta Azul – Hipsters On The Road #26"
+    link: https://www.hipsters.tech/micro-frontends-no-conta-azul-hipsters-on-the-road-26/
+  - type: SITE
+    title: "Plurall e a Evolução da Arquitetura Front-End"
+    link: https://cursos.alura.com.br/extra/cases/plurall-e-a-evolucao-da-arquitetura-front-end-z1064
+  - type: SITE
+    title: "Klarna e a Evolução da Arquitetura Front-End"
+    link: https://cursos.alura.com.br/extra/cases/klarna-e-a-evolucao-da-arquitetura-front-end-z1283
+  - type: SITE
+    title: "Idwall e a Evolução da stack de Javascript"
+    link: https://cursos.alura.com.br/extra/cases/idwall-e-a-evolucao-da-stack-de-javascript-z1290

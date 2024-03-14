@@ -1,9 +1,9 @@
 name: Front-end
-tags: 
+tags:
   - front-end
 expertise:
   - name: Front-end JavaScript Jr
-    cards: 
+    cards:
       - html-fundamentals:
         priority: 10
       - css-fundamentals:
@@ -56,6 +56,9 @@ expertise:
       - apollo-client:
         priority: 5
         optional: true
+      - micro-frontend:
+        priority: 5
+        optional: true
 collaboration:
   - name: Infraestrutura e Back-end
     cards:
@@ -65,9 +68,9 @@ collaboration:
         priority: 10
       - json:
         priority: 8
-      - command-line-fundamentals: 
+      - command-line-fundamentals:
         priority: 7
-      - cloud-fundamentals: 
+      - cloud-fundamentals:
         priority: 6
         optional: true
       - yarn:
