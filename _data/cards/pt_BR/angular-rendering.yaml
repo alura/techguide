@@ -7,6 +7,9 @@ key-objectives:
   - Realizar renderização no lado do servidor
 aditional-objectives:
 contents:
+  - type: SITE
+    title: "Documentação Angular Server-Side Rendering (inglês)"
+    link: https://angular.dev/guide/ssr#enable-server-side-rendering
   - type: ARTICLE
     title: "Angular Universal — Renderizando sua aplicação no Servidor"
     link: https://medium.com/@arturquirino/angular-universal-renderizando-sua-aplica%C3%A7%C3%A3o-no-servidor-f9ac617237d2

@@ -14,7 +14,7 @@ aditional-objectives:
 contents:
   - type: SITE
     title: "Documentação Angular (inglês)"
-    link: https://angular.io/docs
+    link: https://angular.dev/overview
   - type: ARTICLE
     title: "Bê-á-bá do Angular"
     link: https://belmirofss.medium.com/b%C3%AA-%C3%A1-b%C3%A1-do-angular-8f23a109b4fc
@@ -28,15 +28,27 @@ contents:
     title: "Loiane Groner: Curso Angular 2"
     link: https://www.youtube.com/watch?v=tPOMG0D57S0&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G
 alura-contents:
+  - type: ARTICLE
+    title: "Angular: o que é, para que serve e um Guia para iniciar no framework JavaScript"
+    link: https://www.alura.com.br/artigos/angular-js
+  - type: ARTICLE
+    title: "Como começar com Angular"
+    link: https://www.alura.com.br/artigos/como-comecar-com-angular
+  - type: ARTICLE
+    title: "Angular: como funciona um componente?"
+    link: https://www.alura.com.br/artigos/angular-como-funciona-um-componente
   - type: PODCAST
     title: "Hipsters.tech: Evoluções no Angular e Outros Frameworks Front-End – Hipsters Ponto Tech #383"
     link: https://www.hipsters.tech/evolucoes-no-angular-e-outros-frameworks-front-end-hipsters-ponto-tech-383/
   - type: YOUTUBE
     title: "Alura: O que é Angular e AngularJS?"
     link: https://www.youtube.com/watch?v=LFlNU30u7d8
-  - type: YOUTUBE
-    title: "Alura: Programação Reativa - Alura Live 54"
-    link: https://www.youtube.com/watch?v=N0ie4xe48Ng
   - type: COURSE
-    title: "Formação Angular"
+    title: "Formação Angular: crie aplicações web ágeis"
+    link: https://www.alura.com.br/formacao-angular-crie-aplicacoes-web-ageis
+  - type: COURSE
+    title: "Formação: Explore o Framework Angular"
     link: https://www.alura.com.br/formacao-angular
+
+
+

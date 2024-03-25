@@ -5,9 +5,6 @@ key-objectives:
   - Em Angular, templates são um modelo para um fragmento de uma interface de usuário (IU). Templates são escritos em HTML, e uma sintaxe especial pode ser usada dentro de um template para construir com base em muitas das características do Angular.
 aditional-objectives:
 contents:
-  - type: SITE
-    title: "Templates do Angular"
-    link: https://fsw-ceulp.gitbooks.io/desenvolvimento-de-software-para-a-web/content/angular-tutorial/passo-2.html
   - type: ARTICLE
     title: "Angular: NgTemplate"
     link: https://medium.com/criciumadev/angular-ngtemplate-d59b32d47d01
@@ -25,5 +22,5 @@ alura-contents:
     title: "Curso Angular: explorando o framework"
     link: https://www.alura.com.br/curso-online-angular-comecando-framework
   - type: COURSE
-    title: "Curso Angular: design de componentes com acessibilidade"
-    link: https://www.alura.com.br/curso-online-angular-introducao-componentes-acessibilidade
+    title: "Acessibilidade no Angular: aprimorando formulários, modais e rotas"
+    link: https://www.alura.com.br/curso-online-acessibilidade-angular-formularios-modais-rotas
