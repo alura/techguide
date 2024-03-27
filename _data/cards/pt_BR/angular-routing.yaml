@@ -8,8 +8,8 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
-    title: "Router tutorial (inglês)"
-    link: https://angular.io/guide/router-tutorial
+    title: "Angular Routing (inglês)"
+    link: https://angular.dev/guide/routing
   - type: ARTICLE
     title: "Angular 5: Trabalhando com Rotas"
     link: https://medium.com/angularbr/angular-5-trabalhando-com-rotas-8335617fcdbc
@@ -23,6 +23,9 @@ contents:
     title: "Loiane Groner: Rotas - Configurando rotas simples"
     link: https://www.youtube.com/watch?v=8OHoAZ6j0Rg&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=52
 alura-contents:
+  - type: ARTICLE
+    title: "Como usar a Guarda de Rotas Funcional em Angular?"
+    link: https://www.alura.com.br/artigos/guarda-de-rotas-funcional-angular
   - type: SITE
     title: "Primeiras aulas do curso Angular: controle o fluxo de navegação"
     link: https://www.alura.com.br/conteudo/angular-comecando-framework
