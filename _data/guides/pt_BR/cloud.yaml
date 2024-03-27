@@ -1,0 +1,67 @@
+expertise:
+  - name: Cloud Computing Jr
+    cards:
+      - cloud-fundamentals:
+          priority: 10
+      - virtualization-fundamentals:
+          priority: 9
+      - storage-solutions:
+          priority: 8
+      - networking-in-the-cloud:
+          priority: 8
+      - security-basics-in-cloud:
+          priority: 8
+      - iaas-paas-saas-differences:
+          priority: 7
+      - cloud-service-providers-overview:
+          priority: 7
+  - name: Cloud Computing Mid
+    cards:
+      - cloud-architecture-design:
+          priority: 9
+      - disaster-recovery-and-business-continuity:
+          priority: 8
+      - cloud-security-best-practices:
+          priority: 8
+      - managing-cloud-infrastructure:
+          priority: 7
+      - cloud-monitoring-and-optimization:
+          priority: 7
+      - containerization-in-cloud:
+          priority: 7
+      - serverless-architectures:
+          priority: 6
+  - name: Cloud Computing in depth
+    cards:
+      - advanced-networking:
+          priority: 8
+      - hybrid-and-multi-cloud-environments:
+          priority: 8
+      - cloud-governance-and-compliance:
+          priority: 7
+      - cloud-automation-and-orchestration:
+          priority: 7
+      - cloud-native-applications:
+          priority: 6
+      - devops-in-cloud:
+          priority: 6
+collaboration:
+  - name: Development
+    cards:
+      - api-development-and-management:
+          priority: 9
+      - microservices:
+          priority: 8
+      - ci-cd:
+          priority: 7
+      - software-testing-in-cloud:
+          priority: 7
+  - name: Data Science
+    cards:
+      - big-data-analytics:
+          priority: 8
+      - mlops:
+          priority: 7
+      - data-warehouses:
+          priority: 7
+
