@@ -1,0 +1,18 @@
+name: Storage Solutions
+logo: 
+short-description:
+key-objectives: As soluções de armazenamento em nuvem oferecem uma maneira segura e escalável para armazenar dados online, acessíveis de qualquer lugar com internet. Existem vários tipos de serviços de armazenamento, como armazenamento de objetos, blocos e arquivos, cada um com seus casos de uso específicos.
+  - Compreender os diferentes tipos de armazenamento em nuvem (objeto, bloco, arquivo).
+  - Aprender a selecionar o tipo de armazenamento adequado para diferentes cenários de uso.
+  - Conhecer as práticas recomendadas para segurança e gerenciamento de dados.
+  - Explorar os serviços de armazenamento dos principais provedores de nuvem (AWS S3, Azure Blob Storage, Google Cloud Storage).
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Guia definitivo dos tipos de armazenamento em nuvem"
+    link: https://www.ibm.com/cloud/blog/storage-types
+alura-contents:
+  - type: COURSE
+    title: "Amazon S3: Manipule e armazene objetos na nuvem"
+    link: https://cursos.alura.com.br/course/amazon-s3-manipule-armazene-objetos-nuvem
+

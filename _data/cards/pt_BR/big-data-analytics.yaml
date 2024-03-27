@@ -1,0 +1,18 @@
+name: Big Data Analytics
+logo: 
+short-description: Big Data Analytics envolve o processamento, análise e interpretação de vastos conjuntos de dados para revelar padrões, tendências e insights que podem informar decisões de negócios inteligentes. Utiliza tecnologias avançadas como Hadoop, Spark e ferramentas de análise de dados para processar e analisar grandes volumes de dados rapidamente.
+key-objectives:
+  - Compreender os conceitos fundamentais de Big Data, incluindo os 5 Vs (Volume, Velocidade, Variedade, Veracidade e Valor).
+  - Aprender a utilizar ferramentas e plataformas para coleta, armazenamento, processamento e análise de Big Data.
+  - Explorar técnicas de análise de dados, como mineração de dados, aprendizado de máquina e inteligência artificial, para extrair insights valiosos.
+  - Avaliar casos de uso de Big Data Analytics em diferentes indústrias para melhorar a eficiência operacional, a experiência do cliente e a inovação.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "O que é Big Data Analytics e por que é importante?"
+    link: https://www.oracle.com/br/big-data/what-is-big-data-analytics/
+alura-contents:
+  - type: COURSE
+    title: "Formação Apache Spark com Python"
+    link: https://cursos.alura.com.br/formacao-apache-spark-python
+

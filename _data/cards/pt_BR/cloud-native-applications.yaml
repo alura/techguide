@@ -1,0 +1,18 @@
+name: Aplicações Cloud-Native
+logo: 
+short-description: Aplicações nativas da nuvem são projetadas para aproveitar os benefícios da computação em nuvem, como escalabilidade, flexibilidade e resiliência. Elas são construídas e executadas em ambientes de nuvem, utilizando serviços de nuvem e seguindo práticas de desenvolvimento modernas.
+key-objectives:
+  - Entender os princípios de aplicações nativas da nuvem.
+  - Aprender a desenvolver aplicações utilizando microserviços, contêineres e serverless.
+  - Conhecer padrões de design e ferramentas para desenvolvimento nativo da nuvem.
+  - Implementar CI/CD e automação para aplicações nativas da nuvem.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Introdução a Aplicações Nativas da Nuvem (inglês)"
+    link: https://www.cncf.io/cloud-native-interactive-landscape/
+alura-contents:
+  - type: COURSE
+    title: "Formação Aprofunde em Kotlin e DevOps com uma aplicação Cloud Native"
+    link: https://cursos.alura.com.br/formacao-cloud-native-kotlin
+

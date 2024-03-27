@@ -1,0 +1,32 @@
+name: Containerização em Cloud
+logo: 
+short-description: A contêinerização é uma abordagem de virtualização leve que permite desenvolver, implantar e executar aplicações com rapidez e eficiência em ambientes de nuvem. É fundamental para a entrega contínua e a microserviços.
+key-objectives:
+  - Entender o conceito de contêineres e seus benefícios em ambientes de nuvem.
+  - Aprender a utilizar Docker e Kubernetes para gerenciar contêineres.
+  - Explorar as soluções de contêinerização oferecidas pelos principais provedores de nuvem.
+  - Implementar práticas de CI/CD usando contêineres.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Introdução à Contêinerização na Nuvem"
+    link: https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-an-introduction-to-common-components
+alura-contents:
+  - type: COURSE
+    title: "Curso de Docker: criando e gerenciando containers"
+    link: https://cursos.alura.com.br/course/docker-criando-gerenciando-containers
+  - type: COURSE
+    title: "Formação Kubernetes: Orquestração de containers"
+    link: https://cursos.alura.com.br/formacao-kubernetes
+  - type: COURSE
+    title: "Curso de Amazon EKS: gerenciando aplicações conteinerizadas com Kubernetes"
+    link: https://cursos.alura.com.br/course/amazon-eks-kubernetes
+  - type: COURSE
+    title: "Curso de Microsserviços e .NET6: deploy na AWS"
+    link: https://cursos.alura.com.br/course/microsservicos-dotnet6-deploy-aws
+  - type: COURSE
+    title: "Integração Contínua: automatizando a entrega no Kubernetes"
+    link: https://cursos.alura.com.br/course/integracao-continua-automatizando-entrega-kubernetes
+  - type: COURSE
+    title: "Curso de Infraestrutura como código: Terraform e Kubernetes"
+    link: https://cursos.alura.com.br/course/infraestrutura-codigo-terraform-kubernetes

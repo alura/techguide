@@ -1,0 +1,23 @@
+name: Desenvolvimento e Gestão de APIs
+logo: 
+short-description: O desenvolvimento e gerenciamento de APIs envolve a criação de interfaces de programação de aplicativos que permitem a comunicação entre diferentes sistemas de software de maneira eficaz. A gestão adequada de APIs facilita a integração de serviços, a segurança dos dados e a análise de uso.
+key-objectives:
+  - Entender os fundamentos do desenvolvimento de APIs RESTful.
+  - Aprender a projetar, implementar e documentar APIs de forma eficiente.
+  - Conhecer práticas de segurança, versionamento e gerenciamento do ciclo de vida de APIs.
+  - Utilizar ferramentas de gerenciamento de APIs para monitorar, analisar e escalar serviços.
+aditional-objectives:
+contents:
+alura-contents:
+  - type: COURSE
+    title: "APIs com Node.js e Express"
+    link: https://cursos.alura.com.br/formacao-node-js-express
+  - type: COURSE
+    title: "Django REST APIs: crie aplicações REST em Python"
+    link: https://cursos.alura.com.br/formacao-django-rest
+  - type: COURSE
+    title: "Curso de .NET 6: criando uma web API"
+    link: https://cursos.alura.com.br/course/dotnet-criando-web-api
+  - type: COURSE
+    title: "Curso de Spring Boot 3: desenvolva uma API Rest em Java"
+    link: https://cursos.alura.com.br/course/spring-boot-3-desenvolva-api-rest-java
