@@ -1,0 +1,20 @@
+name: Cloud - Redes
+logo: 
+short-description: O networking em nuvem é o conjunto de tecnologias e práticas usadas para interconectar recursos, aplicações e serviços na nuvem, incluindo a configuração de redes virtuais, balanceamento de carga, DNS, VPNs e muito mais.
+key-objectives:
+  - Entender os conceitos fundamentais de networking em nuvem.
+  - Aprender sobre redes virtuais, sub-redes e grupos de segurança.
+  - Conhecer as soluções de conectividade em nuvem, como VPNs e conexões diretas.
+  - Explorar os serviços de networking oferecidos pelos principais provedores de nuvem.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Networking na nuvem: um guia básico"
+    link: https://www.networkworld.com/article/3276276/what-is-cloud-networking.html
+  - type: ARTICLE
+    title: "Azure Networking Services: uma visão geral"
+    link: https://docs.microsoft.com/en-us/azure/networking/networking-overview
+alura-contents:
+  - type: COURSE
+    title: "Curso de AWS: Redes na nuvem com VPC"
+    link: https://cursos.alura.com.br/course/amazon-vpc-configurando-redes-aws

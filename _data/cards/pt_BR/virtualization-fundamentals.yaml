@@ -1,0 +1,17 @@
+name: Virtualização - Fundamentos
+logo: 
+short-description: A virtualização é a criação de uma versão virtual de algo, como sistemas operacionais, servidores, dispositivos de armazenamento ou recursos de rede. É uma tecnologia crítica que permite a execução de múltiplos sistemas operacionais em um único hardware físico, otimizando o uso dos recursos e permitindo uma maior flexibilidade e eficiência.
+key-objectives:
+  - Compreender o conceito de virtualização e seus benefícios.
+  - Aprender sobre os diferentes tipos de virtualização (servidor, aplicativo, rede, desktop).
+  - Conhecer as principais tecnologias e softwares de virtualização (VMware, Hyper-V, KVM, Xen).
+  - Explorar casos de uso e melhores práticas na implementação de soluções de virtualização.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "O que é Virtualização?"
+    link: https://www.vmware.com/topics/glossary/content/virtualization
+alura-contents:
+  - type: COURSE
+    title: "Docker: Criando e gerenciando containers"
+    link: https://cursos.alura.com.br/course/docker-criando-gerenciando-containers

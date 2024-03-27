@@ -1,0 +1,21 @@
+name: Cloud - Segurança
+logo: 
+short-description: As melhores práticas de segurança em nuvem são essenciais para proteger infraestruturas, aplicações e dados. Isso inclui a implementação de políticas robustas de segurança, criptografia, gerenciamento de identidade e acesso, e monitoramento constante.
+key-objectives:
+  - Compreender os desafios de segurança em ambientes de nuvem.
+  - Aprender as melhores práticas para a segurança de dados, aplicações e infraestruturas em nuvem.
+  - Conhecer ferramentas e técnicas para gerenciamento de identidade e acesso (IAM).
+  - Implementar estratégias de segurança em conformidade com normas regulatórias.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Melhores práticas de segurança em nuvem"
+    link: https://azure.microsoft.com/en-us/resources/cloud-security-best-practices/
+  - type: ARTICLE
+    title: "AWS Well-Architected Framework - Segurança"
+    link: https://aws.amazon.com/architecture/well-architected/security/
+alura-contents:
+  - type: COURSE
+    title: "Azure Cloud: segurança e recursos avançados"
+    link: https://cursos.alura.com.br/course/azure-cloud-seguranca-recursos-avancados
+

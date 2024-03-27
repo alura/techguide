@@ -1,0 +1,21 @@
+name: DevOps na Cloud
+logo: 
+short-description: DevOps na nuvem refere-se à aplicação de práticas DevOps em ambientes de nuvem para melhorar a colaboração, automatização e integração contínua/desdobramento contínuo (CI/CD), visando entregar software de forma mais eficiente e confiável.
+key-objectives:
+  - Integrar práticas DevOps com serviços e ferramentas de nuvem.
+  - Utilizar a infraestrutura como código (IaC) para automatizar a provisionamento e gestão de infraestrutura.
+  - Implementar pipelines de CI/CD usando ferramentas de nuvem.
+  - Otimizar processos de desenvolvimento e operações em ambientes de nuvem.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "DevOps na Nuvem: Princípios Fundamentais"
+    link: https://devops.com/devops-in-the-cloud/
+alura-contents:
+  - type: COURSE
+    title: "Formação Infraestrutura como código"
+    link: https://cursos.alura.com.br/formacao-infraestrutura-codigo
+  - type: COURSE
+    title: "Formação Integração e Entrega contínua"
+    link: https://cursos.alura.com.br/formacao-integracao-continua-entrega-continua
+

@@ -1,0 +1,27 @@
+name: Arquiteturas Serverless
+logo: 
+short-description: Arquiteturas serverless permitem construir e executar aplicações e serviços sem a necessidade de gerenciar infraestrutura de servidores. Isso proporciona uma grande escalabilidade e eficiência, permitindo que os desenvolvedores se concentrem exclusivamente no código.
+key-objectives:
+  - Entender o conceito de serverless e como ele transforma o desenvolvimento de aplicações.
+  - Aprender sobre funções como serviço (FaaS) e as plataformas serverless disponíveis.
+  - Explorar casos de uso, vantagens e desafios das arquiteturas serverless.
+  - Implementar aplicações serverless usando provedores de nuvem como AWS Lambda, Azure Functions e Google Cloud Functions.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "O que é Serverless Computing e por que é importante?"
+    link: https://www.redhat.com/en/topics/cloud-native-apps/what-is-serverless
+  - type: YOUTUBE
+    title: "Introdução ao Serverless e AWS Lambda"
+    link: https://www.youtube.com/watch?v=eOBq__h4OJ4
+  - type: COURSE
+    title: "Construindo Aplicações Serverless com Google Cloud Functions"
+    link: https://www.pluralsight.com/courses/google-cloud-functions-building
+  - type: ARTICLE
+    title: "Comparando plataformas Serverless: AWS Lambda vs. Azure Functions vs. Google Cloud Functions"
+    link: https://www.serverless.com/aws-lambda-vs-google-cloud-functions-vs-azure-functions
+alura-contents:
+  - type: COURSE
+    title: "Serverless: Primeiros passos"
+    link: https://www.alura.com.br/curso-online-serverless
+

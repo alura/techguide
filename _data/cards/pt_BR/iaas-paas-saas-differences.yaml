@@ -1,0 +1,21 @@
+name: IaaS, PaaS, SaaS
+logo: 
+short-description: IaaS (Infraestrutura como Serviço), PaaS (Plataforma como Serviço) e SaaS (Software como Serviço) são os três principais modelos de serviços de computação em nuvem. Cada modelo oferece um nível diferente de controle, flexibilidade e gerenciamento, adequado para diversas necessidades empresariais.
+key-objectives:
+  - Entender as diferenças entre IaaS, PaaS e SaaS.
+  - Aprender os casos de uso e vantagens de cada modelo de serviço.
+  - Identificar como escolher o modelo de serviço adequado para necessidades específicas.
+  - Explorar exemplos de serviços IaaS, PaaS e SaaS dos principais provedores de nuvem.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "IaaS vs. PaaS vs. SaaS: entenda as diferenças"
+    link: https://www.ibm.com/cloud/learn/iaas-paas-saas
+  - type: ARTICLE
+    title: "Como escolher entre IaaS, PaaS e SaaS"
+    link: https://azure.microsoft.com/en-us/overview/what-are-iaas-paas-saas/
+alura-contents:
+  - type: COURSE
+    title: "Cloud: o que é, História e Guia da computação em nuvem"
+    link: https://www.alura.com.br/artigos/cloud
+

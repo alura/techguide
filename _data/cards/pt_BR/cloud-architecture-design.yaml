@@ -1,0 +1,14 @@
+name: Cloud - Design da arquitetura
+logo: 
+short-description: O design da arquitetura em nuvem envolve a estruturação e o planejamento de sistemas em nuvem para atender requisitos específicos de negócios e tecnologia. É fundamental para garantir a escalabilidade, confiabilidade, eficiência e segurança dos serviços em nuvem.
+key-objectives:
+  - Compreender os princípios do design de arquitetura em nuvem.
+  - Aprender a projetar arquiteturas escaláveis, seguras e resilientes.
+  - Conhecer padrões de design e melhores práticas para arquiteturas em nuvem.
+  - Explorar ferramentas e serviços para o design de arquitetura em nuvem dos principais provedores.
+aditional-objectives:
+contents:
+   - type: ARTICLE
+     title: "AWS Well-Architected Framework (inglês)"
+     link: https://docs.aws.amazon.com/pt_br/wellarchitected/latest/framework/welcome.html
+alura-contents:
