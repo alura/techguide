@@ -1,3 +1,6 @@
+name: Cloud
+tags:
+  - cloud
 expertise:
   - name: Cloud Computing Jr
     cards:
@@ -5,15 +8,13 @@ expertise:
           priority: 10
       - virtualization-fundamentals:
           priority: 9
-      - storage-solutions:
+      - cloud-storage:
           priority: 8
-      - networking-in-the-cloud:
+      - cloud-networking:
           priority: 8
-      - security-basics-in-cloud:
-          priority: 8
-      - iaas-paas-saas-differences:
+      - iaas-paas-saas:
           priority: 7
-      - cloud-service-providers-overview:
+      - cloud-service-providers:
           priority: 7
   - name: Cloud Computing Mid
     cards:
@@ -23,7 +24,7 @@ expertise:
           priority: 8
       - cloud-security-best-practices:
           priority: 8
-      - managing-cloud-infrastructure:
+      - cloud-infrastructure-management:
           priority: 7
       - cloud-monitoring-and-optimization:
           priority: 7
@@ -43,7 +44,7 @@ expertise:
           priority: 7
       - cloud-native-applications:
           priority: 6
-      - devops-in-cloud:
+      - cloud-devops:
           priority: 6
 collaboration:
   - name: Infraestrutura
@@ -54,7 +55,7 @@ collaboration:
           priority: 8
       - ci-cd:
           priority: 7
-      - software-testing-in-cloud:
+      - cloud-software-testing:
           priority: 7
   - name: Data Science
     cards:
