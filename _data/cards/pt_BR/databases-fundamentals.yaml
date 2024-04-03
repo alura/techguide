@@ -24,16 +24,22 @@ contents:
 alura-contents:
   - type: YOUTUBE
     title: "Alura: O que é SQL e NoSQL?"
-    link: https://www.youtube.com/watch?v=aure5d3B88g 
+    link: https://www.youtube.com/watch?v=aure5d3B88g
+  - type: ARTICLE
+    title: "SQL e NoSQL: trabalhando com bancos relacionais e não relacionais"
+    link: https://www.alura.com.br/artigos/sql-nosql-bancos-relacionais-nao-relacionais
+  - type: ARTICLE
+    title: "Banco de Dados: o que é, principais tipos e um guia para iniciar"
+    link: https://www.alura.com.br/artigos/banco-de-dados
+  - type: YOUTUBE
+    title: "Dicas para desenvolver um projeto de banco de dados relacional"
+    link: https://cursos.alura.com.br/extra/alura-mais/dicas-para-desenvolver-um-projeto-de-banco-de-dados-relacional-c9093
   - type: ARTICLE
     title: "SQL: Comandos básicos"
     link: https://www.alura.com.br/artigos/sql-comandos-basicos 
   - type: ARTICLE
     title: "SQL: consultas com SELECT"
     link: https://www.alura.com.br/artigos/sql-consultas-com-select 
-  - type: ARTICLE
-    title: "JOIN e seus tipos"
-    link: https://www.alura.com.br/artigos/join-e-seus-tipos 
   - type: COURSE
     title: "Curso SQL com MySQL: manipule e consulte dados"
     link: https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql 
