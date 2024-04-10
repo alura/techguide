@@ -34,6 +34,8 @@ expertise:
         priority: 8
       - android-system-resources:
         priority: 7
+      - android-ia:
+        priority: 6
       - kotlin-dependency-injection:
         priority: 7
       - android-testing:
