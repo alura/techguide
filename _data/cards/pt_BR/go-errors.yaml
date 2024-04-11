@@ -1,4 +1,4 @@
-name: Tratamento de Erros em Go
+name: Go - Tratamento de Erros
 logo: 
 short-description: Go aborda o tratamento de erros de maneira explícita, promovendo código claro e previsível. Em vez de exceções, Go utiliza valores de retorno múltiplos para indicar erros, incentivando os desenvolvedores a tratar erros de forma consciente e sistemática. Esse modelo ajuda a construir aplicações robustas, pois encoraja a verificação e o manejo de erros em pontos críticos da execução do programa.
 key-objectives:
