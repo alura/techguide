@@ -1,4 +1,4 @@
-name: Concorrência em Go
+name: Go - Concorrência
 logo: 
 short-description: A concorrência é um dos principais recursos da linguagem Go, permitindo a execução de múltiplas tarefas em paralelo de forma eficiente e simplificada. Utilizando goroutines, uma abstração leve de threads, juntamente com canais para comunicação segura, Go possibilita a construção de aplicações altamente responsivas e escaláveis. Esse modelo de concorrência torna mais fácil escrever programas que tiram pleno proveito de sistemas multicore, ideal para servidores web, processamento em tempo real e outras aplicações que demandam alto desempenho.
 key-objectives:
