@@ -1,17 +1,12 @@
 - name: Go
   tags:
-    - go
-    - golang
+    - back-end
   expertise:
     - name: Go Jr
       cards:
-        - go-syntax:
+        - go-fundamentals:
             priority: 10
-        - go-data-types:
-            priority: 10
-        - go-functions:
-            priority: 10
-        - go-methods:
+        - go-oop:
             priority: 9
         - go-structs:
             priority: 9
