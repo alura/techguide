@@ -1,0 +1,22 @@
+name: Go - Testes
+logo: 
+short-description: Go oferece recursos integrados de teste, tornando fácil escrever e executar testes automatizados para o seu código. Com uma sintaxe simples e ferramentas poderosas, como benchmarks e testes de cobertura, Go encoraja uma cultura de testes contínuos e desenvolvimento guiado por testes (TDD). Esta abordagem assegura a criação de software mais confiável e de alta qualidade, facilitando a detecção precoce de erros e a manutenção do código.
+key-objectives:
+  - Aprender a escrever testes unitários e de integração em Go.
+  - Entender a importância dos testes para manter a qualidade do código.
+  - Utilizar ferramentas e frameworks de teste disponíveis na comunidade Go.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Go Add a test (inglês)"
+    link: https://go.dev/doc/tutorial/add-a-test
+  - type: ARTICLE
+    title: "Testing in Go (inglês)"
+    link: https://pkg.go.dev/testing
+  - type: YOUTUBE
+    title: "Comprehensive Guide to Testing in Go (inglês)"
+    link: https://blog.jetbrains.com/go/2022/11/22/comprehensive-guide-to-testing-in-go/
+alura-contents:
+  - type: COURSE
+    title: "Curso Go: validações, testes e páginas HTML"
+    link: https://cursos.alura.com.br/course/go-validacoes-testes-paginas-html

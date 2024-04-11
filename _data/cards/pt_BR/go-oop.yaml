@@ -1,0 +1,19 @@
+name: Go - Orientação a Objetos
+logo: 
+short-description: Em Go, métodos são funções associadas a tipos específicos, permitindo uma forma de programação orientada a objetos. Isso facilita a modelagem de conceitos e comportamentos relacionados aos dados, promovendo encapsulamento e reutilização de código. A capacidade de definir métodos sobre tipos permite aos desenvolvedores construir abstrações limpas e manter o código organizado e fácil de manter.
+key-objectives:
+  - Entender como métodos são definidos e associados a tipos em Go.
+  - Aprender a diferenciar métodos e funções dentro do contexto de Go.
+  - Explorar a aplicação prática de métodos para manipulação de estruturas e interfaces.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Go Methods (inglês)"
+    link: https://go.dev/tour/methods/1
+  - type: ARTICLE
+    title: "Methods in Golang (inglês)"
+    link: https://www.geeksforgeeks.org/methods-in-golang/
+alura-contents:
+  - type: COURSE
+    title: "Go: Orientação a Objetos"
+    link: https://cursos.alura.com.br/course/go-lang-oo

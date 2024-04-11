@@ -1,0 +1,19 @@
+name: Go - Estruturas
+logo: 
+short-description: Go utiliza structs para agrupar dados relacionados, servindo como a base para modelar entidades e construir aplicações complexas. As structs em Go podem conter dados de diferentes tipos e oferecem a possibilidade de associar métodos a elas, o que facilita a implementação de conceitos orientados a objetos como encapsulamento e herança através de composição, tornando-as ferramentas versáteis para o desenvolvimento de software.
+key-objectives:
+  - Aprender a definir e utilizar estruturas em Go.
+  - Entender como estruturas podem ser utilizadas para modelar dados e objetos.
+  - Explorar a relação entre estruturas e métodos para simular a orientação a objetos.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Definindo structs no Go"
+    link: https://www.digitalocean.com/community/tutorials/defining-structs-in-go-pt
+  - type: ARTICLE
+    title: "Structs (inglês)"
+    link: https://go.dev/tour/moretypes/2
+alura-contents:
+  - type: COURSE
+    title: "Go: Orientação a Objetos"
+    link: https://cursos.alura.com.br/course/go-lang-oo
