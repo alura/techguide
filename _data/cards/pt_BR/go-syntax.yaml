@@ -1,0 +1,24 @@
+name: Sintaxe Básica em Go
+logo: 
+short-description: Go distingue-se por sua sintaxe concisa e limpa, projetada para facilitar a leitura e a escrita de código. A linguagem promove um estilo de programação que minimiza a verbosidade enquanto mantém a expressividade, permitindo que desenvolvedores implementem funcionalidades complexas com relativa simplicidade. Essa abordagem torna Go uma escolha excelente para novos programadores e também para profissionais experientes que buscam produtividade e eficiência no desenvolvimento de software.
+key-objectives:
+  - Compreender a sintaxe básica da linguagem Go e como ela facilita a criação de código limpo e eficiente.
+  - Aprender sobre a declaração e uso de variáveis, tipos de dados, funções e métodos em Go.
+  - Explorar as estruturas de controle de fluxo, como loops e condicionais, para criar programas dinâmicos em Go.
+  - Entender a importância das convenções de nomenclatura e formatação de código em Go para manter o código organizado e legível.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Learn Golang Basic Syntax in 10 Minutes (inglês)"
+    link: https://medium.com/@manus.can/learn-golang-basic-syntax-in-10-minutes-48608a315896
+  - type: ARTICLE
+    title: "The Go Programming Language Specification (inglês)"
+    link: https://go.dev/ref/spec
+alura-contents:
+  - type: COURSE
+    title: "Curso Go: a linguagem do Google"
+    link: https://cursos.alura.com.br/course/golang
+  - type: ARTICLE
+    title: "Variáveis em Go: como elas funcionam?"
+    link: https://www.alura.com.br/artigos/variaves-com-go-lang
+

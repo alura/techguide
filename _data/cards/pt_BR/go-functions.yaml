@@ -1,0 +1,16 @@
+name: Funções em Go
+logo: 
+short-description: Go suporta funções de primeira classe, permitindo que sejam atribuídas a variáveis, passadas como argumentos e retornadas por outras funções. Isso promove um estilo de programação funcional e a reutilização de código. Além disso, Go oferece suporte a funções anônimas e closures, proporcionando poderosas abstrações para operações com dados e construção de pipelines de processamento.
+key-objectives:
+  - Compreender a sintaxe para definição de funções em Go.
+  - Aprender a chamar funções, passar argumentos e receber retornos.
+  - Explorar funções anônimas, funções de alta ordem e closures.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Go Functions - Tutorial (inglês)"
+    link: https://go.dev/tour/basics/4
+alura-contents:
+  - type: COURSE
+    title: "Curso de Go: a linguagem do Google"
+    link: https://cursos.alura.com.br/course/golang
