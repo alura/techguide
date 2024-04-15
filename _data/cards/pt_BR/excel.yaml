@@ -12,15 +12,6 @@ contents:
   - type: SITE
     title: "Microsoft: Treinamento em vídeo do Excel"
     link: https://support.microsoft.com/pt-br/office/treinamento-em-v%C3%ADdeo-do-excel-9bc05390-e94c-46af-a5b3-d7c22f6990bb
-  - type: SITE
-    title: "Microsoft: Função MÉDIA"
-    link: https://support.microsoft.com/pt-br/office/m%C3%A9dia-fun%C3%A7%C3%A3o-m%C3%A9dia-047bac88-d466-426c-a32b-8f33eb960cf6
-  - type: SITE
-    title: "Microsoft: Função ARRED"
-    link: https://support.microsoft.com/pt-br/office/arredondar-um-n%C3%BAmero-f82b440b-689d-4221-b21e-38da99d33435
-  - type: SITE
-    title: "Microsoft: Função PROCV"
-    link: https://support.microsoft.com/pt-br/office/fun%C3%A7%C3%A3o-procv-0bbc8083-26fe-4963-8ab8-93a18ad188a1
   - type: YOUTUBE
     title: "Curso de Excel Online: O guia para Iniciantes no Excel"
     link: https://www.youtube.com/watch?v=6Mvh4ILpQZc
@@ -28,15 +19,15 @@ contents:
     title: "Curso de Excel Online: Aprenda PROCV em 5 Exemplos no Excel"
     link: https://www.youtube.com/watch?v=vUobVi_uiYE
   - type: YOUTUBE
-    title: "Curso de Excel Online: Como Criar Gráfico Interativo no Excel para Iniciantes"
-    link: https://www.youtube.com/watch?v=vUobVi_uiYE
+    title: "Excel Online: Como Criar Gráfico Interativo no Excel para Iniciantes"
+    link: https://www.youtube.com/watch?v=MifgTFzE1JQ&ab_channel=CursodeExcelOnline
 alura-contents:
+  - type: ARTICLE
+    title: "Como usar o Excel? — um guia completo para iniciantes"
+    link: https://www.alura.com.br/artigos/excel
   - type: YOUTUBE
     title: "Alura: Como o Excel pode te ajudar no dia a dia"
     link: https://www.youtube.com/watch?v=oIpz1WaRT3E
-  - type: YOUTUBE
-    title: "Alura: Dicas de Excel para o dia-a-dia - Hipsters.Talks 16"
-    link: https://www.youtube.com/watch?v=iav5kU-x-S8
   - type: YOUTUBE
     title: "Alura: Excel Procx"
     link: https://www.youtube.com/watch?v=ml16FyTyP_U
@@ -46,3 +37,6 @@ alura-contents:
   - type: COURSE
     title: "Formação Business Intelligence com Excel"
     link: https://cursos.alura.com.br/formacao-business-intelligence-excel 
+  - type: COURSE
+    title: "Formação Excel Finanças"
+    link: https://www.alura.com.br/formacao-excel-financas
