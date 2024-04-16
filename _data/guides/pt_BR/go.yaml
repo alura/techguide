@@ -1,0 +1,83 @@
+name: Go
+tags:
+  - back-end
+expertise:
+  - name: Go Jr
+    cards:
+      - go-fundamentals:
+        priority: 10
+      - go-oop:
+        priority: 9
+      - go-structs:
+        priority: 9
+      - go-errors:
+        priority: 8
+  - name: Go Mid
+    cards:
+      - go-pointers:
+        priority: 9
+      - go-interfaces: 
+        priority: 8
+      - go-concurrency:
+        priority: 8
+      - go-packages:
+        priority: 8
+      - go-testing:
+        priority: 8
+      - go-persistence:
+        priority: 7
+      - go-routines-and-channels:
+        priority: 9
+      - go-web-programming:
+        priority: 8
+  - name: Go Expert
+    cards:
+      - go-rest-api:
+        priority: 9
+      - microservices:
+        priority: 8
+      - go-debugging:
+        priority: 8
+      - streaming:
+        priority: 10
+      - go-grpc:
+        priority: 7
+      - go-security-best-practices:
+        priority: 9
+      - go-performance-optimization:
+        priority: 8
+collaboration: 
+  - name: DevOps
+    cards:
+      - git-and-github-fundamentals:
+        priority: 9
+      - http-fundamentals:
+        priority: 10
+      - ci-cd:
+        priority: 9
+      #- virtualization:
+      #  priority: 8
+      #- containerization:
+      #  priority: 8
+  - name: Best Practices
+    cards:
+      - solid:
+        priority: 8
+      - command-line-fundamentals:
+        priority: 8
+      - json:
+        priority: 6
+      - containers:
+        priority: 7
+      - cloud-fundamentals:
+        priority: 8
+      - sql-fundamentals:
+        priority: 7
+      - clean-architecture:
+        priority: 8
+      - design-patterns:
+        priority: 8
+      - ddd-concepts:
+        priority: 6
+      - infrastructure_as_code:
+        priority: 7

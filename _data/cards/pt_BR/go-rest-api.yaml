@@ -1,0 +1,22 @@
+name: Go - Construindo APIs REST
+logo: 
+short-description: Go é uma linguagem excelente para construir APIs RESTful devido à sua eficiência, simplicidade e suporte integrado para trabalhar com JSON e comunicações HTTP. Go facilita a criação de APIs web que são ao mesmo tempo escaláveis e de fácil manutenção, tornando-a uma escolha ideal para desenvolvedores que buscam construir interfaces backend robustas para aplicações web e móveis modernas.
+key-objectives:
+  - Compreender os princípios básicos de APIs RESTful e sua implementação em Go.
+  - Aprender a estruturar uma aplicação Go para suportar o desenvolvimento de APIs.
+  - Explorar ferramentas e bibliotecas úteis para facilitar o desenvolvimento de APIs em Go.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Tutorial: Developing a RESTful API with Go and Gin(inglês)"
+    link: https://go.dev/doc/tutorial/web-service-gin
+  - type: ARTICLE
+    title: "Criando uma API REST em Go (Golang) com Erro Personalizado"
+    link: https://iamwilliamkoller.medium.com/criando-uma-api-rest-em-go-golang-com-erro-personalizado-668db4967f37
+alura-contents:
+  - type: COURSE
+    title: "Curso Go: Desenvolvendo uma API REST"
+    link: https://cursos.alura.com.br/course/go-desenvolvendo-api-rest
+  - type: COURSE
+    title: "Curso Go e Gin: criando API rest com simplicidade"
+    link: https://cursos.alura.com.br/course/go-gin-api-rest-simplicidade

@@ -1,0 +1,20 @@
+name: Go - gRPC
+logo: 
+short-description: GRPC é uma tecnologia moderna para chamadas de procedimento remoto (RPC) que oferece eficiência, baixa latência e suporte a múltiplos idiomas de programação. Go, com sua performance nativa e simplicidade, se torna uma linguagem ideal para implementar e consumir APIs gRPC, facilitando a criação de microserviços altamente eficientes e interoperáveis. Este tópico é essencial para desenvolvedores que buscam construir sistemas distribuídos escaláveis e comunicações entre serviços em arquiteturas de microserviços.
+key-objectives:
+  - Compreender os fundamentos e a arquitetura do gRPC e como ele se integra ao ecossistema Go.
+  - Aprender a definir serviços gRPC usando protocol buffers, facilitando a interoperabilidade e a eficiência na comunicação entre serviços.
+  - Desenvolver servidores e clientes gRPC em Go, explorando recursos avançados como streaming, autenticação e interceptores.
+  - Adotar melhores práticas para o desenvolvimento de APIs gRPC em Go, garantindo segurança, performance e escalabilidade.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "GRPC (inglês)"
+    link: https://pkg.go.dev/google.golang.org/grpc
+  - type: ARTICLE
+    title: "Escrevendo um micro serviço gRPC em Go: estrutura, definição e deploy no Google Kubernetes Engine"
+    link: https://medium.com/unicoidtech/escrevendo-um-micro-servi%C3%A7o-grpc-em-go-estrutura-defini%C3%A7%C3%A3o-e-deploy-no-google-kubernetes-engine-82351e23a2f7
+alura-contents:
+  - type: PODCAST
+    title: "Hipsters On The Road #54: Go, gRPC e investimentos na Guru"
+    link: https://cursos.alura.com.br/extra/hipsterstech/go-grpc-e-investimentos-na-guru-hipsters-on-the-road-54-a828

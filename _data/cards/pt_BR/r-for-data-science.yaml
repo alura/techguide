@@ -22,13 +22,16 @@ contents:
   - type: SITE
     title: "R para Ciência de Dados: Visualize, Model, Transform, Tidy and Import Data (inglês)"
     link: https://r4ds.had.co.nz/
+  - type: YOUTUBE
+    title: "R (Linguagem de Programação para Data Science) // Dicionário do Programador"
+    link: https://www.youtube.com/watch?v=x4S9rIJHqxU&t=1s&ab_channel=CódigoFonteTV
 alura-contents:
-  - type: ARTICLE
-    title: "Aplicando a regressão linear com R"
-    link: https://www.alura.com.br/artigos/aplicando-a-regressao-linear-com-r
   - type: COURSE
-    title: "Curso Programação em R: desenvolva dashboards online com Shiny"
-    link: https://cursos.alura.com.br/course/programacao-r-dashboard-online-shiny
+    title: "ChatGPT com R: utilizando o ChatGPT como assistente"
+    link: https://cursos.alura.com.br/course/chatgpt-r-utilizando-chatgpt-assistente
+  - type: COURSE
+    title: "Análise de dados com R: utilizando o ChatGPT para aumentar a produtividade"
+    link: https://cursos.alura.com.br/course/analise-dados-r-utilizando-chatgpt-aumentar-produtividade
   - type: COURSE
     title: "Formação Estatística com R"
     link: https://cursos.alura.com.br/formacao-estatistica-r 
@@ -37,4 +40,7 @@ alura-contents:
     link: https://cursos.alura.com.br/course/data-visualization-graficos 
   - type: COURSE
     title: "Data Visualization parte 2: gráficos com multivariáveis"
-    link: https://cursos.alura.com.br/course/data-visualization-multivariaveis 
+    link: https://cursos.alura.com.br/course/data-visualization-multivariaveis
+  - type: COURSE
+    title: "Curso Programação em R: desenvolva dashboards online com Shiny"
+    link: https://cursos.alura.com.br/course/programacao-r-dashboard-online-shiny

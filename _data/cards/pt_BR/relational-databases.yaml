@@ -24,6 +24,15 @@ alura-contents:
   - type: COURSE
     title: "Formação Modelagem de dados"
     link: https://cursos.alura.com.br/formacao-modelagem-dados 
+  - type: YOUTUBE
+    title: "O que é SQL e por que aprender SQL é essencial para você?"
+    link: https://cursos.alura.com.br/extra/alura-mais/o-que-e-sql-e-por-que-aprender-sql-e-essencial-para-voce--c9092
+  - type: ARTICLE
+    title: "Saiba tudo sobre SQL - A linguagem padrão para trabalhar com banco de dados relacionais!"
+    link: https://www.alura.com.br/artigos/o-que-e-sql
+  - type: COURSE
+    title: "Conhecendo SQL"
+    link: https://cursos.alura.com.br/formacao-conhecendo-sql
   - type: ARTICLE
     title: "SGBDs Relacionais"
     link: https://www.alura.com.br/artigos/sgbds-relacionais 
@@ -46,8 +55,5 @@ alura-contents:
     title: "JOIN e seus tipos"
     link: https://www.alura.com.br/artigos/join-e-seus-tipos
   - type: COURSE
-    title: "Formação SQL com PostgreSQL"
-    link: https://cursos.alura.com.br/formacao-postgresql
-  - type: COURSE
-    title: "Formação Microsoft SQL Server 2022"
-    link: https://cursos.alura.com.br/formacao-microsoft-sql-server-2022
+    title: "SQL com MySQL Server da Oracle"
+    link: https://cursos.alura.com.br/formacao-oracle-mysql

@@ -1,0 +1,19 @@
+name: Go - Persistência de Dados
+logo: 
+short-description: Go oferece uma abordagem robusta e flexível para a persistência de dados, permitindo a integração com uma ampla gama de sistemas de bancos de dados. Como uma linguagem moderna, Go facilita o desenvolvimento de aplicações de alta performance que requerem operações de banco de dados eficientes, seja através de SQL ou soluções NoSQL. É ideal para desenvolver aplicações web, serviços em nuvem e sistemas distribuídos que necessitam de uma persistência de dados confiável, segura e escalável.
+key-objectives:
+  - Aprender os fundamentos da persistência de dados em Go.
+  - Explorar a integração de Go com bancos de dados SQL e NoSQL.
+  - Entender melhores práticas para modelagem e acesso a dados em aplicações Go.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Persistence (inglês)"
+    link: https://pkg.go.dev/github.com/keep-network/keep-common/pkg/persistence
+  - type: ARTICLE
+    title: "Simple (And Easy) Data Persistence in Go"
+    link: https://medium.com/@shanev/simple-and-easy-data-persistence-in-go-aa019a6f3106
+alura-contents:
+  - type: COURSE
+    title: "Curso Go: crie uma aplicação web"
+    link: https://cursos.alura.com.br/course/go-lang-web
