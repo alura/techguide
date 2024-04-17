@@ -1,0 +1,19 @@
+name: Go - Pacotes
+logo: 
+short-description: O sistema de pacotes em Go facilita a organização, o compartilhamento e a reutilização de código. Com uma estrutura de workspace clara e um gerenciador de dependências integrado, Go promove a criação de aplicações modulares e a colaboração entre desenvolvedores. Este sistema ajuda a manter o código limpo e bem organizado, simplificando a gestão de grandes bases de código e incentivando práticas de desenvolvimento que aumentam a produtividade e melhoram a qualidade do software.
+key-objectives:
+  - Compreender a estrutura e o propósito dos pacotes em Go.
+  - Aprender a criar, importar e exportar pacotes para modularizar o código.
+  - Explorar o gerenciamento de dependências utilizando o Go Modules.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Packages (inglês)"
+    link: https://pkg.go.dev/golang.org/x/tools/go/packages
+  - type: ARTICLE
+    title: How To Write Packages in Go(inglês)"
+    link: https://www.digitalocean.com/community/tutorials/how-to-write-packages-in-go
+alura-contents:
+  - type: COURSE
+    title: "Curso Go: Orientação a Objetos"
+    link: https://cursos.alura.com.br/course/go-lang-oo

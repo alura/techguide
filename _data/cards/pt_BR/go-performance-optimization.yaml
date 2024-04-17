@@ -1,0 +1,16 @@
+name: Go - Otimização de Performance
+logo: 
+short-description: Go é conhecida por sua alta performance e eficiência, com recursos avançados para otimização de código. A linguagem permite a criação de aplicações extremamente rápidas e com uso eficiente de recursos, ideal para cenários que exigem alto desempenho, como serviços de alta demanda, processamento de grandes volumes de dados e aplicações críticas para o negócio que operam em ambientes de computação intensiva.
+key-objectives:
+  - Aprender a medir e analisar a performance de aplicações Go.
+  - Identificar gargalos de performance e aplicar técnicas de otimização.
+  - Explorar ferramentas e práticas para escrever código Go de alta performance.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Performance (inglês)"
+    link: https://go.dev/wiki/Performance
+  - type: ARTICLE
+    title: "Ultimate Golang Performance Optimization (inglês)"
+    link: https://medium.com/@santoshcitpl/ultimate-golang-performance-optimization-guide-connect-infosoft-9c4c2b75b9f2
+

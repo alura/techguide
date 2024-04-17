@@ -1,0 +1,19 @@
+name: Go - Melhores Práticas de Segurança
+logo: 
+short-description: Go proporciona um rico conjunto de ferramentas e bibliotecas para desenvolver aplicações seguras, com suporte a criptografia, autenticação, e proteção contra uma variedade de vulnerabilidades. A linguagem incentiva práticas de desenvolvimento seguro, tornando-a adequada para criar sistemas críticos que exigem altos níveis de segurança, como aplicações financeiras, plataformas de e-commerce e infraestruturas de TI empresariais.
+key-objectives:
+  - Compreender as vulnerabilidades comuns em aplicações Go e como mitigá-las.
+  - Aprender a implementar técnicas de segurança, como autenticação e criptografia.
+  - Explorar ferramentas e bibliotecas de segurança disponíveis para Go.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Security Best Practices for Go Developers"
+    link: https://go.dev/doc/security/best-practices
+  - type: ARTICLE
+    title: "Security (inglês)"
+    link: https://go.dev/doc/security/
+alura-contents:
+  - type: COURSE
+    title: "Formação Desenvolvimento Seguro"
+    link: https://cursos.alura.com.br/formacao-desenvolvimento-seguro

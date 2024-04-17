@@ -20,38 +20,23 @@ contents:
     link: https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909
   - type: YOUTUBE
     title: "CreateSe: Comandos básicos do SQL"
-    link: https://www.youtube.com/watch?v=_rZxrqn0X-4
-  - type: YOUTUBE
-    title: "10 conceitos essenciais de SQL que todo desenvolvedor deve saber"
-    link: https://youtu.be/cIUTAyomVPQ    
+    link: https://www.youtube.com/watch?v=_rZxrqn0X-4  
 alura-contents:
   - type: ARTICLE
     title: "O que é SQL?"
     link: https://www.alura.com.br/artigos/o-que-e-sql
   - type: ARTICLE
-    title: "SQL: Comandos básicos"
-    link: https://www.alura.com.br/artigos/sql-comandos-basicos
-  - type: ARTICLE
-    title: "SQL: consultas com SELECT"
-    link: https://www.alura.com.br/artigos/sql-consultas-com-select
-  - type: ARTICLE
     title: "SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS"
     link: https://www.alura.com.br/artigos/join-em-sql
-  - type: ARTICLE
-    title: "SQL Injection"
-    link: https://www.alura.com.br/artigos/sql-injection-proteja-sua-aplicacao
-  - type: YOUTUBE  
-    title: "Alura: Iniciando consultas em uma das maiores linguagens de banco de dados"
-    link: https://www.youtube.com/watch?v=gka6ZMnKTGs
   - type: YOUTUBE
     title: "Alura: O que é SQL e NoSQL?"
     link: https://www.youtube.com/watch?v=aure5d3B88g
   - type: COURSE
+    title: "Formação Conhecendo SQL"
+    link: https://www.alura.com.br/formacao-conhecendo-sql
+  - type: COURSE
     title: "Curso SQL com MySQL: manipule e consulte dados"
     link: https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql
-  - type: COURSE
-    title: "Curso Consultas SQL: avançando no SQL com MySQL"
-    link: https://cursos.alura.com.br/course/mysql-consultas-sql
   - type: COURSE
     title: "Formação SQL com MySQL Server da Oracle"
     link: https://cursos.alura.com.br/formacao-oracle-mysql
@@ -67,3 +52,6 @@ alura-contents:
   - type: COURSE
     title: "SQL com Oracle Database: manipule e consulte dados"
     link: https://cursos.alura.com.br/course/introducao-sql-oracle-manipule-consulte-dados 
+  - type: PODCAST
+    title: "SQL e MySQL"
+    link: https://cursos.alura.com.br/extra/hipsterstech/sql-e-mysql-hipsters-ponto-tech-404-a9270

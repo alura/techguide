@@ -1,0 +1,19 @@
+name: Go - Interfaces
+logo: 
+short-description: Interfaces em Go proporcionam uma maneira poderosa e flexível de definir contratos dentro de seus códigos, permitindo a abstração e a polimorfia sem a complexidade encontrada em outras linguagens orientadas a objetos. Elas são um pilar para o design de software em Go, facilitando a desconexão e a interoperabilidade entre diferentes partes de um sistema, tornando o código mais modular, testável e fácil de manter.
+key-objectives:
+  - Compreender o papel das interfaces em Go e como elas contribuem para o polimorfismo.
+  - Aprender a definir e implementar interfaces, facilitando a interação entre diferentes tipos.
+  - Explorar o uso de interfaces para desacoplamento e testabilidade do código.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Como usar interfaces em Go"
+    link: https://www.digitalocean.com/community/tutorials/how-to-use-interfaces-in-go-pt
+  - type: ARTICLE
+    title: "Interfaces (inglês)"
+    link: https://go.dev/tour/methods/9
+alura-contents:
+  - type: COURSE
+    title: "Curso Go: Orientação a Objetos"
+    link: https://cursos.alura.com.br/course/go-lang-oo

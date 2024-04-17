@@ -10,8 +10,8 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: YOUTUBE
-    title: "Karine Lago: Introdução ao Power BI"
-    link: https://www.youtube.com/watch?v=lMfh2c7GaWI 
+    title: "Karine Lago: Minicurso Gratuito de Power BI"
+    link: https://www.youtube.com/playlist?list=PLV-9aagMq_koO4Od7H8_SiowraQDI5gET
   - type: COURSE
     title: "Introdução à análise de dados da Microsoft"
     link: https://learn.microsoft.com/pt-br/training/paths/data-analytics-microsoft/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm 
@@ -22,15 +22,18 @@ contents:
     title: "Modelar dados no Power BI"
     link: https://learn.microsoft.com/pt-br/training/paths/model-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm
   - type: COURSE
-    title: "Visualizar dados no Power BI"
-    link: https://learn.microsoft.com/pt-br/training/paths/visualize-data-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm
-  - type: COURSE
-    title: "Análise de dados no Power BI"
+    title: "Criar visuais e relatórios do Power BI"
     link: https://learn.microsoft.com/pt-br/training/paths/perform-analytics-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm
   - type: COURSE
     title: "Gerenciar workspaces e conjuntos de dados no Power BI"
     link: https://learn.microsoft.com/pt-br/training/paths/manage-workspaces-datasets-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm 
 alura-contents:
+  - type: ARTICLE
+    title: "O que é um dashboard?"
+    link: https://www.alura.com.br/artigos/dashboard
+  - type: PODCAST
+    title: "Análise de Dados no Brasil"
+    link: https://cursos.alura.com.br/extra/hipsterstech/analise-de-dados-no-brasil-hipsters-ponto-tech-402-a9261
   - type: ARTICLE
     title: "Qlik: O que é, quais seus Produtos e Licenças?"
     link: https://www.alura.com.br/artigos/qlik-o-que-e 
@@ -58,3 +61,6 @@ alura-contents:
   - type: COURSE
     title: "Formação Qlik Sense"
     link: https://www.alura.com.br/formacao-qlik-sense 
+  - type: COURSE
+    title: "Formação MicroStrategy Workstation"
+    link: https://cursos.alura.com.br/formacao-microstrategy-workstation

@@ -1,0 +1,13 @@
+name: Go - Debugging
+logo: 
+short-description: Go oferece ferramentas poderosas e flexíveis para debugging, ajudando desenvolvedores a identificar e corrigir bugs de forma eficiente. Com recursos como o Delve debugger e integração com ambientes de desenvolvimento, Go suporta uma experiência de depuração de alta qualidade que acelera o desenvolvimento de aplicações confiáveis e de alta performance, desde sistemas simples até soluções empresariais complexas.
+key-objectives:
+  - Aprender a utilizar as ferramentas de debugging disponíveis para Go.
+  - Compreender técnicas eficazes para identificar e resolver bugs em Go.
+  - Explorar melhores práticas para prevenir erros comuns em desenvolvimento Go.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "How To Debug Go Code with Visual Studio Code"
+    link: https://www.digitalocean.com/community/tutorials/debugging-go-code-with-visual-studio-code
+alura-contents:

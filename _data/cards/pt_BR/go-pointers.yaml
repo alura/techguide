@@ -1,0 +1,19 @@
+name: Go - Ponteiros
+logo: 
+short-description: Os ponteiros em Go são uma ferramenta poderosa, permitindo aos programadores manipular diretamente a memória e referenciar variáveis. Eles são essenciais para a criação de programas eficientes, permitindo passagens de referências a dados sem a necessidade de cópia, otimizando o uso de recursos e a performance. Go simplifica o trabalho com ponteiros, mantendo a segurança do tipo, o que facilita a construção de programas complexos e eficientes sem os perigos comuns associados à aritmética de ponteiros em outras linguagens.
+key-objectives:
+  - Entender o conceito de ponteiros e sua sintaxe em Go.
+  - Aprender a usar ponteiros para manipulação direta de memória e passagem por referência.
+  - Explorar técnicas avançadas de ponteiros, incluindo ponteiros para estruturas.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Pointers in Go (inglês)"
+    link: https://go.dev/tour/moretypes/1
+  - type: ARTICLE
+    title: "A Comprehensive Guide to Pointers in Go"
+    link: https://medium.com/@jamal.kaksouri/a-comprehensive-guide-to-pointers-in-go-4acc58eb1f4d
+  - type: ARTICLE
+    title: "Pointers in Golang"
+    link: https://www.geeksforgeeks.org/pointers-in-golang/
+alura-contents:

@@ -1,0 +1,20 @@
+name: Go - Goroutines e Canais
+logo: 
+short-description: Go é reconhecida por sua abordagem inovadora à concorrência, utilizando goroutines e canais. Esses mecanismos permitem o desenvolvimento concorrente com um modelo de programação mais simples e eficiente, facilitando a criação de aplicações capazes de lidar com múltiplas tarefas simultaneamente de forma mais eficaz. Esse modelo é especialmente útil em cenários de alta carga, como serviços web, processamento em tempo real e aplicações de análise de dados.
+key-objectives:
+  - Entender o modelo de concorrência baseado em goroutines e canais em Go.
+  - Aprender a criar e sincronizar goroutines para tarefas concorrentes.
+  - Explorar padrões de uso de canais para comunicação segura entre goroutines.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Goroutines (inglês)"
+    link: https://go.dev/tour/concurrency/1
+  - type: ARTICLE
+    title: "Goroutines e go channels"
+    link: https://medium.com/trainingcenter/goroutines-e-go-channels-f019784d6855
+  - type: ARTICLE
+    title: "Um Pouco Sobre Goroutines em Go!"
+    link: https://dev.to/jeffotoni/um-pouco-sobre-goroutines-em-go-3lbk
+alura-contents:
+
