@@ -1,0 +1,52 @@
+name: UI design
+tags:
+  - ui design
+expertise:
+  - name: UI design Jr
+    cards:
+      - visual-design-principles:
+        priority: 10
+      - first-contact-with-UX:
+        priority: 10
+      - UI-fundamentals:
+        priority: 10
+      - design-tools:
+        priority: 9
+  - name: UI design Mid
+    cards:
+      - advancing-the-UI:
+        priority: 8
+      - design-strategy-and-UX:
+        priority: 8
+      - design-tools-part-ii:
+        priority: 8
+  - name: UI design in depth
+    cards:
+      - in-depth-UI:
+        priority: 8
+      - artificial-intelligence:
+        priority: 8
+      - design-tools-part-iii:
+        priority: 7
+      - design-system:
+        priority: 6
+collaboration:
+  - name: UX design
+    cards:
+      - ux-research:
+        priority: 10
+      - ux-strategy:
+        priority: 10
+      - ux-writing:
+        priority: 10
+  - name: Front-end e Mobile
+    cards:
+      - html-fundamentals:
+        priority: 10
+      - css-fundamentals:
+        priority: 10
+      - javascript-fundamentals:
+        priority: 9
+      - flutter-fundamentals:
+        priority: 9
+video: 
