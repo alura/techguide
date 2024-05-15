@@ -1,6 +1,6 @@
 name: UI design
 tags:
-  - ui design
+  - design
 expertise:
   - name: UI design Jr
     cards:
@@ -46,7 +46,8 @@ collaboration:
       - css-fundamentals:
         priority: 10
       - javascript-fundamentals:
-        priority: 9
+        priority: 7
       - flutter-fundamentals:
-        priority: 9
+        priority: 5
+        optional: true
 video: 
