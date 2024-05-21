@@ -53,7 +53,7 @@ expertise:
         optional: true
       - react-testing-library:
         priority: 8
-      - jest-react:
+      - react-jest:
         priority: 8
       - cypress:
         priority: 8
