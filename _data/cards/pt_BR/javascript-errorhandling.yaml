@@ -15,6 +15,9 @@ contents:
     title: "MDN Web Docs: Controle de Fluxo e Manipulação de Erro"
     link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#declara%C3%A7%C3%B5es_de_manipula%C3%A7%C3%A3o_de_error
   - type: SITE
+    title: "MDN Web Docs: Error"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error
+  - type: SITE
     title: "Microsoft TechNet: JavaScript: Tratamento de erros"
     link: https://social.technet.microsoft.com/wiki/pt-br/contents/articles/32455.javascript-tratamento-de-erros.aspx
   - type: ARTICLE
@@ -24,6 +27,9 @@ contents:
     title: "Criando Exceptions para impressionar no Teste Técnico"
     link: https://dev.to/he4rt/criando-exceptions-para-impressionar-no-teste-tecnico-2nie
 alura-contents:
+  - type: ARTICLE
+    title: "Lidando com erros no Node.js"
+    link: https://www.alura.com.br/artigos/lidando-com-erros-node-js
   - type: COURSE
     title: "Curso Node.js: Criando sua primeira biblioteca"
-    link: https://cursos.alura.com.br/course/nodejs-criando-primeira-biblioteca
+    link: https://cursos.alura.com.br/course/javascript-node-js-criando-primeira-biblioteca
