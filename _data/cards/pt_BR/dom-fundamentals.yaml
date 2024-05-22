@@ -15,8 +15,8 @@ contents:
     title: "MDN Web Docs: Introdução ao DOM"
     link: https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction
   - type: SITE
-    title: "MDN Web Docs: querySelectorAll()"
-    link: https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelectorAll
+    title: "MDN Web Docs: querySelector()"
+    link: https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector
   - type: SITE
     title: "MDN Web Docs: addEventListener()"
     link: https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener
@@ -26,7 +26,7 @@ contents:
 alura-contents:
   - type: COURSE
     title: "Curso JavaScript: manipulando o DOM"
-    link: https://cursos.alura.com.br/course/javascript-manipulando-dom
+    link: https://cursos.alura.com.br/course/javascript-manipulando-elementos-dom
   - type: CHALLENGE
     title: "7 Days of Code: JavaScript e DOM"
     link: https://7daysofcode.io/matricula/javascript-e-dom
