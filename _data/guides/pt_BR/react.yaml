@@ -53,9 +53,9 @@ expertise:
         optional: true
       - react-testing-library:
         priority: 8
-      - jest:
+      - react-jest:
         priority: 8
-      - cypress:
+      - react-cypress:
         priority: 8
       - javascript-callbacks-promises:
         priority: 8

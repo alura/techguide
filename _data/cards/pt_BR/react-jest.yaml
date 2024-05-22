@@ -1,8 +1,9 @@
-name: Jest
+name: React - Jest
 logo:
 short-description:
 key-objectives:
   - Jest é um framework de teste em JavaScript projetado para garantir a correção de qualquer código JavaScript. Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.
+  - Testar componentes
 aditional-objectives:
 contents:
   - type: ARTICLE
@@ -11,10 +12,19 @@ contents:
   - type: SITE
     title: "Jest: Documentação"
     link: https://jestjs.io/pt-BR/docs/getting-started
+  - type: SITE
+    title: "Jest: Testando Apps React"
+    link: https://jestjs.io/pt-BR/docs/tutorial-react
+  - type: YOUTUBE
+    title: "Washington Developer: React: Teste seus componentes | Jest | Testing Library"
+    link: https://www.youtube.com/watch?v=pbwXsjVEMqg
   - type: YOUTUBE
     title: "Matheus Castiglioni: Jest - Iniciando com testes e TDD"
     link: https://www.youtube.com/watch?v=sLx00kXPoTg
 alura-contents:
   - type: COURSE
-    title: "Node.js: testes unitários e de integração"
-    link: https://cursos.alura.com.br/course/nodejs-testes-unitarios-integracao
+    title: "Curso React: testando os seus componentes"
+    link: https://cursos.alura.com.br/course/react-testando-componentes
+  - type: COURSE
+    title: "Formação Melhore sua aplicação React com testes automatizados"
+    link: https://cursos.alura.com.br/formacao-react-testes-automatizados
