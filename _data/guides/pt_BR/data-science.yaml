@@ -47,10 +47,14 @@ expertise:
         priority: 7
       - natural-language-processing:
         priority: 7
+      - mlops:
+        priority: 6
 collaboration:
   - name: Cloud, Big Data e Sistemas
     cards:
-      - big-data-and-data-engineering:
+      - data-engineering-fundamentals:
+        priority: 9
+      - big-data-fundamentals:
         priority: 9
       - cloud-fundamentals:
         priority: 7
@@ -71,4 +75,12 @@ collaboration:
         optional: true
       - communication-skills:
         priority: 7
+      - technical-english:
+        priority: 6
+      - data-governance:
+        priority: 6
+        optional: true
+      - data-protection:
+        priority: 6
+        optional: true
 video: https://www.youtube.com/watch?v=7KhaiCC3fJQ&list=PLh2Y_pKOa4UeBQNf1JQzc4SfegYR0gO-N&index=6&ab_channel=Alura
