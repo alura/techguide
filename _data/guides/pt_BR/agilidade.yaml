@@ -1,0 +1,57 @@
+name: Agilidade
+tags:
+  - agilidade
+expertise:
+  - name: Nível 1
+    cards:
+      - agile-culture:
+        priority: 10
+      - scrum:
+        priority: 10
+      - agile-tools:
+        priority: 9
+      - kanban:
+        priority: 9
+  - name: Nível 2
+    cards:
+      - okrs:
+        priority: 10
+      - lean:
+        priority: 10
+      - team:
+        priority: 9
+      - design-thinking:
+        priority: 8
+  - name: Nível 3
+    cards:
+      - metrics:
+        priority: 10
+      - business:
+        priority: 9
+      - frameworks:
+        priority: 9
+      - compliance:
+        priority: 9
+collaboration:
+  - name: Liderança de equipe
+    cards:
+      - leadership-fundamentals:
+        priority: 10
+      - soft-skills:
+        priority: 10
+      - management-3-0:
+        priority: 10
+      - emotional-intelligence:
+        priority: 9
+      - tech-lead:
+        priority: 9
+  - name: Product management
+    cards:
+      - fundamentos-do-product-management:
+        priority: 10
+      - product-discovery:
+        priority: 10
+      - gestao-de-produtos-digitais:
+        priority: 9
+      - roadmap:
+        priority: 9
