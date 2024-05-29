@@ -12,6 +12,9 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: SITE
+    title: "ICD-UFMG: Testes de Hipóteses - Entendendo valores-p"
+    link: https://icd-ufmg.github.io/11-hipoteses/
+  - type: SITE
     title: "ICD-UFMG: Testes AB  - Como comparar dois grupos"
     link: https://icd-ufmg.github.io/10-ab/
   - type: ARTICLE
@@ -21,15 +24,9 @@ contents:
     title: "Prof. Dr. Petronio Silva: Ciência de Dados - Métricas e Testes"
     link: https://www.youtube.com/watch?v=gRfS2ns-r0Q
 alura-contents:
-  - type: YOUTUBE
-    title: "Alura: Data Science - Introdução a testes estatísticos com Python"
-    link: https://www.youtube.com/watch?v=PnfqWdmCHSo
   - type: COURSE
-    title: "Curso Data Science: testes estatísticos com Python"
-    link: https://cursos.alura.com.br/course/data-science-introducao-a-testes-estatisticos-com-python
+    title: "Data Science: testando relações com Regressão Linear"
+    link: https://cursos.alura.com.br/course/data-science-testando-relacoes-regressao-linear
   - type: COURSE
-    title: "Curso Análise de experimentos: testes, mapas de cores e análises dos dados"
-    link: https://cursos.alura.com.br/course/analise-de-experimentos
-  - type: COURSE
-    title: "Curso Estatística com Python: testes de hipóteses"
-    link: https://cursos.alura.com.br/course/estatistica-testes-hipotestes
+    title: "Data Science: testando hipóteses"
+    link: https://cursos.alura.com.br/course/data-science-testando-hipoteses

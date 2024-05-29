@@ -19,20 +19,11 @@ contents:
     title: "Análises com algoritmos de Clustering"
     link: https://medium.com/@isnardgurgel/an%C3%A1lises-com-algoritmos-de-clustering-40d52f36f67c
   - type: ARTICLE
-    title: "Clustering — Conceitos básicos, principais algoritmos e aplicações"
-    link: https://medium.com/turing-talks/clustering-conceitos-b%C3%A1sicos-principais-algoritmos-e-aplica%C3%A7%C3%A3o-ace572a062a9
-  - type: ARTICLE
     title: "Entendendo Clusters e K-Means"
     link: https://medium.com/cwi-software/entendendo-clusters-e-k-means-56b79352b452
-  - type: ARTICLE
-    title: "Entendendo DBSCAN"
-    link: https://gabriellm.medium.com/entendendo-dbscan-770f680d9160
   - type: YOUTUBE
     title: "Canalytics: O que é Clusterização de Dados?"
-    link: https://www.youtube.com/watch?v=8CkMX2qXgdY
-  - type: YOUTUBE
-    title: "André Eugenio Lazzaretti: Métodos de Clustering"
-    link: https://www.youtube.com/watch?v=kEGjyNs23UY
+    link: https://www.youtube.com/watch?v=1ygrujPfclo&ab_channel=Canalytics
   - type: YOUTUBE
     title: "Canal Sandeco: K-Means com Python"
     link: https://www.youtube.com/watch?v=piDlrtfz58s
@@ -40,27 +31,18 @@ contents:
     title: "Python DS: Machine Learning - Clustering (agrupamento) com DBSCAN"
     link: https://www.youtube.com/watch?v=TmCf9M_NNqQ
 alura-contents:
+  - type: ARTICLE
+    title: "Quais os algoritmos de clusterização e quando utilizar?"
+    link: https://www.alura.com.br/artigos/clusterizacao
   - type: BOOK
     title: "Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt"
     link: https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt
-  - type: ARTICLE
-    title: "Conhecendo os tipos de aprendizado de máquina"
-    link: https://www.alura.com.br/artigos/conhecendo-os-tipos-de-aprendizado-de-maquina
-  - type: YOUTUBE
-    title: "Alura: Como funciona o Clustering?"
-    link: https://www.youtube.com/watch?v=USELkRZrkIA
-  - type: COURSE
-    title: "Curso Clustering: K-Means, DBSCAN e mean shift"
-    link: https://cursos.alura.com.br/course/clustering-dados-sem-classificacao
   - type: COURSE
     title: "Curso Clustering aplicado: recomendando músicas com K-Means"
     link: https://cursos.alura.com.br/course/clustering-aplicado-recomendando-musicas-k-means
   - type: COURSE
     title: "Curso Clustering: extraindo padrões de dados"
     link: https://cursos.alura.com.br/course/cluster-analysis
-  - type: COURSE
-    title: "Curso Machine Learning: lidando com dados de muitas dimensões"
-    link: https://cursos.alura.com.br/course/reducao-dimensionalidade
   - type: COURSE
     title: "Curso Análise de componentes principais: elaboração de rankings com o PCA"
     link: https://cursos.alura.com.br/course/analise-componentes-elaboracao-rankings-pca

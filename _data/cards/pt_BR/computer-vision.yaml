@@ -12,9 +12,6 @@ key-objectives:
   - Usar OpenCV
 aditional-objectives:
 contents:
-  - type: SITE
-    title: "NVIDIA: Visão Computacional"
-    link: https://www.nvidia.com/pt-br/glossary/data-science/computer-vision/
   - type: ARTICLE
     title: "Introdução à Visão Computacional"
     link: https://medium.com/turing-talks/introdu%C3%A7%C3%A3o-%C3%A0-vis%C3%A3o-computacional-b13698774adc
@@ -46,9 +43,6 @@ contents:
     title: "Guiminam: Perguntas para uma doutora em visão computacional"
     link: https://www.youtube.com/watch?v=HO3HOW_72Vk
 alura-contents:
-  - type: BOOK
-    title: "Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt"
-    link: https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt
   - type: PODCAST
     title: "Hipsters.tech: Arte generativa – Hipsters Ponto Tech 261"
     link: https://www.hipsters.tech/arte-generativa-hipsters-ponto-tech-261/
@@ -56,17 +50,5 @@ alura-contents:
     title: "Visão Computacional com Teachable Machine"
     link: https://cursos.alura.com.br/extra/alura-mais/visao-computacional-com-teachable-machine-c1466
   - type: COURSE
-    title: "Curso Reconhecimento de imagens: Twitter e Computer Vision API"
-    link: https://cursos.alura.com.br/course/reconhecimento-imagens
-  - type: COURSE
-    title: "Curso Análise e Classificação de Faces: visão Computacional com OpenCV"
-    link: https://cursos.alura.com.br/course/analise-classificacao-faces-visao-computacional-opencv
-  - type: COURSE
-    title: "Curso de Visão computacional: detecção de texto em placas de carro"
-    link: https://cursos.alura.com.br/course/visao-computacional-deteccao-texto-placas-carro
-  - type: COURSE
-    title: "Curso de Visão Computacional: reconhecimento de texto com OCR e OpenCV"
-    link: https://cursos.alura.com.br/course/visao-computacional-reconhecimento-texto-ocr-opencv
-  - type: COURSE
-    title: "Curso de Visão computacional: Hand Tracking com OpenCV"
-    link: https://cursos.alura.com.br/course/visao-computacional-hand-tracking-opencv
+    title: "Formação Visão Computacional com OpenCV"
+    link: https://cursos.alura.com.br/formacao-visao-computacional-opencv
