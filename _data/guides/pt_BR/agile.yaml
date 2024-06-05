@@ -8,8 +8,6 @@ expertise:
         priority: 10
       - scrum:
         priority: 10
-      - agile-tools:
-        priority: 9
       - kanban:
         priority: 9
   - name: Nível 2
@@ -18,6 +16,8 @@ expertise:
         priority: 10
       - lean-management:
         priority: 10
+      - agile-tools:
+        priority: 9
       - agile-teams:
         priority: 9
       - design-thinking:
