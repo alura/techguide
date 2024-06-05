@@ -1,0 +1,56 @@
+name: UX design
+tags:
+  - UX-Design
+expertise:
+  - name: UX design Jr
+    cards:
+      - first-contact-with-ux:
+        priority: 10
+      - starting-ux-writing:
+        priority: 10
+      - starting-ux-research:
+        priority: 10
+      - starting-ux-strategy:
+        priority: 10
+      - design-thinking:
+        priority: 10
+  - name: UX design Mid
+    cards:
+      - ux-interaction-strategy-and-design:
+        priority: 9
+      - diving-in-ux-writing:
+        priority: 9
+      - diving-in-ux-research:
+        priority: 9
+      - diving-in-ux-strategy:
+        priority: 9
+  - name: UX design in depth
+    cards:
+      - ux-documentation-and-portfolio:
+        priority: 8
+      - Deep-dive-ux-writing:
+        priority: 8
+      - Deep-dive-ux-research:
+        priority: 8
+      - Deep-dive-ux-strategy:
+        priority: 8
+collaboration:
+  - name: UI Design
+    cards:
+      - visual-design-principles:
+        priority: 10
+      - ui-fundamentals:
+        priority: 10
+      - design-tools:
+        priority: 10
+  - name: Product Management
+    cards:
+      - product-management-fundamentals:
+        priority: 9
+      - product-discovery:
+        priority: 9
+      - digital-product-management:
+        priority: 9
+      - roadmap:
+        priority: 9
+video: 
