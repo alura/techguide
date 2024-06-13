@@ -1,0 +1,32 @@
+name: Administração de banco de dados Oracle
+logo: 
+short-description:
+key-objectives:
+  - Dominar conceitos de administração do Oracle é crucial para um DBA porque garante a eficiência, segurança e disponibilidade dos dados críticos de uma organização. Habilidades em otimização de consultas, gerenciamento de índices e manutenção de transações são essenciais para assegurar que os sistemas de banco de dados funcionem com alta performance e minimizem o tempo de inatividade. Além disso, a capacidade de diagnosticar e resolver problemas rapidamente mantém a integridade e a consistência dos dados, permitindo que a infraestrutura de TI suporte as operações empresariais de maneira robusta e confiável. Essa expertise é fundamental para que o DBA não apenas mantenha os sistemas estáveis, mas também contribua para a melhoria contínua da infraestrutura de dados da empresa.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Consultas básicas para o DBA Oracle"
+    link: https://www.linkedin.com/pulse/consultas-b%25C3%25A1sicas-para-o-dba-oracle-carlos-junior/
+
+  - type: ARTICLE
+    title: "Consultas básicas para o DBA Oracle - Parte 2"
+    link: https://www.linkedin.com/pulse/consultas-b%C3%A1sicas-para-o-dba-oracle-parte-2-carlos-junior-pb1af/
+
+  - type: ARTICLE
+    title: "Otimizando consultas usando índices no banco de dados Oracle"
+    link: https://labs.bluesoft.com.br/2020/03/23/otimizando-consultas-usando-indices-no-banco-de-dados-oracle/
+
+  - type: ARTICLE
+    title: "Tudo Sobre Desempenho de Consultas (SQL)"
+    link: https://medium.com/@maricae26/tudo-sobre-desempenho-de-consultas-sql-a320d9f11bae
+
+alura-contents:
+  - type: COURSE
+    title: "Administração e performance com Oracle Database"
+    link: https://cursos.alura.com.br/formacao-oracle-database-administracao-performance
+
+  - type: ARTICLE
+    title: "Transações no SQL: Mantendo os dados íntegros e consistentes"
+    link:https://www.alura.com.br/artigos/transacoes-no-sql-mantendo-os-dados-integros-e-consistentes
+

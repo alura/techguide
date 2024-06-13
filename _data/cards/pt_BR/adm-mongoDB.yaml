@@ -1,0 +1,32 @@
+name: Administração do SQL Server
+logo: 
+short-description:
+key-objectives:
+  - Para um DBA especializado em MongoDB, dominar a administração desse banco de dados NoSQL é crucial para garantir a eficiência, a segurança e a escalabilidade dos sistemas. O MongoDB é amplamente utilizado em aplicações modernas devido à sua flexibilidade na manipulação de grandes volumes de dados e na modelagem dinâmica. Habilidades em gerenciamento de clusters, segurança de dados, e técnicas de backup e recuperação são fundamentais para assegurar que os sistemas funcionem sem interrupções e estejam protegidos contra falhas e ataques. Além disso, a capacidade de otimizar consultas e gerenciar armazenamento eficazmente, incluindo o uso de GridFS para arquivos grandes, permite ao DBA manter um desempenho superior do banco de dados, mesmo em ambientes de alto tráfego. Com um sólido entendimento desses aspectos, o DBA pode garantir que o MongoDB atenda às necessidades complexas e crescentes da organização, suportando tanto a operação diária quanto a inovação contínua.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Manual do MongoDB: Administração"
+    link: https://www.mongodb.com/pt-br/docs/manual/administration/
+
+  - type: SITE
+    title: "Manual do MongoDB: Segurança"
+    link: https://www.mongodb.com/pt-br/docs/manual/security/
+
+  - type: YOUTUBE
+    title: "Gabriel Faraday: Conheça como funciona um cluster MongoDB"
+    link: https://www.youtube.com/watch?v=a4BvIdw9eRc
+
+
+alura-contents:
+  - type: COURSE
+    title: "MongoDB: segurança e disponibilidade dos dados"
+    link: https://cursos.alura.com.br/course/mongodb-seguranca-disponibilidade-dados
+
+  - type: COURSE
+    title: "MongoDB: trabalhando com armazenamento, backups e otimização de consulta"
+    link: https://cursos.alura.com.br/course/mongodb-armazenamento-backups-otimizacao-consulta
+
+  - type: SITE
+    title: "Armazenando arquivos com GridFS no MongoDB"
+    link: https://cursos.alura.com.br/extra/alura-mais/armazenando-arquivos-com-gridfs-no-mongodb-c80

@@ -1,0 +1,31 @@
+name: Administração do MySQL
+logo: 
+short-description:
+key-objectives:
+  - Para um DBA, dominar a administração do MySQL é essencial para garantir a eficiência, segurança e disponibilidade dos dados. MySQL é amplamente utilizado devido à sua confiabilidade e facilidade de uso, mas para maximizar seu potencial, o DBA precisa ser proficiente em áreas como backup e recuperação de dados, otimização de consultas e gerenciamento de índices. Essas habilidades asseguram que os sistemas de banco de dados operem com alto desempenho e que os dados sejam recuperáveis em caso de falhas. Além disso, a compreensão profunda de como manter a integridade e a consistência dos dados através do gerenciamento de transações é crucial em cenários onde a precisão dos dados é vital. Ao dominar essas práticas, o DBA pode manter uma infraestrutura de banco de dados robusta, segura e otimizada, essencial para suportar as operações críticas e o crescimento da organização.
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "Tudo Sobre Desempenho de Consultas (SQL)"
+    link: https://medium.com/@maricae26/tudo-sobre-desempenho-de-consultas-sql-a320d9f11bae
+
+  - type: SITE
+    title: "Backup e restauração"
+    link: https://dev.mysql.com/doc/refman/8.4/en/backup-and-recovery.html
+
+  - type: ARTICLE
+    title: "Índices em MySQL"
+    link: https://www.bosontreinamentos.com.br/mysql/indices-em-mysql
+
+  - type: ARTICLE
+    title: "Controle de Acesso no MySQL: Tutorial sobre os Comandos GRANT e REVOKE"
+    link: https://gasparbarancelli.com/post/controle-de-acesso-no-mysql-tutorial-sobre-os-comandos-grant-e-revoke
+
+alura-contents:
+  - type: ARTICLE
+    title: "Transações no SQL: Mantendo os dados íntegros e consistentes"
+    link:https://www.alura.com.br/artigos/transacoes-no-sql-mantendo-os-dados-integros
+
+  - type: ARTICLE
+    title: "Administração do MySQL: segurança e otimização do banco"
+    link:https://cursos.alura.com.br/course/mysql-dba-administracao

@@ -21,6 +21,19 @@ contents:
   - type: ARTICLE
     title: "SQL: comandos básicos"
     link: https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909 
+  - type: SITE
+    title: "AWS: O que é banco de dados relacional?"
+    link: https://aws.amazon.com/pt/relational-database/ 
+  - type: YOUTUBE
+    title: "10 conceitos essenciais de SQL que todo dev deve saber"
+    link: https://www.youtube.com/watch?v=cIUTAyomVPQ 
+  - type: SITE
+    title: "AWS: O que é NoSQL?"
+    link: https://aws.amazon.com/pt/nosql/ 
+  - type: ARTICLE
+    title: "NoSQL — O que são? Onde habitam? Do que se alimentam?"
+    link: https://medium.com/permalink-univesp/nosql-o-que-s%C3%A3o-onde-habitam-do-que-se-alimentam-2ccd4cc39571
+
 alura-contents:
   - type: YOUTUBE
     title: "Alura: O que é SQL e NoSQL?"
@@ -34,6 +47,12 @@ alura-contents:
   - type: YOUTUBE
     title: "Dicas para desenvolver um projeto de banco de dados relacional"
     link: https://cursos.alura.com.br/extra/alura-mais/dicas-para-desenvolver-um-projeto-de-banco-de-dados-relacional-c9093
+  - type: ARTICLE
+    title: "JOIN e seus tipos"
+    link: https://www.alura.com.br/artigos/join-e-seus-tipos
+  - type: ARTICLE
+    title: "Trabalhando com funções de agregação"
+    link: https://www.alura.com.br/artigos/trabalhando-funcoes-de-agregacao
   - type: ARTICLE
     title: "SQL: Comandos básicos"
     link: https://www.alura.com.br/artigos/sql-comandos-basicos 

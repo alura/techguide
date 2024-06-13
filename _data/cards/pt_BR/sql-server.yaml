@@ -1,0 +1,55 @@
+name: SQL Server
+logo: 
+short-description:
+key-objectives:
+  - O aprofundamento nos conhecimentos de SQL Server é vital para uma pessoa administradora de banco de dados (DBA), visto que este sistema de gerenciamento de banco de dados da Microsoft é amplamente utilizado por corporações para armazenamento de dados, processamento de transações e análise. Dominar o SQL Server equipa o DBA com habilidades essenciais para efetuar a instalação, configuração, tuning e manutenção, garantindo que o banco de dados funcione com eficiência e segurança. 
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "PostgreSQL x SQL Server: quais são as principais diferenças?"
+    link: https://cloud.google.com/learn/postgresql-vs-sql?hl=pt-br
+
+  - type: SITE
+    title: "Quais são as funções do banco de dados SQL?"
+    link: https://learn.microsoft.com/pt-br/sql/t-sql/functions/functions?view=sql-server-ver16
+
+  - type: SITE
+    title: "Consultas"
+    link: https://learn.microsoft.com/pt-br/sql/t-sql/queries/queries?view=sql-server-ver16
+
+alura-contents:
+  - type: ARTICLE
+    title: "SGBD’s Relacionais"
+    link: https://www.alura.com.br/artigos/sgbds-relacionais 
+
+  - type: ARTICLE
+    title: "SGBDs e suas linguagens internas"
+    link: https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas
+
+  - type: ARTICLE
+    title: "O que é e como usar Trigger em SQL"
+    link: https://www.alura.com.br/artigos/trigger-em-sql
+
+  - type: COURSE
+    title: "Microsoft SQL Server 2022: conhecendo SQL"
+    link: https://cursos.alura.com.br/course/microsoft-sql-server-conhecendo-sql
+
+  - type: COURSE
+    title: "Microsoft SQL Server 2022: consultas avançadas"
+    link: https://cursos.alura.com.br/course/microsoft-sql-server-2022-consultas-avancadas
+
+  - type: ARTICLE
+    title: "CTE: o que é e para que serve no SQL"
+    link: https://www.alura.com.br/artigos/cte-o-que-e-para-que-serve-sql 
+
+  - type: COURSE
+    title: "Microsoft SQL Server 2022: manipulando dados"
+    link: https://cursos.alura.com.br/course/microsoft-sql-server-2022-manipulando-dados
+
+  - type: COURSE
+    title: "Microsoft SQL Server 2022: conhecendo o T-SQL"
+    link: https://cursos.alura.com.br/course/microsoft-sql-server-2022-conhecendo-t-sql
+
+  - type: COURSE
+    title: "Microsoft SQL Server 2022: aprofundando em procedures e funções"
+    link: https://cursos.alura.com.br/course/microsoft-sql-server-2022-procedures-funcoes
