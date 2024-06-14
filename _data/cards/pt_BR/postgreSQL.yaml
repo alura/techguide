@@ -8,56 +8,43 @@ contents:
   - type: ARTICLE
     title: "O que é PostgreSQL?"
     link: https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-postgresql
-
   - type: ARTICLE
     title: "PostgreSQL x SQL Server: quais são as principais diferenças?"
     link: https://cloud.google.com/learn/postgresql-vs-sql?hl=pt-br
-
   - type: BOOK
-    title: "PostgreSQL: Banco de dados para aplicações web modernas por Vinícius Carvalho "
+    title: "PostgreSQL: Banco de dados para aplicações web modernas por Vinícius Carvalho"
     link: https://www.casadocodigo.com.br/products/livro-postgresql
-
   - type: ARTICLE
     title: "PostgreSQL: saiba o que é, para que serve e como instalar"
     link: https://rockcontent.com/br/blog/postgresql/
-
   - type: SITE
     title: "CREATE FUNCTION"
     link: https://www.postgresql.org/docs/current/sql-createfunction.html
-
 alura-contents:
   - type: ARTICLE
-    title: "SGBD’s Relacionais"
-    link: https://www.alura.com.br/artigos/sgbds-relacionais 
-
+    title: "SGBDs Relacionais"
+    link: https://www.alura.com.br/artigos/sgbds-relacionais
   - type: ARTICLE
     title: "SGBDs e suas linguagens internas"
     link: https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas
-
   - type: ARTICLE
     title: "CTE: o que é e para que serve no SQL"
-    link: https://www.alura.com.br/artigos/cte-o-que-e-para-que-serve-sql 
-
+    link: https://www.alura.com.br/artigos/cte-o-que-e-para-que-serve-sql
   - type: COURSE
     title: "PostgreSQL"
     link: https://cursos.alura.com.br/course/introducao-postgresql-primeiros-passos
-
   - type: COURSE
     title: "PostgreSQL: Views, Sub-Consultas e Funções"
     link: https://cursos.alura.com.br/course/postgresql-views-sub-consultas-funcoes
-
   - type: COURSE
     title: "PostgreSQL: comandos DML e DDL"
     link: https://cursos.alura.com.br/course/pgsql-comandos-dml-ddl
-
   - type: COURSE
     title: "PostgreSQL: desenvolva com PL/pgSQL"
     link: https://cursos.alura.com.br/course/postgresql-procedures
-
   - type: COURSE
     title: "PostgreSQL: Triggers, transações, erros e cursores"
     link: https://cursos.alura.com.br/course/postgresql-triggers-transacoes-erros-cursores
-
   - type: ARTICLE
     title: "O que é e como usar Trigger em SQL"
     link: https://www.alura.com.br/artigos/trigger-em-sql
