@@ -1,0 +1,69 @@
+name: Administração de Banco de Dados - DBA
+tags: 
+  - data
+expertise:
+  - name: DBA Jr
+    cards:
+      - data-modeling:
+        priority: 10
+      - databases-fundamentals:
+        priority: 10
+      - operational-systems:
+        priority: 7
+      - big-data-fundamentals:
+        priority: 7
+      - cloud-service-providers:
+        priority: 8
+  - name: DBA Mid
+    cards:
+      - oracle-database:
+        priority: 10
+      - postgreSQL:
+        priority: 10
+      - mysql:
+        priority: 10
+      - sql-server:
+        priority: 10
+      - mongoDB:
+        priority: 10
+      - data-warehouses:
+        priority: 8
+      - data-lakes:
+        priority: 8
+      - cloud-fundamentals:
+        priority: 7
+  - name: DBA in depth
+    cards:
+      - adm-oracle-database:
+        priority: 10
+      - adm-postgreSQL:
+        priority: 10
+      - adm-mysql:
+        priority: 10
+      - adm-sql-server:
+        priority: 10
+      - adm-mongoDB:
+        priority: 10
+      - data-protection:
+        priority: 9
+      - data-governance:
+        priority: 7
+collaboration:
+  - name: Infraestrutura
+    cards:
+      - computer-networks-fundamentals:
+        priority: 10
+      - containers:
+        priority: 9
+      - git-and-github-fundamentals:
+        priority: 8
+      - python-fundamentals:
+        priority: 8
+  - name: Dados
+    cards:
+      - pipelines-and-etl:
+        priority: 8
+      - business-intelligence-fundamentals:
+        priority: 8
+      - data-extraction-and-processing:
+        priority: 9

@@ -1,0 +1,39 @@
+name: Sistemas operacionais
+logo: 
+short-description:
+key-objectives:
+  - O conhecimento em sistemas operacionais é crucial para uma pessoa administradora de banco de dados (DBA), pois muitas das tarefas críticas associadas ao gerenciamento de banco de dados estão intrinsecamente ligadas ao sistema operacional sob o qual o banco de dados opera. Os DBAs devem entender como os recursos do sistema operacional, como gerenciamento de memória, processamento e segurança, impactam o desempenho, a estabilidade e a segurança do banco de dados. Além disso, habilidades em sistemas operacionais permitem que os DBAs otimizem o sistema de banco de dados para uso eficiente dos recursos do sistema, executem tarefas administrativas como backups e restaurações de forma mais eficaz e implementem medidas de segurança robustas. Esse conhecimento é essencial para garantir que os bancos de dados sejam confiáveis, seguros e capazes de atender às demandas de performance exigidas pelas aplicações empresariais. 
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "O QUE É UM SISTEMA OPERACIONAL E QUAIS SÃO OS PRINCIPAIS?"
+    link: https://www.insper.edu.br/noticias/o-que-e-um-sistema-operacional-e-quais-sao-os-principais/  
+
+  - type: ARTICLE
+    title: "Microsoft Windows: um guia completo sobre o sistema operacional"
+    link: https://www.tecmundo.com.br/software/266095-microsoft-windows-guia-completo-sistema-operacional.htm 
+
+  - type: YOUTUBE
+    title: "Sistema Operacional - Windows"
+    link: https://www.youtube.com/watch?v=Fa8Fj4BFtb8 
+
+  - type: COURSE
+    title: "Linux Professional Institute"
+    link: https://www.lpi.org/pt-br/value-of-certification/new-to-linux/?gad_source=1&gclid=CjwKCAjw65-zBhBkEiwAjrqRMB_vzFFWn625RMuwb8TF5baCyOZaoTbTvj9qHo9AJamYPvgJD5eyvBoCbgIQAvD_BwE 
+
+  - type: ARTICLE
+    title: "MacOS: o que é e como funciona"
+    link: https://www.blogdodispositivo.com.br/mac-os-o-que-e-e-como-funciona/ 
+
+alura-contents:
+  - type: ARTICLE
+    title: "Sistemas operacionais: conceito e estrutura"
+    link: https://www.alura.com.br/artigos/sistemas-operacionais-conceito-estrutura 
+
+  - type: COURSE
+    title: "Começando com Linux"
+    link: https://cursos.alura.com.br/formacao-comecando-linux 
+
+  - type: ARTICLE
+    title: "Trabalhando com caminhos e pastas no terminal"
+    link: https://www.alura.com.br/artigos/trabalhando-com-caminhos-e-pastas-no-terminal  

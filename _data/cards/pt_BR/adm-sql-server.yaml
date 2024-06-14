@@ -1,0 +1,40 @@
+name: Administração do SQL Server
+logo: 
+short-description:
+key-objectives:
+  - Para um DBA especializado em SQL Server, dominar a administração desse sistema de banco de dados é fundamental para garantir a segurança, a integridade e o desempenho das operações de dados da organização. O SQL Server é amplamente utilizado em ambientes empresariais devido à sua robustez e flexibilidade, mas para maximizar seu potencial, o DBA deve ser proficiente em práticas essenciais como backup e restauração, automação de tarefas de manutenção e aplicação de melhores práticas de segurança. Esses conhecimentos são cruciais para proteger os dados contra falhas e ataques, além de assegurar que as consultas SQL sejam executadas de forma otimizada. Habilidades em gerenciamento de transações também são vitais para manter a consistência e a precisão dos dados, especialmente em operações críticas. Com um sólido entendimento desses aspectos, o DBA pode garantir que o SQL Server funcione de maneira eficiente e confiável, suportando as demandas operacionais e estratégicas da organização.
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "SQL Server Expert: Administração SQL Server"
+    link: https://www.youtube.com/playlist?list=PLFJZoKXyt7iZ3KgABkEGhJt5KVqy-FbRP
+
+  - type: SITE
+    title: "Criar um backup de banco de dados completo"
+    link: https://learn.microsoft.com/pt-br/sql/relational-databases/backup-restore/create-a-full-database-backup-sql-server?view=sql-server-ver16
+
+  - type: SITE
+    title: "Como agendar e automatizar backups de bancos de dados do SQL Server no SQL Server Express"
+    link: https://learn.microsoft.com/pt-br/troubleshoot/sql/database-engine/backup-restore/schedule-automate-backup-database
+
+  - type: SITE
+    title: "Melhores práticas de segurança do SQL Server"
+    link: https://learn.microsoft.com/pt-br/sql/relational-databases/security/sql-server-security-best-practices?view=sql-server-ver16
+
+  - type: ARTICLE
+    title: "Tudo Sobre Desempenho de Consultas (SQL)"
+    link: https://medium.com/@maricae26/tudo-sobre-desempenho-de-consultas-sql-a320d9f11bae
+
+
+alura-contents:
+  - type: COURSE
+    title: "Microsoft SQL Server 2022: administrando o banco de dados"
+    link: https://cursos.alura.com.br/course/microsoft-sql-server-2022-administrando-banco-dados
+
+  - type: COURSE
+    title: "Microsoft SQL Server 2022: performance"
+    link: https://cursos.alura.com.br/course/microsoft-sql-server-2022-performance
+
+  - type: ARTICLE
+    title: "Transações no SQL: Mantendo os dados íntegros e consistentes"
+    link: https://www.alura.com.br/artigos/transacoes-no-sql-mantendo-os-dados-integros

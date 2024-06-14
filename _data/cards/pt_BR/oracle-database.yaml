@@ -1,0 +1,35 @@
+name: Banco de dados Oracle
+logo: 
+short-description:
+key-objectives:
+  - Para um DBA especializado em Oracle, é vital dominar conceitos fundamentais de bancos de dados relacionais (RDBMS) e habilidades avançadas em SQL. Compreender a estrutura e o funcionamento dos RDBMS, é crucial para manter a integridade e a performance dos sistemas. Conhecimentos específicos, como manipulação de texto em SQL e o uso de CTEs são essenciais para a otimização de consultas complexas. O DBA deve ser capaz de gerenciar eficientemente o Oracle Database, garantindo operações robustas e inovadoras para a organização.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Oracle: O que é um banco de dados relacional (RDBMS)?"
+    link: https://www.oracle.com/br/database/what-is-a-relational-database/ 
+
+  - type: ARTICLE
+    title: "Linguagem SQL - Manipulando texto por Carlos Santos"
+    link: https://www.linkedin.com/pulse/1z0-071-1z0-082-linguagem-sql-manipulando-texto-carlos-santos-dw3if/
+
+alura-contents:
+  - type: ARTICLE
+    title: "SGBDs Relacionais"
+    link: https://www.alura.com.br/artigos/sgbds-relacionais 
+
+  - type: ARTICLE
+    title: "SGBDs e suas linguagens internas"
+    link: https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas
+
+  - type: ARTICLE
+    title: "CTE: o que é e para que serve no SQL"
+    link: https://www.alura.com.br/artigos/cte-o-que-e-para-que-serve-sql 
+
+  - type: ARTICLE
+    title: "O que é e como usar Trigger em SQL"
+    link: https://www.alura.com.br/artigos/trigger-em-sql
+
+  - type: COURSE
+    title: "Formação Consultas com Oracle Database"
+    link: https://cursos.alura.com.br/formacao-oracle-database-sql-plsql
