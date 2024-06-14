@@ -1,0 +1,138 @@
+name: Mobile
+tags:
+  - mobile
+
+expertise:
+  - name: Mobile Jr
+    cards:
+      - dart-fundamentals:
+        priority: 10
+      - flutter-fundamentals:
+        priority: 10
+      - oop-concepts:
+        priority: 10
+      - flutter-persistence:
+        priority: 10
+      - dart-asynchronous:
+        priority: 10
+      - dart-errors-and-exceptions:
+        priority: 10
+      - dart-api:
+        priority: 10   
+      - data-structures:
+        priority: 9
+  - name: Mobile Mid
+    cards:      
+      - flutter-state-management:
+        priority: 9    
+      - flutter-testing:
+        priority: 9   
+      - kotlin-fundamentals:
+        priority: 8
+      - android-fundamentals:
+        priority: 8
+      - android-view-system-fundamentals:
+        priority: 8
+      - android-jetpack-compose-fundamentals:
+        priority: 8
+      - android-gradle:
+        priority: 8
+      - android-permissions:
+        priority: 7      
+      - java-fundamentals:
+        priority: 7
+        optional: true
+      - flutter-debugging:
+        priority: 6
+        optional: true   
+      - flutter-packages:
+        priority: 6
+        optional: true    
+  - name: Mobile in depth
+    cards:
+      - flutter-native:
+        priority: 9
+      - flutter-architecture:
+        priority: 6
+      - android-architecture:
+        priority: 7
+      - android-ci-cd:
+        priority: 5
+      - swift-fundamentals:
+        priority: 8
+      - xcode:
+        priority: 8
+      - ios-uikit-fundamentals:
+        priority: 8
+      - ios-storyboards:
+        priority: 7
+      - ios-viewcode:
+        priority: 6
+      - ios-swiftui:
+        priority: 6      
+      - ios-state-manager:
+        priority: 6
+      - ios-architecture:
+        priority: 6 
+      - flutter-deployment:
+        priority: 6
+        optional: true
+      - data-structures:
+        priority: 8
+        optional: true
+      - flutter-animations:
+        priority: 8
+        optional: true
+      - android-deployment:
+        priority: 6
+      - ios-deployment:
+        priority: 7
+      - objective-c-fundamentals:
+        priority: 5
+        optional: true
+
+collaboration:
+  - name: Infraestrutura e Back-end
+    cards:
+      - git-and-github-fundamentals:
+        priority: 10
+      - http-fundamentals:
+        priority: 10
+      - json:
+        priority: 8
+      - design-patterns:
+        priority: 7
+      - command-line-fundamentals:
+        priority: 7
+      - cloud-fundamentals:
+        priority: 6
+        optional: true
+      - solid:
+        priority: 6
+      - clean-architecture:
+        priority: 6
+      - firebase:
+        priority: 7
+
+  - name: UX e Design
+    cards:
+      - design-system:
+        priority: 6
+      - figma-fundamentals:
+        priority: 7
+      - design-components:
+        priority: 6
+      - color-systems:
+        priority: 7
+      - how-to-use-fonts:
+        priority: 7
+      - flutter-accessibility:
+        priority: 5
+      - responsive-design:
+        priority: 5
+      - material-design:
+        priority: 9
+      - human-interface-guidelines:
+        priority: 9
+
+video:
