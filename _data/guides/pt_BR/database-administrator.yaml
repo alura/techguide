@@ -18,13 +18,13 @@ expertise:
     cards:
       - oracle-database:
         priority: 10
-      - postgreSQL:
+      - postgresql:
         priority: 10
       - mysql:
         priority: 10
       - sql-server:
         priority: 10
-      - mongoDB:
+      - mongodb:
         priority: 10
       - data-warehouses:
         priority: 8
@@ -36,13 +36,13 @@ expertise:
     cards:
       - adm-oracle-database:
         priority: 10
-      - adm-postgreSQL:
+      - adm-postgresql:
         priority: 10
       - adm-mysql:
         priority: 10
       - adm-sql-server:
         priority: 10
-      - adm-mongoDB:
+      - adm-mongodb:
         priority: 10
       - data-protection:
         priority: 9
