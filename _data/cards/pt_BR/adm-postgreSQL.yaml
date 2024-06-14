@@ -6,32 +6,24 @@ key-objectives:
 aditional-objectives:
 contents:
   - type: BOOK
-    title: "PostgreSQL: Banco de dados para aplicações web modernas por Vinícius Carvalho "
+    title: "PostgreSQL: Banco de dados para aplicações web modernas por Vinícius Carvalho"
     Link: https://www.casadocodigo.com.br/products/livro-postgresql
-
   - type: ARTICLE
     title: "Tudo Sobre Desempenho de Consultas (SQL)"
     link: https://medium.com/@maricae26/tudo-sobre-desempenho-de-consultas-sql-a320d9f11bae
-
   - type: ARTICLE
     title: "Como fazer backup e restore no PostgreSQL"
     link: https://blog.tecnospeed.com.br/backup-e-restore-postgresql/
-
   - type: ARTICLE
     title: "PostgreSQL Database Backup and Restore: A Comprehensive Guide with Examples"
     link: https://www.linkedin.com/pulse/postgresql-database-backup-restore-comprehensive-viswanatham/
-
   - type: SITE
     title: "Backup e restauração"
     link: https://www.postgresql.org/docs/16/backup.html
-
 alura-contents:
   - type: COURSE
     title: "PostgreSQL: administração e otimização do banco"
     link: https://cursos.alura.com.br/course/postgresql-administracao-otimizacao
-
   - type: ARTICLE
     title: "Transações no SQL: Mantendo os dados íntegros e consistentes"
     link: https://www.alura.com.br/artigos/transacoes-no-sql-mantendo-os-dados-integros
-
-
