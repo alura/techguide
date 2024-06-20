@@ -6,8 +6,6 @@ expertise:
     cards:
       - python-for-data-science:
         priority: 10
-      - python-collections:
-        priority: 9
       - jupyter-and-colaboratory:
         priority: 9
       - linear-and-logistic-regression:
@@ -20,8 +18,13 @@ expertise:
         priority: 9
       - naive-bayes:
         priority: 8
+      - machine-learning-support-vector-machines:
+        priority: 7
+        optional: true
   - name: Artificial Intelligence Mid
     cards:
+      - xgboost:
+        priority: 10
       - time-series-forecasting:
         priority: 10
       - deep-learning:
@@ -38,9 +41,6 @@ expertise:
         priority: 8
       - chatbots:
         priority: 8
-      - machine-learning-support-vector-machines:
-        priority: 8
-        optional: true
       - semantic-and-instanced-image-segmentation:
         priority: 8
         optional: true
@@ -63,13 +63,10 @@ expertise:
         priority: 7
       - automated-ai:
         priority: 8
-      - xgboost:
-        priority: 7
-        optional: true
 collaboration:
   - name: Business e Serviços
     cards:
-      - big-data-and-data-engineering:
+      - big-data-fundamentals:
         priority: 10
       - git-and-github-fundamentals:
         priority: 9
@@ -79,13 +76,12 @@ collaboration:
         priority: 9
       - sql-fundamentals:
         priority: 8
-      - cloud-fundamentals:
+      - cloud-service-providers:
+        priority: 8
+      - mlops:
         priority: 8
       - communication-skills:
         priority: 7
-      - mlops:
-        priority: 5
-        optional: true
       - containers:
         priority: 4
         optional: true
