@@ -76,6 +76,8 @@ expertise:
         priority: 7
       - react-hooks-form:
         priority: 7
+      - react-performance:
+        priority: 5
       - lodash:
         priority: 4
         optional: true
