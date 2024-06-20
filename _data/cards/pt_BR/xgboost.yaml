@@ -8,14 +8,8 @@ contents:
     title: "XGBoost: aprenda este algoritmo de Machine Learning em Python"
     link: https://sigmoidal.ai/xgboost-aprenda-algoritmo-de-machine-learning-em-python/
   - type: ARTICLE
-    title: "XGBoost - O que é isso?"
-    link: https://datascience.eu/pt/programacao/xgboost-2/
-  - type: ARTICLE
     title: "XGBoost — A matemática passo a passo"
     link: https://medium.com/@aln.deaguiar/xgboost-a-matem%C3%A1tica-passo-a-passo-29d34fa561dc
-  - type: ARTICLE
-    title: "Análise automática de feedback em ambientes de aprendizagem online"
-    link: https://sol.sbc.org.br/index.php/sbie/article/view/12845
   - type: YOUTUBE
     title: "Mario Filho: XGBoost na Prática | Aula 1"
     link: https://www.youtube.com/watch?v=fG8H-0rb0mY
@@ -23,7 +17,11 @@ contents:
     title: "EstaTiDados: Árvore de Decisão, Random Forest e Gradient Boosting"
     link: https://youtu.be/noy13V1nTz4
 alura-contents:
+  - type: ARTICLE
+    title: "Machine Learning: conhecendo as técnicas de bagging e boosting"
+    link: https://www.alura.com.br/artigos/machine-learning-tecnicas-bagging-boosting 
   - type: COURSE
-    title: "Curso Data Analytics: Machine Learning com Google Cloud Platform"
-    link: https://www.alura.com.br/curso-online-data-analytics-google-cloud
+    title: "Classificação: melhorando o desempenho com XGBoost"
+    link: https://cursos.alura.com.br/course/classificacao-melhorando-desempenho-xgboost 
+
     

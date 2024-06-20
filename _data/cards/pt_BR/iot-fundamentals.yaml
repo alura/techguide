@@ -8,6 +8,12 @@ contents:
   - type: SITE
     title: "Arduino"
     link: https://www.arduino.cc
+  - type: SITE
+    title: "Raspberry Pi (inglês)"
+    link: https://www.raspberrypi.com/ 
+  - type: SITE
+    title: "Raspberry Pi Foundation (inglês)"
+    link: https://www.raspberrypi.org/ 
   - type: ARTICLE
     title: "Internet das Coisas: entenda o que é e veja exemplos de suas aplicações"
     link: https://medium.com/system-it-solutions/internet-das-coisas-o-que-e-exemplos-b82855d1a969
@@ -33,11 +39,11 @@ contents:
     title: "Brincando com Ideias: Arduino IOT Cloud - A Internet das Coisas fácil"
     link: https://www.youtube.com/watch?v=qZTMrj_w2Hk
   - type: YOUTUBE
+    title: "Arduino MINÚSCULO com INTELIGÊNCIA ARTIFICIAL?"
+    link: http://www.youtube.com/watch?v=8GoT_1WF3Ss    
+  - type: YOUTUBE
     title: "MD DIGITAL PODCAST: Internet das Coisas (IOT) - Five14Cast #011"
     link: https://www.youtube.com/watch?v=GRfEdvuMZIU
-  - type: YOUTUBE
-    title: "Leopoldo Armesto: Tutorial de CoppeliaSim (playlist em inglês)"
-    link: https://www.youtube.com/playlist?list=PLjzuoBhdtaXOoqkJUqhYQletLLnJP8vjZ
   - type: COURSE
     title: "Introduction to IoT"
     link: https://www.netacad.com/pt-br/courses/iot/introduction-iot
@@ -47,3 +53,13 @@ contents:
   - type: COURSE
     title: "Segurança de IoT"
     link: https://www.netacad.com/pt-br/courses/cybersecurity/iot-security
+alura-contents:
+  - type: PODCAST
+    title: "Hipsters #140: Automação residencial"
+    link: https://cursos.alura.com.br/extra/hipsterstech/automacao-residencial-hipsters-140-a441
+  - type: PODCAST
+    title: "Hipsters On The Road #51: IoT e débito técnico na Cobli"
+    link: https://cursos.alura.com.br/extra/hipsterstech/iot-e-debito-tecnico-na-cobli-hipsters-on-the-road-51-a778 
+  - type: ARTICLE
+    title: "Como a IoT (Internet das Coisas) está revolucionando o setor industrial"
+    link: https://www.alura.com.br/empresas/artigos/internet-das-coisas 

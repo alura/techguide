@@ -8,11 +8,14 @@ contents:
     title: "IBM: O que é computação de alto desempenho (HPC)?"
     link: https://www.ibm.com/br-pt/topics/hpc
   - type: SITE
-    title: "AMD: Explicação da computação de alto desempenho"
-    link: https://www.amd.com/pt/technologies/hpc-explained
+    title: "AMD: Explicando a computação de alto desempenho"
+    link: https://www.amd.com/system/files/documents/hpc-explained.pdf 
   - type: SITE
     title: "Microsoft: Design de arquitetura de IA (inteligência artificial)"
     link: https://learn.microsoft.com/pt-br/azure/architecture/data-guide/big-data/ai-overview
+  - type: ARTICLE
+    title: "Tecnoblog: O que é processamento paralelo em computação? Saiba benefícios e aplicações"
+    link: https://tecnoblog.net/responde/o-que-e-processamento-paralelo/ 
   - type: ARTICLE
     title: "UNICAMP: Computação de Alto Desempenho usando Clusters"
     link: https://www.ic.unicamp.br/~ducatte/mo401/1s2009/T2/089028-t2.pdf
@@ -25,3 +28,9 @@ contents:
   - type: YOUTUBE
     title: "Laboratório HiPES: Curso de Programação Paralela (playlist)"
     link: https://www.youtube.com/playlist?list=PL_9px37PNj6pyE7GbTyGyR598_T7T_cwG
+  - type: YOUTUBE
+    title: “UNIVESP:Computação Escalável - Computação Paralela e Distribuída”
+    link: http://www.youtube.com/watch?v=c5MlNQTjuX4
+  - type: YOUTUBE
+    title: "Prof. João Quadros: Computação paralela"
+    link: http://www.youtube.com/watch?v=9Wpo37vqqt8
