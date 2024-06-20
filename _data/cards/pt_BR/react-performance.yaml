@@ -1,0 +1,39 @@
+name: React - Gerenciamento de Performance
+logo:
+short-description:
+key-objectives:
+  - Em React, uma boa performance  garante uma experiência de usuário fluida e responsiva.
+  - A otimização de performance envolve técnicas para minimizar a quantidade de renderizações e maximizar a eficiência da atualização da interface.
+  - Entender o que é otimização de performance em React.
+  - Conhecer e saber usar técnicas como Lazy Loading e Code Splitting.
+  - Conhecer as demais ferramentas e práticas para otimização de performance no React.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "React: Documentação - Performance Hooks"
+    link: https://pt-br.react.dev/reference/react/hooks#performance-hooks
+  - type: ARTICLE
+    title: "Victor Rios: Performance em Aplicações React: Dicas e Técnicas de Otimização"
+    link: https://dev.to/vitorrios1001/performance-em-aplicacoes-react-dicas-e-tecnicas-de-otimizacao-414i
+  - type: ARTICLE
+    title: "TabNews: Performance tuning em ReactJS"
+    link: https://www.tabnews.com.br/gabrielOak/performance-tuning-em-reactjs
+  - type: YOUTUBE
+    title: "Sujeito Programador: Como melhorar a performance do seu projeto com React JS"
+    link: https://youtu.be/ENcr7ssBaMg?si=haaDbHWg0Qbp9v-s
+alura-contents:
+  - type: ARTICLE
+    title: "Métricas de performance centradas no usuário"
+    link: https://www.alura.com.br/artigos/metricas-performance-centradas-no-usuario
+  - type: ARTICLE
+    title: "Como construir aplicações SSR com React, React Router e Vite"
+    link: https://www.alura.com.br/artigos/vite-ssr-react
+  - type: PODCAST
+    title: "Hipsters.tech: Performance na Web 2: SSR, Core Web Vitals e Front-end"
+    link: https://cursos.alura.com.br/extra/hipsterstech/performance-na-web-2-ssr-core-web-vitals-e-front-end-hipsters-ponto-tech-416-a9348
+  - type: PODCAST
+    title: "Hipsters.tech: Observabilidade no Itaú"
+    link: https://cursos.alura.com.br/extra/hipsterstech/observabilidade-no-itau-hipsters-ponto-tech-334-a1927
+  - type: COURSE
+    title: "React: maximizando a performance de Aplicações"
+    link: https://cursos.alura.com.br/formacao-react-maximizando-performance-aplicacoes
