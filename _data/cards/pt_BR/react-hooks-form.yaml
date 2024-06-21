@@ -1,9 +1,11 @@
-name: React Hooks - Form
-logo: 
+name: React - Validação de formulários
+logo:
 short-description:
 key-objectives:
-  - React Hooks Form é uma biblioteca que fornece validação de formulários.
-  - Gerenciar formulários
+  - Em React, é super importante que, em formulários, os dados inseridos pelos usuários atendam a critérios específicos antes do envio ou processamento das informações.
+  - Conhecer o Formik e o React Hook Form, bibliotecas populares para lidar com formulários em React.
+  - Conhecer o Yup e o Zod, ambas bibliotecas de validação baseadas em esquema. Permitem a definição de esquemas para validar valores de um objeto.
+  - Compreender como as bibliotecas trabalham, facilitando a criação de formulários complexos com validação e gerenciamento de estado.
 aditional-objectives:
 contents:
   - type: SITE
@@ -16,3 +18,12 @@ contents:
     title: "Huriel: Como usar o React Hook Form!"
     link: https://www.youtube.com/watch?v=QEdm3EVrhY0
 alura-contents:
+  - type: ARTICLE
+    title: "React: validação de formulários com React Hook Form"
+    link: https://www.alura.com.br/artigos/react-hook-form
+  - type: ARTICLE
+    title: "Criando esquemas de validação com Yup"
+    link: https://www.alura.com.br/artigos/validacao-yup
+  - type: COURSE
+    title: "React: bibliotecas para desenvolver formulários"
+    link: https://cursos.alura.com.br/formacao-react-bibliotecas-desenvolver-formularios
