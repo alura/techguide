@@ -5,9 +5,9 @@ import { AllPathsForActiveCardDocument, SiteLocale } from "@src/gql_types";
 export { default } from "./index";
 
 export const getStaticProps = async (ctx) => {
-  const staticProps = await getStaticPropsBase(ctx);
+  const staticProps = (await getStaticPropsBase(ctx)) as any;
 
-  if (!staticProps.props.guide) {
+  if (staticProps.notFound) {
     return {
       notFound: true,
     };
