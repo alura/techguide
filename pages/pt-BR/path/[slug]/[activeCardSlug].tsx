@@ -6,6 +6,13 @@ export { default } from "./index";
 
 export const getStaticProps = async (ctx) => {
   const staticProps = await getStaticPropsBase(ctx);
+
+  if (!staticProps.props.guide) {
+    return {
+      notFound: true,
+    };
+  }
+
   const cards = [
     ...staticProps.props.guide.collaborations[0].cards,
     ...staticProps.props.guide.collaborations[1].cards,
@@ -20,6 +27,7 @@ export const getStaticProps = async (ctx) => {
 
   const title = card?.item?.name || "Error";
   const categoryTitle = staticProps.props.guide.name;
+
   return {
     ...staticProps,
     props: {
