@@ -18,7 +18,11 @@ contents:
     link: https://www.youtube.com/watch?v=CbejnYx8JlQ     
   - type: YOUTUBE
     title: "Lecture Notes by Adriano Santos: SVM - Máquina de Vetores de Suporte - Geração de hiperplanos"
-    link: https://www.youtube.com/watch?v=7y4uceXgYeo       
+    link: https://www.youtube.com/watch?v=7y4uceXgYeo
+  - type: SITE
+    title: "Máquina de vetores de suporte - documentação Scikit-Learn (inglês)"
+    link: https://scikit-learn.org/stable/modules/svm.html
+alura-contents:     
   - type: COURSE
-    title: "Formação Machine Learning"
-    link: https://www.alura.com.br/formacao-machine-learning
+    title: "Machine Learning: classificação com SKLearn"
+    link: https://cursos.alura.com.br/course/machine-learning-introducao-a-classificacao-com-sklearn

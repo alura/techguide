@@ -16,12 +16,12 @@ contents:
   - type: ARTICLE
     title: "Regularização L1 (Lasso) & L2 (Ridge)"
     link: https://medium.com/data-hackers/o-que-%C3%A9-regulariza%C3%A7%C3%A3o-l1-l2-6697ada36a51      
-  - type: SITE
-    title: "Regularização L1 vs L2: quando usar cada uma delas?"
-    link: https://pt.quish.tv/l1-vs-l2-regularization    
   - type: YOUTUBE
     title: "Zurubabel: Regularização L1 e L2 (Uma pequena explicação)"
     link: https://www.youtube.com/watch?v=0poNl10NIYU   
   - type: YOUTUBE
     title: "ProfDanilo_DS: Definição das normalizações L1 e L2"
     link: https://www.youtube.com/watch?v=u8tpv_ffkoo
+  - type: SITE
+    title: "Modelos lineares - documentação Scikit-learn (inglês)"
+    link: https://scikit-learn.org/stable/modules/linear_model.html

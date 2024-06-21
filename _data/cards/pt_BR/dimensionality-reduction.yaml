@@ -4,9 +4,6 @@ short-description:
 key-objectives:
   - Redução de dimensionalidade é uma técnica utilizada no campo de aprendizado de máquina e análise de dados para reduzir o número de variáveis ou dimensões em um conjunto de dados. O objetivo é simplificar a representação dos dados, eliminando ou combinando características redundantes ou irrelevantes, enquanto mantém a maior parte da informação original.
 contents:
-  - type: SITE
-    title: "O que é a Redução de Dimensionalidade?"
-    link: https://www.aprendadatascience.com/blog/an%C3%A1lise-explorat%C3%B3ria-de-dados/redu%C3%A7%C3%A3o-de-dimensionalidade
   - type: ARTICLE
     title: "O que é a Redução de Dimensionalidade em Machine Learning?"
     link: https://ealexbarros.medium.com/o-que-%C3%A9-a-redu%C3%A7%C3%A3o-de-dimensionalidade-em-machine-learning-cc2a89e3cdec
@@ -19,5 +16,11 @@ contents:
 alura-contents:
   - type: COURSE
     title: "Machine Learning: lidando com dados de muitas dimensões"
-    link: https://www.alura.com.br/conteudo/reducao-dimensionalidade/
+    link: https://cursos.alura.com.br/course/reducao-dimensionalidade
+  - type: COURSE
+    title: "Classificação: selecionando features"
+    link: https://cursos.alura.com.br/course/classificacao-selecionando-features
+  - type: COURSE
+    title: "Análise de componentes principais: elaboração de rankings com o PCA"
+    link: https://cursos.alura.com.br/course/analise-componentes-elaboracao-rankings-pca
  

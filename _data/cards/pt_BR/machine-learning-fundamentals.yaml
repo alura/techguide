@@ -32,14 +32,26 @@ contents:
     link: https://www.youtube.com/watch?v=JyGGMyR3x5I
 alura-contents:
   - type: ARTICLE
+    title: "Direto ao ponto: o que é Machine Learning com exemplos reais"
+    link: https://www.alura.com.br/artigos/machine-learning
+  - type: ARTICLE
     title: "Desmistificando termos em Machine Learning"
     link: https://www.alura.com.br/artigos/desmistificando-termos-machine-learning
   - type: ARTICLE
-    title: "Desmistificando termos em Machine Learning - tipos de aprendizado"
+    title: "Quais são os 4 tipos de aprendizagem na IA, algoritmos e usos no dia a dia"
     link: https://www.alura.com.br/artigos/desmistificando-termos-machine-learning-tipos-aprendizado
+  - type: ARTICLE
+    title: "Machine Learning: o que é aprendizado semi-supervisionado"
+    link: https://alura.com.br/artigos/machine-learning-aprendizado-semi-supervisionado
+  - type: YOUTUBE
+    title: "Alura: O que é Machine Learning?"
+    link: https://www.youtube.com/watch?v=Iuz_jc96bQk
   - type: PODCAST
     title: "Hipsters.tech: Machine Learning – Hipsters 89"
     link: https://www.hipsters.tech/machine-learning-hipsters-88/
+  - type: YOUTUBE
+    title: "Alura: Como funciona o Machine Learning?"
+    link: https://www.youtube.com/watch?v=CAu97npy7zQ
   - type: PODCAST
     title: "Hipsters.tech: Desafios em Machine Learning – Hipsters 137"
     link: https://www.hipsters.tech/desafios-em-machine-learning-hipsters-137/
@@ -47,23 +59,20 @@ alura-contents:
     title: "Hipsters.tech: Engenharia de machine learning – Hipsters Ponto Tech 248"
     link: https://www.hipsters.tech/engenharia-de-machine-learning-hipsters-ponto-tech-248/
   - type: YOUTUBE
-    title: "Alura: O que é Machine Learning?"
-    link: https://www.youtube.com/watch?v=Iuz_jc96bQk
-  - type: YOUTUBE
     title: "Alura: O que faz uma pessoa engenheira de Machine Learning?"
     link: https://www.youtube.com/watch?v=BRhz6v-jfMM
-  - type: YOUTUBE
-    title: "Alura: Como funciona o Machine Learning?"
-    link: https://www.youtube.com/watch?v=CAu97npy7zQ
   - type: COURSE
     title: "Formação Machine Learning"
     link: https://cursos.alura.com.br/formacao-machine-learning
-  - type: BOOK
-    title: "Machine Learning: Introdução à classificação"
-    link: https://www.casadocodigo.com.br/products/livro-machine-learning
+  - type: COURSE
+    title: "Machine Learning com Python: Classificação"
+    link: https://cursos.alura.com.br/formacao-machine-learning-python-classificacao
   - type: CHALLENGE
     title: "7 Days of Code: Machine Learning"
     link: https://7daysofcode.io/matricula/machine-learning
+  - type: BOOK
+    title: "Machine Learning: Introdução à classificação"
+    link: https://www.casadocodigo.com.br/products/livro-machine-learning
   - type: BOOK
     title: "Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt"
     link: https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt

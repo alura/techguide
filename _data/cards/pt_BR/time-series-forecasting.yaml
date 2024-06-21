@@ -22,6 +22,9 @@ contents:
   - type: YOUTUBE
     title: "economiaetv: Séries Temporais (playlist)"
     link: https://www.youtube.com/playlist?list=PLW1zGvUGqyiEw1O3HAcjezB9esyI8R8xe
+  - type: SITE
+    title: "Detecção de anomalias em séries temporais (inglês)"
+    link: https://neptune.ai/blog/anomaly-detection-in-time-series
 alura-contents:
   - type: ARTICLE
     title: "Séries temporais e suas aplicações"
@@ -29,4 +32,10 @@ alura-contents:
   - type: COURSE
     title: "Curso Data Science: análise de series temporais"
     link: https://www.alura.com.br/curso-online-data-science-series-temporais
+  - type: COURSE
+    title: "Curso Data Science: analisando e prevendo séries temporais"
+    link: https://cursos.alura.com.br/course/data-science-analisando-prevendo-series-temporais
+  - type: BOOK
+    title: "Séries temporais com Prophet"
+    link: https://www.casadocodigo.com.br/products/livro-series-temporais-prophet
 

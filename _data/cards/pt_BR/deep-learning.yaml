@@ -25,9 +25,6 @@ contents:
     title: "Qual a diferença entre Inteligência Artificial, Machine Learning e Deep Learning?"
     link: https://medium.com/@sergio_henr_/qual-a-diferen%C3%A7a-entre-intelig%C3%AAncia-artificial-machine-learning-e-deep-learning-c33d8910bf31
   - type: ARTICLE
-    title: "TensorFlow por Brasileiros — Introdução (Deep-learning)"
-    link: https://medium.com/@adilmarcoelhodantas/tensorflow-por-brasileiros-introdu%C3%A7%C3%A3o-deep-learning-667260bb2cda
-  - type: ARTICLE
     title: "Estudo dos algoritmos de redes neurais de aprendizado profundo, com implementação em TensorFlow"
     link: https://revistas.unifenas.br/index.php/RE3C/article/view/232
   - type: ARTICLE
@@ -40,11 +37,11 @@ contents:
     title: "Ciência Todo Dia: Deep Learning explicado"
     link: https://www.youtube.com/watch?v=ggmDI9_fm54
   - type: YOUTUBE
-    title: "Argonalyst: O que é Deep Learning?"
-    link: https://www.youtube.com/watch?v=R-63YMTnuZw
-  - type: YOUTUBE
     title: "Código Fonte TV: Reconhecimento de Imagens com Deep Learning usando TensorFlow e Keras"
     link: https://www.youtube.com/watch?v=7MItgjXU3_E&ab_channel=C%C3%B3digoFonteTV
+  - type: YOUTUBE
+    title: "Curso Deep Learning - UTFPR - português (playlist)"
+    link: https://www.youtube.com/playlist?list=PL9At2PVRU0ZqVArhU9QMyI3jSe113_m2-
 alura-contents:
   - type: BOOK
     title: "Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt"
@@ -79,3 +76,7 @@ alura-contents:
   - type: COURSE
     title: "Formação Deep Learning com Pytorch"
     link: https://www.alura.com.br/formacao-deep-learning-pytorch
+  - type: COURSE
+    title: "TensorFlow: implementando um perceptron de múltiplas camadas (MLP)"
+    link: https://cursos.alura.com.br/course/tensorflow-implementando-perceptron-multiplas-camadas
+
