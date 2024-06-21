@@ -23,6 +23,12 @@ export const getStaticProps = async ({ params, ...ctx }: any) => {
     },
   });
 
+  if (!data.guide) {
+    return {
+      notFound: true,
+    };
+  }
+
   return withLocaleContent(
     {
       props: {
