@@ -1,9 +1,9 @@
 name: Android (IA)
-logo: 
-short-description: 
+logo:
+short-description:
 key-objectives:
   - Um Client-SDK para IA é uma ferramenta intermediária que simplifica a comunicação entre o seu aplicativo e serviços de IA remotos. Imagine como uma ponte que liga o seu aplicativo (que está local no seu dispositivo) a um servidor poderoso de IA (que geralmente fica na nuvem);
-  - IA On-Device, ou inteligência artificial no dispositivo, refere-se à execução de tarefas de IA diretamente no seu dispositivo pessoal, como smartphone, tablet ou smartwatch, em vez de depender de servidores remotos na nuvem;  
+  - IA On-Device, ou inteligência artificial no dispositivo, refere-se à execução de tarefas de IA diretamente no seu dispositivo pessoal, como smartphone, tablet ou smartwatch, em vez de depender de servidores remotos na nuvem;
   - Aprender a traduzir textos automaticamente, reconhecer imagens, gerar respostas inteligentes e mais utilizando IA no seu app;
   - Como acessar a API Gemini/GPT diretamente do app Android usando o SDK do cliente para Android;
   - Como baixar e utilizar ferramentas de machine learning localmente nos apps;
@@ -25,6 +25,9 @@ contents:
     title: "TensorFlow - Modelos de linguagem no dispositivo com Keras e Android"
     link: https://youtu.be/pNWNMPi0Mvk
 alura-contents:
+  - type: ALURAPLUS
+    title: "Alura+: Crie seu primeiro aplicativo de IA generativa no Android Studio"
+    link: https://cursos.alura.com.br/extra/alura-mais/crie-seu-primeiro-aplicativo-de-ia-generativa-no-android-studio-c9218
   - type: COURSE
     title: "Formação - Android com IA: criando apps mais inteligentes com o Google ML Kit"
     link: https://cursos.alura.com.br/formacao-android-ia-google-ml-kit
