@@ -1,5 +1,5 @@
 name: Angular - Testes
-logo: 
+logo:
 short-description:
 key-objectives:
   - O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.
@@ -35,3 +35,9 @@ alura-contents:
   - type: COURSE
     title: "Curso Angular: avançando com testes automatizados"
     link: https://www.alura.com.br/curso-online-angular-avancando-testes-automatizados
+  - type: COURSE
+    title: "Curso Angular: explorando testes de unidade e integração"
+    link: https://cursos.alura.com.br/course/angular-explorando-testes-unidade-integracao
+  - type: COURSE
+    title: "Curso Angular: escreva testes end-to-end com Playwright"
+    link: https://cursos.alura.com.br/course/angular-escreva-testes-end-to-end-playwright
