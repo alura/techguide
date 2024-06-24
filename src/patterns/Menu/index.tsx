@@ -25,13 +25,28 @@ export default function Menu() {
           justifyContent: "space-between",
         }}
       >
-        <Link href="/">
+        <Link
+          href="/"
+          styleSheet={{
+            display: "flex",
+            flexDirection: "row",
+            alignItems: "center",
+            gap: "16px",
+          }}
+        >
           <Image
             src="/assets/image/logo.svg"
             alt={i18n.content("MENU.LOGO_ALT")}
             styleSheet={{
               width: "29px",
               height: "29px",
+            }}
+          />
+          <Image
+            src="/assets/image/alura-logo.svg"
+            alt={i18n.content("MENU.LOGO_ALURA_ALT")}
+            styleSheet={{
+              width: "50px",
             }}
           />
         </Link>
