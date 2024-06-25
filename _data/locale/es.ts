@@ -4,6 +4,7 @@ export default {
   "HEAD.DESCRIPTION": "Encuentre la guía perfecta para tu carrera tecnológica. Consejos, sugerencias, prioridades y enlaces a contenidos. Todo con el enfoque del profesional en T.",
   "HEAD.SHARE_IMAGE": "https://techguide.sh/assets/image/share-image-es.png",
   "MENU.LOGO_ALT": "Logo Tech Guide Alura",
+  "MENU.LOGO_ALURA_ALT": "Logo Alura",
   "MENU.CTA_TEXT": "<Emoji name='fire'/> Construye tu &lt;T&gt;",
   "SCREEN_HERO_CONTAINER.PRE_TITLE": "<Emoji name='star'/> ¡Guía tu carrera!",
   "SCREEN_HERO_CONTAINER.TITLE": "Descubre posibles caminos<br /> para convertirte en un profesional <strong>&lt;en T&gt;</strong>",
