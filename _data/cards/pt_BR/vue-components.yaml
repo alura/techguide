@@ -1,8 +1,8 @@
 name: Vue - Componentes
-logo: 
+logo:
 short-description:
 key-objectives:
-  - O Vue permite definir componentes usando a Option API ou a Composition API. 
+  - O Vue permite definir componentes usando a Option API ou a Composition API.
   - Para que servem e como funcionam componentes
   - Conheça a especificação da Sintaxe SFC (Single File Component)
 aditional-objectives:
@@ -20,6 +20,9 @@ alura-contents:
   - type: ARTICLE
     title: "Angular vs React vs Vue.js"
     link: https://www.alura.com.br/artigos/angular-vs-react-vs-vue-js
+  - type: ARTICLE
+    title: "Vue.js: o que é, como funciona e como começar a usar esse framework JS"
+    link: https://www.alura.com.br/artigos/vue-js
   - type: ARTICLE
     title: "Vue 3: Conhecendo mais de perto"
     link: https://www.alura.com.br/artigos/vue-3-conhecendo-mais-de-perto
