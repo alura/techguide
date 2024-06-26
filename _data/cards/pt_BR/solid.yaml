@@ -1,5 +1,5 @@
 name: SOLID
-logo: 
+logo:
 short-description:
 key-objectives:
   - O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.
@@ -42,6 +42,9 @@ alura-contents:
   - type: COURSE
     title: "Curso SOLID com PHP: princípios da programação orientada a objetos"
     link: https://cursos.alura.com.br/course/solid-php-principios-orientacao-a-objetos
+  - type: COURSE
+    title: "Curso iOS: escrevendo código de qualidade com SOLID em Swift"
+    link: https://www.alura.com.br/curso-online-ios-escrevendo-codigo-qualidade-solid-swift
   - type: COURSE
     title: "Formação Boas práticas em C#"
     link: https://cursos.alura.com.br/formacao-boas-praticas-c-sharp
