@@ -1,5 +1,5 @@
 name: iOS - Comunicação com APIs
-logo: 
+logo:
 short-description:
 key-objectives:
   - "As comunicações API em iOS são o processo de comunicação entre um aplicativo iOS e um serviço externo. Isso pode ser feito usando uma variedade de métodos, incluindo HTTP, HTTPS e Sockets. As comunicações API são importantes porque elas permitem que os aplicativos iOS acessem dados e recursos que não estão disponíveis no dispositivo local. Elas também podem ser usadas para compartilhar dados e recursos entre aplicativos iOS e serviços externos. Veja as principais habilidades que você precisa desenvolver:"
@@ -22,6 +22,9 @@ contents:
     title: "Alamofire - Network facilitado (inglês)"
     link: https://medium.com/codex/alamofire-networking-made-easy-108e8f55b279
 alura-contents:
+  - type: COURSE
+    title: "iOS com SwiftUI: fazendo requisições HTTP e conexão com API"
+    link: https://www.alura.com.br/curso-online-ios-swiftui-requisicoes-http-conexao-api
   - type: COURSE
     title: "Formação: Evolua Apps em SwiftUI: CRUD, MVVM e Autenticação"
     link: https://cursos.alura.com.br/formacao-apps-swiftui-crud-mvvm-autenticacao
