@@ -17,6 +17,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     - uses: actions/setup-node@v3
+      with:   
+        node-version: 'v20.14.0'
     - name: Call Script
       run: |
         echo "[START]"
