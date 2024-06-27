@@ -156,7 +156,7 @@
    - Isolar partes do código em módulos
    - Usar import e export
 - [ ] **Jest**:
-   - Testar componentes
+   - Jest é um framework de teste em JavaScript projetado para garantir a correção de qualquer código JavaScript. Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.
 - [ ] **JavaScript - Armazenamento**:
    - Armazenar dados no front-end com localStorage
    - Manipular dados armazenados
@@ -309,9 +309,14 @@
    - Conhecer o conceito de Mobile first
 - [ ] **Componentes de design**:
    - Conhecer os componentes descrevem um layout ou interface
-- [ ] **Design Systems**:
-   - Um Design Systems (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
+- [ ] **Design System**:
+   - Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
    - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+   - Design tokens
+   - Estilos fundamentais
+   - Construção de componentes
+   - Microinterações
+   - Documentação
 - [ ] **Sistemas de cores**:
    - Definir uma paleta de cores que faça sentido para determinada interface
 - [ ] **Como usar fontes**:

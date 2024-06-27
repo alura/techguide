@@ -120,7 +120,8 @@
 - [ ] **React Testing Library**:
    - A React Testing Library se baseia na DOM Testing Library adicionando APIs para trabalhar com componentes React. É um conjunto de auxiliares que permitem testar componentes React sem depender de seus detalhes de implementação.
    - Testar componentes React
-- [ ] **Jest**:
+- [ ] **React - Jest**:
+   - Jest é um framework de teste em JavaScript projetado para garantir a correção de qualquer código JavaScript. Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.
    - Testar componentes
 - [ ] **Cypress**:
    - Criar e executar testes
@@ -151,9 +152,17 @@
    - Criar animações
 - [ ] **Service Workers**:
    - Melhorar a performance e trabalhar offline
-- [ ] **React Hooks - Form**:
-   - React Hooks Form é uma biblioteca que fornece validação de formulários.
-   - Gerenciar formulários
+- [ ] **React - Validação de formulários**:
+   - Em React, é super importante que, em formulários, os dados inseridos pelos usuários atendam a critérios específicos antes do envio ou processamento das informações.
+   - Conhecer o Formik e o React Hook Form, bibliotecas populares para lidar com formulários em React.
+   - Conhecer o Yup e o Zod, ambas bibliotecas de validação baseadas em esquema. Permitem a definição de esquemas para validar valores de um objeto.
+   - Compreender como as bibliotecas trabalham, facilitando a criação de formulários complexos com validação e gerenciamento de estado.
+- [ ] **React - Gerenciamento de Performance**:
+   - Em React, uma boa performance  garante uma experiência de usuário fluida e responsiva.
+   - A otimização de performance envolve técnicas para minimizar a quantidade de renderizações e maximizar a eficiência da atualização da interface.
+   - Entender o que é otimização de performance em React.
+   - Conhecer e saber usar técnicas como Lazy Loading e Code Splitting.
+   - Conhecer as demais ferramentas e práticas para otimização de performance no React.
 - [ ] **Lodash**:
    - Lodash é uma biblioteca de utilitários JavaScript moderna que oferece modularidade, desempenho e extras. Os métodos modulares do Lodash são ótimos para iterar arrays, objetos e strings; manipular e testar valores; e criar funções compostas.
 - [ ] **GraphQL**:
@@ -214,9 +223,14 @@
    - Comandos
    - Arquivo yarn.lock
 ## Habilidade Auxiliar: UX e Design 
-- [ ] **Design Systems**:
-   - Um Design Systems (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
+- [ ] **Design System**:
+   - Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
    - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+   - Design tokens
+   - Estilos fundamentais
+   - Construção de componentes
+   - Microinterações
+   - Documentação
 - [ ] **Figma - Fundamentos**:
    - Figma é uma aplicação web colaborativa para design de interfaces. O conjunto de recursos do Figma se concentra na interface do usuário e no design da experiência do usuário, com ênfase na colaboração em tempo real, utilizando uma variedade de editores de gráficos vetoriais e ferramentas de prototipagem.
    - Criar layouts de páginas e componentes

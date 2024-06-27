@@ -188,9 +188,14 @@
    - As Diretrizes de Interface Humana contêm orientações e práticas recomendadas que podem ajudá-lo a criar uma ótima experiência para qualquer plataforma Apple. Veja as principais habilidades que você precisa desenvolver:
    - Aprender os fundamentos das Diretrizes de Interface Humana (HIG) para iOS;
    - Usar cores, fontes, layouts, ícones e animação de acordo com as diretrizes HIG.
-- [ ] **Design Systems**:
-   - Um Design Systems (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
+- [ ] **Design System**:
+   - Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
    - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+   - Design tokens
+   - Estilos fundamentais
+   - Construção de componentes
+   - Microinterações
+   - Documentação
 - [ ] **Sistemas de cores**:
    - Definir uma paleta de cores que faça sentido para determinada interface
 - [ ] **Como usar fontes**:

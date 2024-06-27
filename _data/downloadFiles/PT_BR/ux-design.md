@@ -1,0 +1,94 @@
+# UX Design
+## Nivel 1
+- [ ] **Primeiro contato com UX**:
+   - Não existe aplicativo ou site sem usuário. Uma ideia só vira um produto quando é usada por alguém de verdade. E um produto só é um sucesso quando a pessoa tem uma experiência voltada exclusivamente para ela.
+   - A área de UX - Experiência do Usuário - é um campo riquíssimo de conhecimento e desafios sobre como facilitar o contato dos nossos usuários com nossos produtos digitais e como essas pessoas se sentem. É um mercado imenso, sendo importante na Web, na construção de aplicativos e sistemas, além de ser importante também no mundo off-line.
+   - A especialidade em UX é hoje bastante requisitada em todo tipo de projeto de tecnologia, desde pequenas startups até grandes empresas. Este profissional é responsável por garantir que o design atenda às necessidades das pessoas usuárias, garantindo uma boa experiência de uso/compra para estas pessoas.
+- [ ] **Entendendo a escrita em UX - UX Writing**:
+   - A experiência de uma pessoa com um produto ou serviço envolve muitos aspectos diferentes e cada um precisa ser estudado detalhadamente. Um dos aspectos mais importantes é a escrita, pois é através dos textos e palavras que conseguimos nos comunicar, nos conectar, ajudar e orientar as pessoas usuárias através de sua vivência com um produto ou serviço.
+   - null
+- [ ] **Imersão no problema - UX Research**:
+   - Para criar produtos e serviços que sejam úteis e tragam uma boa experiência para as pessoas usuárias, precisamos entender as suas dores e necessidades. Para realizar esse trabalho temos diversas técnicas de pesquisa que vão desde ouvir o que o usuário pensa sobre, até entender o comportamento que ele tem usando um produto digital ou serviço. Chamamos essa vertente de UX Research, que fica dentro do guarda chuva de disciplinas de UX Design.
+   - Aprender as metodologias de pesquisa mais utilizadas na rotina de quem trabalha como UX Researcher.
+   - Conhecer técnicas qualitativas como a entrevista com usuários, pesquisa etnográfica e testes de usabilidade.
+   - Avaliar comportamento e interações mapeando jornadas e documentar estratégias conhecendo o mercado e seus concorrentes com a pesquisa.
+- [ ] **Visão de negócio e estratégia - UX Strategy**:
+   - As áreas da UX estão se consolidando cada dia mais no mercado, e uma de suas vertentes é a UX Strategy. Ela possui importânica significativa em negócios, pois atende a proposta de vincular a experiência da pessoa usuária e seus métodos com os pilares estratégicos do negócio e manter saudável tanto para a empresa como para a pessoa usuária as decisões tomadas mediante as descobertas feitas em pesquisas do produto.
+   - Entender como a UX conversa com o negócio e sua estratégia.
+   - Aprender a aplicar métodos de pesquisa que atendam as expectativas e objetivos do negócio.
+- [ ] **Design Thinking**:
+   - Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.
+   - Entenda profundamente as necessidades dos usuários.
+   - Clarifique o problema baseado nos insights coletados.
+   - Gere uma ampla gama de ideias inovadoras.
+   - Crie modelos simples para explorar soluções.
+   - Refine as soluções com base no feedback dos testes.
+   - Envolva diversas perspectivas na solução de problemas.
+   - Use métodos visuais para comunicar ideias e processos.
+## Nivel 2
+- [ ] **Estratégia e design de interação na UX**:
+   - null
+   - A UX possui processos e ferramentas com focos em unir os interesses das empresas, as dores e necessidades das pessoas usuárias, e considera a capacidade da equipe de desenvolvimento sem gerar esgotamento.
+- [ ] **Se comunicando com a pessoa usuária - UX Writing**:
+   - A experiência de uma pessoa com um produto ou serviço envolve muitos aspectos diferentes e cada um precisa ser estudado detalhadamente. Um dos aspectos mais importantes é a escrita, pois é através dos textos e palavras que conseguimos nos comunicar, nos conectar, ajudar e orientar as pessoas usuárias através de sua vivência com um produto ou serviço.
+   - null
+- [ ] **Definição do problema - UX Research**:
+   - Conhecendo a nossa pessoa usuária e as dores relacionadas ao uso de produtos digitais, conseguimos desenhar a jornada de atuação, etapa importante para identificar e priorizar quais problemas que queremos resolver.
+- [ ] **A construção da pesquisa estratégica - UX Strategy**:
+   - As áreas da UX estão se consolidando cada dia mais no mercado, e uma de suas vertentes é a UX Strategy, que possui importânica significativa em negócios, pois atende a proposta de vincular a experiência da pessoa usuária e seus métodos com os pilares estratégicos do negócio e manter saudável tanto para a empresa como para a pessoa usuária as decisões tomadas mediante as descobertas feitas em pesquisas do produto.
+## Nivel 3
+- [ ] **Documentação e portfólio em UX**:
+   - Após mergulhar nas divisões da UX e realizar projetos, é preciso divulgar seu trabalho e mostrar para as pessoas que você é um(a) profissional da área!
+- [ ] **O texto no produto e no dia a dia - UX Writing**:
+   - O texto em um negócio é algo vivo, por isso é importante sempre atualizar e entender se a maneira na qual o negócio está conversando com sua base de pessoas usuárias está de acordo com o esperado.
+- [ ] **Pesquisas, testes e validações - UX Research**:
+   - A construção de artefatos para fortaceler os dados e informações são de extrema importância no processo de pesquisa como um todo. Vale ressaltar que no momento de desenvolvimento ideias e telas, também realizamos pesquisas, mas dessa vez voltadas para o produto e não apenas para a pessoa usuária. vamos dar um passo em direção a solução e conhecer de forma rápida quais artefatos podem nos ajudar a melhorar a experiência do produto e conhecer técnicas que auxiliam no desenvolvimento de telas como card sorting e Tree Testing.
+   - Vamos conhecer também as etapas que validam nossas criações, é o momento de colocar o produto na mão da pessoa usuária e fazer os testes de usabilidade, afinal projetamos o produto digital para ela! Aprenderemos a coletar feedbacks e avaliar se a interface criada realmente tem usabilidade ou não.
+- [ ] **Analisando a estratégia com dados - UX Strategy**:
+   - A área de estratégia esta sempre muito ligada à dados palpáveis que vão direcionar o pensamento das soluções tomadas, será que vale a pena mudar uma tela? Esses dados e métricas ajudam a responder esta pergunta, e é papel da pessoa de UX strategy possuir, ler e trabalhar essas informações.
+## Habilidade Auxiliar: UI Design 
+- [ ] **Princípios do design visual**:
+   - null
+   - Conheça as propriedades fundamentais destes elementos quanto aprender como manipulá-las em seus projetos.
+- [ ] **Fundamentos de UI**:
+   - O ponto de partida ideal para começarmos a desbravar a área de User Interface Design é entendendo perfeitamente o que ela é, como é representada, como outros profissionais a enxergam, e claro, sua relevância para a construção de um produto.
+- [ ] **Ferramentas de design (Figma e Sketch)**:
+   - O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos. O Sketch é um app similar ao Figma, que roda tanto na web quando no iOS.
+## Habilidade Auxiliar: Product Management 
+- [ ] **Fundamentos de product managment**:
+   - Product Management é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
+   - Defina uma visão clara e estratégia para o produto.
+   - Entenda as necessidades e preferências dos clientes.
+   - Especifique os requisitos e funcionalidades do produto.
+   - Priorize recursos com base no valor para o cliente e para o negócio.
+   - Colabore com equipes de desenvolvimento para entregar incrementos de valor.
+   - Gerencie o ciclo de vida do produto e faça ajustes conforme necessário.
+   - Analise métricas e feedback para orientar decisões.
+   - Comunique-se claramente com todas as partes interessadas.
+   - Esteja aberto a mudanças e ajuste a estratégia conforme necessário.
+- [ ] **Product Discovery**:
+   - Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.
+   - Analise o mercado para identificar tendências e oportunidades.
+   - Conduza entrevistas para entender as necessidades dos usuários.
+   - Crie protótipos para validar ideias e conceitos com os usuários.
+   - Estude os concorrentes para identificar lacunas e diferenciais.
+   - Teste hipóteses para validar a viabilidade do produto.
+   - Mapeie as jornadas dos usuários para identificar pontos de dor.
+- [ ] **Gestão de produtos digitais**:
+   - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
+   - Coloque as necessidades dos usuários no centro do processo de desenvolvimento.
+   - Defina uma visão clara e estratégia para o produto digital.
+   - Mapeie e otimize a jornada do usuário no produto.
+   - Colete e analise feedback dos usuários para melhorias.
+   - Adote metodologias ágeis para entregas rápidas e iterativas.
+   - Utilize dados para tomar decisões informadas sobre o produto.
+   - Realize testes para validar e melhorar a usabilidade do produto.
+- [ ] **Roadmap**:
+   - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
+   - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
+   - Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.
+   - Defina marcos e prazos realistas para o desenvolvimento e entrega.
+   - Comunique o roadmap de forma clara e transparente com todas as partes interessadas.
+   - Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.
+   - Colete feedback regularmente para ajustar o roadmap conforme necessário.
+   - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.

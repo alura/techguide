@@ -9,11 +9,6 @@
    - Usar e manipular listas para agrupar dados
    - Conhecer a biblioteca NumPy
    - Conhecer a biblioteca Pandas
-- [ ] **Python - Coleções**:
-   - Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.
-   - Utilizar listas e tuplas
-   - Utilizar polimorfismo nas coleções
-   - Utilizar conjuntos e dicionários
 - [ ] **Jupyter & Colab notebooks**:
    - Jupyter Notebook e Google Colaboratory são Notebooks que permitem a criação de blocos de texto e blocos de código
    - Os Notebooks facilitam a elaboração de projetos de Data Science por ser possível visualizar o resultado da execução logo após o trecho de código
@@ -53,7 +48,11 @@
    - Conhecer técnicas de redução de dimensionalidade
 - [ ] **Naive Bayes**:
    - Naive Bayes é um algoritmo de aprendizado de máquina comumente utilizado para classificação de texto e análise de sentimentos. Ele é baseado no teorema de Bayes, que descreve a probabilidade condicional de um evento ocorrer, dado que outro evento já ocorreu.
+- [ ] **Machine Learning - Máquina de Vetores de Suporte**:
+   - Uma máquina de vetores de suporte (SVM, do inglês Support Vector Machine) é um conceito da Ciência da Computação para um conjunto de métodos de Aprendizado Supervisionado que analisam os dados e reconhecem padrões. O SVM pode ser usanto tanto para modelar problemas preditivos de classificação quanto de regressão.
 ## Nivel 2
+- [ ] **XGBoost**:
+   - XGBoost é uma biblioteca de aprendizado de máquina baseada em gradient boosting que se destaca na resolução de problemas de classificação e regressão. "XG" em XGBoost refere-se a "Extreme Gradient", indicando o uso de gradient boosting para melhorar a precisão do modelo.
 - [ ] **Previsão de Séries temporais**:
    - A previsão de séries temporais (Time series Forecasting), também conhecida como previsão temporal, é uma técnica de análise estatística que envolve a previsão de valores futuros ou padrões com base em dados históricos ordenados no tempo. Em uma série temporal, os dados são coletados sequencialmente em intervalos regulares, como horários, diários, mensais ou anuais, e exibem dependências temporais.
 - [ ] **Deep Learning**:
@@ -84,8 +83,6 @@
    - Regularização se refere a um conjunto de técnicas para tornar os dados mais regulares e estáveis, facilitando o aprendizado e a descoberta de padrões em Machine Learning. A regularização é uma técnica que reduz o erro de um modelo, evitando o sobreajustamento (Overfitting) e treinando o modelo para funcionar corretamente.
 - [ ] **Chatbots**:
    - Chatbots são agentes virtuais projetados para interagir com seres humanos por meio de uma interface de chat. Eles são baseados em técnicas de processamento de linguagem natural (NLP) e inteligência artificial (IA) para entender e responder às perguntas e comandos dos usuários de forma automatizada.
-- [ ] **Machine Learning - Máquina de Vetores de Suporte**:
-   - Uma máquina de vetores de suporte (SVM, do inglês Support Vector Machine) é um conceito da Ciência da Computação para um conjunto de métodos de Aprendizado Supervisionado que analisam os dados e reconhecem padrões. O SVM pode ser usanto tanto para modelar problemas preditivos de classificação quanto de regressão.
 - [ ] **Segmentação Semântica e Instanciada de Imagens**:
    - A segmentação semântica e instanciada de imagens é uma tarefa na área de visão computacional que envolve a atribuição de rótulos a pixels individuais em uma imagem. Ela tem como objetivo segmentar e identificar os objetos presentes na imagem, distinguindo diferentes classes de pixels e separando instâncias individuais dessas classes.
 - [ ] **Visão Computacional - Extração de Características**:
@@ -111,6 +108,13 @@
    - Familiarizar-se com as principais arquiteturas de RNNs, como bidirecionais (BRNN), Memória de curto prazo longa (LSTM), Unidades recorrentes fechadas (GRU)
 - [ ] **Redes Adversárias Generativas (GANs)**:
    - Redes Adversárias Generativas (em inglês, Generative Adversarial Networks ou GANs) são um tipo de arquitetura de rede neural usada para gerar dados sintéticos, como imagens, música, texto ou outros tipos de dados, que se assemelham aos dados de treinamento.
+- [ ] **Aprendizado por Reforço**:
+   - O Aprendizado por Reforço é uma área de Machine Learning que se preocupa com a forma como agentes inteligentes devem tomar medidas num ambiente, a fim de maximizar a noção de recompensa cumulativa.
+   - Entender os conceitos de agente e recompensa
+   - Entender a diferença entre reforço positivo e negativo
+   - Conhecer o modelo Markov Decision Process
+   - Entender o conceito de Retorno
+   - Utilizar o algoritmo Q-learning
 - [ ] **Viés Cognitivo e IA Responsável**:
    - O conceito de Viés Cognitivo refere-se aos padrões sistemáticos de desvio e distorção na forma como os seres humanos percebem, interpretam e tomam decisões. Esses vieses cognitivos podem levar a distorções na análise de informações, julgamentos e comportamentos de todos os tipos, como de raça, gênero, idade, capacidades físicas, entre outros, influenciando nossas percepções e ações de maneira não racional ou imparcial.
 - [ ] **Lógica Fuzzy**:
@@ -120,18 +124,10 @@
    - Conhecer o método Mamdani
 - [ ] **Automação com IA**:
    - Automated IA, ou automação de IA, refere-se à combinação de tecnologias de automação, como RPA, com recursos de inteligência artificial, como processamento de linguagem natural (NLP), aprendizado de máquina (machine learning) e visão computacional. Essa abordagem visa automatizar processos complexos que envolvem o processamento e a análise de informações não estruturadas, permitindo que as máquinas tomem decisões com base nesses dados.
-- [ ] **XGBoost**:
-   - XGBoost é uma biblioteca de aprendizado de máquina baseada em gradient boosting que se destaca na resolução de problemas de classificação e regressão. "XG" em XGBoost refere-se a "Extreme Gradient", indicando o uso de gradient boosting para melhorar a precisão do modelo.
 ## Habilidade Auxiliar: Business e Serviços 
-- [ ] **Big Data e Engenharia de Dados**:
-   - Big data é a área do conhecimento que estuda como tratar, analisar e obter informações a partir de conjuntos de dados grandes demais para serem analisados por sistemas tradicionais.
-   - Engenharia de Dados envolve o desenvolvimento e organização de processos para coleta, armazenamento e transformação de dados em grande escala.
-   - Criar um pipeline de dados
-   - Conhecer o Apache Airflow
-   - Conhecer o Apache Spark
-   - Conhecer o conceito de Data Lake
-   - Interagir com servidores na nuvem
-   - Criar aplicações Spark
+- [ ] **Big Data - Fundamentos**:
+   - Big Data refere-se a conjuntos de dados extremamente grandes e complexos, que não podem ser facilmente processados ou gerenciados por métodos tradicionais. Esses conjuntos de dados são caracterizados por seu volume massivo, velocidade de geração e variedade de tipos e formatos. Com a explosão da quantidade de dados gerados diariamente, provenientes de diversas fontes como redes sociais, dispositivos IoT e transações comerciais, o Big Data apresenta desafios e oportunidades para extrair insights valiosos e tomar decisões informadas.
+   - A análise de Big Data envolve o uso de técnicas e tecnologias avançadas, como armazenamento distribuído, processamento em paralelo e aprendizado de máquina, para explorar e transformar esses dados em informações significativas para empresas, organizações e pesquisadores.
 - [ ] **Git e GitHub - Fundamentos**:
    - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
    - GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.
@@ -149,6 +145,8 @@
    - Conhecer o Databricks
    - Conhecer o PySpark
    - Conhecer o SageMaker
+- [ ] **Engenharia de Dados - Fundamentos**:
+   - Uma pessoa Engenheira de Dados desempenha um papel crucial ao projetar, implementar e manter as infraestruturas de dados que permitem que uma organização trabalhe de maneira eficiente com suas informações. A pessoa engenheira de dados cria pipelines de dados para integrar, limpar e transformar dados provenientes de várias fontes e formatos. Isso possibilita a geração de insights valiosos para o negócio e melhora a tomada de decisões estratégicas.
 - [ ] **SQL - Fundamentos**:
    - SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.
    - Conhecer os comandos mais comuns do SQL
@@ -158,18 +156,18 @@
    - Usar DELETE para remover dados de uma tabela
    - Usar JOIN para conectar os dados de múltiplas tabelas
    - Conhecer as cláusulas (FROM, ORDER BY, etc)
-- [ ] **Cloud - Fundamentos**:
-   - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
-   - Conhecer a diferença entre IaaS, PaaS e SaaS
-   - Conhecer os maiores provedores de cloud
-   - Especializar-se em algum provedor
-- [ ] **Habilidades de comunicação**:
-   - Um bom nível de comunicação facilita o atingimento de objetivos, resolução de problemas, além de aumentar a produtividade, porque cada profissional saberá exatamente o que se espera dele e transmitir com clareza suas ideias.
+- [ ] **Cloud - Provedores**:
+   - Conhecer os principais provedores de serviços em nuvem e suas ofertas.
+   - Comparar as características e serviços oferecidos por diferentes provedores.
+   - Entender como selecionar o provedor de serviços em nuvem adequado para suas necessidades.
+   - Explorar as tendências e inovações no mercado de serviços em nuvem.
 - [ ] **MLOps**:
    - O MLOps permite que os modelos de Machine Learning sejam implantados de maneira rápida e confiável, o que é especialmente importante em empresas que lidam com grandes volumes de dados.
    - Ajuda a garantir a qualidade e confiabilidade dos modelos de Machine Learning em produção, além de facilitar a manutenção e atualização desses modelos.
    - Permite que as pessoas engenheiras de dados trabalhem em conjunto com cientistas de dados e desenvolvedores de software para implementar soluções de Machine Learning em larga escala.
    - Ajuda a garantir a governança e a conformidade dos modelos de Machine Learning com as políticas e regulamentações da empresa.
+- [ ] **Habilidades de comunicação**:
+   - Um bom nível de comunicação facilita o atingimento de objetivos, resolução de problemas, além de aumentar a produtividade, porque cada profissional saberá exatamente o que se espera dele e transmitir com clareza suas ideias.
 - [ ] **Contêineres**:
    - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente. Gerenciamento de contêineres é uma área crucial na computação em nuvem e DevOps, que envolve o uso de tecnologias para automatizar o processo de criação, implantação, escalonamento e monitoramento de contêineres. Contêineres são unidades de software padronizadas que permitem aos desenvolvedores empacotar todas as dependências de um aplicativo (código, bibliotecas, configurações, etc.) em um único pacote. Isso permite que o aplicativo seja executado de forma consistente em qualquer ambiente de infraestrutura.
    - A tecnologia de contêineres, como exemplificada pelo Docker, fornece um ambiente consistente e portátil para desenvolvimento, teste e implantação de aplicativos, o que é vital para o trabalho eficiente de engenharia de dados. Além disso, o Kubernetes, um sistema de orquestração de contêineres, permite o gerenciamento, a automação e a escalabilidade de aplicações baseadas em contêineres em ambientes de produção. Dominar esses conceitos e tecnologias possibilita a engenheiros de dados construir e manter pipelines de dados eficientes e confiáveis.

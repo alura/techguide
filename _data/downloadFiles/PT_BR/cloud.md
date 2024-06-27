@@ -1,0 +1,140 @@
+# Cloud
+## Nivel 1
+- [ ] **Cloud - Fundamentos**:
+   - Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.
+   - Conhecer a diferença entre IaaS, PaaS e SaaS
+   - Conhecer os maiores provedores de cloud
+   - Especializar-se em algum provedor
+- [ ] **Virtualização - Fundamentos**:
+   - Compreender o conceito de virtualização e seus benefícios.
+   - Aprender sobre os diferentes tipos de virtualização (servidor, aplicativo, rede, desktop).
+   - Conhecer as principais tecnologias e softwares de virtualização (VMware, Hyper-V, KVM, Xen).
+   - Explorar casos de uso e melhores práticas na implementação de soluções de virtualização.
+- [ ] **Cloud - Armazenamento**:
+   - As soluções de armazenamento em nuvem oferecem uma maneira segura e escalável para armazenar dados online, acessíveis de qualquer lugar com internet. Existem vários tipos de serviços de armazenamento, como armazenamento de objetos, blocos e arquivos, cada um com seus casos de uso específicos.
+   - Compreender os diferentes tipos de armazenamento em nuvem (objeto, bloco, arquivo).
+   - Aprender a selecionar o tipo de armazenamento adequado para diferentes cenários de uso.
+   - Conhecer as práticas recomendadas para segurança e gerenciamento de dados.
+   - Explorar os serviços de armazenamento dos principais provedores de nuvem (AWS S3, Azure Blob Storage, Google Cloud Storage).
+- [ ] **Cloud - Redes**:
+   - Entender os conceitos fundamentais de networking em nuvem.
+   - Aprender sobre redes virtuais, sub-redes e grupos de segurança.
+   - Conhecer as soluções de conectividade em nuvem, como VPNs e conexões diretas.
+   - Explorar os serviços de networking oferecidos pelos principais provedores de nuvem.
+- [ ] **IaaS, PaaS, SaaS**:
+   - Entender as diferenças entre IaaS, PaaS e SaaS.
+   - Aprender os casos de uso e vantagens de cada modelo de serviço.
+   - Identificar como escolher o modelo de serviço adequado para necessidades específicas.
+   - Explorar exemplos de serviços IaaS, PaaS e SaaS dos principais provedores de nuvem.
+- [ ] **Cloud - Provedores**:
+   - Conhecer os principais provedores de serviços em nuvem e suas ofertas.
+   - Comparar as características e serviços oferecidos por diferentes provedores.
+   - Entender como selecionar o provedor de serviços em nuvem adequado para suas necessidades.
+   - Explorar as tendências e inovações no mercado de serviços em nuvem.
+## Nivel 2
+- [ ] **Cloud - Design da arquitetura**:
+   - Compreender os princípios do design de arquitetura em nuvem.
+   - Aprender a projetar arquiteturas escaláveis, seguras e resilientes.
+   - Conhecer padrões de design e melhores práticas para arquiteturas em nuvem.
+   - Explorar ferramentas e serviços para o design de arquitetura em nuvem dos principais provedores.
+- [ ] **Recuperação de Desastres e Continuidade de Negócios**:
+   - Entender a importância da recuperação de desastres e da continuidade dos negócios.
+   - Aprender a planejar e implementar estratégias eficazes de recuperação de desastres.
+   - Conhecer as ferramentas e serviços de nuvem para backup e recuperação.
+   - Desenvolver um plano de continuidade de negócios que minimize o tempo de inatividade e a perda de dados.
+- [ ] **Cloud - Segurança**:
+   - Compreender os desafios de segurança em ambientes de nuvem.
+   - Aprender as melhores práticas para a segurança de dados, aplicações e infraestruturas em nuvem.
+   - Conhecer ferramentas e técnicas para gerenciamento de identidade e acesso (IAM).
+   - Implementar estratégias de segurança em conformidade com normas regulatórias.
+- [ ] **Cloud - Gestão de Infrastrutura**:
+   - Aprender a gerenciar e otimizar recursos de nuvem.
+   - Entender como automatizar o provisionamento e a configuração de infraestruturas.
+   - Conhecer ferramentas de gestão de infraestrutura como código (IaC).
+   - Implementar práticas de monitoramento e manutenção para garantir a alta disponibilidade.
+- [ ] **Cloud - Monitoramento e Otimização**:
+   - Compreender a importância do monitoramento contínuo e da otimização de recursos em nuvem.
+   - Aprender a utilizar ferramentas de monitoramento e gerenciamento de desempenho.
+   - Identificar oportunidades de otimização de custos em ambientes de nuvem.
+   - Implementar estratégias de escalabilidade e alocação de recursos.
+- [ ] **Contêineres**:
+   - Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente. Gerenciamento de contêineres é uma área crucial na computação em nuvem e DevOps, que envolve o uso de tecnologias para automatizar o processo de criação, implantação, escalonamento e monitoramento de contêineres. Contêineres são unidades de software padronizadas que permitem aos desenvolvedores empacotar todas as dependências de um aplicativo (código, bibliotecas, configurações, etc.) em um único pacote. Isso permite que o aplicativo seja executado de forma consistente em qualquer ambiente de infraestrutura.
+   - A tecnologia de contêineres, como exemplificada pelo Docker, fornece um ambiente consistente e portátil para desenvolvimento, teste e implantação de aplicativos, o que é vital para o trabalho eficiente de engenharia de dados. Além disso, o Kubernetes, um sistema de orquestração de contêineres, permite o gerenciamento, a automação e a escalabilidade de aplicações baseadas em contêineres em ambientes de produção. Dominar esses conceitos e tecnologias possibilita a engenheiros de dados construir e manter pipelines de dados eficientes e confiáveis.
+   - O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.
+   - Isolar seu software para funcionar independentemente
+   - Implantar software em clusters
+   - Modularizar seu sistema em pacotes menores
+   - Conhecer a plataforma Docker
+   - Conhecer Kubernetes
+- [ ] **Arquiteturas Serverless**:
+   - Entender o conceito de serverless e como ele transforma o desenvolvimento de aplicações.
+   - Aprender sobre funções como serviço (FaaS) e as plataformas serverless disponíveis.
+   - Explorar casos de uso, vantagens e desafios das arquiteturas serverless.
+   - Implementar aplicações serverless usando provedores de nuvem como AWS Lambda, Azure Functions e Google Cloud Functions.
+## Nivel 3
+- [ ] **Redes - Avançado**:
+   - Dominar conceitos avançados de rede como SDN, CDN e VPNs.
+   - Implementar e gerenciar redes complexas em ambientes de nuvem.
+   - Explorar tecnologias de malha de serviço como Istio e Linkerd.
+   - Garantir segurança e conformidade em redes de nuvem complexas.
+- [ ] **Ambientes híbridos e multicloud**:
+   - Entender os benefícios e desafios dos ambientes híbridos e multicloud.
+   - Aprender a projetar e implementar estratégias para gestão de múltiplas nuvens.
+   - Conhecer ferramentas e práticas para a integração e segurança em ambientes híbridos/multicloud.
+   - Avaliar soluções de fornecedores para ambientes híbridos e multicloud.
+- [ ] **Cloud - Governança e Compliance**:
+   - Compreender os princípios de governança em ambientes de nuvem.
+   - Identificar requisitos de conformidade específicos do setor e regulamentos globais.
+   - Implementar políticas e procedimentos para gerenciamento de riscos.
+   - Utilizar ferramentas para auditoria e monitoramento de conformidade.
+- [ ] **Cloud - Automação e Orquestração**:
+   - Aprender a automatizar a provisionamento e a gestão de recursos em nuvem.
+   - Entender o papel da orquestração na gestão de cargas de trabalho distribuídas.
+   - Conhecer ferramentas e tecnologias para automação e orquestração em nuvem.
+   - Implementar práticas de DevOps para integração e entrega contínuas.
+- [ ] **Aplicações Cloud-Native**:
+   - Entender os princípios de aplicações nativas da nuvem.
+   - Aprender a desenvolver aplicações utilizando microserviços, contêineres e serverless.
+   - Conhecer padrões de design e ferramentas para desenvolvimento nativo da nuvem.
+   - Implementar CI/CD e automação para aplicações nativas da nuvem.
+- [ ] **DevOps na Cloud**:
+   - Integrar práticas DevOps com serviços e ferramentas de nuvem.
+   - Utilizar a infraestrutura como código (IaC) para automatizar a provisionamento e gestão de infraestrutura.
+   - Implementar pipelines de CI/CD usando ferramentas de nuvem.
+   - Otimizar processos de desenvolvimento e operações em ambientes de nuvem.
+## Habilidade Auxiliar: Infraestrutura 
+- [ ] **Desenvolvimento e Gestão de APIs**:
+   - Entender os fundamentos do desenvolvimento de APIs RESTful.
+   - Aprender a projetar, implementar e documentar APIs de forma eficiente.
+   - Conhecer práticas de segurança, versionamento e gerenciamento do ciclo de vida de APIs.
+   - Utilizar ferramentas de gerenciamento de APIs para monitorar, analisar e escalar serviços.
+- [ ] **Arquitetura de Microsserviços**:
+   - Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.
+   - Aprender o conceito de arquitetura planejada para microsserviços
+   - Realizar a comunicação usando APIs
+   - Melhorar a escalabilidade de um sistema
+- [ ] **Entrega e integração contínuas (CI/CD)**:
+   - CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português "entrega e integração contínuas". Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.
+   - Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, ja que assim é possivel acelerar o desenvolvimento e diminiur o tempo de entrega de software.
+   - Executar testes automatizados da aplicação para verificar seu funcionamento.
+   - Realizar a entrega de atualizações de forma automatica e com segurança.
+   - Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.
+- [ ] **Cloud - Testes**:
+   - Compreender os benefícios dos testes de software em ambientes de nuvem.
+   - Aprender a configurar e gerenciar ambientes de teste na nuvem.
+   - Conhecer ferramentas e serviços de nuvem específicos para teste de software.
+   - Implementar práticas de teste contínuo e integração contínua (CI) para melhorar a qualidade do software.
+## Habilidade Auxiliar: Data Science 
+- [ ] **Big Data Analytics**:
+   - Compreender os conceitos fundamentais de Big Data, incluindo os 5 Vs (Volume, Velocidade, Variedade, Veracidade e Valor).
+   - Aprender a utilizar ferramentas e plataformas para coleta, armazenamento, processamento e análise de Big Data.
+   - Explorar técnicas de análise de dados, como mineração de dados, aprendizado de máquina e inteligência artificial, para extrair insights valiosos.
+   - Avaliar casos de uso de Big Data Analytics em diferentes indústrias para melhorar a eficiência operacional, a experiência do cliente e a inovação.
+- [ ] **MLOps**:
+   - O MLOps permite que os modelos de Machine Learning sejam implantados de maneira rápida e confiável, o que é especialmente importante em empresas que lidam com grandes volumes de dados.
+   - Ajuda a garantir a qualidade e confiabilidade dos modelos de Machine Learning em produção, além de facilitar a manutenção e atualização desses modelos.
+   - Permite que as pessoas engenheiras de dados trabalhem em conjunto com cientistas de dados e desenvolvedores de software para implementar soluções de Machine Learning em larga escala.
+   - Ajuda a garantir a governança e a conformidade dos modelos de Machine Learning com as políticas e regulamentações da empresa.
+- [ ] **Data Warehouses**:
+   - Um Data Warehouse é um sistema de armazenamento de dados projetado para análise de negócios, suportando processamento de transações e consultas complexas. Ele permite a consolidação de dados de várias fontes, fornecendo um ambiente unificado para análise de dados. Com recursos de normalização e limpeza de dados, garante a qualidade e a consistência dos dados armazenados. Soluções de Data Warehouse populares incluem Google BigQuery, Amazon Redshift e Snowflake, cada uma com suas próprias características e benefícios únicos.
+   - Data Warehouses desempenham um papel crucial na engenharia de dados. Eles fornecem uma infraestrutura que facilita a gestão, o processamento e a análise de grandes volumes de dados. Sua capacidade de armazenar e processar grandes quantidades de dados de várias fontes permite análises avançadas e suporte à tomada de decisões, o que é fundamental no atual cenário empresarial orientado por dados. Os engenheiros de dados projetam, constroem e mantêm data warehouses para garantir que os dados estejam acessíveis, seguros e prontos para análise. Além disso, soluções modernas de data warehouse, como o BigQuery, o Amazon Redshift e o Snowflake, oferecem capacidades de escalabilidade e flexibilidade para lidar com o crescente volume, velocidade e variedade de dados, tornando-se ainda mais valiosos para a engenharia de dados.

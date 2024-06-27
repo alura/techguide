@@ -95,7 +95,7 @@
    - SemVer (Versionamento Semântico) é um conjunto simples de regras e requisitos que ditam como os números de versão são atribuídos e incrementados.
    - Organizar as dependências de um projeto
 - [ ] **Jest**:
-   - Testar componentes
+   - Jest é um framework de teste em JavaScript projetado para garantir a correção de qualquer código JavaScript. Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.
 - [ ] **Cypress**:
    - Criar e executar testes
 ## Nivel 3
@@ -137,6 +137,12 @@
    - Apollo Client é uma biblioteca abrangente de gerenciamento de estado para JavaScript que permite gerenciar dados locais e remotos com o GraphQL.
    - Utilizar o Apollo para criar um servidor GraphQL
    - Conectar com uma API
+- [ ] **Micro Frontends**:
+   - Micro Frontends são uma abordagem arquitetural na qual uma aplicação web é dividida em partes independentes, cada uma representando uma parte específica da interface do usuário.
+   - Divide uma aplicação web em partes independentes, facilitando o desenvolvimento e a manutenção.
+   - Possibilita a implantação e atualização contínua de partes específicas da aplicação sem afetar o aplicativo como um todo.
+   - Permite que equipes trabalhem de forma independente em diferentes partes da aplicação.
+   - Integra diferentes tecnologias e frameworks para desenvolver microfrontends, como React, Angular, Vue.js, entre outros.
 ## Habilidade Auxiliar: Infraestrutura e Back-end 
 - [ ] **Git e GitHub - Fundamentos**:
    - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
@@ -176,9 +182,14 @@
    - Comandos
    - Arquivo yarn.lock
 ## Habilidade Auxiliar: UX e Design 
-- [ ] **Design Systems**:
-   - Um Design Systems (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
+- [ ] **Design System**:
+   - Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
    - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+   - Design tokens
+   - Estilos fundamentais
+   - Construção de componentes
+   - Microinterações
+   - Documentação
 - [ ] **Figma - Fundamentos**:
    - Figma é uma aplicação web colaborativa para design de interfaces. O conjunto de recursos do Figma se concentra na interface do usuário e no design da experiência do usuário, com ênfase na colaboração em tempo real, utilizando uma variedade de editores de gráficos vetoriais e ferramentas de prototipagem.
    - Criar layouts de páginas e componentes

@@ -293,9 +293,14 @@
    - Explore a estrutura de diretórios do Vite e entenda como organizar seus componentes e rotas.
    - Aprenda a usar os comandos de desenvolvimento e build do Vite para executar e otimizar sua aplicação.
 ## Habilidade Auxiliar: UX e Design 
-- [ ] **Design Systems**:
-   - Um Design Systems (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
+- [ ] **Design System**:
+   - Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
    - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+   - Design tokens
+   - Estilos fundamentais
+   - Construção de componentes
+   - Microinterações
+   - Documentação
 - [ ] **Figma - Fundamentos**:
    - Figma é uma aplicação web colaborativa para design de interfaces. O conjunto de recursos do Figma se concentra na interface do usuário e no design da experiência do usuário, com ênfase na colaboração em tempo real, utilizando uma variedade de editores de gráficos vetoriais e ferramentas de prototipagem.
    - Criar layouts de páginas e componentes

@@ -1,0 +1,193 @@
+# Agile
+## Nivel 1
+- [ ] **Cultura ágil**:
+   - Cultura ágil é um conjunto de valores e práticas que promovem flexibilidade, colaboração e melhoria contínua para responder rapidamente às mudanças e entregar valor constante.
+   - Enfatiza o trabalho em equipe e a comunicação aberta.
+   - Feedback regular para melhorias rápidas e eficazes.
+   - Equipes autônomas e empoderadas para tomar decisões.
+   - Processos e informações acessíveis a todos.
+   - Priorização das necessidades e feedback dos clientes.
+   - Desenvolvimento incremental com ciclos curtos e frequentes.
+   - Flexibilidade para ajustar processos conforme necessário.
+   - Entrega de valor contínuo e mensurável ao cliente.
+- [ ] **Scrum**:
+   - Scrum é uma metodologia ágil focada em entregas incrementais e iterativas, promovendo a colaboração entre equipes para desenvolver projetos complexos de forma eficiente.
+   - Inclui Product Owner, Scrum Master e equipe de desenvolvimento.
+   - Períodos curtos de trabalho com metas definidas, geralmente de 2-4 semanas.
+   - Lista priorizada de itens e requisitos do projeto.
+   - Reunião para planejar o trabalho da sprint.
+   - Reunião diária de 15 minutos para alinhamento da equipe.
+   - Demonstração do trabalho concluído para stakeholders.
+   - Reunião para refletir e melhorar processos após cada sprint.
+   - Produto funcional e utilizável entregue ao final de cada sprint.
+   - Critérios claros que definem quando uma tarefa está completa.
+- [ ] **Kanban**:
+   - Kanban é uma metodologia ágil que utiliza quadros visuais para gerenciar o fluxo de trabalho, melhorando a eficiência e promovendo a melhoria contínua.
+   - Use quadros para mostrar tarefas e progresso.
+   - Defina limites de WIP para evitar sobrecarga.
+   - Monitore e otimize o fluxo de trabalho contínuo.
+   - Defina regras claras para o andamento das tarefas.
+   - Utilize reuniões regulares para revisões e melhorias.
+   - Faça ajustes constantes para aprimorar processos.
+   - Classifique tarefas por importância e urgência.
+   - Promova a colaboração entre a equipe e mantenha a transparência.
+## Nivel 2
+- [ ] **OKRs**:
+   - OKRs (Objectives and Key Results) são uma metodologia de definição de metas que alinham objetivos claros e resultados mensuráveis para alcançar desempenho e foco organizacional.
+   - Defina objetivos claros e inspiradores.
+   - Estabeleça resultados mensuráveis que indicam o sucesso.
+   - Mantenha OKRs visíveis a todos na organização.
+   - Garanta que OKRs de diferentes níveis estejam alinhados.
+   - Revise e ajuste OKRs em ciclos trimestrais.
+   - Defina metas desafiadoras para incentivar o crescimento.
+   - Concentre esforços nas prioridades estratégicas.
+- [ ] **Gestão Lean**:
+   - Lean é uma filosofia de gestão focada em maximizar valor ao cliente e minimizar desperdícios, originada do Sistema Toyota de Produção, aplicável em diversos setores.
+   - Defina o valor do ponto de vista do cliente.
+   - Mapear todas as etapas que agregam valor ao produto.
+   - Assegure que o trabalho flua sem interrupções.
+   - Produza conforme a demanda do cliente, não em excesso.
+   - Busque a melhoria contínua e eliminação de desperdícios.
+   - Identifique e elimine atividades que não agregam valor.
+   - Implementação de melhorias contínuas incrementais.
+   - Produção e entrega de produtos exatamente quando necessários.
+   - Integre automação com intervenção humana para qualidade.
+- [ ] **Ferramentas ágeis**:
+   - Ferramentas ágeis são softwares e práticas que suportam metodologias ágeis, facilitando a gestão de projetos, colaboração e entrega contínua de valor.
+   - Gestão de projetos ágeis com suporte a Scrum e Kanban.
+   - Quadros visuais para organizar tarefas e projetos.
+- [ ] **Equipes ágeis**:
+   - Equipes ágeis são grupos multifuncionais e autônomos que trabalham de forma colaborativa e iterativa para entregar valor contínuo e adaptável em projetos.
+   - Membros com diversas habilidades complementares.
+   - Capacidade de tomar decisões independentes.
+   - Comunicação aberta e contínua entre os membros.
+   - Trabalho em sprints curtos para entregas rápidas.
+   - Priorização das necessidades e feedback do cliente.
+   - Flexibilidade para ajustar processos e objetivos.
+   - Processos e progressos visíveis para todos.
+   - Sucesso e falhas compartilhados pela equipe.
+   - Revisão e ajuste constante de práticas e processos.
+- [ ] **Design Thinking**:
+   - Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.
+   - Entenda profundamente as necessidades dos usuários.
+   - Clarifique o problema baseado nos insights coletados.
+   - Gere uma ampla gama de ideias inovadoras.
+   - Crie modelos simples para explorar soluções.
+   - Refine as soluções com base no feedback dos testes.
+   - Envolva diversas perspectivas na solução de problemas.
+   - Use métodos visuais para comunicar ideias e processos.
+## Nivel 3
+- [ ] **Métricas**:
+   - Métricas ágeis são indicadores utilizados para medir e monitorar a eficiência, qualidade e progresso de equipes ágeis, ajudando a orientar decisões e melhorar processos.
+- [ ] **Agilidade em Business**:
+   - Business refere-se a atividades organizadas e processos envolvidos na produção, venda e distribuição de bens e serviços, com o objetivo de gerar valor e lucro.
+   - Defina a visão, missão e metas de longo prazo.
+   - Controle e aloque recursos financeiros eficientemente.
+   - Identifique e satisfaça as necessidades dos clientes.
+   - Desenvolva novos produtos e serviços para crescer.
+   - Otimize processos para eficiência e qualidade.
+   - Gerencie recrutamento, treinamento e retenção de talentos.
+   - Estude o mercado para identificar oportunidades e ameaças.
+   - Converta leads em clientes e aumente a receita.
+   - Integre práticas éticas e sustentáveis nos negócios.
+- [ ] **Aprofundamento em frameworks ágeis**:
+   - Frameworks ágeis são estruturas e metodologias que orientam equipes no desenvolvimento de projetos de forma iterativa e incremental, promovendo adaptabilidade e entrega contínua de valor.
+   - Escala ágil para grandes organizações.
+   - Escalamento do Scrum para grandes equipes.
+   - Abordagem híbrida, combina várias práticas ágeis.
+   - Foco na eficiência e flexibilidade, ajustado ao tamanho da equipe.
+- [ ] **Compliance**:
+   - Compliance refere-se à conformidade com leis, regulamentos, políticas e normas internas, garantindo que a organização atue de maneira ética e legal.
+   - Adesão às leis e regulamentações aplicáveis.
+   - Estabelecimento e cumprimento de normas internas.
+   - Capacitação dos funcionários sobre regras e práticas de compliance.
+   - Realização de auditorias regulares para garantir conformidade.
+   - Promoção de uma cultura ética e de integridade.
+   - Identificação e mitigação de riscos de não conformidade.
+   - Documentação e comunicação de práticas de compliance.
+   - Supervisão constante das operações e processos.
+   - Revisão periódica e atualização das políticas de compliance.
+## Habilidade Auxiliar: Liderança de equipe 
+- [ ] **Fundamentos da Liderança**:
+   - Fundamentos da liderança são princípios e práticas essenciais que guiam os líderes na motivação, orientação e gestão de equipes para alcançar objetivos organizacionais eficazmente.
+   - Definir e comunicar uma visão clara e inspiradora.
+   - Praticar a comunicação clara e eficaz com a equipe.
+   - Compreender e valorizar as perspectivas dos outros.
+   - Agir de acordo com princípios éticos e morais.
+   - Confiar e atribuir responsabilidades à equipe.
+   - Inspirar e encorajar a equipe a alcançar seus melhores resultados.
+   - Fazer escolhas informadas e responsáveis.
+   - Investir no crescimento e capacitação da equipe.
+- [ ] **Soft skills**:
+   - Soft skills são habilidades pessoais que líderes desenvolvem para se comunicar, colaborar e liderar eficazmente suas equipes.
+   - Transmita claramente informações e ideias.
+   - Compreenda e se conecte com as emoções dos outros.
+   - Medie e resolva disputas de maneira construtiva.
+   - Faça escolhas informadas e assertivas.
+   - Reconheça e gerencie suas próprias emoções e as dos outros.
+   - Foco no apoio e capacitação da equipe.
+   - Dê e receba feedback de maneira construtiva e útil.
+- [ ] **Management 3.0**:
+   - Management 3.0 é uma abordagem de gestão que enfatiza a colaboração, autonomia e melhoria contínua para liderar equipes em ambientes complexos e dinâmicos.
+   - Compartilhe informações e decisões abertamente.
+   - Permita que os membros da equipe tomem decisões e assumam responsabilidades.
+   - Promova uma cultura de feedback aberto e construtivo.
+   - Incentive experimentação e aprendizado constante.
+   - Aborde conflitos de forma colaborativa e construtiva.
+   - Encoraje a colaboração e o trabalho em equipe.
+   - Esteja preparado para mudanças e adapte-se rapidamente.
+- [ ] **Inteligência emocional**:
+   - Inteligência emocional é a capacidade de reconhecer, entender e gerenciar nossas próprias emoções e as emoções dos outros, essencial para relacionamentos eficazes e bem-estar pessoal.
+   - Reconheça e compreenda suas próprias emoções.
+   - Gerencie suas emoções de maneira saudável e produtiva.
+   - Use suas emoções para se motivar e alcançar objetivos.
+   - Compreenda e responda às emoções dos outros.
+   - Desenvolva relacionamentos interpessoais positivos.
+   - Expresse suas emoções de forma clara e apropriada.
+   - Construa e mantenha relacionamentos saudáveis.
+- [ ] **Tech Lead**:
+   - Tech Lead é um papel de liderança técnica em equipes de desenvolvimento de software, responsável por guiar a equipe no desenvolvimento de soluções tecnológicas.
+   - Projete e mantenha a arquitetura de software.
+   - Encontre soluções técnicas para desafios complexos.
+   - Gerencie e monitore o processo de entrega de software.
+   - Desenvolva habilidades técnicas da equipe.
+   - Comunique-se claramente com a equipe e stakeholders.
+   - Promova e implemente práticas e tecnologias inovadoras.
+## Habilidade Auxiliar: Product management 
+- [ ] **Fundamentos de product managment**:
+   - Product Management é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
+   - Defina uma visão clara e estratégia para o produto.
+   - Entenda as necessidades e preferências dos clientes.
+   - Especifique os requisitos e funcionalidades do produto.
+   - Priorize recursos com base no valor para o cliente e para o negócio.
+   - Colabore com equipes de desenvolvimento para entregar incrementos de valor.
+   - Gerencie o ciclo de vida do produto e faça ajustes conforme necessário.
+   - Analise métricas e feedback para orientar decisões.
+   - Comunique-se claramente com todas as partes interessadas.
+   - Esteja aberto a mudanças e ajuste a estratégia conforme necessário.
+- [ ] **Product Discovery**:
+   - Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.
+   - Analise o mercado para identificar tendências e oportunidades.
+   - Conduza entrevistas para entender as necessidades dos usuários.
+   - Crie protótipos para validar ideias e conceitos com os usuários.
+   - Estude os concorrentes para identificar lacunas e diferenciais.
+   - Teste hipóteses para validar a viabilidade do produto.
+   - Mapeie as jornadas dos usuários para identificar pontos de dor.
+- [ ] **Gestão de produtos digitais**:
+   - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
+   - Coloque as necessidades dos usuários no centro do processo de desenvolvimento.
+   - Defina uma visão clara e estratégia para o produto digital.
+   - Mapeie e otimize a jornada do usuário no produto.
+   - Colete e analise feedback dos usuários para melhorias.
+   - Adote metodologias ágeis para entregas rápidas e iterativas.
+   - Utilize dados para tomar decisões informadas sobre o produto.
+   - Realize testes para validar e melhorar a usabilidade do produto.
+- [ ] **Roadmap**:
+   - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
+   - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
+   - Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.
+   - Defina marcos e prazos realistas para o desenvolvimento e entrega.
+   - Comunique o roadmap de forma clara e transparente com todas as partes interessadas.
+   - Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.
+   - Colete feedback regularmente para ajustar o roadmap conforme necessário.
+   - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.

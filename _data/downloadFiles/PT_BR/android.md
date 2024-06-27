@@ -13,8 +13,8 @@
    - Exceptions e Throwables
    - Convenções de código
    - Manipular Coleções, arrays e listas
-   - Recursos do Paradigma funcional
    - Orientação a Objetos com Kotlin (Properties, Data class, Companion Objects, Delegation)
+   - Receber dados de uma API
 - [ ] **Android - Fundamentos**:
    - Conhecer Kotlin, Java ou C++ que são as linguagens para desenvolver Apps Android.
    - Entender como o SDK do Android empacota o código e recursos do App em um APK (Android Package - Pacote Android) para rodar no SO do Android
@@ -108,6 +108,12 @@
 - [ ] **Android - Recursos do sistema**:
    - Os smartphones que estão sob a plataforma Android, na sua grande maioria possuem diversos recursos específicos do sistema, tais como câmeras, sensores, gps, entre outros.
    - Aprenda quais são e como utilizar esses recursos
+- [ ] **Android (IA)**:
+   - Um Client-SDK para IA é uma ferramenta intermediária que simplifica a comunicação entre o seu aplicativo e serviços de IA remotos. Imagine como uma ponte que liga o seu aplicativo (que está local no seu dispositivo) a um servidor poderoso de IA (que geralmente fica na nuvem);
+   - IA On-Device, ou inteligência artificial no dispositivo, refere-se à execução de tarefas de IA diretamente no seu dispositivo pessoal, como smartphone, tablet ou smartwatch, em vez de depender de servidores remotos na nuvem;
+   - Aprender a traduzir textos automaticamente, reconhecer imagens, gerar respostas inteligentes e mais utilizando IA no seu app;
+   - Como acessar a API Gemini/GPT diretamente do app Android usando o SDK do cliente para Android;
+   - Como baixar e utilizar ferramentas de machine learning localmente nos apps;
 - [ ] **Kotlin - Injeção de Dependências**:
    - Injeção de Dependências é um padrão de projeto no qual uma classe solicita dependências de fontes externas ao invés de criá-las.
    - Ao escrever códigos em projetos Android, é muito que uma funcionalidade utilize códigos de bibliotecas, como o Room para salvar dados ou o Retrofit para fazer requisições para REST API. Essas bibliteocas são conhecidas como dependências dos nossos códigos, justamente pela necessidade para realizar a ação esperada. Usar essas bibliotecas com facilidade em qualquer parte do app pode ter os seus desafios, como oferecer instâncias únicas e realizar toda a configuração necessária para o funcionamento correto. Para isso, utilizamos ferramentas de injeção de dependência que facilitam o nosso trabalho.
@@ -227,9 +233,14 @@
    - Fundações de experiência de usuário
    - Personalizar seus componentes
    - Layouts adaptativos
-- [ ] **Design Systems**:
-   - Um Design Systems (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
+- [ ] **Design System**:
+   - Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
    - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+   - Design tokens
+   - Estilos fundamentais
+   - Construção de componentes
+   - Microinterações
+   - Documentação
 - [ ] **Sistemas de cores**:
    - Definir uma paleta de cores que faça sentido para determinada interface
 - [ ] **Como usar fontes**:

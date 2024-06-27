@@ -1,7 +1,7 @@
 # C#
 ## Nivel 1
 - [ ] **C# - Fundamentos**:
-   - C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. O código fonte é compilado e gera a Intermediate Language (IL) que é interpretado pela máquina virtual Common Language Runtime (CLR). É projetada para funcionar na Common Language Infrastructure (CLI) da plataforma .NET Framework.
+   - C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. O código fonte é compilado para Common Intermediate Language (CIL) que é interpretado pela máquina virtual Common Language Runtime (CLR). É projetada para funcionar na Common Language Infrastructure da plataforma .NET Framework.
    - Conhecer os tipos primitivos
    - Declarar variáveis, considerando os diferentes tipos
    - Usar estruturas condicionais ('if', 'else')
@@ -81,10 +81,7 @@
    - Enviar um objeto para um aplicativo remoto usando um serviço Web
    - Passar um objeto como uma cadeia de caracteres JSON ou XML
    - Passar informações específicas do usuário ou de segurança entre aplicativos
-- [ ] **C# - Rede e Sockets**:
-   - O termo programação com sockets refere-se à escrita de programas que são executados em vários computadores nos quais os dispositivos estão todos conectados uns aos outros usando uma rede.
-   - Abrir uma sessão de comunicação interativa entre o navegador do usuário e um servidor
-   - Enviar mensagens para um servidor e receber respostas sem consultar o servidor
+
 - [ ] **ASP.NET Core**:
    - ASP.NET Core é um framework de código aberto e multi-plataforma para a construção de aplicações baseadas na nuvem, tais como aplicações web, aplicações IoT e backends mobile.
    - Criar aplicações e serviços Web
