@@ -3,7 +3,13 @@ import Head from "next/head";
 import { I18nProvider, useI18n } from "@src/infra/i18n";
 import { ModalProviderWithActiveCard } from "@src/components/Modal/ModalProviderWithInitialCard";
 
-export function CommonHead({ pageTitle }: { pageTitle?: string }) {
+export function CommonHead({
+  pageTitle,
+  noIndex,
+}: {
+  pageTitle?: string;
+  noIndex?: boolean;
+}) {
   const i18n = useI18n();
 
   const defaultTitle = i18n.content("HEAD.TITLE") as string;
@@ -12,6 +18,7 @@ export function CommonHead({ pageTitle }: { pageTitle?: string }) {
   const image = i18n.content("HEAD.SHARE_IMAGE") as string;
   return (
     <Head>
+      {noIndex && <meta name="robots" content="noindex" />}
       {/* Favicon */}
       <link
         rel="apple-touch-icon"

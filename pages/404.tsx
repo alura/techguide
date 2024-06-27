@@ -2,25 +2,44 @@ import React from "react";
 import { Box, Link, Text } from "@src/components";
 import { SiteLocale } from "@src/gql_types";
 import { I18nProvider, useI18n } from "@src/infra/i18n";
+import { CommonHead } from "@src/wrappers/pageHOC";
+import ptBRLocale from "../_data/locale/pt-BR";
+import enUsLocale from "../_data/locale/en-US";
+import esLocale from "../_data/locale/es";
+import Footer from "@src/patterns/Footer";
+import Menu from "@src/patterns/Menu";
 
 const copyByLocale = {
   [SiteLocale.PtBr]: {
-    "404.TITLE": "404",
-    "404.DESCRIPTION": "Página não encontrada",
+    "HEAD.TITLE": ptBRLocale["HEAD.TITLE"],
+    "HEAD.DESCRIPTION": ptBRLocale["HEAD.DESCRIPTION"],
+    "FOOTER.DESCRIPTION": ptBRLocale["FOOTER.DESCRIPTION"],
+    "FOOTER.OPEN_SOURCE_CTA": ptBRLocale["FOOTER.OPEN_SOURCE_CTA"],
+    "404.TITLE": "Ops!",
+    "404.DESCRIPTION":
+      "Não conseguimos encontrar a página que você estava procurando.",
   },
   [SiteLocale.EnUs]: {
-    "404.TITLE": "404",
-    "404.DESCRIPTION": "Page not found",
+    "HEAD.TITLE": enUsLocale["HEAD.TITLE"],
+    "HEAD.DESCRIPTION": enUsLocale["HEAD.DESCRIPTION"],
+    "FOOTER.DESCRIPTION": enUsLocale["FOOTER.DESCRIPTION"],
+    "FOOTER.OPEN_SOURCE_CTA": enUsLocale["FOOTER.OPEN_SOURCE_CTA"],
+    "404.TITLE": "Ops!",
+    "404.DESCRIPTION": "We couldn't find the page you were looking for.",
   },
   [SiteLocale.Es]: {
-    "404.TITLE": "404",
-    "404.DESCRIPTION": "Página no encontrada",
+    "HEAD.TITLE": esLocale["HEAD.TITLE"],
+    "HEAD.DESCRIPTION": esLocale["HEAD.DESCRIPTION"],
+    "FOOTER.DESCRIPTION": esLocale["FOOTER.DESCRIPTION"],
+    "FOOTER.OPEN_SOURCE_CTA": esLocale["FOOTER.OPEN_SOURCE_CTA"],
+    "404.TITLE": "Ops!",
+    "404.DESCRIPTION": "No pudimos encontrar la página que buscabas.",
   },
 };
 
 export default function NotFoundScreen() {
   const currentURL = globalThis?.location?.pathname || "/pt-BR";
-  let locale;
+  let locale = SiteLocale.PtBr;
 
   if (currentURL.includes("/en-US")) {
     locale = SiteLocale.EnUs;
@@ -34,7 +53,10 @@ export default function NotFoundScreen() {
 
   return (
     <I18nProvider locale={locale} keys={copyByLocale[locale]}>
+      <CommonHead noIndex />
+      <Menu />
       <Screen locale={locale} />
+      <Footer />
     </I18nProvider>
   );
 }
@@ -50,6 +72,7 @@ function Screen({ locale }: { locale: SiteLocale }) {
         justifyContent: "flex-start",
         background: "linear-gradient(180deg, #0f1825 0%, #010a11 62.08%)",
         overflow: "hidden",
+        padding: "1rem 10%",
       }}
     >
       <Box
