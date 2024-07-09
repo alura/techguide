@@ -26,7 +26,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 'v20.14.0'
       # ======================
       - name: "[RELEASE Script]"
         if: contains(github.event.comment.body, '/release/') # support|major|minor|patch
