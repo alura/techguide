@@ -29,7 +29,7 @@
    - Distribuição binomial, poisson e normal
    - Nível e intervalo de confiança
    - Técnicas de amostragem
-   - Regressão linear
+   - Introdução à Regressão linear
    - Séries temporais
 - [ ] **Machine Learning - Fundamentos**:
    - O Aprendizado de Máquina ou Machine Learning é um subcampo da Engenharia e da Ciência da Computação que evoluiu do estudo de reconhecimento de padrões e da teoria do aprendizado computacional em inteligência artificial.

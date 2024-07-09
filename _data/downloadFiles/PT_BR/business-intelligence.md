@@ -111,7 +111,7 @@
    - Distribuição binomial, poisson e normal
    - Nível e intervalo de confiança
    - Técnicas de amostragem
-   - Regressão linear
+   - Introdução à Regressão linear
    - Séries temporais
 - [ ] **Governança de Dados**:
    - Governança de dados é um conjunto de políticas, processos e práticas que estabelecem a responsabilidade, a integridade, a qualidade e o uso adequado dos dados em uma organização. Ela envolve a definição de regras e padrões para a coleta, armazenamento, gerenciamento, compartilhamento e uso dos dados, garantindo que sejam confiáveis, consistentes e seguros ao longo de sua vida útil.

@@ -177,5 +177,5 @@
    - Distribuição binomial, poisson e normal
    - Nível e intervalo de confiança
    - Técnicas de amostragem
-   - Regressão linear
+   - Introdução à Regressão linear
    - Séries temporais

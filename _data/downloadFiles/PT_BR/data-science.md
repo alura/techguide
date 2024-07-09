@@ -51,12 +51,8 @@
    - Distribuição binomial, poisson e normal
    - Nível e intervalo de confiança
    - Técnicas de amostragem
-   - Regressão linear
+   - Introdução à Regressão linear
    - Séries temporais
-- [ ] **Regressão Linear e Logística**:
-   - As regressões são os métodos mais simples de aprendizado supervisionado, porém encontram diversas aplicações.
-   - A regressão linear é usada para relacionar uma variável dependente contínua a uma ou mais variáveis independentes contínuas. O objetivo é encontrar uma relação linear que melhor se ajuste aos dados.
-   - A regressão logística, por outro lado, é usada para problemas de classificação binária, onde a variável de saída é categórica e possui apenas duas categorias. Ela estima a probabilidade de um evento ocorrer com base nas variáveis independentes.
 - [ ] **Visualização de Dados**:
    - A visualização de dados é uma expressão contemporânea da comunicação visual que consiste na representação visual de dados.
    - Mapear dados abstratos em representações visuais
@@ -92,12 +88,6 @@
    - Usar DELETE para remover dados de uma tabela
    - Usar JOIN para conectar os dados de múltiplas tabelas
    - Conhecer as cláusulas (FROM, ORDER BY, etc)
-- [ ] **Web Scraping**:
-   - Web scraping ou raspagem de dados na web é a extração de dados de websites.
-   - Usar o BeautifulSoup e Python para coletar dados
-   - Pesquisar e navegar no HTML
-   - Acessar o conteúdo e atributos das tags HTML
-   - Construir datasets com os resultados das raspagens
 - [ ] **Testes Estatísticos**:
    - Testes estatísticos são usados para examinar as relações entre as variáveis e as hipóteses de teste.
    - Criar intervalos de confiança para amostras
@@ -106,6 +96,16 @@
    - Planejar experimentos para a coleta de dados
    - Propor modelos matemáticos para entender um dado problema
    - Construir mapas de cores para auxiliar a interpretação dos dados
+- [ ] **Regressão Linear e Logística**:
+   - As regressões são os métodos mais simples de aprendizado supervisionado, porém encontram diversas aplicações.
+   - A regressão linear é usada para relacionar uma variável dependente contínua a uma ou mais variáveis independentes contínuas. O objetivo é encontrar uma relação linear que melhor se ajuste aos dados.
+   - A regressão logística, por outro lado, é usada para problemas de classificação binária, onde a variável de saída é categórica e possui apenas duas categorias. Ela estima a probabilidade de um evento ocorrer com base nas variáveis independentes.
+- [ ] **Web Scraping**:
+   - Web scraping ou raspagem de dados na web é a extração de dados de websites.
+   - Usar o BeautifulSoup e Python para coletar dados
+   - Pesquisar e navegar no HTML
+   - Acessar o conteúdo e atributos das tags HTML
+   - Construir datasets com os resultados das raspagens
 ## Nivel 3
 - [ ] **Deep Learning**:
    - Deep Learning é um ramo de Machine Learning baseado em um conjunto de algoritmos que tentam modelar abstrações de alto nível de dados usando um grafo profundo com várias camadas de processamento, compostas de várias transformações lineares e não lineares.
