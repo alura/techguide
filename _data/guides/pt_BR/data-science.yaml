@@ -19,8 +19,6 @@ expertise:
         optional: true
       - statistics-and-math-fundamentals:
         priority: 10
-      - linear-and-logistic-regression:
-        priority: 9
       - data-visualization:
         priority: 8
   - name: Data Science Mid
@@ -33,9 +31,11 @@ expertise:
         priority: 9
       - sql-fundamentals:
         priority: 9
-      - web-scraping:
-        priority: 7
       - statistical-tests:
+        priority: 7
+      - linear-and-logistic-regression:
+        priority: 7
+      - web-scraping:
         priority: 7
   - name: Data Science in depth
     cards:
