@@ -1,0 +1,49 @@
+name: RH
+tags:
+  - RH
+expertise:
+  - name: RH
+    cards:
+      - attract-and-retain-tech-talents:
+        priority: 10
+      - recruitment-and-selection:
+        priority: 10
+      - tech-recruiter:
+        priority: 10
+      - hr-facilitation-techniques:
+        priority: 10
+  - name: RH Mid
+    cards:
+      - management-and-people-in-tech:
+        priority: 9
+      - agile-hr:
+        priority: 9
+      - hr-in-corporative-education:
+        priority: 9
+  - name: RH in depth
+    cards:
+      - agile-management:
+        priority: 8
+      - hr-benchmarking:
+        priority: 8
+      - people-analytics-data-driven-hr:
+        priority: 8
+collaboration:
+  - name: Gestão
+    cards:
+      - agile-coach:
+        priority: 10
+      - agile-metrics:
+        priority: 10
+      - kanban-and-workflow:
+        priority: 10
+      - roadmap:
+        priority: 10
+  - name: Product Management
+    cards:
+      - product-management-fundamentals:
+        priority: 9
+      - product-discovery:
+        priority: 9
+      - digital-product-management:
+        priority: 9
