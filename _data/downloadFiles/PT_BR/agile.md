@@ -154,34 +154,30 @@
    - Comunique-se claramente com a equipe e stakeholders.
    - Promova e implemente práticas e tecnologias inovadoras.
 ## Habilidade Auxiliar: Product management 
-- [ ] **Fundamentos de product managment**:
+- [ ] **Fundamentos do Product Management**:
    - Product Management é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
-   - Defina uma visão clara e estratégia para o produto.
-   - Entenda as necessidades e preferências dos clientes.
-   - Especifique os requisitos e funcionalidades do produto.
-   - Priorize recursos com base no valor para o cliente e para o negócio.
-   - Colabore com equipes de desenvolvimento para entregar incrementos de valor.
-   - Gerencie o ciclo de vida do produto e faça ajustes conforme necessário.
-   - Analise métricas e feedback para orientar decisões.
-   - Comunique-se claramente com todas as partes interessadas.
-   - Esteja aberto a mudanças e ajuste a estratégia conforme necessário.
+   - Definir visão clara e estratégia para o produto.
+   - Entender necessidades e preferências dos clientes.
+   - Especificar requisitos e funcionalidades do produto.
+   - Priorizar recursos com base no valor para o cliente e para o negócio.
+   - Analisar métricas e feedback para orientar decisões.
+   - Estar aberto a mudanças e ajuste a estratégia conforme necessário.
 - [ ] **Product Discovery**:
    - Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.
-   - Analise o mercado para identificar tendências e oportunidades.
-   - Conduza entrevistas para entender as necessidades dos usuários.
-   - Crie protótipos para validar ideias e conceitos com os usuários.
-   - Estude os concorrentes para identificar lacunas e diferenciais.
-   - Teste hipóteses para validar a viabilidade do produto.
-   - Mapeie as jornadas dos usuários para identificar pontos de dor.
-- [ ] **Gestão de produtos digitais**:
+   - Analisar o mercado para identificar tendências e oportunidades.
+   - Conduzie entrevistas para entender as necessidades dos usuários.
+   - Criar protótipos para validar ideias e conceitos com os usuários.
+   - Estudar os concorrentes para identificar lacunas e diferenciais.
+   - Testar hipóteses para validar a viabilidade do produto.
+   - Mapear as jornadas dos usuários para identificar pontos de dor.
+- [ ] **Digital product management**:
    - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
-   - Coloque as necessidades dos usuários no centro do processo de desenvolvimento.
-   - Defina uma visão clara e estratégia para o produto digital.
-   - Mapeie e otimize a jornada do usuário no produto.
-   - Colete e analise feedback dos usuários para melhorias.
-   - Adote metodologias ágeis para entregas rápidas e iterativas.
-   - Utilize dados para tomar decisões informadas sobre o produto.
-   - Realize testes para validar e melhorar a usabilidade do produto.
+   - Colocar as necessidades dos usuários no centro do processo de desenvolvimento.
+   - Definir uma visão clara e estratégia para o produto digital.
+   - Mapear e otimizar a jornada do usuário no produto.
+   - Coletar e analisar feedback dos usuários para melhorias.
+   - Adotar metodologias ágeis para entregas rápidas e iterativas.
+   - Utilizar dados para tomar decisões informadas sobre o produto.
 - [ ] **Roadmap**:
    - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
    - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
