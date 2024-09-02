@@ -1,0 +1,24 @@
+name: Streaming video recording
+logo:
+short-description:
+key-objectives:
+  - Aprender a configurar e utilizar o OBS Studio para capturar vídeos de alta qualidade, otimizando a gravação para diferentes tipos de conteúdo, como gameplays, tutoriais e vídeos para redes sociais.
+  - Compreender a interface do OBS Studio e as configurações essenciais para garantir que a captura de vídeo seja eficiente e que os arquivos sejam compactados de forma adequada.
+  - Organizar um setup de cenas dentro do OBS Studio para facilitar a gravação e a transição entre diferentes segmentos de conteúdo durante a produção de vídeo.
+  - Selecionar e configurar os melhores equipamentos de áudio e vídeo, alinhados com as necessidades específicas de produção, para garantir uma gravação profissional e de alta qualidade.
+  - type: ARTIGO
+    title: "Como começar a streamar e construir sua audiência online"
+    link: https://blog.ioxtream.io/post/como-comecar-streamar
+  - type: YOUTUBE
+    title: "Como cineastas usam LUZ para desenhar cenas | Gaveta"
+    link: https://www.youtube.com/watch?v=I2qeQezy3TU&t=0s
+alura-contents:
+  - type: COURSE
+    title: "OBS Studio: configurando sua gravação"
+    link: https://cursos.alura.com.br/course/obs-studio-configurando-primeira-gravacao
+  - type: VIDEO
+    title: "Como converter arquivos mkv para mp4 em massa com o OBS"
+    link: https://cursos.alura.com.br/extra/alura-mais/como-converter-arquivos-mkv-para-mp4-em-massa-com-o-obs-c1338
+  - type: VIDEO
+    title: "Live com múltiplos participantes usando Obs e Skype"
+    link: https://cursos.alura.com.br/extra/alura-mais/live-com-multiplos-participantes-usando-obs-e-skype-c1336
