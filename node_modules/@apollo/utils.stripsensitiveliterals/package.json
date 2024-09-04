@@ -1,0 +1,29 @@
+{
+  "name": "@apollo/utils.stripsensitiveliterals",
+  "version": "1.2.0",
+  "description": "Remove literals from an AST which might contain PII (strings and numbers, and optionally lists and objects)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollographql/apollo-utils.git",
+    "directory": "stripSensitiveLiterals/"
+  },
+  "keywords": [
+    "apollo",
+    "graphql",
+    "typescript",
+    "node"
+  ],
+  "author": "Apollo <packages@apollographql.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "graphql": "14.x || 15.x || 16.x"
+  }
+}

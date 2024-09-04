@@ -1,0 +1,8 @@
+{
+  "name": "@apollo/client/link/retry",
+  "type": "module",
+  "main": "retry.cjs",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "sideEffects": false
+}

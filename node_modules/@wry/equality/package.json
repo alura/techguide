@@ -1,0 +1,36 @@
+{
+  "name": "@wry/equality",
+  "version": "0.5.7",
+  "author": "Ben Newman <ben@eloper.dev>",
+  "description": "Structural equality checking for JavaScript values",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/bundle.cjs",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [],
+  "homepage": "https://github.com/benjamn/wryware",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamn/wryware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benjamn/wryware/issues"
+  },
+  "scripts": {
+    "build": "npm run clean:before && npm run tsc && npm run rollup",
+    "clean:before": "rimraf lib",
+    "tsc": "tsc",
+    "rollup": "rollup -c rollup.config.js",
+    "prepare": "npm run build",
+    "test:cjs": "../../shared/test.sh lib/tests/bundle.cjs",
+    "test:esm": "../../shared/test.sh lib/tests/bundle.js",
+    "test": "npm run test:esm && npm run test:cjs"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}

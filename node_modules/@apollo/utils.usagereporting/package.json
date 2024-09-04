@@ -1,0 +1,34 @@
+{
+  "name": "@apollo/utils.usagereporting",
+  "version": "1.0.1",
+  "description": "Generate a signature for Apollo usage reporting",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollographql/apollo-utils.git",
+    "directory": "packages/usageReporting/"
+  },
+  "keywords": [
+    "apollo",
+    "graphql",
+    "typescript",
+    "node"
+  ],
+  "author": "Apollo <packages@apollographql.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "dependencies": {
+    "@apollo/usage-reporting-protobuf": "^4.0.0",
+    "@apollo/utils.dropunuseddefinitions": "^1.1.0",
+    "@apollo/utils.stripsensitiveliterals": "^1.2.0",
+    "@apollo/utils.printwithreducedwhitespace": "^1.1.0",
+    "@apollo/utils.removealiases": "1.0.0",
+    "@apollo/utils.sortast": "^1.1.0"
+  },
+  "peerDependencies": {
+    "graphql": "14.x || 15.x || 16.x"
+  }
+}

@@ -17,14 +17,10 @@
    - Entender como a UX conversa com o negócio e sua estratégia.
    - Aprender a aplicar métodos de pesquisa que atendam as expectativas e objetivos do negócio.
 - [ ] **Design Thinking**:
-   - Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.
-   - Entenda profundamente as necessidades dos usuários.
-   - Clarifique o problema baseado nos insights coletados.
-   - Gere uma ampla gama de ideias inovadoras.
-   - Crie modelos simples para explorar soluções.
-   - Refine as soluções com base no feedback dos testes.
-   - Envolva diversas perspectivas na solução de problemas.
-   - Use métodos visuais para comunicar ideias e processos.
+   - Aprender a gerenciar iniciativas de inovação aplicando a metodologia de Design Thinking, utilizando uma abordagem centrada no usuário para resolver problemas complexos.
+   - Desenvolver a inovação na sua empresa, utilizando exemplos de modelos e casos de sucesso nacionais e internacionais, para criar soluções impactantes e sustentáveis.
+   - Conhecer e aplicar ferramentas específicas para cada etapa do processo de Design Thinking, desde a imersão até a prototipagem e avaliação.
+   - Criar um ambiente colaborativo que incentive a experimentação e os aprendizados rápidos, respondendo de maneira ágil e eficaz às necessidades dos clientes e às mudanças do mercado.
 ## Nivel 2
 - [ ] **Estratégia e design de interação na UX**:
    - null
@@ -71,7 +67,7 @@
    - Estudar os concorrentes para identificar lacunas e diferenciais.
    - Testar hipóteses para validar a viabilidade do produto.
    - Mapear as jornadas dos usuários para identificar pontos de dor.
-- [ ] **Digital product management**:
+- [ ] **Gestão de Projetos**:
    - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
    - Colocar as necessidades dos usuários no centro do processo de desenvolvimento.
    - Definir uma visão clara e estratégia para o produto digital.

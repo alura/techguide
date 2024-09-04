@@ -1,0 +1,35 @@
+{
+  "name": "read-yaml-file",
+  "version": "2.1.0",
+  "license": "MIT",
+  "main": "index.js",
+  "description": "Read and parse a YAML file",
+  "keywords": [
+    "yaml",
+    "read"
+  ],
+  "author": {
+    "name": "Zoltan Kochan",
+    "email": "z@kochan.io"
+  },
+  "repository": "https://github.com/zkochan/packages/tree/master/read-yaml-file",
+  "engines": {
+    "node": ">=10.13"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "standard && preview && node test"
+  },
+  "dependencies": {
+    "js-yaml": "^4.0.0",
+    "strip-bom": "^4.0.0"
+  },
+  "devDependencies": {
+    "package-preview": "3.0.0",
+    "standard": "^16.0.3",
+    "tape": "^5.1.1"
+  }
+}

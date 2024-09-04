@@ -1,0 +1,20 @@
+{
+  "name": "@apollo/utils.logger",
+  "version": "1.0.1",
+  "description": "Generic logger interface",
+  "main": "",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollographql/apollo-utils.git",
+    "directory": "packages/logger/"
+  },
+  "keywords": [
+    "apollo",
+    "graphql",
+    "typescript",
+    "node"
+  ],
+  "author": "Apollo <packages@apollographql.com>",
+  "license": "MIT"
+}

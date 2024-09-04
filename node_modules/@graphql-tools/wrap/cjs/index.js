@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.generateProxyingResolvers = exports.defaultCreateProxyingResolver = void 0;
+const tslib_1 = require("tslib");
+tslib_1.__exportStar(require("./wrapSchema.js"), exports);
+var generateProxyingResolvers_js_1 = require("./generateProxyingResolvers.js");
+Object.defineProperty(exports, "defaultCreateProxyingResolver", { enumerable: true, get: function () { return generateProxyingResolvers_js_1.defaultCreateProxyingResolver; } });
+Object.defineProperty(exports, "generateProxyingResolvers", { enumerable: true, get: function () { return generateProxyingResolvers_js_1.generateProxyingResolvers; } });
+tslib_1.__exportStar(require("./transforms/index.js"), exports);
+tslib_1.__exportStar(require("./types.js"), exports);
+tslib_1.__exportStar(require("./introspect.js"), exports);

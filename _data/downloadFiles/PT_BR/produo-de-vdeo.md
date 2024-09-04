@@ -1,0 +1,87 @@
+# Produção de Vídeo
+## Nivel 1
+- [ ] **Conceitos essenciais de produção de vídeo**:
+   - Compreender os princípios fundamentais da linguagem audiovisual para criar vídeos que comuniquem de forma eficaz e envolvente.
+   - Explorar as diferentes áreas da produção de vídeo, da pré-produção até a pós-produção, para entender as etapas do processo criativo.
+   - Entender os formatos de arquivo e aspectos técnicos da imagem para garantir a qualidade e a compatibilidade dos vídeos produzidos.
+   - Desenvolver habilidades práticas para produzir vídeos, aplicando técnicas diversas que aprimoram a narrativa visual.
+- [ ] **Conceitos essenciais de produção de vídeo**:
+   - Aprender a utilizar ferramentas básicas de edição, como o Premiere Pro, para cortar, organizar e montar vídeos seguindo um roteiro definido.
+   - Desenvolver a habilidade de criar vídeos coerentes e fluentes, dominando o timing e o ritmo da edição para envolver o espectador.
+   - Experimentar a edição de diferentes tipos de conteúdo, como matérias jornalísticas e comerciais, para adaptar o estilo de edição às necessidades do projeto.
+   - Elevar a qualidade dos vídeos produzidos, aplicando técnicas de edição que despertem o interesse e o desejo de consumo nos espectadores, preparando-se para desafios de edição em nível intermediário.
+- [ ] **Criando vídeo institucional**:
+   - Aprender a estruturar e organizar um projeto de vídeo institucional desde a concepção até a renderização final, garantindo um fluxo de trabalho eficiente.
+   - Dominar técnicas de edição específicas para vídeos institucionais, incluindo storytelling, transições, e tratamento de áudio, para criar uma comunicação clara e impactante.
+   - Aplicar efeitos visuais e ajustar cores de forma a manter a consistência visual e transmitir a mensagem da marca de maneira eficaz.
+   - Desenvolver habilidades práticas para produzir vídeos institucionais profissionais utilizando bancos de vídeo e outros recursos acessíveis, otimizando a produção para diferentes orçamentos e necessidades empresariais.
+## Nivel 2
+- [ ] **Efeitos de vídeo**:
+   - Desenvolver habilidades avançadas na criação e aplicação de efeitos de vídeo utilizando as ferramentas do Premiere Pro, para melhorar a narrativa visual dos projetos.
+   - Entender como integrar VFX (efeitos visuais) de maneira eficiente e criativa, alinhando os efeitos com o contexto e o objetivo do projeto de vídeo.
+   - Explorar técnicas de mesclagem de efeitos e transições para produzir vídeos mais dinâmicos e visualmente atraentes, elevando a qualidade da produção.
+   - Aprender a utilizar fluxos de trabalho que incorporem diferentes ferramentas e plugins, permitindo uma edição mais sofisticada e personalizada.
+- [ ] **Efeitos de som e música**:
+   - Aprender a selecionar e integrar efeitos sonoros que destaquem momentos-chave do vídeo, intensificando o impacto emocional e narrativo.
+   - Desenvolver habilidades para escolher e ajustar músicas que complementem e reforcem a atmosfera e o ritmo do vídeo.
+   - Explorar técnicas para manipular sons e músicas de forma a despertar sensações específicas no público, alinhando a trilha sonora com a intenção do conteúdo.
+   - Compreender como realizar cortes precisos para sincronizar a música e os efeitos sonoros com as imagens, criando uma experiência audiovisual coesa e envolvente..
+- [ ] **Vídeos para web**:
+   - Aprender a otimizar a produção de vídeos para a web, utilizando fluxos de trabalho que acelerem o processo de edição e publicação.
+   - Dominar a aplicação de textos animados e gráficos essenciais para criar vídeos mais dinâmicos e envolventes, alinhados ao estilo das plataformas online.
+   - Selecionar e aplicar efeitos visuais que aprimorem a narrativa e sejam adequados ao contexto específico de vídeos para a web, garantindo melhor engajamento.
+   - Compreender os aspectos técnicos e estéticos da produção de vídeos para web, desde a pré-produção até a exportação, para assegurar compatibilidade e qualidade em diferentes dispositivos e plataformas digitais.
+## Nivel 3
+- [ ] **Streaming video recording**:
+   - Aprender a configurar e utilizar o OBS Studio para capturar vídeos de alta qualidade, otimizando a gravação para diferentes tipos de conteúdo, como gameplays, tutoriais e vídeos para redes sociais.
+   - Compreender a interface do OBS Studio e as configurações essenciais para garantir que a captura de vídeo seja eficiente e que os arquivos sejam compactados de forma adequada.
+   - Organizar um setup de cenas dentro do OBS Studio para facilitar a gravação e a transição entre diferentes segmentos de conteúdo durante a produção de vídeo.
+   - Selecionar e configurar os melhores equipamentos de áudio e vídeo, alinhados com as necessidades específicas de produção, para garantir uma gravação profissional e de alta qualidade.
+   - null
+   - null
+- [ ] **OBS Studio**:
+   - Aprender a configurar e personalizar a interface do OBS Studio para realizar transmissões ao vivo de alta qualidade, otimizando cada etapa do processo de streaming.
+   - Desenvolver habilidades para organizar setups de cena e transições dinâmicas, garantindo uma apresentação fluida e profissional durante as transmissões ao vivo.
+   - Explorar e implementar recursos de engajamento do OBS Studio, como integração de chat, widgets interativos e bots de moderação, para aumentar a interação e a conexão com o público durante o streaming.
+   - Compreender as melhores práticas para o uso de ferramentas adicionais, como Chroma Key e gravação em paralelo, para melhorar a qualidade visual e a flexibilidade das transmissões ao vivo.
+- [ ] **Streamlabs**:
+   - Aprender a configurar e utilizar o Streamlabs para gravação de vídeos e streaming, aproveitando sua interface intuitiva e recursos integrados para otimizar a produção de conteúdo.
+   - Dominar a criação e a organização de cenas no Streamlabs, utilizando widgets práticos e filtros para melhorar a qualidade visual e a interatividade das transmissões ao vivo.
+   - Implementar processos de moderação automática e ferramentas de engajamento, como alertas e overlays, para enriquecer a experiência do espectador e manter uma transmissão dinâmica e envolvente.
+   - Compreender as melhores práticas para personalizar e estilizar o conteúdo no Streamlabs, garantindo uma apresentação profissional e bem organizada, adequada às diferentes plataformas de streaming..
+## Habilidade Auxiliar: Design para mídias sociais 
+- [ ] **Design em movimento**:
+   - Dominar as ferramentas e técnicas para criar animações e incorporar movimento nas peças gráficas, tornando o conteúdo mais dinâmico e atraente para mídias sociais.
+   - Aprender a combinar comunicação visual com design em movimento de forma coerente, garantindo que as animações reforcem a mensagem e captem a atenção do público.
+   - Entender como equilibrar e destacar informações em uma imagem em movimento, utilizando princípios de design para guiar a atenção do espectador de maneira eficaz.
+   - Conhecer os diferentes formatos de vídeos e animações ideais para mídias sociais, garantindo que o conteúdo esteja otimizado para cada plataforma e seu respectivo público-alvo.
+- [ ] **Mídias sociais**:
+   - Desenvolver estratégias eficazes para mídias sociais, utilizando briefings detalhados e alinhados com os objetivos.
+   - Compreender as principais funcionalidades e melhores práticas nas 10 maiores plataformas de mídias sociais, para otimizar a presença digital e engajamento do público.
+   - Explorar técnicas de Real Time Marketing e o uso de chamadas de ação (CTAs) para aumentar a interação e conversão do público nas mídias sociais.
+- [ ] **Copywriting**:
+   - Aprender a criar textos persuasivos que convertem, aplicando técnicas de copywriting voltadas para o engajamento do público em diferentes plataformas de comunicação.
+   - Desenvolver habilidades para adaptar a linguagem e o tom da marca de acordo com o público-alvo, garantindo que a mensagem seja clara, envolvente e eficaz.
+   - Explorar estratégias de copywriting específicas para redes sociais, maximizando o impacto e a visibilidade das postagens através de chamadas de ação e conteúdos atraentes.
+## Habilidade Auxiliar: Marketing de conteúdo 
+- [ ] **Estratégias e técnicas para produtos digitais**:
+   - Desenvolver estratégia de marketing de conteúdo que posicione o produto digital como líder de mercado.
+   - Criar conteúdos que abordem as principais dores e necessidades dos usuários, destacando soluções oferecidas pelo produto digital.
+   - Utilizar storytelling para criar uma narrativa envolvente em torno do produto digital, conectando-se emocionalmente com o público e fortalecendo a marca.
+- [ ] **Proposta de Valor**:
+   - Aprender a desenvolver propostas de valor únicas que diferenciam seus produtos ou serviços no mercado e atendem às necessidades específicas de clientes.
+   - Utilizar técnicas de pesquisa para obter insights profundos sobre o público-alvo e suas expectativas, garantindo que a proposta de valor seja relevante e convincente.
+   - Integrar a proposta de valor nas etapas do desenvolvimento de produtos e na comunicação com o cliente, criando uma experiência coesa e focada no valor percebido pelo consumidor.
+- [ ] **Marketing Viral**:
+   - Compreender as estratégias e técnicas de buzz marketing que podem ajudar uma marca a alcançar a viralização, criando campanhas que ressoam profundamente com o público.
+   - Identificar e alavancar influenciadores e outros fatores-chave que podem amplificar a mensagem de uma marca, ajudando-a a atingir um público maior e mais engajado.
+   - Analisar casos de sucesso de marketing viral para aprender como atributos emocionais e comportamentais dos consumidores podem ser explorados para gerar engajamento massivo e lealdade à marca.
+- [ ] **Roadmap**:
+   - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
+   - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
+   - Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.
+   - Defina marcos e prazos realistas para o desenvolvimento e entrega.
+   - Comunique o roadmap de forma clara e transparente com todas as partes interessadas.
+   - Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.
+   - Colete feedback regularmente para ajustar o roadmap conforme necessário.
+   - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.

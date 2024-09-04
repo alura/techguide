@@ -1,0 +1,23 @@
+{
+  "author": "AJ ONeal <coolaj86@gmail.com> (https://coolaj86.com)",
+  "contributors": [ "Douglas Crockford <douglas@crockford.com>" ],
+  "dependencies": {},
+  "description": "Deprecated. Utilities for ES3, most of which have been adopted or superseded in ES5.1. Adapted from Douglas Crockford's Remedial JavaScript",
+  "homepage": "https://git.coolaj86.com/coolaj86/remedial.js",
+  "engines": {
+    "node": "*"
+  },
+  "keywords": [
+    "util",
+    "isEmpty",
+    "typeOf",
+    "entityify",
+    "quote",
+    "supplant",
+    "trim"
+  ],
+  "license": "(MIT OR Apache-2.0)",
+  "main": "./index",
+  "name": "remedial",
+  "version": "1.0.8"
+}

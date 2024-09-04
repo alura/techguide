@@ -1,0 +1,8 @@
+{
+  "name": "@apollo/client/dev",
+  "type": "module",
+  "main": "dev.cjs",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "sideEffects": false
+}

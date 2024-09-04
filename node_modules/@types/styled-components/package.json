@@ -1,0 +1,69 @@
+{
+    "name": "@types/styled-components",
+    "version": "5.1.34",
+    "description": "TypeScript definitions for styled-components",
+    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/styled-components",
+    "license": "MIT",
+    "contributors": [
+        {
+            "name": "Igor Oleinikov",
+            "githubUsername": "Igorbek",
+            "url": "https://github.com/Igorbek"
+        },
+        {
+            "name": "Ihor Chulinda",
+            "githubUsername": "Igmat",
+            "url": "https://github.com/Igmat"
+        },
+        {
+            "name": "Jessica Franco",
+            "githubUsername": "Jessidhia",
+            "url": "https://github.com/Jessidhia"
+        },
+        {
+            "name": "Jason Killian",
+            "githubUsername": "jkillian",
+            "url": "https://github.com/jkillian"
+        },
+        {
+            "name": "Sebastian Silbermann",
+            "githubUsername": "eps1lon",
+            "url": "https://github.com/eps1lon"
+        },
+        {
+            "name": "Matthew Wagerfield",
+            "githubUsername": "wagerfield",
+            "url": "https://github.com/wagerfield"
+        },
+        {
+            "name": "Yuki Ito",
+            "githubUsername": "Lazyuki",
+            "url": "https://github.com/Lazyuki"
+        },
+        {
+            "name": "Aaron Reisman",
+            "githubUsername": "lifeiscontent",
+            "url": "https://github.com/lifeiscontent"
+        },
+        {
+            "name": "Aaron Rose",
+            "githubUsername": "acdr",
+            "url": "https://github.com/acdr"
+        }
+    ],
+    "main": "",
+    "types": "index.d.ts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+        "directory": "types/styled-components"
+    },
+    "scripts": {},
+    "dependencies": {
+        "@types/hoist-non-react-statics": "*",
+        "@types/react": "*",
+        "csstype": "^3.0.2"
+    },
+    "typesPublisherContentHash": "2edc0da60aad58eb5fc185ddf9ac5e7fe3aceef9c11f79fa301fd6926d85b081",
+    "typeScriptVersion": "4.6"
+}

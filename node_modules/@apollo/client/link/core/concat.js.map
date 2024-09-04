@@ -1,0 +1,1 @@
+{"version":3,"file":"concat.js","sourceRoot":"","sources":["../../../src/link/core/concat.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,iBAAiB,CAAC;AAE7C,MAAM,CAAC,IAAM,MAAM,GAAG,UAAU,CAAC,MAAM,CAAC","sourcesContent":["import { ApolloLink } from \"./ApolloLink.js\";\n\nexport const concat = ApolloLink.concat;\n"]}

@@ -1,0 +1,69 @@
+{
+  "name": "ts-log",
+  "version": "2.2.5",
+  "description": "Abstract logger TypeScript interface with a dummy logger that does nothing, useful for libraries.",
+  "main": "build/src/index.js",
+  "types": "build/src/index.d.ts",
+  "author": "Stagnation Lab",
+  "keywords": [
+    "typescript",
+    "abstract",
+    "logger",
+    "console",
+    "dummy"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kallaspriit/ts-log.git"
+  },
+  "scripts": {
+    "start": "nodemon --inspect example/index.ts",
+    "build": "npm run tidy:build && tsc",
+    "production": "node build/example/index",
+    "lint": "tslint --project tsconfig.json --format codeFrame",
+    "lint-fix": "npm run lint --fix",
+    "prettier": "prettier --write src/**/*.ts example/**/*.ts",
+    "tidy": "npm run tidy:build && npm run tidy:coverage",
+    "tidy:build": "rimraf build",
+    "tidy:coverage": "rimraf coverage",
+    "test": "jest",
+    "test-watch": "jest --watch --collectCoverage",
+    "coverage": "npm run tidy:coverage && jest --collectCoverage",
+    "validate": "npm run prettier && npm run build && npm run lint && npm run coverage",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^29.0.3",
+    "@types/node": "^18.7.18",
+    "coveralls": "^3.1.1",
+    "jest": "^29.0.3",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^29.0.1",
+    "tslint": "^5.20.1",
+    "typescript": "^4.8.3",
+    "typestrict": "^1.0.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "ts-jest"
+    },
+    "roots": [
+      "src"
+    ],
+    "collectCoverage": false,
+    "collectCoverageFrom": [
+      "src/**/*.ts"
+    ],
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
+  }
+}

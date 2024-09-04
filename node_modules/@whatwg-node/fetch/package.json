@@ -1,0 +1,31 @@
+{
+  "name": "@whatwg-node/fetch",
+  "version": "0.8.8",
+  "description": "Cross Platform Smart Fetch Ponyfill",
+  "repository": {
+    "type": "git",
+    "url": "ardatan/whatwg-node",
+    "directory": "packages/fetch"
+  },
+  "author": "Arda TANRIKULU <ardatanrikulu@gmail.com>",
+  "license": "MIT",
+  "main": "dist/node-ponyfill.js",
+  "browser": "dist/global-ponyfill.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@peculiar/webcrypto": "^1.4.0",
+    "@whatwg-node/node-fetch": "^0.3.6",
+    "busboy": "^1.6.0",
+    "urlpattern-polyfill": "^8.0.0",
+    "web-streams-polyfill": "^3.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
+  "bob": false,
+  "denoify": {
+    "index": "dist/deno-ponyfill.ts"
+  },
+  "react-native": "dist/global-ponyfill.js"
+}

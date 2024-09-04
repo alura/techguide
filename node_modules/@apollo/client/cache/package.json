@@ -1,0 +1,8 @@
+{
+  "name": "@apollo/client/cache",
+  "type": "module",
+  "main": "cache.cjs",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "sideEffects": false
+}

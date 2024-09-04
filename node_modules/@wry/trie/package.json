@@ -1,0 +1,45 @@
+{
+  "name": "@wry/trie",
+  "version": "0.5.0",
+  "author": "Ben Newman <ben@eloper.dev>",
+  "description": "https://en.wikipedia.org/wiki/Trie",
+  "license": "MIT",
+  "type": "module",
+  "main": "lib/bundle.cjs",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "trie",
+    "prefix",
+    "weak",
+    "dictionary",
+    "lexicon"
+  ],
+  "homepage": "https://github.com/benjamn/wryware",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamn/wryware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benjamn/wryware/issues"
+  },
+  "scripts": {
+    "build": "npm run clean:before && npm run tsc && npm run rollup && npm run clean:after",
+    "clean:before": "rimraf lib",
+    "tsc": "npm run tsc:es5 && npm run tsc:esm",
+    "tsc:es5": "tsc -p tsconfig.es5.json",
+    "tsc:esm": "tsc -p tsconfig.json",
+    "rollup": "rollup -c rollup.config.js",
+    "clean:after": "rimraf lib/es5",
+    "prepare": "npm run build",
+    "test:cjs": "../../shared/test.sh lib/tests/bundle.cjs",
+    "test:esm": "../../shared/test.sh lib/tests/bundle.js",
+    "test": "npm run test:esm && npm run test:cjs"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}

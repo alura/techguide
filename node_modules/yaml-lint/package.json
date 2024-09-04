@@ -1,0 +1,65 @@
+{
+  "name": "yaml-lint",
+  "version": "1.7.0",
+  "description": "A simple (CLI) tool to lint YAML files",
+  "author": {
+    "name": "Thomas Rasshofer",
+    "email": "hello@thomasrasshofer.com",
+    "url": "http://thomasrasshofer.com/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rasshofer/yaml-lint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rasshofer/yaml-lint/issues"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "yaml",
+    "lint",
+    "linter",
+    "cli"
+  ],
+  "dependencies": {
+    "consola": "^2.15.3",
+    "globby": "^11.1.0",
+    "js-yaml": "^4.1.0",
+    "nconf": "^0.12.0"
+  },
+  "devDependencies": {
+    "@jest/globals": "^27.5.1",
+    "@types/jest": "^27.4.1",
+    "@types/js-yaml": "^4.0.5",
+    "@types/nconf": "^0.10.2",
+    "@types/node": "^16.11.27",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "coveralls": "^3.1.1",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "prepare": "npm run clean && npm run build",
+    "clean": "rimraf 'dist' 'coverage'",
+    "build": "tsc --build --verbose",
+    "watch": "tsc --build --verbose --watch",
+    "lint": "eslint \"src/**/*.{js,ts}\"",
+    "pretest": "npm run build",
+    "test": "jest --coverage"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "yamllint": "dist/cli.js"
+  }
+}

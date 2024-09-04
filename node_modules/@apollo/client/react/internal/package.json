@@ -1,0 +1,8 @@
+{
+  "name": "@apollo/client/react/internal",
+  "type": "module",
+  "main": "internal.cjs",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "sideEffects": false
+}

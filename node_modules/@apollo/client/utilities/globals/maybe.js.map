@@ -1,0 +1,1 @@
+{"version":3,"file":"maybe.js","sourceRoot":"","sources":["../../../src/utilities/globals/maybe.ts"],"names":[],"mappings":"AAAA,MAAM,UAAU,KAAK,CAAI,KAAc;IACrC,IAAI,CAAC;QACH,OAAO,KAAK,EAAE,CAAC;IACjB,CAAC;IAAC,WAAM,CAAC,CAAA,CAAC;AACZ,CAAC","sourcesContent":["export function maybe<T>(thunk: () => T): T | undefined {\n  try {\n    return thunk();\n  } catch {}\n}\n"]}

@@ -1,0 +1,313 @@
+import { getNamedType, isAbstractType, isInterfaceType, isObjectType, Kind, TypeInfo, TypeNameMetaFieldDef, versionInfo as graphqlVersionInfo, visit, visitWithTypeInfo, } from 'graphql';
+import { getDefinedRootType, serializeInputValue, updateArgument, createVariableNameGenerator, implementsAbstractType, inspect, } from '@graphql-tools/utils';
+import { getDocumentMetadata } from './getDocumentMetadata.js';
+function finalizeGatewayDocument(targetSchema, fragments, operations) {
+    var _a;
+    let usedVariables = [];
+    let usedFragments = [];
+    const newOperations = [];
+    let newFragments = [];
+    const validFragments = [];
+    const validFragmentsWithType = Object.create(null);
+    for (const fragment of fragments) {
+        const typeName = fragment.typeCondition.name.value;
+        const type = targetSchema.getType(typeName);
+        if (type != null) {
+            validFragments.push(fragment);
+            validFragmentsWithType[fragment.name.value] = type;
+        }
+    }
+    let fragmentSet = Object.create(null);
+    for (const operation of operations) {
+        const type = getDefinedRootType(targetSchema, operation.operation);
+        const { selectionSet, usedFragments: operationUsedFragments, usedVariables: operationUsedVariables, } = finalizeSelectionSet(targetSchema, type, validFragmentsWithType, operation.selectionSet);
+        usedFragments = union(usedFragments, operationUsedFragments);
+        const { usedVariables: collectedUsedVariables, newFragments: collectedNewFragments, fragmentSet: collectedFragmentSet, } = collectFragmentVariables(targetSchema, fragmentSet, validFragments, validFragmentsWithType, usedFragments);
+        const operationOrFragmentVariables = union(operationUsedVariables, collectedUsedVariables);
+        usedVariables = union(usedVariables, operationOrFragmentVariables);
+        newFragments = collectedNewFragments;
+        fragmentSet = collectedFragmentSet;
+        const variableDefinitions = ((_a = operation.variableDefinitions) !== null && _a !== void 0 ? _a : []).filter((variable) => operationOrFragmentVariables.indexOf(variable.variable.name.value) !== -1);
+        newOperations.push({
+            kind: Kind.OPERATION_DEFINITION,
+            operation: operation.operation,
+            name: operation.name,
+            directives: operation.directives,
+            variableDefinitions,
+            selectionSet,
+        });
+    }
+    const newDocument = {
+        kind: Kind.DOCUMENT,
+        definitions: [...newOperations, ...newFragments],
+    };
+    return {
+        usedVariables,
+        newDocument,
+    };
+}
+export function finalizeGatewayRequest(originalRequest, delegationContext) {
+    let { document, variables } = originalRequest;
+    let { operations, fragments } = getDocumentMetadata(document);
+    const { targetSchema, args } = delegationContext;
+    if (args) {
+        const requestWithNewVariables = addVariablesToRootFields(targetSchema, operations, args);
+        operations = requestWithNewVariables.newOperations;
+        variables = Object.assign({}, variables !== null && variables !== void 0 ? variables : {}, requestWithNewVariables.newVariables);
+    }
+    const { usedVariables, newDocument } = finalizeGatewayDocument(targetSchema, fragments, operations);
+    const newVariables = {};
+    if (variables != null) {
+        for (const variableName of usedVariables) {
+            const variableValue = variables[variableName];
+            if (variableValue !== undefined) {
+                newVariables[variableName] = variableValue;
+            }
+        }
+    }
+    return {
+        ...originalRequest,
+        document: newDocument,
+        variables: newVariables,
+    };
+}
+function addVariablesToRootFields(targetSchema, operations, args) {
+    const newVariables = Object.create(null);
+    const newOperations = operations.map((operation) => {
+        var _a, _b;
+        const variableDefinitionMap = ((_a = operation.variableDefinitions) !== null && _a !== void 0 ? _a : []).reduce((prev, def) => ({
+            ...prev,
+            [def.variable.name.value]: def,
+        }), {});
+        const type = getDefinedRootType(targetSchema, operation.operation);
+        const newSelections = [];
+        for (const selection of operation.selectionSet.selections) {
+            if (selection.kind === Kind.FIELD) {
+                const argumentNodes = (_b = selection.arguments) !== null && _b !== void 0 ? _b : [];
+                const argumentNodeMap = argumentNodes.reduce((prev, argument) => ({
+                    ...prev,
+                    [argument.name.value]: argument,
+                }), {});
+                const targetField = type.getFields()[selection.name.value];
+                // excludes __typename
+                if (targetField != null) {
+                    updateArguments(targetField, argumentNodeMap, variableDefinitionMap, newVariables, args);
+                }
+                newSelections.push({
+                    ...selection,
+                    arguments: Object.values(argumentNodeMap),
+                });
+            }
+            else {
+                newSelections.push(selection);
+            }
+        }
+        const newSelectionSet = {
+            kind: Kind.SELECTION_SET,
+            selections: newSelections,
+        };
+        return {
+            ...operation,
+            variableDefinitions: Object.values(variableDefinitionMap),
+            selectionSet: newSelectionSet,
+        };
+    });
+    return {
+        newOperations,
+        newVariables,
+    };
+}
+function updateArguments(targetField, argumentNodeMap, variableDefinitionMap, variableValues, newArgs) {
+    const generateVariableName = createVariableNameGenerator(variableDefinitionMap);
+    for (const argument of targetField.args) {
+        const argName = argument.name;
+        const argType = argument.type;
+        if (argName in newArgs) {
+            updateArgument(argumentNodeMap, variableDefinitionMap, variableValues, argName, generateVariableName(argName), argType, serializeInputValue(argType, newArgs[argName]));
+        }
+    }
+}
+function collectFragmentVariables(targetSchema, fragmentSet, validFragments, validFragmentsWithType, usedFragments) {
+    let remainingFragments = usedFragments.slice();
+    let usedVariables = [];
+    const newFragments = [];
+    while (remainingFragments.length !== 0) {
+        const nextFragmentName = remainingFragments.pop();
+        const fragment = validFragments.find(fr => fr.name.value === nextFragmentName);
+        if (fragment != null) {
+            const name = nextFragmentName;
+            const typeName = fragment.typeCondition.name.value;
+            const type = targetSchema.getType(typeName);
+            if (type == null) {
+                throw new Error(`Fragment reference type "${typeName}", but the type is not contained within the target schema.`);
+            }
+            const { selectionSet, usedFragments: fragmentUsedFragments, usedVariables: fragmentUsedVariables, } = finalizeSelectionSet(targetSchema, type, validFragmentsWithType, fragment.selectionSet);
+            remainingFragments = union(remainingFragments, fragmentUsedFragments);
+            usedVariables = union(usedVariables, fragmentUsedVariables);
+            if (name && !(name in fragmentSet)) {
+                fragmentSet[name] = true;
+                newFragments.push({
+                    kind: Kind.FRAGMENT_DEFINITION,
+                    name: {
+                        kind: Kind.NAME,
+                        value: name,
+                    },
+                    typeCondition: fragment.typeCondition,
+                    selectionSet,
+                });
+            }
+        }
+    }
+    return {
+        usedVariables,
+        newFragments,
+        fragmentSet,
+    };
+}
+const filteredSelectionSetVisitorKeys = {
+    SelectionSet: ['selections'],
+    Field: ['selectionSet'],
+    InlineFragment: ['selectionSet'],
+    FragmentDefinition: ['selectionSet'],
+};
+const variablesVisitorKeys = {
+    SelectionSet: ['selections'],
+    Field: ['arguments', 'directives', 'selectionSet'],
+    Argument: ['value'],
+    InlineFragment: ['directives', 'selectionSet'],
+    FragmentSpread: ['directives'],
+    FragmentDefinition: ['selectionSet'],
+    ObjectValue: ['fields'],
+    ObjectField: ['name', 'value'],
+    Directive: ['arguments'],
+    ListValue: ['values'],
+};
+function finalizeSelectionSet(schema, type, validFragments, selectionSet) {
+    const usedFragments = [];
+    const usedVariables = [];
+    const typeInfo = graphqlVersionInfo.major < 16 ? new TypeInfo(schema, undefined, type) : new TypeInfo(schema, type);
+    const filteredSelectionSet = visit(selectionSet, visitWithTypeInfo(typeInfo, {
+        [Kind.FIELD]: {
+            enter: node => {
+                const parentType = typeInfo.getParentType();
+                if (isObjectType(parentType) || isInterfaceType(parentType)) {
+                    const fields = parentType.getFields();
+                    const field = node.name.value === '__typename' ? TypeNameMetaFieldDef : fields[node.name.value];
+                    if (!field) {
+                        return null;
+                    }
+                    const args = field.args != null ? field.args : [];
+                    const argsMap = Object.create(null);
+                    for (const arg of args) {
+                        argsMap[arg.name] = arg;
+                    }
+                    if (node.arguments != null) {
+                        const newArgs = [];
+                        for (const arg of node.arguments) {
+                            if (arg.name.value in argsMap) {
+                                newArgs.push(arg);
+                            }
+                        }
+                        if (newArgs.length !== node.arguments.length) {
+                            return {
+                                ...node,
+                                arguments: newArgs,
+                            };
+                        }
+                    }
+                }
+            },
+            leave: node => {
+                const type = typeInfo.getType();
+                if (type == null) {
+                    throw new Error(`No type was found for field node ${inspect(node)}.`);
+                }
+                const namedType = getNamedType(type);
+                if (!schema.getType(namedType.name) == null) {
+                    return null;
+                }
+                if (isObjectType(namedType) || isInterfaceType(namedType)) {
+                    const selections = node.selectionSet != null ? node.selectionSet.selections : null;
+                    if (selections == null || selections.length === 0) {
+                        return null;
+                    }
+                }
+            },
+        },
+        [Kind.FRAGMENT_SPREAD]: {
+            enter: node => {
+                if (!(node.name.value in validFragments)) {
+                    return null;
+                }
+                const parentType = typeInfo.getParentType();
+                const innerType = validFragments[node.name.value];
+                if (!implementsAbstractType(schema, parentType, innerType)) {
+                    return null;
+                }
+                usedFragments.push(node.name.value);
+            },
+        },
+        [Kind.INLINE_FRAGMENT]: {
+            enter: node => {
+                if (node.typeCondition != null) {
+                    const parentType = typeInfo.getParentType();
+                    const innerType = schema.getType(node.typeCondition.name.value);
+                    if (!implementsAbstractType(schema, parentType, innerType)) {
+                        return null;
+                    }
+                }
+            },
+        },
+        [Kind.SELECTION_SET]: {
+            leave: node => {
+                const parentType = typeInfo.getParentType();
+                if (parentType != null && isAbstractType(parentType)) {
+                    const selections = node.selections.concat([
+                        {
+                            kind: Kind.FIELD,
+                            name: {
+                                kind: Kind.NAME,
+                                value: '__typename',
+                            },
+                        },
+                    ]);
+                    return {
+                        ...node,
+                        selections,
+                    };
+                }
+            },
+        },
+    }), 
+    // visitorKeys argument usage a la https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-source-graphql/src/batching/merge-queries.js
+    // empty keys cannot be removed only because of typescript errors
+    // will hopefully be fixed in future version of graphql-js to be optional
+    filteredSelectionSetVisitorKeys);
+    visit(filteredSelectionSet, {
+        [Kind.VARIABLE]: variableNode => {
+            usedVariables.push(variableNode.name.value);
+        },
+    }, 
+    // visitorKeys argument usage a la https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-source-graphql/src/batching/merge-queries.js
+    // empty keys cannot be removed only because of typescript errors
+    // will hopefully be fixed in future version of graphql-js to be optional
+    variablesVisitorKeys);
+    return {
+        selectionSet: filteredSelectionSet,
+        usedFragments,
+        usedVariables,
+    };
+}
+function union(...arrays) {
+    const cache = Object.create(null);
+    const result = [];
+    for (const array of arrays) {
+        for (const item of array) {
+            if (!(item in cache)) {
+                cache[item] = true;
+                result.push(item);
+            }
+        }
+    }
+    return result;
+}

@@ -1,0 +1,8 @@
+{
+  "extends": ["typestrict"],
+  "rules": {
+    "no-any": false,
+    "max-classes-per-file": false,
+    "no-magic-numbers": false
+  }
+}

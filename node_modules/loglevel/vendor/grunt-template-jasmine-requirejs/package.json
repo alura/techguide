@@ -1,0 +1,52 @@
+{
+  "name": "grunt-template-jasmine-requirejs",
+  "version": "0.2.3",
+  "description": "Requirejs template for grunt-contrib-jasmine",
+  "main": "src/template-jasmine-requirejs.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudchen/grunt-template-jasmine-requirejs"
+  },
+  "keywords": [
+    "grunt",
+    "template",
+    "requirejs",
+    "jasmine",
+    "test"
+  ],
+  "author": "Cloud Chen <cloudcmh@gmail.com>",
+  "contributors": [
+    "Gunnar A. Reinseth <gar@prepost.net>",
+    "Tim Snadden <tim@snadden.com>",
+    "James Pamplin <james@jamespamplin.com>",
+    "Jarrod Overson <joverson@onehealth.com>",
+    "Jarrod Overson <jsoverson@gmail.com>",
+    "Cina S <cinas@spiceworks.com>",
+    "tmartensen <travis.martensen@gmail.com>",
+    "Kevin Chiu <korprulu9@gmail.com>",
+    "Ohgyun Ahn <ohgyun@gmail.com>",
+    "Ross-Hunter <ross-hunter@ross-hunter.com>",
+    "Celso Ulises Juarez Ramirez <celsojuarez@gmail.com>",
+    "Kevin Chiu <kevin@readmoo.com>",
+    "Zach Dennis <zach.dennis@gmail.com>",
+    "reinseth <gar@prepost.net>",
+    "Ben <benjamin.livermore@cengage.com>",
+    "Ben Livermore <benjamin.livermore@cengage.com>",
+    "Ghn <ghugon@gmail.com>",
+    "E.J. Dyksen <ej@dyksen.net>",
+    "Brian Ng <bng@prospricing.com>"
+  ],
+  "license": "BSD",
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-watch": "~0.1.4",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jasmine": "~0.6",
+    "grunt-contrib-connect": "~0.2.0",
+    "grunt-bump": "0.0.13",
+    "grunt-npm": "0.0.2"
+  }
+}

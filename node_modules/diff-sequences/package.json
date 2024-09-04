@@ -1,0 +1,39 @@
+{
+  "name": "diff-sequences",
+  "version": "28.1.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook/jest.git",
+    "directory": "packages/diff-sequences"
+  },
+  "license": "MIT",
+  "description": "Compare items in two sequences to find a longest common subsequence",
+  "keywords": [
+    "fast",
+    "linear",
+    "space",
+    "callback",
+    "diff"
+  ],
+  "engines": {
+    "node": "^12.13.0 || ^14.15.0 || ^16.10.0 || >=17.0.0"
+  },
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./build/index.d.ts",
+      "default": "./build/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "diff": "^5.0.0",
+    "fast-check": "^3.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "eb954f8874960920ac50a8f976bb333fbb06ada9"
+}

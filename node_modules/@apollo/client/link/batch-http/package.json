@@ -1,0 +1,8 @@
+{
+  "name": "@apollo/client/link/batch-http",
+  "type": "module",
+  "main": "batch-http.cjs",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "sideEffects": false
+}

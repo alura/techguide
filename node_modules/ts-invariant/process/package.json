@@ -1,0 +1,12 @@
+{
+  "name": "ts-invariant/process",
+  "type": "module",
+  "main": "./main.cjs",
+  "module": "./index.js",
+  "types": "./index.d.ts",
+  "sideEffects": [
+    "./main.cjs",
+    "./main.cjs.native.js",
+    "./index.js"
+  ]
+}

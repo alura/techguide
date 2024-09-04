@@ -1,0 +1,1 @@
+{"version":3,"file":"Primitive.js","sourceRoot":"","sources":["../../../src/utilities/types/Primitive.ts"],"names":[],"mappings":"","sourcesContent":["// Matches any primitive value: https://developer.mozilla.org/en-US/docs/Glossary/Primitive.\nexport type Primitive =\n  | null\n  | undefined\n  | string\n  | number\n  | boolean\n  | symbol\n  | bigint;\n"]}

@@ -1,0 +1,8 @@
+{
+  "name": "@apollo/client/link/ws",
+  "type": "module",
+  "main": "ws.cjs",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "sideEffects": false
+}

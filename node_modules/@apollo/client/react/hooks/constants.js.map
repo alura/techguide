@@ -1,0 +1,1 @@
+{"version":3,"file":"constants.js","sourceRoot":"","sources":["../../../src/react/hooks/constants.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,IAAM,SAAS,GAAG,MAAM,CAAC,GAAG,CAAC,kBAAkB,CAAC,CAAC","sourcesContent":["export const skipToken = Symbol.for(\"apollo.skipToken\");\nexport type SkipToken = typeof skipToken;\n"]}

@@ -1,0 +1,29 @@
+{
+  "name": "@apollo/utils.dropunuseddefinitions",
+  "version": "1.1.0",
+  "description": "Drop unused definitions from a GraphQL document",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apollographql/apollo-utils.git",
+    "directory": "dropUnusedDefinitions/"
+  },
+  "keywords": [
+    "apollo",
+    "graphql",
+    "typescript",
+    "node"
+  ],
+  "author": "Apollo <packages@apollographql.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "graphql": "14.x || 15.x || 16.x"
+  }
+}

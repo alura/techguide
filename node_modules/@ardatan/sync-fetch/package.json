@@ -1,0 +1,59 @@
+{
+  "name": "@ardatan/sync-fetch",
+  "version": "0.0.1",
+  "description": "Synchronous version of the Fetch API",
+  "main": "index.js",
+  "browser": "browser.js",
+  "files": [
+    "index.js",
+    "worker.js",
+    "shared.js",
+    "browser.js",
+    "bundle.js"
+  ],
+  "scripts": {
+    "lint": "standard",
+    "test": "mocha --throw-deprecation test/spec.js",
+    "build": "browserify -r .:sync-fetch -o bundle.js",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
+    "preversion": "npm run lint && npm run test",
+    "version": "npm run changelog",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larsgw/sync-fetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "sync"
+  ],
+  "author": "Lars Willighagen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larsgw/sync-fetch/issues"
+  },
+  "homepage": "https://github.com/larsgw/sync-fetch#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@ungap/url-search-params": "^0.2.2",
+    "browserify": "^17.0.0",
+    "chai": "^4.2.0",
+    "chai-iterator": "^3.0.2",
+    "chai-string": "^1.5.0",
+    "conventional-changelog-cli": "^2.1.1",
+    "form-data": "^4.0.0",
+    "mocha": "^10.0.0",
+    "parted": "^0.1.1",
+    "resumer": "0.0.0",
+    "standard": "^17.0.0",
+    "string-to-arraybuffer": "^1.0.2",
+    "sync-request": "^6.1.0",
+    "whatwg-url": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ext": "ts tsx json",
+  "execMap": {
+    "ts": "ts-node"
+  },
+  "watch": ["src/**/*", "example/**/*", ".env"],
+  "ignore": [".git", "node_modules/**/node_modules"],
+  "verbose": false,
+  "env": {
+    "NODE_ENV": "development"
+  }
+}

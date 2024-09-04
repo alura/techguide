@@ -1,0 +1,92 @@
+{
+	"name": "meros",
+	"version": "1.3.0",
+	"description": "A fast 642B utility that makes reading multipart responses simple",
+	"keywords": [
+		"defer",
+		"fetch",
+		"graphql",
+		"multipart mixed",
+		"multipart",
+		"reader",
+		"stream",
+		"utility"
+	],
+	"repository": "maraisr/meros",
+	"license": "MIT",
+	"author": "Marais Rossow <me@marais.dev> (https://marais.io)",
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"browser": {
+				"types": "./browser/index.d.ts",
+				"import": "./browser/index.mjs",
+				"require": "./browser/index.js"
+			},
+			"node": {
+				"types": "./node/index.d.ts",
+				"import": "./node/index.mjs",
+				"require": "./node/index.js"
+			},
+			"default": {
+				"types": "./node/index.d.ts",
+				"import": "./node/index.mjs",
+				"require": "./node/index.js"
+			}
+		},
+		"./browser": {
+			"types": "./browser/index.d.ts",
+			"import": "./browser/index.mjs",
+			"require": "./browser/index.js"
+		},
+		"./node": {
+			"types": "./node/index.d.ts",
+			"import": "./node/index.mjs",
+			"require": "./node/index.js"
+		},
+		"./package.json": "./package.json"
+	},
+	"main": "node/index.js",
+	"module": "node/index.mjs",
+	"browser": "browser/index.mjs",
+	"types": "index.d.ts",
+	"files": [
+		"*.d.ts",
+		"browser",
+		"node"
+	],
+	"scripts": {
+		"bench": "tsm -r ./test/_polyfill.ts bench/index.ts",
+		"build": "bundt --minify",
+		"format": "prettier --write --list-different \"{*,{src,examples,test}/**/*,.github/**/*}.{ts,tsx,json,yml,md}\"",
+		"prepublishOnly": "pnpm run build",
+		"test": "uvu test \".spec.ts$\" -r tsm -r test/_polyfill.ts -i suites",
+		"typecheck": "tsc --noEmit"
+	},
+	"prettier": "@marais/prettier",
+	"devDependencies": {
+		"@marais/prettier": "0.0.2",
+		"@marais/tsconfig": "0.0.4",
+		"@n1ru4l/push-pull-async-iterable-iterator": "3.2.0",
+		"@types/node": "20.1.7",
+		"bundt": "2.0.0-next.5",
+		"prettier": "2.8.8",
+		"tsm": "2.3.0",
+		"typescript": "5.0.4",
+		"uvu": "0.5.3"
+	},
+	"peerDependencies": {
+		"@types/node": ">=13"
+	},
+	"peerDependenciesMeta": {
+		"@types/node": {
+			"optional": true
+		}
+	},
+	"engines": {
+		"node": ">=13"
+	},
+	"volta": {
+		"node": "18.0.0"
+	}
+}
