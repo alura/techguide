@@ -4,46 +4,46 @@ tags:
 expertise:
   - name: Empreendedorismo
     cards:
-      - from-idea-to-business-plan
+      - from-idea-to-business-plan:
         priority: 10
-      - starting-business-correctly
+      - starting-business-correctly:
         priority: 10
-      - intellectual-property
+      - intellectual-property:
         priority: 10
-      - drafting-contracts
+      - drafting-contracts:
         priority: 10
   - name: Empreendedorismo Mid
     cards:
-      - project-and-business-feasibility
+      - project-and-business-feasibility:
         priority: 9
-      - business-model-canvas
+      - business-model-canvas:
         priority: 9
-      - successful-freelancer
+      - successful-freelancer:
         priority: 9
   - name: Empreendedorismo in depth
     cards:
-      - entrepreneurship-for-devs
+      - entrepreneurship-for-devs:
         priority: 8
-      - networking
+      - networking:
         priority: 8
-      - international-career
+      - international-career:
         priority: 8
 collaboration:
   - name: Vendas
     cards:
-      - understanding-customer-needs
+      - understanding-customer-needs:
         priority: 10
-      - sales-in-the-digital-age
+      - sales-in-the-digital-age:
         priority: 10
-      - customer-prospecting
+      - customer-prospecting:
         priority: 10
-      - roadmap
+      - roadmap:
         priority: 10
   - name: Gestão de Produto
     cards:
-      - product-management-fundamentals
+      - product-management-fundamentals:
         priority: 9
-      - product-discovery
+      - product-discovery:
         priority: 9
-      - digital-product-management
+      - digital-product-management:
         priority: 9
