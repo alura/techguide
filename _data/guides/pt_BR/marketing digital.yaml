@@ -4,46 +4,46 @@ tags:
 expertise:
   - name: Marketing Digital
     cards:
-      - exploring-digital-marketing-concepts
+      - exploring-digital-marketing-concepts:
         priority: 10
-      - branding
+      - branding:
         priority: 10
-      - digital-marketing-plan
+      - digital-marketing-plan:
         priority: 10
-      - seo
+      - seo:
         priority: 10
   - name: Marketing Digital Mid
     cards:
-      - social-commerce
+      - social-commerce:
         priority: 9
-      - marketplace
+      - marketplace:
         priority: 9
-      - analysis-of-metrics-for-ecommerce
+      - analysis-of-metrics-for-ecommerce:
         priority: 9
   - name: Marketing Digital in depth
     cards:
-      - inbound-marketing
+      - inbound-marketing:
         priority: 8
-      - viral-marketing
+      - viral-marketing:
         priority: 8
-      - email-marketing
+      - email-marketing:
         priority: 8
 collaboration:
   - name: Análise e estratégia de dados 
     cards:
-      - data-driven-ux
+      - data-driven-ux:
         priority: 10
-      - customer-journey
+      - customer-journey:
         priority: 10
-      - customer-success
+      - customer-success:
         priority: 10
-      - roadmap
+      - roadmap:
         priority: 10
   - name: Business Agility
     cards:
-      - agile-management
+      - agile-management:
         priority: 9
-      - lean-agile-beyond-it
+      - lean-agile-beyond-it:
         priority: 9
-      - agile-metrics
+      - agile-metrics:
         priority: 9

@@ -4,44 +4,44 @@ tags:
 expertise:
   - name: Gestão de Produtos
     cards:
-      - product-management-fundamentals
+      - product-management-fundamentals:
         priority: 10
-      - digital-product-management
+      - digital-product-management:
         priority: 10
-      - product-discovery
+      - product-discovery:
         priority: 10
-      - product-manager
+      - product-manager:
         priority: 10
   - name: Gestão de Produtos Mid
     cards:
-      - roadmap
+      - roadmap:
         priority: 9
-      - design-sprint
+      - design-sprint:
         priority: 9
-      - product-prioritization
+      - product-prioritization:
         priority: 9
   - name: Gestão de Produtos in depth
     cards:
-      - management-3-0
+      - management-3-0:
         priority: 8
-      - scrum
+      - scrum:
         priority: 8
-      - agile-culture
+      - agile-culture:
         priority: 8
 collaboration:
   - name: Análise de dados 
     cards:
-      - calculations-patterns-and-strategies
+      - calculations-patterns-and-strategies:
         priority: 10
-      - collecting-and-analyzing-product-data
+      - collecting-and-analyzing-product-data:
         priority: 10
-      - business-model-canvas
+      - business-model-canvas:
         priority: 10
   - name: Liderança
     cards:
-      - leadership-fundamentals
+      - leadership-fundamentals:
         priority: 9
-      - tech-lead
+      - tech-lead:
         priority: 9
-      - roadmap
+      - roadmap:
         priority: 10
