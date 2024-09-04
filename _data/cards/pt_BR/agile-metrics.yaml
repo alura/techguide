@@ -2,21 +2,24 @@ name: Métricas Ágeis
 logo:
 short-description:
 key-objectives:
-  - Essencial compreender a importância das métricas ágeis na avaliação do desempenho das equipes e na identificação de áreas de melhoria contínua, sendo que métricas bem definidas ajudam a garantir que as equipes estejam no caminho certo para alcançar seus objetivos.
-  - Aprender a utilizar diferentes tipos de métricas ágeis, como lead time, cycle time, throughput, e velocity, para obter uma visão abrangente do desempenho e da produtividade das equipes. Cada métrica oferece insights específicos que são essenciais para a gestão eficaz de projetos ágeis.
-  - Desenvolver habilidades para coletar, analisar e interpretar dados de métricas ágeis, transformando esses dados em insights acionáveis que possam orientar decisões estratégicas e operacionais. A análise correta dos dados permite ajustes precisos nos processos e práticas.
-  - Explorar estratégias para implementar e integrar métricas ágeis no dia a dia das equipes, promovendo uma cultura de transparência e melhoria contínua. A integração eficaz de métricas nas rotinas das equipes garante um monitoramento constante e ajustes ágeis conforme necessário.
+  - Identificar e dominar as principais métricas ágeis para garantir o sucesso dos projetos e a melhoria contínua dos processos dentro de um ambiente ágil.
+  - Desenvolver habilidades para interpretar métricas ágeis, facilitando tomadas de decisões estratégicas que aumentem a eficiência e a eficácia das equipes.
+  - Aprimorar a comunicação dos resultados das métricas de forma clara e impactante, assegurando o alinhamento de todos os stakeholders com os objetivos do projeto.
+  - Explorar ferramentas e técnicas para a medição e visualização de métricas ágeis, permitindo adaptações rápidas e contínuas para otimizar os processos de trabalho..
 contents:
   - type: ARTICLE
-    title: "Manifesto for Agile Software Development"
-    link: https://agilemanifesto.org/
-  - type: YOUTUBE
-    title: "Agile Metrics"
-    link: https://www.youtube.com/watch?v=ZDUOdNYAJkM
+    title: "Cinco métricas ágeis de KPI que você não vai odiar"
+    link: https://www.atlassian.com/br/agile/project-management/metrics
+  - type: BOOK
+    title: "Métricas Ágeis"
+    link: https://www.casadocodigo.com.br/products/livro-metricas-ageis
+  - type: ARTICLE
+    title: "5 métricas ágeis para acompanhar e melhorar as entregas do time"
+    link: https://www.mjvinnovation.com/pt-br/blog/metricas-ageis/
 alura-contents:
+  - type: ARTICLE
+    title: "Pensando em métricas para times ágeis"
+    link: https://www.alura.com.br/empresas/artigos/pensando-em-metricas-para-times-ageis?srsltid=AfmBOopFSnoBOATmzmkAuHr6z6I1OhkzPMJHZMJ8e2DqeoL-WjXXxC7J
   - type: COURSE
     title: "Métricas Ágeis: como medir resultados em um Ambiente Ágil"
     link: https://cursos.alura.com.br/course/metricas-ageis-medir-resultados-ambiente-agil
-  - type: LIVRO
-    title: "Métricas Ágeis"
-    link: https://www.casadocodigo.com.br/products/livro-metricas-ageis

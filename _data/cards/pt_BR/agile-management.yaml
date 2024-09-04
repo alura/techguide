@@ -2,21 +2,30 @@ name: Gestão Ágil
 logo:
 short-description:
 key-objectives:
-  - Compreender os princípios da Gestão Ágil e sua aplicação para melhorar a adaptabilidade e inovação.
-  - Implementar metodologias ágeis, como Scrum e Kanban, em projetos e processos empresariais.
-  - Fomentar a colaboração e auto-organização das equipes para decisões rápidas e eficazes.
-  - Utilizar ferramentas e métricas ágeis para monitorar e melhorar o desempenho dos projetos.
+  - Compreender a diferença entre gestão tradicional e gestão ágil, explorando como a flexibilidade e adaptação rápida da gestão ágil contrastam com a rigidez e hierarquia dos métodos tradicionais.
+  - Implementar práticas contínuas de melhoria e feedback em processos ágeis, integrando essas abordagens para otimizar o desempenho da equipe e garantir adaptação rápida e inovação constante.
+  - Explorar conceitos e impacto na liderança ágil, entendendo como navegar em ambientes desafiadores por meio de estratégias adaptativas e flexíveis.
+  - Desenvolver habilidades essenciais de liderança e motivação para ambientes ágeis, aprimorando a comunicação, delegação e empoderamento para fomentar um ambiente de trabalho colaborativo e inovador.
 contents:
-  - type: ARTIGO
-    title: "Gestão ágil: o que é, como funciona e formas de implementar"
-    link: https://blog.aevo.com.br/gestao-agil/#:~:text=Conclus%C3%A3o-,O%20que%20%C3%A9%20gest%C3%A3o%20%C3%A1gil%3F,a%20busca%20por%20feedback%20constante.
-  - type: YOUTUBE
-    title: "Metodologias Ágeis - O RH Ágil"
-    link: https://www.youtube.com/watch?v=ssz7lVCmIIs
+  - type: ARTICLE
+    title: "Agile"
+    link: https://www.cursospm3.com.br/glossario/agile/?gad_source=1&gclid=Cj0KCQjw28W2BhC7ARIsAPerrcLA7NcAspUBn9O0Oq0gaFEu0sA9UOzU4a6pv0r3Ew8md9rJz_BOXu8aAloeEALw_wcB
+  - type: ARTICLE
+    title: "Gestão ágil de projetos: o que é e como começar?"
+    link: https://www.atlassian.com/br/agile/project-management
 alura-contents:
   - type: COURSE
-    title: "Gestão Ágil: Gestão de Processos para Agilidade"
-    link: https://cursos.alura.com.br/course/gestao-agil-gestao-processos-agilidade
+    title: "Gestão Ágil: explorando conceitos da agilidade"
+    link: https://cursos.alura.com.br/course/gestao-agil-conceitos-agilidade
+  - type: ARTICLE
+    title: "Metodologia Ágil - O que é?"
+    link: https://www.alura.com.br/artigos/o-que-e-metodologia-agil
   - type: COURSE
-    title: "Team Building: técnicas e práticas para times ágeis"
-    link: https://cursos.alura.com.br/course/team-building-tecnicas-praticas-times-ageis
+    title: "A Empresa Ágil: implemente o Business Agility nas organizações"
+    link: https://cursos.alura.com.br/course/empresa-agil
+  - type: COURSE
+    title: "Gestão Ágil: liderando a mudança em um ambiente de agilidade"
+    link: https://cursos.alura.com.br/course/gestao-agil
+  - type: PODCAST
+    title: "Gestão com Management 3.0"
+    link: https://cursos.alura.com.br/extra/hipsterstech/gestao-com-management-3-0-hipsters-80-a506

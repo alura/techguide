@@ -1,0 +1,22 @@
+name: OBS Studio
+logo:
+short-description:
+key-objectives:
+  -   Aprender a configurar e personalizar a interface do OBS Studio para realizar transmissões ao vivo de alta qualidade, otimizando cada etapa do processo de streaming.
+  -   Desenvolver habilidades para organizar setups de cena e transições dinâmicas, garantindo uma apresentação fluida e profissional durante as transmissões ao vivo.
+  -   Explorar e implementar recursos de engajamento do OBS Studio, como integração de chat, widgets interativos e bots de moderação, para aumentar a interação e a conexão com o público durante o streaming.
+  -   Compreender as melhores práticas para o uso de ferramentas adicionais, como Chroma Key e gravação em paralelo, para melhorar a qualidade visual e a flexibilidade das transmissões ao vivo.
+contents:
+  - type: ARTICLE
+    title: "OBS Studio"
+    link: https://obsproject.com/pt-br
+  - type: ARTICLE
+    title: "Download do OBS Studio para transmitir jogos ao vivo do Steam, GOG e mais"
+    link: https://www.techtudo.com.br/tudo-sobre/open-broadcaster-software/
+alura-contents:
+  - type: COURSE
+    title: "OBS Studio: configurando seu stream"
+    link: https://cursos.alura.com.br/course/obs-studio-configurando-primeiro-stream
+  - type: ARTICLE
+    title: "Corte de chroma key ao vivo com OBS"
+    link: https://cursos.alura.com.br/extra/alura-mais/corte-de-chroma-key-ao-vivo-com-obs-c1337
