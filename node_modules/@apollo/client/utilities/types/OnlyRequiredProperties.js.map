@@ -1,1 +1,0 @@
-{"version":3,"file":"OnlyRequiredProperties.js","sourceRoot":"","sources":["../../../src/utilities/types/OnlyRequiredProperties.ts"],"names":[],"mappings":"","sourcesContent":["/**\n * Returns a new type that only contains the required properties from `T`\n */\nexport type OnlyRequiredProperties<T> = {\n  [K in keyof T as {} extends Pick<T, K> ? never : K]: T[K];\n};\n"]}

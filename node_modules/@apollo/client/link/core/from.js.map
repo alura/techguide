@@ -1,1 +1,0 @@
-{"version":3,"file":"from.js","sourceRoot":"","sources":["../../../src/link/core/from.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,iBAAiB,CAAC;AAE7C,MAAM,CAAC,IAAM,IAAI,GAAG,UAAU,CAAC,IAAI,CAAC","sourcesContent":["import { ApolloLink } from \"./ApolloLink.js\";\n\nexport const from = ApolloLink.from;\n"]}

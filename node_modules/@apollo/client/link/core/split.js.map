@@ -1,1 +1,0 @@
-{"version":3,"file":"split.js","sourceRoot":"","sources":["../../../src/link/core/split.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,iBAAiB,CAAC;AAE7C,MAAM,CAAC,IAAM,KAAK,GAAG,UAAU,CAAC,KAAK,CAAC","sourcesContent":["import { ApolloLink } from \"./ApolloLink.js\";\n\nexport const split = ApolloLink.split;\n"]}

@@ -1,9 +1,0 @@
-// @flow
-
-declare export class EmptyList {
-  opaque: any;
-}
-declare export class Cons<T> {
-  opaque: T;
-}
-export type list<T> = Cons<T> | EmptyList;

@@ -1,1 +1,0 @@
-{"version":3,"file":"execute.js","sourceRoot":"","sources":["../../../src/link/core/execute.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,iBAAiB,CAAC;AAE7C,MAAM,CAAC,IAAM,OAAO,GAAG,UAAU,CAAC,OAAO,CAAC","sourcesContent":["import { ApolloLink } from \"./ApolloLink.js\";\n\nexport const execute = ApolloLink.execute;\n"]}
