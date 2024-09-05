@@ -3,6 +3,7 @@ logo:
 short-description:
 key-objectives:
   - Scrum é uma metodologia ágil focada em entregas incrementais e iterativas, promovendo a colaboração entre equipes para desenvolver projetos complexos de forma eficiente.
+  - Inclui Product Owner, Scrum Master e equipe de desenvolvimento.
   - Períodos curtos de trabalho com metas definidas, geralmente de 2-4 semanas.
   - Lista priorizada de itens e requisitos do projeto.
   - Reunião para planejar o trabalho da sprint.
@@ -11,13 +12,14 @@ key-objectives:
   - Reunião para refletir e melhorar processos após cada sprint.
   - Produto funcional e utilizável entregue ao final de cada sprint.
   - Critérios claros que definem quando uma tarefa está completa.
+aditional-objectives:
 contents:
+  - type: ARTICLE
+    title: "Scrum: Gestão ágil para produtos de sucesso"
+    link: https://www.casadocodigo.com.br/products/livro-scrum
   - type: ARTICLE
     title: "Scrum: o que é, como funciona e como aplicar"
     link: https://www.cursospm3.com.br/blog/scrum-o-que-e-como-funciona-e-como-aplicar/
-  - type: LIVRO
-    title: "Scrum Gestão ágil para produtos de sucesso"
-    link: https://www.casadocodigo.com.br/products/livro-scrum
   - type: ARTICLE
     title: "O que é scrum e como começar"
     link: https://www.atlassian.com/br/agile/scrum
@@ -26,17 +28,17 @@ contents:
     link: https://www.treasy.com.br/blog/scrum/
 alura-contents:
   - type: COURSE
-    title: "Cultura e Métodos Ágeis: pilares para uma imersão avançada"
-    link: https://cursos.alura.com.br/course/cultura-metodos-ageis-pilares-imersao-avancada
-  - type: COURSE
     title: "Scrum: agilidade em seu projeto"
     link: https://www.alura.com.br/curso-online-scrum-agilidade-seu-projeto
-  - type: PODCAST
-    title: "Scrum: do zero ao Sprint"
-    link: https://cursos.alura.com.br/extra/hipsterstech/scrum-do-zero-ao-sprint-hipsters-54-a532
-  - type: PODCAST
-    title: "Scrum e Agile para além de Tecnologia"
-    link: https://www.alura.com.br/podcast/hipsterstech-scrum-e-agile-para-alem-de-tecnologia-hipsters-115-a467
   - type: ARTICLE
     title: "Como aplicar cerimônias remotas de Scrum"
     link: https://www.alura.com.br/empresas/artigos/cerimonias-remotas-com-scrum
+  - type: PODCAST
+    title: "Scrum e Agile para além de Tecnologia - Hipster #115"
+    link: https://www.alura.com.br/podcast/hipsterstech-scrum-e-agile-para-alem-de-tecnologia-hipsters-115-a467
+  - type: PODCAST
+    title: "Scrum: do zero ao Sprint - Hipsters #54"
+    link: https://cursos.alura.com.br/extra/hipsterstech/scrum-do-zero-ao-sprint-hipsters-54-a532
+  - type: COURSE
+    title: "Cultura e Métodos Ágeis: pilares para uma imersão avançada"
+    link: https://cursos.alura.com.br/course/cultura-metodos-ageis-pilares-imersao-avancada
