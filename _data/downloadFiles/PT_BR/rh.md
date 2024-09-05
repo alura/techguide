@@ -36,10 +36,10 @@
    - Aplicar práticas e soluções inovadoras de aprendizagem, como o modelo 70:20:10, Andragogia, Gamificação, entre outras, para criar programas educacionais que atendam às necessidades da empresa e dos colaboradores.
 ## Nivel 3
 - [ ] **Gestão Ágil**:
-   - Compreender a diferença entre gestão tradicional e gestão ágil, explorando como a flexibilidade e adaptação rápida da gestão ágil contrastam com a rigidez e hierarquia dos métodos tradicionais.
-   - Implementar práticas contínuas de melhoria e feedback em processos ágeis, integrando essas abordagens para otimizar o desempenho da equipe e garantir adaptação rápida e inovação constante.
-   - Explorar conceitos e impacto na liderança ágil, entendendo como navegar em ambientes desafiadores por meio de estratégias adaptativas e flexíveis.
-   - Desenvolver habilidades essenciais de liderança e motivação para ambientes ágeis, aprimorando a comunicação, delegação e empoderamento para fomentar um ambiente de trabalho colaborativo e inovador.
+   - Compreender os princípios da Gestão Ágil e sua aplicação para melhorar a adaptabilidade e inovação.
+   - Implementar metodologias ágeis, como Scrum e Kanban, em projetos e processos empresariais.
+   - Fomentar a colaboração e auto-organização das equipes para decisões rápidas e eficazes.
+   - Utilizar ferramentas e métricas ágeis para monitorar e melhorar o desempenho dos projetos.
 - [ ] **Benchmarking em RH**:
    - Compreender os fundamentos do benchmarking em RH e sua importância para a melhoria contínua dos processos e práticas de gestão de pessoas.
    - Aprender a identificar e analisar métricas e indicadores de desempenho em RH, comparando-os com os padrões do setor para identificar oportunidades de melhoria.
@@ -57,10 +57,10 @@
    - Desenvolver habilidades para treinar e mentorar equipes, capacitando-as a serem autônomas, colaborativas e adaptáveis às mudanças. O Agile Coach atua como mentor, fornecendo suporte e orientação para que as equipes possam prosperar em um ambiente ágil.
    - Explorar estratégias para medir e avaliar o impacto das práticas ágeis, utilizando métricas e feedback contínuo para ajustar e aprimorar os processos. Medir o desempenho é crucial para garantir que as práticas ágeis estejam alinhadas com os objetivos organizacionais e promovam a melhoria contínua.
 - [ ] **Métricas Ágeis**:
-   - Identificar e dominar as principais métricas ágeis para garantir o sucesso dos projetos e a melhoria contínua dos processos dentro de um ambiente ágil.
-   - Desenvolver habilidades para interpretar métricas ágeis, facilitando tomadas de decisões estratégicas que aumentem a eficiência e a eficácia das equipes.
-   - Aprimorar a comunicação dos resultados das métricas de forma clara e impactante, assegurando o alinhamento de todos os stakeholders com os objetivos do projeto.
-   - Explorar ferramentas e técnicas para a medição e visualização de métricas ágeis, permitindo adaptações rápidas e contínuas para otimizar os processos de trabalho..
+   - Essencial compreender a importância das métricas ágeis na avaliação do desempenho das equipes e na identificação de áreas de melhoria contínua, sendo que métricas bem definidas ajudam a garantir que as equipes estejam no caminho certo para alcançar seus objetivos.
+   - Aprender a utilizar diferentes tipos de métricas ágeis, como lead time, cycle time, throughput, e velocity, para obter uma visão abrangente do desempenho e da produtividade das equipes. Cada métrica oferece insights específicos que são essenciais para a gestão eficaz de projetos ágeis.
+   - Desenvolver habilidades para coletar, analisar e interpretar dados de métricas ágeis, transformando esses dados em insights acionáveis que possam orientar decisões estratégicas e operacionais. A análise correta dos dados permite ajustes precisos nos processos e práticas.
+   - Explorar estratégias para implementar e integrar métricas ágeis no dia a dia das equipes, promovendo uma cultura de transparência e melhoria contínua. A integração eficaz de métricas nas rotinas das equipes garante um monitoramento constante e ajustes ágeis conforme necessário.
 - [ ] **Kanban e fluxo de trabalho**:
    - Compreender os fundamentos do Kanban e como ele pode ser aplicado aos processos de RH para melhorar a eficiência e visibilidade das tarefas. O Kanban facilita a gestão de fluxos de trabalho complexos, garantindo que todas as atividades sejam acompanhadas e concluídas de maneira eficaz.
    - Aprender a configurar e utilizar quadros Kanban para visualizar e gerenciar os processos de RH, como recrutamento, integração, treinamento e desenvolvimento. A visualização clara das tarefas ajuda a equipe de RH a priorizar e gerenciar melhor suas atividades diárias.
@@ -92,7 +92,7 @@
    - Estudar os concorrentes para identificar lacunas e diferenciais.
    - Testar hipóteses para validar a viabilidade do produto.
    - Mapear as jornadas dos usuários para identificar pontos de dor.
-- [ ] **Gestão de Projetos**:
+- [ ] **Digital product management**:
    - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
    - Colocar as necessidades dos usuários no centro do processo de desenvolvimento.
    - Definir uma visão clara e estratégia para o produto digital.

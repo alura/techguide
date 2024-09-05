@@ -12,6 +12,7 @@
    - Entrega de valor contínuo e mensurável ao cliente.
 - [ ] **Scrum**:
    - Scrum é uma metodologia ágil focada em entregas incrementais e iterativas, promovendo a colaboração entre equipes para desenvolver projetos complexos de forma eficiente.
+   - Inclui Product Owner, Scrum Master e equipe de desenvolvimento.
    - Períodos curtos de trabalho com metas definidas, geralmente de 2-4 semanas.
    - Lista priorizada de itens e requisitos do projeto.
    - Reunião para planejar o trabalho da sprint.
@@ -67,10 +68,14 @@
    - Sucesso e falhas compartilhados pela equipe.
    - Revisão e ajuste constante de práticas e processos.
 - [ ] **Design Thinking**:
-   - Aprender a gerenciar iniciativas de inovação aplicando a metodologia de Design Thinking, utilizando uma abordagem centrada no usuário para resolver problemas complexos.
-   - Desenvolver a inovação na sua empresa, utilizando exemplos de modelos e casos de sucesso nacionais e internacionais, para criar soluções impactantes e sustentáveis.
-   - Conhecer e aplicar ferramentas específicas para cada etapa do processo de Design Thinking, desde a imersão até a prototipagem e avaliação.
-   - Criar um ambiente colaborativo que incentive a experimentação e os aprendizados rápidos, respondendo de maneira ágil e eficaz às necessidades dos clientes e às mudanças do mercado.
+   - Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.
+   - Entenda profundamente as necessidades dos usuários.
+   - Clarifique o problema baseado nos insights coletados.
+   - Gere uma ampla gama de ideias inovadoras.
+   - Crie modelos simples para explorar soluções.
+   - Refine as soluções com base no feedback dos testes.
+   - Envolva diversas perspectivas na solução de problemas.
+   - Use métodos visuais para comunicar ideias e processos.
 ## Nivel 3
 - [ ] **Métricas**:
    - Métricas ágeis são indicadores utilizados para medir e monitorar a eficiência, qualidade e progresso de equipes ágeis, ajudando a orientar decisões e melhorar processos.
@@ -103,7 +108,7 @@
    - Supervisão constante das operações e processos.
    - Revisão periódica e atualização das políticas de compliance.
 ## Habilidade Auxiliar: Liderança de equipe 
-- [ ] **Fundamentos de Liderança**:
+- [ ] **Fundamentos da Liderança**:
    - Fundamentos da liderança são princípios e práticas essenciais que guiam os líderes na motivação, orientação e gestão de equipes para alcançar objetivos organizacionais eficazmente.
    - Definir e comunicar uma visão clara e inspiradora.
    - Praticar a comunicação clara e eficaz com a equipe.
@@ -124,6 +129,7 @@
    - Dê e receba feedback de maneira construtiva e útil.
 - [ ] **Management 3.0**:
    - Management 3.0 é uma abordagem de gestão que enfatiza a colaboração, autonomia e melhoria contínua para liderar equipes em ambientes complexos e dinâmicos.
+   - Compartilhe informações e decisões abertamente.
    - Permita que os membros da equipe tomem decisões e assumam responsabilidades.
    - Promova uma cultura de feedback aberto e construtivo.
    - Incentive experimentação e aprendizado constante.
@@ -164,7 +170,7 @@
    - Estudar os concorrentes para identificar lacunas e diferenciais.
    - Testar hipóteses para validar a viabilidade do produto.
    - Mapear as jornadas dos usuários para identificar pontos de dor.
-- [ ] **Gestão de Projetos**:
+- [ ] **Digital product management**:
    - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
    - Colocar as necessidades dos usuários no centro do processo de desenvolvimento.
    - Definir uma visão clara e estratégia para o produto digital.
