@@ -1,0 +1,49 @@
+name: Empreendedorismo
+tags:
+  - Empreendedorismo
+expertise:
+  - name: Empreendedorismo
+    cards:
+      - from-idea-to-business-plan:
+        priority: 10
+      - starting-business-correctly:
+        priority: 10
+      - intellectual-property:
+        priority: 10
+      - drafting-contracts:
+        priority: 10
+  - name: Empreendedorismo Mid
+    cards:
+      - project-and-business-feasibility:
+        priority: 9
+      - business-model-canvas:
+        priority: 9
+      - successful-freelancer:
+        priority: 9
+  - name: Empreendedorismo in depth
+    cards:
+      - entrepreneurship-for-devs:
+        priority: 8
+      - networking:
+        priority: 8
+      - international-career:
+        priority: 8
+collaboration:
+  - name: Vendas
+    cards:
+      - understanding-customer-needs:
+        priority: 10
+      - sales-in-the-digital-age:
+        priority: 10
+      - customer-prospecting:
+        priority: 10
+      - roadmap:
+        priority: 10
+  - name: Gestão de Produto
+    cards:
+      - product-management-fundamentals:
+        priority: 9
+      - product-discovery:
+        priority: 9
+      - digital-product-management:
+        priority: 9
