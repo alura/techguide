@@ -1,0 +1,63 @@
+name: Analise de dados avançada
+logo: 
+short-description:
+key-objectives:
+  - A analise de dados avançada é uma habilidade essencial para profissionais de ciência de dados e engenharia de analutics, permitindo a identificação de padrões, tendências e insights valiosos a partir de grandes volumes de dados. Compreender técnicas avançadas de análise de dados, como machine learning, estatística avançada e análise preditiva, é fundamental para a tomada de decisões baseadas em dados e a criação de modelos de previsão precisos.
+  - Combinar técnicas de estatística, machine learning e análise de séries temporais para identificar padrões e tendências em dados históricos, prever comportamentos futuros e detectar anomalias em séries temporais.
+aditional-objectives:
+contents:
+  - type: YOUTUBE
+    title: "ChatGPT com Code Interpreter: Análise de Dados Avançada"
+    link: https://www.youtube.com/watch?v=u-JoDQ58Dv0
+  - type: SITE
+    title: "ICD-UFMG: Testes de Hipóteses - Entendendo valores-p"
+    link: https://icd-ufmg.github.io/11-hipoteses/
+  - type: SITE
+    title: "ICD-UFMG: Testes AB  - Como comparar dois grupos"
+    link: https://icd-ufmg.github.io/10-ab/
+  - type: ARTICLE
+    title: "Testes de normalidade"
+    link: https://medium.com/dados-e-saude/testes-de-normalidade-9dc9068bcf80
+  - type: YOUTUBE
+    title: "Prof. Dr. Petronio Silva: Ciência de Dados - Métricas e Testes"
+    link: https://www.youtube.com/watch?v=gRfS2ns-r0Q
+  - type: ARTICLE
+    title: "O Guia Completo para Previsão de Séries Temporais (inglês)"
+    link: https://towardsdatascience.com/the-complete-guide-to-time-series-forecasting-using-sklearn-pandas-and-numpy-7694c90e45c1
+  - type: SITE
+    title: "Google Livros - Introdução à previsão de séries temporais com Python (inglês)"
+    link: https://books.google.com.br/books?id=-AiqDwAAQBAJ&printsec=frontcover&hl=pt-BR&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+  - type: ARTICLE
+    title: "Google Livros - Aprendizagem profunda para previsão de séries temporais (inglês)"
+    link: https://books.google.com.br/books?hl=pt-BR&lr=&id=o5qnDwAAQBAJ&oi=fnd&pg=PP1#v=onepage&q&f=false
+  - type: YOUTUBE
+    title: "Alexandre Cunha Costa: Análise de Séries Temporais - Previsão (playslist)"
+    link: https://www.youtube.com/watch?v=BY67cTSBYO0&list=PLSDVadsSlXTD2R5JXcAkk9v-X6qKWH3cs&ab_channel=AlexandreCunhaCosta
+  - type: YOUTUBE
+    title: "Leandro: Previsão de Série Temporal com Pycaret (Machine Learning)"
+    link: https://www.youtube.com/watch?v=0xrsgR4OB60&ab_channel=Leandro
+  - type: YOUTUBE
+    title: "economiaetv: Séries Temporais (playlist)"
+    link: https://www.youtube.com/playlist?list=PLW1zGvUGqyiEw1O3HAcjezB9esyI8R8xe
+  - type: SITE
+    title: "Detecção de anomalias em séries temporais (inglês)"
+    link: https://neptune.ai/blog/anomaly-detection-in-time-series
+alura-contents:
+  - type: COURSE
+    title: "Data Science: testando relações com Regressão Linear"
+    link: https://cursos.alura.com.br/course/data-science-testando-relacoes-regressao-linear
+  - type: COURSE
+    title: "Data Science: testando hipóteses"
+    link: https://cursos.alura.com.br/course/data-science-testando-hipoteses
+  - type: ARTICLE
+    title: "Séries temporais e suas aplicações"
+    link: https://www.alura.com.br/artigos/series-temporais-e-suas-aplicacoes
+  - type: COURSE
+    title: "Curso Data Science: análise de series temporais"
+    link: https://www.alura.com.br/curso-online-data-science-series-temporais
+  - type: COURSE
+    title: "Curso Data Science: analisando e prevendo séries temporais"
+    link: https://cursos.alura.com.br/course/data-science-analisando-prevendo-series-temporais
+  - type: BOOK
+    title: "Séries temporais com Prophet"
+    link: https://www.casadocodigo.com.br/products/livro-series-temporais-prophet

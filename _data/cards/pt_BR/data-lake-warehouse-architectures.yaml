@@ -1,0 +1,72 @@
+name: Arquituras de dados: Data Lake e Data Warehouse
+logo: 
+short-description:
+key-objectives:
+  - As arquiteturas de dados, como Data Lakes e Data Warehouses, são fundamentais para a engenharia de dados, permitindo a coleta, armazenamento, processamento e análise de grandes volumes de dados de diversas fontes. Data Lakes são projetados para armazenar dados brutos em seu formato original, enquanto Data Warehouses são otimizados para análises de negócios. Compreender as diferenças e os casos de uso de cada arquitetura é essencial para projetar e implementar soluções de dados eficazes.
+  - Na engenharia de analytics e ciência de dados, a escolha da arquitetura de dados correta é crucial para garantir a qualidade, a confiabilidade e a acessibilidade dos dados. Data Lakes são ideais para armazenar grandes volumes de dados brutos e semiestruturados, permitindo flexibilidade na análise e processamento dos dados. Já os Data Warehouses são otimizados para consultas analíticas complexas e relatórios de negócios, garantindo a consistência e a qualidade dos dados para tomada de decisões.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "AWS: O que é um data lake?"
+    link: https://aws.amazon.com/pt/big-data/datalakes-and-analytics/what-is-a-data-lake/
+  - type: YOUTUBE
+    title: "Código Fonte TV: Data Warehouse / Data Lake / Data Lakehouse"
+    link: https://www.youtube.com/watch?v=V07Pk4de-5M
+  - type: ARTICLE
+    title: "Data Lake: O componente essencial em uma Estratégia de Dados"
+    link: https://www.linkedin.com/pulse/data-lake-o-componente-essencial-em-uma-estrat%C3%A9gia-de-brito-ruiz/?originalSubdomain=pt
+  - type: ARTICLE
+    title: "Conceito de Datalake e armazenamentos possíveis"
+    link: https://medium.com/rescuepoint/conceito-de-datalake-e-armazenamentos-poss%C3%ADveis-65f337924fc8
+  - type: ARTICLE
+    title: "Data Lake x Data Warehouse: Onde armazenar seus dados?"
+    link: https://medium.com/datalakers-blog/data-lake-x-data-warehouse-onde-armazenar-seus-dados-67534c9dcfad
+  - type: YOUTUBE
+    title: "Seu primeiro passo no mundo analítico - Criando o primeiro datalake na AWS"
+    link: https://www.youtube.com/watch?v=sVFT-XK6rk4
+  - type: COURSE
+    title: "AWS Data Lake: construindo pipelines na AWS"
+    link: https://cursos.alura.com.br/formacao-aws-data-lake-construindo-pipelines-aws
+  - type: COURSE
+    title: "Azure Data Lake: criando um pipeline de ingestão de dados"
+    link: https://cursos.alura.com.br/course/azure-data-lake-pipeline-ingestao-dados
+alura-contents:
+  - type: COURSE
+    title: "Formação BigQuery"
+    link: https://cursos.alura.com.br/formacao-bigquery 
+  - type: COURSE
+    title: "Formação BI e Data Warehouse com SQL Server e Power BI"
+    link: https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse
+  - type: COURSE
+    title: "Data Warehouse com Data Marts e Power BI"
+    link: https://cursos.alura.com.br/formacao-data-warehouse-data-marts-power-bi
+  - type: COURSE
+    title: “Data Warehouse com Data Lake e SQL Server"
+    link: https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-data-lake-sql-server
+  - type: YOUTUBE
+    title: "Alura: O que são Data Lakes?"
+    link: https://www.youtube.com/watch?v=GkhuRcHsVMk
+  - type: ARTICLE
+    title: "Data Lake vs Data Warehouse"
+    link: https://www.alura.com.br/artigos/data-lake-vs-data-warehouse
+  - type: PODCAST
+    title: "Hipsters.tech: Data Lakes"
+    link: https://www.hipsters.tech/data-lakes-hipsters-ponto-tech-269/
+  - type: COURSE
+    title: "Formação Engenharia de dados com Databricks"
+    link: https://cursos.alura.com.br/formacao-databricks
+  - type: SITE
+    title: "Hotmart e a Democratização de dados em um cenário de microsserviços"
+    link: https://cursos.alura.com.br/extra/cases/hotmart-e-a-democratizacao-de-dados-em-um-cenario-de-microsservicos-z1066
+  - type: SITE
+    title: "Banco Pan e a Jornada de construção de um Data Lake"
+    link: https://cursos.alura.com.br/extra/cases/banco-pan-e-a-jornada-de-construcao-de-um-data-lake-z1284
+  - type: COURSE
+    title: “Data Warehouse com Data Lake e SQL Server"
+    link: https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-data-lake-sql-server
+  - type: PODCAST
+    title: "Datamesh com a ThoughtWorks"
+    link: https://cursos.alura.com.br/extra/hipsterstech/datamesh-com-a-thoughtworks-hipsters-ponto-tech-292-a1418  
+  - type: COURSE
+    title: "Formação Data Mesh"
+    link: https://cursos.alura.com.br/formacao-data-mesh
