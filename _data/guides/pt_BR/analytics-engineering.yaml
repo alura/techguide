@@ -1,0 +1,77 @@
+name: Analytics Engineering
+tags: 
+  - data
+expertise:
+  - name: Analytics Engineer Jr
+    cards:
+      - data-visualization-bi:
+        priority: 10
+      - business-intelligence-fundamentals:
+        priority: 10
+      - python-fundamentals:
+        priority: 9
+      - sql-fundamentals:
+        priority: 9
+      - data-engineering-fundamentals:
+        priority: 9
+      - statistics-and-math-fundamentals:
+        priority: 9
+      - data-modeling:
+        priority: 8
+      - cloud-service-providers:
+        priority: 8
+      - databases-fundamentals:
+        priority: 8
+  - name: Analytics Engineer Mid
+    cards:
+      - advanced-data-analytics:
+        priority: 10
+      - python-for-data-science:
+        priority: 10
+      - sql-advanced:
+        priority: 9
+      - data-pipeline-orchestration:
+        priority: 9
+      - cloud-fundamentals:
+        priority: 8
+      - big-data-fundamentals:
+        priority: 8
+  - name: Analytics Engineer in depth
+    cards:
+      - data-pipelines-deploy:
+        priority: 10
+      - log-management:
+        priority: 9
+      - data-protection:
+        priority: 9
+      - data-governance:
+        priority: 9 
+      - data-lake-warehouse-architectures:
+        priority: 8
+      - storytelling-with-data:
+        priority: 10
+collaboration:
+  - name: Comunicação, Negócios e Colaboração
+    cards:
+      - business-analysis:
+        priority: 10
+      - communication-skills:
+        priority: 9
+      - technical-english:
+        priority: 8
+  - name: Análise e Sistemas
+    cards:
+      - excel:
+        priority: 10
+      - api_building:
+        priority: 10
+      - ci-cd:
+        priority: 9
+      - devops-and-cloud-concepts:
+        priority: 9
+      - linux-fundamentals:
+        priority: 8
+      - git-and-github-fundamentals:
+        priority: 8
+      - streaming:
+        priority: 8   
