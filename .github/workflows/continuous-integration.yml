@@ -22,7 +22,7 @@ jobs:
     - name: "Start: Deploy Static"
       run: |
         yarn install && yarn build:static
-        npx vercel ./out --confirm
+        npx vercel ./out --yes
   lint:
     runs-on: ubuntu-latest
     steps:
