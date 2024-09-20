@@ -33,17 +33,17 @@ collaboration:
     cards:
       - data-driven-ux:
         priority: 10
-      # - customer-journey:
-      #   priority: 10
-      # - customer-success:
-      #   priority: 10
-      # - roadmap:
-      #   priority: 10
+      - customer-journey:
+        priority: 10
+      - customer-success:
+        priority: 10
+      - roadmap:
+        priority: 10
   - name: Business Agility
     cards:
       - agile-management:
         priority: 9
-      # - lean-agile-beyond-it:
-      #   priority: 9
-      # - agile-metrics:
-      #   priority: 9
+      - lean-agile-beyond-it:
+        priority: 9
+      - agile-metrics:
+        priority: 9
