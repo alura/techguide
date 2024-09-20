@@ -23,6 +23,7 @@ jobs:
       run: |
         yarn install && yarn build:static
         npx vercel ./out --yes
+        echo "deployed with success!"
   lint:
     runs-on: ubuntu-latest
     steps:
