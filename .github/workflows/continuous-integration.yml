@@ -15,9 +15,8 @@ jobs:
         node-version: 'v20.14.0'
     - name: "Start: Lint"
       run: |
-        yarn install
-        yarn build
-        
+        yarn install && yarn build:static
+        ls -la out
   lint:
     runs-on: ubuntu-latest
     steps:
@@ -39,5 +38,4 @@ jobs:
         node-version: 'v20.14.0'
     - name: "Start: Unit Testing"
       run: |
-        yarn install && yarn build:static
-        ls -la out
+        yarn install && yarn test
