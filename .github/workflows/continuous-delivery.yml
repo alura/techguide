@@ -5,7 +5,9 @@ on:
     branches: [ main ]
 
 env:
-  DEPLOY_MAIN_WEBHOOK: ${{ secrets.DEPLOY_MAIN_WEBHOOK }}
+  VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
 
 jobs:
   deploy:
@@ -14,6 +16,14 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
     - uses: actions/setup-node@v3
-    - name: "Deploy"
+      with:
+        node-version: 'v20.14.0'
+    - name: "Start: Deploy Static"
       run: |
-        curl $DEPLOY_MAIN_WEBHOOK
+        echo "===="
+        echo $VERCEL_PROJECT_ID
+        echo $VERCEL_TOKEN
+        echo "===="
+        yarn install && yarn build:static
+        npx vercel ./out --yes --token=$VERCEL_TOKEN --prod
+        echo "deployed with success!"
