@@ -33,6 +33,8 @@ export function guidesRepository() {
       const guides = await Promise.all<Guide>(
         guideFileNames.map(async (fileName) => {
           const slug = slugify(fileName.replace(".yaml", ""));
+          // eslint-disable-next-line no-console
+          console.log("[guide]", fileName);
 
           const guideCache = await storage.get(`guide-${locale}-${slug}`);
           if (guideCache) return guideCache;
