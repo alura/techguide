@@ -28,6 +28,8 @@ export function cardsRepository() {
 
       const cardsPromise = cardFileNames.map(async (fileName) => {
         const slug = slugify(fileName.split(".")[0]);
+        // eslint-disable-next-line no-console
+        // console.log("--", fileName);
 
         const cardCache = await storage.get(`card-${locale}-${slug}`);
         if (cardCache) return cardCache;
