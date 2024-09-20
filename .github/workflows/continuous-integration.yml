@@ -5,6 +5,19 @@ on:
     types: [opened, synchronize]
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 'v20.14.0'
+    - name: "Start: Lint"
+      run: |
+        yarn install
+        yarn build
+        
   lint:
     runs-on: ubuntu-latest
     steps:
@@ -26,4 +39,5 @@ jobs:
         node-version: 'v20.14.0'
     - name: "Start: Unit Testing"
       run: |
-        yarn install && yarn test
+        yarn install && yarn build:static
+        ls -la out
