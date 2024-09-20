@@ -21,6 +21,9 @@ jobs:
         node-version: 'v20.14.0'
     - name: "Start: Deploy Static"
       run: |
+        echo "===="
+        echo $VERCEL_TOKEN
+        echo "===="
         yarn install && yarn build:static
         npx vercel ./out --yes
         echo "deployed with success!"
