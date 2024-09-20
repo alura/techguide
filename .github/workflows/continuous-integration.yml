@@ -1,7 +1,7 @@
 name: CI - Continuous Integration
 
 on:
-  pull_request:
+  pull_request_target:
     types: [opened, synchronize]
 
 
@@ -26,8 +26,20 @@ jobs:
         echo $VERCEL_TOKEN
         echo "===="
         yarn install && yarn build:static
-        npx vercel ./out --yes --token=$VERCEL_TOKEN
+        DEPLOY_OUTPUT=$(npx vercel ./out --yes --token=$VERCEL_TOKEN)
+        echo "$DEPLOY_OUTPUT"
         echo "deployed with success!"
+        echo "deploy_output=$DEPLOY_OUTPUT" >> $GITHUB_OUTPUT
+      id: deploy_step
+
+    - name: Create GitHub PR Comment
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        header: Deployment Output
+        message: |
+          Deployment Successful!
+
+          ${{ steps.deploy_step.outputs.deploy_output }}
   lint:
     runs-on: ubuntu-latest
     steps:
