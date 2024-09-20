@@ -7,10 +7,10 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  // experimental: {
-  //   largePageDataBytes: 128 * 1000,
-  // },
-  staticPageGenerationTimeout: 60 * 10,
+  experimental: {
+    largePageDataBytes: 300 * 1000,
+  },
+  staticPageGenerationTimeout: 60 * 5,
   async redirects() {
     return redirects;
   },
