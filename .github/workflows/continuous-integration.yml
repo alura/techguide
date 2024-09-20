@@ -25,9 +25,8 @@ jobs:
         echo $VERCEL_PROJECT_ID
         echo $VERCEL_TOKEN
         echo "===="
-        # yarn install && yarn build:static
-        # DEPLOY_OUTPUT=$(npx vercel ./out --yes --token=$VERCEL_TOKEN)
-        DEPLOY_OUTPUT="https://techguide.sh/"
+        yarn install && yarn build:static
+        DEPLOY_OUTPUT=$(npx vercel ./out --yes --token=$VERCEL_TOKEN)
         echo "$DEPLOY_OUTPUT"
         echo "deployed with success!"
         echo "deploy_output=$DEPLOY_OUTPUT" >> $GITHUB_OUTPUT
