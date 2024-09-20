@@ -7,9 +7,9 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  experimental: {
-    largePageDataBytes: 400 * 1000,
-  },
+  // experimental: {
+  //   largePageDataBytes: 128 * 1000,
+  // },
   staticPageGenerationTimeout: 60 * 10,
   async redirects() {
     return redirects;
