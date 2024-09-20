@@ -22,6 +22,7 @@ jobs:
     - name: "Start: Deploy Static"
       run: |
         echo "===="
+        echo $VERCEL_PROJECT_ID
         echo $VERCEL_TOKEN
         echo "===="
         yarn install && yarn build:static
