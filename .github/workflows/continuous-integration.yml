@@ -37,9 +37,13 @@ jobs:
       with:
         header: Deployment Output
         message: |
-          Deployment Successful!
+          Preview Deployment Successful!
+
+          <details>
+          <summary>Check deploy info</summary>
 
           ${{ steps.deploy_step.outputs.deploy_output }}
+          </details>
   lint:
     runs-on: ubuntu-latest
     steps:
