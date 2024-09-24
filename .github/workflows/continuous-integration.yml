@@ -22,6 +22,17 @@ jobs:
         node-version: 'v20.14.0'
     - name: "Start: Deploy Static"
       run: |
+        yarn install && yarn build:static
+  build-preview:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 'v20.14.0'
+    - name: "Start: Deploy Static"
+      run: |
         echo "===="
         echo $VERCEL_PROJECT_ID
         echo $VERCEL_TOKEN
