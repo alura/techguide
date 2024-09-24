@@ -1,0 +1,95 @@
+# Vendas
+## Nivel 1
+- [ ] **Vendas na era digital**:
+   - Desenvolver estratégias inovadoras de vendas que capacitem a equipe a tomar decisões estratégicas, promovendo uma cultura de autonomia e responsabilidade.
+   - Estimular a diversidade nas abordagens de vendas, incentivando a troca de ideias e técnicas entre vendedores com diferentes perfis e experiências, enriquecendo a estratégia de vendas e aumentando o engajamento da equipe.
+   - Criar ambiente de trabalho motivador para equipe de vendas.
+- [ ] **Gestão de carteira**:
+   - Desenvolver estratégias eficazes de segmentação de carteira, permitindo uma personalização mais precisa das abordagens de vendas e maximizando o valor do cliente em longo prazo.
+   - Implementar práticas de gestão que promovam o relacionamento contínuo e fortalecido com os clientes, utilizando ferramentas e metodologias que suportem um acompanhamento estratégico e pró-ativo.
+   - Capacitar a equipe de vendas para identificar e explorar oportunidades de upsell e cross-sell, aumentando a rentabilidade da carteira de clientes com técnicas que agreguem valor ao cliente.
+   - Promover uma cultura de excelência na gestão de carteira, onde a eficiência operacional e o retorno sobre o investimento sejam continuamente aprimorados através de feedbacks constantes e ajustes estratégicos.
+- [ ] **Customer Success**:
+   - Implementar uma cultura centrada no cliente, garantindo que todas as equipes compreendam e apliquem os princípios de Customer Success para entregar valor contínuo e satisfatório aos clientes.
+   - Desenvolver estratégias de retenção de clientes através de práticas de Customer Success, utilizando métricas e feedbacks para adaptar produtos e serviços às necessidades específicas dos clientes, aumentando a lealdade e diminuindo o churn.
+   - Capacitar a equipe com técnicas de escuta ativa e metodologias como Spin Selling para otimizar o atendimento e resolver de forma proativa os desafios dos clientes, garantindo uma experiência excepcional.
+   - Criar um processo estruturado para monitorar e medir o sucesso dos clientes, utilizando indicadores chave de desempenho (KPIs) que permitam ajustes contínuos nas estratégias de Customer Success para maximizar a satisfação e os resultados.
+- [ ] **Social Selling**:
+   - Desenvolver uma presença digital sólida e autêntica que reforce a marca pessoal e profissional de vendedores, utilizando plataformas sociais para construir confiança e autoridade no mercado.
+   - Capacitar equipe de vendas para identificar e engajar decisores certos dentro de redes sociais, aplicando técnicas de segmentação e prospecção que maximizem a eficácia das abordagens.
+   - Implementar estratégias de criação e compartilhamento de conteúdo relevante que ressoe com o público-alvo, estimulando o engajamento e posicionando a empresa como líder de pensamento no setor.
+   - Estabelecer métricas claras e sistemas de monitoramento para avaliar o impacto das atividades de social selling, permitindo ajustes estratégicos que melhorem os resultados e a eficiência das vendas sociais.
+## Nivel 2
+- [ ] **Técnicas para melhorar o aprendizado sobre o mercado**:
+   - Desenvolver a habilidade de análise de mercado através de técnicas avançadas de pesquisa, permitindo que a equipe de vendas compreenda profundamente as tendências, concorrentes e necessidades do cliente.
+   - Capacitar a equipe de vendas com ferramentas e métodos eficazes para identificar e estudar o comportamento do consumidor, proporcionando insights valiosos que orientem a estratégia de vendas.
+   - Criar cultura de aprendizado contínuo, onde os vendedores sejam incentivados a atualizar regularmente conhecimentos sobre o mercado e a adaptar suas abordagens de acordo com as mudanças no ambiente de negócios.
+   - Implementar rotinas de estudo e reflexão sobre o mercado que integrem o conhecimento adquirido com a prática de vendas, garantindo que os insights de mercado sejam aplicados de forma eficaz nas interações com os clientes.
+- [ ] **Prospecção de clientes**:
+   - Desenvolver e implementar estratégias de prospecção que permitam identificar e segmentar clientes potenciais com maior precisão, utilizando dados e análises de mercado para orientar esforços de vendas.
+   - Capacitar equipe de vendas para criar perfis detalhados de cliente ideal (ICP), garantindo que a prospecção seja focada em leads com maior probabilidade de conversão e alinhamento com os objetivos de negócio.
+   - Otimizar o processo de prospecção através do uso de ferramentas e tecnologias que acelerem a identificação e o contato com leads qualificados, aumentando a eficiência e a produtividade da equipe de vendas.
+   - Estabelecer métricas claras para monitorar o desempenho das atividades de prospecção, permitindo ajustes contínuos e melhoria dos processos para garantir um pipeline de vendas robusto e sustentável.
+- [ ] **Entendendo a necessidade do cliente**:
+   - Aprimorar a capacidade de diagnóstico das necessidades dos clientes, utilizando técnicas de escuta ativa e análise estratégica para compreender profundamente os desafios e expectativas dos clientes, alinhando as soluções oferecidas às suas reais necessidades.
+   - Desenvolver conexões de confiança e credibilidade com prospects e clientes, criando abordagens comerciais personalizadas que considerem os perfis e interesses dos stakeholders envolvidos, garantindo que as propostas de valor sejam tangíveis e relevantes.
+   - Capacitar a equipe de vendas para mapear e qualificar oportunidades de vendas de maneira eficaz, assegurando que o retorno sobre as soluções oferecidas seja claramente tangível para o cliente, promovendo decisões de compra informadas e baseadas em benefícios concretos.
+## Nivel 3
+- [ ] **Outbound Marketing**:
+   - Estruturar um processo de outbound marketing baseado em métricas sólidas e melhores práticas, garantindo que a equipe de pré-vendas utilize técnicas comprovadas para maximizar a geração de leads qualificados.
+   - Capacitar a equipe de pré-vendas com habilidades e ferramentas exclusivas para otimizar o contato inicial com potenciais clientes, assegurando que as abordagens sejam eficientes e resultem em conversões de alta qualidade.
+   - Desenvolver um ciclo contínuo de melhoria e evolução do processo de outbound, focando na adaptação às mudanças do mercado e no refinamento das estratégias de prospecção, para transformar dados qualitativos em resultados quantitativos significativos.
+- [ ] **Solução e proposta**:
+   - Mapear as necessidades do cliente de forma precisa e profunda, garantindo que as soluções propostas estejam alinhadas com os desafios e objetivos específicos de cada cliente, aumentando a relevância e a eficácia das propostas.
+   - Desenvolver habilidades de influência e persuasão na equipe de vendas para guiar os clientes na escolha das soluções que melhor atendem às suas necessidades, utilizando argumentos baseados em valor e benefícios concretos.
+   - Capacitar a equipe para criar e apresentar propostas assertivas e estratégicas, integrando a identificação de stakeholders, gestão de riscos e criação de cenários de uso, assegurando que cada proposta seja clara, convincente e focada em resultados mensuráveis.
+
+## Habilidade Auxiliar: Empreendedorismo 
+- [ ] **Inovação Social e Empreendedorismo**:
+   - Construir e fortalecer um ecossistema de inovação dentro das organizações, onde profissionais são incentivados a colaborar, compartilhar conhecimentos e experimentar novas abordagens, utilizando o empreendedorismo social como um motor para a transformação e o crescimento sustentável.
+   - Promover a cultura de empreendedorismo voltada para a inovação, capacitando os indivíduos a identificar oportunidades de mercado e a desenvolver iniciativas que integrem aspectos sociais e ambientais ao núcleo dos negócios, gerando valor compartilhado.
+   - Incorporar práticas de inovação social dentro das organizações, incentivando a criação e implementação de soluções que gerem impacto positivo
+- [ ] **Ideia ao plano de négocios**:
+   - null
+   - null
+   - null
+   - null
+- [ ] **Business Model Canvas**:
+   - Estruturar ideias de negócios de forma clara e prática, utilizando o Business Model Canvas para transformar conceitos em modelos tangíveis, organizando componentes essenciais como segmentos de clientes, propostas de valor e canais de distribuição.
+   - Desenvolver um plano de negócios robusto que atraia investidores e parceiros, baseando-se no Business Model Canvas para detalhar como a empresa gerará e entregará valor, abordando estrutura de custos, fluxos de receita e atividades e parcerias-chave.
+   - Fomentar a análise crítica e a adaptação contínua do modelo de negócios, utilizando o Canvas como uma ferramenta dinâmica para identificar oportunidades de inovação, otimização de recursos e resposta a mudanças no mercado.
+   - Integrar recursos e atividades-chave para maximizar a eficiência e o valor oferecido, garantindo que todos os componentes do Business Model Canvas estejam interconectados e contribuam para o sucesso e sustentabilidade do empreendimento.
+- [ ] **Roadmap**:
+   - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
+   - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
+   - Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.
+   - Defina marcos e prazos realistas para o desenvolvimento e entrega.
+   - Comunique o roadmap de forma clara e transparente com todas as partes interessadas.
+   - Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.
+   - Colete feedback regularmente para ajustar o roadmap conforme necessário.
+   - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.
+## Habilidade Auxiliar: Product Management 
+- [ ] **Fundamentos do Product Management**:
+   - Product Management é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
+   - Definir visão clara e estratégia para o produto.
+   - Entender necessidades e preferências dos clientes.
+   - Especificar requisitos e funcionalidades do produto.
+   - Priorizar recursos com base no valor para o cliente e para o negócio.
+   - Analisar métricas e feedback para orientar decisões.
+   - Estar aberto a mudanças e ajuste a estratégia conforme necessário.
+- [ ] **Product Discovery**:
+   - Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.
+   - Analisar o mercado para identificar tendências e oportunidades.
+   - Conduzie entrevistas para entender as necessidades dos usuários.
+   - Criar protótipos para validar ideias e conceitos com os usuários.
+   - Estudar os concorrentes para identificar lacunas e diferenciais.
+   - Testar hipóteses para validar a viabilidade do produto.
+   - Mapear as jornadas dos usuários para identificar pontos de dor.
+- [ ] **Gestão de Projetos**:
+   - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
+   - Colocar as necessidades dos usuários no centro do processo de desenvolvimento.
+   - Definir uma visão clara e estratégia para o produto digital.
+   - Mapear e otimizar a jornada do usuário no produto.
+   - Coletar e analisar feedback dos usuários para melhorias.
+   - Adotar metodologias ágeis para entregas rápidas e iterativas.
+   - Utilizar dados para tomar decisões informadas sobre o produto.

@@ -1,0 +1,108 @@
+# Liderança
+## Nivel 1
+- [ ] **Aprendizado sobre liderança**:
+   - Desenvolver habilidades essenciais de liderança, aprendendo métodos para exercer influência positiva sobre as pessoas e melhorar a comunicação e o trabalho em equipe para impulsionar os resultados organizacionais
+   - Melhorar a produtividade e a eficiência, criando um repertório de bons hábitos de liderança para evitar problemas de produtividade e aprimorar a gestão e a comunicação com a equipe
+   - Apoiar e desenvolver a equipe, compreendendo a importância de promover um ambiente colaborativo e orientado para resultados, além de manter a qualidade no trabalho
+   - Aprender a liderar de forma adaptável, definindo prioridades e desenvolvendo a capacidade de gestão eficaz para enfrentar novas situações e desafios diários da liderança
+- [ ] **Práticas de gestão e melhorias**:
+   - Desenvolver uma postura proativa no desenvolvimento de novas habilidades de liderança e na formação e desenvolvimento da equipe
+   - Aplicar ferramentas práticas de liderança para refinar a elaboração de metas e guiar equipes com eficácia
+   - Cultivar uma cultura sustentável de melhoria contínua nos processos de gestão para otimizar resultados organizacionais
+   - Explorar e adaptar-se às tendências e desafios atuais nas práticas de liderança para manter a equipe competitiva e inovadora
+- [ ] **Hábitos e boas práticas na liderança**:
+   - Compreender o papel da liderança no engajamento do time e na promoção de um ambiente de alto desempenho
+   - Aplicar estratégias eficazes para tornar as reuniões mais produtivas e focadas nos objetivos da equipe
+   - Desenvolver a capacidade de implementar intervenções no dia a dia para promover boas práticas em gestão de pessoas
+   - Aprimorar a assertividade na tomada de decisões, utilizando uma comunicação clara e direcionada para o sucesso da equipe
+- [ ] **Estrutura organizacional**:
+   - Compreender os diferentes modelos de estrutura organizacional, como a estrutura hierárquica, funcional, matricial, em rede e em projetos
+   - Avaliar as características, vantagens e desvantagens de cada modelo de estrutura organizacional para identificar o mais adequado ao contexto de negócios
+   - Explorar a relação entre agilidade empresarial e a escolha da estrutura organizacional para otimizar processos e resultados
+   - Desenvolver a capacidade de implementar e adaptar a estrutura organizacional da empresa para melhor atender às demandas do mercado e promover a eficiência operacional
+## Nivel 2
+- [ ] **Técnicas e habilidades para liderança**:
+   - Compreender as diferentes formas de trabalho remoto e como aproveitar seus benefícios e enfrentar seus desafios
+   - Desenvolver um mindset digital que permita liderar e apoiar a equipe na transição para o trabalho remoto de forma eficaz
+   - Adquirir habilidades essenciais para liderança remota, como comunicação clara, construção de confiança e engajamento da equipe
+   - Aplicar técnicas para estimular a colaboração e gerenciar equipes remotas de forma eficiente, mantendo a produtividade e a coesão do time
+- [ ] **Liderança transformacional**:
+   - Compreender e aplicar os princípios da liderança transformacional no ambiente de trabalho, promovendo um crescimento significativo na equipe
+   - Desenvolver habilidades de liderança emocionalmente inteligente, focando no engajamento e bem-estar da equipe para criar um ambiente de trabalho mais harmonioso
+   - Implementar estratégias para lidar com a resistência à mudança, transformando desafios em oportunidades de crescimento e inovação
+   - Promover a diversidade e a inclusão no ambiente de trabalho, criando um espaço acolhedor e igualitário que estimula a criatividade e o desenvolvimento contínuo
+- [ ] **Oratória para líderes**:
+   - Dominar os princípios da comunicação verbal e não-verbal para se comunicar de forma mais eficaz em contextos de liderança
+   - Superar o medo e a ansiedade de falar em público, utilizando técnicas que fortalecem a confiança e melhoram a performance
+   - Identificar e explorar o seu perfil de orador, adaptando-o para diferentes situações de comunicação e apresentações formais
+   - Utilizar elogios e agradecimentos estrategicamente para construir uma imagem de líder inspirador e confiável
+## Nivel 3
+- [ ] **Liderança ambidestra**:
+   - Compreender a importância de equilibrar Hard e Soft Skills no processo de liderança para alcançar resultados eficazes
+   - Aplicar o conceito de Liderança Ambidestra, utilizando tanto a exploração de novas oportunidades quanto a otimização de operações existentes
+   - Integrar a cultura organizacional no exercício da liderança, favorecendo a inovação e a adaptação às mudanças do mercado
+   - Desenvolver a capacidade de liderar equipes com resiliência, aproveitando os talentos internos enquanto explora inovações e tendências emergentes
+- [ ] **Conhecendo a liderança técnica**:
+   - Entender o contexto de atuação do Tech Lead no mercado de tecnologia, reconhecendo seu papel e impacto nas equipes
+   - Identificar as habilidades e competências essenciais para desenvolver um perfil eficaz de Tech Lead
+   - Compreender as diferenças entre liderança técnica e liderança comum, e como essas distinções influenciam na gestão de equipes e projetos
+   - Planejar o desenvolvimento de uma carreira em tecnologia, focando nas demandas e oportunidades do mercado para Tech Leads
+- [ ] **Guiando pessoas para alta performance**:
+   - Dominar os fundamentos essenciais da liderança técnica para maximizar o desempenho das equipes e impulsionar resultados
+   - Aplicar metodologias eficazes de gerenciamento de projetos que visam o crescimento e a eficiência da equipe técnica
+   - Desenvolver habilidades para oferecer e receber feedback construtivo, promovendo um ambiente de melhoria contínua e colaboração
+   - Cultivar um ambiente inclusivo que estimule a inovação, o protagonismo e o desenvolvimento individual dentro da equipe técnica
+## Habilidade Auxiliar: Inovação e Gestão de Mudanças 
+- [ ] **Agilidade**:
+   - Compreender o que é agilidade, como funciona e o que é esperado de um time de alta performance, para aplicá-la de forma eficaz no seu ambiente de trabalho.
+   - Aprender a integrar os valores da agilidade para alcançar melhores resultados, aproveitando as competências do time para criar soluções colaborativas.
+   - Desenvolver a capacidade de fortalecer conexões entre membros da equipe, criando um ambiente seguro e propício à colaboração e à inovação.
+   - Aplicar dinâmicas e técnicas que promovem o desenvolvimento de habilidades essenciais, suportando o crescimento contínuo e a alta performance da equipe.
+- [ ] **Design Thinking**:
+   - Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.
+   - Entenda profundamente as necessidades dos usuários.
+   - Clarifique o problema baseado nos insights coletados.
+   - Gere uma ampla gama de ideias inovadoras.
+   - Crie modelos simples para explorar soluções.
+   - Refine as soluções com base no feedback dos testes.
+   - Envolva diversas perspectivas na solução de problemas.
+   - Use métodos visuais para comunicar ideias e processos.
+- [ ] **Inovação Ágil**:
+   - Gerenciar iniciativas de inovação utilizando metodologias ágeis para obter resultados mais rápidos e assertivos, através de múltiplas entregas e testes contínuos com usuários.
+   - Desenvolver uma cultura ágil na empresa, aplicando metodologias que promovem a experimentação e a melhoria contínua no desenvolvimento de novos negócios.
+   - Criar times multidisciplinares e auto-organizáveis, que sejam capazes de entregar valor constante e reagir rapidamente às mudanças do mercado.
+   - Compreender a correlação entre inovação e agilidade, utilizando esses conceitos para atender de forma eficaz às necessidades dos clientes e do mercado em constante mudança..
+- [ ] **Roadmap**:
+   - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
+   - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
+   - Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.
+   - Defina marcos e prazos realistas para o desenvolvimento e entrega.
+   - Comunique o roadmap de forma clara e transparente com todas as partes interessadas.
+   - Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.
+   - Colete feedback regularmente para ajustar o roadmap conforme necessário.
+   - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.
+## Habilidade Auxiliar: Product Management 
+- [ ] **Fundamentos do Product Management**:
+   - Product Management é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
+   - Definir visão clara e estratégia para o produto.
+   - Entender necessidades e preferências dos clientes.
+   - Especificar requisitos e funcionalidades do produto.
+   - Priorizar recursos com base no valor para o cliente e para o negócio.
+   - Analisar métricas e feedback para orientar decisões.
+   - Estar aberto a mudanças e ajuste a estratégia conforme necessário.
+- [ ] **Product Discovery**:
+   - Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.
+   - Analisar o mercado para identificar tendências e oportunidades.
+   - Conduzie entrevistas para entender as necessidades dos usuários.
+   - Criar protótipos para validar ideias e conceitos com os usuários.
+   - Estudar os concorrentes para identificar lacunas e diferenciais.
+   - Testar hipóteses para validar a viabilidade do produto.
+   - Mapear as jornadas dos usuários para identificar pontos de dor.
+- [ ] **Digital product management**:
+   - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
+   - Colocar as necessidades dos usuários no centro do processo de desenvolvimento.
+   - Definir uma visão clara e estratégia para o produto digital.
+   - Mapear e otimizar a jornada do usuário no produto.
+   - Coletar e analisar feedback dos usuários para melhorias.
+   - Adotar metodologias ágeis para entregas rápidas e iterativas.
+   - Utilizar dados para tomar decisões informadas sobre o produto.

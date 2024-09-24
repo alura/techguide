@@ -1,0 +1,93 @@
+# Marketing Digital
+## Nivel 1
+- [ ] **Explorando conceitos de Marketing Digital**:
+   - Compreender os princípios fundamentais do marketing digital, incluindo as diferentes áreas de atuação, como tráfego orgânico e pago, e as principais estratégias para aumentar a visibilidade online de uma marca.
+   - Explorar as principais plataformas digitais e ferramentas utilizadas para divulgar negócios na internet, garantindo que os perfis comerciais sejam otimizados e mantenham uma presença profissional.
+   - Aprender a diferenciar e aplicar as técnicas de tráfego orgânico e pago, desenvolvendo habilidades para planejar e executar campanhas de marketing digital que alcancem e envolvam o público-alvo de maneira eficaz..
+- [ ] **Branding**:
+   - Entender os componentes fundamentais do branding e como eles contribuem para a criação de uma marca memorável e diferenciada no mercado.
+   - Desenvolver uma identidade de marca consolidada, que comunique de forma clara e eficaz os valores e a missão da empresa, ajudando a criar marcas de sucesso que se destacam entre os concorrentes.
+   - Aplicar estratégias poderosas para construir e gerir a marca, criando experiências marcantes que ressoam com o público-alvo e fomentam a lealdade dos clientes.
+   - Inspirar-se em cases de sucesso para construir uma marca forte que estabeleça uma conexão emocional com os clientes, promovendo um relacionamento duradouro e um forte posicionamento no mercado..
+- [ ] **Plano de Marketing Digital**:
+   - Desenvolver a habilidade de coletar e interpretar dados de pesquisa e feedback, utilizando esses insights para aprimorar serviços e produtos e ajustar as estratégias de marketing digital de forma eficaz.
+   - Aprender a analisar tendências de mercado utilizando ferramentas digitais, aplicando o método SMART para definir metas claras e a matriz SWOT para identificar oportunidades e desafios no ambiente competitivo.
+   - Elaborar e coordenar estratégias de marketing digital, integrando os diferentes elementos do plano em um cronograma eficiente que garanta a execução bem-sucedida das campanhas e a maximização dos resultados.
+   - Compreender a jornada do consumidor e aplicar os princípios de OKRs para alinhar as estratégias de marketing digital com os objetivos organizacionais, criando campanhas que ressoem com as necessidades e desejos do público-alvo..
+- [ ] **SEO**:
+   - Compreender os fundamentos do SEO, incluindo como ele funciona e por que é essencial para aumentar a visibilidade e o alcance de um site nos motores de busca.
+   - Aprender a aplicar as principais técnicas e estratégias de SEO, otimizando o conteúdo e a estrutura do site para melhorar o posicionamento nas páginas de resultados dos motores de busca (SERPs).
+   - Entender como funcionam os algoritmos dos principais motores de busca, como o Google, e como as atualizações nesses algoritmos podem impactar o desempenho de SEO de um site.
+   - Mensurar e analisar os resultados das estratégias de SEO utilizando as ferramentas certas, permitindo ajustes contínuos e garantindo que o site permaneça competitivo no ranking dos motores de busca..
+## Nivel 2
+- [ ] **Social Commerce**:
+   - Compreender a importância e as vantagens de utilizar redes sociais como ferramentas estratégicas para gerar leads e aumentar as vendas, aproveitando o alcance e a interatividade dessas plataformas.
+   - Explorar a evolução do e-commerce e adaptar estratégias de marketing para o ambiente de social commerce, integrando as melhores práticas e técnicas específicas para cada plataforma social.
+   - Aprender a configurar e otimizar recursos, como anúncios e postagens patrocinadas, em redes sociais como Instagram e Facebook, maximizando a visibilidade e a conversão de vendas.
+   - Desenvolver habilidades para identificar e colaborar com influenciadores digitais, utilizando sua influência para fortalecer campanhas de social commerce e engajar o público-alvo de forma autêntica e eficaz..
+- [ ] **Marketplace**:
+   - Entender o conceito de marketplace, suas vantagens e desvantagens, e como esse modelo de plataforma de e-commerce pode ser utilizado de forma estratégica para expandir a presença online de um negócio.
+   - Explorar as diferenças entre um marketplace de nicho e um tradicional, identificando qual tipo se alinha melhor ao modelo de negócios e às metas da empresa, e como competir efetivamente em ambos os ambientes.
+   - Aprender a otimizar listagens de produtos no marketplace, utilizando palavras-chave, descrições e estratégias de SEO específicas para melhorar o ranking e a visibilidade, resultando em maiores taxas de conversão.
+   - Analisar casos de sucesso e tendências do mercado, compreendendo como os principais players do setor utilizam os marketplaces para alcançar seus objetivos de vendas e como essas estratégias podem ser adaptadas para o próprio negócio.
+- [ ] **Análise de métricas para e-commerce**:
+   - Compreender a importância das métricas no e-commerce e como elas são essenciais para orientar decisões estratégicas que impulsionem o desempenho da loja virtual.
+   - Identificar e aplicar métricas-chave em diferentes etapas do funil de vendas, permitindo uma análise detalhada do comportamento do cliente e otimizando as estratégias de marketing digital.
+   - Diferenciar e utilizar ferramentas de Web Analytics, como Google Analytics, para coletar, interpretar e transformar dados em insights acionáveis que melhorem a eficiência e a eficácia das campanhas de e-commerce.
+   - Integrar conceitos de Business Intelligence e cultura data-driven ao marketing digital, garantindo que todas as decisões sejam baseadas em dados precisos e que as campanhas sejam continuamente aprimoradas com base em resultados mensuráveis.
+## Nivel 3
+- [ ] **Inbound Marketing**:
+   - Compreender os fundamentos do Inbound Marketing, incluindo as principais estratégias e ações necessárias para atrair visitantes, convertê-los em leads e, eventualmente, transformá-los em clientes fiéis.
+   - Aprender a estruturar e executar uma estratégia de Inbound Marketing, criando conteúdo relevante e personalizado para cada estágio da jornada do usuário, desde a atração até o fechamento e encantamento.
+   - Explorar o uso de automação em Inbound Marketing, configurando fluxos de nutrição de leads e utilizando ferramentas para simplificar e acelerar processos, garantindo uma execução mais eficiente das campanhas.
+   - Integrar e aplicar o conceito de flywheel, substituindo a lógica tradicional de funil de marketing, com foco em criar um ciclo contínuo de crescimento e retenção, alimentado pela experiência positiva dos clientes..
+- [ ] **Marketing Viral**:
+   - Compreender as estratégias e técnicas de buzz marketing que podem ajudar uma marca a alcançar a viralização, criando campanhas que ressoam profundamente com o público.
+   - Identificar e alavancar influenciadores e outros fatores-chave que podem amplificar a mensagem de uma marca, ajudando-a a atingir um público maior e mais engajado.
+   - Analisar casos de sucesso de marketing viral para aprender como atributos emocionais e comportamentais dos consumidores podem ser explorados para gerar engajamento massivo e lealdade à marca.
+- [ ] **E-mail marketing**:
+   - Compreender como o e-mail marketing é utilizado por empresas para alcançar leads de forma eficiente, incluindo a criação de listas de contatos segmentadas e personalizadas para maximizar o impacto das campanhas.
+   - Aprender a utilizar técnicas de copywriting e CTAs (Call to Actions) para aumentar as taxas de engajamento e conversão, garantindo que as mensagens de e-mail sejam persuasivas e levem o lead à ação desejada.
+   - Desenvolver habilidades para implementar e otimizar automações de e-mail marketing, incluindo a configuração de ferramentas, a criação de landing pages e a execução de fluxos de e-mails alinhados com as diferentes fases do funil de vendas.
+   - Analisar e entender as métricas de e-mail marketing para aprimorar continuamente as campanhas, ajustando estratégias com base nos dados coletados para melhorar a entregabilidade, a abertura e o desempenho geral das campanhas.
+## Habilidade Auxiliar: Análise e estratégia de dados 
+- [ ] **Data-driven UX**:
+   - Compreender como os dados podem otimizar a experiência do usuário e garantir que as interfaces atendam às expectativas dos usuários
+   - Aprender a coletar e interpretar dados qualitativos e quantitativos utilizando ferramentas como Hotjar e Google Analytics, focando na experiência e comportamento do usuário
+   - Aplicar insights de dados para tomar decisões informadas sobre o design e aprimorar continuamente a interface e a usabilidade dos produtos
+   - Incorporar uma abordagem orientada por dados em todo o ciclo de design, criando soluções altamente alinhadas às necessidades dos usuários e aos objetivos de negócios.
+- [ ] **Jornada do cliente**:
+   - Compreenda as etapas principais da jornada do cliente e como cada fase impacta na experiência geral.
+   - Aprenda a identificar e entender os pontos de contato que influenciam a satisfação e o engajamento do cliente.
+   - Desenvolva estratégias de engajamento ao longo da jornada para melhorar a retenção e a lealdade do cliente.
+   - Aplique uma mentalidade centrada no cliente para criar experiências que atendam às necessidades e expectativas em cada etapa da jornada.
+- [ ] **Customer Success**:
+   - Implementar uma cultura centrada no cliente, garantindo que todas as equipes compreendam e apliquem os princípios de Customer Success para entregar valor contínuo e satisfatório aos clientes.
+   - Desenvolver estratégias de retenção de clientes através de práticas de Customer Success, utilizando métricas e feedbacks para adaptar produtos e serviços às necessidades específicas dos clientes, aumentando a lealdade e diminuindo o churn.
+   - Capacitar a equipe com técnicas de escuta ativa e metodologias como Spin Selling para otimizar o atendimento e resolver de forma proativa os desafios dos clientes, garantindo uma experiência excepcional.
+   - Criar um processo estruturado para monitorar e medir o sucesso dos clientes, utilizando indicadores chave de desempenho (KPIs) que permitam ajustes contínuos nas estratégias de Customer Success para maximizar a satisfação e os resultados.
+- [ ] **Roadmap**:
+   - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
+   - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
+   - Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.
+   - Defina marcos e prazos realistas para o desenvolvimento e entrega.
+   - Comunique o roadmap de forma clara e transparente com todas as partes interessadas.
+   - Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.
+   - Colete feedback regularmente para ajustar o roadmap conforme necessário.
+   - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.
+## Habilidade Auxiliar: Business Agility 
+- [ ] **Gestão Ágil**:
+   - Compreender a diferença entre gestão tradicional e gestão ágil, explorando como a flexibilidade e adaptação rápida da gestão ágil contrastam com a rigidez e hierarquia dos métodos tradicionais.
+   - Implementar práticas contínuas de melhoria e feedback em processos ágeis, integrando essas abordagens para otimizar o desempenho da equipe e garantir adaptação rápida e inovação constante.
+   - Explorar conceitos e impacto na liderança ágil, entendendo como navegar em ambientes desafiadores por meio de estratégias adaptativas e flexíveis.
+   - Desenvolver habilidades essenciais de liderança e motivação para ambientes ágeis, aprimorando a comunicação, delegação e empoderamento para fomentar um ambiente de trabalho colaborativo e inovador.
+- [ ] **Lean-Ágil além da TI**:
+   - Entenda como as práticas Lean-Ágil podem ser escaladas em toda a organização, contribuindo para a transformação cultural e estratégica em direção à agilidade nos negócios.
+   - Expanda sua visão ágil além do contexto de TI, aprendendo a aplicar o mindset Lean-Ágil em toda a organização, promovendo a inovação e a redução de desperdícios em todos os setores.
+   - Desenvolva competências estratégicas para liderar transformações Lean-Ágil em sua empresa, integrando conceitos de agilidade escalada e discreta para alcançar melhores resultados organizacionais.
+   - Diagnostique o estágio atual da sua organização em relação à agilidade, identificando oportunidades para a implementação de metodologias ágeis que impulsionem o crescimento e a eficiência.
+- [ ] **Métricas Ágeis**:
+   - Identificar e dominar as principais métricas ágeis para garantir o sucesso dos projetos e a melhoria contínua dos processos dentro de um ambiente ágil.
+   - Desenvolver habilidades para interpretar métricas ágeis, facilitando tomadas de decisões estratégicas que aumentem a eficiência e a eficácia das equipes.
+   - Aprimorar a comunicação dos resultados das métricas de forma clara e impactante, assegurando o alinhamento de todos os stakeholders com os objetivos do projeto.
+   - Explorar ferramentas e técnicas para a medição e visualização de métricas ágeis, permitindo adaptações rápidas e contínuas para otimizar os processos de trabalho..
