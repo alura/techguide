@@ -9,9 +9,21 @@ env:
   VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 'v20.14.0'
+    - name: "Start: Deploy Static"
+      run: |
+        yarn install && yarn build:static
+  build-preview:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -26,8 +38,24 @@ jobs:
         echo $VERCEL_TOKEN
         echo "===="
         yarn install && yarn build:static
-        npx vercel ./out --yes --token=$VERCEL_TOKEN
+        DEPLOY_OUTPUT=$(npx vercel ./out --yes --token=$VERCEL_TOKEN)
+        echo "$DEPLOY_OUTPUT"
         echo "deployed with success!"
+        echo "deploy_output=$DEPLOY_OUTPUT" >> $GITHUB_OUTPUT
+      id: deploy_step
+
+    - name: Create GitHub PR Comment
+      uses: marocchino/sticky-pull-request-comment@v2
+      with:
+        header: Deployment Output
+        message: |
+          Preview Deployment Successful!
+
+          <details>
+          <summary>Check deploy info</summary>
+
+          ${{ steps.deploy_step.outputs.deploy_output }}
+          </details>
   lint:
     runs-on: ubuntu-latest
     steps:
