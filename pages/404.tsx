@@ -103,7 +103,6 @@ function Screen({ locale }: { locale: SiteLocale }) {
           {i18n.content("404.TITLE")}
         </Text>
         <Text
-          locale={locale}
           styleSheet={{
             color: "#FFFFFF",
           }}
@@ -134,6 +133,7 @@ function Screen({ locale }: { locale: SiteLocale }) {
               backgroundColor: "transparent",
             },
             focus: {
+              color: "#2cfdbe",
               opacity: 1,
               backgroundColor: "transparent",
             },
