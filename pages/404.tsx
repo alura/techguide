@@ -18,6 +18,7 @@ const copyByLocale = {
     "404.TITLE": "Ops!",
     "404.DESCRIPTION":
       "Não conseguimos encontrar a página que você estava procurando.",
+    "404.CTA": "Voltar para a página inicial",
   },
   [SiteLocale.EnUs]: {
     "HEAD.TITLE": enUsLocale["HEAD.TITLE"],
@@ -26,6 +27,7 @@ const copyByLocale = {
     "FOOTER.OPEN_SOURCE_CTA": enUsLocale["FOOTER.OPEN_SOURCE_CTA"],
     "404.TITLE": "Ops!",
     "404.DESCRIPTION": "We couldn't find the page you were looking for.",
+    "404.CTA": "Back to home page",
   },
   [SiteLocale.Es]: {
     "HEAD.TITLE": esLocale["HEAD.TITLE"],
@@ -34,6 +36,7 @@ const copyByLocale = {
     "FOOTER.OPEN_SOURCE_CTA": esLocale["FOOTER.OPEN_SOURCE_CTA"],
     "404.TITLE": "Ops!",
     "404.DESCRIPTION": "No pudimos encontrar la página que buscabas.",
+    "404.CTA": "Volver a la página de inicio",
   },
 };
 
@@ -99,14 +102,44 @@ function Screen({ locale }: { locale: SiteLocale }) {
         >
           {i18n.content("404.TITLE")}
         </Text>
-        <Link
-          href="/"
+        <Text
           locale={locale}
           styleSheet={{
             color: "#FFFFFF",
           }}
         >
           {i18n.content("404.DESCRIPTION")}
+        </Text>
+        <Link
+          href="/"
+          locale={locale}
+          styleSheet={{
+            alignSelf: {
+              xs: "center",
+              md: "flex-start",
+            },
+            margin: "32px auto",
+            textDecoration: "none",
+            color: "#000000",
+            backgroundColor: "#2cfdbe",
+            border: "1px solid #2cfdbe",
+            paddingVertical: "16px",
+            paddingHorizontal: "32px",
+            fontSize: "16px",
+            transition: ".3s",
+            borderRadius: "8px",
+            hover: {
+              color: "#2cfdbe",
+              opacity: 1,
+              backgroundColor: "transparent",
+            },
+            focus: {
+              opacity: 1,
+              backgroundColor: "transparent",
+            },
+          }}
+        >
+          {i18n.content("404.CTA")}
         </Link>
       </Box>
     </Box>
