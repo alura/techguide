@@ -2,7 +2,12 @@ name: Service Workers
 logo: 
 short-description:
 key-objectives:
-  - Melhorar a performance e trabalhar offline
+  - Melhorar a performance e trabalhar offline;
+  - Permitem que aplicações web armazenem recursos no cache;
+  - Interceptam e gerenciam requisições de rede;
+  - Facilitam notificações push, mesmo quando o app não está aberto ou usuário não está na página;
+  - Funcionam como um intermediário entre o navegador e a rede/servidor;
+  - São assíncronos e não acessam diretamente o DOM, garantindo segurança e eficiência;
 aditional-objectives:
 contents:
   - type: SITE
@@ -27,6 +32,12 @@ alura-contents:
   - type: ARTICLE
     title: "Desvendando os service workers: ciclo de vida e atualização"
     link: https://www.alura.com.br/artigos/service-worker
+  - type: ARTICLE
+    title: "Quais as boas práticas de segurança para PWAs?"
+    link: https://www.alura.com.br/artigos/praticas-de-seguranca-pwas
+  - type: ARTICLE
+    title: "Cuidados com CSRF/XSRF ao utilizar a Push API"
+    link: https://www.alura.com.br/artigos/cuidados-com-csrf
   - type: podcast
     title: "Hipsters.tech: Progressive Web Apps - Hipsters 03"
     link: https://www.alura.com.br/podcast/progressive-web-apps-hipsters-03-a583
