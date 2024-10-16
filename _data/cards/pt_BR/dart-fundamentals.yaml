@@ -1,5 +1,5 @@
 name: Dart - Fundamentos
-logo: 
+logo:
 short-description:
 key-objectives:
   - Instalar e configurar o Dart
@@ -31,6 +31,9 @@ alura-contents:
   - type: ARTICLE
     title: "Dart: O que é? Como começar a estudar? Para quê serve?"
     link: https://www.alura.com.br/artigos/dart
+  - type: ARTICLE
+    title: "Boas práticas do Dart para organizar um projeto"
+    link: https://www.alura.com.br/artigos/boas-praticas-dart
   - type: YOUTUBE
     title: "Alura: Entendendo Input e Output no Dart"
     link: https://www.youtube.com/watch?v=LLmBWjF6F8M
@@ -52,5 +55,3 @@ alura-contents:
   - type: COURSE
     title: "Dart: trabalhando com a sintaxe e configuração de projeto"
     link: https://cursos.alura.com.br/course/dart-trabalhando-sintaxe-configuracao-projeto
-    
-  
