@@ -118,6 +118,14 @@ export default {
       "value": "data"
     },
     {
+      "label": "UX & Design",
+      "value": "design"
+    },
+    {
+      "label": "Inovação & Gestão",
+      "value": "management"
+    },
+    {
       "label": "Outros",
       "value": "others"
     },
