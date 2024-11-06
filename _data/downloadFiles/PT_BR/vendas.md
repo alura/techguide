@@ -10,10 +10,10 @@
    - Capacitar a equipe de vendas para identificar e explorar oportunidades de upsell e cross-sell, aumentando a rentabilidade da carteira de clientes com técnicas que agreguem valor ao cliente.
    - Promover uma cultura de excelência na gestão de carteira, onde a eficiência operacional e o retorno sobre o investimento sejam continuamente aprimorados através de feedbacks constantes e ajustes estratégicos.
 - [ ] **Customer Success**:
-   - Implementar uma cultura centrada no cliente, garantindo que todas as equipes compreendam e apliquem os princípios de Customer Success para entregar valor contínuo e satisfatório aos clientes.
-   - Desenvolver estratégias de retenção de clientes através de práticas de Customer Success, utilizando métricas e feedbacks para adaptar produtos e serviços às necessidades específicas dos clientes, aumentando a lealdade e diminuindo o churn.
-   - Capacitar a equipe com técnicas de escuta ativa e metodologias como Spin Selling para otimizar o atendimento e resolver de forma proativa os desafios dos clientes, garantindo uma experiência excepcional.
-   - Criar um processo estruturado para monitorar e medir o sucesso dos clientes, utilizando indicadores chave de desempenho (KPIs) que permitam ajustes contínuos nas estratégias de Customer Success para maximizar a satisfação e os resultados.
+   - Aprenda a aplicar Customer Success como uma estratégia central para aumentar a receita e retenção de clientes em sua empresa.
+   - Entenda a evolução e a importância do Customer Success e como ele se diferencia de outras áreas de atendimento ao cliente.
+   - Domine técnicas de escuta ativa e Spin Selling para melhorar o atendimento e impulsionar o sucesso do cliente.
+   - Identifique os principais indicadores de sucesso em Customer Success e como usá-los para avaliar e melhorar a experiência do cliente.
 - [ ] **Social Selling**:
    - Desenvolver uma presença digital sólida e autêntica que reforce a marca pessoal e profissional de vendedores, utilizando plataformas sociais para construir confiança e autoridade no mercado.
    - Capacitar equipe de vendas para identificar e engajar decisores certos dentro de redes sociais, aplicando técnicas de segmentação e prospecção que maximizem a eficácia das abordagens.
@@ -43,7 +43,10 @@
    - Mapear as necessidades do cliente de forma precisa e profunda, garantindo que as soluções propostas estejam alinhadas com os desafios e objetivos específicos de cada cliente, aumentando a relevância e a eficácia das propostas.
    - Desenvolver habilidades de influência e persuasão na equipe de vendas para guiar os clientes na escolha das soluções que melhor atendem às suas necessidades, utilizando argumentos baseados em valor e benefícios concretos.
    - Capacitar a equipe para criar e apresentar propostas assertivas e estratégicas, integrando a identificação de stakeholders, gestão de riscos e criação de cenários de uso, assegurando que cada proposta seja clara, convincente e focada em resultados mensuráveis.
-
+- [ ] **Perguntas poderosas sobre vendas**:
+   - Aprimorar a comunicação da equipe de vendas, desenvolvendo habilidades de escuta ativa e questionamento estratégico para evitar vieses cognitivos e entender profundamente as necessidades dos clientes.
+   - Capacitar a equipe para utilizar perguntas abertas e fechadas de forma eficaz, aplicando a técnica de SPIN Selling para desafiar os clientes e guiar conversas de vendas consultivas que conduzam a fechamentos bem-sucedidos.
+   - Integrar perguntas poderosas no processo de vendas para identificar e explorar oportunidades, facilitando a descoberta dos objetivos de negócio dos clientes e construindo propostas que atendam diretamente às suas necessidades.
 ## Habilidade Auxiliar: Empreendedorismo 
 - [ ] **Inovação Social e Empreendedorismo**:
    - Construir e fortalecer um ecossistema de inovação dentro das organizações, onde profissionais são incentivados a colaborar, compartilhar conhecimentos e experimentar novas abordagens, utilizando o empreendedorismo social como um motor para a transformação e o crescimento sustentável.
@@ -85,7 +88,7 @@
    - Estudar os concorrentes para identificar lacunas e diferenciais.
    - Testar hipóteses para validar a viabilidade do produto.
    - Mapear as jornadas dos usuários para identificar pontos de dor.
-- [ ] **Gestão de Projetos**:
+- [ ] **Digital product management**:
    - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
    - Colocar as necessidades dos usuários no centro do processo de desenvolvimento.
    - Definir uma visão clara e estratégia para o produto digital.

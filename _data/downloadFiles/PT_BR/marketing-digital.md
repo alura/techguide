@@ -42,9 +42,10 @@
    - Explorar o uso de automação em Inbound Marketing, configurando fluxos de nutrição de leads e utilizando ferramentas para simplificar e acelerar processos, garantindo uma execução mais eficiente das campanhas.
    - Integrar e aplicar o conceito de flywheel, substituindo a lógica tradicional de funil de marketing, com foco em criar um ciclo contínuo de crescimento e retenção, alimentado pela experiência positiva dos clientes..
 - [ ] **Marketing Viral**:
-   - Compreender as estratégias e técnicas de buzz marketing que podem ajudar uma marca a alcançar a viralização, criando campanhas que ressoam profundamente com o público.
-   - Identificar e alavancar influenciadores e outros fatores-chave que podem amplificar a mensagem de uma marca, ajudando-a a atingir um público maior e mais engajado.
-   - Analisar casos de sucesso de marketing viral para aprender como atributos emocionais e comportamentais dos consumidores podem ser explorados para gerar engajamento massivo e lealdade à marca.
+   - Estudar as métricas de marketing viral, aprendendo a identificar possíveis problemas e otimizar continuamente as campanhas para alcançar os melhores resultados em termos de engajamento e conversão.
+   - Compreender como o Buzz Marketing e outras estratégias virais podem ser utilizadas para ampliar significativamente o alcance de uma marca, gerando um impacto duradouro e positivo.
+   - Explorar exemplos reais de campanhas virais bem-sucedidas, analisando os elementos que contribuíram para seu sucesso e como esses fatores podem ser replicados em diferentes contextos.
+   - Identificar e trabalhar com influenciadores-chave e comunidades online para criar uma base sólida de defensores da marca, maximizando a propagação das mensagens de marketing de forma orgânica.
 - [ ] **E-mail marketing**:
    - Compreender como o e-mail marketing é utilizado por empresas para alcançar leads de forma eficiente, incluindo a criação de listas de contatos segmentadas e personalizadas para maximizar o impacto das campanhas.
    - Aprender a utilizar técnicas de copywriting e CTAs (Call to Actions) para aumentar as taxas de engajamento e conversão, garantindo que as mensagens de e-mail sejam persuasivas e levem o lead à ação desejada.
@@ -62,10 +63,10 @@
    - Desenvolva estratégias de engajamento ao longo da jornada para melhorar a retenção e a lealdade do cliente.
    - Aplique uma mentalidade centrada no cliente para criar experiências que atendam às necessidades e expectativas em cada etapa da jornada.
 - [ ] **Customer Success**:
-   - Implementar uma cultura centrada no cliente, garantindo que todas as equipes compreendam e apliquem os princípios de Customer Success para entregar valor contínuo e satisfatório aos clientes.
-   - Desenvolver estratégias de retenção de clientes através de práticas de Customer Success, utilizando métricas e feedbacks para adaptar produtos e serviços às necessidades específicas dos clientes, aumentando a lealdade e diminuindo o churn.
-   - Capacitar a equipe com técnicas de escuta ativa e metodologias como Spin Selling para otimizar o atendimento e resolver de forma proativa os desafios dos clientes, garantindo uma experiência excepcional.
-   - Criar um processo estruturado para monitorar e medir o sucesso dos clientes, utilizando indicadores chave de desempenho (KPIs) que permitam ajustes contínuos nas estratégias de Customer Success para maximizar a satisfação e os resultados.
+   - Aprenda a aplicar Customer Success como uma estratégia central para aumentar a receita e retenção de clientes em sua empresa.
+   - Entenda a evolução e a importância do Customer Success e como ele se diferencia de outras áreas de atendimento ao cliente.
+   - Domine técnicas de escuta ativa e Spin Selling para melhorar o atendimento e impulsionar o sucesso do cliente.
+   - Identifique os principais indicadores de sucesso em Customer Success e como usá-los para avaliar e melhorar a experiência do cliente.
 - [ ] **Roadmap**:
    - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
    - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
@@ -77,17 +78,17 @@
    - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.
 ## Habilidade Auxiliar: Business Agility 
 - [ ] **Gestão Ágil**:
-   - Compreender a diferença entre gestão tradicional e gestão ágil, explorando como a flexibilidade e adaptação rápida da gestão ágil contrastam com a rigidez e hierarquia dos métodos tradicionais.
-   - Implementar práticas contínuas de melhoria e feedback em processos ágeis, integrando essas abordagens para otimizar o desempenho da equipe e garantir adaptação rápida e inovação constante.
-   - Explorar conceitos e impacto na liderança ágil, entendendo como navegar em ambientes desafiadores por meio de estratégias adaptativas e flexíveis.
-   - Desenvolver habilidades essenciais de liderança e motivação para ambientes ágeis, aprimorando a comunicação, delegação e empoderamento para fomentar um ambiente de trabalho colaborativo e inovador.
+   - Compreender os princípios da Gestão Ágil e sua aplicação para melhorar a adaptabilidade e inovação.
+   - Implementar metodologias ágeis, como Scrum e Kanban, em projetos e processos empresariais.
+   - Fomentar a colaboração e auto-organização das equipes para decisões rápidas e eficazes.
+   - Utilizar ferramentas e métricas ágeis para monitorar e melhorar o desempenho dos projetos.
 - [ ] **Lean-Ágil além da TI**:
    - Entenda como as práticas Lean-Ágil podem ser escaladas em toda a organização, contribuindo para a transformação cultural e estratégica em direção à agilidade nos negócios.
    - Expanda sua visão ágil além do contexto de TI, aprendendo a aplicar o mindset Lean-Ágil em toda a organização, promovendo a inovação e a redução de desperdícios em todos os setores.
    - Desenvolva competências estratégicas para liderar transformações Lean-Ágil em sua empresa, integrando conceitos de agilidade escalada e discreta para alcançar melhores resultados organizacionais.
    - Diagnostique o estágio atual da sua organização em relação à agilidade, identificando oportunidades para a implementação de metodologias ágeis que impulsionem o crescimento e a eficiência.
 - [ ] **Métricas Ágeis**:
-   - Identificar e dominar as principais métricas ágeis para garantir o sucesso dos projetos e a melhoria contínua dos processos dentro de um ambiente ágil.
-   - Desenvolver habilidades para interpretar métricas ágeis, facilitando tomadas de decisões estratégicas que aumentem a eficiência e a eficácia das equipes.
-   - Aprimorar a comunicação dos resultados das métricas de forma clara e impactante, assegurando o alinhamento de todos os stakeholders com os objetivos do projeto.
-   - Explorar ferramentas e técnicas para a medição e visualização de métricas ágeis, permitindo adaptações rápidas e contínuas para otimizar os processos de trabalho..
+   - Essencial compreender a importância das métricas ágeis na avaliação do desempenho das equipes e na identificação de áreas de melhoria contínua, sendo que métricas bem definidas ajudam a garantir que as equipes estejam no caminho certo para alcançar seus objetivos.
+   - Aprender a utilizar diferentes tipos de métricas ágeis, como lead time, cycle time, throughput, e velocity, para obter uma visão abrangente do desempenho e da produtividade das equipes. Cada métrica oferece insights específicos que são essenciais para a gestão eficaz de projetos ágeis.
+   - Desenvolver habilidades para coletar, analisar e interpretar dados de métricas ágeis, transformando esses dados em insights acionáveis que possam orientar decisões estratégicas e operacionais. A análise correta dos dados permite ajustes precisos nos processos e práticas.
+   - Explorar estratégias para implementar e integrar métricas ágeis no dia a dia das equipes, promovendo uma cultura de transparência e melhoria contínua. A integração eficaz de métricas nas rotinas das equipes garante um monitoramento constante e ajustes ágeis conforme necessário.

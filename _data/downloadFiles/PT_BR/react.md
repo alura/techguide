@@ -151,7 +151,12 @@
 - [ ] **Framer Motion**:
    - Criar animações
 - [ ] **Service Workers**:
-   - Melhorar a performance e trabalhar offline
+   - Melhorar a performance e trabalhar offline;
+   - Permitem que aplicações web armazenem recursos no cache;
+   - Interceptam e gerenciam requisições de rede;
+   - Facilitam notificações push, mesmo quando o app não está aberto ou usuário não está na página;
+   - Funcionam como um intermediário entre o navegador e a rede/servidor;
+   - São assíncronos e não acessam diretamente o DOM, garantindo segurança e eficiência;
 - [ ] **React - Validação de formulários**:
    - Em React, é super importante que, em formulários, os dados inseridos pelos usuários atendam a critérios específicos antes do envio ou processamento das informações.
    - Conhecer o Formik e o React Hook Form, bibliotecas populares para lidar com formulários em React.
