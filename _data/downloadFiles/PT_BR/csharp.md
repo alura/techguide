@@ -81,7 +81,6 @@
    - Enviar um objeto para um aplicativo remoto usando um serviço Web
    - Passar um objeto como uma cadeia de caracteres JSON ou XML
    - Passar informações específicas do usuário ou de segurança entre aplicativos
-
 - [ ] **ASP.NET Core**:
    - ASP.NET Core é um framework de código aberto e multi-plataforma para a construção de aplicações baseadas na nuvem, tais como aplicações web, aplicações IoT e backends mobile.
    - Criar aplicações e serviços Web
