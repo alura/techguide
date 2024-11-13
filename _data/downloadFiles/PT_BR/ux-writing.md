@@ -1,0 +1,68 @@
+# UX Writing
+## Nivel 1
+- [ ] **UX Writing**:
+   - A experiência de uma pessoa com um produto ou serviço envolve muitos aspectos diferentes e cada um precisa ser estudado detalhadamente. Um dos aspectos mais importantes é a escrita, pois é através dos textos e palavras que conseguimos nos comunicar, nos conectar, ajudar e orientar as pessoas usuárias através de sua vivência com um produto ou serviço.
+   - null
+- [ ] **Entendendo a escrita em UX - UX Writing**:
+   - A experiência de uma pessoa com um produto ou serviço envolve muitos aspectos diferentes e cada um precisa ser estudado detalhadamente. Um dos aspectos mais importantes é a escrita, pois é através dos textos e palavras que conseguimos nos comunicar, nos conectar, ajudar e orientar as pessoas usuárias através de sua vivência com um produto ou serviço.
+   - null
+- [ ] **Design Thinking**:
+   - Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.
+   - Entenda profundamente as necessidades dos usuários.
+   - Clarifique o problema baseado nos insights coletados.
+   - Gere uma ampla gama de ideias inovadoras.
+   - Crie modelos simples para explorar soluções.
+   - Refine as soluções com base no feedback dos testes.
+   - Envolva diversas perspectivas na solução de problemas.
+   - Use métodos visuais para comunicar ideias e processos.
+## Nivel 2
+- [ ] **Se comunicando com a pessoa usuária - UX Writing**:
+   - A experiência de uma pessoa com um produto ou serviço envolve muitos aspectos diferentes e cada um precisa ser estudado detalhadamente. Um dos aspectos mais importantes é a escrita, pois é através dos textos e palavras que conseguimos nos comunicar, nos conectar, ajudar e orientar as pessoas usuárias através de sua vivência com um produto ou serviço.
+   - null
+- [ ] **Technical Writing**:
+   - Aprimorar a documentação técnica ao desenvolver habilidades de escrita técnica para criar documentos claros e precisos, garantindo que conceitos complexos sejam traduzidos de forma acessível a todos os públicos, desde desenvolvedores até usuários finais.
+   - Compreender como a clareza e acessibilidade da documentação técnica impactam diretamente a experiência do usuário e como o UX Writing pode ser integrado à produção de documentação.
+   - Aplicar o método Document Development Life Cycle para garantir a qualidade e consistência das documentações, usando técnicas de revisão e feedback contínuo, melhorando a colaboração entre as equipes de UX e desenvolvimento.
+- [ ] **Acessibilidade em UX**:
+   - Capacitar profissionais a criar produtos digitais inclusivos, assegurando que todas as fases do desenvolvimento priorizem a acessibilidade.
+   - Aplicar as diretrizes WCAG (Web Content Accessibility Guidelines) para garantir conformidade com os padrões internacionais de acessibilidade.
+   - Conduzir pesquisas com um mindset inclusivo, garantindo que desde as primeiras etapas a acessibilidade seja considerada.
+   - Elaborar handoffs eficientes entre equipes, mantendo o foco na acessibilidade durante o desenvolvimento.
+## Nivel 3
+- [ ] **O texto no produto e no dia a dia - UX Writing**:
+   - O texto em um negócio é algo vivo, por isso é importante sempre atualizar e entender se a maneira na qual o negócio está conversando com sua base de pessoas usuárias está de acordo com o esperado.
+- [ ] **Documentação e portfólio em UX**:
+   - Após mergulhar nas divisões da UX e realizar projetos, é preciso divulgar seu trabalho e mostrar para as pessoas que você é um(a) profissional da área!
+- [ ] **NLP Q&A e Geração de Textos**:
+   - NLP (Natural Language Processing), Q&A (Question and Answering) e geração de textos são termos relacionados à área de processamento de linguagem natural.
+## Habilidade Auxiliar: UI Design 
+- [ ] **Princípios do design visual**:
+   - null
+   - Conheça as propriedades fundamentais destes elementos quanto aprender como manipulá-las em seus projetos.
+- [ ] **Fundamentos de UI**:
+   - O ponto de partida ideal para começarmos a desbravar a área de User Interface Design é entendendo perfeitamente o que ela é, como é representada, como outros profissionais a enxergam, e claro, sua relevância para a construção de um produto.
+- [ ] **Ferramentas de design (Figma e Sketch)**:
+   - O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos. O Sketch é um app similar ao Figma, que roda tanto na web quando no iOS.
+## Habilidade Auxiliar: UX Design 
+- [ ] **Primeiro contato com UX**:
+   - Não existe aplicativo ou site sem usuário. Uma ideia só vira um produto quando é usada por alguém de verdade. E um produto só é um sucesso quando a pessoa tem uma experiência voltada exclusivamente para ela.
+   - A área de UX - Experiência do Usuário - é um campo riquíssimo de conhecimento e desafios sobre como facilitar o contato dos nossos usuários com nossos produtos digitais e como essas pessoas se sentem. É um mercado imenso, sendo importante na Web, na construção de aplicativos e sistemas, além de ser importante também no mundo off-line.
+   - A especialidade em UX é hoje bastante requisitada em todo tipo de projeto de tecnologia, desde pequenas startups até grandes empresas. Este profissional é responsável por garantir que o design atenda às necessidades das pessoas usuárias, garantindo uma boa experiência de uso/compra para estas pessoas.
+- [ ] **UX Research**:
+   - Para criar produtos e serviços que sejam úteis e tragam uma boa experiência para as pessoas usuárias, precisamos entender as suas dores e necessidades. Para realizar esse trabalho temos diversas técnicas de pesquisa que vão desde ouvir o que o usuário pensa sobre, até entender o comportamento que ele tem usando um produto digital ou serviço. Chamamos essa vertente de UX Research, que fica dentro do guarda chuva de disciplinas de UX Design.
+   - Aprender as metodologias de pesquisa mais utilizadas na rotina de quem trabalha como UX Researcher.
+   - Conhecer técnicas qualitativas como a entrevista com usuários, pesquisa etnográfica e testes de usabilidade.
+   - Avaliar comportamento e interações mapeando jornadas e documentar estratégias conhecendo o mercado e seus concorrentes com a pesquisa.
+- [ ] **UX Strategy**:
+   - As áreas da UX estão se consolidando cada dia mais no mercado, e uma de suas vertentes é a UX Strategy. Ela possui importânica significativa em negócios, pois atende a proposta de vincular a experiência da pessoa usuária e seus métodos com os pilares estratégicos do negócio e manter saudável tanto para a empresa como para a pessoa usuária as decisões tomadas mediante as descobertas feitas em pesquisas do produto.
+   - Entender como a UX conversa com o negócio e sua estratégia
+   - Aprender a aplicar métodos de pesquisa que atendam as expectativas e objetivos do negócio.
+- [ ] **Roadmap**:
+   - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
+   - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
+   - Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.
+   - Defina marcos e prazos realistas para o desenvolvimento e entrega.
+   - Comunique o roadmap de forma clara e transparente com todas as partes interessadas.
+   - Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.
+   - Colete feedback regularmente para ajustar o roadmap conforme necessário.
+   - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.
