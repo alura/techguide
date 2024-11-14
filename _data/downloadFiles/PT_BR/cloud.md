@@ -115,7 +115,7 @@
    - Melhorar a escalabilidade de um sistema
 - [ ] **Entrega e integração contínuas (CI/CD)**:
    - CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português "entrega e integração contínuas". Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.
-   - Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, ja que assim é possivel acelerar o desenvolvimento e diminiur o tempo de entrega de software.
+   - Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, já que assim é possivel acelerar o desenvolvimento e diminuir o tempo de entrega de software.
    - Executar testes automatizados da aplicação para verificar seu funcionamento.
    - Realizar a entrega de atualizações de forma automatica e com segurança.
    - Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.
