@@ -7,7 +7,7 @@
   "name": "Nome do Guia",
   "expertise": [
     {
-      "name": "Nivel 1 - Básico",
+      "name": "Nível 1 - Básico",
       "cards": [
         {
           "name": "Nome do Cartão Customizado",
@@ -30,22 +30,22 @@
       ]
     },
     {
-      "name": "Nivel 2 - Intermediário",
-      "cards": [] // Use os cards do "name": "Nivel 1 - Básico", como referência
+      "name": "Nível 2 - Intermediário",
+      "cards": [] // Use os cards do "name": "Nível 1 - Básico", como referência
     },
     {
-      "name": "Nivel 3 - Avançado",
-      "cards": [] // Use os cards do "name": "Nivel 1 - Básico", como referência
+      "name": "Nível 3 - Avançado",
+      "cards": [] // Use os cards do "name": "Nível 1 - Básico", como referência
     }
   ],
   "collaboration": [
     {
       "name": "Lado Esquerdo do T",
-      "cards": [] // Use os cards do "name": "Nivel 1 - Básico", como referência
+      "cards": [] // Use os cards do "name": "Nível 1 - Básico", como referência
     },
     {
       "name": "Lado Direito do T",
-      "cards": [] // Use os cards do "name": "Nivel 1 - Básico", como referência
+      "cards": [] // Use os cards do "name": "Nível 1 - Básico", como referência
     }
   ]
 }
@@ -53,6 +53,6 @@
 
 > Em breve você poderá gerar esse arquivo diretamente pela interface e ao final só iremos pedir para que você salve-o em algum lugar público.
 
-2. Copie a URL publica do seu arquivo como aqui: `https://raw.githubusercontent.com/omariosouto/omariosouto/main/techguide.json`
+1. Copie a URL publica do seu arquivo como aqui: `https://raw.githubusercontent.com/omariosouto/omariosouto/main/techguide.json`
 
-3. Em breve você poderá carregá-la diretamente na interface
+1. Em breve você poderá carregá-la diretamente na interface
