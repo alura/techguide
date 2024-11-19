@@ -1,0 +1,58 @@
+name: Educação
+tags:
+  - educação
+expertise:
+  - name: education Jr
+    cards:
+      - teaching-and-learning:
+        priority: 10
+      - distance-education:
+        priority: 10
+      - content-creation:
+        priority: 9
+      - accessibility-in education:
+        priority: 10
+  - name: education Mid
+    cards:
+      - teaching-methods:
+        priority: 10
+      - lifelong-learning:
+        priority: 9
+      - corporate-education:
+        priority: 9
+      - tools-of-accessibility:
+        priority: 9
+      - management-tools:
+        priority: 8
+  - name: education in depth
+    cards:
+      - ai-in-education:
+        priority: 9
+      - learning-organizational:
+        priority: 8
+      - knowledge-management:
+        priority: 8
+collaboration:
+    - name: Artificial Intelligence
+    cards:
+      - types-of-ai:
+        priority: 9
+      - chatbots-and-virtual-assistants:
+        priority: 9
+      - data-analytics-and-ai:
+        priority: 9
+  - name: Digital Content
+     cards:
+      - content-marketing:
+        priority: 8
+      - content-creation-tools:
+        priority: 9
+      - instructional-design:
+        priority: 8
+
+      
+
+
+    
+
+
