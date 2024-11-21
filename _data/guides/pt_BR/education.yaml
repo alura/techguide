@@ -4,13 +4,13 @@ tags:
 expertise:
   - name: education Jr
     cards:
-      - teaching-and-learning:
+      - education-and-learning:
         priority: 10
       - distance-education:
         priority: 10
       - content-creation:
         priority: 9
-      - accessibility-in education:
+      - accessibility-in-education:
         priority: 10
   - name: education Mid
     cards:
@@ -33,7 +33,7 @@ expertise:
       - knowledge-management:
         priority: 8
 collaboration:
-    - name: Artificial Intelligence
+  - name: Artificial Intelligence
     cards:
       - types-of-ai:
         priority: 9
@@ -42,7 +42,7 @@ collaboration:
       - data-analytics-and-ai:
         priority: 9
   - name: Digital Content
-     cards:
+    cards:
       - content-marketing:
         priority: 8
       - content-creation-tools:
