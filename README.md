@@ -21,7 +21,7 @@ A gente se inspirou no também opensource http://roadmap.sh, porém usando a abo
 
 
 ## Posso sugerir novas carreiras?
-> **R:** Sim! Use o mecanismo de contribuição do Github. Nesse momento estamos focados em corrigir erros e melhorar as carreiras existentes.
+> **R:** Sim! Use o mecanismo de contribuição do GitHub. Nesse momento estamos focados em corrigir erros e melhorar as carreiras existentes.
 
 > [Por enquanto você pode criar o seu próprio! basta seguir esse tutorial](./docs/br/criando-seu-guide.md)
 
@@ -30,7 +30,7 @@ A gente se inspirou no também opensource http://roadmap.sh, porém usando a abo
 ## Contributing/Contribuir
 
 ### O que devo ter em mente antes de abrir um PullRequest?
-- Esse é um projeto opensource feito pela Alura para a comunidade e contribuições são bem vindas.
+- Esse é um projeto opensource feito pela Alura para a comunidade e contribuições são bem-vindas.
 - Para aumentar a chance de a sua contribuição ser aprovada, escolha um título legal, simples e explicativo para os itens, e siga a formatação correta dos arquivos.
 - Nesse momento não estamos buscando carreiras novas. Queremos refinar as que já temos.
 - Mais interessante seria ajudar com o código e projeto em si

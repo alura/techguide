@@ -81,12 +81,12 @@ export default {
     {
       "title": "04 - Can I suggest new careers?",
       "answer":
-        "Yes! Use our repository contribution mechanism on <a href='https://github.com/alura/techguide'>Github</a>. Right now, we are focusing on fixing bugs and improving existing careers."
+        "Yes! Use our repository contribution mechanism on <a href='https://github.com/alura/techguide'>GitHub</a>. Right now, we are focusing on fixing bugs and improving existing careers."
     },
     {
       "title": "05 - Can I suggest changes or corrections?",
       "answer":
-        "Yes, contributions are welcome. To do so, use our repository contribution mechanism on <a href='https://github.com/alura/techguide'>Github</a>."
+        "Yes, contributions are welcome. To do so, use our repository contribution mechanism on <a href='https://github.com/alura/techguide'>GitHub</a>."
     }
   ],
   "GUIDES.SHOW_ALL": "See all",
