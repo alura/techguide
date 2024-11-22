@@ -4,7 +4,7 @@
 
 - Caso você queira reusar algum de nossos conteúdos/cards no seu guia em vez de criar seu próprio card do zero, basta preencher, no lugar de `id`, o nome de qualquer um dos nossos cards que estão nessa lista <https://github.com/alura/techguide/tree/main/_data/cards/pt_BR>, como por exemplo: `javascript-fundamentals` ou `python-collections` (Não precisa preencher a extensão do arquivo 😉)
 
-1. Com seu arquivo criado basta montar uma URL como essa:
+2. Com seu arquivo criado basta montar uma URL como essa:
 
 ```sh
 https://techguide.sh/pt-BR/my?url=https://github.com/omariosouto/omariosouto/blob/main/techguide-v1.json
@@ -18,4 +18,4 @@ https://techguide.sh/pt-BR/my?url=https://github.com/omariosouto/omariosouto/blo
 https://techguide.sh/pt-BR/my?url=SUA_URL_AQUI
 ```
 
-1. Pronto! Você já tem seu próprio Guia! 🎉 Agora é só compartilhar com todo mundo! 🚀
+3. Pronto! Você já tem seu próprio Guia! 🎉 Agora é só compartilhar com todo mundo! 🚀
