@@ -1,0 +1,83 @@
+# Design de Jogos
+## Nivel 1
+- [ ] **O que é design de jogos**:
+   - Compreender os elementos essenciais do design de jogos, incluindo narrativa, mecânica e jogabilidade, fundamentais para criar experiências memoráveis e interativas para os jogadores.
+   - Desenvolver habilidades para criar personagens, cenários e histórias que engajem o público.
+   - Desenvolver habilidades para trabalhar em equipe e comunicar ideias de design, incluindo prototipagem e documentação para um desenvolvimento eficiente.
+   - Entender a importância do balanceamento de jogos e de como as mecânicas podem impactar diretamente na experiência do jogador.
+- [ ] **Gamificação**:
+   - null
+   - null
+   - null
+- [ ] **Design de Jogos como produto**:
+   - null
+   - null
+   - null
+## Nivel 2
+- [ ] **Storytelling**:
+   - null
+   - null
+   - null
+   - null
+- [ ] **UX/UI em design de jogos**:
+   - null
+   - null
+   - null
+   - null
+- [ ] **Direção de Arte no Design de Jogos**:
+   - null
+   - null
+   - null
+   - null
+## Nivel 3
+- [ ] **Inteligência Artificial (IA) no Design de Jogos**:
+   - Explorar técnicas e ferramentas de IA para criar interações dinâmicas e experiências personalizadas.
+   - Aprender como a IA pode ser utilizada para gerar conteúdo procedural, reduzindo custos de desenvolvimento e aumentando a diversidade de experiências no jogo.
+   - Entender como a IA está transformando o design de jogos, permitindo que NPCs e ambientes reajam de forma inteligente às ações dos jogadores.
+- [ ] **Estratégias de Monetização em Games**:
+   - Compreender os diferentes modelos de monetização de jogos, como compras in-game, assinaturas e anúncios, e suas implicações na experiência do jogador.
+   - Aprender a desenvolver estratégias de monetização que maximizem a receita sem comprometer a jogabilidade e a retenção de usuários.
+   - Explorar estudos de caso de jogos de sucesso para entender como diferentes estratégias foram aplicadas em diferentes mercados.
+- [ ] **Análise de Dados para Melhoria**:
+   - Aprender a coletar e interpretar dados de comportamento dos jogadores para identificar oportunidades de melhoria no design de níveis, balanceamento e progressão.
+   - Entender como a análise de dados pode informar o desenvolvimento contínuo, aprimorando a experiência dos jogadores com base em feedback real.
+   - Explorar ferramentas e técnicas para realizar testes e otimizar recursos do jogo com base em dados.
+## Habilidade Auxiliar: Digital Marketing 
+- [ ] **Explorando conceitos de Marketing Digital**:
+   - Compreender os princípios fundamentais do marketing digital, incluindo as diferentes áreas de atuação, como tráfego orgânico e pago, e as principais estratégias para aumentar a visibilidade online de uma marca.
+   - Explorar as principais plataformas digitais e ferramentas utilizadas para divulgar negócios na internet, garantindo que os perfis comerciais sejam otimizados e mantenham uma presença profissional.
+   - Aprender a diferenciar e aplicar as técnicas de tráfego orgânico e pago, desenvolvendo habilidades para planejar e executar campanhas de marketing digital que alcancem e envolvam o público-alvo de maneira eficaz..
+- [ ] **Branding**:
+   - Entender os componentes fundamentais do branding e como eles contribuem para a criação de uma marca memorável e diferenciada no mercado.
+   - Desenvolver uma identidade de marca consolidada, que comunique de forma clara e eficaz os valores e a missão da empresa, ajudando a criar marcas de sucesso que se destacam entre os concorrentes.
+   - Aplicar estratégias poderosas para construir e gerir a marca, criando experiências marcantes que ressoam com o público-alvo e fomentam a lealdade dos clientes.
+   - Inspirar-se em cases de sucesso para construir uma marca forte que estabeleça uma conexão emocional com os clientes, promovendo um relacionamento duradouro e um forte posicionamento no mercado..
+- [ ] **SEO**:
+   - Compreender os fundamentos do SEO, incluindo como ele funciona e por que é essencial para aumentar a visibilidade e o alcance de um site nos motores de busca.
+   - Aprender a aplicar as principais técnicas e estratégias de SEO, otimizando o conteúdo e a estrutura do site para melhorar o posicionamento nas páginas de resultados dos motores de busca (SERPs).
+   - Entender como funcionam os algoritmos dos principais motores de busca, como o Google, e como as atualizações nesses algoritmos podem impactar o desempenho de SEO de um site.
+   - Mensurar e analisar os resultados das estratégias de SEO utilizando as ferramentas certas, permitindo ajustes contínuos e garantindo que o site permaneça competitivo no ranking dos motores de busca..
+## Habilidade Auxiliar: Visual Design 
+- [ ] **Princípios do design visual**:
+   - null
+   - Conheça as propriedades fundamentais destes elementos quanto aprender como manipulá-las em seus projetos.
+- [ ] **Ferramentas de design (Figma e Sketch)**:
+   - O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos. O Sketch é um app similar ao Figma, que roda tanto na web quando no iOS.
+- [ ] **Design Thinking**:
+   - Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.
+   - Entenda profundamente as necessidades dos usuários.
+   - Clarifique o problema baseado nos insights coletados.
+   - Gere uma ampla gama de ideias inovadoras.
+   - Crie modelos simples para explorar soluções.
+   - Refine as soluções com base no feedback dos testes.
+   - Envolva diversas perspectivas na solução de problemas.
+   - Use métodos visuais para comunicar ideias e processos.
+- [ ] **Roadmap**:
+   - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
+   - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
+   - Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.
+   - Defina marcos e prazos realistas para o desenvolvimento e entrega.
+   - Comunique o roadmap de forma clara e transparente com todas as partes interessadas.
+   - Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.
+   - Colete feedback regularmente para ajustar o roadmap conforme necessário.
+   - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.
