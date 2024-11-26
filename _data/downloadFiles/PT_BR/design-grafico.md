@@ -1,0 +1,74 @@
+# Design Gráfico
+## Nivel 1
+- [ ] **O que é design**:
+   - null
+   - null
+   - null
+   - null
+- [ ] **Elementos essenciais**:
+   - null
+   - null
+- [ ] **Criação e composição**:
+   - null
+   - null
+   - null
+## Nivel 2
+- [ ] **Identidade visual**:
+   - null
+   - null
+   - null
+   - null
+- [ ] **Ferramentas gratuitas em design gráfico**:
+   - null
+   - null
+   - null
+- [ ] **Impressão no Design Gráfico**:
+   - null
+   - null
+   - null
+   - null
+## Nivel 3
+- [ ] **Design de embalagens**:
+   - null
+   - null
+   - null
+- [ ] **Diagramação e layout avançado**:
+   - null
+   - null
+- [ ] **Design para produtos digitais**:
+   - null
+   - null
+   - null
+## Habilidade Auxiliar: Digital Marketing 
+- [ ] **Explorando conceitos de Marketing Digital**:
+   - Compreender os princípios fundamentais do marketing digital, incluindo as diferentes áreas de atuação, como tráfego orgânico e pago, e as principais estratégias para aumentar a visibilidade online de uma marca.
+   - Explorar as principais plataformas digitais e ferramentas utilizadas para divulgar negócios na internet, garantindo que os perfis comerciais sejam otimizados e mantenham uma presença profissional.
+   - Aprender a diferenciar e aplicar as técnicas de tráfego orgânico e pago, desenvolvendo habilidades para planejar e executar campanhas de marketing digital que alcancem e envolvam o público-alvo de maneira eficaz..
+- [ ] **Branding**:
+   - Entender os componentes fundamentais do branding e como eles contribuem para a criação de uma marca memorável e diferenciada no mercado.
+   - Desenvolver uma identidade de marca consolidada, que comunique de forma clara e eficaz os valores e a missão da empresa, ajudando a criar marcas de sucesso que se destacam entre os concorrentes.
+   - Aplicar estratégias poderosas para construir e gerir a marca, criando experiências marcantes que ressoam com o público-alvo e fomentam a lealdade dos clientes.
+   - Inspirar-se em cases de sucesso para construir uma marca forte que estabeleça uma conexão emocional com os clientes, promovendo um relacionamento duradouro e um forte posicionamento no mercado..
+- [ ] **SEO**:
+   - Compreender os fundamentos do SEO, incluindo como ele funciona e por que é essencial para aumentar a visibilidade e o alcance de um site nos motores de busca.
+   - Aprender a aplicar as principais técnicas e estratégias de SEO, otimizando o conteúdo e a estrutura do site para melhorar o posicionamento nas páginas de resultados dos motores de busca (SERPs).
+   - Entender como funcionam os algoritmos dos principais motores de busca, como o Google, e como as atualizações nesses algoritmos podem impactar o desempenho de SEO de um site.
+   - Mensurar e analisar os resultados das estratégias de SEO utilizando as ferramentas certas, permitindo ajustes contínuos e garantindo que o site permaneça competitivo no ranking dos motores de busca..
+## Habilidade Auxiliar: UI Design 
+- [ ] **Fundamentos de UI**:
+   - O ponto de partida ideal para começarmos a desbravar a área de User Interface Design é entendendo perfeitamente o que ela é, como é representada, como outros profissionais a enxergam, e claro, sua relevância para a construção de um produto.
+- [ ] **Avançando na UI**:
+   - Dê início em processos de UI, idealizando a construção de um produto, entendendo os fundamentos e estruturas.
+- [ ] **UI em profundidade**:
+   - Uma interface é como o corpo humano - por fora, temos o visual, mas por dentro, temos diversos organismos que executam funções diferentes, mas que unidos, compoem a estrutura dos nossos corpos.
+   - Assim, com a nossa estrutura do produto construída, diversos insights já levantados, e muitos processos executados, podemos começar a construção do que chamamos de "protótipo em alta fidelidade", que se trata do produto final com o qual seu cliente e as pessoas usuárias irão interagir.
+   - Conheça os UI Patterns, que se tratam de comportamentos ideais para todo tipo de cenário, um conteúdo extremamente importante para qualquer um que queira criar produtos digitais.
+- [ ] **Roadmap**:
+   - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
+   - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
+   - Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.
+   - Defina marcos e prazos realistas para o desenvolvimento e entrega.
+   - Comunique o roadmap de forma clara e transparente com todas as partes interessadas.
+   - Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.
+   - Colete feedback regularmente para ajustar o roadmap conforme necessário.
+   - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.
