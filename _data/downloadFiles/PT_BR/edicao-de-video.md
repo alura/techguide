@@ -1,0 +1,76 @@
+# Edição de Vídeo
+## Nivel 1
+- [ ] **Introdução ao Áudiovisual**:
+   - Compreender os elementos fundamentais do audiovisual, incluindo resolução e taxa de quadros.
+   - Aprender sobre a história e evolução do cinema e vídeo.
+   - Explorar o impacto de áudio e vídeo na criação de conteúdo envolvente.
+- [ ] **Edição e Ritmo**:
+   - Compreender a importância do ritmo na edição de vídeos para criar uma narrativa envolvente.
+   - Aprender técnicas de corte e transição para manter o interesse do público.
+   - Explorar o uso de efeitos de som e música para intensificar o impacto emocional do vídeo.
+- [ ] **Correção de cor e ajustes de imagem**:
+   - Compreender os fundamentos da correção de cor e ajuste de imagem.
+   - Aprender a utilizar ferramentas para ajuste de brilho, contraste e saturação.
+   - Aplicar técnicas de correção de cor para melhorar a qualidade visual dos vídeos.
+## Nivel 2
+- [ ] **Edição para plataformas de mídia social**:
+   - Entender as especificidades de edição para cada plataforma de mídia social, como Instagram, TikTok e YouTube.
+   - Aprender a ajustar o formato, duração e estilo dos vídeos para engajar o público de forma eficaz.
+   - Utilizar elementos visuais e textuais que maximizem o impacto e a retenção em visualizações curtas.
+- [ ] **Edição com Identidade Visual**:
+   - Estabelecer uma identidade visual consistente que fortaleça a marca ou estilo do conteúdo.
+   - Aprender a incorporar elementos visuais únicos, como cores, tipografia e gráficos, na edição de vídeo.
+   - Explorar técnicas para criar uma experiência visual coesa que ressoe com o público.
+- [ ] **Edição baseada em narrativa**:
+   - Explorar técnicas para criar uma narrativa envolvente e coesa em vídeos.
+   - Aprender a estruturar o conteúdo de forma que cada cena contribua para o desenvolvimento da história.
+   - Compreender o papel da edição ao fortalecer o enredo se conectando emocionalmente com o público.
+## Nivel 3
+- [ ] **Efeitos visuais e animação avançados**:
+   - Compreender as principais técnicas de efeitos visuais avançados e como aplicá-las em edições complexas.
+   - Explorar animação e efeitos de movimento para criar vídeos envolventes e dinâmicos.
+   - Aprender a integrar VFX e animações no fluxo de trabalho de edição para otimizar o processo criativo.
+- [ ] **Design de som imersivo**:
+   - Compreender a importância do design de som para criar uma experiência envolvente em vídeos e filmes.
+   - Aprender técnicas de gravação, edição e mixagem para criar paisagens sonoras imersivas.
+   - Explorar como o som impacta a narrativa e a emoção no conteúdo audiovisual.
+- [ ] **Edição de vídeo orientada por dados**:
+   - Compreender como dados e métricas de performance influenciam escolhas de edição.
+   - Aplicar técnicas de edição para maximizar o engajamento e a retenção com base em análises de dados.
+   - Utilizar insights de dados para otimizar o conteúdo e atender às necessidades de audiência específicas.
+## Habilidade Auxiliar: Motion Design and Devlopment 
+- [ ] **Design em movimento**:
+   - Dominar as ferramentas e técnicas para criar animações e incorporar movimento nas peças gráficas, tornando o conteúdo mais dinâmico e atraente para mídias sociais.
+   - Aprender a combinar comunicação visual com design em movimento de forma coerente, garantindo que as animações reforcem a mensagem e captem a atenção do público.
+   - Entender como equilibrar e destacar informações em uma imagem em movimento, utilizando princípios de design para guiar a atenção do espectador de maneira eficaz.
+   - Conhecer os diferentes formatos de vídeos e animações ideais para mídias sociais, garantindo que o conteúdo esteja otimizado para cada plataforma e seu respectivo público-alvo.
+- [ ] **Dados com animações**:
+   - Aprender a transformar dados brutos em animações visuais envolventes que facilitem a compreensão.
+   - Explorar o uso de infográficos animados e elementos visuais para representar dados complexos de forma acessível.
+   - Dominar técnicas no After Effects para animar gráficos e dados de maneira que capture a atenção e transmita a mensagem de forma clara.
+- [ ] **Framer Motion**:
+   - Criar animações
+## Habilidade Auxiliar: Digital Marketing 
+- [ ] **Explorando conceitos de Marketing Digital**:
+   - Compreender os princípios fundamentais do marketing digital, incluindo as diferentes áreas de atuação, como tráfego orgânico e pago, e as principais estratégias para aumentar a visibilidade online de uma marca.
+   - Explorar as principais plataformas digitais e ferramentas utilizadas para divulgar negócios na internet, garantindo que os perfis comerciais sejam otimizados e mantenham uma presença profissional.
+   - Aprender a diferenciar e aplicar as técnicas de tráfego orgânico e pago, desenvolvendo habilidades para planejar e executar campanhas de marketing digital que alcancem e envolvam o público-alvo de maneira eficaz..
+- [ ] **Branding**:
+   - Entender os componentes fundamentais do branding e como eles contribuem para a criação de uma marca memorável e diferenciada no mercado.
+   - Desenvolver uma identidade de marca consolidada, que comunique de forma clara e eficaz os valores e a missão da empresa, ajudando a criar marcas de sucesso que se destacam entre os concorrentes.
+   - Aplicar estratégias poderosas para construir e gerir a marca, criando experiências marcantes que ressoam com o público-alvo e fomentam a lealdade dos clientes.
+   - Inspirar-se em cases de sucesso para construir uma marca forte que estabeleça uma conexão emocional com os clientes, promovendo um relacionamento duradouro e um forte posicionamento no mercado..
+- [ ] **SEO**:
+   - Compreender os fundamentos do SEO, incluindo como ele funciona e por que é essencial para aumentar a visibilidade e o alcance de um site nos motores de busca.
+   - Aprender a aplicar as principais técnicas e estratégias de SEO, otimizando o conteúdo e a estrutura do site para melhorar o posicionamento nas páginas de resultados dos motores de busca (SERPs).
+   - Entender como funcionam os algoritmos dos principais motores de busca, como o Google, e como as atualizações nesses algoritmos podem impactar o desempenho de SEO de um site.
+   - Mensurar e analisar os resultados das estratégias de SEO utilizando as ferramentas certas, permitindo ajustes contínuos e garantindo que o site permaneça competitivo no ranking dos motores de busca..
+- [ ] **Roadmap**:
+   - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
+   - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
+   - Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.
+   - Defina marcos e prazos realistas para o desenvolvimento e entrega.
+   - Comunique o roadmap de forma clara e transparente com todas as partes interessadas.
+   - Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.
+   - Colete feedback regularmente para ajustar o roadmap conforme necessário.
+   - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.
