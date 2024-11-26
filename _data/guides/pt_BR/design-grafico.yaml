@@ -1,0 +1,48 @@
+name: Design Gráfico
+tags:
+  - design
+expertise:
+  - name: graphic design Jr
+    cards:
+      - whats-design:
+        priority: 10
+      - essential-elements:
+        priority: 10
+      - creation-and-composition:
+        priority: 10
+  - name: graphic design Mid
+    cards:
+      - visual-identity:
+        priority: 9
+      - free-tools-in-graphic-design:
+        priority: 9
+      - printing-in-graphic-design:
+        priority: 9
+  - name: graphic design in depth
+    cards:
+      - packaging-design:
+        priority: 8
+      - advanced-diagramming-layout:
+        priority: 8
+      - design-for-digital-products:
+        priority: 8
+collaboration:
+  - name: Digital Marketing
+    cards:
+      - exploring-digital-marketing-concepts:
+        priority: 9
+      - branding:
+        priority: 9
+      - seo:
+        priority: 9
+  - name: UI Design
+    cards:
+      - ui-fundamentals:
+        priority: 9
+      - advancing-the-ui:
+        priority: 9
+      - in-depth-ui:
+        priority: 9
+      - roadmap:
+        priority: 9
+video: 
