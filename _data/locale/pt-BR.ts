@@ -85,12 +85,12 @@ export default {
     {
       "title": "04 - Posso sugerir novas carreiras?",
       "answer":
-        "Sim! Use o mecanismo de contribuição do nossos repositório no <a href='https://github.com/alura/techguide'>Github</a>. Neste momento, estamos focados em corrigir erros e melhorar as carreiras existentes."
+        "Sim! Use o mecanismo de contribuição do nossos repositório no <a href='https://github.com/alura/techguide'>GitHub</a>. Neste momento, estamos focados em corrigir erros e melhorar as carreiras existentes."
     },
     {
       "title": "05 - Posso sugerir alterações ou correções?",
       "answer":
-        "Sim! Contribuições são bem vindas. Para isso, use o mecanismo de contribuição do nossos repositório no <a href='https://github.com/alura/techguide'>Github</a>."
+        "Sim! Contribuições são bem-vindas. Para isso, use o mecanismo de contribuição do nossos repositório no <a href='https://github.com/alura/techguide'>GitHub</a>."
     }
   ],
   "GUIDES.SHOW_ALL": "Ver todos",
