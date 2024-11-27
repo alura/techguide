@@ -38,8 +38,14 @@ alura-contents:
     title: "React e Context API: testes de unidade"
     link: https://www.alura.com.br/artigos/react-context-api-testes-de-unidade
   - type: ARTICLE
+    title: "Guia de bibliotecas para lidar com gerenciamento de estados em projetos React"
+    link: https://www.alura.com.br/artigos/guia-de-bibliotecas-react
+  - type: ARTICLE
     title: "Redux: desvendando a arquitetura com Flux"
     link: https://www.alura.com.br/artigos/redux-desvendando-arquitetura-flux
+  - type: ARTICLE
+    title: "Controlando múltiplas instâncias dinâmicas com atomFamily e selectorFamily
+    link: https://www.alura.com.br/artigos/atom-selector-family
   - type: COURSE
     title: "Curso de React: gerenciamento de estados globais com ContextAPI"
     link: https://www.alura.com.br/curso-online-react-context-estados-globais-contextapi
@@ -58,6 +64,9 @@ alura-contents:
   - type: COURSE
     title: "Curso de React: gerenciamento de estados globais com Redux"
     link: https://www.alura.com.br/curso-online-react-gerenciamento-estados-globais-redux
+  - type: COURSE
+    title: "React: implementando gestão de estado com Zustand"
+    link: https://cursos.alura.com.br/course/react-implementando-gestao-estado-zustand
   - type: COURSE
     title: "Formação Gerencie estados em React com Redux"
     link: https://www.alura.com.br/formacao-react-gestao-estados
