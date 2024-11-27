@@ -1,46 +1,45 @@
-
-name: Gestão de Negócios
+Gestão de Negócios
 tags:
   - management
 expertise:
-  - name: Business Management Jr
+  - Business Management Jr
     cards:
-      - name: introduction-to-business-management
+      - introduction-to-business-management:
         priority: 10
-      - name: organization-and-business-structure
+      - organization-and-business-structure:
         priority: 10
-      - name: planning-and-strategic-goals
+      - planning-and-strategic-goals:
         priority: 10
-  - name: Business Management Mid
+  - Business Management Mid
     cards:
-      - name: strategic-management-and-decision-making
+      - strategic-management-and-decision-making:
         priority: 9
-      - name: project-management
+      - project-management:
         priority: 9
-      - name: strategic-marketing-and-market-analysis
+      - strategic-marketing-and-market-analysis:
         priority: 9
-  - name: Business Management in depth
+  - Business Management in depth
     cards:
-      - name: leadership-and-team-management
+      - leadership-and-team-management:
         priority: 8
-      - name: digital-transformation-and-business-innovation
+      - digital-transformation-and-business-innovation:
         priority: 8
-      - name: corporate-governance-and-compliance
+      - corporate-governance-and-compliance:
         priority: 8
 collaboration:
-  - name: Gestão de Produtos
+  - Gestão de Produtos
     cards:
-      - name: fundamentals-of-product-management
+      - fundamentals-of-product-management:
         priority: 9
-      - name: management-3-0
+      - management-3-0:
         priority: 9
-      - name: agile-culture
+      - agile-culture:
         priority: 9
-  - name: Liderança
+  - Liderança
     cards:
-      - name: management-practices-and-improvements
+      - management-practices-and-improvements:
         priority: 9
-      - name: techniques-and-skills-for-leadership
+      - techniques-and-skills-for-leadership:
         priority: 9
-      - name: guiding-people-to-high-performance
+      - guiding-people-to-high-performance:
         priority: 9
