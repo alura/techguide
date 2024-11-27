@@ -1,15 +1,14 @@
 # Agile
 ## Nivel 1
-- [ ] **Cultura ágil**:
-   - Cultura ágil é um conjunto de valores e práticas que promovem flexibilidade, colaboração e melhoria contínua para responder rapidamente às mudanças e entregar valor constante.
-   - Enfatiza o trabalho em equipe e a comunicação aberta.
-   - Feedback regular para melhorias rápidas e eficazes.
-   - Equipes autônomas e empoderadas para tomar decisões.
-   - Processos e informações acessíveis a todos.
-   - Priorização das necessidades e feedback dos clientes.
-   - Desenvolvimento incremental com ciclos curtos e frequentes.
-   - Flexibilidade para ajustar processos conforme necessário.
-   - Entrega de valor contínuo e mensurável ao cliente.
+- [ ] **Cultura Ágil**:
+   - Enfatizar o trabalho em equipe e a comunicação aberta.
+   - Promover feedback regular para melhorias rápidas e eficazes.
+   - Empoderar equipes autônomas para tomar decisões.
+   - Garantir processos e informações acessíveis a todos.
+   - Priorizar as necessidades e o feedback dos clientes.
+   - Fomentar o desenvolvimento incremental com ciclos curtos e frequentes.
+   - Demonstrar flexibilidade para ajustar processos conforme necessário.
+   - Entregar valor contínuo e mensurável ao cliente.
 - [ ] **Scrum**:
    - Scrum é uma metodologia ágil focada em entregas incrementais e iterativas, promovendo a colaboração entre equipes para desenvolver projetos complexos de forma eficiente.
    - Inclui Product Owner, Scrum Master e equipe de desenvolvimento.
@@ -154,8 +153,8 @@
    - Comunique-se claramente com a equipe e stakeholders.
    - Promova e implemente práticas e tecnologias inovadoras.
 ## Habilidade Auxiliar: Product management 
-- [ ] **Fundamentos do Product Management**:
-   - Product Management é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
+- [ ] **Gestão de Produtos - Fundamentos**:
+   - Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
    - Definir visão clara e estratégia para o produto.
    - Entender necessidades e preferências dos clientes.
    - Especificar requisitos e funcionalidades do produto.
@@ -170,7 +169,7 @@
    - Estudar os concorrentes para identificar lacunas e diferenciais.
    - Testar hipóteses para validar a viabilidade do produto.
    - Mapear as jornadas dos usuários para identificar pontos de dor.
-- [ ] **Digital product management**:
+- [ ] **Gestão de Produtos Digitais**:
    - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
    - Colocar as necessidades dos usuários no centro do processo de desenvolvimento.
    - Definir uma visão clara e estratégia para o produto digital.

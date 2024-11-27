@@ -55,8 +55,8 @@
 - [ ] **Ferramentas de design (Figma e Sketch)**:
    - O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos. O Sketch é um app similar ao Figma, que roda tanto na web quando no iOS.
 ## Habilidade Auxiliar: Product Management 
-- [ ] **Fundamentos do Product Management**:
-   - Product Management é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
+- [ ] **Gestão de Produtos - Fundamentos**:
+   - Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
    - Definir visão clara e estratégia para o produto.
    - Entender necessidades e preferências dos clientes.
    - Especificar requisitos e funcionalidades do produto.
@@ -71,7 +71,7 @@
    - Estudar os concorrentes para identificar lacunas e diferenciais.
    - Testar hipóteses para validar a viabilidade do produto.
    - Mapear as jornadas dos usuários para identificar pontos de dor.
-- [ ] **Digital product management**:
+- [ ] **Gestão de Produtos Digitais**:
    - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
    - Colocar as necessidades dos usuários no centro do processo de desenvolvimento.
    - Definir uma visão clara e estratégia para o produto digital.

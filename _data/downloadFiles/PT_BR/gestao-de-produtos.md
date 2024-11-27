@@ -1,14 +1,14 @@
 # Gestão de Produtos
 ## Nivel 1
-- [ ] **Fundamentos do Product Management**:
-   - Product Management é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
+- [ ] **Gestão de Produtos - Fundamentos**:
+   - Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
    - Definir visão clara e estratégia para o produto.
    - Entender necessidades e preferências dos clientes.
    - Especificar requisitos e funcionalidades do produto.
    - Priorizar recursos com base no valor para o cliente e para o negócio.
    - Analisar métricas e feedback para orientar decisões.
    - Estar aberto a mudanças e ajuste a estratégia conforme necessário.
-- [ ] **Digital product management**:
+- [ ] **Gestão de Produtos Digitais**:
    - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
    - Colocar as necessidades dos usuários no centro do processo de desenvolvimento.
    - Definir uma visão clara e estratégia para o produto digital.
@@ -69,16 +69,15 @@
    - Reunião para refletir e melhorar processos após cada sprint.
    - Produto funcional e utilizável entregue ao final de cada sprint.
    - Critérios claros que definem quando uma tarefa está completa.
-- [ ] **Cultura ágil**:
-   - Cultura ágil é um conjunto de valores e práticas que promovem flexibilidade, colaboração e melhoria contínua para responder rapidamente às mudanças e entregar valor constante.
-   - Enfatiza o trabalho em equipe e a comunicação aberta.
-   - Feedback regular para melhorias rápidas e eficazes.
-   - Equipes autônomas e empoderadas para tomar decisões.
-   - Processos e informações acessíveis a todos.
-   - Priorização das necessidades e feedback dos clientes.
-   - Desenvolvimento incremental com ciclos curtos e frequentes.
-   - Flexibilidade para ajustar processos conforme necessário.
-   - Entrega de valor contínuo e mensurável ao cliente.
+- [ ] **Cultura Ágil**:
+   - Enfatizar o trabalho em equipe e a comunicação aberta.
+   - Promover feedback regular para melhorias rápidas e eficazes.
+   - Empoderar equipes autônomas para tomar decisões.
+   - Garantir processos e informações acessíveis a todos.
+   - Priorizar as necessidades e o feedback dos clientes.
+   - Fomentar o desenvolvimento incremental com ciclos curtos e frequentes.
+   - Demonstrar flexibilidade para ajustar processos conforme necessário.
+   - Entregar valor contínuo e mensurável ao cliente.
 ## Habilidade Auxiliar: Análise de dados 
 - [ ] **Cálculos, padrões e estratégias**:
    - Entender e aplicar técnicas de estatística descritiva para analisar bancos de dados, utilizando cálculos como média, mediana e desvio padrão para obter insights significativos.
@@ -114,12 +113,3 @@
    - Desenvolva habilidades técnicas da equipe.
    - Comunique-se claramente com a equipe e stakeholders.
    - Promova e implemente práticas e tecnologias inovadoras.
-- [ ] **Roadmap**:
-   - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
-   - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
-   - Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.
-   - Defina marcos e prazos realistas para o desenvolvimento e entrega.
-   - Comunique o roadmap de forma clara e transparente com todas as partes interessadas.
-   - Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.
-   - Colete feedback regularmente para ajustar o roadmap conforme necessário.
-   - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.

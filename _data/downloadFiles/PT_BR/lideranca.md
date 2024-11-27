@@ -5,11 +5,11 @@
    - Melhorar a produtividade e a eficiência, criando um repertório de bons hábitos de liderança para evitar problemas de produtividade e aprimorar a gestão e a comunicação com a equipe
    - Apoiar e desenvolver a equipe, compreendendo a importância de promover um ambiente colaborativo e orientado para resultados, além de manter a qualidade no trabalho
    - Aprender a liderar de forma adaptável, definindo prioridades e desenvolvendo a capacidade de gestão eficaz para enfrentar novas situações e desafios diários da liderança
-- [ ] **Práticas de gestão e melhorias**:
-   - Desenvolver uma postura proativa no desenvolvimento de novas habilidades de liderança e na formação e desenvolvimento da equipe
-   - Aplicar ferramentas práticas de liderança para refinar a elaboração de metas e guiar equipes com eficácia
-   - Cultivar uma cultura sustentável de melhoria contínua nos processos de gestão para otimizar resultados organizacionais
-   - Explorar e adaptar-se às tendências e desafios atuais nas práticas de liderança para manter a equipe competitiva e inovadora
+- [ ] **Hábitos e Boas Práticas na Liderança**:
+   - Compreender o papel da liderança no engajamento do time e na promoção de um ambiente de alto desempenho.
+   - Aplicar estratégias eficazes para tornar as reuniões mais produtivas e focadas nos objetivos da equipe.
+   - Desenvolver a capacidade de implementar intervenções no dia a dia para promover boas práticas em gestão de pessoas.
+   - Aprimorar a assertividade na tomada de decisões, utilizando uma comunicação clara e direcionada para o sucesso da equipe.
 - [ ] **Hábitos e boas práticas na liderança**:
    - Compreender o papel da liderança no engajamento do time e na promoção de um ambiente de alto desempenho
    - Aplicar estratégias eficazes para tornar as reuniões mais produtivas e focadas nos objetivos da equipe
@@ -21,11 +21,11 @@
    - Explorar a relação entre agilidade empresarial e a escolha da estrutura organizacional para otimizar processos e resultados
    - Desenvolver a capacidade de implementar e adaptar a estrutura organizacional da empresa para melhor atender às demandas do mercado e promover a eficiência operacional
 ## Nivel 2
-- [ ] **Técnicas e habilidades para liderança**:
-   - Compreender as diferentes formas de trabalho remoto e como aproveitar seus benefícios e enfrentar seus desafios
-   - Desenvolver um mindset digital que permita liderar e apoiar a equipe na transição para o trabalho remoto de forma eficaz
-   - Adquirir habilidades essenciais para liderança remota, como comunicação clara, construção de confiança e engajamento da equipe
-   - Aplicar técnicas para estimular a colaboração e gerenciar equipes remotas de forma eficiente, mantendo a produtividade e a coesão do time
+- [ ] **Técnicas e Habilidades para Liderança**:
+   - Compreender as diferentes formas de trabalho remoto e como aproveitar seus benefícios e enfrentar seus desafios.
+   - Desenvolver um mindset digital que permita liderar e apoiar a equipe na transição para o trabalho remoto de forma eficaz.
+   - Adquirir habilidades essenciais para liderança remota, como comunicação clara, construção de confiança e engajamento da equipe.
+   - Aplicar técnicas para estimular a colaboração e gerenciar equipes remotas de forma eficiente, mantendo a produtividade e a coesão do time.
 - [ ] **Liderança transformacional**:
    - Compreender e aplicar os princípios da liderança transformacional no ambiente de trabalho, promovendo um crescimento significativo na equipe
    - Desenvolver habilidades de liderança emocionalmente inteligente, focando no engajamento e bem-estar da equipe para criar um ambiente de trabalho mais harmonioso
@@ -47,11 +47,11 @@
    - Identificar as habilidades e competências essenciais para desenvolver um perfil eficaz de Tech Lead
    - Compreender as diferenças entre liderança técnica e liderança comum, e como essas distinções influenciam na gestão de equipes e projetos
    - Planejar o desenvolvimento de uma carreira em tecnologia, focando nas demandas e oportunidades do mercado para Tech Leads
-- [ ] **Guiando pessoas para alta performance**:
-   - Dominar os fundamentos essenciais da liderança técnica para maximizar o desempenho das equipes e impulsionar resultados
-   - Aplicar metodologias eficazes de gerenciamento de projetos que visam o crescimento e a eficiência da equipe técnica
-   - Desenvolver habilidades para oferecer e receber feedback construtivo, promovendo um ambiente de melhoria contínua e colaboração
-   - Cultivar um ambiente inclusivo que estimule a inovação, o protagonismo e o desenvolvimento individual dentro da equipe técnica
+- [ ] **Guiando Pessoas para Alta Performance**:
+   - Dominar os fundamentos essenciais da liderança técnica para maximizar o desempenho das equipes e impulsionar resultados.
+   - Aplicar metodologias eficazes de gerenciamento de projetos que visam o crescimento e a eficiência da equipe técnica.
+   - Desenvolver habilidades para oferecer e receber feedback construtivo, promovendo um ambiente de melhoria contínua e colaboração.
+   - Cultivar um ambiente inclusivo que estimule a inovação, o protagonismo e o desenvolvimento individual dentro da equipe técnica.
 ## Habilidade Auxiliar: Inovação e Gestão de Mudanças 
 - [ ] **Agilidade**:
    - Compreender o que é agilidade, como funciona e o que é esperado de um time de alta performance, para aplicá-la de forma eficaz no seu ambiente de trabalho.
@@ -82,8 +82,8 @@
    - Colete feedback regularmente para ajustar o roadmap conforme necessário.
    - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.
 ## Habilidade Auxiliar: Product Management 
-- [ ] **Fundamentos do Product Management**:
-   - Product Management é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
+- [ ] **Gestão de Produtos - Fundamentos**:
+   - Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
    - Definir visão clara e estratégia para o produto.
    - Entender necessidades e preferências dos clientes.
    - Especificar requisitos e funcionalidades do produto.
@@ -98,7 +98,7 @@
    - Estudar os concorrentes para identificar lacunas e diferenciais.
    - Testar hipóteses para validar a viabilidade do produto.
    - Mapear as jornadas dos usuários para identificar pontos de dor.
-- [ ] **Digital product management**:
+- [ ] **Gestão de Produtos Digitais**:
    - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
    - Colocar as necessidades dos usuários no centro do processo de desenvolvimento.
    - Definir uma visão clara e estratégia para o produto digital.

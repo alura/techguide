@@ -1,0 +1,84 @@
+# Gestão de Negócios
+## Nivel 1
+- [ ] **Introdução a Gestão de Negócios**:
+   - Compreender os conceitos básicos de gestão de negócios e sua aplicação no dia a dia corporativo.
+   - Aprender a desenvolver estratégias organizacionais, incluindo planejamento e objetivos estratégicos.
+   - Explorar ferramentas modernas de gestão, como transformação digital, inovação e governança corporativa.
+   - Fortalecer habilidades de liderança e gestão de equipes para alcançar alta performance.
+- [ ] **Estrutura Organizacional e de Negócios**:
+   - Explorar diferentes tipos de estruturas organizacionais e seus impactos na eficiência empresarial.
+   - Compreender como criar uma cultura de segurança e inclusão em ambientes profissionais.
+   - Analisar como a estrutura organizacional influencia a tomada de decisão e a cultura da empresa.
+- [ ] **Planejamento e Metas Estratégicas**:
+   - Compreender a importância do planejamento estratégico para alcançar objetivos organizacionais.
+   - Aprender a criar metas estratégicas claras e mensuráveis.
+   - Explorar o uso de frameworks como OKRs para alinhar esforços e medir progresso.
+## Nivel 2
+- [ ] **Gestão Estratégica e Tomada de Decisão**:
+   - Entender o papel da gestão estratégica na definição e alcance de objetivos organizacionais.
+   - Desenvolver habilidades para tomar decisões informadas com base em dados e análises.
+   - Explorar ferramentas e frameworks para otimizar a tomada de decisão no ambiente corporativo.
+- [ ] **Gestão de Projetos**:
+   - Compreender os fundamentos da gestão de projetos e sua aplicação no ambiente corporativo.
+   - Explorar metodologias ágeis como Scrum e Kanban para otimizar a execução de projetos.
+   - Aprender a utilizar ferramentas e técnicas de controle e desenvolvimento de produtos para melhorar o gerenciamento de projetos.
+- [ ] **Marketing Estratégico e Análise de Mercado**:
+   - Compreender os fundamentos do marketing estratégico e sua aplicação no ambiente corporativo.
+   - Aprender a realizar análises de mercado eficazes para identificar oportunidades de negócio.
+   - Utilizar técnicas de análise de dados para suportar decisões estratégicas de marketing.
+## Nivel 3
+- [ ] **Liderança e Gestão de Equipes**:
+   - Compreender os fundamentos da liderança eficaz e como aplicá-los na gestão de equipes.
+   - Desenvolver estratégias para fomentar a colaboração e construir relações produtivas no ambiente de trabalho.
+   - Explorar boas práticas de liderança para motivar e engajar equipes.
+- [ ] **Transformação Digital e Inovação Empresarial**:
+   - Compreender os fundamentos da transformação digital e sua importância para o sucesso organizacional.
+   - Explorar os pilares culturais, estratégicos e tecnológicos que sustentam a transformação digital.
+   - Aprender como implementar processos de inovação para aumentar a eficiência e a competitividade.
+- [ ] **Governança Corporativa e Compliance**:
+   - Compreender as diferenças e conexões entre governança corporativa e compliance.
+   - Explorar como essas práticas influenciam a estratégia e a competitividade das organizações.
+   - Aprender técnicas e metodologias para implementar governança corporativa eficaz e programas de compliance.
+## Habilidade Auxiliar: Gestão de Produtos 
+- [ ] **Gestão de Produtos - Fundamentos**:
+   - Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
+   - Definir visão clara e estratégia para o produto.
+   - Entender necessidades e preferências dos clientes.
+   - Especificar requisitos e funcionalidades do produto.
+   - Priorizar recursos com base no valor para o cliente e para o negócio.
+   - Analisar métricas e feedback para orientar decisões.
+   - Estar aberto a mudanças e ajuste a estratégia conforme necessário.
+- [ ] **Management 3.0**:
+   - Management 3.0 é uma abordagem de gestão que enfatiza a colaboração, autonomia e melhoria contínua para liderar equipes em ambientes complexos e dinâmicos.
+   - Compartilhe informações e decisões abertamente.
+   - Permita que os membros da equipe tomem decisões e assumam responsabilidades.
+   - Promova uma cultura de feedback aberto e construtivo.
+   - Incentive experimentação e aprendizado constante.
+   - Aborde conflitos de forma colaborativa e construtiva.
+   - Encoraje a colaboração e o trabalho em equipe.
+   - Esteja preparado para mudanças e adapte-se rapidamente.
+- [ ] **Cultura Ágil**:
+   - Enfatizar o trabalho em equipe e a comunicação aberta.
+   - Promover feedback regular para melhorias rápidas e eficazes.
+   - Empoderar equipes autônomas para tomar decisões.
+   - Garantir processos e informações acessíveis a todos.
+   - Priorizar as necessidades e o feedback dos clientes.
+   - Fomentar o desenvolvimento incremental com ciclos curtos e frequentes.
+   - Demonstrar flexibilidade para ajustar processos conforme necessário.
+   - Entregar valor contínuo e mensurável ao cliente.
+## Habilidade Auxiliar: Liderança 
+- [ ] **Hábitos e Boas Práticas na Liderança**:
+   - Compreender o papel da liderança no engajamento do time e na promoção de um ambiente de alto desempenho.
+   - Aplicar estratégias eficazes para tornar as reuniões mais produtivas e focadas nos objetivos da equipe.
+   - Desenvolver a capacidade de implementar intervenções no dia a dia para promover boas práticas em gestão de pessoas.
+   - Aprimorar a assertividade na tomada de decisões, utilizando uma comunicação clara e direcionada para o sucesso da equipe.
+- [ ] **Técnicas e Habilidades para Liderança**:
+   - Compreender as diferentes formas de trabalho remoto e como aproveitar seus benefícios e enfrentar seus desafios.
+   - Desenvolver um mindset digital que permita liderar e apoiar a equipe na transição para o trabalho remoto de forma eficaz.
+   - Adquirir habilidades essenciais para liderança remota, como comunicação clara, construção de confiança e engajamento da equipe.
+   - Aplicar técnicas para estimular a colaboração e gerenciar equipes remotas de forma eficiente, mantendo a produtividade e a coesão do time.
+- [ ] **Guiando Pessoas para Alta Performance**:
+   - Dominar os fundamentos essenciais da liderança técnica para maximizar o desempenho das equipes e impulsionar resultados.
+   - Aplicar metodologias eficazes de gerenciamento de projetos que visam o crescimento e a eficiência da equipe técnica.
+   - Desenvolver habilidades para oferecer e receber feedback construtivo, promovendo um ambiente de melhoria contínua e colaboração.
+   - Cultivar um ambiente inclusivo que estimule a inovação, o protagonismo e o desenvolvimento individual dentro da equipe técnica.
