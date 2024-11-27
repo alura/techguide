@@ -1,0 +1,46 @@
+
+name: Gestão de Negócios
+tags:
+  - inovação-e-gestão
+expertise:
+  - name: Business Management Jr
+    cards:
+      - name: Introduction-to-Business-Management
+        priority: 10
+      - name: Organization-and-Business-Structure
+        priority: 10
+      - name: Planning-and-Strategic-Goals
+        priority: 10
+  - name: Business Management Mid
+    cards:
+      - name: Strategic-Management-and-Decision-Making
+        priority: 9
+      - name: Project-Management
+        priority: 9
+      - name: Strategic-Marketing-and-Market-Analysis
+        priority: 9
+  - name: Business Management in depth
+    cards:
+      - name: Leadership-and-Team-Management
+        priority: 8
+      - name: Digital-Transformation-and-Business-Innovation
+        priority: 8
+      - name: Corporate-Governance-and-Compliance
+        priority: 8
+collaboration:
+  - name: Product-Management
+    cards:
+      - name: Fundamentals-of-Product-Management
+        priority: 9
+      - name: Management-3.0
+        priority: 9
+      - name: Agile-Culture
+        priority: 9
+  - name: Leadership
+    cards:
+      - name:Management-Practices-and-Improvements
+        priority: 9
+      - name: Techniques-and-Skills-for-Leadership
+        priority: 9
+      - name: Guiding-People-to-High-Performance
+        priority: 9

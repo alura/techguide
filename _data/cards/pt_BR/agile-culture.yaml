@@ -1,17 +1,15 @@
-name: Cultura ágil
-logo:
-short-description:
+name: Cultura Ágil
+logo: 
+short-description: 
 key-objectives:
-  - Cultura ágil é um conjunto de valores e práticas que promovem flexibilidade, colaboração e melhoria contínua para responder rapidamente às mudanças e entregar valor constante.
-  - Enfatiza o trabalho em equipe e a comunicação aberta.
-  - Feedback regular para melhorias rápidas e eficazes.
-  - Equipes autônomas e empoderadas para tomar decisões.
-  - Processos e informações acessíveis a todos.
-  - Priorização das necessidades e feedback dos clientes.
-  - Desenvolvimento incremental com ciclos curtos e frequentes.
-  - Flexibilidade para ajustar processos conforme necessário.
-  - Entrega de valor contínuo e mensurável ao cliente.
-aditional-objectives:
+  - Enfatizar o trabalho em equipe e a comunicação aberta.
+  - Promover feedback regular para melhorias rápidas e eficazes.
+  - Empoderar equipes autônomas para tomar decisões.
+  - Garantir processos e informações acessíveis a todos.
+  - Priorizar as necessidades e o feedback dos clientes.
+  - Fomentar o desenvolvimento incremental com ciclos curtos e frequentes.
+  - Demonstrar flexibilidade para ajustar processos conforme necessário.
+  - Entregar valor contínuo e mensurável ao cliente.
 contents:
   - type: ARTICLE
     title: "O impacto da cultura ágil nas organizações e os riscos da banalização"
@@ -22,6 +20,7 @@ contents:
   - type: ARTICLE
     title: "Cultura ágil: o que é e por que ela é essencial para a sua empresa?"
     link: https://www.ieepeducacao.com.br/cultura-agil/
+alura-contents:
   - type: ARTICLE
     title: "Agile testing - o que é e qual o papel do QA num time ágil?"
     link: https://www.alura.com.br/artigos/agile-testing-o-que-e-qual-papel-qa-num-time-agil
@@ -31,7 +30,6 @@ contents:
   - type: ARTICLE
     title: "O que são retrospectivas no Ambiente Ágil"
     link: https://www.alura.com.br/artigos/retrospectivas-ambiente-agil
-alura-contents:
   - type: COURSE
     title: "Práticas Ágeis: construa um ambiente ágil"
     link: https://cursos.alura.com.br/course/praticas-ageis
