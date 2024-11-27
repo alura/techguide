@@ -1,8 +1,8 @@
-Gestão de Negócios
+name: Gestão de Negócios
 tags:
   - management
 expertise:
-  - Business Management Jr
+  - name: Business Management Jr
     cards:
       - introduction-to-business-management:
         priority: 10
@@ -10,7 +10,7 @@ expertise:
         priority: 10
       - planning-and-strategic-goals:
         priority: 10
-  - Business Management Mid
+  - name: Business Management Mid
     cards:
       - strategic-management-and-decision-making:
         priority: 9
@@ -18,7 +18,7 @@ expertise:
         priority: 9
       - strategic-marketing-and-market-analysis:
         priority: 9
-  - Business Management in depth
+  - name: Business Management in depth
     cards:
       - leadership-and-team-management:
         priority: 8
@@ -27,7 +27,7 @@ expertise:
       - corporate-governance-and-compliance:
         priority: 8
 collaboration:
-  - Gestão de Produtos
+  - name: Gestão de Produtos
     cards:
       - fundamentals-of-product-management:
         priority: 9
@@ -35,7 +35,7 @@ collaboration:
         priority: 9
       - agile-culture:
         priority: 9
-  - Liderança
+  - name: Liderança
     cards:
       - management-practices-and-improvements:
         priority: 9
