@@ -51,6 +51,8 @@ expertise:
       - apollo-client:
         priority: 5
         optional: true
+      - angular-design-system:
+        priority: 5
 collaboration:
   - name: Infraestrutura e Back-end
     cards:
