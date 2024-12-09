@@ -1,0 +1,32 @@
+name: Angular - Design System
+logo:
+short-description:
+key-objectives:
+- Um Design System é uma coleção organizada de componentes, padrões e diretrizes que ajudam equipes a criar interfaces consistentes e escaláveis. Ele atua como um guia para o design e desenvolvimento de produtos digitais, garantindo uniformidade e eficiência. No Angular, o Design System ganha ainda mais poder quando implementado em um monorepo e documentado com o Storybook.
+- Criar um Design System com Angular;
+- Organizar o projeto em um Monorepo;
+- Usar o Storybook para documentar e testar os componentes criados.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Workspace and project file structure"
+    link: https://angular.dev/reference/configs/file-structure#multiple-projects 
+  - type: SITE
+    title: "Building Angular Apps in an Nx Monorepo"
+    link: https://nx.dev/getting-started/tutorials/angular-monorepo-tutorial#building-angular-apps-in-an-nx-monorepo 
+  - type: SITE
+    title: "Storybook para o Angular tutorial"
+    link: https://storybook.js.org/tutorials/intro-to-storybook/angular/pt/get-started/ 
+  - type: SITE
+    title: "NX: Gerencie o seu monorepo"
+    link: https://medium.com/@lorenamelor/nx-gerencie-o-seu-monorepo-6ef731f316f0
+  - type: YOUTUBE
+    title: "Monorepo (Por Que Essa Estratégia Funciona em Grandes Empresas?)"
+    link: https://www.youtube.com/watch?v=BbNIuUy_F0w 
+alura-contents:
+  - type: YOUTUBE
+    title: "Design Systems"
+    link: https://www.youtube.com/watch?v=MLGFctEtmYQ 
+  - type: COURSE
+    title: "Formação Angular: cursos para construir um Design System com Nx, Monorepo e Storybook"
+    link: https://cursos.alura.com.br/formacao-angular-cursos-construir-design-system-nx-monorepo-storybook 
