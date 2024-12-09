@@ -139,6 +139,11 @@
    - Apollo Client é uma biblioteca abrangente de gerenciamento de estado para JavaScript que permite gerenciar dados locais e remotos com o GraphQL.
    - Utilizar o Apollo para criar um servidor GraphQL
    - Conectar com uma API
+- [ ] **Angular - Design System**:
+   - Um Design System é uma coleção organizada de componentes, padrões e diretrizes que ajudam equipes a criar interfaces consistentes e escaláveis. Ele atua como um guia para o design e desenvolvimento de produtos digitais, garantindo uniformidade e eficiência. No Angular, o Design System ganha ainda mais poder quando implementado em um monorepo e documentado com o Storybook.
+   - Criar um Design System com Angular;
+   - Organizar o projeto em um Monorepo;
+   - Usar o Storybook para documentar e testar os componentes criados.
 ## Habilidade Auxiliar: Infraestrutura e Back-end 
 - [ ] **Git e GitHub - Fundamentos**:
    - Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.
