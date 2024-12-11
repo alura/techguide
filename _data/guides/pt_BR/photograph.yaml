@@ -1,0 +1,45 @@
+name: Fotografia
+tags:
+  - fotografia
+expertise:
+  - name: Nível 1
+    cards:
+      - photograph-concepts:
+        priority: 10
+      - photograph-lightning:
+        priority: 9
+      - photograph-smartphone:
+        priority: 8
+  - name: Nível 2
+    cards:
+      - photograph-photoshop:
+        priority: 10
+      - photograph-lightroom:
+        priority: 9
+      - photograph-mobile-edit:
+        priority: 8
+  - name: Nível 3
+    cards:
+      - photograph-portrait-direction:
+        priority: 10
+      - photograph-skin:
+        priority: 9
+      - photograph-photo-edit:
+        priority: 10
+collaboration:
+  - name: Design Gráfico
+    cards:
+      - photograph-portfolio:
+        priority: 9
+      - photograph-colors:
+        priority: 10
+      - photograph-composition:
+        priority: 9
+  - name: Edição de vídeo
+    cards:
+      - photograph-video-edit:
+        priority: 10
+      - photograph-video-production:
+        priority: 9
+      - photograph-motion:
+        priority: 8
