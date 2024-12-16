@@ -1,0 +1,27 @@
+name: Texturização
+logo:
+short-description:
+key-objectives:
+  - A texturização é o processo de aplicar detalhes visuais em modelos 3D, como cores, padrões e materiais. Isso envolve técnicas como UV Mapping, criação de mapas de normal e especular, e pintura digital, que dão realismo e personalidade aos modelos.
+  - Técnicas de aplicação de texturas em 3D
+  - Pintura manual de texturas no Blender
+  - Como criar mapas de normal para detalhes extras
+  - Uso de mapas de especularidade para reflexos
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "O que é texturização 3D?"
+    link: https://www.adobe.com/br/products/substance3d/discover/3d-texturing.html
+  - type: ARTICLE
+    title: "O que são texturas 3D e como criá-las?"
+    link: https://www.adobe.com/br/products/substance3d/discover/how-to-create-3d-textures.html
+alura-contents:
+  - type: CONTENT
+    title: "Fluxo de malha 3D"
+    link: https://cursos.alura.com.br/extra/alura-mais/fluxo-de-malha-3d-c1585
+  - type: ARTICLE
+    title: "O que são materiais e texturas em um software 3D?"
+    link: https://www.alura.com.br/artigos/o-que-sao-materiais-texturas-software-3d
+  - type: COURSE
+    title: "Blender: texturizando modelos com Hand Paint"
+    link: https://cursos.alura.com.br/course/blender-texturizando-modelos-hand-paint

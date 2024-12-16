@@ -1,0 +1,27 @@
+name: Fundamentos
+logo:
+short-description:
+key-objectives:
+  - Os fundamentos da modelagem 3D cobrem conceitos básicos, como vértices, arestas e faces, além da estrutura topológica. Esses conhecimentos são essenciais para criar formas em softwares 3D, garantir boa usabilidade para animação e renderização, e evitar erros comuns.
+  - Conceito de espaço 3D
+  - Conceitos de escala e proporção nos modelos
+  - Uso de referências para criar modelos precisos
+  - Erros comuns na modelagem e como evitá-los
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Blender"
+    link: https://www.blender.org/
+  - type: YOUTUBE
+    title: "BLENDER 3D - Tutorial definitivo para Iniciantes"
+    link: https://www.youtube.com/watch?v=QX_D7uhqGfI
+alura-contents:
+  - type: ARTICLE
+    title: "O artista por trás do 3D"
+    link: https://www.alura.com.br/artigos/o-artista-por-tras-do-3d
+  - type: ARTICLE
+    title: "Veja como a tecnologia 3D cresce no meio do design"
+    link: https://www.alura.com.br/artigos/veja-como-tecnologia-3d-cresce-no-meio-do-design
+  - type: COURSE
+    title: "Blender: criando um modelo 3D"
+    link: https://cursos.alura.com.br/course/blender-criando-primeiro-modelo-3d
