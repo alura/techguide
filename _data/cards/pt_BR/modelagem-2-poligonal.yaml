@@ -1,0 +1,21 @@
+name: Modelagem Poligonal
+logo:
+short-description:
+key-objectives:
+  - A modelagem poligonal usa polígonos para formar objetos 3D, sendo a base de muitos workflows. Essa técnica permite criar modelos de diferentes níveis de detalhe, desde low-poly, para jogos, até high-poly, para animações e renders realistas.
+  - Conceito de polígonos e como eles formam modelos 3D
+  - Técnicas de subdivisão para maior detalhamento
+  - Como evitar distorções na malha poligonal
+  - Construção de formas complexas com polígonos
+aditional-objectives:
+contents:
+  - type: ARTICLE
+    title: "O que é um polígono na modelagem 3D?"
+    link: https://www.adobe.com/br/products/substance3d/discover/3d-polygon-modeling.html
+alura-contents:
+  - type: ARTICLE
+    title: "Inteligência Artificial para criar desenhos e outras imagens"
+    link: https://www.alura.com.br/artigos/inteligencia-artificial-desenha-e-cria-imagens
+  - type: COURSE
+    title: "Blender 2.8: modelagem poligonal"
+    link: https://cursos.alura.com.br/course/blender-modelagem-poligonal
