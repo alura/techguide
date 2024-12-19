@@ -78,6 +78,9 @@ expertise:
         priority: 7
       - react-performance:
         priority: 5
+      - react-architecture:
+        priority: 5
+        optional: true
       - lodash:
         priority: 4
         optional: true
