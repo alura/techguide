@@ -168,6 +168,11 @@
    - Entender o que é otimização de performance em React.
    - Conhecer e saber usar técnicas como Lazy Loading e Code Splitting.
    - Conhecer as demais ferramentas e práticas para otimização de performance no React.
+- [ ] **React - Arquitetura**:
+   - Manter a arquitetura do nosso projeto bem estruturada, nos ajuda a organizar o código da melhor maneira possível para facilitar a manutenção e escalabilidade. Combinada aos princípios do SOLID, ela potencializa ainda mais toda essa organização minimizando o acoplamento e aprimorando a coesão dos componentes da nossa aplicação.
+   - Estruturar o projeto React com Arquitetura Limpa;
+   - Conhecer e aplicar os princípios SOLID para maior reusabilidade e coesão;
+   - Isolar responsabilidades com hooks e injeção de dependências.
 - [ ] **Lodash**:
    - Lodash é uma biblioteca de utilitários JavaScript moderna que oferece modularidade, desempenho e extras. Os métodos modulares do Lodash são ótimos para iterar arrays, objetos e strings; manipular e testar valores; e criar funções compostas.
 - [ ] **GraphQL**:
