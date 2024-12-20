@@ -2,10 +2,10 @@ name: React - Arquitetura
 logo:
 short-description:
 key-objectives:
-- Manter a arquitetura do nosso projeto bem estruturada, nos ajuda a organizar o código da melhor maneira possível para facilitar a manutenção e escalabilidade. Combinada aos princípios do SOLID, ela potencializa ainda mais toda essa organização minimizando o acoplamento e aprimorando a coesão dos componentes da nossa aplicação. Vem comigo aprender como:
-- Estruturar o projeto React com Arquitetura Limpa;
-- Conhecer e aplicar os princípios SOLID para maior reusabilidade e coesão;
-- Isolar responsabilidades com hooks e injeção de dependências.
+  - Manter a arquitetura do nosso projeto bem estruturada, nos ajuda a organizar o código da melhor maneira possível para facilitar a manutenção e escalabilidade. Combinada aos princípios do SOLID, ela potencializa ainda mais toda essa organização minimizando o acoplamento e aprimorando a coesão dos componentes da nossa aplicação.
+  - Estruturar o projeto React com Arquitetura Limpa;
+  - Conhecer e aplicar os princípios SOLID para maior reusabilidade e coesão;
+  - Isolar responsabilidades com hooks e injeção de dependências.
 aditional-objectives:
 contents:
   - type: ARTICLE
