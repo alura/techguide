@@ -168,7 +168,6 @@
    - Entender o que é otimização de performance em React.
    - Conhecer e saber usar técnicas como Lazy Loading e Code Splitting.
    - Conhecer as demais ferramentas e práticas para otimização de performance no React.
-
 - [ ] **Lodash**:
    - Lodash é uma biblioteca de utilitários JavaScript moderna que oferece modularidade, desempenho e extras. Os métodos modulares do Lodash são ótimos para iterar arrays, objetos e strings; manipular e testar valores; e criar funções compostas.
 - [ ] **GraphQL**:
@@ -180,6 +179,11 @@
    - Apollo Client é uma biblioteca abrangente de gerenciamento de estado para JavaScript que permite gerenciar dados locais e remotos com o GraphQL.
    - Utilizar o Apollo para criar um servidor GraphQL
    - Conectar com uma API
+- [ ] **React - Arquitetura**:
+   - Manter a arquitetura do nosso projeto bem estruturada, nos ajuda a organizar o código da melhor maneira possível para facilitar a manutenção e escalabilidade. Combinada aos princípios do SOLID, ela potencializa ainda mais toda essa organização minimizando o acoplamento e aprimorando a coesão dos componentes da nossa aplicação.
+   - Estruturar o projeto React com Arquitetura Limpa;
+   - Conhecer e aplicar os princípios SOLID para maior reusabilidade e coesão;
+   - Isolar responsabilidades com hooks e injeção de dependências.
 - [ ] **Redux Saga**:
    - Redux Saga é uma biblioteca que visa tornar os efeitos colaterais da aplicação (ou seja, coisas assíncronas, como busca de dados e coisas impuras, como acessar o cache do navegador) mais fáceis de gerenciar, mais eficientes de executar, fáceis de testar e melhores no tratamento de falhas.
    - Criar e manter chamadas assíncronas e efeitos
