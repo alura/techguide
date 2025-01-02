@@ -87,6 +87,8 @@ expertise:
       - apollo-client:
         priority: 5
         optional: true
+      - react-architecture:
+        priority: 5
       - redux-saga:
         priority: 5
         optional: true
