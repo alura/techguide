@@ -4,6 +4,8 @@ tags:
 expertise:
   - name: Node.js jr
     cards:
+      - programming-logic:
+        priority: 10
       - javascript-fundamentals:
         priority: 10
       - nodejs-fundamentals:

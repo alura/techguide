@@ -4,6 +4,8 @@ tags:
 expertise:
   - name: Python Jr
     cards: 
+      - programming-logic:
+        priority: 10
       - python-fundamentals:
         priority: 10
       - oop-concepts:
