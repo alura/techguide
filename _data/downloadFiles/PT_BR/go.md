@@ -1,5 +1,14 @@
 # Go
 ## Nivel 1
+- [ ] **Lógica de Programação**:
+   - Aprender lógica de programação, fundamental para o desenvolvimento de software
+   - Conhecer as bases para se criar, analisar e resolver problemas computacionais de forma estruturada e eficiente
+   - Entender o que são tipos de dados
+   - Declarar variáveis, considerando os diferentes tipos
+   - Conhecer os operadores de atribuição e comparação
+   - Usar estruturas condicionais
+   - Usar estruturas de repetição e laços
+   - Usar funções, passando parâmetros e argumentos
 - [ ] **Go (GoLang) - Fundamentos**:
    - Go é uma linguagem de programação de alto nível compilada e estaticamente tipada, desenvolvida no Google. Ela é sintaticamente semelhante ao C, mas também tem memory safety, coletor de lixo, tipagem estrutural e concorrência.
    - Entender a sua sintaxe

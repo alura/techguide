@@ -1,5 +1,14 @@
 # C#
 ## Nivel 1
+- [ ] **Lógica de Programação**:
+   - Aprender lógica de programação, fundamental para o desenvolvimento de software
+   - Conhecer as bases para se criar, analisar e resolver problemas computacionais de forma estruturada e eficiente
+   - Entender o que são tipos de dados
+   - Declarar variáveis, considerando os diferentes tipos
+   - Conhecer os operadores de atribuição e comparação
+   - Usar estruturas condicionais
+   - Usar estruturas de repetição e laços
+   - Usar funções, passando parâmetros e argumentos
 - [ ] **C# - Fundamentos**:
    - C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. O código fonte é compilado para Common Intermediate Language (CIL) que é interpretado pela máquina virtual Common Language Runtime (CLR). É projetada para funcionar na Common Language Infrastructure da plataforma .NET Framework.
    - Conhecer os tipos primitivos
