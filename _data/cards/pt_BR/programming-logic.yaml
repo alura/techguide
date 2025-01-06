@@ -1,0 +1,34 @@
+name: Lógica de Programação
+logo: 
+short-description:
+key-objectives:
+  - Aprender lógica de programação, fundamental para o desenvolvimento de software
+  - Conhecer as bases para se criar, analisar e resolver problemas computacionais de forma estruturada e eficiente
+  - Entender o que são tipos de dados
+  - Declarar variáveis, considerando os diferentes tipos
+  - Conhecer os operadores de atribuição e comparação
+  - Usar estruturas condicionais
+  - Usar estruturas de repetição e laços
+  - Usar funções, passando parâmetros e argumentos
+aditional-objectives:
+  - Conhecer os fundamentos da manipulação do DOM e interação com o navegador
+contents:
+  - type: ARTICLE
+    title: "Lógica de programação: o que é e para que serve?"
+    link: https://www.locaweb.com.br/blog/temas/codigo-aberto/logica-de-programacao-o-que-e/
+  - type: ARTICLE
+    title: "Lógica de programação: guia completo para iniciantes"
+    link: https://www.hostgator.com.br/blog/logica-de-programacao/
+  - type: SITE
+    title: "Livro - Lógica de Programação"
+    link: https://www.casadocodigo.com.br/products/livro-programacao
+  - type: YOUTUBE
+    title: "O MÍNIMO QUE VOCÊ PRECISA SABER ANTES DE PROGRAMAR!"
+    link: https://www.youtube.com/watch?v=BTENKdRVS2U
+  - type: PODCAST
+    title: "Se você não aprender lógica de programação, você NÃO VAI CONSEGUIR VAGA"
+    link: https://open.spotify.com/episode/2XxEhO0cPflGp3oGRgGJLX?si=FtgYSOvaSZGo-B31ex5ANQ
+alura-contents:
+  - type: COURSE
+    title: "Formação A partir do zero: iniciante em programação"
+    link: https://cursos.alura.com.br/formacao-programacao

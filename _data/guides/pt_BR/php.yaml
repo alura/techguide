@@ -4,6 +4,8 @@ tags:
 expertise:
   - name: PHP Jr
     cards:
+      - programming-logic:
+        priority: 10
       - php-fundamentals:
         priority: 10
       - php-collections:

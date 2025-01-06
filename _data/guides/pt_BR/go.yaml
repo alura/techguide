@@ -4,6 +4,8 @@ tags:
 expertise:
   - name: Go Jr
     cards:
+      - programming-logic:
+        priority: 10
       - go-fundamentals:
         priority: 10
       - go-oop:
