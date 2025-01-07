@@ -1,15 +1,52 @@
 # Modelagem 3D
 ## Nivel 1
-
-
-
+- [ ] **Fundamentos**:
+   - Os fundamentos da modelagem 3D cobrem conceitos básicos, como vértices, arestas e faces, além da estrutura topológica. Esses conhecimentos são essenciais para criar formas em softwares 3D, garantir boa usabilidade para animação e renderização, e evitar erros comuns.
+   - Conceito de espaço 3D
+   - Conceitos de escala e proporção nos modelos
+   - Uso de referências para criar modelos precisos
+   - Erros comuns na modelagem e como evitá-los
+- [ ] **Box Modeling**:
+   - Box Modeling é uma técnica de modelagem 3D que usa formas simples, como cubos ou esferas, para criar objetos mais complexos. É ideal para iniciantes, pois oferece um processo intuitivo de subdivisão, extrusão e refinamento, permitindo o controle total do design do modelo.
+   - Escolha das formas básicas para iniciar um modelo
+   - Manipulação de vértices, arestas e faces
+   - Refinamento de formas para suavizar superfícies
+   - Uso de simetria para otimizar o processo
+- [ ] **Composição**:
+   - Composição em cores envolve o uso estratégico do círculo cromático e da psicologia das cores para criar harmonia visual e transmitir emoções. Aprenda a selecionar paletas, equilibrar tons e aplicar contrastes para enriquecer suas criações artísticas ou designs.
+   - Fundamentos do círculo cromático
+   - Harmonia entre cores
+   - Significados psicológicos das cores
+   - Teoria de contraste e equilíbrio cromático
 ## Nivel 2
-
-
-
+- [ ] **Modelagem Poligonal**:
+   - A modelagem poligonal usa polígonos para formar objetos 3D, sendo a base de muitos workflows. Essa técnica permite criar modelos de diferentes níveis de detalhe, desde low-poly, para jogos, até high-poly, para animações e renders realistas.
+   - Conceito de polígonos e como eles formam modelos 3D
+   - Técnicas de subdivisão para maior detalhamento
+   - Como evitar distorções na malha poligonal
+   - Construção de formas complexas com polígonos
+- [ ] **Texturização**:
+   - A texturização é o processo de aplicar detalhes visuais em modelos 3D, como cores, padrões e materiais. Isso envolve técnicas como UV Mapping, criação de mapas de normal e especular, e pintura digital, que dão realismo e personalidade aos modelos.
+   - Técnicas de aplicação de texturas em 3D
+   - Pintura manual de texturas no Blender
+   - Como criar mapas de normal para detalhes extras
+   - Uso de mapas de especularidade para reflexos
+- [ ] **Animação**:
+   - A animação em 3D combina movimentos realistas e topologia limpa para dar vida aos modelos. Inclui rigging, que cria esqueleto e controles, e técnicas para evitar deformações incorretas, essenciais para personagens e objetos animados.
+   - Criação de esqueleto (armature) para modelos
+   - Princípios básicos de animação - timing e espaçamento
+   - Planejamento de topologia para rigging eficiente
 ## Nivel 3
-
-
+- [ ] **Animação**:
+   - A animação em 3D combina movimentos realistas e topologia limpa para dar vida aos modelos. Inclui rigging, que cria esqueleto e controles, e técnicas para evitar deformações incorretas, essenciais para personagens e objetos animados.
+   - Criação de esqueleto (armature) para modelos
+   - Princípios básicos de animação - timing e espaçamento
+   - Planejamento de topologia para rigging eficiente
+- [ ] **Poly by Poly**:
+   - Poly by Poly é uma técnica de modelagem que constrói malhas manualmente, vértice por vértice, ou face por face. Ideal para precisão em projetos complexos, permite criar topologias otimizadas e modelar objetos detalhados e realistas.
+   - Construção de malhas a partir de vértices
+   - Criação de formas complexas com precisão
+   - Comparação entre Poly by Poly e Box Modeling
 ## Habilidade Auxiliar: Desenho 
 - [ ] **Estrutura visual**:
    - A composição organiza elementos no desenho para criar impacto visual e equilíbrio. Inclui técnicas de enquadramento, uso de perspectiva e escolha de pontos focais para guiar o olhar do espectador.
