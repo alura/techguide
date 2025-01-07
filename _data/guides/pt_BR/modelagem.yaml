@@ -4,25 +4,25 @@ tags:
 expertise:
   - name: Nível 1
     cards:
-      - modelagem-fundamentos:
+      - modelagem-1-fundamentos:
         priority: 10
-      - modelagem-box-modeling:
+      - modelagem-1-box-modeling:
         priority: 9
-      - modelagem-composicao:
+      - modelagem-1-composicao:
         priority: 9
   - name: Nível 2
     cards:
-      - modelagem-poligonal:
+      - modelagem-2-poligonal:
         priority: 10
-      - modelagem-texturizacao:
+      - modelagem-2-texturizacao:
         priority: 9
-      - modelagem-iluminacao:
+      - modelagem-3-animacao:
         priority: 9
   - name: Nível 3
     cards:
-      - modelagem-animacao:
+      - modelagem-3-animacao:
         priority: 10
-      - modelagem-poly-by-poly:
+      - modelagem-3-poly-by-poly:
         priority: 9
 collaboration:
   - name: Desenho
