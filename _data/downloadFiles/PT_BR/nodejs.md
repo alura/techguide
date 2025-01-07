@@ -1,5 +1,14 @@
 # Node.js
 ## Nivel 1
+- [ ] **Lógica de Programação**:
+   - Aprender lógica de programação, fundamental para o desenvolvimento de software
+   - Conhecer as bases para se criar, analisar e resolver problemas computacionais de forma estruturada e eficiente
+   - Entender o que são tipos de dados
+   - Declarar variáveis, considerando os diferentes tipos
+   - Conhecer os operadores de atribuição e comparação
+   - Usar estruturas condicionais
+   - Usar estruturas de repetição e laços
+   - Usar funções, passando parâmetros e argumentos
 - [ ] **JavaScript - Fundamentos**:
    - JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.
    - Conhecer os tipos primitivos

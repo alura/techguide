@@ -1,5 +1,14 @@
 # Python
 ## Nivel 1
+- [ ] **Lógica de Programação**:
+   - Aprender lógica de programação, fundamental para o desenvolvimento de software
+   - Conhecer as bases para se criar, analisar e resolver problemas computacionais de forma estruturada e eficiente
+   - Entender o que são tipos de dados
+   - Declarar variáveis, considerando os diferentes tipos
+   - Conhecer os operadores de atribuição e comparação
+   - Usar estruturas condicionais
+   - Usar estruturas de repetição e laços
+   - Usar funções, passando parâmetros e argumentos
 - [ ] **Python - Fundamentos**:
    - Python é uma linguagem de programação de alto nível, de uso geral, amplamente utilizada em aplicações web, desenvolvimento de software, ciência de dados e Machine Learning. Sua filosofia de projeto enfatiza a legibilidade do código com o uso de indentação significativa. Python é dinamicamente tipada e tem um garbage collector.
    - Conhecer os tipos primitivos
