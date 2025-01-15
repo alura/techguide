@@ -52,8 +52,8 @@
 ## Habilidade Auxiliar: Design para mídias sociais 
 - [ ] **Design em movimento**:
    - Dominar as ferramentas e técnicas para criar animações e incorporar movimento nas peças gráficas, tornando o conteúdo mais dinâmico e atraente para mídias sociais.
-   - Aprender a combinar comunicação visual com design em movimento de forma coerente, garantindo que as animações reforcem a mensagem e captem a atenção do público.
-   - Entender como equilibrar e destacar informações em uma imagem em movimento, utilizando princípios de design para guiar a atenção do espectador de maneira eficaz.
+   - Aprender a combinar comunicação visual com Motion Design de forma coerente, garantindo que as animações reforcem a mensagem e captem a atenção do público.
+   - Entender como equilibrar e destacar informações em uma animação, utilizando princípios de design para guiar a atenção do espectador de maneira eficaz.
    - Conhecer os diferentes formatos de vídeos e animações ideais para mídias sociais, garantindo que o conteúdo esteja otimizado para cada plataforma e seu respectivo público-alvo.
 - [ ] **Mídias sociais**:
    - Desenvolver estratégias eficazes para mídias sociais, utilizando briefings detalhados e alinhados com os objetivos.

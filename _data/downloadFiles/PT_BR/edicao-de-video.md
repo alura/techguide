@@ -38,11 +38,11 @@
    - Compreender como dados e métricas de performance influenciam escolhas de edição.
    - Aplicar técnicas de edição para maximizar o engajamento e a retenção com base em análises de dados.
    - Utilizar insights de dados para otimizar o conteúdo e atender às necessidades de audiência específicas.
-## Habilidade Auxiliar: Motion Design and Devlopment 
+## Habilidade Auxiliar: Motion Design 
 - [ ] **Design em movimento**:
    - Dominar as ferramentas e técnicas para criar animações e incorporar movimento nas peças gráficas, tornando o conteúdo mais dinâmico e atraente para mídias sociais.
-   - Aprender a combinar comunicação visual com design em movimento de forma coerente, garantindo que as animações reforcem a mensagem e captem a atenção do público.
-   - Entender como equilibrar e destacar informações em uma imagem em movimento, utilizando princípios de design para guiar a atenção do espectador de maneira eficaz.
+   - Aprender a combinar comunicação visual com Motion Design de forma coerente, garantindo que as animações reforcem a mensagem e captem a atenção do público.
+   - Entender como equilibrar e destacar informações em uma animação, utilizando princípios de design para guiar a atenção do espectador de maneira eficaz.
    - Conhecer os diferentes formatos de vídeos e animações ideais para mídias sociais, garantindo que o conteúdo esteja otimizado para cada plataforma e seu respectivo público-alvo.
 - [ ] **Dados com animações**:
    - Aprender a transformar dados brutos em animações visuais envolventes que facilitem a compreensão.
