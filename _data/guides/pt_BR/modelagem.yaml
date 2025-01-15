@@ -4,40 +4,40 @@ tags:
 expertise:
   - name: Nível 1
     cards:
-      - nome: modelagem-fundamentos
+      - modelagem-1-fundamentos:
         priority: 10
-      - nome: modelagem-box-modeling
+      - modelagem-1-box-modeling:
         priority: 9
-      - nome: modelagem-composicao
+      - modelagem-1-composicao:
         priority: 9
   - name: Nível 2
     cards:
-      - nome: modelagem-poligonal
+      - modelagem-2-poligonal:
         priority: 10
-      - nome: modelagem-texturizacao
+      - modelagem-2-texturizacao:
         priority: 9
-      - nome: modelagem-iluminacao
+      - modelagem-3-animacao:
         priority: 9
   - name: Nível 3
     cards:
-      - nome: modelagem-animacao
+      - modelagem-3-animacao:
         priority: 10
-      - nome: modelagem-poly-by-poly
+      - modelagem-3-poly-by-poly:
         priority: 9
 collaboration:
   - name: Desenho
     cards:
-      - nome: modelagem-desenho-estrutura
+      - modelagem-desenho-estrutura:
         priority: 10
-      - nome: modelagem-desenho-anatomia
+      - modelagem-desenho-anatomia:
         priority: 10
-      - nome: modelagem-desenho-acabamento
+      - modelagem-desenho-acabamento:
         priority: 9
   - name: Design de Jogos
     cards:
-      - nome: modelagem-jogos-personagem
+      - modelagem-jogos-personagem:
         priority: 10
-      - nome: modelagem-jogos-cenarios
+      - modelagem-jogos-cenarios:
         priority: 9
-      - nome: modelagem-jogos-animacao
+      - modelagem-jogos-animacao:
         priority: 9
