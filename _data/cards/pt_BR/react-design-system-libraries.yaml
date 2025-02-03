@@ -21,6 +21,12 @@ alura-contents:
   - type: ARTICLE
     title: "Design Systems: exemplos práticos"
     link: https://www.alura.com.br/artigos/design-systems-exemplos-praticos
+  - type: ARTICLE
+    title: "Como publicar uma biblioteca de hooks React no npm usando Turborepo"
+    link: https://www.alura.com.br/artigos/lib-de-hooks-com-turborepo
+  - type: ARTICLE
+    title: "Atomic design no front-end: construa componentes escaláveis e modulares"
+    link: https://www.alura.com.br/artigos/atomic-design
   - type: YOUTUBE
     title: "Alura: Design System & Style Guide"
     link: https://www.youtube.com/watch?v=rSLvpOqC5wQ
@@ -45,3 +51,7 @@ alura-contents:
   - type: COURSE
     title: "Formação Next.js e Tailwind: construindo um design system"
     link: https://cursos.alura.com.br/formacao-next-js-tailwind-design-system
+  - type: COURSE
+    title: "Formação Construa um Design System com React, Turborepo e Storybook"
+    link: https://cursos.alura.com.br/formacao-design-system-react-turborepo-storybook
+  
