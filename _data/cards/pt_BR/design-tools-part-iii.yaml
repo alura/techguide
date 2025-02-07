@@ -1,13 +1,10 @@
-name: Ferramentas de design (Figma e Sketch) parte III
+name: Ferramentas de design - Parte III
 logo:
 short-description:
 key-objectives:
   - Sabemos que a interface que criamos no Figma não é o produto verdadeiro, já que se trata apenas de um protótipo que projetamos, e que mais para frente virá a se tornar desenvolvido, mas até lá, é precisamos criar uma forma de apresentar o produto para os clientes e usuários, com finalidade de validar tudo o que fizemos até então.
   - Entenda o que é o Dark Mode
   - Aprenda a construir interfaces em Dark Mode
-  - Aprenda a criar uma biblioteca no Sketch
-  - Saiba utilizar ferramentas específicas do Sketch
-  - Realize a construção de gráficos para dashboards
   - Entenda o que são interfaces flutuantes  
 contents:
   - type: ARTICLE
@@ -26,6 +23,3 @@ alura-contents:
   - type: COURSE
     title: "Figma: prototipagem interativa e animações"
     link: https://cursos.alura.com.br/course/figma-prototipagem-interativa-animacoes
-  - type: COURSE
-    title: "Sketch: aprimore sua interface com dark mode"
-    link: https://cursos.alura.com.br/course/sketch-aprimore-interface-dark-mode
