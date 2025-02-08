@@ -22,8 +22,6 @@ expertise:
         priority: 8
   - name: UI design in depth
     cards:
-      - in-depth-ui:
-        priority: 8
       - ui-product:
         priority: 8
       - design-tools-part-iii:
@@ -47,7 +45,4 @@ collaboration:
         priority: 10
       - javascript-fundamentals:
         priority: 7
-      - flutter-fundamentals:
-        priority: 5
-        optional: true
 video: 
