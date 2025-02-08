@@ -9,33 +9,25 @@
    - A especialidade em UX é hoje bastante requisitada em todo tipo de projeto de tecnologia, desde pequenas startups até grandes empresas. Este profissional é responsável por garantir que o design atenda às necessidades das pessoas usuárias, garantindo uma boa experiência de uso/compra para estas pessoas.
 - [ ] **Fundamentos de UI**:
    - O ponto de partida ideal para começarmos a desbravar a área de User Interface Design é entendendo perfeitamente o que ela é, como é representada, como outros profissionais a enxergam, e claro, sua relevância para a construção de um produto.
-- [ ] **Ferramentas de design (Figma e Sketch)**:
-   - O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos. O Sketch é um app similar ao Figma, que roda tanto na web quando no iOS.
+- [ ] **Ferramentas de design**:
+   - O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos.
 ## Nivel 2
 - [ ] **Avançando na UI**:
    - Dê início em processos de UI, idealizando a construção de um produto, entendendo os fundamentos e estruturas.
 - [ ] **Design, estratégia e UX**:
    - A pessoa usuária é muito importante para a UX, porém existe um outro ponto que também tem grande peso - o negócio, pois um produto precisa ser bom e financeiramente agradável para todos os lados.
    - A UX possui processos e ferramentas com focos em unir os interesses das empresas, as dores e necessidades das pessoas usuárias, e considera a capacidade da equipe de desenvolvimento sem gerar esgotamento.
-- [ ] **Ferramentas de design (Figma e Sketch) parte II**:
+- [ ] **Ferramentas de design - Parte II**:
    - Apesar de as ferramentas fundamentais serem praticamente autosuficientes para criar produtos digitais completos, o Figma possui recursos que permitem melhorar nossas interfaces, e até mesmo automatizar diversos processos para construir produtos em diversos dispositivos diferentes.
-   - Estando em sintonia com o Sketch, entendendo suas funções básicas e comportamentos, é hora de evoluir na construção do design de interface, embarcando cada vez mais em metodologias, técnicas e padrões de construção, que tornam melhor a usabilidade do produto, convertendo em experiências positivas.
 ## Nivel 3
-- [ ] **UI em profundidade**:
-   - Uma interface é como o corpo humano - por fora, temos o visual, mas por dentro, temos diversos organismos que executam funções diferentes, mas que unidos, compoem a estrutura dos nossos corpos.
-   - Assim, com a nossa estrutura do produto construída, diversos insights já levantados, e muitos processos executados, podemos começar a construção do que chamamos de "protótipo em alta fidelidade", que se trata do produto final com o qual seu cliente e as pessoas usuárias irão interagir.
-   - Conheça os UI Patterns, que se tratam de comportamentos ideais para todo tipo de cenário, um conteúdo extremamente importante para qualquer um que queira criar produtos digitais.
 - [ ] **UI no produto digital**:
    - Uma interface é como o corpo humano - por fora, temos o visual, mas por dentro, temos diversos organismos que executam funções diferentes, mas que unidos, compoem a estrutura dos nossos corpos.
    - Assim, com a nossa estrutura do produto construída, diversos insights já levantados, e muitos processos executados, podemos começar a construção do que chamamos de "protótipo em alta fidelidade", que se trata do produto final com o qual seu cliente e as pessoas usuárias irão interagir.
    - Conheça os UI Patterns, que se tratam de comportamentos ideais para todo tipo de cenário, um conteúdo extremamente importante para qualquer um que queira criar produtos digitais.
-- [ ] **Ferramentas de design (Figma e Sketch) parte III**:
+- [ ] **Ferramentas de design - Parte III**:
    - Sabemos que a interface que criamos no Figma não é o produto verdadeiro, já que se trata apenas de um protótipo que projetamos, e que mais para frente virá a se tornar desenvolvido, mas até lá, é precisamos criar uma forma de apresentar o produto para os clientes e usuários, com finalidade de validar tudo o que fizemos até então.
    - Entenda o que é o Dark Mode
    - Aprenda a construir interfaces em Dark Mode
-   - Aprenda a criar uma biblioteca no Sketch
-   - Saiba utilizar ferramentas específicas do Sketch
-   - Realize a construção de gráficos para dashboards
    - Entenda o que são interfaces flutuantes
 - [ ] **Design System**:
    - Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
@@ -100,10 +92,3 @@
    - Fazer um CRUD
    - Obter dados de uma API
    - Fazer chamadas assíncronas usando 'Async/Await', 'Promise', etc
-- [ ] **Flutter - Fundamentos**:
-   - Flutter é um kit de desenvolvimento de software de IU de código aberto criado pelo Google. Ele é usado para desenvolver aplicativos multiplataforma para Android, iOS, Linux, macOS, Windows, Google Fuchsia e para a web a partir de um único código.
-   - Os widgets Flutter são construídos utilizando uma estrutura moderna que se inspira na React. A idéia central é que você construa sua interface de usuário a partir de widgets. Os widgets descrevem como deve ser sua visualização, dada sua configuração e estado atuais.
-   - Instalar e configurar o Flutter
-   - Conhecer e saber usar os Widgets básicos do Flutter, como Column, Row, Scaffold, Text, Image, Container, AppBar, ElevatedButton, entre outros
-   - Entender as diferenças entre widgets Stateless e Stateful
-   - Desenvolver a primeira aplicação em Flutter

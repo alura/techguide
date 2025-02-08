@@ -59,10 +59,7 @@
    - O ponto de partida ideal para começarmos a desbravar a área de User Interface Design é entendendo perfeitamente o que ela é, como é representada, como outros profissionais a enxergam, e claro, sua relevância para a construção de um produto.
 - [ ] **Avançando na UI**:
    - Dê início em processos de UI, idealizando a construção de um produto, entendendo os fundamentos e estruturas.
-- [ ] **UI em profundidade**:
-   - Uma interface é como o corpo humano - por fora, temos o visual, mas por dentro, temos diversos organismos que executam funções diferentes, mas que unidos, compoem a estrutura dos nossos corpos.
-   - Assim, com a nossa estrutura do produto construída, diversos insights já levantados, e muitos processos executados, podemos começar a construção do que chamamos de "protótipo em alta fidelidade", que se trata do produto final com o qual seu cliente e as pessoas usuárias irão interagir.
-   - Conheça os UI Patterns, que se tratam de comportamentos ideais para todo tipo de cenário, um conteúdo extremamente importante para qualquer um que queira criar produtos digitais.
+
 - [ ] **Roadmap**:
    - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
    - Alinhe o roadmap com os objetivos de negócio e as metas do produto.

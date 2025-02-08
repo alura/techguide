@@ -52,8 +52,8 @@
    - Conheça as propriedades fundamentais destes elementos quanto aprender como manipulá-las em seus projetos.
 - [ ] **Fundamentos de UI**:
    - O ponto de partida ideal para começarmos a desbravar a área de User Interface Design é entendendo perfeitamente o que ela é, como é representada, como outros profissionais a enxergam, e claro, sua relevância para a construção de um produto.
-- [ ] **Ferramentas de design (Figma e Sketch)**:
-   - O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos. O Sketch é um app similar ao Figma, que roda tanto na web quando no iOS.
+- [ ] **Ferramentas de design**:
+   - O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos.
 ## Habilidade Auxiliar: Product Management 
 - [ ] **Gestão de Produtos - Fundamentos**:
    - Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.
