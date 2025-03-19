@@ -61,8 +61,8 @@
 - [ ] **Princípios do design visual**:
    - null
    - Conheça as propriedades fundamentais destes elementos quanto aprender como manipulá-las em seus projetos.
-- [ ] **Ferramentas de design (Figma e Sketch)**:
-   - O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos. O Sketch é um app similar ao Figma, que roda tanto na web quando no iOS.
+- [ ] **Ferramentas de design**:
+   - O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos.
 - [ ] **Design Thinking**:
    - Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.
    - Entenda profundamente as necessidades dos usuários.
