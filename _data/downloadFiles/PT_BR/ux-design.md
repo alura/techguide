@@ -32,7 +32,7 @@
 - [ ] **Se comunicando com a pessoa usuária - UX Writing**:
    - A experiência de uma pessoa com um produto ou serviço envolve muitos aspectos diferentes e cada um precisa ser estudado detalhadamente. Um dos aspectos mais importantes é a escrita, pois é através dos textos e palavras que conseguimos nos comunicar, nos conectar, ajudar e orientar as pessoas usuárias através de sua vivência com um produto ou serviço.
    - null
-- [ ] **Definição do problema - UX Research**:
+- [ ] **Definição do problema**:
    - Conhecendo a nossa pessoa usuária e as dores relacionadas ao uso de produtos digitais, conseguimos desenhar a jornada de atuação, etapa importante para identificar e priorizar quais problemas que queremos resolver.
 - [ ] **A construção da pesquisa estratégica - UX Strategy**:
    - As áreas da UX estão se consolidando cada dia mais no mercado, e uma de suas vertentes é a UX Strategy, que possui importânica significativa em negócios, pois atende a proposta de vincular a experiência da pessoa usuária e seus métodos com os pilares estratégicos do negócio e manter saudável tanto para a empresa como para a pessoa usuária as decisões tomadas mediante as descobertas feitas em pesquisas do produto.
@@ -41,7 +41,7 @@
    - Após mergulhar nas divisões da UX e realizar projetos, é preciso divulgar seu trabalho e mostrar para as pessoas que você é um(a) profissional da área!
 - [ ] **O texto no produto e no dia a dia - UX Writing**:
    - O texto em um negócio é algo vivo, por isso é importante sempre atualizar e entender se a maneira na qual o negócio está conversando com sua base de pessoas usuárias está de acordo com o esperado.
-- [ ] **Pesquisas, testes e validações - UX Research**:
+- [ ] **Pesquisas, testes e validações**:
    - A construção de artefatos para fortaceler os dados e informações são de extrema importância no processo de pesquisa como um todo. Vale ressaltar que no momento de desenvolvimento ideias e telas, também realizamos pesquisas, mas dessa vez voltadas para o produto e não apenas para a pessoa usuária. vamos dar um passo em direção a solução e conhecer de forma rápida quais artefatos podem nos ajudar a melhorar a experiência do produto e conhecer técnicas que auxiliam no desenvolvimento de telas como card sorting e Tree Testing.
    - Vamos conhecer também as etapas que validam nossas criações, é o momento de colocar o produto na mão da pessoa usuária e fazer os testes de usabilidade, afinal projetamos o produto digital para ela! Aprenderemos a coletar feedbacks e avaliar se a interface criada realmente tem usabilidade ou não.
 - [ ] **Analisando a estratégia com dados - UX Strategy**:
