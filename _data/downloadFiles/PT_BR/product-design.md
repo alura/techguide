@@ -1,42 +1,17 @@
 # Product Design
 ## Nivel 1
+- [ ] **Product Design**:
+   - O primeiro passo para explorarmos a área de Product Design é compreender seu significado, como ela se manifesta na criação de produtos digitais, como os profissionais da área a percebem e, principalmente, sua importância para a construção de soluções funcionais e desejáveis.
 - [ ] **Primeiro contato com UX**:
    - Não existe aplicativo ou site sem usuário. Uma ideia só vira um produto quando é usada por alguém de verdade. E um produto só é um sucesso quando a pessoa tem uma experiência voltada exclusivamente para ela.
    - A área de UX - Experiência do Usuário - é um campo riquíssimo de conhecimento e desafios sobre como facilitar o contato dos nossos usuários com nossos produtos digitais e como essas pessoas se sentem. É um mercado imenso, sendo importante na Web, na construção de aplicativos e sistemas, além de ser importante também no mundo off-line.
    - A especialidade em UX é hoje bastante requisitada em todo tipo de projeto de tecnologia, desde pequenas startups até grandes empresas. Este profissional é responsável por garantir que o design atenda às necessidades das pessoas usuárias, garantindo uma boa experiência de uso/compra para estas pessoas.
-- [ ] **Visão de negócio e estratégia - UX Strategy**:
-   - As áreas da UX estão se consolidando cada dia mais no mercado, e uma de suas vertentes é a UX Strategy. Ela possui importânica significativa em negócios, pois atende a proposta de vincular a experiência da pessoa usuária e seus métodos com os pilares estratégicos do negócio e manter saudável tanto para a empresa como para a pessoa usuária as decisões tomadas mediante as descobertas feitas em pesquisas do produto.
-   - Entender como a UX conversa com o negócio e sua estratégia.
-   - Aprender a aplicar métodos de pesquisa que atendam as expectativas e objetivos do negócio.
-- [ ] **Estratégia e design de interação na UX**:
-   - null
-   - A UX possui processos e ferramentas com focos em unir os interesses das empresas, as dores e necessidades das pessoas usuárias, e considera a capacidade da equipe de desenvolvimento sem gerar esgotamento.
-- [ ] **Design Thinking**:
-   - Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.
-   - Entenda profundamente as necessidades dos usuários.
-   - Clarifique o problema baseado nos insights coletados.
-   - Gere uma ampla gama de ideias inovadoras.
-   - Crie modelos simples para explorar soluções.
-   - Refine as soluções com base no feedback dos testes.
-   - Envolva diversas perspectivas na solução de problemas.
-   - Use métodos visuais para comunicar ideias e processos.
-## Nivel 2
-
-- [ ] **Princípios do design visual**:
-   - null
-   - Conheça as propriedades fundamentais destes elementos quanto aprender como manipulá-las em seus projetos.
+- [ ] **User Interface**:
+   - O ponto de partida ideal para começarmos a desbravar a área de User Interface Design é entendendo perfeitamente o que ela é, como é representada, como outros profissionais a enxergam, e claro, sua relevância para a construção de um produto.
 - [ ] **Figma**:
    - O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos.
-- [ ] **Design System**:
-   - Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
-   - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
-   - Design tokens
-   - Estilos fundamentais
-   - Construção de componentes
-   - Microinterações
-   - Documentação
-## Nivel 3
-- [ ] **Imersão no problema - UX Research**:
+## Nivel 2
+- [ ] **Imersão no problema**:
    - Para criar produtos e serviços que sejam úteis e tragam uma boa experiência para as pessoas usuárias, precisamos entender as suas dores e necessidades. Para realizar esse trabalho temos diversas técnicas de pesquisa que vão desde ouvir o que o usuário pensa sobre, até entender o comportamento que ele tem usando um produto digital ou serviço. Chamamos essa vertente de UX Research, que fica dentro do guarda chuva de disciplinas de UX Design.
    - Aprender as metodologias de pesquisa mais utilizadas na rotina de quem trabalha como UX Researcher.
    - Conhecer técnicas qualitativas como a entrevista com usuários, pesquisa etnográfica e testes de usabilidade.
@@ -46,6 +21,31 @@
 - [ ] **Pesquisas, testes e validações**:
    - A construção de artefatos para fortaceler os dados e informações são de extrema importância no processo de pesquisa como um todo. Vale ressaltar que no momento de desenvolvimento ideias e telas, também realizamos pesquisas, mas dessa vez voltadas para o produto e não apenas para a pessoa usuária. vamos dar um passo em direção a solução e conhecer de forma rápida quais artefatos podem nos ajudar a melhorar a experiência do produto e conhecer técnicas que auxiliam no desenvolvimento de telas como card sorting e Tree Testing.
    - Vamos conhecer também as etapas que validam nossas criações, é o momento de colocar o produto na mão da pessoa usuária e fazer os testes de usabilidade, afinal projetamos o produto digital para ela! Aprenderemos a coletar feedbacks e avaliar se a interface criada realmente tem usabilidade ou não.
+- [ ] **Coletando dados de um produto**:
+   - Para criar experiências mais eficientes e alinhadas às necessidades dos usuários, é importante realizar a análise de dados como base para decisões estratégicas. Ao interpretar métricas de uso, feedbacks e comportamentos, conseguimos identificar padrões, validar hipóteses e aprimorar continuamente o produto, garantindo que ele evolua de forma objetiva e orientada por evidências.
+   - null
+   - null
+   - null
+- [ ] **Interpretando dados**:
+   - Interpretar dados é essencial para entender o comportamento dos usuários e tomar decisões embasadas. Ao analisar métricas, padrões e feedbacks, é possível otimizar a experiência do produto de forma estratégica e eficiente.
+   - null
+   - null
+- [ ] **Acessibilidade em UX**:
+   - A acessibilidade garante que produtos digitais sejam inclusivos e utilizáveis por todas as pessoas, independentemente de limitações físicas, cognitivas ou sensoriais. Ao adotar boas práticas e diretrizes, criamos experiências mais equitativas e eficientes para todos.
+   - null
+   - null
+   - null
+## Nivel 3
+- [ ] **UX Lead**:
+   - O UX Lead é o profissional que guia times de design na criação de experiências centradas no usuário. Além de definir estratégias e processos, ele atua como facilitador, alinhando objetivos de negócio, tecnologia e design para garantir produtos eficientes e impactantes.
+- [ ] **Design System**:
+   - Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.
+   - Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto
+   - Design tokens
+   - Estilos fundamentais
+   - Construção de componentes
+   - Microinterações
+   - Documentação
 ## Habilidade Auxiliar: Front-end 
 - [ ] **HTML - Fundamentos**:
    - HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.
@@ -97,6 +97,14 @@
    - Priorizar recursos com base no valor para o cliente e para o negócio.
    - Analisar métricas e feedback para orientar decisões.
    - Estar aberto a mudanças e ajuste a estratégia conforme necessário.
+- [ ] **Gestão de Produtos Digitais**:
+   - Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.
+   - Colocar as necessidades dos usuários no centro do processo de desenvolvimento.
+   - Definir uma visão clara e estratégia para o produto digital.
+   - Mapear e otimizar a jornada do usuário no produto.
+   - Coletar e analisar feedback dos usuários para melhorias.
+   - Adotar metodologias ágeis para entregas rápidas e iterativas.
+   - Utilizar dados para tomar decisões informadas sobre o produto.
 - [ ] **Roadmap**:
    - Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.
    - Alinhe o roadmap com os objetivos de negócio e as metas do produto.
