@@ -2,33 +2,35 @@ name: Product Design
 tags:
   - design
 expertise:
-  - name: UX Design
+  - name: Fundamentos
     cards:
+      - product-design:
+        priority: 10
       - first-contact-with-ux:
         priority: 10
-      - starting-ux-strategy:
-        priority: 9
-      - ux-interaction-strategy-and-design:
-        priority: 9
-      - design-thinking:
+      - pd-user-interface:
         priority: 10
-  - name: UI Design
-    cards:
-      - user-interface:
-        priority: 10
-      - visual-design-principles:
-        priority: 9
       - figma:
-        priority: 10
-      - design-system:
         priority: 9
-  - name: UX Research
+  - name: Aprofundamento
     cards:
       - starting-ux-research:
         priority: 10
       - diving-in-ux-research:
-        priority: 9
+        priority: 10
       - deep-dive-ux-research:
+        priority: 10
+      - data-driven-coleta-analise:
+        priority: 9
+      - data-driven-interpretando:
+        priority: 9
+      - acessibilidade-ux:
+        priority: 10
+  - name: Especialização
+    cards:
+      - ux-lead:
+        priority: 10
+      - design-system:
         priority: 9
 collaboration:
   - name: Front-end
@@ -42,6 +44,8 @@ collaboration:
   - name: Gestão e negócios
     cards:
       - product-management-fundamentals:
+        priority: 10
+      - product-management:
         priority: 10
       - roadmap:
         priority: 9
