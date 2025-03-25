@@ -7,7 +7,7 @@
 - [ ] **Entendendo a escrita em UX - UX Writing**:
    - A experiência de uma pessoa com um produto ou serviço envolve muitos aspectos diferentes e cada um precisa ser estudado detalhadamente. Um dos aspectos mais importantes é a escrita, pois é através dos textos e palavras que conseguimos nos comunicar, nos conectar, ajudar e orientar as pessoas usuárias através de sua vivência com um produto ou serviço.
    - null
-- [ ] **Imersão no problema - UX Research**:
+- [ ] **Imersão no problema**:
    - Para criar produtos e serviços que sejam úteis e tragam uma boa experiência para as pessoas usuárias, precisamos entender as suas dores e necessidades. Para realizar esse trabalho temos diversas técnicas de pesquisa que vão desde ouvir o que o usuário pensa sobre, até entender o comportamento que ele tem usando um produto digital ou serviço. Chamamos essa vertente de UX Research, que fica dentro do guarda chuva de disciplinas de UX Design.
    - Aprender as metodologias de pesquisa mais utilizadas na rotina de quem trabalha como UX Researcher.
    - Conhecer técnicas qualitativas como a entrevista com usuários, pesquisa etnográfica e testes de usabilidade.
