@@ -114,7 +114,6 @@
    - Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.
    - Colete feedback regularmente para ajustar o roadmap conforme necessário.
    - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.
-
 - [ ] **Cultura Ágil**:
    - Enfatizar o trabalho em equipe e a comunicação aberta.
    - Promover feedback regular para melhorias rápidas e eficazes.
