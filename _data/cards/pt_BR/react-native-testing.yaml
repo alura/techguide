@@ -1,0 +1,36 @@
+name: React Native - Testes
+logo:
+short-description:
+key-objectives:
+  - Aprender as melhores práticas de testes em React Native.
+  - Conhecer as ferramentas e bibliotecas de testes para React Native, como Jest e React Native Testing Library.
+  - Aprender a escrever testes unitários, de integração e de interface de usuário para garantir a qualidade do código.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Oficial do React Native - Testes"
+    link: https://reactnative.dev/docs/testing-overview
+  - type: SITE
+    title: "Jest - Framework de Testes para JavaScript"
+    link: https://jestjs.io/
+  - type: SITE
+    title: "React Native Testing Library - Testes de UI"
+    link: https://testing-library.com/docs/react-native-testing-library/intro/
+  - type: SITE
+    title: "Enzyme - Testes para React Native"
+    link: https://airbnb.io/enzyme/
+  - type: SITE
+    title: "Mocking em Jest - Documentação"
+    link: https://jestjs.io/docs/mock-functions
+  - type: SITE
+    title: "Detox - Testes End-to-End para React Native"
+    link: https://wix.github.io/Detox/
+  - type: YOUTUBE
+    title: "React Native Testing Tutorial | Jest and React Native Testing Library"
+    link: https://youtu.be/RX61r8u1fMc
+  - type: ARTICLE
+    title: "Testando Aplicações React Native com Jest"
+    link: https://www.toptal.com/react-native/react-native-testing-jest
+  - type: ARTICLE
+    title: "Testes End-to-End com Detox no React Native"
+    link: https://www.smashingmagazine.com/2020/04/detox-end-to-end-testing-react-native/

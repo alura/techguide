@@ -1,0 +1,33 @@
+name: React Native - Fundamentos
+logo:
+short-description:
+key-objectives:
+  - React Native é um framework de desenvolvimento de software de código aberto criado pelo Facebook. Ele permite desenvolver aplicativos para Android e iOS usando um único código-fonte.
+  - No React Native, as interfaces são construídas usando componentes. Esses componentes, como View, Text, Image, Button e TextInput, são responsáveis por definir tanto a aparência quanto o comportamento da sua aplicação. A ideia é simplesmente descrever como a interface deve se comportar de acordo com o estado da aplicação.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "React Native - Documentação"
+    link: https://reactnative.dev/
+  - type: SITE
+    title: "Expo - Documentação"
+    link: https://expo.dev/
+  - type: SITE
+    title: "React Native - Guia de Introdução"
+    link: https://reactnative.dev/docs/getting-started
+  - type: SITE
+    title: "React Navigation - Navegação no React Native"
+    link: https://reactnavigation.org/
+  - type: SITE
+    title: "React Native Elements - Biblioteca de Componentes"
+    link: https://reactnativeelements.com/
+  - type: SITE
+    title: "React Native Debugger - Ferramenta de Debug"
+    link: https://github.com/jhen0409/react-native-debugger
+  - type: SITE
+    title: "React Native - Uso de Hooks"
+    link: https://reactnative.dev/docs/hooks
+alura-contents:
+  - type: COURSE
+    title: "Formação React Native: Desenvolva seu primeiro app"
+    link: https://cursos.alura.com.br/formacao-react-native-primeiro-app

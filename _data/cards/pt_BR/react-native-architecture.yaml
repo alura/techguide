@@ -1,0 +1,27 @@
+name: React Native - Arquitetura
+logo:
+short-description:
+key-objectives:
+  - Compreender as melhores práticas de arquitetura para criar aplicativos React Native.
+  - Conhecer os principais padrões de arquitetura no React Native.
+  - Aprender como organizar pastas e componentes.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação oficial do React Native - Arquitetura"
+    link: https://reactnative.dev/docs/architecture-overview
+  - type: SITE
+    title: "Arquitetura 0.76 do React Native - Novidades e Melhoria"
+    link: https://reactnative.dev/blog/2020/09/23/version-0.76
+  - type: SITE
+    title: "React Navigation - Arquitetura de navegação no React Native"
+    link: https://reactnavigation.org/docs/getting-started
+  - type: SITE
+    title: "React Native - Organizando componentes e pastas"
+    link: https://reactnative.dev/docs/structure
+  - type: SITE
+    title: "Padrão MVVM no React Native"
+    link: https://reactnative.dev/docs/architecture#mvvm-pattern
+  - type: SITE
+    title: "React Native - Melhorias de performance com arquitetura"
+    link: https://reactnative.dev/docs/optimizing-performance

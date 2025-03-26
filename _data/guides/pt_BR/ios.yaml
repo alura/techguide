@@ -46,6 +46,8 @@ expertise:
     cards:
       - ios-architecture:
         priority: 10
+      - ios-design-system:
+        priority: 9
       - ios-dependency-injection:
         priority: 9
       - ios-animations:

@@ -1,0 +1,43 @@
+name: React Native - Pacotes Essenciais
+logo:
+short-description:
+key-objectives:
+  - O React Native permite o uso de pacotes e bibliotecas de terceiros para agilizar o desenvolvimento e adicionar funcionalidades extras aos aplicativos.
+  - Conhecer e saber utilizar o NPM (Node Package Manager) para gerenciar pacotes.
+  - Conhecer os principais pacotes do React Native e suas utilidades.
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Oficial do React Native - Usando Pacotes"
+    link: https://reactnative.dev/docs/linking-libraries
+  - type: SITE
+    title: "React Native - Pacotes no NPM"
+    link: https://www.npmjs.com/package/react-native
+  - type: SITE
+    title: "React Native - Pacotes Populares"
+    link: https://github.com/ReactNativeCommunity
+  - type: SITE
+    title: "React Native Firebase - Biblioteca para Firebase"
+    link: https://rnfirebase.io/
+  - type: SITE
+    title: "React Navigation - Navegação no React Native"
+    link: https://reactnavigation.org/
+  - type: SITE
+    title: "React Native Paper - Componentes UI"
+    link: https://callstack.github.io/react-native-paper/
+  - type: SITE
+    title: "Axios - Biblioteca para requisições HTTP"
+    link: https://axios-http.com/
+  - type: YOUTUBE
+    title: "React Native: 10 Essential Libraries for Developers"
+    link: https://youtu.be/2EJkEzV0FJ8
+  - type: ARTICLE
+    title: "Bibliotecas essenciais para o desenvolvimento com React Native"
+    link: https://blog.codemagic.io/essential-libraries-for-react-native-developers/
+  - type: ARTICLE
+    title: "Principais Pacotes para React Native"
+    link: https://medium.com/@newtonstechblog/most-popular-react-native-libraries-9cc62b8f5e4b
+alura-contents:
+  - type: COURSE
+    title: "Formação React Native: Desenvolva seu primeiro app"
+    link: https://cursos.alura.com.br/formacao-react-native-primeiro-app

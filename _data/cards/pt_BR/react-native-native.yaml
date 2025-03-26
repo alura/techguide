@@ -1,0 +1,36 @@
+name: React Native - Nativo
+logo:
+short-description:
+key-objectives:
+  - Conhecer as especificidades do desenvolvimento nativo para Android.
+  - Conhecer as especificidades do desenvolvimento nativo para iOS
+aditional-objectives:
+contents:
+  - type: SITE
+    title: "Documentação Oficial do React Native - Componentes e APIs"
+    link: https://reactnative.dev/docs/components-and-apis
+  - type: SITE
+    title: "Documentação Oficial do React Native - Integração com Android"
+    link: https://reactnative.dev/docs/integration-with-existing-apps#android
+  - type: SITE
+    title: "Documentação Oficial do React Native - Integração com iOS"
+    link: https://reactnative.dev/docs/integration-with-existing-apps#ios
+  - type: SITE
+    title: "Documentação Oficial do React Native - Trabalhando com Native Modules"
+    link: https://reactnative.dev/docs/native-modules-android
+  - type: SITE
+    title: "Documentação Oficial do Expo - Começando com o Expo"
+    link: https://docs.expo.dev/get-started/installation/
+  - type: SITE
+    title: "Documentação Oficial do Expo - API do Expo"
+    link: https://docs.expo.dev/versions/latest/
+  - type: SITE
+    title: "Documentação Oficial do Expo - Desenvolvimento para Android e iOS"
+    link: https://docs.expo.dev/get-started/installation/#android-and-ios
+  - type: SITE
+    title: "Expo Managed Workflow - O que é e como funciona"
+    link: https://docs.expo.dev/workflow/managed/
+alura-contents:
+  - type: COURSE
+    title: "Curso React Native: integrando câmera nativa para capturar fotos"
+    link: https://cursos.alura.com.br/course/react-native-integrando-camera-nativa-capturar-fotos
