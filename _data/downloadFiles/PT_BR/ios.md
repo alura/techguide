@@ -104,6 +104,11 @@
    - Conhecer os conceitos básicos de arquiteturas;
    - Entender as diferenças entre as arquiteturas e suas vantagens;
    - Implementar alguma delas em um aplicativo iOS.
+- [ ] **iOS - Design System**:
+   - A Apple oferece ferramentas e recursos para que os aplicativos sigam as melhores práticas de design e interação no iOS.
+   - Entender as Human Interface Guidelines (HIG) da Apple;
+   - Criar componentes reutilizáveis e escaláveis para iOS;
+   - Aplicar o Design System em diferentes dispositivos iOS.
 - [ ] **iOS - Injeção de dependências**:
    - A injeção de dependências (DI) é um padrão de projeto que permite que os componentes de um aplicativo recebam as dependências de que precisam em tempo de execução. Isso torna os componentes mais testáveis e flexíveis. Existem várias maneiras de implementar a DI em iOS. Uma maneira comum é usar um contêiner de injeção de dependências. Um contêiner de injeção de dependências é um objeto que armazena as dependências de um aplicativo e as fornece aos componentes conforme necessário. A DI é uma ferramenta poderosa que pode ajudar os desenvolvedores a criar aplicativos mais testáveis e flexíveis. Ao aprender como usar a DI, você pode criar aplicativos que são mais fáceis de manter e estender. Veja as principais habilidades que você precisa desenvolver:
    - Conhecer e utilizar o padrão de projeto de injeção de dependências.
