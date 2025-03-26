@@ -1,0 +1,25 @@
+
+name: iOS - Design System
+logo:  
+short-description:  
+key-objectives:
+  - A Apple oferece ferramentas e recursos para que os aplicativos sigam as melhores práticas de design e interação no iOS.
+  - Entender as Human Interface Guidelines (HIG) da Apple;
+  - Criar componentes reutilizáveis e escaláveis para iOS;
+  - Aplicar o Design System em diferentes dispositivos iOS.
+
+aditional-objectives:  
+contents:
+  - type: ARTICLE  
+    title: "Human Interface Guidelines | Apple Developer"  
+    link: https://developer.apple.com/design/human-interface-guidelines/  
+  - type: ARTICLE  
+    title: "Designing for iOS | Apple Developer"  
+    link: https://developer.apple.com/design/  
+  - type: ARTICLE  
+    title: "SwiftUI and Design Systems | Apple Developer"  
+    link: https://developer.apple.com/xcode/swiftui/  
+alura-contents:
+  - type: COURSE
+    title: "Formação iOS com SwiftUI: crie design system para projetos"
+    link: https://cursos.alura.com.br/formacao-ios-swiftui-crie-design-system-projetos
