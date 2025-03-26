@@ -1,0 +1,85 @@
+name: React Native
+tags:
+  - mobile
+expertise:
+  - name: React Native Jr
+    cards:
+      - html-fundamentals:
+        priority: 8
+      - css-fundamentals:
+        priority: 8
+      - javascript-fundamentals:
+        priority: 10
+      - dom-fundamentals:
+        priority: 10
+      - spa-concepts:
+        priority: 9
+      - react-components:
+        priority: 9
+      - react-props:
+        priority: 9
+      - react-hooks-state:
+        priority: 9
+      - create-react-app:
+        priority: 7
+      - react-hooks-effect:
+        priority: 9       
+  - name: React Native Mid
+    cards:
+      - react-native-fundamentals:
+        priority: 10
+      - react-native-packages:
+        priority: 8
+      - react-native-testing:
+        priority: 8
+  - name: React Native in depth
+    cards:   
+      - react-native-native:
+        priority: 9
+      - react-native-animations:
+        priority: 7   
+      - react-native-architecture:
+        priority: 9   
+collaboration:
+  - name: Infraestrutura e Back-end
+    cards:
+      - git-and-github-fundamentals:
+        priority: 10
+      - http-fundamentals:
+        priority: 10
+      - json:
+        priority: 8
+      - design-patterns:
+        priority: 7
+      - command-line-fundamentals: 
+        priority: 7
+      - cloud-fundamentals: 
+        priority: 6
+        optional: true
+      - solid:
+        priority: 6
+      - clean-architecture:
+        priority: 6
+    #  - devops: 
+    #    priority: 6
+    #    optional: true
+    #  - ci-cd:
+    #    priority: 6
+    #    optional: true
+      - firebase:
+        priority: 7
+  - name: UX e Design
+    cards:
+      - design-system:
+        priority: 6
+      - figma-fundamentals:
+        priority: 7
+      - design-components:
+        priority: 6
+      - color-systems:
+        priority: 7
+      - how-to-use-fonts:
+        priority: 7
+      - responsive-design:
+        priority: 5
+video: https://www.youtube.com/watch?v=O6TnaSkSC48
