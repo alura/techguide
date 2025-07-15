@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Marketing Digital</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Explorando conceitos de Marketing Digital</strong>:</li>
+<ul><li>Compreender os princípios fundamentais do marketing digital, incluindo as diferentes áreas de atuação, como tráfego orgânico e pago, e as principais estratégias para aumentar a visibilidade online de uma marca.</li>
+<li>Explorar as principais plataformas digitais e ferramentas utilizadas para divulgar negócios na internet, garantindo que os perfis comerciais sejam otimizados e mantenham uma presença profissional.</li>
+<li>Aprender a diferenciar e aplicar as técnicas de tráfego orgânico e pago, desenvolvendo habilidades para planejar e executar campanhas de marketing digital que alcancem e envolvam o público-alvo de maneira eficaz..</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Branding</strong>:</li>
+<ul><li>Entender os componentes fundamentais do branding e como eles contribuem para a criação de uma marca memorável e diferenciada no mercado.</li>
+<li>Desenvolver uma identidade de marca consolidada, que comunique de forma clara e eficaz os valores e a missão da empresa, ajudando a criar marcas de sucesso que se destacam entre os concorrentes.</li>
+<li>Aplicar estratégias poderosas para construir e gerir a marca, criando experiências marcantes que ressoam com o público-alvo e fomentam a lealdade dos clientes.</li>
+<li>Inspirar-se em cases de sucesso para construir uma marca forte que estabeleça uma conexão emocional com os clientes, promovendo um relacionamento duradouro e um forte posicionamento no mercado..</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Plano de Marketing Digital</strong>:</li>
+<ul><li>Desenvolver a habilidade de coletar e interpretar dados de pesquisa e feedback, utilizando esses insights para aprimorar serviços e produtos e ajustar as estratégias de marketing digital de forma eficaz.</li>
+<li>Aprender a analisar tendências de mercado utilizando ferramentas digitais, aplicando o método SMART para definir metas claras e a matriz SWOT para identificar oportunidades e desafios no ambiente competitivo.</li>
+<li>Elaborar e coordenar estratégias de marketing digital, integrando os diferentes elementos do plano em um cronograma eficiente que garanta a execução bem-sucedida das campanhas e a maximização dos resultados.</li>
+<li>Compreender a jornada do consumidor e aplicar os princípios de OKRs para alinhar as estratégias de marketing digital com os objetivos organizacionais, criando campanhas que ressoem com as necessidades e desejos do público-alvo..</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SEO</strong>:</li>
+<ul><li>Compreender os fundamentos do SEO, incluindo como ele funciona e por que é essencial para aumentar a visibilidade e o alcance de um site nos motores de busca.</li>
+<li>Aprender a aplicar as principais técnicas e estratégias de SEO, otimizando o conteúdo e a estrutura do site para melhorar o posicionamento nas páginas de resultados dos motores de busca (SERPs).</li>
+<li>Entender como funcionam os algoritmos dos principais motores de busca, como o Google, e como as atualizações nesses algoritmos podem impactar o desempenho de SEO de um site.</li>
+<li>Mensurar e analisar os resultados das estratégias de SEO utilizando as ferramentas certas, permitindo ajustes contínuos e garantindo que o site permaneça competitivo no ranking dos motores de busca..</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Social Commerce</strong>:</li>
+<ul><li>Compreender a importância e as vantagens de utilizar redes sociais como ferramentas estratégicas para gerar leads e aumentar as vendas, aproveitando o alcance e a interatividade dessas plataformas.</li>
+<li>Explorar a evolução do e-commerce e adaptar estratégias de marketing para o ambiente de social commerce, integrando as melhores práticas e técnicas específicas para cada plataforma social.</li>
+<li>Aprender a configurar e otimizar recursos, como anúncios e postagens patrocinadas, em redes sociais como Instagram e Facebook, maximizando a visibilidade e a conversão de vendas.</li>
+<li>Desenvolver habilidades para identificar e colaborar com influenciadores digitais, utilizando sua influência para fortalecer campanhas de social commerce e engajar o público-alvo de forma autêntica e eficaz..</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Marketplace</strong>:</li>
+<ul><li>Entender o conceito de marketplace, suas vantagens e desvantagens, e como esse modelo de plataforma de e-commerce pode ser utilizado de forma estratégica para expandir a presença online de um negócio.</li>
+<li>Explorar as diferenças entre um marketplace de nicho e um tradicional, identificando qual tipo se alinha melhor ao modelo de negócios e às metas da empresa, e como competir efetivamente em ambos os ambientes.</li>
+<li>Aprender a otimizar listagens de produtos no marketplace, utilizando palavras-chave, descrições e estratégias de SEO específicas para melhorar o ranking e a visibilidade, resultando em maiores taxas de conversão.</li>
+<li>Analisar casos de sucesso e tendências do mercado, compreendendo como os principais players do setor utilizam os marketplaces para alcançar seus objetivos de vendas e como essas estratégias podem ser adaptadas para o próprio negócio.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise de métricas para e-commerce</strong>:</li>
+<ul><li>Compreender a importância das métricas no e-commerce e como elas são essenciais para orientar decisões estratégicas que impulsionem o desempenho da loja virtual.</li>
+<li>Identificar e aplicar métricas-chave em diferentes etapas do funil de vendas, permitindo uma análise detalhada do comportamento do cliente e otimizando as estratégias de marketing digital.</li>
+<li>Diferenciar e utilizar ferramentas de Web Analytics, como Google Analytics, para coletar, interpretar e transformar dados em insights acionáveis que melhorem a eficiência e a eficácia das campanhas de e-commerce.</li>
+<li>Integrar conceitos de Business Intelligence e cultura data-driven ao marketing digital, garantindo que todas as decisões sejam baseadas em dados precisos e que as campanhas sejam continuamente aprimoradas com base em resultados mensuráveis.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Inbound Marketing</strong>:</li>
+<ul><li>Compreender os fundamentos do Inbound Marketing, incluindo as principais estratégias e ações necessárias para atrair visitantes, convertê-los em leads e, eventualmente, transformá-los em clientes fiéis.</li>
+<li>Aprender a estruturar e executar uma estratégia de Inbound Marketing, criando conteúdo relevante e personalizado para cada estágio da jornada do usuário, desde a atração até o fechamento e encantamento.</li>
+<li>Explorar o uso de automação em Inbound Marketing, configurando fluxos de nutrição de leads e utilizando ferramentas para simplificar e acelerar processos, garantindo uma execução mais eficiente das campanhas.</li>
+<li>Integrar e aplicar o conceito de flywheel, substituindo a lógica tradicional de funil de marketing, com foco em criar um ciclo contínuo de crescimento e retenção, alimentado pela experiência positiva dos clientes..</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Marketing Viral</strong>:</li>
+<ul><li>Estudar as métricas de marketing viral, aprendendo a identificar possíveis problemas e otimizar continuamente as campanhas para alcançar os melhores resultados em termos de engajamento e conversão.</li>
+<li>Compreender como o Buzz Marketing e outras estratégias virais podem ser utilizadas para ampliar significativamente o alcance de uma marca, gerando um impacto duradouro e positivo.</li>
+<li>Explorar exemplos reais de campanhas virais bem-sucedidas, analisando os elementos que contribuíram para seu sucesso e como esses fatores podem ser replicados em diferentes contextos.</li>
+<li>Identificar e trabalhar com influenciadores-chave e comunidades online para criar uma base sólida de defensores da marca, maximizando a propagação das mensagens de marketing de forma orgânica.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>E-mail marketing</strong>:</li>
+<ul><li>Compreender como o e-mail marketing é utilizado por empresas para alcançar leads de forma eficiente, incluindo a criação de listas de contatos segmentadas e personalizadas para maximizar o impacto das campanhas.</li>
+<li>Aprender a utilizar técnicas de copywriting e CTAs (Call to Actions) para aumentar as taxas de engajamento e conversão, garantindo que as mensagens de e-mail sejam persuasivas e levem o lead à ação desejada.</li>
+<li>Desenvolver habilidades para implementar e otimizar automações de e-mail marketing, incluindo a configuração de ferramentas, a criação de landing pages e a execução de fluxos de e-mails alinhados com as diferentes fases do funil de vendas.</li>
+<li>Analisar e entender as métricas de e-mail marketing para aprimorar continuamente as campanhas, ajustando estratégias com base nos dados coletados para melhorar a entregabilidade, a abertura e o desempenho geral das campanhas.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Análise e estratégia de dados</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Data-driven UX</strong>:</li>
+<ul><li>Compreender como os dados podem otimizar a experiência do usuário e garantir que as interfaces atendam às expectativas dos usuários</li>
+<li>Aprender a coletar e interpretar dados qualitativos e quantitativos utilizando ferramentas como Hotjar e Google Analytics, focando na experiência e comportamento do usuário</li>
+<li>Aplicar insights de dados para tomar decisões informadas sobre o design e aprimorar continuamente a interface e a usabilidade dos produtos</li>
+<li>Incorporar uma abordagem orientada por dados em todo o ciclo de design, criando soluções altamente alinhadas às necessidades dos usuários e aos objetivos de negócios.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Jornada do cliente</strong>:</li>
+<ul><li>Compreenda as etapas principais da jornada do cliente e como cada fase impacta na experiência geral.</li>
+<li>Aprenda a identificar e entender os pontos de contato que influenciam a satisfação e o engajamento do cliente.</li>
+<li>Desenvolva estratégias de engajamento ao longo da jornada para melhorar a retenção e a lealdade do cliente.</li>
+<li>Aplique uma mentalidade centrada no cliente para criar experiências que atendam às necessidades e expectativas em cada etapa da jornada.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Customer Success</strong>:</li>
+<ul><li>Aprenda a aplicar Customer Success como uma estratégia central para aumentar a receita e retenção de clientes em sua empresa.</li>
+<li>Entenda a evolução e a importância do Customer Success e como ele se diferencia de outras áreas de atendimento ao cliente.</li>
+<li>Domine técnicas de escuta ativa e Spin Selling para melhorar o atendimento e impulsionar o sucesso do cliente.</li>
+<li>Identifique os principais indicadores de sucesso em Customer Success e como usá-los para avaliar e melhorar a experiência do cliente.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+<ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
+<li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
+<li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
+<li>Defina marcos e prazos realistas para o desenvolvimento e entrega.</li>
+<li>Comunique o roadmap de forma clara e transparente com todas as partes interessadas.</li>
+<li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
+<li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
+<li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Business Agility</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão Ágil</strong>:</li>
+<ul><li>Compreender os princípios da Gestão Ágil e sua aplicação para melhorar a adaptabilidade e inovação.</li>
+<li>Implementar metodologias ágeis, como Scrum e Kanban, em projetos e processos empresariais.</li>
+<li>Fomentar a colaboração e auto-organização das equipes para decisões rápidas e eficazes.</li>
+<li>Utilizar ferramentas e métricas ágeis para monitorar e melhorar o desempenho dos projetos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Lean-Ágil além da TI</strong>:</li>
+<ul><li>Entenda como as práticas Lean-Ágil podem ser escaladas em toda a organização, contribuindo para a transformação cultural e estratégica em direção à agilidade nos negócios.</li>
+<li>Expanda sua visão ágil além do contexto de TI, aprendendo a aplicar o mindset Lean-Ágil em toda a organização, promovendo a inovação e a redução de desperdícios em todos os setores.</li>
+<li>Desenvolva competências estratégicas para liderar transformações Lean-Ágil em sua empresa, integrando conceitos de agilidade escalada e discreta para alcançar melhores resultados organizacionais.</li>
+<li>Diagnostique o estágio atual da sua organização em relação à agilidade, identificando oportunidades para a implementação de metodologias ágeis que impulsionem o crescimento e a eficiência.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Métricas Ágeis</strong>:</li>
+<ul><li>Essencial compreender a importância das métricas ágeis na avaliação do desempenho das equipes e na identificação de áreas de melhoria contínua, sendo que métricas bem definidas ajudam a garantir que as equipes estejam no caminho certo para alcançar seus objetivos.</li>
+<li>Aprender a utilizar diferentes tipos de métricas ágeis, como lead time, cycle time, throughput, e velocity, para obter uma visão abrangente do desempenho e da produtividade das equipes. Cada métrica oferece insights específicos que são essenciais para a gestão eficaz de projetos ágeis.</li>
+<li>Desenvolver habilidades para coletar, analisar e interpretar dados de métricas ágeis, transformando esses dados em insights acionáveis que possam orientar decisões estratégicas e operacionais. A análise correta dos dados permite ajustes precisos nos processos e práticas.</li>
+<li>Explorar estratégias para implementar e integrar métricas ágeis no dia a dia das equipes, promovendo uma cultura de transparência e melhoria contínua. A integração eficaz de métricas nas rotinas das equipes garante um monitoramento constante e ajustes ágeis conforme necessário.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Vendas</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vendas na era digital</strong>:</li>
+<ul><li>Desenvolver estratégias inovadoras de vendas que capacitem a equipe a tomar decisões estratégicas, promovendo uma cultura de autonomia e responsabilidade.</li>
+<li>Estimular a diversidade nas abordagens de vendas, incentivando a troca de ideias e técnicas entre vendedores com diferentes perfis e experiências, enriquecendo a estratégia de vendas e aumentando o engajamento da equipe.</li>
+<li>Criar ambiente de trabalho motivador para equipe de vendas.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de carteira</strong>:</li>
+<ul><li>Desenvolver estratégias eficazes de segmentação de carteira, permitindo uma personalização mais precisa das abordagens de vendas e maximizando o valor do cliente em longo prazo.</li>
+<li>Implementar práticas de gestão que promovam o relacionamento contínuo e fortalecido com os clientes, utilizando ferramentas e metodologias que suportem um acompanhamento estratégico e pró-ativo.</li>
+<li>Capacitar a equipe de vendas para identificar e explorar oportunidades de upsell e cross-sell, aumentando a rentabilidade da carteira de clientes com técnicas que agreguem valor ao cliente.</li>
+<li>Promover uma cultura de excelência na gestão de carteira, onde a eficiência operacional e o retorno sobre o investimento sejam continuamente aprimorados através de feedbacks constantes e ajustes estratégicos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Customer Success</strong>:</li>
+<ul><li>Aprenda a aplicar Customer Success como uma estratégia central para aumentar a receita e retenção de clientes em sua empresa.</li>
+<li>Entenda a evolução e a importância do Customer Success e como ele se diferencia de outras áreas de atendimento ao cliente.</li>
+<li>Domine técnicas de escuta ativa e Spin Selling para melhorar o atendimento e impulsionar o sucesso do cliente.</li>
+<li>Identifique os principais indicadores de sucesso em Customer Success e como usá-los para avaliar e melhorar a experiência do cliente.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Social Selling</strong>:</li>
+<ul><li>Desenvolver uma presença digital sólida e autêntica que reforce a marca pessoal e profissional de vendedores, utilizando plataformas sociais para construir confiança e autoridade no mercado.</li>
+<li>Capacitar equipe de vendas para identificar e engajar decisores certos dentro de redes sociais, aplicando técnicas de segmentação e prospecção que maximizem a eficácia das abordagens.</li>
+<li>Implementar estratégias de criação e compartilhamento de conteúdo relevante que ressoe com o público-alvo, estimulando o engajamento e posicionando a empresa como líder de pensamento no setor.</li>
+<li>Estabelecer métricas claras e sistemas de monitoramento para avaliar o impacto das atividades de social selling, permitindo ajustes estratégicos que melhorem os resultados e a eficiência das vendas sociais.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Técnicas para melhorar o aprendizado sobre o mercado</strong>:</li>
+<ul><li>Desenvolver a habilidade de análise de mercado através de técnicas avançadas de pesquisa, permitindo que a equipe de vendas compreenda profundamente as tendências, concorrentes e necessidades do cliente.</li>
+<li>Capacitar a equipe de vendas com ferramentas e métodos eficazes para identificar e estudar o comportamento do consumidor, proporcionando insights valiosos que orientem a estratégia de vendas.</li>
+<li>Criar cultura de aprendizado contínuo, onde os vendedores sejam incentivados a atualizar regularmente conhecimentos sobre o mercado e a adaptar suas abordagens de acordo com as mudanças no ambiente de negócios.</li>
+<li>Implementar rotinas de estudo e reflexão sobre o mercado que integrem o conhecimento adquirido com a prática de vendas, garantindo que os insights de mercado sejam aplicados de forma eficaz nas interações com os clientes.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Prospecção de clientes</strong>:</li>
+<ul><li>Desenvolver e implementar estratégias de prospecção que permitam identificar e segmentar clientes potenciais com maior precisão, utilizando dados e análises de mercado para orientar esforços de vendas.</li>
+<li>Capacitar equipe de vendas para criar perfis detalhados de cliente ideal (ICP), garantindo que a prospecção seja focada em leads com maior probabilidade de conversão e alinhamento com os objetivos de negócio.</li>
+<li>Otimizar o processo de prospecção através do uso de ferramentas e tecnologias que acelerem a identificação e o contato com leads qualificados, aumentando a eficiência e a produtividade da equipe de vendas.</li>
+<li>Estabelecer métricas claras para monitorar o desempenho das atividades de prospecção, permitindo ajustes contínuos e melhoria dos processos para garantir um pipeline de vendas robusto e sustentável.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Entendendo a necessidade do cliente</strong>:</li>
+<ul><li>Aprimorar a capacidade de diagnóstico das necessidades dos clientes, utilizando técnicas de escuta ativa e análise estratégica para compreender profundamente os desafios e expectativas dos clientes, alinhando as soluções oferecidas às suas reais necessidades.</li>
+<li>Desenvolver conexões de confiança e credibilidade com prospects e clientes, criando abordagens comerciais personalizadas que considerem os perfis e interesses dos stakeholders envolvidos, garantindo que as propostas de valor sejam tangíveis e relevantes.</li>
+<li>Capacitar a equipe de vendas para mapear e qualificar oportunidades de vendas de maneira eficaz, assegurando que o retorno sobre as soluções oferecidas seja claramente tangível para o cliente, promovendo decisões de compra informadas e baseadas em benefícios concretos.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Outbound Marketing</strong>:</li>
+<ul><li>Estruturar um processo de outbound marketing baseado em métricas sólidas e melhores práticas, garantindo que a equipe de pré-vendas utilize técnicas comprovadas para maximizar a geração de leads qualificados.</li>
+<li>Capacitar a equipe de pré-vendas com habilidades e ferramentas exclusivas para otimizar o contato inicial com potenciais clientes, assegurando que as abordagens sejam eficientes e resultem em conversões de alta qualidade.</li>
+<li>Desenvolver um ciclo contínuo de melhoria e evolução do processo de outbound, focando na adaptação às mudanças do mercado e no refinamento das estratégias de prospecção, para transformar dados qualitativos em resultados quantitativos significativos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Solução e proposta</strong>:</li>
+<ul><li>Mapear as necessidades do cliente de forma precisa e profunda, garantindo que as soluções propostas estejam alinhadas com os desafios e objetivos específicos de cada cliente, aumentando a relevância e a eficácia das propostas.</li>
+<li>Desenvolver habilidades de influência e persuasão na equipe de vendas para guiar os clientes na escolha das soluções que melhor atendem às suas necessidades, utilizando argumentos baseados em valor e benefícios concretos.</li>
+<li>Capacitar a equipe para criar e apresentar propostas assertivas e estratégicas, integrando a identificação de stakeholders, gestão de riscos e criação de cenários de uso, assegurando que cada proposta seja clara, convincente e focada em resultados mensuráveis.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Perguntas poderosas sobre vendas</strong>:</li>
+<ul><li>Aprimorar a comunicação da equipe de vendas, desenvolvendo habilidades de escuta ativa e questionamento estratégico para evitar vieses cognitivos e entender profundamente as necessidades dos clientes.</li>
+<li>Capacitar a equipe para utilizar perguntas abertas e fechadas de forma eficaz, aplicando a técnica de SPIN Selling para desafiar os clientes e guiar conversas de vendas consultivas que conduzam a fechamentos bem-sucedidos.</li>
+<li>Integrar perguntas poderosas no processo de vendas para identificar e explorar oportunidades, facilitando a descoberta dos objetivos de negócio dos clientes e construindo propostas que atendam diretamente às suas necessidades.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Empreendedorismo</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Inovação Social e Empreendedorismo</strong>:</li>
+<ul><li>Construir e fortalecer um ecossistema de inovação dentro das organizações, onde profissionais são incentivados a colaborar, compartilhar conhecimentos e experimentar novas abordagens, utilizando o empreendedorismo social como um motor para a transformação e o crescimento sustentável.</li>
+<li>Promover a cultura de empreendedorismo voltada para a inovação, capacitando os indivíduos a identificar oportunidades de mercado e a desenvolver iniciativas que integrem aspectos sociais e ambientais ao núcleo dos negócios, gerando valor compartilhado.</li>
+<li>Incorporar práticas de inovação social dentro das organizações, incentivando a criação e implementação de soluções que gerem impacto positivo</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ideia ao plano de négocios</strong>:</li>
+<ul><li>null</li>
+<li>null</li>
+<li>null</li>
+<li>null</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Business Model Canvas</strong>:</li>
+<ul><li>Estruturar ideias de negócios de forma clara e prática, utilizando o Business Model Canvas para transformar conceitos em modelos tangíveis, organizando componentes essenciais como segmentos de clientes, propostas de valor e canais de distribuição.</li>
+<li>Desenvolver um plano de negócios robusto que atraia investidores e parceiros, baseando-se no Business Model Canvas para detalhar como a empresa gerará e entregará valor, abordando estrutura de custos, fluxos de receita e atividades e parcerias-chave.</li>
+<li>Fomentar a análise crítica e a adaptação contínua do modelo de negócios, utilizando o Canvas como uma ferramenta dinâmica para identificar oportunidades de inovação, otimização de recursos e resposta a mudanças no mercado.</li>
+<li>Integrar recursos e atividades-chave para maximizar a eficiência e o valor oferecido, garantindo que todos os componentes do Business Model Canvas estejam interconectados e contribuam para o sucesso e sustentabilidade do empreendimento.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+<ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
+<li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
+<li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
+<li>Defina marcos e prazos realistas para o desenvolvimento e entrega.</li>
+<li>Comunique o roadmap de forma clara e transparente com todas as partes interessadas.</li>
+<li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
+<li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
+<li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Product Management</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos - Fundamentos</strong>:</li>
+<ul><li>Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.</li>
+<li>Definir visão clara e estratégia para o produto.</li>
+<li>Entender necessidades e preferências dos clientes.</li>
+<li>Especificar requisitos e funcionalidades do produto.</li>
+<li>Priorizar recursos com base no valor para o cliente e para o negócio.</li>
+<li>Analisar métricas e feedback para orientar decisões.</li>
+<li>Estar aberto a mudanças e ajuste a estratégia conforme necessário.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Product Discovery</strong>:</li>
+<ul><li>Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.</li>
+<li>Analisar o mercado para identificar tendências e oportunidades.</li>
+<li>Conduzie entrevistas para entender as necessidades dos usuários.</li>
+<li>Criar protótipos para validar ideias e conceitos com os usuários.</li>
+<li>Estudar os concorrentes para identificar lacunas e diferenciais.</li>
+<li>Testar hipóteses para validar a viabilidade do produto.</li>
+<li>Mapear as jornadas dos usuários para identificar pontos de dor.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos Digitais</strong>:</li>
+<ul><li>Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.</li>
+<li>Colocar as necessidades dos usuários no centro do processo de desenvolvimento.</li>
+<li>Definir uma visão clara e estratégia para o produto digital.</li>
+<li>Mapear e otimizar a jornada do usuário no produto.</li>
+<li>Coletar e analisar feedback dos usuários para melhorias.</li>
+<li>Adotar metodologias ágeis para entregas rápidas e iterativas.</li>
+<li>Utilizar dados para tomar decisões informadas sobre o produto.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

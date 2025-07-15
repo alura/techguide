@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Liderança</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Aprendizado sobre liderança</strong>:</li>
+<ul><li>Desenvolver habilidades essenciais de liderança, aprendendo métodos para exercer influência positiva sobre as pessoas e melhorar a comunicação e o trabalho em equipe para impulsionar os resultados organizacionais</li>
+<li>Melhorar a produtividade e a eficiência, criando um repertório de bons hábitos de liderança para evitar problemas de produtividade e aprimorar a gestão e a comunicação com a equipe</li>
+<li>Apoiar e desenvolver a equipe, compreendendo a importância de promover um ambiente colaborativo e orientado para resultados, além de manter a qualidade no trabalho</li>
+<li>Aprender a liderar de forma adaptável, definindo prioridades e desenvolvendo a capacidade de gestão eficaz para enfrentar novas situações e desafios diários da liderança</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Hábitos e Boas Práticas na Liderança</strong>:</li>
+<ul><li>Compreender o papel da liderança no engajamento do time e na promoção de um ambiente de alto desempenho.</li>
+<li>Aplicar estratégias eficazes para tornar as reuniões mais produtivas e focadas nos objetivos da equipe.</li>
+<li>Desenvolver a capacidade de implementar intervenções no dia a dia para promover boas práticas em gestão de pessoas.</li>
+<li>Aprimorar a assertividade na tomada de decisões, utilizando uma comunicação clara e direcionada para o sucesso da equipe.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Hábitos e boas práticas na liderança</strong>:</li>
+<ul><li>Compreender o papel da liderança no engajamento do time e na promoção de um ambiente de alto desempenho</li>
+<li>Aplicar estratégias eficazes para tornar as reuniões mais produtivas e focadas nos objetivos da equipe</li>
+<li>Desenvolver a capacidade de implementar intervenções no dia a dia para promover boas práticas em gestão de pessoas</li>
+<li>Aprimorar a assertividade na tomada de decisões, utilizando uma comunicação clara e direcionada para o sucesso da equipe</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estrutura organizacional</strong>:</li>
+<ul><li>Compreender os diferentes modelos de estrutura organizacional, como a estrutura hierárquica, funcional, matricial, em rede e em projetos</li>
+<li>Avaliar as características, vantagens e desvantagens de cada modelo de estrutura organizacional para identificar o mais adequado ao contexto de negócios</li>
+<li>Explorar a relação entre agilidade empresarial e a escolha da estrutura organizacional para otimizar processos e resultados</li>
+<li>Desenvolver a capacidade de implementar e adaptar a estrutura organizacional da empresa para melhor atender às demandas do mercado e promover a eficiência operacional</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Técnicas e Habilidades para Liderança</strong>:</li>
+<ul><li>Compreender as diferentes formas de trabalho remoto e como aproveitar seus benefícios e enfrentar seus desafios.</li>
+<li>Desenvolver um mindset digital que permita liderar e apoiar a equipe na transição para o trabalho remoto de forma eficaz.</li>
+<li>Adquirir habilidades essenciais para liderança remota, como comunicação clara, construção de confiança e engajamento da equipe.</li>
+<li>Aplicar técnicas para estimular a colaboração e gerenciar equipes remotas de forma eficiente, mantendo a produtividade e a coesão do time.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Liderança transformacional</strong>:</li>
+<ul><li>Compreender e aplicar os princípios da liderança transformacional no ambiente de trabalho, promovendo um crescimento significativo na equipe</li>
+<li>Desenvolver habilidades de liderança emocionalmente inteligente, focando no engajamento e bem-estar da equipe para criar um ambiente de trabalho mais harmonioso</li>
+<li>Implementar estratégias para lidar com a resistência à mudança, transformando desafios em oportunidades de crescimento e inovação</li>
+<li>Promover a diversidade e a inclusão no ambiente de trabalho, criando um espaço acolhedor e igualitário que estimula a criatividade e o desenvolvimento contínuo</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Oratória para líderes</strong>:</li>
+<ul><li>Dominar os princípios da comunicação verbal e não-verbal para se comunicar de forma mais eficaz em contextos de liderança</li>
+<li>Superar o medo e a ansiedade de falar em público, utilizando técnicas que fortalecem a confiança e melhoram a performance</li>
+<li>Identificar e explorar o seu perfil de orador, adaptando-o para diferentes situações de comunicação e apresentações formais</li>
+<li>Utilizar elogios e agradecimentos estrategicamente para construir uma imagem de líder inspirador e confiável</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Liderança ambidestra</strong>:</li>
+<ul><li>Compreender a importância de equilibrar Hard e Soft Skills no processo de liderança para alcançar resultados eficazes</li>
+<li>Aplicar o conceito de Liderança Ambidestra, utilizando tanto a exploração de novas oportunidades quanto a otimização de operações existentes</li>
+<li>Integrar a cultura organizacional no exercício da liderança, favorecendo a inovação e a adaptação às mudanças do mercado</li>
+<li>Desenvolver a capacidade de liderar equipes com resiliência, aproveitando os talentos internos enquanto explora inovações e tendências emergentes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conhecendo a liderança técnica</strong>:</li>
+<ul><li>Entender o contexto de atuação do Tech Lead no mercado de tecnologia, reconhecendo seu papel e impacto nas equipes</li>
+<li>Identificar as habilidades e competências essenciais para desenvolver um perfil eficaz de Tech Lead</li>
+<li>Compreender as diferenças entre liderança técnica e liderança comum, e como essas distinções influenciam na gestão de equipes e projetos</li>
+<li>Planejar o desenvolvimento de uma carreira em tecnologia, focando nas demandas e oportunidades do mercado para Tech Leads</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Guiando Pessoas para Alta Performance</strong>:</li>
+<ul><li>Dominar os fundamentos essenciais da liderança técnica para maximizar o desempenho das equipes e impulsionar resultados.</li>
+<li>Aplicar metodologias eficazes de gerenciamento de projetos que visam o crescimento e a eficiência da equipe técnica.</li>
+<li>Desenvolver habilidades para oferecer e receber feedback construtivo, promovendo um ambiente de melhoria contínua e colaboração.</li>
+<li>Cultivar um ambiente inclusivo que estimule a inovação, o protagonismo e o desenvolvimento individual dentro da equipe técnica.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Inovação e Gestão de Mudanças</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Agilidade</strong>:</li>
+<ul><li>Compreender o que é agilidade, como funciona e o que é esperado de um time de alta performance, para aplicá-la de forma eficaz no seu ambiente de trabalho.</li>
+<li>Aprender a integrar os valores da agilidade para alcançar melhores resultados, aproveitando as competências do time para criar soluções colaborativas.</li>
+<li>Desenvolver a capacidade de fortalecer conexões entre membros da equipe, criando um ambiente seguro e propício à colaboração e à inovação.</li>
+<li>Aplicar dinâmicas e técnicas que promovem o desenvolvimento de habilidades essenciais, suportando o crescimento contínuo e a alta performance da equipe.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Thinking</strong>:</li>
+<ul><li>Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.</li>
+<li>Entenda profundamente as necessidades dos usuários.</li>
+<li>Clarifique o problema baseado nos insights coletados.</li>
+<li>Gere uma ampla gama de ideias inovadoras.</li>
+<li>Crie modelos simples para explorar soluções.</li>
+<li>Refine as soluções com base no feedback dos testes.</li>
+<li>Envolva diversas perspectivas na solução de problemas.</li>
+<li>Use métodos visuais para comunicar ideias e processos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Inovação Ágil</strong>:</li>
+<ul><li>Gerenciar iniciativas de inovação utilizando metodologias ágeis para obter resultados mais rápidos e assertivos, através de múltiplas entregas e testes contínuos com usuários.</li>
+<li>Desenvolver uma cultura ágil na empresa, aplicando metodologias que promovem a experimentação e a melhoria contínua no desenvolvimento de novos negócios.</li>
+<li>Criar times multidisciplinares e auto-organizáveis, que sejam capazes de entregar valor constante e reagir rapidamente às mudanças do mercado.</li>
+<li>Compreender a correlação entre inovação e agilidade, utilizando esses conceitos para atender de forma eficaz às necessidades dos clientes e do mercado em constante mudança..</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+<ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
+<li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
+<li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
+<li>Defina marcos e prazos realistas para o desenvolvimento e entrega.</li>
+<li>Comunique o roadmap de forma clara e transparente com todas as partes interessadas.</li>
+<li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
+<li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
+<li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Product Management</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos - Fundamentos</strong>:</li>
+<ul><li>Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.</li>
+<li>Definir visão clara e estratégia para o produto.</li>
+<li>Entender necessidades e preferências dos clientes.</li>
+<li>Especificar requisitos e funcionalidades do produto.</li>
+<li>Priorizar recursos com base no valor para o cliente e para o negócio.</li>
+<li>Analisar métricas e feedback para orientar decisões.</li>
+<li>Estar aberto a mudanças e ajuste a estratégia conforme necessário.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Product Discovery</strong>:</li>
+<ul><li>Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.</li>
+<li>Analisar o mercado para identificar tendências e oportunidades.</li>
+<li>Conduzie entrevistas para entender as necessidades dos usuários.</li>
+<li>Criar protótipos para validar ideias e conceitos com os usuários.</li>
+<li>Estudar os concorrentes para identificar lacunas e diferenciais.</li>
+<li>Testar hipóteses para validar a viabilidade do produto.</li>
+<li>Mapear as jornadas dos usuários para identificar pontos de dor.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos Digitais</strong>:</li>
+<ul><li>Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.</li>
+<li>Colocar as necessidades dos usuários no centro do processo de desenvolvimento.</li>
+<li>Definir uma visão clara e estratégia para o produto digital.</li>
+<li>Mapear e otimizar a jornada do usuário no produto.</li>
+<li>Coletar e analisar feedback dos usuários para melhorias.</li>
+<li>Adotar metodologias ágeis para entregas rápidas e iterativas.</li>
+<li>Utilizar dados para tomar decisões informadas sobre o produto.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

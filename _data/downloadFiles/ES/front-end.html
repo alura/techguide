@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Front-end</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTML - Fundamentos</strong>:</li>
+<ul><li>HTML es un lenguaje de marcado que define la estructura de su contenido. HTML consta de una serie de elementos que se utilizan para que se vea o actúe de cierta manera. Las etiquetas de archivos adjuntos pueden vincular una palabra o imagen a otro lugar, pueden poner palabras en cursiva, pueden hacer que la fuente sea más grande o más pequeña, etc.</li>
+<li>Aprender qué etiquetas son necesarias para HTML básico</li>
+<li>Crear de un párrafo de texto</li>
+<li>Mostrar una imagen</li>
+<li>Conocer la diferencia entre &#39;h1&#39;, &#39;h2&#39;, &#39;h3&#39;, etc.</li>
+<li>Crear de un texto con hipervínculo</li>
+<li>Crear un formulario con campos relevantes</li>
+<li>Crear de una lista ordenada o desordenada de elementos</li>
+<li>Crear de una lista de elementos en una lista desplegable</li>
+<li>Vincular a un archivo CSS</li>
+<li>Crear una tabla</li>
+<li>Adicionar ID y clases</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CSS - Fundamentos</strong>:</li>
+<ul><li>Las hojas de estilo en cascada (CSS) son un lenguaje de hoja de estilo usado para descubrir una presentación de un documento escrito en un lenguaje de marca, como HTML o XML. O CSS puede ser usado para estilizar textos de documentos muy básicos — por ejemplo, para alterar a cor e o tamanho de cabeçalhos e links. Ele pode ser usado para criar um layout — por ejemplo, transformando uma única columna de texto en um layout com uma área de conteúdo principal e uma barra lateral para información relacionada. Pode até ser usado para efectos como animação.</li>
+<li>Aprender a estructura visual de uma página, con &#39;margem&#39; e &#39;preenchimento&#39;</li>
+<li>Estabelecer o tamanho com &#39;larga&#39; e &#39;altura&#39;</li>
+<li>Aprender sobre la posición de un elemento (&#39;estático&#39;, &#39;relativo&#39; o &#39;absoluto&#39;)</li>
+<li>Aprender sobre la exposición de un elemento (&#39;block&#39;, &#39;inline&#39;, &#39;inline-block&#39;)</li>
+<li>Aprender a posicionar imágenes en relación con el texto</li>
+<li>Aprender sobre alinhamento</li>
+<li>Aprender sobre estilo de fuente</li>
+<li>Aprender las diferencias y ventajas de usar las diferentes unidades de medida en CSS (%, relativo, etc.)</li>
+<li>Conectar-se a los elementos (IDs, clases) de un archivo HTML</li>
+<li>Cambiar las características de un elemento cuando se pasa el ratón sobre él</li>
+<li>Aprender a dimensionar cajas</li>
+<li>Aprender Flexbox</li>
+<li>Grado de aprendizaje</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Javascript - Fundamentos</strong>:</li>
+<ul><li>Javascript es el lenguaje de programación más popular del mundo y es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. Tiene escritura dinámica, orientación a objetos basada en prototipos y funciones de primera clase. Es un paradigma múltiple que admite estilos de programación imperativos, funcionales e impulsados por eventos.</li>
+<li>Conocer los tipos primitivos</li>
+<li>Declarar variables, considerando la diferencia entre &#39;var&#39;, &#39;let&#39; y &#39;const</li>
+<li>Uso de estructuras condicionales (&#39;if&#39;, &#39;else&#39;)</li>
+<li>Conocer los operadores de asignación y comparación (&#39;=&#39;, &#39;==&#39;, &#39;===&#39;)</li>
+<li>Uso de estructuras de repetición y bucles (&#39;while&#39;, &#39;for&#39;)</li>
+<li>Usar funciones, pasar parámetros y argumentos</li>
+<li>Manipulación de arreglos y listas</li>
+<li>Aprender el concepto de Orientación a Objetos</li>
+<li>Realizar un CRUD</li>
+<li>Obtener datos de una API</li>
+<li>Hacer llamadas asincrónicas usando &#39;Async/Await&#39;, &#39;Promise&#39;, etc.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>DOM - Fundamentos</strong>:</li>
+<ul><li>El Document Object Model (DOM) es una interfaz de programación para documentos de la web. Representa la página para que los programas puedan cambiar la estructura, el estilo y el contenido del documento. El DOM representa el documento como nosotros y objetos; de esa forma, los lenguajes de programación pueden interactuar con la página.</li>
+<li>Entender cómo funciona el árbol DOM</li>
+<li>Accesando y manipulando elementos HTML y CSS</li>
+<li>Acceder a los padres e hijos de un elemento</li>
+<li>Insertar un nuevo elemento en el árbol</li>
+<li>Quitar un elemento del árbol</li>
+<li>Esperando un evento en un elemento determinado de la página usando</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Accesibilidad en Javascript</strong>:</li>
+<ul><li>La Accesibilidad Digital es la eliminación de barreras en la Web. El concepto presupone que los sitios y portales sean diseñados de modo que todas las personas puedan percibir, entender, navegar e interactuar de manera efectiva con las páginas.</li>
+<li>Escribir código teniendo en cuenta la accesibilidad.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estratégias de SEO</strong>:</li>
+<ul><li>SEO significa optimización para motores de búsqueda y se refiere a las estrategias utilizadas para clasificar un sitio web dentro de los motores de búsqueda como Yahoo, Bing y, por supuesto, el más famoso de todos, Google.</li>
+<li>Elegir palabras clave</li>
+<li>Entender cómo Google clasifica las páginas</li>
+<li>Conocer los factores de clasificación</li>
+<li>Hacer Link Building</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Diseño Responsivo</strong>:</li>
+<ul><li>Ajustar tus páginas al tamaño de pantalla del usuario</li>
+<li>Media queries</li>
+<li>Conocer el concepto de Mobile first</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript- Callbacks y Promises</strong>:</li>
+<ul><li>Una Promesa (Promises) es un proxy de un valor que no necesariamente se conoce cuando se crea la promesa. Esto permite que los métodos asíncronos devuelvan valores como los métodos síncronos- en lugar de devolver inmediatamente el valor final, el método asíncrono devuelve la promesa de proporcionar el valor en algún momento en el futuro.</li>
+<li>Una función de devolución de llamada (Callback) es una función que se pasa a otra función como argumento, que luego se invoca dentro de la función externa para completar algún tipo de rutina o acción.</li>
+<li>Una función asíncrona es una función declarada con la palabra clave asíncrona y la palabra clave espera está permitida dentro de ella. Las palabras clave async y await permiten que el comportamiento asincrónico basado en promesas se escriba en un estilo más claro, lo que evita la necesidad de configurar explícitamente cadenas de promesas.</li>
+<li>Comprender el concepto de programación asíncrona</li>
+<li>Escribir código asíncrono entendiendo el concepto de promesas en JavaScript</li>
+<li>Usar métodos, palabras clave y objetos de JavaScript para manejar promesas como &#39;Async/Await&#39;, &#39;.then()&#39;, &#39;Promise&#39;, etc.</li>
+<li>Aprender en qué situaciones necesitas usar la programación asíncrona</li>
+<li>Llamar a las API con &#39;fetch()&#39;</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Pruebas</strong>:</li>
+<ul><li>La prueba de software es el proceso de evaluación y verificación de que un software realmente hace lo que debería hacer. Los beneficios de las pruebas incluyen la prevención de errores, la reducción de los costos de desarrollo y la mejora del rendimiento.</li>
+<li>Usar pruebas unitarias</li>
+<li>Usar pruebas de integración</li>
+<li>Usar pruebas de comportamiento (behavior)</li>
+<li>Usar mocks</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Manejo de errores</strong>:</li>
+<ul><li>El manejo de errores se refiere a los procedimientos de respuesta y recuperación de las condiciones de error presentes en una aplicación de software. En otras palabras, es el proceso compuesto por la anticipación, detección y resolución de errores de aplicación, programación o comunicación.</li>
+<li>Conocer y manejar las excepciones más comunes</li>
+<li>Conocer los tipos de errores y en qué situaciones se pueden producir</li>
+<li>Comprender cómo Node.js maneja los errores</li>
+<li>Usar &#39;try&#39; y &#39;catch&#39; para el manejo de errores</li>
+<li>Aprender en qué ocasiones y cómo usar <code>throw</code></li>
+<li>Creación de excepciones específicas según las necesidades de su aplicación</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - ES6</strong>:</li>
+<ul><li>Conocer las diferencias de esta versión de JavaScript</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Modularización</strong>:</li>
+<ul><li>Dividir partes del código en módulos</li>
+<li>Usar import y export</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Versiones semánticas de front-end</strong>:</li>
+<ul><li>SemVer (Semantic Versioning) es un conjunto simple de reglas y requisitos que dictan cómo se asignan e incrementan los números de versión.</li>
+<li>Organización de las dependencias de un proyecto</li>
+<li>Evitar el &quot;infierno de la dependencia&quot;</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Jest</strong>:</li>
+<ul><li>Jest es un corredor de pruebas de JavaScript que le permite acceder al DOM a través de jsdom. Proporciona una gran velocidad de iteración combinada con funciones potentes como módulos de simulación y temporizadores para que pueda tener más control sobre cómo se ejecuta el código.</li>
+<li>Componentes de prueba</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cypress</strong>:</li>
+<ul><li>Cypress es una herramienta de prueba Front-end que permite configurar, escribir, ejecutar y depurar pruebas.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estructura de Datos</strong>:</li>
+<ul><li>En el contexto de los ordenadores, una estructura de datos es una forma específica de almacenar y organizar los datos en la memoria del ordenador para que esos datos puedan ser fácilmente recuperados y utilizados de forma eficiente cuando sea necesario posteriormente.</li>
+<li>Conocer las principales estructuras de datos</li>
+<li>Implementar las principales estructuras de datos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceptos de Orientación a Objetos</strong>:</li>
+<ul><li>La Programación Orientada a Objetos es un paradigma de programación de software basado en la composición e interacción entre diversas unidades llamadas &#39;objetos&#39; y las clases, que contienen una identidad, propiedades y métodos. Se basa en cuatro componentes de la programación - abstracción digital, encapsulación, herencia y polimorfismo.</li>
+<li>Cómo funcionan los objetos</li>
+<li>Crear y utilizar constructores</li>
+<li>Qué son las clases</li>
+<li>Crear y utilizar métodos</li>
+<li>Cómo funciona la encapsulación</li>
+<li>Qué es la herencia</li>
+<li>Qué es el polimorfismo</li>
+<li>Cómo funcionan las interfaces</li>
+<li>Qué son las abstracciones</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Almacenamiento</strong>:</li>
+<ul><li>Almacenar datos en el front-end con localStorage</li>
+<li>Manipular datos almacenados</li>
+<li>Persistir datos almacenados</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Concurrencia</strong>:</li>
+<ul><li>La programación concurrente es un paradigma de programación para construir programas que utilizan la ejecución simultánea de varias tareas computacionales interactivas, que pueden ser implementadas como programas separados o como un conjunto de hilos creados por un único programa</li>
+<li>Ejecutar tareas en paralelo</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>TypeScript - Fundamentos</strong>:</li>
+<ul><li>TypeScript es un lenguaje de programación fuertemente tipado que se basa en JavaScript.</li>
+<li>Comprender en profundidad qué son los tipos y la importancia de la programación tipificada</li>
+<li>Aprender qué es TypeScript, por qué se creó, cómo funciona y su relación con JavaScript</li>
+<li>Conocer las herramientas de TypeScript (integración con el editor de código, verificador estático y compilador)</li>
+<li>Escribir código en TypeScript usando sus herramientas (interfaces, enumeración, decoradores, etc.)</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>GraphQL</strong>:</li>
+<ul><li>GraphQL es un nuevo estándar API que proporciona una alternativa más eficiente, potente y flexible a REST. Fue desarrollado y de código abierto por Facebook y ahora lo mantiene una gran comunidad de empresas e individuos de todo el mundo.</li>
+<li>Comprender cómo se utiliza GraphQL en el desarrollo de API</li>
+<li>Creación de API utilizando bibliotecas y marcos GraphQL</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Apollo Client</strong>:</li>
+<ul><li>Apollo Client es una biblioteca integral de administración de estado para JavaScript que le permite administrar datos locales y remotos con GraphQL.</li>
+<li>Utilizar Apollo para crear un servidor GraphQL</li>
+<li>Conectar a una API</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Infraestructura y Back-end</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git y GitHub - Fundamentos</strong>:</li>
+<ul><li>Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.</li>
+<li>GitHub es un servicio de hosting para el desarrollo de software y el control de versiones mediante Git.</li>
+<li>Crear un repositorio</li>
+<li>Clonar un repositorio</li>
+<li>Comprometerse, empujar y tirar hacia y desde el repositorio</li>
+<li>Revertir un commit</li>
+<li>Crear de ramas y Pull requests</li>
+<li>Manejar fusiones y conflictos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+<ul><li>HTTP significa Protocolo de transferencia de hipertexto. La comunicación entre las computadoras cliente y los servidores web se realiza mediante el envío de solicitudes HTTP y la recepción de respuestas HTTP.</li>
+<li>Comprender la diferencia entre los verbos HTTP</li>
+<li>Probar solicitudes y verificar los códigos de estado en el navegador</li>
+<li>Aprendiendo a hacer una solicitud HTTP en la línea de comando con WGET</li>
+<li>Descargar una imagen con WGET</li>
+<li>Realización de una POST</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+<ul><li>JSON significa Notación de objetos de JavaScript. Es un formato de texto para almacenar y transportar datos.</li>
+<li>Crear un objeto</li>
+<li>Transformar un objeto en una cadena</li>
+<li>Transformar una cadena en un objeto</li>
+<li>Manipular un objeto</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Línea de Comando - Fundamentos</strong>:</li>
+<ul><li>CLI es un programa de línea de comandos que acepta la entrada de texto para ejecutar funciones del sistema operativo.</li>
+<li>Conocer los comandos más importantes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+<ul><li>La computación en nube, o cloud computing, es la distribución de servicios informáticos a través de Internet mediante un modelo de tarificación de pago por uso. Una nube se compone de varios recursos informatizados, desde los propios ordenadores (o instancias, en terminología de nube) hasta las redes, el almacenamiento, las bases de datos y todo lo que les rodea. En otras palabras, todo lo que normalmente se necesita para montar el equivalente a una sala de servidores, o incluso un centro de datos completo, estará listo para usar, configurar y ejecutar.</li>
+<li>Conocer la diferencia entre IaaS, PaaS y SaaS</li>
+<li>Conocer los mayores proveedores de nube</li>
+<li>Especializarse en un proveedor específico de su preferencia</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>YARN</strong>:</li>
+<ul><li>Yarn es un administrador de paquetes para su código. Le permite usar y compartir código con otros desarrolladores. El código se comparte a través de algo llamado paquete (a veces denominado módulo). Un paquete contiene todo el código que se comparte, así como un archivo package.json que O describe.</li>
+<li>Administrar paquetes</li>
+<li>Administrar dependencias</li>
+<li>Instalar paquetes sin conexión</li>
+<li>Comandos</li>
+<li>El archivo yarn.lock</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: UX y Design</h2>
+<ul><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
+<strong>Sistemas de Diseño</strong>:</p>
+</li>
+<ul><li><p>Un sistema de diseño es una colección de componentes reutilizables, guiados por estándares claros, que se pueden ensamblar para crear aplicaciones.</p>
+</li>
+<li><p>Creación y mantenimiento de bibliotecas que se consumirán y utilizarán como estándar para construir un proyecto.</p>
+</li>
+</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
+<strong>Figma - Fundamentos</strong>:</p>
+</li>
+<ul><li><p>Figma es una aplicación web colaborativa para el diseño de interfaces. El conjunto de funciones de Figma se centra en la interfaz de usuario y el diseño de la experiencia del usuario, con énfasis en la colaboración en tiempo real, utilizando una variedad de herramientas de creación de prototipos y editor de gráficos vectoriales.</p>
+</li>
+<li><p>Crear diseños de página y componentes</p>
+</li>
+</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
+<strong>Sistemas de color</strong>:</p>
+</li>
+<ul><li><p>Definición de una paleta de colores que tenga sentido para una interfaz dada</p>
+</li>
+</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
+<strong>Cómo usar fuentes</strong>:</p>
+</li>
+<ul><li><p>Elegir la fuente más adecuada para un proyecto determinado</p>
+</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

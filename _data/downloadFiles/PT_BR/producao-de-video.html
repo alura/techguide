@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Produção de Vídeo</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos essenciais de produção de vídeo</strong>:</li>
+<ul><li>Compreender os princípios fundamentais da linguagem audiovisual para criar vídeos que comuniquem de forma eficaz e envolvente.</li>
+<li>Explorar as diferentes áreas da produção de vídeo, da pré-produção até a pós-produção, para entender as etapas do processo criativo.</li>
+<li>Entender os formatos de arquivo e aspectos técnicos da imagem para garantir a qualidade e a compatibilidade dos vídeos produzidos.</li>
+<li>Desenvolver habilidades práticas para produzir vídeos, aplicando técnicas diversas que aprimoram a narrativa visual.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos essenciais de produção de vídeo</strong>:</li>
+<ul><li>Aprender a utilizar ferramentas básicas de edição, como o Premiere Pro, para cortar, organizar e montar vídeos seguindo um roteiro definido.</li>
+<li>Desenvolver a habilidade de criar vídeos coerentes e fluentes, dominando o timing e o ritmo da edição para envolver o espectador.</li>
+<li>Experimentar a edição de diferentes tipos de conteúdo, como matérias jornalísticas e comerciais, para adaptar o estilo de edição às necessidades do projeto.</li>
+<li>Elevar a qualidade dos vídeos produzidos, aplicando técnicas de edição que despertem o interesse e o desejo de consumo nos espectadores, preparando-se para desafios de edição em nível intermediário.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Criando vídeo institucional</strong>:</li>
+<ul><li>Aprender a estruturar e organizar um projeto de vídeo institucional desde a concepção até a renderização final, garantindo um fluxo de trabalho eficiente.</li>
+<li>Dominar técnicas de edição específicas para vídeos institucionais, incluindo storytelling, transições, e tratamento de áudio, para criar uma comunicação clara e impactante.</li>
+<li>Aplicar efeitos visuais e ajustar cores de forma a manter a consistência visual e transmitir a mensagem da marca de maneira eficaz.</li>
+<li>Desenvolver habilidades práticas para produzir vídeos institucionais profissionais utilizando bancos de vídeo e outros recursos acessíveis, otimizando a produção para diferentes orçamentos e necessidades empresariais.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Efeitos de vídeo</strong>:</li>
+<ul><li>Desenvolver habilidades avançadas na criação e aplicação de efeitos de vídeo utilizando as ferramentas do Premiere Pro, para melhorar a narrativa visual dos projetos.</li>
+<li>Entender como integrar VFX (efeitos visuais) de maneira eficiente e criativa, alinhando os efeitos com o contexto e o objetivo do projeto de vídeo.</li>
+<li>Explorar técnicas de mesclagem de efeitos e transições para produzir vídeos mais dinâmicos e visualmente atraentes, elevando a qualidade da produção.</li>
+<li>Aprender a utilizar fluxos de trabalho que incorporem diferentes ferramentas e plugins, permitindo uma edição mais sofisticada e personalizada.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Efeitos de som e música</strong>:</li>
+<ul><li>Aprender a selecionar e integrar efeitos sonoros que destaquem momentos-chave do vídeo, intensificando o impacto emocional e narrativo.</li>
+<li>Desenvolver habilidades para escolher e ajustar músicas que complementem e reforcem a atmosfera e o ritmo do vídeo.</li>
+<li>Explorar técnicas para manipular sons e músicas de forma a despertar sensações específicas no público, alinhando a trilha sonora com a intenção do conteúdo.</li>
+<li>Compreender como realizar cortes precisos para sincronizar a música e os efeitos sonoros com as imagens, criando uma experiência audiovisual coesa e envolvente..</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vídeos para web</strong>:</li>
+<ul><li>Aprender a otimizar a produção de vídeos para a web, utilizando fluxos de trabalho que acelerem o processo de edição e publicação.</li>
+<li>Dominar a aplicação de textos animados e gráficos essenciais para criar vídeos mais dinâmicos e envolventes, alinhados ao estilo das plataformas online.</li>
+<li>Selecionar e aplicar efeitos visuais que aprimorem a narrativa e sejam adequados ao contexto específico de vídeos para a web, garantindo melhor engajamento.</li>
+<li>Compreender os aspectos técnicos e estéticos da produção de vídeos para web, desde a pré-produção até a exportação, para assegurar compatibilidade e qualidade em diferentes dispositivos e plataformas digitais.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Streaming video recording</strong>:</li>
+<ul><li>Aprender a configurar e utilizar o OBS Studio para capturar vídeos de alta qualidade, otimizando a gravação para diferentes tipos de conteúdo, como gameplays, tutoriais e vídeos para redes sociais.</li>
+<li>Compreender a interface do OBS Studio e as configurações essenciais para garantir que a captura de vídeo seja eficiente e que os arquivos sejam compactados de forma adequada.</li>
+<li>Organizar um setup de cenas dentro do OBS Studio para facilitar a gravação e a transição entre diferentes segmentos de conteúdo durante a produção de vídeo.</li>
+<li>Selecionar e configurar os melhores equipamentos de áudio e vídeo, alinhados com as necessidades específicas de produção, para garantir uma gravação profissional e de alta qualidade.</li>
+<li>null</li>
+<li>null</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>OBS Studio</strong>:</li>
+<ul><li>Aprender a configurar e personalizar a interface do OBS Studio para realizar transmissões ao vivo de alta qualidade, otimizando cada etapa do processo de streaming.</li>
+<li>Desenvolver habilidades para organizar setups de cena e transições dinâmicas, garantindo uma apresentação fluida e profissional durante as transmissões ao vivo.</li>
+<li>Explorar e implementar recursos de engajamento do OBS Studio, como integração de chat, widgets interativos e bots de moderação, para aumentar a interação e a conexão com o público durante o streaming.</li>
+<li>Compreender as melhores práticas para o uso de ferramentas adicionais, como Chroma Key e gravação em paralelo, para melhorar a qualidade visual e a flexibilidade das transmissões ao vivo.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Streamlabs</strong>:</li>
+<ul><li>Aprender a configurar e utilizar o Streamlabs para gravação de vídeos e streaming, aproveitando sua interface intuitiva e recursos integrados para otimizar a produção de conteúdo.</li>
+<li>Dominar a criação e a organização de cenas no Streamlabs, utilizando widgets práticos e filtros para melhorar a qualidade visual e a interatividade das transmissões ao vivo.</li>
+<li>Implementar processos de moderação automática e ferramentas de engajamento, como alertas e overlays, para enriquecer a experiência do espectador e manter uma transmissão dinâmica e envolvente.</li>
+<li>Compreender as melhores práticas para personalizar e estilizar o conteúdo no Streamlabs, garantindo uma apresentação profissional e bem organizada, adequada às diferentes plataformas de streaming..</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Design para mídias sociais</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design em movimento</strong>:</li>
+<ul><li>Dominar as ferramentas e técnicas para criar animações e incorporar movimento nas peças gráficas, tornando o conteúdo mais dinâmico e atraente para mídias sociais.</li>
+<li>Aprender a combinar comunicação visual com Motion Design de forma coerente, garantindo que as animações reforcem a mensagem e captem a atenção do público.</li>
+<li>Entender como equilibrar e destacar informações em uma animação, utilizando princípios de design para guiar a atenção do espectador de maneira eficaz.</li>
+<li>Conhecer os diferentes formatos de vídeos e animações ideais para mídias sociais, garantindo que o conteúdo esteja otimizado para cada plataforma e seu respectivo público-alvo.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Mídias sociais</strong>:</li>
+<ul><li>Desenvolver estratégias eficazes para mídias sociais, utilizando briefings detalhados e alinhados com os objetivos.</li>
+<li>Compreender as principais funcionalidades e melhores práticas nas 10 maiores plataformas de mídias sociais, para otimizar a presença digital e engajamento do público.</li>
+<li>Explorar técnicas de Real Time Marketing e o uso de chamadas de ação (CTAs) para aumentar a interação e conversão do público nas mídias sociais.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Copywriting</strong>:</li>
+<ul><li>Aprender a criar textos persuasivos que convertem, aplicando técnicas de copywriting voltadas para o engajamento do público em diferentes plataformas de comunicação.</li>
+<li>Desenvolver habilidades para adaptar a linguagem e o tom da marca de acordo com o público-alvo, garantindo que a mensagem seja clara, envolvente e eficaz.</li>
+<li>Explorar estratégias de copywriting específicas para redes sociais, maximizando o impacto e a visibilidade das postagens através de chamadas de ação e conteúdos atraentes.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Marketing de conteúdo</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estratégias e técnicas para produtos digitais</strong>:</li>
+<ul><li>Desenvolver estratégia de marketing de conteúdo que posicione o produto digital como líder de mercado.</li>
+<li>Criar conteúdos que abordem as principais dores e necessidades dos usuários, destacando soluções oferecidas pelo produto digital.</li>
+<li>Utilizar storytelling para criar uma narrativa envolvente em torno do produto digital, conectando-se emocionalmente com o público e fortalecendo a marca.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Proposta de Valor</strong>:</li>
+<ul><li>Aprender a desenvolver propostas de valor únicas que diferenciam seus produtos ou serviços no mercado e atendem às necessidades específicas de clientes.</li>
+<li>Utilizar técnicas de pesquisa para obter insights profundos sobre o público-alvo e suas expectativas, garantindo que a proposta de valor seja relevante e convincente.</li>
+<li>Integrar a proposta de valor nas etapas do desenvolvimento de produtos e na comunicação com o cliente, criando uma experiência coesa e focada no valor percebido pelo consumidor.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Marketing Viral</strong>:</li>
+<ul><li>Estudar as métricas de marketing viral, aprendendo a identificar possíveis problemas e otimizar continuamente as campanhas para alcançar os melhores resultados em termos de engajamento e conversão.</li>
+<li>Compreender como o Buzz Marketing e outras estratégias virais podem ser utilizadas para ampliar significativamente o alcance de uma marca, gerando um impacto duradouro e positivo.</li>
+<li>Explorar exemplos reais de campanhas virais bem-sucedidas, analisando os elementos que contribuíram para seu sucesso e como esses fatores podem ser replicados em diferentes contextos.</li>
+<li>Identificar e trabalhar com influenciadores-chave e comunidades online para criar uma base sólida de defensores da marca, maximizando a propagação das mensagens de marketing de forma orgânica.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+<ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
+<li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
+<li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
+<li>Defina marcos e prazos realistas para o desenvolvimento e entrega.</li>
+<li>Comunique o roadmap de forma clara e transparente com todas as partes interessadas.</li>
+<li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
+<li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
+<li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

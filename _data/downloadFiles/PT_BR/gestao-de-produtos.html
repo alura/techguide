@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Gestão de Produtos</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos - Fundamentos</strong>:</li>
+<ul><li>Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.</li>
+<li>Definir visão clara e estratégia para o produto.</li>
+<li>Entender necessidades e preferências dos clientes.</li>
+<li>Especificar requisitos e funcionalidades do produto.</li>
+<li>Priorizar recursos com base no valor para o cliente e para o negócio.</li>
+<li>Analisar métricas e feedback para orientar decisões.</li>
+<li>Estar aberto a mudanças e ajuste a estratégia conforme necessário.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos Digitais</strong>:</li>
+<ul><li>Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.</li>
+<li>Colocar as necessidades dos usuários no centro do processo de desenvolvimento.</li>
+<li>Definir uma visão clara e estratégia para o produto digital.</li>
+<li>Mapear e otimizar a jornada do usuário no produto.</li>
+<li>Coletar e analisar feedback dos usuários para melhorias.</li>
+<li>Adotar metodologias ágeis para entregas rápidas e iterativas.</li>
+<li>Utilizar dados para tomar decisões informadas sobre o produto.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Product Discovery</strong>:</li>
+<ul><li>Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.</li>
+<li>Analisar o mercado para identificar tendências e oportunidades.</li>
+<li>Conduzie entrevistas para entender as necessidades dos usuários.</li>
+<li>Criar protótipos para validar ideias e conceitos com os usuários.</li>
+<li>Estudar os concorrentes para identificar lacunas e diferenciais.</li>
+<li>Testar hipóteses para validar a viabilidade do produto.</li>
+<li>Mapear as jornadas dos usuários para identificar pontos de dor.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Product Manager</strong>:</li>
+<ul><li>Product Manager é quem busca gerenciar o processo de Product Discovery garantindo que as necessidades dos usuários sejam compreendidas e que as soluções sejam alinhadas com as oportunidades de mercado.</li>
+<li>Supervisionar a análise de mercado para identificar tendências e oportunidades estratégicas que posicionem o produto de forma competitiva.</li>
+<li>Coordenar a criação e validação de protótipos para assegurar que as ideias e conceitos sejam sólidos e que atendam às expectativas do mercado.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+<ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
+<li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
+<li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
+<li>Defina marcos e prazos realistas para o desenvolvimento e entrega.</li>
+<li>Comunique o roadmap de forma clara e transparente com todas as partes interessadas.</li>
+<li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
+<li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
+<li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Sprint</strong>:</li>
+<ul><li>Facilitar a definição clara de problemas para alinhar a equipe na busca por soluções eficazes.</li>
+<li>Conduzir sessões de ideação que gerem múltiplas soluções criativas para atender às necessidades dos usuários.</li>
+<li>Validar rapidamente conceitos com protótipos, permitindo ajustes ágeis com base no feedback real dos usuários.</li>
+<li>Testar hipóteses em um curto período de tempo, garantindo eficiência e economia de recursos no desenvolvimento do produto.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Priorização</strong>:</li>
+<ul><li>Identificar e aplicar métodos eficazes de priorização, como &quot;Kano Model&quot; e &quot;Moscow&quot;, para garantir que os recursos mais valiosos sejam desenvolvidos primeiro.</li>
+<li>Analisar a relação entre risco e valor para tomar decisões informadas que equilibrem a inovação com a viabilidade técnica e comercial.</li>
+<li>Utilizar o User Story Map para organizar e priorizar o backlog de forma visual, facilitando a quebra de atividades maiores em tarefas menores e mais gerenciáveis.</li>
+<li>Avaliar o impacto do Cost of Delay para determinar a urgência das funcionalidades e otimizar o tempo de lançamento do produto no mercado.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Management 3.0</strong>:</li>
+<ul><li>Management 3.0 é uma abordagem de gestão que enfatiza a colaboração, autonomia e melhoria contínua para liderar equipes em ambientes complexos e dinâmicos.</li>
+<li>Compartilhe informações e decisões abertamente.</li>
+<li>Permita que os membros da equipe tomem decisões e assumam responsabilidades.</li>
+<li>Promova uma cultura de feedback aberto e construtivo.</li>
+<li>Incentive experimentação e aprendizado constante.</li>
+<li>Aborde conflitos de forma colaborativa e construtiva.</li>
+<li>Encoraje a colaboração e o trabalho em equipe.</li>
+<li>Esteja preparado para mudanças e adapte-se rapidamente.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Scrum</strong>:</li>
+<ul><li>Scrum é uma metodologia ágil focada em entregas incrementais e iterativas, promovendo a colaboração entre equipes para desenvolver projetos complexos de forma eficiente.</li>
+<li>Inclui Product Owner, Scrum Master e equipe de desenvolvimento.</li>
+<li>Períodos curtos de trabalho com metas definidas, geralmente de 2-4 semanas.</li>
+<li>Lista priorizada de itens e requisitos do projeto.</li>
+<li>Reunião para planejar o trabalho da sprint.</li>
+<li>Reunião diária de 15 minutos para alinhamento da equipe.</li>
+<li>Demonstração do trabalho concluído para stakeholders.</li>
+<li>Reunião para refletir e melhorar processos após cada sprint.</li>
+<li>Produto funcional e utilizável entregue ao final de cada sprint.</li>
+<li>Critérios claros que definem quando uma tarefa está completa.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cultura Ágil</strong>:</li>
+<ul><li>Enfatizar o trabalho em equipe e a comunicação aberta.</li>
+<li>Promover feedback regular para melhorias rápidas e eficazes.</li>
+<li>Empoderar equipes autônomas para tomar decisões.</li>
+<li>Garantir processos e informações acessíveis a todos.</li>
+<li>Priorizar as necessidades e o feedback dos clientes.</li>
+<li>Fomentar o desenvolvimento incremental com ciclos curtos e frequentes.</li>
+<li>Demonstrar flexibilidade para ajustar processos conforme necessário.</li>
+<li>Entregar valor contínuo e mensurável ao cliente.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Análise de dados</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cálculos, padrões e estratégias</strong>:</li>
+<ul><li>Entender e aplicar técnicas de estatística descritiva para analisar bancos de dados, utilizando cálculos como média, mediana e desvio padrão para obter insights significativos.</li>
+<li>Identificar e interpretar padrões em conjuntos de dados, aplicando técnicas avançadas de análise para detectar tendências, anomalias e correlações que possam influenciar decisões estratégicas.</li>
+<li>Visualizar dados de forma eficaz, destacando casos incomuns ou outliers, e utilizando essas visualizações para comunicar descobertas de maneira clara e acionável para stakeholders.</li>
+<li>Integrar insights quantitativos na formulação de estratégias de negócios, garantindo que as decisões sejam baseadas em dados sólidos e análises rigorosas, direcionando a empresa para resultados mais precisos e previsíveis.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Coletando e analisando dados de um produto</strong>:</li>
+<ul><li>Compreender a importância dos dados na otimização da experiência do usuário (UX), utilizando métricas para criar produtos que atendam e superem as expectativas dos usuários, enquanto se adaptam a suas necessidades em constante evolução.</li>
+<li>Capacitar a equipe para coletar dados de qualidade no dia a dia, utilizando ferramentas como HOTJAR e Google Analytics para obter insights profundos sobre o comportamento do usuário, desde análises de calor até funis de conversão.</li>
+<li>Desenvolver habilidades de análise e interpretação de dados coletados, transformando esses dados em informações acionáveis que orientem decisões de design e melhorias contínuas na experiência do usuário.</li>
+<li>Integrar uma abordagem data-driven no processo de design UX, garantindo que todas as decisões sejam fundamentadas em dados sólidos, resultando em um design centrado no usuário que também atenda aos objetivos de negócios.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Business Model Canvas</strong>:</li>
+<ul><li>Estruturar ideias de negócios de forma clara e prática, utilizando o Business Model Canvas para transformar conceitos em modelos tangíveis, organizando componentes essenciais como segmentos de clientes, propostas de valor e canais de distribuição.</li>
+<li>Desenvolver um plano de negócios robusto que atraia investidores e parceiros, baseando-se no Business Model Canvas para detalhar como a empresa gerará e entregará valor, abordando estrutura de custos, fluxos de receita e atividades e parcerias-chave.</li>
+<li>Fomentar a análise crítica e a adaptação contínua do modelo de negócios, utilizando o Canvas como uma ferramenta dinâmica para identificar oportunidades de inovação, otimização de recursos e resposta a mudanças no mercado.</li>
+<li>Integrar recursos e atividades-chave para maximizar a eficiência e o valor oferecido, garantindo que todos os componentes do Business Model Canvas estejam interconectados e contribuam para o sucesso e sustentabilidade do empreendimento.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Liderança</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Fundamentos da Liderança</strong>:</li>
+<ul><li>Fundamentos da liderança são princípios e práticas essenciais que guiam os líderes na motivação, orientação e gestão de equipes para alcançar objetivos organizacionais eficazmente.</li>
+<li>Definir e comunicar uma visão clara e inspiradora.</li>
+<li>Praticar a comunicação clara e eficaz com a equipe.</li>
+<li>Compreender e valorizar as perspectivas dos outros.</li>
+<li>Agir de acordo com princípios éticos e morais.</li>
+<li>Confiar e atribuir responsabilidades à equipe.</li>
+<li>Inspirar e encorajar a equipe a alcançar seus melhores resultados.</li>
+<li>Fazer escolhas informadas e responsáveis.</li>
+<li>Investir no crescimento e capacitação da equipe.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Tech Lead</strong>:</li>
+<ul><li>Tech Lead é um papel de liderança técnica em equipes de desenvolvimento de software, responsável por guiar a equipe no desenvolvimento de soluções tecnológicas.</li>
+<li>Projete e mantenha a arquitetura de software.</li>
+<li>Encontre soluções técnicas para desafios complexos.</li>
+<li>Gerencie e monitore o processo de entrega de software.</li>
+<li>Desenvolva habilidades técnicas da equipe.</li>
+<li>Comunique-se claramente com a equipe e stakeholders.</li>
+<li>Promova e implemente práticas e tecnologias inovadoras.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>UX Design</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Primeiro contato com UX</strong>:</li>
+<ul><li>Não existe aplicativo ou site sem usuário. Uma ideia só vira um produto quando é usada por alguém de verdade. E um produto só é um sucesso quando a pessoa tem uma experiência voltada exclusivamente para ela.</li>
+<li>A área de UX - Experiência do Usuário - é um campo riquíssimo de conhecimento e desafios sobre como facilitar o contato dos nossos usuários com nossos produtos digitais e como essas pessoas se sentem. É um mercado imenso, sendo importante na Web, na construção de aplicativos e sistemas, além de ser importante também no mundo off-line.</li>
+<li>A especialidade em UX é hoje bastante requisitada em todo tipo de projeto de tecnologia, desde pequenas startups até grandes empresas. Este profissional é responsável por garantir que o design atenda às necessidades das pessoas usuárias, garantindo uma boa experiência de uso/compra para estas pessoas.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Entendendo a escrita em UX - UX Writing</strong>:</li>
+<ul><li>A experiência de uma pessoa com um produto ou serviço envolve muitos aspectos diferentes e cada um precisa ser estudado detalhadamente. Um dos aspectos mais importantes é a escrita, pois é através dos textos e palavras que conseguimos nos comunicar, nos conectar, ajudar e orientar as pessoas usuárias através de sua vivência com um produto ou serviço.</li>
+<li>null</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Imersão no problema</strong>:</li>
+<ul><li>Para criar produtos e serviços que sejam úteis e tragam uma boa experiência para as pessoas usuárias, precisamos entender as suas dores e necessidades. Para realizar esse trabalho temos diversas técnicas de pesquisa que vão desde ouvir o que o usuário pensa sobre, até entender o comportamento que ele tem usando um produto digital ou serviço. Chamamos essa vertente de UX Research, que fica dentro do guarda chuva de disciplinas de UX Design.</li>
+<li>Aprender as metodologias de pesquisa mais utilizadas na rotina de quem trabalha como UX Researcher.</li>
+<li>Conhecer técnicas qualitativas como a entrevista com usuários, pesquisa etnográfica e testes de usabilidade.</li>
+<li>Avaliar comportamento e interações mapeando jornadas e documentar estratégias conhecendo o mercado e seus concorrentes com a pesquisa.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Visão de negócio e estratégia - UX Strategy</strong>:</li>
+<ul><li>As áreas da UX estão se consolidando cada dia mais no mercado, e uma de suas vertentes é a UX Strategy. Ela possui importânica significativa em negócios, pois atende a proposta de vincular a experiência da pessoa usuária e seus métodos com os pilares estratégicos do negócio e manter saudável tanto para a empresa como para a pessoa usuária as decisões tomadas mediante as descobertas feitas em pesquisas do produto.</li>
+<li>Entender como a UX conversa com o negócio e sua estratégia.</li>
+<li>Aprender a aplicar métodos de pesquisa que atendam as expectativas e objetivos do negócio.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Thinking</strong>:</li>
+<ul><li>Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.</li>
+<li>Entenda profundamente as necessidades dos usuários.</li>
+<li>Clarifique o problema baseado nos insights coletados.</li>
+<li>Gere uma ampla gama de ideias inovadoras.</li>
+<li>Crie modelos simples para explorar soluções.</li>
+<li>Refine as soluções com base no feedback dos testes.</li>
+<li>Envolva diversas perspectivas na solução de problemas.</li>
+<li>Use métodos visuais para comunicar ideias e processos.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estratégia e design de interação na UX</strong>:</li>
+<ul><li>null</li>
+<li>A UX possui processos e ferramentas com focos em unir os interesses das empresas, as dores e necessidades das pessoas usuárias, e considera a capacidade da equipe de desenvolvimento sem gerar esgotamento.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Se comunicando com a pessoa usuária - UX Writing</strong>:</li>
+<ul><li>A experiência de uma pessoa com um produto ou serviço envolve muitos aspectos diferentes e cada um precisa ser estudado detalhadamente. Um dos aspectos mais importantes é a escrita, pois é através dos textos e palavras que conseguimos nos comunicar, nos conectar, ajudar e orientar as pessoas usuárias através de sua vivência com um produto ou serviço.</li>
+<li>null</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Definição do problema</strong>:</li>
+<ul><li>Conhecendo a nossa pessoa usuária e as dores relacionadas ao uso de produtos digitais, conseguimos desenhar a jornada de atuação, etapa importante para identificar e priorizar quais problemas que queremos resolver.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>A construção da pesquisa estratégica - UX Strategy</strong>:</li>
+<ul><li>As áreas da UX estão se consolidando cada dia mais no mercado, e uma de suas vertentes é a UX Strategy, que possui importânica significativa em negócios, pois atende a proposta de vincular a experiência da pessoa usuária e seus métodos com os pilares estratégicos do negócio e manter saudável tanto para a empresa como para a pessoa usuária as decisões tomadas mediante as descobertas feitas em pesquisas do produto.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Documentação e portfólio em UX</strong>:</li>
+<ul><li>Após mergulhar nas divisões da UX e realizar projetos, é preciso divulgar seu trabalho e mostrar para as pessoas que você é um(a) profissional da área!</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>O texto no produto e no dia a dia - UX Writing</strong>:</li>
+<ul><li>O texto em um negócio é algo vivo, por isso é importante sempre atualizar e entender se a maneira na qual o negócio está conversando com sua base de pessoas usuárias está de acordo com o esperado.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Pesquisas, testes e validações</strong>:</li>
+<ul><li>A construção de artefatos para fortaceler os dados e informações são de extrema importância no processo de pesquisa como um todo. Vale ressaltar que no momento de desenvolvimento ideias e telas, também realizamos pesquisas, mas dessa vez voltadas para o produto e não apenas para a pessoa usuária. vamos dar um passo em direção a solução e conhecer de forma rápida quais artefatos podem nos ajudar a melhorar a experiência do produto e conhecer técnicas que auxiliam no desenvolvimento de telas como card sorting e Tree Testing.</li>
+<li>Vamos conhecer também as etapas que validam nossas criações, é o momento de colocar o produto na mão da pessoa usuária e fazer os testes de usabilidade, afinal projetamos o produto digital para ela! Aprenderemos a coletar feedbacks e avaliar se a interface criada realmente tem usabilidade ou não.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Analisando a estratégia com dados - UX Strategy</strong>:</li>
+<ul><li>A área de estratégia esta sempre muito ligada à dados palpáveis que vão direcionar o pensamento das soluções tomadas, será que vale a pena mudar uma tela? Esses dados e métricas ajudam a responder esta pergunta, e é papel da pessoa de UX strategy possuir, ler e trabalhar essas informações.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: UI Design</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Princípios do design visual</strong>:</li>
+<ul><li>null</li>
+<li>Conheça as propriedades fundamentais destes elementos quanto aprender como manipulá-las em seus projetos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Fundamentos de UI</strong>:</li>
+<ul><li>O ponto de partida ideal para começarmos a desbravar a área de User Interface Design é entendendo perfeitamente o que ela é, como é representada, como outros profissionais a enxergam, e claro, sua relevância para a construção de um produto.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ferramentas de design</strong>:</li>
+<ul><li>O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Product Management</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos - Fundamentos</strong>:</li>
+<ul><li>Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.</li>
+<li>Definir visão clara e estratégia para o produto.</li>
+<li>Entender necessidades e preferências dos clientes.</li>
+<li>Especificar requisitos e funcionalidades do produto.</li>
+<li>Priorizar recursos com base no valor para o cliente e para o negócio.</li>
+<li>Analisar métricas e feedback para orientar decisões.</li>
+<li>Estar aberto a mudanças e ajuste a estratégia conforme necessário.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Product Discovery</strong>:</li>
+<ul><li>Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.</li>
+<li>Analisar o mercado para identificar tendências e oportunidades.</li>
+<li>Conduzie entrevistas para entender as necessidades dos usuários.</li>
+<li>Criar protótipos para validar ideias e conceitos com os usuários.</li>
+<li>Estudar os concorrentes para identificar lacunas e diferenciais.</li>
+<li>Testar hipóteses para validar a viabilidade do produto.</li>
+<li>Mapear as jornadas dos usuários para identificar pontos de dor.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos Digitais</strong>:</li>
+<ul><li>Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.</li>
+<li>Colocar as necessidades dos usuários no centro do processo de desenvolvimento.</li>
+<li>Definir uma visão clara e estratégia para o produto digital.</li>
+<li>Mapear e otimizar a jornada do usuário no produto.</li>
+<li>Coletar e analisar feedback dos usuários para melhorias.</li>
+<li>Adotar metodologias ágeis para entregas rápidas e iterativas.</li>
+<li>Utilizar dados para tomar decisões informadas sobre o produto.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+<ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
+<li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
+<li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
+<li>Defina marcos e prazos realistas para o desenvolvimento e entrega.</li>
+<li>Comunique o roadmap de forma clara e transparente com todas as partes interessadas.</li>
+<li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
+<li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
+<li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

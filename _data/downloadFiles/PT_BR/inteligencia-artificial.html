@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Inteligência Artificial</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python para Ciência de Dados</strong>:</li>
+<ul><li>Python é uma linguagem de programação interpretada de alto nível e que suporta múltiplos paradigmas de programação, como imperativo, orientado a objetos e funcional. É uma linguagem com tipagem dinâmica e gerenciamento automático de memória.</li>
+<li>Aprender lógica de programação em Python</li>
+<li>Aprenda os fundamentos da linguagem como variáveis, funções, listas, condicionais e imports</li>
+<li>Criar análises de dados</li>
+<li>Utilizar o Matplotlib para gerar gráficos</li>
+<li>Usar e manipular listas para agrupar dados</li>
+<li>Conhecer a biblioteca NumPy</li>
+<li>Conhecer a biblioteca Pandas</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Jupyter &amp; Colab notebooks</strong>:</li>
+<ul><li>Jupyter Notebook e Google Colaboratory são Notebooks que permitem a criação de blocos de texto e blocos de código</li>
+<li>Os Notebooks facilitam a elaboração de projetos de Data Science por ser possível visualizar o resultado da execução logo após o trecho de código</li>
+<li>O Google Colaboratory permite escrever e executar códigos Python diretamente no navegador, sem nenhuma ou poucas configurações necessárias</li>
+<li>Essas ferramentas facilitam o compartilhamento de projetos entre o time</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Regressão Linear e Logística</strong>:</li>
+<ul><li>As regressões são os métodos mais simples de aprendizado supervisionado, porém encontram diversas aplicações.</li>
+<li>A regressão linear é usada para relacionar uma variável dependente contínua a uma ou mais variáveis independentes contínuas. O objetivo é encontrar uma relação linear que melhor se ajuste aos dados.</li>
+<li>A regressão logística, por outro lado, é usada para problemas de classificação binária, onde a variável de saída é categórica e possui apenas duas categorias. Ela estima a probabilidade de um evento ocorrer com base nas variáveis independentes.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estatística e Matemática - Fundamentos</strong>:</li>
+<ul><li>Equações, funções e limites</li>
+<li>Logaritmos</li>
+<li>Matrizes, determinantes, vetores e espaço vetorial</li>
+<li>Derivadas e integrais</li>
+<li>Diferença entre média, mediana e moda</li>
+<li>Distribuição de frequência</li>
+<li>Variância e desvio padrão</li>
+<li>Distribuição binomial, poisson e normal</li>
+<li>Nível e intervalo de confiança</li>
+<li>Técnicas de amostragem</li>
+<li>Introdução à Regressão linear</li>
+<li>Séries temporais</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Fundamentos</strong>:</li>
+<ul><li>O Aprendizado de Máquina ou Machine Learning é um subcampo da Engenharia e da Ciência da Computação que evoluiu do estudo de reconhecimento de padrões e da teoria do aprendizado computacional em inteligência artificial.</li>
+<li>Aprendizado supervisionado</li>
+<li>Utilizar algoritmos de classificação</li>
+<li>Utilizar algoritmos de regressão</li>
+<li>Utilizar o Scikit-learn para criar modelos de machine learning</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Aprendizado Não Supervisionado</strong>:</li>
+<ul><li>O Aprendizado Não Supervisionado utiliza algoritmos de Aprendizado de Máquina para analisar e agrupar conjuntos de dados não rotulados. Estes algoritmos descobrem padrões ocultos ou agrupamentos de dados sem a necessidade de intervenção humana.</li>
+<li>O clustering ou análise de agrupamento de dados é o conjunto de técnicas de prospecção de dados (data mining) que visa fazer agrupamentos automáticos de dados segundo o seu grau de semelhança.</li>
+<li>Conhecer a análise exploratória</li>
+<li>Utilizar os métodos K-means, DBSCAN e Mean shift para agrupar dados sem classificação</li>
+<li>Avaliar a qualidade de uma clusterização</li>
+<li>Parametrizar métodos de clusterização através do máximo coeficiente de silhueta</li>
+<li>Entender a matemática por trás das métricas de validação Silhouette, Davies Bouldin e Calinski Harabasz</li>
+<li>Conhecer técnicas de redução de dimensionalidade</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Naive Bayes</strong>:</li>
+<ul><li>Naive Bayes é um algoritmo de aprendizado de máquina comumente utilizado para classificação de texto e análise de sentimentos. Ele é baseado no teorema de Bayes, que descreve a probabilidade condicional de um evento ocorrer, dado que outro evento já ocorreu.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Máquina de Vetores de Suporte</strong>:</li>
+<ul><li>Uma máquina de vetores de suporte (SVM, do inglês Support Vector Machine) é um conceito da Ciência da Computação para um conjunto de métodos de Aprendizado Supervisionado que analisam os dados e reconhecem padrões. O SVM pode ser usanto tanto para modelar problemas preditivos de classificação quanto de regressão.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>XGBoost</strong>:</li>
+<ul><li>XGBoost é uma biblioteca de aprendizado de máquina baseada em gradient boosting que se destaca na resolução de problemas de classificação e regressão. &quot;XG&quot; em XGBoost refere-se a &quot;Extreme Gradient&quot;, indicando o uso de gradient boosting para melhorar a precisão do modelo.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Previsão de Séries temporais</strong>:</li>
+<ul><li>A previsão de séries temporais (Time series Forecasting), também conhecida como previsão temporal, é uma técnica de análise estatística que envolve a previsão de valores futuros ou padrões com base em dados históricos ordenados no tempo. Em uma série temporal, os dados são coletados sequencialmente em intervalos regulares, como horários, diários, mensais ou anuais, e exibem dependências temporais.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Deep Learning</strong>:</li>
+<ul><li>Deep Learning é um ramo de Machine Learning baseado em um conjunto de algoritmos que tentam modelar abstrações de alto nível de dados usando um grafo profundo com várias camadas de processamento, compostas de várias transformações lineares e não lineares.</li>
+<li>Construir e treinar modelos com Keras</li>
+<li>Construir e treinar modelos com Tensorflow</li>
+<li>Selecionar as camadas de um modelo</li>
+<li>Classificar imagens</li>
+<li>Entender os conceitos de pesos e vieses</li>
+<li>Redes neurais para regressão</li>
+<li>Entender o conceito de Redes recorrentes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Visão Computacional</strong>:</li>
+<ul><li>Visão Computacional é um campo científico interdisciplinar que lida com a forma como os computadores podem ganhar conhecimentos de alto nível a partir de imagens ou vídeos digitais. Da perspectiva da engenharia, procura compreender e automatizar tarefas que o sistema visual humano pode fazer.</li>
+<li>Extrair regiões de interesse de uma imagem</li>
+<li>Normalizar e pré-processar dados de imagens</li>
+<li>Construir classificadores para reconhecimento de faces</li>
+<li>Extrair regiões do rosto humano baseado em marcos faciais</li>
+<li>Analisar diferentes condições de cada componente do rosto humano</li>
+<li>Conhecer Redes Neurais Convolucionais</li>
+<li>Usar OpenCV</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redes Neurais Convolucionais</strong>:</li>
+<ul><li>As CNNs (Convolutional Neural Networks, ou Redes Neurais Convolucionais) são um subtipo de redes neurais artificiais profundas (Deep Learning). AS CNNs são majoritariamente empregadas para o processamento de imagens e vídeos, no contexto de classificação do seu conteúdo. Ao contrário de outros algoritmos tradicionais de classificação de imagens, uma CNN tende a demandar menos esforços de pré-processamento nos dados de entrada.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redução de Dimensionalidade</strong>:</li>
+<ul><li>Redução de dimensionalidade é uma técnica utilizada no campo de aprendizado de máquina e análise de dados para reduzir o número de variáveis ou dimensões em um conjunto de dados. O objetivo é simplificar a representação dos dados, eliminando ou combinando características redundantes ou irrelevantes, enquanto mantém a maior parte da informação original.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Aprendizado por Transferência</strong>:</li>
+<ul><li>Transfer Learning (Aprendizado por Transferência) é uma abordagem na área de Machine Learning em que um modelo pré-treinado em uma tarefa relacionada é reutilizado como ponto de partida para treinar um modelo em uma tarefa diferente, geralmente com menos dados disponíveis.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Regularização</strong>:</li>
+<ul><li>Regularização se refere a um conjunto de técnicas para tornar os dados mais regulares e estáveis, facilitando o aprendizado e a descoberta de padrões em Machine Learning. A regularização é uma técnica que reduz o erro de um modelo, evitando o sobreajustamento (Overfitting) e treinando o modelo para funcionar corretamente.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Chatbots</strong>:</li>
+<ul><li>Chatbots são agentes virtuais projetados para interagir com seres humanos por meio de uma interface de chat. Eles são baseados em técnicas de processamento de linguagem natural (NLP) e inteligência artificial (IA) para entender e responder às perguntas e comandos dos usuários de forma automatizada.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segmentação Semântica e Instanciada de Imagens</strong>:</li>
+<ul><li>A segmentação semântica e instanciada de imagens é uma tarefa na área de visão computacional que envolve a atribuição de rótulos a pixels individuais em uma imagem. Ela tem como objetivo segmentar e identificar os objetos presentes na imagem, distinguindo diferentes classes de pixels e separando instâncias individuais dessas classes.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Visão Computacional - Extração de Características</strong>:</li>
+<ul><li>Feature Extraction (ou Extração de Características) é um processo na área de Machine Learning e Visão Computacional em que características relevantes e discriminantes são extraídas de um conjunto de dados para representar os objetos ou padrões de interesse. Essas características são transformadas em um novo conjunto de representações que possuem propriedades informativas para uma tarefa específica.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Processamento de Linguagem Natural</strong>:</li>
+<ul><li>Processamento de língua natural (PLN) é uma subárea da inteligência artificial e da linguística que estuda os problemas da geração e compreensão automática de línguas humanas naturais.</li>
+<li>Análise de Sentimento</li>
+<li>Criar visualizações para facilitar a análise de dados textuais</li>
+<li>Conhecer as bibliotecas NLTK e Scikit-Learn</li>
+<li>Normalizar textos</li>
+<li>Usar TF-IDF e Ngrams para melhorar a classificação</li>
+<li>Conhecer o conceito de Transformers e como são aplicados para LLMs</li>
+<li>Utilizar o SKlearn</li>
+<li>Utilizar Regex em PLN</li>
+<li>Conhecer o Word2Vec</li>
+<li>Combinar vetores de palavras para representar textos e classificá-los</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redes Neurais Recorrentes</strong>:</li>
+<ul><li>Redes Neurais Recorrentes (em inglês, Recurrent Neural Networks ou RNNs) são uma classe de redes neurais artificiais projetadas para lidar com dados sequenciais, como séries temporais, texto e fala. Ao contrário das redes neurais tradicionais, as RNNs têm conexões recorrentes que permitem que as informações sejam propagadas ao longo do tempo, permitindo que elas capturem dependências temporais em sequências de dados.</li>
+<li>LSTM (Long Short-Term Memory) é uma arquitetura de rede neural recorrente (RNN) projetada para superar as limitações das RNNs tradicionais na modelagem de dependências de longo prazo em sequências de dados.</li>
+<li>Conhecer a arquitetura de Redes Feedforward</li>
+<li>Funções de ativação mais comuns</li>
+<li>Familiarizar-se com as principais arquiteturas de RNNs, como bidirecionais (BRNN), Memória de curto prazo longa (LSTM), Unidades recorrentes fechadas (GRU)</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redes Adversárias Generativas (GANs)</strong>:</li>
+<ul><li>Redes Adversárias Generativas (em inglês, Generative Adversarial Networks ou GANs) são um tipo de arquitetura de rede neural usada para gerar dados sintéticos, como imagens, música, texto ou outros tipos de dados, que se assemelham aos dados de treinamento.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Aprendizado por Reforço</strong>:</li>
+<ul><li>O Aprendizado por Reforço é uma área de Machine Learning que se preocupa com a forma como agentes inteligentes devem tomar medidas num ambiente, a fim de maximizar a noção de recompensa cumulativa.</li>
+<li>Entender os conceitos de agente e recompensa</li>
+<li>Entender a diferença entre reforço positivo e negativo</li>
+<li>Conhecer o modelo Markov Decision Process</li>
+<li>Entender o conceito de Retorno</li>
+<li>Utilizar o algoritmo Q-learning</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Viés Cognitivo e IA Responsável</strong>:</li>
+<ul><li>O conceito de Viés Cognitivo refere-se aos padrões sistemáticos de desvio e distorção na forma como os seres humanos percebem, interpretam e tomam decisões. Esses vieses cognitivos podem levar a distorções na análise de informações, julgamentos e comportamentos de todos os tipos, como de raça, gênero, idade, capacidades físicas, entre outros, influenciando nossas percepções e ações de maneira não racional ou imparcial.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Lógica Fuzzy</strong>:</li>
+<ul><li>A lógica fuzzy, também conhecida como lógica difusa, é uma extensão da lógica clássica que permite o tratamento de incerteza e imprecisão nos sistemas de tomada de decisão. Enquanto a lógica clássica trabalha com valores binários (verdadeiro ou falso), a lógica fuzzy lida com valores contínuos entre 0 e 1, representando graus de pertinência.</li>
+<li>Conhecer o conceito de valor crisp</li>
+<li>Como aplicar a fuzzificação</li>
+<li>Conhecer o método Mamdani</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Automação com IA</strong>:</li>
+<ul><li>Automated IA, ou automação de IA, refere-se à combinação de tecnologias de automação, como RPA, com recursos de inteligência artificial, como processamento de linguagem natural (NLP), aprendizado de máquina (machine learning) e visão computacional. Essa abordagem visa automatizar processos complexos que envolvem o processamento e a análise de informações não estruturadas, permitindo que as máquinas tomem decisões com base nesses dados.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Business e Serviços</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Big Data - Fundamentos</strong>:</li>
+<ul><li>Big Data refere-se a conjuntos de dados extremamente grandes e complexos, que não podem ser facilmente processados ou gerenciados por métodos tradicionais. Esses conjuntos de dados são caracterizados por seu volume massivo, velocidade de geração e variedade de tipos e formatos. Com a explosão da quantidade de dados gerados diariamente, provenientes de diversas fontes como redes sociais, dispositivos IoT e transações comerciais, o Big Data apresenta desafios e oportunidades para extrair insights valiosos e tomar decisões informadas.</li>
+<li>A análise de Big Data envolve o uso de técnicas e tecnologias avançadas, como armazenamento distribuído, processamento em paralelo e aprendizado de máquina, para explorar e transformar esses dados em informações significativas para empresas, organizações e pesquisadores.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+<ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
+<li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
+<li>Criar um repositório</li>
+<li>Clonar um repositório</li>
+<li>Fazer commit, push e pull de e para o repositório</li>
+<li>Reverter um commit</li>
+<li>Criar branches e pul requests</li>
+<li>Lidar com merge e conflitos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Governança em IA e Business Analytics</strong>:</li>
+<ul><li>A governança em Business Analytics refere-se à gestão dos processos e estratégias de análise de dados nas organizações. Isso envolve a definição de políticas e procedimentos para a coleta, organização, análise e interpretação dos dados para obter insights valiosos e embasar a tomada de decisões empresariais.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Plataformas e Serviços Cognitivos</strong>:</li>
+<ul><li>Plataformas e serviços são projetados para fornecer recursos avançados de processamento de linguagem natural, reconhecimento de fala, visão computacional, análise de sentimentos e outras capacidades cognitivas.</li>
+<li>Como lidar com pipelines</li>
+<li>Conhecer o Databricks</li>
+<li>Conhecer o PySpark</li>
+<li>Conhecer o SageMaker</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Engenharia de Dados - Fundamentos</strong>:</li>
+<ul><li>Uma pessoa Engenheira de Dados desempenha um papel crucial ao projetar, implementar e manter as infraestruturas de dados que permitem que uma organização trabalhe de maneira eficiente com suas informações. A pessoa engenheira de dados cria pipelines de dados para integrar, limpar e transformar dados provenientes de várias fontes e formatos. Isso possibilita a geração de insights valiosos para o negócio e melhora a tomada de decisões estratégicas.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Fundamentos</strong>:</li>
+<ul><li>SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.</li>
+<li>Conhecer os comandos mais comuns do SQL</li>
+<li>Usar SELECT para consultar uma tabela</li>
+<li>Usar INSERT para inserir dados em uma tabela</li>
+<li>Usar UPDATE para atualizar uma tabela</li>
+<li>Usar DELETE para remover dados de uma tabela</li>
+<li>Usar JOIN para conectar os dados de múltiplas tabelas</li>
+<li>Conhecer as cláusulas (FROM, ORDER BY, etc)</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Provedores</strong>:</li>
+<ul><li>Conhecer os principais provedores de serviços em nuvem e suas ofertas.</li>
+<li>Comparar as características e serviços oferecidos por diferentes provedores.</li>
+<li>Entender como selecionar o provedor de serviços em nuvem adequado para suas necessidades.</li>
+<li>Explorar as tendências e inovações no mercado de serviços em nuvem.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>MLOps</strong>:</li>
+<ul><li>O MLOps permite que os modelos de Machine Learning sejam implantados de maneira rápida e confiável, o que é especialmente importante em empresas que lidam com grandes volumes de dados.</li>
+<li>Ajuda a garantir a qualidade e confiabilidade dos modelos de Machine Learning em produção, além de facilitar a manutenção e atualização desses modelos.</li>
+<li>Permite que as pessoas engenheiras de dados trabalhem em conjunto com cientistas de dados e desenvolvedores de software para implementar soluções de Machine Learning em larga escala.</li>
+<li>Ajuda a garantir a governança e a conformidade dos modelos de Machine Learning com as políticas e regulamentações da empresa.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Habilidades de comunicação</strong>:</li>
+<ul><li>Um bom nível de comunicação facilita o atingimento de objetivos, resolução de problemas, além de aumentar a produtividade, porque cada profissional saberá exatamente o que se espera dele e transmitir com clareza suas ideias.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Contêineres</strong>:</li>
+<ul><li>Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente. Gerenciamento de contêineres é uma área crucial na computação em nuvem e DevOps, que envolve o uso de tecnologias para automatizar o processo de criação, implantação, escalonamento e monitoramento de contêineres. Contêineres são unidades de software padronizadas que permitem aos desenvolvedores empacotar todas as dependências de um aplicativo (código, bibliotecas, configurações, etc.) em um único pacote. Isso permite que o aplicativo seja executado de forma consistente em qualquer ambiente de infraestrutura.</li>
+<li>A tecnologia de contêineres, como exemplificada pelo Docker, fornece um ambiente consistente e portátil para desenvolvimento, teste e implantação de aplicativos, o que é vital para o trabalho eficiente de engenharia de dados. Além disso, o Kubernetes, um sistema de orquestração de contêineres, permite o gerenciamento, a automação e a escalabilidade de aplicações baseadas em contêineres em ambientes de produção. Dominar esses conceitos e tecnologias possibilita a engenheiros de dados construir e manter pipelines de dados eficientes e confiáveis.</li>
+<li>O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.</li>
+<li>Isolar seu software para funcionar independentemente</li>
+<li>Implantar software em clusters</li>
+<li>Modularizar seu sistema em pacotes menores</li>
+<li>Conhecer a plataforma Docker</li>
+<li>Conhecer Kubernetes</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Hardware e Eletrônica</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Robótica na IA - Fundamentos</strong>:</li>
+<ul><li>Uma das vertentes da revolução 4.0 é a implementação em larga escala industrial da IA aos sistemas robotizados, podendo desenvolver processos autônomos e autogerenciáveis em campo.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Hardwares para IA</strong>:</li>
+<ul><li>Hardwares para IA são componentes físicos, como processadores, placas de vídeo e sistemas especializados, que são projetados e otimizados para realizar tarefas relacionadas à inteligência artificial de maneira eficiente e rápida. Eles são especialmente projetados para lidar com as demandas computacionais intensivas e algoritmos complexos usados em modelos de aprendizado de máquina e deep learning.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Computação Paralela &amp; Clusters</strong>:</li>
+<ul><li>Computação paralela refere-se ao uso de múltiplos processadores ou unidades de processamento para executar tarefas computacionais simultaneamente, em paralelo. Em vez de um único processador executar uma tarefa de cada vez, a computação paralela divide a carga de trabalho em várias partes menores que podem ser processadas em paralelo, resultando em maior eficiência e velocidade de processamento.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Internet das Coisas (IoT) - Fundamentos</strong>:</li>
+<ul><li>Quase todos os objetos agora podem ser conectados à Internet, de máquinas de lavar a componentes sofisticados de motor de avião, a itens orgânicos, como plantações e vacas. A capacidade de conectar coisas e capturar dados úteis está transformando as empresas de todos os setores e abrindo portas para novas especializações de carreira. Descubra a base desse novo campo com atividades práticas para conectar os sensores com segurança aos serviços em nuvem nas redes IP e coletar dados em um sistema de IoT (Internet das Coisas) de ponta a ponta.</li>
+<li>Como rodar seu primeiro sistema em um Arduino</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Wearables e Aquisição de Dados</strong>:</li>
+<ul><li>Wearables é a expressão que representa as tecnologias vestívies que além de captar biopotenciais podem gerar dados de grande valia, como relógios e óculos inteligentes, e também na área na saúde para pessoas com alguma deficiência física.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

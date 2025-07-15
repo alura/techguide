@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>React</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTML - Fundamentos</strong>:</li>
+<ul><li>HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.</li>
+<li>Aprender quais tags são necessárias para um HTML básico</li>
+<li>Criar um parágrafo de texto</li>
+<li>Exibir uma imagem</li>
+<li>Conhecer a diferença entre &#39;h1&#39;, &#39;h2&#39;, &#39;h3&#39;, etc</li>
+<li>Criar um texto com hyperlink</li>
+<li>Criar um formulário com campos relevantes</li>
+<li>Criar uma lista de itens ordenada ou não ordenada</li>
+<li>Criar uma lista de itens dentro de uma lista suspensa (dropdown list)</li>
+<li>Conectar com um arquivo de CSS</li>
+<li>Criar uma tabela</li>
+<li>Adicionar IDs e classes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CSS - Fundamentos</strong>:</li>
+<ul><li>Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.</li>
+<li>Aprender a estrutura visual de uma página, com &#39;margin&#39; e &#39;padding&#39;</li>
+<li>Estabelecer o tamanho com &#39;width&#39; e &#39;height&#39;</li>
+<li>Aprender sobre a posição de um elemento (&#39;static&#39;, &#39;relative&#39; ou &#39;absolute)</li>
+<li>Aprender sobre o &#39;display&#39; de exibição de um elemento (&#39;block&#39;, &#39;inline&#39;, &#39;inline-block&#39;)</li>
+<li>Aprender a posicionar imagens em relação ao texto</li>
+<li>Aprender sobre alinhamento</li>
+<li>Aprender sobre estilo de fontes</li>
+<li>Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)</li>
+<li>Conectar com os elementos (IDs, classes) de um arquivo HTML</li>
+<li>Alterar características de um elemento quando o mouse passar por cima dele (&#39;hover&#39;)</li>
+<li>Aprender box-sizing</li>
+<li>Aprender Flexbox</li>
+<li>Aprender Grid</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Fundamentos</strong>:</li>
+<ul><li>JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.</li>
+<li>Conhecer os tipos primitivos</li>
+<li>Declarar variáveis, considerando a diferença entre &#39;var&#39;, &#39;let&#39; e &#39;const&#39;</li>
+<li>Usar estruturas condicionais (&#39;if&#39;, &#39;else&#39;)</li>
+<li>Conhecer os operadores de atribuição e comparação (&#39;=&#39;, &#39;==&#39;, &#39;===&#39;)</li>
+<li>Usar estruturas de repetição e laços (&#39;while&#39;, &#39;for&#39;)</li>
+<li>Usar funções, passando parâmetros e argumentos</li>
+<li>Manipular arrays e listas</li>
+<li>Aprender o conceito de Orientação a Objetos</li>
+<li>Fazer um CRUD</li>
+<li>Obter dados de uma API</li>
+<li>Fazer chamadas assíncronas usando &#39;Async/Await&#39;, &#39;Promise&#39;, etc</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>DOM - Fundamentos</strong>:</li>
+<ul><li>O Document Object Model (DOM) é uma interface de programação para documentos web. Ele representa a página para que os programas possam alterar a estrutura, o estilo e o conteúdo do documento. O DOM representa o documento como nós e objetos; dessa forma, linguagens de programação podem interagir com a página.</li>
+<li>Entender como funciona a árvore do DOM</li>
+<li>Acessar e manipular elementos do HTML e CSS</li>
+<li>Acessar os pais e filhos de um elemento</li>
+<li>Inserir um novo elemento na árvore</li>
+<li>Remover um elemento da árvore</li>
+<li>Esperar por um evento em certo elemento da página usando &#39;addEventListener()&#39;</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos SPA</strong>:</li>
+<ul><li>Um aplicativo de página única (SPA - single-page application) é uma aplicação web ou site que interage com o usuário reescrevendo dinamicamente a página web atual com novos dados do servidor web, em vez do método padrão de um navegador que carrega novas páginas inteiras. O objetivo são transições mais rápidas, que tornam o site mais parecido com uma aplicação nativa.</li>
+<li>Entender o que é uma SPA</li>
+<li>Estabelecer rotas para outras páginas</li>
+<li>Conhecer frameworks SPA</li>
+<li>Comunicação com APIs</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Componentes</strong>:</li>
+<ul><li>O React permite definir componentes como classes ou funções. Componentes definidos como classes fornecem mais recursos. Eles aceitam entradas arbitrárias (chamadas &quot;props&quot;) e retornam elementos React descrevendo o que deve aparecer na tela.</li>
+<li>Para que servem e como funcionam componentes</li>
+<li>Conhecer a biblioteca Styled Components</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Props</strong>:</li>
+<ul><li>Props são um objeto que é injetado em componentes e fornece alguns dados que podem ser compartilhados entre outros componentes em um fluxo de dados unidirecional, de um elemento pai para um elemento filho. Props são de somente leitura.</li>
+<li>Como passar props</li>
+<li>Como manipular props</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Hooks - State</strong>:</li>
+<ul><li>O hook React <code>useState</code> nos permite rastrear o estado em um componente de função. O hook <code>useState</code> pode ser usado para acompanhar strings, números, booleanos, arrays, objetos, etc.</li>
+<li>Controlar o estado de componentes</li>
+<li>Manipular variáveis</li>
+<li>Atualizar o valor de elementos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Criando uma aplicação React</strong>:</li>
+<ul><li>Estruturar um novo projeto React</li>
+<li>Criar uma aplicação funcional do zero</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Hooks - Effect</strong>:</li>
+<ul><li>UseEffect() é um hook React que permite que você manipule efeitos colaterais em seus componentes funcionais do React.</li>
+<li>Executar um componente somente após a renderização</li>
+<li>Acessar as props de um elemento</li>
+<li>Fazer chamadas a APIs</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Hooks - Memo</strong>:</li>
+<ul><li>O hook React <code>useMemo</code> retorna um valor memoizado. <code>useMemo</code> apenas recalculará o valor memoizado quando uma das dependências for alterada.</li>
+<li>Controlar o estado de variáveis externas</li>
+<li>Evitar cálculos caros em cada renderização</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Hooks - Callback</strong>:</li>
+<ul><li>O hook React <code>useCallback</code> retorna uma função de callback memoizada.</li>
+<li>Retornar uma versão memoizada do callback caso as entradas tenham sido alteradas</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Hooks - Ref</strong>:</li>
+<ul><li>O hook <code>useRef</code> permite que você persista valores entre renderizações.</li>
+<li>Criar objetos mutáveis</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Bibliotecas de Design System</strong>:</li>
+<ul><li>Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Developer Tools</strong>:</li>
+<ul><li>React Developer Tools é usado para inspecionar componentes do React, editar props e estado, e também para identificar problemas de desempenho.</li>
+<li>Executar o &#39;debugging&#39; de aplicações</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Versionamento Semântico para Front-end</strong>:</li>
+<ul><li>SemVer (Versionamento Semântico) é um conjunto simples de regras e requisitos que ditam como os números de versão são atribuídos e incrementados.</li>
+<li>Organizar as dependências de um projeto</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CSS-in-JS</strong>:</li>
+<ul><li>CSS-in-JS refere-se a um padrão onde o CSS é composto usando JavaScript em vez de ser definido em arquivos externos.</li>
+<li>Lidar com código CSS usando JavaScript</li>
+<li>Utilizar styled-components</li>
+<li>Conhecer Styled-JSX</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Styled Components</strong>:</li>
+<ul><li>Lidar com código CSS em componentes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Roteamento web</strong>:</li>
+<ul><li>Manipular a navegação entre interfaces e componentes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Gerenciamento de Estados</strong>:</li>
+<ul><li>O gerenciamento de estado em React é a prática de controlar e atualizar os dados de uma aplicação React para garantir que os componentes tenham acesso às informações necessárias. Isso é essencial para criar aplicativos interativos e dinâmicos.</li>
+<li>Garante que os dados exibidos nos componentes estejam sempre atualizados e em sincronia.</li>
+<li>Permite que componentes compartilhem dados e comuniquem-se uns com os outros.</li>
+<li>Otimiza a renderização, garantindo que apenas as partes relevantes da interface do usuário sejam atualizadas.</li>
+<li>Torna o código mais organizado e fácil de entender, especialmente em aplicativos complexos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>TypeScript - Fundamentos</strong>:</li>
+<ul><li>TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript.</li>
+<li>Entender a fundo o que são tipos e a importância da tipagem</li>
+<li>Aprender o que é o TypeScript, por que foi criado, como ele funciona e sua relação com o JavaScript</li>
+<li>Conhecer as ferramentas do TypeScript (integração com o editor de código, verificador estático e compilador)</li>
+<li>Escrever código em TypeScript com suas ferramentas (interfaces, enum, decorators, etc)</li>
+<li>Desenvolver aplicações em TypeScript</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Testing Library</strong>:</li>
+<ul><li>A React Testing Library se baseia na DOM Testing Library adicionando APIs para trabalhar com componentes React. É um conjunto de auxiliares que permitem testar componentes React sem depender de seus detalhes de implementação.</li>
+<li>Testar componentes React</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Jest</strong>:</li>
+<ul><li>Jest é um framework de teste em JavaScript projetado para garantir a correção de qualquer código JavaScript. Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.</li>
+<li>Testar componentes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cypress</strong>:</li>
+<ul><li>Criar e executar testes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Callbacks e Promises</strong>:</li>
+<ul><li>Uma promessa (Promise) é um proxy para um valor não necessariamente conhecido quando a promessa é criada. Isso permite que métodos assíncronos retornem valores como métodos síncronos - em vez de retornar imediatamente o valor final, o método assíncrono retorna uma promessa de fornecer o valor em algum momento no futuro.</li>
+<li>Uma função de Callback é uma função passada para outra função como um argumento, que é então invocado dentro da função externa para completar algum tipo de rotina ou ação.</li>
+<li>Uma função assíncrona (async) é uma função declarada com a palavra-chave <code>async</code>, e a palavra-chave <code>await</code> é permitida dentro dela. As palavras-chave <code>async</code> e <code>await</code> permitem que o comportamento assíncrono e baseado em promessas seja escrito em um estilo mais limpo, evitando a necessidade de configurar explicitamente as cadeias de promessas.</li>
+<li>Entender o conceito de assincronicidade em programação</li>
+<li>Escrever código assíncrono entendendo o conceito de promessas em JavaScript</li>
+<li>Utilizar os métodos, palavras-chaves e objetos do JavaScript para manipulação de promessas como &#39;Async/Await&#39;, &#39;.then()&#39;, &#39;Promise&#39;, etc</li>
+<li>Aprender em quais situações é necessário o uso de programação assíncrona</li>
+<li>Fazer chamadas em APIs com <code>fetch()</code></li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Manipulação de Erros</strong>:</li>
+<ul><li>O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.</li>
+<li>Conhecer e tratar as exceções mais comuns</li>
+<li>Saber quais os tipos de erros e em quais situações eles podem ocorrer</li>
+<li>Entender como o Node.js faz o manejo de erros</li>
+<li>Usar &#39;try&#39; e &#39;catch&#39; para tratamento de erros</li>
+<li>Em que ocasiões e de que forma utilizar o <code>throw</code></li>
+<li>Criar exceções específicas de acordo com a necessidade de sua aplicação</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Babel - Fundamentos</strong>:</li>
+<ul><li>Babel é um compilador JavaScript. É uma ferramentas usada principalmente para converter código ECMAScript 2015+ em uma versão compatível com versões anteriores do JavaScript em navegadores ou ambientes atuais e mais antigos.</li>
+<li>Compreender como Babel converte a sintaxe para JavaScript</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Lottie</strong>:</li>
+<ul><li>Lottie é uma biblioteca que processa animações do Adobe After Effects exportadas como json com Bodymovin e as renderiza nativamente em dispositivos mobile e na web.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Framer Motion</strong>:</li>
+<ul><li>Criar animações</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Service Workers</strong>:</li>
+<ul><li>Melhorar a performance e trabalhar offline;</li>
+<li>Permitem que aplicações web armazenem recursos no cache;</li>
+<li>Interceptam e gerenciam requisições de rede;</li>
+<li>Facilitam notificações push, mesmo quando o app não está aberto ou usuário não está na página;</li>
+<li>Funcionam como um intermediário entre o navegador e a rede/servidor;</li>
+<li>São assíncronos e não acessam diretamente o DOM, garantindo segurança e eficiência;</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Validação de formulários</strong>:</li>
+<ul><li>Em React, é super importante que, em formulários, os dados inseridos pelos usuários atendam a critérios específicos antes do envio ou processamento das informações.</li>
+<li>Conhecer o Formik e o React Hook Form, bibliotecas populares para lidar com formulários em React.</li>
+<li>Conhecer o Yup e o Zod, ambas bibliotecas de validação baseadas em esquema. Permitem a definição de esquemas para validar valores de um objeto.</li>
+<li>Compreender como as bibliotecas trabalham, facilitando a criação de formulários complexos com validação e gerenciamento de estado.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Gerenciamento de Performance</strong>:</li>
+<ul><li>Em React, uma boa performance  garante uma experiência de usuário fluida e responsiva.</li>
+<li>A otimização de performance envolve técnicas para minimizar a quantidade de renderizações e maximizar a eficiência da atualização da interface.</li>
+<li>Entender o que é otimização de performance em React.</li>
+<li>Conhecer e saber usar técnicas como Lazy Loading e Code Splitting.</li>
+<li>Conhecer as demais ferramentas e práticas para otimização de performance no React.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Lodash</strong>:</li>
+<ul><li>Lodash é uma biblioteca de utilitários JavaScript moderna que oferece modularidade, desempenho e extras. Os métodos modulares do Lodash são ótimos para iterar arrays, objetos e strings; manipular e testar valores; e criar funções compostas.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>GraphQL</strong>:</li>
+<ul><li>GraphQL é uma linguagem de consulta e manipulação de dados de código aberto para APIs. É considerada uma alternativa para arquiteturas REST.</li>
+<li>Aprender o que é GraphQL e por que foi criado</li>
+<li>Entender como o GraphQL é utilizado no desenvolvimento de APIs</li>
+<li>Criar APIs utilizando as bibliotecas e frameworks para GraphQL</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Apollo Client</strong>:</li>
+<ul><li>Apollo Client é uma biblioteca abrangente de gerenciamento de estado para JavaScript que permite gerenciar dados locais e remotos com o GraphQL.</li>
+<li>Utilizar o Apollo para criar um servidor GraphQL</li>
+<li>Conectar com uma API</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Arquitetura</strong>:</li>
+<ul><li>Manter a arquitetura do nosso projeto bem estruturada, nos ajuda a organizar o código da melhor maneira possível para facilitar a manutenção e escalabilidade. Combinada aos princípios do SOLID, ela potencializa ainda mais toda essa organização minimizando o acoplamento e aprimorando a coesão dos componentes da nossa aplicação.</li>
+<li>Estruturar o projeto React com Arquitetura Limpa;</li>
+<li>Conhecer e aplicar os princípios SOLID para maior reusabilidade e coesão;</li>
+<li>Isolar responsabilidades com hooks e injeção de dependências.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redux Saga</strong>:</li>
+<ul><li>Redux Saga é uma biblioteca que visa tornar os efeitos colaterais da aplicação (ou seja, coisas assíncronas, como busca de dados e coisas impuras, como acessar o cache do navegador) mais fáceis de gerenciar, mais eficientes de executar, fáceis de testar e melhores no tratamento de falhas.</li>
+<li>Criar e manter chamadas assíncronas e efeitos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>NextJS - Fundamentos</strong>:</li>
+<ul><li>Construir interfaces Web</li>
+<li>Diminuir o tempo de carregamento das páginas</li>
+<li>Renderizar páginas no lado do servidor</li>
+<li>Melhorar a performance em React</li>
+<li>Construir rotas de API com funções serveless</li>
+<li>CSS-in-JS</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Infraestrutura e Back-end</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+<ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
+<li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
+<li>Criar um repositório</li>
+<li>Clonar um repositório</li>
+<li>Fazer commit, push e pull de e para o repositório</li>
+<li>Reverter um commit</li>
+<li>Criar branches e pul requests</li>
+<li>Lidar com merge e conflitos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+<ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
+<li>Entender a diferença dos verbos HTTP</li>
+<li>Testar os requests e ver os status codes no navegador</li>
+<li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
+<li>Baixar uma imagem com WGET</li>
+<li>Fazer um post</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+<ul><li>JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.</li>
+<li>Criar um objeto</li>
+<li>Transformar um objeto em uma string</li>
+<li>Transformar uma string em objeto</li>
+<li>Manipular um objeto</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+<ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
+<li>Conhecer os principais comandos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+<ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
+<li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
+<li>Conhecer os maiores provedores de cloud</li>
+<li>Especializar-se em algum provedor</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>YARN</strong>:</li>
+<ul><li>Yarn é um gerenciador de pacotes para seu código. Ele permite que você use e compartilhe código com outros desenvolvedores. O código é compartilhado por meio de algo chamado pacote (às vezes chamado de módulo). Um pacote contém todo o código que está sendo compartilhado, bem como um arquivo package.json que descreve o pacote.</li>
+<li>Gerenciar pacotes</li>
+<li>Gerenciar dependências</li>
+<li>Instalação de pacotes offline</li>
+<li>Comandos</li>
+<li>Arquivo yarn.lock</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: UX e Design</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design System</strong>:</li>
+<ul><li>Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.</li>
+<li>Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto</li>
+<li>Design tokens</li>
+<li>Estilos fundamentais</li>
+<li>Construção de componentes</li>
+<li>Microinterações</li>
+<li>Documentação</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Figma - Fundamentos</strong>:</li>
+<ul><li>Figma é uma aplicação web colaborativa para design de interfaces. O conjunto de recursos do Figma se concentra na interface do usuário e no design da experiência do usuário, com ênfase na colaboração em tempo real, utilizando uma variedade de editores de gráficos vetoriais e ferramentas de prototipagem.</li>
+<li>Criar layouts de páginas e componentes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Componentes de design</strong>:</li>
+<ul><li>Conhecer os componentes descrevem um layout ou interface</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Sistemas de cores</strong>:</li>
+<ul><li>Definir uma paleta de cores que faça sentido para determinada interface</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Como usar fontes</strong>:</li>
+<ul><li>Escolher a fonte mais adequada para determinado projeto</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

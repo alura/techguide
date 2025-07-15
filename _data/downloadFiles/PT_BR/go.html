@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Go</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Lógica de Programação</strong>:</li>
+<ul><li>Aprender lógica de programação, fundamental para o desenvolvimento de software</li>
+<li>Conhecer as bases para se criar, analisar e resolver problemas computacionais de forma estruturada e eficiente</li>
+<li>Entender o que são tipos de dados</li>
+<li>Declarar variáveis, considerando os diferentes tipos</li>
+<li>Conhecer os operadores de atribuição e comparação</li>
+<li>Usar estruturas condicionais</li>
+<li>Usar estruturas de repetição e laços</li>
+<li>Usar funções, passando parâmetros e argumentos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go (GoLang) - Fundamentos</strong>:</li>
+<ul><li>Go é uma linguagem de programação de alto nível compilada e estaticamente tipada, desenvolvida no Google. Ela é sintaticamente semelhante ao C, mas também tem memory safety, coletor de lixo, tipagem estrutural e concorrência.</li>
+<li>Entender a sua sintaxe</li>
+<li>Conhecer os tipos primitivos</li>
+<li>Declarar e usar variáveis e constantes</li>
+<li>Usar estruturas condicionais (if, else)</li>
+<li>Usar estruturas de repetição e laços (while, for)</li>
+<li>Usar funções, passando parâmetros e argumentos</li>
+<li>Implementando métodos e reutilizando eles</li>
+<li>Tratamento de erros</li>
+<li>Convenções de código</li>
+<li>Manipular Coleções, arrays e listas</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Orientação a Objetos</strong>:</li>
+<ul><li>Entender como métodos são definidos e associados a tipos em Go.</li>
+<li>Aprender a diferenciar métodos e funções dentro do contexto de Go.</li>
+<li>Explorar a aplicação prática de métodos para manipulação de estruturas e interfaces.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Estruturas</strong>:</li>
+<ul><li>Aprender a definir e utilizar estruturas em Go.</li>
+<li>Entender como estruturas podem ser utilizadas para modelar dados e objetos.</li>
+<li>Explorar a relação entre estruturas e métodos para simular a orientação a objetos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Tratamento de Erros</strong>:</li>
+<ul><li>Compreender como Go trata erros através de seus mecanismos integrados.</li>
+<li>Aprender a utilizar o tipo <code>error</code> para reportar e tratar falhas.</li>
+<li>Explorar padrões de tratamento de erro para manter o código limpo e eficiente.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Ponteiros</strong>:</li>
+<ul><li>Entender o conceito de ponteiros e sua sintaxe em Go.</li>
+<li>Aprender a usar ponteiros para manipulação direta de memória e passagem por referência.</li>
+<li>Explorar técnicas avançadas de ponteiros, incluindo ponteiros para estruturas.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Interfaces</strong>:</li>
+<ul><li>Compreender o papel das interfaces em Go e como elas contribuem para o polimorfismo.</li>
+<li>Aprender a definir e implementar interfaces, facilitando a interação entre diferentes tipos.</li>
+<li>Explorar o uso de interfaces para desacoplamento e testabilidade do código.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Concorrência</strong>:</li>
+<ul><li>Entender o modelo de concorrência em Go e como ele difere de outros modelos de programação paralela.</li>
+<li>Aprender a criar e gerenciar goroutines para tarefas concorrentes.</li>
+<li>Utilizar canais para a comunicação segura entre goroutines.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Pacotes</strong>:</li>
+<ul><li>Compreender a estrutura e o propósito dos pacotes em Go.</li>
+<li>Aprender a criar, importar e exportar pacotes para modularizar o código.</li>
+<li>Explorar o gerenciamento de dependências utilizando o Go Modules.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Testes</strong>:</li>
+<ul><li>Aprender a escrever testes unitários e de integração em Go.</li>
+<li>Entender a importância dos testes para manter a qualidade do código.</li>
+<li>Utilizar ferramentas e frameworks de teste disponíveis na comunidade Go.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Persistência de Dados</strong>:</li>
+<ul><li>Aprender os fundamentos da persistência de dados em Go.</li>
+<li>Explorar a integração de Go com bancos de dados SQL e NoSQL.</li>
+<li>Entender melhores práticas para modelagem e acesso a dados em aplicações Go.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Goroutines e Canais</strong>:</li>
+<ul><li>Entender o modelo de concorrência baseado em goroutines e canais em Go.</li>
+<li>Aprender a criar e sincronizar goroutines para tarefas concorrentes.</li>
+<li>Explorar padrões de uso de canais para comunicação segura entre goroutines.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Programação Web</strong>:</li>
+<ul><li>Aprender a construir servidores web e APIs RESTful com Go.</li>
+<li>Explorar o ecossistema de frameworks e bibliotecas web disponíveis para Go.</li>
+<li>Entender práticas recomendadas para o desenvolvimento web seguro e eficiente com Go.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Construindo APIs REST</strong>:</li>
+<ul><li>Compreender os princípios básicos de APIs RESTful e sua implementação em Go.</li>
+<li>Aprender a estruturar uma aplicação Go para suportar o desenvolvimento de APIs.</li>
+<li>Explorar ferramentas e bibliotecas úteis para facilitar o desenvolvimento de APIs em Go.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Arquitetura de Microsserviços</strong>:</li>
+<ul><li>Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.</li>
+<li>Aprender o conceito de arquitetura planejada para microsserviços</li>
+<li>Realizar a comunicação usando APIs</li>
+<li>Melhorar a escalabilidade de um sistema</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Debugging</strong>:</li>
+<ul><li>Aprender a utilizar as ferramentas de debugging disponíveis para Go.</li>
+<li>Compreender técnicas eficazes para identificar e resolver bugs em Go.</li>
+<li>Explorar melhores práticas para prevenir erros comuns em desenvolvimento Go.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Streaming</strong>:</li>
+<ul><li>Streaming é o processamento e transmissão contínua de dados em tempo real, à medida que são gerados. Diferentemente do armazenamento tradicional, onde os dados são coletados e processados posteriormente, o streaming permite a análise e o uso imediato dos dados à medida que são recebidos. Essa abordagem é ideal para lidar com grandes volumes de dados em alta velocidade, permitindo a detecção de padrões em tempo real, tomada de decisões instantâneas e resposta rápida a eventos em andamento.</li>
+<li>O streaming desempenha um papel essencial na engenharia de dados, capacitando as organizações a processar, analisar e tomar decisões com base em dados em tempo real. Isso resulta em maior agilidade, escalabilidade e reatividade, possibilitando uma tomada de decisões mais informada e orientada por insights atualizados.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - gRPC</strong>:</li>
+<ul><li>Compreender os fundamentos e a arquitetura do gRPC e como ele se integra ao ecossistema Go.</li>
+<li>Aprender a definir serviços gRPC usando protocol buffers, facilitando a interoperabilidade e a eficiência na comunicação entre serviços.</li>
+<li>Desenvolver servidores e clientes gRPC em Go, explorando recursos avançados como streaming, autenticação e interceptores.</li>
+<li>Adotar melhores práticas para o desenvolvimento de APIs gRPC em Go, garantindo segurança, performance e escalabilidade.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Melhores Práticas de Segurança</strong>:</li>
+<ul><li>Compreender as vulnerabilidades comuns em aplicações Go e como mitigá-las.</li>
+<li>Aprender a implementar técnicas de segurança, como autenticação e criptografia.</li>
+<li>Explorar ferramentas e bibliotecas de segurança disponíveis para Go.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go - Otimização de Performance</strong>:</li>
+<ul><li>Aprender a medir e analisar a performance de aplicações Go.</li>
+<li>Identificar gargalos de performance e aplicar técnicas de otimização.</li>
+<li>Explorar ferramentas e práticas para escrever código Go de alta performance.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: DevOps</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+<ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
+<li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
+<li>Criar um repositório</li>
+<li>Clonar um repositório</li>
+<li>Fazer commit, push e pull de e para o repositório</li>
+<li>Reverter um commit</li>
+<li>Criar branches e pul requests</li>
+<li>Lidar com merge e conflitos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+<ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
+<li>Entender a diferença dos verbos HTTP</li>
+<li>Testar os requests e ver os status codes no navegador</li>
+<li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
+<li>Baixar uma imagem com WGET</li>
+<li>Fazer um post</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Entrega e integração contínuas (CI/CD)</strong>:</li>
+<ul><li>CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português &quot;entrega e integração contínuas&quot;. Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.</li>
+<li>Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, ja que assim é possivel acelerar o desenvolvimento e diminiur o tempo de entrega de software.</li>
+<li>Executar testes automatizados da aplicação para verificar seu funcionamento.</li>
+<li>Realizar a entrega de atualizações de forma automatica e com segurança.</li>
+<li>Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Best Practices</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SOLID</strong>:</li>
+<ul><li>O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+<ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
+<li>Conhecer os principais comandos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+<ul><li>JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.</li>
+<li>Criar um objeto</li>
+<li>Transformar um objeto em uma string</li>
+<li>Transformar uma string em objeto</li>
+<li>Manipular um objeto</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Contêineres</strong>:</li>
+<ul><li>Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente. Gerenciamento de contêineres é uma área crucial na computação em nuvem e DevOps, que envolve o uso de tecnologias para automatizar o processo de criação, implantação, escalonamento e monitoramento de contêineres. Contêineres são unidades de software padronizadas que permitem aos desenvolvedores empacotar todas as dependências de um aplicativo (código, bibliotecas, configurações, etc.) em um único pacote. Isso permite que o aplicativo seja executado de forma consistente em qualquer ambiente de infraestrutura.</li>
+<li>A tecnologia de contêineres, como exemplificada pelo Docker, fornece um ambiente consistente e portátil para desenvolvimento, teste e implantação de aplicativos, o que é vital para o trabalho eficiente de engenharia de dados. Além disso, o Kubernetes, um sistema de orquestração de contêineres, permite o gerenciamento, a automação e a escalabilidade de aplicações baseadas em contêineres em ambientes de produção. Dominar esses conceitos e tecnologias possibilita a engenheiros de dados construir e manter pipelines de dados eficientes e confiáveis.</li>
+<li>O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.</li>
+<li>Isolar seu software para funcionar independentemente</li>
+<li>Implantar software em clusters</li>
+<li>Modularizar seu sistema em pacotes menores</li>
+<li>Conhecer a plataforma Docker</li>
+<li>Conhecer Kubernetes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+<ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
+<li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
+<li>Conhecer os maiores provedores de cloud</li>
+<li>Especializar-se em algum provedor</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Fundamentos</strong>:</li>
+<ul><li>SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.</li>
+<li>Conhecer os comandos mais comuns do SQL</li>
+<li>Usar SELECT para consultar uma tabela</li>
+<li>Usar INSERT para inserir dados em uma tabela</li>
+<li>Usar UPDATE para atualizar uma tabela</li>
+<li>Usar DELETE para remover dados de uma tabela</li>
+<li>Usar JOIN para conectar os dados de múltiplas tabelas</li>
+<li>Conhecer as cláusulas (FROM, ORDER BY, etc)</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Architecture</strong>:</li>
+<ul><li>A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Patterns</strong>:</li>
+<ul><li>Na engenharia de software, um &quot;padrão de projeto&quot; (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.</li>
+<li>Conhecer e aplicar os principais Design Patterns</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos de Design Orientado a Domínio (Domain-Driven Design - DDD)</strong>:</li>
+<ul><li>O Design Orientado a Domínio (DDD) é uma abordagem ao projeto e desenvolvimento de software que é primeiramente informado pelos requisitos de negócios. Os componentes do programa (objetos, classes, matrizes, etc.) indicam a indústria, setor ou domínio empresarial em que o negócio opera.</li>
+<li>Modelar domínios de forma efetiva</li>
+<li>Basear projetos complexos em modelos do domínio</li>
+<li>Conhecer os blocos de construção de DDD</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Infraestrutura como código (IaC)</strong>:</li>
+<ul><li>Infraestrutura como código (IaC) é uma abordagem em que a infraestrutura de TI, incluindo servidores, redes e recursos relacionados, é gerenciada e provisionada por meio de código. Em vez de configurar manualmente a infraestrutura, o IaC utiliza arquivos de configuração ou scripts que descrevem a infraestrutura desejada de forma automatizada e reproduzível.</li>
+<li>A infraestrutura como código é de extrema importância na engenharia de dados, pois permite uma gestão eficiente e escalável dos recursos de infraestrutura necessários para processamento e armazenamento de dados. Com o IaC, é possível definir, provisionar e configurar ambientes de maneira consistente, rápida e controlada. Isso facilita a implantação e manutenção de pipelines de dados, ambientes de desenvolvimento e testes, clusters de processamento distribuído e outros componentes necessários para a engenharia de dados. Além disso, o IaC permite a automação e o versionamento da infraestrutura, proporcionando maior agilidade, rastreabilidade e garantia de qualidade no gerenciamento dos recursos de TI.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

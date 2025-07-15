@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Empreendedorismo</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ideia ao plano de négocios</strong>:</li>
+<ul><li>null</li>
+<li>null</li>
+<li>null</li>
+<li>null</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Abrindo sua empresa do jeito certo</strong>:</li>
+<ul><li>Aprenda a criar e estruturar o contrato social da sua empresa de forma eficaz para garantir conformidade legal e operacional desde o início.</li>
+<li>Entenda os diferentes tipos de estruturas empresariais e como escolher a melhor para o seu empreendimento, considerando fatores como tributação e implicações legais.</li>
+<li>Explore os benefícios de se inscrever no regime tributário SIMPLES NACIONAL e como isso pode simplificar as operações da sua empresa.</li>
+<li>Obtenha insights práticos sobre serviços essenciais, como emissão de notas fiscais, contabilidade e assessoria jurídica, para ajudar a gerenciar os aspectos financeiros e legais da sua empresa de maneira eficiente..</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Propriedade Intelectual</strong>:</li>
+<ul><li>Compreender a importância e a utilidade da Propriedade Intelectual no contexto de startups e negócios em geral.</li>
+<li>Aprender a identificar os requisitos e procedimentos para o registro de direitos de Propriedade Intelectual, como marcas, patentes e direitos autorais.</li>
+<li>Explorar as diferenças entre os diversos tipos de proteção, como marcas, patentes, desenhos industriais e direitos de autor.</li>
+<li>Aplicar conhecimentos de Propriedade Intelectual para proteger inovações, produtos e serviços, garantindo vantagem competitiva no mercado..</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Elaboração de contratos</strong>:</li>
+<ul><li>Compreenda como elaborar contratos claros e detalhados, que formalizem as relações profissionais de maneira adequada e protejam todas as partes envolvidas.</li>
+<li>Aprenda a identificar e incluir cláusulas essenciais para diferentes tipos de contratos, como prestação de serviços, compra e venda, e representação comercial.</li>
+<li>Conheça os principais riscos associados a contratos mal redigidos e saiba como evitá-los por meio de boas práticas e revisões criteriosas.</li>
+<li>Explore alternativas legais para resolver conflitos contratuais, garantindo a proteção dos interesses da sua empresa e evitando litígios desnecessários.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Viabilidade de Projetos e Negócios</strong>:</li>
+<ul><li>Compreender como avaliar a viabilidade de projetos e negócios, revisando conceitos essenciais como VPL, TIR e análise de sensibilidade, para garantir decisões financeiras acertadas.</li>
+<li>Aprender a montar e interpretar fluxos de caixa, identificando os custos, receitas e necessidades de capital, com o objetivo de maximizar a rentabilidade de um empreendimento.</li>
+<li>Identificar as alternativas de investimento mais adequadas para cada projeto, considerando aspectos como risco, retorno e condições de mercado.</li>
+<li>Explorar estratégias de análise financeira para prever o desempenho futuro de um negócio, utilizando ferramentas e métodos que ajudem na tomada de decisões estratégicas..</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Business Model Canvas</strong>:</li>
+<ul><li>Estruturar ideias de negócios de forma clara e prática, utilizando o Business Model Canvas para transformar conceitos em modelos tangíveis, organizando componentes essenciais como segmentos de clientes, propostas de valor e canais de distribuição.</li>
+<li>Desenvolver um plano de negócios robusto que atraia investidores e parceiros, baseando-se no Business Model Canvas para detalhar como a empresa gerará e entregará valor, abordando estrutura de custos, fluxos de receita e atividades e parcerias-chave.</li>
+<li>Fomentar a análise crítica e a adaptação contínua do modelo de negócios, utilizando o Canvas como uma ferramenta dinâmica para identificar oportunidades de inovação, otimização de recursos e resposta a mudanças no mercado.</li>
+<li>Integrar recursos e atividades-chave para maximizar a eficiência e o valor oferecido, garantindo que todos os componentes do Business Model Canvas estejam interconectados e contribuam para o sucesso e sustentabilidade do empreendimento.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Freelancer de sucesso - construa uma carreira autônoma</strong>:</li>
+<ul><li>Conhecer as vantagens e desvantagens do trabalho autônomo, permitindo que os participantes tomem decisões informadas sobre sua carreira como freelancer.</li>
+<li>Desenvolver um propósito claro de carreira e alinhar objetivos e expectativas, criando uma base sólida para o sucesso profissional.</li>
+<li>Aprender a gerenciar sua carreira como uma marca de sucesso, incluindo a construção de um branding pessoal que destaque suas habilidades e valores no mercado.</li>
+<li>Elaborar planos de ação para atuar no mercado de tecnologia, com foco na criação de portfólios profissionais e na apresentação de seu valor ao mercado..</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Empreendedorismo para Devs</strong>:</li>
+<ul><li>Identificar oportunidades de empreendedorismo na área de tecnologia, compreendendo as demandas e desafios específicos do setor.</li>
+<li>Desenvolver habilidades para criar e estruturar um modelo de negócio desde o zero, incluindo a elaboração de propostas de valor e segmentação de clientes.</li>
+<li>Aprender a formalizar e legalizar um empreendimento, com foco na criação de uma marca e no cumprimento das exigências legais.</li>
+<li>Gerenciar a rotina do negócio de forma produtiva, com estratégias eficazes de administração, incluindo documentação e processos padronizados..</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Networking</strong>:</li>
+<ul><li>Compreender a importância de se conectar com pessoas e definir objetivos claros para expandir sua rede de contatos, tanto online quanto offline.</li>
+<li>Aprender a construir e fortalecer uma marca pessoal forte, que seja reconhecida e valorizada em seu campo de atuação.</li>
+<li>Desenvolver habilidades de comunicação eficazes para interagir com diferentes públicos e lidar com situações desafiadoras no ambiente de trabalho.</li>
+<li>Implementar práticas de networking sustentável, criando e mantendo relacionamentos profissionais de longo prazo que beneficiem todas as partes envolvidas..</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Carreira internacional</strong>:</li>
+<ul><li>Descubra como identificar e conquistar oportunidades de trabalho no exterior, desenvolvendo as competências necessárias para destacar-se no mercado global.</li>
+<li>Aprenda a navegar pelo processo seletivo em empresas internacionais, entendendo as diferenças culturais e como posicionar-se de forma competitiva.</li>
+<li>Entenda os aspectos práticos de receber pagamentos em moedas estrangeiras e como negociar salários e benefícios em uma carreira internacional.</li>
+<li>Explore estratégias para construir e expandir sua carreira fora do Brasil, com foco em pesquisa de confiabilidade e negociações vantajosas..</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Vendas</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Entendendo a necessidade do cliente</strong>:</li>
+<ul><li>Aprimorar a capacidade de diagnóstico das necessidades dos clientes, utilizando técnicas de escuta ativa e análise estratégica para compreender profundamente os desafios e expectativas dos clientes, alinhando as soluções oferecidas às suas reais necessidades.</li>
+<li>Desenvolver conexões de confiança e credibilidade com prospects e clientes, criando abordagens comerciais personalizadas que considerem os perfis e interesses dos stakeholders envolvidos, garantindo que as propostas de valor sejam tangíveis e relevantes.</li>
+<li>Capacitar a equipe de vendas para mapear e qualificar oportunidades de vendas de maneira eficaz, assegurando que o retorno sobre as soluções oferecidas seja claramente tangível para o cliente, promovendo decisões de compra informadas e baseadas em benefícios concretos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vendas na era digital</strong>:</li>
+<ul><li>Desenvolver estratégias inovadoras de vendas que capacitem a equipe a tomar decisões estratégicas, promovendo uma cultura de autonomia e responsabilidade.</li>
+<li>Estimular a diversidade nas abordagens de vendas, incentivando a troca de ideias e técnicas entre vendedores com diferentes perfis e experiências, enriquecendo a estratégia de vendas e aumentando o engajamento da equipe.</li>
+<li>Criar ambiente de trabalho motivador para equipe de vendas.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Prospecção de clientes</strong>:</li>
+<ul><li>Desenvolver e implementar estratégias de prospecção que permitam identificar e segmentar clientes potenciais com maior precisão, utilizando dados e análises de mercado para orientar esforços de vendas.</li>
+<li>Capacitar equipe de vendas para criar perfis detalhados de cliente ideal (ICP), garantindo que a prospecção seja focada em leads com maior probabilidade de conversão e alinhamento com os objetivos de negócio.</li>
+<li>Otimizar o processo de prospecção através do uso de ferramentas e tecnologias que acelerem a identificação e o contato com leads qualificados, aumentando a eficiência e a produtividade da equipe de vendas.</li>
+<li>Estabelecer métricas claras para monitorar o desempenho das atividades de prospecção, permitindo ajustes contínuos e melhoria dos processos para garantir um pipeline de vendas robusto e sustentável.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+<ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
+<li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
+<li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
+<li>Defina marcos e prazos realistas para o desenvolvimento e entrega.</li>
+<li>Comunique o roadmap de forma clara e transparente com todas as partes interessadas.</li>
+<li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
+<li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
+<li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Gestão de Produto</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos - Fundamentos</strong>:</li>
+<ul><li>Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.</li>
+<li>Definir visão clara e estratégia para o produto.</li>
+<li>Entender necessidades e preferências dos clientes.</li>
+<li>Especificar requisitos e funcionalidades do produto.</li>
+<li>Priorizar recursos com base no valor para o cliente e para o negócio.</li>
+<li>Analisar métricas e feedback para orientar decisões.</li>
+<li>Estar aberto a mudanças e ajuste a estratégia conforme necessário.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Product Discovery</strong>:</li>
+<ul><li>Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.</li>
+<li>Analisar o mercado para identificar tendências e oportunidades.</li>
+<li>Conduzie entrevistas para entender as necessidades dos usuários.</li>
+<li>Criar protótipos para validar ideias e conceitos com os usuários.</li>
+<li>Estudar os concorrentes para identificar lacunas e diferenciais.</li>
+<li>Testar hipóteses para validar a viabilidade do produto.</li>
+<li>Mapear as jornadas dos usuários para identificar pontos de dor.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos Digitais</strong>:</li>
+<ul><li>Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.</li>
+<li>Colocar as necessidades dos usuários no centro do processo de desenvolvimento.</li>
+<li>Definir uma visão clara e estratégia para o produto digital.</li>
+<li>Mapear e otimizar a jornada do usuário no produto.</li>
+<li>Coletar e analisar feedback dos usuários para melhorias.</li>
+<li>Adotar metodologias ágeis para entregas rápidas e iterativas.</li>
+<li>Utilizar dados para tomar decisões informadas sobre o produto.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

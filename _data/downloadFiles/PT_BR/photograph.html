@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Fotografia</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos</strong>:</li>
+<ul><li>Os conceitos básicos, como luz, enquadramento, exposição e foco, são a base para criar imagens tecnicamente corretas. Dominar esses fundamentos ajuda a transmitir emoções, contar histórias e explorar criatividade.</li>
+<li>Configurar a câmera para melhores resultados</li>
+<li>Conhecer diferentes estilos fotográficos</li>
+<li>Usar lentes para diferentes finalidades</li>
+<li>Trabalhar com profundidade de campo</li>
+<li>Explorar diferentes ângulos de captura</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Iluminação</strong>:</li>
+<ul><li>A iluminação define o clima da foto, controla sombras e destaca detalhes. Técnicas de luz natural e artificial ajudam a criar profundidade, volume e texturas, elevando a qualidade e o impacto das imagens.</li>
+<li>Posicionar o assunto em relação à luz</li>
+<li>Ajustar a temperatura de cor da iluminação</li>
+<li>Usar luz natural em diferentes horários</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Fotografia com smartphones</strong>:</li>
+<ul><li>Fotografar com smartphones une praticidade e qualidade. Ideal para momentos espontâneos, eles oferecem recursos modernos e integração com apps de edição, permitindo capturas rápidas e criativas sem equipamentos extras.</li>
+<li>Configurar a câmera para melhor qualidade</li>
+<li>Compor imagens com mais precisão</li>
+<li>Ajustar a exposição manualmente</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos de Photoshop</strong>:</li>
+<ul><li>O Photoshop é a principal ferramenta para manipulação avançada de imagens. Com ele, é possível realizar retoques detalhados, montagens, correções e criar projetos artísticos de alta qualidade, explorando infinitas possibilidades criativas.</li>
+<li>Usar camadas para edições não destrutivas</li>
+<li>Remover objetos ou elementos indesejados</li>
+<li>Aplicar ajustes de cor e luminosidade</li>
+<li>Criar montagens e composições criativas</li>
+<li>Usar máscaras para edições precisas</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição e tratamento com Lightroom</strong>:</li>
+<ul><li>O Lightroom é uma ferramenta poderosa para editar e organizar fotos. Ideal para ajustes de cor, exposição e contraste, também permite criar presets personalizados, otimizando fluxos de trabalho de fotógrafos e criativos.</li>
+<li>Trabalhar com tons e saturação de cores</li>
+<li>Exportar imagens para diferentes plataformas</li>
+<li>Organizar fotos em catálogos ou coleções</li>
+<li>Ajustar exposição, contraste e brilho</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição pelo celular</strong>:</li>
+<ul><li>Editar fotos no celular é prático e eficiente. Apps permitem ajustar luz, cores e detalhes rapidamente, ideal para quem precisa de resultados rápidos em qualquer lugar. É uma solução poderosa para melhorar fotos sem depender de um computador.</li>
+<li>Ajustar brilho, contraste e saturação</li>
+<li>Cortar e alinhar imagens facilmente</li>
+<li>Aplicar filtros e efeitos com um toque</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Direção de retratos</strong>:</li>
+<ul><li>Direcionar retratos envolve guiar poses, criar conforto e construir uma conexão com o fotografado. Essa interação melhora a experiência, capturando expressões naturais e autenticidade, essenciais para retratos marcantes.</li>
+<li>Guiar poses para diferentes estilos de retrato</li>
+<li>Criar conexão e intimidade com o fotografado</li>
+<li>Explorar expressões faciais e olhares</li>
+<li>Escolher ângulos que favoreçam o retratado</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Tratamento de pele</strong>:</li>
+<ul><li>O tratamento de pele é o retoque digital usado para suavizar imperfeições, como acne ou manchas, enquanto mantém a textura natural. Feito com equilíbrio, ele realça a beleza sem criar resultados artificiais.</li>
+<li>Remover manchas e imperfeições da pele</li>
+<li>Suavizar rugas sem perder textura natural</li>
+<li>Ajustar tons para uniformizar a pele</li>
+<li>Corrigir reflexos indesejados de luz</li>
+<li>Realçar detalhes como olhos e lábios</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição e tratamento</strong>:</li>
+<ul><li>Editar imagens é o processo de ajustar luz, cor e detalhes, além de corrigir erros ou adicionar efeitos criativos. Melhora a qualidade das fotos, dá um toque profissional e realça o estilo pessoal do fotógrafo ou criador.</li>
+<li>Suavizar imperfeições e melhorar detalhes</li>
+<li>Corrigir balanço de branco e saturação</li>
+<li>Ajustar iluminação e contraste das fotos</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Design Gráfico</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Portfólio</strong>:</li>
+<ul><li>Um portfólio é uma coleção de trabalhos que demonstra habilidades, estilo e experiências. Essencial para atrair clientes e projetos, ele apresenta o melhor do fotógrafo e serve como cartão de visita no mercado.</li>
+<li>Escolher fotos que representem seu estilo</li>
+<li>Usar plataformas online para divulgação</li>
+<li>Apresentar evolução e variedade de técnicas</li>
+<li>Criar uma narrativa com as imagens</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cores</strong>:</li>
+<ul><li>A teoria das cores ensina como combinar tons para criar harmonia e transmitir emoções. Na prática, escolher e aplicar paletas certas realça a mensagem das fotos, cria identidade visual e melhora a experiência do espectador com as imagens.</li>
+<li>Aprenda o conceito fundamental de cores</li>
+<li>Criar paletas para projetos específicos</li>
+<li>Entender o círculo cromático</li>
+<li>Ajustar cores para diferentes públicos</li>
+<li>Harmonizar cores em retratos e paisagens</li>
+<li>Usar contraste para destacar elementos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Composição visual</strong>:</li>
+<ul><li>Composição visual é a organização dos elementos na imagem, usando regras como a regra dos terços, linhas guia e simetria. Essas técnicas direcionam o olhar, criam equilíbrio e ajudam a transmitir mensagens claras ou narrativas impactantes.</li>
+<li>Usar linhas guia para compor fotos</li>
+<li>Criar equilíbrio com simetria ou assimetria</li>
+<li>Criar profundidade em composições</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Edição de vídeo</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição de vídeo</strong>:</li>
+<ul><li>Editar vídeos em celulares é uma forma prática de organizar cenas, melhorar cores e adicionar efeitos ou trilhas sonoras. Ideal para criar conteúdos dinâmicos e impactantes, diretamente de um dispositivo portátil.</li>
+<li>Cortar e reorganizar clipes rapidamente</li>
+<li>Criar vídeos para redes sociais em formatos ideais</li>
+<li>Trabalhar com múltiplas camadas de vídeo</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Produção de vídeo</strong>:</li>
+<ul><li>Produzir vídeos com recursos acessíveis, como smartphones ou câmeras compactas, permite planejar e gravar materiais criativos, sejam eles promocionais, educativos ou artísticos. É uma habilidade versátil e valiosa.</li>
+<li>Configurar equipamentos de áudio básicos</li>
+<li>Explorar diferentes ângulos de gravação</li>
+<li>Planejar a duração e ritmo do conteúdo</li>
+<li>Criar vídeos prontos para edição e finalização</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Motion</strong>:</li>
+<ul><li>O motion design cria animações e movimentos para dar vida a elementos gráficos. Muito usado em vídeos, redes sociais e storytelling, é uma forma dinâmica e cativante de comunicar mensagens e ideias.</li>
+<li>Adicionar efeitos visuais</li>
+<li>Trabalhar com keyframes para movimentos precisos</li>
+<li>Criar animações simples com texto</li>
+<li>Usar softwares como After Effects</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>
