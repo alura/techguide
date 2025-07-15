@@ -115,7 +115,7 @@
    - Colete feedback regularmente para ajustar o roadmap conforme necessário.
    - Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.
 - [ ] **Cultura Ágil**:
-   - Enfatizar o trabalho em equipe e a comunicação aberta.
+   - Enfatizar o trabalho em equipe e uma comunicação aberta.
    - Promover feedback regular para melhorias rápidas e eficazes.
    - Empoderar equipes autônomas para tomar decisões.
    - Garantir processos e informações acessíveis a todos.

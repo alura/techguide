@@ -58,7 +58,7 @@
    - Encoraje a colaboração e o trabalho em equipe.
    - Esteja preparado para mudanças e adapte-se rapidamente.
 - [ ] **Cultura Ágil**:
-   - Enfatizar o trabalho em equipe e a comunicação aberta.
+   - Enfatizar o trabalho em equipe e uma comunicação aberta.
    - Promover feedback regular para melhorias rápidas e eficazes.
    - Empoderar equipes autônomas para tomar decisões.
    - Garantir processos e informações acessíveis a todos.
