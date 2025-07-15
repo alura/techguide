@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>RH</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Como atrair e reter talentos de tecnologia</strong>:</li>
+<ul><li>Criar ambiente inovador e permitir que os funcionários tenham autonomia para tomar decisões importantes em seus projetos, promovendo uma cultura de inovação e responsabilidade.</li>
+<li>Promover a diversidade no ambiente de trabalho, incentivando a troca de ideias e conhecimentos entre pessoas de diferentes formações e backgrounds, enriquecendo os projetos e aumentando o engajamento dos funcionários.</li>
+<li>Criar um ambiente de trabalho atrativo, com benefícios competitivos e um clima organizacional positivo e estimulante, valorizando o bem-estar físico e mental dos colaboradores.</li>
+<li>Reconhecer e valorizar as conquistas dos funcionários, promovendo uma cultura de feedback constante e recompensando o desempenho excepcional com incentivos financeiros e não financeiros.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Recrutamento e Seleção</strong>:</li>
+<ul><li>Entender a importância do Desenvolvimento Humano e Organizacional (DHO) para criar uma estratégia que aumente a produtividade e resultados, ao mesmo tempo em que oferece suporte e melhorias para os colaboradores.</li>
+<li>Explorar técnicas de treinamento, desenvolvimento e recrutamento com foco nas competências de interesse da organização, utilizando o apoio da tecnologia para agilizar processos.</li>
+<li>Desenvolver habilidades para criar ações e projetos alinhados com o negócio e com o investimento em talentos, utilizando a inovação para impulsionar a gestão de pessoas.</li>
+<li>Praticar a construção de um espaço humanizado para gestão de pessoas, focando na valorização dos colaboradores e melhorando o posicionamento interno e externo da empresa.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Tech Recruiter</strong>:</li>
+<ul><li>Compreender as principais competências e habilidades necessárias para atuar como Tech Recruiter, incluindo técnicas de recrutamento específicas para o setor de tecnologia.</li>
+<li>Explorar as principais áreas de atuação em Tecnologia da Informação e como elas impactam o processo de recrutamento e seleção de profissionais de TI.</li>
+<li>Conhecer as principais fontes e estratégias de recrutamento de profissionais Tech, incluindo como utilizar indicadores e estratégias de promoção da marca empregadora para atrair talentos qualificados.</li>
+<li>Aprender a conduzir e estruturar processos seletivos eficazes, garantindo a seleção dos melhores candidatos para atender às necessidades da empresa em termos de tecnologia e inovação.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Técnicas de facilitação de RH</strong>:</li>
+<ul><li>Compreender as transformações digitais e identificar novos papéis e posturas para a área de RH, posicionando-a como protagonista na transformação digital das organizações.</li>
+<li>Aprender e aplicar técnicas de facilitação como Comunicação Não Violenta (CNV), Estruturas Libertadoras e perguntas poderosas para promover diálogos produtivos, resolver conflitos e facilitar workshops e conversas de maneira eficaz.</li>
+<li>Desenvolver habilidades de apresentação e influência, utilizando princípios de persuasão, técnicas de storytelling e práticas dos melhores palestrantes do TED para engajar e inspirar as equipes e stakeholders.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão &amp; Pessoas em Tech</strong>:</li>
+<ul><li>Compreender como a tecnologia está revolucionando a gestão de pessoas, explorando novas ferramentas e práticas para otimizar processos de recrutamento, desenvolvimento e retenção de talentos no setor de tecnologia.</li>
+<li>Aprender a desenvolver e implementar estratégias de RH ágeis, adaptáveis às constantes mudanças do mercado tecnológico, promovendo um ambiente profissional seguro, inovador e eficiente.</li>
+<li>Explorar o novo papel do profissional de RH na era digital, incluindo como liderar a transformação digital nas organizações e como treinar e desenvolver equipes técnicas para alcançar um alto desempenho e alinhamento com os objetivos empresariais.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>RH Ágil</strong>:</li>
+<ul><li>Entender os princípios e práticas do RH Ágil, incluindo como aplicá-los para aumentar a eficiência, flexibilidade e capacidade de resposta do departamento de RH às necessidades da organização.</li>
+<li>Desenvolver habilidades para implementar metodologias ágeis em processos de recrutamento, treinamento, desenvolvimento e gestão de talentos, promovendo uma cultura de melhoria contínua.</li>
+<li>Explorar estratégias para criar um ambiente de trabalho colaborativo e adaptável, onde equipes multidisciplinares possam inovar e entregar valor de forma rápida e eficaz.</li>
+<li>Aprender a utilizar ferramentas e técnicas ágeis para medir e melhorar o desempenho do RH, garantindo alinhamento com os objetivos estratégicos da empresa e satisfação dos colaboradores.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>RH na Educação Corporativa</strong>:</li>
+<ul><li>Conhecer o conceito e a importância da Educação Corporativa, compreendendo como ela pode ser utilizada para o desenvolvimento do capital intelectual dos colaboradores.</li>
+<li>Entender os princípios de Lifelong Learning, Upkilling e Reskilling, e como aplicá-los para promover a satisfação e o desenvolvimento contínuo dos funcionários.</li>
+<li>Explorar a estrutura de Governança aplicada na Educação Corporativa, incluindo métodos para mensurar e avaliar os resultados dos programas de educação.</li>
+<li>Aplicar práticas e soluções inovadoras de aprendizagem, como o modelo 70:20:10, Andragogia, Gamificação, entre outras, para criar programas educacionais que atendam às necessidades da empresa e dos colaboradores.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão Ágil</strong>:</li>
+<ul><li>Compreender os princípios da Gestão Ágil e sua aplicação para melhorar a adaptabilidade e inovação.</li>
+<li>Implementar metodologias ágeis, como Scrum e Kanban, em projetos e processos empresariais.</li>
+<li>Fomentar a colaboração e auto-organização das equipes para decisões rápidas e eficazes.</li>
+<li>Utilizar ferramentas e métricas ágeis para monitorar e melhorar o desempenho dos projetos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Benchmarking em RH</strong>:</li>
+<ul><li>Compreender os fundamentos do benchmarking em RH e sua importância para a melhoria contínua dos processos e práticas de gestão de pessoas.</li>
+<li>Aprender a identificar e analisar métricas e indicadores de desempenho em RH, comparando-os com os padrões do setor para identificar oportunidades de melhoria.</li>
+<li>Desenvolver habilidades para coletar, interpretar e aplicar dados de benchmarking para otimizar recrutamento, retenção, treinamento e desenvolvimento de talentos.</li>
+<li>Explorar estratégias para implementar melhores práticas identificadas através do benchmarking, adaptando-as ao contexto e necessidades específicas da organização.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>People Analytics - RH orientado a dados</strong>:</li>
+<ul><li>Compreender os fundamentos de People Analytics e como ele pode ser utilizado para tomar decisões baseadas em dados na gestão de pessoas.</li>
+<li>Aprender a coletar, analisar e interpretar dados de RH para identificar tendências, padrões e insights que possam melhorar a eficiência e eficácia das práticas de RH.</li>
+<li>Desenvolver habilidades para utilizar ferramentas de análise de dados e métricas de desempenho em RH, transformando dados brutos em informações acionáveis.</li>
+<li>Explorar estratégias para implementar uma cultura orientada a dados no RH, promovendo a melhoria contínua e alinhamento com os objetivos estratégicos da organização</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Gestão</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Agile Coach</strong>:</li>
+<ul><li>O papel do Agile Coach e sua importância na promoção de metodologias ágeis dentro das equipes e da organização é importante. O Agile Coach é essencial para guiar a transição para práticas ágeis, ajudando as equipes a se tornarem mais adaptáveis e eficientes.</li>
+<li>Aprender técnicas e práticas para facilitar a adoção de frameworks ágeis, como Scrum e Kanban, promovendo a melhoria contínua e a eficiência das equipes. Essas metodologias ágeis são fundamentais para a entrega rápida e incremental de valor.</li>
+<li>Desenvolver habilidades para treinar e mentorar equipes, capacitando-as a serem autônomas, colaborativas e adaptáveis às mudanças. O Agile Coach atua como mentor, fornecendo suporte e orientação para que as equipes possam prosperar em um ambiente ágil.</li>
+<li>Explorar estratégias para medir e avaliar o impacto das práticas ágeis, utilizando métricas e feedback contínuo para ajustar e aprimorar os processos. Medir o desempenho é crucial para garantir que as práticas ágeis estejam alinhadas com os objetivos organizacionais e promovam a melhoria contínua.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Métricas Ágeis</strong>:</li>
+<ul><li>Essencial compreender a importância das métricas ágeis na avaliação do desempenho das equipes e na identificação de áreas de melhoria contínua, sendo que métricas bem definidas ajudam a garantir que as equipes estejam no caminho certo para alcançar seus objetivos.</li>
+<li>Aprender a utilizar diferentes tipos de métricas ágeis, como lead time, cycle time, throughput, e velocity, para obter uma visão abrangente do desempenho e da produtividade das equipes. Cada métrica oferece insights específicos que são essenciais para a gestão eficaz de projetos ágeis.</li>
+<li>Desenvolver habilidades para coletar, analisar e interpretar dados de métricas ágeis, transformando esses dados em insights acionáveis que possam orientar decisões estratégicas e operacionais. A análise correta dos dados permite ajustes precisos nos processos e práticas.</li>
+<li>Explorar estratégias para implementar e integrar métricas ágeis no dia a dia das equipes, promovendo uma cultura de transparência e melhoria contínua. A integração eficaz de métricas nas rotinas das equipes garante um monitoramento constante e ajustes ágeis conforme necessário.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Kanban e fluxo de trabalho</strong>:</li>
+<ul><li>Compreender os fundamentos do Kanban e como ele pode ser aplicado aos processos de RH para melhorar a eficiência e visibilidade das tarefas. O Kanban facilita a gestão de fluxos de trabalho complexos, garantindo que todas as atividades sejam acompanhadas e concluídas de maneira eficaz.</li>
+<li>Aprender a configurar e utilizar quadros Kanban para visualizar e gerenciar os processos de RH, como recrutamento, integração, treinamento e desenvolvimento. A visualização clara das tarefas ajuda a equipe de RH a priorizar e gerenciar melhor suas atividades diárias.</li>
+<li>Desenvolver habilidades para identificar e eliminar gargalos no fluxo de trabalho de RH, utilizando métricas e princípios de melhoria contínua. A análise constante do fluxo de trabalho permite ajustes rápidos e melhorias nos processos.</li>
+<li>Explorar estratégias para promover a cultura de transparência e colaboração na equipe de RH, incentivando o uso do Kanban para comunicação e coordenação efetiva das atividades. A colaboração e a transparência são cruciais para o sucesso de qualquer equipe, e o Kanban facilita esses aspectos ao fornecer uma plataforma visual compartilhada.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+<ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
+<li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
+<li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
+<li>Defina marcos e prazos realistas para o desenvolvimento e entrega.</li>
+<li>Comunique o roadmap de forma clara e transparente com todas as partes interessadas.</li>
+<li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
+<li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
+<li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Product Management</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos - Fundamentos</strong>:</li>
+<ul><li>Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.</li>
+<li>Definir visão clara e estratégia para o produto.</li>
+<li>Entender necessidades e preferências dos clientes.</li>
+<li>Especificar requisitos e funcionalidades do produto.</li>
+<li>Priorizar recursos com base no valor para o cliente e para o negócio.</li>
+<li>Analisar métricas e feedback para orientar decisões.</li>
+<li>Estar aberto a mudanças e ajuste a estratégia conforme necessário.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Product Discovery</strong>:</li>
+<ul><li>Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.</li>
+<li>Analisar o mercado para identificar tendências e oportunidades.</li>
+<li>Conduzie entrevistas para entender as necessidades dos usuários.</li>
+<li>Criar protótipos para validar ideias e conceitos com os usuários.</li>
+<li>Estudar os concorrentes para identificar lacunas e diferenciais.</li>
+<li>Testar hipóteses para validar a viabilidade do produto.</li>
+<li>Mapear as jornadas dos usuários para identificar pontos de dor.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos Digitais</strong>:</li>
+<ul><li>Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.</li>
+<li>Colocar as necessidades dos usuários no centro do processo de desenvolvimento.</li>
+<li>Definir uma visão clara e estratégia para o produto digital.</li>
+<li>Mapear e otimizar a jornada do usuário no produto.</li>
+<li>Coletar e analisar feedback dos usuários para melhorias.</li>
+<li>Adotar metodologias ágeis para entregas rápidas e iterativas.</li>
+<li>Utilizar dados para tomar decisões informadas sobre o produto.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

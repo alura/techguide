@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Java</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Lógica de Programação</strong>:</li>
+<ul><li>Aprender lógica de programação, fundamental para o desenvolvimento de software</li>
+<li>Conhecer as bases para se criar, analisar e resolver problemas computacionais de forma estruturada e eficiente</li>
+<li>Entender o que são tipos de dados</li>
+<li>Declarar variáveis, considerando os diferentes tipos</li>
+<li>Conhecer os operadores de atribuição e comparação</li>
+<li>Usar estruturas condicionais</li>
+<li>Usar estruturas de repetição e laços</li>
+<li>Usar funções, passando parâmetros e argumentos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Java - Fundamentos</strong>:</li>
+<ul><li>Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.</li>
+<li>Conhecer os tipos primitivos</li>
+<li>Declarar variáveis, considerando os diferentes tipos</li>
+<li>Usar estruturas condicionais (&#39;if&#39;, &#39;else&#39;)</li>
+<li>Conhecer os operadores de atribuição e comparação</li>
+<li>Usar estruturas de repetição e laços (&#39;while&#39;, &#39;for&#39;)</li>
+<li>Usar funções, passando parâmetros e argumentos</li>
+<li>Manipular métodos</li>
+<li>Manipular arrays e listas</li>
+<li>Obter dados de uma API</li>
+<li>Criar construtores</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos de Orientação a Objetos</strong>:</li>
+<ul><li>A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de &#39;objetos&#39; e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.</li>
+<li>Como funcionam objetos</li>
+<li>Criar e utilizar construtores</li>
+<li>O que são classes</li>
+<li>Criar e utilizar métodos</li>
+<li>Como funciona encapsulamento</li>
+<li>O que é herança</li>
+<li>O que é polimorfismo</li>
+<li>Como funcionam interfaces</li>
+<li>O que são abstrações</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Java - Manipulação de Erros</strong>:</li>
+<ul><li>O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.</li>
+<li>Tratar exceções pré-definidas</li>
+<li>Uso de &#39;try&#39; e &#39;catch&#39;</li>
+<li>Criar exceções específicas</li>
+<li>Fazer o processo de Debug</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Java - Coleções</strong>:</li>
+<ul><li>Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.</li>
+<li>Aprender os usos e diferenças entre List, Set e Map</li>
+<li>Aprender os usos e diferenças entre Equals e HashCode</li>
+<li>Saiba trabalhar com ArrayList, LinkedList ou Vector</li>
+<li>Classes Wrappers</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Java - Testes</strong>:</li>
+<ul><li>O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.</li>
+<li>Usar testes unitários</li>
+<li>Usar testes de integração</li>
+<li>Usar testes de comportamento (behavior)</li>
+<li>Usar mocks</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Java - Pacotes</strong>:</li>
+<ul><li>Um pacote (package) em Java é usado para agrupar classes relacionadas, de forma semelhante a uma pasta em um diretório de arquivos. Os pacotes são usados para evitar conflitos de nomes e para escrever um código de melhor manutenção.</li>
+<li>Use imports e organize o seu código através de packages</li>
+<li>Conhecer a java.lang</li>
+<li>Entender a imutabilidade e a classe String</li>
+<li>Entender a classe java.lang.Object</li>
+<li>Conhecer a java.io</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estruturas de Dados</strong>:</li>
+<ul><li>No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.</li>
+<li>Conhecer as principais estruturas de dados</li>
+<li>Implementar as principais estruturas de dados</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JVM</strong>:</li>
+<ul><li>Máquina virtual Java (em inglês, Java Virtual Machine, JVM) é um programa que carrega e executa os aplicativos Java, convertendo os bytecodes em código executável de máquina. A JVM é responsável pelo gerenciamento dos aplicativos, à medida que são executados. Graças à máquina virtual Java, os programas escritos em Java podem funcionar em qualquer plataforma de hardware e software que possua uma versão da JVM, tornando assim essas aplicações independentes da plataforma onde funcionam.</li>
+<li>Entender como funciona a máquina virtual do Java</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Java - Gerenciamento da Memória</strong>:</li>
+<ul><li>Em Java, o gerenciamento de memória é o processo de alocação e desalocação de objetos, chamado de gerenciamento de memória. Java faz o gerenciamento de memória automaticamente. Java usa um sistema de gerenciamento automático de memória chamado de Garbage Collector (coletor de lixo). Assim, não somos obrigados a implementar a lógica de gerenciamento de memória em nossa aplicação.</li>
+<li>Entender como funciona a memória e seu gerenciamento em Java</li>
+<li>Entender como funciona a memória o Garbage Collector</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Spring Framework</strong>:</li>
+<ul><li>O Spring é um framework open source para a plataforma Java. Trata-se de um framework não intrusivo, baseado nos padrões de projeto (design patterns) de inversão de controle (IoC) e injeção de dependência. No Spring o contêiner se encarrega de &quot;instanciar&quot; classes de uma aplicação Java e definir as dependências entre elas através de um arquivo de configuração em formato XML, inferências do framework, o que é chamado de auto-wiring ou ainda anotações nas classes, métodos e propriedades. Dessa forma, o Spring permite o baixo acoplamento entre classes de uma aplicação orientada a objetos.</li>
+<li>Entender o conceito de Injeção de Dependências</li>
+<li>Entender o padrão MVC</li>
+<li>Usar o Spring Data para manipular dados</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Spring Boot</strong>:</li>
+<ul><li>O Spring Boot é um framework de código aberto baseado em Java usado para criar microserviços com o Spring Framework. Ele é usado para construir aplicações Spring independentes e prontas para produção.</li>
+<li>Criar aplicações Spring standalone</li>
+<li>Usar os servidores HTTP embutidos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Build tools Java</strong>:</li>
+<ul><li>Uma build tool é um sistema que permite automatizar todas as tarefas rotineiras de um projeto de uma forma organizada e que evite que o desenvolvedor tenha que perder tempo. Em outras palavras, adicionar uma nova biblioteca, realização de testes, empacotamento e deploy, ou até mesmo, a compatibilidade entre as diversas IDEs são tarefas facilmente resolvidas com uma build tool.</li>
+<li>Conheça as principais ferramentas de build do Java, como Maven, Jenkins, Apache Ant, Gradle, etc., e como usá-las</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Java - Persistência</strong>:</li>
+<ul><li>O conceito de &quot;persistência de dados&quot; refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.</li>
+<li>Entender sobre JDBC e JPA</li>
+<li>Usar frameworks como Spring Data e Hibernate</li>
+<li>Comunicar-se com um banco de dados relacional</li>
+<li>Entender a diferença entre relacionamentos EAGER e LAZY</li>
+<li>Planejar queries com join fetch</li>
+<li>Encapsular o acesso em um DAO</li>
+<li>Entender como a memória funciona nessa situação</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Arquitetura de Microsserviços</strong>:</li>
+<ul><li>Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.</li>
+<li>Aprender o conceito de arquitetura planejada para microsserviços</li>
+<li>Realizar a comunicação usando APIs</li>
+<li>Melhorar a escalabilidade de um sistema</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Java - Concorrência</strong>:</li>
+<ul><li>Programação concorrente é um paradigma de programação para a construção de programas que fazem uso da execução simultânea de várias tarefas computacionais interativas, que podem ser implementadas como programas separados ou como um conjunto de threads criadas por um único programa.</li>
+<li>Executar tarefas simultaneamente</li>
+<li>Colocar tarefas para aguardar até que um determinado evento ocorra</li>
+<li>Entender como a memória funciona nessa situação</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Contêineres</strong>:</li>
+<ul><li>Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente. Gerenciamento de contêineres é uma área crucial na computação em nuvem e DevOps, que envolve o uso de tecnologias para automatizar o processo de criação, implantação, escalonamento e monitoramento de contêineres. Contêineres são unidades de software padronizadas que permitem aos desenvolvedores empacotar todas as dependências de um aplicativo (código, bibliotecas, configurações, etc.) em um único pacote. Isso permite que o aplicativo seja executado de forma consistente em qualquer ambiente de infraestrutura.</li>
+<li>A tecnologia de contêineres, como exemplificada pelo Docker, fornece um ambiente consistente e portátil para desenvolvimento, teste e implantação de aplicativos, o que é vital para o trabalho eficiente de engenharia de dados. Além disso, o Kubernetes, um sistema de orquestração de contêineres, permite o gerenciamento, a automação e a escalabilidade de aplicações baseadas em contêineres em ambientes de produção. Dominar esses conceitos e tecnologias possibilita a engenheiros de dados construir e manter pipelines de dados eficientes e confiáveis.</li>
+<li>O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.</li>
+<li>Isolar seu software para funcionar independentemente</li>
+<li>Implantar software em clusters</li>
+<li>Modularizar seu sistema em pacotes menores</li>
+<li>Conhecer a plataforma Docker</li>
+<li>Conhecer Kubernetes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Kafka</strong>:</li>
+<ul><li>O Apache Kafka é uma plataforma distribuída de transmissão de dados que é capaz de publicar, subscrever, armazenar e processar fluxos de registro em tempo real. Essa plataforma foi desenvolvida para processar fluxos de dados provenientes de diversas fontes e entregá-los a vários clientes.</li>
+<li>Utilizar o Kafka para comunicação assíncrona</li>
+<li>Criar microsserviços com Kafka</li>
+<li>Criar produtores e consumidores</li>
+<li>Entender como usar o Kafka para paralelismo e execução serializada</li>
+<li>Obter garantias relativas ao envio ou entrega das mensagens</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Infraestrutura</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+<ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
+<li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
+<li>Criar um repositório</li>
+<li>Clonar um repositório</li>
+<li>Fazer commit, push e pull de e para o repositório</li>
+<li>Reverter um commit</li>
+<li>Criar branches e pul requests</li>
+<li>Lidar com merge e conflitos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+<ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
+<li>Entender a diferença dos verbos HTTP</li>
+<li>Testar os requests e ver os status codes no navegador</li>
+<li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
+<li>Baixar uma imagem com WGET</li>
+<li>Fazer um post</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+<ul><li>JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.</li>
+<li>Criar um objeto</li>
+<li>Transformar um objeto em uma string</li>
+<li>Transformar uma string em objeto</li>
+<li>Manipular um objeto</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+<ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
+<li>Conhecer os principais comandos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+<ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
+<li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
+<li>Conhecer os maiores provedores de cloud</li>
+<li>Especializar-se em algum provedor</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Fundamentos</strong>:</li>
+<ul><li>SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.</li>
+<li>Conhecer os comandos mais comuns do SQL</li>
+<li>Usar SELECT para consultar uma tabela</li>
+<li>Usar INSERT para inserir dados em uma tabela</li>
+<li>Usar UPDATE para atualizar uma tabela</li>
+<li>Usar DELETE para remover dados de uma tabela</li>
+<li>Usar JOIN para conectar os dados de múltiplas tabelas</li>
+<li>Conhecer as cláusulas (FROM, ORDER BY, etc)</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Boas práticas</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SOLID</strong>:</li>
+<ul><li>O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Architecture</strong>:</li>
+<ul><li>A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Patterns</strong>:</li>
+<ul><li>Na engenharia de software, um &quot;padrão de projeto&quot; (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.</li>
+<li>Conhecer e aplicar os principais Design Patterns</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Code</strong>:</li>
+<ul><li>Aplicar técnicas simples que visam facilitar a escrita e leitura de um código</li>
+<li>Refatorar seu código para que fique mais claro</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos de Design Orientado a Domínio (Domain-Driven Design - DDD)</strong>:</li>
+<ul><li>O Design Orientado a Domínio (DDD) é uma abordagem ao projeto e desenvolvimento de software que é primeiramente informado pelos requisitos de negócios. Os componentes do programa (objetos, classes, matrizes, etc.) indicam a indústria, setor ou domínio empresarial em que o negócio opera.</li>
+<li>Modelar domínios de forma efetiva</li>
+<li>Basear projetos complexos em modelos do domínio</li>
+<li>Conhecer os blocos de construção de DDD</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Cybersecurity</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cryptography - Fundamentals</strong>:</li>
+<ul><li>Cryptography in cybersecurity is the conversion of data from a readable format into an encrypted format. Encrypted data can only be read or processed after it has been decrypted.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cybersecurity Framework</strong>:</li>
+<ul><li>The Cybersecurity Framework is a guidance guide for organizations - in any industry or community - that seek to improve cybersecurity risk management through the use of Frameworks. While the Cybersecurity Framework is not a one-size-fits-all approach to managing cybersecurity risks for organizations, it ultimately aims to reduce and better manage those risks. As such, this guide is intended for any and all organizations, regardless of industry or size.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Hacker Techniques</strong>:</li>
+<ul><li>Understanding the methodologies and techniques attackers use to perform reconnaissance as a pre-attack step, including how they use open source intelligence, network scanning, and target enumeration attacks to find the gaps in their network security.</li>
+<li>Using attacker techniques to assess the security of a target network, evaluating popular protocols and endpoints for Windows, Linux, and cloud destinations.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vulnerability assessment</strong>:</li>
+<ul><li>Framework techniques and tactics from various services and tools that provide a vulnerability scanning and management solution.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Firewalls, IDS and IPS</strong>:</li>
+<ul><li>Definitions and differences between network security devices, firewalls, intrusion prevention systems (IPS) and intrusion detection systems (IDS).</li>
+<li>A firewall allows traffic depending on a set of rules that have been configured. It is based on source, destination and port addresses. A firewall can deny any traffic that does not meet the specified criteria.</li>
+<li>IDS are passive monitoring system devices that monitor network traffic as it travels over the network, compare signature patterns, and trigger an alarm if suspicious activity or a known security threat is detected.</li>
+<li>IPS is an active device that prevents attacks by blocking them.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Digital Investigation - Fundamentals</strong>:</li>
+<ul><li>Digital Investigation is the use of science to investigate digital crimes and determine facts, which has emerged from the use and spread of digital systems such as computers and smartphones.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Password attack</strong>:</li>
+<ul><li>In cryptanalysis and security, password cracking is the process of recovering passwords from data that has been stored or transmitted by a computer system in encrypted form. A common approach (brute force attack) is to repeatedly try guesses for the password and compare them with an available cryptographic hash of the password.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Open-Source Intelligence</strong>:</li>
+<ul><li>OSINT (Open Source Intelligence) can be defined as a set of activities to collect, store and analyze information from public sources, basically any data about a company or person that can be found through Internet tools or OSINT frameworks, such as search engines.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Security Operations Center</strong>:</li>
+<ul><li>SOC (Security Operations Center) is the department that comes to plan and support the entire I.T. security strategy, monitoring, preventing, and remedying breaches, failures, and possible attacks, all in a proactive way.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Penetration Testing - Fundamentals</strong>:</li>
+<ul><li>Pentest (Penetration Testing) is the practice of testing a computer system, network, or Web application to find vulnerabilities that an attacker might exploit, simulating an attack against an organization&#39;s IT assets.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Endpoint security</strong>:</li>
+<ul><li>Endpoint security, or endpoint protection, is the cybersecurity approach to defending endpoints such as desktops, laptops, and mobile devices against malicious activity.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Metasploit - Attack and Analysis</strong>:</li>
+<ul><li>Metasploit is the world&#39;s most widely used penetration testing framework.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Web application - Security</strong>:</li>
+<ul><li>Web application security (also known as Web AppSec) is the idea of designing websites to function as expected, even when under attack. The concept involves a collection of security controls designed into a web application to protect its assets from potentially malicious agents.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Web application - Vulnerability</strong>:</li>
+<ul><li>Web application vulnerabilities involve a system flaw or weakness in a web-based application. They have existed for years, largely due to failure to validate or clean form entries, misconfigured web servers, and application design flaws, and can be exploited to compromise the security of the application. These vulnerabilities are not the same as other common types of vulnerabilities, such as network or asset. They arise because web applications need to interact with multiple users on multiple networks, and this level of accessibility is easily exploited by hackers.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Mobile Device Management</strong>:</li>
+<ul><li>Mobile device management refers to any tool or software designed to help administrators control and secure mobile devices such as smartphones and tablets in an organization. Mobile device management is an important part of enterprise mobility management and endpoint management, especially as more companies adopt BYOD (bring your own device) policies that allow employees to access company data, files, and applications on their personal devices.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SIEM e SOAR</strong>:</li>
+<ul><li>Security Information and Event management (SIEM) is software that aggregates and analyzes information from several different sources across the entire infrastructure.</li>
+<li>Security Orchestration, Automation, and Response (SOAR) will help you with threat and vulnerability management, security incident response, and security operation automation.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Server Hardening</strong>:</li>
+<ul><li>A proteção do servidor é um conjunto de disciplinas e técnicas que melhoram a segurança de um servidor &#39;em produção&#39;. Hardening é um requisito de estruturas de segurança em diversos frameworks.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud forensics</strong>:</li>
+<ul><li>Investigating data stored in the cloud can be a variety of approaches, from open source intelligence investigations (OSINT) to investigations of cloud accounts of participating individuals who disclose their login credentials (more often from victims and witnesses than suspects), to obtaining and analyzing collateral returns from cloud service providers to gain access to suspects&#39; accounts.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Data Recovery</strong>:</li>
+<ul><li>Data recovery is a software-driven process that allows you to recover and restore lost, deleted, inaccessible, corrupted, or damaged files so that you can get back to work quickly. As the business landscape, and our lives in general, become more dependent on data, the need to protect data systems is growing.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Container Security</strong>:</li>
+<ul><li>Container security is the process of combining security policies to ensure that the integrity of the container is protected. Container security is important because the container image contains all the components that will eventually run your application. If there are vulnerabilities lurking in the container image, the risk and potential severity of security problems during production increases.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Memory forensics</strong>:</li>
+<ul><li>Memory forensics (sometimes called memory analysis) refers to the analysis of volatile data in a computer&#39;s memory dump. Information security professionals perform memory forensics to investigate and identify attacks or malicious behavior that do not leave easily detectable traces on the hard drive data.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Network forensics</strong>:</li>
+<ul><li>Network forensics refers to the collection, monitoring, and analysis of network activities to discover the source of attacks, viruses, intrusions, or security breaches that occur on a network or in network traffic. As such, network forensics is considered along with mobile forensics or digital image forensics as residing under the umbrella of digital forensics.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>PowerShell scripting for security</strong>:</li>
+<ul><li>A hidden script can be malicious and difficult to detect with visual inspection during the script approval process. Visually review PowerShell scripts and use inspection tools to help detect suspicious script issues. These tools cannot always determine the intent of the PowerShell author, so they may draw attention to a suspicious script.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Network Security Architecture</strong>:</li>
+<ul><li>Network security prepares you for tasks such as protecting company data from theft, damage, disruption, and more. A network security professional will design and implement a secure architecture for network devices, as well as provide security support and ensure their integrity.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Threat Hunting</strong>:</li>
+<ul><li>Threat hunting is the practice of proactively looking for cyber threats that are lurking undetected in a network. Cyber threat hunting digs deep to find malicious actors in your environment that have made it past the initial endpoint security defenses.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Physical security</strong>:</li>
+<ul><li>Physical security is the protection of people, property, and physical assets from actions and events that could cause harm or loss. Although often overlooked in favor of cyber security, physical security is equally important.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Incident Response Management</strong>:</li>
+<ul><li>Incident response is a structured process that organizations use to identify and handle cyber security incidents. The response includes several stages, including incident preparation, detection and analysis of a security incident, containment, eradication and full recovery, and post-incident analysis and learning.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Malware analysis</strong>:</li>
+<ul><li>Malware analysis is the process of understanding the behavior and purpose of a suspicious file or URL. The output of the analysis helps in the detection and mitigation of the potential threat.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Software Application Security</strong>:</li>
+<ul><li>Application security describes the application-level security measures that aim to prevent data or code within the application from being stolen or hacked. It covers security considerations that occur during application development and design, but also involves systems and approaches to securing applications after they are deployed.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Zero Trust architecture</strong>:</li>
+<ul><li>Zero Trust is a network security model based on the philosophy that no person or device inside or outside an organization&#39;s network should be given access to connect to IT systems or services until they are authenticated and continuously verified.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud Security</strong>:</li>
+<ul><li>Cloud security, also known as cloud computing security, is a set of security measures designed to protect cloud-based infrastructure, applications, and data. These measures ensure user and device authentication, control access to data and resources, and protect data privacy. They also support regulatory data compliance.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Continuous Security - Automation and Monitoring</strong>:</li>
+<ul><li>Continuous security monitoring is an approach to security that involves automating a significant part of security management. This includes vulnerability detection, monitoring of cloud configurations, identities and their rights, and data security.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Systems and technologies</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Fundamentals</strong>:</li>
+<ul><li>Python is a high-level, general-purpose programming language that is widely used in web applications, software development, data science, and machine learning. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically typed and garbage-collected.</li>
+<li>Knowing the primitive types</li>
+<li>Declaring variables, considering the different types</li>
+<li>Using conditional structures (&#39;if&#39;, &#39;else&#39;)</li>
+<li>Knowing the assignment and comparison operators</li>
+<li>Using repetition structures and loops (&#39;while&#39;, &#39;for&#39;)</li>
+<li>Using functions, passing parameters and arguments</li>
+<li>Manipulating methods</li>
+<li>Manipulating arrays and lists</li>
+<li>Getting data from an API</li>
+<li>Creating constructors</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Computer Networking - Fundamentals</strong>:</li>
+<ul><li>A computer network is a mesh that interconnects thousands of computer systems for the transmission of data. Also known as nodes, these interconnected devices send, receive, and exchange data, voice, and video traffic, thanks to the hardware and software that make up the environment.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentals</strong>:</li>
+<ul><li>HTTP stands for Hyper Text Transfer Protocol. Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses.</li>
+<li>Understanding the difference between HTTP verbs</li>
+<li>Testing requests and checking the status codes in the browser</li>
+<li>Learning how to make a HTTP request on the command line with WGET</li>
+<li>Downloading an image with WGET</li>
+<li>Performing a POST</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentals</strong>:</li>
+<ul><li>Cloud, or cloud computing, is the distribution of computing services over the Internet using a pay-as-you-go pricing model. A cloud is composed of various computing resources, ranging from the computers themselves (or instances, in cloud terminology) to networks, storage, databases, and everything around them. In other words, everything that is normally needed to set up the equivalent of a server room, or even a complete data center, will be ready to use, configured, and run.</li>
+<li>Knowing the difference between IaaS, PaaS and SaaS</li>
+<li>Knowing the largest cloud providers</li>
+<li>Specializing in a specific provider of your choice</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Command Line - Fundamentals</strong>:</li>
+<ul><li>CLI is a command line program that accepts text input to execute operating system functions.</li>
+<li>Knowing the most important commands</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linux - Fundamentals</strong>:</li>
+<ul><li>Linux is a term popularly used to refer to operating systems that use the Linux Kernel. Distributions include the Linux Kernel as well as system software and libraries.</li>
+<li>Knowing the Linux directory system</li>
+<li>Compacting and uncompressing files</li>
+<li>Editing files in the console with VI</li>
+<li>Managing the processes running on the machine</li>
+<li>Knowing the environment variables and PATH</li>
+<li>Managing packages</li>
+<li>Performing remote communication with SSH and SCP</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Information Security</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Risk, threats and vulnerability management</strong>:</li>
+<ul><li>Risk management is the process of planning, organizing, and controlling resources and people to minimize damage or turn risks into opportunities. Predicting risks is an important practice, after all, this way it is possible to reverse what can go wrong and achieve positive results along the way.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Confidentiality, Integrity and Availability</strong>:</li>
+<ul><li>The 3 fundamental principles of information security. Any good information security management program should be designed to achieve the three information security principles commonly known as CIA (CIA stands for &quot;Confidentiality&quot;, &quot;Integrity&quot; and &quot;Availability&quot;).</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Identity and access management (IAM)</strong>:</li>
+<ul><li>Identity management, also known as identity and access management (IAM), is among the information security disciplines that enable the right individuals to access the right resources at the right time for the right reasons.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Security Awareness</strong>:</li>
+<ul><li>As cyber attacks become more prevalent and sophisticated, companies must rely more on their employees to ensure that they do not put data at risk or fall victim to ransomware. But employees are busier than ever. And, creating a culture of cybersecurity at work becomes more important and more challenging when employees work from home.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Data protection</strong>:</li>
+<ul><li>Data protection is the process of protecting important information in a way that ensures the confidentiality, integrity, and availability of that data.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Authentication and password security</strong>:</li>
+<ul><li>A strong password makes all the difference when it comes to data protection. After all, it is constructed in a way that makes it very difficult for it to be cracked by a hacker or mass attack. A password, you know, is a mechanism that allows a person access to a particular service.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

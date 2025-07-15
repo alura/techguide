@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Educação</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ensino e aprendizagem</strong>:</li>
+<ul><li>Entender as características modernas do processo de ensino-aprendizagem e suas implicações para métodos de estudo eficazes</li>
+<li>Utilizar técnicas de aprendizagem para auxiliar alunos na organização e retenção de informações</li>
+<li>Desenvolver um plano de estudos estruturado que integre técnicas de aprendizagem e estratégias modernas de ensino</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Educação à distância</strong>:</li>
+<ul><li>Aprender os conceitos fundamentais de ensino a distância (EAD) e mobile learning (m-learning), destacando suas vantagens e aplicações no contexto educacional.</li>
+<li>Desenvolver conteúdos educacionais para ensino remoto, utilizando práticas e ferramentas de curadoria digital</li>
+<li>Avaliar as vantagens e limitações do EAD e do m-learning no alcance de objetivos educacionais, propondo melhorias em um contexto específico</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Elaboração de conteúdos</strong>:</li>
+<ul><li>Aprender conceitos de planejamento de aula e como tornar as aulas mais interativas e envolventes</li>
+<li>Aplicar técnicas de ensino mais avançadas e utilizar o storytelling para melhorar a comunicação e a retenção de conteúdo nas aulas</li>
+<li>Desenvolver habilidades para criar experiências de aprendizagem personalizadas e avançar nas técnicas de planejamento e ensino interativo</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Accessibilidade na Educação</strong>:</li>
+<ul><li>Compreender os princípios e normas de acessibilidade digital em contextos educacionais.</li>
+<li>Aplicar práticas de acessibilidade digital para tornar conteúdos educacionais mais inclusivos.</li>
+<li>Identificar oportunidades de melhoria em conteúdos educacionais para promover a acessibilidade.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Métodos de ensino</strong>:</li>
+<ul><li>Aprender conceitos e princípios das metodologias ativas de aprendizagem, gamificação e heutagogia, e como essas abordagens podem ser aplicadas no processo educacional</li>
+<li>Implementar estratégias de ensino baseadas em metodologias ativas e gamificação, adaptando as abordagens de ensino ao perfil dos alunos, incluindo neurodiversidade e necessidades específicas de aprendizagem</li>
+<li>Desenvolver um plano de aula que integre as metodologias ativas, gamificação e princípios da andragogia, focando no estímulo da aprendizagem autônoma e no uso eficaz das tecnologias educacionais</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Educação contínua</strong>:</li>
+<ul><li>Aprender os conceitos de educação continuada e lifelong learning, destacando a importância do aprendizado contínuo para a adaptação em um mundo em constante mudança</li>
+<li>Integrar práticas de aprendizado contínuo no desenvolvimento profissional e educacional, criando um plano para adotar hábitos de aprendizagem ao longo da vida</li>
+<li>Avaliar a eficácia das práticas de educação continuada em diferentes contextos educacionais, sugerindo melhorias para fomentar a aprendizagem contínua</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Educação corporativa</strong>:</li>
+<ul><li>Aprender os conceitos-chave de educação corporativa, incluindo suas metas, estratégias de implementação e como diagnosticar as necessidades de treinamento dentro de uma organização</li>
+<li>Aplicar técnicas e estratégias de educação corporativa para desenvolver e engajar equipes no processo de aprendizagem contínua e cultura de aprendizado dentro das organizações</li>
+<li>Analisar a eficácia das práticas de educação corporativa, como a curva de aprendizagem e o engajamento de equipes, propondo melhorias para otimizar o desenvolvimento profissional dentro da empresa</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ferramentas de Acessibilidade</strong>:</li>
+<ul><li>Compreender as principais ferramentas de acessibilidade web e suas funcionalidades</li>
+<li>Implementar tecnologias assistivas em ambientes digitais de ensino</li>
+<li>Avaliar eficácia das ferramentas de acessibilidade para melhorar a experiência de estudantes com diferentes necessidades</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ferramentas de gestão</strong>:</li>
+<ul><li>Aprender as principais ferramentas de gestão e suas funcionalidades no contexto educacional</li>
+<li>Utilizar ferramentas como Trello ou Jira para planejar e acompanhar projetos educacionais</li>
+<li>Avaliar a eficácia de ferramentas de gestão para otimizar processos educacionais, considerando diferentes necessidades e contextos</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>IA na educação</strong>:</li>
+<ul><li>Aprender como a inteligência artificial pode ser aplicação na educação e como podem transformar o ensino e a aprendizagem</li>
+<li>Utilizar ferramentas de IA, como o ChatGPT, para personalizar a aprendizagem, criando estratégias de ensino que atendam às necessidades individuais dos alunos</li>
+<li>Avaliar o impacto da IA no processo educativo, identificando avanços significativos, desafios e as melhores práticas para implementar essas tecnologias de forma eficaz</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Aprendizagem organizacional</strong>:</li>
+<ul><li>Conhecer os fundamentos da aprendizagem organizacional, identificando seus pilares, benefícios e impacto na cultura corporativa</li>
+<li>Desenvolver estratégias para implementar a aprendizagem organizacional, utilizando conceitos e metodologias</li>
+<li>Avaliar os fatores que contribuem para o sucesso ou os desafios da implementação da aprendizagem organizacional em diferentes contextos empresariais</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão do Conhecimento</strong>:</li>
+<ul><li>Conhecer o conceito de sistemas de gestão de aprendizagem (LMS) e suas aplicações em contextos educacionais.</li>
+<li>Planejar um modelo de ensino utilizando princípios de aprendizagem ágil e ferramentas de gestão do conhecimento</li>
+<li>Avaliar a adequação de diferentes ferramentas e metodologias (como LMS e aprendizagem ágil) para atender às necessidades específicas de uma turma ou instituição</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Artificial Intelligence</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Tipos de inteligência artificial</strong>:</li>
+<ul><li>Conhecer diferentes tipos de inteligência artificial e seus exemplos</li>
+<li>Aprender como é o uso de IA generativa em atividades no dia a dia, explorando ferramentas como ChatGPT</li>
+<li>Comparar as diferentes formas de aprendizagem de IA e avaliar sua aplicação em contextos educacionais</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Chatbots e assistentes virtuais</strong>:</li>
+<ul><li>Compreender os fundamentos e principais  considerações éticas ao criar chatbots e assistentes virtuais.</li>
+<li>Desenvolver um chatbot básico utilizando uma API de IA, como GPT ou Claude, aplicando conceitos de programação e lógica de interação.</li>
+<li>Avaliar as funcionalidades e limitações de diferentes APIs de IA para o desenvolvimento de assistentes virtuais em contextos específicos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise de dados e relatórios</strong>:</li>
+<ul><li>Compreender  como a inteligência artificial pode ser utilizada como assistente em planilhas e relatórios.</li>
+<li>Utilizar IA em Excel para otimizar a busca de valores e realizar análises de dados básicas.</li>
+<li>Avaliar a eficácia da utilização de IA no Power BI e Excel para a criação de relatórios e análise de grandes volumes de dados.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Digital Content</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Marketing de Conteúdo</strong>:</li>
+<ul><li>Aprender ferramentas e práticas recomendadas para organizar e planejar a produção de conteúdo digital</li>
+<li>Criar um plano de produção de conteúdo digital que integre estratégias de marketing e boas práticas de redação</li>
+<li>Avaliar a eficácia de conteúdos produzidos em diferentes formatos (texto e vídeo) com base em estratégias de marketing e engajamento do público</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ferramentas de criação de conteúdo</strong>:</li>
+<ul><li>Reconhecer os princípios básicos de design para criação de conteúdos educacionais visuais.</li>
+<li>Criar apresentações de alto impacto para contextos educacionais, utilizando ferramentas e estratégias aprendidas.</li>
+<li>Avaliar a eficácia de materiais visuais criados para conteúdos educacionais, com base nos princípios de design e no impacto no engajamento dos alunos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design instrucional</strong>:</li>
+<ul><li>Identificar os conceitos e etapas principais do design instrucional no contexto de EAD</li>
+<li>Desenvolver um planejamento inicial de design instrucional para cursos</li>
+<li>Avaliar a qualidade e a eficácia de um conteúdo educacional existente com base nos princípios do design instrucional</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

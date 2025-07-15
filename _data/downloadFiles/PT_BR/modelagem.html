@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Modelagem 3D</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Fundamentos</strong>:</li>
+<ul><li>Os fundamentos da modelagem 3D cobrem conceitos básicos, como vértices, arestas e faces, além da estrutura topológica. Esses conhecimentos são essenciais para criar formas em softwares 3D, garantir boa usabilidade para animação e renderização, e evitar erros comuns.</li>
+<li>Conceito de espaço 3D</li>
+<li>Conceitos de escala e proporção nos modelos</li>
+<li>Uso de referências para criar modelos precisos</li>
+<li>Erros comuns na modelagem e como evitá-los</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Box Modeling</strong>:</li>
+<ul><li>Box Modeling é uma técnica de modelagem 3D que usa formas simples, como cubos ou esferas, para criar objetos mais complexos. É ideal para iniciantes, pois oferece um processo intuitivo de subdivisão, extrusão e refinamento, permitindo o controle total do design do modelo.</li>
+<li>Escolha das formas básicas para iniciar um modelo</li>
+<li>Manipulação de vértices, arestas e faces</li>
+<li>Refinamento de formas para suavizar superfícies</li>
+<li>Uso de simetria para otimizar o processo</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Composição</strong>:</li>
+<ul><li>Composição em cores envolve o uso estratégico do círculo cromático e da psicologia das cores para criar harmonia visual e transmitir emoções. Aprenda a selecionar paletas, equilibrar tons e aplicar contrastes para enriquecer suas criações artísticas ou designs.</li>
+<li>Fundamentos do círculo cromático</li>
+<li>Harmonia entre cores</li>
+<li>Significados psicológicos das cores</li>
+<li>Teoria de contraste e equilíbrio cromático</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Modelagem Poligonal</strong>:</li>
+<ul><li>A modelagem poligonal usa polígonos para formar objetos 3D, sendo a base de muitos workflows. Essa técnica permite criar modelos de diferentes níveis de detalhe, desde low-poly, para jogos, até high-poly, para animações e renders realistas.</li>
+<li>Conceito de polígonos e como eles formam modelos 3D</li>
+<li>Técnicas de subdivisão para maior detalhamento</li>
+<li>Como evitar distorções na malha poligonal</li>
+<li>Construção de formas complexas com polígonos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Texturização</strong>:</li>
+<ul><li>A texturização é o processo de aplicar detalhes visuais em modelos 3D, como cores, padrões e materiais. Isso envolve técnicas como UV Mapping, criação de mapas de normal e especular, e pintura digital, que dão realismo e personalidade aos modelos.</li>
+<li>Técnicas de aplicação de texturas em 3D</li>
+<li>Pintura manual de texturas no Blender</li>
+<li>Como criar mapas de normal para detalhes extras</li>
+<li>Uso de mapas de especularidade para reflexos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Animação</strong>:</li>
+<ul><li>A animação em 3D combina movimentos realistas e topologia limpa para dar vida aos modelos. Inclui rigging, que cria esqueleto e controles, e técnicas para evitar deformações incorretas, essenciais para personagens e objetos animados.</li>
+<li>Criação de esqueleto (armature) para modelos</li>
+<li>Princípios básicos de animação - timing e espaçamento</li>
+<li>Planejamento de topologia para rigging eficiente</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Animação</strong>:</li>
+<ul><li>A animação em 3D combina movimentos realistas e topologia limpa para dar vida aos modelos. Inclui rigging, que cria esqueleto e controles, e técnicas para evitar deformações incorretas, essenciais para personagens e objetos animados.</li>
+<li>Criação de esqueleto (armature) para modelos</li>
+<li>Princípios básicos de animação - timing e espaçamento</li>
+<li>Planejamento de topologia para rigging eficiente</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Poly by Poly</strong>:</li>
+<ul><li>Poly by Poly é uma técnica de modelagem que constrói malhas manualmente, vértice por vértice, ou face por face. Ideal para precisão em projetos complexos, permite criar topologias otimizadas e modelar objetos detalhados e realistas.</li>
+<li>Construção de malhas a partir de vértices</li>
+<li>Criação de formas complexas com precisão</li>
+<li>Comparação entre Poly by Poly e Box Modeling</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Desenho</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estrutura visual</strong>:</li>
+<ul><li>A composição organiza elementos no desenho para criar impacto visual e equilíbrio. Inclui técnicas de enquadramento, uso de perspectiva e escolha de pontos focais para guiar o olhar do espectador.</li>
+<li>Combinação de elementos grandes e pequenos</li>
+<li>Enquadramento para maior impacto narrativo</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Anatomia</strong>:</li>
+<ul><li>A anatomia em desenho foca na estrutura do corpo humano e suas proporções. Dominar torso, membros e articulações é essencial para criar figuras realistas ou estilizadas com boa movimentação.</li>
+<li>Estrutura básica do torso humano.</li>
+<li>Proporções e detalhes dos braços.</li>
+<li>Técnicas para desenhar mãos expressivas.</li>
+<li>Anatomia e movimento dos membros inferiores.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Acabamento</strong>:</li>
+<ul><li>Os acabamentos são a etapa final do desenho, onde detalhes, texturas e sombreamento são ajustados para dar profundidade e polimento. Técnicas como blending, ajustes de linha e iluminação elevam a qualidade do trabalho.</li>
+<li>Adição de texturas para enriquecer superfícies</li>
+<li>Finalização com linhas limpas e precisas</li>
+<li>Ajuste de contraste para destacar áreas-chave</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Design de Jogos</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Personagens</strong>:</li>
+<ul><li>Personagens em pixel art trazem identidade aos jogos. Técnicas para criar avatares, sprites animados e poses dinâmicas garantem personalidades marcantes e jogabilidade clara.</li>
+<li>Técnicas de simplificação sem perder detalhes</li>
+<li>Animações fundamentais - idle, walk e jump</li>
+<li>Design de acessórios e trajes</li>
+<li>Expressões faciais com poucos pixels</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cenários e recursos</strong>:</li>
+<ul><li>Cenários em jogos pixel art combinam arte detalhada com jogabilidade. Para endless runners, o foco está em criar paisagens que fluam de maneira infinita e variada, sem perder coesão visual.</li>
+<li>Planejamento de cenários para jogabilidade contínua</li>
+<li>Criação de tiles para composição modular</li>
+<li>Design de elementos que guiam o jogador</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Animação</strong>:</li>
+<ul><li>A animação em jogos pixel art transforma personagens e objetos em elementos vivos. Técnicas como frame-by-frame e timing são essenciais para criar movimentos fluidos e expressivos.</li>
+<li>Planejamento de movimentos para animações fluídas.</li>
+<li>Uso de frames para criar transições suaves</li>
+<li>Ciclos de caminhada e corrida</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

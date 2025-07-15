@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Node.js</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Fundamentals</strong>:</li>
+<ul><li>JavaScript is the world&#39;s most popular programming language and is one of the core technologies of the World Wide Web, alongside HTML and CSS. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles.</li>
+<li>Knowing the primitive types</li>
+<li>Declaring variables, considering the difference between &#39;var&#39;, &#39;let&#39; and &#39;const</li>
+<li>Using conditional structures (&#39;if&#39;, &#39;else&#39;)</li>
+<li>Know the assignment and comparison operators (&#39;=&#39;, &#39;==&#39;, &#39;===&#39;)</li>
+<li>Using repetition structures and loops (&#39;while&#39;, &#39;for&#39;)</li>
+<li>Using functions, passing parameters and arguments</li>
+<li>Manipulating arrays and lists</li>
+<li>Getting data from an API</li>
+<li>Making asynchronous calls using &#39;Async/Await&#39;, &#39;Promise&#39;, etc</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Node.js - Fundamentals</strong>:</li>
+<ul><li>Node.js is a JavaScript execution environment that allows you to run applications developed with the language autonomously, without depending on a browser.</li>
+<li>Getting to know blocking and non-blocking operations</li>
+<li>Learning the concept of event loops</li>
+<li>Learning how to use Node.js libraries, such as &#39;net&#39;, &#39;fs&#39;, &#39;http&#39;, &#39;path&#39;, among others</li>
+<li>Understanding how Timers work</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Callbacks and Promises</strong>:</li>
+<ul><li>A Promise is a proxy for a value not necessarily known when the promise is created. This lets asynchronous methods return values like synchronous methods - instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.</li>
+<li>A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.</li>
+<li>An async function is a function declared with the async keyword, and the await keyword is permitted within it. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.</li>
+<li>Understanding the concept of asynchronous programming</li>
+<li>Writing asynchronous code understanding the concept of promises in JavaScript</li>
+<li>Using JavaScript methods, keywords and objects for handling promises like &#39;Async/Await&#39;, &#39;.then()&#39;, &#39;Promise&#39;, etc</li>
+<li>Learning in which situations you need to use asynchronous programming</li>
+<li>Calling APIs with <code>fetch()</code></li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Error handling</strong>:</li>
+<ul><li>Error handling refers to the response and recovery procedures from error conditions present in a software application. In other words, it is the process comprised of anticipation, detection and resolution of application, programming or communication errors.</li>
+<li>Knowing and handling the most common exceptions</li>
+<li>Knowing the types of errors and in which situations they can occur</li>
+<li>Using &#39;try&#39; and &#39;catch&#39; for error handling</li>
+<li>Learning on what occasions and how to use <code>throw</code></li>
+<li>Creating specific exceptions according to your application&#39;s needs</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Object-oriented Programming Concepts</strong>:</li>
+<ul><li>Object-oriented programming (OOP) is a programming paradigm based on the concept of &#39;objects&#39;, which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods). A common feature of objects is that procedures (or methods) are attached to them and can access and modify the object&#39;s data fields. Some of the main concepts are classes and instances, inheritance, and encapsulation.</li>
+<li>How objects work</li>
+<li>Creating and using constructors</li>
+<li>What classes are</li>
+<li>Creating and using Methods</li>
+<li>How encapsulation works</li>
+<li>What inheritance is</li>
+<li>What polymorphism is</li>
+<li>How interfaces work</li>
+<li>What abstractions are</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Node.js - Testing</strong>:</li>
+<ul><li>Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.</li>
+<li>Using unit tests</li>
+<li>Using integration testing</li>
+<li>Using behavioral testing</li>
+<li>Using mocks</li>
+<li>Learn the concepts of BDD (Behavior-Driven Development) and TDD (Test-Driven Development)</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SOLID</strong>:</li>
+<ul><li>SOLID has five principles that are considered best practices in software development that help programmers write cleaner code by separating responsibilities, reducing docking, easing refactoring, and encouraging code reuse.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Node.js - Express</strong>:</li>
+<ul><li>Express is a flexible Node.js web application framework that provides a robust feature set for web and mobile applications.</li>
+<li>Using the Express framework to build REST APIs with Node.js</li>
+<li>Managing requests for different HTTP verbs on different URLs</li>
+<li>Defining ports that will be used for connection and the location of the templates that are used to render the response</li>
+<li>Creating route handlers using the &#39;router&#39; method</li>
+<li>Getting to know the &#39;Router&#39; libraries and their HTTP verbs, such as &#39;get&#39;, &#39;post&#39;, &#39;put&#39;, etc</li>
+<li>Defining endpoints with route paths</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Node.js - ORM</strong>:</li>
+<ul><li>Object-Relational Mapping (ORM) is a technique used to map object-oriented systems to relational databases, where the database tables are represented in classes and the table records would be instances of these classes.</li>
+<li>Understanding what ORMs are and what they are used for</li>
+<li>Knowing SQL and its database managers</li>
+<li>Working with Sequelize, an ORM used with Node.js</li>
+<li>Knowing other Node.js ORMs, like Prisma</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Node.js - Authentication and Tokens</strong>:</li>
+<ul><li>JSON Web Tokens (JWT) are an open, industry standard RFC 7519 method for representing claims securely between two parties.</li>
+<li>Building an authentication system using tokens</li>
+<li>Understanding how JSON Web Tokens (JWT) work</li>
+<li>Building an allowlist to store opaque tokens</li>
+<li>Implementing methods for updating tokens</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>TypeScript - Fundamentals</strong>:</li>
+<ul><li>TypeScript is a strongly typed programming language that builds on JavaScript.</li>
+<li>Understanding in depth what types are and the importance of typed programming</li>
+<li>Learning what TypeScript is, why it was created, how it works and its relationship with JavaScript</li>
+<li>Knowing the TypeScript tools (integration with the code editor, static checker and compiler)</li>
+<li>Writing code in TypeScript using its tools (interfaces, enum, decorators, etc.)</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Nest.js - Fundamentals</strong>:</li>
+<ul><li>NestJS is a Node framework with full TypeScript support that runs on top of HTTP frameworks like ExpressJS or Fastify. It uses many elements of object-oriented programming and a lot of TypeScript functionality.</li>
+<li>Learning what NestJS is and why it is used</li>
+<li>Using specific NestJS features, such as providers, modules and controllers</li>
+<li>Developing APIs using NestJS</li>
+<li>Using the Nest.js CLI</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Microservices architecture</strong>:</li>
+<ul><li>Microservices are an architectural approach in which software consists of small independent services that communicate with each other and are organized according to their business domains.</li>
+<li>Learning the concept of planned architecture for microservices</li>
+<li>Performing communication using APIs</li>
+<li>Improving the scalability of a system</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Containers</strong>:</li>
+<ul><li>Containers are software packages that contain all the elements needed to run in any environment.</li>
+<li>Kubernetes (also known as k8s or “kube”) is an open source container orchestration platform that automates many of the manual processes involved in deploying, managing, and scaling containerized applications.</li>
+<li>Isolating your software to run independently</li>
+<li>Deploying software in clusters</li>
+<li>Modularizing your system into smaller packages</li>
+<li>Getting to know the Docker platform</li>
+<li>Getting to know Kubernetes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>WebSockets</strong>:</li>
+<ul><li>The WebSocket API is an advanced technology that makes it possible to open a two-way interactive communication session between the user&#39;s browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to poll the server for a reply.</li>
+<li>Getting to know the WebSocket protocol and its use in client-server communication</li>
+<li>Learning about the various uses of WebSockets on the web</li>
+<li>Creating applications that use WebSockets with Node.js APIs and libraries</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>GraphQL</strong>:</li>
+<ul><li>GraphQL is a new API standard that provides a more efficient, powerful and flexible alternative to REST. It was developed and open-sourced by Facebook and is now maintained by a large community of companies and individuals from all over the world.</li>
+<li>Understanding how GraphQL is used in API development</li>
+<li>Creating APIs using GraphQL libraries and frameworks</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Apollo Client</strong>:</li>
+<ul><li>Apollo Client is a comprehensive state management library for JavaScript that enables you to manage both local and remote data with GraphQL.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Infrastructure and good practices</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git &amp; GitHub - Fundamentals</strong>:</li>
+<ul><li>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</li>
+<li>GitHub is a hosting service for software development and version control using Git.</li>
+<li>Creating a repository</li>
+<li>Cloning a repository</li>
+<li>Committing, pushing and pulling to and from the repository</li>
+<li>Reversing a commit</li>
+<li>Creating branches and pull requests</li>
+<li>Handling merge and conflicts</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentals</strong>:</li>
+<ul><li>HTTP stands for Hyper Text Transfer Protocol. Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses.</li>
+<li>Understanding the difference between HTTP verbs</li>
+<li>Testing requests and checking the status codes in the browser</li>
+<li>Learning how to make a HTTP request on the command line with WGET</li>
+<li>Downloading an image with WGET</li>
+<li>Performing a POST</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Patterns</strong>:</li>
+<ul><li>In software engineering, a Design Pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is a description or template for how to solve a problem that can be used in many different situations. Design Patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.</li>
+<li>Getting familiarized with and applying the main Design Patterns</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Command Line - Fundamentals</strong>:</li>
+<ul><li>CLI is a command line program that accepts text input to execute operating system functions.</li>
+<li>Knowing the most important commands</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentals</strong>:</li>
+<ul><li>Cloud, or cloud computing, is the distribution of computing services over the Internet using a pay-as-you-go pricing model. A cloud is composed of various computing resources, ranging from the computers themselves (or instances, in cloud terminology) to networks, storage, databases, and everything around them. In other words, everything that is normally needed to set up the equivalent of a server room, or even a complete data center, will be ready to use, configured, and run.</li>
+<li>Knowing the difference between IaaS, PaaS and SaaS</li>
+<li>Knowing the largest cloud providers</li>
+<li>Specializing in a specific provider of your choice</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Front-end</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTML - Fundamentals</strong>:</li>
+<ul><li>HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.</li>
+<li>Learning which tags are required for basic HTML</li>
+<li>Creating a text paragraph</li>
+<li>Displaying an image</li>
+<li>Knowing the difference between &#39;h1&#39;, &#39;h2&#39;, &#39;h3&#39;, etc.</li>
+<li>Creating a hyperlinked text</li>
+<li>Creating a form with relevant fields</li>
+<li>Creating an ordered or unordered list of items</li>
+<li>Creating a list of items within a dropdown list</li>
+<li>Linking to a CSS file</li>
+<li>Creating a table</li>
+<li>Adding IDs and classes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CSS - Fundamentals</strong>:</li>
+<ul><li>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS can be used for very basic document text styling — for example, for changing the color and size of headings and links. It can be used to create a layout — for example, turning a single column of text into a layout with a main content area and a sidebar for related information. It can even be used for effects such as animation.</li>
+<li>Learning the visual structure of a page, with &#39;margin&#39; and &#39;padding&#39;</li>
+<li>Establishing the size with &#39;width&#39; and &#39;height&#39;</li>
+<li>Learning about the position of an element (&#39;static&#39;, &#39;relative&#39; or &#39;absolute&#39;)</li>
+<li>Learning about the display of an element (&#39;block&#39;, &#39;inline&#39;, &#39;inline-block&#39;)</li>
+<li>Learning how to position images in relation to text</li>
+<li>Learning about alignment</li>
+<li>Learning about font style</li>
+<li>Learning the differences and advantages of using the different units of measurement in CSS (%, relative, etc)</li>
+<li>Connecting to the elements (IDs, classes) of an HTML file</li>
+<li>Changing the characteristics of an element when the mouse hovers over it</li>
+<li>Learning box-sizing</li>
+<li>Learning Flexbox</li>
+<li>Learning Grid</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>DOM - Fundamentals</strong>:</li>
+<ul><li>The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page.</li>
+<li>Understanding how the DOM tree works</li>
+<li>Accessing and manipulating HTML and CSS elements</li>
+<li>Accessing the parents and children of an element</li>
+<li>Inserting a new element to the tree</li>
+<li>Removing an element from the tree</li>
+<li>Waiting for an event on a certain page element using addEventListener()</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Javascript - Accessibility</strong>:</li>
+<ul><li>Web accessibility is the inclusive practice of ensuring there are no barriers that prevent interaction with, or access to, websites by people with physical disabilities, situational disabilities, and socio-economic restrictions on bandwidth and speed.</li>
+<li>Writing code with accessibility in mind</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SEO Strategies</strong>:</li>
+<ul><li>Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines.</li>
+<li>Choosing keywords</li>
+<li>Understanding how Google ranks pages</li>
+<li>Knowing the ranking factors</li>
+<li>Performing Link Building</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

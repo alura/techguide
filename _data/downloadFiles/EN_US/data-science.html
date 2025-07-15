@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Data Science</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Data Science - Fundamentals</strong>:</li>
+<ul><li>Data Science is the act of using algorithms and systems to extract, organize, and analyze data from various sources in order to detect patterns and make business decisions. The application areas are endless, such as in business, biology, medicine, engineering, etc.</li>
+<li>Knowing the concept of Data Mining</li>
+<li>Learning the main functions, such as &#39;describe&#39;, &#39;info&#39;, etc</li>
+<li>Understanding the role of visualizations such as histograms and boxplots</li>
+<li>Knowing what nominal and ordinal categorical variables are</li>
+<li>Exploring data in Python with Pandas, Matplotlib, Seaborn and Numpy libraries</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Feature Engineering</strong>:</li>
+<ul><li>Feature engineering refers to the process of using domain knowledge to select and transform the most relevant variables from raw data when creating a predictive model using machine learning or statistical modeling, in order to improve the performance of Machine Learning algorithms.</li>
+<li>Generating new variables from the available data</li>
+<li>Transforming raw data into characteristics</li>
+<li>Highlighting problems with predictive models</li>
+<li>Improving model accuracy for new data</li>
+<li>Selecting and creating features using Pandas and Scikit-learn libraries</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Data Extraction and Processing</strong>:</li>
+<ul><li>Data extraction is the process of collecting or retrieving disparate types of data from a variety of sources, many of which may be poorly organized or completely unstructured.</li>
+<li>Obtaining the data to be analyzed</li>
+<li>Treating the obtained data, transforming it, changing its structure and values in order to make the database more coherent and ensure that the data to be worked on is in the best conditions to be analyzed</li>
+<li>Using the Pandas and Scikit-learn libraries to treat the data</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python for Data Science</strong>:</li>
+<ul><li>Python is a high-level interpreted programming language that supports multiple programming paradigms, such as imperative, object-oriented, and functional. It is a language with dynamic typing and automatic memory management.</li>
+<li>Learning Python programming logic</li>
+<li>Learning the language fundamentals such as variables, functions, lists, conditionals and imports</li>
+<li>Creating data analyses</li>
+<li>Using Matplotlib to generate graphs</li>
+<li>Using and manipulating lists to group data</li>
+<li>Knowing the NumPy library</li>
+<li>Knowing the Pandas library</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Jupyter &amp; Colab notebooks</strong>:</li>
+<ul><li>Jupyter Notebook and Google Colaboratory are Notebooks that allow the creation of text blocks and code blocks</li>
+<li>Notebooks make it easy to write Data Science projects, because you can see the result of the execution right after the code snippet</li>
+<li>Google Colaboratory allows you to write and execute Python code directly in the browser, with little to no configuration required</li>
+<li>These tools make it easy to share projects among the team</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>R for Data Science</strong>:</li>
+<ul><li>R is a programming language commonly used in computational statistics and data analysis.</li>
+<li>Learning to analyze, clean and visualize data</li>
+<li>Creating graphs</li>
+<li>Joining databases</li>
+<li>Drawinging statistical summaries</li>
+<li>Learning predictive models in R</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Statistics and Math - Fundamentals</strong>:</li>
+<ul><li>Equations, Functions, and Limits</li>
+<li>Logarithms</li>
+<li>Matrices, determinants, vectors and vector space</li>
+<li>Derivatives and integrals</li>
+<li>Difference between mean, median and mode</li>
+<li>Frequency distribution</li>
+<li>Variance and standard deviation</li>
+<li>Binomial, Poisson and normal distributions</li>
+<li>Confidence level and confidence interval</li>
+<li>Sampling techniques</li>
+<li>Linear regression</li>
+<li>Time series</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Data Visualization</strong>:</li>
+<ul><li>Data visualization is a contemporary expression of visual communication that consists of the visual representation of data.</li>
+<li>Mapping abstract data into visual representations</li>
+<li>Visually representing data that is present in our real world</li>
+<li>Using Python, Matplotlib and Seaborn to generate data visualizations</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Fundamentals</strong>:</li>
+<ul><li>Machine Learning is a subfield of Engineering and Computer Science that evolved from the study of pattern recognition and the theory of computational learning in artificial intelligence.</li>
+<li>Supervised Learning</li>
+<li>Using classification algorithms</li>
+<li>Using regression algorithms</li>
+<li>Using Scikit-learn to create machine learning models</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Unsupervised Learning</strong>:</li>
+<ul><li>Unsupervised learning, also known as unsupervised machine learning, uses machine learning algorithms to analyze and cluster unlabeled datasets. These algorithms discover hidden patterns or data groupings without the need for human intervention.</li>
+<li>Clustering is the set of data mining techniques that aim to automatically group data according to their degree of similarity.</li>
+<li>Knowing exploratory analysis</li>
+<li>Using K-means, DBSCAN and Mean shift methods to cluster unclassified data</li>
+<li>Evaluating the quality of a clustering</li>
+<li>Parameterizing clustering methods using the maximum silhouette coefficient</li>
+<li>Understanding the mathematics behind the Silhouette, Davies Bouldin and Calinski Harabasz validation metrics</li>
+<li>Knowing dimensionality reduction techniques</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Model Evaluation</strong>:</li>
+<ul><li>Model Evaluation is the process that uses metrics to help us analyze whether a trained model will perform well in predicting when exposed to new data sets.</li>
+<li>Knowing different strategies for model evaluation and optimization</li>
+<li>Using a pipeline for training and validation</li>
+<li>Knowing the main metrics for evaluating machine learning models</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Fundamentals</strong>:</li>
+<ul><li>Structured Query Language (SQL) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.</li>
+<li>Knowing the most common SQL commands</li>
+<li>Using SELECT to query a table</li>
+<li>Using INSERT to insert data into a table</li>
+<li>Using UPDATE to update a table</li>
+<li>Using DELETE to remove data from a table</li>
+<li>Using JOIN to connect data from multiple tables</li>
+<li>Knowing the clauses (FROM, ORDER BY, etc.)</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Web Scraping</strong>:</li>
+<ul><li>Web scraping or web data scraping is the extraction of data from websites.</li>
+<li>Using BeautifulSoup and Python to collect data</li>
+<li>Searching and browsing the HTML</li>
+<li>Accessing the content and attributes of HTML tags</li>
+<li>Building datasets with scraping results</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Statistical Tests</strong>:</li>
+<ul><li>Statistical tests are used to examine relationships between variables and test hypotheses.</li>
+<li>Creating confidence intervals for samples</li>
+<li>Comparing groups of samples</li>
+<li>Performing statistical tests</li>
+<li>Designing experiments to collect data</li>
+<li>Proposing mathematical models to understand a given problem</li>
+<li>Building color maps to aid data interpretation</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Deep Learning</strong>:</li>
+<ul><li>Deep Learning is a branch of Machine Learning based on a set of algorithms that attempt to model high-level abstractions of data using a deep graph with multiple processing layers, composed of various linear and nonlinear transformations.</li>
+<li>Building and training models with Keras</li>
+<li>Building and training models with Tensorflow</li>
+<li>Selecting the layers of a model</li>
+<li>Classifying images</li>
+<li>Understanding the concepts of weights and biases</li>
+<li>Neural networks for regression</li>
+<li>Understanding the concept of recurrent networks</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Reinforcement Learning</strong>:</li>
+<ul><li>Reinforcement Learning is an area of Machine Learning that is concerned with how intelligent agents should take action in an environment in order to maximize the notion of cumulative reward.</li>
+<li>Understanding the concepts of agent and reward</li>
+<li>Understanding the difference between positive and negative reinforcement</li>
+<li>Knowing the Markov Decision Process model</li>
+<li>Understanding the concept of Feedback</li>
+<li>Using the Q-learning algorithm</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Computer Vision</strong>:</li>
+<ul><li>Computer Vision is an interdisciplinary scientific field that deals with how computers can gain high-level knowledge from digital images or videos. From an engineering perspective, it seeks to understand and automate tasks that the human visual system can do.</li>
+<li>Extracting regions of interest from an image</li>
+<li>Normalizing and pre-processing image data</li>
+<li>Building classifiers for face recognition</li>
+<li>Extracting regions of the human face based on facial landmarks</li>
+<li>Analyzing different conditions of each component of the human face</li>
+<li>Using OpenCV</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Natural Language Processing</strong>:</li>
+<ul><li>Natural Language Processing (NLP) is a subfield of artificial intelligence and linguistics that studies the problems of automatic generation and understanding of natural human languages.</li>
+<li>Sentiment Analysis</li>
+<li>Creating visualizations to facilitate the analysis of textual data</li>
+<li>Knowing the NLTK and Scikit-Learn libraries</li>
+<li>Normalizing texts</li>
+<li>Using TF-IDF and Ngrams to improve classification</li>
+<li>Using SKlearn</li>
+<li>Using Regex in PLN</li>
+<li>Knowing Word2Vec</li>
+<li>Combining word vectors to represent texts and classify them</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Cloud, Big Data and Systems</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Big Data and Data Engineering</strong>:</li>
+<ul><li>Big data is the area of knowledge that studies how to process, analyze, and derive information from data sets that are too large to be analyzed by traditional systems.</li>
+<li>Data engineering involves the development and organization of processes for collecting, storing, and transforming large-scale data.</li>
+<li>Creating a data pipeline</li>
+<li>Knowing Apache Airflow</li>
+<li>Knowing Apache Spark</li>
+<li>Knowing the Data Lake concept</li>
+<li>Interacting with servers in the cloud</li>
+<li>Creating Spark applications</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentals</strong>:</li>
+<ul><li>Cloud, or cloud computing, is the distribution of computing services over the Internet using a pay-as-you-go pricing model. A cloud is composed of various computing resources, ranging from the computers themselves (or instances, in cloud terminology) to networks, storage, databases, and everything around them. In other words, everything that is normally needed to set up the equivalent of a server room, or even a complete data center, will be ready to use, configured, and run.</li>
+<li>Knowing the difference between IaaS, PaaS and SaaS</li>
+<li>Knowing the largest cloud providers</li>
+<li>Specializing in a specific provider of your choice</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git &amp; GitHub - Fundamentals</strong>:</li>
+<ul><li>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</li>
+<li>GitHub is a hosting service for software development and version control using Git.</li>
+<li>Creating a repository</li>
+<li>Cloning a repository</li>
+<li>Committing, pushing and pulling to and from the repository</li>
+<li>Reversing a commit</li>
+<li>Creating branches and pull requests</li>
+<li>Handling merge and conflicts</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linux - Fundamentals</strong>:</li>
+<ul><li>Linux is a term popularly used to refer to operating systems that use the Linux Kernel. Distributions include the Linux Kernel as well as system software and libraries.</li>
+<li>Knowing the Linux directory system</li>
+<li>Compacting and uncompressing files</li>
+<li>Editing files in the console with VI</li>
+<li>Managing the processes running on the machine</li>
+<li>Knowing the environment variables and PATH</li>
+<li>Managing packages</li>
+<li>Performing remote communication with SSH and SCP</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Business</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Business Process Management</strong>:</li>
+<ul><li>Business Process Management (BPM) is a discipline that uses various methods to discover, model, analyze, measure, improve, optimize, and automate business processes.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Business Intelligence (BI) - Fundamentals</strong>:</li>
+<ul><li>Business Intelligence is a set of theories, methodologies, processes, and technologies that enable the transformation of &quot;raw&quot; data into highly relevant information for a company&#39;s decision making.</li>
+<li>Knowing the ETL process</li>
+<li>Performing modeling and structuring of tables in a Data Warehouse</li>
+<li>Creating visualizations that make sense</li>
+<li>Knowing PowerBI</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Storytelling with data</strong>:</li>
+<ul><li>Storytelling is a way of telling stories that engage and grab the attention of the person listening. Within data analysis, it is very important to convey information to the receiver in a way that he or she understands not only the data, but also the whole context.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Excel</strong>:</li>
+<ul><li>Microsoft Excel is a spreadsheet editor produced by Microsoft with calculation and table building tools.</li>
+<li>Performing the basic mathematical operations with its operators (addition, subtraction, multiplication and division)</li>
+<li>Knowing the main formulas, such as &#39;AVERAGE&#39;, &#39;ROUND&#39;, &#39;MAX&#39;, &#39;MIN&#39;, etc.</li>
+<li>Performing column searches with the &#39;VLOOKUP&#39; function</li>
+<li>Creating graphs and charts</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Communication skills</strong>:</li>
+<ul><li>A good level of communication facilitates the achievement of objectives, problem solving, and increases productivity, because each professional will know exactly what is expected of them, and will transmit their ideas clearly.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

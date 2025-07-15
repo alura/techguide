@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Python</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Lógica de Programação</strong>:</li>
+<ul><li>Aprender lógica de programação, fundamental para o desenvolvimento de software</li>
+<li>Conhecer as bases para se criar, analisar e resolver problemas computacionais de forma estruturada e eficiente</li>
+<li>Entender o que são tipos de dados</li>
+<li>Declarar variáveis, considerando os diferentes tipos</li>
+<li>Conhecer os operadores de atribuição e comparação</li>
+<li>Usar estruturas condicionais</li>
+<li>Usar estruturas de repetição e laços</li>
+<li>Usar funções, passando parâmetros e argumentos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Fundamentos</strong>:</li>
+<ul><li>Python é uma linguagem de programação de alto nível, de uso geral, amplamente utilizada em aplicações web, desenvolvimento de software, ciência de dados e Machine Learning. Sua filosofia de projeto enfatiza a legibilidade do código com o uso de indentação significativa. Python é dinamicamente tipada e tem um garbage collector.</li>
+<li>Conhecer os tipos primitivos</li>
+<li>Declarar variáveis, considerando os diferentes tipos</li>
+<li>Usar estruturas condicionais (&#39;if&#39;, &#39;else&#39;)</li>
+<li>Conhecer os operadores de atribuição e comparação</li>
+<li>Usar estruturas de repetição e laços (&#39;while&#39;, &#39;for&#39;)</li>
+<li>Usar funções, passando parâmetros e argumentos</li>
+<li>Manipular métodos</li>
+<li>Manipular arrays e listas</li>
+<li>Obter dados de uma API</li>
+<li>Criar construtores</li>
+<li>Funções anônimas</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos de Orientação a Objetos</strong>:</li>
+<ul><li>A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de &#39;objetos&#39; e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.</li>
+<li>Como funcionam objetos</li>
+<li>Criar e utilizar construtores</li>
+<li>O que são classes</li>
+<li>Criar e utilizar métodos</li>
+<li>Como funciona encapsulamento</li>
+<li>O que é herança</li>
+<li>O que é polimorfismo</li>
+<li>Como funcionam interfaces</li>
+<li>O que são abstrações</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estruturas de Dados</strong>:</li>
+<ul><li>No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.</li>
+<li>Conhecer as principais estruturas de dados</li>
+<li>Implementar as principais estruturas de dados</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Coleções</strong>:</li>
+<ul><li>Uma coleção representa um grupo de objetos, conhecidos como seus elementos. Eles são como recipientes que agrupam vários itens em uma única unidade. Algumas coleções permitem a duplicação de elementos e outras não. Algumas são ordenadas e outras não ordenadas.</li>
+<li>Utilizar listas e tuplas</li>
+<li>Utilizar polimorfismo nas coleções</li>
+<li>Utilizar conjuntos e dicionários</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Testes</strong>:</li>
+<ul><li>O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.</li>
+<li>Usar testes unitários</li>
+<li>Usar testes de integração</li>
+<li>Usar testes de comportamento (behavior)</li>
+<li>Usar mocks</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Comunicação com APIs</strong>:</li>
+<ul><li>Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.</li>
+<li>Entender o que é uma API REST</li>
+<li>Conhecer os comandos básicos de comunicação HTTP</li>
+<li>Entender o que é uma API REST</li>
+<li>Saber fazer requisições autenticadas</li>
+<li>Converter objetos para JSON e vice-versa</li>
+<li>Saber usar as ferramentas do pacote Requests</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flask</strong>:</li>
+<ul><li>Flask é um pequeno framework web escrito em Python. É classificado como um microframework porque não requer ferramentas ou bibliotecas particulares, mantendo um núcleo simples, porém, extensível. Não possui camada de abstração de banco de dados, validação de formulário ou quaisquer outros componentes onde bibliotecas de terceiros pré-existentes fornecem funções comuns. No entanto, o Flask oferece suporte a extensões que podem adicionar recursos do aplicativo como se fossem implementados no próprio Flask.</li>
+<li>Criar aplicações web</li>
+<li>Definir rotas, redirecionamentos e templates</li>
+<li>Validar formulários</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Orientação a Objetos Avançada</strong>:</li>
+<ul><li>Mixin é uma classe que fornece implementações de métodos para reutilização por múltiplas classes filhas relacionadas.</li>
+<li>Sobrecarga do operador significa dar significado estendido além de seu significado operacional predefinido.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Django</strong>:</li>
+<ul><li>Django é um framework web Python de alto nível que permite o rápido desenvolvimento de sites seguros e de fácil manutenção.</li>
+<li>Criar aplicações web</li>
+<li>Entender a arquitetura de uma aplicação feita com Django</li>
+<li>Criar o admin de uma página</li>
+<li>Utilizar templates e rotas</li>
+<li>Criar formulários</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Django Rest Framework</strong>:</li>
+<ul><li>O Django REST Framework é um conjunto de ferramentas poderosas e flexíveis para a construção de APIs.</li>
+<li>Desenvolver APIs</li>
+<li>Trabalhar com modelos, serializers e views</li>
+<li>Incluir filtros, buscas e ordenação</li>
+<li>Limitar o número de requisições</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - MVC e MTV</strong>:</li>
+<ul><li>MVC e MTV são dois padrões de projeto (design patterns) utilizados para implementar interfaces e aplicações web.</li>
+<li>Entender o padrão MVC</li>
+<li>Entender o padrão MTV</li>
+<li>Compreender a diferença entre os padrões MVC e MTV</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Lambdas e Closures</strong>:</li>
+<ul><li>Funções lambda nada mais são do que funções anônimas. Enquanto funções normais podem ser criada utilizando def como prefixo, as funções lambda são criadas utilizando lambda.</li>
+<li>Uma closure em Python é um objeto de função interna, uma função que se comporta como um objeto, que se lembra e tem acesso a variáveis no escopo local em que foi criado, mesmo depois que a função externa tenha terminado de ser executada. Também pode ser definida como um meio de ligar dados a uma função sem passá-los como parâmetro.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Arquitetura de Microsserviços</strong>:</li>
+<ul><li>Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.</li>
+<li>Aprender o conceito de arquitetura planejada para microsserviços</li>
+<li>Realizar a comunicação usando APIs</li>
+<li>Melhorar a escalabilidade de um sistema</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Contêineres</strong>:</li>
+<ul><li>Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente. Gerenciamento de contêineres é uma área crucial na computação em nuvem e DevOps, que envolve o uso de tecnologias para automatizar o processo de criação, implantação, escalonamento e monitoramento de contêineres. Contêineres são unidades de software padronizadas que permitem aos desenvolvedores empacotar todas as dependências de um aplicativo (código, bibliotecas, configurações, etc.) em um único pacote. Isso permite que o aplicativo seja executado de forma consistente em qualquer ambiente de infraestrutura.</li>
+<li>A tecnologia de contêineres, como exemplificada pelo Docker, fornece um ambiente consistente e portátil para desenvolvimento, teste e implantação de aplicativos, o que é vital para o trabalho eficiente de engenharia de dados. Além disso, o Kubernetes, um sistema de orquestração de contêineres, permite o gerenciamento, a automação e a escalabilidade de aplicações baseadas em contêineres em ambientes de produção. Dominar esses conceitos e tecnologias possibilita a engenheiros de dados construir e manter pipelines de dados eficientes e confiáveis.</li>
+<li>O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.</li>
+<li>Isolar seu software para funcionar independentemente</li>
+<li>Implantar software em clusters</li>
+<li>Modularizar seu sistema em pacotes menores</li>
+<li>Conhecer a plataforma Docker</li>
+<li>Conhecer Kubernetes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Tipagem estática</strong>:</li>
+<ul><li>Python é uma linguagem dinamicamente tipada, ou seja, não há necessidade de pensar em tipos de dados. Linguagens estaticamente tipadas (tais como C ou Java) realizam verificações de tipo durante a compilação. Pode parecer mais seguro, pois você pode dizer imediatamente o tipo de parâmetro de cada função.</li>
+<li>Conhecer type hinting</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Geradores</strong>:</li>
+<ul><li>Geradores permitem declarar uma função que se comporta como um iterador, por exemplo, ela pode ser usada em um loop &#39;for&#39;.</li>
+<li>Criar objetos iteradores</li>
+<li>Usar avaliação preguiçosa</li>
+<li>Executar tarefas simultâneas</li>
+<li>Uso da palavra reservada &#39;yield&#39;</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Assíncrono</strong>:</li>
+<ul><li>Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.</li>
+<li>Aprender sobre corrotinas</li>
+<li>Coroutinas são generalizações de sub-rotinas. Elas são utilizadas para multitarefas cooperativas onde um processo cede controle voluntariamente, periodicamente ou quando ocioso, a fim de permitir que múltiplas aplicações sejam executadas simultaneamente.</li>
+<li>Lidar com concorrência</li>
+<li>Conhecer o conceito de objetos aguardáveis</li>
+<li>Criar tarefas concorrentemente</li>
+<li>Conhecer a biblioteca &#39;asyncio&#39;</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - args &amp; kwargs</strong>:</li>
+<ul><li>As variáveis mágicas *args e **kwargs são normalmente usadas na definições de uma função, e são usadas para passar um número desconhecido de argumentos para uma função.</li>
+<li>Entender a diferença entre *args e **kwargs</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Métodos especiais (dunder)</strong>:</li>
+<ul><li>Métodos especiais, ou métodos mágicos, em Python são métodos predefinidos em todos os objetos, com invocação automática sob circunstâncias especiais. Eles normalmente não são chamados diretamente pelo usuário mas podem ser overloaded (sobrescritos e alterados). Seus nomes começam e terminam com sublinhados duplos chamados de dunder (uma expressão derivada de double underscore).</li>
+<li>Entender o conceito de métodos especiais (ou mágicos)</li>
+<li>Conhecer os principais métodos mágicos e como usá-los</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Metaprogramação</strong>:</li>
+<ul><li>Metaprogramação é uma técnica de programação com a qual programas têm a capacidade de tratar outros programas como seus dados. Isso significa que um programa pode ser projetado para ler, gerar, analisar ou transformar outros programas, e até mesmo modificar-se mesmo durante a execução.</li>
+<li>Escrever um programa que manipula outros programas</li>
+<li>Usar metaclasses</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Multiprocessamento</strong>:</li>
+<ul><li>Em Python, o módulo de multiprocessamento inclui uma API muito simples e intuitiva para dividir o trabalho entre vários processos.</li>
+<li>Executar processos em paralelo</li>
+<li>Conhecer a classe Pool</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Reflection e atributos</strong>:</li>
+<ul><li>Os objetos de Reflection (reflexão) são usados para obter informações do tipo em tempo de execução. As classes que dão acesso aos metadados de um programa em execução estão no namespace System.Reflection.</li>
+<li>Escrever código que lê as informações e metadados de objetos em tempo de execução</li>
+<li>Obter nomes de classes em tempo de execução e criar objetos de uma classe</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Infraestrutura</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+<ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
+<li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
+<li>Criar um repositório</li>
+<li>Clonar um repositório</li>
+<li>Fazer commit, push e pull de e para o repositório</li>
+<li>Reverter um commit</li>
+<li>Criar branches e pul requests</li>
+<li>Lidar com merge e conflitos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+<ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
+<li>Entender a diferença dos verbos HTTP</li>
+<li>Testar os requests e ver os status codes no navegador</li>
+<li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
+<li>Baixar uma imagem com WGET</li>
+<li>Fazer um post</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+<ul><li>JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.</li>
+<li>Criar um objeto</li>
+<li>Transformar um objeto em uma string</li>
+<li>Transformar uma string em objeto</li>
+<li>Manipular um objeto</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+<ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
+<li>Conhecer os principais comandos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+<ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
+<li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
+<li>Conhecer os maiores provedores de cloud</li>
+<li>Especializar-se em algum provedor</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Fundamentos</strong>:</li>
+<ul><li>SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.</li>
+<li>Conhecer os comandos mais comuns do SQL</li>
+<li>Usar SELECT para consultar uma tabela</li>
+<li>Usar INSERT para inserir dados em uma tabela</li>
+<li>Usar UPDATE para atualizar uma tabela</li>
+<li>Usar DELETE para remover dados de uma tabela</li>
+<li>Usar JOIN para conectar os dados de múltiplas tabelas</li>
+<li>Conhecer as cláusulas (FROM, ORDER BY, etc)</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Boas práticas e ferramentas</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SOLID</strong>:</li>
+<ul><li>O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Architecture</strong>:</li>
+<ul><li>A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Patterns</strong>:</li>
+<ul><li>Na engenharia de software, um &quot;padrão de projeto&quot; (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.</li>
+<li>Conhecer e aplicar os principais Design Patterns</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Jupyter &amp; Colab notebooks</strong>:</li>
+<ul><li>Jupyter Notebook e Google Colaboratory são Notebooks que permitem a criação de blocos de texto e blocos de código</li>
+<li>Os Notebooks facilitam a elaboração de projetos de Data Science por ser possível visualizar o resultado da execução logo após o trecho de código</li>
+<li>O Google Colaboratory permite escrever e executar códigos Python diretamente no navegador, sem nenhuma ou poucas configurações necessárias</li>
+<li>Essas ferramentas facilitam o compartilhamento de projetos entre o time</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Extração e Tratamento de Dados</strong>:</li>
+<ul><li>A extração de dados é o processo de coleta ou recuperação de tipos diferentes de dados de uma variedade de fontes, muitos dos quais podem estar mal organizados ou completamente desestruturados.</li>
+<li>Obter os dados que serão analisados</li>
+<li>Tratar os dados obtidos, transformando-os, alterando sua estrutura e valores a fim de deixar a base de dados mais coerente e garantir que os dados que serão trabalhados estejam nas melhores condições para serem analisados</li>
+<li>Utilizar as bibliotecas Pandas e Scikit-learn para tratar os dados</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

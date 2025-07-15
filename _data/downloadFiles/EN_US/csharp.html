@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>C#</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Fundamentals</strong>:</li>
+<ul><li>C# is a multi-paradigm, strongly typed programming language developed by Microsoft as part of the .NET platform. The source code is compiled into Common Intermediate Language (CIL) which is interpreted by the Common Language Runtime (CLR) virtual machine. It is designed to run on the Common Language Infrastructure of the .NET Framework platform.</li>
+<li>Knowing the primitive types</li>
+<li>Declaring variables, considering the different types</li>
+<li>Using conditional structures (&#39;if&#39;, &#39;else&#39;)</li>
+<li>Knowing the assignment and comparison operators</li>
+<li>Using repetition structures and loops (&#39;while&#39;, &#39;for&#39;)</li>
+<li>Using functions, passing parameters and arguments</li>
+<li>Manipulating methods</li>
+<li>Manipulating arrays and lists</li>
+<li>Getting data from an API</li>
+<li>Making asynchronous calls</li>
+<li>Creating constructors</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Object-oriented Programming Concepts</strong>:</li>
+<ul><li>Object-oriented programming (OOP) is a programming paradigm based on the concept of &#39;objects&#39;, which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods). A common feature of objects is that procedures (or methods) are attached to them and can access and modify the object&#39;s data fields. Some of the main concepts are classes and instances, inheritance, and encapsulation.</li>
+<li>How objects work</li>
+<li>Creating and using constructors</li>
+<li>What classes are</li>
+<li>Creating and using Methods</li>
+<li>How encapsulation works</li>
+<li>What inheritance is</li>
+<li>What polymorphism is</li>
+<li>How interfaces work</li>
+<li>What abstractions are</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Collections</strong>:</li>
+<ul><li>A collection represents a group of objects, known as its elements. They are like containers that group multiple items in a single unit. Some collections allow duplicate elements and others do not. Some are ordered and others unordered.</li>
+<li>Learn the difference between Dictionary, List, Queue, SortedList and Stack</li>
+<li>Get to know how to work with ArrayList e HashTable</li>
+<li>Iterators</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>NuGet</strong>:</li>
+<ul><li>NuGet is a package manager for the .NET platform. It defines how packages for this platform are created, published and consumed, and provides tools for each of these functions.</li>
+<li>Gerenciar pacotes</li>
+<li>Compartilhar bibliotecas</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - System.IO</strong>:</li>
+<ul><li>The System.IO namespace consists of IO related classes, structures, delegates and enumerations. These classes can be used to reads and write data to files or data streams. It also contains classes for file and directory support.</li>
+<li>Ler dados de arquivos</li>
+<li>Escrever dados em arquivos</li>
+<li>Gerenciar arquivos com Using</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Memory Management</strong>:</li>
+<ul><li>Automatic memory management is one of the services that the Common Language Runtime provides during Managed Execution. The Common Language Runtime&#39;s garbage collector manages the allocation and release of memory for an application.</li>
+<li>Understand how the memory is managed</li>
+<li>Getting to know the Garbage Collector</li>
+<li>Understanding about the managed Stack and Heap</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Testing</strong>:</li>
+<ul><li>Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.</li>
+<li>Using unit tests</li>
+<li>Using integration testing</li>
+<li>Using behavioral testing</li>
+<li>Using mocks</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>ADO.NET</strong>:</li>
+<ul><li>ADO.NET is a set of classes that expose data access services for .NET Framework programmers. ADO.NET provides a rich set of components for creating distributed, data-sharing applications. It is an integral part of the .NET Framework, providing access to relational, XML, and application data.</li>
+<li>Handling databases</li>
+<li>Getting to know DataSet and DataTable</li>
+<li>Performing connections</li>
+<li>Handling XML documents</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Entity Framework Core</strong>:</li>
+<ul><li>Entity Framework Core is an object-relational mapper (ORM). Object-relational mapping is a technique that enables developers to work with data in object-oriented way by performing the work required to map between objects defined in an application&#39;s programming language and data stored in relational datasources.</li>
+<li>Manipulating databases using .NET objects</li>
+<li>Creating models corresponding to a database</li>
+<li>Performing queries</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Data Structures</strong>:</li>
+<ul><li>In the context of computers, the data structure is a specific way of storing and organizing data in the computer&#39;s memory so that these data can be easily retrieved and efficiently used when needed later.</li>
+<li>Knowing the main data structures (linked list, stack, queue, tree, etc)</li>
+<li>Implementing the main data structures</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CLR</strong>:</li>
+<ul><li>The Common Language Runtime (CLR) is the virtual machine component of Microsoft .NET Framework that manages the execution of .NET programs.</li>
+<li>Understanding how the CLR works</li>
+<li>Understanding memory management</li>
+<li>Getting to know CIL and JIT</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>LINQ</strong>:</li>
+<ul><li>Language-Integrated Query (LINQ) is the name for a set of technologies based on the integration of query capabilities directly into the C# language.</li>
+<li>Criar consultas</li>
+<li>Conhecer as cláusulas Select e Where</li>
+<li>Consultar coleções de objetos em memória</li>
+<li>Mapear o banco de dados com Linq to Sql</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Serialization</strong>:</li>
+<ul><li>Serialization is the process of converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file. Its main purpose is to save the state of an object in order to be able to recreate it when needed.</li>
+<li>Sending an object to a remote application using a web service</li>
+<li>Passing an object as a JSON or XML string</li>
+<li>Passing user-specific or security information between applications</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Networking and Sockets</strong>:</li>
+<ul><li>Networking is a concept of connecting two or more computing devices together so that we can share resources. Socket programming provides facility to share data between different computing devices through a network.</li>
+<li>Opening an interactive communication session between the user&#39;s browser and a server</li>
+<li>Sending messages to a server and receive replies without querying the server</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>ASP.NET Core</strong>:</li>
+<ul><li>ASP.NET Core is an open-source and cross-platform framework for building modern cloud-based applications, such as web apps, IoT apps and mobile backends.</li>
+<li>Creating applications and web services</li>
+<li>Maintaining an MVC application</li>
+<li>Developing a client-side web user interface</li>
+<li>Creating a Web API</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dapper</strong>:</li>
+<ul><li>Dapper is an object–relational mapping (ORM) product for the Microsoft .NET platform. It provides a framework for mapping an object-oriented domain model to relational databases.</li>
+<li>Performing database queries such as &#39;select&#39;, &#39;insert&#39;, &#39;update&#39;, &#39;delete&#39;</li>
+<li>Manipulating databases</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dependency Injection</strong>:</li>
+<ul><li>Dependency Injection is a design pattern in which a class requests dependencies from external sources instead of creating them.</li>
+<li>Avoiding high level of code coupling within an application</li>
+<li>Implementing inversion of control</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Multithreading</strong>:</li>
+<ul><li>Multithreading is the ability to perform multiple operations at the same time. Operations with the potential of holding up other operations can execute on separate threads.</li>
+<li>Running multiple tasks simultaneously</li>
+<li>Understanding how threads are executed</li>
+<li>Learning how to make a thread wait at a specific point</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Delegates and Events</strong>:</li>
+<ul><li>Delegates are objetcs that are used as function pointers to refer to a method assigned to them.</li>
+<li>Events are the action performed which changes the state of an object. Events are declared using delegates - they provide encapsulation to the delegates.</li>
+<li>Understanding the concept of delegate</li>
+<li>Creating a reference to a function with a certain list of parameters</li>
+<li>Understanding the concept of event</li>
+<li>Handling different types of events</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Anonymous methods and lambda expressions</strong>:</li>
+<ul><li>Anonymous methods are unnamed methods that can be defined using the delegate keyword.</li>
+<li>Lambda expressions are used like anonymous functions, but you don&#39;t need to specify the type of the value that you input, making them more flexible to use.</li>
+<li>Creating anonymous functions that you can use to create delegates</li>
+<li>Creating local functions that can be passed as arguments</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Containers</strong>:</li>
+<ul><li>Containers are software packages that contain all the elements needed to run in any environment.</li>
+<li>Kubernetes (also known as k8s or “kube”) is an open source container orchestration platform that automates many of the manual processes involved in deploying, managing, and scaling containerized applications.</li>
+<li>Isolating your software to run independently</li>
+<li>Deploying software in clusters</li>
+<li>Modularizing your system into smaller packages</li>
+<li>Getting to know the Docker platform</li>
+<li>Getting to know Kubernetes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Microservices architecture</strong>:</li>
+<ul><li>Microservices are an architectural approach in which software consists of small independent services that communicate with each other and are organized according to their business domains.</li>
+<li>Learning the concept of planned architecture for microservices</li>
+<li>Performing communication using APIs</li>
+<li>Improving the scalability of a system</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Reflection and attributes</strong>:</li>
+<ul><li>Reflection objects are used for obtaining type information at runtime. The classes that give access to the metadata of a running program are in the System.Reflection namespace.</li>
+<li>Writing code that reads object information and metadata at runtime</li>
+<li>Getting class names at runtime and creating objects of a class</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>MAUI</strong>:</li>
+<ul><li>.NET Multi-platform App UI (.NET MAUI) is a cross-platform framework for creating native mobile and desktop apps with C# and XAML.</li>
+<li>Creating native desktop and mobile applications with C# and XAML</li>
+<li>Creating cross-platform applications</li>
+<li>Sharing user interface layout and design across platforms</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Infrastructure</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git &amp; GitHub - Fundamentals</strong>:</li>
+<ul><li>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</li>
+<li>GitHub is a hosting service for software development and version control using Git.</li>
+<li>Creating a repository</li>
+<li>Cloning a repository</li>
+<li>Committing, pushing and pulling to and from the repository</li>
+<li>Reversing a commit</li>
+<li>Creating branches and pull requests</li>
+<li>Handling merge and conflicts</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentals</strong>:</li>
+<ul><li>HTTP stands for Hyper Text Transfer Protocol. Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses.</li>
+<li>Understanding the difference between HTTP verbs</li>
+<li>Testing requests and checking the status codes in the browser</li>
+<li>Learning how to make a HTTP request on the command line with WGET</li>
+<li>Downloading an image with WGET</li>
+<li>Performing a POST</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+<ul><li>JSON stands for JavaScript Object Notation. It is a text format for storing and transporting data.</li>
+<li>Creating an object</li>
+<li>Transforming an object into a string</li>
+<li>Transforming a string into an object</li>
+<li>Manipulating an object</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Command Line - Fundamentals</strong>:</li>
+<ul><li>CLI is a command line program that accepts text input to execute operating system functions.</li>
+<li>Knowing the most important commands</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentals</strong>:</li>
+<ul><li>Cloud, or cloud computing, is the distribution of computing services over the Internet using a pay-as-you-go pricing model. A cloud is composed of various computing resources, ranging from the computers themselves (or instances, in cloud terminology) to networks, storage, databases, and everything around them. In other words, everything that is normally needed to set up the equivalent of a server room, or even a complete data center, will be ready to use, configured, and run.</li>
+<li>Knowing the difference between IaaS, PaaS and SaaS</li>
+<li>Knowing the largest cloud providers</li>
+<li>Specializing in a specific provider of your choice</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Fundamentals</strong>:</li>
+<ul><li>Structured Query Language (SQL) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.</li>
+<li>Knowing the most common SQL commands</li>
+<li>Using SELECT to query a table</li>
+<li>Using INSERT to insert data into a table</li>
+<li>Using UPDATE to update a table</li>
+<li>Using DELETE to remove data from a table</li>
+<li>Using JOIN to connect data from multiple tables</li>
+<li>Knowing the clauses (FROM, ORDER BY, etc.)</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Good practices</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SOLID</strong>:</li>
+<ul><li>SOLID has five principles that are considered best practices in software development that help programmers write cleaner code by separating responsibilities, reducing docking, easing refactoring, and encouraging code reuse.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Patterns</strong>:</li>
+<ul><li>In software engineering, a Design Pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is a description or template for how to solve a problem that can be used in many different situations. Design Patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.</li>
+<li>Getting familiarized with and applying the main Design Patterns</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Architecture</strong>:</li>
+<ul><li>Clean architecture is a way of developing software, such that just by looking at the source code of a program, you should be able to tell what the program does.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Code</strong>:</li>
+<ul><li>Applying simple techniques that aim to make a code easier to write and read</li>
+<li>Refactoring your code to make it clearer</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Domain-Driven Design (DDD) Concepts</strong>:</li>
+<ul><li>Domain-Driven Design (DDD) is an approach to software design and development that is first informed by business requirements. The program components (objects, classes, arrays, etc.) indicate the industry, sector, or business domain in which the business operates.</li>
+<li>Modeling domains effectively</li>
+<li>Basing complex projects on domain models</li>
+<li>Getting to know the building blocks of DDD</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Flutter</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dart - Fundamentals</strong>:</li>
+<ul><li>Dart is a client-optimized language for developing fast apps on any platform. Its goal is to offer the most productive programming language for multi-platform development, paired with a flexible execution runtime platform for app frameworks.</li>
+<li>Installing and configuring Dart</li>
+<li>Learning the Dart keywords</li>
+<li>Building terminal applications using Dart</li>
+<li>Understanding how dynamism works in Dart</li>
+<li>Understanding and learning how to use Null Safety in Dart</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Fundamentals</strong>:</li>
+<ul><li>Flutter is an open-source UI software development kit created by Google. It is used to develop cross platform applications for Android, iOS, Linux, macOS, Windows, Google Fuchsia, and the web from a single codebase.</li>
+<li>Flutter widgets are built using a modern framework that takes inspiration from React. The central idea is that you build your UI out of widgets. Widgets describe what their view should look like given their current configuration and state.</li>
+<li>Installing and configuring Flutter</li>
+<li>Learning how to use basic Flutter widgets, such as Column, Row, Scaffold, Text, Image, Container, AppBar, ElevatedButton, among other</li>
+<li>Understanding the differences between Stateless and Stateful widgets</li>
+<li>Developing your first Flutter application</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Object-oriented Programming Concepts</strong>:</li>
+<ul><li>Object-oriented programming (OOP) is a programming paradigm based on the concept of &#39;objects&#39;, which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods). A common feature of objects is that procedures (or methods) are attached to them and can access and modify the object&#39;s data fields. Some of the main concepts are classes and instances, inheritance, and encapsulation.</li>
+<li>How objects work</li>
+<li>Creating and using constructors</li>
+<li>What classes are</li>
+<li>Creating and using Methods</li>
+<li>How encapsulation works</li>
+<li>What inheritance is</li>
+<li>What polymorphism is</li>
+<li>How interfaces work</li>
+<li>What abstractions are</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Persistence</strong>:</li>
+<ul><li>Persistence in computer science refers to saving data for future access. It also involves the actions of reading, updating and deleting data.</li>
+<li>Understanding what data persistence is</li>
+<li>Learning how to store data using SharedPreferences</li>
+<li>Learning how to use SQLite in Flutter</li>
+<li>Learning how to persist data reading and writing files</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dart - Asynchronous</strong>:</li>
+<ul><li>In asynchronous programming, the functions are not executed in order. We can interrupt the code to get some other information needed to continue execution. This means that the code waits for another part of the code, and while it waits, it can execute the other parts.</li>
+<li>Understanding what asynchronism is</li>
+<li>Learning how to use the <code>async</code>, <code>await</code> and <code>future</code> expressions in Dart</li>
+<li>Understanding Future&#39;s <code>then</code> and <code>catchError</code> methods in Dart</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dart - Errors and Exceptions</strong>:</li>
+<ul><li>Error handling refers to the procedures for responding to and recovering from error conditions present in a software application. In other words, it is the process of anticipating, detecting, and resolving application, programming, or communication errors.</li>
+<li>Understanding what errors and exceptions are in Dart</li>
+<li>Learning how to use the <code>try-on-catch-finally</code> structure</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dart - Communication with APIs</strong>:</li>
+<ul><li>An API is an interface that software developers use to programmatically interact with software components or resources outside of their own code. An even simpler definition is that an API is the part of a software component that is accessible to other components.</li>
+<li>Understanding REST APIs</li>
+<li>Learning the basic HTTP communication commands</li>
+<li>Learning how to use the Dart <code>http</code> package tools</li>
+<li>Learning how to make authenticated requests to Web APIs</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
+<strong>Flutter - Essential Packages</strong>:</p>
+</li>
+<ul><li><p>Flutter supports using shared packages contributed by other developers to the Flutter and Dart ecosystems. This allows quickly building an app without having to develop everything from scratch.</p>
+</li>
+<li><p>Learning how to use the pub.dev platform</p>
+</li>
+<li><p>Learning about the main Flutter packages</p>
+</li>
+</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
+<strong>Flutter - State Management</strong>:</p>
+</li>
+<ul><li><p>In Flutter, &#39;state&#39; is whatever data you need in order to rebuild your UI at any moment in time. When this data change, it will trigger a redraw of the user interface.</p>
+</li>
+<li><p>Understanding State Management</p>
+</li>
+<li><p>Learning how to use the Provider</p>
+</li>
+<li><p>Learning about other State Management options in Flutter</p>
+</li>
+</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
+<strong>Flutter - Testing</strong>:</p>
+</li>
+<ul><li><p>Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.</p>
+</li>
+<li><p>Understanding unit tests in Flutter</p>
+</li>
+<li><p>Understanding widget tests in Flutter</p>
+</li>
+<li><p>Understanding integration tests in Flutter</p>
+</li>
+</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
+<strong>Flutter - Debugging</strong>:</p>
+</li>
+<ul><li><p>Debugging is the process of finding and resolving bugs (defects or problems that prevent correct operation) within computer programs, software, or systems.</p>
+</li>
+<li><p>Learning debugging techniques and tools in Flutter</p>
+</li>
+<li><p>Learning how to debug Dart and Flutter code</p>
+</li>
+<li><p>Learning about Dart DevTools</p>
+</li>
+</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
+<strong>Flutter - Games</strong>:</p>
+</li>
+<ul><li><p>Leaning how to create games with Flutter</p>
+</li>
+<li><p>Getting to know Flutter&#39;s Casual Game Development Kit</p>
+</li>
+<li><p>Learning about the Flame package as a Flutter Game Engine</p>
+</li>
+<li><p>Learning about the Bonfire package as a Flutter Game Engine</p>
+</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Native</strong>:</li>
+<ul><li>Getting to know the specifics of native development for Android</li>
+<li>Getting to know the specifics of native development for iOS</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Data Structures</strong>:</li>
+<ul><li>In the context of computers, the data structure is a specific way of storing and organizing data in the computer&#39;s memory so that these data can be easily retrieved and efficiently used when needed later.</li>
+<li>Knowing the main data structures (linked list, stack, queue, tree, etc)</li>
+<li>Implementing the main data structures</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Animations</strong>:</li>
+<ul><li>Learning the difference between Implicit and Explicit Animations in Flutter</li>
+<li>Learning about and using Widgets for Implicit Animations</li>
+<li>Understanding the concepts of Duration and Curves</li>
+<li>Learning about the technique of Explicit Animations in Flutter</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Multiplatform - Desktop</strong>:</li>
+<ul><li>Learning about and using Flutter&#39;s multiplatform creation options</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Multiplatform - Web</strong>:</li>
+<ul><li>Getting to know the specifics of creating Flutter apps for the Web</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Deployment</strong>:</li>
+<ul><li>Software deployment includes all of the steps, processes, and activities that are required to make a software system or update available to its intended users.</li>
+<li>Learning about Dart code obfuscation techniques</li>
+<li>Learning know how to deploy Flutter applications on various platforms</li>
+<li>Understanding Flavors in Flutter</li>
+<li>Learning about Continuous Delivery in Flutter</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Architecture</strong>:</li>
+<ul><li>In programming, there are several architectural patterns for project files and folders, that provide developers with ease in finding, researching, and understanding the written code.</li>
+<li>Getting to know the main architecture patterns used by the Flutter community, such as MVC, MVVM, MVP etc</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Packages and Plugins</strong>:</li>
+<ul><li>Learning how to develop plugins for Flutter</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Infrastructure and Back-end</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git &amp; GitHub - Fundamentals</strong>:</li>
+<ul><li>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</li>
+<li>GitHub is a hosting service for software development and version control using Git.</li>
+<li>Creating a repository</li>
+<li>Cloning a repository</li>
+<li>Committing, pushing and pulling to and from the repository</li>
+<li>Reversing a commit</li>
+<li>Creating branches and pull requests</li>
+<li>Handling merge and conflicts</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentals</strong>:</li>
+<ul><li>HTTP stands for Hyper Text Transfer Protocol. Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses.</li>
+<li>Understanding the difference between HTTP verbs</li>
+<li>Testing requests and checking the status codes in the browser</li>
+<li>Learning how to make a HTTP request on the command line with WGET</li>
+<li>Downloading an image with WGET</li>
+<li>Performing a POST</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+<ul><li>JSON stands for JavaScript Object Notation. It is a text format for storing and transporting data.</li>
+<li>Creating an object</li>
+<li>Transforming an object into a string</li>
+<li>Transforming a string into an object</li>
+<li>Manipulating an object</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Patterns</strong>:</li>
+<ul><li>In software engineering, a Design Pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is a description or template for how to solve a problem that can be used in many different situations. Design Patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.</li>
+<li>Getting familiarized with and applying the main Design Patterns</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Command Line - Fundamentals</strong>:</li>
+<ul><li>CLI is a command line program that accepts text input to execute operating system functions.</li>
+<li>Knowing the most important commands</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentals</strong>:</li>
+<ul><li>Cloud, or cloud computing, is the distribution of computing services over the Internet using a pay-as-you-go pricing model. A cloud is composed of various computing resources, ranging from the computers themselves (or instances, in cloud terminology) to networks, storage, databases, and everything around them. In other words, everything that is normally needed to set up the equivalent of a server room, or even a complete data center, will be ready to use, configured, and run.</li>
+<li>Knowing the difference between IaaS, PaaS and SaaS</li>
+<li>Knowing the largest cloud providers</li>
+<li>Specializing in a specific provider of your choice</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SOLID</strong>:</li>
+<ul><li>SOLID has five principles that are considered best practices in software development that help programmers write cleaner code by separating responsibilities, reducing docking, easing refactoring, and encouraging code reuse.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Architecture</strong>:</li>
+<ul><li>Clean architecture is a way of developing software, such that just by looking at the source code of a program, you should be able to tell what the program does.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Firebase</strong>:</li>
+<ul><li>Firebase is a Backend-as-a-Service (BaaS) app development platform that provides hosted backend services such as a realtime database, cloud storage, authentication, crash reporting, machine learning, remote configuration, and hosting for your static files.</li>
+<li>Understanding how to install Firebase</li>
+<li>Getting acquainted with Firebase documentation</li>
+<li>Learning about the Firebase tools available</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: UX and Design</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Systems</strong>:</li>
+<ul><li>A design system is a collection of reusable components, guided by clear standards, that can be assembled together to build applications.</li>
+<li>Creating and maintaining libraries that will be consumed and used as a standard for building a project</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Figma - Fundamentals</strong>:</li>
+<ul><li>Figma is a collaborative web application for interface design. The feature set of Figma focuses on user interface and user experience design, with an emphasis on real-time collaboration, utilising a variety of vector graphics editor and prototyping tools.</li>
+<li>Creating page layouts and components</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design components</strong>:</li>
+<ul><li>Knowing the components that describe a layout or interface</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Color systems</strong>:</li>
+<ul><li>Defining a color palette that makes sense for a given interface</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>How to use Fonts</strong>:</li>
+<ul><li>Choosing the most appropriate font for a given project</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Accessibility</strong>:</li>
+<ul><li>Web accessibility is the inclusive practice of ensuring there are no barriers that prevent interaction with, or access to, websites by people with physical disabilities, situational disabilities, and socio-economic restrictions on bandwidth and speed.</li>
+<li>Writing code with accessibility in mind</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Responsive Design</strong>:</li>
+<ul><li>Responsive web design (RWD) or responsive design is an approach to web design that aims to make web pages render well on a variety of devices and window or screen sizes from minimum to maximum display size to ensure usability and satisfaction.</li>
+<li>Adjusting your pages to the user&#39;s screen size</li>
+<li>Learning about Media queries</li>
+<li>Knowing the concept of Mobile first</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

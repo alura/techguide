@@ -11,62 +11,51 @@ function loadTemplate(): string {
   return fs.readFileSync(templatePath, "utf-8");
 }
 
-const main = async () => {
+// Function to get all markdown files in a directory
+function getMarkdownFiles(dirPath: string): string[] {
+  if (!fs.existsSync(dirPath)) {
+    return [];
+  }
+
+  const files = fs.readdirSync(dirPath);
+  return files.filter((file) => file.endsWith(".md"));
+}
+
+// Function to generate PDF for a single markdown file
+async function generatePDFForFile(
+  markdownPath: string,
+  browser: puppeteer.Browser,
+  template: string
+): Promise<void> {
+  const fileName = path.basename(markdownPath, ".md");
+  const dirPath = path.dirname(markdownPath);
+
+  log(`Processing: ${fileName}.md`);
+
   try {
-    log("Starting PDF generation for Agile guide...");
-
     // Read the markdown file
-    const markdownPath = path.join(
-      process.cwd(),
-      "_data",
-      "downloadFiles",
-      "PT_BR",
-      "agile.md"
-    );
-    log(`Reading markdown file from: ${markdownPath}`);
-
-    if (!fs.existsSync(markdownPath)) {
-      throw new Error(`Markdown file not found: ${markdownPath}`);
-    }
-
     const markdownContent = fs.readFileSync(markdownPath, "utf-8");
-    log("Markdown file read successfully");
 
-    // Convert markdown to HTML using the parseMarkdownToHTML function
+    // Convert markdown to HTML
     const htmlContent = parseMarkdownToHTML({ markdown: markdownContent });
 
     // Process HTML with custom transformations
     const styledHtmlContent = processHtml(htmlContent);
-    log("Markdown converted to HTML");
 
-    // Load template and create the complete HTML document
-    const template = loadTemplate();
+    // Create the complete HTML document
     const completeHtml = template
       .replace("{{content}}", styledHtmlContent)
       .replace("{{date}}", new Date().toLocaleDateString("pt-BR"));
 
-    // Get the directory where the markdown file is located
-    const markdownDir = path.dirname(markdownPath);
-
     // Save HTML file for debugging
-    const htmlPath = path.join(markdownDir, "agile.html");
+    const htmlPath = path.join(dirPath, `${fileName}.html`);
     fs.writeFileSync(htmlPath, completeHtml);
-    log(`HTML file saved to: ${htmlPath}`);
 
-    // Generate PDF using Puppeteer
-    log("Launching Puppeteer...");
-    const browser = await puppeteer.launch({
-      headless: true,
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    });
-
+    // Generate PDF
     const page = await browser.newPage();
-
-    // Set content and wait for rendering
     await page.setContent(completeHtml, { waitUntil: "networkidle0" });
 
-    // Generate PDF in the same directory as the markdown file
-    const pdfPath = path.join(markdownDir, "agile.pdf");
+    const pdfPath = path.join(dirPath, `${fileName}.pdf`);
     await page.pdf({
       path: pdfPath,
       format: "A4",
@@ -79,10 +68,75 @@ const main = async () => {
       printBackground: true,
     });
 
-    await browser.close();
-    log(`PDF generated successfully: ${pdfPath}`);
+    await page.close();
+    log(`✓ Generated PDF: ${fileName}.pdf`);
   } catch (error) {
-    log(`Error generating PDF: ${error}`);
+    log(`✗ Error processing ${fileName}.md: ${error}`);
+  }
+}
+
+const main = async () => {
+  try {
+    log("Starting PDF generation for all markdown files...");
+
+    // Define language directories
+    const languages = ["PT_BR", "EN_US", "ES"];
+    const downloadFilesPath = path.join(
+      process.cwd(),
+      "_data",
+      "downloadFiles"
+    );
+
+    // Load template once
+    const template = loadTemplate();
+
+    // Launch browser once
+    log("Launching Puppeteer...");
+    const browser = await puppeteer.launch({
+      headless: true,
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
+
+    let totalProcessed = 0;
+    let totalErrors = 0;
+
+    // Process each language directory
+    for (const language of languages) {
+      const languagePath = path.join(downloadFilesPath, language);
+
+      if (!fs.existsSync(languagePath)) {
+        log(`Language directory not found: ${languagePath}`);
+        continue;
+      }
+
+      log(`\nProcessing language: ${language}`);
+
+      // Get all markdown files in this language directory
+      const markdownFiles = getMarkdownFiles(languagePath);
+
+      if (markdownFiles.length === 0) {
+        log(`No markdown files found in ${language}`);
+        continue;
+      }
+
+      log(`Found ${markdownFiles.length} markdown files`);
+
+      // Process each markdown file
+      for (const markdownFile of markdownFiles) {
+        const markdownPath = path.join(languagePath, markdownFile);
+        await generatePDFForFile(markdownPath, browser, template);
+        totalProcessed++;
+      }
+    }
+
+    await browser.close();
+
+    log(`\n=== PDF Generation Complete ===`);
+    log(`Total files processed: ${totalProcessed}`);
+    log(`Total errors: ${totalErrors}`);
+
+  } catch (error) {
+    log(`Error in main process: ${error}`);
     process.exit(1);
   }
 };

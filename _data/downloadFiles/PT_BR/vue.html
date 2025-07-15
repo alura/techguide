@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Vue</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTML - Fundamentos</strong>:</li>
+<ul><li>HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.</li>
+<li>Aprender quais tags são necessárias para um HTML básico</li>
+<li>Criar um parágrafo de texto</li>
+<li>Exibir uma imagem</li>
+<li>Conhecer a diferença entre &#39;h1&#39;, &#39;h2&#39;, &#39;h3&#39;, etc</li>
+<li>Criar um texto com hyperlink</li>
+<li>Criar um formulário com campos relevantes</li>
+<li>Criar uma lista de itens ordenada ou não ordenada</li>
+<li>Criar uma lista de itens dentro de uma lista suspensa (dropdown list)</li>
+<li>Conectar com um arquivo de CSS</li>
+<li>Criar uma tabela</li>
+<li>Adicionar IDs e classes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CSS - Fundamentos</strong>:</li>
+<ul><li>Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.</li>
+<li>Aprender a estrutura visual de uma página, com &#39;margin&#39; e &#39;padding&#39;</li>
+<li>Estabelecer o tamanho com &#39;width&#39; e &#39;height&#39;</li>
+<li>Aprender sobre a posição de um elemento (&#39;static&#39;, &#39;relative&#39; ou &#39;absolute)</li>
+<li>Aprender sobre o &#39;display&#39; de exibição de um elemento (&#39;block&#39;, &#39;inline&#39;, &#39;inline-block&#39;)</li>
+<li>Aprender a posicionar imagens em relação ao texto</li>
+<li>Aprender sobre alinhamento</li>
+<li>Aprender sobre estilo de fontes</li>
+<li>Aprender as diferenças e vantagens de usar as diferentes unidades de medida em CSS (%, relativas, etc)</li>
+<li>Conectar com os elementos (IDs, classes) de um arquivo HTML</li>
+<li>Alterar características de um elemento quando o mouse passar por cima dele (&#39;hover&#39;)</li>
+<li>Aprender box-sizing</li>
+<li>Aprender Flexbox</li>
+<li>Aprender Grid</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Fundamentos</strong>:</li>
+<ul><li>JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.</li>
+<li>Conhecer os tipos primitivos</li>
+<li>Declarar variáveis, considerando a diferença entre &#39;var&#39;, &#39;let&#39; e &#39;const&#39;</li>
+<li>Usar estruturas condicionais (&#39;if&#39;, &#39;else&#39;)</li>
+<li>Conhecer os operadores de atribuição e comparação (&#39;=&#39;, &#39;==&#39;, &#39;===&#39;)</li>
+<li>Usar estruturas de repetição e laços (&#39;while&#39;, &#39;for&#39;)</li>
+<li>Usar funções, passando parâmetros e argumentos</li>
+<li>Manipular arrays e listas</li>
+<li>Aprender o conceito de Orientação a Objetos</li>
+<li>Fazer um CRUD</li>
+<li>Obter dados de uma API</li>
+<li>Fazer chamadas assíncronas usando &#39;Async/Await&#39;, &#39;Promise&#39;, etc</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>DOM - Fundamentos</strong>:</li>
+<ul><li>O Document Object Model (DOM) é uma interface de programação para documentos web. Ele representa a página para que os programas possam alterar a estrutura, o estilo e o conteúdo do documento. O DOM representa o documento como nós e objetos; dessa forma, linguagens de programação podem interagir com a página.</li>
+<li>Entender como funciona a árvore do DOM</li>
+<li>Acessar e manipular elementos do HTML e CSS</li>
+<li>Acessar os pais e filhos de um elemento</li>
+<li>Inserir um novo elemento na árvore</li>
+<li>Remover um elemento da árvore</li>
+<li>Esperar por um evento em certo elemento da página usando &#39;addEventListener()&#39;</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos SPA</strong>:</li>
+<ul><li>Um aplicativo de página única (SPA - single-page application) é uma aplicação web ou site que interage com o usuário reescrevendo dinamicamente a página web atual com novos dados do servidor web, em vez do método padrão de um navegador que carrega novas páginas inteiras. O objetivo são transições mais rápidas, que tornam o site mais parecido com uma aplicação nativa.</li>
+<li>Entender o que é uma SPA</li>
+<li>Estabelecer rotas para outras páginas</li>
+<li>Conhecer frameworks SPA</li>
+<li>Comunicação com APIs</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Componentes</strong>:</li>
+<ul><li>O Vue permite definir componentes usando a Option API ou a Composition API.</li>
+<li>Para que servem e como funcionam componentes</li>
+<li>Conheça a especificação da Sintaxe SFC (Single File Component)</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Props</strong>:</li>
+<ul><li>Props são um objeto que é injetado em componentes e fornece alguns dados que podem ser compartilhados entre outros componentes em um fluxo de dados unidirecional, de um elemento pai para um elemento filho. Props são de somente leitura.</li>
+<li>Como passar props</li>
+<li>Como manipular props</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Diretivas</strong>:</li>
+<ul><li>Explore as diretivas básicas oferecidas pelo Vue, como v-if, v-else, v-show, v-bind, v-model e v-for. </li>
+<li>Depois de se familiarizar com as diretivas integradas, suba de nível criando suas próprias diretivas personalizadas.</li>
+<li>Para finalizar sua jornada, domine os argumentos e modificadores das diretivas.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Options API</strong>:</li>
+<ul><li>Aprenda a estruturar um componente Vue usando a Options API, abrangendo opções como &#39;data&#39;, &#39;methods&#39;, &#39;computed&#39;, e &#39;watch&#39;.</li>
+<li>Domine os hooks do ciclo de vida do componente (&#39;created&#39;, &#39;mounted&#39;, &#39;updated&#39;, e &#39;destroyed&#39;) para controlar comportamentos em diferentes etapas da vida do componente.</li>
+<li>Pratique o gerenciamento de estado reativo dentro dos componentes, utilizando opções como &#39;data&#39; e &#39;computed&#39;, e aprenda como sincronizar estados entre componentes usando &#39;props&#39; e &#39;emit&#39;.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Composition API</strong>:</li>
+<ul><li>Inicie componentes com a função setup(). Ela é o coração da Composition API.</li>
+<li>Aprenda a usar ref e reactive para criar e gerenciar estados reativos.</li>
+<li>Domine os hooks do ciclo de vida. Eles são vitais para controlar comportamentos em diferentes estágios do componente.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Template</strong>:</li>
+<ul><li>Comece aprendendo a sintaxe básica de um template Vue e como renderizar dados dinâmicos.</li>
+<li>Aprofunde-se no uso de diretivas de template como v-if, v-for e v-bind para criar interfaces dinâmicas.</li>
+<li>Aprenda a definir e usar componentes dentro dos seus templates para reutilizar e organizar o código.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Create App</strong>:</li>
+<ul><li>Inicie criando um novo projeto Vue com Vue CLI ou Vite.</li>
+<li>Crie   componentes Vue e entenda como estruturá-los usando Options API ou Composition API.</li>
+<li>Veja como a navegação com Vue Router e gerenciamento de estado com Pinea podem ser úteis em SPAs escritas em Vue.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue Forms</strong>:</li>
+<ul><li>Comece aprendendo as bases dos formulários no Vue, incluindo v-model e como vincular diferentes tipos de campos de entrada (input binds).</li>
+<li>Depois de dominar as bases, aprenda como o Vue 3 lida com as entradas do usuário e as diferenças em relação às versões anteriores.</li>
+<li>Mergulhe no mundo da Vue Formulate, uma das bibliotecas mais completas para trabalhar com formulários no Vue. Compreenda como usar seus recursos para construir formulários complexos com facilidade.</li>
+<li>Continue sua jornada com a VeeValidate, uma biblioteca para validação de formulários que oferece muitas opções de validação e permite que você crie suas próprias regras.</li>
+<li>Explore a Vuelidate, outra biblioteca de validação poderosa que oferece uma abordagem um pouco diferente da VeeValidate.</li>
+<li>Além de usar bibliotecas, aprenda a criar suas próprias regras de validação personalizadas no Vue.</li>
+<li>Aprofunde-se na criação de formulários dinâmicos, onde os campos podem mudar com base nas ações do usuário.</li>
+<li>Descubra como integrar a gestão dos formulários com Vuex/Pinia  para um gerenciamento de estado mais sólido e escalável.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Eventos</strong>:</li>
+<ul><li>Inicie seu aprendizado sobre eventos no Vue, entendendo a diferença entre eventos do DOM e eventos personalizados do Vue.</li>
+<li>Aprenda a usar a diretiva v-on para adicionar manipuladores de eventos a elementos do DOM e como passar argumentos para os manipuladores de eventos.</li>
+<li>Mergulhe nos eventos de teclado e mouse, entendendo como capturá-los e como usar modificadores de eventos para simplificar o código.</li>
+<li>Descubra como emitir e ouvir eventos personalizados usando o método $emit e a diretiva v-on.</li>
+<li>Aprofunde-se na compreensão do bubbling e capturing de eventos no Vue, e quando usar o .native modifier.</li>
+<li>Conheça o conceito de &quot;Event Bus&quot; para comunicação entre componentes não relacionados.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue Router</strong>:</li>
+<ul><li>Comece instalando e configurando o Vue Router em seu projeto. Aprenda a criar um arquivo de rotas e a configurar o Vue para usar o Vue Router.</li>
+<li>Domine a criação de rotas básicas, entenda a correspondência de rotas com os componentes Vue e como usar a diretiva <router-link> para criar links.</li>
+<li>Avance para o roteamento dinâmico, aprendendo a usar parâmetros de rota para criar rotas flexíveis.</li>
+<li>Entenda o roteamento aninhado e como usar o componente <router-view> para renderizar componentes de rota aninhados.</li>
+<li>Mergulhe no roteamento nomeado e aprenda como ele pode tornar o seu código mais fácil de entender e manter.</li>
+<li>Explore os guardas de rota e como eles podem ser usados para controlar o acesso a certas rotas.</li>
+<li>Aprenda a criar transições suaves entre as rotas com o elemento <transition> do Vue.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Composition API a fundo</strong>:</li>
+<ul><li>Comece entendendo a função setup() e o conceito de reatividade no Vue 3.</li>
+<li>Domine ref e reactive, os principais elementos para gerenciar estados reativos.</li>
+<li>Aprenda a usar computed para trabalhar com propriedades calculadas.</li>
+<li>Explore o uso de watch e watchEffect para reagir às mudanças de estado.</li>
+<li>Entenda os hooks do ciclo de vida para controlar o comportamento do componente em diferentes fases.</li>
+<li>Crie e exponha funções a partir da função setup.</li>
+<li>Aprenda a usar props dentro da setup e como lidar com as diretivas no template.</li>
+<li>Implemente a lógica reutilizável através de Composables.</li>
+<li>Aprenda as melhores práticas e padrões comuns ao usar a Composition API.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue Devtools</strong>:</li>
+<ul><li>Comece instalando a extensão Vue DevTools no seu navegador.</li>
+<li>Familiarize-se com a interface, aprendendo sobre as abas de Componentes, Vuex, Roteamento e Performance.</li>
+<li>Aprenda a inspecionar componentes, observando seus props, dados, e slots.</li>
+<li>Entenda como monitorar a store do Vuex | Pinia e o histórico de roteamento.</li>
+<li>Pratique a edição no local do estado da aplicação e o &quot;time-travel debugging&quot;.</li>
+<li>Ajuste as configurações ao seu gosto e integre as DevTools com seu ambiente de desenvolvimento.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Estilizando componentes</strong>:</li>
+<ul><li>Comece pelo básico, aplicando folhas de estilo CSS externas ao seu projeto Vue.</li>
+<li>Vá um pouco mais fundo e aprenda sobre o atributo &quot;scoped&quot; no Vue, que permite que você direcione estilos especificamente para um único componente.</li>
+<li>Explore bibliotecas que permitem que você escreva estilos em JavaScript, oferecendo recursos dinâmicos e reutilizáveis.</li>
+<li>Veja como os pré-processadores CSS, como SASS ou LESS, podem ser integrados ao seu projeto Vue para estilização avançada.</li>
+<li>Experimente bibliotecas populares de componentes Vue, como Vuetify ou BootstrapVue, que vêm com seus próprios conjuntos de estilos e temas.</li>
+<li>Conheça a biblioteca vue-styled-components, uma implementação do Styled Components para Vue, que permite escrever CSS real em JavaScript.</li>
+<li>Dê uma olhada no Tailwind CSS, um framework de CSS de utilidade, e aprenda como pode ser integrado com Vue para um desenvolvimento de interface de usuário eficiente.</li>
+<li>Com o Vue 3, explore a vinculação de estilos e como eles podem ser usados para aplicar estilos dinâmicos com base nos dados do componente.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Comunicando-se com APIs</strong>:</li>
+<ul><li>Entenda o que são APIs, como funcionam e como se comunicam com os clientes web.</li>
+<li>Aprenda os conceitos básicos de AJAX e como o Vue se integra com AJAX para recuperar dados de uma API.</li>
+<li>Mergulhe no Axios, uma popular biblioteca JavaScript para realizar solicitações HTTP. Aprenda a instalar e a usar o Axios em um projeto Vue para fazer chamadas GET, POST e outras.</li>
+<li>Conheça o unfetch, uma alternativa leve e moderna para fazer chamadas de API. Veja como ele pode ser usado em um projeto Vue.</li>
+<li>Adentre no mundo do GraphQL, um poderoso paradigma de API. Aprenda a usar o Apollo Client, uma solução completa para o gerenciamento de estado de dados GraphQL em aplicações Vue.</li>
+<li>Explore o Vue Relay, uma estrutura para trabalhar com GraphQL no Vue. Entenda as vantagens que ele oferece e como ele difere do Apollo Client.</li>
+<li>Aprenda a lidar com as respostas das APIs, incluindo a manipulação de dados recebidos e a tratamento de erros.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Callbacks e Promises</strong>:</li>
+<ul><li>Uma promessa (Promise) é um proxy para um valor não necessariamente conhecido quando a promessa é criada. Isso permite que métodos assíncronos retornem valores como métodos síncronos - em vez de retornar imediatamente o valor final, o método assíncrono retorna uma promessa de fornecer o valor em algum momento no futuro.</li>
+<li>Uma função de Callback é uma função passada para outra função como um argumento, que é então invocado dentro da função externa para completar algum tipo de rotina ou ação.</li>
+<li>Uma função assíncrona (async) é uma função declarada com a palavra-chave <code>async</code>, e a palavra-chave <code>await</code> é permitida dentro dela. As palavras-chave <code>async</code> e <code>await</code> permitem que o comportamento assíncrono e baseado em promessas seja escrito em um estilo mais limpo, evitando a necessidade de configurar explicitamente as cadeias de promessas.</li>
+<li>Entender o conceito de assincronicidade em programação</li>
+<li>Escrever código assíncrono entendendo o conceito de promessas em JavaScript</li>
+<li>Utilizar os métodos, palavras-chaves e objetos do JavaScript para manipulação de promessas como &#39;Async/Await&#39;, &#39;.then()&#39;, &#39;Promise&#39;, etc</li>
+<li>Aprender em quais situações é necessário o uso de programação assíncrona</li>
+<li>Fazer chamadas em APIs com <code>fetch()</code></li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Manipulação de Erros</strong>:</li>
+<ul><li>O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.</li>
+<li>Conhecer e tratar as exceções mais comuns</li>
+<li>Saber quais os tipos de erros e em quais situações eles podem ocorrer</li>
+<li>Entender como o Node.js faz o manejo de erros</li>
+<li>Usar &#39;try&#39; e &#39;catch&#39; para tratamento de erros</li>
+<li>Em que ocasiões e de que forma utilizar o <code>throw</code></li>
+<li>Criar exceções específicas de acordo com a necessidade de sua aplicação</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Testes</strong>:</li>
+<ul><li>Testes unitários são testes que validam a funcionalidade de partes individuais do seu código.</li>
+<li>Testes E2E simulam a experiência do usuário ao interagir com a aplicação, garantindo que todos os componentes funcionem juntos como esperado.</li>
+<li>Vue Test Utils é a biblioteca oficial para testes de componentes Vue.</li>
+<li>Aprenda a escrever testes básicos para seus componentes Vue, verificando se eles são renderizados corretamente.</li>
+<li>Os métodos dos componentes são partes cruciais do código que muitas vezes contêm lógica complexa. Aprenda a testá-los efetivamente.</li>
+<li>A injeção de dependência pode facilitar o teste de partes do seu código que dependem de serviços ou outros componentes.</li>
+<li>Se você estiver usando Vuex, Pinia ou Vue Router em seu aplicativo, aprender a lidar com eles nos testes é crucial.</li>
+<li>Cypress é uma ferramenta comum para realizar testes E2E em aplicações web, incluindo Vue. Instale e configure o Cypress para o seu projeto.</li>
+<li>Comece a escrever testes que simulam ações do usuário, como clicar em botões, preencher formulários e navegar entre as páginas.</li>
+<li>Os comandos personalizados ajudam a simplificar os testes, evitando a repetição de códigos de teste.</li>
+<li>Aprenda a manipular e testar diferentes estados da sua aplicação, como usuários logados e deslogados.</li>
+<li>Integre seus testes E2E ao seu processo de integração contínua/deploy contínuo (CI/CD) para garantir que sua aplicação esteja sempre funcionando como esperado.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cypress</strong>:</li>
+<ul><li>Criar e executar testes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Babel - Fundamentos</strong>:</li>
+<ul><li>Babel é um compilador JavaScript. É uma ferramentas usada principalmente para converter código ECMAScript 2015+ em uma versão compatível com versões anteriores do JavaScript em navegadores ou ambientes atuais e mais antigos.</li>
+<li>Compreender como Babel converte a sintaxe para JavaScript</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Performance</strong>:</li>
+<ul><li>Aprenda a usar ferramentas de profiling, como a Vue Devtools e o Performance tab no Chrome Devtools, para entender onde seu aplicativo pode estar sofrendo em termos de desempenho.</li>
+<li>Estude técnicas de otimização de carga de página, como lazy-loading, prefetching e preloading.</li>
+<li>Compreenda a importância de escolher a arquitetura certa para a sua aplicação Vue. Aprenda sobre padrões de projeto e como eles podem afetar a performance.</li>
+<li>Familiarize-se com as técnicas de redução do tamanho do bundle e tree-shaking para remover código desnecessário da sua aplicação.</li>
+<li>Aprenda a implementar a divisão de código para carregar apenas o código necessário para o usuário em um determinado momento.</li>
+<li>Aprofunde-se em técnicas de otimização de atualizações, como imutabilidade, estabilidade de props e uso de chaves em listas para minimizar re-renderizações desnecessárias.</li>
+<li>Entenda como garantir a estabilidade de props para evitar atualizações desnecessárias dos componentes.</li>
+<li>Familiarize-se com as diretivas v-once e v-memo e quando utilizá-las para otimizar a renderização de componentes.</li>
+<li>Aprenda sobre otimizações gerais como a virtualização de listas grandes, reduzindo a sobrecarga de reatividade para grandes estruturas imutáveis, e evitando abstrações de componentes desnecessárias.</li>
+<li>Entenda como a virtualização pode ser usada para exibir eficientemente grandes listas de dados, reduzindo a sobrecarga de renderização.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Componentes assíncronos</strong>:</li>
+<ul><li>Compreenda o que são e por que usar componentes assíncronos no Vue.</li>
+<li>Aprenda a criar um componente assíncrono básico usando a função defineAsyncComponent.</li>
+<li>Domine a renderização de um estado de loading enquanto o componente assíncrono é carregado.</li>
+<li>Implemente o tratamento de erros ao carregar o componente assíncrono.</li>
+<li>Aplique lazy loading nos seus componentes para melhorar a performance da aplicação.</li>
+<li>Use componentes assíncronos com Vue Router para carregar rotas sob demanda.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Teleporte</strong>:</li>
+<ul><li>Entenda o que é o Teleport e qual problema ele resolve no Vue.</li>
+<li>Aprenda a usar o componente <teleport> para renderizar conteúdo em um local diferente do DOM.</li>
+<li>Domine a propriedade &#39;to&#39; do Teleport, usada para especificar o local de destino no DOM.</li>
+<li>Explore como usar diretivas como v-if para controlar a renderização do conteúdo teleportado.</li>
+<li>Experimente casos de uso avançados, como teleportar modais, tooltips, notificações e muito mais.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue Slots</strong>:</li>
+<ul><li>Comece compreendendo o conceito de slots e como eles são usados para criar layouts personalizáveis e reutilizáveis em componentes Vue.</li>
+<li>Aprenda a usar slots anônimos, que são os slots padrão que você usa quando deseja inserir conteúdo personalizado no componente.</li>
+<li>Mergulhe em slots nomeados, que permitem que você personalize diferentes partes do layout do componente.</li>
+<li>Domine os scoped slots, que permitem o acesso aos dados do componente filho dentro do slot.</li>
+<li>Familiarize-se com a diretiva v-slot e como usá-la para criar slots nomeados e scoped slots.</li>
+<li>Descubra como usar slots dinâmicos para criar layouts ainda mais flexíveis.</li>
+<li>Entenda a diferença entre a nova sintaxe de slots no Vue 3 e a antiga no Vue 2 para garantir a compatibilidade com versões anteriores.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Quasar Framework</strong>:</li>
+<ul><li>Entenda o que é o Quasar e como ele se encaixa no ecossistema Vue.</li>
+<li>Configure o Quasar em seu ambiente de desenvolvimento local e aprenda como criar um novo projeto Quasar.</li>
+<li>Aprenda a usar os componentes pré-fabricados do Quasar, que são otimizados para eficiência e personalização.</li>
+<li>Domine o sistema de layout e roteamento do Quasar para construir aplicativos complexos e interativos.</li>
+<li>Aprenda a gerenciar o estado de sua aplicação Quasar com Vuex, a biblioteca de gerenciamento de estado do Vue.js.</li>
+<li>Conheça a CLI do Quasar, uma ferramenta poderosa para gerar, desenvolver e gerenciar seus projetos Quasar.</li>
+<li>Conheça as diferentes opções para o deploy de aplicações feitas com Quasar.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Nuxt</strong>:</li>
+<ul><li>Entenda o que é Nuxt.js, como ele funciona e quando usá-lo.</li>
+<li>Aprenda como instalar e configurar um projeto Nuxt.js a partir do zero.</li>
+<li>Familiarize-se com a estrutura de pastas de um projeto Nuxt.js e o que cada pasta faz.</li>
+<li>Compreenda a geração automática de rotas em Nuxt.js e como trabalhar com rotas dinâmicas.</li>
+<li>Aprenda a integrar soluções de gerenciamento do estado global em uma aplicação Nuxt.js.</li>
+<li>Entenda as diferenças entre SSR e SSG e como usá-los em Nuxt.js.</li>
+<li>Aprenda a usar plugins Nuxt.js para adicionar funcionalidades globais à sua aplicação.</li>
+<li>Explore como o middleware pode ajudá-lo a executar código antes de renderizar a página.</li>
+<li>Conheça as diferentes opções de deploy de uma aplicação Nuxt.js.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Pinia</strong>:</li>
+<ul><li>Aprenda os conceitos básicos do Vuex, o problema que ele resolve e quando usá-lo.</li>
+<li>Compreenda como o estado é armazenado no Vuex e como acessar o estado global em seus componentes Vue.</li>
+<li>Aprenda a usar getters para acessar valores derivados do estado.</li>
+<li>Descubra como realizar ações assíncronas através de actions.</li>
+<li>Aprenda como usar a store fora de componentes com o hook useStore</li>
+<li>Explore os guias de migração para mudar do vuex para o Pinia</li>
+<li>Mergulhe no universo do SSR combinando o poder do Pina com o Nuxt</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Provide / Inject</strong>:</li>
+<ul><li>Compreenda o que são e por que você pode precisar deles. Eles são usados para injetar dependências em componentes descendentes sem passar props em todos os níveis.</li>
+<li>Aprenda a usar a opção provide em um componente para fornecer dados que podem ser injetados em componentes descendentes.</li>
+<li>Veja como a opção inject é usada em um componente descendente para acessar dados fornecidos por um componente ancestral.</li>
+<li>Descubra como o Provide / Inject funciona com a Composition API, usando provide e inject funções no método setup.</li>
+<li>Saiba como reagir às mudanças nos valores fornecidos usando um objeto reativo ou ref.</li>
+<li>Aprenda a lidar com situações em que vários ancestrais fornecem a mesma chave.</li>
+<li>Embora seja uma ferramenta poderosa, o Provide / Inject deve ser usado com moderação. Entenda quando é apropriado usá-lo e quando é melhor evitar.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Suspense</strong>:</li>
+<ul><li>O Suspense é um componente embutido para orquestração de dependências assíncronas em uma árvore de componente. Ele pode interpretar um estado de carregamento enquanto espera por várias dependências assíncronas encaixadas em baixo da árvore de componente ser resolvida.</li>
+<li>Conhecer dependências assíncronas</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>NativeScript-Vue</strong>:</li>
+<ul><li>O NativeScript-Vue é um plugin NativeScript que permite usar Vue.js para criar seu aplicativo móvel.</li>
+<li>Criar apps com interface nativa</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Infraestrutura e Back-end</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+<ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
+<li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
+<li>Criar um repositório</li>
+<li>Clonar um repositório</li>
+<li>Fazer commit, push e pull de e para o repositório</li>
+<li>Reverter um commit</li>
+<li>Criar branches e pul requests</li>
+<li>Lidar com merge e conflitos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+<ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
+<li>Entender a diferença dos verbos HTTP</li>
+<li>Testar os requests e ver os status codes no navegador</li>
+<li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
+<li>Baixar uma imagem com WGET</li>
+<li>Fazer um post</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+<ul><li>JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.</li>
+<li>Criar um objeto</li>
+<li>Transformar um objeto em uma string</li>
+<li>Transformar uma string em objeto</li>
+<li>Manipular um objeto</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+<ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
+<li>Conhecer os principais comandos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+<ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
+<li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
+<li>Conhecer os maiores provedores de cloud</li>
+<li>Especializar-se em algum provedor</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>YARN</strong>:</li>
+<ul><li>Yarn é um gerenciador de pacotes para seu código. Ele permite que você use e compartilhe código com outros desenvolvedores. O código é compartilhado por meio de algo chamado pacote (às vezes chamado de módulo). Um pacote contém todo o código que está sendo compartilhado, bem como um arquivo package.json que descreve o pacote.</li>
+<li>Gerenciar pacotes</li>
+<li>Gerenciar dependências</li>
+<li>Instalação de pacotes offline</li>
+<li>Comandos</li>
+<li>Arquivo yarn.lock</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vite</strong>:</li>
+<ul><li>Instalação: Instale o Vite globalmente e crie seu projeto Vue com um simples comando create-vite</li>
+<li>Explore a estrutura de diretórios do Vite e entenda como organizar seus componentes e rotas.</li>
+<li>Aprenda a usar os comandos de desenvolvimento e build do Vite para executar e otimizar sua aplicação.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: UX e Design</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design System</strong>:</li>
+<ul><li>Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.</li>
+<li>Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto</li>
+<li>Design tokens</li>
+<li>Estilos fundamentais</li>
+<li>Construção de componentes</li>
+<li>Microinterações</li>
+<li>Documentação</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Figma - Fundamentos</strong>:</li>
+<ul><li>Figma é uma aplicação web colaborativa para design de interfaces. O conjunto de recursos do Figma se concentra na interface do usuário e no design da experiência do usuário, com ênfase na colaboração em tempo real, utilizando uma variedade de editores de gráficos vetoriais e ferramentas de prototipagem.</li>
+<li>Criar layouts de páginas e componentes</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Componentes de design</strong>:</li>
+<ul><li>Conhecer os componentes descrevem um layout ou interface</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Sistemas de cores</strong>:</li>
+<ul><li>Definir uma paleta de cores que faça sentido para determinada interface</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Como usar fontes</strong>:</li>
+<ul><li>Escolher a fonte mais adequada para determinado projeto</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

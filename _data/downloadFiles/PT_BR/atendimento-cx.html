@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Atendimento CX</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Fundamentos de Customer Experience</strong>:</li>
+<ul><li>Definição e importância de CX</li>
+<li>Conceitos básicos de experiência do cliente e como ela impacta negócios</li>
+<li>Importância da personalização no atendimento</li>
+<li>Estratégias para melhorar a experiência do cliente  -</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Customer Centricity</strong>:</li>
+<ul><li>Estabelecer uma cultura organizacional voltada para o cliente.</li>
+<li>Desenvolver estratégias que priorizem as necessidades e expectativas do cliente.</li>
+<li>Alinhar as operações internas para garantir uma experiência positiva e consistente.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Jornada do cliente</strong>:</li>
+<ul><li>Mapear a jornada do cliente para identificar pontos de contato e melhorias.</li>
+<li>Aplicar técnicas de engajamento ao longo das diferentes etapas da jornada.</li>
+<li>Melhorar a retenção e satisfação por meio da gestão eficiente da experiência do cliente.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Métricas de qualidade de atendimento</strong>:</li>
+<ul><li>Identificar as principais métricas para avaliar a eficiência do atendimento ao cliente.</li>
+<li>Analisar indicadores de performance para tomada de decisão estratégica.</li>
+<li>Melhorar processos com base nos dados coletados das interações com clientes.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Feedback e melhoria contínua</strong>:</li>
+<ul><li>Implementar mecanismos eficazes para coletar feedback de clientes.</li>
+<li>Analisar feedbacks para identificar padrões e oportunidades de melhoria.</li>
+<li>Promover uma cultura de aprendizado contínuo com base nas avaliações dos clientes.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Encantamento e retenção</strong>:</li>
+<ul><li>Criar estratégias para fidelizar clientes por meio de experiências positivas.</li>
+<li>Implementar práticas que surpreendam e encantem o cliente.</li>
+<li>Melhorar a retenção por meio de um atendimento proativo e personalizado.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de carteira de clientes</strong>:</li>
+<ul><li>Desenvolver um sistema de gestão eficiente para organizar a carteira de clientes</li>
+<li>Identificar clientes estratégicos e personalizar o atendimento</li>
+<li>Aumentar a receita através de uma gestão ativa e orientada para resultados.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Comunicação e relacionamento</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Comunicação assertiva e não violenta</strong>:</li>
+<ul><li>Aplicar técnicas para manter uma comunicação clara, empática e respeitosa.</li>
+<li>Gerenciar conflitos de maneira assertiva para alcançar acordos satisfatórios.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Negociação no atendimento</strong>:</li>
+<ul><li>Desenvolver habilidades de negociação focadas em soluções eficazes para clientes e empresa.</li>
+<li>Utilizar estratégias de persuasão para influenciar positivamente as decisões dos clientes.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Tecnologia e Automação</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vendas baseadas em necessidades</strong>:</li>
+<ul><li>Identificar as necessidades específicas dos clientes durante o processo de venda.</li>
+<li>Oferecer soluções personalizadas que atendam às expectativas dos clientes.</li>
+<li>Melhorar a experiência de compra através de uma abordagem consultiva.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

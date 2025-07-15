@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Cibersegurança</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+<ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
+<li>Conhecer os principais comandos</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Fundamentos</strong>:</li>
+<ul><li>Python é uma linguagem de programação de alto nível, de uso geral, amplamente utilizada em aplicações web, desenvolvimento de software, ciência de dados e Machine Learning. Sua filosofia de projeto enfatiza a legibilidade do código com o uso de indentação significativa. Python é dinamicamente tipada e tem um garbage collector.</li>
+<li>Conhecer os tipos primitivos</li>
+<li>Declarar variáveis, considerando os diferentes tipos</li>
+<li>Usar estruturas condicionais (&#39;if&#39;, &#39;else&#39;)</li>
+<li>Conhecer os operadores de atribuição e comparação</li>
+<li>Usar estruturas de repetição e laços (&#39;while&#39;, &#39;for&#39;)</li>
+<li>Usar funções, passando parâmetros e argumentos</li>
+<li>Manipular métodos</li>
+<li>Manipular arrays e listas</li>
+<li>Obter dados de uma API</li>
+<li>Criar construtores</li>
+<li>Funções anônimas</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Criptografia - Fundamentos</strong>:</li>
+<ul><li>Criptografia em segurança virtual é a conversão de dados de um formato legível em um formato codificado. Os dados criptografados só podem ser lidos ou processados ​​depois de serem descriptografados.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Framework de Cibersegurança</strong>:</li>
+<ul><li>O Framework de Cibersegurança são guias de orientação para as organizações - em qualquer setor ou comunidade - que buscam melhorar o gerenciamento de riscos de segurança cibernética por meio da utilização de Framework. Embora o Framework de Cibersegurança não seja uma abordagem única para gerenciar riscos de segurança cibernética para organizações, em última análise, visa reduzir e gerenciar melhor esses riscos. Como tal, este guia destina-se a toda e qualquer organização, independentemente do setor ou tamanho.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Técnicas Hacker</strong>:</li>
+<ul><li>Entender as metodologias e as técnicas que os invasores usam para realizar o reconhecimento como uma etapa de pré-ataque, incluindo como eles usam inteligência de código aberto, varredura de rede e ataques de enumeração de alvos para encontrar as lacunas na segurança de sua rede.</li>
+<li>Usar técnicas de invasores para avaliar a segurança de uma rede de destino, avaliando protocolos e endpoints populares para Windows, Linux e destinos de nuvem.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise de Vulnerabilidades</strong>:</li>
+<ul><li>Técnicas e táticas de framework de vários serviços e ferramentas que oferece uma solução de varredura e gerenciamento de vulnerabilidade.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Firewalls, IDS e IPS</strong>:</li>
+<ul><li>Definições e diferenças entre dispositivos de segurança de rede, firewalls, sistemas de prevenção de intrusão (IPS) e sistemas de detecção de intrusão (IDS).</li>
+<li>Um firewall permite o tráfego dependendo de um conjunto de regras que foram configuradas. Ele é baseado nos endereços de origem, destino e porta. Um firewall pode negar qualquer tráfego que não satisfaça os critérios especificados.</li>
+<li>IDS são dispositivos de sistema de monitoramento passivo que monitoram o tráfego de rede à medida que viajam pela rede, comparam padrões de assinatura, e acionar um alarme se for detectada atividade suspeita ou ameaça de segurança conhecida.</li>
+<li>O IPS é um dispositivo ativo que impede ataques, bloqueando-os.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Investigação Digital - Fundamentos</strong>:</li>
+<ul><li>Investigação Digital é o uso da ciência para investigar crimes digfitais e determinar fatos, que surgiu a partir do uso e disseminação de sistemas digitais, como computadores e smartphones.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Quebra de senhas</strong>:</li>
+<ul><li>Em criptoanálise e segurança, a quebra de senhas é o processo de recuperação de senhas de dados que foram armazenados ou transmitidos por um sistema de computador de forma codificada. Uma abordagem comum (ataque de força bruta) é tentar repetidamente suposições para a senha e compará-las com um hash criptográfico disponível da senha.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Open-Source Intelligence</strong>:</li>
+<ul><li>OSINT (do inglês Open Source Intelligence) trata-se de um recurso que pode ser traduzido de uma forma simplificada como &quot;Inteligência de Fontes Abertas&quot;. Trata-se de um conjunto de atividades para coletar, armazenar e analisar as informações de fontes públicas, basicamente, qualquer dado sobre uma empresa ou pessoa que possa ser encontrado por meio de ferramentas da Internet ou OSINT framework, como os buscadores.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Centro de Operações de Segurança</strong>:</li>
+<ul><li>O SOC (Security Operations Center) é o departamento que vem para planejar e respaldar toda a estratégia de segurança da T.I, monitorando, prevenindo e remediando brechas, falhas e possíveis ataques, tudo de maneira proativa.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Penetration Testing - Fundamentos</strong>:</li>
+<ul><li>Pentest (Penetration Testing) é a prática de testar um sistema de computador, rede ou aplicativo da Web para encontrar vulnerabilidades que um invasor possa explorar, simulando um ataque contra os ativos de TI de uma organização.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança de Endpoint</strong>:</li>
+<ul><li>A segurança de endpoint, ou proteção de endpoint, é a abordagem de segurança cibernética para defender endpoints como desktops, laptops e dispositivos móveis contra atividades maliciosas.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Metasploit - Ataque e Análise</strong>:</li>
+<ul><li>Metasploit é a estrutura de teste de penetração mais usada do mundo.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Web application - Segurança</strong>:</li>
+<ul><li>A segurança de aplicativos da Web (também conhecida como Web AppSec) é a ideia de criar sites para funcionar conforme o esperado, mesmo quando estão sob ataque. O conceito envolve uma coleção de controles de segurança projetados em um aplicativo da Web para proteger seus ativos de agentes potencialmente maliciosos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Web application - Vulnerabilidade</strong>:</li>
+<ul><li>As vulnerabilidades de aplicativos da Web envolvem uma falha ou fraqueza do sistema em um aplicativo baseado na Web. Eles existem há anos, em grande parte devido à não validação ou limpeza de entradas de formulário, servidores web mal configurados e falhas de design de aplicativos, e podem ser explorados para comprometer a segurança do aplicativo. Essas vulnerabilidades não são iguais a outros tipos comuns de vulnerabilidades, como rede ou ativo. Eles surgem porque os aplicativos da Web precisam interagir com vários usuários em várias redes, e esse nível de acessibilidade é facilmente aproveitado pelos hackers.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gerenciamento de Dispositivos Móveis</strong>:</li>
+<ul><li>O gerenciamento de dispositivos móveis refere-se a qualquer ferramenta ou software projetado para ajudar os administradores para controlar e proteger dispositivos móveis como smartphones e tablets em uma organização. O gerenciamento de dispositivos móveis é uma parte importante do gerenciamento de  mobilidade empresarial  e do gerenciamento de endpoints, especialmente à medida que mais empresas adotam políticas de BYOD (traga seu próprio dispositivo) que permitem que os funcionários acessem dados, arquivos e aplicativos da empresa em seus dispositivos pessoais.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SIEM e SOAR</strong>:</li>
+<ul><li>Security Information and Event Management (SIEM) são softwares que agregam e analisam informações de várias fontes diferentes em toda a infra-estrutura.</li>
+<li>Security Orchestration, Automation, and Response (SOAR) irá ajudar com o gerenciamento de ameaças e vulnerabilidades, resposta a incidentes de segurança e automação da operação de segurança.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Hardening de Servidores</strong>:</li>
+<ul><li>A proteção do servidor é um conjunto de disciplinas e técnicas que melhoram a segurança de um servidor &#39;em produção&#39;. Hardening é um requisito de estruturas de segurança em diversos frameworks.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise Forense na Nuvem</strong>:</li>
+<ul><li>A investigação de dados armazenados na nuvem pode ser uma variedade de abordagens, desde investigações de inteligência de código aberto (OSINT) até investigações de contas na nuvem de indivíduos participantes que divulgam suas credenciais de login (mais frequentemente de vítimas e testemunhas do que de suspeitos), para obter e análise de devoluções de garantias de provedores de serviços em nuvem para obter acesso às contas de suspeitos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Recuperação de Dados</strong>:</li>
+<ul><li>A recuperação de dados é um processo orientado por software que permite recuperar e restaurar arquivos perdidos, excluídos, inacessíveis, corrompidos ou danificados para que você possa voltar ao trabalho rapidamente.  À medida que o cenário de negócios e nossas vidas em geral se tornam mais dependentes de dados, cresce a necessidade de proteger os sistemas de dados.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança de Contêineres</strong>:</li>
+<ul><li>A segurança de contêineres é o processo de combinar políticas de segurança para assegurar que a integridade do contêiner esteja protegida. A segurança do contêiner é importante porque a imagem do contêiner contém todos os componentes que, eventualmente, executarão seu aplicativo. Se houver vulnerabilidades à espreita na imagem do contêiner, o risco e a gravidade potencial dos problemas de segurança durante a produção aumentam.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise Forense de Memória</strong>:</li>
+<ul><li>A análise forense de memória (às vezes chamada de análise de memória) refere-se à análise de dados voláteis no despejo de memória de um computador. Os profissionais de segurança da informação realizam análises forenses de memória para investigar e identificar ataques ou comportamentos maliciosos que não deixam rastros facilmente detectáveis ​​nos dados do disco rígido.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise Forense de Rede</strong>:</li>
+<ul><li>A análise forense de rede diz respeito à coleta, monitoramento e análise de atividades de rede para descobrir a origem de ataques, vírus, intrusões ou violações de segurança que ocorrem em uma rede ou no tráfego de rede. Como tal, a análise forense de rede é considerada juntamente com a análise forense móvel ou a análise forense de imagem digital, como residindo sob o guarda-chuva da análise forense digital.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Scripts PowerShell para segurança</strong>:</li>
+<ul><li>Um script ofuscado pode ser malicioso e difícil de detectar com inspeção visual durante o processo de aprovação do script. Revise visualmente os scripts do PowerShell e use ferramentas de inspeção para ajudar a detectar problemas de script suspeitos. Essas ferramentas nem sempre podem determinar a intenção do autor do PowerShell, portanto, podem chamar a atenção para um script suspeito.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Arquitetura de Segurança de Rede</strong>:</li>
+<ul><li>A segurança de rede prepara você para tarefas como proteger os dados da empresa contra roubo, danos, interrupções e outros. Um profissional da área irá projetar e implementar auma arquitetura segura para dispositivos de rede, bem como oferecer suporte de segurança e garantir a integridade deles.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Threat Hunting</strong>:</li>
+<ul><li>A busca de ameaças (Threat Hunting) é a prática de procurar proativamente por ameaças cibernéticas que estão à espreita sem serem detectadas em uma rede. A caça a ameaças cibernéticas se aprofunda para encontrar agentes mal-intencionados em seu ambiente que passaram pelas defesas de segurança de endpoint iniciais.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança física</strong>:</li>
+<ul><li>A segurança física é a proteção de pessoas, propriedades e ativos físicos de ações e eventos que podem causar danos ou perdas. Embora muitas vezes negligenciada em favor da segurança cibernética, a segurança física é igualmente importante.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gerenciamento de Resposta a Incidentes</strong>:</li>
+<ul><li>A resposta a incidentes é um processo estruturado que as organizações usam para identificar e lidar com incidentes de segurança cibernética. A resposta inclui vários estágios, incluindo preparação para incidentes, detecção e análise de um incidente de segurança, contenção, erradicação e recuperação total e análise e aprendizado pós-incidente.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise de Malware</strong>:</li>
+<ul><li>A análise de malware é o processo de compreensão do comportamento e da finalidade de um arquivo ou URL suspeito. A saída da análise ajuda na detecção e mitigação da ameaça potencial.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança de Aplicações de Software</strong>:</li>
+<ul><li>A segurança de aplicações descreve as medidas de segurança no nível do aplicativo que visam impedir que dados ou códigos dentro da aplicação sejam roubados ou invadidos. Ele abrange as considerações de segurança que ocorrem durante o desenvolvimento e o design de aplicativos, mas também envolve sistemas e abordagens para proteger os aplicativos depois que eles são implantados.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Arquitetura Zero Trust</strong>:</li>
+<ul><li>Zero Trust é um modelo de segurança de rede baseado na filosofia de que nenhuma pessoa ou dispositivo dentro ou fora da rede de uma organização deve ter acesso para se conectar a sistemas ou serviços de TI até que seja autenticado e verificado continuamente.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança na Nuvem</strong>:</li>
+<ul><li>A segurança na nuvem, também conhecida como segurança da computação em nuvem, é um conjunto de medidas de segurança projetadas para proteger a infraestrutura, os aplicativos e os dados baseados em nuvem. Essas medidas garantem a autenticação de usuários e dispositivos, controle de acesso a dados e recursos e proteção de privacidade de dados. Eles também suportam a conformidade de dados regulatórios.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança Contínua - Automação e Monitoramento</strong>:</li>
+<ul><li>O monitoramento contínuo de segurança é uma abordagem de segurança que envolve a automatização de uma parte significativa do gerenciamento de segurança. Isso inclui detecção de vulnerabilidades, monitoramento de configurações de nuvem, identidades e seus direitos e segurança de dados.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Sistemas e tecnologias</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redes de Computadores - Fundamentos</strong>:</li>
+<ul><li>Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.</li>
+<li>Configurações de redes são essenciais para que seja possível acessar uma aplicação, principalmente se ela estiver na nuvem.</li>
+<li>Entenda melhor os componentes de rede e a suas atribuições</li>
+<li>Diferenciar os serviços disponibilizados a nível de rede</li>
+<li>Saber as diferenças entre as camadas de rede</li>
+<li>Saber o que é servidor web, proxy reverso e load balancer</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+<ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
+<li>Entender a diferença dos verbos HTTP</li>
+<li>Testar os requests e ver os status codes no navegador</li>
+<li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
+<li>Baixar uma imagem com WGET</li>
+<li>Fazer um post</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+<ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
+<li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
+<li>Conhecer os maiores provedores de cloud</li>
+<li>Especializar-se em algum provedor</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linux - Fundamentos</strong>:</li>
+<ul><li>Linux é um termo popularmente empregado para se referir a sistemas operacionais que utilizam o Kernel Linux. As distribuições incluem o Kernel Linux, além de softwares de sistema e bibliotecas.</li>
+<li>Conhecer o sistema de diretórios do Linux</li>
+<li>Compactar e descompactar arquivos</li>
+<li>Editar arquivos no console com o VI</li>
+<li>Gerenciar os processos rodando na máquina</li>
+<li>Conhecer as variáveis de ambiente e o PATH</li>
+<li>Gerenciar pacotes</li>
+<li>Realizar comunicação remota com o SSH e SCP</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Segurança da Informação</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de risco, ameaças e vulnerabilidades</strong>:</li>
+<ul><li>Gerenciar riscos é o processo de planejar, organizar e controlar recursos e pessoas para minimizar danos ou fazer com que os riscos virem oportunidades. Prever os riscos é uma prática importante, afinal, dessa forma é possível reverter o que pode dar errado e alcançar resultados positivos ao longo do processo.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Confidencialidade, Integridade e Disponibilidade</strong>:</li>
+<ul><li>Os 3 princípios fundamentais da segurança da informação. Qualquer bom programa de gerenciamento de segurança da informação deve ser projetado para alcançar os três princípios de segurança da informação são comumente conhecidos como CIA (em inglês, a sigla CIA significa &quot;Confidentiality&quot;, &quot;Integrity&quot; e &quot;Availability&quot;, o que corresponde à sigla CID em português — Confidencialidade, Integridade e Disponibilidade).</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gerenciamento de identidade e acesso (IAM)</strong>:</li>
+<ul><li>Gestão de identidades, também conhecida como gestão de identidades e acessos (GIA) ou pelo seu termo em inglês, identity and access management (IAM) está entre as disciplinas de segurança da informação que habilita os indivíduos corretos à acessar os recursos corretos no momento correto e pelos motivos corretos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conscientização de Segurança</strong>:</li>
+<ul><li>À medida que os ataques cibernéticos se tornam mais prevalentes e sofisticados, as empresas devem confiar mais em seus funcionários para garantir que eles não coloquem os dados em risco ou sejam vítimas de ransomware. Mas os funcionários estão mais ocupados do que nunca. E, criar uma cultura de cibersegurança no trabalho torna-se mais importante e mais desafiador quando os funcionários trabalham em casa.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Proteção de dados</strong>:</li>
+<ul><li>A proteção de dados é o processo de proteger informações importantes de forma que garanta a confidencialidade, integridade e a disponibilidade destes dados.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança em autenticação e senhas</strong>:</li>
+<ul><li>Uma senha forte faz toda diferença quando o assunto é proteção de dados. Afinal, ela é construída de maneira a dificultar e muito que seja quebrada por um hacker ou ataque de massa. A senha, você sabe, é um mecanismo que permite o acesso de uma pessoa a um determinado serviço.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>

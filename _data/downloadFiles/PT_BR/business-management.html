@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia Ágil - TechGuide</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background: #fff;
+      padding: 40px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #0066cc;
+    }
+
+    .header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #0066cc;
+      margin-bottom: 10px;
+    }
+
+    .header .subtitle {
+      font-size: 1.1rem;
+      color: #666;
+      font-weight: 400;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #0066cc;
+      margin: 30px 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #e0e0e0;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #333;
+      margin: 25px 0 15px 0;
+      padding-left: 10px;
+      border-left: 4px solid #0066cc;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #444;
+      margin: 20px 0 10px 0;
+    }
+
+    ul {
+      margin: 15px 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      line-height: 1.7;
+    }
+
+    .nivel {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      border-left: 5px solid #0066cc;
+    }
+
+    .nivel h2 {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 0;
+    }
+
+    .habilidade-auxiliar {
+      background: #fff3cd;
+      border-left: 5px solid #ffc107;
+    }
+
+    .habilidade-auxiliar h2 {
+      color: #856404;
+    }
+
+    .content>ul {
+      padding-left: 0;
+    }
+
+    .content>ul>li {
+      list-style: none;
+    }
+
+    .content>ul>li {
+      display: flex;
+      align-items: center;
+    }
+    .checkbox-wrapper {
+      display: inline-flex;
+      position: relative;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #0066cc;
+      border-radius: 4px;
+      background: white;
+      cursor: pointer;
+      position: relative;
+      transition: all 0.2s ease;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked {
+      background: #0066cc;
+      border-color: #0066cc;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:hover {
+      border-color: #0052a3;
+      box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
+    }
+
+    .checkbox-wrapper input[type="checkbox"]:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+
+    .description {
+      font-style: italic;
+      color: #666;
+      margin: 10px 0;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      border-left: 3px solid #0066cc;
+    }
+
+    .footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 2px solid #e0e0e0;
+      text-align: center;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+      }
+
+      .nivel {
+        break-inside: avoid;
+      }
+
+      h1,
+      h2,
+      h3 {
+        break-after: avoid;
+      }
+
+      .checkbox-wrapper input[type="checkbox"] {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Guia Ágil</h1>
+    <div class="subtitle">TechGuide - Alura</div>
+  </div>
+
+  <div class="content">
+    <h1>Gestão de Negócios</h1>
+<h2>Nivel 1</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Introdução a Gestão de Negócios</strong>:</li>
+<ul><li>Compreender os conceitos básicos de gestão de negócios e sua aplicação no dia a dia corporativo.</li>
+<li>Aprender a desenvolver estratégias organizacionais, incluindo planejamento e objetivos estratégicos.</li>
+<li>Explorar ferramentas modernas de gestão, como transformação digital, inovação e governança corporativa.</li>
+<li>Fortalecer habilidades de liderança e gestão de equipes para alcançar alta performance.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estrutura Organizacional e de Negócios</strong>:</li>
+<ul><li>Explorar diferentes tipos de estruturas organizacionais e seus impactos na eficiência empresarial.</li>
+<li>Compreender como criar uma cultura de segurança e inclusão em ambientes profissionais.</li>
+<li>Analisar como a estrutura organizacional influencia a tomada de decisão e a cultura da empresa.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Planejamento e Metas Estratégicas</strong>:</li>
+<ul><li>Compreender a importância do planejamento estratégico para alcançar objetivos organizacionais.</li>
+<li>Aprender a criar metas estratégicas claras e mensuráveis.</li>
+<li>Explorar o uso de frameworks como OKRs para alinhar esforços e medir progresso.</li>
+</ul></li></ul>
+<h2>Nivel 2</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão Estratégica e Tomada de Decisão</strong>:</li>
+<ul><li>Entender o papel da gestão estratégica na definição e alcance de objetivos organizacionais.</li>
+<li>Desenvolver habilidades para tomar decisões informadas com base em dados e análises.</li>
+<li>Explorar ferramentas e frameworks para otimizar a tomada de decisão no ambiente corporativo.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Projetos</strong>:</li>
+<ul><li>Compreender os fundamentos da gestão de projetos e sua aplicação no ambiente corporativo.</li>
+<li>Explorar metodologias ágeis como Scrum e Kanban para otimizar a execução de projetos.</li>
+<li>Aprender a utilizar ferramentas e técnicas de controle e desenvolvimento de produtos para melhorar o gerenciamento de projetos.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Marketing Estratégico e Análise de Mercado</strong>:</li>
+<ul><li>Compreender os fundamentos do marketing estratégico e sua aplicação no ambiente corporativo.</li>
+<li>Aprender a realizar análises de mercado eficazes para identificar oportunidades de negócio.</li>
+<li>Utilizar técnicas de análise de dados para suportar decisões estratégicas de marketing.</li>
+</ul></li></ul>
+<h2>Nivel 3</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Liderança e Gestão de Equipes</strong>:</li>
+<ul><li>Compreender os fundamentos da liderança eficaz e como aplicá-los na gestão de equipes.</li>
+<li>Desenvolver estratégias para fomentar a colaboração e construir relações produtivas no ambiente de trabalho.</li>
+<li>Explorar boas práticas de liderança para motivar e engajar equipes.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Transformação Digital e Inovação Empresarial</strong>:</li>
+<ul><li>Compreender os fundamentos da transformação digital e sua importância para o sucesso organizacional.</li>
+<li>Explorar os pilares culturais, estratégicos e tecnológicos que sustentam a transformação digital.</li>
+<li>Aprender como implementar processos de inovação para aumentar a eficiência e a competitividade.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Governança Corporativa e Compliance</strong>:</li>
+<ul><li>Compreender as diferenças e conexões entre governança corporativa e compliance.</li>
+<li>Explorar como essas práticas influenciam a estratégia e a competitividade das organizações.</li>
+<li>Aprender técnicas e metodologias para implementar governança corporativa eficaz e programas de compliance.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Gestão de Produtos</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos - Fundamentos</strong>:</li>
+<ul><li>Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.</li>
+<li>Definir visão clara e estratégia para o produto.</li>
+<li>Entender necessidades e preferências dos clientes.</li>
+<li>Especificar requisitos e funcionalidades do produto.</li>
+<li>Priorizar recursos com base no valor para o cliente e para o negócio.</li>
+<li>Analisar métricas e feedback para orientar decisões.</li>
+<li>Estar aberto a mudanças e ajuste a estratégia conforme necessário.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Management 3.0</strong>:</li>
+<ul><li>Management 3.0 é uma abordagem de gestão que enfatiza a colaboração, autonomia e melhoria contínua para liderar equipes em ambientes complexos e dinâmicos.</li>
+<li>Compartilhe informações e decisões abertamente.</li>
+<li>Permita que os membros da equipe tomem decisões e assumam responsabilidades.</li>
+<li>Promova uma cultura de feedback aberto e construtivo.</li>
+<li>Incentive experimentação e aprendizado constante.</li>
+<li>Aborde conflitos de forma colaborativa e construtiva.</li>
+<li>Encoraje a colaboração e o trabalho em equipe.</li>
+<li>Esteja preparado para mudanças e adapte-se rapidamente.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cultura Ágil</strong>:</li>
+<ul><li>Enfatizar o trabalho em equipe e a comunicação aberta.</li>
+<li>Promover feedback regular para melhorias rápidas e eficazes.</li>
+<li>Empoderar equipes autônomas para tomar decisões.</li>
+<li>Garantir processos e informações acessíveis a todos.</li>
+<li>Priorizar as necessidades e o feedback dos clientes.</li>
+<li>Fomentar o desenvolvimento incremental com ciclos curtos e frequentes.</li>
+<li>Demonstrar flexibilidade para ajustar processos conforme necessário.</li>
+<li>Entregar valor contínuo e mensurável ao cliente.</li>
+</ul></li></ul>
+<h2>Habilidade Auxiliar: Liderança</h2>
+<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Hábitos e Boas Práticas na Liderança</strong>:</li>
+<ul><li>Compreender o papel da liderança no engajamento do time e na promoção de um ambiente de alto desempenho.</li>
+<li>Aplicar estratégias eficazes para tornar as reuniões mais produtivas e focadas nos objetivos da equipe.</li>
+<li>Desenvolver a capacidade de implementar intervenções no dia a dia para promover boas práticas em gestão de pessoas.</li>
+<li>Aprimorar a assertividade na tomada de decisões, utilizando uma comunicação clara e direcionada para o sucesso da equipe.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Técnicas e Habilidades para Liderança</strong>:</li>
+<ul><li>Compreender as diferentes formas de trabalho remoto e como aproveitar seus benefícios e enfrentar seus desafios.</li>
+<li>Desenvolver um mindset digital que permita liderar e apoiar a equipe na transição para o trabalho remoto de forma eficaz.</li>
+<li>Adquirir habilidades essenciais para liderança remota, como comunicação clara, construção de confiança e engajamento da equipe.</li>
+<li>Aplicar técnicas para estimular a colaboração e gerenciar equipes remotas de forma eficiente, mantendo a produtividade e a coesão do time.</li>
+</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Guiando Pessoas para Alta Performance</strong>:</li>
+<ul><li>Dominar os fundamentos essenciais da liderança técnica para maximizar o desempenho das equipes e impulsionar resultados.</li>
+<li>Aplicar metodologias eficazes de gerenciamento de projetos que visam o crescimento e a eficiência da equipe técnica.</li>
+<li>Desenvolver habilidades para oferecer e receber feedback construtivo, promovendo um ambiente de melhoria contínua e colaboração.</li>
+<li>Cultivar um ambiente inclusivo que estimule a inovação, o protagonismo e o desenvolvimento individual dentro da equipe técnica.</li>
+</ul></li></ul>
+  </div>
+
+  <div class="footer">
+    <p>TechGuide - Alura</p>
+    <p>Alura, PM3 e FIAP</p>
+    <p>O Techguide.sh é um projeto open source</p>
+  </div>
+</body>
+
+</html>
