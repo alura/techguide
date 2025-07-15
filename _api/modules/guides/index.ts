@@ -30,6 +30,7 @@ const typeDefs = gql`
 
   type Guide {
     id: String
+    pdfFormId: String
     slug: String
     name: String
     tags: [String]
