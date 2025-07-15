@@ -25,9 +25,9 @@ jobs:
         git pull origin main
         git config --global user.name "${{ env.COMMIT_USERNAME }}"
         git config --global user.email ${{ env.COMMIT_EMAIL }}
-        npm install
-        npm run scripts:create:shareable_guides
-        npm run scripts:create:shareable_guides_pdf
+        yarn install
+        yarn scripts:create:shareable_guides
+        yarn scripts:create:shareable_guides_pdf
         echo "[END]"
         git add .
         git commit -m "docs: update downloadable files" || echo "Up to date with main"

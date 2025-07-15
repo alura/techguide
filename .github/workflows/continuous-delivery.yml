@@ -24,6 +24,6 @@ jobs:
         echo $VERCEL_PROJECT_ID
         echo $VERCEL_TOKEN
         echo "===="
-        npm install && npm run build:static
+        yarn install && yarn build:static
         npx vercel ./out --yes --token=$VERCEL_TOKEN --prod
         echo "deployed with success!"
