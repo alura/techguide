@@ -3,6 +3,7 @@ import ScreenHeroContainer from "@src/patterns/ScreenHeroContainer";
 import { pageHOC } from "@src/wrappers/pageHOC";
 import TShape from "./patterns/TShape";
 import { PathScreenGetGuideBySlugQuery } from "@src/gql_types";
+import { HubSpotForm } from "@src/components/HubSpotForm";
 
 interface PathScreenProps {
   external?: string;
@@ -11,6 +12,8 @@ interface PathScreenProps {
 function PathScreen({ external, guide }: PathScreenProps) {
   return (
     <ScreenHeroContainer guide={guide}>
+      {guide.pdfFormId && <HubSpotForm formId={guide.pdfFormId} />}
+
       <TShape guide={guide} externalGuideCreator={external} />
     </ScreenHeroContainer>
   );

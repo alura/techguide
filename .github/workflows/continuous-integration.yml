@@ -37,7 +37,7 @@ jobs:
         echo $VERCEL_PROJECT_ID
         echo $VERCEL_TOKEN
         echo "===="
-        yarn install && yarn build:static
+        npm install && npm run build:static
         DEPLOY_OUTPUT=$(npx vercel ./out --yes --token=$VERCEL_TOKEN)
         echo "$DEPLOY_OUTPUT"
         echo "deployed with success!"
@@ -66,7 +66,7 @@ jobs:
         node-version: 'v20.14.0'
     - name: "Start: Lint"
       run: |
-        yarn install && yarn lint
+        npm install && npm run lint
   test:
     runs-on: ubuntu-latest
     steps:
@@ -77,4 +77,4 @@ jobs:
         node-version: 'v20.14.0'
     - name: "Start: Unit Testing"
       run: |
-        yarn install && yarn test
+        npm install && npm run test

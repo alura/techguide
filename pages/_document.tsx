@@ -60,6 +60,10 @@ export default class MyDocument extends Document<DocumentProps> {
               __html: `body { font-family: "Inter", sans-serif; }`,
             }}
           />
+          <Script
+            strategy="afterInteractive"
+            src="//js.hsforms.net/forms/embed/v2.js"
+          />
           {/* <!-- Google Tag Manager --> */}
           <Script id="google-tag-manager" strategy="afterInteractive">{`
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
