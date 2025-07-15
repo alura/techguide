@@ -1,6 +1,12 @@
 import React from "react";
 
-export function HubspotForm({ formId }: { formId: string }) {
+export function HubspotForm({
+  formId,
+  onFormSubmitted,
+}: {
+  formId: string;
+  onFormSubmitted?: () => void;
+}) {
   const [isClient, setIsClient] = React.useState(false);
 
   React.useEffect(() => {
@@ -20,6 +26,7 @@ export function HubspotForm({ formId }: { formId: string }) {
             formId: formId,
             region: "na1",
             target: `#hubspot-form-${formId}`,
+            onFormSubmitted: onFormSubmitted,
           });
         }
       };
@@ -31,13 +38,14 @@ export function HubspotForm({ formId }: { formId: string }) {
         formId: formId,
         region: "na1",
         target: `#hubspot-form-${formId}`,
+        onFormSubmitted: onFormSubmitted,
       });
     }
   }, [formId]);
 
   // Only render the container div on the client
   if (!isClient) {
-    return <div id={`hubspot-form-${formId}`} style={{ minHeight: "200px" }} />;
+    return <div id={`hubspot-form-${formId}`} />;
   }
 
   return (
