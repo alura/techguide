@@ -27,6 +27,9 @@ jobs:
         git config --global user.email ${{ env.COMMIT_EMAIL }}
         yarn install
         yarn scripts:create:shareable_guides
+        yarn scripts:create:shareable_guides_pdf
+
+
         echo "[END]"
         git add .
         git commit -m "docs: update downloadable files" || echo "Up to date with main"
