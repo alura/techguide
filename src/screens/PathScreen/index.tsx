@@ -18,10 +18,11 @@ function PathScreen({ external, guide }: PathScreenProps) {
           onFormSubmitted={() => {
             // eslint-disable-next-line no-console
             console.log("form submitted");
+            // - slug
+            // - locale
+            //  https://raw.githubusercontent.com/alura/techguide/refs/heads/main/_data/downloadFiles/PT_BR/agile.pdf
           }}
         />
-
-        https://raw.githubusercontent.com/alura/techguide/refs/heads/main/_data/downloadFiles/PT_BR/${guide.slug}.pdf
 )} */}
       <TShape guide={guide} externalGuideCreator={external} />
     </ScreenHeroContainer>
