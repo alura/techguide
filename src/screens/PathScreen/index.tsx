@@ -20,7 +20,9 @@ function PathScreen({ external, guide }: PathScreenProps) {
             console.log("form submitted");
           }}
         />
-      )} */}
+
+        https://raw.githubusercontent.com/alura/techguide/refs/heads/main/_data/downloadFiles/PT_BR/${guide.slug}.pdf
+)} */}
       <TShape guide={guide} externalGuideCreator={external} />
     </ScreenHeroContainer>
   );
