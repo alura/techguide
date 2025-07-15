@@ -3,6 +3,7 @@ query PathScreenGetGuideBySlug($input: GuideInput, $locale: SiteLocale) {
     slug
     name
     video
+    pdfFormId
     faq {
       title
       answer

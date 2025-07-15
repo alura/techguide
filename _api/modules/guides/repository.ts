@@ -49,6 +49,7 @@ export function guidesRepository() {
             slug: slug,
             tags: fileContent.tags || [],
             name: fileContent.name,
+            pdfFormId: fileContent.pdfFormId,
             expertises: fileContent.expertise.map((expertise) => {
               let cards = [];
 
