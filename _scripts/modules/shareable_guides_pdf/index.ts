@@ -1,7 +1,7 @@
 import { log } from "@scripts/modules/infra/log";
 import * as fs from "fs";
 import * as path from "path";
-import puppeteer from "puppeteer";
+import puppeteer, { Browser } from "puppeteer";
 import { parseMarkdownToHTML } from "./parseMarkdownToHTML";
 import { processHtml } from "./htmlProcessor";
 import { createHash } from "crypto";
@@ -53,7 +53,7 @@ function shouldRegeneratePDF(markdownPath: string, pdfPath: string): boolean {
 // Function to generate PDF for a single markdown file
 async function generatePDFForFile(
   markdownPath: string,
-  browser: puppeteer.Browser,
+  browser: Browser,
   template: string
 ): Promise<void> {
   const fileName = path.basename(markdownPath, ".md");
