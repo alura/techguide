@@ -55,6 +55,10 @@ export function HubspotForm({
         /* Container styles */
         .hubspot-form {
           min-height: 200px;
+          min-width: 200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           padding: 20px;
           border-radius: 12px;
           background: linear-gradient(
@@ -124,7 +128,7 @@ export function HubspotForm({
           margin-top: 23px;
           background: #0052ff;
           color: white !important;
-          border: none !important;
+          border: 1px solid #0052ff !important;
           padding: 14px 28px !important;
           border-radius: 8px !important;
           font-size: 16px !important;
@@ -140,7 +144,9 @@ export function HubspotForm({
         }
 
         .hubspot-form .hs-button:hover {
-          background-color: red;
+          background-color: transparent;
+          color: #0052ff;
+          border: 1px solid #0052ff;
         }
 
         .hubspot-form .hs-button:active {

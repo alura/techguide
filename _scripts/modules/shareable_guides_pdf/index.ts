@@ -54,7 +54,8 @@ function shouldRegeneratePDF(markdownPath: string, pdfPath: string): boolean {
 async function generatePDFForFile(
   markdownPath: string,
   browser: Browser,
-  template: string
+  template: string,
+  forceRegenerate: string[] = []
 ): Promise<void> {
   const fileName = path.basename(markdownPath, ".md");
   const dirPath = path.dirname(markdownPath);
@@ -63,7 +64,8 @@ async function generatePDFForFile(
   log(`Processing: ${fileName}.md`);
 
   // Check if regeneration is needed
-  if (!shouldRegeneratePDF(markdownPath, pdfPath)) {
+  const shouldForce = forceRegenerate.includes(fileName);
+  if (!shouldForce && !shouldRegeneratePDF(markdownPath, pdfPath)) {
     log(`✓ Skipped (no changes): ${fileName}.pdf`);
     return;
   }
@@ -77,9 +79,11 @@ async function generatePDFForFile(
 
     // Process HTML with custom transformations
     const styledHtmlContent = processHtml(htmlContent);
+    const guideName = markdownContent.split("\n")[0].replace("# ", "");
 
     // Create the complete HTML document with fixed date for determinism
     const completeHtml = template
+      .replace("{{guideName}}", guideName)
       .replace("{{content}}", styledHtmlContent)
       .replace("{{date}}", "2024-01-01"); // Fixed date for deterministic output
 
@@ -127,6 +131,7 @@ async function generatePDFForFile(
 }
 
 const main = async () => {
+  const forceRegenerate = ["agile"];
   try {
     log("Starting PDF generation for all markdown files...");
 
@@ -189,8 +194,16 @@ const main = async () => {
         const markdownPath = path.join(languagePath, markdownFile);
         const pdfPath = markdownPath.replace(".md", ".pdf");
 
-        if (shouldRegeneratePDF(markdownPath, pdfPath)) {
-          await generatePDFForFile(markdownPath, browser, template);
+        const fileName = path.basename(markdownFile, ".md");
+        const shouldForce = forceRegenerate.includes(fileName);
+
+        if (shouldForce || shouldRegeneratePDF(markdownPath, pdfPath)) {
+          await generatePDFForFile(
+            markdownPath,
+            browser,
+            template,
+            forceRegenerate
+          );
           totalProcessed++;
         } else {
           totalSkipped++;
