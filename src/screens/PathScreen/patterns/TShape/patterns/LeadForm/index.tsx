@@ -25,6 +25,18 @@ export function LeadForm({
                 margin: "0 auto",
                 gap: "16px",
                 padding: "16px",
+                justifySelf: "center",
+                flex: 1,
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+              onClick={(e) => {
+                if (e.target.closest(".hubspot-form")) {
+                  return;
+                }
+                modal.close();
               }}
             >
               <HubspotForm
