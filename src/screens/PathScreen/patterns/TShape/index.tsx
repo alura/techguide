@@ -5,6 +5,7 @@ import { TItemCard } from "./patterns/TItemCard";
 import { useI18n, useI18nLocale } from "@src/infra/i18n";
 import { parseContent } from "@src/infra/i18n/parseContent";
 import { OptionalIcon } from "@src/theme/icons/OptionalIcon";
+import { LeadForm } from "./patterns/LeadForm";
 
 interface TShapeProps {
   guide: PathScreenGetGuideBySlugQuery["guide"];
@@ -255,35 +256,40 @@ export default function TShape({ guide, externalGuideCreator }: TShapeProps) {
           {i18n.content("TSHAPE.OPTIONAL.DESCRIPTION")}
         </Text>
         {!isExternalGuide && (
-          <Link
-            href={`https://github.com/alura/techguide/blob/main/_data/downloadFiles/${locale}/${guide.slug}.md`}
-            styleSheet={{
-              marginTop: "23px",
-              width: "100%",
-              maxWidth: "400px",
-              display: "flex",
-              gap: "6px",
-              alignItems: "center",
-              justifyContent: "center",
-              flexDirection: "row",
-              borderRadius: "8px",
-              border: "1px solid #0052FF",
-              textDecoration: "none",
-              padding: "14px",
-              fontSize: "14px",
-              backgroundColor: "#0052FF",
-              hover: {
-                opacity: 1,
-                backgroundColor: "transparent",
-              },
-              focus: {
-                opacity: 1,
-                backgroundColor: "transparent",
-              },
-            }}
-          >
-            {i18n.content("TSHAPE.BUTTON.DOWNLOAD_T_FILE")}
-          </Link>
+          <>
+            {guide.pdfFormId && <LeadForm guide={guide} />}
+            {!guide.pdfFormId && (
+              <Link
+                href={`https://github.com/alura/techguide/blob/main/_data/downloadFiles/${locale}/${guide.slug}.md`}
+                styleSheet={{
+                  marginTop: "23px",
+                  width: "100%",
+                  maxWidth: "400px",
+                  display: "flex",
+                  gap: "6px",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  flexDirection: "row",
+                  borderRadius: "8px",
+                  border: "1px solid #0052FF",
+                  textDecoration: "none",
+                  padding: "14px",
+                  fontSize: "14px",
+                  backgroundColor: "#0052FF",
+                  hover: {
+                    opacity: 1,
+                    backgroundColor: "transparent",
+                  },
+                  focus: {
+                    opacity: 1,
+                    backgroundColor: "transparent",
+                  },
+                }}
+              >
+                {i18n.content("TSHAPE.BUTTON.DOWNLOAD_T_FILE")}
+              </Link>
+            )}
+          </>
         )}
         <Link
           href="/"
