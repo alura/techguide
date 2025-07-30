@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -225,19 +265,20 @@
 <li>Crear constructores.</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Podcast</code> Qué se necesita para ser programador junior en java (<a href="https://open.spotify.com/episode/0sBiBS6TpdHjRUzm1oQm2O?si=b2a759c65ca44dd5">https://open.spotify.com/episode/0sBiBS6TpdHjRUzm1oQm2O?si=b2a759c65ca44dd5</a>)</li>
-<li><code>Artículo</code> ¿Qué es la tecnología Java y por qué la necesito? (<a href="https://www.java.com/es/download/help/whatis_java.html">https://www.java.com/es/download/help/whatis_java.html</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> Java: una guía para iniciar en esta tecnología (<a href="https://www.aluracursos.com/blog/java-una-guia-para-iniciar-tecnologia">https://www.aluracursos.com/blog/java-una-guia-para-iniciar-tecnologia</a>)</li>
-<li><code>YouTube</code> ¿Por qué utilizar Java actualmente? (<a href="https://www.youtube.com/watch?v=3kNuK-XAHEY&t=1s">https://www.youtube.com/watch?v=3kNuK-XAHEY&amp;t=1s</a>)</li>
-<li><code>YouTube</code> La magia detrás de Java (<a href="https://www.youtube.com/watch?v=GrEO8nZzyZM&t=34s">https://www.youtube.com/watch?v=GrEO8nZzyZM&amp;t=34s</a>)</li>
-<li><code>Artículo</code> ¿Cómo empezar a desarrollar en java? (<a href="https://www.aluracursos.com/blog/como-empezar-a-desarrollar-en-java">https://www.aluracursos.com/blog/como-empezar-a-desarrollar-en-java</a>)</li>
-<li><code>Artículo</code> Las características más destacables de Java 8 en adelante (<a href="https://www.aluracursos.com/blog/caracteristica-destacables-java8-delante">https://www.aluracursos.com/blog/caracteristica-destacables-java8-delante</a>)</li>
-<li><code>Artículo</code> Java: Conozca el método main (<a href="https://www.aluracursos.com/blog/java-conozca-el-metodo-main">https://www.aluracursos.com/blog/java-conozca-el-metodo-main</a>)</li>
-<li><code>Artículo</code> Importando clases en Java (<a href="https://www.aluracursos.com/blog/Importando-clases-en-java">https://www.aluracursos.com/blog/Importando-clases-en-java</a>)</li>
-<li><code>Artículo</code> Como hacer un import static en java (<a href="https://www.aluracursos.com/blog/como-hacer-un-import-static-en-java">https://www.aluracursos.com/blog/como-hacer-un-import-static-en-java</a>)</li>
-<li><code>Artículo</code> Recibiendo datos en Java (<a href="https://www.aluracursos.com/blog/recibiendo-datos-en-java">https://www.aluracursos.com/blog/recibiendo-datos-en-java</a>)</li>
-<li><code>Curso</code> Java: creando tu primera aplicación (<a href="https://app.aluracursos.com/course/java-creando-primera-aplicacion?utm_source=gnarus&utm_medium=timeline">https://app.aluracursos.com/course/java-creando-primera-aplicacion?utm_source=gnarus&amp;utm_medium=timeline</a>)</li>
+<ul><li><code data-kind="podcast">Podcast</code> Qué se necesita para ser programador junior en java (<a href="https://open.spotify.com/episode/0sBiBS6TpdHjRUzm1oQm2O?si=b2a759c65ca44dd5">https://open.spotify.com/episode/0sBiBS6TpdHjRUzm1oQm2O?si=b2a759c65ca44dd5</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es la tecnología Java y por qué la necesito? (<a href="https://www.java.com/es/download/help/whatis_java.html">https://www.java.com/es/download/help/whatis_java.html</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Java: una guía para iniciar en esta tecnología (<a href="https://www.aluracursos.com/blog/java-una-guia-para-iniciar-tecnologia">https://www.aluracursos.com/blog/java-una-guia-para-iniciar-tecnologia</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Por qué utilizar Java actualmente? (<a href="https://www.youtube.com/watch?v=3kNuK-XAHEY&t=1s">https://www.youtube.com/watch?v=3kNuK-XAHEY&amp;t=1s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> La magia detrás de Java (<a href="https://www.youtube.com/watch?v=GrEO8nZzyZM&t=34s">https://www.youtube.com/watch?v=GrEO8nZzyZM&amp;t=34s</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Cómo empezar a desarrollar en java? (<a href="https://www.aluracursos.com/blog/como-empezar-a-desarrollar-en-java">https://www.aluracursos.com/blog/como-empezar-a-desarrollar-en-java</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Las características más destacables de Java 8 en adelante (<a href="https://www.aluracursos.com/blog/caracteristica-destacables-java8-delante">https://www.aluracursos.com/blog/caracteristica-destacables-java8-delante</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Java: Conozca el método main (<a href="https://www.aluracursos.com/blog/java-conozca-el-metodo-main">https://www.aluracursos.com/blog/java-conozca-el-metodo-main</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Importando clases en Java (<a href="https://www.aluracursos.com/blog/Importando-clases-en-java">https://www.aluracursos.com/blog/Importando-clases-en-java</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Como hacer un import static en java (<a href="https://www.aluracursos.com/blog/como-hacer-un-import-static-en-java">https://www.aluracursos.com/blog/como-hacer-un-import-static-en-java</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Recibiendo datos en Java (<a href="https://www.aluracursos.com/blog/recibiendo-datos-en-java">https://www.aluracursos.com/blog/recibiendo-datos-en-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Java: creando tu primera aplicación (<a href="https://app.aluracursos.com/course/java-creando-primera-aplicacion?utm_source=gnarus&utm_medium=timeline">https://app.aluracursos.com/course/java-creando-primera-aplicacion?utm_source=gnarus&amp;utm_medium=timeline</a>)</li>
 </ul>
 <h3>Conceptos de Orientación a Objetos:</h3>
 <ul><li>La Programación Orientada a Objetos es un paradigma de programación de software basado en la composición e interacción entre diversas unidades llamadas &#39;objetos&#39; y las clases, que contienen una identidad, propiedades y métodos. Se basa en cuatro componentes de la programación - abstracción digital, encapsulación, herencia y polimorfismo.</li>
@@ -252,32 +293,33 @@
 <li>Qué son las abstracciones</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> Programación orientada a objetos (C#) (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/tutorials/oop">https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/tutorials/oop</a>)</li>
-<li><code>Web</code> Programación orientada a objetos - IBM (<a href="https://www.ibm.com/docs/es/spss-modeler/saas?topic=language-object-oriented-programming">https://www.ibm.com/docs/es/spss-modeler/saas?topic=language-object-oriented-programming</a>)</li>
-<li><code>Web</code> Introducción a los objetos JavaScript (<a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects">https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects</a>)</li>
-<li><code>Artículo</code> Introducción a POO con JavaScript ES6 (<a href="https://medium.com/academia-hack/introducci%C3%B3n-a-poo-con-javascript-es6-80074fde0cdf">https://medium.com/academia-hack/introducci%C3%B3n-a-poo-con-javascript-es6-80074fde0cdf</a>)</li>
-<li><code>Artículo</code> Programación Orientada a Objetos (<a href="https://ellibrodepython.com/programacion-orientada-a-objetos-python">https://ellibrodepython.com/programacion-orientada-a-objetos-python</a>)</li>
-<li><code>YouTube</code> 4 Principios de la Programación Orientada a Objetos (<a href="https://www.youtube.com/watch?v=Uk1C1NARZjU">https://www.youtube.com/watch?v=Uk1C1NARZjU</a>)</li>
-<li><code>YouTube</code> Mini Curso: POO con PHP (básico) (<a href="https://youtu.be/Ben_VC2rm10">https://youtu.be/Ben_VC2rm10</a>)</li>
-<li><code>YouTube</code> 🟡¿Qué es la Programación Orientada a Objetos en PYTHON? - [ Con EJEMPLOS ] | Python desde CERO #13 (<a href="https://www.youtube.com/watch?v=KwT1F7uL5rA">https://www.youtube.com/watch?v=KwT1F7uL5rA</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>YouTube</code> Alura Latam: ¿Qué es la Programación Orientada a Objetos? (<a href="https://www.youtube.com/watch?v=Oigen2sjagk">https://www.youtube.com/watch?v=Oigen2sjagk</a>)</li>
-<li><code>Artículo</code> POO: ¿Qué es la programación orientada a objetos? (<a href="https://www.aluracursos.com/blog/poo-que-es-la-programacion-orientada-a-objetos">https://www.aluracursos.com/blog/poo-que-es-la-programacion-orientada-a-objetos</a>)</li>
-<li><code>Artículo</code> Revisando la Orientación a Objetos: encapsulación de Java (<a href="https://www.aluracursos.com/blog/revisando-la-orientacion-a-objetos-encapsulacion-de-java">https://www.aluracursos.com/blog/revisando-la-orientacion-a-objetos-encapsulacion-de-java</a>)</li>
-<li><code>Artículo</code> ¿Qué es encapsulamiento? (<a href="https://www.aluracursos.com/blog/Que-es-encapsulamiento">https://www.aluracursos.com/blog/Que-es-encapsulamiento</a>)</li>
-<li><code>Artículo</code> Herencia en JavaScript (<a href="https://www.aluracursos.com/blog/herencia-en-javascript">https://www.aluracursos.com/blog/herencia-en-javascript</a>)</li>
-<li><code>Artículo</code> Interfaces Gráficas con Eclipse WindowBuilder (<a href="https://www.aluracursos.com/blog/interfaces-graficas-con-eclipse-windowbuilder">https://www.aluracursos.com/blog/interfaces-graficas-con-eclipse-windowbuilder</a>)</li>
-<li><code>Artículo</code> Cómo no aprender Java y Orientación a Objetos: getters y setters (<a href="https://www.aluracursos.com/blog/como-no-aprender-java-y-orientacion-a-objetos-getters-y-setters">https://www.aluracursos.com/blog/como-no-aprender-java-y-orientacion-a-objetos-getters-y-setters</a>)</li>
-<li><code>Artículo</code> Ordenar una lista de objetos en Java (<a href="https://www.aluracursos.com/blog/ordenar-una-lista-de-objetos-en-java">https://www.aluracursos.com/blog/ordenar-una-lista-de-objetos-en-java</a>)</li>
-<li><code>Curso</code> Formación Java Orientado a Objetos (<a href="https://app.aluracursos.com/formacion-javaoo">https://app.aluracursos.com/formacion-javaoo</a>)</li>
-<li><code>Curso</code> JavaScript: Introducción a la Orientación a Objetos (<a href="https://app.aluracursos.com/course/javascript-introduccion-orientacion-objetos">https://app.aluracursos.com/course/javascript-introduccion-orientacion-objetos</a>)</li>
-<li><code>Curso</code> JavaScript: Herencia e Interfaces en Orientación a Objetos (<a href="https://app.aluracursos.com/course/javascript-herencia-interfaces-orientacion-objetos">https://app.aluracursos.com/course/javascript-herencia-interfaces-orientacion-objetos</a>)</li>
-<li><code>Curso</code> C# y Orientación a Objetos (<a href="https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos">https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos</a>)</li>
-<li><code>Curso</code> Python: comprensión de la Orientación a Objetos (<a href="https://app.aluracursos.com/course/python-comprension-orientacion-objetos">https://app.aluracursos.com/course/python-comprension-orientacion-objetos</a>)</li>
-<li><code>Curso</code> Python: avanzando en la orientación a objetos (<a href="https://app.aluracursos.com/course/python-avanzando-orientacion-objetos">https://app.aluracursos.com/course/python-avanzando-orientacion-objetos</a>)</li>
-<li><code>Curso</code> Java Polimorfismo: Entendiendo herencia e interfaces (<a href="https://app.aluracursos.com/course/java-parte-3-entendiendo-herencia-interfaces">https://app.aluracursos.com/course/java-parte-3-entendiendo-herencia-interfaces</a>)</li>
-<li><code>Curso</code> Curso de JavaScript: Objetos (<a href="https://app.aluracursos.com/course/javascript-objetos?utm_source=gnarus&utm_medium=timeline">https://app.aluracursos.com/course/javascript-objetos?utm_source=gnarus&amp;utm_medium=timeline</a>)</li>
-<li><code>Curso</code> Formación: Aprenda a programar en Python con orientación a objetos (<a href="https://app.aluracursos.com/formacion-lenguaje-python">https://app.aluracursos.com/formacion-lenguaje-python</a>)</li>
+<ul><li><code data-kind="web">Web</code> Programación orientada a objetos (C#) (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/tutorials/oop">https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/tutorials/oop</a>)</li>
+<li><code data-kind="web">Web</code> Programación orientada a objetos - IBM (<a href="https://www.ibm.com/docs/es/spss-modeler/saas?topic=language-object-oriented-programming">https://www.ibm.com/docs/es/spss-modeler/saas?topic=language-object-oriented-programming</a>)</li>
+<li><code data-kind="web">Web</code> Introducción a los objetos JavaScript (<a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects">https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Introducción a POO con JavaScript ES6 (<a href="https://medium.com/academia-hack/introducci%C3%B3n-a-poo-con-javascript-es6-80074fde0cdf">https://medium.com/academia-hack/introducci%C3%B3n-a-poo-con-javascript-es6-80074fde0cdf</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Programación Orientada a Objetos (<a href="https://ellibrodepython.com/programacion-orientada-a-objetos-python">https://ellibrodepython.com/programacion-orientada-a-objetos-python</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 4 Principios de la Programación Orientada a Objetos (<a href="https://www.youtube.com/watch?v=Uk1C1NARZjU">https://www.youtube.com/watch?v=Uk1C1NARZjU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mini Curso: POO con PHP (básico) (<a href="https://youtu.be/Ben_VC2rm10">https://youtu.be/Ben_VC2rm10</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 🟡¿Qué es la Programación Orientada a Objetos en PYTHON? - [ Con EJEMPLOS ] | Python desde CERO #13 (<a href="https://www.youtube.com/watch?v=KwT1F7uL5rA">https://www.youtube.com/watch?v=KwT1F7uL5rA</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Alura Latam: ¿Qué es la Programación Orientada a Objetos? (<a href="https://www.youtube.com/watch?v=Oigen2sjagk">https://www.youtube.com/watch?v=Oigen2sjagk</a>)</li>
+<li><code data-kind="artículo">Artículo</code> POO: ¿Qué es la programación orientada a objetos? (<a href="https://www.aluracursos.com/blog/poo-que-es-la-programacion-orientada-a-objetos">https://www.aluracursos.com/blog/poo-que-es-la-programacion-orientada-a-objetos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Revisando la Orientación a Objetos: encapsulación de Java (<a href="https://www.aluracursos.com/blog/revisando-la-orientacion-a-objetos-encapsulacion-de-java">https://www.aluracursos.com/blog/revisando-la-orientacion-a-objetos-encapsulacion-de-java</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es encapsulamiento? (<a href="https://www.aluracursos.com/blog/Que-es-encapsulamiento">https://www.aluracursos.com/blog/Que-es-encapsulamiento</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Herencia en JavaScript (<a href="https://www.aluracursos.com/blog/herencia-en-javascript">https://www.aluracursos.com/blog/herencia-en-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Interfaces Gráficas con Eclipse WindowBuilder (<a href="https://www.aluracursos.com/blog/interfaces-graficas-con-eclipse-windowbuilder">https://www.aluracursos.com/blog/interfaces-graficas-con-eclipse-windowbuilder</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo no aprender Java y Orientación a Objetos: getters y setters (<a href="https://www.aluracursos.com/blog/como-no-aprender-java-y-orientacion-a-objetos-getters-y-setters">https://www.aluracursos.com/blog/como-no-aprender-java-y-orientacion-a-objetos-getters-y-setters</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Ordenar una lista de objetos en Java (<a href="https://www.aluracursos.com/blog/ordenar-una-lista-de-objetos-en-java">https://www.aluracursos.com/blog/ordenar-una-lista-de-objetos-en-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Java Orientado a Objetos (<a href="https://app.aluracursos.com/formacion-javaoo">https://app.aluracursos.com/formacion-javaoo</a>)</li>
+<li><code data-kind="curso">Curso</code> JavaScript: Introducción a la Orientación a Objetos (<a href="https://app.aluracursos.com/course/javascript-introduccion-orientacion-objetos">https://app.aluracursos.com/course/javascript-introduccion-orientacion-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> JavaScript: Herencia e Interfaces en Orientación a Objetos (<a href="https://app.aluracursos.com/course/javascript-herencia-interfaces-orientacion-objetos">https://app.aluracursos.com/course/javascript-herencia-interfaces-orientacion-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> C# y Orientación a Objetos (<a href="https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos">https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Python: comprensión de la Orientación a Objetos (<a href="https://app.aluracursos.com/course/python-comprension-orientacion-objetos">https://app.aluracursos.com/course/python-comprension-orientacion-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Python: avanzando en la orientación a objetos (<a href="https://app.aluracursos.com/course/python-avanzando-orientacion-objetos">https://app.aluracursos.com/course/python-avanzando-orientacion-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Java Polimorfismo: Entendiendo herencia e interfaces (<a href="https://app.aluracursos.com/course/java-parte-3-entendiendo-herencia-interfaces">https://app.aluracursos.com/course/java-parte-3-entendiendo-herencia-interfaces</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de JavaScript: Objetos (<a href="https://app.aluracursos.com/course/javascript-objetos?utm_source=gnarus&utm_medium=timeline">https://app.aluracursos.com/course/javascript-objetos?utm_source=gnarus&amp;utm_medium=timeline</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación: Aprenda a programar en Python con orientación a objetos (<a href="https://app.aluracursos.com/formacion-lenguaje-python">https://app.aluracursos.com/formacion-lenguaje-python</a>)</li>
 </ul>
 <h3>Java - Manejo de Errores:</h3>
 <ul><li>El tratamiento de errores se refiere a los procedimientos de respuesta y recuperación de condiciones de error presentes en una aplicación de software. En otras palabras, es el proceso compuesto de anticipación, detección y resolución de errores de aplicación, de programación o de comunicación.</li>
@@ -287,17 +329,18 @@
 <li>Hacer el proceso de depuración</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> Breve introducción a las excepciones en Java (<a href="https://www.it.uc3m.es/java/prog/resources/excepciones/index_es.html">https://www.it.uc3m.es/java/prog/resources/excepciones/index_es.html</a>)</li>
-<li><code>Web</code> Excepciones (<a href="https://catedu.github.io/poo-java/excepciones.html">https://catedu.github.io/poo-java/excepciones.html</a>)</li>
-<li><code>Web</code> Excepción - Java Documentation (en inglés) (<a href="https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html">https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html</a>)</li>
-<li><code>Web</code> Excepciones - Oracle (en inglés) (<a href="https://dev.java/learn/exceptions/">https://dev.java/learn/exceptions/</a>)</li>
-<li><code>Web</code> Excepciones Java - Documentación de IBM (<a href="https://www.ibm.com/docs/es/i/7.1?topic=driver-java-exceptions">https://www.ibm.com/docs/es/i/7.1?topic=driver-java-exceptions</a>)</li>
-<li><code>Artículo</code> Uso de excepciones en Java | IfgeekthenNTTdata (<a href="https://ifgeekthen.nttdata.com/es/uso-de-excepciones-en-java">https://ifgeekthen.nttdata.com/es/uso-de-excepciones-en-java</a>)</li>
-<li><code>Artículo</code> Tipos de excepciones en Java (<a href="https://www.linkedin.com/pulse/tipos-de-excepciones-en-java-oscar-eduardo-romero-mel%C3%A9ndez/?originalSubdomain=es">https://www.linkedin.com/pulse/tipos-de-excepciones-en-java-oscar-eduardo-romero-mel%C3%A9ndez/?originalSubdomain=es</a>)</li>
-<li><code>YouTube</code> THROW 🤾‍♀️ en JAVA ☕ Lanzar EXCEPCIONES 💥 - YouTube (<a href="https://www.youtube.com/watch?v=B6h6pIcj0WA">https://www.youtube.com/watch?v=B6h6pIcj0WA</a>)</li>
-<li><code>YouTube</code> 🚀 EXCEPCIONES en JAVA POO 🖥️ | TRY y CATCH | Explicación FÁCIL 💥#17 (<a href="https://www.youtube.com/watch?v=VHy6xFXJ1Rw&list=TLPQMDcwMzIwMjNzINQlG4Bhnw&index=4&ab_channel=TodoCode">https://www.youtube.com/watch?v=VHy6xFXJ1Rw&amp;list=TLPQMDcwMzIwMjNzINQlG4Bhnw&amp;index=4&amp;ab_channel=TodoCode</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Curso</code> Java Excepciones: Aprenda a crear, lanzar y controlar excepciones (<a href="https://app.aluracursos.com/course/java-excepciones">https://app.aluracursos.com/course/java-excepciones</a>)</li>
+<ul><li><code data-kind="web">Web</code> Breve introducción a las excepciones en Java (<a href="https://www.it.uc3m.es/java/prog/resources/excepciones/index_es.html">https://www.it.uc3m.es/java/prog/resources/excepciones/index_es.html</a>)</li>
+<li><code data-kind="web">Web</code> Excepciones (<a href="https://catedu.github.io/poo-java/excepciones.html">https://catedu.github.io/poo-java/excepciones.html</a>)</li>
+<li><code data-kind="web">Web</code> Excepción - Java Documentation (en inglés) (<a href="https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html">https://docs.oracle.com/javase/7/docs/api/java/lang/Exception.html</a>)</li>
+<li><code data-kind="web">Web</code> Excepciones - Oracle (en inglés) (<a href="https://dev.java/learn/exceptions/">https://dev.java/learn/exceptions/</a>)</li>
+<li><code data-kind="web">Web</code> Excepciones Java - Documentación de IBM (<a href="https://www.ibm.com/docs/es/i/7.1?topic=driver-java-exceptions">https://www.ibm.com/docs/es/i/7.1?topic=driver-java-exceptions</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Uso de excepciones en Java | IfgeekthenNTTdata (<a href="https://ifgeekthen.nttdata.com/es/uso-de-excepciones-en-java">https://ifgeekthen.nttdata.com/es/uso-de-excepciones-en-java</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Tipos de excepciones en Java (<a href="https://www.linkedin.com/pulse/tipos-de-excepciones-en-java-oscar-eduardo-romero-mel%C3%A9ndez/?originalSubdomain=es">https://www.linkedin.com/pulse/tipos-de-excepciones-en-java-oscar-eduardo-romero-mel%C3%A9ndez/?originalSubdomain=es</a>)</li>
+<li><code data-kind="youtube">YouTube</code> THROW 🤾‍♀️ en JAVA ☕ Lanzar EXCEPCIONES 💥 - YouTube (<a href="https://www.youtube.com/watch?v=B6h6pIcj0WA">https://www.youtube.com/watch?v=B6h6pIcj0WA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 🚀 EXCEPCIONES en JAVA POO 🖥️ | TRY y CATCH | Explicación FÁCIL 💥#17 (<a href="https://www.youtube.com/watch?v=VHy6xFXJ1Rw&list=TLPQMDcwMzIwMjNzINQlG4Bhnw&index=4&ab_channel=TodoCode">https://www.youtube.com/watch?v=VHy6xFXJ1Rw&amp;list=TLPQMDcwMzIwMjNzINQlG4Bhnw&amp;index=4&amp;ab_channel=TodoCode</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Java Excepciones: Aprenda a crear, lanzar y controlar excepciones (<a href="https://app.aluracursos.com/course/java-excepciones">https://app.aluracursos.com/course/java-excepciones</a>)</li>
 </ul>
 <h3>Java - Colecciones:</h3>
 <ul><li>Una colección representa un grupo de objetos, conocidos como sus elementos. Son como contenedores que agrupan varios elementos en una sola unidad. Algunas colecciones permiten la duplicación de elementos y otras no. Algunas son ordenadas y otras no ordenadas.</li>
@@ -306,13 +349,14 @@
 <li>Aprende a trabajar con ArrayList, LinkedList o Vector</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> Colección - Java Documentation (en inglés) (<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html">https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html</a>)</li>
-<li><code>Artículo</code> Introducción a Colecciones en Java (<a href="https://www.adictosaltrabajo.com/2015/09/25/introduccion-a-colecciones-en-java/">https://www.adictosaltrabajo.com/2015/09/25/introduccion-a-colecciones-en-java/</a>)</li>
-<li><code>Artículo</code> Map en Java, con ejemplos (<a href="https://jarroba.com/map-en-java-con-ejemplos/">https://jarroba.com/map-en-java-con-ejemplos/</a>)</li>
-<li><code>YouTube</code> 🚀 ¿Qué son las COLLECTIONS en JAVA? POO 🖥️ | LIST, SET, QUEUE, MAP | Explicación FÁCIL 💥#12 (<a href="https://www.youtube.com/watch?v=mE1vnyn_QgU&ab_channel=TodoCode">https://www.youtube.com/watch?v=mE1vnyn_QgU&amp;ab_channel=TodoCode</a>)</li>
-<li><code>YouTube</code> HASHCODE y EQUALS en JAVA - Tutorial Completo Fácil - YouTube (<a href="https://www.youtube.com/watch?v=4qjcWlnm6dg">https://www.youtube.com/watch?v=4qjcWlnm6dg</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Curso</code> Curso Java y java.util: Colecciones, Wrappers y Lambda expressions (<a href="https://app.aluracursos.com/course/java-util-coleciones-wrappers-lambda-expressions">https://app.aluracursos.com/course/java-util-coleciones-wrappers-lambda-expressions</a>)</li>
+<ul><li><code data-kind="web">Web</code> Colección - Java Documentation (en inglés) (<a href="https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html">https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Introducción a Colecciones en Java (<a href="https://www.adictosaltrabajo.com/2015/09/25/introduccion-a-colecciones-en-java/">https://www.adictosaltrabajo.com/2015/09/25/introduccion-a-colecciones-en-java/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Map en Java, con ejemplos (<a href="https://jarroba.com/map-en-java-con-ejemplos/">https://jarroba.com/map-en-java-con-ejemplos/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 🚀 ¿Qué son las COLLECTIONS en JAVA? POO 🖥️ | LIST, SET, QUEUE, MAP | Explicación FÁCIL 💥#12 (<a href="https://www.youtube.com/watch?v=mE1vnyn_QgU&ab_channel=TodoCode">https://www.youtube.com/watch?v=mE1vnyn_QgU&amp;ab_channel=TodoCode</a>)</li>
+<li><code data-kind="youtube">YouTube</code> HASHCODE y EQUALS en JAVA - Tutorial Completo Fácil - YouTube (<a href="https://www.youtube.com/watch?v=4qjcWlnm6dg">https://www.youtube.com/watch?v=4qjcWlnm6dg</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso Java y java.util: Colecciones, Wrappers y Lambda expressions (<a href="https://app.aluracursos.com/course/java-util-coleciones-wrappers-lambda-expressions">https://app.aluracursos.com/course/java-util-coleciones-wrappers-lambda-expressions</a>)</li>
 </ul>
 <h3>Java - Pruebas:</h3>
 <ul><li>La prueba de software es el proceso de evaluación y verificación de que un software realmente hace lo que debe hacer. Los beneficios de las pruebas incluyen la prevención de errores, la reducción de los costos de desarrollo y la mejora del rendimiento.</li>
@@ -322,18 +366,19 @@
 <li>Usar mocks</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Artículo</code> Tutorial de JUnit: Configuración, escritura y ejecución de pruebas unitarias de Java (<a href="https://es.parasoft.com/blog/junit-tutorial-setting-up-writing-and-running-java-unit-tests/">https://es.parasoft.com/blog/junit-tutorial-setting-up-writing-and-running-java-unit-tests/</a>)</li>
-<li><code>Artículo</code> Burlarse en Java: cómo automatizar una prueba unitaria de Java, incluidas las burlas y las afirmaciones (<a href="https://es.parasoft.com/blog/mocking-in-java-how-to-automate-a-java-unit-test-including-mocking-and-assertions/">https://es.parasoft.com/blog/mocking-in-java-how-to-automate-a-java-unit-test-including-mocking-and-assertions/</a>)</li>
-<li><code>Artículo</code> Testeando aplicaciones en Java (<a href="https://medium.com/@yonem9/testeando-aplicaciones-en-java-c46364191562">https://medium.com/@yonem9/testeando-aplicaciones-en-java-c46364191562</a>)</li>
-<li><code>YouTube</code> PRUEBAS UNITARIAS en JAVA (JUNIT 5) (<a href="https://www.youtube.com/watch?v=74sClDEYSQ4&ab_channel=ProgramandoenJAVA">https://www.youtube.com/watch?v=74sClDEYSQ4&amp;ab_channel=ProgramandoenJAVA</a>)</li>
-<li><code>YouTube</code> MOCK vs STUB Aquí encuentras las diferencias ✅️ (<a href="https://www.youtube.com/watch?v=ArkckkM49LQ&ab_channel=CodingTogetherES">https://www.youtube.com/watch?v=ArkckkM49LQ&amp;ab_channel=CodingTogetherES</a>)</li>
-<li><code>Artículo</code> JUnit: Cómo ejecutar un test N iteraciones (<a href="https://dev.to/gekyzo/como-repetir-un-test-n-iteraciones-36pd">https://dev.to/gekyzo/como-repetir-un-test-n-iteraciones-36pd</a>)</li>
-<li><code>Artículo</code> JUnit Cómo parametrizar un test (<a href="https://dev.to/gekyzo/junit-como-ejecutar-un-test-con-parametros-4cp3">https://dev.to/gekyzo/junit-como-ejecutar-un-test-con-parametros-4cp3</a>)</li>
-<li><code>Artículo</code> JUnit Cómo repetir un test con parámetros (<a href="https://dev.to/gekyzo/junit-como-repetir-un-test-con-parametros-1l15">https://dev.to/gekyzo/junit-como-repetir-un-test-con-parametros-1l15</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> Tipos de pruebas: ¿cuáles son las principales y por qué utilizarlas? (<a href="https://www.aluracursos.com/blog/tipos-de-pruebas-cual-utilizar">https://www.aluracursos.com/blog/tipos-de-pruebas-cual-utilizar</a>)</li>
-<li><code>YouTube</code> ¿Qué es Test-Driven Development (TDD)? #AluraMás (<a href="https://www.youtube.com/watch?v=qA3KIo0xZbE&t=1s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=qA3KIo0xZbE&amp;t=1s&amp;ab_channel=AluraLatam</a>)</li>
-<li><code>Curso</code> Curso Java y Tests: Test Driven Development con Junit (<a href="https://app.aluracursos.com/course/java-tests-test-driven-development-junit">https://app.aluracursos.com/course/java-tests-test-driven-development-junit</a>)</li>
+<ul><li><code data-kind="artículo">Artículo</code> Tutorial de JUnit: Configuración, escritura y ejecución de pruebas unitarias de Java (<a href="https://es.parasoft.com/blog/junit-tutorial-setting-up-writing-and-running-java-unit-tests/">https://es.parasoft.com/blog/junit-tutorial-setting-up-writing-and-running-java-unit-tests/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Burlarse en Java: cómo automatizar una prueba unitaria de Java, incluidas las burlas y las afirmaciones (<a href="https://es.parasoft.com/blog/mocking-in-java-how-to-automate-a-java-unit-test-including-mocking-and-assertions/">https://es.parasoft.com/blog/mocking-in-java-how-to-automate-a-java-unit-test-including-mocking-and-assertions/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Testeando aplicaciones en Java (<a href="https://medium.com/@yonem9/testeando-aplicaciones-en-java-c46364191562">https://medium.com/@yonem9/testeando-aplicaciones-en-java-c46364191562</a>)</li>
+<li><code data-kind="youtube">YouTube</code> PRUEBAS UNITARIAS en JAVA (JUNIT 5) (<a href="https://www.youtube.com/watch?v=74sClDEYSQ4&ab_channel=ProgramandoenJAVA">https://www.youtube.com/watch?v=74sClDEYSQ4&amp;ab_channel=ProgramandoenJAVA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> MOCK vs STUB Aquí encuentras las diferencias ✅️ (<a href="https://www.youtube.com/watch?v=ArkckkM49LQ&ab_channel=CodingTogetherES">https://www.youtube.com/watch?v=ArkckkM49LQ&amp;ab_channel=CodingTogetherES</a>)</li>
+<li><code data-kind="artículo">Artículo</code> JUnit: Cómo ejecutar un test N iteraciones (<a href="https://dev.to/gekyzo/como-repetir-un-test-n-iteraciones-36pd">https://dev.to/gekyzo/como-repetir-un-test-n-iteraciones-36pd</a>)</li>
+<li><code data-kind="artículo">Artículo</code> JUnit Cómo parametrizar un test (<a href="https://dev.to/gekyzo/junit-como-ejecutar-un-test-con-parametros-4cp3">https://dev.to/gekyzo/junit-como-ejecutar-un-test-con-parametros-4cp3</a>)</li>
+<li><code data-kind="artículo">Artículo</code> JUnit Cómo repetir un test con parámetros (<a href="https://dev.to/gekyzo/junit-como-repetir-un-test-con-parametros-1l15">https://dev.to/gekyzo/junit-como-repetir-un-test-con-parametros-1l15</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Tipos de pruebas: ¿cuáles son las principales y por qué utilizarlas? (<a href="https://www.aluracursos.com/blog/tipos-de-pruebas-cual-utilizar">https://www.aluracursos.com/blog/tipos-de-pruebas-cual-utilizar</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es Test-Driven Development (TDD)? #AluraMás (<a href="https://www.youtube.com/watch?v=qA3KIo0xZbE&t=1s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=qA3KIo0xZbE&amp;t=1s&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Java y Tests: Test Driven Development con Junit (<a href="https://app.aluracursos.com/course/java-tests-test-driven-development-junit">https://app.aluracursos.com/course/java-tests-test-driven-development-junit</a>)</li>
 </ul>
 <h3>Java - Paquetes:</h3>
 <ul><li>Un paquete (package) en Java se utiliza para agrupar clases relacionadas, de forma similar a una carpeta en un directorio de archivos. Los paquetes se utilizan para evitar conflictos de nombres y para escribir un código de mejor mantenimiento.</li>
@@ -344,12 +389,13 @@
 <li>Conocer la java.io</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> Java.Lang Espacio de nombres (<a href="https://learn.microsoft.com/es-es/dotnet/api/java.lang?view=xamarin-android-sdk-13">https://learn.microsoft.com/es-es/dotnet/api/java.lang?view=xamarin-android-sdk-13</a>)</li>
-<li><code>Artículo</code> Java - Paquetes (<a href="https://www.arkaitzgarro.com/java/capitulo-19.html">https://www.arkaitzgarro.com/java/capitulo-19.html</a>)</li>
-<li><code>YouTube</code> Uso de Paquetes en java (<a href="https://www.youtube.com/watch?v=-cj9H8qLAcU">https://www.youtube.com/watch?v=-cj9H8qLAcU</a>)</li>
-<li><code>YouTube</code> Crear y utilizar nuestros propios paquetes de Java (<a href="https://www.youtube.com/watch?v=y2OZYSSoysY">https://www.youtube.com/watch?v=y2OZYSSoysY</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Curso</code> Java y java.lang: Programe con la clase Object y String (<a href="https://app.aluracursos.com/course/java-lang-clase-object-string">https://app.aluracursos.com/course/java-lang-clase-object-string</a>)</li>
+<ul><li><code data-kind="web">Web</code> Java.Lang Espacio de nombres (<a href="https://learn.microsoft.com/es-es/dotnet/api/java.lang?view=xamarin-android-sdk-13">https://learn.microsoft.com/es-es/dotnet/api/java.lang?view=xamarin-android-sdk-13</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Java - Paquetes (<a href="https://www.arkaitzgarro.com/java/capitulo-19.html">https://www.arkaitzgarro.com/java/capitulo-19.html</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Uso de Paquetes en java (<a href="https://www.youtube.com/watch?v=-cj9H8qLAcU">https://www.youtube.com/watch?v=-cj9H8qLAcU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Crear y utilizar nuestros propios paquetes de Java (<a href="https://www.youtube.com/watch?v=y2OZYSSoysY">https://www.youtube.com/watch?v=y2OZYSSoysY</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Java y java.lang: Programe con la clase Object y String (<a href="https://app.aluracursos.com/course/java-lang-clase-object-string">https://app.aluracursos.com/course/java-lang-clase-object-string</a>)</li>
 </ul>
 <h3>Estructura de Datos:</h3>
 <ul><li>En el contexto de los ordenadores, una estructura de datos es una forma específica de almacenar y organizar los datos en la memoria del ordenador para que esos datos puedan ser fácilmente recuperados y utilizados de forma eficiente cuando sea necesario posteriormente.</li>
@@ -357,32 +403,33 @@
 <li>Implementar las principales estructuras de datos</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Artículo</code> ¿Qué es una estructura de datos en programación y para qué se utiliza? (<a href="https://blog.soyhenry.com/que-es-una-estructura-de-datos-en-programacion/">https://blog.soyhenry.com/que-es-una-estructura-de-datos-en-programacion/</a>)</li>
-<li><code>Web</code> Estructuras de datos - Documentación Python (<a href="https://docs.python.org/es/3/tutorial/datastructures.html">https://docs.python.org/es/3/tutorial/datastructures.html</a>)</li>
-<li><code>Artículo</code> Estructuras de Datos y Algoritmos en Java (<a href="https://programacion.net/articulo/estructuras_de_datos_y_algoritmos_en_java_309/4">https://programacion.net/articulo/estructuras_de_datos_y_algoritmos_en_java_309/4</a>)</li>
-<li><code>Artículo</code> Estructuras de datos con Java: un enfoque práctico (<a href="http://hp.fciencias.unam.mx/~alg/estructurasDeDatos/">http://hp.fciencias.unam.mx/~alg/estructurasDeDatos/</a>)</li>
-<li><code>Artículo</code> Colecciones: ARRAY, SET y DICTIONARY en Swift (<a href="https://www.swiftbeta.com/colecciones-array-set-y-dictionary-en-swift/">https://www.swiftbeta.com/colecciones-array-set-y-dictionary-en-swift/</a>)</li>
-<li><code>Artículo</code> Colecciones en Swift y su manejo de memoria (<a href="https://medium.com/@grago/colecciones-en-swift-y-su-manejo-de-memoria-61a03e236dd">https://medium.com/@grago/colecciones-en-swift-y-su-manejo-de-memoria-61a03e236dd</a>)</li>
-<li><code>Artículo</code> Estructuras de datos en .NET con C# (<a href="https://www.genesisrrios.com/es/blog/estructuras-de-datos-en-csharp/">https://www.genesisrrios.com/es/blog/estructuras-de-datos-en-csharp/</a>)</li>
-<li><code>YouTube</code> Estructuras de Datos | Primeros Pasos (<a href="https://youtu.be/Df-sgxGzyTg">https://youtu.be/Df-sgxGzyTg</a>)</li>
-<li><code>YouTube</code> Qué son las estructuras de datos (<a href="https://youtu.be/oQ0WkIdr73E?list=PLTd5ehIj0goMTSK7RRAPBF4wP-Nj5DRvT">https://youtu.be/oQ0WkIdr73E?list=PLTd5ehIj0goMTSK7RRAPBF4wP-Nj5DRvT</a>)</li>
-<li><code>YouTube</code> ¿Qué son y cómo funcionan los árboles? | Ejemplo de implementación (<a href="https://youtu.be/tBaOQeyXYqg">https://youtu.be/tBaOQeyXYqg</a>)</li>
-<li><code>YouTube</code> Aprende: Estructura de Datos con Java (<a href="https://www.youtube.com/watch?v=_9ScDWpqhFE">https://www.youtube.com/watch?v=_9ScDWpqhFE</a>)</li>
-<li><code>YouTube</code> Introducción - 1 - Estructuras de Datos en C# (<a href="https://www.youtube.com/watch?v=rqaqJXbauyA&ab_channel=nicosiored">https://www.youtube.com/watch?v=rqaqJXbauyA&amp;ab_channel=nicosiored</a>)</li>
-<li><code>YouTube</code> Estructuras de datos con Python en 8 minutos: Listas, Tuplas, Conjuntos y Diccionarios (<a href="https://www.youtube.com/watch?v=v25-m1LOUiU">https://www.youtube.com/watch?v=v25-m1LOUiU</a>)</li>
-<li><code>YouTube</code> Programación en Python | Colecciones | Diccionarios (<a href="https://www.youtube.com/watch?v=vAy4IM7NLIQ">https://www.youtube.com/watch?v=vAy4IM7NLIQ</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> Estructura de datos: introducción (<a href="https://www.aluracursos.com/blog/estructura-de-datos-introduccion">https://www.aluracursos.com/blog/estructura-de-datos-introduccion</a>)</li>
-<li><code>Artículo</code> Conociendo tuplas en Python (<a href="https://www.aluracursos.com/blog/conociendo-las-tuplas-en-python">https://www.aluracursos.com/blog/conociendo-las-tuplas-en-python</a>)</li>
-<li><code>Artículo</code> Listas en Python: operaciones básicas (<a href="https://www.aluracursos.com/blog/listas-de-python-operaciones-basicas">https://www.aluracursos.com/blog/listas-de-python-operaciones-basicas</a>)</li>
-<li><code>Artículo</code> Estructura de datos: computación práctica con Java (<a href="https://www.aluracursos.com/blog/estructura-de-datos-computacion-practica-con-java">https://www.aluracursos.com/blog/estructura-de-datos-computacion-practica-con-java</a>)</li>
-<li><code>Artículo</code> Python: trabajando con diccionarios (<a href="https://www.aluracursos.com/blog/python-trabajando-con-diccionarios">https://www.aluracursos.com/blog/python-trabajando-con-diccionarios</a>)</li>
-<li><code>Artículo</code> Iterando una lista en Java (<a href="https://www.aluracursos.com/blog/iterando-una-lista-en-java">https://www.aluracursos.com/blog/iterando-una-lista-en-java</a>)</li>
-<li><code>Curso</code> Python: avanzando en el lenguaje (<a href="https://app.aluracursos.com/course/python-avanzando-lenguaje">https://app.aluracursos.com/course/python-avanzando-lenguaje</a>)</li>
-<li><code>Curso</code> C#: array y tipos genéricos (<a href="https://app.aluracursos.com/course/csharp-array-tipos-genericos">https://app.aluracursos.com/course/csharp-array-tipos-genericos</a>)</li>
-<li><code>Curso</code> Python Collections: listas y tuplas (<a href="https://app.aluracursos.com/course/python-collections-listas-tuplas?utm_source=gnarus&utm_medium=timeline">https://app.aluracursos.com/course/python-collections-listas-tuplas?utm_source=gnarus&amp;utm_medium=timeline</a>)</li>
-<li><code>Curso</code> Curso de Java: trabajar con listas y colecciones de datos (<a href="https://www.aluracursos.com/curso-online-java-trabajar-listas-colecciones-datos">https://www.aluracursos.com/curso-online-java-trabajar-listas-colecciones-datos</a>)</li>
-<li><code>Curso</code> Java y java.util: Colecciones, Wrappers y Lambda expressions (<a href="https://www.aluracursos.com/curso-online-java-util-coleciones-wrappers-lambda-expressions">https://www.aluracursos.com/curso-online-java-util-coleciones-wrappers-lambda-expressions</a>)</li>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es una estructura de datos en programación y para qué se utiliza? (<a href="https://blog.soyhenry.com/que-es-una-estructura-de-datos-en-programacion/">https://blog.soyhenry.com/que-es-una-estructura-de-datos-en-programacion/</a>)</li>
+<li><code data-kind="web">Web</code> Estructuras de datos - Documentación Python (<a href="https://docs.python.org/es/3/tutorial/datastructures.html">https://docs.python.org/es/3/tutorial/datastructures.html</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructuras de Datos y Algoritmos en Java (<a href="https://programacion.net/articulo/estructuras_de_datos_y_algoritmos_en_java_309/4">https://programacion.net/articulo/estructuras_de_datos_y_algoritmos_en_java_309/4</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructuras de datos con Java: un enfoque práctico (<a href="http://hp.fciencias.unam.mx/~alg/estructurasDeDatos/">http://hp.fciencias.unam.mx/~alg/estructurasDeDatos/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Colecciones: ARRAY, SET y DICTIONARY en Swift (<a href="https://www.swiftbeta.com/colecciones-array-set-y-dictionary-en-swift/">https://www.swiftbeta.com/colecciones-array-set-y-dictionary-en-swift/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Colecciones en Swift y su manejo de memoria (<a href="https://medium.com/@grago/colecciones-en-swift-y-su-manejo-de-memoria-61a03e236dd">https://medium.com/@grago/colecciones-en-swift-y-su-manejo-de-memoria-61a03e236dd</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructuras de datos en .NET con C# (<a href="https://www.genesisrrios.com/es/blog/estructuras-de-datos-en-csharp/">https://www.genesisrrios.com/es/blog/estructuras-de-datos-en-csharp/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estructuras de Datos | Primeros Pasos (<a href="https://youtu.be/Df-sgxGzyTg">https://youtu.be/Df-sgxGzyTg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Qué son las estructuras de datos (<a href="https://youtu.be/oQ0WkIdr73E?list=PLTd5ehIj0goMTSK7RRAPBF4wP-Nj5DRvT">https://youtu.be/oQ0WkIdr73E?list=PLTd5ehIj0goMTSK7RRAPBF4wP-Nj5DRvT</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué son y cómo funcionan los árboles? | Ejemplo de implementación (<a href="https://youtu.be/tBaOQeyXYqg">https://youtu.be/tBaOQeyXYqg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende: Estructura de Datos con Java (<a href="https://www.youtube.com/watch?v=_9ScDWpqhFE">https://www.youtube.com/watch?v=_9ScDWpqhFE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción - 1 - Estructuras de Datos en C# (<a href="https://www.youtube.com/watch?v=rqaqJXbauyA&ab_channel=nicosiored">https://www.youtube.com/watch?v=rqaqJXbauyA&amp;ab_channel=nicosiored</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estructuras de datos con Python en 8 minutos: Listas, Tuplas, Conjuntos y Diccionarios (<a href="https://www.youtube.com/watch?v=v25-m1LOUiU">https://www.youtube.com/watch?v=v25-m1LOUiU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programación en Python | Colecciones | Diccionarios (<a href="https://www.youtube.com/watch?v=vAy4IM7NLIQ">https://www.youtube.com/watch?v=vAy4IM7NLIQ</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Estructura de datos: introducción (<a href="https://www.aluracursos.com/blog/estructura-de-datos-introduccion">https://www.aluracursos.com/blog/estructura-de-datos-introduccion</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Conociendo tuplas en Python (<a href="https://www.aluracursos.com/blog/conociendo-las-tuplas-en-python">https://www.aluracursos.com/blog/conociendo-las-tuplas-en-python</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Listas en Python: operaciones básicas (<a href="https://www.aluracursos.com/blog/listas-de-python-operaciones-basicas">https://www.aluracursos.com/blog/listas-de-python-operaciones-basicas</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructura de datos: computación práctica con Java (<a href="https://www.aluracursos.com/blog/estructura-de-datos-computacion-practica-con-java">https://www.aluracursos.com/blog/estructura-de-datos-computacion-practica-con-java</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Python: trabajando con diccionarios (<a href="https://www.aluracursos.com/blog/python-trabajando-con-diccionarios">https://www.aluracursos.com/blog/python-trabajando-con-diccionarios</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Iterando una lista en Java (<a href="https://www.aluracursos.com/blog/iterando-una-lista-en-java">https://www.aluracursos.com/blog/iterando-una-lista-en-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Python: avanzando en el lenguaje (<a href="https://app.aluracursos.com/course/python-avanzando-lenguaje">https://app.aluracursos.com/course/python-avanzando-lenguaje</a>)</li>
+<li><code data-kind="curso">Curso</code> C#: array y tipos genéricos (<a href="https://app.aluracursos.com/course/csharp-array-tipos-genericos">https://app.aluracursos.com/course/csharp-array-tipos-genericos</a>)</li>
+<li><code data-kind="curso">Curso</code> Python Collections: listas y tuplas (<a href="https://app.aluracursos.com/course/python-collections-listas-tuplas?utm_source=gnarus&utm_medium=timeline">https://app.aluracursos.com/course/python-collections-listas-tuplas?utm_source=gnarus&amp;utm_medium=timeline</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de Java: trabajar con listas y colecciones de datos (<a href="https://www.aluracursos.com/curso-online-java-trabajar-listas-colecciones-datos">https://www.aluracursos.com/curso-online-java-trabajar-listas-colecciones-datos</a>)</li>
+<li><code data-kind="curso">Curso</code> Java y java.util: Colecciones, Wrappers y Lambda expressions (<a href="https://www.aluracursos.com/curso-online-java-util-coleciones-wrappers-lambda-expressions">https://www.aluracursos.com/curso-online-java-util-coleciones-wrappers-lambda-expressions</a>)</li>
 </ul>
 <h2>Nivel 2</h2>
 <h3>JVM:</h3>
@@ -390,11 +437,12 @@
 <li>Entender cómo funciona la máquina virtual de Java.</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Artículo</code> Tutorial JVM - La arquitectura de la máquina virtual de Java explicada para principiantes (<a href="https://www.freecodecamp.org/espanol/news/tutorial-jvm-la-arquitectura-de-la-maquina-virtual-de-java-explicada-para-principiantes/">https://www.freecodecamp.org/espanol/news/tutorial-jvm-la-arquitectura-de-la-maquina-virtual-de-java-explicada-para-principiantes/</a>)</li>
-<li><code>YouTube</code> ¿Cómo Funciona la Java Virtual Machine? (<a href="https://www.youtube.com/watch?v=lEzqeKBOHIY">https://www.youtube.com/watch?v=lEzqeKBOHIY</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>YouTube</code> La magia detrás de Java #aluramás (<a href="https://www.youtube.com/watch?v=GrEO8nZzyZM&t=1s">https://www.youtube.com/watch?v=GrEO8nZzyZM&amp;t=1s</a>)</li>
-<li><code>Artículo</code> Paso a paso con la Máquina Virtual de Java (JVM) (<a href="https://www.aluracursos.com/blog/paso-a-paso-jvm">https://www.aluracursos.com/blog/paso-a-paso-jvm</a>)</li>
+<ul><li><code data-kind="artículo">Artículo</code> Tutorial JVM - La arquitectura de la máquina virtual de Java explicada para principiantes (<a href="https://www.freecodecamp.org/espanol/news/tutorial-jvm-la-arquitectura-de-la-maquina-virtual-de-java-explicada-para-principiantes/">https://www.freecodecamp.org/espanol/news/tutorial-jvm-la-arquitectura-de-la-maquina-virtual-de-java-explicada-para-principiantes/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Cómo Funciona la Java Virtual Machine? (<a href="https://www.youtube.com/watch?v=lEzqeKBOHIY">https://www.youtube.com/watch?v=lEzqeKBOHIY</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="youtube">YouTube</code> La magia detrás de Java #aluramás (<a href="https://www.youtube.com/watch?v=GrEO8nZzyZM&t=1s">https://www.youtube.com/watch?v=GrEO8nZzyZM&amp;t=1s</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Paso a paso con la Máquina Virtual de Java (JVM) (<a href="https://www.aluracursos.com/blog/paso-a-paso-jvm">https://www.aluracursos.com/blog/paso-a-paso-jvm</a>)</li>
 </ul>
 <h3>Java - Administración de Memoria:</h3>
 <ul><li>En Java, la administración de memoria es el proceso de asignación y desalojo de objetos, llamado administración de memoria. Java administra la memoria automáticamente. Java utiliza un sistema de gestión automática de memoria llamado Garbage Collector (colector de basura). Por lo tanto, no estamos obligados a implementar la lógica de gestión de memoria en nuestra aplicación.</li>
@@ -402,9 +450,9 @@
 <li>Entender cómo funciona la memoria de Garbage Collector.</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Artículo</code> Administración de memoria Java (<a href="https://learn.microsoft.com/es-es/azure/spring-apps/concepts-for-java-memory-management">https://learn.microsoft.com/es-es/azure/spring-apps/concepts-for-java-memory-management</a>)</li>
-<li><code>YouTube</code> ¿Como funciona la memoria en Java? El uso de Stack y Heap (<a href="https://www.youtube.com/watch?v=zSRO_b4y2cA">https://www.youtube.com/watch?v=zSRO_b4y2cA</a>)</li>
-<li><code>YouTube</code> Tutorial Java - como programar - 12 Objetos: Montón y Recolector de Basura (<a href="https://www.youtube.com/watch?v=LHqWyVFA1l8">https://www.youtube.com/watch?v=LHqWyVFA1l8</a>)</li>
+<ul><li><code data-kind="artículo">Artículo</code> Administración de memoria Java (<a href="https://learn.microsoft.com/es-es/azure/spring-apps/concepts-for-java-memory-management">https://learn.microsoft.com/es-es/azure/spring-apps/concepts-for-java-memory-management</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Como funciona la memoria en Java? El uso de Stack y Heap (<a href="https://www.youtube.com/watch?v=zSRO_b4y2cA">https://www.youtube.com/watch?v=zSRO_b4y2cA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tutorial Java - como programar - 12 Objetos: Montón y Recolector de Basura (<a href="https://www.youtube.com/watch?v=LHqWyVFA1l8">https://www.youtube.com/watch?v=LHqWyVFA1l8</a>)</li>
 </ul>
 <h3>Spring Framework:</h3>
 <ul><li>Spring es un framework de código abierto para la plataforma Java. Se trata de un marco no intrusivo, basado en los estándares de diseño (design patterns) de inversión de control (ioc) e inyección de dependencia. En Spring el contenedor se encarga de &quot;instanciar&quot; clases de una aplicación Java y definir las dependencias entre ellas a través de un archivo de configuración en formato XML, inferencias del framework, lo que es llamado de auto-wiring o incluso anotaciones en las clases, métodos y propiedades. De esta forma, Spring permite el bajo acoplamiento entre clases de una aplicación orientada a objetos.</li>
@@ -413,20 +461,21 @@
 <li>Usar Spring Data para manipular datos</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Artículo</code> ¿Qué son Spring framework y Spring Boot? Tu primer programa Java con este framework (<a href="https://dev.to/campusmvp_es/que-son-spring-framework-y-spring-boot-tu-primer-programa-java-con-este-framework-4ao6">https://dev.to/campusmvp_es/que-son-spring-framework-y-spring-boot-tu-primer-programa-java-con-este-framework-4ao6</a>)</li>
-<li><code>Artículo</code> Que es la inyección de dependencias en Spring (<a href="https://gustavopeiretti.com/spring-inyeccion-dependencias/">https://gustavopeiretti.com/spring-inyeccion-dependencias/</a>)</li>
-<li><code>YouTube</code> Aprende Spring Boot de una vez por todas! #17 Inyección de Dependencias (<a href="https://www.youtube.com/watch?v=SEaDMUy0xKo&ab_channel=CodigoMorsa">https://www.youtube.com/watch?v=SEaDMUy0xKo&amp;ab_channel=CodigoMorsa</a>)</li>
-<li><code>YouTube</code> Aprende Spring Boot de una vez por todas! #19 Beans (<a href="https://www.youtube.com/watch?v=ZCy8JzmZi8Q&ab_channel=CodigoMorsa">https://www.youtube.com/watch?v=ZCy8JzmZi8Q&amp;ab_channel=CodigoMorsa</a>)</li>
-<li><code>Artículo</code> Que es el Modelo Vista Controlador (MVC) (<a href="https://peznuss.medium.com/que-es-el-modelo-vista-controlador-mvc-5b7ff4dbf85e">https://peznuss.medium.com/que-es-el-modelo-vista-controlador-mvc-5b7ff4dbf85e</a>)</li>
-<li><code>Artículo</code> Conversores personalizados para @RequestBody (<a href="https://dev.to/gekyzo/conversores-personalizados-para-requestbody-37hp">https://dev.to/gekyzo/conversores-personalizados-para-requestbody-37hp</a>)</li>
-<li><code>Artículo</code> Tips para usar Spring JdbcTemplate (<a href="https://medium.com/@matedeilo/tips-para-usar-spring-jdbctemplate-486d250dc5a">https://medium.com/@matedeilo/tips-para-usar-spring-jdbctemplate-486d250dc5a</a>)</li>
-<li><code>YouTube</code> JPARepository en SPRING DATA - Tutorial Completo Fácil (<a href="https://www.youtube.com/watch?v=6Vy0rS9Obog&ab_channel=ProgramandoenJAVA">https://www.youtube.com/watch?v=6Vy0rS9Obog&amp;ab_channel=ProgramandoenJAVA</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>YouTube</code> Spring Framework. ¿Qué es? #AluraMás (<a href="https://www.youtube.com/watch?v=t-iqt1b2qqk&t=60s">https://www.youtube.com/watch?v=t-iqt1b2qqk&amp;t=60s</a>)</li>
-<li><code>Artículo</code> Spring: Conozca este framework de Java (<a href="https://www.aluracursos.com/blog/spring-conozca-framework-java">https://www.aluracursos.com/blog/spring-conozca-framework-java</a>)</li>
-<li><code>Artículo</code> Empezando con Spring Framework (<a href="https://www.aluracursos.com/blog/empezando-con-spring-framework">https://www.aluracursos.com/blog/empezando-con-spring-framework</a>)</li>
-<li><code>Curso</code> Curso de Spring MVC: crea un web app con Thymeleaf y Bootstrap (<a href="https://app.aluracursos.com/course/spring-mvc-crea-web-app-thymeleaf-bootstrap">https://app.aluracursos.com/course/spring-mvc-crea-web-app-thymeleaf-bootstrap</a>)</li>
-<li><code>Artículo</code> Programando tareas con Scheduled de Spring (<a href="https://www.aluracursos.com/blog/programando-tareas-con-scheduled-de-spring">https://www.aluracursos.com/blog/programando-tareas-con-scheduled-de-spring</a>)</li>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué son Spring framework y Spring Boot? Tu primer programa Java con este framework (<a href="https://dev.to/campusmvp_es/que-son-spring-framework-y-spring-boot-tu-primer-programa-java-con-este-framework-4ao6">https://dev.to/campusmvp_es/que-son-spring-framework-y-spring-boot-tu-primer-programa-java-con-este-framework-4ao6</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Que es la inyección de dependencias en Spring (<a href="https://gustavopeiretti.com/spring-inyeccion-dependencias/">https://gustavopeiretti.com/spring-inyeccion-dependencias/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende Spring Boot de una vez por todas! #17 Inyección de Dependencias (<a href="https://www.youtube.com/watch?v=SEaDMUy0xKo&ab_channel=CodigoMorsa">https://www.youtube.com/watch?v=SEaDMUy0xKo&amp;ab_channel=CodigoMorsa</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende Spring Boot de una vez por todas! #19 Beans (<a href="https://www.youtube.com/watch?v=ZCy8JzmZi8Q&ab_channel=CodigoMorsa">https://www.youtube.com/watch?v=ZCy8JzmZi8Q&amp;ab_channel=CodigoMorsa</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Que es el Modelo Vista Controlador (MVC) (<a href="https://peznuss.medium.com/que-es-el-modelo-vista-controlador-mvc-5b7ff4dbf85e">https://peznuss.medium.com/que-es-el-modelo-vista-controlador-mvc-5b7ff4dbf85e</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Conversores personalizados para @RequestBody (<a href="https://dev.to/gekyzo/conversores-personalizados-para-requestbody-37hp">https://dev.to/gekyzo/conversores-personalizados-para-requestbody-37hp</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Tips para usar Spring JdbcTemplate (<a href="https://medium.com/@matedeilo/tips-para-usar-spring-jdbctemplate-486d250dc5a">https://medium.com/@matedeilo/tips-para-usar-spring-jdbctemplate-486d250dc5a</a>)</li>
+<li><code data-kind="youtube">YouTube</code> JPARepository en SPRING DATA - Tutorial Completo Fácil (<a href="https://www.youtube.com/watch?v=6Vy0rS9Obog&ab_channel=ProgramandoenJAVA">https://www.youtube.com/watch?v=6Vy0rS9Obog&amp;ab_channel=ProgramandoenJAVA</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Spring Framework. ¿Qué es? #AluraMás (<a href="https://www.youtube.com/watch?v=t-iqt1b2qqk&t=60s">https://www.youtube.com/watch?v=t-iqt1b2qqk&amp;t=60s</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Spring: Conozca este framework de Java (<a href="https://www.aluracursos.com/blog/spring-conozca-framework-java">https://www.aluracursos.com/blog/spring-conozca-framework-java</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Empezando con Spring Framework (<a href="https://www.aluracursos.com/blog/empezando-con-spring-framework">https://www.aluracursos.com/blog/empezando-con-spring-framework</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de Spring MVC: crea un web app con Thymeleaf y Bootstrap (<a href="https://app.aluracursos.com/course/spring-mvc-crea-web-app-thymeleaf-bootstrap">https://app.aluracursos.com/course/spring-mvc-crea-web-app-thymeleaf-bootstrap</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Programando tareas con Scheduled de Spring (<a href="https://www.aluracursos.com/blog/programando-tareas-con-scheduled-de-spring">https://www.aluracursos.com/blog/programando-tareas-con-scheduled-de-spring</a>)</li>
 </ul>
 <h3>Spring Boot:</h3>
 <ul><li>Spring Boot es un framework de código abierto basado en Java que se utiliza para crear Microservicios con Spring Framework. Se utiliza para construir aplicaciones de Spring independientes y listas para la producción.</li>
@@ -434,30 +483,32 @@
 <li>Usar los servidores HTTP integrados</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> Spring Boot - Documentación (en inglés pero puede traducir por navegador) (<a href="https://spring.io/projects/spring-boot">https://spring.io/projects/spring-boot</a>)</li>
-<li><code>YouTube</code> ¿Qué es Spring Boot y por qué deberías usarlo? (<a href="https://www.youtube.com/watch?v=wlZWt_fIAyM">https://www.youtube.com/watch?v=wlZWt_fIAyM</a>)</li>
-<li><code>YouTube</code> Tutorial Spring boot sencillo y en español (<a href="https://www.youtube.com/watch?v=WVHnk04skPc">https://www.youtube.com/watch?v=WVHnk04skPc</a>)</li>
-<li><code>YouTube</code> Spring Boot + Java: Junior Developer lo que deberías saber para el primer trabajo (<a href="https://www.youtube.com/watch?v=q7WA7y-9Fjg">https://www.youtube.com/watch?v=q7WA7y-9Fjg</a>)</li>
-<li><code>YouTube</code> Autowired en Spring Boot - Tutorial Completo Fácil (<a href="https://www.youtube.com/watch?v=D1KpLFCuhcY&ab_channel=ProgramandoenJAVA">https://www.youtube.com/watch?v=D1KpLFCuhcY&amp;ab_channel=ProgramandoenJAVA</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Curso</code> Curso de Spring Boot 3: desarrollar una API Rest en Java (<a href="https://app.aluracursos.com/course/spring-boot-3-desarrollar-api-rest-java">https://app.aluracursos.com/course/spring-boot-3-desarrollar-api-rest-java</a>)</li>
-<li><code>Curso</code> Curso de Spring Boot: Seguridad de la API, caché y monitoreo (<a href="https://app.aluracursos.com/course/spring-boot-seguridad-api-cache-monitoreo">https://app.aluracursos.com/course/spring-boot-seguridad-api-cache-monitoreo</a>)</li>
+<ul><li><code data-kind="web">Web</code> Spring Boot - Documentación (en inglés pero puede traducir por navegador) (<a href="https://spring.io/projects/spring-boot">https://spring.io/projects/spring-boot</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es Spring Boot y por qué deberías usarlo? (<a href="https://www.youtube.com/watch?v=wlZWt_fIAyM">https://www.youtube.com/watch?v=wlZWt_fIAyM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tutorial Spring boot sencillo y en español (<a href="https://www.youtube.com/watch?v=WVHnk04skPc">https://www.youtube.com/watch?v=WVHnk04skPc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Spring Boot + Java: Junior Developer lo que deberías saber para el primer trabajo (<a href="https://www.youtube.com/watch?v=q7WA7y-9Fjg">https://www.youtube.com/watch?v=q7WA7y-9Fjg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Autowired en Spring Boot - Tutorial Completo Fácil (<a href="https://www.youtube.com/watch?v=D1KpLFCuhcY&ab_channel=ProgramandoenJAVA">https://www.youtube.com/watch?v=D1KpLFCuhcY&amp;ab_channel=ProgramandoenJAVA</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso de Spring Boot 3: desarrollar una API Rest en Java (<a href="https://app.aluracursos.com/course/spring-boot-3-desarrollar-api-rest-java">https://app.aluracursos.com/course/spring-boot-3-desarrollar-api-rest-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de Spring Boot: Seguridad de la API, caché y monitoreo (<a href="https://app.aluracursos.com/course/spring-boot-seguridad-api-cache-monitoreo">https://app.aluracursos.com/course/spring-boot-seguridad-api-cache-monitoreo</a>)</li>
 </ul>
 <h3>Builds Tools Java:</h3>
 <ul><li>Un build tool es un sistema que permite automatizar todas las tareas rutinarias de un proyecto de una manera organizada y que evite que el desarrollador tenga que perder tiempo. En otras palabras, agregar una nueva biblioteca, realizar pruebas, empaquetar y desplegar, o incluso, la compatibilidad entre varios IDEs son tareas fácilmente resueltas con una herramienta de construcción.</li>
 <li>Descubre las principales herramientas de construcción de Java, como Maven, Jenkins, Apache Ant, Gradle, etc., y cómo usarlas.</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Artículo</code> ¿Qué es un Build? (<a href="https://www.itdo.com/blog/que-es-un-build/">https://www.itdo.com/blog/que-es-un-build/</a>)</li>
-<li><code>Web</code> Apache Maven Project (en inglés pero puede traducir por navegador) (<a href="https://maven.apache.org/">https://maven.apache.org/</a>)</li>
-<li><code>Web</code> Gradle Build Tool (en inglés pero puede traducir por navegador) (<a href="https://gradle.org/">https://gradle.org/</a>)</li>
-<li><code>YouTube</code> ⭐¿Qué es MAVEN? ¿Cómo usar MAVEN? MAVEN vs Gradle 🖥️ | DESARROLLO JAVA 🌎 (<a href="https://www.youtube.com/watch?v=rE7zLuQv2IU">https://www.youtube.com/watch?v=rE7zLuQv2IU</a>)</li>
-<li><code>YouTube</code> 💪 Crear proyecto java web con 👉 MAVEN 👈 (<a href="https://www.youtube.com/watch?v=UOwC2hmv2Us">https://www.youtube.com/watch?v=UOwC2hmv2Us</a>)</li>
-<li><code>YouTube</code> Aprende Gradle desde cero (<a href="https://www.youtube.com/watch?v=53dmgTdWLnk">https://www.youtube.com/watch?v=53dmgTdWLnk</a>)</li>
-<li><code>Web</code> Construir y probar Java con Gradle (<a href="https://docs.github.com/es/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-java-with-gradle">https://docs.github.com/es/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-java-with-gradle</a>)</li>
-<li><code>Web</code> Construir y probar Java con Ant (<a href="https://docs.github.com/es/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-java-with-ant">https://docs.github.com/es/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-java-with-ant</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> ¿Qué es Maven? (<a href="https://www.aluracursos.com/blog/que-es-maven">https://www.aluracursos.com/blog/que-es-maven</a>)</li>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es un Build? (<a href="https://www.itdo.com/blog/que-es-un-build/">https://www.itdo.com/blog/que-es-un-build/</a>)</li>
+<li><code data-kind="web">Web</code> Apache Maven Project (en inglés pero puede traducir por navegador) (<a href="https://maven.apache.org/">https://maven.apache.org/</a>)</li>
+<li><code data-kind="web">Web</code> Gradle Build Tool (en inglés pero puede traducir por navegador) (<a href="https://gradle.org/">https://gradle.org/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ⭐¿Qué es MAVEN? ¿Cómo usar MAVEN? MAVEN vs Gradle 🖥️ | DESARROLLO JAVA 🌎 (<a href="https://www.youtube.com/watch?v=rE7zLuQv2IU">https://www.youtube.com/watch?v=rE7zLuQv2IU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 💪 Crear proyecto java web con 👉 MAVEN 👈 (<a href="https://www.youtube.com/watch?v=UOwC2hmv2Us">https://www.youtube.com/watch?v=UOwC2hmv2Us</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende Gradle desde cero (<a href="https://www.youtube.com/watch?v=53dmgTdWLnk">https://www.youtube.com/watch?v=53dmgTdWLnk</a>)</li>
+<li><code data-kind="web">Web</code> Construir y probar Java con Gradle (<a href="https://docs.github.com/es/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-java-with-gradle">https://docs.github.com/es/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-java-with-gradle</a>)</li>
+<li><code data-kind="web">Web</code> Construir y probar Java con Ant (<a href="https://docs.github.com/es/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-java-with-ant">https://docs.github.com/es/enterprise-cloud@latest/actions/automating-builds-and-tests/building-and-testing-java-with-ant</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es Maven? (<a href="https://www.aluracursos.com/blog/que-es-maven">https://www.aluracursos.com/blog/que-es-maven</a>)</li>
 </ul>
 <h3>Java - Persistencia:</h3>
 <ul><li>El concepto de &quot;persistencia de datos&quot; se refiere a garantizar que la información introducida en la aplicación se almacena en un medio en el que se puede recuperar de forma consistente. Es decir, son registros permanentes y que no se pierden cuando se cierra la sesión.</li>
@@ -470,16 +521,17 @@
 <li>Entender cómo funciona la memoria en esta situación</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Artículo</code> Persistencia Básica en Java (<a href="https://learn.microsoft.com/es-es/azure/spring-apps/concepts-for-java-memory-management">https://learn.microsoft.com/es-es/azure/spring-apps/concepts-for-java-memory-management</a>)</li>
-<li><code>YouTube</code> Ejemplo Java + JDBC – 2. Crear los DAO (<a href="https://www.youtube.com/watch?v=NjY-WA-jeJ8">https://www.youtube.com/watch?v=NjY-WA-jeJ8</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> Conociendo JDBC (<a href="https://www.aluracursos.com/blog/conociendo-el-jdbc">https://www.aluracursos.com/blog/conociendo-el-jdbc</a>)</li>
-<li><code>Artículo</code> Bases de datos relacionales (<a href="https://www.aluracursos.com/blog/base-de-datos-relacional">https://www.aluracursos.com/blog/base-de-datos-relacional</a>)</li>
-<li><code>Artículo</code> Normalización en base de datos - Estructura (<a href="https://www.aluracursos.com/blog/normalizacion-en-base-de-datos">https://www.aluracursos.com/blog/normalizacion-en-base-de-datos</a>)</li>
-<li><code>Artículo</code> Entendiendo el Lazy y el Eager Load de JPA (<a href="https://www.aluracursos.com/blog/entendiendo-el-lazy-y-el-eager-load-de-jpa">https://www.aluracursos.com/blog/entendiendo-el-lazy-y-el-eager-load-de-jpa</a>)</li>
-<li><code>YouTube</code> Descomplicando Base de Datos (<a href="https://www.youtube.com/watch?v=G1cDRqKuxpg">https://www.youtube.com/watch?v=G1cDRqKuxpg</a>)</li>
-<li><code>Curso</code> Persistencia con JPA: Hibernate (<a href="https://app.aluracursos.com/course/persistencia-jpa-hibernate">https://app.aluracursos.com/course/persistencia-jpa-hibernate</a>)</li>
-<li><code>Curso</code> Java y JDBC: Trabajando con una Base de Datos (<a href="https://app.aluracursos.com/course/java-jdbc-trabajando-base-datos">https://app.aluracursos.com/course/java-jdbc-trabajando-base-datos</a>)</li>
+<ul><li><code data-kind="artículo">Artículo</code> Persistencia Básica en Java (<a href="https://learn.microsoft.com/es-es/azure/spring-apps/concepts-for-java-memory-management">https://learn.microsoft.com/es-es/azure/spring-apps/concepts-for-java-memory-management</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ejemplo Java + JDBC – 2. Crear los DAO (<a href="https://www.youtube.com/watch?v=NjY-WA-jeJ8">https://www.youtube.com/watch?v=NjY-WA-jeJ8</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Conociendo JDBC (<a href="https://www.aluracursos.com/blog/conociendo-el-jdbc">https://www.aluracursos.com/blog/conociendo-el-jdbc</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Bases de datos relacionales (<a href="https://www.aluracursos.com/blog/base-de-datos-relacional">https://www.aluracursos.com/blog/base-de-datos-relacional</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Normalización en base de datos - Estructura (<a href="https://www.aluracursos.com/blog/normalizacion-en-base-de-datos">https://www.aluracursos.com/blog/normalizacion-en-base-de-datos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Entendiendo el Lazy y el Eager Load de JPA (<a href="https://www.aluracursos.com/blog/entendiendo-el-lazy-y-el-eager-load-de-jpa">https://www.aluracursos.com/blog/entendiendo-el-lazy-y-el-eager-load-de-jpa</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Descomplicando Base de Datos (<a href="https://www.youtube.com/watch?v=G1cDRqKuxpg">https://www.youtube.com/watch?v=G1cDRqKuxpg</a>)</li>
+<li><code data-kind="curso">Curso</code> Persistencia con JPA: Hibernate (<a href="https://app.aluracursos.com/course/persistencia-jpa-hibernate">https://app.aluracursos.com/course/persistencia-jpa-hibernate</a>)</li>
+<li><code data-kind="curso">Curso</code> Java y JDBC: Trabajando con una Base de Datos (<a href="https://app.aluracursos.com/course/java-jdbc-trabajando-base-datos">https://app.aluracursos.com/course/java-jdbc-trabajando-base-datos</a>)</li>
 </ul>
 <h2>Nivel 3</h2>
 <h3>Arquitectura de Microservicios:</h3>
@@ -489,13 +541,13 @@
 <li>Mejorar la escalabilidad de un sistema</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> Diseño de una aplicación orientada a microservicios (<a href="https://learn.microsoft.com/es-es/dotnet/architecture/microservices/multi-container-microservice-net-applications/microservice-application-design">https://learn.microsoft.com/es-es/dotnet/architecture/microservices/multi-container-microservice-net-applications/microservice-application-design</a>)</li>
-<li><code>Artículo</code> Microservicios y arquitectura de microservicios (<a href="https://www.intel.la/content/www/xl/es/cloud-computing/microservices.html">https://www.intel.la/content/www/xl/es/cloud-computing/microservices.html</a>)</li>
-<li><code>Artículo</code> Microservicios vs API: Entendiendo la diferencia (<a href="https://kinsta.com/es/blog/microservicios-vs-api/">https://kinsta.com/es/blog/microservicios-vs-api/</a>)</li>
-<li><code>Artículo</code> Microservicios Ejemplo de Flujo (<a href="https://medium.com/mycodebad/microservicios-ejemplo-de-flujo-f45720a9b278">https://medium.com/mycodebad/microservicios-ejemplo-de-flujo-f45720a9b278</a>)</li>
-<li><code>Artículo</code> Microservicios Conceptos (<a href="https://medium.com/mycodebad/microservicios-conceptos-55d19636873e">https://medium.com/mycodebad/microservicios-conceptos-55d19636873e</a>)</li>
-<li><code>YouTube</code> Patrones fundamentales de la arquitectura microservicios (<a href="https://www.youtube.com/watch?v=A7y23uU1NHk">https://www.youtube.com/watch?v=A7y23uU1NHk</a>)</li>
-<li><code>YouTube</code> Un ejemplo de microservicios #CafeConRivas (<a href="https://www.youtube.com/watch?v=qAcUGw7HhxM">https://www.youtube.com/watch?v=qAcUGw7HhxM</a>)</li>
+<ul><li><code data-kind="web">Web</code> Diseño de una aplicación orientada a microservicios (<a href="https://learn.microsoft.com/es-es/dotnet/architecture/microservices/multi-container-microservice-net-applications/microservice-application-design">https://learn.microsoft.com/es-es/dotnet/architecture/microservices/multi-container-microservice-net-applications/microservice-application-design</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Microservicios y arquitectura de microservicios (<a href="https://www.intel.la/content/www/xl/es/cloud-computing/microservices.html">https://www.intel.la/content/www/xl/es/cloud-computing/microservices.html</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Microservicios vs API: Entendiendo la diferencia (<a href="https://kinsta.com/es/blog/microservicios-vs-api/">https://kinsta.com/es/blog/microservicios-vs-api/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Microservicios Ejemplo de Flujo (<a href="https://medium.com/mycodebad/microservicios-ejemplo-de-flujo-f45720a9b278">https://medium.com/mycodebad/microservicios-ejemplo-de-flujo-f45720a9b278</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Microservicios Conceptos (<a href="https://medium.com/mycodebad/microservicios-conceptos-55d19636873e">https://medium.com/mycodebad/microservicios-conceptos-55d19636873e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Patrones fundamentales de la arquitectura microservicios (<a href="https://www.youtube.com/watch?v=A7y23uU1NHk">https://www.youtube.com/watch?v=A7y23uU1NHk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Un ejemplo de microservicios #CafeConRivas (<a href="https://www.youtube.com/watch?v=qAcUGw7HhxM">https://www.youtube.com/watch?v=qAcUGw7HhxM</a>)</li>
 </ul>
 <h3>Java - Concurrencia:</h3>
 <ul><li>Programación concurrente es un paradigma de programación para la construcción de programas que hacen uso de la ejecución simultánea de varias tareas computacionales interactivas, que pueden ser implementadas como programas separados o como un conjunto de hilos creados por un único programa.</li>
@@ -504,11 +556,11 @@
 <li>Entender cómo funciona la memoria en esta situación.</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Artículo</code> Introducción a la Concurrencia en Java (I) (<a href="https://blog.softtek.com/es/java-concurrency">https://blog.softtek.com/es/java-concurrency</a>)</li>
-<li><code>Artículo</code> Programación concurrente (<a href="https://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html">https://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html</a>)</li>
-<li><code>Artículo</code> Java - Threads (<a href="https://informatica.uv.es/iiguia/LP/teoria/apuntes/cuatr1/tema3_2_concurrencia2.pdf">https://informatica.uv.es/iiguia/LP/teoria/apuntes/cuatr1/tema3_2_concurrencia2.pdf</a>)</li>
-<li><code>YouTube</code> Programando en JAVA: HILOS (THREAD) en JAVA (<a href="https://www.youtube.com/watch?v=tpnasHx9WLg">https://www.youtube.com/watch?v=tpnasHx9WLg</a>)</li>
-<li><code>YouTube</code> Concurrencia estructurada en Java, todo lo que necesitas saber (<a href="https://www.youtube.com/watch?v=l1lIZUGhHEY">https://www.youtube.com/watch?v=l1lIZUGhHEY</a>)</li>
+<ul><li><code data-kind="artículo">Artículo</code> Introducción a la Concurrencia en Java (I) (<a href="https://blog.softtek.com/es/java-concurrency">https://blog.softtek.com/es/java-concurrency</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Programación concurrente (<a href="https://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html">https://ferestrepoca.github.io/paradigmas-de-programacion/progconcurrente/concurrente_teoria/index.html</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Java - Threads (<a href="https://informatica.uv.es/iiguia/LP/teoria/apuntes/cuatr1/tema3_2_concurrencia2.pdf">https://informatica.uv.es/iiguia/LP/teoria/apuntes/cuatr1/tema3_2_concurrencia2.pdf</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programando en JAVA: HILOS (THREAD) en JAVA (<a href="https://www.youtube.com/watch?v=tpnasHx9WLg">https://www.youtube.com/watch?v=tpnasHx9WLg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Concurrencia estructurada en Java, todo lo que necesitas saber (<a href="https://www.youtube.com/watch?v=l1lIZUGhHEY">https://www.youtube.com/watch?v=l1lIZUGhHEY</a>)</li>
 </ul>
 <h3>Contenedores:</h3>
 <ul><li>Los contenedores son paquetes de software que contienen todos los elementos necesarios para ejecutarse en cualquier entorno. La gestión de contenedores es un área crucial en la computación en nube y DevOps, que implica el uso de tecnologías para automatizar el proceso de creación, implementación, escalado y monitoreo de contenedores. Los contenedores son unidades de software estandarizadas que permiten a los desarrolladores empaquetar todas las dependencias de una aplicación (código, bibliotecas, configuraciones, etc.) en un solo paquete. Esto permite que la aplicación se ejecute de forma consistente en cualquier entorno de infraestructura.</li>
@@ -521,20 +573,21 @@
 <li>Conocer Kubernetes</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> IBM - ¿Qué son los contenedores? (<a href="https://www.ibm.com/mx-es/topics/containers">https://www.ibm.com/mx-es/topics/containers</a>)</li>
-<li><code>Web</code> Microsoft - ¿Qué es un contenedor? (<a href="https://azure.microsoft.com/es-mx/resources/cloud-computing-dictionary/what-is-a-container">https://azure.microsoft.com/es-mx/resources/cloud-computing-dictionary/what-is-a-container</a>)</li>
-<li><code>Artículo</code> Contenedores y la nube (<a href="https://dev.to/roremdev/contenedores-y-la-nube-3je9">https://dev.to/roremdev/contenedores-y-la-nube-3je9</a>)</li>
-<li><code>Artículo</code> Contenedores: cómo es el ciclo de vida de una aplicación en Kubernetes (<a href="https://dev.to/campusmvp/contenedores-como-es-el-ciclo-de-vida-de-una-aplicacion-en-kubernetes-1ief">https://dev.to/campusmvp/contenedores-como-es-el-ciclo-de-vida-de-una-aplicacion-en-kubernetes-1ief</a>)</li>
-<li><code>Artículo</code> ¿Qué diferencia hay entre Docker (Contenedores) y Máquinas virtuales (VMWare, VirtualBox...)? (<a href="https://dev.to/campusmvp/qu-diferencia-hay-entre-docker-contenedores-y-mquinas-virtuales-vmware-virtualbox-4ji3">https://dev.to/campusmvp/qu-diferencia-hay-entre-docker-contenedores-y-mquinas-virtuales-vmware-virtualbox-4ji3</a>)</li>
-<li><code>Artículo</code> El potencial de Kubernetes para las empresas (<a href="https://jlcasal.medium.com/el-potencial-de-kubernetes-para-las-empresas-d36f9eece999">https://jlcasal.medium.com/el-potencial-de-kubernetes-para-las-empresas-d36f9eece999</a>)</li>
-<li><code>Artículo</code> ¿Qué es Docker y para que sirve? Explicación (<a href="https://dev.to/prox_sea/que-es-docker-y-para-que-sirve-explicacion-5h2n">https://dev.to/prox_sea/que-es-docker-y-para-que-sirve-explicacion-5h2n</a>)</li>
-<li><code>YouTube</code> ¿Que es un contenedor? (<a href="https://www.youtube.com/watch?v=x5zGoICZLnU">https://www.youtube.com/watch?v=x5zGoICZLnU</a>)</li>
-<li><code>YouTube</code> ¿Qué es Docker y los contenedores? (<a href="https://www.youtube.com/watch?v=kkfZs0vJFyU">https://www.youtube.com/watch?v=kkfZs0vJFyU</a>)</li>
-<li><code>YouTube</code> Volúmenes y redes en Docker (<a href="https://www.youtube.com/watch?v=DIDel70dFlI&ab_channel=Programaci%C3%B3nenespa%C3%B1ol">https://www.youtube.com/watch?v=DIDel70dFlI&amp;ab_channel=Programaci%C3%B3nenespa%C3%B1ol</a>)</li>
-<li><code>YouTube</code> ¿Qué es KUBERNETES? ✅ Relación con DOCKER y CONTENEDORES ▶️ (<a href="https://www.youtube.com/watch?v=V86eTbswdQo">https://www.youtube.com/watch?v=V86eTbswdQo</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> Empezando con Docker (<a href="https://www.aluracursos.com/blog/empezando-con-docker">https://www.aluracursos.com/blog/empezando-con-docker</a>)</li>
-<li><code>Artículo</code> Creando volúmenes con Docker (<a href="https://www.aluracursos.com/blog/creando-volumenes-con-docker">https://www.aluracursos.com/blog/creando-volumenes-con-docker</a>)</li>
+<ul><li><code data-kind="web">Web</code> IBM - ¿Qué son los contenedores? (<a href="https://www.ibm.com/mx-es/topics/containers">https://www.ibm.com/mx-es/topics/containers</a>)</li>
+<li><code data-kind="web">Web</code> Microsoft - ¿Qué es un contenedor? (<a href="https://azure.microsoft.com/es-mx/resources/cloud-computing-dictionary/what-is-a-container">https://azure.microsoft.com/es-mx/resources/cloud-computing-dictionary/what-is-a-container</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Contenedores y la nube (<a href="https://dev.to/roremdev/contenedores-y-la-nube-3je9">https://dev.to/roremdev/contenedores-y-la-nube-3je9</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Contenedores: cómo es el ciclo de vida de una aplicación en Kubernetes (<a href="https://dev.to/campusmvp/contenedores-como-es-el-ciclo-de-vida-de-una-aplicacion-en-kubernetes-1ief">https://dev.to/campusmvp/contenedores-como-es-el-ciclo-de-vida-de-una-aplicacion-en-kubernetes-1ief</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué diferencia hay entre Docker (Contenedores) y Máquinas virtuales (VMWare, VirtualBox...)? (<a href="https://dev.to/campusmvp/qu-diferencia-hay-entre-docker-contenedores-y-mquinas-virtuales-vmware-virtualbox-4ji3">https://dev.to/campusmvp/qu-diferencia-hay-entre-docker-contenedores-y-mquinas-virtuales-vmware-virtualbox-4ji3</a>)</li>
+<li><code data-kind="artículo">Artículo</code> El potencial de Kubernetes para las empresas (<a href="https://jlcasal.medium.com/el-potencial-de-kubernetes-para-las-empresas-d36f9eece999">https://jlcasal.medium.com/el-potencial-de-kubernetes-para-las-empresas-d36f9eece999</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es Docker y para que sirve? Explicación (<a href="https://dev.to/prox_sea/que-es-docker-y-para-que-sirve-explicacion-5h2n">https://dev.to/prox_sea/que-es-docker-y-para-que-sirve-explicacion-5h2n</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Que es un contenedor? (<a href="https://www.youtube.com/watch?v=x5zGoICZLnU">https://www.youtube.com/watch?v=x5zGoICZLnU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es Docker y los contenedores? (<a href="https://www.youtube.com/watch?v=kkfZs0vJFyU">https://www.youtube.com/watch?v=kkfZs0vJFyU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Volúmenes y redes en Docker (<a href="https://www.youtube.com/watch?v=DIDel70dFlI&ab_channel=Programaci%C3%B3nenespa%C3%B1ol">https://www.youtube.com/watch?v=DIDel70dFlI&amp;ab_channel=Programaci%C3%B3nenespa%C3%B1ol</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es KUBERNETES? ✅ Relación con DOCKER y CONTENEDORES ▶️ (<a href="https://www.youtube.com/watch?v=V86eTbswdQo">https://www.youtube.com/watch?v=V86eTbswdQo</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Empezando con Docker (<a href="https://www.aluracursos.com/blog/empezando-con-docker">https://www.aluracursos.com/blog/empezando-con-docker</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Creando volúmenes con Docker (<a href="https://www.aluracursos.com/blog/creando-volumenes-con-docker">https://www.aluracursos.com/blog/creando-volumenes-con-docker</a>)</li>
 </ul>
 <h3>Java - Kafka:</h3>
 <ul><li>Apache Kafka es una plataforma de transmisión de datos distribuida que es capaz de publicar, suscribir, almacenar y procesar flujos de registro en tiempo real. Esta plataforma está diseñada para procesar flujos de datos provenientes de diversas fuentes y entregarlos a varios clientes.</li>
@@ -545,13 +598,13 @@
 <li>Obtener garantías relativas al envío o entrega de los mensajes</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>YouTube</code> Apache KAFKA: Qué es en 1 minuto (<a href="https://www.youtube.com/watch?v=bxIsNY8Au9I">https://www.youtube.com/watch?v=bxIsNY8Au9I</a>)</li>
-<li><code>Artículo</code> Qué es Apache Kafka y cómo dar los primeros pasos (<a href="https://profile.es/blog/que-es-apache-kafka-primeros-pasos/">https://profile.es/blog/que-es-apache-kafka-primeros-pasos/</a>)</li>
-<li><code>Podcast</code> ¿Qué es y cómo funciona Apache Kafka? Podcast Apasionados por la tecnología. (<a href="https://open.spotify.com/episode/52RjBgXycIVSd2FHkkENQV?si=130fac7df95b4ec6">https://open.spotify.com/episode/52RjBgXycIVSd2FHkkENQV?si=130fac7df95b4ec6</a>)</li>
-<li><code>Web</code> Introducción a Apache Kafka (<a href="https://oscarfmdc.medium.com/introducci%C3%B3n-a-apache-kafka-aprende-big-data-en-espa%C3%B1ol-ce7281fdf0cc">https://oscarfmdc.medium.com/introducci%C3%B3n-a-apache-kafka-aprende-big-data-en-espa%C3%B1ol-ce7281fdf0cc</a>)</li>
-<li><code>YouTube</code> Apache Kafka - Ejemplo de configuración de intermediario de Apache Kafka (<a href="https://www.ibm.com/docs/es/oala/1.3.7?topic=collection-apache-kafka-broker-configuration-example">https://www.ibm.com/docs/es/oala/1.3.7?topic=collection-apache-kafka-broker-configuration-example</a>)</li>
-<li><code>YouTube</code> Como comunicar microservicios y ejemplo con Apache Kafka y Javascript (<a href="https://www.youtube.com/watch?v=rHRSOWa0cqI&ab_channel=NullSafeArchitect">https://www.youtube.com/watch?v=rHRSOWa0cqI&amp;ab_channel=NullSafeArchitect</a>)</li>
-<li><code>YouTube</code> Instalación de un cluster de Apache Kafka paso a paso (<a href="https://www.youtube.com/watch?v=MA-nxL14fr4&ab_channel=NullSafeArchitect">https://www.youtube.com/watch?v=MA-nxL14fr4&amp;ab_channel=NullSafeArchitect</a>)</li>
+<ul><li><code data-kind="youtube">YouTube</code> Apache KAFKA: Qué es en 1 minuto (<a href="https://www.youtube.com/watch?v=bxIsNY8Au9I">https://www.youtube.com/watch?v=bxIsNY8Au9I</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Qué es Apache Kafka y cómo dar los primeros pasos (<a href="https://profile.es/blog/que-es-apache-kafka-primeros-pasos/">https://profile.es/blog/que-es-apache-kafka-primeros-pasos/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> ¿Qué es y cómo funciona Apache Kafka? Podcast Apasionados por la tecnología. (<a href="https://open.spotify.com/episode/52RjBgXycIVSd2FHkkENQV?si=130fac7df95b4ec6">https://open.spotify.com/episode/52RjBgXycIVSd2FHkkENQV?si=130fac7df95b4ec6</a>)</li>
+<li><code data-kind="web">Web</code> Introducción a Apache Kafka (<a href="https://oscarfmdc.medium.com/introducci%C3%B3n-a-apache-kafka-aprende-big-data-en-espa%C3%B1ol-ce7281fdf0cc">https://oscarfmdc.medium.com/introducci%C3%B3n-a-apache-kafka-aprende-big-data-en-espa%C3%B1ol-ce7281fdf0cc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Apache Kafka - Ejemplo de configuración de intermediario de Apache Kafka (<a href="https://www.ibm.com/docs/es/oala/1.3.7?topic=collection-apache-kafka-broker-configuration-example">https://www.ibm.com/docs/es/oala/1.3.7?topic=collection-apache-kafka-broker-configuration-example</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como comunicar microservicios y ejemplo con Apache Kafka y Javascript (<a href="https://www.youtube.com/watch?v=rHRSOWa0cqI&ab_channel=NullSafeArchitect">https://www.youtube.com/watch?v=rHRSOWa0cqI&amp;ab_channel=NullSafeArchitect</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Instalación de un cluster de Apache Kafka paso a paso (<a href="https://www.youtube.com/watch?v=MA-nxL14fr4&ab_channel=NullSafeArchitect">https://www.youtube.com/watch?v=MA-nxL14fr4&amp;ab_channel=NullSafeArchitect</a>)</li>
 </ul>
 <h2>Habilidad Auxiliar: Infraestructura</h2>
 <h3>Git y GitHub - Fundamentos:</h3>
@@ -565,36 +618,37 @@
 <li>Manejar fusiones y conflictos</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> Git: Libro de Consulta (<a href="https://git-scm.com/book/es/v2">https://git-scm.com/book/es/v2</a>)</li>
-<li><code>Web</code> GitHub Documentación (<a href="https://docs.github.com/es">https://docs.github.com/es</a>)</li>
-<li><code>Web</code> Github Pages Documentación (<a href="https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
-<li><code>Web</code> W3Schools: Git Tutorial (<a href="https://www.w3schools.com/git/default.asp?remote=github">https://www.w3schools.com/git/default.asp?remote=github</a>)</li>
-<li><code>Web</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
-<li><code>Web</code> Dangit, Git!?! (<a href="https://dangitgit.com/es">https://dangitgit.com/es</a>)</li>
-<li><code>Artículo</code> Git and Github Quickstart Tutorial (<a href="https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca">https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca</a>)</li>
-<li><code>YouTube</code> ¿Qué es Git y cómo funciona? (<a href="https://www.youtube.com/watch?v=jGehuhFhtnE">https://www.youtube.com/watch?v=jGehuhFhtnE</a>)</li>
-<li><code>YouTube</code> Git y Github | Guia Práctico de Git y Github Desde Cero (<a href="https://www.youtube.com/watch?v=HiXLkL42tMU">https://www.youtube.com/watch?v=HiXLkL42tMU</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> Git y Github: que son y primeros pasos (<a href="https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos">https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos</a>)</li>
-<li><code>Artículo</code> Guía sobre cómo instalar Git en diferentes sistemas operativos (<a href="https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos">https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos</a>)</li>
-<li><code>Artículo</code> Iniciando un repositorio con Git (<a href="https://www.aluracursos.com/blog/iniciando-repositorio-con-git">https://www.aluracursos.com/blog/iniciando-repositorio-con-git</a>)</li>
-<li><code>Artículo</code> Comenzando con Git: aprendiendo a versionar (<a href="https://www.aluracursos.com/blog/comenzando-con-git">https://www.aluracursos.com/blog/comenzando-con-git</a>)</li>
-<li><code>Artículo</code> Creando un repositorio remoto en GitHub (<a href="https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github">https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github</a>)</li>
-<li><code>Artículo</code> Clonando un repositorio con Git y GitHub (<a href="https://www.aluracursos.com/blog/clonando-un-repositorio-remoto">https://www.aluracursos.com/blog/clonando-un-repositorio-remoto</a>)</li>
-<li><code>Artículo</code> Paso a Paso para activar tu proyecto en GitHub Pages. (<a href="https://www.aluracursos.com/blog/github-pages">https://www.aluracursos.com/blog/github-pages</a>)</li>
-<li><code>Artículo</code> Cómo escribir un README increíble en tu Github (<a href="https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github">https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github</a>)</li>
-<li><code>Artículo</code> Buenas practicas en git: evitando errores (<a href="https://www.aluracursos.com/blog/como-evitar-errores-en-git">https://www.aluracursos.com/blog/como-evitar-errores-en-git</a>)</li>
-<li><code>Artículo</code> GIT: Errores de comandos y directorios (<a href="https://www.aluracursos.com/blog/git-errores-de-comandos-y-directorios">https://www.aluracursos.com/blog/git-errores-de-comandos-y-directorios</a>)</li>
-<li><code>Artículo</code> GIT: errores de commits (<a href="https://www.aluracursos.com/blog/git-errores-de-commits">https://www.aluracursos.com/blog/git-errores-de-commits</a>)</li>
-<li><code>Artículo</code> GIT: Errores de fusión (<a href="https://www.aluracursos.com/blog/errores-de-fusion">https://www.aluracursos.com/blog/errores-de-fusion</a>)</li>
-<li><code>Artículo</code> GIT: Errores con el remoto (<a href="https://www.aluracursos.com/blog/errores-con-el-remoto">https://www.aluracursos.com/blog/errores-con-el-remoto</a>)</li>
-<li><code>YouTube</code> Git y GitHub para Principiantes #AluraMás (<a href="https://www.youtube.com/watch?v=-LmFK6skG7s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=-LmFK6skG7s&amp;ab_channel=AluraLatam</a>)</li>
-<li><code>YouTube</code> Git y GitHub: Herramientas Esenciales para el Control de Versiones y Colaboración en Desarrollo (<a href="https://youtu.be/dw04N616Abw">https://youtu.be/dw04N616Abw</a>)</li>
-<li><code>YouTube</code> ¿Puedo subir mi proyecto a Github sin líneas de comando? - Git y Github para principiantes (<a href="https://www.youtube.com/watch?v=Yfm16Tlpcwk&ab_channel=AluraLatam">https://www.youtube.com/watch?v=Yfm16Tlpcwk&amp;ab_channel=AluraLatam</a>)</li>
-<li><code>YouTube</code> Git y GitHub: Herramientas Esenciales para el Control de Versiones y Colaboración en Desarrollo (<a href="https://www.youtube.com/watch?v=dw04N616Abw">https://www.youtube.com/watch?v=dw04N616Abw</a>)</li>
-<li><code>YouTube</code> ¿Puedo subir mi proyecto a Github sin líneas de comando? - Git y Github para principiantes (<a href="https://www.youtube.com/watch?v=Yfm16Tlpcwk">https://www.youtube.com/watch?v=Yfm16Tlpcwk</a>)</li>
-<li><code>Curso</code> Git y GitHub: repositorio, commit y versiones (<a href="https://app.aluracursos.com/course/git-github-repositorio-commit-versiones">https://app.aluracursos.com/course/git-github-repositorio-commit-versiones</a>)</li>
-<li><code>Curso</code> Git y Github: estrategias de ramificación, conflictos y Pull Requests (<a href="https://www.aluracursos.com/curso-online-git-github-estrategias-ramificacion-conflictos-pull-requests">https://www.aluracursos.com/curso-online-git-github-estrategias-ramificacion-conflictos-pull-requests</a>)</li>
+<ul><li><code data-kind="web">Web</code> Git: Libro de Consulta (<a href="https://git-scm.com/book/es/v2">https://git-scm.com/book/es/v2</a>)</li>
+<li><code data-kind="web">Web</code> GitHub Documentación (<a href="https://docs.github.com/es">https://docs.github.com/es</a>)</li>
+<li><code data-kind="web">Web</code> Github Pages Documentación (<a href="https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Git Tutorial (<a href="https://www.w3schools.com/git/default.asp?remote=github">https://www.w3schools.com/git/default.asp?remote=github</a>)</li>
+<li><code data-kind="web">Web</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="web">Web</code> Dangit, Git!?! (<a href="https://dangitgit.com/es">https://dangitgit.com/es</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Git and Github Quickstart Tutorial (<a href="https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca">https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es Git y cómo funciona? (<a href="https://www.youtube.com/watch?v=jGehuhFhtnE">https://www.youtube.com/watch?v=jGehuhFhtnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y Github | Guia Práctico de Git y Github Desde Cero (<a href="https://www.youtube.com/watch?v=HiXLkL42tMU">https://www.youtube.com/watch?v=HiXLkL42tMU</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Git y Github: que son y primeros pasos (<a href="https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos">https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía sobre cómo instalar Git en diferentes sistemas operativos (<a href="https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos">https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Iniciando un repositorio con Git (<a href="https://www.aluracursos.com/blog/iniciando-repositorio-con-git">https://www.aluracursos.com/blog/iniciando-repositorio-con-git</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Comenzando con Git: aprendiendo a versionar (<a href="https://www.aluracursos.com/blog/comenzando-con-git">https://www.aluracursos.com/blog/comenzando-con-git</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Creando un repositorio remoto en GitHub (<a href="https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github">https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Clonando un repositorio con Git y GitHub (<a href="https://www.aluracursos.com/blog/clonando-un-repositorio-remoto">https://www.aluracursos.com/blog/clonando-un-repositorio-remoto</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Paso a Paso para activar tu proyecto en GitHub Pages. (<a href="https://www.aluracursos.com/blog/github-pages">https://www.aluracursos.com/blog/github-pages</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo escribir un README increíble en tu Github (<a href="https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github">https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Buenas practicas en git: evitando errores (<a href="https://www.aluracursos.com/blog/como-evitar-errores-en-git">https://www.aluracursos.com/blog/como-evitar-errores-en-git</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: Errores de comandos y directorios (<a href="https://www.aluracursos.com/blog/git-errores-de-comandos-y-directorios">https://www.aluracursos.com/blog/git-errores-de-comandos-y-directorios</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: errores de commits (<a href="https://www.aluracursos.com/blog/git-errores-de-commits">https://www.aluracursos.com/blog/git-errores-de-commits</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: Errores de fusión (<a href="https://www.aluracursos.com/blog/errores-de-fusion">https://www.aluracursos.com/blog/errores-de-fusion</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: Errores con el remoto (<a href="https://www.aluracursos.com/blog/errores-con-el-remoto">https://www.aluracursos.com/blog/errores-con-el-remoto</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y GitHub para Principiantes #AluraMás (<a href="https://www.youtube.com/watch?v=-LmFK6skG7s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=-LmFK6skG7s&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y GitHub: Herramientas Esenciales para el Control de Versiones y Colaboración en Desarrollo (<a href="https://youtu.be/dw04N616Abw">https://youtu.be/dw04N616Abw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Puedo subir mi proyecto a Github sin líneas de comando? - Git y Github para principiantes (<a href="https://www.youtube.com/watch?v=Yfm16Tlpcwk&ab_channel=AluraLatam">https://www.youtube.com/watch?v=Yfm16Tlpcwk&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y GitHub: Herramientas Esenciales para el Control de Versiones y Colaboración en Desarrollo (<a href="https://www.youtube.com/watch?v=dw04N616Abw">https://www.youtube.com/watch?v=dw04N616Abw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Puedo subir mi proyecto a Github sin líneas de comando? - Git y Github para principiantes (<a href="https://www.youtube.com/watch?v=Yfm16Tlpcwk">https://www.youtube.com/watch?v=Yfm16Tlpcwk</a>)</li>
+<li><code data-kind="curso">Curso</code> Git y GitHub: repositorio, commit y versiones (<a href="https://app.aluracursos.com/course/git-github-repositorio-commit-versiones">https://app.aluracursos.com/course/git-github-repositorio-commit-versiones</a>)</li>
+<li><code data-kind="curso">Curso</code> Git y Github: estrategias de ramificación, conflictos y Pull Requests (<a href="https://www.aluracursos.com/curso-online-git-github-estrategias-ramificacion-conflictos-pull-requests">https://www.aluracursos.com/curso-online-git-github-estrategias-ramificacion-conflictos-pull-requests</a>)</li>
 </ul>
 <h3>HTTP - Fundamentos:</h3>
 <ul><li>HTTP significa Protocolo de transferencia de hipertexto. La comunicación entre las computadoras cliente y los servidores web se realiza mediante el envío de solicitudes HTTP y la recepción de respuestas HTTP.</li>
@@ -605,24 +659,25 @@
 <li>Realización de una POST</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> W3Schools: ¿Qué es HTTP? (<a href="https://www.w3schools.com/whatis/whatis_http.asp">https://www.w3schools.com/whatis/whatis_http.asp</a>)</li>
-<li><code>Web</code> MDN Web Docs: Una descripción general de HTTP (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview</a>)</li>
-<li><code>Web</code> MDN Web Docs: Métodos de solicitud HTTP (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods</a>)</li>
-<li><code>Web</code> MDN Web Docs: HTTP (<a href="https://developer.mozilla.org/es/docs/Web/HTTP">https://developer.mozilla.org/es/docs/Web/HTTP</a>)</li>
-<li><code>Web</code> MDN Web Docs: Métodos de petición HTTP (<a href="https://developer.mozilla.org/es/docs/Web/HTTP/Methods">https://developer.mozilla.org/es/docs/Web/HTTP/Methods</a>)</li>
-<li><code>Web</code> MDN Web Docs: Mensajes HTTP (<a href="https://developer.mozilla.org/es/docs/Web/HTTP/Messages">https://developer.mozilla.org/es/docs/Web/HTTP/Messages</a>)</li>
-<li><code>Web</code> HTTP Cats (<a href="https://http.cat/">https://http.cat/</a>)</li>
-<li><code>Web</code> HTTP Dogs (<a href="https://http.dog/">https://http.dog/</a>)</li>
-<li><code>YouTube</code> Peticiones, Métodos Http y Códigos de estado. (<a href="https://www.youtube.com/watch?v=gBK-Mfa0lw8">https://www.youtube.com/watch?v=gBK-Mfa0lw8</a>)</li>
-<li><code>YouTube</code> SSL, TLS, HTTPS, HTTP - Explicado Fácilmente (<a href="https://www.youtube.com/watch?v=6HJAWFenYx8&ab_channel=ProfeSang">https://www.youtube.com/watch?v=6HJAWFenYx8&amp;ab_channel=ProfeSang</a>)</li>
-<li><code>YouTube</code> ⭐Protocolo HTTP 🖥️ Requests y Responses con: GET, POST, PUT, PATCH y DELETE | Desarrollo web 🌎 (<a href="https://www.youtube.com/watch?v=l2MihYAj0Iw">https://www.youtube.com/watch?v=l2MihYAj0Iw</a>)</li>
-<li><code>YouTube</code> REST y los Verbos de HTTP (<a href="https://www.youtube.com/watch?v=OHBHeAPoZ8E">https://www.youtube.com/watch?v=OHBHeAPoZ8E</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> HTTP: Desmitificando el protocolo Web (<a href="https://www.aluracursos.com/blog/http-desmitificando-el-protocolo">https://www.aluracursos.com/blog/http-desmitificando-el-protocolo</a>)</li>
-<li><code>Artículo</code> ¿Cual es la diferencia entre HTTP y HTTPS? (<a href="https://www.aluracursos.com/blog/cual-es-la-diferencia-entre-http-y-https">https://www.aluracursos.com/blog/cual-es-la-diferencia-entre-http-y-https</a>)</li>
-<li><code>Artículo</code> HTTP: Diferencias entre GET y POST (<a href="https://www.aluracursos.com/blog/diferencias-entre-get-y-post">https://www.aluracursos.com/blog/diferencias-entre-get-y-post</a>)</li>
-<li><code>Artículo</code> Métodos de petición HTTP (<a href="https://www.aluracursos.com/blog/metodos-de-peticion-http">https://www.aluracursos.com/blog/metodos-de-peticion-http</a>)</li>
-<li><code>Curso</code> HTTP: La base de internet (<a href="https://app.aluracursos.com/course/http-base-internet">https://app.aluracursos.com/course/http-base-internet</a>)</li>
+<ul><li><code data-kind="web">Web</code> W3Schools: ¿Qué es HTTP? (<a href="https://www.w3schools.com/whatis/whatis_http.asp">https://www.w3schools.com/whatis/whatis_http.asp</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Una descripción general de HTTP (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Métodos de solicitud HTTP (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: HTTP (<a href="https://developer.mozilla.org/es/docs/Web/HTTP">https://developer.mozilla.org/es/docs/Web/HTTP</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Métodos de petición HTTP (<a href="https://developer.mozilla.org/es/docs/Web/HTTP/Methods">https://developer.mozilla.org/es/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Mensajes HTTP (<a href="https://developer.mozilla.org/es/docs/Web/HTTP/Messages">https://developer.mozilla.org/es/docs/Web/HTTP/Messages</a>)</li>
+<li><code data-kind="web">Web</code> HTTP Cats (<a href="https://http.cat/">https://http.cat/</a>)</li>
+<li><code data-kind="web">Web</code> HTTP Dogs (<a href="https://http.dog/">https://http.dog/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Peticiones, Métodos Http y Códigos de estado. (<a href="https://www.youtube.com/watch?v=gBK-Mfa0lw8">https://www.youtube.com/watch?v=gBK-Mfa0lw8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SSL, TLS, HTTPS, HTTP - Explicado Fácilmente (<a href="https://www.youtube.com/watch?v=6HJAWFenYx8&ab_channel=ProfeSang">https://www.youtube.com/watch?v=6HJAWFenYx8&amp;ab_channel=ProfeSang</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ⭐Protocolo HTTP 🖥️ Requests y Responses con: GET, POST, PUT, PATCH y DELETE | Desarrollo web 🌎 (<a href="https://www.youtube.com/watch?v=l2MihYAj0Iw">https://www.youtube.com/watch?v=l2MihYAj0Iw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> REST y los Verbos de HTTP (<a href="https://www.youtube.com/watch?v=OHBHeAPoZ8E">https://www.youtube.com/watch?v=OHBHeAPoZ8E</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> HTTP: Desmitificando el protocolo Web (<a href="https://www.aluracursos.com/blog/http-desmitificando-el-protocolo">https://www.aluracursos.com/blog/http-desmitificando-el-protocolo</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Cual es la diferencia entre HTTP y HTTPS? (<a href="https://www.aluracursos.com/blog/cual-es-la-diferencia-entre-http-y-https">https://www.aluracursos.com/blog/cual-es-la-diferencia-entre-http-y-https</a>)</li>
+<li><code data-kind="artículo">Artículo</code> HTTP: Diferencias entre GET y POST (<a href="https://www.aluracursos.com/blog/diferencias-entre-get-y-post">https://www.aluracursos.com/blog/diferencias-entre-get-y-post</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Métodos de petición HTTP (<a href="https://www.aluracursos.com/blog/metodos-de-peticion-http">https://www.aluracursos.com/blog/metodos-de-peticion-http</a>)</li>
+<li><code data-kind="curso">Curso</code> HTTP: La base de internet (<a href="https://app.aluracursos.com/course/http-base-internet">https://app.aluracursos.com/course/http-base-internet</a>)</li>
 </ul>
 <h3>JSON:</h3>
 <ul><li>JSON significa Notación de objetos de JavaScript. Es un formato de texto para almacenar y transportar datos.</li>
@@ -632,36 +687,38 @@
 <li>Manipular un objeto</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> MDN Web Docs: JSON (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON</a>)</li>
-<li><code>Web</code> MDN Web Docs: Trabajando con JSON (<a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON">https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON</a>)</li>
-<li><code>YouTube</code> ¿Que és JSON y cómo funciona? (<a href="https://www.youtube.com/watch?v=z8qk7T_2sWg&ab_channel=SoyDalto">https://www.youtube.com/watch?v=z8qk7T_2sWg&amp;ab_channel=SoyDalto</a>)</li>
-<li><code>YouTube</code> ⭐¿Qué es JSON? ¿Cuál es su SINTAXIS? 🖥️¿Cómo crear un archivo JSON? | DESARROLLO WEB 🌎 (<a href="https://www.youtube.com/watch?v=RhxOTqFbI5Q&ab_channel=TodoCode">https://www.youtube.com/watch?v=RhxOTqFbI5Q&amp;ab_channel=TodoCode</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> ¿Que es Json? (<a href="https://www.aluracursos.com/blog/que-es-json">https://www.aluracursos.com/blog/que-es-json</a>)</li>
-<li><code>Artículo</code> ¿JSON y Objeto JavaScript son lo mismo? (<a href="https://www.aluracursos.com/blog/json-y-objeto-javascript-son-lo-mismo">https://www.aluracursos.com/blog/json-y-objeto-javascript-son-lo-mismo</a>)</li>
-<li><code>Artículo</code> Simulando una API REST con json-server (<a href="https://www.aluracursos.com/blog/simulando-una-api-rest-con-json-server">https://www.aluracursos.com/blog/simulando-una-api-rest-con-json-server</a>)</li>
-<li><code>Artículo</code> ¿Qué es JSON Web Token? (<a href="https://www.aluracursos.com/blog/que-es-json-web-token">https://www.aluracursos.com/blog/que-es-json-web-token</a>)</li>
-<li><code>Curso</code> JS en la Web: CRUD con JavaScript asíncrono (<a href="https://www.aluracursos.com/curso-online-js-web-crud-javascript-asincrono">https://www.aluracursos.com/curso-online-js-web-crud-javascript-asincrono</a>)</li>
+<ul><li><code data-kind="web">Web</code> MDN Web Docs: JSON (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Trabajando con JSON (<a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON">https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Que és JSON y cómo funciona? (<a href="https://www.youtube.com/watch?v=z8qk7T_2sWg&ab_channel=SoyDalto">https://www.youtube.com/watch?v=z8qk7T_2sWg&amp;ab_channel=SoyDalto</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ⭐¿Qué es JSON? ¿Cuál es su SINTAXIS? 🖥️¿Cómo crear un archivo JSON? | DESARROLLO WEB 🌎 (<a href="https://www.youtube.com/watch?v=RhxOTqFbI5Q&ab_channel=TodoCode">https://www.youtube.com/watch?v=RhxOTqFbI5Q&amp;ab_channel=TodoCode</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Que es Json? (<a href="https://www.aluracursos.com/blog/que-es-json">https://www.aluracursos.com/blog/que-es-json</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿JSON y Objeto JavaScript son lo mismo? (<a href="https://www.aluracursos.com/blog/json-y-objeto-javascript-son-lo-mismo">https://www.aluracursos.com/blog/json-y-objeto-javascript-son-lo-mismo</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Simulando una API REST con json-server (<a href="https://www.aluracursos.com/blog/simulando-una-api-rest-con-json-server">https://www.aluracursos.com/blog/simulando-una-api-rest-con-json-server</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es JSON Web Token? (<a href="https://www.aluracursos.com/blog/que-es-json-web-token">https://www.aluracursos.com/blog/que-es-json-web-token</a>)</li>
+<li><code data-kind="curso">Curso</code> JS en la Web: CRUD con JavaScript asíncrono (<a href="https://www.aluracursos.com/curso-online-js-web-crud-javascript-asincrono">https://www.aluracursos.com/curso-online-js-web-crud-javascript-asincrono</a>)</li>
 </ul>
 <h3>Línea de Comando - Fundamentos:</h3>
 <ul><li>CLI es un programa de línea de comandos que acepta la entrada de texto para ejecutar funciones del sistema operativo.</li>
 <li>Conocer los comandos más importantes</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> W3Schools: What is Command Line Interface (CLI)? (<a href="https://www.w3schools.com/whatis/whatis_cli.asp">https://www.w3schools.com/whatis/whatis_cli.asp</a>)</li>
-<li><code>Web</code> Uso de argumentos de la línea de comandos para Terminal Windows (<a href="https://learn.microsoft.com/es-es/windows/terminal/command-line-arguments?tabs=windows">https://learn.microsoft.com/es-es/windows/terminal/command-line-arguments?tabs=windows</a>)</li>
-<li><code>Artículo</code> Interfaz de línea de comandos o CLI (<a href="https://www.computerweekly.com/es/definicion/Interfaz-de-linea-de-comandos-o-CLI">https://www.computerweekly.com/es/definicion/Interfaz-de-linea-de-comandos-o-CLI</a>)</li>
-<li><code>Artículo</code> El Manual de Comandos de Linux (<a href="https://www.freecodecamp.org/espanol/news/comandos-de-linux/">https://www.freecodecamp.org/espanol/news/comandos-de-linux/</a>)</li>
-<li><code>YouTube</code> Consola vs Terminal vs Shell vs CLI 💻 ¿Qué es la terminal? (<a href="https://www.youtube.com/watch?v=1YxHXBsVNGQ&ab_channel=ProgramadorX">https://www.youtube.com/watch?v=1YxHXBsVNGQ&amp;ab_channel=ProgramadorX</a>)</li>
-<li><code>YouTube</code> Aprende la linea de comandos en un mac - bash scripting (<a href="https://www.youtube.com/watch?v=vfwA3pUnVOg&ab_channel=Datademia">https://www.youtube.com/watch?v=vfwA3pUnVOg&amp;ab_channel=Datademia</a>)</li>
-<li><code>YouTube</code> freeCodeCamp.org: Command Line Crash Course (<a href="https://www.youtube.com/watch?v=yz7nYlnXLfE">https://www.youtube.com/watch?v=yz7nYlnXLfE</a>)</li>
-<li><code>YouTube</code> Traversy Media: Command Line Crash Course For Beginners - Terminal Commands (<a href="https://www.youtube.com/watch?v=uwAqEzhyjtw">https://www.youtube.com/watch?v=uwAqEzhyjtw</a>)</li>
-<li><code>YouTube</code> Comandos Básicos e Intermedios CMD  (<a href="https://youtu.be/erKosEQaaFc">https://youtu.be/erKosEQaaFc</a>)</li>
-<li><code>YouTube</code> Terminal MAC tutorial en Español - Cómo usar la terminal en MAC (<a href="https://www.youtube.com/watch?v=TmP3y7Z2kk4">https://www.youtube.com/watch?v=TmP3y7Z2kk4</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> CMD: Sugerencias para trabajar en el prompt de Windows (<a href="https://www.aluracursos.com/blog/consejos-para-trabajar-en-el-indicador-de-windows">https://www.aluracursos.com/blog/consejos-para-trabajar-en-el-indicador-de-windows</a>)</li>
-<li><code>Artículo</code> Como usar el terminal integrado de Visual Studio Code (<a href="https://www.aluracursos.com/blog/como-usar-el-terminal-integrado-de-visual-studio-code">https://www.aluracursos.com/blog/como-usar-el-terminal-integrado-de-visual-studio-code</a>)</li>
-<li><code>Curso</code> Linux 1: conociendo y utilizando la terminal (<a href="https://app.aluracursos.com/course/linux-1-conociendo-utilizando-terminal">https://app.aluracursos.com/course/linux-1-conociendo-utilizando-terminal</a>)</li>
+<ul><li><code data-kind="web">Web</code> W3Schools: What is Command Line Interface (CLI)? (<a href="https://www.w3schools.com/whatis/whatis_cli.asp">https://www.w3schools.com/whatis/whatis_cli.asp</a>)</li>
+<li><code data-kind="web">Web</code> Uso de argumentos de la línea de comandos para Terminal Windows (<a href="https://learn.microsoft.com/es-es/windows/terminal/command-line-arguments?tabs=windows">https://learn.microsoft.com/es-es/windows/terminal/command-line-arguments?tabs=windows</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Interfaz de línea de comandos o CLI (<a href="https://www.computerweekly.com/es/definicion/Interfaz-de-linea-de-comandos-o-CLI">https://www.computerweekly.com/es/definicion/Interfaz-de-linea-de-comandos-o-CLI</a>)</li>
+<li><code data-kind="artículo">Artículo</code> El Manual de Comandos de Linux (<a href="https://www.freecodecamp.org/espanol/news/comandos-de-linux/">https://www.freecodecamp.org/espanol/news/comandos-de-linux/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Consola vs Terminal vs Shell vs CLI 💻 ¿Qué es la terminal? (<a href="https://www.youtube.com/watch?v=1YxHXBsVNGQ&ab_channel=ProgramadorX">https://www.youtube.com/watch?v=1YxHXBsVNGQ&amp;ab_channel=ProgramadorX</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende la linea de comandos en un mac - bash scripting (<a href="https://www.youtube.com/watch?v=vfwA3pUnVOg&ab_channel=Datademia">https://www.youtube.com/watch?v=vfwA3pUnVOg&amp;ab_channel=Datademia</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: Command Line Crash Course (<a href="https://www.youtube.com/watch?v=yz7nYlnXLfE">https://www.youtube.com/watch?v=yz7nYlnXLfE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Traversy Media: Command Line Crash Course For Beginners - Terminal Commands (<a href="https://www.youtube.com/watch?v=uwAqEzhyjtw">https://www.youtube.com/watch?v=uwAqEzhyjtw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Comandos Básicos e Intermedios CMD  (<a href="https://youtu.be/erKosEQaaFc">https://youtu.be/erKosEQaaFc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Terminal MAC tutorial en Español - Cómo usar la terminal en MAC (<a href="https://www.youtube.com/watch?v=TmP3y7Z2kk4">https://www.youtube.com/watch?v=TmP3y7Z2kk4</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> CMD: Sugerencias para trabajar en el prompt de Windows (<a href="https://www.aluracursos.com/blog/consejos-para-trabajar-en-el-indicador-de-windows">https://www.aluracursos.com/blog/consejos-para-trabajar-en-el-indicador-de-windows</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Como usar el terminal integrado de Visual Studio Code (<a href="https://www.aluracursos.com/blog/como-usar-el-terminal-integrado-de-visual-studio-code">https://www.aluracursos.com/blog/como-usar-el-terminal-integrado-de-visual-studio-code</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux 1: conociendo y utilizando la terminal (<a href="https://app.aluracursos.com/course/linux-1-conociendo-utilizando-terminal">https://app.aluracursos.com/course/linux-1-conociendo-utilizando-terminal</a>)</li>
 </ul>
 <h3>Cloud - Fundamentos:</h3>
 <ul><li>La computación en nube, o cloud computing, es la distribución de servicios informáticos a través de Internet mediante un modelo de tarificación de pago por uso. Una nube se compone de varios recursos informatizados, desde los propios ordenadores (o instancias, en terminología de nube) hasta las redes, el almacenamiento, las bases de datos y todo lo que les rodea. En otras palabras, todo lo que normalmente se necesita para montar el equivalente a una sala de servidores, o incluso un centro de datos completo, estará listo para usar, configurar y ejecutar.</li>
@@ -670,33 +727,34 @@
 <li>Especializarse en un proveedor específico de su preferencia</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> ¿Qué es la informática en la nube? | Microsoft Azure (<a href="https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-cloud-computing/">https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-cloud-computing/</a>)</li>
-<li><code>Web</code> Amazon AWS: ¿Qué es la computación en nube? (<a href="https://aws.amazon.com/en/what-is-cloud-computing/">https://aws.amazon.com/en/what-is-cloud-computing/</a>)</li>
-<li><code>Web</code> Tipos de computación en la nube (<a href="https://aws.amazon.com/es/types-of-cloud-computing/">https://aws.amazon.com/es/types-of-cloud-computing/</a>)</li>
-<li><code>Web</code> ¿Cómo funciona Azure? (<a href="https://learn.microsoft.com/es-es/azure/cloud-adoption-framework/get-started/what-is-azure">https://learn.microsoft.com/es-es/azure/cloud-adoption-framework/get-started/what-is-azure</a>)</li>
-<li><code>Web</code> ¿Qué es el almacenamiento en la nube? (<a href="https://aws.amazon.com/es/what-is/cloud-storage/">https://aws.amazon.com/es/what-is/cloud-storage/</a>)</li>
-<li><code>Web</code> ¿Qué es la seguridad en la nube? (<a href="https://cloud.google.com/learn/what-is-cloud-security?hl=es-419">https://cloud.google.com/learn/what-is-cloud-security?hl=es-419</a>)</li>
-<li><code>Web</code> Arquitectura sin servidor (<a href="https://learn.microsoft.com/es-es/dotnet/architecture/serverless/serverless-architecture">https://learn.microsoft.com/es-es/dotnet/architecture/serverless/serverless-architecture</a>)</li>
-<li><code>Web</code> ¿Qué es Docker? (<a href="https://aws.amazon.com/es/docker/">https://aws.amazon.com/es/docker/</a>)</li>
-<li><code>Artículo</code> Guía para principiantes sobre los fundamentos de la computación en nube (<a href="https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/">https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/</a>)</li>
-<li><code>Artículo</code> Cloud Computing para principiantes (<a href="https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/">https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/</a>)</li>
-<li><code>Artículo</code> ¿Qué es Google Cloud y para qué sirve? (<a href="https://www.incentro.com/es-ES/blog/que-es-google-cloud-platform">https://www.incentro.com/es-ES/blog/que-es-google-cloud-platform</a>)</li>
-<li><code>YouTube</code> ¿Qué es computación en la nube? | ¿Qué es cloud computing? | Explicado en 4 minutos (<a href="https://youtu.be/MCKdahh2lSo">https://youtu.be/MCKdahh2lSo</a>)</li>
-<li><code>YouTube</code> 📌CLOUD COMPUTING ¿Qué es IaaS, PaaS y Saas? | Modelos de Servicio Cloud (<a href="https://youtu.be/VR8aXePkQ5M">https://youtu.be/VR8aXePkQ5M</a>)</li>
-<li><code>YouTube</code> ¿Qué es AWS? (<a href="https://www.youtube.com/watch?v=x2vrg7HuM6g">https://www.youtube.com/watch?v=x2vrg7HuM6g</a>)</li>
-<li><code>YouTube</code> ¿ Cómo empiezo con Google Cloud? (Hablemos en Cloud) (<a href="https://www.youtube.com/watch?v=OiDWqu0oQfo">https://www.youtube.com/watch?v=OiDWqu0oQfo</a>)</li>
-<li><code>YouTube</code> Introducción a la infraestructura de Google Cloud (<a href="https://www.youtube.com/watch?v=209DGQCism4">https://www.youtube.com/watch?v=209DGQCism4</a>)</li>
-<li><code>YouTube</code> ¿Qué es la Computación en la Nube? | AWS desde cero - Parte 1: Introducción (<a href="https://www.youtube.com/watch?v=IciVhWQ8npw">https://www.youtube.com/watch?v=IciVhWQ8npw</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> ¿Qué es Cloud y sus principales servicios? (<a href="https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios">https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios</a>)</li>
-<li><code>Artículo</code> Conociendo Terraform (<a href="https://www.aluracursos.com/blog/conociendo-terraform">https://www.aluracursos.com/blog/conociendo-terraform</a>)</li>
-<li><code>Artículo</code> Empezando con Docker (<a href="https://www.aluracursos.com/blog/empezando-con-docker">https://www.aluracursos.com/blog/empezando-con-docker</a>)</li>
-<li><code>Artículo</code> Heroku, Vercel y otras opciones de cloud como plataforma (<a href="https://www.aluracursos.com/blog/heroku-vercel-y-otras-opciones-de-cloud-como-plataforma">https://www.aluracursos.com/blog/heroku-vercel-y-otras-opciones-de-cloud-como-plataforma</a>)</li>
-<li><code>YouTube</code> Fundamentos del OCI | Contenidos ONE (<a href="https://youtu.be/rEgSc0UqX-g">https://youtu.be/rEgSc0UqX-g</a>)</li>
-<li><code>Curso</code> Curso Oracle Cloud Infrastructure: implementación de una aplicación en la nube (<a href="https://app.aluracursos.com/course/oracle-cloud-infrastructure-implementacion-aplicacion-nube">https://app.aluracursos.com/course/oracle-cloud-infrastructure-implementacion-aplicacion-nube</a>)</li>
-<li><code>Curso</code> Curso Oracle Cloud Infrastructure: base de datos e infraestructura como código (<a href="https://app.aluracursos.com/course/oracle-cloud-infrastructure-base-datos-infraestructura-codigo">https://app.aluracursos.com/course/oracle-cloud-infrastructure-base-datos-infraestructura-codigo</a>)</li>
-<li><code>Curso</code> Curso Deploy en Amazon EC2: Alta disponibilidad y escalabilidad de una aplicación (<a href="https://app.aluracursos.com/course/deploy-amazon-ec2-alta-disponibilidad-escalabilidad">https://app.aluracursos.com/course/deploy-amazon-ec2-alta-disponibilidad-escalabilidad</a>)</li>
-<li><code>Curso</code> Curso Amazon Lightsail: Simplificando la nube (<a href="https://app.aluracursos.com/course/amazon-lightsail-simplificando-nube">https://app.aluracursos.com/course/amazon-lightsail-simplificando-nube</a>)</li>
+<ul><li><code data-kind="web">Web</code> ¿Qué es la informática en la nube? | Microsoft Azure (<a href="https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-cloud-computing/">https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-cloud-computing/</a>)</li>
+<li><code data-kind="web">Web</code> Amazon AWS: ¿Qué es la computación en nube? (<a href="https://aws.amazon.com/en/what-is-cloud-computing/">https://aws.amazon.com/en/what-is-cloud-computing/</a>)</li>
+<li><code data-kind="web">Web</code> Tipos de computación en la nube (<a href="https://aws.amazon.com/es/types-of-cloud-computing/">https://aws.amazon.com/es/types-of-cloud-computing/</a>)</li>
+<li><code data-kind="web">Web</code> ¿Cómo funciona Azure? (<a href="https://learn.microsoft.com/es-es/azure/cloud-adoption-framework/get-started/what-is-azure">https://learn.microsoft.com/es-es/azure/cloud-adoption-framework/get-started/what-is-azure</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es el almacenamiento en la nube? (<a href="https://aws.amazon.com/es/what-is/cloud-storage/">https://aws.amazon.com/es/what-is/cloud-storage/</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es la seguridad en la nube? (<a href="https://cloud.google.com/learn/what-is-cloud-security?hl=es-419">https://cloud.google.com/learn/what-is-cloud-security?hl=es-419</a>)</li>
+<li><code data-kind="web">Web</code> Arquitectura sin servidor (<a href="https://learn.microsoft.com/es-es/dotnet/architecture/serverless/serverless-architecture">https://learn.microsoft.com/es-es/dotnet/architecture/serverless/serverless-architecture</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es Docker? (<a href="https://aws.amazon.com/es/docker/">https://aws.amazon.com/es/docker/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía para principiantes sobre los fundamentos de la computación en nube (<a href="https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/">https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cloud Computing para principiantes (<a href="https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/">https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es Google Cloud y para qué sirve? (<a href="https://www.incentro.com/es-ES/blog/que-es-google-cloud-platform">https://www.incentro.com/es-ES/blog/que-es-google-cloud-platform</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es computación en la nube? | ¿Qué es cloud computing? | Explicado en 4 minutos (<a href="https://youtu.be/MCKdahh2lSo">https://youtu.be/MCKdahh2lSo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 📌CLOUD COMPUTING ¿Qué es IaaS, PaaS y Saas? | Modelos de Servicio Cloud (<a href="https://youtu.be/VR8aXePkQ5M">https://youtu.be/VR8aXePkQ5M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es AWS? (<a href="https://www.youtube.com/watch?v=x2vrg7HuM6g">https://www.youtube.com/watch?v=x2vrg7HuM6g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿ Cómo empiezo con Google Cloud? (Hablemos en Cloud) (<a href="https://www.youtube.com/watch?v=OiDWqu0oQfo">https://www.youtube.com/watch?v=OiDWqu0oQfo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción a la infraestructura de Google Cloud (<a href="https://www.youtube.com/watch?v=209DGQCism4">https://www.youtube.com/watch?v=209DGQCism4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es la Computación en la Nube? | AWS desde cero - Parte 1: Introducción (<a href="https://www.youtube.com/watch?v=IciVhWQ8npw">https://www.youtube.com/watch?v=IciVhWQ8npw</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es Cloud y sus principales servicios? (<a href="https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios">https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Conociendo Terraform (<a href="https://www.aluracursos.com/blog/conociendo-terraform">https://www.aluracursos.com/blog/conociendo-terraform</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Empezando con Docker (<a href="https://www.aluracursos.com/blog/empezando-con-docker">https://www.aluracursos.com/blog/empezando-con-docker</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Heroku, Vercel y otras opciones de cloud como plataforma (<a href="https://www.aluracursos.com/blog/heroku-vercel-y-otras-opciones-de-cloud-como-plataforma">https://www.aluracursos.com/blog/heroku-vercel-y-otras-opciones-de-cloud-como-plataforma</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fundamentos del OCI | Contenidos ONE (<a href="https://youtu.be/rEgSc0UqX-g">https://youtu.be/rEgSc0UqX-g</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Oracle Cloud Infrastructure: implementación de una aplicación en la nube (<a href="https://app.aluracursos.com/course/oracle-cloud-infrastructure-implementacion-aplicacion-nube">https://app.aluracursos.com/course/oracle-cloud-infrastructure-implementacion-aplicacion-nube</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Oracle Cloud Infrastructure: base de datos e infraestructura como código (<a href="https://app.aluracursos.com/course/oracle-cloud-infrastructure-base-datos-infraestructura-codigo">https://app.aluracursos.com/course/oracle-cloud-infrastructure-base-datos-infraestructura-codigo</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Deploy en Amazon EC2: Alta disponibilidad y escalabilidad de una aplicación (<a href="https://app.aluracursos.com/course/deploy-amazon-ec2-alta-disponibilidad-escalabilidad">https://app.aluracursos.com/course/deploy-amazon-ec2-alta-disponibilidad-escalabilidad</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Amazon Lightsail: Simplificando la nube (<a href="https://app.aluracursos.com/course/amazon-lightsail-simplificando-nube">https://app.aluracursos.com/course/amazon-lightsail-simplificando-nube</a>)</li>
 </ul>
 <h3>SQL - Fundamentos:</h3>
 <ul><li>Conocer los comandos más comunes de SQL</li>
@@ -708,76 +766,80 @@
 <li>Conocer las cláusulas (FROM, ORDER BY, etc.)</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Artículo</code> Amazon: ¿Qué es SQL? (<a href="https://aws.amazon.com/es/what-is/sql/?nc1=h_ls">https://aws.amazon.com/es/what-is/sql/?nc1=h_ls</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> MySQL: desde la descarga e instalación hasta su primera tabla (<a href="https://www.aluracursos.com/blog/mysql-desde-la-descarga-e-instalacion-hasta-su-primera-tabla">https://www.aluracursos.com/blog/mysql-desde-la-descarga-e-instalacion-hasta-su-primera-tabla</a>)</li>
-<li><code>Artículo</code> Bases de datos relacionales (<a href="https://www.aluracursos.com/blog/base-de-datos-relacional">https://www.aluracursos.com/blog/base-de-datos-relacional</a>)</li>
-<li><code>Artículo</code> ¿Qué es SQL? (<a href="https://www.aluracursos.com/blog/que-es-sql">https://www.aluracursos.com/blog/que-es-sql</a>)</li>
-<li><code>Artículo</code> Normalización en base de datos - Estructura (<a href="https://www.aluracursos.com/blog/normalizacion-en-base-de-datos">https://www.aluracursos.com/blog/normalizacion-en-base-de-datos</a>)</li>
-<li><code>Artículo</code> En SQL, null es null, vacío está vacío (<a href="https://www.aluracursos.com/blog/en-sql-null-es-null-vacio-es-vacio">https://www.aluracursos.com/blog/en-sql-null-es-null-vacio-es-vacio</a>)</li>
-<li><code>Artículo</code> SELECT, INSERT, UPDATE y DELETE en SQL: aprende a utilizar cada uno (<a href="https://www.aluracursos.com/blog/select-insert-update-delete-sql">https://www.aluracursos.com/blog/select-insert-update-delete-sql</a>)</li>
-<li><code>Artículo</code> Funciones de agregación con GROUP BY en SQL, ¿cómo utilizarlas? (<a href="https://www.aluracursos.com/blog/funciones-de-agregacion-con-group-by-en-sql-como-utilizarlas">https://www.aluracursos.com/blog/funciones-de-agregacion-con-group-by-en-sql-como-utilizarlas</a>)</li>
-<li><code>Artículo</code> SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS (<a href="https://www.aluracursos.com/blog/sql-join-aprenda-inner-left-right-full-e-cross">https://www.aluracursos.com/blog/sql-join-aprenda-inner-left-right-full-e-cross</a>)</li>
-<li><code>Artículo</code> select count(*), count(1) y count(nombre): batalla de los counts de SQL (<a href="https://www.aluracursos.com/blog/select-count-count1-e-countnome-la-batalla-de-los-counts-de-sql">https://www.aluracursos.com/blog/select-count-count1-e-countnome-la-batalla-de-los-counts-de-sql</a>)</li>
-<li><code>YouTube</code> Descomplicando Base de Datos | #Aluramás (<a href="https://www.youtube.com/watch?v=G1cDRqKuxpg&t=6s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=G1cDRqKuxpg&amp;t=6s&amp;ab_channel=AluraLatam</a>)</li>
-<li><code>YouTube</code> ¿Qué es SQL y NoSQL? (<a href="https://www.youtube.com/watch?v=cLLKVd5CNLc">https://www.youtube.com/watch?v=cLLKVd5CNLc</a>)</li>
-<li><code>YouTube</code> Banco de Datos MySQL (<a href="https://www.youtube.com/watch?v=8J0AoPZMVxA">https://www.youtube.com/watch?v=8J0AoPZMVxA</a>)</li>
-<li><code>Curso</code> SQL con MySQL (<a href="https://app.aluracursos.com/formacion-sql-con-mysql">https://app.aluracursos.com/formacion-sql-con-mysql</a>)</li>
-<li><code>Curso</code> Curso Introducción a SQL con MySQL: Manipule y consulte datos (<a href="https://app.aluracursos.com/course/introduccion-sql-mysql-manipule-consulte-datos">https://app.aluracursos.com/course/introduccion-sql-mysql-manipule-consulte-datos</a>)</li>
-<li><code>Curso</code> SQL Server: consultas avanzadas con Microsoft SQL Server 2019 (<a href="https://app.aluracursos.com/course/sql-server-consultas-microsoft-sql-server-2019">https://app.aluracursos.com/course/sql-server-consultas-microsoft-sql-server-2019</a>)</li>
-<li><code>Curso</code> Formación Modelado de datos (<a href="https://www.aluracursos.com/formacion-modelado-de-datos">https://www.aluracursos.com/formacion-modelado-de-datos</a>)</li>
-<li><code>Curso</code> Formación SQL con Microsoft SQL Server (<a href="https://www.aluracursos.com/formacion-SQL-con-Microsoft-SQL-Server-2019">https://www.aluracursos.com/formacion-SQL-con-Microsoft-SQL-Server-2019</a>)</li>
+<ul><li><code data-kind="artículo">Artículo</code> Amazon: ¿Qué es SQL? (<a href="https://aws.amazon.com/es/what-is/sql/?nc1=h_ls">https://aws.amazon.com/es/what-is/sql/?nc1=h_ls</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> MySQL: desde la descarga e instalación hasta su primera tabla (<a href="https://www.aluracursos.com/blog/mysql-desde-la-descarga-e-instalacion-hasta-su-primera-tabla">https://www.aluracursos.com/blog/mysql-desde-la-descarga-e-instalacion-hasta-su-primera-tabla</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Bases de datos relacionales (<a href="https://www.aluracursos.com/blog/base-de-datos-relacional">https://www.aluracursos.com/blog/base-de-datos-relacional</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es SQL? (<a href="https://www.aluracursos.com/blog/que-es-sql">https://www.aluracursos.com/blog/que-es-sql</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Normalización en base de datos - Estructura (<a href="https://www.aluracursos.com/blog/normalizacion-en-base-de-datos">https://www.aluracursos.com/blog/normalizacion-en-base-de-datos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> En SQL, null es null, vacío está vacío (<a href="https://www.aluracursos.com/blog/en-sql-null-es-null-vacio-es-vacio">https://www.aluracursos.com/blog/en-sql-null-es-null-vacio-es-vacio</a>)</li>
+<li><code data-kind="artículo">Artículo</code> SELECT, INSERT, UPDATE y DELETE en SQL: aprende a utilizar cada uno (<a href="https://www.aluracursos.com/blog/select-insert-update-delete-sql">https://www.aluracursos.com/blog/select-insert-update-delete-sql</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Funciones de agregación con GROUP BY en SQL, ¿cómo utilizarlas? (<a href="https://www.aluracursos.com/blog/funciones-de-agregacion-con-group-by-en-sql-como-utilizarlas">https://www.aluracursos.com/blog/funciones-de-agregacion-con-group-by-en-sql-como-utilizarlas</a>)</li>
+<li><code data-kind="artículo">Artículo</code> SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS (<a href="https://www.aluracursos.com/blog/sql-join-aprenda-inner-left-right-full-e-cross">https://www.aluracursos.com/blog/sql-join-aprenda-inner-left-right-full-e-cross</a>)</li>
+<li><code data-kind="artículo">Artículo</code> select count(*), count(1) y count(nombre): batalla de los counts de SQL (<a href="https://www.aluracursos.com/blog/select-count-count1-e-countnome-la-batalla-de-los-counts-de-sql">https://www.aluracursos.com/blog/select-count-count1-e-countnome-la-batalla-de-los-counts-de-sql</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Descomplicando Base de Datos | #Aluramás (<a href="https://www.youtube.com/watch?v=G1cDRqKuxpg&t=6s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=G1cDRqKuxpg&amp;t=6s&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es SQL y NoSQL? (<a href="https://www.youtube.com/watch?v=cLLKVd5CNLc">https://www.youtube.com/watch?v=cLLKVd5CNLc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Banco de Datos MySQL (<a href="https://www.youtube.com/watch?v=8J0AoPZMVxA">https://www.youtube.com/watch?v=8J0AoPZMVxA</a>)</li>
+<li><code data-kind="curso">Curso</code> SQL con MySQL (<a href="https://app.aluracursos.com/formacion-sql-con-mysql">https://app.aluracursos.com/formacion-sql-con-mysql</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Introducción a SQL con MySQL: Manipule y consulte datos (<a href="https://app.aluracursos.com/course/introduccion-sql-mysql-manipule-consulte-datos">https://app.aluracursos.com/course/introduccion-sql-mysql-manipule-consulte-datos</a>)</li>
+<li><code data-kind="curso">Curso</code> SQL Server: consultas avanzadas con Microsoft SQL Server 2019 (<a href="https://app.aluracursos.com/course/sql-server-consultas-microsoft-sql-server-2019">https://app.aluracursos.com/course/sql-server-consultas-microsoft-sql-server-2019</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Modelado de datos (<a href="https://www.aluracursos.com/formacion-modelado-de-datos">https://www.aluracursos.com/formacion-modelado-de-datos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación SQL con Microsoft SQL Server (<a href="https://www.aluracursos.com/formacion-SQL-con-Microsoft-SQL-Server-2019">https://www.aluracursos.com/formacion-SQL-con-Microsoft-SQL-Server-2019</a>)</li>
 </ul>
 <h2>Habilidad Auxiliar: Buenas prácticas</h2>
 <h3>SOLID:</h3>
 <ul><li>Solid tiene cinco principios considerados como buenas prácticas en el desarrollo de software que ayudan a los programadores a escribir los códigos más limpios, dividiendo las responsabilidades, disminuyendo los acoplamientos, facilitando la refactorización y estimulando el reaprovechamiento del código. Propuesto por Robert C. Martin, SOLID propicia el desarrollo de un código limpio, legible y comprobable.</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> Los principios SOLID de programación orientada a objetos (<a href="https://www.freecodecamp.org/espanol/news/los-principios-solid-explicados-en-espanol/">https://www.freecodecamp.org/espanol/news/los-principios-solid-explicados-en-espanol/</a>)</li>
-<li><code>Web</code> Principios SOLID: Qué son, cuáles, y qué beneficios aporta usarlos (<a href="https://devexperto.com/principios-solid/">https://devexperto.com/principios-solid/</a>)</li>
-<li><code>Podcast</code> SOLID - los androides (<a href="https://open.spotify.com/episode/47eEIzhTPr1RIuVcxeVal4?si=4df70e899c034283">https://open.spotify.com/episode/47eEIzhTPr1RIuVcxeVal4?si=4df70e899c034283</a>)</li>
-<li><code>YouTube</code> Los principios SOLID, ¡explicados! (<a href="https://www.youtube.com/watch?v=2X50sKeBAcQ">https://www.youtube.com/watch?v=2X50sKeBAcQ</a>)</li>
+<ul><li><code data-kind="web">Web</code> Los principios SOLID de programación orientada a objetos (<a href="https://www.freecodecamp.org/espanol/news/los-principios-solid-explicados-en-espanol/">https://www.freecodecamp.org/espanol/news/los-principios-solid-explicados-en-espanol/</a>)</li>
+<li><code data-kind="web">Web</code> Principios SOLID: Qué son, cuáles, y qué beneficios aporta usarlos (<a href="https://devexperto.com/principios-solid/">https://devexperto.com/principios-solid/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> SOLID - los androides (<a href="https://open.spotify.com/episode/47eEIzhTPr1RIuVcxeVal4?si=4df70e899c034283">https://open.spotify.com/episode/47eEIzhTPr1RIuVcxeVal4?si=4df70e899c034283</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Los principios SOLID, ¡explicados! (<a href="https://www.youtube.com/watch?v=2X50sKeBAcQ">https://www.youtube.com/watch?v=2X50sKeBAcQ</a>)</li>
 </ul>
 <h3>Clean Architecture:</h3>
 <ul><li>Clean Architecture (Arquitectura Limpia) es una forma de desarrollar software, de tal forma que solo mirando el código fuente de un programa, debes ser capaz de decir lo que el programa hace.</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> ¿Qué es Clean Architecture? (<a href="https://clean-architecture-python.readthedocs.io/en/latest/introduccion/index.html">https://clean-architecture-python.readthedocs.io/en/latest/introduccion/index.html</a>)</li>
-<li><code>Artículo</code> ¿Por qué utilizo Clean Architecture? (<a href="https://xurxodev.com/por-que-utilizo-clean-architecture-en-mis-proyectos/">https://xurxodev.com/por-que-utilizo-clean-architecture-en-mis-proyectos/</a>)</li>
-<li><code>YouTube</code> Revisando Clean code, vale la pena leerlo? | review clean code (<a href="https://www.youtube.com/watch?v=uQfm6YaJTJI">https://www.youtube.com/watch?v=uQfm6YaJTJI</a>)</li>
-<li><code>YouTube</code> Hexagonal architecture, qué es y qué diferencias tiene contra Clean Architecture? - PT 1 (<a href="https://www.youtube.com/watch?v=NOWU4K6piwo">https://www.youtube.com/watch?v=NOWU4K6piwo</a>)</li>
-<li><code>YouTube</code> Desarrollo ágil con Arquitectura limpia Hexa3 (<a href="https://medium.com/@dariopalminio/desarrollo-%C3%A1gil-de-ecosistemas-de-aplicaciones-hexagonales-3-capas-hexa3l-d6370bf11db0">https://medium.com/@dariopalminio/desarrollo-%C3%A1gil-de-ecosistemas-de-aplicaciones-hexagonales-3-capas-hexa3l-d6370bf11db0</a>)</li>
-<li><code>Podcast</code> DevTalles - 125: Arquitectura Limpia (<a href="https://open.spotify.com/episode/3ftlJfucj7Jx4ZO2cDSghx?si=e6b2c5607ead43b5">https://open.spotify.com/episode/3ftlJfucj7Jx4ZO2cDSghx?si=e6b2c5607ead43b5</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> Design Patterns: Breve introducción a los patrones de diseño (<a href="https://www.aluracursos.com/blog/design-patterns-introduccion-a-los-patrones-de-diseno">https://www.aluracursos.com/blog/design-patterns-introduccion-a-los-patrones-de-diseno</a>)</li>
+<ul><li><code data-kind="web">Web</code> ¿Qué es Clean Architecture? (<a href="https://clean-architecture-python.readthedocs.io/en/latest/introduccion/index.html">https://clean-architecture-python.readthedocs.io/en/latest/introduccion/index.html</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Por qué utilizo Clean Architecture? (<a href="https://xurxodev.com/por-que-utilizo-clean-architecture-en-mis-proyectos/">https://xurxodev.com/por-que-utilizo-clean-architecture-en-mis-proyectos/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Revisando Clean code, vale la pena leerlo? | review clean code (<a href="https://www.youtube.com/watch?v=uQfm6YaJTJI">https://www.youtube.com/watch?v=uQfm6YaJTJI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Hexagonal architecture, qué es y qué diferencias tiene contra Clean Architecture? - PT 1 (<a href="https://www.youtube.com/watch?v=NOWU4K6piwo">https://www.youtube.com/watch?v=NOWU4K6piwo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Desarrollo ágil con Arquitectura limpia Hexa3 (<a href="https://medium.com/@dariopalminio/desarrollo-%C3%A1gil-de-ecosistemas-de-aplicaciones-hexagonales-3-capas-hexa3l-d6370bf11db0">https://medium.com/@dariopalminio/desarrollo-%C3%A1gil-de-ecosistemas-de-aplicaciones-hexagonales-3-capas-hexa3l-d6370bf11db0</a>)</li>
+<li><code data-kind="podcast">Podcast</code> DevTalles - 125: Arquitectura Limpia (<a href="https://open.spotify.com/episode/3ftlJfucj7Jx4ZO2cDSghx?si=e6b2c5607ead43b5">https://open.spotify.com/episode/3ftlJfucj7Jx4ZO2cDSghx?si=e6b2c5607ead43b5</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Design Patterns: Breve introducción a los patrones de diseño (<a href="https://www.aluracursos.com/blog/design-patterns-introduccion-a-los-patrones-de-diseno">https://www.aluracursos.com/blog/design-patterns-introduccion-a-los-patrones-de-diseno</a>)</li>
 </ul>
 <h3>Design Patterns:</h3>
 <ul><li>En ingeniería de software, un &quot;patrón de diseño&quot; (Design Pattern en inglés) es una solución general y reutilizable para un problema que ocurre normalmente dentro de un determinado contexto de diseño de software.</li>
 <li>Conocer y aplicar los principales patrones de diseño.</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> Patrones de Diseño (<a href="https://refactoring.guru/es/design-patterns">https://refactoring.guru/es/design-patterns</a>)</li>
-<li><code>Web</code> Designer Patterns (<a href="https://github.com/FernandoCalmet/design-patterns">https://github.com/FernandoCalmet/design-patterns</a>)</li>
-<li><code>Web</code> ¿Qué son los patrones de diseño de software? (<a href="https://profile.es/blog/patrones-de-diseno-de-software/">https://profile.es/blog/patrones-de-diseno-de-software/</a>)</li>
-<li><code>Web</code> Design Patterns: conoce los diferentes tipos que existen y sus beneficios (<a href="https://www.hostgator.mx/blog/design-patterns-que-debes-saber/">https://www.hostgator.mx/blog/design-patterns-que-debes-saber/</a>)</li>
-<li><code>Podcast</code> Patrones Diseño, ventajas y desventajas (<a href="https://open.spotify.com/episode/3VjQHnPvusU6zz5PylMVFu?si=a613cb4c157e4055">https://open.spotify.com/episode/3VjQHnPvusU6zz5PylMVFu?si=a613cb4c157e4055</a>)</li>
-<li><code>Podcast</code> Patrones Diseño (<a href="https://open.spotify.com/episode/6QO1HYdAgzrMGLVpz2kn0C?si=c95296f387c4490a">https://open.spotify.com/episode/6QO1HYdAgzrMGLVpz2kn0C?si=c95296f387c4490a</a>)</li>
-<li><code>YouTube</code> 🔹 Patrones de diseño software: Repaso completo en 10 minutos (<a href="https://www.youtube.com/watch?v=6BHOeDL8vls">https://www.youtube.com/watch?v=6BHOeDL8vls</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> Design Patterns: Breve introducción a los patrones de diseño (<a href="https://www.aluracursos.com/blog/design-patterns-introduccion-a-los-patrones-de-diseno">https://www.aluracursos.com/blog/design-patterns-introduccion-a-los-patrones-de-diseno</a>)</li>
+<ul><li><code data-kind="web">Web</code> Patrones de Diseño (<a href="https://refactoring.guru/es/design-patterns">https://refactoring.guru/es/design-patterns</a>)</li>
+<li><code data-kind="web">Web</code> Designer Patterns (<a href="https://github.com/FernandoCalmet/design-patterns">https://github.com/FernandoCalmet/design-patterns</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué son los patrones de diseño de software? (<a href="https://profile.es/blog/patrones-de-diseno-de-software/">https://profile.es/blog/patrones-de-diseno-de-software/</a>)</li>
+<li><code data-kind="web">Web</code> Design Patterns: conoce los diferentes tipos que existen y sus beneficios (<a href="https://www.hostgator.mx/blog/design-patterns-que-debes-saber/">https://www.hostgator.mx/blog/design-patterns-que-debes-saber/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Patrones Diseño, ventajas y desventajas (<a href="https://open.spotify.com/episode/3VjQHnPvusU6zz5PylMVFu?si=a613cb4c157e4055">https://open.spotify.com/episode/3VjQHnPvusU6zz5PylMVFu?si=a613cb4c157e4055</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Patrones Diseño (<a href="https://open.spotify.com/episode/6QO1HYdAgzrMGLVpz2kn0C?si=c95296f387c4490a">https://open.spotify.com/episode/6QO1HYdAgzrMGLVpz2kn0C?si=c95296f387c4490a</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 🔹 Patrones de diseño software: Repaso completo en 10 minutos (<a href="https://www.youtube.com/watch?v=6BHOeDL8vls">https://www.youtube.com/watch?v=6BHOeDL8vls</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Design Patterns: Breve introducción a los patrones de diseño (<a href="https://www.aluracursos.com/blog/design-patterns-introduccion-a-los-patrones-de-diseno">https://www.aluracursos.com/blog/design-patterns-introduccion-a-los-patrones-de-diseno</a>)</li>
 </ul>
 <h3>Clean Code:</h3>
 <ul><li>Aplicar técnicas sencillas para facilitar la escritura y la lectura de un código.</li>
 <li>Refactorizar el código para que quede más limpio.</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> Clean Code: código limpio, ¿qué es? (<a href="https://www.hostgator.mx/blog/clean-code-codigo-limpio/">https://www.hostgator.mx/blog/clean-code-codigo-limpio/</a>)</li>
-<li><code>Web</code> Clean Code: 35 claves para dominarlo (<a href="https://devexperto.com/clean-code/">https://devexperto.com/clean-code/</a>)</li>
-<li><code>Podcast</code> ¿Que es Clean Code? - Programando Podcast (<a href="https://open.spotify.com/episode/0xF40axFOYG1pdD2oaEMo0?si=b48fbfed5ec949c4">https://open.spotify.com/episode/0xF40axFOYG1pdD2oaEMo0?si=b48fbfed5ec949c4</a>)</li>
-<li><code>Artículo</code> Cómo escribir código limpio. Nombrando elementos (<a href="https://medium.com/@latteandcode/como-escribir-codigo-limpio-nombrando-elementos-8caa6639602c">https://medium.com/@latteandcode/como-escribir-codigo-limpio-nombrando-elementos-8caa6639602c</a>)</li>
-<li><code>YouTube</code> Aprende a programar más limpio | The Clean Coder | Reseña del libro de Robert C. Martin (<a href="https://www.youtube.com/watch?v=bZgWdELGBoc">https://www.youtube.com/watch?v=bZgWdELGBoc</a>)</li>
-<li><strong>Contenidos Alura:</strong></li>
-<li><code>Artículo</code> Clean Code: qué es, casos de uso, ejemplo de código limpio (<a href="https://www.aluracursos.com/blog/clean-code-que-es-ejemplo">https://www.aluracursos.com/blog/clean-code-que-es-ejemplo</a>)</li>
+<ul><li><code data-kind="web">Web</code> Clean Code: código limpio, ¿qué es? (<a href="https://www.hostgator.mx/blog/clean-code-codigo-limpio/">https://www.hostgator.mx/blog/clean-code-codigo-limpio/</a>)</li>
+<li><code data-kind="web">Web</code> Clean Code: 35 claves para dominarlo (<a href="https://devexperto.com/clean-code/">https://devexperto.com/clean-code/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> ¿Que es Clean Code? - Programando Podcast (<a href="https://open.spotify.com/episode/0xF40axFOYG1pdD2oaEMo0?si=b48fbfed5ec949c4">https://open.spotify.com/episode/0xF40axFOYG1pdD2oaEMo0?si=b48fbfed5ec949c4</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo escribir código limpio. Nombrando elementos (<a href="https://medium.com/@latteandcode/como-escribir-codigo-limpio-nombrando-elementos-8caa6639602c">https://medium.com/@latteandcode/como-escribir-codigo-limpio-nombrando-elementos-8caa6639602c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende a programar más limpio | The Clean Coder | Reseña del libro de Robert C. Martin (<a href="https://www.youtube.com/watch?v=bZgWdELGBoc">https://www.youtube.com/watch?v=bZgWdELGBoc</a>)</li>
+</ul>
+<h4>Contenidos Alura:</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Clean Code: qué es, casos de uso, ejemplo de código limpio (<a href="https://www.aluracursos.com/blog/clean-code-que-es-ejemplo">https://www.aluracursos.com/blog/clean-code-que-es-ejemplo</a>)</li>
 </ul>
 <h3>Diseño Orientado a Dominio - DDD:</h3>
 <ul><li>El Diseño Orientado a Dominio (DDD) es un enfoque de diseño y desarrollo de software que se informa principalmente por los requisitos de negocio. Los componentes del programa (objetos, clases, matrices, etc.) indican la industria, sector o dominio empresarial en que opera el negocio.</li>
@@ -786,12 +848,12 @@
 <li>Conocer los bloques de construcción de DDD.</li>
 </ul>
 <h4>Contenidos</h4>
-<ul><li><code>Web</code> Domain Driven Design: principios, beneficios y elementos — Primera Parte (<a href="https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-primera-parte-aad90f30aa35">https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-primera-parte-aad90f30aa35</a>)</li>
-<li><code>Web</code> Domain Driven Design: principios, beneficios y elementos — Segunda Parte (<a href="https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-segunda-parte-337d77dc8566">https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-segunda-parte-337d77dc8566</a>)</li>
-<li><code>Web</code> Introducción a Domain Drive Design - DDD (<a href="https://refactorizando.com/introduccion-domain-drive-design/">https://refactorizando.com/introduccion-domain-drive-design/</a>)</li>
-<li><code>Podcast</code> TDD y DDD, fortalezas y cuando usarlo (<a href="https://open.spotify.com/episode/7iioBOv7ySQZttPyw2GshP?si=a114f642ecc94682">https://open.spotify.com/episode/7iioBOv7ySQZttPyw2GshP?si=a114f642ecc94682</a>)</li>
-<li><code>YouTube</code> Aprendiendo el Dominio (DDD en Español) (<a href="https://www.youtube.com/watch?v=BilfTrk954A">https://www.youtube.com/watch?v=BilfTrk954A</a>)</li>
-<li><code>YouTube</code> Domain Driven Design - Píldoras de conocimiento - Autentia (<a href="https://www.youtube.com/watch?v=vccTIFGSiHA">https://www.youtube.com/watch?v=vccTIFGSiHA</a>)</li>
+<ul><li><code data-kind="web">Web</code> Domain Driven Design: principios, beneficios y elementos — Primera Parte (<a href="https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-primera-parte-aad90f30aa35">https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-primera-parte-aad90f30aa35</a>)</li>
+<li><code data-kind="web">Web</code> Domain Driven Design: principios, beneficios y elementos — Segunda Parte (<a href="https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-segunda-parte-337d77dc8566">https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-segunda-parte-337d77dc8566</a>)</li>
+<li><code data-kind="web">Web</code> Introducción a Domain Drive Design - DDD (<a href="https://refactorizando.com/introduccion-domain-drive-design/">https://refactorizando.com/introduccion-domain-drive-design/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> TDD y DDD, fortalezas y cuando usarlo (<a href="https://open.spotify.com/episode/7iioBOv7ySQZttPyw2GshP?si=a114f642ecc94682">https://open.spotify.com/episode/7iioBOv7ySQZttPyw2GshP?si=a114f642ecc94682</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprendiendo el Dominio (DDD en Español) (<a href="https://www.youtube.com/watch?v=BilfTrk954A">https://www.youtube.com/watch?v=BilfTrk954A</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Domain Driven Design - Píldoras de conocimiento - Autentia (<a href="https://www.youtube.com/watch?v=vccTIFGSiHA">https://www.youtube.com/watch?v=vccTIFGSiHA</a>)</li>
 </ul>
   </div>
 
