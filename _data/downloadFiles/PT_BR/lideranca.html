@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,70 +249,179 @@
   </div>
 
   <div class="content">
-    <h1>Liderança</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Aprendizado sobre liderança</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Aprendizado sobre liderança:</h3>
 <ul><li>Desenvolver habilidades essenciais de liderança, aprendendo métodos para exercer influência positiva sobre as pessoas e melhorar a comunicação e o trabalho em equipe para impulsionar os resultados organizacionais</li>
 <li>Melhorar a produtividade e a eficiência, criando um repertório de bons hábitos de liderança para evitar problemas de produtividade e aprimorar a gestão e a comunicação com a equipe</li>
 <li>Apoiar e desenvolver a equipe, compreendendo a importância de promover um ambiente colaborativo e orientado para resultados, além de manter a qualidade no trabalho</li>
 <li>Aprender a liderar de forma adaptável, definindo prioridades e desenvolvendo a capacidade de gestão eficaz para enfrentar novas situações e desafios diários da liderança</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Hábitos e Boas Práticas na Liderança</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Quer ser um grande líder? Descubra a sua missão (<a href="https://forbes.com.br/carreira/2022/10/quer-ser-um-grande-lider-descubra-a-sua-missao/">https://forbes.com.br/carreira/2022/10/quer-ser-um-grande-lider-descubra-a-sua-missao/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Senso de liderança: o que é e como desenvolver no trabalho? (<a href="https://www.cursospm3.com.br/blog/senso-de-lideranca/">https://www.cursospm3.com.br/blog/senso-de-lideranca/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Liderança: aprendendo sobre a missão e propósito de liderar pessoas (<a href="https://cursos.alura.com.br/course/lideranca-missao-proposito-liderar-pessoas">https://cursos.alura.com.br/course/lideranca-missao-proposito-liderar-pessoas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Dicas para fazer uma boa gestão de tempo e aumentar a produtividade (<a href="https://www.alura.com.br/empresas/artigos/gestao-de-tempo">https://www.alura.com.br/empresas/artigos/gestao-de-tempo</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 características de uma boa liderança e como alcançá-las (<a href="https://www.alura.com.br/empresas/artigos/lideranca">https://www.alura.com.br/empresas/artigos/lideranca</a>)</li>
+</ul>
+<h3>Hábitos e Boas Práticas na Liderança:</h3>
 <ul><li>Compreender o papel da liderança no engajamento do time e na promoção de um ambiente de alto desempenho.</li>
 <li>Aplicar estratégias eficazes para tornar as reuniões mais produtivas e focadas nos objetivos da equipe.</li>
 <li>Desenvolver a capacidade de implementar intervenções no dia a dia para promover boas práticas em gestão de pessoas.</li>
 <li>Aprimorar a assertividade na tomada de decisões, utilizando uma comunicação clara e direcionada para o sucesso da equipe.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Hábitos e boas práticas na liderança</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 8 passos para ser um bom líder, principais características e dicas! (<a href="https://blog.contaazul.com/reunioes-produtivas/">https://blog.contaazul.com/reunioes-produtivas/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Reuniões Produtivas: Guia de Práticas Para a Eficiência (<a href="https://blog.solides.com.br/o-comportamento-de-um-bom-lider">https://blog.solides.com.br/o-comportamento-de-um-bom-lider</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Manual de Boas Práticas de Liderança do Instituto Federal Santa Catarina (<a href="https://www.ifsc.edu.br/documents/30669/2173124/IFSC_manual+de+boas+praticas+de+lideranca.pdf/12f854e3-23cd-4db4-8663-89f7ff5e0f18">https://www.ifsc.edu.br/documents/30669/2173124/IFSC_manual+de+boas+praticas+de+lideranca.pdf/12f854e3-23cd-4db4-8663-89f7ff5e0f18</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como reconhecer seus colaboradores (<a href="https://www.alura.com.br/artigos/como-reconhecer-seus-colaboradores">https://www.alura.com.br/artigos/como-reconhecer-seus-colaboradores</a>)</li>
+<li><code data-kind="curso">Curso</code> Hábitos na liderança: boas práticas (<a href="https://cursos.alura.com.br/course/habitos-lideranca-boas-praticas">https://cursos.alura.com.br/course/habitos-lideranca-boas-praticas</a>)</li>
+</ul>
+<h3>Hábitos e boas práticas na liderança:</h3>
 <ul><li>Compreender o papel da liderança no engajamento do time e na promoção de um ambiente de alto desempenho</li>
 <li>Aplicar estratégias eficazes para tornar as reuniões mais produtivas e focadas nos objetivos da equipe</li>
 <li>Desenvolver a capacidade de implementar intervenções no dia a dia para promover boas práticas em gestão de pessoas</li>
 <li>Aprimorar a assertividade na tomada de decisões, utilizando uma comunicação clara e direcionada para o sucesso da equipe</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estrutura organizacional</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 8 passos para ser um bom líder, principais características e dicas! (<a href="https://blog.contaazul.com/reunioes-produtivas/">https://blog.contaazul.com/reunioes-produtivas/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Reuniões Produtivas: Guia de Práticas Para a Eficiência (<a href="https://blog.solides.com.br/o-comportamento-de-um-bom-lider">https://blog.solides.com.br/o-comportamento-de-um-bom-lider</a>)</li>
+<li><code data-kind="conteúdo">Conteúdo</code> Manual de Boas Práticas de Liderança do Instituto Federal Santa Catarina (<a href="https://www.ifsc.edu.br/documents/30669/2173124/IFSC_manual+de+boas+praticas+de+lideranca.pdf/12f854e3-23cd-4db4-8663-89f7ff5e0f18">https://www.ifsc.edu.br/documents/30669/2173124/IFSC_manual+de+boas+praticas+de+lideranca.pdf/12f854e3-23cd-4db4-8663-89f7ff5e0f18</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Hábitos na liderança: boas práticas (<a href="https://cursos.alura.com.br/course/habitos-lideranca-boas-praticas">https://cursos.alura.com.br/course/habitos-lideranca-boas-praticas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como reconhecer seus colaboradores (<a href="https://www.alura.com.br/artigos/como-reconhecer-seus-colaboradores">https://www.alura.com.br/artigos/como-reconhecer-seus-colaboradores</a>)</li>
+</ul>
+<h3>Estrutura organizacional:</h3>
 <ul><li>Compreender os diferentes modelos de estrutura organizacional, como a estrutura hierárquica, funcional, matricial, em rede e em projetos</li>
 <li>Avaliar as características, vantagens e desvantagens de cada modelo de estrutura organizacional para identificar o mais adequado ao contexto de negócios</li>
 <li>Explorar a relação entre agilidade empresarial e a escolha da estrutura organizacional para otimizar processos e resultados</li>
 <li>Desenvolver a capacidade de implementar e adaptar a estrutura organizacional da empresa para melhor atender às demandas do mercado e promover a eficiência operacional</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é a estrutura organizacional de uma empresa? (<a href="https://www.lucidchart.com/pages/pt/estrutura-organizacional">https://www.lucidchart.com/pages/pt/estrutura-organizacional</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Organograma empresarial: conceito, tipos e exemplos simples para fazer (<a href="https://flashapp.com.br/blog/tendencias/organograma-empresarial-exemplos">https://flashapp.com.br/blog/tendencias/organograma-empresarial-exemplos</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="conteúdo">Conteúdo</code> As estruturas organizacionais (<a href="https://cursos.alura.com.br/extra/alura-mais/as-estruturas-organizacionais-c1464">https://cursos.alura.com.br/extra/alura-mais/as-estruturas-organizacionais-c1464</a>)</li>
+<li><code data-kind="curso">Curso</code> Business Agility (<a href="https://cursos.alura.com.br/formacao-business-agility">https://cursos.alura.com.br/formacao-business-agility</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Técnicas e Habilidades para Liderança</strong>:</li>
+<h3>Técnicas e Habilidades para Liderança:</h3>
 <ul><li>Compreender as diferentes formas de trabalho remoto e como aproveitar seus benefícios e enfrentar seus desafios.</li>
 <li>Desenvolver um mindset digital que permita liderar e apoiar a equipe na transição para o trabalho remoto de forma eficaz.</li>
 <li>Adquirir habilidades essenciais para liderança remota, como comunicação clara, construção de confiança e engajamento da equipe.</li>
 <li>Aplicar técnicas para estimular a colaboração e gerenciar equipes remotas de forma eficiente, mantendo a produtividade e a coesão do time.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Liderança transformacional</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> VOCÊ SABE QUAIS SÃO AS HABILIDADES DE UM LÍDER DIGITAL? (<a href="https://www.fiap.com.br/imprensa/pracarreiras-artigo-voce-sabe-quais-sao-as-habilidades-de-um-lider-digital-carlos-baptista/?utm_source=plataforma-alura&utm_medium=referral&utm_campaign=BR_footer-plataforma&utm_id=&utm_term=&utm_content=">https://www.fiap.com.br/imprensa/pracarreiras-artigo-voce-sabe-quais-sao-as-habilidades-de-um-lider-digital-carlos-baptista/?utm_source=plataforma-alura&amp;utm_medium=referral&amp;utm_campaign=BR_footer-plataforma&amp;utm_id=&amp;utm_term=&amp;utm_content=</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Dicas de liderança para times de Produto e Tecnologia que vimos no DevLeaders (<a href="https://www.cursospm3.com.br/blog/dicas-de-lideranca-para-times-de-produto-e-tecnologia/">https://www.cursospm3.com.br/blog/dicas-de-lideranca-para-times-de-produto-e-tecnologia/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Mindset digital: técnicas e habilidades para liderança remota (<a href="https://cursos.alura.com.br/course/mindset-digital-tecnicas-habilidades-para-lideranca-remota">https://cursos.alura.com.br/course/mindset-digital-tecnicas-habilidades-para-lideranca-remota</a>)</li>
+<li><code data-kind="curso">Curso</code> Comunicação participativa: liderança eficaz e motivadora (<a href="https://cursos.alura.com.br/course/comunicacao-participativa-lideranca-eficaz-motivadora">https://cursos.alura.com.br/course/comunicacao-participativa-lideranca-eficaz-motivadora</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como definir a cultura digital da sua empresa? (<a href="https://www.alura.com.br/empresas/artigos/cultura-digital">https://www.alura.com.br/empresas/artigos/cultura-digital</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liderança inclusiva: conheça os benefícios de promover a diversidade no ambiente de trabalho (<a href="https://www.alura.com.br/empresas/artigos/lideranca-inclusiva">https://www.alura.com.br/empresas/artigos/lideranca-inclusiva</a>)</li>
+</ul>
+<h3>Liderança transformacional:</h3>
 <ul><li>Compreender e aplicar os princípios da liderança transformacional no ambiente de trabalho, promovendo um crescimento significativo na equipe</li>
 <li>Desenvolver habilidades de liderança emocionalmente inteligente, focando no engajamento e bem-estar da equipe para criar um ambiente de trabalho mais harmonioso</li>
 <li>Implementar estratégias para lidar com a resistência à mudança, transformando desafios em oportunidades de crescimento e inovação</li>
 <li>Promover a diversidade e a inclusão no ambiente de trabalho, criando um espaço acolhedor e igualitário que estimula a criatividade e o desenvolvimento contínuo</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Oratória para líderes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Full Range Leadership Model (<a href="https://extensionpubs.unl.edu/publication/g1406/na/html/view">https://extensionpubs.unl.edu/publication/g1406/na/html/view</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liderança transformacional e a eficácia grupal: o papel mediador dos comportamentos de suporte (<a href="https://www.scielo.br/j/estpsi/a/Y64Ks7tcPtqy4XFDPJ6Wp3J/">https://www.scielo.br/j/estpsi/a/Y64Ks7tcPtqy4XFDPJ6Wp3J/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liderança Transformacional: como aplicar e quais as vantagens (<a href="https://keeps.com.br/lideranca-transformacional-como-aplicar-e-quais-as-suas-vantagens/">https://keeps.com.br/lideranca-transformacional-como-aplicar-e-quais-as-suas-vantagens/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liderança transformacional: guia completo com definição, objetivos, exemplos e dicas para ser um líder transformacional (<a href="https://www.agendor.com.br/blog/lideranca-transformacional/">https://www.agendor.com.br/blog/lideranca-transformacional/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Liderança transformacional: criando uma cultura de excelência (<a href="https://cursos.alura.com.br/course/lideranca-transformacional-criando-cultura-excelencia">https://cursos.alura.com.br/course/lideranca-transformacional-criando-cultura-excelencia</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Quais são os principais desafios de comunicação na liderança? (<a href="https://www.alura.com.br/empresas/artigos/quais-sao-os-principais-desafios-de-comunicacao-na-lideranca">https://www.alura.com.br/empresas/artigos/quais-sao-os-principais-desafios-de-comunicacao-na-lideranca</a>)</li>
+</ul>
+<h3>Oratória para líderes:</h3>
 <ul><li>Dominar os princípios da comunicação verbal e não-verbal para se comunicar de forma mais eficaz em contextos de liderança</li>
 <li>Superar o medo e a ansiedade de falar em público, utilizando técnicas que fortalecem a confiança e melhoram a performance</li>
 <li>Identificar e explorar o seu perfil de orador, adaptando-o para diferentes situações de comunicação e apresentações formais</li>
 <li>Utilizar elogios e agradecimentos estrategicamente para construir uma imagem de líder inspirador e confiável</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="conteúdo">Conteúdo</code> Como a oratória pode valorizar e mudar o rumo de uma carreira? (<a href="https://exame.com/lideres-extraordinarios/como-a-oratoria-pode-valorizar-e-mudar-o-rumo-de-uma-carreira/">https://exame.com/lideres-extraordinarios/como-a-oratoria-pode-valorizar-e-mudar-o-rumo-de-uma-carreira/</a>)</li>
+<li><code data-kind="conteúdo">Conteúdo</code> Jovens líderes de Santos aprendem sobre importância de uma boa oratória no meio dos negócios (<a href="https://www.atribuna.com.br/projetos/jovens-liderancas/jovens-lideres-de-santos-aprendem-sobre-importancia-de-uma-boa-oratoria-no-meio-dos-negocios-1.384822">https://www.atribuna.com.br/projetos/jovens-liderancas/jovens-lideres-de-santos-aprendem-sobre-importancia-de-uma-boa-oratoria-no-meio-dos-negocios-1.384822</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Oratória para líderes: como se comunicar profissionalmente (<a href="https://cursos.alura.com.br/course/oratoria-lideres-comunicacao-profissional">https://cursos.alura.com.br/course/oratoria-lideres-comunicacao-profissional</a>)</li>
+<li><code data-kind="curso">Curso</code> Comunicação assertiva: reduzindo conflitos e frustrações (<a href="https://cursos.alura.com.br/course/comunicacao-assertiva-reduzindo-conflitos-e-frustracaoes">https://cursos.alura.com.br/course/comunicacao-assertiva-reduzindo-conflitos-e-frustracaoes</a>)</li>
+<li><code data-kind="conteúdo">Conteúdo</code> Mediação de conflitos para líderes (<a href="https://www.alura.com.br/empresas/artigos/mediacao-de-conflitos-para-lideres">https://www.alura.com.br/empresas/artigos/mediacao-de-conflitos-para-lideres</a>)</li>
+<li><code data-kind="conteúdo">Conteúdo</code> Quais são os principais desafios de comunicação na liderança? (<a href="https://www.alura.com.br/empresas/artigos/quais-sao-os-principais-desafios-de-comunicacao-na-lideranca">https://www.alura.com.br/empresas/artigos/quais-sao-os-principais-desafios-de-comunicacao-na-lideranca</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Liderança ambidestra</strong>:</li>
+<h3>Liderança ambidestra:</h3>
 <ul><li>Compreender a importância de equilibrar Hard e Soft Skills no processo de liderança para alcançar resultados eficazes</li>
 <li>Aplicar o conceito de Liderança Ambidestra, utilizando tanto a exploração de novas oportunidades quanto a otimização de operações existentes</li>
 <li>Integrar a cultura organizacional no exercício da liderança, favorecendo a inovação e a adaptação às mudanças do mercado</li>
 <li>Desenvolver a capacidade de liderar equipes com resiliência, aproveitando os talentos internos enquanto explora inovações e tendências emergentes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conhecendo a liderança técnica</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="conteúdo">Conteúdo</code> Liderança ambidestra: O pilar do CEO inabalável (<a href="https://mundocorporativo.deloitte.com.br/lideranca-ambidestra-o-pilar-do-ceo-inabalavel/">https://mundocorporativo.deloitte.com.br/lideranca-ambidestra-o-pilar-do-ceo-inabalavel/</a>)</li>
+<li><code data-kind="conteúdo">Conteúdo</code> CONHEÇA A LIDERANÇA AMBIDESTRA E SUAS VANTAGENS CORPORATIVAS (<a href="https://www.amcham.com.br/blog/lideranca-ambidestra?mobile=false">https://www.amcham.com.br/blog/lideranca-ambidestra?mobile=false</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Strategic Innovation, Leadership and Ambidexterity: Michael L Tushman (<a href="https://www.youtube.com/watch?v=8pFAjsqdqRs">https://www.youtube.com/watch?v=8pFAjsqdqRs</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Liderança ambidestra: buscando inovação e resultados (<a href="https://cursos.alura.com.br/course/lideranca-ambidestra-inovacao-resultados">https://cursos.alura.com.br/course/lideranca-ambidestra-inovacao-resultados</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liderança ambidestra: o que é e como desenvolver essa skill (<a href="https://www.alura.com.br/artigos/lideranca-ambidestra?srsltid=AfmBOoptLHCYnDIW3A5F7W25X0-jCEzGOK1WHmZNQfEOsPe6GaLsTwO6">https://www.alura.com.br/artigos/lideranca-ambidestra?srsltid=AfmBOoptLHCYnDIW3A5F7W25X0-jCEzGOK1WHmZNQfEOsPe6GaLsTwO6</a>)</li>
+</ul>
+<h3>Conhecendo a liderança técnica:</h3>
 <ul><li>Entender o contexto de atuação do Tech Lead no mercado de tecnologia, reconhecendo seu papel e impacto nas equipes</li>
 <li>Identificar as habilidades e competências essenciais para desenvolver um perfil eficaz de Tech Lead</li>
 <li>Compreender as diferenças entre liderança técnica e liderança comum, e como essas distinções influenciam na gestão de equipes e projetos</li>
 <li>Planejar o desenvolvimento de uma carreira em tecnologia, focando nas demandas e oportunidades do mercado para Tech Leads</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Guiando Pessoas para Alta Performance</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Tipos de liderança e suas principais características (<a href="https://blog.itau.com.br/empresas/confira-8-principais-tipos-de-lideranca">https://blog.itau.com.br/empresas/confira-8-principais-tipos-de-lideranca</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liderança técnica: dicas para alavancar sua carreira (<a href="https://ciandt.com/br/pt-br/article/como-alavancar-sua-carreira-de-desenvolvimento-para-lideranca-tecnica">https://ciandt.com/br/pt-br/article/como-alavancar-sua-carreira-de-desenvolvimento-para-lideranca-tecnica</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Profissão Tech Lead: conhecendo a liderança técnica (<a href="https://cursos.alura.com.br/course/profissao-tech-lead-conhecendo-lideranca-tecnica">https://cursos.alura.com.br/course/profissao-tech-lead-conhecendo-lideranca-tecnica</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Tech Lead em Lisboa, Portugal, Dev Sem Fronteiras #62 (<a href="https://cursos.alura.com.br/extra/devsemfronteiras/tech-lead-em-lisboa-portugal-dev-sem-fronteiras-62-a1882">https://cursos.alura.com.br/extra/devsemfronteiras/tech-lead-em-lisboa-portugal-dev-sem-fronteiras-62-a1882</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Dev Leaders Conference: destaques do evento para líderes tech (<a href="https://www.alura.com.br/artigos/dev-leaders-conference">https://www.alura.com.br/artigos/dev-leaders-conference</a>)</li>
+</ul>
+<h3>Guiando Pessoas para Alta Performance:</h3>
 <ul><li>Dominar os fundamentos essenciais da liderança técnica para maximizar o desempenho das equipes e impulsionar resultados.</li>
 <li>Aplicar metodologias eficazes de gerenciamento de projetos que visam o crescimento e a eficiência da equipe técnica.</li>
 <li>Desenvolver habilidades para oferecer e receber feedback construtivo, promovendo um ambiente de melhoria contínua e colaboração.</li>
 <li>Cultivar um ambiente inclusivo que estimule a inovação, o protagonismo e o desenvolvimento individual dentro da equipe técnica.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 11 Skills de uma liderança de alta performance! (<a href="https://www.zendesk.com.br/blog/lideranca-de-alta-performance/">https://www.zendesk.com.br/blog/lideranca-de-alta-performance/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Veja quais as características de uma liderança de alta performance, vantagens e como desenvolver internamente (<a href="https://www.pontotel.com.br/lideranca-de-alta-performance/">https://www.pontotel.com.br/lideranca-de-alta-performance/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Tech Lead: gerindo pessoas e guiando para alta performance (<a href="https://cursos.alura.com.br/course/tech-lead-gerindo-pessoas-guiando-alta-performance">https://cursos.alura.com.br/course/tech-lead-gerindo-pessoas-guiando-alta-performance</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como ser uma boa liderança técnica? (<a href="https://www.youtube.com/shorts/q-0XbtFgzBg">https://www.youtube.com/shorts/q-0XbtFgzBg</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Inovação e Gestão de Mudanças</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Agilidade</strong>:</li>
+<h3>Agilidade:</h3>
 <ul><li>Compreender o que é agilidade, como funciona e o que é esperado de um time de alta performance, para aplicá-la de forma eficaz no seu ambiente de trabalho.</li>
 <li>Aprender a integrar os valores da agilidade para alcançar melhores resultados, aproveitando as competências do time para criar soluções colaborativas.</li>
 <li>Desenvolver a capacidade de fortalecer conexões entre membros da equipe, criando um ambiente seguro e propício à colaboração e à inovação.</li>
 <li>Aplicar dinâmicas e técnicas que promovem o desenvolvimento de habilidades essenciais, suportando o crescimento contínuo e a alta performance da equipe.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Thinking</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Comportamentos chave em times ágeis de alta performance (<a href="https://transformacaodigital.com/gestao/comportamentos-chave-em-times-ageis-de-alta-performance/">https://transformacaodigital.com/gestao/comportamentos-chave-em-times-ageis-de-alta-performance/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Equipes de alta performance: entenda o que é e como desenvolvê-las (<a href="https://www.qulture.rocks/blog/equipes-de-alta-performance">https://www.qulture.rocks/blog/equipes-de-alta-performance</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Agilidade: como ela pode ajudar a criar um time de alta performance (<a href="https://cursos.alura.com.br/course/agilidade-ajudar-criar-time-alta-performance">https://cursos.alura.com.br/course/agilidade-ajudar-criar-time-alta-performance</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Metodologia Ágil - O que é? (<a href="https://www.alura.com.br/artigos/o-que-e-metodologia-agil">https://www.alura.com.br/artigos/o-que-e-metodologia-agil</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Kanban e o fluxo de trabalho (<a href="https://cursos.alura.com.br/extra/hipsterstech/kanban-e-o-fluxo-de-trabalho-hipsters-74-a512">https://cursos.alura.com.br/extra/hipsterstech/kanban-e-o-fluxo-de-trabalho-hipsters-74-a512</a>)</li>
+<li><code data-kind="curso">Curso</code> A Empresa Ágil: implemente o Business Agility nas organizações (<a href="https://cursos.alura.com.br/course/empresa-agil">https://cursos.alura.com.br/course/empresa-agil</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como otimizar os processos da sua empresa com Business Agility Model (<a href="https://www.alura.com.br/empresas/artigos/business-agility-tres-dicas-para-otimizar-processos-na-sua-empresa">https://www.alura.com.br/empresas/artigos/business-agility-tres-dicas-para-otimizar-processos-na-sua-empresa</a>)</li>
+</ul>
+<h3>Design Thinking:</h3>
 <ul><li>Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.</li>
 <li>Entenda profundamente as necessidades dos usuários.</li>
 <li>Clarifique o problema baseado nos insights coletados.</li>
@@ -281,12 +430,35 @@
 <li>Refine as soluções com base no feedback dos testes.</li>
 <li>Envolva diversas perspectivas na solução de problemas.</li>
 <li>Use métodos visuais para comunicar ideias e processos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Inovação Ágil</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design Thinking: o que é, etapas e como aplicar (<a href="https://www.cursospm3.com.br/blog/design-thinking-guia-o-que-e-etapas-como-aplicar/">https://www.cursospm3.com.br/blog/design-thinking-guia-o-que-e-etapas-como-aplicar/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Thinking: uma forma inovadora de pensar e resolver problemas (<a href="https://rockcontent.com/br/blog/design-thinking/">https://rockcontent.com/br/blog/design-thinking/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Thinking: o que é, como aplicar e passo a passo (<a href="https://fia.com.br/blog/design-thinking/">https://fia.com.br/blog/design-thinking/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Design Thinking - Hipsters #139 (<a href="https://cursos.alura.com.br/extra/hipsterstech/design-thinking-hipsters-139-a442">https://cursos.alura.com.br/extra/hipsterstech/design-thinking-hipsters-139-a442</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Design Thinking e como aplicar a metodologia | Alura (<a href="https://www.alura.com.br/artigos/design-thinking-metodologia-criacao-de-produtos">https://www.alura.com.br/artigos/design-thinking-metodologia-criacao-de-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Thinking: viabilizando soluções (<a href="https://cursos.alura.com.br/course/design-thinking-viabilizando-solucoes">https://cursos.alura.com.br/course/design-thinking-viabilizando-solucoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Thinking: inove ao focar no problema e crie soluções assertivas para seu negócio (<a href="https://cursos.alura.com.br/course/design-thinking-inove-solucoes-assertivas-negocio">https://cursos.alura.com.br/course/design-thinking-inove-solucoes-assertivas-negocio</a>)</li>
+</ul>
+<h3>Inovação Ágil:</h3>
 <ul><li>Gerenciar iniciativas de inovação utilizando metodologias ágeis para obter resultados mais rápidos e assertivos, através de múltiplas entregas e testes contínuos com usuários.</li>
 <li>Desenvolver uma cultura ágil na empresa, aplicando metodologias que promovem a experimentação e a melhoria contínua no desenvolvimento de novos negócios.</li>
 <li>Criar times multidisciplinares e auto-organizáveis, que sejam capazes de entregar valor constante e reagir rapidamente às mudanças do mercado.</li>
 <li>Compreender a correlação entre inovação e agilidade, utilizando esses conceitos para atender de forma eficaz às necessidades dos clientes e do mercado em constante mudança..</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Os 9 princípios da inovação ágil (<a href="https://endeavor.org.br/inovacao/principios-inovacao-agil/">https://endeavor.org.br/inovacao/principios-inovacao-agil/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Inovação ágil (<a href="https://epocanegocios.globo.com/colunas/Changemaker/noticia/2020/11/inovacao-agil.html">https://epocanegocios.globo.com/colunas/Changemaker/noticia/2020/11/inovacao-agil.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Manifesto para Desenvolvimento Ágil de Software (<a href="https://agilemanifesto.org/iso/ptbr/manifesto.html">https://agilemanifesto.org/iso/ptbr/manifesto.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Inovação Ágil: gerencie projetos inovadores com eficiência e agilidade (<a href="https://cursos.alura.com.br/course/inovacao-agil-projetos-inovadores-eficiencia-agilidade">https://cursos.alura.com.br/course/inovacao-agil-projetos-inovadores-eficiencia-agilidade</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Inovação e Disrupção – Hipsters #167 (<a href="https://www.hipsters.tech/inovacao-e-disrupcao-hipsters-167/">https://www.hipsters.tech/inovacao-e-disrupcao-hipsters-167/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Pipeline de inovação: como aplicar essa estratégia na sua empresa (<a href="https://www.alura.com.br/empresas/artigos/pipeline-de-inovacao">https://www.alura.com.br/empresas/artigos/pipeline-de-inovacao</a>)</li>
+</ul>
+<h3>Roadmap:</h3>
 <ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
 <li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
 <li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
@@ -295,9 +467,18 @@
 <li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
 <li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
 <li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Glossário - Roadmap (<a href="https://www.cursospm3.com.br/glossario/roadmap/">https://www.cursospm3.com.br/glossario/roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conheça o roadmap: a ferramenta que guia a estratégia da sua empresa (<a href="https://blog.runrun.it/o-que-e-roadmap/">https://blog.runrun.it/o-que-e-roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Roadmap (<a href="https://miro.com/pt/agile/o-que-e-roadmap/">https://miro.com/pt/agile/o-que-e-roadmap/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Roadmap de Produtos: O que é e como criar um? (<a href="https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos">https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Roadmap: como criar e manter o mapa de produto (<a href="https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto">https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Product Management</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos - Fundamentos</strong>:</li>
+<h3>Gestão de Produtos - Fundamentos:</h3>
 <ul><li>Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.</li>
 <li>Definir visão clara e estratégia para o produto.</li>
 <li>Entender necessidades e preferências dos clientes.</li>
@@ -305,7 +486,19 @@
 <li>Priorizar recursos com base no valor para o cliente e para o negócio.</li>
 <li>Analisar métricas e feedback para orientar decisões.</li>
 <li>Estar aberto a mudanças e ajuste a estratégia conforme necessário.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Product Discovery</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Fundamentos de Product Management (<a href="https://www.cursospm3.com.br/blog/fundamentos-product-management/">https://www.cursospm3.com.br/blog/fundamentos-product-management/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Product Manager: o que faz, salário e como ingressar na profissão (<a href="https://www.cursospm3.com.br/blog/product-manager-guia-o-que-faz-salario-como-ingressar-na-profissao/">https://www.cursospm3.com.br/blog/product-manager-guia-o-que-faz-salario-como-ingressar-na-profissao/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda o que faz um Product Manager e qual a sua importância para o sucesso do seu produto (<a href="https://rockcontent.com/br/blog/product-manager/">https://rockcontent.com/br/blog/product-manager/</a>)</li>
+<li><code data-kind="site">Site</code> MBA PRODUCT MANAGEMENT &amp; GROWTH HACKING (<a href="https://www.fiap.com.br/mba/mba-em-product-management-growth-hacking-discovery-delivery-scale">https://www.fiap.com.br/mba/mba-em-product-management-growth-hacking-discovery-delivery-scale</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Product Manager: O que é e como se destacar na área (<a href="https://www.alura.com.br/artigos/product-manager-o-que-e-e-como-se-destacar">https://www.alura.com.br/artigos/product-manager-o-que-e-e-como-se-destacar</a>)</li>
+<li><code data-kind="curso">Curso</code> Product Management: agilize o desenvolvimento de produtos (<a href="https://cursos.alura.com.br/course/product-management-desenvolvimento-produtos">https://cursos.alura.com.br/course/product-management-desenvolvimento-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Product Manager: uma jornada em gestão de produto (<a href="https://cursos.alura.com.br/course/product-manager-jornada-gestao-produto">https://cursos.alura.com.br/course/product-manager-jornada-gestao-produto</a>)</li>
+</ul>
+<h3>Product Discovery:</h3>
 <ul><li>Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.</li>
 <li>Analisar o mercado para identificar tendências e oportunidades.</li>
 <li>Conduzie entrevistas para entender as necessidades dos usuários.</li>
@@ -313,7 +506,18 @@
 <li>Estudar os concorrentes para identificar lacunas e diferenciais.</li>
 <li>Testar hipóteses para validar a viabilidade do produto.</li>
 <li>Mapear as jornadas dos usuários para identificar pontos de dor.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos Digitais</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Product Discovery, como se diferencia do Product Delivery, e qual o seu valor na Estratégia de crescimento da Empresa (<a href="https://medium.com/@pravy.design/o-que-%C3%A9-product-discovery-como-se-diferencia-do-product-delivery-e-qual-o-seu-valor-na-estrat%C3%A9gia-9cdae6c50e2c">https://medium.com/@pravy.design/o-que-%C3%A9-product-discovery-como-se-diferencia-do-product-delivery-e-qual-o-seu-valor-na-estrat%C3%A9gia-9cdae6c50e2c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Product Discovery: o que é, como fazer e quais as melhores técnicas (<a href="https://produtosincriveis.co/blog/product-discovery-o-que-e-como-fazer-e-quais-as-melhores-tecnicas">https://produtosincriveis.co/blog/product-discovery-o-que-e-como-fazer-e-quais-as-melhores-tecnicas</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Product Manager: O que é e como se destacar na área (<a href="https://cursos.alura.com.br/extra/layerstech/product-discovery-layers-ponto-tech-114-a1958">https://cursos.alura.com.br/extra/layerstech/product-discovery-layers-ponto-tech-114-a1958</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Product Discovery (<a href="https://cursos.alura.com.br/extra/hipsterstech/product-discovery-hipsters-188-a372">https://cursos.alura.com.br/extra/hipsterstech/product-discovery-hipsters-188-a372</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: Product Discovery (<a href="https://cursos.alura.com.br/course/gestao-produtos-digitais-product-discovery">https://cursos.alura.com.br/course/gestao-produtos-digitais-product-discovery</a>)</li>
+<li><code data-kind="curso">Curso</code> Startupismo: Product Discovery (<a href="https://cursos.alura.com.br/course/startupismo-product-discovery">https://cursos.alura.com.br/course/startupismo-product-discovery</a>)</li>
+</ul>
+<h3>Gestão de Produtos Digitais:</h3>
 <ul><li>Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.</li>
 <li>Colocar as necessidades dos usuários no centro do processo de desenvolvimento.</li>
 <li>Definir uma visão clara e estratégia para o produto digital.</li>
@@ -321,7 +525,20 @@
 <li>Coletar e analisar feedback dos usuários para melhorias.</li>
 <li>Adotar metodologias ágeis para entregas rápidas e iterativas.</li>
 <li>Utilizar dados para tomar decisões informadas sobre o produto.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Gestão de produtos digitais: entenda a importância (<a href="https://www.cursospm3.com.br/blog/gestao-de-produtos-digitais-entenda-a-importancia/">https://www.cursospm3.com.br/blog/gestao-de-produtos-digitais-entenda-a-importancia/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de Produtos: a área que está brilhando aos olhos do mercado (<a href="https://www.cursospm3.com.br/blog/gestao-de-produtos-a-area-que-esta-brilhando-os-olhos-do-mercado/">https://www.cursospm3.com.br/blog/gestao-de-produtos-a-area-que-esta-brilhando-os-olhos-do-mercado/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de produtos digitais: o que é e como fazer (<a href="https://herospark.com/blog/gestao-de-produtos-digitais/">https://herospark.com/blog/gestao-de-produtos-digitais/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de Produtos como você nunca viu (<a href="https://www.casadocodigo.com.br/products/livro-mulheres-de-produto">https://www.casadocodigo.com.br/products/livro-mulheres-de-produto</a>)</li>
+<li><code data-kind="site">Site</code> FIAP - Pós Tech em Digital Product Management (<a href="https://postech.fiap.com.br/curso/digital-product-management/">https://postech.fiap.com.br/curso/digital-product-management/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Gestão de produtos digitais: Produto vs. Projeto (<a href="https://cursos.alura.com.br/course/gestao-produtos-digitais-produto-vs-projeto">https://cursos.alura.com.br/course/gestao-produtos-digitais-produto-vs-projeto</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: priorização (<a href="https://cursos.alura.com.br/course/gestao-produtos-priorizacao">https://cursos.alura.com.br/course/gestao-produtos-priorizacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: validação (<a href="https://cursos.alura.com.br/course/gestao-produtos-digitais-validacao">https://cursos.alura.com.br/course/gestao-produtos-digitais-validacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: aceleração (<a href="https://cursos.alura.com.br/course/gestao-produtos-aceleracao">https://cursos.alura.com.br/course/gestao-produtos-aceleracao</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

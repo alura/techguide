@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,9 +249,8 @@
   </div>
 
   <div class="content">
-    <h1>Android</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Kotlin - Fundamentos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Kotlin - Fundamentos:</h3>
 <ul><li>Kotlin é uma linguagem de programação multiplataforma, orientada a objetos, funcional e estaticamente tipada. Ela compila para a máquina virtual Java e também pode ser traduzida para a linguagem JavaScript e compilada para código nativo (via LLVM). É a linguagem oficial do sistema Android da Google.</li>
 <li>Entender a sua sintaxe</li>
 <li>Conhecer os tipos primitivos</li>
@@ -226,7 +265,22 @@
 <li>Manipular Coleções, arrays e listas</li>
 <li>Orientação a Objetos com Kotlin (Properties, Data class, Companion Objects, Delegation)</li>
 <li>Receber dados de uma API</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Kotlin: começando com Kotlin (inglês) (<a href="https://kotlinlang.org/docs/getting-started.html">https://kotlinlang.org/docs/getting-started.html</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Kotlin: Tipos Básicos e Kotlin (inglês) (<a href="https://kotlinlang.org/docs/basic-types.html">https://kotlinlang.org/docs/basic-types.html</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Kotlin: Sintaxe básica do Kotlin(inglês) (<a href="https://kotlinlang.org/docs/basic-syntax.html">https://kotlinlang.org/docs/basic-syntax.html</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Kotlin: Convenções de código do Kotlin (inglês) (<a href="https://kotlinlang.org/docs/coding-conventions.html">https://kotlinlang.org/docs/coding-conventions.html</a>)</li>
+<li><code data-kind="site">Site</code> Explorando a documentação: Números em Kotlin (<a href="https://dev.to/kotlinautas/explorando-a-documentacao-numeros-em-kotlin-15go">https://dev.to/kotlinautas/explorando-a-documentacao-numeros-em-kotlin-15go</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Kotlin // Dicionário do Programador (<a href="https://youtu.be/BfjRYBN7Ur8">https://youtu.be/BfjRYBN7Ur8</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Linguagem Kotlin: o que é, para que serve e um Guia para aprender (<a href="https://www.alura.com.br/artigos/kotlin">https://www.alura.com.br/artigos/kotlin</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Case Contabilizei: Kotlin - Hipsters Ponto Tech (<a href="https://www.hipsters.tech/case-contabilizei-kotlin-hipsters-ponto-tech-310/">https://www.hipsters.tech/case-contabilizei-kotlin-hipsters-ponto-tech-310/</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Kotlin (<a href="https://cursos.alura.com.br/formacao-kotlin">https://cursos.alura.com.br/formacao-kotlin</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Kotlin (<a href="https://7daysofcode.io/matricula/kotlin">https://7daysofcode.io/matricula/kotlin</a>)</li>
+</ul>
+<h3>Android - Fundamentos:</h3>
 <ul><li>Conhecer Kotlin, Java ou C++ que são as linguagens para desenvolver Apps Android.</li>
 <li>Entender como o SDK do Android empacota o código e recursos do App em um APK (Android Package - Pacote Android) para rodar no SO do Android</li>
 <li>Saber os componentes de entrada de um App - Activity, Service, Broadcast Receiver e Content Provider</li>
@@ -236,7 +290,22 @@
 <li>Entender quais são os recursos de um projeto Android - código fonte, recursos estáticos, drawables, layout, mipmap, values etc</li>
 <li>Criar um projeto Android com o Android Studio e rodar em um dispositivo físico ou virtual</li>
 <li>Conhecer bibliotecas do jetpack para garantir a compatibilidade entre as versões do Android</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos de Orientação a Objetos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Fundamentos de aplicativos (<a href="https://developer.android.com/guide/components/fundamentals?hl=pt-br">https://developer.android.com/guide/components/fundamentals?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Componentes de aplicativo (<a href="https://developer.android.com/guide/components/fundamentals?hl=pt-br#Components">https://developer.android.com/guide/components/fundamentals?hl=pt-br#Components</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Ativação de componentes (<a href="https://developer.android.com/guide/components/fundamentals?hl=pt-br#ActivatingComponents#Components">https://developer.android.com/guide/components/fundamentals?hl=pt-br#ActivatingComponents#Components</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Visão geral do manifesto do aplicativo (<a href="https://developer.android.com/guide/topics/manifest/manifest-intro?hl=pt-br">https://developer.android.com/guide/topics/manifest/manifest-intro?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Visão geral dos recursos do aplicativo (<a href="https://developer.android.com/guide/topics/resources/providing-resources?hl=pt-br">https://developer.android.com/guide/topics/resources/providing-resources?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Criar seu primeiro App Android (<a href="https://developer.android.com/training/basics/firstapp?hl=pt-br">https://developer.android.com/training/basics/firstapp?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Acessar as bibliotecas do Jetpack por tipo (<a href="https://developer.android.com/jetpack/androidx/explorer">https://developer.android.com/jetpack/androidx/explorer</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Criando o primeiro app Android (<a href="https://www.alura.com.br/artigos/criando-o-primeiro-app-android">https://www.alura.com.br/artigos/criando-o-primeiro-app-android</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Activity Lifecycle: por que você deve conhecer sobre o ciclo de vida da Activity (<a href="https://www.alura.com.br/artigos/activity-lifecycle-por-que-conhecer-ciclo-de-vida-activity">https://www.alura.com.br/artigos/activity-lifecycle-por-que-conhecer-ciclo-de-vida-activity</a>)</li>
+<li><code data-kind="curso">Curso</code> Android com Kotlin criando um app (<a href="https://cursos.alura.com.br/course/fundamentos-android-kotlin">https://cursos.alura.com.br/course/fundamentos-android-kotlin</a>)</li>
+</ul>
+<h3>Conceitos de Orientação a Objetos:</h3>
 <ul><li>A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de &#39;objetos&#39; e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.</li>
 <li>Como funcionam objetos</li>
 <li>Criar e utilizar construtores</li>
@@ -247,7 +316,26 @@
 <li>O que é polimorfismo</li>
 <li>Como funcionam interfaces</li>
 <li>O que são abstrações</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Sistema de View</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Princípios básicos da Programação Orientação a Objetos (POO) (<a href="https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce">https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce</a>)</li>
+<li><code data-kind="youtube">YouTube</code> FernandaDev: O que é Programação Orientada a Objetos?(POO) (<a href="https://www.youtube.com/watch?v=QJjY2TNyl-8">https://www.youtube.com/watch?v=QJjY2TNyl-8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Giuliana Bezerra: Desmistificando os tipos de referência - Ep. 8 (<a href="https://youtu.be/D9hANYbPYCc">https://youtu.be/D9hANYbPYCc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Orientação a Objetos – Hipsters Ponto Tech #350 (<a href="https://www.hipsters.tech/techguide-orientacao-a-objetos-hipsters-ponto-tech-350/">https://www.hipsters.tech/techguide-orientacao-a-objetos-hipsters-ponto-tech-350/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> POO: o que é programação orientada a objetos? (<a href="https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos">https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos</a>)</li>
+<li><code data-kind="site">Site</code> Apostila: Java e Orientação a Objetos (<a href="https://www.alura.com.br/apostila-java-orientacao-objetos">https://www.alura.com.br/apostila-java-orientacao-objetos</a>)</li>
+<li><code data-kind="site">Site</code> Livro: Orientação a Objetos (<a href="https://www.casadocodigo.com.br/products/livro-oo-conceitos">https://www.casadocodigo.com.br/products/livro-oo-conceitos</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Orientação a objetos (com Roberta Arcoverde) (<a href="https://www.youtube.com/watch?v=jpuJ1qrluoU">https://www.youtube.com/watch?v=jpuJ1qrluoU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Imersão Java: Orientação a Objetos, APIs e além (e live coding!) (<a href="https://www.youtube.com/watch?v=WdT90ffB-0Q">https://www.youtube.com/watch?v=WdT90ffB-0Q</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Java e Orientação a Objetos (<a href="https://cursos.alura.com.br/formacao-java">https://cursos.alura.com.br/formacao-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação C# e Orientação a Objetos (<a href="https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos">https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Python e orientação a objetos (<a href="https://cursos.alura.com.br/formacao-Python-linguagem">https://cursos.alura.com.br/formacao-Python-linguagem</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Orientação a Objetos com PHP: Classes, métodos e atributos (<a href="https://www.alura.com.br/curso-online-php-oo-classes-metodos-atributos">https://www.alura.com.br/curso-online-php-oo-classes-metodos-atributos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso JavaScript: programação orientada a objetos (<a href="https://www.alura.com.br/curso-online-javascript-passos-programacao-orientada-objetos">https://www.alura.com.br/curso-online-javascript-passos-programacao-orientada-objetos</a>)</li>
+</ul>
+<h3>Android - Sistema de View:</h3>
 <ul><li>A classe View representa o bloco básico de construção dos componentes de interface do usuário em Android.</li>
 <li>Conhecer a referência View e ViewGroup para definir um Layout</li>
 <li>Saber as principais ViewGroups para construir layouts - LinearLayout, RelativeLayout, FrameLayout e ConstraintLayout</li>
@@ -259,7 +347,26 @@
 <li>Implementar Layouts de conteúdos dinâmico com adaptadores - AdapterView e RecyclerView</li>
 <li>Integrar código de negócio com o layout da tela - Chamar e manipular as Views com o View Binding</li>
 <li>Reagir a eventos das Views a partir de listeners como cliques, cliques longos, rolagem, arrastar e soltar</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Fragments</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Layouts (<a href="https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br">https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Layouts (ViewGroups) comuns (<a href="https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br#CommonLayouts">https://developer.android.com/guide/topics/ui/declaring-layout?hl=pt-br#CommonLayouts</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Criar uma IU com o Layout Editor (<a href="https://developer.android.com/studio/write/layout-editor?hl=pt-br">https://developer.android.com/studio/write/layout-editor?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Criar uma IU responsiva com o ConstraintLayout (<a href="https://developer.android.com/training/constraint-layout?hl=pt-br">https://developer.android.com/training/constraint-layout?hl=pt-br</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Android View: Prólogo (<a href="https://medium.com/android-dev-br/android-view-pr%C3%B3logo-d44a89c14fd1">https://medium.com/android-dev-br/android-view-pr%C3%B3logo-d44a89c14fd1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Listas com RecyclerView (<a href="https://medium.com/android-dev-br/listas-com-recyclerview-d3f41e0d653c">https://medium.com/android-dev-br/listas-com-recyclerview-d3f41e0d653c</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Visão geral dos eventos de entrada (<a href="https://developer.android.com/guide/topics/ui/ui-events?hl=pt-br">https://developer.android.com/guide/topics/ui/ui-events?hl=pt-br</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Vinícius Thiengo: View - Entendendo os Componentes Visuais no Android (<a href="https://www.youtube.com/watch?v=2b18zJmkKKU">https://www.youtube.com/watch?v=2b18zJmkKKU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> View Binding Android (<a href="https://www.alura.com.br/artigos/view-binding-android">https://www.alura.com.br/artigos/view-binding-android</a>)</li>
+<li><code data-kind="curso">Curso</code> Android com Kotlin: criando um app (<a href="https://cursos.alura.com.br/course/fundamentos-android-kotlin">https://cursos.alura.com.br/course/fundamentos-android-kotlin</a>)</li>
+<li><code data-kind="curso">Curso</code> Android com Kotlin: personalize o seu App (<a href="https://cursos.alura.com.br/course/android-kotlin-personalize-app">https://cursos.alura.com.br/course/android-kotlin-personalize-app</a>)</li>
+<li><code data-kind="curso">Curso</code> RecyclerView: listas flexíveis e performáticas (<a href="https://www.alura.com.br/curso-online-recyclerview-listas-flexiveis-e-performaticas">https://www.alura.com.br/curso-online-recyclerview-listas-flexiveis-e-performaticas</a>)</li>
+<li><code data-kind="curso">Curso</code> RecyclerView: Listeners, animações e boas práticas (<a href="https://www.alura.com.br/curso-online-recyclerview-listeners-animacoes">https://www.alura.com.br/curso-online-recyclerview-listeners-animacoes</a>)</li>
+<li><code data-kind="curso">Curso</code> RecyclerView: criando telas com Constraint Layouts (<a href="https://www.alura.com.br/curso-online-layout-android-1">https://www.alura.com.br/curso-online-layout-android-1</a>)</li>
+</ul>
+<h3>Android - Fragments:</h3>
 <ul><li>Um Fragment representa o comportamento ou uma parte da interface do usuário em uma Activity hospedeira. É possível combinar vários fragmentos em uma única Activity para criar uma IU de vários painéis e reutilizar um fragmento em diversas atividades. Você pode imaginar um fragment como uma seção modular de uma Activity, que tem o próprio ciclo de vida, recebe os próprios eventos de entrada e que pode ser adicionada ou removida durante a execução da Activity.</li>
 <li>Entender o que é um Fragment</li>
 <li>Como usar e reutilizar Fragments na mesma Activity</li>
@@ -267,13 +374,40 @@
 <li>Implementar layouts com múltiplos painéis</li>
 <li>Migrar projetos Android que utilizam apenas Activities para utilizar fragments</li>
 <li>Lidar com transações do gerenciador de fragments</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Navegação no App</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Fragmentos (<a href="https://developer.android.com/guide/components/fragments?hl=pt-br">https://developer.android.com/guide/components/fragments?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Ciclo de Vida dos Fragments (inglês) (<a href="https://developer.android.com/guide/fragments/lifecycle?hl=pt-br">https://developer.android.com/guide/fragments/lifecycle?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Filosofia de projeto com Fragments (<a href="https://developer.android.com/guide/components/fragments?hl=pt-br#Design">https://developer.android.com/guide/components/fragments?hl=pt-br#Design</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Aprenda a Usar os Fragments em 4 Passos (<a href="https://www.androidpro.com.br/blog/desenvolvimento-android/fragments/">https://www.androidpro.com.br/blog/desenvolvimento-android/fragments/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Pedro Henrique de Oliveira e Silva: Android - Utilizando Fragments (<a href="https://www.youtube.com/watch?v=Lo2qofVfA-I&ab_channel=PedroHenriquedeOliveiraeSilva">https://www.youtube.com/watch?v=Lo2qofVfA-I&amp;ab_channel=PedroHenriquedeOliveiraeSilva</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Android Fragments: Reutilizando componentes visuais (<a href="https://cursos.alura.com.br/course/android-fragments">https://cursos.alura.com.br/course/android-fragments</a>)</li>
+</ul>
+<h3>Android - Navegação no App:</h3>
 <ul><li>A navegação de telas em Apps é fundamental para a experiência de uso de Apps Android. Para isso é essencial conhecer os princípios de navegação do Android.</li>
 <li>Aprender o que é a biblioteca Navigation e como é possível implementá-la, seja para o sistema de Views ou para o Jetpack Compose</li>
 <li>Integrar a navegação com componentes do App, seja em navegação de abas, ou na visualização de componentes visuais dependendo da tela</li>
 <li>Saber o que é uma task de back stack do Android</li>
 <li>Conhecer os App links - Deep Link, Web Links e Android App Links</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Jetpack Compose - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Princípios de navegação (<a href="https://developer.android.com/guide/navigation/navigation-principles?hl=pt-br">https://developer.android.com/guide/navigation/navigation-principles?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Navegação (<a href="https://developer.android.com/guide/navigation?hl=pt-br">https://developer.android.com/guide/navigation?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Como navegar com o Compose (<a href="https://developer.android.com/jetpack/compose/navigation?hl=pt-br">https://developer.android.com/jetpack/compose/navigation?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Entenda as tarefas e a pilha de retorno (<a href="https://developer.android.com/guide/components/activities/tasks-and-back-stack?hl=pt-br">https://developer.android.com/guide/components/activities/tasks-and-back-stack?hl=pt-br</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Usando Navigation Component — Android Jetpack (<a href="https://medium.com/android-dev-br/usando-navigation-component-android-jetpack-e1356921b31d">https://medium.com/android-dev-br/usando-navigation-component-android-jetpack-e1356921b31d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao Compose Navigation (<a href="https://nglauber.medium.com/introdu%C3%A7%C3%A3o-ao-compose-navigation-574d1d9572a0">https://nglauber.medium.com/introdu%C3%A7%C3%A3o-ao-compose-navigation-574d1d9572a0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Stack Mobile: Android Para Iniciantes - Navegação Entre Telas (<a href="https://www.youtube.com/watch?v=629qVxiWonM">https://www.youtube.com/watch?v=629qVxiWonM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV: Aprenda a usar o Navigation do Compose! (<a href="https://youtu.be/aZRS-pfbyZU?si=tejc83Raer4wsWvy">https://youtu.be/aZRS-pfbyZU?si=tejc83Raer4wsWvy</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Navigation: transição de telas no Android (<a href="https://www.alura.com.br/curso-online-android-navigation">https://www.alura.com.br/curso-online-android-navigation</a>)</li>
+<li><code data-kind="curso">Curso</code> Navigation: novas features e reutilização de código (<a href="https://www.alura.com.br/curso-online-android-navigation-features">https://www.alura.com.br/curso-online-android-navigation-features</a>)</li>
+<li><code data-kind="curso">Curso</code> Jetpack Compose: navegando entre telas com o Navigation (<a href="https://www.alura.com.br/curso-online-jetpack-compose-navegando-telas-navigation">https://www.alura.com.br/curso-online-jetpack-compose-navegando-telas-navigation</a>)</li>
+</ul>
+<h3>Jetpack Compose - Fundamentos:</h3>
 <ul><li>O Jetpack Compose é uma ferramenta que trás a proposta de criar interfaces nativas Android com menos código, mais rápido e deixa seus apps mais bonitos, ele faz isso através da abordagem declarativa.</li>
 <li>Criar um app Android do zero utilizando o Jetpack Compose</li>
 <li>Construção de Layouts apartir de composables</li>
@@ -283,63 +417,204 @@
 <li>Trabalhar com formulários</li>
 <li>Entender a diferença do XML para o Compose</li>
 <li>Manter estados utilizando o padrão MVVM com ViewModel e StateFlow, entendendo o ciclo de vida</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Persistência</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Tutorial do Android Compose (<a href="https://developer.android.com/jetpack/compose/tutorial?hl=pt-br">https://developer.android.com/jetpack/compose/tutorial?hl=pt-br</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Novas pessoas desenvolvedoras android deveriam aprender Compose ou XML? (inglês) (<a href="https://dev.to/aldok/should-new-android-developer-learn-compose-or-xml-3oah">https://dev.to/aldok/should-new-android-developer-learn-compose-or-xml-3oah</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Utilizando o JETPACK COMPOSE para criar UIs modernas para Apps Android (<a href="https://www.youtube.com/watch?v=6qIjSVVzlt0&ab_channel=InstitutodeInform%C3%A1ticaUFG">https://www.youtube.com/watch?v=6qIjSVVzlt0&amp;ab_channel=InstitutodeInform%C3%A1ticaUFG</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Estado e Jetpack Compose (<a href="https://developer.android.com/jetpack/compose/state?hl=pt-br">https://developer.android.com/jetpack/compose/state?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Ciclo de vida dos composables (<a href="https://developer.android.com/jetpack/compose/lifecycle?hl=pt-br#:~:text=Quando%20o%20Jetpack%20Compose%20executa,Jetpack%20Compose%20programar%C3%A1%20uma%20recomposi%C3%A7%C3%A3o">https://developer.android.com/jetpack/compose/lifecycle?hl=pt-br#:~:text=Quando%20o%20Jetpack%20Compose%20executa,Jetpack%20Compose%20programar%C3%A1%20uma%20recomposi%C3%A7%C3%A3o</a>.)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV: Link da playList com vários vídeos ensinando como fazer telas/implementações/animações e muito mais (<a href="https://www.youtube.com/playlist?list=PL-7tME9TKyA79CO-soQsOZ1q8itjTLCcg">https://www.youtube.com/playlist?list=PL-7tME9TKyA79CO-soQsOZ1q8itjTLCcg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alex Felipe - Playlist: Aprednendo Jetpack Compose (<a href="https://www.youtube.com/watch?v=yWWOuxeqxwE&list=PLYaQbIm_3oZ9rHMFnm7si0LTqEDcYtG2t&pp=iAQB">https://www.youtube.com/watch?v=yWWOuxeqxwE&amp;list=PLYaQbIm_3oZ9rHMFnm7si0LTqEDcYtG2t&amp;pp=iAQB</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="youtube">YouTube</code> O que é Jetpack Compose? com Alex Felipe | #HipstersPontoTube (<a href="https://youtu.be/LR5LUhTZPCE">https://youtu.be/LR5LUhTZPCE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Jetpack Compose: Começando com Compose | #AluraMais (<a href="https://youtu.be/L4nWoZTKjKw">https://youtu.be/L4nWoZTKjKw</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Vale a pena aprender Jetpack Compose agora? (<a href="https://www.alura.com.br/artigos/vale-a-pena-aprender-jetpack-compose">https://www.alura.com.br/artigos/vale-a-pena-aprender-jetpack-compose</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação: Jetpack Compose - Criando telas e gerenciando estados (<a href="https://cursos.alura.com.br/formacao-jetpack-compose-criando-telas-gerenciando-estados">https://cursos.alura.com.br/formacao-jetpack-compose-criando-telas-gerenciando-estados</a>)</li>
+</ul>
+<h3>Android - Persistência:</h3>
 <ul><li>O conceito de &quot;persistência de dados&quot; refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.</li>
 <li>No Android podemos armazenar de maneira persistente arquivos específicos ou para o App ou compartilhado, informações de tipo primitivo com preferências e dados estruturados com banco de dados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Gradle</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Visão geral do armazenamento de dados e arquivos (<a href="https://developer.android.com/training/data-storage?hl=pt-br">https://developer.android.com/training/data-storage?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Acessar arquivos específicos do app (<a href="https://developer.android.com/training/data-storage/app-specific?hl=pt-br">https://developer.android.com/training/data-storage/app-specific?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Visão geral do armazenamento compartilhado (<a href="https://developer.android.com/training/data-storage/shared?hl=pt-br">https://developer.android.com/training/data-storage/shared?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Salvar dados de chave-valor (<a href="https://developer.android.com/training/data-storage/shared-preferences?hl=pt-br">https://developer.android.com/training/data-storage/shared-preferences?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Salvar dados em um banco de dados local usando o Room (<a href="https://developer.android.com/training/data-storage/room?hl=pt-br">https://developer.android.com/training/data-storage/room?hl=pt-br</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Kaique Ocanha - Aulas de Android: LIVE #010 - Room Database - Introdução a Persistência de Dados com Kotlin localmente (<a href="https://www.youtube.com/watch?v=JQ_isBkRWzc">https://www.youtube.com/watch?v=JQ_isBkRWzc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alex Felipe - Aprenda a salvar dados no banco de dados do Android | Room | Coroutines | Flow | ViewModel | Koin (<a href="https://youtu.be/34P8CncWQiI?si=VGfkmV8tWsKtTFfZ">https://youtu.be/34P8CncWQiI?si=VGfkmV8tWsKtTFfZ</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Salvando informações com o Shared Preferences (<a href="https://www.alura.com.br/artigos/salvando-informacoes-com-o-shared-preferences">https://www.alura.com.br/artigos/salvando-informacoes-com-o-shared-preferences</a>)</li>
+<li><code data-kind="curso">Curso</code> Android com Kotlin: persistência de dados com o Room (<a href="https://www.alura.com.br/curso-online-android-kotlin-persistencia-dados-room">https://www.alura.com.br/curso-online-android-kotlin-persistencia-dados-room</a>)</li>
+<li><code data-kind="curso">Curso</code> Android com Kotlin: Migrations e relacionamento com o Room (<a href="https://www.alura.com.br/curso-online-android-kotlin-migrations-relacionamento-room">https://www.alura.com.br/curso-online-android-kotlin-migrations-relacionamento-room</a>)</li>
+<li><code data-kind="curso">Curso</code> Jetpack Compose: armazenamento de dados internos (<a href="https://www.alura.com.br/curso-online-jetpack-compose-armazenamento-dados-internos">https://www.alura.com.br/curso-online-jetpack-compose-armazenamento-dados-internos</a>)</li>
+</ul>
+<h3>Android - Gradle:</h3>
 <ul><li>O Gradle e o plug-in do Android para Gradle(AGP) oferecem uma maneira flexível de compilar, criar, gerenciar e empacotar seu app ou biblioteca Android.</li>
 <li>O que é uma build tool</li>
 <li>Aprender a estrutura de um projeto Android como um projeto multi módulo do Gradle</li>
 <li>Para que serve o Gradle e como usá-lo</li>
 <li>O que são dependências e como utilizá-las</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Carregamento de imagens</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Configure seu Build (<a href="https://developer.android.com/studio/build?hl=pt-br">https://developer.android.com/studio/build?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Dicas e receitas para o Gradle (<a href="https://developer.android.com/studio/build/gradle-tips?hl=pt-br">https://developer.android.com/studio/build/gradle-tips?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Adicionando dependências do build - Gradle (<a href="https://developer.android.com/studio/build/dependencies?hl=pt-br">https://developer.android.com/studio/build/dependencies?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Guia para Modularização de app (<a href="https://developer.android.com/topic/modularization?hl=pt-br">https://developer.android.com/topic/modularization?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> AndroidPro: Gradle para Android - Entendendo o processo de build (<a href="https://www.androidpro.com.br/blog/android-studio/gradle/">https://www.androidpro.com.br/blog/android-studio/gradle/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gradle Android para Iniciantes (<a href="https://www.linkedin.com/pulse/gradle-android-para-iniciantes-roger-silva/?originalSubdomain=pt">https://www.linkedin.com/pulse/gradle-android-para-iniciantes-roger-silva/?originalSubdomain=pt</a>)</li>
+<li><code data-kind="site">Site</code> Slides sobre Desenvolvimento Android - by Moro (<a href="https://github.com/gabrielbmoro/slides-about-android-development/blob/main/README_pt-br.md#gradle-">https://github.com/gabrielbmoro/slides-about-android-development/blob/main/README_pt-br.md#gradle-</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Conhecendo as build tools no mundo Java (<a href="https://www.youtube.com/watch?v=6llRWbdnmuk">https://www.youtube.com/watch?v=6llRWbdnmuk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Começando com o Gradle: Tasks e comandos básicos (<a href="https://www.youtube.com/watch?v=uX6Ezf73OEY">https://www.youtube.com/watch?v=uX6Ezf73OEY</a>)</li>
+</ul>
+<h3>Android - Carregamento de imagens:</h3>
 <ul><li>As imagens vem em tamanhos e formas diferentes. Na maioria dos casos, elas são maiores do que o necessário para a Interface de usuário (UI) de um app. Dado que estamos trabalhando com memória limitada, no Android é usada uma técnica de decodificação de bitmaps, para evitar todo o trabalho de utilizar isso, temos diversas bibliotecas que facilitam esse processo.</li>
 <li>O que é Bitmap</li>
 <li>Conhecer as bibliotecas de carregamento de imagens (Glide, Picasso, Coil, entre oturas) e usá-las</li>
 <li>Vantagens e desvantagens das bibliotecas de carregamento de imagens</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Bitmap: o que é, para que serve e como funciona (<a href="https://www.tecnoveste.com.br/bitmap-o-que-e-para-que-serve-e-como-funciona/">https://www.tecnoveste.com.br/bitmap-o-que-e-para-que-serve-e-como-funciona/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Paulo Salvatore: Carregando imagens no Android com Kotlin | Glide (<a href="https://www.youtube.com/watch?v=5FJLyFbTsZQ&ab_channel=PauloSalvatore">https://www.youtube.com/watch?v=5FJLyFbTsZQ&amp;ab_channel=PauloSalvatore</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Stevdza-San: Coil - Biblioteca moderna de carregamento de imagem | Android Studio Tutorial (inglês) (<a href="https://www.youtube.com/watch?v=IBaUjzn2Rgo">https://www.youtube.com/watch?v=IBaUjzn2Rgo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> cedr!c: Como carregar uma imagem remota em Android - PICASSO &amp; GLIDE (<a href="https://www.youtube.com/watch?v=BM6SnH3CDE0">https://www.youtube.com/watch?v=BM6SnH3CDE0</a>)</li>
+<li><code data-kind="site">Site</code> Coil - Site oficial (inglês) (<a href="https://coil-kt.github.io/coil/">https://coil-kt.github.io/coil/</a>)</li>
+<li><code data-kind="site">Site</code> Glide v4 - Site oficial (inglês) (<a href="https://bumptech.github.io/glide/">https://bumptech.github.io/glide/</a>)</li>
+<li><code data-kind="site">Site</code> Picasso - Site oficial (inglês) (<a href="https://square.github.io/picasso/">https://square.github.io/picasso/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV: Carregar Imagens em uma lista usando Compose+Coil [StreamPlayerApp] (<a href="https://youtu.be/9ga19aK3VGU?si=0lcMIf-Ri-Y_yTVi">https://youtu.be/9ga19aK3VGU?si=0lcMIf-Ri-Y_yTVi</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Android com Kotlin: Personalize o seu app (<a href="https://cursos.alura.com.br/course/android-kotlin-personalize-app">https://cursos.alura.com.br/course/android-kotlin-personalize-app</a>)</li>
+<li><code data-kind="curso">Curso</code> Jetpack Compose: Criando um app android (<a href="https://cursos.alura.com.br/course/jetpack-compose-app-android">https://cursos.alura.com.br/course/jetpack-compose-app-android</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Permissões</strong>:</li>
+<h3>Android - Permissões:</h3>
 <ul><li>As permissões do app ajudam a apoiar a privacidade do usuário protegendo dados restritos, como estados do sistema e os dados de contatos dos usuários, há também as ações restritas, como a conexão a um dispositivo pareado e a gravação de áudio ou uso de câmera.</li>
 <li>Entender o que são permissões</li>
 <li>Aprender sobre os diferentes tipos de permissões</li>
 <li>Permissões especiais</li>
 <li>Práticas recomendadas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Kotlin - Assíncrono</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Permissões no Android (<a href="https://developer.android.com/guide/topics/permissions/overview?hl=pt-br">https://developer.android.com/guide/topics/permissions/overview?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Uso de permissões - Android Manifest (<a href="https://developer.android.com/guide/topics/manifest/uses-permission-element?hl=pt-br">https://developer.android.com/guide/topics/manifest/uses-permission-element?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Solicitando permissões do app (<a href="https://developer.android.com/training/permissions/requesting?hl=pt-br">https://developer.android.com/training/permissions/requesting?hl=pt-br</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo as permissões do app (inglês) (<a href="https://guides.codepath.com/android/Understanding-App-Permissions">https://guides.codepath.com/android/Understanding-App-Permissions</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tiago Aguiar: Permissões Android - Tutorial Como Usar (<a href="https://www.youtube.com/watch?v=Grr5N44Ha64">https://www.youtube.com/watch?v=Grr5N44Ha64</a>)</li>
+</ul>
+<h3>Kotlin - Assíncrono:</h3>
 <ul><li>Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.</li>
 <li>Aprender as possibilidades para rodar o código de maneira assíncrona no Android</li>
 <li>Conhecer o pacote java.concurrent e as suas soluções</li>
 <li>Utilizar Coroutines como uma solução de código assíncrono no Kotlin</li>
 <li>Entender e usar estruturas reativas como LiveData, Flow, StateFlow, RX, etc</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Kotlin - Comunicação com APIs</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Corrotinas do Kotlin no Android (<a href="https://developer.android.com/kotlin/coroutines?hl=pt-br">https://developer.android.com/kotlin/coroutines?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Fluxos em Kotlin no Android (<a href="https://developer.android.com/kotlin/flow?hl=pt-br">https://developer.android.com/kotlin/flow?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: StateFlow e SharedFlow (<a href="https://developer.android.com/kotlin/flow/stateflow-and-sharedflow?hl=pt-br">https://developer.android.com/kotlin/flow/stateflow-and-sharedflow?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Visão geral do LiveData (<a href="https://developer.android.com/topic/libraries/architecture/livedata?hl=pt-br">https://developer.android.com/topic/libraries/architecture/livedata?hl=pt-br</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao RX Java com Kotlin (<a href="https://nglauber.medium.com/introdu%C3%A7%C3%A3o-ao-rx-java-com-kotlin-90c58d184c6b">https://nglauber.medium.com/introdu%C3%A7%C3%A3o-ao-rx-java-com-kotlin-90c58d184c6b</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Kotlin Coroutines: Criando um Projeto Android do Zero Com a Arquitetura MVVM e LiveData (<a href="https://www.youtube.com/watch?v=M9nmW9BSKUA">https://www.youtube.com/watch?v=M9nmW9BSKUA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods): Configurar o Networking na sua aplicação Retrofit+Okhttp+ Interceptores+Coroutines (<a href="https://youtu.be/D-wckaYH5Do">https://youtu.be/D-wckaYH5Do</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="site">Site</code> Operações Assíncronas com Coroutines no Kotlin (<a href="https://www.alura.com.br/videos/operacoes-assincronas-com-coroutines-do-kotlin-no-android-c58">https://www.alura.com.br/videos/operacoes-assincronas-com-coroutines-do-kotlin-no-android-c58</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Retrofit com Coroutines e LiveData no Android (<a href="https://www.alura.com.br/artigos/retrofit-com-coroutines-e-livedata-no-android">https://www.alura.com.br/artigos/retrofit-com-coroutines-e-livedata-no-android</a>)</li>
+</ul>
+<h3>Kotlin - Comunicação com APIs:</h3>
 <ul><li>Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.</li>
 <li>Realizar requisições HTTP para se comunicar com serviços online, como REST API é fundamental na maioria dos Apps Android. Sendo assim, é importante conhecer as principais ferramentas e técnicas necessárias para esse tipo de funcionalidade.</li>
 <li>Conhecer bibliotecas famosas no mundo Android para realizar requisições - Retrofit, Ktor ou Volley</li>
 <li>Configurar as requisições para executararem de maneira assíncrona</li>
 <li>Converter objetos para JSON e vice-versa</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Recursos do sistema</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Conectar-se à rede (<a href="https://developer.android.com/training/basics/network-ops/connecting?hl=pt-br">https://developer.android.com/training/basics/network-ops/connecting?hl=pt-br</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Comunicação HTTP eficiente no Android com Volley (<a href="https://nglauber.medium.com/comunica%C3%A7%C3%A3o-http-eficiente-no-android-com-volley-9772b4057a5c">https://nglauber.medium.com/comunica%C3%A7%C3%A3o-http-eficiente-no-android-com-volley-9772b4057a5c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Consumindo API REST no Android com Retrofit em Kotlin (<a href="https://medium.com/collabcode/consumindo-api-rest-no-android-com-retrofit-em-kotlin-parte-1-5e752ab8a877">https://medium.com/collabcode/consumindo-api-rest-no-android-com-retrofit-em-kotlin-parte-1-5e752ab8a877</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Coder: Como fazer chamadas API usando a biblioteca Android Volley | Kotlin (<a href="https://www.youtube.com/watch?v=pfqc7ajaLNE">https://www.youtube.com/watch?v=pfqc7ajaLNE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tiago Aguiar: Retrofit - O Guia Definitivo para Cliente HTTP no Android (<a href="https://www.youtube.com/watch?v=NPmzpvEQn6I">https://www.youtube.com/watch?v=NPmzpvEQn6I</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Retrofit com Coroutines e LiveData no Android (<a href="https://www.alura.com.br/artigos/retrofit-com-coroutines-e-livedata-no-android">https://www.alura.com.br/artigos/retrofit-com-coroutines-e-livedata-no-android</a>)</li>
+<li><code data-kind="curso">Curso</code> Android com Kotlin: comunicação com Web API (<a href="https://www.alura.com.br/curso-online-android-kotlin-comunicacao-web-api">https://www.alura.com.br/curso-online-android-kotlin-comunicacao-web-api</a>)</li>
+</ul>
+<h3>Android - Recursos do sistema:</h3>
 <ul><li>Os smartphones que estão sob a plataforma Android, na sua grande maioria possuem diversos recursos específicos do sistema, tais como câmeras, sensores, gps, entre outros.</li>
 <li>Aprenda quais são e como utilizar esses recursos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android (IA)</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Visão geral do CameraX - Biblioteca para utilizar a camêra no Android (<a href="https://developer.android.com/training/camerax?hl=pt-br">https://developer.android.com/training/camerax?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Sensores - Sensores de Movimento, Posição e Ambiente (<a href="https://developer.android.com/guide/topics/sensors?hl=pt-br">https://developer.android.com/guide/topics/sensors?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Visão Geral da Conectividade (Bluetooth, Wi-Fi, operações de rede) (<a href="https://developer.android.com/guide/topics/connectivity?hl=pt-br">https://developer.android.com/guide/topics/connectivity?hl=pt-br</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Alura: Utilizando o Google Maps em Apps Android (<a href="https://www.youtube.com/watch?v=rpqi7Y1NQZY">https://www.youtube.com/watch?v=rpqi7Y1NQZY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Tirando foto no app com a câmera do Android (<a href="https://www.youtube.com/watch?v=jLcrcTMoB88">https://www.youtube.com/watch?v=jLcrcTMoB88</a>)</li>
+</ul>
+<h3>Android (IA):</h3>
 <ul><li>Um Client-SDK para IA é uma ferramenta intermediária que simplifica a comunicação entre o seu aplicativo e serviços de IA remotos. Imagine como uma ponte que liga o seu aplicativo (que está local no seu dispositivo) a um servidor poderoso de IA (que geralmente fica na nuvem);</li>
 <li>IA On-Device, ou inteligência artificial no dispositivo, refere-se à execução de tarefas de IA diretamente no seu dispositivo pessoal, como smartphone, tablet ou smartwatch, em vez de depender de servidores remotos na nuvem;</li>
 <li>Aprender a traduzir textos automaticamente, reconhecer imagens, gerar respostas inteligentes e mais utilizando IA no seu app;</li>
 <li>Como acessar a API Gemini/GPT diretamente do app Android usando o SDK do cliente para Android;</li>
 <li>Como baixar e utilizar ferramentas de machine learning localmente nos apps;</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Kotlin - Injeção de Dependências</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Google AI: Utilizar Gemini API (<a href="https://ai.google.dev/tutorials/get_started_android?hl=pt-br">https://ai.google.dev/tutorials/get_started_android?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação ML Kit (<a href="https://developers.google.com/ml-kit?hl=pt-br">https://developers.google.com/ml-kit?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação do TensorFlow Lite (<a href="https://www.tensorflow.org/lite?hl=pt-br">https://www.tensorflow.org/lite?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação do Gemini Nano SDK (<a href="https://ai.google.dev/tutorials/android_aicore">https://ai.google.dev/tutorials/android_aicore</a>)</li>
+<li><code data-kind="youtube">YouTube</code> TensorFlow - Modelos de linguagem no dispositivo com Keras e Android (<a href="https://youtu.be/pNWNMPi0Mvk">https://youtu.be/pNWNMPi0Mvk</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="alura+">Alura+</code> Alura+: Crie seu primeiro aplicativo de IA generativa no Android Studio (<a href="https://cursos.alura.com.br/extra/alura-mais/crie-seu-primeiro-aplicativo-de-ia-generativa-no-android-studio-c9218">https://cursos.alura.com.br/extra/alura-mais/crie-seu-primeiro-aplicativo-de-ia-generativa-no-android-studio-c9218</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gemini no Android Studio: a Github Copilot da Google (<a href="https://www.alura.com.br/artigos/gemini-no-android-studio">https://www.alura.com.br/artigos/gemini-no-android-studio</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação - Android com IA: criando apps mais inteligentes com o Google ML Kit (<a href="https://cursos.alura.com.br/formacao-android-ia-google-ml-kit">https://cursos.alura.com.br/formacao-android-ia-google-ml-kit</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Android: criando apps de forma inovadora com CoPilot, GPT e Gemini (<a href="https://cursos.alura.com.br/formacao-android-ia-apps-inovadores-copilot-gpt-gemini">https://cursos.alura.com.br/formacao-android-ia-apps-inovadores-copilot-gpt-gemini</a>)</li>
+</ul>
+<h3>Kotlin - Injeção de Dependências:</h3>
 <ul><li>Injeção de Dependências é um padrão de projeto no qual uma classe solicita dependências de fontes externas ao invés de criá-las.</li>
 <li>Ao escrever códigos em projetos Android, é muito que uma funcionalidade utilize códigos de bibliotecas, como o Room para salvar dados ou o Retrofit para fazer requisições para REST API. Essas bibliteocas são conhecidas como dependências dos nossos códigos, justamente pela necessidade para realizar a ação esperada. Usar essas bibliotecas com facilidade em qualquer parte do app pode ter os seus desafios, como oferecer instâncias únicas e realizar toda a configuração necessária para o funcionamento correto. Para isso, utilizamos ferramentas de injeção de dependência que facilitam o nosso trabalho.</li>
 <li>Aprender a usar a técnica de injeção de dependências e alguma das ferramentas comuns no Android para tal - Hilt, Dagger ou Koin</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Testes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Injeção de dependência no Android (<a href="https://developer.android.com/training/dependency-injection?hl=pt-br">https://developer.android.com/training/dependency-injection?hl=pt-br</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Injeção de dependência no Kotlin com Koin (<a href="https://medium.com/collabcode/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-no-kotlin-com-koin-4d093f80cb63">https://medium.com/collabcode/inje%C3%A7%C3%A3o-de-depend%C3%AAncia-no-kotlin-com-koin-4d093f80cb63</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Chico Rasia: Viewmodel com injeção de dependência via Factory no Android com Kotlin (<a href="https://youtu.be/biFrt-Bjx-g">https://youtu.be/biFrt-Bjx-g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Douglas Motta: Injeção de Dependência com Koin no Android (<a href="https://www.youtube.com/watch?v=Mh_NK5G0WjY">https://www.youtube.com/watch?v=Mh_NK5G0WjY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods): Configurar Koin de maneira completa (<a href="https://youtu.be/7_UEnCZD5DI">https://youtu.be/7_UEnCZD5DI</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Injeção de dependência no Android com o Hilt (<a href="https://www.alura.com.br/artigos/injecao-de-dependencia-do-android-com-o-hilt">https://www.alura.com.br/artigos/injecao-de-dependencia-do-android-com-o-hilt</a>)</li>
+</ul>
+<h3>Android - Testes:</h3>
 <ul><li>O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.</li>
 <li>Usar testes unitários</li>
 <li>Usar testes de integração</li>
 <li>Usar testes instrumentados</li>
 <li>Usar mocks para facilitar a implementação de testes com dependências</li>
 <li>Implementar testes com ferramentas de Injeção de Dependências como o Hilt</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Conceitos básicos de testes (<a href="https://developer.android.com/training/testing/fundamentals?hl=pt-br">https://developer.android.com/training/testing/fundamentals?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: O que testar no Android (Inglês) (<a href="https://developer.android.com/training/testing/fundamentals/what-to-test">https://developer.android.com/training/testing/fundamentals/what-to-test</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Como testar o layout do Compose (<a href="https://developer.android.com/jetpack/compose/testing?hl=pt-br">https://developer.android.com/jetpack/compose/testing?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Criar testes de unidade locais (<a href="https://developer.android.com/training/testing/unit-testing/local-unit-tests?hl=pt-br">https://developer.android.com/training/testing/unit-testing/local-unit-tests?hl=pt-br</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Testes Instrumentados: tipos de teste e como são executados. (<a href="https://medium.com/android-dev-br/testes-instrumentados-tipos-de-teste-e-como-s%C3%A3o-executados-1f13a8cfe4c4">https://medium.com/android-dev-br/testes-instrumentados-tipos-de-teste-e-como-s%C3%A3o-executados-1f13a8cfe4c4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dev Vai Longe: 02 Testes unitários no Android com mockito, jUnit e kotlin. (<a href="https://youtu.be/iKaPscjFa-4">https://youtu.be/iKaPscjFa-4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Android com Kotlin: testes de unidade e Mocks (<a href="https://www.alura.com.br/curso-online-android-kotlin-testes-unidade-mocks">https://www.alura.com.br/curso-online-android-kotlin-testes-unidade-mocks</a>)</li>
+<li><code data-kind="curso">Curso</code> Android com Kotlin: testes instrumentados (<a href="https://www.alura.com.br/curso-online-android-kotlin-testes-instrumentados">https://www.alura.com.br/curso-online-android-kotlin-testes-instrumentados</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Arquitetura</strong>:</li>
+<h3>Android - Arquitetura:</h3>
 <ul><li>O guia de arquitetura Android aborda práticas e a arquitetura recomendada para a criação de apps robustos com alta qualidade de produção. Organizar sua base de código em partes contidas e acopladas com flexibilidade (Modularização).</li>
 <li>Aprender o que é e para que serve a arquitetura MVVM (Model-View-ViewModel)</li>
 <li>Camadas de IU, dados e domínios</li>
@@ -351,21 +626,60 @@
 <li>Melhorar a experiência dos usuários do app com o ViewModel</li>
 <li>Aprender o que é modularização</li>
 <li>Benefícios da modularização</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Critérios de qualidade do App</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Guia para a arquitetura do app (<a href="https://developer.android.com/topic/architecture?hl=pt-br">https://developer.android.com/topic/architecture?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Visão geral do ViewModel (<a href="https://developer.android.com/topic/libraries/architecture/viewmodel?hl=pt-br">https://developer.android.com/topic/libraries/architecture/viewmodel?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Camada de IU (<a href="https://developer.android.com/topic/architecture/ui-layer?hl=pt-br">https://developer.android.com/topic/architecture/ui-layer?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Camada de Domínio (<a href="https://developer.android.com/topic/architecture/domain-layer?hl=pt-br">https://developer.android.com/topic/architecture/domain-layer?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Camada de dados (<a href="https://developer.android.com/topic/architecture/data-layer?hl=pt-br">https://developer.android.com/topic/architecture/data-layer?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Camada de dados - offline first (<a href="https://developer.android.com/topic/architecture/data-layer/offline-first?hl=pt-br">https://developer.android.com/topic/architecture/data-layer/offline-first?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Resumo da série &#39;MAD Skills&#39; de arquitetura (inglês) (<a href="https://android-developers.googleblog.com/2022/04/architecture-mad-skills-series-wrap-up.html">https://android-developers.googleblog.com/2022/04/architecture-mad-skills-series-wrap-up.html</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Android pra valer: Como usar o ViewModel + LiveData no Android (<a href="https://www.youtube.com/watch?v=pIlcZqdrYUM&ab_channel=Androidpravaler">https://www.youtube.com/watch?v=pIlcZqdrYUM&amp;ab_channel=Androidpravaler</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Guia para a modularização de apps Android (<a href="https://developer.android.com/topic/modularization?hl=pt-br">https://developer.android.com/topic/modularization?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Recomendações para arquiteturas do Android (<a href="https://developer.android.com/topic/architecture/recommendations?hl=pt-br">https://developer.android.com/topic/architecture/recommendations?hl=pt-br</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - Simplificando o Clean Architecture +MVVM na sua aplicação mobile - Guia Completo (<a href="https://youtu.be/8ehlZfyN1S0?si=Py9a7JbY-6XJj1BX">https://youtu.be/8ehlZfyN1S0?si=Py9a7JbY-6XJj1BX</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Jetpack Compose: mantendo estados com ViewModel (<a href="https://cursos.alura.com.br/course/jetpack-compose-estados-viewmodel">https://cursos.alura.com.br/course/jetpack-compose-estados-viewmodel</a>)</li>
+<li><code data-kind="curso">Curso</code> Architecture Components: ViewModel, LiveData e Room (<a href="https://cursos.alura.com.br/course/android-archtecture-components">https://cursos.alura.com.br/course/android-archtecture-components</a>)</li>
+</ul>
+<h3>Android - Critérios de qualidade do App:</h3>
 <ul><li>Ao escrever um App Android, existe uma série de requisitos para garantir uma qualidade esperada, como por exemplo, a compatibilidade do App com a navegação esperada pelo sistema Android, ou então, pelos gestos, etc.</li>
 <li>Os requisitos são classificados como - Experiência visual, Funcionalidade, Desempenho e estabilidade, Privacidade e segurança, Google Play e Procedimento de teste</li>
 <li>Cumprir todos os requisitos, ou quase todos, significa que o App possui uma maior qualidade para os usuários.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Entrega e integração contínuas (CI/CD)</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Principais critérios de qualidade do app (<a href="https://developer.android.com/docs/quality-guidelines/core-app-quality?hl=pt-br">https://developer.android.com/docs/quality-guidelines/core-app-quality?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Deliver high performing user experiences (inglês) (<a href="https://developer.android.com/quality">https://developer.android.com/quality</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Primeiros passos com telas grandes (<a href="https://developer.android.com/guide/topics/ui/responsive-layout-overview?hl=pt-br">https://developer.android.com/guide/topics/ui/responsive-layout-overview?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Criar para bilhões (<a href="https://developer.android.com/docs/quality-guidelines/build-for-billions?hl=pt-br">https://developer.android.com/docs/quality-guidelines/build-for-billions?hl=pt-br</a>)</li>
+</ul>
+<h3>Android - Entrega e integração contínuas (CI/CD):</h3>
 <ul><li>CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português &quot;entrega e integração contínuas&quot;. Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.</li>
 <li>Ao implementar novas funcionalidades do App, precisamos garantir que todas as entregas irão funcionar corretamente. Para isso, podemos utilizar técnicas de integração e entrega contínua, dessa forma, agilizamos a evolução do App e tentamos garantir os comportamentos esperados ao mesmo tempo.</li>
 <li>Conhecer alguma das ferramentas para fazer a entrega contínua, como Firebase Test Lab, Jenkins, GitHub Actions, etc</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Otimização do app</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Comece a testar com sistemas de integração contínua (CI) (<a href="https://firebase.google.com/docs/test-lab/android/continuous?hl=pt-br">https://firebase.google.com/docs/test-lab/android/continuous?hl=pt-br</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Continuous Deployment no Android: como usar a Publishing API para automatizar seu release (<a href="https://medium.com/android-dev-br/continuous-deployment-no-android-f42b96ece80d">https://medium.com/android-dev-br/continuous-deployment-no-android-f42b96ece80d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entrega Contínua Na Visão De Um Desenvolvedor Android (<a href="https://www.thiengo.com.br/entrega-continua-na-visao-de-um-desenvolvedor-android">https://www.thiengo.com.br/entrega-continua-na-visao-de-um-desenvolvedor-android</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Philipp Lackner: Aprenda a automatizar tarefas para Android com CI/CD (inglês) (<a href="https://www.youtube.com/watch?v=QLsgkxH-O2I">https://www.youtube.com/watch?v=QLsgkxH-O2I</a>)</li>
+</ul>
+<h3>Android - Otimização do app:</h3>
 <ul><li>Ao gerar um App, existem alguns detalhes de otimização para torná-lo rápido, menor e otimizado, como por exemplo, a remoção de código desnecessário, a ofuscação que reduz o nome dos códigos e a otimização que aplica estratégias mais agressivas para reduzir mais ainda o app.</li>
 <li>Aprender a ativar cada otimização no plugin do Android para o Gradle</li>
 <li>Utilizar o proguard para realizar uma otimização mais agressiva</li>
 <li>Ativar o multidex para que o app seja capaz de obter mais de 64000 métodos e conseguir utilizar as técnicas de otimização</li>
 <li>Conhecer e utilizar ferramentas auxiliarem para aumentar o desempenho do App</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Java - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Reduzir, ofuscar e otimizar o app (<a href="https://developer.android.com/studio/build/shrink-code?hl=pt-br">https://developer.android.com/studio/build/shrink-code?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Ativar multidex para apps com mais de 64.000 métodos (<a href="https://developer.android.com/studio/build/multidex?hl=pt-br">https://developer.android.com/studio/build/multidex?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Guia de desempenho do app (<a href="https://developer.android.com/topic/performance?hl=pt-br">https://developer.android.com/topic/performance?hl=pt-br</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Philipp Lackner: Reduzir, otimizar and tornar seu app mais seguro com R8 &amp; ProGuard (inglês) (<a href="https://www.youtube.com/watch?v=bgpyuuzMlo0">https://www.youtube.com/watch?v=bgpyuuzMlo0</a>)</li>
+</ul>
+<h3>Java - Fundamentos:</h3>
 <ul><li>Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.</li>
 <li>Conhecer os tipos primitivos</li>
 <li>Declarar variáveis, considerando os diferentes tipos</li>
@@ -377,7 +691,31 @@
 <li>Manipular arrays e listas</li>
 <li>Obter dados de uma API</li>
 <li>Criar construtores</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Depuração</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> O que é Java? (<a href="https://aws.amazon.com/pt/what-is/java/">https://aws.amazon.com/pt/what-is/java/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Aprenda Comigo: Java — Parte 1 (<a href="https://medium.com/clebertech/aprenda-comigo-java-parte-1-42ef8fddd8b6">https://medium.com/clebertech/aprenda-comigo-java-parte-1-42ef8fddd8b6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> FernandaDev: Java (Aula 1 - Classes, Objetos, Atributos e Métodos) (<a href="https://www.youtube.com/watch?v=ohmHbdUhAGc">https://www.youtube.com/watch?v=ohmHbdUhAGc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Loiane Groner: Primeiro Programa em Java (<a href="https://youtu.be/mu2ti43cgwc">https://youtu.be/mu2ti43cgwc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Java: o que é, linguagem e um Guia para iniciar na tecnologia (<a href="https://www.alura.com.br/artigos/java">https://www.alura.com.br/artigos/java</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 313 - Ecossistema Java revisitado (<a href="https://www.hipsters.tech/ecossistema-java-revisitado-hipsters-ponto-tech-313/">https://www.hipsters.tech/ecossistema-java-revisitado-hipsters-ponto-tech-313/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como começar a desenvolver em Java? (<a href="https://www.alura.com.br/artigos/comecando-com-o-desenvolvimento-java">https://www.alura.com.br/artigos/comecando-com-o-desenvolvimento-java</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Meu primeiro programa em Java (<a href="https://www.alura.com.br/artigos/meu-primeiro-programa-em-java">https://www.alura.com.br/artigos/meu-primeiro-programa-em-java</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Java: Conheça o método main (<a href="https://www.alura.com.br/artigos/metodo-main-em-java">https://www.alura.com.br/artigos/metodo-main-em-java</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Desenvolvendo aplicações Java com o VS Code (<a href="https://www.alura.com.br/artigos/desenvolvendo-aplicacoes-java-vs-code">https://www.alura.com.br/artigos/desenvolvendo-aplicacoes-java-vs-code</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Diferença entre int e Integer em Java (<a href="https://www.alura.com.br/artigos/diferenca-entre-int-e-integer-em-java">https://www.alura.com.br/artigos/diferenca-entre-int-e-integer-em-java</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como converter String para Date em Java (<a href="https://www.alura.com.br/artigos/como-converter-string-para-date-em-java">https://www.alura.com.br/artigos/como-converter-string-para-date-em-java</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Iterando uma lista em Java (<a href="https://www.alura.com.br/artigos/iterando-uma-lista-em-java">https://www.alura.com.br/artigos/iterando-uma-lista-em-java</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Importando classes no Java (<a href="https://www.alura.com.br/artigos/importando-classes-em-java">https://www.alura.com.br/artigos/importando-classes-em-java</a>)</li>
+<li><code data-kind="site">Site</code> Apostila: Java e Orientação a Objetos (<a href="https://www.alura.com.br/apostila-java-orientacao-objetos">https://www.alura.com.br/apostila-java-orientacao-objetos</a>)</li>
+<li><code data-kind="site">Site</code> Apostila: Java para Desenvolvimento Web (<a href="https://www.alura.com.br/apostila-java-web">https://www.alura.com.br/apostila-java-web</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é o Java? (<a href="https://www.youtube.com/watch?v=90NcVNsKGik">https://www.youtube.com/watch?v=90NcVNsKGik</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Java e Orientação a Objetos (<a href="https://cursos.alura.com.br/formacao-java">https://cursos.alura.com.br/formacao-java</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Java (<a href="https://7daysofcode.io/matricula/java">https://7daysofcode.io/matricula/java</a>)</li>
+</ul>
+<h3>Android - Depuração:</h3>
 <ul><li>Durante o desenvolvimento de um app, é bastante comum a presença de bugs inesperados, como também, a falta de compreensão do motivo do bug. Para agilizar a análise e investigação de problemas ou comportamentos inesperados no app, precisamos aprender a depurar ou debuggar um app Android.</li>
 <li>Saber como executar um app em depuração no Android Studio</li>
 <li>Aprender a ativar a depuração em dispositivos físicos</li>
@@ -386,20 +724,56 @@
 <li>Inspecionar o Layout, recursos do sistema como processador, memória e rede</li>
 <li>Depurar o banco de dados do app e arquivos APKs pré-compilados</li>
 <li>Analisar o build com o analizador de APK</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Segurança e Monitoramento</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Depurar seu app (<a href="https://developer.android.com/studio/debug?hl=pt-br">https://developer.android.com/studio/debug?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Configurar opções do desenvolvedor no dispositivo (<a href="https://developer.android.com/studio/debug/dev-options?hl=pt-br">https://developer.android.com/studio/debug/dev-options?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Escrever e visualizar registros com o Logcat (<a href="https://developer.android.com/studio/debug/am-logcat?hl=pt-br">https://developer.android.com/studio/debug/am-logcat?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Analisar um stack trace (<a href="https://developer.android.com/studio/debug/stacktraces?hl=pt-br">https://developer.android.com/studio/debug/stacktraces?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Depurar o layout com o Layout Inspector e a Validação de layout (<a href="https://developer.android.com/studio/debug/layout-inspector?hl=pt-br">https://developer.android.com/studio/debug/layout-inspector?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Inspecionar o tráfego de rede com o Network Inspector (<a href="https://developer.android.com/studio/debug/network-profiler?hl=pt-br">https://developer.android.com/studio/debug/network-profiler?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Depurar seu banco de dados com o Database Inspector (<a href="https://developer.android.com/studio/inspect/database?hl=pt-br">https://developer.android.com/studio/inspect/database?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Depurar APKs pré-compilados (<a href="https://developer.android.com/studio/debug/apk-debugger?hl=pt-br">https://developer.android.com/studio/debug/apk-debugger?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Capturar e ler relatórios de bugs (<a href="https://developer.android.com/studio/debug/bug-report?hl=pt-br">https://developer.android.com/studio/debug/bug-report?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Analisar seu build com o APK Analyzer (<a href="https://developer.android.com/studio/debug/apk-analyzer?hl=pt-br">https://developer.android.com/studio/debug/apk-analyzer?hl=pt-br</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Pedro Carvalho: Iniciando com Debug no Android Studio (<a href="https://www.youtube.com/watch?v=NoHI04IifOE?hl=pt-br">https://www.youtube.com/watch?v=NoHI04IifOE?hl=pt-br</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é logcat e como visualizar logs no Android (<a href="https://www.alura.com.br/artigos/o-que-e-logcat-como-visualizar-logs-android">https://www.alura.com.br/artigos/o-que-e-logcat-como-visualizar-logs-android</a>)</li>
+</ul>
+<h3>Android - Segurança e Monitoramento:</h3>
 <ul><li>À medida que seu projeto cresce, ele se torna mais visível, atraindo tanto um público maior quanto potenciais invasores. A segurança do aplicativo, desde as fases iniciais de desenvolvimento, é crucial para proteger a integridade do projeto e a privacidade dos usuários. Adotar práticas de segurança robustas e se manter atualizado é essencial para evitar ameaças e garantir uma experiência segura para sua empresa e seu usuário</li>
 <li>Atente-se a entender as necessidades do seu projeto</li>
 <li>Monitoramento é fundamental para compreender como seu aplicativo opera em produção.</li>
 <li>Compreender o fluxo do usuário e identificar possíveis funis ajuda a aprimorar a estratégia do seu projeto e pode ser um fator determinante para o sucesso do aplicativo.</li>
 <li>A capacidade de antecipar e prever cenários de problemas antes que afetem o usuário final é um diferencial crucial.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Implantação (Deployment)</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: Práticas recomendadas para segurança de apps (<a href="https://developer.android.com/topic/security/best-practices?hl=pt-br">https://developer.android.com/topic/security/best-practices?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação: Executar o app de monitoramento (<a href="https://developer.android.com/games/sdk/performance-tuner/unity/run-monitor-app?hl=pt-br">https://developer.android.com/games/sdk/performance-tuner/unity/run-monitor-app?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Github(Rods) - Mobile developer security roadmap (<a href="https://github.com/rviannaoliveira/mobile-developer-security-roadmap">https://github.com/rviannaoliveira/mobile-developer-security-roadmap</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - Ofuscação do seu app - Segurança #02 (<a href="https://youtu.be/yClh_VTadfY?si=dol_zASzwBCAkflv">https://youtu.be/yClh_VTadfY?si=dol_zASzwBCAkflv</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - Malware do seu app - Segurança #03 (<a href="https://youtu.be/Qln4S8lYNXc?si=xUYIyrHSvjrHr0pl">https://youtu.be/Qln4S8lYNXc?si=xUYIyrHSvjrHr0pl</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - Autenticação do seu app - Segurança #04 (<a href="https://youtu.be/gBAI6okcRVQ?si=NzzCiY2saO52Wiur">https://youtu.be/gBAI6okcRVQ?si=NzzCiY2saO52Wiur</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - Análise de código do seu app - Segurança #05 (<a href="https://youtu.be/ESkhqn45FoM?si=R8LmgAVbINpMj8v1">https://youtu.be/ESkhqn45FoM?si=R8LmgAVbINpMj8v1</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - Comunicação de Tráfego do seu app - Segurança #06 (<a href="https://youtu.be/lrCpk7Vckb0?si=4dB78NFRB6lnguGG">https://youtu.be/lrCpk7Vckb0?si=4dB78NFRB6lnguGG</a>)</li>
+<li><code data-kind="site">Site</code> Slides sobre Desenvolvimento Android - by Moro (<a href="https://github.com/gabrielbmoro/slides-about-android-development/blob/main/README_pt-br.md#seguran%C3%A7a-">https://github.com/gabrielbmoro/slides-about-android-development/blob/main/README_pt-br.md#seguran%C3%A7a-</a>)</li>
+</ul>
+<h3>Android - Implantação (Deployment):</h3>
 <ul><li>O deployment ou implantação é o processo de disponibilizar um aplicativo Android para os usuários. Existem várias maneiras de fazer isso, um deles é o uso da Play Store. Ela permite que os desenvolvedores distribuam seus aplicativos para um público global.</li>
 <li>Conhecer os conceitos básicos de deployment de aplicativos Android;</li>
 <li>Criar uma conta de Google Developer;</li>
 <li>Usar a Play Store para distribuir aplicativos Android para um público global.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Publicar o app (<a href="https://developer.android.com/studio/publish?hl=pt-br">https://developer.android.com/studio/publish?hl=pt-br</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é necessário para publicar seu aplicativo no Google Play e na App Store (<a href="https://dev.to/altencirsilvajr/o-que-e-necessario-para-publicar-seu-aplicativo-no-google-play-e-na-app-store-em-2023-le6">https://dev.to/altencirsilvajr/o-que-e-necessario-para-publicar-seu-aplicativo-no-google-play-e-na-app-store-em-2023-le6</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Crie e publique um aplicativo Android na Google Play Store (<a href="https://cynoteck.com/pt/blog-post/build-and-publish-an-android-app-on-the-google-play-store/">https://cynoteck.com/pt/blog-post/build-and-publish-an-android-app-on-the-google-play-store/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Deivid Rothen: Como Publicar um Aplicativo Android na Play Store (<a href="https://www.youtube.com/watch?v=Xk28gXHQ9Bc&ab_channel=DeividRothen">https://www.youtube.com/watch?v=Xk28gXHQ9Bc&amp;ab_channel=DeividRothen</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Stack Mobile: Como Publicar um Aplicativo Android na Loja da Google Play - Guia Absolutamente Completo (<a href="https://www.youtube.com/watch?v=Xk28gXHQ9Bc&ab_channel=DeividRothen">https://www.youtube.com/watch?v=Xk28gXHQ9Bc&amp;ab_channel=DeividRothen</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Infraestrutura e boas práticas</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+<h3>Git e GitHub - Fundamentos:</h3>
 <ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
 <li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
 <li>Criar um repositório</li>
@@ -408,47 +782,230 @@
 <li>Reverter um commit</li>
 <li>Criar branches e pul requests</li>
 <li>Lidar com merge e conflitos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> GitHub Documentação (<a href="https://docs.github.com/pt">https://docs.github.com/pt</a>)</li>
+<li><code data-kind="site">Site</code> GitHub Pages Documentação (<a href="https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="site">Site</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="site">Site</code> Dangit, Git!?! (<a href="https://dangitgit.com/">https://dangitgit.com/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O que é Git e GitHub? - definição e conceitos importantes 1/2 (<a href="https://www.youtube.com/watch?v=DqTITcMq68k">https://www.youtube.com/watch?v=DqTITcMq68k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: Como usar Git e GitHub na prática! - desde o primeiro commit até o pull request! 2/2 (<a href="https://www.youtube.com/watch?v=UBAX-13g8OM">https://www.youtube.com/watch?v=UBAX-13g8OM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Git: Entendendo de vez como funciona do melhor e mais visual jeito possível (<a href="https://www.youtube.com/watch?v=4-tfJ-ZyA0Q">https://www.youtube.com/watch?v=4-tfJ-ZyA0Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como colocar seu projeto no ar DE GRAÇA via GitHub! | Hospedagem com GitHub Pages (<a href="https://www.youtube.com/watch?v=BU-w2_Aae54">https://www.youtube.com/watch?v=BU-w2_Aae54</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - 5 coisas que você precisa saber sobre Git (<a href="https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU">https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - README de Sucesso: Transforme seu Projeto ou seu Perfil em Destaque no GitHub (<a href="https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A">https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Git e Github: O que são, Como Configurar e Primeiros Passos (<a href="https://www.alura.com.br/artigos/o-que-e-git-github">https://www.alura.com.br/artigos/o-que-e-git-github</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Mais git com o hub: a linha de comando do Github (<a href="https://www.alura.com.br/artigos/github-na-linha-de-comando">https://www.alura.com.br/artigos/github-na-linha-de-comando</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 184: Guia do Iniciante em Github (<a href="https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378">https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378</a>)</li>
+<li><code data-kind="site">Site</code> GitHub: diferentes maneiras de compartilhar seu projeto (<a href="https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002">https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002</a>)</li>
+<li><code data-kind="site">Site</code> Websérie: Git e Github para Sobrevivência (<a href="https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia">https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 109: Git e Github (<a href="https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474">https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Git e Github para Sobrevivência 01: Como o Git funciona? (<a href="https://www.youtube.com/watch?v=BAmvmaKQklQ">https://www.youtube.com/watch?v=BAmvmaKQklQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: compartilhando e colaborando em projetos (<a href="https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos">https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: dominando controle de versão de código (<a href="https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo">https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: GitHub (<a href="https://7daysofcode.io/matricula/github">https://7daysofcode.io/matricula/github</a>)</li>
+</ul>
+<h3>HTTP - Fundamentos:</h3>
 <ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
 <li>Entender a diferença dos verbos HTTP</li>
 <li>Testar os requests e ver os status codes no navegador</li>
 <li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
 <li>Baixar uma imagem com WGET</li>
 <li>Fazer um post</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Uma visão geral do HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Métodos de requisição HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Cats (<a href="https://http.cat/">https://http.cat/</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Dogs (<a href="https://http.dog/">https://http.dog/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fabiano Gabardo Lemos: Requisições HTTP - GET, POST, PUT, PATCH DELETE (<a href="https://www.youtube.com/watch?v=kncOJZrnkTg">https://www.youtube.com/watch?v=kncOJZrnkTg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programador a Bordo: Protocolo HTTP e TCP/IP - Introdução (<a href="https://www.youtube.com/watch?v=V4XZ81vRGtM">https://www.youtube.com/watch?v=V4XZ81vRGtM</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> HTTP: Desmistificando o protocolo da Web (<a href="https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1">https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Métodos de requisição do HTTP (<a href="https://www.alura.com.br/artigos/metodos-de-requisicao-do-http">https://www.alura.com.br/artigos/metodos-de-requisicao-do-http</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual é a diferença entre HTTP e HTTPS? (<a href="https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https">https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: HTTP/2: magia com o novo protocolo - Hipsters 13 (<a href="https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573">https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso HTTP: Entendendo a web por baixo dos panos (<a href="https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos">https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos</a>)</li>
+</ul>
+<h3>JSON:</h3>
 <ul><li>JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.</li>
 <li>Criar um objeto</li>
 <li>Transformar um objeto em uma string</li>
 <li>Transformar uma string em objeto</li>
 <li>Manipular um objeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Patterns</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: JSON (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Trabalhando com JSON (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao JSON (<a href="https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff">https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: O que é JSON e como criar um objeto (<a href="https://www.youtube.com/watch?v=oCY5YEEjlwE">https://www.youtube.com/watch?v=oCY5YEEjlwE</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é JSON? (<a href="https://www.alura.com.br/artigos/o-que-e-json">https://www.alura.com.br/artigos/o-que-e-json</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso MySQL e JSON: persistindo JSON de maneira eficiente (<a href="https://www.alura.com.br/curso-online-mysql-json-persistencia">https://www.alura.com.br/curso-online-mysql-json-persistencia</a>)</li>
+</ul>
+<h3>Design Patterns:</h3>
 <ul><li>Na engenharia de software, um &quot;padrão de projeto&quot; (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.</li>
 <li>Conhecer e aplicar os principais Design Patterns</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design Patterns — O que são e quais os benefícios? (<a href="https://djesusnet.medium.com/design-patterns-gof-o-que-s%C3%A3o-e-quais-os-benef%C3%ADcios-9cd0cfdd6ebf">https://djesusnet.medium.com/design-patterns-gof-o-que-s%C3%A3o-e-quais-os-benef%C3%ADcios-9cd0cfdd6ebf</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Patterns (<a href="https://medium.com/xp-inc/design-patterns-727494af001d">https://medium.com/xp-inc/design-patterns-727494af001d</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: O que são design patterns (padrões de projetos) e para que servem? (<a href="https://www.YOUTUBE.com/watch?v=KNWd1aWtsMw">https://www.YOUTUBE.com/watch?v=KNWd1aWtsMw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> RinaldoDev: Design Patterns - o que são? Por que aprender a utilizar? (<a href="https://www.YOUTUBE.com/watch?v=AWOf6Wo6gtg">https://www.YOUTUBE.com/watch?v=AWOf6Wo6gtg</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Design Patterns – Hipsters Ponto Tech #347 (<a href="https://www.hipsters.tech/techguide-design-patterns-hipsters-ponto-tech-347/">https://www.hipsters.tech/techguide-design-patterns-hipsters-ponto-tech-347/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design patterns: Breve introdução aos padrões de projeto (<a href="https://www.alura.com.br/artigos/design-patterns-introducao-padroes-projeto">https://www.alura.com.br/artigos/design-patterns-introducao-padroes-projeto</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Design Patterns - Hipsters 206 (<a href="https://www.alura.com.br/podcast/design-patterns-hipsters-206-a345">https://www.alura.com.br/podcast/design-patterns-hipsters-206-a345</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns em Java I: boas práticas de programação (<a href="https://www.alura.com.br/curso-online-introducao-design-patterns-java">https://www.alura.com.br/curso-online-introducao-design-patterns-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns C# I: boas práticas de programação (<a href="https://www.alura.com.br/curso-online-design-patterns-dotnet">https://www.alura.com.br/curso-online-design-patterns-dotnet</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns em PHP: padrões comportamental (<a href="https://www.alura.com.br/curso-online-php-design-pattern-comportamental">https://www.alura.com.br/curso-online-php-design-pattern-comportamental</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns em PHP: padrões estruturais (<a href="https://www.alura.com.br/curso-online-php-design-pattern-estrutural">https://www.alura.com.br/curso-online-php-design-pattern-estrutural</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns em PHP: padrões criacionais (<a href="https://www.alura.com.br/curso-online-php-design-pattern-criacional">https://www.alura.com.br/curso-online-php-design-pattern-criacional</a>)</li>
+</ul>
+<h3>Linha de comando - Fundamentos:</h3>
 <ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
 <li>Conhecer os principais comandos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Microsoft Docs: Como usar argumentos de linha de comando para terminal do Windows (<a href="https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows">https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estevan Maito: Linha de comando básica - 8 comandos mais frequentes - WINDOWS e LINUX (<a href="https://www.youtube.com/watch?v=rKBqXJZocYk">https://www.youtube.com/watch?v=rKBqXJZocYk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ninja do Linux: Comandos básicos da linha de comando do Linux (<a href="https://www.youtube.com/watch?v=rs_yshFGu8E">https://www.youtube.com/watch?v=rs_yshFGu8E</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> CMD: dicas para trabalhar no prompt do Windows (<a href="https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows">https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como configurar variáveis de ambiente no Windows, Linux e macOS (<a href="https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos">https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd">https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/curso-online-prompt">https://www.alura.com.br/curso-online-prompt</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Terminal: aprenda comandos para executar tarefas (<a href="https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas">https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas</a>)</li>
+</ul>
+<h3>Cloud - Fundamentos:</h3>
 <ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
 <li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
 <li>Conhecer os maiores provedores de cloud</li>
 <li>Especializar-se em algum provedor</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SOLID</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Computação em nuvem (<a href="https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9">https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é cloud? (<a href="https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6">https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabs Ferreira: Por que investir e estudar cloud? (<a href="https://www.youtube.com/watch?v=Z45BTNeZ1l0">https://www.youtube.com/watch?v=Z45BTNeZ1l0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Andre Iacono: O que é MICROSOFT AZURE? Qual Certificação começar em 2022? (<a href="https://www.youtube.com/watch?v=f-oVzkvMwnE">https://www.youtube.com/watch?v=f-oVzkvMwnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS: O que é a AWS? (<a href="https://www.youtube.com/watch?v=8JI9wQ8sUdQ">https://www.youtube.com/watch?v=8JI9wQ8sUdQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Google Cloud e por que aprender? (<a href="https://www.youtube.com/shorts/Lzq3f1DHWcI">https://www.youtube.com/shorts/Lzq3f1DHWcI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS vs Google Cloud vs Azure: o que cada um tem de melhor? (<a href="https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7">https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Azure (A plataforma Cloud da Microsoft) (<a href="https://www.youtube.com/watch?v=YgE-sZaCuJ0">https://www.youtube.com/watch?v=YgE-sZaCuJ0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mundo da Cloud: AWS do Zero ao Expert (<a href="https://www.youtube.com/watch?v=HiBCv9DolxI&list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz">https://www.youtube.com/watch?v=HiBCv9DolxI&amp;list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Fundamentos Cloud – Hipsters Ponto Tech #348 (<a href="https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/">https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Uma jornada Para o Cloud - Hipsters Deep Dive 005 (<a href="https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100">https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Histórias do Cloud - Hipsters 04 (<a href="https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582">https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Heroku, Vercel e outras opções de cloud como plataforma (<a href="https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma">https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações (<a href="https://www.alura.com.br/artigos/aws">https://www.alura.com.br/artigos/aws</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Terraform: criando máquinas na Azure (<a href="https://www.alura.com.br/artigos/terraform-maquinas-na-azure">https://www.alura.com.br/artigos/terraform-maquinas-na-azure</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é cloud? (<a href="https://www.YOUTUBE.com/watch?v=wev9fMrg-TU">https://www.YOUTUBE.com/watch?v=wev9fMrg-TU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: AWS, Google Cloud e Azure: Por onde começar? | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&t=300s">https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Certificação em Cloud: Azure, AWS, Google | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&t=290s">https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&amp;t=290s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Amazon Web Services (<a href="https://cursos.alura.com.br/formacao-amazon-web-services">https://cursos.alura.com.br/formacao-amazon-web-services</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AWS Certified Cloud Practitioner (<a href="https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner">https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Containers com AWS ECS e EKS (<a href="https://cursos.alura.com.br/formacao-containers-aws">https://cursos.alura.com.br/formacao-containers-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Cloud Platform (<a href="https://cursos.alura.com.br/formacao-google-cloud">https://cursos.alura.com.br/formacao-google-cloud</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Azure (<a href="https://cursos.alura.com.br/formacao-conhecendo-azure">https://cursos.alura.com.br/formacao-conhecendo-azure</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AZ-900: Microsoft Azure Fundamentals (<a href="https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals">https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals</a>)</li>
+</ul>
+<h3>SOLID:</h3>
 <ul><li>O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Architecture</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Princípios de S.O.L.I.D em C# — Guia prático (<a href="https://medium.com/beelabacademy/princ%C3%ADpios-de-s-o-l-i-d-em-c-guia-pr%C3%A1tico-cbb1e6584284">https://medium.com/beelabacademy/princ%C3%ADpios-de-s-o-l-i-d-em-c-guia-pr%C3%A1tico-cbb1e6584284</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Filipe Deschamps: SOLID fica fácil com Essas Ilustrações (<a href="https://www.youtube.com/watch?v=6SfrO3D4dHM">https://www.youtube.com/watch?v=6SfrO3D4dHM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Central dotNET: Princípios de SOLID com C# (<a href="https://www.youtube.com/watch?v=iU4BMUcjg8g">https://www.youtube.com/watch?v=iU4BMUcjg8g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Felipe Pinheiro - Tech: Princípios SOLID, o que é DIP? (<a href="https://www.youtube.com/watch?v=q0BGgQJcp7w">https://www.youtube.com/watch?v=q0BGgQJcp7w</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dev Eficiente: SOLID - Uma reflexão sobre o Princípio da responsabilidade única (<a href="https://www.youtube.com/watch?v=GGe0o_v5vjM">https://www.youtube.com/watch?v=GGe0o_v5vjM</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SOLID: o que é e quais os 5 princípios da Programação Orientada a Objetos (POO) (<a href="https://www.alura.com.br/artigos/solid">https://www.alura.com.br/artigos/solid</a>)</li>
+<li><code data-kind="podcast">Podcast</code> SOLID: Código bom e bonito - Hipsters Ponto Tech 219 (<a href="https://www.alura.com.br/podcast/hipsterstech-solid-codigo-bom-e-bonito-hipsters-ponto-tech-219-a649">https://www.alura.com.br/podcast/hipsterstech-solid-codigo-bom-e-bonito-hipsters-ponto-tech-219-a649</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Clean Code e Solid (<a href="https://www.youtube.com/watch?v=XV9B4LX_re8">https://www.youtube.com/watch?v=XV9B4LX_re8</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso C#: aplique princípios SOLID (<a href="https://cursos.alura.com.br/course/csharp-aplique-principios-solid">https://cursos.alura.com.br/course/csharp-aplique-principios-solid</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Boas práticas de programação: melhore o código de uma API Java (<a href="https://cursos.alura.com.br/course/boas-praticas-programacao-melhore-codigo-api-java">https://cursos.alura.com.br/course/boas-praticas-programacao-melhore-codigo-api-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso SOLID com PHP: princípios da programação orientada a objetos (<a href="https://cursos.alura.com.br/course/solid-php-principios-orientacao-a-objetos">https://cursos.alura.com.br/course/solid-php-principios-orientacao-a-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso iOS: escrevendo código de qualidade com SOLID em Swift (<a href="https://www.alura.com.br/curso-online-ios-escrevendo-codigo-qualidade-solid-swift">https://www.alura.com.br/curso-online-ios-escrevendo-codigo-qualidade-solid-swift</a>)</li>
+<li><code data-kind="curso">Curso</code> SOLID com TypeScript: aplicando boas práticas em orientação a objetos (<a href="https://www.alura.com.br/curso-online-solid-typescript-boas-praticas-orientacao-objetos">https://www.alura.com.br/curso-online-solid-typescript-boas-praticas-orientacao-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Boas práticas em C# (<a href="https://cursos.alura.com.br/formacao-boas-praticas-c-sharp">https://cursos.alura.com.br/formacao-boas-praticas-c-sharp</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Boas práticas em PHP (<a href="https://cursos.alura.com.br/formacao-boas-praticas-php">https://cursos.alura.com.br/formacao-boas-praticas-php</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Boas práticas em Java (<a href="https://cursos.alura.com.br/formacao-boas-praticas-java">https://cursos.alura.com.br/formacao-boas-praticas-java</a>)</li>
+<li><code data-kind="site">Site</code> Livro Casa do Código: Desbravando SOLID - Práticas avançadas para códigos de qualidade em Java moderno (<a href="https://www.casadocodigo.com.br/products/livro-desbravando-solid">https://www.casadocodigo.com.br/products/livro-desbravando-solid</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods): SOLID e o &#39;D&#39; do Principio da Inversão de Dependência usando a Injeção de Dependência para ajudar (<a href="https://youtu.be/xpcCDCH5k4Y">https://youtu.be/xpcCDCH5k4Y</a>)</li>
+</ul>
+<h3>Clean Architecture:</h3>
 <ul><li>A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Firebase</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Descomplicando a Clean Architecture (<a href="https://medium.com/luizalabs/descomplicando-a-clean-architecture-cf4dfc4a1ac6">https://medium.com/luizalabs/descomplicando-a-clean-architecture-cf4dfc4a1ac6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como DEV ser!: Entenda CLEAN ARCHITECTURE de uma vez por todas! (<a href="https://www.youtube.com/watch?v=HynTfTli4mw">https://www.youtube.com/watch?v=HynTfTli4mw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Full Cycle: O que é Clean Architecture (<a href="https://www.youtube.com/watch?v=dQys-mnOtQg">https://www.youtube.com/watch?v=dQys-mnOtQg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - Simplificando o Clean Architecture +MVVM na sua aplicação mobile - Guia Completo (<a href="https://youtu.be/8ehlZfyN1S0?si=l7-I5I4zsnYLlSjD">https://youtu.be/8ehlZfyN1S0?si=l7-I5I4zsnYLlSjD</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="site">Site</code> Clean Architecture (Arquitetura Limpa) - O que é? (<a href="https://cursos.alura.com.br/extra/alura-mais/clean-architecture-arquitetura-limpa-o-que-e--c204">https://cursos.alura.com.br/extra/alura-mais/clean-architecture-arquitetura-limpa-o-que-e--c204</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Clean Architeture - Hipsters Ponto Tech 254 (<a href="https://www.hipsters.tech/clean-architeture-hipsters-ponto-tech-254/">https://www.hipsters.tech/clean-architeture-hipsters-ponto-tech-254/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Arquitetura de sistemas (<a href="https://www.youtube.com/watch?v=oedWxgAZc2A">https://www.youtube.com/watch?v=oedWxgAZc2A</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Java e Clean Architecture: descomplicando arquitetura de software (<a href="https://www.alura.com.br/conteudo/java-clean-architecture">https://www.alura.com.br/conteudo/java-clean-architecture</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Java e Clean Architecture: descomplicando arquitetura de software (<a href="https://www.alura.com.br/curso-online-java-clean-architecture">https://www.alura.com.br/curso-online-java-clean-architecture</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso PHP e Clean Architecture: descomplicando arquitetura de software (<a href="https://cursos.alura.com.br/course/php-introducao-clean-achitecture">https://cursos.alura.com.br/course/php-introducao-clean-achitecture</a>)</li>
+</ul>
+<h3>Firebase:</h3>
 <ul><li>O Firebase é uma plataforma de desenvolvimento de aplicativos Backend-as-a-Service (BaaS) que fornece serviços de backend hospedados, tais como banco de dados em tempo real, armazenamento em nuvem, autenticação, relatórios de falhas, aprendizado de máquina, configuração remota e hospedagem para seus arquivos estáticos.</li>
 <li>Entender como Instalar o Firebase</li>
 <li>Conhecer a documentação do Firebase</li>
 <li>Conhecer as ferramentas do Firebase disponíveis</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Produtos do Firebase | Firebase (<a href="https://firebase.google.com/products-build?hl=pt-br">https://firebase.google.com/products-build?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Casos de Uso do Firebase | Firebase (<a href="https://firebase.google.com/use-cases?hl=pt-br">https://firebase.google.com/use-cases?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Adicionando o Firebase ao App Flutter | Firebase Docs (<a href="https://firebase.google.com/docs/flutter/setup?platform=android">https://firebase.google.com/docs/flutter/setup?platform=android</a>)</li>
+<li><code data-kind="site">Site</code> Adicionando o Firebase ao seu projeto Android | Firebase Docs (<a href="https://firebase.google.com/docs/android/setup">https://firebase.google.com/docs/android/setup</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Firebase: Começando no Firebase com Flutter - Firecasts (inglês) (<a href="https://www.youtube.com/watch?v=EXp0gq9kGxI&ab_channel=Firebase">https://www.youtube.com/watch?v=EXp0gq9kGxI&amp;ab_channel=Firebase</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Prof. Diego Antunes: Instalação do Firebase no Flutter em 2022 (FlutterFire e Realtime Database) (<a href="https://www.youtube.com/watch?v=OjdGSoDntZQ&ab_channel=Prof.DiegoAntunes">https://www.youtube.com/watch?v=OjdGSoDntZQ&amp;ab_channel=Prof.DiegoAntunes</a>)</li>
+<li><code data-kind="site">Site</code> Precificação do Firebase | Firebase (<a href="https://firebase.google.com/pricing?hl=pt-br">https://firebase.google.com/pricing?hl=pt-br</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Integrando App Android com o Firebase Cloud Messaging (<a href="https://www.alura.com.br/artigos/integrando-app-android-com-o-firebase-cloud-messaging">https://www.alura.com.br/artigos/integrando-app-android-com-o-firebase-cloud-messaging</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tratando notificações recebidas do Firebase no Android (<a href="https://www.alura.com.br/artigos/tratando-notificacoes-recebidas-do-firebase-no-android">https://www.alura.com.br/artigos/tratando-notificacoes-recebidas-do-firebase-no-android</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Autenticando com a conta Google no Android utilizando o Firebase Authentication (<a href="https://www.alura.com.br/artigos/autenticando-no-google-com-firebase-authentication">https://www.alura.com.br/artigos/autenticando-no-google-com-firebase-authentication</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Flutter: Tratamento de exceções com Firebase Crashlytics (<a href="https://www.alura.com.br/artigos/tratamento-de-execucoes-com-firebase-crashlytics">https://www.alura.com.br/artigos/tratamento-de-execucoes-com-firebase-crashlytics</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Primeiros passos em Cloud Firestore no Flutter (Parte 1) | #AluraMais (<a href="https://youtu.be/6jsR5CXhHOs">https://youtu.be/6jsR5CXhHOs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Primeiros passos em Cloud Firestore no Flutter (Parte 2) | #AluraMais (<a href="https://youtu.be/KWWTTY6gSw4">https://youtu.be/KWWTTY6gSw4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Registro de exceções no Firebase Crashlytics | #AluraMais (<a href="https://www.youtube.com/watch?v=L0LjsG_eNyY&ab_channel=AluraCursosOnline">https://www.youtube.com/watch?v=L0LjsG_eNyY&amp;ab_channel=AluraCursosOnline</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Flutter: Push Notifications com Firebase Cloud Messaging (<a href="https://www.alura.com.br/curso-online-flutter-push-notifications-firebase-cloud-messaging">https://www.alura.com.br/curso-online-flutter-push-notifications-firebase-cloud-messaging</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Firebase com Android (<a href="https://www.alura.com.br/formacao-firebase-android">https://www.alura.com.br/formacao-firebase-android</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: UX &amp; Design</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Material Design</strong>:</li>
+<h3>Material Design:</h3>
 <ul><li>Material Design é um sistema de design de código aberto do Google, onde ele te passa componentes com determinados padrões de uso e certa personalização para seus apps.</li>
 <li>Fundações de experiência de usuário</li>
 <li>Personalizar seus componentes</li>
 <li>Layouts adaptativos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design System</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Material 3 - Comece aqui (inglês) (<a href="https://m3.material.io/get-started">https://m3.material.io/get-started</a>)</li>
+<li><code data-kind="site">Site</code> Fundações do Material 3 (inglês) (<a href="https://m3.material.io/foundations">https://m3.material.io/foundations</a>)</li>
+<li><code data-kind="site">Site</code> Material 3 - Estilos (inglês) (<a href="https://m3.material.io/styles">https://m3.material.io/styles</a>)</li>
+<li><code data-kind="site">Site</code> Material 3 - Componentes (inglês) (<a href="https://m3.material.io/components">https://m3.material.io/components</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como usar as novas cores dinâmicas no Material Design 3 do Android (<a href="https://www.alura.com.br/artigos/usar-novas-cores-dinamicas-material-design-3-android">https://www.alura.com.br/artigos/usar-novas-cores-dinamicas-material-design-3-android</a>)</li>
+</ul>
+<h3>Design System:</h3>
 <ul><li>Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.</li>
 <li>Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto</li>
 <li>Design tokens</li>
@@ -456,23 +1013,109 @@
 <li>Construção de componentes</li>
 <li>Microinterações</li>
 <li>Documentação</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Sistemas de cores</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design System: o que é e quais os benefícios? (<a href="https://medium.com/ipnet-growth-partner/design-system-o-que-e-438773dd811">https://medium.com/ipnet-growth-partner/design-system-o-que-e-438773dd811</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Afinal, o que é Design System? (<a href="https://brasil.uxdesign.cc/afinal-o-que-%C3%A9-design-system-448c257b0021">https://brasil.uxdesign.cc/afinal-o-que-%C3%A9-design-system-448c257b0021</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que são Design Tokens (<a href="https://medium.com/pretux/design-tokens-112b2ee11ddf">https://medium.com/pretux/design-tokens-112b2ee11ddf</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Caio Gonzalez: O que é Design System? / Guia para começar o seu próprio Design System (<a href="https://www.youtube.com/watch?v=ajqbXpFVaAw">https://www.youtube.com/watch?v=ajqbXpFVaAw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Design System? (<a href="https://www.alura.com.br/artigos/o-que-e-design-system">https://www.alura.com.br/artigos/o-que-e-design-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Systems: exemplos práticos (<a href="https://www.alura.com.br/artigos/design-systems-exemplos-praticos">https://www.alura.com.br/artigos/design-systems-exemplos-praticos</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design System &amp; Style Guide (<a href="https://www.youtube.com/watch?v=rSLvpOqC5wQ">https://www.youtube.com/watch?v=rSLvpOqC5wQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design Systems (com Charles Assunção) (<a href="https://www.youtube.com/watch?v=MLGFctEtmYQ">https://www.youtube.com/watch?v=MLGFctEtmYQ</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Design Systems - Hipsters 170 (<a href="https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399">https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: Design System – Layers ponto tech 36 (<a href="https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056">https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: definindo estilos e tokens (<a href="https://cursos.alura.com.br/course/design-system-definindo-estilos-tokens">https://cursos.alura.com.br/course/design-system-definindo-estilos-tokens</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: projetando e construindo componentes (<a href="https://cursos.alura.com.br/course/design-system-projetando-construindo-componentes">https://cursos.alura.com.br/course/design-system-projetando-construindo-componentes</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: documentando um design system (<a href="https://cursos.alura.com.br/course/design-system-documentando-design-system">https://cursos.alura.com.br/course/design-system-documentando-design-system</a>)</li>
+<li><code data-kind="desafio">Desafio</code> Experimente o que é ser um(a) profissional de Ux (<a href="https://www.alura.com.br/challenges/ux-4">https://www.alura.com.br/challenges/ux-4</a>)</li>
+</ul>
+<h3>Sistemas de cores:</h3>
 <ul><li>Definir uma paleta de cores que faça sentido para determinada interface</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Como usar fontes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Cores em UI: Um Guia Rápido Para Usar em Seus Projetos (<a href="https://medium.com/aela/cores-em-ui-um-guia-r%C3%A1pido-para-usar-em-seus-projetos-31ccffe3e16b">https://medium.com/aela/cores-em-ui-um-guia-r%C3%A1pido-para-usar-em-seus-projetos-31ccffe3e16b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A Psicologia das cores e sua relação com o UX Design (<a href="https://brasil.uxdesign.cc/a-psicologia-das-cores-e-sua-rela%C3%A7%C3%A3o-com-o-ux-design-af02460639cd">https://brasil.uxdesign.cc/a-psicologia-das-cores-e-sua-rela%C3%A7%C3%A3o-com-o-ux-design-af02460639cd</a>)</li>
+<li><code data-kind="youtube">YouTube</code> kacio.design: Aplicação de Cores - Princípios do UI (<a href="https://www.youtube.com/watch?v=C_VhzEyqT6U">https://www.youtube.com/watch?v=C_VhzEyqT6U</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso Cores para Designers: escolhendo e trabalhando com cores em um projeto (<a href="https://www.alura.com.br/curso-online-cores-para-seu-projeto">https://www.alura.com.br/curso-online-cores-para-seu-projeto</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Cores: sistemas básicos e paletas (<a href="https://www.alura.com.br/conteudo/fundamentos-da-cor">https://www.alura.com.br/conteudo/fundamentos-da-cor</a>)</li>
+<li><code data-kind="curso">Curso</code> Cores: sistemas básicos e paletas (<a href="https://www.alura.com.br/curso-online-fundamentos-da-cor">https://www.alura.com.br/curso-online-fundamentos-da-cor</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design editorial: criação de materiais gráficos (<a href="https://www.alura.com.br/curso-online-design-editorial">https://www.alura.com.br/curso-online-design-editorial</a>)</li>
+</ul>
+<h3>Como usar fontes:</h3>
 <ul><li>Escolher a fonte mais adequada para determinado projeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Responsivo</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Você sabe usar tipografia em UI Design? (<a href="https://medium.com/ui-lab-school/voc%C3%AA-sabe-usar-tipografia-em-ui-design-9ce4ccdbab43">https://medium.com/ui-lab-school/voc%C3%AA-sabe-usar-tipografia-em-ui-design-9ce4ccdbab43</a>)</li>
+<li><code data-kind="artigo">Artigo</code> As 20 fontes mais usadas pelos designers gráficos (<a href="https://apenasumchico.medium.com/as-20-fontes-mais-populares-de-todos-os-tempos-38a6c121dfb">https://apenasumchico.medium.com/as-20-fontes-mais-populares-de-todos-os-tempos-38a6c121dfb</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Usando ícones SVG como fontes com o IcoMoon (<a href="https://dev.to/sucodelarangela/usando-icones-svg-como-fontes-com-o-icomoon-563e">https://dev.to/sucodelarangela/usando-icones-svg-como-fontes-com-o-icomoon-563e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Nadine Fronza: Como escolher a melhor fonte para seu projeto (<a href="https://www.youtube.com/watch?v=MSKPUtIdadI">https://www.youtube.com/watch?v=MSKPUtIdadI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Thiago Abreu: Como Escolher Fontes para um Trabalho de Design (<a href="https://www.youtube.com/watch?v=l-TrNbZi-aU">https://www.youtube.com/watch?v=l-TrNbZi-aU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 10 tipografias gratuitas para um design incrível (<a href="https://www.alura.com.br/artigos/10-tipografias-gratuitas-design-incrivel">https://www.alura.com.br/artigos/10-tipografias-gratuitas-design-incrivel</a>)</li>
+<li><code data-kind="site">Site</code> Tipografia para Web (<a href="https://tipografiaparaweb.netlify.app/">https://tipografiaparaweb.netlify.app/</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Tipografia: conhecendo o que há por trás dos tipos (<a href="https://www.alura.com.br/conteudo/tipografia-conceito">https://www.alura.com.br/conteudo/tipografia-conceito</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Tipografia: conhecendo o que há por trás dos tipos (<a href="https://www.alura.com.br/curso-online-tipografia-conceito">https://www.alura.com.br/curso-online-tipografia-conceito</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design editorial: criação de materiais gráficos (<a href="https://www.alura.com.br/curso-online-design-editorial">https://www.alura.com.br/curso-online-design-editorial</a>)</li>
+</ul>
+<h3>Design Responsivo:</h3>
 <ul><li>Ajustar suas páginas para o tamanho da tela do usuário</li>
 <li>Media queries</li>
 <li>Conhecer o conceito de Mobile first</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Android - Acessibilidade</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design responsivo para leigos (<a href="https://medium.com/neworder/design-responsivo-para-leigos-888c9d0dfdaf">https://medium.com/neworder/design-responsivo-para-leigos-888c9d0dfdaf</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo as diferenças entre design responsivo, adaptativo e mobile-first (<a href="https://medium.com/@fnandaleite/entendendo-as-diferen%C3%A7as-entre-design-responsivo-adaptativo-e-mobile-first-ea3c61fc9181">https://medium.com/@fnandaleite/entendendo-as-diferen%C3%A7as-entre-design-responsivo-adaptativo-e-mobile-first-ea3c61fc9181</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Web Design Responsivo — O Que É e Como Usá-lo (<a href="https://medium.com/@carlosverza/web-design-responsivo-o-que-%C3%A9-e-como-us%C3%A1-lo-12477b168fc7">https://medium.com/@carlosverza/web-design-responsivo-o-que-%C3%A9-e-como-us%C3%A1-lo-12477b168fc7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> MobGeek: O que é Design Responsivo? (<a href="https://www.youtube.com/watch?v=WXfYtneJZzI">https://www.youtube.com/watch?v=WXfYtneJZzI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ralf Lima: Mobile First e Desktop First (<a href="https://www.youtube.com/watch?v=oqggJTC3_vA">https://www.youtube.com/watch?v=oqggJTC3_vA</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como fazer Grids e a Responsividade na Web (<a href="https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web">https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Layouts Responsivos: trabalhando com layouts mobile (<a href="https://www.alura.com.br/curso-online-mobile-first-layouts-responsivos">https://www.alura.com.br/curso-online-mobile-first-layouts-responsivos</a>)</li>
+<li><code data-kind="curso">Curso</code> HTML e CSS: responsividade com mobile-first (<a href="https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first">https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Responsividade (<a href="https://7daysofcode.io/matricula/responsividade">https://7daysofcode.io/matricula/responsividade</a>)</li>
+</ul>
+<h3>Android - Acessibilidade:</h3>
 <ul><li>Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e aplicativos sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas, incluindo pessoas com necessidades de acessibilidades, como pessoas com problemas de visão, daltonismo, dificuldades auditivas, comprometimento motor, deficiência cognitivas e muitos outros tipos de deficiência.</li>
 <li>Aumentar a visibilidade do texto</li>
 <li>Usar controles grandes e simples</li>
 <li>Descrever cada elemento de IU</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Figma - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Android: Tornar os apps mais acessíveis (<a href="https://developer.android.com/guide/topics/ui/accessibility/apps?hl=pt-br#text-visibility">https://developer.android.com/guide/topics/ui/accessibility/apps?hl=pt-br#text-visibility</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Princípios para melhorar a acessibilidade do app (<a href="https://developer.android.com/guide/topics/ui/accessibility/principles?hl=pt-br">https://developer.android.com/guide/topics/ui/accessibility/principles?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Android: Testar a acessibilidade do seu app (<a href="https://developer.android.com/guide/topics/ui/accessibility/testing?hl=pt-br">https://developer.android.com/guide/topics/ui/accessibility/testing?hl=pt-br</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Chico Rasia: View customizada no Android com Kotlin, parte 3: Acessibilidade com Talkback (<a href="https://www.youtube.com/watch?v=4nJH3djiVuk&ab_channel=ChicoRasia">https://www.youtube.com/watch?v=4nJH3djiVuk&amp;ab_channel=ChicoRasia</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV: Acessibilidade usando JetPack COMPOSE com Gabriel Moro (<a href="https://youtu.be/JtHkmzZDAqo?si=h2qSM-2uCya9icSz">https://youtu.be/JtHkmzZDAqo?si=h2qSM-2uCya9icSz</a>)</li>
+<li><code data-kind="site">Site</code> Slides sobre Desenvolvimento Android - by Moro (<a href="https://github.com/gabrielbmoro/slides-about-android-development/blob/main/README_pt-br.md#acessibilidade-%EF%B8%8F">https://github.com/gabrielbmoro/slides-about-android-development/blob/main/README_pt-br.md#acessibilidade-%EF%B8%8F</a>)</li>
+</ul>
+<h3>Figma - Fundamentos:</h3>
 <ul><li>Figma é uma aplicação web colaborativa para design de interfaces. O conjunto de recursos do Figma se concentra na interface do usuário e no design da experiência do usuário, com ênfase na colaboração em tempo real, utilizando uma variedade de editores de gráficos vetoriais e ferramentas de prototipagem.</li>
 <li>Criar layouts de páginas e componentes</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Figma Básico - Primeiros passos com Figma (<a href="https://www.figma.com/community/file/1190593276621265988">https://www.figma.com/community/file/1190593276621265988</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é o Figma e por que usar ele? (<a href="https://medium.com/nerdzao/o-que-%C3%A9-o-figma-e-por-que-usar-ele-a71fbf1dbdd8">https://medium.com/nerdzao/o-que-%C3%A9-o-figma-e-por-que-usar-ele-a71fbf1dbdd8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda o que é e como usar o Figma para criar designs (<a href="https://blog.b2bstack.com.br/figma/">https://blog.b2bstack.com.br/figma/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: Como usar o Figma! (<a href="https://www.youtube.com/watch?v=qoE-2YFeW-Q">https://www.youtube.com/watch?v=qoE-2YFeW-Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 4 Exemplos de Componentes interativos no Figma (<a href="https://www.youtube.com/watch?v=mGL3jrY-OBc">https://www.youtube.com/watch?v=mGL3jrY-OBc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Figma: o que é a ferramenta, Design e uso (<a href="https://www.alura.com.br/artigos/figma">https://www.alura.com.br/artigos/figma</a>)</li>
+<li><code data-kind="site">Site</code> Como Front-End utiliza o Figma - Alura+ (<a href="https://cursos.alura.com.br/extra/alura-mais/como-front-end-utiliza-o-figma-c858">https://cursos.alura.com.br/extra/alura-mais/como-front-end-utiliza-o-figma-c858</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Top 5 plugins no Figma para trabalhar com Design System (<a href="https://www.alura.com.br/artigos/top-5-plugins-figma-trabalhar-com-design-system">https://www.alura.com.br/artigos/top-5-plugins-figma-trabalhar-com-design-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 plugins essenciais que você precisa ter no seu Figma (<a href="https://www.alura.com.br/artigos/5-plugins-essenciais-do-figma">https://www.alura.com.br/artigos/5-plugins-essenciais-do-figma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 10 truques incríveis e pouco conhecidos no Figma (<a href="https://www.alura.com.br/artigos/10-truques-incriveis-pouco-conhecidos-figma">https://www.alura.com.br/artigos/10-truques-incriveis-pouco-conhecidos-figma</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: Figma do Design ao Código 03 (<a href="https://www.alura.com.br/podcast/layerstech-figma-do-design-ao-codigo-layers-ponto-tech-03-a726">https://www.alura.com.br/podcast/layerstech-figma-do-design-ao-codigo-layers-ponto-tech-03-a726</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como fazer estilos locais mais rapidamente no Figma? (<a href="https://www.youtube.com/watch?v=fCHd2_lAcQQ">https://www.youtube.com/watch?v=fCHd2_lAcQQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Figma (<a href="https://www.alura.com.br/formacao-figma">https://www.alura.com.br/formacao-figma</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

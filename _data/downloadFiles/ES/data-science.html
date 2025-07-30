@@ -71,11 +71,61 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +151,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +228,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,25 +248,59 @@
   </div>
 
   <div class="content">
-    <h1>Data Science</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ciencia de Datos - Fundamentos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Ciencia de Datos - Fundamentos:</h3>
 <ul><li>La Ciencia de Datos es el acto de utilizar algoritmos y sistemas para extraer, organizar y analizar datos a partir de diversas fuentes, a fin de detectar patrones y tomar decisiones de negocios. Las áreas de aplicación son infinitas, como en negocios, biología, medicina, ingeniería, etc.</li>
 <li>Conocer el concepto de Explotación de Datos</li>
 <li>Conocer las principales funciones, como &#39;describe&#39;, &#39;info&#39;, etc</li>
 <li>Entender el papel de las visualizaciones como histogramas y boxplots</li>
 <li>Saber qué son las variables categóricas nominales y ordinales</li>
 <li>Explorar los datos en Python con las bibliotecas Pandas, Matplotlib, Seaborn, etc</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Feature Engineering</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Desmitificando creencias alrededor de la Ciencia de Datos (<a href="https://medium.com/datos-y-ciencia/desmitificando-creencias-alrededor-de-la-ciencia-de-datos-1d0c16128b05">https://medium.com/datos-y-ciencia/desmitificando-creencias-alrededor-de-la-ciencia-de-datos-1d0c16128b05</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¡Data Science Para Todos! (<a href="https://medium.com/datos-y-ciencia/data-science-para-todos-4cb84264bb5f">https://medium.com/datos-y-ciencia/data-science-para-todos-4cb84264bb5f</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Data engineer o scientist? ¿cuál es la diferencia? (<a href="https://medium.com/tacosdedatos/data-engineer-o-scientist-cu%C3%A1l-es-la-diferencia-4bb8e616e2bc">https://medium.com/tacosdedatos/data-engineer-o-scientist-cuál-es-la-diferencia-4bb8e616e2bc</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Cómo aportara a la comunid desde la Ciencia de Dados? (<a href="https://open.spotify.com/episode/1OU5HlOWo7YBDDTClQiq3s?si=30c6466906044507">https://open.spotify.com/episode/1OU5HlOWo7YBDDTClQiq3s?si=30c6466906044507</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Que hace un cientista de datos? (<a href="https://www.aluracursos.com/blog/que-hace-un-cientista-de-datos">https://www.aluracursos.com/blog/que-hace-un-cientista-de-datos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Google Colab: ¿qué es y cómo usarlo? (<a href="https://www.aluracursos.com/blog/google-colab-que-es-y-como-usarlo">https://www.aluracursos.com/blog/google-colab-que-es-y-como-usarlo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Por qué estudiar Data Science? (<a href="https://www.youtube.com/watch?v=7_UXo-aqAeM">https://www.youtube.com/watch?v=7_UXo-aqAeM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Live Café Punto Tech - ¿Cómo dar tus primeros pasos en el mundo de Data Science? (<a href="https://www.youtube.com/watch?v=lEfMXSX4mz4">https://www.youtube.com/watch?v=lEfMXSX4mz4</a>)</li>
+<li><code data-kind="curso">Curso</code> Data Science: Primeros pasos (<a href="https://app.aluracursos.com/course/data-science-primeros-pasos">https://app.aluracursos.com/course/data-science-primeros-pasos</a>)</li>
+</ul>
+<h3>Feature Engineering:</h3>
 <ul><li>Generar nuevas variables a partir de los datos disponibles</li>
 <li>Transformar datos brutos en características</li>
 <li>Resaltar los problemas de los modelos predictivos</li>
 <li>Mejorar la precisión del modelo para nuevos datos</li>
 <li>Seleccionar y crear Features utilizando las bibliotecas Pandas y Scikit-Learn</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Extracción y tratamiento de datos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Feature Engineering y FeatureTools | Data concepts (<a href="https://www.youtube.com/watch?v=KWioUD5UlSU&ab_channel=HablandoEnData">https://www.youtube.com/watch?v=KWioUD5UlSU&amp;ab_channel=HablandoEnData</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Feature Engineering (<a href="https://www.youtube.com/watch?v=k_v1JOAPiIg&ab_channel=CursoDATAMININGUBA">https://www.youtube.com/watch?v=k_v1JOAPiIg&amp;ab_channel=CursoDATAMININGUBA</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es el Feature Engineering en Machine Learning? (<a href="https://www.inesdi.com/blog/que-es-el-feature-engineering-en-machine-learning/">https://www.inesdi.com/blog/que-es-el-feature-engineering-en-machine-learning/</a>)</li>
+<li><code data-kind="curso">Curso</code> Feature Engineering en Español (<a href="https://es.coursera.org/learn/feature-engineering-es">https://es.coursera.org/learn/feature-engineering-es</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué son y para qué se usan los modelos predictivos? (<a href="https://predikdata.com/es/que-son-y-para-que-se-usan-los-modelos-predictivos/">https://predikdata.com/es/que-son-y-para-que-se-usan-los-modelos-predictivos/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Machine Learning: Cómo Desarrollar un Modelo desde Cero (<a href="https://medium.com/datos-y-ciencia/machine-learning-c%C3%B3mo-desarrollar-un-modelo-desde-cero-cc17654f0d48">https://medium.com/datos-y-ciencia/machine-learning-cómo-desarrollar-un-modelo-desde-cero-cc17654f0d48</a>)</li>
+</ul>
+<h3>Extracción y tratamiento de datos:</h3>
 <ul><li>Obtener los datos que se analizarán</li>
 <li>Tratar los datos obtenidos, transformándolos, alterando su estructura y valores a fin de dejar la base de datos más coherente y garantizar que los datos que serán trabajados estén en las mejores condiciones para ser analizados</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python para Ciencia de Datos - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> ¿Qué es extracción de datos y cómo funciona? (<a href="https://www.klippa.com/es/blog/informativo/extraccion-datos/">https://www.klippa.com/es/blog/informativo/extraccion-datos/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Extracción de datos con Destructuring en Javascript (<a href="https://medium.com/@artjulius/extracci%C3%B3n-de-datos-con-destructuring-en-javascript-8dc46d05af4f">https://medium.com/@artjulius/extracción-de-datos-con-destructuring-en-javascript-8dc46d05af4f</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Automatizar mis descargas de datos makes me happy😊 (<a href="https://medium.com/tacosdedatos/automatizar-mis-descargas-de-datos-makes-me-happy-62df02b6bcc0">https://medium.com/tacosdedatos/automatizar-mis-descargas-de-datos-makes-me-happy-62df02b6bcc0</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Herramientas para extracción de datos estructurados (<a href="https://medium.com/@marianmoldovan/herramientas-para-extracci%C3%B3n-de-datos-estructurados-715168f060a4">https://medium.com/@marianmoldovan/herramientas-para-extracción-de-datos-estructurados-715168f060a4</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Python Pandas: Tratamiento y análisis de datos (<a href="https://app.aluracursos.com/course/python-pandas-tratamiento-analisis-datos">https://app.aluracursos.com/course/python-pandas-tratamiento-analisis-datos</a>)</li>
+<li><code data-kind="curso">Curso</code> Pandas: Formatos diferentes de entrada y salida (IO) (<a href="https://app.aluracursos.com/course/pandas-formatos-entrada-salida-io">https://app.aluracursos.com/course/pandas-formatos-entrada-salida-io</a>)</li>
+<li><code data-kind="curso">Curso</code> Manipulando datos gigantes con Pandas (<a href="https://www.aluracursos.com/blog/manipulando-datos-gigantes-con-pandas">https://www.aluracursos.com/blog/manipulando-datos-gigantes-con-pandas</a>)</li>
+</ul>
+<h3>Python para Ciencia de Datos - Fundamentos:</h3>
 <ul><li>Python es un lenguaje de programación interpretado de alto nivel y que soporta múltiples paradigmas de programación, como imperativo, orientado a objetos y funcional. Es un lenguaje con tipificación dinámica y administración automática de memoria.</li>
 <li>Aprender lógica de programación en Python</li>
 <li>Aprenda los fundamentos del lenguaje como variables, funciones, listas, condicionales e Imports</li>
@@ -236,19 +309,62 @@
 <li>Usar y manipular listas para agrupar datos</li>
 <li>Conocer la biblioteca NumPy</li>
 <li>Conocer la biblioteca Pandas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Jupyter y Colab</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Herramientas Científicas para Python (<a href="https://medium.com/inside-intelligence/herramientas-cient%C3%ADficas-para-python-7255cfa6ec8f">https://medium.com/inside-intelligence/herramientas-científicas-para-python-7255cfa6ec8f</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía de inicio rápido de Pandas para análisis de datos (<a href="https://davidcasr.medium.com/gu%C3%ADa-de-inicio-r%C3%A1pido-de-pandas-para-an%C3%A1lisis-de-datos-9fb2e3833816">https://davidcasr.medium.com/guía-de-inicio-rápido-de-pandas-para-análisis-de-datos-9fb2e3833816</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> ¿Cómo es el día a día de una Científica de Datos? (<a href="https://www.youtube.com/watch?v=cOvpf3Q-ii4">https://www.youtube.com/watch?v=cOvpf3Q-ii4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Descubre el poder de Python: El lenguaje de programación que revoluciona la industria (<a href="https://www.youtube.com/watch?v=BxcMMgmLKTU&ab_channel=AluraLatam">https://www.youtube.com/watch?v=BxcMMgmLKTU&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es Python? Historia, sintaxis y una guía para iniciarse en el lenguaje (<a href="https://www.aluracursos.com/blog/que-es-python-historia-guia-para-iniciar">https://www.aluracursos.com/blog/que-es-python-historia-guia-para-iniciar</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Cómo comparar objetos en Python? (<a href="https://www.aluracursos.com/blog/como-comparar-objetos-en-python">https://www.aluracursos.com/blog/como-comparar-objetos-en-python</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo eliminar filas y columnas con Pandas en Python (<a href="https://www.aluracursos.com/blog/como-eliminar-filas-y-columnas-en-pandas">https://www.aluracursos.com/blog/como-eliminar-filas-y-columnas-en-pandas</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Trabajando con archivos y directorios en Python (<a href="https://www.aluracursos.com/blog/trabajando-con-archivos-y-directorios-en-python">https://www.aluracursos.com/blog/trabajando-con-archivos-y-directorios-en-python</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Clasificando texto con Python (<a href="https://www.aluracursos.com/blog/clasificando-texto-con-python">https://www.aluracursos.com/blog/clasificando-texto-con-python</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Buscando tweets con Python (<a href="https://www.aluracursos.com/blog/buscando-tweets-con-python">https://www.aluracursos.com/blog/buscando-tweets-con-python</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Listas en Python: operaciones básicas (<a href="https://www.aluracursos.com/blog/listas-de-python-operaciones-basicas">https://www.aluracursos.com/blog/listas-de-python-operaciones-basicas</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Python: trabajando con diccionarios (<a href="https://www.aluracursos.com/blog/python-trabajando-con-diccionarios">https://www.aluracursos.com/blog/python-trabajando-con-diccionarios</a>)</li>
+<li><code data-kind="curso">Curso</code> Python para Data Science: Introducción al Lenguaje (<a href="https://app.aluracursos.com/course/python-data-science-introduccion">https://app.aluracursos.com/course/python-data-science-introduccion</a>)</li>
+<li><code data-kind="curso">Curso</code> Python para Data Science: Trabajando con Numpy (<a href="https://app.aluracursos.com/course/python-data-science-introduccion-lenguaje-numpy">https://app.aluracursos.com/course/python-data-science-introduccion-lenguaje-numpy</a>)</li>
+<li><code data-kind="curso">Curso</code> Python para Data Science: Funciones, Librerías y Pandas básico (<a href="https://app.aluracursos.com/course/python-data-science-funciones-librerias-pandas-basico">https://app.aluracursos.com/course/python-data-science-funciones-librerias-pandas-basico</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación: Python para Data Science (<a href="https://app.aluracursos.com/formacion-python-para-data-science">https://app.aluracursos.com/formacion-python-para-data-science</a>)</li>
+</ul>
+<h3>Jupyter y Colab:</h3>
 <ul><li>Jupyter Notebook y Google Colaboratory son portátiles que permiten la creación de bloques de texto y bloques de código</li>
 <li>Los Notebooks facilitan la elaboración de proyectos de Data Science por ser posible visualizar el resultado de la ejecución luego del trecho de código</li>
 <li>Google Colaboratory le permite escribir y ejecutar códigos Python directamente en el navegador, sin ninguna o pocas configuraciones necesarias</li>
 <li>Facilitan el intercambio de proyectos entre el equipo</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>R para Ciencia de Datos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Project Jupyter (<a href="https://jupyter.org/">https://jupyter.org/</a>)</li>
+<li><code data-kind="web">Web</code> Anaconda (<a href="https://www.anaconda.com/">https://www.anaconda.com/</a>)</li>
+<li><code data-kind="web">Web</code> Te damos la bienvenida a Colaboratory (<a href="https://colab.research.google.com/">https://colab.research.google.com/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Google Colab TUTORIAL para Principiantes (<a href="https://www.youtube.com/watch?v=U_g5KRiJ5DA">https://www.youtube.com/watch?v=U_g5KRiJ5DA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cómo usar JUPYTER NOTEBOOK 📝 qué es JUPYTERLAB [Curso Python Data Science Español] (<a href="https://www.youtube.com/watch?v=CwbMaSkKDZg">https://www.youtube.com/watch?v=CwbMaSkKDZg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cómo HACER un Análisis de Datos en Python con Jupyter Notebook 🐍 (<a href="https://www.youtube.com/watch?v=VkU-9Us6Rpw">https://www.youtube.com/watch?v=VkU-9Us6Rpw</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Google Colab: ¿qué es y cómo usarlo? (<a href="https://www.aluracursos.com/blog/google-colab-que-es-y-como-usarlo">https://www.aluracursos.com/blog/google-colab-que-es-y-como-usarlo</a>)</li>
+</ul>
+<h3>R para Ciencia de Datos:</h3>
 <ul><li>R es un lenguaje de programación comúnmente usado en estadística computacional y análisis de datos.</li>
 <li>Aprender a analizar, limpiar y ver datos</li>
 <li>Elaborar gráficos</li>
 <li>Unir bases de datos</li>
 <li>Extraer resúmenes estadísticos</li>
 <li>Aprender modelos predictivos en R</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estadísticas y Matemáticas - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> R para principiantes (<a href="https://bookdown.org/jboscomendoza/r-principiantes4/">https://bookdown.org/jboscomendoza/r-principiantes4/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es la programación en R? (<a href="https://talently.tech/blog/programacion-en-r/">https://talently.tech/blog/programacion-en-r/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Visualización de Datos con ggplot2 (<a href="https://rpubs.com/Data4HR/visualizacion-humanos-reales">https://rpubs.com/Data4HR/visualizacion-humanos-reales</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Tablas en PDF? También hay respuesta en R🙃 (<a href="https://medium.com/tacosdedatos/tablas-en-pdf-tambi%C3%A9n-hay-respuesta-en-r-23389d82b63c">https://medium.com/tacosdedatos/tablas-en-pdf-también-hay-respuesta-en-r-23389d82b63c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es R y para qué nos sirve? | Aprende a utilizar R (<a href="https://www.youtube.com/watch?v=3hR2A2nCI4U">https://www.youtube.com/watch?v=3hR2A2nCI4U</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 3 diferencias entre 💻 R vs Python 🐍 para DATA SCIENCE (<a href="https://www.youtube.com/watch?v=doLXHVBbknw&ab_channel=RafaGonzalezGouveia">https://www.youtube.com/watch?v=doLXHVBbknw&amp;ab_channel=RafaGonzalezGouveia</a>)</li>
+<li><code data-kind="curso">Curso</code> R. Curso de introducción a R. Aprende desde cero. (<a href="https://www.udemy.com/course/curso-de-introduccion-a-r/">https://www.udemy.com/course/curso-de-introduccion-a-r/</a>)</li>
+</ul>
+<h3>Estadísticas y Matemáticas - Fundamentos:</h3>
 <ul><li>Para aprender técnicas de análisis de datos, estadísticas, modelado en la práctica, escalar el crecimiento y brindar nuevas oportunidades, ya sea en la empresa para la que trabaja o en su propio negocio.</li>
 <li>En esta formacion aprenderás utilizando el lenguaje Python y varias bibliotecas y herramientas específicas para estadísticas.</li>
 <li>Comprenderás cómo crear hipótesis y validarlas. De esta forma, podrá justificar los análisis realizados y mostrar a la empresa la importancia del papel del conocimiento en la estadística.</li>
@@ -263,19 +379,64 @@
 <li>Nivel e intervalo de confianza</li>
 <li>Técnicas de muestreo</li>
 <li>Regresión lineal</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Visualización de Datos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Estadísticas para personas con prisa (<a href="https://medium.com/datos-y-ciencia/estad%C3%ADsticas-para-personas-con-apuro-a5ee78096cdb">https://medium.com/datos-y-ciencia/estadísticas-para-personas-con-apuro-a5ee78096cdb</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es la correlación? (<a href="https://medium.com/datos-y-ciencia/qu%C3%A9-es-la-correlaci%C3%B3n-c677a74483a0">https://medium.com/datos-y-ciencia/qué-es-la-correlación-c677a74483a0</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es el análisis de series temporales? (<a href="https://www.tibco.com/es/reference-center/what-is-time-series-analysis">https://www.tibco.com/es/reference-center/what-is-time-series-analysis</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Estadística con Python (<a href="https://www.aluracursos.com/formacion-estadistica-con-python">https://www.aluracursos.com/formacion-estadistica-con-python</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Media o mediana? Entienda cada una (<a href="https://www.aluracursos.com/blog/media-o-mediana-entienda-cada-una">https://www.aluracursos.com/blog/media-o-mediana-entienda-cada-una</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Frecuencia absoluta y relativa (<a href="https://www.aluracursos.com/blog/frecuencia-absoluta-y-relativa">https://www.aluracursos.com/blog/frecuencia-absoluta-y-relativa</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Análisis de datos: ¿promedio o visualizar la distribución? (<a href="https://www.aluracursos.com/blog/analisis-de-datos-promedio-o-visualizar-la-distribucion">https://www.aluracursos.com/blog/analisis-de-datos-promedio-o-visualizar-la-distribucion</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Análisis de datos: analizando mi distribución con tres alternativas de visualización (<a href="https://www.aluracursos.com/blog/analisis-de-datos-analizando-mi-distribucion-con-tres-alternativas-de-visualizacion">https://www.aluracursos.com/blog/analisis-de-datos-analizando-mi-distribucion-con-tres-alternativas-de-visualizacion</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Matplotlib una biblioteca Python para generar gráficos interesantes (<a href="https://www.aluracursos.com/blog/matplotlib-una-biblioteca-python-para-crear-graficos-interesantes">https://www.aluracursos.com/blog/matplotlib-una-biblioteca-python-para-crear-graficos-interesantes</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Histograma: qué es, ejemplos, gráficos y tipos (<a href="https://www.aluracursos.com/blog/histograma-que-es-ejemplos-graficos-y-tipos">https://www.aluracursos.com/blog/histograma-que-es-ejemplos-graficos-y-tipos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Series temporales: Tipos de estacionalidad (<a href="https://www.aluracursos.com/blog/tipos-de-estacionalidad">https://www.aluracursos.com/blog/tipos-de-estacionalidad</a>)</li>
+<li><code data-kind="curso">Curso</code> Data Science: Introducción al análisis de series temporales (<a href="https://www.aluracursos.com/curso-online-data-science-analisis-series-temporales">https://www.aluracursos.com/curso-online-data-science-analisis-series-temporales</a>)</li>
+</ul>
+<h3>Visualización de Datos:</h3>
 <ul><li>La visualización de datos es una expresión contemporánea de la comunicación visual que consiste en la representación visual de datos.</li>
 <li>Mapear datos abstractos en representaciones visuales</li>
 <li>Representar visualmente los datos que están presentes en nuestro mundo real</li>
-</ul></li></ul>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Análisis y Visualización De Datos, Transformación Digital (<a href="https://medium.com/@nancylopezgomez70/an%C3%A1lisis-y-visualizaci%C3%B3n-de-datos-transformaci%C3%B3n-digital-4de65f9ad9e7">https://medium.com/@nancylopezgomez70/análisis-y-visualización-de-datos-transformación-digital-4de65f9ad9e7</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Análisis geoespacial con pandas y Folium (<a href="https://patricrp.medium.com/an%C3%A1lisis-geoespacial-con-pandas-y-folium-ae7bc92c6dfb">https://patricrp.medium.com/análisis-geoespacial-con-pandas-y-folium-ae7bc92c6dfb</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Glosario HD: Visualización de datos (<a href="https://www.youtube.com/watch?v=hU758BJazyo">https://www.youtube.com/watch?v=hU758BJazyo</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Data Cast | Temporada 1 - Capítulo 11 | Visualización de Datos (<a href="https://open.spotify.com/episode/7cidqMDAHUMnLTDzLnWQQe?si=ff0065dbaead449e">https://open.spotify.com/episode/7cidqMDAHUMnLTDzLnWQQe?si=ff0065dbaead449e</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Todo lo que una buena visualización de datos te puede contar - Invitado: Luis Armando Moreno de Sonora en Datos (<a href="https://open.spotify.com/episode/62sltIup3eOOaazIgV0NGR?si=cd2e6206bd804988">https://open.spotify.com/episode/62sltIup3eOOaazIgV0NGR?si=cd2e6206bd804988</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Análisis de datos: analizando mi distribución con tres alternativas de visualización (<a href="https://www.aluracursos.com/blog/analisis-de-datos-analizando-mi-distribucion-con-tres-alternativas-de-visualizacion">https://www.aluracursos.com/blog/analisis-de-datos-analizando-mi-distribucion-con-tres-alternativas-de-visualizacion</a>)</li>
+<li><code data-kind="curso">Curso</code> Oracle Analytics: visualizando datos (<a href="https://app.aluracursos.com/course/oracle-analytics-visualizando-datos">https://app.aluracursos.com/course/oracle-analytics-visualizando-datos</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Fundamentos</strong>:</li>
+<h3>Machine Learning - Fundamentos:</h3>
 <ul><li>El Aprendizaje automático o Machine Learning es un subcampo de la Ingeniería y de la Ciencia de la Computación que evolucionó del estudio de reconocimiento de patrones y de la teoría del aprendizaje computacional en inteligencia artificial.</li>
 <li>Aprendizaje supervisado</li>
 <li>Utilizar algoritmos de clasificación</li>
 <li>Usar algoritmos de regresión</li>
 <li>Utilizar Scikit-Learn para crear modelos de machine Learning</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Aprendizaje no supervisado</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es exactamente Machine Learning? (<a href="https://medium.com/latinxinai/qu%C3%A9-es-exactamente-machine-learning-77441201a65b">https://medium.com/latinxinai/qué-es-exactamente-machine-learning-77441201a65b</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es un modelo de aprendizaje automático? (<a href="https://www.hpe.com/es/es/what-is/ml-models.html">https://www.hpe.com/es/es/what-is/ml-models.html</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Que debes saber para machine learning (Roadmap) (<a href="https://www.youtube.com/watch?v=8nSGUb9zCco">https://www.youtube.com/watch?v=8nSGUb9zCco</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Conociendo los tipos de aprendizaje de máquina (<a href="https://www.aluracursos.com/blog/conociendo-los-tipos-de-aprendizaje-de-maquina">https://www.aluracursos.com/blog/conociendo-los-tipos-de-aprendizaje-de-maquina</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Descubre el poder del Machine Learning (<a href="https://www.youtube.com/watch?v=edS0Fhg0xyM">https://www.youtube.com/watch?v=edS0Fhg0xyM</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Machine Learning (<a href="https://app.aluracursos.com/formacion-machine-learning">https://app.aluracursos.com/formacion-machine-learning</a>)</li>
+<li><code data-kind="curso">Curso</code> Machine Learning: Sistemas de recomendación en Python (<a href="https://app.aluracursos.com/course/machine-learning-introduccion-sistemas-recomendacion-python">https://app.aluracursos.com/course/machine-learning-introduccion-sistemas-recomendacion-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Modelos predictivos en datos: Detección de fraude (<a href="https://app.aluracursos.com/course/modelos-preditivos-datos-deteccion-fraude">https://app.aluracursos.com/course/modelos-preditivos-datos-deteccion-fraude</a>)</li>
+<li><code data-kind="curso">Curso</code> MLOps: Machine Learning y APIs (<a href="https://app.aluracursos.com/course/mlops-machine-learning-apis">https://app.aluracursos.com/course/mlops-machine-learning-apis</a>)</li>
+<li><code data-kind="curso">Curso</code> MLOps: deploy de modelos (<a href="https://app.aluracursos.com/course/mlops-deploy-de-modelos">https://app.aluracursos.com/course/mlops-deploy-de-modelos</a>)</li>
+<li><code data-kind="curso">Curso</code> Machine Learning: clasificación entre bastidores (<a href="https://www.aluracursos.com/curso-online-machine-learning-clasificacion-entre-bastidores">https://www.aluracursos.com/curso-online-machine-learning-clasificacion-entre-bastidores</a>)</li>
+<li><code data-kind="curso">Curso</code> Machine Learning: clasificación con SKLearn (<a href="https://www.aluracursos.com/curso-online-machine-learning-clasificacion-sklearn">https://www.aluracursos.com/curso-online-machine-learning-clasificacion-sklearn</a>)</li>
+</ul>
+<h3>Machine Learning - Aprendizaje no supervisado:</h3>
 <ul><li>El clustering o análisis de agrupación de datos es el conjunto de técnicas de prospección de datos (data Mining) que tiene como objetivo hacer agrupaciones automáticas de datos según su grado de similitud.</li>
 <li>Conocer el análisis exploratorio</li>
 <li>Utilizar los métodos K-Means, DBSCAN y Mean shift para agrupar datos sin clasificación</li>
@@ -283,12 +444,39 @@
 <li>Parametrizar métodos de Clusterización a través del máximo coeficiente de silueta</li>
 <li>Entender las matemáticas detrás de las métricas de validación Silhouette, Davies Bouldin y Calinski Harabasz</li>
 <li>Conocer técnicas de reducción de dimensionalidad</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Evaluación de Modelos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Técnica de clustering - Conceptos básicos (<a href="https://www.youtube.com/watch?v=9Fsipz9tSuI&ab_channel=AnabelMontero">https://www.youtube.com/watch?v=9Fsipz9tSuI&amp;ab_channel=AnabelMontero</a>)</li>
+<li><code data-kind="youtube">YouTube</code> APRENDIZAJE NO SUPERVISADO: K. MEANS CLUSTERING | #15 Curso de Introducción a Machine Learning (<a href="https://www.youtube.com/watch?v=EZOab1vkFmI&ab_channel=AprendeIAconLigdiGonzalez">https://www.youtube.com/watch?v=EZOab1vkFmI&amp;ab_channel=AprendeIAconLigdiGonzalez</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Aprendizaje no supervisado (<a href="https://open.spotify.com/episode/0260UmI0o2hYAmccWo0yM4?si=81f05288146641bd">https://open.spotify.com/episode/0260UmI0o2hYAmccWo0yM4?si=81f05288146641bd</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Minería de Datos, ¿Qué es y para qué Sirve? (<a href="https://www.youtube.com/watch?v=uPTxaGAjA34&ab_channel=Mikelillo-BI">https://www.youtube.com/watch?v=uPTxaGAjA34&amp;ab_channel=Mikelillo-BI</a>)</li>
+<li><code data-kind="artículo">Artículo</code> 13 técnicas de reducción de dimensionalidad (<a href="https://medium.com/@nicolasarrioja/13-t%C3%A9cnicas-de-reducci%C3%B3n-de-dimensionalidad-b33b2340a060">https://medium.com/@nicolasarrioja/13-técnicas-de-reducción-de-dimensionalidad-b33b2340a060</a>)</li>
+<li><code data-kind="artículo">Artículo</code> La maldición de la dimensionalidad (<a href="https://medium.com/@nicolasarrioja/la-maldici%C3%B3n-de-la-dimensionalidad-f7a6248cf9a">https://medium.com/@nicolasarrioja/la-maldición-de-la-dimensionalidad-f7a6248cf9a</a>)</li>
+<li><code data-kind="web">Web</code> La Reducción de Dimensionalidad en el Machine Learning (<a href="https://softtek.eu/tech-magazine/artificial-intelligence/la-reduccion-de-dimensionalidad-en-el-machine-learning/">https://softtek.eu/tech-magazine/artificial-intelligence/la-reduccion-de-dimensionalidad-en-el-machine-learning/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo seleccionar el mejor valor de K en K-means (<a href="https://medium.com/@nicolasarrioja/c%C3%B3mo-seleccionar-el-mejor-valor-de-k-en-k-means-21121b604365">https://medium.com/@nicolasarrioja/cómo-seleccionar-el-mejor-valor-de-k-en-k-means-21121b604365</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Clustering: Extrayendo patrones de datos (<a href="https://app.aluracursos.com/course/clustering-extrayendo-patrones-datos">https://app.aluracursos.com/course/clustering-extrayendo-patrones-datos</a>)</li>
+<li><code data-kind="curso">Curso</code> Clustering: K-Means, DBSCAN y Mean Shift (<a href="https://app.aluracursos.com/course/clustering-k-means-dbscan-mean-shift">https://app.aluracursos.com/course/clustering-k-means-dbscan-mean-shift</a>)</li>
+<li><code data-kind="curso">Curso</code> Clusterización de datos: segmentación de clientes (<a href="https://app.aluracursos.com/course/clusterizacion-datos-segmentacion-clientes">https://app.aluracursos.com/course/clusterizacion-datos-segmentacion-clientes</a>)</li>
+<li><code data-kind="curso">Curso</code> Machine Learning: Lidiando con datos de muchas dimensiones (<a href="https://www.aluracursos.com/curso-online-machine-learning-datos-muchas-dimensiones">https://www.aluracursos.com/curso-online-machine-learning-datos-muchas-dimensiones</a>)</li>
+</ul>
+<h3>Machine Learning - Evaluación de Modelos:</h3>
 <ul><li>El uso de métricas de evaluación nos ayuda a identificar si un modelo entrenado tendrá un buen desempeño de predicción cuando se expone a nuevos conjuntos de datos.</li>
 <li>Conocer diferentes estrategias de evaluación y optimización de modelos</li>
 <li>Utilizar una canalización para entrenamiento y validación</li>
 <li>Métricas de evaluación de modelos de machine Learning</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Evaluación de modelos de ML (<a href="https://docs.aws.amazon.com/es_es/machine-learning/latest/dg/evaluating_models.html">https://docs.aws.amazon.com/es_es/machine-learning/latest/dg/evaluating_models.html</a>)</li>
+<li><code data-kind="web">Web</code> Métricas De Evaluación De Modelos En El Aprendizaje Automático (<a href="https://www.datasource.ai/es/data-science-articles/metricas-de-evaluacion-de-modelos-en-el-aprendizaje-automatico">https://www.datasource.ai/es/data-science-articles/metricas-de-evaluacion-de-modelos-en-el-aprendizaje-automatico</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Machine Learning: Seleccion Metricas de clasificacion (<a href="https://sitiobigdata.com/2019/01/19/machine-learning-metrica-clasificacion-parte-3/#">https://sitiobigdata.com/2019/01/19/machine-learning-metrica-clasificacion-parte-3/#</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Machine Learning: Validación de modelos (<a href="https://app.aluracursos.com/course/machine-learning-validacion-modelos">https://app.aluracursos.com/course/machine-learning-validacion-modelos</a>)</li>
+<li><code data-kind="curso">Curso</code> Machine Learning: Optimización de modelos a través de hiperparámetros (<a href="https://app.aluracursos.com/course/machine-learning-optimizacion-modelos-hiperparametros">https://app.aluracursos.com/course/machine-learning-optimizacion-modelos-hiperparametros</a>)</li>
+</ul>
+<h3>SQL - Fundamentos:</h3>
 <ul><li>Conocer los comandos más comunes de SQL</li>
 <li>Usar SELECT para consultar una tabla</li>
 <li>Usar INSERT para insertar datos en una tabla</li>
@@ -296,43 +484,123 @@
 <li>Usar DELETE para eliminar datos de una tabla</li>
 <li>Usar JOIN para conectar los datos de múltiples tablas</li>
 <li>Conocer las cláusulas (FROM, ORDER BY, etc.)</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Web Scraping</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Amazon: ¿Qué es SQL? (<a href="https://aws.amazon.com/es/what-is/sql/?nc1=h_ls">https://aws.amazon.com/es/what-is/sql/?nc1=h_ls</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> MySQL: desde la descarga e instalación hasta su primera tabla (<a href="https://www.aluracursos.com/blog/mysql-desde-la-descarga-e-instalacion-hasta-su-primera-tabla">https://www.aluracursos.com/blog/mysql-desde-la-descarga-e-instalacion-hasta-su-primera-tabla</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Bases de datos relacionales (<a href="https://www.aluracursos.com/blog/base-de-datos-relacional">https://www.aluracursos.com/blog/base-de-datos-relacional</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es SQL? (<a href="https://www.aluracursos.com/blog/que-es-sql">https://www.aluracursos.com/blog/que-es-sql</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Normalización en base de datos - Estructura (<a href="https://www.aluracursos.com/blog/normalizacion-en-base-de-datos">https://www.aluracursos.com/blog/normalizacion-en-base-de-datos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> En SQL, null es null, vacío está vacío (<a href="https://www.aluracursos.com/blog/en-sql-null-es-null-vacio-es-vacio">https://www.aluracursos.com/blog/en-sql-null-es-null-vacio-es-vacio</a>)</li>
+<li><code data-kind="artículo">Artículo</code> SELECT, INSERT, UPDATE y DELETE en SQL: aprende a utilizar cada uno (<a href="https://www.aluracursos.com/blog/select-insert-update-delete-sql">https://www.aluracursos.com/blog/select-insert-update-delete-sql</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Funciones de agregación con GROUP BY en SQL, ¿cómo utilizarlas? (<a href="https://www.aluracursos.com/blog/funciones-de-agregacion-con-group-by-en-sql-como-utilizarlas">https://www.aluracursos.com/blog/funciones-de-agregacion-con-group-by-en-sql-como-utilizarlas</a>)</li>
+<li><code data-kind="artículo">Artículo</code> SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS (<a href="https://www.aluracursos.com/blog/sql-join-aprenda-inner-left-right-full-e-cross">https://www.aluracursos.com/blog/sql-join-aprenda-inner-left-right-full-e-cross</a>)</li>
+<li><code data-kind="artículo">Artículo</code> select count(*), count(1) y count(nombre): batalla de los counts de SQL (<a href="https://www.aluracursos.com/blog/select-count-count1-e-countnome-la-batalla-de-los-counts-de-sql">https://www.aluracursos.com/blog/select-count-count1-e-countnome-la-batalla-de-los-counts-de-sql</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Descomplicando Base de Datos | #Aluramás (<a href="https://www.youtube.com/watch?v=G1cDRqKuxpg&t=6s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=G1cDRqKuxpg&amp;t=6s&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es SQL y NoSQL? (<a href="https://www.youtube.com/watch?v=cLLKVd5CNLc">https://www.youtube.com/watch?v=cLLKVd5CNLc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Banco de Datos MySQL (<a href="https://www.youtube.com/watch?v=8J0AoPZMVxA">https://www.youtube.com/watch?v=8J0AoPZMVxA</a>)</li>
+<li><code data-kind="curso">Curso</code> SQL con MySQL (<a href="https://app.aluracursos.com/formacion-sql-con-mysql">https://app.aluracursos.com/formacion-sql-con-mysql</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Introducción a SQL con MySQL: Manipule y consulte datos (<a href="https://app.aluracursos.com/course/introduccion-sql-mysql-manipule-consulte-datos">https://app.aluracursos.com/course/introduccion-sql-mysql-manipule-consulte-datos</a>)</li>
+<li><code data-kind="curso">Curso</code> SQL Server: consultas avanzadas con Microsoft SQL Server 2019 (<a href="https://app.aluracursos.com/course/sql-server-consultas-microsoft-sql-server-2019">https://app.aluracursos.com/course/sql-server-consultas-microsoft-sql-server-2019</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Modelado de datos (<a href="https://www.aluracursos.com/formacion-modelado-de-datos">https://www.aluracursos.com/formacion-modelado-de-datos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación SQL con Microsoft SQL Server (<a href="https://www.aluracursos.com/formacion-SQL-con-Microsoft-SQL-Server-2019">https://www.aluracursos.com/formacion-SQL-con-Microsoft-SQL-Server-2019</a>)</li>
+</ul>
+<h3>Web Scraping:</h3>
 <ul><li>Web scraping o raspado de datos en la web es la extracción de datos de sitios web.</li>
 <li>Usar BeautifulSoup y Python para recopilar datos</li>
 <li>Buscar y navegar por HTML</li>
 <li>Acceder al contenido y atributos de las etiquetas HTML</li>
 <li>Construir conjuntos de datos con los resultados de los raspados</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Pruebas Estadísticas</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Conseguir datos de la web (<a href="https://medium.com/voces-en-espa%C3%B1ol/conseguir-datos-de-la-web-8bf75e97cda5">https://medium.com/voces-en-español/conseguir-datos-de-la-web-8bf75e97cda5</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es el Web Scraping? Y por qué todos deberían aprenderlo | Explicado en 3 Minutos (<a href="https://www.youtube.com/watch?v=asmAKBsxI4M">https://www.youtube.com/watch?v=asmAKBsxI4M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Diferencias entre web scraping y crawling (<a href="https://www.youtube.com/watch?v=6DJkVrhB2pI">https://www.youtube.com/watch?v=6DJkVrhB2pI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 🌍 Cómo Hacer WEB SCRAPING con PYTHON | Extraer Datos de una Web 🔎 (<a href="https://www.youtube.com/watch?v=98LadkdwJOQ">https://www.youtube.com/watch?v=98LadkdwJOQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Web Scraping con Python y Selenium - Tutorial en Español desde cero 2022 Facil (<a href="https://www.youtube.com/watch?v=o8s9z6icgPY">https://www.youtube.com/watch?v=o8s9z6icgPY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como hacer Web Scraping con Python y Beautiful Soup (<a href="https://www.youtube.com/watch?v=RjfqdJEwWyU&ab_channel=NicolasMarinTorres">https://www.youtube.com/watch?v=RjfqdJEwWyU&amp;ab_channel=NicolasMarinTorres</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> WebScraping con Python: Extraer datos de la web (<a href="https://www.aluracursos.com/curso-online-webscraping-python-extraer-datos-web">https://www.aluracursos.com/curso-online-webscraping-python-extraer-datos-web</a>)</li>
+</ul>
+<h3>Pruebas Estadísticas:</h3>
 <ul><li>Crear intervalos de confianza para muestras</li>
 <li>Comparar grupos de muestras</li>
 <li>Realizar pruebas estadísticas</li>
 <li>Planificar experimentos para la recopilación de datos</li>
 <li>Proponer modelos matemáticos para entender un problema dado</li>
 <li>Construir mapas de colores para ayudar a la interpretación de los datos</li>
-</ul></li></ul>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Intervalos de confianza y margen de error | Khan Academy en Español (<a href="https://www.youtube.com/watch?v=dZcVCSch2nA&ab_channel=KhanAcademyEspa%C3%B1ol">https://www.youtube.com/watch?v=dZcVCSch2nA&amp;ab_channel=KhanAcademyEspañol</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Condiciones para intervalos de confianza válidos | Khan Academy en Español (<a href="https://www.youtube.com/watch?v=8ilr8-aBfm8&ab_channel=KhanAcademyEspa%C3%B1ol">https://www.youtube.com/watch?v=8ilr8-aBfm8&amp;ab_channel=KhanAcademyEspañol</a>)</li>
+<li><code data-kind="web">Web</code> Intervalos de confianza - Introducción (<a href="https://openstax.org/books/introducci%C3%B3n-estad%C3%ADstica-empresarial/pages/8-introduccion">https://openstax.org/books/introducción-estadística-empresarial/pages/8-introduccion</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Pruebas Estadísticas - 1 - La tesis y mucho más (<a href="https://www.youtube.com/watch?v=tTzjrLBfLZU&ab_channel=LaTesisyMuchoM%C3%A1s">https://www.youtube.com/watch?v=tTzjrLBfLZU&amp;ab_channel=LaTesisyMuchoMás</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Pruebas estadísticas para comparar grupos (<a href="https://www.youtube.com/watch?v=N2fODa734js&ab_channel=LaTesisyMuchoM%C3%A1s">https://www.youtube.com/watch?v=N2fODa734js&amp;ab_channel=LaTesisyMuchoMás</a>)</li>
+<li><code data-kind="web">Web</code> Mapa de calor en Matplotlib (<a href="https://python-charts.com/es/correlacion/mapa-calor-matplotlib/">https://python-charts.com/es/correlacion/mapa-calor-matplotlib/</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Data Science: Introducción a Tests Estadísticos con Python (<a href="https://app.aluracursos.com/course/data-science-tests-estadisticos-python">https://app.aluracursos.com/course/data-science-tests-estadisticos-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Estadística con Python: Test de hipótesis (<a href="https://app.aluracursos.com/course/estadistica-python-test-hipotesis">https://app.aluracursos.com/course/estadistica-python-test-hipotesis</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Aprendizaje Profundo</strong>:</li>
+<h3>Aprendizaje Profundo:</h3>
 <ul><li>Deep Learning (o Aprendizaje Profundo) es una rama de Machine Learning basada en un conjunto de algoritmos que intentan modelar abstracciones de alto nivel de datos usando un grafo profundo con múltiples capas de procesamiento, compuestas de varias transformaciones lineales y no lineales.</li>
 <li>Construir y entrenar modelos con Keras</li>
 <li>Seleccionar las capas de una plantilla</li>
 <li>Clasificar imágenes</li>
 <li>Entender los conceptos de pesos y sesgos</li>
 <li>Redes neuronales para regresión</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Aprendizaje por Refuerzo</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Aprendizaje Profundo: una Guía rápida (<a href="https://www.aprendemachinelearning.com/aprendizaje-profundo-una-guia-rapida/">https://www.aprendemachinelearning.com/aprendizaje-profundo-una-guia-rapida/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es Deep Learning? | 03 Inteligencia Artificial 101 | AprendeIA (<a href="https://www.youtube.com/watch?v=xuSnmWZagN8">https://www.youtube.com/watch?v=xuSnmWZagN8</a>)</li>
+<li><code data-kind="podcast">Podcast</code> El cuento del Deep Learning (<a href="https://open.spotify.com/episode/1hEN9u72xQL8IadcoizOcY?si=ee556c425f614e84">https://open.spotify.com/episode/1hEN9u72xQL8IadcoizOcY?si=ee556c425f614e84</a>)</li>
+<li><code data-kind="podcast">Podcast</code> El aprendizaje profundo se encuentra con los sistemas distribuidos (<a href="https://open.spotify.com/episode/0WCnQqDuzfrjuqO265Smqz?si=15d035748b2740e8">https://open.spotify.com/episode/0WCnQqDuzfrjuqO265Smqz?si=15d035748b2740e8</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Deep Learning parte 1: introducción con Keras (<a href="https://app.aluracursos.com/course/deep-learning-introduccion-keras">https://app.aluracursos.com/course/deep-learning-introduccion-keras</a>)</li>
+<li><code data-kind="curso">Curso</code> Deep Learning parte 2: cómo aprende la red (<a href="https://app.aluracursos.com/course/deep-learning-parte-2-aprende-red">https://app.aluracursos.com/course/deep-learning-parte-2-aprende-red</a>)</li>
+<li><code data-kind="curso">Curso</code> Deep learning: regresión y series temporales con keras (<a href="https://app.aluracursos.com/course/deep-learning-regresion-series-temporales-keras">https://app.aluracursos.com/course/deep-learning-regresion-series-temporales-keras</a>)</li>
+<li><code data-kind="curso">Curso</code> Regresión: Implementa una red neuronal con numpy (<a href="https://app.aluracursos.com/course/regresion-implementa-red-neuronal-numpy">https://app.aluracursos.com/course/regresion-implementa-red-neuronal-numpy</a>)</li>
+</ul>
+<h3>Aprendizaje por Refuerzo:</h3>
 <ul><li>El Aprendizaje por Refuerzo es un área de Machine Learning que se preocupa con la forma como agentes inteligentes deben tomar medidas en un ambiente, a fin de maximizar la noción de recompensa acumulativa.</li>
 <li>Entender los conceptos de agente y recompensa</li>
 <li>Entender la diferencia entre refuerzo positivo y negativo</li>
 <li>Conocer el modelo Markov Decision Process</li>
 <li>Entender el concepto de Retorno</li>
 <li>Utilizar el algoritmo Q-Learning</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Visión Computacional</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Aprendizaje por Refuerzo (<a href="https://www.aprendemachinelearning.com/aprendizaje-por-refuerzo/">https://www.aprendemachinelearning.com/aprendizaje-por-refuerzo/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Reinforcement Learning — Aprendizaje por refuerzo (<a href="https://bootcampai.medium.com/reinforcement-learning-aprendizaje-por-refuerzo-c34bb085bb5">https://bootcampai.medium.com/reinforcement-learning-aprendizaje-por-refuerzo-c34bb085bb5</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Aplicaciones reales del aprendizaje por refuerzo (<a href="https://www.tomorrow.bio/es/post/aplicaciones-reales-del-aprendizaje-por-refuerzo-2023-08-4908793310-ai">https://www.tomorrow.bio/es/post/aplicaciones-reales-del-aprendizaje-por-refuerzo-2023-08-4908793310-ai</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Introducción al aprendizaje por refuerzo (<a href="https://medium.com/aprendizaje-por-refuerzo/1-introducci%C3%B3n-al-aprendizaje-por-refuerzo-92c9239aed90">https://medium.com/aprendizaje-por-refuerzo/1-introducción-al-aprendizaje-por-refuerzo-92c9239aed90</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es el APRENDIZAJE POR REFUERZO? | Lección 1 curso Aprendizaje Por Refuerzo Nivel Básico (<a href="https://www.youtube.com/watch?v=AMBIhRwc_XU&ab_channel=CodificandoBits">https://www.youtube.com/watch?v=AMBIhRwc_XU&amp;ab_channel=CodificandoBits</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Aprendizaje por refuerzo ¿servirá para mejorar las economías? (<a href="https://open.spotify.com/episode/6qXG0UbEHoozrRdcRadWvw?si=8aeafe736dfa443a">https://open.spotify.com/episode/6qXG0UbEHoozrRdcRadWvw?si=8aeafe736dfa443a</a>)</li>
+</ul>
+<h3>Visión Computacional:</h3>
 <ul><li>Visión Computacional es un campo científico interdisciplinario que se ocupa de cómo las computadoras pueden obtener conocimientos de alto nivel a partir de imágenes o videos digitales. Desde la perspectiva de la ingeniería, busca comprender y automatizar tareas que el sistema visual humano puede hacer.</li>
 <li>Extraer regiones de interés de una imagen</li>
 <li>Normalizar y procesar los datos de las imágenes</li>
 <li>Construir clasificadores de reconocimiento facial</li>
 <li>Extraer regiones del rostro humano basado en hitos faciales</li>
 <li>Analizar diferentes condiciones de cada componente del rostro humano</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Procesamiento de Lenguaje Natural</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> ¿Qué es la Visión por Computador? (<a href="https://aprendeia.com/vision-computacional/">https://aprendeia.com/vision-computacional/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aplicaciones de la Visión Computacional - Oswaldo Vázquez (<a href="https://www.youtube.com/watch?v=HCKOrj1ex3g&list=TLPQMDUxMjIwMjLaaHrMk8WJTw&index=2&ab_channel=OswaldoV%C3%A1zquez">https://www.youtube.com/watch?v=HCKOrj1ex3g&amp;list=TLPQMDUxMjIwMjLaaHrMk8WJTw&amp;index=2&amp;ab_channel=OswaldoVázquez</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Recursos que he usado para aprender VISIÓN POR COMPUTADOR (<a href="https://www.youtube.com/watch?v=vpNOP8bZFEQ&list=TLPQMDUxMjIwMjLaaHrMk8WJTw&index=3&ab_channel=OMES">https://www.youtube.com/watch?v=vpNOP8bZFEQ&amp;list=TLPQMDUxMjIwMjLaaHrMk8WJTw&amp;index=3&amp;ab_channel=OMES</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Aplicación de reconocimiento facial en tiempo real para identificar a alumnos de la licenciatura en ciencias de la computación de la Universidad de Sonora usando Pytorch y redes neuronales convolucionales en cascada y en multitarea (MTCNN) (<a href="https://medium.com/lcc-unison/aplicaci%C3%B3n-de-reconocimiento-facial-en-tiempo-real-para-identificar-a-alumnos-de-la-licenciatura-en-2e2b53870995">https://medium.com/lcc-unison/aplicación-de-reconocimiento-facial-en-tiempo-real-para-identificar-a-alumnos-de-la-licenciatura-en-2e2b53870995</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Reconocimiento de imágenes: API de Twitter y Computer Vision (<a href="https://app.aluracursos.com/course/reconocimiento-imagenes-api-twitter-computer-vision">https://app.aluracursos.com/course/reconocimiento-imagenes-api-twitter-computer-vision</a>)</li>
+<li><code data-kind="curso">Curso</code> Análisis y clasificación de rostros: visión por computador con OpenCV (<a href="https://app.aluracursos.com/course/analisis-clasificacion-rostros-vision-computador-opencv">https://app.aluracursos.com/course/analisis-clasificacion-rostros-vision-computador-opencv</a>)</li>
+</ul>
+<h3>Procesamiento de Lenguaje Natural:</h3>
 <ul><li>Procesamiento de la lengua natural (PLN) es un subárea de la inteligencia artificial y la lingüística que estudia los problemas de la generación y la comprensión automática de las lenguas humanas naturales.</li>
 <li>Análisis de Sentimiento</li>
 <li>Crear vistas para facilitar el análisis de datos textuales</li>
@@ -343,9 +611,27 @@
 <li>Utilizar Regex en PLN</li>
 <li>Conocer Word2Vec</li>
 <li>Combinar vectores de palabras para representar textos y clasificarlos</li>
-</ul></li></ul>
-<h2>Habilidade Auxiliar: Cloud, Big Data y Sistemas</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Big Data e Ingeniería de Datos - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Procesamiento de Lenguaje Natural (<a href="https://www.youtube.com/playlist?list=PLkgbkukKg_NqSS3tjA_POb0lmxCmbGqvN">https://www.youtube.com/playlist?list=PLkgbkukKg_NqSS3tjA_POb0lmxCmbGqvN</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Análisis de Sentimiento de tweets con Python, TextBlob y tweepy (<a href="https://seraph13.medium.com/an%C3%A1lisis-de-sentimiento-de-tweets-con-python-y-tweepy-6754bf99a5bd">https://seraph13.medium.com/análisis-de-sentimiento-de-tweets-con-python-y-tweepy-6754bf99a5bd</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Procesamiento de Lenguaje Natural - En Pantufflas (<a href="https://open.spotify.com/episode/7dGnwnagWIvWThpoG37gPa?si=6cbc7e6764b84a23">https://open.spotify.com/episode/7dGnwnagWIvWThpoG37gPa?si=6cbc7e6764b84a23</a>)</li>
+<li><code data-kind="web">Web</code> Preprocesamiento de datos con sklearn (<a href="http://datascience.recursos.uoc.edu/es/preprocesamiento-de-datos-con-sklearn/">http://datascience.recursos.uoc.edu/es/preprocesamiento-de-datos-con-sklearn/</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> ¿Qué es Bag of Words? #AluraMás (<a href="https://www.youtube.com/watch?v=NKy59utXjcg&ab_channel=AluraLatam">https://www.youtube.com/watch?v=NKy59utXjcg&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="artículo">Artículo</code> PLN: ¿Qué es el procesamiento del lenguaje natural? (<a href="https://www.aluracursos.com/blog/que-es-el-procesamiento-del-lenguaje-natural">https://www.aluracursos.com/blog/que-es-el-procesamiento-del-lenguaje-natural</a>)</li>
+<li><code data-kind="curso">Curso</code> NLP: introducción a los modelos de lenguaje y expresiones regulares (<a href="https://app.aluracursos.com/course/nlp-modelos-lenguaje-expresiones-regulares">https://app.aluracursos.com/course/nlp-modelos-lenguaje-expresiones-regulares</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Clasificando texto con Python (<a href="https://www.aluracursos.com/blog/clasificando-texto-con-python">https://www.aluracursos.com/blog/clasificando-texto-con-python</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cómo usar IA para hacer un traductor de idiomas #AluraMás (<a href="https://www.youtube.com/watch?v=8iS8VZK1zSI&t=10s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=8iS8VZK1zSI&amp;t=10s&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Crea Audiolibro con IA #AluraMás (<a href="https://www.youtube.com/watch?v=_NNNnsFXAnc&ab_channel=AluraLatam">https://www.youtube.com/watch?v=_NNNnsFXAnc&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="curso">Curso</code> Corrector ortográfico en Python: Aplicación de técnicas de PLN (<a href="https://app.aluracursos.com/course/corrector-ortografico-python-aplicacion-tecnicas-pln">https://app.aluracursos.com/course/corrector-ortografico-python-aplicacion-tecnicas-pln</a>)</li>
+<li><code data-kind="curso">Curso</code> Lenguaje Natural parte 1: Introducción a NLP con análisis de sentimiento (<a href="https://app.aluracursos.com/course/lenguaje-natural-parte1-nlp-analisis-sentimiento">https://app.aluracursos.com/course/lenguaje-natural-parte1-nlp-analisis-sentimiento</a>)</li>
+<li><code data-kind="curso">Curso</code> Word2Vec: entrenamiento de Word Embedding (<a href="https://app.aluracursos.com/course/word2vec-entrenamiento-word-embedding">https://app.aluracursos.com/course/word2vec-entrenamiento-word-embedding</a>)</li>
+<li><code data-kind="curso">Curso</code> Word2Vec: interpretación del lenguaje humano con Word embedding (<a href="https://app.aluracursos.com/course/word2vec-lenguaje-humano-word-embedding">https://app.aluracursos.com/course/word2vec-lenguaje-humano-word-embedding</a>)</li>
+</ul>
+<h2>Habilidad Auxiliar: Cloud, Big Data y Sistemas</h2>
+<h3>Big Data e Ingeniería de Datos - Fundamentos:</h3>
 <ul><li>Big data es el área del conocimiento que estudia cómo tratar, analizar y obtener información a partir de conjuntos de datos demasiado grandes para ser analizados por sistemas tradicionales.</li>
 <li>La ingeniería de datos implica el desarrollo y organización de procesos para la recopilación, almacenamiento y transformación de datos a gran escala.</li>
 <li>Crear una canalización de datos</li>
@@ -354,12 +640,60 @@
 <li>Conocer el concepto de Data Lake</li>
 <li>Interactuar con servidores en la nube</li>
 <li>Crear aplicaciones de Spark</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es big data? (<a href="https://www.oracle.com/es/big-data/what-is-big-data/">https://www.oracle.com/es/big-data/what-is-big-data/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es Big Data? (<a href="https://www.youtube.com/watch?v=eXMaoSEYrso">https://www.youtube.com/watch?v=eXMaoSEYrso</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es BIG DATA y su diferencia con Data Science? (<a href="https://www.youtube.com/watch?v=NKWjXoO3a7k&ab_channel=RafaGonzalezGouveia">https://www.youtube.com/watch?v=NKWjXoO3a7k&amp;ab_channel=RafaGonzalezGouveia</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Perfiles profesionales Big Data (<a href="https://open.spotify.com/episode/2BZLbMIpRjpcbljXwYNMFZ?si=7d2ef53eb1314db5">https://open.spotify.com/episode/2BZLbMIpRjpcbljXwYNMFZ?si=7d2ef53eb1314db5</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Data Lake o Data Swamp? (<a href="https://www.kaitsconsulting.com/data-lake-o-data-swamp/">https://www.kaitsconsulting.com/data-lake-o-data-swamp/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Data Warehouse: ¿qué es y cómo utilizarlo? (<a href="https://datascientest.com/es/data-warehouse-que-es-y-como-utilizarlo">https://datascientest.com/es/data-warehouse-que-es-y-como-utilizarlo</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Apache Airflow (<a href="https://datascientest.com/es/todo-sobre-apache-airflow#:~:text=La">https://datascientest.com/es/todo-sobre-apache-airflow#:~:text=La</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Empezando con Apache Airflow: Orquestando flujos de trabajo (<a href="https://davidcasr.medium.com/empezando-con-apache-airflow-orquestando-flujos-de-trabajo-272e1a012152">https://davidcasr.medium.com/empezando-con-apache-airflow-orquestando-flujos-de-trabajo-272e1a012152</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es Apache Spark? (<a href="https://cloud.google.com/learn/what-is-apache-spark?hl=es#:~:text=Apache">https://cloud.google.com/learn/what-is-apache-spark?hl=es#:~:text=Apache</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Procesando Datos con Spark (<a href="https://medium.com/@crscardellino/procesando-datos-con-spark-48539d38e437">https://medium.com/@crscardellino/procesando-datos-con-spark-48539d38e437</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Ingeniería de datos: qué es y para qué sirve (<a href="https://www.aluracursos.com/blog/ingenieria-de-datos">https://www.aluracursos.com/blog/ingenieria-de-datos</a>)</li>
+<li><code data-kind="curso">Curso</code> Machine Learning: Lidiando con datos de muchas dimensiones (<a href="https://app.aluracursos.com/course/machine-learning-datos-muchas-dimensiones">https://app.aluracursos.com/course/machine-learning-datos-muchas-dimensiones</a>)</li>
+</ul>
+<h3>Cloud - Fundamentos:</h3>
 <ul><li>La computación en nube, o cloud computing, es la distribución de servicios informáticos a través de Internet mediante un modelo de tarificación de pago por uso. Una nube se compone de varios recursos informatizados, desde los propios ordenadores (o instancias, en terminología de nube) hasta las redes, el almacenamiento, las bases de datos y todo lo que les rodea. En otras palabras, todo lo que normalmente se necesita para montar el equivalente a una sala de servidores, o incluso un centro de datos completo, estará listo para usar, configurar y ejecutar.</li>
 <li>Conocer la diferencia entre IaaS, PaaS y SaaS</li>
 <li>Conocer los mayores proveedores de nube</li>
 <li>Especializarse en un proveedor específico de su preferencia</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git y GitHub - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> ¿Qué es la informática en la nube? | Microsoft Azure (<a href="https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-cloud-computing/">https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-cloud-computing/</a>)</li>
+<li><code data-kind="web">Web</code> Amazon AWS: ¿Qué es la computación en nube? (<a href="https://aws.amazon.com/en/what-is-cloud-computing/">https://aws.amazon.com/en/what-is-cloud-computing/</a>)</li>
+<li><code data-kind="web">Web</code> Tipos de computación en la nube (<a href="https://aws.amazon.com/es/types-of-cloud-computing/">https://aws.amazon.com/es/types-of-cloud-computing/</a>)</li>
+<li><code data-kind="web">Web</code> ¿Cómo funciona Azure? (<a href="https://learn.microsoft.com/es-es/azure/cloud-adoption-framework/get-started/what-is-azure">https://learn.microsoft.com/es-es/azure/cloud-adoption-framework/get-started/what-is-azure</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es el almacenamiento en la nube? (<a href="https://aws.amazon.com/es/what-is/cloud-storage/">https://aws.amazon.com/es/what-is/cloud-storage/</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es la seguridad en la nube? (<a href="https://cloud.google.com/learn/what-is-cloud-security?hl=es-419">https://cloud.google.com/learn/what-is-cloud-security?hl=es-419</a>)</li>
+<li><code data-kind="web">Web</code> Arquitectura sin servidor (<a href="https://learn.microsoft.com/es-es/dotnet/architecture/serverless/serverless-architecture">https://learn.microsoft.com/es-es/dotnet/architecture/serverless/serverless-architecture</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es Docker? (<a href="https://aws.amazon.com/es/docker/">https://aws.amazon.com/es/docker/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía para principiantes sobre los fundamentos de la computación en nube (<a href="https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/">https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cloud Computing para principiantes (<a href="https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/">https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es Google Cloud y para qué sirve? (<a href="https://www.incentro.com/es-ES/blog/que-es-google-cloud-platform">https://www.incentro.com/es-ES/blog/que-es-google-cloud-platform</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es computación en la nube? | ¿Qué es cloud computing? | Explicado en 4 minutos (<a href="https://youtu.be/MCKdahh2lSo">https://youtu.be/MCKdahh2lSo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 📌CLOUD COMPUTING ¿Qué es IaaS, PaaS y Saas? | Modelos de Servicio Cloud (<a href="https://youtu.be/VR8aXePkQ5M">https://youtu.be/VR8aXePkQ5M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es AWS? (<a href="https://www.youtube.com/watch?v=x2vrg7HuM6g">https://www.youtube.com/watch?v=x2vrg7HuM6g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿ Cómo empiezo con Google Cloud? (Hablemos en Cloud) (<a href="https://www.youtube.com/watch?v=OiDWqu0oQfo">https://www.youtube.com/watch?v=OiDWqu0oQfo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción a la infraestructura de Google Cloud (<a href="https://www.youtube.com/watch?v=209DGQCism4">https://www.youtube.com/watch?v=209DGQCism4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es la Computación en la Nube? | AWS desde cero - Parte 1: Introducción (<a href="https://www.youtube.com/watch?v=IciVhWQ8npw">https://www.youtube.com/watch?v=IciVhWQ8npw</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es Cloud y sus principales servicios? (<a href="https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios">https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Conociendo Terraform (<a href="https://www.aluracursos.com/blog/conociendo-terraform">https://www.aluracursos.com/blog/conociendo-terraform</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Empezando con Docker (<a href="https://www.aluracursos.com/blog/empezando-con-docker">https://www.aluracursos.com/blog/empezando-con-docker</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Heroku, Vercel y otras opciones de cloud como plataforma (<a href="https://www.aluracursos.com/blog/heroku-vercel-y-otras-opciones-de-cloud-como-plataforma">https://www.aluracursos.com/blog/heroku-vercel-y-otras-opciones-de-cloud-como-plataforma</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fundamentos del OCI | Contenidos ONE (<a href="https://youtu.be/rEgSc0UqX-g">https://youtu.be/rEgSc0UqX-g</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Oracle Cloud Infrastructure: implementación de una aplicación en la nube (<a href="https://app.aluracursos.com/course/oracle-cloud-infrastructure-implementacion-aplicacion-nube">https://app.aluracursos.com/course/oracle-cloud-infrastructure-implementacion-aplicacion-nube</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Oracle Cloud Infrastructure: base de datos e infraestructura como código (<a href="https://app.aluracursos.com/course/oracle-cloud-infrastructure-base-datos-infraestructura-codigo">https://app.aluracursos.com/course/oracle-cloud-infrastructure-base-datos-infraestructura-codigo</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Deploy en Amazon EC2: Alta disponibilidad y escalabilidad de una aplicación (<a href="https://app.aluracursos.com/course/deploy-amazon-ec2-alta-disponibilidad-escalabilidad">https://app.aluracursos.com/course/deploy-amazon-ec2-alta-disponibilidad-escalabilidad</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Amazon Lightsail: Simplificando la nube (<a href="https://app.aluracursos.com/course/amazon-lightsail-simplificando-nube">https://app.aluracursos.com/course/amazon-lightsail-simplificando-nube</a>)</li>
+</ul>
+<h3>Git y GitHub - Fundamentos:</h3>
 <ul><li>Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.</li>
 <li>GitHub es un servicio de hosting para el desarrollo de software y el control de versiones mediante Git.</li>
 <li>Crear un repositorio</li>
@@ -368,7 +702,41 @@
 <li>Revertir un commit</li>
 <li>Crear de ramas y Pull requests</li>
 <li>Manejar fusiones y conflictos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linux - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Git: Libro de Consulta (<a href="https://git-scm.com/book/es/v2">https://git-scm.com/book/es/v2</a>)</li>
+<li><code data-kind="web">Web</code> GitHub Documentación (<a href="https://docs.github.com/es">https://docs.github.com/es</a>)</li>
+<li><code data-kind="web">Web</code> Github Pages Documentación (<a href="https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Git Tutorial (<a href="https://www.w3schools.com/git/default.asp?remote=github">https://www.w3schools.com/git/default.asp?remote=github</a>)</li>
+<li><code data-kind="web">Web</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="web">Web</code> Dangit, Git!?! (<a href="https://dangitgit.com/es">https://dangitgit.com/es</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Git and Github Quickstart Tutorial (<a href="https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca">https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es Git y cómo funciona? (<a href="https://www.youtube.com/watch?v=jGehuhFhtnE">https://www.youtube.com/watch?v=jGehuhFhtnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y Github | Guia Práctico de Git y Github Desde Cero (<a href="https://www.youtube.com/watch?v=HiXLkL42tMU">https://www.youtube.com/watch?v=HiXLkL42tMU</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Git y Github: que son y primeros pasos (<a href="https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos">https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía sobre cómo instalar Git en diferentes sistemas operativos (<a href="https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos">https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Iniciando un repositorio con Git (<a href="https://www.aluracursos.com/blog/iniciando-repositorio-con-git">https://www.aluracursos.com/blog/iniciando-repositorio-con-git</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Comenzando con Git: aprendiendo a versionar (<a href="https://www.aluracursos.com/blog/comenzando-con-git">https://www.aluracursos.com/blog/comenzando-con-git</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Creando un repositorio remoto en GitHub (<a href="https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github">https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Clonando un repositorio con Git y GitHub (<a href="https://www.aluracursos.com/blog/clonando-un-repositorio-remoto">https://www.aluracursos.com/blog/clonando-un-repositorio-remoto</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Paso a Paso para activar tu proyecto en GitHub Pages. (<a href="https://www.aluracursos.com/blog/github-pages">https://www.aluracursos.com/blog/github-pages</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo escribir un README increíble en tu Github (<a href="https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github">https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Buenas practicas en git: evitando errores (<a href="https://www.aluracursos.com/blog/como-evitar-errores-en-git">https://www.aluracursos.com/blog/como-evitar-errores-en-git</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: Errores de comandos y directorios (<a href="https://www.aluracursos.com/blog/git-errores-de-comandos-y-directorios">https://www.aluracursos.com/blog/git-errores-de-comandos-y-directorios</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: errores de commits (<a href="https://www.aluracursos.com/blog/git-errores-de-commits">https://www.aluracursos.com/blog/git-errores-de-commits</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: Errores de fusión (<a href="https://www.aluracursos.com/blog/errores-de-fusion">https://www.aluracursos.com/blog/errores-de-fusion</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: Errores con el remoto (<a href="https://www.aluracursos.com/blog/errores-con-el-remoto">https://www.aluracursos.com/blog/errores-con-el-remoto</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y GitHub para Principiantes #AluraMás (<a href="https://www.youtube.com/watch?v=-LmFK6skG7s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=-LmFK6skG7s&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y GitHub: Herramientas Esenciales para el Control de Versiones y Colaboración en Desarrollo (<a href="https://youtu.be/dw04N616Abw">https://youtu.be/dw04N616Abw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Puedo subir mi proyecto a Github sin líneas de comando? - Git y Github para principiantes (<a href="https://www.youtube.com/watch?v=Yfm16Tlpcwk&ab_channel=AluraLatam">https://www.youtube.com/watch?v=Yfm16Tlpcwk&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y GitHub: Herramientas Esenciales para el Control de Versiones y Colaboración en Desarrollo (<a href="https://www.youtube.com/watch?v=dw04N616Abw">https://www.youtube.com/watch?v=dw04N616Abw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Puedo subir mi proyecto a Github sin líneas de comando? - Git y Github para principiantes (<a href="https://www.youtube.com/watch?v=Yfm16Tlpcwk">https://www.youtube.com/watch?v=Yfm16Tlpcwk</a>)</li>
+<li><code data-kind="curso">Curso</code> Git y GitHub: repositorio, commit y versiones (<a href="https://app.aluracursos.com/course/git-github-repositorio-commit-versiones">https://app.aluracursos.com/course/git-github-repositorio-commit-versiones</a>)</li>
+<li><code data-kind="curso">Curso</code> Git y Github: estrategias de ramificación, conflictos y Pull Requests (<a href="https://www.aluracursos.com/curso-online-git-github-estrategias-ramificacion-conflictos-pull-requests">https://www.aluracursos.com/curso-online-git-github-estrategias-ramificacion-conflictos-pull-requests</a>)</li>
+</ul>
+<h3>Linux - Fundamentos:</h3>
 <ul><li>Linux es un término popularmente empleado para referirse a sistemas operativos que utilizan el Kernel - Linux. - Las distribuciones incluyen el kernel de Linux, además de software de sistema y bibliotecas.</li>
 <li>Conocer el sistema de directorios de Linux</li>
 <li>Comprimir y descomprimir archivos</li>
@@ -376,27 +744,106 @@
 <li>Conocer las variables de entorno y el PATH</li>
 <li>Administrar paquetes</li>
 <li>Realizar comunicación remota con SSH y SCP</li>
-</ul></li></ul>
-<h2>Habilidade Auxiliar: Business</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestión de Procesos de Negocio</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Sistema operativo Linux (<a href="https://www.computerweekly.com/es/definicion/Sistema-operativo-Linux">https://www.computerweekly.com/es/definicion/Sistema-operativo-Linux</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Linux 1: conociendo y utilizando la terminal (<a href="https://app.aluracursos.com/course/linux-1-conociendo-utilizando-terminal">https://app.aluracursos.com/course/linux-1-conociendo-utilizando-terminal</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux 2: programas, procesos y paquetes (<a href="https://app.aluracursos.com/course/linux-programas-procesos-paquetes">https://app.aluracursos.com/course/linux-programas-procesos-paquetes</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Entendiendo los permisos en el Linux (<a href="https://www.aluracursos.com/blog/entendiendo-las-permisiones-en-el-linux">https://www.aluracursos.com/blog/entendiendo-las-permisiones-en-el-linux</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Trabajando con caminos y carpetas en el terminal (<a href="https://www.aluracursos.com/blog/trabajando-con-caminos-y-carpetas-en-el-terminal">https://www.aluracursos.com/blog/trabajando-con-caminos-y-carpetas-en-el-terminal</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Linux: comprimiendo y descomprimiendo archivos con el tar (<a href="https://www.aluracursos.com/blog/Linux-comprimiendo-y-descomprimiendo-archivos-con-el-tar">https://www.aluracursos.com/blog/Linux-comprimiendo-y-descomprimiendo-archivos-con-el-tar</a>)</li>
+</ul>
+<h2>Habilidad Auxiliar: Business</h2>
+<h3>Gestión de Procesos de Negocio:</h3>
 <ul><li>La Gestión de Procesos de Negocios (BPM) es la disciplina que utiliza varios métodos para descubrir, modelar, analizar, medir, mejorar, optimizar y automatizar procesos de negocios.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Business Intelligence (BI) - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Gestión de Procesos: Importancia, Ejemplos y Ciclo de Vida (<a href="https://www.pipefy.com/es/blog/gestion-de-procesos/">https://www.pipefy.com/es/blog/gestion-de-procesos/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> El científico de datos en la empresa (<a href="https://medium.com/@gjavier.correo/el-cient%C3%ADfico-de-datos-en-la-empresa-ff3a09e784d4">https://medium.com/@gjavier.correo/el-científico-de-datos-en-la-empresa-ff3a09e784d4</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es la Metodología Ágil? (<a href="https://www.aluracursos.com/blog/que-es-la-metodologia-agil">https://www.aluracursos.com/blog/que-es-la-metodologia-agil</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué son las metodologias ágiles? (<a href="https://www.youtube.com/watch?v=6N3OkLCfK-0&ab_channel=AluraLatam">https://www.youtube.com/watch?v=6N3OkLCfK-0&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es Scrum? (<a href="https://www.aluracursos.com/blog/que-es-scrum">https://www.aluracursos.com/blog/que-es-scrum</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es el Método Kanban? Conceptos y Funciones. (<a href="https://www.aluracursos.com/blog/metodo-kanban-conceptos-y-funciones-agilidad">https://www.aluracursos.com/blog/metodo-kanban-conceptos-y-funciones-agilidad</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es MVP? Minimum Viable Product! (<a href="https://www.aluracursos.com/blog/que-es-mvp-minimum-viable-product">https://www.aluracursos.com/blog/que-es-mvp-minimum-viable-product</a>)</li>
+<li><code data-kind="curso">Curso</code> Roadmap: como crear y mantener un mapa del producto (<a href="https://www.aluracursos.com/curso-online-roadmap-crear-mantener-mapa-producto">https://www.aluracursos.com/curso-online-roadmap-crear-mantener-mapa-producto</a>)</li>
+<li><code data-kind="curso">Curso</code> Ciclo de vida del producto: Proyectos y procesos del mercado (<a href="https://www.aluracursos.com/curso-online-ciclo-vida-producto-proyectos-procesos-mercado">https://www.aluracursos.com/curso-online-ciclo-vida-producto-proyectos-procesos-mercado</a>)</li>
+</ul>
+<h3>Business Intelligence (BI) - Fundamentos:</h3>
 <ul><li>Business Intelligence es un conjunto de teorías, metodologías, procesos y tecnologías que posibilitan la transformación de los datos &quot;crudos&quot; en informaciones extremadamente relevantes para la toma de decisiones de una empresa.</li>
 <li>Conocer el proceso de ETL</li>
 <li>Realizar el modelado y estructuración de tablas en un almacén de datos</li>
 <li>Crear vistas que tengan sentido</li>
 <li>Conocer PowerBI</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Storytelling con datos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> ¿Qué es Business Intelligence? (<a href="https://www.ibm.com/cl-es/topics/business-intelligence">https://www.ibm.com/cl-es/topics/business-intelligence</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es una ETL? (<a href="https://medium.com/inteligencia-de-negocios/taller-etl-1-205d0bc101eb">https://medium.com/inteligencia-de-negocios/taller-etl-1-205d0bc101eb</a>)</li>
+<li><code data-kind="web">Web</code> Extracción, transformación y carga de datos (ETL) (<a href="https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/etl">https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/etl</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es Business Intelligence? (<a href="https://www.aluracursos.com/blog/que-es-business-intelligence">https://www.aluracursos.com/blog/que-es-business-intelligence</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Power BI: ¿qué es? (<a href="https://www.aluracursos.com/blog/power-bi-que-es">https://www.aluracursos.com/blog/power-bi-que-es</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Power BI o Excel para Business Intelligence? (<a href="https://www.aluracursos.com/blog/power-bi-o-excel-para-business-intelligence">https://www.aluracursos.com/blog/power-bi-o-excel-para-business-intelligence</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Power BI; Cálculando el promedio mensual (<a href="https://www.aluracursos.com/blog/power-bi-calculo-de-la-media-mensual">https://www.aluracursos.com/blog/power-bi-calculo-de-la-media-mensual</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Power BI: Fusionando consultas en Power Query (<a href="https://www.aluracursos.com/blog/power-bi-fusionando-consultas-en-power-query">https://www.aluracursos.com/blog/power-bi-fusionando-consultas-en-power-query</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Analista de BI en T (<a href="https://www.aluracursos.com/blog/analista-de-bi-en-t">https://www.aluracursos.com/blog/analista-de-bi-en-t</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fundamentos DAX #AluraMás (<a href="https://www.youtube.com/watch?v=EWFd8dyGaP0&ab_channel=AluraLatam">https://www.youtube.com/watch?v=EWFd8dyGaP0&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Power BI (<a href="https://app.aluracursos.com/formacion-power-bi">https://app.aluracursos.com/formacion-power-bi</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Business Intelligence con Excel (<a href="https://app.aluracursos.com/formacion-business-intelligence-excel">https://app.aluracursos.com/formacion-business-intelligence-excel</a>)</li>
+<li><code data-kind="curso">Curso</code> Oracle Analytics: visualizando datos (<a href="https://www.aluracursos.com/curso-online-oracle-analytics-visualizando-datos">https://www.aluracursos.com/curso-online-oracle-analytics-visualizando-datos</a>)</li>
+</ul>
+<h3>Storytelling con datos:</h3>
 <ul><li>Utilizar algoritmos y sistemas para extraer, organizar y analizar datos de diversas fuentes con el fin de detectar patrones y tomar decisiones comerciales</li>
 <li>Las áreas de aplicación son infinitas, como en negocios, biología, medicina, ingeniería, etc.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Excel</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Contar historias con datos: Qué y Por Qué (<a href="https://medium.com/datos-y-ciencia/contar-historias-con-datos-qu%C3%A9-y-por-qu%C3%A9-6c8b39147b5e">https://medium.com/datos-y-ciencia/contar-historias-con-datos-qué-y-por-qué-6c8b39147b5e</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Cómo contar una buena historia con datos?  (<a href="https://ladatacuenta.com/2018/01/27/como-contar-una-buena-historia-con-datos/">https://ladatacuenta.com/2018/01/27/como-contar-una-buena-historia-con-datos/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Storytelling con datos: Cómo contar historias con datos para cautivar a tu audiencia (<a href="https://es.linkedin.com/pulse/storytelling-con-datos-c%C3%B3mo-contar-historias-para-cautivar-larrea?trk=pulse-article">https://es.linkedin.com/pulse/storytelling-con-datos-cómo-contar-historias-para-cautivar-larrea?trk=pulse-article</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué tengo que hacer para contar historias con datos a mi audiencia? (<a href="https://www.youtube.com/watch?v=5SMn2-mrGa8&ab_channel=Comunicaci%C3%B3nNum%C3%A9rica">https://www.youtube.com/watch?v=5SMn2-mrGa8&amp;ab_channel=ComunicaciónNumérica</a>)</li>
+<li><code data-kind="youtube">YouTube</code> #DataDaysVirtual 20.08 - Storytelling en Ciencia de Datos (<a href="https://www.youtube.com/watch?v=xzcLXPpD-F8&ab_channel=SoftwareGuru">https://www.youtube.com/watch?v=xzcLXPpD-F8&amp;ab_channel=SoftwareGuru</a>)</li>
+</ul>
+<h3>Excel:</h3>
 <ul><li>Microsoft Excel es un editor de hojas de cálculo producido por Microsoft con herramientas de cálculo y de construcción de tablas.</li>
 <li>Realizar las operaciones matemáticas básicas con sus operadores (suma, resta, multiplicación y división).</li>
 <li>Conocer las principales fórmulas, como &#39;MEDIA&#39; (AVERAGE), &#39;ARRED&#39; (ROUND), &#39;MÁXIMO&#39; (MAX), &#39;MÍNIMO&#39; (MIN), etc.</li>
 <li>Realizar búsquedas en columnas con la función &#39;PROCV&#39;.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Habilidades de Comunicación</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Aprendizajes en vídeo de Excel (<a href="https://support.microsoft.com/es-es/office/aprendizajes-en-v%C3%ADdeo-de-excel-9bc05390-e94c-46af-a5b3-d7c22f6990bb">https://support.microsoft.com/es-es/office/aprendizajes-en-vídeo-de-excel-9bc05390-e94c-46af-a5b3-d7c22f6990bb</a>)</li>
+<li><code data-kind="web">Web</code> PROMEDIO (función PROMEDIO) (<a href="https://support.microsoft.com/es-es/office/promedio-funci%C3%B3n-promedio-047bac88-d466-426c-a32b-8f33eb960cf6">https://support.microsoft.com/es-es/office/promedio-función-promedio-047bac88-d466-426c-a32b-8f33eb960cf6</a>)</li>
+<li><code data-kind="web">Web</code> Redondear un número (<a href="https://support.microsoft.com/es-es/office/redondear-un-n%C3%BAmero-f82b440b-689d-4221-b21e-38da99d33435">https://support.microsoft.com/es-es/office/redondear-un-número-f82b440b-689d-4221-b21e-38da99d33435</a>)</li>
+<li><code data-kind="web">Web</code> Función BUSCARV (<a href="https://support.microsoft.com/es-es/office/funci%C3%B3n-buscarv-0bbc8083-26fe-4963-8ab8-93a18ad188a1">https://support.microsoft.com/es-es/office/función-buscarv-0bbc8083-26fe-4963-8ab8-93a18ad188a1</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> ¿Sabes utilizar Excel? (<a href="https://www.youtube.com/watch?v=dJveqIf709U&ab_channel=AluraLatam">https://www.youtube.com/watch?v=dJveqIf709U&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Conoces la versión online de Excel? #AluraMás (<a href="https://www.youtube.com/watch?v=ul2mhdOWGLE&ab_channel=AluraLatam">https://www.youtube.com/watch?v=ul2mhdOWGLE&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Excel (<a href="https://app.aluracursos.com/formacion-excel">https://app.aluracursos.com/formacion-excel</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Excel VBA (<a href="https://app.aluracursos.com/formacion-vba">https://app.aluracursos.com/formacion-vba</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Business Intelligence con Excel (<a href="https://www.aluracursos.com/formacion-business-intelligence-excel">https://www.aluracursos.com/formacion-business-intelligence-excel</a>)</li>
+</ul>
+<h3>Habilidades de Comunicación:</h3>
 <ul><li>Un buen nivel de comunicación facilita el logro de objetivos, resolución de problemas, además de aumentar la productividad, porque cada profesional sabrá exactamente lo que se espera de él y transmitir con claridad sus ideas.</li>
-</ul></li></ul>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="curso">Curso</code> Cómo hablar bien en público (<a href="https://www.coursera.org/learn/hablar-bien-en-publico">https://www.coursera.org/learn/hablar-bien-en-publico</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de oratoria (<a href="https://edutin.com/curso-de-oratoria-4203">https://edutin.com/curso-de-oratoria-4203</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> ¿Qué son las Soft Skills? (<a href="https://www.youtube.com/watch?v=vhwspfvI52k&ab_channel=AluraLatam">https://www.youtube.com/watch?v=vhwspfvI52k&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Cuáles son las soft y hard skills necesarias para trabajar con tecnología? #17 AluraTips (<a href="https://www.youtube.com/watch?v=7lnmW8fB0nM&ab_channel=AluraLatam">https://www.youtube.com/watch?v=7lnmW8fB0nM&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Comunicación en el día a día (<a href="https://www.youtube.com/watch?v=pOYyav4qx7o">https://www.youtube.com/watch?v=pOYyav4qx7o</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Soft Skills: qué son y cómo desarrollarlas (<a href="https://www.aluracursos.com/blog/soft-skills-que-son-y-como-desarrollarlas">https://www.aluracursos.com/blog/soft-skills-que-son-y-como-desarrollarlas</a>)</li>
+<li><code data-kind="artículo">Artículo</code> 5 pasos para una comunicación más asertiva (<a href="https://www.aluracursos.com/blog/5-pasos-para-una-comunicacion-mas-asertiva">https://www.aluracursos.com/blog/5-pasos-para-una-comunicacion-mas-asertiva</a>)</li>
+<li><code data-kind="curso">Curso</code> Pitch para entrevistas: Haga presentaciones impactantes (<a href="https://www.aluracursos.com/curso-online-pitch-entrevistas-presentaciones-impactantes">https://www.aluracursos.com/curso-online-pitch-entrevistas-presentaciones-impactantes</a>)</li>
+<li><code data-kind="curso">Curso</code> Comunicación no violenta: desarrolle su empatía (<a href="https://www.aluracursos.com/curso-online-comunicacion-no-violenta-desarrolle-su-empatia">https://www.aluracursos.com/curso-online-comunicacion-no-violenta-desarrolle-su-empatia</a>)</li>
+<li><code data-kind="curso">Curso</code> Comunicación: como expresarse y ser compreendido (<a href="https://www.aluracursos.com/curso-online-comunicacion-expresarse-ser-compreendido">https://www.aluracursos.com/curso-online-comunicacion-expresarse-ser-compreendido</a>)</li>
+<li><code data-kind="curso">Curso</code> Feedback: el arte de orientar y ser orientado con sentido (<a href="https://www.aluracursos.com/curso-online-feedback-arte-orientar-orientado-sentido">https://www.aluracursos.com/curso-online-feedback-arte-orientar-orientado-sentido</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,54 +249,110 @@
   </div>
 
   <div class="content">
-    <h1>Motion Design</h1>
-<h2>Nivel 1</h2>
+    <h2>Nivel 1</h2>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Motion branding</strong>:</li>
+<h3>Motion branding:</h3>
 <ul><li>Familiarize-se com os princípios básicos do Motion Graphics e sua aplicação no design e branding.</li>
 <li>Aprender a utilizar o After Effects e outras ferramentas essenciais para criar animações profissionais.</li>
 <li>Criar animações que fortaleçam a identidade visual das marcas.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> A importância do Motion Graphics no Web Design (<a href="https://motiondesign.school/blog/the-importance-of-motion-graphics-in-web-design/">https://motiondesign.school/blog/the-importance-of-motion-graphics-in-web-design/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Melhore a experiência do usuário com Motion Design (<a href="https://www.alura.com.br/artigos/melhore-a-experiencia-do-usuario-com-motion-design">https://www.alura.com.br/artigos/melhore-a-experiencia-do-usuario-com-motion-design</a>)</li>
+<li><code data-kind="curso">Curso</code> Canva: criando vídeos com motion graphics (<a href="https://www.alura.com.br/curso-online-canva-criando-videos-motion-graphics">https://www.alura.com.br/curso-online-canva-criando-videos-motion-graphics</a>)</li>
+<li><code data-kind="curso">Curso</code> Mídias sociais: design em movimento com o Canva (<a href="https://www.alura.com.br/curso-online-midias-sociais-design-movimento-canva">https://www.alura.com.br/curso-online-midias-sociais-design-movimento-canva</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Framer Motion</strong>:</li>
+<h3>Framer Motion:</h3>
 <ul><li>Criar animações</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: Framer Motion (inglês) (<a href="https://www.framer.com/motion/">https://www.framer.com/motion/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Framer Motion + React (Exemplo de Utilização) (<a href="https://medium.com/@leonardord99/framer-motion-react-514f39a9d03e">https://medium.com/@leonardord99/framer-motion-react-514f39a9d03e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Galeria De Páginas Deslizantes Animadas Usando Framer-motion E React.js (<a href="https://acervolima.com/galeria-de-paginas-deslizantes-animadas-usando-framer-motion-e-react-js/">https://acervolima.com/galeria-de-paginas-deslizantes-animadas-usando-framer-motion-e-react-js/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> PedroTech: Animations In React - Framer-Motion Tutorial (inglês) (<a href="https://www.youtube.com/watch?v=GOuwOI-WSkE">https://www.youtube.com/watch?v=GOuwOI-WSkE</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> TL Draw: o que é e como escrever códigos com desenhos (<a href="https://www.alura.com.br/artigos/tl-draw">https://www.alura.com.br/artigos/tl-draw</a>)</li>
+<li><code data-kind="curso">Curso</code> Framer: construindo um portal do colaborador com IA (<a href="https://cursos.alura.com.br/course/framer-construindo-portal-colaborador-ia">https://cursos.alura.com.br/course/framer-construindo-portal-colaborador-ia</a>)</li>
+<li><code data-kind="curso">Curso</code> Framer: criando seu e-commerce com IA (<a href="https://cursos.alura.com.br/formacao-framer-criando-e-commerce-ia">https://cursos.alura.com.br/formacao-framer-criando-e-commerce-ia</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Fundamentos Ampliados</h2>
-<ul><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
-<strong>Criação e composição</strong>:</p>
-</li>
-<ul><li><p>null</p>
-</li>
-<li><p>null</p>
-</li>
-<li><p>null</p>
-</li>
-</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
-<strong>Identidade visual</strong>:</p>
-</li>
-<ul><li><p>null</p>
-</li>
-<li><p>null</p>
-</li>
-<li><p>null</p>
-</li>
-<li><p>null</p>
-</li>
-</ul></li></ul>
+<h3>Criação e composição:</h3>
+<ul><li>null</li>
+<li>null</li>
+<li>null</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Gestalt? (<a href="https://medium.com/chocoladesign/o-que-%C3%A9-gestalt-f3beb4a6af4a">https://medium.com/chocoladesign/o-que-%C3%A9-gestalt-f3beb4a6af4a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> As Leis da Gestalt Aplicadas ao Design de Interfaces (<a href="https://brasil.uxdesign.cc/as-leis-da-gestalt-aplicadas-ao-design-de-interfaces-efc480dc06ec">https://brasil.uxdesign.cc/as-leis-da-gestalt-aplicadas-ao-design-de-interfaces-efc480dc06ec</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Você conhece o princípio de Gestalt? (<a href="https://www.alura.com.br/artigos/voce-conhece-o-principio-de-gestalt?srsltid=AfmBOorliKu4rBm7cQfKD3UCXtN_yAZZp-wXDRa9jyiq2ucHSHoDBdkn">https://www.alura.com.br/artigos/voce-conhece-o-principio-de-gestalt?srsltid=AfmBOorliKu4rBm7cQfKD3UCXtN_yAZZp-wXDRa9jyiq2ucHSHoDBdkn</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como justificar um bom design ou identificar erros em uma composição visual (<a href="https://www.alura.com.br/artigos/como-justificar-um-bom-design-ou-identificar-erros-em-uma-composicao-visual">https://www.alura.com.br/artigos/como-justificar-um-bom-design-ou-identificar-erros-em-uma-composicao-visual</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Gráfico com Gestalt: desenvolva um projeto gráfico (<a href="https://cursos.alura.com.br/course/design-grafico-gestalt">https://cursos.alura.com.br/course/design-grafico-gestalt</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Gestalt e Semiótica – Layers ponto tech #97 (<a href="https://www.layerspontotech.com.br/2022/09/12/gestalt-e-semiotica-layers-ponto-tech-97/">https://www.layerspontotech.com.br/2022/09/12/gestalt-e-semiotica-layers-ponto-tech-97/</a>)</li>
+</ul>
+<h3>Identidade visual:</h3>
+<ul><li>null</li>
+<li>null</li>
+<li>null</li>
+<li>null</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Identidade visual: o que é, qual a importância e como criar uma (<a href="https://www.cursospm3.com.br/blog/identidade-visual/">https://www.cursospm3.com.br/blog/identidade-visual/</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Gráfico (<a href="https://www.eucapacito.com.br/cursos/design-grafico/">https://www.eucapacito.com.br/cursos/design-grafico/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Design Gráfico: desenvolvendo identidade visual (<a href="https://cursos.alura.com.br/course/design-grafico-identidade-visual">https://cursos.alura.com.br/course/design-grafico-identidade-visual</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Gráfico: construindo os elementos de uma identidade visual (<a href="https://cursos.alura.com.br/course/design-grafico-elementos-identidade-visual">https://cursos.alura.com.br/course/design-grafico-elementos-identidade-visual</a>)</li>
+<li><code data-kind="curso">Curso</code> Adobe Illustrator: compondo peças gráficas (<a href="https://cursos.alura.com.br/course/adobe-illustrator-compondo-pecas-graficas">https://cursos.alura.com.br/course/adobe-illustrator-compondo-pecas-graficas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Keyvisual: o que é e como ele pode te ajudar a criar um identidade única (<a href="https://www.alura.com.br/artigos/keyvisual-o-que-e-como-pode-te-ajudar">https://www.alura.com.br/artigos/keyvisual-o-que-e-como-pode-te-ajudar</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Edição Estratégica</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição e Ritmo</strong>:</li>
+<h3>Edição e Ritmo:</h3>
 <ul><li>Compreender a importância do ritmo na edição de vídeos para criar uma narrativa envolvente.</li>
 <li>Aprender técnicas de corte e transição para manter o interesse do público.</li>
 <li>Explorar o uso de efeitos de som e música para intensificar o impacto emocional do vídeo.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição com Identidade Visual</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Dicas para editar vídeos no ritmo da música (<a href="https://olivetreefilms.com/br/blog/dicas-para-editar-videos-no-ritmo-da-musica/">https://olivetreefilms.com/br/blog/dicas-para-editar-videos-no-ritmo-da-musica/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Set the Pace With This Guide to Film Rhythm Editing (<a href="https://www.backstage.com/magazine/article/film-rhythm-editing-guide-77147/">https://www.backstage.com/magazine/article/film-rhythm-editing-guide-77147/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Premiere Pro: edição com foco em timing e ritmo (<a href="https://www.alura.com.br/curso-online-premiere-pro-edicao-foco-timing-ritmo">https://www.alura.com.br/curso-online-premiere-pro-edicao-foco-timing-ritmo</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Ritmo na edição – Layers ponto tech #04 (<a href="https://www.alura.com.br/artigos/layers-ponto-tech-ep-04?srsltid=AfmBOoqVZk25kk1fsCH9iM-e8uUL2nnhSkgXPgMeqUCUZlYARW7oIne0">https://www.alura.com.br/artigos/layers-ponto-tech-ep-04?srsltid=AfmBOoqVZk25kk1fsCH9iM-e8uUL2nnhSkgXPgMeqUCUZlYARW7oIne0</a>)</li>
+</ul>
+<h3>Edição com Identidade Visual:</h3>
 <ul><li>Estabelecer uma identidade visual consistente que fortaleça a marca ou estilo do conteúdo.</li>
 <li>Aprender a incorporar elementos visuais únicos, como cores, tipografia e gráficos, na edição de vídeo.</li>
 <li>Explorar técnicas para criar uma experiência visual coesa que ressoe com o público.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição para plataformas de mídia social</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Create videos that match your branding identity (<a href="https://creativecloud.adobe.com/discover/article/create-videos-that-match-your-branding-identity">https://creativecloud.adobe.com/discover/article/create-videos-that-match-your-branding-identity</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como CRIAR IDENTIDADE VISUAL no FILMORA e FORTALECER sua MARCA | Edição de Vídeos (<a href="https://www.youtube.com/watch?v=1EY-cM1Ayhg">https://www.youtube.com/watch?v=1EY-cM1Ayhg</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Identidade visual para vídeos: elementos essenciais para chamar a atenção nas redes sociais (<a href="https://www.trilhafilmes.com/post/identidade-visual-para-v%C3%ADdeos-elementos-essenciais-para-chamar-a-aten%C3%A7%C3%A3o-nas-redes-sociais">https://www.trilhafilmes.com/post/identidade-visual-para-v%C3%ADdeos-elementos-essenciais-para-chamar-a-aten%C3%A7%C3%A3o-nas-redes-sociais</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Edição de vídeo: editando vídeos com identidade visual (<a href="https://cursos.alura.com.br/course/edicao-video-editando-videos-identidade-visual">https://cursos.alura.com.br/course/edicao-video-editando-videos-identidade-visual</a>)</li>
+</ul>
+<h3>Edição para plataformas de mídia social:</h3>
 <ul><li>Entender as especificidades de edição para cada plataforma de mídia social, como Instagram, TikTok e YouTube.</li>
 <li>Aprender a ajustar o formato, duração e estilo dos vídeos para engajar o público de forma eficaz.</li>
 <li>Utilizar elementos visuais e textuais que maximizem o impacto e a retenção em visualizações curtas.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como otimizar vídeos para redes sociais: veja dicas (<a href="https://infinityplus.com.br/blog/como-otimizar-videos-para-redes-sociais/">https://infinityplus.com.br/blog/como-otimizar-videos-para-redes-sociais/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 3 dicas de como otimizar vídeos para redes sociais (<a href="https://olivetreefilms.com/br/blog/dicas-de-como-otimizar-videos-para-redes-sociais/">https://olivetreefilms.com/br/blog/dicas-de-como-otimizar-videos-para-redes-sociais/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O guia definitivo para editar vídeos do TikTok e do Instagram | Entrevista com criadores (<a href="https://www.submagic.co/br/blog/how-to-edit-tiktok-and-instagram-videos">https://www.submagic.co/br/blog/how-to-edit-tiktok-and-instagram-videos</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Mídias sociais: criando vídeos para as redes (<a href="https://cursos.alura.com.br/course/midias-sociais-criando-videos-redes">https://cursos.alura.com.br/course/midias-sociais-criando-videos-redes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é design para mídias sociais? (<a href="https://www.alura.com.br/artigos/design-midias-sociais">https://www.alura.com.br/artigos/design-midias-sociais</a>)</li>
+<li><code data-kind="curso">Curso</code> Mídias sociais: design em movimento com o Canva (<a href="https://cursos.alura.com.br/course/midias-sociais-design-movimento-canva">https://cursos.alura.com.br/course/midias-sociais-design-movimento-canva</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

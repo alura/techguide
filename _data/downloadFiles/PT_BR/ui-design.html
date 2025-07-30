@@ -71,11 +71,61 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +151,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +228,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,40 +248,143 @@
   </div>
 
   <div class="content">
-    <h1>UI Design</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Princípios do design visual</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Princípios do design visual:</h3>
 <ul><li>null</li>
 <li>Conheça as propriedades fundamentais destes elementos quanto aprender como manipulá-las em seus projetos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Primeiro contato com UX</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> A Arte do Design Visual: Transformando Conceitos em Experiência Visual (<a href="https://medium.com/@munichkelly/a-arte-do-design-visual-transformando-conceitos-em-experi%C3%AAncia-visual-517f7f8ce204">https://medium.com/@munichkelly/a-arte-do-design-visual-transformando-conceitos-em-experi%C3%AAncia-visual-517f7f8ce204</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tipografia: Guia Sobre Tipos – Escolhendo a fonte certa [parte 01] (<a href="https://chiefofdesign.com.br/tipografia/">https://chiefofdesign.com.br/tipografia/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Teoria das Cores – Guia sobre teoria e harmonia das cores no Design (<a href="https://chiefofdesign.com.br/teoria-das-cores/">https://chiefofdesign.com.br/teoria-das-cores/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Design Digital ou Design Gráfico: entenda a Real diferença na prática (<a href="https://www.youtube.com/watch?v=gIZoayWp6i8&ab_channel=ChiefofDesign">https://www.youtube.com/watch?v=gIZoayWp6i8&amp;ab_channel=ChiefofDesign</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 20 dicas de design visual para iniciantes (<a href="https://www.alura.com.br/artigos/design-visual-para-iniciantes">https://www.alura.com.br/artigos/design-visual-para-iniciantes</a>)</li>
+<li><code data-kind="curso">Curso</code> Cores no design: teoria e prática (<a href="https://cursos.alura.com.br/course/cores-design-teoria-pratica">https://cursos.alura.com.br/course/cores-design-teoria-pratica</a>)</li>
+<li><code data-kind="curso">Curso</code> Tipografia: conceitos e prática (<a href="https://cursos.alura.com.br/course/tipografia-conceitos-pratica">https://cursos.alura.com.br/course/tipografia-conceitos-pratica</a>)</li>
+<li><code data-kind="curso">Curso</code> Grids: como organizar o conteúdo visual (<a href="https://cursos.alura.com.br/course/grids-organizar-conteudo-visual">https://cursos.alura.com.br/course/grids-organizar-conteudo-visual</a>)</li>
+</ul>
+<h3>Primeiro contato com UX:</h3>
 <ul><li>Não existe aplicativo ou site sem usuário. Uma ideia só vira um produto quando é usada por alguém de verdade. E um produto só é um sucesso quando a pessoa tem uma experiência voltada exclusivamente para ela.</li>
 <li>A área de UX - Experiência do Usuário - é um campo riquíssimo de conhecimento e desafios sobre como facilitar o contato dos nossos usuários com nossos produtos digitais e como essas pessoas se sentem. É um mercado imenso, sendo importante na Web, na construção de aplicativos e sistemas, além de ser importante também no mundo off-line.</li>
 <li>A especialidade em UX é hoje bastante requisitada em todo tipo de projeto de tecnologia, desde pequenas startups até grandes empresas. Este profissional é responsável por garantir que o design atenda às necessidades das pessoas usuárias, garantindo uma boa experiência de uso/compra para estas pessoas.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Fundamentos de UI</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como começar em UX design — um guia completo (https:<a href="https://brasil.uxdesign.cc/como-migrar-para-ux-design-comecar-guia-completo-875db7cc3b4">https://brasil.uxdesign.cc/como-migrar-para-ux-design-comecar-guia-completo-875db7cc3b4</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como montar um portfólio de UX se eu ainda não trabalho com UX? (<a href="https://brasil.uxdesign.cc/como-montar-um-portf%C3%B3lio-de-ux-se-eu-ainda-n%C3%A3o-trabalho-com-ux-c5ec6434de20">https://brasil.uxdesign.cc/como-montar-um-portfólio-de-ux-se-eu-ainda-não-trabalho-com-ux-c5ec6434de20</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 6 Livros para Iniciantes em UX/UI Design (<a href="https://medium.com/@meninadeux/6-livros-para-iniciantes-em-ux-ui-design-79407584b307">https://medium.com/@meninadeux/6-livros-para-iniciantes-em-ux-ui-design-79407584b307</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> UX Design: o que é, profissões e um guia para iniciar na área (<a href="https://www.alura.com.br/artigos/ux-design">https://www.alura.com.br/artigos/ux-design</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 ferramentas para teste de usabilidade em produtos digitais (<a href="https://www.cursospm3.com.br/blog/ferramentas-para-teste-de-usabilidade/">https://www.cursospm3.com.br/blog/ferramentas-para-teste-de-usabilidade/</a>)</li>
+<li><code data-kind="curso">Curso</code> Design thinking: viabilizando soluções (<a href="https://cursos.alura.com.br/course/design-thinking-viabilizando-solucoes">https://cursos.alura.com.br/course/design-thinking-viabilizando-solucoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação UX Design (<a href="https://cursos.alura.com.br/formacao-ux">https://cursos.alura.com.br/formacao-ux</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Profissão UX designer (<a href="https://cursos.alura.com.br/extra/layerstech/profissao-uxdesigner-a-layers-ponto-tech-34-a1038">https://cursos.alura.com.br/extra/layerstech/profissao-uxdesigner-a-layers-ponto-tech-34-a1038</a>)</li>
+</ul>
+<h3>Fundamentos de UI:</h3>
 <ul><li>O ponto de partida ideal para começarmos a desbravar a área de User Interface Design é entendendo perfeitamente o que ela é, como é representada, como outros profissionais a enxergam, e claro, sua relevância para a construção de um produto.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ferramentas de design</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Desenhando Experiências Inesquecíveis: 10 Princípios de UI Design (<a href="https://medium.com/@rafavulcano/desenhando-experi%C3%AAncias-inesquec%C3%ADveis-10-princ%C3%ADpios-de-ui-design-de9dc1f1cc18">https://medium.com/@rafavulcano/desenhando-experi%C3%AAncias-inesquec%C3%ADveis-10-princ%C3%ADpios-de-ui-design-de9dc1f1cc18</a>)</li>
+<li><code data-kind="site">Site</code> Colour Contrast Checker (<a href="https://colourcontrast.cc/">https://colourcontrast.cc/</a>)</li>
+<li><code data-kind="site">Site</code> Modular Scale (<a href="https://www.modularscale.com/">https://www.modularscale.com/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> UI Design: o que é, UX vs UI e um Guia da profissão de UI Designer (<a href="https://www.alura.com.br/artigos/ui-design">https://www.alura.com.br/artigos/ui-design</a>)</li>
+<li><code data-kind="curso">Curso</code> UI Design: mergulhando nas interfaces digitais (<a href="https://www.alura.com.br/curso-online-ui-design-mergulhando-interfaces-digitais">https://www.alura.com.br/curso-online-ui-design-mergulhando-interfaces-digitais</a>)</li>
+</ul>
+<h3>Ferramentas de design:</h3>
 <ul><li>O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Quem pode utilizar o Figma (<a href="https://mppagano.medium.com/quem-pode-utilizar-o-figma-e8525b84c1ad">https://mppagano.medium.com/quem-pode-utilizar-o-figma-e8525b84c1ad</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O Figma e a próxima geração de ferramentas de Design (<a href="https://brasil.uxdesign.cc/o-figma-e-a-pr%C3%B3xima-gera%C3%A7%C3%A3o-de-ferramentas-de-design-ab1682d2a2dd">https://brasil.uxdesign.cc/o-figma-e-a-pr%C3%B3xima-gera%C3%A7%C3%A3o-de-ferramentas-de-design-ab1682d2a2dd</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como A Comunidade Figma Está Transformando O Cenário De Design No Brasil (<a href="https://awari.com.br/como-a-comunidade-figma-esta-transformando-o-cenario-de-design-no-brasil/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=Como%20A%20Comunidade%20Figma%20Est%C3%A1%20Transformando%20O%20Cen%C3%A1rio%20De%20Design%20No%20Brasil">https://awari.com.br/como-a-comunidade-figma-esta-transformando-o-cenario-de-design-no-brasil/?utm_source=blog&amp;utm_campaign=projeto+blog&amp;utm_medium=Como%20A%20Comunidade%20Figma%20Est%C3%A1%20Transformando%20O%20Cen%C3%A1rio%20De%20Design%20No%20Brasil</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Figma: o que é a ferramenta, Design e uso (<a href="https://www.alura.com.br/artigos/figma">https://www.alura.com.br/artigos/figma</a>)</li>
+<li><code data-kind="podcast">Podcast</code> O Figma (<a href="https://www.layerspontotech.com.br/2023/03/13/edicao-de-trailers-layers-ponto-tech-122/">https://www.layerspontotech.com.br/2023/03/13/edicao-de-trailers-layers-ponto-tech-122/</a>)</li>
+<li><code data-kind="curso">Curso</code> Figma: conhecendo a ferramenta (<a href="https://www.alura.com.br/curso-online-figma-conhecendo-ferramenta">https://www.alura.com.br/curso-online-figma-conhecendo-ferramenta</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Variáveis no Figma (<a href="https://www.alura.com.br/artigos/variaveis-figma">https://www.alura.com.br/artigos/variaveis-figma</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Avançando na UI</strong>:</li>
+<h3>Avançando na UI:</h3>
 <ul><li>Dê início em processos de UI, idealizando a construção de um produto, entendendo os fundamentos e estruturas.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design, estratégia e UX</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Material Design (<a href="https://m2.material.io/">https://m2.material.io/</a>)</li>
+<li><code data-kind="site">Site</code> Dribbble (<a href="https://dribbble.com/">https://dribbble.com/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Os diferentes tipos e funções dos Protótipos (<a href="https://brasil.uxdesign.cc/os-diferentes-tipos-e-fun%C3%A7%C3%B5es-dos-prot%C3%B3tipos-54981e35b5a4">https://brasil.uxdesign.cc/os-diferentes-tipos-e-fun%C3%A7%C3%B5es-dos-prot%C3%B3tipos-54981e35b5a4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Regra 60-30-10 em UI Design (<a href="https://www.alura.com.br/artigos/regra-60-30-10-ui-design">https://www.alura.com.br/artigos/regra-60-30-10-ui-design</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Prototipação (<a href="https://www.layerspontotech.com.br/2022/05/23/prototipacao-layers-ponto-tech-81/">https://www.layerspontotech.com.br/2022/05/23/prototipacao-layers-ponto-tech-81/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> UI Design: criando o design de um protótipo (<a href="https://cursos.alura.com.br/course/ui-design-criando-design-prototipo">https://cursos.alura.com.br/course/ui-design-criando-design-prototipo</a>)</li>
+</ul>
+<h3>Design, estratégia e UX:</h3>
 <ul><li>A pessoa usuária é muito importante para a UX, porém existe um outro ponto que também tem grande peso - o negócio, pois um produto precisa ser bom e financeiramente agradável para todos os lados.</li>
 <li>A UX possui processos e ferramentas com focos em unir os interesses das empresas, as dores e necessidades das pessoas usuárias, e considera a capacidade da equipe de desenvolvimento sem gerar esgotamento.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ferramentas de design - Parte II</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design Estratégico: Como ele pode alavancar resultados do seu negócio (<a href="https://brasil.uxdesign.cc/design-estrat%C3%A9gico-o-que-%C3%A9-e-como-ele-pode-alavancar-os-resultados-do-seu-neg%C3%B3cio-27c198dcf26b">https://brasil.uxdesign.cc/design-estrat%C3%A9gico-o-que-%C3%A9-e-como-ele-pode-alavancar-os-resultados-do-seu-neg%C3%B3cio-27c198dcf26b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> UX Strategy, o design estratégico que seu produto precisa (<a href="https://medium.com/obj-experience-chapter/ux-strategy-5b2caf9b9d13">https://medium.com/obj-experience-chapter/ux-strategy-5b2caf9b9d13</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O poder do Design no planejamento estratégico de produto (<a href="https://brasil.uxdesign.cc/o-poder-do-design-no-planejamento-estrategico-de-produto-96470f21ea6d">https://brasil.uxdesign.cc/o-poder-do-design-no-planejamento-estrategico-de-produto-96470f21ea6d</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> UX Design e sua relação com a área de negócios (<a href="https://www.alura.com.br/artigos/ux-design-relacao-area-de-negocios">https://www.alura.com.br/artigos/ux-design-relacao-area-de-negocios</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Design: concepção do produto pós-pesquisa (<a href="https://cursos.alura.com.br/course/ux-design-concepcao-produto-pos-pesquisa">https://cursos.alura.com.br/course/ux-design-concepcao-produto-pos-pesquisa</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Design: elaborando projetos estratégicos (<a href="https://cursos.alura.com.br/course/ux-design-elaborando-projetos-estrategicos">https://cursos.alura.com.br/course/ux-design-elaborando-projetos-estrategicos</a>)</li>
+</ul>
+<h3>Ferramentas de design - Parte II:</h3>
 <ul><li>Apesar de as ferramentas fundamentais serem praticamente autosuficientes para criar produtos digitais completos, o Figma possui recursos que permitem melhorar nossas interfaces, e até mesmo automatizar diversos processos para construir produtos em diversos dispositivos diferentes.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Using auto layout (<a href="https://help.figma.com/hc/en-us/articles/5731482952599-Using-auto-layout">https://help.figma.com/hc/en-us/articles/5731482952599-Using-auto-layout</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Masks (<a href="https://help.figma.com/hc/en-us/articles/360040450253-Masks">https://help.figma.com/hc/en-us/articles/360040450253-Masks</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Potencialize seus Projetos no Figma: Conheça os 10 plugins que transformam o fluxo de trabalho! (<a href="https://medium.com/@rafavulcano/potencialize-seus-projetos-no-figma-conhe%C3%A7a-os-10-plugins-que-transformam-o-fluxo-de-trabalho-ba3eb2548587">https://medium.com/@rafavulcano/potencialize-seus-projetos-no-figma-conhe%C3%A7a-os-10-plugins-que-transformam-o-fluxo-de-trabalho-ba3eb2548587</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Componentes no Figma (<a href="https://www.alura.com.br/artigos/componentes-figma">https://www.alura.com.br/artigos/componentes-figma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Auto layout no Figma (<a href="https://www.alura.com.br/artigos/auto-layout-figma">https://www.alura.com.br/artigos/auto-layout-figma</a>)</li>
+<li><code data-kind="curso">Curso</code> Figma: componentes, auto layout e máscaras (<a href="https://cursos.alura.com.br/course/figma-componentes-auto-layout-mascaras">https://cursos.alura.com.br/course/figma-componentes-auto-layout-mascaras</a>)</li>
+<li><code data-kind="curso">Curso</code> UI Design: melhorando a experiência de um app com UI Patterns (<a href="https://cursos.alura.com.br/course/ui-design-experiencia-app-ui-patterns">https://cursos.alura.com.br/course/ui-design-experiencia-app-ui-patterns</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>UI no produto digital</strong>:</li>
+<h3>UI no produto digital:</h3>
 <ul><li>Uma interface é como o corpo humano - por fora, temos o visual, mas por dentro, temos diversos organismos que executam funções diferentes, mas que unidos, compoem a estrutura dos nossos corpos.</li>
 <li>Assim, com a nossa estrutura do produto construída, diversos insights já levantados, e muitos processos executados, podemos começar a construção do que chamamos de &quot;protótipo em alta fidelidade&quot;, que se trata do produto final com o qual seu cliente e as pessoas usuárias irão interagir.</li>
 <li>Conheça os UI Patterns, que se tratam de comportamentos ideais para todo tipo de cenário, um conteúdo extremamente importante para qualquer um que queira criar produtos digitais.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ferramentas de design - Parte III</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design Handoff: como construir a comunicação entre designer e desenvolvedor? (<a href="https://medium.com/sidi-design/design-handoff-como-construir-a-comunica%C3%A7%C3%A3o-entre-designer-e-desenvolvedor-a523bdd3b7bb">https://medium.com/sidi-design/design-handoff-como-construir-a-comunica%C3%A7%C3%A3o-entre-designer-e-desenvolvedor-a523bdd3b7bb</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Testando a Usabilidade de Novos Componentes de um Design System (<a href="https://medium.com/@alexcerqueirabr/testando-a-usabilidade-de-novos-componentes-de-um-design-system-94611cbfc108">https://medium.com/@alexcerqueirabr/testando-a-usabilidade-de-novos-componentes-de-um-design-system-94611cbfc108</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Plugin do Figma para Hand-off: Redlines | Dicas de Figma (<a href="https://www.youtube.com/watch?v=GDC0l-f1OaY&ab_channel=ChiefofDesign">https://www.youtube.com/watch?v=GDC0l-f1OaY&amp;ab_channel=ChiefofDesign</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como testar a sua interface digital (<a href="https://www.alura.com.br/artigos/como-testar-sua-interface-digital">https://www.alura.com.br/artigos/como-testar-sua-interface-digital</a>)</li>
+<li><code data-kind="podcast">Podcast</code> O teste de usabilidade (<a href="https://www.layerspontotech.com.br/2022/11/07/o-teste-de-usabilidade-layers-ponto-tech-105/">https://www.layerspontotech.com.br/2022/11/07/o-teste-de-usabilidade-layers-ponto-tech-105/</a>)</li>
+<li><code data-kind="site">Site</code> APÊNDICE - TESTES DE USABILIDADE (<a href="https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/usabilidade">https://www.alura.com.br/apostila-ux-usabilidade-mobile-web/usabilidade</a>)</li>
+<li><code data-kind="curso">Curso</code> UI Design: construindo o produto final (<a href="https://cursos.alura.com.br/course/ui-design-construindo-produto-final">https://cursos.alura.com.br/course/ui-design-construindo-produto-final</a>)</li>
+<li><code data-kind="curso">Curso</code> UI Design: melhorando a experiência de um app com UI Patterns (<a href="https://cursos.alura.com.br/course/ui-design-experiencia-app-ui-patterns">https://cursos.alura.com.br/course/ui-design-experiencia-app-ui-patterns</a>)</li>
+<li><code data-kind="curso">Curso</code> UI Design: teste de usabilidade (<a href="https://cursos.alura.com.br/course/ui-design-teste-usabilidade">https://cursos.alura.com.br/course/ui-design-teste-usabilidade</a>)</li>
+</ul>
+<h3>Ferramentas de design - Parte III:</h3>
 <ul><li>Sabemos que a interface que criamos no Figma não é o produto verdadeiro, já que se trata apenas de um protótipo que projetamos, e que mais para frente virá a se tornar desenvolvido, mas até lá, é precisamos criar uma forma de apresentar o produto para os clientes e usuários, com finalidade de validar tudo o que fizemos até então.</li>
 <li>Entenda o que é o Dark Mode</li>
 <li>Aprenda a construir interfaces em Dark Mode</li>
 <li>Entenda o que são interfaces flutuantes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design System</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Campos digitáveis no figma: protótipo interativo em alta fidelidade (<a href="https://medium.com/@mariaelizabeth.melo/campos-digit%C3%A1veis-no-figma-prot%C3%B3tipo-interativo-em-alta-fidelidade-0891769726fb">https://medium.com/@mariaelizabeth.melo/campos-digit%C3%A1veis-no-figma-prot%C3%B3tipo-interativo-em-alta-fidelidade-0891769726fb</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Dicas para fazer animações usando Smart Animate do Figma (<a href="https://brasil.uxdesign.cc/dicas-para-fazer-anima%C3%A7%C3%B5es-usando-smart-animate-do-figma-5e92963aff2f">https://brasil.uxdesign.cc/dicas-para-fazer-anima%C3%A7%C3%B5es-usando-smart-animate-do-figma-5e92963aff2f</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Os 7 princípios do design e como aplicá-los ao criar o seu site (<a href="https://pt.wix.com/blog/2018/08/7-principios-design-sites/">https://pt.wix.com/blog/2018/08/7-principios-design-sites/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Prototipagem com condicionais no Figma (<a href="https://www.alura.com.br/artigos/prototipagem-condicionais-figma">https://www.alura.com.br/artigos/prototipagem-condicionais-figma</a>)</li>
+<li><code data-kind="curso">Curso</code> Figma: prototipagem interativa e animações (<a href="https://cursos.alura.com.br/course/figma-prototipagem-interativa-animacoes">https://cursos.alura.com.br/course/figma-prototipagem-interativa-animacoes</a>)</li>
+</ul>
+<h3>Design System:</h3>
 <ul><li>Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.</li>
 <li>Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto</li>
 <li>Design tokens</li>
@@ -250,23 +392,87 @@
 <li>Construção de componentes</li>
 <li>Microinterações</li>
 <li>Documentação</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design System: o que é e quais os benefícios? (<a href="https://medium.com/ipnet-growth-partner/design-system-o-que-e-438773dd811">https://medium.com/ipnet-growth-partner/design-system-o-que-e-438773dd811</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Afinal, o que é Design System? (<a href="https://brasil.uxdesign.cc/afinal-o-que-%C3%A9-design-system-448c257b0021">https://brasil.uxdesign.cc/afinal-o-que-%C3%A9-design-system-448c257b0021</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que são Design Tokens (<a href="https://medium.com/pretux/design-tokens-112b2ee11ddf">https://medium.com/pretux/design-tokens-112b2ee11ddf</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Caio Gonzalez: O que é Design System? / Guia para começar o seu próprio Design System (<a href="https://www.youtube.com/watch?v=ajqbXpFVaAw">https://www.youtube.com/watch?v=ajqbXpFVaAw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Design System? (<a href="https://www.alura.com.br/artigos/o-que-e-design-system">https://www.alura.com.br/artigos/o-que-e-design-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Systems: exemplos práticos (<a href="https://www.alura.com.br/artigos/design-systems-exemplos-praticos">https://www.alura.com.br/artigos/design-systems-exemplos-praticos</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design System &amp; Style Guide (<a href="https://www.youtube.com/watch?v=rSLvpOqC5wQ">https://www.youtube.com/watch?v=rSLvpOqC5wQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design Systems (com Charles Assunção) (<a href="https://www.youtube.com/watch?v=MLGFctEtmYQ">https://www.youtube.com/watch?v=MLGFctEtmYQ</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Design Systems - Hipsters 170 (<a href="https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399">https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: Design System – Layers ponto tech 36 (<a href="https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056">https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: definindo estilos e tokens (<a href="https://cursos.alura.com.br/course/design-system-definindo-estilos-tokens">https://cursos.alura.com.br/course/design-system-definindo-estilos-tokens</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: projetando e construindo componentes (<a href="https://cursos.alura.com.br/course/design-system-projetando-construindo-componentes">https://cursos.alura.com.br/course/design-system-projetando-construindo-componentes</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: documentando um design system (<a href="https://cursos.alura.com.br/course/design-system-documentando-design-system">https://cursos.alura.com.br/course/design-system-documentando-design-system</a>)</li>
+<li><code data-kind="desafio">Desafio</code> Experimente o que é ser um(a) profissional de Ux (<a href="https://www.alura.com.br/challenges/ux-4">https://www.alura.com.br/challenges/ux-4</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: UX design</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>UX Research</strong>:</li>
+<h3>UX Research:</h3>
 <ul><li>Para criar produtos e serviços que sejam úteis e tragam uma boa experiência para as pessoas usuárias, precisamos entender as suas dores e necessidades. Para realizar esse trabalho temos diversas técnicas de pesquisa que vão desde ouvir o que o usuário pensa sobre, até entender o comportamento que ele tem usando um produto digital ou serviço. Chamamos essa vertente de UX Research, que fica dentro do guarda chuva de disciplinas de UX Design.</li>
 <li>Aprender as metodologias de pesquisa mais utilizadas na rotina de quem trabalha como UX Researcher.</li>
 <li>Conhecer técnicas qualitativas como a entrevista com usuários, pesquisa etnográfica e testes de usabilidade.</li>
 <li>Avaliar comportamento e interações mapeando jornadas e documentar estratégias conhecendo o mercado e seus concorrentes com a pesquisa.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>UX Strategy</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> A importância das pesquisas na rotina do UX Designer (<a href="https://medium.com/orangejuicefc/a-import%C3%A2ncia-das-pesquisas-na-rotina-do-ux-designer-22427a292001">https://medium.com/orangejuicefc/a-import%C3%A2ncia-das-pesquisas-na-rotina-do-ux-designer-22427a292001</a>)</li>
+<li><code data-kind="artigo">Artigo</code> UX Baseado em Fatos: Pesquisa Qualitativa, Quantitativa ou Quali-Quanti? (<a href="https://brasil.uxdesign.cc/ux-baseado-em-fatos-pesquisa-qualitativa-quantitativa-ou-quali-quanti-a4efe8eb0074">https://brasil.uxdesign.cc/ux-baseado-em-fatos-pesquisa-qualitativa-quantitativa-ou-quali-quanti-a4efe8eb0074</a>)</li>
+<li><code data-kind="artigo">Artigo</code> UX Research: por onde começar uma pesquisa? (<a href="https://brasil.uxdesign.cc/ux-research-por-onde-come%C3%A7ar-uma-pesquisa-edace3ce44b9">https://brasil.uxdesign.cc/ux-research-por-onde-come%C3%A7ar-uma-pesquisa-edace3ce44b9</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> UX Research: o que é, o que faz e um Guia para iniciar nessa carreira (<a href="https://www.alura.com.br/artigos/ux-research">https://www.alura.com.br/artigos/ux-research</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Research: metodologias e imersão em pesquisa (<a href="https://cursos.alura.com.br/course/ux-research-metodologias-imersao-pesquisa">https://cursos.alura.com.br/course/ux-research-metodologias-imersao-pesquisa</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Research: entrevistando pessoas usuárias (<a href="https://cursos.alura.com.br/course/ux-research-entrevistando-usuarias">https://cursos.alura.com.br/course/ux-research-entrevistando-usuarias</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Research: mapeando a experiência da pessoa usuária (<a href="https://cursos.alura.com.br/course/ux-research-mapeando-experiencia-usuaria">https://cursos.alura.com.br/course/ux-research-mapeando-experiencia-usuaria</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Research: construindo o Benchmarking estratégico (<a href="https://cursos.alura.com.br/course/ux-research-benchmarking-estrategico">https://cursos.alura.com.br/course/ux-research-benchmarking-estrategico</a>)</li>
+</ul>
+<h3>UX Strategy:</h3>
 <ul><li>As áreas da UX estão se consolidando cada dia mais no mercado, e uma de suas vertentes é a UX Strategy. Ela possui importânica significativa em negócios, pois atende a proposta de vincular a experiência da pessoa usuária e seus métodos com os pilares estratégicos do negócio e manter saudável tanto para a empresa como para a pessoa usuária as decisões tomadas mediante as descobertas feitas em pesquisas do produto.</li>
 <li>Entender como a UX conversa com o negócio e sua estratégia</li>
 <li>Aprender a aplicar métodos de pesquisa que atendam as expectativas e objetivos do negócio.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>UX Writing</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Visão de negócio é para designers? (<a href="https://brasil.uxdesign.cc/estudo-de-caso-tesco-homeplus-b6a1ce0017af">https://brasil.uxdesign.cc/estudo-de-caso-tesco-homeplus-b6a1ce0017af</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual o papel de um UX Strategist? (<a href="https://brasil.uxdesign.cc/qual-o-papel-de-um-ux-strategy-e9f8a386aa2d">https://brasil.uxdesign.cc/qual-o-papel-de-um-ux-strategy-e9f8a386aa2d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A importância da experiência do usuário para os negócios (<a href="https://sebrae.com.br/sites/PortalSebrae/artigos/a-importancia-da-experiencia-do-usuario-para-os-negocios,b109b542c5bb5810VgnVCM1000001b00320aRCRD">https://sebrae.com.br/sites/PortalSebrae/artigos/a-importancia-da-experiencia-do-usuario-para-os-negocios,b109b542c5bb5810VgnVCM1000001b00320aRCRD</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> UX Design e sua relação com a área de negócios (<a href="https://www.alura.com.br/artigos/ux-design-relacao-area-de-negocios">https://www.alura.com.br/artigos/ux-design-relacao-area-de-negocios</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como o design thinking é aplicado como ferramenta estratégica nos negócios? (<a href="https://www.alura.com.br/artigos/como-o-design-thinking-e-aplicado-como-ferramenta-estrategica-nos-negocios">https://www.alura.com.br/artigos/como-o-design-thinking-e-aplicado-como-ferramenta-estrategica-nos-negocios</a>)</li>
+<li><code data-kind="podcast">Podcast</code> UX é apenas digital (<a href="https://cursos.alura.com.br/extra/layerstech/ux-e-apenas-digital-layers-ponto-tech-98-a1792">https://cursos.alura.com.br/extra/layerstech/ux-e-apenas-digital-layers-ponto-tech-98-a1792</a>)</li>
+<li><code data-kind="podcast">Podcast</code> O UX Strategy (<a href="https://www.alura.com.br/podcast/o-ux-strategy-layers-ponto-tech-135-a2325">https://www.alura.com.br/podcast/o-ux-strategy-layers-ponto-tech-135-a2325</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Strategy: visão estratégica do negócio (<a href="https://cursos.alura.com.br/course/ux-strategy-visao-estrategico-negocio">https://cursos.alura.com.br/course/ux-strategy-visao-estrategico-negocio</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Strategy: conhecendo o perfil da pessoa usuária (<a href="https://cursos.alura.com.br/course/ux-strategy-perfil-pessoa-usuaria">https://cursos.alura.com.br/course/ux-strategy-perfil-pessoa-usuaria</a>)</li>
+<li><code data-kind="curso">Curso</code> UX strategy: criando a modelagem de negócios (<a href="https://cursos.alura.com.br/course/ux-strategy-criando-modelagem-negocios">https://cursos.alura.com.br/course/ux-strategy-criando-modelagem-negocios</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Strategy: conhecendo o mercado e testando ideias (<a href="https://cursos.alura.com.br/course/ux-strategy-conhecendo-mercado-testando-ideias">https://cursos.alura.com.br/course/ux-strategy-conhecendo-mercado-testando-ideias</a>)</li>
+</ul>
+<h3>UX Writing:</h3>
 <ul><li>A experiência de uma pessoa com um produto ou serviço envolve muitos aspectos diferentes e cada um precisa ser estudado detalhadamente. Um dos aspectos mais importantes é a escrita, pois é através dos textos e palavras que conseguimos nos comunicar, nos conectar, ajudar e orientar as pessoas usuárias através de sua vivência com um produto ou serviço.</li>
 <li>null</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> UX Writing: 9 dicas para quem está começando (<a href="https://brasil.uxdesign.cc/ux-writing-dicas-para-quem-t%C3%A1-come%C3%A7ando-db5579f36d9e">https://brasil.uxdesign.cc/ux-writing-dicas-para-quem-t%C3%A1-come%C3%A7ando-db5579f36d9e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Sete modelos mentais para UX Writing (<a href="https://brasil.uxdesign.cc/7-racionais-na-vida-de-uma-ux-writer-e3e5476ed04d">https://brasil.uxdesign.cc/7-racionais-na-vida-de-uma-ux-writer-e3e5476ed04d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> UX Writing na Prática: Notificações push (<a href="https://brasil.uxdesign.cc/ux-writing-na-pr%C3%A1tica-1-notifica%C3%A7%C3%A3o-de-push-8e4a4f4fa546">https://brasil.uxdesign.cc/ux-writing-na-pr%C3%A1tica-1-notifica%C3%A7%C3%A3o-de-push-8e4a4f4fa546</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é UX Writing, a famosa Redação para UX? (<a href="https://www.alura.com.br/artigos/o-que-e-ux-writing-redacao-para-ux">https://www.alura.com.br/artigos/o-que-e-ux-writing-redacao-para-ux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como o design thinking é aplicado como ferramenta estratégica nos negócios? (<a href="https://www.alura.com.br/artigos/como-o-design-thinking-e-aplicado-como-ferramenta-estrategica-nos-negocios">https://www.alura.com.br/artigos/como-o-design-thinking-e-aplicado-como-ferramenta-estrategica-nos-negocios</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Diferença entre UX Writing, Copywriting e Content Writing (<a href="https://www.alura.com.br/artigos/diferenca-ux-writing-copywriting-content-writing">https://www.alura.com.br/artigos/diferenca-ux-writing-copywriting-content-writing</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Arquitetura de Mensagem: construindo a comunicação ideal para seus textos (<a href="https://www.alura.com.br/artigos/arquitetura-de-mensagem-comunicacao-ideal-para-textos">https://www.alura.com.br/artigos/arquitetura-de-mensagem-comunicacao-ideal-para-textos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> As quatro dimensões do tom de voz (<a href="https://www.alura.com.br/artigos/as-quatro-dimensoes-tom-de-voz">https://www.alura.com.br/artigos/as-quatro-dimensoes-tom-de-voz</a>)</li>
+<li><code data-kind="podcast">Podcast</code> UX Writing (<a href="https://www.alura.com.br/podcast/ux-writing-layers-ponto-tech-48-a1159">https://www.alura.com.br/podcast/ux-writing-layers-ponto-tech-48-a1159</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Writing: escrevendo textos para usuários (<a href="https://cursos.alura.com.br/course/ux-writing-escrevendo-textos-usuarios">https://cursos.alura.com.br/course/ux-writing-escrevendo-textos-usuarios</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Writing: pesquisa e testagem em UX Writing (<a href="https://cursos.alura.com.br/course/ux-writing-pesquisa-testagem">https://cursos.alura.com.br/course/ux-writing-pesquisa-testagem</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Writing: definindo o tom e voz da sua marca (<a href="https://cursos.alura.com.br/course/ux-writing-tom-voz-sua-marca">https://cursos.alura.com.br/course/ux-writing-tom-voz-sua-marca</a>)</li>
+<li><code data-kind="curso">Curso</code> UX Writing: Arquitetura da Informação em Writing (<a href="https://cursos.alura.com.br/course/ux-writing-arquitetura-informacao-writing">https://cursos.alura.com.br/course/ux-writing-arquitetura-informacao-writing</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Front-end e Mobile</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTML - Fundamentos</strong>:</li>
+<h3>HTML - Fundamentos:</h3>
 <ul><li>HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.</li>
 <li>Aprender quais tags são necessárias para um HTML básico</li>
 <li>Criar um parágrafo de texto</li>
@@ -279,7 +485,22 @@
 <li>Conectar com um arquivo de CSS</li>
 <li>Criar uma tabela</li>
 <li>Adicionar IDs e classes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CSS - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: HTML básico (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics">https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: 5 MINUTOS DE HTML PARA INICIAR EM PROGRAMAÇÃO! (<a href="https://www.youtube.com/watch?v=3oSIqIqzN3M">https://www.youtube.com/watch?v=3oSIqIqzN3M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: LANDING PAGE COM HTML e CSS! (<a href="https://www.youtube.com/watch?v=llF6vD-RljE">https://www.youtube.com/watch?v=llF6vD-RljE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: FORMULÁRIOS COM HTML e CSS! (<a href="https://www.youtube.com/watch?v=wwqOJ2o84S4">https://www.youtube.com/watch?v=wwqOJ2o84S4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> HTML: o que é, a importância para a Web, como aprender e um Guia para iniciantes (<a href="https://www.alura.com.br/artigos/html">https://www.alura.com.br/artigos/html</a>)</li>
+<li><code data-kind="alura+">Alura+</code> Alura+: Fazendo deploy de um projeto na Vercel (<a href="https://cursos.alura.com.br/extra/alura-mais/fazendo-deploy-de-um-projeto-na-vercel-c9239">https://cursos.alura.com.br/extra/alura-mais/fazendo-deploy-de-um-projeto-na-vercel-c9239</a>)</li>
+<li><code data-kind="artigo">Artigo</code> HTML, CSS e Javascript, quais as diferenças? (<a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes">https://www.alura.com.br/artigos/html-css-e-js-definicoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação HTML e CSS (<a href="https://www.alura.com.br/formacao-html-e-css">https://www.alura.com.br/formacao-html-e-css</a>)</li>
+<li><code data-kind="curso">Curso</code> Apostila: Desenvolvimento Web com HTML, CSS e JavaScript (<a href="https://www.alura.com.br/apostila-html-css-javascript">https://www.alura.com.br/apostila-html-css-javascript</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: HTML e CSS (<a href="https://7daysofcode.io/matricula/html-css">https://7daysofcode.io/matricula/html-css</a>)</li>
+</ul>
+<h3>CSS - Fundamentos:</h3>
 <ul><li>Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.</li>
 <li>Aprender a estrutura visual de uma página, com &#39;margin&#39; e &#39;padding&#39;</li>
 <li>Estabelecer o tamanho com &#39;width&#39; e &#39;height&#39;</li>
@@ -294,7 +515,45 @@
 <li>Aprender box-sizing</li>
 <li>Aprender Flexbox</li>
 <li>Aprender Grid</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Iniciando com CSS (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started">https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Seletores (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors">https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Cascata e herança (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance">https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Propriedade &#39;display&#39; (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/display">https://developer.mozilla.org/pt-BR/docs/Web/CSS/display</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Conceitos básicos de Flexbox (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Grid Layout (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout">https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo CSS: Display Inline, Block e Inline-Block (<a href="https://dev.to/sucodelarangela/entendendo-css-display-inline-block-e-inline-block-lic">https://dev.to/sucodelarangela/entendendo-css-display-inline-block-e-inline-block-lic</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo CSS: Pseudo-Classes e Pseudo-Elementos (<a href="https://dev.to/sucodelarangela/entendendo-css-pseudo-classes-e-pseudo-elementos-b83">https://dev.to/sucodelarangela/entendendo-css-pseudo-classes-e-pseudo-elementos-b83</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como aplicar opacidade em background-image sem afetar textos (<a href="https://dev.to/sucodelarangela/como-aplicar-opacidade-em-background-image-sem-afetar-textos-31fj">https://dev.to/sucodelarangela/como-aplicar-opacidade-em-background-image-sem-afetar-textos-31fj</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O QUE É CSS? (<a href="https://www.youtube.com/watch?v=LWU2OR19ZG4">https://www.youtube.com/watch?v=LWU2OR19ZG4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web - parte 1 (<a href="https://www.youtube.com/watch?v=KbjLtEgmZ_E">https://www.youtube.com/watch?v=KbjLtEgmZ_E</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web - parte 2 (<a href="https://www.youtube.com/watch?v=hjz6ezV9_uc">https://www.youtube.com/watch?v=hjz6ezV9_uc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: Arquitetura CSS - BEM (<a href="https://www.youtube.com/watch?v=yKPXW9aSxQI">https://www.youtube.com/watch?v=yKPXW9aSxQI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: CSS Grid Layout (<a href="https://www.youtube.com/watch?v=HBlBNAtFcdw">https://www.youtube.com/watch?v=HBlBNAtFcdw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como centralizar no CSS (<a href="https://www.youtube.com/watch?v=Cu-HP-gvggg">https://www.youtube.com/watch?v=Cu-HP-gvggg</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipster 09 - CSS: Cansei de Ser Simples (<a href="https://www.hipsters.tech/css-cansei-de-ser-simples-hipsters-09/">https://www.hipsters.tech/css-cansei-de-ser-simples-hipsters-09/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CSS: o que é, como usar no HTML e um Guia para iniciar (<a href="https://www.alura.com.br/artigos/css">https://www.alura.com.br/artigos/css</a>)</li>
+<li><code data-kind="artigo">Artigo</code> HTML, CSS e Javascript, quais as diferenças? (<a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes">https://www.alura.com.br/artigos/html-css-e-js-definicoes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia de unidades no CSS (<a href="https://www.alura.com.br/artigos/guia-de-unidades-no-css">https://www.alura.com.br/artigos/guia-de-unidades-no-css</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CSS: Guia do Flexbox (<a href="https://www.alura.com.br/artigos/css-guia-do-flexbox">https://www.alura.com.br/artigos/css-guia-do-flexbox</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como fazer Grids e a Responsividade na Web (<a href="https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web">https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como criar animações incríveis com CSS (<a href="https://www.alura.com.br/artigos/animacoes-com-css">https://www.alura.com.br/artigos/animacoes-com-css</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Houdini CSS: um jeito mágico de criar estilos personalizados (<a href="https://www.alura.com.br/artigos/houdini-css">https://www.alura.com.br/artigos/houdini-css</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: CSS FlexBox: Dicas para começar (<a href="https://www.youtube.com/watch?v=326-B1avuYo">https://www.youtube.com/watch?v=326-B1avuYo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Box Model e Sizing no CSS (<a href="https://www.youtube.com/watch?v=qcNUxyOWXIw">https://www.youtube.com/watch?v=qcNUxyOWXIw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Curso de HTML5 e CSS3 (<a href="https://www.youtube.com/watch?v=78AyiuxYceg">https://www.youtube.com/watch?v=78AyiuxYceg</a>)</li>
+<li><code data-kind="curso">Curso</code> Apostila: Desenvolvimento Web com HTML, CSS e JavaScript (<a href="https://www.alura.com.br/apostila-html-css-javascript">https://www.alura.com.br/apostila-html-css-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação HTML e CSS (<a href="https://www.alura.com.br/formacao-html-e-css">https://www.alura.com.br/formacao-html-e-css</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação CSS: aprofunde em estilos (<a href="https://cursos.alura.com.br/formacao-css-estilos">https://cursos.alura.com.br/formacao-css-estilos</a>)</li>
+<li><code data-kind="curso">Curso</code> HTML e CSS: responsividade com mobile-first (<a href="https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first">https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first</a>)</li>
+<li><code data-kind="curso">Curso</code> CSS: cursos para transformar designs com Grid, Flexbox e Sass (<a href="https://cursos.alura.com.br/formacao-css-cursos-transformar-designs-grid-flexbox-sass">https://cursos.alura.com.br/formacao-css-cursos-transformar-designs-grid-flexbox-sass</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: HTML e CSS (<a href="https://7daysofcode.io/matricula/html-css">https://7daysofcode.io/matricula/html-css</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Responsividade (<a href="https://7daysofcode.io/matricula/responsividade">https://7daysofcode.io/matricula/responsividade</a>)</li>
+</ul>
+<h3>JavaScript - Fundamentos:</h3>
 <ul><li>JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.</li>
 <li>Conhecer os tipos primitivos</li>
 <li>Declarar variáveis, considerando a diferença entre &#39;var&#39;, &#39;let&#39; e &#39;const&#39;</li>
@@ -307,7 +566,39 @@
 <li>Fazer um CRUD</li>
 <li>Obter dados de uma API</li>
 <li>Fazer chamadas assíncronas usando &#39;Async/Await&#39;, &#39;Promise&#39;, etc</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Um primeiro mergulho no JavaScript (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Trabalhando com texto — strings em JavaScript (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Strings">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Strings</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: if...else (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: while (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: for (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Arrays (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Arrays">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Arrays</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Template strings (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Definindo Funções em Javascript (<a href="https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/">https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como manipular arrays e objetos em JavaScript (<a href="https://www.youtube.com/watch?v=yS7AcF-xRUg">https://www.youtube.com/watch?v=yS7AcF-xRUg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: O que é Json e como criar um objeto (<a href="https://www.youtube.com/watch?v=oCY5YEEjlwE">https://www.youtube.com/watch?v=oCY5YEEjlwE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como usar Async/Await? Promises no JavaScript? (<a href="https://www.youtube.com/watch?v=q28lfkBd9F4">https://www.youtube.com/watch?v=q28lfkBd9F4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como pegar dados de uma API? Como fazer AJAX? | Pegando dados de serviços via JavaScript (<a href="https://www.youtube.com/watch?v=85vJXFpXLQw">https://www.youtube.com/watch?v=85vJXFpXLQw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> JavaScript: o que é, como aprender e um Guia da linguagem mais popular do mundo (<a href="https://www.alura.com.br/artigos/javascript/">https://www.alura.com.br/artigos/javascript/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 38 - O Reino encantado do JavaScript (<a href="https://www.hipsters.tech/o-reino-encantado-do-javascript-hipsters-38/">https://www.hipsters.tech/o-reino-encantado-do-javascript-hipsters-38/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 169 - JavaScript: manual de sobrevivência 2020 (<a href="https://www.hipsters.tech/javascript-manual-de-sobrevivencia-2020-hipsters-169/">https://www.hipsters.tech/javascript-manual-de-sobrevivencia-2020-hipsters-169/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 236 - Evolução do JavaScript (<a href="https://www.hipsters.tech/evolucao-do-javascript-hipsters-ponto-tech-236/">https://www.hipsters.tech/evolucao-do-javascript-hipsters-ponto-tech-236/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Strings com JavaScript: o que são e como manipulá-las (<a href="https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular">https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como utilizar operadores de comparação em Javascript (<a href="https://www.alura.com.br/artigos/operadores-matematicos-em-javascript">https://www.alura.com.br/artigos/operadores-matematicos-em-javascript</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Para que serve um Array? (<a href="https://www.alura.com.br/artigos/javascript-para-que-serve-array">https://www.alura.com.br/artigos/javascript-para-que-serve-array</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Quando usar forEach e map? (<a href="https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map">https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Manipulação de array com map, filter e reduce (<a href="https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce">https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Desenvolva aplicações Web com JavaScript (<a href="https://cursos.alura.com.br/formacao-javascript-front-end">https://cursos.alura.com.br/formacao-javascript-front-end</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é JavaScript? (<a href="https://www.youtube.com/watch?v=NaVSbnnV75Q">https://www.youtube.com/watch?v=NaVSbnnV75Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Destructuring em JavaScript (<a href="https://www.youtube.com/watch?v=f8a-qwKC5yk">https://www.youtube.com/watch?v=f8a-qwKC5yk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Classes x funções no Javascript (<a href="https://www.youtube.com/watch?v=iohhj-k9L6s">https://www.youtube.com/watch?v=iohhj-k9L6s</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM (<a href="https://7daysofcode.io/matricula/javascript-e-dom">https://7daysofcode.io/matricula/javascript-e-dom</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM com API (<a href="https://7daysofcode.io/matricula/javascript-e-dom-api">https://7daysofcode.io/matricula/javascript-e-dom-api</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM - Wordle (<a href="https://7daysofcode.io/matricula/javascript-e-dom-wordle">https://7daysofcode.io/matricula/javascript-e-dom-wordle</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

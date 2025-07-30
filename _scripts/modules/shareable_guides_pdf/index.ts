@@ -73,13 +73,23 @@ async function generatePDFForFile(
   try {
     // Read the markdown file
     const markdownContent = fs.readFileSync(markdownPath, "utf-8");
+    const guideName = markdownContent.split("\n")[0].replace("# ", "");
 
     // Convert markdown to HTML
-    const htmlContent = parseMarkdownToHTML({ markdown: markdownContent });
+    const htmlContent = parseMarkdownToHTML({
+      markdown: markdownContent
+        .split("\n")
+        .filter((line) => !line.startsWith(`# ${guideName}`))
+        .join("\n"),
+    });
 
     // Process HTML with custom transformations
-    const styledHtmlContent = processHtml(htmlContent);
-    const guideName = markdownContent.split("\n")[0].replace("# ", "");
+    const styledHtmlContent = processHtml(htmlContent).replace(
+      /<code>(.*?)<\/code>/g,
+      (_, p1) => {
+        return `<code data-kind="${p1.toLowerCase()}">${p1}</code>`;
+      }
+    );
 
     // Create the complete HTML document with fixed date for determinism
     const completeHtml = template

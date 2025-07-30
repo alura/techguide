@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,56 +249,114 @@
   </div>
 
   <div class="content">
-    <h1>Atendimento CX</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Fundamentos de Customer Experience</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Fundamentos de Customer Experience:</h3>
 <ul><li>Definição e importância de CX</li>
 <li>Conceitos básicos de experiência do cliente e como ela impacta negócios</li>
 <li>Importância da personalização no atendimento</li>
 <li>Estratégias para melhorar a experiência do cliente  -</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Customer Centricity</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="podcast">Podcast</code> #02 Magos do CX com Fábio Formento: Pessoas, negócios e clientes, a receita de CX (<a href="https://www.youtube.com/watch?v=24F6SkCMLIA">https://www.youtube.com/watch?v=24F6SkCMLIA</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Afinal, o que é CX? (<a href="https://cursos.alura.com.br/extra/layerstech/afinal-o-que-e-cx-layers-ponto-tech-51-a1208">https://cursos.alura.com.br/extra/layerstech/afinal-o-que-e-cx-layers-ponto-tech-51-a1208</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é e o que faz um time de Customer Experience? (<a href="https://www.alura.com.br/artigos/o-que-e-o-que-faz-time-customer-experience">https://www.alura.com.br/artigos/o-que-e-o-que-faz-time-customer-experience</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O cliente no centro: Customer Centric e Customer (<a href="https://www.alura.com.br/artigos/cliente-centro-customer-centric-customer-experience">https://www.alura.com.br/artigos/cliente-centro-customer-centric-customer-experience</a>)</li>
+</ul>
+<h3>Customer Centricity:</h3>
 <ul><li>Estabelecer uma cultura organizacional voltada para o cliente.</li>
 <li>Desenvolver estratégias que priorizem as necessidades e expectativas do cliente.</li>
 <li>Alinhar as operações internas para garantir uma experiência positiva e consistente.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Jornada do cliente</strong>:</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O cliente no centro: Customer Centric e Customer Experience (<a href="https://www.alura.com.br/artigos/cliente-centro-customer-centric-customer-experience">https://www.alura.com.br/artigos/cliente-centro-customer-centric-customer-experience</a>)</li>
+</ul>
+<h3>Jornada do cliente:</h3>
 <ul><li>Mapear a jornada do cliente para identificar pontos de contato e melhorias.</li>
 <li>Aplicar técnicas de engajamento ao longo das diferentes etapas da jornada.</li>
 <li>Melhorar a retenção e satisfação por meio da gestão eficiente da experiência do cliente.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Jornada do cliente: aplique estratégias de engajamento no dia a dia (<a href="https://www.alura.com.br/curso-online-jornada-cliente-estrategias-engajamento-dia-a-dia">https://www.alura.com.br/curso-online-jornada-cliente-estrategias-engajamento-dia-a-dia</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Métricas de qualidade de atendimento</strong>:</li>
+<h3>Métricas de qualidade de atendimento:</h3>
 <ul><li>Identificar as principais métricas para avaliar a eficiência do atendimento ao cliente.</li>
 <li>Analisar indicadores de performance para tomada de decisão estratégica.</li>
 <li>Melhorar processos com base nos dados coletados das interações com clientes.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Feedback e melhoria contínua</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Sucesso no atendimento: 9 métricas que toda empresa deveria implantar (<a href="https://blog.octadesk.com/metricas-de-sucesso-no-atendimento/?utm_source=google&utm_medium=cpc&utm_campaign=%5BON%5D+%5BPMAX%5D+%5BDADOS-HUB%5D&utm_term=&hsa_tgt=&hsa_grp=&hsa_mt=&hsa_cam=20750597690&hsa_ver=3&hsa_src=x&hsa_net=adwords&hsa_kw=&hsa_acc=6724165961&hsa_ad=&gad_source=1&gclid=Cj0KCQiAvP-6BhDyARIsAJ3uv7arP8HiDyocl_bxJj96xekUXHrd2mHa1HPSYi9B4fB546g9tYzR5wMaAr9uEALw_wcB">https://blog.octadesk.com/metricas-de-sucesso-no-atendimento/?utm_source=google&amp;utm_medium=cpc&amp;utm_campaign=%5BON%5D+%5BPMAX%5D+%5BDADOS-HUB%5D&amp;utm_term=&amp;hsa_tgt=&amp;hsa_grp=&amp;hsa_mt=&amp;hsa_cam=20750597690&amp;hsa_ver=3&amp;hsa_src=x&amp;hsa_net=adwords&amp;hsa_kw=&amp;hsa_acc=6724165961&amp;hsa_ad=&amp;gad_source=1&amp;gclid=Cj0KCQiAvP-6BhDyARIsAJ3uv7arP8HiDyocl_bxJj96xekUXHrd2mHa1HPSYi9B4fB546g9tYzR5wMaAr9uEALw_wcB</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 5 métricas para medir a qualidade do seu atendimento (<a href="https://www.alura.com.br/artigos/5-metricas-para-medir-qualidade-atendimento">https://www.alura.com.br/artigos/5-metricas-para-medir-qualidade-atendimento</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CS e as diferentes áreas de relacionamento com cliente (<a href="https://www.alura.com.br/artigos/cs-diferentes-areas-relacionamento-cliente">https://www.alura.com.br/artigos/cs-diferentes-areas-relacionamento-cliente</a>)</li>
+</ul>
+<h3>Feedback e melhoria contínua:</h3>
 <ul><li>Implementar mecanismos eficazes para coletar feedback de clientes.</li>
 <li>Analisar feedbacks para identificar padrões e oportunidades de melhoria.</li>
 <li>Promover uma cultura de aprendizado contínuo com base nas avaliações dos clientes.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Vendas de alta performance: entendendo a necessidade do cliente (<a href="https://cursos.alura.com.br/course/vendas-entendendo-a-necessidade-do-cliente">https://cursos.alura.com.br/course/vendas-entendendo-a-necessidade-do-cliente</a>)</li>
+<li><code data-kind="curso">Curso</code> Vendas de alta performance:técnicas para melhorar seu aprendizado (<a href="https://www.alura.com.br/curso-online-vendas-aprenda-a-aprender">https://www.alura.com.br/curso-online-vendas-aprenda-a-aprender</a>)</li>
+<li><code data-kind="curso">Curso</code> Mediação de conflitos: construa soluções efetivas (<a href="https://cursos.alura.com.br/course/mediacao-conflitos-solucoes-efetivas">https://cursos.alura.com.br/course/mediacao-conflitos-solucoes-efetivas</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Encantamento e retenção</strong>:</li>
+<h3>Encantamento e retenção:</h3>
 <ul><li>Criar estratégias para fidelizar clientes por meio de experiências positivas.</li>
 <li>Implementar práticas que surpreendam e encantem o cliente.</li>
 <li>Melhorar a retenção por meio de um atendimento proativo e personalizado.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de carteira de clientes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="conteúdo">Conteúdo</code> ÓHQUEMTALK 09 - Técnicas de ATENDIMENTO: como ENCANTAR e CONVENCER o cliente (<a href="https://www.youtube.com/watch?v=ef_czv5OKBk">https://www.youtube.com/watch?v=ef_czv5OKBk</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como encantar e fidelizar clientes (<a href="https://www.alura.com.br/artigos/pos-venda-como-encantar-e-fidelizar-clientes">https://www.alura.com.br/artigos/pos-venda-como-encantar-e-fidelizar-clientes</a>)</li>
+</ul>
+<h3>Gestão de carteira de clientes:</h3>
 <ul><li>Desenvolver um sistema de gestão eficiente para organizar a carteira de clientes</li>
 <li>Identificar clientes estratégicos e personalizar o atendimento</li>
 <li>Aumentar a receita através de uma gestão ativa e orientada para resultados.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é carteira de clientes? Como montar, gerenciar e otimizar? (<a href="https://www.zendesk.com.br/blog/o-que-e-carteira-de-clientes/">https://www.zendesk.com.br/blog/o-que-e-carteira-de-clientes/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Nutrindo sua carteira de clientes (<a href="https://cursos.alura.com.br/extra/alura-mais/nutrindo-a-sua-carteira-de-clientes-c796">https://cursos.alura.com.br/extra/alura-mais/nutrindo-a-sua-carteira-de-clientes-c796</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Comunicação e relacionamento</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Comunicação assertiva e não violenta</strong>:</li>
+<h3>Comunicação assertiva e não violenta:</h3>
 <ul><li>Aplicar técnicas para manter uma comunicação clara, empática e respeitosa.</li>
 <li>Gerenciar conflitos de maneira assertiva para alcançar acordos satisfatórios.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Negociação no atendimento</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Comunicação com cliente: como melhorar? 9 dicas práticas (<a href="https://www.zendesk.com.br/blog/comunicacao-com-cliente/">https://www.zendesk.com.br/blog/comunicacao-com-cliente/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Comunicação assertiva: reduzindo conflitos e frustrações (<a href="https://cursos.alura.com.br/course/comunicacao-assertiva-reduzindo-conflitos-e-frustracaoes">https://cursos.alura.com.br/course/comunicacao-assertiva-reduzindo-conflitos-e-frustracaoes</a>)</li>
+</ul>
+<h3>Negociação no atendimento:</h3>
 <ul><li>Desenvolver habilidades de negociação focadas em soluções eficazes para clientes e empresa.</li>
 <li>Utilizar estratégias de persuasão para influenciar positivamente as decisões dos clientes.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="podcast">Podcast</code> #22 Magos do CX com Luana Palma: Gestão da emoção no atendimento ao cliente (<a href="https://www.youtube.com/watch?v=9LT89ViuVWQ">https://www.youtube.com/watch?v=9LT89ViuVWQ</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Negociação parte 1: práticas essenciais (<a href="https://cursos.alura.com.br/course/negociacao-praticas-essenciais">https://cursos.alura.com.br/course/negociacao-praticas-essenciais</a>)</li>
+<li><code data-kind="curso">Curso</code> Negociação parte 2: técnicas avançadas (<a href="https://cursos.alura.com.br/course/negociacao-avancada">https://cursos.alura.com.br/course/negociacao-avancada</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Tecnologia e Automação</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vendas baseadas em necessidades</strong>:</li>
+<h3>Vendas baseadas em necessidades:</h3>
 <ul><li>Identificar as necessidades específicas dos clientes durante o processo de venda.</li>
 <li>Oferecer soluções personalizadas que atendam às expectativas dos clientes.</li>
 <li>Melhorar a experiência de compra através de uma abordagem consultiva.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Design Thinking em vendas: conhecendo seu cliente (<a href="https://alura.com.br/curso-online-design-thinking-em-vendas">https://alura.com.br/curso-online-design-thinking-em-vendas</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

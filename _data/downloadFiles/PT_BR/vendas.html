@@ -71,11 +71,61 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +151,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +228,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,74 +248,187 @@
   </div>
 
   <div class="content">
-    <h1>Vendas</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vendas na era digital</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Vendas na era digital:</h3>
 <ul><li>Desenvolver estratégias inovadoras de vendas que capacitem a equipe a tomar decisões estratégicas, promovendo uma cultura de autonomia e responsabilidade.</li>
 <li>Estimular a diversidade nas abordagens de vendas, incentivando a troca de ideias e técnicas entre vendedores com diferentes perfis e experiências, enriquecendo a estratégia de vendas e aumentando o engajamento da equipe.</li>
 <li>Criar ambiente de trabalho motivador para equipe de vendas.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de carteira</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como fazer vendas digitais? Tudo que você precisa saber (<a href="https://br.hubspot.com/blog/sales/vendas-digitais">https://br.hubspot.com/blog/sales/vendas-digitais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Mercado digital: entenda como funciona e as principais tendências (<a href="https://br.hubspot.com/blog/marketing/mercado-digital">https://br.hubspot.com/blog/marketing/mercado-digital</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Vendas de alta performance: vendas na era digital (<a href="https://cursos.alura.com.br/course/vendas-alta-performance">https://cursos.alura.com.br/course/vendas-alta-performance</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Etapas de vendas: quais são e como funcionam (<a href="https://www.alura.com.br/artigos/etapas-de-vendas">https://www.alura.com.br/artigos/etapas-de-vendas</a>)</li>
+</ul>
+<h3>Gestão de carteira:</h3>
 <ul><li>Desenvolver estratégias eficazes de segmentação de carteira, permitindo uma personalização mais precisa das abordagens de vendas e maximizando o valor do cliente em longo prazo.</li>
 <li>Implementar práticas de gestão que promovam o relacionamento contínuo e fortalecido com os clientes, utilizando ferramentas e metodologias que suportem um acompanhamento estratégico e pró-ativo.</li>
 <li>Capacitar a equipe de vendas para identificar e explorar oportunidades de upsell e cross-sell, aumentando a rentabilidade da carteira de clientes com técnicas que agreguem valor ao cliente.</li>
 <li>Promover uma cultura de excelência na gestão de carteira, onde a eficiência operacional e o retorno sobre o investimento sejam continuamente aprimorados através de feedbacks constantes e ajustes estratégicos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Customer Success</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Rentabilização e gestão de carteira de clientes: veja como fazer (<a href="https://www.serasaexperian.com.br/conteudos/gestao-de-carteira-de-credito/rentabilizacao-e-gestao-de-carteira-de-clientes-veja-como-fazer/#:~:text=O%20primeiro%20passo%20para%20rentabilizar,de%20atua%C3%A7%C3%A3o%20e%20localiza%C3%A7%C3%A3o%20geogr%C3%A1fica">https://www.serasaexperian.com.br/conteudos/gestao-de-carteira-de-credito/rentabilizacao-e-gestao-de-carteira-de-clientes-veja-como-fazer/#:~:text=O%20primeiro%20passo%20para%20rentabilizar,de%20atua%C3%A7%C3%A3o%20e%20localiza%C3%A7%C3%A3o%20geogr%C3%A1fica</a>.)</li>
+<li><code data-kind="artigo">Artigo</code> 12 passos para manter uma boa relação com o cliente (<a href="https://medium.com/neft-com-br/manter-uma-boa-rela%C3%A7%C3%A3o-com-o-cliente-%C3%A9-fundamental-para-o-sucesso-de-qualquer-neg%C3%B3cio-f2816ba7b88c">https://medium.com/neft-com-br/manter-uma-boa-rela%C3%A7%C3%A3o-com-o-cliente-%C3%A9-fundamental-para-o-sucesso-de-qualquer-neg%C3%B3cio-f2816ba7b88c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como realizar a gestão de carteira de clientes na sua revenda agrícola (<a href="https://www.siagri.com.br/gestao-de-carteira-de-clientes/#:~:text=Segmentar%20a%20carteira%20de%20clientes,t%C3%AAm%20maior%20potencial%20de%20retorno">https://www.siagri.com.br/gestao-de-carteira-de-clientes/#:~:text=Segmentar%20a%20carteira%20de%20clientes,t%C3%AAm%20maior%20potencial%20de%20retorno</a>.)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Vendas de alta performance: gestão de carteira (<a href="https://cursos.alura.com.br/course/vendas-alta-performance-gestao-carteira">https://cursos.alura.com.br/course/vendas-alta-performance-gestao-carteira</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Análise de clientes: dicas e metodologias (<a href="https://www.alura.com.br/artigos/analise-de-clientes">https://www.alura.com.br/artigos/analise-de-clientes</a>)</li>
+</ul>
+<h3>Customer Success:</h3>
 <ul><li>Aprenda a aplicar Customer Success como uma estratégia central para aumentar a receita e retenção de clientes em sua empresa.</li>
 <li>Entenda a evolução e a importância do Customer Success e como ele se diferencia de outras áreas de atendimento ao cliente.</li>
 <li>Domine técnicas de escuta ativa e Spin Selling para melhorar o atendimento e impulsionar o sucesso do cliente.</li>
 <li>Identifique os principais indicadores de sucesso em Customer Success e como usá-los para avaliar e melhorar a experiência do cliente.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Social Selling</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Customer Success e seus 4 principais desafios (<a href="https://www.agendor.com.br/blog/customer-success-o-que-e-crm/">https://www.agendor.com.br/blog/customer-success-o-que-e-crm/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Customer Success: Confira casos práticos (<a href="https://www.youtube.com/watch?v=f0YfIESlgwA">https://www.youtube.com/watch?v=f0YfIESlgwA</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Customer Success: cultura centrada em cliente (<a href="https://cursos.alura.com.br/course/customer-success-cultura-centrada-cliente">https://cursos.alura.com.br/course/customer-success-cultura-centrada-cliente</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O cliente no centro: Customer Centric e Customer Experience (<a href="https://www.alura.com.br/artigos/cliente-centro-customer-centric-customer-experience">https://www.alura.com.br/artigos/cliente-centro-customer-centric-customer-experience</a>)</li>
+</ul>
+<h3>Social Selling:</h3>
 <ul><li>Desenvolver uma presença digital sólida e autêntica que reforce a marca pessoal e profissional de vendedores, utilizando plataformas sociais para construir confiança e autoridade no mercado.</li>
 <li>Capacitar equipe de vendas para identificar e engajar decisores certos dentro de redes sociais, aplicando técnicas de segmentação e prospecção que maximizem a eficácia das abordagens.</li>
 <li>Implementar estratégias de criação e compartilhamento de conteúdo relevante que ressoe com o público-alvo, estimulando o engajamento e posicionando a empresa como líder de pensamento no setor.</li>
 <li>Estabelecer métricas claras e sistemas de monitoramento para avaliar o impacto das atividades de social selling, permitindo ajustes estratégicos que melhorem os resultados e a eficiência das vendas sociais.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Social Selling: definição, benefícios e dicas para líderes de vendas (<a href="https://business.linkedin.com/pt-br/sales-solutions/social-selling">https://business.linkedin.com/pt-br/sales-solutions/social-selling</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é social selling? (<a href="https://vtex.com/pt-br/blog/marketing/o-que-e-social-selling/?utm_term=&utm_campaign=BRA_pmax_2023&utm_source=adwords&utm_medium=ppc&hsa_acc=9663921675&hsa_cam=20809358286&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=2&gclid=Cj0KCQjwrKu2BhDkARIsAD7GBos7sEXucZ6OmVHbezwLF59G2JVVXO22RFoTGLEqZX6noeLdfIYNVT0aAjNMEALw_wcB">https://vtex.com/pt-br/blog/marketing/o-que-e-social-selling/?utm_term=&amp;utm_campaign=BRA_pmax_2023&amp;utm_source=adwords&amp;utm_medium=ppc&amp;hsa_acc=9663921675&amp;hsa_cam=20809358286&amp;hsa_grp=&amp;hsa_ad=&amp;hsa_src=x&amp;hsa_tgt=&amp;hsa_kw=&amp;hsa_mt=&amp;hsa_net=adwords&amp;hsa_ver=3&amp;gad_source=2&amp;gclid=Cj0KCQjwrKu2BhDkARIsAD7GBos7sEXucZ6OmVHbezwLF59G2JVVXO22RFoTGLEqZX6noeLdfIYNVT0aAjNMEALw_wcB</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é SOCIAL SELLING? Aprenda como começar hoje (<a href="https://www.youtube.com/watch?v=QiiJAB_5l58">https://www.youtube.com/watch?v=QiiJAB_5l58</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Vendas de alta performance: Social Selling (<a href="https://cursos.alura.com.br/course/vendas-de-alta-performance-social-selling">https://cursos.alura.com.br/course/vendas-de-alta-performance-social-selling</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Técnicas para melhorar o aprendizado sobre o mercado</strong>:</li>
+<h3>Técnicas para melhorar o aprendizado sobre o mercado:</h3>
 <ul><li>Desenvolver a habilidade de análise de mercado através de técnicas avançadas de pesquisa, permitindo que a equipe de vendas compreenda profundamente as tendências, concorrentes e necessidades do cliente.</li>
 <li>Capacitar a equipe de vendas com ferramentas e métodos eficazes para identificar e estudar o comportamento do consumidor, proporcionando insights valiosos que orientem a estratégia de vendas.</li>
 <li>Criar cultura de aprendizado contínuo, onde os vendedores sejam incentivados a atualizar regularmente conhecimentos sobre o mercado e a adaptar suas abordagens de acordo com as mudanças no ambiente de negócios.</li>
 <li>Implementar rotinas de estudo e reflexão sobre o mercado que integrem o conhecimento adquirido com a prática de vendas, garantindo que os insights de mercado sejam aplicados de forma eficaz nas interações com os clientes.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Prospecção de clientes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Você sabe como fazer um estudo de mercado? Descubra em 7 passos (<a href="https://www.agendor.com.br/blog/como-fazer-um-estudo-de-mercado/">https://www.agendor.com.br/blog/como-fazer-um-estudo-de-mercado/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Estudo de Mercado: O Que é e Como Fazer Um Em 7 Passos Simples (<a href="https://neilpatel.com/br/blog/estudo-de-mercado/">https://neilpatel.com/br/blog/estudo-de-mercado/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Vendas de alta performance: técnicas para melhorar seu aprendizado (<a href="https://cursos.alura.com.br/course/vendas-aprenda-a-aprender">https://cursos.alura.com.br/course/vendas-aprenda-a-aprender</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Aprendizagem sem distância: como aprender a aprender no ensino mediado por tecnologias (<a href="https://www.alura.com.br/artigos/aprendizagem-sem-distancia-aprender-a-aprender-ensino-tecnologias">https://www.alura.com.br/artigos/aprendizagem-sem-distancia-aprender-a-aprender-ensino-tecnologias</a>)</li>
+</ul>
+<h3>Prospecção de clientes:</h3>
 <ul><li>Desenvolver e implementar estratégias de prospecção que permitam identificar e segmentar clientes potenciais com maior precisão, utilizando dados e análises de mercado para orientar esforços de vendas.</li>
 <li>Capacitar equipe de vendas para criar perfis detalhados de cliente ideal (ICP), garantindo que a prospecção seja focada em leads com maior probabilidade de conversão e alinhamento com os objetivos de negócio.</li>
 <li>Otimizar o processo de prospecção através do uso de ferramentas e tecnologias que acelerem a identificação e o contato com leads qualificados, aumentando a eficiência e a produtividade da equipe de vendas.</li>
 <li>Estabelecer métricas claras para monitorar o desempenho das atividades de prospecção, permitindo ajustes contínuos e melhoria dos processos para garantir um pipeline de vendas robusto e sustentável.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Entendendo a necessidade do cliente</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é prospecção de clientes, métodos e como fazer? (<a href="https://www.serasaexperian.com.br/blog-pme/prospeccao-de-clientes-como-fazer/">https://www.serasaexperian.com.br/blog-pme/prospeccao-de-clientes-como-fazer/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia Definitivo para Prospecção de Clientes B2B: como maximizar seus resultados e potencializar sua estratégia de negócios (<a href="https://blog.neoway.com.br/prospeccao-de-clientes/#">https://blog.neoway.com.br/prospeccao-de-clientes/#</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Vendas de alta performance: prospecção de clientes (<a href="https://cursos.alura.com.br/course/vendas-prospeccao-de-clientes">https://cursos.alura.com.br/course/vendas-prospeccao-de-clientes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Veja o que fazer para prospectar clientes de maneira mais eficiente (<a href="https://www.alura.com.br/artigos/veja-o-que-fazer-para-prospectar-clientes-de-maneira-mais-eficiente">https://www.alura.com.br/artigos/veja-o-que-fazer-para-prospectar-clientes-de-maneira-mais-eficiente</a>)</li>
+</ul>
+<h3>Entendendo a necessidade do cliente:</h3>
 <ul><li>Aprimorar a capacidade de diagnóstico das necessidades dos clientes, utilizando técnicas de escuta ativa e análise estratégica para compreender profundamente os desafios e expectativas dos clientes, alinhando as soluções oferecidas às suas reais necessidades.</li>
 <li>Desenvolver conexões de confiança e credibilidade com prospects e clientes, criando abordagens comerciais personalizadas que considerem os perfis e interesses dos stakeholders envolvidos, garantindo que as propostas de valor sejam tangíveis e relevantes.</li>
 <li>Capacitar a equipe de vendas para mapear e qualificar oportunidades de vendas de maneira eficaz, assegurando que o retorno sobre as soluções oferecidas seja claramente tangível para o cliente, promovendo decisões de compra informadas e baseadas em benefícios concretos.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="conteúdo">Conteúdo</code> Veja como atender às expectativas e necessidade do cliente (<a href="https://foccoerp.com.br/blog/necessidade-do-cliente/">https://foccoerp.com.br/blog/necessidade-do-cliente/</a>)</li>
+<li><code data-kind="conteúdo">Conteúdo</code> Entendendo as Necessidades do Cliente: Definição, Classificações, Significado, Abordagens (<a href="https://www.linkedin.com/pulse/entendendo-necessidades-do-cliente-defini%C3%A7%C3%A3o-jaime-pargan-wo9uf/">https://www.linkedin.com/pulse/entendendo-necessidades-do-cliente-defini%C3%A7%C3%A3o-jaime-pargan-wo9uf/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Como criar necessidade no cliente: 6 estratégias para melhores resultados em vendas (<a href="https://meetime.com.br/blog/podcast/como-criar-necessidade-no-cliente/">https://meetime.com.br/blog/podcast/como-criar-necessidade-no-cliente/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Vendas de alta performance: entendendo a necessidade do cliente (<a href="https://cursos.alura.com.br/course/vendas-entendendo-a-necessidade-do-cliente">https://cursos.alura.com.br/course/vendas-entendendo-a-necessidade-do-cliente</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Outbound Marketing</strong>:</li>
+<h3>Outbound Marketing:</h3>
 <ul><li>Estruturar um processo de outbound marketing baseado em métricas sólidas e melhores práticas, garantindo que a equipe de pré-vendas utilize técnicas comprovadas para maximizar a geração de leads qualificados.</li>
 <li>Capacitar a equipe de pré-vendas com habilidades e ferramentas exclusivas para otimizar o contato inicial com potenciais clientes, assegurando que as abordagens sejam eficientes e resultem em conversões de alta qualidade.</li>
 <li>Desenvolver um ciclo contínuo de melhoria e evolução do processo de outbound, focando na adaptação às mudanças do mercado e no refinamento das estratégias de prospecção, para transformar dados qualitativos em resultados quantitativos significativos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Solução e proposta</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="conteúdo">Conteúdo</code> Outbound Marketing: o que é e como prospectar clientes ativamente (<a href="https://meetime.com.br/blog/vendas/outbound-marketing/">https://meetime.com.br/blog/vendas/outbound-marketing/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Inbound e Outbound marketing: qual a diferença? (<a href="https://www.youtube.com/watch?v=8kIFBbr05YM">https://www.youtube.com/watch?v=8kIFBbr05YM</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Outbound Marketing: pré-vendas de alta performance (<a href="https://cursos.alura.com.br/course/outbound-marketing-pre-vendas">https://cursos.alura.com.br/course/outbound-marketing-pre-vendas</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Inbound Marketing - Alura Live #45 (<a href="https://www.youtube.com/watch?v=UbUicCXoHt8">https://www.youtube.com/watch?v=UbUicCXoHt8</a>)</li>
+</ul>
+<h3>Solução e proposta:</h3>
 <ul><li>Mapear as necessidades do cliente de forma precisa e profunda, garantindo que as soluções propostas estejam alinhadas com os desafios e objetivos específicos de cada cliente, aumentando a relevância e a eficácia das propostas.</li>
 <li>Desenvolver habilidades de influência e persuasão na equipe de vendas para guiar os clientes na escolha das soluções que melhor atendem às suas necessidades, utilizando argumentos baseados em valor e benefícios concretos.</li>
 <li>Capacitar a equipe para criar e apresentar propostas assertivas e estratégicas, integrando a identificação de stakeholders, gestão de riscos e criação de cenários de uso, assegurando que cada proposta seja clara, convincente e focada em resultados mensuráveis.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Perguntas poderosas sobre vendas</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que são Stakeholders: significado e exemplos (<a href="https://exame.com/carreira/guia-de-carreira/stakeholders-o-que-sao-e-quais-sao-os-principais-tipos/">https://exame.com/carreira/guia-de-carreira/stakeholders-o-que-sao-e-quais-sao-os-principais-tipos/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O cenário de vendas no Brasil (<a href="https://business.linkedin.com/pt-br/sales-solutions/b2b-sales-strategy-guides/the-state-of-sales-2022-ptbr-edition">https://business.linkedin.com/pt-br/sales-solutions/b2b-sales-strategy-guides/the-state-of-sales-2022-ptbr-edition</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Vendas de alta performance: solução e proposta (<a href="https://cursos.alura.com.br/course/vendas-solucao-e-proposta">https://cursos.alura.com.br/course/vendas-solucao-e-proposta</a>)</li>
+</ul>
+<h3>Perguntas poderosas sobre vendas:</h3>
 <ul><li>Aprimorar a comunicação da equipe de vendas, desenvolvendo habilidades de escuta ativa e questionamento estratégico para evitar vieses cognitivos e entender profundamente as necessidades dos clientes.</li>
 <li>Capacitar a equipe para utilizar perguntas abertas e fechadas de forma eficaz, aplicando a técnica de SPIN Selling para desafiar os clientes e guiar conversas de vendas consultivas que conduzam a fechamentos bem-sucedidos.</li>
 <li>Integrar perguntas poderosas no processo de vendas para identificar e explorar oportunidades, facilitando a descoberta dos objetivos de negócio dos clientes e construindo propostas que atendam diretamente às suas necessidades.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SPIN Selling: aprenda o que é e como vender mais usando boas perguntas (<a href="https://meetime.com.br/blog/vendas/spin-selling-o-que-e/">https://meetime.com.br/blog/vendas/spin-selling-o-que-e/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SPIN Selling ou como convencer o cliente (<a href="https://sebrae.com.br/sites/PortalSebrae/artigos/spin-selling-ou-como-convencer-o-cliente,f4374ca4458a6810VgnVCM1000001b00320aRCRD">https://sebrae.com.br/sites/PortalSebrae/artigos/spin-selling-ou-como-convencer-o-cliente,f4374ca4458a6810VgnVCM1000001b00320aRCRD</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Vendas de alta performance: perguntas poderosas (<a href="https://cursos.alura.com.br/course/vendas-perguntas-poderosas">https://cursos.alura.com.br/course/vendas-perguntas-poderosas</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Empreendedorismo</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Inovação Social e Empreendedorismo</strong>:</li>
+<h3>Inovação Social e Empreendedorismo:</h3>
 <ul><li>Construir e fortalecer um ecossistema de inovação dentro das organizações, onde profissionais são incentivados a colaborar, compartilhar conhecimentos e experimentar novas abordagens, utilizando o empreendedorismo social como um motor para a transformação e o crescimento sustentável.</li>
 <li>Promover a cultura de empreendedorismo voltada para a inovação, capacitando os indivíduos a identificar oportunidades de mercado e a desenvolver iniciativas que integrem aspectos sociais e ambientais ao núcleo dos negócios, gerando valor compartilhado.</li>
 <li>Incorporar práticas de inovação social dentro das organizações, incentivando a criação e implementação de soluções que gerem impacto positivo</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ideia ao plano de négocios</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Vamos mudar o mundo com mulheres, empreendedorismo e tecnologia?! | Empresa Jr. | FIAP (<a href="https://www.youtube.com/watch?v=l4BBVWy84IM">https://www.youtube.com/watch?v=l4BBVWy84IM</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Empreendedorismo social e inovação social: uma análise bibliométrica (<a href="http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0123-59232020000400511">http://www.scielo.org.co/scielo.php?script=sci_arttext&amp;pid=S0123-59232020000400511</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Inovação Social e Empreendedorismo: conduza a mudança e gere impacto (<a href="https://cursos.alura.com.br/course/inovacao-social-empreendedorismo-mudanca-impacto">https://cursos.alura.com.br/course/inovacao-social-empreendedorismo-mudanca-impacto</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Inovação e Disrupção – Hipsters #167 (<a href="https://www.hipsters.tech/inovacao-e-disrupcao-hipsters-167/">https://www.hipsters.tech/inovacao-e-disrupcao-hipsters-167/</a>)</li>
+<li><code data-kind="curso">Curso</code> Viabilidade de Projetos &amp; Negócios: fluxo de caixa, juros, VPL, TIR e payback (<a href="https://cursos.alura.com.br/course/viabilidade-projetos-negocios-fluxo-caixa-juros-vpl-tir-payback">https://cursos.alura.com.br/course/viabilidade-projetos-negocios-fluxo-caixa-juros-vpl-tir-payback</a>)</li>
+</ul>
+<h3>Ideia ao plano de négocios:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Business Model Canvas</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como Fazer um Plano de Negócios: 10 Passos Para Atrair Investidores e Traçar Metas (<a href="https://www.hostinger.com.br/tutoriais/como-fazer-um-plano-de-negocios">https://www.hostinger.com.br/tutoriais/como-fazer-um-plano-de-negocios</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 6 ideias de negócio para novos empreendedores (<a href="https://endeavor.org.br/estrategia-e-gestao/ideias-negocio/">https://endeavor.org.br/estrategia-e-gestao/ideias-negocio/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Empreendedorismo: da ideia ao plano de negócios (<a href="https://cursos.alura.com.br/course/empreendedorismo">https://cursos.alura.com.br/course/empreendedorismo</a>)</li>
+<li><code data-kind="conteúdo">Conteúdo</code> Criatividade e inovação (<a href="https://www.casadocodigo.com.br/products/livro-criatividade-inovacao?_pos=5&_sid=19e38b54a&_ss=r">https://www.casadocodigo.com.br/products/livro-criatividade-inovacao?_pos=5&amp;_sid=19e38b54a&amp;_ss=r</a>)</li>
+</ul>
+<h3>Business Model Canvas:</h3>
 <ul><li>Estruturar ideias de negócios de forma clara e prática, utilizando o Business Model Canvas para transformar conceitos em modelos tangíveis, organizando componentes essenciais como segmentos de clientes, propostas de valor e canais de distribuição.</li>
 <li>Desenvolver um plano de negócios robusto que atraia investidores e parceiros, baseando-se no Business Model Canvas para detalhar como a empresa gerará e entregará valor, abordando estrutura de custos, fluxos de receita e atividades e parcerias-chave.</li>
 <li>Fomentar a análise crítica e a adaptação contínua do modelo de negócios, utilizando o Canvas como uma ferramenta dinâmica para identificar oportunidades de inovação, otimização de recursos e resposta a mudanças no mercado.</li>
 <li>Integrar recursos e atividades-chave para maximizar a eficiência e o valor oferecido, garantindo que todos os componentes do Business Model Canvas estejam interconectados e contribuam para o sucesso e sustentabilidade do empreendimento.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="conteúdo">Conteúdo</code> Template de Business Model Canvas (<a href="https://miro.com/pt/modelos/business-model-canvas/">https://miro.com/pt/modelos/business-model-canvas/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Making a business model canvas: How-tos, templates, and tips (<a href="https://www.canva.com/online-whiteboard/business-model-canvas/">https://www.canva.com/online-whiteboard/business-model-canvas/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Business Model Canvas parte I: um modelo poderoso para o seu negócio (<a href="https://cursos.alura.com.br/course/business-model-canvas">https://cursos.alura.com.br/course/business-model-canvas</a>)</li>
+<li><code data-kind="curso">Curso</code> Business Model Canvas parte II: avance no seu modelo de negócios (<a href="https://cursos.alura.com.br/course/avance-na-construcao-de-negocios">https://cursos.alura.com.br/course/avance-na-construcao-de-negocios</a>)</li>
+</ul>
+<h3>Roadmap:</h3>
 <ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
 <li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
 <li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
@@ -285,9 +437,18 @@
 <li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
 <li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
 <li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Glossário - Roadmap (<a href="https://www.cursospm3.com.br/glossario/roadmap/">https://www.cursospm3.com.br/glossario/roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conheça o roadmap: a ferramenta que guia a estratégia da sua empresa (<a href="https://blog.runrun.it/o-que-e-roadmap/">https://blog.runrun.it/o-que-e-roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Roadmap (<a href="https://miro.com/pt/agile/o-que-e-roadmap/">https://miro.com/pt/agile/o-que-e-roadmap/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Roadmap de Produtos: O que é e como criar um? (<a href="https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos">https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Roadmap: como criar e manter o mapa de produto (<a href="https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto">https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Product Management</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos - Fundamentos</strong>:</li>
+<h3>Gestão de Produtos - Fundamentos:</h3>
 <ul><li>Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.</li>
 <li>Definir visão clara e estratégia para o produto.</li>
 <li>Entender necessidades e preferências dos clientes.</li>
@@ -295,7 +456,19 @@
 <li>Priorizar recursos com base no valor para o cliente e para o negócio.</li>
 <li>Analisar métricas e feedback para orientar decisões.</li>
 <li>Estar aberto a mudanças e ajuste a estratégia conforme necessário.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Product Discovery</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Fundamentos de Product Management (<a href="https://www.cursospm3.com.br/blog/fundamentos-product-management/">https://www.cursospm3.com.br/blog/fundamentos-product-management/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Product Manager: o que faz, salário e como ingressar na profissão (<a href="https://www.cursospm3.com.br/blog/product-manager-guia-o-que-faz-salario-como-ingressar-na-profissao/">https://www.cursospm3.com.br/blog/product-manager-guia-o-que-faz-salario-como-ingressar-na-profissao/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda o que faz um Product Manager e qual a sua importância para o sucesso do seu produto (<a href="https://rockcontent.com/br/blog/product-manager/">https://rockcontent.com/br/blog/product-manager/</a>)</li>
+<li><code data-kind="site">Site</code> MBA PRODUCT MANAGEMENT &amp; GROWTH HACKING (<a href="https://www.fiap.com.br/mba/mba-em-product-management-growth-hacking-discovery-delivery-scale">https://www.fiap.com.br/mba/mba-em-product-management-growth-hacking-discovery-delivery-scale</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Product Manager: O que é e como se destacar na área (<a href="https://www.alura.com.br/artigos/product-manager-o-que-e-e-como-se-destacar">https://www.alura.com.br/artigos/product-manager-o-que-e-e-como-se-destacar</a>)</li>
+<li><code data-kind="curso">Curso</code> Product Management: agilize o desenvolvimento de produtos (<a href="https://cursos.alura.com.br/course/product-management-desenvolvimento-produtos">https://cursos.alura.com.br/course/product-management-desenvolvimento-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Product Manager: uma jornada em gestão de produto (<a href="https://cursos.alura.com.br/course/product-manager-jornada-gestao-produto">https://cursos.alura.com.br/course/product-manager-jornada-gestao-produto</a>)</li>
+</ul>
+<h3>Product Discovery:</h3>
 <ul><li>Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.</li>
 <li>Analisar o mercado para identificar tendências e oportunidades.</li>
 <li>Conduzie entrevistas para entender as necessidades dos usuários.</li>
@@ -303,7 +476,18 @@
 <li>Estudar os concorrentes para identificar lacunas e diferenciais.</li>
 <li>Testar hipóteses para validar a viabilidade do produto.</li>
 <li>Mapear as jornadas dos usuários para identificar pontos de dor.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos Digitais</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Product Discovery, como se diferencia do Product Delivery, e qual o seu valor na Estratégia de crescimento da Empresa (<a href="https://medium.com/@pravy.design/o-que-%C3%A9-product-discovery-como-se-diferencia-do-product-delivery-e-qual-o-seu-valor-na-estrat%C3%A9gia-9cdae6c50e2c">https://medium.com/@pravy.design/o-que-%C3%A9-product-discovery-como-se-diferencia-do-product-delivery-e-qual-o-seu-valor-na-estrat%C3%A9gia-9cdae6c50e2c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Product Discovery: o que é, como fazer e quais as melhores técnicas (<a href="https://produtosincriveis.co/blog/product-discovery-o-que-e-como-fazer-e-quais-as-melhores-tecnicas">https://produtosincriveis.co/blog/product-discovery-o-que-e-como-fazer-e-quais-as-melhores-tecnicas</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Product Manager: O que é e como se destacar na área (<a href="https://cursos.alura.com.br/extra/layerstech/product-discovery-layers-ponto-tech-114-a1958">https://cursos.alura.com.br/extra/layerstech/product-discovery-layers-ponto-tech-114-a1958</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Product Discovery (<a href="https://cursos.alura.com.br/extra/hipsterstech/product-discovery-hipsters-188-a372">https://cursos.alura.com.br/extra/hipsterstech/product-discovery-hipsters-188-a372</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: Product Discovery (<a href="https://cursos.alura.com.br/course/gestao-produtos-digitais-product-discovery">https://cursos.alura.com.br/course/gestao-produtos-digitais-product-discovery</a>)</li>
+<li><code data-kind="curso">Curso</code> Startupismo: Product Discovery (<a href="https://cursos.alura.com.br/course/startupismo-product-discovery">https://cursos.alura.com.br/course/startupismo-product-discovery</a>)</li>
+</ul>
+<h3>Gestão de Produtos Digitais:</h3>
 <ul><li>Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.</li>
 <li>Colocar as necessidades dos usuários no centro do processo de desenvolvimento.</li>
 <li>Definir uma visão clara e estratégia para o produto digital.</li>
@@ -311,7 +495,20 @@
 <li>Coletar e analisar feedback dos usuários para melhorias.</li>
 <li>Adotar metodologias ágeis para entregas rápidas e iterativas.</li>
 <li>Utilizar dados para tomar decisões informadas sobre o produto.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Gestão de produtos digitais: entenda a importância (<a href="https://www.cursospm3.com.br/blog/gestao-de-produtos-digitais-entenda-a-importancia/">https://www.cursospm3.com.br/blog/gestao-de-produtos-digitais-entenda-a-importancia/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de Produtos: a área que está brilhando aos olhos do mercado (<a href="https://www.cursospm3.com.br/blog/gestao-de-produtos-a-area-que-esta-brilhando-os-olhos-do-mercado/">https://www.cursospm3.com.br/blog/gestao-de-produtos-a-area-que-esta-brilhando-os-olhos-do-mercado/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de produtos digitais: o que é e como fazer (<a href="https://herospark.com/blog/gestao-de-produtos-digitais/">https://herospark.com/blog/gestao-de-produtos-digitais/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de Produtos como você nunca viu (<a href="https://www.casadocodigo.com.br/products/livro-mulheres-de-produto">https://www.casadocodigo.com.br/products/livro-mulheres-de-produto</a>)</li>
+<li><code data-kind="site">Site</code> FIAP - Pós Tech em Digital Product Management (<a href="https://postech.fiap.com.br/curso/digital-product-management/">https://postech.fiap.com.br/curso/digital-product-management/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Gestão de produtos digitais: Produto vs. Projeto (<a href="https://cursos.alura.com.br/course/gestao-produtos-digitais-produto-vs-projeto">https://cursos.alura.com.br/course/gestao-produtos-digitais-produto-vs-projeto</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: priorização (<a href="https://cursos.alura.com.br/course/gestao-produtos-priorizacao">https://cursos.alura.com.br/course/gestao-produtos-priorizacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: validação (<a href="https://cursos.alura.com.br/course/gestao-produtos-digitais-validacao">https://cursos.alura.com.br/course/gestao-produtos-digitais-validacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: aceleração (<a href="https://cursos.alura.com.br/course/gestao-produtos-aceleracao">https://cursos.alura.com.br/course/gestao-produtos-aceleracao</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

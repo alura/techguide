@@ -71,11 +71,61 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +151,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +228,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,9 +248,8 @@
   </div>
 
   <div class="content">
-    <h1>Vue</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTML - Fundamentos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>HTML - Fundamentos:</h3>
 <ul><li>HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.</li>
 <li>Aprender quais tags são necessárias para um HTML básico</li>
 <li>Criar um parágrafo de texto</li>
@@ -224,7 +262,22 @@
 <li>Conectar com um arquivo de CSS</li>
 <li>Criar uma tabela</li>
 <li>Adicionar IDs e classes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CSS - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: HTML básico (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics">https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: 5 MINUTOS DE HTML PARA INICIAR EM PROGRAMAÇÃO! (<a href="https://www.youtube.com/watch?v=3oSIqIqzN3M">https://www.youtube.com/watch?v=3oSIqIqzN3M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: LANDING PAGE COM HTML e CSS! (<a href="https://www.youtube.com/watch?v=llF6vD-RljE">https://www.youtube.com/watch?v=llF6vD-RljE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: FORMULÁRIOS COM HTML e CSS! (<a href="https://www.youtube.com/watch?v=wwqOJ2o84S4">https://www.youtube.com/watch?v=wwqOJ2o84S4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> HTML: o que é, a importância para a Web, como aprender e um Guia para iniciantes (<a href="https://www.alura.com.br/artigos/html">https://www.alura.com.br/artigos/html</a>)</li>
+<li><code data-kind="alura+">Alura+</code> Alura+: Fazendo deploy de um projeto na Vercel (<a href="https://cursos.alura.com.br/extra/alura-mais/fazendo-deploy-de-um-projeto-na-vercel-c9239">https://cursos.alura.com.br/extra/alura-mais/fazendo-deploy-de-um-projeto-na-vercel-c9239</a>)</li>
+<li><code data-kind="artigo">Artigo</code> HTML, CSS e Javascript, quais as diferenças? (<a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes">https://www.alura.com.br/artigos/html-css-e-js-definicoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação HTML e CSS (<a href="https://www.alura.com.br/formacao-html-e-css">https://www.alura.com.br/formacao-html-e-css</a>)</li>
+<li><code data-kind="curso">Curso</code> Apostila: Desenvolvimento Web com HTML, CSS e JavaScript (<a href="https://www.alura.com.br/apostila-html-css-javascript">https://www.alura.com.br/apostila-html-css-javascript</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: HTML e CSS (<a href="https://7daysofcode.io/matricula/html-css">https://7daysofcode.io/matricula/html-css</a>)</li>
+</ul>
+<h3>CSS - Fundamentos:</h3>
 <ul><li>Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.</li>
 <li>Aprender a estrutura visual de uma página, com &#39;margin&#39; e &#39;padding&#39;</li>
 <li>Estabelecer o tamanho com &#39;width&#39; e &#39;height&#39;</li>
@@ -239,7 +292,45 @@
 <li>Aprender box-sizing</li>
 <li>Aprender Flexbox</li>
 <li>Aprender Grid</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Iniciando com CSS (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started">https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Seletores (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors">https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Cascata e herança (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance">https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Propriedade &#39;display&#39; (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/display">https://developer.mozilla.org/pt-BR/docs/Web/CSS/display</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Conceitos básicos de Flexbox (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Grid Layout (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout">https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo CSS: Display Inline, Block e Inline-Block (<a href="https://dev.to/sucodelarangela/entendendo-css-display-inline-block-e-inline-block-lic">https://dev.to/sucodelarangela/entendendo-css-display-inline-block-e-inline-block-lic</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo CSS: Pseudo-Classes e Pseudo-Elementos (<a href="https://dev.to/sucodelarangela/entendendo-css-pseudo-classes-e-pseudo-elementos-b83">https://dev.to/sucodelarangela/entendendo-css-pseudo-classes-e-pseudo-elementos-b83</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como aplicar opacidade em background-image sem afetar textos (<a href="https://dev.to/sucodelarangela/como-aplicar-opacidade-em-background-image-sem-afetar-textos-31fj">https://dev.to/sucodelarangela/como-aplicar-opacidade-em-background-image-sem-afetar-textos-31fj</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O QUE É CSS? (<a href="https://www.youtube.com/watch?v=LWU2OR19ZG4">https://www.youtube.com/watch?v=LWU2OR19ZG4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web - parte 1 (<a href="https://www.youtube.com/watch?v=KbjLtEgmZ_E">https://www.youtube.com/watch?v=KbjLtEgmZ_E</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web - parte 2 (<a href="https://www.youtube.com/watch?v=hjz6ezV9_uc">https://www.youtube.com/watch?v=hjz6ezV9_uc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: Arquitetura CSS - BEM (<a href="https://www.youtube.com/watch?v=yKPXW9aSxQI">https://www.youtube.com/watch?v=yKPXW9aSxQI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: CSS Grid Layout (<a href="https://www.youtube.com/watch?v=HBlBNAtFcdw">https://www.youtube.com/watch?v=HBlBNAtFcdw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como centralizar no CSS (<a href="https://www.youtube.com/watch?v=Cu-HP-gvggg">https://www.youtube.com/watch?v=Cu-HP-gvggg</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipster 09 - CSS: Cansei de Ser Simples (<a href="https://www.hipsters.tech/css-cansei-de-ser-simples-hipsters-09/">https://www.hipsters.tech/css-cansei-de-ser-simples-hipsters-09/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CSS: o que é, como usar no HTML e um Guia para iniciar (<a href="https://www.alura.com.br/artigos/css">https://www.alura.com.br/artigos/css</a>)</li>
+<li><code data-kind="artigo">Artigo</code> HTML, CSS e Javascript, quais as diferenças? (<a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes">https://www.alura.com.br/artigos/html-css-e-js-definicoes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia de unidades no CSS (<a href="https://www.alura.com.br/artigos/guia-de-unidades-no-css">https://www.alura.com.br/artigos/guia-de-unidades-no-css</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CSS: Guia do Flexbox (<a href="https://www.alura.com.br/artigos/css-guia-do-flexbox">https://www.alura.com.br/artigos/css-guia-do-flexbox</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como fazer Grids e a Responsividade na Web (<a href="https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web">https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como criar animações incríveis com CSS (<a href="https://www.alura.com.br/artigos/animacoes-com-css">https://www.alura.com.br/artigos/animacoes-com-css</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Houdini CSS: um jeito mágico de criar estilos personalizados (<a href="https://www.alura.com.br/artigos/houdini-css">https://www.alura.com.br/artigos/houdini-css</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: CSS FlexBox: Dicas para começar (<a href="https://www.youtube.com/watch?v=326-B1avuYo">https://www.youtube.com/watch?v=326-B1avuYo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Box Model e Sizing no CSS (<a href="https://www.youtube.com/watch?v=qcNUxyOWXIw">https://www.youtube.com/watch?v=qcNUxyOWXIw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Curso de HTML5 e CSS3 (<a href="https://www.youtube.com/watch?v=78AyiuxYceg">https://www.youtube.com/watch?v=78AyiuxYceg</a>)</li>
+<li><code data-kind="curso">Curso</code> Apostila: Desenvolvimento Web com HTML, CSS e JavaScript (<a href="https://www.alura.com.br/apostila-html-css-javascript">https://www.alura.com.br/apostila-html-css-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação HTML e CSS (<a href="https://www.alura.com.br/formacao-html-e-css">https://www.alura.com.br/formacao-html-e-css</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação CSS: aprofunde em estilos (<a href="https://cursos.alura.com.br/formacao-css-estilos">https://cursos.alura.com.br/formacao-css-estilos</a>)</li>
+<li><code data-kind="curso">Curso</code> HTML e CSS: responsividade com mobile-first (<a href="https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first">https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first</a>)</li>
+<li><code data-kind="curso">Curso</code> CSS: cursos para transformar designs com Grid, Flexbox e Sass (<a href="https://cursos.alura.com.br/formacao-css-cursos-transformar-designs-grid-flexbox-sass">https://cursos.alura.com.br/formacao-css-cursos-transformar-designs-grid-flexbox-sass</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: HTML e CSS (<a href="https://7daysofcode.io/matricula/html-css">https://7daysofcode.io/matricula/html-css</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Responsividade (<a href="https://7daysofcode.io/matricula/responsividade">https://7daysofcode.io/matricula/responsividade</a>)</li>
+</ul>
+<h3>JavaScript - Fundamentos:</h3>
 <ul><li>JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.</li>
 <li>Conhecer os tipos primitivos</li>
 <li>Declarar variáveis, considerando a diferença entre &#39;var&#39;, &#39;let&#39; e &#39;const&#39;</li>
@@ -252,7 +343,40 @@
 <li>Fazer um CRUD</li>
 <li>Obter dados de uma API</li>
 <li>Fazer chamadas assíncronas usando &#39;Async/Await&#39;, &#39;Promise&#39;, etc</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>DOM - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Um primeiro mergulho no JavaScript (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Trabalhando com texto — strings em JavaScript (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Strings">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Strings</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: if...else (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: while (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: for (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Arrays (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Arrays">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Arrays</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Template strings (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Definindo Funções em Javascript (<a href="https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/">https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como manipular arrays e objetos em JavaScript (<a href="https://www.youtube.com/watch?v=yS7AcF-xRUg">https://www.youtube.com/watch?v=yS7AcF-xRUg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: O que é Json e como criar um objeto (<a href="https://www.youtube.com/watch?v=oCY5YEEjlwE">https://www.youtube.com/watch?v=oCY5YEEjlwE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como usar Async/Await? Promises no JavaScript? (<a href="https://www.youtube.com/watch?v=q28lfkBd9F4">https://www.youtube.com/watch?v=q28lfkBd9F4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como pegar dados de uma API? Como fazer AJAX? | Pegando dados de serviços via JavaScript (<a href="https://www.youtube.com/watch?v=85vJXFpXLQw">https://www.youtube.com/watch?v=85vJXFpXLQw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> JavaScript: o que é, como aprender e um Guia da linguagem mais popular do mundo (<a href="https://www.alura.com.br/artigos/javascript/">https://www.alura.com.br/artigos/javascript/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 38 - O Reino encantado do JavaScript (<a href="https://www.hipsters.tech/o-reino-encantado-do-javascript-hipsters-38/">https://www.hipsters.tech/o-reino-encantado-do-javascript-hipsters-38/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 169 - JavaScript: manual de sobrevivência 2020 (<a href="https://www.hipsters.tech/javascript-manual-de-sobrevivencia-2020-hipsters-169/">https://www.hipsters.tech/javascript-manual-de-sobrevivencia-2020-hipsters-169/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 236 - Evolução do JavaScript (<a href="https://www.hipsters.tech/evolucao-do-javascript-hipsters-ponto-tech-236/">https://www.hipsters.tech/evolucao-do-javascript-hipsters-ponto-tech-236/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Strings com JavaScript: o que são e como manipulá-las (<a href="https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular">https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como utilizar operadores de comparação em Javascript (<a href="https://www.alura.com.br/artigos/operadores-matematicos-em-javascript">https://www.alura.com.br/artigos/operadores-matematicos-em-javascript</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Para que serve um Array? (<a href="https://www.alura.com.br/artigos/javascript-para-que-serve-array">https://www.alura.com.br/artigos/javascript-para-que-serve-array</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Quando usar forEach e map? (<a href="https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map">https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Manipulação de array com map, filter e reduce (<a href="https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce">https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Desenvolva aplicações Web com JavaScript (<a href="https://cursos.alura.com.br/formacao-javascript-front-end">https://cursos.alura.com.br/formacao-javascript-front-end</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é JavaScript? (<a href="https://www.youtube.com/watch?v=NaVSbnnV75Q">https://www.youtube.com/watch?v=NaVSbnnV75Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Destructuring em JavaScript (<a href="https://www.youtube.com/watch?v=f8a-qwKC5yk">https://www.youtube.com/watch?v=f8a-qwKC5yk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Classes x funções no Javascript (<a href="https://www.youtube.com/watch?v=iohhj-k9L6s">https://www.youtube.com/watch?v=iohhj-k9L6s</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM (<a href="https://7daysofcode.io/matricula/javascript-e-dom">https://7daysofcode.io/matricula/javascript-e-dom</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM com API (<a href="https://7daysofcode.io/matricula/javascript-e-dom-api">https://7daysofcode.io/matricula/javascript-e-dom-api</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM - Wordle (<a href="https://7daysofcode.io/matricula/javascript-e-dom-wordle">https://7daysofcode.io/matricula/javascript-e-dom-wordle</a>)</li>
+</ul>
+<h3>DOM - Fundamentos:</h3>
 <ul><li>O Document Object Model (DOM) é uma interface de programação para documentos web. Ele representa a página para que os programas possam alterar a estrutura, o estilo e o conteúdo do documento. O DOM representa o documento como nós e objetos; dessa forma, linguagens de programação podem interagir com a página.</li>
 <li>Entender como funciona a árvore do DOM</li>
 <li>Acessar e manipular elementos do HTML e CSS</li>
@@ -260,41 +384,136 @@
 <li>Inserir um novo elemento na árvore</li>
 <li>Remover um elemento da árvore</li>
 <li>Esperar por um evento em certo elemento da página usando &#39;addEventListener()&#39;</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos SPA</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Introdução ao DOM (<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction">https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: querySelector() (<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector">https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: addEventListener() (<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener">https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Felipe Aguiar - Laboratório de javascript: Javascript DOM 01 - DOM - A base da manipulação e criação de páginas dinâmicas (<a href="https://www.youtube.com/watch?v=G31EuXNMDPk">https://www.youtube.com/watch?v=G31EuXNMDPk</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso JavaScript: manipulando o DOM (<a href="https://cursos.alura.com.br/course/javascript-manipulando-elementos-dom">https://cursos.alura.com.br/course/javascript-manipulando-elementos-dom</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia para manipular eventos no DOM com JavaScript: técnicas e exemplos práticos (<a href="https://www.alura.com.br/artigos/eventos-do-dom">https://www.alura.com.br/artigos/eventos-do-dom</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM (<a href="https://7daysofcode.io/matricula/javascript-e-dom">https://7daysofcode.io/matricula/javascript-e-dom</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM com API (<a href="https://7daysofcode.io/matricula/javascript-e-dom-api">https://7daysofcode.io/matricula/javascript-e-dom-api</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM - Wordle (<a href="https://7daysofcode.io/matricula/javascript-e-dom-wordle">https://7daysofcode.io/matricula/javascript-e-dom-wordle</a>)</li>
+</ul>
+<h3>Conceitos SPA:</h3>
 <ul><li>Um aplicativo de página única (SPA - single-page application) é uma aplicação web ou site que interage com o usuário reescrevendo dinamicamente a página web atual com novos dados do servidor web, em vez do método padrão de um navegador que carrega novas páginas inteiras. O objetivo são transições mais rápidas, que tornam o site mais parecido com uma aplicação nativa.</li>
 <li>Entender o que é uma SPA</li>
 <li>Estabelecer rotas para outras páginas</li>
 <li>Conhecer frameworks SPA</li>
 <li>Comunicação com APIs</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Componentes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Wikipédia: Aplicativo de página única (SPA) (<a href="https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica">https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: SPA (Single-page application) (inglês) (<a href="https://developer.mozilla.org/en-US/docs/Glossary/SPA">https://developer.mozilla.org/en-US/docs/Glossary/SPA</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What I wish I had known about SPAs (inglês) (<a href="https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/">https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: Single Page Applications (<a href="https://www.hipsters.tech/single-page-applications-hipsters-16/">https://www.hipsters.tech/single-page-applications-hipsters-16/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é uma Single-Page Application? (SPA) (<a href="https://www.youtube.com/watch?v=opxYpCKzlLk">https://www.youtube.com/watch?v=opxYpCKzlLk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Como configurar o React Router para sua SPA (<a href="https://www.youtube.com/watch?v=4Tb8dp5GYqI">https://www.youtube.com/watch?v=4Tb8dp5GYqI</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraCord - Aula 02 (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-02-state-novas-paginas-e-navegacao-spa-vs-a-tradicional-c69">https://cursos.alura.com.br/imersoes/aulas/aula-02-state-novas-paginas-e-navegacao-spa-vs-a-tradicional-c69</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso React Router: navegação em uma SPA (<a href="https://www.alura.com.br/conteudo/react-router-navegacao-spa">https://www.alura.com.br/conteudo/react-router-navegacao-spa</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: desenvolvendo em React Router com JavaScript (<a href="https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript">https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: conhecendo a biblioteca React Router (<a href="https://www.alura.com.br/curso-online-react-biblioteca-react-router">https://www.alura.com.br/curso-online-react-biblioteca-react-router</a>)</li>
+</ul>
+<h3>Vue - Componentes:</h3>
 <ul><li>O Vue permite definir componentes usando a Option API ou a Composition API.</li>
 <li>Para que servem e como funcionam componentes</li>
 <li>Conheça a especificação da Sintaxe SFC (Single File Component)</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Props</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Vue.js (O competidor de peso do Angular e React) // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=bEl6yN3vd-U&t=161s&pp=ygUOYXByZW5kYSB2dWVqcyA%3D">https://www.youtube.com/watch?v=bEl6yN3vd-U&amp;t=161s&amp;pp=ygUOYXByZW5kYSB2dWVqcyA%3D</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Registrando Componentes (<a href="https://vuejs.org/guide/components/registration.html">https://vuejs.org/guide/components/registration.html</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Single-File Components (<a href="https://vuejs.org/guide/scaling-up/sfc.html">https://vuejs.org/guide/scaling-up/sfc.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Angular vs React vs Vue.js (<a href="https://www.alura.com.br/artigos/angular-vs-react-vs-vue-js">https://www.alura.com.br/artigos/angular-vs-react-vs-vue-js</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Vue.js: o que é, como funciona e como começar a usar esse framework JS (<a href="https://www.alura.com.br/artigos/vue-js">https://www.alura.com.br/artigos/vue-js</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Vue 3: Conhecendo mais de perto (<a href="https://www.alura.com.br/artigos/vue-3-conhecendo-mais-de-perto">https://www.alura.com.br/artigos/vue-3-conhecendo-mais-de-perto</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Vue.js - Hipsters Ponto Tech #288 (<a href="https://www.alura.com.br/podcast/vue-js-hipsters-ponto-tech-288-a1387">https://www.alura.com.br/podcast/vue-js-hipsters-ponto-tech-288-a1387</a>)</li>
+<li><code data-kind="site">Site</code> Preparando o ambiente com Vue!&quot; (<a href="https://cursos.alura.com.br/extra/alura-mais/preparando-o-ambiente-com-vue--c1359">https://cursos.alura.com.br/extra/alura-mais/preparando-o-ambiente-com-vue--c1359</a>)</li>
+<li><code data-kind="curso">Curso</code> Vue3: explorando o framework (<a href="https://cursos.alura.com.br/course/vue3-comecando-framework">https://cursos.alura.com.br/course/vue3-comecando-framework</a>)</li>
+</ul>
+<h3>Vue - Props:</h3>
 <ul><li>Props são um objeto que é injetado em componentes e fornece alguns dados que podem ser compartilhados entre outros componentes em um fluxo de dados unidirecional, de um elemento pai para um elemento filho. Props são de somente leitura.</li>
 <li>Como passar props</li>
 <li>Como manipular props</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Diretivas</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - Props (<a href="https://vuejs.org/guide/components/props.html">https://vuejs.org/guide/components/props.html</a>)</li>
+<li><code data-kind="site">Site</code> Introdução à CLI do Vue e a componentes de arquivo único no Vue.js (<a href="https://learn.microsoft.com/pt-br/training/modules/vue-cli-components/">https://learn.microsoft.com/pt-br/training/modules/vue-cli-components/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Domine as Props no Vue.js: Da Declaração à Validação (<a href="https://marcosviniciosneves.medium.com/domine-as-props-no-vue-js-da-declara%C3%A7%C3%A3o-%C3%A0-valida%C3%A7%C3%A3o-cd44952cde23">https://marcosviniciosneves.medium.com/domine-as-props-no-vue-js-da-declara%C3%A7%C3%A3o-%C3%A0-valida%C3%A7%C3%A3o-cd44952cde23</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Vue.js na Wirecard (<a href="https://www.alura.com.br/podcast/vue-js-na-wirecard-hipsters-on-the-road-09-a427">https://www.alura.com.br/podcast/vue-js-na-wirecard-hipsters-on-the-road-09-a427</a>)</li>
+</ul>
+<h3>Vue - Diretivas:</h3>
 <ul><li>Explore as diretivas básicas oferecidas pelo Vue, como v-if, v-else, v-show, v-bind, v-model e v-for. </li>
 <li>Depois de se familiarizar com as diretivas integradas, suba de nível criando suas próprias diretivas personalizadas.</li>
 <li>Para finalizar sua jornada, domine os argumentos e modificadores das diretivas.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Options API</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - Renderização condicional (<a href="https://vuejs.org/guide/essentials/conditional.html">https://vuejs.org/guide/essentials/conditional.html</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Renderização de listas (<a href="https://vuejs.org/guide/essentials/list.html">https://vuejs.org/guide/essentials/list.html</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Diretivas customizadas   (<a href="https://vuejs.org/guide/reusability/custom-directives.html#custom-directives">https://vuejs.org/guide/reusability/custom-directives.html#custom-directives</a>)</li>
+<li><code data-kind="site">Site</code> Exibições de página dinâmicas com o Vue.js (<a href="https://learn.microsoft.com/pt-br/training/modules/vue-dynamic-rendering/">https://learn.microsoft.com/pt-br/training/modules/vue-dynamic-rendering/</a>)</li>
+</ul>
+<h3>Vue - Options API:</h3>
 <ul><li>Aprenda a estruturar um componente Vue usando a Options API, abrangendo opções como &#39;data&#39;, &#39;methods&#39;, &#39;computed&#39;, e &#39;watch&#39;.</li>
 <li>Domine os hooks do ciclo de vida do componente (&#39;created&#39;, &#39;mounted&#39;, &#39;updated&#39;, e &#39;destroyed&#39;) para controlar comportamentos em diferentes etapas da vida do componente.</li>
 <li>Pratique o gerenciamento de estado reativo dentro dos componentes, utilizando opções como &#39;data&#39; e &#39;computed&#39;, e aprenda como sincronizar estados entre componentes usando &#39;props&#39; e &#39;emit&#39;.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Composition API</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - O básico de um componente (<a href="https://vuejs.org/guide/essentials/component-basics.html">https://vuejs.org/guide/essentials/component-basics.html</a>)</li>
+<li><code data-kind="site">Site</code> Mozilla: Usando propriedades computadas do Vue (<a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_computed_properties">https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_computed_properties</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Vue3: Options API vs Composition API (<a href="https://dev.to/sucodelarangela/vue3-options-api-vs-composition-api-1j09">https://dev.to/sucodelarangela/vue3-options-api-vs-composition-api-1j09</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Vue3: Como declarar estados reativos (<a href="https://dev.to/sucodelarangela/vue3-como-declarar-estados-reativos-1lc7">https://dev.to/sucodelarangela/vue3-como-declarar-estados-reativos-1lc7</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> VueJS: Ciclo de vida dos componentes (<a href="https://www.alura.com.br/artigos/vuejs-ciclo-vida-componentes">https://www.alura.com.br/artigos/vuejs-ciclo-vida-componentes</a>)</li>
+</ul>
+<h3>Vue - Composition API:</h3>
 <ul><li>Inicie componentes com a função setup(). Ela é o coração da Composition API.</li>
 <li>Aprenda a usar ref e reactive para criar e gerenciar estados reativos.</li>
 <li>Domine os hooks do ciclo de vida. Eles são vitais para controlar comportamentos em diferentes estágios do componente.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Template</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - O básico de um componente (<a href="https://vuejs.org/guide/essentials/component-basics.html">https://vuejs.org/guide/essentials/component-basics.html</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Ref e reatividade (<a href="https://vuejs.org/guide/essentials/reactivity-fundamentals.html#ref">https://vuejs.org/guide/essentials/reactivity-fundamentals.html#ref</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Ciclo de vida usando hooks (<a href="https://vuejs.org/guide/essentials/lifecycle.html">https://vuejs.org/guide/essentials/lifecycle.html</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Propriedades computadas (<a href="https://vuejs.org/guide/essentials/computed.html">https://vuejs.org/guide/essentials/computed.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Vue3: Options API vs Composition API (<a href="https://dev.to/sucodelarangela/vue3-options-api-vs-composition-api-1j09">https://dev.to/sucodelarangela/vue3-options-api-vs-composition-api-1j09</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Vue3: Como declarar estados reativos (<a href="https://dev.to/sucodelarangela/vue3-como-declarar-estados-reativos-1lc7">https://dev.to/sucodelarangela/vue3-como-declarar-estados-reativos-1lc7</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> VueJS: Ciclo de vida dos componentes (<a href="https://www.alura.com.br/artigos/vuejs-ciclo-vida-componentes">https://www.alura.com.br/artigos/vuejs-ciclo-vida-componentes</a>)</li>
+<li><code data-kind="curso">Curso</code> Vue3: composition API e Vuex (<a href="https://www.alura.com.br/curso-online-vue3-composition-api-vuex">https://www.alura.com.br/curso-online-vue3-composition-api-vuex</a>)</li>
+</ul>
+<h3>Vue - Template:</h3>
 <ul><li>Comece aprendendo a sintaxe básica de um template Vue e como renderizar dados dinâmicos.</li>
 <li>Aprofunde-se no uso de diretivas de template como v-if, v-for e v-bind para criar interfaces dinâmicas.</li>
 <li>Aprenda a definir e usar componentes dentro dos seus templates para reutilizar e organizar o código.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Create App</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - Template (<a href="https://vuejs.org/guide/essentials/template-syntax.html">https://vuejs.org/guide/essentials/template-syntax.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Vue3: avançando no framework (<a href="https://www.alura.com.br/curso-online-vue3-avancando-framework">https://www.alura.com.br/curso-online-vue3-avancando-framework</a>)</li>
+</ul>
+<h3>Vue - Create App:</h3>
 <ul><li>Inicie criando um novo projeto Vue com Vue CLI ou Vite.</li>
 <li>Crie   componentes Vue e entenda como estruturá-los usando Options API ou Composition API.</li>
 <li>Veja como a navegação com Vue Router e gerenciamento de estado com Pinea podem ser úteis em SPAs escritas em Vue.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue Forms</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Playground - Experimente Vue (<a href="https://play.vuejs.org/#eNp9kVFLwzAQx7/KeS9TmBuyt1EHKgP1QUUFX/JS2lvXmSYhucxC6Xf32tLqwxiEJPf/X5Lf5Rq8c25xjIRrTELmS8cbZah21jPktEujZmiUAchTTi+vhj2AJ47ejBFAFYo1zB5Jawtf1uv8YjZYbbfIJCNZTg9IwFQ5nTJJBJDsbzZN090CbZssJerV0rjIcLyubE76VqH4CsVKltNpnCOHzJpdWSwOwRqpo4dSmNnKlZr8q+PSmqBwPeIqTIXz57nX2Eeaj3q2p+z7hH4IdacpfPMUyB9J4eRx6gviwd5+vFAt+8kU8qgl+4z5TsHq2DEOaffR5IL9L6+nfaq6npSm+AzbmsmEsagOtP/kPl+hNPPhTOl/uKvFamwOtr/4aany">https://play.vuejs.org/#eNp9kVFLwzAQx7/KeS9TmBuyt1EHKgP1QUUFX/JS2lvXmSYhucxC6Xf32tLqwxiEJPf/X5Lf5Rq8c25xjIRrTELmS8cbZah21jPktEujZmiUAchTTi+vhj2AJ47ejBFAFYo1zB5Jawtf1uv8YjZYbbfIJCNZTg9IwFQ5nTJJBJDsbzZN090CbZssJerV0rjIcLyubE76VqH4CsVKltNpnCOHzJpdWSwOwRqpo4dSmNnKlZr8q+PSmqBwPeIqTIXz57nX2Eeaj3q2p+z7hH4IdacpfPMUyB9J4eRx6gviwd5+vFAt+8kU8qgl+4z5TsHq2DEOaffR5IL9L6+nfaq6npSm+AzbmsmEsagOtP/kPl+hNPPhTOl/uKvFamwOtr/4aany</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Criando uma aplicação (<a href="https://vuejs.org/guide/quick-start.html#creating-a-vue-application">https://vuejs.org/guide/quick-start.html#creating-a-vue-application</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Ciclo de vida da aplicação (<a href="https://vuejs.org/guide/essentials/application.html">https://vuejs.org/guide/essentials/application.html</a>)</li>
+</ul>
+<h3>Vue Forms:</h3>
 <ul><li>Comece aprendendo as bases dos formulários no Vue, incluindo v-model e como vincular diferentes tipos de campos de entrada (input binds).</li>
 <li>Depois de dominar as bases, aprenda como o Vue 3 lida com as entradas do usuário e as diferenças em relação às versões anteriores.</li>
 <li>Mergulhe no mundo da Vue Formulate, uma das bibliotecas mais completas para trabalhar com formulários no Vue. Compreenda como usar seus recursos para construir formulários complexos com facilidade.</li>
@@ -303,14 +522,27 @@
 <li>Além de usar bibliotecas, aprenda a criar suas próprias regras de validação personalizadas no Vue.</li>
 <li>Aprofunde-se na criação de formulários dinâmicos, onde os campos podem mudar com base nas ações do usuário.</li>
 <li>Descubra como integrar a gestão dos formulários com Vuex/Pinia  para um gerenciamento de estado mais sólido e escalável.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Eventos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - Inputs (<a href="https://vuejs.org/guide/essentials/forms.html">https://vuejs.org/guide/essentials/forms.html</a>)</li>
+<li><code data-kind="site">Site</code> Vue Formulate (<a href="https://vueformulate.com/">https://vueformulate.com/</a>)</li>
+<li><code data-kind="site">Site</code> Vee Validate (<a href="https://vee-validate.logaretm.com/v4/">https://vee-validate.logaretm.com/v4/</a>)</li>
+<li><code data-kind="site">Site</code> Vuex (<a href="https://vuex.vuejs.org/">https://vuex.vuejs.org/</a>)</li>
+<li><code data-kind="site">Site</code> Pinia (<a href="https://pinia.vuejs.org/">https://pinia.vuejs.org/</a>)</li>
+</ul>
+<h3>Vue - Eventos:</h3>
 <ul><li>Inicie seu aprendizado sobre eventos no Vue, entendendo a diferença entre eventos do DOM e eventos personalizados do Vue.</li>
 <li>Aprenda a usar a diretiva v-on para adicionar manipuladores de eventos a elementos do DOM e como passar argumentos para os manipuladores de eventos.</li>
 <li>Mergulhe nos eventos de teclado e mouse, entendendo como capturá-los e como usar modificadores de eventos para simplificar o código.</li>
 <li>Descubra como emitir e ouvir eventos personalizados usando o método $emit e a diretiva v-on.</li>
 <li>Aprofunde-se na compreensão do bubbling e capturing de eventos no Vue, e quando usar o .native modifier.</li>
 <li>Conheça o conceito de &quot;Event Bus&quot; para comunicação entre componentes não relacionados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue Router</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - Manipulando eventos (<a href="https://vuejs.org/guide/essentials/event-handling.html">https://vuejs.org/guide/essentials/event-handling.html</a>)</li>
+<li><code data-kind="site">Site</code> Eventos em apps Vue (<a href="https://www.w3schools.com/vue/vue_events.php">https://www.w3schools.com/vue/vue_events.php</a>)</li>
+</ul>
+<h3>Vue Router:</h3>
 <ul><li>Comece instalando e configurando o Vue Router em seu projeto. Aprenda a criar um arquivo de rotas e a configurar o Vue para usar o Vue Router.</li>
 <li>Domine a criação de rotas básicas, entenda a correspondência de rotas com os componentes Vue e como usar a diretiva <router-link> para criar links.</li>
 <li>Avance para o roteamento dinâmico, aprendendo a usar parâmetros de rota para criar rotas flexíveis.</li>
@@ -318,9 +550,15 @@
 <li>Mergulhe no roteamento nomeado e aprenda como ele pode tornar o seu código mais fácil de entender e manter.</li>
 <li>Explore os guardas de rota e como eles podem ser usados para controlar o acesso a certas rotas.</li>
 <li>Aprenda a criar transições suaves entre as rotas com o elemento <transition> do Vue.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue Router: Documentação (<a href="https://router.vuejs.org/">https://router.vuejs.org/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Vue3: explorando o framework (<a href="https://cursos.alura.com.br/course/vue3-comecando-framework">https://cursos.alura.com.br/course/vue3-comecando-framework</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Composition API a fundo</strong>:</li>
+<h3>Vue - Composition API a fundo:</h3>
 <ul><li>Comece entendendo a função setup() e o conceito de reatividade no Vue 3.</li>
 <li>Domine ref e reactive, os principais elementos para gerenciar estados reativos.</li>
 <li>Aprenda a usar computed para trabalhar com propriedades calculadas.</li>
@@ -330,14 +568,27 @@
 <li>Aprenda a usar props dentro da setup e como lidar com as diretivas no template.</li>
 <li>Implemente a lógica reutilizável através de Composables.</li>
 <li>Aprenda as melhores práticas e padrões comuns ao usar a Composition API.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue Devtools</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - Options VS Composition API (<a href="https://vuejs.org/guide/introduction.html#which-to-choose">https://vuejs.org/guide/introduction.html#which-to-choose</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Tutoriais práticos para se aprofundar na Composition API (<a href="https://vuejs.org/tutorial/#step-1">https://vuejs.org/tutorial/#step-1</a>)</li>
+<li><code data-kind="site">Site</code> Vue Composition API (<a href="https://www.w3schools.com/vue/vue_composition-api.php">https://www.w3schools.com/vue/vue_composition-api.php</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Vue3: composition API e Vuex (<a href="https://www.alura.com.br/curso-online-vue3-composition-api-vuex">https://www.alura.com.br/curso-online-vue3-composition-api-vuex</a>)</li>
+</ul>
+<h3>Vue Devtools:</h3>
 <ul><li>Comece instalando a extensão Vue DevTools no seu navegador.</li>
 <li>Familiarize-se com a interface, aprendendo sobre as abas de Componentes, Vuex, Roteamento e Performance.</li>
 <li>Aprenda a inspecionar componentes, observando seus props, dados, e slots.</li>
 <li>Entenda como monitorar a store do Vuex | Pinia e o histórico de roteamento.</li>
 <li>Pratique a edição no local do estado da aplicação e o &quot;time-travel debugging&quot;.</li>
 <li>Ajuste as configurações ao seu gosto e integre as DevTools com seu ambiente de desenvolvimento.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Estilizando componentes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue.js devtools (<a href="https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd">https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd</a>)</li>
+</ul>
+<h3>Vue - Estilizando componentes:</h3>
 <ul><li>Comece pelo básico, aplicando folhas de estilo CSS externas ao seu projeto Vue.</li>
 <li>Vá um pouco mais fundo e aprenda sobre o atributo &quot;scoped&quot; no Vue, que permite que você direcione estilos especificamente para um único componente.</li>
 <li>Explore bibliotecas que permitem que você escreva estilos em JavaScript, oferecendo recursos dinâmicos e reutilizáveis.</li>
@@ -346,7 +597,19 @@
 <li>Conheça a biblioteca vue-styled-components, uma implementação do Styled Components para Vue, que permite escrever CSS real em JavaScript.</li>
 <li>Dê uma olhada no Tailwind CSS, um framework de CSS de utilidade, e aprenda como pode ser integrado com Vue para um desenvolvimento de interface de usuário eficiente.</li>
 <li>Com o Vue 3, explore a vinculação de estilos e como eles podem ser usados para aplicar estilos dinâmicos com base nos dados do componente.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Comunicando-se com APIs</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - Classes e estilos (<a href="https://vuejs.org/guide/essentials/class-and-style.html">https://vuejs.org/guide/essentials/class-and-style.html</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Escopo do CSS (<a href="https://vuejs.org/api/sfc-css-features.html#scoped-css">https://vuejs.org/api/sfc-css-features.html#scoped-css</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Módulos CSS (<a href="https://vuejs.org/api/sfc-css-features.html#css-modules">https://vuejs.org/api/sfc-css-features.html#css-modules</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Pré Processadores (<a href="https://vuejs.org/api/sfc-spec.html#pre-processors">https://vuejs.org/api/sfc-spec.html#pre-processors</a>)</li>
+<li><code data-kind="site">Site</code> Bootstrap Vue (<a href="https://bootstrap-vue.org/">https://bootstrap-vue.org/</a>)</li>
+<li><code data-kind="site">Site</code> Tailwind CSS (<a href="https://tailwindcss.com/docs/guides/vite#vue">https://tailwindcss.com/docs/guides/vite#vue</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="site">Site</code> Tailwind CSS: estilizando a sua página com classes utilitárias (<a href="https://www.alura.com.br/conteudo/tailwind-css-estilizando-pagina-classes-utilitarias">https://www.alura.com.br/conteudo/tailwind-css-estilizando-pagina-classes-utilitarias</a>)</li>
+</ul>
+<h3>Vue - Comunicando-se com APIs:</h3>
 <ul><li>Entenda o que são APIs, como funcionam e como se comunicam com os clientes web.</li>
 <li>Aprenda os conceitos básicos de AJAX e como o Vue se integra com AJAX para recuperar dados de uma API.</li>
 <li>Mergulhe no Axios, uma popular biblioteca JavaScript para realizar solicitações HTTP. Aprenda a instalar e a usar o Axios em um projeto Vue para fazer chamadas GET, POST e outras.</li>
@@ -354,24 +617,64 @@
 <li>Adentre no mundo do GraphQL, um poderoso paradigma de API. Aprenda a usar o Apollo Client, uma solução completa para o gerenciamento de estado de dados GraphQL em aplicações Vue.</li>
 <li>Explore o Vue Relay, uma estrutura para trabalhar com GraphQL no Vue. Entenda as vantagens que ele oferece e como ele difere do Apollo Client.</li>
 <li>Aprenda a lidar com as respostas das APIs, incluindo a manipulação de dados recebidos e a tratamento de erros.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Callbacks e Promises</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Axios (<a href="https://axios-http.com/docs/intro">https://axios-http.com/docs/intro</a>)</li>
+<li><code data-kind="site">Site</code> Unfetch (<a href="https://github.com/developit/unfetch">https://github.com/developit/unfetch</a>)</li>
+<li><code data-kind="site">Site</code> Vue Apollo (<a href="https://apollo.vuejs.org/guide/">https://apollo.vuejs.org/guide/</a>)</li>
+<li><code data-kind="site">Site</code> Vue Relay (<a href="https://github.com/vue-relay/vue-relay">https://github.com/vue-relay/vue-relay</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> REST: Conceito e fundamentos (<a href="https://www.alura.com.br/artigos/rest-conceito-e-fundamentos">https://www.alura.com.br/artigos/rest-conceito-e-fundamentos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia essencial do GraphQL para pessoas que desenvolvem frontend (<a href="https://www.alura.com.br/artigos/guia-graphql-pessoas-que-desenvolvem-frontend">https://www.alura.com.br/artigos/guia-graphql-pessoas-que-desenvolvem-frontend</a>)</li>
+</ul>
+<h3>JavaScript - Callbacks e Promises:</h3>
 <ul><li>Uma promessa (Promise) é um proxy para um valor não necessariamente conhecido quando a promessa é criada. Isso permite que métodos assíncronos retornem valores como métodos síncronos - em vez de retornar imediatamente o valor final, o método assíncrono retorna uma promessa de fornecer o valor em algum momento no futuro.</li>
 <li>Uma função de Callback é uma função passada para outra função como um argumento, que é então invocado dentro da função externa para completar algum tipo de rotina ou ação.</li>
-<li>Uma função assíncrona (async) é uma função declarada com a palavra-chave <code>async</code>, e a palavra-chave <code>await</code> é permitida dentro dela. As palavras-chave <code>async</code> e <code>await</code> permitem que o comportamento assíncrono e baseado em promessas seja escrito em um estilo mais limpo, evitando a necessidade de configurar explicitamente as cadeias de promessas.</li>
+<li>Uma função assíncrona (async) é uma função declarada com a palavra-chave <code data-kind="async">async</code>, e a palavra-chave <code data-kind="await">await</code> é permitida dentro dela. As palavras-chave <code data-kind="async">async</code> e <code data-kind="await">await</code> permitem que o comportamento assíncrono e baseado em promessas seja escrito em um estilo mais limpo, evitando a necessidade de configurar explicitamente as cadeias de promessas.</li>
 <li>Entender o conceito de assincronicidade em programação</li>
 <li>Escrever código assíncrono entendendo o conceito de promessas em JavaScript</li>
 <li>Utilizar os métodos, palavras-chaves e objetos do JavaScript para manipulação de promessas como &#39;Async/Await&#39;, &#39;.then()&#39;, &#39;Promise&#39;, etc</li>
 <li>Aprender em quais situações é necessário o uso de programação assíncrona</li>
-<li>Fazer chamadas em APIs com <code>fetch()</code></li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Manipulação de Erros</strong>:</li>
+<li>Fazer chamadas em APIs com <code data-kind="fetch()">fetch()</code></li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Introdução ao JavaScript Async (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Asynchronous/Introducing">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Asynchronous/Introducing</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Funções assíncronas (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Promise (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Função Callback (<a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Callback_function">https://developer.mozilla.org/pt-BR/docs/Glossary/Callback_function</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como usar Async/Await? Promises no JavaScript? (<a href="https://www.youtube.com/watch?v=q28lfkBd9F4">https://www.youtube.com/watch?v=q28lfkBd9F4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Callbacks, Síncrono, Assíncrono e Event Loop no JavaScript (<a href="https://www.youtube.com/watch?v=6lbBaM18X3g">https://www.youtube.com/watch?v=6lbBaM18X3g</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo como fazer AJAX com a FetchAPI (<a href="https://medium.com/@omariosouto/entendendo-como-fazer-ajax-com-a-fetchapi-977ff20da3c6">https://medium.com/@omariosouto/entendendo-como-fazer-ajax-com-a-fetchapi-977ff20da3c6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como pegar dados de uma API? Como fazer AJAX? | Pegando dados de serviços via JavaScript (<a href="https://www.youtube.com/watch?v=85vJXFpXLQw">https://www.youtube.com/watch?v=85vJXFpXLQw</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Revolução no Node.js: adeus ao Axios e fetch API na versão 17.5.0 (<a href="https://www.alura.com.br/artigos/revolucao-node-js-adeus-axios-fetch-api-versao-17-5-0">https://www.alura.com.br/artigos/revolucao-node-js-adeus-axios-fetch-api-versao-17-5-0</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Async/await no JavaScript: o que é e quando usar a programação assíncrona? (<a href="https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar">https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar</a>)</li>
+<li><code data-kind="site">Site</code> Alura+: JavaScript assíncrono e Fetch (<a href="https://cursos.alura.com.br/extra/alura-mais/javascript-assincrono-e-fetch-c93">https://cursos.alura.com.br/extra/alura-mais/javascript-assincrono-e-fetch-c93</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso JavaScript: consumindo e tratando dados de uma API (<a href="https://cursos.alura.com.br/course/javascript-consumindo-tratando-dados-uma-api">https://cursos.alura.com.br/course/javascript-consumindo-tratando-dados-uma-api</a>)</li>
+</ul>
+<h3>JavaScript - Manipulação de Erros:</h3>
 <ul><li>O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.</li>
 <li>Conhecer e tratar as exceções mais comuns</li>
 <li>Saber quais os tipos de erros e em quais situações eles podem ocorrer</li>
 <li>Entender como o Node.js faz o manejo de erros</li>
 <li>Usar &#39;try&#39; e &#39;catch&#39; para tratamento de erros</li>
-<li>Em que ocasiões e de que forma utilizar o <code>throw</code></li>
+<li>Em que ocasiões e de que forma utilizar o <code data-kind="throw">throw</code></li>
 <li>Criar exceções específicas de acordo com a necessidade de sua aplicação</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Testes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Controle de Fluxo e Manipulação de Erro (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#declara%C3%A7%C3%B5es_de_manipula%C3%A7%C3%A3o_de_error">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#declara%C3%A7%C3%B5es_de_manipula%C3%A7%C3%A3o_de_error</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Error (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error</a>)</li>
+<li><code data-kind="site">Site</code> Microsoft TechNet: JavaScript: Tratamento de erros (<a href="https://social.technet.microsoft.com/wiki/pt-br/contents/articles/32455.javascript-tratamento-de-erros.aspx">https://social.technet.microsoft.com/wiki/pt-br/contents/articles/32455.javascript-tratamento-de-erros.aspx</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Exceções e Erros em JavaScript (<a href="http://gabrielprates.com/2017/06/02/excecoes-e-erros-em-js.html">http://gabrielprates.com/2017/06/02/excecoes-e-erros-em-js.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando Exceptions para impressionar no Teste Técnico (<a href="https://dev.to/he4rt/criando-exceptions-para-impressionar-no-teste-tecnico-2nie">https://dev.to/he4rt/criando-exceptions-para-impressionar-no-teste-tecnico-2nie</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Lidando com erros no Node.js (<a href="https://www.alura.com.br/artigos/lidando-com-erros-node-js">https://www.alura.com.br/artigos/lidando-com-erros-node-js</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Node.js: Criando sua primeira biblioteca (<a href="https://cursos.alura.com.br/course/javascript-node-js-criando-primeira-biblioteca">https://cursos.alura.com.br/course/javascript-node-js-criando-primeira-biblioteca</a>)</li>
+</ul>
+<h3>Vue - Testes:</h3>
 <ul><li>Testes unitários são testes que validam a funcionalidade de partes individuais do seu código.</li>
 <li>Testes E2E simulam a experiência do usuário ao interagir com a aplicação, garantindo que todos os componentes funcionem juntos como esperado.</li>
 <li>Vue Test Utils é a biblioteca oficial para testes de componentes Vue.</li>
@@ -384,14 +687,48 @@
 <li>Os comandos personalizados ajudam a simplificar os testes, evitando a repetição de códigos de teste.</li>
 <li>Aprenda a manipular e testar diferentes estados da sua aplicação, como usuários logados e deslogados.</li>
 <li>Integre seus testes E2E ao seu processo de integração contínua/deploy contínuo (CI/CD) para garantir que sua aplicação esteja sempre funcionando como esperado.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cypress</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - Testes de unidade (<a href="https://vuejs.org/guide/scaling-up/testing.html#unit-testing">https://vuejs.org/guide/scaling-up/testing.html#unit-testing</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Testes fim-a-fim (<a href="https://vuejs.org/guide/scaling-up/testing.html#e2e-testing">https://vuejs.org/guide/scaling-up/testing.html#e2e-testing</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Testes automatizados: como melhorar qualidade e confiabilidade do seu software (<a href="https://www.alura.com.br/artigos/testes-automatizados">https://www.alura.com.br/artigos/testes-automatizados</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Desmistificando testes de unidade no Vue (<a href="https://www.alura.com.br/artigos/desmistificando-testes-de-unidade-no-vue">https://www.alura.com.br/artigos/desmistificando-testes-de-unidade-no-vue</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entrega e integração contínua de aplicações Vue (<a href="https://www.alura.com.br/artigos/entrega-e-integracao-continua-de-aplicacoes-vue">https://www.alura.com.br/artigos/entrega-e-integracao-continua-de-aplicacoes-vue</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Testes em Javascript - Alura Live 50 (<a href="https://www.youtube.com/watch?v=r1rndQwFLMY">https://www.youtube.com/watch?v=r1rndQwFLMY</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Cypress: automação de testes E2E (<a href="https://www.alura.com.br/conteudo/cypress-automacao-testes-e2e">https://www.alura.com.br/conteudo/cypress-automacao-testes-e2e</a>)</li>
+</ul>
+<h3>Cypress:</h3>
 <ul><li>Criar e executar testes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Babel - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Cypress: Documentação (inglês) (<a href="https://docs.cypress.io/guides/getting-started/installing-cypress">https://docs.cypress.io/guides/getting-started/installing-cypress</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Um Overview sobre Cypress.io — Framework de Automação de Testes end-to-end (<a href="https://medium.com/@faelbercam/um-overview-sobre-cypress-io-framework-de-automa%C3%A7%C3%A3o-de-testes-end-to-end-dc438b9ee7a1">https://medium.com/@faelbercam/um-overview-sobre-cypress-io-framework-de-automa%C3%A7%C3%A3o-de-testes-end-to-end-dc438b9ee7a1</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Embaixadora da Qualidade: Guia Rápido Sobre Cypress (<a href="https://www.youtube.com/watch?v=ZWF7QT3ogk0">https://www.youtube.com/watch?v=ZWF7QT3ogk0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Otavio Lemos: Guia Rápido Sobre Cypress (<a href="https://www.youtube.com/watch?v=e5SuUUFlDss">https://www.youtube.com/watch?v=e5SuUUFlDss</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="site">Site</code> Primeiras aulas do curso Cypress: automação de testes E2E (<a href="https://www.alura.com.br/conteudo/cypress-automatizando-testes-e2e">https://www.alura.com.br/conteudo/cypress-automatizando-testes-e2e</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Cypress: automação de testes E2E (<a href="https://www.alura.com.br/curso-online-cypress-automacao-testes-e2e">https://www.alura.com.br/curso-online-cypress-automacao-testes-e2e</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Carreira QA: processos e automação de testes (<a href="https://www.alura.com.br/formacao-carreira-tester-qa">https://www.alura.com.br/formacao-carreira-tester-qa</a>)</li>
+</ul>
+<h3>Babel - Fundamentos:</h3>
 <ul><li>Babel é um compilador JavaScript. É uma ferramentas usada principalmente para converter código ECMAScript 2015+ em uma versão compatível com versões anteriores do JavaScript em navegadores ou ambientes atuais e mais antigos.</li>
 <li>Compreender como Babel converte a sintaxe para JavaScript</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: What is Babel? (inglês) (<a href="https://babeljs.io/docs/en/">https://babeljs.io/docs/en/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é babel? (<a href="https://coodesh.com/blog/dicionario/o-que-e-babel/">https://coodesh.com/blog/dicionario/o-que-e-babel/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> React e Babel — Como melhorar o desempenho de suas aplicações com plugins, presets e benchmark! (<a href="https://medium.com/nossa-coletividad/react-e-babel-como-melhorar-o-desempenho-de-suas-aplica%C3%A7%C3%B5es-com-plugins-presets-e-benchmark-fb35700a52e9">https://medium.com/nossa-coletividad/react-e-babel-como-melhorar-o-desempenho-de-suas-aplica%C3%A7%C3%B5es-com-plugins-presets-e-benchmark-fb35700a52e9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: React, Babel e Webpack, o que é tudo isso? (<a href="https://www.youtube.com/watch?v=y5B0MXmt428">https://www.youtube.com/watch?v=y5B0MXmt428</a>)</li>
+<li><code data-kind="youtube">YouTube</code> web3escola: Introdução ao React - Babel (<a href="https://www.youtube.com/watch?v=jSGg2j2UNr4">https://www.youtube.com/watch?v=jSGg2j2UNr4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso JavaScript: salvando dados localmente com IndexedDB (<a href="https://www.alura.com.br/curso-online-javascript-es6-orientacao-a-objetos-parte-3">https://www.alura.com.br/curso-online-javascript-es6-orientacao-a-objetos-parte-3</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Performance</strong>:</li>
+<h3>Vue - Performance:</h3>
 <ul><li>Aprenda a usar ferramentas de profiling, como a Vue Devtools e o Performance tab no Chrome Devtools, para entender onde seu aplicativo pode estar sofrendo em termos de desempenho.</li>
 <li>Estude técnicas de otimização de carga de página, como lazy-loading, prefetching e preloading.</li>
 <li>Compreenda a importância de escolher a arquitetura certa para a sua aplicação Vue. Aprenda sobre padrões de projeto e como eles podem afetar a performance.</li>
@@ -402,20 +739,39 @@
 <li>Familiarize-se com as diretivas v-once e v-memo e quando utilizá-las para otimizar a renderização de componentes.</li>
 <li>Aprenda sobre otimizações gerais como a virtualização de listas grandes, reduzindo a sobrecarga de reatividade para grandes estruturas imutáveis, e evitando abstrações de componentes desnecessárias.</li>
 <li>Entenda como a virtualização pode ser usada para exibir eficientemente grandes listas de dados, reduzindo a sobrecarga de renderização.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Componentes assíncronos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Otimizando a eficiência do conteúdo (<a href="https://web.dev/performance-optimizing-content-efficiency/">https://web.dev/performance-optimizing-content-efficiency/</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - v-once (<a href="https://vuejs.org/api/built-in-directives.html#v-once">https://vuejs.org/api/built-in-directives.html#v-once</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - v-memo (<a href="https://vuejs.org/api/built-in-directives.html#v-memo">https://vuejs.org/api/built-in-directives.html#v-memo</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - profiling (<a href="https://vuejs.org/guide/best-practices/performance.html#profiling-options">https://vuejs.org/guide/best-practices/performance.html#profiling-options</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - SSR (<a href="https://vuejs.org/guide/scaling-up/ssr.html">https://vuejs.org/guide/scaling-up/ssr.html</a>)</li>
+<li><code data-kind="site">Site</code> Vue: Documentação - Code Splitting (<a href="https://vuejs.org/guide/best-practices/performance.html#code-splitting">https://vuejs.org/guide/best-practices/performance.html#code-splitting</a>)</li>
+<li><code data-kind="site">Site</code> Listas virtualizadas com vue-virtual-scroller (<a href="https://github.com/Akryum/vue-virtual-scroller">https://github.com/Akryum/vue-virtual-scroller</a>)</li>
+</ul>
+<h3>Vue - Componentes assíncronos:</h3>
 <ul><li>Compreenda o que são e por que usar componentes assíncronos no Vue.</li>
 <li>Aprenda a criar um componente assíncrono básico usando a função defineAsyncComponent.</li>
 <li>Domine a renderização de um estado de loading enquanto o componente assíncrono é carregado.</li>
 <li>Implemente o tratamento de erros ao carregar o componente assíncrono.</li>
 <li>Aplique lazy loading nos seus componentes para melhorar a performance da aplicação.</li>
 <li>Use componentes assíncronos com Vue Router para carregar rotas sob demanda.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Teleporte</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - Componentes assíncronos (<a href="https://vuejs.org/guide/components/async.html#basic-usage">https://vuejs.org/guide/components/async.html#basic-usage</a>)</li>
+</ul>
+<h3>Vue - Teleporte:</h3>
 <ul><li>Entenda o que é o Teleport e qual problema ele resolve no Vue.</li>
 <li>Aprenda a usar o componente <teleport> para renderizar conteúdo em um local diferente do DOM.</li>
 <li>Domine a propriedade &#39;to&#39; do Teleport, usada para especificar o local de destino no DOM.</li>
 <li>Explore como usar diretivas como v-if para controlar a renderização do conteúdo teleportado.</li>
 <li>Experimente casos de uso avançados, como teleportar modais, tooltips, notificações e muito mais.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue Slots</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - Teleporte (<a href="https://vuejs.org/guide/built-ins/teleport.html">https://vuejs.org/guide/built-ins/teleport.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Vue Teleport (<a href="https://medium.com/@marcosviniciosneves/vue-teleport-8f9788ca9ca1">https://medium.com/@marcosviniciosneves/vue-teleport-8f9788ca9ca1</a>)</li>
+</ul>
+<h3>Vue Slots:</h3>
 <ul><li>Comece compreendendo o conceito de slots e como eles são usados para criar layouts personalizáveis e reutilizáveis em componentes Vue.</li>
 <li>Aprenda a usar slots anônimos, que são os slots padrão que você usa quando deseja inserir conteúdo personalizado no componente.</li>
 <li>Mergulhe em slots nomeados, que permitem que você personalize diferentes partes do layout do componente.</li>
@@ -423,7 +779,11 @@
 <li>Familiarize-se com a diretiva v-slot e como usá-la para criar slots nomeados e scoped slots.</li>
 <li>Descubra como usar slots dinâmicos para criar layouts ainda mais flexíveis.</li>
 <li>Entenda a diferença entre a nova sintaxe de slots no Vue 3 e a antiga no Vue 2 para garantir a compatibilidade com versões anteriores.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Quasar Framework</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - slots (<a href="https://vuejs.org/guide/components/slots.html">https://vuejs.org/guide/components/slots.html</a>)</li>
+</ul>
+<h3>Quasar Framework:</h3>
 <ul><li>Entenda o que é o Quasar e como ele se encaixa no ecossistema Vue.</li>
 <li>Configure o Quasar em seu ambiente de desenvolvimento local e aprenda como criar um novo projeto Quasar.</li>
 <li>Aprenda a usar os componentes pré-fabricados do Quasar, que são otimizados para eficiência e personalização.</li>
@@ -431,7 +791,14 @@
 <li>Aprenda a gerenciar o estado de sua aplicação Quasar com Vuex, a biblioteca de gerenciamento de estado do Vue.js.</li>
 <li>Conheça a CLI do Quasar, uma ferramenta poderosa para gerar, desenvolver e gerenciar seus projetos Quasar.</li>
 <li>Conheça as diferentes opções para o deploy de aplicações feitas com Quasar.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Nuxt</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Quasar Framework (<a href="https://quasar.dev/">https://quasar.dev/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> PWA Criação e Publicação com Quasar e Vue.js (<a href="https://www.alura.com.br/artigos/pwa-criacao-publicacao">https://www.alura.com.br/artigos/pwa-criacao-publicacao</a>)</li>
+</ul>
+<h3>Nuxt:</h3>
 <ul><li>Entenda o que é Nuxt.js, como ele funciona e quando usá-lo.</li>
 <li>Aprenda como instalar e configurar um projeto Nuxt.js a partir do zero.</li>
 <li>Familiarize-se com a estrutura de pastas de um projeto Nuxt.js e o que cada pasta faz.</li>
@@ -441,7 +808,11 @@
 <li>Aprenda a usar plugins Nuxt.js para adicionar funcionalidades globais à sua aplicação.</li>
 <li>Explore como o middleware pode ajudá-lo a executar código antes de renderizar a página.</li>
 <li>Conheça as diferentes opções de deploy de uma aplicação Nuxt.js.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Pinia</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Nuxt: The Intuitive Vue Framework (<a href="https://v2.nuxt.com/docs/get-started/installation">https://v2.nuxt.com/docs/get-started/installation</a>)</li>
+</ul>
+<h3>Pinia:</h3>
 <ul><li>Aprenda os conceitos básicos do Vuex, o problema que ele resolve e quando usá-lo.</li>
 <li>Compreenda como o estado é armazenado no Vuex e como acessar o estado global em seus componentes Vue.</li>
 <li>Aprenda a usar getters para acessar valores derivados do estado.</li>
@@ -449,7 +820,12 @@
 <li>Aprenda como usar a store fora de componentes com o hook useStore</li>
 <li>Explore os guias de migração para mudar do vuex para o Pinia</li>
 <li>Mergulhe no universo do SSR combinando o poder do Pina com o Nuxt</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Provide / Inject</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Pinia: livro de receitas (<a href="https://pinia.vuejs.org/cookbook/">https://pinia.vuejs.org/cookbook/</a>)</li>
+<li><code data-kind="site">Site</code> Pinia: principais conceitos (<a href="https://pinia.vuejs.org/core-concepts/">https://pinia.vuejs.org/core-concepts/</a>)</li>
+</ul>
+<h3>Vue - Provide / Inject:</h3>
 <ul><li>Compreenda o que são e por que você pode precisar deles. Eles são usados para injetar dependências em componentes descendentes sem passar props em todos os níveis.</li>
 <li>Aprenda a usar a opção provide em um componente para fornecer dados que podem ser injetados em componentes descendentes.</li>
 <li>Veja como a opção inject é usada em um componente descendente para acessar dados fornecidos por um componente ancestral.</li>
@@ -457,15 +833,28 @@
 <li>Saiba como reagir às mudanças nos valores fornecidos usando um objeto reativo ou ref.</li>
 <li>Aprenda a lidar com situações em que vários ancestrais fornecem a mesma chave.</li>
 <li>Embora seja uma ferramenta poderosa, o Provide / Inject deve ser usado com moderação. Entenda quando é apropriado usá-lo e quando é melhor evitar.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vue - Suspense</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - Provide / Inject (<a href="https://vuejs.org/guide/components/provide-inject.html">https://vuejs.org/guide/components/provide-inject.html</a>)</li>
+</ul>
+<h3>Vue - Suspense:</h3>
 <ul><li>O Suspense é um componente embutido para orquestração de dependências assíncronas em uma árvore de componente. Ele pode interpretar um estado de carregamento enquanto espera por várias dependências assíncronas encaixadas em baixo da árvore de componente ser resolvida.</li>
 <li>Conhecer dependências assíncronas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>NativeScript-Vue</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vue: Documentação - Suspense (<a href="https://pt.vuejs.org/guide/built-ins/suspense.html">https://pt.vuejs.org/guide/built-ins/suspense.html</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Clube Full-Stack: Como usar o Suspense no vue 3 | Como colocar um loading em um componente assíncrono (<a href="https://www.youtube.com/watch?v=imR45gszsHw&ab_channel=ClubeFull-Stack">https://www.youtube.com/watch?v=imR45gszsHw&amp;ab_channel=ClubeFull-Stack</a>)</li>
+</ul>
+<h3>NativeScript-Vue:</h3>
 <ul><li>O NativeScript-Vue é um plugin NativeScript que permite usar Vue.js para criar seu aplicativo móvel.</li>
 <li>Criar apps com interface nativa</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: NativeScript-Vue (<a href="https://nativescript-vue.org/pt-br/docs/introduction/">https://nativescript-vue.org/pt-br/docs/introduction/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Por que NativeScript-Vue? (<a href="https://rafaelaugustodev.medium.com/por-que-nativescript-vue-d308e85cdf9a">https://rafaelaugustodev.medium.com/por-que-nativescript-vue-d308e85cdf9a</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Infraestrutura e Back-end</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+<h3>Git e GitHub - Fundamentos:</h3>
 <ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
 <li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
 <li>Criar um repositório</li>
@@ -474,41 +863,153 @@
 <li>Reverter um commit</li>
 <li>Criar branches e pul requests</li>
 <li>Lidar com merge e conflitos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> GitHub Documentação (<a href="https://docs.github.com/pt">https://docs.github.com/pt</a>)</li>
+<li><code data-kind="site">Site</code> GitHub Pages Documentação (<a href="https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="site">Site</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="site">Site</code> Dangit, Git!?! (<a href="https://dangitgit.com/">https://dangitgit.com/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O que é Git e GitHub? - definição e conceitos importantes 1/2 (<a href="https://www.youtube.com/watch?v=DqTITcMq68k">https://www.youtube.com/watch?v=DqTITcMq68k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: Como usar Git e GitHub na prática! - desde o primeiro commit até o pull request! 2/2 (<a href="https://www.youtube.com/watch?v=UBAX-13g8OM">https://www.youtube.com/watch?v=UBAX-13g8OM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Git: Entendendo de vez como funciona do melhor e mais visual jeito possível (<a href="https://www.youtube.com/watch?v=4-tfJ-ZyA0Q">https://www.youtube.com/watch?v=4-tfJ-ZyA0Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como colocar seu projeto no ar DE GRAÇA via GitHub! | Hospedagem com GitHub Pages (<a href="https://www.youtube.com/watch?v=BU-w2_Aae54">https://www.youtube.com/watch?v=BU-w2_Aae54</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - 5 coisas que você precisa saber sobre Git (<a href="https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU">https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - README de Sucesso: Transforme seu Projeto ou seu Perfil em Destaque no GitHub (<a href="https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A">https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Git e Github: O que são, Como Configurar e Primeiros Passos (<a href="https://www.alura.com.br/artigos/o-que-e-git-github">https://www.alura.com.br/artigos/o-que-e-git-github</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Mais git com o hub: a linha de comando do Github (<a href="https://www.alura.com.br/artigos/github-na-linha-de-comando">https://www.alura.com.br/artigos/github-na-linha-de-comando</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 184: Guia do Iniciante em Github (<a href="https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378">https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378</a>)</li>
+<li><code data-kind="site">Site</code> GitHub: diferentes maneiras de compartilhar seu projeto (<a href="https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002">https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002</a>)</li>
+<li><code data-kind="site">Site</code> Websérie: Git e Github para Sobrevivência (<a href="https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia">https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 109: Git e Github (<a href="https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474">https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Git e Github para Sobrevivência 01: Como o Git funciona? (<a href="https://www.youtube.com/watch?v=BAmvmaKQklQ">https://www.youtube.com/watch?v=BAmvmaKQklQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: compartilhando e colaborando em projetos (<a href="https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos">https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: dominando controle de versão de código (<a href="https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo">https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: GitHub (<a href="https://7daysofcode.io/matricula/github">https://7daysofcode.io/matricula/github</a>)</li>
+</ul>
+<h3>HTTP - Fundamentos:</h3>
 <ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
 <li>Entender a diferença dos verbos HTTP</li>
 <li>Testar os requests e ver os status codes no navegador</li>
 <li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
 <li>Baixar uma imagem com WGET</li>
 <li>Fazer um post</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Uma visão geral do HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Métodos de requisição HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Cats (<a href="https://http.cat/">https://http.cat/</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Dogs (<a href="https://http.dog/">https://http.dog/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fabiano Gabardo Lemos: Requisições HTTP - GET, POST, PUT, PATCH DELETE (<a href="https://www.youtube.com/watch?v=kncOJZrnkTg">https://www.youtube.com/watch?v=kncOJZrnkTg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programador a Bordo: Protocolo HTTP e TCP/IP - Introdução (<a href="https://www.youtube.com/watch?v=V4XZ81vRGtM">https://www.youtube.com/watch?v=V4XZ81vRGtM</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> HTTP: Desmistificando o protocolo da Web (<a href="https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1">https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Métodos de requisição do HTTP (<a href="https://www.alura.com.br/artigos/metodos-de-requisicao-do-http">https://www.alura.com.br/artigos/metodos-de-requisicao-do-http</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual é a diferença entre HTTP e HTTPS? (<a href="https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https">https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: HTTP/2: magia com o novo protocolo - Hipsters 13 (<a href="https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573">https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso HTTP: Entendendo a web por baixo dos panos (<a href="https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos">https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos</a>)</li>
+</ul>
+<h3>JSON:</h3>
 <ul><li>JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.</li>
 <li>Criar um objeto</li>
 <li>Transformar um objeto em uma string</li>
 <li>Transformar uma string em objeto</li>
 <li>Manipular um objeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: JSON (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Trabalhando com JSON (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao JSON (<a href="https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff">https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: O que é JSON e como criar um objeto (<a href="https://www.youtube.com/watch?v=oCY5YEEjlwE">https://www.youtube.com/watch?v=oCY5YEEjlwE</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é JSON? (<a href="https://www.alura.com.br/artigos/o-que-e-json">https://www.alura.com.br/artigos/o-que-e-json</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso MySQL e JSON: persistindo JSON de maneira eficiente (<a href="https://www.alura.com.br/curso-online-mysql-json-persistencia">https://www.alura.com.br/curso-online-mysql-json-persistencia</a>)</li>
+</ul>
+<h3>Linha de comando - Fundamentos:</h3>
 <ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
 <li>Conhecer os principais comandos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Microsoft Docs: Como usar argumentos de linha de comando para terminal do Windows (<a href="https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows">https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estevan Maito: Linha de comando básica - 8 comandos mais frequentes - WINDOWS e LINUX (<a href="https://www.youtube.com/watch?v=rKBqXJZocYk">https://www.youtube.com/watch?v=rKBqXJZocYk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ninja do Linux: Comandos básicos da linha de comando do Linux (<a href="https://www.youtube.com/watch?v=rs_yshFGu8E">https://www.youtube.com/watch?v=rs_yshFGu8E</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> CMD: dicas para trabalhar no prompt do Windows (<a href="https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows">https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como configurar variáveis de ambiente no Windows, Linux e macOS (<a href="https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos">https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd">https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/curso-online-prompt">https://www.alura.com.br/curso-online-prompt</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Terminal: aprenda comandos para executar tarefas (<a href="https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas">https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas</a>)</li>
+</ul>
+<h3>Cloud - Fundamentos:</h3>
 <ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
 <li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
 <li>Conhecer os maiores provedores de cloud</li>
 <li>Especializar-se em algum provedor</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>YARN</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Computação em nuvem (<a href="https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9">https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é cloud? (<a href="https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6">https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabs Ferreira: Por que investir e estudar cloud? (<a href="https://www.youtube.com/watch?v=Z45BTNeZ1l0">https://www.youtube.com/watch?v=Z45BTNeZ1l0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Andre Iacono: O que é MICROSOFT AZURE? Qual Certificação começar em 2022? (<a href="https://www.youtube.com/watch?v=f-oVzkvMwnE">https://www.youtube.com/watch?v=f-oVzkvMwnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS: O que é a AWS? (<a href="https://www.youtube.com/watch?v=8JI9wQ8sUdQ">https://www.youtube.com/watch?v=8JI9wQ8sUdQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Google Cloud e por que aprender? (<a href="https://www.youtube.com/shorts/Lzq3f1DHWcI">https://www.youtube.com/shorts/Lzq3f1DHWcI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS vs Google Cloud vs Azure: o que cada um tem de melhor? (<a href="https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7">https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Azure (A plataforma Cloud da Microsoft) (<a href="https://www.youtube.com/watch?v=YgE-sZaCuJ0">https://www.youtube.com/watch?v=YgE-sZaCuJ0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mundo da Cloud: AWS do Zero ao Expert (<a href="https://www.youtube.com/watch?v=HiBCv9DolxI&list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz">https://www.youtube.com/watch?v=HiBCv9DolxI&amp;list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Fundamentos Cloud – Hipsters Ponto Tech #348 (<a href="https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/">https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Uma jornada Para o Cloud - Hipsters Deep Dive 005 (<a href="https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100">https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Histórias do Cloud - Hipsters 04 (<a href="https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582">https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Heroku, Vercel e outras opções de cloud como plataforma (<a href="https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma">https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações (<a href="https://www.alura.com.br/artigos/aws">https://www.alura.com.br/artigos/aws</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Terraform: criando máquinas na Azure (<a href="https://www.alura.com.br/artigos/terraform-maquinas-na-azure">https://www.alura.com.br/artigos/terraform-maquinas-na-azure</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é cloud? (<a href="https://www.YOUTUBE.com/watch?v=wev9fMrg-TU">https://www.YOUTUBE.com/watch?v=wev9fMrg-TU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: AWS, Google Cloud e Azure: Por onde começar? | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&t=300s">https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Certificação em Cloud: Azure, AWS, Google | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&t=290s">https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&amp;t=290s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Amazon Web Services (<a href="https://cursos.alura.com.br/formacao-amazon-web-services">https://cursos.alura.com.br/formacao-amazon-web-services</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AWS Certified Cloud Practitioner (<a href="https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner">https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Containers com AWS ECS e EKS (<a href="https://cursos.alura.com.br/formacao-containers-aws">https://cursos.alura.com.br/formacao-containers-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Cloud Platform (<a href="https://cursos.alura.com.br/formacao-google-cloud">https://cursos.alura.com.br/formacao-google-cloud</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Azure (<a href="https://cursos.alura.com.br/formacao-conhecendo-azure">https://cursos.alura.com.br/formacao-conhecendo-azure</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AZ-900: Microsoft Azure Fundamentals (<a href="https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals">https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals</a>)</li>
+</ul>
+<h3>YARN:</h3>
 <ul><li>Yarn é um gerenciador de pacotes para seu código. Ele permite que você use e compartilhe código com outros desenvolvedores. O código é compartilhado por meio de algo chamado pacote (às vezes chamado de módulo). Um pacote contém todo o código que está sendo compartilhado, bem como um arquivo package.json que descreve o pacote.</li>
 <li>Gerenciar pacotes</li>
 <li>Gerenciar dependências</li>
 <li>Instalação de pacotes offline</li>
 <li>Comandos</li>
 <li>Arquivo yarn.lock</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vite</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> YARN: Documentação (inglês) (<a href="https://classic.yarnpkg.com/en/docs">https://classic.yarnpkg.com/en/docs</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Porque você deveria dar uma chance ao Yarn? (<a href="https://rafaell-lycan.com/2017/porque-voce-deveria-dar-uma-chance-yarn/">https://rafaell-lycan.com/2017/porque-voce-deveria-dar-uma-chance-yarn/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Lucas Santos: Yarn VS NPM, qual é melhor? (<a href="https://www.youtube.com/watch?v=vxES6rbrd-U">https://www.youtube.com/watch?v=vxES6rbrd-U</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> NPM vs Yarn (<a href="https://www.alura.com.br/artigos/npm-vs-yarn">https://www.alura.com.br/artigos/npm-vs-yarn</a>)</li>
+</ul>
+<h3>Vite:</h3>
 <ul><li>Instalação: Instale o Vite globalmente e crie seu projeto Vue com um simples comando create-vite</li>
 <li>Explore a estrutura de diretórios do Vite e entenda como organizar seus componentes e rotas.</li>
 <li>Aprenda a usar os comandos de desenvolvimento e build do Vite para executar e otimizar sua aplicação.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Vite: Documentação (<a href="https://pt.vitejs.dev/guide/why.html">https://pt.vitejs.dev/guide/why.html</a>)</li>
+<li><code data-kind="site">Site</code> Vite: Documentação - Interface da Linha de Comando (<a href="https://pt.vitejs.dev/guide/cli.html">https://pt.vitejs.dev/guide/cli.html</a>)</li>
+<li><code data-kind="site">Site</code> Vite: Documentação - Comparações (<a href="https://pt.vitejs.dev/guide/comparisons.html">https://pt.vitejs.dev/guide/comparisons.html</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: UX e Design</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design System</strong>:</li>
+<h3>Design System:</h3>
 <ul><li>Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.</li>
 <li>Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto</li>
 <li>Design tokens</li>
@@ -516,16 +1017,90 @@
 <li>Construção de componentes</li>
 <li>Microinterações</li>
 <li>Documentação</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Figma - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design System: o que é e quais os benefícios? (<a href="https://medium.com/ipnet-growth-partner/design-system-o-que-e-438773dd811">https://medium.com/ipnet-growth-partner/design-system-o-que-e-438773dd811</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Afinal, o que é Design System? (<a href="https://brasil.uxdesign.cc/afinal-o-que-%C3%A9-design-system-448c257b0021">https://brasil.uxdesign.cc/afinal-o-que-%C3%A9-design-system-448c257b0021</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que são Design Tokens (<a href="https://medium.com/pretux/design-tokens-112b2ee11ddf">https://medium.com/pretux/design-tokens-112b2ee11ddf</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Caio Gonzalez: O que é Design System? / Guia para começar o seu próprio Design System (<a href="https://www.youtube.com/watch?v=ajqbXpFVaAw">https://www.youtube.com/watch?v=ajqbXpFVaAw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Design System? (<a href="https://www.alura.com.br/artigos/o-que-e-design-system">https://www.alura.com.br/artigos/o-que-e-design-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Systems: exemplos práticos (<a href="https://www.alura.com.br/artigos/design-systems-exemplos-praticos">https://www.alura.com.br/artigos/design-systems-exemplos-praticos</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design System &amp; Style Guide (<a href="https://www.youtube.com/watch?v=rSLvpOqC5wQ">https://www.youtube.com/watch?v=rSLvpOqC5wQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design Systems (com Charles Assunção) (<a href="https://www.youtube.com/watch?v=MLGFctEtmYQ">https://www.youtube.com/watch?v=MLGFctEtmYQ</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Design Systems - Hipsters 170 (<a href="https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399">https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: Design System – Layers ponto tech 36 (<a href="https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056">https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: definindo estilos e tokens (<a href="https://cursos.alura.com.br/course/design-system-definindo-estilos-tokens">https://cursos.alura.com.br/course/design-system-definindo-estilos-tokens</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: projetando e construindo componentes (<a href="https://cursos.alura.com.br/course/design-system-projetando-construindo-componentes">https://cursos.alura.com.br/course/design-system-projetando-construindo-componentes</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: documentando um design system (<a href="https://cursos.alura.com.br/course/design-system-documentando-design-system">https://cursos.alura.com.br/course/design-system-documentando-design-system</a>)</li>
+<li><code data-kind="desafio">Desafio</code> Experimente o que é ser um(a) profissional de Ux (<a href="https://www.alura.com.br/challenges/ux-4">https://www.alura.com.br/challenges/ux-4</a>)</li>
+</ul>
+<h3>Figma - Fundamentos:</h3>
 <ul><li>Figma é uma aplicação web colaborativa para design de interfaces. O conjunto de recursos do Figma se concentra na interface do usuário e no design da experiência do usuário, com ênfase na colaboração em tempo real, utilizando uma variedade de editores de gráficos vetoriais e ferramentas de prototipagem.</li>
 <li>Criar layouts de páginas e componentes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Componentes de design</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Figma Básico - Primeiros passos com Figma (<a href="https://www.figma.com/community/file/1190593276621265988">https://www.figma.com/community/file/1190593276621265988</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é o Figma e por que usar ele? (<a href="https://medium.com/nerdzao/o-que-%C3%A9-o-figma-e-por-que-usar-ele-a71fbf1dbdd8">https://medium.com/nerdzao/o-que-%C3%A9-o-figma-e-por-que-usar-ele-a71fbf1dbdd8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda o que é e como usar o Figma para criar designs (<a href="https://blog.b2bstack.com.br/figma/">https://blog.b2bstack.com.br/figma/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: Como usar o Figma! (<a href="https://www.youtube.com/watch?v=qoE-2YFeW-Q">https://www.youtube.com/watch?v=qoE-2YFeW-Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 4 Exemplos de Componentes interativos no Figma (<a href="https://www.youtube.com/watch?v=mGL3jrY-OBc">https://www.youtube.com/watch?v=mGL3jrY-OBc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Figma: o que é a ferramenta, Design e uso (<a href="https://www.alura.com.br/artigos/figma">https://www.alura.com.br/artigos/figma</a>)</li>
+<li><code data-kind="site">Site</code> Como Front-End utiliza o Figma - Alura+ (<a href="https://cursos.alura.com.br/extra/alura-mais/como-front-end-utiliza-o-figma-c858">https://cursos.alura.com.br/extra/alura-mais/como-front-end-utiliza-o-figma-c858</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Top 5 plugins no Figma para trabalhar com Design System (<a href="https://www.alura.com.br/artigos/top-5-plugins-figma-trabalhar-com-design-system">https://www.alura.com.br/artigos/top-5-plugins-figma-trabalhar-com-design-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 plugins essenciais que você precisa ter no seu Figma (<a href="https://www.alura.com.br/artigos/5-plugins-essenciais-do-figma">https://www.alura.com.br/artigos/5-plugins-essenciais-do-figma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 10 truques incríveis e pouco conhecidos no Figma (<a href="https://www.alura.com.br/artigos/10-truques-incriveis-pouco-conhecidos-figma">https://www.alura.com.br/artigos/10-truques-incriveis-pouco-conhecidos-figma</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: Figma do Design ao Código 03 (<a href="https://www.alura.com.br/podcast/layerstech-figma-do-design-ao-codigo-layers-ponto-tech-03-a726">https://www.alura.com.br/podcast/layerstech-figma-do-design-ao-codigo-layers-ponto-tech-03-a726</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como fazer estilos locais mais rapidamente no Figma? (<a href="https://www.youtube.com/watch?v=fCHd2_lAcQQ">https://www.youtube.com/watch?v=fCHd2_lAcQQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Figma (<a href="https://www.alura.com.br/formacao-figma">https://www.alura.com.br/formacao-figma</a>)</li>
+</ul>
+<h3>Componentes de design:</h3>
 <ul><li>Conhecer os componentes descrevem um layout ou interface</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Sistemas de cores</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Componentes Principais UI (<a href="https://medium.com/@prikuwer/componentes-principais-ui-8b538a3aaaa5">https://medium.com/@prikuwer/componentes-principais-ui-8b538a3aaaa5</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Compartilhando CSS em projetos do Nx (<a href="https://www.alura.com.br/artigos/compartilhando-css-projetos-nx">https://www.alura.com.br/artigos/compartilhando-css-projetos-nx</a>)</li>
+<li><code data-kind="youtube">YouTube</code> danielmacedoco: UI Design e Design System - Visão geral e prática sobre alguns componentes (<a href="https://www.youtube.com/watch?v=VpgQNeSItpA">https://www.youtube.com/watch?v=VpgQNeSItpA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 4 Exemplos de Componentes interativos no Figma (<a href="https://www.youtube.com/watch?v=mGL3jrY-OBc">https://www.youtube.com/watch?v=mGL3jrY-OBc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso Design System: criando componentes e documentando (<a href="https://www.alura.com.br/curso-online-design-system-componentes-documentando">https://www.alura.com.br/curso-online-design-system-componentes-documentando</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Figma: conhecendo componentes da interface (<a href="https://www.alura.com.br/curso-online-figma-conhecendo-componentes-interface">https://www.alura.com.br/curso-online-figma-conhecendo-componentes-interface</a>)</li>
+</ul>
+<h3>Sistemas de cores:</h3>
 <ul><li>Definir uma paleta de cores que faça sentido para determinada interface</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Como usar fontes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Cores em UI: Um Guia Rápido Para Usar em Seus Projetos (<a href="https://medium.com/aela/cores-em-ui-um-guia-r%C3%A1pido-para-usar-em-seus-projetos-31ccffe3e16b">https://medium.com/aela/cores-em-ui-um-guia-r%C3%A1pido-para-usar-em-seus-projetos-31ccffe3e16b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A Psicologia das cores e sua relação com o UX Design (<a href="https://brasil.uxdesign.cc/a-psicologia-das-cores-e-sua-rela%C3%A7%C3%A3o-com-o-ux-design-af02460639cd">https://brasil.uxdesign.cc/a-psicologia-das-cores-e-sua-rela%C3%A7%C3%A3o-com-o-ux-design-af02460639cd</a>)</li>
+<li><code data-kind="youtube">YouTube</code> kacio.design: Aplicação de Cores - Princípios do UI (<a href="https://www.youtube.com/watch?v=C_VhzEyqT6U">https://www.youtube.com/watch?v=C_VhzEyqT6U</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso Cores para Designers: escolhendo e trabalhando com cores em um projeto (<a href="https://www.alura.com.br/curso-online-cores-para-seu-projeto">https://www.alura.com.br/curso-online-cores-para-seu-projeto</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Cores: sistemas básicos e paletas (<a href="https://www.alura.com.br/conteudo/fundamentos-da-cor">https://www.alura.com.br/conteudo/fundamentos-da-cor</a>)</li>
+<li><code data-kind="curso">Curso</code> Cores: sistemas básicos e paletas (<a href="https://www.alura.com.br/curso-online-fundamentos-da-cor">https://www.alura.com.br/curso-online-fundamentos-da-cor</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design editorial: criação de materiais gráficos (<a href="https://www.alura.com.br/curso-online-design-editorial">https://www.alura.com.br/curso-online-design-editorial</a>)</li>
+</ul>
+<h3>Como usar fontes:</h3>
 <ul><li>Escolher a fonte mais adequada para determinado projeto</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Você sabe usar tipografia em UI Design? (<a href="https://medium.com/ui-lab-school/voc%C3%AA-sabe-usar-tipografia-em-ui-design-9ce4ccdbab43">https://medium.com/ui-lab-school/voc%C3%AA-sabe-usar-tipografia-em-ui-design-9ce4ccdbab43</a>)</li>
+<li><code data-kind="artigo">Artigo</code> As 20 fontes mais usadas pelos designers gráficos (<a href="https://apenasumchico.medium.com/as-20-fontes-mais-populares-de-todos-os-tempos-38a6c121dfb">https://apenasumchico.medium.com/as-20-fontes-mais-populares-de-todos-os-tempos-38a6c121dfb</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Usando ícones SVG como fontes com o IcoMoon (<a href="https://dev.to/sucodelarangela/usando-icones-svg-como-fontes-com-o-icomoon-563e">https://dev.to/sucodelarangela/usando-icones-svg-como-fontes-com-o-icomoon-563e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Nadine Fronza: Como escolher a melhor fonte para seu projeto (<a href="https://www.youtube.com/watch?v=MSKPUtIdadI">https://www.youtube.com/watch?v=MSKPUtIdadI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Thiago Abreu: Como Escolher Fontes para um Trabalho de Design (<a href="https://www.youtube.com/watch?v=l-TrNbZi-aU">https://www.youtube.com/watch?v=l-TrNbZi-aU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 10 tipografias gratuitas para um design incrível (<a href="https://www.alura.com.br/artigos/10-tipografias-gratuitas-design-incrivel">https://www.alura.com.br/artigos/10-tipografias-gratuitas-design-incrivel</a>)</li>
+<li><code data-kind="site">Site</code> Tipografia para Web (<a href="https://tipografiaparaweb.netlify.app/">https://tipografiaparaweb.netlify.app/</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Tipografia: conhecendo o que há por trás dos tipos (<a href="https://www.alura.com.br/conteudo/tipografia-conceito">https://www.alura.com.br/conteudo/tipografia-conceito</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Tipografia: conhecendo o que há por trás dos tipos (<a href="https://www.alura.com.br/curso-online-tipografia-conceito">https://www.alura.com.br/curso-online-tipografia-conceito</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design editorial: criação de materiais gráficos (<a href="https://www.alura.com.br/curso-online-design-editorial">https://www.alura.com.br/curso-online-design-editorial</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

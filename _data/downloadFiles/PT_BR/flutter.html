@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,22 +249,57 @@
   </div>
 
   <div class="content">
-    <h1>Flutter</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dart - Fundamentos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Dart - Fundamentos:</h3>
 <ul><li>Instalar e configurar o Dart</li>
 <li>Conhecer as palavras chaves do Dart</li>
 <li>Construir aplicações de terminal usando Dart</li>
 <li>Entender como funciona o dinamismo no Dart</li>
 <li>Compreender e aprender a usar o Null Safety no Dart</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Começando no Dart (inglês) (<a href="https://dart.dev/get-dart">https://dart.dev/get-dart</a>)</li>
+<li><code data-kind="site">Site</code> Passeio pela Linguagem Dart (inglês) (<a href="https://dart.dev/guides/language/language-tour">https://dart.dev/guides/language/language-tour</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Sistemas de Tipos no Dart (inglês) (<a href="https://dart.dev/guides/language/type-system">https://dart.dev/guides/language/type-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo Null Safety (inglês) (<a href="https://dart.dev/null-safety/understanding-null-safety">https://dart.dev/null-safety/understanding-null-safety</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Dart (a linguagem do Flutter) // Dicionário do Programador (<a href="https://youtu.be/i7IzlVImHEc">https://youtu.be/i7IzlVImHEc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dotcode: Dart ou Flutter - Por onde começar? (<a href="https://youtu.be/s7VNmqw6wLM">https://youtu.be/s7VNmqw6wLM</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Dart: O que é? Como começar a estudar? Para quê serve? (<a href="https://www.alura.com.br/artigos/dart">https://www.alura.com.br/artigos/dart</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Boas práticas do Dart para organizar um projeto (<a href="https://www.alura.com.br/artigos/boas-praticas-dart">https://www.alura.com.br/artigos/boas-praticas-dart</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Entendendo Input e Output no Dart (<a href="https://www.youtube.com/watch?v=LLmBWjF6F8M">https://www.youtube.com/watch?v=LLmBWjF6F8M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Os 5 métodos da lista do Dart | #AluraMais (<a href="https://youtu.be/pcnfjJG3jY4">https://youtu.be/pcnfjJG3jY4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Const e Final no Dart | #Aluramais (<a href="https://youtu.be/bEz0VbZ3C7A">https://youtu.be/bEz0VbZ3C7A</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que você precisa saber sobre Null Safety no Dart | #AluraMais (<a href="https://youtu.be/OkjjhHXlRl0">https://youtu.be/OkjjhHXlRl0</a>)</li>
+<li><code data-kind="curso">Curso</code> Dart: entendendo a Orientação a Objetos (<a href="https://cursos.alura.com.br/course/dart-entendendo-orientacao-objetos">https://cursos.alura.com.br/course/dart-entendendo-orientacao-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Dart: trabalhando com a sintaxe e configuração de projeto (<a href="https://cursos.alura.com.br/course/dart-trabalhando-sintaxe-configuracao-projeto">https://cursos.alura.com.br/course/dart-trabalhando-sintaxe-configuracao-projeto</a>)</li>
+<li><code data-kind="curso">Curso</code> Dart: cursos para aprender a linguagem utilizada no Flutter (<a href="https://cursos.alura.com.br/formacao-dart-cursos-aprender-linguagem-utilizada-flutter">https://cursos.alura.com.br/formacao-dart-cursos-aprender-linguagem-utilizada-flutter</a>)</li>
+</ul>
+<h3>Flutter - Fundamentos:</h3>
 <ul><li>Flutter é um kit de desenvolvimento de software de IU de código aberto criado pelo Google. Ele é usado para desenvolver aplicativos multiplataforma para Android, iOS, Linux, macOS, Windows, Google Fuchsia e para a web a partir de um único código.</li>
 <li>Os widgets Flutter são construídos utilizando uma estrutura moderna que se inspira na React. A idéia central é que você construa sua interface de usuário a partir de widgets. Os widgets descrevem como deve ser sua visualização, dada sua configuração e estado atuais.</li>
 <li>Instalar e configurar o Flutter</li>
 <li>Conhecer e saber usar os Widgets básicos do Flutter, como Column, Row, Scaffold, Text, Image, Container, AppBar, ElevatedButton, entre outros</li>
 <li>Entender as diferenças entre widgets Stateless e Stateful</li>
 <li>Desenvolver a primeira aplicação em Flutter</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos de Orientação a Objetos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Instalando o Flutter (inglês) (<a href="https://docs.flutter.dev/get-started/install">https://docs.flutter.dev/get-started/install</a>)</li>
+<li><code data-kind="site">Site</code> Introdução aos Widgets (inglês) (<a href="https://docs.flutter.dev/development/ui/widgets-intro">https://docs.flutter.dev/development/ui/widgets-intro</a>)</li>
+<li><code data-kind="site">Site</code> Catálogo de Widgets (inglês) (<a href="https://docs.flutter.dev/development/ui/widgets">https://docs.flutter.dev/development/ui/widgets</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Filipe Deschamps: A Primeira Aula de Flutter Que Todo Mundo Deveria Ter (<a href="https://youtu.be/J4BVaXkwmM8">https://youtu.be/J4BVaXkwmM8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: Widget of the Week (Playlist em Inglês) (<a href="https://www.youtube.com/watch?v=XawP1i314WM&list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG">https://www.youtube.com/watch?v=XawP1i314WM&amp;list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Flutter: o que é e tudo sobre o framework (<a href="https://www.alura.com.br/artigos/flutter">https://www.alura.com.br/artigos/flutter</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Material Design e Cupertino no Flutter: o que são e como usar (<a href="https://www.alura.com.br/artigos/material-desing-e-cupertino">https://www.alura.com.br/artigos/material-desing-e-cupertino</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é Flutter? #HipstersPontoTube (<a href="https://youtu.be/So5C-XSfGW0">https://youtu.be/So5C-XSfGW0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Live Coding | Desenvolva um aplicativo em Flutter! (<a href="https://youtu.be/j8Swzym_EEc">https://youtu.be/j8Swzym_EEc</a>)</li>
+<li><code data-kind="curso">Curso</code> Flutter: Widgets, Stateless, Stateful, Imagens e Animações (<a href="https://cursos.alura.com.br/course/flutter-widgets-stateless-stateful-imagens-animacoes">https://cursos.alura.com.br/course/flutter-widgets-stateless-stateful-imagens-animacoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Flutter: Controller, navegação e estados (<a href="https://cursos.alura.com.br/course/flutter-controller-navegacao-estados">https://cursos.alura.com.br/course/flutter-controller-navegacao-estados</a>)</li>
+</ul>
+<h3>Conceitos de Orientação a Objetos:</h3>
 <ul><li>A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de &#39;objetos&#39; e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.</li>
 <li>Como funcionam objetos</li>
 <li>Criar e utilizar construtores</li>
@@ -235,84 +310,354 @@
 <li>O que é polimorfismo</li>
 <li>Como funcionam interfaces</li>
 <li>O que são abstrações</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Persistência de Dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Princípios básicos da Programação Orientação a Objetos (POO) (<a href="https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce">https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce</a>)</li>
+<li><code data-kind="youtube">YouTube</code> FernandaDev: O que é Programação Orientada a Objetos?(POO) (<a href="https://www.youtube.com/watch?v=QJjY2TNyl-8">https://www.youtube.com/watch?v=QJjY2TNyl-8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Giuliana Bezerra: Desmistificando os tipos de referência - Ep. 8 (<a href="https://youtu.be/D9hANYbPYCc">https://youtu.be/D9hANYbPYCc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Orientação a Objetos – Hipsters Ponto Tech #350 (<a href="https://www.hipsters.tech/techguide-orientacao-a-objetos-hipsters-ponto-tech-350/">https://www.hipsters.tech/techguide-orientacao-a-objetos-hipsters-ponto-tech-350/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> POO: o que é programação orientada a objetos? (<a href="https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos">https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos</a>)</li>
+<li><code data-kind="site">Site</code> Apostila: Java e Orientação a Objetos (<a href="https://www.alura.com.br/apostila-java-orientacao-objetos">https://www.alura.com.br/apostila-java-orientacao-objetos</a>)</li>
+<li><code data-kind="site">Site</code> Livro: Orientação a Objetos (<a href="https://www.casadocodigo.com.br/products/livro-oo-conceitos">https://www.casadocodigo.com.br/products/livro-oo-conceitos</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Orientação a objetos (com Roberta Arcoverde) (<a href="https://www.youtube.com/watch?v=jpuJ1qrluoU">https://www.youtube.com/watch?v=jpuJ1qrluoU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Imersão Java: Orientação a Objetos, APIs e além (e live coding!) (<a href="https://www.youtube.com/watch?v=WdT90ffB-0Q">https://www.youtube.com/watch?v=WdT90ffB-0Q</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Java e Orientação a Objetos (<a href="https://cursos.alura.com.br/formacao-java">https://cursos.alura.com.br/formacao-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação C# e Orientação a Objetos (<a href="https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos">https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Python e orientação a objetos (<a href="https://cursos.alura.com.br/formacao-Python-linguagem">https://cursos.alura.com.br/formacao-Python-linguagem</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Orientação a Objetos com PHP: Classes, métodos e atributos (<a href="https://www.alura.com.br/curso-online-php-oo-classes-metodos-atributos">https://www.alura.com.br/curso-online-php-oo-classes-metodos-atributos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso JavaScript: programação orientada a objetos (<a href="https://www.alura.com.br/curso-online-javascript-passos-programacao-orientada-objetos">https://www.alura.com.br/curso-online-javascript-passos-programacao-orientada-objetos</a>)</li>
+</ul>
+<h3>Flutter - Persistência de Dados:</h3>
 <ul><li>O conceito de &quot;persistência de dados&quot; refere-se a garantir que as informações inseridas na aplicação serão armazenadas em um meio em que possam ser recuperadas de forma consistente. Ou seja, são registros permanentes e que não são perdidos quando há o encerramento da sessão.</li>
 <li>Saber a armazenar dados usando o SharedPreferences</li>
 <li>Aprender a usar o SQLite no Flutter</li>
 <li>Aprender como persistir dados com Leitura e Escrita de arquivos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dart Assíncrono</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Persistência com SQLite - Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/persistence/sqlite">https://docs.flutter.dev/cookbook/persistence/sqlite</a>)</li>
+<li><code data-kind="site">Site</code> Persistência com SharedPreferences - Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/persistence/key-value">https://docs.flutter.dev/cookbook/persistence/key-value</a>)</li>
+<li><code data-kind="site">Site</code> Persistência com Arquivos - Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/persistence/reading-writing-files">https://docs.flutter.dev/cookbook/persistence/reading-writing-files</a>)</li>
+<li><code data-kind="site">Site</code> SQL: O que é e como usar os principais comandos básicos SQL (<a href="https://blog.betrybe.com/sql/">https://blog.betrybe.com/sql/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQLite: Principais comandos, dicas, como instalar… (Parte 1) (<a href="https://medium.com/@mattvianna/sqlite-principais-comandos-dicas-como-instalar-parte-1-bb94e0134935">https://medium.com/@mattvianna/sqlite-principais-comandos-dicas-como-instalar-parte-1-bb94e0134935</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: SQLite (O Banco de Dados de Bolso) // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=xOODmm-NdUc&ab_channel=C%C3%B3digoFonteTV">https://www.youtube.com/watch?v=xOODmm-NdUc&amp;ab_channel=C%C3%B3digoFonteTV</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SQLite: da instalação até sua primeira tabela (<a href="https://www.alura.com.br/artigos/sqlite-da-instalacao-ate-primeira-tabela">https://www.alura.com.br/artigos/sqlite-da-instalacao-ate-primeira-tabela</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Persistência de Dados no Flutter: o que é? Qual ferramenta usar? (<a href="https://www.alura.com.br/artigos/alternativas-de-persistencia-de-dados-com-flutter">https://www.alura.com.br/artigos/alternativas-de-persistencia-de-dados-com-flutter</a>)</li>
+<li><code data-kind="curso">Curso</code> Flutter: aplicando persistência de dados (<a href="https://cursos.alura.com.br/course/flutter-aplicando-persistencia-dados">https://cursos.alura.com.br/course/flutter-aplicando-persistencia-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação: domine aplicações offline-first com Flutter (<a href="https://cursos.alura.com.br/formacao-domine-aplicacoes-offline-first-Flutter">https://cursos.alura.com.br/formacao-domine-aplicacoes-offline-first-Flutter</a>)</li>
+</ul>
+<h3>Dart Assíncrono:</h3>
 <ul><li>Na programação assíncrona as funções não são executadas em ordem. Com o assincronismo, podemos interromper do código para conseguirmos alguma outra informação necessária para a continuar a execução. Isso significa que o código espera por uma outra parte do código e, enquanto espera, executa as demais partes.</li>
 <li>Entender o que é assincronismo</li>
-<li>Saber usar as expressões <code>async</code>, <code>await</code> e <code>future</code> no Dart</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dart - Erros e Exceções</strong>:</li>
+<li>Saber usar as expressões <code data-kind="async">async</code>, <code data-kind="await">await</code> e <code data-kind="future">future</code> no Dart</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Suporte a Assincronismo | Dart Language Tour (inglês) (<a href="https://dart.dev/guides/language/language-tour#asynchrony-support">https://dart.dev/guides/language/language-tour#asynchrony-support</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Programação Assíncrona: Async, Await e Future | Dart Codelabs (inglês) (<a href="https://dart.dev/codelabs/async-await">https://dart.dev/codelabs/async-await</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Programação Assíncrona: Streams | Dart Codelabs (inglês) (<a href="https://dart.dev/tutorials/language/streams">https://dart.dev/tutorials/language/streams</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Simultaneidade no Dart | Dart Codelabs (inglês) (<a href="https://dart.dev/guides/language/concurrency">https://dart.dev/guides/language/concurrency</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como funciona o async-await e Future no Flutter (<a href="https://www.treinaweb.com.br/blog/como-funciona-o-async-await-e-future-no-flutter">https://www.treinaweb.com.br/blog/como-funciona-o-async-await-e-future-no-flutter</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Funções Assíncronas no Dart (<a href="https://medium.com/@matheusrmribeiro/flutter-descomplica-funcoes-assincronas-ab5380d276dc">https://medium.com/@matheusrmribeiro/flutter-descomplica-funcoes-assincronas-ab5380d276dc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: Playlist Dart Avançado (inglês) (<a href="https://www.youtube.com/playlist?list=PLjxrf2q8roU0Net_g1NT5_vOO3s_FR02J">https://www.youtube.com/playlist?list=PLjxrf2q8roU0Net_g1NT5_vOO3s_FR02J</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso Persistência com Flutter: crie um app com armazenamento interno (<a href="https://cursos.alura.com.br/course/dart-lidando-exceptions-null-safety">https://cursos.alura.com.br/course/dart-lidando-exceptions-null-safety</a>)</li>
+</ul>
+<h3>Dart - Erros e Exceções:</h3>
 <ul><li>O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.</li>
-<li>Entender os métodos <code>then</code> e <code>catchError</code> do Future no Dart</li>
+<li>Entender os métodos <code data-kind="then">then</code> e <code data-kind="catcherror">catchError</code> do Future no Dart</li>
 <li>Entender o que são erros e exceções no Dart</li>
-<li>Conhecer e saber usar a estrutura <code>try-on-catch-finally</code></li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dart - Comunicação com APIs</strong>:</li>
+<li>Conhecer e saber usar a estrutura <code data-kind="try-on-catch-finally">try-on-catch-finally</code></li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Acervo Lima: Exceções no Dart (<a href="https://acervolima.com/tratamento-de-excecoes-no-dart/">https://acervolima.com/tratamento-de-excecoes-no-dart/</a>)</li>
+<li><code data-kind="site">Site</code> Null safety (inglês) (<a href="https://dart.dev/null-safety">https://dart.dev/null-safety</a>)</li>
+<li><code data-kind="site">Site</code> Entendendo null safety (inglês) (<a href="https://dart.dev/null-safety/understanding-null-safety">https://dart.dev/null-safety/understanding-null-safety</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Washington Developer: Dart - Tratamento de Erros try-catch, stack-trace, on, finally, rethrow (<a href="https://www.youtube.com/watch?v=O4A3hHvBQ5E">https://www.youtube.com/watch?v=O4A3hHvBQ5E</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Deivid Willyan | Flutter: Dart - Tratamento de Erros - Exceptions (<a href="https://www.youtube.com/watch?v=MMxJacOOxoI">https://www.youtube.com/watch?v=MMxJacOOxoI</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="site">Site</code> Primeiras aulas do curso Dart: lidando com Exceptions e Null Safety (<a href="https://www.alura.com.br/conteudo/dart-lidando-exceptions-null-safety">https://www.alura.com.br/conteudo/dart-lidando-exceptions-null-safety</a>)</li>
+<li><code data-kind="curso">Curso</code> Dart: lidando com Exceptions e Null Safety (<a href="https://cursos.alura.com.br/course/dart-lidando-exceptions-null-safety">https://cursos.alura.com.br/course/dart-lidando-exceptions-null-safety</a>)</li>
+</ul>
+<h3>Dart - Comunicação com APIs:</h3>
 <ul><li>Uma API é uma interface que desenvolvedores de software utilizam para programar a interação com componentes ou recursos de software fora de seu próprio código. Uma definição ainda mais simples é que uma API é a parte de um componente de software que é acessível a outros componentes.</li>
 <li>Entender o que é uma API REST</li>
 <li>Conhecer os comandos básicos de comunicação HTTP</li>
-<li>Saber usar as ferramentas do pacote <code>http</code> do Dart</li>
+<li>Saber usar as ferramentas do pacote <code data-kind="http">http</code> do Dart</li>
 <li>Saber fazer requisições autenticadas para Web APIs</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> O que é API REST? (<a href="https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api">https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api</a>)</li>
+<li><code data-kind="site">Site</code> JSON e Serialização | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/data-and-backend/json">https://docs.flutter.dev/development/data-and-backend/json</a>)</li>
+<li><code data-kind="site">Site</code> Página do Pacote http - pub.dev (inglês) (<a href="https://pub.dev/packages/http">https://pub.dev/packages/http</a>)</li>
+<li><code data-kind="site">Site</code> Obtendo dados da internet | Flutter Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/networking/fetch-data">https://docs.flutter.dev/cookbook/networking/fetch-data</a>)</li>
+<li><code data-kind="site">Site</code> Fazendo requisições autenticadas | Flutter Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/networking/authenticated-requests">https://docs.flutter.dev/cookbook/networking/authenticated-requests</a>)</li>
+<li><code data-kind="site">Site</code> Enviando dados para internet | Flutter Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/networking/send-data">https://docs.flutter.dev/cookbook/networking/send-data</a>)</li>
+<li><code data-kind="site">Site</code> Removendo dados na internet | Flutter Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/networking/delete-data">https://docs.flutter.dev/cookbook/networking/delete-data</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutterando: Consumindo API externa (http) (<a href="https://youtu.be/vjeK_oc5cXQ">https://youtu.be/vjeK_oc5cXQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Julio de Lima: Como usar o Postman para Testar APIs Rest (Aula 10) (<a href="https://youtu.be/5S9mMBEtJK4">https://youtu.be/5S9mMBEtJK4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> REST: Conceito e fundamentos (<a href="https://www.alura.com.br/artigos/rest-conceito-e-fundamentos">https://www.alura.com.br/artigos/rest-conceito-e-fundamentos</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Flutter: entendendo comunicação HTTP e utilizando Web API (<a href="https://www.alura.com.br/conteudo/flutter-comunicacao-http">https://www.alura.com.br/conteudo/flutter-comunicacao-http</a>)</li>
+<li><code data-kind="curso">Curso</code> Flutter: entendendo comunicação HTTP e utilizando Web API (<a href="https://cursos.alura.com.br/course/flutter-web-api-integrando-aplicacao">https://cursos.alura.com.br/course/flutter-web-api-integrando-aplicacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Flutter com Web API: evoluindo na integração da aplicação (<a href="https://cursos.alura.com.br/course/flutter-web-api-integracao-aplicacao">https://cursos.alura.com.br/course/flutter-web-api-integracao-aplicacao</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Pacotes Essenciais</strong>:</li>
+<h3>Flutter - Pacotes Essenciais:</h3>
 <ul><li>O Flutter suporta o uso de pacotes compartilhados contribuídos por outros desenvolvedores para os ecossistemas Flutter e Dart. Isto permite construir rapidamente um aplicativo sem ter que desenvolver tudo do zero.</li>
 <li>Conhecer e saber utilizar a plataforma pub.dev</li>
 <li>Conhecer os principais pacotes do Flutter</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Gerenciamento de Estados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Usando pacotes e plugins | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/packages-and-plugins/using-packages">https://docs.flutter.dev/development/packages-and-plugins/using-packages</a>)</li>
+<li><code data-kind="site">Site</code> Repositório de Pacotes Dart e Flutter | pub.dev (inglês) (<a href="https://pub.dev/">https://pub.dev/</a>)</li>
+<li><code data-kind="site">Site</code> Pontuação dos Pacotes | pub.dev (inglês) (<a href="https://pub.dev/help/scoring">https://pub.dev/help/scoring</a>)</li>
+<li><code data-kind="site">Site</code> Favoritos do Flutter | pub.dev (inglês) (<a href="https://pub.dev/packages?q=is%3Aflutter-favorite">https://pub.dev/packages?q=is%3Aflutter-favorite</a>)</li>
+<li><code data-kind="site">Site</code> Pacotes Populares | pub.dev (inglês) (<a href="https://pub.dev/packages?sort=popularity">https://pub.dev/packages?sort=popularity</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dotcode: TOP 5 PACOTES FLUTTER QUE VOCÊ PRECISA CONHECER (<a href="https://youtu.be/Fc8D_6TtiKw">https://youtu.be/Fc8D_6TtiKw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: (Playlist) Package of the Week | Flutter (<a href="https://www.youtube.com/playlist?list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK">https://www.youtube.com/playlist?list=PLjxrf2q8roU1quF6ny8oFHJ2gBdrYN_AK</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 12 Bibliotecas úteis para auxiliar no desenvolvimento utilizando Flutter (<a href="https://medium.com/flutter-comunidade-br/12-bibliotecas-%C3%BAteis-para-auxiliar-no-desenvolvimento-utilizando-flutter-5982fdf01c80">https://medium.com/flutter-comunidade-br/12-bibliotecas-%C3%BAteis-para-auxiliar-no-desenvolvimento-utilizando-flutter-5982fdf01c80</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação: Utilize os serviços do Firebase com Flutter (<a href="https://cursos.alura.com.br/formacao-flutter-firebase">https://cursos.alura.com.br/formacao-flutter-firebase</a>)</li>
+<li><code data-kind="curso">Curso</code> Flutter: implementando persistência de dados com Drift e Hive (<a href="https://cursos.alura.com.br/course/flutter-implementando-persistencia-dados-drift-hive">https://cursos.alura.com.br/course/flutter-implementando-persistencia-dados-drift-hive</a>)</li>
+<li><code data-kind="curso">Curso</code> Flutter: utilizando o Dio para realizar a comunicação com Web API (<a href="https://cursos.alura.com.br/course/flutter-dio-comunicacao-web-api">https://cursos.alura.com.br/course/flutter-dio-comunicacao-web-api</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conhecendo pacotes no Flutter (<a href="https://www.alura.com.br/artigos/pacotes-no-flutter">https://www.alura.com.br/artigos/pacotes-no-flutter</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Utilizando o Dio para comunicação com APIs (<a href="https://www.alura.com.br/artigos/dio-para-comunicacao-com-api">https://www.alura.com.br/artigos/dio-para-comunicacao-com-api</a>)</li>
+</ul>
+<h3>Flutter - Gerenciamento de Estados:</h3>
 <ul><li>Em Flutter, &#39;estado&#39; (state) são os dados que você precisa para reconstruir sua UI a qualquer momento. Quando estes dados mudarem, isso desencadeará um redesenho da interface do usuário.</li>
 <li>Entender o que é Gerenciamento de Estados</li>
 <li>Conhecer e saber usar o Provider</li>
 <li>Conhecer as demais opções de Gerenciamentos de Estados no Flutter</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Testes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Gerenciamento de Estados | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/data-and-backend/state-mgmt/intro">https://docs.flutter.dev/development/data-and-backend/state-mgmt/intro</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gerenciamento de Estado em Flutter e algumas soluções (<a href="https://ateliware.com/blog/gerenciamento-de-estado-em-flutter">https://ateliware.com/blog/gerenciamento-de-estado-em-flutter</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Flutter: Provider, BLoC e State Management (<a href="https://balta.io/blog/flutter-bloc-provider-state-management">https://balta.io/blog/flutter-bloc-provider-state-management</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que aprendi utilizando as gerências de estado do Flutter (<a href="https://medium.com/flutter-comunidade-br/o-que-aprendi-utilizando-as-ger%C3%AAncias-de-estado-do-flutter-8f8f2bc7911c">https://medium.com/flutter-comunidade-br/o-que-aprendi-utilizando-as-ger%C3%AAncias-de-estado-do-flutter-8f8f2bc7911c</a>)</li>
+<li><code data-kind="site">Site</code> Opções de Ferramentas para Gerenciamento de Estados | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/data-and-backend/state-mgmt/options">https://docs.flutter.dev/development/data-and-backend/state-mgmt/options</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutterando: Aulão sobre Provider e estrutura de projetos (<a href="https://www.youtube.com/watch?v=VhsqMahAmOk&ab_channel=Flutterando">https://www.youtube.com/watch?v=VhsqMahAmOk&amp;ab_channel=Flutterando</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: Pragmatic State Management Using Provider (<a href="https://www.youtube.com/watch?v=HrBiNHEqSYU&ab_channel=Flutter">https://www.youtube.com/watch?v=HrBiNHEqSYU&amp;ab_channel=Flutter</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é gerenciamento de estados no Flutter e principais ferramentas (<a href="https://www.alura.com.br/artigos/gerenciamento-de-estados-flutter-principais-ferramentas">https://www.alura.com.br/artigos/gerenciamento-de-estados-flutter-principais-ferramentas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como gerenciar estados com Flutter Provider (<a href="https://www.alura.com.br/artigos/como-gerenciar-estados-com-flutter-provider">https://www.alura.com.br/artigos/como-gerenciar-estados-com-flutter-provider</a>)</li>
+<li><code data-kind="artigo">Artigo</code> BloC ou Cubit no Flutter: qual escolher? (<a href="https://www.alura.com.br/artigos/bloco-c-cubit">https://www.alura.com.br/artigos/bloco-c-cubit</a>)</li>
+<li><code data-kind="artigo">Artigo</code> GetX: o canivete suíço do Flutter (<a href="https://www.alura.com.br/artigos/getx-canivete-suico">https://www.alura.com.br/artigos/getx-canivete-suico</a>)</li>
+<li><code data-kind="curso">Curso</code> Flutter: gerenciamento de estados com Provider (<a href="https://www.alura.com.br/curso-online-flutter-gerenciamento-de-estados-provider">https://www.alura.com.br/curso-online-flutter-gerenciamento-de-estados-provider</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação: Gerenciamento de estados com Flutter (<a href="https://cursos.alura.com.br/formacao-gerenciamento-estados-flutter">https://cursos.alura.com.br/formacao-gerenciamento-estados-flutter</a>)</li>
+</ul>
+<h3>Flutter - Testes:</h3>
 <ul><li>O teste de software é o processo de avaliação e verificação de que um software realmente faz o que deveria fazer. Os benefícios dos testes incluem a prevenção de bugs, a redução dos custos de desenvolvimento e a melhoria do desempenho.</li>
 <li>Conhecer Testes Unitários no Flutter</li>
 <li>Conhecer Testes de Widgets no Flutter</li>
 <li>Conhecer Testes de Integração no Flutter</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Depuração</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Testando Apps Flutter | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/testing">https://docs.flutter.dev/testing</a>)</li>
+<li><code data-kind="site">Site</code> Uma introdução aos Testes Unitários no Flutter | Flutter Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/testing/unit/introduction">https://docs.flutter.dev/cookbook/testing/unit/introduction</a>)</li>
+<li><code data-kind="site">Site</code> Uma introdução aos Testes de Widget no Flutter | Flutter Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/testing/widget/introduction">https://docs.flutter.dev/cookbook/testing/widget/introduction</a>)</li>
+<li><code data-kind="site">Site</code> Testes de Integração no Flutter | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/testing/integration-tests">https://docs.flutter.dev/testing/integration-tests</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutterando: Semana do Flutter - Testes de Unidade #1 | O que é unidade? (<a href="https://youtu.be/zlYQe-9QMug">https://youtu.be/zlYQe-9QMug</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Prof. Diego Antunes: Flutter - Teste de Integração (Integration Test ou E2E Flutter) (<a href="https://youtu.be/GEvNj7uogYE">https://youtu.be/GEvNj7uogYE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: Testando Aplicativos Flutter - Garantindo que o código vai funcionar (inglês) (<a href="https://youtu.be/bj-oMYyLZEY">https://youtu.be/bj-oMYyLZEY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: Dicas de Perfomance com Testes no Flutter (inglês) (<a href="https://youtu.be/PKGguGUwSYE">https://youtu.be/PKGguGUwSYE</a>)</li>
+<li><code data-kind="site">Site</code> Como testar um app Flutter | Google Codelabs (inglês) (<a href="https://codelabs.developers.google.com/codelabs/flutter-app-testing?hl=pt-br#0">https://codelabs.developers.google.com/codelabs/flutter-app-testing?hl=pt-br#0</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="site">Site</code> Primeiras aulas do curso Flutter: aplicando testes de unidade, de Widget e Mocks (<a href="https://www.alura.com.br/conteudo/flutter-testes-unidade-widget-mocks">https://www.alura.com.br/conteudo/flutter-testes-unidade-widget-mocks</a>)</li>
+<li><code data-kind="curso">Curso</code> Flutter: aplicando testes de unidade, de Widget e Mocks (<a href="https://www.alura.com.br/curso-online-flutter-testes-unidade-widget-mocks">https://www.alura.com.br/curso-online-flutter-testes-unidade-widget-mocks</a>)</li>
+<li><code data-kind="curso">Curso</code> Flutter: criando testes automatizados de unidade, widgets e dublês (<a href="https://cursos.alura.com.br/course/flutter-criando-testes-automatizados-unidade-widgets-dubles">https://cursos.alura.com.br/course/flutter-criando-testes-automatizados-unidade-widgets-dubles</a>)</li>
+<li><code data-kind="curso">Curso</code> Flutter: dominando testes de integração (<a href="https://cursos.alura.com.br/course/flutter-dominando-testes-integracao">https://cursos.alura.com.br/course/flutter-dominando-testes-integracao</a>)</li>
+<li><code data-kind="curso">Curso</code> TDD em Flutter: desenvolvimento orientado a testes (<a href="https://cursos.alura.com.br/course/tdd-flutter-desenvolvimento-orientado-testes">https://cursos.alura.com.br/course/tdd-flutter-desenvolvimento-orientado-testes</a>)</li>
+<li><code data-kind="curso">Curso</code> Testes no CI com Flutter: utilizando Bitrise, GitHub Actions e Codemagic (<a href="https://cursos.alura.com.br/course/testes-ci-flutter-utilizando-bitrise-github-actions-codemagic">https://cursos.alura.com.br/course/testes-ci-flutter-utilizando-bitrise-github-actions-codemagic</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Testes no Flutter: O que é? Quando usar? Como começar a aprender? (<a href="https://www.alura.com.br/artigos/testes-flutter">https://www.alura.com.br/artigos/testes-flutter</a>)</li>
+</ul>
+<h3>Flutter - Depuração:</h3>
 <ul><li>Depuração (em inglês &quot;debugging&quot; ou &quot;debug&quot;) é o processo de encontrar e reduzir defeitos num aplicativo de software ou mesmo em hardware. Erros de software incluem aqueles que previnem o programa de ser executado e aqueles que produzem um resultado inesperado.</li>
 <li>Conhecer as técnicas e ferramentas de depuração no Flutter</li>
 <li>Saber depurar códigos Dart e Flutter</li>
 <li>Conhecer o Dart DevTools</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Jogos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Flutterando: Depuração (Breakpoint) (<a href="https://youtu.be/cUMsu0Kxo7k">https://youtu.be/cUMsu0Kxo7k</a>)</li>
+<li><code data-kind="site">Site</code> Depurando Aplicativos Flutter | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/testing/debugging">https://docs.flutter.dev/testing/debugging</a>)</li>
+<li><code data-kind="site">Site</code> Depurando Códigos de forma Programática | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/testing/code-debugging">https://docs.flutter.dev/testing/code-debugging</a>)</li>
+<li><code data-kind="site">Site</code> Usando um depurador OEM | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/testing/oem-debuggers">https://docs.flutter.dev/testing/oem-debuggers</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: Propriedades de Depuração | Decoding Flutter (inglês) (<a href="https://youtu.be/DnC7eT-vh1k">https://youtu.be/DnC7eT-vh1k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: Depure e crie o perfil do seu aplicativo com o Flutter DevTools | Demo (inglês) (<a href="https://youtu.be/J7s5bu49k3U">https://youtu.be/J7s5bu49k3U</a>)</li>
+<li><code data-kind="site">Site</code> Conhecendo o Dart DevTools | Dart Docs (inglês) (<a href="https://dart.dev/tools/dart-devtools">https://dart.dev/tools/dart-devtools</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: Dart DevTools | Decoding Flutter (inglês) (<a href="https://youtu.be/nq43mP7hjAE">https://youtu.be/nq43mP7hjAE</a>)</li>
+</ul>
+<h3>Flutter - Jogos:</h3>
 <ul><li>Aprender a criar jogos com Flutter</li>
 <li>Conhecer o Kit de Desenvolvimento de Jogos Casuais do Flutter</li>
 <li>Conhecer o pacote Flame como Engine de Jogos Flutter</li>
 <li>Conhecer o pacote Bonfire como Engine de Jogos para Flutter</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Flutter: Jogos! (inglês) (<a href="https://flutter.dev/games">https://flutter.dev/games</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Flutter: Kit de Desenvolvimento de Jogos Casuais (inglês) (<a href="https://docs.flutter.dev/resources/games-toolkit">https://docs.flutter.dev/resources/games-toolkit</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: Fazendo sue primeiro jogo com Flutter (inglês) | Flutter Focus (<a href="https://youtu.be/zGgeBNiRy-8">https://youtu.be/zGgeBNiRy-8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Meu primeiro jogo com Flutter e Flame (inglês) (<a href="https://youtu.be/3GGcVF9p8bY">https://youtu.be/3GGcVF9p8bY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter Mapp: Criando um jogo do estilo RPG com Flutter usando Bonfire (<a href="https://youtu.be/Qv4ma-YHlHw">https://youtu.be/Qv4ma-YHlHw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flame Engine: O básico do Flutter Flame | Vikings 2022 (inglês) (<a href="https://youtu.be/NqjaLM0TWm0">https://youtu.be/NqjaLM0TWm0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Craig Oda: Velocidade, Gravidade e Movimento no Flutter (inglês) (<a href="https://youtu.be/hwQpBuZoV9s">https://youtu.be/hwQpBuZoV9s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutterando: Criando jogos de RPG usando o Flutter Bonfire (<a href="https://youtu.be/vrhJTdwiXBg">https://youtu.be/vrhJTdwiXBg</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Nativo</strong>:</li>
+<h3>Flutter - Nativo:</h3>
 <ul><li>Conhecer as especificidades do desenvolvimento nativo para Android</li>
 <li>Conhecer as especificidades do desenvolvimento nativo para iOS</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estruturas de Dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Android: Hospedando Views nativas do Android em seu aplicativo Flutter com visualizações de plataforma - Integração Android | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/android/platform-views">https://docs.flutter.dev/development/platform-integration/android/platform-views</a>)</li>
+<li><code data-kind="site">Site</code> Android: API de Migração - Integração Android | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/android/plugin-api-migration">https://docs.flutter.dev/development/platform-integration/android/plugin-api-migration</a>)</li>
+<li><code data-kind="site">Site</code> Android: Migração para Android X - Integração Android | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/android/androidx-migration">https://docs.flutter.dev/development/platform-integration/android/androidx-migration</a>)</li>
+<li><code data-kind="site">Site</code> Android: Migração da Splash Screen - Integração Android | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/android/splash-screen-migration">https://docs.flutter.dev/development/platform-integration/android/splash-screen-migration</a>)</li>
+<li><code data-kind="site">Site</code> iOS: Usando o Cupertino | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/ui/widgets/cupertino">https://docs.flutter.dev/development/ui/widgets/cupertino</a>)</li>
+<li><code data-kind="site">Site</code> iOS: Veggie Seasons - iOS com Flutter (inglês) (<a href="https://github.com/flutter/samples/tree/main/veggieseasons">https://github.com/flutter/samples/tree/main/veggieseasons</a>)</li>
+<li><code data-kind="youtube">YouTube</code> iOS: Criando para iOS com Flutter (Google I/O&#39;19) (inglês) (<a href="https://www.youtube.com/watch?v=ZBJa-xjZl3w&ab_channel=Flutter">https://www.youtube.com/watch?v=ZBJa-xjZl3w&amp;ab_channel=Flutter</a>)</li>
+<li><code data-kind="site">Site</code> iOS: iOS App Clip | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/ios/ios-app-clip">https://docs.flutter.dev/development/platform-integration/ios/ios-app-clip</a>)</li>
+<li><code data-kind="site">Site</code> iOS: Hospedando Views nativas do iOS em seu aplicativo Flutter com visualizações de plataforma | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/ios/platform-views">https://docs.flutter.dev/development/platform-integration/ios/platform-views</a>)</li>
+<li><code data-kind="site">Site</code> Escrevendo código para uma plataforma específica | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/platform-channels">https://docs.flutter.dev/development/platform-integration/platform-channels</a>)</li>
+<li><code data-kind="site">Site</code> Interoperabilidade do C | Dart Guides (inglês) (<a href="https://dart.dev/guides/libraries/c-interop">https://dart.dev/guides/libraries/c-interop</a>)</li>
+<li><code data-kind="site">Site</code> Interoperabilidade do JavaScript | Dart Guides (inglês) (<a href="https://dart.dev/web/js-interop">https://dart.dev/web/js-interop</a>)</li>
+<li><code data-kind="site">Site</code> Interoperabilidade do C para Android | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/android/c-interop">https://docs.flutter.dev/development/platform-integration/android/c-interop</a>)</li>
+<li><code data-kind="site">Site</code> Interoperabilidade do C para iOS | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/ios/c-interop">https://docs.flutter.dev/development/platform-integration/ios/c-interop</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação Flutter: integrando com Recursos Nativos (<a href="https://cursos.alura.com.br/formacao-flutter-recursos-nativos">https://cursos.alura.com.br/formacao-flutter-recursos-nativos</a>)</li>
+</ul>
+<h3>Estruturas de Dados:</h3>
 <ul><li>No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.</li>
 <li>Conhecer as principais estruturas de dados</li>
 <li>Implementar as principais estruturas de dados</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Animações</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Estrutura de dados (<a href="https://medium.com/php-word/estrutura-de-dados-6afb386a6fc1">https://medium.com/php-word/estrutura-de-dados-6afb386a6fc1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Estrutura de Dados e Algoritmo - parte 1 (<a href="https://medium.com/@PaoloProdossimoLopes/01-estrutura-de-dados-e-algoritmo-9cb6a9b14aa">https://medium.com/@PaoloProdossimoLopes/01-estrutura-de-dados-e-algoritmo-9cb6a9b14aa</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Estrutura de Dados e Algoritmo - parte 2 (<a href="https://medium.com/@PaoloProdossimoLopes/02-estrutura-de-dados-e-algoritmo-deba0b384a0f">https://medium.com/@PaoloProdossimoLopes/02-estrutura-de-dados-e-algoritmo-deba0b384a0f</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Estruturas de dados com JavaScript (<a href="https://www.youtube.com/watch?v=MweeZn1rR8s">https://www.youtube.com/watch?v=MweeZn1rR8s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fabio Akita: Árvores (<a href="https://www.youtube.com/watch?v=9GdesxWtOgs">https://www.youtube.com/watch?v=9GdesxWtOgs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Loiane Groner: Estrutura de Dados com Java | Lista Encadeada (<a href="https://www.youtube.com/watch?v=RW0oD2L_tSg">https://www.youtube.com/watch?v=RW0oD2L_tSg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Loiane Groner: Estrutura de Dados com Java | Filas (<a href="https://www.youtube.com/watch?v=RdoLTgJSV_c">https://www.youtube.com/watch?v=RdoLTgJSV_c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Loiane Groner: Estrutura de Dados com Java | Pilhas (<a href="https://www.youtube.com/watch?v=ZdU4wMyiTSs">https://www.youtube.com/watch?v=ZdU4wMyiTSs</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="site">Site</code> Apostila Python: Estruturas de dados (<a href="https://www.alura.com.br/apostila-python-orientacao-a-objetos/estrutura-de-dados">https://www.alura.com.br/apostila-python-orientacao-a-objetos/estrutura-de-dados</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Estruturas de dados: uma introdução (<a href="https://www.alura.com.br/artigos/estruturas-de-dados-introducao">https://www.alura.com.br/artigos/estruturas-de-dados-introducao</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Curso Estrutura de Dados: computação na prática com Java (<a href="https://www.alura.com.br/artigos/estrutura-dados-computacao-na-pratica-com-java">https://www.alura.com.br/artigos/estrutura-dados-computacao-na-pratica-com-java</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Algoritmos e estrutura de dados - Hipsters 186 (<a href="https://www.alura.com.br/podcast/hipsterstech-algoritmos-e-estrutura-de-dados-hipsters-186-a375">https://www.alura.com.br/podcast/hipsterstech-algoritmos-e-estrutura-de-dados-hipsters-186-a375</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso PHP: dominando as Collections (<a href="https://cursos.alura.com.br/course/php-dominando-collections">https://cursos.alura.com.br/course/php-dominando-collections</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Python: crie a sua primeira aplicação (<a href="https://cursos.alura.com.br/course/python-crie-sua-primeira-aplicacao">https://cursos.alura.com.br/course/python-crie-sua-primeira-aplicacao</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Estruturas de Dados (<a href="https://7daysofcode.io/matricula/estruturas-de-dados">https://7daysofcode.io/matricula/estruturas-de-dados</a>)</li>
+</ul>
+<h3>Flutter - Animações:</h3>
 <ul><li>Conhecer a diferença entre Animações Implícitas e Explícitas no Flutter</li>
 <li>Conhecer e saber usar os Widgets para Animações Implícitas</li>
 <li>Entender os conceitos de Duração (Duration) e Curvas (Curves)</li>
 <li>Conhecer a técnica de Animações Explicitas no Flutter</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Multiplataforma Desktop</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Introdução à Animações no Flutter | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/ui/animations">https://docs.flutter.dev/development/ui/animations</a>)</li>
+<li><code data-kind="site">Site</code> Animações Implícitas | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/codelabs/implicit-animations">https://docs.flutter.dev/codelabs/implicit-animations</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: Animação Básica com Animações Implícitas | Flutter on Focus (inglês) (<a href="https://youtu.be/IVTjpW3W33s">https://youtu.be/IVTjpW3W33s</a>)</li>
+<li><code data-kind="site">Site</code> Lista de Widgets de Animação do Flutter | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/ui/widgets/animation">https://docs.flutter.dev/development/ui/widgets/animation</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dotcode: Destrinchando o AnimatedContainer (<a href="https://youtu.be/8lNWgsJOZUw">https://youtu.be/8lNWgsJOZUw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Prof. Diego Antunes: 5 animações em 5 minutos (<a href="https://www.youtube.com/watch?v=7t_xZZh_K4Y&ab_channel=Prof.DiegoAntunes">https://www.youtube.com/watch?v=7t_xZZh_K4Y&amp;ab_channel=Prof.DiegoAntunes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Animações com Flutter (<a href="https://ateliware.com/blog/o-mundo-das-animacoes-em-flutter">https://ateliware.com/blog/o-mundo-das-animacoes-em-flutter</a>)</li>
+<li><code data-kind="site">Site</code> Simples animação de Opacidade | Flutter Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/animation/opacity-animation">https://docs.flutter.dev/cookbook/animation/opacity-animation</a>)</li>
+<li><code data-kind="site">Site</code> Animando propriedades de um Container | Flutter Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/animation/animated-container">https://docs.flutter.dev/cookbook/animation/animated-container</a>)</li>
+<li><code data-kind="site">Site</code> Animando transições de tela | Flutter Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/animation/page-route-animation">https://docs.flutter.dev/cookbook/animation/page-route-animation</a>)</li>
+<li><code data-kind="site">Site</code> Animando um Widget com Simulação de Física | Flutter Cookbook (inglês) (<a href="https://docs.flutter.dev/cookbook/animation/physics-simulation">https://docs.flutter.dev/cookbook/animation/physics-simulation</a>)</li>
+<li><code data-kind="site">Site</code> Animações Explicitas no Flutter | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/codelabs/explicit-animations">https://docs.flutter.dev/codelabs/explicit-animations</a>)</li>
+<li><code data-kind="site">Site</code> Animações com Hero | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/ui/animations/hero-animations">https://docs.flutter.dev/development/ui/animations/hero-animations</a>)</li>
+<li><code data-kind="site">Site</code> Animações Escalonadas | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/ui/animations/staggered-animations">https://docs.flutter.dev/development/ui/animations/staggered-animations</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: Fazendo animações do jeito certo | Flutter Europe (inglês) (<a href="https://youtu.be/wnARLByOtKA">https://youtu.be/wnARLByOtKA</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Flutter ainda mais atraente com animações (<a href="https://cursos.alura.com.br/formacao-flutter-animacoes">https://cursos.alura.com.br/formacao-flutter-animacoes</a>)</li>
+</ul>
+<h3>Flutter - Multiplataforma Desktop:</h3>
 <ul><li>Conhecer e saber usar as opções de criação em multiplataforma do Flutter</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Multiplataforma Web</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Flutter no Desktop (inglês) (<a href="https://flutter.dev/multi-platform/desktop">https://flutter.dev/multi-platform/desktop</a>)</li>
+<li><code data-kind="site">Site</code> Suporte para Desktop do Flutter (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/desktop">https://docs.flutter.dev/development/platform-integration/desktop</a>)</li>
+<li><code data-kind="site">Site</code> Criando aplicativos para Linux com Flutter (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/linux/building">https://docs.flutter.dev/development/platform-integration/linux/building</a>)</li>
+<li><code data-kind="site">Site</code> Criando aplicativos para Windows com Flutter (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/windows/building">https://docs.flutter.dev/development/platform-integration/windows/building</a>)</li>
+<li><code data-kind="site">Site</code> Criando aplicativos para macOS com Flutter (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/macos/building">https://docs.flutter.dev/development/platform-integration/macos/building</a>)</li>
+</ul>
+<h3>Flutter - Multiplataforma Web:</h3>
 <ul><li>Conhecer as especificidades da criação de apps Flutter para Web</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Implantação (Deployment)</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Perguntas Frequentes - Flutter Web | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/web/faq">https://docs.flutter.dev/development/platform-integration/web/faq</a>)</li>
+<li><code data-kind="site">Site</code> Renderizadores - Flutter Web | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/web/renderers">https://docs.flutter.dev/development/platform-integration/web/renderers</a>)</li>
+<li><code data-kind="site">Site</code> Inicialização - Flutter Web | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/web/initialization">https://docs.flutter.dev/development/platform-integration/web/initialization</a>)</li>
+<li><code data-kind="site">Site</code> Uso de imagens - Flutter Web | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/platform-integration/web/web-images">https://docs.flutter.dev/development/platform-integration/web/web-images</a>)</li>
+<li><code data-kind="artigo">Artigo</code> PWA em Flutter (inglês) (<a href="https://blog.codemagic.io/pwa-in-flutter/">https://blog.codemagic.io/pwa-in-flutter/</a>)</li>
+</ul>
+<h3>Flutter - Implantação (Deployment):</h3>
 <ul><li>Implantação é a fase do ciclo de vida de um software (programa computacional, documentação e dados), no contexto de um Sistema de Informação, que corresponde textualmente à passagem do software para a produção.</li>
 <li>Conhecer as técnicas de ofuscação de código Dart</li>
 <li>Conhecer e saber implantar aplicativos Flutter em várias plataformas</li>
 <li>Entendendo Flavors em Flutter</li>
 <li>Conhecer Entrega Contínua em Flutter</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Arquitetura</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Ofuscando Código Dart | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/deployment/obfuscate">https://docs.flutter.dev/deployment/obfuscate</a>)</li>
+<li><code data-kind="site">Site</code> Implantando para Android e lançando na PlayStore | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/deployment/android">https://docs.flutter.dev/deployment/android</a>)</li>
+<li><code data-kind="site">Site</code> Implantando para iOS e lançando na AppStore | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/deployment/ios">https://docs.flutter.dev/deployment/ios</a>)</li>
+<li><code data-kind="site">Site</code> Implantando para macOS e lançando na AppStore | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/deployment/macos">https://docs.flutter.dev/deployment/macos</a>)</li>
+<li><code data-kind="site">Site</code> Implantando para Linux e lançando na SnapStore | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/deployment/linux">https://docs.flutter.dev/deployment/linux</a>)</li>
+<li><code data-kind="site">Site</code> Implantando para Windows | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/deployment/windows">https://docs.flutter.dev/deployment/windows</a>)</li>
+<li><code data-kind="site">Site</code> Implantando para Web | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/deployment/web">https://docs.flutter.dev/deployment/web</a>)</li>
+<li><code data-kind="site">Site</code> Criando Flavors para Flutter | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/deployment/flavors">https://docs.flutter.dev/deployment/flavors</a>)</li>
+<li><code data-kind="site">Site</code> Entrega Contínua com Flutter | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/deployment/cd">https://docs.flutter.dev/deployment/cd</a>)</li>
+<li><code data-kind="youtube">YouTube</code> MJSD Coding: Build and Release Flutter App to App Store 2022 (inglês) (<a href="https://youtu.be/akFF1uJWZck">https://youtu.be/akFF1uJWZck</a>)</li>
+<li><code data-kind="youtube">YouTube</code> penseapp: Como fazer o deploy do seu aplicativo flutter na Playstore! (<a href="https://youtu.be/PM-wILFbPbg">https://youtu.be/PM-wILFbPbg</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Publicando App Flutter na PlayStore (inglês) (<a href="https://medium.flutterdevs.com/publishing-flutter-app-to-playstore-fa7543b61a7b">https://medium.flutterdevs.com/publishing-flutter-app-to-playstore-fa7543b61a7b</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação: Flutter CI/CD: automatize seu trabalho (<a href="https://cursos.alura.com.br/formacao-flutter-ci-cd">https://cursos.alura.com.br/formacao-flutter-ci-cd</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Flutter CI/CD: o que é? Como funciona e como usar? (<a href="https://www.alura.com.br/artigos/flutter-ci-cd">https://www.alura.com.br/artigos/flutter-ci-cd</a>)</li>
+</ul>
+<h3>Flutter - Arquitetura:</h3>
 <ul><li>Em programação, existem vários padrões de arquitetura para arquivos e pastas de projetos, que fornecem aos desenvolvedores facilidade para encontrar, pesquisar e entender o código escrito.</li>
 <li>Conhecer as principais Arquiteturas usadas pela comunidade Flutter, como MVC, MVVM, MVP, etc</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Flutter - Pacotes e Plugins</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Uma introdução à Arquitetura Clean com Flutter (inglês) (<a href="https://medium.com/ruangguru/an-introduction-to-flutter-clean-architecture-ae00154001b0">https://medium.com/ruangguru/an-introduction-to-flutter-clean-architecture-ae00154001b0</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Flutter: Arquitetura MVVM (<a href="https://medium.com/flutterworld/flutter-mvvm-architecture-f8bed2521958">https://medium.com/flutterworld/flutter-mvvm-architecture-f8bed2521958</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Padrões de Projeto com Flutter: MVC (<a href="https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2">https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Estrutura de Projeto em Flutter: Feature-first ou Layer-first? (inglês) (<a href="https://codewithandrea.com/articles/flutter-project-structure/">https://codewithandrea.com/articles/flutter-project-structure/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Deivid Willyan | Flutter: Flutter NV1 - MVC Pattern (<a href="https://www.youtube.com/watch?v=KDDU4ZT_fXU">https://www.youtube.com/watch?v=KDDU4ZT_fXU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutterando: MVVM no Flutter - Estrutura para iniciantes (<a href="https://www.youtube.com/watch?v=WgadnZcujuc">https://www.youtube.com/watch?v=WgadnZcujuc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação: Flutter: desvendando arquiteturas (<a href="https://cursos.alura.com.br/formacao-flutter-desvendando-arquiteturas">https://cursos.alura.com.br/formacao-flutter-desvendando-arquiteturas</a>)</li>
+</ul>
+<h3>Flutter - Pacotes e Plugins:</h3>
 <ul><li>Conhecer o desenvolvimento de plugins para Flutter</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Pacotes ou Plugins | Decoding Flutter (inglês) (<a href="https://youtu.be/Y9WifT8aN6o">https://youtu.be/Y9WifT8aN6o</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter Plugin Development (inglês) (<a href="https://youtu.be/PLPhmsDovwQ">https://youtu.be/PLPhmsDovwQ</a>)</li>
+<li><code data-kind="site">Site</code> Desenvolvendo pacotes | Flutter Docs  (inglês) (<a href="https://docs.flutter.dev/development/packages-and-plugins/developing-packages">https://docs.flutter.dev/development/packages-and-plugins/developing-packages</a>)</li>
+<li><code data-kind="site">Site</code> Pluguins Federados | Flutter Docs (inglês) (<a href="https://docs.flutter.dev/development/packages-and-plugins/developing-packages#federated-plugins">https://docs.flutter.dev/development/packages-and-plugins/developing-packages#federated-plugins</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Escrevendo um bom plugin Flutter (inglês) (<a href="https://medium.com/flutter/writing-a-good-flutter-plugin-1a561b986c9c">https://medium.com/flutter/writing-a-good-flutter-plugin-1a561b986c9c</a>)</li>
+<li><code data-kind="site">Site</code> Contribuindo para a comunidade (inglês) (<a href="https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md">https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Infraestrutura e Back-end</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+<h3>Git e GitHub - Fundamentos:</h3>
 <ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
 <li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
 <li>Criar um repositório</li>
@@ -321,42 +666,215 @@
 <li>Reverter um commit</li>
 <li>Criar branches e pul requests</li>
 <li>Lidar com merge e conflitos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> GitHub Documentação (<a href="https://docs.github.com/pt">https://docs.github.com/pt</a>)</li>
+<li><code data-kind="site">Site</code> GitHub Pages Documentação (<a href="https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="site">Site</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="site">Site</code> Dangit, Git!?! (<a href="https://dangitgit.com/">https://dangitgit.com/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O que é Git e GitHub? - definição e conceitos importantes 1/2 (<a href="https://www.youtube.com/watch?v=DqTITcMq68k">https://www.youtube.com/watch?v=DqTITcMq68k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: Como usar Git e GitHub na prática! - desde o primeiro commit até o pull request! 2/2 (<a href="https://www.youtube.com/watch?v=UBAX-13g8OM">https://www.youtube.com/watch?v=UBAX-13g8OM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Git: Entendendo de vez como funciona do melhor e mais visual jeito possível (<a href="https://www.youtube.com/watch?v=4-tfJ-ZyA0Q">https://www.youtube.com/watch?v=4-tfJ-ZyA0Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como colocar seu projeto no ar DE GRAÇA via GitHub! | Hospedagem com GitHub Pages (<a href="https://www.youtube.com/watch?v=BU-w2_Aae54">https://www.youtube.com/watch?v=BU-w2_Aae54</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - 5 coisas que você precisa saber sobre Git (<a href="https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU">https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - README de Sucesso: Transforme seu Projeto ou seu Perfil em Destaque no GitHub (<a href="https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A">https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Git e Github: O que são, Como Configurar e Primeiros Passos (<a href="https://www.alura.com.br/artigos/o-que-e-git-github">https://www.alura.com.br/artigos/o-que-e-git-github</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Mais git com o hub: a linha de comando do Github (<a href="https://www.alura.com.br/artigos/github-na-linha-de-comando">https://www.alura.com.br/artigos/github-na-linha-de-comando</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 184: Guia do Iniciante em Github (<a href="https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378">https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378</a>)</li>
+<li><code data-kind="site">Site</code> GitHub: diferentes maneiras de compartilhar seu projeto (<a href="https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002">https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002</a>)</li>
+<li><code data-kind="site">Site</code> Websérie: Git e Github para Sobrevivência (<a href="https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia">https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 109: Git e Github (<a href="https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474">https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Git e Github para Sobrevivência 01: Como o Git funciona? (<a href="https://www.youtube.com/watch?v=BAmvmaKQklQ">https://www.youtube.com/watch?v=BAmvmaKQklQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: compartilhando e colaborando em projetos (<a href="https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos">https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: dominando controle de versão de código (<a href="https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo">https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: GitHub (<a href="https://7daysofcode.io/matricula/github">https://7daysofcode.io/matricula/github</a>)</li>
+</ul>
+<h3>HTTP - Fundamentos:</h3>
 <ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
 <li>Entender a diferença dos verbos HTTP</li>
 <li>Testar os requests e ver os status codes no navegador</li>
 <li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
 <li>Baixar uma imagem com WGET</li>
 <li>Fazer um post</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Uma visão geral do HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Métodos de requisição HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Cats (<a href="https://http.cat/">https://http.cat/</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Dogs (<a href="https://http.dog/">https://http.dog/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fabiano Gabardo Lemos: Requisições HTTP - GET, POST, PUT, PATCH DELETE (<a href="https://www.youtube.com/watch?v=kncOJZrnkTg">https://www.youtube.com/watch?v=kncOJZrnkTg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programador a Bordo: Protocolo HTTP e TCP/IP - Introdução (<a href="https://www.youtube.com/watch?v=V4XZ81vRGtM">https://www.youtube.com/watch?v=V4XZ81vRGtM</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> HTTP: Desmistificando o protocolo da Web (<a href="https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1">https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Métodos de requisição do HTTP (<a href="https://www.alura.com.br/artigos/metodos-de-requisicao-do-http">https://www.alura.com.br/artigos/metodos-de-requisicao-do-http</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual é a diferença entre HTTP e HTTPS? (<a href="https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https">https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: HTTP/2: magia com o novo protocolo - Hipsters 13 (<a href="https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573">https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso HTTP: Entendendo a web por baixo dos panos (<a href="https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos">https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos</a>)</li>
+</ul>
+<h3>JSON:</h3>
 <ul><li>JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.</li>
 <li>Criar um objeto</li>
 <li>Transformar um objeto em uma string</li>
 <li>Transformar uma string em objeto</li>
 <li>Manipular um objeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Patterns</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: JSON (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Trabalhando com JSON (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao JSON (<a href="https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff">https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: O que é JSON e como criar um objeto (<a href="https://www.youtube.com/watch?v=oCY5YEEjlwE">https://www.youtube.com/watch?v=oCY5YEEjlwE</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é JSON? (<a href="https://www.alura.com.br/artigos/o-que-e-json">https://www.alura.com.br/artigos/o-que-e-json</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso MySQL e JSON: persistindo JSON de maneira eficiente (<a href="https://www.alura.com.br/curso-online-mysql-json-persistencia">https://www.alura.com.br/curso-online-mysql-json-persistencia</a>)</li>
+</ul>
+<h3>Design Patterns:</h3>
 <ul><li>Na engenharia de software, um &quot;padrão de projeto&quot; (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.</li>
 <li>Conhecer e aplicar os principais Design Patterns</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design Patterns — O que são e quais os benefícios? (<a href="https://djesusnet.medium.com/design-patterns-gof-o-que-s%C3%A3o-e-quais-os-benef%C3%ADcios-9cd0cfdd6ebf">https://djesusnet.medium.com/design-patterns-gof-o-que-s%C3%A3o-e-quais-os-benef%C3%ADcios-9cd0cfdd6ebf</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Patterns (<a href="https://medium.com/xp-inc/design-patterns-727494af001d">https://medium.com/xp-inc/design-patterns-727494af001d</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: O que são design patterns (padrões de projetos) e para que servem? (<a href="https://www.YOUTUBE.com/watch?v=KNWd1aWtsMw">https://www.YOUTUBE.com/watch?v=KNWd1aWtsMw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> RinaldoDev: Design Patterns - o que são? Por que aprender a utilizar? (<a href="https://www.YOUTUBE.com/watch?v=AWOf6Wo6gtg">https://www.YOUTUBE.com/watch?v=AWOf6Wo6gtg</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Design Patterns – Hipsters Ponto Tech #347 (<a href="https://www.hipsters.tech/techguide-design-patterns-hipsters-ponto-tech-347/">https://www.hipsters.tech/techguide-design-patterns-hipsters-ponto-tech-347/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design patterns: Breve introdução aos padrões de projeto (<a href="https://www.alura.com.br/artigos/design-patterns-introducao-padroes-projeto">https://www.alura.com.br/artigos/design-patterns-introducao-padroes-projeto</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Design Patterns - Hipsters 206 (<a href="https://www.alura.com.br/podcast/design-patterns-hipsters-206-a345">https://www.alura.com.br/podcast/design-patterns-hipsters-206-a345</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns em Java I: boas práticas de programação (<a href="https://www.alura.com.br/curso-online-introducao-design-patterns-java">https://www.alura.com.br/curso-online-introducao-design-patterns-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns C# I: boas práticas de programação (<a href="https://www.alura.com.br/curso-online-design-patterns-dotnet">https://www.alura.com.br/curso-online-design-patterns-dotnet</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns em PHP: padrões comportamental (<a href="https://www.alura.com.br/curso-online-php-design-pattern-comportamental">https://www.alura.com.br/curso-online-php-design-pattern-comportamental</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns em PHP: padrões estruturais (<a href="https://www.alura.com.br/curso-online-php-design-pattern-estrutural">https://www.alura.com.br/curso-online-php-design-pattern-estrutural</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns em PHP: padrões criacionais (<a href="https://www.alura.com.br/curso-online-php-design-pattern-criacional">https://www.alura.com.br/curso-online-php-design-pattern-criacional</a>)</li>
+</ul>
+<h3>Linha de comando - Fundamentos:</h3>
 <ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
 <li>Conhecer os principais comandos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Microsoft Docs: Como usar argumentos de linha de comando para terminal do Windows (<a href="https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows">https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estevan Maito: Linha de comando básica - 8 comandos mais frequentes - WINDOWS e LINUX (<a href="https://www.youtube.com/watch?v=rKBqXJZocYk">https://www.youtube.com/watch?v=rKBqXJZocYk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ninja do Linux: Comandos básicos da linha de comando do Linux (<a href="https://www.youtube.com/watch?v=rs_yshFGu8E">https://www.youtube.com/watch?v=rs_yshFGu8E</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> CMD: dicas para trabalhar no prompt do Windows (<a href="https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows">https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como configurar variáveis de ambiente no Windows, Linux e macOS (<a href="https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos">https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd">https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/curso-online-prompt">https://www.alura.com.br/curso-online-prompt</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Terminal: aprenda comandos para executar tarefas (<a href="https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas">https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas</a>)</li>
+</ul>
+<h3>Cloud - Fundamentos:</h3>
 <ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
 <li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
 <li>Conhecer os maiores provedores de cloud</li>
 <li>Especializar-se em algum provedor</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SOLID</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Computação em nuvem (<a href="https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9">https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é cloud? (<a href="https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6">https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabs Ferreira: Por que investir e estudar cloud? (<a href="https://www.youtube.com/watch?v=Z45BTNeZ1l0">https://www.youtube.com/watch?v=Z45BTNeZ1l0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Andre Iacono: O que é MICROSOFT AZURE? Qual Certificação começar em 2022? (<a href="https://www.youtube.com/watch?v=f-oVzkvMwnE">https://www.youtube.com/watch?v=f-oVzkvMwnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS: O que é a AWS? (<a href="https://www.youtube.com/watch?v=8JI9wQ8sUdQ">https://www.youtube.com/watch?v=8JI9wQ8sUdQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Google Cloud e por que aprender? (<a href="https://www.youtube.com/shorts/Lzq3f1DHWcI">https://www.youtube.com/shorts/Lzq3f1DHWcI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS vs Google Cloud vs Azure: o que cada um tem de melhor? (<a href="https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7">https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Azure (A plataforma Cloud da Microsoft) (<a href="https://www.youtube.com/watch?v=YgE-sZaCuJ0">https://www.youtube.com/watch?v=YgE-sZaCuJ0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mundo da Cloud: AWS do Zero ao Expert (<a href="https://www.youtube.com/watch?v=HiBCv9DolxI&list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz">https://www.youtube.com/watch?v=HiBCv9DolxI&amp;list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Fundamentos Cloud – Hipsters Ponto Tech #348 (<a href="https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/">https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Uma jornada Para o Cloud - Hipsters Deep Dive 005 (<a href="https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100">https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Histórias do Cloud - Hipsters 04 (<a href="https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582">https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Heroku, Vercel e outras opções de cloud como plataforma (<a href="https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma">https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações (<a href="https://www.alura.com.br/artigos/aws">https://www.alura.com.br/artigos/aws</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Terraform: criando máquinas na Azure (<a href="https://www.alura.com.br/artigos/terraform-maquinas-na-azure">https://www.alura.com.br/artigos/terraform-maquinas-na-azure</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é cloud? (<a href="https://www.YOUTUBE.com/watch?v=wev9fMrg-TU">https://www.YOUTUBE.com/watch?v=wev9fMrg-TU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: AWS, Google Cloud e Azure: Por onde começar? | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&t=300s">https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Certificação em Cloud: Azure, AWS, Google | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&t=290s">https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&amp;t=290s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Amazon Web Services (<a href="https://cursos.alura.com.br/formacao-amazon-web-services">https://cursos.alura.com.br/formacao-amazon-web-services</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AWS Certified Cloud Practitioner (<a href="https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner">https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Containers com AWS ECS e EKS (<a href="https://cursos.alura.com.br/formacao-containers-aws">https://cursos.alura.com.br/formacao-containers-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Cloud Platform (<a href="https://cursos.alura.com.br/formacao-google-cloud">https://cursos.alura.com.br/formacao-google-cloud</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Azure (<a href="https://cursos.alura.com.br/formacao-conhecendo-azure">https://cursos.alura.com.br/formacao-conhecendo-azure</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AZ-900: Microsoft Azure Fundamentals (<a href="https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals">https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals</a>)</li>
+</ul>
+<h3>SOLID:</h3>
 <ul><li>O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Architecture</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Princípios de S.O.L.I.D em C# — Guia prático (<a href="https://medium.com/beelabacademy/princ%C3%ADpios-de-s-o-l-i-d-em-c-guia-pr%C3%A1tico-cbb1e6584284">https://medium.com/beelabacademy/princ%C3%ADpios-de-s-o-l-i-d-em-c-guia-pr%C3%A1tico-cbb1e6584284</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Filipe Deschamps: SOLID fica fácil com Essas Ilustrações (<a href="https://www.youtube.com/watch?v=6SfrO3D4dHM">https://www.youtube.com/watch?v=6SfrO3D4dHM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Central dotNET: Princípios de SOLID com C# (<a href="https://www.youtube.com/watch?v=iU4BMUcjg8g">https://www.youtube.com/watch?v=iU4BMUcjg8g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Felipe Pinheiro - Tech: Princípios SOLID, o que é DIP? (<a href="https://www.youtube.com/watch?v=q0BGgQJcp7w">https://www.youtube.com/watch?v=q0BGgQJcp7w</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dev Eficiente: SOLID - Uma reflexão sobre o Princípio da responsabilidade única (<a href="https://www.youtube.com/watch?v=GGe0o_v5vjM">https://www.youtube.com/watch?v=GGe0o_v5vjM</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SOLID: o que é e quais os 5 princípios da Programação Orientada a Objetos (POO) (<a href="https://www.alura.com.br/artigos/solid">https://www.alura.com.br/artigos/solid</a>)</li>
+<li><code data-kind="podcast">Podcast</code> SOLID: Código bom e bonito - Hipsters Ponto Tech 219 (<a href="https://www.alura.com.br/podcast/hipsterstech-solid-codigo-bom-e-bonito-hipsters-ponto-tech-219-a649">https://www.alura.com.br/podcast/hipsterstech-solid-codigo-bom-e-bonito-hipsters-ponto-tech-219-a649</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Clean Code e Solid (<a href="https://www.youtube.com/watch?v=XV9B4LX_re8">https://www.youtube.com/watch?v=XV9B4LX_re8</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso C#: aplique princípios SOLID (<a href="https://cursos.alura.com.br/course/csharp-aplique-principios-solid">https://cursos.alura.com.br/course/csharp-aplique-principios-solid</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Boas práticas de programação: melhore o código de uma API Java (<a href="https://cursos.alura.com.br/course/boas-praticas-programacao-melhore-codigo-api-java">https://cursos.alura.com.br/course/boas-praticas-programacao-melhore-codigo-api-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso SOLID com PHP: princípios da programação orientada a objetos (<a href="https://cursos.alura.com.br/course/solid-php-principios-orientacao-a-objetos">https://cursos.alura.com.br/course/solid-php-principios-orientacao-a-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso iOS: escrevendo código de qualidade com SOLID em Swift (<a href="https://www.alura.com.br/curso-online-ios-escrevendo-codigo-qualidade-solid-swift">https://www.alura.com.br/curso-online-ios-escrevendo-codigo-qualidade-solid-swift</a>)</li>
+<li><code data-kind="curso">Curso</code> SOLID com TypeScript: aplicando boas práticas em orientação a objetos (<a href="https://www.alura.com.br/curso-online-solid-typescript-boas-praticas-orientacao-objetos">https://www.alura.com.br/curso-online-solid-typescript-boas-praticas-orientacao-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Boas práticas em C# (<a href="https://cursos.alura.com.br/formacao-boas-praticas-c-sharp">https://cursos.alura.com.br/formacao-boas-praticas-c-sharp</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Boas práticas em PHP (<a href="https://cursos.alura.com.br/formacao-boas-praticas-php">https://cursos.alura.com.br/formacao-boas-praticas-php</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Boas práticas em Java (<a href="https://cursos.alura.com.br/formacao-boas-praticas-java">https://cursos.alura.com.br/formacao-boas-praticas-java</a>)</li>
+<li><code data-kind="site">Site</code> Livro Casa do Código: Desbravando SOLID - Práticas avançadas para códigos de qualidade em Java moderno (<a href="https://www.casadocodigo.com.br/products/livro-desbravando-solid">https://www.casadocodigo.com.br/products/livro-desbravando-solid</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods): SOLID e o &#39;D&#39; do Principio da Inversão de Dependência usando a Injeção de Dependência para ajudar (<a href="https://youtu.be/xpcCDCH5k4Y">https://youtu.be/xpcCDCH5k4Y</a>)</li>
+</ul>
+<h3>Clean Architecture:</h3>
 <ul><li>A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Firebase</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Descomplicando a Clean Architecture (<a href="https://medium.com/luizalabs/descomplicando-a-clean-architecture-cf4dfc4a1ac6">https://medium.com/luizalabs/descomplicando-a-clean-architecture-cf4dfc4a1ac6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como DEV ser!: Entenda CLEAN ARCHITECTURE de uma vez por todas! (<a href="https://www.youtube.com/watch?v=HynTfTli4mw">https://www.youtube.com/watch?v=HynTfTli4mw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Full Cycle: O que é Clean Architecture (<a href="https://www.youtube.com/watch?v=dQys-mnOtQg">https://www.youtube.com/watch?v=dQys-mnOtQg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - Simplificando o Clean Architecture +MVVM na sua aplicação mobile - Guia Completo (<a href="https://youtu.be/8ehlZfyN1S0?si=l7-I5I4zsnYLlSjD">https://youtu.be/8ehlZfyN1S0?si=l7-I5I4zsnYLlSjD</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="site">Site</code> Clean Architecture (Arquitetura Limpa) - O que é? (<a href="https://cursos.alura.com.br/extra/alura-mais/clean-architecture-arquitetura-limpa-o-que-e--c204">https://cursos.alura.com.br/extra/alura-mais/clean-architecture-arquitetura-limpa-o-que-e--c204</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Clean Architeture - Hipsters Ponto Tech 254 (<a href="https://www.hipsters.tech/clean-architeture-hipsters-ponto-tech-254/">https://www.hipsters.tech/clean-architeture-hipsters-ponto-tech-254/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Arquitetura de sistemas (<a href="https://www.youtube.com/watch?v=oedWxgAZc2A">https://www.youtube.com/watch?v=oedWxgAZc2A</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Java e Clean Architecture: descomplicando arquitetura de software (<a href="https://www.alura.com.br/conteudo/java-clean-architecture">https://www.alura.com.br/conteudo/java-clean-architecture</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Java e Clean Architecture: descomplicando arquitetura de software (<a href="https://www.alura.com.br/curso-online-java-clean-architecture">https://www.alura.com.br/curso-online-java-clean-architecture</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso PHP e Clean Architecture: descomplicando arquitetura de software (<a href="https://cursos.alura.com.br/course/php-introducao-clean-achitecture">https://cursos.alura.com.br/course/php-introducao-clean-achitecture</a>)</li>
+</ul>
+<h3>Firebase:</h3>
 <ul><li>O Firebase é uma plataforma de desenvolvimento de aplicativos Backend-as-a-Service (BaaS) que fornece serviços de backend hospedados, tais como banco de dados em tempo real, armazenamento em nuvem, autenticação, relatórios de falhas, aprendizado de máquina, configuração remota e hospedagem para seus arquivos estáticos.</li>
 <li>Entender como Instalar o Firebase</li>
 <li>Conhecer a documentação do Firebase</li>
 <li>Conhecer as ferramentas do Firebase disponíveis</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Produtos do Firebase | Firebase (<a href="https://firebase.google.com/products-build?hl=pt-br">https://firebase.google.com/products-build?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Casos de Uso do Firebase | Firebase (<a href="https://firebase.google.com/use-cases?hl=pt-br">https://firebase.google.com/use-cases?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Adicionando o Firebase ao App Flutter | Firebase Docs (<a href="https://firebase.google.com/docs/flutter/setup?platform=android">https://firebase.google.com/docs/flutter/setup?platform=android</a>)</li>
+<li><code data-kind="site">Site</code> Adicionando o Firebase ao seu projeto Android | Firebase Docs (<a href="https://firebase.google.com/docs/android/setup">https://firebase.google.com/docs/android/setup</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Firebase: Começando no Firebase com Flutter - Firecasts (inglês) (<a href="https://www.youtube.com/watch?v=EXp0gq9kGxI&ab_channel=Firebase">https://www.youtube.com/watch?v=EXp0gq9kGxI&amp;ab_channel=Firebase</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Prof. Diego Antunes: Instalação do Firebase no Flutter em 2022 (FlutterFire e Realtime Database) (<a href="https://www.youtube.com/watch?v=OjdGSoDntZQ&ab_channel=Prof.DiegoAntunes">https://www.youtube.com/watch?v=OjdGSoDntZQ&amp;ab_channel=Prof.DiegoAntunes</a>)</li>
+<li><code data-kind="site">Site</code> Precificação do Firebase | Firebase (<a href="https://firebase.google.com/pricing?hl=pt-br">https://firebase.google.com/pricing?hl=pt-br</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Integrando App Android com o Firebase Cloud Messaging (<a href="https://www.alura.com.br/artigos/integrando-app-android-com-o-firebase-cloud-messaging">https://www.alura.com.br/artigos/integrando-app-android-com-o-firebase-cloud-messaging</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tratando notificações recebidas do Firebase no Android (<a href="https://www.alura.com.br/artigos/tratando-notificacoes-recebidas-do-firebase-no-android">https://www.alura.com.br/artigos/tratando-notificacoes-recebidas-do-firebase-no-android</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Autenticando com a conta Google no Android utilizando o Firebase Authentication (<a href="https://www.alura.com.br/artigos/autenticando-no-google-com-firebase-authentication">https://www.alura.com.br/artigos/autenticando-no-google-com-firebase-authentication</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Flutter: Tratamento de exceções com Firebase Crashlytics (<a href="https://www.alura.com.br/artigos/tratamento-de-execucoes-com-firebase-crashlytics">https://www.alura.com.br/artigos/tratamento-de-execucoes-com-firebase-crashlytics</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Primeiros passos em Cloud Firestore no Flutter (Parte 1) | #AluraMais (<a href="https://youtu.be/6jsR5CXhHOs">https://youtu.be/6jsR5CXhHOs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Primeiros passos em Cloud Firestore no Flutter (Parte 2) | #AluraMais (<a href="https://youtu.be/KWWTTY6gSw4">https://youtu.be/KWWTTY6gSw4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Registro de exceções no Firebase Crashlytics | #AluraMais (<a href="https://www.youtube.com/watch?v=L0LjsG_eNyY&ab_channel=AluraCursosOnline">https://www.youtube.com/watch?v=L0LjsG_eNyY&amp;ab_channel=AluraCursosOnline</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Flutter: Push Notifications com Firebase Cloud Messaging (<a href="https://www.alura.com.br/curso-online-flutter-push-notifications-firebase-cloud-messaging">https://www.alura.com.br/curso-online-flutter-push-notifications-firebase-cloud-messaging</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Firebase com Android (<a href="https://www.alura.com.br/formacao-firebase-android">https://www.alura.com.br/formacao-firebase-android</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: UX e Design</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design System</strong>:</li>
+<h3>Design System:</h3>
 <ul><li>Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.</li>
 <li>Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto</li>
 <li>Design tokens</li>
@@ -364,26 +882,122 @@
 <li>Construção de componentes</li>
 <li>Microinterações</li>
 <li>Documentação</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Figma - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design System: o que é e quais os benefícios? (<a href="https://medium.com/ipnet-growth-partner/design-system-o-que-e-438773dd811">https://medium.com/ipnet-growth-partner/design-system-o-que-e-438773dd811</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Afinal, o que é Design System? (<a href="https://brasil.uxdesign.cc/afinal-o-que-%C3%A9-design-system-448c257b0021">https://brasil.uxdesign.cc/afinal-o-que-%C3%A9-design-system-448c257b0021</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que são Design Tokens (<a href="https://medium.com/pretux/design-tokens-112b2ee11ddf">https://medium.com/pretux/design-tokens-112b2ee11ddf</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Caio Gonzalez: O que é Design System? / Guia para começar o seu próprio Design System (<a href="https://www.youtube.com/watch?v=ajqbXpFVaAw">https://www.youtube.com/watch?v=ajqbXpFVaAw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Design System? (<a href="https://www.alura.com.br/artigos/o-que-e-design-system">https://www.alura.com.br/artigos/o-que-e-design-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Systems: exemplos práticos (<a href="https://www.alura.com.br/artigos/design-systems-exemplos-praticos">https://www.alura.com.br/artigos/design-systems-exemplos-praticos</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design System &amp; Style Guide (<a href="https://www.youtube.com/watch?v=rSLvpOqC5wQ">https://www.youtube.com/watch?v=rSLvpOqC5wQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design Systems (com Charles Assunção) (<a href="https://www.youtube.com/watch?v=MLGFctEtmYQ">https://www.youtube.com/watch?v=MLGFctEtmYQ</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Design Systems - Hipsters 170 (<a href="https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399">https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: Design System – Layers ponto tech 36 (<a href="https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056">https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: definindo estilos e tokens (<a href="https://cursos.alura.com.br/course/design-system-definindo-estilos-tokens">https://cursos.alura.com.br/course/design-system-definindo-estilos-tokens</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: projetando e construindo componentes (<a href="https://cursos.alura.com.br/course/design-system-projetando-construindo-componentes">https://cursos.alura.com.br/course/design-system-projetando-construindo-componentes</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: documentando um design system (<a href="https://cursos.alura.com.br/course/design-system-documentando-design-system">https://cursos.alura.com.br/course/design-system-documentando-design-system</a>)</li>
+<li><code data-kind="desafio">Desafio</code> Experimente o que é ser um(a) profissional de Ux (<a href="https://www.alura.com.br/challenges/ux-4">https://www.alura.com.br/challenges/ux-4</a>)</li>
+</ul>
+<h3>Figma - Fundamentos:</h3>
 <ul><li>Figma é uma aplicação web colaborativa para design de interfaces. O conjunto de recursos do Figma se concentra na interface do usuário e no design da experiência do usuário, com ênfase na colaboração em tempo real, utilizando uma variedade de editores de gráficos vetoriais e ferramentas de prototipagem.</li>
 <li>Criar layouts de páginas e componentes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Componentes de design</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Figma Básico - Primeiros passos com Figma (<a href="https://www.figma.com/community/file/1190593276621265988">https://www.figma.com/community/file/1190593276621265988</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é o Figma e por que usar ele? (<a href="https://medium.com/nerdzao/o-que-%C3%A9-o-figma-e-por-que-usar-ele-a71fbf1dbdd8">https://medium.com/nerdzao/o-que-%C3%A9-o-figma-e-por-que-usar-ele-a71fbf1dbdd8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda o que é e como usar o Figma para criar designs (<a href="https://blog.b2bstack.com.br/figma/">https://blog.b2bstack.com.br/figma/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: Como usar o Figma! (<a href="https://www.youtube.com/watch?v=qoE-2YFeW-Q">https://www.youtube.com/watch?v=qoE-2YFeW-Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 4 Exemplos de Componentes interativos no Figma (<a href="https://www.youtube.com/watch?v=mGL3jrY-OBc">https://www.youtube.com/watch?v=mGL3jrY-OBc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Figma: o que é a ferramenta, Design e uso (<a href="https://www.alura.com.br/artigos/figma">https://www.alura.com.br/artigos/figma</a>)</li>
+<li><code data-kind="site">Site</code> Como Front-End utiliza o Figma - Alura+ (<a href="https://cursos.alura.com.br/extra/alura-mais/como-front-end-utiliza-o-figma-c858">https://cursos.alura.com.br/extra/alura-mais/como-front-end-utiliza-o-figma-c858</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Top 5 plugins no Figma para trabalhar com Design System (<a href="https://www.alura.com.br/artigos/top-5-plugins-figma-trabalhar-com-design-system">https://www.alura.com.br/artigos/top-5-plugins-figma-trabalhar-com-design-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 plugins essenciais que você precisa ter no seu Figma (<a href="https://www.alura.com.br/artigos/5-plugins-essenciais-do-figma">https://www.alura.com.br/artigos/5-plugins-essenciais-do-figma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 10 truques incríveis e pouco conhecidos no Figma (<a href="https://www.alura.com.br/artigos/10-truques-incriveis-pouco-conhecidos-figma">https://www.alura.com.br/artigos/10-truques-incriveis-pouco-conhecidos-figma</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: Figma do Design ao Código 03 (<a href="https://www.alura.com.br/podcast/layerstech-figma-do-design-ao-codigo-layers-ponto-tech-03-a726">https://www.alura.com.br/podcast/layerstech-figma-do-design-ao-codigo-layers-ponto-tech-03-a726</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como fazer estilos locais mais rapidamente no Figma? (<a href="https://www.youtube.com/watch?v=fCHd2_lAcQQ">https://www.youtube.com/watch?v=fCHd2_lAcQQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Figma (<a href="https://www.alura.com.br/formacao-figma">https://www.alura.com.br/formacao-figma</a>)</li>
+</ul>
+<h3>Componentes de design:</h3>
 <ul><li>Conhecer os componentes descrevem um layout ou interface</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Sistemas de cores</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Componentes Principais UI (<a href="https://medium.com/@prikuwer/componentes-principais-ui-8b538a3aaaa5">https://medium.com/@prikuwer/componentes-principais-ui-8b538a3aaaa5</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Compartilhando CSS em projetos do Nx (<a href="https://www.alura.com.br/artigos/compartilhando-css-projetos-nx">https://www.alura.com.br/artigos/compartilhando-css-projetos-nx</a>)</li>
+<li><code data-kind="youtube">YouTube</code> danielmacedoco: UI Design e Design System - Visão geral e prática sobre alguns componentes (<a href="https://www.youtube.com/watch?v=VpgQNeSItpA">https://www.youtube.com/watch?v=VpgQNeSItpA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 4 Exemplos de Componentes interativos no Figma (<a href="https://www.youtube.com/watch?v=mGL3jrY-OBc">https://www.youtube.com/watch?v=mGL3jrY-OBc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso Design System: criando componentes e documentando (<a href="https://www.alura.com.br/curso-online-design-system-componentes-documentando">https://www.alura.com.br/curso-online-design-system-componentes-documentando</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Figma: conhecendo componentes da interface (<a href="https://www.alura.com.br/curso-online-figma-conhecendo-componentes-interface">https://www.alura.com.br/curso-online-figma-conhecendo-componentes-interface</a>)</li>
+</ul>
+<h3>Sistemas de cores:</h3>
 <ul><li>Definir uma paleta de cores que faça sentido para determinada interface</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Como usar fontes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Cores em UI: Um Guia Rápido Para Usar em Seus Projetos (<a href="https://medium.com/aela/cores-em-ui-um-guia-r%C3%A1pido-para-usar-em-seus-projetos-31ccffe3e16b">https://medium.com/aela/cores-em-ui-um-guia-r%C3%A1pido-para-usar-em-seus-projetos-31ccffe3e16b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A Psicologia das cores e sua relação com o UX Design (<a href="https://brasil.uxdesign.cc/a-psicologia-das-cores-e-sua-rela%C3%A7%C3%A3o-com-o-ux-design-af02460639cd">https://brasil.uxdesign.cc/a-psicologia-das-cores-e-sua-rela%C3%A7%C3%A3o-com-o-ux-design-af02460639cd</a>)</li>
+<li><code data-kind="youtube">YouTube</code> kacio.design: Aplicação de Cores - Princípios do UI (<a href="https://www.youtube.com/watch?v=C_VhzEyqT6U">https://www.youtube.com/watch?v=C_VhzEyqT6U</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso Cores para Designers: escolhendo e trabalhando com cores em um projeto (<a href="https://www.alura.com.br/curso-online-cores-para-seu-projeto">https://www.alura.com.br/curso-online-cores-para-seu-projeto</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Cores: sistemas básicos e paletas (<a href="https://www.alura.com.br/conteudo/fundamentos-da-cor">https://www.alura.com.br/conteudo/fundamentos-da-cor</a>)</li>
+<li><code data-kind="curso">Curso</code> Cores: sistemas básicos e paletas (<a href="https://www.alura.com.br/curso-online-fundamentos-da-cor">https://www.alura.com.br/curso-online-fundamentos-da-cor</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design editorial: criação de materiais gráficos (<a href="https://www.alura.com.br/curso-online-design-editorial">https://www.alura.com.br/curso-online-design-editorial</a>)</li>
+</ul>
+<h3>Como usar fontes:</h3>
 <ul><li>Escolher a fonte mais adequada para determinado projeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Acessibilidade em Flutter</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Você sabe usar tipografia em UI Design? (<a href="https://medium.com/ui-lab-school/voc%C3%AA-sabe-usar-tipografia-em-ui-design-9ce4ccdbab43">https://medium.com/ui-lab-school/voc%C3%AA-sabe-usar-tipografia-em-ui-design-9ce4ccdbab43</a>)</li>
+<li><code data-kind="artigo">Artigo</code> As 20 fontes mais usadas pelos designers gráficos (<a href="https://apenasumchico.medium.com/as-20-fontes-mais-populares-de-todos-os-tempos-38a6c121dfb">https://apenasumchico.medium.com/as-20-fontes-mais-populares-de-todos-os-tempos-38a6c121dfb</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Usando ícones SVG como fontes com o IcoMoon (<a href="https://dev.to/sucodelarangela/usando-icones-svg-como-fontes-com-o-icomoon-563e">https://dev.to/sucodelarangela/usando-icones-svg-como-fontes-com-o-icomoon-563e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Nadine Fronza: Como escolher a melhor fonte para seu projeto (<a href="https://www.youtube.com/watch?v=MSKPUtIdadI">https://www.youtube.com/watch?v=MSKPUtIdadI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Thiago Abreu: Como Escolher Fontes para um Trabalho de Design (<a href="https://www.youtube.com/watch?v=l-TrNbZi-aU">https://www.youtube.com/watch?v=l-TrNbZi-aU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 10 tipografias gratuitas para um design incrível (<a href="https://www.alura.com.br/artigos/10-tipografias-gratuitas-design-incrivel">https://www.alura.com.br/artigos/10-tipografias-gratuitas-design-incrivel</a>)</li>
+<li><code data-kind="site">Site</code> Tipografia para Web (<a href="https://tipografiaparaweb.netlify.app/">https://tipografiaparaweb.netlify.app/</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Tipografia: conhecendo o que há por trás dos tipos (<a href="https://www.alura.com.br/conteudo/tipografia-conceito">https://www.alura.com.br/conteudo/tipografia-conceito</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Tipografia: conhecendo o que há por trás dos tipos (<a href="https://www.alura.com.br/curso-online-tipografia-conceito">https://www.alura.com.br/curso-online-tipografia-conceito</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design editorial: criação de materiais gráficos (<a href="https://www.alura.com.br/curso-online-design-editorial">https://www.alura.com.br/curso-online-design-editorial</a>)</li>
+</ul>
+<h3>Acessibilidade em Flutter:</h3>
 <ul><li>Acessibilidade Digital é a eliminação de barreiras na Web. O conceito pressupõe que os sites e aplicativos sejam projetados de modo que todas as pessoas possam perceber, entender, navegar e interagir de maneira efetiva com as páginas, incluindo pessoas com necessidades de acessibilidades, como pessoas com problemas de visão, daltonismo, dificuldades auditivas, comprometimento motor, deficiência cognitivas e muitos outros tipos de deficiência.</li>
 <li>Escrever código com acessibilidade em mente</li>
 <li>Aumentar a visibilidade do texto</li>
 <li>Usar controles grandes e simples</li>
 <li>Descrever cada elemento de IU</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Responsivo</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Flutter - Documentação - Acessibilidade (em inglês) (<a href="https://docs.flutter.dev/development/accessibility-and-localization/accessibility">https://docs.flutter.dev/development/accessibility-and-localization/accessibility</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Flutter: dicas para acessibilidade no seu aplicativo (<a href="https://medium.com/tableless/flutter-dicas-para-acessibilidade-no-seu-aplicati-16c8fee46342">https://medium.com/tableless/flutter-dicas-para-acessibilidade-no-seu-aplicati-16c8fee46342</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Melhorando acessibilidade de linhas e colunas em Flutter (<a href="https://blog.cisne.dev/melhorando-acessibilidade-de-linhas-e-colunas-em-flutter/">https://blog.cisne.dev/melhorando-acessibilidade-de-linhas-e-colunas-em-flutter/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flutter: Construindo acessibilidade com Flutter (em inglês) (<a href="https://www.youtube.com/watch?v=bWbBgbmAdQs">https://www.youtube.com/watch?v=bWbBgbmAdQs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> monterail: Funcionalidades de acessibilidade e como implementá-las em Flutter (em inglês) (<a href="https://www.youtube.com/watch?v=sO97YsPxwsw">https://www.youtube.com/watch?v=sO97YsPxwsw</a>)</li>
+</ul>
+<h3>Design Responsivo:</h3>
 <ul><li>Ajustar suas páginas para o tamanho da tela do usuário</li>
 <li>Media queries</li>
 <li>Conhecer o conceito de Mobile first</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design responsivo para leigos (<a href="https://medium.com/neworder/design-responsivo-para-leigos-888c9d0dfdaf">https://medium.com/neworder/design-responsivo-para-leigos-888c9d0dfdaf</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo as diferenças entre design responsivo, adaptativo e mobile-first (<a href="https://medium.com/@fnandaleite/entendendo-as-diferen%C3%A7as-entre-design-responsivo-adaptativo-e-mobile-first-ea3c61fc9181">https://medium.com/@fnandaleite/entendendo-as-diferen%C3%A7as-entre-design-responsivo-adaptativo-e-mobile-first-ea3c61fc9181</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Web Design Responsivo — O Que É e Como Usá-lo (<a href="https://medium.com/@carlosverza/web-design-responsivo-o-que-%C3%A9-e-como-us%C3%A1-lo-12477b168fc7">https://medium.com/@carlosverza/web-design-responsivo-o-que-%C3%A9-e-como-us%C3%A1-lo-12477b168fc7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> MobGeek: O que é Design Responsivo? (<a href="https://www.youtube.com/watch?v=WXfYtneJZzI">https://www.youtube.com/watch?v=WXfYtneJZzI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ralf Lima: Mobile First e Desktop First (<a href="https://www.youtube.com/watch?v=oqggJTC3_vA">https://www.youtube.com/watch?v=oqggJTC3_vA</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como fazer Grids e a Responsividade na Web (<a href="https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web">https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Layouts Responsivos: trabalhando com layouts mobile (<a href="https://www.alura.com.br/curso-online-mobile-first-layouts-responsivos">https://www.alura.com.br/curso-online-mobile-first-layouts-responsivos</a>)</li>
+<li><code data-kind="curso">Curso</code> HTML e CSS: responsividade com mobile-first (<a href="https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first">https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Responsividade (<a href="https://7daysofcode.io/matricula/responsividade">https://7daysofcode.io/matricula/responsividade</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

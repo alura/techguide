@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,97 +249,241 @@
   </div>
 
   <div class="content">
-    <h1>Design Gráfico</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>O que é design</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>O que é design:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Elementos essenciais</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Designer gráfico: tudo o que precisa saber sobre a profissão! (<a href="https://www.serasaexperian.com.br/carreiras/blog-carreiras/designer-grafico-tudo-o-que-precisa-saber-sobre-a-profissao/">https://www.serasaexperian.com.br/carreiras/blog-carreiras/designer-grafico-tudo-o-que-precisa-saber-sobre-a-profissao/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design digital: o que é e o que faz um profissional da área? (<a href="https://www.cursospm3.com.br/blog/design-digital/?gad_source=1&gclid=CjwKCAjwjsi4BhB5EiwAFAL0YLH94vHR1oJCsTQVtObG_P5OZosCJTFNUxUG0LyxwOn_C2SD_hNOIxoCYeMQAvD_BwE">https://www.cursospm3.com.br/blog/design-digital/?gad_source=1&amp;gclid=CjwKCAjwjsi4BhB5EiwAFAL0YLH94vHR1oJCsTQVtObG_P5OZosCJTFNUxUG0LyxwOn_C2SD_hNOIxoCYeMQAvD_BwE</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Design? (<a href="https://brasil.uxdesign.cc/o-que-e-design-85af0d27a6c3">https://brasil.uxdesign.cc/o-que-e-design-85af0d27a6c3</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia do Design: Definição, Funções, Exemplos e Tutorial (<a href="https://www.canva.com/pt_br/aprenda/o-que-e-design/">https://www.canva.com/pt_br/aprenda/o-que-e-design/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Imersão em Design - Dia #1 (<a href="https://www.youtube.com/watch?v=AYTd-dvMgjY">https://www.youtube.com/watch?v=AYTd-dvMgjY</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Design: entenda e conheça a área (<a href="https://cursos.alura.com.br/course/design-entenda-conheca-area">https://cursos.alura.com.br/course/design-entenda-conheca-area</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Profissão Designer – Layers ponto tech #88 (<a href="https://www.layerspontotech.com.br/2022/07/11/profissao-designer-layers-ponto-tech-88/">https://www.layerspontotech.com.br/2022/07/11/profissao-designer-layers-ponto-tech-88/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Ferramentas de pesquisa e inspiração essenciais para todo designer (<a href="https://www.alura.com.br/artigos/ferramentas-de-pesquisa-e-inspiracao-essenciais-para-todo-design">https://www.alura.com.br/artigos/ferramentas-de-pesquisa-e-inspiracao-essenciais-para-todo-design</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Gráfico: desenvolvendo identidade visual (<a href="https://cursos.alura.com.br/course/design-grafico-identidade-visual">https://cursos.alura.com.br/course/design-grafico-identidade-visual</a>)</li>
+</ul>
+<h3>Elementos essenciais:</h3>
 <ul><li>null</li>
 <li>null</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Criação e composição</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Escolhendo as fontes e as cores certas (<a href="https://support.squarespace.com/hc/pt/articles/212277957-Escolhendo-as-fontes-e-as-cores-certas">https://support.squarespace.com/hc/pt/articles/212277957-Escolhendo-as-fontes-e-as-cores-certas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tipografia: o que é, benefícios, componentes e como aplicar (<a href="https://www.cursospm3.com.br/blog/tipografia/">https://www.cursospm3.com.br/blog/tipografia/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Descubra qual a importância da tipografia para o design! (<a href="https://www.alura.com.br/artigos/descubra-qual-a-importancia-da-tipografia-para-o-design?srsltid=AfmBOortu4jVGJ3aKD5abRYqyPfkQrQF1o5cAsgEZ5Jo6ml4TSYXTXLw">https://www.alura.com.br/artigos/descubra-qual-a-importancia-da-tipografia-para-o-design?srsltid=AfmBOortu4jVGJ3aKD5abRYqyPfkQrQF1o5cAsgEZ5Jo6ml4TSYXTXLw</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 10 tipografias gratuitas para um design incrível (<a href="https://www.alura.com.br/artigos/10-tipografias-gratuitas-design-incrivel">https://www.alura.com.br/artigos/10-tipografias-gratuitas-design-incrivel</a>)</li>
+<li><code data-kind="curso">Curso</code> Cores no design: teoria e prática (<a href="https://cursos.alura.com.br/course/cores-design-teoria-pratica">https://cursos.alura.com.br/course/cores-design-teoria-pratica</a>)</li>
+<li><code data-kind="curso">Curso</code> Tipografia: conceitos e prática (<a href="https://cursos.alura.com.br/course/tipografia-conceitos-pratica">https://cursos.alura.com.br/course/tipografia-conceitos-pratica</a>)</li>
+</ul>
+<h3>Criação e composição:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Gestalt? (<a href="https://medium.com/chocoladesign/o-que-%C3%A9-gestalt-f3beb4a6af4a">https://medium.com/chocoladesign/o-que-%C3%A9-gestalt-f3beb4a6af4a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> As Leis da Gestalt Aplicadas ao Design de Interfaces (<a href="https://brasil.uxdesign.cc/as-leis-da-gestalt-aplicadas-ao-design-de-interfaces-efc480dc06ec">https://brasil.uxdesign.cc/as-leis-da-gestalt-aplicadas-ao-design-de-interfaces-efc480dc06ec</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Você conhece o princípio de Gestalt? (<a href="https://www.alura.com.br/artigos/voce-conhece-o-principio-de-gestalt?srsltid=AfmBOorliKu4rBm7cQfKD3UCXtN_yAZZp-wXDRa9jyiq2ucHSHoDBdkn">https://www.alura.com.br/artigos/voce-conhece-o-principio-de-gestalt?srsltid=AfmBOorliKu4rBm7cQfKD3UCXtN_yAZZp-wXDRa9jyiq2ucHSHoDBdkn</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como justificar um bom design ou identificar erros em uma composição visual (<a href="https://www.alura.com.br/artigos/como-justificar-um-bom-design-ou-identificar-erros-em-uma-composicao-visual">https://www.alura.com.br/artigos/como-justificar-um-bom-design-ou-identificar-erros-em-uma-composicao-visual</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Gráfico com Gestalt: desenvolva um projeto gráfico (<a href="https://cursos.alura.com.br/course/design-grafico-gestalt">https://cursos.alura.com.br/course/design-grafico-gestalt</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Gestalt e Semiótica – Layers ponto tech #97 (<a href="https://www.layerspontotech.com.br/2022/09/12/gestalt-e-semiotica-layers-ponto-tech-97/">https://www.layerspontotech.com.br/2022/09/12/gestalt-e-semiotica-layers-ponto-tech-97/</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Identidade visual</strong>:</li>
+<h3>Identidade visual:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ferramentas gratuitas em design gráfico</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Identidade visual: o que é, qual a importância e como criar uma (<a href="https://www.cursospm3.com.br/blog/identidade-visual/">https://www.cursospm3.com.br/blog/identidade-visual/</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Gráfico (<a href="https://www.eucapacito.com.br/cursos/design-grafico/">https://www.eucapacito.com.br/cursos/design-grafico/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Design Gráfico: desenvolvendo identidade visual (<a href="https://cursos.alura.com.br/course/design-grafico-identidade-visual">https://cursos.alura.com.br/course/design-grafico-identidade-visual</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Gráfico: construindo os elementos de uma identidade visual (<a href="https://cursos.alura.com.br/course/design-grafico-elementos-identidade-visual">https://cursos.alura.com.br/course/design-grafico-elementos-identidade-visual</a>)</li>
+<li><code data-kind="curso">Curso</code> Adobe Illustrator: compondo peças gráficas (<a href="https://cursos.alura.com.br/course/adobe-illustrator-compondo-pecas-graficas">https://cursos.alura.com.br/course/adobe-illustrator-compondo-pecas-graficas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Keyvisual: o que é e como ele pode te ajudar a criar um identidade única (<a href="https://www.alura.com.br/artigos/keyvisual-o-que-e-como-pode-te-ajudar">https://www.alura.com.br/artigos/keyvisual-o-que-e-como-pode-te-ajudar</a>)</li>
+</ul>
+<h3>Ferramentas gratuitas em design gráfico:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Impressão no Design Gráfico</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 10 Ferramentas de Design Grátis Para Aproveitar pela Web (<a href="https://pt.wix.com/blog/2016/06/10-ferramentas-de-design-gratis-para-aproveitar-pela-web/">https://pt.wix.com/blog/2016/06/10-ferramentas-de-design-gratis-para-aproveitar-pela-web/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Quais os melhores softwares gratuitos para design gráfico? (<a href="https://pixelshow.co/blog/melhores-softwares-gratuitos-para-design-grafico">https://pixelshow.co/blog/melhores-softwares-gratuitos-para-design-grafico</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 ferramentas de IA que todo designer precisa conhecer (<a href="https://brasil.uxdesign.cc/5-ferramentas-de-ia-que-todo-designer-precisa-conhecer-dca695221214">https://brasil.uxdesign.cc/5-ferramentas-de-ia-que-todo-designer-precisa-conhecer-dca695221214</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liberte sua criatividade mergulhando no mundo do IA design gráfico grátis (<a href="https://www.capcut.com/pt-br/resource/ai-graphic-design-free">https://www.capcut.com/pt-br/resource/ai-graphic-design-free</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Inkscape: desenvolvendo uma identidade visual (<a href="https://cursos.alura.com.br/course/inkscape-identidade-visual">https://cursos.alura.com.br/course/inkscape-identidade-visual</a>)</li>
+<li><code data-kind="curso">Curso</code> GIMP: edição e tratamento de imagens para identidade visual (<a href="https://cursos.alura.com.br/course/gimp-edicao-tratamento-imagem">https://cursos.alura.com.br/course/gimp-edicao-tratamento-imagem</a>)</li>
+<li><code data-kind="curso">Curso</code> GIMP e Inkscape: criando peças para uma identidade visual (<a href="https://cursos.alura.com.br/course/gimp-inkscape-identidade-visual">https://cursos.alura.com.br/course/gimp-inkscape-identidade-visual</a>)</li>
+<li><code data-kind="artigo">Artigo</code> As 8 melhores ferramentas gratuitas de design (<a href="https://www.alura.com.br/artigos/as-8-melhores-ferramentas-gratuitas-de-design">https://www.alura.com.br/artigos/as-8-melhores-ferramentas-gratuitas-de-design</a>)</li>
+<li><code data-kind="curso">Curso</code> Scribus: criando um manual de identidade visual (<a href="https://cursos.alura.com.br/course/scribus-manual-identidade-visual">https://cursos.alura.com.br/course/scribus-manual-identidade-visual</a>)</li>
+</ul>
+<h3>Impressão no Design Gráfico:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como escolher o papel ideal para o meu projeto impresso? (<a href="https://quatrocor.com.br/blog/como-escolher-tipo-de-papel-ideal-projeto/">https://quatrocor.com.br/blog/como-escolher-tipo-de-papel-ideal-projeto/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gráfica Online: Quais são os 8 tipos de impressão do mercado? (<a href="https://blog.zapgrafica.com.br/grafica-online-quais-sao-os-8-tipos-de-impressao-do-mercado/">https://blog.zapgrafica.com.br/grafica-online-quais-sao-os-8-tipos-de-impressao-do-mercado/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> História, conceitos e aplicações da Escala Pantone (<a href="https://www.printi.com.br/blog/historia-conceitos-e-aplicacoes-da-escala-pantone">https://www.printi.com.br/blog/historia-conceitos-e-aplicacoes-da-escala-pantone</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como utilizar corretamente a escala Pantone (<a href="https://www.youtube.com/watch?v=VvdIrtEqDNY">https://www.youtube.com/watch?v=VvdIrtEqDNY</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é PDF/X-1A? (<a href="https://instrucoes.graficadasgraficas.com.br/o-que-e-pdfx-1a-x/">https://instrucoes.graficadasgraficas.com.br/o-que-e-pdfx-1a-x/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Saiba como escolher a gramatura de papel para seu projeto gráfico (<a href="https://www.offpaper.com.br/gramatura-de-papel-para-seu-projeto-grafico/#:~:text=Quanto%20mais%20alta%20for%20a,como%20desenhos%20profissionais%20e%20aquarela">https://www.offpaper.com.br/gramatura-de-papel-para-seu-projeto-grafico/#:~:text=Quanto%20mais%20alta%20for%20a,como%20desenhos%20profissionais%20e%20aquarela</a>.)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Design Gráfico: conhecimentos de impressão (<a href="https://cursos.alura.com.br/course/design-grafico-conhecimento-de-impressao">https://cursos.alura.com.br/course/design-grafico-conhecimento-de-impressao</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Gráfico: conhecimentos de impressão (<a href="https://www.alura.com.br/conteudo/design-grafico-conhecimento-de-impressao?srsltid=AfmBOopPzqLgOPBuoe8TSYyAsUs0viOpONi1vIAIPFjw9WJsFrSjAOqN">https://www.alura.com.br/conteudo/design-grafico-conhecimento-de-impressao?srsltid=AfmBOopPzqLgOPBuoe8TSYyAsUs0viOpONi1vIAIPFjw9WJsFrSjAOqN</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design de embalagens</strong>:</li>
+<h3>Design de embalagens:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Diagramação e layout avançado</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Entenda a diferença entre as cores RGB e CMYK (<a href="https://www.saturno.com.br/modelo/blog/diferencas-entre-rgb-e-cmyk">https://www.saturno.com.br/modelo/blog/diferencas-entre-rgb-e-cmyk</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O papel do design de embalagens no branding de produtos (<a href="https://midpropaganda.com.br/o-papel-do-design-de-embalagens-no-branding-de-produtos/">https://midpropaganda.com.br/o-papel-do-design-de-embalagens-no-branding-de-produtos/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Papel do Design na Criação de Embalagens com Fabio Mestriner (<a href="https://www.youtube.com/watch?v=_3Iv9hAMxi4">https://www.youtube.com/watch?v=_3Iv9hAMxi4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Design Gráfico: design de embalagens (<a href="https://cursos.alura.com.br/course/design-grafico-embalagens">https://cursos.alura.com.br/course/design-grafico-embalagens</a>)</li>
+</ul>
+<h3>Diagramação e layout avançado:</h3>
 <ul><li>null</li>
 <li>null</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design para produtos digitais</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como criar máscaras de recorte em arquivos do InDesign (<a href="https://pdf.wondershare.com.br/indesign/clipping-mask-indesign.html">https://pdf.wondershare.com.br/indesign/clipping-mask-indesign.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Modificar, mascarar e exportar objetos e quadros (<a href="https://helpx.adobe.com/br/indesign/using/frames-objects.html">https://helpx.adobe.com/br/indesign/using/frames-objects.html</a>)</li>
+<li><code data-kind="site">Site</code> InDesign (<a href="https://www.adobe.com/br/products/indesign.html">https://www.adobe.com/br/products/indesign.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Adobe InDesign: trabalhando com diagramação (<a href="https://cursos.alura.com.br/course/indesign-introducao">https://cursos.alura.com.br/course/indesign-introducao</a>)</li>
+<li><code data-kind="curso">Curso</code> InDesign: diagramação em grande escala (<a href="https://cursos.alura.com.br/course/indesign-escala-grande">https://cursos.alura.com.br/course/indesign-escala-grande</a>)</li>
+<li><code data-kind="curso">Curso</code> Adobe InDesign: trabalhando na diagramação de um eBook (<a href="https://cursos.alura.com.br/course/indesign-ebook">https://cursos.alura.com.br/course/indesign-ebook</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 novidades do InDesign 2023 (<a href="https://www.alura.com.br/artigos/5-novidades-indesign-2023">https://www.alura.com.br/artigos/5-novidades-indesign-2023</a>)</li>
+</ul>
+<h3>Design para produtos digitais:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design de produto: o que é, importância, métodos e etapas (<a href="https://www.cursospm3.com.br/blog/design-de-produto/">https://www.cursospm3.com.br/blog/design-de-produto/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como criar um produto digital do zero? (<a href="https://www.cursospm3.com.br/blog/como-criar-um-produto-digital/">https://www.cursospm3.com.br/blog/como-criar-um-produto-digital/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Design Visual: estratégias para planejar e construir seu portfólio (<a href="https://cursos.alura.com.br/course/design-visual-estrategias-planejar-construir-portfolio">https://cursos.alura.com.br/course/design-visual-estrategias-planejar-construir-portfolio</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como montar um portfólio de Design (<a href="https://www.alura.com.br/artigos/como-montar-um-portfolio-de-design">https://www.alura.com.br/artigos/como-montar-um-portfolio-de-design</a>)</li>
+<li><code data-kind="curso">Curso</code> Adobe Illustrator: criação de ícones e fundos para interfaces digitais (<a href="https://cursos.alura.com.br/course/illustrator-criacao-icones-fundos-interfaces-digitais">https://cursos.alura.com.br/course/illustrator-criacao-icones-fundos-interfaces-digitais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que são imagens vetoriais e por que utiliza-lás? (<a href="https://www.alura.com.br/artigos/o-que-sao-imagens-vetoriais-e-por-que-utiliza-las">https://www.alura.com.br/artigos/o-que-sao-imagens-vetoriais-e-por-que-utiliza-las</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Digital Marketing</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Explorando conceitos de Marketing Digital</strong>:</li>
+<h3>Explorando conceitos de Marketing Digital:</h3>
 <ul><li>Compreender os princípios fundamentais do marketing digital, incluindo as diferentes áreas de atuação, como tráfego orgânico e pago, e as principais estratégias para aumentar a visibilidade online de uma marca.</li>
 <li>Explorar as principais plataformas digitais e ferramentas utilizadas para divulgar negócios na internet, garantindo que os perfis comerciais sejam otimizados e mantenham uma presença profissional.</li>
 <li>Aprender a diferenciar e aplicar as técnicas de tráfego orgânico e pago, desenvolvendo habilidades para planejar e executar campanhas de marketing digital que alcancem e envolvam o público-alvo de maneira eficaz..</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Branding</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é PLR no Marketing Digital? Entenda a estratégia (<a href="https://www.cursospm3.com.br/blog/o-que-e-plr-no-marketing-digital/">https://www.cursospm3.com.br/blog/o-que-e-plr-no-marketing-digital/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Marketing Digital: o que é, como fazer e tudo o que você precisa saber sobre o tema (<a href="https://www.rdstation.com/blog/marketing/marketing-digital/">https://www.rdstation.com/blog/marketing/marketing-digital/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Marketing Digital: explorando os conceitos (<a href="https://cursos.alura.com.br/course/marketing-digital-explorando-conceitos">https://cursos.alura.com.br/course/marketing-digital-explorando-conceitos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é marketing digital? (<a href="https://www.alura.com.br/artigos/o-que-e-marketing-digital">https://www.alura.com.br/artigos/o-que-e-marketing-digital</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Marketing Digital? #HipstersPontoTube (<a href="https://www.youtube.com/watch?v=auScm23M9AQ">https://www.youtube.com/watch?v=auScm23M9AQ</a>)</li>
+</ul>
+<h3>Branding:</h3>
 <ul><li>Entender os componentes fundamentais do branding e como eles contribuem para a criação de uma marca memorável e diferenciada no mercado.</li>
 <li>Desenvolver uma identidade de marca consolidada, que comunique de forma clara e eficaz os valores e a missão da empresa, ajudando a criar marcas de sucesso que se destacam entre os concorrentes.</li>
 <li>Aplicar estratégias poderosas para construir e gerir a marca, criando experiências marcantes que ressoam com o público-alvo e fomentam a lealdade dos clientes.</li>
 <li>Inspirar-se em cases de sucesso para construir uma marca forte que estabeleça uma conexão emocional com os clientes, promovendo um relacionamento duradouro e um forte posicionamento no mercado..</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SEO</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é branding? (<a href="https://mailchimp.com/pt-br/resources/what-is-branding/">https://mailchimp.com/pt-br/resources/what-is-branding/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é branding e como ele pode ajudar sua marca (<a href="https://www.youtube.com/watch?v=MG2vjwhSm50">https://www.youtube.com/watch?v=MG2vjwhSm50</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Branding: criando uma marca forte (<a href="https://cursos.alura.com.br/course/branding-criando-marca-forte">https://cursos.alura.com.br/course/branding-criando-marca-forte</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como o Tom de Voz contribui para o Branding de uma marca? (<a href="https://www.alura.com.br/artigos/como-tom-de-voz-contribui-branding-de-uma-marca">https://www.alura.com.br/artigos/como-tom-de-voz-contribui-branding-de-uma-marca</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como criar uma marca forte e fazer os clientes se apaixonarem por ela (<a href="https://www.alura.com.br/artigos/como-criar-uma-marca-forte-e-fazer-os-clientes-se-apaixonarem-por-ela">https://www.alura.com.br/artigos/como-criar-uma-marca-forte-e-fazer-os-clientes-se-apaixonarem-por-ela</a>)</li>
+</ul>
+<h3>SEO:</h3>
 <ul><li>Compreender os fundamentos do SEO, incluindo como ele funciona e por que é essencial para aumentar a visibilidade e o alcance de um site nos motores de busca.</li>
 <li>Aprender a aplicar as principais técnicas e estratégias de SEO, otimizando o conteúdo e a estrutura do site para melhorar o posicionamento nas páginas de resultados dos motores de busca (SERPs).</li>
 <li>Entender como funcionam os algoritmos dos principais motores de busca, como o Google, e como as atualizações nesses algoritmos podem impactar o desempenho de SEO de um site.</li>
 <li>Mensurar e analisar os resultados das estratégias de SEO utilizando as ferramentas certas, permitindo ajustes contínuos e garantindo que o site permaneça competitivo no ranking dos motores de busca..</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 14 principais atualizações do algoritmo do Google que causaram impacto nas buscas ???? (<a href="https://www.rdstation.com/blog/marketing/algoritmo-google/">https://www.rdstation.com/blog/marketing/algoritmo-google/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia de otimização de mecanismos de pesquisa (SEO) para iniciantes (<a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=pt-br">https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=pt-br</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> SEO: otimização de sites (<a href="https://cursos.alura.com.br/course/seo-otimizacao-de-sites">https://cursos.alura.com.br/course/seo-otimizacao-de-sites</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como rankear bem no Google? #HipstersPontoTube (<a href="https://www.youtube.com/watch?v=PfGyzrLGqZ8">https://www.youtube.com/watch?v=PfGyzrLGqZ8</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: UI Design</h2>
-<ul><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
-<strong>Fundamentos de UI</strong>:</p>
-</li>
-<ul><li><p>O ponto de partida ideal para começarmos a desbravar a área de User Interface Design é entendendo perfeitamente o que ela é, como é representada, como outros profissionais a enxergam, e claro, sua relevância para a construção de um produto.</p>
-</li>
-</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
-<strong>Avançando na UI</strong>:</p>
-</li>
-<ul><li><p>Dê início em processos de UI, idealizando a construção de um produto, entendendo os fundamentos e estruturas.</p>
-</li>
-</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
-<strong>Roadmap</strong>:</p>
-</li>
-<ul><li><p>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</p>
-</li>
-<li><p>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</p>
-</li>
-<li><p>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</p>
-</li>
-<li><p>Defina marcos e prazos realistas para o desenvolvimento e entrega.</p>
-</li>
-<li><p>Comunique o roadmap de forma clara e transparente com todas as partes interessadas.</p>
-</li>
-<li><p>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</p>
-</li>
-<li><p>Colete feedback regularmente para ajustar o roadmap conforme necessário.</p>
-</li>
-<li><p>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</p>
-</li>
-</ul></li></ul>
+<h3>Fundamentos de UI:</h3>
+<ul><li>O ponto de partida ideal para começarmos a desbravar a área de User Interface Design é entendendo perfeitamente o que ela é, como é representada, como outros profissionais a enxergam, e claro, sua relevância para a construção de um produto.</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Desenhando Experiências Inesquecíveis: 10 Princípios de UI Design (<a href="https://medium.com/@rafavulcano/desenhando-experi%C3%AAncias-inesquec%C3%ADveis-10-princ%C3%ADpios-de-ui-design-de9dc1f1cc18">https://medium.com/@rafavulcano/desenhando-experi%C3%AAncias-inesquec%C3%ADveis-10-princ%C3%ADpios-de-ui-design-de9dc1f1cc18</a>)</li>
+<li><code data-kind="site">Site</code> Colour Contrast Checker (<a href="https://colourcontrast.cc/">https://colourcontrast.cc/</a>)</li>
+<li><code data-kind="site">Site</code> Modular Scale (<a href="https://www.modularscale.com/">https://www.modularscale.com/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> UI Design: o que é, UX vs UI e um Guia da profissão de UI Designer (<a href="https://www.alura.com.br/artigos/ui-design">https://www.alura.com.br/artigos/ui-design</a>)</li>
+<li><code data-kind="curso">Curso</code> UI Design: mergulhando nas interfaces digitais (<a href="https://www.alura.com.br/curso-online-ui-design-mergulhando-interfaces-digitais">https://www.alura.com.br/curso-online-ui-design-mergulhando-interfaces-digitais</a>)</li>
+</ul>
+<h3>Avançando na UI:</h3>
+<ul><li>Dê início em processos de UI, idealizando a construção de um produto, entendendo os fundamentos e estruturas.</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Material Design (<a href="https://m2.material.io/">https://m2.material.io/</a>)</li>
+<li><code data-kind="site">Site</code> Dribbble (<a href="https://dribbble.com/">https://dribbble.com/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Os diferentes tipos e funções dos Protótipos (<a href="https://brasil.uxdesign.cc/os-diferentes-tipos-e-fun%C3%A7%C3%B5es-dos-prot%C3%B3tipos-54981e35b5a4">https://brasil.uxdesign.cc/os-diferentes-tipos-e-fun%C3%A7%C3%B5es-dos-prot%C3%B3tipos-54981e35b5a4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Regra 60-30-10 em UI Design (<a href="https://www.alura.com.br/artigos/regra-60-30-10-ui-design">https://www.alura.com.br/artigos/regra-60-30-10-ui-design</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Prototipação (<a href="https://www.layerspontotech.com.br/2022/05/23/prototipacao-layers-ponto-tech-81/">https://www.layerspontotech.com.br/2022/05/23/prototipacao-layers-ponto-tech-81/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> UI Design: criando o design de um protótipo (<a href="https://cursos.alura.com.br/course/ui-design-criando-design-prototipo">https://cursos.alura.com.br/course/ui-design-criando-design-prototipo</a>)</li>
+</ul>
+<h3>Roadmap:</h3>
+<ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
+<li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
+<li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
+<li>Defina marcos e prazos realistas para o desenvolvimento e entrega.</li>
+<li>Comunique o roadmap de forma clara e transparente com todas as partes interessadas.</li>
+<li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
+<li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
+<li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Glossário - Roadmap (<a href="https://www.cursospm3.com.br/glossario/roadmap/">https://www.cursospm3.com.br/glossario/roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conheça o roadmap: a ferramenta que guia a estratégia da sua empresa (<a href="https://blog.runrun.it/o-que-e-roadmap/">https://blog.runrun.it/o-que-e-roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Roadmap (<a href="https://miro.com/pt/agile/o-que-e-roadmap/">https://miro.com/pt/agile/o-que-e-roadmap/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Roadmap de Produtos: O que é e como criar um? (<a href="https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos">https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Roadmap: como criar e manter o mapa de produto (<a href="https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto">https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

@@ -200,5 +200,12 @@ export default {
   "TSHAPE.GUIDE.VIDEO.DESCRIPTION": "Para complementar esse Guia e te ajudar no seu caminho, nós conversamos sobre os detalhes e desafios dessa jornada e o resultado você pode acompanhar em vídeo.",
   "TSHAPE.GUIDE.VIDEO.CTA": "Legal né? Dá o play pra conferir!",
   "TSHAPE.OPTIONAL.DESCRIPTION": "= Conteúdo opcional",
+  "SHAREABLE_GUIDE.LEVEL_1": "Nivel 1",
+  "SHAREABLE_GUIDE.LEVEL_2": "Nivel 2",
+  "SHAREABLE_GUIDE.LEVEL_3": "Nivel 3",
+  "SHAREABLE_GUIDE.COLLABORATION_1": "Habilidade Auxiliar",
+  "SHAREABLE_GUIDE.COLLABORATION_2": "Habilidade Auxiliar",
+  "SHAREABLE_GUIDE.CONTENTS": "Conteúdos",
+  "SHAREABLE_GUIDE.ALURA_CONTENTS": "Conteúdos Alura",
   "DEMO": "DEMO"
 }

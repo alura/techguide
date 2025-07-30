@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,9 +249,8 @@
   </div>
 
   <div class="content">
-    <h1>DevOps</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linux - Fundamentos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Linux - Fundamentos:</h3>
 <ul><li>Linux é um termo popularmente empregado para se referir a sistemas operacionais que utilizam o Kernel Linux. As distribuições incluem o Kernel Linux, além de softwares de sistema e bibliotecas.</li>
 <li>Conhecer o sistema de diretórios do Linux</li>
 <li>Compactar e descompactar arquivos</li>
@@ -220,7 +259,28 @@
 <li>Conhecer as variáveis de ambiente e o PATH</li>
 <li>Gerenciar pacotes</li>
 <li>Realizar comunicação remota com o SSH e SCP</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Comandos linux (<a href="https://pllara.medium.com/comandos-linux-4db7307c17b7">https://pllara.medium.com/comandos-linux-4db7307c17b7</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Comandos básicos no Linux (<a href="https://medium.com/linkapi-solutions/comandos-b%C3%A1sicos-no-linux-95079363ab0e">https://medium.com/linkapi-solutions/comandos-b%C3%A1sicos-no-linux-95079363ab0e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ninja do Linux: Comandos básicos da linha de comando do Linux (<a href="https://www.youtube.com/watch?v=rs_yshFGu8E">https://www.youtube.com/watch?v=rs_yshFGu8E</a>)</li>
+<li><code data-kind="curso">Curso</code> MIT - The Missing Semester of Your CS Education (inglês) (<a href="https://missing.csail.mit.edu/">https://missing.csail.mit.edu/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Linux: download, instalação, distribuições e principais comandos (<a href="https://www.alura.com.br/artigos/linux-download-instalacao-distribuicoes-e-principais-comandos">https://www.alura.com.br/artigos/linux-download-instalacao-distribuicoes-e-principais-comandos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Procurando arquivos no Linux (<a href="https://www.alura.com.br/artigos/procurando-arquivos-no-linux">https://www.alura.com.br/artigos/procurando-arquivos-no-linux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando comandos no Linux com Bash (<a href="https://www.alura.com.br/artigos/criando-comandos-no-linux-com-bash">https://www.alura.com.br/artigos/criando-comandos-no-linux-com-bash</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Linux - Visualizando tamanhos de Diretórios (<a href="https://www.alura.com.br/artigos/como-visualizar-o-tamanho-de-diretorios-no-linux">https://www.alura.com.br/artigos/como-visualizar-o-tamanho-de-diretorios-no-linux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo as permissões no Linux (<a href="https://www.alura.com.br/artigos/entendendo-as-permissoes-no-linux">https://www.alura.com.br/artigos/entendendo-as-permissoes-no-linux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Linux: compactando e descompactando arquivos com o tar (<a href="https://www.alura.com.br/artigos/linux-compactando-e-descompactando-arquivos-com-o-tar">https://www.alura.com.br/artigos/linux-compactando-e-descompactando-arquivos-com-o-tar</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SSH: o acesso remoto aos servidores (<a href="https://www.alura.com.br/artigos/como-acessar-servidores-remotamente-com-ssh">https://www.alura.com.br/artigos/como-acessar-servidores-remotamente-com-ssh</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Onboarding: usando a CLI de uma forma rápida e prática (<a href="https://cursos.alura.com.br/course/linux-onboarding-utilizar-cli-forma-rapida-pratica">https://cursos.alura.com.br/course/linux-onboarding-utilizar-cli-forma-rapida-pratica</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Onboarding: localizando arquivos e conteúdos (<a href="https://cursos.alura.com.br/course/linux-onboarding-arquivos-conteudos">https://cursos.alura.com.br/course/linux-onboarding-arquivos-conteudos</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Onboarding: obtendo e tratando informações do sistema (<a href="https://cursos.alura.com.br/course/linux-onboarding-informacoes-sistema">https://cursos.alura.com.br/course/linux-onboarding-informacoes-sistema</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Onboarding: trabalhe com usuários, permissões e dispositivos (<a href="https://cursos.alura.com.br/course/linux-onboarding-usuarios-permissoes-dispositivos">https://cursos.alura.com.br/course/linux-onboarding-usuarios-permissoes-dispositivos</a>)</li>
+<li><code data-kind="curso">Curso</code> DevOps: explorando conceitos, comandos e scripts no Linux CLI (<a href="https://www.alura.com.br/curso-online-devops-conceitos-comandos-scripts-linux-cli">https://www.alura.com.br/curso-online-devops-conceitos-comandos-scripts-linux-cli</a>)</li>
+</ul>
+<h3>Git e GitHub - Fundamentos:</h3>
 <ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
 <li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
 <li>Criar um repositório</li>
@@ -229,36 +289,161 @@
 <li>Reverter um commit</li>
 <li>Criar branches e pul requests</li>
 <li>Lidar com merge e conflitos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> GitHub Documentação (<a href="https://docs.github.com/pt">https://docs.github.com/pt</a>)</li>
+<li><code data-kind="site">Site</code> GitHub Pages Documentação (<a href="https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="site">Site</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="site">Site</code> Dangit, Git!?! (<a href="https://dangitgit.com/">https://dangitgit.com/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O que é Git e GitHub? - definição e conceitos importantes 1/2 (<a href="https://www.youtube.com/watch?v=DqTITcMq68k">https://www.youtube.com/watch?v=DqTITcMq68k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: Como usar Git e GitHub na prática! - desde o primeiro commit até o pull request! 2/2 (<a href="https://www.youtube.com/watch?v=UBAX-13g8OM">https://www.youtube.com/watch?v=UBAX-13g8OM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Git: Entendendo de vez como funciona do melhor e mais visual jeito possível (<a href="https://www.youtube.com/watch?v=4-tfJ-ZyA0Q">https://www.youtube.com/watch?v=4-tfJ-ZyA0Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como colocar seu projeto no ar DE GRAÇA via GitHub! | Hospedagem com GitHub Pages (<a href="https://www.youtube.com/watch?v=BU-w2_Aae54">https://www.youtube.com/watch?v=BU-w2_Aae54</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - 5 coisas que você precisa saber sobre Git (<a href="https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU">https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - README de Sucesso: Transforme seu Projeto ou seu Perfil em Destaque no GitHub (<a href="https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A">https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Git e Github: O que são, Como Configurar e Primeiros Passos (<a href="https://www.alura.com.br/artigos/o-que-e-git-github">https://www.alura.com.br/artigos/o-que-e-git-github</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Mais git com o hub: a linha de comando do Github (<a href="https://www.alura.com.br/artigos/github-na-linha-de-comando">https://www.alura.com.br/artigos/github-na-linha-de-comando</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 184: Guia do Iniciante em Github (<a href="https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378">https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378</a>)</li>
+<li><code data-kind="site">Site</code> GitHub: diferentes maneiras de compartilhar seu projeto (<a href="https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002">https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002</a>)</li>
+<li><code data-kind="site">Site</code> Websérie: Git e Github para Sobrevivência (<a href="https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia">https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 109: Git e Github (<a href="https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474">https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Git e Github para Sobrevivência 01: Como o Git funciona? (<a href="https://www.youtube.com/watch?v=BAmvmaKQklQ">https://www.youtube.com/watch?v=BAmvmaKQklQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: compartilhando e colaborando em projetos (<a href="https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos">https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: dominando controle de versão de código (<a href="https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo">https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: GitHub (<a href="https://7daysofcode.io/matricula/github">https://7daysofcode.io/matricula/github</a>)</li>
+</ul>
+<h3>HTTP - Fundamentos:</h3>
 <ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
 <li>Entender a diferença dos verbos HTTP</li>
 <li>Testar os requests e ver os status codes no navegador</li>
 <li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
 <li>Baixar uma imagem com WGET</li>
 <li>Fazer um post</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Uma visão geral do HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Métodos de requisição HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Cats (<a href="https://http.cat/">https://http.cat/</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Dogs (<a href="https://http.dog/">https://http.dog/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fabiano Gabardo Lemos: Requisições HTTP - GET, POST, PUT, PATCH DELETE (<a href="https://www.youtube.com/watch?v=kncOJZrnkTg">https://www.youtube.com/watch?v=kncOJZrnkTg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programador a Bordo: Protocolo HTTP e TCP/IP - Introdução (<a href="https://www.youtube.com/watch?v=V4XZ81vRGtM">https://www.youtube.com/watch?v=V4XZ81vRGtM</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> HTTP: Desmistificando o protocolo da Web (<a href="https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1">https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Métodos de requisição do HTTP (<a href="https://www.alura.com.br/artigos/metodos-de-requisicao-do-http">https://www.alura.com.br/artigos/metodos-de-requisicao-do-http</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual é a diferença entre HTTP e HTTPS? (<a href="https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https">https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: HTTP/2: magia com o novo protocolo - Hipsters 13 (<a href="https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573">https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso HTTP: Entendendo a web por baixo dos panos (<a href="https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos">https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos</a>)</li>
+</ul>
+<h3>Linha de comando - Fundamentos:</h3>
 <ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
 <li>Conhecer os principais comandos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Microsoft Docs: Como usar argumentos de linha de comando para terminal do Windows (<a href="https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows">https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estevan Maito: Linha de comando básica - 8 comandos mais frequentes - WINDOWS e LINUX (<a href="https://www.youtube.com/watch?v=rKBqXJZocYk">https://www.youtube.com/watch?v=rKBqXJZocYk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ninja do Linux: Comandos básicos da linha de comando do Linux (<a href="https://www.youtube.com/watch?v=rs_yshFGu8E">https://www.youtube.com/watch?v=rs_yshFGu8E</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> CMD: dicas para trabalhar no prompt do Windows (<a href="https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows">https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como configurar variáveis de ambiente no Windows, Linux e macOS (<a href="https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos">https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd">https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/curso-online-prompt">https://www.alura.com.br/curso-online-prompt</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Terminal: aprenda comandos para executar tarefas (<a href="https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas">https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas</a>)</li>
+</ul>
+<h3>Cloud - Fundamentos:</h3>
 <ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
 <li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
 <li>Conhecer os maiores provedores de cloud</li>
 <li>Especializar-se em algum provedor</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Shell Scripting</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Computação em nuvem (<a href="https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9">https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é cloud? (<a href="https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6">https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabs Ferreira: Por que investir e estudar cloud? (<a href="https://www.youtube.com/watch?v=Z45BTNeZ1l0">https://www.youtube.com/watch?v=Z45BTNeZ1l0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Andre Iacono: O que é MICROSOFT AZURE? Qual Certificação começar em 2022? (<a href="https://www.youtube.com/watch?v=f-oVzkvMwnE">https://www.youtube.com/watch?v=f-oVzkvMwnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS: O que é a AWS? (<a href="https://www.youtube.com/watch?v=8JI9wQ8sUdQ">https://www.youtube.com/watch?v=8JI9wQ8sUdQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Google Cloud e por que aprender? (<a href="https://www.youtube.com/shorts/Lzq3f1DHWcI">https://www.youtube.com/shorts/Lzq3f1DHWcI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS vs Google Cloud vs Azure: o que cada um tem de melhor? (<a href="https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7">https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Azure (A plataforma Cloud da Microsoft) (<a href="https://www.youtube.com/watch?v=YgE-sZaCuJ0">https://www.youtube.com/watch?v=YgE-sZaCuJ0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mundo da Cloud: AWS do Zero ao Expert (<a href="https://www.youtube.com/watch?v=HiBCv9DolxI&list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz">https://www.youtube.com/watch?v=HiBCv9DolxI&amp;list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Fundamentos Cloud – Hipsters Ponto Tech #348 (<a href="https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/">https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Uma jornada Para o Cloud - Hipsters Deep Dive 005 (<a href="https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100">https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Histórias do Cloud - Hipsters 04 (<a href="https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582">https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Heroku, Vercel e outras opções de cloud como plataforma (<a href="https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma">https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações (<a href="https://www.alura.com.br/artigos/aws">https://www.alura.com.br/artigos/aws</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Terraform: criando máquinas na Azure (<a href="https://www.alura.com.br/artigos/terraform-maquinas-na-azure">https://www.alura.com.br/artigos/terraform-maquinas-na-azure</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é cloud? (<a href="https://www.YOUTUBE.com/watch?v=wev9fMrg-TU">https://www.YOUTUBE.com/watch?v=wev9fMrg-TU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: AWS, Google Cloud e Azure: Por onde começar? | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&t=300s">https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Certificação em Cloud: Azure, AWS, Google | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&t=290s">https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&amp;t=290s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Amazon Web Services (<a href="https://cursos.alura.com.br/formacao-amazon-web-services">https://cursos.alura.com.br/formacao-amazon-web-services</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AWS Certified Cloud Practitioner (<a href="https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner">https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Containers com AWS ECS e EKS (<a href="https://cursos.alura.com.br/formacao-containers-aws">https://cursos.alura.com.br/formacao-containers-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Cloud Platform (<a href="https://cursos.alura.com.br/formacao-google-cloud">https://cursos.alura.com.br/formacao-google-cloud</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Azure (<a href="https://cursos.alura.com.br/formacao-conhecendo-azure">https://cursos.alura.com.br/formacao-conhecendo-azure</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AZ-900: Microsoft Azure Fundamentals (<a href="https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals">https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals</a>)</li>
+</ul>
+<h3>Shell Scripting:</h3>
 <ul><li>Automatizar tarefas repetitivas utilizando as linguagens disponibilizadas pelo terminal.</li>
 <li>Criação de tarefas com execução automática</li>
 <li>Automatizar a configuração e instalação de aplicações em novos sistemas</li>
 <li>Usar o PowerShell</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redes de Computadores - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é shell script (<a href="https://diolinux.com.br/tecnologia/o-que-e-shell-script.html">https://diolinux.com.br/tecnologia/o-que-e-shell-script.html</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Lucas Caton: Como criar scripts no Linux e no macOS (<a href="https://www.youtube.com/watch?v=W84Ok6XGnow">https://www.youtube.com/watch?v=W84Ok6XGnow</a>)</li>
+<li><code data-kind="youtube">YouTube</code> NetworkChuck: BASH Scripting (<a href="https://www.youtube.com/watch?v=SPwyp2NG-bE">https://www.youtube.com/watch?v=SPwyp2NG-bE</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Shell Script: Introdução e Como Automatizar Tarefas (<a href="https://www.alura.com.br/artigos/automatizando-tarefas-com-shell-script">https://www.alura.com.br/artigos/automatizando-tarefas-com-shell-script</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Lendo e escrevendo arquivos com o redirecionamento no Shell (<a href="https://www.alura.com.br/artigos/lendo-e-escrevendo-arquivos-com-o-redirecionamento-no-shell">https://www.alura.com.br/artigos/lendo-e-escrevendo-arquivos-com-o-redirecionamento-no-shell</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando comandos no Linux com Bash (<a href="https://www.alura.com.br/artigos/criando-comandos-no-linux-com-bash">https://www.alura.com.br/artigos/criando-comandos-no-linux-com-bash</a>)</li>
+<li><code data-kind="curso">Curso</code> Shell Scripting parte 1: scripts de automação de tarefas (<a href="https://cursos.alura.com.br/course/shellscripting">https://cursos.alura.com.br/course/shellscripting</a>)</li>
+<li><code data-kind="curso">Curso</code> Shell Scripting parte 2: fazendo monitoramento, agendando tarefas e backup (<a href="https://cursos.alura.com.br/course/shellscripting-parte-2">https://cursos.alura.com.br/course/shellscripting-parte-2</a>)</li>
+<li><code data-kind="curso">Curso</code> PowerShell parte 1: a linguagem de scripting moderna (<a href="https://cursos.alura.com.br/course/powershell-parte1">https://cursos.alura.com.br/course/powershell-parte1</a>)</li>
+<li><code data-kind="curso">Curso</code> PowerShell parte 2: Sessões, Jobs e Administração Remota (<a href="https://cursos.alura.com.br/course/powershell-parte2">https://cursos.alura.com.br/course/powershell-parte2</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Scripting: automatizando tarefas em DevOps (<a href="https://www.alura.com.br/formacao-scripting-automatizando-tarefas-devops">https://www.alura.com.br/formacao-scripting-automatizando-tarefas-devops</a>)</li>
+</ul>
+<h3>Redes de Computadores - Fundamentos:</h3>
 <ul><li>Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.</li>
 <li>Configurações de redes são essenciais para que seja possível acessar uma aplicação, principalmente se ela estiver na nuvem.</li>
 <li>Entenda melhor os componentes de rede e a suas atribuições</li>
 <li>Diferenciar os serviços disponibilizados a nível de rede</li>
 <li>Saber as diferenças entre as camadas de rede</li>
 <li>Saber o que é servidor web, proxy reverso e load balancer</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> IBM: Conceitos de rede e comunicação (<a href="https://www.ibm.com/docs/pt-br/aix/7.3?topic=management-network-communication-concepts">https://www.ibm.com/docs/pt-br/aix/7.3?topic=management-network-communication-concepts</a>)</li>
+<li><code data-kind="site">Site</code> AWS: O que são redes de computadores? (<a href="https://aws.amazon.com/pt/what-is/computer-networking/">https://aws.amazon.com/pt/what-is/computer-networking/</a>)</li>
+<li><code data-kind="site">Site</code> Red Hat: O que é gerenciamento de rede? (<a href="https://www.redhat.com/pt-br/topics/management/what-is-network-management">https://www.redhat.com/pt-br/topics/management/what-is-network-management</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Redes de Computadores — Sabendo o básico — Intro (<a href="https://medium.com/code-breaker/redes-de-computadores-sabendo-o-b%C3%A1sico-intro-1a7d5653e118">https://medium.com/code-breaker/redes-de-computadores-sabendo-o-b%C3%A1sico-intro-1a7d5653e118</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O protocolo TCP/IP (<a href="https://joaomarcuraa.medium.com/o-protocolo-tcp-ip-1dc2cdb88b07">https://joaomarcuraa.medium.com/o-protocolo-tcp-ip-1dc2cdb88b07</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: IP (Entenda finalmente como funciona o IPv4 e o IPv6) | Dicionário do Programador (<a href="https://www.youtube.com/watch?v=O8DmpmBMUSw">https://www.youtube.com/watch?v=O8DmpmBMUSw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rede de Computadores - Animação em 3D (<a href="https://www.youtube.com/watch?v=Iqcp3k8DgGw">https://www.youtube.com/watch?v=Iqcp3k8DgGw</a>)</li>
+<li><code data-kind="curso">Curso</code> Enterprise Networking, Security, and Automation (<a href="https://www.netacad.com/pt-br/courses/networking/ccna-enterprise-networking-security-automation">https://www.netacad.com/pt-br/courses/networking/ccna-enterprise-networking-security-automation</a>)</li>
+<li><code data-kind="curso">Curso</code> Switching, Routing, and Wireless Essentials (<a href="https://www.netacad.com/pt-br/courses/networking/ccna-switching-routing-wireless-essentials">https://www.netacad.com/pt-br/courses/networking/ccna-switching-routing-wireless-essentials</a>)</li>
+<li><code data-kind="curso">Curso</code> Introduction to Networks (<a href="https://www.netacad.com/pt-br/courses/networking/ccna-introduction-networks">https://www.netacad.com/pt-br/courses/networking/ccna-introduction-networks</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Rede de computadores: um guia completo sobre o que são, como funcionam e quais cursos fazer na área (<a href="https://www.alura.com.br/artigos/rede-de-computadores">https://www.alura.com.br/artigos/rede-de-computadores</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conhecendo algumas topologias de rede (<a href="https://www.alura.com.br/artigos/conhecendo-algumas-topologias-de-rede">https://www.alura.com.br/artigos/conhecendo-algumas-topologias-de-rede</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como calcular máscaras de sub-rede de forma simples (<a href="https://www.alura.com.br/artigos/como-calcular-mascaras-de-sub-rede">https://www.alura.com.br/artigos/como-calcular-mascaras-de-sub-rede</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo os padrões de Wi-Fi (<a href="https://www.alura.com.br/artigos/entendendo-os-padroes-de-wi-fi">https://www.alura.com.br/artigos/entendendo-os-padroes-de-wi-fi</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Diferenças entre Hubs e Switches (<a href="https://www.alura.com.br/artigos/diferencas-entre-hubs-e-switches">https://www.alura.com.br/artigos/diferencas-entre-hubs-e-switches</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo os cabos de rede (<a href="https://www.alura.com.br/artigos/entendendo-os-cabos-de-rede">https://www.alura.com.br/artigos/entendendo-os-cabos-de-rede</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SSH, Telnet e as diferenças para conectar em um servidor (<a href="https://www.alura.com.br/artigos/entendendo-as-diferencas-entre-telnet-e-ssh">https://www.alura.com.br/artigos/entendendo-as-diferencas-entre-telnet-e-ssh</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Redes de Computadores (<a href="https://cursos.alura.com.br/formacao-redes">https://cursos.alura.com.br/formacao-redes</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Contêineres</strong>:</li>
+<h3>Contêineres:</h3>
 <ul><li>Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente. Gerenciamento de contêineres é uma área crucial na computação em nuvem e DevOps, que envolve o uso de tecnologias para automatizar o processo de criação, implantação, escalonamento e monitoramento de contêineres. Contêineres são unidades de software padronizadas que permitem aos desenvolvedores empacotar todas as dependências de um aplicativo (código, bibliotecas, configurações, etc.) em um único pacote. Isso permite que o aplicativo seja executado de forma consistente em qualquer ambiente de infraestrutura.</li>
 <li>A tecnologia de contêineres, como exemplificada pelo Docker, fornece um ambiente consistente e portátil para desenvolvimento, teste e implantação de aplicativos, o que é vital para o trabalho eficiente de engenharia de dados. Além disso, o Kubernetes, um sistema de orquestração de contêineres, permite o gerenciamento, a automação e a escalabilidade de aplicações baseadas em contêineres em ambientes de produção. Dominar esses conceitos e tecnologias possibilita a engenheiros de dados construir e manter pipelines de dados eficientes e confiáveis.</li>
 <li>O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.</li>
@@ -267,7 +452,39 @@
 <li>Modularizar seu sistema em pacotes menores</li>
 <li>Conhecer a plataforma Docker</li>
 <li>Conhecer Kubernetes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Infraestrutura como código (IaC)</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> IBM: Contêineres (<a href="https://www.ibm.com/br-pt/cloud/learn/containers">https://www.ibm.com/br-pt/cloud/learn/containers</a>)</li>
+<li><code data-kind="site">Site</code> HPE: O que são contêineres? (<a href="https://www.hpe.com/br/pt/what-is/containers.html">https://www.hpe.com/br/pt/what-is/containers.html</a>)</li>
+<li><code data-kind="site">Site</code> Google Cloud: O que são contêineres? (<a href="https://cloud.google.com/learn/what-are-containers?hl=pt-br">https://cloud.google.com/learn/what-are-containers?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Azure: O que é um contêiner? (<a href="https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-a-container/">https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-a-container/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Red Hat: O que é Kubernetes (<a href="https://www.redhat.com/pt-br/topics/containers/what-is-kubernetes">https://www.redhat.com/pt-br/topics/containers/what-is-kubernetes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Azure: O que é Kubernetes? (<a href="https://azure.microsoft.com/pt-br/topic/what-is-kubernetes/">https://azure.microsoft.com/pt-br/topic/what-is-kubernetes/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Kubernetes - Guia de Referência Gratuito (<a href="https://renatogroffe.medium.com/kubernetes-guia-de-refer%C3%AAncia-gratuito-a2c1be8e7593">https://renatogroffe.medium.com/kubernetes-guia-de-refer%C3%AAncia-gratuito-a2c1be8e7593</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Containers // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=-pUZBovqRcU">https://www.youtube.com/watch?v=-pUZBovqRcU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Kubernetes // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=mVL0nOM3AGo">https://www.youtube.com/watch?v=mVL0nOM3AGo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Insight Lab: Revisão Docker - Curso de Introdução ao Kubernetes (<a href="https://www.youtube.com/watch?v=bcRArpK00OU">https://www.youtube.com/watch?v=bcRArpK00OU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Pisani da ArcH: Kubernetes - entenda e comece a arquitetar agora mesmo (<a href="https://www.youtube.com/watch?v=XjaqTqm7g58">https://www.youtube.com/watch?v=XjaqTqm7g58</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Kubernetes (<a href="https://www.alura.com.br/artigos/o-que-e-kubernetes">https://www.alura.com.br/artigos/o-que-e-kubernetes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando volumes com Docker (<a href="https://www.alura.com.br/artigos/criando-volumes-com-docker">https://www.alura.com.br/artigos/criando-volumes-com-docker</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Docker Compose para compor uma aplicação (<a href="https://www.alura.com.br/artigos/compondo-uma-aplicacao-com-o-docker-compose">https://www.alura.com.br/artigos/compondo-uma-aplicacao-com-o-docker-compose</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que são Containers? (<a href="https://www.youtube.com/watch?v=jv4_sLlGOS0">https://www.youtube.com/watch?v=jv4_sLlGOS0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Containers, Docker e Kubernetes (com Giovanni Bassi) (<a href="https://www.youtube.com/watch?v=wxLvvMxzc1Q">https://www.youtube.com/watch?v=wxLvvMxzc1Q</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Containers e Docker - Hipsters 75 (<a href="https://www.alura.com.br/podcast/hipsterstech-containers-e-docker-hipsters-75-a511">https://www.alura.com.br/podcast/hipsterstech-containers-e-docker-hipsters-75-a511</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Kubernetes - Hipsters 177 (<a href="https://www.alura.com.br/podcast/kubernetes-hipsters-177-a389">https://www.alura.com.br/podcast/kubernetes-hipsters-177-a389</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Microsserviços e Kubernetes na Americanas.com - Hipsters On The Road 56 (<a href="https://www.alura.com.br/podcast/microsservicos-e-kubernetes-na-americanas-com-hipsters-on-the-road-56-a857">https://www.alura.com.br/podcast/microsservicos-e-kubernetes-na-americanas-com-hipsters-on-the-road-56-a857</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Orquestração de containers com Kubernetes (<a href="https://www.alura.com.br/formacao-kubernetes">https://www.alura.com.br/formacao-kubernetes</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Docker: criando e gerenciando containers (<a href="https://www.alura.com.br/curso-online-docker-criando-gerenciando-containers">https://www.alura.com.br/curso-online-docker-criando-gerenciando-containers</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Kubernetes: Pods, Services e ConfigMaps (<a href="https://www.alura.com.br/curso-online-kubernetes-pods-services-configmap">https://www.alura.com.br/curso-online-kubernetes-pods-services-configmap</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Kubernetes: Deployments, Volumes e Escalabilidade (<a href="https://www.alura.com.br/curso-online-kubernetes-deployments-volumes-escalabilidade">https://www.alura.com.br/curso-online-kubernetes-deployments-volumes-escalabilidade</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Google Kubernetes Engine (<a href="https://www.alura.com.br/curso-online-google-kubernetes-engine-primeiros-passos">https://www.alura.com.br/curso-online-google-kubernetes-engine-primeiros-passos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Kubernetes na Digital Ocean: gerenciando aplicações conteinerizadas (<a href="https://www.alura.com.br/curso-online-kubernetes-digital-ocean">https://www.alura.com.br/curso-online-kubernetes-digital-ocean</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Amazon EKS: gerenciando aplicações conteinerizadas com Kubernetes (<a href="https://www.alura.com.br/curso-online-amazon-eks-kubernetes">https://www.alura.com.br/curso-online-amazon-eks-kubernetes</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Azure: gerencie Kubernetes com AKS e ACR (<a href="https://www.alura.com.br/curso-online-azure-gerencie-kubernetes-com-aks-acr">https://www.alura.com.br/curso-online-azure-gerencie-kubernetes-com-aks-acr</a>)</li>
+</ul>
+<h3>Infraestrutura como código (IaC):</h3>
 <ul><li>A infraestrutura como código permite com que seja criada e configurada toda a infraestrutura de uma aplicação de maneira automática.</li>
 <li>Existem muitas ferramentas que têm a função de preparar uma infraestrutura atravez de código, porém algumas se destacam cada vez mais, principalmente o Terraform e o Ansible</li>
 <li>Descrever a infraestrutura atual e criar a sua documentação</li>
@@ -275,13 +492,49 @@
 <li>Configurar maquinas e serviços sem utilização de paineis proprietarios dos sistemas de cloud</li>
 <li>Conhecer o Ansible</li>
 <li>Conhecer o Terraform</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Entrega e integração contínuas (CI/CD)</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é infraestrutura como código (IaC)? (<a href="https://www.redhat.com/pt-br/topics/automation/what-is-infrastructure-as-code-iac">https://www.redhat.com/pt-br/topics/automation/what-is-infrastructure-as-code-iac</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Sobrinho de TI: Infrastructure as code (IAC) - Você sabe o que é? (<a href="https://www.youtube.com/watch?v=qd9hrsN0w2A">https://www.youtube.com/watch?v=qd9hrsN0w2A</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IBM Technology: What is Infrastructure as Code? (inglês) (<a href="https://www.youtube.com/watch?v=zWw2wuiKd5o">https://www.youtube.com/watch?v=zWw2wuiKd5o</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Um Inventor Qualquer: Infra-as-code com AWS CloudFormation e CDK (<a href="https://www.youtube.com/watch?v=GdQ0E-wyNO0">https://www.youtube.com/watch?v=GdQ0E-wyNO0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Terraform em 10 Minutos | Dicionário do Programador (<a href="https://www.youtube.com/watch?v=0EAjJe8aPkc">https://www.youtube.com/watch?v=0EAjJe8aPkc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Conhecendo o Terraform (<a href="https://www.alura.com.br/artigos/conheca-o-terraform">https://www.alura.com.br/artigos/conheca-o-terraform</a>)</li>
+<li><code data-kind="artigo">Artigo</code> GitOps: o que é? (<a href="https://www.alura.com.br/artigos/o-que-e-git-ops">https://www.alura.com.br/artigos/o-que-e-git-ops</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando o primeiro ambiente com o Terraform (<a href="https://www.alura.com.br/artigos/criando-o-primeiro-ambiente-com-terraform">https://www.alura.com.br/artigos/criando-o-primeiro-ambiente-com-terraform</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Terraform: criando máquinas na Azure (<a href="https://www.alura.com.br/artigos/terraform-maquinas-na-azure">https://www.alura.com.br/artigos/terraform-maquinas-na-azure</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Infraestrutura como código: preparando máquinas na AWS com Ansible e Terraform (<a href="https://cursos.alura.com.br/course/infraestrutura-codigo-maquinas-aws-ansible-terraform">https://cursos.alura.com.br/course/infraestrutura-codigo-maquinas-aws-ansible-terraform</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Infraestrutura como código: separando ambientes na AWS com Ansible e Terraform (<a href="https://cursos.alura.com.br/course/infraestrutura-codigo-aws-ansible-terraform">https://cursos.alura.com.br/course/infraestrutura-codigo-aws-ansible-terraform</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Infraestrutura como código: montando uma infraestrutura elástica na AWS (<a href="https://cursos.alura.com.br/course/infraestrutura-codigo-infraestrutura-elastica-aws">https://cursos.alura.com.br/course/infraestrutura-codigo-infraestrutura-elastica-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Infraestrutura como código: Docker e Elastic Beanstalk na AWS (<a href="https://cursos.alura.com.br/course/infraestrutura-codigo-docker-elastic-beanstalk-aws">https://cursos.alura.com.br/course/infraestrutura-codigo-docker-elastic-beanstalk-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Infraestrutura como código: Terraform, Docker e Elastic Container Service (<a href="https://cursos.alura.com.br/course/infraestrutura-codigo-terraform-docker-elastic-container-service-aws">https://cursos.alura.com.br/course/infraestrutura-codigo-terraform-docker-elastic-container-service-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Infraestrutura como código: Terraform e Kubernetes (<a href="https://cursos.alura.com.br/course/infraestrutura-codigo-terraform-kubernetes">https://cursos.alura.com.br/course/infraestrutura-codigo-terraform-kubernetes</a>)</li>
+</ul>
+<h3>Entrega e integração contínuas (CI/CD):</h3>
 <ul><li>CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português &quot;entrega e integração contínuas&quot;. Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.</li>
 <li>Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, ja que assim é possivel acelerar o desenvolvimento e diminiur o tempo de entrega de software.</li>
 <li>Executar testes automatizados da aplicação para verificar seu funcionamento.</li>
 <li>Realizar a entrega de atualizações de forma automatica e com segurança.</li>
 <li>Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é CI/CD? (<a href="https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd">https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Sobre integração contínua (<a href="https://docs.github.com/pt/actions/automating-builds-and-tests/about-continuous-integration">https://docs.github.com/pt/actions/automating-builds-and-tests/about-continuous-integration</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Pipeline (CD/CI) | Dicionário do Programador (<a href="https://www.youtube.com/watch?v=AZtTd3pFVTY">https://www.youtube.com/watch?v=AZtTd3pFVTY</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Entrega e integração contínua de aplicações Vue (<a href="https://www.alura.com.br/artigos/entrega-e-integracao-continua-de-aplicacoes-vue">https://www.alura.com.br/artigos/entrega-e-integracao-continua-de-aplicacoes-vue</a>)</li>
+<li><code data-kind="artigo">Artigo</code> GitOps: o que é? (<a href="https://www.alura.com.br/artigos/o-que-e-git-ops">https://www.alura.com.br/artigos/o-que-e-git-ops</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tipos de testes: quais os principais e por que utilizá-los? (<a href="https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los">https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Integração Contínua, Deploy Contínuo e Github Actions (<a href="https://cursos.alura.com.br/extra/hipsterstech/integracao-continua-deploy-continuo-e-github-actions-hipsters-213-a335">https://cursos.alura.com.br/extra/hipsterstech/integracao-continua-deploy-continuo-e-github-actions-hipsters-213-a335</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Testes Automatizados (<a href="https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535">https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Integração Contínua: mais qualidade e menos risco no desenvolvimento (<a href="https://cursos.alura.com.br/course/desenvolvimento-software-integracao-continua">https://cursos.alura.com.br/course/desenvolvimento-software-integracao-continua</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Entrega Contínua: confiabilidade e qualidade na implantação de software (<a href="https://cursos.alura.com.br/course/entrega-continua-confiabilidade-qualidade">https://cursos.alura.com.br/course/entrega-continua-confiabilidade-qualidade</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação: Integração Contínua e Entrega Contínua (<a href="https://cursos.alura.com.br/formacao-integracao-continua-entrega-continua">https://cursos.alura.com.br/formacao-integracao-continua-entrega-continua</a>)</li>
+</ul>
+<h3>SQL - Fundamentos:</h3>
 <ul><li>SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.</li>
 <li>Conhecer os comandos mais comuns do SQL</li>
 <li>Usar SELECT para consultar uma tabela</li>
@@ -290,30 +543,136 @@
 <li>Usar DELETE para remover dados de uma tabela</li>
 <li>Usar JOIN para conectar os dados de múltiplas tabelas</li>
 <li>Conhecer as cláusulas (FROM, ORDER BY, etc)</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SQL — O que é e como funciona na prática? (<a href="https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a">https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL: comandos básicos (<a href="https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909">https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CreateSe: Comandos básicos do SQL (<a href="https://www.youtube.com/watch?v=_rZxrqn0X-4">https://www.youtube.com/watch?v=_rZxrqn0X-4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é SQL? (<a href="https://www.alura.com.br/artigos/o-que-e-sql">https://www.alura.com.br/artigos/o-que-e-sql</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS (<a href="https://www.alura.com.br/artigos/join-em-sql">https://www.alura.com.br/artigos/join-em-sql</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é SQL e NoSQL? (<a href="https://www.youtube.com/watch?v=aure5d3B88g">https://www.youtube.com/watch?v=aure5d3B88g</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Conhecendo SQL (<a href="https://www.alura.com.br/formacao-conhecendo-sql">https://www.alura.com.br/formacao-conhecendo-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso SQL com MySQL: manipule e consulte dados (<a href="https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql">https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação SQL com MySQL Server da Oracle (<a href="https://cursos.alura.com.br/formacao-oracle-mysql">https://cursos.alura.com.br/formacao-oracle-mysql</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL e NoSQL: trabalhando com bancos relacionais e não relacionais (<a href="https://www.alura.com.br/artigos/sql-nosql-bancos-relacionais-nao-relacionais">https://www.alura.com.br/artigos/sql-nosql-bancos-relacionais-nao-relacionais</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: conhecendo SQL (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-conhecendo-sql">https://cursos.alura.com.br/course/microsoft-sql-server-conhecendo-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de PostgreSQL (<a href="https://cursos.alura.com.br/course/introducao-postgresql-primeiros-passos">https://cursos.alura.com.br/course/introducao-postgresql-primeiros-passos</a>)</li>
+<li><code data-kind="curso">Curso</code> SQL com Oracle Database: manipule e consulte dados (<a href="https://cursos.alura.com.br/course/introducao-sql-oracle-manipule-consulte-dados">https://cursos.alura.com.br/course/introducao-sql-oracle-manipule-consulte-dados</a>)</li>
+<li><code data-kind="podcast">Podcast</code> SQL e MySQL (<a href="https://cursos.alura.com.br/extra/hipsterstech/sql-e-mysql-hipsters-ponto-tech-404-a9270">https://cursos.alura.com.br/extra/hipsterstech/sql-e-mysql-hipsters-ponto-tech-404-a9270</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Engenharia de Confiabilidade de Sites (SRE)</strong>:</li>
+<h3>Engenharia de Confiabilidade de Sites (SRE):</h3>
 <ul><li>A Engenharia de Confiabilidade de Sites (SRE) é a prática de usar ferramentas de software para automatizar tarefas de infraestrutura de TI, como gerenciamento de sistemas e monitoramento de aplicativos.</li>
 <li>Coletar métricas sobre a sáude da aplicação e da máquina em que ela se encontra</li>
 <li>Montar dashboards para analisar todas as informações coletadas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Arquitetura de Microsserviços</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> AWS: O que é engenharia de confiabilidade dos sites? (<a href="https://aws.amazon.com/pt/what-is/sre/">https://aws.amazon.com/pt/what-is/sre/</a>)</li>
+<li><code data-kind="site">Site</code> Google Cloud: Medição de DevOps - monitoramento e observabilidade (<a href="https://cloud.google.com/architecture/devops/devops-measurement-monitoring-and-observability?hl=pt-br">https://cloud.google.com/architecture/devops/devops-measurement-monitoring-and-observability?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Red Hat: O que é Jaeger? (<a href="https://www.redhat.com/pt-br/topics/microservices/what-is-jaeger">https://www.redhat.com/pt-br/topics/microservices/what-is-jaeger</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conceitos de DevOps e SRE (<a href="https://medium.com/sysadminas/conceitos-de-devops-e-sre-bbb05bb3c9fe">https://medium.com/sysadminas/conceitos-de-devops-e-sre-bbb05bb3c9fe</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Google Cloud Events: Introdução ao Site Reliability Engineering (SRE) (<a href="https://www.youtube.com/watch?v=DNuSRFIAgxQ&ab_channel=GoogleCloudEvents">https://www.youtube.com/watch?v=DNuSRFIAgxQ&amp;ab_channel=GoogleCloudEvents</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estudando Devops: O que é DevOps? | O que é SRE? (<a href="https://www.youtube.com/watch?v=E__bROyybgc">https://www.youtube.com/watch?v=E__bROyybgc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IBM Technology: Observability vs. APM vs. Monitoring (inglês) (<a href="https://www.youtube.com/watch?v=CAQ_a2-9UOI">https://www.youtube.com/watch?v=CAQ_a2-9UOI</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> SRE: Site Reliability Engineering – Hipsters #187 (<a href="https://www.hipsters.tech/sre-site-reliability-engineering-hipsters-187/">https://www.hipsters.tech/sre-site-reliability-engineering-hipsters-187/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> SRE, Segurança e DevOps no Pipefy - Hipsters On The Road #25 (<a href="https://www.hipsters.tech/sre-seguranca-e-devops-no-pipefy-hipsters-on-the-road-25/">https://www.hipsters.tech/sre-seguranca-e-devops-no-pipefy-hipsters-on-the-road-25/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Observabilidade no Itaú – Hipsters Ponto Tech #334 (<a href="https://www.hipsters.tech/observabilidade-no-itau-hipsters-ponto-tech-334/">https://www.hipsters.tech/observabilidade-no-itau-hipsters-ponto-tech-334/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Ferramentas de Monitoramento e Observabilidade - Hipsters Ponto Tech #281 (<a href="https://www.alura.com.br/podcast/hipsterstech-ferramentas-de-monitoramento-e-observabilidade-hipsters-ponto-tech-281-a1317">https://www.alura.com.br/podcast/hipsterstech-ferramentas-de-monitoramento-e-observabilidade-hipsters-ponto-tech-281-a1317</a>)</li>
+<li><code data-kind="curso">Curso</code> SRE - Engenharia de Confiabilidade de Sites (<a href="https://www.alura.com.br/videos/sre-engenharia-de-confiabilidade-de-sites-c1112">https://www.alura.com.br/videos/sre-engenharia-de-confiabilidade-de-sites-c1112</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso SRE: entenda a confiabilidade dos sistemas (<a href="https://cursos.alura.com.br/course/sre-entenda-confiabilidade-sistemas">https://cursos.alura.com.br/course/sre-entenda-confiabilidade-sistemas</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Observabilidade: coletando métricas de uma aplicação com Prometheus (<a href="https://www.alura.com.br/curso-online-observabilidade-prometheus">https://www.alura.com.br/curso-online-observabilidade-prometheus</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Monitoramento: Prometheus, Grafana e Alertmanager (<a href="https://www.alura.com.br/curso-online-monitoramento-prometheus-grafana-alertmanager">https://www.alura.com.br/curso-online-monitoramento-prometheus-grafana-alertmanager</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Confiabilidade: garantindo o estado de integridade de sistemas através de logs (<a href="https://www.alura.com.br/curso-online-confiabilidade-garantindo-estado-integridade">https://www.alura.com.br/curso-online-confiabilidade-garantindo-estado-integridade</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Confiabilidade: centralizando logs com Grafana Loki (<a href="https://www.alura.com.br/curso-online-confiabilidade-centralizando-logs-grafana-loki">https://www.alura.com.br/curso-online-confiabilidade-centralizando-logs-grafana-loki</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Rastreamento: fazendo tracing com Jaeger e OpenTelemetry (<a href="https://www.alura.com.br/curso-online-rastreamento-tracing-jaeger-opentelemetry">https://www.alura.com.br/curso-online-rastreamento-tracing-jaeger-opentelemetry</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação SRE (<a href="https://www.alura.com.br/formacao-sre">https://www.alura.com.br/formacao-sre</a>)</li>
+</ul>
+<h3>Arquitetura de Microsserviços:</h3>
 <ul><li>Microsserviços são uma abordagem de arquitetura na qual o software consiste de pequenos serviços independentes que se comunicam entre si e são organizados de acordo com seus domínios de negócio.</li>
 <li>Aprender o conceito de arquitetura planejada para microsserviços</li>
 <li>Realizar a comunicação usando APIs</li>
 <li>Melhorar a escalabilidade de um sistema</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Firewalls, IDS e IPS</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Google Cloud: O que é a arquitetura de microsserviços? (<a href="https://cloud.google.com/learn/what-is-microservices-architecture?hl=pt-br">https://cloud.google.com/learn/what-is-microservices-architecture?hl=pt-br</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Amazon: O que são microsserviços? (<a href="https://aws.amazon.com/pt/microservices/">https://aws.amazon.com/pt/microservices/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Otavio Lemos: Microsserviços | O mínimo que você precisa saber (<a href="https://www.youtube.com/watch?v=eN8dFfTrEtQ">https://www.youtube.com/watch?v=eN8dFfTrEtQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Douglas Mugnos: O que é arquitetura de microsserviços? Como ela funciona? (<a href="https://www.youtube.com/watch?v=_Oyy5PFOIcU">https://www.youtube.com/watch?v=_Oyy5PFOIcU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Microsserviços – Hipsters Ponto Tech #349 (<a href="https://www.hipsters.tech/techguide-microsservicos-hipsters-ponto-tech-349/">https://www.hipsters.tech/techguide-microsservicos-hipsters-ponto-tech-349/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que são Microsserviços? (<a href="https://www.youtube.com/watch?v=jSnLOoGjQ80">https://www.youtube.com/watch?v=jSnLOoGjQ80</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Microserviços - Hipsters 17 (<a href="https://www.alura.com.br/podcast/microservicos-hipsters-17-a569">https://www.alura.com.br/podcast/microservicos-hipsters-17-a569</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Microsserviços na Caelum - Hipsters On The Road 6 (<a href="https://www.alura.com.br/podcast/microsservicos-na-caelum-hipsters-on-the-road-6-a436">https://www.alura.com.br/podcast/microsservicos-na-caelum-hipsters-on-the-road-6-a436</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Microsserviços autônomos na Usabilla - Hipsters On The Road 10 (<a href="https://www.alura.com.br/podcast/microsservicos-autonomos-na-usabilla-hipsters-on-the-road-10-a424">https://www.alura.com.br/podcast/microsservicos-autonomos-na-usabilla-hipsters-on-the-road-10-a424</a>)</li>
+<li><code data-kind="site">Site</code> Alura+: O que são Microsserviços? (<a href="https://cursos.alura.com.br/extra/alura-mais/o-que-sao-microsservicos--c699">https://cursos.alura.com.br/extra/alura-mais/o-que-sao-microsservicos--c699</a>)</li>
+<li><code data-kind="site">Site</code> Alura+: Tipos de Microservices (<a href="https://cursos.alura.com.br/extra/alura-mais/tipos-de-microservices-c698">https://cursos.alura.com.br/extra/alura-mais/tipos-de-microservices-c698</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Microsserviços: padrões de projeto (<a href="https://cursos.alura.com.br/course/microsservicos-padroes-projeto">https://cursos.alura.com.br/course/microsservicos-padroes-projeto</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Microsserviços: explorando os conceitos (<a href="https://cursos.alura.com.br/course/fundamentos-microsservicos-aprofundando-conceitos">https://cursos.alura.com.br/course/fundamentos-microsservicos-aprofundando-conceitos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Microsserviços na prática: entendendo a tomada de decisões (<a href="https://cursos.alura.com.br/course/Microsservicos-pratica-tomada-decisoes">https://cursos.alura.com.br/course/Microsservicos-pratica-tomada-decisoes</a>)</li>
+</ul>
+<h3>Firewalls, IDS e IPS:</h3>
 <ul><li>Definições e diferenças entre dispositivos de segurança de rede, firewalls, sistemas de prevenção de intrusão (IPS) e sistemas de detecção de intrusão (IDS).</li>
 <li>Um firewall permite o tráfego dependendo de um conjunto de regras que foram configuradas. Ele é baseado nos endereços de origem, destino e porta. Um firewall pode negar qualquer tráfego que não satisfaça os critérios especificados.</li>
 <li>IDS são dispositivos de sistema de monitoramento passivo que monitoram o tráfego de rede à medida que viajam pela rede, comparam padrões de assinatura, e acionar um alarme se for detectada atividade suspeita ou ameaça de segurança conhecida.</li>
 <li>O IPS é um dispositivo ativo que impede ataques, bloqueando-os.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Internet das Coisas (IoT) - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> pfSense (<a href="https://www.pfsense.org">https://www.pfsense.org</a>)</li>
+<li><code data-kind="artigo">Artigo</code> UFW: Descomplicando o Firewall (<a href="https://medium.com/permalink-univesp/ufw-descomplicando-o-firewall-83159d85b57a">https://medium.com/permalink-univesp/ufw-descomplicando-o-firewall-83159d85b57a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é e por que usar um firewall Pfsense pra sua rede? (<a href="https://phbols.medium.com/o-que-%C3%A9-e-por-que-usar-um-firewall-pfsense-pra-sua-rede-35813c7ef2e">https://phbols.medium.com/o-que-é-e-por-que-usar-um-firewall-pfsense-pra-sua-rede-35813c7ef2e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> IPTABLES VS NFTABLES (<a href="https://medium.com/@nayara.watanuki/iptables-vs-nftables-883e3afc8e83">https://medium.com/@nayara.watanuki/iptables-vs-nftables-883e3afc8e83</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Sistemas de detecção de intrusos e sistemas de prevenção de intrusos (<a href="https://medium.com/mobicareofficial/sistemas-de-detec%C3%A7%C3%A3o-e-de-preven%C3%A7%C3%A3o-de-intrusos-princ%C3%ADpios-e-aplica%C3%A7%C3%A3o-de-entropia-9a33680f3948">https://medium.com/mobicareofficial/sistemas-de-detec%C3%A7%C3%A3o-e-de-preven%C3%A7%C3%A3o-de-intrusos-princ%C3%ADpios-e-aplica%C3%A7%C3%A3o-de-entropia-9a33680f3948</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Learning More about IPS and IDS (<a href="https://gupta-bless.medium.com/learning-more-about-ips-and-ids-ef6d859c2ab3">https://gupta-bless.medium.com/learning-more-about-ips-and-ids-ef6d859c2ab3</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Firewall com Iptables: Teoria e Prática (<a href="https://www.youtube.com/watch?v=_xIuY_3EQ2o">https://www.youtube.com/watch?v=_xIuY_3EQ2o</a>)</li>
+<li><code data-kind="youtube">YouTube</code> iptables Complete Guide (<a href="https://www.youtube.com/watch?v=6Ra17Qpj68c">https://www.youtube.com/watch?v=6Ra17Qpj68c</a>)</li>
+</ul>
+<h3>Internet das Coisas (IoT) - Fundamentos:</h3>
 <ul><li>Quase todos os objetos agora podem ser conectados à Internet, de máquinas de lavar a componentes sofisticados de motor de avião, a itens orgânicos, como plantações e vacas. A capacidade de conectar coisas e capturar dados úteis está transformando as empresas de todos os setores e abrindo portas para novas especializações de carreira. Descubra a base desse novo campo com atividades práticas para conectar os sensores com segurança aos serviços em nuvem nas redes IP e coletar dados em um sistema de IoT (Internet das Coisas) de ponta a ponta.</li>
 <li>Como rodar seu primeiro sistema em um Arduino</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>DevSecOps</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Arduino (<a href="https://www.arduino.cc">https://www.arduino.cc</a>)</li>
+<li><code data-kind="site">Site</code> Raspberry Pi (inglês) (<a href="https://www.raspberrypi.com/">https://www.raspberrypi.com/</a>)</li>
+<li><code data-kind="site">Site</code> Raspberry Pi Foundation (inglês) (<a href="https://www.raspberrypi.org/">https://www.raspberrypi.org/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Internet das Coisas: entenda o que é e veja exemplos de suas aplicações (<a href="https://medium.com/system-it-solutions/internet-das-coisas-o-que-e-exemplos-b82855d1a969">https://medium.com/system-it-solutions/internet-das-coisas-o-que-e-exemplos-b82855d1a969</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Uso da IoT, big data e inteligência artificial nas capacidades dinâmicas e seus microfundamentos (<a href="https://repositorio.ucp.pt/handle/10400.14/25384">https://repositorio.ucp.pt/handle/10400.14/25384</a>)</li>
+<li><code data-kind="artigo">Artigo</code> IOTA Development Roadmap (<a href="https://medium.com/iotatangle/iota-development-roadmap-74741f37ed01">https://medium.com/iotatangle/iota-development-roadmap-74741f37ed01</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Arduino for Web Developers (<a href="https://medium.com/hackernoon/arduino-for-web-developers-deb7bd1841c1">https://medium.com/hackernoon/arduino-for-web-developers-deb7bd1841c1</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Laboratório da Julia: IoT para iniciantes (<a href="https://www.youtube.com/watch?v=-ym9zvsQsOo">https://www.youtube.com/watch?v=-ym9zvsQsOo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Engenharia Detalhada: TUDO sobre a IOT (<a href="https://www.youtube.com/watch?v=2TXOZFmhGGo">https://www.youtube.com/watch?v=2TXOZFmhGGo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: IoT (Internet das Coisas) (<a href="https://www.youtube.com/watch?v=qNHydTYkfcg">https://www.youtube.com/watch?v=qNHydTYkfcg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Brincando com Ideias: Arduino IOT Cloud - A Internet das Coisas fácil (<a href="https://www.youtube.com/watch?v=qZTMrj_w2Hk">https://www.youtube.com/watch?v=qZTMrj_w2Hk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Arduino MINÚSCULO com INTELIGÊNCIA ARTIFICIAL? (<a href="http://www.youtube.com/watch?v=8GoT_1WF3Ss">http://www.youtube.com/watch?v=8GoT_1WF3Ss</a>)</li>
+<li><code data-kind="youtube">YouTube</code> MD DIGITAL PODCAST: Internet das Coisas (IOT) - Five14Cast #011 (<a href="https://www.youtube.com/watch?v=GRfEdvuMZIU">https://www.youtube.com/watch?v=GRfEdvuMZIU</a>)</li>
+<li><code data-kind="curso">Curso</code> Introduction to IoT (<a href="https://www.netacad.com/pt-br/courses/iot/introduction-iot">https://www.netacad.com/pt-br/courses/iot/introduction-iot</a>)</li>
+<li><code data-kind="curso">Curso</code> IoT Fundamentals (<a href="https://www.netacad.com/pt-br/courses/iot/iot-fundamentals">https://www.netacad.com/pt-br/courses/iot/iot-fundamentals</a>)</li>
+<li><code data-kind="curso">Curso</code> Segurança de IoT (<a href="https://www.netacad.com/pt-br/courses/cybersecurity/iot-security">https://www.netacad.com/pt-br/courses/cybersecurity/iot-security</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters #140: Automação residencial (<a href="https://cursos.alura.com.br/extra/hipsterstech/automacao-residencial-hipsters-140-a441">https://cursos.alura.com.br/extra/hipsterstech/automacao-residencial-hipsters-140-a441</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters On The Road #51: IoT e débito técnico na Cobli (<a href="https://cursos.alura.com.br/extra/hipsterstech/iot-e-debito-tecnico-na-cobli-hipsters-on-the-road-51-a778">https://cursos.alura.com.br/extra/hipsterstech/iot-e-debito-tecnico-na-cobli-hipsters-on-the-road-51-a778</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como a IoT (Internet das Coisas) está revolucionando o setor industrial (<a href="https://www.alura.com.br/empresas/artigos/internet-das-coisas">https://www.alura.com.br/empresas/artigos/internet-das-coisas</a>)</li>
+</ul>
+<h3>DevSecOps:</h3>
 <ul><li>DevSecOps significa desenvolvimento, segurança e operações. É uma abordagem à cultura, automação e design de plataforma que integra a segurança como uma responsabilidade compartilhada durante todo o ciclo de vida da TI.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> RedHat: DevSecOps (<a href="https://www.redhat.com/pt-br/topics/devops/what-is-devsecops">https://www.redhat.com/pt-br/topics/devops/what-is-devsecops</a>)</li>
+<li><code data-kind="site">Site</code> Amazon AWS: O que é DevSecOps? (<a href="https://aws.amazon.com/pt/what-is/devsecops/">https://aws.amazon.com/pt/what-is/devsecops/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> DevSecOps: vamos falar tecnicamente? (<a href="https://medium.com/porto-seguro/devsecops-vamos-falar-tecnicamente-c14c10da3a6a">https://medium.com/porto-seguro/devsecops-vamos-falar-tecnicamente-c14c10da3a6a</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: DevSecOps (Segurança no Ciclo de Desenvolvimento de Software) // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=CCp30BD9uRo&ab_channel=C%C3%B3digoFonteTV">https://www.youtube.com/watch?v=CCp30BD9uRo&amp;ab_channel=C%C3%B3digoFonteTV</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Sobrinho de TI: Entenda o que é DevOps e DevSecOps (<a href="https://www.youtube.com/watch?v=Crm6IuKnsng&ab_channel=SobrinhodeTI">https://www.youtube.com/watch?v=Crm6IuKnsng&amp;ab_channel=SobrinhodeTI</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação Desenvolvimento Seguro (<a href="https://cursos.alura.com.br/formacao-desenvolvimento-seguro">https://cursos.alura.com.br/formacao-desenvolvimento-seguro</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Back-end</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos de Orientação a Objetos</strong>:</li>
+<h3>Conceitos de Orientação a Objetos:</h3>
 <ul><li>A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de &#39;objetos&#39; e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.</li>
 <li>Como funcionam objetos</li>
 <li>Criar e utilizar construtores</li>
@@ -324,16 +683,63 @@
 <li>O que é polimorfismo</li>
 <li>Como funcionam interfaces</li>
 <li>O que são abstrações</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Princípios básicos da Programação Orientação a Objetos (POO) (<a href="https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce">https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce</a>)</li>
+<li><code data-kind="youtube">YouTube</code> FernandaDev: O que é Programação Orientada a Objetos?(POO) (<a href="https://www.youtube.com/watch?v=QJjY2TNyl-8">https://www.youtube.com/watch?v=QJjY2TNyl-8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Giuliana Bezerra: Desmistificando os tipos de referência - Ep. 8 (<a href="https://youtu.be/D9hANYbPYCc">https://youtu.be/D9hANYbPYCc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Orientação a Objetos – Hipsters Ponto Tech #350 (<a href="https://www.hipsters.tech/techguide-orientacao-a-objetos-hipsters-ponto-tech-350/">https://www.hipsters.tech/techguide-orientacao-a-objetos-hipsters-ponto-tech-350/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> POO: o que é programação orientada a objetos? (<a href="https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos">https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos</a>)</li>
+<li><code data-kind="site">Site</code> Apostila: Java e Orientação a Objetos (<a href="https://www.alura.com.br/apostila-java-orientacao-objetos">https://www.alura.com.br/apostila-java-orientacao-objetos</a>)</li>
+<li><code data-kind="site">Site</code> Livro: Orientação a Objetos (<a href="https://www.casadocodigo.com.br/products/livro-oo-conceitos">https://www.casadocodigo.com.br/products/livro-oo-conceitos</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Orientação a objetos (com Roberta Arcoverde) (<a href="https://www.youtube.com/watch?v=jpuJ1qrluoU">https://www.youtube.com/watch?v=jpuJ1qrluoU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Imersão Java: Orientação a Objetos, APIs e além (e live coding!) (<a href="https://www.youtube.com/watch?v=WdT90ffB-0Q">https://www.youtube.com/watch?v=WdT90ffB-0Q</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Java e Orientação a Objetos (<a href="https://cursos.alura.com.br/formacao-java">https://cursos.alura.com.br/formacao-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação C# e Orientação a Objetos (<a href="https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos">https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Python e orientação a objetos (<a href="https://cursos.alura.com.br/formacao-Python-linguagem">https://cursos.alura.com.br/formacao-Python-linguagem</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Orientação a Objetos com PHP: Classes, métodos e atributos (<a href="https://www.alura.com.br/curso-online-php-oo-classes-metodos-atributos">https://www.alura.com.br/curso-online-php-oo-classes-metodos-atributos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso JavaScript: programação orientada a objetos (<a href="https://www.alura.com.br/curso-online-javascript-passos-programacao-orientada-objetos">https://www.alura.com.br/curso-online-javascript-passos-programacao-orientada-objetos</a>)</li>
+</ul>
+<h3>JSON:</h3>
 <ul><li>JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.</li>
 <li>Criar um objeto</li>
 <li>Transformar um objeto em uma string</li>
 <li>Transformar uma string em objeto</li>
 <li>Manipular um objeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Patterns</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: JSON (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Trabalhando com JSON (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao JSON (<a href="https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff">https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: O que é JSON e como criar um objeto (<a href="https://www.youtube.com/watch?v=oCY5YEEjlwE">https://www.youtube.com/watch?v=oCY5YEEjlwE</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é JSON? (<a href="https://www.alura.com.br/artigos/o-que-e-json">https://www.alura.com.br/artigos/o-que-e-json</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso MySQL e JSON: persistindo JSON de maneira eficiente (<a href="https://www.alura.com.br/curso-online-mysql-json-persistencia">https://www.alura.com.br/curso-online-mysql-json-persistencia</a>)</li>
+</ul>
+<h3>Design Patterns:</h3>
 <ul><li>Na engenharia de software, um &quot;padrão de projeto&quot; (Design Pattern em inglês) é uma solução geral e reutilizável para um problema que ocorre normalmente dentro de um determinado contexto de projeto de software.</li>
 <li>Conhecer e aplicar os principais Design Patterns</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design Patterns — O que são e quais os benefícios? (<a href="https://djesusnet.medium.com/design-patterns-gof-o-que-s%C3%A3o-e-quais-os-benef%C3%ADcios-9cd0cfdd6ebf">https://djesusnet.medium.com/design-patterns-gof-o-que-s%C3%A3o-e-quais-os-benef%C3%ADcios-9cd0cfdd6ebf</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Patterns (<a href="https://medium.com/xp-inc/design-patterns-727494af001d">https://medium.com/xp-inc/design-patterns-727494af001d</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: O que são design patterns (padrões de projetos) e para que servem? (<a href="https://www.YOUTUBE.com/watch?v=KNWd1aWtsMw">https://www.YOUTUBE.com/watch?v=KNWd1aWtsMw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> RinaldoDev: Design Patterns - o que são? Por que aprender a utilizar? (<a href="https://www.YOUTUBE.com/watch?v=AWOf6Wo6gtg">https://www.YOUTUBE.com/watch?v=AWOf6Wo6gtg</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Design Patterns – Hipsters Ponto Tech #347 (<a href="https://www.hipsters.tech/techguide-design-patterns-hipsters-ponto-tech-347/">https://www.hipsters.tech/techguide-design-patterns-hipsters-ponto-tech-347/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design patterns: Breve introdução aos padrões de projeto (<a href="https://www.alura.com.br/artigos/design-patterns-introducao-padroes-projeto">https://www.alura.com.br/artigos/design-patterns-introducao-padroes-projeto</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Design Patterns - Hipsters 206 (<a href="https://www.alura.com.br/podcast/design-patterns-hipsters-206-a345">https://www.alura.com.br/podcast/design-patterns-hipsters-206-a345</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns em Java I: boas práticas de programação (<a href="https://www.alura.com.br/curso-online-introducao-design-patterns-java">https://www.alura.com.br/curso-online-introducao-design-patterns-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns C# I: boas práticas de programação (<a href="https://www.alura.com.br/curso-online-design-patterns-dotnet">https://www.alura.com.br/curso-online-design-patterns-dotnet</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns em PHP: padrões comportamental (<a href="https://www.alura.com.br/curso-online-php-design-pattern-comportamental">https://www.alura.com.br/curso-online-php-design-pattern-comportamental</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns em PHP: padrões estruturais (<a href="https://www.alura.com.br/curso-online-php-design-pattern-estrutural">https://www.alura.com.br/curso-online-php-design-pattern-estrutural</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design Patterns em PHP: padrões criacionais (<a href="https://www.alura.com.br/curso-online-php-design-pattern-criacional">https://www.alura.com.br/curso-online-php-design-pattern-criacional</a>)</li>
+</ul>
+<h3>Python - Fundamentos:</h3>
 <ul><li>Python é uma linguagem de programação de alto nível, de uso geral, amplamente utilizada em aplicações web, desenvolvimento de software, ciência de dados e Machine Learning. Sua filosofia de projeto enfatiza a legibilidade do código com o uso de indentação significativa. Python é dinamicamente tipada e tem um garbage collector.</li>
 <li>Conhecer os tipos primitivos</li>
 <li>Declarar variáveis, considerando os diferentes tipos</li>
@@ -346,7 +752,28 @@
 <li>Obter dados de uma API</li>
 <li>Criar construtores</li>
 <li>Funções anônimas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Go (GoLang) - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Python (<a href="https://docs.python.org/pt-br/3/tutorial/">https://docs.python.org/pt-br/3/tutorial/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Programação | Python — Parte 1 (<a href="https://medium.com/turing-talks/turing-talks-4-python-parte-1-29b8d9efd0a5">https://medium.com/turing-talks/turing-talks-4-python-parte-1-29b8d9efd0a5</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao Python (<a href="https://medium.com/@goularteduarda.a/introdu%C3%A7%C3%A3o-ao-python-d30c29eba0d6">https://medium.com/@goularteduarda.a/introdu%C3%A7%C3%A3o-ao-python-d30c29eba0d6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Eduardo Mendes: Curso introdutório de Python (<a href="https://www.youtube.com/watch?v=yTQDbqmv8Ho">https://www.youtube.com/watch?v=yTQDbqmv8Ho</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Python? História, Sintaxe e um Guia para iniciar na Linguagem (<a href="https://www.alura.com.br/artigos/python">https://www.alura.com.br/artigos/python</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Python – Hipsters 122 (<a href="https://www.hipsters.tech/python-hipsters-122/">https://www.hipsters.tech/python-hipsters-122/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Python Fluente – Hipsters Ponto Tech 179 (<a href="https://www.hipsters.tech/python-fluente-hipsters-ponto-tech-179/">https://www.hipsters.tech/python-fluente-hipsters-ponto-tech-179/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: A linguagem Python - Alura Live 94 (<a href="https://www.youtube.com/watch?v=Nbt0eQHChoI">https://www.youtube.com/watch?v=Nbt0eQHChoI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é Python? (<a href="https://www.youtube.com/watch?v=-LATVnPcvHI">https://www.youtube.com/watch?v=-LATVnPcvHI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python - Uma Introdução à Linguagem (<a href="https://www.alura.com.br/artigos/python-uma-introducao-a-linguagem">https://www.alura.com.br/artigos/python-uma-introducao-a-linguagem</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python: Trabalhando com precisão em números decimais (<a href="https://www.alura.com.br/artigos/precisao-numeros-decimais-python">https://www.alura.com.br/artigos/precisao-numeros-decimais-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Listas em Python: operações básicas (<a href="https://www.alura.com.br/artigos/listas-no-python">https://www.alura.com.br/artigos/listas-no-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como comparar objetos no Python? (<a href="https://www.alura.com.br/artigos/como-comparar-objetos-no-python">https://www.alura.com.br/artigos/como-comparar-objetos-no-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python datetime: Lidando com datas e horários (<a href="https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-python">https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Python: crie a sua primeira aplicação (<a href="https://cursos.alura.com.br/course/python-crie-sua-primeira-aplicacao">https://cursos.alura.com.br/course/python-crie-sua-primeira-aplicacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Python e orientação a objetos (<a href="https://cursos.alura.com.br/formacao-linguagem-python">https://cursos.alura.com.br/formacao-linguagem-python</a>)</li>
+</ul>
+<h3>Go (GoLang) - Fundamentos:</h3>
 <ul><li>Go é uma linguagem de programação de alto nível compilada e estaticamente tipada, desenvolvida no Google. Ela é sintaticamente semelhante ao C, mas também tem memory safety, coletor de lixo, tipagem estrutural e concorrência.</li>
 <li>Entender a sua sintaxe</li>
 <li>Conhecer os tipos primitivos</li>
@@ -358,7 +785,28 @@
 <li>Tratamento de erros</li>
 <li>Convenções de código</li>
 <li>Manipular Coleções, arrays e listas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Java - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Go: Começando com Go (inglês) (<a href="https://go.dev/doc/tutorial/getting-started">https://go.dev/doc/tutorial/getting-started</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Go: Criando um módulo Go (inglês) (<a href="https://go.dev/doc/tutorial/create-module">https://go.dev/doc/tutorial/create-module</a>)</li>
+<li><code data-kind="artigo">Artigo</code> GoLang — Simplificando a complexidade (<a href="https://medium.com/trainingcenter/golang-d94e16d4b383">https://medium.com/trainingcenter/golang-d94e16d4b383</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Trabalhando com concorrência em Go — com benchmark (<a href="https://vinnynordi.com/trabalhando-com-concorr%C3%AAncia-em-go-com-benchmark-aecefdc7ab7c">https://vinnynordi.com/trabalhando-com-concorr%C3%AAncia-em-go-com-benchmark-aecefdc7ab7c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Golang (A Linguagem do Futuro?) // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=Q0sKAMal4WQ&ab_channel=edureka%21">https://www.youtube.com/watch?v=Q0sKAMal4WQ&amp;ab_channel=edureka%21</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Léo Miranda Dev: Primeiros passos em Go (Golang) (<a href="https://www.youtube.com/watch?v=Q0sKAMal4WQ&ab_channel=edureka%21">https://www.youtube.com/watch?v=Q0sKAMal4WQ&amp;ab_channel=edureka%21</a>)</li>
+<li><code data-kind="youtube">YouTube</code> edureka!: Golang Tutorial For Beginners (<a href="https://www.youtube.com/watch?v=Q0sKAMal4WQ&ab_channel=edureka%21">https://www.youtube.com/watch?v=Q0sKAMal4WQ&amp;ab_channel=edureka%21</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Variáveis em Go: como elas funcionam? (<a href="https://www.alura.com.br/artigos/variaves-com-go-lang">https://www.alura.com.br/artigos/variaves-com-go-lang</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Estruturas básicas de controle com GO (<a href="https://www.alura.com.br/artigos/estruturas-basicas-de-controle-com-go">https://www.alura.com.br/artigos/estruturas-basicas-de-controle-com-go</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conversão de tipos com Go (<a href="https://www.alura.com.br/artigos/conversao-de-tipos-com-go">https://www.alura.com.br/artigos/conversao-de-tipos-com-go</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando uma simples aplicação web com GO (<a href="https://www.alura.com.br/artigos/criando-uma-simples-aplicacao-web-com-go">https://www.alura.com.br/artigos/criando-uma-simples-aplicacao-web-com-go</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Golang: trabalhando com datas (<a href="https://www.alura.com.br/artigos/golang-trabalhando-com-datas">https://www.alura.com.br/artigos/golang-trabalhando-com-datas</a>)</li>
+<li><code data-kind="podcast">Podcast</code> A linguagem Go – Hipsters #67 (<a href="https://www.hipsters.tech/linguagem-go-hipsters-67/">https://www.hipsters.tech/linguagem-go-hipsters-67/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Ecossistemas Golang- Hipsters Ponto Tech #296 (<a href="https://www.hipsters.tech/ecossistemas-golang-hipsters-ponto-tech-296/">https://www.hipsters.tech/ecossistemas-golang-hipsters-ponto-tech-296/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Conhecendo a linguagem Go | Hipsters.Talks (<a href="https://www.youtube.com/watch?v=y8FeZMv37WU&ab_channel=Alura">https://www.youtube.com/watch?v=y8FeZMv37WU&amp;ab_channel=Alura</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Linguagem Go (<a href="https://www.alura.com.br/formacao-go">https://www.alura.com.br/formacao-go</a>)</li>
+</ul>
+<h3>Java - Fundamentos:</h3>
 <ul><li>Java é uma linguagem de programação amplamente usada para codificar aplicações Web. Java é uma linguagem multiplataforma, orientada a objetos e centrada em rede que pode ser usada como uma plataforma em si. É uma linguagem de programação rápida, segura e confiável para codificar tudo, desde aplicações móveis e software empresarial até aplicações de big data e tecnologias do servidor.</li>
 <li>Conhecer os tipos primitivos</li>
 <li>Declarar variáveis, considerando os diferentes tipos</li>
@@ -370,7 +818,31 @@
 <li>Manipular arrays e listas</li>
 <li>Obter dados de uma API</li>
 <li>Criar construtores</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> O que é Java? (<a href="https://aws.amazon.com/pt/what-is/java/">https://aws.amazon.com/pt/what-is/java/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Aprenda Comigo: Java — Parte 1 (<a href="https://medium.com/clebertech/aprenda-comigo-java-parte-1-42ef8fddd8b6">https://medium.com/clebertech/aprenda-comigo-java-parte-1-42ef8fddd8b6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> FernandaDev: Java (Aula 1 - Classes, Objetos, Atributos e Métodos) (<a href="https://www.youtube.com/watch?v=ohmHbdUhAGc">https://www.youtube.com/watch?v=ohmHbdUhAGc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Loiane Groner: Primeiro Programa em Java (<a href="https://youtu.be/mu2ti43cgwc">https://youtu.be/mu2ti43cgwc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Java: o que é, linguagem e um Guia para iniciar na tecnologia (<a href="https://www.alura.com.br/artigos/java">https://www.alura.com.br/artigos/java</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 313 - Ecossistema Java revisitado (<a href="https://www.hipsters.tech/ecossistema-java-revisitado-hipsters-ponto-tech-313/">https://www.hipsters.tech/ecossistema-java-revisitado-hipsters-ponto-tech-313/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como começar a desenvolver em Java? (<a href="https://www.alura.com.br/artigos/comecando-com-o-desenvolvimento-java">https://www.alura.com.br/artigos/comecando-com-o-desenvolvimento-java</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Meu primeiro programa em Java (<a href="https://www.alura.com.br/artigos/meu-primeiro-programa-em-java">https://www.alura.com.br/artigos/meu-primeiro-programa-em-java</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Java: Conheça o método main (<a href="https://www.alura.com.br/artigos/metodo-main-em-java">https://www.alura.com.br/artigos/metodo-main-em-java</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Desenvolvendo aplicações Java com o VS Code (<a href="https://www.alura.com.br/artigos/desenvolvendo-aplicacoes-java-vs-code">https://www.alura.com.br/artigos/desenvolvendo-aplicacoes-java-vs-code</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Diferença entre int e Integer em Java (<a href="https://www.alura.com.br/artigos/diferenca-entre-int-e-integer-em-java">https://www.alura.com.br/artigos/diferenca-entre-int-e-integer-em-java</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como converter String para Date em Java (<a href="https://www.alura.com.br/artigos/como-converter-string-para-date-em-java">https://www.alura.com.br/artigos/como-converter-string-para-date-em-java</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Iterando uma lista em Java (<a href="https://www.alura.com.br/artigos/iterando-uma-lista-em-java">https://www.alura.com.br/artigos/iterando-uma-lista-em-java</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Importando classes no Java (<a href="https://www.alura.com.br/artigos/importando-classes-em-java">https://www.alura.com.br/artigos/importando-classes-em-java</a>)</li>
+<li><code data-kind="site">Site</code> Apostila: Java e Orientação a Objetos (<a href="https://www.alura.com.br/apostila-java-orientacao-objetos">https://www.alura.com.br/apostila-java-orientacao-objetos</a>)</li>
+<li><code data-kind="site">Site</code> Apostila: Java para Desenvolvimento Web (<a href="https://www.alura.com.br/apostila-java-web">https://www.alura.com.br/apostila-java-web</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é o Java? (<a href="https://www.youtube.com/watch?v=90NcVNsKGik">https://www.youtube.com/watch?v=90NcVNsKGik</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Java e Orientação a Objetos (<a href="https://cursos.alura.com.br/formacao-java">https://cursos.alura.com.br/formacao-java</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Java (<a href="https://7daysofcode.io/matricula/java">https://7daysofcode.io/matricula/java</a>)</li>
+</ul>
+<h3>JavaScript - Fundamentos:</h3>
 <ul><li>JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.</li>
 <li>Conhecer os tipos primitivos</li>
 <li>Declarar variáveis, considerando a diferença entre &#39;var&#39;, &#39;let&#39; e &#39;const&#39;</li>
@@ -383,7 +855,40 @@
 <li>Fazer um CRUD</li>
 <li>Obter dados de uma API</li>
 <li>Fazer chamadas assíncronas usando &#39;Async/Await&#39;, &#39;Promise&#39;, etc</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>PHP - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Um primeiro mergulho no JavaScript (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Trabalhando com texto — strings em JavaScript (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Strings">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Strings</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: if...else (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: while (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: for (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Arrays (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Arrays">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Arrays</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Template strings (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Definindo Funções em Javascript (<a href="https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/">https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como manipular arrays e objetos em JavaScript (<a href="https://www.youtube.com/watch?v=yS7AcF-xRUg">https://www.youtube.com/watch?v=yS7AcF-xRUg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: O que é Json e como criar um objeto (<a href="https://www.youtube.com/watch?v=oCY5YEEjlwE">https://www.youtube.com/watch?v=oCY5YEEjlwE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como usar Async/Await? Promises no JavaScript? (<a href="https://www.youtube.com/watch?v=q28lfkBd9F4">https://www.youtube.com/watch?v=q28lfkBd9F4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como pegar dados de uma API? Como fazer AJAX? | Pegando dados de serviços via JavaScript (<a href="https://www.youtube.com/watch?v=85vJXFpXLQw">https://www.youtube.com/watch?v=85vJXFpXLQw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> JavaScript: o que é, como aprender e um Guia da linguagem mais popular do mundo (<a href="https://www.alura.com.br/artigos/javascript/">https://www.alura.com.br/artigos/javascript/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 38 - O Reino encantado do JavaScript (<a href="https://www.hipsters.tech/o-reino-encantado-do-javascript-hipsters-38/">https://www.hipsters.tech/o-reino-encantado-do-javascript-hipsters-38/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 169 - JavaScript: manual de sobrevivência 2020 (<a href="https://www.hipsters.tech/javascript-manual-de-sobrevivencia-2020-hipsters-169/">https://www.hipsters.tech/javascript-manual-de-sobrevivencia-2020-hipsters-169/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 236 - Evolução do JavaScript (<a href="https://www.hipsters.tech/evolucao-do-javascript-hipsters-ponto-tech-236/">https://www.hipsters.tech/evolucao-do-javascript-hipsters-ponto-tech-236/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Strings com JavaScript: o que são e como manipulá-las (<a href="https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular">https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como utilizar operadores de comparação em Javascript (<a href="https://www.alura.com.br/artigos/operadores-matematicos-em-javascript">https://www.alura.com.br/artigos/operadores-matematicos-em-javascript</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Para que serve um Array? (<a href="https://www.alura.com.br/artigos/javascript-para-que-serve-array">https://www.alura.com.br/artigos/javascript-para-que-serve-array</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Quando usar forEach e map? (<a href="https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map">https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Manipulação de array com map, filter e reduce (<a href="https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce">https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Desenvolva aplicações Web com JavaScript (<a href="https://cursos.alura.com.br/formacao-javascript-front-end">https://cursos.alura.com.br/formacao-javascript-front-end</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é JavaScript? (<a href="https://www.youtube.com/watch?v=NaVSbnnV75Q">https://www.youtube.com/watch?v=NaVSbnnV75Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Destructuring em JavaScript (<a href="https://www.youtube.com/watch?v=f8a-qwKC5yk">https://www.youtube.com/watch?v=f8a-qwKC5yk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Classes x funções no Javascript (<a href="https://www.youtube.com/watch?v=iohhj-k9L6s">https://www.youtube.com/watch?v=iohhj-k9L6s</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM (<a href="https://7daysofcode.io/matricula/javascript-e-dom">https://7daysofcode.io/matricula/javascript-e-dom</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM com API (<a href="https://7daysofcode.io/matricula/javascript-e-dom-api">https://7daysofcode.io/matricula/javascript-e-dom-api</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM - Wordle (<a href="https://7daysofcode.io/matricula/javascript-e-dom-wordle">https://7daysofcode.io/matricula/javascript-e-dom-wordle</a>)</li>
+</ul>
+<h3>PHP - Fundamentos:</h3>
 <ul><li>PHP é uma linguagem de programação que permite aos desenvolvedores web criar conteúdo dinâmico que interage com bancos de dados. O PHP é basicamente usado para desenvolver aplicações de software baseadas na web.</li>
 <li>Conhecer os tipos primitivos</li>
 <li>Declarar variáveis</li>
@@ -392,7 +897,30 @@
 <li>Usar estruturas de repetição e laços (&#39;while&#39;, &#39;for&#39;)</li>
 <li>Usar funções, passando parâmetros e argumentos</li>
 <li>Manipular arrays e listas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação PHP (<a href="https://www.php.net/manual/pt_BR/index.php">https://www.php.net/manual/pt_BR/index.php</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao PHP (<a href="https://medium.com/caf%C3%A9-com-java/introdu%C3%A7%C3%A3o-ao-php-91472783da7c">https://medium.com/caf%C3%A9-com-java/introdu%C3%A7%C3%A3o-ao-php-91472783da7c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia prático do Modern PHP: desenvolvimento e ecossistema (<a href="https://medium.com/@FernandoDebrand/guia-pr%C3%A1tico-do-modern-php-desenvolvimento-e-ecossistema-c9715184e463">https://medium.com/@FernandoDebrand/guia-pr%C3%A1tico-do-modern-php-desenvolvimento-e-ecossistema-c9715184e463</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Curso de PHP Básico (<a href="https://medium.com/walternascimentobarroso-pt/curso-de-php-b%C3%A1sico-fa984be7c9b9">https://medium.com/walternascimentobarroso-pt/curso-de-php-b%C3%A1sico-fa984be7c9b9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mjailton: O que é PHP ? Saiba tudo sobre esta Linguagem (<a href="https://www.youtube.com/watch?v=va4WIzo211Y">https://www.youtube.com/watch?v=va4WIzo211Y</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mjailton: Aprenda Como Rodar o PHP (<a href="https://www.youtube.com/watch?v=xKkipZ133_s">https://www.youtube.com/watch?v=xKkipZ133_s</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: PHP não é coisa de sobrinho - Hipsters Ponto Tech 36 (<a href="https://cursos.alura.com.br/extra/hipsterstech/php-nao-e-coisa-de-sobrinho-hipsters-36-a550">https://cursos.alura.com.br/extra/hipsterstech/php-nao-e-coisa-de-sobrinho-hipsters-36-a550</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: PHP8, Mudanças e Ecossistema - Hipsters Ponto Tech 241 (<a href="https://cursos.alura.com.br/extra/hipsterstech/php8-mudancas-e-ecossistema-hipsters-ponto-tech-241-a789">https://cursos.alura.com.br/extra/hipsterstech/php8-mudancas-e-ecossistema-hipsters-ponto-tech-241-a789</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Ecossistema PHP | HipstersPontoTube (<a href="https://www.youtube.com/watch?v=yD3BqXWHua4">https://www.youtube.com/watch?v=yD3BqXWHua4</a>)</li>
+<li><code data-kind="artigo">Artigo</code> PHP - Uma Introdução à Linguagem (<a href="https://www.alura.com.br/artigos/php-uma-introducao-linguagem">https://www.alura.com.br/artigos/php-uma-introducao-linguagem</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Quando usar == ou === em php? (<a href="https://www.alura.com.br/artigos/quando-usar-ou-em-php">https://www.alura.com.br/artigos/quando-usar-ou-em-php</a>)</li>
+<li><code data-kind="artigo">Artigo</code> PHP: operação com números decimais (<a href="https://www.alura.com.br/artigos/php-operacoes-com-numeros-decimais">https://www.alura.com.br/artigos/php-operacoes-com-numeros-decimais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Trabalhando com arrays em PHP (<a href="https://www.alura.com.br/artigos/trabalhando-com-arrays-em-php">https://www.alura.com.br/artigos/trabalhando-com-arrays-em-php</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação PHP (<a href="https://cursos.alura.com.br/formacao-linguagem-php">https://cursos.alura.com.br/formacao-linguagem-php</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso PHP: conceitos, lidando com dados, loops e mais (<a href="https://cursos.alura.com.br/course/php-primeiros-passos">https://cursos.alura.com.br/course/php-primeiros-passos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso PHP: manipulando coleções com Arrays (<a href="https://cursos.alura.com.br/course/php-manipulando-colecoes-arrays">https://cursos.alura.com.br/course/php-manipulando-colecoes-arrays</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso PHP Strings: manipulando textos com PHP (<a href="https://cursos.alura.com.br/course/php-strings-manipulando-textos-php">https://cursos.alura.com.br/course/php-strings-manipulando-textos-php</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: PHP (<a href="https://7daysofcode.io/matricula/php">https://7daysofcode.io/matricula/php</a>)</li>
+</ul>
+<h3>C# - Fundamentos:</h3>
 <ul><li>C# é uma linguagem de programação, multiparadigma, de tipagem forte, desenvolvida pela Microsoft como parte da plataforma .NET. O código fonte é compilado para Common Intermediate Language (CIL) que é interpretado pela máquina virtual Common Language Runtime (CLR). É projetada para funcionar na Common Language Infrastructure da plataforma .NET Framework.</li>
 <li>Conhecer os tipos primitivos</li>
 <li>Declarar variáveis, considerando os diferentes tipos</li>
@@ -405,9 +933,28 @@
 <li>Obter dados de uma API</li>
 <li>Fazer chamadas assíncronas, etc</li>
 <li>Criar construtores</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Microsoft Docs: Um tour pela linguagem C# (<a href="https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/">https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Iniciando com C# - O C# e o Ambiente de Desenvolvimento (<a href="https://medium.com/blogmikaeriohana/iniciando-com-c-parte-1-o-c-e-o-ambiente-de-desenvolvimento-d0e9c3cb2692">https://medium.com/blogmikaeriohana/iniciando-com-c-parte-1-o-c-e-o-ambiente-de-desenvolvimento-d0e9c3cb2692</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Diogo Costa Dev: O que é C# (<a href="https://www.youtube.com/watch?v=KiJOC1mXuTc">https://www.youtube.com/watch?v=KiJOC1mXuTc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Márcio Fessini: C# - O que é .NET? (<a href="https://www.youtube.com/watch?v=C-7YXpLsFmI">https://www.youtube.com/watch?v=C-7YXpLsFmI</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipster.tech: Presente e Futuro do .NET – Hipsters 26 (<a href="https://www.hipsters.tech/passado-e-futuro-do-net-hipsters-26/">https://www.hipsters.tech/passado-e-futuro-do-net-hipsters-26/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como separar palavras em String com C# (<a href="https://www.alura.com.br/artigos/como-separar-palavras-em-string-com-c">https://www.alura.com.br/artigos/como-separar-palavras-em-string-com-c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Lidando com data e hora C# (<a href="https://www.alura.com.br/artigos/lidando-com-data-e-hora-c">https://www.alura.com.br/artigos/lidando-com-data-e-hora-c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> C#: entendendo classes e structs (<a href="https://www.alura.com.br/artigos/c-sharp-entendendo-classes-e-structs">https://www.alura.com.br/artigos/c-sharp-entendendo-classes-e-structs</a>)</li>
+<li><code data-kind="site">Site</code> Apostila: C# e Orientação a Objetos (<a href="https://www.alura.com.br/apostila-csharp-orientacao-objetos">https://www.alura.com.br/apostila-csharp-orientacao-objetos</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é o C#? (<a href="https://www.youtube.com/watch?v=0JWMVc1CqpA">https://www.youtube.com/watch?v=0JWMVc1CqpA</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação C# e Orientação a Objetos (<a href="https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos">https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Windows Forms com C# (<a href="https://cursos.alura.com.br/formacao-windows-forms-csharp">https://cursos.alura.com.br/formacao-windows-forms-csharp</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação C# e Orientação a Objetos: coleções, arquivos e bibliotecas (<a href="https://cursos.alura.com.br/formacao-avancando-c-sharp">https://cursos.alura.com.br/formacao-avancando-c-sharp</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: C# (<a href="https://7daysofcode.io/matricula/csharp">https://7daysofcode.io/matricula/csharp</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Windows Forms C# (<a href="https://7daysofcode.io/matricula/windows-forms">https://7daysofcode.io/matricula/windows-forms</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Front-end</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTML - Fundamentos</strong>:</li>
+<h3>HTML - Fundamentos:</h3>
 <ul><li>HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.</li>
 <li>Aprender quais tags são necessárias para um HTML básico</li>
 <li>Criar um parágrafo de texto</li>
@@ -420,7 +967,22 @@
 <li>Conectar com um arquivo de CSS</li>
 <li>Criar uma tabela</li>
 <li>Adicionar IDs e classes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CSS - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: HTML básico (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics">https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: 5 MINUTOS DE HTML PARA INICIAR EM PROGRAMAÇÃO! (<a href="https://www.youtube.com/watch?v=3oSIqIqzN3M">https://www.youtube.com/watch?v=3oSIqIqzN3M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: LANDING PAGE COM HTML e CSS! (<a href="https://www.youtube.com/watch?v=llF6vD-RljE">https://www.youtube.com/watch?v=llF6vD-RljE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: FORMULÁRIOS COM HTML e CSS! (<a href="https://www.youtube.com/watch?v=wwqOJ2o84S4">https://www.youtube.com/watch?v=wwqOJ2o84S4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> HTML: o que é, a importância para a Web, como aprender e um Guia para iniciantes (<a href="https://www.alura.com.br/artigos/html">https://www.alura.com.br/artigos/html</a>)</li>
+<li><code data-kind="alura+">Alura+</code> Alura+: Fazendo deploy de um projeto na Vercel (<a href="https://cursos.alura.com.br/extra/alura-mais/fazendo-deploy-de-um-projeto-na-vercel-c9239">https://cursos.alura.com.br/extra/alura-mais/fazendo-deploy-de-um-projeto-na-vercel-c9239</a>)</li>
+<li><code data-kind="artigo">Artigo</code> HTML, CSS e Javascript, quais as diferenças? (<a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes">https://www.alura.com.br/artigos/html-css-e-js-definicoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação HTML e CSS (<a href="https://www.alura.com.br/formacao-html-e-css">https://www.alura.com.br/formacao-html-e-css</a>)</li>
+<li><code data-kind="curso">Curso</code> Apostila: Desenvolvimento Web com HTML, CSS e JavaScript (<a href="https://www.alura.com.br/apostila-html-css-javascript">https://www.alura.com.br/apostila-html-css-javascript</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: HTML e CSS (<a href="https://7daysofcode.io/matricula/html-css">https://7daysofcode.io/matricula/html-css</a>)</li>
+</ul>
+<h3>CSS - Fundamentos:</h3>
 <ul><li>Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.</li>
 <li>Aprender a estrutura visual de uma página, com &#39;margin&#39; e &#39;padding&#39;</li>
 <li>Estabelecer o tamanho com &#39;width&#39; e &#39;height&#39;</li>
@@ -435,7 +997,45 @@
 <li>Aprender box-sizing</li>
 <li>Aprender Flexbox</li>
 <li>Aprender Grid</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>DOM - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Iniciando com CSS (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started">https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Seletores (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors">https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Cascata e herança (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance">https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Propriedade &#39;display&#39; (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/display">https://developer.mozilla.org/pt-BR/docs/Web/CSS/display</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Conceitos básicos de Flexbox (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Grid Layout (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout">https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo CSS: Display Inline, Block e Inline-Block (<a href="https://dev.to/sucodelarangela/entendendo-css-display-inline-block-e-inline-block-lic">https://dev.to/sucodelarangela/entendendo-css-display-inline-block-e-inline-block-lic</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo CSS: Pseudo-Classes e Pseudo-Elementos (<a href="https://dev.to/sucodelarangela/entendendo-css-pseudo-classes-e-pseudo-elementos-b83">https://dev.to/sucodelarangela/entendendo-css-pseudo-classes-e-pseudo-elementos-b83</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como aplicar opacidade em background-image sem afetar textos (<a href="https://dev.to/sucodelarangela/como-aplicar-opacidade-em-background-image-sem-afetar-textos-31fj">https://dev.to/sucodelarangela/como-aplicar-opacidade-em-background-image-sem-afetar-textos-31fj</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O QUE É CSS? (<a href="https://www.youtube.com/watch?v=LWU2OR19ZG4">https://www.youtube.com/watch?v=LWU2OR19ZG4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web - parte 1 (<a href="https://www.youtube.com/watch?v=KbjLtEgmZ_E">https://www.youtube.com/watch?v=KbjLtEgmZ_E</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web - parte 2 (<a href="https://www.youtube.com/watch?v=hjz6ezV9_uc">https://www.youtube.com/watch?v=hjz6ezV9_uc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: Arquitetura CSS - BEM (<a href="https://www.youtube.com/watch?v=yKPXW9aSxQI">https://www.youtube.com/watch?v=yKPXW9aSxQI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: CSS Grid Layout (<a href="https://www.youtube.com/watch?v=HBlBNAtFcdw">https://www.youtube.com/watch?v=HBlBNAtFcdw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como centralizar no CSS (<a href="https://www.youtube.com/watch?v=Cu-HP-gvggg">https://www.youtube.com/watch?v=Cu-HP-gvggg</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipster 09 - CSS: Cansei de Ser Simples (<a href="https://www.hipsters.tech/css-cansei-de-ser-simples-hipsters-09/">https://www.hipsters.tech/css-cansei-de-ser-simples-hipsters-09/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CSS: o que é, como usar no HTML e um Guia para iniciar (<a href="https://www.alura.com.br/artigos/css">https://www.alura.com.br/artigos/css</a>)</li>
+<li><code data-kind="artigo">Artigo</code> HTML, CSS e Javascript, quais as diferenças? (<a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes">https://www.alura.com.br/artigos/html-css-e-js-definicoes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia de unidades no CSS (<a href="https://www.alura.com.br/artigos/guia-de-unidades-no-css">https://www.alura.com.br/artigos/guia-de-unidades-no-css</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CSS: Guia do Flexbox (<a href="https://www.alura.com.br/artigos/css-guia-do-flexbox">https://www.alura.com.br/artigos/css-guia-do-flexbox</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como fazer Grids e a Responsividade na Web (<a href="https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web">https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como criar animações incríveis com CSS (<a href="https://www.alura.com.br/artigos/animacoes-com-css">https://www.alura.com.br/artigos/animacoes-com-css</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Houdini CSS: um jeito mágico de criar estilos personalizados (<a href="https://www.alura.com.br/artigos/houdini-css">https://www.alura.com.br/artigos/houdini-css</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: CSS FlexBox: Dicas para começar (<a href="https://www.youtube.com/watch?v=326-B1avuYo">https://www.youtube.com/watch?v=326-B1avuYo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Box Model e Sizing no CSS (<a href="https://www.youtube.com/watch?v=qcNUxyOWXIw">https://www.youtube.com/watch?v=qcNUxyOWXIw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Curso de HTML5 e CSS3 (<a href="https://www.youtube.com/watch?v=78AyiuxYceg">https://www.youtube.com/watch?v=78AyiuxYceg</a>)</li>
+<li><code data-kind="curso">Curso</code> Apostila: Desenvolvimento Web com HTML, CSS e JavaScript (<a href="https://www.alura.com.br/apostila-html-css-javascript">https://www.alura.com.br/apostila-html-css-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação HTML e CSS (<a href="https://www.alura.com.br/formacao-html-e-css">https://www.alura.com.br/formacao-html-e-css</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação CSS: aprofunde em estilos (<a href="https://cursos.alura.com.br/formacao-css-estilos">https://cursos.alura.com.br/formacao-css-estilos</a>)</li>
+<li><code data-kind="curso">Curso</code> HTML e CSS: responsividade com mobile-first (<a href="https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first">https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first</a>)</li>
+<li><code data-kind="curso">Curso</code> CSS: cursos para transformar designs com Grid, Flexbox e Sass (<a href="https://cursos.alura.com.br/formacao-css-cursos-transformar-designs-grid-flexbox-sass">https://cursos.alura.com.br/formacao-css-cursos-transformar-designs-grid-flexbox-sass</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: HTML e CSS (<a href="https://7daysofcode.io/matricula/html-css">https://7daysofcode.io/matricula/html-css</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Responsividade (<a href="https://7daysofcode.io/matricula/responsividade">https://7daysofcode.io/matricula/responsividade</a>)</li>
+</ul>
+<h3>DOM - Fundamentos:</h3>
 <ul><li>O Document Object Model (DOM) é uma interface de programação para documentos web. Ele representa a página para que os programas possam alterar a estrutura, o estilo e o conteúdo do documento. O DOM representa o documento como nós e objetos; dessa forma, linguagens de programação podem interagir com a página.</li>
 <li>Entender como funciona a árvore do DOM</li>
 <li>Acessar e manipular elementos do HTML e CSS</li>
@@ -443,13 +1043,39 @@
 <li>Inserir um novo elemento na árvore</li>
 <li>Remover um elemento da árvore</li>
 <li>Esperar por um evento em certo elemento da página usando &#39;addEventListener()&#39;</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estratégias de SEO</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Introdução ao DOM (<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction">https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: querySelector() (<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector">https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: addEventListener() (<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener">https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Felipe Aguiar - Laboratório de javascript: Javascript DOM 01 - DOM - A base da manipulação e criação de páginas dinâmicas (<a href="https://www.youtube.com/watch?v=G31EuXNMDPk">https://www.youtube.com/watch?v=G31EuXNMDPk</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso JavaScript: manipulando o DOM (<a href="https://cursos.alura.com.br/course/javascript-manipulando-elementos-dom">https://cursos.alura.com.br/course/javascript-manipulando-elementos-dom</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia para manipular eventos no DOM com JavaScript: técnicas e exemplos práticos (<a href="https://www.alura.com.br/artigos/eventos-do-dom">https://www.alura.com.br/artigos/eventos-do-dom</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM (<a href="https://7daysofcode.io/matricula/javascript-e-dom">https://7daysofcode.io/matricula/javascript-e-dom</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM com API (<a href="https://7daysofcode.io/matricula/javascript-e-dom-api">https://7daysofcode.io/matricula/javascript-e-dom-api</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM - Wordle (<a href="https://7daysofcode.io/matricula/javascript-e-dom-wordle">https://7daysofcode.io/matricula/javascript-e-dom-wordle</a>)</li>
+</ul>
+<h3>Estratégias de SEO:</h3>
 <ul><li>SEO significa otimização para motores de busca e que diz respeito as estratégias usadas para ranquear um site dentro de mecanismos de busca como o Yahoo, o Bing e, claro, o mais famoso de todos, o Google.</li>
 <li>Escolher palavras-chave</li>
 <li>Entender como o Google classifica páginas</li>
 <li>Conhecer os fatores de rankeamento</li>
 <li>Fazer Link Building</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Guia completo de SEO — Como fazer e quais são as boas práticas (<a href="https://medium.com/@redacaogalata/guia-completo-de-seo-como-fazer-e-quais-s%C3%A3o-as-boas-pr%C3%A1ticas-529ea97fdc98">https://medium.com/@redacaogalata/guia-completo-de-seo-como-fazer-e-quais-s%C3%A3o-as-boas-pr%C3%A1ticas-529ea97fdc98</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Kenneth Corrêa: SEO - O que é SEO? (<a href="https://www.youtube.com/watch?v=BJpf9VD7A5g">https://www.youtube.com/watch?v=BJpf9VD7A5g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Canal do Consultor: Introdução ao SEO: O que é? Para que serve? Diferenças entre SEO e SEM (<a href="https://www.youtube.com/watch?v=hn0DDvCB5eg">https://www.youtube.com/watch?v=hn0DDvCB5eg</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SEO: o que é, boas práticas e ferramentas para a sua estratégia dar certo (<a href="https://www.alura.com.br/artigos/seo-o-que-e-boas-praticas-ferramentas-estrategia">https://www.alura.com.br/artigos/seo-o-que-e-boas-praticas-ferramentas-estrategia</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: SEO moderno - Hipsters Ponto Tech 289 (<a href="https://www.alura.com.br/podcast/hipsterstech-seo-moderno-hipsters-ponto-tech-289-a1394">https://www.alura.com.br/podcast/hipsterstech-seo-moderno-hipsters-ponto-tech-289-a1394</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: SEO e Youtube - Layers ponto tech 38 (<a href="https://www.alura.com.br/podcast/seo-e-youtube-layers-ponto-tech-38-a1081">https://www.alura.com.br/podcast/seo-e-youtube-layers-ponto-tech-38-a1081</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Como rankear bem no Google? (<a href="https://www.youtube.com/watch?v=PfGyzrLGqZ8">https://www.youtube.com/watch?v=PfGyzrLGqZ8</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação SEO (<a href="https://www.alura.com.br/formacao-seo">https://www.alura.com.br/formacao-seo</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

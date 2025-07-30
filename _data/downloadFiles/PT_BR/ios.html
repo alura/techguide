@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,16 +249,30 @@
   </div>
 
   <div class="content">
-    <h1>iOS</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Swift - Fundamentos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Swift - Fundamentos:</h3>
 <ul><li>Swift é uma linguagem de programação de código aberto desenvolvida pela Apple Inc. e pela comunidade de desenvolvedores. É projetada para ser segura, rápida e intuitiva. Swift é a linguagem preferida para o desenvolvimento de aplicativos iOS, macOS, watchOS e tvOS. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer as palavras chaves do Swift;</li>
 <li>Entender como funciona o controle de fluxo e as condicionais;</li>
 <li>Construir aplicações de terminal usando Swift;</li>
 <li>Conhecer os protocolos de Encodable e Decodable;</li>
 <li>Compreender e aprender a usar coleções no Swift.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - UIKit - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Começando no Swift (inglês) (<a href="https://www.swift.org/getting-started/">https://www.swift.org/getting-started/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Playlist do Youtube: Fundamentos do Swift | Michel Lopes (<a href="https://www.youtube.com/watch?v=e6eIPukdnRk&list=PLs5gUvDGMKI8DF0rOLFMZk9SYqX4AN2fl">https://www.youtube.com/watch?v=e6eIPukdnRk&amp;list=PLs5gUvDGMKI8DF0rOLFMZk9SYqX4AN2fl</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Swift (a linguagem do iOS) // Dicionário do Programador | Código Fonte TV (<a href="https://youtu.be/ELa-PgWlYDI">https://youtu.be/ELa-PgWlYDI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Diferenças e Curiosidades de Class e Struct no Swift 🇧🇷 | Michel Lopes (<a href="https://youtu.be/NsMJb43X7jE">https://youtu.be/NsMJb43X7jE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> [SWIFT] STRUCT OU CLASS, PRA QUE SERVE? | DevPoli (<a href="https://youtu.be/tKSNjg9Cb_g">https://youtu.be/tKSNjg9Cb_g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> (Playlist) Curso de Swift do Zero | Tiago Aguiar (<a href="https://www.youtube.com/watch?v=MnL3-a3eKNQ&list=PLJ0AcghBBWShgIH122uw7H9T9-NIaFpP-&index=1">https://www.youtube.com/watch?v=MnL3-a3eKNQ&amp;list=PLJ0AcghBBWShgIH122uw7H9T9-NIaFpP-&amp;index=1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Coleções Sets, explorando seu poder e peculiaridades. | Medium (<a href="https://medium.com/@msmatheusmatos/cole%C3%A7%C3%B5es-sets-explorando-seu-poder-e-peculiaridades-526ee361384a">https://medium.com/@msmatheusmatos/cole%C3%A7%C3%B5es-sets-explorando-seu-poder-e-peculiaridades-526ee361384a</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é iOS: o sistema operacional dos dispositivos móveis da Apple (<a href="https://www.alura.com.br/artigos/o-que-e-ios">https://www.alura.com.br/artigos/o-que-e-ios</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Closures no Swift: o que são e como utilizá-las (<a href="https://www.alura.com.br/artigos/closures-swift-como-utiliza-las">https://www.alura.com.br/artigos/closures-swift-como-utiliza-las</a>)</li>
+<li><code data-kind="curso">Curso</code> Domine a linguagem Swift (<a href="https://cursos.alura.com.br/formacao-domine-linguagem-swift">https://cursos.alura.com.br/formacao-domine-linguagem-swift</a>)</li>
+</ul>
+<h3>iOS - UIKit - Fundamentos:</h3>
 <ul><li>O UIKit é a biblioteca de código padrão para aplicativos iOS. Ele fornece uma ampla gama de recursos para criar interfaces de usuário, incluindo views, controles e animações. O UIKit é uma ótima maneira de criar aplicativos iOS que sejam visualmente atraentes e fáceis de usar. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer Swift ou Objective-C que são as linguagens para desenvolver apps iOS;</li>
 <li>Entender como o SDK do iOS funciona (Core Foundation e Cocoa Touch);</li>
@@ -226,7 +280,21 @@
 <li>Dominar a criação de interfaces utilizando o UIKit, tanto através de código (ViewCode) quanto pelo uso de Storyboards;</li>
 <li>Explorar os princípios de Auto Layout e como criar layouts flexíveis e responsivos para diferentes tamanhos de tela;</li>
 <li>Implementar a navegação entre telas e a passagem de dados utilizando o sistema de view controllers do UIKit.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos de Orientação a Objetos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Introdução à interface programatica - UIKIT | Xcode 14 (inglês) (<a href="https://youtu.be/_U6_l58Cv4E">https://youtu.be/_U6_l58Cv4E</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Desenvolvimento iOS UIKit | freeCodeCamp.org (inglês) (<a href="https://youtu.be/KCgYDCKqato">https://youtu.be/KCgYDCKqato</a>)</li>
+<li><code data-kind="site">Site</code> Documentação oficial Apple - UIKit (inglês) (<a href="https://developer.apple.com/documentation/uikit">https://developer.apple.com/documentation/uikit</a>)</li>
+<li><code data-kind="site">Site</code> Documentação oficial Apple - Cocoa Touch (inglês) (<a href="https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CocoaFundamentals/Introduction/Introduction.html">https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CocoaFundamentals/Introduction/Introduction.html</a>)</li>
+<li><code data-kind="site">Site</code> Documentação oficial Apple - Core Foundation (inglês) (<a href="https://developer.apple.com/documentation/corefoundation">https://developer.apple.com/documentation/corefoundation</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> iOS e Swift: Diferenças na construção de layouts com Storyboard, XIB e View Code (<a href="https://www.alura.com.br/artigos/ios-swift-diferencas-construcao-layouts-storyboard-xib-view-code">https://www.alura.com.br/artigos/ios-swift-diferencas-construcao-layouts-storyboard-xib-view-code</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Desenvolvimento iOS pra iniciantes com Giovanna Moeller | #HipstersPontoTube (<a href="https://youtu.be/MGIs7DSQ-0A">https://youtu.be/MGIs7DSQ-0A</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Desenvolvimento iOS com Giovanna Moeller | #HipstersPontoTube (<a href="https://youtu.be/4AH9H_dx_7g">https://youtu.be/4AH9H_dx_7g</a>)</li>
+<li><code data-kind="curso">Curso</code> iOS: construindo seu primeiro aplicativo (<a href="https://cursos.alura.com.br/course/ios-construindo-primeiro-aplicativo">https://cursos.alura.com.br/course/ios-construindo-primeiro-aplicativo</a>)</li>
+</ul>
+<h3>Conceitos de Orientação a Objetos:</h3>
 <ul><li>A Programação Orientada a Objetos é um paradigma de programação de software baseado na composição e interação entre diversas unidades chamadas de &#39;objetos&#39; e as classes, que contêm uma identidade, propriedades e métodos). Ela é baseada em quatro componentes da programação: abstração digital, encapsulamento, herança e polimorfismo.</li>
 <li>Como funcionam objetos</li>
 <li>Criar e utilizar construtores</li>
@@ -237,33 +305,104 @@
 <li>O que é polimorfismo</li>
 <li>Como funcionam interfaces</li>
 <li>O que são abstrações</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Storyboard</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Princípios básicos da Programação Orientação a Objetos (POO) (<a href="https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce">https://yanborowski.medium.com/princ%C3%ADpios-b%C3%A1sicos-da-programa%C3%A7%C3%A3o-orienta%C3%A7%C3%A3o-a-objetos-poo-62da3998b7ce</a>)</li>
+<li><code data-kind="youtube">YouTube</code> FernandaDev: O que é Programação Orientada a Objetos?(POO) (<a href="https://www.youtube.com/watch?v=QJjY2TNyl-8">https://www.youtube.com/watch?v=QJjY2TNyl-8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Giuliana Bezerra: Desmistificando os tipos de referência - Ep. 8 (<a href="https://youtu.be/D9hANYbPYCc">https://youtu.be/D9hANYbPYCc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Orientação a Objetos – Hipsters Ponto Tech #350 (<a href="https://www.hipsters.tech/techguide-orientacao-a-objetos-hipsters-ponto-tech-350/">https://www.hipsters.tech/techguide-orientacao-a-objetos-hipsters-ponto-tech-350/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> POO: o que é programação orientada a objetos? (<a href="https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos">https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos</a>)</li>
+<li><code data-kind="site">Site</code> Apostila: Java e Orientação a Objetos (<a href="https://www.alura.com.br/apostila-java-orientacao-objetos">https://www.alura.com.br/apostila-java-orientacao-objetos</a>)</li>
+<li><code data-kind="site">Site</code> Livro: Orientação a Objetos (<a href="https://www.casadocodigo.com.br/products/livro-oo-conceitos">https://www.casadocodigo.com.br/products/livro-oo-conceitos</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Orientação a objetos (com Roberta Arcoverde) (<a href="https://www.youtube.com/watch?v=jpuJ1qrluoU">https://www.youtube.com/watch?v=jpuJ1qrluoU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Imersão Java: Orientação a Objetos, APIs e além (e live coding!) (<a href="https://www.youtube.com/watch?v=WdT90ffB-0Q">https://www.youtube.com/watch?v=WdT90ffB-0Q</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Java e Orientação a Objetos (<a href="https://cursos.alura.com.br/formacao-java">https://cursos.alura.com.br/formacao-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação C# e Orientação a Objetos (<a href="https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos">https://cursos.alura.com.br/formacao-c-sharp-orientacao-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Python e orientação a objetos (<a href="https://cursos.alura.com.br/formacao-Python-linguagem">https://cursos.alura.com.br/formacao-Python-linguagem</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Orientação a Objetos com PHP: Classes, métodos e atributos (<a href="https://www.alura.com.br/curso-online-php-oo-classes-metodos-atributos">https://www.alura.com.br/curso-online-php-oo-classes-metodos-atributos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso JavaScript: programação orientada a objetos (<a href="https://www.alura.com.br/curso-online-javascript-passos-programacao-orientada-objetos">https://www.alura.com.br/curso-online-javascript-passos-programacao-orientada-objetos</a>)</li>
+</ul>
+<h3>iOS - Storyboard:</h3>
 <ul><li>Um storyboard no iOS é um arquivo de XML que contém um diagrama visual de uma interface do usuário. Os storyboards são usados para criar aplicativos iOS que são visualmente atraentes e fáceis de navegar. Os storyboards contêm uma hierarquia de views, que são os elementos visuais que compõem a interface do usuário. As views podem ser adicionadas aos storyboards arrastando-as da paleta de views para o diagrama. As views podem ser personalizadas alterando suas propriedades, como tamanho, cor e fonte. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer o conceito de Storyboards e como eles são usados para criar aplicativos iOS;</li>
 <li>Criar e usar Storyboards para criar layouts de interface do usuário;</li>
 <li>Implementar a navegação entre telas em aplicativos iOS;</li>
 <li>Aprofundar os princípios de Auto Layout e como criar layouts flexíveis e responsivos para diferentes tamanhos de tela.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - ViewCode</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Introdução à interface programatica - UIKIT | Xcode 14 (inglês) (<a href="https://youtu.be/_U6_l58Cv4E">https://youtu.be/_U6_l58Cv4E</a>)</li>
+<li><code data-kind="site">Site</code> Documentação oficial Apple - Storyboard (inglês) (<a href="https://developer.apple.com/library/archive/documentation/General/Conceptual/Devpedia-CocoaApp/Storyboard.html">https://developer.apple.com/library/archive/documentation/General/Conceptual/Devpedia-CocoaApp/Storyboard.html</a>)</li>
+<li><code data-kind="youtube">YouTube</code> iOS Developer Legacy: A linha do tempo com Storyboard e UIKIT | Tiago Aguiar (<a href="https://youtu.be/5WSqsnWw80Q">https://youtu.be/5WSqsnWw80Q</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> iOS e Swift: Diferenças na construção de layouts com Storyboard, XIB e View Code (<a href="https://www.alura.com.br/artigos/ios-swift-diferencas-construcao-layouts-storyboard-xib-view-code">https://www.alura.com.br/artigos/ios-swift-diferencas-construcao-layouts-storyboard-xib-view-code</a>)</li>
+<li><code data-kind="curso">Curso</code> iOS: auto layout com Constraints (<a href="https://cursos.alura.com.br/course/ios-auto-layout-constraints">https://cursos.alura.com.br/course/ios-auto-layout-constraints</a>)</li>
+<li><code data-kind="curso">Curso</code> iOS layout: mais recursos para criar telas responsivas (<a href="https://cursos.alura.com.br/course/ios-layout-parte-2-recursos-telas-responsivas">https://cursos.alura.com.br/course/ios-layout-parte-2-recursos-telas-responsivas</a>)</li>
+</ul>
+<h3>iOS - ViewCode:</h3>
 <ul><li>O método de viewcode no UIKit é uma abordagem para a criação de interfaces de usuário que envolve a codificação da interface de usuário diretamente em Swift, em vez de usar um storyboard ou nib. O método de viewcode pode ser uma ótima maneira de criar interfaces de usuário mais personalizadas e eficientes, mas é importante notar que ele pode ser mais complexo do que usar um storyboard ou nib. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer o conceito de ViewCode e como ele é usado para criar aplicativos iOS;</li>
 <li>Criar e usar ViewCode para criar layouts de interface do usuário;</li>
 <li>Explorar os princípios de Auto Layout com ViewCode.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Imagens e Ícones</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> View Code em Swift (<a href="https://medium.com/mackmobile/view-code-em-swift-6026f42bf780">https://medium.com/mackmobile/view-code-em-swift-6026f42bf780</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Manual do View Code para desenvolvedores iOS (<a href="https://betterprogramming.pub/ios-view-codes-handbook-1a08e28b0420">https://betterprogramming.pub/ios-view-codes-handbook-1a08e28b0420</a>)</li>
+<li><code data-kind="youtube">YouTube</code> COMO criar uma TELA usando ViewCode/iOS/SWIFT, Criando ViewControllers | Swift para todos (<a href="https://youtu.be/iFzTBlRVH6s">https://youtu.be/iFzTBlRVH6s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como utilizar STACK/UISTACKVIEW, tutorial em SWIFT utilizando VIEWCODE - Desenvolvimento Mobile iOS | Swift para todos (<a href="https://youtu.be/KyZZ5QthY4A">https://youtu.be/KyZZ5QthY4A</a>)</li>
+<li><code data-kind="youtube">YouTube</code> COMO criar COMPONENTES em SWIFT utilizando VIEWCODE, Criando seu aplicativo do zero com SWIFT | Swift para todos (<a href="https://youtu.be/zSzxFlIumts">https://youtu.be/zSzxFlIumts</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação: Desenvolva aplicativos iOS utilizando view code (<a href="https://cursos.alura.com.br/formacao-aplicativos-ios-view-code">https://cursos.alura.com.br/formacao-aplicativos-ios-view-code</a>)</li>
+</ul>
+<h3>iOS - Imagens e Ícones:</h3>
 <ul><li>Os recursos do app em iOS são os ativos visuais que são usados para representar o seu app. Estes recursos incluem ícones, imagens, fontes e outros tipos de arquivos. Os recursos do app são importantes porque eles ajudam os usuários a identificar e se conectar com o seu app. Eles também podem ser usados para melhorar a estética do seu app e torná-lo mais atraente para os usuários. Veja as principais habilidades que você precisa desenvolver.</li>
 <li>Conhecer os diferentes tipos de recursos de aplicativos iOS, como imagens, ícones e outros recursos;</li>
 <li>Adicionar e usar imagens, ícones e outros recursos em aplicativos iOS;</li>
 <li>Personalizar recursos de aplicativos iOS para diferentes dispositivos e resoluções de tela.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Persistência de dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Adicionando UIImage na UIView programaticamente usando swift (inglês) | Anil Kumar Giri (<a href="https://youtu.be/Qufbjtda4iQ">https://youtu.be/Qufbjtda4iQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como carregar uma imagem por uma URL no UIImageView (inglês) | Paul Hudson (<a href="https://youtu.be/8mBexDIqkI4">https://youtu.be/8mBexDIqkI4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SFSymbols - Why use them? (inglês) | CodeWithChris (<a href="https://youtu.be/HjX4cAcvAWc">https://youtu.be/HjX4cAcvAWc</a>)</li>
+</ul>
+<h3>iOS - Persistência de dados:</h3>
 <ul><li>A persistência de dados em iOS é o processo de armazenar e recuperar dados em um dispositivo iOS. Isso pode ser feito usando uma variedade de métodos, incluindo arquivos, Core Data e Realm. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer os diferentes tipos de persistência de dados no iOS, como arquivos, Core Data, SwiftData e Realm;</li>
 <li>Armazenar e recuperar dados em um aplicativo iOS usando arquivos, Core Data, SwiftData e Realm;</li>
 <li>Personalizar a persistência de dados em um aplicativo iOS para diferentes necessidades.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - SwiftUI</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação oficial Realm Database (inglês) (<a href="https://www.mongodb.com/docs/realm/introduction/">https://www.mongodb.com/docs/realm/introduction/</a>)</li>
+<li><code data-kind="site">Site</code> Documentação oficial Apple - Core Data (inglês) (<a href="https://developer.apple.com/documentation/coredata">https://developer.apple.com/documentation/coredata</a>)</li>
+<li><code data-kind="site">Site</code> Documentação oficial Apple - Conheça SwiftData (inglês) (<a href="https://developer.apple.com/videos/play/wwdc2023/10187/">https://developer.apple.com/videos/play/wwdc2023/10187/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprenda a usar o Core Data no iOS com Swift | Mobilizando (<a href="https://youtu.be/bKCpT-mAgZY">https://youtu.be/bKCpT-mAgZY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SwiftData Relationships &amp; NavigationStack | Build a Full SwiftData App (inglês) | Flo writes Code (<a href="https://youtu.be/aI9dJ8SMZzY">https://youtu.be/aI9dJ8SMZzY</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> iOS: usando recursos nativos (Core Data e Biblioteca de fotos) (<a href="https://cursos.alura.com.br/course/ios-usando-recursos-nativos">https://cursos.alura.com.br/course/ios-usando-recursos-nativos</a>)</li>
+</ul>
+<h3>iOS - SwiftUI:</h3>
 <ul><li>SwiftUI é uma biblioteca de interface de usuário declarativa para criar aplicativos iOS, iPadOS, macOS, watchOS e tvOS. Ele é construído sobre o UIKit e o AppKit, mas fornece uma maneira mais declarativa de criar interfaces de usuário. Isso torna mais fácil criar interfaces de usuário bonitas e envolventes. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer SwiftUI e como usá-lo para criar interfaces de usuário para aplicativos iOS;</li>
 <li>Usar combinações de componentes para criar layouts;</li>
 <li>Usar os métodos de navegação para adicionar mais versatilidade para seu app.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Xcode</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação oficial Apple - SwiftUI (inglês) (<a href="https://developer.apple.com/documentation/swiftui">https://developer.apple.com/documentation/swiftui</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introdução ao SwiftUI - Construindo aplicativos iOS | Girl Coding (<a href="https://youtu.be/4eC49rYeugs">https://youtu.be/4eC49rYeugs</a>)</li>
+<li><code data-kind="site">Site</code> Construindo Listas e navegações - Swift Tutorials (inglês) (<a href="https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation">https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SwiftUI Tutorial Básico (inglês) | Sean Allen (<a href="https://youtu.be/HXoVSbwWUIk">https://youtu.be/HXoVSbwWUIk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> (Playlist) Como Criar Um Aplicativo iOS completo (e simples) com SwiftUI | Tiago Aguiar (<a href="https://www.youtube.com/watch?v=Gt75k60tMjc&list=PLJ0AcghBBWSgknzUhjYpPkLiIjk4Ny3WF">https://www.youtube.com/watch?v=Gt75k60tMjc&amp;list=PLJ0AcghBBWSgknzUhjYpPkLiIjk4Ny3WF</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Vale a pena aprender SwiftUI hoje? (<a href="https://www.alura.com.br/artigos/vale-a-pena-aprender-swift-ui-hoje">https://www.alura.com.br/artigos/vale-a-pena-aprender-swift-ui-hoje</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação: Construa aplicativos iOS com SwiftUI (<a href="https://cursos.alura.com.br/formacao-ios-swiftui">https://cursos.alura.com.br/formacao-ios-swiftui</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Evolua Apps em SwiftUI: CRUD, MVVM e Autenticação (<a href="https://www.alura.com.br/formacao-apps-swiftui-crud-mvvm-autenticacao">https://www.alura.com.br/formacao-apps-swiftui-crud-mvvm-autenticacao</a>)</li>
+</ul>
+<h3>Xcode:</h3>
 <ul><li>O Xcode é a ferramenta que os desenvolvedores usam para criar apps para o ecossistema da Apple – MacOS, iOS e todos os produtos da Apple.</li>
 <li>Conhecer a ferramenta Xcode;</li>
 <li>Criar um novo projeto;</li>
@@ -272,78 +411,240 @@
 <li>Debugar é o processo de encontrar e corrigir erros em um aplicativo. É uma parte essencial do desenvolvimento de software e é importante saber como fazer debugging de forma eficaz. O Xcode é o IDE oficial da Apple para desenvolvedores iOS. Ele inclui uma série de ferramentas integradas que podem ser usadas para debugging de aplicativos, incluindo um depurador, um analisador de memória e um analisador de desempenho. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer as ferramentas e técnicas mais comuns para debugging de aplicativos iOS;</li>
 <li>Usar as ferramentas e técnicas mais comuns para debugging de aplicativos iOS para encontrar e corrigir erros.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estruturas de Dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Apple: Kit do Xcode (<a href="https://www.apple.com/br/education/docs/xcode-guide.pdf">https://www.apple.com/br/education/docs/xcode-guide.pdf</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como baixar e instalar o Xcode no seu Mac e como atualizá-lo para o desenvolvimento em iOS (<a href="https://www.freecodecamp.org/portuguese/news/como-baixar-e-instalar-o-xcode-no-seu-mac-e-como-atualiza-lo-para-o-desenvolvimento-em-ios/">https://www.freecodecamp.org/portuguese/news/como-baixar-e-instalar-o-xcode-no-seu-mac-e-como-atualiza-lo-para-o-desenvolvimento-em-ios/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Não te ensinaram a usar o debugger | Medium (<a href="https://medium.com/@dinhani/debugando-com-o-debugger-aba48a1de694">https://medium.com/@dinhani/debugando-com-o-debugger-aba48a1de694</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tiago Aguiar: Xcode - Como criar um aplicativo iOS do zero (<a href="https://www.youtube.com/watch?v=t8JI3Ur51zY&ab_channel=TiagoAguiar">https://www.youtube.com/watch?v=t8JI3Ur51zY&amp;ab_channel=TiagoAguiar</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dicas para debug no Xcode 13 (inglês) | iOS Academy (<a href="https://youtu.be/ZAqnJQn7xp4">https://youtu.be/ZAqnJQn7xp4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> XCode Breakpoints - Debug básico (inglês) | Sean Allen (<a href="https://youtu.be/qPWfOkHcKdU">https://youtu.be/qPWfOkHcKdU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Improve Debugging Skills | iOS | Swift/Obj C | Xcode (inglês) | iCode (<a href="https://youtu.be/ipuxycB1ewY">https://youtu.be/ipuxycB1ewY</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 11 atalhos que todo desenvolvedor iOS deve saber para ser mais produtivo no Xcode | Tiago Aguiar (<a href="https://tiagoaguiar.co/8-xcode-shortcuts-teclas-de-atalho">https://tiagoaguiar.co/8-xcode-shortcuts-teclas-de-atalho</a>)</li>
+</ul>
+<h3>Estruturas de Dados:</h3>
 <ul><li>No contexto dos computadores, uma estrutura de dados é uma forma específica de armazenar e organizar os dados na memória do computador para que esses dados possam ser facilmente recuperados e utilizados de forma eficiente quando necessário posteriormente.</li>
 <li>Conhecer as principais estruturas de dados</li>
 <li>Implementar as principais estruturas de dados</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Estrutura de dados (<a href="https://medium.com/php-word/estrutura-de-dados-6afb386a6fc1">https://medium.com/php-word/estrutura-de-dados-6afb386a6fc1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Estrutura de Dados e Algoritmo - parte 1 (<a href="https://medium.com/@PaoloProdossimoLopes/01-estrutura-de-dados-e-algoritmo-9cb6a9b14aa">https://medium.com/@PaoloProdossimoLopes/01-estrutura-de-dados-e-algoritmo-9cb6a9b14aa</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Estrutura de Dados e Algoritmo - parte 2 (<a href="https://medium.com/@PaoloProdossimoLopes/02-estrutura-de-dados-e-algoritmo-deba0b384a0f">https://medium.com/@PaoloProdossimoLopes/02-estrutura-de-dados-e-algoritmo-deba0b384a0f</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Estruturas de dados com JavaScript (<a href="https://www.youtube.com/watch?v=MweeZn1rR8s">https://www.youtube.com/watch?v=MweeZn1rR8s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fabio Akita: Árvores (<a href="https://www.youtube.com/watch?v=9GdesxWtOgs">https://www.youtube.com/watch?v=9GdesxWtOgs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Loiane Groner: Estrutura de Dados com Java | Lista Encadeada (<a href="https://www.youtube.com/watch?v=RW0oD2L_tSg">https://www.youtube.com/watch?v=RW0oD2L_tSg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Loiane Groner: Estrutura de Dados com Java | Filas (<a href="https://www.youtube.com/watch?v=RdoLTgJSV_c">https://www.youtube.com/watch?v=RdoLTgJSV_c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Loiane Groner: Estrutura de Dados com Java | Pilhas (<a href="https://www.youtube.com/watch?v=ZdU4wMyiTSs">https://www.youtube.com/watch?v=ZdU4wMyiTSs</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="site">Site</code> Apostila Python: Estruturas de dados (<a href="https://www.alura.com.br/apostila-python-orientacao-a-objetos/estrutura-de-dados">https://www.alura.com.br/apostila-python-orientacao-a-objetos/estrutura-de-dados</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Estruturas de dados: uma introdução (<a href="https://www.alura.com.br/artigos/estruturas-de-dados-introducao">https://www.alura.com.br/artigos/estruturas-de-dados-introducao</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Curso Estrutura de Dados: computação na prática com Java (<a href="https://www.alura.com.br/artigos/estrutura-dados-computacao-na-pratica-com-java">https://www.alura.com.br/artigos/estrutura-dados-computacao-na-pratica-com-java</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Algoritmos e estrutura de dados - Hipsters 186 (<a href="https://www.alura.com.br/podcast/hipsterstech-algoritmos-e-estrutura-de-dados-hipsters-186-a375">https://www.alura.com.br/podcast/hipsterstech-algoritmos-e-estrutura-de-dados-hipsters-186-a375</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso PHP: dominando as Collections (<a href="https://cursos.alura.com.br/course/php-dominando-collections">https://cursos.alura.com.br/course/php-dominando-collections</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Python: crie a sua primeira aplicação (<a href="https://cursos.alura.com.br/course/python-crie-sua-primeira-aplicacao">https://cursos.alura.com.br/course/python-crie-sua-primeira-aplicacao</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Estruturas de Dados (<a href="https://7daysofcode.io/matricula/estruturas-de-dados">https://7daysofcode.io/matricula/estruturas-de-dados</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Assíncrono</strong>:</li>
+<h3>iOS - Assíncrono:</h3>
 <ul><li>Assincronicidade é uma técnica de programação que permite que as tarefas sejam executadas em segundo plano, enquanto a interface do usuário continua a ser executada normalmente. Isso pode melhorar o desempenho dos aplicativos, pois evita que eles travem ou fiquem lentos enquanto aguardam a conclusão de tarefas demoradas. Uma das maneiras mais comuns de usar assincronicidade em iOS é usar os métodos async e await. Os métodos async e await permitem que você execute código em segundo plano e retorne para o código principal antes que a tarefa seja concluída. Isso pode ser útil para tarefas que demoram muito para serem concluídas, como baixar um arquivo grande ou processar uma imagem grande. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer os fundamentos da assincronicidade em iOS;</li>
 <li>Usar as classes OperationQueue e async e await para executar tarefas em segundo plano.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Comunicação com APIs</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação oficial Apple - Classe OperationQueue (<a href="https://developer.apple.com/documentation/foundation/operationqueue">https://developer.apple.com/documentation/foundation/operationqueue</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programação assíncrona vs Programação paralela - Entenda a diferença | Programando com Vinicius Dias (<a href="https://youtu.be/zLfXPSeCkB8">https://youtu.be/zLfXPSeCkB8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Async/Await Concorrência com Swift (inglês) | Swift Heroes (<a href="https://youtu.be/uWqy5KZXSlA">https://youtu.be/uWqy5KZXSlA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Playlist Concorrência em Swift (inglês) | iCode (<a href="https://www.youtube.com/watch?v=X9H2M7xMi9E&list=PLSbpzz0GJp5RTrjum9gWTqPhM4L3Kop0S&pp=iAQB">https://www.youtube.com/watch?v=X9H2M7xMi9E&amp;list=PLSbpzz0GJp5RTrjum9gWTqPhM4L3Kop0S&amp;pp=iAQB</a>)</li>
+</ul>
+<h3>iOS - Comunicação com APIs:</h3>
 <ul><li>As comunicações API em iOS são o processo de comunicação entre um aplicativo iOS e um serviço externo. Isso pode ser feito usando uma variedade de métodos, incluindo HTTP, HTTPS e Sockets. As comunicações API são importantes porque elas permitem que os aplicativos iOS acessem dados e recursos que não estão disponíveis no dispositivo local. Elas também podem ser usadas para compartilhar dados e recursos entre aplicativos iOS e serviços externos. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer os diferentes tipos de APIs que podem ser usadas em aplicativos iOS;</li>
 <li>Conhecer e utilizar bibliotecas/ferramentas para facilitar a comunicação a APIs, como o Alamofire, URLSession e Codable;</li>
 <li>Escolher e usar APIs que sejam adequadas para as necessidades do seu aplicativo;</li>
 <li>Testar comunicações API em diferentes condições para garantir que elas funcionem corretamente.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Gerenciamento de Estado</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> iOS Alamofire Tutorial (inglês) | Code Pro (<a href="https://youtu.be/5hcHbhIWIeI">https://youtu.be/5hcHbhIWIeI</a>)</li>
+<li><code data-kind="site">Site</code> Documentação oficial Alamofire (inglês) (<a href="https://alamofire.github.io/Alamofire/">https://alamofire.github.io/Alamofire/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Enviando e recebendo dados com URLSession e protocolo Codable (inglês) | Paul Hudson (<a href="https://youtu.be/MBCX1atOvdA">https://youtu.be/MBCX1atOvdA</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Alamofire - Network facilitado (inglês) (<a href="https://medium.com/codex/alamofire-networking-made-easy-108e8f55b279">https://medium.com/codex/alamofire-networking-made-easy-108e8f55b279</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> iOS com SwiftUI: fazendo requisições HTTP e conexão com API (<a href="https://www.alura.com.br/curso-online-ios-swiftui-requisicoes-http-conexao-api">https://www.alura.com.br/curso-online-ios-swiftui-requisicoes-http-conexao-api</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação: Evolua Apps em SwiftUI: CRUD, MVVM e Autenticação (<a href="https://cursos.alura.com.br/formacao-apps-swiftui-crud-mvvm-autenticacao">https://cursos.alura.com.br/formacao-apps-swiftui-crud-mvvm-autenticacao</a>)</li>
+</ul>
+<h3>iOS - Gerenciamento de Estado:</h3>
 <ul><li>Gerenciamento de estado é o processo de rastrear e gerenciar a condição de um aplicativo. Isso é importante para aplicativos que são complexos ou que têm muitos estados diferentes. No UIKit, o gerenciamento de estado é feito manualmente pelo desenvolvedor. Isso significa que o desenvolvedor é responsável por rastrear o estado do aplicativo e atualizar a interface do usuário conforme o estado muda. Existem várias maneiras diferentes de gerenciar o estado no UIKit. Uma maneira comum é usar uma estrutura de dados para armazenar o estado. No SwiftUI, o gerenciamento de estado é feito automaticamente pelo framework. Isso significa que o desenvolvedor não precisa se preocupar em rastrear o estado do aplicativo ou atualizar a interface do usuário conforme o estado muda. O SwiftUI usa um sistema de gerenciamento de estado baseado em propriedade para gerenciar o estado dos aplicativos. Isso significa que o desenvolvedor pode definir propriedades que armazenam o estado do aplicativo e o framework atualizará automaticamente a interface do usuário conforme o estado muda. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer os fundamentos do gerenciamento de estado em iOS;</li>
 <li>Conhecer programaçao reativa para frameworks que usam o padrão declarativo (UIKit);</li>
 <li>Usar estruturas de dados e bibliotecas de gerenciamento de estado para armazenar e gerenciar o estado de um aplicativo.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Recursos do sistema</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> iOS Swift Tutorial: RxSwift - Uma introdução prática (Inglês) | Brian Advent (<a href="https://youtu.be/2m92mRI8l7U">https://youtu.be/2m92mRI8l7U</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gerenciando Estados Visuais no SwiftUI - @State &amp; Binding [Ponta-a-Ponta] | Michel Lopes | Irmandade Swift (<a href="https://youtu.be/vL_UUCtRAQo">https://youtu.be/vL_UUCtRAQo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dividindo o fluxo de dados e estados no SwiftUI (inglês) | tundsdev (<a href="https://youtu.be/0Emh_7Vn3gM">https://youtu.be/0Emh_7Vn3gM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> @StateObject vs @ObservedObject vs @EnvironmentObject - Diferenças no SwiftUI | Tiago Aguiar (<a href="https://youtu.be/Iyx0lfgM0Uw">https://youtu.be/Iyx0lfgM0Uw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> iOS com SwiftUI: implementando navegação e gerenciamento de estados (<a href="https://cursos.alura.com.br/course/ios-swiftui-navegacao-gerenciamento-estados">https://cursos.alura.com.br/course/ios-swiftui-navegacao-gerenciamento-estados</a>)</li>
+</ul>
+<h3>iOS - Recursos do sistema:</h3>
 <ul><li>O iOS fornece acesso a uma variedade de recursos do sistema, incluindo localização, câmera e sensores. Esses recursos podem ser usados para criar aplicativos que são mais envolventes e informativos. Por exemplo, um aplicativo de jogos pode usar o recurso de localização para rastrear a localização do usuário e adaptar o jogo de acordo. Um aplicativo de fotografia pode usar o recurso da câmera para tirar fotos e vídeos. E um aplicativo de saúde pode usar o recurso de sensores para rastrear a atividade física do usuário. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer os recursos do sistema em iOS;</li>
 <li>Acessar a localização, a câmera e os sensores;</li>
 <li>Criar aplicativos que usam recursos do sistema.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Testes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Tutorial de Swift: Como conseguir acessar a localização no iOS (Inglês) | Brian Advent (<a href="https://youtu.be/Cu2QvjRt4zM">https://youtu.be/Cu2QvjRt4zM</a>)</li>
+<li><code data-kind="site">Site</code> Documentação oficial Apple - Core Location (inglês) (<a href="https://developer.apple.com/documentation/corelocation">https://developer.apple.com/documentation/corelocation</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Acessando a Câmera e a Galeria do iOS com Swift 5 | Medium (<a href="https://medium.com/mackmobile/acessando-cc6f7d5753c9">https://medium.com/mackmobile/acessando-cc6f7d5753c9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Idiomas: Domine a internacionalização de aplicativos | Tiago Aguiar (<a href="https://youtu.be/7lSYbEH17Qo">https://youtu.be/7lSYbEH17Qo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> PencilKit - Criando Desenhos com SwiftUI | Tiago Aguiar (<a href="https://youtu.be/4SUHMGHIm-8">https://youtu.be/4SUHMGHIm-8</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> iOS: autenticação, GPS e mais recursos nativos (<a href="https://cursos.alura.com.br/course/ios-autenticacao-gps-recursos-nativos">https://cursos.alura.com.br/course/ios-autenticacao-gps-recursos-nativos</a>)</li>
+<li><code data-kind="curso">Curso</code> iOS: usando recursos nativos (<a href="https://cursos.alura.com.br/course/ios-usando-recursos-nativos?preRequirementFrom=ios-autenticacao-gps-recursos-nativos">https://cursos.alura.com.br/course/ios-usando-recursos-nativos?preRequirementFrom=ios-autenticacao-gps-recursos-nativos</a>)</li>
+</ul>
+<h3>iOS - Testes:</h3>
 <ul><li>Os testes são uma parte importante do desenvolvimento de software. Eles ajudam a garantir que o software esteja funcionando corretamente e que atenda aos requisitos do usuário. Existem vários tipos de testes que podem ser usados em iOS, incluindo testes de unidade, testes de integração e testes de sistema. Os testes de unidade são usados para testar unidades individuais de código, os testes de integração são usados para testar como diferentes unidades de código interagem umas com as outras e os testes de sistema são usados para testar todo o aplicativo como um todo. O teste é uma parte importante do processo de desenvolvimento de software e pode ajudar a garantir que os aplicativos iOS sejam de alta qualidade e confiáveis. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer as ferramentas e técnicas mais comuns para debugging de aplicativos iOS;</li>
 <li>Usar as ferramentas e técnicas mais comuns para debugging de aplicativos iOS para encontrar e corrigir erros.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Vazamento de Memória</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> iOS Teste Unitário e Teste de UI — Tutorial | Medium (<a href="https://hoffsilva.medium.com/ios-teste-unit%C3%A1rio-e-teste-de-ui-tutorial-1360bb66ff73">https://hoffsilva.medium.com/ios-teste-unit%C3%A1rio-e-teste-de-ui-tutorial-1360bb66ff73</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fundamentos de Teste com iOS e Swift | Mobilizando (<a href="https://youtu.be/iQUo4_8AOX0">https://youtu.be/iQUo4_8AOX0</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> iOS: melhorando o app com testes de unidade e TDD (<a href="https://cursos.alura.com.br/course/ios-melhorando-app-testes-unidade-tdd">https://cursos.alura.com.br/course/ios-melhorando-app-testes-unidade-tdd</a>)</li>
+<li><code data-kind="curso">Curso</code> iOS: aplicando testes de unidade com mocks, stubs e outros frameworks (<a href="https://cursos.alura.com.br/course/ios-testes-unidade-mocks-stubs-outros-frameworks">https://cursos.alura.com.br/course/ios-testes-unidade-mocks-stubs-outros-frameworks</a>)</li>
+</ul>
+<h3>iOS - Vazamento de Memória:</h3>
 <ul><li>Uma memory leak é um problema que ocorre quando um aplicativo não libera a memória que não está mais usando. Isso pode levar a uma série de problemas, como o aplicativo ficar lento, travar ou até mesmo ser fechado pelo sistema operacional. Para evitar memory leaks, é importante entender como o gerenciamento de memória funciona no iOS e usar as ferramentas e técnicas adequadas para gerenciar a memória do seu aplicativo. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer as causas de memory leaks em iOS;</li>
 <li>Identificar os sintomas de memory leaks e resolvê-los.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Bibliotecas de terceiros</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 3 Different Techniques to Find Memory Leaks in iOS | Medium (<a href="https://medium.com/bitso-engineering/finding-memory-leaks-in-ios-like-a-pro-83a0212309b6">https://medium.com/bitso-engineering/finding-memory-leaks-in-ios-like-a-pro-83a0212309b6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Memory Leaks no iOS: Encontrar, diagnosticas e resolver (inglês) | iOS Academy (<a href="https://youtu.be/b2AgibUg47k">https://youtu.be/b2AgibUg47k</a>)</li>
+</ul>
+<h3>iOS - Bibliotecas de terceiros:</h3>
 <ul><li>As bibliotecas de terceiros mais utilizadas em iOS são aquelas que fornecem funcionalidades adicionais ao SDK da Apple. Essas bibliotecas podem ser usadas para acessar dados da web, trabalhar com imagens e vídeos, desenvolver jogos, criar animações e muito mais. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer os diferentes tipos de bibliotecas que podem ser usadas em aplicativos iOS;</li>
 <li>Escolher e usar bibliotecas que sejam adequadas para as necessidades do seu aplicativo.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Kingfisher - Download e cache de imagens da internet (inglês) (<a href="https://swiftpackageindex.com/onevcat/Kingfisher">https://swiftpackageindex.com/onevcat/Kingfisher</a>)</li>
+<li><code data-kind="site">Site</code> Animações com LottieFiles (inglês) (<a href="https://lottiefiles.com/blog/working-with-lottie/how-to-add-lottie-animation-ios-app-swift">https://lottiefiles.com/blog/working-with-lottie/how-to-add-lottie-animation-ios-app-swift</a>)</li>
+<li><code data-kind="site">Site</code> Alamofire - Documentação (inglês) (<a href="https://alamofire.github.io/Alamofire/">https://alamofire.github.io/Alamofire/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> iOS Alamofire Tutorial (inglês) | Code Pro (<a href="https://youtu.be/5hcHbhIWIeI">https://youtu.be/5hcHbhIWIeI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Realm Database tutorial (inglês) | CodeWithChris (<a href="https://youtu.be/PmsJW59rNY8">https://youtu.be/PmsJW59rNY8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Integração com SDK Google Maps no SwiftUI | Tiago Aguiar (<a href="https://youtu.be/lcpQLFlcVNw">https://youtu.be/lcpQLFlcVNw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cocoapods: Como usar o gerenciador de dependências | Tiago Aguiar (<a href="https://youtu.be/_NHqZkap6Ao">https://youtu.be/_NHqZkap6Ao</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Arquitetura</strong>:</li>
+<h3>iOS - Arquitetura:</h3>
 <ul><li>As arquiteturas MVVM, MVC e VIPER são maneiras populares de estruturar aplicativos iOS. Ambas as arquiteturas se baseiam no conceito de separar a lógica de negócios da interface do usuário. Isso torna os aplicativos mais fáceis de manter e estender. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer os conceitos básicos de arquiteturas;</li>
 <li>Entender as diferenças entre as arquiteturas e suas vantagens;</li>
 <li>Implementar alguma delas em um aplicativo iOS.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Design System</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> MVVM para iOS (inglês) | Medium (<a href="https://medium.com/technology-nineleaps/mvvm-architecture-for-ios-6d78794e13d8">https://medium.com/technology-nineleaps/mvvm-architecture-for-ios-6d78794e13d8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Arquitetura/Padrão de projeto VIPER para iOS | Medium (<a href="https://medium.com/@smalam119/viper-design-pattern-for-ios-application-development-7a9703902af6">https://medium.com/@smalam119/viper-design-pattern-for-ios-application-development-7a9703902af6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> MVVM (Model View ViewModel - A Arquitetura de Apps Mobile) // Dicionário do Programador | Código Fonte TV (<a href="https://youtu.be/B2pJWtSyVFA">https://youtu.be/B2pJWtSyVFA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> MVC // Dicionário do Programador | Código Fonte TV (<a href="https://youtu.be/jyTNhT67ZyY">https://youtu.be/jyTNhT67ZyY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> iOS MVVM Pattern - Binding | Swift Academy (<a href="https://youtu.be/iI0LabCYZJo">https://youtu.be/iI0LabCYZJo</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação evolua Apps em SwiftUI: CRUD, MVVM e Autenticação (<a href="https://cursos.alura.com.br/formacao-apps-swiftui-crud-mvvm-autenticacao">https://cursos.alura.com.br/formacao-apps-swiftui-crud-mvvm-autenticacao</a>)</li>
+<li><code data-kind="curso">Curso</code> iOS com View Code: cursos para aprender clean code e arquitetura de software (<a href="https://cursos.alura.com.br/formacao-ios-view-code-clean-code-arquiteturas-software">https://cursos.alura.com.br/formacao-ios-view-code-clean-code-arquiteturas-software</a>)</li>
+</ul>
+<h3>iOS - Design System:</h3>
 <ul><li>A Apple oferece ferramentas e recursos para que os aplicativos sigam as melhores práticas de design e interação no iOS.</li>
 <li>Entender as Human Interface Guidelines (HIG) da Apple;</li>
 <li>Criar componentes reutilizáveis e escaláveis para iOS;</li>
 <li>Aplicar o Design System em diferentes dispositivos iOS.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Injeção de dependências</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Human Interface Guidelines | Apple Developer (<a href="https://developer.apple.com/design/human-interface-guidelines/">https://developer.apple.com/design/human-interface-guidelines/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Designing for iOS | Apple Developer (<a href="https://developer.apple.com/design/">https://developer.apple.com/design/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SwiftUI and Design Systems | Apple Developer (<a href="https://developer.apple.com/xcode/swiftui/">https://developer.apple.com/xcode/swiftui/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação iOS com SwiftUI: crie design system para projetos (<a href="https://cursos.alura.com.br/formacao-ios-swiftui-crie-design-system-projetos">https://cursos.alura.com.br/formacao-ios-swiftui-crie-design-system-projetos</a>)</li>
+</ul>
+<h3>iOS - Injeção de dependências:</h3>
 <ul><li>A injeção de dependências (DI) é um padrão de projeto que permite que os componentes de um aplicativo recebam as dependências de que precisam em tempo de execução. Isso torna os componentes mais testáveis e flexíveis. Existem várias maneiras de implementar a DI em iOS. Uma maneira comum é usar um contêiner de injeção de dependências. Um contêiner de injeção de dependências é um objeto que armazena as dependências de um aplicativo e as fornece aos componentes conforme necessário. A DI é uma ferramenta poderosa que pode ajudar os desenvolvedores a criar aplicativos mais testáveis e flexíveis. Ao aprender como usar a DI, você pode criar aplicativos que são mais fáceis de manter e estender. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer e utilizar o padrão de projeto de injeção de dependências.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Animações</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Injeção de dependências com Swift - O que é e quais os benefícios (Inglês) | Sean Allen (<a href="https://youtu.be/l0QehVWz2i0">https://youtu.be/l0QehVWz2i0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Injeção de Dependências (O Guia Mais Prático do Youtube) // Dicionário do Programador | Código Fonte TV (<a href="https://youtu.be/evhskJG1kvY">https://youtu.be/evhskJG1kvY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> [Devpass Talks] Injeção de Dependência com Swift (Eduardo Bocato) | Devpass (<a href="https://youtu.be/0DDeOw5JfIc">https://youtu.be/0DDeOw5JfIc</a>)</li>
+</ul>
+<h3>iOS - Animações:</h3>
 <ul><li>As animações são uma parte importante do desenvolvimento de aplicativos iOS. Elas podem ser usadas para melhorar a experiência do usuário, tornando os aplicativos mais atraentes e envolventes. Existem várias maneiras de adicionar animações aos aplicativos iOS. Uma maneira é usar o framework UIKit, que fornece uma variedade de métodos para animar componentes da interface do usuário. Outra maneira é usar um framework de animação de terceiros, como o Lottie ou o Anima. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Entender como usar o framework UIKit para animar componentes da interface do usuário;</li>
 <li>Criar animações com o SwiftUI, como mostrar transições entre telas, atualizar a interface do usuário em resposta a eventos e criar efeitos visuais interessantes.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Implantação (Deployment)</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Primeiros passos com animações UIKit | Medium (<a href="https://medium.com/my-ios-studies/primeiros-passos-com-anima%C3%A7%C3%B5es-uikit-d1172c04e3cd">https://medium.com/my-ios-studies/primeiros-passos-com-anima%C3%A7%C3%B5es-uikit-d1172c04e3cd</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Adding Animations in SwiftUI | Bootcamp #25 (inglês) | SwiftUI Thinking (<a href="https://youtu.be/0WY-wrW2_bs">https://youtu.be/0WY-wrW2_bs</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Oficial Apple (SwiftUI) - Animando Views e aplicando transições (inglês) (<a href="https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions">https://developer.apple.com/tutorials/swiftui/animating-views-and-transitions</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> iOS com SwiftUI: trabalhando com animações e DragGesture (<a href="https://cursos.alura.com.br/course/ios-swiftui-trabalhando-animacoes-draggesture">https://cursos.alura.com.br/course/ios-swiftui-trabalhando-animacoes-draggesture</a>)</li>
+</ul>
+<h3>iOS - Implantação (Deployment):</h3>
 <ul><li>O deployment ou implantação é o processo de disponibilizar um aplicativo iOS para os usuários. Existem várias maneiras de fazer isso, um deles é o uso da App Store. A App Store é a maneira mais comum de distribuir aplicativos iOS. Ela permite que os desenvolvedores distribuam seus aplicativos para um público global. O TestFlight é uma ferramenta beta privada que permite que os desenvolvedores compartilhem seus aplicativos com um grupo limitado de usuários para feedback. O Distribute é uma ferramenta que permite que os desenvolvedores distribuam seus aplicativos para seus próprios servidores. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer os conceitos básicos de deployment de aplicativos iOS;</li>
 <li>Criar uma conta de Apple Developer;</li>
 <li>Usar a App Store para distribuir aplicativos iOS para um público global.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Entrega e integração contínuas (CI/CD)</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Publicando um aplicativo na AppStore (inglês) | Medium (<a href="https://medium.com/swlh/publishing-an-ios-app-to-app-store-d4f88c3686de">https://medium.com/swlh/publishing-an-ios-app-to-app-store-d4f88c3686de</a>)</li>
+<li><code data-kind="youtube">YouTube</code> App Store: Guia para lançar um app iOS (inglês) | App Radar (<a href="https://youtu.be/1D-ZhTSpx1E">https://youtu.be/1D-ZhTSpx1E</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como publicar um app - XCode para AppStore | AC Soluções (<a href="https://youtu.be/EAFr2qp6sso">https://youtu.be/EAFr2qp6sso</a>)</li>
+</ul>
+<h3>Entrega e integração contínuas (CI/CD):</h3>
 <ul><li>CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português &quot;entrega e integração contínuas&quot;. Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.</li>
 <li>Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, ja que assim é possivel acelerar o desenvolvimento e diminiur o tempo de entrega de software.</li>
 <li>Executar testes automatizados da aplicação para verificar seu funcionamento.</li>
 <li>Realizar a entrega de atualizações de forma automatica e com segurança.</li>
 <li>Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Modularização</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é CI/CD? (<a href="https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd">https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Sobre integração contínua (<a href="https://docs.github.com/pt/actions/automating-builds-and-tests/about-continuous-integration">https://docs.github.com/pt/actions/automating-builds-and-tests/about-continuous-integration</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Pipeline (CD/CI) | Dicionário do Programador (<a href="https://www.youtube.com/watch?v=AZtTd3pFVTY">https://www.youtube.com/watch?v=AZtTd3pFVTY</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Entrega e integração contínua de aplicações Vue (<a href="https://www.alura.com.br/artigos/entrega-e-integracao-continua-de-aplicacoes-vue">https://www.alura.com.br/artigos/entrega-e-integracao-continua-de-aplicacoes-vue</a>)</li>
+<li><code data-kind="artigo">Artigo</code> GitOps: o que é? (<a href="https://www.alura.com.br/artigos/o-que-e-git-ops">https://www.alura.com.br/artigos/o-que-e-git-ops</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tipos de testes: quais os principais e por que utilizá-los? (<a href="https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los">https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Integração Contínua, Deploy Contínuo e Github Actions (<a href="https://cursos.alura.com.br/extra/hipsterstech/integracao-continua-deploy-continuo-e-github-actions-hipsters-213-a335">https://cursos.alura.com.br/extra/hipsterstech/integracao-continua-deploy-continuo-e-github-actions-hipsters-213-a335</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Testes Automatizados (<a href="https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535">https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Integração Contínua: mais qualidade e menos risco no desenvolvimento (<a href="https://cursos.alura.com.br/course/desenvolvimento-software-integracao-continua">https://cursos.alura.com.br/course/desenvolvimento-software-integracao-continua</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Entrega Contínua: confiabilidade e qualidade na implantação de software (<a href="https://cursos.alura.com.br/course/entrega-continua-confiabilidade-qualidade">https://cursos.alura.com.br/course/entrega-continua-confiabilidade-qualidade</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação: Integração Contínua e Entrega Contínua (<a href="https://cursos.alura.com.br/formacao-integracao-continua-entrega-continua">https://cursos.alura.com.br/formacao-integracao-continua-entrega-continua</a>)</li>
+</ul>
+<h3>iOS - Modularização:</h3>
 <ul><li>A modularização é o processo de dividir um grande aplicativo em módulos menores, mais gerenciáveis. Isso pode tornar o código mais fácil de entender e manter, e também pode facilitar a reutilização de código. Existem várias maneiras de modularizar um aplicativo iOS. Uma maneira é usar frameworks. Os frameworks são bibliotecas de código que podem ser usadas para adicionar funcionalidade a um aplicativo. Outra maneira de modularizar um aplicativo é usar módulos de projeto. Os módulos de projeto são coleções de arquivos de código que podem ser usados para agrupar o código relacionado. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer os conceitos básicos de modularização de código.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Objective-C - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Gerenciador de pacotes Swift &amp; Modularização (inglês) | iOS Conf SG (<a href="https://youtu.be/QmBZ9wJguS4">https://youtu.be/QmBZ9wJguS4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> NSBrazil19 - Modularizando o seu aplicativo | CocoaHeads Brasil (<a href="https://youtu.be/dqE4IG6Gngw">https://youtu.be/dqE4IG6Gngw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como criar Build Variants no iOS | Tiago Aguiar (<a href="https://youtu.be/0oWTZJL4kBQ">https://youtu.be/0oWTZJL4kBQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como criar um framework no Xcode com Swift | Tiago Aguiar (<a href="https://youtu.be/pg65ceyAefQ">https://youtu.be/pg65ceyAefQ</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Deeplinks em SwiftUI: o que são e como utilizar (<a href="https://www.alura.com.br/artigos/deeplinks-swiftui-o-que-sao-como-utilizar">https://www.alura.com.br/artigos/deeplinks-swiftui-o-que-sao-como-utilizar</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação: Escalabilidade em aplicativos iOS (<a href="https://cursos.alura.com.br/formacao-escalabilidade-aplicativos-ios">https://cursos.alura.com.br/formacao-escalabilidade-aplicativos-ios</a>)</li>
+</ul>
+<h3>Objective-C - Fundamentos:</h3>
 <ul><li>Objective-C é uma linguagem de programação orientada a objeto que foi criada em 1984 por Brad Cox e Tom Love. Ela é usada para desenvolver aplicativos para o macOS, iOS e tvOS. Objective-C é uma linguagem de programação poderosa e flexível, e é usada por muitos desenvolvedores experientes. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer os tipos primitivos;</li>
 <li>Declarar e usar variáveis e constantes;</li>
@@ -354,13 +655,23 @@
 <li>Exceptions e Throwables;</li>
 <li>Convenções de código;</li>
 <li>Compreensão de Orientação a objetos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Jogos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Lesson 1: Introduction to Objective-C Programming | Medium (<a href="https://medium.com/ios-objective-creation/lesson-1-introduction-to-objective-c-programming-22f5fe71172">https://medium.com/ios-objective-creation/lesson-1-introduction-to-objective-c-programming-22f5fe71172</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Lesson 2: Creating Custom Classes in Objective-C | Medium (<a href="https://medium.com/ios-objective-creation/lesson-2-creating-custom-classes-in-objective-c-17f760ce9732">https://medium.com/ios-objective-creation/lesson-2-creating-custom-classes-in-objective-c-17f760ce9732</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Objective-C - História da linguagem e funcionalidades importantes (inglês) | Your IT Class (<a href="https://youtu.be/VmrpCi1XCvg">https://youtu.be/VmrpCi1XCvg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tutorial Objective-C Tutorial (inglês) | Derek Banas (<a href="https://youtu.be/5esQqZIJ83g">https://youtu.be/5esQqZIJ83g</a>)</li>
+</ul>
+<h3>iOS - Jogos:</h3>
 <ul><li>A plataforma iOS é uma ótima opção para o desenvolvimento de jogos. Ela possui uma grande base de usuários, com bilhões de dispositivos ativos, e uma série de recursos que tornam o desenvolvimento de jogos fácil e acessível. Para desenvolver jogos para iOS, você pode usar uma variedade de linguagens e ferramentas, incluindo Swift, Objective-C e Unity. Você também pode usar uma variedade de frameworks, como SpriteKit e SceneKit. O desenvolvimento de jogos para iOS é uma ótima maneira de criar experiências envolventes e divertidas para seus usuários. Se você está interessado em desenvolver jogos para iOS, há uma série de recursos disponíveis para ajudá-lo a começar, incluindo tutoriais, cursos e comunidades online. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer as linguagens e ferramentas usadas para desenvolver jogos para iOS, como por exemplo C# e Unity;</li>
 <li>Explorar recursos de desenvolvimento de jogos, como o uso de gráficos 3D e animação.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Criando um jogo mobile na UNITY | Crie seus jogos (<a href="https://youtu.be/ta-sFLHxJ4I">https://youtu.be/ta-sFLHxJ4I</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Infraestrutura e boas práticas</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+<h3>Git e GitHub - Fundamentos:</h3>
 <ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
 <li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
 <li>Criar um repositório</li>
@@ -369,46 +680,221 @@
 <li>Reverter um commit</li>
 <li>Criar branches e pul requests</li>
 <li>Lidar com merge e conflitos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> GitHub Documentação (<a href="https://docs.github.com/pt">https://docs.github.com/pt</a>)</li>
+<li><code data-kind="site">Site</code> GitHub Pages Documentação (<a href="https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="site">Site</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="site">Site</code> Dangit, Git!?! (<a href="https://dangitgit.com/">https://dangitgit.com/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O que é Git e GitHub? - definição e conceitos importantes 1/2 (<a href="https://www.youtube.com/watch?v=DqTITcMq68k">https://www.youtube.com/watch?v=DqTITcMq68k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: Como usar Git e GitHub na prática! - desde o primeiro commit até o pull request! 2/2 (<a href="https://www.youtube.com/watch?v=UBAX-13g8OM">https://www.youtube.com/watch?v=UBAX-13g8OM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Git: Entendendo de vez como funciona do melhor e mais visual jeito possível (<a href="https://www.youtube.com/watch?v=4-tfJ-ZyA0Q">https://www.youtube.com/watch?v=4-tfJ-ZyA0Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como colocar seu projeto no ar DE GRAÇA via GitHub! | Hospedagem com GitHub Pages (<a href="https://www.youtube.com/watch?v=BU-w2_Aae54">https://www.youtube.com/watch?v=BU-w2_Aae54</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - 5 coisas que você precisa saber sobre Git (<a href="https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU">https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - README de Sucesso: Transforme seu Projeto ou seu Perfil em Destaque no GitHub (<a href="https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A">https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Git e Github: O que são, Como Configurar e Primeiros Passos (<a href="https://www.alura.com.br/artigos/o-que-e-git-github">https://www.alura.com.br/artigos/o-que-e-git-github</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Mais git com o hub: a linha de comando do Github (<a href="https://www.alura.com.br/artigos/github-na-linha-de-comando">https://www.alura.com.br/artigos/github-na-linha-de-comando</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 184: Guia do Iniciante em Github (<a href="https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378">https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378</a>)</li>
+<li><code data-kind="site">Site</code> GitHub: diferentes maneiras de compartilhar seu projeto (<a href="https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002">https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002</a>)</li>
+<li><code data-kind="site">Site</code> Websérie: Git e Github para Sobrevivência (<a href="https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia">https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 109: Git e Github (<a href="https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474">https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Git e Github para Sobrevivência 01: Como o Git funciona? (<a href="https://www.youtube.com/watch?v=BAmvmaKQklQ">https://www.youtube.com/watch?v=BAmvmaKQklQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: compartilhando e colaborando em projetos (<a href="https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos">https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: dominando controle de versão de código (<a href="https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo">https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: GitHub (<a href="https://7daysofcode.io/matricula/github">https://7daysofcode.io/matricula/github</a>)</li>
+</ul>
+<h3>HTTP - Fundamentos:</h3>
 <ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
 <li>Entender a diferença dos verbos HTTP</li>
 <li>Testar os requests e ver os status codes no navegador</li>
 <li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
 <li>Baixar uma imagem com WGET</li>
 <li>Fazer um post</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Uma visão geral do HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Métodos de requisição HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Cats (<a href="https://http.cat/">https://http.cat/</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Dogs (<a href="https://http.dog/">https://http.dog/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fabiano Gabardo Lemos: Requisições HTTP - GET, POST, PUT, PATCH DELETE (<a href="https://www.youtube.com/watch?v=kncOJZrnkTg">https://www.youtube.com/watch?v=kncOJZrnkTg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programador a Bordo: Protocolo HTTP e TCP/IP - Introdução (<a href="https://www.youtube.com/watch?v=V4XZ81vRGtM">https://www.youtube.com/watch?v=V4XZ81vRGtM</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> HTTP: Desmistificando o protocolo da Web (<a href="https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1">https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Métodos de requisição do HTTP (<a href="https://www.alura.com.br/artigos/metodos-de-requisicao-do-http">https://www.alura.com.br/artigos/metodos-de-requisicao-do-http</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual é a diferença entre HTTP e HTTPS? (<a href="https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https">https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: HTTP/2: magia com o novo protocolo - Hipsters 13 (<a href="https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573">https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso HTTP: Entendendo a web por baixo dos panos (<a href="https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos">https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos</a>)</li>
+</ul>
+<h3>JSON:</h3>
 <ul><li>JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.</li>
 <li>Criar um objeto</li>
 <li>Transformar um objeto em uma string</li>
 <li>Transformar uma string em objeto</li>
 <li>Manipular um objeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: JSON (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Trabalhando com JSON (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao JSON (<a href="https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff">https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: O que é JSON e como criar um objeto (<a href="https://www.youtube.com/watch?v=oCY5YEEjlwE">https://www.youtube.com/watch?v=oCY5YEEjlwE</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é JSON? (<a href="https://www.alura.com.br/artigos/o-que-e-json">https://www.alura.com.br/artigos/o-que-e-json</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso MySQL e JSON: persistindo JSON de maneira eficiente (<a href="https://www.alura.com.br/curso-online-mysql-json-persistencia">https://www.alura.com.br/curso-online-mysql-json-persistencia</a>)</li>
+</ul>
+<h3>Linha de comando - Fundamentos:</h3>
 <ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
 <li>Conhecer os principais comandos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Microsoft Docs: Como usar argumentos de linha de comando para terminal do Windows (<a href="https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows">https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estevan Maito: Linha de comando básica - 8 comandos mais frequentes - WINDOWS e LINUX (<a href="https://www.youtube.com/watch?v=rKBqXJZocYk">https://www.youtube.com/watch?v=rKBqXJZocYk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ninja do Linux: Comandos básicos da linha de comando do Linux (<a href="https://www.youtube.com/watch?v=rs_yshFGu8E">https://www.youtube.com/watch?v=rs_yshFGu8E</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> CMD: dicas para trabalhar no prompt do Windows (<a href="https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows">https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como configurar variáveis de ambiente no Windows, Linux e macOS (<a href="https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos">https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd">https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/curso-online-prompt">https://www.alura.com.br/curso-online-prompt</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Terminal: aprenda comandos para executar tarefas (<a href="https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas">https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas</a>)</li>
+</ul>
+<h3>Cloud - Fundamentos:</h3>
 <ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
 <li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
 <li>Conhecer os maiores provedores de cloud</li>
 <li>Especializar-se em algum provedor</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SOLID</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Computação em nuvem (<a href="https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9">https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é cloud? (<a href="https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6">https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabs Ferreira: Por que investir e estudar cloud? (<a href="https://www.youtube.com/watch?v=Z45BTNeZ1l0">https://www.youtube.com/watch?v=Z45BTNeZ1l0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Andre Iacono: O que é MICROSOFT AZURE? Qual Certificação começar em 2022? (<a href="https://www.youtube.com/watch?v=f-oVzkvMwnE">https://www.youtube.com/watch?v=f-oVzkvMwnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS: O que é a AWS? (<a href="https://www.youtube.com/watch?v=8JI9wQ8sUdQ">https://www.youtube.com/watch?v=8JI9wQ8sUdQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Google Cloud e por que aprender? (<a href="https://www.youtube.com/shorts/Lzq3f1DHWcI">https://www.youtube.com/shorts/Lzq3f1DHWcI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS vs Google Cloud vs Azure: o que cada um tem de melhor? (<a href="https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7">https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Azure (A plataforma Cloud da Microsoft) (<a href="https://www.youtube.com/watch?v=YgE-sZaCuJ0">https://www.youtube.com/watch?v=YgE-sZaCuJ0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mundo da Cloud: AWS do Zero ao Expert (<a href="https://www.youtube.com/watch?v=HiBCv9DolxI&list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz">https://www.youtube.com/watch?v=HiBCv9DolxI&amp;list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Fundamentos Cloud – Hipsters Ponto Tech #348 (<a href="https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/">https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Uma jornada Para o Cloud - Hipsters Deep Dive 005 (<a href="https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100">https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Histórias do Cloud - Hipsters 04 (<a href="https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582">https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Heroku, Vercel e outras opções de cloud como plataforma (<a href="https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma">https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações (<a href="https://www.alura.com.br/artigos/aws">https://www.alura.com.br/artigos/aws</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Terraform: criando máquinas na Azure (<a href="https://www.alura.com.br/artigos/terraform-maquinas-na-azure">https://www.alura.com.br/artigos/terraform-maquinas-na-azure</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é cloud? (<a href="https://www.YOUTUBE.com/watch?v=wev9fMrg-TU">https://www.YOUTUBE.com/watch?v=wev9fMrg-TU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: AWS, Google Cloud e Azure: Por onde começar? | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&t=300s">https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Certificação em Cloud: Azure, AWS, Google | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&t=290s">https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&amp;t=290s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Amazon Web Services (<a href="https://cursos.alura.com.br/formacao-amazon-web-services">https://cursos.alura.com.br/formacao-amazon-web-services</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AWS Certified Cloud Practitioner (<a href="https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner">https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Containers com AWS ECS e EKS (<a href="https://cursos.alura.com.br/formacao-containers-aws">https://cursos.alura.com.br/formacao-containers-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Cloud Platform (<a href="https://cursos.alura.com.br/formacao-google-cloud">https://cursos.alura.com.br/formacao-google-cloud</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Azure (<a href="https://cursos.alura.com.br/formacao-conhecendo-azure">https://cursos.alura.com.br/formacao-conhecendo-azure</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AZ-900: Microsoft Azure Fundamentals (<a href="https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals">https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals</a>)</li>
+</ul>
+<h3>SOLID:</h3>
 <ul><li>O Solid possui cinco princípios considerados como boas práticas no desenvolvimento de software que ajudam os programadores a escrever os códigos mais limpos, separando as responsabilidades, diminuindo acoplamentos, facilitando na refatoração e estimulando o reaproveitamento do código.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Code</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Princípios de S.O.L.I.D em C# — Guia prático (<a href="https://medium.com/beelabacademy/princ%C3%ADpios-de-s-o-l-i-d-em-c-guia-pr%C3%A1tico-cbb1e6584284">https://medium.com/beelabacademy/princ%C3%ADpios-de-s-o-l-i-d-em-c-guia-pr%C3%A1tico-cbb1e6584284</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Filipe Deschamps: SOLID fica fácil com Essas Ilustrações (<a href="https://www.youtube.com/watch?v=6SfrO3D4dHM">https://www.youtube.com/watch?v=6SfrO3D4dHM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Central dotNET: Princípios de SOLID com C# (<a href="https://www.youtube.com/watch?v=iU4BMUcjg8g">https://www.youtube.com/watch?v=iU4BMUcjg8g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Felipe Pinheiro - Tech: Princípios SOLID, o que é DIP? (<a href="https://www.youtube.com/watch?v=q0BGgQJcp7w">https://www.youtube.com/watch?v=q0BGgQJcp7w</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dev Eficiente: SOLID - Uma reflexão sobre o Princípio da responsabilidade única (<a href="https://www.youtube.com/watch?v=GGe0o_v5vjM">https://www.youtube.com/watch?v=GGe0o_v5vjM</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SOLID: o que é e quais os 5 princípios da Programação Orientada a Objetos (POO) (<a href="https://www.alura.com.br/artigos/solid">https://www.alura.com.br/artigos/solid</a>)</li>
+<li><code data-kind="podcast">Podcast</code> SOLID: Código bom e bonito - Hipsters Ponto Tech 219 (<a href="https://www.alura.com.br/podcast/hipsterstech-solid-codigo-bom-e-bonito-hipsters-ponto-tech-219-a649">https://www.alura.com.br/podcast/hipsterstech-solid-codigo-bom-e-bonito-hipsters-ponto-tech-219-a649</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Clean Code e Solid (<a href="https://www.youtube.com/watch?v=XV9B4LX_re8">https://www.youtube.com/watch?v=XV9B4LX_re8</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso C#: aplique princípios SOLID (<a href="https://cursos.alura.com.br/course/csharp-aplique-principios-solid">https://cursos.alura.com.br/course/csharp-aplique-principios-solid</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Boas práticas de programação: melhore o código de uma API Java (<a href="https://cursos.alura.com.br/course/boas-praticas-programacao-melhore-codigo-api-java">https://cursos.alura.com.br/course/boas-praticas-programacao-melhore-codigo-api-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso SOLID com PHP: princípios da programação orientada a objetos (<a href="https://cursos.alura.com.br/course/solid-php-principios-orientacao-a-objetos">https://cursos.alura.com.br/course/solid-php-principios-orientacao-a-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso iOS: escrevendo código de qualidade com SOLID em Swift (<a href="https://www.alura.com.br/curso-online-ios-escrevendo-codigo-qualidade-solid-swift">https://www.alura.com.br/curso-online-ios-escrevendo-codigo-qualidade-solid-swift</a>)</li>
+<li><code data-kind="curso">Curso</code> SOLID com TypeScript: aplicando boas práticas em orientação a objetos (<a href="https://www.alura.com.br/curso-online-solid-typescript-boas-praticas-orientacao-objetos">https://www.alura.com.br/curso-online-solid-typescript-boas-praticas-orientacao-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Boas práticas em C# (<a href="https://cursos.alura.com.br/formacao-boas-praticas-c-sharp">https://cursos.alura.com.br/formacao-boas-praticas-c-sharp</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Boas práticas em PHP (<a href="https://cursos.alura.com.br/formacao-boas-praticas-php">https://cursos.alura.com.br/formacao-boas-praticas-php</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Boas práticas em Java (<a href="https://cursos.alura.com.br/formacao-boas-praticas-java">https://cursos.alura.com.br/formacao-boas-praticas-java</a>)</li>
+<li><code data-kind="site">Site</code> Livro Casa do Código: Desbravando SOLID - Práticas avançadas para códigos de qualidade em Java moderno (<a href="https://www.casadocodigo.com.br/products/livro-desbravando-solid">https://www.casadocodigo.com.br/products/livro-desbravando-solid</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods): SOLID e o &#39;D&#39; do Principio da Inversão de Dependência usando a Injeção de Dependência para ajudar (<a href="https://youtu.be/xpcCDCH5k4Y">https://youtu.be/xpcCDCH5k4Y</a>)</li>
+</ul>
+<h3>Clean Code:</h3>
 <ul><li>Aplicar técnicas simples que visam facilitar a escrita e leitura de um código</li>
 <li>Refatorar seu código para que fique mais claro</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Architecture</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Clean Code: O que é? Porque usar? (<a href="https://medium.com/desenvolvendo-com-paixao/1-clean-code-o-que-%C3%A9-porque-usar-1e4f9f4454c6">https://medium.com/desenvolvendo-com-paixao/1-clean-code-o-que-%C3%A9-porque-usar-1e4f9f4454c6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Filipe Deschamps: CLEAN CODE 1 - Introdução (<a href="https://www.youtube.com/watch?v=9w3o9NHXqu0">https://www.youtube.com/watch?v=9w3o9NHXqu0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Filipe Deschamps: CLEAN CODE 2 - O que é código limpo? (<a href="https://www.youtube.com/watch?v=ZVtGbO_CnfA">https://www.youtube.com/watch?v=ZVtGbO_CnfA</a>)</li>
+<li><code data-kind="livro">Livro</code> Código limpo: habilidades práticas do Agile software (<a href="https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675">https://www.amazon.com.br/C%C3%B3digo-limpo-Robert-C-Martin/dp/8576082675</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Clean Code: O que é, Casos de Uso, Exemplo de Código Limpo (<a href="https://www.alura.com.br/artigos/o-que-e-clean-code">https://www.alura.com.br/artigos/o-que-e-clean-code</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Clean Code e Solid (<a href="https://www.youtube.com/watch?v=XV9B4LX_re8">https://www.youtube.com/watch?v=XV9B4LX_re8</a>)</li>
+<li><code data-kind="livro">Livro</code> Orientação a Objetos e SOLID para Ninjas (<a href="https://www.casadocodigo.com.br/products/livro-oo-solid?_pos=2&_sid=fe732c657&_ss=r">https://www.casadocodigo.com.br/products/livro-oo-solid?_pos=2&amp;_sid=fe732c657&amp;_ss=r</a>)</li>
+</ul>
+<h3>Clean Architecture:</h3>
 <ul><li>A Clean Architecture (Arquitetura Limpa) é uma forma de desenvolver software, de tal forma que apenas olhando para o código fonte de um programa, você deve ser capaz de dizer o que o programa faz.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Firebase</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Descomplicando a Clean Architecture (<a href="https://medium.com/luizalabs/descomplicando-a-clean-architecture-cf4dfc4a1ac6">https://medium.com/luizalabs/descomplicando-a-clean-architecture-cf4dfc4a1ac6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como DEV ser!: Entenda CLEAN ARCHITECTURE de uma vez por todas! (<a href="https://www.youtube.com/watch?v=HynTfTli4mw">https://www.youtube.com/watch?v=HynTfTli4mw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Full Cycle: O que é Clean Architecture (<a href="https://www.youtube.com/watch?v=dQys-mnOtQg">https://www.youtube.com/watch?v=dQys-mnOtQg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - Simplificando o Clean Architecture +MVVM na sua aplicação mobile - Guia Completo (<a href="https://youtu.be/8ehlZfyN1S0?si=l7-I5I4zsnYLlSjD">https://youtu.be/8ehlZfyN1S0?si=l7-I5I4zsnYLlSjD</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="site">Site</code> Clean Architecture (Arquitetura Limpa) - O que é? (<a href="https://cursos.alura.com.br/extra/alura-mais/clean-architecture-arquitetura-limpa-o-que-e--c204">https://cursos.alura.com.br/extra/alura-mais/clean-architecture-arquitetura-limpa-o-que-e--c204</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Clean Architeture - Hipsters Ponto Tech 254 (<a href="https://www.hipsters.tech/clean-architeture-hipsters-ponto-tech-254/">https://www.hipsters.tech/clean-architeture-hipsters-ponto-tech-254/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Arquitetura de sistemas (<a href="https://www.youtube.com/watch?v=oedWxgAZc2A">https://www.youtube.com/watch?v=oedWxgAZc2A</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Java e Clean Architecture: descomplicando arquitetura de software (<a href="https://www.alura.com.br/conteudo/java-clean-architecture">https://www.alura.com.br/conteudo/java-clean-architecture</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Java e Clean Architecture: descomplicando arquitetura de software (<a href="https://www.alura.com.br/curso-online-java-clean-architecture">https://www.alura.com.br/curso-online-java-clean-architecture</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso PHP e Clean Architecture: descomplicando arquitetura de software (<a href="https://cursos.alura.com.br/course/php-introducao-clean-achitecture">https://cursos.alura.com.br/course/php-introducao-clean-achitecture</a>)</li>
+</ul>
+<h3>Firebase:</h3>
 <ul><li>O Firebase é uma plataforma de desenvolvimento de aplicativos Backend-as-a-Service (BaaS) que fornece serviços de backend hospedados, tais como banco de dados em tempo real, armazenamento em nuvem, autenticação, relatórios de falhas, aprendizado de máquina, configuração remota e hospedagem para seus arquivos estáticos.</li>
 <li>Entender como Instalar o Firebase</li>
 <li>Conhecer a documentação do Firebase</li>
 <li>Conhecer as ferramentas do Firebase disponíveis</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Produtos do Firebase | Firebase (<a href="https://firebase.google.com/products-build?hl=pt-br">https://firebase.google.com/products-build?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Casos de Uso do Firebase | Firebase (<a href="https://firebase.google.com/use-cases?hl=pt-br">https://firebase.google.com/use-cases?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Adicionando o Firebase ao App Flutter | Firebase Docs (<a href="https://firebase.google.com/docs/flutter/setup?platform=android">https://firebase.google.com/docs/flutter/setup?platform=android</a>)</li>
+<li><code data-kind="site">Site</code> Adicionando o Firebase ao seu projeto Android | Firebase Docs (<a href="https://firebase.google.com/docs/android/setup">https://firebase.google.com/docs/android/setup</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Firebase: Começando no Firebase com Flutter - Firecasts (inglês) (<a href="https://www.youtube.com/watch?v=EXp0gq9kGxI&ab_channel=Firebase">https://www.youtube.com/watch?v=EXp0gq9kGxI&amp;ab_channel=Firebase</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Prof. Diego Antunes: Instalação do Firebase no Flutter em 2022 (FlutterFire e Realtime Database) (<a href="https://www.youtube.com/watch?v=OjdGSoDntZQ&ab_channel=Prof.DiegoAntunes">https://www.youtube.com/watch?v=OjdGSoDntZQ&amp;ab_channel=Prof.DiegoAntunes</a>)</li>
+<li><code data-kind="site">Site</code> Precificação do Firebase | Firebase (<a href="https://firebase.google.com/pricing?hl=pt-br">https://firebase.google.com/pricing?hl=pt-br</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Integrando App Android com o Firebase Cloud Messaging (<a href="https://www.alura.com.br/artigos/integrando-app-android-com-o-firebase-cloud-messaging">https://www.alura.com.br/artigos/integrando-app-android-com-o-firebase-cloud-messaging</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tratando notificações recebidas do Firebase no Android (<a href="https://www.alura.com.br/artigos/tratando-notificacoes-recebidas-do-firebase-no-android">https://www.alura.com.br/artigos/tratando-notificacoes-recebidas-do-firebase-no-android</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Autenticando com a conta Google no Android utilizando o Firebase Authentication (<a href="https://www.alura.com.br/artigos/autenticando-no-google-com-firebase-authentication">https://www.alura.com.br/artigos/autenticando-no-google-com-firebase-authentication</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Flutter: Tratamento de exceções com Firebase Crashlytics (<a href="https://www.alura.com.br/artigos/tratamento-de-execucoes-com-firebase-crashlytics">https://www.alura.com.br/artigos/tratamento-de-execucoes-com-firebase-crashlytics</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Primeiros passos em Cloud Firestore no Flutter (Parte 1) | #AluraMais (<a href="https://youtu.be/6jsR5CXhHOs">https://youtu.be/6jsR5CXhHOs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Primeiros passos em Cloud Firestore no Flutter (Parte 2) | #AluraMais (<a href="https://youtu.be/KWWTTY6gSw4">https://youtu.be/KWWTTY6gSw4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Registro de exceções no Firebase Crashlytics | #AluraMais (<a href="https://www.youtube.com/watch?v=L0LjsG_eNyY&ab_channel=AluraCursosOnline">https://www.youtube.com/watch?v=L0LjsG_eNyY&amp;ab_channel=AluraCursosOnline</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Flutter: Push Notifications com Firebase Cloud Messaging (<a href="https://www.alura.com.br/curso-online-flutter-push-notifications-firebase-cloud-messaging">https://www.alura.com.br/curso-online-flutter-push-notifications-firebase-cloud-messaging</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Firebase com Android (<a href="https://www.alura.com.br/formacao-firebase-android">https://www.alura.com.br/formacao-firebase-android</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: UX &amp; Design</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Diretrizes de Interface Humana (HIG)</strong>:</li>
+<h3>iOS - Diretrizes de Interface Humana (HIG):</h3>
 <ul><li>As Diretrizes de Interface Humana contêm orientações e práticas recomendadas que podem ajudá-lo a criar uma ótima experiência para qualquer plataforma Apple. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Aprender os fundamentos das Diretrizes de Interface Humana (HIG) para iOS;</li>
 <li>Usar cores, fontes, layouts, ícones e animação de acordo com as diretrizes HIG.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design System</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação oficial Apple (inglês) - Human Interface Guidelines (<a href="https://developer.apple.com/design/human-interface-guidelines">https://developer.apple.com/design/human-interface-guidelines</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Acessibilidade no iOS - Gabriel Oliva | InfoQ Brasil (<a href="https://youtu.be/6Z_E2_Dx6-s">https://youtu.be/6Z_E2_Dx6-s</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Oficial Apple (inglês) - Padrões para ações do usuário (<a href="https://developer.apple.com/design/human-interface-guidelines/patterns">https://developer.apple.com/design/human-interface-guidelines/patterns</a>)</li>
+<li><code data-kind="site">Site</code> Documentação Oficial Apple (inglês) - Padrões para inserção de dados (<a href="https://developer.apple.com/design/human-interface-guidelines/inputs">https://developer.apple.com/design/human-interface-guidelines/inputs</a>)</li>
+</ul>
+<h3>Design System:</h3>
 <ul><li>Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.</li>
 <li>Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto</li>
 <li>Design tokens</li>
@@ -416,21 +902,103 @@
 <li>Construção de componentes</li>
 <li>Microinterações</li>
 <li>Documentação</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Sistemas de cores</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design System: o que é e quais os benefícios? (<a href="https://medium.com/ipnet-growth-partner/design-system-o-que-e-438773dd811">https://medium.com/ipnet-growth-partner/design-system-o-que-e-438773dd811</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Afinal, o que é Design System? (<a href="https://brasil.uxdesign.cc/afinal-o-que-%C3%A9-design-system-448c257b0021">https://brasil.uxdesign.cc/afinal-o-que-%C3%A9-design-system-448c257b0021</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que são Design Tokens (<a href="https://medium.com/pretux/design-tokens-112b2ee11ddf">https://medium.com/pretux/design-tokens-112b2ee11ddf</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Caio Gonzalez: O que é Design System? / Guia para começar o seu próprio Design System (<a href="https://www.youtube.com/watch?v=ajqbXpFVaAw">https://www.youtube.com/watch?v=ajqbXpFVaAw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Design System? (<a href="https://www.alura.com.br/artigos/o-que-e-design-system">https://www.alura.com.br/artigos/o-que-e-design-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Systems: exemplos práticos (<a href="https://www.alura.com.br/artigos/design-systems-exemplos-praticos">https://www.alura.com.br/artigos/design-systems-exemplos-praticos</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design System &amp; Style Guide (<a href="https://www.youtube.com/watch?v=rSLvpOqC5wQ">https://www.youtube.com/watch?v=rSLvpOqC5wQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design Systems (com Charles Assunção) (<a href="https://www.youtube.com/watch?v=MLGFctEtmYQ">https://www.youtube.com/watch?v=MLGFctEtmYQ</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Design Systems - Hipsters 170 (<a href="https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399">https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: Design System – Layers ponto tech 36 (<a href="https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056">https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: definindo estilos e tokens (<a href="https://cursos.alura.com.br/course/design-system-definindo-estilos-tokens">https://cursos.alura.com.br/course/design-system-definindo-estilos-tokens</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: projetando e construindo componentes (<a href="https://cursos.alura.com.br/course/design-system-projetando-construindo-componentes">https://cursos.alura.com.br/course/design-system-projetando-construindo-componentes</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: documentando um design system (<a href="https://cursos.alura.com.br/course/design-system-documentando-design-system">https://cursos.alura.com.br/course/design-system-documentando-design-system</a>)</li>
+<li><code data-kind="desafio">Desafio</code> Experimente o que é ser um(a) profissional de Ux (<a href="https://www.alura.com.br/challenges/ux-4">https://www.alura.com.br/challenges/ux-4</a>)</li>
+</ul>
+<h3>Sistemas de cores:</h3>
 <ul><li>Definir uma paleta de cores que faça sentido para determinada interface</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Como usar fontes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Cores em UI: Um Guia Rápido Para Usar em Seus Projetos (<a href="https://medium.com/aela/cores-em-ui-um-guia-r%C3%A1pido-para-usar-em-seus-projetos-31ccffe3e16b">https://medium.com/aela/cores-em-ui-um-guia-r%C3%A1pido-para-usar-em-seus-projetos-31ccffe3e16b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A Psicologia das cores e sua relação com o UX Design (<a href="https://brasil.uxdesign.cc/a-psicologia-das-cores-e-sua-rela%C3%A7%C3%A3o-com-o-ux-design-af02460639cd">https://brasil.uxdesign.cc/a-psicologia-das-cores-e-sua-rela%C3%A7%C3%A3o-com-o-ux-design-af02460639cd</a>)</li>
+<li><code data-kind="youtube">YouTube</code> kacio.design: Aplicação de Cores - Princípios do UI (<a href="https://www.youtube.com/watch?v=C_VhzEyqT6U">https://www.youtube.com/watch?v=C_VhzEyqT6U</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso Cores para Designers: escolhendo e trabalhando com cores em um projeto (<a href="https://www.alura.com.br/curso-online-cores-para-seu-projeto">https://www.alura.com.br/curso-online-cores-para-seu-projeto</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Cores: sistemas básicos e paletas (<a href="https://www.alura.com.br/conteudo/fundamentos-da-cor">https://www.alura.com.br/conteudo/fundamentos-da-cor</a>)</li>
+<li><code data-kind="curso">Curso</code> Cores: sistemas básicos e paletas (<a href="https://www.alura.com.br/curso-online-fundamentos-da-cor">https://www.alura.com.br/curso-online-fundamentos-da-cor</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design editorial: criação de materiais gráficos (<a href="https://www.alura.com.br/curso-online-design-editorial">https://www.alura.com.br/curso-online-design-editorial</a>)</li>
+</ul>
+<h3>Como usar fontes:</h3>
 <ul><li>Escolher a fonte mais adequada para determinado projeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Responsivo</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Você sabe usar tipografia em UI Design? (<a href="https://medium.com/ui-lab-school/voc%C3%AA-sabe-usar-tipografia-em-ui-design-9ce4ccdbab43">https://medium.com/ui-lab-school/voc%C3%AA-sabe-usar-tipografia-em-ui-design-9ce4ccdbab43</a>)</li>
+<li><code data-kind="artigo">Artigo</code> As 20 fontes mais usadas pelos designers gráficos (<a href="https://apenasumchico.medium.com/as-20-fontes-mais-populares-de-todos-os-tempos-38a6c121dfb">https://apenasumchico.medium.com/as-20-fontes-mais-populares-de-todos-os-tempos-38a6c121dfb</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Usando ícones SVG como fontes com o IcoMoon (<a href="https://dev.to/sucodelarangela/usando-icones-svg-como-fontes-com-o-icomoon-563e">https://dev.to/sucodelarangela/usando-icones-svg-como-fontes-com-o-icomoon-563e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Nadine Fronza: Como escolher a melhor fonte para seu projeto (<a href="https://www.youtube.com/watch?v=MSKPUtIdadI">https://www.youtube.com/watch?v=MSKPUtIdadI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Thiago Abreu: Como Escolher Fontes para um Trabalho de Design (<a href="https://www.youtube.com/watch?v=l-TrNbZi-aU">https://www.youtube.com/watch?v=l-TrNbZi-aU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 10 tipografias gratuitas para um design incrível (<a href="https://www.alura.com.br/artigos/10-tipografias-gratuitas-design-incrivel">https://www.alura.com.br/artigos/10-tipografias-gratuitas-design-incrivel</a>)</li>
+<li><code data-kind="site">Site</code> Tipografia para Web (<a href="https://tipografiaparaweb.netlify.app/">https://tipografiaparaweb.netlify.app/</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Tipografia: conhecendo o que há por trás dos tipos (<a href="https://www.alura.com.br/conteudo/tipografia-conceito">https://www.alura.com.br/conteudo/tipografia-conceito</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Tipografia: conhecendo o que há por trás dos tipos (<a href="https://www.alura.com.br/curso-online-tipografia-conceito">https://www.alura.com.br/curso-online-tipografia-conceito</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design editorial: criação de materiais gráficos (<a href="https://www.alura.com.br/curso-online-design-editorial">https://www.alura.com.br/curso-online-design-editorial</a>)</li>
+</ul>
+<h3>Design Responsivo:</h3>
 <ul><li>Ajustar suas páginas para o tamanho da tela do usuário</li>
 <li>Media queries</li>
 <li>Conhecer o conceito de Mobile first</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>iOS - Acessibilidade</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design responsivo para leigos (<a href="https://medium.com/neworder/design-responsivo-para-leigos-888c9d0dfdaf">https://medium.com/neworder/design-responsivo-para-leigos-888c9d0dfdaf</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo as diferenças entre design responsivo, adaptativo e mobile-first (<a href="https://medium.com/@fnandaleite/entendendo-as-diferen%C3%A7as-entre-design-responsivo-adaptativo-e-mobile-first-ea3c61fc9181">https://medium.com/@fnandaleite/entendendo-as-diferen%C3%A7as-entre-design-responsivo-adaptativo-e-mobile-first-ea3c61fc9181</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Web Design Responsivo — O Que É e Como Usá-lo (<a href="https://medium.com/@carlosverza/web-design-responsivo-o-que-%C3%A9-e-como-us%C3%A1-lo-12477b168fc7">https://medium.com/@carlosverza/web-design-responsivo-o-que-%C3%A9-e-como-us%C3%A1-lo-12477b168fc7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> MobGeek: O que é Design Responsivo? (<a href="https://www.youtube.com/watch?v=WXfYtneJZzI">https://www.youtube.com/watch?v=WXfYtneJZzI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ralf Lima: Mobile First e Desktop First (<a href="https://www.youtube.com/watch?v=oqggJTC3_vA">https://www.youtube.com/watch?v=oqggJTC3_vA</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como fazer Grids e a Responsividade na Web (<a href="https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web">https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Layouts Responsivos: trabalhando com layouts mobile (<a href="https://www.alura.com.br/curso-online-mobile-first-layouts-responsivos">https://www.alura.com.br/curso-online-mobile-first-layouts-responsivos</a>)</li>
+<li><code data-kind="curso">Curso</code> HTML e CSS: responsividade com mobile-first (<a href="https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first">https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Responsividade (<a href="https://7daysofcode.io/matricula/responsividade">https://7daysofcode.io/matricula/responsividade</a>)</li>
+</ul>
+<h3>iOS - Acessibilidade:</h3>
 <ul><li>A acessibilidade é a capacidade de todos os usuários de acessar e usar um aplicativo, independentemente de suas capacidades. Isso inclui pessoas com deficiências visuais, auditivas, motoras e cognitivas. Existem muitas maneiras de tornar um aplicativo acessível em iOS. Uma maneira é usar os recursos de acessibilidade do iOS, como VoiceOver, Zoom e Switch Control. Outra maneira é projetar o aplicativo de forma que seja fácil de usar por pessoas com deficiências. É importante tornar seus aplicativos acessíveis para que todos possam usá-los. Isso é bom para os negócios, pois pode aumentar sua base de clientes. Também é bom para a sociedade, pois pode ajudar a promover a inclusão e a igualdade. Veja as principais habilidades que você precisa desenvolver:</li>
 <li>Conhecer e utilizar os recursos de acessibilidade do iOS.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Figma - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Tornando o seu app acessível por todos no iOS | Medium (<a href="https://medium.com/@GusSevero/tornando-o-seu-app-acess%C3%ADvel-por-todos-e93c1aa2ad9d">https://medium.com/@GusSevero/tornando-o-seu-app-acess%C3%ADvel-por-todos-e93c1aa2ad9d</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Acessibilidade em apps iOS na prática - Ashton Williams (inglês) | A11y Bytes (<a href="https://youtu.be/aFeVVQHktaU">https://youtu.be/aFeVVQHktaU</a>)</li>
+</ul>
+<h3>Figma - Fundamentos:</h3>
 <ul><li>Figma é uma aplicação web colaborativa para design de interfaces. O conjunto de recursos do Figma se concentra na interface do usuário e no design da experiência do usuário, com ênfase na colaboração em tempo real, utilizando uma variedade de editores de gráficos vetoriais e ferramentas de prototipagem.</li>
 <li>Criar layouts de páginas e componentes</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Figma Básico - Primeiros passos com Figma (<a href="https://www.figma.com/community/file/1190593276621265988">https://www.figma.com/community/file/1190593276621265988</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é o Figma e por que usar ele? (<a href="https://medium.com/nerdzao/o-que-%C3%A9-o-figma-e-por-que-usar-ele-a71fbf1dbdd8">https://medium.com/nerdzao/o-que-%C3%A9-o-figma-e-por-que-usar-ele-a71fbf1dbdd8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda o que é e como usar o Figma para criar designs (<a href="https://blog.b2bstack.com.br/figma/">https://blog.b2bstack.com.br/figma/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: Como usar o Figma! (<a href="https://www.youtube.com/watch?v=qoE-2YFeW-Q">https://www.youtube.com/watch?v=qoE-2YFeW-Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 4 Exemplos de Componentes interativos no Figma (<a href="https://www.youtube.com/watch?v=mGL3jrY-OBc">https://www.youtube.com/watch?v=mGL3jrY-OBc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Figma: o que é a ferramenta, Design e uso (<a href="https://www.alura.com.br/artigos/figma">https://www.alura.com.br/artigos/figma</a>)</li>
+<li><code data-kind="site">Site</code> Como Front-End utiliza o Figma - Alura+ (<a href="https://cursos.alura.com.br/extra/alura-mais/como-front-end-utiliza-o-figma-c858">https://cursos.alura.com.br/extra/alura-mais/como-front-end-utiliza-o-figma-c858</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Top 5 plugins no Figma para trabalhar com Design System (<a href="https://www.alura.com.br/artigos/top-5-plugins-figma-trabalhar-com-design-system">https://www.alura.com.br/artigos/top-5-plugins-figma-trabalhar-com-design-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 plugins essenciais que você precisa ter no seu Figma (<a href="https://www.alura.com.br/artigos/5-plugins-essenciais-do-figma">https://www.alura.com.br/artigos/5-plugins-essenciais-do-figma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 10 truques incríveis e pouco conhecidos no Figma (<a href="https://www.alura.com.br/artigos/10-truques-incriveis-pouco-conhecidos-figma">https://www.alura.com.br/artigos/10-truques-incriveis-pouco-conhecidos-figma</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: Figma do Design ao Código 03 (<a href="https://www.alura.com.br/podcast/layerstech-figma-do-design-ao-codigo-layers-ponto-tech-03-a726">https://www.alura.com.br/podcast/layerstech-figma-do-design-ao-codigo-layers-ponto-tech-03-a726</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como fazer estilos locais mais rapidamente no Figma? (<a href="https://www.youtube.com/watch?v=fCHd2_lAcQQ">https://www.youtube.com/watch?v=fCHd2_lAcQQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Figma (<a href="https://www.alura.com.br/formacao-figma">https://www.alura.com.br/formacao-figma</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

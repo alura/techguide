@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,9 +249,8 @@
   </div>
 
   <div class="content">
-    <h1>Inteligência Artificial</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python para Ciência de Dados</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Python para Ciência de Dados:</h3>
 <ul><li>Python é uma linguagem de programação interpretada de alto nível e que suporta múltiplos paradigmas de programação, como imperativo, orientado a objetos e funcional. É uma linguagem com tipagem dinâmica e gerenciamento automático de memória.</li>
 <li>Aprender lógica de programação em Python</li>
 <li>Aprenda os fundamentos da linguagem como variáveis, funções, listas, condicionais e imports</li>
@@ -220,16 +259,63 @@
 <li>Usar e manipular listas para agrupar dados</li>
 <li>Conhecer a biblioteca NumPy</li>
 <li>Conhecer a biblioteca Pandas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Jupyter &amp; Colab notebooks</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Primeiros passos em Data Science utilizando Python para análise de dados (<a href="https://medium.com/data-hackers/primeiros-passos-em-data-science-utilizando-python-para-an%C3%A1lise-de-dados-823436432b28">https://medium.com/data-hackers/primeiros-passos-em-data-science-utilizando-python-para-an%C3%A1lise-de-dados-823436432b28</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python para Análise de Dados (<a href="https://medium.com/@aasouzaconsult/python-para-an%C3%A1lise-de-dados-24028d7013b3">https://medium.com/@aasouzaconsult/python-para-an%C3%A1lise-de-dados-24028d7013b3</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Filipe Deschamps: Introdução a Ciência de Dados (Primeira aula prática programando em Python) (<a href="https://www.youtube.com/watch?v=F608hzn_ygo">https://www.youtube.com/watch?v=F608hzn_ygo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Jerry Strazzeri: Como estudar Python para Ciência de Dados (<a href="https://www.youtube.com/watch?v=kIKdbBc6npU">https://www.youtube.com/watch?v=kIKdbBc6npU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Prof. Cíntia Pinho: Introdução a Python para Ciências de Dados (<a href="https://www.youtube.com/watch?v=M13p7EHA6Ro">https://www.youtube.com/watch?v=M13p7EHA6Ro</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Python? História, Sintaxe e um Guia para iniciar na Linguagem (<a href="https://www.alura.com.br/artigos/python">https://www.alura.com.br/artigos/python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Data Science: conceitos, aplicações práticas e um bate papo sobre carreira (<a href="https://www.alura.com.br/artigos/o-que-e-data-science">https://www.alura.com.br/artigos/o-que-e-data-science</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Numpy: trabalhando computação científica com Python (<a href="https://www.alura.com.br/artigos/numpy-computacao-cientifica-com-python">https://www.alura.com.br/artigos/numpy-computacao-cientifica-com-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Pandas Python: o que é, para que serve e como instalar (<a href="https://www.alura.com.br/artigos/pandas-o-que-e-para-que-serve-como-instalar">https://www.alura.com.br/artigos/pandas-o-que-e-para-que-serve-como-instalar</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Dicas de como escolher o tipo de visualização de dados para sua análise (<a href="https://www.alura.com.br/artigos/tipo-de-visualizacao-de-dados">https://www.alura.com.br/artigos/tipo-de-visualizacao-de-dados</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Portfólio em dados: como reunir seus projetos de Data Science (<a href="https://www.alura.com.br/artigos/portfolio-em-dados">https://www.alura.com.br/artigos/portfolio-em-dados</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Primeiros Passos em Data Science: Do Excel e BI ao Python – Hipsters 134 (<a href="https://www.hipsters.tech/primeiros-passos-em-data-science-do-excel-e-bi-ao-python-hipsters-134/">https://www.hipsters.tech/primeiros-passos-em-data-science-do-excel-e-bi-ao-python-hipsters-134/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Guia de carreira DATA SCIENCE (<a href="https://www.youtube.com/watch?v=7KhaiCC3fJQ">https://www.youtube.com/watch?v=7KhaiCC3fJQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Python para Data Science (<a href="https://www.alura.com.br/formacao-data-science-python">https://www.alura.com.br/formacao-data-science-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Avançando em Data Science com Python (<a href="https://www.alura.com.br/formacao-avancando-data-science-python">https://www.alura.com.br/formacao-avancando-data-science-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Data Science (<a href="https://cursos.alura.com.br/formacao-data-science">https://cursos.alura.com.br/formacao-data-science</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Python Pandas (<a href="https://7daysofcode.io/matricula/pandas">https://7daysofcode.io/matricula/pandas</a>)</li>
+</ul>
+<h3>Jupyter &amp; Colab notebooks:</h3>
 <ul><li>Jupyter Notebook e Google Colaboratory são Notebooks que permitem a criação de blocos de texto e blocos de código</li>
 <li>Os Notebooks facilitam a elaboração de projetos de Data Science por ser possível visualizar o resultado da execução logo após o trecho de código</li>
 <li>O Google Colaboratory permite escrever e executar códigos Python diretamente no navegador, sem nenhuma ou poucas configurações necessárias</li>
 <li>Essas ferramentas facilitam o compartilhamento de projetos entre o time</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Regressão Linear e Logística</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Jupyter Notebook (<a href="https://jupyter.org/">https://jupyter.org/</a>)</li>
+<li><code data-kind="site">Site</code> Google Colaboratory (<a href="https://colab.research.google.com/">https://colab.research.google.com/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Maximize sua eficiência: 10 passos para organizar seu Jupyter Notebook (<a href="https://medium.com/data-hackers/maximize-sua-efici%C3%AAncia-10-passos-para-organizar-seu-jupyter-notebook-522b4bdf8261">https://medium.com/data-hackers/maximize-sua-eficiência-10-passos-para-organizar-seu-jupyter-notebook-522b4bdf8261</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Jupyter Notebook: Exemplos de Códigos e Como Usar (<a href="https://www.alura.com.br/artigos/conhecendo-o-jupyter-notebook">https://www.alura.com.br/artigos/conhecendo-o-jupyter-notebook</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Google Colab: o que é, tutorial de como usar e criar códigos (<a href="https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar">https://www.alura.com.br/artigos/google-colab-o-que-e-e-como-usar</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Trabalhando com arquivos no Google Colab (<a href="https://www.youtube.com/watch?v=ojgvdqexJ0Q&t=3s">https://www.youtube.com/watch?v=ojgvdqexJ0Q&amp;t=3s</a>)</li>
+</ul>
+<h3>Regressão Linear e Logística:</h3>
 <ul><li>As regressões são os métodos mais simples de aprendizado supervisionado, porém encontram diversas aplicações.</li>
 <li>A regressão linear é usada para relacionar uma variável dependente contínua a uma ou mais variáveis independentes contínuas. O objetivo é encontrar uma relação linear que melhor se ajuste aos dados.</li>
 <li>A regressão logística, por outro lado, é usada para problemas de classificação binária, onde a variável de saída é categórica e possui apenas duas categorias. Ela estima a probabilidade de um evento ocorrer com base nas variáveis independentes.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estatística e Matemática - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como funciona uma Regressão Linear? (<a href="https://medium.com/data-hackers/como-funciona-uma-regress%C3%A3o-linear-f7208fa6c662">https://medium.com/data-hackers/como-funciona-uma-regress%C3%A3o-linear-f7208fa6c662</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é regressão logística? (<a href="https://www.ibm.com/br-pt/topics/logistic-regression">https://www.ibm.com/br-pt/topics/logistic-regression</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Regressão linear simples (<a href="https://www.youtube.com/watch?v=A08rHATrmSI&pp=ygURcmVncmVzc8OjbyBsaW5lYXI%3D">https://www.youtube.com/watch?v=A08rHATrmSI&amp;pp=ygURcmVncmVzc8OjbyBsaW5lYXI%3D</a>)</li>
+<li><code data-kind="youtube">YouTube</code> R, Estatística e Aprendizado de Máquina: Regressão Logística - Teoria (<a href="https://www.youtube.com/watch?v=PDXGgCE8pLQ">https://www.youtube.com/watch?v=PDXGgCE8pLQ</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Desvendando a Regressão Linear (<a href="https://www.alura.com.br/artigos/desvendando-a-regressao-linear">https://www.alura.com.br/artigos/desvendando-a-regressao-linear</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Função de autocorrelação (<a href="https://www.alura.com.br/artigos/funcao-de-autocorrelacao">https://www.alura.com.br/artigos/funcao-de-autocorrelacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Data Science: testando relações com Regressão Linear (<a href="https://cursos.alura.com.br/course/data-science-testando-relacoes-regressao-linear">https://cursos.alura.com.br/course/data-science-testando-relacoes-regressao-linear</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Regressão Linear: técnicas avançadas de modelagem (<a href="https://www.alura.com.br/curso-online-data-science-modelo-regressao-linear-assimetria-statsmodel">https://www.alura.com.br/curso-online-data-science-modelo-regressao-linear-assimetria-statsmodel</a>)</li>
+<li><code data-kind="curso">Curso</code> Machine Learning: Credit Scoring (<a href="https://www.alura.com.br/curso-online-machine-learning-credit-scoring">https://www.alura.com.br/curso-online-machine-learning-credit-scoring</a>)</li>
+</ul>
+<h3>Estatística e Matemática - Fundamentos:</h3>
 <ul><li>Equações, funções e limites</li>
 <li>Logaritmos</li>
 <li>Matrizes, determinantes, vetores e espaço vetorial</li>
@@ -242,13 +328,56 @@
 <li>Técnicas de amostragem</li>
 <li>Introdução à Regressão linear</li>
 <li>Séries temporais</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Preciso saber matemática para aprender Ciência de Dados? (<a href="https://beatrizyumi.medium.com/preciso-saber-matem%C3%A1tica-para-aprender-ci%C3%AAncia-de-dados-9a9b7c7846a9">https://beatrizyumi.medium.com/preciso-saber-matem%C3%A1tica-para-aprender-ci%C3%AAncia-de-dados-9a9b7c7846a9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Filho: As 3 Áreas da Matemática Usadas em Data Science (<a href="https://www.youtube.com/watch?v=niF_T21vdZ4">https://www.youtube.com/watch?v=niF_T21vdZ4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> PrograMaria: Estatística básica para Ciência de Dados (<a href="https://www.youtube.com/watch?v=xiZwte8D1Xs">https://www.youtube.com/watch?v=xiZwte8D1Xs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Data Viking: Estatística básica para ciência de dados (<a href="https://www.youtube.com/watch?v=K_q6uCgV0Mk">https://www.youtube.com/watch?v=K_q6uCgV0Mk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> FC Nuvem: Introdução a Estatística para Ciência de Dados (<a href="https://www.youtube.com/watch?v=NdRKIIFa63c">https://www.youtube.com/watch?v=NdRKIIFa63c</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Média ou mediana? Entendendo cada uma (<a href="https://www.alura.com.br/artigos/media-ou-mediana-entendendo-cada-uma">https://www.alura.com.br/artigos/media-ou-mediana-entendendo-cada-uma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Modelos matemáticos utilizados em séries temporais (<a href="https://www.alura.com.br/artigos/modelos-matematicos-utilizados-em-series-temporais">https://www.alura.com.br/artigos/modelos-matematicos-utilizados-em-series-temporais</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Preciso saber matemática para programar? (<a href="https://www.youtube.com/watch?v=WZo8s-zsfuY">https://www.youtube.com/watch?v=WZo8s-zsfuY</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Estatística com Python (<a href="https://cursos.alura.com.br/formacao-estatistica-python">https://cursos.alura.com.br/formacao-estatistica-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Data Science: testando hipóteses (<a href="https://cursos.alura.com.br/course/data-science-testando-hipoteses">https://cursos.alura.com.br/course/data-science-testando-hipoteses</a>)</li>
+<li><code data-kind="livro">Livro</code> Introdução à Estatística para Ciência de Dados: Da exploração dos dados à experimentação contínua com exemplos de código em Python e R (<a href="https://www.casadocodigo.com.br/products/livro-estatistica-datascience">https://www.casadocodigo.com.br/products/livro-estatistica-datascience</a>)</li>
+</ul>
+<h3>Machine Learning - Fundamentos:</h3>
 <ul><li>O Aprendizado de Máquina ou Machine Learning é um subcampo da Engenharia e da Ciência da Computação que evoluiu do estudo de reconhecimento de padrões e da teoria do aprendizado computacional em inteligência artificial.</li>
 <li>Aprendizado supervisionado</li>
 <li>Utilizar algoritmos de classificação</li>
 <li>Utilizar algoritmos de regressão</li>
 <li>Utilizar o Scikit-learn para criar modelos de machine learning</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Aprendizado Não Supervisionado</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Amazon AWS: O que é machine learning? (<a href="https://aws.amazon.com/pt/what-is/machine-learning/">https://aws.amazon.com/pt/what-is/machine-learning/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A explicação mais simples sobre aprendizado de máquina que você lerá (<a href="https://kozyrk.medium.com/a-explica%C3%A7%C3%A3o-mais-simples-sobre-aprendizado-de-m%C3%A1quina-que-voc%C3%AA-ler%C3%A1-6d4e61002401">https://kozyrk.medium.com/a-explica%C3%A7%C3%A3o-mais-simples-sobre-aprendizado-de-m%C3%A1quina-que-voc%C3%AA-ler%C3%A1-6d4e61002401</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao Aprendizado de Máquina (<a href="https://medium.com/@avinicius.adorno/introdu%C3%A7%C3%A3o-a-aprendizado-de-m%C3%A1quina-e39ec5ef459b">https://medium.com/@avinicius.adorno/introdu%C3%A7%C3%A3o-a-aprendizado-de-m%C3%A1quina-e39ec5ef459b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Árvores de Decisão (<a href="https://medium.com/machine-learning-beyond-deep-learning/%C3%A1rvores-de-decis%C3%A3o-3f52f6420b69">https://medium.com/machine-learning-beyond-deep-learning/%C3%A1rvores-de-decis%C3%A3o-3f52f6420b69</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Nerdologia: Machine Learning - como ensinar uma máquina a aprender (<a href="https://www.youtube.com/watch?v=mhe5e2B9bL8">https://www.youtube.com/watch?v=mhe5e2B9bL8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Filipe Deschamps: Qual a diferença entre Inteligência Artificial, Machine Learning, Data Science, Deep Learning, etc? (<a href="https://www.youtube.com/watch?v=ccZ2pyr3YDw">https://www.youtube.com/watch?v=ccZ2pyr3YDw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Filipe Deschamps: Machine Learning - Tutorial prático usando apenas o navegador (<a href="https://www.youtube.com/watch?v=JyGGMyR3x5I">https://www.youtube.com/watch?v=JyGGMyR3x5I</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Direto ao ponto: o que é Machine Learning com exemplos reais (<a href="https://www.alura.com.br/artigos/machine-learning">https://www.alura.com.br/artigos/machine-learning</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Desmistificando termos em Machine Learning (<a href="https://www.alura.com.br/artigos/desmistificando-termos-machine-learning">https://www.alura.com.br/artigos/desmistificando-termos-machine-learning</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Quais são os 4 tipos de aprendizagem na IA, algoritmos e usos no dia a dia (<a href="https://www.alura.com.br/artigos/desmistificando-termos-machine-learning-tipos-aprendizado">https://www.alura.com.br/artigos/desmistificando-termos-machine-learning-tipos-aprendizado</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Machine Learning: o que é aprendizado semi-supervisionado (<a href="https://alura.com.br/artigos/machine-learning-aprendizado-semi-supervisionado">https://alura.com.br/artigos/machine-learning-aprendizado-semi-supervisionado</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é Machine Learning? (<a href="https://www.youtube.com/watch?v=Iuz_jc96bQk">https://www.youtube.com/watch?v=Iuz_jc96bQk</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Machine Learning – Hipsters 89 (<a href="https://www.hipsters.tech/machine-learning-hipsters-88/">https://www.hipsters.tech/machine-learning-hipsters-88/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Como funciona o Machine Learning? (<a href="https://www.youtube.com/watch?v=CAu97npy7zQ">https://www.youtube.com/watch?v=CAu97npy7zQ</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Desafios em Machine Learning – Hipsters 137 (<a href="https://www.hipsters.tech/desafios-em-machine-learning-hipsters-137/">https://www.hipsters.tech/desafios-em-machine-learning-hipsters-137/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Engenharia de machine learning – Hipsters Ponto Tech 248 (<a href="https://www.hipsters.tech/engenharia-de-machine-learning-hipsters-ponto-tech-248/">https://www.hipsters.tech/engenharia-de-machine-learning-hipsters-ponto-tech-248/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que faz uma pessoa engenheira de Machine Learning? (<a href="https://www.youtube.com/watch?v=BRhz6v-jfMM">https://www.youtube.com/watch?v=BRhz6v-jfMM</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Machine Learning (<a href="https://cursos.alura.com.br/formacao-machine-learning">https://cursos.alura.com.br/formacao-machine-learning</a>)</li>
+<li><code data-kind="curso">Curso</code> Machine Learning com Python: Classificação (<a href="https://cursos.alura.com.br/formacao-machine-learning-python-classificacao">https://cursos.alura.com.br/formacao-machine-learning-python-classificacao</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Machine Learning (<a href="https://7daysofcode.io/matricula/machine-learning">https://7daysofcode.io/matricula/machine-learning</a>)</li>
+<li><code data-kind="livro">Livro</code> Machine Learning: Introdução à classificação (<a href="https://www.casadocodigo.com.br/products/livro-machine-learning">https://www.casadocodigo.com.br/products/livro-machine-learning</a>)</li>
+<li><code data-kind="livro">Livro</code> Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt (<a href="https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt">https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt</a>)</li>
+</ul>
+<h3>Machine Learning - Aprendizado Não Supervisionado:</h3>
 <ul><li>O Aprendizado Não Supervisionado utiliza algoritmos de Aprendizado de Máquina para analisar e agrupar conjuntos de dados não rotulados. Estes algoritmos descobrem padrões ocultos ou agrupamentos de dados sem a necessidade de intervenção humana.</li>
 <li>O clustering ou análise de agrupamento de dados é o conjunto de técnicas de prospecção de dados (data mining) que visa fazer agrupamentos automáticos de dados segundo o seu grau de semelhança.</li>
 <li>Conhecer a análise exploratória</li>
@@ -257,17 +386,82 @@
 <li>Parametrizar métodos de clusterização através do máximo coeficiente de silhueta</li>
 <li>Entender a matemática por trás das métricas de validação Silhouette, Davies Bouldin e Calinski Harabasz</li>
 <li>Conhecer técnicas de redução de dimensionalidade</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Naive Bayes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Desmistificando aprendizado não supervisionado (<a href="https://kozyrk.medium.com/portuguese-unsupervised-learning-c47d48c8e31">https://kozyrk.medium.com/portuguese-unsupervised-learning-c47d48c8e31</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Análises com algoritmos de Clustering (<a href="https://medium.com/@isnardgurgel/an%C3%A1lises-com-algoritmos-de-clustering-40d52f36f67c">https://medium.com/@isnardgurgel/an%C3%A1lises-com-algoritmos-de-clustering-40d52f36f67c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo Clusters e K-Means (<a href="https://medium.com/cwi-software/entendendo-clusters-e-k-means-56b79352b452">https://medium.com/cwi-software/entendendo-clusters-e-k-means-56b79352b452</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Canalytics: O que é Clusterização de Dados? (<a href="https://www.youtube.com/watch?v=1ygrujPfclo&ab_channel=Canalytics">https://www.youtube.com/watch?v=1ygrujPfclo&amp;ab_channel=Canalytics</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Canal Sandeco: K-Means com Python (<a href="https://www.youtube.com/watch?v=piDlrtfz58s">https://www.youtube.com/watch?v=piDlrtfz58s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Python DS: Machine Learning - Clustering (agrupamento) com DBSCAN (<a href="https://www.youtube.com/watch?v=TmCf9M_NNqQ">https://www.youtube.com/watch?v=TmCf9M_NNqQ</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Quais os algoritmos de clusterização e quando utilizar? (<a href="https://www.alura.com.br/artigos/clusterizacao">https://www.alura.com.br/artigos/clusterizacao</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Métricas de avaliação para clusterização (<a href="https://www.alura.com.br/artigos/metricas-de-avaliacao-para-clusterizacao">https://www.alura.com.br/artigos/metricas-de-avaliacao-para-clusterizacao</a>)</li>
+<li><code data-kind="livro">Livro</code> Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt (<a href="https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt">https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Clustering aplicado: recomendando músicas com K-Means (<a href="https://cursos.alura.com.br/course/clustering-aplicado-recomendando-musicas-k-means">https://cursos.alura.com.br/course/clustering-aplicado-recomendando-musicas-k-means</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Clustering: extraindo padrões de dados (<a href="https://cursos.alura.com.br/course/cluster-analysis">https://cursos.alura.com.br/course/cluster-analysis</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Análise de componentes principais: elaboração de rankings com o PCA (<a href="https://cursos.alura.com.br/course/analise-componentes-elaboracao-rankings-pca">https://cursos.alura.com.br/course/analise-componentes-elaboracao-rankings-pca</a>)</li>
+</ul>
+<h3>Naive Bayes:</h3>
 <ul><li>Naive Bayes é um algoritmo de aprendizado de máquina comumente utilizado para classificação de texto e análise de sentimentos. Ele é baseado no teorema de Bayes, que descreve a probabilidade condicional de um evento ocorrer, dado que outro evento já ocorreu.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Máquina de Vetores de Suporte</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Definição de Naive Bayes (<a href="https://www.organicadigital.com/blog/algoritmo-de-classificacao-naive-bayes/">https://www.organicadigital.com/blog/algoritmo-de-classificacao-naive-bayes/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 6 passos fáceis para aprender o algoritmo Naive Bayes (com o código em Python) (<a href="https://www.vooo.pro/insights/6-passos-faceis-para-aprender-o-algoritmo-naive-bayes-com-o-codigo-em-python/">https://www.vooo.pro/insights/6-passos-faceis-para-aprender-o-algoritmo-naive-bayes-com-o-codigo-em-python/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Análise de sentimento de status do Facebook usando o classificador Naive Bayes para aprendizado de idiomas (inglês) (<a href="https://www.researchgate.net/publication/261497806_Sentiment_analysis_of_Facebook_statuses_using_Naive_Bayes_Classifier_for_language_learning">https://www.researchgate.net/publication/261497806_Sentiment_analysis_of_Facebook_statuses_using_Naive_Bayes_Classifier_for_language_learning</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Didática Tech: Entenda o Teorema de Bayes com foco na matemática (<a href="https://www.youtube.com/watch?v=I643PqSrETM">https://www.youtube.com/watch?v=I643PqSrETM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Responde Aí: Teorema de Bayes | Cálculo de Probabilidade (<a href="https://www.youtube.com/watch?v=goaRH7a5hR4">https://www.youtube.com/watch?v=goaRH7a5hR4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IA Expert Academy: Como implementar Naive Bayes com Python (<a href="https://www.youtube.com/watch?v=nBrd8BldSdo">https://www.youtube.com/watch?v=nBrd8BldSdo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AlgoritmoZ: Introdução à IA: Naive Bayes em Python no Colab (<a href="https://www.youtube.com/watch?v=BjzX5LZCBmg">https://www.youtube.com/watch?v=BjzX5LZCBmg</a>)</li>
+</ul>
+<h3>Machine Learning - Máquina de Vetores de Suporte:</h3>
 <ul><li>Uma máquina de vetores de suporte (SVM, do inglês Support Vector Machine) é um conceito da Ciência da Computação para um conjunto de métodos de Aprendizado Supervisionado que analisam os dados e reconhecem padrões. O SVM pode ser usanto tanto para modelar problemas preditivos de classificação quanto de regressão.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Máquina de Vetores de Suporte — SVM - Intuição do método (<a href="https://medium.com/@msremigio/m%C3%A1quinas-de-vetores-de-suporte-svm-77bb114d02fc">https://medium.com/@msremigio/m%C3%A1quinas-de-vetores-de-suporte-svm-77bb114d02fc</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Classificando o paladar de receitas — SVM (<a href="https://arthurlambletvaz.medium.com/classificando-o-paladar-das-receitas-svm-bf0fbb185b10">https://arthurlambletvaz.medium.com/classificando-o-paladar-das-receitas-svm-bf0fbb185b10</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tutorial de SVM (<a href="https://lamfo-unb.github.io/2020/07/04/SVM/">https://lamfo-unb.github.io/2020/07/04/SVM/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> EstaTiDados: Máquina de vetores de suporte (SVM) - Teoria (<a href="https://www.youtube.com/watch?v=CbejnYx8JlQ">https://www.youtube.com/watch?v=CbejnYx8JlQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Lecture Notes by Adriano Santos: SVM - Máquina de Vetores de Suporte - Geração de hiperplanos (<a href="https://www.youtube.com/watch?v=7y4uceXgYeo">https://www.youtube.com/watch?v=7y4uceXgYeo</a>)</li>
+<li><code data-kind="site">Site</code> Máquina de vetores de suporte - documentação Scikit-Learn (inglês) (<a href="https://scikit-learn.org/stable/modules/svm.html">https://scikit-learn.org/stable/modules/svm.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Machine Learning: classificação com SKLearn (<a href="https://cursos.alura.com.br/course/machine-learning-introducao-a-classificacao-com-sklearn">https://cursos.alura.com.br/course/machine-learning-introducao-a-classificacao-com-sklearn</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>XGBoost</strong>:</li>
+<h3>XGBoost:</h3>
 <ul><li>XGBoost é uma biblioteca de aprendizado de máquina baseada em gradient boosting que se destaca na resolução de problemas de classificação e regressão. &quot;XG&quot; em XGBoost refere-se a &quot;Extreme Gradient&quot;, indicando o uso de gradient boosting para melhorar a precisão do modelo.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Previsão de Séries temporais</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> XGBoost: aprenda este algoritmo de Machine Learning em Python (<a href="https://sigmoidal.ai/xgboost-aprenda-algoritmo-de-machine-learning-em-python/">https://sigmoidal.ai/xgboost-aprenda-algoritmo-de-machine-learning-em-python/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> XGBoost — A matemática passo a passo (<a href="https://medium.com/@aln.deaguiar/xgboost-a-matem%C3%A1tica-passo-a-passo-29d34fa561dc">https://medium.com/@aln.deaguiar/xgboost-a-matem%C3%A1tica-passo-a-passo-29d34fa561dc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Filho: XGBoost na Prática | Aula 1 (<a href="https://www.youtube.com/watch?v=fG8H-0rb0mY">https://www.youtube.com/watch?v=fG8H-0rb0mY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> EstaTiDados: Árvore de Decisão, Random Forest e Gradient Boosting (<a href="https://youtu.be/noy13V1nTz4">https://youtu.be/noy13V1nTz4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Machine Learning: conhecendo as técnicas de bagging e boosting (<a href="https://www.alura.com.br/artigos/machine-learning-tecnicas-bagging-boosting">https://www.alura.com.br/artigos/machine-learning-tecnicas-bagging-boosting</a>)</li>
+<li><code data-kind="curso">Curso</code> Classificação: melhorando o desempenho com XGBoost (<a href="https://cursos.alura.com.br/course/classificacao-melhorando-desempenho-xgboost">https://cursos.alura.com.br/course/classificacao-melhorando-desempenho-xgboost</a>)</li>
+</ul>
+<h3>Previsão de Séries temporais:</h3>
 <ul><li>A previsão de séries temporais (Time series Forecasting), também conhecida como previsão temporal, é uma técnica de análise estatística que envolve a previsão de valores futuros ou padrões com base em dados históricos ordenados no tempo. Em uma série temporal, os dados são coletados sequencialmente em intervalos regulares, como horários, diários, mensais ou anuais, e exibem dependências temporais.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Deep Learning</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O Guia Completo para Previsão de Séries Temporais (inglês) (<a href="https://towardsdatascience.com/the-complete-guide-to-time-series-forecasting-using-sklearn-pandas-and-numpy-7694c90e45c1">https://towardsdatascience.com/the-complete-guide-to-time-series-forecasting-using-sklearn-pandas-and-numpy-7694c90e45c1</a>)</li>
+<li><code data-kind="site">Site</code> Google Livros - Introdução à previsão de séries temporais com Python (inglês) (<a href="https://books.google.com.br/books?id=-AiqDwAAQBAJ&printsec=frontcover&hl=pt-BR&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">https://books.google.com.br/books?id=-AiqDwAAQBAJ&amp;printsec=frontcover&amp;hl=pt-BR&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Google Livros - Aprendizagem profunda para previsão de séries temporais (inglês) (<a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=o5qnDwAAQBAJ&oi=fnd&pg=PP1#v=onepage&q&f=false">https://books.google.com.br/books?hl=pt-BR&amp;lr=&amp;id=o5qnDwAAQBAJ&amp;oi=fnd&amp;pg=PP1#v=onepage&amp;q&amp;f=false</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alexandre Cunha Costa: Análise de Séries Temporais - Previsão (playslist) (<a href="https://www.youtube.com/watch?v=BY67cTSBYO0&list=PLSDVadsSlXTD2R5JXcAkk9v-X6qKWH3cs&ab_channel=AlexandreCunhaCosta">https://www.youtube.com/watch?v=BY67cTSBYO0&amp;list=PLSDVadsSlXTD2R5JXcAkk9v-X6qKWH3cs&amp;ab_channel=AlexandreCunhaCosta</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Leandro: Previsão de Série Temporal com Pycaret (Machine Learning) (<a href="https://www.youtube.com/watch?v=0xrsgR4OB60&ab_channel=Leandro">https://www.youtube.com/watch?v=0xrsgR4OB60&amp;ab_channel=Leandro</a>)</li>
+<li><code data-kind="youtube">YouTube</code> economiaetv: Séries Temporais (playlist) (<a href="https://www.youtube.com/playlist?list=PLW1zGvUGqyiEw1O3HAcjezB9esyI8R8xe">https://www.youtube.com/playlist?list=PLW1zGvUGqyiEw1O3HAcjezB9esyI8R8xe</a>)</li>
+<li><code data-kind="site">Site</code> Detecção de anomalias em séries temporais (inglês) (<a href="https://neptune.ai/blog/anomaly-detection-in-time-series">https://neptune.ai/blog/anomaly-detection-in-time-series</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Séries temporais e suas aplicações (<a href="https://www.alura.com.br/artigos/series-temporais-e-suas-aplicacoes">https://www.alura.com.br/artigos/series-temporais-e-suas-aplicacoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Data Science: análise de series temporais (<a href="https://www.alura.com.br/curso-online-data-science-series-temporais">https://www.alura.com.br/curso-online-data-science-series-temporais</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Data Science: analisando e prevendo séries temporais (<a href="https://cursos.alura.com.br/course/data-science-analisando-prevendo-series-temporais">https://cursos.alura.com.br/course/data-science-analisando-prevendo-series-temporais</a>)</li>
+<li><code data-kind="livro">Livro</code> Séries temporais com Prophet (<a href="https://www.casadocodigo.com.br/products/livro-series-temporais-prophet">https://www.casadocodigo.com.br/products/livro-series-temporais-prophet</a>)</li>
+</ul>
+<h3>Deep Learning:</h3>
 <ul><li>Deep Learning é um ramo de Machine Learning baseado em um conjunto de algoritmos que tentam modelar abstrações de alto nível de dados usando um grafo profundo com várias camadas de processamento, compostas de várias transformações lineares e não lineares.</li>
 <li>Construir e treinar modelos com Keras</li>
 <li>Construir e treinar modelos com Tensorflow</li>
@@ -276,7 +470,34 @@
 <li>Entender os conceitos de pesos e vieses</li>
 <li>Redes neurais para regressão</li>
 <li>Entender o conceito de Redes recorrentes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Visão Computacional</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> IBM: O que é deep learning? (<a href="https://www.ibm.com/br-pt/topics/deep-learning">https://www.ibm.com/br-pt/topics/deep-learning</a>)</li>
+<li><code data-kind="site">Site</code> Oracle: O que é aprendizado profundo? (<a href="https://www.oracle.com/br/artificial-intelligence/machine-learning/what-is-deep-learning/">https://www.oracle.com/br/artificial-intelligence/machine-learning/what-is-deep-learning/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Diferença entre Aprendizado de Máquina (Machine Learning) &amp; Aprendizagem Profunda (Deep Learning) (<a href="https://medium.com/@gabi.viana11/diferen%C3%A7a-entre-aprendizado-de-m%C3%A1quina-machine-learning-aprendizagem-profunda-deep-learning-3035e95ba1d1">https://medium.com/@gabi.viana11/diferen%C3%A7a-entre-aprendizado-de-m%C3%A1quina-machine-learning-aprendizagem-profunda-deep-learning-3035e95ba1d1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual a diferença entre Inteligência Artificial, Machine Learning e Deep Learning? (<a href="https://medium.com/@sergio_henr_/qual-a-diferen%C3%A7a-entre-intelig%C3%AAncia-artificial-machine-learning-e-deep-learning-c33d8910bf31">https://medium.com/@sergio_henr_/qual-a-diferen%C3%A7a-entre-intelig%C3%AAncia-artificial-machine-learning-e-deep-learning-c33d8910bf31</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Estudo dos algoritmos de redes neurais de aprendizado profundo, com implementação em TensorFlow (<a href="https://revistas.unifenas.br/index.php/RE3C/article/view/232">https://revistas.unifenas.br/index.php/RE3C/article/view/232</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Keras: Biblioteca Python para Deep Learning (<a href="https://medium.com/@sabrinasantana0190/teste-e2abdbc38784">https://medium.com/@sabrinasantana0190/teste-e2abdbc38784</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Guiminam: Aplicações de Deep Learning a Genética (<a href="https://www.youtube.com/watch?v=GiL6RnXLjvI">https://www.youtube.com/watch?v=GiL6RnXLjvI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ciência Todo Dia: Deep Learning explicado (<a href="https://www.youtube.com/watch?v=ggmDI9_fm54">https://www.youtube.com/watch?v=ggmDI9_fm54</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Reconhecimento de Imagens com Deep Learning usando TensorFlow e Keras (<a href="https://www.youtube.com/watch?v=7MItgjXU3_E&ab_channel=C%C3%B3digoFonteTV">https://www.youtube.com/watch?v=7MItgjXU3_E&amp;ab_channel=C%C3%B3digoFonteTV</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Curso Deep Learning - UTFPR - português (playlist) (<a href="https://www.youtube.com/playlist?list=PL9At2PVRU0ZqVArhU9QMyI3jSe113_m2-">https://www.youtube.com/playlist?list=PL9At2PVRU0ZqVArhU9QMyI3jSe113_m2-</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="livro">Livro</code> Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt (<a href="https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt">https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Deep Learning e Deep Fake (<a href="https://www.alura.com.br/artigos/deep-learning-deep-fake">https://www.alura.com.br/artigos/deep-learning-deep-fake</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Principais frameworks de deep learning em 2021 (<a href="https://www.alura.com.br/artigos/principais-frameworks-de-deep-learning-em-2021">https://www.alura.com.br/artigos/principais-frameworks-de-deep-learning-em-2021</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Tensorflow - Hipsters 201 (<a href="https://www.alura.com.br/podcast/hipsterstech-tensorflow-hipsters-201-a353">https://www.alura.com.br/podcast/hipsterstech-tensorflow-hipsters-201-a353</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é Deep Learning? (<a href="https://www.youtube.com/watch?v=kryIBKPVZ7A">https://www.youtube.com/watch?v=kryIBKPVZ7A</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Deep Learning com Pytorch (<a href="https://www.youtube.com/watch?v=UGJ-wdrOyzg">https://www.youtube.com/watch?v=UGJ-wdrOyzg</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de Keras: primeiros passos em redes neurais (<a href="https://www.alura.com.br/curso-online-keras-primeiros-passos-redes-neurais">https://www.alura.com.br/curso-online-keras-primeiros-passos-redes-neurais</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Deep Learning parte 1: Keras (<a href="https://www.alura.com.br/curso-online-deep-learning-introducao-com-keras">https://www.alura.com.br/curso-online-deep-learning-introducao-com-keras</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Deep Learning parte 2: como a rede aprende (<a href="https://www.alura.com.br/curso-online-deep-learning-como-a-rede-aprende">https://www.alura.com.br/curso-online-deep-learning-como-a-rede-aprende</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Deep Learning: previsão com Keras (<a href="https://www.alura.com.br/curso-online-deep-learning-previsao-keras">https://www.alura.com.br/curso-online-deep-learning-previsao-keras</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Deep Learning com Pytorch (<a href="https://www.alura.com.br/formacao-deep-learning-pytorch">https://www.alura.com.br/formacao-deep-learning-pytorch</a>)</li>
+<li><code data-kind="curso">Curso</code> TensorFlow: implementando um perceptron de múltiplas camadas (MLP) (<a href="https://cursos.alura.com.br/course/tensorflow-implementando-perceptron-multiplas-camadas">https://cursos.alura.com.br/course/tensorflow-implementando-perceptron-multiplas-camadas</a>)</li>
+</ul>
+<h3>Visão Computacional:</h3>
 <ul><li>Visão Computacional é um campo científico interdisciplinar que lida com a forma como os computadores podem ganhar conhecimentos de alto nível a partir de imagens ou vídeos digitais. Da perspectiva da engenharia, procura compreender e automatizar tarefas que o sistema visual humano pode fazer.</li>
 <li>Extrair regiões de interesse de uma imagem</li>
 <li>Normalizar e pré-processar dados de imagens</li>
@@ -285,23 +506,119 @@
 <li>Analisar diferentes condições de cada componente do rosto humano</li>
 <li>Conhecer Redes Neurais Convolucionais</li>
 <li>Usar OpenCV</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redes Neurais Convolucionais</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Introdução à Visão Computacional (<a href="https://medium.com/turing-talks/introdu%C3%A7%C3%A3o-%C3%A0-vis%C3%A3o-computacional-b13698774adc">https://medium.com/turing-talks/introdu%C3%A7%C3%A3o-%C3%A0-vis%C3%A3o-computacional-b13698774adc</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Deep Learning: visão computacional (<a href="https://medium.com/joguei-os-dados/deep-learning-vis%C3%A3o-computacional-81febcabd850">https://medium.com/joguei-os-dados/deep-learning-vis%C3%A3o-computacional-81febcabd850</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Detecção e Classificação de Semáforos com OpenCV e Machine Learning (<a href="https://medium.com/ensina-ai/detec%C3%A7%C3%A3o-e-classifica%C3%A7%C3%A3o-de-sem%C3%A1foros-com-opencv-e-machine-learning-d5d97bc60fd">https://medium.com/ensina-ai/detec%C3%A7%C3%A3o-e-classifica%C3%A7%C3%A3o-de-sem%C3%A1foros-com-opencv-e-machine-learning-d5d97bc60fd</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como identificar cores no mundo real utilizando Visão Computacional? (<a href="https://suzana-svm.medium.com/vis%C3%A3o-computacional-detec%C3%A7%C3%A3o-de-cores-em-tempo-real-utilizando-python-e-opencv-a466444d40e">https://suzana-svm.medium.com/vis%C3%A3o-computacional-detec%C3%A7%C3%A3o-de-cores-em-tempo-real-utilizando-python-e-opencv-a466444d40e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Visão Computacional — O que é convolução? (<a href="https://medium.com/turing-talks/vis%C3%A3o-computacional-o-que-%C3%A9-convolu%C3%A7%C3%A3o-ad709f7bd6b0">https://medium.com/turing-talks/vis%C3%A3o-computacional-o-que-%C3%A9-convolu%C3%A7%C3%A3o-ad709f7bd6b0</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Transformada de Fourier em Visão Computacional (<a href="https://medium.com/turing-talks/transformada-de-fourier-b1775e891cc5">https://medium.com/turing-talks/transformada-de-fourier-b1775e891cc5</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Hemerson Pistori: Tipos de Problemas ou Tarefas em Visão Computacional (<a href="https://www.youtube.com/watch?v=9HDUt7W6PXM">https://www.youtube.com/watch?v=9HDUt7W6PXM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> italo js: Visão computacional (playlist) (<a href="https://www.youtube.com/playlist?list=PLLXVovA3_w2JIZY66A79_Iuv8vT6-qYFY">https://www.youtube.com/playlist?list=PLLXVovA3_w2JIZY66A79_Iuv8vT6-qYFY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Guiminam: Perguntas para uma doutora em visão computacional (<a href="https://www.youtube.com/watch?v=HO3HOW_72Vk">https://www.youtube.com/watch?v=HO3HOW_72Vk</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: Arte generativa – Hipsters Ponto Tech 261 (<a href="https://www.hipsters.tech/arte-generativa-hipsters-ponto-tech-261/">https://www.hipsters.tech/arte-generativa-hipsters-ponto-tech-261/</a>)</li>
+<li><code data-kind="alura+">Alura+</code> Visão Computacional com Teachable Machine (<a href="https://cursos.alura.com.br/extra/alura-mais/visao-computacional-com-teachable-machine-c1466">https://cursos.alura.com.br/extra/alura-mais/visao-computacional-com-teachable-machine-c1466</a>)</li>
+<li><code data-kind="alura+">Alura+</code> Detecção de textos em imagens com EasyOCR (<a href="https://cursos.alura.com.br/extra/alura-mais/deteccao-de-textos-em-imagens-com-easyocr-c1802">https://cursos.alura.com.br/extra/alura-mais/deteccao-de-textos-em-imagens-com-easyocr-c1802</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Visão Computacional com OpenCV (<a href="https://cursos.alura.com.br/formacao-visao-computacional-opencv">https://cursos.alura.com.br/formacao-visao-computacional-opencv</a>)</li>
+</ul>
+<h3>Redes Neurais Convolucionais:</h3>
 <ul><li>As CNNs (Convolutional Neural Networks, ou Redes Neurais Convolucionais) são um subtipo de redes neurais artificiais profundas (Deep Learning). AS CNNs são majoritariamente empregadas para o processamento de imagens e vídeos, no contexto de classificação do seu conteúdo. Ao contrário de outros algoritmos tradicionais de classificação de imagens, uma CNN tende a demandar menos esforços de pré-processamento nos dados de entrada.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redução de Dimensionalidade</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Entendendo Redes Convolucionais (CNNs) (<a href="https://medium.com/neuronio-br/entendendo-redes-convolucionais-cnns-d10359f21184">https://medium.com/neuronio-br/entendendo-redes-convolucionais-cnns-d10359f21184</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é uma convolução? (<a href="https://medium.com/turing-talks/vis%C3%A3o-computacional-o-que-%C3%A9-convolu%C3%A7%C3%A3o-ad709f7bd6b0">https://medium.com/turing-talks/vis%C3%A3o-computacional-o-que-%C3%A9-convolu%C3%A7%C3%A3o-ad709f7bd6b0</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Deep Learning Book - Introdução às Redes Neurais Convolucionais (<a href="https://www.deeplearningbook.com.br/introducao-as-redes-neurais-convolucionais/">https://www.deeplearningbook.com.br/introducao-as-redes-neurais-convolucionais/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Aprenda a Criar e Treinar Uma Rede Neural Convolucional (CNN) (<a href="https://insightlab.ufc.br/aprenda-a-criar-e-treinar-uma-rede-neural-convolucional-cnn">https://insightlab.ufc.br/aprenda-a-criar-e-treinar-uma-rede-neural-convolucional-cnn</a>)</li>
+<li><code data-kind="site">Site</code> Rede Neural Convolucional (CNN) - TensorFlow (<a href="https://www.tensorflow.org/tutorials/images/cnn">https://www.tensorflow.org/tutorials/images/cnn</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprendiz do Futuro: O que são Redes Neurais Convolucionais? (<a href="https://www.youtube.com/watch?v=sgt_67zNDrI">https://www.youtube.com/watch?v=sgt_67zNDrI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> TensorFlow: Introdução às redes neurais convolucionais (ML de Zero a 100, parte 3) (<a href="https://www.youtube.com/watch?v=zAfBy74c2AI">https://www.youtube.com/watch?v=zAfBy74c2AI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programação Dinâmica: Redes Neurais Convolucionais com PyTorch | Visão Computacional (<a href="https://www.youtube.com/watch?v=doT7koXt9vw">https://www.youtube.com/watch?v=doT7koXt9vw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="livro">Livro</code> Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt (<a href="https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt">https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Redes Neurais Convolucionais: Deep Learning com PyTorch (<a href="https://www.alura.com.br/curso-online-cnn-redes-neurais-convolucionais-deep-learning-pytorch?gclid=EAIaIQobChMIyPalv5W4-gIVSeZcCh1SFQPeEAAYASAAEgIR0fD_BwE">https://www.alura.com.br/curso-online-cnn-redes-neurais-convolucionais-deep-learning-pytorch?gclid=EAIaIQobChMIyPalv5W4-gIVSeZcCh1SFQPeEAAYASAAEgIR0fD_BwE</a>)</li>
+</ul>
+<h3>Redução de Dimensionalidade:</h3>
 <ul><li>Redução de dimensionalidade é uma técnica utilizada no campo de aprendizado de máquina e análise de dados para reduzir o número de variáveis ou dimensões em um conjunto de dados. O objetivo é simplificar a representação dos dados, eliminando ou combinando características redundantes ou irrelevantes, enquanto mantém a maior parte da informação original.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Aprendizado por Transferência</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é a Redução de Dimensionalidade em Machine Learning? (<a href="https://ealexbarros.medium.com/o-que-%C3%A9-a-redu%C3%A7%C3%A3o-de-dimensionalidade-em-machine-learning-cc2a89e3cdec">https://ealexbarros.medium.com/o-que-%C3%A9-a-redu%C3%A7%C3%A3o-de-dimensionalidade-em-machine-learning-cc2a89e3cdec</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Redução de dimensionalidade e clustering (<a href="https://open.spotify.com/episode/2D4CGC5PoMbx13rlXjzOlR?si=LpbBO9UcS-6nN2JzMs_c1g">https://open.spotify.com/episode/2D4CGC5PoMbx13rlXjzOlR?si=LpbBO9UcS-6nN2JzMs_c1g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Prof. Alexandre Levada: Redução de dimensionalidade para extração de atributos (<a href="https://www.youtube.com/watch?v=A4DEg3rCcAI&ab_channel=Prof.AlexandreLevada">https://www.youtube.com/watch?v=A4DEg3rCcAI&amp;ab_channel=Prof.AlexandreLevada</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Machine Learning: lidando com dados de muitas dimensões (<a href="https://cursos.alura.com.br/course/reducao-dimensionalidade">https://cursos.alura.com.br/course/reducao-dimensionalidade</a>)</li>
+<li><code data-kind="curso">Curso</code> Classificação: selecionando features (<a href="https://cursos.alura.com.br/course/classificacao-selecionando-features">https://cursos.alura.com.br/course/classificacao-selecionando-features</a>)</li>
+<li><code data-kind="curso">Curso</code> Análise de componentes principais: elaboração de rankings com o PCA (<a href="https://cursos.alura.com.br/course/analise-componentes-elaboracao-rankings-pca">https://cursos.alura.com.br/course/analise-componentes-elaboracao-rankings-pca</a>)</li>
+</ul>
+<h3>Machine Learning - Aprendizado por Transferência:</h3>
 <ul><li>Transfer Learning (Aprendizado por Transferência) é uma abordagem na área de Machine Learning em que um modelo pré-treinado em uma tarefa relacionada é reutilizado como ponto de partida para treinar um modelo em uma tarefa diferente, geralmente com menos dados disponíveis.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Machine Learning - Regularização</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> O que é aprendizado por transferência? (<a href="https://datascience.eu/pt/aprendizado-de-maquina/o-que-e-aprendizado-por-transferencia/">https://datascience.eu/pt/aprendizado-de-maquina/o-que-e-aprendizado-por-transferencia/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Transfer Learning aplicado no reconhecimento de flores (<a href="https://medium.com/ensina-ai/tutorial-transfer-learning-3972cac5e9b5">https://medium.com/ensina-ai/tutorial-transfer-learning-3972cac5e9b5</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Deep Learning - Aprendizado por Transferência e Ajuste Fino (<a href="https://lapix.ufsc.br/ensino/visao/visao-computacionaldeep-learning/deep-learningaprendizado-por-transferencia-e-ajuste-fino/">https://lapix.ufsc.br/ensino/visao/visao-computacionaldeep-learning/deep-learningaprendizado-por-transferencia-e-ajuste-fino/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IA Expert Academy: Transferência de Aprendizagem com Deep Learning (<a href="https://www.youtube.com/watch?v=92AMmjNBEhc&ab_channel=IAExpertAcademy">https://www.youtube.com/watch?v=92AMmjNBEhc&amp;ab_channel=IAExpertAcademy</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafael Vieira Coelho: Tensorflow - Transferência de Aprendizado (<a href="https://www.youtube.com/watch?v=qcqX8Yy-AEw&ab_channel=AulasdoCoelho">https://www.youtube.com/watch?v=qcqX8Yy-AEw&amp;ab_channel=AulasdoCoelho</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Let&#39;s Data: Transfer Learning com uma rede neural convolucional (<a href="https://www.youtube.com/watch?v=apWHs4pyvu4&ab_channel=Let%27sData">https://www.youtube.com/watch?v=apWHs4pyvu4&amp;ab_channel=Let%27sData</a>)</li>
+<li><code data-kind="site">Site</code> Ajuste fino em modelos pré-treinados (inglês) (<a href="https://huggingface.co/docs/transformers/training">https://huggingface.co/docs/transformers/training</a>)</li>
+</ul>
+<h3>Machine Learning - Regularização:</h3>
 <ul><li>Regularização se refere a um conjunto de técnicas para tornar os dados mais regulares e estáveis, facilitando o aprendizado e a descoberta de padrões em Machine Learning. A regularização é uma técnica que reduz o erro de um modelo, evitando o sobreajustamento (Overfitting) e treinando o modelo para funcionar corretamente.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Chatbots</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Regularização - Conceitos (<a href="https://datascience.eu/pt/aprendizado-de-maquina/regularizacao-na-aprendizagem-automatica/">https://datascience.eu/pt/aprendizado-de-maquina/regularizacao-na-aprendizagem-automatica/</a>)</li>
+<li><code data-kind="site">Site</code> O que é Overfitting e Underfitting em Machine Learning? (<a href="https://pt.stackoverflow.com/questions/377643/o-que-%C3%A9-overfitting-e-underfitting-em-machine-learning">https://pt.stackoverflow.com/questions/377643/o-que-%C3%A9-overfitting-e-underfitting-em-machine-learning</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Principais tipos de regularização (<a href="https://acervolima.com/regularizacao-em-aprendizado-de-maquina/">https://acervolima.com/regularizacao-em-aprendizado-de-maquina/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Regularização L1 (Lasso) &amp; L2 (Ridge) (<a href="https://medium.com/data-hackers/o-que-%C3%A9-regulariza%C3%A7%C3%A3o-l1-l2-6697ada36a51">https://medium.com/data-hackers/o-que-%C3%A9-regulariza%C3%A7%C3%A3o-l1-l2-6697ada36a51</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Zurubabel: Regularização L1 e L2 (Uma pequena explicação) (<a href="https://www.youtube.com/watch?v=0poNl10NIYU">https://www.youtube.com/watch?v=0poNl10NIYU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ProfDanilo_DS: Definição das normalizações L1 e L2 (<a href="https://www.youtube.com/watch?v=u8tpv_ffkoo">https://www.youtube.com/watch?v=u8tpv_ffkoo</a>)</li>
+<li><code data-kind="site">Site</code> Modelos lineares - documentação Scikit-learn (inglês) (<a href="https://scikit-learn.org/stable/modules/linear_model.html">https://scikit-learn.org/stable/modules/linear_model.html</a>)</li>
+</ul>
+<h3>Chatbots:</h3>
 <ul><li>Chatbots são agentes virtuais projetados para interagir com seres humanos por meio de uma interface de chat. Eles são baseados em técnicas de processamento de linguagem natural (NLP) e inteligência artificial (IA) para entender e responder às perguntas e comandos dos usuários de forma automatizada.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segmentação Semântica e Instanciada de Imagens</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como criar um chatbot usando aprendizado profundo e Python? (<a href="https://medium.com/luizalabs/como-criar-um-chatbot-usando-aprendizado-profundo-e-python-47821402367">https://medium.com/luizalabs/como-criar-um-chatbot-usando-aprendizado-profundo-e-python-47821402367</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando um chatbot do zero usando Keras e TensorFlow (inglês) (<a href="https://medium.com/predict/creating-a-chatbot-from-scratch-using-keras-and-tensorflow-59e8fc76be79">https://medium.com/predict/creating-a-chatbot-from-scratch-using-keras-and-tensorflow-59e8fc76be79</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dev Aprender: Como criar um chatbot em Python sem bibliotecas externas (<a href="https://www.youtube.com/watch?v=UwuqfkGj2xM">https://www.youtube.com/watch?v=UwuqfkGj2xM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Great Learning: Crie seu próprio chatbot em Python (inglês) (<a href="https://www.youtube.com/watch?v=c_gXrw1RoKo">https://www.youtube.com/watch?v=c_gXrw1RoKo</a>)</li>
+<li><code data-kind="curso">Curso</code> Construa Chatbots com Python (inglês) (<a href="https://www.codecademy.com/learn/paths/build-chatbots-with-python?g_network=g&g_device=c&g_adid=527019219093">https://www.codecademy.com/learn/paths/build-chatbots-with-python?g_network=g&amp;g_device=c&amp;g_adid=527019219093</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Jovem Nerd: Chatbots - NerdTech 22 (<a href="https://jovemnerd.com.br/podcasts/nerdtech/chatbots">https://jovemnerd.com.br/podcasts/nerdtech/chatbots</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Criando um ChatBot em Python com ChatGPT (<a href="https://www.youtube.com/watch?v=vGn4yAsIpkU">https://www.youtube.com/watch?v=vGn4yAsIpkU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="livro">Livro</code> Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt (<a href="https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt">https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Inteligência Artificial, Chatbots e Microsoft – Hipsters 37 (<a href="https://www.alura.com.br/podcast/inteligencia-artificial-chatbots-e-microsoft-hipsters-37-a549">https://www.alura.com.br/podcast/inteligencia-artificial-chatbots-e-microsoft-hipsters-37-a549</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Chatbots e jornada do usuário – Hipsters 130 (<a href="https://www.alura.com.br/podcast/hipsterstech-chatbots-e-jornada-do-usuario-hipsters-130-a452">https://www.alura.com.br/podcast/hipsterstech-chatbots-e-jornada-do-usuario-hipsters-130-a452</a>)</li>
+</ul>
+<h3>Segmentação Semântica e Instanciada de Imagens:</h3>
 <ul><li>A segmentação semântica e instanciada de imagens é uma tarefa na área de visão computacional que envolve a atribuição de rótulos a pixels individuais em uma imagem. Ela tem como objetivo segmentar e identificar os objetos presentes na imagem, distinguindo diferentes classes de pixels e separando instâncias individuais dessas classes.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Visão Computacional - Extração de Características</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Mask R-CNN e Segmentação De Instâncias (<a href="http://www2.decom.ufop.br/imobilis/segmentacao-instancias/">http://www2.decom.ufop.br/imobilis/segmentacao-instancias/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Segmentação Semântica e o Dataset (<a href="https://pt.d2l.ai/chapter_computer-vision/semantic-segmentation-and-dataset.html">https://pt.d2l.ai/chapter_computer-vision/semantic-segmentation-and-dataset.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Segmentação semântica e o Dataset (<a href="http://www.lps.usp.br/hae/apostila/segment-ead.pdf">http://www.lps.usp.br/hae/apostila/segment-ead.pdf</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é segmentação de imagens (<a href="https://www.youtube.com/watch?v=cpXrXDVRkYE&ab_channel=IAExpertAcademy">https://www.youtube.com/watch?v=cpXrXDVRkYE&amp;ab_channel=IAExpertAcademy</a>)</li>
+<li><code data-kind="curso">Curso</code> IA Expert Academy: Tipos e técnicas de segmentação de imagens (<a href="https://www.youtube.com/watch?v=1gX9khsR3Xg&ab_channel=IAExpertAcademy">https://www.youtube.com/watch?v=1gX9khsR3Xg&amp;ab_channel=IAExpertAcademy</a>)</li>
+<li><code data-kind="youtube">YouTube</code> I2AI - Conexões Inteligentes: O que é Segmentação Visual Semântica? (<a href="https://www.youtube.com/watch?v=4Xzbaqk0evM&ab_channel=I2AI-Conex%C3%B5esInteligentes">https://www.youtube.com/watch?v=4Xzbaqk0evM&amp;ab_channel=I2AI-Conex%C3%B5esInteligentes</a>)</li>
+</ul>
+<h3>Visão Computacional - Extração de Características:</h3>
 <ul><li>Feature Extraction (ou Extração de Características) é um processo na área de Machine Learning e Visão Computacional em que características relevantes e discriminantes são extraídas de um conjunto de dados para representar os objetos ou padrões de interesse. Essas características são transformadas em um novo conjunto de representações que possuem propriedades informativas para uma tarefa específica.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MathWorks: O que é extração de recursos? (inglês) (<a href="https://www.mathworks.com/discovery/feature-extraction.html">https://www.mathworks.com/discovery/feature-extraction.html</a>)</li>
+<li><code data-kind="site">Site</code> Scikit-Learn: Extração de recursos com o scikit learn (inglês) (<a href="https://scikit-learn.org/stable/modules/feature_extraction.html">https://scikit-learn.org/stable/modules/feature_extraction.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Técnicas de extração de características (inglês) (<a href="https://towardsdatascience.com/feature-extraction-techniques-d619b56e31be">https://towardsdatascience.com/feature-extraction-techniques-d619b56e31be</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IA Expert Academy: Extração de características de Imagens (<a href="https://www.youtube.com/watch?v=iXb6aZ0wnx0&ab_channel=IAExpertAcademy">https://www.youtube.com/watch?v=iXb6aZ0wnx0&amp;ab_channel=IAExpertAcademy</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Talha Anwar: Extração de características e classificação Machine Learning em Python (inglês) (<a href="https://www.youtube.com/watch?v=cuEV-eB3Dyo&ab_channel=TalhaAnwar">https://www.youtube.com/watch?v=cuEV-eB3Dyo&amp;ab_channel=TalhaAnwar</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Oracle Developers: Machine Learning 101 - Feature Extraction (inglês) (<a href="https://www.youtube.com/watch?v=bmZiIh1GL18&ab_channel=OracleDevelopers">https://www.youtube.com/watch?v=bmZiIh1GL18&amp;ab_channel=OracleDevelopers</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Processamento de Linguagem Natural</strong>:</li>
+<h3>Processamento de Linguagem Natural:</h3>
 <ul><li>Processamento de língua natural (PLN) é uma subárea da inteligência artificial e da linguística que estuda os problemas da geração e compreensão automática de línguas humanas naturais.</li>
 <li>Análise de Sentimento</li>
 <li>Criar visualizações para facilitar a análise de dados textuais</li>
@@ -313,36 +630,147 @@
 <li>Utilizar Regex em PLN</li>
 <li>Conhecer o Word2Vec</li>
 <li>Combinar vetores de palavras para representar textos e classificá-los</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redes Neurais Recorrentes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Introdução a Processamento de Linguagem Natural (<a href="https://medium.com/ensina-ai/introdu%C3%A7%C3%A3o-a-processamento-de-linguagem-natural-174936c096b">https://medium.com/ensina-ai/introdu%C3%A7%C3%A3o-a-processamento-de-linguagem-natural-174936c096b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao Processamento de Linguagem Natural — Natural Language Processing(NLP) (<a href="https://medium.com/data-hackers/introdu%C3%A7%C3%A3o-ao-processamento-de-linguagem-natural-natural-language-processing-nlp-be907cd06c71">https://medium.com/data-hackers/introdu%C3%A7%C3%A3o-ao-processamento-de-linguagem-natural-natural-language-processing-nlp-be907cd06c71</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Data Hackers: O que é Natural Language Processing, o tal do NLP - Podcast 27 (<a href="https://open.spotify.com/episode/1ZrEKtFW1539AKMlmJAUre?si=_PUq7mXDScy5jOQ_Ir8FhQ">https://open.spotify.com/episode/1ZrEKtFW1539AKMlmJAUre?si=_PUq7mXDScy5jOQ_Ir8FhQ</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Vida com IA: Attention is all you need, entendendo Transformers - Podcast 48 (<a href="https://open.spotify.com/episode/0EVRJl4ib73PmzaxzY9lGU?si=ARcHo3tfSx6IbSGO9sdB5Q">https://open.spotify.com/episode/0EVRJl4ib73PmzaxzY9lGU?si=ARcHo3tfSx6IbSGO9sdB5Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprendiz do Futuro: O que é Processamento de Linguagem Natural (NLP)? (<a href="https://www.youtube.com/watch?v=Kaz-osMcdxk">https://www.youtube.com/watch?v=Kaz-osMcdxk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Turing USP: Introdução ao Processamento de Linguagem Natural (<a href="https://www.youtube.com/watch?v=ivTIgsLUfc4">https://www.youtube.com/watch?v=ivTIgsLUfc4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprendiz do Futuro: O que são Transformers? - Processamento de Linguagem Natural (NLP) (<a href="https://www.youtube.com/watch?v=8NOitdReamM">https://www.youtube.com/watch?v=8NOitdReamM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fabio Akita: Entendendo Como ChatGPT Funciona - Rodando sua Própria IA (<a href="https://www.youtube.com/watch?v=O68y0yRZL1Y">https://www.youtube.com/watch?v=O68y0yRZL1Y</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> PLN: O que é processamento de linguagem natural? (<a href="https://www.alura.com.br/artigos/o-que-e-pln">https://www.alura.com.br/artigos/o-que-e-pln</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia de NLP - conceitos e técnicas (<a href="https://www.alura.com.br/artigos/guia-nlp-conceitos-tecnicas">https://www.alura.com.br/artigos/guia-nlp-conceitos-tecnicas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Aplicações de NLP no mercado de trabalho (<a href="https://www.alura.com.br/artigos/aplicacoes-nlp-mercado-de-trabalho">https://www.alura.com.br/artigos/aplicacoes-nlp-mercado-de-trabalho</a>)</li>
+<li><code data-kind="artigo">Artigo</code> NLTK vs. SpaCy (<a href="https://www.alura.com.br/artigos/nltk-vs-spacy">https://www.alura.com.br/artigos/nltk-vs-spacy</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Relação da Linguística com o Processamento de Linguagem Natural (<a href="https://www.alura.com.br/artigos/relacao-linguistica-processamento-de-linguagem-natural">https://www.alura.com.br/artigos/relacao-linguistica-processamento-de-linguagem-natural</a>)</li>
+<li><code data-kind="artigo">Artigo</code> TextBlob - uma alternativa para o Processamento de Linguagem Natural (<a href="https://www.alura.com.br/artigos/textblob-alternativa-para-processamento-linguagem-natural">https://www.alura.com.br/artigos/textblob-alternativa-para-processamento-linguagem-natural</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Lemmatization vs. stemming: quando usar cada uma? (<a href="https://www.alura.com.br/artigos/lemmatization-vs-stemming-quando-usar-cada-uma">https://www.alura.com.br/artigos/lemmatization-vs-stemming-quando-usar-cada-uma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Spark NLP: trabalhando linguagem natural de forma mais otimizada (<a href="https://www.alura.com.br/artigos/spark-nlp-linguagem-natural-forma-otimizada">https://www.alura.com.br/artigos/spark-nlp-linguagem-natural-forma-otimizada</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Entendendo o ChatGPT: Como Funciona e o Poder dos LLMs (<a href="https://www.youtube.com/watch?v=WcyG9mNR1UA">https://www.youtube.com/watch?v=WcyG9mNR1UA</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: NLP, Inteligência Artificial e o futuro – Hipsters Ponto Tech 217 (<a href="https://www.hipsters.tech/nlp-inteligencia-artificial-e-o-futuro-hipsters-ponto-tech-217/">https://www.hipsters.tech/nlp-inteligencia-artificial-e-o-futuro-hipsters-ponto-tech-217/</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Técnicas de Processamento de Linguagem Natural (<a href="https://cursos.alura.com.br/formacao-tecnicas-processamento-linguagem-natural">https://cursos.alura.com.br/formacao-tecnicas-processamento-linguagem-natural</a>)</li>
+<li><code data-kind="livro">Livro</code> Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt (<a href="https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt">https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt</a>)</li>
+</ul>
+<h3>Redes Neurais Recorrentes:</h3>
 <ul><li>Redes Neurais Recorrentes (em inglês, Recurrent Neural Networks ou RNNs) são uma classe de redes neurais artificiais projetadas para lidar com dados sequenciais, como séries temporais, texto e fala. Ao contrário das redes neurais tradicionais, as RNNs têm conexões recorrentes que permitem que as informações sejam propagadas ao longo do tempo, permitindo que elas capturem dependências temporais em sequências de dados.</li>
 <li>LSTM (Long Short-Term Memory) é uma arquitetura de rede neural recorrente (RNN) projetada para superar as limitações das RNNs tradicionais na modelagem de dependências de longo prazo em sequências de dados.</li>
 <li>Conhecer a arquitetura de Redes Feedforward</li>
 <li>Funções de ativação mais comuns</li>
 <li>Familiarizar-se com as principais arquiteturas de RNNs, como bidirecionais (BRNN), Memória de curto prazo longa (LSTM), Unidades recorrentes fechadas (GRU)</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redes Adversárias Generativas (GANs)</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> IBM: O que são redes neurais recorrentes? (<a href="https://www.ibm.com/br-pt/topics/recurrent-neural-networks">https://www.ibm.com/br-pt/topics/recurrent-neural-networks</a>)</li>
+<li><code data-kind="site">Site</code> Didática Tech: O que são Redes Neurais Recorrentes? (<a href="https://didatica.tech/como-funcionam-redes-neurais-recorrentes-rnn/">https://didatica.tech/como-funcionam-redes-neurais-recorrentes-rnn/</a>)</li>
+<li><code data-kind="site">Site</code> Deep Learning Book - Redes Neurais Recorrentes (<a href="https://www.deeplearningbook.com.br/redes-neurais-recorrentes/">https://www.deeplearningbook.com.br/redes-neurais-recorrentes/</a>)</li>
+<li><code data-kind="site">Site</code> Stanford University: Recurrent Neural Networks cheatsheet (inglês) (<a href="https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks">https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks</a>)</li>
+<li><code data-kind="site">Site</code> Deep Learning Book - Arquitetura de Redes Neurais Long Short Term Memory (LSTM) (<a href="https://www.deeplearningbook.com.br/arquitetura-de-redes-neurais-long-short-term-memory/">https://www.deeplearningbook.com.br/arquitetura-de-redes-neurais-long-short-term-memory/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Redes Neurais Recorrentes — LSTM (<a href="https://medium.com/@web2ajax/redes-neurais-recorrentes-lstm-b90b720dc3f6">https://medium.com/@web2ajax/redes-neurais-recorrentes-lstm-b90b720dc3f6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IA Expert Academy: Introdução a Redes Neurais Recorrentes (<a href="https://www.youtube.com/watch?v=ZvBJxh5O3H0">https://www.youtube.com/watch?v=ZvBJxh5O3H0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprendiz do Futuro: Modelando Sequências com Redes Neurais Recorrentes (RNNs) (<a href="https://www.youtube.com/watch?v=elyOXSwL8xI">https://www.youtube.com/watch?v=elyOXSwL8xI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> StatQuest with Josh Starmer: Redes neurais recorrentes claramente explicadas (inglês) (<a href="https://www.youtube.com/watch?v=AsNTP8Kwu80&ab_channel=StatQuestwithJoshStarmer">https://www.youtube.com/watch?v=AsNTP8Kwu80&amp;ab_channel=StatQuestwithJoshStarmer</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rodrigo Guerra: LSTM (<a href="https://www.youtube.com/watch?v=TnAYWl0XPfM&ab_channel=RodrigoGuerra">https://www.youtube.com/watch?v=TnAYWl0XPfM&amp;ab_channel=RodrigoGuerra</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Centro de Excelência em IA &amp; Deep Learning Brasil: LSTM, GRU, Seq2seq e Mecanismos de atenção (<a href="https://www.youtube.com/watch?v=94hG00EJFNo&ab_channel=CentrodeExcel%C3%AAnciaemIA%26DeepLearningBrasil">https://www.youtube.com/watch?v=94hG00EJFNo&amp;ab_channel=CentrodeExcel%C3%AAnciaemIA%26DeepLearningBrasil</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Vida com IA: Algoritmos para NLP e time series - Explicando RNN, GRU e LSTM (<a href="https://open.spotify.com/episode/0GLeUHZfStUAUXlXNJTgtG?si=3yiJw1ISTTawhs-FYIJW_A">https://open.spotify.com/episode/0GLeUHZfStUAUXlXNJTgtG?si=3yiJw1ISTTawhs-FYIJW_A</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="livro">Livro</code> Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt (<a href="https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt">https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Redes Neurais Recorrentes: Deep Learning com Pytorch (<a href="https://www.alura.com.br/curso-online-rnn-redes-neurais-recorrentes-deep-learning-pytorch">https://www.alura.com.br/curso-online-rnn-redes-neurais-recorrentes-deep-learning-pytorch</a>)</li>
+</ul>
+<h3>Redes Adversárias Generativas (GANs):</h3>
 <ul><li>Redes Adversárias Generativas (em inglês, Generative Adversarial Networks ou GANs) são um tipo de arquitetura de rede neural usada para gerar dados sintéticos, como imagens, música, texto ou outros tipos de dados, que se assemelham aos dados de treinamento.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Aprendizado por Reforço</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Deep Learning Book - Introdução às Redes Adversárias Generativas (GANs) (<a href="https://www.deeplearningbook.com.br/introducao-as-redes-adversarias-generativas-gans-generative-adversarial-networks/">https://www.deeplearningbook.com.br/introducao-as-redes-adversarias-generativas-gans-generative-adversarial-networks/</a>)</li>
+<li><code data-kind="site">Site</code> Uma leve introdução às Redes Adversárias Generativas - GANs (inglês) (<a href="https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/">https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/</a>)</li>
+<li><code data-kind="site">Site</code> NVIDIA: O que é GauGAN? Como a AI Transforma Suas Palavras e Fotos em Magníficas Artes (<a href="https://blog.nvidia.com.br/2023/02/01/o-que-e-gaugan/">https://blog.nvidia.com.br/2023/02/01/o-que-e-gaugan/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprendiz do Futuro: Entendendo as GANs (Generative Adversarial Networks) (<a href="https://www.youtube.com/watch?v=OqsFWy47j-c">https://www.youtube.com/watch?v=OqsFWy47j-c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IA Expert Academy: GAN para extensão de imagens (<a href="https://www.youtube.com/watch?v=hrq8S1JUgWQ&ab_channel=IAExpertAcademy">https://www.youtube.com/watch?v=hrq8S1JUgWQ&amp;ab_channel=IAExpertAcademy</a>)</li>
+</ul>
+<h3>Aprendizado por Reforço:</h3>
 <ul><li>O Aprendizado por Reforço é uma área de Machine Learning que se preocupa com a forma como agentes inteligentes devem tomar medidas num ambiente, a fim de maximizar a noção de recompensa cumulativa.</li>
 <li>Entender os conceitos de agente e recompensa</li>
 <li>Entender a diferença entre reforço positivo e negativo</li>
 <li>Conhecer o modelo Markov Decision Process</li>
 <li>Entender o conceito de Retorno</li>
 <li>Utilizar o algoritmo Q-learning</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Viés Cognitivo e IA Responsável</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Acervo Lima: Aprendizado por Reforço (<a href="https://acervolima.com/aprendizagem-por-reforco/">https://acervolima.com/aprendizagem-por-reforco/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Aprendizado por Reforço — Introdução (<a href="https://medium.com/turing-talks/aprendizado-por-refor%C3%A7o-1-introdu%C3%A7%C3%A3o-7382ebb641ab">https://medium.com/turing-talks/aprendizado-por-refor%C3%A7o-1-introdu%C3%A7%C3%A3o-7382ebb641ab</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Aprendizado por Reforço — Gym (<a href="https://medium.com/turing-talks/aprendizado-por-refor%C3%A7o-4-gym-d18ac1280628">https://medium.com/turing-talks/aprendizado-por-refor%C3%A7o-4-gym-d18ac1280628</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Hemerson Pistori: Aprendizagem por reforço e Q-Learning (<a href="https://www.youtube.com/watch?v=zQUFxZsZODY">https://www.youtube.com/watch?v=zQUFxZsZODY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> PROF. FABIO SANTOS: Aprendizagem por Reforço (<a href="https://www.youtube.com/watch?v=alX2JJoosIM">https://www.youtube.com/watch?v=alX2JJoosIM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Instituto de Computação - UFF: Aprendizado por Reforço: conceitos, aplicações e desafios (<a href="https://www.youtube.com/watch?v=HZ2CoPuMUB0">https://www.youtube.com/watch?v=HZ2CoPuMUB0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Talendar: Inteligência Artificial Aprende a Jogar Super Mario Bros (Aprendizado por Reforço) (<a href="https://www.youtube.com/watch?v=9nqwVYCxQls">https://www.youtube.com/watch?v=9nqwVYCxQls</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Galdir Reges: Introdução ao aprendizado por reforço profundo (Deep Reinforcement Learning) (<a href="https://www.youtube.com/watch?v=vBiUSREcde8">https://www.youtube.com/watch?v=vBiUSREcde8</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="livro">Livro</code> Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt (<a href="https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt">https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt</a>)</li>
+</ul>
+<h3>Viés Cognitivo e IA Responsável:</h3>
 <ul><li>O conceito de Viés Cognitivo refere-se aos padrões sistemáticos de desvio e distorção na forma como os seres humanos percebem, interpretam e tomam decisões. Esses vieses cognitivos podem levar a distorções na análise de informações, julgamentos e comportamentos de todos os tipos, como de raça, gênero, idade, capacidades físicas, entre outros, influenciando nossas percepções e ações de maneira não racional ou imparcial.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Lógica Fuzzy</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é viés cognitivo? (<a href="https://institutoconectomus.com.br/o-que-e-vies-cognitivo/">https://institutoconectomus.com.br/o-que-e-vies-cognitivo/</a>)</li>
+<li><code data-kind="site">Site</code> Viés cognitivo + IA, o que isso tem de ligação? (<a href="https://theshift.info/hot/temor-ou-cuidado-qual-deve-ser-a-nosso-sentimento-diante-da-ia/">https://theshift.info/hot/temor-ou-cuidado-qual-deve-ser-a-nosso-sentimento-diante-da-ia/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Uma análise dos possíveis efeitos de vieses cognitivos na interpretação de modelos de aprendizado de máquina baseados em regras (inglês) (<a href="https://www.sciencedirect.com/science/article/pii/S0004370221000096=">https://www.sciencedirect.com/science/article/pii/S0004370221000096=</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A Inteligência Artificial, o Direito e os Vieses (<a href="https://journal.editorailustracao.com.br/index.php/ilustracao/article/view/23/21">https://journal.editorailustracao.com.br/index.php/ilustracao/article/view/23/21</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dierle Nunes: Inteligência artificial, Vieses cognitivos e Direito (<a href="https://www.youtube.com/watch?v=Jcc2T80Eb7g">https://www.youtube.com/watch?v=Jcc2T80Eb7g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> TEDx Talks: O viés humano e a ética por trás da Inteligência Artificial | TEDxNiteroi  (<a href="https://www.youtube.com/watch?v=PVs9jg1XRU8">https://www.youtube.com/watch?v=PVs9jg1XRU8</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="livro">Livro</code> Inteligência Artificial e ChatGPT: Da revolução dos modelos de IA generativa à Engenharia de Prompt (<a href="https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt">https://www.casadocodigo.com.br/products/livro-inteligencia-artificial-chatgpt</a>)</li>
+</ul>
+<h3>Lógica Fuzzy:</h3>
 <ul><li>A lógica fuzzy, também conhecida como lógica difusa, é uma extensão da lógica clássica que permite o tratamento de incerteza e imprecisão nos sistemas de tomada de decisão. Enquanto a lógica clássica trabalha com valores binários (verdadeiro ou falso), a lógica fuzzy lida com valores contínuos entre 0 e 1, representando graus de pertinência.</li>
 <li>Conhecer o conceito de valor crisp</li>
 <li>Como aplicar a fuzzificação</li>
 <li>Conhecer o método Mamdani</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Automação com IA</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Combinando modelos de Machine Learning com Lógica Fuzzy (<a href="https://medium.com/creditas-tech/combinando-modelos-de-machine-learning-com-l%C3%B3gica-fuzzy-parte-1-b5a9f0761a5d">https://medium.com/creditas-tech/combinando-modelos-de-machine-learning-com-l%C3%B3gica-fuzzy-parte-1-b5a9f0761a5d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> IME - UNICAMP: Introdução à Teoria Fuzzy (<a href="http://www.ime.unicamp.br/~laeciocb/programa_ms580_segusem2008.pdf">http://www.ime.unicamp.br/~laeciocb/programa_ms580_segusem2008.pdf</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Ponto de Colisão: Lógica Fuzzy (<a href="https://open.spotify.com/episode/3flqqjohCsLlMJPxwxAudm?si=8DvjL9mQSyWvTI7NjklBGg">https://open.spotify.com/episode/3flqqjohCsLlMJPxwxAudm?si=8DvjL9mQSyWvTI7NjklBGg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IA Expert Academy: Introdução a Lógica Fuzzy (<a href="https://www.youtube.com/watch?v=pbe9hZcGIiU&ab_channel=IAExpertAcademy">https://www.youtube.com/watch?v=pbe9hZcGIiU&amp;ab_channel=IAExpertAcademy</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AlgoritmoZ: Introdução à IA - Lógica Fuzzy em Python (<a href="https://www.youtube.com/watch?v=EnfSJZU4MCU">https://www.youtube.com/watch?v=EnfSJZU4MCU</a>)</li>
+</ul>
+<h3>Automação com IA:</h3>
 <ul><li>Automated IA, ou automação de IA, refere-se à combinação de tecnologias de automação, como RPA, com recursos de inteligência artificial, como processamento de linguagem natural (NLP), aprendizado de máquina (machine learning) e visão computacional. Essa abordagem visa automatizar processos complexos que envolvem o processamento e a análise de informações não estruturadas, permitindo que as máquinas tomem decisões com base nesses dados.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Automation Anywhere: Combine o poder da RPA e da IA para capacitar a rápida automação de processos de negócios de ponta a ponta (<a href="https://www.automationanywhere.com/br/rpa/intelligent-automation">https://www.automationanywhere.com/br/rpa/intelligent-automation</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como fica a tecnologia de RPA com o avanço exponencial de IA (<a href="https://www.insper.edu.br/noticias/como-fica-a-tecnologia-de-rpa-com-o-avanco-exponencial-de-ia/">https://www.insper.edu.br/noticias/como-fica-a-tecnologia-de-rpa-com-o-avanco-exponencial-de-ia/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> RPA e IA: a dupla perfeita (<a href="https://www.autonomiatech.com.br/post/rpa-e-ia-a-dupla-perfeita">https://www.autonomiatech.com.br/post/rpa-e-ia-a-dupla-perfeita</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Flar Consulting - Microsoft RPA: Como montar um robô (RPA) com inteligência artificial sem utilizar código (No Code) (<a href="https://www.youtube.com/watch?v=8kcdJF0HzJk&ab_channel=FlarConsulting-MicrosoftRPA">https://www.youtube.com/watch?v=8kcdJF0HzJk&amp;ab_channel=FlarConsulting-MicrosoftRPA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Next Trends: Webinar - RPA + IA - Uma combinação poderosa (<a href="https://www.youtube.com/watch?v=t5w87wPlcGQ&ab_channel=NextTrends">https://www.youtube.com/watch?v=t5w87wPlcGQ&amp;ab_channel=NextTrends</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Armanino: Integrando RPA com ferramentas de IA como o ChatGPT (inglês) (<a href="https://www.youtube.com/watch?v=PqQ2v97ej8I&ab_channel=Armanino">https://www.youtube.com/watch?v=PqQ2v97ej8I&amp;ab_channel=Armanino</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Business e Serviços</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Big Data - Fundamentos</strong>:</li>
+<h3>Big Data - Fundamentos:</h3>
 <ul><li>Big Data refere-se a conjuntos de dados extremamente grandes e complexos, que não podem ser facilmente processados ou gerenciados por métodos tradicionais. Esses conjuntos de dados são caracterizados por seu volume massivo, velocidade de geração e variedade de tipos e formatos. Com a explosão da quantidade de dados gerados diariamente, provenientes de diversas fontes como redes sociais, dispositivos IoT e transações comerciais, o Big Data apresenta desafios e oportunidades para extrair insights valiosos e tomar decisões informadas.</li>
 <li>A análise de Big Data envolve o uso de técnicas e tecnologias avançadas, como armazenamento distribuído, processamento em paralelo e aprendizado de máquina, para explorar e transformar esses dados em informações significativas para empresas, organizações e pesquisadores.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Oracle: O que é Big Data? (<a href="https://www.oracle.com/br/big-data/what-is-big-data/">https://www.oracle.com/br/big-data/what-is-big-data/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Big Data (<a href="https://www.youtube.com/watch?v=IpfE8B9H9cI">https://www.youtube.com/watch?v=IpfE8B9H9cI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Nerdologia: BIG DATA (<a href="https://www.youtube.com/watch?v=hEFFCKxYbKM&pp=ygUIQklHIERBVEE%3D&ab_channel=Nerdologia">https://www.youtube.com/watch?v=hEFFCKxYbKM&amp;pp=ygUIQklHIERBVEE%3D&amp;ab_channel=Nerdologia</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A Era do Big Data (<a href="https://medium.com/gabriel-luz/a-era-do-big-data-64ebad5859f2">https://medium.com/gabriel-luz/a-era-do-big-data-64ebad5859f2</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Curso de Big Data (<a href="https://www.youtube.com/playlist?list=PLzKHEB8QCel8UIA2JfUTYQaUgvJa6mUog">https://www.youtube.com/playlist?list=PLzKHEB8QCel8UIA2JfUTYQaUgvJa6mUog</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Big Data: Entenda mais sobre esse conceito (<a href="https://www.alura.com.br/artigos/big-data">https://www.alura.com.br/artigos/big-data</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Big Data e Apache Spark (<a href="https://www.hipsters.tech/big-data-e-apache-spark-hipsters-ponto-tech-341/">https://www.hipsters.tech/big-data-e-apache-spark-hipsters-ponto-tech-341/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Big Data e Data Science: pra quê afinal? (<a href="https://www.hipsters.tech/big-data-e-data-science-pra-que-afinal-hipsters-73/">https://www.hipsters.tech/big-data-e-data-science-pra-que-afinal-hipsters-73/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Small Data, Big Data, Open Data (<a href="https://www.hipsters.tech/small-data-big-data-open-data-hipsters-42/">https://www.hipsters.tech/small-data-big-data-open-data-hipsters-42/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Big Data com Apache Spark (<a href="https://www.youtube.com/watch?v=3aSfKsBhU5E&ab_channel=Alura">https://www.youtube.com/watch?v=3aSfKsBhU5E&amp;ab_channel=Alura</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Iniciando um projeto Spark no Google Colab (<a href="https://www.alura.com.br/artigos/iniciando-projeto-spark-no-colab">https://www.alura.com.br/artigos/iniciando-projeto-spark-no-colab</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Apache Spark com Python (<a href="https://cursos.alura.com.br/formacao-apache-spark-python">https://cursos.alura.com.br/formacao-apache-spark-python</a>)</li>
+</ul>
+<h3>Git e GitHub - Fundamentos:</h3>
 <ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
 <li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
 <li>Criar um repositório</li>
@@ -351,17 +779,78 @@
 <li>Reverter um commit</li>
 <li>Criar branches e pul requests</li>
 <li>Lidar com merge e conflitos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Governança em IA e Business Analytics</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> GitHub Documentação (<a href="https://docs.github.com/pt">https://docs.github.com/pt</a>)</li>
+<li><code data-kind="site">Site</code> GitHub Pages Documentação (<a href="https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="site">Site</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="site">Site</code> Dangit, Git!?! (<a href="https://dangitgit.com/">https://dangitgit.com/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O que é Git e GitHub? - definição e conceitos importantes 1/2 (<a href="https://www.youtube.com/watch?v=DqTITcMq68k">https://www.youtube.com/watch?v=DqTITcMq68k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: Como usar Git e GitHub na prática! - desde o primeiro commit até o pull request! 2/2 (<a href="https://www.youtube.com/watch?v=UBAX-13g8OM">https://www.youtube.com/watch?v=UBAX-13g8OM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Git: Entendendo de vez como funciona do melhor e mais visual jeito possível (<a href="https://www.youtube.com/watch?v=4-tfJ-ZyA0Q">https://www.youtube.com/watch?v=4-tfJ-ZyA0Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como colocar seu projeto no ar DE GRAÇA via GitHub! | Hospedagem com GitHub Pages (<a href="https://www.youtube.com/watch?v=BU-w2_Aae54">https://www.youtube.com/watch?v=BU-w2_Aae54</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - 5 coisas que você precisa saber sobre Git (<a href="https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU">https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - README de Sucesso: Transforme seu Projeto ou seu Perfil em Destaque no GitHub (<a href="https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A">https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Git e Github: O que são, Como Configurar e Primeiros Passos (<a href="https://www.alura.com.br/artigos/o-que-e-git-github">https://www.alura.com.br/artigos/o-que-e-git-github</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Mais git com o hub: a linha de comando do Github (<a href="https://www.alura.com.br/artigos/github-na-linha-de-comando">https://www.alura.com.br/artigos/github-na-linha-de-comando</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 184: Guia do Iniciante em Github (<a href="https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378">https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378</a>)</li>
+<li><code data-kind="site">Site</code> GitHub: diferentes maneiras de compartilhar seu projeto (<a href="https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002">https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002</a>)</li>
+<li><code data-kind="site">Site</code> Websérie: Git e Github para Sobrevivência (<a href="https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia">https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 109: Git e Github (<a href="https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474">https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Git e Github para Sobrevivência 01: Como o Git funciona? (<a href="https://www.youtube.com/watch?v=BAmvmaKQklQ">https://www.youtube.com/watch?v=BAmvmaKQklQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: compartilhando e colaborando em projetos (<a href="https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos">https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: dominando controle de versão de código (<a href="https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo">https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: GitHub (<a href="https://7daysofcode.io/matricula/github">https://7daysofcode.io/matricula/github</a>)</li>
+</ul>
+<h3>Governança em IA e Business Analytics:</h3>
 <ul><li>A governança em Business Analytics refere-se à gestão dos processos e estratégias de análise de dados nas organizações. Isso envolve a definição de políticas e procedimentos para a coleta, organização, análise e interpretação dos dados para obter insights valiosos e embasar a tomada de decisões empresariais.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Plataformas e Serviços Cognitivos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> EBIA - Estratégia Brasileira de Inteligência Artificial (<a href="https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/arquivosinteligenciaartificial/ebia-documento_referencia_4-979_2021.pdf">https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/transformacaodigital/arquivosinteligenciaartificial/ebia-documento_referencia_4-979_2021.pdf</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Inteligência artificial e direito empresarial: mecanismos de governança digital para implementação e confiabilidade (<a href="https://www.thomsonreuters.com.br/content/dam/ewp-m/documents/brazil/pt/pdf/other/rt-1021-inteligencia-artificial-e-direito-empresarial-mecanismos-de-governanca-digital-para-implementacao.pdf">https://www.thomsonreuters.com.br/content/dam/ewp-m/documents/brazil/pt/pdf/other/rt-1021-inteligencia-artificial-e-direito-empresarial-mecanismos-de-governanca-digital-para-implementacao.pdf</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Good AI for the Present of Humanity Democratizing AI Governance (<a href="https://www.aiethicsjournal.org/10-47289-aiej20210716-2">https://www.aiethicsjournal.org/10-47289-aiej20210716-2</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Discursos sobre regulação e governança algorítmica (<a href="https://periodicos.fclar.unesp.br/estudos/article/view/13530/9349">https://periodicos.fclar.unesp.br/estudos/article/view/13530/9349</a>)</li>
+<li><code data-kind="youtube">YouTube</code> C4AI USP: Painel sobre Governança e Regulação da IA (<a href="https://www.youtube.com/watch?v=Z5hSQGAdRJQ">https://www.youtube.com/watch?v=Z5hSQGAdRJQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> FGV: Webinar | Governança, ética e inteligência artificial (<a href="https://www.youtube.com/watch?v=9LjxuhN7qvA">https://www.youtube.com/watch?v=9LjxuhN7qvA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Trentim - Gestão &amp; Tecnologia: Introdução à Análise de Negócio - Business Analytics (<a href="https://www.youtube.com/watch?v=iKaKd7YWi4Y">https://www.youtube.com/watch?v=iKaKd7YWi4Y</a>)</li>
+</ul>
+<h3>Plataformas e Serviços Cognitivos:</h3>
 <ul><li>Plataformas e serviços são projetados para fornecer recursos avançados de processamento de linguagem natural, reconhecimento de fala, visão computacional, análise de sentimentos e outras capacidades cognitivas.</li>
 <li>Como lidar com pipelines</li>
 <li>Conhecer o Databricks</li>
 <li>Conhecer o PySpark</li>
 <li>Conhecer o SageMaker</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Engenharia de Dados - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> IBM: IaaS vs. PaaS vs. SaaS (<a href="https://www.ibm.com/br-pt/topics/iaas-paas-saas">https://www.ibm.com/br-pt/topics/iaas-paas-saas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 7 serviços em nuvem para facilitar o Machine Learning (<a href="https://itforum.com.br/noticias/7-servicos-em-nuvem-para-facilitar-o-machine-learning/">https://itforum.com.br/noticias/7-servicos-em-nuvem-para-facilitar-o-machine-learning/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> IBM: A jornada cognitiva requer a sincronia das plataformas de negócios e dos sistemas já existentes (<a href="https://www.ibm.com/blogs/services/br-pt/2019/07/29/a-jornada-cognitiva-requer-a-sincronia-das-plataformas-de-negocios-e-dos-sistemas-ja-existentes/">https://www.ibm.com/blogs/services/br-pt/2019/07/29/a-jornada-cognitiva-requer-a-sincronia-das-plataformas-de-negocios-e-dos-sistemas-ja-existentes/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Databricks: O canivete suiço da sua plataforma Big Data (<a href="https://medium.com/@julianamarialopes/databricks-o-canivete-sui%C3%A7o-da-sua-plataforma-big-data-c4e84de10d7d">https://medium.com/@julianamarialopes/databricks-o-canivete-sui%C3%A7o-da-sua-plataforma-big-data-c4e84de10d7d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Um guia abrangente sobre Databricks para iniciantes (inglês) (<a href="https://www.analyticsvidhya.com/blog/2021/09/a-comprehensive-guide-on-databricks-beginners/">https://www.analyticsvidhya.com/blog/2021/09/a-comprehensive-guide-on-databricks-beginners/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Automatizando a criação de modelos de ML com SageMaker Pipelines (<a href="https://medium.com/data-hackers/automatizando-a-cria%C3%A7%C3%A3o-de-modelos-de-ml-com-sagemaker-pipelines-5c22aa3dab19">https://medium.com/data-hackers/automatizando-a-cria%C3%A7%C3%A3o-de-modelos-de-ml-com-sagemaker-pipelines-5c22aa3dab19</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IA Expert Academy: Machine Learning com Amazon AWS e SageMaker (<a href="https://www.youtube.com/watch?v=3e2KNKyD1Wc&list=PLZ3V9XyVA528uZFVrf2jgFiGf8DHOZ0Fu&index=1&ab_channel=IAExpertAcademy">https://www.youtube.com/watch?v=3e2KNKyD1Wc&amp;list=PLZ3V9XyVA528uZFVrf2jgFiGf8DHOZ0Fu&amp;index=1&amp;ab_channel=IAExpertAcademy</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mateus S. Silveira: DataBricks e PySpark (playlist) (<a href="https://www.youtube.com/playlist?list=PLW0Bbnox7aDtGJpjevHcU7xJNm7PtLI5f">https://www.youtube.com/playlist?list=PLW0Bbnox7aDtGJpjevHcU7xJNm7PtLI5f</a>)</li>
+</ul>
+<h3>Engenharia de Dados - Fundamentos:</h3>
 <ul><li>Uma pessoa Engenheira de Dados desempenha um papel crucial ao projetar, implementar e manter as infraestruturas de dados que permitem que uma organização trabalhe de maneira eficiente com suas informações. A pessoa engenheira de dados cria pipelines de dados para integrar, limpar e transformar dados provenientes de várias fontes e formatos. Isso possibilita a geração de insights valiosos para o negócio e melhora a tomada de decisões estratégicas.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que faz um Engenheiro de Dados? (<a href="https://medium.com/data-hackers/o-que-faz-um-engenheiro-de-dados-fdcb0bca966b">https://medium.com/data-hackers/o-que-faz-um-engenheiro-de-dados-fdcb0bca966b</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Big Data? O que é Data Analytics? (<a href="https://www.youtube.com/watch?v=4CNqiAgmqSc">https://www.youtube.com/watch?v=4CNqiAgmqSc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Millena Gená: O que faz um Engenheiro de Dados? (<a href="https://www.youtube.com/watch?v=Zsos7iTylqo">https://www.youtube.com/watch?v=Zsos7iTylqo</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Os Tipos e Perfis de Engenheiros de Dados (<a href="https://medium.com/data-hackers/os-tipos-de-engenheiros-de-dados-c3674b4d74d1">https://medium.com/data-hackers/os-tipos-de-engenheiros-de-dados-c3674b4d74d1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O passado, presente e o futuro da Engenharia de Dados — Data Hackers Podcast (<a href="https://medium.com/data-hackers/o-passado-presente-e-o-futuro-da-engenharia-de-dados-data-hackers-podcast-49-34be714b20f6">https://medium.com/data-hackers/o-passado-presente-e-o-futuro-da-engenharia-de-dados-data-hackers-podcast-49-34be714b20f6</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Engenharia de Dados: o que é, o que faz e um Guia completo (<a href="https://www.alura.com.br/artigos/engenharia-dados">https://www.alura.com.br/artigos/engenharia-dados</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é Engenharia de Dados? (<a href="https://www.youtube.com/watch?v=_rMb6S6kimM">https://www.youtube.com/watch?v=_rMb6S6kimM</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que faz uma pessoa Engenheira de Dados? (<a href="https://www.alura.com.br/artigos/o-que-pessoa-engenheira-dados">https://www.alura.com.br/artigos/o-que-pessoa-engenheira-dados</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.Tech: Data Engineering no Quinto Andar (<a href="https://www.hipsters.tech/data-engineering-no-quinto-andar-hipsters-on-the-road-60/">https://www.hipsters.tech/data-engineering-no-quinto-andar-hipsters-on-the-road-60/</a>)</li>
+<li><code data-kind="curso">Curso</code> Primeiros passos com Engenharia de Dados (<a href="https://cursos.alura.com.br/formacao-engenharia-dados-primeiros-passos">https://cursos.alura.com.br/formacao-engenharia-dados-primeiros-passos</a>)</li>
+</ul>
+<h3>SQL - Fundamentos:</h3>
 <ul><li>SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.</li>
 <li>Conhecer os comandos mais comuns do SQL</li>
 <li>Usar SELECT para consultar uma tabela</li>
@@ -370,19 +859,78 @@
 <li>Usar DELETE para remover dados de uma tabela</li>
 <li>Usar JOIN para conectar os dados de múltiplas tabelas</li>
 <li>Conhecer as cláusulas (FROM, ORDER BY, etc)</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Provedores</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SQL — O que é e como funciona na prática? (<a href="https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a">https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL: comandos básicos (<a href="https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909">https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CreateSe: Comandos básicos do SQL (<a href="https://www.youtube.com/watch?v=_rZxrqn0X-4">https://www.youtube.com/watch?v=_rZxrqn0X-4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é SQL? (<a href="https://www.alura.com.br/artigos/o-que-e-sql">https://www.alura.com.br/artigos/o-que-e-sql</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS (<a href="https://www.alura.com.br/artigos/join-em-sql">https://www.alura.com.br/artigos/join-em-sql</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é SQL e NoSQL? (<a href="https://www.youtube.com/watch?v=aure5d3B88g">https://www.youtube.com/watch?v=aure5d3B88g</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Conhecendo SQL (<a href="https://www.alura.com.br/formacao-conhecendo-sql">https://www.alura.com.br/formacao-conhecendo-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso SQL com MySQL: manipule e consulte dados (<a href="https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql">https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação SQL com MySQL Server da Oracle (<a href="https://cursos.alura.com.br/formacao-oracle-mysql">https://cursos.alura.com.br/formacao-oracle-mysql</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL e NoSQL: trabalhando com bancos relacionais e não relacionais (<a href="https://www.alura.com.br/artigos/sql-nosql-bancos-relacionais-nao-relacionais">https://www.alura.com.br/artigos/sql-nosql-bancos-relacionais-nao-relacionais</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: conhecendo SQL (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-conhecendo-sql">https://cursos.alura.com.br/course/microsoft-sql-server-conhecendo-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de PostgreSQL (<a href="https://cursos.alura.com.br/course/introducao-postgresql-primeiros-passos">https://cursos.alura.com.br/course/introducao-postgresql-primeiros-passos</a>)</li>
+<li><code data-kind="curso">Curso</code> SQL com Oracle Database: manipule e consulte dados (<a href="https://cursos.alura.com.br/course/introducao-sql-oracle-manipule-consulte-dados">https://cursos.alura.com.br/course/introducao-sql-oracle-manipule-consulte-dados</a>)</li>
+<li><code data-kind="podcast">Podcast</code> SQL e MySQL (<a href="https://cursos.alura.com.br/extra/hipsterstech/sql-e-mysql-hipsters-ponto-tech-404-a9270">https://cursos.alura.com.br/extra/hipsterstech/sql-e-mysql-hipsters-ponto-tech-404-a9270</a>)</li>
+</ul>
+<h3>Cloud - Provedores:</h3>
 <ul><li>Conhecer os principais provedores de serviços em nuvem e suas ofertas.</li>
 <li>Comparar as características e serviços oferecidos por diferentes provedores.</li>
 <li>Entender como selecionar o provedor de serviços em nuvem adequado para suas necessidades.</li>
 <li>Explorar as tendências e inovações no mercado de serviços em nuvem.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>MLOps</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> O que é Google Cloud e por que aprender? (<a href="https://www.youtube.com/shorts/Lzq3f1DHWcI">https://www.youtube.com/shorts/Lzq3f1DHWcI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabs Ferreira: Por que investir e estudar cloud? (<a href="https://www.youtube.com/watch?v=Z45BTNeZ1l0">https://www.youtube.com/watch?v=Z45BTNeZ1l0</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações (<a href="https://www.alura.com.br/artigos/aws">https://www.alura.com.br/artigos/aws</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conheça o Microsoft Azure: ferramenta para criar serviços de nuvem (<a href="https://www.alura.com.br/artigos/microsoft-azure-ferramenta-servicos-de-nuvem">https://www.alura.com.br/artigos/microsoft-azure-ferramenta-servicos-de-nuvem</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS, Google Cloud e Azure: Por onde começar? (<a href="https://www.youtube.com/watch?v=z9k6rsdmWc0&t=300s">https://www.youtube.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+</ul>
+<h3>MLOps:</h3>
 <ul><li>O MLOps permite que os modelos de Machine Learning sejam implantados de maneira rápida e confiável, o que é especialmente importante em empresas que lidam com grandes volumes de dados.</li>
 <li>Ajuda a garantir a qualidade e confiabilidade dos modelos de Machine Learning em produção, além de facilitar a manutenção e atualização desses modelos.</li>
 <li>Permite que as pessoas engenheiras de dados trabalhem em conjunto com cientistas de dados e desenvolvedores de software para implementar soluções de Machine Learning em larga escala.</li>
 <li>Ajuda a garantir a governança e a conformidade dos modelos de Machine Learning com as políticas e regulamentações da empresa.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Habilidades de comunicação</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> ML Ops: Machine Learning como Disciplina de Engenharia (<a href="https://medium.com/@cbreuel/ml-ops-machine-learning-como-disciplina-de-engenharia-a058770b93dc">https://medium.com/@cbreuel/ml-ops-machine-learning-como-disciplina-de-engenharia-a058770b93dc</a>)</li>
+<li><code data-kind="artigo">Artigo</code> MLOps: por onde começar (<a href="https://medium.com/datalab-log/mlops-por-onde-come%C3%A7ar-a7679db9b10e">https://medium.com/datalab-log/mlops-por-onde-começar-a7679db9b10e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é MLOps? (<a href="https://youtu.be/Z42UL_4AQvI">https://youtu.be/Z42UL_4AQvI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> MLOps com Airflow: Pipeline automatizado de aprendizado de máquina (<a href="https://www.youtube.com/live/oO3ToUIo3cg?feature=share">https://www.youtube.com/live/oO3ToUIo3cg?feature=share</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é MLOps e como funcionam operações de Machine Learning (<a href="https://blog.somostera.com/data-science/mlops">https://blog.somostera.com/data-science/mlops</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introdução a MLOps - Conceitos e Prática (<a href="https://www.youtube.com/watch?v=JC__Hxs1Zlk">https://www.youtube.com/watch?v=JC__Hxs1Zlk</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> ML Engineer, o Dev em <T> (<a href="https://www.alura.com.br/artigos/ml-engineer-o-dev-em-t">https://www.alura.com.br/artigos/ml-engineer-o-dev-em-t</a>)</li>
+<li><code data-kind="curso">Curso</code> MLOps: deploy de modelos (<a href="https://cursos.alura.com.br/course/mlops-deploy-modelos">https://cursos.alura.com.br/course/mlops-deploy-modelos</a>)</li>
+<li><code data-kind="curso">Curso</code> MLOps: Machine Learning e APIs (<a href="https://cursos.alura.com.br/course/mlops-machine-learning-e-apis">https://cursos.alura.com.br/course/mlops-machine-learning-e-apis</a>)</li>
+<li><code data-kind="curso">Curso</code> MLflow: gestão do ciclo de vidas de modelos de ML (<a href="https://cursos.alura.com.br/course/mlflow-gestao-ciclo-vidas-modelos-ml">https://cursos.alura.com.br/course/mlflow-gestao-ciclo-vidas-modelos-ml</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que faz uma pessoa engenheira de Machine Learning? (<a href="https://www.youtube.com/watch?v=BRhz6v-jfMM&t=1s&ab_channel=Alura">https://www.youtube.com/watch?v=BRhz6v-jfMM&amp;t=1s&amp;ab_channel=Alura</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Engenharia de machine learning (<a href="https://www.alura.com.br/podcast/hipsterstech-engenharia-de-machine-learning-hipsters-ponto-tech-248-a853">https://www.alura.com.br/podcast/hipsterstech-engenharia-de-machine-learning-hipsters-ponto-tech-248-a853</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Machine Learning e o MLOps (<a href="https://www.alura.com.br/podcast/hipsterstech-machine-learning-e-o-mlops-hipsters-171-a398">https://www.alura.com.br/podcast/hipsterstech-machine-learning-e-o-mlops-hipsters-171-a398</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Ops em Machine Learning Revisitado (<a href="https://www.alura.com.br/podcast/hipsterstech-ops-em-machine-learning-revisitado-hipsters-ponto-tech-333-a1902">https://www.alura.com.br/podcast/hipsterstech-ops-em-machine-learning-revisitado-hipsters-ponto-tech-333-a1902</a>)</li>
+</ul>
+<h3>Habilidades de comunicação:</h3>
 <ul><li>Um bom nível de comunicação facilita o atingimento de objetivos, resolução de problemas, além de aumentar a produtividade, porque cada profissional saberá exatamente o que se espera dele e transmitir com clareza suas ideias.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Contêineres</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> As 3 Principais Habilidades de Comunicação para se Destacar Em 2024 | Óh Quem Fala (<a href="https://www.youtube.com/watch?v=0gtLy5Spq2s">https://www.youtube.com/watch?v=0gtLy5Spq2s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Elementos da comunicação - Brasil Escola (<a href="https://www.youtube.com/watch?v=i-3h6ptGEMs">https://www.youtube.com/watch?v=i-3h6ptGEMs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Resumo fácil para entender os elementos da comunicação (<a href="https://www.youtube.com/watch?v=fKFxDD2xjBU">https://www.youtube.com/watch?v=fKFxDD2xjBU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação Comunicação (<a href="https://cursos.alura.com.br/formacao-comunicacao">https://cursos.alura.com.br/formacao-comunicacao</a>)</li>
+</ul>
+<h3>Contêineres:</h3>
 <ul><li>Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente. Gerenciamento de contêineres é uma área crucial na computação em nuvem e DevOps, que envolve o uso de tecnologias para automatizar o processo de criação, implantação, escalonamento e monitoramento de contêineres. Contêineres são unidades de software padronizadas que permitem aos desenvolvedores empacotar todas as dependências de um aplicativo (código, bibliotecas, configurações, etc.) em um único pacote. Isso permite que o aplicativo seja executado de forma consistente em qualquer ambiente de infraestrutura.</li>
 <li>A tecnologia de contêineres, como exemplificada pelo Docker, fornece um ambiente consistente e portátil para desenvolvimento, teste e implantação de aplicativos, o que é vital para o trabalho eficiente de engenharia de dados. Além disso, o Kubernetes, um sistema de orquestração de contêineres, permite o gerenciamento, a automação e a escalabilidade de aplicações baseadas em contêineres em ambientes de produção. Dominar esses conceitos e tecnologias possibilita a engenheiros de dados construir e manter pipelines de dados eficientes e confiáveis.</li>
 <li>O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.</li>
@@ -391,20 +939,124 @@
 <li>Modularizar seu sistema em pacotes menores</li>
 <li>Conhecer a plataforma Docker</li>
 <li>Conhecer Kubernetes</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> IBM: Contêineres (<a href="https://www.ibm.com/br-pt/cloud/learn/containers">https://www.ibm.com/br-pt/cloud/learn/containers</a>)</li>
+<li><code data-kind="site">Site</code> HPE: O que são contêineres? (<a href="https://www.hpe.com/br/pt/what-is/containers.html">https://www.hpe.com/br/pt/what-is/containers.html</a>)</li>
+<li><code data-kind="site">Site</code> Google Cloud: O que são contêineres? (<a href="https://cloud.google.com/learn/what-are-containers?hl=pt-br">https://cloud.google.com/learn/what-are-containers?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Azure: O que é um contêiner? (<a href="https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-a-container/">https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-a-container/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Red Hat: O que é Kubernetes (<a href="https://www.redhat.com/pt-br/topics/containers/what-is-kubernetes">https://www.redhat.com/pt-br/topics/containers/what-is-kubernetes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Azure: O que é Kubernetes? (<a href="https://azure.microsoft.com/pt-br/topic/what-is-kubernetes/">https://azure.microsoft.com/pt-br/topic/what-is-kubernetes/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Kubernetes - Guia de Referência Gratuito (<a href="https://renatogroffe.medium.com/kubernetes-guia-de-refer%C3%AAncia-gratuito-a2c1be8e7593">https://renatogroffe.medium.com/kubernetes-guia-de-refer%C3%AAncia-gratuito-a2c1be8e7593</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Containers // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=-pUZBovqRcU">https://www.youtube.com/watch?v=-pUZBovqRcU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Kubernetes // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=mVL0nOM3AGo">https://www.youtube.com/watch?v=mVL0nOM3AGo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Insight Lab: Revisão Docker - Curso de Introdução ao Kubernetes (<a href="https://www.youtube.com/watch?v=bcRArpK00OU">https://www.youtube.com/watch?v=bcRArpK00OU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Pisani da ArcH: Kubernetes - entenda e comece a arquitetar agora mesmo (<a href="https://www.youtube.com/watch?v=XjaqTqm7g58">https://www.youtube.com/watch?v=XjaqTqm7g58</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Kubernetes (<a href="https://www.alura.com.br/artigos/o-que-e-kubernetes">https://www.alura.com.br/artigos/o-que-e-kubernetes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando volumes com Docker (<a href="https://www.alura.com.br/artigos/criando-volumes-com-docker">https://www.alura.com.br/artigos/criando-volumes-com-docker</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Docker Compose para compor uma aplicação (<a href="https://www.alura.com.br/artigos/compondo-uma-aplicacao-com-o-docker-compose">https://www.alura.com.br/artigos/compondo-uma-aplicacao-com-o-docker-compose</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que são Containers? (<a href="https://www.youtube.com/watch?v=jv4_sLlGOS0">https://www.youtube.com/watch?v=jv4_sLlGOS0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Containers, Docker e Kubernetes (com Giovanni Bassi) (<a href="https://www.youtube.com/watch?v=wxLvvMxzc1Q">https://www.youtube.com/watch?v=wxLvvMxzc1Q</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Containers e Docker - Hipsters 75 (<a href="https://www.alura.com.br/podcast/hipsterstech-containers-e-docker-hipsters-75-a511">https://www.alura.com.br/podcast/hipsterstech-containers-e-docker-hipsters-75-a511</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Kubernetes - Hipsters 177 (<a href="https://www.alura.com.br/podcast/kubernetes-hipsters-177-a389">https://www.alura.com.br/podcast/kubernetes-hipsters-177-a389</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Microsserviços e Kubernetes na Americanas.com - Hipsters On The Road 56 (<a href="https://www.alura.com.br/podcast/microsservicos-e-kubernetes-na-americanas-com-hipsters-on-the-road-56-a857">https://www.alura.com.br/podcast/microsservicos-e-kubernetes-na-americanas-com-hipsters-on-the-road-56-a857</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Orquestração de containers com Kubernetes (<a href="https://www.alura.com.br/formacao-kubernetes">https://www.alura.com.br/formacao-kubernetes</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Docker: criando e gerenciando containers (<a href="https://www.alura.com.br/curso-online-docker-criando-gerenciando-containers">https://www.alura.com.br/curso-online-docker-criando-gerenciando-containers</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Kubernetes: Pods, Services e ConfigMaps (<a href="https://www.alura.com.br/curso-online-kubernetes-pods-services-configmap">https://www.alura.com.br/curso-online-kubernetes-pods-services-configmap</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Kubernetes: Deployments, Volumes e Escalabilidade (<a href="https://www.alura.com.br/curso-online-kubernetes-deployments-volumes-escalabilidade">https://www.alura.com.br/curso-online-kubernetes-deployments-volumes-escalabilidade</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Google Kubernetes Engine (<a href="https://www.alura.com.br/curso-online-google-kubernetes-engine-primeiros-passos">https://www.alura.com.br/curso-online-google-kubernetes-engine-primeiros-passos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Kubernetes na Digital Ocean: gerenciando aplicações conteinerizadas (<a href="https://www.alura.com.br/curso-online-kubernetes-digital-ocean">https://www.alura.com.br/curso-online-kubernetes-digital-ocean</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Amazon EKS: gerenciando aplicações conteinerizadas com Kubernetes (<a href="https://www.alura.com.br/curso-online-amazon-eks-kubernetes">https://www.alura.com.br/curso-online-amazon-eks-kubernetes</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Azure: gerencie Kubernetes com AKS e ACR (<a href="https://www.alura.com.br/curso-online-azure-gerencie-kubernetes-com-aks-acr">https://www.alura.com.br/curso-online-azure-gerencie-kubernetes-com-aks-acr</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Hardware e Eletrônica</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Robótica na IA - Fundamentos</strong>:</li>
+<h3>Robótica na IA - Fundamentos:</h3>
 <ul><li>Uma das vertentes da revolução 4.0 é a implementação em larga escala industrial da IA aos sistemas robotizados, podendo desenvolver processos autônomos e autogerenciáveis em campo.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Hardwares para IA</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Coppelia Robotics (<a href="https://www.coppeliarobotics.com/">https://www.coppeliarobotics.com/</a>)</li>
+<li><code data-kind="site">Site</code> Robô DK (<a href="https://robodk.com/">https://robodk.com/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> MIT Technology Review: A robótica está prestes a ter o seu próprio momento ChatGPT? (<a href="https://mittechreview.com.br/a-robotica-esta-prestes-a-ter-o-seu-proprio-momento-chatgpt/">https://mittechreview.com.br/a-robotica-esta-prestes-a-ter-o-seu-proprio-momento-chatgpt/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Com ChatGPT, o cão-robô da Boston Dynamics agora é inteligente (<a href="https://fastcompanybrasil.com/tech/com-chatgpt-o-cao-robo-da-boston-dynamics-agora-e-inteligente/">https://fastcompanybrasil.com/tech/com-chatgpt-o-cao-robo-da-boston-dynamics-agora-e-inteligente/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Inteligência Artificial Industrial na Indústria 4.0 - Revisão Sistemática, Desafios e Perspectivas (inglês) (<a href="https://ieeexplore.ieee.org/abstract/document/9285283">https://ieeexplore.ieee.org/abstract/document/9285283</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Eureka! A NVIDIA Research introduz nova abordagem para o aprendizado de robôs (inglês) (<a href="https://blogs.nvidia.com/blog/eureka-robotics-research/">https://blogs.nvidia.com/blog/eureka-robotics-research/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Boston Dynamics: Introducing Stretch (<a href="https://www.youtube.com/@BostonDynamics">https://www.youtube.com/@BostonDynamics</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Walisson Gomes: Programando e Operando um Robô Industrial (<a href="https://www.youtube.com/watch?v=lu4lvYNXt74">https://www.youtube.com/watch?v=lu4lvYNXt74</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Brincando com Ideias: Como ensinar um robô com Arduino (<a href="https://www.youtube.com/watch?v=DiihdEwI6FY&ab_channel=BrincandocomIdeias">https://www.youtube.com/watch?v=DiihdEwI6FY&amp;ab_channel=BrincandocomIdeias</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Leopoldo Armesto: Tutorial de CoppeliaSim (playlist em inglês) (<a href="https://www.youtube.com/playlist?list=PLjzuoBhdtaXOoqkJUqhYQletLLnJP8vjZ">https://www.youtube.com/playlist?list=PLjzuoBhdtaXOoqkJUqhYQletLLnJP8vjZ</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação Robótica, Microcontroladores e Eletrônica Aplicada (<a href="https://cursos.alura.com.br/formacao-microcontroladores-eletronica-aplicada">https://cursos.alura.com.br/formacao-microcontroladores-eletronica-aplicada</a>)</li>
+</ul>
+<h3>Hardwares para IA:</h3>
 <ul><li>Hardwares para IA são componentes físicos, como processadores, placas de vídeo e sistemas especializados, que são projetados e otimizados para realizar tarefas relacionadas à inteligência artificial de maneira eficiente e rápida. Eles são especialmente projetados para lidar com as demandas computacionais intensivas e algoritmos complexos usados em modelos de aprendizado de máquina e deep learning.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Computação Paralela &amp; Clusters</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> NVIDIA: Sistemas Incorporados E Avançados De IA com Jetson (<a href="https://www.nvidia.com/pt-br/autonomous-machines/embedded-systems/">https://www.nvidia.com/pt-br/autonomous-machines/embedded-systems/</a>)</li>
+<li><code data-kind="site">Site</code> Intel: Acelere Toda a Sua Infraestrutura com o Hardware Intel® AI (<a href="https://www.intel.com.br/content/www/br/pt/artificial-intelligence/hardware.html">https://www.intel.com.br/content/www/br/pt/artificial-intelligence/hardware.html</a>)</li>
+<li><code data-kind="site">Site</code> Intel: Casos de uso de IA - Resolvendo desafios reais de negócios com os hardwares da Intel (<a href="https://www.intel.com/content/www/us/en/artificial-intelligence/industries.html">https://www.intel.com/content/www/us/en/artificial-intelligence/industries.html</a>)</li>
+<li><code data-kind="site">Site</code> Microsoft: Aceleração de hardware para IA de pesquisa visual do Azure IoT Edge (<a href="https://learn.microsoft.com/pt-br/azure/architecture/guide/iot-edge-vision/hardware">https://learn.microsoft.com/pt-br/azure/architecture/guide/iot-edge-vision/hardware</a>)</li>
+<li><code data-kind="site">Site</code> Dando um salto para Hardwares em Machine Learning, Parte 1 (em inglês) (<a href="https://medium.com/@mpchang17/making-the-leap-from-hardware-to-machine-learning-d85853b59a05">https://medium.com/@mpchang17/making-the-leap-from-hardware-to-machine-learning-d85853b59a05</a>)</li>
+<li><code data-kind="site">Site</code> Dando um salto para Hardwares em Machine Learning, Parte 2 (em inglês) (<a href="https://medium.com/@mpchang17/making-the-leap-from-hardware-to-machine-learning-part-2-eb172c2e9d8e">https://medium.com/@mpchang17/making-the-leap-from-hardware-to-machine-learning-part-2-eb172c2e9d8e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Inteligência Mil Grau: Inteligência Artificial no Arduino e Raspberry Pi (<a href="https://www.youtube.com/watch?v=h4-1y_dXtKE&ab_channel=Intelig%C3%AAnciaMilGrau">https://www.youtube.com/watch?v=h4-1y_dXtKE&amp;ab_channel=Intelig%C3%AAnciaMilGrau</a>)</li>
+<li><code data-kind="youtube">YouTube</code> High Yield: Mergulhando no hardware de IA do ChatGPT (inglês) (<a href="https://www.youtube.com/watch?v=4q9-yf1eU8c&ab_channel=HighYield">https://www.youtube.com/watch?v=4q9-yf1eU8c&amp;ab_channel=HighYield</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Jeff Geerling: Eu construí um CoPilot+ AI PC (sem usar Windows) (inglês) (<a href="https://www.youtube.com/watch?v=HgIMJbN0DS0">https://www.youtube.com/watch?v=HgIMJbN0DS0</a>)</li>
+</ul>
+<h3>Computação Paralela &amp; Clusters:</h3>
 <ul><li>Computação paralela refere-se ao uso de múltiplos processadores ou unidades de processamento para executar tarefas computacionais simultaneamente, em paralelo. Em vez de um único processador executar uma tarefa de cada vez, a computação paralela divide a carga de trabalho em várias partes menores que podem ser processadas em paralelo, resultando em maior eficiência e velocidade de processamento.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Internet das Coisas (IoT) - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> IBM: O que é computação de alto desempenho (HPC)? (<a href="https://www.ibm.com/br-pt/topics/hpc">https://www.ibm.com/br-pt/topics/hpc</a>)</li>
+<li><code data-kind="site">Site</code> AMD: Explicando a computação de alto desempenho (<a href="https://www.amd.com/system/files/documents/hpc-explained.pdf">https://www.amd.com/system/files/documents/hpc-explained.pdf</a>)</li>
+<li><code data-kind="site">Site</code> Microsoft: Design de arquitetura de IA (inteligência artificial) (<a href="https://learn.microsoft.com/pt-br/azure/architecture/data-guide/big-data/ai-overview">https://learn.microsoft.com/pt-br/azure/architecture/data-guide/big-data/ai-overview</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tecnoblog: O que é processamento paralelo em computação? Saiba benefícios e aplicações (<a href="https://tecnoblog.net/responde/o-que-e-processamento-paralelo/">https://tecnoblog.net/responde/o-que-e-processamento-paralelo/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> UNICAMP: Computação de Alto Desempenho usando Clusters (<a href="https://www.ic.unicamp.br/~ducatte/mo401/1s2009/T2/089028-t2.pdf">https://www.ic.unicamp.br/~ducatte/mo401/1s2009/T2/089028-t2.pdf</a>)</li>
+<li><code data-kind="artigo">Artigo</code> UFPE: Aspectos e desempenho da computação paralela em clusters e grids para processamento de imagens (<a href="https://www.ufpe.br/documents/39830/745800/17_GiorgiaMattos/c2c5feb6-6e54-461b-b761-7e22900857d8">https://www.ufpe.br/documents/39830/745800/17_GiorgiaMattos/c2c5feb6-6e54-461b-b761-7e22900857d8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Avaliação de performance na renderização de imagens em um cluster de computadores (<a href="https://www.monografias.com/pt/trabalhos3/avaliacao-performance-renderizacao-imagens-cluster/avaliacao-performance-renderizacao-imagens-cluster2.shtml">https://www.monografias.com/pt/trabalhos3/avaliacao-performance-renderizacao-imagens-cluster/avaliacao-performance-renderizacao-imagens-cluster2.shtml</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Laboratório HiPES: Curso de Programação Paralela (playlist) (<a href="https://www.youtube.com/playlist?list=PL_9px37PNj6pyE7GbTyGyR598_T7T_cwG">https://www.youtube.com/playlist?list=PL_9px37PNj6pyE7GbTyGyR598_T7T_cwG</a>)</li>
+<li><code data-kind="youtube">YouTube</code> UNIVESP:Computação Escalável - Computação Paralela e Distribuída (<a href="http://www.youtube.com/watch?v=c5MlNQTjuX4">http://www.youtube.com/watch?v=c5MlNQTjuX4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Prof. João Quadros: Computação paralela (<a href="http://www.youtube.com/watch?v=9Wpo37vqqt8">http://www.youtube.com/watch?v=9Wpo37vqqt8</a>)</li>
+</ul>
+<h3>Internet das Coisas (IoT) - Fundamentos:</h3>
 <ul><li>Quase todos os objetos agora podem ser conectados à Internet, de máquinas de lavar a componentes sofisticados de motor de avião, a itens orgânicos, como plantações e vacas. A capacidade de conectar coisas e capturar dados úteis está transformando as empresas de todos os setores e abrindo portas para novas especializações de carreira. Descubra a base desse novo campo com atividades práticas para conectar os sensores com segurança aos serviços em nuvem nas redes IP e coletar dados em um sistema de IoT (Internet das Coisas) de ponta a ponta.</li>
 <li>Como rodar seu primeiro sistema em um Arduino</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Wearables e Aquisição de Dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Arduino (<a href="https://www.arduino.cc">https://www.arduino.cc</a>)</li>
+<li><code data-kind="site">Site</code> Raspberry Pi (inglês) (<a href="https://www.raspberrypi.com/">https://www.raspberrypi.com/</a>)</li>
+<li><code data-kind="site">Site</code> Raspberry Pi Foundation (inglês) (<a href="https://www.raspberrypi.org/">https://www.raspberrypi.org/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Internet das Coisas: entenda o que é e veja exemplos de suas aplicações (<a href="https://medium.com/system-it-solutions/internet-das-coisas-o-que-e-exemplos-b82855d1a969">https://medium.com/system-it-solutions/internet-das-coisas-o-que-e-exemplos-b82855d1a969</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Uso da IoT, big data e inteligência artificial nas capacidades dinâmicas e seus microfundamentos (<a href="https://repositorio.ucp.pt/handle/10400.14/25384">https://repositorio.ucp.pt/handle/10400.14/25384</a>)</li>
+<li><code data-kind="artigo">Artigo</code> IOTA Development Roadmap (<a href="https://medium.com/iotatangle/iota-development-roadmap-74741f37ed01">https://medium.com/iotatangle/iota-development-roadmap-74741f37ed01</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Arduino for Web Developers (<a href="https://medium.com/hackernoon/arduino-for-web-developers-deb7bd1841c1">https://medium.com/hackernoon/arduino-for-web-developers-deb7bd1841c1</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Laboratório da Julia: IoT para iniciantes (<a href="https://www.youtube.com/watch?v=-ym9zvsQsOo">https://www.youtube.com/watch?v=-ym9zvsQsOo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Engenharia Detalhada: TUDO sobre a IOT (<a href="https://www.youtube.com/watch?v=2TXOZFmhGGo">https://www.youtube.com/watch?v=2TXOZFmhGGo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: IoT (Internet das Coisas) (<a href="https://www.youtube.com/watch?v=qNHydTYkfcg">https://www.youtube.com/watch?v=qNHydTYkfcg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Brincando com Ideias: Arduino IOT Cloud - A Internet das Coisas fácil (<a href="https://www.youtube.com/watch?v=qZTMrj_w2Hk">https://www.youtube.com/watch?v=qZTMrj_w2Hk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Arduino MINÚSCULO com INTELIGÊNCIA ARTIFICIAL? (<a href="http://www.youtube.com/watch?v=8GoT_1WF3Ss">http://www.youtube.com/watch?v=8GoT_1WF3Ss</a>)</li>
+<li><code data-kind="youtube">YouTube</code> MD DIGITAL PODCAST: Internet das Coisas (IOT) - Five14Cast #011 (<a href="https://www.youtube.com/watch?v=GRfEdvuMZIU">https://www.youtube.com/watch?v=GRfEdvuMZIU</a>)</li>
+<li><code data-kind="curso">Curso</code> Introduction to IoT (<a href="https://www.netacad.com/pt-br/courses/iot/introduction-iot">https://www.netacad.com/pt-br/courses/iot/introduction-iot</a>)</li>
+<li><code data-kind="curso">Curso</code> IoT Fundamentals (<a href="https://www.netacad.com/pt-br/courses/iot/iot-fundamentals">https://www.netacad.com/pt-br/courses/iot/iot-fundamentals</a>)</li>
+<li><code data-kind="curso">Curso</code> Segurança de IoT (<a href="https://www.netacad.com/pt-br/courses/cybersecurity/iot-security">https://www.netacad.com/pt-br/courses/cybersecurity/iot-security</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters #140: Automação residencial (<a href="https://cursos.alura.com.br/extra/hipsterstech/automacao-residencial-hipsters-140-a441">https://cursos.alura.com.br/extra/hipsterstech/automacao-residencial-hipsters-140-a441</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters On The Road #51: IoT e débito técnico na Cobli (<a href="https://cursos.alura.com.br/extra/hipsterstech/iot-e-debito-tecnico-na-cobli-hipsters-on-the-road-51-a778">https://cursos.alura.com.br/extra/hipsterstech/iot-e-debito-tecnico-na-cobli-hipsters-on-the-road-51-a778</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como a IoT (Internet das Coisas) está revolucionando o setor industrial (<a href="https://www.alura.com.br/empresas/artigos/internet-das-coisas">https://www.alura.com.br/empresas/artigos/internet-das-coisas</a>)</li>
+</ul>
+<h3>Wearables e Aquisição de Dados:</h3>
 <ul><li>Wearables é a expressão que representa as tecnologias vestívies que além de captar biopotenciais podem gerar dados de grande valia, como relógios e óculos inteligentes, e também na área na saúde para pessoas com alguma deficiência física.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Wearables: o que são as tecnologias vestíveis (<a href="https://usemobile.com.br/wearable/">https://usemobile.com.br/wearable/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Wearables e a revolução médica (inglês) (<a href="https://www.futuremedicine.com/doi/full/10.2217/pme-2018-0044">https://www.futuremedicine.com/doi/full/10.2217/pme-2018-0044</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Webinar: Wearables – Apresentando um diagrama de blocos e componentes chaves (<a href="http://www.youtube.com/watch?v=1HzFKwrYLR4">http://www.youtube.com/watch?v=1HzFKwrYLR4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Maravilhas da Tecnologia: Wearables incríveis que você vai pirar (<a href="https://www.youtube.com/watch?v=lWEZFEBksdM">https://www.youtube.com/watch?v=lWEZFEBksdM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Hackveda Limited: Crie e execute um aplicativo vestível no WearOS usando o Android Studio (inglês) (<a href="https://www.youtube.com/watch?v=-JO5oHRkYbk&ab_channel=HackvedaLimited">https://www.youtube.com/watch?v=-JO5oHRkYbk&amp;ab_channel=HackvedaLimited</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Um tour guiado do Apple Vision Pro (inglês) (<a href="https://www.youtube.com/watch?v=Vb0dG-2huJE">https://www.youtube.com/watch?v=Vb0dG-2huJE</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

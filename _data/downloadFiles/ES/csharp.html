@@ -71,11 +71,61 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +151,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +228,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,9 +248,8 @@
   </div>
 
   <div class="content">
-    <h1>C#</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Fundamentos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>C# - Fundamentos:</h3>
 <ul><li>C# es un lenguaje de programación, multiparadigma, con tipado fuerte, desarrollado por Microsoft como parte de la plataforma .NET. El código fuente se compila a Common Intermediate Language (CIL), que es interpretado por la máquina virtual Common Language Runtime (CLR). Está diseñado para funcionar en la Common Language Infrastructure de la plataforma .NET Framework.</li>
 <li>Conocer los tipos primitivos</li>
 <li>Declarar variables, considerando los diferentes tipos</li>
@@ -224,7 +262,37 @@
 <li>Obtener datos de una API</li>
 <li>Realizar llamadas asíncronas, etc.</li>
 <li>Crear constructores</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceptos de Orientación a Objetos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Paseo por el lenguaje C# (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/">https://learn.microsoft.com/es-es/dotnet/csharp/tour-of-csharp/</a>)</li>
+<li><code data-kind="web">Web</code> Excepciones y control de excepciones (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/exceptions/">https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/exceptions/</a>)</li>
+<li><code data-kind="web">Web</code> Operadores y expresiones de C# (referencia de C#) (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/">https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/</a>)</li>
+<li><code data-kind="web">Web</code> Constructores: Guía de programación de C# (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/constructors">https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/classes-and-structs/constructors</a>)</li>
+<li><code data-kind="web">Web</code> Programación asincrónica (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/asynchronous-programming/async-scenarios">https://learn.microsoft.com/es-es/dotnet/csharp/asynchronous-programming/async-scenarios</a>)</li>
+<li><code data-kind="web">Web</code> Cadenas con formato de fecha y hora estándar (<a href="https://learn.microsoft.com/es-es/dotnet/standard/base-types/standard-date-and-time-format-strings">https://learn.microsoft.com/es-es/dotnet/standard/base-types/standard-date-and-time-format-strings</a>)</li>
+<li><code data-kind="web">Web</code> Procedimiento para separar cadenas mediante String.Split en C# (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/how-to/parse-strings-using-split">https://learn.microsoft.com/es-es/dotnet/csharp/how-to/parse-strings-using-split</a>)</li>
+<li><code data-kind="web">Web</code> Structs - Especificación del lenguaje C# (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/language-specification/structs">https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/language-specification/structs</a>)</li>
+<li><code data-kind="web">Web</code> C# | El lenguaje de programación moderno, innovador y de código abierto para crear todas sus aplicaciones (<a href="https://dotnet.microsoft.com/es-es/languages/csharp">https://dotnet.microsoft.com/es-es/languages/csharp</a>)</li>
+<li><code data-kind="web">Web</code> Creación de una aplicación de Windows Forms en Visual Studio con C# (<a href="https://learn.microsoft.com/es-es/visualstudio/ide/create-csharp-winform-visual-studio?view=vs-2022">https://learn.microsoft.com/es-es/visualstudio/ide/create-csharp-winform-visual-studio?view=vs-2022</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Variables y Tipos en C# (<a href="https://desarrolloweb.com/articulos/variables-tipos-csharp">https://desarrolloweb.com/articulos/variables-tipos-csharp</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿QUÉ ES .NET?💥[Lo más BÁSICO y lo más SENCILLO] (<a href="https://www.youtube.com/watch?v=AU2WmblU2J0">https://www.youtube.com/watch?v=AU2WmblU2J0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> List y ArrayList C# (<a href="https://www.youtube.com/watch?v=k431eUiMRXA">https://www.youtube.com/watch?v=k431eUiMRXA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tipos de datos primitivos y Variables (<a href="https://www.youtube.com/watch?v=Hhe6EtOsG5o&t=655s">https://www.youtube.com/watch?v=Hhe6EtOsG5o&amp;t=655s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Consumir un API con C# 9.0 y Pegar JSON Como Clases Visual Studio 2019 (<a href="https://www.youtube.com/watch?v=yPgfLYaqMn8">https://www.youtube.com/watch?v=yPgfLYaqMn8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> APRENDE Windows Forms DESDE 0 Utilizando C# y Visual Studio 2022 (<a href="https://www.youtube.com/watch?v=FFlvrBpY73w">https://www.youtube.com/watch?v=FFlvrBpY73w</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Lenguaje C Sharp en 3 Minutos o más! (<a href="https://www.youtube.com/watch?v=rr5nZq61WIE">https://www.youtube.com/watch?v=rr5nZq61WIE</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Que es .Net framework? (<a href="https://www.aluracursos.com/blog/que-es-net-framework">https://www.aluracursos.com/blog/que-es-net-framework</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Manejando fechas y horas en C# (<a href="https://www.aluracursos.com/blog/manejando-fechas-y-horas-en-csharp">https://www.aluracursos.com/blog/manejando-fechas-y-horas-en-csharp</a>)</li>
+<li><code data-kind="artículo">Artículo</code> C#: entender clases y structs (<a href="https://www.aluracursos.com/blog/entender-clases-structs">https://www.aluracursos.com/blog/entender-clases-structs</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Cómo separar palabras en String con C#? (<a href="https://www.aluracursos.com/blog/como-separar-palabras-en-string">https://www.aluracursos.com/blog/como-separar-palabras-en-string</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación C# y Orientación a Objetos (<a href="https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos">https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso C#: conociendo el lenguaje (<a href="https://app.aluracursos.com/course/csharp-conociendo-el-lenguaje">https://app.aluracursos.com/course/csharp-conociendo-el-lenguaje</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso C#: array y tipos genéricos (<a href="https://app.aluracursos.com/course/csharp-array-tipos-genericos">https://app.aluracursos.com/course/csharp-array-tipos-genericos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso C#: strings, expresiones regulares y clase Object (<a href="https://app.aluracursos.com/course/csharp-strings-expresiones-regulares-clase-object">https://app.aluracursos.com/course/csharp-strings-expresiones-regulares-clase-object</a>)</li>
+</ul>
+<h3>Conceptos de Orientación a Objetos:</h3>
 <ul><li>La Programación Orientada a Objetos es un paradigma de programación de software basado en la composición e interacción entre diversas unidades llamadas &#39;objetos&#39; y las clases, que contienen una identidad, propiedades y métodos. Se basa en cuatro componentes de la programación - abstracción digital, encapsulación, herencia y polimorfismo.</li>
 <li>Cómo funcionan los objetos</li>
 <li>Crear y utilizar constructores</li>
@@ -235,102 +303,366 @@
 <li>Qué es el polimorfismo</li>
 <li>Cómo funcionan las interfaces</li>
 <li>Qué son las abstracciones</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Colecciones</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Programación orientada a objetos (C#) (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/tutorials/oop">https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/tutorials/oop</a>)</li>
+<li><code data-kind="web">Web</code> Programación orientada a objetos - IBM (<a href="https://www.ibm.com/docs/es/spss-modeler/saas?topic=language-object-oriented-programming">https://www.ibm.com/docs/es/spss-modeler/saas?topic=language-object-oriented-programming</a>)</li>
+<li><code data-kind="web">Web</code> Introducción a los objetos JavaScript (<a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects">https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Introducción a POO con JavaScript ES6 (<a href="https://medium.com/academia-hack/introducci%C3%B3n-a-poo-con-javascript-es6-80074fde0cdf">https://medium.com/academia-hack/introducci%C3%B3n-a-poo-con-javascript-es6-80074fde0cdf</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Programación Orientada a Objetos (<a href="https://ellibrodepython.com/programacion-orientada-a-objetos-python">https://ellibrodepython.com/programacion-orientada-a-objetos-python</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 4 Principios de la Programación Orientada a Objetos (<a href="https://www.youtube.com/watch?v=Uk1C1NARZjU">https://www.youtube.com/watch?v=Uk1C1NARZjU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mini Curso: POO con PHP (básico) (<a href="https://youtu.be/Ben_VC2rm10">https://youtu.be/Ben_VC2rm10</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 🟡¿Qué es la Programación Orientada a Objetos en PYTHON? - [ Con EJEMPLOS ] | Python desde CERO #13 (<a href="https://www.youtube.com/watch?v=KwT1F7uL5rA">https://www.youtube.com/watch?v=KwT1F7uL5rA</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Alura Latam: ¿Qué es la Programación Orientada a Objetos? (<a href="https://www.youtube.com/watch?v=Oigen2sjagk">https://www.youtube.com/watch?v=Oigen2sjagk</a>)</li>
+<li><code data-kind="artículo">Artículo</code> POO: ¿Qué es la programación orientada a objetos? (<a href="https://www.aluracursos.com/blog/poo-que-es-la-programacion-orientada-a-objetos">https://www.aluracursos.com/blog/poo-que-es-la-programacion-orientada-a-objetos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Revisando la Orientación a Objetos: encapsulación de Java (<a href="https://www.aluracursos.com/blog/revisando-la-orientacion-a-objetos-encapsulacion-de-java">https://www.aluracursos.com/blog/revisando-la-orientacion-a-objetos-encapsulacion-de-java</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es encapsulamiento? (<a href="https://www.aluracursos.com/blog/Que-es-encapsulamiento">https://www.aluracursos.com/blog/Que-es-encapsulamiento</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Herencia en JavaScript (<a href="https://www.aluracursos.com/blog/herencia-en-javascript">https://www.aluracursos.com/blog/herencia-en-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Interfaces Gráficas con Eclipse WindowBuilder (<a href="https://www.aluracursos.com/blog/interfaces-graficas-con-eclipse-windowbuilder">https://www.aluracursos.com/blog/interfaces-graficas-con-eclipse-windowbuilder</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo no aprender Java y Orientación a Objetos: getters y setters (<a href="https://www.aluracursos.com/blog/como-no-aprender-java-y-orientacion-a-objetos-getters-y-setters">https://www.aluracursos.com/blog/como-no-aprender-java-y-orientacion-a-objetos-getters-y-setters</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Ordenar una lista de objetos en Java (<a href="https://www.aluracursos.com/blog/ordenar-una-lista-de-objetos-en-java">https://www.aluracursos.com/blog/ordenar-una-lista-de-objetos-en-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Java Orientado a Objetos (<a href="https://app.aluracursos.com/formacion-javaoo">https://app.aluracursos.com/formacion-javaoo</a>)</li>
+<li><code data-kind="curso">Curso</code> JavaScript: Introducción a la Orientación a Objetos (<a href="https://app.aluracursos.com/course/javascript-introduccion-orientacion-objetos">https://app.aluracursos.com/course/javascript-introduccion-orientacion-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> JavaScript: Herencia e Interfaces en Orientación a Objetos (<a href="https://app.aluracursos.com/course/javascript-herencia-interfaces-orientacion-objetos">https://app.aluracursos.com/course/javascript-herencia-interfaces-orientacion-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> C# y Orientación a Objetos (<a href="https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos">https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Python: comprensión de la Orientación a Objetos (<a href="https://app.aluracursos.com/course/python-comprension-orientacion-objetos">https://app.aluracursos.com/course/python-comprension-orientacion-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Python: avanzando en la orientación a objetos (<a href="https://app.aluracursos.com/course/python-avanzando-orientacion-objetos">https://app.aluracursos.com/course/python-avanzando-orientacion-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Java Polimorfismo: Entendiendo herencia e interfaces (<a href="https://app.aluracursos.com/course/java-parte-3-entendiendo-herencia-interfaces">https://app.aluracursos.com/course/java-parte-3-entendiendo-herencia-interfaces</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de JavaScript: Objetos (<a href="https://app.aluracursos.com/course/javascript-objetos?utm_source=gnarus&utm_medium=timeline">https://app.aluracursos.com/course/javascript-objetos?utm_source=gnarus&amp;utm_medium=timeline</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación: Aprenda a programar en Python con orientación a objetos (<a href="https://app.aluracursos.com/formacion-lenguaje-python">https://app.aluracursos.com/formacion-lenguaje-python</a>)</li>
+</ul>
+<h3>C# - Colecciones:</h3>
 <ul><li>Una colección representa un grupo de objetos, conocidos como sus elementos. Son como contenedores que agrupan varios elementos en una sola unidad. Algunas colecciones permiten la duplicación de elementos y otras no. Algunas son ordenadas y otras no ordenadas.</li>
 <li>Aprender los usos y diferencias entre Dictionary, List, Queue, SortedList y Stack</li>
 <li>Aprende a trabajar con ArrayList y HashTable</li>
 <li>Iterators</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>NuGet</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Colecciones (C#) (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections">https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/collections</a>)</li>
+<li><code data-kind="web">Web</code> Tipos de colección utilizados normalmente (<a href="https://learn.microsoft.com/es-es/dotnet/standard/collections/commonly-used-collection-types">https://learn.microsoft.com/es-es/dotnet/standard/collections/commonly-used-collection-types</a>)</li>
+<li><code data-kind="web">Web</code> Iterators (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/iterators">https://learn.microsoft.com/es-es/dotnet/csharp/iterators</a>)</li>
+<li><code data-kind="artículo">Artículo</code> 3 maneras diferentes de recorrer una lista en C# (<a href="https://www.arungudelli.com/es/csharp-tips/loop-through-c-sharp-list/">https://www.arungudelli.com/es/csharp-tips/loop-through-c-sharp-list/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructuras de datos en .NET con C# (<a href="https://www.genesisrrios.com/es/blog/estructuras-de-datos-en-csharp/">https://www.genesisrrios.com/es/blog/estructuras-de-datos-en-csharp/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Colecciones en C#, ¿cuál elegir? (<a href="https://thatcsharpguy.com/post/colecciones-en-c-cual-elegir">https://thatcsharpguy.com/post/colecciones-en-c-cual-elegir</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Lists / Listas (<a href="https://csharp.net-tutorials.com/es/389/collections-colecciones/lists-listas/">https://csharp.net-tutorials.com/es/389/collections-colecciones/lists-listas/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Colecciones en C# en detalle (<a href="https://www.youtube.com/watch?v=ViZSfqq6Cyo">https://www.youtube.com/watch?v=ViZSfqq6Cyo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tutorial C# nivel Avanzado 5 - HashTable I (<a href="https://www.youtube.com/watch?v=fFXHDib-x_0">https://www.youtube.com/watch?v=fFXHDib-x_0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> List y ArrayList C# (<a href="https://www.youtube.com/watch?v=k431eUiMRXA&t=374s">https://www.youtube.com/watch?v=k431eUiMRXA&amp;t=374s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tutorial C# nivel Avanzado 8 - SortedList (<a href="https://www.youtube.com/watch?v=3VsCtkfQMPI">https://www.youtube.com/watch?v=3VsCtkfQMPI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tabla de Hash: Qué es y cómo funcionan (<a href="https://www.youtube.com/watch?v=9tZsDJ3JBUA">https://www.youtube.com/watch?v=9tZsDJ3JBUA</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso C#: array y tipos genéricos (<a href="https://www.aluracursos.com/curso-online-csharp-array-tipos-genericos">https://www.aluracursos.com/curso-online-csharp-array-tipos-genericos</a>)</li>
+</ul>
+<h3>NuGet:</h3>
 <ul><li>NuGet es un gestor de paquetes para la plataforma .NET. Define cómo se crean, publican y consumen los paquetes en esta plataforma, y proporciona herramientas para cada una de estas funciones.</li>
 <li>Gestión de paquetes</li>
 <li>Compartir bibliotecas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - System.IO</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Una introducción a NuGet (<a href="https://learn.microsoft.com/es-es/nuget/what-is-nuget">https://learn.microsoft.com/es-es/nuget/what-is-nuget</a>)</li>
+<li><code data-kind="web">Web</code> Inicio rápido: Creación y publicación de un paquete NuGet con Visual Studio (solo Windows) (<a href="https://learn.microsoft.com/es-es/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli">https://learn.microsoft.com/es-es/nuget/quickstart/create-and-publish-a-package-using-visual-studio?tabs=netcore-cli</a>)</li>
+<li><code data-kind="web">Web</code> Administre bibliotecas de proyectos con NuGet (<a href="https://learn.microsoft.com/es-es/archive/msdn-magazine/2011/november/nuget-manage-project-libraries-with-nuget">https://learn.microsoft.com/es-es/archive/msdn-magazine/2011/november/nuget-manage-project-libraries-with-nuget</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Instalar paquete de NuGet (<a href="https://www.youtube.com/watch?v=J3_io5mBEnU&ab_channel=alks091">https://www.youtube.com/watch?v=J3_io5mBEnU&amp;ab_channel=alks091</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Cómo publicar un paquete en NuGet? (<a href="https://www.youtube.com/watch?v=NrgZUkloois">https://www.youtube.com/watch?v=NrgZUkloois</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Crear librería (DLL) y añadirla a proyecto con C# y .NET (<a href="https://www.youtube.com/watch?v=JAU8Cc7jX_Y&ab_channel=Inform%C3%A1ticayProgramaci%C3%B3n">https://www.youtube.com/watch?v=JAU8Cc7jX_Y&amp;ab_channel=Inform%C3%A1ticayProgramaci%C3%B3n</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso C#: bibliotecas DLL, documentación y uso de NuGet (<a href="https://www.aluracursos.com/curso-online-csharp-bibliotecas-dll-documentacion-nuget">https://www.aluracursos.com/curso-online-csharp-bibliotecas-dll-documentacion-nuget</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de C#: creación y distribución de bibliotecas .NET (<a href="https://app.aluracursos.com/course/c-sharp-creacion-distribucion-bibliotecas-dotnet">https://app.aluracursos.com/course/c-sharp-creacion-distribucion-bibliotecas-dotnet</a>)</li>
+</ul>
+<h3>C# - System.IO:</h3>
 <ul><li>El espacio de nombres (namespace) System.IO consiste en clases, estructuras, delegates y enumeraciones relacionadas con la entrada y salida de datos (IO). Estas clases pueden ser utilizadas para leer y escribir datos en archivos o streams de datos. También contiene clases de soporte para archivos y directorios.</li>
 <li>Leer datos de archivos</li>
 <li>Escribir datos en archivos</li>
 <li>Gestionar archivos con el uso de Using</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Administración de Memoria</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> System.IO Espacio de nombres (<a href="https://learn.microsoft.com/es-es/dotnet/api/system.io?view=net-6.0">https://learn.microsoft.com/es-es/dotnet/api/system.io?view=net-6.0</a>)</li>
+<li><code data-kind="web">Web</code> E/S de archivos y secuencias (<a href="https://learn.microsoft.com/es-es/dotnet/standard/io/">https://learn.microsoft.com/es-es/dotnet/standard/io/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Manejo de archivos en C#. (<a href="https://www.clasesdeinformaticaweb.com/csharp/manejo-de-archivos-en-c/">https://www.clasesdeinformaticaweb.com/csharp/manejo-de-archivos-en-c/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Escribir un fichero de texto con C# (<a href="https://www.discoduroderoer.es/escribir-un-fichero-de-texto-con-c-sharp/">https://www.discoduroderoer.es/escribir-un-fichero-de-texto-con-c-sharp/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Crear, leer y escribir un archivo de texto (<a href="https://www.youtube.com/watch?v=iSoixuj5wB8&ab_channel=CodingconC">https://www.youtube.com/watch?v=iSoixuj5wB8&amp;ab_channel=CodingconC</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cuatro formas de usar la palabra clave USING en C# (<a href="https://www.youtube.com/watch?v=69WSdXnvZCA&ab_channel=ConsejosC%23">https://www.youtube.com/watch?v=69WSdXnvZCA&amp;ab_channel=ConsejosC%23</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cómo leer archivos en .NET con C# - Cómo crear directorios y trabajar con archivos en .NET (<a href="https://www.youtube.com/watch?v=kTOoS5jQZdk&ab_channel=TheCoderCaveesp">https://www.youtube.com/watch?v=kTOoS5jQZdk&amp;ab_channel=TheCoderCaveesp</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cómo eliminar archivos desde C# (<a href="https://www.youtube.com/watch?v=8P-4BBgZI3I&ab_channel=CodingconC">https://www.youtube.com/watch?v=8P-4BBgZI3I&amp;ab_channel=CodingconC</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso C#: entrada y salida (E/S) con flujos (<a href="https://www.aluracursos.com/curso-online-csharp-entrada-salida-flujos">https://www.aluracursos.com/curso-online-csharp-entrada-salida-flujos</a>)</li>
+</ul>
+<h3>C# - Administración de Memoria:</h3>
 <ul><li>El manejo automático de memoria es uno de los servicios que el Common Language Runtime ofrece durante la Ejecución Administrada (Managed Execution). El recolector de basura (Garbage Collector) del Common Language Runtime gestiona la asignación y liberación de memoria para una aplicación.</li>
 <li>Comprender cómo se administra la memoria</li>
 <li>Conocer el Recolector de Basura (Garbage Collector)</li>
 <li>Entender el Stack y el Heap administrado</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Pruebas</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Gestión de Memoria Automática (<a href="https://learn.microsoft.com/es-es/dotnet/standard/automatic-memory-management">https://learn.microsoft.com/es-es/dotnet/standard/automatic-memory-management</a>)</li>
+<li><code data-kind="web">Web</code> Administración de memoria y recolección de elementos no utilizados (GC) en ASP.NET Core  (<a href="https://learn.microsoft.com/es-es/aspnet/core/performance/memory?view=aspnetcore-7.0">https://learn.microsoft.com/es-es/aspnet/core/performance/memory?view=aspnetcore-7.0</a>)</li>
+<li><code data-kind="artículo">Artículo</code> La Pila (The Stack) y el Montículo (The Heap) en C# .NET (<a href="https://joffremoncayo.com/blog/la-pila-the-stack-y-el-monticulo-the-heap-en-csharp-dot-net/">https://joffremoncayo.com/blog/la-pila-the-stack-y-el-monticulo-the-heap-en-csharp-dot-net/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> El recolector de basura o garbage collector (GC) (<a href="https://www.youtube.com/watch?v=URap94jL0wo&ab_channel=GerardoPortillo%28GJParts%29">https://www.youtube.com/watch?v=URap94jL0wo&amp;ab_channel=GerardoPortillo%28GJParts%29</a>)</li>
+</ul>
+<h3>C# - Pruebas:</h3>
 <ul><li>La prueba de software es el proceso de evaluación y verificación de que un software realmente hace lo que debe hacer. Los beneficios de las pruebas incluyen la prevención de errores, la reducción de los costos de desarrollo y la mejora del rendimiento.</li>
 <li>Usar pruebas unitárias</li>
 <li>Usar pruebas de integración</li>
 <li>Usar pruebas de comportamiento (behavior)</li>
 <li>Usar mocks</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>ADO.NET</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Tutorial: Crear y ejecutar pruebas unitarias en código administrado (<a href="https://learn.microsoft.com/es-es/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2022">https://learn.microsoft.com/es-es/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2022</a>)</li>
+<li><code data-kind="web">Web</code> Tutorial: Desarrollo controlado por pruebas con el Explorador de pruebas (<a href="https://learn.microsoft.com/es-es/visualstudio/test/quick-start-test-driven-development-with-test-explorer?view=vs-2022">https://learn.microsoft.com/es-es/visualstudio/test/quick-start-test-driven-development-with-test-explorer?view=vs-2022</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es la prueba de software? (<a href="https://www.ibm.com/es-es/topics/software-testing">https://www.ibm.com/es-es/topics/software-testing</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Pruebas unitarias con C# (<a href="https://aspnetcoremaster.com/dotnet/2019/06/13/pruebas-unitarias-csharp.html">https://aspnetcoremaster.com/dotnet/2019/06/13/pruebas-unitarias-csharp.html</a>)</li>
+<li><code data-kind="artículo">Artículo</code> PRUEBAS UNITARIAS: ¿MOCK O STUB? (<a href="https://itblogsogeti.com/2015/03/26/desarrollo-pruebas-unitarias-trinitario-gomez-sogeti/">https://itblogsogeti.com/2015/03/26/desarrollo-pruebas-unitarias-trinitario-gomez-sogeti/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> BDD Testing. ¿Cómo funciona el Behavior Driven Development? (<a href="https://www.hiberus.com/crecemos-contigo/bdd-behavior-driven-developement/">https://www.hiberus.com/crecemos-contigo/bdd-behavior-driven-developement/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> 3 Ejemplos de TDD en .NET C# (<a href="https://arbems.com/3-ejemplos-practicos-de-tdd-en-csharp-net/">https://arbems.com/3-ejemplos-practicos-de-tdd-en-csharp-net/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> BDD Testing. ¿Cómo funciona el Behavior Driven Development? (<a href="https://www.hiberus.com/crecemos-contigo/bdd-behavior-driven-developement/">https://www.hiberus.com/crecemos-contigo/bdd-behavior-driven-developement/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción a pruebas unitarias en C# .Net | Unit Testing (<a href="https://www.youtube.com/watch?v=IcPqONZEKAo">https://www.youtube.com/watch?v=IcPqONZEKAo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> UNIT TESTING en BACKEND | C# .NET (<a href="https://www.youtube.com/watch?v=i7h92cR_8dA">https://www.youtube.com/watch?v=i7h92cR_8dA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> MOCK en UNIT TEST para tratar con DEPENDENCIAS EN C# (<a href="https://www.youtube.com/watch?v=pgCMTsVlHrg">https://www.youtube.com/watch?v=pgCMTsVlHrg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción a Pruebas Unitarias en C# con XUNIT en .NET Core | Unit Testing desde Cero (<a href="https://www.youtube.com/watch?v=hq8__XRgK6k">https://www.youtube.com/watch?v=hq8__XRgK6k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tests de integración con C# y Docker - Con ejemplo práctico (<a href="https://www.youtube.com/watch?v=sFRjgnPEEzg">https://www.youtube.com/watch?v=sFRjgnPEEzg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cómo hacer pruebas automatizadas con Selenium y Visual Studio C#  (<a href="https://www.youtube.com/watch?v=ZkHAhtUQOws&ab_channel=PACOMARROQUIN">https://www.youtube.com/watch?v=ZkHAhtUQOws&amp;ab_channel=PACOMARROQUIN</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Tipos de pruebas: ¿cuáles son las principales y por qué utilizarlas? (<a href="https://www.aluracursos.com/blog/tipos-de-pruebas-cual-utilizar">https://www.aluracursos.com/blog/tipos-de-pruebas-cual-utilizar</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es Test-Driven Development (TDD)? #AluraMás (<a href="https://www.youtube.com/watch?v=qA3KIo0xZbE&t=1s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=qA3KIo0xZbE&amp;t=1s&amp;ab_channel=AluraLatam</a>)</li>
+</ul>
+<h3>ADO.NET:</h3>
 <ul><li>ADO.NET es un conjunto de clases que exponen servicios de acceso a datos para desarrolladores del .NET Framework. ADO.NET provee un conjunto rico de componentes para crear aplicaciones distribuidas y compartir datos. Forma parte del .NET Framework, proporcionando acceso a datos de aplicaciones relacionales y XML.</li>
 <li>Manipular bases de datos</li>
 <li>Conocer el DataSet y DataTable</li>
 <li>Realizar conexiones</li>
 <li>Manipular documentos XML</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Entity Framework Core</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> ADO.NET (<a href="https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/">https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/</a>)</li>
+<li><code data-kind="web">Web</code> Información General - ADO.NET (<a href="https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/ado-net-overview">https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/ado-net-overview</a>)</li>
+<li><code data-kind="web">Web</code> Desarrollo de aplicaciones ADO.NET (<a href="https://www.ibm.com/docs/es/db2/11.5?topic=da-adonet">https://www.ibm.com/docs/es/db2/11.5?topic=da-adonet</a>)</li>
+<li><code data-kind="web">Web</code> Objetos DataSet, DataTable y DataView (<a href="https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/dataset-datatable-dataview/">https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/dataset-datatable-dataview/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es ADO.NET? Bases de datos con ADO.NET (<a href="https://my-entertainment-place.blogspot.com/2020/03/que-es-adonet-bases-de-datos-con-adonet.html#google_vignette">https://my-entertainment-place.blogspot.com/2020/03/que-es-adonet-bases-de-datos-con-adonet.html#google_vignette</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Diferencia entre DataSet y DataTable (<a href="https://www.kyocode.com/2019/04/diferencia-entre-dataset-y-datatable/">https://www.kyocode.com/2019/04/diferencia-entre-dataset-y-datatable/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> XML en la plataforma .NET (<a href="http://elvex.ugr.es/decsai/csharp/xml/xml-plat-net.xml">http://elvex.ugr.es/decsai/csharp/xml/xml-plat-net.xml</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Como Escribir Un Fichero En XML En C# (<a href="https://www.discoduroderoer.es/como-escribir-un-fichero-en-xml-en-c-sharp/">https://www.discoduroderoer.es/como-escribir-un-fichero-en-xml-en-c-sharp/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción a .NET con MySQL - Crea una API Rest con MySQL -  (<a href="https://www.youtube.com/watch?v=E75IOkduaFg&ab_channel=TheCoderCaveesp">https://www.youtube.com/watch?v=E75IOkduaFg&amp;ab_channel=TheCoderCaveesp</a>)</li>
+</ul>
+<h3>Entity Framework Core:</h3>
 <ul><li>Entity Framework Core es un mapeador objeto-relacional (ORM). El mapeo objeto-relacional es una técnica que permite a los desarrolladores trabajar con datos de manera orientada a objetos, realizando el trabajo necesario para mapear entre objetos definidos en una lenguaje de programación de la aplicación y los datos almacenados en fuentes de datos relacionales.</li>
 <li>Manipular bases de datos usando objetos .NET</li>
 <li>Crear modelos correspondientes a una base de datos</li>
 <li>Realizar consultas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estructura de Datos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Entity Framework Core (<a href="https://learn.microsoft.com/es-es/ef/core/">https://learn.microsoft.com/es-es/ef/core/</a>)</li>
+<li><code data-kind="web">Web</code> Administración de esquemas de base de datos (<a href="https://learn.microsoft.com/es-es/ef/core/managing-schemas/">https://learn.microsoft.com/es-es/ef/core/managing-schemas/</a>)</li>
+<li><code data-kind="web">Web</code> Consulta de datos (<a href="https://learn.microsoft.com/es-es/ef/core/querying/">https://learn.microsoft.com/es-es/ef/core/querying/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Introducción completa a Entity Framework Core (<a href="https://estradawebgroup.com/Post/Introduccion-completa-a-Entity-Framework-Core-Simplifica-la-interaccion-con-bases-de-datos-en-tus-proyectos-ASP-NET-Core/20702#top">https://estradawebgroup.com/Post/Introduccion-completa-a-Entity-Framework-Core-Simplifica-la-interaccion-con-bases-de-datos-en-tus-proyectos-ASP-NET-Core/20702#top</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como hacer un modelo de datos con Base de Datos SQL Server en ASP.NET Core 3.1 Visual Studio 2019 (<a href="https://www.youtube.com/watch?v=FSKgwTpYf-I&ab_channel=AguilarSystemsMX">https://www.youtube.com/watch?v=FSKgwTpYf-I&amp;ab_channel=AguilarSystemsMX</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Cómo utilizar Entity Framework con 2 o más bases de datos distintas? (<a href="https://www.youtube.com/watch?v=rWgMMTP9GZ0&ab_channel=hdeleon.net">https://www.youtube.com/watch?v=rWgMMTP9GZ0&amp;ab_channel=hdeleon.net</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Entity Framework: Consultas Tipo SQL (<a href="https://www.youtube.com/watch?v=ry_pCvkkIiI&ab_channel=CodeStack">https://www.youtube.com/watch?v=ry_pCvkkIiI&amp;ab_channel=CodeStack</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Entity Framework: Consultas con ADO.Net (<a href="https://www.youtube.com/watch?v=erEe2NoAH1U&ab_channel=CodeStack">https://www.youtube.com/watch?v=erEe2NoAH1U&amp;ab_channel=CodeStack</a>)</li>
+</ul>
+<h3>Estructura de Datos:</h3>
 <ul><li>En el contexto de los ordenadores, una estructura de datos es una forma específica de almacenar y organizar los datos en la memoria del ordenador para que esos datos puedan ser fácilmente recuperados y utilizados de forma eficiente cuando sea necesario posteriormente.</li>
 <li>Conocer las principales estructuras de datos</li>
 <li>Implementar las principales estructuras de datos</li>
-</ul></li></ul>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es una estructura de datos en programación y para qué se utiliza? (<a href="https://blog.soyhenry.com/que-es-una-estructura-de-datos-en-programacion/">https://blog.soyhenry.com/que-es-una-estructura-de-datos-en-programacion/</a>)</li>
+<li><code data-kind="web">Web</code> Estructuras de datos - Documentación Python (<a href="https://docs.python.org/es/3/tutorial/datastructures.html">https://docs.python.org/es/3/tutorial/datastructures.html</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructuras de Datos y Algoritmos en Java (<a href="https://programacion.net/articulo/estructuras_de_datos_y_algoritmos_en_java_309/4">https://programacion.net/articulo/estructuras_de_datos_y_algoritmos_en_java_309/4</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructuras de datos con Java: un enfoque práctico (<a href="http://hp.fciencias.unam.mx/~alg/estructurasDeDatos/">http://hp.fciencias.unam.mx/~alg/estructurasDeDatos/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Colecciones: ARRAY, SET y DICTIONARY en Swift (<a href="https://www.swiftbeta.com/colecciones-array-set-y-dictionary-en-swift/">https://www.swiftbeta.com/colecciones-array-set-y-dictionary-en-swift/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Colecciones en Swift y su manejo de memoria (<a href="https://medium.com/@grago/colecciones-en-swift-y-su-manejo-de-memoria-61a03e236dd">https://medium.com/@grago/colecciones-en-swift-y-su-manejo-de-memoria-61a03e236dd</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructuras de datos en .NET con C# (<a href="https://www.genesisrrios.com/es/blog/estructuras-de-datos-en-csharp/">https://www.genesisrrios.com/es/blog/estructuras-de-datos-en-csharp/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estructuras de Datos | Primeros Pasos (<a href="https://youtu.be/Df-sgxGzyTg">https://youtu.be/Df-sgxGzyTg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Qué son las estructuras de datos (<a href="https://youtu.be/oQ0WkIdr73E?list=PLTd5ehIj0goMTSK7RRAPBF4wP-Nj5DRvT">https://youtu.be/oQ0WkIdr73E?list=PLTd5ehIj0goMTSK7RRAPBF4wP-Nj5DRvT</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué son y cómo funcionan los árboles? | Ejemplo de implementación (<a href="https://youtu.be/tBaOQeyXYqg">https://youtu.be/tBaOQeyXYqg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende: Estructura de Datos con Java (<a href="https://www.youtube.com/watch?v=_9ScDWpqhFE">https://www.youtube.com/watch?v=_9ScDWpqhFE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción - 1 - Estructuras de Datos en C# (<a href="https://www.youtube.com/watch?v=rqaqJXbauyA&ab_channel=nicosiored">https://www.youtube.com/watch?v=rqaqJXbauyA&amp;ab_channel=nicosiored</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estructuras de datos con Python en 8 minutos: Listas, Tuplas, Conjuntos y Diccionarios (<a href="https://www.youtube.com/watch?v=v25-m1LOUiU">https://www.youtube.com/watch?v=v25-m1LOUiU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programación en Python | Colecciones | Diccionarios (<a href="https://www.youtube.com/watch?v=vAy4IM7NLIQ">https://www.youtube.com/watch?v=vAy4IM7NLIQ</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Estructura de datos: introducción (<a href="https://www.aluracursos.com/blog/estructura-de-datos-introduccion">https://www.aluracursos.com/blog/estructura-de-datos-introduccion</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Conociendo tuplas en Python (<a href="https://www.aluracursos.com/blog/conociendo-las-tuplas-en-python">https://www.aluracursos.com/blog/conociendo-las-tuplas-en-python</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Listas en Python: operaciones básicas (<a href="https://www.aluracursos.com/blog/listas-de-python-operaciones-basicas">https://www.aluracursos.com/blog/listas-de-python-operaciones-basicas</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructura de datos: computación práctica con Java (<a href="https://www.aluracursos.com/blog/estructura-de-datos-computacion-practica-con-java">https://www.aluracursos.com/blog/estructura-de-datos-computacion-practica-con-java</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Python: trabajando con diccionarios (<a href="https://www.aluracursos.com/blog/python-trabajando-con-diccionarios">https://www.aluracursos.com/blog/python-trabajando-con-diccionarios</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Iterando una lista en Java (<a href="https://www.aluracursos.com/blog/iterando-una-lista-en-java">https://www.aluracursos.com/blog/iterando-una-lista-en-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Python: avanzando en el lenguaje (<a href="https://app.aluracursos.com/course/python-avanzando-lenguaje">https://app.aluracursos.com/course/python-avanzando-lenguaje</a>)</li>
+<li><code data-kind="curso">Curso</code> C#: array y tipos genéricos (<a href="https://app.aluracursos.com/course/csharp-array-tipos-genericos">https://app.aluracursos.com/course/csharp-array-tipos-genericos</a>)</li>
+<li><code data-kind="curso">Curso</code> Python Collections: listas y tuplas (<a href="https://app.aluracursos.com/course/python-collections-listas-tuplas?utm_source=gnarus&utm_medium=timeline">https://app.aluracursos.com/course/python-collections-listas-tuplas?utm_source=gnarus&amp;utm_medium=timeline</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de Java: trabajar con listas y colecciones de datos (<a href="https://www.aluracursos.com/curso-online-java-trabajar-listas-colecciones-datos">https://www.aluracursos.com/curso-online-java-trabajar-listas-colecciones-datos</a>)</li>
+<li><code data-kind="curso">Curso</code> Java y java.util: Colecciones, Wrappers y Lambda expressions (<a href="https://www.aluracursos.com/curso-online-java-util-coleciones-wrappers-lambda-expressions">https://www.aluracursos.com/curso-online-java-util-coleciones-wrappers-lambda-expressions</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CLR</strong>:</li>
+<h3>CLR:</h3>
 <ul><li>Common Language Runtime (CLR) es el componente de máquina virtual de la plataforma .NET de Microsoft que administra la ejecución de programas .NET.</li>
 <li>Entender cómo funciona CLR</li>
 <li>Entender la gestión de memoria</li>
 <li>Conocer la CIL y el JIT</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>LINQ</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Introducción a Common Language Runtime (<a href="https://learn.microsoft.com/es-es/dotnet/standard/clr">https://learn.microsoft.com/es-es/dotnet/standard/clr</a>)</li>
+<li><code data-kind="web">Web</code> Ejemplos de funciones CLR de C# .NET (<a href="https://www.ibm.com/docs/es/db2/11.5?topic=routines-example-c-net-clr-functions">https://www.ibm.com/docs/es/db2/11.5?topic=routines-example-c-net-clr-functions</a>)</li>
+<li><code data-kind="web">Web</code> Optimización y depuración JIT (<a href="https://learn.microsoft.com/es-es/visualstudio/debugger/jit-optimization-and-debugging?view=vs-2022">https://learn.microsoft.com/es-es/visualstudio/debugger/jit-optimization-and-debugging?view=vs-2022</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es el compilador Just-In-Time (JIT) en .NET? (<a href="https://barcelonageeks.com/que-es-el-compilador-just-in-time-jit-en-net/">https://barcelonageeks.com/que-es-el-compilador-just-in-time-jit-en-net/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Curso de C# 001 - ¿Qué es C#, .NET y CLR? (<a href="https://www.youtube.com/watch?v=VWQRFyYPtgc">https://www.youtube.com/watch?v=VWQRFyYPtgc</a>)</li>
+</ul>
+<h3>LINQ:</h3>
 <ul><li>LINQ (Language-Integrated Query) es el nombre de un conjunto de tecnologías basado en la integración de recursos de consulta directamente en el lenguaje C#.</li>
 <li>Crear consultas</li>
 <li>Conocer las cláusulas Select y Where</li>
 <li>Consultar colecciones de objetos en memoria</li>
 <li>Mapear la base de datos con LINQ to Sql</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Serialización</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Introducción a las consultas LINQ (C#) (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries">https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries</a>)</li>
+<li><code data-kind="web">Web</code> Qué puede hacer con LINQ to SQL (<a href="https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/sql/linq/what-you-can-do-with-linq-to-sql">https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/sql/linq/what-you-can-do-with-linq-to-sql</a>)</li>
+<li><code data-kind="web">Web</code> Procedimiento para rellenar colecciones de objetos de varios orígenes (LINQ) (C#) (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/linq/how-to-populate-object-collections-from-multiple-sources-linq">https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/concepts/linq/how-to-populate-object-collections-from-multiple-sources-linq</a>)</li>
+<li><code data-kind="web">Web</code> Tutorial: Usar solo procedimientos almacenados (C#) (<a href="https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/sql/linq/walkthrough-using-only-stored-procedures-csharp">https://learn.microsoft.com/es-es/dotnet/framework/data/adonet/sql/linq/walkthrough-using-only-stored-procedures-csharp</a>)</li>
+<li><code data-kind="artículo">Artículo</code> LINQ TO SQL, CONEXIÓN A BASES DE DATOS (<a href="https://www.attomogroup.com/linq-to-sql-conexion-a-bases-de-datos/">https://www.attomogroup.com/linq-to-sql-conexion-a-bases-de-datos/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Consultas Linq en Query Syntax y Method Syntax en .net con c# (<a href="https://www.youtube.com/watch?app=desktop&v=bGborT4e1Fc">https://www.youtube.com/watch?app=desktop&amp;v=bGborT4e1Fc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 5 Métodos poco conocidos de LINQ en C# .Net (<a href="https://www.youtube.com/watch?v=jhEXqwG0xM8">https://www.youtube.com/watch?v=jhEXqwG0xM8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Uso de LINQPad para Ejecución de Expresiones C# (<a href="https://www.youtube.com/watch?v=g5NZhspKfy8">https://www.youtube.com/watch?v=g5NZhspKfy8</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso C#: List, Lambda, Linq (<a href="https://app.aluracursos.com/course/c-sharp-list-lambda-linq">https://app.aluracursos.com/course/c-sharp-list-lambda-linq</a>)</li>
+</ul>
+<h3>C# - Serialización:</h3>
 <ul><li>Serialización es el proceso de convertir un objeto en un flujo de bytes para almacenar el objeto o transmitirlo a la memoria, a una base de datos o a un archivo. Su objetivo principal es guardar el estado de un objeto para poder recrearlo cuando sea necesario.</li>
 <li>Enviar un objeto a una aplicación remota mediante un servicio web</li>
 <li>Pasar un objeto como una cadena JSON o XML</li>
 <li>Pasar información específica del usuario o de seguridad entre aplicaciones</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Red y Sockets</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Serialización en .NET | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/dotnet/standard/serialization/">https://learn.microsoft.com/es-es/dotnet/standard/serialization/</a>)</li>
+<li><code data-kind="web">Web</code> Serialización XML con servicios Web XML (<a href="https://learn.microsoft.com/es-es/dotnet/standard/serialization/xml-serialization-with-xml-web-services">https://learn.microsoft.com/es-es/dotnet/standard/serialization/xml-serialization-with-xml-web-services</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Serializar/deserializar con Json.Serialization (ejemplo para C#) (<a href="https://www.elguillemola.com/serializar-deserializar-con-json-serialization-ejemplo-para-c/">https://www.elguillemola.com/serializar-deserializar-con-json-serialization-ejemplo-para-c/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> #HowTo Serializar un objeto en {} con C# y Newtonsoft. (<a href="https://happydevops.com/2022/03/10/howto-serializar-un-objeto-en-con-c-y-newtonsoft/">https://happydevops.com/2022/03/10/howto-serializar-un-objeto-en-con-c-y-newtonsoft/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 🔶APRENDE🔶 que es la 💎SERIALIZACIÓN💎 y CÓMO aplicarla en C# (<a href="https://www.youtube.com/watch?v=hGPUc49TrC8">https://www.youtube.com/watch?v=hGPUc49TrC8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tutorial C# nivel intermedio 17 --- Serialización binaria (<a href="https://www.youtube.com/watch?v=xq70GMoC_1c">https://www.youtube.com/watch?v=xq70GMoC_1c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tutorial C# nivel intermedio 19 --- Serialización con composición (<a href="https://www.youtube.com/watch?v=7XMj9d2m-F8">https://www.youtube.com/watch?v=7XMj9d2m-F8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Derek Banas: C# Serialization (inglés) (<a href="https://www.youtube.com/watch?v=jbwjbbc5PjI">https://www.youtube.com/watch?v=jbwjbbc5PjI</a>)</li>
+</ul>
+<h3>C# - Red y Sockets:</h3>
 <ul><li>El término programación con sockets se refiere a la escritura de programas que se ejecutan en varios ordenadores en los que los dispositivos están todos conectados entre sí utilizando una red.</li>
 <li>Abrir una sesión de comunicación interactiva entre el navegador del usuario y un servidor</li>
 <li>Enviar mensajes a un servidor y recibir respuestas sin consultar al servidor</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>ASP.NET Core</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Sockets en .NET (<a href="https://learn.microsoft.com/es-es/dotnet/fundamentals/networking/sockets/sockets-overview">https://learn.microsoft.com/es-es/dotnet/fundamentals/networking/sockets/sockets-overview</a>)</li>
+<li><code data-kind="web">Web</code> Uso de sockets para enviar y recibir datos a través de TCP (<a href="https://learn.microsoft.com/es-es/dotnet/fundamentals/networking/sockets/socket-services">https://learn.microsoft.com/es-es/dotnet/fundamentals/networking/sockets/socket-services</a>)</li>
+<li><code data-kind="web">Web</code> Uso de Visual C# para crear un servidor remoto (<a href="https://learn.microsoft.com/es-es/troubleshoot/developer/visualstudio/csharp/language-compilers/create-remote-server">https://learn.microsoft.com/es-es/troubleshoot/developer/visualstudio/csharp/language-compilers/create-remote-server</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Escribiendo un servidor WebSocket en C# (<a href="https://developer.mozilla.org/es/docs/Web/API/WebSockets_API/Writing_WebSocket_server">https://developer.mozilla.org/es/docs/Web/API/WebSockets_API/Writing_WebSocket_server</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Crear nuestra Conexión al Servidor de datos | C# Nivel Intermedio (<a href="https://www.youtube.com/watch?v=VKe3SzeQLuc">https://www.youtube.com/watch?v=VKe3SzeQLuc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Curso de Sockets en C# - Cliente/Servidor Sincrónico [2/?] (<a href="https://www.youtube.com/watch?v=F_cX662Dp1M">https://www.youtube.com/watch?v=F_cX662Dp1M</a>)</li>
+</ul>
+<h3>ASP.NET Core:</h3>
 <ul><li>ASP.NET Core es un framework de código abierto y multiplataforma para la construcción de aplicaciones basadas en la nube, tales como aplicaciones web, aplicaciones IoT y backends móviles.</li>
 <li>Crear aplicaciones y servicios web</li>
 <li>Mantener una aplicación MVC</li>
 <li>Desarrollar interfaz de usuario web del lado del cliente</li>
 <li>Crear una API web</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dapper</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Información general de ASP.NET Core | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0">https://learn.microsoft.com/es-es/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0</a>)</li>
+<li><code data-kind="web">Web</code> Documentación de ASP.NET | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/aspnet/core/?view=aspnetcore-7.0">https://learn.microsoft.com/es-es/aspnet/core/?view=aspnetcore-7.0</a>)</li>
+<li><code data-kind="web">Web</code> Desarrollo de aplicaciones ASP.NET Core MVC | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/dotnet/architecture/modern-web-apps-azure/develop-asp-net-core-mvc-apps">https://learn.microsoft.com/es-es/dotnet/architecture/modern-web-apps-azure/develop-asp-net-core-mvc-apps</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Ventajas y desventajas de ASP.NET Core (<a href="https://redwerk.es/blog/ventajas-y-desventajas-de-asp-net-core/">https://redwerk.es/blog/ventajas-y-desventajas-de-asp-net-core/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Trabajando con servicios web a través de ASP.NET Core y DotVVM (<a href="https://dev.to/dotvvm/trabajando-con-servicios-web-a-traves-de-asp-net-core-y-dotvvm-4c76">https://dev.to/dotvvm/trabajando-con-servicios-web-a-traves-de-asp-net-core-y-dotvvm-4c76</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Migrar desde ASP.NET .Net Core 2.x web API a .Net Core 3.1 (<a href="https://pablotolentino.medium.com/migrar-desde-asp-net-net-core-2-x-web-api-a-net-core-3-1-25ef8485f6bb">https://pablotolentino.medium.com/migrar-desde-asp-net-net-core-2-x-web-api-a-net-core-3-1-25ef8485f6bb</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ASP.NET Core 6: Creando una app Multi-tenant (Parte 1) (<a href="https://dev.to/isaacojeda/asp-net-core-6-creando-una-app-multi-tenant-parte-1-3df5">https://dev.to/isaacojeda/asp-net-core-6-creando-una-app-multi-tenant-parte-1-3df5</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Controladores en ASP NET Core MVC (<a href="https://www.youtube.com/watch?v=HSAp0zrgpHU">https://www.youtube.com/watch?v=HSAp0zrgpHU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Creando proyecto de ASP.NET Core MVC en Mac OS (<a href="https://www.youtube.com/watch?v=448jXb4TQlg">https://www.youtube.com/watch?v=448jXb4TQlg</a>)</li>
+</ul>
+<h3>Dapper:</h3>
 <ul><li>Dapper es un producto de mapeo objeto-relacional (ORM) para la plataforma Microsoft .NET. Proporciona un framework para asignar un modelo de dominio orientado a objetos a bases de datos relacionales.</li>
 <li>Realizar consultas a bases de datos como &#39;select&#39;, &#39;Insert&#39;, &#39;update&#39;, &#39;delete&#39;</li>
 <li>Manipular bases de datos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Inyección de Dependencias</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Uso de la biblioteca cliente de bases de datos elásticas con Dapper (<a href="https://learn.microsoft.com/es-es/azure/azure-sql/database/elastic-scale-working-with-dapper?view=azuresql-db">https://learn.microsoft.com/es-es/azure/azure-sql/database/elastic-scale-working-with-dapper?view=azuresql-db</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Dapper - SQL (<a href="https://compuarticulos.comotico.com/?p=20">https://compuarticulos.comotico.com/?p=20</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Dapper vs EntityFramework, debo usar un MicroOrm o un Orm? (<a href="http://www.eltavo.net/2016/04/dapper-vs-entityframework-debo-usar-un.html">http://www.eltavo.net/2016/04/dapper-vs-entityframework-debo-usar-un.html</a>)</li>
+<li><code data-kind="artículo">Artículo</code> [C#][SQL] [EF] [Dapper] Uso de Sequence de Sql Server desde .NET (<a href="https://medium.com/jtorrecilla-net/c-sql-ef-dapper-uso-de-sequence-de-sql-server-desde-net-adb2eaa1cdeb">https://medium.com/jtorrecilla-net/c-sql-ef-dapper-uso-de-sequence-de-sql-server-desde-net-adb2eaa1cdeb</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Dapper y Entity Framework Core en .NET 6 (<a href="https://arbems.com/dapper-ef-core-net-6/">https://arbems.com/dapper-ef-core-net-6/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Qué es y cómo usar Dapper en .Net para hacer llamadas a bases de datos (<a href="https://www.youtube.com/watch?v=7bfALdBdRTA">https://www.youtube.com/watch?v=7bfALdBdRTA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Agregando metodo update en c# | Visual Studio 2017 | Angularjs (<a href="https://www.youtube.com/watch?v=M_rFCTxrRtY">https://www.youtube.com/watch?v=M_rFCTxrRtY</a>)</li>
+</ul>
+<h3>Inyección de Dependencias:</h3>
 <ul><li>La inyección de dependencias es un patrón de diseño en el que una clase solicita dependencias de fuentes externas en lugar de crearlas.</li>
 <li>Evitar el alto nivel de acoplamiento de código dentro de una aplicación</li>
 <li>Implementar la inversión de control</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Multithreading</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Inserción de dependencias .NET | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/dotnet/core/extensions/dependency-injection">https://learn.microsoft.com/es-es/dotnet/core/extensions/dependency-injection</a>)</li>
+<li><code data-kind="web">Web</code> Ioc (inversión de control) | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/dotnet/communitytoolkit/mvvm/ioc">https://learn.microsoft.com/es-es/dotnet/communitytoolkit/mvvm/ioc</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Inyección de dependencias ¿Qué es y para qué sirve? (<a href="https://bravedeveloper.com/2021/04/21/inyeccion-de-dependencias-que-es-y-para-que-sirve/">https://bravedeveloper.com/2021/04/21/inyeccion-de-dependencias-que-es-y-para-que-sirve/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Inyección de Dependencias(DI) en ASP.NET Core, mejores prácticas para escribir código reutilizable, escalable y desacoplado (<a href="https://dev.to/ebarrioscode/inyeccion-de-dependencias-di-en-asp-net-core-mejores-practicas-para-escribir-codigo-reutilizable-escalable-y-desacoplado-kho">https://dev.to/ebarrioscode/inyeccion-de-dependencias-di-en-asp-net-core-mejores-practicas-para-escribir-codigo-reutilizable-escalable-y-desacoplado-kho</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Inyección de Dependencias en ASP.NET Core - III (<a href="https://geeks.ms/jorge/2019/02/09/inyeccion-de-dependencias-en-asp-net-core-iii/">https://geeks.ms/jorge/2019/02/09/inyeccion-de-dependencias-en-asp-net-core-iii/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Entity Core 2.0— Inyección de dependencias y Control de inversión (<a href="https://devsebastianvz.medium.com/entity-core-2-0-inyecci%C3%B3n-de-dependencias-y-control-de-inversi%C3%B3nc-61b59cc390e9">https://devsebastianvz.medium.com/entity-core-2-0-inyecci%C3%B3n-de-dependencias-y-control-de-inversi%C3%B3nc-61b59cc390e9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> INYECCIÓN DE DEPENDENCIAS 💉 - scoped vs transient vs singleton (<a href="https://www.youtube.com/watch?v=1FojQ_ZjqOI">https://www.youtube.com/watch?v=1FojQ_ZjqOI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tipos de Inyección de dependencias en ASP .Net | Transient vs Scoped vs Singleton (<a href="https://www.youtube.com/watch?v=srPGwwMwAoA">https://www.youtube.com/watch?v=srPGwwMwAoA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Inyección de dependencias en ASP.NET Core (<a href="https://www.youtube.com/watch?v=U2TvawZ0Ym4">https://www.youtube.com/watch?v=U2TvawZ0Ym4</a>)</li>
+</ul>
+<h3>C# - Multithreading:</h3>
 <ul><li>Multithreading es la capacidad de realizar múltiples operaciones al mismo tiempo. Las operaciones con el potencial de retrasar otras operaciones se pueden realizar en subprocesos separados.</li>
 <li>Realizar múltiples tareas simultáneamente</li>
 <li>Entender cómo se ejecutan los hilos</li>
 <li>Aprender cómo hacer que un hilo espere en un punto específico</li>
-</ul></li></ul>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Uso de subprocesos y subprocesamiento | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/dotnet/standard/threading/using-threads-and-threading">https://learn.microsoft.com/es-es/dotnet/standard/threading/using-threads-and-threading</a>)</li>
+<li><code data-kind="web">Web</code> Programación asincrónica basada en tareas | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/dotnet/standard/parallel-programming/task-based-asynchronous-programming">https://learn.microsoft.com/es-es/dotnet/standard/parallel-programming/task-based-asynchronous-programming</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Multithreading: más potencia para los procesadores (<a href="https://www.ionos.es/digitalguide/servidores/know-how/explicacion-del-multithreading/">https://www.ionos.es/digitalguide/servidores/know-how/explicacion-del-multithreading/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> CONCURRENCIA EN C# - PARTE 1 (<a href="https://fmoralesdev.com/es/2019/01/26/concurrency-in-c-part-1/">https://fmoralesdev.com/es/2019/01/26/concurrency-in-c-part-1/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Píldoras de C#: Task Parallel Library (TPL) Procesamiento Multihilo y asíncrono (<a href="https://dev.to/ebarrioscode/pildoras-de-c-task-parallel-library-tpl-procesamiento-multihilo-y-asincrono-18mp">https://dev.to/ebarrioscode/pildoras-de-c-task-parallel-library-tpl-procesamiento-multihilo-y-asincrono-18mp</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Múltiples hilos - 2 - Programación Multihilos C# (<a href="https://www.youtube.com/watch?v=iJ6NdlpkLFk&list=PLM-p96nOrGca0DgG_aRjkBv5awLUoca_d&index=2">https://www.youtube.com/watch?v=iJ6NdlpkLFk&amp;list=PLM-p96nOrGca0DgG_aRjkBv5awLUoca_d&amp;index=2</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Concurrencia o Paralelismo: Threads, Processes, Fibers y Actors (<a href="https://www.aluracursos.com/blog/concurrencia-o-paralelismo">https://www.aluracursos.com/blog/concurrencia-o-paralelismo</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Delegates y Eventos</strong>:</li>
+<h3>C# - Delegates y Eventos:</h3>
 <ul><li>Delegates son objetos que se usan como punteros de función para referirse a un método asignado a ellos.</li>
 <li>Los eventos son acciones que cambian el estado de un objeto. Los eventos se declaran utilizando delegates - ellos proporcionan una encapsulación a los delegates.</li>
 <li>Entender el concepto de delegate</li>
 <li>Crear una referencia para una función con una cierta lista de parámetros</li>
 <li>Entender el concepto de evento</li>
 <li>Manipular diferentes tipos de eventos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Métodos anónimos y lambda expressions</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Introducción a delegados y eventos en C# (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/delegates-overview">https://learn.microsoft.com/es-es/dotnet/csharp/delegates-overview</a>)</li>
+<li><code data-kind="web">Web</code> Distinción de delegados y eventos (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/distinguish-delegates-events">https://learn.microsoft.com/es-es/dotnet/csharp/distinguish-delegates-events</a>)</li>
+<li><code data-kind="web">Web</code> Control y generación de eventos (<a href="https://learn.microsoft.com/es-es/dotnet/standard/events/">https://learn.microsoft.com/es-es/dotnet/standard/events/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Eventos en C# (<a href="https://thatcsharpguy.com/post/events-en-c">https://thatcsharpguy.com/post/events-en-c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> EVENTOS en C# - Tutorial y Explicación con ejemplos (<a href="https://www.youtube.com/watch?v=wnr5eY1yUjI">https://www.youtube.com/watch?v=wnr5eY1yUjI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Delegados en C# | ¿Cómo funcionan?🤯💻 (<a href="https://www.youtube.com/watch?v=TWbFGoT-7Rc">https://www.youtube.com/watch?v=TWbFGoT-7Rc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> C# desde Cero - Episodio 06 Enums, Delegados y Eventos (<a href="https://www.youtube.com/watch?v=jbeyA84ZlzE">https://www.youtube.com/watch?v=jbeyA84ZlzE</a>)</li>
+</ul>
+<h3>C# - Métodos anónimos y lambda expressions:</h3>
 <ul><li>Los métodos anónimos son métodos sin nombre que se pueden definir usando la palabra clave delegate.</li>
 <li>Lambda Expressions se utilizan como funciones anónimas, pero no es necesario especificar el tipo de valor que se escribe, lo que las hace más flexibles de usar.</li>
 <li>Crear funciones anónimas que puedes utilizar para crear delegates</li>
 <li>Crear roles locales que se pueden pasar como argumentos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Contenedores</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Expresiones lambda y funciones anónimas | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/lambda-expressions">https://learn.microsoft.com/es-es/dotnet/csharp/language-reference/operators/lambda-expressions</a>)</li>
+<li><code data-kind="web">Web</code> Delegados y expresiones lambda | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/dotnet/standard/delegates-lambdas">https://learn.microsoft.com/es-es/dotnet/standard/delegates-lambdas</a>)</li>
+<li><code data-kind="web">Web</code> Delegados con métodos con nombre y Métodos anónimos (Guía de programación de C#) | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/delegates/delegates-with-named-vs-anonymous-methods">https://learn.microsoft.com/es-es/dotnet/csharp/programming-guide/delegates/delegates-with-named-vs-anonymous-methods</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Métodos anónimos y expresiones lambda en C# (<a href="https://geeks.ms/jorge/2017/09/21/metodos-anonimos-y-expresiones-lambda-en-c/">https://geeks.ms/jorge/2017/09/21/metodos-anonimos-y-expresiones-lambda-en-c/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> LINQ Y LAMBDA EXPRESSIONS (<a href="https://gamecodetips.com/2017/09/17/linq-y-lambda-expressions/">https://gamecodetips.com/2017/09/17/linq-y-lambda-expressions/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Expresiones Lambda en C# (<a href="https://www.youtube.com/watch?v=Y5q3wse1tDw">https://www.youtube.com/watch?v=Y5q3wse1tDw</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso C#: List, Lambda, Linq (<a href="https://app.aluracursos.com/course/c-sharp-list-lambda-linq">https://app.aluracursos.com/course/c-sharp-list-lambda-linq</a>)</li>
+</ul>
+<h3>Contenedores:</h3>
 <ul><li>Los contenedores son paquetes de software que contienen todos los elementos necesarios para ejecutarse en cualquier entorno. La gestión de contenedores es un área crucial en la computación en nube y DevOps, que implica el uso de tecnologías para automatizar el proceso de creación, implementación, escalado y monitoreo de contenedores. Los contenedores son unidades de software estandarizadas que permiten a los desarrolladores empaquetar todas las dependencias de una aplicación (código, bibliotecas, configuraciones, etc.) en un solo paquete. Esto permite que la aplicación se ejecute de forma consistente en cualquier entorno de infraestructura.</li>
 <li>La tecnología de contenedores, como ejemplifica Docker, proporciona un entorno coherente y portátil para el desarrollo, las pruebas y la implementación de aplicaciones, lo que es vital para el trabajo eficiente de la ingeniería de datos. Además, Kubernetes, un sistema de organización de contenedores, permite la gestión, automatización y escalabilidad de aplicaciones basadas en contenedores en entornos de producción. Dominar estos conceptos y tecnologías permite a los ingenieros de datos construir y mantener canalizaciones de datos eficientes y confiables.</li>
 <li>Kubernetes (también conocido como k8s o Kube) es una plataforma de orquestación de contenedores de código abierto que automatiza gran parte de los procesos manuales necesarios para implementar, gestionar y escalar aplicaciones en contenedores.</li>
@@ -339,23 +671,72 @@
 <li>Modularizar su sistema en paquetes más pequeños</li>
 <li>Conocer la plataforma Docker</li>
 <li>Conocer Kubernetes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Arquitectura de Microservicios</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> IBM - ¿Qué son los contenedores? (<a href="https://www.ibm.com/mx-es/topics/containers">https://www.ibm.com/mx-es/topics/containers</a>)</li>
+<li><code data-kind="web">Web</code> Microsoft - ¿Qué es un contenedor? (<a href="https://azure.microsoft.com/es-mx/resources/cloud-computing-dictionary/what-is-a-container">https://azure.microsoft.com/es-mx/resources/cloud-computing-dictionary/what-is-a-container</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Contenedores y la nube (<a href="https://dev.to/roremdev/contenedores-y-la-nube-3je9">https://dev.to/roremdev/contenedores-y-la-nube-3je9</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Contenedores: cómo es el ciclo de vida de una aplicación en Kubernetes (<a href="https://dev.to/campusmvp/contenedores-como-es-el-ciclo-de-vida-de-una-aplicacion-en-kubernetes-1ief">https://dev.to/campusmvp/contenedores-como-es-el-ciclo-de-vida-de-una-aplicacion-en-kubernetes-1ief</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué diferencia hay entre Docker (Contenedores) y Máquinas virtuales (VMWare, VirtualBox...)? (<a href="https://dev.to/campusmvp/qu-diferencia-hay-entre-docker-contenedores-y-mquinas-virtuales-vmware-virtualbox-4ji3">https://dev.to/campusmvp/qu-diferencia-hay-entre-docker-contenedores-y-mquinas-virtuales-vmware-virtualbox-4ji3</a>)</li>
+<li><code data-kind="artículo">Artículo</code> El potencial de Kubernetes para las empresas (<a href="https://jlcasal.medium.com/el-potencial-de-kubernetes-para-las-empresas-d36f9eece999">https://jlcasal.medium.com/el-potencial-de-kubernetes-para-las-empresas-d36f9eece999</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es Docker y para que sirve? Explicación (<a href="https://dev.to/prox_sea/que-es-docker-y-para-que-sirve-explicacion-5h2n">https://dev.to/prox_sea/que-es-docker-y-para-que-sirve-explicacion-5h2n</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Que es un contenedor? (<a href="https://www.youtube.com/watch?v=x5zGoICZLnU">https://www.youtube.com/watch?v=x5zGoICZLnU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es Docker y los contenedores? (<a href="https://www.youtube.com/watch?v=kkfZs0vJFyU">https://www.youtube.com/watch?v=kkfZs0vJFyU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Volúmenes y redes en Docker (<a href="https://www.youtube.com/watch?v=DIDel70dFlI&ab_channel=Programaci%C3%B3nenespa%C3%B1ol">https://www.youtube.com/watch?v=DIDel70dFlI&amp;ab_channel=Programaci%C3%B3nenespa%C3%B1ol</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es KUBERNETES? ✅ Relación con DOCKER y CONTENEDORES ▶️ (<a href="https://www.youtube.com/watch?v=V86eTbswdQo">https://www.youtube.com/watch?v=V86eTbswdQo</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Empezando con Docker (<a href="https://www.aluracursos.com/blog/empezando-con-docker">https://www.aluracursos.com/blog/empezando-con-docker</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Creando volúmenes con Docker (<a href="https://www.aluracursos.com/blog/creando-volumenes-con-docker">https://www.aluracursos.com/blog/creando-volumenes-con-docker</a>)</li>
+</ul>
+<h3>Arquitectura de Microservicios:</h3>
 <ul><li>Los microservicios son un enfoque de arquitectura en el que el software consiste en pequeños servicios independientes que se comunican entre sí y se organizan de acuerdo con sus dominios de negocio.</li>
 <li>Aprender el concepto de arquitectura diseñada para microservicios</li>
 <li>Realizar la comunicación mediante API</li>
 <li>Mejorar la escalabilidad de un sistema</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Reflection y atributos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Diseño de una aplicación orientada a microservicios (<a href="https://learn.microsoft.com/es-es/dotnet/architecture/microservices/multi-container-microservice-net-applications/microservice-application-design">https://learn.microsoft.com/es-es/dotnet/architecture/microservices/multi-container-microservice-net-applications/microservice-application-design</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Microservicios y arquitectura de microservicios (<a href="https://www.intel.la/content/www/xl/es/cloud-computing/microservices.html">https://www.intel.la/content/www/xl/es/cloud-computing/microservices.html</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Microservicios vs API: Entendiendo la diferencia (<a href="https://kinsta.com/es/blog/microservicios-vs-api/">https://kinsta.com/es/blog/microservicios-vs-api/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Microservicios Ejemplo de Flujo (<a href="https://medium.com/mycodebad/microservicios-ejemplo-de-flujo-f45720a9b278">https://medium.com/mycodebad/microservicios-ejemplo-de-flujo-f45720a9b278</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Microservicios Conceptos (<a href="https://medium.com/mycodebad/microservicios-conceptos-55d19636873e">https://medium.com/mycodebad/microservicios-conceptos-55d19636873e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Patrones fundamentales de la arquitectura microservicios (<a href="https://www.youtube.com/watch?v=A7y23uU1NHk">https://www.youtube.com/watch?v=A7y23uU1NHk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Un ejemplo de microservicios #CafeConRivas (<a href="https://www.youtube.com/watch?v=qAcUGw7HhxM">https://www.youtube.com/watch?v=qAcUGw7HhxM</a>)</li>
+</ul>
+<h3>Reflection y atributos:</h3>
 <ul><li>Los objetos de Reflection (reflexión) se utilizan para obtener información del tipo en tiempo de ejecución. Las clases que dan acceso a los metadatos de un programa en ejecución se encuentran en el espacio de nombres System.Reflection.</li>
 <li>Escribir código que lee la información y metadatos de objetos en tiempo de ejecución</li>
 <li>Obtener nombres de clases en tiempo de ejecución y crear objetos de una clase</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>MAUI</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Acceso a atributos mediante reflexión | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/advanced-topics/reflection-and-attributes/accessing-attributes-by-using-reflection">https://learn.microsoft.com/es-es/dotnet/csharp/advanced-topics/reflection-and-attributes/accessing-attributes-by-using-reflection</a>)</li>
+<li><code data-kind="web">Web</code> System.Reflection Espacio de nombres | Microsoft Learn (<a href="https://learn.microsoft.com/es-es/dotnet/api/system.reflection?view=net-7.0">https://learn.microsoft.com/es-es/dotnet/api/system.reflection?view=net-7.0</a>)</li>
+<li><code data-kind="web">Web</code> Reflexión en .NET (<a href="https://learn.microsoft.com/es-es/dotnet/framework/reflection-and-codedom/reflection">https://learn.microsoft.com/es-es/dotnet/framework/reflection-and-codedom/reflection</a>)</li>
+<li><code data-kind="web">Web</code> Reflexión - Documentación Python (<a href="https://docs.python.org/es/3.11/c-api/reflection.html">https://docs.python.org/es/3.11/c-api/reflection.html</a>)</li>
+<li><code data-kind="web">Web</code> Inmersión al modo interactivo - Python (<a href="https://entrenamiento-python-basico.readthedocs.io/es/3.7/leccion2/interactivo.html#introspeccion-en-python">https://entrenamiento-python-basico.readthedocs.io/es/3.7/leccion2/interactivo.html#introspeccion-en-python</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es la Metaprogramación en JavaScript? En español, por favor. (<a href="https://www.freecodecamp.org/espanol/news/que-es-la-metaprogramacion-en-javascript-en-espanol-por-favor/">https://www.freecodecamp.org/espanol/news/que-es-la-metaprogramacion-en-javascript-en-espanol-por-favor/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Reflection en Java (<a href="https://jarroba.com/reflection-en-java/">https://jarroba.com/reflection-en-java/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ejemplo Java Reflection (<a href="https://www.youtube.com/watch?v=3ZGYEDV9PIA">https://www.youtube.com/watch?v=3ZGYEDV9PIA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tutorial C# nivel Avanzado 46 - Reflection/Reflexión (<a href="https://www.youtube.com/watch?v=9kAd4Wl0hgQ">https://www.youtube.com/watch?v=9kAd4Wl0hgQ</a>)</li>
+</ul>
+<h3>MAUI:</h3>
 <ul><li>.NET Multi-platform App UI (.NET MAUI) es un framework multiplataforma para crear aplicaciones nativas móviles y de escritorio con C# y XAML.</li>
 <li>Crear aplicaciones móviles y de escritorio nativas con C# y XAML.</li>
 <li>Desarrollar aplicaciones multiplataforma.</li>
 <li>Compartir el diseño y la interfaz de usuario entre plataformas.</li>
-</ul></li></ul>
-<h2>Habilidade Auxiliar: Infraestructura</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git y GitHub - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> ¿Qué es .NET MAUI? (<a href="https://learn.microsoft.com/es-es/dotnet/maui/what-is-maui">https://learn.microsoft.com/es-es/dotnet/maui/what-is-maui</a>)</li>
+<li><code data-kind="web">Web</code> Introducción a XAML (<a href="https://learn.microsoft.com/es-es/dotnet/maui/xaml/fundamentals/get-started">https://learn.microsoft.com/es-es/dotnet/maui/xaml/fundamentals/get-started</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Qué es .NET MAUI y cuáles son sus ventajas (<a href="https://www.linkedin.com/pulse/qu%C3%A9-es-net-maui-y-cu%C3%A1les-son-sus-ventajas-jordi-parareda/?originalSubdomain=es">https://www.linkedin.com/pulse/qu%C3%A9-es-net-maui-y-cu%C3%A1les-son-sus-ventajas-jordi-parareda/?originalSubdomain=es</a>)</li>
+<li><code data-kind="artículo">Artículo</code> .NET MAUI: La apuesta de Microsoft para el desarrollo de Apps multiplataforma (<a href="https://www.zimaltec.es/blog/net-maui-la-apuesta-de-microsoft-para-el-desarrollo-de-apps-multiplataforma">https://www.zimaltec.es/blog/net-maui-la-apuesta-de-microsoft-para-el-desarrollo-de-apps-multiplataforma</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Desarrollo de aplicaciones multiplataforma con Microsoft .NET MAUI (<a href="https://www.integratecnologia.es/la-innovacion-necesaria/desarrollo-de-aplicaciones-multiplataforma-con-microsoft-net-maui/">https://www.integratecnologia.es/la-innovacion-necesaria/desarrollo-de-aplicaciones-multiplataforma-con-microsoft-net-maui/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Creando un proyecto de .NET MAUI con Visual Studio - .NET MAUI (<a href="https://www.youtube.com/watch?v=Id6WBvhg5vo">https://www.youtube.com/watch?v=Id6WBvhg5vo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ejercicio creando tu primera página con XAML - .NET MAUI (<a href="https://www.youtube.com/watch?v=FLDFJbqgVF4">https://www.youtube.com/watch?v=FLDFJbqgVF4</a>)</li>
+</ul>
+<h2>Habilidad Auxiliar: Infraestructura</h2>
+<h3>Git y GitHub - Fundamentos:</h3>
 <ul><li>Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.</li>
 <li>GitHub es un servicio de hosting para el desarrollo de software y el control de versiones mediante Git.</li>
 <li>Crear un repositorio</li>
@@ -364,28 +745,147 @@
 <li>Revertir un commit</li>
 <li>Crear de ramas y Pull requests</li>
 <li>Manejar fusiones y conflictos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Git: Libro de Consulta (<a href="https://git-scm.com/book/es/v2">https://git-scm.com/book/es/v2</a>)</li>
+<li><code data-kind="web">Web</code> GitHub Documentación (<a href="https://docs.github.com/es">https://docs.github.com/es</a>)</li>
+<li><code data-kind="web">Web</code> Github Pages Documentación (<a href="https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Git Tutorial (<a href="https://www.w3schools.com/git/default.asp?remote=github">https://www.w3schools.com/git/default.asp?remote=github</a>)</li>
+<li><code data-kind="web">Web</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="web">Web</code> Dangit, Git!?! (<a href="https://dangitgit.com/es">https://dangitgit.com/es</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Git and Github Quickstart Tutorial (<a href="https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca">https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es Git y cómo funciona? (<a href="https://www.youtube.com/watch?v=jGehuhFhtnE">https://www.youtube.com/watch?v=jGehuhFhtnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y Github | Guia Práctico de Git y Github Desde Cero (<a href="https://www.youtube.com/watch?v=HiXLkL42tMU">https://www.youtube.com/watch?v=HiXLkL42tMU</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Git y Github: que son y primeros pasos (<a href="https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos">https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía sobre cómo instalar Git en diferentes sistemas operativos (<a href="https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos">https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Iniciando un repositorio con Git (<a href="https://www.aluracursos.com/blog/iniciando-repositorio-con-git">https://www.aluracursos.com/blog/iniciando-repositorio-con-git</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Comenzando con Git: aprendiendo a versionar (<a href="https://www.aluracursos.com/blog/comenzando-con-git">https://www.aluracursos.com/blog/comenzando-con-git</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Creando un repositorio remoto en GitHub (<a href="https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github">https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Clonando un repositorio con Git y GitHub (<a href="https://www.aluracursos.com/blog/clonando-un-repositorio-remoto">https://www.aluracursos.com/blog/clonando-un-repositorio-remoto</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Paso a Paso para activar tu proyecto en GitHub Pages. (<a href="https://www.aluracursos.com/blog/github-pages">https://www.aluracursos.com/blog/github-pages</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo escribir un README increíble en tu Github (<a href="https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github">https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Buenas practicas en git: evitando errores (<a href="https://www.aluracursos.com/blog/como-evitar-errores-en-git">https://www.aluracursos.com/blog/como-evitar-errores-en-git</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: Errores de comandos y directorios (<a href="https://www.aluracursos.com/blog/git-errores-de-comandos-y-directorios">https://www.aluracursos.com/blog/git-errores-de-comandos-y-directorios</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: errores de commits (<a href="https://www.aluracursos.com/blog/git-errores-de-commits">https://www.aluracursos.com/blog/git-errores-de-commits</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: Errores de fusión (<a href="https://www.aluracursos.com/blog/errores-de-fusion">https://www.aluracursos.com/blog/errores-de-fusion</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: Errores con el remoto (<a href="https://www.aluracursos.com/blog/errores-con-el-remoto">https://www.aluracursos.com/blog/errores-con-el-remoto</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y GitHub para Principiantes #AluraMás (<a href="https://www.youtube.com/watch?v=-LmFK6skG7s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=-LmFK6skG7s&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y GitHub: Herramientas Esenciales para el Control de Versiones y Colaboración en Desarrollo (<a href="https://youtu.be/dw04N616Abw">https://youtu.be/dw04N616Abw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Puedo subir mi proyecto a Github sin líneas de comando? - Git y Github para principiantes (<a href="https://www.youtube.com/watch?v=Yfm16Tlpcwk&ab_channel=AluraLatam">https://www.youtube.com/watch?v=Yfm16Tlpcwk&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y GitHub: Herramientas Esenciales para el Control de Versiones y Colaboración en Desarrollo (<a href="https://www.youtube.com/watch?v=dw04N616Abw">https://www.youtube.com/watch?v=dw04N616Abw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Puedo subir mi proyecto a Github sin líneas de comando? - Git y Github para principiantes (<a href="https://www.youtube.com/watch?v=Yfm16Tlpcwk">https://www.youtube.com/watch?v=Yfm16Tlpcwk</a>)</li>
+<li><code data-kind="curso">Curso</code> Git y GitHub: repositorio, commit y versiones (<a href="https://app.aluracursos.com/course/git-github-repositorio-commit-versiones">https://app.aluracursos.com/course/git-github-repositorio-commit-versiones</a>)</li>
+<li><code data-kind="curso">Curso</code> Git y Github: estrategias de ramificación, conflictos y Pull Requests (<a href="https://www.aluracursos.com/curso-online-git-github-estrategias-ramificacion-conflictos-pull-requests">https://www.aluracursos.com/curso-online-git-github-estrategias-ramificacion-conflictos-pull-requests</a>)</li>
+</ul>
+<h3>HTTP - Fundamentos:</h3>
 <ul><li>HTTP significa Protocolo de transferencia de hipertexto. La comunicación entre las computadoras cliente y los servidores web se realiza mediante el envío de solicitudes HTTP y la recepción de respuestas HTTP.</li>
 <li>Comprender la diferencia entre los verbos HTTP</li>
 <li>Probar solicitudes y verificar los códigos de estado en el navegador</li>
 <li>Aprendiendo a hacer una solicitud HTTP en la línea de comando con WGET</li>
 <li>Descargar una imagen con WGET</li>
 <li>Realización de una POST</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> W3Schools: ¿Qué es HTTP? (<a href="https://www.w3schools.com/whatis/whatis_http.asp">https://www.w3schools.com/whatis/whatis_http.asp</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Una descripción general de HTTP (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Métodos de solicitud HTTP (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: HTTP (<a href="https://developer.mozilla.org/es/docs/Web/HTTP">https://developer.mozilla.org/es/docs/Web/HTTP</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Métodos de petición HTTP (<a href="https://developer.mozilla.org/es/docs/Web/HTTP/Methods">https://developer.mozilla.org/es/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Mensajes HTTP (<a href="https://developer.mozilla.org/es/docs/Web/HTTP/Messages">https://developer.mozilla.org/es/docs/Web/HTTP/Messages</a>)</li>
+<li><code data-kind="web">Web</code> HTTP Cats (<a href="https://http.cat/">https://http.cat/</a>)</li>
+<li><code data-kind="web">Web</code> HTTP Dogs (<a href="https://http.dog/">https://http.dog/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Peticiones, Métodos Http y Códigos de estado. (<a href="https://www.youtube.com/watch?v=gBK-Mfa0lw8">https://www.youtube.com/watch?v=gBK-Mfa0lw8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SSL, TLS, HTTPS, HTTP - Explicado Fácilmente (<a href="https://www.youtube.com/watch?v=6HJAWFenYx8&ab_channel=ProfeSang">https://www.youtube.com/watch?v=6HJAWFenYx8&amp;ab_channel=ProfeSang</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ⭐Protocolo HTTP 🖥️ Requests y Responses con: GET, POST, PUT, PATCH y DELETE | Desarrollo web 🌎 (<a href="https://www.youtube.com/watch?v=l2MihYAj0Iw">https://www.youtube.com/watch?v=l2MihYAj0Iw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> REST y los Verbos de HTTP (<a href="https://www.youtube.com/watch?v=OHBHeAPoZ8E">https://www.youtube.com/watch?v=OHBHeAPoZ8E</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> HTTP: Desmitificando el protocolo Web (<a href="https://www.aluracursos.com/blog/http-desmitificando-el-protocolo">https://www.aluracursos.com/blog/http-desmitificando-el-protocolo</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Cual es la diferencia entre HTTP y HTTPS? (<a href="https://www.aluracursos.com/blog/cual-es-la-diferencia-entre-http-y-https">https://www.aluracursos.com/blog/cual-es-la-diferencia-entre-http-y-https</a>)</li>
+<li><code data-kind="artículo">Artículo</code> HTTP: Diferencias entre GET y POST (<a href="https://www.aluracursos.com/blog/diferencias-entre-get-y-post">https://www.aluracursos.com/blog/diferencias-entre-get-y-post</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Métodos de petición HTTP (<a href="https://www.aluracursos.com/blog/metodos-de-peticion-http">https://www.aluracursos.com/blog/metodos-de-peticion-http</a>)</li>
+<li><code data-kind="curso">Curso</code> HTTP: La base de internet (<a href="https://app.aluracursos.com/course/http-base-internet">https://app.aluracursos.com/course/http-base-internet</a>)</li>
+</ul>
+<h3>JSON:</h3>
 <ul><li>JSON significa Notación de objetos de JavaScript. Es un formato de texto para almacenar y transportar datos.</li>
 <li>Crear un objeto</li>
 <li>Transformar un objeto en una cadena</li>
 <li>Transformar una cadena en un objeto</li>
 <li>Manipular un objeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Línea de Comando - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> MDN Web Docs: JSON (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Trabajando con JSON (<a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON">https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Que és JSON y cómo funciona? (<a href="https://www.youtube.com/watch?v=z8qk7T_2sWg&ab_channel=SoyDalto">https://www.youtube.com/watch?v=z8qk7T_2sWg&amp;ab_channel=SoyDalto</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ⭐¿Qué es JSON? ¿Cuál es su SINTAXIS? 🖥️¿Cómo crear un archivo JSON? | DESARROLLO WEB 🌎 (<a href="https://www.youtube.com/watch?v=RhxOTqFbI5Q&ab_channel=TodoCode">https://www.youtube.com/watch?v=RhxOTqFbI5Q&amp;ab_channel=TodoCode</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Que es Json? (<a href="https://www.aluracursos.com/blog/que-es-json">https://www.aluracursos.com/blog/que-es-json</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿JSON y Objeto JavaScript son lo mismo? (<a href="https://www.aluracursos.com/blog/json-y-objeto-javascript-son-lo-mismo">https://www.aluracursos.com/blog/json-y-objeto-javascript-son-lo-mismo</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Simulando una API REST con json-server (<a href="https://www.aluracursos.com/blog/simulando-una-api-rest-con-json-server">https://www.aluracursos.com/blog/simulando-una-api-rest-con-json-server</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es JSON Web Token? (<a href="https://www.aluracursos.com/blog/que-es-json-web-token">https://www.aluracursos.com/blog/que-es-json-web-token</a>)</li>
+<li><code data-kind="curso">Curso</code> JS en la Web: CRUD con JavaScript asíncrono (<a href="https://www.aluracursos.com/curso-online-js-web-crud-javascript-asincrono">https://www.aluracursos.com/curso-online-js-web-crud-javascript-asincrono</a>)</li>
+</ul>
+<h3>Línea de Comando - Fundamentos:</h3>
 <ul><li>CLI es un programa de línea de comandos que acepta la entrada de texto para ejecutar funciones del sistema operativo.</li>
 <li>Conocer los comandos más importantes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> W3Schools: What is Command Line Interface (CLI)? (<a href="https://www.w3schools.com/whatis/whatis_cli.asp">https://www.w3schools.com/whatis/whatis_cli.asp</a>)</li>
+<li><code data-kind="web">Web</code> Uso de argumentos de la línea de comandos para Terminal Windows (<a href="https://learn.microsoft.com/es-es/windows/terminal/command-line-arguments?tabs=windows">https://learn.microsoft.com/es-es/windows/terminal/command-line-arguments?tabs=windows</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Interfaz de línea de comandos o CLI (<a href="https://www.computerweekly.com/es/definicion/Interfaz-de-linea-de-comandos-o-CLI">https://www.computerweekly.com/es/definicion/Interfaz-de-linea-de-comandos-o-CLI</a>)</li>
+<li><code data-kind="artículo">Artículo</code> El Manual de Comandos de Linux (<a href="https://www.freecodecamp.org/espanol/news/comandos-de-linux/">https://www.freecodecamp.org/espanol/news/comandos-de-linux/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Consola vs Terminal vs Shell vs CLI 💻 ¿Qué es la terminal? (<a href="https://www.youtube.com/watch?v=1YxHXBsVNGQ&ab_channel=ProgramadorX">https://www.youtube.com/watch?v=1YxHXBsVNGQ&amp;ab_channel=ProgramadorX</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende la linea de comandos en un mac - bash scripting (<a href="https://www.youtube.com/watch?v=vfwA3pUnVOg&ab_channel=Datademia">https://www.youtube.com/watch?v=vfwA3pUnVOg&amp;ab_channel=Datademia</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: Command Line Crash Course (<a href="https://www.youtube.com/watch?v=yz7nYlnXLfE">https://www.youtube.com/watch?v=yz7nYlnXLfE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Traversy Media: Command Line Crash Course For Beginners - Terminal Commands (<a href="https://www.youtube.com/watch?v=uwAqEzhyjtw">https://www.youtube.com/watch?v=uwAqEzhyjtw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Comandos Básicos e Intermedios CMD  (<a href="https://youtu.be/erKosEQaaFc">https://youtu.be/erKosEQaaFc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Terminal MAC tutorial en Español - Cómo usar la terminal en MAC (<a href="https://www.youtube.com/watch?v=TmP3y7Z2kk4">https://www.youtube.com/watch?v=TmP3y7Z2kk4</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> CMD: Sugerencias para trabajar en el prompt de Windows (<a href="https://www.aluracursos.com/blog/consejos-para-trabajar-en-el-indicador-de-windows">https://www.aluracursos.com/blog/consejos-para-trabajar-en-el-indicador-de-windows</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Como usar el terminal integrado de Visual Studio Code (<a href="https://www.aluracursos.com/blog/como-usar-el-terminal-integrado-de-visual-studio-code">https://www.aluracursos.com/blog/como-usar-el-terminal-integrado-de-visual-studio-code</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux 1: conociendo y utilizando la terminal (<a href="https://app.aluracursos.com/course/linux-1-conociendo-utilizando-terminal">https://app.aluracursos.com/course/linux-1-conociendo-utilizando-terminal</a>)</li>
+</ul>
+<h3>Cloud - Fundamentos:</h3>
 <ul><li>La computación en nube, o cloud computing, es la distribución de servicios informáticos a través de Internet mediante un modelo de tarificación de pago por uso. Una nube se compone de varios recursos informatizados, desde los propios ordenadores (o instancias, en terminología de nube) hasta las redes, el almacenamiento, las bases de datos y todo lo que les rodea. En otras palabras, todo lo que normalmente se necesita para montar el equivalente a una sala de servidores, o incluso un centro de datos completo, estará listo para usar, configurar y ejecutar.</li>
 <li>Conocer la diferencia entre IaaS, PaaS y SaaS</li>
 <li>Conocer los mayores proveedores de nube</li>
 <li>Especializarse en un proveedor específico de su preferencia</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> ¿Qué es la informática en la nube? | Microsoft Azure (<a href="https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-cloud-computing/">https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-cloud-computing/</a>)</li>
+<li><code data-kind="web">Web</code> Amazon AWS: ¿Qué es la computación en nube? (<a href="https://aws.amazon.com/en/what-is-cloud-computing/">https://aws.amazon.com/en/what-is-cloud-computing/</a>)</li>
+<li><code data-kind="web">Web</code> Tipos de computación en la nube (<a href="https://aws.amazon.com/es/types-of-cloud-computing/">https://aws.amazon.com/es/types-of-cloud-computing/</a>)</li>
+<li><code data-kind="web">Web</code> ¿Cómo funciona Azure? (<a href="https://learn.microsoft.com/es-es/azure/cloud-adoption-framework/get-started/what-is-azure">https://learn.microsoft.com/es-es/azure/cloud-adoption-framework/get-started/what-is-azure</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es el almacenamiento en la nube? (<a href="https://aws.amazon.com/es/what-is/cloud-storage/">https://aws.amazon.com/es/what-is/cloud-storage/</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es la seguridad en la nube? (<a href="https://cloud.google.com/learn/what-is-cloud-security?hl=es-419">https://cloud.google.com/learn/what-is-cloud-security?hl=es-419</a>)</li>
+<li><code data-kind="web">Web</code> Arquitectura sin servidor (<a href="https://learn.microsoft.com/es-es/dotnet/architecture/serverless/serverless-architecture">https://learn.microsoft.com/es-es/dotnet/architecture/serverless/serverless-architecture</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es Docker? (<a href="https://aws.amazon.com/es/docker/">https://aws.amazon.com/es/docker/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía para principiantes sobre los fundamentos de la computación en nube (<a href="https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/">https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cloud Computing para principiantes (<a href="https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/">https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es Google Cloud y para qué sirve? (<a href="https://www.incentro.com/es-ES/blog/que-es-google-cloud-platform">https://www.incentro.com/es-ES/blog/que-es-google-cloud-platform</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es computación en la nube? | ¿Qué es cloud computing? | Explicado en 4 minutos (<a href="https://youtu.be/MCKdahh2lSo">https://youtu.be/MCKdahh2lSo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 📌CLOUD COMPUTING ¿Qué es IaaS, PaaS y Saas? | Modelos de Servicio Cloud (<a href="https://youtu.be/VR8aXePkQ5M">https://youtu.be/VR8aXePkQ5M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es AWS? (<a href="https://www.youtube.com/watch?v=x2vrg7HuM6g">https://www.youtube.com/watch?v=x2vrg7HuM6g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿ Cómo empiezo con Google Cloud? (Hablemos en Cloud) (<a href="https://www.youtube.com/watch?v=OiDWqu0oQfo">https://www.youtube.com/watch?v=OiDWqu0oQfo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción a la infraestructura de Google Cloud (<a href="https://www.youtube.com/watch?v=209DGQCism4">https://www.youtube.com/watch?v=209DGQCism4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es la Computación en la Nube? | AWS desde cero - Parte 1: Introducción (<a href="https://www.youtube.com/watch?v=IciVhWQ8npw">https://www.youtube.com/watch?v=IciVhWQ8npw</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es Cloud y sus principales servicios? (<a href="https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios">https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Conociendo Terraform (<a href="https://www.aluracursos.com/blog/conociendo-terraform">https://www.aluracursos.com/blog/conociendo-terraform</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Empezando con Docker (<a href="https://www.aluracursos.com/blog/empezando-con-docker">https://www.aluracursos.com/blog/empezando-con-docker</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Heroku, Vercel y otras opciones de cloud como plataforma (<a href="https://www.aluracursos.com/blog/heroku-vercel-y-otras-opciones-de-cloud-como-plataforma">https://www.aluracursos.com/blog/heroku-vercel-y-otras-opciones-de-cloud-como-plataforma</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fundamentos del OCI | Contenidos ONE (<a href="https://youtu.be/rEgSc0UqX-g">https://youtu.be/rEgSc0UqX-g</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Oracle Cloud Infrastructure: implementación de una aplicación en la nube (<a href="https://app.aluracursos.com/course/oracle-cloud-infrastructure-implementacion-aplicacion-nube">https://app.aluracursos.com/course/oracle-cloud-infrastructure-implementacion-aplicacion-nube</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Oracle Cloud Infrastructure: base de datos e infraestructura como código (<a href="https://app.aluracursos.com/course/oracle-cloud-infrastructure-base-datos-infraestructura-codigo">https://app.aluracursos.com/course/oracle-cloud-infrastructure-base-datos-infraestructura-codigo</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Deploy en Amazon EC2: Alta disponibilidad y escalabilidad de una aplicación (<a href="https://app.aluracursos.com/course/deploy-amazon-ec2-alta-disponibilidad-escalabilidad">https://app.aluracursos.com/course/deploy-amazon-ec2-alta-disponibilidad-escalabilidad</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Amazon Lightsail: Simplificando la nube (<a href="https://app.aluracursos.com/course/amazon-lightsail-simplificando-nube">https://app.aluracursos.com/course/amazon-lightsail-simplificando-nube</a>)</li>
+</ul>
+<h3>SQL - Fundamentos:</h3>
 <ul><li>Conocer los comandos más comunes de SQL</li>
 <li>Usar SELECT para consultar una tabla</li>
 <li>Usar INSERT para insertar datos en una tabla</li>
@@ -393,24 +893,97 @@
 <li>Usar DELETE para eliminar datos de una tabla</li>
 <li>Usar JOIN para conectar los datos de múltiples tablas</li>
 <li>Conocer las cláusulas (FROM, ORDER BY, etc.)</li>
-</ul></li></ul>
-<h2>Habilidade Auxiliar: Buenas prácticas</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SOLID</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Amazon: ¿Qué es SQL? (<a href="https://aws.amazon.com/es/what-is/sql/?nc1=h_ls">https://aws.amazon.com/es/what-is/sql/?nc1=h_ls</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> MySQL: desde la descarga e instalación hasta su primera tabla (<a href="https://www.aluracursos.com/blog/mysql-desde-la-descarga-e-instalacion-hasta-su-primera-tabla">https://www.aluracursos.com/blog/mysql-desde-la-descarga-e-instalacion-hasta-su-primera-tabla</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Bases de datos relacionales (<a href="https://www.aluracursos.com/blog/base-de-datos-relacional">https://www.aluracursos.com/blog/base-de-datos-relacional</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es SQL? (<a href="https://www.aluracursos.com/blog/que-es-sql">https://www.aluracursos.com/blog/que-es-sql</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Normalización en base de datos - Estructura (<a href="https://www.aluracursos.com/blog/normalizacion-en-base-de-datos">https://www.aluracursos.com/blog/normalizacion-en-base-de-datos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> En SQL, null es null, vacío está vacío (<a href="https://www.aluracursos.com/blog/en-sql-null-es-null-vacio-es-vacio">https://www.aluracursos.com/blog/en-sql-null-es-null-vacio-es-vacio</a>)</li>
+<li><code data-kind="artículo">Artículo</code> SELECT, INSERT, UPDATE y DELETE en SQL: aprende a utilizar cada uno (<a href="https://www.aluracursos.com/blog/select-insert-update-delete-sql">https://www.aluracursos.com/blog/select-insert-update-delete-sql</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Funciones de agregación con GROUP BY en SQL, ¿cómo utilizarlas? (<a href="https://www.aluracursos.com/blog/funciones-de-agregacion-con-group-by-en-sql-como-utilizarlas">https://www.aluracursos.com/blog/funciones-de-agregacion-con-group-by-en-sql-como-utilizarlas</a>)</li>
+<li><code data-kind="artículo">Artículo</code> SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS (<a href="https://www.aluracursos.com/blog/sql-join-aprenda-inner-left-right-full-e-cross">https://www.aluracursos.com/blog/sql-join-aprenda-inner-left-right-full-e-cross</a>)</li>
+<li><code data-kind="artículo">Artículo</code> select count(*), count(1) y count(nombre): batalla de los counts de SQL (<a href="https://www.aluracursos.com/blog/select-count-count1-e-countnome-la-batalla-de-los-counts-de-sql">https://www.aluracursos.com/blog/select-count-count1-e-countnome-la-batalla-de-los-counts-de-sql</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Descomplicando Base de Datos | #Aluramás (<a href="https://www.youtube.com/watch?v=G1cDRqKuxpg&t=6s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=G1cDRqKuxpg&amp;t=6s&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es SQL y NoSQL? (<a href="https://www.youtube.com/watch?v=cLLKVd5CNLc">https://www.youtube.com/watch?v=cLLKVd5CNLc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Banco de Datos MySQL (<a href="https://www.youtube.com/watch?v=8J0AoPZMVxA">https://www.youtube.com/watch?v=8J0AoPZMVxA</a>)</li>
+<li><code data-kind="curso">Curso</code> SQL con MySQL (<a href="https://app.aluracursos.com/formacion-sql-con-mysql">https://app.aluracursos.com/formacion-sql-con-mysql</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Introducción a SQL con MySQL: Manipule y consulte datos (<a href="https://app.aluracursos.com/course/introduccion-sql-mysql-manipule-consulte-datos">https://app.aluracursos.com/course/introduccion-sql-mysql-manipule-consulte-datos</a>)</li>
+<li><code data-kind="curso">Curso</code> SQL Server: consultas avanzadas con Microsoft SQL Server 2019 (<a href="https://app.aluracursos.com/course/sql-server-consultas-microsoft-sql-server-2019">https://app.aluracursos.com/course/sql-server-consultas-microsoft-sql-server-2019</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Modelado de datos (<a href="https://www.aluracursos.com/formacion-modelado-de-datos">https://www.aluracursos.com/formacion-modelado-de-datos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación SQL con Microsoft SQL Server (<a href="https://www.aluracursos.com/formacion-SQL-con-Microsoft-SQL-Server-2019">https://www.aluracursos.com/formacion-SQL-con-Microsoft-SQL-Server-2019</a>)</li>
+</ul>
+<h2>Habilidad Auxiliar: Buenas prácticas</h2>
+<h3>SOLID:</h3>
 <ul><li>Solid tiene cinco principios considerados como buenas prácticas en el desarrollo de software que ayudan a los programadores a escribir los códigos más limpios, dividiendo las responsabilidades, disminuyendo los acoplamientos, facilitando la refactorización y estimulando el reaprovechamiento del código. Propuesto por Robert C. Martin, SOLID propicia el desarrollo de un código limpio, legible y comprobable.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Patterns</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Los principios SOLID de programación orientada a objetos (<a href="https://www.freecodecamp.org/espanol/news/los-principios-solid-explicados-en-espanol/">https://www.freecodecamp.org/espanol/news/los-principios-solid-explicados-en-espanol/</a>)</li>
+<li><code data-kind="web">Web</code> Principios SOLID: Qué son, cuáles, y qué beneficios aporta usarlos (<a href="https://devexperto.com/principios-solid/">https://devexperto.com/principios-solid/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> SOLID - los androides (<a href="https://open.spotify.com/episode/47eEIzhTPr1RIuVcxeVal4?si=4df70e899c034283">https://open.spotify.com/episode/47eEIzhTPr1RIuVcxeVal4?si=4df70e899c034283</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Los principios SOLID, ¡explicados! (<a href="https://www.youtube.com/watch?v=2X50sKeBAcQ">https://www.youtube.com/watch?v=2X50sKeBAcQ</a>)</li>
+</ul>
+<h3>Design Patterns:</h3>
 <ul><li>En ingeniería de software, un &quot;patrón de diseño&quot; (Design Pattern en inglés) es una solución general y reutilizable para un problema que ocurre normalmente dentro de un determinado contexto de diseño de software.</li>
 <li>Conocer y aplicar los principales patrones de diseño.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Architecture</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Patrones de Diseño (<a href="https://refactoring.guru/es/design-patterns">https://refactoring.guru/es/design-patterns</a>)</li>
+<li><code data-kind="web">Web</code> Designer Patterns (<a href="https://github.com/FernandoCalmet/design-patterns">https://github.com/FernandoCalmet/design-patterns</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué son los patrones de diseño de software? (<a href="https://profile.es/blog/patrones-de-diseno-de-software/">https://profile.es/blog/patrones-de-diseno-de-software/</a>)</li>
+<li><code data-kind="web">Web</code> Design Patterns: conoce los diferentes tipos que existen y sus beneficios (<a href="https://www.hostgator.mx/blog/design-patterns-que-debes-saber/">https://www.hostgator.mx/blog/design-patterns-que-debes-saber/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Patrones Diseño, ventajas y desventajas (<a href="https://open.spotify.com/episode/3VjQHnPvusU6zz5PylMVFu?si=a613cb4c157e4055">https://open.spotify.com/episode/3VjQHnPvusU6zz5PylMVFu?si=a613cb4c157e4055</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Patrones Diseño (<a href="https://open.spotify.com/episode/6QO1HYdAgzrMGLVpz2kn0C?si=c95296f387c4490a">https://open.spotify.com/episode/6QO1HYdAgzrMGLVpz2kn0C?si=c95296f387c4490a</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 🔹 Patrones de diseño software: Repaso completo en 10 minutos (<a href="https://www.youtube.com/watch?v=6BHOeDL8vls">https://www.youtube.com/watch?v=6BHOeDL8vls</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Design Patterns: Breve introducción a los patrones de diseño (<a href="https://www.aluracursos.com/blog/design-patterns-introduccion-a-los-patrones-de-diseno">https://www.aluracursos.com/blog/design-patterns-introduccion-a-los-patrones-de-diseno</a>)</li>
+</ul>
+<h3>Clean Architecture:</h3>
 <ul><li>Clean Architecture (Arquitectura Limpia) es una forma de desarrollar software, de tal forma que solo mirando el código fuente de un programa, debes ser capaz de decir lo que el programa hace.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Code</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> ¿Qué es Clean Architecture? (<a href="https://clean-architecture-python.readthedocs.io/en/latest/introduccion/index.html">https://clean-architecture-python.readthedocs.io/en/latest/introduccion/index.html</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Por qué utilizo Clean Architecture? (<a href="https://xurxodev.com/por-que-utilizo-clean-architecture-en-mis-proyectos/">https://xurxodev.com/por-que-utilizo-clean-architecture-en-mis-proyectos/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Revisando Clean code, vale la pena leerlo? | review clean code (<a href="https://www.youtube.com/watch?v=uQfm6YaJTJI">https://www.youtube.com/watch?v=uQfm6YaJTJI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Hexagonal architecture, qué es y qué diferencias tiene contra Clean Architecture? - PT 1 (<a href="https://www.youtube.com/watch?v=NOWU4K6piwo">https://www.youtube.com/watch?v=NOWU4K6piwo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Desarrollo ágil con Arquitectura limpia Hexa3 (<a href="https://medium.com/@dariopalminio/desarrollo-%C3%A1gil-de-ecosistemas-de-aplicaciones-hexagonales-3-capas-hexa3l-d6370bf11db0">https://medium.com/@dariopalminio/desarrollo-%C3%A1gil-de-ecosistemas-de-aplicaciones-hexagonales-3-capas-hexa3l-d6370bf11db0</a>)</li>
+<li><code data-kind="podcast">Podcast</code> DevTalles - 125: Arquitectura Limpia (<a href="https://open.spotify.com/episode/3ftlJfucj7Jx4ZO2cDSghx?si=e6b2c5607ead43b5">https://open.spotify.com/episode/3ftlJfucj7Jx4ZO2cDSghx?si=e6b2c5607ead43b5</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Design Patterns: Breve introducción a los patrones de diseño (<a href="https://www.aluracursos.com/blog/design-patterns-introduccion-a-los-patrones-de-diseno">https://www.aluracursos.com/blog/design-patterns-introduccion-a-los-patrones-de-diseno</a>)</li>
+</ul>
+<h3>Clean Code:</h3>
 <ul><li>Aplicar técnicas sencillas para facilitar la escritura y la lectura de un código.</li>
 <li>Refactorizar el código para que quede más limpio.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Diseño Orientado a Dominio - DDD</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Clean Code: código limpio, ¿qué es? (<a href="https://www.hostgator.mx/blog/clean-code-codigo-limpio/">https://www.hostgator.mx/blog/clean-code-codigo-limpio/</a>)</li>
+<li><code data-kind="web">Web</code> Clean Code: 35 claves para dominarlo (<a href="https://devexperto.com/clean-code/">https://devexperto.com/clean-code/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> ¿Que es Clean Code? - Programando Podcast (<a href="https://open.spotify.com/episode/0xF40axFOYG1pdD2oaEMo0?si=b48fbfed5ec949c4">https://open.spotify.com/episode/0xF40axFOYG1pdD2oaEMo0?si=b48fbfed5ec949c4</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo escribir código limpio. Nombrando elementos (<a href="https://medium.com/@latteandcode/como-escribir-codigo-limpio-nombrando-elementos-8caa6639602c">https://medium.com/@latteandcode/como-escribir-codigo-limpio-nombrando-elementos-8caa6639602c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende a programar más limpio | The Clean Coder | Reseña del libro de Robert C. Martin (<a href="https://www.youtube.com/watch?v=bZgWdELGBoc">https://www.youtube.com/watch?v=bZgWdELGBoc</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Clean Code: qué es, casos de uso, ejemplo de código limpio (<a href="https://www.aluracursos.com/blog/clean-code-que-es-ejemplo">https://www.aluracursos.com/blog/clean-code-que-es-ejemplo</a>)</li>
+</ul>
+<h3>Diseño Orientado a Dominio - DDD:</h3>
 <ul><li>El Diseño Orientado a Dominio (DDD) es un enfoque de diseño y desarrollo de software que se informa principalmente por los requisitos de negocio. Los componentes del programa (objetos, clases, matrices, etc.) indican la industria, sector o dominio empresarial en que opera el negocio.</li>
 <li>Modelar dominios de manera efectiva.</li>
 <li>Basar proyectos complejos en modelos de dominio.</li>
 <li>Conocer los bloques de construcción de DDD.</li>
-</ul></li></ul>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Domain Driven Design: principios, beneficios y elementos — Primera Parte (<a href="https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-primera-parte-aad90f30aa35">https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-primera-parte-aad90f30aa35</a>)</li>
+<li><code data-kind="web">Web</code> Domain Driven Design: principios, beneficios y elementos — Segunda Parte (<a href="https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-segunda-parte-337d77dc8566">https://medium.com/@jonathanloscalzo/domain-driven-design-principios-beneficios-y-elementos-segunda-parte-337d77dc8566</a>)</li>
+<li><code data-kind="web">Web</code> Introducción a Domain Drive Design - DDD (<a href="https://refactorizando.com/introduccion-domain-drive-design/">https://refactorizando.com/introduccion-domain-drive-design/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> TDD y DDD, fortalezas y cuando usarlo (<a href="https://open.spotify.com/episode/7iioBOv7ySQZttPyw2GshP?si=a114f642ecc94682">https://open.spotify.com/episode/7iioBOv7ySQZttPyw2GshP?si=a114f642ecc94682</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprendiendo el Dominio (DDD en Español) (<a href="https://www.youtube.com/watch?v=BilfTrk954A">https://www.youtube.com/watch?v=BilfTrk954A</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Domain Driven Design - Píldoras de conocimiento - Autentia (<a href="https://www.youtube.com/watch?v=vccTIFGSiHA">https://www.youtube.com/watch?v=vccTIFGSiHA</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

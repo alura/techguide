@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,9 +249,8 @@
   </div>
 
   <div class="content">
-    <h1>Gestão de Produtos</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos - Fundamentos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Gestão de Produtos - Fundamentos:</h3>
 <ul><li>Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.</li>
 <li>Definir visão clara e estratégia para o produto.</li>
 <li>Entender necessidades e preferências dos clientes.</li>
@@ -219,7 +258,19 @@
 <li>Priorizar recursos com base no valor para o cliente e para o negócio.</li>
 <li>Analisar métricas e feedback para orientar decisões.</li>
 <li>Estar aberto a mudanças e ajuste a estratégia conforme necessário.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos Digitais</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Fundamentos de Product Management (<a href="https://www.cursospm3.com.br/blog/fundamentos-product-management/">https://www.cursospm3.com.br/blog/fundamentos-product-management/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Product Manager: o que faz, salário e como ingressar na profissão (<a href="https://www.cursospm3.com.br/blog/product-manager-guia-o-que-faz-salario-como-ingressar-na-profissao/">https://www.cursospm3.com.br/blog/product-manager-guia-o-que-faz-salario-como-ingressar-na-profissao/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda o que faz um Product Manager e qual a sua importância para o sucesso do seu produto (<a href="https://rockcontent.com/br/blog/product-manager/">https://rockcontent.com/br/blog/product-manager/</a>)</li>
+<li><code data-kind="site">Site</code> MBA PRODUCT MANAGEMENT &amp; GROWTH HACKING (<a href="https://www.fiap.com.br/mba/mba-em-product-management-growth-hacking-discovery-delivery-scale">https://www.fiap.com.br/mba/mba-em-product-management-growth-hacking-discovery-delivery-scale</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Product Manager: O que é e como se destacar na área (<a href="https://www.alura.com.br/artigos/product-manager-o-que-e-e-como-se-destacar">https://www.alura.com.br/artigos/product-manager-o-que-e-e-como-se-destacar</a>)</li>
+<li><code data-kind="curso">Curso</code> Product Management: agilize o desenvolvimento de produtos (<a href="https://cursos.alura.com.br/course/product-management-desenvolvimento-produtos">https://cursos.alura.com.br/course/product-management-desenvolvimento-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Product Manager: uma jornada em gestão de produto (<a href="https://cursos.alura.com.br/course/product-manager-jornada-gestao-produto">https://cursos.alura.com.br/course/product-manager-jornada-gestao-produto</a>)</li>
+</ul>
+<h3>Gestão de Produtos Digitais:</h3>
 <ul><li>Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.</li>
 <li>Colocar as necessidades dos usuários no centro do processo de desenvolvimento.</li>
 <li>Definir uma visão clara e estratégia para o produto digital.</li>
@@ -227,7 +278,21 @@
 <li>Coletar e analisar feedback dos usuários para melhorias.</li>
 <li>Adotar metodologias ágeis para entregas rápidas e iterativas.</li>
 <li>Utilizar dados para tomar decisões informadas sobre o produto.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Product Discovery</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Gestão de produtos digitais: entenda a importância (<a href="https://www.cursospm3.com.br/blog/gestao-de-produtos-digitais-entenda-a-importancia/">https://www.cursospm3.com.br/blog/gestao-de-produtos-digitais-entenda-a-importancia/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de Produtos: a área que está brilhando aos olhos do mercado (<a href="https://www.cursospm3.com.br/blog/gestao-de-produtos-a-area-que-esta-brilhando-os-olhos-do-mercado/">https://www.cursospm3.com.br/blog/gestao-de-produtos-a-area-que-esta-brilhando-os-olhos-do-mercado/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de produtos digitais: o que é e como fazer (<a href="https://herospark.com/blog/gestao-de-produtos-digitais/">https://herospark.com/blog/gestao-de-produtos-digitais/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de Produtos como você nunca viu (<a href="https://www.casadocodigo.com.br/products/livro-mulheres-de-produto">https://www.casadocodigo.com.br/products/livro-mulheres-de-produto</a>)</li>
+<li><code data-kind="site">Site</code> FIAP - Pós Tech em Digital Product Management (<a href="https://postech.fiap.com.br/curso/digital-product-management/">https://postech.fiap.com.br/curso/digital-product-management/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Gestão de produtos digitais: Produto vs. Projeto (<a href="https://cursos.alura.com.br/course/gestao-produtos-digitais-produto-vs-projeto">https://cursos.alura.com.br/course/gestao-produtos-digitais-produto-vs-projeto</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: priorização (<a href="https://cursos.alura.com.br/course/gestao-produtos-priorizacao">https://cursos.alura.com.br/course/gestao-produtos-priorizacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: validação (<a href="https://cursos.alura.com.br/course/gestao-produtos-digitais-validacao">https://cursos.alura.com.br/course/gestao-produtos-digitais-validacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: aceleração (<a href="https://cursos.alura.com.br/course/gestao-produtos-aceleracao">https://cursos.alura.com.br/course/gestao-produtos-aceleracao</a>)</li>
+</ul>
+<h3>Product Discovery:</h3>
 <ul><li>Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.</li>
 <li>Analisar o mercado para identificar tendências e oportunidades.</li>
 <li>Conduzie entrevistas para entender as necessidades dos usuários.</li>
@@ -235,13 +300,32 @@
 <li>Estudar os concorrentes para identificar lacunas e diferenciais.</li>
 <li>Testar hipóteses para validar a viabilidade do produto.</li>
 <li>Mapear as jornadas dos usuários para identificar pontos de dor.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Product Manager</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Product Discovery, como se diferencia do Product Delivery, e qual o seu valor na Estratégia de crescimento da Empresa (<a href="https://medium.com/@pravy.design/o-que-%C3%A9-product-discovery-como-se-diferencia-do-product-delivery-e-qual-o-seu-valor-na-estrat%C3%A9gia-9cdae6c50e2c">https://medium.com/@pravy.design/o-que-%C3%A9-product-discovery-como-se-diferencia-do-product-delivery-e-qual-o-seu-valor-na-estrat%C3%A9gia-9cdae6c50e2c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Product Discovery: o que é, como fazer e quais as melhores técnicas (<a href="https://produtosincriveis.co/blog/product-discovery-o-que-e-como-fazer-e-quais-as-melhores-tecnicas">https://produtosincriveis.co/blog/product-discovery-o-que-e-como-fazer-e-quais-as-melhores-tecnicas</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Product Manager: O que é e como se destacar na área (<a href="https://cursos.alura.com.br/extra/layerstech/product-discovery-layers-ponto-tech-114-a1958">https://cursos.alura.com.br/extra/layerstech/product-discovery-layers-ponto-tech-114-a1958</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Product Discovery (<a href="https://cursos.alura.com.br/extra/hipsterstech/product-discovery-hipsters-188-a372">https://cursos.alura.com.br/extra/hipsterstech/product-discovery-hipsters-188-a372</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: Product Discovery (<a href="https://cursos.alura.com.br/course/gestao-produtos-digitais-product-discovery">https://cursos.alura.com.br/course/gestao-produtos-digitais-product-discovery</a>)</li>
+<li><code data-kind="curso">Curso</code> Startupismo: Product Discovery (<a href="https://cursos.alura.com.br/course/startupismo-product-discovery">https://cursos.alura.com.br/course/startupismo-product-discovery</a>)</li>
+</ul>
+<h3>Product Manager:</h3>
 <ul><li>Product Manager é quem busca gerenciar o processo de Product Discovery garantindo que as necessidades dos usuários sejam compreendidas e que as soluções sejam alinhadas com as oportunidades de mercado.</li>
 <li>Supervisionar a análise de mercado para identificar tendências e oportunidades estratégicas que posicionem o produto de forma competitiva.</li>
 <li>Coordenar a criação e validação de protótipos para assegurar que as ideias e conceitos sejam sólidos e que atendam às expectativas do mercado.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Product Manager: o que faz, salário e como ingressar na profissão (<a href="https://www.cursospm3.com.br/blog/product-manager-guia-o-que-faz-salario-como-ingressar-na-profissao/#:~:text=O%20cargo%20de%20Product%20Manager,ativamente%20o%20sucesso%20da%20empresa">https://www.cursospm3.com.br/blog/product-manager-guia-o-que-faz-salario-como-ingressar-na-profissao/#:~:text=O%20cargo%20de%20Product%20Manager,ativamente%20o%20sucesso%20da%20empresa</a>.)</li>
+<li><code data-kind="youtube">YouTube</code> Como é ser Product Manager no Nubank (<a href="https://www.youtube.com/watch?v=cy1YwS57wa8">https://www.youtube.com/watch?v=cy1YwS57wa8</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Product Manager: uma jornada em gestão de produto (<a href="https://cursos.alura.com.br/course/product-manager-jornada-gestao-produto">https://cursos.alura.com.br/course/product-manager-jornada-gestao-produto</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Product Manager: O que é e como se destacar na área (<a href="https://www.alura.com.br/artigos/product-manager-o-que-e-e-como-se-destacar">https://www.alura.com.br/artigos/product-manager-o-que-e-e-como-se-destacar</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+<h3>Roadmap:</h3>
 <ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
 <li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
 <li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
@@ -250,19 +334,46 @@
 <li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
 <li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
 <li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Sprint</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Glossário - Roadmap (<a href="https://www.cursospm3.com.br/glossario/roadmap/">https://www.cursospm3.com.br/glossario/roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conheça o roadmap: a ferramenta que guia a estratégia da sua empresa (<a href="https://blog.runrun.it/o-que-e-roadmap/">https://blog.runrun.it/o-que-e-roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Roadmap (<a href="https://miro.com/pt/agile/o-que-e-roadmap/">https://miro.com/pt/agile/o-que-e-roadmap/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Roadmap de Produtos: O que é e como criar um? (<a href="https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos">https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Roadmap: como criar e manter o mapa de produto (<a href="https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto">https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto</a>)</li>
+</ul>
+<h3>Design Sprint:</h3>
 <ul><li>Facilitar a definição clara de problemas para alinhar a equipe na busca por soluções eficazes.</li>
 <li>Conduzir sessões de ideação que gerem múltiplas soluções criativas para atender às necessidades dos usuários.</li>
 <li>Validar rapidamente conceitos com protótipos, permitindo ajustes ágeis com base no feedback real dos usuários.</li>
 <li>Testar hipóteses em um curto período de tempo, garantindo eficiência e economia de recursos no desenvolvimento do produto.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Priorização</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Glossário - Design Sprint (<a href="https://www.cursospm3.com.br/glossario/design-sprint/">https://www.cursospm3.com.br/glossario/design-sprint/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Sprint: o que é, benefícios, etapas e como se preparar (<a href="https://www.cursospm3.com.br/blog/design-sprint/">https://www.cursospm3.com.br/blog/design-sprint/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Design Sprint 2.0: crie produtos digitais rapidamente (<a href="https://cursos.alura.com.br/course/design-sprint">https://cursos.alura.com.br/course/design-sprint</a>)</li>
+</ul>
+<h3>Priorização:</h3>
 <ul><li>Identificar e aplicar métodos eficazes de priorização, como &quot;Kano Model&quot; e &quot;Moscow&quot;, para garantir que os recursos mais valiosos sejam desenvolvidos primeiro.</li>
 <li>Analisar a relação entre risco e valor para tomar decisões informadas que equilibrem a inovação com a viabilidade técnica e comercial.</li>
 <li>Utilizar o User Story Map para organizar e priorizar o backlog de forma visual, facilitando a quebra de atividades maiores em tarefas menores e mais gerenciáveis.</li>
 <li>Avaliar o impacto do Cost of Delay para determinar a urgência das funcionalidades e otimizar o tempo de lançamento do produto no mercado.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Glossário - Kano Model (<a href="https://www.cursospm3.com.br/glossario/kano-model/">https://www.cursospm3.com.br/glossario/kano-model/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Método MoSCoW: framework para ajudar a priorizar tarefas (<a href="https://www.cursospm3.com.br/blog/metodo-moscow-framework-para-priorizar-tarefas">https://www.cursospm3.com.br/blog/metodo-moscow-framework-para-priorizar-tarefas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é User Story Mapping? (<a href="https://www.cursospm3.com.br/blog/o-que-e-user-story-mapping/">https://www.cursospm3.com.br/blog/o-que-e-user-story-mapping/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é o Custo de Atraso e Como Otimizar seu Processo (<a href="https://businessmap.io/pt/gestao-lean/valor-desperdicio/custo-de-atraso">https://businessmap.io/pt/gestao-lean/valor-desperdicio/custo-de-atraso</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Gestão de produtos digitais: priorização (<a href="https://cursos.alura.com.br/course/gestao-produtos-priorizacao">https://cursos.alura.com.br/course/gestao-produtos-priorizacao</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Management 3.0</strong>:</li>
+<h3>Management 3.0:</h3>
 <ul><li>Management 3.0 é uma abordagem de gestão que enfatiza a colaboração, autonomia e melhoria contínua para liderar equipes em ambientes complexos e dinâmicos.</li>
 <li>Compartilhe informações e decisões abertamente.</li>
 <li>Permita que os membros da equipe tomem decisões e assumam responsabilidades.</li>
@@ -271,7 +382,18 @@
 <li>Aborde conflitos de forma colaborativa e construtiva.</li>
 <li>Encoraje a colaboração e o trabalho em equipe.</li>
 <li>Esteja preparado para mudanças e adapte-se rapidamente.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Scrum</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Management 3.0 - Conheça todos os conceitos desse novo modelo de gestão (<a href="https://www.metodoagil.com/management-30/">https://www.metodoagil.com/management-30/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Management 3.0: por que você deve conhecer esse modelo de gestão? (<a href="https://www.mjvinnovation.com/pt-br/blog/management-3-0/">https://www.mjvinnovation.com/pt-br/blog/management-3-0/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Management 3.0: otimize a sua gestão, valorize seus colaboradores e aumente a produtividade (<a href="https://www.totvs.com/blog/negocios/management-3-0/">https://www.totvs.com/blog/negocios/management-3-0/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Gestão com Management 3.0 - Hipsters #80 (<a href="https://cursos.alura.com.br/extra/hipsterstech/gestao-com-management-3-0-hipsters-80-a506">https://cursos.alura.com.br/extra/hipsterstech/gestao-com-management-3-0-hipsters-80-a506</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Management 3.0 e por que aplicá-lo na sua empresa (<a href="https://www.alura.com.br/empresas/artigos/o-que-e-management-3-0-e-por-que-aplica-lo-na-sua-empresa">https://www.alura.com.br/empresas/artigos/o-que-e-management-3-0-e-por-que-aplica-lo-na-sua-empresa</a>)</li>
+<li><code data-kind="curso">Curso</code> Management 3.0: gerencie o ambiente, não as pessoas (<a href="https://cursos.alura.com.br/course/management-3-0-gerencie-ambiente-nao-pessoas">https://cursos.alura.com.br/course/management-3-0-gerencie-ambiente-nao-pessoas</a>)</li>
+</ul>
+<h3>Scrum:</h3>
 <ul><li>Scrum é uma metodologia ágil focada em entregas incrementais e iterativas, promovendo a colaboração entre equipes para desenvolver projetos complexos de forma eficiente.</li>
 <li>Inclui Product Owner, Scrum Master e equipe de desenvolvimento.</li>
 <li>Períodos curtos de trabalho com metas definidas, geralmente de 2-4 semanas.</li>
@@ -282,7 +404,21 @@
 <li>Reunião para refletir e melhorar processos após cada sprint.</li>
 <li>Produto funcional e utilizável entregue ao final de cada sprint.</li>
 <li>Critérios claros que definem quando uma tarefa está completa.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cultura Ágil</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Scrum: Gestão ágil para produtos de sucesso (<a href="https://www.casadocodigo.com.br/products/livro-scrum">https://www.casadocodigo.com.br/products/livro-scrum</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Scrum: o que é, como funciona e como aplicar (<a href="https://www.cursospm3.com.br/blog/scrum-o-que-e-como-funciona-e-como-aplicar/">https://www.cursospm3.com.br/blog/scrum-o-que-e-como-funciona-e-como-aplicar/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é scrum e como começar (<a href="https://www.atlassian.com/br/agile/scrum">https://www.atlassian.com/br/agile/scrum</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tudo sobre Metodologia Scrum: o que é e como essa ferramenta pode te ajudar a poupar tempo e gerir melhor seus projetos (<a href="https://www.treasy.com.br/blog/scrum/">https://www.treasy.com.br/blog/scrum/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Scrum: agilidade em seu projeto (<a href="https://www.alura.com.br/curso-online-scrum-agilidade-seu-projeto">https://www.alura.com.br/curso-online-scrum-agilidade-seu-projeto</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como aplicar cerimônias remotas de Scrum (<a href="https://www.alura.com.br/empresas/artigos/cerimonias-remotas-com-scrum">https://www.alura.com.br/empresas/artigos/cerimonias-remotas-com-scrum</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Scrum e Agile para além de Tecnologia - Hipster #115 (<a href="https://www.alura.com.br/podcast/hipsterstech-scrum-e-agile-para-alem-de-tecnologia-hipsters-115-a467">https://www.alura.com.br/podcast/hipsterstech-scrum-e-agile-para-alem-de-tecnologia-hipsters-115-a467</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Scrum: do zero ao Sprint - Hipsters #54 (<a href="https://cursos.alura.com.br/extra/hipsterstech/scrum-do-zero-ao-sprint-hipsters-54-a532">https://cursos.alura.com.br/extra/hipsterstech/scrum-do-zero-ao-sprint-hipsters-54-a532</a>)</li>
+<li><code data-kind="curso">Curso</code> Cultura e Métodos Ágeis: pilares para uma imersão avançada (<a href="https://cursos.alura.com.br/course/cultura-metodos-ageis-pilares-imersao-avancada">https://cursos.alura.com.br/course/cultura-metodos-ageis-pilares-imersao-avancada</a>)</li>
+</ul>
+<h3>Cultura Ágil:</h3>
 <ul><li>Enfatizar o trabalho em equipe e a comunicação aberta.</li>
 <li>Promover feedback regular para melhorias rápidas e eficazes.</li>
 <li>Empoderar equipes autônomas para tomar decisões.</li>
@@ -291,26 +427,71 @@
 <li>Fomentar o desenvolvimento incremental com ciclos curtos e frequentes.</li>
 <li>Demonstrar flexibilidade para ajustar processos conforme necessário.</li>
 <li>Entregar valor contínuo e mensurável ao cliente.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O impacto da cultura ágil nas organizações e os riscos da banalização (<a href="https://blog.fiaonline.com.br/o-impacto-da-cultura-agil">https://blog.fiaonline.com.br/o-impacto-da-cultura-agil</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual é a importância da cultura ágil em momentos de transformação digital? (<a href="https://gptw.com.br/conteudo/artigos/cultura-agil/">https://gptw.com.br/conteudo/artigos/cultura-agil/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cultura ágil: o que é e por que ela é essencial para a sua empresa? (<a href="https://www.ieepeducacao.com.br/cultura-agil/">https://www.ieepeducacao.com.br/cultura-agil/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Agile testing - o que é e qual o papel do QA num time ágil? (<a href="https://www.alura.com.br/artigos/agile-testing-o-que-e-qual-papel-qa-num-time-agil">https://www.alura.com.br/artigos/agile-testing-o-que-e-qual-papel-qa-num-time-agil</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O papel da documentação de software nas metodologias ágeis (<a href="https://www.alura.com.br/artigos/o-papel-da-documentacao-de-software-nas-metodologias-ageis">https://www.alura.com.br/artigos/o-papel-da-documentacao-de-software-nas-metodologias-ageis</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que são retrospectivas no Ambiente Ágil (<a href="https://www.alura.com.br/artigos/retrospectivas-ambiente-agil">https://www.alura.com.br/artigos/retrospectivas-ambiente-agil</a>)</li>
+<li><code data-kind="curso">Curso</code> Práticas Ágeis: construa um ambiente ágil (<a href="https://cursos.alura.com.br/course/praticas-ageis">https://cursos.alura.com.br/course/praticas-ageis</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Agilidade - Hipsters #05 (<a href="https://www.alura.com.br/podcast/hipsterstech-agilidade-hipsters-05-a581">https://www.alura.com.br/podcast/hipsterstech-agilidade-hipsters-05-a581</a>)</li>
+<li><code data-kind="curso">Curso</code> Cultura e Métodos Ágeis: pilares para uma imersão avançada (<a href="https://cursos.alura.com.br/course/cultura-metodos-ageis-pilares-imersao-avancada">https://cursos.alura.com.br/course/cultura-metodos-ageis-pilares-imersao-avancada</a>)</li>
+<li><code data-kind="curso">Curso</code> Agile Coaching: difunda o Ágil nas organizações (<a href="https://www.alura.com.br/curso-online-agile-coaching-difunda-agil-organizacoes">https://www.alura.com.br/curso-online-agile-coaching-difunda-agil-organizacoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Práticas Ágeis: construa um ambiente ágil (<a href="https://www.alura.com.br/curso-online-lean-agil-expanda-horizontes-organizacao-toda">https://www.alura.com.br/curso-online-lean-agil-expanda-horizontes-organizacao-toda</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão Ágil: liderando a mudança em um ambiente de agilidade (<a href="https://cursos.alura.com.br/course/gestao-agil">https://cursos.alura.com.br/course/gestao-agil</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão Ágil: explorando conceitos da agilidade (<a href="https://cursos.alura.com.br/course/gestao-agil-conceitos-agilidade">https://cursos.alura.com.br/course/gestao-agil-conceitos-agilidade</a>)</li>
+<li><code data-kind="curso">Curso</code> Práticas Ágeis: construa um ambiente ágil (<a href="https://cursos.alura.com.br/course/gestao-agil-gestao-processos-agilidade">https://cursos.alura.com.br/course/gestao-agil-gestao-processos-agilidade</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Análise de dados</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cálculos, padrões e estratégias</strong>:</li>
+<h3>Cálculos, padrões e estratégias:</h3>
 <ul><li>Entender e aplicar técnicas de estatística descritiva para analisar bancos de dados, utilizando cálculos como média, mediana e desvio padrão para obter insights significativos.</li>
 <li>Identificar e interpretar padrões em conjuntos de dados, aplicando técnicas avançadas de análise para detectar tendências, anomalias e correlações que possam influenciar decisões estratégicas.</li>
 <li>Visualizar dados de forma eficaz, destacando casos incomuns ou outliers, e utilizando essas visualizações para comunicar descobertas de maneira clara e acionável para stakeholders.</li>
 <li>Integrar insights quantitativos na formulação de estratégias de negócios, garantindo que as decisões sejam baseadas em dados sólidos e análises rigorosas, direcionando a empresa para resultados mais precisos e previsíveis.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Coletando e analisando dados de um produto</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Análise de dados: o que é, tipos e como fazer em Produto (<a href="https://www.cursospm3.com.br/blog/analise-de-dados-em-produto/?gad_source=1&gclid=CjwKCAjwuMC2BhA7EiwAmJKRrB2MxrvQypvJ93wGaii9kKhDZyEtvklYQnkg732gP0qUDuS4CxS4PBoClOIQAvD_BwE">https://www.cursospm3.com.br/blog/analise-de-dados-em-produto/?gad_source=1&amp;gclid=CjwKCAjwuMC2BhA7EiwAmJKRrB2MxrvQypvJ93wGaii9kKhDZyEtvklYQnkg732gP0qUDuS4CxS4PBoClOIQAvD_BwE</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é análise exploratória de dados (EDA)? (<a href="https://www.ibm.com/br-pt/topics/exploratory-data-analysis">https://www.ibm.com/br-pt/topics/exploratory-data-analysis</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Análise de dados: cálculos, padrões e estratégias com Excel (<a href="https://cursos.alura.com.br/course/analise-de-dados-excel">https://cursos.alura.com.br/course/analise-de-dados-excel</a>)</li>
+<li><code data-kind="curso">Curso</code> Data Science: explorando e analisando dados (<a href="https://cursos.alura.com.br/course/data-science-explorando-analisando-dados">https://cursos.alura.com.br/course/data-science-explorando-analisando-dados</a>)</li>
+</ul>
+<h3>Coletando e analisando dados de um produto:</h3>
 <ul><li>Compreender a importância dos dados na otimização da experiência do usuário (UX), utilizando métricas para criar produtos que atendam e superem as expectativas dos usuários, enquanto se adaptam a suas necessidades em constante evolução.</li>
 <li>Capacitar a equipe para coletar dados de qualidade no dia a dia, utilizando ferramentas como HOTJAR e Google Analytics para obter insights profundos sobre o comportamento do usuário, desde análises de calor até funis de conversão.</li>
 <li>Desenvolver habilidades de análise e interpretação de dados coletados, transformando esses dados em informações acionáveis que orientem decisões de design e melhorias contínuas na experiência do usuário.</li>
 <li>Integrar uma abordagem data-driven no processo de design UX, garantindo que todas as decisões sejam fundamentadas em dados sólidos, resultando em um design centrado no usuário que também atenda aos objetivos de negócios.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Business Model Canvas</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> What Is Data-Driven Design and How to Master It (<a href="https://medium.com/triadeecoo/entrevista-com-marjorie-okuyama-ux-analytics-e-o-sonhado-data-driven-design-54aa2a880777">https://medium.com/triadeecoo/entrevista-com-marjorie-okuyama-ux-analytics-e-o-sonhado-data-driven-design-54aa2a880777</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entrevista com Marjorie Okuyama, UX Analytics e o sonhado Data Driven Design (<a href="https://userpilot.com/blog/data-driven-design/">https://userpilot.com/blog/data-driven-design/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> UX Design: coletando dados para o meu produto (<a href="https://cursos.alura.com.br/course/ux-design-coletando-dados-produto">https://cursos.alura.com.br/course/ux-design-coletando-dados-produto</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é uma cultura Data Driven e qual é a sua importância (<a href="https://www.alura.com.br/artigos/data-driven">https://www.alura.com.br/artigos/data-driven</a>)</li>
+<li><code data-kind="artigo">Artigo</code> UX Design em T: o que a Ciência de Dados tem a ver com a UX? (<a href="https://www.alura.com.br/artigos/o-que-a-ciencias-de-dados-tem-a-ver-com-a-ux">https://www.alura.com.br/artigos/o-que-a-ciencias-de-dados-tem-a-ver-com-a-ux</a>)</li>
+</ul>
+<h3>Business Model Canvas:</h3>
 <ul><li>Estruturar ideias de negócios de forma clara e prática, utilizando o Business Model Canvas para transformar conceitos em modelos tangíveis, organizando componentes essenciais como segmentos de clientes, propostas de valor e canais de distribuição.</li>
 <li>Desenvolver um plano de negócios robusto que atraia investidores e parceiros, baseando-se no Business Model Canvas para detalhar como a empresa gerará e entregará valor, abordando estrutura de custos, fluxos de receita e atividades e parcerias-chave.</li>
 <li>Fomentar a análise crítica e a adaptação contínua do modelo de negócios, utilizando o Canvas como uma ferramenta dinâmica para identificar oportunidades de inovação, otimização de recursos e resposta a mudanças no mercado.</li>
 <li>Integrar recursos e atividades-chave para maximizar a eficiência e o valor oferecido, garantindo que todos os componentes do Business Model Canvas estejam interconectados e contribuam para o sucesso e sustentabilidade do empreendimento.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="conteúdo">Conteúdo</code> Template de Business Model Canvas (<a href="https://miro.com/pt/modelos/business-model-canvas/">https://miro.com/pt/modelos/business-model-canvas/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Making a business model canvas: How-tos, templates, and tips (<a href="https://www.canva.com/online-whiteboard/business-model-canvas/">https://www.canva.com/online-whiteboard/business-model-canvas/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Business Model Canvas parte I: um modelo poderoso para o seu negócio (<a href="https://cursos.alura.com.br/course/business-model-canvas">https://cursos.alura.com.br/course/business-model-canvas</a>)</li>
+<li><code data-kind="curso">Curso</code> Business Model Canvas parte II: avance no seu modelo de negócios (<a href="https://cursos.alura.com.br/course/avance-na-construcao-de-negocios">https://cursos.alura.com.br/course/avance-na-construcao-de-negocios</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Liderança</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Fundamentos da Liderança</strong>:</li>
+<h3>Fundamentos da Liderança:</h3>
 <ul><li>Fundamentos da liderança são princípios e práticas essenciais que guiam os líderes na motivação, orientação e gestão de equipes para alcançar objetivos organizacionais eficazmente.</li>
 <li>Definir e comunicar uma visão clara e inspiradora.</li>
 <li>Praticar a comunicação clara e eficaz com a equipe.</li>
@@ -320,7 +501,25 @@
 <li>Inspirar e encorajar a equipe a alcançar seus melhores resultados.</li>
 <li>Fazer escolhas informadas e responsáveis.</li>
 <li>Investir no crescimento e capacitação da equipe.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Tech Lead</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Livro Liderança - Casa do Código (<a href="https://www.casadocodigo.com.br/products/livro-lideranca">https://www.casadocodigo.com.br/products/livro-lideranca</a>)</li>
+<li><code data-kind="site">Site</code> Livro Liderança de produtos digitais - Casa do Código (<a href="https://www.casadocodigo.com.br/products/livro-lideranca-produtos">https://www.casadocodigo.com.br/products/livro-lideranca-produtos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Fundamentos da liderança: conheça 9 habilidades essenciais! (<a href="https://www.plantareducacao.com.br/fundamentos-da-lideranca/">https://www.plantareducacao.com.br/fundamentos-da-lideranca/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liderança: tudo sobre, tipos, importância e principais dúvidas! (<a href="https://www.pontotel.com.br/lideranca/">https://www.pontotel.com.br/lideranca/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liderança: importância, competências, tipos e como desenvolver (<a href="https://www.qulture.rocks/blog/lideranca">https://www.qulture.rocks/blog/lideranca</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Um guia completo sobre liderança e como ser um bom líder! (<a href="https://rockcontent.com/br/blog/lideranca/">https://rockcontent.com/br/blog/lideranca/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como líderes de TI podem desenvolver competências de liderança? (<a href="https://www.alura.com.br/empresas/artigos/competencias-de-lideranca">https://www.alura.com.br/empresas/artigos/competencias-de-lideranca</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 características de uma boa liderança e como alcançá-las (<a href="https://www.alura.com.br/empresas/artigos/lideranca">https://www.alura.com.br/empresas/artigos/lideranca</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liderança inclusiva: conheça os benefícios de promover a diversidade no ambiente de trabalhoc (<a href="https://www.alura.com.br/empresas/artigos/lideranca-inclusiva">https://www.alura.com.br/empresas/artigos/lideranca-inclusiva</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como manter os colaboradores engajados (<a href="https://www.alura.com.br/empresas/artigos/como-manter-os-colaboradores-engajados">https://www.alura.com.br/empresas/artigos/como-manter-os-colaboradores-engajados</a>)</li>
+<li><code data-kind="curso">Curso</code> Liderança: práticas de gestão e melhorias (<a href="https://cursos.alura.com.br/course/lideranca-praticas-gestao-melhoriasc">https://cursos.alura.com.br/course/lideranca-praticas-gestao-melhoriasc</a>)</li>
+<li><code data-kind="curso">Curso</code> Delegação de tarefas: obtenha o melhor do seu time (<a href="https://cursos.alura.com.br/course/delegacao-tarefas-obtenha-melhor-time">https://cursos.alura.com.br/course/delegacao-tarefas-obtenha-melhor-time</a>)</li>
+<li><code data-kind="curso">Curso</code> Negociação para líderes: desenvolva a habilidade e consiga bons acordos (<a href="https://cursos.alura.com.br/course/negociacao-lideres-habilidade-bons-acordos">https://cursos.alura.com.br/course/negociacao-lideres-habilidade-bons-acordos</a>)</li>
+</ul>
+<h3>Tech Lead:</h3>
 <ul><li>Tech Lead é um papel de liderança técnica em equipes de desenvolvimento de software, responsável por guiar a equipe no desenvolvimento de soluções tecnológicas.</li>
 <li>Projete e mantenha a arquitetura de software.</li>
 <li>Encontre soluções técnicas para desafios complexos.</li>
@@ -328,7 +527,21 @@
 <li>Desenvolva habilidades técnicas da equipe.</li>
 <li>Comunique-se claramente com a equipe e stakeholders.</li>
 <li>Promova e implemente práticas e tecnologias inovadoras.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Tech Lead: o que faz, quanto ganha, mercado de trabalho, habilidades e cursos de formação (<a href="https://blog.crowd.br.com/tech-lead/">https://blog.crowd.br.com/tech-lead/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tech lead: o que é, funções, salário e como se tornar um (<a href="https://blog.geekhunter.com.br/tech-lead/">https://blog.geekhunter.com.br/tech-lead/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é um Tech Lead? (<a href="https://www.ironhack.com/pt/blog/o-que-e-um-tech-lead">https://www.ironhack.com/pt/blog/o-que-e-um-tech-lead</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Kamila Santos - Tech Lead na Zup | Hipsters: Líderes em TI (<a href="https://www.youtube.com/watch?v=nB68FLQjbkA">https://www.youtube.com/watch?v=nB68FLQjbkA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mauricio Aniche - Tech Lead na Adyen | Hipsters: Líderes em TI (<a href="https://www.youtube.com/watch?v=r7Q32f6ohQc">https://www.youtube.com/watch?v=r7Q32f6ohQc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Tudo o que você precisa saber sobre a profissão Tech Lead (<a href="https://www.alura.com.br/artigos/tech-lead">https://www.alura.com.br/artigos/tech-lead</a>)</li>
+<li><code data-kind="curso">Curso</code> Profissão Tech Lead: conhecendo a liderança técnica (<a href="https://cursos.alura.com.br/course/profissao-tech-lead-conhecendo-lideranca-tecnica">https://cursos.alura.com.br/course/profissao-tech-lead-conhecendo-lideranca-tecnica</a>)</li>
+<li><code data-kind="curso">Curso</code> Tech Lead: construindo práticas e rotinas de gestão (<a href="https://cursos.alura.com.br/course/tech-lead-construindo-praticas-rotinas-gestao">https://cursos.alura.com.br/course/tech-lead-construindo-praticas-rotinas-gestao</a>)</li>
+<li><code data-kind="curso">Curso</code> Tech Lead: gerindo pessoas e guiando para alta performance (<a href="https://cursos.alura.com.br/course/tech-lead-gerindo-pessoas-guiando-alta-performance">https://cursos.alura.com.br/course/tech-lead-gerindo-pessoas-guiando-alta-performance</a>)</li>
+<li><code data-kind="curso">Curso</code> Tech Lead: desenvolvendo habilidades de comunicação (<a href="https://cursos.alura.com.br/course/tech-lead-desenvolvendo-habilidades-comunicacao">https://cursos.alura.com.br/course/tech-lead-desenvolvendo-habilidades-comunicacao</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

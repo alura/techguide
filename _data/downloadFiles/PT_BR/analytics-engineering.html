@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,21 +249,58 @@
   </div>
 
   <div class="content">
-    <h1>Analytics Engineering</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise e Visualização de Dados (BI)</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Análise e Visualização de Dados (BI):</h3>
 <ul><li>Esses conteúdos abrangem o campo da análise de dados e visualização de informações, com foco no Power BI, Tableau, Qlik Sense e Google Sheets.</li>
 <li>Os vídeos e cursos oferecem introdução ao Power BI, análise de dados da Microsoft, preparação de dados, modelagem de dados, visualização de dados, análise de dados e gerenciamento de workspaces e conjuntos de dados no Power BI.</li>
 <li>Os cursos da Alura oferecem formação em Power BI, Data Analysis com Google Sheets, Tableau, Looker Studio e Qlik Sense, fornecendo conhecimentos abrangentes nessas ferramentas.</li>
 <li>Os artigos fornecem informações sobre o que é Qlik, Tableau, Power BI e Looker Studio, bem como seus produtos e funcionalidades.</li>
 <li>Esses conteúdos são úteis para profissionais que desejam aprimorar suas habilidades em análise de dados, visualização de informações e utilização de ferramentas como Power BI, Tableau, Qlik Sense e Google Sheets.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Business Intelligence (BI) - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Karine Lago: Minicurso Gratuito de Power BI (<a href="https://www.youtube.com/playlist?list=PLV-9aagMq_koO4Od7H8_SiowraQDI5gET">https://www.youtube.com/playlist?list=PLV-9aagMq_koO4Od7H8_SiowraQDI5gET</a>)</li>
+<li><code data-kind="curso">Curso</code> Introdução à análise de dados da Microsoft (<a href="https://learn.microsoft.com/pt-br/training/paths/data-analytics-microsoft/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm">https://learn.microsoft.com/pt-br/training/paths/data-analytics-microsoft/?ns-enrollment-type=Collection&amp;ns-enrollment-id=djwu3eywpk4nm</a>)</li>
+<li><code data-kind="curso">Curso</code> Preparar dados para análise (<a href="https://learn.microsoft.com/pt-br/training/paths/prepare-data-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm">https://learn.microsoft.com/pt-br/training/paths/prepare-data-power-bi/?ns-enrollment-type=Collection&amp;ns-enrollment-id=djwu3eywpk4nm</a>)</li>
+<li><code data-kind="curso">Curso</code> Modelar dados no Power BI (<a href="https://learn.microsoft.com/pt-br/training/paths/model-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm">https://learn.microsoft.com/pt-br/training/paths/model-power-bi/?ns-enrollment-type=Collection&amp;ns-enrollment-id=djwu3eywpk4nm</a>)</li>
+<li><code data-kind="curso">Curso</code> Criar visuais e relatórios do Power BI (<a href="https://learn.microsoft.com/pt-br/training/paths/perform-analytics-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm">https://learn.microsoft.com/pt-br/training/paths/perform-analytics-power-bi/?ns-enrollment-type=Collection&amp;ns-enrollment-id=djwu3eywpk4nm</a>)</li>
+<li><code data-kind="curso">Curso</code> Gerenciar workspaces e conjuntos de dados no Power BI (<a href="https://learn.microsoft.com/pt-br/training/paths/manage-workspaces-datasets-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm">https://learn.microsoft.com/pt-br/training/paths/manage-workspaces-datasets-power-bi/?ns-enrollment-type=Collection&amp;ns-enrollment-id=djwu3eywpk4nm</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é um dashboard? (<a href="https://www.alura.com.br/artigos/dashboard">https://www.alura.com.br/artigos/dashboard</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Análise de Dados no Brasil (<a href="https://cursos.alura.com.br/extra/hipsterstech/analise-de-dados-no-brasil-hipsters-ponto-tech-402-a9261">https://cursos.alura.com.br/extra/hipsterstech/analise-de-dados-no-brasil-hipsters-ponto-tech-402-a9261</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qlik: O que é, quais seus Produtos e Licenças? (<a href="https://www.alura.com.br/artigos/qlik-o-que-e">https://www.alura.com.br/artigos/qlik-o-que-e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Tableau, quais seus produtos e Como Funciona? (<a href="https://www.alura.com.br/artigos/o-que-e-tableau">https://www.alura.com.br/artigos/o-que-e-tableau</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Power BI? Para que serve e um Guia para iniciar (<a href="https://www.alura.com.br/artigos/power-bi">https://www.alura.com.br/artigos/power-bi</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Looker Studio: o que é? (<a href="https://www.alura.com.br/artigos/looker-studio-o-que-e">https://www.alura.com.br/artigos/looker-studio-o-que-e</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Power BI (<a href="https://www.alura.com.br/formacao-power-bi">https://www.alura.com.br/formacao-power-bi</a>)</li>
+<li><code data-kind="curso">Curso</code> “Formação Data Analysis com Google Sheets” (<a href="https://www.alura.com.br/formacao-data-analysis-google-sheets">https://www.alura.com.br/formacao-data-analysis-google-sheets</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Tableau (<a href="https://www.alura.com.br/formacao-tableau">https://www.alura.com.br/formacao-tableau</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Looker Studio (<a href="https://www.alura.com.br/formacao-google-looker-studio">https://www.alura.com.br/formacao-google-looker-studio</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Qlik Sense (<a href="https://www.alura.com.br/formacao-qlik-sense">https://www.alura.com.br/formacao-qlik-sense</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação MicroStrategy Workstation (<a href="https://cursos.alura.com.br/formacao-microstrategy-workstation">https://cursos.alura.com.br/formacao-microstrategy-workstation</a>)</li>
+</ul>
+<h3>Business Intelligence (BI) - Fundamentos:</h3>
 <ul><li>Business Intelligence é um conjunto de teorias, metodologias, processos e tecnologias que possibilitam a transformação dos dados “crus” em informações extremamente relevantes para tomada de decisão de uma empresa.</li>
 <li>Conhecer o processo de ETL</li>
 <li>Realizar a modelagem e estruturação de tabelas em um Data Warehouse</li>
 <li>Criar visualizações que façam sentido</li>
 <li>Conhecer o PowerBI</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Business Intelligence em Bibliotecas com Power BI (<a href="https://franciscofoz.medium.com/business-intelligence-em-bibliotecas-com-power-bi-4065df7b232c">https://franciscofoz.medium.com/business-intelligence-em-bibliotecas-com-power-bi-4065df7b232c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafael Piton: O que é BI - Business Intelligence (Guia Definitivo) (<a href="https://www.youtube.com/watch?v=PoCLfN6sF_8">https://www.youtube.com/watch?v=PoCLfN6sF_8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é o Microsoft Power BI? (<a href="https://medium.com/data-are-lakes/o-que-%C3%A9-o-microsoft-power-bi-f98476ef5c48">https://medium.com/data-are-lakes/o-que-%C3%A9-o-microsoft-power-bi-f98476ef5c48</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Karine Lago: Introdução ao Power BI (<a href="https://www.youtube.com/watch?v=lMfh2c7GaWI">https://www.youtube.com/watch?v=lMfh2c7GaWI</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Business Intelligence: O que é? (<a href="https://www.alura.com.br/artigos/business-intelligence">https://www.alura.com.br/artigos/business-intelligence</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Power BI ou Excel para Business Intelligence? (<a href="https://www.alura.com.br/artigos/power-bi-excel-business-intelligence">https://www.alura.com.br/artigos/power-bi-excel-business-intelligence</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Business Intelligence com Excel (<a href="https://www.alura.com.br/formacao-business-intelligence-excel">https://www.alura.com.br/formacao-business-intelligence-excel</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Power BI (<a href="https://www.alura.com.br/formacao-power-bi">https://www.alura.com.br/formacao-power-bi</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação BI e Data Warehouse com SQL Server e Power BI (<a href="https://www.alura.com.br/formacao-business-intelligence-data-warehouse">https://www.alura.com.br/formacao-business-intelligence-data-warehouse</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Qlik Sense (<a href="https://www.alura.com.br/formacao-qlik-sense">https://www.alura.com.br/formacao-qlik-sense</a>)</li>
+</ul>
+<h3>Python - Fundamentos:</h3>
 <ul><li>Python é uma linguagem de programação de alto nível, de uso geral, amplamente utilizada em aplicações web, desenvolvimento de software, ciência de dados e Machine Learning. Sua filosofia de projeto enfatiza a legibilidade do código com o uso de indentação significativa. Python é dinamicamente tipada e tem um garbage collector.</li>
 <li>Conhecer os tipos primitivos</li>
 <li>Declarar variáveis, considerando os diferentes tipos</li>
@@ -236,7 +313,28 @@
 <li>Obter dados de uma API</li>
 <li>Criar construtores</li>
 <li>Funções anônimas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Python (<a href="https://docs.python.org/pt-br/3/tutorial/">https://docs.python.org/pt-br/3/tutorial/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Programação | Python — Parte 1 (<a href="https://medium.com/turing-talks/turing-talks-4-python-parte-1-29b8d9efd0a5">https://medium.com/turing-talks/turing-talks-4-python-parte-1-29b8d9efd0a5</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao Python (<a href="https://medium.com/@goularteduarda.a/introdu%C3%A7%C3%A3o-ao-python-d30c29eba0d6">https://medium.com/@goularteduarda.a/introdu%C3%A7%C3%A3o-ao-python-d30c29eba0d6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Eduardo Mendes: Curso introdutório de Python (<a href="https://www.youtube.com/watch?v=yTQDbqmv8Ho">https://www.youtube.com/watch?v=yTQDbqmv8Ho</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Python? História, Sintaxe e um Guia para iniciar na Linguagem (<a href="https://www.alura.com.br/artigos/python">https://www.alura.com.br/artigos/python</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Python – Hipsters 122 (<a href="https://www.hipsters.tech/python-hipsters-122/">https://www.hipsters.tech/python-hipsters-122/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Python Fluente – Hipsters Ponto Tech 179 (<a href="https://www.hipsters.tech/python-fluente-hipsters-ponto-tech-179/">https://www.hipsters.tech/python-fluente-hipsters-ponto-tech-179/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: A linguagem Python - Alura Live 94 (<a href="https://www.youtube.com/watch?v=Nbt0eQHChoI">https://www.youtube.com/watch?v=Nbt0eQHChoI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é Python? (<a href="https://www.youtube.com/watch?v=-LATVnPcvHI">https://www.youtube.com/watch?v=-LATVnPcvHI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python - Uma Introdução à Linguagem (<a href="https://www.alura.com.br/artigos/python-uma-introducao-a-linguagem">https://www.alura.com.br/artigos/python-uma-introducao-a-linguagem</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python: Trabalhando com precisão em números decimais (<a href="https://www.alura.com.br/artigos/precisao-numeros-decimais-python">https://www.alura.com.br/artigos/precisao-numeros-decimais-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Listas em Python: operações básicas (<a href="https://www.alura.com.br/artigos/listas-no-python">https://www.alura.com.br/artigos/listas-no-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como comparar objetos no Python? (<a href="https://www.alura.com.br/artigos/como-comparar-objetos-no-python">https://www.alura.com.br/artigos/como-comparar-objetos-no-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python datetime: Lidando com datas e horários (<a href="https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-python">https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Python: crie a sua primeira aplicação (<a href="https://cursos.alura.com.br/course/python-crie-sua-primeira-aplicacao">https://cursos.alura.com.br/course/python-crie-sua-primeira-aplicacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Python e orientação a objetos (<a href="https://cursos.alura.com.br/formacao-linguagem-python">https://cursos.alura.com.br/formacao-linguagem-python</a>)</li>
+</ul>
+<h3>SQL - Fundamentos:</h3>
 <ul><li>SQL (Structured Query Language, traduzindo, Linguagem de Consulta Estruturada) é uma linguagem de programação padronizada que é usada para gerenciar bancos de dados relacionais e realizar várias operações sobre os dados neles contidos.</li>
 <li>Conhecer os comandos mais comuns do SQL</li>
 <li>Usar SELECT para consultar uma tabela</li>
@@ -245,9 +343,43 @@
 <li>Usar DELETE para remover dados de uma tabela</li>
 <li>Usar JOIN para conectar os dados de múltiplas tabelas</li>
 <li>Conhecer as cláusulas (FROM, ORDER BY, etc)</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Engenharia de Dados - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SQL — O que é e como funciona na prática? (<a href="https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a">https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL: comandos básicos (<a href="https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909">https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CreateSe: Comandos básicos do SQL (<a href="https://www.youtube.com/watch?v=_rZxrqn0X-4">https://www.youtube.com/watch?v=_rZxrqn0X-4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é SQL? (<a href="https://www.alura.com.br/artigos/o-que-e-sql">https://www.alura.com.br/artigos/o-que-e-sql</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL JOIN: Aprenda INNER, LEFT, RIGHT, FULL e CROSS (<a href="https://www.alura.com.br/artigos/join-em-sql">https://www.alura.com.br/artigos/join-em-sql</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é SQL e NoSQL? (<a href="https://www.youtube.com/watch?v=aure5d3B88g">https://www.youtube.com/watch?v=aure5d3B88g</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Conhecendo SQL (<a href="https://www.alura.com.br/formacao-conhecendo-sql">https://www.alura.com.br/formacao-conhecendo-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso SQL com MySQL: manipule e consulte dados (<a href="https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql">https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação SQL com MySQL Server da Oracle (<a href="https://cursos.alura.com.br/formacao-oracle-mysql">https://cursos.alura.com.br/formacao-oracle-mysql</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL e NoSQL: trabalhando com bancos relacionais e não relacionais (<a href="https://www.alura.com.br/artigos/sql-nosql-bancos-relacionais-nao-relacionais">https://www.alura.com.br/artigos/sql-nosql-bancos-relacionais-nao-relacionais</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: conhecendo SQL (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-conhecendo-sql">https://cursos.alura.com.br/course/microsoft-sql-server-conhecendo-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de PostgreSQL (<a href="https://cursos.alura.com.br/course/introducao-postgresql-primeiros-passos">https://cursos.alura.com.br/course/introducao-postgresql-primeiros-passos</a>)</li>
+<li><code data-kind="curso">Curso</code> SQL com Oracle Database: manipule e consulte dados (<a href="https://cursos.alura.com.br/course/introducao-sql-oracle-manipule-consulte-dados">https://cursos.alura.com.br/course/introducao-sql-oracle-manipule-consulte-dados</a>)</li>
+<li><code data-kind="podcast">Podcast</code> SQL e MySQL (<a href="https://cursos.alura.com.br/extra/hipsterstech/sql-e-mysql-hipsters-ponto-tech-404-a9270">https://cursos.alura.com.br/extra/hipsterstech/sql-e-mysql-hipsters-ponto-tech-404-a9270</a>)</li>
+</ul>
+<h3>Engenharia de Dados - Fundamentos:</h3>
 <ul><li>Uma pessoa Engenheira de Dados desempenha um papel crucial ao projetar, implementar e manter as infraestruturas de dados que permitem que uma organização trabalhe de maneira eficiente com suas informações. A pessoa engenheira de dados cria pipelines de dados para integrar, limpar e transformar dados provenientes de várias fontes e formatos. Isso possibilita a geração de insights valiosos para o negócio e melhora a tomada de decisões estratégicas.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estatística e Matemática - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que faz um Engenheiro de Dados? (<a href="https://medium.com/data-hackers/o-que-faz-um-engenheiro-de-dados-fdcb0bca966b">https://medium.com/data-hackers/o-que-faz-um-engenheiro-de-dados-fdcb0bca966b</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Big Data? O que é Data Analytics? (<a href="https://www.youtube.com/watch?v=4CNqiAgmqSc">https://www.youtube.com/watch?v=4CNqiAgmqSc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Millena Gená: O que faz um Engenheiro de Dados? (<a href="https://www.youtube.com/watch?v=Zsos7iTylqo">https://www.youtube.com/watch?v=Zsos7iTylqo</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Os Tipos e Perfis de Engenheiros de Dados (<a href="https://medium.com/data-hackers/os-tipos-de-engenheiros-de-dados-c3674b4d74d1">https://medium.com/data-hackers/os-tipos-de-engenheiros-de-dados-c3674b4d74d1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O passado, presente e o futuro da Engenharia de Dados — Data Hackers Podcast (<a href="https://medium.com/data-hackers/o-passado-presente-e-o-futuro-da-engenharia-de-dados-data-hackers-podcast-49-34be714b20f6">https://medium.com/data-hackers/o-passado-presente-e-o-futuro-da-engenharia-de-dados-data-hackers-podcast-49-34be714b20f6</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Engenharia de Dados: o que é, o que faz e um Guia completo (<a href="https://www.alura.com.br/artigos/engenharia-dados">https://www.alura.com.br/artigos/engenharia-dados</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é Engenharia de Dados? (<a href="https://www.youtube.com/watch?v=_rMb6S6kimM">https://www.youtube.com/watch?v=_rMb6S6kimM</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que faz uma pessoa Engenheira de Dados? (<a href="https://www.alura.com.br/artigos/o-que-pessoa-engenheira-dados">https://www.alura.com.br/artigos/o-que-pessoa-engenheira-dados</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.Tech: Data Engineering no Quinto Andar (<a href="https://www.hipsters.tech/data-engineering-no-quinto-andar-hipsters-on-the-road-60/">https://www.hipsters.tech/data-engineering-no-quinto-andar-hipsters-on-the-road-60/</a>)</li>
+<li><code data-kind="curso">Curso</code> Primeiros passos com Engenharia de Dados (<a href="https://cursos.alura.com.br/formacao-engenharia-dados-primeiros-passos">https://cursos.alura.com.br/formacao-engenharia-dados-primeiros-passos</a>)</li>
+</ul>
+<h3>Estatística e Matemática - Fundamentos:</h3>
 <ul><li>Equações, funções e limites</li>
 <li>Logaritmos</li>
 <li>Matrizes, determinantes, vetores e espaço vetorial</li>
@@ -260,23 +392,109 @@
 <li>Técnicas de amostragem</li>
 <li>Introdução à Regressão linear</li>
 <li>Séries temporais</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Modelagem de dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Preciso saber matemática para aprender Ciência de Dados? (<a href="https://beatrizyumi.medium.com/preciso-saber-matem%C3%A1tica-para-aprender-ci%C3%AAncia-de-dados-9a9b7c7846a9">https://beatrizyumi.medium.com/preciso-saber-matem%C3%A1tica-para-aprender-ci%C3%AAncia-de-dados-9a9b7c7846a9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Filho: As 3 Áreas da Matemática Usadas em Data Science (<a href="https://www.youtube.com/watch?v=niF_T21vdZ4">https://www.youtube.com/watch?v=niF_T21vdZ4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> PrograMaria: Estatística básica para Ciência de Dados (<a href="https://www.youtube.com/watch?v=xiZwte8D1Xs">https://www.youtube.com/watch?v=xiZwte8D1Xs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Data Viking: Estatística básica para ciência de dados (<a href="https://www.youtube.com/watch?v=K_q6uCgV0Mk">https://www.youtube.com/watch?v=K_q6uCgV0Mk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> FC Nuvem: Introdução a Estatística para Ciência de Dados (<a href="https://www.youtube.com/watch?v=NdRKIIFa63c">https://www.youtube.com/watch?v=NdRKIIFa63c</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Média ou mediana? Entendendo cada uma (<a href="https://www.alura.com.br/artigos/media-ou-mediana-entendendo-cada-uma">https://www.alura.com.br/artigos/media-ou-mediana-entendendo-cada-uma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Modelos matemáticos utilizados em séries temporais (<a href="https://www.alura.com.br/artigos/modelos-matematicos-utilizados-em-series-temporais">https://www.alura.com.br/artigos/modelos-matematicos-utilizados-em-series-temporais</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Preciso saber matemática para programar? (<a href="https://www.youtube.com/watch?v=WZo8s-zsfuY">https://www.youtube.com/watch?v=WZo8s-zsfuY</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Estatística com Python (<a href="https://cursos.alura.com.br/formacao-estatistica-python">https://cursos.alura.com.br/formacao-estatistica-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Data Science: testando hipóteses (<a href="https://cursos.alura.com.br/course/data-science-testando-hipoteses">https://cursos.alura.com.br/course/data-science-testando-hipoteses</a>)</li>
+<li><code data-kind="livro">Livro</code> Introdução à Estatística para Ciência de Dados: Da exploração dos dados à experimentação contínua com exemplos de código em Python e R (<a href="https://www.casadocodigo.com.br/products/livro-estatistica-datascience">https://www.casadocodigo.com.br/products/livro-estatistica-datascience</a>)</li>
+</ul>
+<h3>Modelagem de dados:</h3>
 <ul><li>A Modelagem de Dados é uma área essencial para a compreensão e organização das informações em um sistema ou banco de dados.</li>
 <li>Nesse conjunto de conteúdos, você aprenderá as técnicas e conceitos fundamentais para modelar dados de forma eficiente e estruturada, visando obter informações relevantes para a tomada de decisões.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Provedores</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é modelagem de dados? (<a href="https://powerbi.microsoft.com/pt-br/what-is-data-modeling/">https://powerbi.microsoft.com/pt-br/what-is-data-modeling/</a>)</li>
+<li><code data-kind="curso">Curso</code> Modelar dados no Power BI (<a href="https://learn.microsoft.com/pt-br/training/paths/model-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm">https://learn.microsoft.com/pt-br/training/paths/model-power-bi/?ns-enrollment-type=Collection&amp;ns-enrollment-id=djwu3eywpk4nm</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Curso de Modelagem de dados (<a href="https://www.youtube.com/playlist?list=PLucm8g_ezqNoNHU8tjVeHmRGBFnjDIlxD">https://www.youtube.com/playlist?list=PLucm8g_ezqNoNHU8tjVeHmRGBFnjDIlxD</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação Modelagem de dados (<a href="https://www.alura.com.br/formacao-modelagem-dados">https://www.alura.com.br/formacao-modelagem-dados</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Relacionamento reflexivo na modelagem de banco de dados (<a href="https://www.alura.com.br/artigos/relacionamento-reflexivo-modelagem-banco-de-dados">https://www.alura.com.br/artigos/relacionamento-reflexivo-modelagem-banco-de-dados</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Normalização: o que é, para que serve e como usá-la (<a href="https://www.alura.com.br/artigos/normalizacao">https://www.alura.com.br/artigos/normalizacao</a>)</li>
+</ul>
+<h3>Cloud - Provedores:</h3>
 <ul><li>Conhecer os principais provedores de serviços em nuvem e suas ofertas.</li>
 <li>Comparar as características e serviços oferecidos por diferentes provedores.</li>
 <li>Entender como selecionar o provedor de serviços em nuvem adequado para suas necessidades.</li>
 <li>Explorar as tendências e inovações no mercado de serviços em nuvem.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Bancos de Dados - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> O que é Google Cloud e por que aprender? (<a href="https://www.youtube.com/shorts/Lzq3f1DHWcI">https://www.youtube.com/shorts/Lzq3f1DHWcI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabs Ferreira: Por que investir e estudar cloud? (<a href="https://www.youtube.com/watch?v=Z45BTNeZ1l0">https://www.youtube.com/watch?v=Z45BTNeZ1l0</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações (<a href="https://www.alura.com.br/artigos/aws">https://www.alura.com.br/artigos/aws</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conheça o Microsoft Azure: ferramenta para criar serviços de nuvem (<a href="https://www.alura.com.br/artigos/microsoft-azure-ferramenta-servicos-de-nuvem">https://www.alura.com.br/artigos/microsoft-azure-ferramenta-servicos-de-nuvem</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS, Google Cloud e Azure: Por onde começar? (<a href="https://www.youtube.com/watch?v=z9k6rsdmWc0&t=300s">https://www.youtube.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+</ul>
+<h3>Bancos de Dados - Fundamentos:</h3>
 <ul><li>Os bancos de dados são sistemas de armazenamento de dados que permitem a organização, a manipulação e o acesso eficiente às informações. Existem dois principais tipos de bancos de dados, sendo eles SQL (Structured Query Language) e NoSQL (Not Only SQL).</li>
 <li>O conhecimento dos fundamentos de bancos de dados, tanto SQL quanto NoSQL, é essencial na engenharia de dados. Os bancos de dados são a base para armazenar e manipular os dados utilizados nas análises e nos processos de tomada de decisão. Compreender os diferentes tipos de bancos de dados permite aos engenheiros de dados escolher a solução mais adequada para cada caso, levando em consideração os requisitos de escalabilidade, desempenho, consistência e flexibilidade. Além disso, a habilidade de escrever consultas SQL e de utilizar as características específicas dos bancos de dados NoSQL é essencial para extrair, transformar e carregar dados de forma eficiente e eficaz.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> DB-Engines Ranking (<a href="https://db-engines.com/en/ranking">https://db-engines.com/en/ranking</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: SQL // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=kMznyI7r2Tc">https://www.youtube.com/watch?v=kMznyI7r2Tc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: NoSQL // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=1B64oqE8PLs">https://www.youtube.com/watch?v=1B64oqE8PLs</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL — O que é e como funciona na prática? (<a href="https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a">https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL: comandos básicos (<a href="https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909">https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909</a>)</li>
+<li><code data-kind="site">Site</code> AWS: O que é banco de dados relacional? (<a href="https://aws.amazon.com/pt/relational-database/">https://aws.amazon.com/pt/relational-database/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 10 conceitos essenciais de SQL que todo dev deve saber (<a href="https://www.youtube.com/watch?v=cIUTAyomVPQ">https://www.youtube.com/watch?v=cIUTAyomVPQ</a>)</li>
+<li><code data-kind="site">Site</code> AWS: O que é NoSQL? (<a href="https://aws.amazon.com/pt/nosql/">https://aws.amazon.com/pt/nosql/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> NoSQL — O que são? Onde habitam? Do que se alimentam? (<a href="https://medium.com/permalink-univesp/nosql-o-que-s%C3%A3o-onde-habitam-do-que-se-alimentam-2ccd4cc39571">https://medium.com/permalink-univesp/nosql-o-que-s%C3%A3o-onde-habitam-do-que-se-alimentam-2ccd4cc39571</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Alura: O que é SQL e NoSQL? (<a href="https://www.youtube.com/watch?v=aure5d3B88g">https://www.youtube.com/watch?v=aure5d3B88g</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL e NoSQL: trabalhando com bancos relacionais e não relacionais (<a href="https://www.alura.com.br/artigos/sql-nosql-bancos-relacionais-nao-relacionais">https://www.alura.com.br/artigos/sql-nosql-bancos-relacionais-nao-relacionais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Banco de Dados: o que é, principais tipos e um guia para iniciar (<a href="https://www.alura.com.br/artigos/banco-de-dados">https://www.alura.com.br/artigos/banco-de-dados</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dicas para desenvolver um projeto de banco de dados relacional (<a href="https://cursos.alura.com.br/extra/alura-mais/dicas-para-desenvolver-um-projeto-de-banco-de-dados-relacional-c9093">https://cursos.alura.com.br/extra/alura-mais/dicas-para-desenvolver-um-projeto-de-banco-de-dados-relacional-c9093</a>)</li>
+<li><code data-kind="artigo">Artigo</code> JOIN e seus tipos (<a href="https://www.alura.com.br/artigos/join-e-seus-tipos">https://www.alura.com.br/artigos/join-e-seus-tipos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Trabalhando com funções de agregação (<a href="https://www.alura.com.br/artigos/trabalhando-funcoes-de-agregacao">https://www.alura.com.br/artigos/trabalhando-funcoes-de-agregacao</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL: Comandos básicos (<a href="https://www.alura.com.br/artigos/sql-comandos-basicos">https://www.alura.com.br/artigos/sql-comandos-basicos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL: consultas com SELECT (<a href="https://www.alura.com.br/artigos/sql-consultas-com-select">https://www.alura.com.br/artigos/sql-consultas-com-select</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso SQL com MySQL: manipule e consulte dados (<a href="https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql">https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql</a>)</li>
+<li><code data-kind="podcast">Podcast</code> NoSQL: por quê? (<a href="https://cursos.alura.com.br/extra/hipsterstech/nosql-por-que-hipsters-22-a564">https://cursos.alura.com.br/extra/hipsterstech/nosql-por-que-hipsters-22-a564</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso MongoDB: conhecendo um banco de dados NoSQL (<a href="https://cursos.alura.com.br/course/mongodb-banco-dados-nosql">https://cursos.alura.com.br/course/mongodb-banco-dados-nosql</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise de Dados Avançada</strong>:</li>
+<h3>Análise de Dados Avançada:</h3>
 <ul><li>A análise de dados avançada é uma habilidade essencial para profissionais de ciência de dados e engenharia de analytics, permitindo identificação de padrões, tendências e insights valiosos a partir de grandes volumes de dados. Compreender técnicas avançadas de análise de dados, como machine learning, estatística avançada e análise preditiva, é fundamental para a tomada de decisões baseadas em dados e a criação de modelos de previsão precisos.</li>
 <li>Combinar técnicas de estatística, machine learning e análise de séries temporais para identificar padrões e tendências em dados históricos, prever comportamentos futuros e detectar anomalias em séries temporais.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python para Ciência de Dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> ChatGPT com Code Interpreter: Análise de Dados Avançada (<a href="https://www.youtube.com/watch?v=u-JoDQ58Dv0">https://www.youtube.com/watch?v=u-JoDQ58Dv0</a>)</li>
+<li><code data-kind="site">Site</code> ICD-UFMG: Testes de Hipóteses - Entendendo valores-p (<a href="https://icd-ufmg.github.io/11-hipoteses/">https://icd-ufmg.github.io/11-hipoteses/</a>)</li>
+<li><code data-kind="site">Site</code> ICD-UFMG: Testes AB  - Como comparar dois grupos (<a href="https://icd-ufmg.github.io/10-ab/">https://icd-ufmg.github.io/10-ab/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Testes de normalidade (<a href="https://medium.com/dados-e-saude/testes-de-normalidade-9dc9068bcf80">https://medium.com/dados-e-saude/testes-de-normalidade-9dc9068bcf80</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Prof. Dr. Petronio Silva: Ciência de Dados - Métricas e Testes (<a href="https://www.youtube.com/watch?v=gRfS2ns-r0Q">https://www.youtube.com/watch?v=gRfS2ns-r0Q</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O Guia Completo para Previsão de Séries Temporais (inglês) (<a href="https://towardsdatascience.com/the-complete-guide-to-time-series-forecasting-using-sklearn-pandas-and-numpy-7694c90e45c1">https://towardsdatascience.com/the-complete-guide-to-time-series-forecasting-using-sklearn-pandas-and-numpy-7694c90e45c1</a>)</li>
+<li><code data-kind="site">Site</code> Google Livros - Introdução à previsão de séries temporais com Python (inglês) (<a href="https://books.google.com.br/books?id=-AiqDwAAQBAJ&printsec=frontcover&hl=pt-BR&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false">https://books.google.com.br/books?id=-AiqDwAAQBAJ&amp;printsec=frontcover&amp;hl=pt-BR&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Google Livros - Aprendizagem profunda para previsão de séries temporais (inglês) (<a href="https://books.google.com.br/books?hl=pt-BR&lr=&id=o5qnDwAAQBAJ&oi=fnd&pg=PP1#v=onepage&q&f=false">https://books.google.com.br/books?hl=pt-BR&amp;lr=&amp;id=o5qnDwAAQBAJ&amp;oi=fnd&amp;pg=PP1#v=onepage&amp;q&amp;f=false</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alexandre Cunha Costa: Análise de Séries Temporais - Previsão (playslist) (<a href="https://www.youtube.com/watch?v=BY67cTSBYO0&list=PLSDVadsSlXTD2R5JXcAkk9v-X6qKWH3cs&ab_channel=AlexandreCunhaCosta">https://www.youtube.com/watch?v=BY67cTSBYO0&amp;list=PLSDVadsSlXTD2R5JXcAkk9v-X6qKWH3cs&amp;ab_channel=AlexandreCunhaCosta</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Leandro: Previsão de Série Temporal com Pycaret (Machine Learning) (<a href="https://www.youtube.com/watch?v=0xrsgR4OB60&ab_channel=Leandro">https://www.youtube.com/watch?v=0xrsgR4OB60&amp;ab_channel=Leandro</a>)</li>
+<li><code data-kind="youtube">YouTube</code> economiaetv: Séries Temporais (playlist) (<a href="https://www.youtube.com/playlist?list=PLW1zGvUGqyiEw1O3HAcjezB9esyI8R8xe">https://www.youtube.com/playlist?list=PLW1zGvUGqyiEw1O3HAcjezB9esyI8R8xe</a>)</li>
+<li><code data-kind="site">Site</code> Detecção de anomalias em séries temporais (inglês) (<a href="https://neptune.ai/blog/anomaly-detection-in-time-series">https://neptune.ai/blog/anomaly-detection-in-time-series</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Data Science: testando relações com Regressão Linear (<a href="https://cursos.alura.com.br/course/data-science-testando-relacoes-regressao-linear">https://cursos.alura.com.br/course/data-science-testando-relacoes-regressao-linear</a>)</li>
+<li><code data-kind="curso">Curso</code> Data Science: testando hipóteses (<a href="https://cursos.alura.com.br/course/data-science-testando-hipoteses">https://cursos.alura.com.br/course/data-science-testando-hipoteses</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Séries temporais e suas aplicações (<a href="https://www.alura.com.br/artigos/series-temporais-e-suas-aplicacoes">https://www.alura.com.br/artigos/series-temporais-e-suas-aplicacoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Data Science: análise de series temporais (<a href="https://www.alura.com.br/curso-online-data-science-series-temporais">https://www.alura.com.br/curso-online-data-science-series-temporais</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Data Science: analisando e prevendo séries temporais (<a href="https://cursos.alura.com.br/course/data-science-analisando-prevendo-series-temporais">https://cursos.alura.com.br/course/data-science-analisando-prevendo-series-temporais</a>)</li>
+<li><code data-kind="livro">Livro</code> Séries temporais com Prophet (<a href="https://www.casadocodigo.com.br/products/livro-series-temporais-prophet">https://www.casadocodigo.com.br/products/livro-series-temporais-prophet</a>)</li>
+</ul>
+<h3>Python para Ciência de Dados:</h3>
 <ul><li>Python é uma linguagem de programação interpretada de alto nível e que suporta múltiplos paradigmas de programação, como imperativo, orientado a objetos e funcional. É uma linguagem com tipagem dinâmica e gerenciamento automático de memória.</li>
 <li>Aprender lógica de programação em Python</li>
 <li>Aprenda os fundamentos da linguagem como variáveis, funções, listas, condicionais e imports</li>
@@ -285,73 +503,360 @@
 <li>Usar e manipular listas para agrupar dados</li>
 <li>Conhecer a biblioteca NumPy</li>
 <li>Conhecer a biblioteca Pandas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Avançado</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Primeiros passos em Data Science utilizando Python para análise de dados (<a href="https://medium.com/data-hackers/primeiros-passos-em-data-science-utilizando-python-para-an%C3%A1lise-de-dados-823436432b28">https://medium.com/data-hackers/primeiros-passos-em-data-science-utilizando-python-para-an%C3%A1lise-de-dados-823436432b28</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python para Análise de Dados (<a href="https://medium.com/@aasouzaconsult/python-para-an%C3%A1lise-de-dados-24028d7013b3">https://medium.com/@aasouzaconsult/python-para-an%C3%A1lise-de-dados-24028d7013b3</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Filipe Deschamps: Introdução a Ciência de Dados (Primeira aula prática programando em Python) (<a href="https://www.youtube.com/watch?v=F608hzn_ygo">https://www.youtube.com/watch?v=F608hzn_ygo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Jerry Strazzeri: Como estudar Python para Ciência de Dados (<a href="https://www.youtube.com/watch?v=kIKdbBc6npU">https://www.youtube.com/watch?v=kIKdbBc6npU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Prof. Cíntia Pinho: Introdução a Python para Ciências de Dados (<a href="https://www.youtube.com/watch?v=M13p7EHA6Ro">https://www.youtube.com/watch?v=M13p7EHA6Ro</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Python? História, Sintaxe e um Guia para iniciar na Linguagem (<a href="https://www.alura.com.br/artigos/python">https://www.alura.com.br/artigos/python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Data Science: conceitos, aplicações práticas e um bate papo sobre carreira (<a href="https://www.alura.com.br/artigos/o-que-e-data-science">https://www.alura.com.br/artigos/o-que-e-data-science</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Numpy: trabalhando computação científica com Python (<a href="https://www.alura.com.br/artigos/numpy-computacao-cientifica-com-python">https://www.alura.com.br/artigos/numpy-computacao-cientifica-com-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Pandas Python: o que é, para que serve e como instalar (<a href="https://www.alura.com.br/artigos/pandas-o-que-e-para-que-serve-como-instalar">https://www.alura.com.br/artigos/pandas-o-que-e-para-que-serve-como-instalar</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Dicas de como escolher o tipo de visualização de dados para sua análise (<a href="https://www.alura.com.br/artigos/tipo-de-visualizacao-de-dados">https://www.alura.com.br/artigos/tipo-de-visualizacao-de-dados</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Portfólio em dados: como reunir seus projetos de Data Science (<a href="https://www.alura.com.br/artigos/portfolio-em-dados">https://www.alura.com.br/artigos/portfolio-em-dados</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Primeiros Passos em Data Science: Do Excel e BI ao Python – Hipsters 134 (<a href="https://www.hipsters.tech/primeiros-passos-em-data-science-do-excel-e-bi-ao-python-hipsters-134/">https://www.hipsters.tech/primeiros-passos-em-data-science-do-excel-e-bi-ao-python-hipsters-134/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Guia de carreira DATA SCIENCE (<a href="https://www.youtube.com/watch?v=7KhaiCC3fJQ">https://www.youtube.com/watch?v=7KhaiCC3fJQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Python para Data Science (<a href="https://www.alura.com.br/formacao-data-science-python">https://www.alura.com.br/formacao-data-science-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Avançando em Data Science com Python (<a href="https://www.alura.com.br/formacao-avancando-data-science-python">https://www.alura.com.br/formacao-avancando-data-science-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Data Science (<a href="https://cursos.alura.com.br/formacao-data-science">https://cursos.alura.com.br/formacao-data-science</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Python Pandas (<a href="https://7daysofcode.io/matricula/pandas">https://7daysofcode.io/matricula/pandas</a>)</li>
+</ul>
+<h3>SQL - Avançado:</h3>
 <ul><li>Conhecer uma variedade abrangente de conteúdos relacionados a bancos de dados e linguagem SQL.</li>
 <li>Uso de triggers em SQL, linguagens internas de SGBDs, modelagem de dados e manipulação de consultas avançadas.</li>
 <li>Utilize os principais bancos de dados relacionais (Oracle, Microsoft SQL Server, PostgreSQL e MySQL...)</li>
 <li>Aprenda sobre procedimentos, funções, pacotes, otimização do banco, segurança e administração dos bancos de dados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Orquestração de Data Pipelines</strong>:</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é e como usar trigger em SQL (<a href="https://www.alura.com.br/artigos/trigger-em-sql">https://www.alura.com.br/artigos/trigger-em-sql</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SGBDs e suas linguagens internas (<a href="https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas">https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Modelagem de dados (<a href="https://cursos.alura.com.br/formacao-modelagem-dados">https://cursos.alura.com.br/formacao-modelagem-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> Oracle Database: projeções, seleções, joins e views (<a href="https://cursos.alura.com.br/course/sql-oracle-projecoes-selecoes-joins-views">https://cursos.alura.com.br/course/sql-oracle-projecoes-selecoes-joins-views</a>)</li>
+<li><code data-kind="curso">Curso</code> Oracle Database: manipulando dados com comandos DML (<a href="https://cursos.alura.com.br/course/manipulacao-dados-oracle-dml">https://cursos.alura.com.br/course/manipulacao-dados-oracle-dml</a>)</li>
+<li><code data-kind="curso">Curso</code> Oracle PL/SQL: procedures, funções e exceções (<a href="https://cursos.alura.com.br/course/oracle-pl-sql-procedures-funcoes-excecoes">https://cursos.alura.com.br/course/oracle-pl-sql-procedures-funcoes-excecoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Oracle PL/SQL: cursor e exceções (<a href="https://cursos.alura.com.br/course/oracle-pl-sql-cursor-excecoes">https://cursos.alura.com.br/course/oracle-pl-sql-cursor-excecoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Oracle PL/SQL: dominando packages (<a href="https://cursos.alura.com.br/course/oracle-pl-sql-dominando-packages">https://cursos.alura.com.br/course/oracle-pl-sql-dominando-packages</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: consultas avançadas (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-2022-consultas-avancadas">https://cursos.alura.com.br/course/microsoft-sql-server-2022-consultas-avancadas</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: manipulando dados (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-2022-manipulando-dados">https://cursos.alura.com.br/course/microsoft-sql-server-2022-manipulando-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: conhecendo o T-SQL (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-2022-conhecendo-t-sql">https://cursos.alura.com.br/course/microsoft-sql-server-2022-conhecendo-t-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: aprofundando em procedures e funções (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-2022-procedures-funcoes">https://cursos.alura.com.br/course/microsoft-sql-server-2022-procedures-funcoes</a>)</li>
+<li><code data-kind="curso">Curso</code> PostgreSQL: Views, Sub-Consultas e Funções (<a href="https://cursos.alura.com.br/course/postgresql-views-sub-consultas-funcoes">https://cursos.alura.com.br/course/postgresql-views-sub-consultas-funcoes</a>)</li>
+<li><code data-kind="curso">Curso</code> PostgreSQL: comandos DML e DDL (<a href="https://cursos.alura.com.br/course/pgsql-comandos-dml-ddl">https://cursos.alura.com.br/course/pgsql-comandos-dml-ddl</a>)</li>
+<li><code data-kind="curso">Curso</code> PostgreSQL: desenvolva com PL/pgSQL (<a href="https://cursos.alura.com.br/course/postgresql-procedures">https://cursos.alura.com.br/course/postgresql-procedures</a>)</li>
+<li><code data-kind="curso">Curso</code> PostgreSQL: Triggers, transações, erros e cursores (<a href="https://cursos.alura.com.br/course/postgresql-triggers-transacoes-erros-cursores">https://cursos.alura.com.br/course/postgresql-triggers-transacoes-erros-cursores</a>)</li>
+<li><code data-kind="curso">Curso</code> PostgreSQL: administração e otimização do banco (<a href="https://cursos.alura.com.br/course/postgresql-administracao-otimizacao">https://cursos.alura.com.br/course/postgresql-administracao-otimizacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Consultas SQL: avançando no SQL com MySQL (<a href="https://cursos.alura.com.br/course/mysql-consultas-sql">https://cursos.alura.com.br/course/mysql-consultas-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Comandos DML: manipulação de dados com MySQL (<a href="https://cursos.alura.com.br/course/mysql-dml-manipulacao-de-dados">https://cursos.alura.com.br/course/mysql-dml-manipulacao-de-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> Procedures SQL: executando código no MySQL (<a href="https://cursos.alura.com.br/course/mysql-procedures">https://cursos.alura.com.br/course/mysql-procedures</a>)</li>
+<li><code data-kind="curso">Curso</code> Administração do MySQL: segurança e otimização do banco (<a href="https://cursos.alura.com.br/course/mysql-dba-administracao">https://cursos.alura.com.br/course/mysql-dba-administracao</a>)</li>
+</ul>
+<h3>Orquestração de Data Pipelines:</h3>
 <ul><li>A orquestração de data pipelines é um processo crucial na engenharia de dados que envolve o gerenciamento e a automação de fluxos de trabalho de dados. É através da orquestração que os pipelines de dados são configurados, programados e monitorados, garantindo a eficiência e a confiabilidade dos processos de extração, transformação e carga (ETL). Uma das ferramentas mais populares para orquestração de data pipelines é o Apache Airflow. Neste segmento, você aprenderá os fundamentos da orquestração de data pipelines, incluindo conceitos importantes, técnicas e melhores práticas.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Data Pipeline Orchestration (<a href="https://towardsdatascience.com/data-pipeline-orchestration-9887e1b5eb7a">https://towardsdatascience.com/data-pipeline-orchestration-9887e1b5eb7a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Escolhendo uma tecnologia para orquestração de Dataworkflow (<a href="https://johnosd.medium.com/escolhendo-uma-tecnologia-para-orquestra%C3%A7%C3%A3o-de-dataworkflow-b2ba99f6a497">https://johnosd.medium.com/escolhendo-uma-tecnologia-para-orquestra%C3%A7%C3%A3o-de-dataworkflow-b2ba99f6a497</a>)</li>
+<li><code data-kind="site">Site</code> Apache Airflow (<a href="https://airflow.apache.org/">https://airflow.apache.org/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Apache Airflow: conceitos iniciais (<a href="https://medium.com/datarisk-io/apache-airflow-conceitos-iniciais-e09c0dd18141">https://medium.com/datarisk-io/apache-airflow-conceitos-iniciais-e09c0dd18141</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Primeiros passos com o Apache Airflow: ETL fácil, robusto e de baixo custo (<a href="https://medium.com/data-hackers/primeiros-passos-com-o-apache-airflow-etl-f%C3%A1cil-robusto-e-de-baixo-custo-f80db989edae">https://medium.com/data-hackers/primeiros-passos-com-o-apache-airflow-etl-f%C3%A1cil-robusto-e-de-baixo-custo-f80db989edae</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando a primeira DAG no Airflow em 10 minutos (<a href="https://estevestoni.medium.com/criando-a-primeira-dag-no-airflow-em-10-minutos-5b135618fe18">https://estevestoni.medium.com/criando-a-primeira-dag-no-airflow-em-10-minutos-5b135618fe18</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Eduardo Mendes: Live de Python #123 - Apache Airflow com Juan Funez (<a href="https://www.youtube.com/watch?v=LMk78Dmk0qU">https://www.youtube.com/watch?v=LMk78Dmk0qU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Airflow - Entendendo os DAGs (<a href="https://www.alura.com.br/artigos/airflow-entendendo-dags">https://www.alura.com.br/artigos/airflow-entendendo-dags</a>)</li>
+<li><code data-kind="curso">Curso</code> Apache Airflow: orquestrando seu primeiro pipeline de dados (<a href="https://cursos.alura.com.br/course/apache-airflow-primeiro-pipeline-dados">https://cursos.alura.com.br/course/apache-airflow-primeiro-pipeline-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Apache Airflow  (<a href="https://cursos.alura.com.br/formacao-apache-airflow">https://cursos.alura.com.br/formacao-apache-airflow</a>)</li>
+</ul>
+<h3>Cloud - Fundamentos:</h3>
 <ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
 <li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
 <li>Conhecer os maiores provedores de cloud</li>
 <li>Especializar-se em algum provedor</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Big Data - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Computação em nuvem (<a href="https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9">https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é cloud? (<a href="https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6">https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabs Ferreira: Por que investir e estudar cloud? (<a href="https://www.youtube.com/watch?v=Z45BTNeZ1l0">https://www.youtube.com/watch?v=Z45BTNeZ1l0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Andre Iacono: O que é MICROSOFT AZURE? Qual Certificação começar em 2022? (<a href="https://www.youtube.com/watch?v=f-oVzkvMwnE">https://www.youtube.com/watch?v=f-oVzkvMwnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS: O que é a AWS? (<a href="https://www.youtube.com/watch?v=8JI9wQ8sUdQ">https://www.youtube.com/watch?v=8JI9wQ8sUdQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Google Cloud e por que aprender? (<a href="https://www.youtube.com/shorts/Lzq3f1DHWcI">https://www.youtube.com/shorts/Lzq3f1DHWcI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS vs Google Cloud vs Azure: o que cada um tem de melhor? (<a href="https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7">https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Azure (A plataforma Cloud da Microsoft) (<a href="https://www.youtube.com/watch?v=YgE-sZaCuJ0">https://www.youtube.com/watch?v=YgE-sZaCuJ0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mundo da Cloud: AWS do Zero ao Expert (<a href="https://www.youtube.com/watch?v=HiBCv9DolxI&list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz">https://www.youtube.com/watch?v=HiBCv9DolxI&amp;list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Fundamentos Cloud – Hipsters Ponto Tech #348 (<a href="https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/">https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Uma jornada Para o Cloud - Hipsters Deep Dive 005 (<a href="https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100">https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Histórias do Cloud - Hipsters 04 (<a href="https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582">https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Heroku, Vercel e outras opções de cloud como plataforma (<a href="https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma">https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações (<a href="https://www.alura.com.br/artigos/aws">https://www.alura.com.br/artigos/aws</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Terraform: criando máquinas na Azure (<a href="https://www.alura.com.br/artigos/terraform-maquinas-na-azure">https://www.alura.com.br/artigos/terraform-maquinas-na-azure</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é cloud? (<a href="https://www.YOUTUBE.com/watch?v=wev9fMrg-TU">https://www.YOUTUBE.com/watch?v=wev9fMrg-TU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: AWS, Google Cloud e Azure: Por onde começar? | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&t=300s">https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Certificação em Cloud: Azure, AWS, Google | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&t=290s">https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&amp;t=290s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Amazon Web Services (<a href="https://cursos.alura.com.br/formacao-amazon-web-services">https://cursos.alura.com.br/formacao-amazon-web-services</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AWS Certified Cloud Practitioner (<a href="https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner">https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Containers com AWS ECS e EKS (<a href="https://cursos.alura.com.br/formacao-containers-aws">https://cursos.alura.com.br/formacao-containers-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Cloud Platform (<a href="https://cursos.alura.com.br/formacao-google-cloud">https://cursos.alura.com.br/formacao-google-cloud</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Azure (<a href="https://cursos.alura.com.br/formacao-conhecendo-azure">https://cursos.alura.com.br/formacao-conhecendo-azure</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AZ-900: Microsoft Azure Fundamentals (<a href="https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals">https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals</a>)</li>
+</ul>
+<h3>Big Data - Fundamentos:</h3>
 <ul><li>Big Data refere-se a conjuntos de dados extremamente grandes e complexos, que não podem ser facilmente processados ou gerenciados por métodos tradicionais. Esses conjuntos de dados são caracterizados por seu volume massivo, velocidade de geração e variedade de tipos e formatos. Com a explosão da quantidade de dados gerados diariamente, provenientes de diversas fontes como redes sociais, dispositivos IoT e transações comerciais, o Big Data apresenta desafios e oportunidades para extrair insights valiosos e tomar decisões informadas.</li>
 <li>A análise de Big Data envolve o uso de técnicas e tecnologias avançadas, como armazenamento distribuído, processamento em paralelo e aprendizado de máquina, para explorar e transformar esses dados em informações significativas para empresas, organizações e pesquisadores.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Oracle: O que é Big Data? (<a href="https://www.oracle.com/br/big-data/what-is-big-data/">https://www.oracle.com/br/big-data/what-is-big-data/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Big Data (<a href="https://www.youtube.com/watch?v=IpfE8B9H9cI">https://www.youtube.com/watch?v=IpfE8B9H9cI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Nerdologia: BIG DATA (<a href="https://www.youtube.com/watch?v=hEFFCKxYbKM&pp=ygUIQklHIERBVEE%3D&ab_channel=Nerdologia">https://www.youtube.com/watch?v=hEFFCKxYbKM&amp;pp=ygUIQklHIERBVEE%3D&amp;ab_channel=Nerdologia</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A Era do Big Data (<a href="https://medium.com/gabriel-luz/a-era-do-big-data-64ebad5859f2">https://medium.com/gabriel-luz/a-era-do-big-data-64ebad5859f2</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Curso de Big Data (<a href="https://www.youtube.com/playlist?list=PLzKHEB8QCel8UIA2JfUTYQaUgvJa6mUog">https://www.youtube.com/playlist?list=PLzKHEB8QCel8UIA2JfUTYQaUgvJa6mUog</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Big Data: Entenda mais sobre esse conceito (<a href="https://www.alura.com.br/artigos/big-data">https://www.alura.com.br/artigos/big-data</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Big Data e Apache Spark (<a href="https://www.hipsters.tech/big-data-e-apache-spark-hipsters-ponto-tech-341/">https://www.hipsters.tech/big-data-e-apache-spark-hipsters-ponto-tech-341/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Big Data e Data Science: pra quê afinal? (<a href="https://www.hipsters.tech/big-data-e-data-science-pra-que-afinal-hipsters-73/">https://www.hipsters.tech/big-data-e-data-science-pra-que-afinal-hipsters-73/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Small Data, Big Data, Open Data (<a href="https://www.hipsters.tech/small-data-big-data-open-data-hipsters-42/">https://www.hipsters.tech/small-data-big-data-open-data-hipsters-42/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Big Data com Apache Spark (<a href="https://www.youtube.com/watch?v=3aSfKsBhU5E&ab_channel=Alura">https://www.youtube.com/watch?v=3aSfKsBhU5E&amp;ab_channel=Alura</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Iniciando um projeto Spark no Google Colab (<a href="https://www.alura.com.br/artigos/iniciando-projeto-spark-no-colab">https://www.alura.com.br/artigos/iniciando-projeto-spark-no-colab</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Apache Spark com Python (<a href="https://cursos.alura.com.br/formacao-apache-spark-python">https://cursos.alura.com.br/formacao-apache-spark-python</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Deploy de Data Pipelines</strong>:</li>
+<h3>Deploy de Data Pipelines:</h3>
 <ul><li>O deploy de data pipelines envolve a implantação e execução de fluxos automatizados para coletar, transformar e carregar dados de diferentes fontes para um destino específico. Ele garante a disponibilidade contínua dos dados para análise e outras aplicações, incluindo agendamento, monitoramento de desempenho e resolução de problemas durante o processo. O objetivo do deploy de data pipelines é assegurar a ingestão confiável de dados para suportar análises, relatórios e tomada de decisões informadas.</li>
 <li>Na engenharia de dados, o deploy de data pipelines desempenha um papel crucial ao garantir a disponibilidade, fluxo contínuo, escalabilidade, desempenho e monitoramento dos dados, proporcionando dados confiáveis e atualizados para impulsionar insights e ações.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gerenciamento de logs</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> How to bring your modern data pipeline to production (<a href="https://towardsdatascience.com/how-to-bring-your-modern-data-pipeline-to-production-2f14e42ac200">https://towardsdatascience.com/how-to-bring-your-modern-data-pipeline-to-production-2f14e42ac200</a>)</li>
+<li><code data-kind="site">Site</code> AWS Data Pipeline (<a href="https://aws.amazon.com/pt/datapipeline/">https://aws.amazon.com/pt/datapipeline/</a>)</li>
+<li><code data-kind="site">Site</code> Amazon MWAA (<a href="https://aws.amazon.com/pt/managed-workflows-for-apache-airflow/">https://aws.amazon.com/pt/managed-workflows-for-apache-airflow/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é e quando usar o Azure Data Factory (<a href="https://www.youtube.com/watch?v=YEz5jRGDtbk">https://www.youtube.com/watch?v=YEz5jRGDtbk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Transforme e catalogue dados com o AWS Glue (<a href="https://www.youtube.com/watch?v=HFFiAy2J2OQ">https://www.youtube.com/watch?v=HFFiAy2J2OQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Best Practices for Building and Deploying Data Pipelines in Apache Spark - Vicky Avison (<a href="https://youtu.be/1WUIua-xjJA">https://youtu.be/1WUIua-xjJA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Escritório de Dados: Aula 04 - Fazendo deploy de pipelines (visão geral) (<a href="https://www.youtube.com/watch?v=g-Jl8tqQojY">https://www.youtube.com/watch?v=g-Jl8tqQojY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Escritório de Dados: Aula 05 - Fazendo deploy de pipelines (mais exemplos) (<a href="https://www.youtube.com/watch?v=jNivNlva2sU">https://www.youtube.com/watch?v=jNivNlva2sU</a>)</li>
+<li><code data-kind="curso">Curso</code> AWS Data Lake: construindo pipelines na AWS (<a href="https://cursos.alura.com.br/formacao-aws-data-lake-construindo-pipelines-aws">https://cursos.alura.com.br/formacao-aws-data-lake-construindo-pipelines-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Azure Data Lake: criando um pipeline de ingestão de dados (<a href="https://cursos.alura.com.br/course/azure-data-lake-pipeline-ingestao-dados">https://cursos.alura.com.br/course/azure-data-lake-pipeline-ingestao-dados</a>)</li>
+</ul>
+<h3>Gerenciamento de logs:</h3>
 <ul><li>O gerenciamento de logs é o processo de coleta, armazenamento, monitoramento e análise de registros de eventos gerados por sistemas, aplicativos e dispositivos. Esses registros de eventos, conhecidos como logs, contém informações importantes sobre o funcionamento e o desempenho do sistema, bem como eventos relevantes para fins de segurança e auditoria.</li>
 <li>O gerenciamento de logs desempenha um papel crucial na engenharia de dados, pois fornece insights valiosos para a monitorização, resolução de problemas, otimização de desempenho e análise de sistemas e aplicativos. Os logs podem ser usados para identificar e solucionar problemas, detectar atividades suspeitas ou não autorizadas, rastrear eventos relevantes e analisar o comportamento do sistema ao longo do tempo. Além disso, o gerenciamento de logs é essencial para fins de conformidade, auditoria e conformidade regulatória, permitindo o acompanhamento e a documentação adequados das atividades relacionadas aos dados. Para isso, são utilizadas ferramentas e técnicas para coletar, centralizar, analisar e visualizar os logs, tornando-os mais eficientes e eficazes para a engenharia de dados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Proteção de dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Linhagem de dados e o poder da Alvin (<a href="https://www.youtube.com/watch?v=yKf1lR1DZzY">https://www.youtube.com/watch?v=yKf1lR1DZzY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Afinal o que é Observabilidade? Será que é igual a monitoração? (<a href="https://youtu.be/feZskFGTeRA">https://youtu.be/feZskFGTeRA</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What Is Data Monitoring? (<a href="https://www.egnyte.com/guides/governance/data-monitoring">https://www.egnyte.com/guides/governance/data-monitoring</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Observabilidade: coletando métricas de uma aplicação com Prometheus (<a href="https://cursos.alura.com.br/course/observabilidade-prometheus">https://cursos.alura.com.br/course/observabilidade-prometheus</a>)</li>
+<li><code data-kind="curso">Curso</code> Monitoramento: Prometheus, Grafana e Alertmanager (<a href="https://cursos.alura.com.br/course/monitoramento-prometheus-grafana-alertmanager">https://cursos.alura.com.br/course/monitoramento-prometheus-grafana-alertmanager</a>)</li>
+</ul>
+<h3>Proteção de dados:</h3>
 <ul><li>A proteção de dados é o processo de proteger informações importantes de forma que garanta a confidencialidade, integridade e a disponibilidade destes dados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Governança de Dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> ENTENDA O QUE É LGPD (<a href="https://www.youtube.com/watch?v=dPipsp5arAc">https://www.youtube.com/watch?v=dPipsp5arAc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tudo que você precisa saber sobre a LGPD (<a href="https://www.youtube.com/watch?v=hu6XIc7QVnE">https://www.youtube.com/watch?v=hu6XIc7QVnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que você precisa saber sobre o GDPR (<a href="https://www.youtube.com/watch?v=egGvTgk3HH8">https://www.youtube.com/watch?v=egGvTgk3HH8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> DLP – Data Loss Prevention (<a href="https://www.youtube.com/watch?v=VHeX3D2WOUc">https://www.youtube.com/watch?v=VHeX3D2WOUc</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como estudei para certificação Privacy and Data Protection Foundation (PDPF) (<a href="https://caiovicentinni.medium.com/como-estudei-para-certifica%C3%A7%C3%A3o-privacy-and-data-protection-foundation-pdpf-81a824aa9f5e">https://caiovicentinni.medium.com/como-estudei-para-certifica%C3%A7%C3%A3o-privacy-and-data-protection-foundation-pdpf-81a824aa9f5e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Com a Lei em vigor, quais as diferenças entre a LGPD e GDPR? (<a href="https://medium.com/@rogosantos/com-a-lei-em-vigor-quais-as-diferen%C3%A7as-entre-a-lgpd-e-gdpr-8e6d008c898d">https://medium.com/@rogosantos/com-a-lei-em-vigor-quais-as-diferen%C3%A7as-entre-a-lgpd-e-gdpr-8e6d008c898d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como a LGPD pode impactar na Experiência do Usuário (UX) (<a href="https://brasil.uxdesign.cc/como-a-lei-geral-de-prote%C3%A7%C3%A3o-de-dados-pode-afetar-a-experi%C3%AAncia-do-usu%C3%A1rio-e514270bf59c">https://brasil.uxdesign.cc/como-a-lei-geral-de-prote%C3%A7%C3%A3o-de-dados-pode-afetar-a-experi%C3%AAncia-do-usu%C3%A1rio-e514270bf59c</a>)</li>
+</ul>
+<h3>Governança de Dados:</h3>
 <ul><li>Governança de dados é um conjunto de políticas, processos e práticas que estabelecem a responsabilidade, a integridade, a qualidade e o uso adequado dos dados em uma organização. Ela envolve a definição de regras e padrões para a coleta, armazenamento, gerenciamento, compartilhamento e uso dos dados, garantindo que sejam confiáveis, consistentes e seguros ao longo de sua vida útil.</li>
 <li>A governança de dados desempenha um papel fundamental na engenharia de dados, pois garante que os dados sejam gerenciados de forma eficiente, confiável e em conformidade com as regulamentações e políticas internas. Ela estabelece diretrizes para a gestão dos dados, incluindo a definição de metadados, a identificação de proprietários de dados, a documentação de políticas de acesso e privacidade, a implementação de medidas de segurança e a garantia da qualidade dos dados.</li>
 <li>A governança de dados também promove a colaboração entre as equipes, estabelecendo processos de tomada de decisão baseados em dados confiáveis e padronizados. Isso resulta em uma melhor qualidade das análises, uma base sólida para tomada de decisões estratégicas e uma maior confiança nos dados utilizados para impulsionar as iniciativas de engenharia de dados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Arquiteturas de Dados - Data Lake e Data Warehouse</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Azure: O que é governança de dados? (<a href="https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-a-data-governance/">https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-a-data-governance/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cultura de qualidade e governança de dados no Grupo Boticário (<a href="https://www.youtube.com/watch?v=LTxHPUykq6k">https://www.youtube.com/watch?v=LTxHPUykq6k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> A política de governança de dados no Brasil (<a href="https://www.youtube.com/watch?v=Ac9J19C5x30">https://www.youtube.com/watch?v=Ac9J19C5x30</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cartilha orienta sobre governança de dados (<a href="https://www.gov.br/economia/pt-br/assuntos/noticias/2022/dezembro/cartilha-orienta-sobre-governanca-de-dados">https://www.gov.br/economia/pt-br/assuntos/noticias/2022/dezembro/cartilha-orienta-sobre-governanca-de-dados</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Governança de Dados? (<a href="https://www.alura.com.br/artigos/o-que-e-governanca-de-dados">https://www.alura.com.br/artigos/o-que-e-governanca-de-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> “LGPD, conhecendo e entendendo seus impactos” (<a href="https://cursos.alura.com.br/course/lgpd-visao-impactos">https://cursos.alura.com.br/course/lgpd-visao-impactos</a>)</li>
+<li><code data-kind="curso">Curso</code> “Governança de TI, gestão de demandas de serviços” (<a href="https://cursos.alura.com.br/course/governanca-ti-demandas-servicos">https://cursos.alura.com.br/course/governanca-ti-demandas-servicos</a>)</li>
+</ul>
+<h3>Arquiteturas de Dados - Data Lake e Data Warehouse:</h3>
 <ul><li>As arquiteturas de dados, como Data Lakes e Data Warehouses, são fundamentais para a engenharia de dados, permitindo a coleta, armazenamento, processamento e análise de grandes volumes de dados de diversas fontes. Data Lakes são projetados para armazenar dados brutos em seu formato original, enquanto Data Warehouses são otimizados para análises de negócios. Compreender as diferenças e os casos de uso de cada arquitetura é essencial para projetar e implementar soluções de dados eficazes.</li>
 <li>Na Engenharia de Analytics e Ciência de Dados, a escolha da arquitetura de dados correta é crucial para garantir a qualidade, a confiabilidade e a acessibilidade dos dados. Data Lakes são ideais para armazenar grandes volumes de dados brutos e semiestruturados, permitindo flexibilidade na análise e processamento dos dados. Já os Data Warehouses são otimizados para consultas analíticas complexas e relatórios de negócios, garantindo a consistência e a qualidade dos dados para tomada de decisões.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Storytelling com dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> AWS: O que é um data lake? (<a href="https://aws.amazon.com/pt/big-data/datalakes-and-analytics/what-is-a-data-lake/">https://aws.amazon.com/pt/big-data/datalakes-and-analytics/what-is-a-data-lake/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Data Warehouse / Data Lake / Data Lakehouse (<a href="https://www.youtube.com/watch?v=V07Pk4de-5M">https://www.youtube.com/watch?v=V07Pk4de-5M</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Data Lake: O componente essencial em uma Estratégia de Dados (<a href="https://www.linkedin.com/pulse/data-lake-o-componente-essencial-em-uma-estrat%C3%A9gia-de-brito-ruiz/?originalSubdomain=pt">https://www.linkedin.com/pulse/data-lake-o-componente-essencial-em-uma-estrat%C3%A9gia-de-brito-ruiz/?originalSubdomain=pt</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conceito de Datalake e armazenamentos possíveis (<a href="https://medium.com/rescuepoint/conceito-de-datalake-e-armazenamentos-poss%C3%ADveis-65f337924fc8">https://medium.com/rescuepoint/conceito-de-datalake-e-armazenamentos-poss%C3%ADveis-65f337924fc8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Data Lake x Data Warehouse: Onde armazenar seus dados? (<a href="https://medium.com/datalakers-blog/data-lake-x-data-warehouse-onde-armazenar-seus-dados-67534c9dcfad">https://medium.com/datalakers-blog/data-lake-x-data-warehouse-onde-armazenar-seus-dados-67534c9dcfad</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Seu primeiro passo no mundo analítico - Criando o primeiro datalake na AWS (<a href="https://www.youtube.com/watch?v=sVFT-XK6rk4">https://www.youtube.com/watch?v=sVFT-XK6rk4</a>)</li>
+<li><code data-kind="curso">Curso</code> AWS Data Lake: construindo pipelines na AWS (<a href="https://cursos.alura.com.br/formacao-aws-data-lake-construindo-pipelines-aws">https://cursos.alura.com.br/formacao-aws-data-lake-construindo-pipelines-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Azure Data Lake: criando um pipeline de ingestão de dados (<a href="https://cursos.alura.com.br/course/azure-data-lake-pipeline-ingestao-dados">https://cursos.alura.com.br/course/azure-data-lake-pipeline-ingestao-dados</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação BigQuery (<a href="https://cursos.alura.com.br/formacao-bigquery">https://cursos.alura.com.br/formacao-bigquery</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação BI e Data Warehouse com SQL Server e Power BI (<a href="https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse">https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse</a>)</li>
+<li><code data-kind="curso">Curso</code> Data Warehouse com Data Marts e Power BI (<a href="https://cursos.alura.com.br/formacao-data-warehouse-data-marts-power-bi">https://cursos.alura.com.br/formacao-data-warehouse-data-marts-power-bi</a>)</li>
+<li><code data-kind="curso">Curso</code> “Data Warehouse com Data Lake e SQL Server&quot; (<a href="https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-data-lake-sql-server">https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-data-lake-sql-server</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que são Data Lakes? (<a href="https://www.youtube.com/watch?v=GkhuRcHsVMk">https://www.youtube.com/watch?v=GkhuRcHsVMk</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Data Lake vs Data Warehouse (<a href="https://www.alura.com.br/artigos/data-lake-vs-data-warehouse">https://www.alura.com.br/artigos/data-lake-vs-data-warehouse</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Data Lakes (<a href="https://www.hipsters.tech/data-lakes-hipsters-ponto-tech-269/">https://www.hipsters.tech/data-lakes-hipsters-ponto-tech-269/</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Engenharia de dados com Databricks (<a href="https://cursos.alura.com.br/formacao-databricks">https://cursos.alura.com.br/formacao-databricks</a>)</li>
+<li><code data-kind="site">Site</code> Hotmart e a Democratização de dados em um cenário de microsserviços (<a href="https://cursos.alura.com.br/extra/cases/hotmart-e-a-democratizacao-de-dados-em-um-cenario-de-microsservicos-z1066">https://cursos.alura.com.br/extra/cases/hotmart-e-a-democratizacao-de-dados-em-um-cenario-de-microsservicos-z1066</a>)</li>
+<li><code data-kind="site">Site</code> Banco Pan e a Jornada de construção de um Data Lake (<a href="https://cursos.alura.com.br/extra/cases/banco-pan-e-a-jornada-de-construcao-de-um-data-lake-z1284">https://cursos.alura.com.br/extra/cases/banco-pan-e-a-jornada-de-construcao-de-um-data-lake-z1284</a>)</li>
+<li><code data-kind="curso">Curso</code> “Data Warehouse com Data Lake e SQL Server&quot; (<a href="https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-data-lake-sql-server">https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-data-lake-sql-server</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Datamesh com a ThoughtWorks (<a href="https://cursos.alura.com.br/extra/hipsterstech/datamesh-com-a-thoughtworks-hipsters-ponto-tech-292-a1418">https://cursos.alura.com.br/extra/hipsterstech/datamesh-com-a-thoughtworks-hipsters-ponto-tech-292-a1418</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Data Mesh (<a href="https://cursos.alura.com.br/formacao-data-mesh">https://cursos.alura.com.br/formacao-data-mesh</a>)</li>
+</ul>
+<h3>Storytelling com dados:</h3>
 <ul><li>Storytelling é uma forma de contar histórias que engajam e chamam a atenção da pessoa que está ouvindo. Dentro da análise de dados, é algo muito importante para passar as informações ao receptor de modo que o mesmo compreenda não apenas os dados, mas também todo o contexto.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como contar histórias com gráficos — Resumo do livro Storytelling com Dados (<a href="https://medium.com/resumos-resenhas/storytelling-com-dados-resumo-fd63ebe4f704">https://medium.com/resumos-resenhas/storytelling-com-dados-resumo-fd63ebe4f704</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Descomplica Estatistica: Storytelling com dados Parte I - A importância de entender o contexto (<a href="https://www.youtube.com/watch?v=gEsWb4_pcA0">https://www.youtube.com/watch?v=gEsWb4_pcA0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Descomplica Estatistica: Storytelling com dados Parte II - A escolha de um visual eficaz (<a href="https://www.youtube.com/watch?v=ApXbhBbZsp4">https://www.youtube.com/watch?v=ApXbhBbZsp4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Descomplica Estatistica: Storytelling com dados Parte III - A saturação é sua inimiga !! (<a href="https://www.youtube.com/watch?v=_yN8SacwKlw">https://www.youtube.com/watch?v=_yN8SacwKlw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Descomplica Estatistica: Storytelling com dados Parte IV (Final) - Focalize a atenção do seu público e conte uma história (<a href="https://www.youtube.com/watch?v=crkoUp8HA6c">https://www.youtube.com/watch?v=crkoUp8HA6c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprendendo na Prática: [Storytelling com dados] Transforme a Forma Como Você Mostra Seus Dados (<a href="https://www.youtube.com/watch?v=8iZk1f8KA8s">https://www.youtube.com/watch?v=8iZk1f8KA8s</a>)</li>
+<li><code data-kind="livro">Livro</code> Storytelling com dados: um guia sobre visualização de dados para profissionais de negócios (<a href="https://altabooks.com.br/produto/storytelling-com-dados/">https://altabooks.com.br/produto/storytelling-com-dados/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Destaque-se com storytelling (<a href="https://www.alura.com.br/artigos/destaque-se-com-storytelling">https://www.alura.com.br/artigos/destaque-se-com-storytelling</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Storytelling: técnicas para uma comunicação eficaz e envolvente (<a href="https://www.alura.com.br/artigos/storytelling-para-comunicacao">https://www.alura.com.br/artigos/storytelling-para-comunicacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Storytelling: visão de negócios e desenvolvimento pessoal (<a href="https://cursos.alura.com.br/course/storytelling-negocios-desenvolvimento-pessoal">https://cursos.alura.com.br/course/storytelling-negocios-desenvolvimento-pessoal</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Soft Skills mais importantes para a área de dados (<a href="https://www.alura.com.br/artigos/soft-skills-mais-importantes-area-dados">https://www.alura.com.br/artigos/soft-skills-mais-importantes-area-dados</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Comunicação, Negócios e Colaboração</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise de negócios</strong>:</li>
+<h3>Análise de negócios:</h3>
 <ul><li>A análise de negócios auxilia os analistas de BI a coletar e analisar as necessidades empresariais, alinhando as soluções de BI com os objetivos.</li>
 <li>Permitir uma comunicação eficaz e tradução de requisitos entre usuários de negócios e equipes técnicas.</li>
 <li>Aprimora a modelagem de dados e o design de relatórios para saídas de BI precisas e perspicazes.</li>
 <li>Facilitar a colaboração com os stakeholders, garantindo que os projetos de BI atendam às expectativas.</li>
 <li>Contribuir para uma melhor tomada de decisões, analisando processos e propondo soluções baseadas em dados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Habilidades de comunicação</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Você sabe qual o papel do BA (Business Analyst) numa equipe de dados? (<a href="https://medium.com/data-hackers/voc%C3%AA-sabe-qual-o-papel-do-ba-business-analyst-numa-equipe-de-dados-1024da64075f">https://medium.com/data-hackers/voc%C3%AA-sabe-qual-o-papel-do-ba-business-analyst-numa-equipe-de-dados-1024da64075f</a>)</li>
+<li><code data-kind="curso">Curso</code> Como analisar o mercado (<a href="https://sebrae.com.br/sites/PortalSebrae/cursosonline/como-analisar-o-mercado,1d70b8a6a28bb610VgnVCM1000004c00210aRCRD">https://sebrae.com.br/sites/PortalSebrae/cursosonline/como-analisar-o-mercado,1d70b8a6a28bb610VgnVCM1000004c00210aRCRD</a>)</li>
+<li><code data-kind="curso">Curso</code> Análise de negócio: pesquisa de mercado (<a href="https://sebrae.com.br/sites/PortalSebrae/cursosonline/analise-de-negocio-pesquisa-de-mercado,f380b8a6a28bb610VgnVCM1000004c00210aRCRD">https://sebrae.com.br/sites/PortalSebrae/cursosonline/analise-de-negocio-pesquisa-de-mercado,f380b8a6a28bb610VgnVCM1000004c00210aRCRD</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação Gestão da Inovação (<a href="https://cursos.alura.com.br/formacao-gestao-inovacao">https://cursos.alura.com.br/formacao-gestao-inovacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Marketing Analytics (<a href="https://cursos.alura.com.br/formacao-marketing-analytics">https://cursos.alura.com.br/formacao-marketing-analytics</a>)</li>
+</ul>
+<h3>Habilidades de comunicação:</h3>
 <ul><li>Um bom nível de comunicação facilita o atingimento de objetivos, resolução de problemas, além de aumentar a produtividade, porque cada profissional saberá exatamente o que se espera dele e transmitir com clareza suas ideias.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Inglês técnico</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> As 3 Principais Habilidades de Comunicação para se Destacar Em 2024 | Óh Quem Fala (<a href="https://www.youtube.com/watch?v=0gtLy5Spq2s">https://www.youtube.com/watch?v=0gtLy5Spq2s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Elementos da comunicação - Brasil Escola (<a href="https://www.youtube.com/watch?v=i-3h6ptGEMs">https://www.youtube.com/watch?v=i-3h6ptGEMs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Resumo fácil para entender os elementos da comunicação (<a href="https://www.youtube.com/watch?v=fKFxDD2xjBU">https://www.youtube.com/watch?v=fKFxDD2xjBU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação Comunicação (<a href="https://cursos.alura.com.br/formacao-comunicacao">https://cursos.alura.com.br/formacao-comunicacao</a>)</li>
+</ul>
+<h3>Inglês técnico:</h3>
 <ul><li>Um bom nível de inglês técnico facilita o atingimento de objetivos, resolução de problemas, além de aumentar a produtividade, e também permite o consumo de materiais de diferentes fontes, principalmente de documentações oficiais.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="youtube">YouTube</code> MAIS 3 EXPRESSÕES DE NEGÓCIOS EM INGLÊS (<a href="https://www.youtube.com/watch?v=iIdTKupe7yM">https://www.youtube.com/watch?v=iIdTKupe7yM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 4 expressões de negócios em inglês (<a href="https://www.youtube.com/watch?v=_8VIolQF3iw">https://www.youtube.com/watch?v=_8VIolQF3iw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> “A expressão &#39;IT MEANS THE WORLD TO ME&#39; em inglês” (<a href="https://www.youtube.com/watch?v=r0FDhAlt_r8">https://www.youtube.com/watch?v=r0FDhAlt_r8</a>)</li>
+<li><code data-kind="curso">Curso</code> Inglês Iniciante - Comunicação essencial (<a href="https://www.aluralingua.com.br/curso-ingles-iniciante">https://www.aluralingua.com.br/curso-ingles-iniciante</a>)</li>
+<li><code data-kind="curso">Curso</code> Inglês Básico - Conversando em uma viagem (<a href="https://www.aluralingua.com.br/curso-ingles-basico">https://www.aluralingua.com.br/curso-ingles-basico</a>)</li>
+<li><code data-kind="curso">Curso</code> Inglês Pré-intermediário - Sobrevivendo em outro país (<a href="https://www.aluralingua.com.br/curso-ingles-pre-intermediario">https://www.aluralingua.com.br/curso-ingles-pre-intermediario</a>)</li>
+<li><code data-kind="curso">Curso</code> Inglês Intermediário - Primeiros passos da fluência (<a href="https://www.aluralingua.com.br/curso-ingles-intermediario">https://www.aluralingua.com.br/curso-ingles-intermediario</a>)</li>
+<li><code data-kind="curso">Curso</code> Inglês Avançado - Situações mais complexas no exterior (<a href="https://www.aluralingua.com.br/curso-ingles-avancado">https://www.aluralingua.com.br/curso-ingles-avancado</a>)</li>
+<li><code data-kind="curso">Curso</code> Inglês para Devs - Prepare-se para trabalhar no exterior (<a href="https://www.aluralingua.com.br/curso-ingles-para-devs">https://www.aluralingua.com.br/curso-ingles-para-devs</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Análise e Sistemas</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Excel</strong>:</li>
+<h3>Excel:</h3>
 <ul><li>O Microsoft Excel é um editor de planilhas produzido pela Microsoft com ferramentas de cálculo e de construção de tabelas.</li>
 <li>Realizar as operações matemáticas básicas com seus operadores (soma, subtração, multiplicação e divisão)</li>
 <li>Conhecer as principais fórmulas, como &#39;MÉDIA&#39; (AVERAGE), &#39;ARRED&#39; (ROUND), &#39;MÁXIMO&#39; (MAX), &#39;MÍNIMO&#39; (MIN), etc</li>
 <li>Realizar buscas em colunas com a função &#39;PROCV&#39;</li>
 <li>Criar gráficos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Criação e manipulação de APIs</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Microsoft: Treinamento em vídeo do Excel (<a href="https://support.microsoft.com/pt-br/office/treinamento-em-v%C3%ADdeo-do-excel-9bc05390-e94c-46af-a5b3-d7c22f6990bb">https://support.microsoft.com/pt-br/office/treinamento-em-v%C3%ADdeo-do-excel-9bc05390-e94c-46af-a5b3-d7c22f6990bb</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Curso de Excel Online: O guia para Iniciantes no Excel (<a href="https://www.youtube.com/watch?v=6Mvh4ILpQZc">https://www.youtube.com/watch?v=6Mvh4ILpQZc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Curso de Excel Online: Aprenda PROCV em 5 Exemplos no Excel (<a href="https://www.youtube.com/watch?v=vUobVi_uiYE">https://www.youtube.com/watch?v=vUobVi_uiYE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Excel Online: Como Criar Gráfico Interativo no Excel para Iniciantes (<a href="https://www.youtube.com/watch?v=MifgTFzE1JQ&ab_channel=CursodeExcelOnline">https://www.youtube.com/watch?v=MifgTFzE1JQ&amp;ab_channel=CursodeExcelOnline</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como usar o Excel? — um guia completo para iniciantes (<a href="https://www.alura.com.br/artigos/excel">https://www.alura.com.br/artigos/excel</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Como o Excel pode te ajudar no dia a dia (<a href="https://www.youtube.com/watch?v=oIpz1WaRT3E">https://www.youtube.com/watch?v=oIpz1WaRT3E</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Excel Procx (<a href="https://www.youtube.com/watch?v=ml16FyTyP_U">https://www.youtube.com/watch?v=ml16FyTyP_U</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Excel (<a href="https://www.alura.com.br/formacao-excel">https://www.alura.com.br/formacao-excel</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Business Intelligence com Excel (<a href="https://cursos.alura.com.br/formacao-business-intelligence-excel">https://cursos.alura.com.br/formacao-business-intelligence-excel</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Excel Finanças (<a href="https://www.alura.com.br/formacao-excel-financas">https://www.alura.com.br/formacao-excel-financas</a>)</li>
+</ul>
+<h3>Criação e manipulação de APIs:</h3>
 <ul><li>Criação e manipulação de APIs envolvem o desenvolvimento e interação com Interfaces de Programação de Aplicativos. APIs são conjuntos de regras que permitem que diferentes sistemas se comuniquem e compartilhem dados. A criação de APIs implica em projetar endpoints que permitem o acesso e interação com recursos específicos, enquanto a manipulação envolve utilizar APIs existentes para realizar tarefas específicas, como autenticação, envio de solicitações e processamento de dados retornados. Essas práticas são cruciais para a integração eficiente de sistemas e aplicativos em diferentes áreas de desenvolvimento.</li>
 <li>A criação e manipulação de APIs são fundamentais na engenharia de dados, permitindo a troca eficiente de dados entre sistemas, a integração com serviços externos e a colaboração entre equipes. As APIs simplificam a coleta, processamento e distribuição de informações, ajudando a construir pipelines de dados robustos e escaláveis.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Entrega e integração contínuas (CI/CD)</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Red Hat: O que é API? (<a href="https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces">https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: API // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=vGuqKIRWosk">https://www.youtube.com/watch?v=vGuqKIRWosk</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como CRIAR a sua PRIMEIRA API em python com o FastAPI (<a href="https://medium.com/data-hackers/como-criar-a-sua-primeira-api-em-python-com-o-fastapi-50b1d7f5bb6d">https://medium.com/data-hackers/como-criar-a-sua-primeira-api-em-python-com-o-fastapi-50b1d7f5bb6d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criação de uma API Rest com Python (<a href="https://nataniel-paiva.medium.com/cria%C3%A7%C3%A3o-de-uma-api-rest-com-python-76696d17bfb9">https://nataniel-paiva.medium.com/cria%C3%A7%C3%A3o-de-uma-api-rest-com-python-76696d17bfb9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Eduardo Mendes: API REST - Live de Python (<a href="https://www.youtube.com/watch?v=1_nQ5A2HcgU">https://www.youtube.com/watch?v=1_nQ5A2HcgU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação Django REST APIs: crie aplicações REST em Python (<a href="https://cursos.alura.com.br/formacao-django-rest">https://cursos.alura.com.br/formacao-django-rest</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando com Flask: framework web de Python (<a href="https://cursos.alura.com.br/formacao-flask">https://cursos.alura.com.br/formacao-flask</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Django ou Flask: características, semelhanças e diferenças (<a href="https://www.alura.com.br/artigos/django-ou-flask">https://www.alura.com.br/artigos/django-ou-flask</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Java: consumindo API, gravando arquivos e lidando com erros (<a href="https://cursos.alura.com.br/course/java-consumindo-api-gravando-arquivos-lidando-erros">https://cursos.alura.com.br/course/java-consumindo-api-gravando-arquivos-lidando-erros</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Swagger: documentando suas APIs (<a href="https://cursos.alura.com.br/course/swagger-documentando-apis">https://cursos.alura.com.br/course/swagger-documentando-apis</a>)</li>
+</ul>
+<h3>Entrega e integração contínuas (CI/CD):</h3>
 <ul><li>CI/CD é a abreviação de Continuous Integration/Continuous Delivery, traduzindo para o português &quot;entrega e integração contínuas&quot;. Trata-se de uma prática de desenvolvimento de software que visa tornar a integração de código mais eficiente por meio de builds e testes automatizados.</li>
 <li>Automatizar a integração de código entre varias partes da equipe se tornou cada vez mais importante, ja que assim é possivel acelerar o desenvolvimento e diminiur o tempo de entrega de software.</li>
 <li>Executar testes automatizados da aplicação para verificar seu funcionamento.</li>
 <li>Realizar a entrega de atualizações de forma automatica e com segurança.</li>
 <li>Realizar testes de conexão e testes de carga para evitar que a aplicação apresente problemas ao ser atualizada.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>DevOps e Cloud - Conceitos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é CI/CD? (<a href="https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd">https://www.redhat.com/pt-br/topics/devops/what-is-ci-cd</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Sobre integração contínua (<a href="https://docs.github.com/pt/actions/automating-builds-and-tests/about-continuous-integration">https://docs.github.com/pt/actions/automating-builds-and-tests/about-continuous-integration</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Pipeline (CD/CI) | Dicionário do Programador (<a href="https://www.youtube.com/watch?v=AZtTd3pFVTY">https://www.youtube.com/watch?v=AZtTd3pFVTY</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Entrega e integração contínua de aplicações Vue (<a href="https://www.alura.com.br/artigos/entrega-e-integracao-continua-de-aplicacoes-vue">https://www.alura.com.br/artigos/entrega-e-integracao-continua-de-aplicacoes-vue</a>)</li>
+<li><code data-kind="artigo">Artigo</code> GitOps: o que é? (<a href="https://www.alura.com.br/artigos/o-que-e-git-ops">https://www.alura.com.br/artigos/o-que-e-git-ops</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tipos de testes: quais os principais e por que utilizá-los? (<a href="https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los">https://www.alura.com.br/artigos/tipos-de-testes-principais-por-que-utiliza-los</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Integração Contínua, Deploy Contínuo e Github Actions (<a href="https://cursos.alura.com.br/extra/hipsterstech/integracao-continua-deploy-continuo-e-github-actions-hipsters-213-a335">https://cursos.alura.com.br/extra/hipsterstech/integracao-continua-deploy-continuo-e-github-actions-hipsters-213-a335</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Testes Automatizados (<a href="https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535">https://cursos.alura.com.br/extra/hipsterstech/testes-automatizados-hipsters-51-a535</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Integração Contínua: mais qualidade e menos risco no desenvolvimento (<a href="https://cursos.alura.com.br/course/desenvolvimento-software-integracao-continua">https://cursos.alura.com.br/course/desenvolvimento-software-integracao-continua</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Entrega Contínua: confiabilidade e qualidade na implantação de software (<a href="https://cursos.alura.com.br/course/entrega-continua-confiabilidade-qualidade">https://cursos.alura.com.br/course/entrega-continua-confiabilidade-qualidade</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação: Integração Contínua e Entrega Contínua (<a href="https://cursos.alura.com.br/formacao-integracao-continua-entrega-continua">https://cursos.alura.com.br/formacao-integracao-continua-entrega-continua</a>)</li>
+</ul>
+<h3>DevOps e Cloud - Conceitos:</h3>
 <ul><li>DevOps desempenha um papel importante na integração contínua e na entrega contínua de projetos, ao garantir a colaboração eficaz entre desenvolvedores, operadores de sistemas e outros stakeholders importantes em um projeto. Essa pessoa também é fundamental na implementação e gerenciamento de soluções de computação em nuvem, facilitando o acesso a recursos e serviços, bem como a escalabilidade e a segurança dos sistemas.</li>
 <li>DevOps é essencial para a engenharia de dados, pois permite a integração contínua e a entrega eficiente de projetos. A colaboração entre equipes de desenvolvimento, operações e engenharia de dados facilita a integração de fontes de dados, processamento em tempo real e entrega de insights. Além disso, práticas DevOps garantem testes automatizados, monitoramento e governança de dados, garantindo qualidade e segurança nas soluções analíticas. Essa abordagem agiliza a gestão de dados em escala, possibilitando tomadas de decisões informadas.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linux - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> RedHat: Introdução ao DevOps (<a href="https://www.redhat.com/pt-br/topics/devops">https://www.redhat.com/pt-br/topics/devops</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conceitos de DevOps e SRE (<a href="https://medium.com/sysadminas/conceitos-de-devops-e-sre-bbb05bb3c9fe">https://medium.com/sysadminas/conceitos-de-devops-e-sre-bbb05bb3c9fe</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: DevOps // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=iwf6kcvxeD4">https://www.youtube.com/watch?v=iwf6kcvxeD4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Akita: Entendendo Devops para Iniciantes em Programação (Parte 1) (<a href="https://www.youtube.com/watch?v=bwO8EZf0gLI">https://www.youtube.com/watch?v=bwO8EZf0gLI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Akita: Entendendo Devops para Iniciantes em Programação (Parte 2) (<a href="https://www.youtube.com/watch?v=mcwnQVAn0pw">https://www.youtube.com/watch?v=mcwnQVAn0pw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="youtube">YouTube</code> O que você precisa saber para começar em DevOps com Leonardo Sartorello (<a href="https://www.youtube.com/watch?v=IQ8-_khQATQ">https://www.youtube.com/watch?v=IQ8-_khQATQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em DevOps (<a href="https://cursos.alura.com.br/formacao-primeiros-passos-devops">https://cursos.alura.com.br/formacao-primeiros-passos-devops</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS, Google Cloud e Azure: Por onde começar? (<a href="https://www.youtube.com/watch?v=z9k6rsdmWc0&t=300s">https://www.youtube.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+</ul>
+<h3>Linux - Fundamentos:</h3>
 <ul><li>Linux é um termo popularmente empregado para se referir a sistemas operacionais que utilizam o Kernel Linux. As distribuições incluem o Kernel Linux, além de softwares de sistema e bibliotecas.</li>
 <li>Conhecer o sistema de diretórios do Linux</li>
 <li>Compactar e descompactar arquivos</li>
@@ -360,7 +865,28 @@
 <li>Conhecer as variáveis de ambiente e o PATH</li>
 <li>Gerenciar pacotes</li>
 <li>Realizar comunicação remota com o SSH e SCP</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Comandos linux (<a href="https://pllara.medium.com/comandos-linux-4db7307c17b7">https://pllara.medium.com/comandos-linux-4db7307c17b7</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Comandos básicos no Linux (<a href="https://medium.com/linkapi-solutions/comandos-b%C3%A1sicos-no-linux-95079363ab0e">https://medium.com/linkapi-solutions/comandos-b%C3%A1sicos-no-linux-95079363ab0e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ninja do Linux: Comandos básicos da linha de comando do Linux (<a href="https://www.youtube.com/watch?v=rs_yshFGu8E">https://www.youtube.com/watch?v=rs_yshFGu8E</a>)</li>
+<li><code data-kind="curso">Curso</code> MIT - The Missing Semester of Your CS Education (inglês) (<a href="https://missing.csail.mit.edu/">https://missing.csail.mit.edu/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Linux: download, instalação, distribuições e principais comandos (<a href="https://www.alura.com.br/artigos/linux-download-instalacao-distribuicoes-e-principais-comandos">https://www.alura.com.br/artigos/linux-download-instalacao-distribuicoes-e-principais-comandos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Procurando arquivos no Linux (<a href="https://www.alura.com.br/artigos/procurando-arquivos-no-linux">https://www.alura.com.br/artigos/procurando-arquivos-no-linux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando comandos no Linux com Bash (<a href="https://www.alura.com.br/artigos/criando-comandos-no-linux-com-bash">https://www.alura.com.br/artigos/criando-comandos-no-linux-com-bash</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Linux - Visualizando tamanhos de Diretórios (<a href="https://www.alura.com.br/artigos/como-visualizar-o-tamanho-de-diretorios-no-linux">https://www.alura.com.br/artigos/como-visualizar-o-tamanho-de-diretorios-no-linux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo as permissões no Linux (<a href="https://www.alura.com.br/artigos/entendendo-as-permissoes-no-linux">https://www.alura.com.br/artigos/entendendo-as-permissoes-no-linux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Linux: compactando e descompactando arquivos com o tar (<a href="https://www.alura.com.br/artigos/linux-compactando-e-descompactando-arquivos-com-o-tar">https://www.alura.com.br/artigos/linux-compactando-e-descompactando-arquivos-com-o-tar</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SSH: o acesso remoto aos servidores (<a href="https://www.alura.com.br/artigos/como-acessar-servidores-remotamente-com-ssh">https://www.alura.com.br/artigos/como-acessar-servidores-remotamente-com-ssh</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Onboarding: usando a CLI de uma forma rápida e prática (<a href="https://cursos.alura.com.br/course/linux-onboarding-utilizar-cli-forma-rapida-pratica">https://cursos.alura.com.br/course/linux-onboarding-utilizar-cli-forma-rapida-pratica</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Onboarding: localizando arquivos e conteúdos (<a href="https://cursos.alura.com.br/course/linux-onboarding-arquivos-conteudos">https://cursos.alura.com.br/course/linux-onboarding-arquivos-conteudos</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Onboarding: obtendo e tratando informações do sistema (<a href="https://cursos.alura.com.br/course/linux-onboarding-informacoes-sistema">https://cursos.alura.com.br/course/linux-onboarding-informacoes-sistema</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Onboarding: trabalhe com usuários, permissões e dispositivos (<a href="https://cursos.alura.com.br/course/linux-onboarding-usuarios-permissoes-dispositivos">https://cursos.alura.com.br/course/linux-onboarding-usuarios-permissoes-dispositivos</a>)</li>
+<li><code data-kind="curso">Curso</code> DevOps: explorando conceitos, comandos e scripts no Linux CLI (<a href="https://www.alura.com.br/curso-online-devops-conceitos-comandos-scripts-linux-cli">https://www.alura.com.br/curso-online-devops-conceitos-comandos-scripts-linux-cli</a>)</li>
+</ul>
+<h3>Git e GitHub - Fundamentos:</h3>
 <ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
 <li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
 <li>Criar um repositório</li>
@@ -369,10 +895,46 @@
 <li>Reverter um commit</li>
 <li>Criar branches e pul requests</li>
 <li>Lidar com merge e conflitos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Streaming</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> GitHub Documentação (<a href="https://docs.github.com/pt">https://docs.github.com/pt</a>)</li>
+<li><code data-kind="site">Site</code> GitHub Pages Documentação (<a href="https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="site">Site</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="site">Site</code> Dangit, Git!?! (<a href="https://dangitgit.com/">https://dangitgit.com/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O que é Git e GitHub? - definição e conceitos importantes 1/2 (<a href="https://www.youtube.com/watch?v=DqTITcMq68k">https://www.youtube.com/watch?v=DqTITcMq68k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: Como usar Git e GitHub na prática! - desde o primeiro commit até o pull request! 2/2 (<a href="https://www.youtube.com/watch?v=UBAX-13g8OM">https://www.youtube.com/watch?v=UBAX-13g8OM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Git: Entendendo de vez como funciona do melhor e mais visual jeito possível (<a href="https://www.youtube.com/watch?v=4-tfJ-ZyA0Q">https://www.youtube.com/watch?v=4-tfJ-ZyA0Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como colocar seu projeto no ar DE GRAÇA via GitHub! | Hospedagem com GitHub Pages (<a href="https://www.youtube.com/watch?v=BU-w2_Aae54">https://www.youtube.com/watch?v=BU-w2_Aae54</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - 5 coisas que você precisa saber sobre Git (<a href="https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU">https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - README de Sucesso: Transforme seu Projeto ou seu Perfil em Destaque no GitHub (<a href="https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A">https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Git e Github: O que são, Como Configurar e Primeiros Passos (<a href="https://www.alura.com.br/artigos/o-que-e-git-github">https://www.alura.com.br/artigos/o-que-e-git-github</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Mais git com o hub: a linha de comando do Github (<a href="https://www.alura.com.br/artigos/github-na-linha-de-comando">https://www.alura.com.br/artigos/github-na-linha-de-comando</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 184: Guia do Iniciante em Github (<a href="https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378">https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378</a>)</li>
+<li><code data-kind="site">Site</code> GitHub: diferentes maneiras de compartilhar seu projeto (<a href="https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002">https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002</a>)</li>
+<li><code data-kind="site">Site</code> Websérie: Git e Github para Sobrevivência (<a href="https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia">https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 109: Git e Github (<a href="https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474">https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Git e Github para Sobrevivência 01: Como o Git funciona? (<a href="https://www.youtube.com/watch?v=BAmvmaKQklQ">https://www.youtube.com/watch?v=BAmvmaKQklQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: compartilhando e colaborando em projetos (<a href="https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos">https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: dominando controle de versão de código (<a href="https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo">https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: GitHub (<a href="https://7daysofcode.io/matricula/github">https://7daysofcode.io/matricula/github</a>)</li>
+</ul>
+<h3>Streaming:</h3>
 <ul><li>Streaming é o processamento e transmissão contínua de dados em tempo real, à medida que são gerados. Diferentemente do armazenamento tradicional, onde os dados são coletados e processados posteriormente, o streaming permite a análise e o uso imediato dos dados à medida que são recebidos. Essa abordagem é ideal para lidar com grandes volumes de dados em alta velocidade, permitindo a detecção de padrões em tempo real, tomada de decisões instantâneas e resposta rápida a eventos em andamento.</li>
 <li>O streaming desempenha um papel essencial na engenharia de dados, capacitando as organizações a processar, analisar e tomar decisões com base em dados em tempo real. Isso resulta em maior agilidade, escalabilidade e reatividade, possibilitando uma tomada de decisões mais informada e orientada por insights atualizados.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> O que são fluxos de dados dados em tempo real? (<a href="https://aws.amazon.com/pt/what-is/real-time-data-streaming/">https://aws.amazon.com/pt/what-is/real-time-data-streaming/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Kafka (Plataforma de Mensageria e Streaming) (<a href="https://www.youtube.com/watch?v=qOqXz5Qv_-8">https://www.youtube.com/watch?v=qOqXz5Qv_-8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Processando 1bi de mensagens com open source (<a href="https://www.youtube.com/watch?v=SEBv4N595eY">https://www.youtube.com/watch?v=SEBv4N595eY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Streaming de Dados (<a href="https://www.youtube.com/watch?v=PaUeW5a-PTs">https://www.youtube.com/watch?v=PaUeW5a-PTs</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Spark Streaming  (<a href="https://www.alura.com.br/artigos/spark-streaming">https://www.alura.com.br/artigos/spark-streaming</a>)</li>
+<li><code data-kind="curso">Curso</code> Kafka: Produtores, Consumidores e streams (<a href="https://cursos.alura.com.br/course/kafka-introducao-a-streams-em-microservicos">https://cursos.alura.com.br/course/kafka-introducao-a-streams-em-microservicos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Mensageria com Apache Kafka (<a href="https://cursos.alura.com.br/formacao-kafka">https://cursos.alura.com.br/formacao-kafka</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

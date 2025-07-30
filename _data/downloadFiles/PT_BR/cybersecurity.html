@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,12 +249,24 @@
   </div>
 
   <div class="content">
-    <h1>Cibersegurança</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Linha de comando - Fundamentos:</h3>
 <ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
 <li>Conhecer os principais comandos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Microsoft Docs: Como usar argumentos de linha de comando para terminal do Windows (<a href="https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows">https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estevan Maito: Linha de comando básica - 8 comandos mais frequentes - WINDOWS e LINUX (<a href="https://www.youtube.com/watch?v=rKBqXJZocYk">https://www.youtube.com/watch?v=rKBqXJZocYk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ninja do Linux: Comandos básicos da linha de comando do Linux (<a href="https://www.youtube.com/watch?v=rs_yshFGu8E">https://www.youtube.com/watch?v=rs_yshFGu8E</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> CMD: dicas para trabalhar no prompt do Windows (<a href="https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows">https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como configurar variáveis de ambiente no Windows, Linux e macOS (<a href="https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos">https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd">https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/curso-online-prompt">https://www.alura.com.br/curso-online-prompt</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Terminal: aprenda comandos para executar tarefas (<a href="https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas">https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas</a>)</li>
+</ul>
+<h3>Python - Fundamentos:</h3>
 <ul><li>Python é uma linguagem de programação de alto nível, de uso geral, amplamente utilizada em aplicações web, desenvolvimento de software, ciência de dados e Machine Learning. Sua filosofia de projeto enfatiza a legibilidade do código com o uso de indentação significativa. Python é dinamicamente tipada e tem um garbage collector.</li>
 <li>Conhecer os tipos primitivos</li>
 <li>Declarar variáveis, considerando os diferentes tipos</li>
@@ -227,101 +279,557 @@
 <li>Obter dados de uma API</li>
 <li>Criar construtores</li>
 <li>Funções anônimas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Criptografia - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Python (<a href="https://docs.python.org/pt-br/3/tutorial/">https://docs.python.org/pt-br/3/tutorial/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Programação | Python — Parte 1 (<a href="https://medium.com/turing-talks/turing-talks-4-python-parte-1-29b8d9efd0a5">https://medium.com/turing-talks/turing-talks-4-python-parte-1-29b8d9efd0a5</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao Python (<a href="https://medium.com/@goularteduarda.a/introdu%C3%A7%C3%A3o-ao-python-d30c29eba0d6">https://medium.com/@goularteduarda.a/introdu%C3%A7%C3%A3o-ao-python-d30c29eba0d6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Eduardo Mendes: Curso introdutório de Python (<a href="https://www.youtube.com/watch?v=yTQDbqmv8Ho">https://www.youtube.com/watch?v=yTQDbqmv8Ho</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Python? História, Sintaxe e um Guia para iniciar na Linguagem (<a href="https://www.alura.com.br/artigos/python">https://www.alura.com.br/artigos/python</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Python – Hipsters 122 (<a href="https://www.hipsters.tech/python-hipsters-122/">https://www.hipsters.tech/python-hipsters-122/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Python Fluente – Hipsters Ponto Tech 179 (<a href="https://www.hipsters.tech/python-fluente-hipsters-ponto-tech-179/">https://www.hipsters.tech/python-fluente-hipsters-ponto-tech-179/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: A linguagem Python - Alura Live 94 (<a href="https://www.youtube.com/watch?v=Nbt0eQHChoI">https://www.youtube.com/watch?v=Nbt0eQHChoI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é Python? (<a href="https://www.youtube.com/watch?v=-LATVnPcvHI">https://www.youtube.com/watch?v=-LATVnPcvHI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python - Uma Introdução à Linguagem (<a href="https://www.alura.com.br/artigos/python-uma-introducao-a-linguagem">https://www.alura.com.br/artigos/python-uma-introducao-a-linguagem</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python: Trabalhando com precisão em números decimais (<a href="https://www.alura.com.br/artigos/precisao-numeros-decimais-python">https://www.alura.com.br/artigos/precisao-numeros-decimais-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Listas em Python: operações básicas (<a href="https://www.alura.com.br/artigos/listas-no-python">https://www.alura.com.br/artigos/listas-no-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como comparar objetos no Python? (<a href="https://www.alura.com.br/artigos/como-comparar-objetos-no-python">https://www.alura.com.br/artigos/como-comparar-objetos-no-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python datetime: Lidando com datas e horários (<a href="https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-python">https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Python: crie a sua primeira aplicação (<a href="https://cursos.alura.com.br/course/python-crie-sua-primeira-aplicacao">https://cursos.alura.com.br/course/python-crie-sua-primeira-aplicacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Python e orientação a objetos (<a href="https://cursos.alura.com.br/formacao-linguagem-python">https://cursos.alura.com.br/formacao-linguagem-python</a>)</li>
+</ul>
+<h3>Criptografia - Fundamentos:</h3>
 <ul><li>Criptografia em segurança virtual é a conversão de dados de um formato legível em um formato codificado. Os dados criptografados só podem ser lidos ou processados ​​depois de serem descriptografados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Framework de Cibersegurança</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Introdução a criptografia (<a href="https://medium.com/@m0blabs/introdu%C3%A7%C3%A3o-a-criptografia-820206eda5a9">https://medium.com/@m0blabs/introdução-a-criptografia-820206eda5a9</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conceitos básicos de criptografia (<a href="https://medium.com/prognosys/conceitos-b%C3%A1sicos-de-criptografia-624eb6ec3171">https://medium.com/prognosys/conceitos-básicos-de-criptografia-624eb6ec3171</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criptografia simétrica (<a href="https://medium.com/prognosys/criptografia-sim%C3%A9trica-6b4271ff697c">https://medium.com/prognosys/criptografia-simétrica-6b4271ff697c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criptografia Assimétrica RSA (<a href="https://medium.com/@tarcisioma/algoritmo-de-criptografia-assim%C3%A9trica-rsa-c6254a3c7042">https://medium.com/@tarcisioma/algoritmo-de-criptografia-assimétrica-rsa-c6254a3c7042</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Algoritmos de criptografia (<a href="https://www.kaspersky.com.br/resource-center/definitions/encryption">https://www.kaspersky.com.br/resource-center/definitions/encryption</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Criptografia Assimétrica (<a href="https://www.youtube.com/watch?v=GeSnN8Tt04U">https://www.youtube.com/watch?v=GeSnN8Tt04U</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Criptografia (Guia Básico para Entender Como Funciona) (<a href="https://www.youtube.com/watch?v=qHFbuXpz7e4">https://www.youtube.com/watch?v=qHFbuXpz7e4</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Uma introdução à criptografia de chave pública e PGP (<a href="https://ssd.eff.org/pt-br/module/uma-introdu%C3%A7%C3%A3o-%C3%A0-criptografia-de-chave-p%C3%BAblica-e-pgp">https://ssd.eff.org/pt-br/module/uma-introdu%C3%A7%C3%A3o-%C3%A0-criptografia-de-chave-p%C3%BAblica-e-pgp</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Criptografia: entendendo as diferenças entre simétrica, assimétrica e homomórfica (<a href="https://www.alura.com.br/artigos/criptografia-diferencas-simetrica-assimetrica-homomorfica">https://www.alura.com.br/artigos/criptografia-diferencas-simetrica-assimetrica-homomorfica</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de DevOps: trabalhando com tráfego seguro em comunicações web (<a href="https://cursos.alura.com.br/course/devops-trafego-seguro-comunicacoes-web">https://cursos.alura.com.br/course/devops-trafego-seguro-comunicacoes-web</a>)</li>
+</ul>
+<h3>Framework de Cibersegurança:</h3>
 <ul><li>O Framework de Cibersegurança são guias de orientação para as organizações - em qualquer setor ou comunidade - que buscam melhorar o gerenciamento de riscos de segurança cibernética por meio da utilização de Framework. Embora o Framework de Cibersegurança não seja uma abordagem única para gerenciar riscos de segurança cibernética para organizações, em última análise, visa reduzir e gerenciar melhor esses riscos. Como tal, este guia destina-se a toda e qualquer organização, independentemente do setor ou tamanho.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Técnicas Hacker</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> NIST (<a href="https://www.nist.gov/cyberframework">https://www.nist.gov/cyberframework</a>)</li>
+<li><code data-kind="site">Site</code> SOC2 (<a href="https://www.aicpa.org/home">https://www.aicpa.org/home</a>)</li>
+<li><code data-kind="site">Site</code> ISO 27001 (<a href="https://www.27001.pt/index.html">https://www.27001.pt/index.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cybersecurity Framework 101 (<a href="https://medium.com/edureka/cybersecurity-framework-89bbab5aaf17">https://medium.com/edureka/cybersecurity-framework-89bbab5aaf17</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Top 10 Cybersecurity Frameworks to Know (<a href="https://medium.com/@niitwork0921/top-10-cybersecurity-frameworks-to-know-8ee51d4f5b3e">https://medium.com/@niitwork0921/top-10-cybersecurity-frameworks-to-know-8ee51d4f5b3e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cyber Security Guide (<a href="https://www.stanfieldit.com/cyber-security/">https://www.stanfieldit.com/cyber-security/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> NIST Cybersecurity Framework Overview (<a href="https://www.youtube.com/watch?v=4NSQCmAw6Ck">https://www.youtube.com/watch?v=4NSQCmAw6Ck</a>)</li>
+<li><code data-kind="youtube">YouTube</code> The Cybersecurity Framework (<a href="https://www.youtube.com/watch?v=J9ToNuwmyF0">https://www.youtube.com/watch?v=J9ToNuwmyF0</a>)</li>
+</ul>
+<h3>Técnicas Hacker:</h3>
 <ul><li>Entender as metodologias e as técnicas que os invasores usam para realizar o reconhecimento como uma etapa de pré-ataque, incluindo como eles usam inteligência de código aberto, varredura de rede e ataques de enumeração de alvos para encontrar as lacunas na segurança de sua rede.</li>
 <li>Usar técnicas de invasores para avaliar a segurança de uma rede de destino, avaliando protocolos e endpoints populares para Windows, Linux e destinos de nuvem.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise de Vulnerabilidades</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> PTES (<a href="http://www.pentest-standard.org/index.php/Main_Page">http://www.pentest-standard.org/index.php/Main_Page</a>)</li>
+<li><code data-kind="site">Site</code> OWASP (<a href="https://owasp.org">https://owasp.org</a>)</li>
+<li><code data-kind="site">Site</code> OSSTMM (<a href="https://www.isecom.org/OSSTMM.3.pdf">https://www.isecom.org/OSSTMM.3.pdf</a>)</li>
+<li><code data-kind="artigo">Artigo</code> As Etapas de um Pentest (<a href="https://reddyyz.medium.com/as-etapas-de-um-pentest-31b72ed326ac">https://reddyyz.medium.com/as-etapas-de-um-pentest-31b72ed326ac</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Password Cracking (<a href="https://medium.com/rangeforce/password-cracking-6d9612915f03">https://medium.com/rangeforce/password-cracking-6d9612915f03</a>)</li>
+<li><code data-kind="artigo">Artigo</code> My pentesting methodology (Enumeration) (<a href="https://medium.com/@nclvnp/enumeration-1976c5d55b1b">https://medium.com/@nclvnp/enumeration-1976c5d55b1b</a>)</li>
+<li><code data-kind="youtube">YouTube</code> How To Become A Hacker In 2022 (<a href="https://www.youtube.com/watch?v=W6vcd2gJw3Q">https://www.youtube.com/watch?v=W6vcd2gJw3Q</a>)</li>
+<li><code data-kind="site">Site</code> Hack The Box: A Massive Hacking Playground (<a href="https://www.hackthebox.com">https://www.hackthebox.com</a>)</li>
+</ul>
+<h3>Análise de Vulnerabilidades:</h3>
 <ul><li>Técnicas e táticas de framework de vários serviços e ferramentas que oferece uma solução de varredura e gerenciamento de vulnerabilidade.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Firewalls, IDS e IPS</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Nessus Vulnerability Scanner (<a href="https://medium.com/@justinwolbert/nessus-vulnerability-scanner-22719d3bd9f7">https://medium.com/@justinwolbert/nessus-vulnerability-scanner-22719d3bd9f7</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Ethical Hacking — Nessus (<a href="https://medium.com/@rafaelrenovaci/ethical-hacking-nessus-f68d418a052c">https://medium.com/@rafaelrenovaci/ethical-hacking-nessus-f68d418a052c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Open source vulnerability assessment tool OpenVAS (<a href="https://medium.com/purple-team/open-source-vulnerability-assessment-tool-openvas-e7036c1e48fd">https://medium.com/purple-team/open-source-vulnerability-assessment-tool-openvas-e7036c1e48fd</a>)</li>
+<li><code data-kind="artigo">Artigo</code> OpenVAS Install (<a href="https://www.geeksforgeeks.org/installing-openvas-on-kali-linux/">https://www.geeksforgeeks.org/installing-openvas-on-kali-linux/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Análise de Vulnerabilidades com Nessus e OpenVAS em Distribuição Kali Linux (<a href="https://www.youtube.com/watch?v=m7VjkYQEiHE">https://www.youtube.com/watch?v=m7VjkYQEiHE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Scanning Best Practices (<a href="https://www.youtube.com/watch?v=SlRyd3f57c0">https://www.youtube.com/watch?v=SlRyd3f57c0</a>)</li>
+<li><code data-kind="site">Site</code> Nessus (<a href="https://www.tenable.com/downloads/nessus?loginAttempted=true">https://www.tenable.com/downloads/nessus?loginAttempted=true</a>)</li>
+<li><code data-kind="site">Site</code> Qualys (<a href="https://www.qualys.com">https://www.qualys.com</a>)</li>
+</ul>
+<h3>Firewalls, IDS e IPS:</h3>
 <ul><li>Definições e diferenças entre dispositivos de segurança de rede, firewalls, sistemas de prevenção de intrusão (IPS) e sistemas de detecção de intrusão (IDS).</li>
 <li>Um firewall permite o tráfego dependendo de um conjunto de regras que foram configuradas. Ele é baseado nos endereços de origem, destino e porta. Um firewall pode negar qualquer tráfego que não satisfaça os critérios especificados.</li>
 <li>IDS são dispositivos de sistema de monitoramento passivo que monitoram o tráfego de rede à medida que viajam pela rede, comparam padrões de assinatura, e acionar um alarme se for detectada atividade suspeita ou ameaça de segurança conhecida.</li>
 <li>O IPS é um dispositivo ativo que impede ataques, bloqueando-os.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Investigação Digital - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> pfSense (<a href="https://www.pfsense.org">https://www.pfsense.org</a>)</li>
+<li><code data-kind="artigo">Artigo</code> UFW: Descomplicando o Firewall (<a href="https://medium.com/permalink-univesp/ufw-descomplicando-o-firewall-83159d85b57a">https://medium.com/permalink-univesp/ufw-descomplicando-o-firewall-83159d85b57a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é e por que usar um firewall Pfsense pra sua rede? (<a href="https://phbols.medium.com/o-que-%C3%A9-e-por-que-usar-um-firewall-pfsense-pra-sua-rede-35813c7ef2e">https://phbols.medium.com/o-que-é-e-por-que-usar-um-firewall-pfsense-pra-sua-rede-35813c7ef2e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> IPTABLES VS NFTABLES (<a href="https://medium.com/@nayara.watanuki/iptables-vs-nftables-883e3afc8e83">https://medium.com/@nayara.watanuki/iptables-vs-nftables-883e3afc8e83</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Sistemas de detecção de intrusos e sistemas de prevenção de intrusos (<a href="https://medium.com/mobicareofficial/sistemas-de-detec%C3%A7%C3%A3o-e-de-preven%C3%A7%C3%A3o-de-intrusos-princ%C3%ADpios-e-aplica%C3%A7%C3%A3o-de-entropia-9a33680f3948">https://medium.com/mobicareofficial/sistemas-de-detec%C3%A7%C3%A3o-e-de-preven%C3%A7%C3%A3o-de-intrusos-princ%C3%ADpios-e-aplica%C3%A7%C3%A3o-de-entropia-9a33680f3948</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Learning More about IPS and IDS (<a href="https://gupta-bless.medium.com/learning-more-about-ips-and-ids-ef6d859c2ab3">https://gupta-bless.medium.com/learning-more-about-ips-and-ids-ef6d859c2ab3</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Firewall com Iptables: Teoria e Prática (<a href="https://www.youtube.com/watch?v=_xIuY_3EQ2o">https://www.youtube.com/watch?v=_xIuY_3EQ2o</a>)</li>
+<li><code data-kind="youtube">YouTube</code> iptables Complete Guide (<a href="https://www.youtube.com/watch?v=6Ra17Qpj68c">https://www.youtube.com/watch?v=6Ra17Qpj68c</a>)</li>
+</ul>
+<h3>Investigação Digital - Fundamentos:</h3>
 <ul><li>Investigação Digital é o uso da ciência para investigar crimes digfitais e determinar fatos, que surgiu a partir do uso e disseminação de sistemas digitais, como computadores e smartphones.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Quebra de senhas</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> DFIRScience: Intro to Cybercrime and Networks (<a href="https://www.youtube.com/watch?v=sKijIRCRiKU">https://www.youtube.com/watch?v=sKijIRCRiKU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> DFIRScience: Cybersecurity and Cybercrime (<a href="https://www.youtube.com/watch?v=3kEkXunWKaU">https://www.youtube.com/watch?v=3kEkXunWKaU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> DFIRScience: Digital Investigation Methods (<a href="https://www.youtube.com/watch?v=72Ihrc_MZ6o">https://www.youtube.com/watch?v=72Ihrc_MZ6o</a>)</li>
+<li><code data-kind="youtube">YouTube</code> My CS: Digital Forensics Tools (<a href="https://www.youtube.com/watch?v=Hwbb7zAWamg">https://www.youtube.com/watch?v=Hwbb7zAWamg</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What is Digital Forensics (<a href="https://haniahshafi.medium.com/what-is-digital-forensics-and-how-it-is-used-in-investigations-4389fdce7549">https://haniahshafi.medium.com/what-is-digital-forensics-and-how-it-is-used-in-investigations-4389fdce7549</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Digital Forensics Investigation Steps (<a href="https://medium.com/cyversity/digital-forensics-investigation-steps-f06a82c2c4ac">https://medium.com/cyversity/digital-forensics-investigation-steps-f06a82c2c4ac</a>)</li>
+</ul>
+<h3>Quebra de senhas:</h3>
 <ul><li>Em criptoanálise e segurança, a quebra de senhas é o processo de recuperação de senhas de dados que foram armazenados ou transmitidos por um sistema de computador de forma codificada. Uma abordagem comum (ataque de força bruta) é tentar repetidamente suposições para a senha e compará-las com um hash criptográfico disponível da senha.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Open-Source Intelligence</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Password Cracking (<a href="https://medium.com/rangeforce/password-cracking-6d9612915f03">https://medium.com/rangeforce/password-cracking-6d9612915f03</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cyber Security: Password Attacks (<a href="https://liu-111.medium.com/cyber-security-password-attacks-8ea7fbdf307a">https://liu-111.medium.com/cyber-security-password-attacks-8ea7fbdf307a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Brute force SSH e FTP (<a href="https://medium.com/@murilothink/realizando-ataque-de-brute-force-ssh-e-ftp-com-a-ferramenta-medusa-f6bd44b5bf53">https://medium.com/@murilothink/realizando-ataque-de-brute-force-ssh-e-ftp-com-a-ferramenta-medusa-f6bd44b5bf53</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Brute-force attacks with Kali Linux (<a href="https://pentestit.medium.com/brute-force-attacks-using-kali-linux-49e57bb89259">https://pentestit.medium.com/brute-force-attacks-using-kali-linux-49e57bb89259</a>)</li>
+<li><code data-kind="artigo">Artigo</code> DVWA 1.9+: Ataque brute force (<a href="https://medium.com/canivete-sui%C3%A7o-hacker/dvwa-1-9-ii-e201af3f8617">https://medium.com/canivete-sui%C3%A7o-hacker/dvwa-1-9-ii-e201af3f8617</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Hashcat 101: Cracking Password Hashes (<a href="https://medium.com/@cyberforensicator57/hashcat-101-cracking-password-hashes-bb524b115f71">https://medium.com/@cyberforensicator57/hashcat-101-cracking-password-hashes-bb524b115f71</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Demonstração de Ataque Brute Force (<a href="https://www.youtube.com/watch?v=Un4DlpDvkXU">https://www.youtube.com/watch?v=Un4DlpDvkXU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Medusa Tutorial (<a href="https://www.youtube.com/watch?v=hZQ3AumggaA">https://www.youtube.com/watch?v=hZQ3AumggaA</a>)</li>
+</ul>
+<h3>Open-Source Intelligence:</h3>
 <ul><li>OSINT (do inglês Open Source Intelligence) trata-se de um recurso que pode ser traduzido de uma forma simplificada como &quot;Inteligência de Fontes Abertas&quot;. Trata-se de um conjunto de atividades para coletar, armazenar e analisar as informações de fontes públicas, basicamente, qualquer dado sobre uma empresa ou pessoa que possa ser encontrado por meio de ferramentas da Internet ou OSINT framework, como os buscadores.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Centro de Operações de Segurança</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> What Is Open Source Intelligence? (<a href="https://medium.com/codex/what-is-open-source-intelligence-osint-43e56eb113b4">https://medium.com/codex/what-is-open-source-intelligence-osint-43e56eb113b4</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Open Source Intelligence (OSINT) 101 (<a href="https://medium.datadriveninvestor.com/open-source-intelligence-osint-101-d96f47ff2ff1">https://medium.datadriveninvestor.com/open-source-intelligence-osint-101-d96f47ff2ff1</a>)</li>
+<li><code data-kind="site">Site</code> OSINT (<a href="https://osintframework.com/">https://osintframework.com/</a>)</li>
+<li><code data-kind="site">Site</code> haveibeenpwned (<a href="https://haveibeenpwned.com/">https://haveibeenpwned.com/</a>)</li>
+<li><code data-kind="site">Site</code> checkusername (<a href="https://checkusernames.com/">https://checkusernames.com/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> OSINT What is it (<a href="https://medium.com/transparent-data-eng/osint-what-is-it-and-what-does-it-have-to-do-with-open-sources-of-information-ec35daeea1c0">https://medium.com/transparent-data-eng/osint-what-is-it-and-what-does-it-have-to-do-with-open-sources-of-information-ec35daeea1c0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Inteligência Cibernética? O que é OSINT? (<a href="https://www.youtube.com/watch?v=4kQ9ocPPPvs">https://www.youtube.com/watch?v=4kQ9ocPPPvs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Crowsec Edtech | Carlos Vieira: Conheça uma ferramenta poderosa - Maltego (<a href="https://www.youtube.com/watch?v=3DoGnYDOT-4">https://www.youtube.com/watch?v=3DoGnYDOT-4</a>)</li>
+</ul>
+<h3>Centro de Operações de Segurança:</h3>
 <ul><li>O SOC (Security Operations Center) é o departamento que vem para planejar e respaldar toda a estratégia de segurança da T.I, monitorando, prevenindo e remediando brechas, falhas e possíveis ataques, tudo de maneira proativa.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Penetration Testing - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SECURITY OPERATIONS CENTER — SOC (<a href="https://medium.com/predict/security-operations-center-soc-e5f47e277a35">https://medium.com/predict/security-operations-center-soc-e5f47e277a35</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What is the Blue Team? (<a href="https://medium.com/@BurakDamoglu/introduction-to-security-operations-center-73e2e50f3ba7">https://medium.com/@BurakDamoglu/introduction-to-security-operations-center-73e2e50f3ba7</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Security Operations Center (<a href="https://medium.com/fnplus/security-operations-center-93e67268180a">https://medium.com/fnplus/security-operations-center-93e67268180a</a>)</li>
+<li><code data-kind="youtube">YouTube</code> joe blaney: What is a Security operations centre SOC (<a href="https://www.youtube.com/watch?v=3S01vLlvubE">https://www.youtube.com/watch?v=3S01vLlvubE</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Future Of The SOC (<a href="https://medium.com/anton-on-security/new-paper-future-of-the-soc-process-consistency-and-creativity-a-delicate-balance-paper-3-of-f73fe653c04d">https://medium.com/anton-on-security/new-paper-future-of-the-soc-process-consistency-and-creativity-a-delicate-balance-paper-3-of-f73fe653c04d</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Construindo um SOC (Security Operations Center) (<a href="https://www.youtube.com/watch?v=GP0sUdWs3Yg">https://www.youtube.com/watch?v=GP0sUdWs3Yg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fujitsu: Inside the Security Operations Centre (<a href="https://www.youtube.com/watch?v=6LwyTWPKDnQ">https://www.youtube.com/watch?v=6LwyTWPKDnQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Telstra Enterprise: Security Operations Centre (<a href="https://www.youtube.com/watch?v=zadlfhl0XQc">https://www.youtube.com/watch?v=zadlfhl0XQc</a>)</li>
+</ul>
+<h3>Penetration Testing - Fundamentos:</h3>
 <ul><li>Pentest (Penetration Testing) é a prática de testar um sistema de computador, rede ou aplicativo da Web para encontrar vulnerabilidades que um invasor possa explorar, simulando um ataque contra os ativos de TI de uma organização.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> What is Penetration Testing? (<a href="https://medium.com/edureka/what-is-penetration-testing-f91668e2291a">https://medium.com/edureka/what-is-penetration-testing-f91668e2291a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> From Zero to your first Penetration Test (<a href="https://medium.com/hootsuite-engineering/penetration-testing-d887d081c5c5">https://medium.com/hootsuite-engineering/penetration-testing-d887d081c5c5</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Quick Guide to Web Penetration Testing (<a href="https://corneacristian.medium.com/quick-guide-to-web-penetration-testing-546c6196c909">https://corneacristian.medium.com/quick-guide-to-web-penetration-testing-546c6196c909</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Pentesting Fundamentals (<a href="https://infosecwriteups.com/pentesting-fundamentals-tryhackme-717f51d6126b">https://infosecwriteups.com/pentesting-fundamentals-tryhackme-717f51d6126b</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é um Pentest? (<a href="https://www.youtube.com/watch?v=Gf_BYCCkPiM">https://www.youtube.com/watch?v=Gf_BYCCkPiM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como fazer um Pentest Externo do zero (<a href="https://www.youtube.com/watch?v=H1auWPjioeU">https://www.youtube.com/watch?v=H1auWPjioeU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Qual a diferença entre Pentest e Bug Bounty? (<a href="https://www.youtube.com/watch?v=ee4Yw8SNvis">https://www.youtube.com/watch?v=ee4Yw8SNvis</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso Pentest: explorando vulnerabilidades em aplicações web (<a href="https://cursos.alura.com.br/course/pentest-explorando-vulnerabilidades-aplicacoes-web">https://cursos.alura.com.br/course/pentest-explorando-vulnerabilidades-aplicacoes-web</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Pentest: investigando vulnerabilidades em um servidor de aplicações web (<a href="https://cursos.alura.com.br/course/pentest-vulnerabilidades-servidor-aplicacoes-web">https://cursos.alura.com.br/course/pentest-vulnerabilidades-servidor-aplicacoes-web</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Pentest: combinando vulnerabilidades e acessando o Shell (<a href="https://cursos.alura.com.br/course/pentest-combinando-vulnerabilidades-acessando-shell">https://cursos.alura.com.br/course/pentest-combinando-vulnerabilidades-acessando-shell</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança de Endpoint</strong>:</li>
+<h3>Segurança de Endpoint:</h3>
 <ul><li>A segurança de endpoint, ou proteção de endpoint, é a abordagem de segurança cibernética para defender endpoints como desktops, laptops e dispositivos móveis contra atividades maliciosas.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Metasploit - Ataque e Análise</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Endpoint Security: I (<a href="https://medium.com/starting-up-security/endpoint-security-intuition-around-the-mudge-disclosures-dfbe014790f2">https://medium.com/starting-up-security/endpoint-security-intuition-around-the-mudge-disclosures-dfbe014790f2</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introduction to FireEye Endpoint Security (<a href="https://medium.com/@knoldus/introduction-to-fireeye-endpoint-security-3534c9bf60fe">https://medium.com/@knoldus/introduction-to-fireeye-endpoint-security-3534c9bf60fe</a>)</li>
+<li><code data-kind="artigo">Artigo</code> EPP vs EDR vs XDR: Endpoint Security Comparison (<a href="https://altexsoft.medium.com/epp-vs-edr-vs-xdr-endpoint-security-comparison-57409987f65e">https://altexsoft.medium.com/epp-vs-edr-vs-xdr-endpoint-security-comparison-57409987f65e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Endpoint Security -Antivirus, EPP &amp; EDR (<a href="https://anandadip.medium.com/endpoint-security-antivirus-epp-edr-99496597b892">https://anandadip.medium.com/endpoint-security-antivirus-epp-edr-99496597b892</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What is Endpoint Detection and Response (EDR) (<a href="https://www.crowdstrike.com/cybersecurity-101/endpoint-security/endpoint-detection-and-response-edr/">https://www.crowdstrike.com/cybersecurity-101/endpoint-security/endpoint-detection-and-response-edr/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> EDR vs. NGAV (<a href="https://www.crowdstrike.com/cybersecurity-101/endpoint-security/edr-vs-ngav/">https://www.crowdstrike.com/cybersecurity-101/endpoint-security/edr-vs-ngav/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introduction to Advanced Endpoint Protection (AEP) (<a href="https://www.crowdstrike.com/cybersecurity-101/endpoint-security/advanced-endpoint-protection-aep/">https://www.crowdstrike.com/cybersecurity-101/endpoint-security/advanced-endpoint-protection-aep/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Endpoint Security (<a href="https://www.crowdstrike.com/cybersecurity-101/endpoint-security/">https://www.crowdstrike.com/cybersecurity-101/endpoint-security/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Heimdal: Endpoint Security - Definition, Benefits, and Key Components (<a href="https://www.youtube.com/watch?v=2CVP9-Qslcw&ab_channel=Heimdal%C2%AE">https://www.youtube.com/watch?v=2CVP9-Qslcw&amp;ab_channel=Heimdal%C2%AE</a>)</li>
+</ul>
+<h3>Metasploit - Ataque e Análise:</h3>
 <ul><li>Metasploit é a estrutura de teste de penetração mais usada do mundo.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Web application - Segurança</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Metasploit (<a href="https://www.metasploit.com/">https://www.metasploit.com/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Kali Linux &amp; Metasploit: Getting Started with Pen Testing (<a href="https://medium.com/cyberdefendersprogram/kali-linux-metasploit-getting-started-with-pen-testing-89d28944097b">https://medium.com/cyberdefendersprogram/kali-linux-metasploit-getting-started-with-pen-testing-89d28944097b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criação de Backdoor com MSFVENOM (<a href="https://medium.com/@rafaelrenovaci/analise-de-malwares-01-6ac62f849283">https://medium.com/@rafaelrenovaci/analise-de-malwares-01-6ac62f849283</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Hack Windows 10 with Metasploit (<a href="https://medium.com/@leandro.almeida/hack-windows-10-with-metasploit-329c283db99a">https://medium.com/@leandro.almeida/hack-windows-10-with-metasploit-329c283db99a</a>)</li>
+<li><code data-kind="youtube">YouTube</code> HackerSploit: Metasploit For Beginners 1 (<a href="https://www.youtube.com/watch?v=8lR27r8Y_ik">https://www.youtube.com/watch?v=8lR27r8Y_ik</a>)</li>
+<li><code data-kind="youtube">YouTube</code> HackerSploit: Metasploit For Beginners 2 (<a href="https://www.youtube.com/watch?v=6SNHuWaLuhU">https://www.youtube.com/watch?v=6SNHuWaLuhU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> HackerSploit: Metasploit For Beginners 3 (<a href="https://www.youtube.com/watch?v=CYB6Uta9VTI">https://www.youtube.com/watch?v=CYB6Uta9VTI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Metasploit - Ferramenta para Pentest (<a href="https://www.youtube.com/watch?v=NyHaQJix0Ho">https://www.youtube.com/watch?v=NyHaQJix0Ho</a>)</li>
+</ul>
+<h3>Web application - Segurança:</h3>
 <ul><li>A segurança de aplicativos da Web (também conhecida como Web AppSec) é a ideia de criar sites para funcionar conforme o esperado, mesmo quando estão sob ataque. O conceito envolve uma coleção de controles de segurança projetados em um aplicativo da Web para proteger seus ativos de agentes potencialmente maliciosos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Web application - Vulnerabilidade</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> How to Secure Web Apps — A Web App Security Checklist (<a href="https://medium.com/quick-code/how-to-secure-web-apps-a-web-app-security-checklist-bb27cf049d1d">https://medium.com/quick-code/how-to-secure-web-apps-a-web-app-security-checklist-bb27cf049d1d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Web Application Security Basics (<a href="https://mtrdesign.medium.com/web-application-security-basics-9b7553f51e8a">https://mtrdesign.medium.com/web-application-security-basics-9b7553f51e8a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Web Application Security (<a href="https://pub.towardsai.net/web-application-security-top-11-best-practices-for-2020-c3a485e40de8">https://pub.towardsai.net/web-application-security-top-11-best-practices-for-2020-c3a485e40de8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Web Application Security Best Practices  (<a href="https://javascript.plainenglish.io/web-application-security-best-practices-881e3cfde2a1">https://javascript.plainenglish.io/web-application-security-best-practices-881e3cfde2a1</a>)</li>
+<li><code data-kind="youtube">YouTube</code> House Of Secure Network: Web Application Security - Best Practices (<a href="https://www.youtube.com/watch?v=RedZvpyRd38">https://www.youtube.com/watch?v=RedZvpyRd38</a>)</li>
+<li><code data-kind="youtube">YouTube</code> OWASP e o novo Top 10 Web application Security Risks (<a href="https://www.youtube.com/watch?v=3EdFeJ0_mB0">https://www.youtube.com/watch?v=3EdFeJ0_mB0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fireship: 7 Security Risks (<a href="https://www.youtube.com/watch?v=4YOpILi9Oxs">https://www.youtube.com/watch?v=4YOpILi9Oxs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SAST / DAST (<a href="https://www.youtube.com/watch?v=5cOkNbH_jPU">https://www.youtube.com/watch?v=5cOkNbH_jPU</a>)</li>
+</ul>
+<h3>Web application - Vulnerabilidade:</h3>
 <ul><li>As vulnerabilidades de aplicativos da Web envolvem uma falha ou fraqueza do sistema em um aplicativo baseado na Web. Eles existem há anos, em grande parte devido à não validação ou limpeza de entradas de formulário, servidores web mal configurados e falhas de design de aplicativos, e podem ser explorados para comprometer a segurança do aplicativo. Essas vulnerabilidades não são iguais a outros tipos comuns de vulnerabilidades, como rede ou ativo. Eles surgem porque os aplicativos da Web precisam interagir com vários usuários em várias redes, e esse nível de acessibilidade é facilmente aproveitado pelos hackers.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gerenciamento de Dispositivos Móveis</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> OWASP Top Ten (<a href="https://owasp.org/www-project-top-ten/">https://owasp.org/www-project-top-ten/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Web Application Security Basics 101 (<a href="https://medium.com/nerd-for-tech/devsecops-basics-where-to-start-aa7babee4ac4">https://medium.com/nerd-for-tech/devsecops-basics-where-to-start-aa7babee4ac4</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Web Application Security: From Vulnerabilities to Monitoring (<a href="https://medium.com/swlh/web-application-security-from-vulnerabilities-to-monitoring-7a3c2dfbfa23">https://medium.com/swlh/web-application-security-from-vulnerabilities-to-monitoring-7a3c2dfbfa23</a>)</li>
+<li><code data-kind="artigo">Artigo</code> DVWA (<a href="https://medium.com/@rafaelrenovaci/instala%C3%A7%C3%A3o-dvwa-f70705af9d3e">https://medium.com/@rafaelrenovaci/instala%C3%A7%C3%A3o-dvwa-f70705af9d3e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL Injection (<a href="https://medium.com/@rafaelrenovaci/dvwa-solution-sql-injection-3be3709caea4">https://medium.com/@rafaelrenovaci/dvwa-solution-sql-injection-3be3709caea4</a>)</li>
+<li><code data-kind="artigo">Artigo</code> File Inclusion (<a href="https://medium.com/@rafaelrenovaci/dvwa-solution-file-inclusion-2a7f1504242b">https://medium.com/@rafaelrenovaci/dvwa-solution-file-inclusion-2a7f1504242b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Brute Force (<a href="https://medium.com/@rafaelrenovaci/dvwa-solution-brute-force-ee44c29a25e0">https://medium.com/@rafaelrenovaci/dvwa-solution-brute-force-ee44c29a25e0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CryptoCat: Damn Vulnerable Web Application (DVWA) (Playlist) (<a href="https://www.youtube.com/playlist?list=PLHUKi1UlEgOJLPSFZaFKMoexpM6qhOb4Q">https://www.youtube.com/playlist?list=PLHUKi1UlEgOJLPSFZaFKMoexpM6qhOb4Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cloud Security Training &amp; Consulting: OWASP 2021 Top 10 Web Application Vulnerabilities (<a href="https://www.youtube.com/watch?v=NATCMnghei0">https://www.youtube.com/watch?v=NATCMnghei0</a>)</li>
+</ul>
+<h3>Gerenciamento de Dispositivos Móveis:</h3>
 <ul><li>O gerenciamento de dispositivos móveis refere-se a qualquer ferramenta ou software projetado para ajudar os administradores para controlar e proteger dispositivos móveis como smartphones e tablets em uma organização. O gerenciamento de dispositivos móveis é uma parte importante do gerenciamento de  mobilidade empresarial  e do gerenciamento de endpoints, especialmente à medida que mais empresas adotam políticas de BYOD (traga seu próprio dispositivo) que permitem que os funcionários acessem dados, arquivos e aplicativos da empresa em seus dispositivos pessoais.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SIEM e SOAR</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> What is Mobile Device Management (<a href="https://hexnode.medium.com/what-is-mobile-device-management-mdm-3fd7fb4755b6">https://hexnode.medium.com/what-is-mobile-device-management-mdm-3fd7fb4755b6</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Mobile Device Management Guide (<a href="https://medium.com/codex/mobile-device-management-guide-2022-aosp-for-custom-mdm-6b9758aee4a8">https://medium.com/codex/mobile-device-management-guide-2022-aosp-for-custom-mdm-6b9758aee4a8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> How To Address Privacy Concerns (<a href="https://dennisturpitka.medium.com/how-to-address-privacy-concerns-when-building-a-mobile-device-management-solution-9bda148234df">https://dennisturpitka.medium.com/how-to-address-privacy-concerns-when-building-a-mobile-device-management-solution-9bda148234df</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Top 5 mobile device management (<a href="https://hexnode.medium.com/top-5-apple-mobile-device-management-platforms-for-2020-e6d626e68da5">https://hexnode.medium.com/top-5-apple-mobile-device-management-platforms-for-2020-e6d626e68da5</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Entenda o que é MDM e quais as principais funcionalidades (<a href="https://www.youtube.com/watch?v=EF7-4iNfVfs">https://www.youtube.com/watch?v=EF7-4iNfVfs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> MTG, Inc.: What is MDM (Mobile Device Management)? (<a href="https://www.youtube.com/watch?v=ug5KUH_jdA4">https://www.youtube.com/watch?v=ug5KUH_jdA4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Nutto 1981: Managing Microsoft 365 Mobility and Security MS 101 Day1 (<a href="https://www.youtube.com/watch?v=2WTuDAwLTxA&ab_channel=Nutto1981">https://www.youtube.com/watch?v=2WTuDAwLTxA&amp;ab_channel=Nutto1981</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Harry Lowton: What Is Microsoft Intune? (<a href="https://www.youtube.com/watch?v=ildHLspps7M">https://www.youtube.com/watch?v=ildHLspps7M</a>)</li>
+</ul>
+<h3>SIEM e SOAR:</h3>
 <ul><li>Security Information and Event Management (SIEM) são softwares que agregam e analisam informações de várias fontes diferentes em toda a infra-estrutura.</li>
 <li>Security Orchestration, Automation, and Response (SOAR) irá ajudar com o gerenciamento de ameaças e vulnerabilidades, resposta a incidentes de segurança e automação da operação de segurança.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Hardening de Servidores</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SIEM (<a href="https://medium.com/sysadminas/elastic-siem-introdu%C3%A7%C3%A3o-e3486a0c995e">https://medium.com/sysadminas/elastic-siem-introdu%C3%A7%C3%A3o-e3486a0c995e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Security Information &amp; Event Management (<a href="https://blog.gofix.com.br/security-information-event-management-siem-b7a9a2c70837">https://blog.gofix.com.br/security-information-event-management-siem-b7a9a2c70837</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SIEM e SOC para iniciantes (<a href="https://medium.com/@mariliasroch/siem-e-soc-para-iniciantes-a36c9ad40b46">https://medium.com/@mariliasroch/siem-e-soc-para-iniciantes-a36c9ad40b46</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao OSSIM (<a href="https://lucxs.medium.com/siem-introdu%C3%A7%C3%A3o-ao-ossim-98a45fffeb19">https://lucxs.medium.com/siem-introdu%C3%A7%C3%A3o-ao-ossim-98a45fffeb19</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Top Free Security Information and Event Management(SIEM) Software&#39;s (<a href="https://kalhara-sampath.medium.com/top-free-security-information-and-event-management-siem-softwares-20c6d8f32a6f">https://kalhara-sampath.medium.com/top-free-security-information-and-event-management-siem-softwares-20c6d8f32a6f</a>)</li>
+<li><code data-kind="site">Site</code> O que é o ELK Stack? (<a href="https://www.elastic.co/pt/what-is/elk-stack">https://www.elastic.co/pt/what-is/elk-stack</a>)</li>
+<li><code data-kind="youtube">YouTube</code> BlackPerl: SOC Open Source (<a href="https://www.youtube.com/watch?v=t6PqjLIVgdA">https://www.youtube.com/watch?v=t6PqjLIVgdA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ebenezer Solution: Como configurar o SIEM Wazuh (<a href="https://www.youtube.com/watch?v=wT_z5fRnoXc">https://www.youtube.com/watch?v=wT_z5fRnoXc</a>)</li>
+</ul>
+<h3>Hardening de Servidores:</h3>
 <ul><li>A proteção do servidor é um conjunto de disciplinas e técnicas que melhoram a segurança de um servidor &#39;em produção&#39;. Hardening é um requisito de estruturas de segurança em diversos frameworks.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise Forense na Nuvem</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Introdução a Hardening de Servidores (<a href="https://medium.com/@gabu_b/introdu%C3%A7%C3%A3o-a-hardening-de-servidores-27570fc8597a">https://medium.com/@gabu_b/introdu%C3%A7%C3%A3o-a-hardening-de-servidores-27570fc8597a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Linux Server Hardening (<a href="https://medium.com/@thefoursec/linux-server-hardening-e659db8ec689">https://medium.com/@thefoursec/linux-server-hardening-e659db8ec689</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 Steps to (Secure)Hardening (<a href="https://saeedrz.medium.com/5-steps-to-hardening-your-server-centos-7-25e1851c8204">https://saeedrz.medium.com/5-steps-to-hardening-your-server-centos-7-25e1851c8204</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como fazer o Hardening do seu servidor Linux (<a href="https://phbols.medium.com/como-fazer-o-hardening-do-seu-servidor-linux-14b6f1b3499b">https://phbols.medium.com/como-fazer-o-hardening-do-seu-servidor-linux-14b6f1b3499b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Server Architecture Security (Windows) (<a href="https://medium.com/@jbrendan86/server-architecture-security-windows-2da580d58e62">https://medium.com/@jbrendan86/server-architecture-security-windows-2da580d58e62</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Linode: Hardening Access to Your Server (<a href="https://www.youtube.com/watch?v=eeaFoZlSq6I">https://www.youtube.com/watch?v=eeaFoZlSq6I</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Christian Lempa: How to protect Linux from Hackers (<a href="https://www.youtube.com/watch?v=Bx_HkLVBz9M">https://www.youtube.com/watch?v=Bx_HkLVBz9M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> INEtraining: Linux Security &amp; Server Hardening - Linux PAM (<a href="https://www.youtube.com/watch?v=N4DP68TK0AQ">https://www.youtube.com/watch?v=N4DP68TK0AQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IT Ops Talk: How to Harden Windows Server (<a href="https://www.youtube.com/watch?v=HG_z_Q7LMlM&ab_channel=ITOpsTalk">https://www.youtube.com/watch?v=HG_z_Q7LMlM&amp;ab_channel=ITOpsTalk</a>)</li>
+</ul>
+<h3>Análise Forense na Nuvem:</h3>
 <ul><li>A investigação de dados armazenados na nuvem pode ser uma variedade de abordagens, desde investigações de inteligência de código aberto (OSINT) até investigações de contas na nuvem de indivíduos participantes que divulgam suas credenciais de login (mais frequentemente de vítimas e testemunhas do que de suspeitos), para obter e análise de devoluções de garantias de provedores de serviços em nuvem para obter acesso às contas de suspeitos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Recuperação de Dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Cloud Forensics Tools (<a href="https://medium.com/@cloud_tips/cloud-forensics-788f0c8fe69c">https://medium.com/@cloud_tips/cloud-forensics-788f0c8fe69c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud forensics (<a href="https://kumarshivam-66534.medium.com/cloud-forensics-be18e14230de">https://kumarshivam-66534.medium.com/cloud-forensics-be18e14230de</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Digital Forensic Challenges In Cloud Computing (<a href="https://medium.com/@frosky/digital-forensic-challenges-in-cloud-computing-part-1-c06301cbe174">https://medium.com/@frosky/digital-forensic-challenges-in-cloud-computing-part-1-c06301cbe174</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Overview of Cloud Forensics (<a href="https://medium.com/sigma-xi-vit/overview-of-cloud-forensics-b928537791e6">https://medium.com/sigma-xi-vit/overview-of-cloud-forensics-b928537791e6</a>)</li>
+<li><code data-kind="artigo">Artigo</code> How to Think about Threat Detection (<a href="https://medium.com/anton-on-security/how-to-think-about-threat-detection-in-the-cloud-1baff902afe5">https://medium.com/anton-on-security/how-to-think-about-threat-detection-in-the-cloud-1baff902afe5</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Forensic Focus: Forensics In The Cloud - How To Conduct An Office 365 Investigation (<a href="https://www.youtube.com/watch?v=wFjFjemaxmI">https://www.youtube.com/watch?v=wFjFjemaxmI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SANS Digital Forensics and Incident Response: Cloud Forensics &amp; Incident Response Course (<a href="https://www.youtube.com/watch?v=XoeuAVJwkQ8">https://www.youtube.com/watch?v=XoeuAVJwkQ8</a>)</li>
+</ul>
+<h3>Recuperação de Dados:</h3>
 <ul><li>A recuperação de dados é um processo orientado por software que permite recuperar e restaurar arquivos perdidos, excluídos, inacessíveis, corrompidos ou danificados para que você possa voltar ao trabalho rapidamente.  À medida que o cenário de negócios e nossas vidas em geral se tornam mais dependentes de dados, cresce a necessidade de proteger os sistemas de dados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança de Contêineres</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Data Recovery (<a href="https://medium.com/@rohitpatil97/data-recovery-c9818f19441d">https://medium.com/@rohitpatil97/data-recovery-c9818f19441d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Data Loss Restoration (<a href="https://medium.com/@danielmop/survey-research-paper-data-loss-restoration-4fae9fa38685">https://medium.com/@danielmop/survey-research-paper-data-loss-restoration-4fae9fa38685</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Data Recovery and AI (<a href="https://medium.com/@joanna.riley/data-recovery-and-ai-what-you-need-to-know-75a44c79385d">https://medium.com/@joanna.riley/data-recovery-and-ai-what-you-need-to-know-75a44c79385d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Upcoming Future Of Data Backup &amp; Recovery (<a href="https://kunalranjane.medium.com/upcoming-future-of-data-backup-recovery-509d7fc1690f">https://kunalranjane.medium.com/upcoming-future-of-data-backup-recovery-509d7fc1690f</a>)</li>
+<li><code data-kind="artigo">Artigo</code> How to Recover Deleted Files (<a href="https://medium.com/android-news/how-to-recover-deleted-files-from-hard-drive-a-step-by-step-recovery-solution-14355745239a">https://medium.com/android-news/how-to-recover-deleted-files-from-hard-drive-a-step-by-step-recovery-solution-14355745239a</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Techquickie: Data Recovery As Fast As Possible (<a href="https://www.youtube.com/watch?v=PWuWOSOCGxE">https://www.youtube.com/watch?v=PWuWOSOCGxE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Techquickie: Data Recovery Services (<a href="https://www.youtube.com/watch?v=v0QkafslnrM">https://www.youtube.com/watch?v=v0QkafslnrM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IBM Technology: Disaster Recovery vs. Backup (<a href="https://www.youtube.com/watch?v=07EHsPuKXc0">https://www.youtube.com/watch?v=07EHsPuKXc0</a>)</li>
+</ul>
+<h3>Segurança de Contêineres:</h3>
 <ul><li>A segurança de contêineres é o processo de combinar políticas de segurança para assegurar que a integridade do contêiner esteja protegida. A segurança do contêiner é importante porque a imagem do contêiner contém todos os componentes que, eventualmente, executarão seu aplicativo. Se houver vulnerabilidades à espreita na imagem do contêiner, o risco e a gravidade potencial dos problemas de segurança durante a produção aumentam.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise Forense de Memória</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Container Security Solutions (<a href="https://medium.com/xenonstack-security/container-security-solutions-framework-mechanism-and-strategy-24de3891a12b">https://medium.com/xenonstack-security/container-security-solutions-framework-mechanism-and-strategy-24de3891a12b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Container Security Threats (<a href="https://medium.com/oreillymedia/container-security-threats-38649261fb4f">https://medium.com/oreillymedia/container-security-threats-38649261fb4f</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Top 20 Docker Security Tips (<a href="https://towardsdatascience.com/top-20-docker-security-tips-81c41dd06f57">https://towardsdatascience.com/top-20-docker-security-tips-81c41dd06f57</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Container Security (<a href="https://blog.pentesteracademy.com/learning-path-container-security-9a9c47760250">https://blog.pentesteracademy.com/learning-path-container-security-9a9c47760250</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IBM Technology: Container Security Explained (<a href="https://www.youtube.com/watch?v=b_euX_M82uI">https://www.youtube.com/watch?v=b_euX_M82uI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> The Linux Foundation: Container Security 101 (<a href="https://www.youtube.com/watch?v=PDDiOl7ckzQ">https://www.youtube.com/watch?v=PDDiOl7ckzQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> HackerSploit: Docker Security Essentials (<a href="https://www.youtube.com/watch?v=KINjI1tlo2w">https://www.youtube.com/watch?v=KINjI1tlo2w</a>)</li>
+<li><code data-kind="youtube">YouTube</code> HackerSploit: Auditing Docker Security (<a href="https://www.youtube.com/watch?v=mQkVB6KMHCg">https://www.youtube.com/watch?v=mQkVB6KMHCg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Roadsec: Segurança em Docker - Mais que containers (<a href="https://www.youtube.com/watch?v=5ya_t0YWfyE">https://www.youtube.com/watch?v=5ya_t0YWfyE</a>)</li>
+</ul>
+<h3>Análise Forense de Memória:</h3>
 <ul><li>A análise forense de memória (às vezes chamada de análise de memória) refere-se à análise de dados voláteis no despejo de memória de um computador. Os profissionais de segurança da informação realizam análises forenses de memória para investigar e identificar ataques ou comportamentos maliciosos que não deixam rastros facilmente detectáveis ​​nos dados do disco rígido.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise Forense de Rede</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Memory Analysis For Beginners (<a href="https://infosecwriteups.com/memory-analysis-for-beginners-with-volatility-coreflood-trojan-part-1-89981433eeb6">https://infosecwriteups.com/memory-analysis-for-beginners-with-volatility-coreflood-trojan-part-1-89981433eeb6</a>)</li>
+<li><code data-kind="artigo">Artigo</code> First steps to volatile memory analysis (<a href="https://medium.com/@zemelusa/first-steps-to-volatile-memory-analysis-dcbd4d2d56a1">https://medium.com/@zemelusa/first-steps-to-volatile-memory-analysis-dcbd4d2d56a1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Analyzing Memory Dump with Volatility (<a href="https://blog.pentesteracademy.com/analyzing-memory-dump-with-volatility-302f30917713">https://blog.pentesteracademy.com/analyzing-memory-dump-with-volatility-302f30917713</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Memory Analysis For Beginners With Volatility (<a href="https://infosecwriteups.com/memory-analysis-for-beginners-with-volatility-coreflood-trojan-part-2-42bdb46683f2">https://infosecwriteups.com/memory-analysis-for-beginners-with-volatility-coreflood-trojan-part-2-42bdb46683f2</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 13Cubed: Introduction to Memory Forensics (<a href="https://www.youtube.com/watch?v=1PAGcPJFwbE">https://www.youtube.com/watch?v=1PAGcPJFwbE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> DFIRScience: Introduction to Memory Forensics with Volatility 3 (<a href="https://www.youtube.com/watch?v=Uk3DEgY5Ue8&ab_channel=DFIRScience">https://www.youtube.com/watch?v=Uk3DEgY5Ue8&amp;ab_channel=DFIRScience</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SANS Digital Forensics and Incident Response: Using Memory Analysis for Faster Response to User Investigations (<a href="https://www.youtube.com/watch?v=QzPk1oyzMzc">https://www.youtube.com/watch?v=QzPk1oyzMzc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 13Cubed: Introduction to Windows Forensics (<a href="https://www.youtube.com/watch?v=VYROU-ZwZX8">https://www.youtube.com/watch?v=VYROU-ZwZX8</a>)</li>
+</ul>
+<h3>Análise Forense de Rede:</h3>
 <ul><li>A análise forense de rede diz respeito à coleta, monitoramento e análise de atividades de rede para descobrir a origem de ataques, vírus, intrusões ou violações de segurança que ocorrem em uma rede ou no tráfego de rede. Como tal, a análise forense de rede é considerada juntamente com a análise forense móvel ou a análise forense de imagem digital, como residindo sob o guarda-chuva da análise forense digital.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Scripts PowerShell para segurança</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Network Analysis (<a href="https://medium.com/@wenhaowu92/network-analysis-travel-time-and-accessibility-5848b4ae5f65">https://medium.com/@wenhaowu92/network-analysis-travel-time-and-accessibility-5848b4ae5f65</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What is Network Analysis? (<a href="https://towardsdatascience.com/network-analysis-d734cd7270f8">https://towardsdatascience.com/network-analysis-d734cd7270f8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Using Wireshark to show you, how unsecure a public network can be (<a href="https://bernardosr1.medium.com/using-wireshark-to-show-you-how-unsecure-a-public-network-can-be-f93e373767a8">https://bernardosr1.medium.com/using-wireshark-to-show-you-how-unsecure-a-public-network-can-be-f93e373767a8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Analyzing a bot-infected host with Wireshark (<a href="https://medium.com/geekculture/analyzing-a-bot-infected-host-with-wireshark-c707068fffa2">https://medium.com/geekculture/analyzing-a-bot-infected-host-with-wireshark-c707068fffa2</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Semi Yulianto: Digital Forensics - Analyzing Network Traffic (<a href="https://www.youtube.com/watch?v=jPQCHZlN88g">https://www.youtube.com/watch?v=jPQCHZlN88g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> FreeEduHub: Network Forensics (<a href="https://www.youtube.com/watch?v=VklrX2IfCNk">https://www.youtube.com/watch?v=VklrX2IfCNk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> edureka!: Cybersecurity &amp; Digital Forensics Tutorial (<a href="https://www.youtube.com/watch?v=cg1p3SRZHNY">https://www.youtube.com/watch?v=cg1p3SRZHNY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Netsec Explained: Advanced Wireshark Network (<a href="https://www.youtube.com/watch?v=e_dsGhvq9CU">https://www.youtube.com/watch?v=e_dsGhvq9CU</a>)</li>
+</ul>
+<h3>Scripts PowerShell para segurança:</h3>
 <ul><li>Um script ofuscado pode ser malicioso e difícil de detectar com inspeção visual durante o processo de aprovação do script. Revise visualmente os scripts do PowerShell e use ferramentas de inspeção para ajudar a detectar problemas de script suspeitos. Essas ferramentas nem sempre podem determinar a intenção do autor do PowerShell, portanto, podem chamar a atenção para um script suspeito.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Using PowerShell for Password Security Checks (<a href="https://medium.com/@jeffreypinkstaff/using-powershell-for-password-security-checks-3e229c39303">https://medium.com/@jeffreypinkstaff/using-powershell-for-password-security-checks-3e229c39303</a>)</li>
+<li><code data-kind="artigo">Artigo</code> PowerShell — Testing your workstation security posture (<a href="https://medium.com/@smurf3r5/powershell-testing-your-workstation-security-posture-add06d4061eb">https://medium.com/@smurf3r5/powershell-testing-your-workstation-security-posture-add06d4061eb</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Malicious PowerShell Usage Detection (<a href="https://0xneel.medium.com/malicious-powershell-usage-detection-f0ce9b6cca81">https://0xneel.medium.com/malicious-powershell-usage-detection-f0ce9b6cca81</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Encrypt &amp; Decrypt Data with PowerShell (<a href="https://medium.com/@sumindaniro/encrypt-decrypt-data-with-powershell-4a1316a0834b">https://medium.com/@sumindaniro/encrypt-decrypt-data-with-powershell-4a1316a0834b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Run PowerShell without Powershell.exe (<a href="https://bank-security.medium.com/how-to-running-powershell-commands-without-powershell-exe-a6a19595f628">https://bank-security.medium.com/how-to-running-powershell-commands-without-powershell-exe-a6a19595f628</a>)</li>
+<li><code data-kind="youtube">YouTube</code> QuickStart: Using PowerShell for Cyber Security (<a href="https://www.youtube.com/watch?v=K9zVwijJ4nk">https://www.youtube.com/watch?v=K9zVwijJ4nk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Michael Ferrie: Scripting for Security 1 - Introduction to PowerShell (<a href="https://www.youtube.com/watch?v=XQlVi_OJ2ZA">https://www.youtube.com/watch?v=XQlVi_OJ2ZA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SecurityFWD: Beginner&#39;s Guide to Building AD Security Tools with PowerShell (<a href="https://www.youtube.com/watch?v=Kk7nJe1T-ik">https://www.youtube.com/watch?v=Kk7nJe1T-ik</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Arquitetura de Segurança de Rede</strong>:</li>
+<h3>Arquitetura de Segurança de Rede:</h3>
 <ul><li>A segurança de rede prepara você para tarefas como proteger os dados da empresa contra roubo, danos, interrupções e outros. Um profissional da área irá projetar e implementar auma arquitetura segura para dispositivos de rede, bem como oferecer suporte de segurança e garantir a integridade deles.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Threat Hunting</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Network Architecture and How to Design a Secure Network (<a href="https://nirasha.medium.com/network-architecture-and-how-to-design-a-secure-network-669848bff76c">https://nirasha.medium.com/network-architecture-and-how-to-design-a-secure-network-669848bff76c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cybersecurity Architecture (<a href="https://medium.com/cloud-security/cybersecurity-architecture-66714e39bd91">https://medium.com/cloud-security/cybersecurity-architecture-66714e39bd91</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Security Architecture is Not A Checklist (<a href="https://medium.com/cloud-security/security-architecture-is-not-a-checklist-b86f1dc0aa0c">https://medium.com/cloud-security/security-architecture-is-not-a-checklist-b86f1dc0aa0c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CCNA security (<a href="https://hamzamhirsi.medium.com/ccna-security-part-1-networking-security-concepts-aeaab60b506e">https://hamzamhirsi.medium.com/ccna-security-part-1-networking-security-concepts-aeaab60b506e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> edureka!: Network Security Tutorial (<a href="https://www.youtube.com/watch?v=6Jubl1UnJTE">https://www.youtube.com/watch?v=6Jubl1UnJTE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cássio Batista Pereira: Network Security, a carreira pouco falada (<a href="https://www.youtube.com/watch?v=z5W8krdHkqA">https://www.youtube.com/watch?v=z5W8krdHkqA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Snap One: Networking Design (<a href="https://www.youtube.com/watch?v=sckuGYiHYRA">https://www.youtube.com/watch?v=sckuGYiHYRA</a>)</li>
+</ul>
+<h3>Threat Hunting:</h3>
 <ul><li>A busca de ameaças (Threat Hunting) é a prática de procurar proativamente por ameaças cibernéticas que estão à espreita sem serem detectadas em uma rede. A caça a ameaças cibernéticas se aprofunda para encontrar agentes mal-intencionados em seu ambiente que passaram pelas defesas de segurança de endpoint iniciais.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança física</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Threat Hunting: The Basics (<a href="https://kostas-ts.medium.com/threat-hunting-series-the-basics-cccadac830c6">https://kostas-ts.medium.com/threat-hunting-series-the-basics-cccadac830c6</a>)</li>
+<li><code data-kind="artigo">Artigo</code> The Threat Hunting Process (<a href="https://kostas-ts.medium.com/threat-hunting-series-the-threat-hunting-process-f76583f2475b">https://kostas-ts.medium.com/threat-hunting-series-the-threat-hunting-process-f76583f2475b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What Makes a Good Threat Hunter (<a href="https://kostas-ts.medium.com/threat-hunting-series-what-makes-a-good-threat-hunter-e2b1d0d07e8c">https://kostas-ts.medium.com/threat-hunting-series-what-makes-a-good-threat-hunter-e2b1d0d07e8c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Threat Hunting Guide (<a href="https://medium.com/@joshuaspeshock/threat-hunting-guide-5cd1444d8d95">https://medium.com/@joshuaspeshock/threat-hunting-guide-5cd1444d8d95</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Threat Hunting Process e o Método Investigativo (<a href="https://www.youtube.com/watch?v=Z4EbWPYt6vE">https://www.youtube.com/watch?v=Z4EbWPYt6vE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O próximo nível de defesa (<a href="https://www.youtube.com/watch?v=DmOkdVCdft4">https://www.youtube.com/watch?v=DmOkdVCdft4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Threat Hunting com esteróides (<a href="https://www.youtube.com/watch?v=THntxi5PYDg">https://www.youtube.com/watch?v=THntxi5PYDg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> The PC Security Channel: Threat Hunting Tutorial - Introduction (<a href="https://www.youtube.com/watch?v=qrZsc5IkchI&ab_channel=ThePCSecurityChannel">https://www.youtube.com/watch?v=qrZsc5IkchI&amp;ab_channel=ThePCSecurityChannel</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SANS EMEA: Effective (Threat) Hunting Techniques (<a href="https://www.youtube.com/watch?v=JmKSnRMW_6w&ab_channel=SANSEMEA">https://www.youtube.com/watch?v=JmKSnRMW_6w&amp;ab_channel=SANSEMEA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SANS Institute: Hunting for Post-Exploitation Stage Attacks with Elastic Stack (<a href="https://www.youtube.com/watch?v=PdCQChYrxXg">https://www.youtube.com/watch?v=PdCQChYrxXg</a>)</li>
+</ul>
+<h3>Segurança física:</h3>
 <ul><li>A segurança física é a proteção de pessoas, propriedades e ativos físicos de ações e eventos que podem causar danos ou perdas. Embora muitas vezes negligenciada em favor da segurança cibernética, a segurança física é igualmente importante.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gerenciamento de Resposta a Incidentes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> What Is Physical Security (<a href="https://www.sine.co/blog/what-is-physical-security-understanding-workplace-safety/">https://www.sine.co/blog/what-is-physical-security-understanding-workplace-safety/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cyber Security and Physical Security (<a href="https://rchen8.medium.com/cyber-security-and-physical-security-are-very-different-22e31a933907">https://rchen8.medium.com/cyber-security-and-physical-security-are-very-different-22e31a933907</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What is a Physical Security Architect? (<a href="https://jay-pang.medium.com/what-is-a-physical-security-architect-2e8bd8b4b130">https://jay-pang.medium.com/what-is-a-physical-security-architect-2e8bd8b4b130</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tom Olzak: Physical Security Part 1 - Intro and Site Barriers (<a href="https://www.youtube.com/watch?v=j9MQMVn3FV4">https://www.youtube.com/watch?v=j9MQMVn3FV4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tom Olzak: Physical Security Part 2 - Walls, Doors, and Locks (<a href="https://www.youtube.com/watch?v=EAeVUDMDSn4">https://www.youtube.com/watch?v=EAeVUDMDSn4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tom Olzak: Physical Security Part 3 - Lights, Sensors, and Alarms (<a href="https://www.youtube.com/watch?v=tyFkj5UrPJQ">https://www.youtube.com/watch?v=tyFkj5UrPJQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tom Olzak: Physical Security Part 4 - Environmental Controls (<a href="https://www.youtube.com/watch?v=o_ENagQ60nY">https://www.youtube.com/watch?v=o_ENagQ60nY</a>)</li>
+</ul>
+<h3>Gerenciamento de Resposta a Incidentes:</h3>
 <ul><li>A resposta a incidentes é um processo estruturado que as organizações usam para identificar e lidar com incidentes de segurança cibernética. A resposta inclui vários estágios, incluindo preparação para incidentes, detecção e análise de um incidente de segurança, contenção, erradicação e recuperação total e análise e aprendizado pós-incidente.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise de Malware</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Incident Management (<a href="https://hugooodias.medium.com/incident-management-8defb3812352">https://hugooodias.medium.com/incident-management-8defb3812352</a>)</li>
+<li><code data-kind="artigo">Artigo</code> An Incident Response Plan for Startups (<a href="https://medium.com/starting-up-security/an-incident-response-plan-for-startups-26549596b914">https://medium.com/starting-up-security/an-incident-response-plan-for-startups-26549596b914</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Incident Response Management (<a href="https://fergusmacdermot.medium.com/incident-management-methods-cb9274c264fe">https://fergusmacdermot.medium.com/incident-management-methods-cb9274c264fe</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cybersecurity incident response plan (<a href="https://strategicoutlook.medium.com/why-organizations-need-to-have-a-formal-cyber-security-incident-response-plan-2c13f2e4082">https://strategicoutlook.medium.com/why-organizations-need-to-have-a-formal-cyber-security-incident-response-plan-2c13f2e4082</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ascend Technologies: The Six Phases of Incident Response (<a href="https://www.youtube.com/watch?v=X4lPEpATNxg">https://www.youtube.com/watch?v=X4lPEpATNxg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Skillset: Incident Response Plan (<a href="https://www.youtube.com/watch?v=PhROeWMPBqU">https://www.youtube.com/watch?v=PhROeWMPBqU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> WissenX Akademie: Incident Response Process, Lifecycle &amp; Methodology (<a href="https://www.youtube.com/watch?v=Sr8tfoZJa3M">https://www.youtube.com/watch?v=Sr8tfoZJa3M</a>)</li>
+</ul>
+<h3>Análise de Malware:</h3>
 <ul><li>A análise de malware é o processo de compreensão do comportamento e da finalidade de um arquivo ou URL suspeito. A saída da análise ajuda na detecção e mitigação da ameaça potencial.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança de Aplicações de Software</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Malware Analysis- The art of understanding malware (<a href="https://medium.com/techiepedia/malware-analysis-the-art-of-understanding-malware-ffc5e69feb3e">https://medium.com/techiepedia/malware-analysis-the-art-of-understanding-malware-ffc5e69feb3e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Malware Analysis 101 - Basic Static Analysis (<a href="https://infosecwriteups.com/malware-analysis-101-basic-static-analysis-db59119bc00a">https://infosecwriteups.com/malware-analysis-101-basic-static-analysis-db59119bc00a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Malware Analysis — Tools And Resources (<a href="https://nasbench.medium.com/malware-analysis-tools-and-resources-16eb17666886">https://nasbench.medium.com/malware-analysis-tools-and-resources-16eb17666886</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Malware Analysis 101 - Sandboxing (<a href="https://infosecwriteups.com/malware-analysis-101-sandboxing-746a06432334">https://infosecwriteups.com/malware-analysis-101-sandboxing-746a06432334</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Malware Analysis: Introduction to YARA (<a href="https://medium.com/@ammadb/malware-analysis-introduction-to-yara-e11b89e02ba6">https://medium.com/@ammadb/malware-analysis-introduction-to-yara-e11b89e02ba6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Papo Binário: AMO - Análise de Malware Online (Playlist) (<a href="https://www.youtube.com/playlist?list=PLIfZMtpPYFP7281QqcwivCTuKeelXxg7G">https://www.youtube.com/playlist?list=PLIfZMtpPYFP7281QqcwivCTuKeelXxg7G</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Papo Binário: CERO - Curso de Engenharia Reversa Online (Playlist) (<a href="https://www.youtube.com/playlist?list=PLIfZMtpPYFP6zLKlnyAeWY1I85VpyshAA">https://www.youtube.com/playlist?list=PLIfZMtpPYFP6zLKlnyAeWY1I85VpyshAA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Papo Binário: CEB - Curso de Exploração de Binários (Playlist) (<a href="https://www.youtube.com/playlist?list=PLIfZMtpPYFP4MaQhy_iR8uM0mJEs7P7s3">https://www.youtube.com/playlist?list=PLIfZMtpPYFP4MaQhy_iR8uM0mJEs7P7s3</a>)</li>
+</ul>
+<h3>Segurança de Aplicações de Software:</h3>
 <ul><li>A segurança de aplicações descreve as medidas de segurança no nível do aplicativo que visam impedir que dados ou códigos dentro da aplicação sejam roubados ou invadidos. Ele abrange as considerações de segurança que ocorrem durante o desenvolvimento e o design de aplicativos, mas também envolve sistemas e abordagens para proteger os aplicativos depois que eles são implantados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Arquitetura Zero Trust</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Application security vs. software security (<a href="https://medium.com/@SW_Integrity/application-security-vs-software-security-whats-the-difference-3d345413927c">https://medium.com/@SW_Integrity/application-security-vs-software-security-whats-the-difference-3d345413927c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A Comprehensive Guide To Application Security (<a href="https://medium.com/edureka/application-security-tutorial-e6a0dda25f5c">https://medium.com/edureka/application-security-tutorial-e6a0dda25f5c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Application Security Best Practices (<a href="https://medium.com/@cloud_tips/application-security-best-practices-c63b79f29a99">https://medium.com/@cloud_tips/application-security-best-practices-c63b79f29a99</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Importance of Software Security (<a href="https://medium.com/nerd-for-tech/importance-of-software-security-application-security-non-technical-hacking-encryption-and-365c93def04e">https://medium.com/nerd-for-tech/importance-of-software-security-application-security-non-technical-hacking-encryption-and-365c93def04e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Application Security 101 - What you need to know in 8 minutes (<a href="https://www.youtube.com/watch?v=Dp019cWu1cg&t=1s&ab_channel=Snyk">https://www.youtube.com/watch?v=Dp019cWu1cg&amp;t=1s&amp;ab_channel=Snyk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> edureka!: Application Security (<a href="https://www.youtube.com/watch?v=gfFKuiZ9Y7s">https://www.youtube.com/watch?v=gfFKuiZ9Y7s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> GOTO Conferences: Secure by Design – the Architect&#39;s Guide to Security Design Principles (<a href="https://www.youtube.com/watch?v=4qN3JBGd1g8">https://www.youtube.com/watch?v=4qN3JBGd1g8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cybr: Introduction to Application Security - Course (<a href="https://www.youtube.com/watch?v=3QOlo2pEpvc&ab_channel=Cybr">https://www.youtube.com/watch?v=3QOlo2pEpvc&amp;ab_channel=Cybr</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação Cibersegurança (<a href="https://cursos.alura.com.br/formacao-ciberseguranca">https://cursos.alura.com.br/formacao-ciberseguranca</a>)</li>
+</ul>
+<h3>Arquitetura Zero Trust:</h3>
 <ul><li>Zero Trust é um modelo de segurança de rede baseado na filosofia de que nenhuma pessoa ou dispositivo dentro ou fora da rede de uma organização deve ter acesso para se conectar a sistemas ou serviços de TI até que seja autenticado e verificado continuamente.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança na Nuvem</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Zero Trust - E o Fatídico Fim da VPN (<a href="https://www.youtube.com/watch?v=T_J3_R7tz1Q">https://www.youtube.com/watch?v=T_J3_R7tz1Q</a>)</li>
+<li><code data-kind="artigo">Artigo</code> NIST - Zero Trust Architecture (<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf">https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-207.pdf</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What does Zero Trust Architecture stand for? (<a href="https://medium.com/databulls/what-does-zero-trust-architecture-stand-for-3facb50226b4">https://medium.com/databulls/what-does-zero-trust-architecture-stand-for-3facb50226b4</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Zero Trust Architecture  (<a href="https://medium.com/geekculture/to-the-letter-zero-trust-architecture-zta-according-to-nist-800-207-1-3cf2b23d383b">https://medium.com/geekculture/to-the-letter-zero-trust-architecture-zta-according-to-nist-800-207-1-3cf2b23d383b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What Is Zero Trust Architecture (<a href="https://medium.com/magalix/what-is-zero-trust-architecture-and-how-does-it-work-23067912335c">https://medium.com/magalix/what-is-zero-trust-architecture-and-how-does-it-work-23067912335c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Zero trust model (<a href="https://www.youtube.com/watch?v=S6tobeRPr2U">https://www.youtube.com/watch?v=S6tobeRPr2U</a>)</li>
+<li><code data-kind="youtube">YouTube</code> What is Zero Trust Network Access (<a href="https://www.youtube.com/watch?v=DLQAbJm4gFM">https://www.youtube.com/watch?v=DLQAbJm4gFM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Descomplicando Zero Trust (<a href="https://www.youtube.com/watch?v=Pjz_4U7IrLo">https://www.youtube.com/watch?v=Pjz_4U7IrLo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> John Savill&#39;s Technical Training: Understanding and Getting Started with Zero Trust (<a href="https://www.youtube.com/watch?v=hhS8VdGnfOU&ab_channel=JohnSavill%27sTechnicalTraining">https://www.youtube.com/watch?v=hhS8VdGnfOU&amp;ab_channel=JohnSavill%27sTechnicalTraining</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Modelo de Segurança Zero Trust: entenda como funciona e sua importância (<a href="https://www.alura.com.br/artigos/modelo-seguranca-zero-trust-como-funciona">https://www.alura.com.br/artigos/modelo-seguranca-zero-trust-como-funciona</a>)</li>
+</ul>
+<h3>Segurança na Nuvem:</h3>
 <ul><li>A segurança na nuvem, também conhecida como segurança da computação em nuvem, é um conjunto de medidas de segurança projetadas para proteger a infraestrutura, os aplicativos e os dados baseados em nuvem. Essas medidas garantem a autenticação de usuários e dispositivos, controle de acesso a dados e recursos e proteção de privacidade de dados. Eles também suportam a conformidade de dados regulatórios.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança Contínua - Automação e Monitoramento</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Security in Cloud Computing (<a href="https://medium.com/cyversity/security-in-cloud-computing-8d77b20e7a2d">https://medium.com/cyversity/security-in-cloud-computing-8d77b20e7a2d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What Is Cloud Security Posture Management? (<a href="https://blog.cloudboost.io/what-is-cloud-security-posture-management-7ca9650d18e6">https://blog.cloudboost.io/what-is-cloud-security-posture-management-7ca9650d18e6</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud Applications Concept (<a href="https://medium.com/databulls/new-era-cloud-applications-concept-and-security-4ccfe29db9d7">https://medium.com/databulls/new-era-cloud-applications-concept-and-security-4ccfe29db9d7</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Security IN the Cloud vs Security OF the Cloud (<a href="https://medium.com/nerd-for-tech/security-in-the-cloud-vs-security-of-the-cloud-114dbcf962a9">https://medium.com/nerd-for-tech/security-in-the-cloud-vs-security-of-the-cloud-114dbcf962a9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IBM Technology: What is Cloud Security? (<a href="https://www.youtube.com/watch?v=jI8IKpjiCSM">https://www.youtube.com/watch?v=jI8IKpjiCSM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> edureka!: Cloud Security Tutorial (<a href="https://www.youtube.com/watch?v=0lw4KU5wHsk">https://www.youtube.com/watch?v=0lw4KU5wHsk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Simplilearn: Cloud Security Fundamentals (<a href="https://www.youtube.com/watch?v=M_9hRPVH5SA">https://www.youtube.com/watch?v=M_9hRPVH5SA</a>)</li>
+</ul>
+<h3>Segurança Contínua - Automação e Monitoramento:</h3>
 <ul><li>O monitoramento contínuo de segurança é uma abordagem de segurança que envolve a automatização de uma parte significativa do gerenciamento de segurança. Isso inclui detecção de vulnerabilidades, monitoramento de configurações de nuvem, identidades e seus direitos e segurança de dados.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Continuous Security (<a href="https://medium.com/digital-transformation-and-platform-engineering/devsecops-automation-and-continuous-security-4b720d0082f0">https://medium.com/digital-transformation-and-platform-engineering/devsecops-automation-and-continuous-security-4b720d0082f0</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Continuous Security: A Necessity on Cloud (<a href="https://nutanix.medium.com/continuous-security-a-necessity-on-cloud-848e6ef9cace">https://nutanix.medium.com/continuous-security-a-necessity-on-cloud-848e6ef9cace</a>)</li>
+<li><code data-kind="artigo">Artigo</code> DevOps Tools: Automation, Monitoring, CI/CD, and More (<a href="https://altexsoft.medium.com/devops-tools-automation-monitoring-ci-cd-and-more-ac7c4ca31879">https://altexsoft.medium.com/devops-tools-automation-monitoring-ci-cd-and-more-ac7c4ca31879</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Log Analysis for Digital Forensic Investigation (<a href="https://medium.com/mii-cybersec/log-analysis-for-digital-forensic-investigation-e4a00f5a5c09">https://medium.com/mii-cybersec/log-analysis-for-digital-forensic-investigation-e4a00f5a5c09</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Information Security Continuous Monitoring (<a href="https://www.youtube.com/watch?v=1V5FyasVMaM">https://www.youtube.com/watch?v=1V5FyasVMaM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cloud Security Automation (<a href="https://www.youtube.com/watch?v=2epVP58kn_Q">https://www.youtube.com/watch?v=2epVP58kn_Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SOAR - Security Orchestration Automation and Response (<a href="https://www.youtube.com/watch?v=i7H7VYkfUEw">https://www.youtube.com/watch?v=i7H7VYkfUEw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Continuous Cloud Security Monitoring (<a href="https://www.youtube.com/watch?v=ePCK8quTP2o">https://www.youtube.com/watch?v=ePCK8quTP2o</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Sistemas e tecnologias</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redes de Computadores - Fundamentos</strong>:</li>
+<h3>Redes de Computadores - Fundamentos:</h3>
 <ul><li>Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.</li>
 <li>Configurações de redes são essenciais para que seja possível acessar uma aplicação, principalmente se ela estiver na nuvem.</li>
 <li>Entenda melhor os componentes de rede e a suas atribuições</li>
 <li>Diferenciar os serviços disponibilizados a nível de rede</li>
 <li>Saber as diferenças entre as camadas de rede</li>
 <li>Saber o que é servidor web, proxy reverso e load balancer</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> IBM: Conceitos de rede e comunicação (<a href="https://www.ibm.com/docs/pt-br/aix/7.3?topic=management-network-communication-concepts">https://www.ibm.com/docs/pt-br/aix/7.3?topic=management-network-communication-concepts</a>)</li>
+<li><code data-kind="site">Site</code> AWS: O que são redes de computadores? (<a href="https://aws.amazon.com/pt/what-is/computer-networking/">https://aws.amazon.com/pt/what-is/computer-networking/</a>)</li>
+<li><code data-kind="site">Site</code> Red Hat: O que é gerenciamento de rede? (<a href="https://www.redhat.com/pt-br/topics/management/what-is-network-management">https://www.redhat.com/pt-br/topics/management/what-is-network-management</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Redes de Computadores — Sabendo o básico — Intro (<a href="https://medium.com/code-breaker/redes-de-computadores-sabendo-o-b%C3%A1sico-intro-1a7d5653e118">https://medium.com/code-breaker/redes-de-computadores-sabendo-o-b%C3%A1sico-intro-1a7d5653e118</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O protocolo TCP/IP (<a href="https://joaomarcuraa.medium.com/o-protocolo-tcp-ip-1dc2cdb88b07">https://joaomarcuraa.medium.com/o-protocolo-tcp-ip-1dc2cdb88b07</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: IP (Entenda finalmente como funciona o IPv4 e o IPv6) | Dicionário do Programador (<a href="https://www.youtube.com/watch?v=O8DmpmBMUSw">https://www.youtube.com/watch?v=O8DmpmBMUSw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rede de Computadores - Animação em 3D (<a href="https://www.youtube.com/watch?v=Iqcp3k8DgGw">https://www.youtube.com/watch?v=Iqcp3k8DgGw</a>)</li>
+<li><code data-kind="curso">Curso</code> Enterprise Networking, Security, and Automation (<a href="https://www.netacad.com/pt-br/courses/networking/ccna-enterprise-networking-security-automation">https://www.netacad.com/pt-br/courses/networking/ccna-enterprise-networking-security-automation</a>)</li>
+<li><code data-kind="curso">Curso</code> Switching, Routing, and Wireless Essentials (<a href="https://www.netacad.com/pt-br/courses/networking/ccna-switching-routing-wireless-essentials">https://www.netacad.com/pt-br/courses/networking/ccna-switching-routing-wireless-essentials</a>)</li>
+<li><code data-kind="curso">Curso</code> Introduction to Networks (<a href="https://www.netacad.com/pt-br/courses/networking/ccna-introduction-networks">https://www.netacad.com/pt-br/courses/networking/ccna-introduction-networks</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Rede de computadores: um guia completo sobre o que são, como funcionam e quais cursos fazer na área (<a href="https://www.alura.com.br/artigos/rede-de-computadores">https://www.alura.com.br/artigos/rede-de-computadores</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conhecendo algumas topologias de rede (<a href="https://www.alura.com.br/artigos/conhecendo-algumas-topologias-de-rede">https://www.alura.com.br/artigos/conhecendo-algumas-topologias-de-rede</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como calcular máscaras de sub-rede de forma simples (<a href="https://www.alura.com.br/artigos/como-calcular-mascaras-de-sub-rede">https://www.alura.com.br/artigos/como-calcular-mascaras-de-sub-rede</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo os padrões de Wi-Fi (<a href="https://www.alura.com.br/artigos/entendendo-os-padroes-de-wi-fi">https://www.alura.com.br/artigos/entendendo-os-padroes-de-wi-fi</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Diferenças entre Hubs e Switches (<a href="https://www.alura.com.br/artigos/diferencas-entre-hubs-e-switches">https://www.alura.com.br/artigos/diferencas-entre-hubs-e-switches</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo os cabos de rede (<a href="https://www.alura.com.br/artigos/entendendo-os-cabos-de-rede">https://www.alura.com.br/artigos/entendendo-os-cabos-de-rede</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SSH, Telnet e as diferenças para conectar em um servidor (<a href="https://www.alura.com.br/artigos/entendendo-as-diferencas-entre-telnet-e-ssh">https://www.alura.com.br/artigos/entendendo-as-diferencas-entre-telnet-e-ssh</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Redes de Computadores (<a href="https://cursos.alura.com.br/formacao-redes">https://cursos.alura.com.br/formacao-redes</a>)</li>
+</ul>
+<h3>HTTP - Fundamentos:</h3>
 <ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
 <li>Entender a diferença dos verbos HTTP</li>
 <li>Testar os requests e ver os status codes no navegador</li>
 <li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
 <li>Baixar uma imagem com WGET</li>
 <li>Fazer um post</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Uma visão geral do HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Métodos de requisição HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Cats (<a href="https://http.cat/">https://http.cat/</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Dogs (<a href="https://http.dog/">https://http.dog/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fabiano Gabardo Lemos: Requisições HTTP - GET, POST, PUT, PATCH DELETE (<a href="https://www.youtube.com/watch?v=kncOJZrnkTg">https://www.youtube.com/watch?v=kncOJZrnkTg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programador a Bordo: Protocolo HTTP e TCP/IP - Introdução (<a href="https://www.youtube.com/watch?v=V4XZ81vRGtM">https://www.youtube.com/watch?v=V4XZ81vRGtM</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> HTTP: Desmistificando o protocolo da Web (<a href="https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1">https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Métodos de requisição do HTTP (<a href="https://www.alura.com.br/artigos/metodos-de-requisicao-do-http">https://www.alura.com.br/artigos/metodos-de-requisicao-do-http</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual é a diferença entre HTTP e HTTPS? (<a href="https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https">https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: HTTP/2: magia com o novo protocolo - Hipsters 13 (<a href="https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573">https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso HTTP: Entendendo a web por baixo dos panos (<a href="https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos">https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos</a>)</li>
+</ul>
+<h3>Cloud - Fundamentos:</h3>
 <ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
 <li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
 <li>Conhecer os maiores provedores de cloud</li>
 <li>Especializar-se em algum provedor</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linux - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Computação em nuvem (<a href="https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9">https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é cloud? (<a href="https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6">https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabs Ferreira: Por que investir e estudar cloud? (<a href="https://www.youtube.com/watch?v=Z45BTNeZ1l0">https://www.youtube.com/watch?v=Z45BTNeZ1l0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Andre Iacono: O que é MICROSOFT AZURE? Qual Certificação começar em 2022? (<a href="https://www.youtube.com/watch?v=f-oVzkvMwnE">https://www.youtube.com/watch?v=f-oVzkvMwnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS: O que é a AWS? (<a href="https://www.youtube.com/watch?v=8JI9wQ8sUdQ">https://www.youtube.com/watch?v=8JI9wQ8sUdQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Google Cloud e por que aprender? (<a href="https://www.youtube.com/shorts/Lzq3f1DHWcI">https://www.youtube.com/shorts/Lzq3f1DHWcI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS vs Google Cloud vs Azure: o que cada um tem de melhor? (<a href="https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7">https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Azure (A plataforma Cloud da Microsoft) (<a href="https://www.youtube.com/watch?v=YgE-sZaCuJ0">https://www.youtube.com/watch?v=YgE-sZaCuJ0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mundo da Cloud: AWS do Zero ao Expert (<a href="https://www.youtube.com/watch?v=HiBCv9DolxI&list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz">https://www.youtube.com/watch?v=HiBCv9DolxI&amp;list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Fundamentos Cloud – Hipsters Ponto Tech #348 (<a href="https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/">https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Uma jornada Para o Cloud - Hipsters Deep Dive 005 (<a href="https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100">https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Histórias do Cloud - Hipsters 04 (<a href="https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582">https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Heroku, Vercel e outras opções de cloud como plataforma (<a href="https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma">https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações (<a href="https://www.alura.com.br/artigos/aws">https://www.alura.com.br/artigos/aws</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Terraform: criando máquinas na Azure (<a href="https://www.alura.com.br/artigos/terraform-maquinas-na-azure">https://www.alura.com.br/artigos/terraform-maquinas-na-azure</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é cloud? (<a href="https://www.YOUTUBE.com/watch?v=wev9fMrg-TU">https://www.YOUTUBE.com/watch?v=wev9fMrg-TU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: AWS, Google Cloud e Azure: Por onde começar? | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&t=300s">https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Certificação em Cloud: Azure, AWS, Google | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&t=290s">https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&amp;t=290s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Amazon Web Services (<a href="https://cursos.alura.com.br/formacao-amazon-web-services">https://cursos.alura.com.br/formacao-amazon-web-services</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AWS Certified Cloud Practitioner (<a href="https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner">https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Containers com AWS ECS e EKS (<a href="https://cursos.alura.com.br/formacao-containers-aws">https://cursos.alura.com.br/formacao-containers-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Cloud Platform (<a href="https://cursos.alura.com.br/formacao-google-cloud">https://cursos.alura.com.br/formacao-google-cloud</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Azure (<a href="https://cursos.alura.com.br/formacao-conhecendo-azure">https://cursos.alura.com.br/formacao-conhecendo-azure</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AZ-900: Microsoft Azure Fundamentals (<a href="https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals">https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals</a>)</li>
+</ul>
+<h3>Linux - Fundamentos:</h3>
 <ul><li>Linux é um termo popularmente empregado para se referir a sistemas operacionais que utilizam o Kernel Linux. As distribuições incluem o Kernel Linux, além de softwares de sistema e bibliotecas.</li>
 <li>Conhecer o sistema de diretórios do Linux</li>
 <li>Compactar e descompactar arquivos</li>
@@ -330,21 +838,105 @@
 <li>Conhecer as variáveis de ambiente e o PATH</li>
 <li>Gerenciar pacotes</li>
 <li>Realizar comunicação remota com o SSH e SCP</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Comandos linux (<a href="https://pllara.medium.com/comandos-linux-4db7307c17b7">https://pllara.medium.com/comandos-linux-4db7307c17b7</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Comandos básicos no Linux (<a href="https://medium.com/linkapi-solutions/comandos-b%C3%A1sicos-no-linux-95079363ab0e">https://medium.com/linkapi-solutions/comandos-b%C3%A1sicos-no-linux-95079363ab0e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ninja do Linux: Comandos básicos da linha de comando do Linux (<a href="https://www.youtube.com/watch?v=rs_yshFGu8E">https://www.youtube.com/watch?v=rs_yshFGu8E</a>)</li>
+<li><code data-kind="curso">Curso</code> MIT - The Missing Semester of Your CS Education (inglês) (<a href="https://missing.csail.mit.edu/">https://missing.csail.mit.edu/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Linux: download, instalação, distribuições e principais comandos (<a href="https://www.alura.com.br/artigos/linux-download-instalacao-distribuicoes-e-principais-comandos">https://www.alura.com.br/artigos/linux-download-instalacao-distribuicoes-e-principais-comandos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Procurando arquivos no Linux (<a href="https://www.alura.com.br/artigos/procurando-arquivos-no-linux">https://www.alura.com.br/artigos/procurando-arquivos-no-linux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando comandos no Linux com Bash (<a href="https://www.alura.com.br/artigos/criando-comandos-no-linux-com-bash">https://www.alura.com.br/artigos/criando-comandos-no-linux-com-bash</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Linux - Visualizando tamanhos de Diretórios (<a href="https://www.alura.com.br/artigos/como-visualizar-o-tamanho-de-diretorios-no-linux">https://www.alura.com.br/artigos/como-visualizar-o-tamanho-de-diretorios-no-linux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo as permissões no Linux (<a href="https://www.alura.com.br/artigos/entendendo-as-permissoes-no-linux">https://www.alura.com.br/artigos/entendendo-as-permissoes-no-linux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Linux: compactando e descompactando arquivos com o tar (<a href="https://www.alura.com.br/artigos/linux-compactando-e-descompactando-arquivos-com-o-tar">https://www.alura.com.br/artigos/linux-compactando-e-descompactando-arquivos-com-o-tar</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SSH: o acesso remoto aos servidores (<a href="https://www.alura.com.br/artigos/como-acessar-servidores-remotamente-com-ssh">https://www.alura.com.br/artigos/como-acessar-servidores-remotamente-com-ssh</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Onboarding: usando a CLI de uma forma rápida e prática (<a href="https://cursos.alura.com.br/course/linux-onboarding-utilizar-cli-forma-rapida-pratica">https://cursos.alura.com.br/course/linux-onboarding-utilizar-cli-forma-rapida-pratica</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Onboarding: localizando arquivos e conteúdos (<a href="https://cursos.alura.com.br/course/linux-onboarding-arquivos-conteudos">https://cursos.alura.com.br/course/linux-onboarding-arquivos-conteudos</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Onboarding: obtendo e tratando informações do sistema (<a href="https://cursos.alura.com.br/course/linux-onboarding-informacoes-sistema">https://cursos.alura.com.br/course/linux-onboarding-informacoes-sistema</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Onboarding: trabalhe com usuários, permissões e dispositivos (<a href="https://cursos.alura.com.br/course/linux-onboarding-usuarios-permissoes-dispositivos">https://cursos.alura.com.br/course/linux-onboarding-usuarios-permissoes-dispositivos</a>)</li>
+<li><code data-kind="curso">Curso</code> DevOps: explorando conceitos, comandos e scripts no Linux CLI (<a href="https://www.alura.com.br/curso-online-devops-conceitos-comandos-scripts-linux-cli">https://www.alura.com.br/curso-online-devops-conceitos-comandos-scripts-linux-cli</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Segurança da Informação</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de risco, ameaças e vulnerabilidades</strong>:</li>
+<h3>Gestão de risco, ameaças e vulnerabilidades:</h3>
 <ul><li>Gerenciar riscos é o processo de planejar, organizar e controlar recursos e pessoas para minimizar danos ou fazer com que os riscos virem oportunidades. Prever os riscos é uma prática importante, afinal, dessa forma é possível reverter o que pode dar errado e alcançar resultados positivos ao longo do processo.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Confidencialidade, Integridade e Disponibilidade</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> ISO 27001 (<a href="https://www.27001.pt/index.html">https://www.27001.pt/index.html</a>)</li>
+<li><code data-kind="site">Site</code> CVSS (<a href="https://nvd.nist.gov/vuln-metrics/cvss">https://nvd.nist.gov/vuln-metrics/cvss</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de vulnerabilidades como estratégia de negócios (<a href="https://phbols.medium.com/voc%C3%AA-conhece-esses-perigos-3b6758997ae3">https://phbols.medium.com/voc%C3%AA-conhece-esses-perigos-3b6758997ae3</a>)</li>
+<li><code data-kind="site">Site</code> O que é gerenciamento de vulnerabilidades? (<a href="https://www.ibm.com/br-pt/topics/vulnerability-management">https://www.ibm.com/br-pt/topics/vulnerability-management</a>)</li>
+<li><code data-kind="site">Site</code> Common Vulnerability Scoring System  (<a href="https://www.first.org/cvss/user-guide">https://www.first.org/cvss/user-guide</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gestão de risco e vulnerabilidade (<a href="https://www.youtube.com/watch?v=k2uMAQh1AaE">https://www.youtube.com/watch?v=k2uMAQh1AaE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ameaças, Vulnerabilidades e Riscos (<a href="https://www.youtube.com/watch?v=AWUhXq4FDNo">https://www.youtube.com/watch?v=AWUhXq4FDNo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gestão de Vulnerabilidades com Base em Risco (<a href="https://www.youtube.com/watch?v=J23tKyQuoTQ">https://www.youtube.com/watch?v=J23tKyQuoTQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Riscos, Ameaças e Vulnerabilidades em Segurança da Informação (<a href="https://www.youtube.com/watch?v=zD3M_EqkVFg">https://www.youtube.com/watch?v=zD3M_EqkVFg</a>)</li>
+</ul>
+<h3>Confidencialidade, Integridade e Disponibilidade:</h3>
 <ul><li>Os 3 princípios fundamentais da segurança da informação. Qualquer bom programa de gerenciamento de segurança da informação deve ser projetado para alcançar os três princípios de segurança da informação são comumente conhecidos como CIA (em inglês, a sigla CIA significa &quot;Confidentiality&quot;, &quot;Integrity&quot; e &quot;Availability&quot;, o que corresponde à sigla CID em português — Confidencialidade, Integridade e Disponibilidade).</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gerenciamento de identidade e acesso (IAM)</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Um guia sobre normas de segurança da informação (<a href="https://medium.com/sysadminas/um-guia-sobre-normas-de-seguran%C3%A7a-da-informa%C3%A7%C3%A3o-500400d349ee">https://medium.com/sysadminas/um-guia-sobre-normas-de-seguran%C3%A7a-da-informa%C3%A7%C3%A3o-500400d349ee</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Segurança da Informação (<a href="https://medium.com/sysadminas/seguran%C3%A7a-c65dd9f825c0">https://medium.com/sysadminas/seguran%C3%A7a-c65dd9f825c0</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é segurança da informação? (<a href="https://medium.com/crypt0-women/o-que-%C3%A9-seguran%C3%A7a-da-informa%C3%A7%C3%A3o-9185d18dcd9f">https://medium.com/crypt0-women/o-que-%C3%A9-seguran%C3%A7a-da-informa%C3%A7%C3%A3o-9185d18dcd9f</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Confiabilidade nos Aspectos da Segurança da Informação (<a href="https://medium.com/@fertorresfs/confiabilidade-nos-aspectos-da-seguran%C3%A7a-da-informa%C3%A7%C3%A3o-99359a01abee">https://medium.com/@fertorresfs/confiabilidade-nos-aspectos-da-seguran%C3%A7a-da-informa%C3%A7%C3%A3o-99359a01abee</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Segurança da Informação, uma abordagem básica porém necessária (<a href="https://medium.com/eusouelliot/seguran%C3%A7a-da-informa%C3%A7%C3%A3o-uma-abordagem-b%C3%A1sica-por%C3%A9m-necess%C3%A1ria-9b37c716aad9">https://medium.com/eusouelliot/seguran%C3%A7a-da-informa%C3%A7%C3%A3o-uma-abordagem-b%C3%A1sica-por%C3%A9m-necess%C3%A1ria-9b37c716aad9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ISO 27002 | Uma visão geral no contexto da LGPD (<a href="https://www.youtube.com/watch?v=Gp8WjPv0kj8">https://www.youtube.com/watch?v=Gp8WjPv0kj8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Segurança da Informação - ISO 27002 - Parte 1 (<a href="https://www.youtube.com/watch?v=8p9KBcuvwQI">https://www.youtube.com/watch?v=8p9KBcuvwQI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 5 PASSOS PARA IMPLEMENTAR A ISO 27001 (<a href="https://www.youtube.com/watch?v=P1Oi-gBuMmo">https://www.youtube.com/watch?v=P1Oi-gBuMmo</a>)</li>
+</ul>
+<h3>Gerenciamento de identidade e acesso (IAM):</h3>
 <ul><li>Gestão de identidades, também conhecida como gestão de identidades e acessos (GIA) ou pelo seu termo em inglês, identity and access management (IAM) está entre as disciplinas de segurança da informação que habilita os indivíduos corretos à acessar os recursos corretos no momento correto e pelos motivos corretos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conscientização de Segurança</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> What is Identity and Access Management (<a href="https://medium.com/identity-beyond-borders/identity-and-access-management-10166c309f11">https://medium.com/identity-beyond-borders/identity-and-access-management-10166c309f11</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introduction to Identity and Access Management (<a href="https://medium.com/identity-beyond-borders/introduction-to-identity-and-access-management-2f3b80862647">https://medium.com/identity-beyond-borders/introduction-to-identity-and-access-management-2f3b80862647</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What is IAM? (<a href="https://bojithapiyathilake.medium.com/identity-and-access-management-components-c501d786db4c">https://bojithapiyathilake.medium.com/identity-and-access-management-components-c501d786db4c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What is IAM as a service (<a href="https://medium.com/hypto/identity-and-access-management-iam-e04d2354a57">https://medium.com/hypto/identity-and-access-management-iam-e04d2354a57</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Open-source Identity and Access Management System (<a href="https://medium.com/@devops.ent/top-identity-and-access-management-systems-iam-open-source-enterprise-92cf66560a55">https://medium.com/@devops.ent/top-identity-and-access-management-systems-iam-open-source-enterprise-92cf66560a55</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IBM Technology: Identity &amp; Access Management (IAM) (<a href="https://www.youtube.com/watch?v=aNj36g7fSsU&ab_channel=IBMTechnology">https://www.youtube.com/watch?v=aNj36g7fSsU&amp;ab_channel=IBMTechnology</a>)</li>
+<li><code data-kind="youtube">YouTube</code> VMware End-User Computing: Identity and Access Management - Technical Overview (<a href="https://www.youtube.com/watch?v=Tcvsefz5DmA&ab_channel=VMwareEnd-UserComputing">https://www.youtube.com/watch?v=Tcvsefz5DmA&amp;ab_channel=VMwareEnd-UserComputing</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é gerenciamento de identidade e acesso (IAM)? (<a href="https://www.alura.com.br/artigos/gerenciamento-identidade-acesso-iam">https://www.alura.com.br/artigos/gerenciamento-identidade-acesso-iam</a>)</li>
+</ul>
+<h3>Conscientização de Segurança:</h3>
 <ul><li>À medida que os ataques cibernéticos se tornam mais prevalentes e sofisticados, as empresas devem confiar mais em seus funcionários para garantir que eles não coloquem os dados em risco ou sejam vítimas de ransomware. Mas os funcionários estão mais ocupados do que nunca. E, criar uma cultura de cibersegurança no trabalho torna-se mais importante e mais desafiador quando os funcionários trabalham em casa.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Proteção de dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> A mudança de cultura com a conscientização de segurança da informação (<a href="https://medium.com/@rogosantos/a-mudan%C3%A7a-de-cultura-com-a-conscientiza%C3%A7%C3%A3o-de-seguran%C3%A7a-da-informa%C3%A7%C3%A3o-b6f701f0f6f4">https://medium.com/@rogosantos/a-mudan%C3%A7a-de-cultura-com-a-conscientiza%C3%A7%C3%A3o-de-seguran%C3%A7a-da-informa%C3%A7%C3%A3o-b6f701f0f6f4</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Segurança da informação: focando no fator humano (<a href="https://medium.com/@boschtechbr/seguran%C3%A7a-da-informa%C3%A7%C3%A3o-focando-no-fator-humano-e67fe163c341">https://medium.com/@boschtechbr/seguran%C3%A7a-da-informa%C3%A7%C3%A3o-focando-no-fator-humano-e67fe163c341</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A importância de conscientizar (<a href="https://medium.com/@rogosantos/a-import%C3%A2ncia-de-conscientizar-funcion%C3%A1rios-sobre-ciberseguran%C3%A7a-desde-o-primeiro-dia-83efcadd8ec9">https://medium.com/@rogosantos/a-import%C3%A2ncia-de-conscientizar-funcion%C3%A1rios-sobre-ciberseguran%C3%A7a-desde-o-primeiro-dia-83efcadd8ec9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Métricas para programas de conscientização em segurança da informação (<a href="https://www.youtube.com/watch?v=vkBxVu7k7Q8">https://www.youtube.com/watch?v=vkBxVu7k7Q8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Conscientização de usuários em segurança da informação (<a href="https://www.youtube.com/watch?v=vkBxVu7k7Q8">https://www.youtube.com/watch?v=vkBxVu7k7Q8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 7 ações que, isoladas, não são um programa de conscientização em SI (<a href="https://www.youtube.com/watch?v=96mC_EJN0jg">https://www.youtube.com/watch?v=96mC_EJN0jg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Política de Segurança da Informação (<a href="https://www.youtube.com/watch?v=nQ2ptWBr-Rw">https://www.youtube.com/watch?v=nQ2ptWBr-Rw</a>)</li>
+</ul>
+<h3>Proteção de dados:</h3>
 <ul><li>A proteção de dados é o processo de proteger informações importantes de forma que garanta a confidencialidade, integridade e a disponibilidade destes dados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Segurança em autenticação e senhas</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> ENTENDA O QUE É LGPD (<a href="https://www.youtube.com/watch?v=dPipsp5arAc">https://www.youtube.com/watch?v=dPipsp5arAc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tudo que você precisa saber sobre a LGPD (<a href="https://www.youtube.com/watch?v=hu6XIc7QVnE">https://www.youtube.com/watch?v=hu6XIc7QVnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que você precisa saber sobre o GDPR (<a href="https://www.youtube.com/watch?v=egGvTgk3HH8">https://www.youtube.com/watch?v=egGvTgk3HH8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> DLP – Data Loss Prevention (<a href="https://www.youtube.com/watch?v=VHeX3D2WOUc">https://www.youtube.com/watch?v=VHeX3D2WOUc</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como estudei para certificação Privacy and Data Protection Foundation (PDPF) (<a href="https://caiovicentinni.medium.com/como-estudei-para-certifica%C3%A7%C3%A3o-privacy-and-data-protection-foundation-pdpf-81a824aa9f5e">https://caiovicentinni.medium.com/como-estudei-para-certifica%C3%A7%C3%A3o-privacy-and-data-protection-foundation-pdpf-81a824aa9f5e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Com a Lei em vigor, quais as diferenças entre a LGPD e GDPR? (<a href="https://medium.com/@rogosantos/com-a-lei-em-vigor-quais-as-diferen%C3%A7as-entre-a-lgpd-e-gdpr-8e6d008c898d">https://medium.com/@rogosantos/com-a-lei-em-vigor-quais-as-diferen%C3%A7as-entre-a-lgpd-e-gdpr-8e6d008c898d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como a LGPD pode impactar na Experiência do Usuário (UX) (<a href="https://brasil.uxdesign.cc/como-a-lei-geral-de-prote%C3%A7%C3%A3o-de-dados-pode-afetar-a-experi%C3%AAncia-do-usu%C3%A1rio-e514270bf59c">https://brasil.uxdesign.cc/como-a-lei-geral-de-prote%C3%A7%C3%A3o-de-dados-pode-afetar-a-experi%C3%AAncia-do-usu%C3%A1rio-e514270bf59c</a>)</li>
+</ul>
+<h3>Segurança em autenticação e senhas:</h3>
 <ul><li>Uma senha forte faz toda diferença quando o assunto é proteção de dados. Afinal, ela é construída de maneira a dificultar e muito que seja quebrada por um hacker ou ataque de massa. A senha, você sabe, é um mecanismo que permite o acesso de uma pessoa a um determinado serviço.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> How Secure is Your Password? (<a href="https://www.passwordmonster.com/">https://www.passwordmonster.com/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como criar senhas realmente seguras (<a href="https://medium.com/the-autistic-nikkei/como-criar-senhas-realmente-seguras-d39b4442db1c">https://medium.com/the-autistic-nikkei/como-criar-senhas-realmente-seguras-d39b4442db1c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Password Security: THM Writeup (<a href="https://medium.com/bug-bounty-hunting/password-security-thm-writeup-cc9088207af3">https://medium.com/bug-bounty-hunting/password-security-thm-writeup-cc9088207af3</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What Is a Secure Password? (<a href="https://medium.com/geekculture/what-is-a-secure-password-97263aeedea9">https://medium.com/geekculture/what-is-a-secure-password-97263aeedea9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Bit Oxygen: Authentication in Computer Security (<a href="https://www.youtube.com/watch?v=7oTkgG1v-rU">https://www.youtube.com/watch?v=7oTkgG1v-rU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Linus Tech Tips: Password Security Best Practices (<a href="https://www.youtube.com/watch?v=t8SQo3R7qeU">https://www.youtube.com/watch?v=t8SQo3R7qeU</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

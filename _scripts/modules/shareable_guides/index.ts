@@ -53,14 +53,17 @@ export async function main() {
 
       fs.writeFileSync(
         `${filePath}.md`,
-        templateMarkdown({
-          name,
-          level1: data.guide.expertises[0],
-          level2: data.guide.expertises[1],
-          level3: data.guide.expertises[2],
-          collaboration1: data.guide.collaborations[0],
-          collaboration2: data.guide.collaborations[1],
-        })
+        templateMarkdown(
+          {
+            name,
+            level1: data.guide.expertises[0],
+            level2: data.guide.expertises[1],
+            level3: data.guide.expertises[2],
+            collaboration1: data.guide.collaborations[0],
+            collaboration2: data.guide.collaborations[1],
+          },
+          locale
+        )
       );
     }
   }

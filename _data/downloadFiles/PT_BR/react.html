@@ -71,11 +71,61 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +151,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +228,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,9 +248,8 @@
   </div>
 
   <div class="content">
-    <h1>React</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTML - Fundamentos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>HTML - Fundamentos:</h3>
 <ul><li>HTML é uma linguagem de marcação que define a estrutura do seu conteúdo. HTML consiste em uma série de elementos que você usa para mostrar algo de uma determinada maneira ou agir de uma certo modo. As tags podem criar um hiperlink de uma palavra ou imagem para outro lugar, podem colocar palavras em itálico, podem aumentar ou diminuir a fonte e assim por diante.</li>
 <li>Aprender quais tags são necessárias para um HTML básico</li>
 <li>Criar um parágrafo de texto</li>
@@ -224,7 +262,22 @@
 <li>Conectar com um arquivo de CSS</li>
 <li>Criar uma tabela</li>
 <li>Adicionar IDs e classes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CSS - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: HTML básico (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics">https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: 5 MINUTOS DE HTML PARA INICIAR EM PROGRAMAÇÃO! (<a href="https://www.youtube.com/watch?v=3oSIqIqzN3M">https://www.youtube.com/watch?v=3oSIqIqzN3M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: LANDING PAGE COM HTML e CSS! (<a href="https://www.youtube.com/watch?v=llF6vD-RljE">https://www.youtube.com/watch?v=llF6vD-RljE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: FORMULÁRIOS COM HTML e CSS! (<a href="https://www.youtube.com/watch?v=wwqOJ2o84S4">https://www.youtube.com/watch?v=wwqOJ2o84S4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> HTML: o que é, a importância para a Web, como aprender e um Guia para iniciantes (<a href="https://www.alura.com.br/artigos/html">https://www.alura.com.br/artigos/html</a>)</li>
+<li><code data-kind="alura+">Alura+</code> Alura+: Fazendo deploy de um projeto na Vercel (<a href="https://cursos.alura.com.br/extra/alura-mais/fazendo-deploy-de-um-projeto-na-vercel-c9239">https://cursos.alura.com.br/extra/alura-mais/fazendo-deploy-de-um-projeto-na-vercel-c9239</a>)</li>
+<li><code data-kind="artigo">Artigo</code> HTML, CSS e Javascript, quais as diferenças? (<a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes">https://www.alura.com.br/artigos/html-css-e-js-definicoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação HTML e CSS (<a href="https://www.alura.com.br/formacao-html-e-css">https://www.alura.com.br/formacao-html-e-css</a>)</li>
+<li><code data-kind="curso">Curso</code> Apostila: Desenvolvimento Web com HTML, CSS e JavaScript (<a href="https://www.alura.com.br/apostila-html-css-javascript">https://www.alura.com.br/apostila-html-css-javascript</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: HTML e CSS (<a href="https://7daysofcode.io/matricula/html-css">https://7daysofcode.io/matricula/html-css</a>)</li>
+</ul>
+<h3>CSS - Fundamentos:</h3>
 <ul><li>Cascading Style Sheets (CSS) é uma linguagem usada para descrever a apresentação de um documento escrito em uma linguagem de marcação como HTML ou XML. CSS pode ser usado para estilos de texto de documentos muito básicos — por exemplo, para alterar a cor e o tamanho de títulos e links. Ele pode ser usado para criar um layout — por exemplo, transformar uma única coluna de texto em um layout com uma área de conteúdo principal e uma barra lateral para informações relacionadas. Pode até ser usado para efeitos como animações.</li>
 <li>Aprender a estrutura visual de uma página, com &#39;margin&#39; e &#39;padding&#39;</li>
 <li>Estabelecer o tamanho com &#39;width&#39; e &#39;height&#39;</li>
@@ -239,7 +292,45 @@
 <li>Aprender box-sizing</li>
 <li>Aprender Flexbox</li>
 <li>Aprender Grid</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Iniciando com CSS (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started">https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/Getting_started</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Seletores (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors">https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Selectors</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Cascata e herança (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance">https://developer.mozilla.org/pt-BR/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Propriedade &#39;display&#39; (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/display">https://developer.mozilla.org/pt-BR/docs/Web/CSS/display</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Conceitos básicos de Flexbox (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Grid Layout (<a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout">https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo CSS: Display Inline, Block e Inline-Block (<a href="https://dev.to/sucodelarangela/entendendo-css-display-inline-block-e-inline-block-lic">https://dev.to/sucodelarangela/entendendo-css-display-inline-block-e-inline-block-lic</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo CSS: Pseudo-Classes e Pseudo-Elementos (<a href="https://dev.to/sucodelarangela/entendendo-css-pseudo-classes-e-pseudo-elementos-b83">https://dev.to/sucodelarangela/entendendo-css-pseudo-classes-e-pseudo-elementos-b83</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como aplicar opacidade em background-image sem afetar textos (<a href="https://dev.to/sucodelarangela/como-aplicar-opacidade-em-background-image-sem-afetar-textos-31fj">https://dev.to/sucodelarangela/como-aplicar-opacidade-em-background-image-sem-afetar-textos-31fj</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O QUE É CSS? (<a href="https://www.youtube.com/watch?v=LWU2OR19ZG4">https://www.youtube.com/watch?v=LWU2OR19ZG4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web - parte 1 (<a href="https://www.youtube.com/watch?v=KbjLtEgmZ_E">https://www.youtube.com/watch?v=KbjLtEgmZ_E</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: FLEXBOX CSS! Como posicionar elementos na página web - parte 2 (<a href="https://www.youtube.com/watch?v=hjz6ezV9_uc">https://www.youtube.com/watch?v=hjz6ezV9_uc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: Arquitetura CSS - BEM (<a href="https://www.youtube.com/watch?v=yKPXW9aSxQI">https://www.youtube.com/watch?v=yKPXW9aSxQI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: CSS Grid Layout (<a href="https://www.youtube.com/watch?v=HBlBNAtFcdw">https://www.youtube.com/watch?v=HBlBNAtFcdw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como centralizar no CSS (<a href="https://www.youtube.com/watch?v=Cu-HP-gvggg">https://www.youtube.com/watch?v=Cu-HP-gvggg</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipster 09 - CSS: Cansei de Ser Simples (<a href="https://www.hipsters.tech/css-cansei-de-ser-simples-hipsters-09/">https://www.hipsters.tech/css-cansei-de-ser-simples-hipsters-09/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CSS: o que é, como usar no HTML e um Guia para iniciar (<a href="https://www.alura.com.br/artigos/css">https://www.alura.com.br/artigos/css</a>)</li>
+<li><code data-kind="artigo">Artigo</code> HTML, CSS e Javascript, quais as diferenças? (<a href="https://www.alura.com.br/artigos/html-css-e-js-definicoes">https://www.alura.com.br/artigos/html-css-e-js-definicoes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia de unidades no CSS (<a href="https://www.alura.com.br/artigos/guia-de-unidades-no-css">https://www.alura.com.br/artigos/guia-de-unidades-no-css</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CSS: Guia do Flexbox (<a href="https://www.alura.com.br/artigos/css-guia-do-flexbox">https://www.alura.com.br/artigos/css-guia-do-flexbox</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como fazer Grids e a Responsividade na Web (<a href="https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web">https://www.alura.com.br/artigos/como-fazer-grids-e-a-responsividade-na-web</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como criar animações incríveis com CSS (<a href="https://www.alura.com.br/artigos/animacoes-com-css">https://www.alura.com.br/artigos/animacoes-com-css</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Houdini CSS: um jeito mágico de criar estilos personalizados (<a href="https://www.alura.com.br/artigos/houdini-css">https://www.alura.com.br/artigos/houdini-css</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: CSS FlexBox: Dicas para começar (<a href="https://www.youtube.com/watch?v=326-B1avuYo">https://www.youtube.com/watch?v=326-B1avuYo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Box Model e Sizing no CSS (<a href="https://www.youtube.com/watch?v=qcNUxyOWXIw">https://www.youtube.com/watch?v=qcNUxyOWXIw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Curso de HTML5 e CSS3 (<a href="https://www.youtube.com/watch?v=78AyiuxYceg">https://www.youtube.com/watch?v=78AyiuxYceg</a>)</li>
+<li><code data-kind="curso">Curso</code> Apostila: Desenvolvimento Web com HTML, CSS e JavaScript (<a href="https://www.alura.com.br/apostila-html-css-javascript">https://www.alura.com.br/apostila-html-css-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação HTML e CSS (<a href="https://www.alura.com.br/formacao-html-e-css">https://www.alura.com.br/formacao-html-e-css</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação CSS: aprofunde em estilos (<a href="https://cursos.alura.com.br/formacao-css-estilos">https://cursos.alura.com.br/formacao-css-estilos</a>)</li>
+<li><code data-kind="curso">Curso</code> HTML e CSS: responsividade com mobile-first (<a href="https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first">https://www.alura.com.br/curso-online-html-css-responsividade-mobile-first</a>)</li>
+<li><code data-kind="curso">Curso</code> CSS: cursos para transformar designs com Grid, Flexbox e Sass (<a href="https://cursos.alura.com.br/formacao-css-cursos-transformar-designs-grid-flexbox-sass">https://cursos.alura.com.br/formacao-css-cursos-transformar-designs-grid-flexbox-sass</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: HTML e CSS (<a href="https://7daysofcode.io/matricula/html-css">https://7daysofcode.io/matricula/html-css</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Responsividade (<a href="https://7daysofcode.io/matricula/responsividade">https://7daysofcode.io/matricula/responsividade</a>)</li>
+</ul>
+<h3>JavaScript - Fundamentos:</h3>
 <ul><li>JavaScript é a linguagem de programação mais popular do mundo e é uma das principais tecnologias da World Wide Web, juntamente com HTML e CSS. Ela possui tipagem dinâmica, orientação a objetos baseada em protótipos e funções de primeira classe. Ela é multi-paradigma e suporta estilos de programação orientados a eventos, funcionais e imperativos.</li>
 <li>Conhecer os tipos primitivos</li>
 <li>Declarar variáveis, considerando a diferença entre &#39;var&#39;, &#39;let&#39; e &#39;const&#39;</li>
@@ -252,7 +343,40 @@
 <li>Fazer um CRUD</li>
 <li>Obter dados de uma API</li>
 <li>Fazer chamadas assíncronas usando &#39;Async/Await&#39;, &#39;Promise&#39;, etc</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>DOM - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Um primeiro mergulho no JavaScript (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Trabalhando com texto — strings em JavaScript (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Strings">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Strings</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: if...else (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/if...else</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: while (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/while</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: for (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/for</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Arrays (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Arrays">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Arrays</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Template strings (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Template_literals</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Definindo Funções em Javascript (<a href="https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/">https://blog.matheuscastiglioni.com.br/definindo-funcoes-em-javascript/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como manipular arrays e objetos em JavaScript (<a href="https://www.youtube.com/watch?v=yS7AcF-xRUg">https://www.youtube.com/watch?v=yS7AcF-xRUg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: O que é Json e como criar um objeto (<a href="https://www.youtube.com/watch?v=oCY5YEEjlwE">https://www.youtube.com/watch?v=oCY5YEEjlwE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como usar Async/Await? Promises no JavaScript? (<a href="https://www.youtube.com/watch?v=q28lfkBd9F4">https://www.youtube.com/watch?v=q28lfkBd9F4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como pegar dados de uma API? Como fazer AJAX? | Pegando dados de serviços via JavaScript (<a href="https://www.youtube.com/watch?v=85vJXFpXLQw">https://www.youtube.com/watch?v=85vJXFpXLQw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> JavaScript: o que é, como aprender e um Guia da linguagem mais popular do mundo (<a href="https://www.alura.com.br/artigos/javascript/">https://www.alura.com.br/artigos/javascript/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 38 - O Reino encantado do JavaScript (<a href="https://www.hipsters.tech/o-reino-encantado-do-javascript-hipsters-38/">https://www.hipsters.tech/o-reino-encantado-do-javascript-hipsters-38/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 169 - JavaScript: manual de sobrevivência 2020 (<a href="https://www.hipsters.tech/javascript-manual-de-sobrevivencia-2020-hipsters-169/">https://www.hipsters.tech/javascript-manual-de-sobrevivencia-2020-hipsters-169/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipster 236 - Evolução do JavaScript (<a href="https://www.hipsters.tech/evolucao-do-javascript-hipsters-ponto-tech-236/">https://www.hipsters.tech/evolucao-do-javascript-hipsters-ponto-tech-236/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Strings com JavaScript: o que são e como manipulá-las (<a href="https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular">https://www.alura.com.br/artigos/strings-com-javascript-o-que-sao-e-como-manipular</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como utilizar operadores de comparação em Javascript (<a href="https://www.alura.com.br/artigos/operadores-matematicos-em-javascript">https://www.alura.com.br/artigos/operadores-matematicos-em-javascript</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Para que serve um Array? (<a href="https://www.alura.com.br/artigos/javascript-para-que-serve-array">https://www.alura.com.br/artigos/javascript-para-que-serve-array</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Quando usar forEach e map? (<a href="https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map">https://www.alura.com.br/artigos/javascript-quando-devo-usar-foreach-e-map</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Manipulação de array com map, filter e reduce (<a href="https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce">https://www.alura.com.br/artigos/manipulacao-de-array-com-map-filter-e-reduce</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Desenvolva aplicações Web com JavaScript (<a href="https://cursos.alura.com.br/formacao-javascript-front-end">https://cursos.alura.com.br/formacao-javascript-front-end</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é JavaScript? (<a href="https://www.youtube.com/watch?v=NaVSbnnV75Q">https://www.youtube.com/watch?v=NaVSbnnV75Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Destructuring em JavaScript (<a href="https://www.youtube.com/watch?v=f8a-qwKC5yk">https://www.youtube.com/watch?v=f8a-qwKC5yk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Classes x funções no Javascript (<a href="https://www.youtube.com/watch?v=iohhj-k9L6s">https://www.youtube.com/watch?v=iohhj-k9L6s</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM (<a href="https://7daysofcode.io/matricula/javascript-e-dom">https://7daysofcode.io/matricula/javascript-e-dom</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM com API (<a href="https://7daysofcode.io/matricula/javascript-e-dom-api">https://7daysofcode.io/matricula/javascript-e-dom-api</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM - Wordle (<a href="https://7daysofcode.io/matricula/javascript-e-dom-wordle">https://7daysofcode.io/matricula/javascript-e-dom-wordle</a>)</li>
+</ul>
+<h3>DOM - Fundamentos:</h3>
 <ul><li>O Document Object Model (DOM) é uma interface de programação para documentos web. Ele representa a página para que os programas possam alterar a estrutura, o estilo e o conteúdo do documento. O DOM representa o documento como nós e objetos; dessa forma, linguagens de programação podem interagir com a página.</li>
 <li>Entender como funciona a árvore do DOM</li>
 <li>Acessar e manipular elementos do HTML e CSS</li>
@@ -260,156 +384,693 @@
 <li>Inserir um novo elemento na árvore</li>
 <li>Remover um elemento da árvore</li>
 <li>Esperar por um evento em certo elemento da página usando &#39;addEventListener()&#39;</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos SPA</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Introdução ao DOM (<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction">https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: querySelector() (<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector">https://developer.mozilla.org/pt-BR/docs/Web/API/Document/querySelector</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: addEventListener() (<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener">https://developer.mozilla.org/pt-BR/docs/Web/API/EventTarget/addEventListener</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Felipe Aguiar - Laboratório de javascript: Javascript DOM 01 - DOM - A base da manipulação e criação de páginas dinâmicas (<a href="https://www.youtube.com/watch?v=G31EuXNMDPk">https://www.youtube.com/watch?v=G31EuXNMDPk</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso JavaScript: manipulando o DOM (<a href="https://cursos.alura.com.br/course/javascript-manipulando-elementos-dom">https://cursos.alura.com.br/course/javascript-manipulando-elementos-dom</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia para manipular eventos no DOM com JavaScript: técnicas e exemplos práticos (<a href="https://www.alura.com.br/artigos/eventos-do-dom">https://www.alura.com.br/artigos/eventos-do-dom</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM (<a href="https://7daysofcode.io/matricula/javascript-e-dom">https://7daysofcode.io/matricula/javascript-e-dom</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM com API (<a href="https://7daysofcode.io/matricula/javascript-e-dom-api">https://7daysofcode.io/matricula/javascript-e-dom-api</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: JavaScript e DOM - Wordle (<a href="https://7daysofcode.io/matricula/javascript-e-dom-wordle">https://7daysofcode.io/matricula/javascript-e-dom-wordle</a>)</li>
+</ul>
+<h3>Conceitos SPA:</h3>
 <ul><li>Um aplicativo de página única (SPA - single-page application) é uma aplicação web ou site que interage com o usuário reescrevendo dinamicamente a página web atual com novos dados do servidor web, em vez do método padrão de um navegador que carrega novas páginas inteiras. O objetivo são transições mais rápidas, que tornam o site mais parecido com uma aplicação nativa.</li>
 <li>Entender o que é uma SPA</li>
 <li>Estabelecer rotas para outras páginas</li>
 <li>Conhecer frameworks SPA</li>
 <li>Comunicação com APIs</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Componentes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Wikipédia: Aplicativo de página única (SPA) (<a href="https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica">https://pt.wikipedia.org/wiki/Aplicativo_de_p%C3%A1gina_%C3%BAnica</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: SPA (Single-page application) (inglês) (<a href="https://developer.mozilla.org/en-US/docs/Glossary/SPA">https://developer.mozilla.org/en-US/docs/Glossary/SPA</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What I wish I had known about SPAs (inglês) (<a href="https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/">https://stackoverflow.blog/2021/12/28/what-i-wish-i-had-known-about-single-page-applications/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: Single Page Applications (<a href="https://www.hipsters.tech/single-page-applications-hipsters-16/">https://www.hipsters.tech/single-page-applications-hipsters-16/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é uma Single-Page Application? (SPA) (<a href="https://www.youtube.com/watch?v=opxYpCKzlLk">https://www.youtube.com/watch?v=opxYpCKzlLk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Como configurar o React Router para sua SPA (<a href="https://www.youtube.com/watch?v=4Tb8dp5GYqI">https://www.youtube.com/watch?v=4Tb8dp5GYqI</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraCord - Aula 02 (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-02-state-novas-paginas-e-navegacao-spa-vs-a-tradicional-c69">https://cursos.alura.com.br/imersoes/aulas/aula-02-state-novas-paginas-e-navegacao-spa-vs-a-tradicional-c69</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso React Router: navegação em uma SPA (<a href="https://www.alura.com.br/conteudo/react-router-navegacao-spa">https://www.alura.com.br/conteudo/react-router-navegacao-spa</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: desenvolvendo em React Router com JavaScript (<a href="https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript">https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: conhecendo a biblioteca React Router (<a href="https://www.alura.com.br/curso-online-react-biblioteca-react-router">https://www.alura.com.br/curso-online-react-biblioteca-react-router</a>)</li>
+</ul>
+<h3>React - Componentes:</h3>
 <ul><li>O React permite definir componentes como classes ou funções. Componentes definidos como classes fornecem mais recursos. Eles aceitam entradas arbitrárias (chamadas &quot;props&quot;) e retornam elementos React descrevendo o que deve aparecer na tela.</li>
 <li>Para que servem e como funcionam componentes</li>
 <li>Conhecer a biblioteca Styled Components</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Props</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Criando Styled Components Com React (<a href="https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/">https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/</a>)</li>
+<li><code data-kind="site">Site</code> React: Documentação - Componentes e Props (<a href="https://pt-br.reactjs.org/docs/components-and-props.html#gatsby-focus-wrapper">https://pt-br.reactjs.org/docs/components-and-props.html#gatsby-focus-wrapper</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Começando com React - Explorando seu primeiro componente React (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#explorando_seu_primeiro_componente_react_%E2%80%94_%3Capp%3E">https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#explorando_seu_primeiro_componente_react_%E2%80%94_%3Capp%3E</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: CSS-in-JS na prática! Criando componentes com React e CSS no NextJS (<a href="https://www.youtube.com/watch?v=aDKxJfJiM28">https://www.youtube.com/watch?v=aDKxJfJiM28</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> React: o que é, como funciona e um Guia dessa popular ferramenta JS (<a href="https://www.alura.com.br/artigos/react-js">https://www.alura.com.br/artigos/react-js</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Utilizando o Vite para criar uma aplicação React com TypeScript (<a href="https://www.alura.com.br/artigos/vite-criar-aplicacao-react-typescript">https://www.alura.com.br/artigos/vite-criar-aplicacao-react-typescript</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Componentes React com TypeScript (<a href="https://www.alura.com.br/artigos/componentes-react-typescript">https://www.alura.com.br/artigos/componentes-react-typescript</a>)</li>
+<li><code data-kind="artigo">Artigo</code> React: estratégias para componentes escaláveis (<a href="https://www.alura.com.br/artigos/componentes-do-react">https://www.alura.com.br/artigos/componentes-do-react</a>)</li>
+<li><code data-kind="site">Site</code> Ciclo de vida de um componente React (<a href="https://cursos.alura.com.br/extra/alura-mais/ciclo-de-vida-de-um-componente-react-c1333">https://cursos.alura.com.br/extra/alura-mais/ciclo-de-vida-de-um-componente-react-c1333</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: desenvolvendo com JavaScript (<a href="https://cursos.alura.com.br/course/react-desenvolvendo-javascript">https://cursos.alura.com.br/course/react-desenvolvendo-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: como os componentes funcionam (<a href="https://www.alura.com.br/curso-online-react-componentes-funcionam">https://www.alura.com.br/curso-online-react-componentes-funcionam</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: React: estilize componentes com Styled Components e manipule arquivos estáticos (<a href="https://www.alura.com.br/curso-online-react-estilize-componentes-styled-components-manipule-arquivos-estaticos">https://www.alura.com.br/curso-online-react-estilize-componentes-styled-components-manipule-arquivos-estaticos</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Explore React com JavaScript (<a href="https://cursos.alura.com.br/formacao-react-javascript">https://cursos.alura.com.br/formacao-react-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraFlix (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-1-react-components-e-aluraflix-c18">https://cursos.alura.com.br/imersoes/aulas/aula-1-react-components-e-aluraflix-c18</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraQuiz (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-1-react-styled-components-e-next-js-c33">https://cursos.alura.com.br/imersoes/aulas/aula-1-react-styled-components-e-next-js-c33</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraKut (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-1-components-com-react-styled-components-e-nextjs-c53">https://cursos.alura.com.br/imersoes/aulas/aula-1-components-com-react-styled-components-e-nextjs-c53</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraCord (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68">https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68</a>)</li>
+</ul>
+<h3>React - Props:</h3>
 <ul><li>Props são um objeto que é injetado em componentes e fornece alguns dados que podem ser compartilhados entre outros componentes em um fluxo de dados unidirecional, de um elemento pai para um elemento filho. Props são de somente leitura.</li>
 <li>Como passar props</li>
 <li>Como manipular props</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Hooks - State</strong>:</li>
-<ul><li>O hook React <code>useState</code> nos permite rastrear o estado em um componente de função. O hook <code>useState</code> pode ser usado para acompanhar strings, números, booleanos, arrays, objetos, etc.</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> React: Documentação - Componentes e Props (<a href="https://react.dev/learn/passing-props-to-a-component">https://react.dev/learn/passing-props-to-a-component</a>)</li>
+<li><code data-kind="site">Site</code> React: Documentação - Render Props (<a href="https://pt-br.reactjs.org/docs/render-props.html#gatsby-focus-wrapper">https://pt-br.reactjs.org/docs/render-props.html#gatsby-focus-wrapper</a>)</li>
+<li><code data-kind="site">Site</code> MDN React Props (<a href="https://www.w3schools.com/react/react_props.asp">https://www.w3schools.com/react/react_props.asp</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Começando com React - Variáveis e props (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#vari%C3%A1veis_e_props">https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#vari%C3%A1veis_e_props</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> React: o que é, como funciona e um Guia dessa popular ferramenta JS (<a href="https://www.alura.com.br/artigos/react-js">https://www.alura.com.br/artigos/react-js</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: desenvolvendo com JavaScript (<a href="https://cursos.alura.com.br/course/react-desenvolvendo-javascript">https://cursos.alura.com.br/course/react-desenvolvendo-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Explore React com JavaScript (<a href="https://cursos.alura.com.br/formacao-react-javascript">https://cursos.alura.com.br/formacao-react-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: escrevendo com Typescript (<a href="https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript">https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: ALURATUBE (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-02-entendendo-state-e-fazendo-a-busca-do-aluratube-c94">https://cursos.alura.com.br/imersoes/aulas/aula-02-entendendo-state-e-fazendo-a-busca-do-aluratube-c94</a>)</li>
+</ul>
+<h3>React Hooks - State:</h3>
+<ul><li>O hook React <code data-kind="usestate">useState</code> nos permite rastrear o estado em um componente de função. O hook <code data-kind="usestate">useState</code> pode ser usado para acompanhar strings, números, booleanos, arrays, objetos, etc.</li>
 <li>Controlar o estado de componentes</li>
 <li>Manipular variáveis</li>
 <li>Atualizar o valor de elementos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Criando uma aplicação React</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> React: Documentação - Introdução aos Hooks (<a href="https://pt-br.react.dev/reference/react">https://pt-br.react.dev/reference/react</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual o tipo de um React Hook? (<a href="https://www.alura.com.br/artigos/qual-tipo-react-hook">https://www.alura.com.br/artigos/qual-tipo-react-hook</a>)</li>
+<li><code data-kind="site">Site</code> React: Documentação - Usando o State do Hook (<a href="https://react.dev/learn/state-a-components-memory">https://react.dev/learn/state-a-components-memory</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: React interactivity: Events and state (inglês) (<a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_events_state#state_and_the_usestate_hook">https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_interactivity_events_state#state_and_the_usestate_hook</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Primeiros passos com React Hooks — useState (<a href="https://medium.com/@devjpnobrega/primeiros-passos-com-react-hooks-usestate-aa4eeeec5f4e">https://medium.com/@devjpnobrega/primeiros-passos-com-react-hooks-usestate-aa4eeeec5f4e</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> React Hooks: o que é e como eles funcionam (<a href="https://www.alura.com.br/artigos/react-hooks">https://www.alura.com.br/artigos/react-hooks</a>)</li>
+<li><code data-kind="artigo">Artigo</code> React: o que é, como funciona e um Guia dessa popular ferramenta JS (<a href="https://www.alura.com.br/artigos/react-js">https://www.alura.com.br/artigos/react-js</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: useState - aprenda o React Hook neste tutorial (<a href="https://www.youtube.com/watch?v=KdQa4Rd6K1A">https://www.youtube.com/watch?v=KdQa4Rd6K1A</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraCord - Aula 02 (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-02-state-novas-paginas-e-navegacao-spa-vs-a-tradicional-c69">https://cursos.alura.com.br/imersoes/aulas/aula-02-state-novas-paginas-e-navegacao-spa-vs-a-tradicional-c69</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: desenvolvendo com JavaScript (<a href="https://cursos.alura.com.br/course/react-desenvolvendo-javascript">https://cursos.alura.com.br/course/react-desenvolvendo-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Explore React com JavaScript (<a href="https://cursos.alura.com.br/formacao-react-javascript">https://cursos.alura.com.br/formacao-react-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: escrevendo com Typescript (<a href="https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript">https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript</a>)</li>
+</ul>
+<h3>Criando uma aplicação React:</h3>
 <ul><li>Estruturar um novo projeto React</li>
 <li>Criar uma aplicação funcional do zero</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Hooks - Effect</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> React: Documentação - Crie um novo React App (<a href="https://pt-br.react.dev/learn/start-a-new-react-project">https://pt-br.react.dev/learn/start-a-new-react-project</a>)</li>
+<li><code data-kind="site">Site</code> React: Documentação - Usando TypeScript com Create React App (<a href="https://pt-br.reactjs.org/docs/static-type-checking.html#using-typescript-with-create-react-app">https://pt-br.reactjs.org/docs/static-type-checking.html#using-typescript-with-create-react-app</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Começando com React - Configurando seu primeiro app React (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#configurando_seu_primeiro_app_react">https://developer.mozilla.org/pt-BR/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started#configurando_seu_primeiro_app_react</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como começar a estruturar um projeto React? com NextJS, Styled Components (<a href="https://www.youtube.com/watch?v=mJK5oGixSYo">https://www.youtube.com/watch?v=mJK5oGixSYo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Do Zero ao React | Como fazer o React e aprender a ideia do Virtual DOM na prática (<a href="https://www.youtube.com/watch?v=5MzOCxSWrrc">https://www.youtube.com/watch?v=5MzOCxSWrrc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> React: o que é, como funciona e um Guia dessa popular ferramenta JS (<a href="https://www.alura.com.br/artigos/react-js">https://www.alura.com.br/artigos/react-js</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Utilizando o Vite para criar uma aplicação React com TypeScript (<a href="https://www.alura.com.br/artigos/vite-criar-aplicacao-react-typescript">https://www.alura.com.br/artigos/vite-criar-aplicacao-react-typescript</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Guia do iniciante em React (<a href="https://www.hipsters.tech/guia-do-iniciante-em-react-hipsters-209/">https://www.hipsters.tech/guia-do-iniciante-em-react-hipsters-209/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Do Front End ao React (<a href="https://www.hipsters.tech/do-front-end-ao-react-hipsters-ponto-tech-258/">https://www.hipsters.tech/do-front-end-ao-react-hipsters-ponto-tech-258/</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: desenvolvendo com JavaScript (<a href="https://cursos.alura.com.br/course/react-desenvolvendo-javascript">https://cursos.alura.com.br/course/react-desenvolvendo-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Explore React com JavaScript (<a href="https://cursos.alura.com.br/formacao-react-javascript">https://cursos.alura.com.br/formacao-react-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: escrevendo com Typescript (<a href="https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript">https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Gerencie aplicações React com Typescript (<a href="https://www.alura.com.br/formacao-react-ts">https://www.alura.com.br/formacao-react-ts</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraFlix (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-1-react-components-e-aluraflix-c18">https://cursos.alura.com.br/imersoes/aulas/aula-1-react-components-e-aluraflix-c18</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraQuiz (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-1-react-styled-components-e-next-js-c33">https://cursos.alura.com.br/imersoes/aulas/aula-1-react-styled-components-e-next-js-c33</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraKut (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-1-components-com-react-styled-components-e-nextjs-c53">https://cursos.alura.com.br/imersoes/aulas/aula-1-components-com-react-styled-components-e-nextjs-c53</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraCord (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68">https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraTube (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-01-a-web-os-componentes-e-o-deploy-c93">https://cursos.alura.com.br/imersoes/aulas/aula-01-a-web-os-componentes-e-o-deploy-c93</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: React (<a href="https://7daysofcode.io/matricula/react">https://7daysofcode.io/matricula/react</a>)</li>
+</ul>
+<h3>React Hooks - Effect:</h3>
 <ul><li>UseEffect() é um hook React que permite que você manipule efeitos colaterais em seus componentes funcionais do React.</li>
 <li>Executar um componente somente após a renderização</li>
 <li>Acessar as props de um elemento</li>
 <li>Fazer chamadas a APIs</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> React: Documentação - Introdução aos Hooks (<a href="https://pt-br.react.dev/reference/react">https://pt-br.react.dev/reference/react</a>)</li>
+<li><code data-kind="site">Site</code> React: Documentação - Usando Effect Hook (Hook de Efeito) (<a href="https://react.dev/reference/react/useEffect">https://react.dev/reference/react/useEffect</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda como funciona o useEffect (<a href="https://medium.com/reactbrasil/entenda-como-funciona-o-useeffect-e743b86f104">https://medium.com/reactbrasil/entenda-como-funciona-o-useeffect-e743b86f104</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Um guia completo para useEffect (<a href="https://overreacted.io/pt-br/a-complete-guide-to-useeffect/">https://overreacted.io/pt-br/a-complete-guide-to-useeffect/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda de vez o hook useEffect e Transforme Seu Código React (<a href="https://medium.com/@marcosviniciosneves/entenda-de-vez-o-hook-useeffect-e-transforme-seu-c%C3%B3digo-react-39245296ef7e">https://medium.com/@marcosviniciosneves/entenda-de-vez-o-hook-useeffect-e-transforme-seu-c%C3%B3digo-react-39245296ef7e</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> React Hooks: o que é e como eles funcionam (<a href="https://www.alura.com.br/artigos/react-hooks">https://www.alura.com.br/artigos/react-hooks</a>)</li>
+<li><code data-kind="artigo">Artigo</code> React: o que é, como funciona e um Guia dessa popular ferramenta JS (<a href="https://www.alura.com.br/artigos/react-js">https://www.alura.com.br/artigos/react-js</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraQuiz - Aula 03 (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-3-inputs-e-pagina-de-quiz-c35">https://cursos.alura.com.br/imersoes/aulas/aula-3-inputs-e-pagina-de-quiz-c35</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraKut - Aula 02 (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-2-react-state-e-o-primeiro-formulario-c54">https://cursos.alura.com.br/imersoes/aulas/aula-2-react-state-e-o-primeiro-formulario-c54</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: desenvolvendo com JavaScript (<a href="https://cursos.alura.com.br/course/react-desenvolvendo-javascript">https://cursos.alura.com.br/course/react-desenvolvendo-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Explore React com JavaScript (<a href="https://cursos.alura.com.br/formacao-react-javascript">https://cursos.alura.com.br/formacao-react-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: escrevendo com Typescript (<a href="https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript">https://www.alura.com.br/curso-online-react-modernizando-escrever-typescript</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Hooks - Memo</strong>:</li>
-<ul><li>O hook React <code>useMemo</code> retorna um valor memoizado. <code>useMemo</code> apenas recalculará o valor memoizado quando uma das dependências for alterada.</li>
+<h3>React Hooks - Memo:</h3>
+<ul><li>O hook React <code data-kind="usememo">useMemo</code> retorna um valor memoizado. <code data-kind="usememo">useMemo</code> apenas recalculará o valor memoizado quando uma das dependências for alterada.</li>
 <li>Controlar o estado de variáveis externas</li>
 <li>Evitar cálculos caros em cada renderização</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Hooks - Callback</strong>:</li>
-<ul><li>O hook React <code>useCallback</code> retorna uma função de callback memoizada.</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> React: Documentação - useMemo (<a href="https://pt-br.react.dev/reference/react/useMemo">https://pt-br.react.dev/reference/react/useMemo</a>)</li>
+<li><code data-kind="artigo">Artigo</code> React.useMemo na prática (<a href="https://medium.com/reactbrasil/react-usememo-na-pr%C3%A1tica-692110771c01">https://medium.com/reactbrasil/react-usememo-na-pr%C3%A1tica-692110771c01</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Diminuindo Processamento com useMemo em React (<a href="https://blog.matheuscastiglioni.com.br/diminuindo-processamento-com-use-memo-em-react/">https://blog.matheuscastiglioni.com.br/diminuindo-processamento-com-use-memo-em-react/</a>)</li>
+<li><code data-kind="site">Site</code> useHooks.com: useMemo (inglês) (<a href="https://usehooks.com/useMemo/">https://usehooks.com/useMemo/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> React Floripa: Os mitos sobre useMemo e useCallback (<a href="https://www.youtube.com/watch?v=ZntFz_DDakQ">https://www.youtube.com/watch?v=ZntFz_DDakQ</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Alura: useMemo - aplicação React JS com mais performance (<a href="https://www.youtube.com/watch?v=CkGh3NM6NuQ">https://www.youtube.com/watch?v=CkGh3NM6NuQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Hook useCallback x useMemo - performance no React (<a href="https://www.youtube.com/watch?v=VVmGrEZoBvM">https://www.youtube.com/watch?v=VVmGrEZoBvM</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: otimizando a performance (<a href="https://cursos.alura.com.br/course/react-otimizando-performance">https://cursos.alura.com.br/course/react-otimizando-performance</a>)</li>
+</ul>
+<h3>React Hooks - Callback:</h3>
+<ul><li>O hook React <code data-kind="usecallback">useCallback</code> retorna uma função de callback memoizada.</li>
 <li>Retornar uma versão memoizada do callback caso as entradas tenham sido alteradas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Hooks - Ref</strong>:</li>
-<ul><li>O hook <code>useRef</code> permite que você persista valores entre renderizações.</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> React: Documentação - useCallback (<a href="https://pt-br.react.dev/reference/react/useCallback">https://pt-br.react.dev/reference/react/useCallback</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Primeiros passos com React Hooks — useMemo e useCallback (<a href="https://medium.com/@devjpnobrega/primeiros-passos-com-react-hooks-usememo-e-usecallback-13d54da4f9ba">https://medium.com/@devjpnobrega/primeiros-passos-com-react-hooks-usememo-e-usecallback-13d54da4f9ba</a>)</li>
+<li><code data-kind="youtube">YouTube</code> React Floripa: Os mitos sobre useMemo e useCallback (<a href="https://www.youtube.com/watch?v=ZntFz_DDakQ">https://www.youtube.com/watch?v=ZntFz_DDakQ</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Your Guide to React.useCallback() (inglês) (<a href="https://dmitripavlutin.com/dont-overuse-react-usecallback/">https://dmitripavlutin.com/dont-overuse-react-usecallback/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Alura: Hook useCallback x useMemo - performance no React (<a href="https://www.youtube.com/watch?v=VVmGrEZoBvM">https://www.youtube.com/watch?v=VVmGrEZoBvM</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: otimizando a performance (<a href="https://cursos.alura.com.br/course/react-otimizando-performance">https://cursos.alura.com.br/course/react-otimizando-performance</a>)</li>
+</ul>
+<h3>React Hooks - Ref:</h3>
+<ul><li>O hook <code data-kind="useref">useRef</code> permite que você persista valores entre renderizações.</li>
 <li>Criar objetos mutáveis</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Bibliotecas de Design System</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> React: Documentação - useRef (<a href="https://pt-br.react.dev/reference/react/useRef">https://pt-br.react.dev/reference/react/useRef</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conhecendo o useRef do React (<a href="https://medium.com/@guigaoliveira_/conhecendo-o-useref-do-react-9d67e66">https://medium.com/@guigaoliveira_/conhecendo-o-useref-do-react-9d67e66</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Primeiros passos com React Hooks — useMemo e useCallback (<a href="https://medium.com/@devjpnobrega/primeiros-passos-com-react-hooks-usememo-e-usecallback-13d54da4f9ba">https://medium.com/@devjpnobrega/primeiros-passos-com-react-hooks-usememo-e-usecallback-13d54da4f9ba</a>)</li>
+<li><code data-kind="artigo">Artigo</code> The Complete Guide to useRef() and Refs in React (inglês) (<a href="https://dmitripavlutin.com/react-useref-guide/">https://dmitripavlutin.com/react-useref-guide/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> useRef: como funciona esse React Hook | #AluraMais (<a href="https://youtu.be/BwRxBGsT_f0?si=hxzvPvFoOywZBZ9M">https://youtu.be/BwRxBGsT_f0?si=hxzvPvFoOywZBZ9M</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: otimizando a performance (<a href="https://cursos.alura.com.br/course/react-otimizando-performance">https://cursos.alura.com.br/course/react-otimizando-performance</a>)</li>
+</ul>
+<h3>React - Bibliotecas de Design System:</h3>
 <ul><li>Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Developer Tools</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Criando uma biblioteca de Design System utilizando React (<a href="https://medium.com/iclubs/criando-uma-biblioteca-de-design-system-utilizando-react-214f31219a33">https://medium.com/iclubs/criando-uma-biblioteca-de-design-system-utilizando-react-214f31219a33</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Aplicando Design System com Styled Components em ReactJS (<a href="https://medium.com/gbtech/aplicando-design-system-com-styled-components-em-reactjs-49e9f40e9bc">https://medium.com/gbtech/aplicando-design-system-com-styled-components-em-reactjs-49e9f40e9bc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Caio Gonzalez: O que é Design System? / Guia para começar o seu próprio design system (<a href="https://www.youtube.com/watch?v=ajqbXpFVaAw">https://www.youtube.com/watch?v=ajqbXpFVaAw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Design System? (<a href="https://www.alura.com.br/artigos/o-que-e-design-system">https://www.alura.com.br/artigos/o-que-e-design-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Systems: exemplos práticos (<a href="https://www.alura.com.br/artigos/design-systems-exemplos-praticos">https://www.alura.com.br/artigos/design-systems-exemplos-praticos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como publicar uma biblioteca de hooks React no npm usando Turborepo (<a href="https://www.alura.com.br/artigos/lib-de-hooks-com-turborepo">https://www.alura.com.br/artigos/lib-de-hooks-com-turborepo</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Atomic design no front-end: construa componentes escaláveis e modulares (<a href="https://www.alura.com.br/artigos/atomic-design">https://www.alura.com.br/artigos/atomic-design</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design System &amp; Style Guide (<a href="https://www.youtube.com/watch?v=rSLvpOqC5wQ">https://www.youtube.com/watch?v=rSLvpOqC5wQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design Systems (com Charles Assunção) (<a href="https://www.youtube.com/watch?v=MLGFctEtmYQ">https://www.youtube.com/watch?v=MLGFctEtmYQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é Design System? | Hipsters.Talks (<a href="https://www.youtube.com/watch?v=LNQ4fZbjqWM">https://www.youtube.com/watch?v=LNQ4fZbjqWM</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Design Systems - Hipsters 170 (<a href="https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399">https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: Design System – Layers ponto tech 36 (<a href="https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056">https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: criando um Design System com TailwindCSS (<a href="https://cursos.alura.com.br/course/react-criando-design-system-tailwind">https://cursos.alura.com.br/course/react-criando-design-system-tailwind</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: desenvolvendo design systems modulares com Turborepo (<a href="https://cursos.alura.com.br/course/react-desenvolvendo-design-systems-modulares-turborepo">https://cursos.alura.com.br/course/react-desenvolvendo-design-systems-modulares-turborepo</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Next.js e Tailwind: construindo um design system (<a href="https://cursos.alura.com.br/formacao-next-js-tailwind-design-system">https://cursos.alura.com.br/formacao-next-js-tailwind-design-system</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Construa um Design System com React, Turborepo e Storybook (<a href="https://cursos.alura.com.br/formacao-design-system-react-turborepo-storybook">https://cursos.alura.com.br/formacao-design-system-react-turborepo-storybook</a>)</li>
+</ul>
+<h3>React Developer Tools:</h3>
 <ul><li>React Developer Tools é usado para inspecionar componentes do React, editar props e estado, e também para identificar problemas de desempenho.</li>
 <li>Executar o &#39;debugging&#39; de aplicações</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Versionamento Semântico para Front-end</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Extensão React Developer Tools para o Google Chrome (<a href="https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi">https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi</a>)</li>
+<li><code data-kind="site">Site</code> Documentação: Analisando componentes com o DevTools Profiler (<a href="https://pt-br.reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-devtools-profiler">https://pt-br.reactjs.org/docs/optimizing-performance.html#profiling-components-with-the-devtools-profiler</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é React Developer Tool? (<a href="https://acervolima.com/o-que-e-react-developer-tool/">https://acervolima.com/o-que-e-react-developer-tool/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Debug React applications with React DevTools (inglês) (<a href="https://blog.logrocket.com/debug-react-applications-with-the-new-react-devtools/">https://blog.logrocket.com/debug-react-applications-with-the-new-react-devtools/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rubens Guimarães: Depuração no React com o React Developer Tools (<a href="https://www.youtube.com/watch?v=GHoeoW88Jis">https://www.youtube.com/watch?v=GHoeoW88Jis</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso React: otimizando a performance (<a href="https://www.alura.com.br/curso-online-react-otimizando-performance">https://www.alura.com.br/curso-online-react-otimizando-performance</a>)</li>
+<li><code data-kind="curso">Curso</code> React Vite: monitorando aplicações com New Relic (<a href="https://cursos.alura.com.br/course/react-vite-monitorando-aplicacoes-new-relic">https://cursos.alura.com.br/course/react-vite-monitorando-aplicacoes-new-relic</a>)</li>
+</ul>
+<h3>Versionamento Semântico para Front-end:</h3>
 <ul><li>SemVer (Versionamento Semântico) é um conjunto simples de regras e requisitos que ditam como os números de versão são atribuídos e incrementados.</li>
 <li>Organizar as dependências de um projeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CSS-in-JS</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: Versionamento Semântico (<a href="https://semver.org/lang/pt-BR/">https://semver.org/lang/pt-BR/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Versionamento semântico - O que é e como usar (<a href="https://imasters.com.br/codigo/versionamento-semantico-o-que-e-e-como-usar">https://imasters.com.br/codigo/versionamento-semantico-o-que-e-e-como-usar</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando e automatizando o versionamento semântico de projetos NodeJS (<a href="https://dev.to/wnqueiroz/criando-e-automatizando-o-versionamento-semantico-de-projetos-nodejs-3ogj">https://dev.to/wnqueiroz/criando-e-automatizando-o-versionamento-semantico-de-projetos-nodejs-3ogj</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como padronizar commits? Conventional Commits + Semantic Release (<a href="https://www.youtube.com/watch?v=1eTofdmfq1g">https://www.youtube.com/watch?v=1eTofdmfq1g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Filho da nuvem: O que é SEMVER e como entender versões de bibliotecas? (<a href="https://www.youtube.com/watch?v=sgheXCK-Rfw">https://www.youtube.com/watch?v=sgheXCK-Rfw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Git Flow: entenda o que é, como e quando utilizar (<a href="https://www.alura.com.br/artigos/git-flow-o-que-e-como-quando-utilizar">https://www.alura.com.br/artigos/git-flow-o-que-e-como-quando-utilizar</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Versionamento Semântico (SemVer): uma breve introdução (<a href="https://www.alura.com.br/artigos/versionamento-semantico-breve-introducao">https://www.alura.com.br/artigos/versionamento-semantico-breve-introducao</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Simplificando o controle de versão com Conventional Commits (<a href="https://www.alura.com.br/artigos/simplificando-controle-versao-conventional-commits">https://www.alura.com.br/artigos/simplificando-controle-versao-conventional-commits</a>)</li>
+</ul>
+<h3>CSS-in-JS:</h3>
 <ul><li>CSS-in-JS refere-se a um padrão onde o CSS é composto usando JavaScript em vez de ser definido em arquivos externos.</li>
 <li>Lidar com código CSS usando JavaScript</li>
 <li>Utilizar styled-components</li>
 <li>Conhecer Styled-JSX</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Styled Components</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> React: Documentação - Estilização e CSS (<a href="https://pt-br.reactjs.org/docs/faq-styling.html">https://pt-br.reactjs.org/docs/faq-styling.html</a>)</li>
+<li><code data-kind="site">Site</code> Styled Components Documentation (inglês) (<a href="https://styled-components.com/docs/basics#motivation">https://styled-components.com/docs/basics#motivation</a>)</li>
+<li><code data-kind="site">Site</code> Microsoft Docs: Edição de estilo das estruturas CSS-in-JS (<a href="https://docs.microsoft.com/pt-br/microsoft-edge/devtools-guide-chromium/css/css-in-js">https://docs.microsoft.com/pt-br/microsoft-edge/devtools-guide-chromium/css/css-in-js</a>)</li>
+<li><code data-kind="site">Site</code> Criando Styled Components Com React - Blog do Matheus Castiglioni (<a href="https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/">https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/</a>)</li>
+<li><code data-kind="site">Site</code> Chrome Developers: CSS-in-JS support in DevTools (inglês) (<a href="https://developer.chrome.com/blog/css-in-js/">https://developer.chrome.com/blog/css-in-js/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Os poderes do CSS in JS (<a href="https://www.youtube.com/watch?v=QdfjWRc4ySA">https://www.youtube.com/watch?v=QdfjWRc4ySA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: CSS-in-JS na prática! Criando componentes com React e CSS no NextJS (<a href="https://www.youtube.com/watch?v=aDKxJfJiM28">https://www.youtube.com/watch?v=aDKxJfJiM28</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A Thorough Analysis of CSS-in-JS (inglês) (<a href="https://css-tricks.com/a-thorough-analysis-of-css-in-js/">https://css-tricks.com/a-thorough-analysis-of-css-in-js/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> CSS com NextJS (<a href="https://www.alura.com.br/artigos/css-com-next-js">https://www.alura.com.br/artigos/css-com-next-js</a>)</li>
+<li><code data-kind="curso">Curso</code> Imersão React: AluraCord - Aula 01 (<a href="https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68">https://cursos.alura.com.br/imersoes/aulas/aula-01-criando-o-nosso-projeto-aluracord-c68</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: estilize componentes com Styled Components e manipule arquivos estáticos (<a href="https://www.alura.com.br/curso-online-react-estilize-componentes-styled-components-manipule-arquivos-estaticos">https://www.alura.com.br/curso-online-react-estilize-componentes-styled-components-manipule-arquivos-estaticos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: desenvolvendo componentes customizados e acessíveis com Emotion (<a href="https://cursos.alura.com.br/course/react-componentes-customizados-acessiveis-emotion">https://cursos.alura.com.br/course/react-componentes-customizados-acessiveis-emotion</a>)</li>
+</ul>
+<h3>Styled Components:</h3>
 <ul><li>Lidar com código CSS em componentes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Roteamento web</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Criando Styled Components Com React (<a href="https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/">https://blog.matheuscastiglioni.com.br/criando-styled-components-com-react/</a>)</li>
+<li><code data-kind="site">Site</code> Documentação - Styled Components (inglês) (<a href="https://styled-components.com/docs">https://styled-components.com/docs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Styled Components, por onde começar? Os poderes do CSS in JS (<a href="https://www.youtube.com/watch?v=QdfjWRc4ySA">https://www.youtube.com/watch?v=QdfjWRc4ySA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como começar a estruturar um projeto React? com NextJS, Styled Components (<a href="https://www.youtube.com/watch?v=mJK5oGixSYo">https://www.youtube.com/watch?v=mJK5oGixSYo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: Como usar styled-compoents - Introdução (<a href="https://www.youtube.com/watch?v=B9z51O1ctzU">https://www.youtube.com/watch?v=B9z51O1ctzU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> BrasilJS: Efeito Stagger com React e Styled Components (<a href="https://www.youtube.com/watch?v=HGrXz6vHngI">https://www.youtube.com/watch?v=HGrXz6vHngI</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> React: componentes com Styled Components (<a href="https://www.alura.com.br/artigos/react-componentes-com-styled-components">https://www.alura.com.br/artigos/react-componentes-com-styled-components</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso React: abstraindo seu CSS com Styled Components (<a href="https://www.alura.com.br/conteudo/react-styled-components">https://www.alura.com.br/conteudo/react-styled-components</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: abstraindo seu CSS com Styled Components (<a href="https://www.alura.com.br/curso-online-react-styled-components">https://www.alura.com.br/curso-online-react-styled-components</a>)</li>
+</ul>
+<h3>React - Roteamento web:</h3>
 <ul><li>Manipular a navegação entre interfaces e componentes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Gerenciamento de Estados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: Divisão de Código Baseada em Rotas (<a href="https://pt-br.reactjs.org/docs/code-splitting.html#route-based-code-splitting">https://pt-br.reactjs.org/docs/code-splitting.html#route-based-code-splitting</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Roteamento no React com os poderes do React Router v4 (<a href="https://medium.com/collabcode/roteamento-no-react-com-os-poderes-do-react-router-v4-fbc191b9937d">https://medium.com/collabcode/roteamento-no-react-com-os-poderes-do-react-router-v4-fbc191b9937d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> ReactJs: Manipulando rotas com react-router (<a href="https://ateliware.com/blog/react-router">https://ateliware.com/blog/react-router</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tutorial de React Router (<a href="https://www.freecodecamp.org/portuguese/news/tutorial-de-react-router-como-usar-render-redirect-switch-link-e-mais-com-exemplos-de-codigo/">https://www.freecodecamp.org/portuguese/news/tutorial-de-react-router-como-usar-render-redirect-switch-link-e-mais-com-exemplos-de-codigo/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Kevin Beltrão: Rotas com React Router Dom (<a href="https://www.youtube.com/watch?v=9pB_lwmLc74">https://www.youtube.com/watch?v=9pB_lwmLc74</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Alura: Como configurar o React Router para sua SPA (<a href="https://www.youtube.com/watch?v=4Tb8dp5GYqI">https://www.youtube.com/watch?v=4Tb8dp5GYqI</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: desenvolvendo em React Router com JavaScript (<a href="https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript">https://cursos.alura.com.br/course/React-desenvolvendo-react-router-javaScript</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: conhecendo a biblioteca React Router (<a href="https://www.alura.com.br/curso-online-react-biblioteca-react-router">https://www.alura.com.br/curso-online-react-biblioteca-react-router</a>)</li>
+</ul>
+<h3>React - Gerenciamento de Estados:</h3>
 <ul><li>O gerenciamento de estado em React é a prática de controlar e atualizar os dados de uma aplicação React para garantir que os componentes tenham acesso às informações necessárias. Isso é essencial para criar aplicativos interativos e dinâmicos.</li>
 <li>Garante que os dados exibidos nos componentes estejam sempre atualizados e em sincronia.</li>
 <li>Permite que componentes compartilhem dados e comuniquem-se uns com os outros.</li>
 <li>Otimiza a renderização, garantindo que apenas as partes relevantes da interface do usuário sejam atualizadas.</li>
 <li>Torna o código mais organizado e fácil de entender, especialmente em aplicativos complexos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>TypeScript - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Passando dados profundamente com contexto (inglês) (<a href="https://react.dev/learn/passing-data-deeply-with-context">https://react.dev/learn/passing-data-deeply-with-context</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Redux-Saga: Gerenciando efeitos e ações (<a href="https://oieduardorabelo.medium.com/redux-saga-gerenciando-efeitos-f518a31c744e">https://oieduardorabelo.medium.com/redux-saga-gerenciando-efeitos-f518a31c744e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Recoil.js — Gerenciamento de Estado de Alto Desempenho para React Simplificado (inglês) (<a href="https://medium.com/weekly-webtips/recoil-js-high-performance-state-management-for-react-simplified-cb520464a667">https://medium.com/weekly-webtips/recoil-js-high-performance-state-management-for-react-simplified-cb520464a667</a>)</li>
+<li><code data-kind="youtube">YouTube</code> A Context API é um state management?! A forma CORRETA de utilizar a CONTEXT API do React.js (<a href="https://youtu.be/06_575UN55A?si=eMQQ1lz62BYYa5Y-">https://youtu.be/06_575UN55A?si=eMQQ1lz62BYYa5Y-</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Redux // Dicionário do Programador - Código Fonte TV (<a href="https://youtu.be/kAOzxQp6AKE?si=bpYO9rIG6QbPnwO7">https://youtu.be/kAOzxQp6AKE?si=bpYO9rIG6QbPnwO7</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="site">Site</code> Primeiras aulas do curso de React: gerenciamento de estados globais com ContextAPI (<a href="https://www.alura.com.br/conteudo/react-context-estados-globais-contextapi">https://www.alura.com.br/conteudo/react-context-estados-globais-contextapi</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Context API e TypeScript: como utilizar o superpoder desta dupla (<a href="https://www.alura.com.br/artigos/context-api-typescript-utilizar-superpoder-dupla">https://www.alura.com.br/artigos/context-api-typescript-utilizar-superpoder-dupla</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Estados globais: diferenças entre Redux e Context API (<a href="https://www.alura.com.br/artigos/estados-globais-diferencas-redux-context-api">https://www.alura.com.br/artigos/estados-globais-diferencas-redux-context-api</a>)</li>
+<li><code data-kind="artigo">Artigo</code> React e Context API: testes de unidade (<a href="https://www.alura.com.br/artigos/react-context-api-testes-de-unidade">https://www.alura.com.br/artigos/react-context-api-testes-de-unidade</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia de bibliotecas para lidar com gerenciamento de estados em projetos React (<a href="https://www.alura.com.br/artigos/guia-de-bibliotecas-react">https://www.alura.com.br/artigos/guia-de-bibliotecas-react</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Redux: desvendando a arquitetura com Flux (<a href="https://www.alura.com.br/artigos/redux-desvendando-arquitetura-flux">https://www.alura.com.br/artigos/redux-desvendando-arquitetura-flux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Ainda vale a pena aprender Redux? – vem ver nossa opinião e o motivo dela (<a href="https://www.alura.com.br/artigos/vale-a-pena-aprender-redux">https://www.alura.com.br/artigos/vale-a-pena-aprender-redux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Controlando múltiplas instâncias dinâmicas com atomFamily e selectorFamily (<a href="https://www.alura.com.br/artigos/atom-selector-family/">https://www.alura.com.br/artigos/atom-selector-family/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Observando os estados de uma aplicação React com a biblioteca MobX (<a href="https://www.alura.com.br/artigos/mobx">https://www.alura.com.br/artigos/mobx</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de React: gerenciamento de estados globais com ContextAPI (<a href="https://www.alura.com.br/curso-online-react-context-estados-globais-contextapi">https://www.alura.com.br/curso-online-react-context-estados-globais-contextapi</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de React: arquitetando soluções de roteamento e gestão de estado com React Router e Context API (<a href="https://www.alura.com.br/curso-online-solucoes-roteamento-gestao-estado-react-router-context-api">https://www.alura.com.br/curso-online-solucoes-roteamento-gestao-estado-react-router-context-api</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de React: combinando Context API e Apollo Client (<a href="https://www.alura.com.br/curso-online-react-combinando-context-api-apollo-client">https://www.alura.com.br/curso-online-react-combinando-context-api-apollo-client</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de React: gerenciando estado com Recoil (<a href="https://www.alura.com.br/curso-online-react-gerenciando-estado-recoil">https://www.alura.com.br/curso-online-react-gerenciando-estado-recoil</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de React: gerenciamento de estados globais com Redux (<a href="https://www.alura.com.br/curso-online-react-gerenciamento-estados-globais-redux">https://www.alura.com.br/curso-online-react-gerenciamento-estados-globais-redux</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de Redux Toolkit: explorando a arquitetura Flux (<a href="https://cursos.alura.com.br/course/redux-toolkit-explorando-arquitetura-flux">https://cursos.alura.com.br/course/redux-toolkit-explorando-arquitetura-flux</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Gerencie estados em React com Redux (<a href="https://www.alura.com.br/formacao-react-gestao-estados">https://www.alura.com.br/formacao-react-gestao-estados</a>)</li>
+<li><code data-kind="curso">Curso</code> Mobx: gerenciando estados em aplicações React (<a href="https://cursos.alura.com.br/course/mobx-gerenciando-estados-aplicacoes-react">https://cursos.alura.com.br/course/mobx-gerenciando-estados-aplicacoes-react</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação React: domine o gerenciamento de estados (<a href="https://cursos.alura.com.br/formacao-react-gerenciamento-estados">https://cursos.alura.com.br/formacao-react-gerenciamento-estados</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Guia do iniciante em React 209 (<a href="https://www.alura.com.br/podcast/guia-do-iniciante-em-react-hipsters-209-a341">https://www.alura.com.br/podcast/guia-do-iniciante-em-react-hipsters-209-a341</a>)</li>
+</ul>
+<h3>TypeScript - Fundamentos:</h3>
 <ul><li>TypeScript é uma linguagem de programação fortemente tipada que se baseia em JavaScript.</li>
 <li>Entender a fundo o que são tipos e a importância da tipagem</li>
 <li>Aprender o que é o TypeScript, por que foi criado, como ele funciona e sua relação com o JavaScript</li>
 <li>Conhecer as ferramentas do TypeScript (integração com o editor de código, verificador estático e compilador)</li>
 <li>Escrever código em TypeScript com suas ferramentas (interfaces, enum, decorators, etc)</li>
 <li>Desenvolver aplicações em TypeScript</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React Testing Library</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Microsoft Docs: Compreendendo o TypeScript (<a href="https://docs.microsoft.com/pt-br/archive/msdn-magazine/2015/january/typescript-understanding-typescript">https://docs.microsoft.com/pt-br/archive/msdn-magazine/2015/january/typescript-understanding-typescript</a>)</li>
+<li><code data-kind="artigo">Artigo</code> TypeScript: O guia definitivo (<a href="https://oieduardorabelo.medium.com/typescript-o-guia-definitivo-1a63b04259cc">https://oieduardorabelo.medium.com/typescript-o-guia-definitivo-1a63b04259cc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Linguagens Sem Tipos, dá pra ficar bom programando nelas? JavaScript vs TypeScript (<a href="https://www.youtube.com/watch?v=t-9-pkh5FDQ">https://www.youtube.com/watch?v=t-9-pkh5FDQ</a>)</li>
+<li><code data-kind="site">Site</code> Documentação: TypeScript para o Novo Programador (<a href="https://www.typescriptlang.org/pt/docs/handbook/typescript-from-scratch.html">https://www.typescriptlang.org/pt/docs/handbook/typescript-from-scratch.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Javascript ou Typescript? (<a href="https://www.alura.com.br/artigos/javascript-ou-typescript">https://www.alura.com.br/artigos/javascript-ou-typescript</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: O Hype do TypeScript - Hipsters Ponto Tech #207 (<a href="https://www.alura.com.br/podcast/o-hype-do-typescript-hipsters-207-a344">https://www.alura.com.br/podcast/o-hype-do-typescript-hipsters-207-a344</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide: Typescript - Hipsters Ponto Tech #378 (<a href="https://www.alura.com.br/podcast/hipsterstech-techguide-typescript-hipsters-ponto-tech-378-a9120">https://www.alura.com.br/podcast/hipsterstech-techguide-typescript-hipsters-ponto-tech-378-a9120</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Quais são as principais vantagens do Typescript? (<a href="https://www.youtube.com/watch?v=snwevp02sIw">https://www.youtube.com/watch?v=snwevp02sIw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Imersão React Live 02 - TypeScript no nosso projeto React (<a href="https://www.youtube.com/watch?v=SpWFDTvgS9k">https://www.youtube.com/watch?v=SpWFDTvgS9k</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação TypeScript: desenvolva front-end com mais produtividade (<a href="https://cursos.alura.com.br/formacao-typescript-desenvolva-front-end-produtividade">https://cursos.alura.com.br/formacao-typescript-desenvolva-front-end-produtividade</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Typescript (<a href="https://www.alura.com.br/formacao-typescript">https://www.alura.com.br/formacao-typescript</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação React com Typescript (<a href="https://www.alura.com.br/formacao-react-ts">https://www.alura.com.br/formacao-react-ts</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Typescript: construção de uma API com tipagem segura (<a href="https://cursos.alura.com.br/course/typescript-construcao-api-tipagem-segura">https://cursos.alura.com.br/course/typescript-construcao-api-tipagem-segura</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso TypeScript: desenvolvendo validações e tratando erros (<a href="https://cursos.alura.com.br/course/typescript-desenvolvendo-validacoes-tratando-erros">https://cursos.alura.com.br/course/typescript-desenvolvendo-validacoes-tratando-erros</a>)</li>
+<li><code data-kind="curso">Curso</code> Padrões de projeto com TypeScript: aprimorando uma API com arquitetura limpa (<a href="https://www.alura.com.br/curso-online-padroes-projeto-typescript-api-arquitetura-limpa">https://www.alura.com.br/curso-online-padroes-projeto-typescript-api-arquitetura-limpa</a>)</li>
+</ul>
+<h3>React Testing Library:</h3>
 <ul><li>A React Testing Library se baseia na DOM Testing Library adicionando APIs para trabalhar com componentes React. É um conjunto de auxiliares que permitem testar componentes React sem depender de seus detalhes de implementação.</li>
 <li>Testar componentes React</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Jest</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> React: Documentação - Visão Geral sobre Testes (<a href="https://pt-br.reactjs.org/docs/testing.html#gatsby-focus-wrapper">https://pt-br.reactjs.org/docs/testing.html#gatsby-focus-wrapper</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Washington Developer: React: Teste seus componentes | Jest | Testing Library (<a href="https://www.youtube.com/watch?v=pbwXsjVEMqg">https://www.youtube.com/watch?v=pbwXsjVEMqg</a>)</li>
+<li><code data-kind="site">Site</code> React Testing Library: Documentação (inglês) (<a href="https://testing-library.com/docs/react-testing-library/intro/">https://testing-library.com/docs/react-testing-library/intro/</a>)</li>
+<li><code data-kind="site">Site</code> Desmistificando testes no Frontend (<a href="https://marcosviniciosneves.medium.com/desmistificando-testes-no-frontend-52afaeb6b35a">https://marcosviniciosneves.medium.com/desmistificando-testes-no-frontend-52afaeb6b35a</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Testes automatizados: como melhorar qualidade e confiabilidade do seu software (<a href="https://www.alura.com.br/artigos/testes-automatizados">https://www.alura.com.br/artigos/testes-automatizados</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React JS: crie testes com Jest e Testing Library e garanta o funcionamento do Front-end (<a href="https://cursos.alura.com.br/course/react-js-testes-automatizados-front-end">https://cursos.alura.com.br/course/react-js-testes-automatizados-front-end</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Melhore sua aplicação React com testes automatizados (<a href="https://cursos.alura.com.br/formacao-react-testes-automatizados">https://cursos.alura.com.br/formacao-react-testes-automatizados</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: testando os seus componentes (<a href="https://cursos.alura.com.br/course/react-testando-componentes">https://cursos.alura.com.br/course/react-testando-componentes</a>)</li>
+</ul>
+<h3>React - Jest:</h3>
 <ul><li>Jest é um framework de teste em JavaScript projetado para garantir a correção de qualquer código JavaScript. Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.</li>
 <li>Testar componentes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cypress</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Testes Unitários: Fundamentos e Qualidade de Software! (<a href="https://dev.to/wnqueiroz/testes-unitarios-fundamentos-e-qualidade-de-software-5af0">https://dev.to/wnqueiroz/testes-unitarios-fundamentos-e-qualidade-de-software-5af0</a>)</li>
+<li><code data-kind="site">Site</code> Jest: Documentação (<a href="https://jestjs.io/pt-BR/docs/getting-started">https://jestjs.io/pt-BR/docs/getting-started</a>)</li>
+<li><code data-kind="site">Site</code> Jest: Testando Apps React (<a href="https://jestjs.io/pt-BR/docs/tutorial-react">https://jestjs.io/pt-BR/docs/tutorial-react</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Washington Developer: React: Teste seus componentes | Jest | Testing Library (<a href="https://www.youtube.com/watch?v=pbwXsjVEMqg">https://www.youtube.com/watch?v=pbwXsjVEMqg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: Jest - Iniciando com testes e TDD (<a href="https://www.youtube.com/watch?v=sLx00kXPoTg">https://www.youtube.com/watch?v=sLx00kXPoTg</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Testes automatizados: como melhorar qualidade e confiabilidade do seu software (<a href="https://www.alura.com.br/artigos/testes-automatizados">https://www.alura.com.br/artigos/testes-automatizados</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: testando os seus componentes (<a href="https://cursos.alura.com.br/course/react-testando-componentes">https://cursos.alura.com.br/course/react-testando-componentes</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Melhore sua aplicação React com testes automatizados (<a href="https://cursos.alura.com.br/formacao-react-testes-automatizados">https://cursos.alura.com.br/formacao-react-testes-automatizados</a>)</li>
+</ul>
+<h3>Cypress:</h3>
 <ul><li>Criar e executar testes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Callbacks e Promises</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Cypress: Documentação (inglês) (<a href="https://docs.cypress.io/guides/getting-started/installing-cypress">https://docs.cypress.io/guides/getting-started/installing-cypress</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Um Overview sobre Cypress.io — Framework de Automação de Testes end-to-end (<a href="https://medium.com/@faelbercam/um-overview-sobre-cypress-io-framework-de-automa%C3%A7%C3%A3o-de-testes-end-to-end-dc438b9ee7a1">https://medium.com/@faelbercam/um-overview-sobre-cypress-io-framework-de-automa%C3%A7%C3%A3o-de-testes-end-to-end-dc438b9ee7a1</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Otavio Lemos: Guia Rápido Sobre Cypress (<a href="https://www.youtube.com/watch?v=e5SuUUFlDss">https://www.youtube.com/watch?v=e5SuUUFlDss</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Alura: Testes em Javascript - Alura Live 50 (<a href="https://www.youtube.com/watch?v=r1rndQwFLMY">https://www.youtube.com/watch?v=r1rndQwFLMY</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: escreva testes end to end com Cypress (<a href="https://cursos.alura.com.br/course/react-escreva-testes-end-to-end-cypress">https://cursos.alura.com.br/course/react-escreva-testes-end-to-end-cypress</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: avançando em testes e2e com Cypress (<a href="https://cursos.alura.com.br/course/react-avancando-testes-e2e-cypress">https://cursos.alura.com.br/course/react-avancando-testes-e2e-cypress</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Melhore sua aplicação React com testes automatizados (<a href="https://cursos.alura.com.br/formacao-react-testes-automatizados">https://cursos.alura.com.br/formacao-react-testes-automatizados</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Cypress: automação de testes E2E (<a href="https://www.alura.com.br/conteudo/cypress-automatizando-testes-e2e">https://www.alura.com.br/conteudo/cypress-automatizando-testes-e2e</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Cypress: automação de testes E2E (<a href="https://www.alura.com.br/curso-online-cypress-automacao-testes-e2e">https://www.alura.com.br/curso-online-cypress-automacao-testes-e2e</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Carreira QA: processos e automação de testes (<a href="https://www.alura.com.br/formacao-carreira-tester-qa">https://www.alura.com.br/formacao-carreira-tester-qa</a>)</li>
+</ul>
+<h3>JavaScript - Callbacks e Promises:</h3>
 <ul><li>Uma promessa (Promise) é um proxy para um valor não necessariamente conhecido quando a promessa é criada. Isso permite que métodos assíncronos retornem valores como métodos síncronos - em vez de retornar imediatamente o valor final, o método assíncrono retorna uma promessa de fornecer o valor em algum momento no futuro.</li>
 <li>Uma função de Callback é uma função passada para outra função como um argumento, que é então invocado dentro da função externa para completar algum tipo de rotina ou ação.</li>
-<li>Uma função assíncrona (async) é uma função declarada com a palavra-chave <code>async</code>, e a palavra-chave <code>await</code> é permitida dentro dela. As palavras-chave <code>async</code> e <code>await</code> permitem que o comportamento assíncrono e baseado em promessas seja escrito em um estilo mais limpo, evitando a necessidade de configurar explicitamente as cadeias de promessas.</li>
+<li>Uma função assíncrona (async) é uma função declarada com a palavra-chave <code data-kind="async">async</code>, e a palavra-chave <code data-kind="await">await</code> é permitida dentro dela. As palavras-chave <code data-kind="async">async</code> e <code data-kind="await">await</code> permitem que o comportamento assíncrono e baseado em promessas seja escrito em um estilo mais limpo, evitando a necessidade de configurar explicitamente as cadeias de promessas.</li>
 <li>Entender o conceito de assincronicidade em programação</li>
 <li>Escrever código assíncrono entendendo o conceito de promessas em JavaScript</li>
 <li>Utilizar os métodos, palavras-chaves e objetos do JavaScript para manipulação de promessas como &#39;Async/Await&#39;, &#39;.then()&#39;, &#39;Promise&#39;, etc</li>
 <li>Aprender em quais situações é necessário o uso de programação assíncrona</li>
-<li>Fazer chamadas em APIs com <code>fetch()</code></li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Manipulação de Erros</strong>:</li>
+<li>Fazer chamadas em APIs com <code data-kind="fetch()">fetch()</code></li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Introdução ao JavaScript Async (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Asynchronous/Introducing">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Asynchronous/Introducing</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Funções assíncronas (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/async_function</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Promise (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Promise</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Função Callback (<a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Callback_function">https://developer.mozilla.org/pt-BR/docs/Glossary/Callback_function</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como usar Async/Await? Promises no JavaScript? (<a href="https://www.youtube.com/watch?v=q28lfkBd9F4">https://www.youtube.com/watch?v=q28lfkBd9F4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Callbacks, Síncrono, Assíncrono e Event Loop no JavaScript (<a href="https://www.youtube.com/watch?v=6lbBaM18X3g">https://www.youtube.com/watch?v=6lbBaM18X3g</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo como fazer AJAX com a FetchAPI (<a href="https://medium.com/@omariosouto/entendendo-como-fazer-ajax-com-a-fetchapi-977ff20da3c6">https://medium.com/@omariosouto/entendendo-como-fazer-ajax-com-a-fetchapi-977ff20da3c6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como pegar dados de uma API? Como fazer AJAX? | Pegando dados de serviços via JavaScript (<a href="https://www.youtube.com/watch?v=85vJXFpXLQw">https://www.youtube.com/watch?v=85vJXFpXLQw</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Revolução no Node.js: adeus ao Axios e fetch API na versão 17.5.0 (<a href="https://www.alura.com.br/artigos/revolucao-node-js-adeus-axios-fetch-api-versao-17-5-0">https://www.alura.com.br/artigos/revolucao-node-js-adeus-axios-fetch-api-versao-17-5-0</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Async/await no JavaScript: o que é e quando usar a programação assíncrona? (<a href="https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar">https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar</a>)</li>
+<li><code data-kind="site">Site</code> Alura+: JavaScript assíncrono e Fetch (<a href="https://cursos.alura.com.br/extra/alura-mais/javascript-assincrono-e-fetch-c93">https://cursos.alura.com.br/extra/alura-mais/javascript-assincrono-e-fetch-c93</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso JavaScript: consumindo e tratando dados de uma API (<a href="https://cursos.alura.com.br/course/javascript-consumindo-tratando-dados-uma-api">https://cursos.alura.com.br/course/javascript-consumindo-tratando-dados-uma-api</a>)</li>
+</ul>
+<h3>JavaScript - Manipulação de Erros:</h3>
 <ul><li>O tratamento de erros refere-se aos procedimentos de resposta e recuperação de condições de erro presentes em um aplicativo de software. Em outras palavras, é o processo composto de antecipação, detecção e resolução de erros de aplicação, de programação ou de comunicação.</li>
 <li>Conhecer e tratar as exceções mais comuns</li>
 <li>Saber quais os tipos de erros e em quais situações eles podem ocorrer</li>
 <li>Entender como o Node.js faz o manejo de erros</li>
 <li>Usar &#39;try&#39; e &#39;catch&#39; para tratamento de erros</li>
-<li>Em que ocasiões e de que forma utilizar o <code>throw</code></li>
+<li>Em que ocasiões e de que forma utilizar o <code data-kind="throw">throw</code></li>
 <li>Criar exceções específicas de acordo com a necessidade de sua aplicação</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Babel - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Controle de Fluxo e Manipulação de Erro (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#declara%C3%A7%C3%B5es_de_manipula%C3%A7%C3%A3o_de_error">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Control_flow_and_error_handling#declara%C3%A7%C3%B5es_de_manipula%C3%A7%C3%A3o_de_error</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Error (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Error</a>)</li>
+<li><code data-kind="site">Site</code> Microsoft TechNet: JavaScript: Tratamento de erros (<a href="https://social.technet.microsoft.com/wiki/pt-br/contents/articles/32455.javascript-tratamento-de-erros.aspx">https://social.technet.microsoft.com/wiki/pt-br/contents/articles/32455.javascript-tratamento-de-erros.aspx</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Exceções e Erros em JavaScript (<a href="http://gabrielprates.com/2017/06/02/excecoes-e-erros-em-js.html">http://gabrielprates.com/2017/06/02/excecoes-e-erros-em-js.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando Exceptions para impressionar no Teste Técnico (<a href="https://dev.to/he4rt/criando-exceptions-para-impressionar-no-teste-tecnico-2nie">https://dev.to/he4rt/criando-exceptions-para-impressionar-no-teste-tecnico-2nie</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Lidando com erros no Node.js (<a href="https://www.alura.com.br/artigos/lidando-com-erros-node-js">https://www.alura.com.br/artigos/lidando-com-erros-node-js</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Node.js: Criando sua primeira biblioteca (<a href="https://cursos.alura.com.br/course/javascript-node-js-criando-primeira-biblioteca">https://cursos.alura.com.br/course/javascript-node-js-criando-primeira-biblioteca</a>)</li>
+</ul>
+<h3>Babel - Fundamentos:</h3>
 <ul><li>Babel é um compilador JavaScript. É uma ferramentas usada principalmente para converter código ECMAScript 2015+ em uma versão compatível com versões anteriores do JavaScript em navegadores ou ambientes atuais e mais antigos.</li>
 <li>Compreender como Babel converte a sintaxe para JavaScript</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: What is Babel? (inglês) (<a href="https://babeljs.io/docs/en/">https://babeljs.io/docs/en/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é babel? (<a href="https://coodesh.com/blog/dicionario/o-que-e-babel/">https://coodesh.com/blog/dicionario/o-que-e-babel/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> React e Babel — Como melhorar o desempenho de suas aplicações com plugins, presets e benchmark! (<a href="https://medium.com/nossa-coletividad/react-e-babel-como-melhorar-o-desempenho-de-suas-aplica%C3%A7%C3%B5es-com-plugins-presets-e-benchmark-fb35700a52e9">https://medium.com/nossa-coletividad/react-e-babel-como-melhorar-o-desempenho-de-suas-aplica%C3%A7%C3%B5es-com-plugins-presets-e-benchmark-fb35700a52e9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus Castiglioni: React, Babel e Webpack, o que é tudo isso? (<a href="https://www.youtube.com/watch?v=y5B0MXmt428">https://www.youtube.com/watch?v=y5B0MXmt428</a>)</li>
+<li><code data-kind="youtube">YouTube</code> web3escola: Introdução ao React - Babel (<a href="https://www.youtube.com/watch?v=jSGg2j2UNr4">https://www.youtube.com/watch?v=jSGg2j2UNr4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso JavaScript: salvando dados localmente com IndexedDB (<a href="https://www.alura.com.br/curso-online-javascript-es6-orientacao-a-objetos-parte-3">https://www.alura.com.br/curso-online-javascript-es6-orientacao-a-objetos-parte-3</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Lottie</strong>:</li>
+<h3>Lottie:</h3>
 <ul><li>Lottie é uma biblioteca que processa animações do Adobe After Effects exportadas como json com Bodymovin e as renderiza nativamente em dispositivos mobile e na web.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Framer Motion</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: Lottie (inglês) (<a href="https://airbnb.io/lottie/#/README">https://airbnb.io/lottie/#/README</a>)</li>
+<li><code data-kind="site">Site</code> Componentes Lottie (inglês) (<a href="https://lottiereact.com/components/Lottie">https://lottiereact.com/components/Lottie</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Animações com Lottie no React Native (<a href="https://medium.com/@victor96novais/anima%C3%A7%C3%B5es-com-lottie-no-react-native-d6f8ffa749a9">https://medium.com/@victor96novais/anima%C3%A7%C3%B5es-com-lottie-no-react-native-d6f8ffa749a9</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Lottie: Animações com React (<a href="https://www.youtube.com/watch?v=dZH9aDX8T-0">https://www.youtube.com/watch?v=dZH9aDX8T-0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Wendel Dev: Como usar animações Lottie em apenas 3 minutos com ReactJS (<a href="https://www.youtube.com/watch?v=bWo_wlqPfQY">https://www.youtube.com/watch?v=bWo_wlqPfQY</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Layers.tech: WEB Animation LottieFiles (<a href="https://www.alura.com.br/podcast/web-animation-lottiefiles-layers-ponto-tech-42-a1107">https://www.alura.com.br/podcast/web-animation-lottiefiles-layers-ponto-tech-42-a1107</a>)</li>
+</ul>
+<h3>Framer Motion:</h3>
 <ul><li>Criar animações</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Service Workers</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: Framer Motion (inglês) (<a href="https://www.framer.com/motion/">https://www.framer.com/motion/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Framer Motion + React (Exemplo de Utilização) (<a href="https://medium.com/@leonardord99/framer-motion-react-514f39a9d03e">https://medium.com/@leonardord99/framer-motion-react-514f39a9d03e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Galeria De Páginas Deslizantes Animadas Usando Framer-motion E React.js (<a href="https://acervolima.com/galeria-de-paginas-deslizantes-animadas-usando-framer-motion-e-react-js/">https://acervolima.com/galeria-de-paginas-deslizantes-animadas-usando-framer-motion-e-react-js/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> PedroTech: Animations In React - Framer-Motion Tutorial (inglês) (<a href="https://www.youtube.com/watch?v=GOuwOI-WSkE">https://www.youtube.com/watch?v=GOuwOI-WSkE</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> TL Draw: o que é e como escrever códigos com desenhos (<a href="https://www.alura.com.br/artigos/tl-draw">https://www.alura.com.br/artigos/tl-draw</a>)</li>
+<li><code data-kind="curso">Curso</code> Framer: construindo um portal do colaborador com IA (<a href="https://cursos.alura.com.br/course/framer-construindo-portal-colaborador-ia">https://cursos.alura.com.br/course/framer-construindo-portal-colaborador-ia</a>)</li>
+<li><code data-kind="curso">Curso</code> Framer: criando seu e-commerce com IA (<a href="https://cursos.alura.com.br/formacao-framer-criando-e-commerce-ia">https://cursos.alura.com.br/formacao-framer-criando-e-commerce-ia</a>)</li>
+</ul>
+<h3>Service Workers:</h3>
 <ul><li>Melhorar a performance e trabalhar offline;</li>
 <li>Permitem que aplicações web armazenem recursos no cache;</li>
 <li>Interceptam e gerenciam requisições de rede;</li>
 <li>Facilitam notificações push, mesmo quando o app não está aberto ou usuário não está na página;</li>
 <li>Funcionam como um intermediário entre o navegador e a rede/servidor;</li>
 <li>São assíncronos e não acessam diretamente o DOM, garantindo segurança e eficiência;</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Validação de formulários</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Usando Service Worker (<a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API/Using_Service_Workers">https://developer.mozilla.org/pt-BR/docs/Web/API/Service_Worker_API/Using_Service_Workers</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Os primeiros passos para tornar uma aplicação web offline (<a href="https://medium.com/aurum-tech/os-primeiros-passos-para-tornar-uma-aplica%C3%A7%C3%A3o-web-offline-8dee5958818b">https://medium.com/aurum-tech/os-primeiros-passos-para-tornar-uma-aplica%C3%A7%C3%A3o-web-offline-8dee5958818b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como o JavaScript funciona: Service Workers, seu ciclo de vida e casos de uso (<a href="https://medium.com/reactbrasil/como-o-javascript-funciona-service-workers-seu-ciclo-de-vida-e-casos-de-uso-8404870ee728">https://medium.com/reactbrasil/como-o-javascript-funciona-service-workers-seu-ciclo-de-vida-e-casos-de-uso-8404870ee728</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Service Workers in React (inglês) (<a href="https://levelup.gitconnected.com/service-workers-in-react-8bcaccfd0356">https://levelup.gitconnected.com/service-workers-in-react-8bcaccfd0356</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Matheus da Guia de Campos: Configurando service-worker em sua aplicação Reactjs para cache de páginas estáticas (<a href="https://www.youtube.com/watch?v=dBigOB4p1zY">https://www.youtube.com/watch?v=dBigOB4p1zY</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Offline Web (<a href="https://www.alura.com.br/artigos/palestra-offline-web-com-service-workers">https://www.alura.com.br/artigos/palestra-offline-web-com-service-workers</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Desvendando os service workers: ciclo de vida e atualização (<a href="https://www.alura.com.br/artigos/service-worker">https://www.alura.com.br/artigos/service-worker</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Quais as boas práticas de segurança para PWAs? (<a href="https://www.alura.com.br/artigos/praticas-de-seguranca-pwas">https://www.alura.com.br/artigos/praticas-de-seguranca-pwas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cuidados com CSRF/XSRF ao utilizar a Push API (<a href="https://www.alura.com.br/artigos/cuidados-com-csrf">https://www.alura.com.br/artigos/cuidados-com-csrf</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Progressive Web Apps - Hipsters 03 (<a href="https://www.alura.com.br/podcast/progressive-web-apps-hipsters-03-a583">https://www.alura.com.br/podcast/progressive-web-apps-hipsters-03-a583</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é uma Progressive Web App (PWA)? (<a href="https://www.youtube.com/watch?v=UeMkXvmk68Q">https://www.youtube.com/watch?v=UeMkXvmk68Q</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação React: construindo PWA’s modernas e eficientes (<a href="https://www.alura.com.br/formacao-react-construindo-pwas-modernas-eficientes">https://www.alura.com.br/formacao-react-construindo-pwas-modernas-eficientes</a>)</li>
+</ul>
+<h3>React - Validação de formulários:</h3>
 <ul><li>Em React, é super importante que, em formulários, os dados inseridos pelos usuários atendam a critérios específicos antes do envio ou processamento das informações.</li>
 <li>Conhecer o Formik e o React Hook Form, bibliotecas populares para lidar com formulários em React.</li>
 <li>Conhecer o Yup e o Zod, ambas bibliotecas de validação baseadas em esquema. Permitem a definição de esquemas para validar valores de um objeto.</li>
 <li>Compreender como as bibliotecas trabalham, facilitando a criação de formulários complexos com validação e gerenciamento de estado.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Gerenciamento de Performance</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> React Hook Form: Documentação (inglês) (<a href="https://react-hook-form.com/get-started">https://react-hook-form.com/get-started</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Dev.to: React Hook Form (<a href="https://dev.to/stanley/react-hook-form-1hk">https://dev.to/stanley/react-hook-form-1hk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Huriel: Como usar o React Hook Form! (<a href="https://www.youtube.com/watch?v=QEdm3EVrhY0">https://www.youtube.com/watch?v=QEdm3EVrhY0</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> React: validação de formulários com React Hook Form (<a href="https://www.alura.com.br/artigos/react-hook-form">https://www.alura.com.br/artigos/react-hook-form</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando esquemas de validação com Yup (<a href="https://www.alura.com.br/artigos/validacao-yup">https://www.alura.com.br/artigos/validacao-yup</a>)</li>
+<li><code data-kind="curso">Curso</code> React: bibliotecas para desenvolver formulários (<a href="https://cursos.alura.com.br/formacao-react-bibliotecas-desenvolver-formularios">https://cursos.alura.com.br/formacao-react-bibliotecas-desenvolver-formularios</a>)</li>
+</ul>
+<h3>React - Gerenciamento de Performance:</h3>
 <ul><li>Em React, uma boa performance  garante uma experiência de usuário fluida e responsiva.</li>
 <li>A otimização de performance envolve técnicas para minimizar a quantidade de renderizações e maximizar a eficiência da atualização da interface.</li>
 <li>Entender o que é otimização de performance em React.</li>
 <li>Conhecer e saber usar técnicas como Lazy Loading e Code Splitting.</li>
 <li>Conhecer as demais ferramentas e práticas para otimização de performance no React.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Lodash</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> React: Documentação - Performance Hooks (<a href="https://pt-br.react.dev/reference/react/hooks#performance-hooks">https://pt-br.react.dev/reference/react/hooks#performance-hooks</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Victor Rios: Performance em Aplicações React: Dicas e Técnicas de Otimização (<a href="https://dev.to/vitorrios1001/performance-em-aplicacoes-react-dicas-e-tecnicas-de-otimizacao-414i">https://dev.to/vitorrios1001/performance-em-aplicacoes-react-dicas-e-tecnicas-de-otimizacao-414i</a>)</li>
+<li><code data-kind="artigo">Artigo</code> TabNews: Performance tuning em ReactJS (<a href="https://www.tabnews.com.br/gabrielOak/performance-tuning-em-reactjs">https://www.tabnews.com.br/gabrielOak/performance-tuning-em-reactjs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Sujeito Programador: Como melhorar a performance do seu projeto com React JS (<a href="https://youtu.be/ENcr7ssBaMg?si=haaDbHWg0Qbp9v-s">https://youtu.be/ENcr7ssBaMg?si=haaDbHWg0Qbp9v-s</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Métricas de performance centradas no usuário (<a href="https://www.alura.com.br/artigos/metricas-performance-centradas-no-usuario">https://www.alura.com.br/artigos/metricas-performance-centradas-no-usuario</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como construir aplicações SSR com React, React Router e Vite (<a href="https://www.alura.com.br/artigos/vite-ssr-react">https://www.alura.com.br/artigos/vite-ssr-react</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Performance na Web 2: SSR, Core Web Vitals e Front-end (<a href="https://cursos.alura.com.br/extra/hipsterstech/performance-na-web-2-ssr-core-web-vitals-e-front-end-hipsters-ponto-tech-416-a9348">https://cursos.alura.com.br/extra/hipsterstech/performance-na-web-2-ssr-core-web-vitals-e-front-end-hipsters-ponto-tech-416-a9348</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Observabilidade no Itaú (<a href="https://cursos.alura.com.br/extra/hipsterstech/observabilidade-no-itau-hipsters-ponto-tech-334-a1927">https://cursos.alura.com.br/extra/hipsterstech/observabilidade-no-itau-hipsters-ponto-tech-334-a1927</a>)</li>
+<li><code data-kind="curso">Curso</code> React: maximizando a performance de Aplicações (<a href="https://cursos.alura.com.br/formacao-react-maximizando-performance-aplicacoes">https://cursos.alura.com.br/formacao-react-maximizando-performance-aplicacoes</a>)</li>
+</ul>
+<h3>Lodash:</h3>
 <ul><li>Lodash é uma biblioteca de utilitários JavaScript moderna que oferece modularidade, desempenho e extras. Os métodos modulares do Lodash são ótimos para iterar arrays, objetos e strings; manipular e testar valores; e criar funções compostas.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>GraphQL</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: Lodash (inglês) (<a href="https://lodash.com/">https://lodash.com/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Limpando seu código javascript com Lodash (<a href="https://medium.com/codigorefinado/limpando-seu-c%C3%B3digo-javascript-com-lodash-93ca10f3f1fe">https://medium.com/codigorefinado/limpando-seu-c%C3%B3digo-javascript-com-lodash-93ca10f3f1fe</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tiago Matos: Conhecendo o Lodash, uma biblioteca javascript (<a href="https://www.youtube.com/watch?v=ly7D-YL-rdU">https://www.youtube.com/watch?v=ly7D-YL-rdU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tiago Matos: 10 funções imperdíveis da biblioteca javascript lodash (<a href="https://www.youtube.com/watch?v=2JKGGadhFxU">https://www.youtube.com/watch?v=2JKGGadhFxU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Livro Casa do Código: Primeiros passos com Node.js (<a href="https://www.casadocodigo.com.br/products/livro-primeiros-passos-node">https://www.casadocodigo.com.br/products/livro-primeiros-passos-node</a>)</li>
+</ul>
+<h3>GraphQL:</h3>
 <ul><li>GraphQL é uma linguagem de consulta e manipulação de dados de código aberto para APIs. É considerada uma alternativa para arquiteturas REST.</li>
 <li>Aprender o que é GraphQL e por que foi criado</li>
 <li>Entender como o GraphQL é utilizado no desenvolvimento de APIs</li>
 <li>Criar APIs utilizando as bibliotecas e frameworks para GraphQL</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Apollo Client</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> RedHat: O que é GraphQL? (<a href="https://www.redhat.com/pt-br/topics/api/what-is-graphql">https://www.redhat.com/pt-br/topics/api/what-is-graphql</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Dev.to: Entendendo um pouco sobre o que é GraphQL (<a href="https://dev.to/amaurygoncalves/entendendo-um-pouco-sobre-o-que-e-graphql-9l7">https://dev.to/amaurygoncalves/entendendo-um-pouco-sobre-o-que-e-graphql-9l7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mateus Silva: GraphQL: Pra que serve, Conceitos e Hello World (<a href="https://youtu.be/7RoHxSGVAdU">https://youtu.be/7RoHxSGVAdU</a>)</li>
+<li><code data-kind="site">Site</code> How to GraphQL: The Fullstack tutorial for GraphQL (em inglês) (<a href="https://www.howtographql.com/">https://www.howtographql.com/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Guia essencial do GraphQL para pessoas que desenvolvem frontend (<a href="https://www.alura.com.br/artigos/guia-graphql-pessoas-desenvolvem-frontend">https://www.alura.com.br/artigos/guia-graphql-pessoas-desenvolvem-frontend</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é GraphQL? (<a href="https://www.youtube.com/watch?v=trf3ZR_K1nk">https://www.youtube.com/watch?v=trf3ZR_K1nk</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Python, GraphQL e Serverless no Zé Delivery (Hipsters On The Road 53) (<a href="https://www.alura.com.br/podcast/python-graphql-e-serverless-no-ze-delivery-hipsters-on-the-road-53-a804">https://www.alura.com.br/podcast/python-graphql-e-serverless-no-ze-delivery-hipsters-on-the-road-53-a804</a>)</li>
+<li><code data-kind="curso">Curso</code> React: executando consultas dinâmicas com Apollo Client (<a href="https://cursos.alura.com.br/course/react-executando-consultas-dinamicas-apollo-client">https://cursos.alura.com.br/course/react-executando-consultas-dinamicas-apollo-client</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: combinando Context API e Apollo Client (<a href="https://cursos.alura.com.br/course/react-combinando-context-api-apollo-client">https://cursos.alura.com.br/course/react-combinando-context-api-apollo-client</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de React Query: gerenciando HTTP State (<a href="https://cursos.alura.com.br/course/react-query-gerenciando-http-state">https://cursos.alura.com.br/course/react-query-gerenciando-http-state</a>)</li>
+<li><code data-kind="curso">Curso</code> React Query: manipulando interações com mutations (<a href="https://www.alura.com.br/curso-online-react-query-manipulando-interacoes-mutations">https://www.alura.com.br/curso-online-react-query-manipulando-interacoes-mutations</a>)</li>
+</ul>
+<h3>Apollo Client:</h3>
 <ul><li>Apollo Client é uma biblioteca abrangente de gerenciamento de estado para JavaScript que permite gerenciar dados locais e remotos com o GraphQL.</li>
 <li>Utilizar o Apollo para criar um servidor GraphQL</li>
 <li>Conectar com uma API</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>React - Arquitetura</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: Apollo Client (inglês) (<a href="https://www.apollographql.com/docs/react/">https://www.apollographql.com/docs/react/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> GraphQL hoje usando Apollo em aplicações que utilizam APIs REST (<a href="https://imasters.com.br/apis-microsservicos/graphql-hoje-usando-apollo-em-aplicacoes-que-utilizam-apis-rest">https://imasters.com.br/apis-microsservicos/graphql-hoje-usando-apollo-em-aplicacoes-que-utilizam-apis-rest</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Consumindo API GraphQL usando React e Apollo Client (<a href="https://dev.to/mensonones/consumindo-api-graphql-usando-react-e-apollo-client-4blo">https://dev.to/mensonones/consumindo-api-graphql-usando-react-e-apollo-client-4blo</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Apollo Client + Angular 7 : Configurando Apollo Client com o poderoso ng add (<a href="https://medium.com/@gustavo93.lima/apollo-client-angular-7-configurando-apollo-client-com-o-poderoso-ng-add-a7788b63d4b3">https://medium.com/@gustavo93.lima/apollo-client-angular-7-configurando-apollo-client-com-o-poderoso-ng-add-a7788b63d4b3</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso React: executando consultas dinâmicas com Apollo Client (<a href="https://cursos.alura.com.br/course/react-executando-consultas-dinamicas-apollo-client">https://cursos.alura.com.br/course/react-executando-consultas-dinamicas-apollo-client</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: combinando Context API e Apollo Client (<a href="https://cursos.alura.com.br/course/react-combinando-context-api-apollo-client">https://cursos.alura.com.br/course/react-combinando-context-api-apollo-client</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de React Query: gerenciando HTTP State (<a href="https://cursos.alura.com.br/course/react-query-gerenciando-http-state">https://cursos.alura.com.br/course/react-query-gerenciando-http-state</a>)</li>
+</ul>
+<h3>React - Arquitetura:</h3>
 <ul><li>Manter a arquitetura do nosso projeto bem estruturada, nos ajuda a organizar o código da melhor maneira possível para facilitar a manutenção e escalabilidade. Combinada aos princípios do SOLID, ela potencializa ainda mais toda essa organização minimizando o acoplamento e aprimorando a coesão dos componentes da nossa aplicação.</li>
 <li>Estruturar o projeto React com Arquitetura Limpa;</li>
 <li>Conhecer e aplicar os princípios SOLID para maior reusabilidade e coesão;</li>
 <li>Isolar responsabilidades com hooks e injeção de dependências.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redux Saga</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Arquitetura para aplicações React (<a href="https://vinniciusgomes.medium.com/arquitetura-para-aplicacoes-react-d77361bf2d49">https://vinniciusgomes.medium.com/arquitetura-para-aplicacoes-react-d77361bf2d49</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é SOLID: O guia completo para você entender os 5 princípios da POO (<a href="https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530">https://medium.com/desenvolvendo-com-paixao/o-que-%C3%A9-solid-o-guia-completo-para-voc%C3%AA-entender-os-5-princ%C3%ADpios-da-poo-2b937b3fc530</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Clean Code e Solid (<a href="https://www.youtube.com/watch?v=XV9B4LX_re8">https://www.youtube.com/watch?v=XV9B4LX_re8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Arquitetura de sistemas (<a href="https://www.youtube.com/watch?v=oedWxgAZc2A">https://www.youtube.com/watch?v=oedWxgAZc2A</a>)</li>
+<li><code data-kind="podcast">Podcast</code> SOLID: Código bom e bonito – Hipsters Ponto Tech #219 (<a href="https://www.hipsters.tech/solid-codigo-bom-e-bonito-hipsters-ponto-tech-219/">https://www.hipsters.tech/solid-codigo-bom-e-bonito-hipsters-ponto-tech-219/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Arquitetura no ecossistema de Front-End – Hipsters Ponto Tech #441 (<a href="https://www.hipsters.tech/arquitetura-no-ecossistema-de-front-end-hipsters-ponto-tech-441/">https://www.hipsters.tech/arquitetura-no-ecossistema-de-front-end-hipsters-ponto-tech-441/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SOLID: o que é e quais os 5 princípios da Programação Orientada a Objetos (POO) (<a href="https://www.alura.com.br/artigos/solid">https://www.alura.com.br/artigos/solid</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de SOLID aplicado ao React: melhorando a modularidade e flexibilidade do código (<a href="https://cursos.alura.com.br/course/solid-aplicado-react-melhorando-modularidade-flexibilidade-codigo">https://cursos.alura.com.br/course/solid-aplicado-react-melhorando-modularidade-flexibilidade-codigo</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de React: integração com Supabase e conceitos de arquitetura limpa na prática (<a href="https://cursos.alura.com.br/course/react-integracao-supabase-conceitos-arquitetura-limpa-pratica">https://cursos.alura.com.br/course/react-integracao-supabase-conceitos-arquitetura-limpa-pratica</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação React: da teoria à prática em arquitetura e design de aplicações (<a href="https://cursos.alura.com.br/formacao-react-arquitetura-design-aplicacoes">https://cursos.alura.com.br/formacao-react-arquitetura-design-aplicacoes</a>)</li>
+</ul>
+<h3>Redux Saga:</h3>
 <ul><li>Redux Saga é uma biblioteca que visa tornar os efeitos colaterais da aplicação (ou seja, coisas assíncronas, como busca de dados e coisas impuras, como acessar o cache do navegador) mais fáceis de gerenciar, mais eficientes de executar, fáceis de testar e melhores no tratamento de falhas.</li>
 <li>Criar e manter chamadas assíncronas e efeitos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>NextJS - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: Redux Saga (inglês) (<a href="https://redux-saga.js.org/docs/introduction/GettingStarted">https://redux-saga.js.org/docs/introduction/GettingStarted</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Redux-Saga: Gerenciando efeitos e ações (<a href="https://oieduardorabelo.medium.com/redux-saga-gerenciando-efeitos-f518a31c744e">https://oieduardorabelo.medium.com/redux-saga-gerenciando-efeitos-f518a31c744e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Redux Saga: Você no controle das operações assíncronas (<a href="https://medium.com/nossa-coletividad/redux-saga-voc%C3%AA-no-controle-das-opera%C3%A7%C3%B5es-ass%C3%ADncronas-71c9e6b3aabc">https://medium.com/nossa-coletividad/redux-saga-voc%C3%AA-no-controle-das-opera%C3%A7%C3%B5es-ass%C3%ADncronas-71c9e6b3aabc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Kuze: Entendendo o fluxo do Redux Saga - Criando um app (<a href="https://www.youtube.com/watch?v=5NFIRaXwrOQ">https://www.youtube.com/watch?v=5NFIRaXwrOQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programador de Sucesso: O guia definitivo para aprender REDUX e REDUX SAGA (<a href="https://www.youtube.com/watch?v=7YoMyQ-jsBk">https://www.youtube.com/watch?v=7YoMyQ-jsBk</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Redux: desvendando a arquitetura com Flux (<a href="https://www.alura.com.br/artigos/redux-desvendando-arquitetura-flux">https://www.alura.com.br/artigos/redux-desvendando-arquitetura-flux</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Como funciona o Redux? (<a href="https://www.youtube.com/watch?v=DbEpBeZ6yic">https://www.youtube.com/watch?v=DbEpBeZ6yic</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso React: gerenciamento de estados globais com Redux (<a href="https://cursos.alura.com.br/course/react-gerenciamento-estados-globais-redux">https://cursos.alura.com.br/course/react-gerenciamento-estados-globais-redux</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Gerencie estados em React com Redux (<a href="https://cursos.alura.com.br/formacao-react-gestao-estados">https://cursos.alura.com.br/formacao-react-gestao-estados</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Guia do iniciante em React 209 (<a href="https://www.alura.com.br/podcast/guia-do-iniciante-em-react-hipsters-209-a341">https://www.alura.com.br/podcast/guia-do-iniciante-em-react-hipsters-209-a341</a>)</li>
+</ul>
+<h3>NextJS - Fundamentos:</h3>
 <ul><li>Construir interfaces Web</li>
 <li>Diminuir o tempo de carregamento das páginas</li>
 <li>Renderizar páginas no lado do servidor</li>
 <li>Melhorar a performance em React</li>
 <li>Construir rotas de API com funções serveless</li>
 <li>CSS-in-JS</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: NextJS (inglês) (<a href="https://nextjs.org/">https://nextjs.org/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao Next.js (<a href="https://prensa.li/api-playbook/introducao-ao-nextjs/">https://prensa.li/api-playbook/introducao-ao-nextjs/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Next.js: O que é e porque utilizar este framework (<a href="https://medium.com/codelblog/next-js-o-que-%C3%A9-e-porque-utilizar-este-framework-6180bad09133">https://medium.com/codelblog/next-js-o-que-%C3%A9-e-porque-utilizar-este-framework-6180bad09133</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Next.JS: aplicações fullstack com super poderes (<a href="https://www.alura.com.br/artigos/next-js">https://www.alura.com.br/artigos/next-js</a>)</li>
+<li><code data-kind="artigo">Artigo</code> NextJS: por que usar? (<a href="https://www.alura.com.br/artigos/next-js-vantagens">https://www.alura.com.br/artigos/next-js-vantagens</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Navegação com Next.Js utilizando rotas dinâmicas (<a href="https://www.alura.com.br/artigos/navegacao-next-js-utilizando-rotas-dinamicas">https://www.alura.com.br/artigos/navegacao-next-js-utilizando-rotas-dinamicas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Roteamento eficiente com Next.js: descobrindo o App Router (<a href="https://www.alura.com.br/artigos/roteamento-eficiente-next-js-app-router">https://www.alura.com.br/artigos/roteamento-eficiente-next-js-app-router</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Next: Server Actions aprendendo na prática (<a href="https://www.alura.com.br/artigos/next-server-actions-aprendendo-pratica">https://www.alura.com.br/artigos/next-server-actions-aprendendo-pratica</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CSS com NextJS (<a href="https://www.alura.com.br/artigos/css-com-next-js">https://www.alura.com.br/artigos/css-com-next-js</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como o Next.js ajuda no SEO das SPAs? (<a href="https://www.alura.com.br/artigos/como-next-js-ajuda-no-seo-spas">https://www.alura.com.br/artigos/como-next-js-ajuda-no-seo-spas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Next.js: criando aplicações fullstack (<a href="https://www.alura.com.br/artigos/aplicacoes-fullstack">https://www.alura.com.br/artigos/aplicacoes-fullstack</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como proteger suas aplicações Next.js: práticas essenciais de segurança (<a href="https://www.alura.com.br/artigos/nextjs-seguranca">https://www.alura.com.br/artigos/nextjs-seguranca</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Autenticação moderna com OAuth 2.0 e OpenID Connect: dicas para desenvolvedores frontend (<a href="https://www.alura.com.br/artigos/oauth-2-e-openid-connect">https://www.alura.com.br/artigos/oauth-2-e-openid-connect</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Segurança do Next.js 14+ com Middlewares (<a href="https://www.alura.com.br/artigos/next-js-middlewares">https://www.alura.com.br/artigos/next-js-middlewares</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Nextjs - Hipsters 220 (<a href="https://www.alura.com.br/podcast/nextjs-hipsters-ponto-tech-220-a652">https://www.alura.com.br/podcast/nextjs-hipsters-ponto-tech-220-a652</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Next.js: Visão Atual - Hipsters 399 (<a href="https://www.hipsters.tech/next-js-visao-atual-hipsters-ponto-tech-399/">https://www.hipsters.tech/next-js-visao-atual-hipsters-ponto-tech-399/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Primeiros passos Next.js (<a href="https://www.youtube.com/watch?v=slmtdlWNwcE">https://www.youtube.com/watch?v=slmtdlWNwcE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: NextJs é o melhor framework (com Mario Souto) (<a href="https://www.youtube.com/watch?v=7x4_HNC4Uu4">https://www.youtube.com/watch?v=7x4_HNC4Uu4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Conhecendo o Next.js - Hipsters.Talks 24 (<a href="https://www.youtube.com/watch?v=8uoRx4_6mOE">https://www.youtube.com/watch?v=8uoRx4_6mOE</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Next.JS (<a href="https://www.alura.com.br/formacao-next-js">https://www.alura.com.br/formacao-next-js</a>)</li>
+<li><code data-kind="curso">Curso</code> Next.js: crie estratégias de componentes Server-Side (<a href="https://cursos.alura.com.br/course/next-js-estrategias-componentes-server-side">https://cursos.alura.com.br/course/next-js-estrategias-componentes-server-side</a>)</li>
+<li><code data-kind="curso">Curso</code> Next.js 14: desenvolvendo aplicações robustas com alta produtividade (<a href="https://cursos.alura.com.br/formacao-next-js-14-aplicacoes-robustas-alta-produtividade">https://cursos.alura.com.br/formacao-next-js-14-aplicacoes-robustas-alta-produtividade</a>)</li>
+<li><code data-kind="curso">Curso</code> Vercel IA SDK: construindo um Chatbot com Next.js (<a href="https://cursos.alura.com.br/course/vercel-ia-sdk-construindo-chatbot-next-js">https://cursos.alura.com.br/course/vercel-ia-sdk-construindo-chatbot-next-js</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Next.js: autenticação e gestão de sessão (<a href="https://www.alura.com.br/formacao-next-js-autenticacao-gestao-sessao">https://www.alura.com.br/formacao-next-js-autenticacao-gestao-sessao</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Infraestrutura e Back-end</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+<h3>Git e GitHub - Fundamentos:</h3>
 <ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
 <li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
 <li>Criar um repositório</li>
@@ -418,37 +1079,143 @@
 <li>Reverter um commit</li>
 <li>Criar branches e pul requests</li>
 <li>Lidar com merge e conflitos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> GitHub Documentação (<a href="https://docs.github.com/pt">https://docs.github.com/pt</a>)</li>
+<li><code data-kind="site">Site</code> GitHub Pages Documentação (<a href="https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="site">Site</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="site">Site</code> Dangit, Git!?! (<a href="https://dangitgit.com/">https://dangitgit.com/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O que é Git e GitHub? - definição e conceitos importantes 1/2 (<a href="https://www.youtube.com/watch?v=DqTITcMq68k">https://www.youtube.com/watch?v=DqTITcMq68k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: Como usar Git e GitHub na prática! - desde o primeiro commit até o pull request! 2/2 (<a href="https://www.youtube.com/watch?v=UBAX-13g8OM">https://www.youtube.com/watch?v=UBAX-13g8OM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Git: Entendendo de vez como funciona do melhor e mais visual jeito possível (<a href="https://www.youtube.com/watch?v=4-tfJ-ZyA0Q">https://www.youtube.com/watch?v=4-tfJ-ZyA0Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como colocar seu projeto no ar DE GRAÇA via GitHub! | Hospedagem com GitHub Pages (<a href="https://www.youtube.com/watch?v=BU-w2_Aae54">https://www.youtube.com/watch?v=BU-w2_Aae54</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - 5 coisas que você precisa saber sobre Git (<a href="https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU">https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - README de Sucesso: Transforme seu Projeto ou seu Perfil em Destaque no GitHub (<a href="https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A">https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Git e Github: O que são, Como Configurar e Primeiros Passos (<a href="https://www.alura.com.br/artigos/o-que-e-git-github">https://www.alura.com.br/artigos/o-que-e-git-github</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Mais git com o hub: a linha de comando do Github (<a href="https://www.alura.com.br/artigos/github-na-linha-de-comando">https://www.alura.com.br/artigos/github-na-linha-de-comando</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 184: Guia do Iniciante em Github (<a href="https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378">https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378</a>)</li>
+<li><code data-kind="site">Site</code> GitHub: diferentes maneiras de compartilhar seu projeto (<a href="https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002">https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002</a>)</li>
+<li><code data-kind="site">Site</code> Websérie: Git e Github para Sobrevivência (<a href="https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia">https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 109: Git e Github (<a href="https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474">https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Git e Github para Sobrevivência 01: Como o Git funciona? (<a href="https://www.youtube.com/watch?v=BAmvmaKQklQ">https://www.youtube.com/watch?v=BAmvmaKQklQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: compartilhando e colaborando em projetos (<a href="https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos">https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: dominando controle de versão de código (<a href="https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo">https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: GitHub (<a href="https://7daysofcode.io/matricula/github">https://7daysofcode.io/matricula/github</a>)</li>
+</ul>
+<h3>HTTP - Fundamentos:</h3>
 <ul><li>HTTP significa Hyper Text Transfer Protocol. A comunicação entre computadores cliente e servidores web é feita enviando solicitações HTTP e recebendo respostas HTTP.</li>
 <li>Entender a diferença dos verbos HTTP</li>
 <li>Testar os requests e ver os status codes no navegador</li>
 <li>Saber fazer uma requisição HTTP na linha de comando com WGET</li>
 <li>Baixar uma imagem com WGET</li>
 <li>Fazer um post</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: Uma visão geral do HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Métodos de requisição HTTP (<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods">https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Cats (<a href="https://http.cat/">https://http.cat/</a>)</li>
+<li><code data-kind="site">Site</code> HTTP Dogs (<a href="https://http.dog/">https://http.dog/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fabiano Gabardo Lemos: Requisições HTTP - GET, POST, PUT, PATCH DELETE (<a href="https://www.youtube.com/watch?v=kncOJZrnkTg">https://www.youtube.com/watch?v=kncOJZrnkTg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programador a Bordo: Protocolo HTTP e TCP/IP - Introdução (<a href="https://www.youtube.com/watch?v=V4XZ81vRGtM">https://www.youtube.com/watch?v=V4XZ81vRGtM</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> HTTP: Desmistificando o protocolo da Web (<a href="https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1">https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Métodos de requisição do HTTP (<a href="https://www.alura.com.br/artigos/metodos-de-requisicao-do-http">https://www.alura.com.br/artigos/metodos-de-requisicao-do-http</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual é a diferença entre HTTP e HTTPS? (<a href="https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https">https://www.alura.com.br/artigos/qual-e-diferenca-entre-http-e-https</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: HTTP/2: magia com o novo protocolo - Hipsters 13 (<a href="https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573">https://www.alura.com.br/podcast/http-2-magia-com-o-novo-protocolo-hipsters-13-a573</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso HTTP: Entendendo a web por baixo dos panos (<a href="https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos">https://www.alura.com.br/curso-online-http-entendendo-web-por-baixo-dos-panos</a>)</li>
+</ul>
+<h3>JSON:</h3>
 <ul><li>JSON significa JavaScript Object Notation (notação de objeto JavaScript). É um formato de texto para armazenar e transmitir dados.</li>
 <li>Criar um objeto</li>
 <li>Transformar um objeto em uma string</li>
 <li>Transformar uma string em objeto</li>
 <li>Manipular um objeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Linha de comando - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> MDN Web Docs: JSON (<a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON">https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON</a>)</li>
+<li><code data-kind="site">Site</code> MDN Web Docs: Trabalhando com JSON (<a href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON">https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Objects/JSON</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao JSON (<a href="https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff">https://juliocarneiro.medium.com/introdu%C3%A7%C3%A3o-ao-json-7825b1a550ff</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: O que é JSON e como criar um objeto (<a href="https://www.youtube.com/watch?v=oCY5YEEjlwE">https://www.youtube.com/watch?v=oCY5YEEjlwE</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é JSON? (<a href="https://www.alura.com.br/artigos/o-que-e-json">https://www.alura.com.br/artigos/o-que-e-json</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso MySQL e JSON: persistindo JSON de maneira eficiente (<a href="https://www.alura.com.br/curso-online-mysql-json-persistencia">https://www.alura.com.br/curso-online-mysql-json-persistencia</a>)</li>
+</ul>
+<h3>Linha de comando - Fundamentos:</h3>
 <ul><li>CLI é um programa de linha de comando que aceita entradas de texto para executar funções do sistema operacional.</li>
 <li>Conhecer os principais comandos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Microsoft Docs: Como usar argumentos de linha de comando para terminal do Windows (<a href="https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows">https://docs.microsoft.com/pt-br/windows/terminal/command-line-arguments?tabs=windows</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estevan Maito: Linha de comando básica - 8 comandos mais frequentes - WINDOWS e LINUX (<a href="https://www.youtube.com/watch?v=rKBqXJZocYk">https://www.youtube.com/watch?v=rKBqXJZocYk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ninja do Linux: Comandos básicos da linha de comando do Linux (<a href="https://www.youtube.com/watch?v=rs_yshFGu8E">https://www.youtube.com/watch?v=rs_yshFGu8E</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> CMD: dicas para trabalhar no prompt do Windows (<a href="https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows">https://www.alura.com.br/artigos/cmd-dicas-para-trabalhar-no-prompt-do-windows</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como configurar variáveis de ambiente no Windows, Linux e macOS (<a href="https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos">https://www.alura.com.br/artigos/configurar-variaveis-ambiente-windows-linux-macos</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd">https://www.alura.com.br/conteudo/windows-prompt-utilizando-cmd</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Windows Prompt: Trabalhando na linha de comando (<a href="https://www.alura.com.br/curso-online-prompt">https://www.alura.com.br/curso-online-prompt</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Terminal: aprenda comandos para executar tarefas (<a href="https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas">https://cursos.alura.com.br/course/terminal-comandos-executar-tarefas</a>)</li>
+</ul>
+<h3>Cloud - Fundamentos:</h3>
 <ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
 <li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
 <li>Conhecer os maiores provedores de cloud</li>
 <li>Especializar-se em algum provedor</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>YARN</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Computação em nuvem (<a href="https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9">https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é cloud? (<a href="https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6">https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabs Ferreira: Por que investir e estudar cloud? (<a href="https://www.youtube.com/watch?v=Z45BTNeZ1l0">https://www.youtube.com/watch?v=Z45BTNeZ1l0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Andre Iacono: O que é MICROSOFT AZURE? Qual Certificação começar em 2022? (<a href="https://www.youtube.com/watch?v=f-oVzkvMwnE">https://www.youtube.com/watch?v=f-oVzkvMwnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS: O que é a AWS? (<a href="https://www.youtube.com/watch?v=8JI9wQ8sUdQ">https://www.youtube.com/watch?v=8JI9wQ8sUdQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Google Cloud e por que aprender? (<a href="https://www.youtube.com/shorts/Lzq3f1DHWcI">https://www.youtube.com/shorts/Lzq3f1DHWcI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS vs Google Cloud vs Azure: o que cada um tem de melhor? (<a href="https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7">https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Azure (A plataforma Cloud da Microsoft) (<a href="https://www.youtube.com/watch?v=YgE-sZaCuJ0">https://www.youtube.com/watch?v=YgE-sZaCuJ0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mundo da Cloud: AWS do Zero ao Expert (<a href="https://www.youtube.com/watch?v=HiBCv9DolxI&list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz">https://www.youtube.com/watch?v=HiBCv9DolxI&amp;list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Fundamentos Cloud – Hipsters Ponto Tech #348 (<a href="https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/">https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Uma jornada Para o Cloud - Hipsters Deep Dive 005 (<a href="https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100">https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Histórias do Cloud - Hipsters 04 (<a href="https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582">https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Heroku, Vercel e outras opções de cloud como plataforma (<a href="https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma">https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações (<a href="https://www.alura.com.br/artigos/aws">https://www.alura.com.br/artigos/aws</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Terraform: criando máquinas na Azure (<a href="https://www.alura.com.br/artigos/terraform-maquinas-na-azure">https://www.alura.com.br/artigos/terraform-maquinas-na-azure</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é cloud? (<a href="https://www.YOUTUBE.com/watch?v=wev9fMrg-TU">https://www.YOUTUBE.com/watch?v=wev9fMrg-TU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: AWS, Google Cloud e Azure: Por onde começar? | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&t=300s">https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Certificação em Cloud: Azure, AWS, Google | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&t=290s">https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&amp;t=290s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Amazon Web Services (<a href="https://cursos.alura.com.br/formacao-amazon-web-services">https://cursos.alura.com.br/formacao-amazon-web-services</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AWS Certified Cloud Practitioner (<a href="https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner">https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Containers com AWS ECS e EKS (<a href="https://cursos.alura.com.br/formacao-containers-aws">https://cursos.alura.com.br/formacao-containers-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Cloud Platform (<a href="https://cursos.alura.com.br/formacao-google-cloud">https://cursos.alura.com.br/formacao-google-cloud</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Azure (<a href="https://cursos.alura.com.br/formacao-conhecendo-azure">https://cursos.alura.com.br/formacao-conhecendo-azure</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AZ-900: Microsoft Azure Fundamentals (<a href="https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals">https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals</a>)</li>
+</ul>
+<h3>YARN:</h3>
 <ul><li>Yarn é um gerenciador de pacotes para seu código. Ele permite que você use e compartilhe código com outros desenvolvedores. O código é compartilhado por meio de algo chamado pacote (às vezes chamado de módulo). Um pacote contém todo o código que está sendo compartilhado, bem como um arquivo package.json que descreve o pacote.</li>
 <li>Gerenciar pacotes</li>
 <li>Gerenciar dependências</li>
 <li>Instalação de pacotes offline</li>
 <li>Comandos</li>
 <li>Arquivo yarn.lock</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> YARN: Documentação (inglês) (<a href="https://classic.yarnpkg.com/en/docs">https://classic.yarnpkg.com/en/docs</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Porque você deveria dar uma chance ao Yarn? (<a href="https://rafaell-lycan.com/2017/porque-voce-deveria-dar-uma-chance-yarn/">https://rafaell-lycan.com/2017/porque-voce-deveria-dar-uma-chance-yarn/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Lucas Santos: Yarn VS NPM, qual é melhor? (<a href="https://www.youtube.com/watch?v=vxES6rbrd-U">https://www.youtube.com/watch?v=vxES6rbrd-U</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> NPM vs Yarn (<a href="https://www.alura.com.br/artigos/npm-vs-yarn">https://www.alura.com.br/artigos/npm-vs-yarn</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: UX e Design</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design System</strong>:</li>
+<h3>Design System:</h3>
 <ul><li>Um Design System (sistema de design) é uma coleção de componentes reutilizáveis, guiados por padrões claros, que podem ser colocados juntos para construir aplicações.</li>
 <li>Criar e manter bibliotecas que serão consumidas e usadas como padrão para a construção de um projeto</li>
 <li>Design tokens</li>
@@ -456,16 +1223,90 @@
 <li>Construção de componentes</li>
 <li>Microinterações</li>
 <li>Documentação</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Figma - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design System: o que é e quais os benefícios? (<a href="https://medium.com/ipnet-growth-partner/design-system-o-que-e-438773dd811">https://medium.com/ipnet-growth-partner/design-system-o-que-e-438773dd811</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Afinal, o que é Design System? (<a href="https://brasil.uxdesign.cc/afinal-o-que-%C3%A9-design-system-448c257b0021">https://brasil.uxdesign.cc/afinal-o-que-%C3%A9-design-system-448c257b0021</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que são Design Tokens (<a href="https://medium.com/pretux/design-tokens-112b2ee11ddf">https://medium.com/pretux/design-tokens-112b2ee11ddf</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Caio Gonzalez: O que é Design System? / Guia para começar o seu próprio Design System (<a href="https://www.youtube.com/watch?v=ajqbXpFVaAw">https://www.youtube.com/watch?v=ajqbXpFVaAw</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Design System? (<a href="https://www.alura.com.br/artigos/o-que-e-design-system">https://www.alura.com.br/artigos/o-que-e-design-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Systems: exemplos práticos (<a href="https://www.alura.com.br/artigos/design-systems-exemplos-praticos">https://www.alura.com.br/artigos/design-systems-exemplos-praticos</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design System &amp; Style Guide (<a href="https://www.youtube.com/watch?v=rSLvpOqC5wQ">https://www.youtube.com/watch?v=rSLvpOqC5wQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Design Systems (com Charles Assunção) (<a href="https://www.youtube.com/watch?v=MLGFctEtmYQ">https://www.youtube.com/watch?v=MLGFctEtmYQ</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Design Systems - Hipsters 170 (<a href="https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399">https://www.alura.com.br/podcast/hipsterstech-design-systems-hipsters-170-a399</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: Design System – Layers ponto tech 36 (<a href="https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056">https://www.alura.com.br/podcast/layerstech-design-system-layers-ponto-tech-36-a1056</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: definindo estilos e tokens (<a href="https://cursos.alura.com.br/course/design-system-definindo-estilos-tokens">https://cursos.alura.com.br/course/design-system-definindo-estilos-tokens</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: projetando e construindo componentes (<a href="https://cursos.alura.com.br/course/design-system-projetando-construindo-componentes">https://cursos.alura.com.br/course/design-system-projetando-construindo-componentes</a>)</li>
+<li><code data-kind="curso">Curso</code> Design System: documentando um design system (<a href="https://cursos.alura.com.br/course/design-system-documentando-design-system">https://cursos.alura.com.br/course/design-system-documentando-design-system</a>)</li>
+<li><code data-kind="desafio">Desafio</code> Experimente o que é ser um(a) profissional de Ux (<a href="https://www.alura.com.br/challenges/ux-4">https://www.alura.com.br/challenges/ux-4</a>)</li>
+</ul>
+<h3>Figma - Fundamentos:</h3>
 <ul><li>Figma é uma aplicação web colaborativa para design de interfaces. O conjunto de recursos do Figma se concentra na interface do usuário e no design da experiência do usuário, com ênfase na colaboração em tempo real, utilizando uma variedade de editores de gráficos vetoriais e ferramentas de prototipagem.</li>
 <li>Criar layouts de páginas e componentes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Componentes de design</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Figma Básico - Primeiros passos com Figma (<a href="https://www.figma.com/community/file/1190593276621265988">https://www.figma.com/community/file/1190593276621265988</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é o Figma e por que usar ele? (<a href="https://medium.com/nerdzao/o-que-%C3%A9-o-figma-e-por-que-usar-ele-a71fbf1dbdd8">https://medium.com/nerdzao/o-que-%C3%A9-o-figma-e-por-que-usar-ele-a71fbf1dbdd8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda o que é e como usar o Figma para criar designs (<a href="https://blog.b2bstack.com.br/figma/">https://blog.b2bstack.com.br/figma/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Marco Bruno: Como usar o Figma! (<a href="https://www.youtube.com/watch?v=qoE-2YFeW-Q">https://www.youtube.com/watch?v=qoE-2YFeW-Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 4 Exemplos de Componentes interativos no Figma (<a href="https://www.youtube.com/watch?v=mGL3jrY-OBc">https://www.youtube.com/watch?v=mGL3jrY-OBc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Figma: o que é a ferramenta, Design e uso (<a href="https://www.alura.com.br/artigos/figma">https://www.alura.com.br/artigos/figma</a>)</li>
+<li><code data-kind="site">Site</code> Como Front-End utiliza o Figma - Alura+ (<a href="https://cursos.alura.com.br/extra/alura-mais/como-front-end-utiliza-o-figma-c858">https://cursos.alura.com.br/extra/alura-mais/como-front-end-utiliza-o-figma-c858</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Top 5 plugins no Figma para trabalhar com Design System (<a href="https://www.alura.com.br/artigos/top-5-plugins-figma-trabalhar-com-design-system">https://www.alura.com.br/artigos/top-5-plugins-figma-trabalhar-com-design-system</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 plugins essenciais que você precisa ter no seu Figma (<a href="https://www.alura.com.br/artigos/5-plugins-essenciais-do-figma">https://www.alura.com.br/artigos/5-plugins-essenciais-do-figma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 10 truques incríveis e pouco conhecidos no Figma (<a href="https://www.alura.com.br/artigos/10-truques-incriveis-pouco-conhecidos-figma">https://www.alura.com.br/artigos/10-truques-incriveis-pouco-conhecidos-figma</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Layers.tech: Figma do Design ao Código 03 (<a href="https://www.alura.com.br/podcast/layerstech-figma-do-design-ao-codigo-layers-ponto-tech-03-a726">https://www.alura.com.br/podcast/layerstech-figma-do-design-ao-codigo-layers-ponto-tech-03-a726</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como fazer estilos locais mais rapidamente no Figma? (<a href="https://www.youtube.com/watch?v=fCHd2_lAcQQ">https://www.youtube.com/watch?v=fCHd2_lAcQQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Figma (<a href="https://www.alura.com.br/formacao-figma">https://www.alura.com.br/formacao-figma</a>)</li>
+</ul>
+<h3>Componentes de design:</h3>
 <ul><li>Conhecer os componentes descrevem um layout ou interface</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Sistemas de cores</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Componentes Principais UI (<a href="https://medium.com/@prikuwer/componentes-principais-ui-8b538a3aaaa5">https://medium.com/@prikuwer/componentes-principais-ui-8b538a3aaaa5</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Compartilhando CSS em projetos do Nx (<a href="https://www.alura.com.br/artigos/compartilhando-css-projetos-nx">https://www.alura.com.br/artigos/compartilhando-css-projetos-nx</a>)</li>
+<li><code data-kind="youtube">YouTube</code> danielmacedoco: UI Design e Design System - Visão geral e prática sobre alguns componentes (<a href="https://www.youtube.com/watch?v=VpgQNeSItpA">https://www.youtube.com/watch?v=VpgQNeSItpA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 4 Exemplos de Componentes interativos no Figma (<a href="https://www.youtube.com/watch?v=mGL3jrY-OBc">https://www.youtube.com/watch?v=mGL3jrY-OBc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso Design System: criando componentes e documentando (<a href="https://www.alura.com.br/curso-online-design-system-componentes-documentando">https://www.alura.com.br/curso-online-design-system-componentes-documentando</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Figma: conhecendo componentes da interface (<a href="https://www.alura.com.br/curso-online-figma-conhecendo-componentes-interface">https://www.alura.com.br/curso-online-figma-conhecendo-componentes-interface</a>)</li>
+</ul>
+<h3>Sistemas de cores:</h3>
 <ul><li>Definir uma paleta de cores que faça sentido para determinada interface</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Como usar fontes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Cores em UI: Um Guia Rápido Para Usar em Seus Projetos (<a href="https://medium.com/aela/cores-em-ui-um-guia-r%C3%A1pido-para-usar-em-seus-projetos-31ccffe3e16b">https://medium.com/aela/cores-em-ui-um-guia-r%C3%A1pido-para-usar-em-seus-projetos-31ccffe3e16b</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A Psicologia das cores e sua relação com o UX Design (<a href="https://brasil.uxdesign.cc/a-psicologia-das-cores-e-sua-rela%C3%A7%C3%A3o-com-o-ux-design-af02460639cd">https://brasil.uxdesign.cc/a-psicologia-das-cores-e-sua-rela%C3%A7%C3%A3o-com-o-ux-design-af02460639cd</a>)</li>
+<li><code data-kind="youtube">YouTube</code> kacio.design: Aplicação de Cores - Princípios do UI (<a href="https://www.youtube.com/watch?v=C_VhzEyqT6U">https://www.youtube.com/watch?v=C_VhzEyqT6U</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso Cores para Designers: escolhendo e trabalhando com cores em um projeto (<a href="https://www.alura.com.br/curso-online-cores-para-seu-projeto">https://www.alura.com.br/curso-online-cores-para-seu-projeto</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Cores: sistemas básicos e paletas (<a href="https://www.alura.com.br/conteudo/fundamentos-da-cor">https://www.alura.com.br/conteudo/fundamentos-da-cor</a>)</li>
+<li><code data-kind="curso">Curso</code> Cores: sistemas básicos e paletas (<a href="https://www.alura.com.br/curso-online-fundamentos-da-cor">https://www.alura.com.br/curso-online-fundamentos-da-cor</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design editorial: criação de materiais gráficos (<a href="https://www.alura.com.br/curso-online-design-editorial">https://www.alura.com.br/curso-online-design-editorial</a>)</li>
+</ul>
+<h3>Como usar fontes:</h3>
 <ul><li>Escolher a fonte mais adequada para determinado projeto</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Você sabe usar tipografia em UI Design? (<a href="https://medium.com/ui-lab-school/voc%C3%AA-sabe-usar-tipografia-em-ui-design-9ce4ccdbab43">https://medium.com/ui-lab-school/voc%C3%AA-sabe-usar-tipografia-em-ui-design-9ce4ccdbab43</a>)</li>
+<li><code data-kind="artigo">Artigo</code> As 20 fontes mais usadas pelos designers gráficos (<a href="https://apenasumchico.medium.com/as-20-fontes-mais-populares-de-todos-os-tempos-38a6c121dfb">https://apenasumchico.medium.com/as-20-fontes-mais-populares-de-todos-os-tempos-38a6c121dfb</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Usando ícones SVG como fontes com o IcoMoon (<a href="https://dev.to/sucodelarangela/usando-icones-svg-como-fontes-com-o-icomoon-563e">https://dev.to/sucodelarangela/usando-icones-svg-como-fontes-com-o-icomoon-563e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Nadine Fronza: Como escolher a melhor fonte para seu projeto (<a href="https://www.youtube.com/watch?v=MSKPUtIdadI">https://www.youtube.com/watch?v=MSKPUtIdadI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Thiago Abreu: Como Escolher Fontes para um Trabalho de Design (<a href="https://www.youtube.com/watch?v=l-TrNbZi-aU">https://www.youtube.com/watch?v=l-TrNbZi-aU</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 10 tipografias gratuitas para um design incrível (<a href="https://www.alura.com.br/artigos/10-tipografias-gratuitas-design-incrivel">https://www.alura.com.br/artigos/10-tipografias-gratuitas-design-incrivel</a>)</li>
+<li><code data-kind="site">Site</code> Tipografia para Web (<a href="https://tipografiaparaweb.netlify.app/">https://tipografiaparaweb.netlify.app/</a>)</li>
+<li><code data-kind="site">Site</code> Primeiras aulas do curso Tipografia: conhecendo o que há por trás dos tipos (<a href="https://www.alura.com.br/conteudo/tipografia-conceito">https://www.alura.com.br/conteudo/tipografia-conceito</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Tipografia: conhecendo o que há por trás dos tipos (<a href="https://www.alura.com.br/curso-online-tipografia-conceito">https://www.alura.com.br/curso-online-tipografia-conceito</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Design editorial: criação de materiais gráficos (<a href="https://www.alura.com.br/curso-online-design-editorial">https://www.alura.com.br/curso-online-design-editorial</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

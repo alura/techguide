@@ -71,11 +71,61 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +151,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +228,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,90 +248,229 @@
   </div>
 
   <div class="content">
-    <h1>Produção de Vídeo</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos essenciais de produção de vídeo</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Conceitos essenciais de produção de vídeo:</h3>
 <ul><li>Compreender os princípios fundamentais da linguagem audiovisual para criar vídeos que comuniquem de forma eficaz e envolvente.</li>
 <li>Explorar as diferentes áreas da produção de vídeo, da pré-produção até a pós-produção, para entender as etapas do processo criativo.</li>
 <li>Entender os formatos de arquivo e aspectos técnicos da imagem para garantir a qualidade e a compatibilidade dos vídeos produzidos.</li>
 <li>Desenvolver habilidades práticas para produzir vídeos, aplicando técnicas diversas que aprimoram a narrativa visual.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos essenciais de produção de vídeo</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Produção de vídeo: entenda como funciona todo o processo (<a href="https://www.impulsofilmes.com.br/producao-de-video-entenda-como-funciona-todo-o-processo/">https://www.impulsofilmes.com.br/producao-de-video-entenda-como-funciona-todo-o-processo/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Uma visão geral da produção de vídeo (<a href="https://www.adobe.com/br/creativecloud/video/discover/video-production.html">https://www.adobe.com/br/creativecloud/video/discover/video-production.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 etapas da produção de vídeos que poucos conhecem (<a href="https://42filmes.com.br/2023/06/14/5-etapas-da-producao-de-videos-que-poucos-conhecem/">https://42filmes.com.br/2023/06/14/5-etapas-da-producao-de-videos-que-poucos-conhecem/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Produção de vídeos: entenda os conceitos essenciais (<a href="https://cursos.alura.com.br/course/producao-videos-conceitos-essenciais">https://cursos.alura.com.br/course/producao-videos-conceitos-essenciais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Programa para edição de vídeo: 10 opções para quem está começando (<a href="https://www.alura.com.br/artigos/programa-para-edicao-de-video-10-opcoes-para-quem-esta-comecando">https://www.alura.com.br/artigos/programa-para-edicao-de-video-10-opcoes-para-quem-esta-comecando</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual o melhor arquivo de audio para meus vídeos? (<a href="https://www.alura.com.br/artigos/qual-o-melhor-arquivo-de-audio-pro-meu-video">https://www.alura.com.br/artigos/qual-o-melhor-arquivo-de-audio-pro-meu-video</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como escolher um celular para produção de vídeos (<a href="https://www.alura.com.br/artigos/como-escolher-celular-producao-de-videos">https://www.alura.com.br/artigos/como-escolher-celular-producao-de-videos</a>)</li>
+</ul>
+<h3>Conceitos essenciais de produção de vídeo:</h3>
 <ul><li>Aprender a utilizar ferramentas básicas de edição, como o Premiere Pro, para cortar, organizar e montar vídeos seguindo um roteiro definido.</li>
 <li>Desenvolver a habilidade de criar vídeos coerentes e fluentes, dominando o timing e o ritmo da edição para envolver o espectador.</li>
 <li>Experimentar a edição de diferentes tipos de conteúdo, como matérias jornalísticas e comerciais, para adaptar o estilo de edição às necessidades do projeto.</li>
 <li>Elevar a qualidade dos vídeos produzidos, aplicando técnicas de edição que despertem o interesse e o desejo de consumo nos espectadores, preparando-se para desafios de edição em nível intermediário.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Criando vídeo institucional</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> VOCÊ SABE COMO ACONTECE O FLUXO DE PRODUÇÃO DE UM VÍDEO? (<a href="https://lzfilms.com.br/voce-sabe-como-acontece-o-fluxo-de-producao-de-um-video-2/">https://lzfilms.com.br/voce-sabe-como-acontece-o-fluxo-de-producao-de-um-video-2/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Dicas para editar vídeos no ritmo da música (<a href="https://olivetreefilms.com/br/blog/dicas-para-editar-videos-no-ritmo-da-musica/">https://olivetreefilms.com/br/blog/dicas-para-editar-videos-no-ritmo-da-musica/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Premiere Pro: edição com foco em timing e ritmo (<a href="https://cursos.alura.com.br/course/premiere-pro-edicao-foco-timing-ritmo">https://cursos.alura.com.br/course/premiere-pro-edicao-foco-timing-ritmo</a>)</li>
+<li><code data-kind="curso">Curso</code> Premiere Pro: editando um vídeo com roteiro (<a href="https://cursos.alura.com.br/course/premiere-pro-editando-video-roteiro">https://cursos.alura.com.br/course/premiere-pro-editando-video-roteiro</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Ritmo na edição – Layers ponto tech #04 (<a href="https://www.alura.com.br/artigos/layers-ponto-tech-ep-04">https://www.alura.com.br/artigos/layers-ponto-tech-ep-04</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Premiere: ritmo de edição e manipulando emoções (<a href="https://www.alura.com.br/conteudo/adobe-premiere-ritmo-de-edicao-manipulando-emocoes?srsltid=AfmBOorIiHCnmy6Y5pVg2ngupAXBifFWMeABQcAmwJ206VftuwpJRnyf">https://www.alura.com.br/conteudo/adobe-premiere-ritmo-de-edicao-manipulando-emocoes?srsltid=AfmBOorIiHCnmy6Y5pVg2ngupAXBifFWMeABQcAmwJ206VftuwpJRnyf</a>)</li>
+</ul>
+<h3>Criando vídeo institucional:</h3>
 <ul><li>Aprender a estruturar e organizar um projeto de vídeo institucional desde a concepção até a renderização final, garantindo um fluxo de trabalho eficiente.</li>
 <li>Dominar técnicas de edição específicas para vídeos institucionais, incluindo storytelling, transições, e tratamento de áudio, para criar uma comunicação clara e impactante.</li>
 <li>Aplicar efeitos visuais e ajustar cores de forma a manter a consistência visual e transmitir a mensagem da marca de maneira eficaz.</li>
 <li>Desenvolver habilidades práticas para produzir vídeos institucionais profissionais utilizando bancos de vídeo e outros recursos acessíveis, otimizando a produção para diferentes orçamentos e necessidades empresariais.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 19 exemplos incríveis de Vídeos Institucionais (<a href="https://www.matildefilmes.com.br/exemplos-incriveis-de-videos-institucionais/">https://www.matildefilmes.com.br/exemplos-incriveis-de-videos-institucionais/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 10 DICAS PARA FAZER UM BOM VÍDEO INSTITUCIONAL (<a href="https://www.youtube.com/watch?v=RPMW495c7rI">https://www.youtube.com/watch?v=RPMW495c7rI</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Edição de vídeo: criando um vídeo institucional (<a href="https://cursos.alura.com.br/course/edicao-video-criando-video-institucional">https://cursos.alura.com.br/course/edicao-video-criando-video-institucional</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Ritmo na edição – Layers ponto tech #04 (<a href="https://www.alura.com.br/artigos/layers-ponto-tech-ep-04">https://www.alura.com.br/artigos/layers-ponto-tech-ep-04</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Efeitos de vídeo</strong>:</li>
+<h3>Efeitos de vídeo:</h3>
 <ul><li>Desenvolver habilidades avançadas na criação e aplicação de efeitos de vídeo utilizando as ferramentas do Premiere Pro, para melhorar a narrativa visual dos projetos.</li>
 <li>Entender como integrar VFX (efeitos visuais) de maneira eficiente e criativa, alinhando os efeitos com o contexto e o objetivo do projeto de vídeo.</li>
 <li>Explorar técnicas de mesclagem de efeitos e transições para produzir vídeos mais dinâmicos e visualmente atraentes, elevando a qualidade da produção.</li>
 <li>Aprender a utilizar fluxos de trabalho que incorporem diferentes ferramentas e plugins, permitindo uma edição mais sofisticada e personalizada.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Efeitos de som e música</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Os 5 Principais Efeitos de Edição Que Tornarão Seu Vídeo Melhor! - Como fazer vídeos no Movavi? (<a href="https://www.youtube.com/watch?v=toE2WcPs-fs">https://www.youtube.com/watch?v=toE2WcPs-fs</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 10 Special Effects You Could Try in Videos (<a href="https://filmora.wondershare.com/video-effects/special-effects.html?gad_source=1&gclid=Cj0KCQjwz7C2BhDkARIsAA_SZKYwF9W1KzmSoezspRQRTZuF2obwoVM-r7sXC7sisemmDBL36AvgYrIaAsiVEALw_wcB">https://filmora.wondershare.com/video-effects/special-effects.html?gad_source=1&amp;gclid=Cj0KCQjwz7C2BhDkARIsAA_SZKYwF9W1KzmSoezspRQRTZuF2obwoVM-r7sXC7sisemmDBL36AvgYrIaAsiVEALw_wcB</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Premiere Pro: como lidar e criar efeitos de vídeo (<a href="https://cursos.alura.com.br/course/premiere-pro-lidar-criar-efeitos-video">https://cursos.alura.com.br/course/premiere-pro-lidar-criar-efeitos-video</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A colorização na pós-produção de vídeos (<a href="https://www.alura.com.br/artigos/a-colorizacao-na-pos-producao-de-videos">https://www.alura.com.br/artigos/a-colorizacao-na-pos-producao-de-videos</a>)</li>
+</ul>
+<h3>Efeitos de som e música:</h3>
 <ul><li>Aprender a selecionar e integrar efeitos sonoros que destaquem momentos-chave do vídeo, intensificando o impacto emocional e narrativo.</li>
 <li>Desenvolver habilidades para escolher e ajustar músicas que complementem e reforcem a atmosfera e o ritmo do vídeo.</li>
 <li>Explorar técnicas para manipular sons e músicas de forma a despertar sensações específicas no público, alinhando a trilha sonora com a intenção do conteúdo.</li>
 <li>Compreender como realizar cortes precisos para sincronizar a música e os efeitos sonoros com as imagens, criando uma experiência audiovisual coesa e envolvente..</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Vídeos para web</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Os 5 Principais Efeitos de Edição Que Tornarão Seu Vídeo Melhor! - Como fazer vídeos no Movavi? (<a href="https://www.youtube.com/watch?v=toE2WcPs-fs">https://www.youtube.com/watch?v=toE2WcPs-fs</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 Sites de Músicas (gratuitas) para Vídeos (<a href="https://videohero.com.br/5-sites-de-musicas-gratuitas-para-videos">https://videohero.com.br/5-sites-de-musicas-gratuitas-para-videos</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Premiere: ritmo de edição e manipulando emoções (<a href="https://cursos.alura.com.br/course/adobe-premiere-ritmo-de-edicao-manipulando-emocoes">https://cursos.alura.com.br/course/adobe-premiere-ritmo-de-edicao-manipulando-emocoes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual o melhor arquivo de audio para meus vídeos? (<a href="https://www.alura.com.br/artigos/qual-o-melhor-arquivo-de-audio-pro-meu-video">https://www.alura.com.br/artigos/qual-o-melhor-arquivo-de-audio-pro-meu-video</a>)</li>
+</ul>
+<h3>Vídeos para web:</h3>
 <ul><li>Aprender a otimizar a produção de vídeos para a web, utilizando fluxos de trabalho que acelerem o processo de edição e publicação.</li>
 <li>Dominar a aplicação de textos animados e gráficos essenciais para criar vídeos mais dinâmicos e envolventes, alinhados ao estilo das plataformas online.</li>
 <li>Selecionar e aplicar efeitos visuais que aprimorem a narrativa e sejam adequados ao contexto específico de vídeos para a web, garantindo melhor engajamento.</li>
 <li>Compreender os aspectos técnicos e estéticos da produção de vídeos para web, desde a pré-produção até a exportação, para assegurar compatibilidade e qualidade em diferentes dispositivos e plataformas digitais.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 4 elementos fundamentais para produzir vídeos para a internet (<a href="https://www.comunique-se.com.br/blog/4-elementos-videos-para-a-internet/">https://www.comunique-se.com.br/blog/4-elementos-videos-para-a-internet/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tudo o que você precisa saber para criar ótimos vídeos no Instagram Reels (<a href="https://business.instagram.com/blog/everything-you-need-to-create-great-reels?locale=pt_BR">https://business.instagram.com/blog/everything-you-need-to-create-great-reels?locale=pt_BR</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Premiere Pro: criando vídeos para web (<a href="https://cursos.alura.com.br/course/premiere-pro-criando-videos-web">https://cursos.alura.com.br/course/premiere-pro-criando-videos-web</a>)</li>
+<li><code data-kind="curso">Curso</code> Criação de conteúdo em vídeo: estratégias e otimizações (<a href="https://cursos.alura.com.br/course/criacao-conteudo-video-estrategias-otimizacoes">https://cursos.alura.com.br/course/criacao-conteudo-video-estrategias-otimizacoes</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como produzir vídeos para o Youtube? #Hipsters.Tube (<a href="https://www.youtube.com/watch?v=Bk3FV5-5xnk">https://www.youtube.com/watch?v=Bk3FV5-5xnk</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Streaming video recording</strong>:</li>
+<h3>Streaming video recording:</h3>
 <ul><li>Aprender a configurar e utilizar o OBS Studio para capturar vídeos de alta qualidade, otimizando a gravação para diferentes tipos de conteúdo, como gameplays, tutoriais e vídeos para redes sociais.</li>
 <li>Compreender a interface do OBS Studio e as configurações essenciais para garantir que a captura de vídeo seja eficiente e que os arquivos sejam compactados de forma adequada.</li>
 <li>Organizar um setup de cenas dentro do OBS Studio para facilitar a gravação e a transição entre diferentes segmentos de conteúdo durante a produção de vídeo.</li>
 <li>Selecionar e configurar os melhores equipamentos de áudio e vídeo, alinhados com as necessidades específicas de produção, para garantir uma gravação profissional e de alta qualidade.</li>
 <li>null</li>
 <li>null</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>OBS Studio</strong>:</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> OBS Studio: configurando sua gravação (<a href="https://cursos.alura.com.br/course/obs-studio-configurando-primeira-gravacao">https://cursos.alura.com.br/course/obs-studio-configurando-primeira-gravacao</a>)</li>
+<li><code data-kind="conteúdo">Conteúdo</code> Como converter arquivos mkv para mp4 em massa com o OBS (<a href="https://cursos.alura.com.br/extra/alura-mais/como-converter-arquivos-mkv-para-mp4-em-massa-com-o-obs-c1338">https://cursos.alura.com.br/extra/alura-mais/como-converter-arquivos-mkv-para-mp4-em-massa-com-o-obs-c1338</a>)</li>
+<li><code data-kind="conteúdo">Conteúdo</code> Live com múltiplos participantes usando Obs e Skype (<a href="https://cursos.alura.com.br/extra/alura-mais/live-com-multiplos-participantes-usando-obs-e-skype-c1336">https://cursos.alura.com.br/extra/alura-mais/live-com-multiplos-participantes-usando-obs-e-skype-c1336</a>)</li>
+</ul>
+<h3>OBS Studio:</h3>
 <ul><li>Aprender a configurar e personalizar a interface do OBS Studio para realizar transmissões ao vivo de alta qualidade, otimizando cada etapa do processo de streaming.</li>
 <li>Desenvolver habilidades para organizar setups de cena e transições dinâmicas, garantindo uma apresentação fluida e profissional durante as transmissões ao vivo.</li>
 <li>Explorar e implementar recursos de engajamento do OBS Studio, como integração de chat, widgets interativos e bots de moderação, para aumentar a interação e a conexão com o público durante o streaming.</li>
 <li>Compreender as melhores práticas para o uso de ferramentas adicionais, como Chroma Key e gravação em paralelo, para melhorar a qualidade visual e a flexibilidade das transmissões ao vivo.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Streamlabs</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> OBS Studio (<a href="https://obsproject.com/pt-br">https://obsproject.com/pt-br</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Download do OBS Studio para transmitir jogos ao vivo do Steam, GOG e mais (<a href="https://www.techtudo.com.br/tudo-sobre/open-broadcaster-software/">https://www.techtudo.com.br/tudo-sobre/open-broadcaster-software/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> OBS Studio: configurando seu stream (<a href="https://cursos.alura.com.br/course/obs-studio-configurando-primeiro-stream">https://cursos.alura.com.br/course/obs-studio-configurando-primeiro-stream</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Corte de chroma key ao vivo com OBS (<a href="https://cursos.alura.com.br/extra/alura-mais/corte-de-chroma-key-ao-vivo-com-obs-c1337">https://cursos.alura.com.br/extra/alura-mais/corte-de-chroma-key-ao-vivo-com-obs-c1337</a>)</li>
+</ul>
+<h3>Streamlabs:</h3>
 <ul><li>Aprender a configurar e utilizar o Streamlabs para gravação de vídeos e streaming, aproveitando sua interface intuitiva e recursos integrados para otimizar a produção de conteúdo.</li>
 <li>Dominar a criação e a organização de cenas no Streamlabs, utilizando widgets práticos e filtros para melhorar a qualidade visual e a interatividade das transmissões ao vivo.</li>
 <li>Implementar processos de moderação automática e ferramentas de engajamento, como alertas e overlays, para enriquecer a experiência do espectador e manter uma transmissão dinâmica e envolvente.</li>
 <li>Compreender as melhores práticas para personalizar e estilizar o conteúdo no Streamlabs, garantindo uma apresentação profissional e bem organizada, adequada às diferentes plataformas de streaming..</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Unleash your live (<a href="https://www.youtube.com/watch?v=j2-ZUvzoDSI">https://www.youtube.com/watch?v=j2-ZUvzoDSI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> All-in-one suite for live streamers (<a href="https://streamlabs.com/pt-br?srsltid=AfmBOooD-6hQzc48mrtkdvB71gPFDHCGBIgimsn8KkUNLqbYnYFYbj4x">https://streamlabs.com/pt-br?srsltid=AfmBOooD-6hQzc48mrtkdvB71gPFDHCGBIgimsn8KkUNLqbYnYFYbj4x</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Streamlabs: produzindo conteúdo em vídeo (<a href="https://cursos.alura.com.br/course/streamlabs-produzindo-conteudo-video">https://cursos.alura.com.br/course/streamlabs-produzindo-conteudo-video</a>)</li>
+<li><code data-kind="curso">Curso</code> Streamlabs: produzindo uma LiveStream profissional (<a href="https://cursos.alura.com.br/course/streamlabs-configurando-livestream-profissional">https://cursos.alura.com.br/course/streamlabs-configurando-livestream-profissional</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Design para mídias sociais</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design em movimento</strong>:</li>
+<h3>Design em movimento:</h3>
 <ul><li>Dominar as ferramentas e técnicas para criar animações e incorporar movimento nas peças gráficas, tornando o conteúdo mais dinâmico e atraente para mídias sociais.</li>
 <li>Aprender a combinar comunicação visual com Motion Design de forma coerente, garantindo que as animações reforcem a mensagem e captem a atenção do público.</li>
 <li>Entender como equilibrar e destacar informações em uma animação, utilizando princípios de design para guiar a atenção do espectador de maneira eficaz.</li>
 <li>Conhecer os diferentes formatos de vídeos e animações ideais para mídias sociais, garantindo que o conteúdo esteja otimizado para cada plataforma e seu respectivo público-alvo.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Mídias sociais</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Motion Graphics: Um pouco sobre o Design em movimento - Ideia Clara (<a href="https://ideiaclara.com/motion-graphics-um-pouco-sobre-o-design-em-movimento/">https://ideiaclara.com/motion-graphics-um-pouco-sobre-o-design-em-movimento/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Social Media Designer. O que é, o que come, onde vive… (<a href="https://mauriciofaccin.com/blog/social-media-designer-o-que-e-o-que-come-onde-vive/">https://mauriciofaccin.com/blog/social-media-designer-o-que-e-o-que-come-onde-vive/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Mídias sociais: design em movimento com o Canva (<a href="https://cursos.alura.com.br/course/midias-sociais-design-movimento-canva">https://cursos.alura.com.br/course/midias-sociais-design-movimento-canva</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 melhores práticas de design para mídias sociais (<a href="https://www.alura.com.br/artigos/5-melhores-praticas-design-midias-sociais">https://www.alura.com.br/artigos/5-melhores-praticas-design-midias-sociais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 truques de After Effects para iniciantes (<a href="https://www.alura.com.br/artigos/5-truques-de-after-effects-para-iniciantes">https://www.alura.com.br/artigos/5-truques-de-after-effects-para-iniciantes</a>)</li>
+<li><code data-kind="curso">Curso</code> After effects: anime personagens com Duik (<a href="https://cursos.alura.com.br/course/after-effects-anime-personagens-duik">https://cursos.alura.com.br/course/after-effects-anime-personagens-duik</a>)</li>
+</ul>
+<h3>Mídias sociais:</h3>
 <ul><li>Desenvolver estratégias eficazes para mídias sociais, utilizando briefings detalhados e alinhados com os objetivos.</li>
 <li>Compreender as principais funcionalidades e melhores práticas nas 10 maiores plataformas de mídias sociais, para otimizar a presença digital e engajamento do público.</li>
 <li>Explorar técnicas de Real Time Marketing e o uso de chamadas de ação (CTAs) para aumentar a interação e conversão do público nas mídias sociais.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Copywriting</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Qual a frequência ideal de postagem nas redes sociais? Descubra agora mesmo e engaje ainda mais sua audiência! (<a href="https://rockcontent.com/br/blog/frequencia-de-postagem-nas-redes-sociais/">https://rockcontent.com/br/blog/frequencia-de-postagem-nas-redes-sociais/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Instagram: 5 motivos para usar carrosséis como estratégia de conteúdo em 2022 (<a href="https://epocanegocios.globo.com/Empresa/noticia/2022/01/como-sera-o-marketing-de-influencia-em-2022.html">https://epocanegocios.globo.com/Empresa/noticia/2022/01/como-sera-o-marketing-de-influencia-em-2022.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Mídias Sociais: estratégias para engajar o público (<a href="https://cursos.alura.com.br/course/midias-sociais-estrategias-engajar-publico">https://cursos.alura.com.br/course/midias-sociais-estrategias-engajar-publico</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é a profissão de Social Media? (<a href="https://www.alura.com.br/artigos/o-que-e-a-profissao-de-social-media">https://www.alura.com.br/artigos/o-que-e-a-profissao-de-social-media</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como inserir um Call-to-Action nos posts do seu blog (<a href="https://www.alura.com.br/artigos/como-inserir-um-call-to-action-nos-posts-do-seu-blog">https://www.alura.com.br/artigos/como-inserir-um-call-to-action-nos-posts-do-seu-blog</a>)</li>
+</ul>
+<h3>Copywriting:</h3>
 <ul><li>Aprender a criar textos persuasivos que convertem, aplicando técnicas de copywriting voltadas para o engajamento do público em diferentes plataformas de comunicação.</li>
 <li>Desenvolver habilidades para adaptar a linguagem e o tom da marca de acordo com o público-alvo, garantindo que a mensagem seja clara, envolvente e eficaz.</li>
 <li>Explorar estratégias de copywriting específicas para redes sociais, maximizando o impacto e a visibilidade das postagens através de chamadas de ação e conteúdos atraentes.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Copywriting para Redes Sociais (<a href="https://www.hostinger.com.br/tutoriais/copywriting#Copywriting_para_Redes_Sociais">https://www.hostinger.com.br/tutoriais/copywriting#Copywriting_para_Redes_Sociais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que faz um copywriter? Veja como se tornar um (<a href="https://www.serasaexperian.com.br/carreiras/blog-carreiras/o-que-faz-um-copywriter/">https://www.serasaexperian.com.br/carreiras/blog-carreiras/o-que-faz-um-copywriter/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="conteúdo">Conteúdo</code> Copywriting: Redes Sociais (<a href="https://cursos.alura.com.br/extra/alura-mais/copy-para-redes-sociais-c1150">https://cursos.alura.com.br/extra/alura-mais/copy-para-redes-sociais-c1150</a>)</li>
+<li><code data-kind="conteúdo">Conteúdo</code> Copywriting: Principais técnicas (<a href="https://cursos.alura.com.br/extra/alura-mais/principais-tecnicas-de-copywriting-c1149">https://cursos.alura.com.br/extra/alura-mais/principais-tecnicas-de-copywriting-c1149</a>)</li>
+<li><code data-kind="curso">Curso</code> Copywriting: criando textos persuasivos com Inteligência Artificial (<a href="https://cursos.alura.com.br/course/copywriting-criando-textos-persuasivos-inteligencia-artificial">https://cursos.alura.com.br/course/copywriting-criando-textos-persuasivos-inteligencia-artificial</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Diferença entre UX Writing, Copywriting e Content Writing (<a href="https://www.alura.com.br/artigos/diferenca-ux-writing-copywriting-content-writing">https://www.alura.com.br/artigos/diferenca-ux-writing-copywriting-content-writing</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Marketing de conteúdo</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estratégias e técnicas para produtos digitais</strong>:</li>
+<h3>Estratégias e técnicas para produtos digitais:</h3>
 <ul><li>Desenvolver estratégia de marketing de conteúdo que posicione o produto digital como líder de mercado.</li>
 <li>Criar conteúdos que abordem as principais dores e necessidades dos usuários, destacando soluções oferecidas pelo produto digital.</li>
 <li>Utilizar storytelling para criar uma narrativa envolvente em torno do produto digital, conectando-se emocionalmente com o público e fortalecendo a marca.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Proposta de Valor</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Produtos digitais: o que são, por que investir nessa estratégia e como criar e vender os seus? (<a href="https://pagar.me/blog/produtos-digitais/">https://pagar.me/blog/produtos-digitais/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O Guia do Marketing de Conteúdo (<a href="https://br.hubspot.com/blog/marketing/guia-marketing-conteudo">https://br.hubspot.com/blog/marketing/guia-marketing-conteudo</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é o Marketing de Conteúdo (<a href="https://www.alura.com.br/artigos/o-que-e-o-marketing-de-conteudo">https://www.alura.com.br/artigos/o-que-e-o-marketing-de-conteudo</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Marketing de conteúdo: como entregar relevância? (<a href="https://www.alura.com.br/artigos/marketing-de-conteudo-relevante">https://www.alura.com.br/artigos/marketing-de-conteudo-relevante</a>)</li>
+<li><code data-kind="curso">Curso</code> Redação: boas práticas para marketing digital (<a href="https://cursos.alura.com.br/course/redacao-boas-praticas-marketing-digital">https://cursos.alura.com.br/course/redacao-boas-praticas-marketing-digital</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Storytelling: técnicas para uma comunicação eficaz e envolvente (<a href="https://www.alura.com.br/artigos/storytelling-para-comunicacao">https://www.alura.com.br/artigos/storytelling-para-comunicacao</a>)</li>
+</ul>
+<h3>Proposta de Valor:</h3>
 <ul><li>Aprender a desenvolver propostas de valor únicas que diferenciam seus produtos ou serviços no mercado e atendem às necessidades específicas de clientes.</li>
 <li>Utilizar técnicas de pesquisa para obter insights profundos sobre o público-alvo e suas expectativas, garantindo que a proposta de valor seja relevante e convincente.</li>
 <li>Integrar a proposta de valor nas etapas do desenvolvimento de produtos e na comunicação com o cliente, criando uma experiência coesa e focada no valor percebido pelo consumidor.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Marketing Viral</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design Estratégico: construindo uma nova proposta de valor centrada no usuário (<a href="https://inventta.net/design-estrategico-construindo-uma-nova-proposta-de-valor-centrado-no-usuario/">https://inventta.net/design-estrategico-construindo-uma-nova-proposta-de-valor-centrado-no-usuario/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é proposta de valor e como encontrá-la (<a href="https://www.playstudio.io/blog/o-que-e-proposta-de-valor-e-como-encontrar">https://www.playstudio.io/blog/o-que-e-proposta-de-valor-e-como-encontrar</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Design da proposta de valor: transformando produtos e serviços (<a href="https://cursos.alura.com.br/course/design-proposta-valor-produtos-servicos">https://cursos.alura.com.br/course/design-proposta-valor-produtos-servicos</a>)</li>
+</ul>
+<h3>Marketing Viral:</h3>
 <ul><li>Estudar as métricas de marketing viral, aprendendo a identificar possíveis problemas e otimizar continuamente as campanhas para alcançar os melhores resultados em termos de engajamento e conversão.</li>
 <li>Compreender como o Buzz Marketing e outras estratégias virais podem ser utilizadas para ampliar significativamente o alcance de uma marca, gerando um impacto duradouro e positivo.</li>
 <li>Explorar exemplos reais de campanhas virais bem-sucedidas, analisando os elementos que contribuíram para seu sucesso e como esses fatores podem ser replicados em diferentes contextos.</li>
 <li>Identificar e trabalhar com influenciadores-chave e comunidades online para criar uma base sólida de defensores da marca, maximizando a propagação das mensagens de marketing de forma orgânica.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Marketing Viral: o que é, quais os benefícios da estratégia e como viralizar sua campanha? (<a href="https://pagar.me/blog/marketing-viral/">https://pagar.me/blog/marketing-viral/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é marketing viral? Veja o conceito, como fazer e exemplos (<a href="https://www.remessaonline.com.br/blog/marketing-viral/">https://www.remessaonline.com.br/blog/marketing-viral/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Buzz marketing: o que é, vantagens e como usar essa estratégia (<a href="https://www.cursospm3.com.br/blog/buzz-marketing/">https://www.cursospm3.com.br/blog/buzz-marketing/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> Marketing Viral: Os elementos que podem promover a sua ação digital (<a href="https://cursos.alura.com.br/course/marketing-viral-elementos-promover-acao-digital">https://cursos.alura.com.br/course/marketing-viral-elementos-promover-acao-digital</a>)</li>
+</ul>
+<h3>Roadmap:</h3>
 <ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
 <li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
 <li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
@@ -301,7 +479,16 @@
 <li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
 <li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
 <li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Glossário - Roadmap (<a href="https://www.cursospm3.com.br/glossario/roadmap/">https://www.cursospm3.com.br/glossario/roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conheça o roadmap: a ferramenta que guia a estratégia da sua empresa (<a href="https://blog.runrun.it/o-que-e-roadmap/">https://blog.runrun.it/o-que-e-roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Roadmap (<a href="https://miro.com/pt/agile/o-que-e-roadmap/">https://miro.com/pt/agile/o-que-e-roadmap/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:**</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Roadmap de Produtos: O que é e como criar um? (<a href="https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos">https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Roadmap: como criar e manter o mapa de produto (<a href="https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto">https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

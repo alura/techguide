@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,78 +249,233 @@
   </div>
 
   <div class="content">
-    <h1>Edição de Vídeo</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Introdução ao Áudiovisual</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Introdução ao Áudiovisual:</h3>
 <ul><li>Compreender os elementos fundamentais do audiovisual, incluindo resolução e taxa de quadros.</li>
 <li>Aprender sobre a história e evolução do cinema e vídeo.</li>
 <li>Explorar o impacto de áudio e vídeo na criação de conteúdo envolvente.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição e Ritmo</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Definition - codec (<a href="https://www.techtarget.com/searchunifiedcommunications/definition/codec">https://www.techtarget.com/searchunifiedcommunications/definition/codec</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Understanding Video Resolutions and Aspect Ratios (<a href="https://www.venturevideos.com/insight/understanding-video-resolutions-and-aspect-ratios">https://www.venturevideos.com/insight/understanding-video-resolutions-and-aspect-ratios</a>)</li>
+<li><code data-kind="artigo">Artigo</code> FRAMES DE VÍDEO. O que são? (<a href="https://www.piccionefilms.com/post/frames-de-v%C3%ADdeo-o-que-s%C3%A3o">https://www.piccionefilms.com/post/frames-de-v%C3%ADdeo-o-que-s%C3%A3o</a>)</li>
+<li><code data-kind="youtube">YouTube</code> como é trabalhar com audiovisual? Faculdade, mercado de trabalho, minha experiência (<a href="https://www.youtube.com/watch?v=dqIaN9E0qn4">https://www.youtube.com/watch?v=dqIaN9E0qn4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Quais são as áreas de atuação para um profissional de edição de vídeos? (<a href="https://www.alura.com.br/artigos/quais-sao-as-areas-de-atuacao-para-um-profissional-de-edicao-de-videos">https://www.alura.com.br/artigos/quais-sao-as-areas-de-atuacao-para-um-profissional-de-edicao-de-videos</a>)</li>
+<li><code data-kind="curso">Curso</code> Produção de vídeos: entenda os conceitos essenciais (<a href="https://cursos.alura.com.br/course/producao-videos-conceitos-essenciais">https://cursos.alura.com.br/course/producao-videos-conceitos-essenciais</a>)</li>
+<li><code data-kind="curso">Curso</code> Filmmaking: produzindo um vídeo (<a href="https://cursos.alura.com.br/course/filmaking-produzindo-video">https://cursos.alura.com.br/course/filmaking-produzindo-video</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Stable Video: Como criar VÍDEO com INTELIGÊNCIA ARTIFICIAL | IAs Generativas (<a href="https://www.youtube.com/watch?v=bDYNiA2NVX8">https://www.youtube.com/watch?v=bDYNiA2NVX8</a>)</li>
+</ul>
+<h3>Edição e Ritmo:</h3>
 <ul><li>Compreender a importância do ritmo na edição de vídeos para criar uma narrativa envolvente.</li>
 <li>Aprender técnicas de corte e transição para manter o interesse do público.</li>
 <li>Explorar o uso de efeitos de som e música para intensificar o impacto emocional do vídeo.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Correção de cor e ajustes de imagem</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Dicas para editar vídeos no ritmo da música (<a href="https://olivetreefilms.com/br/blog/dicas-para-editar-videos-no-ritmo-da-musica/">https://olivetreefilms.com/br/blog/dicas-para-editar-videos-no-ritmo-da-musica/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Set the Pace With This Guide to Film Rhythm Editing (<a href="https://www.backstage.com/magazine/article/film-rhythm-editing-guide-77147/">https://www.backstage.com/magazine/article/film-rhythm-editing-guide-77147/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Premiere Pro: edição com foco em timing e ritmo (<a href="https://www.alura.com.br/curso-online-premiere-pro-edicao-foco-timing-ritmo">https://www.alura.com.br/curso-online-premiere-pro-edicao-foco-timing-ritmo</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Ritmo na edição – Layers ponto tech #04 (<a href="https://www.alura.com.br/artigos/layers-ponto-tech-ep-04?srsltid=AfmBOoqVZk25kk1fsCH9iM-e8uUL2nnhSkgXPgMeqUCUZlYARW7oIne0">https://www.alura.com.br/artigos/layers-ponto-tech-ep-04?srsltid=AfmBOoqVZk25kk1fsCH9iM-e8uUL2nnhSkgXPgMeqUCUZlYARW7oIne0</a>)</li>
+</ul>
+<h3>Correção de cor e ajustes de imagem:</h3>
 <ul><li>Compreender os fundamentos da correção de cor e ajuste de imagem.</li>
 <li>Aprender a utilizar ferramentas para ajuste de brilho, contraste e saturação.</li>
 <li>Aplicar técnicas de correção de cor para melhorar a qualidade visual dos vídeos.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Correção de Cores de Vídeos para Embelezar Vídeos do YouTube (<a href="https://filmora.wondershare.com.br/youtube-video-editing/video-color-correction-for-youtube-beauty.html">https://filmora.wondershare.com.br/youtube-video-editing/video-color-correction-for-youtube-beauty.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 softwares gratuitos para correção de cores de vídeo (<a href="https://www.videosoftdev.com/pt/best-free-color-correction-software-for-video">https://www.videosoftdev.com/pt/best-free-color-correction-software-for-video</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Histograma (<a href="http://www.fazendovideo.com.br/infotec/histograma.html#:~:text=nome%20de%20um%20tipo%20de,luminosidade%20em%20uma%20imagem%20digital">http://www.fazendovideo.com.br/infotec/histograma.html#:~:text=nome%20de%20um%20tipo%20de,luminosidade%20em%20uma%20imagem%20digital</a>.)</li>
+<li><code data-kind="youtube">YouTube</code> CORRIGIR A COR de um vídeo no Premiere EM 1 CLIQUE (<a href="https://www.youtube.com/watch?v=iCkZpw8dmMc">https://www.youtube.com/watch?v=iCkZpw8dmMc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Premiere: processos de colorização e tratamento de imagem (<a href="https://www.alura.com.br/curso-online-adobe-premiere-correcao-cor">https://www.alura.com.br/curso-online-adobe-premiere-correcao-cor</a>)</li>
+<li><code data-kind="curso">Curso</code> Adobe Premiere: cor grading (<a href="https://cursos.alura.com.br/course/adobe-premiere-cor-grading">https://cursos.alura.com.br/course/adobe-premiere-cor-grading</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A importância das cores no produto (<a href="https://www.alura.com.br/artigos/importancia-das-cores-no-produto">https://www.alura.com.br/artigos/importancia-das-cores-no-produto</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Psicologia das cores: veja como isso é essencial para o sucesso do designer (<a href="https://www.alura.com.br/artigos/psicologia-das-cores-veja-como-isso-e-essencial-para-o-sucesso-do-designer">https://www.alura.com.br/artigos/psicologia-das-cores-veja-como-isso-e-essencial-para-o-sucesso-do-designer</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A colorização na pós-produção de vídeos (<a href="https://www.alura.com.br/artigos/a-colorizacao-na-pos-producao-de-videos">https://www.alura.com.br/artigos/a-colorizacao-na-pos-producao-de-videos</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição para plataformas de mídia social</strong>:</li>
+<h3>Edição para plataformas de mídia social:</h3>
 <ul><li>Entender as especificidades de edição para cada plataforma de mídia social, como Instagram, TikTok e YouTube.</li>
 <li>Aprender a ajustar o formato, duração e estilo dos vídeos para engajar o público de forma eficaz.</li>
 <li>Utilizar elementos visuais e textuais que maximizem o impacto e a retenção em visualizações curtas.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição com Identidade Visual</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como otimizar vídeos para redes sociais: veja dicas (<a href="https://infinityplus.com.br/blog/como-otimizar-videos-para-redes-sociais/">https://infinityplus.com.br/blog/como-otimizar-videos-para-redes-sociais/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 3 dicas de como otimizar vídeos para redes sociais (<a href="https://olivetreefilms.com/br/blog/dicas-de-como-otimizar-videos-para-redes-sociais/">https://olivetreefilms.com/br/blog/dicas-de-como-otimizar-videos-para-redes-sociais/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O guia definitivo para editar vídeos do TikTok e do Instagram | Entrevista com criadores (<a href="https://www.submagic.co/br/blog/how-to-edit-tiktok-and-instagram-videos">https://www.submagic.co/br/blog/how-to-edit-tiktok-and-instagram-videos</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Mídias sociais: criando vídeos para as redes (<a href="https://cursos.alura.com.br/course/midias-sociais-criando-videos-redes">https://cursos.alura.com.br/course/midias-sociais-criando-videos-redes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é design para mídias sociais? (<a href="https://www.alura.com.br/artigos/design-midias-sociais">https://www.alura.com.br/artigos/design-midias-sociais</a>)</li>
+<li><code data-kind="curso">Curso</code> Mídias sociais: design em movimento com o Canva (<a href="https://cursos.alura.com.br/course/midias-sociais-design-movimento-canva">https://cursos.alura.com.br/course/midias-sociais-design-movimento-canva</a>)</li>
+</ul>
+<h3>Edição com Identidade Visual:</h3>
 <ul><li>Estabelecer uma identidade visual consistente que fortaleça a marca ou estilo do conteúdo.</li>
 <li>Aprender a incorporar elementos visuais únicos, como cores, tipografia e gráficos, na edição de vídeo.</li>
 <li>Explorar técnicas para criar uma experiência visual coesa que ressoe com o público.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição baseada em narrativa</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Create videos that match your branding identity (<a href="https://creativecloud.adobe.com/discover/article/create-videos-that-match-your-branding-identity">https://creativecloud.adobe.com/discover/article/create-videos-that-match-your-branding-identity</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como CRIAR IDENTIDADE VISUAL no FILMORA e FORTALECER sua MARCA | Edição de Vídeos (<a href="https://www.youtube.com/watch?v=1EY-cM1Ayhg">https://www.youtube.com/watch?v=1EY-cM1Ayhg</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Identidade visual para vídeos: elementos essenciais para chamar a atenção nas redes sociais (<a href="https://www.trilhafilmes.com/post/identidade-visual-para-v%C3%ADdeos-elementos-essenciais-para-chamar-a-aten%C3%A7%C3%A3o-nas-redes-sociais">https://www.trilhafilmes.com/post/identidade-visual-para-v%C3%ADdeos-elementos-essenciais-para-chamar-a-aten%C3%A7%C3%A3o-nas-redes-sociais</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Edição de vídeo: editando vídeos com identidade visual (<a href="https://cursos.alura.com.br/course/edicao-video-editando-videos-identidade-visual">https://cursos.alura.com.br/course/edicao-video-editando-videos-identidade-visual</a>)</li>
+</ul>
+<h3>Edição baseada em narrativa:</h3>
 <ul><li>Explorar técnicas para criar uma narrativa envolvente e coesa em vídeos.</li>
 <li>Aprender a estruturar o conteúdo de forma que cada cena contribua para o desenvolvimento da história.</li>
 <li>Compreender o papel da edição ao fortalecer o enredo se conectando emocionalmente com o público.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Storytelling Arte de contar histórias (<a href="https://nicefilms.com.br/storytelling-arte-de-contar-historias/">https://nicefilms.com.br/storytelling-arte-de-contar-historias/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Edição de Vídeos que Cativam: Técnicas e Ferramentas Essenciais (<a href="https://nathanfilmes.com.br/edicao-de-videos-que-cativam/">https://nathanfilmes.com.br/edicao-de-videos-que-cativam/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Storytelling se torna tendência na Produção de vídeo (<a href="https://rcedigital.com.br/storytelling-tendencia-producao-de-video/">https://rcedigital.com.br/storytelling-tendencia-producao-de-video/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Storytelling: visão de negócios e desenvolvimento pessoal (<a href="https://cursos.alura.com.br/course/storytelling-negocios-desenvolvimento-pessoal">https://cursos.alura.com.br/course/storytelling-negocios-desenvolvimento-pessoal</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como inovar em suas videoaulas com 3 boas práticas de narração inclusiva (<a href="https://www.alura.com.br/artigos/narracao-inclusiva-3-boas-praticas-videoaulas">https://www.alura.com.br/artigos/narracao-inclusiva-3-boas-praticas-videoaulas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Destaque-se com storytelling (<a href="https://www.alura.com.br/artigos/destaque-se-com-storytelling">https://www.alura.com.br/artigos/destaque-se-com-storytelling</a>)</li>
+<li><code data-kind="curso">Curso</code> Edição de vídeo: criando um vídeo institucional (<a href="https://www.alura.com.br/curso-online-edicao-video-criando-video-institucional">https://www.alura.com.br/curso-online-edicao-video-criando-video-institucional</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Efeitos visuais e animação avançados</strong>:</li>
+<h3>Efeitos visuais e animação avançados:</h3>
 <ul><li>Compreender as principais técnicas de efeitos visuais avançados e como aplicá-las em edições complexas.</li>
 <li>Explorar animação e efeitos de movimento para criar vídeos envolventes e dinâmicos.</li>
 <li>Aprender a integrar VFX e animações no fluxo de trabalho de edição para otimizar o processo criativo.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design de som imersivo</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Efeitos visuais: O que são visual effects (VFX) e como funcionam? (<a href="https://www.benditafilmes.com/post/visual-effects-vfx-como-funcionam">https://www.benditafilmes.com/post/visual-effects-vfx-como-funcionam</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Produza os efeitos visuais dos seus sonhos (<a href="https://www.adobe.com/br/products/aftereffects/vfx-visual-effects.html">https://www.adobe.com/br/products/aftereffects/vfx-visual-effects.html</a>)</li>
+<li><code data-kind="youtube">YouTube</code> How a 5-Person Team Made an Oscar-Winning Movie&#39;s Effects | WIRED (<a href="https://www.youtube.com/watch?v=hFFopPPrGiE">https://www.youtube.com/watch?v=hFFopPPrGiE</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Montando um PC para VFX Layers ponto tech #84 (<a href="https://cursos.alura.com.br/extra/layerstech/montando-um-pc-para-vfx-layers-ponto-tech-84-a1570">https://cursos.alura.com.br/extra/layerstech/montando-um-pc-para-vfx-layers-ponto-tech-84-a1570</a>)</li>
+<li><code data-kind="curso">Curso</code> Canva: criando vídeos com motion graphics (<a href="https://cursos.alura.com.br/course/canva-criando-videos-motion-graphics">https://cursos.alura.com.br/course/canva-criando-videos-motion-graphics</a>)</li>
+<li><code data-kind="curso">Curso</code> Premiere Pro: como lidar e criar efeitos de vídeo (<a href="https://cursos.alura.com.br/course/premiere-pro-lidar-criar-efeitos-video">https://cursos.alura.com.br/course/premiere-pro-lidar-criar-efeitos-video</a>)</li>
+</ul>
+<h3>Design de som imersivo:</h3>
 <ul><li>Compreender a importância do design de som para criar uma experiência envolvente em vídeos e filmes.</li>
 <li>Aprender técnicas de gravação, edição e mixagem para criar paisagens sonoras imersivas.</li>
 <li>Explorar como o som impacta a narrativa e a emoção no conteúdo audiovisual.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição de vídeo orientada por dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> A importância do som no cinema (<a href="https://www.escrevendoofuturo.org.br/caderno_virtual/caderno/documentario/oficinas/etapa-1-a-importancia-do-som-no-cinema">https://www.escrevendoofuturo.org.br/caderno_virtual/caderno/documentario/oficinas/etapa-1-a-importancia-do-som-no-cinema</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gravador de áudio do YouTube: como gravar vozes em alta qualidade (<a href="https://www.capcut.com/pt-br/resource/youtube-audio-recorder">https://www.capcut.com/pt-br/resource/youtube-audio-recorder</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gravando elementos de som para vídeo (<a href="https://www.shure.com/pt-BR/shows-e-producoes/louder/recording-sound-elements-for-video">https://www.shure.com/pt-BR/shows-e-producoes/louder/recording-sound-elements-for-video</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Edição e Som Layers ponto tech #31 (<a href="https://www.alura.com.br/podcast/edicao-e-som-layers-ponto-tech-31-a1019">https://www.alura.com.br/podcast/edicao-e-som-layers-ponto-tech-31-a1019</a>)</li>
+<li><code data-kind="curso">Curso</code> Produção de Podcasts: da concepção à publicação (<a href="https://cursos.alura.com.br/course/producao-podcast">https://cursos.alura.com.br/course/producao-podcast</a>)</li>
+</ul>
+<h3>Edição de vídeo orientada por dados:</h3>
 <ul><li>Compreender como dados e métricas de performance influenciam escolhas de edição.</li>
 <li>Aplicar técnicas de edição para maximizar o engajamento e a retenção com base em análises de dados.</li>
 <li>Utilizar insights de dados para otimizar o conteúdo e atender às necessidades de audiência específicas.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 10 estatísticas de vídeo marketing que você precisa saber (<a href="https://www.negociossc.com.br/blog/10-estatisticas-de-video-marketing-que-voce-precisa-saber/">https://www.negociossc.com.br/blog/10-estatisticas-de-video-marketing-que-voce-precisa-saber/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda por que os vídeos são a nova tendência das redes sociais (<a href="https://www.elevon.com.br/entenda-por-que-os-videos-sao-a-nova-tendencia-nas-redes-sociais/">https://www.elevon.com.br/entenda-por-que-os-videos-sao-a-nova-tendencia-nas-redes-sociais/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Conceitos sobre as tendências de público: espectadores novos e recorrentes no YouTube Analytics (<a href="https://www.youtube.com/watch?v=NSIfTsi7wTk&t=1s">https://www.youtube.com/watch?v=NSIfTsi7wTk&amp;t=1s</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Criação de conteúdo em vídeo: estratégias e otimizações (<a href="https://cursos.alura.com.br/course/criacao-conteudo-video-estrategias-otimizacoes">https://cursos.alura.com.br/course/criacao-conteudo-video-estrategias-otimizacoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Marketing Digital: análise de métricas (<a href="https://cursos.alura.com.br/course/marketing-digital-metricas">https://cursos.alura.com.br/course/marketing-digital-metricas</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Motion Design</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design em movimento</strong>:</li>
+<h3>Design em movimento:</h3>
 <ul><li>Dominar as ferramentas e técnicas para criar animações e incorporar movimento nas peças gráficas, tornando o conteúdo mais dinâmico e atraente para mídias sociais.</li>
 <li>Aprender a combinar comunicação visual com Motion Design de forma coerente, garantindo que as animações reforcem a mensagem e captem a atenção do público.</li>
 <li>Entender como equilibrar e destacar informações em uma animação, utilizando princípios de design para guiar a atenção do espectador de maneira eficaz.</li>
 <li>Conhecer os diferentes formatos de vídeos e animações ideais para mídias sociais, garantindo que o conteúdo esteja otimizado para cada plataforma e seu respectivo público-alvo.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dados com animações</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Motion Graphics: Um pouco sobre o Design em movimento - Ideia Clara (<a href="https://ideiaclara.com/motion-graphics-um-pouco-sobre-o-design-em-movimento/">https://ideiaclara.com/motion-graphics-um-pouco-sobre-o-design-em-movimento/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Social Media Designer. O que é, o que come, onde vive… (<a href="https://mauriciofaccin.com/blog/social-media-designer-o-que-e-o-que-come-onde-vive/">https://mauriciofaccin.com/blog/social-media-designer-o-que-e-o-que-come-onde-vive/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Mídias sociais: design em movimento com o Canva (<a href="https://cursos.alura.com.br/course/midias-sociais-design-movimento-canva">https://cursos.alura.com.br/course/midias-sociais-design-movimento-canva</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 melhores práticas de design para mídias sociais (<a href="https://www.alura.com.br/artigos/5-melhores-praticas-design-midias-sociais">https://www.alura.com.br/artigos/5-melhores-praticas-design-midias-sociais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 truques de After Effects para iniciantes (<a href="https://www.alura.com.br/artigos/5-truques-de-after-effects-para-iniciantes">https://www.alura.com.br/artigos/5-truques-de-after-effects-para-iniciantes</a>)</li>
+<li><code data-kind="curso">Curso</code> After effects: anime personagens com Duik (<a href="https://cursos.alura.com.br/course/after-effects-anime-personagens-duik">https://cursos.alura.com.br/course/after-effects-anime-personagens-duik</a>)</li>
+</ul>
+<h3>Dados com animações:</h3>
 <ul><li>Aprender a transformar dados brutos em animações visuais envolventes que facilitem a compreensão.</li>
 <li>Explorar o uso de infográficos animados e elementos visuais para representar dados complexos de forma acessível.</li>
 <li>Dominar técnicas no After Effects para animar gráficos e dados de maneira que capture a atenção e transmita a mensagem de forma clara.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Framer Motion</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Trabalhar com animação orientada por dados (<a href="https://helpx.adobe.com/br/after-effects/using/data-driven-animations.html">https://helpx.adobe.com/br/after-effects/using/data-driven-animations.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como as animações simplificam informações complexas (<a href="https://monkeybusiness.com.br/blog/como-as-animacoes-simplificam-informacoes-complexas/">https://monkeybusiness.com.br/blog/como-as-animacoes-simplificam-informacoes-complexas/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gráficos animados &amp; Criador de gráficos (<a href="https://workspace.google.com/marketplace/app/gr%C3%A1ficos_animados_criador_de_gr%C3%A1ficos/50018951703?hl=pt_BR">https://workspace.google.com/marketplace/app/gr%C3%A1ficos_animados_criador_de_gr%C3%A1ficos/50018951703?hl=pt_BR</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> After Effects: transformando dados em animações impactantes (<a href="https://cursos.alura.com.br/course/after-effects-transformando-dados-animacoes-impactantes">https://cursos.alura.com.br/course/after-effects-transformando-dados-animacoes-impactantes</a>)</li>
+</ul>
+<h3>Framer Motion:</h3>
 <ul><li>Criar animações</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação: Framer Motion (inglês) (<a href="https://www.framer.com/motion/">https://www.framer.com/motion/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Framer Motion + React (Exemplo de Utilização) (<a href="https://medium.com/@leonardord99/framer-motion-react-514f39a9d03e">https://medium.com/@leonardord99/framer-motion-react-514f39a9d03e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Galeria De Páginas Deslizantes Animadas Usando Framer-motion E React.js (<a href="https://acervolima.com/galeria-de-paginas-deslizantes-animadas-usando-framer-motion-e-react-js/">https://acervolima.com/galeria-de-paginas-deslizantes-animadas-usando-framer-motion-e-react-js/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> PedroTech: Animations In React - Framer-Motion Tutorial (inglês) (<a href="https://www.youtube.com/watch?v=GOuwOI-WSkE">https://www.youtube.com/watch?v=GOuwOI-WSkE</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> TL Draw: o que é e como escrever códigos com desenhos (<a href="https://www.alura.com.br/artigos/tl-draw">https://www.alura.com.br/artigos/tl-draw</a>)</li>
+<li><code data-kind="curso">Curso</code> Framer: construindo um portal do colaborador com IA (<a href="https://cursos.alura.com.br/course/framer-construindo-portal-colaborador-ia">https://cursos.alura.com.br/course/framer-construindo-portal-colaborador-ia</a>)</li>
+<li><code data-kind="curso">Curso</code> Framer: criando seu e-commerce com IA (<a href="https://cursos.alura.com.br/formacao-framer-criando-e-commerce-ia">https://cursos.alura.com.br/formacao-framer-criando-e-commerce-ia</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Digital Marketing</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Explorando conceitos de Marketing Digital</strong>:</li>
+<h3>Explorando conceitos de Marketing Digital:</h3>
 <ul><li>Compreender os princípios fundamentais do marketing digital, incluindo as diferentes áreas de atuação, como tráfego orgânico e pago, e as principais estratégias para aumentar a visibilidade online de uma marca.</li>
 <li>Explorar as principais plataformas digitais e ferramentas utilizadas para divulgar negócios na internet, garantindo que os perfis comerciais sejam otimizados e mantenham uma presença profissional.</li>
 <li>Aprender a diferenciar e aplicar as técnicas de tráfego orgânico e pago, desenvolvendo habilidades para planejar e executar campanhas de marketing digital que alcancem e envolvam o público-alvo de maneira eficaz..</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Branding</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é PLR no Marketing Digital? Entenda a estratégia (<a href="https://www.cursospm3.com.br/blog/o-que-e-plr-no-marketing-digital/">https://www.cursospm3.com.br/blog/o-que-e-plr-no-marketing-digital/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Marketing Digital: o que é, como fazer e tudo o que você precisa saber sobre o tema (<a href="https://www.rdstation.com/blog/marketing/marketing-digital/">https://www.rdstation.com/blog/marketing/marketing-digital/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Marketing Digital: explorando os conceitos (<a href="https://cursos.alura.com.br/course/marketing-digital-explorando-conceitos">https://cursos.alura.com.br/course/marketing-digital-explorando-conceitos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é marketing digital? (<a href="https://www.alura.com.br/artigos/o-que-e-marketing-digital">https://www.alura.com.br/artigos/o-que-e-marketing-digital</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Marketing Digital? #HipstersPontoTube (<a href="https://www.youtube.com/watch?v=auScm23M9AQ">https://www.youtube.com/watch?v=auScm23M9AQ</a>)</li>
+</ul>
+<h3>Branding:</h3>
 <ul><li>Entender os componentes fundamentais do branding e como eles contribuem para a criação de uma marca memorável e diferenciada no mercado.</li>
 <li>Desenvolver uma identidade de marca consolidada, que comunique de forma clara e eficaz os valores e a missão da empresa, ajudando a criar marcas de sucesso que se destacam entre os concorrentes.</li>
 <li>Aplicar estratégias poderosas para construir e gerir a marca, criando experiências marcantes que ressoam com o público-alvo e fomentam a lealdade dos clientes.</li>
 <li>Inspirar-se em cases de sucesso para construir uma marca forte que estabeleça uma conexão emocional com os clientes, promovendo um relacionamento duradouro e um forte posicionamento no mercado..</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SEO</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é branding? (<a href="https://mailchimp.com/pt-br/resources/what-is-branding/">https://mailchimp.com/pt-br/resources/what-is-branding/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é branding e como ele pode ajudar sua marca (<a href="https://www.youtube.com/watch?v=MG2vjwhSm50">https://www.youtube.com/watch?v=MG2vjwhSm50</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Branding: criando uma marca forte (<a href="https://cursos.alura.com.br/course/branding-criando-marca-forte">https://cursos.alura.com.br/course/branding-criando-marca-forte</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como o Tom de Voz contribui para o Branding de uma marca? (<a href="https://www.alura.com.br/artigos/como-tom-de-voz-contribui-branding-de-uma-marca">https://www.alura.com.br/artigos/como-tom-de-voz-contribui-branding-de-uma-marca</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como criar uma marca forte e fazer os clientes se apaixonarem por ela (<a href="https://www.alura.com.br/artigos/como-criar-uma-marca-forte-e-fazer-os-clientes-se-apaixonarem-por-ela">https://www.alura.com.br/artigos/como-criar-uma-marca-forte-e-fazer-os-clientes-se-apaixonarem-por-ela</a>)</li>
+</ul>
+<h3>SEO:</h3>
 <ul><li>Compreender os fundamentos do SEO, incluindo como ele funciona e por que é essencial para aumentar a visibilidade e o alcance de um site nos motores de busca.</li>
 <li>Aprender a aplicar as principais técnicas e estratégias de SEO, otimizando o conteúdo e a estrutura do site para melhorar o posicionamento nas páginas de resultados dos motores de busca (SERPs).</li>
 <li>Entender como funcionam os algoritmos dos principais motores de busca, como o Google, e como as atualizações nesses algoritmos podem impactar o desempenho de SEO de um site.</li>
 <li>Mensurar e analisar os resultados das estratégias de SEO utilizando as ferramentas certas, permitindo ajustes contínuos e garantindo que o site permaneça competitivo no ranking dos motores de busca..</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 14 principais atualizações do algoritmo do Google que causaram impacto nas buscas ???? (<a href="https://www.rdstation.com/blog/marketing/algoritmo-google/">https://www.rdstation.com/blog/marketing/algoritmo-google/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia de otimização de mecanismos de pesquisa (SEO) para iniciantes (<a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=pt-br">https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=pt-br</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> SEO: otimização de sites (<a href="https://cursos.alura.com.br/course/seo-otimizacao-de-sites">https://cursos.alura.com.br/course/seo-otimizacao-de-sites</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como rankear bem no Google? #HipstersPontoTube (<a href="https://www.youtube.com/watch?v=PfGyzrLGqZ8">https://www.youtube.com/watch?v=PfGyzrLGqZ8</a>)</li>
+</ul>
+<h3>Roadmap:</h3>
 <ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
 <li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
 <li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
@@ -289,7 +484,16 @@
 <li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
 <li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
 <li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Glossário - Roadmap (<a href="https://www.cursospm3.com.br/glossario/roadmap/">https://www.cursospm3.com.br/glossario/roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conheça o roadmap: a ferramenta que guia a estratégia da sua empresa (<a href="https://blog.runrun.it/o-que-e-roadmap/">https://blog.runrun.it/o-que-e-roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Roadmap (<a href="https://miro.com/pt/agile/o-que-e-roadmap/">https://miro.com/pt/agile/o-que-e-roadmap/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Roadmap de Produtos: O que é e como criar um? (<a href="https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos">https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Roadmap: como criar e manter o mapa de produto (<a href="https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto">https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

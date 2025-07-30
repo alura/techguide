@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,74 +249,173 @@
   </div>
 
   <div class="content">
-    <h1>Fotografia</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Conceitos:</h3>
 <ul><li>Os conceitos básicos, como luz, enquadramento, exposição e foco, são a base para criar imagens tecnicamente corretas. Dominar esses fundamentos ajuda a transmitir emoções, contar histórias e explorar criatividade.</li>
 <li>Configurar a câmera para melhores resultados</li>
 <li>Conhecer diferentes estilos fotográficos</li>
 <li>Usar lentes para diferentes finalidades</li>
 <li>Trabalhar com profundidade de campo</li>
 <li>Explorar diferentes ângulos de captura</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Iluminação</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Aprenda tudo sobre câmera em 5 minutos! (<a href="https://www.youtube.com/watch?v=trA1GMDcJfc">https://www.youtube.com/watch?v=trA1GMDcJfc</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Composição Fotográfica: Técnicas e Conceitos Para Suas Fotos (<a href="https://www.aela.io/pt-br/blog/conteudos/composicao-fotografica-tecnicas-e-conceitos-para-suas-fotos">https://www.aela.io/pt-br/blog/conteudos/composicao-fotografica-tecnicas-e-conceitos-para-suas-fotos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conceitos de fotografia (<a href="https://medium.com/@CarlaMariaMart6/conceito-de-fotografia-841a7ef4b8b5">https://medium.com/@CarlaMariaMart6/conceito-de-fotografia-841a7ef4b8b5</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Profissão Fotógrafo(a) - Layers Ponto Tech #33 (<a href="https://cursos.alura.com.br/extra/layerstech/profissao-fotografo-a-layers-ponto-tech-33-a1032">https://cursos.alura.com.br/extra/layerstech/profissao-fotografo-a-layers-ponto-tech-33-a1032</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Vai trabalhar com fotografia? Então conheça essas dicas (<a href="https://www.alura.com.br/artigos/vai-trabalhar-com-fotografia-entao-conheca-essas-dicas">https://www.alura.com.br/artigos/vai-trabalhar-com-fotografia-entao-conheca-essas-dicas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Buscando referências na fotografia (<a href="https://www.alura.com.br/artigos/buscando-referencias-fotografia">https://www.alura.com.br/artigos/buscando-referencias-fotografia</a>)</li>
+<li><code data-kind="curso">Curso</code> Fotografia: conhecendo o mundo da fotografia digital (<a href="https://cursos.alura.com.br/course/fotografia-digital-fundamentos">https://cursos.alura.com.br/course/fotografia-digital-fundamentos</a>)</li>
+<li><code data-kind="curso">Curso</code> Fotografia: melhorando suas imagens com a composição (<a href="https://cursos.alura.com.br/course/fotografia-melhorando-imagens-composicao">https://cursos.alura.com.br/course/fotografia-melhorando-imagens-composicao</a>)</li>
+</ul>
+<h3>Iluminação:</h3>
 <ul><li>A iluminação define o clima da foto, controla sombras e destaca detalhes. Técnicas de luz natural e artificial ajudam a criar profundidade, volume e texturas, elevando a qualidade e o impacto das imagens.</li>
 <li>Posicionar o assunto em relação à luz</li>
 <li>Ajustar a temperatura de cor da iluminação</li>
 <li>Usar luz natural em diferentes horários</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Fotografia com smartphones</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Segredos da Iluminação (Posição e Linguagem da Luz) (<a href="https://www.youtube.com/watch?v=BaZtnf3mO0Q&pp=ygUXaWx1bWluYcOnw6NvIGZvdG9ncmFmaWE%3D">https://www.youtube.com/watch?v=BaZtnf3mO0Q&amp;pp=ygUXaWx1bWluYcOnw6NvIGZvdG9ncmFmaWE%3D</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 12 tipos de iluminação na fotografia (<a href="https://www.format.com/pt/magazine/resources/photography/lighting-in-photography">https://www.format.com/pt/magazine/resources/photography/lighting-in-photography</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Segredos para uma boa iluminação de cena (<a href="https://www.alura.com.br/artigos/segredos-para-boa-iluminacao-de-cena">https://www.alura.com.br/artigos/segredos-para-boa-iluminacao-de-cena</a>)</li>
+<li><code data-kind="curso">Curso</code> Fotografia: usando a luz a seu favor (<a href="https://cursos.alura.com.br/course/fotografia-usando-luz-favor">https://cursos.alura.com.br/course/fotografia-usando-luz-favor</a>)</li>
+</ul>
+<h3>Fotografia com smartphones:</h3>
 <ul><li>Fotografar com smartphones une praticidade e qualidade. Ideal para momentos espontâneos, eles oferecem recursos modernos e integração com apps de edição, permitindo capturas rápidas e criativas sem equipamentos extras.</li>
 <li>Configurar a câmera para melhor qualidade</li>
 <li>Compor imagens com mais precisão</li>
 <li>Ajustar a exposição manualmente</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Fotografia com Celular - Guia Completo (<a href="https://www.youtube.com/watch?v=yEOa63q0d8s">https://www.youtube.com/watch?v=yEOa63q0d8s</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Começando na fotografia apenas com o celular (<a href="https://taifotografias.com.br/comecando-na-fotografia-apenas-com-o-celular">https://taifotografias.com.br/comecando-na-fotografia-apenas-com-o-celular</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como Fotografar com Celular: 8 Dicas Fáceis (<a href="https://www.eduardo-monica.com/new-blog/como-fotografar-com-celular-dicas">https://www.eduardo-monica.com/new-blog/como-fotografar-com-celular-dicas</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Diferenças entre câmera de celular e câmera fotográfica (<a href="https://www.alura.com.br/artigos/diferencas-entre-camera-celular-camera-fotografica">https://www.alura.com.br/artigos/diferencas-entre-camera-celular-camera-fotografica</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como escolher a melhor câmera de celular (<a href="https://www.alura.com.br/artigos/como-escolher-melhor-camera-celular">https://www.alura.com.br/artigos/como-escolher-melhor-camera-celular</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Crie montagens divertidas com seu celular (<a href="https://www.alura.com.br/artigos/montagens-divertidas-com-celular">https://www.alura.com.br/artigos/montagens-divertidas-com-celular</a>)</li>
+<li><code data-kind="curso">Curso</code> Fotografia: fotografe usando seu celular (<a href="https://cursos.alura.com.br/course/fotografia-fotografe-usando-celular">https://cursos.alura.com.br/course/fotografia-fotografe-usando-celular</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceitos de Photoshop</strong>:</li>
+<h3>Conceitos de Photoshop:</h3>
 <ul><li>O Photoshop é a principal ferramenta para manipulação avançada de imagens. Com ele, é possível realizar retoques detalhados, montagens, correções e criar projetos artísticos de alta qualidade, explorando infinitas possibilidades criativas.</li>
 <li>Usar camadas para edições não destrutivas</li>
 <li>Remover objetos ou elementos indesejados</li>
 <li>Aplicar ajustes de cor e luminosidade</li>
 <li>Criar montagens e composições criativas</li>
 <li>Usar máscaras para edições precisas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição e tratamento com Lightroom</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Adobe Photoshop (<a href="https://www.adobe.com/br/products/photoshop.html">https://www.adobe.com/br/products/photoshop.html</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como usar IA do Photoshop em trabalhos de verdade (<a href="https://www.youtube.com/watch?v=_1Br8NI61Ls">https://www.youtube.com/watch?v=_1Br8NI61Ls</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como usar a IA do Photoshop? (<a href="https://www.tecmundo.com.br/software/400051-como-usar-a-ia-do-photoshop.htm">https://www.tecmundo.com.br/software/400051-como-usar-a-ia-do-photoshop.htm</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Adobe Photoshop: ferramentas essenciais do programa (<a href="https://cursos.alura.com.br/course/adobe-photoshop-ferramentas-essenciais-programa">https://cursos.alura.com.br/course/adobe-photoshop-ferramentas-essenciais-programa</a>)</li>
+<li><code data-kind="curso">Curso</code> IA no Photoshop: criando e editando imagens (<a href="https://cursos.alura.com.br/course/ia-photoshop-criando-editando-imagens">https://cursos.alura.com.br/course/ia-photoshop-criando-editando-imagens</a>)</li>
+</ul>
+<h3>Edição e tratamento com Lightroom:</h3>
 <ul><li>O Lightroom é uma ferramenta poderosa para editar e organizar fotos. Ideal para ajustes de cor, exposição e contraste, também permite criar presets personalizados, otimizando fluxos de trabalho de fotógrafos e criativos.</li>
 <li>Trabalhar com tons e saturação de cores</li>
 <li>Exportar imagens para diferentes plataformas</li>
 <li>Organizar fotos em catálogos ou coleções</li>
 <li>Ajustar exposição, contraste e brilho</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição pelo celular</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Adobe Lightroom (<a href="https://www.adobe.com/br/products/photoshop-lightroom/campaign/pricing.html?sdid=ZSV7DXR1&mv=search&mv2=paidsearch">https://www.adobe.com/br/products/photoshop-lightroom/campaign/pricing.html?sdid=ZSV7DXR1&amp;mv=search&amp;mv2=paidsearch</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Editando no Lightroom com inteligência artificial (<a href="https://www.youtube.com/watch?v=iMn-syHbO_I">https://www.youtube.com/watch?v=iMn-syHbO_I</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como fazer edição de fotos por meio do programa e aplicativo Adobe Lightroom (<a href="https://rockcontent.com/br/blog/adobe-lightroom/">https://rockcontent.com/br/blog/adobe-lightroom/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Adobe Lightroom: lidando com aplicações profissionais (<a href="https://cursos.alura.com.br/course/adobe-lightroom-aplicacoes-profissionais">https://cursos.alura.com.br/course/adobe-lightroom-aplicacoes-profissionais</a>)</li>
+<li><code data-kind="curso">Curso</code> Adobe Lightroom: gerenciamento e tratamento de múltiplas fotos (<a href="https://cursos.alura.com.br/course/adobe-lightroom-gerenciamento-tratamento-fotos">https://cursos.alura.com.br/course/adobe-lightroom-gerenciamento-tratamento-fotos</a>)</li>
+</ul>
+<h3>Edição pelo celular:</h3>
 <ul><li>Editar fotos no celular é prático e eficiente. Apps permitem ajustar luz, cores e detalhes rapidamente, ideal para quem precisa de resultados rápidos em qualquer lugar. É uma solução poderosa para melhorar fotos sem depender de um computador.</li>
 <li>Ajustar brilho, contraste e saturação</li>
 <li>Cortar e alinhar imagens facilmente</li>
 <li>Aplicar filtros e efeitos com um toque</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Como editar foto pelo celular grátis - Lightroom (<a href="https://www.youtube.com/watch?v=xeVvOi3R2zQ">https://www.youtube.com/watch?v=xeVvOi3R2zQ</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Transforme suas fotos: Dicas de edição pelo celular (<a href="https://blog.nicephotos.com.br/dicas-de-fotografia/dicas-de-edicao-de-fotos/">https://blog.nicephotos.com.br/dicas-de-fotografia/dicas-de-edicao-de-fotos/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Principais erros de edição na fotografia (<a href="https://www.alura.com.br/artigos/principais-erros-edicao-fotografia">https://www.alura.com.br/artigos/principais-erros-edicao-fotografia</a>)</li>
+<li><code data-kind="curso">Curso</code> Photoshop: edite suas fotos pelo celular (<a href="https://cursos.alura.com.br/course/photoshop-edite-fotos-celular">https://cursos.alura.com.br/course/photoshop-edite-fotos-celular</a>)</li>
+<li><code data-kind="curso">Curso</code> Photoshop Mobile: editando imagens no tablet (<a href="https://cursos.alura.com.br/course/photoshop-mobile-editando-tablet">https://cursos.alura.com.br/course/photoshop-mobile-editando-tablet</a>)</li>
+<li><code data-kind="curso">Curso</code> LightRoom: usando seu celular para editar fotos (<a href="https://cursos.alura.com.br/course/lightroom-usando-celular-editar-fotos">https://cursos.alura.com.br/course/lightroom-usando-celular-editar-fotos</a>)</li>
+<li><code data-kind="curso">Curso</code> LightRoom Mobile: tratando imagens no app (<a href="https://cursos.alura.com.br/course/lightroom-mobile-tratando-imagens-app">https://cursos.alura.com.br/course/lightroom-mobile-tratando-imagens-app</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Direção de retratos</strong>:</li>
+<h3>Direção de retratos:</h3>
 <ul><li>Direcionar retratos envolve guiar poses, criar conforto e construir uma conexão com o fotografado. Essa interação melhora a experiência, capturando expressões naturais e autenticidade, essenciais para retratos marcantes.</li>
 <li>Guiar poses para diferentes estilos de retrato</li>
 <li>Criar conexão e intimidade com o fotografado</li>
 <li>Explorar expressões faciais e olhares</li>
 <li>Escolher ângulos que favoreçam o retratado</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Tratamento de pele</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Poses para fotos: conheça 5 ajustes simples e eficientes (<a href="https://instaarts.com/fotografia/poses-para-fotos-2/">https://instaarts.com/fotografia/poses-para-fotos-2/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como sair bem nas fotos (<a href="https://www.youtube.com/watch?v=jPeuG-hz0_Q">https://www.youtube.com/watch?v=jPeuG-hz0_Q</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como posar melhor em retratos (<a href="https://www.alura.com.br/artigos/como-posar-melhor-em-retratos">https://www.alura.com.br/artigos/como-posar-melhor-em-retratos</a>)</li>
+<li><code data-kind="curso">Curso</code> Fotografia: criando intimidade com a pessoa retratada (<a href="https://cursos.alura.com.br/course/fotografia-intimidade-pessoa-retratada">https://cursos.alura.com.br/course/fotografia-intimidade-pessoa-retratada</a>)</li>
+</ul>
+<h3>Tratamento de pele:</h3>
 <ul><li>O tratamento de pele é o retoque digital usado para suavizar imperfeições, como acne ou manchas, enquanto mantém a textura natural. Feito com equilíbrio, ele realça a beleza sem criar resultados artificiais.</li>
 <li>Remover manchas e imperfeições da pele</li>
 <li>Suavizar rugas sem perder textura natural</li>
 <li>Ajustar tons para uniformizar a pele</li>
 <li>Corrigir reflexos indesejados de luz</li>
 <li>Realçar detalhes como olhos e lábios</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição e tratamento</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Aprenda tratamento de PELE utilizando o LIGHTROOM, sem precisar do Photoshop (<a href="https://www.youtube.com/watch?v=8wcHD8SIXKc">https://www.youtube.com/watch?v=8wcHD8SIXKc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tratamento de pele em 30 segundos Photoshop (<a href="https://www.youtube.com/watch?v=kP8BbyualhQ">https://www.youtube.com/watch?v=kP8BbyualhQ</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Adobe Photoshop: lidando com imperfeições de pele (<a href="https://cursos.alura.com.br/course/adobe-photoshop-tratamento-pele">https://cursos.alura.com.br/course/adobe-photoshop-tratamento-pele</a>)</li>
+<li><code data-kind="curso">Curso</code> Adobe Photoshop: tons de pele e correções (<a href="https://cursos.alura.com.br/course/adobe-photoshop-tons-pele-correcoes">https://cursos.alura.com.br/course/adobe-photoshop-tons-pele-correcoes</a>)</li>
+</ul>
+<h3>Edição e tratamento:</h3>
 <ul><li>Editar imagens é o processo de ajustar luz, cor e detalhes, além de corrigir erros ou adicionar efeitos criativos. Melhora a qualidade das fotos, dá um toque profissional e realça o estilo pessoal do fotógrafo ou criador.</li>
 <li>Suavizar imperfeições e melhorar detalhes</li>
 <li>Corrigir balanço de branco e saturação</li>
 <li>Ajustar iluminação e contraste das fotos</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é edição, tratamento e manipulação? (<a href="https://betojeon.com.br/dicas-extras/o-que-e-edicao-tratamento-e-manipulacao/">https://betojeon.com.br/dicas-extras/o-que-e-edicao-tratamento-e-manipulacao/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Edição e Tratamento de Imagens: conheça tudo sobre essa área! (<a href="https://blog.anhanguera.com/edicao-e-tratamento-de-imagem/">https://blog.anhanguera.com/edicao-e-tratamento-de-imagem/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Adobe Photoshop: tratando imagem com viés publicitário (<a href="https://cursos.alura.com.br/course/tratamento-imagem-publicitario">https://cursos.alura.com.br/course/tratamento-imagem-publicitario</a>)</li>
+<li><code data-kind="curso">Curso</code> Adobe Photoshop: tratamento de imagens (<a href="https://cursos.alura.com.br/course/photoshop-tratamento-imagens">https://cursos.alura.com.br/course/photoshop-tratamento-imagens</a>)</li>
+<li><code data-kind="curso">Curso</code> Photoshop 2022: tratando fotografias de modelos (<a href="https://cursos.alura.com.br/course/photoshop-2022-tratando-fotografias-modelos">https://cursos.alura.com.br/course/photoshop-2022-tratando-fotografias-modelos</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Design Gráfico</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Portfólio</strong>:</li>
+<h3>Portfólio:</h3>
 <ul><li>Um portfólio é uma coleção de trabalhos que demonstra habilidades, estilo e experiências. Essencial para atrair clientes e projetos, ele apresenta o melhor do fotógrafo e serve como cartão de visita no mercado.</li>
 <li>Escolher fotos que representem seu estilo</li>
 <li>Usar plataformas online para divulgação</li>
 <li>Apresentar evolução e variedade de técnicas</li>
 <li>Criar uma narrativa com as imagens</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cores</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Esses 10 incríveis portfólios de fotografia vão te inspirar (<a href="https://pt.wix.com/blog/portfolios-fotografia">https://pt.wix.com/blog/portfolios-fotografia</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como Criar um Portfólio de Fotografia: 8 Passos Simples e Dicas para Atrair Clientes (<a href="https://www.hostinger.com.br/tutoriais/como-criar-um-portfolio-de-fotografia">https://www.hostinger.com.br/tutoriais/como-criar-um-portfolio-de-fotografia</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Canva: criação de portfólio, currículo e cartão pessoal (<a href="https://cursos.alura.com.br/course/canva-criacao-portfolio-curriculo-cartao-pessoal">https://cursos.alura.com.br/course/canva-criacao-portfolio-curriculo-cartao-pessoal</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Visual: estratégias para planejar e construir seu portfólio (<a href="https://cursos.alura.com.br/course/design-visual-estrategias-planejar-construir-portfolio">https://cursos.alura.com.br/course/design-visual-estrategias-planejar-construir-portfolio</a>)</li>
+</ul>
+<h3>Cores:</h3>
 <ul><li>A teoria das cores ensina como combinar tons para criar harmonia e transmitir emoções. Na prática, escolher e aplicar paletas certas realça a mensagem das fotos, cria identidade visual e melhora a experiência do espectador com as imagens.</li>
 <li>Aprenda o conceito fundamental de cores</li>
 <li>Criar paletas para projetos específicos</li>
@@ -284,31 +423,83 @@
 <li>Ajustar cores para diferentes públicos</li>
 <li>Harmonizar cores em retratos e paisagens</li>
 <li>Usar contraste para destacar elementos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Composição visual</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Teoria das Cores no Design (<a href="https://medium.com/uxmotiondesign/teoria-das-cores-no-design-6f475942479e">https://medium.com/uxmotiondesign/teoria-das-cores-no-design-6f475942479e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Psicologia das Cores no Design (<a href="https://chiefofdesign.com.br/psicologia-das-cores/">https://chiefofdesign.com.br/psicologia-das-cores/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Psicologia das cores: veja como isso é essencial para o sucesso do designer (<a href="https://www.alura.com.br/artigos/psicologia-das-cores-veja-como-isso-e-essencial-para-o-sucesso-do-designer">https://www.alura.com.br/artigos/psicologia-das-cores-veja-como-isso-e-essencial-para-o-sucesso-do-designer</a>)</li>
+<li><code data-kind="curso">Curso</code> Cores: sistemas básicos e paletas (<a href="https://cursos.alura.com.br/course/fundamentos-da-cor">https://cursos.alura.com.br/course/fundamentos-da-cor</a>)</li>
+<li><code data-kind="curso">Curso</code> Cores no design: teoria e prática (<a href="https://cursos.alura.com.br/course/cores-design-teoria-pratica">https://cursos.alura.com.br/course/cores-design-teoria-pratica</a>)</li>
+</ul>
+<h3>Composição visual:</h3>
 <ul><li>Composição visual é a organização dos elementos na imagem, usando regras como a regra dos terços, linhas guia e simetria. Essas técnicas direcionam o olhar, criam equilíbrio e ajudam a transmitir mensagens claras ou narrativas impactantes.</li>
 <li>Usar linhas guia para compor fotos</li>
 <li>Criar equilíbrio com simetria ou assimetria</li>
 <li>Criar profundidade em composições</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Composição Visual do Seu Projeto: Um Guia Abrangente (<a href="https://www.avanteprinter.com.br/2023/12/08/composicao-visual-2/">https://www.avanteprinter.com.br/2023/12/08/composicao-visual-2/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Princípios básicos de composição visual (<a href="https://designculture.com.br/principios-basicos-de-composicao-visual/">https://designculture.com.br/principios-basicos-de-composicao-visual/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Grids: como organizar o conteúdo visual (<a href="https://cursos.alura.com.br/course/grids-organizar-conteudo-visual">https://cursos.alura.com.br/course/grids-organizar-conteudo-visual</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Visual: aplicando técnicas de composição (<a href="https://cursos.alura.com.br/course/design-visual-aplicando-tecnicas-composicao">https://cursos.alura.com.br/course/design-visual-aplicando-tecnicas-composicao</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Edição de vídeo</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Edição de vídeo</strong>:</li>
+<h3>Edição de vídeo:</h3>
 <ul><li>Editar vídeos em celulares é uma forma prática de organizar cenas, melhorar cores e adicionar efeitos ou trilhas sonoras. Ideal para criar conteúdos dinâmicos e impactantes, diretamente de um dispositivo portátil.</li>
 <li>Cortar e reorganizar clipes rapidamente</li>
 <li>Criar vídeos para redes sociais em formatos ideais</li>
 <li>Trabalhar com múltiplas camadas de vídeo</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Produção de vídeo</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Adobe Premiere Pro (<a href="https://www.adobe.com/br/products/premiere/campaign/pricing.html?sdid=HVQ7WVW1&mv=search&mv2=paidsearch&--">https://www.adobe.com/br/products/premiere/campaign/pricing.html?sdid=HVQ7WVW1&amp;mv=search&amp;mv2=paidsearch&amp;--</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Profissão: Editor de Vídeos - Anderson Gaveta (<a href="https://www.youtube.com/watch?v=96qmfC07MXw&t">https://www.youtube.com/watch?v=96qmfC07MXw&amp;t</a>)</li>
+<li><code data-kind="youtube">YouTube</code> As coisas doidas que estudei pra ser editor! (<a href="https://www.youtube.com/watch?v=qR2SjOiEkCo">https://www.youtube.com/watch?v=qR2SjOiEkCo</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Composição audiovisual – Layers ponto tech #67 (<a href="https://cursos.alura.com.br/extra/layerstech/composicao-audiovisual-layers-ponto-tech-67-a1417">https://cursos.alura.com.br/extra/layerstech/composicao-audiovisual-layers-ponto-tech-67-a1417</a>)</li>
+<li><code data-kind="curso">Curso</code> Premiere Pro: editando um vídeo com roteiro (<a href="https://cursos.alura.com.br/course/premiere-pro-editando-video-roteiro">https://cursos.alura.com.br/course/premiere-pro-editando-video-roteiro</a>)</li>
+<li><code data-kind="curso">Curso</code> Premiere Pro: edição com foco em timing e ritmo (<a href="https://cursos.alura.com.br/course/premiere-pro-edicao-foco-timing-ritmo">https://cursos.alura.com.br/course/premiere-pro-edicao-foco-timing-ritmo</a>)</li>
+<li><code data-kind="curso">Curso</code> Premiere Pro: criando vídeos para web (<a href="https://cursos.alura.com.br/course/premiere-pro-criando-videos-web">https://cursos.alura.com.br/course/premiere-pro-criando-videos-web</a>)</li>
+</ul>
+<h3>Produção de vídeo:</h3>
 <ul><li>Produzir vídeos com recursos acessíveis, como smartphones ou câmeras compactas, permite planejar e gravar materiais criativos, sejam eles promocionais, educativos ou artísticos. É uma habilidade versátil e valiosa.</li>
 <li>Configurar equipamentos de áudio básicos</li>
 <li>Explorar diferentes ângulos de gravação</li>
 <li>Planejar a duração e ritmo do conteúdo</li>
 <li>Criar vídeos prontos para edição e finalização</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Motion</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Uma visão geral da produção de vídeo (<a href="https://www.adobe.com/br/creativecloud/video/discover/video-production.html">https://www.adobe.com/br/creativecloud/video/discover/video-production.html</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como montar um estúdio de gravação de vídeos em casa (<a href="https://www.youtube.com/watch?v=3NL1LfphJdE">https://www.youtube.com/watch?v=3NL1LfphJdE</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Produção de vídeo: entenda como funciona todo o processo (<a href="https://www.impulsofilmes.com.br/producao-de-video-entenda-como-funciona-todo-o-processo/">https://www.impulsofilmes.com.br/producao-de-video-entenda-como-funciona-todo-o-processo/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Montando seu estúdio - Layers ponto tech #76 (<a href="https://cursos.alura.com.br/extra/layerstech/montando-seu-estudio-layers-ponto-tech-76-a1490">https://cursos.alura.com.br/extra/layerstech/montando-seu-estudio-layers-ponto-tech-76-a1490</a>)</li>
+<li><code data-kind="curso">Curso</code> Produção de vídeos: entenda os conceitos essenciais (<a href="https://cursos.alura.com.br/course/producao-videos-conceitos-essenciais">https://cursos.alura.com.br/course/producao-videos-conceitos-essenciais</a>)</li>
+<li><code data-kind="curso">Curso</code> Filmmaking: produzindo um vídeo (<a href="https://cursos.alura.com.br/course/filmaking-produzindo-video">https://cursos.alura.com.br/course/filmaking-produzindo-video</a>)</li>
+</ul>
+<h3>Motion:</h3>
 <ul><li>O motion design cria animações e movimentos para dar vida a elementos gráficos. Muito usado em vídeos, redes sociais e storytelling, é uma forma dinâmica e cativante de comunicar mensagens e ideias.</li>
 <li>Adicionar efeitos visuais</li>
 <li>Trabalhar com keyframes para movimentos precisos</li>
 <li>Criar animações simples com texto</li>
 <li>Usar softwares como After Effects</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Adobe After Effects (<a href="https://www.adobe.com/products/aftereffects.html">https://www.adobe.com/products/aftereffects.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda a diferença entre motion graphics, animação e videos: como usar, qual o perfil profissional e suas vantagens na produção de conteúdo (<a href="https://rockcontent.com/br/talent-blog/motion-graphics-animacao-video/">https://rockcontent.com/br/talent-blog/motion-graphics-animacao-video/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Gestalt (<a href="https://medium.com/chocoladesign/o-que-%C3%A9-gestalt-f3beb4a6af4a">https://medium.com/chocoladesign/o-que-%C3%A9-gestalt-f3beb4a6af4a</a>)</li>
+<li><code data-kind="site">Site</code> LottieFiles (<a href="https://lottiefiles.com/">https://lottiefiles.com/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Os 12 princípios da animação (<a href="https://www.alura.com.br/artigos/12-principios-animacao">https://www.alura.com.br/artigos/12-principios-animacao</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Gestalt e Semiótica – Layers ponto tech #97 (<a href="https://cursos.alura.com.br/extra/layerstech/gestalt-e-semiotica-layers-ponto-tech-97-a1788">https://cursos.alura.com.br/extra/layerstech/gestalt-e-semiotica-layers-ponto-tech-97-a1788</a>)</li>
+<li><code data-kind="curso">Curso</code> Motion Design: crie animações incríveis no After Effects (<a href="https://cursos.alura.com.br/course/motion-design-animacoes-incriveis-after-effects">https://cursos.alura.com.br/course/motion-design-animacoes-incriveis-after-effects</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

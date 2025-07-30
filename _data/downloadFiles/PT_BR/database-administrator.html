@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,77 +249,403 @@
   </div>
 
   <div class="content">
-    <h1>Administração de Banco de Dados - DBA</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Modelagem de dados</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Modelagem de dados:</h3>
 <ul><li>A Modelagem de Dados é uma área essencial para a compreensão e organização das informações em um sistema ou banco de dados.</li>
 <li>Nesse conjunto de conteúdos, você aprenderá as técnicas e conceitos fundamentais para modelar dados de forma eficiente e estruturada, visando obter informações relevantes para a tomada de decisões.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Bancos de Dados - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é modelagem de dados? (<a href="https://powerbi.microsoft.com/pt-br/what-is-data-modeling/">https://powerbi.microsoft.com/pt-br/what-is-data-modeling/</a>)</li>
+<li><code data-kind="curso">Curso</code> Modelar dados no Power BI (<a href="https://learn.microsoft.com/pt-br/training/paths/model-power-bi/?ns-enrollment-type=Collection&ns-enrollment-id=djwu3eywpk4nm">https://learn.microsoft.com/pt-br/training/paths/model-power-bi/?ns-enrollment-type=Collection&amp;ns-enrollment-id=djwu3eywpk4nm</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Curso de Modelagem de dados (<a href="https://www.youtube.com/playlist?list=PLucm8g_ezqNoNHU8tjVeHmRGBFnjDIlxD">https://www.youtube.com/playlist?list=PLucm8g_ezqNoNHU8tjVeHmRGBFnjDIlxD</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação Modelagem de dados (<a href="https://www.alura.com.br/formacao-modelagem-dados">https://www.alura.com.br/formacao-modelagem-dados</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Relacionamento reflexivo na modelagem de banco de dados (<a href="https://www.alura.com.br/artigos/relacionamento-reflexivo-modelagem-banco-de-dados">https://www.alura.com.br/artigos/relacionamento-reflexivo-modelagem-banco-de-dados</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Normalização: o que é, para que serve e como usá-la (<a href="https://www.alura.com.br/artigos/normalizacao">https://www.alura.com.br/artigos/normalizacao</a>)</li>
+</ul>
+<h3>Bancos de Dados - Fundamentos:</h3>
 <ul><li>Os bancos de dados são sistemas de armazenamento de dados que permitem a organização, a manipulação e o acesso eficiente às informações. Existem dois principais tipos de bancos de dados, sendo eles SQL (Structured Query Language) e NoSQL (Not Only SQL).</li>
 <li>O conhecimento dos fundamentos de bancos de dados, tanto SQL quanto NoSQL, é essencial na engenharia de dados. Os bancos de dados são a base para armazenar e manipular os dados utilizados nas análises e nos processos de tomada de decisão. Compreender os diferentes tipos de bancos de dados permite aos engenheiros de dados escolher a solução mais adequada para cada caso, levando em consideração os requisitos de escalabilidade, desempenho, consistência e flexibilidade. Além disso, a habilidade de escrever consultas SQL e de utilizar as características específicas dos bancos de dados NoSQL é essencial para extrair, transformar e carregar dados de forma eficiente e eficaz.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Sistemas operacionais</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> DB-Engines Ranking (<a href="https://db-engines.com/en/ranking">https://db-engines.com/en/ranking</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: SQL // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=kMznyI7r2Tc">https://www.youtube.com/watch?v=kMznyI7r2Tc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: NoSQL // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=1B64oqE8PLs">https://www.youtube.com/watch?v=1B64oqE8PLs</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL — O que é e como funciona na prática? (<a href="https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a">https://medium.com/pravaler-digital-team/sql-o-que-%C3%A9-e-como-funciona-na-pr%C3%A1tica-6ae7a322554a</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL: comandos básicos (<a href="https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909">https://medium.com/nerdzao/sql-comandos-b%C3%A1sicos-483a8dc12909</a>)</li>
+<li><code data-kind="site">Site</code> AWS: O que é banco de dados relacional? (<a href="https://aws.amazon.com/pt/relational-database/">https://aws.amazon.com/pt/relational-database/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 10 conceitos essenciais de SQL que todo dev deve saber (<a href="https://www.youtube.com/watch?v=cIUTAyomVPQ">https://www.youtube.com/watch?v=cIUTAyomVPQ</a>)</li>
+<li><code data-kind="site">Site</code> AWS: O que é NoSQL? (<a href="https://aws.amazon.com/pt/nosql/">https://aws.amazon.com/pt/nosql/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> NoSQL — O que são? Onde habitam? Do que se alimentam? (<a href="https://medium.com/permalink-univesp/nosql-o-que-s%C3%A3o-onde-habitam-do-que-se-alimentam-2ccd4cc39571">https://medium.com/permalink-univesp/nosql-o-que-s%C3%A3o-onde-habitam-do-que-se-alimentam-2ccd4cc39571</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Alura: O que é SQL e NoSQL? (<a href="https://www.youtube.com/watch?v=aure5d3B88g">https://www.youtube.com/watch?v=aure5d3B88g</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL e NoSQL: trabalhando com bancos relacionais e não relacionais (<a href="https://www.alura.com.br/artigos/sql-nosql-bancos-relacionais-nao-relacionais">https://www.alura.com.br/artigos/sql-nosql-bancos-relacionais-nao-relacionais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Banco de Dados: o que é, principais tipos e um guia para iniciar (<a href="https://www.alura.com.br/artigos/banco-de-dados">https://www.alura.com.br/artigos/banco-de-dados</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Dicas para desenvolver um projeto de banco de dados relacional (<a href="https://cursos.alura.com.br/extra/alura-mais/dicas-para-desenvolver-um-projeto-de-banco-de-dados-relacional-c9093">https://cursos.alura.com.br/extra/alura-mais/dicas-para-desenvolver-um-projeto-de-banco-de-dados-relacional-c9093</a>)</li>
+<li><code data-kind="artigo">Artigo</code> JOIN e seus tipos (<a href="https://www.alura.com.br/artigos/join-e-seus-tipos">https://www.alura.com.br/artigos/join-e-seus-tipos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Trabalhando com funções de agregação (<a href="https://www.alura.com.br/artigos/trabalhando-funcoes-de-agregacao">https://www.alura.com.br/artigos/trabalhando-funcoes-de-agregacao</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL: Comandos básicos (<a href="https://www.alura.com.br/artigos/sql-comandos-basicos">https://www.alura.com.br/artigos/sql-comandos-basicos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SQL: consultas com SELECT (<a href="https://www.alura.com.br/artigos/sql-consultas-com-select">https://www.alura.com.br/artigos/sql-consultas-com-select</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso SQL com MySQL: manipule e consulte dados (<a href="https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql">https://cursos.alura.com.br/course/mysql-manipule-dados-com-sql</a>)</li>
+<li><code data-kind="podcast">Podcast</code> NoSQL: por quê? (<a href="https://cursos.alura.com.br/extra/hipsterstech/nosql-por-que-hipsters-22-a564">https://cursos.alura.com.br/extra/hipsterstech/nosql-por-que-hipsters-22-a564</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso MongoDB: conhecendo um banco de dados NoSQL (<a href="https://cursos.alura.com.br/course/mongodb-banco-dados-nosql">https://cursos.alura.com.br/course/mongodb-banco-dados-nosql</a>)</li>
+</ul>
+<h3>Sistemas operacionais:</h3>
 <ul><li>O conhecimento em sistemas operacionais é crucial para uma pessoa administradora de banco de dados (DBA), pois muitas das tarefas críticas associadas ao gerenciamento de banco de dados estão intrinsecamente ligadas ao sistema operacional sob o qual o banco de dados opera. Os DBAs devem entender como os recursos do sistema operacional, como gerenciamento de memória, processamento e segurança, impactam o desempenho, a estabilidade e a segurança do banco de dados. Além disso, habilidades em sistemas operacionais permitem que os DBAs otimizem o sistema de banco de dados para uso eficiente dos recursos do sistema, executem tarefas administrativas como backups e restaurações de forma mais eficaz e implementem medidas de segurança robustas. Esse conhecimento é essencial para garantir que os bancos de dados sejam confiáveis, seguros e capazes de atender às demandas de performance exigidas pelas aplicações empresariais.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Big Data - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O QUE É UM SISTEMA OPERACIONAL E QUAIS SÃO OS PRINCIPAIS? (<a href="https://www.insper.edu.br/noticias/o-que-e-um-sistema-operacional-e-quais-sao-os-principais/">https://www.insper.edu.br/noticias/o-que-e-um-sistema-operacional-e-quais-sao-os-principais/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Microsoft Windows: um guia completo sobre o sistema operacional (<a href="https://www.tecmundo.com.br/software/266095-microsoft-windows-guia-completo-sistema-operacional.htm">https://www.tecmundo.com.br/software/266095-microsoft-windows-guia-completo-sistema-operacional.htm</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Sistema Operacional - Windows (<a href="https://www.youtube.com/watch?v=Fa8Fj4BFtb8">https://www.youtube.com/watch?v=Fa8Fj4BFtb8</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux Professional Institute (<a href="https://www.lpi.org/pt-br/value-of-certification/new-to-linux/?gad_source=1&gclid=CjwKCAjw65-zBhBkEiwAjrqRMB_vzFFWn625RMuwb8TF5baCyOZaoTbTvj9qHo9AJamYPvgJD5eyvBoCbgIQAvD_BwE">https://www.lpi.org/pt-br/value-of-certification/new-to-linux/?gad_source=1&amp;gclid=CjwKCAjw65-zBhBkEiwAjrqRMB_vzFFWn625RMuwb8TF5baCyOZaoTbTvj9qHo9AJamYPvgJD5eyvBoCbgIQAvD_BwE</a>)</li>
+<li><code data-kind="artigo">Artigo</code> MacOS: o que é e como funciona (<a href="https://www.blogdodispositivo.com.br/mac-os-o-que-e-e-como-funciona/">https://www.blogdodispositivo.com.br/mac-os-o-que-e-e-como-funciona/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Sistemas operacionais: conceito e estrutura (<a href="https://www.alura.com.br/artigos/sistemas-operacionais-conceito-estrutura">https://www.alura.com.br/artigos/sistemas-operacionais-conceito-estrutura</a>)</li>
+<li><code data-kind="curso">Curso</code> Começando com Linux (<a href="https://cursos.alura.com.br/formacao-comecando-linux">https://cursos.alura.com.br/formacao-comecando-linux</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Trabalhando com caminhos e pastas no terminal (<a href="https://www.alura.com.br/artigos/trabalhando-com-caminhos-e-pastas-no-terminal">https://www.alura.com.br/artigos/trabalhando-com-caminhos-e-pastas-no-terminal</a>)</li>
+</ul>
+<h3>Big Data - Fundamentos:</h3>
 <ul><li>Big Data refere-se a conjuntos de dados extremamente grandes e complexos, que não podem ser facilmente processados ou gerenciados por métodos tradicionais. Esses conjuntos de dados são caracterizados por seu volume massivo, velocidade de geração e variedade de tipos e formatos. Com a explosão da quantidade de dados gerados diariamente, provenientes de diversas fontes como redes sociais, dispositivos IoT e transações comerciais, o Big Data apresenta desafios e oportunidades para extrair insights valiosos e tomar decisões informadas.</li>
 <li>A análise de Big Data envolve o uso de técnicas e tecnologias avançadas, como armazenamento distribuído, processamento em paralelo e aprendizado de máquina, para explorar e transformar esses dados em informações significativas para empresas, organizações e pesquisadores.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Provedores</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Oracle: O que é Big Data? (<a href="https://www.oracle.com/br/big-data/what-is-big-data/">https://www.oracle.com/br/big-data/what-is-big-data/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Big Data (<a href="https://www.youtube.com/watch?v=IpfE8B9H9cI">https://www.youtube.com/watch?v=IpfE8B9H9cI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Nerdologia: BIG DATA (<a href="https://www.youtube.com/watch?v=hEFFCKxYbKM&pp=ygUIQklHIERBVEE%3D&ab_channel=Nerdologia">https://www.youtube.com/watch?v=hEFFCKxYbKM&amp;pp=ygUIQklHIERBVEE%3D&amp;ab_channel=Nerdologia</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A Era do Big Data (<a href="https://medium.com/gabriel-luz/a-era-do-big-data-64ebad5859f2">https://medium.com/gabriel-luz/a-era-do-big-data-64ebad5859f2</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Curso de Big Data (<a href="https://www.youtube.com/playlist?list=PLzKHEB8QCel8UIA2JfUTYQaUgvJa6mUog">https://www.youtube.com/playlist?list=PLzKHEB8QCel8UIA2JfUTYQaUgvJa6mUog</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Big Data: Entenda mais sobre esse conceito (<a href="https://www.alura.com.br/artigos/big-data">https://www.alura.com.br/artigos/big-data</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Big Data e Apache Spark (<a href="https://www.hipsters.tech/big-data-e-apache-spark-hipsters-ponto-tech-341/">https://www.hipsters.tech/big-data-e-apache-spark-hipsters-ponto-tech-341/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Big Data e Data Science: pra quê afinal? (<a href="https://www.hipsters.tech/big-data-e-data-science-pra-que-afinal-hipsters-73/">https://www.hipsters.tech/big-data-e-data-science-pra-que-afinal-hipsters-73/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Small Data, Big Data, Open Data (<a href="https://www.hipsters.tech/small-data-big-data-open-data-hipsters-42/">https://www.hipsters.tech/small-data-big-data-open-data-hipsters-42/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Big Data com Apache Spark (<a href="https://www.youtube.com/watch?v=3aSfKsBhU5E&ab_channel=Alura">https://www.youtube.com/watch?v=3aSfKsBhU5E&amp;ab_channel=Alura</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Iniciando um projeto Spark no Google Colab (<a href="https://www.alura.com.br/artigos/iniciando-projeto-spark-no-colab">https://www.alura.com.br/artigos/iniciando-projeto-spark-no-colab</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Apache Spark com Python (<a href="https://cursos.alura.com.br/formacao-apache-spark-python">https://cursos.alura.com.br/formacao-apache-spark-python</a>)</li>
+</ul>
+<h3>Cloud - Provedores:</h3>
 <ul><li>Conhecer os principais provedores de serviços em nuvem e suas ofertas.</li>
 <li>Comparar as características e serviços oferecidos por diferentes provedores.</li>
 <li>Entender como selecionar o provedor de serviços em nuvem adequado para suas necessidades.</li>
 <li>Explorar as tendências e inovações no mercado de serviços em nuvem.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> O que é Google Cloud e por que aprender? (<a href="https://www.youtube.com/shorts/Lzq3f1DHWcI">https://www.youtube.com/shorts/Lzq3f1DHWcI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabs Ferreira: Por que investir e estudar cloud? (<a href="https://www.youtube.com/watch?v=Z45BTNeZ1l0">https://www.youtube.com/watch?v=Z45BTNeZ1l0</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações (<a href="https://www.alura.com.br/artigos/aws">https://www.alura.com.br/artigos/aws</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conheça o Microsoft Azure: ferramenta para criar serviços de nuvem (<a href="https://www.alura.com.br/artigos/microsoft-azure-ferramenta-servicos-de-nuvem">https://www.alura.com.br/artigos/microsoft-azure-ferramenta-servicos-de-nuvem</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS, Google Cloud e Azure: Por onde começar? (<a href="https://www.youtube.com/watch?v=z9k6rsdmWc0&t=300s">https://www.youtube.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Banco de dados Oracle</strong>:</li>
+<h3>Banco de dados Oracle:</h3>
 <ul><li>Para um DBA especializado em Oracle, é vital dominar conceitos fundamentais de bancos de dados relacionais (RDBMS) e habilidades avançadas em SQL. Compreender a estrutura e o funcionamento dos RDBMS, é crucial para manter a integridade e a performance dos sistemas. Conhecimentos específicos, como manipulação de texto em SQL e o uso de CTEs são essenciais para a otimização de consultas complexas. O DBA deve ser capaz de gerenciar eficientemente o Oracle Database, garantindo operações robustas e inovadoras para a organização.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>PostgreSQL</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Oracle: O que é um banco de dados relacional (RDBMS)? (<a href="https://www.oracle.com/br/database/what-is-a-relational-database/">https://www.oracle.com/br/database/what-is-a-relational-database/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Linguagem SQL - Manipulando texto por Carlos Santos (<a href="https://www.linkedin.com/pulse/1z0-071-1z0-082-linguagem-sql-manipulando-texto-carlos-santos-dw3if/">https://www.linkedin.com/pulse/1z0-071-1z0-082-linguagem-sql-manipulando-texto-carlos-santos-dw3if/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SGBDs Relacionais (<a href="https://www.alura.com.br/artigos/sgbds-relacionais">https://www.alura.com.br/artigos/sgbds-relacionais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SGBDs e suas linguagens internas (<a href="https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas">https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CTE: o que é e para que serve no SQL (<a href="https://www.alura.com.br/artigos/cte-o-que-e-para-que-serve-sql">https://www.alura.com.br/artigos/cte-o-que-e-para-que-serve-sql</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é e como usar Trigger em SQL (<a href="https://www.alura.com.br/artigos/trigger-em-sql">https://www.alura.com.br/artigos/trigger-em-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Consultas com Oracle Database (<a href="https://cursos.alura.com.br/formacao-oracle-database-sql-plsql">https://cursos.alura.com.br/formacao-oracle-database-sql-plsql</a>)</li>
+</ul>
+<h3>PostgreSQL:</h3>
 <ul><li>Para um DBA especializado em PostgreSQL, dominar os conceitos fundamentais dos bancos de dados relacionais (RDBMS) e as funcionalidades avançadas do sistema é essencial. Compreender a estrutura e o funcionamento do PostgreSQL é crucial para garantir a eficiência e a integridade dos dados, além de assegurar uma performance otimizada dos sistemas. Conhecimentos avançados em SQL, como manipulação de texto e o uso de CTEs, são indispensáveis para a execução eficaz de consultas complexas. Além disso, a capacidade de gerenciar eficientemente o PostgreSQL, incluindo o uso de comandos DML e DDL, triggers, transações e desenvolvimento com PL/pgSQL, é vital para manter operações robustas e inovadoras. Isso permite que o DBA contribua significativamente para a estabilidade e a evolução tecnológica da organização.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>MySQL</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é PostgreSQL? (<a href="https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-postgresql">https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-postgresql</a>)</li>
+<li><code data-kind="artigo">Artigo</code> PostgreSQL x SQL Server: quais são as principais diferenças? (<a href="https://cloud.google.com/learn/postgresql-vs-sql?hl=pt-br">https://cloud.google.com/learn/postgresql-vs-sql?hl=pt-br</a>)</li>
+<li><code data-kind="livro">Livro</code> PostgreSQL: Banco de dados para aplicações web modernas por Vinícius Carvalho (<a href="https://www.casadocodigo.com.br/products/livro-postgresql">https://www.casadocodigo.com.br/products/livro-postgresql</a>)</li>
+<li><code data-kind="artigo">Artigo</code> PostgreSQL: saiba o que é, para que serve e como instalar (<a href="https://rockcontent.com/br/blog/postgresql/">https://rockcontent.com/br/blog/postgresql/</a>)</li>
+<li><code data-kind="site">Site</code> CREATE FUNCTION (<a href="https://www.postgresql.org/docs/current/sql-createfunction.html">https://www.postgresql.org/docs/current/sql-createfunction.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SGBDs Relacionais (<a href="https://www.alura.com.br/artigos/sgbds-relacionais">https://www.alura.com.br/artigos/sgbds-relacionais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SGBDs e suas linguagens internas (<a href="https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas">https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CTE: o que é e para que serve no SQL (<a href="https://www.alura.com.br/artigos/cte-o-que-e-para-que-serve-sql">https://www.alura.com.br/artigos/cte-o-que-e-para-que-serve-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> PostgreSQL (<a href="https://cursos.alura.com.br/course/introducao-postgresql-primeiros-passos">https://cursos.alura.com.br/course/introducao-postgresql-primeiros-passos</a>)</li>
+<li><code data-kind="curso">Curso</code> PostgreSQL: Views, Sub-Consultas e Funções (<a href="https://cursos.alura.com.br/course/postgresql-views-sub-consultas-funcoes">https://cursos.alura.com.br/course/postgresql-views-sub-consultas-funcoes</a>)</li>
+<li><code data-kind="curso">Curso</code> PostgreSQL: comandos DML e DDL (<a href="https://cursos.alura.com.br/course/pgsql-comandos-dml-ddl">https://cursos.alura.com.br/course/pgsql-comandos-dml-ddl</a>)</li>
+<li><code data-kind="curso">Curso</code> PostgreSQL: desenvolva com PL/pgSQL (<a href="https://cursos.alura.com.br/course/postgresql-procedures">https://cursos.alura.com.br/course/postgresql-procedures</a>)</li>
+<li><code data-kind="curso">Curso</code> PostgreSQL: Triggers, transações, erros e cursores (<a href="https://cursos.alura.com.br/course/postgresql-triggers-transacoes-erros-cursores">https://cursos.alura.com.br/course/postgresql-triggers-transacoes-erros-cursores</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é e como usar Trigger em SQL (<a href="https://www.alura.com.br/artigos/trigger-em-sql">https://www.alura.com.br/artigos/trigger-em-sql</a>)</li>
+</ul>
+<h3>MySQL:</h3>
 <ul><li>Para um DBA especializado em MySQL, é fundamental ter um domínio abrangente desse sistema de banco de dados, que é amplamente utilizado devido à sua confiabilidade e versatilidade. Aprender os conceitos básicos e avançados de MySQL permite ao DBA garantir que os dados estejam sempre disponíveis, seguros e otimizados para o melhor desempenho possível. Conhecimentos em consultas SQL, utilização de funções e operadores, e habilidades em manipulação de dados são essenciais para gerenciar eficientemente o banco de dados, suportando aplicações críticas. Além disso, entender como implementar e gerenciar triggers e Common Table Expressions (CTEs) pode melhorar significativamente a eficiência e a manutenção do banco de dados. O domínio de ferramentas modernas, como Docker, para rodar instâncias do MySQL também é crucial para a flexibilidade e escalabilidade dos ambientes de desenvolvimento e produção. Com essa expertise, o DBA pode assegurar uma operação estável e eficiente, contribuindo para a inovação e a continuidade dos negócios.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL Server</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Otávio Miranda: Curso de SQL com MySQL (Completo) (<a href="https://www.youtube.com/watch?v=lHYV_H1526Q&list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk">https://www.youtube.com/watch?v=lHYV_H1526Q&amp;list=PLbIBj8vQhvm2WT-pjGS5x7zUzmh4VgvRk</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Explorando o MySQL: Um Guia para Iniciantes</li>
+<li><code data-kind="artigo">Artigo</code> Funções mais Usadas no SQL</li>
+<li><code data-kind="site">Site</code> Funções e Operadores (<a href="https://dev.mysql.com/doc/refman/8.4/en/functions.html">https://dev.mysql.com/doc/refman/8.4/en/functions.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SGBDs Relacionais (<a href="https://www.alura.com.br/artigos/sgbds-relacionais">https://www.alura.com.br/artigos/sgbds-relacionais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SGBDs e suas linguagens internas (<a href="https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas">https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é e como usar Trigger em SQL (<a href="https://www.alura.com.br/artigos/trigger-em-sql">https://www.alura.com.br/artigos/trigger-em-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Como rodar MySQL com Docker? (<a href="https://cursos.alura.com.br/extra/alura-mais/como-rodar-mysql-com-docker--c132">https://cursos.alura.com.br/extra/alura-mais/como-rodar-mysql-com-docker--c132</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CTE: o que é e para que serve no SQL (<a href="https://www.alura.com.br/artigos/cte-o-que-e-para-que-serve-sql">https://www.alura.com.br/artigos/cte-o-que-e-para-que-serve-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Consultas com MySQL (<a href="https://cursos.alura.com.br/formacao-consultas-mysql">https://cursos.alura.com.br/formacao-consultas-mysql</a>)</li>
+</ul>
+<h3>SQL Server:</h3>
 <ul><li>O aprofundamento nos conhecimentos de SQL Server é vital para uma pessoa administradora de banco de dados (DBA), visto que este sistema de gerenciamento de banco de dados da Microsoft é amplamente utilizado por corporações para armazenamento de dados, processamento de transações e análise. Dominar o SQL Server equipa o DBA com habilidades essenciais para efetuar a instalação, configuração, tuning e manutenção, garantindo que o banco de dados funcione com eficiência e segurança.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>MongoDB</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> PostgreSQL x SQL Server: quais são as principais diferenças? (<a href="https://cloud.google.com/learn/postgresql-vs-sql?hl=pt-br">https://cloud.google.com/learn/postgresql-vs-sql?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Quais são as funções do banco de dados SQL? (<a href="https://learn.microsoft.com/pt-br/sql/t-sql/functions/functions?view=sql-server-ver16">https://learn.microsoft.com/pt-br/sql/t-sql/functions/functions?view=sql-server-ver16</a>)</li>
+<li><code data-kind="site">Site</code> Consultas (<a href="https://learn.microsoft.com/pt-br/sql/t-sql/queries/queries?view=sql-server-ver16">https://learn.microsoft.com/pt-br/sql/t-sql/queries/queries?view=sql-server-ver16</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> SGBDs Relacionais (<a href="https://www.alura.com.br/artigos/sgbds-relacionais">https://www.alura.com.br/artigos/sgbds-relacionais</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SGBDs e suas linguagens internas (<a href="https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas">https://www.alura.com.br/artigos/sgbds-suas-linguagens-internas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é e como usar Trigger em SQL (<a href="https://www.alura.com.br/artigos/trigger-em-sql">https://www.alura.com.br/artigos/trigger-em-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: conhecendo SQL (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-conhecendo-sql">https://cursos.alura.com.br/course/microsoft-sql-server-conhecendo-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: consultas avançadas (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-2022-consultas-avancadas">https://cursos.alura.com.br/course/microsoft-sql-server-2022-consultas-avancadas</a>)</li>
+<li><code data-kind="artigo">Artigo</code> CTE: o que é e para que serve no SQL (<a href="https://www.alura.com.br/artigos/cte-o-que-e-para-que-serve-sql">https://www.alura.com.br/artigos/cte-o-que-e-para-que-serve-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: manipulando dados (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-2022-manipulando-dados">https://cursos.alura.com.br/course/microsoft-sql-server-2022-manipulando-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: conhecendo o T-SQL (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-2022-conhecendo-t-sql">https://cursos.alura.com.br/course/microsoft-sql-server-2022-conhecendo-t-sql</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: aprofundando em procedures e funções (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-2022-procedures-funcoes">https://cursos.alura.com.br/course/microsoft-sql-server-2022-procedures-funcoes</a>)</li>
+</ul>
+<h3>MongoDB:</h3>
 <ul><li>O conhecimento em MongoDB, um dos principais bancos de dados NoSQL orientado a documentos, é extremamente valioso para uma pessoa administradora de banco de dados (DBA) devido às características únicas que este oferece. Com o crescimento de aplicações que exigem flexibilidade na modelagem de dados e a capacidade de lidar com grandes volumes de dados não estruturados ou semi-estruturados, o MongoDB apresenta-se como uma solução eficaz. Para o DBA, dominar o MongoDB significa habilidade em implementar esquemas dinâmicos e realizar consultas complexas com eficiência. Além disso, o MongoDB oferece recursos robustos de escalabilidade horizontal, suportando grandes cargas de trabalho distribuídas, o que é essencial para empresas que processam grandes quantidades de dados em tempo real. O conhecimento dessa tecnologia permite que o DBA contribua significativamente para a agilidade e a inovação tecnológica dentro da organização, garantindo que os sistemas de dados sejam tanto escaláveis quanto adaptáveis às necessidades empresariais em constante mudança.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Data Warehouses</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Código Fonte TV: MongoDB (O Banco de Dados NoSQL mais Legal) (<a href="https://www.youtube.com/watch?v=4dTI1mVLX3I">https://www.youtube.com/watch?v=4dTI1mVLX3I</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Principais diferenças de um banco de dados tradicional e o MongoDB (<a href="https://papito.medium.com/principais-diferen%C3%A7as-de-um-banco-de-dados-tradicional-e-o-mongodb-4fc1117453f8">https://papito.medium.com/principais-diferen%C3%A7as-de-um-banco-de-dados-tradicional-e-o-mongodb-4fc1117453f8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ricardo Leme: Introdução ao NoSQL-MongoDB (<a href="https://www.youtube.com/watch?v=kedLyo95fGU&list=PLyqlZW5s3wkoMhARQKp3s4YtaeKucb0Xj">https://www.youtube.com/watch?v=kedLyo95fGU&amp;list=PLyqlZW5s3wkoMhARQKp3s4YtaeKucb0Xj</a>)</li>
+<li><code data-kind="site">Site</code> Manual do MongoDB: Operações de agregação (<a href="https://www.mongodb.com/pt-br/docs/manual/aggregation/">https://www.mongodb.com/pt-br/docs/manual/aggregation/</a>)</li>
+<li><code data-kind="site">Site</code> Operações do MongoDB CRUD (<a href="https://www.mongodb.com/pt-br/docs/manual/crud/">https://www.mongodb.com/pt-br/docs/manual/crud/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> MongoDB - Hipsters Ponto Tech #305 (<a href="https://cursos.alura.com.br/extra/hipsterstech/mongodb-hipsters-ponto-tech-305-a1525">https://cursos.alura.com.br/extra/hipsterstech/mongodb-hipsters-ponto-tech-305-a1525</a>)</li>
+<li><code data-kind="artigo">Artigo</code> MongoDB: o que é, quais suas características e benefícios e como trabalhar nessa ferramenta (<a href="https://www.alura.com.br/artigos/mongodb">https://www.alura.com.br/artigos/mongodb</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cassandra ou MongoDB, qual a melhor escolha para o meu projeto? (<a href="https://www.alura.com.br/artigos/cassandra-ou-mongodb-qual-a-melhor-escolha-para-o-meu-projeto">https://www.alura.com.br/artigos/cassandra-ou-mongodb-qual-a-melhor-escolha-para-o-meu-projeto</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como instalar o MongoDB, Compass e Shell no sistema operacional Linux? (<a href="https://www.alura.com.br/artigos/como-instalar-mongodb-compass-shell-sistema-linux">https://www.alura.com.br/artigos/como-instalar-mongodb-compass-shell-sistema-linux</a>)</li>
+<li><code data-kind="curso">Curso</code> MongoDB: conhecendo um banco de dados NoSQL (<a href="https://cursos.alura.com.br/course/mongodb-banco-dados-nosql">https://cursos.alura.com.br/course/mongodb-banco-dados-nosql</a>)</li>
+<li><code data-kind="curso">Curso</code> MongoDB: validando dados (<a href="https://cursos.alura.com.br/course/mongodb-validando-dados">https://cursos.alura.com.br/course/mongodb-validando-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> MongoDB: modelagem de dados (<a href="https://cursos.alura.com.br/course/mongodb-modelagem-de-dados">https://cursos.alura.com.br/course/mongodb-modelagem-de-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> MongoDB: realizando consultas (<a href="https://cursos.alura.com.br/course/mongodb-realizando-consultas">https://cursos.alura.com.br/course/mongodb-realizando-consultas</a>)</li>
+</ul>
+<h3>Data Warehouses:</h3>
 <ul><li>Um Data Warehouse é um sistema de armazenamento de dados projetado para análise de negócios, suportando processamento de transações e consultas complexas. Ele permite a consolidação de dados de várias fontes, fornecendo um ambiente unificado para análise de dados. Com recursos de normalização e limpeza de dados, garante a qualidade e a consistência dos dados armazenados. Soluções de Data Warehouse populares incluem Google BigQuery, Amazon Redshift e Snowflake, cada uma com suas próprias características e benefícios únicos.</li>
 <li>Data Warehouses desempenham um papel crucial na engenharia de dados. Eles fornecem uma infraestrutura que facilita a gestão, o processamento e a análise de grandes volumes de dados. Sua capacidade de armazenar e processar grandes quantidades de dados de várias fontes permite análises avançadas e suporte à tomada de decisões, o que é fundamental no atual cenário empresarial orientado por dados. Os engenheiros de dados projetam, constroem e mantêm data warehouses para garantir que os dados estejam acessíveis, seguros e prontos para análise. Além disso, soluções modernas de data warehouse, como o BigQuery, o Amazon Redshift e o Snowflake, oferecem capacidades de escalabilidade e flexibilidade para lidar com o crescente volume, velocidade e variedade de dados, tornando-se ainda mais valiosos para a engenharia de dados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Data Lakes</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> AWS: O que é um data warehouse? (<a href="https://aws.amazon.com/pt/data-warehouse/">https://aws.amazon.com/pt/data-warehouse/</a>)</li>
+<li><code data-kind="site">Site</code> Oracle: O que é um data warehouse? (<a href="https://www.oracle.com/br/database/what-is-a-data-warehouse/">https://www.oracle.com/br/database/what-is-a-data-warehouse/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Aprofundando em Data Warehouse… (<a href="https://medium.com/@aasouzaconsult/aprofundando-em-data-warehouse-65ed2bca9a33">https://medium.com/@aasouzaconsult/aprofundando-em-data-warehouse-65ed2bca9a33</a>)</li>
+<li><code data-kind="site">Site</code> O que é o BigQuery? (<a href="https://cloud.google.com/bigquery/docs/introduction?hl=pt-br">https://cloud.google.com/bigquery/docs/introduction?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> GCP: O que é o BigQuery? (<a href="https://cloud.google.com/bigquery/docs/introduction?hl=pt-br">https://cloud.google.com/bigquery/docs/introduction?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> AWS: O que é o Amazon Redshift? (<a href="https://docs.aws.amazon.com/pt_br/redshift/latest/mgmt/welcome.html">https://docs.aws.amazon.com/pt_br/redshift/latest/mgmt/welcome.html</a>)</li>
+<li><code data-kind="site">Site</code> Snowflake: Conceitos-chave e arquitetura? (<a href="https://docs.snowflake.com/pt/user-guide/intro-key-concepts">https://docs.snowflake.com/pt/user-guide/intro-key-concepts</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tutorial: Construindo seu primeiro Data Warehouse na Nuvem (<a href="https://www.youtube.com/watch?v=Aeg8o5xJoN8">https://www.youtube.com/watch?v=Aeg8o5xJoN8</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação BigQuery (<a href="https://cursos.alura.com.br/formacao-bigquery">https://cursos.alura.com.br/formacao-bigquery</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação BI e Data Warehouse com SQL Server e Power BI (<a href="https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse">https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse</a>)</li>
+<li><code data-kind="curso">Curso</code> Data Warehouse com Data Marts e Power BI (<a href="https://cursos.alura.com.br/formacao-data-warehouse-data-marts-power-bi">https://cursos.alura.com.br/formacao-data-warehouse-data-marts-power-bi</a>)</li>
+<li><code data-kind="curso">Curso</code> “Data Warehouse com Data Lake e SQL Server&quot; (<a href="https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-data-lake-sql-server">https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-data-lake-sql-server</a>)</li>
+</ul>
+<h3>Data Lakes:</h3>
 <ul><li>Um Data Lake é uma arquitetura de armazenamento de dados que permite o armazenamento de grandes volumes de dados brutos em seu formato original, provenientes de diversas fontes e em vários formatos, como estruturado, semiestruturado e não estruturado. Diferentemente do Data Warehouse, que exige que os dados sejam limpos e estruturados antes de serem armazenados, o Data Lake permite o armazenamento de dados &quot;como estão&quot;, proporcionando flexibilidade para transformar e processar os dados conforme necessário para fins de análise.</li>
 <li>Data Lakes são fundamentais para a engenharia de dados devido à sua capacidade de lidar com a crescente variedade, volume e velocidade de dados gerados no mundo digital atual. Eles fornecem um meio econômico e escalável para armazenar e analisar grandes volumes de dados de diversas fontes, o que é fundamental para análises avançadas, como aprendizado de máquina e análise preditiva. Os engenheiros de dados são responsáveis pela construção e manutenção de Data Lakes, garantindo a ingestão de dados de maneira eficiente, o gerenciamento seguro dos dados e a implementação de processos de governança de dados. Além disso, os Data Lakes suportam a democratização dos dados, permitindo que diferentes partes interessadas, desde cientistas de dados até analistas de negócios, acessem os dados necessários para gerar insights valiosos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> AWS: O que é um data lake? (<a href="https://aws.amazon.com/pt/big-data/datalakes-and-analytics/what-is-a-data-lake/">https://aws.amazon.com/pt/big-data/datalakes-and-analytics/what-is-a-data-lake/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Data Warehouse / Data Lake / Data Lakehouse (<a href="https://www.youtube.com/watch?v=V07Pk4de-5M">https://www.youtube.com/watch?v=V07Pk4de-5M</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Data Lake: O componente essencial em uma Estratégia de Dados (<a href="https://www.linkedin.com/pulse/data-lake-o-componente-essencial-em-uma-estrat%C3%A9gia-de-brito-ruiz/?originalSubdomain=pt">https://www.linkedin.com/pulse/data-lake-o-componente-essencial-em-uma-estrat%C3%A9gia-de-brito-ruiz/?originalSubdomain=pt</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conceito de Datalake e armazenamentos possíveis (<a href="https://medium.com/rescuepoint/conceito-de-datalake-e-armazenamentos-poss%C3%ADveis-65f337924fc8">https://medium.com/rescuepoint/conceito-de-datalake-e-armazenamentos-poss%C3%ADveis-65f337924fc8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Data Lake x Data Warehouse: Onde armazenar seus dados? (<a href="https://medium.com/datalakers-blog/data-lake-x-data-warehouse-onde-armazenar-seus-dados-67534c9dcfad">https://medium.com/datalakers-blog/data-lake-x-data-warehouse-onde-armazenar-seus-dados-67534c9dcfad</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Seu primeiro passo no mundo analítico - Criando o primeiro datalake na AWS (<a href="https://www.youtube.com/watch?v=sVFT-XK6rk4">https://www.youtube.com/watch?v=sVFT-XK6rk4</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Alura: O que são Data Lakes? (<a href="https://www.youtube.com/watch?v=GkhuRcHsVMk">https://www.youtube.com/watch?v=GkhuRcHsVMk</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Data Lake vs Data Warehouse (<a href="https://www.alura.com.br/artigos/data-lake-vs-data-warehouse">https://www.alura.com.br/artigos/data-lake-vs-data-warehouse</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Data Lakes (<a href="https://www.hipsters.tech/data-lakes-hipsters-ponto-tech-269/">https://www.hipsters.tech/data-lakes-hipsters-ponto-tech-269/</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Engenharia de dados com Databricks (<a href="https://cursos.alura.com.br/formacao-databricks">https://cursos.alura.com.br/formacao-databricks</a>)</li>
+<li><code data-kind="site">Site</code> Hotmart e a Democratização de dados em um cenário de microsserviços (<a href="https://cursos.alura.com.br/extra/cases/hotmart-e-a-democratizacao-de-dados-em-um-cenario-de-microsservicos-z1066">https://cursos.alura.com.br/extra/cases/hotmart-e-a-democratizacao-de-dados-em-um-cenario-de-microsservicos-z1066</a>)</li>
+<li><code data-kind="site">Site</code> Banco Pan e a Jornada de construção de um Data Lake (<a href="https://cursos.alura.com.br/extra/cases/banco-pan-e-a-jornada-de-construcao-de-um-data-lake-z1284">https://cursos.alura.com.br/extra/cases/banco-pan-e-a-jornada-de-construcao-de-um-data-lake-z1284</a>)</li>
+<li><code data-kind="curso">Curso</code> “Data Warehouse com Data Lake e SQL Server&quot; (<a href="https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-data-lake-sql-server">https://cursos.alura.com.br/formacao-business-intelligence-data-warehouse-data-lake-sql-server</a>)</li>
+</ul>
+<h3>Cloud - Fundamentos:</h3>
 <ul><li>Cloud, ou computação em nuvem é a distribuição de serviços de computação pela Internet usando um modelo de preço pago conforme o uso. Uma nuvem é composta de vários recursos de computação, que abrangem desde os próprios computadores (ou instâncias, na terminologia de nuvem) até redes, armazenamento, bancos de dados e o que estiver em torno deles. Ou seja, tudo o que normalmente é necessário para montar o equivalente a uma sala de servidores, ou mesmo um data center completo, estará pronto para ser utilizado, configurado e executado.</li>
 <li>Conhecer a diferença entre IaaS, PaaS e SaaS</li>
 <li>Conhecer os maiores provedores de cloud</li>
 <li>Especializar-se em algum provedor</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Computação em nuvem (<a href="https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9">https://medium.com/sysadminas/computa%C3%A7%C3%A3o-em-nuvem-515930304cf9</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é cloud? (<a href="https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6">https://gabriel-faraday.medium.com/o-que-%C3%A9-cloud-991109e708c6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabs Ferreira: Por que investir e estudar cloud? (<a href="https://www.youtube.com/watch?v=Z45BTNeZ1l0">https://www.youtube.com/watch?v=Z45BTNeZ1l0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Andre Iacono: O que é MICROSOFT AZURE? Qual Certificação começar em 2022? (<a href="https://www.youtube.com/watch?v=f-oVzkvMwnE">https://www.youtube.com/watch?v=f-oVzkvMwnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AWS: O que é a AWS? (<a href="https://www.youtube.com/watch?v=8JI9wQ8sUdQ">https://www.youtube.com/watch?v=8JI9wQ8sUdQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Google Cloud e por que aprender? (<a href="https://www.youtube.com/shorts/Lzq3f1DHWcI">https://www.youtube.com/shorts/Lzq3f1DHWcI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS vs Google Cloud vs Azure: o que cada um tem de melhor? (<a href="https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7">https://medium.com/data-hackers/aws-vs-google-cloud-vs-azure-o-que-cada-um-tem-de-melhor-52107174f7b7</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Azure (A plataforma Cloud da Microsoft) (<a href="https://www.youtube.com/watch?v=YgE-sZaCuJ0">https://www.youtube.com/watch?v=YgE-sZaCuJ0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mundo da Cloud: AWS do Zero ao Expert (<a href="https://www.youtube.com/watch?v=HiBCv9DolxI&list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz">https://www.youtube.com/watch?v=HiBCv9DolxI&amp;list=PLtL97Owd1gkQ0dfqGW8OtJ-155Gs67Ecz</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Hipsters.tech: TechGuide - Fundamentos Cloud – Hipsters Ponto Tech #348 (<a href="https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/">https://www.hipsters.tech/techguide-fundamentos-cloud-hipsters-ponto-tech-348/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cloud: o que é, História e Guia da computação em nuvem (<a href="https://www.alura.com.br/artigos/cloud">https://www.alura.com.br/artigos/cloud</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Uma jornada Para o Cloud - Hipsters Deep Dive 005 (<a href="https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100">https://www.alura.com.br/podcast/uma-jornada-para-o-cloud-hipsters-deep-dive-005-a1100</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Histórias do Cloud - Hipsters 04 (<a href="https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582">https://www.alura.com.br/podcast/historias-do-cloud-hipsters-04-a582</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Heroku, Vercel e outras opções de cloud como plataforma (<a href="https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma">https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma</a>)</li>
+<li><code data-kind="artigo">Artigo</code> AWS: Guia sobre o que é Amazon Web Services, seus Serviços e Certificações (<a href="https://www.alura.com.br/artigos/aws">https://www.alura.com.br/artigos/aws</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Terraform: criando máquinas na Azure (<a href="https://www.alura.com.br/artigos/terraform-maquinas-na-azure">https://www.alura.com.br/artigos/terraform-maquinas-na-azure</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é cloud? (<a href="https://www.YOUTUBE.com/watch?v=wev9fMrg-TU">https://www.YOUTUBE.com/watch?v=wev9fMrg-TU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: AWS, Google Cloud e Azure: Por onde começar? | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&t=300s">https://www.YOUTUBE.com/watch?v=z9k6rsdmWc0&amp;t=300s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Certificação em Cloud: Azure, AWS, Google | Hipsters.Talks (<a href="https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&t=290s">https://www.YOUTUBE.com/watch?v=W4K82n_WK5g&amp;t=290s</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Começando em Cloud Computing (<a href="https://cursos.alura.com.br/formacao-cloud-computing">https://cursos.alura.com.br/formacao-cloud-computing</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Amazon Web Services (<a href="https://cursos.alura.com.br/formacao-amazon-web-services">https://cursos.alura.com.br/formacao-amazon-web-services</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AWS Certified Cloud Practitioner (<a href="https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner">https://cursos.alura.com.br/formacao-aws-certified-cloud-practitioner</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Containers com AWS ECS e EKS (<a href="https://cursos.alura.com.br/formacao-containers-aws">https://cursos.alura.com.br/formacao-containers-aws</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Google Cloud Platform (<a href="https://cursos.alura.com.br/formacao-google-cloud">https://cursos.alura.com.br/formacao-google-cloud</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação Google Certified Associate Cloud Engineer (<a href="https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer">https://cursos.alura.com.br/formacao-google-certified-associate-cloud-engineer</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Azure (<a href="https://cursos.alura.com.br/formacao-conhecendo-azure">https://cursos.alura.com.br/formacao-conhecendo-azure</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Certificação AZ-900: Microsoft Azure Fundamentals (<a href="https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals">https://cursos.alura.com.br/formacao-certificacao-az-900-microsoft-azure-fundamentals</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Administração de banco de dados Oracle</strong>:</li>
+<h3>Administração de banco de dados Oracle:</h3>
 <ul><li>Dominar conceitos de administração do Oracle é crucial para um DBA porque garante a eficiência, segurança e disponibilidade dos dados críticos de uma organização. Habilidades em otimização de consultas, gerenciamento de índices e manutenção de transações são essenciais para assegurar que os sistemas de banco de dados funcionem com alta performance e minimizem o tempo de inatividade. Além disso, a capacidade de diagnosticar e resolver problemas rapidamente mantém a integridade e a consistência dos dados, permitindo que a infraestrutura de TI suporte as operações empresariais de maneira robusta e confiável. Essa expertise é fundamental para que o DBA não apenas mantenha os sistemas estáveis, mas também contribua para a melhoria contínua da infraestrutura de dados da empresa.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Administração do PostgreSQL</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Consultas básicas para o DBA Oracle (<a href="https://www.linkedin.com/pulse/consultas-b%25C3%25A1sicas-para-o-dba-oracle-carlos-junior/">https://www.linkedin.com/pulse/consultas-b%25C3%25A1sicas-para-o-dba-oracle-carlos-junior/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Consultas básicas para o DBA Oracle - Parte 2 (<a href="https://www.linkedin.com/pulse/consultas-b%C3%A1sicas-para-o-dba-oracle-parte-2-carlos-junior-pb1af/">https://www.linkedin.com/pulse/consultas-b%C3%A1sicas-para-o-dba-oracle-parte-2-carlos-junior-pb1af/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Otimizando consultas usando índices no banco de dados Oracle (<a href="https://labs.bluesoft.com.br/2020/03/23/otimizando-consultas-usando-indices-no-banco-de-dados-oracle/">https://labs.bluesoft.com.br/2020/03/23/otimizando-consultas-usando-indices-no-banco-de-dados-oracle/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tudo Sobre Desempenho de Consultas (SQL) (<a href="https://medium.com/@maricae26/tudo-sobre-desempenho-de-consultas-sql-a320d9f11bae">https://medium.com/@maricae26/tudo-sobre-desempenho-de-consultas-sql-a320d9f11bae</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Administração e performance com Oracle Database (<a href="https://cursos.alura.com.br/formacao-oracle-database-administracao-performance">https://cursos.alura.com.br/formacao-oracle-database-administracao-performance</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Transações no SQL: Mantendo os dados íntegros e consistentes (<a href="https://www.alura.com.br/artigos/transacoes-no-sql-mantendo-os-dados-integros-e-consistentes">https://www.alura.com.br/artigos/transacoes-no-sql-mantendo-os-dados-integros-e-consistentes</a>)</li>
+</ul>
+<h3>Administração do PostgreSQL:</h3>
 <ul><li>Para um DBA, dominar a administração do PostgreSQL é vital para garantir que os sistemas de banco de dados operem com alta eficiência e segurança. O PostgreSQL é conhecido por sua robustez e flexibilidade, mas para tirar o máximo proveito dessas qualidades, é necessário um profundo entendimento de como realizar backups, restaurações, e otimizar o desempenho das consultas SQL. Habilidades em gerenciamento de transações asseguram a integridade e a consistência dos dados, fundamentais em ambientes onde a precisão dos dados é crítica. Além disso, a capacidade de monitorar e ajustar a performance do sistema permite que o DBA mantenha uma infraestrutura ágil e confiável, capaz de suportar as crescentes demandas de aplicações modernas. Esses conhecimentos não apenas mantêm a operação dos bancos de dados estável, mas também promovem melhorias contínuas que impulsionam a eficiência e a inovação dentro da organização.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Administração do MySQL</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="livro">Livro</code> PostgreSQL: Banco de dados para aplicações web modernas por Vinícius Carvalho</li>
+<li><code data-kind="artigo">Artigo</code> Tudo Sobre Desempenho de Consultas (SQL) (<a href="https://medium.com/@maricae26/tudo-sobre-desempenho-de-consultas-sql-a320d9f11bae">https://medium.com/@maricae26/tudo-sobre-desempenho-de-consultas-sql-a320d9f11bae</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como fazer backup e restore no PostgreSQL (<a href="https://blog.tecnospeed.com.br/backup-e-restore-postgresql/">https://blog.tecnospeed.com.br/backup-e-restore-postgresql/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> PostgreSQL Database Backup and Restore: A Comprehensive Guide with Examples (<a href="https://www.linkedin.com/pulse/postgresql-database-backup-restore-comprehensive-viswanatham/">https://www.linkedin.com/pulse/postgresql-database-backup-restore-comprehensive-viswanatham/</a>)</li>
+<li><code data-kind="site">Site</code> Backup e restauração (<a href="https://www.postgresql.org/docs/16/backup.html">https://www.postgresql.org/docs/16/backup.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> PostgreSQL: administração e otimização do banco (<a href="https://cursos.alura.com.br/course/postgresql-administracao-otimizacao">https://cursos.alura.com.br/course/postgresql-administracao-otimizacao</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Transações no SQL: Mantendo os dados íntegros e consistentes (<a href="https://www.alura.com.br/artigos/transacoes-no-sql-mantendo-os-dados-integros">https://www.alura.com.br/artigos/transacoes-no-sql-mantendo-os-dados-integros</a>)</li>
+</ul>
+<h3>Administração do MySQL:</h3>
 <ul><li>Para um DBA, dominar a administração do MySQL é essencial para garantir a eficiência, segurança e disponibilidade dos dados. MySQL é amplamente utilizado devido à sua confiabilidade e facilidade de uso, mas para maximizar seu potencial, o DBA precisa ser proficiente em áreas como backup e recuperação de dados, otimização de consultas e gerenciamento de índices. Essas habilidades asseguram que os sistemas de banco de dados operem com alto desempenho e que os dados sejam recuperáveis em caso de falhas. Além disso, a compreensão profunda de como manter a integridade e a consistência dos dados através do gerenciamento de transações é crucial em cenários onde a precisão dos dados é vital. Ao dominar essas práticas, o DBA pode manter uma infraestrutura de banco de dados robusta, segura e otimizada, essencial para suportar as operações críticas e o crescimento da organização.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Administração do SQL Server</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Tudo Sobre Desempenho de Consultas (SQL) (<a href="https://medium.com/@maricae26/tudo-sobre-desempenho-de-consultas-sql-a320d9f11bae">https://medium.com/@maricae26/tudo-sobre-desempenho-de-consultas-sql-a320d9f11bae</a>)</li>
+<li><code data-kind="site">Site</code> Backup e restauração (<a href="https://dev.mysql.com/doc/refman/8.4/en/backup-and-recovery.html">https://dev.mysql.com/doc/refman/8.4/en/backup-and-recovery.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Índices em MySQL (<a href="https://www.bosontreinamentos.com.br/mysql/indices-em-mysql">https://www.bosontreinamentos.com.br/mysql/indices-em-mysql</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Controle de Acesso no MySQL: Tutorial sobre os Comandos GRANT e REVOKE (<a href="https://gasparbarancelli.com/post/controle-de-acesso-no-mysql-tutorial-sobre-os-comandos-grant-e-revoke">https://gasparbarancelli.com/post/controle-de-acesso-no-mysql-tutorial-sobre-os-comandos-grant-e-revoke</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Transações no SQL: Mantendo os dados íntegros e consistentes (<a href="https://www.alura.com.br/artigos/transacoes-no-sql-mantendo-os-dados-integros">https://www.alura.com.br/artigos/transacoes-no-sql-mantendo-os-dados-integros</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Administração do MySQL: segurança e otimização do banco (<a href="https://cursos.alura.com.br/course/mysql-dba-administracao">https://cursos.alura.com.br/course/mysql-dba-administracao</a>)</li>
+</ul>
+<h3>Administração do SQL Server:</h3>
 <ul><li>Para um DBA especializado em SQL Server, dominar a administração desse sistema de banco de dados é fundamental para garantir a segurança, a integridade e o desempenho das operações de dados da organização. O SQL Server é amplamente utilizado em ambientes empresariais devido à sua robustez e flexibilidade, mas para maximizar seu potencial, o DBA deve ser proficiente em práticas essenciais como backup e restauração, automação de tarefas de manutenção e aplicação de melhores práticas de segurança. Esses conhecimentos são cruciais para proteger os dados contra falhas e ataques, além de assegurar que as consultas SQL sejam executadas de forma otimizada. Habilidades em gerenciamento de transações também são vitais para manter a consistência e a precisão dos dados, especialmente em operações críticas. Com um sólido entendimento desses aspectos, o DBA pode garantir que o SQL Server funcione de maneira eficiente e confiável, suportando as demandas operacionais e estratégicas da organização.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Administração do MongoDB</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> SQL Server Expert: Administração SQL Server (<a href="https://www.youtube.com/playlist?list=PLFJZoKXyt7iZ3KgABkEGhJt5KVqy-FbRP">https://www.youtube.com/playlist?list=PLFJZoKXyt7iZ3KgABkEGhJt5KVqy-FbRP</a>)</li>
+<li><code data-kind="site">Site</code> Criar um backup de banco de dados completo (<a href="https://learn.microsoft.com/pt-br/sql/relational-databases/backup-restore/create-a-full-database-backup-sql-server?view=sql-server-ver16">https://learn.microsoft.com/pt-br/sql/relational-databases/backup-restore/create-a-full-database-backup-sql-server?view=sql-server-ver16</a>)</li>
+<li><code data-kind="site">Site</code> Como agendar e automatizar backups de bancos de dados do SQL Server no SQL Server Express (<a href="https://learn.microsoft.com/pt-br/troubleshoot/sql/database-engine/backup-restore/schedule-automate-backup-database">https://learn.microsoft.com/pt-br/troubleshoot/sql/database-engine/backup-restore/schedule-automate-backup-database</a>)</li>
+<li><code data-kind="site">Site</code> Melhores práticas de segurança do SQL Server (<a href="https://learn.microsoft.com/pt-br/sql/relational-databases/security/sql-server-security-best-practices?view=sql-server-ver16">https://learn.microsoft.com/pt-br/sql/relational-databases/security/sql-server-security-best-practices?view=sql-server-ver16</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tudo Sobre Desempenho de Consultas (SQL) (<a href="https://medium.com/@maricae26/tudo-sobre-desempenho-de-consultas-sql-a320d9f11bae">https://medium.com/@maricae26/tudo-sobre-desempenho-de-consultas-sql-a320d9f11bae</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: administrando o banco de dados (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-2022-administrando-banco-dados">https://cursos.alura.com.br/course/microsoft-sql-server-2022-administrando-banco-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> Microsoft SQL Server 2022: performance (<a href="https://cursos.alura.com.br/course/microsoft-sql-server-2022-performance">https://cursos.alura.com.br/course/microsoft-sql-server-2022-performance</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Transações no SQL: Mantendo os dados íntegros e consistentes (<a href="https://www.alura.com.br/artigos/transacoes-no-sql-mantendo-os-dados-integros">https://www.alura.com.br/artigos/transacoes-no-sql-mantendo-os-dados-integros</a>)</li>
+</ul>
+<h3>Administração do MongoDB:</h3>
 <ul><li>Para um DBA especializado em MongoDB, dominar a administração desse banco de dados NoSQL é crucial para garantir a eficiência, a segurança e a escalabilidade dos sistemas.</li>
 <li>O MongoDB é amplamente utilizado em aplicações modernas devido à sua flexibilidade na manipulação de grandes volumes de dados e na modelagem dinâmica. Habilidades em gerenciamento de clusters, segurança de dados, e técnicas de backup e recuperação são fundamentais para assegurar que os sistemas funcionem sem interrupções e estejam protegidos contra falhas e ataques. Além disso, a capacidade de otimizar consultas e gerenciar armazenamento eficazmente, incluindo o uso de GridFS para arquivos grandes, permite ao DBA manter um desempenho superior do banco de dados, mesmo em ambientes de alto tráfego.</li>
 <li>Com um sólido entendimento desses aspectos, o DBA pode garantir que o MongoDB atenda às necessidades complexas e crescentes da organização, suportando tanto a operação diária quanto a inovação contínua.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Proteção de dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Manual do MongoDB: Administração (<a href="https://www.mongodb.com/pt-br/docs/manual/administration/">https://www.mongodb.com/pt-br/docs/manual/administration/</a>)</li>
+<li><code data-kind="site">Site</code> Manual do MongoDB: Segurança (<a href="https://www.mongodb.com/pt-br/docs/manual/security/">https://www.mongodb.com/pt-br/docs/manual/security/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Gabriel Faraday: Conheça como funciona um cluster MongoDB (<a href="https://www.youtube.com/watch?v=a4BvIdw9eRc">https://www.youtube.com/watch?v=a4BvIdw9eRc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> MongoDB: segurança e disponibilidade dos dados (<a href="https://cursos.alura.com.br/course/mongodb-seguranca-disponibilidade-dados">https://cursos.alura.com.br/course/mongodb-seguranca-disponibilidade-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> MongoDB: trabalhando com armazenamento, backups e otimização de consulta (<a href="https://cursos.alura.com.br/course/mongodb-armazenamento-backups-otimizacao-consulta">https://cursos.alura.com.br/course/mongodb-armazenamento-backups-otimizacao-consulta</a>)</li>
+<li><code data-kind="site">Site</code> Armazenando arquivos com GridFS no MongoDB (<a href="https://cursos.alura.com.br/extra/alura-mais/armazenando-arquivos-com-gridfs-no-mongodb-c80">https://cursos.alura.com.br/extra/alura-mais/armazenando-arquivos-com-gridfs-no-mongodb-c80</a>)</li>
+</ul>
+<h3>Proteção de dados:</h3>
 <ul><li>A proteção de dados é o processo de proteger informações importantes de forma que garanta a confidencialidade, integridade e a disponibilidade destes dados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Governança de Dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> ENTENDA O QUE É LGPD (<a href="https://www.youtube.com/watch?v=dPipsp5arAc">https://www.youtube.com/watch?v=dPipsp5arAc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tudo que você precisa saber sobre a LGPD (<a href="https://www.youtube.com/watch?v=hu6XIc7QVnE">https://www.youtube.com/watch?v=hu6XIc7QVnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que você precisa saber sobre o GDPR (<a href="https://www.youtube.com/watch?v=egGvTgk3HH8">https://www.youtube.com/watch?v=egGvTgk3HH8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> DLP – Data Loss Prevention (<a href="https://www.youtube.com/watch?v=VHeX3D2WOUc">https://www.youtube.com/watch?v=VHeX3D2WOUc</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como estudei para certificação Privacy and Data Protection Foundation (PDPF) (<a href="https://caiovicentinni.medium.com/como-estudei-para-certifica%C3%A7%C3%A3o-privacy-and-data-protection-foundation-pdpf-81a824aa9f5e">https://caiovicentinni.medium.com/como-estudei-para-certifica%C3%A7%C3%A3o-privacy-and-data-protection-foundation-pdpf-81a824aa9f5e</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Com a Lei em vigor, quais as diferenças entre a LGPD e GDPR? (<a href="https://medium.com/@rogosantos/com-a-lei-em-vigor-quais-as-diferen%C3%A7as-entre-a-lgpd-e-gdpr-8e6d008c898d">https://medium.com/@rogosantos/com-a-lei-em-vigor-quais-as-diferen%C3%A7as-entre-a-lgpd-e-gdpr-8e6d008c898d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como a LGPD pode impactar na Experiência do Usuário (UX) (<a href="https://brasil.uxdesign.cc/como-a-lei-geral-de-prote%C3%A7%C3%A3o-de-dados-pode-afetar-a-experi%C3%AAncia-do-usu%C3%A1rio-e514270bf59c">https://brasil.uxdesign.cc/como-a-lei-geral-de-prote%C3%A7%C3%A3o-de-dados-pode-afetar-a-experi%C3%AAncia-do-usu%C3%A1rio-e514270bf59c</a>)</li>
+</ul>
+<h3>Governança de Dados:</h3>
 <ul><li>Governança de dados é um conjunto de políticas, processos e práticas que estabelecem a responsabilidade, a integridade, a qualidade e o uso adequado dos dados em uma organização. Ela envolve a definição de regras e padrões para a coleta, armazenamento, gerenciamento, compartilhamento e uso dos dados, garantindo que sejam confiáveis, consistentes e seguros ao longo de sua vida útil.</li>
 <li>A governança de dados desempenha um papel fundamental na engenharia de dados, pois garante que os dados sejam gerenciados de forma eficiente, confiável e em conformidade com as regulamentações e políticas internas. Ela estabelece diretrizes para a gestão dos dados, incluindo a definição de metadados, a identificação de proprietários de dados, a documentação de políticas de acesso e privacidade, a implementação de medidas de segurança e a garantia da qualidade dos dados.</li>
 <li>A governança de dados também promove a colaboração entre as equipes, estabelecendo processos de tomada de decisão baseados em dados confiáveis e padronizados. Isso resulta em uma melhor qualidade das análises, uma base sólida para tomada de decisões estratégicas e uma maior confiança nos dados utilizados para impulsionar as iniciativas de engenharia de dados.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Azure: O que é governança de dados? (<a href="https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-a-data-governance/">https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-a-data-governance/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cultura de qualidade e governança de dados no Grupo Boticário (<a href="https://www.youtube.com/watch?v=LTxHPUykq6k">https://www.youtube.com/watch?v=LTxHPUykq6k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> A política de governança de dados no Brasil (<a href="https://www.youtube.com/watch?v=Ac9J19C5x30">https://www.youtube.com/watch?v=Ac9J19C5x30</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cartilha orienta sobre governança de dados (<a href="https://www.gov.br/economia/pt-br/assuntos/noticias/2022/dezembro/cartilha-orienta-sobre-governanca-de-dados">https://www.gov.br/economia/pt-br/assuntos/noticias/2022/dezembro/cartilha-orienta-sobre-governanca-de-dados</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Governança de Dados? (<a href="https://www.alura.com.br/artigos/o-que-e-governanca-de-dados">https://www.alura.com.br/artigos/o-que-e-governanca-de-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> “LGPD, conhecendo e entendendo seus impactos” (<a href="https://cursos.alura.com.br/course/lgpd-visao-impactos">https://cursos.alura.com.br/course/lgpd-visao-impactos</a>)</li>
+<li><code data-kind="curso">Curso</code> “Governança de TI, gestão de demandas de serviços” (<a href="https://cursos.alura.com.br/course/governanca-ti-demandas-servicos">https://cursos.alura.com.br/course/governanca-ti-demandas-servicos</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Infraestrutura</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Redes de Computadores - Fundamentos</strong>:</li>
+<h3>Redes de Computadores - Fundamentos:</h3>
 <ul><li>Rede de computadores é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.</li>
 <li>Configurações de redes são essenciais para que seja possível acessar uma aplicação, principalmente se ela estiver na nuvem.</li>
 <li>Entenda melhor os componentes de rede e a suas atribuições</li>
 <li>Diferenciar os serviços disponibilizados a nível de rede</li>
 <li>Saber as diferenças entre as camadas de rede</li>
 <li>Saber o que é servidor web, proxy reverso e load balancer</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Contêineres</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> IBM: Conceitos de rede e comunicação (<a href="https://www.ibm.com/docs/pt-br/aix/7.3?topic=management-network-communication-concepts">https://www.ibm.com/docs/pt-br/aix/7.3?topic=management-network-communication-concepts</a>)</li>
+<li><code data-kind="site">Site</code> AWS: O que são redes de computadores? (<a href="https://aws.amazon.com/pt/what-is/computer-networking/">https://aws.amazon.com/pt/what-is/computer-networking/</a>)</li>
+<li><code data-kind="site">Site</code> Red Hat: O que é gerenciamento de rede? (<a href="https://www.redhat.com/pt-br/topics/management/what-is-network-management">https://www.redhat.com/pt-br/topics/management/what-is-network-management</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Redes de Computadores — Sabendo o básico — Intro (<a href="https://medium.com/code-breaker/redes-de-computadores-sabendo-o-b%C3%A1sico-intro-1a7d5653e118">https://medium.com/code-breaker/redes-de-computadores-sabendo-o-b%C3%A1sico-intro-1a7d5653e118</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O protocolo TCP/IP (<a href="https://joaomarcuraa.medium.com/o-protocolo-tcp-ip-1dc2cdb88b07">https://joaomarcuraa.medium.com/o-protocolo-tcp-ip-1dc2cdb88b07</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: IP (Entenda finalmente como funciona o IPv4 e o IPv6) | Dicionário do Programador (<a href="https://www.youtube.com/watch?v=O8DmpmBMUSw">https://www.youtube.com/watch?v=O8DmpmBMUSw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rede de Computadores - Animação em 3D (<a href="https://www.youtube.com/watch?v=Iqcp3k8DgGw">https://www.youtube.com/watch?v=Iqcp3k8DgGw</a>)</li>
+<li><code data-kind="curso">Curso</code> Enterprise Networking, Security, and Automation (<a href="https://www.netacad.com/pt-br/courses/networking/ccna-enterprise-networking-security-automation">https://www.netacad.com/pt-br/courses/networking/ccna-enterprise-networking-security-automation</a>)</li>
+<li><code data-kind="curso">Curso</code> Switching, Routing, and Wireless Essentials (<a href="https://www.netacad.com/pt-br/courses/networking/ccna-switching-routing-wireless-essentials">https://www.netacad.com/pt-br/courses/networking/ccna-switching-routing-wireless-essentials</a>)</li>
+<li><code data-kind="curso">Curso</code> Introduction to Networks (<a href="https://www.netacad.com/pt-br/courses/networking/ccna-introduction-networks">https://www.netacad.com/pt-br/courses/networking/ccna-introduction-networks</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Rede de computadores: um guia completo sobre o que são, como funcionam e quais cursos fazer na área (<a href="https://www.alura.com.br/artigos/rede-de-computadores">https://www.alura.com.br/artigos/rede-de-computadores</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conhecendo algumas topologias de rede (<a href="https://www.alura.com.br/artigos/conhecendo-algumas-topologias-de-rede">https://www.alura.com.br/artigos/conhecendo-algumas-topologias-de-rede</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como calcular máscaras de sub-rede de forma simples (<a href="https://www.alura.com.br/artigos/como-calcular-mascaras-de-sub-rede">https://www.alura.com.br/artigos/como-calcular-mascaras-de-sub-rede</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo os padrões de Wi-Fi (<a href="https://www.alura.com.br/artigos/entendendo-os-padroes-de-wi-fi">https://www.alura.com.br/artigos/entendendo-os-padroes-de-wi-fi</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Diferenças entre Hubs e Switches (<a href="https://www.alura.com.br/artigos/diferencas-entre-hubs-e-switches">https://www.alura.com.br/artigos/diferencas-entre-hubs-e-switches</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entendendo os cabos de rede (<a href="https://www.alura.com.br/artigos/entendendo-os-cabos-de-rede">https://www.alura.com.br/artigos/entendendo-os-cabos-de-rede</a>)</li>
+<li><code data-kind="artigo">Artigo</code> SSH, Telnet e as diferenças para conectar em um servidor (<a href="https://www.alura.com.br/artigos/entendendo-as-diferencas-entre-telnet-e-ssh">https://www.alura.com.br/artigos/entendendo-as-diferencas-entre-telnet-e-ssh</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Redes de Computadores (<a href="https://cursos.alura.com.br/formacao-redes">https://cursos.alura.com.br/formacao-redes</a>)</li>
+</ul>
+<h3>Contêineres:</h3>
 <ul><li>Os contêineres são pacotes de software que contêm todos os elementos necessários para serem executados em qualquer ambiente. Gerenciamento de contêineres é uma área crucial na computação em nuvem e DevOps, que envolve o uso de tecnologias para automatizar o processo de criação, implantação, escalonamento e monitoramento de contêineres. Contêineres são unidades de software padronizadas que permitem aos desenvolvedores empacotar todas as dependências de um aplicativo (código, bibliotecas, configurações, etc.) em um único pacote. Isso permite que o aplicativo seja executado de forma consistente em qualquer ambiente de infraestrutura.</li>
 <li>A tecnologia de contêineres, como exemplificada pelo Docker, fornece um ambiente consistente e portátil para desenvolvimento, teste e implantação de aplicativos, o que é vital para o trabalho eficiente de engenharia de dados. Além disso, o Kubernetes, um sistema de orquestração de contêineres, permite o gerenciamento, a automação e a escalabilidade de aplicações baseadas em contêineres em ambientes de produção. Dominar esses conceitos e tecnologias possibilita a engenheiros de dados construir e manter pipelines de dados eficientes e confiáveis.</li>
 <li>O Kubernetes (também conhecido como k8s ou kube) é uma plataforma de orquestração de containers open source que automatiza grande parte dos processos manuais necessários para implantar, gerenciar e escalar aplicações em containers.</li>
@@ -288,7 +654,39 @@
 <li>Modularizar seu sistema em pacotes menores</li>
 <li>Conhecer a plataforma Docker</li>
 <li>Conhecer Kubernetes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git e GitHub - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> IBM: Contêineres (<a href="https://www.ibm.com/br-pt/cloud/learn/containers">https://www.ibm.com/br-pt/cloud/learn/containers</a>)</li>
+<li><code data-kind="site">Site</code> HPE: O que são contêineres? (<a href="https://www.hpe.com/br/pt/what-is/containers.html">https://www.hpe.com/br/pt/what-is/containers.html</a>)</li>
+<li><code data-kind="site">Site</code> Google Cloud: O que são contêineres? (<a href="https://cloud.google.com/learn/what-are-containers?hl=pt-br">https://cloud.google.com/learn/what-are-containers?hl=pt-br</a>)</li>
+<li><code data-kind="site">Site</code> Azure: O que é um contêiner? (<a href="https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-a-container/">https://azure.microsoft.com/pt-br/resources/cloud-computing-dictionary/what-is-a-container/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Red Hat: O que é Kubernetes (<a href="https://www.redhat.com/pt-br/topics/containers/what-is-kubernetes">https://www.redhat.com/pt-br/topics/containers/what-is-kubernetes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Azure: O que é Kubernetes? (<a href="https://azure.microsoft.com/pt-br/topic/what-is-kubernetes/">https://azure.microsoft.com/pt-br/topic/what-is-kubernetes/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Kubernetes - Guia de Referência Gratuito (<a href="https://renatogroffe.medium.com/kubernetes-guia-de-refer%C3%AAncia-gratuito-a2c1be8e7593">https://renatogroffe.medium.com/kubernetes-guia-de-refer%C3%AAncia-gratuito-a2c1be8e7593</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Containers // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=-pUZBovqRcU">https://www.youtube.com/watch?v=-pUZBovqRcU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Código Fonte TV: Kubernetes // Dicionário do Programador (<a href="https://www.youtube.com/watch?v=mVL0nOM3AGo">https://www.youtube.com/watch?v=mVL0nOM3AGo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Insight Lab: Revisão Docker - Curso de Introdução ao Kubernetes (<a href="https://www.youtube.com/watch?v=bcRArpK00OU">https://www.youtube.com/watch?v=bcRArpK00OU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Pisani da ArcH: Kubernetes - entenda e comece a arquitetar agora mesmo (<a href="https://www.youtube.com/watch?v=XjaqTqm7g58">https://www.youtube.com/watch?v=XjaqTqm7g58</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Kubernetes (<a href="https://www.alura.com.br/artigos/o-que-e-kubernetes">https://www.alura.com.br/artigos/o-que-e-kubernetes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Criando volumes com Docker (<a href="https://www.alura.com.br/artigos/criando-volumes-com-docker">https://www.alura.com.br/artigos/criando-volumes-com-docker</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Docker Compose para compor uma aplicação (<a href="https://www.alura.com.br/artigos/compondo-uma-aplicacao-com-o-docker-compose">https://www.alura.com.br/artigos/compondo-uma-aplicacao-com-o-docker-compose</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que são Containers? (<a href="https://www.youtube.com/watch?v=jv4_sLlGOS0">https://www.youtube.com/watch?v=jv4_sLlGOS0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Containers, Docker e Kubernetes (com Giovanni Bassi) (<a href="https://www.youtube.com/watch?v=wxLvvMxzc1Q">https://www.youtube.com/watch?v=wxLvvMxzc1Q</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Containers e Docker - Hipsters 75 (<a href="https://www.alura.com.br/podcast/hipsterstech-containers-e-docker-hipsters-75-a511">https://www.alura.com.br/podcast/hipsterstech-containers-e-docker-hipsters-75-a511</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Kubernetes - Hipsters 177 (<a href="https://www.alura.com.br/podcast/kubernetes-hipsters-177-a389">https://www.alura.com.br/podcast/kubernetes-hipsters-177-a389</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Microsserviços e Kubernetes na Americanas.com - Hipsters On The Road 56 (<a href="https://www.alura.com.br/podcast/microsservicos-e-kubernetes-na-americanas-com-hipsters-on-the-road-56-a857">https://www.alura.com.br/podcast/microsservicos-e-kubernetes-na-americanas-com-hipsters-on-the-road-56-a857</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Orquestração de containers com Kubernetes (<a href="https://www.alura.com.br/formacao-kubernetes">https://www.alura.com.br/formacao-kubernetes</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Docker: criando e gerenciando containers (<a href="https://www.alura.com.br/curso-online-docker-criando-gerenciando-containers">https://www.alura.com.br/curso-online-docker-criando-gerenciando-containers</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Kubernetes: Pods, Services e ConfigMaps (<a href="https://www.alura.com.br/curso-online-kubernetes-pods-services-configmap">https://www.alura.com.br/curso-online-kubernetes-pods-services-configmap</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Kubernetes: Deployments, Volumes e Escalabilidade (<a href="https://www.alura.com.br/curso-online-kubernetes-deployments-volumes-escalabilidade">https://www.alura.com.br/curso-online-kubernetes-deployments-volumes-escalabilidade</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Google Kubernetes Engine (<a href="https://www.alura.com.br/curso-online-google-kubernetes-engine-primeiros-passos">https://www.alura.com.br/curso-online-google-kubernetes-engine-primeiros-passos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Kubernetes na Digital Ocean: gerenciando aplicações conteinerizadas (<a href="https://www.alura.com.br/curso-online-kubernetes-digital-ocean">https://www.alura.com.br/curso-online-kubernetes-digital-ocean</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Amazon EKS: gerenciando aplicações conteinerizadas com Kubernetes (<a href="https://www.alura.com.br/curso-online-amazon-eks-kubernetes">https://www.alura.com.br/curso-online-amazon-eks-kubernetes</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Azure: gerencie Kubernetes com AKS e ACR (<a href="https://www.alura.com.br/curso-online-azure-gerencie-kubernetes-com-aks-acr">https://www.alura.com.br/curso-online-azure-gerencie-kubernetes-com-aks-acr</a>)</li>
+</ul>
+<h3>Git e GitHub - Fundamentos:</h3>
 <ul><li>Git é um sistema de controle de versão distribuído gratuito e de código aberto projetado para lidar com tudo, desde projetos pequenos a muito grandes com velocidade e eficiência.</li>
 <li>GitHub é um serviço de hospedagem para desenvolvimento de software e controle de versão usando Git.</li>
 <li>Criar um repositório</li>
@@ -297,7 +695,32 @@
 <li>Reverter um commit</li>
 <li>Criar branches e pul requests</li>
 <li>Lidar com merge e conflitos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Python - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> GitHub Documentação (<a href="https://docs.github.com/pt">https://docs.github.com/pt</a>)</li>
+<li><code data-kind="site">Site</code> GitHub Pages Documentação (<a href="https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="site">Site</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="site">Site</code> Dangit, Git!?! (<a href="https://dangitgit.com/">https://dangitgit.com/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: O que é Git e GitHub? - definição e conceitos importantes 1/2 (<a href="https://www.youtube.com/watch?v=DqTITcMq68k">https://www.youtube.com/watch?v=DqTITcMq68k</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafaella Ballerini: Como usar Git e GitHub na prática! - desde o primeiro commit até o pull request! 2/2 (<a href="https://www.youtube.com/watch?v=UBAX-13g8OM">https://www.youtube.com/watch?v=UBAX-13g8OM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Git: Entendendo de vez como funciona do melhor e mais visual jeito possível (<a href="https://www.youtube.com/watch?v=4-tfJ-ZyA0Q">https://www.youtube.com/watch?v=4-tfJ-ZyA0Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mario Souto - Dev Soutinho: Como colocar seu projeto no ar DE GRAÇA via GitHub! | Hospedagem com GitHub Pages (<a href="https://www.youtube.com/watch?v=BU-w2_Aae54">https://www.youtube.com/watch?v=BU-w2_Aae54</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - 5 coisas que você precisa saber sobre Git (<a href="https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU">https://youtu.be/MqoqPzjQyCY?si=VI_mT8EowuemptmU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - README de Sucesso: Transforme seu Projeto ou seu Perfil em Destaque no GitHub (<a href="https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A">https://youtu.be/v9ZM2PVzctM?si=49ah_HRPIwpSEX4A</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Git e Github: O que são, Como Configurar e Primeiros Passos (<a href="https://www.alura.com.br/artigos/o-que-e-git-github">https://www.alura.com.br/artigos/o-que-e-git-github</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Mais git com o hub: a linha de comando do Github (<a href="https://www.alura.com.br/artigos/github-na-linha-de-comando">https://www.alura.com.br/artigos/github-na-linha-de-comando</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 184: Guia do Iniciante em Github (<a href="https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378">https://cursos.alura.com.br/extra/hipsterstech/guia-do-iniciante-em-github-hipsters-184-a378</a>)</li>
+<li><code data-kind="site">Site</code> GitHub: diferentes maneiras de compartilhar seu projeto (<a href="https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002">https://cursos.alura.com.br/extra/alura-mais/github-diferentes-maneiras-de-compartilhar-seu-projeto-c2002</a>)</li>
+<li><code data-kind="site">Site</code> Websérie: Git e Github para Sobrevivência (<a href="https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia">https://www.alura.com.br/webseries/git-e-github-para-sobrevivencia</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters 109: Git e Github (<a href="https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474">https://www.alura.com.br/podcast/hipsterstech-git-e-github-hipsters-109-a474</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: Git e Github para Sobrevivência 01: Como o Git funciona? (<a href="https://www.youtube.com/watch?v=BAmvmaKQklQ">https://www.youtube.com/watch?v=BAmvmaKQklQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: compartilhando e colaborando em projetos (<a href="https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos">https://cursos.alura.com.br/course/git-github-compartilhando-colaborando-projetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Git e GitHub: dominando controle de versão de código (<a href="https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo">https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: GitHub (<a href="https://7daysofcode.io/matricula/github">https://7daysofcode.io/matricula/github</a>)</li>
+</ul>
+<h3>Python - Fundamentos:</h3>
 <ul><li>Python é uma linguagem de programação de alto nível, de uso geral, amplamente utilizada em aplicações web, desenvolvimento de software, ciência de dados e Machine Learning. Sua filosofia de projeto enfatiza a legibilidade do código com o uso de indentação significativa. Python é dinamicamente tipada e tem um garbage collector.</li>
 <li>Conhecer os tipos primitivos</li>
 <li>Declarar variáveis, considerando os diferentes tipos</li>
@@ -310,22 +733,86 @@
 <li>Obter dados de uma API</li>
 <li>Criar construtores</li>
 <li>Funções anônimas</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Documentação Python (<a href="https://docs.python.org/pt-br/3/tutorial/">https://docs.python.org/pt-br/3/tutorial/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Programação | Python — Parte 1 (<a href="https://medium.com/turing-talks/turing-talks-4-python-parte-1-29b8d9efd0a5">https://medium.com/turing-talks/turing-talks-4-python-parte-1-29b8d9efd0a5</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Introdução ao Python (<a href="https://medium.com/@goularteduarda.a/introdu%C3%A7%C3%A3o-ao-python-d30c29eba0d6">https://medium.com/@goularteduarda.a/introdu%C3%A7%C3%A3o-ao-python-d30c29eba0d6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Eduardo Mendes: Curso introdutório de Python (<a href="https://www.youtube.com/watch?v=yTQDbqmv8Ho">https://www.youtube.com/watch?v=yTQDbqmv8Ho</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Python? História, Sintaxe e um Guia para iniciar na Linguagem (<a href="https://www.alura.com.br/artigos/python">https://www.alura.com.br/artigos/python</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Python – Hipsters 122 (<a href="https://www.hipsters.tech/python-hipsters-122/">https://www.hipsters.tech/python-hipsters-122/</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Hipsters.tech: Python Fluente – Hipsters Ponto Tech 179 (<a href="https://www.hipsters.tech/python-fluente-hipsters-ponto-tech-179/">https://www.hipsters.tech/python-fluente-hipsters-ponto-tech-179/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: A linguagem Python - Alura Live 94 (<a href="https://www.youtube.com/watch?v=Nbt0eQHChoI">https://www.youtube.com/watch?v=Nbt0eQHChoI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: O que é Python? (<a href="https://www.youtube.com/watch?v=-LATVnPcvHI">https://www.youtube.com/watch?v=-LATVnPcvHI</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python - Uma Introdução à Linguagem (<a href="https://www.alura.com.br/artigos/python-uma-introducao-a-linguagem">https://www.alura.com.br/artigos/python-uma-introducao-a-linguagem</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python: Trabalhando com precisão em números decimais (<a href="https://www.alura.com.br/artigos/precisao-numeros-decimais-python">https://www.alura.com.br/artigos/precisao-numeros-decimais-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Listas em Python: operações básicas (<a href="https://www.alura.com.br/artigos/listas-no-python">https://www.alura.com.br/artigos/listas-no-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como comparar objetos no Python? (<a href="https://www.alura.com.br/artigos/como-comparar-objetos-no-python">https://www.alura.com.br/artigos/como-comparar-objetos-no-python</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Python datetime: Lidando com datas e horários (<a href="https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-python">https://www.alura.com.br/artigos/lidando-com-datas-e-horarios-no-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Python: crie a sua primeira aplicação (<a href="https://cursos.alura.com.br/course/python-crie-sua-primeira-aplicacao">https://cursos.alura.com.br/course/python-crie-sua-primeira-aplicacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Python e orientação a objetos (<a href="https://cursos.alura.com.br/formacao-linguagem-python">https://cursos.alura.com.br/formacao-linguagem-python</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Dados</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Pipelines e ETL</strong>:</li>
+<h3>Pipelines e ETL:</h3>
 <ul><li>Pipelines e ETL (Extract, Transform, Load) são conceitos essenciais no campo da Engenharia de Dados, desempenhando um papel fundamental na coleta, transformação e integração de dados. Compreender os fundamentos dessas áreas é essencial para aqueles que desejam trabalhar com a gestão e o processamento eficiente de grandes volumes de informações.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Business Intelligence (BI) - Fundamentos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> AWS: O que é um pipeline de dados? (<a href="https://aws.amazon.com/pt/what-is/data-pipeline/">https://aws.amazon.com/pt/what-is/data-pipeline/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Glossário de dados: O que é Data Pipeline? (<a href="https://medium.com/datalakers-blog/gloss%C3%A1rio-de-dados-o-que-%C3%A9-data-pipeline-628e509e9cb5">https://medium.com/datalakers-blog/gloss%C3%A1rio-de-dados-o-que-%C3%A9-data-pipeline-628e509e9cb5</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Pipeline de Dados (<a href="https://www.linkedin.com/pulse/pipeline-de-dados-jose-r-f-junior/?originalSubdomain=pt">https://www.linkedin.com/pulse/pipeline-de-dados-jose-r-f-junior/?originalSubdomain=pt</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Sete princípios para pipelines de dados confiáveis (<a href="https://medium.com/data-hackers/sete-princ%C3%ADpios-para-pipelines-de-dados-confi%C3%A1veis-de59d3c72cfc">https://medium.com/data-hackers/sete-princ%C3%ADpios-para-pipelines-de-dados-confi%C3%A1veis-de59d3c72cfc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Supletivo DH - Apache NiFi (<a href="https://www.youtube.com/watch?v=IVRG4ks83s0">https://www.youtube.com/watch?v=IVRG4ks83s0</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Curso Apache Beam: Data Pipeline com Python (<a href="https://cursos.alura.com.br/course/apache-beam-data-pipeline-python">https://cursos.alura.com.br/course/apache-beam-data-pipeline-python</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Engenharia de Dados: organizando dados na AWS (<a href="https://cursos.alura.com.br/course/engenharia-dados-organizando-dados-aws">https://cursos.alura.com.br/course/engenharia-dados-organizando-dados-aws</a>)</li>
+</ul>
+<h3>Business Intelligence (BI) - Fundamentos:</h3>
 <ul><li>Business Intelligence é um conjunto de teorias, metodologias, processos e tecnologias que possibilitam a transformação dos dados “crus” em informações extremamente relevantes para tomada de decisão de uma empresa.</li>
 <li>Conhecer o processo de ETL</li>
 <li>Realizar a modelagem e estruturação de tabelas em um Data Warehouse</li>
 <li>Criar visualizações que façam sentido</li>
 <li>Conhecer o PowerBI</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Extração e Tratamento de Dados</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Business Intelligence em Bibliotecas com Power BI (<a href="https://franciscofoz.medium.com/business-intelligence-em-bibliotecas-com-power-bi-4065df7b232c">https://franciscofoz.medium.com/business-intelligence-em-bibliotecas-com-power-bi-4065df7b232c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Rafael Piton: O que é BI - Business Intelligence (Guia Definitivo) (<a href="https://www.youtube.com/watch?v=PoCLfN6sF_8">https://www.youtube.com/watch?v=PoCLfN6sF_8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é o Microsoft Power BI? (<a href="https://medium.com/data-are-lakes/o-que-%C3%A9-o-microsoft-power-bi-f98476ef5c48">https://medium.com/data-are-lakes/o-que-%C3%A9-o-microsoft-power-bi-f98476ef5c48</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Karine Lago: Introdução ao Power BI (<a href="https://www.youtube.com/watch?v=lMfh2c7GaWI">https://www.youtube.com/watch?v=lMfh2c7GaWI</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Business Intelligence: O que é? (<a href="https://www.alura.com.br/artigos/business-intelligence">https://www.alura.com.br/artigos/business-intelligence</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Power BI ou Excel para Business Intelligence? (<a href="https://www.alura.com.br/artigos/power-bi-excel-business-intelligence">https://www.alura.com.br/artigos/power-bi-excel-business-intelligence</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Business Intelligence com Excel (<a href="https://www.alura.com.br/formacao-business-intelligence-excel">https://www.alura.com.br/formacao-business-intelligence-excel</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Power BI (<a href="https://www.alura.com.br/formacao-power-bi">https://www.alura.com.br/formacao-power-bi</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação BI e Data Warehouse com SQL Server e Power BI (<a href="https://www.alura.com.br/formacao-business-intelligence-data-warehouse">https://www.alura.com.br/formacao-business-intelligence-data-warehouse</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação Qlik Sense (<a href="https://www.alura.com.br/formacao-qlik-sense">https://www.alura.com.br/formacao-qlik-sense</a>)</li>
+</ul>
+<h3>Extração e Tratamento de Dados:</h3>
 <ul><li>A extração de dados é o processo de coleta ou recuperação de tipos diferentes de dados de uma variedade de fontes, muitos dos quais podem estar mal organizados ou completamente desestruturados.</li>
 <li>Obter os dados que serão analisados</li>
 <li>Tratar os dados obtidos, transformando-os, alterando sua estrutura e valores a fim de deixar a base de dados mais coerente e garantir que os dados que serão trabalhados estejam nas melhores condições para serem analisados</li>
 <li>Utilizar as bibliotecas Pandas e Scikit-learn para tratar os dados</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Tratamento e Transformação de Dados NaN: Uma visão geral e prática (<a href="https://medium.com/data-hackers/tratamento-e-transforma%C3%A7%C3%A3o-de-dados-nan-uma-vis%C3%A3o-geral-e-pr%C3%A1tica-54efa9fc7a98">https://medium.com/data-hackers/tratamento-e-transforma%C3%A7%C3%A3o-de-dados-nan-uma-vis%C3%A3o-geral-e-pr%C3%A1tica-54efa9fc7a98</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Awari: Importação e Tratamento de Dados em Data Science (<a href="https://www.youtube.com/watch?v=i1TK8pWRQas">https://www.youtube.com/watch?v=i1TK8pWRQas</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Celso Cestaro: Iniciando em coleta e tratamento de dados com Python (<a href="https://www.youtube.com/watch?v=3DF54MnH9KM">https://www.youtube.com/watch?v=3DF54MnH9KM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Celso Cestaro: Python para data science - limpando dados (<a href="https://www.youtube.com/watch?v=t18Ogc8rNyo">https://www.youtube.com/watch?v=t18Ogc8rNyo</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como fazer uma limpeza de dados completa em Python (<a href="https://medium.com/turing-talks/como-fazer-uma-limpeza-de-dados-completa-em-python-7abc9dfc19b8">https://medium.com/turing-talks/como-fazer-uma-limpeza-de-dados-completa-em-python-7abc9dfc19b8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> xavecoding: Manipulação de Dados em Python/Pandas (<a href="https://www.youtube.com/watch?v=qKeM93NTKQM">https://www.youtube.com/watch?v=qKeM93NTKQM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Bix Tecnologia: Tratamento de Dados com Python (Webinar) (<a href="https://www.youtube.com/watch?v=slv1f2YpMJE">https://www.youtube.com/watch?v=slv1f2YpMJE</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Pandas: o que é, para que serve e como instalar (<a href="https://www.alura.com.br/artigos/pandas-o-que-e-para-que-serve-como-instalar">https://www.alura.com.br/artigos/pandas-o-que-e-para-que-serve-como-instalar</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Pandas: conhecendo a biblioteca (<a href="https://cursos.alura.com.br/course/pandas-conhecendo-biblioteca">https://cursos.alura.com.br/course/pandas-conhecendo-biblioteca</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Pandas I/O: trabalhando com diferentes formatos de arquivos (<a href="https://cursos.alura.com.br/course/pandas-io-trabalhando-diferentes-formatos-arquivos">https://cursos.alura.com.br/course/pandas-io-trabalhando-diferentes-formatos-arquivos</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Pandas: seleção e agrupamento de dados (<a href="https://cursos.alura.com.br/course/pandas-selecao-agrupamento-dados">https://cursos.alura.com.br/course/pandas-selecao-agrupamento-dados</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Pandas: transformação e manipulação de dados (<a href="https://cursos.alura.com.br/course/pandas-transformacao-manipulacao-dados">https://cursos.alura.com.br/course/pandas-transformacao-manipulacao-dados</a>)</li>
+<li><code data-kind="desafio">Desafio</code> 7 Days of Code: Python Pandas (<a href="https://7daysofcode.io/matricula/pandas">https://7daysofcode.io/matricula/pandas</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

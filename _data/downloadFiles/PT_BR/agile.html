@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,9 +249,8 @@
   </div>
 
   <div class="content">
-    <h1>Agile</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cultura Ágil</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Cultura Ágil:</h3>
 <ul><li>Enfatizar o trabalho em equipe e a comunicação aberta.</li>
 <li>Promover feedback regular para melhorias rápidas e eficazes.</li>
 <li>Empoderar equipes autônomas para tomar decisões.</li>
@@ -220,7 +259,26 @@
 <li>Fomentar o desenvolvimento incremental com ciclos curtos e frequentes.</li>
 <li>Demonstrar flexibilidade para ajustar processos conforme necessário.</li>
 <li>Entregar valor contínuo e mensurável ao cliente.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Scrum</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O impacto da cultura ágil nas organizações e os riscos da banalização (<a href="https://blog.fiaonline.com.br/o-impacto-da-cultura-agil">https://blog.fiaonline.com.br/o-impacto-da-cultura-agil</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Qual é a importância da cultura ágil em momentos de transformação digital? (<a href="https://gptw.com.br/conteudo/artigos/cultura-agil/">https://gptw.com.br/conteudo/artigos/cultura-agil/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Cultura ágil: o que é e por que ela é essencial para a sua empresa? (<a href="https://www.ieepeducacao.com.br/cultura-agil/">https://www.ieepeducacao.com.br/cultura-agil/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Agile testing - o que é e qual o papel do QA num time ágil? (<a href="https://www.alura.com.br/artigos/agile-testing-o-que-e-qual-papel-qa-num-time-agil">https://www.alura.com.br/artigos/agile-testing-o-que-e-qual-papel-qa-num-time-agil</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O papel da documentação de software nas metodologias ágeis (<a href="https://www.alura.com.br/artigos/o-papel-da-documentacao-de-software-nas-metodologias-ageis">https://www.alura.com.br/artigos/o-papel-da-documentacao-de-software-nas-metodologias-ageis</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que são retrospectivas no Ambiente Ágil (<a href="https://www.alura.com.br/artigos/retrospectivas-ambiente-agil">https://www.alura.com.br/artigos/retrospectivas-ambiente-agil</a>)</li>
+<li><code data-kind="curso">Curso</code> Práticas Ágeis: construa um ambiente ágil (<a href="https://cursos.alura.com.br/course/praticas-ageis">https://cursos.alura.com.br/course/praticas-ageis</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Agilidade - Hipsters #05 (<a href="https://www.alura.com.br/podcast/hipsterstech-agilidade-hipsters-05-a581">https://www.alura.com.br/podcast/hipsterstech-agilidade-hipsters-05-a581</a>)</li>
+<li><code data-kind="curso">Curso</code> Cultura e Métodos Ágeis: pilares para uma imersão avançada (<a href="https://cursos.alura.com.br/course/cultura-metodos-ageis-pilares-imersao-avancada">https://cursos.alura.com.br/course/cultura-metodos-ageis-pilares-imersao-avancada</a>)</li>
+<li><code data-kind="curso">Curso</code> Agile Coaching: difunda o Ágil nas organizações (<a href="https://www.alura.com.br/curso-online-agile-coaching-difunda-agil-organizacoes">https://www.alura.com.br/curso-online-agile-coaching-difunda-agil-organizacoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Práticas Ágeis: construa um ambiente ágil (<a href="https://www.alura.com.br/curso-online-lean-agil-expanda-horizontes-organizacao-toda">https://www.alura.com.br/curso-online-lean-agil-expanda-horizontes-organizacao-toda</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão Ágil: liderando a mudança em um ambiente de agilidade (<a href="https://cursos.alura.com.br/course/gestao-agil">https://cursos.alura.com.br/course/gestao-agil</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão Ágil: explorando conceitos da agilidade (<a href="https://cursos.alura.com.br/course/gestao-agil-conceitos-agilidade">https://cursos.alura.com.br/course/gestao-agil-conceitos-agilidade</a>)</li>
+<li><code data-kind="curso">Curso</code> Práticas Ágeis: construa um ambiente ágil (<a href="https://cursos.alura.com.br/course/gestao-agil-gestao-processos-agilidade">https://cursos.alura.com.br/course/gestao-agil-gestao-processos-agilidade</a>)</li>
+</ul>
+<h3>Scrum:</h3>
 <ul><li>Scrum é uma metodologia ágil focada em entregas incrementais e iterativas, promovendo a colaboração entre equipes para desenvolver projetos complexos de forma eficiente.</li>
 <li>Inclui Product Owner, Scrum Master e equipe de desenvolvimento.</li>
 <li>Períodos curtos de trabalho com metas definidas, geralmente de 2-4 semanas.</li>
@@ -231,7 +289,21 @@
 <li>Reunião para refletir e melhorar processos após cada sprint.</li>
 <li>Produto funcional e utilizável entregue ao final de cada sprint.</li>
 <li>Critérios claros que definem quando uma tarefa está completa.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Kanban</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Scrum: Gestão ágil para produtos de sucesso (<a href="https://www.casadocodigo.com.br/products/livro-scrum">https://www.casadocodigo.com.br/products/livro-scrum</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Scrum: o que é, como funciona e como aplicar (<a href="https://www.cursospm3.com.br/blog/scrum-o-que-e-como-funciona-e-como-aplicar/">https://www.cursospm3.com.br/blog/scrum-o-que-e-como-funciona-e-como-aplicar/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é scrum e como começar (<a href="https://www.atlassian.com/br/agile/scrum">https://www.atlassian.com/br/agile/scrum</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tudo sobre Metodologia Scrum: o que é e como essa ferramenta pode te ajudar a poupar tempo e gerir melhor seus projetos (<a href="https://www.treasy.com.br/blog/scrum/">https://www.treasy.com.br/blog/scrum/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Scrum: agilidade em seu projeto (<a href="https://www.alura.com.br/curso-online-scrum-agilidade-seu-projeto">https://www.alura.com.br/curso-online-scrum-agilidade-seu-projeto</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como aplicar cerimônias remotas de Scrum (<a href="https://www.alura.com.br/empresas/artigos/cerimonias-remotas-com-scrum">https://www.alura.com.br/empresas/artigos/cerimonias-remotas-com-scrum</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Scrum e Agile para além de Tecnologia - Hipster #115 (<a href="https://www.alura.com.br/podcast/hipsterstech-scrum-e-agile-para-alem-de-tecnologia-hipsters-115-a467">https://www.alura.com.br/podcast/hipsterstech-scrum-e-agile-para-alem-de-tecnologia-hipsters-115-a467</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Scrum: do zero ao Sprint - Hipsters #54 (<a href="https://cursos.alura.com.br/extra/hipsterstech/scrum-do-zero-ao-sprint-hipsters-54-a532">https://cursos.alura.com.br/extra/hipsterstech/scrum-do-zero-ao-sprint-hipsters-54-a532</a>)</li>
+<li><code data-kind="curso">Curso</code> Cultura e Métodos Ágeis: pilares para uma imersão avançada (<a href="https://cursos.alura.com.br/course/cultura-metodos-ageis-pilares-imersao-avancada">https://cursos.alura.com.br/course/cultura-metodos-ageis-pilares-imersao-avancada</a>)</li>
+</ul>
+<h3>Kanban:</h3>
 <ul><li>Kanban é uma metodologia ágil que utiliza quadros visuais para gerenciar o fluxo de trabalho, melhorando a eficiência e promovendo a melhoria contínua.</li>
 <li>Use quadros para mostrar tarefas e progresso.</li>
 <li>Defina limites de WIP para evitar sobrecarga.</li>
@@ -241,9 +313,20 @@
 <li>Faça ajustes constantes para aprimorar processos.</li>
 <li>Classifique tarefas por importância e urgência.</li>
 <li>Promova a colaboração entre a equipe e mantenha a transparência.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> kanban: Como a metodologia Kanban é aplicada ao desenvolvimento de software (<a href="https://www.atlassian.com/br/agile/kanban">https://www.atlassian.com/br/agile/kanban</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Método kanban: o que é, como funciona e modelos de quadros (<a href="https://blog.runrun.it/kanban/">https://blog.runrun.it/kanban/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda o que é e como funciona o método Kanban (<a href="https://rockcontent.com/br/blog/kanban/">https://rockcontent.com/br/blog/kanban/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Kanban: o que é, o Método Kanban, principais conceitos e como funciona no dia a dia (<a href="https://www.alura.com.br/artigos/metodo-kanban">https://www.alura.com.br/artigos/metodo-kanban</a>)</li>
+<li><code data-kind="curso">Curso</code> Kanban: análises para implementação (<a href="https://cursos.alura.com.br/course/kanban-analises-implementacao">https://cursos.alura.com.br/course/kanban-analises-implementacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Kanban: evolua suas entregas com métricas (<a href="https://cursos.alura.com.br/course/kanban-evolua-entregas-metricas">https://cursos.alura.com.br/course/kanban-evolua-entregas-metricas</a>)</li>
+<li><code data-kind="curso">Curso</code> Kanban: marque o ritmo com cadências (<a href="https://cursos.alura.com.br/course/kanban-marque-ritmo-cadencias">https://cursos.alura.com.br/course/kanban-marque-ritmo-cadencias</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>OKRs</strong>:</li>
+<h3>OKRs:</h3>
 <ul><li>OKRs (Objectives and Key Results) são uma metodologia de definição de metas que alinham objetivos claros e resultados mensuráveis para alcançar desempenho e foco organizacional.</li>
 <li>Defina objetivos claros e inspiradores.</li>
 <li>Estabeleça resultados mensuráveis que indicam o sucesso.</li>
@@ -252,7 +335,18 @@
 <li>Revise e ajuste OKRs em ciclos trimestrais.</li>
 <li>Defina metas desafiadoras para incentivar o crescimento.</li>
 <li>Concentre esforços nas prioridades estratégicas.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão Lean</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> OKR: o que é a metodologia e como definir seus objetivos (<a href="https://www.cursospm3.com.br/blog/okr-o-que-e-como-definir-seus-objetivos/">https://www.cursospm3.com.br/blog/okr-o-que-e-como-definir-seus-objetivos/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> OKR: o que é e como implementar (<a href="https://www.qulture.rocks/blog/okrs-o-que-sao-como-implementar">https://www.qulture.rocks/blog/okrs-o-que-sao-como-implementar</a>)</li>
+<li><code data-kind="artigo">Artigo</code> OKR: o que é, como a metodologia pode ajudar sua empresa e exemplos para você implementar (<a href="https://www.rdstation.com/blog/marketing/o-que-okr/">https://www.rdstation.com/blog/marketing/o-que-okr/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> OKRs funcionam? - Hipsters Ponto Tech #274 (<a href="https://cursos.alura.com.br/extra/hipsterstech/okrs-funcionam-hipsters-ponto-tech-274-a1170">https://cursos.alura.com.br/extra/hipsterstech/okrs-funcionam-hipsters-ponto-tech-274-a1170</a>)</li>
+<li><code data-kind="curso">Curso</code> OKR: construindo metas ágeis (<a href="https://cursos.alura.com.br/course/okr-construindo-metas-ageis">https://cursos.alura.com.br/course/okr-construindo-metas-ageis</a>)</li>
+<li><code data-kind="curso">Curso</code> OKR: direcionando seu negócio para resultados (<a href="https://cursos.alura.com.br/course/okr-direcionando-negocio-resultados">https://cursos.alura.com.br/course/okr-direcionando-negocio-resultados</a>)</li>
+</ul>
+<h3>Gestão Lean:</h3>
 <ul><li>Lean é uma filosofia de gestão focada em maximizar valor ao cliente e minimizar desperdícios, originada do Sistema Toyota de Produção, aplicável em diversos setores.</li>
 <li>Defina o valor do ponto de vista do cliente.</li>
 <li>Mapear todas as etapas que agregam valor ao produto.</li>
@@ -263,11 +357,36 @@
 <li>Implementação de melhorias contínuas incrementais.</li>
 <li>Produção e entrega de produtos exatamente quando necessários.</li>
 <li>Integre automação com intervenção humana para qualidade.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ferramentas ágeis</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Livro Agilidade Lean - Casa do Código (<a href="https://www.casadocodigo.com.br/products/livro-agilidade-lean">https://www.casadocodigo.com.br/products/livro-agilidade-lean</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Lean: conheça a metodologia, seus 5 princípios e como aplicar com eficácia (<a href="https://www.totvs.com/blog/negocios/metodologia-lean/">https://www.totvs.com/blog/negocios/metodologia-lean/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Lean e Agile: o que são e como combinar essas metodologias? (<a href="https://blog.cronapp.io/lean-e-agile/">https://blog.cronapp.io/lean-e-agile/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Lean e Ágil nas empresas: tudo que você precisa saber sobre esses conceitos (<a href="https://blog.brq.com/lean-e-agile/">https://blog.brq.com/lean-e-agile/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Por que usar a Metodologia Lean na gestão (<a href="https://www.alura.com.br/empresas/artigos/metodologia-lean">https://www.alura.com.br/empresas/artigos/metodologia-lean</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como aplicar a metodologia Lean Agile com sucesso? (<a href="https://www.alura.com.br/empresas/artigos/lean-agile">https://www.alura.com.br/empresas/artigos/lean-agile</a>)</li>
+<li><code data-kind="curso">Curso</code> Transformação Digital: a organização Lean-Ágil (<a href="https://cursos.alura.com.br/course/transformacao-digital-organizacao-lean-agil">https://cursos.alura.com.br/course/transformacao-digital-organizacao-lean-agil</a>)</li>
+<li><code data-kind="curso">Curso</code> Lean-Ágil: expanda horizontes para a organização toda (<a href="https://cursos.alura.com.br/course/lean-agil-expanda-horizontes-organizacao-toda">https://cursos.alura.com.br/course/lean-agil-expanda-horizontes-organizacao-toda</a>)</li>
+<li><code data-kind="curso">Curso</code> Lean Agile Budgeting: princípios para a orçamentação eficaz na era digital (<a href="https://cursos.alura.com.br/course/lean-agile-budgeting-principios-orcamentacao">https://cursos.alura.com.br/course/lean-agile-budgeting-principios-orcamentacao</a>)</li>
+</ul>
+<h3>Ferramentas ágeis:</h3>
 <ul><li>Ferramentas ágeis são softwares e práticas que suportam metodologias ágeis, facilitando a gestão de projetos, colaboração e entrega contínua de valor.</li>
 <li>Gestão de projetos ágeis com suporte a Scrum e Kanban.</li>
 <li>Quadros visuais para organizar tarefas e projetos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Equipes ágeis</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 5 ferramentas ágeis: confira tudo o que elas podem fazer pela sua equipe (<a href="https://pluga.co/blog/ferramentas-ageis/">https://pluga.co/blog/ferramentas-ageis/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Ferramentas de Gestão Ágil: As 10 Melhores Opções para gestão de projetos (<a href="https://gpro.fia.com.br/newsletter/ferramentas-de-gestao-agil/">https://gpro.fia.com.br/newsletter/ferramentas-de-gestao-agil/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 10 Ferramentas para gestão ágil para você conseguir mais produtividade (<a href="https://www.brunafonseca.pro.br/post/10-ferramentas-para-gest%C3%A3o-%C3%A1gil-para-voc%C3%AA-conseguir-mais-produtividade">https://www.brunafonseca.pro.br/post/10-ferramentas-para-gestão-ágil-para-você-conseguir-mais-produtividade</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Trello: o que é, como funciona e os principais recursos (<a href="https://www.alura.com.br/artigos/trello">https://www.alura.com.br/artigos/trello</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Trello, Jira e Ferramentas de Produtividade - Hipsters Ponto Tech #239 (<a href="https://cursos.alura.com.br/extra/hipsterstech/trello-jira-e-ferramentas-de-produtividade-hipsters-ponto-tech-239-a780">https://cursos.alura.com.br/extra/hipsterstech/trello-jira-e-ferramentas-de-produtividade-hipsters-ponto-tech-239-a780</a>)</li>
+<li><code data-kind="curso">Curso</code> Ferramentas para agilidade: visão geral sobre controle de projetos e produtos (<a href="https://cursos.alura.com.br/course/ferramentas-agilidade-visao-sobre-controle-projetos-produtos">https://cursos.alura.com.br/course/ferramentas-agilidade-visao-sobre-controle-projetos-produtos</a>)</li>
+</ul>
+<h3>Equipes ágeis:</h3>
 <ul><li>Equipes ágeis são grupos multifuncionais e autônomos que trabalham de forma colaborativa e iterativa para entregar valor contínuo e adaptável em projetos.</li>
 <li>Membros com diversas habilidades complementares.</li>
 <li>Capacidade de tomar decisões independentes.</li>
@@ -278,7 +397,21 @@
 <li>Processos e progressos visíveis para todos.</li>
 <li>Sucesso e falhas compartilhados pela equipe.</li>
 <li>Revisão e ajuste constante de práticas e processos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Thinking</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como formar uma equipe ágil incrível (<a href="https://www.atlassian.com/br/agile/teams">https://www.atlassian.com/br/agile/teams</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é uma equipe ágil? Estrutura e Princípios (<a href="https://businessmap.io/pt/metodologia-agil/escalando-agil/equipes">https://businessmap.io/pt/metodologia-agil/escalando-agil/equipes</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 6 vantagens em desenvolver equipes ágeis em sua empresa (<a href="https://www.sertms.com/blog/equipes-ageis/">https://www.sertms.com/blog/equipes-ageis/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Saiba como implementar a cultura de colaboração na sua empresa (<a href="https://www.alura.com.br/empresas/artigos/saiba-implementar-cultura-colaboracao-sua-empresa">https://www.alura.com.br/empresas/artigos/saiba-implementar-cultura-colaboracao-sua-empresa</a>)</li>
+<li><code data-kind="curso">Curso</code> Agilidade: como ela pode ajudar a criar um time de alta performance (<a href="https://cursos.alura.com.br/course/agilidade-ajudar-criar-time-alta-performance">https://cursos.alura.com.br/course/agilidade-ajudar-criar-time-alta-performance</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 7 formas práticas para manter a alta produtividade no seu time (<a href="https://www.alura.com.br/empresas/artigos/alta-produtividade">https://www.alura.com.br/empresas/artigos/alta-produtividade</a>)</li>
+<li><code data-kind="curso">Curso</code> Squads não-suicidas - Hipsters #08 (<a href="https://cursos.alura.com.br/extra/hipsterstech/squads-nao-suicidas-hipsters-08-a578">https://cursos.alura.com.br/extra/hipsterstech/squads-nao-suicidas-hipsters-08-a578</a>)</li>
+<li><code data-kind="curso">Curso</code> Equipes ágeis: organizando os papéis em uma equipe (<a href="https://cursos.alura.com.br/course/equipes-ageis-organizando-papeis-equipe">https://cursos.alura.com.br/course/equipes-ageis-organizando-papeis-equipe</a>)</li>
+<li><code data-kind="curso">Curso</code> Escalando Equipes Ágeis: como levar a agilidade adiante na organização (<a href="https://cursos.alura.com.br/course/escalando-equipes-ageis-v2">https://cursos.alura.com.br/course/escalando-equipes-ageis-v2</a>)</li>
+</ul>
+<h3>Design Thinking:</h3>
 <ul><li>Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.</li>
 <li>Entenda profundamente as necessidades dos usuários.</li>
 <li>Clarifique o problema baseado nos insights coletados.</li>
@@ -287,11 +420,35 @@
 <li>Refine as soluções com base no feedback dos testes.</li>
 <li>Envolva diversas perspectivas na solução de problemas.</li>
 <li>Use métodos visuais para comunicar ideias e processos.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design Thinking: o que é, etapas e como aplicar (<a href="https://www.cursospm3.com.br/blog/design-thinking-guia-o-que-e-etapas-como-aplicar/">https://www.cursospm3.com.br/blog/design-thinking-guia-o-que-e-etapas-como-aplicar/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Thinking: uma forma inovadora de pensar e resolver problemas (<a href="https://rockcontent.com/br/blog/design-thinking/">https://rockcontent.com/br/blog/design-thinking/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Thinking: o que é, como aplicar e passo a passo (<a href="https://fia.com.br/blog/design-thinking/">https://fia.com.br/blog/design-thinking/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Design Thinking - Hipsters #139 (<a href="https://cursos.alura.com.br/extra/hipsterstech/design-thinking-hipsters-139-a442">https://cursos.alura.com.br/extra/hipsterstech/design-thinking-hipsters-139-a442</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Design Thinking e como aplicar a metodologia | Alura (<a href="https://www.alura.com.br/artigos/design-thinking-metodologia-criacao-de-produtos">https://www.alura.com.br/artigos/design-thinking-metodologia-criacao-de-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Thinking: viabilizando soluções (<a href="https://cursos.alura.com.br/course/design-thinking-viabilizando-solucoes">https://cursos.alura.com.br/course/design-thinking-viabilizando-solucoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Thinking: inove ao focar no problema e crie soluções assertivas para seu negócio (<a href="https://cursos.alura.com.br/course/design-thinking-inove-solucoes-assertivas-negocio">https://cursos.alura.com.br/course/design-thinking-inove-solucoes-assertivas-negocio</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Métricas</strong>:</li>
+<h3>Métricas:</h3>
 <ul><li>Métricas ágeis são indicadores utilizados para medir e monitorar a eficiência, qualidade e progresso de equipes ágeis, ajudando a orientar decisões e melhorar processos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Agilidade em Business</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Cinco métricas ágeis de KPI que você não vai odiar (<a href="https://www.atlassian.com/br/agile/project-management/metrics">https://www.atlassian.com/br/agile/project-management/metrics</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 6 métricas ágeis que importam (<a href="https://businessmap.io/pt/metodologia-agil/metric">https://businessmap.io/pt/metodologia-agil/metric</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 10 métricas ágeis que toda squad precisa monitorar (<a href="https://www.supero.com.br/blog/metricas-ageis/">https://www.supero.com.br/blog/metricas-ageis/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Pensando em métricas para times ágeis (<a href="https://www.alura.com.br/empresas/artigos/pensando-em-metricas-para-times-ageis">https://www.alura.com.br/empresas/artigos/pensando-em-metricas-para-times-ageis</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Métricas que auxiliam a arquitetura da informação (<a href="https://www.alura.com.br/artigos/metricas-arquitetura-informacao">https://www.alura.com.br/artigos/metricas-arquitetura-informacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de negócios: governança, agilidade e métricas (<a href="https://cursos.alura.com.br/course/gestao-negocios-governanca-agilidade-metricas">https://cursos.alura.com.br/course/gestao-negocios-governanca-agilidade-metricas</a>)</li>
+<li><code data-kind="curso">Curso</code> Métricas Ágeis: como medir resultados em um Ambiente Ágil (<a href="https://cursos.alura.com.br/course/metricas-ageis-medir-resultados-ambiente-agil">https://cursos.alura.com.br/course/metricas-ageis-medir-resultados-ambiente-agil</a>)</li>
+<li><code data-kind="curso">Curso</code> Product Design: métricas e ciclo de vida do produto (<a href="https://cursos.alura.com.br/course/product-design-metricas-ciclo-vida-produto">https://cursos.alura.com.br/course/product-design-metricas-ciclo-vida-produto</a>)</li>
+</ul>
+<h3>Agilidade em Business:</h3>
 <ul><li>Business refere-se a atividades organizadas e processos envolvidos na produção, venda e distribuição de bens e serviços, com o objetivo de gerar valor e lucro.</li>
 <li>Defina a visão, missão e metas de longo prazo.</li>
 <li>Controle e aloque recursos financeiros eficientemente.</li>
@@ -302,13 +459,36 @@
 <li>Estude o mercado para identificar oportunidades e ameaças.</li>
 <li>Converta leads em clientes e aumente a receita.</li>
 <li>Integre práticas éticas e sustentáveis nos negócios.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Aprofundamento em frameworks ágeis</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Business Agility: o que é, suas aplicações e vantagens (<a href="https://blog.brq.com/business-agility/">https://blog.brq.com/business-agility/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Business Agility: o que é, vantagens e aplicação (<a href="https://www.totvs.com/blog/inovacoes/business-agility/">https://www.totvs.com/blog/inovacoes/business-agility/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Business Agility: o que é e para que usar? (<a href="https://www.sydle.com/br/blog/business-agility-o-que-e-63359b511770c5640cf3b03b">https://www.sydle.com/br/blog/business-agility-o-que-e-63359b511770c5640cf3b03b</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Business Agility - Hipsters #147 (<a href="https://www.alura.com.br/podcast/hipsterstech-business-agility-hipsters-147-a432">https://www.alura.com.br/podcast/hipsterstech-business-agility-hipsters-147-a432</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como usar o Cynefin na adoção de Business Agility (<a href="https://www.alura.com.br/empresas/artigos/como-usar-cynefin-na-adocao-business-agility">https://www.alura.com.br/empresas/artigos/como-usar-cynefin-na-adocao-business-agility</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de negócios: visão geral de processos de negócios (<a href="https://cursos.alura.com.br/course/gestao-negocios-visao-geral-processos-negocios">https://cursos.alura.com.br/course/gestao-negocios-visao-geral-processos-negocios</a>)</li>
+<li><code data-kind="curso">Curso</code> A Empresa Ágil: implemente o Business Agility nas organizações (<a href="https://cursos.alura.com.br/course/empresa-agil">https://cursos.alura.com.br/course/empresa-agil</a>)</li>
+</ul>
+<h3>Aprofundamento em frameworks ágeis:</h3>
 <ul><li>Frameworks ágeis são estruturas e metodologias que orientam equipes no desenvolvimento de projetos de forma iterativa e incremental, promovendo adaptabilidade e entrega contínua de valor.</li>
 <li>Escala ágil para grandes organizações.</li>
 <li>Escalamento do Scrum para grandes equipes.</li>
 <li>Abordagem híbrida, combina várias práticas ágeis.</li>
 <li>Foco na eficiência e flexibilidade, ajustado ao tamanho da equipe.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Compliance</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Entenda como funciona os frameworks ágeis e quais são eles (<a href="https://frons.com.br/blog/gestao-empresarial/framework-agil-aprenda-o-que-e-e-como-funciona/">https://frons.com.br/blog/gestao-empresarial/framework-agil-aprenda-o-que-e-e-como-funciona/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> A estrutura Scrum em larga escala (LeSS) (<a href="https://www.atlassian.com/br/agile/agile-at-scale/less">https://www.atlassian.com/br/agile/agile-at-scale/less</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Escalando o Scrum com o Nexus Framework (<a href="https://cafecomscrum.com/2015/12/15/escalando-o-scrum-com-o-nexus-framework/">https://cafecomscrum.com/2015/12/15/escalando-o-scrum-com-o-nexus-framework/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Scaled Agile Framework? (SAFe) (<a href="https://www.atlassian.com/br/agile/agile-at-scale/what-is-safe">https://www.atlassian.com/br/agile/agile-at-scale/what-is-safe</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Scrum escalado: LeSS Framework (<a href="https://cursos.alura.com.br/course/scrum-escalado-less-framework">https://cursos.alura.com.br/course/scrum-escalado-less-framework</a>)</li>
+<li><code data-kind="curso">Curso</code> Ágil Escalado: conheça frameworks para grandes desenvolvimentos (<a href="https://cursos.alura.com.br/course/agil-escalado-frameworks-grandes-desenvolvimentos">https://cursos.alura.com.br/course/agil-escalado-frameworks-grandes-desenvolvimentos</a>)</li>
+</ul>
+<h3>Compliance:</h3>
 <ul><li>Compliance refere-se à conformidade com leis, regulamentos, políticas e normas internas, garantindo que a organização atue de maneira ética e legal.</li>
 <li>Adesão às leis e regulamentações aplicáveis.</li>
 <li>Estabelecimento e cumprimento de normas internas.</li>
@@ -319,9 +499,18 @@
 <li>Documentação e comunicação de práticas de compliance.</li>
 <li>Supervisão constante das operações e processos.</li>
 <li>Revisão periódica e atualização das políticas de compliance.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Compliance: entenda o que é, tipos e como aplicar nas empresas? (<a href="https://fia.com.br/blog/compliance/">https://fia.com.br/blog/compliance/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Compliance: o que é, tipos, vantagens e como aplicar (<a href="https://www.totvs.com/blog/negocios/compliance/">https://www.totvs.com/blog/negocios/compliance/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Compliance: conceito, tipos, benefícios e como colocar em prática (<a href="https://www.aurum.com.br/blog/compliance/">https://www.aurum.com.br/blog/compliance/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Compliance: destaque sua empresa no mercado (<a href="https://cursos.alura.com.br/course/compliance-destaque-empresa-mercado">https://cursos.alura.com.br/course/compliance-destaque-empresa-mercado</a>)</li>
+<li><code data-kind="curso">Curso</code> Integridade corporativa: tomada de decisões éticas em ambientes empresariais (<a href="https://cursos.alura.com.br/course/integridade-corporativa-decisoes-eticas-ambientes-empresariais">https://cursos.alura.com.br/course/integridade-corporativa-decisoes-eticas-ambientes-empresariais</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Liderança de equipe</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Fundamentos da Liderança</strong>:</li>
+<h3>Fundamentos da Liderança:</h3>
 <ul><li>Fundamentos da liderança são princípios e práticas essenciais que guiam os líderes na motivação, orientação e gestão de equipes para alcançar objetivos organizacionais eficazmente.</li>
 <li>Definir e comunicar uma visão clara e inspiradora.</li>
 <li>Praticar a comunicação clara e eficaz com a equipe.</li>
@@ -331,7 +520,25 @@
 <li>Inspirar e encorajar a equipe a alcançar seus melhores resultados.</li>
 <li>Fazer escolhas informadas e responsáveis.</li>
 <li>Investir no crescimento e capacitação da equipe.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Soft skills</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Livro Liderança - Casa do Código (<a href="https://www.casadocodigo.com.br/products/livro-lideranca">https://www.casadocodigo.com.br/products/livro-lideranca</a>)</li>
+<li><code data-kind="site">Site</code> Livro Liderança de produtos digitais - Casa do Código (<a href="https://www.casadocodigo.com.br/products/livro-lideranca-produtos">https://www.casadocodigo.com.br/products/livro-lideranca-produtos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Fundamentos da liderança: conheça 9 habilidades essenciais! (<a href="https://www.plantareducacao.com.br/fundamentos-da-lideranca/">https://www.plantareducacao.com.br/fundamentos-da-lideranca/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liderança: tudo sobre, tipos, importância e principais dúvidas! (<a href="https://www.pontotel.com.br/lideranca/">https://www.pontotel.com.br/lideranca/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liderança: importância, competências, tipos e como desenvolver (<a href="https://www.qulture.rocks/blog/lideranca">https://www.qulture.rocks/blog/lideranca</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Um guia completo sobre liderança e como ser um bom líder! (<a href="https://rockcontent.com/br/blog/lideranca/">https://rockcontent.com/br/blog/lideranca/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como líderes de TI podem desenvolver competências de liderança? (<a href="https://www.alura.com.br/empresas/artigos/competencias-de-lideranca">https://www.alura.com.br/empresas/artigos/competencias-de-lideranca</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 5 características de uma boa liderança e como alcançá-las (<a href="https://www.alura.com.br/empresas/artigos/lideranca">https://www.alura.com.br/empresas/artigos/lideranca</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Liderança inclusiva: conheça os benefícios de promover a diversidade no ambiente de trabalhoc (<a href="https://www.alura.com.br/empresas/artigos/lideranca-inclusiva">https://www.alura.com.br/empresas/artigos/lideranca-inclusiva</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como manter os colaboradores engajados (<a href="https://www.alura.com.br/empresas/artigos/como-manter-os-colaboradores-engajados">https://www.alura.com.br/empresas/artigos/como-manter-os-colaboradores-engajados</a>)</li>
+<li><code data-kind="curso">Curso</code> Liderança: práticas de gestão e melhorias (<a href="https://cursos.alura.com.br/course/lideranca-praticas-gestao-melhoriasc">https://cursos.alura.com.br/course/lideranca-praticas-gestao-melhoriasc</a>)</li>
+<li><code data-kind="curso">Curso</code> Delegação de tarefas: obtenha o melhor do seu time (<a href="https://cursos.alura.com.br/course/delegacao-tarefas-obtenha-melhor-time">https://cursos.alura.com.br/course/delegacao-tarefas-obtenha-melhor-time</a>)</li>
+<li><code data-kind="curso">Curso</code> Negociação para líderes: desenvolva a habilidade e consiga bons acordos (<a href="https://cursos.alura.com.br/course/negociacao-lideres-habilidade-bons-acordos">https://cursos.alura.com.br/course/negociacao-lideres-habilidade-bons-acordos</a>)</li>
+</ul>
+<h3>Soft skills:</h3>
 <ul><li>Soft skills são habilidades pessoais que líderes desenvolvem para se comunicar, colaborar e liderar eficazmente suas equipes.</li>
 <li>Transmita claramente informações e ideias.</li>
 <li>Compreenda e se conecte com as emoções dos outros.</li>
@@ -340,7 +547,20 @@
 <li>Reconheça e gerencie suas próprias emoções e as dos outros.</li>
 <li>Foco no apoio e capacitação da equipe.</li>
 <li>Dê e receba feedback de maneira construtiva e útil.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Management 3.0</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Liderança e soft skills: desafios no novo mundo do trabalho (<a href="https://vanzolini.org.br/blog/lideranca-soft-skills/">https://vanzolini.org.br/blog/lideranca-soft-skills/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 10 soft skills de liderança para desenvolver já (<a href="https://blog.psicologiaviva.com.br/desenvolver-soft-skills-de-lideranca/">https://blog.psicologiaviva.com.br/desenvolver-soft-skills-de-lideranca/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Lista de Soft Skills que um bom líder precisa ter (<a href="https://www.oitchau.com.br/blog/lista-de-soft-skills-para-um-bom-lider/">https://www.oitchau.com.br/blog/lista-de-soft-skills-para-um-bom-lider/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Liderança Ágil: aprimoramento de soft skills (<a href="https://cursos.alura.com.br/course/lideranca-agil-aprimoramento-soft-skills">https://cursos.alura.com.br/course/lideranca-agil-aprimoramento-soft-skills</a>)</li>
+<li><code data-kind="curso">Curso</code> Oratória para líderes: como se comunicar profissionalmente (<a href="https://cursos.alura.com.br/course/oratoria-lideres-comunicacao-profissional">https://cursos.alura.com.br/course/oratoria-lideres-comunicacao-profissional</a>)</li>
+<li><code data-kind="curso">Curso</code> Comunicação assertiva: reduzindo conflitos e frustrações (<a href="https://cursos.alura.com.br/course/comunicacao-assertiva-reduzindo-conflitos-e-frustracaoes">https://cursos.alura.com.br/course/comunicacao-assertiva-reduzindo-conflitos-e-frustracaoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Comunicação participativa: liderança eficaz e motivadora (<a href="https://cursos.alura.com.br/course/comunicacao-participativa-lideranca-eficaz-motivadora">https://cursos.alura.com.br/course/comunicacao-participativa-lideranca-eficaz-motivadora</a>)</li>
+<li><code data-kind="curso">Curso</code> Comunicação estratégica na liderança: como engajar e influenciar pessoas (<a href="https://cursos.alura.com.br/course/comunicacao-estrategica-lideranca-engajar-influenciar-pessoas">https://cursos.alura.com.br/course/comunicacao-estrategica-lideranca-engajar-influenciar-pessoas</a>)</li>
+</ul>
+<h3>Management 3.0:</h3>
 <ul><li>Management 3.0 é uma abordagem de gestão que enfatiza a colaboração, autonomia e melhoria contínua para liderar equipes em ambientes complexos e dinâmicos.</li>
 <li>Compartilhe informações e decisões abertamente.</li>
 <li>Permita que os membros da equipe tomem decisões e assumam responsabilidades.</li>
@@ -349,7 +569,18 @@
 <li>Aborde conflitos de forma colaborativa e construtiva.</li>
 <li>Encoraje a colaboração e o trabalho em equipe.</li>
 <li>Esteja preparado para mudanças e adapte-se rapidamente.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Inteligência emocional</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Management 3.0 - Conheça todos os conceitos desse novo modelo de gestão (<a href="https://www.metodoagil.com/management-30/">https://www.metodoagil.com/management-30/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Management 3.0: por que você deve conhecer esse modelo de gestão? (<a href="https://www.mjvinnovation.com/pt-br/blog/management-3-0/">https://www.mjvinnovation.com/pt-br/blog/management-3-0/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Management 3.0: otimize a sua gestão, valorize seus colaboradores e aumente a produtividade (<a href="https://www.totvs.com/blog/negocios/management-3-0/">https://www.totvs.com/blog/negocios/management-3-0/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Gestão com Management 3.0 - Hipsters #80 (<a href="https://cursos.alura.com.br/extra/hipsterstech/gestao-com-management-3-0-hipsters-80-a506">https://cursos.alura.com.br/extra/hipsterstech/gestao-com-management-3-0-hipsters-80-a506</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Management 3.0 e por que aplicá-lo na sua empresa (<a href="https://www.alura.com.br/empresas/artigos/o-que-e-management-3-0-e-por-que-aplica-lo-na-sua-empresa">https://www.alura.com.br/empresas/artigos/o-que-e-management-3-0-e-por-que-aplica-lo-na-sua-empresa</a>)</li>
+<li><code data-kind="curso">Curso</code> Management 3.0: gerencie o ambiente, não as pessoas (<a href="https://cursos.alura.com.br/course/management-3-0-gerencie-ambiente-nao-pessoas">https://cursos.alura.com.br/course/management-3-0-gerencie-ambiente-nao-pessoas</a>)</li>
+</ul>
+<h3>Inteligência emocional:</h3>
 <ul><li>Inteligência emocional é a capacidade de reconhecer, entender e gerenciar nossas próprias emoções e as emoções dos outros, essencial para relacionamentos eficazes e bem-estar pessoal.</li>
 <li>Reconheça e compreenda suas próprias emoções.</li>
 <li>Gerencie suas emoções de maneira saudável e produtiva.</li>
@@ -358,7 +589,18 @@
 <li>Desenvolva relacionamentos interpessoais positivos.</li>
 <li>Expresse suas emoções de forma clara e apropriada.</li>
 <li>Construa e mantenha relacionamentos saudáveis.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Tech Lead</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Quais são os cinco pilares da Inteligência Emocional? (<a href="https://online.pucrs.br/blog/pilares-inteligencia-emocional">https://online.pucrs.br/blog/pilares-inteligencia-emocional</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Inteligência Emocional: como desenvolver nos colaboradores? (<a href="https://zenklub.com.br/blog/trabalho/por-que-inteligencia-emocional-e-grande-aliada-do-mundo-corporativo/">https://zenklub.com.br/blog/trabalho/por-que-inteligencia-emocional-e-grande-aliada-do-mundo-corporativo/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Inteligência Emocional: O que é, Importância e Como Desenvolver (<a href="https://fia.com.br/blog/inteligencia-emocional/">https://fia.com.br/blog/inteligencia-emocional/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Inteligência emocional: aumente seu potencial de liderança (<a href="https://cursos.alura.com.br/course/inteligencia-emocional-aumentando-potencial-lideranca">https://cursos.alura.com.br/course/inteligencia-emocional-aumentando-potencial-lideranca</a>)</li>
+<li><code data-kind="curso">Curso</code> Liderança transformacional: criando uma cultura de excelência (<a href="https://cursos.alura.com.br/course/lideranca-transformacional-criando-cultura-excelencia">https://cursos.alura.com.br/course/lideranca-transformacional-criando-cultura-excelencia</a>)</li>
+<li><code data-kind="curso">Curso</code> Inteligência emocional: práticas para o cotidiano (<a href="https://cursos.alura.com.br/course/inteligencia-emocional">https://cursos.alura.com.br/course/inteligencia-emocional</a>)</li>
+</ul>
+<h3>Tech Lead:</h3>
 <ul><li>Tech Lead é um papel de liderança técnica em equipes de desenvolvimento de software, responsável por guiar a equipe no desenvolvimento de soluções tecnológicas.</li>
 <li>Projete e mantenha a arquitetura de software.</li>
 <li>Encontre soluções técnicas para desafios complexos.</li>
@@ -366,9 +608,23 @@
 <li>Desenvolva habilidades técnicas da equipe.</li>
 <li>Comunique-se claramente com a equipe e stakeholders.</li>
 <li>Promova e implemente práticas e tecnologias inovadoras.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Tech Lead: o que faz, quanto ganha, mercado de trabalho, habilidades e cursos de formação (<a href="https://blog.crowd.br.com/tech-lead/">https://blog.crowd.br.com/tech-lead/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tech lead: o que é, funções, salário e como se tornar um (<a href="https://blog.geekhunter.com.br/tech-lead/">https://blog.geekhunter.com.br/tech-lead/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é um Tech Lead? (<a href="https://www.ironhack.com/pt/blog/o-que-e-um-tech-lead">https://www.ironhack.com/pt/blog/o-que-e-um-tech-lead</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Kamila Santos - Tech Lead na Zup | Hipsters: Líderes em TI (<a href="https://www.youtube.com/watch?v=nB68FLQjbkA">https://www.youtube.com/watch?v=nB68FLQjbkA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mauricio Aniche - Tech Lead na Adyen | Hipsters: Líderes em TI (<a href="https://www.youtube.com/watch?v=r7Q32f6ohQc">https://www.youtube.com/watch?v=r7Q32f6ohQc</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Tudo o que você precisa saber sobre a profissão Tech Lead (<a href="https://www.alura.com.br/artigos/tech-lead">https://www.alura.com.br/artigos/tech-lead</a>)</li>
+<li><code data-kind="curso">Curso</code> Profissão Tech Lead: conhecendo a liderança técnica (<a href="https://cursos.alura.com.br/course/profissao-tech-lead-conhecendo-lideranca-tecnica">https://cursos.alura.com.br/course/profissao-tech-lead-conhecendo-lideranca-tecnica</a>)</li>
+<li><code data-kind="curso">Curso</code> Tech Lead: construindo práticas e rotinas de gestão (<a href="https://cursos.alura.com.br/course/tech-lead-construindo-praticas-rotinas-gestao">https://cursos.alura.com.br/course/tech-lead-construindo-praticas-rotinas-gestao</a>)</li>
+<li><code data-kind="curso">Curso</code> Tech Lead: gerindo pessoas e guiando para alta performance (<a href="https://cursos.alura.com.br/course/tech-lead-gerindo-pessoas-guiando-alta-performance">https://cursos.alura.com.br/course/tech-lead-gerindo-pessoas-guiando-alta-performance</a>)</li>
+<li><code data-kind="curso">Curso</code> Tech Lead: desenvolvendo habilidades de comunicação (<a href="https://cursos.alura.com.br/course/tech-lead-desenvolvendo-habilidades-comunicacao">https://cursos.alura.com.br/course/tech-lead-desenvolvendo-habilidades-comunicacao</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Product management</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos - Fundamentos</strong>:</li>
+<h3>Gestão de Produtos - Fundamentos:</h3>
 <ul><li>Gestão de Produtos é o processo de desenvolver, lançar e gerenciar produtos de forma eficaz para atender às necessidades dos clientes e alcançar objetivos de negócios.</li>
 <li>Definir visão clara e estratégia para o produto.</li>
 <li>Entender necessidades e preferências dos clientes.</li>
@@ -376,7 +632,19 @@
 <li>Priorizar recursos com base no valor para o cliente e para o negócio.</li>
 <li>Analisar métricas e feedback para orientar decisões.</li>
 <li>Estar aberto a mudanças e ajuste a estratégia conforme necessário.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Product Discovery</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Fundamentos de Product Management (<a href="https://www.cursospm3.com.br/blog/fundamentos-product-management/">https://www.cursospm3.com.br/blog/fundamentos-product-management/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Product Manager: o que faz, salário e como ingressar na profissão (<a href="https://www.cursospm3.com.br/blog/product-manager-guia-o-que-faz-salario-como-ingressar-na-profissao/">https://www.cursospm3.com.br/blog/product-manager-guia-o-que-faz-salario-como-ingressar-na-profissao/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Entenda o que faz um Product Manager e qual a sua importância para o sucesso do seu produto (<a href="https://rockcontent.com/br/blog/product-manager/">https://rockcontent.com/br/blog/product-manager/</a>)</li>
+<li><code data-kind="site">Site</code> MBA PRODUCT MANAGEMENT &amp; GROWTH HACKING (<a href="https://www.fiap.com.br/mba/mba-em-product-management-growth-hacking-discovery-delivery-scale">https://www.fiap.com.br/mba/mba-em-product-management-growth-hacking-discovery-delivery-scale</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Product Manager: O que é e como se destacar na área (<a href="https://www.alura.com.br/artigos/product-manager-o-que-e-e-como-se-destacar">https://www.alura.com.br/artigos/product-manager-o-que-e-e-como-se-destacar</a>)</li>
+<li><code data-kind="curso">Curso</code> Product Management: agilize o desenvolvimento de produtos (<a href="https://cursos.alura.com.br/course/product-management-desenvolvimento-produtos">https://cursos.alura.com.br/course/product-management-desenvolvimento-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Product Manager: uma jornada em gestão de produto (<a href="https://cursos.alura.com.br/course/product-manager-jornada-gestao-produto">https://cursos.alura.com.br/course/product-manager-jornada-gestao-produto</a>)</li>
+</ul>
+<h3>Product Discovery:</h3>
 <ul><li>Product Discovery é o processo de entender as necessidades dos usuários, identificar oportunidades de mercado e conceber soluções inovadoras para desenvolver produtos bem-sucedidos.</li>
 <li>Analisar o mercado para identificar tendências e oportunidades.</li>
 <li>Conduzie entrevistas para entender as necessidades dos usuários.</li>
@@ -384,7 +652,18 @@
 <li>Estudar os concorrentes para identificar lacunas e diferenciais.</li>
 <li>Testar hipóteses para validar a viabilidade do produto.</li>
 <li>Mapear as jornadas dos usuários para identificar pontos de dor.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gestão de Produtos Digitais</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é Product Discovery, como se diferencia do Product Delivery, e qual o seu valor na Estratégia de crescimento da Empresa (<a href="https://medium.com/@pravy.design/o-que-%C3%A9-product-discovery-como-se-diferencia-do-product-delivery-e-qual-o-seu-valor-na-estrat%C3%A9gia-9cdae6c50e2c">https://medium.com/@pravy.design/o-que-%C3%A9-product-discovery-como-se-diferencia-do-product-delivery-e-qual-o-seu-valor-na-estrat%C3%A9gia-9cdae6c50e2c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Product Discovery: o que é, como fazer e quais as melhores técnicas (<a href="https://produtosincriveis.co/blog/product-discovery-o-que-e-como-fazer-e-quais-as-melhores-tecnicas">https://produtosincriveis.co/blog/product-discovery-o-que-e-como-fazer-e-quais-as-melhores-tecnicas</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Product Manager: O que é e como se destacar na área (<a href="https://cursos.alura.com.br/extra/layerstech/product-discovery-layers-ponto-tech-114-a1958">https://cursos.alura.com.br/extra/layerstech/product-discovery-layers-ponto-tech-114-a1958</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Product Discovery (<a href="https://cursos.alura.com.br/extra/hipsterstech/product-discovery-hipsters-188-a372">https://cursos.alura.com.br/extra/hipsterstech/product-discovery-hipsters-188-a372</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: Product Discovery (<a href="https://cursos.alura.com.br/course/gestao-produtos-digitais-product-discovery">https://cursos.alura.com.br/course/gestao-produtos-digitais-product-discovery</a>)</li>
+<li><code data-kind="curso">Curso</code> Startupismo: Product Discovery (<a href="https://cursos.alura.com.br/course/startupismo-product-discovery">https://cursos.alura.com.br/course/startupismo-product-discovery</a>)</li>
+</ul>
+<h3>Gestão de Produtos Digitais:</h3>
 <ul><li>Gestão de produtos digitais envolve o desenvolvimento, lançamento e otimização de produtos digitais, como aplicativos e plataformas online, para atender às necessidades dos usuários e alcançar objetivos de negócios.</li>
 <li>Colocar as necessidades dos usuários no centro do processo de desenvolvimento.</li>
 <li>Definir uma visão clara e estratégia para o produto digital.</li>
@@ -392,7 +671,21 @@
 <li>Coletar e analisar feedback dos usuários para melhorias.</li>
 <li>Adotar metodologias ágeis para entregas rápidas e iterativas.</li>
 <li>Utilizar dados para tomar decisões informadas sobre o produto.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Gestão de produtos digitais: entenda a importância (<a href="https://www.cursospm3.com.br/blog/gestao-de-produtos-digitais-entenda-a-importancia/">https://www.cursospm3.com.br/blog/gestao-de-produtos-digitais-entenda-a-importancia/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de Produtos: a área que está brilhando aos olhos do mercado (<a href="https://www.cursospm3.com.br/blog/gestao-de-produtos-a-area-que-esta-brilhando-os-olhos-do-mercado/">https://www.cursospm3.com.br/blog/gestao-de-produtos-a-area-que-esta-brilhando-os-olhos-do-mercado/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de produtos digitais: o que é e como fazer (<a href="https://herospark.com/blog/gestao-de-produtos-digitais/">https://herospark.com/blog/gestao-de-produtos-digitais/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Gestão de Produtos como você nunca viu (<a href="https://www.casadocodigo.com.br/products/livro-mulheres-de-produto">https://www.casadocodigo.com.br/products/livro-mulheres-de-produto</a>)</li>
+<li><code data-kind="site">Site</code> FIAP - Pós Tech em Digital Product Management (<a href="https://postech.fiap.com.br/curso/digital-product-management/">https://postech.fiap.com.br/curso/digital-product-management/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Gestão de produtos digitais: Produto vs. Projeto (<a href="https://cursos.alura.com.br/course/gestao-produtos-digitais-produto-vs-projeto">https://cursos.alura.com.br/course/gestao-produtos-digitais-produto-vs-projeto</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: priorização (<a href="https://cursos.alura.com.br/course/gestao-produtos-priorizacao">https://cursos.alura.com.br/course/gestao-produtos-priorizacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: validação (<a href="https://cursos.alura.com.br/course/gestao-produtos-digitais-validacao">https://cursos.alura.com.br/course/gestao-produtos-digitais-validacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Gestão de produtos digitais: aceleração (<a href="https://cursos.alura.com.br/course/gestao-produtos-aceleracao">https://cursos.alura.com.br/course/gestao-produtos-aceleracao</a>)</li>
+</ul>
+<h3>Roadmap:</h3>
 <ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
 <li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
 <li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
@@ -401,7 +694,16 @@
 <li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
 <li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
 <li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Glossário - Roadmap (<a href="https://www.cursospm3.com.br/glossario/roadmap/">https://www.cursospm3.com.br/glossario/roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conheça o roadmap: a ferramenta que guia a estratégia da sua empresa (<a href="https://blog.runrun.it/o-que-e-roadmap/">https://blog.runrun.it/o-que-e-roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Roadmap (<a href="https://miro.com/pt/agile/o-que-e-roadmap/">https://miro.com/pt/agile/o-que-e-roadmap/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Roadmap de Produtos: O que é e como criar um? (<a href="https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos">https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Roadmap: como criar e manter o mapa de produto (<a href="https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto">https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

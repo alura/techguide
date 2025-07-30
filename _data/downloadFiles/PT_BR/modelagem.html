@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,93 +249,217 @@
   </div>
 
   <div class="content">
-    <h1>Modelagem 3D</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Fundamentos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>Fundamentos:</h3>
 <ul><li>Os fundamentos da modelagem 3D cobrem conceitos básicos, como vértices, arestas e faces, além da estrutura topológica. Esses conhecimentos são essenciais para criar formas em softwares 3D, garantir boa usabilidade para animação e renderização, e evitar erros comuns.</li>
 <li>Conceito de espaço 3D</li>
 <li>Conceitos de escala e proporção nos modelos</li>
 <li>Uso de referências para criar modelos precisos</li>
 <li>Erros comuns na modelagem e como evitá-los</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Box Modeling</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="site">Site</code> Blender (<a href="https://www.blender.org/">https://www.blender.org/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> BLENDER 3D - Tutorial definitivo para Iniciantes (<a href="https://www.youtube.com/watch?v=QX_D7uhqGfI">https://www.youtube.com/watch?v=QX_D7uhqGfI</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O artista por trás do 3D (<a href="https://www.alura.com.br/artigos/o-artista-por-tras-do-3d">https://www.alura.com.br/artigos/o-artista-por-tras-do-3d</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Veja como a tecnologia 3D cresce no meio do design (<a href="https://www.alura.com.br/artigos/veja-como-tecnologia-3d-cresce-no-meio-do-design">https://www.alura.com.br/artigos/veja-como-tecnologia-3d-cresce-no-meio-do-design</a>)</li>
+<li><code data-kind="curso">Curso</code> Blender: criando um modelo 3D (<a href="https://cursos.alura.com.br/course/blender-criando-primeiro-modelo-3d">https://cursos.alura.com.br/course/blender-criando-primeiro-modelo-3d</a>)</li>
+</ul>
+<h3>Box Modeling:</h3>
 <ul><li>Box Modeling é uma técnica de modelagem 3D que usa formas simples, como cubos ou esferas, para criar objetos mais complexos. É ideal para iniciantes, pois oferece um processo intuitivo de subdivisão, extrusão e refinamento, permitindo o controle total do design do modelo.</li>
 <li>Escolha das formas básicas para iniciar um modelo</li>
 <li>Manipulação de vértices, arestas e faces</li>
 <li>Refinamento de formas para suavizar superfícies</li>
 <li>Uso de simetria para otimizar o processo</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Composição</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Modelagem com Box Modeling (<a href="https://www.youtube.com/watch?v=FXW86VxQLGQ">https://www.youtube.com/watch?v=FXW86VxQLGQ</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Blender: entendendo o Box Modeling (<a href="https://cursos.alura.com.br/course/blender-entendendo-box-modeling">https://cursos.alura.com.br/course/blender-entendendo-box-modeling</a>)</li>
+</ul>
+<h3>Composição:</h3>
 <ul><li>Composição em cores envolve o uso estratégico do círculo cromático e da psicologia das cores para criar harmonia visual e transmitir emoções. Aprenda a selecionar paletas, equilibrar tons e aplicar contrastes para enriquecer suas criações artísticas ou designs.</li>
 <li>Fundamentos do círculo cromático</li>
 <li>Harmonia entre cores</li>
 <li>Significados psicológicos das cores</li>
 <li>Teoria de contraste e equilíbrio cromático</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Círculo Cromático: Veja Como Usar e Evite Erros na Escolha das Cores (<a href="https://www.vivadecora.com.br/pro/circulo-cromatico/">https://www.vivadecora.com.br/pro/circulo-cromatico/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como usar a harmonia de cores no seu design (<a href="https://www.printi.com.br/blog/como-usar-a-harmonia-de-cores-no-seu-design">https://www.printi.com.br/blog/como-usar-a-harmonia-de-cores-no-seu-design</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Cores com harmonia (<a href="https://www.alura.com.br/artigos/cores-com-harmonia">https://www.alura.com.br/artigos/cores-com-harmonia</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Psicologia das cores: veja como isso é essencial para o sucesso do designer (<a href="https://www.alura.com.br/artigos/psicologia-das-cores-veja-como-isso-e-essencial-para-o-sucesso-do-designer">https://www.alura.com.br/artigos/psicologia-das-cores-veja-como-isso-e-essencial-para-o-sucesso-do-designer</a>)</li>
+<li><code data-kind="curso">Curso</code> Cores: sistemas básicos e paletas (<a href="https://cursos.alura.com.br/course/fundamentos-da-cor">https://cursos.alura.com.br/course/fundamentos-da-cor</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Modelagem Poligonal</strong>:</li>
+<h3>Modelagem Poligonal:</h3>
 <ul><li>A modelagem poligonal usa polígonos para formar objetos 3D, sendo a base de muitos workflows. Essa técnica permite criar modelos de diferentes níveis de detalhe, desde low-poly, para jogos, até high-poly, para animações e renders realistas.</li>
 <li>Conceito de polígonos e como eles formam modelos 3D</li>
 <li>Técnicas de subdivisão para maior detalhamento</li>
 <li>Como evitar distorções na malha poligonal</li>
 <li>Construção de formas complexas com polígonos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Texturização</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é um polígono na modelagem 3D? (<a href="https://www.adobe.com/br/products/substance3d/discover/3d-polygon-modeling.html">https://www.adobe.com/br/products/substance3d/discover/3d-polygon-modeling.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Inteligência Artificial para criar desenhos e outras imagens (<a href="https://www.alura.com.br/artigos/inteligencia-artificial-desenha-e-cria-imagens">https://www.alura.com.br/artigos/inteligencia-artificial-desenha-e-cria-imagens</a>)</li>
+<li><code data-kind="curso">Curso</code> Blender 2.8: modelagem poligonal (<a href="https://cursos.alura.com.br/course/blender-modelagem-poligonal">https://cursos.alura.com.br/course/blender-modelagem-poligonal</a>)</li>
+</ul>
+<h3>Texturização:</h3>
 <ul><li>A texturização é o processo de aplicar detalhes visuais em modelos 3D, como cores, padrões e materiais. Isso envolve técnicas como UV Mapping, criação de mapas de normal e especular, e pintura digital, que dão realismo e personalidade aos modelos.</li>
 <li>Técnicas de aplicação de texturas em 3D</li>
 <li>Pintura manual de texturas no Blender</li>
 <li>Como criar mapas de normal para detalhes extras</li>
 <li>Uso de mapas de especularidade para reflexos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Animação</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é texturização 3D? (<a href="https://www.adobe.com/br/products/substance3d/discover/3d-texturing.html">https://www.adobe.com/br/products/substance3d/discover/3d-texturing.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que são texturas 3D e como criá-las? (<a href="https://www.adobe.com/br/products/substance3d/discover/how-to-create-3d-textures.html">https://www.adobe.com/br/products/substance3d/discover/how-to-create-3d-textures.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="conteúdo">Conteúdo</code> Fluxo de malha 3D (<a href="https://cursos.alura.com.br/extra/alura-mais/fluxo-de-malha-3d-c1585">https://cursos.alura.com.br/extra/alura-mais/fluxo-de-malha-3d-c1585</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que são materiais e texturas em um software 3D? (<a href="https://www.alura.com.br/artigos/o-que-sao-materiais-texturas-software-3d">https://www.alura.com.br/artigos/o-que-sao-materiais-texturas-software-3d</a>)</li>
+<li><code data-kind="curso">Curso</code> Blender: texturizando modelos com Hand Paint (<a href="https://cursos.alura.com.br/course/blender-texturizando-modelos-hand-paint">https://cursos.alura.com.br/course/blender-texturizando-modelos-hand-paint</a>)</li>
+</ul>
+<h3>Animação:</h3>
 <ul><li>A animação em 3D combina movimentos realistas e topologia limpa para dar vida aos modelos. Inclui rigging, que cria esqueleto e controles, e técnicas para evitar deformações incorretas, essenciais para personagens e objetos animados.</li>
 <li>Criação de esqueleto (armature) para modelos</li>
 <li>Princípios básicos de animação - timing e espaçamento</li>
 <li>Planejamento de topologia para rigging eficiente</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 8 tutoriais de animação em 3D no Blender para iniciantes (<a href="https://filmora.wondershare.com.br/animation-tips/blender-animation.html">https://filmora.wondershare.com.br/animation-tips/blender-animation.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Topologia no 3D: saiba por que ela é importante (<a href="https://www.alura.com.br/artigos/topologia-3d-por-que-e-importante">https://www.alura.com.br/artigos/topologia-3d-por-que-e-importante</a>)</li>
+<li><code data-kind="curso">Curso</code> Blender: riggando e animando seu personagem (<a href="https://cursos.alura.com.br/course/blender-riggando-animando-personagem">https://cursos.alura.com.br/course/blender-riggando-animando-personagem</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Animação</strong>:</li>
+<h3>Animação:</h3>
 <ul><li>A animação em 3D combina movimentos realistas e topologia limpa para dar vida aos modelos. Inclui rigging, que cria esqueleto e controles, e técnicas para evitar deformações incorretas, essenciais para personagens e objetos animados.</li>
 <li>Criação de esqueleto (armature) para modelos</li>
 <li>Princípios básicos de animação - timing e espaçamento</li>
 <li>Planejamento de topologia para rigging eficiente</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Poly by Poly</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 8 tutoriais de animação em 3D no Blender para iniciantes (<a href="https://filmora.wondershare.com.br/animation-tips/blender-animation.html">https://filmora.wondershare.com.br/animation-tips/blender-animation.html</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Topologia no 3D: saiba por que ela é importante (<a href="https://www.alura.com.br/artigos/topologia-3d-por-que-e-importante">https://www.alura.com.br/artigos/topologia-3d-por-que-e-importante</a>)</li>
+<li><code data-kind="curso">Curso</code> Blender: riggando e animando seu personagem (<a href="https://cursos.alura.com.br/course/blender-riggando-animando-personagem">https://cursos.alura.com.br/course/blender-riggando-animando-personagem</a>)</li>
+</ul>
+<h3>Poly by Poly:</h3>
 <ul><li>Poly by Poly é uma técnica de modelagem que constrói malhas manualmente, vértice por vértice, ou face por face. Ideal para precisão em projetos complexos, permite criar topologias otimizadas e modelar objetos detalhados e realistas.</li>
 <li>Construção de malhas a partir de vértices</li>
 <li>Criação de formas complexas com precisão</li>
 <li>Comparação entre Poly by Poly e Box Modeling</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Passo a Passo Completo! Personagem 3D Low Poly (<a href="https://www.youtube.com/watch?v=ar_a9rvElAg">https://www.youtube.com/watch?v=ar_a9rvElAg</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Os 3 principais tipos de modelagem 3D (<a href="https://revistaglifo.com.br/game-design/os-3-principais-tipos-de-modelagem-3d/">https://revistaglifo.com.br/game-design/os-3-principais-tipos-de-modelagem-3d/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Desenho: esboço e composição de imagens (<a href="https://cursos.alura.com.br/course/fundamentos-desenho-esboco-composicao">https://cursos.alura.com.br/course/fundamentos-desenho-esboco-composicao</a>)</li>
+<li><code data-kind="curso">Curso</code> Blender: modelando com a técnica Poly by Poly (<a href="https://cursos.alura.com.br/course/blender-modelando-tecnica-poly-by-poly">https://cursos.alura.com.br/course/blender-modelando-tecnica-poly-by-poly</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Desenho</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estrutura visual</strong>:</li>
+<h3>Estrutura visual:</h3>
 <ul><li>A composição organiza elementos no desenho para criar impacto visual e equilíbrio. Inclui técnicas de enquadramento, uso de perspectiva e escolha de pontos focais para guiar o olhar do espectador.</li>
 <li>Combinação de elementos grandes e pequenos</li>
 <li>Enquadramento para maior impacto narrativo</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Anatomia</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Tipos de ESBOÇO e como USAR (<a href="https://www.youtube.com/watch?v=14ky6hm7o_k">https://www.youtube.com/watch?v=14ky6hm7o_k</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como fazer Sombra no Desenho – Guia COMPLETO do Fundamento da Luz e Sombra (<a href="https://ricardoguchi.com.br/fundamento-da-luz-e-sombra/">https://ricardoguchi.com.br/fundamento-da-luz-e-sombra/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Desenho: esboço e composição de imagens (<a href="https://cursos.alura.com.br/course/fundamentos-desenho-esboco-composicao">https://cursos.alura.com.br/course/fundamentos-desenho-esboco-composicao</a>)</li>
+<li><code data-kind="curso">Curso</code> Desenho: sombras e iluminação (<a href="https://cursos.alura.com.br/course/fundamentos-luz-sombra">https://cursos.alura.com.br/course/fundamentos-luz-sombra</a>)</li>
+</ul>
+<h3>Anatomia:</h3>
 <ul><li>A anatomia em desenho foca na estrutura do corpo humano e suas proporções. Dominar torso, membros e articulações é essencial para criar figuras realistas ou estilizadas com boa movimentação.</li>
 <li>Estrutura básica do torso humano.</li>
 <li>Proporções e detalhes dos braços.</li>
 <li>Técnicas para desenhar mãos expressivas.</li>
 <li>Anatomia e movimento dos membros inferiores.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Acabamento</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> 5 dicas para desenhar ANATOMIA aos INICIANTES (<a href="https://www.youtube.com/watch?v=xFuCRANBY6I">https://www.youtube.com/watch?v=xFuCRANBY6I</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Anatomia para Desenho: como estudar do jeito certo? (<a href="https://ricardoguchi.com.br/anatomia-para-desenho/">https://ricardoguchi.com.br/anatomia-para-desenho/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Desenho: descomplicando a estrutura humana (<a href="https://cursos.alura.com.br/course/desenhando-a-estrutura-humana">https://cursos.alura.com.br/course/desenhando-a-estrutura-humana</a>)</li>
+<li><code data-kind="curso">Curso</code> Desenho: descomplicando o desenho do rosto (<a href="https://cursos.alura.com.br/course/desenho-rosto-humano%5C">https://cursos.alura.com.br/course/desenho-rosto-humano\</a>)</li>
+<li><code data-kind="curso">Curso</code> Desenho de rosto: anatomia criativa (<a href="https://cursos.alura.com.br/course/desenho-rosto">https://cursos.alura.com.br/course/desenho-rosto</a>)</li>
+<li><code data-kind="curso">Curso</code> Desenho: a anatomia do torso (<a href="https://cursos.alura.com.br/course/desenho-anatomia-torso">https://cursos.alura.com.br/course/desenho-anatomia-torso</a>)</li>
+<li><code data-kind="curso">Curso</code> Desenho: anatomia do braço e mão (<a href="https://cursos.alura.com.br/course/anatomia-braco-mao">https://cursos.alura.com.br/course/anatomia-braco-mao</a>)</li>
+<li><code data-kind="curso">Curso</code> Desenho: anatomia dos membros inferiores (<a href="https://cursos.alura.com.br/course/desenho-anatomia-perna-pe">https://cursos.alura.com.br/course/desenho-anatomia-perna-pe</a>)</li>
+</ul>
+<h3>Acabamento:</h3>
 <ul><li>Os acabamentos são a etapa final do desenho, onde detalhes, texturas e sombreamento são ajustados para dar profundidade e polimento. Técnicas como blending, ajustes de linha e iluminação elevam a qualidade do trabalho.</li>
 <li>Adição de texturas para enriquecer superfícies</li>
 <li>Finalização com linhas limpas e precisas</li>
 <li>Ajuste de contraste para destacar áreas-chave</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Como finalizar um desenho (<a href="https://www.youtube.com/watch?v=SpnGJzggRfc">https://www.youtube.com/watch?v=SpnGJzggRfc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprenda a dar acabamento final nos seus Desenhos (<a href="https://www.youtube.com/watch?v=tchgeHCGDNk">https://www.youtube.com/watch?v=tchgeHCGDNk</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Perspectiva: distorções visuais (<a href="https://cursos.alura.com.br/course/perspectiva">https://cursos.alura.com.br/course/perspectiva</a>)</li>
+<li><code data-kind="curso">Curso</code> Desenho: acabamento e finalização (<a href="https://cursos.alura.com.br/course/desenho-acabamento-finalizacao">https://cursos.alura.com.br/course/desenho-acabamento-finalizacao</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Design de Jogos</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Personagens</strong>:</li>
+<h3>Personagens:</h3>
 <ul><li>Personagens em pixel art trazem identidade aos jogos. Técnicas para criar avatares, sprites animados e poses dinâmicas garantem personalidades marcantes e jogabilidade clara.</li>
 <li>Técnicas de simplificação sem perder detalhes</li>
 <li>Animações fundamentais - idle, walk e jump</li>
 <li>Design de acessórios e trajes</li>
 <li>Expressões faciais com poucos pixels</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cenários e recursos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Crie Seus Próprios Personagens Online (<a href="https://www.canva.com/pt_br/criar/personagens/">https://www.canva.com/pt_br/criar/personagens/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Personagens em 3 passos (<a href="https://www.youtube.com/watch?v=dJUb3R36_Lo">https://www.youtube.com/watch?v=dJUb3R36_Lo</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Pixel Art: criando um avatar (<a href="https://cursos.alura.com.br/course/pixel-art-games">https://cursos.alura.com.br/course/pixel-art-games</a>)</li>
+<li><code data-kind="curso">Curso</code> Pixel Art parte 1: sprite de personagem de RPG (<a href="https://cursos.alura.com.br/course/pixel-art-sprite-de-personagem">https://cursos.alura.com.br/course/pixel-art-sprite-de-personagem</a>)</li>
+<li><code data-kind="curso">Curso</code> Pixel Art parte 2: aprimorando o seu sprite de personagem (<a href="https://cursos.alura.com.br/course/pixel-art-aprimorando-o-sprite-personagem">https://cursos.alura.com.br/course/pixel-art-aprimorando-o-sprite-personagem</a>)</li>
+<li><code data-kind="curso">Curso</code> Endless Runner: design de personagem (<a href="https://cursos.alura.com.br/course/design-personagem">https://cursos.alura.com.br/course/design-personagem</a>)</li>
+</ul>
+<h3>Cenários e recursos:</h3>
 <ul><li>Cenários em jogos pixel art combinam arte detalhada com jogabilidade. Para endless runners, o foco está em criar paisagens que fluam de maneira infinita e variada, sem perder coesão visual.</li>
 <li>Planejamento de cenários para jogabilidade contínua</li>
 <li>Criação de tiles para composição modular</li>
 <li>Design de elementos que guiam o jogador</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Animação</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Como fazer cenários e backgrounds para jogos em pixel art (<a href="https://www.youtube.com/watch?v=7YQXFT2GA_c">https://www.youtube.com/watch?v=7YQXFT2GA_c</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como criar cenários incríveis em jogos? (<a href="https://www.crieseusjogos.com.br/como-criar-cenarios-incriveis-em-jogos/">https://www.crieseusjogos.com.br/como-criar-cenarios-incriveis-em-jogos/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Pixel Art: desenhando um cenário de jogo top-down (<a href="https://cursos.alura.com.br/course/pixel-art-desenhando-cenarios">https://cursos.alura.com.br/course/pixel-art-desenhando-cenarios</a>)</li>
+<li><code data-kind="curso">Curso</code> Endless Runner: cenário (<a href="https://cursos.alura.com.br/course/criacao-de-cenario">https://cursos.alura.com.br/course/criacao-de-cenario</a>)</li>
+<li><code data-kind="curso">Curso</code> Endless Runner: criando um HUD (<a href="https://cursos.alura.com.br/course/endless-runner-hud">https://cursos.alura.com.br/course/endless-runner-hud</a>)</li>
+</ul>
+<h3>Animação:</h3>
 <ul><li>A animação em jogos pixel art transforma personagens e objetos em elementos vivos. Técnicas como frame-by-frame e timing são essenciais para criar movimentos fluidos e expressivos.</li>
 <li>Planejamento de movimentos para animações fluídas.</li>
 <li>Uso de frames para criar transições suaves</li>
 <li>Ciclos de caminhada e corrida</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Pixel Art - Animação de andar (<a href="https://www.youtube.com/watch?v=M-ozjTe8TyM">https://www.youtube.com/watch?v=M-ozjTe8TyM</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Animando um personagem (<a href="https://www.crieseusjogos.com.br/animando-um-personagem/">https://www.crieseusjogos.com.br/animando-um-personagem/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Pixel Art: animação de sprite de um RPG (<a href="https://cursos.alura.com.br/course/pixel-art-animacao-sprite">https://cursos.alura.com.br/course/pixel-art-animacao-sprite</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

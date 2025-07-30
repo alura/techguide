@@ -71,11 +71,62 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"],
+    li > code[data-kind="libro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +152,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +229,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,76 +249,213 @@
   </div>
 
   <div class="content">
-    <h1>Design de Jogos</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>O que é design de jogos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>O que é design de jogos:</h3>
 <ul><li>Compreender os elementos essenciais do design de jogos, incluindo narrativa, mecânica e jogabilidade, fundamentais para criar experiências memoráveis e interativas para os jogadores.</li>
 <li>Desenvolver habilidades para criar personagens, cenários e histórias que engajem o público.</li>
 <li>Desenvolver habilidades para trabalhar em equipe e comunicar ideias de design, incluindo prototipagem e documentação para um desenvolvimento eficiente.</li>
 <li>Entender a importância do balanceamento de jogos e de como as mecânicas podem impactar diretamente na experiência do jogador.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Gamificação</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Guia de carreira em GAME DEVELOPMENT (<a href="https://www.fiap.com.br/guia-carreira/game/?gad_source=1&gclid=CjwKCAjwyfe4BhAWEiwAkIL8sLFLXjwE-LWa0W7qsSTke3ZHPErDi145Z7t_2gdQsqrDKBvrVE1dZRoCqKMQAvD_BwE">https://www.fiap.com.br/guia-carreira/game/?gad_source=1&amp;gclid=CjwKCAjwyfe4BhAWEiwAkIL8sLFLXjwE-LWa0W7qsSTke3ZHPErDi145Z7t_2gdQsqrDKBvrVE1dZRoCqKMQAvD_BwE</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Game Design? E quais os passos fazer um jogo incrível (<a href="https://revistaglifo.com.br/game-design/o-que-e-game-design/">https://revistaglifo.com.br/game-design/o-que-e-game-design/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Game Design: o que é, o que faz e como se tornar game designer (<a href="https://www.alura.com.br/artigos/game-design?srsltid=AfmBOoq-CQHj4O1J2MA0YLy9FaKCYYCJwB3i1ZPF5R5aDX6Yk9fyGOZW">https://www.alura.com.br/artigos/game-design?srsltid=AfmBOoq-CQHj4O1J2MA0YLy9FaKCYYCJwB3i1ZPF5R5aDX6Yk9fyGOZW</a>)</li>
+<li><code data-kind="curso">Curso</code> Game Design: definindo os princípios de um jogo digital (<a href="https://cursos.alura.com.br/course/game-design-definindo-principios-jogo-digital">https://cursos.alura.com.br/course/game-design-definindo-principios-jogo-digital</a>)</li>
+</ul>
+<h3>Gamificação:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design de Jogos como produto</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Gamificação: o que é e quais os benefícios na aprendizagem? (<a href="https://www.ludospro.com.br/blog/o-que-e-gamificacao">https://www.ludospro.com.br/blog/o-que-e-gamificacao</a>)</li>
+<li><code data-kind="conteúdo">Conteúdo</code> Entendendo e aplicando a Gamificação (<a href="https://sead.paginas.ufsc.br/files/2020/04/eBOOK-Gamificacao.pdf">https://sead.paginas.ufsc.br/files/2020/04/eBOOK-Gamificacao.pdf</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Gamificação: o que é e seus benefícios (<a href="https://www.alura.com.br/artigos/gamificacao-seus-beneficios">https://www.alura.com.br/artigos/gamificacao-seus-beneficios</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Gamificação em Layers ponto tech #64 (<a href="https://cursos.alura.com.br/extra/layerstech/gamificacao-layers-ponto-tech-64-a1393">https://cursos.alura.com.br/extra/layerstech/gamificacao-layers-ponto-tech-64-a1393</a>)</li>
+</ul>
+<h3>Design de Jogos como produto:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> MVP – Mínimo Produto Viável (<a href="https://www.cursospm3.com.br/glossario/mvp-minimo-produto-viavel/">https://www.cursospm3.com.br/glossario/mvp-minimo-produto-viavel/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> The Game Design Canvas: An Introduction (<a href="https://www.fanstudio.co.uk/the-game-design-canvas-an-introduction/">https://www.fanstudio.co.uk/the-game-design-canvas-an-introduction/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como a King integra várias criações de design de jogos no Figma (<a href="https://www.figma.com/pt-br/customers/how-king-brings-game-design-together/#simplifica-o-de-processos-e-prototipagem">https://www.figma.com/pt-br/customers/how-king-brings-game-design-together/#simplifica-o-de-processos-e-prototipagem</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Metodologia de design aplicada à concepção de jogos digitais (<a href="https://repositorio.ufpe.br/bitstream/123456789/3415/1/arquivo4382_1.pdf">https://repositorio.ufpe.br/bitstream/123456789/3415/1/arquivo4382_1.pdf</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Game Design: viabilizando o jogo como produto (<a href="https://cursos.alura.com.br/course/game-design-viabilizando-jogo-produto">https://cursos.alura.com.br/course/game-design-viabilizando-jogo-produto</a>)</li>
+<li><code data-kind="conteúdo">Conteúdo</code> Game Design Canvas (<a href="https://www.figma.com/community/file/1321919983491002873">https://www.figma.com/community/file/1321919983491002873</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Storytelling</strong>:</li>
+<h3>Storytelling:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>UX/UI em design de jogos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Storytelling and Narrative Design in Video Games | A Game Development Podcast (<a href="https://www.youtube.com/watch?v=EwSnZGMy3b8">https://www.youtube.com/watch?v=EwSnZGMy3b8</a>)</li>
+<li><code data-kind="artigo">Artigo</code> The Power of Storytelling in Video Games (<a href="https://game-ace.com/blog/storytelling-in-video-games/">https://game-ace.com/blog/storytelling-in-video-games/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> The art of storytelling: how is storytelling used in video games? (<a href="https://kevurugames.com/blog/the-art-of-storytelling-how-is-storytelling-used-in-video-games/">https://kevurugames.com/blog/the-art-of-storytelling-how-is-storytelling-used-in-video-games/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Narrative design #154 (<a href="https://cursos.alura.com.br/extra/layerstech/narrative-design-154-a9130">https://cursos.alura.com.br/extra/layerstech/narrative-design-154-a9130</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Storytelling: técnicas para uma comunicação eficaz e envolvente (<a href="https://www.alura.com.br/artigos/storytelling-para-comunicacao">https://www.alura.com.br/artigos/storytelling-para-comunicacao</a>)</li>
+<li><code data-kind="curso">Curso</code> Storytelling: visão de negócios e desenvolvimento pessoal (<a href="https://cursos.alura.com.br/course/storytelling-negocios-desenvolvimento-pessoal">https://cursos.alura.com.br/course/storytelling-negocios-desenvolvimento-pessoal</a>)</li>
+</ul>
+<h3>UX/UI em design de jogos:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Direção de Arte no Design de Jogos</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Game UI Database (<a href="https://www.gameuidatabase.com/">https://www.gameuidatabase.com/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Game UX — Blending Game Design and User Experience (<a href="https://www.uxpin.com/studio/blog/game-ux/">https://www.uxpin.com/studio/blog/game-ux/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> UX/UI design em Games #153 (<a href="https://www.layerspontotech.com.br/2023/10/16/ux-ui-design-em-games-153/">https://www.layerspontotech.com.br/2023/10/16/ux-ui-design-em-games-153/</a>)</li>
+<li><code data-kind="curso">Curso</code> Formação UX Design (<a href="https://www.alura.com.br/formacao-ux">https://www.alura.com.br/formacao-ux</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Softwares de prototipagem – Layers ponto tech #137 (<a href="https://www.layerspontotech.com.br/2023/06/26/softwares-de-prototipagem-layers-ponto-tech-137">https://www.layerspontotech.com.br/2023/06/26/softwares-de-prototipagem-layers-ponto-tech-137</a>)</li>
+</ul>
+<h3>Direção de Arte no Design de Jogos:</h3>
 <ul><li>null</li>
 <li>null</li>
 <li>null</li>
 <li>null</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Como a direção de arte aumenta a imersão nos jogos? (<a href="https://www.terra.com.br/gameon/plataformas-e-consoles/como-a-direcao-de-arte-aumenta-a-imersao-nos-jogos,058b35aa6a13b9610ae55dbd12e7e78ecm9jjds2.html">https://www.terra.com.br/gameon/plataformas-e-consoles/como-a-direcao-de-arte-aumenta-a-imersao-nos-jogos,058b35aa6a13b9610ae55dbd12e7e78ecm9jjds2.html</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Por trás do jogo: Direção de Arte para Jogos Independentes (<a href="https://thaisweiller.blogosfera.uol.com.br/2020/03/24/por-tras-do-jogo-direcao-de-arte-para-jogos-independentes/">https://thaisweiller.blogosfera.uol.com.br/2020/03/24/por-tras-do-jogo-direcao-de-arte-para-jogos-independentes/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Game design: refinando aspectos visuais e artísticos do jogo (<a href="https://cursos.alura.com.br/course/game-design-refinando-aspectos-visuais-artisticos-jogo">https://cursos.alura.com.br/course/game-design-refinando-aspectos-visuais-artisticos-jogo</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Game art: construindo um mundo isométrico (<a href="https://cursos.alura.com.br/formacao-game-art-mundo-isometrico">https://cursos.alura.com.br/formacao-game-art-mundo-isometrico</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Inteligência Artificial (IA) no Design de Jogos</strong>:</li>
+<h3>Inteligência Artificial (IA) no Design de Jogos:</h3>
 <ul><li>Explorar técnicas e ferramentas de IA para criar interações dinâmicas e experiências personalizadas.</li>
 <li>Aprender como a IA pode ser utilizada para gerar conteúdo procedural, reduzindo custos de desenvolvimento e aumentando a diversidade de experiências no jogo.</li>
 <li>Entender como a IA está transformando o design de jogos, permitindo que NPCs e ambientes reajam de forma inteligente às ações dos jogadores.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estratégias de Monetização em Games</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> An in depth look at AI in games (<a href="https://www.gamedeveloper.com/business/an-in-depth-look-at-ai-in-games">https://www.gamedeveloper.com/business/an-in-depth-look-at-ai-in-games</a>)</li>
+<li><code data-kind="artigo">Artigo</code> What impact will AI have on video game development? (<a href="https://www.technologyreview.com/2024/09/10/1103752/what-impact-will-ai-have-on-video-game-development/">https://www.technologyreview.com/2024/09/10/1103752/what-impact-will-ai-have-on-video-game-development/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Mastering AI-Powered procedural content generation for games (<a href="https://whimsygames.co/blog/mastering-ai-powered-procedural-content-generation-for-games/#:~:text=Procedural%20content%20generation%2C%20a%20technique,rather%20than%20manually%20designing%20them">https://whimsygames.co/blog/mastering-ai-powered-procedural-content-generation-for-games/#:~:text=Procedural%20content%20generation%2C%20a%20technique,rather%20than%20manually%20designing%20them</a>.)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Usando IA em game design em Layers ponto tech #134 (<a href="https://www.alura.com.br/podcast/usando-ia-em-game-design-layers-ponto-tech-134-a2314?srsltid=AfmBOorx9TT-xjzczYmJMZUE8DOV8kaiBLiYUrJRTHiytjUFm1k6QXJd">https://www.alura.com.br/podcast/usando-ia-em-game-design-layers-ponto-tech-134-a2314?srsltid=AfmBOorx9TT-xjzczYmJMZUE8DOV8kaiBLiYUrJRTHiytjUFm1k6QXJd</a>)</li>
+<li><code data-kind="curso">Curso</code> IA: explorando o potencial da inteligência artificial generativa (<a href="https://www.alura.com.br/curso-online-ia-explorando-potencial-inteligencia-artificial-generativa">https://www.alura.com.br/curso-online-ia-explorando-potencial-inteligencia-artificial-generativa</a>)</li>
+</ul>
+<h3>Estratégias de Monetização em Games:</h3>
 <ul><li>Compreender os diferentes modelos de monetização de jogos, como compras in-game, assinaturas e anúncios, e suas implicações na experiência do jogador.</li>
 <li>Aprender a desenvolver estratégias de monetização que maximizem a receita sem comprometer a jogabilidade e a retenção de usuários.</li>
 <li>Explorar estudos de caso de jogos de sucesso para entender como diferentes estratégias foram aplicadas em diferentes mercados.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Análise de Dados para Melhoria</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Navigating Game Monetization: Trends and Strategies for 2023-2024 (<a href="https://rocketbrush.com/blog/navigating-game-monetization-trends-and-strategies-for-2023-2024">https://rocketbrush.com/blog/navigating-game-monetization-trends-and-strategies-for-2023-2024</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Game Monetization: How We Got Here and Where to Go (<a href="https://www.youtube.com/watch?v=MkuFuqPYBLE">https://www.youtube.com/watch?v=MkuFuqPYBLE</a>)</li>
+<li><code data-kind="artigo">Artigo</code> How do F2P (free-to-play) games make money in 2024? [8 Proven Strategies] (<a href="https://www.capermint.com/blog/how-do-free-games-make-money/">https://www.capermint.com/blog/how-do-free-games-make-money/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Game Design: entenda estratégias para viabilizar e monetizar o seu jogo (<a href="https://cursos.alura.com.br/course/game-design-estrategias-viabilizar-monetizar-seu-jogo">https://cursos.alura.com.br/course/game-design-estrategias-viabilizar-monetizar-seu-jogo</a>)</li>
+<li><code data-kind="podcast">Podcast</code> Stacking de IAs, experimentos em games e IA reflexiva – Hipsters: Fora de Controle #02 (<a href="https://www.alura.com.br/artigos/stacking-ia-experimentos-games-ia-reflexiva-hispters-fora-de-controle-ep-02">https://www.alura.com.br/artigos/stacking-ia-experimentos-games-ia-reflexiva-hispters-fora-de-controle-ep-02</a>)</li>
+</ul>
+<h3>Análise de Dados para Melhoria:</h3>
 <ul><li>Aprender a coletar e interpretar dados de comportamento dos jogadores para identificar oportunidades de melhoria no design de níveis, balanceamento e progressão.</li>
 <li>Entender como a análise de dados pode informar o desenvolvimento contínuo, aprimorando a experiência dos jogadores com base em feedback real.</li>
 <li>Explorar ferramentas e técnicas para realizar testes e otimizar recursos do jogo com base em dados.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> How Analytics is Revolutionizing the Gaming Industry (<a href="https://www.macheye.com/blog/analytics-revolutionizing-gaming/">https://www.macheye.com/blog/analytics-revolutionizing-gaming/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 7 Roles of Data Analytics in Video Games Development (<a href="https://www.hdatasystems.com/blog/7-roles-of-data-analytics-in-video-games-development">https://www.hdatasystems.com/blog/7-roles-of-data-analytics-in-video-games-development</a>)</li>
+<li><code data-kind="artigo">Artigo</code> 10 Ways: How Is Data Analysis Used In Video Games? (<a href="https://medium.com/@analyticsemergingindia/10-ways-how-is-data-analysis-used-in-video-games-b5db42337b1d">https://medium.com/@analyticsemergingindia/10-ways-how-is-data-analysis-used-in-video-games-b5db42337b1d</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Formação Data-Driven UX: interpretando e visualizando dados (<a href="https://www.alura.com.br/formacao-data-driven-ux-interpretando-visualizando-dados">https://www.alura.com.br/formacao-data-driven-ux-interpretando-visualizando-dados</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Digital Marketing</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Explorando conceitos de Marketing Digital</strong>:</li>
+<h3>Explorando conceitos de Marketing Digital:</h3>
 <ul><li>Compreender os princípios fundamentais do marketing digital, incluindo as diferentes áreas de atuação, como tráfego orgânico e pago, e as principais estratégias para aumentar a visibilidade online de uma marca.</li>
 <li>Explorar as principais plataformas digitais e ferramentas utilizadas para divulgar negócios na internet, garantindo que os perfis comerciais sejam otimizados e mantenham uma presença profissional.</li>
 <li>Aprender a diferenciar e aplicar as técnicas de tráfego orgânico e pago, desenvolvendo habilidades para planejar e executar campanhas de marketing digital que alcancem e envolvam o público-alvo de maneira eficaz..</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Branding</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é PLR no Marketing Digital? Entenda a estratégia (<a href="https://www.cursospm3.com.br/blog/o-que-e-plr-no-marketing-digital/">https://www.cursospm3.com.br/blog/o-que-e-plr-no-marketing-digital/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Marketing Digital: o que é, como fazer e tudo o que você precisa saber sobre o tema (<a href="https://www.rdstation.com/blog/marketing/marketing-digital/">https://www.rdstation.com/blog/marketing/marketing-digital/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Marketing Digital: explorando os conceitos (<a href="https://cursos.alura.com.br/course/marketing-digital-explorando-conceitos">https://cursos.alura.com.br/course/marketing-digital-explorando-conceitos</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é marketing digital? (<a href="https://www.alura.com.br/artigos/o-que-e-marketing-digital">https://www.alura.com.br/artigos/o-que-e-marketing-digital</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é Marketing Digital? #HipstersPontoTube (<a href="https://www.youtube.com/watch?v=auScm23M9AQ">https://www.youtube.com/watch?v=auScm23M9AQ</a>)</li>
+</ul>
+<h3>Branding:</h3>
 <ul><li>Entender os componentes fundamentais do branding e como eles contribuem para a criação de uma marca memorável e diferenciada no mercado.</li>
 <li>Desenvolver uma identidade de marca consolidada, que comunique de forma clara e eficaz os valores e a missão da empresa, ajudando a criar marcas de sucesso que se destacam entre os concorrentes.</li>
 <li>Aplicar estratégias poderosas para construir e gerir a marca, criando experiências marcantes que ressoam com o público-alvo e fomentam a lealdade dos clientes.</li>
 <li>Inspirar-se em cases de sucesso para construir uma marca forte que estabeleça uma conexão emocional com os clientes, promovendo um relacionamento duradouro e um forte posicionamento no mercado..</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SEO</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> O que é branding? (<a href="https://mailchimp.com/pt-br/resources/what-is-branding/">https://mailchimp.com/pt-br/resources/what-is-branding/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> O que é branding e como ele pode ajudar sua marca (<a href="https://www.youtube.com/watch?v=MG2vjwhSm50">https://www.youtube.com/watch?v=MG2vjwhSm50</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> Branding: criando uma marca forte (<a href="https://cursos.alura.com.br/course/branding-criando-marca-forte">https://cursos.alura.com.br/course/branding-criando-marca-forte</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como o Tom de Voz contribui para o Branding de uma marca? (<a href="https://www.alura.com.br/artigos/como-tom-de-voz-contribui-branding-de-uma-marca">https://www.alura.com.br/artigos/como-tom-de-voz-contribui-branding-de-uma-marca</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como criar uma marca forte e fazer os clientes se apaixonarem por ela (<a href="https://www.alura.com.br/artigos/como-criar-uma-marca-forte-e-fazer-os-clientes-se-apaixonarem-por-ela">https://www.alura.com.br/artigos/como-criar-uma-marca-forte-e-fazer-os-clientes-se-apaixonarem-por-ela</a>)</li>
+</ul>
+<h3>SEO:</h3>
 <ul><li>Compreender os fundamentos do SEO, incluindo como ele funciona e por que é essencial para aumentar a visibilidade e o alcance de um site nos motores de busca.</li>
 <li>Aprender a aplicar as principais técnicas e estratégias de SEO, otimizando o conteúdo e a estrutura do site para melhorar o posicionamento nas páginas de resultados dos motores de busca (SERPs).</li>
 <li>Entender como funcionam os algoritmos dos principais motores de busca, como o Google, e como as atualizações nesses algoritmos podem impactar o desempenho de SEO de um site.</li>
 <li>Mensurar e analisar os resultados das estratégias de SEO utilizando as ferramentas certas, permitindo ajustes contínuos e garantindo que o site permaneça competitivo no ranking dos motores de busca..</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 14 principais atualizações do algoritmo do Google que causaram impacto nas buscas ???? (<a href="https://www.rdstation.com/blog/marketing/algoritmo-google/">https://www.rdstation.com/blog/marketing/algoritmo-google/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Guia de otimização de mecanismos de pesquisa (SEO) para iniciantes (<a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=pt-br">https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=pt-br</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="curso">Curso</code> SEO: otimização de sites (<a href="https://cursos.alura.com.br/course/seo-otimizacao-de-sites">https://cursos.alura.com.br/course/seo-otimizacao-de-sites</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como rankear bem no Google? #HipstersPontoTube (<a href="https://www.youtube.com/watch?v=PfGyzrLGqZ8">https://www.youtube.com/watch?v=PfGyzrLGqZ8</a>)</li>
+</ul>
 <h2>Habilidade Auxiliar: Visual Design</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Princípios do design visual</strong>:</li>
+<h3>Princípios do design visual:</h3>
 <ul><li>null</li>
 <li>Conheça as propriedades fundamentais destes elementos quanto aprender como manipulá-las em seus projetos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Ferramentas de design</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> A Arte do Design Visual: Transformando Conceitos em Experiência Visual (<a href="https://medium.com/@munichkelly/a-arte-do-design-visual-transformando-conceitos-em-experi%C3%AAncia-visual-517f7f8ce204">https://medium.com/@munichkelly/a-arte-do-design-visual-transformando-conceitos-em-experi%C3%AAncia-visual-517f7f8ce204</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Tipografia: Guia Sobre Tipos – Escolhendo a fonte certa [parte 01] (<a href="https://chiefofdesign.com.br/tipografia/">https://chiefofdesign.com.br/tipografia/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Teoria das Cores – Guia sobre teoria e harmonia das cores no Design (<a href="https://chiefofdesign.com.br/teoria-das-cores/">https://chiefofdesign.com.br/teoria-das-cores/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Design Digital ou Design Gráfico: entenda a Real diferença na prática (<a href="https://www.youtube.com/watch?v=gIZoayWp6i8&ab_channel=ChiefofDesign">https://www.youtube.com/watch?v=gIZoayWp6i8&amp;ab_channel=ChiefofDesign</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> 20 dicas de design visual para iniciantes (<a href="https://www.alura.com.br/artigos/design-visual-para-iniciantes">https://www.alura.com.br/artigos/design-visual-para-iniciantes</a>)</li>
+<li><code data-kind="curso">Curso</code> Cores no design: teoria e prática (<a href="https://cursos.alura.com.br/course/cores-design-teoria-pratica">https://cursos.alura.com.br/course/cores-design-teoria-pratica</a>)</li>
+<li><code data-kind="curso">Curso</code> Tipografia: conceitos e prática (<a href="https://cursos.alura.com.br/course/tipografia-conceitos-pratica">https://cursos.alura.com.br/course/tipografia-conceitos-pratica</a>)</li>
+<li><code data-kind="curso">Curso</code> Grids: como organizar o conteúdo visual (<a href="https://cursos.alura.com.br/course/grids-organizar-conteudo-visual">https://cursos.alura.com.br/course/grids-organizar-conteudo-visual</a>)</li>
+</ul>
+<h3>Ferramentas de design:</h3>
 <ul><li>O Figma é uma das ferramentas de design mais inovadoras e colaborativas disponíveis. Essa plataforma é a mais utilizada no mundo, por empresas, designers e desenvolvedores, e que vem revolucionando a forma como times de produtos trabalham juntos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Thinking</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Quem pode utilizar o Figma (<a href="https://mppagano.medium.com/quem-pode-utilizar-o-figma-e8525b84c1ad">https://mppagano.medium.com/quem-pode-utilizar-o-figma-e8525b84c1ad</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O Figma e a próxima geração de ferramentas de Design (<a href="https://brasil.uxdesign.cc/o-figma-e-a-pr%C3%B3xima-gera%C3%A7%C3%A3o-de-ferramentas-de-design-ab1682d2a2dd">https://brasil.uxdesign.cc/o-figma-e-a-pr%C3%B3xima-gera%C3%A7%C3%A3o-de-ferramentas-de-design-ab1682d2a2dd</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Como A Comunidade Figma Está Transformando O Cenário De Design No Brasil (<a href="https://awari.com.br/como-a-comunidade-figma-esta-transformando-o-cenario-de-design-no-brasil/?utm_source=blog&utm_campaign=projeto+blog&utm_medium=Como%20A%20Comunidade%20Figma%20Est%C3%A1%20Transformando%20O%20Cen%C3%A1rio%20De%20Design%20No%20Brasil">https://awari.com.br/como-a-comunidade-figma-esta-transformando-o-cenario-de-design-no-brasil/?utm_source=blog&amp;utm_campaign=projeto+blog&amp;utm_medium=Como%20A%20Comunidade%20Figma%20Est%C3%A1%20Transformando%20O%20Cen%C3%A1rio%20De%20Design%20No%20Brasil</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Figma: o que é a ferramenta, Design e uso (<a href="https://www.alura.com.br/artigos/figma">https://www.alura.com.br/artigos/figma</a>)</li>
+<li><code data-kind="podcast">Podcast</code> O Figma (<a href="https://www.layerspontotech.com.br/2023/03/13/edicao-de-trailers-layers-ponto-tech-122/">https://www.layerspontotech.com.br/2023/03/13/edicao-de-trailers-layers-ponto-tech-122/</a>)</li>
+<li><code data-kind="curso">Curso</code> Figma: conhecendo a ferramenta (<a href="https://www.alura.com.br/curso-online-figma-conhecendo-ferramenta">https://www.alura.com.br/curso-online-figma-conhecendo-ferramenta</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Variáveis no Figma (<a href="https://www.alura.com.br/artigos/variaveis-figma">https://www.alura.com.br/artigos/variaveis-figma</a>)</li>
+</ul>
+<h3>Design Thinking:</h3>
 <ul><li>Design Thinking é uma abordagem centrada no ser humano para resolver problemas complexos de forma criativa e inovadora, usando uma metodologia iterativa de entendimento, exploração e materialização. É importante frisar que design thinking não se trata de um método ágil, mas sim uma estratégia criativa que, se unida com agilidade, colabora com a melhoria dos resultados.</li>
 <li>Entenda profundamente as necessidades dos usuários.</li>
 <li>Clarifique o problema baseado nos insights coletados.</li>
@@ -287,7 +464,19 @@
 <li>Refine as soluções com base no feedback dos testes.</li>
 <li>Envolva diversas perspectivas na solução de problemas.</li>
 <li>Use métodos visuais para comunicar ideias e processos.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Roadmap</strong>:</li>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Design Thinking: o que é, etapas e como aplicar (<a href="https://www.cursospm3.com.br/blog/design-thinking-guia-o-que-e-etapas-como-aplicar/">https://www.cursospm3.com.br/blog/design-thinking-guia-o-que-e-etapas-como-aplicar/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Thinking: uma forma inovadora de pensar e resolver problemas (<a href="https://rockcontent.com/br/blog/design-thinking/">https://rockcontent.com/br/blog/design-thinking/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Design Thinking: o que é, como aplicar e passo a passo (<a href="https://fia.com.br/blog/design-thinking/">https://fia.com.br/blog/design-thinking/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="podcast">Podcast</code> Design Thinking - Hipsters #139 (<a href="https://cursos.alura.com.br/extra/hipsterstech/design-thinking-hipsters-139-a442">https://cursos.alura.com.br/extra/hipsterstech/design-thinking-hipsters-139-a442</a>)</li>
+<li><code data-kind="artigo">Artigo</code> O que é Design Thinking e como aplicar a metodologia | Alura (<a href="https://www.alura.com.br/artigos/design-thinking-metodologia-criacao-de-produtos">https://www.alura.com.br/artigos/design-thinking-metodologia-criacao-de-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Thinking: viabilizando soluções (<a href="https://cursos.alura.com.br/course/design-thinking-viabilizando-solucoes">https://cursos.alura.com.br/course/design-thinking-viabilizando-solucoes</a>)</li>
+<li><code data-kind="curso">Curso</code> Design Thinking: inove ao focar no problema e crie soluções assertivas para seu negócio (<a href="https://cursos.alura.com.br/course/design-thinking-inove-solucoes-assertivas-negocio">https://cursos.alura.com.br/course/design-thinking-inove-solucoes-assertivas-negocio</a>)</li>
+</ul>
+<h3>Roadmap:</h3>
 <ul><li>Um roadmap é uma representação visual que descreve a visão estratégica de um produto ou projeto e seu plano de execução ao longo do tempo.</li>
 <li>Alinhe o roadmap com os objetivos de negócio e as metas do produto.</li>
 <li>Priorize recursos e funcionalidades com base no valor para o cliente e para o negócio.</li>
@@ -296,7 +485,16 @@
 <li>Esteja aberto a ajustes e adaptações conforme novas informações e mudanças de contexto.</li>
 <li>Colete feedback regularmente para ajustar o roadmap conforme necessário.</li>
 <li>Assegure que o roadmap esteja alinhado com as estratégias e objetivos da organização.</li>
-</ul></li></ul>
+</ul>
+<h4>Conteúdos</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Glossário - Roadmap (<a href="https://www.cursospm3.com.br/glossario/roadmap/">https://www.cursospm3.com.br/glossario/roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Conheça o roadmap: a ferramenta que guia a estratégia da sua empresa (<a href="https://blog.runrun.it/o-que-e-roadmap/">https://blog.runrun.it/o-que-e-roadmap/</a>)</li>
+<li><code data-kind="artigo">Artigo</code> Roadmap (<a href="https://miro.com/pt/agile/o-que-e-roadmap/">https://miro.com/pt/agile/o-que-e-roadmap/</a>)</li>
+</ul>
+<h4>Conteúdos Alura:</h4>
+<ul><li><code data-kind="artigo">Artigo</code> Roadmap de Produtos: O que é e como criar um? (<a href="https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos">https://www.alura.com.br/empresas/artigos/como-criar-roadmap-de-produtos</a>)</li>
+<li><code data-kind="curso">Curso</code> Roadmap: como criar e manter o mapa de produto (<a href="https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto">https://cursos.alura.com.br/course/roadmap-criar-manter-mapa-produto</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

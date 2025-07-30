@@ -71,11 +71,61 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +151,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +228,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,9 +248,8 @@
   </div>
 
   <div class="content">
-    <h1>C#</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Fundamentals</strong>:</li>
+    <h2>Level 1</h2>
+<h3>C# - Fundamentals:</h3>
 <ul><li>C# is a multi-paradigm, strongly typed programming language developed by Microsoft as part of the .NET platform. The source code is compiled into Common Intermediate Language (CIL) which is interpreted by the Common Language Runtime (CLR) virtual machine. It is designed to run on the Common Language Infrastructure of the .NET Framework platform.</li>
 <li>Knowing the primitive types</li>
 <li>Declaring variables, considering the different types</li>
@@ -224,7 +262,17 @@
 <li>Getting data from an API</li>
 <li>Making asynchronous calls</li>
 <li>Creating constructors</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Object-oriented Programming Concepts</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: C# documentation (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/">https://learn.microsoft.com/en-us/dotnet/csharp/</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: A tour of the C# language (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/">https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: C# types and members (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types">https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/types</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: Hello World - Introduction to C# interactive C# tutorial (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world">https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tutorials/hello-world</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: Hello World - Arrays (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/">https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: C# Tutorial - Full Course for Beginners (<a href="https://www.youtube.com/watch?v=GhQdlIFylQ8">https://www.youtube.com/watch?v=GhQdlIFylQ8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> tutorialsEU: Learn C# 10 and .NET 6 in 7 hours (<a href="https://www.youtube.com/watch?v=q_F4PyW8GTg">https://www.youtube.com/watch?v=q_F4PyW8GTg</a>)</li>
+</ul>
+<h3>Object-oriented Programming Concepts:</h3>
 <ul><li>Object-oriented programming (OOP) is a programming paradigm based on the concept of &#39;objects&#39;, which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods). A common feature of objects is that procedures (or methods) are attached to them and can access and modify the object&#39;s data fields. Some of the main concepts are classes and instances, inheritance, and encapsulation.</li>
 <li>How objects work</li>
 <li>Creating and using constructors</li>
@@ -235,102 +283,267 @@
 <li>What polymorphism is</li>
 <li>How interfaces work</li>
 <li>What abstractions are</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Collections</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> MDN Web Docs: Object-oriented programming (<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming">https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming</a>)</li>
+<li><code data-kind="website">WebSite</code> Geeks for Geeks: Object Oriented Programming (OOPs) Concept in Java (<a href="https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/">https://www.geeksforgeeks.org/object-oriented-programming-oops-concept-in-java/</a>)</li>
+<li><code data-kind="website">WebSite</code> W3Schools: Object-Oriented Programming Style (<a href="https://www.w3schools.blog/object-oriented-programming-style">https://www.w3schools.blog/object-oriented-programming-style</a>)</li>
+<li><code data-kind="article">Article</code> What is object-oriented programming? OOP explained in depth (<a href="https://www.educative.io/blog/object-oriented-programming">https://www.educative.io/blog/object-oriented-programming</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programming with Mosh: Object-oriented Programming in 7 minutes (<a href="https://www.youtube.com/watch?v=QJjY2TNyl-8">https://www.youtube.com/watch?v=QJjY2TNyl-8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: Intro to Object Oriented Programming - Crash Course (<a href="https://www.youtube.com/watch?v=SiBw7os-_zI">https://www.youtube.com/watch?v=SiBw7os-_zI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Traversy Media: JavaScript OOP Crash Course (ES5 &amp; ES6) (<a href="https://www.youtube.com/watch?v=vDJpGenyHaA">https://www.youtube.com/watch?v=vDJpGenyHaA</a>)</li>
+</ul>
+<h3>C# - Collections:</h3>
 <ul><li>A collection represents a group of objects, known as its elements. They are like containers that group multiple items in a single unit. Some collections allow duplicate elements and others do not. Some are ordered and others unordered.</li>
 <li>Learn the difference between Dictionary, List, Queue, SortedList and Stack</li>
 <li>Get to know how to work with ArrayList e HashTable</li>
 <li>Iterators</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>NuGet</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Collections (C#) (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections">https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/collections</a>)</li>
+<li><code data-kind="article">Article</code> C# Collections (Generic Collections and Non-Generic Collections) (<a href="https://aemkannika.medium.com/c-collections-c755806d3be6">https://aemkannika.medium.com/c-collections-c755806d3be6</a>)</li>
+<li><code data-kind="article">Article</code> List in C#: implementation and features (<a href="https://medium.com/pvs-studio/list-in-c-implementation-and-features-8ae73271b747">https://medium.com/pvs-studio/list-in-c-implementation-and-features-8ae73271b747</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Bro Code: C# Lists (<a href="https://www.youtube.com/watch?v=vQzREQUhGSA">https://www.youtube.com/watch?v=vQzREQUhGSA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Simplilearn: Collections In C# Explained (<a href="https://www.youtube.com/watch?v=SR4-_gWRlLU">https://www.youtube.com/watch?v=SR4-_gWRlLU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Derek Banas: C# Tutorial 11 Collections (<a href="https://www.youtube.com/watch?v=SR4-_gWRlLU">https://www.youtube.com/watch?v=SR4-_gWRlLU</a>)</li>
+</ul>
+<h3>NuGet:</h3>
 <ul><li>NuGet is a package manager for the .NET platform. It defines how packages for this platform are created, published and consumed, and provides tools for each of these functions.</li>
 <li>Gerenciar pacotes</li>
 <li>Compartilhar bibliotecas</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - System.IO</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: An introduction to NuGet (<a href="https://learn.microsoft.com/en-us/nuget/what-is-nuget">https://learn.microsoft.com/en-us/nuget/what-is-nuget</a>)</li>
+<li><code data-kind="article">Article</code> Creating and using a local NuGet package repository (<a href="https://medium.com/@churi.vibhav/creating-and-using-a-local-nuget-package-repository-9f19475d6af8">https://medium.com/@churi.vibhav/creating-and-using-a-local-nuget-package-repository-9f19475d6af8</a>)</li>
+<li><code data-kind="article">Article</code> Using NuGet to publish .NET packages (<a href="https://medium.com/@loginradius/using-nuget-to-publish-net-packages-d42eb746aa62">https://medium.com/@loginradius/using-nuget-to-publish-net-packages-d42eb746aa62</a>)</li>
+<li><code data-kind="youtube">YouTube</code> dotnet: What is NuGet? (<a href="https://www.youtube.com/watch?v=WW3bO1lNDmo">https://www.youtube.com/watch?v=WW3bO1lNDmo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IAmTimCorey: Creating NuGet Packages the easy way with .NET Standard in C# (<a href="https://www.youtube.com/watch?v=AF1y9gLcxjQ">https://www.youtube.com/watch?v=AF1y9gLcxjQ</a>)</li>
+</ul>
+<h3>C# - System.IO:</h3>
 <ul><li>The System.IO namespace consists of IO related classes, structures, delegates and enumerations. These classes can be used to reads and write data to files or data streams. It also contains classes for file and directory support.</li>
 <li>Ler dados de arquivos</li>
 <li>Escrever dados em arquivos</li>
 <li>Gerenciar arquivos com Using</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Memory Management</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: System.IO Namespace (<a href="https://learn.microsoft.com/en-us/dotnet/api/system.io?view=net-6.0">https://learn.microsoft.com/en-us/dotnet/api/system.io?view=net-6.0</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: File and Stream I/O (<a href="https://learn.microsoft.com/en-us/dotnet/standard/io/">https://learn.microsoft.com/en-us/dotnet/standard/io/</a>)</li>
+<li><code data-kind="website">WebSite</code> JavaTPoint: C# System.IO Namespace (<a href="https://www.javatpoint.com/c-sharp-system-io">https://www.javatpoint.com/c-sharp-system-io</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IAmTimCorey: Working With The File System in C# - Managing Folders and Files (<a href="https://www.youtube.com/watch?v=9mUuJIKq40M">https://www.youtube.com/watch?v=9mUuJIKq40M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Derek Banas: C# Tutorial - File I/O (<a href="https://www.youtube.com/watch?v=HKqMqFJr4SY">https://www.youtube.com/watch?v=HKqMqFJr4SY</a>)</li>
+</ul>
+<h3>C# - Memory Management:</h3>
 <ul><li>Automatic memory management is one of the services that the Common Language Runtime provides during Managed Execution. The Common Language Runtime&#39;s garbage collector manages the allocation and release of memory for an application.</li>
 <li>Understand how the memory is managed</li>
 <li>Getting to know the Garbage Collector</li>
 <li>Understanding about the managed Stack and Heap</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Testing</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Automatic Memory Management (<a href="https://learn.microsoft.com/en-us/dotnet/standard/automatic-memory-management">https://learn.microsoft.com/en-us/dotnet/standard/automatic-memory-management</a>)</li>
+<li><code data-kind="article">Article</code> C# Memory Management - Part 1 (<a href="https://medium.com/c-programming/c-memory-management-part-1-c03741c24e4b">https://medium.com/c-programming/c-memory-management-part-1-c03741c24e4b</a>)</li>
+<li><code data-kind="article">Article</code> .NET Memory Management (<a href="https://www.c-sharpcorner.com/UploadFile/26b237/net-memory-management/">https://www.c-sharpcorner.com/UploadFile/26b237/net-memory-management/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programming With Chris: Memory Management in .NET / C# Explained (<a href="https://www.youtube.com/watch?v=2kUzyncszeA">https://www.youtube.com/watch?v=2kUzyncszeA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ankpro Training: Stack and Heap - What is stack memory? | What is heap memory? (<a href="https://www.youtube.com/watch?v=sC1tgnPfa_s">https://www.youtube.com/watch?v=sC1tgnPfa_s</a>)</li>
+</ul>
+<h3>C# - Testing:</h3>
 <ul><li>Software testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance.</li>
 <li>Using unit tests</li>
 <li>Using integration testing</li>
 <li>Using behavioral testing</li>
 <li>Using mocks</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>ADO.NET</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Testing in .NET (<a href="https://learn.microsoft.com/en-us/dotnet/core/testing/">https://learn.microsoft.com/en-us/dotnet/core/testing/</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: Walkthrough - Create and run unit tests for managed code (<a href="https://learn.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2022">https://learn.microsoft.com/en-us/visualstudio/test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2022</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: Walkthrough - Test-driven development using Test Explorer (<a href="https://learn.microsoft.com/en-us/visualstudio/test/quick-start-test-driven-development-with-test-explorer?view=vs-2022">https://learn.microsoft.com/en-us/visualstudio/test/quick-start-test-driven-development-with-test-explorer?view=vs-2022</a>)</li>
+<li><code data-kind="article">Article</code> A Basic Introduction To C# Unit Test For Beginners (<a href="https://www.c-sharpcorner.com/article/a-basic-introduction-of-unit-test-for-beginners/">https://www.c-sharpcorner.com/article/a-basic-introduction-of-unit-test-for-beginners/</a>)</li>
+<li><code data-kind="article">Article</code> Implementing Unit And Integration Tests On .NET With xUnit (<a href="https://www.c-sharpcorner.com/article/implementing-unit-and-integration-tests-on-net-with-xunit/">https://www.c-sharpcorner.com/article/implementing-unit-and-integration-tests-on-net-with-xunit/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programming with Mosh: Unit Testing C# Code - Tutorial for Beginners (<a href="https://www.youtube.com/watch?v=HYrXogLj7vg">https://www.youtube.com/watch?v=HYrXogLj7vg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> tutorialsEU: C# Unit Testing (<a href="https://www.youtube.com/watch?v=GSTVFx0KOzI">https://www.youtube.com/watch?v=GSTVFx0KOzI</a>)</li>
+</ul>
+<h3>ADO.NET:</h3>
 <ul><li>ADO.NET is a set of classes that expose data access services for .NET Framework programmers. ADO.NET provides a rich set of components for creating distributed, data-sharing applications. It is an integral part of the .NET Framework, providing access to relational, XML, and application data.</li>
 <li>Handling databases</li>
 <li>Getting to know DataSet and DataTable</li>
 <li>Performing connections</li>
 <li>Handling XML documents</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Entity Framework Core</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: ADO.NET Overview (<a href="https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-overview">https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-overview</a>)</li>
+<li><code data-kind="youtube">YouTube</code> André Lima: Salvando arquivos no banco de dados com C# e ADO.NET (<a href="https://www.youtube.com/watch?v=5E9aUXQCsGA">https://www.youtube.com/watch?v=5E9aUXQCsGA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> NetSecProf: Using C# ADO.NET for SQL INSERT, DELETE, UPDATE, and SELECT (<a href="https://www.youtube.com/watch?v=H0ZcSyl0xws">https://www.youtube.com/watch?v=H0ZcSyl0xws</a>)</li>
+</ul>
+<h3>Entity Framework Core:</h3>
 <ul><li>Entity Framework Core is an object-relational mapper (ORM). Object-relational mapping is a technique that enables developers to work with data in object-oriented way by performing the work required to map between objects defined in an application&#39;s programming language and data stored in relational datasources.</li>
 <li>Manipulating databases using .NET objects</li>
 <li>Creating models corresponding to a database</li>
 <li>Performing queries</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Data Structures</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Entity Framework Core (<a href="https://learn.microsoft.com/en-us/ef/core/">https://learn.microsoft.com/en-us/ef/core/</a>)</li>
+<li><code data-kind="article">Article</code> 10 Best Practices for Entity Framework Core (<a href="https://medium.com/@walid.mougharbel.1983/10-best-practices-for-entity-framework-core-d44d340b2046">https://medium.com/@walid.mougharbel.1983/10-best-practices-for-entity-framework-core-d44d340b2046</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Amichai Mantinband: Entity Framework Core - Ultimate guide for beginners (<a href="https://www.youtube.com/watch?v=v19arLqQkP8">https://www.youtube.com/watch?v=v19arLqQkP8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Patrick God: CRUD with a .NET 6 Web API &amp; Entity Framework Core (<a href="https://www.youtube.com/watch?v=Fbf_ua2t6v4">https://www.youtube.com/watch?v=Fbf_ua2t6v4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IAmTimCorey: Entity Framework Best Practices - Should EFCore Be Your Data Access of Choice? (<a href="https://www.youtube.com/watch?v=qkJ9keBmQWo">https://www.youtube.com/watch?v=qkJ9keBmQWo</a>)</li>
+</ul>
+<h3>Data Structures:</h3>
 <ul><li>In the context of computers, the data structure is a specific way of storing and organizing data in the computer&#39;s memory so that these data can be easily retrieved and efficiently used when needed later.</li>
 <li>Knowing the main data structures (linked list, stack, queue, tree, etc)</li>
 <li>Implementing the main data structures</li>
-</ul></li></ul>
-<h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CLR</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> W3Schools: Data Structure Tutorial (<a href="https://www.w3schools.in/data-structures/tutorials/">https://www.w3schools.in/data-structures/tutorials/</a>)</li>
+<li><code data-kind="website">WebSite</code> Geeks for Geeks: Data Structures (<a href="https://www.geeksforgeeks.org/data-structures/">https://www.geeksforgeeks.org/data-structures/</a>)</li>
+<li><code data-kind="website">WebSite</code> Data Structures Tutorial (<a href="https://www.javatpoint.com/data-structure-tutorial">https://www.javatpoint.com/data-structure-tutorial</a>)</li>
+<li><code data-kind="article">Article</code> 8 Common Data Structures every Programmer must know (<a href="https://towardsdatascience.com/8-common-data-structures-every-programmer-must-know-171acf6a1a42">https://towardsdatascience.com/8-common-data-structures-every-programmer-must-know-171acf6a1a42</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Internet Made Coder: Data Structures Explained for Beginners - How I Wish I was Taught (<a href="https://www.youtube.com/watch?v=ZdU4wMyiTSs">https://www.youtube.com/watch?v=ZdU4wMyiTSs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: Data Structures Easy to Advanced Course - Full Tutorial from a Google Engineer (<a href="https://www.youtube.com/watch?v=ZdU4wMyiTSs">https://www.youtube.com/watch?v=ZdU4wMyiTSs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aaron Jack: Data Structures you MUST know (as a Software Developer) (<a href="https://www.youtube.com/watch?v=ZdU4wMyiTSs">https://www.youtube.com/watch?v=ZdU4wMyiTSs</a>)</li>
+</ul>
+<h2>Level 2</h2>
+<h3>CLR:</h3>
 <ul><li>The Common Language Runtime (CLR) is the virtual machine component of Microsoft .NET Framework that manages the execution of .NET programs.</li>
 <li>Understanding how the CLR works</li>
 <li>Understanding memory management</li>
 <li>Getting to know CIL and JIT</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>LINQ</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Common Language Runtime (CLR) overview (<a href="https://learn.microsoft.com/en-us/dotnet/standard/clr">https://learn.microsoft.com/en-us/dotnet/standard/clr</a>)</li>
+<li><code data-kind="article">Article</code> Common Language Runtime(CLR) DotNet (<a href="https://medium.com/@mirzafarrukh13/common-language-runtime-dotnet-83e0218edcae">https://medium.com/@mirzafarrukh13/common-language-runtime-dotnet-83e0218edcae</a>)</li>
+<li><code data-kind="article">Article</code> CLR Internals Part I : Memory Management (<a href="https://medium.com/@immortals.300/clr-internals-part-i-memory-management-671cf428bf84">https://medium.com/@immortals.300/clr-internals-part-i-memory-management-671cf428bf84</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Easy Technology: Overview of the Common Language Runtime CLR (<a href="https://www.youtube.com/watch?v=ttgqRyMPU9c">https://www.youtube.com/watch?v=ttgqRyMPU9c</a>)</li>
+</ul>
+<h3>LINQ:</h3>
 <ul><li>Language-Integrated Query (LINQ) is the name for a set of technologies based on the integration of query capabilities directly into the C# language.</li>
 <li>Criar consultas</li>
 <li>Conhecer as cláusulas Select e Where</li>
 <li>Consultar coleções de objetos em memória</li>
 <li>Mapear o banco de dados com Linq to Sql</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Serialization</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Language Integrated Query (LINQ) (C#) (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/">https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: Introduction to LINQ Queries (C#) (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries">https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/introduction-to-linq-queries</a>)</li>
+<li><code data-kind="article">Article</code> LINQ in C# Explained In Five Minutes (<a href="https://medium.com/swlh/linq-in-c-explained-in-five-minutes-d596309a57e6">https://medium.com/swlh/linq-in-c-explained-in-five-minutes-d596309a57e6</a>)</li>
+<li><code data-kind="youtube">YouTube</code> dotnet: Introduction to Language Integrated Query (LINQ) (<a href="https://www.youtube.com/watch?v=p5myHVOtmiU">https://www.youtube.com/watch?v=p5myHVOtmiU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IAmTimCorey: C# Essentials - Linq for Lists (<a href="https://www.youtube.com/watch?v=yClSNQdVD7g">https://www.youtube.com/watch?v=yClSNQdVD7g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IAmTimCorey: Simplified LINQ Ordering In 10 Minutes or Less (<a href="https://www.youtube.com/watch?v=lZNdxWp7R0Y">https://www.youtube.com/watch?v=lZNdxWp7R0Y</a>)</li>
+</ul>
+<h3>C# - Serialization:</h3>
 <ul><li>Serialization is the process of converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file. Its main purpose is to save the state of an object in order to be able to recreate it when needed.</li>
 <li>Sending an object to a remote application using a web service</li>
 <li>Passing an object as a JSON or XML string</li>
 <li>Passing user-specific or security information between applications</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Networking and Sockets</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Serialization (C#) (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/">https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: Basic serialization (<a href="https://learn.microsoft.com/en-us/dotnet/standard/serialization/basic-serialization">https://learn.microsoft.com/en-us/dotnet/standard/serialization/basic-serialization</a>)</li>
+<li><code data-kind="article">Article</code> C# language: Data serialization (<a href="https://medium.com/@sawomirkowalski/c-language-data-serialization-2b3783473932">https://medium.com/@sawomirkowalski/c-language-data-serialization-2b3783473932</a>)</li>
+<li><code data-kind="article">Article</code> Conditional serialization using Csharp (<a href="https://medium.com/@samueleresca/conditional-serialization-using-csharp-3ba383a5ac36">https://medium.com/@samueleresca/conditional-serialization-using-csharp-3ba383a5ac36</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Derek Banas: C# Serialization (<a href="https://www.youtube.com/watch?v=jbwjbbc5PjI">https://www.youtube.com/watch?v=jbwjbbc5PjI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Nick Proud: C# Tutorial - Serializing and Deserializing JSON with NewtonSoft (<a href="https://www.youtube.com/watch?v=pJtuuolUhCc">https://www.youtube.com/watch?v=pJtuuolUhCc</a>)</li>
+</ul>
+<h3>C# - Networking and Sockets:</h3>
 <ul><li>Networking is a concept of connecting two or more computing devices together so that we can share resources. Socket programming provides facility to share data between different computing devices through a network.</li>
 <li>Opening an interactive communication session between the user&#39;s browser and a server</li>
 <li>Sending messages to a server and receive replies without querying the server</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>ASP.NET Core</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Sockets in .NET (<a href="https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/sockets-overview">https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/sockets-overview</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: Use Sockets to send and receive data over TCP (<a href="https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/socket-services">https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/sockets/socket-services</a>)</li>
+<li><code data-kind="article">Article</code> Socket Programming in C# (<a href="https://www.geeksforgeeks.org/socket-programming-in-c-sharp/">https://www.geeksforgeeks.org/socket-programming-in-c-sharp/</a>)</li>
+<li><code data-kind="article">Article</code> Socket Programming in C# (<a href="https://www.c-sharpcorner.com/article/socket-programming-in-C-Sharp/">https://www.c-sharpcorner.com/article/socket-programming-in-C-Sharp/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Sloan Kelly: Socket Programming in C# (Overview) (<a href="https://www.youtube.com/watch?v=vwMLH4Qpupw">https://www.youtube.com/watch?v=vwMLH4Qpupw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Brian: C# Socket Programming - Multiple Clients (<a href="https://www.youtube.com/watch?v=xgLRe7QV6QI">https://www.youtube.com/watch?v=xgLRe7QV6QI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> wolfs cry games: TCP Socket Tutorial (<a href="https://www.youtube.com/watch?v=g5yEWLJxNmI">https://www.youtube.com/watch?v=g5yEWLJxNmI</a>)</li>
+</ul>
+<h3>ASP.NET Core:</h3>
 <ul><li>ASP.NET Core is an open-source and cross-platform framework for building modern cloud-based applications, such as web apps, IoT apps and mobile backends.</li>
 <li>Creating applications and web services</li>
 <li>Maintaining an MVC application</li>
 <li>Developing a client-side web user interface</li>
 <li>Creating a Web API</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dapper</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Overview of ASP.NET Core (<a href="https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0">https://learn.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0</a>)</li>
+<li><code data-kind="article">Article</code> ASP.NET Core - Overview (<a href="https://www.tutorialspoint.com/asp.net_core/asp.net_core_overview.htm">https://www.tutorialspoint.com/asp.net_core/asp.net_core_overview.htm</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: Learn ASP.NET Core MVC (.NET 6) (<a href="https://www.youtube.com/watch?v=hZ1DASYd9rk">https://www.youtube.com/watch?v=hZ1DASYd9rk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: ASP.NET Core Crash Course - C# App in One Hour (<a href="https://www.youtube.com/watch?v=lwVvrRIS7aI">https://www.youtube.com/watch?v=lwVvrRIS7aI</a>)</li>
+</ul>
+<h3>Dapper:</h3>
 <ul><li>Dapper is an object–relational mapping (ORM) product for the Microsoft .NET platform. It provides a framework for mapping an object-oriented domain model to relational databases.</li>
 <li>Performing database queries such as &#39;select&#39;, &#39;insert&#39;, &#39;update&#39;, &#39;delete&#39;</li>
 <li>Manipulating databases</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Dependency Injection</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="article">Article</code> Basics of Dapper (<a href="https://www.jetbrains.com/dotnet/guide/tutorials/basics/dapper/">https://www.jetbrains.com/dotnet/guide/tutorials/basics/dapper/</a>)</li>
+<li><code data-kind="article">Article</code> Welcome To Learn Dapper (<a href="https://www.learndapper.com/">https://www.learndapper.com/</a>)</li>
+<li><code data-kind="article">Article</code> C# | Dapper (<a href="https://www.geeksforgeeks.org/c-dapper/">https://www.geeksforgeeks.org/c-dapper/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Milan Jovanović: Write Faster SQL Queries With Dapper In .NET (<a href="https://www.youtube.com/watch?v=neH0_7bti_I">https://www.youtube.com/watch?v=neH0_7bti_I</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Patrick God: CRUD with Dapper in a .NET 6 Web API using SQL Server (<a href="https://www.youtube.com/watch?v=n0zkkoL8eNs">https://www.youtube.com/watch?v=n0zkkoL8eNs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IAmTimCorey: Simple C# Data Access with Dapper and SQL - Minimal API Project (<a href="https://www.youtube.com/watch?v=dwMFg6uxQ0I">https://www.youtube.com/watch?v=dwMFg6uxQ0I</a>)</li>
+</ul>
+<h3>Dependency Injection:</h3>
 <ul><li>Dependency Injection is a design pattern in which a class requests dependencies from external sources instead of creating them.</li>
 <li>Avoiding high level of code coupling within an application</li>
 <li>Implementing inversion of control</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Multithreading</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="article">Article</code> Dependency Injection (<a href="https://www.tutorialsteacher.com/ioc/dependency-injection">https://www.tutorialsteacher.com/ioc/dependency-injection</a>)</li>
+<li><code data-kind="article">Article</code> A quick intro to Dependency Injection: what it is, and when to use it (<a href="https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/">https://www.freecodecamp.org/news/a-quick-intro-to-dependency-injection-what-it-is-and-when-to-use-it-7578c84fa88f/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Anthony Ferrara: Dependency Injection (<a href="https://www.youtube.com/watch?v=IKD2-MAkXyQ">https://www.youtube.com/watch?v=IKD2-MAkXyQ</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Amigoscode: Learn Dependency Injection and Write Better Code (<a href="https://www.youtube.com/watch?v=eQ90v7HQT-Q">https://www.youtube.com/watch?v=eQ90v7HQT-Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ryan Schachte: Dependency Injection &amp; Inversion of Control (<a href="https://www.youtube.com/watch?v=EPv9-cHEmQw">https://www.youtube.com/watch?v=EPv9-cHEmQw</a>)</li>
+</ul>
+<h3>C# - Multithreading:</h3>
 <ul><li>Multithreading is the ability to perform multiple operations at the same time. Operations with the potential of holding up other operations can execute on separate threads.</li>
 <li>Running multiple tasks simultaneously</li>
 <li>Understanding how threads are executed</li>
 <li>Learning how to make a thread wait at a specific point</li>
-</ul></li></ul>
-<h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Delegates and Events</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Using threads and threading (<a href="https://learn.microsoft.com/en-us/dotnet/standard/threading/using-threads-and-threading">https://learn.microsoft.com/en-us/dotnet/standard/threading/using-threads-and-threading</a>)</li>
+<li><code data-kind="article">Article</code> C# - Multithreading (<a href="https://www.tutorialspoint.com/csharp/csharp_multithreading.htm">https://www.tutorialspoint.com/csharp/csharp_multithreading.htm</a>)</li>
+<li><code data-kind="article">Article</code> C# Multithreading (<a href="https://www.geeksforgeeks.org/c-sharp-multithreading/">https://www.geeksforgeeks.org/c-sharp-multithreading/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Bro Code: C# multithreading (<a href="https://www.youtube.com/watch?v=rUbmW4qAh8w">https://www.youtube.com/watch?v=rUbmW4qAh8w</a>)</li>
+<li><code data-kind="youtube">YouTube</code> kudvenkat: Multithreading in C# (<a href="https://www.youtube.com/watch?v=8mjqXiggWNc">https://www.youtube.com/watch?v=8mjqXiggWNc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> AngelSix: C# Threads, Tasks, Multi-threading &amp; UI Cross-threading (<a href="https://www.youtube.com/watch?v=XXg9g56FS0k">https://www.youtube.com/watch?v=XXg9g56FS0k</a>)</li>
+</ul>
+<h2>Level 3</h2>
+<h3>C# - Delegates and Events:</h3>
 <ul><li>Delegates are objetcs that are used as function pointers to refer to a method assigned to them.</li>
 <li>Events are the action performed which changes the state of an object. Events are declared using delegates - they provide encapsulation to the delegates.</li>
 <li>Understanding the concept of delegate</li>
 <li>Creating a reference to a function with a certain list of parameters</li>
 <li>Understanding the concept of event</li>
 <li>Handling different types of events</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>C# - Anonymous methods and lambda expressions</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Distinguishing Delegates and Events (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/distinguish-delegates-events">https://learn.microsoft.com/en-us/dotnet/csharp/distinguish-delegates-events</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: Handle and raise events (<a href="https://learn.microsoft.com/en-us/dotnet/standard/events/">https://learn.microsoft.com/en-us/dotnet/standard/events/</a>)</li>
+<li><code data-kind="article">Article</code> Delegate Vs Events (<a href="https://www.linkedin.com/pulse/delegate-vs-events-pawan-verma/">https://www.linkedin.com/pulse/delegate-vs-events-pawan-verma/</a>)</li>
+<li><code data-kind="article">Article</code> Difference between delegates and events in C# (<a href="https://www.tutorialsteacher.com/articles/difference-between-delegate-and-event-csharp">https://www.tutorialsteacher.com/articles/difference-between-delegate-and-event-csharp</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programming with Mosh: C# Events and Delegates Made Simple (<a href="https://www.youtube.com/watch?v=jQgwEsJISy0">https://www.youtube.com/watch?v=jQgwEsJISy0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Simplilearn: C# Delegates Explained (<a href="https://www.youtube.com/watch?v=vOlLd2SsKM4">https://www.youtube.com/watch?v=vOlLd2SsKM4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ricardo Maroquio: Delegate and Event in C# (<a href="https://www.youtube.com/watch?v=xr2C4f5bRZM">https://www.youtube.com/watch?v=xr2C4f5bRZM</a>)</li>
+</ul>
+<h3>C# - Anonymous methods and lambda expressions:</h3>
 <ul><li>Anonymous methods are unnamed methods that can be defined using the delegate keyword.</li>
 <li>Lambda expressions are used like anonymous functions, but you don&#39;t need to specify the type of the value that you input, making them more flexible to use.</li>
 <li>Creating anonymous functions that you can use to create delegates</li>
 <li>Creating local functions that can be passed as arguments</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Containers</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Lambda expressions and anonymous functions (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions">https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: Delegates e lambdas (<a href="https://learn.microsoft.com/en-us/dotnet/standard/delegates-lambdas">https://learn.microsoft.com/en-us/dotnet/standard/delegates-lambdas</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: Delegates with Named vs. Anonymous Methods (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/delegates-with-named-vs-anonymous-methods">https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/delegates/delegates-with-named-vs-anonymous-methods</a>)</li>
+<li><code data-kind="article">Article</code> Anonymous Method in C# (<a href="https://www.geeksforgeeks.org/anonymous-method-in-c-sharp/">https://www.geeksforgeeks.org/anonymous-method-in-c-sharp/</a>)</li>
+<li><code data-kind="article">Article</code> C# - Anonymous Method (<a href="https://www.geeksforgeeks.org/anonymous-method-in-c-sharp/">https://www.geeksforgeeks.org/anonymous-method-in-c-sharp/</a>)</li>
+<li><code data-kind="article">Article</code> Lambda Expressions in C# (<a href="https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/">https://www.geeksforgeeks.org/lambda-expressions-in-c-sharp/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> tutorialsEU: C# Lambda Expressions and Anonymous Functions Tutorial (<a href="https://www.youtube.com/watch?v=4gNeU539a4M">https://www.youtube.com/watch?v=4gNeU539a4M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tutorials Point: C# - Anonymous Method (<a href="https://www.youtube.com/watch?v=vAnXrQTq8F4">https://www.youtube.com/watch?v=vAnXrQTq8F4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tutorials Point: C# - Lambda Expression (<a href="https://www.youtube.com/watch?v=kYeKFMf2mO8">https://www.youtube.com/watch?v=kYeKFMf2mO8</a>)</li>
+</ul>
+<h3>Containers:</h3>
 <ul><li>Containers are software packages that contain all the elements needed to run in any environment.</li>
 <li>Kubernetes (also known as k8s or “kube”) is an open source container orchestration platform that automates many of the manual processes involved in deploying, managing, and scaling containerized applications.</li>
 <li>Isolating your software to run independently</li>
@@ -338,23 +551,63 @@
 <li>Modularizing your system into smaller packages</li>
 <li>Getting to know the Docker platform</li>
 <li>Getting to know Kubernetes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Microservices architecture</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> IBM: Containers (<a href="https://www.ibm.com/en-us/cloud/learn/containers">https://www.ibm.com/en-us/cloud/learn/containers</a>)</li>
+<li><code data-kind="website">WebSite</code> HPE: What are containers? (<a href="https://www.hpe.com/us/en/what-is/containers.html">https://www.hpe.com/us/en/what-is/containers.html</a>)</li>
+<li><code data-kind="website">WebSite</code> Google Cloud: What are Containers? (<a href="https://cloud.google.com/learn/what-are-containers">https://cloud.google.com/learn/what-are-containers</a>)</li>
+<li><code data-kind="website">WebSite</code> Azure: What is a container? (<a href="https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/">https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-a-container/</a>)</li>
+<li><code data-kind="website">WebSite</code> Kubernetes - Documentation (<a href="https://kubernetes.io/docs/tutorials/kubernetes-basics/">https://kubernetes.io/docs/tutorials/kubernetes-basics/</a>)</li>
+<li><code data-kind="article">Article</code> Red Hat: What is Kubernetes? (<a href="https://www.redhat.com/en/topics/containers/what-is-kubernetes">https://www.redhat.com/en/topics/containers/what-is-kubernetes</a>)</li>
+<li><code data-kind="article">Article</code> Azure: What is Kubernetes? (<a href="https://azure.microsoft.com/en-us/topic/what-is-kubernetes/">https://azure.microsoft.com/en-us/topic/what-is-kubernetes/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: Docker Tutorial for Beginners (<a href="https://www.youtube.com/watch?v=eLiHH9Bu04E">https://www.youtube.com/watch?v=eLiHH9Bu04E</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: Docker Containers and Kubernetes Fundamentals – Full Hands-On Course (<a href="https://www.youtube.com/watch?v=kTp5xUtcalw">https://www.youtube.com/watch?v=kTp5xUtcalw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> TechWorld with Nana: Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours] (<a href="https://www.youtube.com/watch?v=X48VuDVv0do">https://www.youtube.com/watch?v=X48VuDVv0do</a>)</li>
+</ul>
+<h3>Microservices architecture:</h3>
 <ul><li>Microservices are an architectural approach in which software consists of small independent services that communicate with each other and are organized according to their business domains.</li>
 <li>Learning the concept of planned architecture for microservices</li>
 <li>Performing communication using APIs</li>
 <li>Improving the scalability of a system</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Reflection and attributes</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Google Cloud: Microservice architecture style (<a href="https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices">https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/microservices</a>)</li>
+<li><code data-kind="website">WebSite</code> Amazon: What are microservices? (<a href="https://aws.amazon.com/en/microservices/">https://aws.amazon.com/en/microservices/</a>)</li>
+<li><code data-kind="article">Article</code> The What, Why, and How of a Microservices Architecture (<a href="https://medium.com/hashmapinc/the-what-why-and-how-of-a-microservices-architecture-4179579423a9">https://medium.com/hashmapinc/the-what-why-and-how-of-a-microservices-architecture-4179579423a9</a>)</li>
+<li><code data-kind="article">Article</code> Understanding Microservices: From Idea To Starting Line (<a href="https://medium.com/free-code-camp/microservices-from-idea-to-starting-line-ae5317a6ff02">https://medium.com/free-code-camp/microservices-from-idea-to-starting-line-ae5317a6ff02</a>)</li>
+<li><code data-kind="youtube">YouTube</code> TechWorld with Nana: Microservices explained - the What, Why and How? (<a href="https://www.youtube.com/watch?v=rv4LlmLmVWk">https://www.youtube.com/watch?v=rv4LlmLmVWk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ByteByteGo: What Are Microservices Really All About? (And When Not To Use It) (<a href="https://www.youtube.com/watch?v=_Oyy5PFOIcU">https://www.youtube.com/watch?v=_Oyy5PFOIcU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> InfoQ: Mastering Chaos - A Netflix Guide to Microservices (<a href="https://www.youtube.com/watch?v=CZ3wIuvmHeM">https://www.youtube.com/watch?v=CZ3wIuvmHeM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: Microservice Architecture and System Design with Python &amp; Kubernetes – Full Course (<a href="https://www.youtube.com/watch?v=hmkF77F9TLw">https://www.youtube.com/watch?v=hmkF77F9TLw</a>)</li>
+</ul>
+<h3>Reflection and attributes:</h3>
 <ul><li>Reflection objects are used for obtaining type information at runtime. The classes that give access to the metadata of a running program are in the System.Reflection namespace.</li>
 <li>Writing code that reads object information and metadata at runtime</li>
 <li>Getting class names at runtime and creating objects of a class</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>MAUI</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: Reflection (C#) (<a href="https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection">https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/reflection</a>)</li>
+<li><code data-kind="website">WebSite</code> GeeksforGeeks: Reflection in Python (<a href="https://www.geeksforgeeks.org/reflection-in-python/">https://www.geeksforgeeks.org/reflection-in-python/</a>)</li>
+<li><code data-kind="article">Article</code> Reflection in C# (<a href="https://medium.com/@ghadeer.kenawi/reflection-in-c-fa27d8f827f8">https://medium.com/@ghadeer.kenawi/reflection-in-c-fa27d8f827f8</a>)</li>
+<li><code data-kind="article">Article</code> C# - Reflection (<a href="https://www.tutorialspoint.com/csharp/csharp_reflection.htm">https://www.tutorialspoint.com/csharp/csharp_reflection.htm</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Raw Coding: C# Reflection Explained (<a href="https://www.youtube.com/watch?v=cdG2JxuZvNI">https://www.youtube.com/watch?v=cdG2JxuZvNI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tutorials Point: C# - Reflection (<a href="https://www.youtube.com/watch?v=wfDFI9A56Gs">https://www.youtube.com/watch?v=wfDFI9A56Gs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Derek Banas: Java Reflection Tutorial (<a href="https://www.youtube.com/watch?v=agnblS47F18">https://www.youtube.com/watch?v=agnblS47F18</a>)</li>
+</ul>
+<h3>MAUI:</h3>
 <ul><li>.NET Multi-platform App UI (.NET MAUI) is a cross-platform framework for creating native mobile and desktop apps with C# and XAML.</li>
 <li>Creating native desktop and mobile applications with C# and XAML</li>
 <li>Creating cross-platform applications</li>
 <li>Sharing user interface layout and design across platforms</li>
-</ul></li></ul>
-<h2>Habilidade Auxiliar: Infrastructure</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git &amp; GitHub - Fundamentals</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Docs: What is .NET MAUI? (<a href="https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui?view=net-maui-7.0">https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui?view=net-maui-7.0</a>)</li>
+<li><code data-kind="article">Article</code> All About .NET MAUI (<a href="https://medium.com/volosoft/all-about-net-maui-5a1e774803ac">https://medium.com/volosoft/all-about-net-maui-5a1e774803ac</a>)</li>
+<li><code data-kind="youtube">YouTube</code> IAmTimCorey: .NET MAUI First Look - What is it, how do we use it, and is it ready (<a href="https://www.youtube.com/watch?v=HmyfjAaPW0g">https://www.youtube.com/watch?v=HmyfjAaPW0g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> James Montemagno: Learn .NET MAUI - Full Course for Beginners | Build cross-platform apps in C# (<a href="https://www.youtube.com/watch?v=DuNLR_NJv8U">https://www.youtube.com/watch?v=DuNLR_NJv8U</a>)</li>
+</ul>
+<h2>Auxiliary Skill: Infrastructure</h2>
+<h3>Git &amp; GitHub - Fundamentals:</h3>
 <ul><li>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</li>
 <li>GitHub is a hosting service for software development and version control using Git.</li>
 <li>Creating a repository</li>
@@ -363,28 +616,84 @@
 <li>Reversing a commit</li>
 <li>Creating branches and pull requests</li>
 <li>Handling merge and conflicts</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentals</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Git Reference Book (<a href="https://git-scm.com/book/en/v2">https://git-scm.com/book/en/v2</a>)</li>
+<li><code data-kind="website">WebSite</code> GitHub Documentation (<a href="https://docs.github.com/en">https://docs.github.com/en</a>)</li>
+<li><code data-kind="website">WebSite</code> GitHub Pages Documentation (<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="website">WebSite</code> W3Schools: Git Tutorial (<a href="https://www.w3schools.com/git/default.asp?remote=github">https://www.w3schools.com/git/default.asp?remote=github</a>)</li>
+<li><code data-kind="website">WebSite</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="website">WebSite</code> Dangit, Git!?! (<a href="https://dangitgit.com/">https://dangitgit.com/</a>)</li>
+<li><code data-kind="article">Article</code> Git Tutorial - Explore The Commands And Operations In Git (<a href="https://medium.com/edureka/git-tutorial-da652b566ece">https://medium.com/edureka/git-tutorial-da652b566ece</a>)</li>
+<li><code data-kind="article">Article</code> Git and Github Quickstart Tutorial (<a href="https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca">https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca</a>)</li>
+<li><code data-kind="article">Article</code> Getting Started with Git and GitHub: A Complete Tutorial for Beginner (<a href="https://towardsdatascience.com/learn-basic-git-commands-for-your-data-science-works-2a75396d530d">https://towardsdatascience.com/learn-basic-git-commands-for-your-data-science-works-2a75396d530d</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programming with Mosh: Git Tutorial for Beginners - Learn Git in 1 Hour (<a href="https://www.youtube.com/watch?v=8JJ101D3knE">https://www.youtube.com/watch?v=8JJ101D3knE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: Git and GitHub for Beginners - Crash Course (<a href="https://www.youtube.com/watch?v=RGOj5yH7evk">https://www.youtube.com/watch?v=RGOj5yH7evk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Kevin Stratvert: Git and GitHub for Beginners Tutorial (<a href="https://www.youtube.com/watch?v=tRZGeaHPoaw">https://www.youtube.com/watch?v=tRZGeaHPoaw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tech With Tim: Git Tutorial for Beginners - Git &amp; GitHub Fundamentals In Depth (<a href="https://www.youtube.com/watch?v=DVRQoVRzMIY">https://www.youtube.com/watch?v=DVRQoVRzMIY</a>)</li>
+</ul>
+<h3>HTTP - Fundamentals:</h3>
 <ul><li>HTTP stands for Hyper Text Transfer Protocol. Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses.</li>
 <li>Understanding the difference between HTTP verbs</li>
 <li>Testing requests and checking the status codes in the browser</li>
 <li>Learning how to make a HTTP request on the command line with WGET</li>
 <li>Downloading an image with WGET</li>
 <li>Performing a POST</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> W3Schools: What is HTTP? (<a href="https://www.w3schools.com/whatis/whatis_http.asp">https://www.w3schools.com/whatis/whatis_http.asp</a>)</li>
+<li><code data-kind="website">WebSite</code> MDN Web Docs: An overview of HTTP (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview</a>)</li>
+<li><code data-kind="website">WebSite</code> MDN Web Docs: HTTP request methods (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="website">WebSite</code> HTTP Cats (<a href="https://http.cat/">https://http.cat/</a>)</li>
+<li><code data-kind="website">WebSite</code> HTTP Dogs (<a href="https://http.dog/">https://http.dog/</a>)</li>
+<li><code data-kind="article">Article</code> HTTP codes as Valentine&#39;s Day comics (<a href="https://medium.com/@hanilim/http-codes-as-valentines-day-comics-8c03c805faa0">https://medium.com/@hanilim/http-codes-as-valentines-day-comics-8c03c805faa0</a>)</li>
+<li><code data-kind="article">Article</code> Here Are the most popular ways to make an HTTP request in JavaScript (<a href="https://medium.com/free-code-camp/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa">https://medium.com/free-code-camp/here-is-the-most-popular-ways-to-make-an-http-request-in-javascript-954ce8c95aaa</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Traversy Media: HTTP Crash Course &amp; Exploration (<a href="https://www.youtube.com/watch?v=iYM2zFP3Zn0">https://www.youtube.com/watch?v=iYM2zFP3Zn0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Curious Code: HTTP Request Methods - GET, POST, PUT, DELETE (<a href="https://www.youtube.com/watch?v=tkfVQK6UxDI">https://www.youtube.com/watch?v=tkfVQK6UxDI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: Postman Beginner&#39;s Course - API Testing (<a href="https://www.youtube.com/watch?v=VywxIQ2ZXw4">https://www.youtube.com/watch?v=VywxIQ2ZXw4</a>)</li>
+</ul>
+<h3>JSON:</h3>
 <ul><li>JSON stands for JavaScript Object Notation. It is a text format for storing and transporting data.</li>
 <li>Creating an object</li>
 <li>Transforming an object into a string</li>
 <li>Transforming a string into an object</li>
 <li>Manipulating an object</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Command Line - Fundamentals</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> W3Schools: JSON (<a href="https://www.w3schools.com/js/js_json_intro.asp">https://www.w3schools.com/js/js_json_intro.asp</a>)</li>
+<li><code data-kind="website">WebSite</code> MDN Web Docs: JSON (<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON</a>)</li>
+<li><code data-kind="website">WebSite</code> MDN Web Docs: Working with JSON (<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON">https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Web Dev Simplified: Learn JSON in 10 Minutes (<a href="https://www.youtube.com/watch?v=iiADhChRriM">https://www.youtube.com/watch?v=iiADhChRriM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Traversy Media: JSON Crash Course (<a href="https://www.youtube.com/watch?v=wI1CWzNtE-M">https://www.youtube.com/watch?v=wI1CWzNtE-M</a>)</li>
+</ul>
+<h3>Command Line - Fundamentals:</h3>
 <ul><li>CLI is a command line program that accepts text input to execute operating system functions.</li>
 <li>Knowing the most important commands</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentals</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> W3Schools: What is Command Line Interface (CLI)? (<a href="https://www.w3schools.com/whatis/whatis_cli.asp">https://www.w3schools.com/whatis/whatis_cli.asp</a>)</li>
+<li><code data-kind="website">WebSite</code> Microsoft Docs: Using command line arguments for Windows Terminal (<a href="https://docs.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=windows">https://docs.microsoft.com/en-us/windows/terminal/command-line-arguments?tabs=windows</a>)</li>
+<li><code data-kind="article">Article</code> Advanced CLI: Commands You Should Know as a Developer (<a href="https://betterprogramming.pub/advanced-cli-commands-you-should-know-as-a-developer-7bc48c752a5e">https://betterprogramming.pub/advanced-cli-commands-you-should-know-as-a-developer-7bc48c752a5e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: Command Line Crash Course (<a href="https://www.youtube.com/watch?v=yz7nYlnXLfE">https://www.youtube.com/watch?v=yz7nYlnXLfE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Traversy Media: Command Line Crash Course For Beginners - Terminal Commands (<a href="https://www.youtube.com/watch?v=uwAqEzhyjtw">https://www.youtube.com/watch?v=uwAqEzhyjtw</a>)</li>
+</ul>
+<h3>Cloud - Fundamentals:</h3>
 <ul><li>Cloud, or cloud computing, is the distribution of computing services over the Internet using a pay-as-you-go pricing model. A cloud is composed of various computing resources, ranging from the computers themselves (or instances, in cloud terminology) to networks, storage, databases, and everything around them. In other words, everything that is normally needed to set up the equivalent of a server room, or even a complete data center, will be ready to use, configured, and run.</li>
 <li>Knowing the difference between IaaS, PaaS and SaaS</li>
 <li>Knowing the largest cloud providers</li>
 <li>Specializing in a specific provider of your choice</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SQL - Fundamentals</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> Microsoft Azure: What is cloud computing? (<a href="https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/">https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-cloud-computing/</a>)</li>
+<li><code data-kind="website">WebSite</code> Amazon AWS: What is cloud computing? (<a href="https://aws.amazon.com/en/what-is-cloud-computing/">https://aws.amazon.com/en/what-is-cloud-computing/</a>)</li>
+<li><code data-kind="article">Article</code> A beginner&#39;s guide to the basics of what cloud computing is about (<a href="https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/">https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/</a>)</li>
+<li><code data-kind="article">Article</code> Cloud Computing for Beginners (<a href="https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/">https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/</a>)</li>
+<li><code data-kind="article">Article</code> What are Cloud Computing Services [IaaS, CaaS, PaaS, FaaS, SaaS] (<a href="https://medium.com/@nnilesh7756/what-are-cloud-computing-services-iaas-caas-paas-faas-saas-ac0f6022d36e">https://medium.com/@nnilesh7756/what-are-cloud-computing-services-iaas-caas-paas-faas-saas-ac0f6022d36e</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Simplilearn: Cloud Computing Tutorial for Beginners (<a href="https://www.youtube.com/watch?v=RWgW-CgdIk0">https://www.youtube.com/watch?v=RWgW-CgdIk0</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Amazon Web Services: What is Cloud Computing? - Amazon Web Services (<a href="https://www.youtube.com/watch?v=mxT233EdY5c">https://www.youtube.com/watch?v=mxT233EdY5c</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Ecourse Review: Cloud Computing Services Models - IaaS PaaS SaaS Explained (<a href="https://www.youtube.com/watch?v=36zducUX16w/">https://www.youtube.com/watch?v=36zducUX16w/</a>)</li>
+</ul>
+<h3>SQL - Fundamentals:</h3>
 <ul><li>Structured Query Language (SQL) is a standardized programming language that is used to manage relational databases and perform various operations on the data in them.</li>
 <li>Knowing the most common SQL commands</li>
 <li>Using SELECT to query a table</li>
@@ -393,24 +702,81 @@
 <li>Using DELETE to remove data from a table</li>
 <li>Using JOIN to connect data from multiple tables</li>
 <li>Knowing the clauses (FROM, ORDER BY, etc.)</li>
-</ul></li></ul>
-<h2>Habilidade Auxiliar: Good practices</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>SOLID</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> W3Schools: Introduction to SQL (<a href="https://www.w3schools.com/sql/sql_intro.asp">https://www.w3schools.com/sql/sql_intro.asp</a>)</li>
+<li><code data-kind="website">WebSite</code> Amazon AWS: What is SQL? (<a href="https://aws.amazon.com/what-is/sql/?nc1=h_ls">https://aws.amazon.com/what-is/sql/?nc1=h_ls</a>)</li>
+<li><code data-kind="article">Article</code> From Basic to Intermediate SQL in 10 Minutes (<a href="https://medium.com/analytics-vidhya/from-basic-to-intermediate-sql-in-10-minutes-42b960ed6f9e">https://medium.com/analytics-vidhya/from-basic-to-intermediate-sql-in-10-minutes-42b960ed6f9e</a>)</li>
+<li><code data-kind="article">Article</code> SQL for Beginners 2022 — A Practical SQL Guide (<a href="https://medium.com/@besimum/sql-for-beginners-2022-a-practical-sql-guide-1de6adb43d52">https://medium.com/@besimum/sql-for-beginners-2022-a-practical-sql-guide-1de6adb43d52</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Kevin Stratvert: SQL for Beginners Tutorial (<a href="https://www.youtube.com/watch?v=h0nxCDiD-zg">https://www.youtube.com/watch?v=h0nxCDiD-zg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fireship: Learn SQL in 23 Easy Steps (<a href="https://www.youtube.com/watch?v=Cz3WcZLRaWc">https://www.youtube.com/watch?v=Cz3WcZLRaWc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: SQL Tutorial - Full Database Course for Beginners (<a href="https://www.youtube.com/watch?v=HXV3zeQKqGY">https://www.youtube.com/watch?v=HXV3zeQKqGY</a>)</li>
+</ul>
+<h2>Auxiliary Skill: Good practices</h2>
+<h3>SOLID:</h3>
 <ul><li>SOLID has five principles that are considered best practices in software development that help programmers write cleaner code by separating responsibilities, reducing docking, easing refactoring, and encouraging code reuse.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Design Patterns</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="article">Article</code> The S.O.L.I.D Principles in Pictures (<a href="https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898">https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898</a>)</li>
+<li><code data-kind="article">Article</code> SOLID Principles every Developer Should Know (<a href="https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688">https://blog.bitsrc.io/solid-principles-every-developer-should-know-b3bfa96bb688</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fireship: Solid in 100 Seconds (<a href="https://www.youtube.com/watch?v=q0BGgQJcp7w">https://www.youtube.com/watch?v=q0BGgQJcp7w</a>)</li>
+<li><code data-kind="youtube">YouTube</code> A Dev&#39; Story: SOLID Design Principles Explained in a Nutshell (<a href="https://www.youtube.com/watch?v=69sfWNzxTMc">https://www.youtube.com/watch?v=69sfWNzxTMc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Web Dev Simplified: Single Responsibility Principle Explained - SOLID Design Principles (<a href="https://www.youtube.com/watch?v=UQqY3_6Epbg">https://www.youtube.com/watch?v=UQqY3_6Epbg</a>)</li>
+</ul>
+<h3>Design Patterns:</h3>
 <ul><li>In software engineering, a Design Pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is a description or template for how to solve a problem that can be used in many different situations. Design Patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.</li>
 <li>Getting familiarized with and applying the main Design Patterns</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Architecture</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="website">WebSite</code> What&#39;s a design pattern? (<a href="https://refactoring.guru/design-patterns/what-is-pattern">https://refactoring.guru/design-patterns/what-is-pattern</a>)</li>
+<li><code data-kind="article">Article</code> Design Patterns — Introduction (<a href="https://henriquesd.medium.com/design-patterns-introduction-220f811db857">https://henriquesd.medium.com/design-patterns-introduction-220f811db857</a>)</li>
+<li><code data-kind="article">Article</code> What Are Design Patterns and Do I Need Them? (<a href="https://www.developer.com/design/what-are-design-patterns-and-do-i-need-them/">https://www.developer.com/design/what-are-design-patterns-and-do-i-need-them/</a>)</li>
+<li><code data-kind="article">Article</code> The 3 Types of Design Patterns All Developers Should Know (with code examples of each) (<a href="https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/">https://www.freecodecamp.org/news/the-basic-design-patterns-all-developers-need-to-know/</a>)</li>
+<li><code data-kind="article">Article</code> 10 Design Patterns every Software Architect and Software Engineer must know (<a href="https://ravindraelicherla.medium.com/10-design-patterns-every-software-architect-must-know-b33237bc01c2">https://ravindraelicherla.medium.com/10-design-patterns-every-software-architect-must-know-b33237bc01c2</a>)</li>
+<li><code data-kind="article">Article</code> Modern-Day Architecture Design Patterns for Software Professionals (<a href="https://betterprogramming.pub/modern-day-architecture-design-patterns-for-software-professionals-9056ee1ed977">https://betterprogramming.pub/modern-day-architecture-design-patterns-for-software-professionals-9056ee1ed977</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Web Dev Simplified: Design Patterns (Playlist) (<a href="https://www.youtube.com/playlist?list=PLZlA0Gpn_vH_CthENcPCM0Dww6a5XYC7f">https://www.youtube.com/playlist?list=PLZlA0Gpn_vH_CthENcPCM0Dww6a5XYC7f</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programming with Mosh: Design Patterns in Plain English (<a href="https://www.youtube.com/watch?v=NU_1StN5Tkk">https://www.youtube.com/watch?v=NU_1StN5Tkk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fireship: 10 Design Patterns Explained in 10 Minutes (<a href="https://www.youtube.com/watch?v=tv-_1er1mWI">https://www.youtube.com/watch?v=tv-_1er1mWI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Traversy Media: 5 Design Patterns Every Engineer Should Know (<a href="https://www.YOUTUBE.com/watch?v=AWOf6Wo6gtg">https://www.YOUTUBE.com/watch?v=AWOf6Wo6gtg</a>)</li>
+</ul>
+<h3>Clean Architecture:</h3>
 <ul><li>Clean architecture is a way of developing software, such that just by looking at the source code of a program, you should be able to tell what the program does.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Clean Code</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="article">Article</code> The Clean Architecture — Beginner&#39;s Guide (<a href="https://betterprogramming.pub/the-clean-architecture-beginners-guide-e4b7058c1165">https://betterprogramming.pub/the-clean-architecture-beginners-guide-e4b7058c1165</a>)</li>
+<li><code data-kind="article">Article</code> Thoughts on Clean Architecture (<a href="https://medium.com/android-news/thoughts-on-clean-architecture-b8449d9d02df">https://medium.com/android-news/thoughts-on-clean-architecture-b8449d9d02df</a>)</li>
+<li><code data-kind="article">Article</code> Clean Architecture, the right way (<a href="https://medium.com/gdg-vit/clean-architecture-the-right-way-d83b81ecac6">https://medium.com/gdg-vit/clean-architecture-the-right-way-d83b81ecac6</a>)</li>
+<li><code data-kind="article">Article</code> Why use a Clean Architecture (<a href="https://www.mytaskpanel.com/the-5-advantages-of-using-a-clean-architecture-all-you-need-to-know/">https://www.mytaskpanel.com/the-5-advantages-of-using-a-clean-architecture-all-you-need-to-know/</a>)</li>
+<li><code data-kind="article">Article</code> Clean Architecture – Build Software like an Artisan (<a href="https://flexiple.com/developers/clean-architecture-build-software-like-an-artisan/">https://flexiple.com/developers/clean-architecture-build-software-like-an-artisan/</a>)</li>
+<li><code data-kind="article">Article</code> React Clean Architecture (<a href="https://kpiteng.medium.com/react-clean-architecture-e4144a0788b6">https://kpiteng.medium.com/react-clean-architecture-e4144a0788b6</a>)</li>
+<li><code data-kind="article">Article</code> Clean Architecture with Java 11 (<a href="https://medium.com/slalom-build/clean-architecture-with-java-11-f78bba431041">https://medium.com/slalom-build/clean-architecture-with-java-11-f78bba431041</a>)</li>
+<li><code data-kind="article">Article</code> A detailed guide on developing Android apps using the Clean Architecture pattern (<a href="https://medium.com/@dmilicic/a-detailed-guide-on-developing-android-apps-using-the-clean-architecture-pattern-d38d71e94029">https://medium.com/@dmilicic/a-detailed-guide-on-developing-android-apps-using-the-clean-architecture-pattern-d38d71e94029</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodeOpinion: Clean Architecture Example &amp; Breakdown (<a href="https://www.youtube.com/watch?v=Ys_W6MyWOCw">https://www.youtube.com/watch?v=Ys_W6MyWOCw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Women Who Code: Clean Architecture Concepts (<a href="https://www.youtube.com/watch?v=ouBSPdvbzvw">https://www.youtube.com/watch?v=ouBSPdvbzvw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> CodandoTV(Rods) - Simplifying Clean Architecture +MVVM in your mobile application - COMPLETE GUIDE (<a href="https://youtu.be/8ehlZfyN1S0?si=l7-I5I4zsnYLlSjD">https://youtu.be/8ehlZfyN1S0?si=l7-I5I4zsnYLlSjD</a>)</li>
+</ul>
+<h3>Clean Code:</h3>
 <ul><li>Applying simple techniques that aim to make a code easier to write and read</li>
 <li>Refactoring your code to make it clearer</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Domain-Driven Design (DDD) Concepts</strong>:</li>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="article">Article</code> What is Clean Code? (<a href="https://garywoodfine.com/what-is-clean-code/">https://garywoodfine.com/what-is-clean-code/</a>)</li>
+<li><code data-kind="article">Article</code> Clean Code Explained – A Practical Introduction to Clean Coding for Beginners (<a href="https://www.freecodecamp.org/news/clean-coding-for-beginners/">https://www.freecodecamp.org/news/clean-coding-for-beginners/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> UnityCoin: Clean Code - Uncle Bob - Lesson 1 (<a href="https://www.youtube.com/watch?v=7EmboKQH8lM">https://www.youtube.com/watch?v=7EmboKQH8lM</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programming with Mosh: Clean Code - Learn to write clean, maintainable and robust code (<a href="https://www.youtube.com/watch?v=5koPpYVa020">https://www.youtube.com/watch?v=5koPpYVa020</a>)</li>
+</ul>
+<h3>Domain-Driven Design (DDD) Concepts:</h3>
 <ul><li>Domain-Driven Design (DDD) is an approach to software design and development that is first informed by business requirements. The program components (objects, classes, arrays, etc.) indicate the industry, sector, or business domain in which the business operates.</li>
 <li>Modeling domains effectively</li>
 <li>Basing complex projects on domain models</li>
 <li>Getting to know the building blocks of DDD</li>
-</ul></li></ul>
+</ul>
+<h4>Contents</h4>
+<ul><li><code data-kind="article">Article</code> Domain-Driven Design: Everything You Always Wanted to Know About it, But Were Afraid to Ask (<a href="https://medium.com/ssense-tech/domain-driven-design-everything-you-always-wanted-to-know-about-it-but-were-afraid-to-ask-a85e7b74497a">https://medium.com/ssense-tech/domain-driven-design-everything-you-always-wanted-to-know-about-it-but-were-afraid-to-ask-a85e7b74497a</a>)</li>
+<li><code data-kind="article">Article</code> Domain-Driven Design in the era of Microservices (<a href="https://medium.com/it-dead-inside/domain-driven-design-in-the-era-of-icroservices-de2be01821ed">https://medium.com/it-dead-inside/domain-driven-design-in-the-era-of-icroservices-de2be01821ed</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Amichai Mantinband: Domain-Driven Design in 150 Seconds (<a href="https://www.youtube.com/watch?v=8Z5IAkWcnIw">https://www.youtube.com/watch?v=8Z5IAkWcnIw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Domain-Driven Design Europe: What is DDD? (Eric Evans - DDD Europe 2019) (<a href="https://www.youtube.com/watch?v=pMuiVlnGqjk">https://www.youtube.com/watch?v=pMuiVlnGqjk</a>)</li>
+</ul>
   </div>
 
   <div class="footer">

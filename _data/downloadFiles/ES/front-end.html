@@ -71,11 +71,61 @@
     ul {
       margin: 15px 0;
       padding-left: 25px;
+      list-style-type: disc;
     }
 
     li {
       margin: 8px 0;
       line-height: 1.7;
+    }
+
+    li > code {
+      color: #002a42;
+      background-color: #6dd5ec;
+      padding: 2px 4px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+    li > code[data-kind="article"],
+    li > code[data-kind="articulo"],
+    li > code[data-kind="artigo"] {
+      background-color: #FDB9C6;
+      color: #670032;
+    }
+    li > code[data-kind="course"],
+    li > code[data-kind="curso"] {
+      background-color: #BEEC6D;
+      color: #043300;
+    }
+    li > code[data-kind="youtube"] {
+      background-color: #FF0000;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="podcast"] {
+      background-color: #AB7EE4;
+      color: #300031;
+    }
+    li > code[data-kind="content"],
+    li > code[data-kind="conteudo"],
+    li > code[data-kind="conteúdo"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="aluraplus"],
+    li > code[data-kind="alura+"] {
+      background-color: #d4d4d4;
+      color: #494848;
+    }
+    li > code[data-kind="challenge"],
+    li > code[data-kind="desafio"] {
+      background-color: #162639;
+      color: #FFFFFF;
+    }
+    li > code[data-kind="book"],
+    li > code[data-kind="reto"],
+    li > code[data-kind="livro"] {
+      background-color: #CADCEA;
+      color: #333333;
     }
 
     .nivel {
@@ -101,18 +151,6 @@
       color: #856404;
     }
 
-    .content>ul {
-      padding-left: 0;
-    }
-
-    .content>ul>li {
-      list-style: none;
-    }
-
-    .content>ul>li {
-      display: flex;
-      align-items: center;
-    }
     .checkbox-wrapper {
       display: inline-flex;
       position: relative;
@@ -190,7 +228,8 @@
 
       h1,
       h2,
-      h3 {
+      h3,
+      h4 {
         break-after: avoid;
       }
 
@@ -209,9 +248,8 @@
   </div>
 
   <div class="content">
-    <h1>Front-end</h1>
-<h2>Nivel 1</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTML - Fundamentos</strong>:</li>
+    <h2>Nivel 1</h2>
+<h3>HTML - Fundamentos:</h3>
 <ul><li>HTML es un lenguaje de marcado que define la estructura de su contenido. HTML consta de una serie de elementos que se utilizan para que se vea o actúe de cierta manera. Las etiquetas de archivos adjuntos pueden vincular una palabra o imagen a otro lugar, pueden poner palabras en cursiva, pueden hacer que la fuente sea más grande o más pequeña, etc.</li>
 <li>Aprender qué etiquetas son necesarias para HTML básico</li>
 <li>Crear de un párrafo de texto</li>
@@ -224,7 +262,38 @@
 <li>Vincular a un archivo CSS</li>
 <li>Crear una tabla</li>
 <li>Adicionar ID y clases</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>CSS - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> HTML: Lenguaje de etiquetas de hipertexto (<a href="https://developer.mozilla.org/es/docs/Web/HTML">https://developer.mozilla.org/es/docs/Web/HTML</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Formato de texto HTML (<a href="https://www.w3schools.com/html/html_formatting.asp">https://www.w3schools.com/html/html_formatting.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Bloque HTML y elementos en línea (<a href="https://www.w3schools.com/html/html_blocks.asp">https://www.w3schools.com/html/html_blocks.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Elementos y técnicas de diseño HTML (<a href="https://www.w3schools.com/html/html_layout.asp">https://www.w3schools.com/html/html_layout.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Listas HTML (<a href="https://www.w3schools.com/html/html_lists.asp">https://www.w3schools.com/html/html_lists.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Tablas HTML (<a href="https://www.w3schools.com/html/html_tables.asp">https://www.w3schools.com/html/html_tables.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Formularios HTML (<a href="https://www.w3schools.com/html/html_forms.asp">https://www.w3schools.com/html/html_forms.asp</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Conceptos básicos de HTML (<a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es HTML? - 10 cosas que debes saber (<a href="https://www.youtube.com/watch?v=tPzq8IufGxE">https://www.youtube.com/watch?v=tPzq8IufGxE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende HTML en 15 Minutos (<a href="https://www.youtube.com/watch?v=mNbnV3aN3KA">https://www.youtube.com/watch?v=mNbnV3aN3KA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> HTML - Ejemplos Prácticos básicos (<a href="https://www.youtube.com/watch?v=NMh94GBeCCQ">https://www.youtube.com/watch?v=NMh94GBeCCQ</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Por una web más rápida: 26 técnicas de optimización de Sitios Web (<a href="https://www.aluracursos.com/blog/por-una-web-mas-rapida-26-tecnias-de-optimizacion-de-paginas-web">https://www.aluracursos.com/blog/por-una-web-mas-rapida-26-tecnias-de-optimizacion-de-paginas-web</a>)</li>
+<li><code data-kind="artículo">Artículo</code> La semántica en HTML5 (<a href="https://www.aluracursos.com/blog/la-semantica-en-html5">https://www.aluracursos.com/blog/la-semantica-en-html5</a>)</li>
+<li><code data-kind="artículo">Artículo</code> HTML, CSS y Javascript, ¿cuáles son las diferencias? (<a href="https://www.aluracursos.com/blog/html-css-javascript-cuales-son-las-diferencias">https://www.aluracursos.com/blog/html-css-javascript-cuales-son-las-diferencias</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Formulario con form validation de HTML5 (<a href="https://www.aluracursos.com/blog/formulario-con-form-validation-de-html5">https://www.aluracursos.com/blog/formulario-con-form-validation-de-html5</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Empezando con el desarrollo web Front-end (<a href="https://www.aluracursos.com/blog/empezando-con-el-desarrollo-front-end">https://www.aluracursos.com/blog/empezando-con-el-desarrollo-front-end</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Desde cero hasta programador front-end (<a href="https://www.aluracursos.com/blog/desde-cero-hasta-programador-front-end">https://www.aluracursos.com/blog/desde-cero-hasta-programador-front-end</a>)</li>
+<li><code data-kind="artículo">Artículo</code> VisualStudio Code: instalación, teclas de acceso directo, plugins e integraciones (<a href="https://www.aluracursos.com/blog/visualstudio-code-instalacion-teclas-de-acceso-directo-plugins-e-integraciones">https://www.aluracursos.com/blog/visualstudio-code-instalacion-teclas-de-acceso-directo-plugins-e-integraciones</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Llenando un formulario HTML automáticamente con AJAX (<a href="https://www.aluracursos.com/blog/llenando-un-formulario-html-automaticamente-con-ajax">https://www.aluracursos.com/blog/llenando-un-formulario-html-automaticamente-con-ajax</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Vinculando elementos con HTML5 (<a href="https://www.aluracursos.com/blog/vinculando-elementos-con-html5">https://www.aluracursos.com/blog/vinculando-elementos-con-html5</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es HTML y sus tags? Estructura básica (<a href="https://www.aluracursos.com/blog/html-y-sus-etiquetas">https://www.aluracursos.com/blog/html-y-sus-etiquetas</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es HTML y sus tags? Elementos inline (<a href="https://www.aluracursos.com/blog/que-es-hmtl-y-sus-etiquetas-parte2-elementos-inline">https://www.aluracursos.com/blog/que-es-hmtl-y-sus-etiquetas-parte2-elementos-inline</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es HTML y sus tags? Elementos a nivel de bloque (<a href="https://www.aluracursos.com/blog/que-es-html-y-sus-tags-parte-3">https://www.aluracursos.com/blog/que-es-html-y-sus-tags-parte-3</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es HTML y sus tags? Elementos de un formulario (<a href="https://www.aluracursos.com/blog/que-es-html-parte-4">https://www.aluracursos.com/blog/que-es-html-parte-4</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es HTML y sus tags? Atributos de los elementos. (<a href="https://www.aluracursos.com/blog/ques-es-html-parte-5-atributos">https://www.aluracursos.com/blog/ques-es-html-parte-5-atributos</a>)</li>
+<li><code data-kind="curso">Curso</code> HTML &amp; CSS: Crea páginas increíbles con tecnologías web (<a href="https://app.aluracursos.com/formacion-html-css">https://app.aluracursos.com/formacion-html-css</a>)</li>
+</ul>
+<h3>CSS - Fundamentos:</h3>
 <ul><li>Las hojas de estilo en cascada (CSS) son un lenguaje de hoja de estilo usado para descubrir una presentación de un documento escrito en un lenguaje de marca, como HTML o XML. O CSS puede ser usado para estilizar textos de documentos muy básicos — por ejemplo, para alterar a cor e o tamanho de cabeçalhos e links. Ele pode ser usado para criar um layout — por ejemplo, transformando uma única columna de texto en um layout com uma área de conteúdo principal e uma barra lateral para información relacionada. Pode até ser usado para efectos como animação.</li>
 <li>Aprender a estructura visual de uma página, con &#39;margem&#39; e &#39;preenchimento&#39;</li>
 <li>Estabelecer o tamanho com &#39;larga&#39; e &#39;altura&#39;</li>
@@ -239,7 +308,48 @@
 <li>Aprender a dimensionar cajas</li>
 <li>Aprender Flexbox</li>
 <li>Grado de aprendizaje</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Javascript - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> CSS (<a href="https://developer.mozilla.org/es/docs/Web/CSS">https://developer.mozilla.org/es/docs/Web/CSS</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Introducción a CSS (<a href="https://www.w3schools.com/css/css_intro.asp">https://www.w3schools.com/css/css_intro.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Sintaxis CSS (<a href="https://www.w3schools.com/css/css_syntax.asp">https://www.w3schools.com/css/css_syntax.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: CSS Selectores (<a href="https://www.w3schools.com/css/css_selectors.asp">https://www.w3schools.com/css/css_selectors.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: CSS Box Model (<a href="https://www.w3schools.com/css/css_boxmodel.asp">https://www.w3schools.com/css/css_boxmodel.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Unidades CSS (<a href="https://www.w3schools.com/css/css_units.asp">https://www.w3schools.com/css/css_units.asp</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Comenzando con CSS (<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started">https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Cascada, especificidad y herencia. (<a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance">https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Propiedades de visualización (<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">https://developer.mozilla.org/en-US/docs/Web/CSS/display</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Conceptos básicos de flexbox (<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Conceptos básicos de Grid Layout (<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout">https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Que rayos son las variables en CSS y como se utilizan. (<a href="https://www.youtube.com/watch?v=nJO1jjKUroI&ab_channel=FalconMasters">https://www.youtube.com/watch?v=nJO1jjKUroI&amp;ab_channel=FalconMasters</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Bootstrap ¿Qué es, cómo y cuándo utilizar? (<a href="https://www.aluracursos.com/blog/bootstrap-que-es-como-y-cuando-utilizar">https://www.aluracursos.com/blog/bootstrap-que-es-como-y-cuando-utilizar</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Comprenda la propiedad Position CSS (<a href="https://www.aluracursos.com/blog/comprenda-la-propiedad-position-css">https://www.aluracursos.com/blog/comprenda-la-propiedad-position-css</a>)</li>
+<li><code data-kind="artículo">Artículo</code> CSS: Grids y tablas con responsividad en la Web (<a href="https://www.aluracursos.com/blog/CSS-Grids-y-tablas-con-responsividad-en-la-Web">https://www.aluracursos.com/blog/CSS-Grids-y-tablas-con-responsividad-en-la-Web</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Puntos de ruptura en el diseño responsivo (<a href="https://www.aluracursos.com/blog/puntos-de-ruptura-en-el-diseno-responsivo">https://www.aluracursos.com/blog/puntos-de-ruptura-en-el-diseno-responsivo</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Flexbox CSS: Guia Completo, Elementos y Ejemplos (<a href="https://www.aluracursos.com/blog/flexbox-css-guia-completo-elementos-y-ejemplos">https://www.aluracursos.com/blog/flexbox-css-guia-completo-elementos-y-ejemplos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Por qué usar &#39;em&#39; en su CSS hoy? (<a href="https://www.aluracursos.com/blog/por-que-usar-em-en-tu-css-hoy">https://www.aluracursos.com/blog/por-que-usar-em-en-tu-css-hoy</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Tu código CSS puede ser más limpio, flexible y reutilizable. (<a href="https://www.aluracursos.com/blog/tu-codigo-css-puede-ser-mas-limpio-flexible-y-reutilizable">https://www.aluracursos.com/blog/tu-codigo-css-puede-ser-mas-limpio-flexible-y-reutilizable</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Creando Layouts con Css Grid Layout (<a href="https://www.aluracursos.com/blog/creando-layouts-con-css-grid-layout">https://www.aluracursos.com/blog/creando-layouts-con-css-grid-layout</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Creación de componentes CSS con el estándar BEM (<a href="https://www.aluracursos.com/blog/creacion-de-componentes-css-con-el-estandar-bem">https://www.aluracursos.com/blog/creacion-de-componentes-css-con-el-estandar-bem</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Empezando a organizar tu CSS (<a href="https://www.aluracursos.com/blog/empezando-a-organizar-tu-css">https://www.aluracursos.com/blog/empezando-a-organizar-tu-css</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Reset CSS: Qué es, Ejemplos, Cómo Crear y Utilizar (<a href="https://www.aluracursos.com/blog/reset-css-que-es-ejemplos-como-crear-y-utilizar">https://www.aluracursos.com/blog/reset-css-que-es-ejemplos-como-crear-y-utilizar</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Cómo lidiar con los límites de resolución en sitios responsivos? (<a href="https://www.aluracursos.com/blog/como-lidiar-con-los-limites-de-resolucion-en-sitios-responsivos">https://www.aluracursos.com/blog/como-lidiar-con-los-limites-de-resolucion-en-sitios-responsivos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo organizar el CSS en tu proyecto (<a href="https://www.aluracursos.com/blog/como-organizar-el-css-en-tu-proyecto">https://www.aluracursos.com/blog/como-organizar-el-css-en-tu-proyecto</a>)</li>
+<li><code data-kind="artículo">Artículo</code> CSS: animaciones en Transition y Animation (<a href="https://www.aluracursos.com/blog/css-animaciones-de-transition-y-animation">https://www.aluracursos.com/blog/css-animaciones-de-transition-y-animation</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía de Unidades en el CSS (<a href="https://www.aluracursos.com/blog/guia-de-unidades-en-css">https://www.aluracursos.com/blog/guia-de-unidades-en-css</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cambiando CSS con JavaScript (<a href="https://www.aluracursos.com/blog/cambiando-css-con-javascript">https://www.aluracursos.com/blog/cambiando-css-con-javascript</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Animando un texto en HTML y CSS (<a href="https://www.youtube.com/watch?v=j71g5TiMA-M&ab_channel=AluraLatam">https://www.youtube.com/watch?v=j71g5TiMA-M&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Box Model y Box sizing #AluraMás (<a href="https://youtu.be/ts9qfCKamKg">https://youtu.be/ts9qfCKamKg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Consejos de CSS FlexBox para comenzar #aluramás (<a href="https://youtu.be/EB4vWLzfVcI">https://youtu.be/EB4vWLzfVcI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como utilizar el Display block, inline, inline-block #aluramás (<a href="https://youtu.be/AG2QssLpQzI">https://youtu.be/AG2QssLpQzI</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¡Domina CSS Flexbox con FlexboxFroggy! Aprende jugando en este desafío divertido (<a href="https://youtu.be/MXPhyN5t0uQ">https://youtu.be/MXPhyN5t0uQ</a>)</li>
+<li><code data-kind="curso">Curso</code> Flexbox: Posicione elementos en la pantalla (<a href="https://www.aluracursos.com/curso-online-flexbox-posicione-elementos-pantalla">https://www.aluracursos.com/curso-online-flexbox-posicione-elementos-pantalla</a>)</li>
+<li><code data-kind="curso">Curso</code> CSS Grid: Simplificando layouts (<a href="https://www.aluracursos.com/curso-online-css-grid-simplificando-layouts">https://www.aluracursos.com/curso-online-css-grid-simplificando-layouts</a>)</li>
+<li><code data-kind="curso">Curso</code> Arquitectura CSS: descomplicando los problemas (<a href="https://www.aluracursos.com/curso-online-arquitectura-css-descomplicando-los-problemas">https://www.aluracursos.com/curso-online-arquitectura-css-descomplicando-los-problemas</a>)</li>
+</ul>
+<h3>Javascript - Fundamentos:</h3>
 <ul><li>Javascript es el lenguaje de programación más popular del mundo y es una de las tecnologías centrales de la World Wide Web, junto con HTML y CSS. Tiene escritura dinámica, orientación a objetos basada en prototipos y funciones de primera clase. Es un paradigma múltiple que admite estilos de programación imperativos, funcionales e impulsados por eventos.</li>
 <li>Conocer los tipos primitivos</li>
 <li>Declarar variables, considerando la diferencia entre &#39;var&#39;, &#39;let&#39; y &#39;const</li>
@@ -252,7 +362,48 @@
 <li>Realizar un CRUD</li>
 <li>Obtener datos de una API</li>
 <li>Hacer llamadas asincrónicas usando &#39;Async/Await&#39;, &#39;Promise&#39;, etc.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>DOM - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> MDN Web Docs: JavaScript (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript">https://developer.mozilla.org/es/docs/Web/JavaScript</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Guía de JS (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide">https://developer.mozilla.org/es/docs/Web/JavaScript/Guide</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Gramática y tipos (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_types">https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Grammar_and_types</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Comparación de JavaScript y operadores lógicos (<a href="https://www.w3schools.com/js/js_comparisons.asp">https://www.w3schools.com/js/js_comparisons.asp</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Expresiones y operadores (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_operators">https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_operators</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Array (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: IF y Else (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/if...else</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: While y For (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/while">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/while</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Primeros pasos en JavaScript (<a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash">https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Roadmap para principiantes en JavaScript (<a href="https://www.aluracursos.com/blog/roadmap-js">https://www.aluracursos.com/blog/roadmap-js</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía de JavaScript: qué es y cómo aprender el lenguaje más popular del mundo (<a href="https://www.aluracursos.com/blog/guia-de-javascript">https://www.aluracursos.com/blog/guia-de-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Funciones en JavaScript  (<a href="https://www.aluracursos.com/blog/articulo-funciones-en-javascript-">https://www.aluracursos.com/blog/articulo-funciones-en-javascript-</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Empezar a programar es con JavaScript (<a href="https://www.aluracursos.com/blog/empezar-a-programar-es-con-javascript">https://www.aluracursos.com/blog/empezar-a-programar-es-con-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Comenzando con Front-end (<a href="https://www.aluracursos.com/blog/comenzando-con-front-end">https://www.aluracursos.com/blog/comenzando-con-front-end</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Organiza tu código Javascript de una manera fácil (<a href="https://www.aluracursos.com/blog/organiza-tu-codigo-javascript-de-una-manera-facil">https://www.aluracursos.com/blog/organiza-tu-codigo-javascript-de-una-manera-facil</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Escopo en JavaScript (<a href="https://www.aluracursos.com/blog/escopo-en-javascript">https://www.aluracursos.com/blog/escopo-en-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Conociendo Arrow Functions (<a href="https://www.aluracursos.com/blog/conociendo-arrow-functions">https://www.aluracursos.com/blog/conociendo-arrow-functions</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Trabajando con fechas en JavaScript (<a href="https://www.aluracursos.com/blog/trabajando-con-fechas-en-javascript">https://www.aluracursos.com/blog/trabajando-con-fechas-en-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Empezando con fetch en Javascript (<a href="https://www.aluracursos.com/blog/empezando-con-fetch-en-javascript">https://www.aluracursos.com/blog/empezando-con-fetch-en-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> JavaScript replace: manipulando Strings y regex (<a href="https://www.aluracursos.com/blog/javascript-replace-manipulando-strings-regex">https://www.aluracursos.com/blog/javascript-replace-manipulando-strings-regex</a>)</li>
+<li><code data-kind="artículo">Artículo</code> This, Getters y Setters en clases de Javascript (<a href="https://www.aluracursos.com/blog/this-getters-y-setters-clases-de-javascript">https://www.aluracursos.com/blog/this-getters-y-setters-clases-de-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Empezando con fetch en Javascript (<a href="https://www.aluracursos.com/blog/empezando-con-fetch-en-javascript">https://www.aluracursos.com/blog/empezando-con-fetch-en-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> JavaScript: ¿Cuándo debo usar forEach y map? (<a href="https://www.aluracursos.com/blog/javascript-cuando-debo-usar-foreach-y-map">https://www.aluracursos.com/blog/javascript-cuando-debo-usar-foreach-y-map</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Cómo funciona el import y export de JavaScript? (<a href="https://www.aluracursos.com/blog/como-funciona-el-import-y-export-de-javascript">https://www.aluracursos.com/blog/como-funciona-el-import-y-export-de-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Comprenda la diferencia entre var, let y const en JavaScript (<a href="https://www.aluracursos.com/blog/comprenda-diferencia-entre-var-let-y-const-en-javascript">https://www.aluracursos.com/blog/comprenda-diferencia-entre-var-let-y-const-en-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo usar operadores de comparación en Javascript (<a href="https://www.aluracursos.com/blog/como-utilizar-operadores-de-comparacion-en-javascript">https://www.aluracursos.com/blog/como-utilizar-operadores-de-comparacion-en-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Namespaces: cómo evitar conflictos en código JavaScript (<a href="https://www.aluracursos.com/blog/namespaces-como-evitar-conflictos">https://www.aluracursos.com/blog/namespaces-como-evitar-conflictos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Una guía para importar y exportar módulos con JavaScript (<a href="https://www.aluracursos.com/blog/una-guia-para-importar-exportar-modulos-con-java-script">https://www.aluracursos.com/blog/una-guia-para-importar-exportar-modulos-con-java-script</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Javascript: ¿para qué sirve un array? (<a href="https://www.aluracursos.com/blog/javascript-para-que-sirve-un-array">https://www.aluracursos.com/blog/javascript-para-que-sirve-un-array</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es JavaScript? (<a href="https://www.youtube.com/watch?v=GJfOSoaXk4s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=GJfOSoaXk4s&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> El mejor lenguaje para empezar (<a href="https://www.youtube.com/watch?v=Nrp3c6kNyAw">https://www.youtube.com/watch?v=Nrp3c6kNyAw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Frameworks de Front End (<a href="https://www.youtube.com/watch?v=UNeKzI2WHgQ&ab_channel=AluraLatam">https://www.youtube.com/watch?v=UNeKzI2WHgQ&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Bucles y Bucles Anidados en Javascript (<a href="https://youtu.be/FEdqGdtZuwc">https://youtu.be/FEdqGdtZuwc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> De la Creación al Borrado: Descubre el Poder del CRUD en el Desarrollo de Aplicaciones (<a href="https://youtu.be/jr_98HCSTZc">https://youtu.be/jr_98HCSTZc</a>)</li>
+<li><code data-kind="curso">Curso</code> JavaScript: primeros pasos con el lenguaje (<a href="https://app.aluracursos.com/course/javascript-primeros-pasos-lenguaje">https://app.aluracursos.com/course/javascript-primeros-pasos-lenguaje</a>)</li>
+<li><code data-kind="curso">Curso</code> JavaScript para Front-end (<a href="https://aluracursos.com/formacion-javascript-para-front-end">https://aluracursos.com/formacion-javascript-para-front-end</a>)</li>
+</ul>
+<h3>DOM - Fundamentos:</h3>
 <ul><li>El Document Object Model (DOM) es una interfaz de programación para documentos de la web. Representa la página para que los programas puedan cambiar la estructura, el estilo y el contenido del documento. El DOM representa el documento como nosotros y objetos; de esa forma, los lenguajes de programación pueden interactuar con la página.</li>
 <li>Entender cómo funciona el árbol DOM</li>
 <li>Accesando y manipulando elementos HTML y CSS</li>
@@ -260,22 +411,86 @@
 <li>Insertar un nuevo elemento en el árbol</li>
 <li>Quitar un elemento del árbol</li>
 <li>Esperando un evento en un elemento determinado de la página usando</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Accesibilidad en Javascript</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> W3Schools: JavaScript HTML DOM Methods (<a href="https://www.w3schools.com/js/js_htmldom_methods.asp">https://www.w3schools.com/js/js_htmldom_methods.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: JavaScript HTML DOM Elements (<a href="https://www.w3schools.com/js/js_htmldom_elements.asp">https://www.w3schools.com/js/js_htmldom_elements.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: JavaScript HTML DOM - Changing HTML (<a href="https://www.w3schools.com/js/js_htmldom_html.asp">https://www.w3schools.com/js/js_htmldom_html.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: JavaScript HTML DOM - Changing CSS (<a href="https://www.w3schools.com/js/js_htmldom_css.asp">https://www.w3schools.com/js/js_htmldom_css.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: JavaScript HTML DOM Events (<a href="https://www.w3schools.com/js/js_htmldom_events.asp">https://www.w3schools.com/js/js_htmldom_events.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: JavaScript HTML DOM EventListener (<a href="https://www.w3schools.com/js/js_htmldom_eventlistener.asp">https://www.w3schools.com/js/js_htmldom_eventlistener.asp</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: JavaScript HTML DOM Elements (Nodes) (<a href="https://www.w3schools.com/js/js_htmldom_nodes.asp">https://www.w3schools.com/js/js_htmldom_nodes.asp</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Introdução ao DOM (<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: querySelectorAll() (<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll">https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: addEventListener() (<a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener">https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener</a>)</li>
+<li><code data-kind="artículo">Artículo</code> An introduction to the JavaScript DOM (<a href="https://medium.com/free-code-camp/an-introduction-to-the-javascript-dom-512463dd62ec">https://medium.com/free-code-camp/an-introduction-to-the-javascript-dom-512463dd62ec</a>)</li>
+<li><code data-kind="artículo">Artículo</code> The DOM of Javascript (<a href="https://javascript.plainenglish.io/the-dom-of-javascript-848506ebf386">https://javascript.plainenglish.io/the-dom-of-javascript-848506ebf386</a>)</li>
+<li><code data-kind="youtube">YouTube</code> DOM JavaScript  (<a href="https://www.youtube.com/watch?v=8u4Xef5YtFE&ab_channel=Bluuweb">https://www.youtube.com/watch?v=8u4Xef5YtFE&amp;ab_channel=Bluuweb</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Javascript manipulacion del DOM  (<a href="https://www.youtube.com/watch?v=iaLiOXXR8eI&list=PLg9145ptuAijiWx4ixGBCZB0kh6YEeNqf&ab_channel=yacklyon">https://www.youtube.com/watch?v=iaLiOXXR8eI&amp;list=PLg9145ptuAijiWx4ixGBCZB0kh6YEeNqf&amp;ab_channel=yacklyon</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Qué es DOM? (<a href="https://www.aluracursos.com/blog/que-es-dom">https://www.aluracursos.com/blog/que-es-dom</a>)</li>
+<li><code data-kind="curso">Curso</code> JS en la Web: Manipulación del DOM con JavaScript (<a href="https://app.aluracursos.com/course/js-web-manipulacion-dom-javascript">https://app.aluracursos.com/course/js-web-manipulacion-dom-javascript</a>)</li>
+</ul>
+<h3>Accesibilidad en Javascript:</h3>
 <ul><li>La Accesibilidad Digital es la eliminación de barreras en la Web. El concepto presupone que los sitios y portales sean diseñados de modo que todas las personas puedan percibir, entender, navegar e interactuar de manera efectiva con las páginas.</li>
 <li>Escribir código teniendo en cuenta la accesibilidad.</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estratégias de SEO</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> MDN Web Docs: Buenas prácticas de accesibilidad CSS y JavaScript (<a href="https://developer.mozilla.org/es/docs/Learn/Accessibility/CSS_and_JavaScript">https://developer.mozilla.org/es/docs/Learn/Accessibility/CSS_and_JavaScript</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Accesibilidad web: qué es y cómo aplicarla correctamente (<a href="https://youtu.be/OkBIttAqCuo">https://youtu.be/OkBIttAqCuo</a>)</li>
+<li><code data-kind="curso">Curso</code> Web.dev: Aprende sobre accesibilidad! (<a href="https://web.dev/learn/accessibility/welcome?hl=es-419">https://web.dev/learn/accessibility/welcome?hl=es-419</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Inclusión y accesibilidad en América Latina (<a href="https://www.aluracursos.com/blog/inclusion-y-accesibilidad-en-america-latina">https://www.aluracursos.com/blog/inclusion-y-accesibilidad-en-america-latina</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Directrices de Accesibilidad web (<a href="https://www.aluracursos.com/blog/directrices-de-accesibilidad-web">https://www.aluracursos.com/blog/directrices-de-accesibilidad-web</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Accesibilidad web y el posicionamiento en motores de búsqueda (<a href="https://www.aluracursos.com/blog/accesibilidad-web-y-el-posicionamiento-en-motores-de-busqueda">https://www.aluracursos.com/blog/accesibilidad-web-y-el-posicionamiento-en-motores-de-busqueda</a>)</li>
+<li><code data-kind="artículo">Artículo</code> 6 malas prácticas que perjudican usuarios disléxicos (<a href="https://www.aluracursos.com/blog/6-malas-practicas-que-perjudican-usuarios-dislexicos">https://www.aluracursos.com/blog/6-malas-practicas-que-perjudican-usuarios-dislexicos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Unobtrusive JavaScript (<a href="https://www.aluracursos.com/blog/unobtrusive-javascript">https://www.aluracursos.com/blog/unobtrusive-javascript</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Accesibilidad Web | #Aluramás (<a href="https://youtu.be/ngMOsuZL-XE">https://youtu.be/ngMOsuZL-XE</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Accesibilidad Web (<a href="https://app.aluracursos.com/formacion-accesibilidad-web">https://app.aluracursos.com/formacion-accesibilidad-web</a>)</li>
+</ul>
+<h3>Estratégias de SEO:</h3>
 <ul><li>SEO significa optimización para motores de búsqueda y se refiere a las estrategias utilizadas para clasificar un sitio web dentro de los motores de búsqueda como Yahoo, Bing y, por supuesto, el más famoso de todos, Google.</li>
 <li>Elegir palabras clave</li>
 <li>Entender cómo Google clasifica las páginas</li>
 <li>Conocer los factores de clasificación</li>
 <li>Hacer Link Building</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Diseño Responsivo</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Guía de inicio de optimización para motores de búsqueda (SEO) (<a href="https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=es-419">https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=es-419</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía completa de SEO para 2023 (<a href="https://blog.hubspot.es/marketing/guia-completa-seo">https://blog.hubspot.es/marketing/guia-completa-seo</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Verdaderas diferencias entre SEO y SEM: descubre cuál es la mejor estrategia (<a href="https://hotmart.com/es/blog/seo-y-sem">https://hotmart.com/es/blog/seo-y-sem</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Cuáles son los tipos y cómo conseguir posicionamiento en Google? (<a href="https://hotmart.com/es/blog/posicionamiento-en-google">https://hotmart.com/es/blog/posicionamiento-en-google</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Posicionamiento SEO, Guía en el 2022 para dummies (<a href="https://www.marketerosagencia.com/blog/seo/guia-posicionamiento-seo-dummies/">https://www.marketerosagencia.com/blog/seo/guia-posicionamiento-seo-dummies/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Auditoría SEO: cómo evaluar el estado SEO de una web (<a href="https://www.marketerosagencia.com/blog/seo/auditoria-seo/">https://www.marketerosagencia.com/blog/seo/auditoria-seo/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es SEO? (<a href="https://youtu.be/_hNCh4oF4IE">https://youtu.be/_hNCh4oF4IE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cómo posicionar una Web en Google | Tutorial Completo (<a href="https://youtu.be/J8wycys4u7M">https://youtu.be/J8wycys4u7M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Factores de Posicionamiento SEO en 2023 (Tier list SEO) - BIGSEO Podcast #004 con Javier Martínez (<a href="https://youtu.be/tooy6CaTHWA">https://youtu.be/tooy6CaTHWA</a>)</li>
+<li><code data-kind="youtube">YouTube</code> [6 Técnicas de SEO] para posicionar un vídeo en YouTube con SEO (<a href="https://youtu.be/2daSjQT55m8">https://youtu.be/2daSjQT55m8</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> SEO: Herramientas gratuitas para que tu sitio se posicione mejor (<a href="https://www.aluracursos.com/blog/seo-herramientas-gratuitas-para-que-tu-sitio-se-posicione-mejor">https://www.aluracursos.com/blog/seo-herramientas-gratuitas-para-que-tu-sitio-se-posicione-mejor</a>)</li>
+</ul>
+<h3>Diseño Responsivo:</h3>
 <ul><li>Ajustar tus páginas al tamaño de pantalla del usuario</li>
 <li>Media queries</li>
 <li>Conocer el concepto de Mobile first</li>
-</ul></li></ul>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es el diseño responsivo? (<a href="https://www.ionos.es/digitalguide/paginas-web/diseno-web/que-es-el-diseno-responsivo/#:~:text=El%20dise%C3%B1o%20responsivo%2C%20tambi%C3%A9n%20dise%C3%B1o,generaliz%C3%B3%20en%20torno%20a%202013">https://www.ionos.es/digitalguide/paginas-web/diseno-web/que-es-el-diseno-responsivo/#:~:text=El%20dise%C3%B1o%20responsivo%2C%20tambi%C3%A9n%20dise%C3%B1o,generaliz%C3%B3%20en%20torno%20a%202013</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Qué es el diseño responsivo y por qué tu web lo necesita? (<a href="https://trazada.com/que-es-el-diseno-responsivo/">https://trazada.com/que-es-el-diseno-responsivo/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Mobile First vs Diseño Responsive, diferencias y ventajas de cada uno (<a href="https://www.marketerosagencia.com/blog/diseno-web/mobile-first-vs-diseno-responsive/">https://www.marketerosagencia.com/blog/diseno-web/mobile-first-vs-diseno-responsive/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Diseño web responsive vs. adaptable ¿Cuál elegir? (<a href="https://es.wix.com/blog/2022/07/diseno-web-responsive-y-adaptable">https://es.wix.com/blog/2022/07/diseno-web-responsive-y-adaptable</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Qué es el Resposive Web Design - Bien explicado (<a href="https://youtu.be/2zypRlzIcHc">https://youtu.be/2zypRlzIcHc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Breakpoints Responsive | Qué es responsive design | Eduardo Fierro Pro (<a href="https://youtu.be/_ESkNVyXjdY">https://youtu.be/_ESkNVyXjdY</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Puntos de ruptura en el diseño responsivo (<a href="https://www.aluracursos.com/blog/puntos-de-ruptura-en-el-diseno-responsivo">https://www.aluracursos.com/blog/puntos-de-ruptura-en-el-diseno-responsivo</a>)</li>
+<li><code data-kind="curso">Curso</code> Layouts Responsivos: Trabajando con layouts mobile (<a href="https://app.aluracursos.com/course/layouts-responsivos-layouts-mobile">https://app.aluracursos.com/course/layouts-responsivos-layouts-mobile</a>)</li>
+</ul>
 <h2>Nivel 2</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript- Callbacks y Promises</strong>:</li>
+<h3>JavaScript- Callbacks y Promises:</h3>
 <ul><li>Una Promesa (Promises) es un proxy de un valor que no necesariamente se conoce cuando se crea la promesa. Esto permite que los métodos asíncronos devuelvan valores como los métodos síncronos- en lugar de devolver inmediatamente el valor final, el método asíncrono devuelve la promesa de proporcionar el valor en algún momento en el futuro.</li>
 <li>Una función de devolución de llamada (Callback) es una función que se pasa a otra función como argumento, que luego se invoca dentro de la función externa para completar algún tipo de rutina o acción.</li>
 <li>Una función asíncrona es una función declarada con la palabra clave asíncrona y la palabra clave espera está permitida dentro de ella. Las palabras clave async y await permiten que el comportamiento asincrónico basado en promesas se escriba en un estilo más claro, lo que evita la necesidad de configurar explícitamente cadenas de promesas.</li>
@@ -284,41 +499,175 @@
 <li>Usar métodos, palabras clave y objetos de JavaScript para manejar promesas como &#39;Async/Await&#39;, &#39;.then()&#39;, &#39;Promise&#39;, etc.</li>
 <li>Aprender en qué situaciones necesitas usar la programación asíncrona</li>
 <li>Llamar a las API con &#39;fetch()&#39;</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Pruebas</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Funciones callbacks (<a href="https://lenguajejs.com/javascript/asincronia/callbacks/">https://lenguajejs.com/javascript/asincronia/callbacks/</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué son las promesas? (<a href="https://lenguajejs.com/javascript/asincronia/promesas/">https://lenguajejs.com/javascript/asincronia/promesas/</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es la asincronía? (<a href="https://lenguajejs.com/javascript/asincronia/que-es/">https://lenguajejs.com/javascript/asincronia/que-es/</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Promises (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Función Callback (<a href="https://developer.mozilla.org/es/docs/Glossary/Callback_function">https://developer.mozilla.org/es/docs/Glossary/Callback_function</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Introducción a JavaScript asíncrono (<a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/Asynchronous/Introducing">https://developer.mozilla.org/es/docs/Learn/JavaScript/Asynchronous/Introducing</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Función async (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/async_function">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Statements/async_function</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Formas de manejar la asincronía en JavaScript (<a href="https://carlosazaustre.es/manejando-la-asincronia-en-javascript">https://carlosazaustre.es/manejando-la-asincronia-en-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo usar la API Fetch de JavaScript para obtener datos (<a href="https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data-es">https://www.digitalocean.com/community/tutorials/how-to-use-the-javascript-fetch-api-to-get-data-es</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Tutorial de Fetch API en JavaScript con ejemplos de JS Fetch, Post y Header (<a href="https://www.freecodecamp.org/espanol/news/tutorial-de-fetch-api-en-javascript-con-ejemplos-de-js-fetch-post-y-header/">https://www.freecodecamp.org/espanol/news/tutorial-de-fetch-api-en-javascript-con-ejemplos-de-js-fetch-post-y-header/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Callbacks vs Promises en JavaScript. ¡Entiende las diferencias y la importancia de cada una (<a href="https://www.youtube.com/watch?v=frm0CHyeSbE">https://www.youtube.com/watch?v=frm0CHyeSbE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Carlos Azaustre: ¿Cómo funcionan las Promises y Async/Await en JavaScript? (<a href="https://www.youtube.com/watch?v=rKK1q7nFt7M">https://www.youtube.com/watch?v=rKK1q7nFt7M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cómo CONSUMIR una API REST con JAVASCRIPT y Fetch + Promises (<a href="https://www.youtube.com/watch?v=FJ-w0tf3d_w">https://www.youtube.com/watch?v=FJ-w0tf3d_w</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> JS en la Web: CRUD con JavaScript asíncrono (<a href="https://aluracursos.com/course/js-web-crud-javascript-asincrono">https://aluracursos.com/course/js-web-crud-javascript-asincrono</a>)</li>
+</ul>
+<h3>JavaScript - Pruebas:</h3>
 <ul><li>La prueba de software es el proceso de evaluación y verificación de que un software realmente hace lo que debería hacer. Los beneficios de las pruebas incluyen la prevención de errores, la reducción de los costos de desarrollo y la mejora del rendimiento.</li>
 <li>Usar pruebas unitarias</li>
 <li>Usar pruebas de integración</li>
 <li>Usar pruebas de comportamiento (behavior)</li>
 <li>Usar mocks</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Manejo de errores</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Testing (Pruebas) en Javascript (<a href="https://john-florez.gitbook.io/reactjs-book/testing-pruebas-en-javascript">https://john-florez.gitbook.io/reactjs-book/testing-pruebas-en-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es la prueba unitaria? (<a href="https://www.nimblework.com/es/agile/pruebas-unitarias/">https://www.nimblework.com/es/agile/pruebas-unitarias/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué son las pruebas unitarias y cómo llevar una a cabo? (<a href="https://www.yeeply.com/blog/que-son-pruebas-unitarias/">https://www.yeeply.com/blog/que-son-pruebas-unitarias/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Los 4 pilares de una buena prueba unitaria (<a href="http://codelapps.com/code/4-pilares-de-una-buena-prueba-unitaria/">http://codelapps.com/code/4-pilares-de-una-buena-prueba-unitaria/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Angular Unit Testing (<a href="https://medium.com/@vito1986/angular-unit-testing-8a1479079f84">https://medium.com/@vito1986/angular-unit-testing-8a1479079f84</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo usar Testing en Angular con Jasmine y Karma (<a href="https://digital55.com/blog/como-usar-testing-angular-jasmine-karma/">https://digital55.com/blog/como-usar-testing-angular-jasmine-karma/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción a TDD (<a href="https://youtu.be/eFED4VIjwwk">https://youtu.be/eFED4VIjwwk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cómo hacer Unit Testing en Angular de forma sencilla (<a href="https://youtu.be/0ucTEskLvso">https://youtu.be/0ucTEskLvso</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Pruebas unitarias con Angular 12 (<a href="https://youtu.be/tiIqfNVvsHc">https://youtu.be/tiIqfNVvsHc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción a la Automatización de Pruebas de Software (<a href="https://youtu.be/R_hh3jAqn8M">https://youtu.be/R_hh3jAqn8M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Tipos y Niveles de Pruebas de Software. (<a href="https://youtu.be/hSxXuRxA9mo">https://youtu.be/hSxXuRxA9mo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Objetivos de la Automatización de pruebas | ISTQB TAE (<a href="https://youtu.be/_nwkhYhbN6Y">https://youtu.be/_nwkhYhbN6Y</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Tipos de pruebas: ¿cuáles son las principales y por qué utilizarlas? (<a href="https://www.aluracursos.com/blog/tipos-de-pruebas-cual-utilizar">https://www.aluracursos.com/blog/tipos-de-pruebas-cual-utilizar</a>)</li>
+</ul>
+<h3>JavaScript - Manejo de errores:</h3>
 <ul><li>El manejo de errores se refiere a los procedimientos de respuesta y recuperación de las condiciones de error presentes en una aplicación de software. En otras palabras, es el proceso compuesto por la anticipación, detección y resolución de errores de aplicación, programación o comunicación.</li>
 <li>Conocer y manejar las excepciones más comunes</li>
 <li>Conocer los tipos de errores y en qué situaciones se pueden producir</li>
 <li>Comprender cómo Node.js maneja los errores</li>
 <li>Usar &#39;try&#39; y &#39;catch&#39; para el manejo de errores</li>
-<li>Aprender en qué ocasiones y cómo usar <code>throw</code></li>
+<li>Aprender en qué ocasiones y cómo usar <code data-kind="throw">throw</code></li>
 <li>Creación de excepciones específicas según las necesidades de su aplicación</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - ES6</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> MDN Web Docs: Flujo de control y manejo de errores (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Control_flow_and_error_handling">https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Control_flow_and_error_handling</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía Definitiva para el Manejo de Errores en JavaScript (<a href="https://kinsta.com/es/blog/errores-en-javascript/">https://kinsta.com/es/blog/errores-en-javascript/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Errores personalizados, extendiendo Error (<a href="https://es.javascript.info/custom-errors">https://es.javascript.info/custom-errors</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Depurar JavaScript con el Navegador y con Visual Studio Code. (<a href="https://www.youtube.com/watch?v=CRXMli2ZkS8">https://www.youtube.com/watch?v=CRXMli2ZkS8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Manejar errores en JavaScript con Try/Catch (<a href="https://www.youtube.com/watch?v=h9YunSGIBQ8">https://www.youtube.com/watch?v=h9YunSGIBQ8</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Depurando aplicaciones en el navegador (<a href="https://www.aluracursos.com/blog/articulo-depurando-errores-en-el-navefador-formatado">https://www.aluracursos.com/blog/articulo-depurando-errores-en-el-navefador-formatado</a>)</li>
+</ul>
+<h3>JavaScript - ES6:</h3>
 <ul><li>Conocer las diferencias de esta versión de JavaScript</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Modularización</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Módulos, introducción (<a href="https://es.javascript.info/modules-intro">https://es.javascript.info/modules-intro</a>)</li>
+<li><code data-kind="web">Web</code> Módulos JavaScript (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules">https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Introducción a ES6 (<a href="https://www.kodetop.com/introduccion-a-es6/">https://www.kodetop.com/introduccion-a-es6/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ES6, la nueva versión de ECMAScript (<a href="https://www.syntonize.com/nueva-version-de-ecmascript-es6/">https://www.syntonize.com/nueva-version-de-ecmascript-es6/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Introducción a la POO en Javascript moderno: las nuevas clases en ES6 (<a href="https://www.etnassoft.com/2016/12/02/introduccion-a-la-poo-en-javascript-moderno-las-nuevas-clases-en-es6/">https://www.etnassoft.com/2016/12/02/introduccion-a-la-poo-en-javascript-moderno-las-nuevas-clases-en-es6/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Javascript Moderno en 13 Minutos | Fundamentos ES6 (<a href="https://youtu.be/E8L_2qkvHts">https://youtu.be/E8L_2qkvHts</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Import y Export en Javascript (ES Modules) - Explicación (<a href="https://youtu.be/0t-Le4kdaMg">https://youtu.be/0t-Le4kdaMg</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ES6 - Desestructuración de objetos (<a href="https://www.aluracursos.com/blog/desestructuracion-de-objetos">https://www.aluracursos.com/blog/desestructuracion-de-objetos</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Alura: JavaScript avançado I: ES6, orientação a objetos e padrões de projetos (<a href="https://www.youtube.com/watch?v=T-JVRDnykYg">https://www.youtube.com/watch?v=T-JVRDnykYg</a>)</li>
+<li><code data-kind="curso">Curso</code> JavaScript: Profundizando en MVC, Proxy y Factory (<a href="https://app.aluracursos.com/course/javascript-profundizando-mvc-proxy-factory">https://app.aluracursos.com/course/javascript-profundizando-mvc-proxy-factory</a>)</li>
+<li><code data-kind="curso">Curso</code> JavaScript: Conozca el navegador y los patrones de diseño (<a href="https://app.aluracursos.com/course/javascript-navegador-patrones-diseno">https://app.aluracursos.com/course/javascript-navegador-patrones-diseno</a>)</li>
+</ul>
+<h3>JavaScript - Modularización:</h3>
 <ul><li>Dividir partes del código en módulos</li>
 <li>Usar import y export</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Versiones semánticas de front-end</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Módulos JavaScript (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules">https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Modules</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Modularización en Javascript (<a href="https://medium.com/@sebastianpaduano/modularizaci%C3%B3n-en-javascript-538bd6c75fa">https://medium.com/@sebastianpaduano/modularizaci%C3%B3n-en-javascript-538bd6c75fa</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Programación Orientada a Objetos: Patrón Módulo y Clases de JS (<a href="https://anamartinezaguilar.medium.com/programaci%C3%B3n-orientada-a-objetos-patr%C3%B3n-m%C3%B3dulo-y-clases-de-js-8fc2dab1a085">https://anamartinezaguilar.medium.com/programaci%C3%B3n-orientada-a-objetos-patr%C3%B3n-m%C3%B3dulo-y-clases-de-js-8fc2dab1a085</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Programación Orientada a Objetos en JavaScript - Explicado con ejemplos (<a href="https://www.freecodecamp.org/espanol/news/programacion-orientada-a-objectos-en-javascript-explicado-con-ejemplos/">https://www.freecodecamp.org/espanol/news/programacion-orientada-a-objectos-en-javascript-explicado-con-ejemplos/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Organiza el código JavaScript con módulos {ES6} (<a href="https://youtu.be/_Fmsf6U4Gtg">https://youtu.be/_Fmsf6U4Gtg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Javascript: Entendiendo los módulos (<a href="https://youtu.be/bHziHEUrA_w">https://youtu.be/bHziHEUrA_w</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Curso Javascript - #07 Módulos, import &amp; export, export default (<a href="https://youtu.be/_X7mQyat63Y">https://youtu.be/_X7mQyat63Y</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Cómo funciona el import y export de JavaScript? (<a href="https://www.aluracursos.com/blog/como-funciona-el-import-y-export-de-javascript">https://www.aluracursos.com/blog/como-funciona-el-import-y-export-de-javascript</a>)</li>
+</ul>
+<h3>Versiones semánticas de front-end:</h3>
 <ul><li>SemVer (Semantic Versioning) es un conjunto simple de reglas y requisitos que dictan cómo se asignan e incrementan los números de versión.</li>
 <li>Organización de las dependencias de un proyecto</li>
 <li>Evitar el &quot;infierno de la dependencia&quot;</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Jest</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Documentación: Versionado Semántico 2.0.0 (<a href="https://semver.org/lang/es/">https://semver.org/lang/es/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Versiona mejor tu código: versionamiento semántico y commits convencionales (<a href="https://blog.thedojo.mx/2021/12/04/versiona-mejor-tu-codigo-versionamiento-semantico-y-commits-convencionales.html">https://blog.thedojo.mx/2021/12/04/versiona-mejor-tu-codigo-versionamiento-semantico-y-commits-convencionales.html</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Versionado semántico en npm (<a href="https://javascript.plainenglish.io/semantic-versioning-in-npm-54d5b02c3536">https://javascript.plainenglish.io/semantic-versioning-in-npm-54d5b02c3536</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Qué significan los números de versión en NPM (<a href="https://bernardoayala.com/npm-versionado/">https://bernardoayala.com/npm-versionado/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Cómo actualizar las dependencias (<a href="https://www.youtube.com/watch?v=dforsUYxHVE">https://www.youtube.com/watch?v=dforsUYxHVE</a>)</li>
+</ul>
+<h3>Jest:</h3>
 <ul><li>Jest es un corredor de pruebas de JavaScript que le permite acceder al DOM a través de jsdom. Proporciona una gran velocidad de iteración combinada con funciones potentes como módulos de simulación y temporizadores para que pueda tener más control sobre cómo se ejecuta el código.</li>
 <li>Componentes de prueba</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cypress</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Descripción general de las pruebas (<a href="https://reactjs.org/docs/testing.html#gatsby-focus-wrapper">https://reactjs.org/docs/testing.html#gatsby-focus-wrapper</a>)</li>
+<li><code data-kind="web">Web</code> Jest: Documentación (<a href="https://jestjs.io/es-ES/docs/getting-started">https://jestjs.io/es-ES/docs/getting-started</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Probando Componentes en React Usando Jest: Lo Básico (<a href="https://code.tutsplus.com/es/articles/testing-components-in-react-using-jest-the-basics--cms-28934">https://code.tutsplus.com/es/articles/testing-components-in-react-using-jest-the-basics--cms-28934</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo testear los componentes de React (<a href="https://www.freecodecamp.org/espanol/news/como-probar-los-componentes-de-react-la-guia-completa/">https://www.freecodecamp.org/espanol/news/como-probar-los-componentes-de-react-la-guia-completa/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción a Unit Testing en React con Jest (<a href="https://www.youtube.com/watch?v=n5qbzhZUMsY">https://www.youtube.com/watch?v=n5qbzhZUMsY</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Testing Components en React con Jest paso a paso (<a href="https://www.youtube.com/watch?v=FjJu3hcPSCY">https://www.youtube.com/watch?v=FjJu3hcPSCY</a>)</li>
+</ul>
+<h3>Cypress:</h3>
 <ul><li>Cypress es una herramienta de prueba Front-end que permite configurar, escribir, ejecutar y depurar pruebas.</li>
-</ul></li></ul>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Cypress: Documentación (<a href="https://docs.cypress.io/guides/overview/why-cypress">https://docs.cypress.io/guides/overview/why-cypress</a>)</li>
+<li><code data-kind="web">Web</code> Runebook - Cypress: Documentación (<a href="https://runebook.dev/es/docs/cypress/">https://runebook.dev/es/docs/cypress/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cypress: ¿Qué es? ¿Por qué y cómo lo usamos en Get on Board? (<a href="https://medium.com/get-on-board-dev/cypress-qu%C3%A9-es-por-qu%C3%A9-y-c%C3%B3mo-lo-usamos-en-get-on-board-17688b453fdc">https://medium.com/get-on-board-dev/cypress-qué-es-por-qué-y-cómo-lo-usamos-en-get-on-board-17688b453fdc</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Una guía práctica para las pruebas de extremo a extremo con Cypress (<a href="https://mx.devoteam.com/expert-view/una-guia-practica-para-las-pruebas-de-extremo-a-extremo-con-cypress/">https://mx.devoteam.com/expert-view/una-guia-practica-para-las-pruebas-de-extremo-a-extremo-con-cypress/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Explorando Cypress: La guía definitiva basada en su documentación oficial (<a href="https://www.acontracorrientech.com/explorando-cypress-la-guia-definitiva-basada-en-la-documentacion-oficial/">https://www.acontracorrientech.com/explorando-cypress-la-guia-definitiva-basada-en-la-documentacion-oficial/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende Testing en Cypress como lo hace un Senior en la vida real 🧪 | FullStack Javascript Bootcamp (<a href="https://www.youtube.com/watch?v=HDFNjDKKO6A">https://www.youtube.com/watch?v=HDFNjDKKO6A</a>)</li>
+<li><code data-kind="youtube">YouTube</code> PRUEBAS de API con CYPRESS IO | Tutorial de CYPRESS | Curso de CYPRESS (<a href="https://www.youtube.com/watch?v=IppTzTFY0l8">https://www.youtube.com/watch?v=IppTzTFY0l8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 🤖🚀 Tutorial de Cypress | Primer Test en Cypress io | Cypress Español (<a href="https://www.youtube.com/watch?v=puyyzaZuIKI">https://www.youtube.com/watch?v=puyyzaZuIKI</a>)</li>
+</ul>
 <h2>Nivel 3</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Estructura de Datos</strong>:</li>
+<h3>Estructura de Datos:</h3>
 <ul><li>En el contexto de los ordenadores, una estructura de datos es una forma específica de almacenar y organizar los datos en la memoria del ordenador para que esos datos puedan ser fácilmente recuperados y utilizados de forma eficiente cuando sea necesario posteriormente.</li>
 <li>Conocer las principales estructuras de datos</li>
 <li>Implementar las principales estructuras de datos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Conceptos de Orientación a Objetos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es una estructura de datos en programación y para qué se utiliza? (<a href="https://blog.soyhenry.com/que-es-una-estructura-de-datos-en-programacion/">https://blog.soyhenry.com/que-es-una-estructura-de-datos-en-programacion/</a>)</li>
+<li><code data-kind="web">Web</code> Estructuras de datos - Documentación Python (<a href="https://docs.python.org/es/3/tutorial/datastructures.html">https://docs.python.org/es/3/tutorial/datastructures.html</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructuras de Datos y Algoritmos en Java (<a href="https://programacion.net/articulo/estructuras_de_datos_y_algoritmos_en_java_309/4">https://programacion.net/articulo/estructuras_de_datos_y_algoritmos_en_java_309/4</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructuras de datos con Java: un enfoque práctico (<a href="http://hp.fciencias.unam.mx/~alg/estructurasDeDatos/">http://hp.fciencias.unam.mx/~alg/estructurasDeDatos/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Colecciones: ARRAY, SET y DICTIONARY en Swift (<a href="https://www.swiftbeta.com/colecciones-array-set-y-dictionary-en-swift/">https://www.swiftbeta.com/colecciones-array-set-y-dictionary-en-swift/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Colecciones en Swift y su manejo de memoria (<a href="https://medium.com/@grago/colecciones-en-swift-y-su-manejo-de-memoria-61a03e236dd">https://medium.com/@grago/colecciones-en-swift-y-su-manejo-de-memoria-61a03e236dd</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructuras de datos en .NET con C# (<a href="https://www.genesisrrios.com/es/blog/estructuras-de-datos-en-csharp/">https://www.genesisrrios.com/es/blog/estructuras-de-datos-en-csharp/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estructuras de Datos | Primeros Pasos (<a href="https://youtu.be/Df-sgxGzyTg">https://youtu.be/Df-sgxGzyTg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Qué son las estructuras de datos (<a href="https://youtu.be/oQ0WkIdr73E?list=PLTd5ehIj0goMTSK7RRAPBF4wP-Nj5DRvT">https://youtu.be/oQ0WkIdr73E?list=PLTd5ehIj0goMTSK7RRAPBF4wP-Nj5DRvT</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué son y cómo funcionan los árboles? | Ejemplo de implementación (<a href="https://youtu.be/tBaOQeyXYqg">https://youtu.be/tBaOQeyXYqg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende: Estructura de Datos con Java (<a href="https://www.youtube.com/watch?v=_9ScDWpqhFE">https://www.youtube.com/watch?v=_9ScDWpqhFE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción - 1 - Estructuras de Datos en C# (<a href="https://www.youtube.com/watch?v=rqaqJXbauyA&ab_channel=nicosiored">https://www.youtube.com/watch?v=rqaqJXbauyA&amp;ab_channel=nicosiored</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Estructuras de datos con Python en 8 minutos: Listas, Tuplas, Conjuntos y Diccionarios (<a href="https://www.youtube.com/watch?v=v25-m1LOUiU">https://www.youtube.com/watch?v=v25-m1LOUiU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Programación en Python | Colecciones | Diccionarios (<a href="https://www.youtube.com/watch?v=vAy4IM7NLIQ">https://www.youtube.com/watch?v=vAy4IM7NLIQ</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Estructura de datos: introducción (<a href="https://www.aluracursos.com/blog/estructura-de-datos-introduccion">https://www.aluracursos.com/blog/estructura-de-datos-introduccion</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Conociendo tuplas en Python (<a href="https://www.aluracursos.com/blog/conociendo-las-tuplas-en-python">https://www.aluracursos.com/blog/conociendo-las-tuplas-en-python</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Listas en Python: operaciones básicas (<a href="https://www.aluracursos.com/blog/listas-de-python-operaciones-basicas">https://www.aluracursos.com/blog/listas-de-python-operaciones-basicas</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Estructura de datos: computación práctica con Java (<a href="https://www.aluracursos.com/blog/estructura-de-datos-computacion-practica-con-java">https://www.aluracursos.com/blog/estructura-de-datos-computacion-practica-con-java</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Python: trabajando con diccionarios (<a href="https://www.aluracursos.com/blog/python-trabajando-con-diccionarios">https://www.aluracursos.com/blog/python-trabajando-con-diccionarios</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Iterando una lista en Java (<a href="https://www.aluracursos.com/blog/iterando-una-lista-en-java">https://www.aluracursos.com/blog/iterando-una-lista-en-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Python: avanzando en el lenguaje (<a href="https://app.aluracursos.com/course/python-avanzando-lenguaje">https://app.aluracursos.com/course/python-avanzando-lenguaje</a>)</li>
+<li><code data-kind="curso">Curso</code> C#: array y tipos genéricos (<a href="https://app.aluracursos.com/course/csharp-array-tipos-genericos">https://app.aluracursos.com/course/csharp-array-tipos-genericos</a>)</li>
+<li><code data-kind="curso">Curso</code> Python Collections: listas y tuplas (<a href="https://app.aluracursos.com/course/python-collections-listas-tuplas?utm_source=gnarus&utm_medium=timeline">https://app.aluracursos.com/course/python-collections-listas-tuplas?utm_source=gnarus&amp;utm_medium=timeline</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de Java: trabajar con listas y colecciones de datos (<a href="https://www.aluracursos.com/curso-online-java-trabajar-listas-colecciones-datos">https://www.aluracursos.com/curso-online-java-trabajar-listas-colecciones-datos</a>)</li>
+<li><code data-kind="curso">Curso</code> Java y java.util: Colecciones, Wrappers y Lambda expressions (<a href="https://www.aluracursos.com/curso-online-java-util-coleciones-wrappers-lambda-expressions">https://www.aluracursos.com/curso-online-java-util-coleciones-wrappers-lambda-expressions</a>)</li>
+</ul>
+<h3>Conceptos de Orientación a Objetos:</h3>
 <ul><li>La Programación Orientada a Objetos es un paradigma de programación de software basado en la composición e interacción entre diversas unidades llamadas &#39;objetos&#39; y las clases, que contienen una identidad, propiedades y métodos. Se basa en cuatro componentes de la programación - abstracción digital, encapsulación, herencia y polimorfismo.</li>
 <li>Cómo funcionan los objetos</li>
 <li>Crear y utilizar constructores</li>
@@ -329,30 +678,122 @@
 <li>Qué es el polimorfismo</li>
 <li>Cómo funcionan las interfaces</li>
 <li>Qué son las abstracciones</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Almacenamiento</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Programación orientada a objetos (C#) (<a href="https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/tutorials/oop">https://learn.microsoft.com/es-es/dotnet/csharp/fundamentals/tutorials/oop</a>)</li>
+<li><code data-kind="web">Web</code> Programación orientada a objetos - IBM (<a href="https://www.ibm.com/docs/es/spss-modeler/saas?topic=language-object-oriented-programming">https://www.ibm.com/docs/es/spss-modeler/saas?topic=language-object-oriented-programming</a>)</li>
+<li><code data-kind="web">Web</code> Introducción a los objetos JavaScript (<a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects">https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Introducción a POO con JavaScript ES6 (<a href="https://medium.com/academia-hack/introducci%C3%B3n-a-poo-con-javascript-es6-80074fde0cdf">https://medium.com/academia-hack/introducci%C3%B3n-a-poo-con-javascript-es6-80074fde0cdf</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Programación Orientada a Objetos (<a href="https://ellibrodepython.com/programacion-orientada-a-objetos-python">https://ellibrodepython.com/programacion-orientada-a-objetos-python</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 4 Principios de la Programación Orientada a Objetos (<a href="https://www.youtube.com/watch?v=Uk1C1NARZjU">https://www.youtube.com/watch?v=Uk1C1NARZjU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Mini Curso: POO con PHP (básico) (<a href="https://youtu.be/Ben_VC2rm10">https://youtu.be/Ben_VC2rm10</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 🟡¿Qué es la Programación Orientada a Objetos en PYTHON? - [ Con EJEMPLOS ] | Python desde CERO #13 (<a href="https://www.youtube.com/watch?v=KwT1F7uL5rA">https://www.youtube.com/watch?v=KwT1F7uL5rA</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Alura Latam: ¿Qué es la Programación Orientada a Objetos? (<a href="https://www.youtube.com/watch?v=Oigen2sjagk">https://www.youtube.com/watch?v=Oigen2sjagk</a>)</li>
+<li><code data-kind="artículo">Artículo</code> POO: ¿Qué es la programación orientada a objetos? (<a href="https://www.aluracursos.com/blog/poo-que-es-la-programacion-orientada-a-objetos">https://www.aluracursos.com/blog/poo-que-es-la-programacion-orientada-a-objetos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Revisando la Orientación a Objetos: encapsulación de Java (<a href="https://www.aluracursos.com/blog/revisando-la-orientacion-a-objetos-encapsulacion-de-java">https://www.aluracursos.com/blog/revisando-la-orientacion-a-objetos-encapsulacion-de-java</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es encapsulamiento? (<a href="https://www.aluracursos.com/blog/Que-es-encapsulamiento">https://www.aluracursos.com/blog/Que-es-encapsulamiento</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Herencia en JavaScript (<a href="https://www.aluracursos.com/blog/herencia-en-javascript">https://www.aluracursos.com/blog/herencia-en-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Interfaces Gráficas con Eclipse WindowBuilder (<a href="https://www.aluracursos.com/blog/interfaces-graficas-con-eclipse-windowbuilder">https://www.aluracursos.com/blog/interfaces-graficas-con-eclipse-windowbuilder</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo no aprender Java y Orientación a Objetos: getters y setters (<a href="https://www.aluracursos.com/blog/como-no-aprender-java-y-orientacion-a-objetos-getters-y-setters">https://www.aluracursos.com/blog/como-no-aprender-java-y-orientacion-a-objetos-getters-y-setters</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Ordenar una lista de objetos en Java (<a href="https://www.aluracursos.com/blog/ordenar-una-lista-de-objetos-en-java">https://www.aluracursos.com/blog/ordenar-una-lista-de-objetos-en-java</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación Java Orientado a Objetos (<a href="https://app.aluracursos.com/formacion-javaoo">https://app.aluracursos.com/formacion-javaoo</a>)</li>
+<li><code data-kind="curso">Curso</code> JavaScript: Introducción a la Orientación a Objetos (<a href="https://app.aluracursos.com/course/javascript-introduccion-orientacion-objetos">https://app.aluracursos.com/course/javascript-introduccion-orientacion-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> JavaScript: Herencia e Interfaces en Orientación a Objetos (<a href="https://app.aluracursos.com/course/javascript-herencia-interfaces-orientacion-objetos">https://app.aluracursos.com/course/javascript-herencia-interfaces-orientacion-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> C# y Orientación a Objetos (<a href="https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos">https://app.aluracursos.com/formacion-c-sharpe-orientacion-a-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Python: comprensión de la Orientación a Objetos (<a href="https://app.aluracursos.com/course/python-comprension-orientacion-objetos">https://app.aluracursos.com/course/python-comprension-orientacion-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Python: avanzando en la orientación a objetos (<a href="https://app.aluracursos.com/course/python-avanzando-orientacion-objetos">https://app.aluracursos.com/course/python-avanzando-orientacion-objetos</a>)</li>
+<li><code data-kind="curso">Curso</code> Java Polimorfismo: Entendiendo herencia e interfaces (<a href="https://app.aluracursos.com/course/java-parte-3-entendiendo-herencia-interfaces">https://app.aluracursos.com/course/java-parte-3-entendiendo-herencia-interfaces</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso de JavaScript: Objetos (<a href="https://app.aluracursos.com/course/javascript-objetos?utm_source=gnarus&utm_medium=timeline">https://app.aluracursos.com/course/javascript-objetos?utm_source=gnarus&amp;utm_medium=timeline</a>)</li>
+<li><code data-kind="curso">Curso</code> Formación: Aprenda a programar en Python con orientación a objetos (<a href="https://app.aluracursos.com/formacion-lenguaje-python">https://app.aluracursos.com/formacion-lenguaje-python</a>)</li>
+</ul>
+<h3>JavaScript - Almacenamiento:</h3>
 <ul><li>Almacenar datos en el front-end con localStorage</li>
 <li>Manipular datos almacenados</li>
 <li>Persistir datos almacenados</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JavaScript - Concurrencia</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Almacenamiento del lado cliente (<a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage">https://developer.mozilla.org/es/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage</a>)</li>
+<li><code data-kind="web">Web</code> Usando la API de almacenamiento web (<a href="https://developer.mozilla.org/es/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API">https://developer.mozilla.org/es/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Almacenamiento en el navegador con JavaScript y localStorage (<a href="https://parzibyte.me/blog/2019/03/16/almacenamiento-en-navegador-javascript-localstorage/">https://parzibyte.me/blog/2019/03/16/almacenamiento-en-navegador-javascript-localstorage/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Almacenamiento local en JavaScript (<a href="https://manuais.iessanclemente.net/index.php/Almacenamiento_local_en_JavaScript">https://manuais.iessanclemente.net/index.php/Almacenamiento_local_en_JavaScript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Almacenamiento local (<a href="https://ng-girls.gitbook.io/todo-list-tutorial-spanish/local_storage">https://ng-girls.gitbook.io/todo-list-tutorial-spanish/local_storage</a>)</li>
+<li><code data-kind="artículo">Artículo</code> LocalStorage, sessionStorage (<a href="https://es.javascript.info/localstorage">https://es.javascript.info/localstorage</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Persistencia de Datos en Javascript (LocalStorage) (<a href="https://dev.to/maxwellnewage/persistencia-de-datos-en-javascript-localstorage-419m">https://dev.to/maxwellnewage/persistencia-de-datos-en-javascript-localstorage-419m</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Qué es LocalStorage y cómo utilizarlo en ejemplo práctico (<a href="https://youtu.be/xzNqwjvHsYg">https://youtu.be/xzNqwjvHsYg</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Guardar y obtener la lista del local storage (<a href="https://youtu.be/XUHYQEJhVzs">https://youtu.be/XUHYQEJhVzs</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="curso">Curso</code> JS en la Web: Almacenando datos en el navegador (<a href="https://app.aluracursos.com/course/js-web-almacenando-datos-navegador">https://app.aluracursos.com/course/js-web-almacenando-datos-navegador</a>)</li>
+</ul>
+<h3>JavaScript - Concurrencia:</h3>
 <ul><li>La programación concurrente es un paradigma de programación para construir programas que utilizan la ejecución simultánea de varias tareas computacionales interactivas, que pueden ser implementadas como programas separados o como un conjunto de hilos creados por un único programa</li>
 <li>Ejecutar tareas en paralelo</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>TypeScript - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Hilo principal (<a href="https://developer.mozilla.org/es/docs/Glossary/Main_thread">https://developer.mozilla.org/es/docs/Glossary/Main_thread</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Programación multihilos (threads) en Javascript (<a href="https://purojavascript.com/programacion-multihilos-threads-en-javascript/">https://purojavascript.com/programacion-multihilos-threads-en-javascript/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Multithreading con Javascript: Web Workers. (<a href="https://blog.apside.cl/multithreading-con-javascript-web-workers/">https://blog.apside.cl/multithreading-con-javascript-web-workers/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Introducción de Paralelo y Concurrente a la Programación en Python (<a href="https://code.tutsplus.com/es/introduction-to-parallel-and-concurrent-programming-in-python--cms-28612a">https://code.tutsplus.com/es/introduction-to-parallel-and-concurrent-programming-in-python--cms-28612a</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Hilos (Threads) en Java (<a href="https://youtu.be/fiLrTdSKVcE">https://youtu.be/fiLrTdSKVcE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Paralelismo con JavaScript | WebWorkers, multi-hilo.  (<a href="https://youtu.be/lVd8K_ntKKk">https://youtu.be/lVd8K_ntKKk</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Concurrencia vs. Paralelismo (<a href="https://youtu.be/kMr3mF71Kp4">https://youtu.be/kMr3mF71Kp4</a>)</li>
+</ul>
+<h3>TypeScript - Fundamentos:</h3>
 <ul><li>TypeScript es un lenguaje de programación fuertemente tipado que se basa en JavaScript.</li>
 <li>Comprender en profundidad qué son los tipos y la importancia de la programación tipificada</li>
 <li>Aprender qué es TypeScript, por qué se creó, cómo funciona y su relación con JavaScript</li>
 <li>Conocer las herramientas de TypeScript (integración con el editor de código, verificador estático y compilador)</li>
 <li>Escribir código en TypeScript usando sus herramientas (interfaces, enumeración, decoradores, etc.)</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>GraphQL</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> W3Schools: Introducción a TypeScript (<a href="https://www.w3schools.com/typescript/typescript_intro.php">https://www.w3schools.com/typescript/typescript_intro.php</a>)</li>
+<li><code data-kind="artículo">Artículo</code> TypeScript, ¿qué es y cómo se diferencia de JavaScript? (<a href="https://immune.institute/blog/typescript-que-es-como-se-diferencia-javascript">https://immune.institute/blog/typescript-que-es-como-se-diferencia-javascript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Qué es TypeScript? (<a href="https://codigofacilito.com/articulos/typescript">https://codigofacilito.com/articulos/typescript</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es TypeScript y por qué debes aprenderlo? (<a href="https://ed.team/blog/que-es-typescript-y-por-que-debes-aprenderlo">https://ed.team/blog/que-es-typescript-y-por-que-debes-aprenderlo</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Introducción a Typescript (<a href="https://medium.com/@diego.coder/introducci%C3%B3n-a-typescript-7add491e256">https://medium.com/@diego.coder/introducción-a-typescript-7add491e256</a>)</li>
+<li><code data-kind="artículo">Artículo</code> TypeScript: qué es, diferencias con JavaScript y por qué aprenderlo (<a href="https://profile.es/blog/que-es-typescript-vs-javascript/#">https://profile.es/blog/que-es-typescript-vs-javascript/#</a>)</li>
+<li><code data-kind="youtube">YouTube</code> TypeScript - Tutorial (<a href="https://www.youtube.com/watch?v=xtp_DuPxo9Q">https://www.youtube.com/watch?v=xtp_DuPxo9Q</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> Ventajas de trabajar con TypeScript #AluraMás (<a href="https://www.youtube.com/watch?v=bFrhU0hbo00&ab_channel=AluraLatam">https://www.youtube.com/watch?v=bFrhU0hbo00&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="curso">Curso</code> TypeScript parte 1: evolucionando tu JavaScript (<a href="https://app.aluracursos.com/course/typescript-evolucionando-javascript">https://app.aluracursos.com/course/typescript-evolucionando-javascript</a>)</li>
+<li><code data-kind="curso">Curso</code> TypeScript parte 2: avanzando en el lenguaje (<a href="https://app.aluracursos.com/course/typescript-parte-2-avanzando-lenguaje">https://app.aluracursos.com/course/typescript-parte-2-avanzando-lenguaje</a>)</li>
+<li><code data-kind="curso">Curso</code> Typescript parte 3: técnicas y buenas prácticas (<a href="https://app.aluracursos.com/course/typescript-parte-3-tecnicas-buenas-practicas">https://app.aluracursos.com/course/typescript-parte-3-tecnicas-buenas-practicas</a>)</li>
+</ul>
+<h3>GraphQL:</h3>
 <ul><li>GraphQL es un nuevo estándar API que proporciona una alternativa más eficiente, potente y flexible a REST. Fue desarrollado y de código abierto por Facebook y ahora lo mantiene una gran comunidad de empresas e individuos de todo el mundo.</li>
 <li>Comprender cómo se utiliza GraphQL en el desarrollo de API</li>
 <li>Creación de API utilizando bibliotecas y marcos GraphQL</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Apollo Client</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> GraphQL: Documentación (<a href="https://graphql.org/">https://graphql.org/</a>)</li>
+<li><code data-kind="web">Web</code> Cómo GraphQL: el tutorial Fullstack para GraphQL (<a href="https://www.howtographql.com/">https://www.howtographql.com/</a>)</li>
+<li><code data-kind="web">Web</code> RedHat: ¿Qué es GraphQL? (<a href="https://www.redhat.com/en/topics/api/what-is-graphql">https://www.redhat.com/en/topics/api/what-is-graphql</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Cómo construir una API GraphQL? (<a href="https://blog.back4app.com/es/como-construir-una-api-graphql/">https://blog.back4app.com/es/como-construir-una-api-graphql/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Por qué GraphQL es el futuro de las APIs (<a href="http://developinginspanish.com/2019/11/16/por-que-graphql-es-el-futuro-de-las-apis/">http://developinginspanish.com/2019/11/16/por-que-graphql-es-el-futuro-de-las-apis/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GraphQL, el futuro de las API (<a href="https://blog.ida.cl/experiencia-de-usuario/graphql-el-futuro-de-las-api/">https://blog.ida.cl/experiencia-de-usuario/graphql-el-futuro-de-las-api/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GraphQL vs REST: Todo lo que Necesitas Saber (<a href="https://kinsta.com/es/blog/graphql-vs-rest/">https://kinsta.com/es/blog/graphql-vs-rest/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es GraphQL? (<a href="https://www.youtube.com/watch?v=RreRD41qlpw">https://www.youtube.com/watch?v=RreRD41qlpw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> miduver: GraphQL desde de cero (<a href="https://www.youtube.com/watch?v=QG-qbmW-wes">https://www.youtube.com/watch?v=QG-qbmW-wes</a>)</li>
+</ul>
+<h3>Apollo Client:</h3>
 <ul><li>Apollo Client es una biblioteca integral de administración de estado para JavaScript que le permite administrar datos locales y remotos con GraphQL.</li>
 <li>Utilizar Apollo para crear un servidor GraphQL</li>
 <li>Conectar a una API</li>
-</ul></li></ul>
-<h2>Habilidade Auxiliar: Infraestructura y Back-end</h2>
-<ul><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Git y GitHub - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Documentación: Cliente Apollo (<a href="https://www.apollographql.com/docs/react/">https://www.apollographql.com/docs/react/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Apollo, GraphQL, y cómo Redux me arruga la ropa (<a href="https://medium.com/@p4bloch/apollo-graphql-y-c%C3%B3mo-redux-me-arruga-la-ropa-12bd071fda9">https://medium.com/@p4bloch/apollo-graphql-y-cómo-redux-me-arruga-la-ropa-12bd071fda9</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Apollo Client, ahora con React Hooks (<a href="https://www.apollographql.com/blog/announcement/frontend/apollo-client-now-with-react-hooks/">https://www.apollographql.com/blog/announcement/frontend/apollo-client-now-with-react-hooks/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Cómo usar GraphQL en React ⚛️con Apollo Client (<a href="https://www.youtube.com/watch?v=sVFocedf-iU">https://www.youtube.com/watch?v=sVFocedf-iU</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Creando el frontend con React, React-Router, GraphQl y Apollo Client (<a href="https://www.youtube.com/watch?v=xxUfQROMbzc">https://www.youtube.com/watch?v=xxUfQROMbzc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Crea tu servidor GraphQL con Apollo Server (<a href="https://www.youtube.com/watch?v=zDrKmi9ph2Q">https://www.youtube.com/watch?v=zDrKmi9ph2Q</a>)</li>
+<li><code data-kind="youtube">YouTube</code> APRENDE a usar GRAPHQL en tu APP de REACT con APOLLO CLIENT 🚀 (<a href="https://www.youtube.com/watch?v=sVFocedf-iU">https://www.youtube.com/watch?v=sVFocedf-iU</a>)</li>
+</ul>
+<h2>Habilidad Auxiliar: Infraestructura y Back-end</h2>
+<h3>Git y GitHub - Fundamentos:</h3>
 <ul><li>Git es un sistema de control de versiones distribuido gratuito y de código abierto diseñado para manejar todo, desde proyectos pequeños hasta proyectos muy grandes, con rapidez y eficiencia.</li>
 <li>GitHub es un servicio de hosting para el desarrollo de software y el control de versiones mediante Git.</li>
 <li>Crear un repositorio</li>
@@ -361,61 +802,215 @@
 <li>Revertir un commit</li>
 <li>Crear de ramas y Pull requests</li>
 <li>Manejar fusiones y conflictos</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>HTTP - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Git: Libro de Consulta (<a href="https://git-scm.com/book/es/v2">https://git-scm.com/book/es/v2</a>)</li>
+<li><code data-kind="web">Web</code> GitHub Documentación (<a href="https://docs.github.com/es">https://docs.github.com/es</a>)</li>
+<li><code data-kind="web">Web</code> Github Pages Documentación (<a href="https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages">https://docs.github.com/es/pages/getting-started-with-github-pages/about-github-pages</a>)</li>
+<li><code data-kind="web">Web</code> W3Schools: Git Tutorial (<a href="https://www.w3schools.com/git/default.asp?remote=github">https://www.w3schools.com/git/default.asp?remote=github</a>)</li>
+<li><code data-kind="web">Web</code> Git School - Visualizing Git (<a href="https://git-school.github.io/visualizing-git/">https://git-school.github.io/visualizing-git/</a>)</li>
+<li><code data-kind="web">Web</code> Dangit, Git!?! (<a href="https://dangitgit.com/es">https://dangitgit.com/es</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Git and Github Quickstart Tutorial (<a href="https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca">https://medium.com/@prashantramnyc/git-and-github-quickstart-tutorial-654a71594dca</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es Git y cómo funciona? (<a href="https://www.youtube.com/watch?v=jGehuhFhtnE">https://www.youtube.com/watch?v=jGehuhFhtnE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y Github | Guia Práctico de Git y Github Desde Cero (<a href="https://www.youtube.com/watch?v=HiXLkL42tMU">https://www.youtube.com/watch?v=HiXLkL42tMU</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Git y Github: que son y primeros pasos (<a href="https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos">https://www.aluracursos.com/blog/git-y-github-que-son-y-primeros-pasos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía sobre cómo instalar Git en diferentes sistemas operativos (<a href="https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos">https://www.aluracursos.com/blog/guia-sobre-como-instalar-git-en-diferentes-sistemas-operativos</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Iniciando un repositorio con Git (<a href="https://www.aluracursos.com/blog/iniciando-repositorio-con-git">https://www.aluracursos.com/blog/iniciando-repositorio-con-git</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Comenzando con Git: aprendiendo a versionar (<a href="https://www.aluracursos.com/blog/comenzando-con-git">https://www.aluracursos.com/blog/comenzando-con-git</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Creando un repositorio remoto en GitHub (<a href="https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github">https://www.aluracursos.com/blog/creando-repositorio-remoto-en-github</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Clonando un repositorio con Git y GitHub (<a href="https://www.aluracursos.com/blog/clonando-un-repositorio-remoto">https://www.aluracursos.com/blog/clonando-un-repositorio-remoto</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Paso a Paso para activar tu proyecto en GitHub Pages. (<a href="https://www.aluracursos.com/blog/github-pages">https://www.aluracursos.com/blog/github-pages</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo escribir un README increíble en tu Github (<a href="https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github">https://www.aluracursos.com/blog/como-escribir-un-readme-increible-en-tu-github</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Buenas practicas en git: evitando errores (<a href="https://www.aluracursos.com/blog/como-evitar-errores-en-git">https://www.aluracursos.com/blog/como-evitar-errores-en-git</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: Errores de comandos y directorios (<a href="https://www.aluracursos.com/blog/git-errores-de-comandos-y-directorios">https://www.aluracursos.com/blog/git-errores-de-comandos-y-directorios</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: errores de commits (<a href="https://www.aluracursos.com/blog/git-errores-de-commits">https://www.aluracursos.com/blog/git-errores-de-commits</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: Errores de fusión (<a href="https://www.aluracursos.com/blog/errores-de-fusion">https://www.aluracursos.com/blog/errores-de-fusion</a>)</li>
+<li><code data-kind="artículo">Artículo</code> GIT: Errores con el remoto (<a href="https://www.aluracursos.com/blog/errores-con-el-remoto">https://www.aluracursos.com/blog/errores-con-el-remoto</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y GitHub para Principiantes #AluraMás (<a href="https://www.youtube.com/watch?v=-LmFK6skG7s&ab_channel=AluraLatam">https://www.youtube.com/watch?v=-LmFK6skG7s&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y GitHub: Herramientas Esenciales para el Control de Versiones y Colaboración en Desarrollo (<a href="https://youtu.be/dw04N616Abw">https://youtu.be/dw04N616Abw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Puedo subir mi proyecto a Github sin líneas de comando? - Git y Github para principiantes (<a href="https://www.youtube.com/watch?v=Yfm16Tlpcwk&ab_channel=AluraLatam">https://www.youtube.com/watch?v=Yfm16Tlpcwk&amp;ab_channel=AluraLatam</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Git y GitHub: Herramientas Esenciales para el Control de Versiones y Colaboración en Desarrollo (<a href="https://www.youtube.com/watch?v=dw04N616Abw">https://www.youtube.com/watch?v=dw04N616Abw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Puedo subir mi proyecto a Github sin líneas de comando? - Git y Github para principiantes (<a href="https://www.youtube.com/watch?v=Yfm16Tlpcwk">https://www.youtube.com/watch?v=Yfm16Tlpcwk</a>)</li>
+<li><code data-kind="curso">Curso</code> Git y GitHub: repositorio, commit y versiones (<a href="https://app.aluracursos.com/course/git-github-repositorio-commit-versiones">https://app.aluracursos.com/course/git-github-repositorio-commit-versiones</a>)</li>
+<li><code data-kind="curso">Curso</code> Git y Github: estrategias de ramificación, conflictos y Pull Requests (<a href="https://www.aluracursos.com/curso-online-git-github-estrategias-ramificacion-conflictos-pull-requests">https://www.aluracursos.com/curso-online-git-github-estrategias-ramificacion-conflictos-pull-requests</a>)</li>
+</ul>
+<h3>HTTP - Fundamentos:</h3>
 <ul><li>HTTP significa Protocolo de transferencia de hipertexto. La comunicación entre las computadoras cliente y los servidores web se realiza mediante el envío de solicitudes HTTP y la recepción de respuestas HTTP.</li>
 <li>Comprender la diferencia entre los verbos HTTP</li>
 <li>Probar solicitudes y verificar los códigos de estado en el navegador</li>
 <li>Aprendiendo a hacer una solicitud HTTP en la línea de comando con WGET</li>
 <li>Descargar una imagen con WGET</li>
 <li>Realización de una POST</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>JSON</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> W3Schools: ¿Qué es HTTP? (<a href="https://www.w3schools.com/whatis/whatis_http.asp">https://www.w3schools.com/whatis/whatis_http.asp</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Una descripción general de HTTP (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview">https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Métodos de solicitud HTTP (<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: HTTP (<a href="https://developer.mozilla.org/es/docs/Web/HTTP">https://developer.mozilla.org/es/docs/Web/HTTP</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Métodos de petición HTTP (<a href="https://developer.mozilla.org/es/docs/Web/HTTP/Methods">https://developer.mozilla.org/es/docs/Web/HTTP/Methods</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Mensajes HTTP (<a href="https://developer.mozilla.org/es/docs/Web/HTTP/Messages">https://developer.mozilla.org/es/docs/Web/HTTP/Messages</a>)</li>
+<li><code data-kind="web">Web</code> HTTP Cats (<a href="https://http.cat/">https://http.cat/</a>)</li>
+<li><code data-kind="web">Web</code> HTTP Dogs (<a href="https://http.dog/">https://http.dog/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Peticiones, Métodos Http y Códigos de estado. (<a href="https://www.youtube.com/watch?v=gBK-Mfa0lw8">https://www.youtube.com/watch?v=gBK-Mfa0lw8</a>)</li>
+<li><code data-kind="youtube">YouTube</code> SSL, TLS, HTTPS, HTTP - Explicado Fácilmente (<a href="https://www.youtube.com/watch?v=6HJAWFenYx8&ab_channel=ProfeSang">https://www.youtube.com/watch?v=6HJAWFenYx8&amp;ab_channel=ProfeSang</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ⭐Protocolo HTTP 🖥️ Requests y Responses con: GET, POST, PUT, PATCH y DELETE | Desarrollo web 🌎 (<a href="https://www.youtube.com/watch?v=l2MihYAj0Iw">https://www.youtube.com/watch?v=l2MihYAj0Iw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> REST y los Verbos de HTTP (<a href="https://www.youtube.com/watch?v=OHBHeAPoZ8E">https://www.youtube.com/watch?v=OHBHeAPoZ8E</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> HTTP: Desmitificando el protocolo Web (<a href="https://www.aluracursos.com/blog/http-desmitificando-el-protocolo">https://www.aluracursos.com/blog/http-desmitificando-el-protocolo</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Cual es la diferencia entre HTTP y HTTPS? (<a href="https://www.aluracursos.com/blog/cual-es-la-diferencia-entre-http-y-https">https://www.aluracursos.com/blog/cual-es-la-diferencia-entre-http-y-https</a>)</li>
+<li><code data-kind="artículo">Artículo</code> HTTP: Diferencias entre GET y POST (<a href="https://www.aluracursos.com/blog/diferencias-entre-get-y-post">https://www.aluracursos.com/blog/diferencias-entre-get-y-post</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Métodos de petición HTTP (<a href="https://www.aluracursos.com/blog/metodos-de-peticion-http">https://www.aluracursos.com/blog/metodos-de-peticion-http</a>)</li>
+<li><code data-kind="curso">Curso</code> HTTP: La base de internet (<a href="https://app.aluracursos.com/course/http-base-internet">https://app.aluracursos.com/course/http-base-internet</a>)</li>
+</ul>
+<h3>JSON:</h3>
 <ul><li>JSON significa Notación de objetos de JavaScript. Es un formato de texto para almacenar y transportar datos.</li>
 <li>Crear un objeto</li>
 <li>Transformar un objeto en una cadena</li>
 <li>Transformar una cadena en un objeto</li>
 <li>Manipular un objeto</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Línea de Comando - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> MDN Web Docs: JSON (<a href="https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON">https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON</a>)</li>
+<li><code data-kind="web">Web</code> MDN Web Docs: Trabajando con JSON (<a href="https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON">https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Que és JSON y cómo funciona? (<a href="https://www.youtube.com/watch?v=z8qk7T_2sWg&ab_channel=SoyDalto">https://www.youtube.com/watch?v=z8qk7T_2sWg&amp;ab_channel=SoyDalto</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ⭐¿Qué es JSON? ¿Cuál es su SINTAXIS? 🖥️¿Cómo crear un archivo JSON? | DESARROLLO WEB 🌎 (<a href="https://www.youtube.com/watch?v=RhxOTqFbI5Q&ab_channel=TodoCode">https://www.youtube.com/watch?v=RhxOTqFbI5Q&amp;ab_channel=TodoCode</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Que es Json? (<a href="https://www.aluracursos.com/blog/que-es-json">https://www.aluracursos.com/blog/que-es-json</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿JSON y Objeto JavaScript son lo mismo? (<a href="https://www.aluracursos.com/blog/json-y-objeto-javascript-son-lo-mismo">https://www.aluracursos.com/blog/json-y-objeto-javascript-son-lo-mismo</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Simulando una API REST con json-server (<a href="https://www.aluracursos.com/blog/simulando-una-api-rest-con-json-server">https://www.aluracursos.com/blog/simulando-una-api-rest-con-json-server</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es JSON Web Token? (<a href="https://www.aluracursos.com/blog/que-es-json-web-token">https://www.aluracursos.com/blog/que-es-json-web-token</a>)</li>
+<li><code data-kind="curso">Curso</code> JS en la Web: CRUD con JavaScript asíncrono (<a href="https://www.aluracursos.com/curso-online-js-web-crud-javascript-asincrono">https://www.aluracursos.com/curso-online-js-web-crud-javascript-asincrono</a>)</li>
+</ul>
+<h3>Línea de Comando - Fundamentos:</h3>
 <ul><li>CLI es un programa de línea de comandos que acepta la entrada de texto para ejecutar funciones del sistema operativo.</li>
 <li>Conocer los comandos más importantes</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>Cloud - Fundamentos</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> W3Schools: What is Command Line Interface (CLI)? (<a href="https://www.w3schools.com/whatis/whatis_cli.asp">https://www.w3schools.com/whatis/whatis_cli.asp</a>)</li>
+<li><code data-kind="web">Web</code> Uso de argumentos de la línea de comandos para Terminal Windows (<a href="https://learn.microsoft.com/es-es/windows/terminal/command-line-arguments?tabs=windows">https://learn.microsoft.com/es-es/windows/terminal/command-line-arguments?tabs=windows</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Interfaz de línea de comandos o CLI (<a href="https://www.computerweekly.com/es/definicion/Interfaz-de-linea-de-comandos-o-CLI">https://www.computerweekly.com/es/definicion/Interfaz-de-linea-de-comandos-o-CLI</a>)</li>
+<li><code data-kind="artículo">Artículo</code> El Manual de Comandos de Linux (<a href="https://www.freecodecamp.org/espanol/news/comandos-de-linux/">https://www.freecodecamp.org/espanol/news/comandos-de-linux/</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Consola vs Terminal vs Shell vs CLI 💻 ¿Qué es la terminal? (<a href="https://www.youtube.com/watch?v=1YxHXBsVNGQ&ab_channel=ProgramadorX">https://www.youtube.com/watch?v=1YxHXBsVNGQ&amp;ab_channel=ProgramadorX</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Aprende la linea de comandos en un mac - bash scripting (<a href="https://www.youtube.com/watch?v=vfwA3pUnVOg&ab_channel=Datademia">https://www.youtube.com/watch?v=vfwA3pUnVOg&amp;ab_channel=Datademia</a>)</li>
+<li><code data-kind="youtube">YouTube</code> freeCodeCamp.org: Command Line Crash Course (<a href="https://www.youtube.com/watch?v=yz7nYlnXLfE">https://www.youtube.com/watch?v=yz7nYlnXLfE</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Traversy Media: Command Line Crash Course For Beginners - Terminal Commands (<a href="https://www.youtube.com/watch?v=uwAqEzhyjtw">https://www.youtube.com/watch?v=uwAqEzhyjtw</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Comandos Básicos e Intermedios CMD  (<a href="https://youtu.be/erKosEQaaFc">https://youtu.be/erKosEQaaFc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Terminal MAC tutorial en Español - Cómo usar la terminal en MAC (<a href="https://www.youtube.com/watch?v=TmP3y7Z2kk4">https://www.youtube.com/watch?v=TmP3y7Z2kk4</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> CMD: Sugerencias para trabajar en el prompt de Windows (<a href="https://www.aluracursos.com/blog/consejos-para-trabajar-en-el-indicador-de-windows">https://www.aluracursos.com/blog/consejos-para-trabajar-en-el-indicador-de-windows</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Como usar el terminal integrado de Visual Studio Code (<a href="https://www.aluracursos.com/blog/como-usar-el-terminal-integrado-de-visual-studio-code">https://www.aluracursos.com/blog/como-usar-el-terminal-integrado-de-visual-studio-code</a>)</li>
+<li><code data-kind="curso">Curso</code> Linux 1: conociendo y utilizando la terminal (<a href="https://app.aluracursos.com/course/linux-1-conociendo-utilizando-terminal">https://app.aluracursos.com/course/linux-1-conociendo-utilizando-terminal</a>)</li>
+</ul>
+<h3>Cloud - Fundamentos:</h3>
 <ul><li>La computación en nube, o cloud computing, es la distribución de servicios informáticos a través de Internet mediante un modelo de tarificación de pago por uso. Una nube se compone de varios recursos informatizados, desde los propios ordenadores (o instancias, en terminología de nube) hasta las redes, el almacenamiento, las bases de datos y todo lo que les rodea. En otras palabras, todo lo que normalmente se necesita para montar el equivalente a una sala de servidores, o incluso un centro de datos completo, estará listo para usar, configurar y ejecutar.</li>
 <li>Conocer la diferencia entre IaaS, PaaS y SaaS</li>
 <li>Conocer los mayores proveedores de nube</li>
 <li>Especializarse en un proveedor específico de su preferencia</li>
-</ul></li><li><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> <strong>YARN</strong>:</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> ¿Qué es la informática en la nube? | Microsoft Azure (<a href="https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-cloud-computing/">https://azure.microsoft.com/es-es/resources/cloud-computing-dictionary/what-is-cloud-computing/</a>)</li>
+<li><code data-kind="web">Web</code> Amazon AWS: ¿Qué es la computación en nube? (<a href="https://aws.amazon.com/en/what-is-cloud-computing/">https://aws.amazon.com/en/what-is-cloud-computing/</a>)</li>
+<li><code data-kind="web">Web</code> Tipos de computación en la nube (<a href="https://aws.amazon.com/es/types-of-cloud-computing/">https://aws.amazon.com/es/types-of-cloud-computing/</a>)</li>
+<li><code data-kind="web">Web</code> ¿Cómo funciona Azure? (<a href="https://learn.microsoft.com/es-es/azure/cloud-adoption-framework/get-started/what-is-azure">https://learn.microsoft.com/es-es/azure/cloud-adoption-framework/get-started/what-is-azure</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es el almacenamiento en la nube? (<a href="https://aws.amazon.com/es/what-is/cloud-storage/">https://aws.amazon.com/es/what-is/cloud-storage/</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es la seguridad en la nube? (<a href="https://cloud.google.com/learn/what-is-cloud-security?hl=es-419">https://cloud.google.com/learn/what-is-cloud-security?hl=es-419</a>)</li>
+<li><code data-kind="web">Web</code> Arquitectura sin servidor (<a href="https://learn.microsoft.com/es-es/dotnet/architecture/serverless/serverless-architecture">https://learn.microsoft.com/es-es/dotnet/architecture/serverless/serverless-architecture</a>)</li>
+<li><code data-kind="web">Web</code> ¿Qué es Docker? (<a href="https://aws.amazon.com/es/docker/">https://aws.amazon.com/es/docker/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía para principiantes sobre los fundamentos de la computación en nube (<a href="https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/">https://scientya.com/a-beginners-guide-to-the-basics-of-what-cloud-computing-is-about-e8b3b7f25a30/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cloud Computing para principiantes (<a href="https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/">https://medium.com/hackernoon/cloud-computing-for-beginners-85d168959afb/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> ¿Qué es Google Cloud y para qué sirve? (<a href="https://www.incentro.com/es-ES/blog/que-es-google-cloud-platform">https://www.incentro.com/es-ES/blog/que-es-google-cloud-platform</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es computación en la nube? | ¿Qué es cloud computing? | Explicado en 4 minutos (<a href="https://youtu.be/MCKdahh2lSo">https://youtu.be/MCKdahh2lSo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> 📌CLOUD COMPUTING ¿Qué es IaaS, PaaS y Saas? | Modelos de Servicio Cloud (<a href="https://youtu.be/VR8aXePkQ5M">https://youtu.be/VR8aXePkQ5M</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es AWS? (<a href="https://www.youtube.com/watch?v=x2vrg7HuM6g">https://www.youtube.com/watch?v=x2vrg7HuM6g</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿ Cómo empiezo con Google Cloud? (Hablemos en Cloud) (<a href="https://www.youtube.com/watch?v=OiDWqu0oQfo">https://www.youtube.com/watch?v=OiDWqu0oQfo</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Introducción a la infraestructura de Google Cloud (<a href="https://www.youtube.com/watch?v=209DGQCism4">https://www.youtube.com/watch?v=209DGQCism4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es la Computación en la Nube? | AWS desde cero - Parte 1: Introducción (<a href="https://www.youtube.com/watch?v=IciVhWQ8npw">https://www.youtube.com/watch?v=IciVhWQ8npw</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> ¿Qué es Cloud y sus principales servicios? (<a href="https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios">https://www.aluracursos.com/blog/que-es-cloud-y-sus-principales-servicios</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Conociendo Terraform (<a href="https://www.aluracursos.com/blog/conociendo-terraform">https://www.aluracursos.com/blog/conociendo-terraform</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Empezando con Docker (<a href="https://www.aluracursos.com/blog/empezando-con-docker">https://www.aluracursos.com/blog/empezando-con-docker</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Heroku, Vercel y otras opciones de cloud como plataforma (<a href="https://www.aluracursos.com/blog/heroku-vercel-y-otras-opciones-de-cloud-como-plataforma">https://www.aluracursos.com/blog/heroku-vercel-y-otras-opciones-de-cloud-como-plataforma</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Fundamentos del OCI | Contenidos ONE (<a href="https://youtu.be/rEgSc0UqX-g">https://youtu.be/rEgSc0UqX-g</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Oracle Cloud Infrastructure: implementación de una aplicación en la nube (<a href="https://app.aluracursos.com/course/oracle-cloud-infrastructure-implementacion-aplicacion-nube">https://app.aluracursos.com/course/oracle-cloud-infrastructure-implementacion-aplicacion-nube</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Oracle Cloud Infrastructure: base de datos e infraestructura como código (<a href="https://app.aluracursos.com/course/oracle-cloud-infrastructure-base-datos-infraestructura-codigo">https://app.aluracursos.com/course/oracle-cloud-infrastructure-base-datos-infraestructura-codigo</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Deploy en Amazon EC2: Alta disponibilidad y escalabilidad de una aplicación (<a href="https://app.aluracursos.com/course/deploy-amazon-ec2-alta-disponibilidad-escalabilidad">https://app.aluracursos.com/course/deploy-amazon-ec2-alta-disponibilidad-escalabilidad</a>)</li>
+<li><code data-kind="curso">Curso</code> Curso Amazon Lightsail: Simplificando la nube (<a href="https://app.aluracursos.com/course/amazon-lightsail-simplificando-nube">https://app.aluracursos.com/course/amazon-lightsail-simplificando-nube</a>)</li>
+</ul>
+<h3>YARN:</h3>
 <ul><li>Yarn es un administrador de paquetes para su código. Le permite usar y compartir código con otros desarrolladores. El código se comparte a través de algo llamado paquete (a veces denominado módulo). Un paquete contiene todo el código que se comparte, así como un archivo package.json que O describe.</li>
 <li>Administrar paquetes</li>
 <li>Administrar dependencias</li>
 <li>Instalar paquetes sin conexión</li>
 <li>Comandos</li>
 <li>El archivo yarn.lock</li>
-</ul></li></ul>
-<h2>Habilidade Auxiliar: UX y Design</h2>
-<ul><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
-<strong>Sistemas de Diseño</strong>:</p>
-</li>
-<ul><li><p>Un sistema de diseño es una colección de componentes reutilizables, guiados por estándares claros, que se pueden ensamblar para crear aplicaciones.</p>
-</li>
-<li><p>Creación y mantenimiento de bibliotecas que se consumirán y utilizarán como estándar para construir un proyecto.</p>
-</li>
-</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
-<strong>Figma - Fundamentos</strong>:</p>
-</li>
-<ul><li><p>Figma es una aplicación web colaborativa para el diseño de interfaces. El conjunto de funciones de Figma se centra en la interfaz de usuario y el diseño de la experiencia del usuario, con énfasis en la colaboración en tiempo real, utilizando una variedad de herramientas de creación de prototipos y editor de gráficos vectoriales.</p>
-</li>
-<li><p>Crear diseños de página y componentes</p>
-</li>
-</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
-<strong>Sistemas de color</strong>:</p>
-</li>
-<ul><li><p>Definición de una paleta de colores que tenga sentido para una interfaz dada</p>
-</li>
-</ul></li><li><p><span class="checkbox-wrapper"><input disabled="" type="checkbox"></span> 
-<strong>Cómo usar fuentes</strong>:</p>
-</li>
-<ul><li><p>Elegir la fuente más adecuada para un proyecto determinado</p>
-</li>
-</ul></li></ul>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> YARN: Documentación (<a href="https://classic.yarnpkg.com/en/docs">https://classic.yarnpkg.com/en/docs</a>)</li>
+<li><code data-kind="web">Web</code> Documentación YARN en español (<a href="https://runebook.dev/es/docs/yarn/">https://runebook.dev/es/docs/yarn/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> NPM vs Yarn Cheat Sheet (<a href="https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc">https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Node.js, NPM, Yarn, NVM, Webpack, Babel… (<a href="https://mauriciogc.medium.com/1-node-js-npm-yarn-nvm-webpack-babel-dffbdab392bf">https://mauriciogc.medium.com/1-node-js-npm-yarn-nvm-webpack-babel-dffbdab392bf</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ReactJS: de cero a experto. Instalando yarn (<a href="https://www.youtube.com/watch?v=qOBaAcSPYFs">https://www.youtube.com/watch?v=qOBaAcSPYFs</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Como Instalar Yarn y Crear un Proyecto 2023 (<a href="https://www.youtube.com/watch?v=7jbDE22Fcz8">https://www.youtube.com/watch?v=7jbDE22Fcz8</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Creando y publicando una biblioteca Javascript en el NPM (<a href="https://www.aluracursos.com/blog/creando-y-publicando-una-biblioteca-javascript-en-el-npm">https://www.aluracursos.com/blog/creando-y-publicando-una-biblioteca-javascript-en-el-npm</a>)</li>
+<li><code data-kind="artículo">Artículo</code> NPM vs Yarn (<a href="https://www.aluracursos.com/blog/npm-vs-yarn">https://www.aluracursos.com/blog/npm-vs-yarn</a>)</li>
+</ul>
+<h2>Habilidad Auxiliar: UX y Design</h2>
+<h3>Sistemas de Diseño:</h3>
+<ul><li>Un sistema de diseño es una colección de componentes reutilizables, guiados por estándares claros, que se pueden ensamblar para crear aplicaciones.</li>
+<li>Creación y mantenimiento de bibliotecas que se consumirán y utilizarán como estándar para construir un proyecto.</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Por qué necesitas un sistema de diseño y cómo tus clientes te lo van a agradecer (<a href="https://www.plainconcepts.com/es/sistema-diseno-guia/#:~:text=Un%20sistema%20de%20dise%C3%B1o%20es%20un%20conjunto%20de%20reglas%20y,trav%C3%A9s%20de%20un%20lenguaje%20com%C3%BAn">https://www.plainconcepts.com/es/sistema-diseno-guia/#:~:text=Un%20sistema%20de%20dise%C3%B1o%20es%20un%20conjunto%20de%20reglas%20y,trav%C3%A9s%20de%20un%20lenguaje%20com%C3%BAn</a>.)</li>
+<li><code data-kind="artículo">Artículo</code> Guía paso a paso para crear un sistema de diseño (<a href="https://www.ranktracker.com/es/blog/a-step-by-step-guide-to-creating-a-design-system/">https://www.ranktracker.com/es/blog/a-step-by-step-guide-to-creating-a-design-system/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> A comprehensive guide to design systems (<a href="https://www.invisionapp.com/inside-design/guide-to-design-systems/">https://www.invisionapp.com/inside-design/guide-to-design-systems/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Design Tokens en tu Design System (<a href="https://gonzalo-vasquez-correa.medium.com/design-tokens-en-tu-design-system-90498eeafd49">https://gonzalo-vasquez-correa.medium.com/design-tokens-en-tu-design-system-90498eeafd49</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Sistemas de Diseño ( Team Library ) (<a href="https://www.youtube.com/watch?v=WS67rHFTVzc&ab_channel=jonmircha">https://www.youtube.com/watch?v=WS67rHFTVzc&amp;ab_channel=jonmircha</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Crear un design System en Figma (<a href="https://www.youtube.com/watch?v=hrr_-3Y8j7M&ab_channel=CreatividadenBlanco">https://www.youtube.com/watch?v=hrr_-3Y8j7M&amp;ab_channel=CreatividadenBlanco</a>)</li>
+</ul>
+<h3>Figma - Fundamentos:</h3>
+<ul><li>Figma es una aplicación web colaborativa para el diseño de interfaces. El conjunto de funciones de Figma se centra en la interfaz de usuario y el diseño de la experiencia del usuario, con énfasis en la colaboración en tiempo real, utilizando una variedad de herramientas de creación de prototipos y editor de gráficos vectoriales.</li>
+<li>Crear diseños de página y componentes</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Figma Basics- Primeros pasos en Figma (<a href="https://www.figma.com/community/file/923140611594993345">https://www.figma.com/community/file/923140611594993345</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Introducing Figma to React (<a href="https://medium.com/figma-design/introducing-figma-to-react-d2d545cba3cc">https://medium.com/figma-design/introducing-figma-to-react-d2d545cba3cc</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Figma para principiantes (<a href="https://www.youtube.com/watch?v=GoNzQHc7-qo">https://www.youtube.com/watch?v=GoNzQHc7-qo</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="youtube">YouTube</code> ¿Cómo un desarrollador Front End utiliza el Figma? (<a href="https://www.youtube.com/watch?v=UuAX5azcvDQ&ab_channel=AluraLatam">https://www.youtube.com/watch?v=UuAX5azcvDQ&amp;ab_channel=AluraLatam</a>)</li>
+</ul>
+<h3>Sistemas de color:</h3>
+<ul><li>Definición de una paleta de colores que tenga sentido para una interfaz dada</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="artículo">Artículo</code> Teoría del color. Guía definitiva para comprenderla (<a href="https://graffica.info/teoria-del-color-guia-definitiva/">https://graffica.info/teoria-del-color-guia-definitiva/</a>)</li>
+<li><code data-kind="artículo">Artículo</code> La ciencia de los colores (<a href="https://medium.com/100-days-of-product-design/the-science-of-color-bd0f057c08ea">https://medium.com/100-days-of-product-design/the-science-of-color-bd0f057c08ea</a>)</li>
+<li><code data-kind="artículo">Artículo</code> RGB frente a CMYK: una guía de sistemas de color para diseñadores (<a href="https://medium.com/envato/rgb-vs-cmyk-a-guide-to-color-systems-for-designers-6be8c1ed8554">https://medium.com/envato/rgb-vs-cmyk-a-guide-to-color-systems-for-designers-6be8c1ed8554</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Color en el diseño de interfaz de usuario: un marco (práctico) (<a href="https://medium.com/@erikdkennedy/color-in-ui-design-a-practical-framework-e18cacd97f9e">https://medium.com/@erikdkennedy/color-in-ui-design-a-practical-framework-e18cacd97f9e</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Guía básica de colores de la interfaz de usuario (<a href="https://blog.prototypr.io/basic-ui-color-guide-7612075cc71a">https://blog.prototypr.io/basic-ui-color-guide-7612075cc71a</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Teoria del Color | Diseño Web (<a href="https://www.youtube.com/watch?v=g0JTvvalf8s">https://www.youtube.com/watch?v=g0JTvvalf8s</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Qué es el color? Explicación de la Teoría del color (<a href="https://www.youtube.com/watch?v=CFn-wPKxRR4">https://www.youtube.com/watch?v=CFn-wPKxRR4</a>)</li>
+</ul>
+<h3>Cómo usar fuentes:</h3>
+<ul><li>Elegir la fuente más adecuada para un proyecto determinado</li>
+</ul>
+<h4>Contenidos</h4>
+<ul><li><code data-kind="web">Web</code> Fuentes Web (<a href="https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Web_fonts">https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Web_fonts</a>)</li>
+<li><code data-kind="artículo">Artículo</code> Cómo utilizar cualquier fuente/tipografía en nuestra página web (<a href="https://www.imaginanet.com/blog/como-utilizar-cualquier-fuente-tipografia-en-nuestra-pagina-web.html">https://www.imaginanet.com/blog/como-utilizar-cualquier-fuente-tipografia-en-nuestra-pagina-web.html</a>)</li>
+<li><code data-kind="youtube">YouTube</code> ¿Cómo Cambiar la Fuente a mi Página Web? (<a href="https://www.youtube.com/watch?v=JQ6b-7geFc4">https://www.youtube.com/watch?v=JQ6b-7geFc4</a>)</li>
+<li><code data-kind="youtube">YouTube</code> Descarga y utiliza Google Fonts de forma local (<a href="https://www.youtube.com/watch?v=cTaFBV1Z0dw">https://www.youtube.com/watch?v=cTaFBV1Z0dw</a>)</li>
+</ul>
+<h4>Contenidos Alura:**</h4>
+<ul><li><code data-kind="artículo">Artículo</code> 6 malas prácticas que perjudican usuarios disléxicos (<a href="https://www.aluracursos.com/blog/6-malas-practicas-que-perjudican-usuarios-dislexicos">https://www.aluracursos.com/blog/6-malas-practicas-que-perjudican-usuarios-dislexicos</a>)</li>
+</ul>
   </div>
 
   <div class="footer">
