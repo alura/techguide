@@ -79,52 +79,60 @@
       line-height: 1.7;
     }
 
-    li > code {
+    li>code {
       color: #002a42;
       background-color: #6dd5ec;
       padding: 2px 4px;
       border-radius: 4px;
       font-size: 0.9em;
     }
-    li > code[data-kind="article"],
-    li > code[data-kind="articulo"],
-    li > code[data-kind="artigo"] {
+
+    li>code[data-kind="article"],
+    li>code[data-kind="articulo"],
+    li>code[data-kind="artigo"] {
       background-color: #FDB9C6;
       color: #670032;
     }
-    li > code[data-kind="course"],
-    li > code[data-kind="curso"] {
+
+    li>code[data-kind="course"],
+    li>code[data-kind="curso"] {
       background-color: #BEEC6D;
       color: #043300;
     }
-    li > code[data-kind="youtube"] {
+
+    li>code[data-kind="youtube"] {
       background-color: #FF0000;
       color: #FFFFFF;
     }
-    li > code[data-kind="podcast"] {
+
+    li>code[data-kind="podcast"] {
       background-color: #AB7EE4;
       color: #300031;
     }
-    li > code[data-kind="content"],
-    li > code[data-kind="conteudo"],
-    li > code[data-kind="conteúdo"] {
+
+    li>code[data-kind="content"],
+    li>code[data-kind="conteudo"],
+    li>code[data-kind="conteúdo"] {
       background-color: #d4d4d4;
       color: #494848;
     }
-    li > code[data-kind="aluraplus"],
-    li > code[data-kind="alura+"] {
+
+    li>code[data-kind="aluraplus"],
+    li>code[data-kind="alura+"] {
       background-color: #d4d4d4;
       color: #494848;
     }
-    li > code[data-kind="challenge"],
-    li > code[data-kind="desafio"] {
+
+    li>code[data-kind="challenge"],
+    li>code[data-kind="desafio"] {
       background-color: #162639;
       color: #FFFFFF;
     }
-    li > code[data-kind="book"],
-    li > code[data-kind="reto"],
-    li > code[data-kind="livro"],
-    li > code[data-kind="libro"] {
+
+    li>code[data-kind="book"],
+    li>code[data-kind="reto"],
+    li>code[data-kind="livro"],
+    li>code[data-kind="libro"] {
       background-color: #CADCEA;
       color: #333333;
     }
@@ -223,10 +231,25 @@
         padding: 20px;
       }
 
-      .nivel {
-        break-inside: avoid;
+      h2 {
+        /* Força quebra antes, exceto no primeiro */
+        page-break-before: always;
+        break-before: page;
       }
 
+      h2:first-of-type {
+        /* Remove a quebra antes do primeiro H2 */
+        page-break-before: auto;
+        break-before: auto;
+      }
+
+      /* Remove quebra depois, se não for necessário */
+      h2 {
+        page-break-after: auto;
+        break-after: auto;
+      }
+
+      /* Evita que títulos fiquem sozinhos no final de página */
       h1,
       h2,
       h3,
@@ -234,9 +257,11 @@
         break-after: avoid;
       }
 
-      .checkbox-wrapper input[type="checkbox"] {
-        -webkit-print-color-adjust: exact;
-        color-adjust: exact;
+      /* Esta é a parte crucial */
+      h3,
+      h3+ul,
+      h3+ol {
+        break-inside: avoid;
       }
     }
   </style>
