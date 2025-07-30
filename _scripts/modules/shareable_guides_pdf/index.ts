@@ -141,7 +141,7 @@ async function generatePDFForFile(
 }
 
 const main = async () => {
-  const forceRegenerate = ["agile"];
+  const forceRegenerate = []; // "agile"
   try {
     log("Starting PDF generation for all markdown files...");
 
