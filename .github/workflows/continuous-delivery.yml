@@ -25,5 +25,5 @@ jobs:
         echo $VERCEL_TOKEN
         echo "===="
         yarn install && yarn build:static
-        npx vercel ./out --yes --token=$VERCEL_TOKEN --prod
+        npx vercel@latest ./out --yes --token=$VERCEL_TOKEN --prod
         echo "deployed with success!"
