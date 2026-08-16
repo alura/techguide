@@ -2,7 +2,7 @@ import { gql } from "apollo-server-micro";
 import { Resolvers, SiteLocale } from "@api/gql_types";
 import { cardsRepository } from "@api/modules/cards/repository";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
-import { guidesRepository } from "../guides/repository";
+import { GraphQLContext } from "@api/infra/graphql/context";
 import _ from "lodash";
 
 const typeDefs = gql`
@@ -72,10 +72,10 @@ const typeDefs = gql`
   }
 `;
 
-const resolvers: Resolvers = {
+const resolvers: Resolvers<GraphQLContext> = {
   Card: {
-    async expertises(parent) {
-      const guides = await guidesRepository().getAll({ input: {} });
+    async expertises(parent, _args, context) {
+      const guides = await context.getGuides();
       const expertises = guides
         .map((guide) => {
           return guide.expertises;
@@ -86,8 +86,8 @@ const resolvers: Resolvers = {
         return _.some(expertise.cards, { item: { slug: parent.slug } });
       });
     },
-    async collaborations(parent) {
-      const guides = await guidesRepository().getAll({ input: {} });
+    async collaborations(parent, _args, context) {
+      const guides = await context.getGuides();
       const collaborations = guides
         .map((guide) => {
           return guide.collaborations;

@@ -6,6 +6,8 @@ export { gql } from "apollo-server-micro";
 // [Modules]
 import modulesGuides from "_api/modules/guides";
 import modulesCards from "@api/modules/cards";
+// [Context]
+import { createContext } from "@api/infra/graphql/context";
 
 const customScalars = [UUIDDefinition];
 
@@ -61,6 +63,8 @@ const serverSchema = {
       ApolloServerPluginLandingPageGraphQLPlayground(),
   ].filter(Boolean),
   introspection: true,
+  // Fresh per request, so the guide list is shared within a query and never across them.
+  context: createContext,
   cache: new InMemoryLRUCache({
     // ~100MiB
     maxSize: Math.pow(2, 20) * 100,
