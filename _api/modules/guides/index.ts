@@ -3,6 +3,7 @@ import { gql } from "apollo-server-micro";
 import { Resolvers } from "@api/gql_types";
 import { guidesRepository } from "@api/modules/guides/repository";
 import { gqlInput } from "@api/infra/graphql/gqlInput";
+import { GraphQLContext } from "@api/infra/graphql/context";
 import { cardsRepository } from "../cards/repository";
 
 const typeDefs = gql`
@@ -61,7 +62,7 @@ const typeDefs = gql`
   }
 `;
 
-const resolvers: Resolvers = {
+const resolvers: Resolvers<GraphQLContext> = {
   Query: {
     async guides(_, { input, locale }) {
       const guides = await guidesRepository().getAll({
@@ -84,16 +85,16 @@ const resolvers: Resolvers = {
     },
   },
   GuideExpertise: {
-    async guide(parent) {
-      const guides = await guidesRepository().getAll({ input: {} });
+    async guide(parent, _args, context) {
+      const guides = await context.getGuides();
       return _.find(guides, (guide) => {
         return _.some(guide.expertises, { name: parent.name });
       });
     },
   },
   GuideCollaboration: {
-    async guide(parent) {
-      const guides = await guidesRepository().getAll({ input: {} });
+    async guide(parent, _args, context) {
+      const guides = await context.getGuides();
       return _.find(guides, (guide) => {
         return _.some(guide.collaborations, { name: parent.name });
       });
