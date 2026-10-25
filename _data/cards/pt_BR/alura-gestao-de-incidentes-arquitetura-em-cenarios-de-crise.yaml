@@ -1,0 +1,16 @@
+name: "Gestão de incidentes: arquitetura em cenários de crise"
+logo: ""
+short-description: "Conduzir a parte técnica de incidentes: war room, pontos de falha e prevenção."
+key-objectives:
+  - "Atue como condutor técnico em war rooms, coordenando decisões entre operação, infraestrutura e negócios."
+  - "Analise fluxos críticos e identifique pontos de falha para priorizar respostas e mitigação."
+  - "Implemente estratégias de isolamento e resiliência, como circuit breaking, autoescalonamento e self-healing."
+  - "Colete e normalize evidências seguindo 5W2H e normas como ISO 27037 para auditoria e pós-mortem."
+  - "Estabeleça SLIs e SLOs alinhados a metas de negócio e use métricas para guiar decisões de recuperação."
+  - "Conduza análises pós-incidente e aplique engenharia de pós-incidente e práticas de chaos engineering para reduzir risco sistêmico."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Gestão de incidentes: arquitetura em cenários de crise"
+    link: https://cursos.alura.com.br/course/gestao-de-incidentes-arquitetura-em-cenarios-de-crise

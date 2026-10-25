@@ -1,0 +1,16 @@
+name: "Integração contínua para LLMs: automatizando a avaliação de modelos com GitHub Actions e Deepeval"
+logo: ""
+short-description: "Integração contínua para LLMs: APIs com FastAPI e avaliação automática de modelos com Deepeval e GitHub Actions."
+key-objectives:
+  - "Construa endpoints com FastAPI e Pydantic para integrar LLMs."
+  - "Gerencie sessões e proteja dados sensíveis com SQLAlchemy e práticas de sanitização."
+  - "Avalie modelos de linguagem através de métricas customizadas com Deepeval."
+  - "Estruture pipelines de integração contínua com GitHub Actions."
+  - "Implemente testes automatizados para garantir a qualidade dos LLMs."
+  - "Containerize aplicações com Docker e realize o deployment no Google Cloud utilizando GitHub Secrets."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Integração contínua para LLMs: automatizando a avaliação de modelos com GitHub Actions e Deepeval"
+    link: https://cursos.alura.com.br/course/gitactions-mlflow-deepeval

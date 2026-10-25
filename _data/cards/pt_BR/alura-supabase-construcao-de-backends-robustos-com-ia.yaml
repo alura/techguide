@@ -1,0 +1,17 @@
+name: "Supabase: construção de backends robustos com IA"
+logo: ""
+short-description: "Back-end com Supabase: modelagem, migrações e Row Level Security com apoio da IA."
+key-objectives:
+  - "Modele esquemas de banco de dados aplicando normalização para reduzir duplicação e melhorar performance."
+  - "Implemente e gerencie migrações para versionar, aplicar e reverter mudanças no banco de dados."
+  - "Aplique políticas de Row Level Security para proteger o acesso a registros conforme regras de negócio."
+  - "Configure e gerencie autenticação para controlar o acesso de usuários."
+  - "Utilize Edge Functions para orquestrar cadastros, validações e regras de negócio seguras no backend."
+  - "Gerencie storage e políticas de segurança para arquivos garantindo controle de acesso e integridade dos dados."
+  - "Integre o front-end com o Supabase para executar operações de CRUD e manter relacionamentos entre tabelas."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Supabase: construção de backends robustos com IA"
+    link: https://cursos.alura.com.br/course/supabase-construcao-de-backends-robustos-com-ia

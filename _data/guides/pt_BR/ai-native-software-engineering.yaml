@@ -1,0 +1,65 @@
+---
+name: "AI-Native Software Engineering"
+tags:
+  - "ia"
+  - "back-end"
+expertise:
+  - name: "Nível 1: IA no fluxo de desenvolvimento"
+    cards:
+      - alura-letramento-em-ia-competencias-essenciais-dominio-critico:
+        priority: 8
+        optional: true
+      - alura-softskills-era-ia-fortalecer-metacompetencias:
+        priority: 8
+        optional: true
+      - alura-engenharia-software-ia-no-fluxo-real-de-desenvolvimento:
+        priority: 10
+      - alura-ia-legado-escala-multiplos-servicos:
+        priority: 10
+      - alura-ia-seguranca-desenvolvimento-software:
+        priority: 9
+  - name: "Engenharia de contexto, automações e entrega com IA"
+    cards:
+      - alura-context-engineering-workflows:
+        priority: 10
+      - alura-ia-mcp-servers-tools-integracao:
+        priority: 10
+      - alura-ia-planejamento-automacoes-entrega-escala:
+        priority: 9
+  - name: "Liderança, governança e estratégia de IA"
+    cards:
+      - alura-ia-engenharia-software-guardrails-qualidade-estrategias-adocao:
+        priority: 10
+collaboration:
+  - name: "Arquitetura, entrega e segurança"
+    cards:
+      - clean-architecture:
+        priority: 9
+      - design-patterns:
+        priority: 8
+      - microservices:
+        priority: 8
+      - ci-cd:
+        priority: 9
+      - containers:
+        priority: 7
+      - sre:
+        priority: 6
+      - software-application-security:
+        priority: 9
+  - name: "Produto, liderança e IA responsável"
+    cards:
+      - product-management-fundamentals:
+        priority: 8
+      - product-discovery:
+        priority: 7
+      - understanding-tech-leadership:
+        priority: 8
+      - agile-metrics:
+        priority: 7
+      - communication-skills:
+        priority: 7
+      - cognitive-bias-and-responsible-ai:
+        priority: 8
+      - data-governance:
+        priority: 6

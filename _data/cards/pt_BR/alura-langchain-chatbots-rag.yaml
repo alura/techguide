@@ -1,0 +1,20 @@
+name: "Arquiteturas RAG com LLMs: embeddings, busca semântica e criação de agentes com LangChain"
+logo: ""
+short-description: "Arquiteturas RAG com LLMs: Transformers, alucinações, embeddings, busca semântica e agentes com LangChain."
+key-objectives:
+  - "Explore os fundamentos dos Large Language Models e compreender o papel da arquitetura Transformer em sistemas generativos."
+  - "Analise o problema de alucinações em LLMs e avaliar estratégias para integração de conhecimento externo."
+  - "Compare abordagens de personalização de LLMs, como fine tuning e Retrieval Augmented Generation."
+  - "Transforme textos e documentos em embeddings para viabilizar buscas baseadas em similaridade semântica."
+  - "Aplique métricas de similaridade, como a similaridade de cosseno, para recuperação de informações por significado."
+  - "Processe documentos extensos utilizando técnicas de chunking, overlapping e uso de metadados."
+  - "Implemente pipelines de RAG para recuperação e geração de respostas a partir de documentos estruturados e não estruturados."
+  - "Utilize vector stores como FAISS e ChromaDB para armazenamento e indexação eficiente de embeddings."
+  - "Construa agentes conversacionais baseados em RAG com o uso do LangChain."
+  - "Integre técnicas de re rank para melhorar a relevância das respostas recuperadas."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Arquiteturas RAG com LLMs: embeddings, busca semântica e criação de agentes com LangChain"
+    link: https://cursos.alura.com.br/course/langchain-chatbots-rag

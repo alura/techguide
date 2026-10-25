@@ -1,0 +1,16 @@
+name: "Microsserviços: migração de monólitos e modularização"
+logo: ""
+short-description: "Monólito, monólito modular ou microsserviços: como escolher e como migrar."
+key-objectives:
+  - "Reconheça as características, vantagens e limitações de monólitos, monólitos modulares e microserviços."
+  - "Avalie o contexto do negócio para justificar escolhas arquiteturais baseadas em requisitos e dados."
+  - "Planeje estratégias de migração aplicando padrões como Strangler Fig, Anti-Corruption Layer e Branch by Abstraction."
+  - "Defina bounded contexts e organize módulos para aumentar coesão e reduzir acoplamento no código."
+  - "Projete mecanismos de comunicação entre serviços, considerando abordagens síncronas, assíncronas, sagas e eventos."
+  - "Implemente práticas de CI/CD, testes de integração e observabilidade para suportar deploys independentes e debug end-to-end."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Microsserviços: migração de monólitos e modularização"
+    link: https://cursos.alura.com.br/course/arquiteturas-monoliticas-modulares-distribuidas

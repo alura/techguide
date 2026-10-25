@@ -102,24 +102,28 @@ export default {
       "value": "all"
     },
     {
-      "label": "Front-end",
-      "value": "front-end"
-    },
-    {
-      "label": "Back-end",
-      "value": "back-end"
-    },
-    {
-      "label": "Mobile",
-      "value": "mobile"
+      "label": "IA",
+      "value": "ia"
     },
     {
       "label": "Dados",
       "value": "data"
     },
     {
+      "label": "Back-end",
+      "value": "back-end"
+    },
+    {
       "label": "UX & Design",
       "value": "design"
+    },
+    {
+      "label": "Front-end",
+      "value": "front-end"
+    },
+    {
+      "label": "Mobile",
+      "value": "mobile"
     },
     {
       "label": "Inovação & Gestão",

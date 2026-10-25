@@ -1,0 +1,17 @@
+name: "Spring Boot: desenvolvendo uma API RESTful"
+logo: ""
+short-description: "Primeira API RESTful com Spring Boot: endpoints, status HTTP e respostas padronizadas."
+key-objectives:
+  - "Implemente endpoints REST (GET, POST, PUT, DELETE) para expor as funcionalidades do serviço Pomodoro."
+  - "Aplique códigos de status HTTP e padronize respostas usando ResponseEntity."
+  - "Transforme objetos Java em JSON para padronizar a comunicação entre front-end e back-end."
+  - "Persista e manipule dados com JPA e PostgreSQL, mapeando entidades e utilizando repositórios."
+  - "Valide dados de entrada e saída com DTOs e Bean Validation para garantir integridade."
+  - "Documente a API com Spring Doc OpenAPI e gere especificações acessíveis via Swagger."
+  - "Conteinerize a aplicação com Docker e estruture serviços utilizando Docker Compose."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Spring Boot: desenvolvendo uma API RESTful"
+    link: https://cursos.alura.com.br/course/spring-boot-desenvolvendo-api-restful

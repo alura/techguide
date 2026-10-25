@@ -1,0 +1,17 @@
+name: "CrewAI: orquestração e desenvolvimento de sistemas multiagentes"
+logo: ""
+short-description: "Sistemas multiagentes com CrewAI: agentes, tarefas, crews e integração com serviços externos."
+key-objectives:
+  - "Implemente agentes e crews utilizando o framework CrewAI para resolver tarefas coordenadas."
+  - "Projete arquiteturas hierárquicas envolvendo agentes, tarefas e fluxos inteligentes."
+  - "Configure agentes e fluxos no Crew Studio em modo no-code para validar soluções rapidamente."
+  - "Integre serviços externos como Google Sheets, Gmail e SMTP para automatizar processos com IA."
+  - "Desenvolva e expanda fluxos em Python utilizando o framework CrewAI para maior controle e personalização."
+  - "Ajuste parâmetros de LLMs, como temperatura e top_p/top_k, para controlar comportamento e criatividade dos agentes."
+  - "Implemente monitoramento e observabilidade com logs, métricas, tracing, hooks e callbacks para garantir rastreabilidade dos sistemas."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "CrewAI: orquestração e desenvolvimento de sistemas multiagentes"
+    link: https://cursos.alura.com.br/course/crewai-agentes-llms
