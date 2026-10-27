@@ -1,0 +1,15 @@
+name: "Copilot Studio: criando solução multiagentes"
+logo: ""
+short-description: "Solução multiagentes no Microsoft Copilot Studio integrada a Excel, Power Automate e Outlook."
+key-objectives:
+  - "Crie agentes integrados, que colaboram entre si, usando Microsoft Copilot Studio."
+  - "Integre seu agente a ferramentas externas para consultar e manipular planilhas Excel."
+  - "Desenvolva fluxos do Power Automate, parametrizados, que enviam emails via Outlook e os dispare dinamicamente pelo agente de IA."
+  - "Entenda o que é dynamic chaining e como os agentes podem utilizar o contexto de conversa para preencher informações automaticamente para executar tarefas."
+  - "Medir e otimizar a performance do agente com métricas de uso, feedback do usuário e melhores práticas de prompts e segurança em produção."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Copilot Studio: criando solução multiagentes"
+    link: https://cursos.alura.com.br/course/copilot-studio-criando-solucao-multiagentes

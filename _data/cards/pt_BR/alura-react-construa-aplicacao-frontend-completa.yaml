@@ -1,0 +1,17 @@
+name: "React: construa uma aplicação front-end completa"
+logo: ""
+short-description: "Aplicação React completa com rotas, consumo de APIs e dados assíncronos."
+key-objectives:
+  - "Implemente navegação em múltiplas páginas com rotas absolutas e relativas usando React Router."
+  - "Integre a aplicação com APIs remotas realizando requisições HTTP e manipulando dados assíncronos."
+  - "Implemente autenticação com JWT e proteja rotas sensíveis na interface."
+  - "Implemente upload de imagens e formulários com FormData, tratando cabeçalhos e respostas do servidor."
+  - "Aplique estratégias de tratamento de erros com Error Boundaries e Suspense para aumentar a resiliência."
+  - "Escreva testes automatizados com Vitest e React Testing Library para garantir a robustez das funcionalidades."
+  - "Utilize TypeScript para tipar componentes e melhorar a manutenção e a segurança do código."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "React: construa uma aplicação front-end completa"
+    link: https://cursos.alura.com.br/course/react-construa-aplicacao-frontend-completa

@@ -1,0 +1,100 @@
+---
+name: "Tech Lead na Era da IA"
+tags:
+  - "management"
+expertise:
+  - name: "Nível 1: Execução técnica, qualidade e comunicação"
+    cards:
+      - alura-techlead-lideranca-tecnica:
+        priority: 8
+        optional: true
+      - alura-autolideranca-planejando-desenvolvimento-pessoal:
+        priority: 8
+        optional: true
+      - alura-perfis-lideranca-estrategias-gestao:
+        priority: 8
+        optional: true
+      - alura-techlead-e-inteligencia-artificial:
+        priority: 8
+        optional: true
+      - alura-seguranca-psicologica-lidere-construa-ambientes-confianca-inovacao:
+        priority: 8
+        optional: true
+      - alura-lideranca-na-era-ia:
+        priority: 8
+        optional: true
+      - alura-xp-extreme-programming:
+        priority: 10
+      - alura-masterclass-agilidade-gerenciando-projetos-kanban-scrum:
+        priority: 10
+      - alura-qualidade-codigo-code-review:
+        priority: 9
+      - alura-divida-tecnica-gestao-estrategica:
+        priority: 9
+      - alura-techlead-comunicacao-estrategica-influencia:
+        priority: 8
+      - alura-feedback-efetivo-ferramentas-comunicacao-transformadora:
+        priority: 8
+      - soft-skills:
+        priority: 7
+  - name: "Nível 2: Pessoas, arquitetura e inteligência artificial"
+    cards:
+      - alura-arquitetura-software-lideranca-tecnica:
+        priority: 10
+      - alura-custo-de-engenharia-conectar-decisoes-tecnicas:
+        priority: 10
+      - alura-letramento-em-ia-competencias-essenciais-dominio-critico:
+        priority: 9
+      - alura-context-engineering-otimizacao-da-janela-de-contexto-de-ias:
+        priority: 9
+      - alura-tech-lead-guiar-times-alta-performance:
+        priority: 8
+      - alura-lideranca-desenvolvendo-talentos-estrategias-retencao:
+        priority: 8
+      - alura-learning-agility-estrategias-ageis-praticas-lideranca:
+        priority: 7
+  - name: "Nível 3: Visão de negócio, influência e transformação"
+    cards:
+      - alura-techlead-agilidade-fluxo-previsibilidade:
+        priority: 10
+      - alura-produto-para-techlead-decisao-tecnica:
+        priority: 10
+      - alura-gestao-stakeholders-influencia-comunicacao:
+        priority: 9
+      - alura-gestao-mudanca-projetos-aplique-forma-pratica:
+        priority: 9
+      - alura-lideranca-estrategica-transformando-visao-em-acao:
+        priority: 8
+collaboration:
+  - name: "Engenharia de software e arquitetura"
+    cards:
+      - clean-architecture:
+        priority: 9
+      - design-patterns:
+        priority: 8
+      - microservices:
+        priority: 8
+      - software_testing:
+        priority: 8
+      - ci-cd:
+        priority: 8
+      - sre:
+        priority: 7
+      - software-application-security:
+        priority: 7
+  - name: "Produto, dados e negócio"
+    cards:
+      - product-management-fundamentals:
+        priority: 8
+      - product-discovery:
+        priority: 8
+      - roadmap:
+        priority: 7
+      - okrs:
+        priority: 8
+      - agile-metrics:
+        priority: 8
+      - business-model-canvas:
+        priority: 6
+      - sql-fundamentals:
+        priority: 6

@@ -1,0 +1,17 @@
+name: "Cloud Native: arquitetura, multicloud e FinOps"
+logo: ""
+short-description: "Cloud native e multicloud: estratégias de migração e FinOps."
+key-objectives:
+  - "Analise o contexto de negócio e identifique a estratégia de migração mais adequada."
+  - "Compare abordagens lift-and-shift e Cloud Native para justificar decisões arquiteturais."
+  - "Projete aplicações escaláveis aplicando princípios do 12‑Factor e desenho de microserviços."
+  - "Implemente padrões de containerização e orquestração para garantir portabilidade e resiliência."
+  - "Defina estratégias Multi‑Cloud e medidas para mitigar vendor lock‑in."
+  - "Aplique técnicas de observabilidade e design de falhas para aumentar disponibilidade."
+  - "Otimize custos em nuvem com práticas FinOps e alternativas como instâncias spot e serverless."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Cloud Native: arquitetura, multicloud e FinOps"
+    link: https://cursos.alura.com.br/course/arquiteturas-cloud-native-e-multi-cloud

@@ -1,0 +1,16 @@
+name: "Model Context Protocol (MCP): otimização de agentes de IA com n8n"
+logo: ""
+short-description: "MCP no n8n para expor ferramentas e conectar agentes de IA a APIs REST e sistemas legados."
+key-objectives:
+  - "Entenda o papel do MCP e identifique quando adotá-lo na arquitetura para conectar agentes de IA a sistemas legados."
+  - "Conecte agentes de IA a endpoints REST utilizando JSON-RPC como adaptador de protocolo."
+  - "Projete e personalize workflows no n8n para expor e centralizar ferramentas usadas por agentes."
+  - "Modele operações CRUD e use variáveis dinâmicas para orquestrar chamadas REST seguras e previsíveis."
+  - "Implemente estratégias de filas e gerenciamento de execução concorrente para melhorar a escalabilidade."
+  - "Otimize o consumo de tokens e planeje geração de relatórios em fluxos que envolvem agentes de IA."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Model Context Protocol (MCP): otimização de agentes de IA com n8n"
+    link: https://cursos.alura.com.br/course/mcp-otimizacao-agentes-ia-com-n8n

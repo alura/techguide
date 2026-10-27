@@ -1,0 +1,16 @@
+name: "Engenharia de software na era da IA: segurança de aplicações com agentes, MCPs e código gerado por IA"
+logo: ""
+short-description: "Riscos de segurança específicos de agentes, MCPs e código gerado por IA, e como mitigá-los com guardrails e automação."
+key-objectives:
+  - "Identifique riscos e vulnerabilidades em bibliotecas, plugins e pacotes de terceiros usados com IA."
+  - "Analise vetores de ataque específicos à IA, como prompt injection, supply chain, typosquatting e directory traversal."
+  - "Entenda as estratégias de mitigação e governança apoiadas por referências como OWASP, Mitre e OWASP AI-SVS."
+  - "Aplique controles de gestão de segredos, tokens e práticas de secret scanning para reduzir exposições."
+  - "Entenda como utilizar proxies, guardrails e isolamento de execução para proteger LLMs e agentes autônomos."
+  - "Realize avaliações contínuas e automatizadas para detectar, priorizar e remediar vulnerabilidades em fluxos de IA."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Engenharia de software na era da IA: segurança de aplicações com agentes, MCPs e código gerado por IA"
+    link: https://cursos.alura.com.br/course/ia-seguranca-desenvolvimento-software

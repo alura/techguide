@@ -1,0 +1,16 @@
+name: "Prompt Engineering: projetando e automatizando interações com LLMs"
+logo: ""
+short-description: "Técnicas de prompt (zero-shot, few-shot, cadeia de raciocínio) e como avaliar e refinar prompts para respostas confiáveis."
+key-objectives:
+  - "Entenda como estruturar prompts utilizando contexto, exemplos e boas práticas para obter respostas mais precisas de LLMs."
+  - "Aplique técnicas de Prompt Engineering, como zero-shot, one-shot e few-shot, para diferentes cenários de uso."
+  - "Avalie e refine prompts utilizando critérios de qualidade, reduzindo alucinações e aumentando a confiabilidade das respostas."
+  - "Controle o consumo de tokens, defina formatos de saída estruturados e utilize guardrails para tornar as respostas mais consistentes."
+  - "Automatize fluxos de trabalho integrando LLMs com n8n e Google Sheets para processar e atualizar dados de forma eficiente."
+  - "Desenvolva soluções práticas que combinam Prompt Engineering e automação para aplicações baseadas em inteligência artificial generativa."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Prompt Engineering: projetando e automatizando interações com LLMs"
+    link: https://cursos.alura.com.br/course/prompt-engineering-ai

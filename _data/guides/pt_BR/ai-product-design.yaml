@@ -1,0 +1,91 @@
+---
+name: "AI Product Design"
+tags:
+  - "design"
+  - "ia"
+expertise:
+  - name: "Nível 1: Da ideia ao insight"
+    cards:
+      - alura-letramento-em-ia-competencias-essenciais-dominio-critico:
+        priority: 8
+        optional: true
+      - alura-ia-no-trabalho-produtividade-com-assistentes-e-agentes:
+        priority: 8
+        optional: true
+      - alura-engenharia-prompt-criando-prompts-eficazes-ia-generativa:
+        priority: 8
+        optional: true
+      - alura-softskills-era-ia-fortalecer-metacompetencias:
+        priority: 8
+        optional: true
+      - alura-empreendendo-ia-da-ideacao-modelo-negocio:
+        priority: 10
+      - alura-jornada-ia-discovery:
+        priority: 10
+      - alura-inteligencia-artificial-personas-acelerando-processo-criacao:
+        priority: 9
+      - alura-pesquisas-testes-ia-maze:
+        priority: 9
+      - alura-automacao-analise-dados-ia:
+        priority: 8
+      - alura-insights-relatorios-ia:
+        priority: 8
+      - alura-claude-lovable-problema-prototipo:
+        priority: 7
+  - name: "Nível 2: Criar, entregar e automatizar"
+    cards:
+      - alura-estrategia-criacao-prototipacao-ia:
+        priority: 10
+      - alura-uxui-design-implementacao-handoff-otimizacao:
+        priority: 10
+      - alura-lovable-criacao-de-aplicacoes-web-com-ia:
+        priority: 9
+      - alura-figma-construindo-produto-ia-mcp:
+        priority: 9
+      - alura-figma-code-to-canvas:
+        priority: 8
+      - alura-handoff-documentacao-ia:
+        priority: 8
+      - alura-cursor-figma-crie-ferramentas-design:
+        priority: 7
+  - name: "Nível 3: Dados para decisão"
+    cards:
+      - alura-analise-comportamental-microsoft-clarity:
+        priority: 10
+      - alura-mensurando-resultados-ga4:
+        priority: 10
+      - alura-google-tag-manager-rastreando-coletando-dados:
+        priority: 9
+      - alura-excel-domine-editor-planilhas:
+        priority: 9
+      - alura-power-bi-desktop-construindo-meu-primeiro-dashboard:
+        priority: 8
+collaboration:
+  - name: "Front-end e acessibilidade"
+    cards:
+      - html-fundamentals:
+        priority: 8
+      - css-fundamentals:
+        priority: 8
+      - responsive-design:
+        priority: 7
+      - javascript-fundamentals:
+        priority: 6
+      - git-and-github-fundamentals:
+        priority: 7
+      - accessibility-in-ux:
+        priority: 8
+  - name: "Produto, negócio e conteúdo"
+    cards:
+      - product-management-fundamentals:
+        priority: 8
+      - product-prioritization:
+        priority: 7
+      - okrs:
+        priority: 7
+      - ux-writing:
+        priority: 8
+      - storytelling-with-data:
+        priority: 7
+      - business-model-canvas:
+        priority: 6

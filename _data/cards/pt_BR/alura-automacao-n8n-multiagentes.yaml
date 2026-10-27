@@ -1,0 +1,16 @@
+name: "Automação de processos com n8n: multiagentes, guardrails e subworkflows"
+logo: ""
+short-description: "Multiagentes no n8n com agente coordenador, subworkflows, permissões e guardrails."
+key-objectives:
+  - "Estruture agentes de IA especializados para executar tarefas específicas, como organização de calendário, Notion e Trello."
+  - "Projete fluxos de trabalho multiagente com um agente coordenador para orquestrar tarefas complexas."
+  - "Implemente regras, permissões e guardrails para garantir segurança e governança das automações."
+  - "Utilize memória e subworkflows reutilizáveis para preservar contexto e escalar interações."
+  - "Inclua o 'human in the loop' e defina gatilhos conversacionais para controlar decisões críticas."
+  - "Monitore e otimize a distribuição de tarefas entre agentes para reduzir custos e evitar loops indesejados."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Automação de processos com n8n: multiagentes, guardrails e subworkflows"
+    link: https://cursos.alura.com.br/course/automacao-n8n-multiagentes

@@ -1,0 +1,16 @@
+name: "Performance: decisão arquitetural, latência e cache"
+logo: ""
+short-description: "Performance como decisão de arquitetura: latência real e percebida, e estratégias de cache."
+key-objectives:
+  - "Entenda performance como uma decisão arquitetural, não apenas como otimização técnica."
+  - "Diferencie latência percebida e latência real ao projetar experiências mais eficientes."
+  - "Planeje arquiteturas orientadas a throughput, volume e capacidade de resposta."
+  - "Use cache como estratégia arquitetural para reduzir gargalos e melhorar desempenho."
+  - "Avalie o impacto de dados, integrações e dependências externas na performance."
+  - "Tome decisões mais equilibradas entre desempenho, custo e complexidade."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Performance: decisão arquitetural, latência e cache"
+    link: https://cursos.alura.com.br/course/performance-como-decisao-arquitetural

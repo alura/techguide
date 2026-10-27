@@ -1,0 +1,17 @@
+name: "Modelos de Difusão: fundamentos e aplicações avançadas"
+logo: ""
+short-description: "Como funcionam os modelos de difusão que geram imagens: ruído, cadeias de Markov e arquitetura UNet."
+key-objectives:
+  - "Entenda os conceitos de ruído, sua adição e reversão na geração de imagens."
+  - "Simule o movimento browniano e utilize cadeias de Markov para representar o processo de difusão."
+  - "Domine a utilização de arquiteturas UNet com blocos de convolução, downsampling e upsampling."
+  - "Aplique embeddings temporais seno-cossenoidais em pipelines de difusão."
+  - "Explore técnicas de embedding sinoidal e a montagem de pipelines de difusão."
+  - "Otimize datasets com augmentations e treine redes neurais condicionais."
+  - "Avalie modelos com métricas e organize experimentos utilizando práticas de MLOps."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Modelos de Difusão: fundamentos e aplicações avançadas"
+    link: https://cursos.alura.com.br/course/modelos-difusao-fundamentos-aplicacoes-avancadas

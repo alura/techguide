@@ -1,0 +1,16 @@
+name: "Context Engineering: otimização da janela de contexto de IAs"
+logo: ""
+short-description: "Como organizar projetos, arquivos e conectores para a IA carregar só o contexto necessário."
+key-objectives:
+  - "Monitore a janela de contexto com o comando /context e veja o que ocupa espaço antes de conversar."
+  - "Organize projetos em pastas com README e roteamento no CLAUDE.md para carregar só o necessário."
+  - "Bloqueie ações de conectores MCP que você não usa para liberar contexto e evitar erros."
+  - "Isole tarefas com agentes de contexto próprio para trabalhar em projetos paralelos sem misturá-los."
+  - "Registre decisões em arquivos para que o assistente retome o contexto entre conversas."
+  - "Adie a compressão automática do contexto em conversas longas usando seleção, isolamento e escrita."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Context Engineering: otimização da janela de contexto de IAs"
+    link: https://cursos.alura.com.br/course/context-engineering-otimizacao-da-janela-de-contexto-de-ias

@@ -1,0 +1,82 @@
+---
+name: "Dev Full Stack do futuro: do zero com IA"
+tags:
+  - "ia"
+  - "front-end"
+  - "back-end"
+expertise:
+  - name: "Nível 1: Front-end com JavaScript e React"
+    cards:
+      - alura-dev-full-stack-futuro:
+        priority: 8
+        optional: true
+      - alura-internet-entendendo-fundamentos-da-web:
+        priority: 8
+        optional: true
+      - alura-html-css-ambiente-estrutura-estilo:
+        priority: 8
+        optional: true
+      - alura-html-css-formularios-seo-acessibilidade:
+        priority: 8
+        optional: true
+      - alura-html-css-responsividade-layouts:
+        priority: 8
+        optional: true
+      - alura-javascript-aprendendo-programar:
+        priority: 8
+        optional: true
+      - alura-javascript-dom-eventos-requisicoes:
+        priority: 10
+      - alura-react-aprenda-pensar-componentes:
+        priority: 10
+      - alura-react-construa-aplicacao-frontend-completa:
+        priority: 9
+  - name: "Nível 2: Back-end, Java, APIs e dados"
+    cards:
+      - alura-java-desenvolvendo-com-orientacao-a-objetos:
+        priority: 10
+      - alura-spring-boot-desenvolvendo-api-restful:
+        priority: 10
+      - alura-apis-profissionais-com-spring-boot:
+        priority: 9
+  - name: "Nível 3: IA aplicada ao desenvolvimento profissional"
+    cards:
+      - alura-desenvolvimento-ia-prompts-harness-mcp:
+        priority: 10
+      - alura-dev-fullstack-tracando-proximos-passos:
+        priority: 10
+collaboration:
+  - name: "Ferramentas, dados e infraestrutura"
+    cards:
+      - git-and-github-fundamentals:
+        priority: 10
+      - command-line-fundamentals:
+        priority: 8
+      - http-fundamentals:
+        priority: 8
+      - json:
+        priority: 7
+      - sql-fundamentals:
+        priority: 9
+      - databases-fundamentals:
+        priority: 7
+      - containers:
+        priority: 7
+      - ci-cd:
+        priority: 6
+  - name: "Qualidade de código e design"
+    cards:
+      - clean-code:
+        priority: 9
+      - software_testing:
+        priority: 8
+      - solid:
+        priority: 7
+      - design-patterns:
+        priority: 7
+      - typescript-fundamentals:
+        priority: 7
+      - figma-fundamentals:
+        priority: 7
+      - design-system:
+        priority: 6
