@@ -1,0 +1,84 @@
+---
+name: "AI Product Builder"
+tags:
+  - "ia"
+  - "management"
+expertise:
+  - name: "Nível 1: Estratégia na construção de produtos"
+    cards:
+      - alura-prompt-engineering-ai:
+        priority: 8
+        optional: true
+      - alura-context-engineering-otimizacao-da-janela-de-contexto-de-ias:
+        priority: 8
+        optional: true
+      - alura-gestao-produtos-fundamentos:
+        priority: 10
+      - alura-gestao-produtos-product-discovery:
+        priority: 10
+      - alura-jornada-ia-discovery:
+        priority: 9
+      - alura-design-thinking-resolva-problemas-inovacao-colaboracao:
+        priority: 9
+      - alura-case-ai-product-builder-1:
+        priority: 7
+        optional: true
+  - name: "Nível 2: Automação e prototipagem"
+    cards:
+      - alura-claude-code-criando-sua-primeira-aplicacao:
+        priority: 10
+      - alura-codex-prototipacao-de-produtos-digitais:
+        priority: 10
+      - alura-lovable-criacao-de-aplicacoes-web-com-ia:
+        priority: 9
+      - alura-claude-lovable-problema-prototipo:
+        priority: 9
+      - alura-supabase-construcao-de-backends-robustos-com-ia:
+        priority: 8
+      - alura-automacao-processos-modelagem-de-fluxos-n8n:
+        priority: 8
+      - alura-case-ai-product-builder-2:
+        priority: 7
+        optional: true
+  - name: "Nível 3: Validação e métricas"
+    cards:
+      - alura-analise-comportamental-microsoft-clarity:
+        priority: 10
+      - alura-pesquisas-testes-ia-maze:
+        priority: 10
+      - alura-produtos-ia-evals-observabilidade-conformidade:
+        priority: 9
+      - alura-case-ai-product-builder-3:
+        priority: 7
+        optional: true
+collaboration:
+  - name: "Design e experiência do usuário"
+    cards:
+      - figma-fundamentals:
+        priority: 9
+      - design-system:
+        priority: 8
+      - ux-writing:
+        priority: 8
+      - accessibility-in-ux:
+        priority: 7
+      - data-driven-ux:
+        priority: 7
+  - name: "Tecnologia, dados e negócio"
+    cards:
+      - git-and-github-fundamentals:
+        priority: 8
+      - http-fundamentals:
+        priority: 7
+      - databases-fundamentals:
+        priority: 7
+      - sql-fundamentals:
+        priority: 8
+      - okrs:
+        priority: 8
+      - product-prioritization:
+        priority: 8
+      - business-model-canvas:
+        priority: 7
+      - cognitive-bias-and-responsible-ai:
+        priority: 7

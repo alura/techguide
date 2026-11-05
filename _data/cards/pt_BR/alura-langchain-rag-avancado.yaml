@@ -1,0 +1,16 @@
+name: "LangChain: Técnicas Avançadas de RAG"
+logo: ""
+short-description: "Técnicas avançadas de RAG com LangChain: chunking, embeddings, bancos vetoriais e avaliação da recuperação."
+key-objectives:
+  - "Compreenda os fundamentos e a aplicação de pipelines de recuperação aumentada."
+  - "Configure ambientes de desenvolvimento isolados com virtualenv e Jupyter Notebook."
+  - "Explore a integração com modelos de linguagem utilizando Langchain e técnicas de chunking."
+  - "Implemente estratégias para criar embeddings de texto e armazenar dados em bancos vetoriais."
+  - "Ajuste prompts e reestruture consultas com métodos avançados de recuperação."
+  - "Monitore e avalie o desempenho das pipelines com ferramentas como LangSmith e QA-Eval."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "LangChain: Técnicas Avançadas de RAG"
+    link: https://cursos.alura.com.br/course/langchain-rag-avancado

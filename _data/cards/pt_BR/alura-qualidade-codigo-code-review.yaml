@@ -1,0 +1,16 @@
+name: "Qualidade de código: estratégia de Code Review, métricas e governança"
+logo: ""
+short-description: "Estratégia de code review, métricas de qualidade e governança do código."
+key-objectives:
+  - "Identifique Code Smells e aplique técnicas de refatoração para reduzir dívida técnica."
+  - "Aplique princípios de Clean Code (DRY, KISS, SRP) para aumentar legibilidade e manutenção do código."
+  - "Conduza Code Reviews estruturados com camadas, checklists e comunicação profissional para melhorar entregas coletivas."
+  - "Implemente análise estática e quality gates no CI com Sonar para monitorar complexidade, cobertura e duplicação."
+  - "Use ferramentas de IA como apoio para gerar boilerplate, propor refatorações e sugerir testes, validando sempre os resultados."
+  - "Defina processos de governança, métricas e responsabilidades do time para gerir dívida técnica e cultura de qualidade."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Qualidade de código: estratégia de Code Review, métricas e governança"
+    link: https://cursos.alura.com.br/course/qualidade-codigo-code-review

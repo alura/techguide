@@ -1,0 +1,94 @@
+---
+name: "IA para Automação de Processos"
+tags:
+  - "ia"
+  - "management"
+expertise:
+  - name: "Nível 1: Construção de automações"
+    cards:
+      - alura-letramento-em-ia-competencias-essenciais-dominio-critico:
+        priority: 8
+        optional: true
+      - alura-gestao-processos-mapeamento-automacao-lean-rpa:
+        priority: 8
+        optional: true
+      - alura-ia-no-trabalho-produtividade-com-assistentes-e-agentes:
+        priority: 8
+        optional: true
+      - alura-prompt-engineering-ai:
+        priority: 10
+      - alura-power-automate-criando-fluxos-trabalho-automatizados-otimizando-rotinas:
+        priority: 10
+      - alura-copilot-studio-fundamentos-automacao:
+        priority: 9
+      - alura-power-automate-automatizando-tarefas-de-um-analista-de-dados:
+        priority: 9
+      - alura-automacao-processos-modelagem-de-fluxos-n8n:
+        priority: 8
+      - alura-automacao-n8n-coleta-analise-de-dados:
+        priority: 8
+      - alura-gemini-google-sheets:
+        priority: 7
+      - alura-claude-cowork-produtividade-e-gestao-de-projetos-inteligente:
+        priority: 7
+      - alura-codex-assistentes-skills-e-fluxos-de-trabalho-inteligentes:
+        priority: 6
+  - name: "Nível 2: IA aplicada aos processos"
+    cards:
+      - alura-excel-para-analise-de-dados-limpeza-e-tratamento-de-dados:
+        priority: 10
+      - alura-gemini-agentes-ia:
+        priority: 10
+      - alura-copilot-studio-criando-solucao-multiagentes:
+        priority: 9
+      - alura-claude-cowork-integracao-e-fluxos-de-projeto:
+        priority: 9
+      - alura-claude-cowork-orquestracao-de-agentes:
+        priority: 8
+      - alura-automacao-n8n-integracao-bases-de-conhecimento:
+        priority: 8
+      - alura-automacao-n8n-integracao-apis-rest:
+        priority: 7
+  - name: "Nível 3: Automação inteligente em ambiente corporativo"
+    cards:
+      - alura-fundamentos-governanca-ia:
+        priority: 10
+      - alura-automacao-n8n-multiagentes:
+        priority: 10
+      - alura-etica-gestao-vieses-regulacao-ia:
+        priority: 9
+      - alura-mcp-otimizacao-agentes-ia-com-n8n:
+        priority: 9
+      - alura-estrategia-ia-transformar-iniciativas-impacto-projeto:
+        priority: 8
+      - alura-lideranca-na-era-ia:
+        priority: 8
+collaboration:
+  - name: "Dados, integrações e segurança"
+    cards:
+      - sql-fundamentals:
+        priority: 9
+      - http-fundamentals:
+        priority: 8
+      - json:
+        priority: 7
+      - databases-fundamentals:
+        priority: 7
+      - power-bi:
+        priority: 8
+      - data-governance:
+        priority: 7
+      - security-awareness:
+        priority: 7
+  - name: "Gestão de processos e mudança"
+    cards:
+      - business-process-management:
+        priority: 9
+      - project-management:
+        priority: 8
+      - digital-transformation-and-business-innovation:
+        priority: 8
+      - okrs:
+        priority: 7
+      - communication-skills:
+        priority: 8

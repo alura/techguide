@@ -1,0 +1,17 @@
+name: "Engenharia de software na era da IA: planejamento, automações e entrega em escala com agentes de IA"
+logo: ""
+short-description: "Do Figma ao deploy com agentes de IA: backlog, versionamento, monorepo, GraphQL, contêineres e observabilidade."
+key-objectives:
+  - "Prepare a fundação do projeto a partir do Figma, transformando layouts em componentes reutilizáveis."
+  - "Estabeleça um fluxo de versionamento e padronize commits no GitHub para manter histórico consistente."
+  - "Organize o backlog, defina épicos e milestones e escreva tarefas técnicas claras para o time."
+  - "Estruture um monorepo com pnpm-workspaces e documente o frontend com Storybook."
+  - "Implemente comunicação entre front-end e back-end com GraphQL e aplique Spec Driven Development."
+  - "Adote contêineres para persistência de dados e automatize rotinas com Claude Code e scripts."
+  - "Integre ferramentas de observabilidade e crie práticas de monitoramento para melhoria contínua."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Engenharia de software na era da IA: planejamento, automações e entrega em escala com agentes de IA"
+    link: https://cursos.alura.com.br/course/ia-planejamento-automacoes-entrega-escala

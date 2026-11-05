@@ -1,0 +1,16 @@
+name: "Engenharia de software na era da IA: context engineering, workflows e controle de custo"
+logo: ""
+short-description: "Engenharia de contexto: janela de contexto, custo de tokens, agents, skills e sub-agents num fluxo agêntico repetível."
+key-objectives:
+  - "Entenda como a janela de contexto dos LLMs funciona e identifique o que carregar para gastar menos tokens."
+  - "Meça o consumo de tokens por sessão e atribua custos para avaliar o impacto financeiro das interações com IA."
+  - "Projete entry points, agents e skills e documente-os para organizar um fluxo de trabalho agêntico claro e repetível."
+  - "Projete e orquestre sub-agents e times para executar tarefas em paralelo, preservando contexto e eficiência."
+  - "Implemente técnicas de compactação, tratamento de exceções e caching de prompts para reduzir uso de tokens."
+  - "Aplique Spec Driven Development e práticas de governança de contexto para controlar comportamento e iterar requisitos."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Engenharia de software na era da IA: context engineering, workflows e controle de custo"
+    link: https://cursos.alura.com.br/course/context-engineering-workflows

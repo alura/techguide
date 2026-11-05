@@ -1,0 +1,16 @@
+name: "Decisões arquiteturais: ADRs, trade-offs e governança técnica"
+logo: ""
+short-description: "Decisões arquiteturais documentadas em ADRs, com trade-offs avaliados por ATAM e CBAM."
+key-objectives:
+  - "Documente decisões arquiteturais por meio de ADRs para preservar conhecimento e facilitar onboarding e rastreabilidade."
+  - "Avalie alternativas técnicas usando matrizes de decisão e metodologias como ATAM e CBAM."
+  - "Analise impactos financeiros e de longo prazo aplicando conceitos de TCO e ROI em decisões arquiteturais."
+  - "Priorize decisões reversíveis e práticas de fail fast para reduzir dívida técnica e evitar over‑engineering."
+  - "Adote a abordagem Just Enough Architecture e escolha tecnologias maduras com a técnica Choosing Boring Technology."
+  - "Comunique e justifique decisões para stakeholders, promovendo governança distribuída, accountability e alinhamento com o negócio."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Decisões arquiteturais: ADRs, trade-offs e governança técnica"
+    link: https://cursos.alura.com.br/course/tomada-decisao-arquitetural-trade-offs

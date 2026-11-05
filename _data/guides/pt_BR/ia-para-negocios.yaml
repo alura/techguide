@@ -1,0 +1,94 @@
+---
+name: "IA para Negócios"
+tags:
+  - "ia"
+  - "management"
+expertise:
+  - name: "Nível 1: Eficiência diária"
+    cards:
+      - alura-letramento-em-ia-competencias-essenciais-dominio-critico:
+        priority: 8
+        optional: true
+      - alura-prompt-engineering-ai:
+        priority: 8
+        optional: true
+      - alura-etica-gestao-vieses-regulacao-ia:
+        priority: 8
+        optional: true
+      - alura-gemini-assistente-ia:
+        priority: 10
+      - alura-notebooklm-gems-ia:
+        priority: 10
+      - alura-gemini-workspace-rotinas:
+        priority: 9
+      - alura-microsoft-365-copilot-dominando-comunicacao-produtiva-outlook:
+        priority: 9
+      - alura-word-excel-powerpoint-ia:
+        priority: 8
+      - alura-microsoft-teams-sem-sobrecarga:
+        priority: 8
+      - alura-claude-assistente-ia:
+        priority: 7
+      - alura-claude-cowork-produtividade-e-gestao-de-projetos-inteligente:
+        priority: 7
+      - alura-ia-no-trabalho-produtividade-com-assistentes-e-agentes:
+        priority: 6
+      - alura-codex-assistentes-skills-e-fluxos-de-trabalho-inteligentes:
+        priority: 6
+  - name: "Nível 2: Vibe coding, MVPs, dados e decisão"
+    cards:
+      - alura-lovable-criacao-de-aplicacoes-web-com-ia:
+        priority: 10
+      - alura-claude-code-criando-sua-primeira-aplicacao:
+        priority: 10
+      - strategic-management-and-decision-making:
+        priority: 9
+      - alura-gemini-google-sheets:
+        priority: 9
+      - alura-excel-ia-copilot:
+        priority: 8
+      - alura-claude-para-analistas-de-dados-conectores-arquivos-e-entregaveis-inteligentes:
+        priority: 8
+  - name: "Nível 3: Automação e agentes de IA"
+    cards:
+      - alura-gemini-agentes-ia:
+        priority: 10
+      - alura-power-automate-forms-lists-automacao:
+        priority: 10
+      - alura-agentes-ia-copilot-studio:
+        priority: 9
+      - alura-automacao-make-integrando-ferramentas-otimizando-processos:
+        priority: 9
+      - alura-automacao-processos-modelagem-de-fluxos-n8n:
+        priority: 8
+      - alura-agente-ia-whatsapp-n8n:
+        priority: 8
+collaboration:
+  - name: "Dados e análise para negócios"
+    cards:
+      - excel:
+        priority: 9
+      - power-bi:
+        priority: 8
+      - data-visualization-bi:
+        priority: 8
+      - storytelling-with-data:
+        priority: 8
+      - business-analysis:
+        priority: 7
+      - data-governance:
+        priority: 7
+  - name: "Gestão, processos e comunicação"
+    cards:
+      - business-process-management:
+        priority: 9
+      - project-management:
+        priority: 8
+      - okrs:
+        priority: 8
+      - digital-transformation-and-business-innovation:
+        priority: 8
+      - communication-skills:
+        priority: 8
+      - presentation-design:
+        priority: 6

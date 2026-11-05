@@ -1,0 +1,16 @@
+name: "Claude Cowork: integrações via MCP e automação de projetos"
+logo: ""
+short-description: "Claude Cowork conectado a Calendar e ClickUp via MCP para automatizar a gestão de projetos."
+key-objectives:
+  - "Compare APIs REST e o protocolo MCP para entender como agentes de IA acessam outros sistemas."
+  - "Conecte Google Calendar e ClickUp ao Claude Cowork por MCP, com permissões definidas por ação."
+  - "Estruture a documentação de cada projeto com escopo, stakeholders, atas e regras de comunicação."
+  - "Crie skills que registram reuniões, decisões e stakeholders direto na documentação do projeto."
+  - "Automatize validações com hooks em Python que detectam conflitos de decisão entre reuniões."
+  - "Monte rotinas de início e fim do dia para retomar cada projeto com contexto e prioridades."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Claude Cowork: integrações via MCP e automação de projetos"
+    link: https://cursos.alura.com.br/course/claude-cowork-integracao-e-fluxos-de-projeto

@@ -1,0 +1,17 @@
+name: "Clusterização: lidando com dados sem rótulo"
+logo: ""
+short-description: "Aprendizado não supervisionado na prática: preparar dados, treinar e avaliar um modelo K-means."
+key-objectives:
+  - "Explore e ajuste dados para um modelo de clusterização"
+  - "Implemente um modelo de clusterização"
+  - "Avalie a performance de um modelo K-means utilizando métricas apropriadas"
+  - "Aplique técnicas de ajuste de dados para melhorar a performance do modelo"
+  - "Escolha o melhor valor para quantidade de agrupamentos no K-means"
+  - "Desenvolva uma aplicação web interativa utilizando Streamlit que permite a visualização das previsões para outros conjunto de dados"
+  - "Integre o modelo de previsão na aplicação web, garantindo que as previsões possam ser geradas e visualizadas em tempo real"
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Clusterização: lidando com dados sem rótulo"
+    link: https://cursos.alura.com.br/course/clusterizacao-lidando-dados-sem-rotulo

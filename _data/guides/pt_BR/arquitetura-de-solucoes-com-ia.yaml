@@ -1,0 +1,66 @@
+---
+name: "Arquitetura de Soluções com IA"
+tags:
+  - "back-end"
+  - "ia"
+expertise:
+  - name: "Nível 1: Fundamentos da arquitetura de soluções"
+    cards:
+      - alura-papel-do-arquiteto-e-pensamento-arquitetural:
+        priority: 8
+        optional: true
+      - alura-modelagem-dominio-arquitetura-orientada-a-negocio:
+        priority: 10
+      - alura-requisitos-nao-funcionais-qualidade-arquitetural:
+        priority: 10
+      - alura-tomada-decisao-arquitetural-trade-offs:
+        priority: 9
+      - alura-documentacao-arquitetural-comunicacao-tecnica:
+        priority: 9
+      - alura-arquiteturas-monoliticas-modulares-distribuidas:
+        priority: 8
+      - alura-performance-como-decisao-arquitetural:
+        priority: 8
+  - name: "Nível 2: Arquitetura em produção"
+    cards:
+      - alura-arquiteturas-cloud-native-e-multi-cloud:
+        priority: 10
+      - alura-arquiteturas-distribuidas-e-integracao-de-sistemas:
+        priority: 10
+      - alura-seguranca-arquitetural-threat-modeling:
+        priority: 9
+      - alura-gestao-de-incidentes-arquitetura-em-cenarios-de-crise:
+        priority: 9
+collaboration:
+  - name: "Plataforma, dados e operação"
+    cards:
+      - api-development-and-management:
+        priority: 9
+      - kafka:
+        priority: 8
+      - containers:
+        priority: 8
+      - ci-cd:
+        priority: 7
+      - sre:
+        priority: 8
+      - nosql-databases:
+        priority: 7
+      - cloud-service-providers:
+        priority: 6
+  - name: "Negócio, liderança e IA"
+    cards:
+      - business-analysis:
+        priority: 8
+      - understanding-tech-leadership:
+        priority: 8
+      - communication-skills:
+        priority: 7
+      - okrs:
+        priority: 6
+      - alura-letramento-em-ia-competencias-essenciais-dominio-critico:
+        priority: 8
+      - alura-protocolos-agentes-inteligentes:
+        priority: 8
+      - alura-fundamentos-governanca-ia:
+        priority: 7

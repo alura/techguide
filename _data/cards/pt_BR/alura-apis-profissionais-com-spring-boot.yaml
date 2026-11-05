@@ -1,0 +1,17 @@
+name: "Spring Boot: APIs REST profissionais com segurança e testes"
+logo: ""
+short-description: "APIs Spring Boot profissionais: camadas, JPA, segurança e testes."
+key-objectives:
+  - "Estruture projetos em camadas separando controllers, services e repositories para melhorar a manutenção"
+  - "Modele relacionamentos entre entidades com JPA aplicando @OneToMany, @ManyToOne e @ManyToMany e escolhendo estratégias de carregamento"
+  - "Implemente endpoints CRUD robustos usando DTOs, mapeadores e validações de entrada"
+  - "Gerencie uploads de arquivos com validação de formato e tamanho e geração de identificadores únicos"
+  - "Proteja rotas e recursos aplicando Spring Security, codificação de senhas e autenticação/autorizações via JWT"
+  - "Otimize consultas evitando o problema N+1 usando JOINs, paginação e ordenação com Pageable"
+  - "Escreva e execute testes unitários e de integração para validar controllers, services e fluxos críticos"
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Spring Boot: APIs REST profissionais com segurança e testes"
+    link: https://cursos.alura.com.br/course/apis-profissionais-com-spring-boot

@@ -1,0 +1,16 @@
+name: "Domain-Driven Design: modelagem tática e arquitetura orientada a negócio"
+logo: ""
+short-description: "Domain-Driven Design tático: domínio no centro, contextos delimitados e mapas de contexto."
+key-objectives:
+  - "Estabeleça o domínio como centro da arquitetura e articule o propósito do software ao negócio."
+  - "Delimite contextos e construa mapas de contexto para separar subdomínios e responsabilidades."
+  - "Modele elementos táticos do DDD — entidades, objetos de valor, agregados e serviços — preservando regras de negócio."
+  - "Projete integrações assíncronas com eventos de negócio, aplicando padrões como outbox e mensageria para reduzir acoplamento."
+  - "Defina estratégias para modernizar sistemas legados usando Change Data Capture e camadas anticorrupção."
+  - "Organize dados analíticos em camadas (bronze, silver, gold) e aplique princípios de data mesh para tratar dados como produtos."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Domain-Driven Design: modelagem tática e arquitetura orientada a negócio"
+    link: https://cursos.alura.com.br/course/modelagem-dominio-arquitetura-orientada-a-negocio

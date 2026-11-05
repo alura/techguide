@@ -1,0 +1,97 @@
+---
+name: "Engenharia de Agentes de IA"
+tags:
+  - "ia"
+  - "data"
+expertise:
+  - name: "Nível 1: Construção de agentes inteligentes com RAG"
+    cards:
+      - alura-computacao-fundamentos-computacao-pensamento-computacional:
+        priority: 8
+        optional: true
+      - alura-python-ia-aplicada:
+        priority: 8
+        optional: true
+      - alura-langchain-python-criando-ferramentas-openai:
+        priority: 10
+      - alura-langchain-chatbots-rag:
+        priority: 10
+      - alura-langchain-rag-avancado:
+        priority: 9
+      - alura-langgraph-multiagentes:
+        priority: 9
+      - alura-protocolos-agentes-inteligentes:
+        priority: 8
+      - alura-clusterizacao-lidando-dados-sem-rotulo:
+        priority: 8
+      - alura-nlp-aplicando-processamento-linguagem-natural-analise-sentimentos:
+        priority: 7
+  - name: "Nível 2: Machine Learning, Deep Learning e Fine Tuning"
+    cards:
+      - alura-pln-deep-learning:
+        priority: 10
+      - alura-treinando-rede-neural-pytorch:
+        priority: 10
+      - recurrent-neural-networks:
+        priority: 9
+      - convolutional-neural-networks:
+        priority: 9
+      - alura-hugging-face-explorando-aplicando-solucoes-modelos-ia:
+        priority: 8
+      - alura-modelos-difusao-fundamentos-aplicacoes-avancadas:
+        priority: 8
+      - alura-pytorch-transformers:
+        priority: 7
+  - name: "Nível 3: MLOps: operando sistemas de IA em produção"
+    cards:
+      - alura-inteligencia-artificial-preparacao-mercado:
+        priority: 10
+      - alura-empreendendo-ia-da-ideacao-modelo-negocio:
+        priority: 10
+      - alura-langfuse-observabilidade-llms:
+        priority: 9
+      - alura-pipelines-azure-aws-gcp:
+        priority: 9
+      - alura-mlflow-gerenciamento-experimentos-integracao-ia-generativa:
+        priority: 8
+      - alura-gitactions-mlflow-deepeval:
+        priority: 8
+      - linear-and-logistic-regression:
+        priority: 7
+      - alura-hugging-face-transferindo-aprendizado-modelos-nlp:
+        priority: 7
+collaboration:
+  - name: "Dados e estatística"
+    cards:
+      - statistics-and-math-fundamentals:
+        priority: 9
+      - sql-fundamentals:
+        priority: 9
+      - python-for-data-science:
+        priority: 8
+      - data-engineering-fundamentals:
+        priority: 8
+      - data-pipeline-orchestration:
+        priority: 7
+      - nosql-databases:
+        priority: 7
+      - data-governance:
+        priority: 6
+  - name: "Engenharia de software, cloud e IA responsável"
+    cards:
+      - api-development-and-management:
+        priority: 9
+      - git-and-github-fundamentals:
+        priority: 9
+      - software_testing:
+        priority: 8
+      - ci-cd:
+        priority: 8
+      - containers:
+        priority: 8
+      - cloud-fundamentals:
+        priority: 7
+      - linux-fundamentals:
+        priority: 6
+      - cognitive-bias-and-responsible-ai:
+        priority: 8

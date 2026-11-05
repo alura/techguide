@@ -1,0 +1,17 @@
+name: "Segurança Arquitetural: modelagem de ameaças e Zero Trust"
+logo: ""
+short-description: "Segurança como requisito de arquitetura: modelagem de ameaças com STRIDE e PASTA e Zero Trust."
+key-objectives:
+  - "Reconheça a segurança como requisito arquitetural e avalie riscos conforme o contexto de negócio."
+  - "Modele ameaças com STRIDE e PASTA para priorizar controles e mitigações."
+  - "Projete arquiteturas alinhadas ao modelo Zero Trust para reduzir a confiança implícita entre componentes."
+  - "Defina estratégias de autenticação e autorização robustas, considerando MFA, OAuth2, OpenID Connect e tokens."
+  - "Elabore políticas de segurança para APIs, incluindo validação de entradas, limites de taxa e uso de gateways."
+  - "Combine microsegmentação e práticas de service mesh para proteger microserviços e aplicar controles granulares."
+  - "Utilize inteligência artificial para apoiar a análise de ameaças, gerar diagramas e automatizar workflows de segurança."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Segurança Arquitetural: modelagem de ameaças e Zero Trust"
+    link: https://cursos.alura.com.br/course/seguranca-arquitetural-threat-modeling

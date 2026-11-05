@@ -1,0 +1,17 @@
+name: "Claude Cowork: orquestração de agentes"
+logo: ""
+short-description: "Orquestração de subagentes no Claude Cowork, gestão da janela de contexto e escolha entre skill e agente."
+key-objectives:
+  - "Crie subagentes no Claude Cowork para analisar vários projetos em paralelo, com contexto isolado."
+  - "Gerencie a janela de contexto para evitar informações esquecidas em conversas longas."
+  - "Orquestre agentes de riscos e de stakeholders para priorizar ações entre vários projetos."
+  - "Decida entre skill e agente conforme a complexidade da tarefa e a necessidade de interação."
+  - "Automatize o tratamento de dados com scripts Python e deixe a interpretação para o Claude."
+  - "Gere dashboards em HTML a partir das métricas calculadas para apoiar decisões da liderança."
+  - "Utilize o Claude in Chrome para navegar em sites e resumir artigos a partir de um plano aprovado."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Claude Cowork: orquestração de agentes"
+    link: https://cursos.alura.com.br/course/claude-cowork-orquestracao-de-agentes

@@ -1,0 +1,97 @@
+---
+name: "Especialista em IA"
+tags:
+  - "ia"
+  - "data"
+expertise:
+  - name: "Nível 1: Produtividade e automação com IA"
+    cards:
+      - alura-computacao-fundamentos-computacao-pensamento-computacional:
+        priority: 8
+        optional: true
+      - alura-python-ia-aplicada:
+        priority: 8
+        optional: true
+      - alura-ia-no-trabalho-produtividade-com-assistentes-e-agentes:
+        priority: 10
+      - alura-automacao-processos-modelagem-de-fluxos-n8n:
+        priority: 10
+      - alura-automacao-n8n-coleta-analise-de-dados:
+        priority: 9
+      - alura-automacao-n8n-integracao-bases-de-conhecimento:
+        priority: 9
+      - alura-langflow-agentes-fluxos:
+        priority: 8
+      - alura-copilot-studio-criando-solucao-multiagentes:
+        priority: 8
+      - alura-claude-cowork-orquestracao-de-agentes:
+        priority: 7
+  - name: "Arquitetura de sistemas inteligentes com agentes"
+    cards:
+      - alura-inteligencia-artificial-preparacao-mercado:
+        priority: 10
+      - alura-langchain-chatbots-rag:
+        priority: 10
+      - alura-langchain-rag-avancado:
+        priority: 9
+      - alura-langgraph-multiagentes:
+        priority: 9
+      - alura-protocolos-agentes-inteligentes:
+        priority: 8
+      - alura-mcp-otimizacao-agentes-ia-com-n8n:
+        priority: 8
+      - alura-hugging-face-explorando-aplicando-solucoes-modelos-ia:
+        priority: 7
+      - alura-crewai-agentes-llms:
+        priority: 7
+  - name: "Operação, governança e evolução de sistemas de IA"
+    cards:
+      - alura-estrategia-ia-transformar-iniciativas-impacto-projeto:
+        priority: 10
+      - alura-langfuse-observabilidade-llms:
+        priority: 10
+      - alura-fundamentos-governanca-ia:
+        priority: 9
+      - alura-jornada-ia-discovery:
+        priority: 9
+      - alura-empreendendo-ia-da-ideacao-modelo-negocio:
+        priority: 8
+      - alura-pipelines-azure-aws-gcp:
+        priority: 8
+      - alura-mlflow-gerenciamento-experimentos-integracao-ia-generativa:
+        priority: 7
+collaboration:
+  - name: "Dados e machine learning"
+    cards:
+      - statistics-and-math-fundamentals:
+        priority: 9
+      - sql-fundamentals:
+        priority: 9
+      - machine-learning-fundamentals:
+        priority: 9
+      - natural-language-processing:
+        priority: 8
+      - deep-learning:
+        priority: 7
+      - nosql-databases:
+        priority: 7
+      - web-scraping:
+        priority: 6
+  - name: "Engenharia, produto e IA responsável"
+    cards:
+      - api-development-and-management:
+        priority: 9
+      - git-and-github-fundamentals:
+        priority: 8
+      - containers:
+        priority: 7
+      - cloud-fundamentals:
+        priority: 7
+      - product-discovery:
+        priority: 8
+      - okrs:
+        priority: 6
+      - cognitive-bias-and-responsible-ai:
+        priority: 8
+      - communication-skills:
+        priority: 7

@@ -1,0 +1,16 @@
+name: "Arquitetura de software para Tech Leads: decisões, observabilidade e migração incremental"
+logo: ""
+short-description: "Decisões de arquitetura com o time, observabilidade e migração incremental."
+key-objectives:
+  - "Diferencie os papéis e responsabilidades do Tech Lead e do Arquiteto."
+  - "Classifique decisões como reversíveis (Tipo 2) ou irreversíveis (Tipo 1) e conduza cada uma com o time"
+  - "Distribua ownership usando bounded contexts e Team Topologies"
+  - "Registre decisões com ADRs, usando o GitHub Copilot para acelerar sem abrir mão da revisão humana"
+  - "Use logs, métricas, traces e SLOs para decidir trade-offs com evidências"
+  - "Modernize sistemas legados sem big-bang, com Strangler Fig e Branch by Abstraction"
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Arquitetura de software para Tech Leads: decisões, observabilidade e migração incremental"
+    link: https://cursos.alura.com.br/course/arquitetura-software-lideranca-tecnica

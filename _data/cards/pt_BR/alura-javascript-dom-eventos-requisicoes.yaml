@@ -1,0 +1,16 @@
+name: "JavaScript: DOM, eventos e requisições"
+logo: ""
+short-description: "JavaScript no navegador: DOM, eventos e requisições a APIs."
+key-objectives:
+  - "Crie interfaces dinâmicas manipulando o DOM para atualizar conteúdos e responder a eventos de usuário."
+  - "Organize estilos com o padrão BEM para manter consistência e clareza no código CSS."
+  - "Implemente interações com eventos, delegação e manipulação segura de elementos duplicados."
+  - "Integre chamadas assíncronas usando fetch, Promises e async/await para comunicar-se com APIs."
+  - "Modularize e gerencie dependências do projeto com Node, npm e ferramentas de build como Vite."
+  - "Depure e otimize aplicações usando ferramentas do navegador e boas práticas de performance e acessibilidade."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "JavaScript: DOM, eventos e requisições"
+    link: https://cursos.alura.com.br/course/javascript-dom-eventos-requisicoes

@@ -1,0 +1,17 @@
+name: "Observabilidade para LLMs: monitoramento e avaliação com LangFuse"
+logo: ""
+short-description: "Observabilidade de aplicações com LLMs no LangFuse: traces, versionamento de prompts e avaliação automática."
+key-objectives:
+  - "Instrumente aplicações com LangFuse para capturar traces, spans, events e generations de interações com LLMs."
+  - "Monitore desempenho, latência e falhas nas chamadas a modelos, identificando regressões de forma contínua."
+  - "Desacople, versione e gerencie prompts para suportar experimentação e comparações reprodutíveis."
+  - "Avalie automaticamente respostas de modelos utilizando métricas como ground truth, similaridade e tamanho dos outputs."
+  - "Analise resultados com DataFrames em Python e interprete métricas para gerar insights acionáveis."
+  - "Implemente sinais automáticos para manter a avaliação contínua e comparar a performance entre diferentes modelos."
+  - "Desenvolva fluxos de monitoramento e mitigação para melhorar a confiabilidade de aplicações com IA generativa."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Observabilidade para LLMs: monitoramento e avaliação com LangFuse"
+    link: https://cursos.alura.com.br/course/langfuse-observabilidade-llms

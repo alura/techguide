@@ -1,0 +1,16 @@
+name: "React: aprenda a pensar em componentes"
+logo: ""
+short-description: "Pensar em componentes com React e JSX, migrando um projeto JavaScript."
+key-objectives:
+  - "Compreenda por que o React existe e aplique as regras do JSX ao criar componentes reutilizáveis."
+  - "Migre funcionalidades de um projeto JavaScript para uma arquitetura baseada em componentes React."
+  - "Gerencie estados e efeitos usando hooks como useState, useEffect e useRef para controlar interações e timers."
+  - "Tipifique componentes e dados com TypeScript usando interfaces, union types e generics para reduzir erros."
+  - "Estilize componentes de forma isolada com CSS Modules e organize layouts com Flexbox e SVGs."
+  - "Prepare builds e realize o deploy de aplicações React utilizando Vite, GitHub e plataformas como Vercel."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "React: aprenda a pensar em componentes"
+    link: https://cursos.alura.com.br/course/react-aprenda-pensar-componentes

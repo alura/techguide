@@ -1,0 +1,17 @@
+name: "Protocolos e arquitetura para construção de agentes: MCP, A2A, AG-UI e Backend for Agents (BFA)"
+logo: ""
+short-description: "Protocolos MCP, A2A e AG-UI e a camada Backend for Agents para arquitetar sistemas multiagente."
+key-objectives:
+  - "Projete arquiteturas de agentes de IA utilizando protocolos como MCP, A2A e AG-UI para comunicação e integração entre sistemas."
+  - "Implemente uma camada Backend for Agents (BFA) para desacoplar lógica de negócio, promover reuso e organizar fluxos complexos."
+  - "Construa sistemas multiagente com orquestração, roteamento de intenções e integração entre diferentes agentes especializados."
+  - "Desenvolva serviços backend com FastAPI e FastMCP, utilizando padrões como JSON-RPC e APIs HTTP para comunicação distribuída."
+  - "Crie interfaces interativas com React e Streamlit, explorando comunicação em tempo real baseada em eventos com AG-UI."
+  - "Integre agentes a ferramentas externas, bases de dados e APIs utilizando abordagens modernas como RAG e catálogos de agentes."
+  - "Gerencie e escale aplicações com Docker Compose, garantindo isolamento, observabilidade e deploy eficiente de múltiplos serviços."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Protocolos e arquitetura para construção de agentes: MCP, A2A, AG-UI e Backend for Agents (BFA)"
+    link: https://cursos.alura.com.br/course/protocolos-agentes-inteligentes

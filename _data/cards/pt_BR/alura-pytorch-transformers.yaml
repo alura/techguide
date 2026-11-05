@@ -1,0 +1,16 @@
+name: "Transformers: fundamentos e prática com PyTorch"
+logo: ""
+short-description: "A arquitetura Transformer por dentro: self-attention, multi-head attention e positional encoding em PyTorch."
+key-objectives:
+  - "Compreenda os fundamentos de self-attention e multi-head attention."
+  - "Entenda a importância do positional encoding na modelagem."
+  - "Explore a implementação de blocos de Transformer utilizando PyTorch."
+  - "Analise o processo de pré-processamento de dados com tokenizadores pré-treinados."
+  - "Aplique técnicas de regularização como dropout e máscaras causais."
+  - "Estruture modelos de linguagem autoregressivos para geração de texto."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Transformers: fundamentos e prática com PyTorch"
+    link: https://cursos.alura.com.br/course/pytorch-transformers

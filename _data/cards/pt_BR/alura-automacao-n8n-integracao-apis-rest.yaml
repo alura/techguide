@@ -1,0 +1,16 @@
+name: "Automação de processos com n8n: integração de APIs REST"
+logo: ""
+short-description: "Integração de APIs REST no n8n: requisições HTTP, JSON e serviços proprietários."
+key-objectives:
+  - "Mapeie e gerencie dados recebidos de APIs."
+  - "Entenda o funcionamento do nó HTTP Request no n8n e identifique as opções de configuração mais comuns."
+  - "Realize requisições com os verbos HTTP e interprete respostas em JSON para integrar serviços proprietários."
+  - "Crie workflows no n8n que automatizem chamadas a APIs, organizem dados e gerem relatórios."
+  - "Utilize o Postman para testar endpoints, validar parâmetros em query e body e diagnosticar respostas."
+  - "Implemente práticas operacionais e de segurança, como uso de variáveis de ambiente e consulta à documentação das APIs."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Automação de processos com n8n: integração de APIs REST"
+    link: https://cursos.alura.com.br/course/automacao-n8n-integracao-apis-rest

@@ -1,0 +1,17 @@
+name: "Engenharia de software na era da IA: trabalhando com legado, escala e múltiplos serviços"
+logo: ""
+short-description: "IA aplicada a sistemas legados e múltiplos serviços: mapear arquitetura, refatorar dívida técnica e manter testes num monorepo."
+key-objectives:
+  - "Mapeie a arquitetura e as dependências entre front-end, microserviços e bibliotecas compartilhadas."
+  - "Identifique pontos de dívida técnica e proponha refatorações para melhorar legibilidade e separação de responsabilidades."
+  - "Implemente e mantenha uma suíte de testes (unitários, integração e E2E) para assegurar a estabilidade de mudanças."
+  - "Aplique práticas de segurança em APIs, gerenciamento de variáveis sensíveis e logging adequado para diagnóstico."
+  - "Utilize IA para gerar features, subagentes e documentação assistida, atuando como revisor das entregas automatizadas."
+  - "Organize e padronize um monorepo com NX para compartilhar componentes entre Angular e React e facilitar builds."
+  - "Automatize processos de evolução do projeto e monitore a dívida técnica para priorizar melhorias contínuas."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Engenharia de software na era da IA: trabalhando com legado, escala e múltiplos serviços"
+    link: https://cursos.alura.com.br/course/ia-legado-escala-multiplos-servicos

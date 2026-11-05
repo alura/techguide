@@ -60,13 +60,8 @@ export async function getStaticPaths(ctx) {
   });
 
   const paths = data.guides.reduce((acc, guide) => {
-    const cards = [
-      ...guide.collaborations[0].cards,
-      ...guide.collaborations[1].cards,
-      ...guide.expertises[0].cards,
-      ...guide.expertises[1].cards,
-      ...guide.expertises[2].cards,
-    ]
+    const cards = [...guide.collaborations, ...guide.expertises]
+      .flatMap((group) => group?.cards || [])
       .map((card) => card?.item?.slug)
       .filter(Boolean);
 

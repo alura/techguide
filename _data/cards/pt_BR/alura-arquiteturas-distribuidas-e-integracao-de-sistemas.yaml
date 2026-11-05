@@ -1,0 +1,16 @@
+name: "Sistemas distribuídos: integrações resilientes e orientadas a eventos"
+logo: ""
+short-description: "Sistemas distribuídos: integrações assíncronas, eventos e padrões de resiliência."
+key-objectives:
+  - "Diferencie comunicações síncronas e assíncronas e avalie seus impactos no acoplamento, resiliência e desempenho do sistema."
+  - "Aplique padrões de resiliência (Circuit Breaker, Retry com backoff exponencial, Bulkhead e Timeouts) para evitar falhas em cascata."
+  - "Projete soluções orientadas a eventos definindo produtores, canais e consumidores e selecionando padrões de eventos adequados (Event Notification, Event Carried State Transfer, Event Sourcing)."
+  - "Gerencie consistência e transações em ambientes distribuídos usando estratégias ACID/BASE, sagas e mecanismos de compensação para resolver conflitos."
+  - "Desenhe integrações entre sistemas legados e microsserviços empregando padrões como CQRS, Transactional Outbox e Change Data Capture."
+  - "Avalie e escolha tecnologias de mensageria (Kafka, RabbitMQ), considerando garantias de entrega, idempotência, ordenação e monitoramento operacional."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Sistemas distribuídos: integrações resilientes e orientadas a eventos"
+    link: https://cursos.alura.com.br/course/arquiteturas-distribuidas-e-integracao-de-sistemas

@@ -1,0 +1,16 @@
+name: "Engenharia de software na era da IA: MCP servers, tools e integrações para agentes de IA"
+logo: ""
+short-description: "Criação de MCP servers em Node.js e TypeScript para dar ferramentas e integrações a agentes de IA."
+key-objectives:
+  - "Entenda o que é MCP e identifique quando criar um MCP server customizado."
+  - "Implemente um MCP server customizado usando Node.js e TypeScript para orquestrar agentes."
+  - "Teste e debuge integrações com o MCP Inspector, manipulando tokens, ferramentas e prompts."
+  - "Integre o MCP server ao Supabase com autenticação segura, regras de Row Level Security e operações CRUD."
+  - "Automatize revisões de pull requests com o GitHub MCP e aplique validações estruturadas com Zod."
+  - "Otimize builds e gerencie conexões e configurações via .mcp.json e registries comunitários."
+aditional-objectives: []
+contents: []
+alura-contents:
+  - type: COURSE
+    title: "Engenharia de software na era da IA: MCP servers, tools e integrações para agentes de IA"
+    link: https://cursos.alura.com.br/course/ia-mcp-servers-tools-integracao
