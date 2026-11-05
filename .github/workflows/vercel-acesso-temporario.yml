@@ -1,0 +1,50 @@
+# TEMPORÁRIO: roda uma vez pelo PR e depois é removido.
+# Usa o VERCEL_TOKEN que o deploy já usa para (1) trocar o Node do projeto
+# para 24.x, exigido pela Vercel desde 10/2026, e (2) convidar uma conta
+# da Alura para o time, porque ninguém consegue mais logar na conta admin.
+name: Vercel - acesso temporário
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/vercel-acesso-temporario.yml'
+
+env:
+  VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+
+jobs:
+  node-24-e-convite:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confere o projeto
+        run: |
+          code=$(curl -s -o resp.json -w '%{http_code}' \
+            "https://api.vercel.com/v9/projects/${VERCEL_PROJECT_ID}?teamId=${VERCEL_ORG_ID}" \
+            -H "Authorization: Bearer ${VERCEL_TOKEN}")
+          echo "HTTP $code"
+          jq '{id, name, accountId, nodeVersion}' resp.json || cat resp.json
+          test "$code" = "200"
+
+      - name: Troca o Node.js Version para 24.x
+        run: |
+          code=$(curl -s -o resp.json -w '%{http_code}' -X PATCH \
+            "https://api.vercel.com/v9/projects/${VERCEL_PROJECT_ID}?teamId=${VERCEL_ORG_ID}" \
+            -H "Authorization: Bearer ${VERCEL_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d '{"nodeVersion":"24.x"}')
+          echo "HTTP $code"
+          jq '{id, name, nodeVersion}' resp.json || cat resp.json
+          test "$code" = "200"
+
+      - name: Convida conteudo@alura.com.br como Owner do time
+        run: |
+          code=$(curl -s -o resp.json -w '%{http_code}' -X POST \
+            "https://api.vercel.com/v1/teams/${VERCEL_ORG_ID}/members" \
+            -H "Authorization: Bearer ${VERCEL_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d '{"email":"conteudo@alura.com.br","role":"OWNER"}')
+          echo "HTTP $code"
+          cat resp.json; echo
+          test "$code" = "200"
