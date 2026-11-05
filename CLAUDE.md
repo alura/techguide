@@ -21,8 +21,11 @@ carreira no formato do profissional em T. Todo o conteúdo vive em YAML:
 
 ## Regras do repositório
 
-1. **Nunca commitar na `main`.** O CI roda só em `pull_request`. Todo push na
-   `main` publica em produção sem checagem nenhuma. Sempre abrir PR.
+1. **Conteúdo e código entram por PR.** O CI roda só em `pull_request`, e todo push
+   na `main` publica em produção sem checagem nenhuma. O PR é o único lugar onde o
+   site é montado e um preview é gerado antes de ir ao ar. Arquivos que o site não
+   lê (`CLAUDE.md`, `README.md`, `docs/`) podem ir direto na `main`; o deploy roda
+   do mesmo jeito, mas não há o que testar.
 2. **Merge é squash.** O histórico não mostra commits de merge; isso não significa
    que alguém commitou direto.
 3. **Mensagens de commit** no formato `tipo: descrição` (`feat`, `fix`, `docs`,
